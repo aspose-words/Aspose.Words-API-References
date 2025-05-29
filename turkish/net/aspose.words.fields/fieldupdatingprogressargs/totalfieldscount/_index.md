@@ -2,8 +2,8 @@
 title: FieldUpdatingProgressArgs.TotalFieldsCount
 linktitle: TotalFieldsCount
 articleTitle: TotalFieldsCount
-second_title: Aspose.Words for .NET
-description: FieldUpdatingProgressArgs TotalFieldsCount mülk. Güncellenecek toplam alan sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş performans için alan güncellemelerini etkin bir şekilde izlemek ve yönetmek amacıyla FieldUpdatingProgressArgs'daki TotalFieldsCount özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -22,7 +22,7 @@ Değer sabit değildir ve güncelleme işlemi sırasında artırılabilir.
 
 ## Örnekler
 
-Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
+Bir alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

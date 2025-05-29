@@ -2,10 +2,10 @@
 title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertSignatureLine yöntem. Geçerli konuma bir imza satırı ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder InsertSignatureLine yöntemi ile belgelerinize zahmetsizce profesyonel imza satırları ekleyin. İş akışınızı bugün geliştirin!
 type: docs
-weight: 440
+weight: 470
 url: /tr/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
@@ -22,11 +22,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ### Geri dönüş değeri
 
-Yeni eklenen imza satırı düğümü.
+Az önce eklenen imza satırı düğümü.
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -97,19 +97,19 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | İmza satırı oluşturma parametrelerinin saklandığı nesne. |
-| horzPos | RelativeHorizontalPosition | İmza çizgisine olan mesafenin nereden ölçüleceğini belirtir. |
-| left | Double | Başlangıç noktasından imza çizgisinin sol tarafına kadar olan nokta cinsinden mesafe. |
-| vertPos | RelativeVerticalPosition | İmza çizgisine olan mesafenin nereden ölçüldüğünü belirtir. |
-| top | Double | Başlangıç noktasından imza çizgisinin üst kısmına kadar olan nokta cinsinden mesafe. |
-| wrapType | WrapType | Metnin imza satırı etrafına nasıl sarılacağını belirtir. |
+| horzPos | RelativeHorizontalPosition | İmza satırına olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | İmza çizgisinin sol tarafına kadar olan başlangıç noktasından noktasal uzaklık. |
+| vertPos | RelativeVerticalPosition | İmza satırına olan mesafenin nereden ölçüleceğini belirtir. |
+| top | Double | İmza çizgisinin başlangıç noktasından üst kısmına kadar olan mesafe. |
+| wrapType | WrapType | İmza satırının etrafına metnin nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
-Yeni eklenen imza satırı düğümü.
+Az önce eklenen imza satırı düğümü.
 
 ## Notlar
 
-'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu metot tarafından döndürülen nesne.
 
 ## Örnekler
 
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// İmza satırı Microsoft Word'de çift tıklanarak imzalanabilir.
+// Microsoft Word'de imza satırına çift tıklanarak imza atılabilir.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

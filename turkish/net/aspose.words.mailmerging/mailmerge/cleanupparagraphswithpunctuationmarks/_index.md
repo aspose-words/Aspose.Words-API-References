@@ -2,15 +2,15 @@
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
 linktitle: CleanupParagraphsWithPunctuationMarks
 articleTitle: CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words for .NET
-description: MailMerge CleanupParagraphsWithPunctuationMarks mülk. Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve eğerRemoveEmptyParagraphs seçenek belirtildi C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge'inizi CleanupParagraphsWithPunctuationMarks özelliğiyle optimize edin. Daha temiz, profesyonel belgeler için boş paragraf kaldırmayı kontrol edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve eğerRemoveEmptyParagraphs seçenek belirtildi.
+Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve kaldırılıp kaldırılmayacağını belirten bir değer alır veya ayarlar.RemoveEmptyParagraphs seçenek belirtildi.
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
@@ -20,7 +20,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 
 Varsayılan değer:`doğru` .
 
-Temizlenebilir noktalama işaretlerinin tam listesi:
+İşte temizlenebilir noktalama işaretlerinin tam listesi:
 
 * !
 * ,
@@ -33,7 +33,7 @@ Temizlenebilir noktalama işaretlerinin tam listesi:
 
 ## Örnekler
 
-Adres-mektup birleştirme işleminden sonra noktalama işaretli paragrafların nasıl kaldırılacağını gösterir.
+Bir posta birleştirme işleminden sonra noktalama işaretli paragrafların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,14 +47,14 @@ builder.Write(punctuationMark);
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.InsertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.FieldName = "Option_2";
 
-// Bu adres-mektup birleştirmenin oluşturacağı boş paragrafları kaldırmak için "CleanupOptions" özelliğini yapılandırın.
+// Bu posta birleştirme işleminin oluşturacağı boş paragrafları kaldırmak için "CleanupOptions" özelliğini yapılandırın.
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
-// "CleanupParagraphsWithPunctuationMarks" özelliğinin "true" olarak ayarlanması paragrafları da sayar
-// noktalama işaretleri boş olarak kullanılır ve adres-mektup birleştirme işleminin bunları da kaldırmasını sağlar.
+// "CleanupParagraphsWithPunctuationMarks" özelliğini "true" olarak ayarlamak paragrafları da sayacaktır
+// noktalama işaretleri boş olarak eklenecek ve birleştirme işlemiyle bunların da kaldırılması sağlanacaktır.
 // "CleanupParagraphsWithPunctuationMarks" özelliğini "false" olarak ayarlama
-// boş paragrafları kaldıracak, ancak noktalama işaretlerini kaldıracak.
-// Bu, bu özelliğin ilgili olduğu noktalama işaretlerinin bir listesidir: "!", ",", ".", ":", ";", "?", "¡", "¿".
+// boş paragrafları kaldıracak, ancak noktalama işaretli olanları kaldırmayacak.
+// Bu özelliğin ilgilendiği noktalama işaretlerinin listesi şöyledir: "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });

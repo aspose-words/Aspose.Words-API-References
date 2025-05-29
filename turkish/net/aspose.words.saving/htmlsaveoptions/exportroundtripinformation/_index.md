@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportRoundtripInformation mülk. HTML MHTML veya EPUBa kaydederken gidişdönüş bilgilerinin yazıp yazmayacağını belirtir. Varsayılan değerdoğru HTML için veYANLIŞ MHTML ve EPUB. için C#'da.
+second_title: .NET için Aspose.Words
+description: HTML, MHTML ve EPUB formatlarındaki gidiş dönüş verilerini kontrol etmek için HtmlSaveOptions' ExportRoundtripInformation özelliğini keşfedin. Bugün ihracatlarınızı optimize edin!
 type: docs
 weight: 240
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-HTML, MHTML veya EPUB'a kaydederken gidiş-dönüş bilgilerinin yazıp yazmayacağını belirtir. Varsayılan değer:`doğru` HTML için ve`YANLIŞ` MHTML ve EPUB. için
+HTML, MHTML veya EPUB'a kaydederken gidiş-dönüş bilgilerinin yazılıp yazılmayacağını belirtir. Varsayılan değer`doğru` HTML ve için`YANLIŞ` MHTML ve EPUB için.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -18,11 +18,11 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## Notlar
 
-Gidiş dönüş bilgilerinin kaydedilmesi, HTML belgelerinin bir bilgisayara geri yüklenmesi sırasında sekme durakları, yorumlar, üstbilgiler ve altbilgiler gibi belge özelliklerinin geri yüklenmesine olanak tanır.[`Document`](../../../aspose.words/document/) nesne.
+Gidiş-dönüş bilgilerinin kaydedilmesi, HTML belgelerinin bir belgeye geri yüklenmesi sırasında sekme durakları, yorumlar, üstbilgiler ve altbilgiler gibi belge özelliklerinin geri yüklenmesine olanak tanır.[`Document`](../../../aspose.words/document/) nesne.
 
-Ne zaman`doğru`, gidiş dönüş bilgileri karşılık gelen HTML öğelerinin -aw-* CSS özellikleri olarak dışa aktarılır.
+Ne zaman`doğru`, gidiş dönüş bilgileri, karşılık gelen HTML öğelerinin -aw-* CSS properties biçiminde dışa aktarılır.
 
-Ne zaman`YANLIŞ`, üretilen dosyalara hiçbir gidiş-dönüş bilgisinin gönderilmesine neden olmaz.
+Ne zaman`YANLIŞ`, üretilen dosyalara gidiş dönüş bilgisinin çıktı olarak verilmesine neden olmaz.
 
 ## Örnekler
 
@@ -32,16 +32,16 @@ Ne zaman`YANLIŞ`, üretilen dosyalara hiçbir gidiş-dönüş bilgisinin gönde
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Bir belgeyi .html'ye dönüştürürken gizli yer imleri, orijinal şekil konumları gibi bazı öğeler,
-// veya dipnotlar ya kaldırılacak ya da düz metne dönüştürülecek ve etkin bir şekilde kaybolacaktır.
-// ExportRoundtripInformation true olarak ayarlanmış bir HtmlSaveOptions nesnesiyle kaydetmek, bu öğeleri koruyacaktır.
+// veya dipnotlar ya kaldırılacak ya da düz metne dönüştürülecek ve etkili bir şekilde kaybolacaktır.
+// ExportRoundtripInformation değeri true olarak ayarlanmış bir HtmlSaveOptions nesnesiyle kaydetmek bu öğeleri koruyacaktır.
 
-// Belgeyi HTML'ye kaydettiğimizde, belirlemek için bir SaveOptions nesnesini iletebiliriz.
+// Belgeyi HTML'e kaydettiğimizde, SaveOptions nesnesini belirlemek için bir SaveOptions nesnesi geçirebiliriz.
 // kaydetme işleminin HTML'nin desteklemediği veya kullanmadığı belge öğelerini nasıl dışa aktaracağı,
 // gizli yer imleri ve orijinal şekil konumları gibi.
-// "ExportRoundtripInformation" flagını "true" olarak ayarlarsak kaydetme işlemi bu elemanları koruyacaktır.
-// "ExportRoundTripInformation" bayrağını "false" olarak ayarlarsak, kaydetme işlemi bu elemanları atacaktır.
-// Kaydedilen HTML'yi Aspose.Words kullanarak yüklemek istiyorsak bu tür öğeleri korumak isteyeceğiz,
-// bir kez daha işe yarayabilecekleri için.
+// "ExportRoundtripInformation" bayrağını "true" olarak ayarlarsak, kaydetme işlemi bu öğeleri koruyacaktır.
+// "ExportRoundTripInformation" bayrağını "false" olarak ayarlarsak, kaydetme işlemi bu öğeleri atacaktır.
+// Kaydedilen HTML'yi Aspose.Words kullanarak yüklemeyi planlıyorsak bu tür öğeleri korumak isteyeceğiz.
+// bir kez daha işe yarayabilirler.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

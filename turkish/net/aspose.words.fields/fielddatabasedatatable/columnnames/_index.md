@@ -2,8 +2,8 @@
 title: FieldDatabaseDataTable.ColumnNames
 linktitle: ColumnNames
 articleTitle: ColumnNames
-second_title: Aspose.Words for .NET
-description: FieldDatabaseDataTable ColumnNames mülk. Bu tabloya ait sütunları alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri organizasyonu ve analizi için tablo sütunlarına kolayca erişmek ve bunları yönetmek üzere FieldDatabaseDataTable'ın ColumnNames özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddatabasedatatable/columnnames/

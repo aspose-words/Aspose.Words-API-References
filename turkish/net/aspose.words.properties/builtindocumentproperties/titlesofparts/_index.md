@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.TitlesOfParts
 linktitle: TitlesOfParts
 articleTitle: TitlesOfParts
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties TitlesOfParts mülk. Dizideki her dize belgedeki bir parçanın adını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties'deki TitlesOfParts özelliğini keşfedin. Gelişmiş organizasyon için net, özelleştirilebilir parça adlarıyla belge bölümlerini kolayca yönetin.
 type: docs
-weight: 300
+weight: 330
 url: /tr/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
@@ -27,10 +27,10 @@ Aspose.Words bu özelliği güncellemez.
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Bu koleksiyonların birleştirilmiş değerlerini şu şekilde bulabiliriz:
-// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" --> "İçerik" sekmesi.
-// HeadingPairs özelliği <string, int> bunu eşleştir
-// bir başlığın kaç belge parçasına yayılacağını belirler.
+// Bu koleksiyonların birleşik değerlerini şu şekilde bulabiliriz:
+// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" -> "İçerikler" sekmesi.
+// HeadingPairs özelliği, <string, int> çiftlerinin bir koleksiyonudur
+// Bir başlığın kaç belge parçasına yayılacağını belirler.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
 // TitlesOfParts özelliği yukarıdaki başlıklara ait parçaların adlarını içerir.

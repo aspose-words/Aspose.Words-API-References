@@ -2,10 +2,10 @@
 title: DocumentBuilder.MoveToField
 linktitle: MoveToField
 articleTitle: MoveToField
-second_title: Aspose.Words for .NET
-description: DocumentBuilder MoveToField yöntem. İmleci belgedeki bir alana taşır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder MoveToField yöntemi ile belgelerinizde zahmetsizce gezinin, düzenleme verimliliğini artırmak için imleci herhangi bir alana hızlı bir şekilde taşıyın.
 type: docs
-weight: 530
+weight: 570
 url: /tr/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,29 +19,29 @@ public void MoveToField(Field field, bool isAfter)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | field | Field | İmlecin taşınacağı alan. |
-| isAfter | Boolean | Ne zaman`doğru` , imleci alanın sonundan sonraya taşır. Ne zaman`YANLIŞ`, imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
+| isAfter | Boolean | Ne zaman`doğru` , imleci alan sonundan sonraya taşır. `YANLIŞ`, imleci alan başlangıcından önceye taşır. |
 
 ## Örnekler
 
-Belge oluşturucunun düğüm ekleme noktası imlecinin belirli bir alana nasıl taşınacağını gösterir.
+Bir belge oluşturucunun düğüm ekleme noktası imlecinin belirli bir alana nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder'ı kullanarak bir alan ekleyin ve ardından bir metin dizisi ekleyin.
+// DocumentBuilder'ı kullanarak bir alan ekleyin ve ardından bir metin parçası ekleyin.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// Oluşturucunun imleci şu anda belgenin sonundadır.
+// Oluşturucunun imleci şu anda belgenin sonunda.
 Assert.Null(builder.CurrentNode);
 
-// İmlecin alanın önüne mi yoksa arkasına mı yerleştirileceğini belirlerken imleci alana taşıyın.
+// İmleci alana taşıyın ve imlecin alanın önüne mi yoksa arkasına mı yerleştirileceğini belirtin.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // Her iki durumda da imlecin alanın dışında olduğuna dikkat edin.
-// Bu, oluşturucuyu bu şekilde kullanarak alanı düzenleyemeyeceğimiz anlamına gelir.
-// Bir alanı düzenlemek için, alanın FieldStart'ında oluşturucunun MoveTo yöntemini kullanabiliriz
-// veya İmleci içeriye yerleştirmek için FieldSeparator düğümü.
+// Bu, alanı oluşturucuyu kullanarak bu şekilde düzenleyemeyeceğimiz anlamına gelir.
+// Bir alanı düzenlemek için, alanın FieldStart'ında oluşturucunun MoveTo metodunu kullanabiliriz
+// veya imlecin içine yerleştirileceği FieldSeparator düğümü.
 if (moveCursorToAfterTheField)
 {
     Assert.Null(builder.CurrentNode);

@@ -2,17 +2,17 @@
 title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult sınıf. Karşılaştırma değerlendirme sonucu C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge karşılaştırma analizi için Aspose.Words.Fields.ComparisonEvaluationResult sınıfını keşfedin. İçgörüleri açığa çıkarın ve iş akışınızı geliştirin!
 type: docs
-weight: 1480
+weight: 1890
 url: /tr/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 Karşılaştırma değerlendirme sonucu.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -22,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | İsim | Tanım |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Karşılaştırma değerlendirme sonucu oluşturur. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | İlgili hata mesajıyla birlikte başarısız bir karşılaştırma değerlendirme sonucu oluşturur. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Bir karşılaştırma değerlendirme sonucu oluşturur. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Karşılık gelen hata mesajıyla başarısız bir karşılaştırma değerlendirme sonucu oluşturur. |
 
 ## Özellikleri
 
@@ -47,11 +47,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Bu örnekte kullandığımız alan kodları:
-    // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
+    // 1. " EĞER {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
+    // 2. " {0} {1} {2}'yi KARŞILAŞTIR ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
+    // Eğer "comparisonResult" tanımsızsa, "ComparisonEvaluationResult"u bool yerine string ile oluşturuyoruz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -73,6 +73,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

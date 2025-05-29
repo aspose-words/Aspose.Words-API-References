@@ -2,15 +2,15 @@
 title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
-second_title: Aspose.Words for .NET
-description: PageInfo Colored mülk. İadelerdoğru sayfa renkli içerik içeriyorsa C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfanızın canlı renkli içeriklere sahip olup olmadığını PageInfo Colored özelliğiyle keşfedin. Kullanıcı etkileşimini artırın ve görsel çekiciliği geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/pageinfo/colored/
 ---
 ## PageInfo.Colored property
 
-İadeler`doğru` sayfa renkli içerik içeriyorsa.
+Geri Döndürür`doğru` eğer sayfa renkli içerik içeriyorsa.
 
 ```csharp
 public bool Colored { get; }

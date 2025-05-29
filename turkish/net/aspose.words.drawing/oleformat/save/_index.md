@@ -2,8 +2,8 @@
 title: OleFormat.Save
 linktitle: Save
 articleTitle: Save
-second_title: Aspose.Words for .NET
-description: OleFormat Save yöntem. Gömülü nesnenin verilerini belirtilen akışa kaydeder C#'da.
+second_title: .NET için Aspose.Words
+description: Seçtiğiniz akışta gömülü nesne verilerini verimli bir şekilde depolamak için OleFormat Save yöntemini keşfedin. Veri yönetimini kolaylıkla geliştirin!
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/oleformat/save/
@@ -24,15 +24,15 @@ public void Save(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalışırsanız fırlatılır. |
+| InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalıştığınızda fırlatır. |
 
 ## Notlar
 
-Akışın imha edilmesi arayanın sorumluluğundadır.
+Akışı bertaraf etmek arayanın sorumluluğundadır.
 
 ## Örnekler
 
-Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
+Gömülü OLE nesnelerinin dosyalara nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -43,7 +43,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nesnemiz ne otomatik güncelleniyor ne de güncellemelerden kilitli.
+// Nesnemiz ne otomatik güncelleniyor ne de güncellemelere kapalı.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -51,7 +51,7 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // Dosyaya hangi dosya uzantısının uygulanacağını belirlemek için "SuggestedExtension" özelliğini kullanabiliriz.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu verilmiştir.
+// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu bulunmaktadır.
 // 1 - Bir akış aracılığıyla kaydedin:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
@@ -72,7 +72,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(*string*) {#save_1}
 
-Gömülü nesnenin verilerini belirtilen adda bir dosyaya kaydeder.
+Gömülü nesnenin verilerini belirtilen adla bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fileName)
@@ -80,17 +80,17 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | OLE nesne verilerinin kaydedileceği dosyanın adı. |
+| fileName | String | OLE nesnesi verilerinin kaydedileceği dosyanın adı. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalışırsanız fırlatılır. |
+| InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalıştığınızda fırlatır. |
 
 ## Örnekler
 
-Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
+Gömülü OLE nesnelerinin dosyalara nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -101,7 +101,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nesnemiz ne otomatik güncelleniyor ne de güncellemelerden kilitli.
+// Nesnemiz ne otomatik güncelleniyor ne de güncellemelere kapalı.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -109,7 +109,7 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // Dosyaya hangi dosya uzantısının uygulanacağını belirlemek için "SuggestedExtension" özelliğini kullanabiliriz.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu verilmiştir.
+// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu bulunmaktadır.
 // 1 - Bir akış aracılığıyla kaydedin:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {

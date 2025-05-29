@@ -2,15 +2,15 @@
 title: OleFormat.SuggestedFileName
 linktitle: SuggestedFileName
 articleTitle: SuggestedFileName
-second_title: Aspose.Words for .NET
-description: OleFormat SuggestedFileName mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gömülü nesnelerinizi sorunsuz bir şekilde kaydetmek için önerilen dosya adını kolayca almak amacıyla OleFormat SuggestedFileName özelliğini keşfedin.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/oleformat/suggestedfilename/
 ---
 ## OleFormat.SuggestedFileName property
 
-Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, önerilen dosya adını alır.
+Mevcut gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, nesne için önerilen dosya adını alır.
 
 ```csharp
 public string SuggestedFileName { get; }
@@ -23,10 +23,10 @@ Bir OLE nesnesinin önerilen dosya adının nasıl alınacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "OLE shape.rtf");
 
-Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
+Shape oleShape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
-// OLE nesneleri önerilen bir dosya adı ve uzantısı sağlayabilir,
-// bunu nesnenin içeriğini yerel dosya sistemindeki bir dosyaya kaydederken kullanabiliriz.
+// OLE nesneleri önerilen bir dosya adı ve uzantı sağlayabilir,
+// yerel dosya sistemindeki bir dosyaya nesnenin içeriğini kaydederken kullanabiliriz.
 string suggestedFileName = oleShape.OleFormat.SuggestedFileName;
 
 Assert.AreEqual("CSV.csv", suggestedFileName);

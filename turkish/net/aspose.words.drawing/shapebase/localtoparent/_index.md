@@ -2,15 +2,15 @@
 title: ShapeBase.LocalToParent
 linktitle: LocalToParent
 articleTitle: LocalToParent
-second_title: Aspose.Words for .NET
-description: ShapeBase LocalToParent yöntem. Yerel koordinat alanından bir değeri üst şeklin koordinat alanına dönüştürür C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase LocalToParent yöntemi ile yerel koordinatları ana şekil alanına dönüştürün. 3B modelleme projelerinizde hassasiyeti bugün artırın!
 type: docs
-weight: 670
+weight: 680
 url: /tr/net/aspose.words.drawing/shapebase/localtoparent/
 ---
 ## ShapeBase.LocalToParent method
 
-Yerel koordinat alanından bir değeri üst şeklin koordinat alanına dönüştürür.
+Yerel koordinat alanındaki bir değeri ana şeklin koordinat alanına dönüştürür.
 
 ```csharp
 public PointF LocalToParent(PointF value)
@@ -18,41 +18,41 @@ public PointF LocalToParent(PointF value)
 
 ## Örnekler
 
-Bir şeklin koordinat düzlemindeki x ve y koordinat konumunun üst şeklin koordinat düzlemindeki bir konuma nasıl çevrileceğini gösterir.
+Bir şeklin koordinat düzlemindeki x ve y koordinat konumunun, ana şeklin koordinat düzlemindeki bir konuma nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bir grup şekli ekleyin ve onu 100 puan aşağıya ve sağına yerleştirin
-// belgenin x ve Y koordinatı başlangıç noktası.
+// Bir grup şekli ekleyin ve onu 100 puan aşağı ve sağına yerleştirin
+// belgenin x ve Y koordinatlarındaki başlangıç noktası.
 GroupShape group = new GroupShape(doc);
 group.Bounds = new RectangleF(100, 100, 500, 500);
 
 // Grubun dahili x ve y koordinatlarında (0, 0) olduğunu belirlemek için "LocalToParent" yöntemini kullanın
-// ana şeklin koordinat sisteminin (100, 100) üzerinde yer alır. Grup şeklinin üst öğesi belgenin kendisidir.
+// ebeveyn şeklinin koordinat sisteminin (100, 100) noktasında yer alır. Grup şeklinin ebeveyni belgenin kendisidir.
 Assert.AreEqual(new PointF(100, 100), group.LocalToParent(new PointF(0, 0)));
 
-// Varsayılan olarak, bir şeklin iç koordinat düzleminin sol üst köşesi (0, 0)'dadır,
-// ve sağ alt köşede (1000, 1000). Büyüklüğü nedeniyle grup şeklimiz 500pt x 500pt alanı kaplamaktadır.
-// belgenin düzleminde. Bu, belgenin koordinat düzleminde 1 puntoluk bir hareketin tercüme edileceği anlamına gelir
-// grup şeklinin koordinat düzleminde 2 puanlık bir harekete.
+// Varsayılan olarak, bir şeklin dahili koordinat düzleminin sol üst köşesi (0, 0) konumundadır,
+// ve sağ alt köşede (1000, 1000). Boyutu nedeniyle, grup şeklimiz 500pt x 500pt'lik bir alanı kaplar
+// belgenin düzleminde. Bu, belgenin koordinat düzleminde 1pt'lik bir hareketin çevrileceği anlamına gelir
+// grup şeklinin koordinat düzleminde 2pt'lik bir harekete.
 Assert.AreEqual(new PointF(150, 150), group.LocalToParent(new PointF(100, 100)));
 Assert.AreEqual(new PointF(200, 200), group.LocalToParent(new PointF(200, 200)));
 Assert.AreEqual(new PointF(250, 250), group.LocalToParent(new PointF(300, 300)));
 
-// Grup şeklinin x ve y eksenini sol üst köşeden merkeze taşıyın.
-// Bu, grubun iç koordinatlarını belgenin koordinatlarına göre daha da fazla kaydıracaktır.
+// Grup şeklinin x ve y eksenlerinin başlangıcını sol üst köşeden merkeze taşı.
+// Bu, grubun iç koordinatlarını belgenin koordinatlarına göre daha da kaydıracaktır.
 group.CoordOrigin = new Point(-250, -250);
 
 Assert.AreEqual(new PointF(375, 375), group.LocalToParent(new PointF(300, 300)));
 
-// Koordinat düzleminin ölçeğinin değiştirilmesi göreceli konumları da etkileyecektir.
+// Koordinat düzleminin ölçeğinin değiştirilmesi, göreceli konumları da etkileyecektir.
 group.CoordSize = new Size(500, 500);
 
 Assert.AreEqual(new PointF(650, 650), group.LocalToParent(new PointF(300, 300)));
 
-// Bu gruba belgedeki bir konuma göre konumunu tanımlarken bir şekil eklemek istersek,
-// öncelikle grup şeklinde belgenin konumuyla eşleşecek bir konumu onaylamamız gerekecek.
+// Belgedeki bir konuma göre konumunu tanımlayarak bu gruba bir şekil eklemek istersek,
+// Öncelikle belgenin konumuyla eşleşecek grup şeklindeki bir konumu onaylamamız gerekecek.
 Assert.AreEqual(new PointF(700, 700), group.LocalToParent(new PointF(350, 350)));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle)

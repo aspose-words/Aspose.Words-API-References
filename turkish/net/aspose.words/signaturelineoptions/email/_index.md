@@ -2,15 +2,15 @@
 title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
-second_title: Aspose.Words for .NET
-description: SignatureLineOptions Email mülk. Önerilen imzalayanın eposta adresini alır veya ayarlar. Bu özellik için varsayılan değerboş dize Empty C#'da.
+second_title: .NET için Aspose.Words
+description: SignatureLineOptions ile önerilen imzalayan e-posta adreslerini zahmetsizce yönetin. Sorunsuz iletişim için özelleştirilebilir seçeneklerle e-posta iş akışınızı geliştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özellik için varsayılan değer:**boş dize** (Empty).
+Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özellik için varsayılan değer**boş dize** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -18,7 +18,7 @@ public string Email { get; set; }
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

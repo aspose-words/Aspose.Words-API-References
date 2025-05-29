@@ -2,17 +2,17 @@
 title: ImageWatermarkOptions Class
 linktitle: ImageWatermarkOptions
 articleTitle: ImageWatermarkOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ImageWatermarkOptions sınıf. Resimle filigran eklenirken belirlenebilecek seçenekleri içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.ImageWatermarkOptions'ı keşfedin. Gelişmiş belge sunumu için çok yönlü seçeneklerle görüntü filigranlarınızı zahmetsizce özelleştirin.
 type: docs
-weight: 3220
+weight: 3670
 url: /tr/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
 
-Resimle filigran eklenirken belirlenebilecek seçenekleri içerir.
+Resimle filigran eklerken belirtilebilecek seçenekleri içerir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Filigranla Çalışmak](https://docs.aspose.com/words/net/working-with-watermark/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Filigranla Çalışma](https://docs.aspose.com/words/net/working-with-watermark/) belgeleme makalesi.
 
 ```csharp
 public class ImageWatermarkOptions
@@ -28,8 +28,38 @@ public class ImageWatermarkOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Filigranın silinme etkisinden sorumlu olan bir boole değeri alır veya ayarlar. Varsayılan değer:`doğru` . |
-| [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0'dır - auto. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Filigranın silinme etkisinden sorumlu olan bir Boole değeri alır veya ayarlar. Varsayılan değer`doğru` . |
+| [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Görüntünün bir kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0'dır - auto. |
+
+## Örnekler
+
+Yerel dosya sistemindeki bir görüntüden filigranın nasıl oluşturulacağını gösterir.
+
+```csharp
+Document doc = new Document();
+
+            // Resim filigranının görünümünü ImageWatermarkOptions nesnesiyle değiştirin,
+            // daha sonra bir resim dosyasından filigran oluştururken bunu geçirin.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // Resim eklemek için farklı seçeneklerimiz var:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
 
 ### Ayrıca bakınız
 

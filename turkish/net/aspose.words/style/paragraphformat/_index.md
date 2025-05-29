@@ -2,15 +2,15 @@
 title: Style.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
-second_title: Aspose.Words for .NET
-description: Style ParagraphFormat mülk. Stilin paragraf formatını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge sunumu ve profesyonel biçimlendirme için stillerin paragraf biçimlendirmesine nasıl erişeceğinizi ve bunları nasıl özelleştireceğinizi keşfedin.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
 
-Stilin paragraf formatını alır.
+Stilin paragraf biçimlendirmesini alır.
 
 ```csharp
 public ParagraphFormat ParagraphFormat { get; }
@@ -22,7 +22,7 @@ Karakter ve liste stilleri için bu özellik şunu döndürür:`hükümsüz`.
 
 ## Örnekler
 
-Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste biçimlendirmesiyle bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stile değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

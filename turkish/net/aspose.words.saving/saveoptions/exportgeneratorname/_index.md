@@ -2,15 +2,15 @@
 title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
-second_title: Aspose.Words for .NET
-description: SaveOptions ExportGeneratorName mülk. Ne zamandoğru  Aspose.Wordsün adının ve sürümünün üretilen dosyalara yerleştirilmesine neden olur. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions ExportGeneratorName özelliğiyle belgelerinizi geliştirin. Daha iyi izlenebilirlik için Aspose.Words adını ve sürümünü gömün. Varsayılan, true.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-Ne zaman`doğru` , Aspose.Words'ün adının ve sürümünün üretilen dosyalara yerleştirilmesine neden olur. Varsayılan değer:`doğru` .
+Ne zaman`doğru` , Aspose.Words adının ve sürümünün üretilen dosyalara gömülmesine neden olur. Varsayılan değer`doğru` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }
@@ -18,7 +18,7 @@ public bool ExportGeneratorName { get; set; }
 
 ## Örnekler
 
-Aspose.Words'ün adının ve sürümünün üretilen dosyalara eklenmesinin nasıl devre dışı bırakılacağını gösterir.
+Üretilen dosyalara Aspose.Words adının ve sürümünün eklenmesinin nasıl devre dışı bırakılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

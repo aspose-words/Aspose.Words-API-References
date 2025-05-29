@@ -2,15 +2,15 @@
 title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
-second_title: Aspose.Words for .NET
-description: CssSavingArgs IsExportNeeded mülk. CSSnin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılandoğru . Bu özellik kullanıldığındaYANLIŞ  CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir C#'da.
+second_title: .NET için Aspose.Words
+description: CSS dışa aktarımını CssSavingArgs IsExportNeeded özelliğiyle kontrol edin. Optimize edilmiş HTML belgeleri için CSS'yi dosyaya gömmeyi veya kaydetmeyi seçin. Varsayılan, true.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/csssavingargs/isexportneeded/
 ---
 ## CssSavingArgs.IsExportNeeded property
 
-CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılan:`doğru` . Bu özellik kullanıldığında`YANLIŞ` , CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir.
+CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine yerleştirilip yerleştirilmeyeceğini belirtmeye olanak tanır. Varsayılan`doğru` . Bu özellik olduğunda`YANLIŞ` , CSS bilgisi bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir.
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -18,22 +18,22 @@ public bool IsExportNeeded { get; set; }
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -45,7 +45,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

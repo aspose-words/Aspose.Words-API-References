@@ -2,15 +2,15 @@
 title: DocumentPropertyCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
-second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection IndexOf yöntem. Bir özelliğin dizinini ada göre alır C#'da.
+second_title: .NET için Aspose.Words
+description: Bir özelliğin dizinini adına göre verimli bir şekilde bulmak için DocumentPropertyCollection IndexOf yöntemini keşfedin. Kodlama üretkenliğinizi bugün artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.properties/documentpropertycollection/indexof/
 ---
 ## DocumentPropertyCollection.IndexOf method
 
-Bir özelliğin dizinini ada göre alır.
+Bir özelliğin adına göre dizinini alır.
 
 ```csharp
 public int IndexOf(string name)
@@ -45,7 +45,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Belgedeki her özel özelliği yazdırın.
+// Belgedeki her özel özelliği yazdır.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -59,11 +59,11 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Özel" yoluyla bulabiliriz.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
-// 1 - Dizine göre kaldır:
+// 1 - Dizinle kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -75,7 +75,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Koleksiyonun tamamını bir kerede boşaltın:
+// 3 - Tüm koleksiyonu bir defada boşalt:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

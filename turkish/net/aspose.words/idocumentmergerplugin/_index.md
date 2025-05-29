@@ -2,15 +2,15 @@
 title: IDocumentMergerPlugin Interface
 linktitle: IDocumentMergerPlugin
 articleTitle: IDocumentMergerPlugin
-second_title: Aspose.Words for .NET
-description: Aspose.Words.IDocumentMergerPlugin arayüz. Pdf belgelerini birleştirebilecek harici birleştirme eklentisi için bir arayüz tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz PDF belge birleştirme için Aspose.Words.IDocumentMergerPlugin arayüzünü keşfedin. Güçlü harici birleştirme yetenekleriyle iş akışınızı geliştirin!
 type: docs
-weight: 3170
+weight: 3600
 url: /tr/net/aspose.words/idocumentmergerplugin/
 ---
 ## IDocumentMergerPlugin interface
 
-Pdf belgelerini birleştirebilecek harici birleştirme eklentisi için bir arayüz tanımlar.
+Pdf belgelerini birleştirebilen harici birleştirme eklentisi için bir arayüz tanımlar.
 
 ```csharp
 public interface IDocumentMergerPlugin
@@ -20,7 +20,7 @@ public interface IDocumentMergerPlugin
 
 | İsim | Tanım |
 | --- | --- |
-| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, params Stream[]*) | Belirtilen giriş ve çıkış akışlarını kullanarak verilen giriş PDF belgelerini tek bir çıktı PDF belgesinde birleştirir. |
+| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, Stream[], LoadOptions[]*) | Belirtilen giriş ve çıkış akışlarını kullanarak verilen giriş PDF belgelerini tek bir çıkış PDF belgesinde birleştirir. |
 
 ### Ayrıca bakınız
 

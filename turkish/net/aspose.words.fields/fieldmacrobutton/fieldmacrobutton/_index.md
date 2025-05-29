@@ -2,8 +2,8 @@
 title: FieldMacroButton
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
-second_title: Aspose.Words for .NET
-description: FieldMacroButton inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir makro düğmeleri kolayca ve verimli bir şekilde oluşturmak için başvuracağınız çözüm olan FieldMacroButton oluşturucusunu keşfedin. İş akışınızı bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/

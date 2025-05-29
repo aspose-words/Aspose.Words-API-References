@@ -2,15 +2,15 @@
 title: MetafileRenderingOptions.RenderingMode
 linktitle: RenderingMode
 articleTitle: RenderingMode
-second_title: Aspose.Words for .NET
-description: MetafileRenderingOptions RenderingMode mülk. Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Metafile görüntülerinin nasıl işleneceğini kontrol etmek, grafik kalitenizi ve performansınızı artırmak için MetafileRenderingOptions RenderingMode özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar.
+Meta dosyası görüntülerinin nasıl işleneceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -18,11 +18,11 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ## Notlar
 
-Varsayılan değer kaydetme biçimine bağlıdır. Görüntüler için öyleBitmap . Diğer formatlar içinVectorWithFallback.
+Varsayılan değer, kaydetme biçimine bağlıdır. Görüntüler içinBitmap . Diğer formatlar içinVectorWithFallback.
 
 ## Örnekler
 
-Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
+Desteklenmeyen meta dosyası kayıtları hakkında bitmap oluşturma ve uyarı türlerini değiştirmeye yönelik bir geri dönüş eklendi.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -32,14 +32,14 @@ public void HandleBinaryRasterWarnings()
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın
-    // çıktı PDF'sinde görüntü oluşturmak için tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
+    // Çıktı PDF'inde işlenmesi için raster işlemlerinin gerekeceği bir meta dosyasıyla karşılaşır.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Her meta dosyasını vektör grafikleri kullanarak oluşturmayı denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
+    // Her meta dosyasını vektör grafikleri kullanarak işlemeyi denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme ve yapılandırmayı uygulama biçimini değiştirmek için
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye nasıl dönüştüreceğini ve yapılandırmayı nasıl uygulayacağını değiştirmek için
     // MetafileRenderingOptions nesnemizde kaydetme işlemine.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -55,7 +55,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Bir belge kaydedildiğinde oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
+/// Bir belgeyi kaydederken oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

@@ -2,8 +2,8 @@
 title: FieldDatabaseDataRow.CreateFrom
 linktitle: CreateFrom
 articleTitle: CreateFrom
-second_title: Aspose.Words for .NET
-description: FieldDatabaseDataRow CreateFrom yöntem. Yeni bir örneğini başlatırFieldDatabaseDataRow class şuradanDataRow örnek C#'da.
+second_title: .NET için Aspose.Words
+description: CreateFrom metodunu kullanarak bir DataRow'dan zahmetsizce bir FieldDatabaseDataRow örneği oluşturun, böylece veri yönetimini basitleştirin ve verimliliği artırın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/createfrom/

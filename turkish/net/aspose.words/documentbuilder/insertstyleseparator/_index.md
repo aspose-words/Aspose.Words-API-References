@@ -2,15 +2,15 @@
 title: DocumentBuilder.InsertStyleSeparator
 linktitle: InsertStyleSeparator
 articleTitle: InsertStyleSeparator
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertStyleSeparator yöntem. Belgeye stil ayırıcıyı ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi DocumentBuilder InsertStyleSeparator yöntemiyle geliştirin; gelişmiş biçimlendirme ve düzenleme için stil ayırıcıları zahmetsizce ekleyin.
 type: docs
-weight: 450
+weight: 490
 url: /tr/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
 
-Belgeye stil ayırıcıyı ekler.
+Belgeye stil ayırıcı ekler.
 
 ```csharp
 public void InsertStyleSeparator()
@@ -18,7 +18,7 @@ public void InsertStyleSeparator()
 
 ## Notlar
 
-Bu yöntem, bir metin satırının iki farklı bölümüne farklı paragraf stillerinin uygulanmasına olanak tanır.
+Bu yöntem, bir metin satırının iki farklı bölümüne farklı paragraf stilleri uygulanmasına olanak tanır.
 
 ## Örnekler
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Her paragrafın yalnızca bir stili olabilir.
-// InsertStyleSeparator yöntemi bu sınırlamayı aşmamıza olanak tanır.
+// InsertStyleSeparator metodu bu sınırlamayı aşmamızı sağlar.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("This text is in a Heading style. ");
 builder.InsertStyleSeparator();
@@ -42,9 +42,9 @@ paraStyle.Font.Name = "Arial";
 builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
-// InsertStyleSeparator yöntemini çağırmak başka bir paragraf oluşturur,
-// öncekinden farklı bir stile sahip olabilir. Paragraflar arasında boşluk verilmeyecektir.
-// Çıktı belgesindeki metin, iki stile sahip bir paragraf gibi görünecektir.
+// InsertStyleSeparator metodunu çağırmak başka bir paragraf oluşturur,
+// öncekinden farklı bir stile sahip olabilir. Paragraflar arasında ara olmayacak.
+// Çıktı belgesindeki metin iki stile sahip tek bir paragraf gibi görünecektir.
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);
 Assert.AreEqual("MyParaStyle", doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style.Name);

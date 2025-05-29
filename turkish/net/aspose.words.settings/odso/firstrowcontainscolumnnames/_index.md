@@ -2,15 +2,15 @@
 title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
-second_title: Aspose.Words for .NET
-description: Odso FirstRowContainsColumnNames mülk. Bir barındırma uygulamasının belirtilen harici data kaynağındaki ilk veri satırını veri kaynağındaki her sütunun adlarını içeren bir başlık satırı olarak ele alacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamaların ilk veri satırını başlık olarak tanımasını sağlayan, böylece veri netliğini ve kullanılabilirliğini artıran Odso FirstRowContainsColumnNames özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Bir barındırma uygulamasının, belirtilen harici data kaynağındaki ilk veri satırını, veri kaynağındaki her sütunun adlarını içeren bir başlık satırı olarak ele alacağını belirtir. Varsayılan değer:`YANLIŞ` .
+Bir barındırma uygulamasının belirtilen harici veri kaynağındaki ilk veri satırını, veri kaynağındaki her sütunun adını içeren bir başlık satırı olarak ele alacağını belirtir. Varsayılan değer şudur:`YANLIŞ` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,11 +18,11 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## Notlar
 
-RK Bunu hiç kullanımda görmedim.
+RK Bunu hiç kullanılırken görmedim.
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

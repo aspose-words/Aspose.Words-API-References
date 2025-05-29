@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.CssClassNamePrefix
 linktitle: CssClassNamePrefix
 articleTitle: CssClassNamePrefix
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions CssClassNamePrefix mülk. Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur C#'da.
+second_title: .NET için Aspose.Words
+description: Web tasarımınızın tutarlılığını artırmak için benzersiz bir önekle CSS sınıf adlarını kolayca özelleştirmek için HtmlSaveOptions CssClassNamePrefix özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
+Tüm CSS sınıf adlarına eklenen bir önek belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıf adlarının ortak bir öneki yoktur.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -24,13 +24,13 @@ public string CssClassNamePrefix { get; set; }
 
 ## Notlar
 
-Bu değer boş değilse Aspose.Words tarafından oluşturulan tüm CSS sınıfları belirtilen önekle başlayacaktır. Bu, örneğin oluşturulan belgelere özel CSS eklerseniz ve class ad çakışmalarını önlemek istiyorsanız faydalı olabilir.
+Bu değer boş değilse, Aspose.Words tarafından oluşturulan tüm CSS sınıfları belirtilen önekle başlar. Bu, örneğin oluşturulan belgelere özel CSS eklerseniz ve class ad çakışmalarını önlemek isterseniz yararlı olabilir.
 
-Değer değilse`hükümsüz` veya boşsa geçerli bir CSS tanımlayıcısı olmalıdır.
+Eğer değer değilse`hükümsüz` veya boşsa geçerli bir CSS tanımlayıcısı olmalıdır.
 
 ## Örnekler
 
-Bir belgenin HTML'ye nasıl kaydedileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
+Bir belgenin HTML'ye nasıl kaydedileceğini ve tüm CSS sınıf adlarına bir önek nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -50,8 +50,8 @@ Assert.True(outDocContents.Contains("<p class=\"myprefix-Footer\">"));
 
 outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.css");
 
-Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n" +
-                                    ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n"));
+Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"));
+Assert.True(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"));
 ```
 
 ### Ayrıca bakınız

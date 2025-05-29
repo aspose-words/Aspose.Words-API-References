@@ -2,10 +2,10 @@
 title: PdfSaveOptions.CacheBackgroundGraphics
 linktitle: CacheBackgroundGraphics
 articleTitle: CacheBackgroundGraphics
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions CacheBackgroundGraphics mülk. Belgenin arka planına yerleştirilen grafiklerin önbelleğe alınıp alınmayacağını belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge grafik önbelleğini optimize etmek, PDF oluşturma ve performansınızı artırmak için PdfSaveOptions CacheBackgroundGraphics özelliğini keşfedin.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property
@@ -18,13 +18,13 @@ public bool CacheBackgroundGraphics { get; set; }
 
 ## Notlar
 
-Varsayılan değer:`doğru` ve arka plan grafikleri PDF belgesine xObject olarak yazılır.
+Varsayılan değer`doğru` ve arka plan grafikleri xObject olarak PDF belgesine yazılır.
 
 Değer ne zaman`YANLIŞ` arka plan grafikleri önbelleğe alınmaz.
 
-Bazı şekiller önbelleğe alma için desteklenmez (alanlar, yer imleri, HRef'ler içeren şekiller).
+Bazı şekiller önbelleğe alma için desteklenmez (alanlı şekiller, yer imleri, HRef'ler).
 
-Belge arka plan grafiği, bir sayfanın arka planı ve kenarlığının yanı sıra altbilgiye veya üstbilgiye yerleştirilen çeşitli şekiller, grafikler, resimlerdir.
+Belge arka plan grafiği, sayfanın alt bilgisine veya üst bilgisine yerleştirilen çeşitli şekiller, grafikler, resimler ve arka plan ile kenarlıklardan oluşur.
 
 ## Örnekler
 

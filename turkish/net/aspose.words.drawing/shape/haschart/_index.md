@@ -2,15 +2,15 @@
 title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
-second_title: Aspose.Words for .NET
-description: Shape HasChart mülk. İadelerdoğru Eğer buShape bir varChart  C#'da.
+second_title: .NET için Aspose.Words
+description: Shape'inizin HasChart özelliğine sahip bir Grafik içerip içermediğini keşfedin. Veri görselleştirmenizi zahmetsizce geliştirin!
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-İadeler`doğru` Eğer bu[`Shape`](../) bir var[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Geri Döndürür`doğru` eğer bu[`Shape`](../) bir tane var[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -18,7 +18,7 @@ public bool HasChart { get; }
 
 ## Örnekler
 
-Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
+Bir belgedeki tüm şekiller üzerinde nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 public void VisitShapes()
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
+    /// Her girinti düzeyi için bir sekme karakterinin önüne eklendiği bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
+    /// StringBuilder'ın biriktirdiği tüm metni döndür.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi bir Shape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir Şekil düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

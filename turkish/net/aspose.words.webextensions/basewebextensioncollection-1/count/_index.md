@@ -2,15 +2,15 @@
 title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: BaseWebExtensionCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Web geliştirme verimliliğinizi artırmak için toplam öğe sayısını kolayca almak üzere BaseWebExtensionCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Count property
 
-Koleksiyonda yer alan öğelerin sayısını alır.
+Koleksiyonda bulunan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Belgenin web uzantısının tüm özelliklerini yazdırın.
+// Belgenin web uzantısının tüm özelliklerini yazdır.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

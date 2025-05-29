@@ -2,15 +2,15 @@
 title: PageSetup.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
-second_title: Aspose.Words for .NET
-description: PageSetup FootnoteOptions mülk. Bu bölümdeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge netliği ve profesyonelliği için dipnot numaralandırma ve konumlandırmayı kolayca özelleştirmek üzere PageSetup FootnoteOptions'ı keşfedin.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/pagesetup/footnoteoptions/
 ---
 ## PageSetup.FootnoteOptions property
 
-Bu bölümdeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
+Bu bölümde dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// Numaralandırmayı 1'den yeniden başlatmak için ilk bölümdeki tüm dipnotları yapılandırın
-// her yeni sayfada ve kendilerini her sayfada doğrudan metnin altında görüntüler.
+// İlk bölümdeki tüm dipnotları numaralandırmayı 1'den yeniden başlatacak şekilde yapılandırın
+// her yeni sayfada ve her sayfadaki metnin hemen altında görüntülenir.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
@@ -37,8 +37,8 @@ footnoteOptions.StartNumber = 1;
 builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
-// Bölüm boyunca sürekli bir sayım sağlamak için ilk bölümdeki tüm son notları yapılandırın,
-// 1'den başlayarak. Ayrıca hepsini belgenin sonunda toplu olarak görünecek şekilde ayarlayın.
+// Bölüm boyunca sürekli bir sayım sağlamak için ilk bölümdeki tüm dipnotları yapılandırın,
+// 1'den başlayarak. Ayrıca, hepsinin belgenin sonunda toplanmış olarak görünmesini ayarlayın.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

@@ -2,15 +2,15 @@
 title: PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: Aspose.Words for .NET
-description: PageSet inşaatçı. Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Hassas sayfa dizini ve kusursuz kullanıcı deneyimi için tasarlanmış PageSet oluşturucusu ile zahmetsizce size özel tek sayfalık bir set oluşturun.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet(*int*) {#constructor_1}
 
-Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur.
+Tam sayfa dizinine dayalı tek sayfalık bir küme oluşturur.
 
 ```csharp
 public PageSet(int page)
@@ -18,11 +18,39 @@ public PageSet(int page)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| page | Int32 | Sayfanın sıfır tabanlı dizini. |
+| page | Int32 | Sayfanın sıfır tabanlı indeksi. |
 
 ## Notlar
 
-Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
+Belgede olmayan bir sayfayla karşılaşılırsa, işleme sırasında bir istisna atılır. MaxValue belgenin son sayfası anlamına gelir.
+
+## Örnekler
+
+Bir belgenin bir sayfasının JPEG görüntüsüne nasıl dönüştürüleceğini gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+// İkinci sayfayı seçmek için "PageSet"i "1" olarak ayarlayın
+// belgenin oluşturulmaya başlanacağı sıfır tabanlı dizin.
+options.PageSet = new PageSet(1);
+
+// Belgeyi JPEG formatında kaydettiğimizde Aspose.Words yalnızca bir sayfa oluşturur.
+// Bu resim ikinci sayfadan başlayarak tek bir sayfa içerecektir,
+// bu sadece orijinal belgenin ikinci sayfası olacak.
+doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
+```
 
 ### Ayrıca bakınız
 
@@ -34,7 +62,7 @@ Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir i
 
 ## PageSet(*params int[]*) {#constructor_2}
 
-Tam sayfa indekslerine dayalı bir sayfa seti oluşturur.
+Tam sayfa dizinlerine dayalı bir sayfa kümesi oluşturur.
 
 ```csharp
 public PageSet(params int[] pages)
@@ -42,33 +70,33 @@ public PageSet(params int[] pages)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pages | Int32[] | Sıfır tabanlı sayfa dizinleri. |
+| pages | Int32[] | Sayfaların sıfır tabanlı indeksleri. |
 
 ## Notlar
 
-Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
+Belgede olmayan bir sayfayla karşılaşılırsa, işleme sırasında bir istisna atılır. MaxValue belgenin son sayfası anlamına gelir.
 
 ## Örnekler
 
-Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
+Sayfaların kesin sayfa indekslerine göre nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgeye beş sayfa ekleyin.
+// Belgeye beş sayfa ekle.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .XPS'e dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .XPS'e nasıl dönüştüreceğini değiştirmek için.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// XPS çıktısı olarak kaydedilecek belge sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
-// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfayı seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
+// Çıkış XPS'e kaydedilecek belgenin sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
+// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfa seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
@@ -84,7 +112,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 
 ## PageSet(*params PageRange[]*) {#constructor}
 
-Aralıklara dayalı bir sayfa grubu oluşturur.
+Aralıklara dayalı bir sayfa kümesi oluşturur.
 
 ```csharp
 public PageSet(params PageRange[] ranges)
@@ -96,11 +124,11 @@ public PageSet(params PageRange[] ranges)
 
 ## Notlar
 
-Belgedeki son sayfadan sonra başlayan bir aralıkla karşılaşılırsa, oluşturma sırasında bir istisna atılır. Son sayfadan sonra biten tüm aralıklar belgeye sığacak şekilde kesilir.
+Belgedeki son sayfadan sonra başlayan bir aralıkla karşılaşılırsa, işleme sırasında bir istisna atılır. Son sayfadan sonra biten tüm aralıklar, belgeye sığacak şekilde kesilir.
 
 ## Örnekler
 
-Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
+Sayfaların tam sayfa aralıklarına göre nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

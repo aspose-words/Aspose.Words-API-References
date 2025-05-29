@@ -2,15 +2,15 @@
 title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
-second_title: Aspose.Words for .NET
-description: Table RelativeHorizontalAlignment mülk. Kayan tablonun göreceli yatay hizalamasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun yatay hizalamasını kolayca ayarlayarak gelişmiş düzen kontrolü ve görsel çekicilik için Table RelativeHorizontalAlignment özelliğini keşfedin.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.tables/table/relativehorizontalalignment/
 ---
 ## Table.RelativeHorizontalAlignment property
 
-Kayan tablonun göreceli yatay hizalamasını alır veya ayarlar.
+Yüzen tablonun göreli yatay hizalamasını alır veya ayarlar.
 
 ```csharp
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
@@ -18,7 +18,7 @@ public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 
 ## Örnekler
 
-Kayan tabloların konumunun nasıl ayarlandığını gösterir.
+Yüzen tabloların konumunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Tablonun konumunu sayfada bir yere ayarlayın; bu durumda sağ alt köşe gibi.
+// Tablonun konumunu sayfadaki bir yere, örneğin bu durumda sağ alt köşeye ayarlayın.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Tabloyu eklediğimiz paragrafın konumundan itibaren noktalarda yatay ve dikey uzaklık da ayarlayabiliriz.
+ // Ayrıca tabloyu eklediğimiz paragrafın konumundan itibaren yatay ve dikey olarak puan cinsinden bir ofset de ayarlayabiliriz.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

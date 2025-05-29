@@ -2,8 +2,8 @@
 title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 articleTitle: RevisionOptions
-second_title: Aspose.Words for .NET
-description: LayoutOptions RevisionOptions mülk. Revizyon seçeneklerini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge denetimi ve esnekliği için revizyon ayarlarına kolayca erişmek ve bunları özelleştirmek üzere LayoutOptions RevisionOptions özelliğini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -18,24 +18,25 @@ public RevisionOptions RevisionOptions { get; }
 
 ## Örnekler
 
-İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir revizyon ekleyin, ardından tüm revizyonların rengini yeşil olarak değiştirin.
+// Bir revizyon ekle, ardından tüm revizyonların rengini yeşil yap.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
+// Her düzeltilen satırın solunda görünen çubuğu kaldır.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Ayrıca bakınız

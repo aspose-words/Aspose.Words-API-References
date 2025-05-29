@@ -2,8 +2,8 @@
 title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: FontSourceBase Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: FontSourceBase Type özelliğini keşfedin, web tasarımınızı geliştirmek ve kullanıcı deneyimini optimize etmek için font kaynak türlerini kolayca alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontsourcebase/type/

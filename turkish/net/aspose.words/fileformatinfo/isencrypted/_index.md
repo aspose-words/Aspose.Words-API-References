@@ -2,15 +2,15 @@
 title: FileFormatInfo.IsEncrypted
 linktitle: IsEncrypted
 articleTitle: IsEncrypted
-second_title: Aspose.Words for .NET
-description: FileFormatInfo IsEncrypted mülk. İadelerdoğru belge şifrelenmişse ve açmak için şifre gerektiriyorsa C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin güvenli olup olmadığını FileFormatInfo IsEncrypted özelliğiyle öğrenin; şifrelenmiş dosyalara erişmek için parola gerektiğinde true değerini döndürür.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-İadeler`doğru` belge şifrelenmişse ve açmak için şifre gerektiriyorsa.
+Geri Döndürür`doğru` belge şifrelenmişse ve açmak için parola gerekiyorsa.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -18,7 +18,7 @@ public bool IsEncrypted { get; }
 
 ## Notlar
 
-Bu özellik, şifrelenmiş belgeleri şifrelenmemiş olanlardan ayırmanıza yardımcı olmak için mevcuttur. Aspose.Words'ü kullanarak şifrelenmiş bir belgeyi şifre girmeden yüklemeye çalışırsanız, bir istisnası oluşturulur. Bir belgenin parolasını gerektirip gerektirmediğini tespit etmek ve belgeyi yüklemeden önce kullanıcıdan parola istemek gibi bazı eylemler gerçekleştirmek için bu özelliği kullanabilirsiniz.
+Bu özellik, şifrelenmiş belgeleri şifrelenmemiş olanlardan ayırmanıza yardımcı olmak için vardır. Şifrelenmiş bir belgeyi parola sağlamadan Aspose.Words kullanarak yüklemeye çalışırsanız an istisnası atılır. Bu özelliği, bir belgenin password gerektirip gerektirmediğini tespit etmek ve bir belgeyi yüklemeden önce bazı eylemlerde bulunmak için kullanabilirsiniz, örneğin kullanıcıdan parola istemek.
 
 ## Örnekler
 
@@ -27,8 +27,8 @@ Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının na
 ```csharp
 Document doc = new Document();
 
-// Belgeyi şifrelemek için SaveOptions nesnesini yapılandırın
-// bir şifre ile kaydettiğimizde ve ardından belgeyi kaydettiğimizde.
+// Belgeyi şifrelemek için bir SaveOptions nesnesi yapılandırın
+// kaydederken bir şifre ile kaydediyoruz ve ardından belgeyi kaydediyoruz.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 

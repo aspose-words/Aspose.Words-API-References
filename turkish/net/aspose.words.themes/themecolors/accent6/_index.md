@@ -2,15 +2,15 @@
 title: ThemeColors.Accent6
 linktitle: Accent6
 articleTitle: Accent6
-second_title: Aspose.Words for .NET
-description: ThemeColors Accent6 mülk. Renk Vurgusunu belirtir 6 C#'da.
+second_title: .NET için Aspose.Words
+description: ThemeColors Accent6'yı keşfedin. Çarpıcı bir görsel etki için canlı renk seçenekleriyle tasarımınızı kolayca yapın. Projelerinizi zahmetsizce yükseltin!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.themes/themecolors/accent6/
 ---
 ## ThemeColors.Accent6 property
 
-Renk Vurgusunu belirtir 6.
+Renk Vurgusu 6'yı belirtir.
 
 ```csharp
 public Color Accent6 { get; set; }
@@ -23,24 +23,24 @@ Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını göst
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// "Tema" nesnesi, varsayılan yazı tipleri ve renklerin kaynağı olan belge temasına erişmemizi sağlar.
+// "Tema" nesnesi bize varsayılan yazı tipleri ve renklerin kaynağı olan belge temasına erişim sağlar.
 Theme theme = doc.Theme;
 
-// "Başlık 1" ve "Altyazı" gibi bazı stiller bu yazı tiplerini devralır.
+// "Başlık 1" ve "Alt Başlık" gibi bazı stiller bu yazı tiplerini devralacaktır.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Bu temada diğer dillerin de kendi özel yazı tipleri olabilir.
+// Bu temada diğer dillerin de kendilerine ait özel yazı tipleri olabilir.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// "Renkler" özelliği Microsoft Word'ün renk paletini içerir,
-// gölgeleme veya yazı tipi rengini değiştirirken görünen.
-// Renk paletine özel renkler uygulayın, böylece Microsoft Word'de bunlara kolayca erişebilelim
-// örneğin yazı tipi rengini "Ana Sayfa" aracılığıyla değiştirdiğimizde -> "Yazı Tipi" -> "Yazı rengi",
-// veya bir şekil ekleyin ve ardından "Şekil Formatı" aracılığıyla bunun için bir renk ayarlayın --> "Şekil Stilleri".
+// "Renkler" özelliği Microsoft Word'den renk paletini içerir.
+// Gölgelendirme veya yazı rengi değiştirilirken görünen.
+// Microsoft Word'de bunlara kolayca erişebilmemiz için renk paletine özel renkler uygulayın
+// örneğin, "Ana Sayfa" -> "Yazı Tipi" -> "Yazı Tipi Rengi" yoluyla yazı tipi rengini değiştirdiğimizde,
+// veya bir şekil ekleyin ve ardından "Şekil Biçimi" -> "Şekil Stilleri" yoluyla bunun için bir renk ayarlayın.
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -54,7 +54,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Köprülere tıklanmış ve tıklanmamış durumlarında özel renkler uygulayın.
+// Tıklanmış ve tıklanmamış durumlarındaki köprü metinlerine özel renkler uygulayın.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

@@ -2,15 +2,15 @@
 title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: VbaReferenceCollection RemoveAt yöntem. KaldırırVbaReference koleksiyonun belirtilen dizinindeki öğe C#'da.
+second_title: .NET için Aspose.Words
+description: VBA kodlama verimliliğinizi artırmak için, öğeleri dizine göre silmek üzere RemoveAt metoduyla VbaReferenceCollection'ınızı zahmetsizce yönetin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-Kaldırır[`VbaReference`](../../vbareference/) koleksiyonun belirtilen dizinindeki öğe.
+Şunu kaldırır:[`VbaReference`](../../vbareference/) koleksiyonun belirtilen dizinindeki öğe.
 
 ```csharp
 public void RemoveAt(int index)

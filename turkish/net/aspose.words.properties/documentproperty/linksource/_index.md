@@ -2,8 +2,8 @@
 title: DocumentProperty.LinkSource
 linktitle: LinkSource
 articleTitle: LinkSource
-second_title: Aspose.Words for .NET
-description: DocumentProperty LinkSource mülk. Bağlantılı özel belge özelliğinin kaynağını alır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentProperty için LinkSource özelliğini keşfedin, gelişmiş belge yönetimi için bağlantılı özel belge özelliklerinizin kaynağına zahmetsizce erişin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/documentproperty/linksource/
@@ -28,8 +28,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Yeni bir özel özelliği bir yer imine bağlayın. Bu mülkün değeri
-// "LinkSource" üyesinde başvuruda bulunduğu yer iminin içeriği olacaktır.
+// Yeni bir özel özelliği bir yer işaretine bağlayın. Bu özelliğin değeri
+// "LinkSource" üyesinde referans verdiği yer iminin içeriği olacaktır.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

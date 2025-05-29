@@ -2,15 +2,15 @@
 title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
-second_title: Aspose.Words for .NET
-description: Shape HorizontalRuleFormat mülk. Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için şunu döndürürhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım esnekliği için YatayRuleFormat özelliklerine erişin ve özelleştirin. Benzersiz sonuçlar için şekillerinizi özelleştirilmiş ayarlarla optimize edin.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için şunu döndürür:`hükümsüz` .
+Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için, şunu döndürür:`hükümsüz` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## Örnekler
 
-Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay çizgi şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

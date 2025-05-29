@@ -2,15 +2,15 @@
 title: ChartXValue.FromString
 linktitle: FromString
 articleTitle: FromString
-second_title: Aspose.Words for .NET
-description: ChartXValue FromString yöntem. Bir oluştururChartXValue örneğiString type C#'da.
+second_title: .NET için Aspose.Words
+description: String türünde ChartXValue örnekleri oluşturmak için ChartXValue FromString metodunu keşfedin. Veri görselleştirmenizi bugün geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 ---
 ## ChartXValue.FromString method
 
-Bir oluşturur[`ChartXValue`](../) örneğiString type.
+Bir tane oluşturur[`ChartXValue`](../) örneğiString tür.
 
 ```csharp
 public static ChartXValue FromString(string value)
@@ -29,11 +29,11 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Her iki serideki ilk değeri kaldırın.
+// Her iki serideki ilk değeri kaldır.
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Her iki seriye de yeni değerler ekliyoruz.
+// Her iki seriye de yeni değerler ekleyin.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

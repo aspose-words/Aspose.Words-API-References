@@ -2,8 +2,8 @@
 title: Field.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: Field Type mülk. Microsoft Word alan türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Alan Türü özelliğimizle Microsoft Word alan türünü keşfedin. Belgelerinizi hassas biçimlendirme ve dinamik içerik yetenekleriyle geliştirin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/field/type/
@@ -18,7 +18,7 @@ public virtual FieldType Type { get; }
 
 ## Örnekler
 
-Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
+Alan kodu kullanılarak bir belgeye alanın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// InsertField yönteminin bu aşırı yüklemesi, eklenen alanları otomatik olarak günceller.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// InsertField yönteminin bu aşırı yüklemesi eklenen alanları otomatik olarak günceller.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Ayrıca bakınız

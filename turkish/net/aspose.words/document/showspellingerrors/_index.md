@@ -2,15 +2,15 @@
 title: Document.ShowSpellingErrors
 linktitle: ShowSpellingErrors
 articleTitle: ShowSpellingErrors
-second_title: Aspose.Words for .NET
-description: Document ShowSpellingErrors mülk. Bu belgede yazım hatalarının görüntülenip görüntülenmeyeceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki yazım hatası görünürlüğünü ShowSpellingErrors özelliğiyle kontrol edin. Düzenleme sürecinizi geliştirin ve belge kalitenizi iyileştirin.
 type: docs
-weight: 400
+weight: 420
 url: /tr/net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property
 
-Bu belgede yazım hatalarının görüntülenip görüntülenmeyeceğini belirtir.
+Bu belgede yazım hatalarının gösterilip gösterilmeyeceğini belirtir.
 
 ```csharp
 public bool ShowSpellingErrors { get; set; }
@@ -24,13 +24,13 @@ Belgedeki hataların nasıl gösterileceğini/gizleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Alınacak hatalı iki cümleyi ekleyin
+// Dikkat çekecek hatalar içeren iki cümle ekleyin
 // Microsoft Word'deki yazım ve dilbilgisi denetleyicileri tarafından.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
-// Bu seçenekler etkinleştirilirse yazım hatalarının altı çizilir
-// çıktı belgesinde pürüzlü bir kırmızı çizgi bulunur ve çift mavi çizgi dilbilgisi hatalarını vurgulayacaktır.
+// Bu seçenekler etkinleştirilirse, yazım hataları altı çizili olur
+// çıktı belgesinde kesik kırmızı bir çizgi ve çift mavi bir çizgi ile dil bilgisi hataları vurgulanacaktır.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

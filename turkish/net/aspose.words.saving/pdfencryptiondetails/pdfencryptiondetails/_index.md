@@ -2,8 +2,8 @@
 title: PdfEncryptionDetails
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
-second_title: Aspose.Words for .NET
-description: PdfEncryptionDetails inşaatçı. Bu sınıfın bir örneğini başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Güvenli PDF şifreleme örneklerini kolayca başlatmak için PdfEncryptionDetails oluşturucusunu keşfedin. Güçlü aracımızla belge korumanızı geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
+// Açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
+// Bu belgeyi açtığımızda, içeriğine erişmeden önce parolayı girmemiz gerekecektir.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

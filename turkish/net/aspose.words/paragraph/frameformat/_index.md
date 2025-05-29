@@ -2,8 +2,8 @@
 title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
-second_title: Aspose.Words for .NET
-description: Paragraph FrameFormat mülk. Çerçeve biçimlendirme özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraf ÇerçeveBiçimlendirmesi özelliğini keşfedin, gelişmiş belge sunumu için çerçeve biçimlendirme özelliklerine kolayca erişin ve özelleştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/paragraph/frameformat/
@@ -18,7 +18,7 @@ public FrameFormat FrameFormat { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -2,10 +2,10 @@
 title: PhysicalFontInfo.FullFontName
 linktitle: FullFontName
 articleTitle: FullFontName
-second_title: Aspose.Words for .NET
-description: PhysicalFontInfo FullFontName mülk. Yazı tipinin tam adı C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipi adlarına kolay erişim için PhysicalFontInfo'nun FullFontName özelliğini keşfedin. Tipografinizi hassas yazı tipi tanımlamasıyla geliştirin!
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property
@@ -18,10 +18,10 @@ public string FullFontName { get; }
 
 ## Örnekler
 
-Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
+Mevcut yazı tiplerinin nasıl listeleneceğini gösterir.
 
 ```csharp
-// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından mevcut tüm yazı tiplerini yazdırın.
+// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından kullanılabilir tüm yazı tiplerini yazdırın.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

@@ -2,8 +2,8 @@
 title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
-second_title: Aspose.Words for .NET
-description: ReplacingArgs MatchNode mülk. Eşleşmenin başlangıcını içeren düğümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Eşleşmenizin başladığı düğüme kolayca erişmek için ReplacingArgs MatchNode özelliğini keşfedin, böylece kodlama verimliliğinizi ve doğruluğunuzu artırın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.replacing/replacingargs/matchnode/
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## Örnekler
 
-Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
+Bir bulma ve değiştirme işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Eşleşen metni içeren paragraftan sonra bir belge ekleyin.
+        // Eşleşen metni içeren paragraftan sonra bir belge ekle.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metnin bulunduğu paragrafı kaldırın.
+        // Eşleşen metne sahip paragrafı kaldır.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -52,7 +52,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
+/// Bir paragraf veya tablonun ardından başka bir belgenin tüm düğümlerini ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragrafsa düğümü atla.
+                // Bir bölümdeki son boş paragraf ise düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

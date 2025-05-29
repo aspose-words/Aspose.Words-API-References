@@ -2,15 +2,15 @@
 title: FieldToa.EntrySeparator
 linktitle: EntrySeparator
 articleTitle: EntrySeparator
-second_title: Aspose.Words for .NET
-description: FieldToa EntrySeparator mülk. Yetkililer tablosu girişini ve sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş netlik için esnek karakter dizileriyle yetki tablonuzu kolayca özelleştirmek için FieldToa EntrySeparator özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldtoa/entryseparator/
 ---
 ## FieldToa.EntrySeparator property
 
-Yetkililer tablosu girişini ve sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+Yetkili bir tablo girişini ve sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar.
 
 ```csharp
 public string EntrySeparator { get; set; }
@@ -27,40 +27,40 @@ public void FieldTOA()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Belgedeki her TA alanı için bir giriş oluşturacak bir TOA alanı ekleyin,
-    // her giriş için uzun alıntılar ve sayfa numaraları görüntüleniyor.
+    // her girdi için uzun alıntılar ve sayfa numaraları görüntüleniyor.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
     // Tablomuz için giriş kategorisini ayarlayın. Bu TOA artık yalnızca TA alanlarını içerecektir
     // EntryCategory özelliğinde eşleşen bir değere sahip olanlar.
     fieldToa.EntryCategory = "1";
 
-    // Ayrıca indeks 1'deki Yetki Tablosu kategorisi "Vakalar"dır,
+    // Ayrıca, 1. indeksteki Yetki Tablosu kategorisi "Vakalar"dır,
     // bu değişkeni true olarak ayarlarsak tablomuzun başlığı olarak görünecektir.
     fieldToa.UseHeading = true;
 
-    // TOA sınırları içinde olmaları gereken bir yer imini adlandırarak TA alanlarını daha da filtreleyebiliriz.
+    // TA alanlarını, TOA sınırları içerisinde olması gereken bir yer imi adlandırarak daha fazla filtreleyebiliriz.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // Varsayılan olarak, TA alanının alıntısı arasında sayfa çapında noktalı bir sekme görünür
-    // ve sayfa numarası. Bunu, bu özelliğe koyduğumuz herhangi bir metinle değiştirebiliriz.
+    // Varsayılan olarak, TA alanının atıfları arasında noktalı çizgi şeklinde sayfa çapında bir sekme görünür
+    // ve sayfa numarası. Bunu bu özelliğe koyduğumuz herhangi bir metinle değiştirebiliriz.
     // Bir sekme karakteri eklemek orijinal sekmeyi koruyacaktır.
     fieldToa.EntrySeparator = " \t p.";
 
-    // Aynı uzun alıntıyı paylaşan birden fazla TA girişimiz varsa,
-    // ilgili tüm sayfa numaraları tek satırda görünecektir.
-    // Sayfa numaralarını ayıracak bir dize belirtmek için bu özelliği kullanabiliriz.
+    // Aynı uzun atıfı paylaşan birden fazla TA girişimiz varsa,
+    // tüm sayfa numaraları tek bir satırda gösterilecektir.
+    // Bu özelliği, sayfa numaralarını ayıracak bir dize belirtmek için kullanabiliriz.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // Tablomuzun "passim" kelimesini göstermesini sağlamak için bunu true olarak ayarlayabiliriz
+    // Tablomuzun "passim" kelimesini görüntülemesini sağlamak için bunu true olarak ayarlayabiliriz
     // bir satırda beş veya daha fazla sayfa numarası varsa.
     fieldToa.UsePassim = true;
 
-    // Bir TA alanı çeşitli sayfalara başvurabilir.
-    // Bu tür aralıklar için başlangıç ve bitiş sayfa numaraları arasında görünecek bir dizeyi burada belirtebiliriz.
+    // Bir TA alanı bir dizi sayfaya atıfta bulunabilir.
+    // Bu tür aralıklar için başlangıç ve bitiş sayfa numaraları arasında görünecek bir stringi burada belirtebiliriz.
     fieldToa.PageRangeSeparator = " to ";
 
-    // TA alanlarındaki format tablomuza taşınacaktır.
-    // RemoveEntryFormatting bayrağını ayarlayarak bunu devre dışı bırakabiliriz.
+    // TA alanlarındaki format tablomuza aktarılacak.
+    // Bunu RemoveEntryFormatting bayrağını ayarlayarak devre dışı bırakabiliriz.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -69,38 +69,38 @@ public void FieldTOA()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Bu TA alanı TOA'nın dışında olduğundan giriş olarak görünmeyecektir.
+    // Bu TA alanı TOA'da bir giriş olarak görünmeyecektir çünkü dışarıdadır
     // TOA'nın BookmarkName özelliğinin belirttiği yer iminin sınırları.
     FieldTA fieldTA = InsertToaEntry(builder, "1", "Source 1");
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
     // Bu TA alanı yer iminin içindedir,
-    // ancak giriş kategorisi tablonunkiyle eşleşmediğinden TA alanı onu içermeyecektir.
+    // ancak giriş kategorisi tablonun kategorisiyle uyuşmuyor, bu nedenle TA alanı bunu içermeyecektir.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
 
     // Bu giriş tabloda görünecektir.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
-    // TOA tablosu kısa alıntıları göstermez,
-    // ancak bunları birden fazla TA alanının referans verdiği büyük kaynak adlarına atıfta bulunmak için kısa yol olarak kullanabiliriz.
+    // Bir TOA tablosu kısa alıntıları görüntülemez,
+    // ancak bunları, birden fazla TA alanının başvurduğu hacimli kaynak adlarına atıfta bulunmak için bir kısaltma olarak kullanabiliriz.
     fieldTA.ShortCitation = "S.3";
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
-    // Aşağıdaki özellikleri kullanarak sayfa numarasını kalın/italik yapacak şekilde biçimlendirebiliriz.
-    // Tablomuzu biçimlendirmeyi göz ardı edecek şekilde ayarlarsak yine de bu efektleri göreceğiz.
+    // Aşağıdaki özellikleri kullanarak sayfa numarasını kalın/italik hale getirebiliriz.
+    // Tablomuzu biçimlendirmeyi göz ardı edecek şekilde ayarlarsak bu etkileri yine göreceğiz.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // TA alanlarını, TOA girişlerinin bir yer iminin yayıldığı bir dizi sayfaya başvurmasını sağlayacak şekilde yapılandırabiliriz.
-    // Tablomuzdaki bir satırı paylaşmak için bu girdinin yukarıdakiyle aynı kaynağa başvurduğunu unutmayın.
-    // Bu satırda yukarıdaki girişin sayfa numarası ve bu girişin sayfa aralığı yer alacaktır,
-    // tablonun sayfa listesi ve sayfa numaraları arasındaki sayfa numarası aralığı ayırıcıları ile.
+    // TA alanlarını, yer iminin kapsadığı sayfa aralığına atıfta bulunacak şekilde TOA girişleri alacak şekilde yapılandırabiliriz.
+    // Bu girdinin, tablomuzda bir satırı paylaşmak için yukarıdaki girdiyle aynı kaynağa başvurduğunu unutmayın.
+    // Bu satır, yukarıdaki girdinin sayfa numarasını ve bu girdinin sayfa aralığını içerecektir.
+    // sayfa numaraları arasında tablonun sayfa listesi ve sayfa numarası aralığı ayırıcıları bulunur.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
     fieldTA.PageRangeBookmarkName = "MyMultiPageBookmark";
 
@@ -112,7 +112,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
 
-    // Tablomuzun "Passim" özelliğini etkinleştirmişsek, aynı kaynaktan 5 veya daha fazla TA girişi olması onu çağıracaktır.
+    // Eğer tablomuzun "Passim" özelliğini aktifleştirdiysek, aynı kaynaktan 5 veya daha fazla TA girişi olması durumunda bu özellik çağrılacaktır.
     for (int i = 0; i < 5; i++)
     {
         InsertToaEntry(builder, "1", "Source 4");

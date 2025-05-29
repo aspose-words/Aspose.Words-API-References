@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.Thumbnail
 linktitle: Thumbnail
 articleTitle: Thumbnail
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Thumbnail mülk. Belgenin küçük resmini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties ile belgenizin görsel çekiciliğini yönetin. Gelişmiş sunum ve organizasyon için küçük resim görüntülerini kolayca alın veya ayarlayın.
 type: docs
-weight: 280
+weight: 310
 url: /tr/net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 ## BuiltInDocumentProperties.Thumbnail property
@@ -16,25 +16,31 @@ Belgenin küçük resmini alır veya ayarlar.
 public byte[] Thumbnail { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| InvalidOperationException | Görüntü geçersizse veya biçimi belirli bir belge biçimi için desteklenmiyorsa atılır. |
+
 ## Notlar
 
-Şimdilik bu özellik yalnızca bir belge ePub'a aktarılırken kullanılıyor, diğer belge biçimlerinden okunmuyor ve diğer belge biçimlerine yazılmıyor.
+Şimdilik bu özellik yalnızca bir belge ePub'a aktarılırken kullanılıyor, diğer belge biçimlerinden okunmuyor veya bu biçimlere yazılamıyor.
 
-İsteğe bağlı formattaki resim bu özelliğe ayarlanabilir, ancak format dışa aktarma sırasında kontrol edilir. InvalidOperationException görüntü geçersizse veya biçimi, belgenin biçimi için desteklenmiyorsa atılır.
+Bu özelliğe, herhangi bir formattaki görüntü ayarlanabilir, ancak format, dışa aktarma sırasında kontrol edilir.
 
-ePub yayını için yalnızca gif, jpeg ve png görselleri kullanılabilir.
+ePub yayınında yalnızca gif, jpeg ve png formatındaki resimler kullanılabilir.
 
 ## Örnekler
 
-Epub olarak kaydettiğimiz bir belgeye nasıl küçük resim ekleneceğini gösterir.
+Epub olarak kaydettiğimiz bir belgeye küçük resim eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// "Thumbnail" özelliği eklediğimiz görsel verilerini içeren bir dokümanı Epub olarak kaydedersek,
-// o belgeyi açan okuyucu, görüntüyü ilk sayfadan önce görüntüleyebilir.
+// "Küçük Resim" özelliği eklediğimiz resim verilerini içeren bir belgeyi Epub olarak kaydedersek,
+// Bu belgeyi açan bir okuyucu, ilk sayfadan önce resmi görüntüleyebilir.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -42,7 +48,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Bir belgenin küçük resmini çıkartıp yerel dosya sistemine kaydedebiliriz.
+// Bir belgenin küçük resmini çıkarıp yerel dosya sistemine kaydedebiliriz.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

@@ -2,15 +2,15 @@
 title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
-second_title: Aspose.Words for .NET
-description: ChartLegendEntry IsHidden mülk. Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ChartLegendEntry IsHidden özelliğini keşfedin, grafik efsanesinin görünürlüğünü zahmetsizce kontrol edin. Bu basit geçiş özelliğiyle veri sunumunuzu geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer:**YANLIŞ** .
+Bu girdinin grafik efsanesinde gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer**YANLIŞ** .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -18,11 +18,11 @@ public bool IsHidden { get; set; }
 
 ## Notlar
 
-Bir grafik göstergesi girişi gizlendiğinde, ilgili grafik serisini veya grafikte hala görüntülenen trend çizgisini etkilemez.
+Bir grafik efsanesi girişi gizlendiğinde, grafikte hala görüntülenen ilgili grafik serisi veya trend çizgisi etkilenmez.
 
 ## Örnekler
 
-Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
+Grafik serileri için bir gösterge girişiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

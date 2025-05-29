@@ -2,15 +2,15 @@
 title: PageInfo.PaperTray
 linktitle: PaperTray
 articleTitle: PaperTray
-second_title: Aspose.Words for .NET
-description: PageInfo PaperTray mülk. Belgede belirtildiği gibi bu sayfa için kağıt tepsisini kutuyu alır. Değer uygulamaya yazıcıya özeldir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgeniz için belirli kağıt tepsisi bölmesine erişmek üzere PageInfo PaperTray özelliğini keşfedin. Özelleştirilmiş çözümlerle baskı verimliliğinizi artırın!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property
 
-Belgede belirtildiği gibi bu sayfa için kağıt tepsisini (kutuyu) alır. Değer uygulamaya (yazıcıya) özeldir.
+Belgede belirtilen şekilde bu sayfa için kağıt tepsisini (çöp kutusu) alır. Değer, uygulamaya (yazıcıya) özgüdür.
 
 ```csharp
 public int PaperTray { get; }
@@ -18,13 +18,13 @@ public int PaperTray { get; }
 
 ## Örnekler
 
-Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
+Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız.
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Türleri değişecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,17 +38,17 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
+    // Her sayfanın bir PageInfo nesnesi vardır ve bu nesnenin indeksi ilgili sayfanın numarasıdır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Sayfanın yönünü ve boyutlarını yazdırın.
+    // Sayfanın yönünü ve boyutlarını yazdır.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Kaynak tepsi bilgilerini yazdırın.
+    // Kaynak tepsi bilgilerini yazdır.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

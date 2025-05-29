@@ -2,10 +2,10 @@
 title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıf. Bir belge için küçük resim oluştururken ek seçenekleri belirtmek için kullanılabilir C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir özellikler ve iyileştirilmiş kaliteyle belge küçük resim oluşturma işleminizi geliştirmek için Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıfını keşfedin.
 type: docs
-weight: 4600
+weight: 5330
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -31,7 +31,7 @@ public class ThumbnailGeneratingOptions
 
 ## Notlar
 
-Kullanıcı yöntemi çağırabilir[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) oluşturmak için[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) bir belge için.
+Kullanıcı yöntemi çağırabilir[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) üretmek için[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) bir belge için.
 
 ## Örnekler
 
@@ -44,12 +44,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
-// 1 - Belgenin ilk sayfasını kullanın:
+// Bir belgeyi .epub olarak kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
+// 1 - Belgenin ilk sayfasını kullan:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Belgede bulunan ilk resmi kullanın:
+// 2 - Belgede bulunan ilk resmi kullan:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

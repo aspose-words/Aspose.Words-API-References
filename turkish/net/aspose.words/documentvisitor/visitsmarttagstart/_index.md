@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
 articleTitle: VisitSmartTagStart
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitSmartTagStart yöntem. Akıllı etiketin numaralandırılması başladığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Akıllı etiket numaralandırmasını etkin bir şekilde yönetmenin ve belge işlemeyi geliştirmenin anahtarı olan DocumentVisitor VisitSmartTagStart yöntemini keşfedin.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void SmartTagToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm SmartTag düğümleri ve bunların alt öğelerinden oluşan bir dizi biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm SmartTag düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

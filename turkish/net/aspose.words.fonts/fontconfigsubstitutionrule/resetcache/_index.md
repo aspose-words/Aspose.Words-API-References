@@ -2,15 +2,15 @@
 title: FontConfigSubstitutionRule.ResetCache
 linktitle: ResetCache
 articleTitle: ResetCache
-second_title: Aspose.Words for .NET
-description: FontConfigSubstitutionRule ResetCache yöntem. Fontconfig çağırma sonuçlarının önbelleğini sıfırlar C#'da.
+second_title: .NET için Aspose.Words
+description: FontConfigSubstitutionRule ResetCache yöntemiyle font yönetiminizi optimize edin. Geliştirilmiş performans için fontconfig sonuçlarını zahmetsizce temizleyin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
 ## FontConfigSubstitutionRule.ResetCache method
 
-Fontconfig çağırma sonuçlarının önbelleğini sıfırlar.
+Fontconfig çağrı sonuçlarının önbelleğini sıfırlar.
 
 ```csharp
 public void ResetCache()
@@ -18,7 +18,7 @@ public void ResetCache()
 
 ## Örnekler
 
-İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
+İşletim sistemine bağlı font yapılandırması değişimini gösterir.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule nesnesi Windows/Windows dışı platformlarda farklı çalışır.
+// FontConfigSubstitutionRule nesnesi Windows/Windows olmayan platformlarda farklı çalışır.
 // Windows'ta kullanılamaz.
 if (isWindows)
 {
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Linux/Mac'te buna erişimimiz olacak ve işlemleri gerçekleştirebileceğiz.
+// Linux/Mac'te buna erişebileceğiz ve işlemler yapabileceğiz.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

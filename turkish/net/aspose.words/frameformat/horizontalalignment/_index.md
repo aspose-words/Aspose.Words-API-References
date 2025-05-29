@@ -2,8 +2,8 @@
 title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
-second_title: Aspose.Words for .NET
-description: FrameFormat HorizontalAlignment mülk. Belirtilen çerçevenin yatay hizalamasını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Daha iyi tasarım kontrolü için çerçevenizin yatay hizalamasını kolayca ayarlamak ve optimize etmek amacıyla FrameFormat VerticalAlignment özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/frameformat/horizontalalignment/
@@ -18,7 +18,7 @@ public HorizontalAlignment HorizontalAlignment { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

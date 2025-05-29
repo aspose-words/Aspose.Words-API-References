@@ -2,8 +2,8 @@
 title: List.CompareTo
 linktitle: CompareTo
 articleTitle: CompareTo
-second_title: Aspose.Words for .NET
-description: List CompareTo yöntem. Belirtilen nesneyi geçerli nesneyle karşılaştırır C#'da.
+second_title: .NET için Aspose.Words
+description: List CompareTo yöntemini keşfedin, nesneleri etkili bir şekilde karşılaştırın ve bu temel programlama aracıyla kodlama becerilerinizi geliştirin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.lists/list/compareto/

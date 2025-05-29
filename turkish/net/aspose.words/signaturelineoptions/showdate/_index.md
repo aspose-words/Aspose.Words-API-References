@@ -2,15 +2,15 @@
 title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
-second_title: Aspose.Words for .NET
-description: SignatureLineOptions ShowDate mülk. İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: SignatureLineOptions ShowDate özelliğinin, imza satırlarında imza tarihini görüntüleyerek belgenizin profesyonelliğini nasıl artırdığını keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` .
+İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer`doğru` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -18,7 +18,7 @@ public bool ShowDate { get; set; }
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

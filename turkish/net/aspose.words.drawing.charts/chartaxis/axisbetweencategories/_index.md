@@ -2,15 +2,15 @@
 title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
-second_title: Aspose.Words for .NET
-description: ChartAxis AxisBetweenCategories mülk. Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: ChartAxis AxisBetweenCategories özelliğini keşfedin—grafiklerinizde gelişmiş kategori görselleştirmesi için değer ekseni konumlandırmasını kontrol edin. Veri sunumunuzu optimize edin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
 ## ChartAxis.AxisBetweenCategories property
 
-Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar.
+Kategoriler arasında değer ekseninin kategori eksenini geçip geçmediğini belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
@@ -18,11 +18,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ## Notlar
 
-Özelliğin yalnızca değer eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
+Özellik yalnızca değer eksenleri için etkilidir. MS Office 2016 yeni grafikleri tarafından desteklenmez.
 
 ## Örnekler
 
-Özel bir konumda kesişecek bir grafik ekseninin nasıl alınacağını gösterir.
+Bir grafik ekseninin özel bir konumda nasıl kesişeceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Sütun grafikleri için Y ekseni varsayılan olarak sıfırdan geçer,
-// bu, sıfırın altındaki tüm değerlerin sütunlarının negatif değerleri temsil edecek şekilde aşağıyı gösterdiği anlamına gelir.
-// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda 3'e ayarlayacağız.
+// Sütun grafikleri için Y ekseni varsayılan olarak sıfırı geçer,
+// bu, sıfırın altındaki tüm değerler için sütunların negatif değerleri temsil edecek şekilde aşağıya doğru işaret ettiği anlamına gelir.
+// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda, bunu 3 olarak ayarlayacağız.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

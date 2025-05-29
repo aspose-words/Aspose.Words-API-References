@@ -2,15 +2,15 @@
 title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
-second_title: Aspose.Words for .NET
-description: FontSettings SetFontsSources yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words'deki SetFontsSources yönteminin, en iyi sonuçlar için TrueType yazı tipi kaynaklarını belirterek belge oluşturmayı nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
-Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar.
+Aspose.Words'ün belgeleri işlerken veya yazı tiplerini yerleştirirken TrueType yazı tiplerini aradığı kaynakları ayarlar.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -18,17 +18,17 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| sources | FontSourceBase[] | TrueType yazı tiplerini içeren bir dizi kaynak. |
+| sources | FontSourceBase[] | TrueType yazı tiplerini içeren kaynakların dizisi. |
 
 ## Notlar
 
-Aspose.Words varsayılan olarak sistemde yüklü olan yazı tiplerini arar.
+Varsayılan olarak Aspose.Words sisteme yüklenen yazı tiplerini arar.
 
-Bu özelliğin ayarlanması önceden yüklenen tüm yazı tiplerinin önbelleğini sıfırlar.
+Bu özelliğin ayarlanması, daha önce yüklenen tüm yazı tiplerinin önbelleğini sıfırlar.
 
 ## Örnekler
 
-Mevcut yazı tipi kaynaklarımıza nasıl yazı tipi kaynağı ekleneceğini gösterir.
+Mevcut font kaynaklarımıza nasıl font kaynağı ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,19 +47,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Varsayılan yazı tipi kaynağında, belgemizde kullandığımız yazı tiplerinden ikisi eksik.
-// Bu belgeyi kaydettiğimizde Aspose.Words, erişilemeyen yazı tipleriyle biçimlendirilmiş tüm metinlere yedek yazı tiplerini uygulayacaktır.
+// Varsayılan yazı tipi kaynağında, belgemizde kullandığımız iki yazı tipi eksik.
+// Bu belgeyi kaydettiğimizde, Aspose.Words erişilemeyen yazı tipleriyle biçimlendirilmiş tüm metinlere yedek yazı tiplerini uygulayacaktır.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Yazı tiplerini içeren bir klasörden yazı tipi kaynağı oluşturun.
+// Fontları içeren bir klasörden bir font kaynağı oluştur.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Özel yazı tiplerimizin yanı sıra orijinal yazı tipi kaynaklarını da içeren yeni bir yazı tipi kaynakları dizisi uygulayın.
+// Orijinal yazı tipi kaynaklarının yanı sıra özel yazı tiplerimizi de içeren yeni bir yazı tipi kaynakları dizisi uygulayın.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Belgeyi PDF'ye dönüştürmeden önce Aspose.Words'ün gerekli tüm yazı tiplerine erişimi olduğunu doğrulayın.
+// Belgeyi PDF'e dönüştürmeden önce Aspose.Words'ün tüm gerekli yazı tiplerine erişiminin olduğunu doğrulayın.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-Aspose.Words'ün TrueType yazı tiplerini aradığı ve ayrıca önceden kaydedilmiş yazı tipi arama önbelleğini yüklediği kaynakları ayarlar.
+Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakları ayarlar ve ayrıca daha önce kaydedilmiş yazı tipi arama önbelleğini yükler.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -91,16 +91,16 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| sources | FontSourceBase[] | TrueType yazı tiplerini içeren bir dizi kaynak. |
-| cacheInputStream | Stream | Kaydedilmiş yazı tipi arama önbelleğiyle giriş akışı. |
+| sources | FontSourceBase[] | TrueType yazı tiplerini içeren kaynakların dizisi. |
+| cacheInputStream | Stream | Kaydedilmiş font arama önbelleğiyle giriş akışı. |
 
 ## Notlar
 
-Önceden kaydedilmiş yazı tipi arama önbelleğinin yüklenmesi, yazı tipi önbelleği başlatma sürecini hızlandıracaktır. is özellikle yazı tipi kaynaklarına erişimin karmaşık olduğu durumlarda faydalıdır (örn. yazı tipleri ağ üzerinden yüklendiğinde).
+Önceden kaydedilmiş font arama önbelleğini yüklemek font önbelleği başlatma sürecini hızlandıracaktır. Bu özellikle font kaynaklarına erişim karmaşık olduğunda (örneğin fontlar ağ üzerinden yüklendiğinde) yararlıdır.
 
-Yazı tipi arama önbelleği kaydedilirken ve yüklenirken, sağlanan kaynaklardaki yazı tipleri önbellek anahtarı aracılığıyla tanımlanır. Yazı tipleri için[`SystemFontSource`](../../systemfontsource/) Ve[`FolderFontSource`](../../folderfontsource/) önbellek anahtarı yazı tipi dosyasının yolu 'dir. İçin[`MemoryFontSource`](../../memoryfontsource/) Ve[`StreamFontSource`](../../streamfontsource/) önbellek anahtarı şurada tanımlı [`CacheKey`](../../memoryfontsource/cachekey/) Ve[`CacheKey`](../../streamfontsource/cachekey/) sırasıyla Properties . İçin[`FileFontSource`](../../filefontsource/) önbellek anahtarı ya[`CacheKey`](../../filefontsource/cachekey/) özelliği veya bir dosya yolu, eğer[`CacheKey`](../../filefontsource/cachekey/) dır-dir`hükümsüz`.
+Font arama önbelleğini kaydederken ve yüklerken, sağlanan kaynaklardaki fontlar önbellek anahtarıyla tanımlanır. Fontlar için[`SystemFontSource`](../../systemfontsource/) Ve[`FolderFontSource`](../../folderfontsource/) önbellek anahtarı yazı tipi dosyasına giden path 'dir.[`MemoryFontSource`](../../memoryfontsource/) Ve[`StreamFontSource`](../../streamfontsource/)önbellek anahtarı, x000d_ olarak tanımlandı[`CacheKey`](../../memoryfontsource/cachekey/) Ve[`CacheKey`](../../streamfontsource/cachekey/) properties sırasıyla. Bunun için[`FileFontSource`](../../filefontsource/) önbellek anahtarı ya[`CacheKey`](../../filefontsource/cachekey/) özelliği veya bir dosya yolu[`CacheKey`](../../filefontsource/cachekey/) dır`hükümsüz`.
 
-Önbellek yüklenirken, önbelleğin kaydedildiği andaki yazı tipi kaynaklarının aynısının sağlanması önemle tavsiye edilir. Yazı tipi kaynaklarındaki herhangi bir değişiklik (örn. yeni yazı tipleri eklemek, yazı tipi dosyalarını taşımak veya önbellek anahtarını değiştirmek), yazı tipinin hatalı olmasına yol açabilir Aspose.Words ile çözülüyor.
+Önbelleği yüklerken, önbelleğin kaydedildiği zamandakiyle aynı yazı tipi kaynaklarını sağlamanız şiddetle önerilir. Yazı tipi kaynaklarında yapılan herhangi bir değişiklik (örneğin, yeni yazı tipleri eklemek, yazı tipi dosyalarını taşımak veya önbellek anahtarını değiştirmek) Aspose.Words tarafından yanlış yazı tipi çözümlemesine yol açabilir.
 
 ## Örnekler
 
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -134,8 +134,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm ömrü boyunca.
+/// Font verilerini hafızada saklamak yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm yaşam süresi boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

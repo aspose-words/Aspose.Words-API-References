@@ -2,15 +2,15 @@
 title: MailMergeCleanupOptions Enum
 linktitle: MailMergeCleanupOptions
 articleTitle: MailMergeCleanupOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions Sıralama. Adresmektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Posta birleştirme temizliğini etkili bir şekilde yönetmek için Aspose.Words.MailMergeCleanupOptions enum'unu keşfedin. Öğe kaldırmayı sorunsuz bir şekilde kontrol ederek belgelerinizi optimize edin.
 type: docs
-weight: 3850
+weight: 4540
 url: /tr/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
 
-Adres-mektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
+Posta birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
 
 ```csharp
 [Flags]
@@ -21,17 +21,43 @@ public enum MailMergeCleanupOptions
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Varsayılan bir değeri belirtir. |
-| RemoveEmptyParagraphs | `1` | Veri içermeyen adres-mektup birleştirme alanları içeren paragrafların belgeden kaldırılıp kaldırılmayacağını belirtir. Bu seçenek ayarlandığında, aksi durumda boş olan bölge başlangıç ve bitiş birleştirme alanlarını içeren paragraflar da kaldırılır. |
-| RemoveUnusedRegions | `2` | Kullanılmayan adres-mektup birleştirme bölgelerinin belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| None | `0` | Varsayılan bir değer belirtir. |
+| RemoveEmptyParagraphs | `1` | Veri içermeyen birleştirme alanlarını içeren paragrafların belgeden kaldırılıp kaldırılmayacağını belirtir. Bu seçenek ayarlandığında, aksi takdirde boş olan bölge başlangıç ve bitiş birleştirme alanlarını içeren paragraflar da kaldırılır. |
+| RemoveUnusedRegions | `2` | Kullanılmayan posta birleştirme bölgelerinin belgeden kaldırılıp kaldırılmayacağını belirtir. |
 | RemoveUnusedFields | `4` | Kullanılmayan birleştirme alanlarının belgeden kaldırılıp kaldırılmayacağını belirtir. |
-| RemoveContainingFields | `8` | İç içe geçmiş birleştirme alanları kaldırılırsa, birleştirme alanları içeren alanların (örneğin IF'ler) document 'den kaldırılıp kaldırılmayacağını belirtir. |
-| RemoveStaticFields | `10` | Statik alanların belgeden kaldırılıp kaldırılmayacağını belirtir. Statik alanlar, herhangi bir belge değişikliğinde sonuçlarının aynı kaldığı alanlardır. Sonuçlarını bir document dosyasında saklamayan ve anında hesaplanan alanlar (örneğinFieldListNum , FieldSymbol , vb.) statik olarak kabul edilmez. |
-| RemoveEmptyTableRows | `20` | Adres-mektup birleştirme bölgelerini içeren boş satırların belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| RemoveContainingFields | `8` | Birleştirme alanları içeren alanların (örneğin, IF'ler) belgeden kaldırılıp kaldırılmayacağını belirtir. İç içe geçmiş birleştirme alanları kaldırılırsa. |
+| RemoveStaticFields | `10` | Statik alanların belgeden kaldırılıp kaldırılmayacağını belirtir. Statik alanlar, herhangi bir belge değişikliğinde sonuçları aynı kalan alanlardır. Sonuçlarını bir belgede saklamayan ve anında hesaplanan alanlar (örneğinFieldListNum , FieldSymbol , vb.) statik olarak kabul edilmez. |
+| RemoveEmptyTableRows | `20` | Posta birleştirme bölgeleri içeren boş satırların belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| RemoveEmptyTables | `40` | kullanılarak kaldırılan posta birleştirme bölgelerini içeren belge tablolarından kaldırılıp kaldırılmayacağını belirtir.RemoveUnusedRegions veyaRemoveEmptyTableRows seçenek. |
 
 ## Örnekler
 
-Adres-mektup birleştirmenin birleştirme çıktı belgesinden oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
+Posta birleştirme sırasında tüm boş tablonun nasıl kaldırılacağını gösterir.
+
+```csharp
+DataTable tableCustomers = new DataTable("A");
+tableCustomers.Columns.Add("CustomerID");
+tableCustomers.Columns.Add("CustomerName");
+tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
+tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
+
+DataSet ds = new DataSet();
+ds.Tables.Add(tableCustomers);
+
+Document doc = new Document(MyDir + "Mail merge tables.docx");
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+
+doc.MailMerge.MergeDuplicateRegions = false;
+doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
+doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
+
+doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+
+doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.Table, true).Count);
+```
+
+Birleştirme çıktı belgesinden, birleştirme işleminin oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -64,14 +90,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Adres-mektup birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
+Posta birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres-mektup birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'leri içeren bir belge oluşturun,
-// ve ardından adları MERGEFIELD'lerimizle eşleşen yalnızca iki sütunlu bir tablo oluşturun.
+// Bir posta birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'leri içeren bir belge oluşturun,
+// ve ardından MERGEFIELD'larımızla eşleşen yalnızca iki sütundan oluşan bir tablo oluşturalım.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -84,10 +110,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// Üçüncü MERGEFIELD'ımız, veri kaynağımızda bulunmayan bir "Şehir" sütununa başvuruyor.
-// Adres-mektup birleştirme, bunun gibi alanları birleştirme öncesi durumlarında olduğu gibi bırakacaktır.
-// "CleanupOptions" özelliğinin "RemoveUnusedFields" olarak ayarlanması tüm MERGEFIELD'leri kaldıracaktır
-// adres-mektup birleştirme sırasında birleştirme belgelerini temizlemek için kullanılmayanlar.
+// Üçüncü MERGEFIELD'ımız veri kaynağımızda bulunmayan bir "Şehir" sütununa atıfta bulunuyor.
+// Posta birleştirme işlemi, bu gibi alanların birleştirme öncesi durumlarını olduğu gibi bırakacaktır.
+// "CleanupOptions" özelliğini "RemoveUnusedFields" olarak ayarlamak tüm MERGEFIELD'leri kaldıracaktır
+// birleştirme sırasında kullanılmayan birleştirme belgelerini temizlemek için.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

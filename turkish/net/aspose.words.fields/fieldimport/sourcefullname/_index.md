@@ -2,8 +2,8 @@
 title: FieldImport.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: Aspose.Words for .NET
-description: FieldImport SourceFullName mülk. Resmin konumunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizdeki görüntü konumlarını gelişmiş organizasyon ve erişilebilirlik için kolayca yönetmek amacıyla FieldImport SourceFullName özelliğinin nasıl kullanılacağını keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -18,7 +18,7 @@ public string SourceFullName { get; set; }
 
 ## Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak resim eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - İTHALAT alanı:
+// 2 - IMPORT alanı:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

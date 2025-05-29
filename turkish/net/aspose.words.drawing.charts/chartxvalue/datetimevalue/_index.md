@@ -2,15 +2,15 @@
 title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
-second_title: Aspose.Words for .NET
-description: ChartXValue DateTimeValue mülk. Saklanan tarihsaat değerini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için depolanan tarih/saat değerlerini kolayca almak ve yönetmek amacıyla ChartXValue DateTimeValue özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/
 ---
 ## ChartXValue.DateTimeValue property
 
-Saklanan tarihsaat değerini alır.
+Depolanan tarih/saat değerini alır.
 
 ```csharp
 public DateTime DateTimeValue { get; }

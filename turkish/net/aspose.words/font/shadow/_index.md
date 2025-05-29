@@ -2,10 +2,10 @@
 title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
-second_title: Aspose.Words for .NET
-description: Font Shadow mülk. Yazı tipi gölgeli olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Font Shadow özelliğini keşfedin, tasarımlarınızda çarpıcı bir görsel çekicilik için metninizi şık gölge efektleriyle zenginleştirin.
 type: docs
-weight: 330
+weight: 340
 url: /tr/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
@@ -18,14 +18,14 @@ public bool Shadow { get; set; }
 
 ## Örnekler
 
-Gölgeyle biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını gösterir.
+Gölgeli bir metin dizisinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Gölge bayrağını ofset gölge efekti uygulayacak şekilde ayarlayın,
-// harflerin sayfanın üzerinde yüzüyormuş gibi görünmesini sağlıyoruz.
+// Gölge bayrağını ayarlayarak gölge efektini ofsetleyin.
+// harflerin sayfanın üstünde yüzüyormuş gibi görünmesini sağlar.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

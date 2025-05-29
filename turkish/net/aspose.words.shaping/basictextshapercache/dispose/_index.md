@@ -2,15 +2,15 @@
 title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 articleTitle: Dispose
-second_title: Aspose.Words for .NET
-description: BasicTextShaperCache Dispose yöntem. Önbelleğe alınanları imha ederITextShaper örnekler C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi performans için önbelleğe alınmış ITextShaper örneklerini temizleyen BasicTextShaperCache Dispose yöntemi ile belleği verimli bir şekilde yönetin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
 
-Önbelleğe alınanları imha eder[`ITextShaper`](../../itextshaper/) örnekler.
+Önbelleğe alınmış verileri imha eder[`ITextShaper`](../../itextshaper/) örnekler.
 
 ```csharp
 public void Dispose()

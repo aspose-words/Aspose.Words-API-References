@@ -2,8 +2,8 @@
 title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: NodeCollection Remove yöntem. Düğümü koleksiyondan ve belgeden kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: NodeCollection Remove yöntemi ile belgenizden düğümleri zahmetsizce kaldırın, böylece veri yönetiminizi kolaylaştırın ve performansı artırın.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/nodecollection/remove/
@@ -28,7 +28,7 @@ NodeCollection ile nasıl çalışılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder kullanarak Çalıştırmalar ekleyerek belgeye metin ekleyin.
+// DocumentBuilder kullanarak çalıştırmalar ekleyerek belgeye metin ekleyin.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
@@ -38,14 +38,14 @@ RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// RunCollection'a manuel olarak da düğüm ekleyebiliriz.
+// RunCollection'a manuel olarak da bir düğüm ekleyebiliriz.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Metinlerini belgeden kaldırmak için bireysel çalıştırmalara erişin ve bunları kaldırın.
+// Tek tek çalışmalara erişin ve bunları kaldırarak metinlerini belgeden kaldırın.
 Run run = runs[1];
 runs.Remove(run);
 

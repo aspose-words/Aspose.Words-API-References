@@ -2,8 +2,8 @@
 title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
-second_title: Aspose.Words for .NET
-description: FieldChar IsDirty mülk. Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru eski olup olmadığını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldChar IsDirty özelliğinin, alanlarınızın her zaman en son güncellemeleri yansıtmasını sağlayarak değişiklikleri izleyerek belge doğruluğunu korumaya nasıl yardımcı olduğunu keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldchar/isdirty/
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Belgedeki alanı temsil eden cephe nesnesini alın.
+// Belgedeki alanı temsil eden cephe nesnesini al.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
+// Alanı güncel tarihi gösterecek şekilde güncelleyin.
 field.Update();
 ```
 

@@ -2,17 +2,17 @@
 title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
-second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeList sınıf. kullanılarak yürütülen bir XPath sorgusuyla eşleşen düğümlerin bir koleksiyonunu temsil eder.SelectNodes yöntem C#'da.
+second_title: .NET için Aspose.Words
+description: XPath sorgu sonuçlarını verimli bir şekilde yönetmek ve belge işleme yeteneklerini geliştirmek için başvuracağınız çözüm olan Aspose.Words.NodeList sınıfını keşfedin.
 type: docs
-weight: 4220
+weight: 4910
 url: /tr/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-kullanılarak yürütülen bir XPath sorgusuyla eşleşen düğümlerin bir koleksiyonunu temsil eder.[`SelectNodes`](../compositenode/selectnodes/) yöntem.
+, XPath sorgusuyla eşleşen düğümlerin bir koleksiyonunu temsil eder.[`SelectNodes`](../compositenode/selectnodes/) yöntem.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) belgeleme makalesi.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -23,26 +23,26 @@ public class NodeList : IEnumerable<Node>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodelist/count/) { get; } | Listedeki düğüm sayısını alır. |
-| [Item](../../aspose.words/nodelist/item/) { get; } | Verilen dizindeki bir düğümü alır. |
+| [Item](../../aspose.words/nodelist/item/) { get; } | Belirtilen dizindeki bir düğümü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" tarzı yineleme sağlar. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar. |
 
 ## Notlar
 
-`NodeList` tarafından iade edilir[`SelectNodes`](../compositenode/selectnodes/) ve XPath sorgusuyla eşleşen bir koleksiyon düğüm içerir.
+`NodeList` tarafından iade edilir[`SelectNodes`](../compositenode/selectnodes/) ve XPath sorgusuyla eşleşen düğümlerden oluşan bir collection içerir.
 
-`NodeList` indekslenmiş erişimi ve yinelemeyi destekler.
+`NodeList` dizinli erişimi ve yinelemeyi destekler.
 
-Tedavi et`NodeList` koleksiyonu bir "anlık görüntü" koleksiyonu olarak.`NodeList`başlar , "canlı" bir koleksiyon olarak başlar çünkü XPath sorgusu çalıştırıldığında düğümler gerçekte alınmaz. Düğümler yalnızca erişim üzerine alınır ve şu anda düğüm ve ondan önceki tüm düğümler, bir "anlık görüntü" koleksiyonu oluşturacak şekilde önbelleğe alınır.
+Tedavi et`NodeList` "anlık görüntü" koleksiyonu olarak koleksiyon.`NodeList` starts düğümleri XPath sorgusu çalıştırıldığında gerçekte alınmadığından "canlı" bir koleksiyon olarak başlatılır. Düğümler yalnızca erişim sırasında alınır ve bu sırada düğüm ve ondan önce gelen tüm düğümler önbelleğe alınarak bir "anlık görüntü" koleksiyonu oluşturulur.
 
 ## Örnekler
 
-Bir Word belgesindeki tüm köprülerin nasıl bulunacağını ve ardından URL'lerinin ve görünen adlarının nasıl değiştirileceğini gösterir.
+Bir Word belgesindeki tüm köprü metinlerinin nasıl bulunacağını ve ardından URL'lerinin ve görünen adlarının nasıl değiştirileceğini gösterir.
 
 ```csharp
 using System;
@@ -61,9 +61,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Word belgelerindeki köprüler alanlardır. Köprüleri aramaya başlamak için önce tüm alanları bulmalıyız.
-            // Belgedeki tüm alanları bir XPath aracılığıyla bulmak için "SelectNodes" yöntemini kullanın.
-            NodeList fieldStarts = doc.SelectNodes("//FieldStart");
+            // Word belgelerindeki köprü metinleri alanlardır. Köprü metinlerini aramaya başlamak için öncelikle tüm alanları bulmalıyız.
+            // Belgedeki tüm alanları XPath aracılığıyla bulmak için "SelectNodes" yöntemini kullanın.
+            NodeList fieldStarts = doc.SelectNodes("//AlanBaşlangıcı");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,11 +71,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // Yer imlerine bağlantı veren köprülerin URL'leri yoktur.
+                    // Yer imlerine bağlantı veren köprü metinlerinin URL'leri yoktur.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Her URL köprüsüne yeni bir URL ve ad verin.
+                    // Her URL köprüsüne yeni bir URL ve isim verin.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -89,11 +89,11 @@ namespace ApiExamples
     }
 
      ///<summary>
-      ///KÖPRÜ alanları belge gövdesindeki köprüleri içerir ve görüntüler. Aspose.Words'te bir alan
-      ///birden fazla düğümden oluşur ve tüm bu düğümlerle doğrudan çalışmak zor olabilir.
-     ///Bu uygulama yalnızca köprü kodu ve adının her biri yalnızca bir Çalıştırma düğümünden oluşuyorsa çalışır.
+      ///HYPERLINK alanları belge gövdesinde köprüler içerir ve görüntüler. Aspose.Words'deki bir alan
+      ///birkaç düğümden oluşur ve tüm bu düğümlerle doğrudan çalışmak zor olabilir.
+     ///Bu uygulama yalnızca köprü metni kodu ve adının her biri yalnızca bir Çalıştırma düğümünden oluşuyorsa çalışır.
     ///
-     ///Alanların düğüm yapısı aşağıdaki gibidir:
+     ///Alanlar için düğüm yapısı aşağıdaki gibidir:
      ///
      ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
      ///
@@ -114,22 +114,22 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Alan ayırıcı düğümü bulun.
+            // Alan ayırıcı düğümünü bul.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalde alanın bitiş düğümünü her zaman bulabiliriz ancak örnek belge
-             // bir köprünün içinde, alanı sona erdiren bir paragraf sonu içerir
-            // sonraki paragrafta. Birkaç alanı kapsayan alanları yönetmek çok daha karmaşık olacaktır.
-            //paragrafları doğru şekilde yaz. Bu durumda alan sonunun null olmasına izin vermek yeterlidir.
+             // Normalde, alanın son düğümünü her zaman bulabiliriz, ancak örnek belge
+             // bir köprü metni içinde bir paragraf sonu içerir, bu da alanı sonlandırır
+             // bir sonraki paragrafta. Birkaç alanı kapsayan alanları işlemek çok daha karmaşık olacaktır
+            // paragrafları doğru bir şekilde. Bu durumda alan sonunun boş olmasına izin vermek yeterlidir.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Alan kodu "HYPERLINK "http:\\www.myurl.com"" gibi görünür, ancak birkaç çalıştırmadan oluşabilir.
+            // Alan kodu "HYPERLINK "http:\\www.myurl.com"" gibi bir şeye benziyor, ancak birkaç çalıştırmadan oluşabilir.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
-            // Alan kodunda \l mevcutsa köprü yereldir.
+            // Alan kodunda \l mevcutsa köprü metni yereldir.
             mIsLocal = match.Groups[1].Length > 0; 
             mTarget = match.Groups[2].Value;
         }
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Köprü görünen adı, Çalıştırma olan alan sonucunda saklanır
-                // alan ayırıcı ile alan sonu arasındaki düğüm.
+                 // Köprü metni görüntü adı, Çalıştırma olan result alanında saklanır
+                // alan ayırıcısı ile alan sonu arasındaki düğüm.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Saha sonucu birden fazla çalıştırmadan oluşuyorsa bu çalıştırmaları silin.
+                // Alan sonucu birden fazla çalıştırmadan oluşuyorsa, bu çalıştırmaları silin.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,11 +189,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Bir alanın alan kodu, alanın başlangıç düğümü ile alan ayırıcı arasındaki bir Çalıştırma düğümündedir.
+            // Bir alanın alan kodu, alanın başlangıç düğümü ile alan ayırıcısı arasındaki Çalıştırma düğümündedir.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // Alan kodu birden fazla çalıştırmadan oluşuyorsa bu çalıştırmaları silin.
+            // Alan kodu birden fazla çalıştırmadan oluşuyorsa, bu çalıştırmaları silin.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -242,13 +251,13 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Bir veya daha fazla boşluksuz HYPERLINK veya diğer dillerdeki başka bir kelime.
+            "\\S+" + // Boşluk içermeyen bir veya daha fazla HYPERLINK veya diğer dillerdeki başka bir kelime.
             "\\s+" + // Bir veya daha fazla boşluk.
-            "(?:\"\"\\s+)?" + // İsteğe bağlı "" ve bir veya daha fazla boşluğu yakalamayan.
-            "(\\\\l\\s+)?" + // İsteğe bağlı \l bayrağı ve ardından bir veya daha fazla boşluk.
+            "(?:\"\"\\s+)?" + // İsteğe bağlı "" ve bir veya daha fazla boşluğu yakalamaz.
+            "(\\\\l\\s+)?" + // İsteğe bağlı \l bayrağı bir veya daha fazla boşluktan sonra gelir.
             "\"" +  // Bir kesme işareti.
-            "([^\"]+)" + // Kesme işareti (köprü hedefi) hariç bir veya daha fazla karakter.
-            "\"" // Bir kapanış kesme işareti.
+            "([^\"]+)" + // Kesme işareti hariç bir veya daha fazla karakter (hiperlink hedefi).
+            "\"" // Bir kapanış apostrofu.
         );
     }
 }

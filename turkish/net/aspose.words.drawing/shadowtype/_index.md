@@ -2,10 +2,10 @@
 title: ShadowType Enum
 linktitle: ShadowType
 articleTitle: ShadowType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ShadowType Sıralama. Şekil gölgesinin türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Çarpıcı belge görselleri için şekillerinizi özelleştirilebilir gölge türleriyle geliştirmek üzere Aspose.Words.Drawing.ShadowType enum'unu keşfedin.
 type: docs
-weight: 1240
+weight: 1630
 url: /tr/net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
@@ -24,8 +24,8 @@ public enum ShadowType
 | Shadow1 | `1` | İlk gölge türü. |
 | Shadow10 | `10` | Onuncu gölge türü. |
 | Shadow11 | `11` | Onbirinci gölge türü. |
-| Shadow12 | `12` | Onikinci gölge türü. |
-| Shadow13 | `13` | On üçüncü gölge türü. |
+| Shadow12 | `12` | On ikinci gölge türü. |
+| Shadow13 | `13` | Onüçüncü gölge türü. |
 | Shadow14 | `14` | On dördüncü gölge türü. |
 | Shadow15 | `15` | On beşinci gölge türü. |
 | Shadow16 | `16` | On altıncı gölge türü. |
@@ -46,7 +46,7 @@ public enum ShadowType
 | Shadow3 | `3` | Üçüncü gölge türü. |
 | Shadow30 | `30` | Otuzuncu gölge türü. |
 | Shadow31 | `31` | Otuz birinci gölge türü. |
-| Shadow32 | `32` | Otuz saniyelik gölge türü. |
+| Shadow32 | `32` | Otuz ikinci gölge türü. |
 | Shadow33 | `33` | Otuz üçüncü gölge türü. |
 | Shadow34 | `34` | Otuz dördüncü gölge türü. |
 | Shadow35 | `35` | Otuz beşinci gölge türü. |
@@ -67,20 +67,20 @@ public enum ShadowType
 
 ## Notlar
 
-ShadowType basit bir özellik değildir, ancak gölge görünümünü oluşturan birçok özelliği aynı anda ayarlayan bir ön ayardır.
+ShadowType basit bir öznitelik değil, aynı anda gölge görünümünü oluşturan birkaç özniteliği ayarlayan bir ön ayardır.
 
 ## Örnekler
 
-Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
+Şekil için gölge biçimlendirmesiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

@@ -2,15 +2,15 @@
 title: SignatureLine.Instructions
 linktitle: Instructions
 articleTitle: Instructions
-second_title: Aspose.Words for .NET
-description: SignatureLine Instructions mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılırDefaultInstructionsayarlandı. Bu özelliğin varsayılan değeriboş dize Empty C#'da.
+second_title: .NET için Aspose.Words
+description: İmzalayıcı talimatlarını SignatureLine özelliğiyle nasıl özelleştireceğinizi keşfedin. Net, kişiselleştirilmiş rehberlik ekleyerek imzalama deneyimini geliştirin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](../defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri:**boş dize** (Empty).
+İmza satırının imzalanması sırasında görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özellik, aşağıdaki durumlarda göz ardı edilir:[`DefaultInstructions`](../defaultinstructions/) set. Bu özellik için varsayılan değer**boş dize** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }
@@ -18,7 +18,7 @@ public string Instructions { get; set; }
 
 ## Örnekler
 
-İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
+İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
-// Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Görünümünü belirleyeceğimiz bir imza satırı içerecek bir şekil ekleyin.
+// Yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştiriyoruz.
+// Sayfanın sağ alt köşesinden koordinatları çıkan bir şekil eklersek,
+// Şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayın.
+// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayalım.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

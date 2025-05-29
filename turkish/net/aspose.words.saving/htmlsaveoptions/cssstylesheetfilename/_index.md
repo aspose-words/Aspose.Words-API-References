@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.CssStyleSheetFileName
 linktitle: CssStyleSheetFileName
 articleTitle: CssStyleSheetFileName
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions CssStyleSheetFileName mülk. Bir document HTMLye aktarıldığında yazılan Basamaklı Stil Sayfası CSS dosyasının yolunu ve adını belirtir. Varsayılan boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions CssStyleSheetFileName özelliğinin, belirtilen CSS dosya yoluyla HTML dışa aktarımlarınızı nasıl özelleştirerek belgenizin stilini geliştirdiğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Bir document HTML'ye aktarıldığında yazılan Basamaklı Stil Sayfası (CSS) dosyasının yolunu ve adını belirtir. Varsayılan, boş bir dizedir.
+Bir belge HTML'e aktarıldığında yazılan Basamaklı Stil Sayfası (CSS) dosyasının yolunu ve adını belirtir. Varsayılan boş bir dizedir.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -18,34 +18,34 @@ public string CssStyleSheetFileName { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca bir belge HTML biçiminde kaydedildiğinde ve harici CSS stil sayfası kullanılarak istendiğinde etkili olur.[`CssStyleSheetType`](../cssstylesheettype/).
+Bu özellik yalnızca bir belgeyi HTML formatı olarak kaydederken ve harici CSS stil sayfası kullanılarak istendiğinde etkilidir[`CssStyleSheetType`](../cssstylesheettype/).
 
-Bu özellik boşsa, CSS dosyası HTML belgesiyle aynı klasöre ve aynı adla ancak ".css" uzantısıyla kaydedilecektir.
+Bu özellik boş bırakıldığında, CSS dosyası HTML belgesiyle aynı klasöre ve aynı adla ancak ".css" uzantısıyla kaydedilecektir.
 
-Bu özellikte yalnızca yol belirtilir ancak dosya adı belirtilmezse, CSS dosyası belirtilen klasörüne kaydedilecek ve HTML belgesiyle aynı adı taşıyacak ancak ".css" uzantısına sahip olacaktır.
+Bu özellikte yalnızca yol belirtilir ancak dosya adı belirtilmezse, CSS dosyası belirtilen klasörüne kaydedilir ve HTML belgesiyle aynı ada sahip olur ancak ".css" uzantısına sahip olur.
 
-Bu özellik tarafından belirtilen klasör mevcut değilse, CSS file kaydedilmeden önce otomatik olarak oluşturulacaktır.
+Bu özellik tarafından belirtilen klasör mevcut değilse, CSS dosyası kaydedilmeden önce otomatik olarak oluşturulacaktır.
 
-Harici CSS dosyasının kaydedildiği klasörü belirtmenin başka bir yolu da kullanmaktır.[`ResourceFolder`](../resourcefolder/) .
+Harici CSS dosyasının kaydedileceği klasörü belirtmenin bir başka yolu da şunu kullanmaktır:[`ResourceFolder`](../resourcefolder/) .
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -57,7 +57,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -70,7 +70,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

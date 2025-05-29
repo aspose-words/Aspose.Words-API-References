@@ -2,15 +2,15 @@
 title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
-second_title: Aspose.Words for .NET
-description: Font Underline mülk. Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Metin stillerini özelleştirmek için Font Underline özelliğini keşfedin. Tasarımlarınızda gelişmiş tipografi için alt çizgi türlerini kolayca ayarlayın ve değiştirin.
 type: docs
-weight: 530
+weight: 540
 url: /tr/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
 
-Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar.
+Yazı tipine uygulanan alt çizginin türünü alır veya ayarlar.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Örnekler
 
-Metnin alt çizgisinin stilinin ve renginin nasıl yapılandırılacağını gösterir.
+Bir metnin altını çizmenin stilini ve rengini nasıl yapılandıracağınızı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi formatını belirtin, ardından metin ekleyin.
+// Yazı tipi biçimlendirmesini belirtin, ardından metni ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -49,7 +49,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-Köprü alanının nasıl ekleneceğini gösterir.
+Bir köprü metni alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -57,15 +57,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Bir köprü ekleyin ve bunu özel biçimlendirmeyle vurgulayın.
-// Köprü, bizi URL'de belirtilen konuma götürecek tıklanabilir bir metin parçası olacaktır.
+// Bir köprü metni ekleyin ve özel biçimlendirmeyle vurgulayın.
+// Köprü metni, URL'de belirtilen yere bizi götürecek tıklanabilir bir metin parçası olacaktır.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", yanlış);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Microsoft Word'deki metindeki bağlantıya Ctrl + sol tıklamak bizi yeni bir web tarayıcı penceresi aracılığıyla URL'ye götürecektir.
+// Microsoft Word'de metindeki bağlantıya Ctrl + sol tıklama bizi yeni bir web tarayıcısı penceresi aracılığıyla URL'ye götürecektir.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

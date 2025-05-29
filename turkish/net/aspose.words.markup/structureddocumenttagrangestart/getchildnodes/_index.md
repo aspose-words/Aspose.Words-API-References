@@ -2,10 +2,10 @@
 title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart GetChildNodes yöntem. Belirtilen türlerle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belirtilen tiplerinize göre uyarlanmış dinamik bir alt düğüm koleksiyonu sağlayan StructuredDocumentTagRangeStart GetChildNodes metodunu keşfedin.
 type: docs
-weight: 210
+weight: 220
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method

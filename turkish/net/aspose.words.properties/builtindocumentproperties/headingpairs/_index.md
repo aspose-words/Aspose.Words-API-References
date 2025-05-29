@@ -2,8 +2,8 @@
 title: BuiltInDocumentProperties.HeadingPairs
 linktitle: HeadingPairs
 articleTitle: HeadingPairs
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties HeadingPairs mülk. Belge başlıklarını ve adlarını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge başlıklarını kolayca yönetmek ve belge organizasyonunuzu geliştirmek için BuiltInDocumentProperties'deki HeadingPairs özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -18,11 +18,11 @@ public object[] HeadingPairs { get; set; }
 
 ## Notlar
 
-Her başlık çifti bu dizide iki öğeyi kaplar.
+Bu dizide her başlık çifti iki eleman kaplar.
 
-Çiftin ilk elemanı birString ve başlık adını belirtir. Çiftin ikinci elemanı birInt32 ve bu başlık için document parçalarının sayısını belirtir.[`TitlesOfParts`](../titlesofparts/) mülk.
+Çiftin ilk unsuru birString ve başlık adını belirtir. Çiftin ikinci öğesi birInt32 ve bu başlık için document parçalarının sayısını belirtir[`TitlesOfParts`](../titlesofparts/) mülk.
 
-Bu özellikteki tüm başlık çiftleri için toplam sayım toplamı, içindeki öğelerin sayısına eşit olmalıdır.[`TitlesOfParts`](../titlesofparts/) mülk.
+Bu özellikteki tüm başlık çiftleri için toplam sayım, öğenin sayısına eşit olmalıdır.[`TitlesOfParts`](../titlesofparts/) mülk.
 
 Aspose.Words bu özelliği güncellemez.
 
@@ -33,10 +33,10 @@ Aspose.Words bu özelliği güncellemez.
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Bu koleksiyonların birleştirilmiş değerlerini şu şekilde bulabiliriz:
-// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" --> "İçerik" sekmesi.
-// HeadingPairs özelliği <string, int> bunu eşleştir
-// bir başlığın kaç belge parçasına yayılacağını belirler.
+// Bu koleksiyonların birleşik değerlerini şu şekilde bulabiliriz:
+// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" -> "İçerikler" sekmesi.
+// HeadingPairs özelliği, <string, int> çiftlerinin bir koleksiyonudur
+// Bir başlığın kaç belge parçasına yayılacağını belirler.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
 // TitlesOfParts özelliği yukarıdaki başlıklara ait parçaların adlarını içerir.

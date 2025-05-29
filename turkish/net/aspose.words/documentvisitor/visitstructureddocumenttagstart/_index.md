@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitStructuredDocumentTagStart
 linktitle: VisitStructuredDocumentTagStart
 articleTitle: VisitStructuredDocumentTagStart
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitStructuredDocumentTagStart yöntem. Yapılandırılmış bir belge etiketinin numaralandırılması başlatıldığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Yapılandırılmış belge etiketi numaralandırmasını verimli bir şekilde başlatmak için gerekli olan DocumentVisitor VisitStructuredDocumentTagStart yöntemini keşfedin. Kodlamanızı bugün geliştirin!
 type: docs
 weight: 470
 url: /tr/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagStart method
 
-Yapılandırılmış bir belge etiketinin numaralandırılması başlatıldığında çağrılır.
+Yapılandırılmış bir belge etiketinin numaralandırılması başladığında çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void StructuredDocumentTagToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm StructuredDocumentTag düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm StructuredDocumentTag düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -73,7 +73,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir StructuredDocumentTag düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede StructuredDocumentTag düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
     {
@@ -84,7 +84,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir StructuredDocumentTag düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// StructuredDocumentTag düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
     {
@@ -95,7 +95,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

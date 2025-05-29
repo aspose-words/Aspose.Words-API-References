@@ -2,15 +2,15 @@
 title: FieldOptions.ResultFormatter
 linktitle: ResultFormatter
 articleTitle: ResultFormatter
-second_title: Aspose.Words for .NET
-description: FieldOptions ResultFormatter mülk. Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: FieldOptions'daki ResultFormatter özelliğinin, alan sonuç biçimlerini netlik ve etki için özelleştirerek veri sunumunuzu nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property
 
-Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir.
+Alan sonucunun nasıl biçimlendirileceğini kontrol etmenizi sağlar.
 
 ```csharp
 public IFieldResultFormatter ResultFormatter { get; set; }
@@ -18,7 +18,7 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 
 ## Örnekler
 
-Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
+Alanlar güncellendikçe alan sonuçlarına özel bir formatın otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
 public void FieldResultFormatting()
@@ -30,7 +30,7 @@ public void FieldResultFormatting()
 
     // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
+    // bu, InsertField metodunun aşırı yüklenmesini kullanarak bunları oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -53,8 +53,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
-/// her çağrıyı takip ederken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde, bu biçimlendirici biçimlendirmelerini geçersiz kılacaktır
+/// özel bir formatla, her çağrıyı takip ederek.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -109,12 +109,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

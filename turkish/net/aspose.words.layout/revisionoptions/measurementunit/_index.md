@@ -2,18 +2,34 @@
 title: RevisionOptions.MeasurementUnit
 linktitle: MeasurementUnit
 articleTitle: MeasurementUnit
-second_title: Aspose.Words for .NET
-description: RevisionOptions MeasurementUnit mülk. Revizyon yorumları için ölçü birimlerini belirlemeye olanak tanır. Varsayılan değerCentimeters C#'da.
+second_title: .NET için Aspose.Words
+description: Revizyon yorumlarınızı RevisionOptions MeasurementUnit özelliğiyle özelleştirin. Varsayılan olarak Santimetre ile ölçüm birimlerini kolayca ayarlayın.
 type: docs
-weight: 60
+weight: 80
 url: /tr/net/aspose.words.layout/revisionoptions/measurementunit/
 ---
 ## RevisionOptions.MeasurementUnit property
 
-Revizyon yorumları için ölçü birimlerini belirlemeye olanak tanır. Varsayılan değer:Centimeters
+Gözden geçirme yorumları için ölçüm birimlerini belirtmeye olanak tanır. Varsayılan değerCentimeters
 
 ```csharp
 public MeasurementUnits MeasurementUnit { get; set; }
+```
+
+## Örnekler
+
+Kaydedilmiş bir belgenin eski bir ODT şemasına uygun hale getirilmesinin nasıl yapılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
 ### Ayrıca bakınız

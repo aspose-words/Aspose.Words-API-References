@@ -2,15 +2,15 @@
 title: BorderCollection.Shadow
 linktitle: Shadow
 articleTitle: Shadow
-second_title: Aspose.Words for .NET
-description: BorderCollection Shadow mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızı geliştirmek için BorderCollection Shadow özelliğini keşfedin. Projelerinizde modern ve şık bir görünüm için kenarlık gölgelerini kolayca kontrol edin!
 type: docs
 weight: 110
 url: /tr/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
+Sınırın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,9 +18,9 @@ public bool Shadow { get; set; }
 
 ## Notlar
 
-Koleksiyondaki ilk kenarlıktan değeri alır.
+Koleksiyondaki ilk sınırdan değeri alır.
 
-Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların değerini ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıklar için değeri ayarlar.
 
 ## Örnekler
 

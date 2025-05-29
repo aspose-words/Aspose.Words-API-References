@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportFontsAsBase64
 linktitle: ExportFontsAsBase64
 articleTitle: ExportFontsAsBase64
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportFontsAsBase64 mülk. Yazı tipi kaynaklarının Base64 kodlamasında HTMLye gömülmesi gerekip gerekmediğini belirtir. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportFontsAsBase64 özelliğinin, gelişmiş performans için yazı tiplerini Base64 kodlamasına gömerek HTML'nizi nasıl geliştirdiğini keşfedin. Varsayılan, false.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-Yazı tipi kaynaklarının Base64 kodlamasında HTML'ye gömülmesi gerekip gerekmediğini belirtir. Varsayılan:`YANLIŞ` .
+Yazı tipi kaynaklarının HTML'ye Base64 kodlamasıyla gömülmesi gerekip gerekmediğini belirtir. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -18,7 +18,7 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ## Notlar
 
-Varsayılan olarak yazı tipleri ayrı dosyalara yazılır. Bu seçenek olarak ayarlanmışsa`doğru`, yazı tipleri Base64 kodlamasında belgenin CSS'sine gömülü olacaktır.
+Varsayılan olarak, yazı tipleri ayrı dosyalara yazılır. Bu seçenek olarak ayarlanırsa`doğru`, yazı tipleri Base64 kodlamasıyla belgenin CSS'sine gömülecek .
 
 ## Örnekler
 
@@ -37,7 +37,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-İçinde gömülü resimler bulunan bir .html belgesinin nasıl kaydedileceğini gösterir.
+İçerisinde resimler bulunan bir .html belgesinin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -2,10 +2,10 @@
 title: Document.GlossaryDocument
 linktitle: GlossaryDocument
 articleTitle: GlossaryDocument
-second_title: Aspose.Words for .NET
-description: Document GlossaryDocument mülk. Bu belge veya şablon içindeki sözlük belgesini alır veya ayarlar. Sözlük belgesi bir belgede tanımlanan Otomatik Metin Otomatik Düzeltme ve Yapı Taşı girişleri için bir depolama dir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge sözlüğünüzü etkili bir şekilde nasıl yöneteceğinizi keşfedin. Şablonlarınızdaki Otomatik Metin ve Yapı Taşları için sözlük girişlerini ayarlamayı ve almayı öğrenin.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words/document/glossarydocument/
 ---
 ## Document.GlossaryDocument property
@@ -18,7 +18,7 @@ public GlossaryDocument GlossaryDocument { get; set; }
 
 ## Notlar
 
-Bu özellik şunu döndürür:`hükümsüz` belgenin sözlük belgesi yoksa.
+Bu özellik şunu döndürür:`hükümsüz` Eğer belgede sözlük belgesi yoksa.
 
 a oluşturarak bir belgeye sözlük belgesi ekleyebilirsiniz.[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) nesne ve bu özelliğe atama.
 
@@ -29,12 +29,12 @@ Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 ```csharp
 public void CreateAndInsert()
 {
-    // Bir belgenin sözlük belgesi yapı taşlarını saklar.
+    // Bir belgenin sözlük belgesi yapı taşlarını depolar.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Bir yapı taşı oluşturun, adlandırın ve ardından onu sözlük belgesine ekleyin.
+    // Bir yapı taşı oluşturun, ona bir isim verin ve ardından sözlük belgesine ekleyin.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -42,39 +42,40 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Tüm yeni yapı taşı GUID'leri varsayılan olarak aynı sıfır değerine sahiptir ve onlara yeni bir benzersiz değer verebiliriz.
+    // Tüm yeni yapı taşı GUID'leri varsayılan olarak aynı sıfır değerine sahiptir ve bunlara yeni ve benzersiz bir değer verebiliriz.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Aşağıdaki özellikler yapı taşlarını sınıflandırır
-    // Microsoft Word'de "Ekle" yoluyla erişebileceğimiz menüde -> "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
+    // Aşağıdaki özellikler yapı taşlarını kategorilere ayırır
+    // Microsoft Word'de "Ekle" -> "Hızlı Parçalar" -> "Yapı Blokları Düzenleyicisi" yoluyla ulaşabileceğimiz menüde.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Bu yapı taşını belgemize eklemeden önce ona bazı içerikler vermemiz gerekecek,
-    // bunu bir belge ziyaretçisi kullanarak yapacağız. Bu ziyaretçi ayrıca bir kategori, galeri ve davranış belirleyecektir.
+    // Bu yapı taşını belgemize eklemeden önce, ona bazı içerikler vermemiz gerekecek,
+    // bunu bir belge ziyaretçisi kullanarak yapacağız. Bu ziyaretçi ayrıca bir kategori, galeri ve davranış belirleyecek.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // BuildingBlock'un başlangıcını/sonunu ziyaret edin.
     block.Accept(visitor);
 
-    // Az önce oluşturduğumuz bloğa sözlük belgesinden ulaşabiliyoruz.
+    // Az önce oluşturduğumuz bloğa sözlük belgesinden erişebiliriz.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-    // Bloğun kendisi metni içeren bir bölümdür.
+    // Blok, metnin yer aldığı bölümdür.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-    // Artık belgeye yeni bir bölüm olarak ekleyebiliriz.
+    // Şimdi bunu yeni bir bölüm olarak belgeye ekleyebiliriz.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Bunu Microsoft Word'ün Yapı Taşları Düzenleyicisinde de bulabilir ve manuel olarak yerleştirebiliriz.
+    // Bunu Microsoft Word'ün Building Blocks Organizer'ında da bulabilir ve elle yerleştirebiliriz.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Belgeye hızlı bir parça olarak eklenecek ziyaret edilen bir yapı taşını ayarlar ve içeriğine metin ekler.
+/// Ziyaret edilen bir yapı bloğunun belgeye hızlı bir parça olarak eklenmesini ayarlar ve içeriğine metin ekler.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -86,7 +87,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Yapı taşını hızlı parça olarak yapılandırın ve Yapı Taşları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
+        // Yapı bloğunu hızlı bir parça olarak yapılandırın ve Yapı Blokları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =

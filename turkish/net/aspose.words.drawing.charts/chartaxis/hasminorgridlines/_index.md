@@ -2,15 +2,15 @@
 title: ChartAxis.HasMinorGridlines
 linktitle: HasMinorGridlines
 articleTitle: HasMinorGridlines
-second_title: Aspose.Words for .NET
-description: ChartAxis HasMinorGridlines mülk. Eksenin ikincil kılavuz çizgileri olup olmadığını belirten bir bayrak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiklerinizdeki küçük ızgara çizgilerini kolayca kontrol etmek, veri okunabilirliğini ve görselleştirmeyi geliştirmek için ChartAxis HasMinorGridlines özelliğini keşfedin.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
 ---
 ## ChartAxis.HasMinorGridlines property
 
-Eksenin ikincil kılavuz çizgileri olup olmadığını belirten bir bayrak alır veya ayarlar.
+Eksenin küçük ızgara çizgilerine sahip olup olmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool HasMinorGridlines { get; set; }
@@ -18,7 +18,7 @@ public bool HasMinorGridlines { get; set; }
 
 ## Örnekler
 
-Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
+Tarih/saat değerleri içeren grafiğin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,12 +39,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseninin alt ve üst sınırlarını ayarlayın.
+// X ekseni için alt ve üst sınırları belirleyin.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
+// X ekseninin ana birimlerini haftaya, küçük birimlerini ise güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -55,7 +55,7 @@ xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

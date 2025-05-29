@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportRelativeFontSize
 linktitle: ExportRelativeFontSize
 articleTitle: ExportRelativeFontSize
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportRelativeFontSize mülk. HTML MHTML veya EPUBa kaydederken yazı tipi boyutlarının göreli birimler halinde çıkarılıp çıkarılmayacağını belirtir. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HTML, MHTML veya EPUB formatlarında yazı tipi boyutlarını özelleştirmek için HtmlSaveOptions ExportRelativeFontSize özelliğini keşfedin. Okunabilirliği kolaylıkla artırın!
 type: docs
 weight: 230
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 ---
 ## HtmlSaveOptions.ExportRelativeFontSize property
 
-HTML, MHTML veya EPUB'a kaydederken yazı tipi boyutlarının göreli birimler halinde çıkarılıp çıkarılmayacağını belirtir. Varsayılan:`YANLIŞ` .
+HTML, MHTML veya EPUB'a kaydederken yazı tipi boyutlarının göreli birimlerde çıktı verilip verilmeyeceğini belirtir. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ExportRelativeFontSize { get; set; }
@@ -18,15 +18,15 @@ public bool ExportRelativeFontSize { get; set; }
 
 ## Notlar
 
-Mevcut birçok belgede (HTML, IDPF EPUB) yazı tipi boyutları göreceli birimlerle belirtilir. Bu, uygulamalarının belgeleri görüntülerken/işlerken metin boyutunu ayarlamasına olanak tanır. Örneğin, Microsoft Internet Explorer 'nin "Görünüm-&gt;Metin Boyutu" alt menüsü vardır, Adobe Digital Editions'ın iki düğmesi vardır: Metin Boyutunu Artır/Azalt. Bu işlevin çalışmasını bekliyorsanız o zaman ayarlayın`ExportRelativeFontSize` mülkiyet`doğru` .
+Birçok mevcut belgede (HTML, IDPF EPUB) yazı tipi boyutları göreceli birimlerle belirtilir. Bu, uygulamaların belgeleri görüntülerken/işlerken metin boyutunu ayarlamasına olanak tanır. Örneğin, Microsoft Internet Explorer "Görünüm-&gt;Metin Boyutu" alt menüsüne sahiptir, Adobe Digital Editions'ın iki düğmesi vardır: Metin Boyutunu Artır/Azalt. Bu işlevselliğin çalışmasını bekliyorsanız,`ExportRelativeFontSize` mülk`doğru` .
 
-Aspose Words belge modeli yalnızca mutlak yazı tipi boyutu birimlerini içerir ve bunlarla çalışır. Göreli birimlerin bazı başlangıç (standart) boyutlardan yeniden hesaplanması için ek mantığa ihtiyacı vardır. Yazı tipi boyutu**Normal** belge stili standart olarak alınır. Örneğin, eğer**Normal** 12 puntoluk yazı tipi varsa ve bazı metinler 18 punto ise, olarak çıkarılacaktır.**1.5em.** HTML'ye.
+Aspose Words belge modeli yalnızca mutlak yazı tipi boyutu birimlerini içerir ve bunlarla çalışır. Göreceli birimler, bazı başlangıç (standart) boyutlarından yeniden hesaplanmak üzere ek mantığına ihtiyaç duyar. Yazı tipi boyutu**Normal** belge style standart olarak alınır. Örneğin, eğer**Normal** 12pt yazı tipi ve bazı metinler 18pt ise çıktı şu şekilde olacaktır**1,5 cm.** HTML'ye.
 
-Bu seçenek etkinleştirildiğinde, metin dışındaki belge öğeleri hâlâ mutlak boyutlara sahip olacaktır. Ayrıca metinle ilgili bazı nitelikler mutlak olarak ifade edilebilir. Özellikle, "tam olarak" kuralı ile belirtilen satır aralığı, metni ölçeklendirirken istenmeyen sonuçlar doğurabilir. Bu nedenle, kaynak belgeler dışa aktarılırken doğru şekilde tasarlanmalı ve test edilmelidir.`ExportRelativeFontSize` ayarlanır`doğru`.
+Bu seçenek etkinleştirildiğinde, metin dışındaki belge öğeleri hala mutlak boyutlara sahip olacaktır. Ayrıca, bazı metinle ilgili öznitelikler mutlak olarak ifade edilebilir. Özellikle, "exactly" rule ile belirtilen satır aralığı, metin ölçeklenirken istenmeyen sonuçlar üretebilir. Bu nedenle kaynak belgeler, dışa aktarılırken düzgün bir şekilde tasarlanmalı ve test edilmelidir `ExportRelativeFontSize` ayarlandı`doğru`.
 
 ## Örnekler
 
-.html'ye kaydederken göreli yazı tipi boyutlarının nasıl kullanılacağını gösterir.
+.html'e kaydederken göreceli yazı tipi boyutlarının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,12 +38,12 @@ builder.Writeln("2x default font size,");
 builder.Font.Size = 96;
 builder.Write("8x default font size");
 
-// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
-// göreli veya mutlak yazı tipi boyutlarının kullanılıp kullanılmayacağını belirlemek için.
-// Yazı tipi boyutlarını bildirmek için "ExportRelativeFontSize" bayrağını "true" olarak ayarlayın
- // mevcut yazı tipi boyutunu çarpan bir faktör olan "em" ölçü birimini kullanarak.
+// Belgeyi HTML'e kaydettiğimizde, SaveOptions nesnesini geçirebiliriz
+// bağıl veya mutlak yazı tipi boyutlarının kullanılıp kullanılmayacağını belirlemek için.
+// Yazı tipi boyutlarını belirtmek için "ExportRelativeFontSize" bayrağını "true" olarak ayarlayın
+ // geçerli yazı tipi boyutunu çarpan bir faktör olan "em" ölçüm birimini kullanarak.
 // Yazı tipi boyutlarını bildirmek için "ExportRelativeFontSize" bayrağını "false" olarak ayarlayın
-// yazı tipinin nokta cinsinden mutlak boyutu olan "pt" ölçü birimini kullanarak.
+// yazı tipinin nokta cinsinden mutlak boyutunu ifade eden "pt" ölçüm birimini kullanarak.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRelativeFontSize = exportRelativeFontSize };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RelativeFontSize.html", options);

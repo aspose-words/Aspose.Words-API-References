@@ -2,15 +2,15 @@
 title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions ShowPageBorder mülk. Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılandoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfa anahatlarınızı özelleştirmek için SvgSaveOptions ShowPageBorder özelliğini keşfedin. Kenarlıkları zahmetsizce kontrol edin—kolay kullanım için varsayılan ayar true'dur!
 type: docs
-weight: 80
+weight: 110
 url: /tr/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılan:`doğru` .
+Sayfanın ana hatlarına bir kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılan`doğru` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -18,12 +18,12 @@ public bool ShowPageBorder { get; set; }
 
 ## Örnekler
 
-Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
+.docx belgesini .svg'ye dönüştürürken görsellerin özelliklerinin nasıl taklit edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// SvgSaveOptions nesnesini, sayfa kenarlıkları veya seçilebilir metin olmadan kaydedilecek şekilde yapılandırın.
+// SvgSaveOptions nesnesini sayfa kenarlıkları veya seçilebilir metin olmadan kaydedecek şekilde yapılandırın.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

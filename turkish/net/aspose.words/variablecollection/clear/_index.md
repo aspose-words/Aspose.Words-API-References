@@ -2,8 +2,8 @@
 title: VariableCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET
-description: VariableCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Clear metodumuzla VariableCollection'ınızdaki tüm öğeleri zahmetsizce temizleyin. Veri yönetiminizi bugün basitleştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/variablecollection/clear/
@@ -24,14 +24,14 @@ Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Her belgede, öğeler ekleyebileceğimiz bir anahtar/değer çifti değişkenleri koleksiyonu bulunur.
+// Her belgenin, öğeler ekleyebileceğimiz bir anahtar/değer çifti değişkenleri koleksiyonu vardır.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// DOCVARIABLE alanlarını kullanarak belge gövdesindeki değişkenlerin değerlerini görüntüleyebiliriz.
+// DOCVARIABLE alanlarını kullanarak değişkenlerin değerlerini belge gövdesinde görüntüleyebiliriz.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -42,42 +42,45 @@ Assert.AreEqual("123 Main St.", field.Result);
 // Mevcut anahtarlara değer atamak onları güncelleyecektir.
 variables.Add("Home address", "456 Queen St.");
 
-// Daha sonra DOCVARIABLE alanlarını güncel bir değer görüntülediklerinden emin olmak için güncellememiz gerekecek.
+// Daha sonra güncel bir değer görüntülediğinden emin olmak için DOCVARIABLE alanlarını güncellememiz gerekecek.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-//Belirli bir ada veya değere sahip belge değişkenlerinin mevcut olduğunu doğrulayın.
+// Belirli bir ad veya değere sahip belge değişkenlerinin var olduğunu doğrulayın.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// Değişkenlerin toplanması, değişkenleri otomatik olarak ada göre alfabetik olarak sıralar.
+// Değişken koleksiyonu değişkenleri otomatik olarak adlarına göre alfabetik olarak sıralar.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Değişkenlerin koleksiyonunu numaralandırın.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// Değişken koleksiyonu üzerinde numaralandırma.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Aşağıda belge değişkenlerini bir koleksiyondan kaldırmanın üç yolu verilmiştir.
-// 1 - Ada göre:
+// Aşağıda bir koleksiyondan belge değişkenlerini kaldırmanın üç yolu bulunmaktadır.
+// 1 - İsme göre:
 variables.Remove("City");
 
 Assert.False(variables.Contains("City"));
 
-// 2 - Dizine göre:
+// 2 - Dizin olarak:
 variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Tüm koleksiyonu bir kerede temizleyin:
+// 3 - Tüm koleksiyonu bir defada temizle:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Ayrıca bakınız

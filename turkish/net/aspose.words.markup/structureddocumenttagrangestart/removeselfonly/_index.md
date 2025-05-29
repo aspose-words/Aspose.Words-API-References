@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart RemoveSelfOnly yöntem. Yapılandırılmış belge etiketinin bu aralık başlangıç ve uygun aralık sonu düğümlerini kaldırır ancak içeriğini belge ağacının içinde tutar C#'da.
+second_title: .NET için Aspose.Words
+description: İçeriği korurken Yapılandırılmış Belge Etiketi aralığını zahmetsizce kaldırın. Belge yapınızı bugün RemoveSelfOnly yöntemiyle optimize edin!
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Yapılandırılmış belge etiketinin, bu aralık başlangıç ve uygun aralık sonu düğümlerini kaldırır, ancak içeriğini belge ağacının içinde tutar.
+Yapılandırılmış belge etiketinin bu aralık başlangıcını ve uygun aralık bitiş düğümlerini kaldırır, ancak içeriğini belge ağacının içinde tutar.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Aralıklı yapılandırılmış belge etiketini kaldırır ancak içeriği içeride tutar.
+    // Aralıklı yapılandırılmış belge etiketini kaldırır, ancak içeriği içeride tutar.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,7 +43,7 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
@@ -55,13 +55,15 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

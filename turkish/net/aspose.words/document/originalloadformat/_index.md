@@ -2,10 +2,10 @@
 title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
-second_title: Aspose.Words for .NET
-description: Document OriginalLoadFormat mülk. Bu nesneye yüklenen orijinal belgenin biçimini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Nesnenize yüklenen orijinal belgenin biçimine kolayca erişmek ve belge yönetimini geliştirmek için OriginalLoadFormat özelliğini keşfedin.
 type: docs
-weight: 300
+weight: 310
 url: /tr/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -18,7 +18,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ## Notlar
 
-Yeni bir boş belge oluşturduysanız,Doc değer.
+Yeni boş bir belge oluşturduysanız, şunu döndürür:Doc değer.
 
 ## Örnekler
 

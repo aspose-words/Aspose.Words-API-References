@@ -2,15 +2,15 @@
 title: FieldIncludeText.XPath
 linktitle: XPath
 articleTitle: XPath
-second_title: Aspose.Words for .NET
-description: FieldIncludeText XPath mülk. XML dosyasının istenilen kısmı için XPathı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli XML bölümlerine kolayca erişmek ve bunları değiştirmek için FieldIncludeText XPath özelliğini keşfedin; böylece veri yönetimi verimliliğinizi artırın.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldincludetext/xpath/
 ---
 ## FieldIncludeText.XPath property
 
-XML dosyasının istenilen kısmı için XPath'ı alır veya ayarlar.
+XML dosyasının istenen kısmı için XPath'yi alır veya ayarlar.
 
 ```csharp
 public string XPath { get; set; }
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

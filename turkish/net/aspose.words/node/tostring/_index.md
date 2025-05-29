@@ -2,15 +2,15 @@
 title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET
-description: Node ToString yöntem. Düğümün içeriğini belirtilen formatta bir dizeye aktarır C#'da.
+second_title: .NET için Aspose.Words
+description: Node ToString metodunu keşfedin, düğüm içeriğini gelişmiş veri işleme için özelleştirilebilir formatlarla dizelere zahmetsizce dönüştürün. Kodlamanızı bugün optimize edin!
 type: docs
 weight: 160
 url: /tr/net/aspose.words/node/tostring/
 ---
 ## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
-Düğümün içeriğini belirtilen formatta bir dizeye aktarır.
+Düğümün içeriğini belirtilen biçimde bir dizeye aktarır.
 
 ```csharp
 public string ToString(SaveFormat saveFormat)
@@ -22,7 +22,7 @@ Belirtilen formattaki düğümün içeriği.
 
 ## Örnekler
 
-Bir düğümde GetText ve ToString yöntemlerinin çağrılması arasındaki farkı gösterir.
+Bir düğümde GetText ve ToString yöntemlerini çağırma arasındaki farkı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,11 +30,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText görünür metni, alan kodlarını ve özel karakterleri de alacaktır.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+// GetText görünür metni, alan kodlarını ve özel karakterleri alacaktır.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString, eğer başarılı bir kaydetme biçiminde kaydedilirse, belgenin görünümünü bize verecektir.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// ToString bize belgenin, geçilen bir kaydetme biçimine göre kaydedildiğinde nasıl görüneceğini verecektir.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
 Bir düğümün içeriğini HTML formatında String'e aktarır.
@@ -44,8 +44,8 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// ToString yöntemini html SaveFormat aşırı yüklemesini kullanarak çağırdığımızda,
-// düğümün içeriğini ham html temsiline dönüştürür.
+// ToString metodunu html SaveFormat aşırı yüklemesini kullanarak çağırdığımızda,
+// Düğümün içeriklerini ham html gösterimine dönüştürür.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
@@ -59,7 +59,7 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
                 "</p>", node.ToString(saveOptions));
 ```
 
-Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
+Liste öğeleri olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -67,24 +67,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-//Paragraf listemizin olup olmadığını bulun. Belgemizde listemizde sade Arapça rakamlar kullanılıyor,
+// Paragraf listesine sahip olup olmadığımızı bul. Belgemizde, listemiz düz Arap rakamlarını kullanır,
 // üçte başlayıp altıda biten.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Bu düğümün çıktısını metin formatına aldığımızda elde ettiğimiz metin budur.
+    // Bu düğümü metin formatına dönüştürdüğümüzde elde edeceğimiz metin budur.
      // Bu metin çıktısı liste etiketlerini atlayacaktır. Paragraf biçimlendirme karakterlerini kırpın.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Bu, paragrafın listenin geçerli düzeyindeki konumunu alır. Birden fazla düzeyden oluşan bir listemiz varsa,
-    // bu bize o seviyede hangi konumda olduğunu söyleyecektir.
+    // Bu, listenin geçerli seviyesindeki paragrafın pozisyonunu alır. Birden fazla seviyeye sahip bir listemiz varsa,
+    // bu bize o seviyedeki pozisyonunun ne olduğunu söyleyecektir.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Liste etiketini çıktıdaki metinle birlikte eklemek için bunları birleştirin.
+    // Çıktıdaki metinle birlikte liste etiketini eklemek için bunları birleştirin.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```
@@ -108,7 +108,7 @@ public string ToString(SaveOptions saveOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| saveOptions | SaveOptions | Düğümün nasıl kaydedileceğini kontrol eden seçenekleri belirtir. |
+| saveOptions | SaveOptions | Düğümün nasıl kaydedileceğini denetleyen seçenekleri belirtir. |
 
 ### Geri dönüş değeri
 
@@ -123,8 +123,8 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// ToString yöntemini html SaveFormat aşırı yüklemesini kullanarak çağırdığımızda,
-// düğümün içeriğini ham html temsiline dönüştürür.
+// ToString metodunu html SaveFormat aşırı yüklemesini kullanarak çağırdığımızda,
+// Düğümün içeriklerini ham html gösterimine dönüştürür.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));

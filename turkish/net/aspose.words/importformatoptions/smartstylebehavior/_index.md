@@ -2,15 +2,15 @@
 title: ImportFormatOptions.SmartStyleBehavior
 linktitle: SmartStyleBehavior
 articleTitle: SmartStyleBehavior
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions SmartStyleBehavior mülk. Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ImportFormatOptions SmartStyleBehavior özelliğinin belgelerdeki eşit adlarla stil içe aktarımlarını nasıl optimize ettiğini keşfedin. İçe aktarma sürecinizi zahmetsizce özelleştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
 
-Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değer:`YANLIŞ` .
+Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir Boole değeri alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool SmartStyleBehavior { get; set; }
@@ -18,13 +18,13 @@ public bool SmartStyleBehavior { get; set; }
 
 ## Notlar
 
-Bu seçenek olduğunda**etkinleştirilmiş** kaynak stili a hedef belgesinin içindeki doğrudan niteliklere genişletilecektir, eğerKeepSourceFormatting içe aktarma modu kullanılır.
+Bu seçenek olduğunda**etkinleştirilmiş** , kaynak stili, a hedef belgesinin içindeki doğrudan özniteliklere genişletilecektir, eğerKeepSourceFormatting içe aktarma modu kullanılıyor.
 
-Bu seçenek olduğunda**engelli**kaynak stili yalnızca numaralandırılmışsa genişletilecektir. Listeler dahil, Existing hedef nitelikleri geçersiz kılınmayacak.
+Bu seçenek olduğunda**engelli**, kaynak stili yalnızca numaralandırılırsa genişletilecektir. Mevcut hedef öznitelikleri, listeler dahil olmak üzere geçersiz kılınmayacaktır.
 
 ## Örnekler
 
-Belgeleri eklerken yinelenen stillerin nasıl çözüleceğini gösterir.
+Belgeler eklenirken yinelenen stillerin nasıl çözüleceğini gösterir.
 
 ```csharp
 Document dstDoc = new Document();
@@ -38,14 +38,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Belgeyi kopyalayın ve kopyanın "MyStyle" stilini düzenleyin, böylece orijinalinden farklı bir renk olur.
-// Klonu orijinal belgeye eklersek aynı isimdeki iki stil çakışmaya neden olur.
+// Belgeyi klonlayın ve klonun "MyStyle" stilini düzenleyin, böylece orijinalinden farklı bir renge sahip olur.
+// Klonu orijinal belgeye eklersek, aynı ada sahip iki stil çakışmaya neden olur.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma formatı modunu kullandığımızda,
+// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma biçim modunu kullandığımızda,
 // Aspose.Words, kaynak belge stillerini dönüştürerek stil çakışmalarını çözecektir.
-// hedef stillerle aynı adları doğrudan paragraf niteliklerine dönüştürün.
+// hedef stillerle aynı adları doğrudan paragraf özniteliklerine aktarın.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

@@ -2,15 +2,15 @@
 title: OfficeMath.Justification
 linktitle: Justification
 articleTitle: Justification
-second_title: Aspose.Words for .NET
-description: OfficeMath Justification mülk. Office Matematik gerekçesini alır/ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Office Math hizalamanızı kolayca özelleştirmek ve ayarlamak için OfficeMath Justification özelliğini keşfedin. Belgenizin sunumunu zahmetsizce geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-Office Matematik gerekçesini alır/ayarlar.
+Office Math gerekçesini alır/ayarlar.
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -18,23 +18,23 @@ public OfficeMathJustification Justification { get; set; }
 
 ## Notlar
 
-Gerekçe, görüntüleme biçimi türüyle Office Math'a ayarlanamazInline.
+Gerekçelendirme, Office Math görüntüleme biçimi türüne ayarlanamazInline.
 
-Satır içi yaslama, görüntüleme biçimi türüyle Office Math'a ayarlanamazDisplay.
+Satır içi hizalama, Office Math görüntüleme biçimi türüne ayarlanamazDisplay.
 
-karşılık gelen[`DisplayType`](../displaytype/) Office Math gerekçesini ayarlamadan önce ayarlanması gerekir.
+Karşılık gelen[`DisplayType`](../displaytype/) Office Math gerekçelendirmesi ayarlanmadan önce ayarlanması gerekir.
 
 ## Örnekler
 
-Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
+Ofis matematik görüntüleme biçimlendirmesinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Diğer OfficeMath düğümlerinin çocukları olan OfficeMath düğümleri her zaman satır içidir.
-// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
+// Diğer OfficeMath düğümlerinin çocuğu olan OfficeMath düğümleri her zaman satır içidir.
+// Üzerinde çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

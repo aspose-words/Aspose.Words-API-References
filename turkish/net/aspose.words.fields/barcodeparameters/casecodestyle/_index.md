@@ -2,15 +2,15 @@
 title: BarcodeParameters.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
-second_title: Aspose.Words for .NET
-description: BarcodeParameters CaseCodeStyle mülk. ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır STDEXTADD C#'da.
+second_title: .NET için Aspose.Words
+description: ITF14 barkodları için CaseCodeStyle özelliğini keşfedin. Barkod tasarımınızı ve işlevselliğinizi geliştirmek için STDEXTADD gibi geçerli seçenekleri keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/barcodeparameters/casecodestyle/
 ---
 ## BarcodeParameters.CaseCodeStyle property
 
-ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır: [STD&#x7C;EXT&#x7C;ADD]
+Barkod türü ITF14 için bir Durum Kodunun Stili. Geçerli değerler şunlardır [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,18 +18,18 @@ public string CaseCodeStyle { get; set; }
 
 ## Örnekler
 
-Barkod oluşturucunun nasıl kullanılacağını gösterir.
+Barkod üretecinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Barkod oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz,
-// ve ardından bunları belgeye resim olarak ekleyin.
+// Barkodları oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz.
+// ve sonra bunları resim olarak belgeye ekleyin.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Aşağıda oluşturucumuzu kullanarak oluşturabileceğimiz farklı barkod türlerine ait dört örnek bulunmaktadır.
-// Her barkod için yeni bir barkod parametreleri seti belirliyoruz ve ardından görüntüyü oluşturuyoruz.
-// Daha sonra görüntüyü belgeye ekleyebilir veya yerel dosya sistemine kaydedebiliriz.
+// Aşağıda, üretecimizi kullanarak oluşturabileceğimiz farklı barkod tiplerine ait dört örnek bulunmaktadır.
+// Her barkod için yeni bir barkod parametreleri kümesi belirliyoruz ve ardından görüntüyü oluşturuyoruz.
+// Daha sonra resmi belgeye ekleyebiliriz veya yerel dosya sistemine kaydedebiliriz.
 // 1 - QR kodu:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -44,8 +44,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - EAN13 barkodu:
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 barkodu:
@@ -71,7 +84,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - ITF14 barkodu:
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

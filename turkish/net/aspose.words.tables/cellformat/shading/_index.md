@@ -2,15 +2,15 @@
 title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
-second_title: Aspose.Words for .NET
-description: CellFormat Shading mülk. Bir değeri döndürürShading hücrenin gölgelendirme formatını ifade eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Hücreler için özelleştirilebilir gölgelendirme seçenekleriyle elektronik tablonuzun görsel çekiciliğini artırmak için CellFormat Gölgelendirme özelliğini keşfedin.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Bir değeri döndürür[`Shading`](../../../aspose.words/shading/) hücrenin gölgelendirme formatını ifade eden nesne.
+Bir[`Shading`](../../../aspose.words/shading/) hücrenin gölgelendirme biçimlendirmesine başvuran nesne.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Örnekler
 
-Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satır ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,12 +37,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Biçimlendirmeyi değiştirmek için ilk satırın "RowFormat" özelliğini kullanın
-// bu satırdaki tüm hücrelerin içeriği.
+// Bu satırdaki tüm hücrelerin içerikleri.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Son satırdaki ilk hücrenin "CellFormat" özelliğini kullanarak o hücrenin içeriğinin biçimlendirmesini değiştirin.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -50,7 +50,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -82,8 +82,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

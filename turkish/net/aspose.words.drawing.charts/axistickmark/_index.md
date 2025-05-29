@@ -2,15 +2,15 @@
 title: AxisTickMark Enum
 linktitle: AxisTickMark
 articleTitle: AxisTickMark
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisTickMark Sıralama. Onay işaretlerinin olası konumlarını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir işaret konumları için Aspose.Words.Drawing.Charts.AxisTickMark enumunu keşfedin, grafiğinizin netliğini ve görsel çekiciliğini artırın.
 type: docs
-weight: 590
+weight: 850
 url: /tr/net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration
 
-Onay işaretlerinin olası konumlarını belirtir.
+İşaretler için olası konumları belirtir.
 
 ```csharp
 public enum AxisTickMark
@@ -20,14 +20,14 @@ public enum AxisTickMark
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Cross | `0` | Onay işaretlerinin ekseni geçeceğini belirtir. |
-| Inside | `1` | Onay işaretlerinin çizim alanı içinde olacağını belirtir. |
-| Outside | `2` | Onay işaretlerinin çizim alanının dışında olacağını belirtir. |
-| None | `3` | Hiçbir onay işaretinin olmayacağını belirtir. |
+| Cross | `0` | İşaretlerin ekseni geçmesi gerektiğini belirtir. |
+| Inside | `1` | İşaretlerin çizim alanı içinde olacağını belirtir. |
+| Outside | `2` | İşaretlerin çizim alanının dışında olacağını belirtir. |
+| None | `3` | Hiçbir onay işareti olmayacağını belirtir. |
 
 ## Örnekler
 
-Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
+Tarih/saat değerleri içeren grafiğin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -48,12 +48,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseninin alt ve üst sınırlarını ayarlayın.
+// X ekseni için alt ve üst sınırları belirleyin.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
+// X ekseninin ana birimlerini haftaya, küçük birimlerini ise güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -64,7 +64,7 @@ xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

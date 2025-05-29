@@ -2,15 +2,15 @@
 title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
-second_title: Aspose.Words for .NET
-description: NodeRendererBase RenderToScale yöntem. Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne C#'da.
+second_title: .NET için Aspose.Words
+description: NodeRendererBase RenderToScale yöntemini keşfedin; şekilleri her ölçekte Grafik nesnelerine verimli bir şekilde dönüştürerek gelişmiş görsel çıktı elde edin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne.
+Şekli birGraphics nesnesi belirtilen bir ölçeğe göre.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -18,18 +18,18 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| graphics | Graphics | Oluşturulacak nesne. |
+| graphics | Graphics | Hangi nesneye render yapılacağı. |
 | x | Single | İşlenen şeklin sol üst köşesinin X koordinatı (dünya birimleri cinsinden). |
 | y | Single | İşlenen şeklin sol üst köşesinin Y koordinatı (dünya birimleri cinsinden). |
-| scale | Single | Şeklin oluşturulmasına yönelik ölçek (1,0, %100'dür). |
+| scale | Single | Şeklin oluşturulması için ölçek (1.0 = %100). |
 
 ### Geri dönüş değeri
 
-İşlenen şeklin genişliği ve yüksekliği (dünya birimleri cinsinden).
+Oluşturulan şeklin genişliği ve yüksekliği (dünya birimleri cinsinden).
 
 ## Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl işleneceğini ve Windows Form kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,8 +39,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
+    // Aşağıda, bir şekli Graphics nesnesine işlemek için "ShapeRenderer" sınıfını kullanmanın iki yolu bulunmaktadır.
+    // 1 - Bir grafikle bir şekil oluştur ve onu belirli bir ölçeğe göre işle.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
+    // 2 - Bir şekil grubu oluştur ve onu belirli bir boyuta getir.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -81,7 +81,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Şekillerin bir listesini oluşturur ve görüntüler.
+/// Şekillerin listesini oluşturur ve görüntüler.
 /// </summary>
 private class ShapeForm : Form
 {

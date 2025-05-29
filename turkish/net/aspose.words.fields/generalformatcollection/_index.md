@@ -2,17 +2,17 @@
 title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.GeneralFormatCollection sınıf. Genel biçimlerin yazılı bir koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki genel biçimleri zahmetsizce yönetmek için güçlü, yazılmış bir koleksiyon olan Aspose.Words.Fields.GeneralFormatCollection sınıfını keşfedin.
 type: docs
-weight: 2650
+weight: 3060
 url: /tr/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
-Genel biçimlerin yazılı bir koleksiyonunu temsil eder.
+Genel biçimlerin türlendirilmiş bir koleksiyonunu temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -23,16 +23,16 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Koleksiyondaki öğelerin toplam sayısını alır. |
-| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Belirtilen dizinde genel bir format alır. |
+| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Belirtilen dizinde genel bir biçim alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Koleksiyona genel bir format ekler. |
-| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Belirtilen genel formatın tüm oluşumlarını koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Belirtilen dizindeki genel format oluşumunu kaldırır. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Koleksiyona genel bir biçim ekler. |
+| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Belirtilen genel formatın tüm örneklerini koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Belirtilen dizinde genel bir biçim oluşumunu kaldırır. |
 
 ## Örnekler
 
@@ -42,15 +42,15 @@ Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hiçbir format uygulanmadan sonucu görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
+// Biçim uygulanmadan bir sonuç görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Alanın özelliklerini kullanarak alanın sonucuna bir format uygulayabiliriz.
+// Bir alanın sonucuna, alanın özelliklerini kullanarak bir format uygulayabiliriz.
 // Aşağıda bir alanın sonucuna uygulayabileceğimiz üç tür format bulunmaktadır.
-// 1 - Sayısal format:
+// 1 - Sayısal biçim:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -58,7 +58,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Tarih/saat formatı:
+// 2 - Tarih/saat biçimi:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -84,7 +84,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Alanın sonucunu orijinal formuna döndürmek için formatlarımızı kaldırabiliriz.
+// Alanın sonucunu orijinal haline döndürmek için formatlarımızı kaldırabiliriz.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

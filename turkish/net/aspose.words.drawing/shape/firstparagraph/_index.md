@@ -2,15 +2,15 @@
 title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
-second_title: Aspose.Words for .NET
-description: Shape FirstParagraph mülk. Şeklin ilk paragrafını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Bir şeklin ilk paragrafını zahmetsizce alın. Kullanımı kolay Shape FirstParagraph özelliğimizle belgenizin düzenini geliştirin.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-Şeklin ilk paragrafını alır.
+Şekildeki ilk paragrafı alır.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,12 +18,12 @@ public Paragraph FirstParagraph { get; }
 
 ## Örnekler
 
-Metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
+Bir metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Kayan bir metin kutusu oluşturun.
+// Yüzen bir metin kutusu oluşturun.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -33,7 +33,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Metin kutusuna bir paragraf ekleyin ve metin kutusunun görüntüleyeceği bir metin dizisi ekleyin.
+// Metin kutusuna bir paragraf ekleyin ve metin kutusunun göstereceği bir metin parçası ekleyin.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

@@ -2,10 +2,10 @@
 title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET
-description: FontInfo Name mülk. Yazı tipinin adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde gelişmiş tipografi için font adlarına kolayca erişmek ve kullanmak amacıyla FontInfo Name özelliğini keşfedin.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
@@ -22,13 +22,13 @@ Olamaz`hükümsüz`. Boş bir dize olabilir.
 
 ## Örnekler
 
-Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
+Bir belgede hangi yazı tiplerinin bulunduğunun ayrıntılarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Belgedeki tüm kullanılan ve kullanılmayan yazı tiplerini yazdırın.
+// Belgedeki tüm kullanılan ve kullanılmayan yazı tiplerini yazdır.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

@@ -2,15 +2,15 @@
 title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
-second_title: Aspose.Words for .NET
-description: FieldUpdatingProgressArgs UpdateCompleted mülk. Alan güncellemesinin tamamlanıp tamamlanmadığını gösteren bir değer alır C#'da.
+second_title: .NET için Aspose.Words
+description: Alan güncellemelerinin tamamlanıp tamamlanmadığını etkili bir şekilde gösteren FieldUpdatingProgressArgs UpdateCompleted özelliğini keşfedin ve veri yönetimi sürecinizi geliştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 ---
 ## FieldUpdatingProgressArgs.UpdateCompleted property
 
-Alan güncellemesinin tamamlanıp tamamlanmadığını gösteren bir değer alır.
+Alan güncellemesinin tamamlanıp tamamlanmadığını belirten bir değer alır.
 
 ```csharp
 public bool UpdateCompleted { get; }
@@ -18,7 +18,7 @@ public bool UpdateCompleted { get; }
 
 ## Örnekler
 
-Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
+Bir alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

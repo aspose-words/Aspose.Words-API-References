@@ -2,8 +2,8 @@
 title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
-second_title: Aspose.Words for .NET
-description: ConvertUtil PixelToNewDpi yöntem. Pikselleri bir çözünürlükten diğerine dönüştürür C#'da.
+second_title: .NET için Aspose.Words
+description: ConvertUtil'in PixelToNewDpi yöntemi ile piksel çözünürlüklerini zahmetsizce dönüştürün. Projeleriniz için optimum görüntü kalitesi ve hassasiyeti elde edin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/convertutil/pixeltonewdpi/
@@ -19,18 +19,18 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pixels | Double | Dönüştürülecek değer. |
-| oldDpi | Double | Geçerli dpi (inç başına nokta sayısı) çözünürlüğü. |
+| oldDpi | Double | Mevcut dpi (inç başına nokta sayısı) çözünürlüğü. |
 | newDpi | Double | Yeni dpi (inç başına nokta sayısı) çözünürlüğü. |
 
 ## Örnekler
 
-Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının nasıl kullanılacağını gösterir.
+Varsayılan ve özel çözünürlükle noktaların piksellere nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Özel DPI'ya göre bu bölümün üst kenar boşluğunun boyutunu piksel cinsinden tanımlayın.
+// Bu bölümün üst kenar boşluğunun boyutunu özel bir DPI'a göre piksel cinsinden tanımlayın.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;

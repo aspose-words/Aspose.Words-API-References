@@ -2,15 +2,15 @@
 title: Fill.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: Fill Color mülk. Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projenizin görsel çekiciliğini artırmak için, tasarımınızın ön plan rengini bir Renk nesnesiyle kolayca özelleştirmek üzere Dolgu Rengi özelliğini keşfedin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
 
-Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
+Dolgu için ön plan rengini temsil eden bir Renk nesnesi alır veya ayarlar.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,25 +18,25 @@ public Color Color { get; set; }
 
 ## Notlar
 
-Bu özellik alfa bileşenini korur.Color , aksine[`ForeColor`](../forecolor/)tamamen opak renge sıfırlayan özellik.
+Bu özellik, alfa bileşenini korurColor , aksine[`ForeColor`](../forecolor/) özelliği, onu tamamen opak renge sıfırlar.
 
 ## Örnekler
 
-Herhangi bir dolgunun tekrar katı dolguya nasıl dönüştürüleceğini gösterir.
+Herhangi bir dolgunun nasıl tekrar katı dolguya dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// İlk Çalıştırmanın Yazı Tipi için Dolgu nesnesini alın.
+// İlk Çalıştırmanın Fontu için Fill nesnesini al.
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
-// Yazı Tipinin Dolgu özelliklerini kontrol edin.
+// Fontun Fill özelliklerini kontrol et.
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 
-// Dolgunun türünü tek tip yeşil renkte Katı olarak değiştirin.
-fill.Solid(Color.Green);
+// Dolgu tipini düz yeşil renkte olacak şekilde değiştiriyoruz.
+fill.Solid();
 Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);

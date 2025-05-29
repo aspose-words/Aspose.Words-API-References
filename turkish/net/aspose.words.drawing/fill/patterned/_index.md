@@ -2,10 +2,10 @@
 title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
-second_title: Aspose.Words for .NET
-description: Fill Patterned yöntem. Belirtilen dolguyu bir desene ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinize benzersiz desenleri zahmetsizce uygulamak, projelerinizde yaratıcılığı ve görsel çekiciliği artırmak için Fill Patterned yöntemini keşfedin.
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
@@ -22,7 +22,7 @@ public void Patterned(PatternType patternType)
 
 ## Örnekler
 
-Bir şekil için desenin nasıl ayarlanacağını gösterir.
+Bir şekle ait desenin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -32,11 +32,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Bir deseni doldurmanın birkaç yolu vardır.
-// 1 - Deseni şekil dolgusuna uygula:
+// Bir deseni belirtilen dolguyla doldurmanın birkaç yolu vardır.
+// 1 - Şekil dolgusuna desen uygula:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygulayın:
+// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygula:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -63,11 +63,11 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 | foreColor | Color | Ön plan dolgusunun rengi. |
-| backColor | Color | Arka plan dolgusunun rengi. |
+| backColor | Color | Arkaplan dolgusunun rengi. |
 
 ## Örnekler
 
-Bir şekil için desenin nasıl ayarlanacağını gösterir.
+Bir şekle ait desenin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -77,11 +77,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Bir deseni doldurmanın birkaç yolu vardır.
-// 1 - Deseni şekil dolgusuna uygula:
+// Bir deseni belirtilen dolguyla doldurmanın birkaç yolu vardır.
+// 1 - Şekil dolgusuna desen uygula:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygulayın:
+// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygula:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

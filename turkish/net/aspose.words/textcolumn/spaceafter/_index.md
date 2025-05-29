@@ -2,15 +2,15 @@
 title: TextColumn.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
-second_title: Aspose.Words for .NET
-description: TextColumn SpaceAfter mülk. Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir C#'da.
+second_title: .NET için Aspose.Words
+description: Düzeninizdeki sütunlar arasındaki boşlukları kolayca ayarlamak için TextColumn SpaceAfter özelliğini keşfedin. Okunabilirliği ve tasarımı hassasiyetle geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/textcolumn/spaceafter/
 ---
 ## TextColumn.SpaceAfter property
 
-Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir.
+Bu sütun ile bir sonraki sütun arasındaki boşluğu noktalar halinde alır veya ayarlar. Son sütun için gerekli değildir.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -18,7 +18,7 @@ public double SpaceAfter { get; set; }
 
 ## Örnekler
 
-Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
+Eşit olmayan aralıklı sütunların nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Sütunları düzenlemek için elimizde bulunan alan miktarını belirleyin.
+// Sütunları düzenlemek için kullanabileceğimiz alan miktarını belirleyelim.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// İlk sütunu dar olacak şekilde ayarlayın.
+// İlk sütunu dar olarak ayarla.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// İkinci sütunu, sayfanın kenar boşluklarındaki kalan alanı kaplayacak şekilde ayarlayın.
+// İkinci sütunun, sayfanın kenar boşlukları içinde kalan boş alanı kaplamasını sağlar.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

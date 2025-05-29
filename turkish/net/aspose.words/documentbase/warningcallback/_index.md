@@ -2,15 +2,15 @@
 title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: Aspose.Words for .NET
-description: DocumentBase WarningCallback mülk. Çeşitli belge işleme prosedürleri sırasında verilerde veya formatta uygunluk kaybıyla sonuçlanabilecek bir sorun algılandığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işleme sırasında olası biçimlendirme sorunlarını tespit ederek veri bütünlüğünün sağlanması için hayati önem taşıyan DocumentBase WarningCallback özelliğini keşfedin.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Çeşitli belge işleme prosedürleri sırasında, verilerde veya formatta uygunluk kaybıyla sonuçlanabilecek bir sorun algılandığında çağrılır.
+Çeşitli belge işleme prosedürleri sırasında, veri veya biçimlendirme sadakat kaybına neden olabilecek bir sorun algılandığında çağrılır.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,11 +18,11 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Notlar
 
-Belge, varlığının herhangi bir aşamasında uyarılar oluşturabilir; bu nedenle, uyarıların kaybolmasını önlemek için uyarı geri çağrısını mümkün olduğunca erken olarak ayarlamak önemlidir. Örneğin aşağıdaki gibi özellikler[`PageCount`](../../document/pagecount/) aslında daha sonra oluşturma için kullanılacak olan belge düzenini oluşturur ve yalnızca daha sonraki oluşturma çağrıları için uyarı geri çağrısı belirtilirse düzen uyarıları kaybolabilir.
+Belgesi, varlığının herhangi bir aşamasında uyarılar üretebilir, bu nedenle uyarı kaybını önlemek için uyarı geri aramasını mümkün olduğunca erken as olarak ayarlamak önemlidir. Örneğin, şu özellikler gibi:[`PageCount`](../../document/pagecount/) aslında daha sonra işleme için kullanılan belge düzenini oluşturur ve düzen uyarıları, daha sonraki işleme çağrıları için yalnızca uyarı geri araması belirtilirse kaybolabilir.
 
 ## Örnekler
 
-Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arabiriminin nasıl kullanılacağını gösterir.
+Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arayüzünün nasıl kullanılacağını gösterir.
 
 ```csharp
 public void SubstitutionWarning()
@@ -36,15 +36,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Her belge için varsayılan yazı tipi kaynağı olacak mevcut yazı tipi kaynakları koleksiyonunu saklayın
-    // bunun için farklı bir yazı tipi kaynağı belirtmedik.
+    // Her belge için varsayılan yazı tipi kaynağı olacak olan geçerli yazı tipi kaynakları koleksiyonunu depola
+    // bunun için farklı bir yazı tipi kaynağı belirtmiyoruz.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // Test amacıyla Aspose.Words'ü yalnızca mevcut olmayan bir klasördeki yazı tiplerini arayacak şekilde ayarlayacağız.
+    // Test amaçlı olarak Aspose.Words'ü yalnızca var olmayan bir klasördeki fontları arayacak şekilde ayarlayacağız.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Belgeyi oluştururken "Times New Roman" yazı tipini bulabileceğimiz bir yer olmayacak.
-    // Bu, geri çağrımızın algılayacağı bir yazı tipi değiştirme uyarısına neden olacaktır.
+    // Belgeyi işlerken "Times New Roman" yazı tipini bulabileceğimiz bir yer olmayacak.
+    // Bu, geri aramamızın algılayacağı bir yazı tipi değiştirme uyarısına neden olacaktır.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -52,13 +52,13 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -75,23 +75,23 @@ Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşme
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belgeyi açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
+    // Yazı tipi değiştirme uyarılarını işlemek için bir geri çağırma atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değişimini etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    // Font değişiminden sonra orijinal font ölçütleri kullanılmalıdır.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
+    // Eksik font içeren bir belgeyi kaydedersek font değiştirme uyarısı alırız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -99,7 +99,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
+    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -107,13 +107,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

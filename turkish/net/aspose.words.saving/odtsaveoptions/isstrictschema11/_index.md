@@ -2,15 +2,15 @@
 title: OdtSaveOptions.IsStrictSchema11
 linktitle: IsStrictSchema11
 articleTitle: IsStrictSchema11
-second_title: Aspose.Words for .NET
-description: OdtSaveOptions IsStrictSchema11 mülk. Dışa aktarmanın ODT spesifikasyonu 1.1e tam olarak karşılık gelip gelmeyeceğini belirtir. OOo 3.0 ODT 1.2nin öğelerini ve niteliklerini içerdiğinde dosyaları doğru şekilde görüntüler. Bu amaç için yanlışı veya 1.1. spesifikasyonuna tam uygunluk için doğruyu kullanın. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ODT dışa aktarımlarınızı IsStrictSchema11 özelliğiyle optimize edin. En iyi sonuçlar için ODT 1.1 ile sıkı uyumluluğu sağlayın veya 1.2 uyumluluğunu etkinleştirin.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
 ---
 ## OdtSaveOptions.IsStrictSchema11 property
 
-Dışa aktarmanın ODT spesifikasyonu 1.1'e tam olarak karşılık gelip gelmeyeceğini belirtir. OOo 3.0, ODT 1.2'nin öğelerini ve niteliklerini içerdiğinde dosyaları doğru şekilde görüntüler. Bu amaç için "yanlış"ı veya 1.1. spesifikasyonuna tam uygunluk için "doğru"yu kullanın. Varsayılan değer:`YANLIŞ` .
+Dışa aktarma işleminin kesinlikle ODT 1.1 spesifikasyonuna uyup uymayacağını belirtir. OOo 3.0, dosyaları ODT 1.2 öğelerini ve özniteliklerini içerdiğinde doğru şekilde görüntüler. Bu amaçla "false" veya 1.1 spesifikasyonuna kesinlikle uymak için "true" kullanın. Varsayılan değer şudur:`YANLIŞ` .
 
 ```csharp
 public bool IsStrictSchema11 { get; set; }
@@ -18,7 +18,7 @@ public bool IsStrictSchema11 { get; set; }
 
 ## Örnekler
 
-Kaydedilen bir belgenin eski bir ODT şemasına nasıl uygun hale getirileceğini gösterir.
+Kaydedilmiş bir belgenin eski bir ODT şemasına uygun hale getirilmesinin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

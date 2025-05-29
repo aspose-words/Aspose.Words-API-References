@@ -2,8 +2,8 @@
 title: FieldQuote
 linktitle: FieldQuote
 articleTitle: FieldQuote
-second_title: Aspose.Words for .NET
-description: FieldQuote inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldQuote oluşturucusunu keşfedin—verimli veri işleme için başvuracağınız çözümünüz. Bugün kusursuz entegrasyonun ve gelişmiş performansın kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldquote/fieldquote/

@@ -2,15 +2,15 @@
 title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: DigitalSignatureCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Tüm koleksiyon öğeleri arasında kullanışlı bir sözlük numaralandırıcısı ile kolayca yineleme yapmak için DigitalSignatureCollection GetEnumerator yöntemini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
 ---
 ## DigitalSignatureCollection.GetEnumerator method
 
-Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür.
+Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir sözlük numaralandırıcı nesnesi döndürür.
 
 ```csharp
 public IEnumerator<DigitalSignature> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<DigitalSignature> GetEnumerator()
 
 ## Örnekler
 
-İmzalı bir belgenin tüm dijital imzalarının nasıl yazdırılacağını gösterir.
+İmzalanmış bir belgenin tüm dijital imzalarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 DigitalSignatureCollection digitalSignatures =

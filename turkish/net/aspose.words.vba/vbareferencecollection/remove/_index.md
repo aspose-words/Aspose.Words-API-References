@@ -2,15 +2,15 @@
 title: VbaReferenceCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: VbaReferenceCollection Remove yöntem. Belirtilenin ilk oluşumunu kaldırırVbaReference koleksiyondan bir parça C#'da.
+second_title: .NET için Aspose.Words
+description: Remove metoduyla koleksiyonunuzdan ilk VbaReference öğesini zahmetsizce kaldırın. VBA projelerinizi en iyi performans için kolaylaştırın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../../vbareference/) koleksiyondan bir parça.
+Belirtilen bir öğenin ilk örneğini kaldırır[`VbaReference`](../../vbareference/) koleksiyondan bir öğe.
 
 ```csharp
 public void Remove(VbaReference item)

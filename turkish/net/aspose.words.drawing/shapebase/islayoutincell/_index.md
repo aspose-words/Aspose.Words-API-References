@@ -2,15 +2,15 @@
 title: ShapeBase.IsLayoutInCell
 linktitle: IsLayoutInCell
 articleTitle: IsLayoutInCell
-second_title: Aspose.Words for .NET
-description: ShapeBase IsLayoutInCell mülk. Şeklin tablonun içinde mi yoksa dışında mı görüntüleneceğini belirten bir bayrak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase IsLayoutInCell özelliğini keşfedin, gelişmiş tasarım esnekliği ve iyileştirilmiş düzen yönetimi için tablolardaki şekil yerleşimini kontrol edin.
 type: docs
-weight: 310
+weight: 330
 url: /tr/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
 
-Şeklin tablonun içinde mi yoksa dışında mı görüntüleneceğini belirten bir bayrak alır veya ayarlar.
+Şeklin bir tablonun içinde mi yoksa dışında mı görüntüleneceğini belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool IsLayoutInCell { get; set; }
@@ -20,11 +20,11 @@ public bool IsLayoutInCell { get; set; }
 
 Varsayılan değer:`doğru`.
 
-Yalnızca üst düzey şekillere etki eder; özellik[`WrapType`](../wraptype/) bunlardan biri, dışında value olarak ayarlanmış[`Inline`](../../../aspose.words/inline/).
+Sadece en üst düzey şekiller için geçerli olan özellik[`WrapType`](../wraptype/) bunlardan biri value olarak ayarlanmıştır, aksi takdirde[`Inline`](../../../aspose.words/inline/).
 
 ## Örnekler
 
-Tablo hücresinde bir şeklin nasıl görüntüleneceğinin nasıl belirleneceğini gösterir.
+Bir şeklin tablo hücresinde nasıl görüntüleneceğini belirlemeyi gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -50,15 +50,15 @@ builder.MoveTo(table.FirstRow.FirstCell.FirstParagraph);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 50,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 
-// Şekli hücrenin paragrafının içinde satır içi öğe olarak görüntülemek için "IsLayoutInCell" özelliğini "true" olarak ayarlayın.
-// Şeklin konumunu belirleyecek koordinat orijini, şeklin hücresinin sol üst köşesi olacaktır.
-// Hücreyi yeniden boyutlandırırsak şekil, hücrenin sol üst köşesinden başlayarak aynı konumu koruyacak şekilde hareket edecektir.
-// Şekli bağımsız bir kayan şekil olarak görüntülemek için "IsLayoutInCell" özelliğini "false" olarak ayarlayın.
-// Şeklin konumunu belirleyecek koordinat orijini sayfanın sol üst köşesi olacaktır,
-// ve şekil, hücresinin yeniden boyutlandırılmasına yanıt vermeyecektir.
+// Şekli hücrenin paragrafı içerisinde satır içi bir öğe olarak görüntülemek için "IsLayoutInCell" özelliğini "true" olarak ayarlayın.
+// Şeklin yerini belirleyecek koordinat başlangıcı, şeklin hücresinin sol üst köşesi olacaktır.
+// Hücreyi yeniden boyutlandırdığımızda şekil, hücrenin sol üst köşesinden başlayarak aynı pozisyonu koruyarak hareket edecektir.
+// Şekli bağımsız bir yüzen şekil olarak görüntülemek için "IsLayoutInCell" özelliğini "false" olarak ayarlayın.
+// Şeklin yerini belirleyecek koordinat başlangıcı sayfanın sol üst köşesi olacak,
+// ve şekil hücresinin yeniden boyutlandırılmasına yanıt vermeyecektir.
 shape.IsLayoutInCell = isLayoutInCell;
 
-// "IsLayoutInCell" özelliğini yalnızca kayan şekillere uygulayabiliriz.
+// "IsLayoutInCell" özelliğini yalnızca yüzen şekillere uygulayabiliriz.
 shape.WrapType = WrapType.None;
 
 doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");

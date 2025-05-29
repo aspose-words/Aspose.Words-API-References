@@ -2,8 +2,8 @@
 title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: BaseWebExtensionCollection Item mülk. Belirtilen dizindeki bir öğeyi alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Öğeleri dizine göre kolayca yönetmek için BaseWebExtensionCollection Item özelliğini keşfedin. Verimli veri işleme ile geliştirmenizi bugün basitleştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Öğenin sıfır tabanlı dizini. |
+| index | Öğenin sıfırdan başlayan indeksi. |
 
 ## Örnekler
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Belgenin web uzantısının tüm özelliklerini yazdırın.
+// Belgenin web uzantısının tüm özelliklerini yazdır.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

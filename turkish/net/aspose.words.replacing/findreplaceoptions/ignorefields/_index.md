@@ -2,15 +2,15 @@
 title: FindReplaceOptions.IgnoreFields
 linktitle: IgnoreFields
 articleTitle: IgnoreFields
-second_title: Aspose.Words for .NET
-description: FindReplaceOptions IgnoreFields mülk. Alanların içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Alanlar içindeki metni kolayca yönetmek için FindReplaceOptions IgnoreFields özelliğini keşfedin. Verimli arama için içeriği ne zaman yoksayacağınızı kontrol edin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-Alanların içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+Alanların içindeki metni yoksaymayı belirten bir Boole değeri alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -20,11 +20,11 @@ public bool IgnoreFields { get; set; }
 
 Bu seçenek tüm alanı etkiler ( arasındaki tüm düğümler)FieldStart VeFieldEnd).
 
-Yalnızca alan kodlarını yok saymak için lütfen ilgili seçeneği kullanın[`IgnoreFieldCodes`](../ignorefieldcodes/).
+Yalnızca alan kodlarını yoksaymak için lütfen ilgili seçeneği kullanın[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
 ## Örnekler
 
-Alanların içindeki metnin nasıl yok sayılacağını gösterir.
+Alanların içindeki metnin nasıl göz ardı edileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,13 +33,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertField("QUOTE", "Hello again!");
 
-// Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+// Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Bul ve değiştir işlevini elde etmek için "IgnoreFields" bayrağını "true" olarak ayarlayın
+// Bul ve değiştir özelliğini elde etmek için "IgnoreFields" bayrağını "true" olarak ayarlayın
 // alanların içindeki metni yok sayma işlemi.
-// Bul ve değiştir işlevini elde etmek için "IgnoreFields" bayrağını "false" olarak ayarlayın
-// alanların içindeki metni de arama işlemi.
+// Bul ve değiştir özelliğini elde etmek için "IgnoreFields" bayrağını "false" olarak ayarlayın
+// Alanların içindeki metinleri de arama işlemi.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

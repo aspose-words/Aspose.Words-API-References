@@ -2,15 +2,15 @@
 title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET
-description: SubDocument NodeType mülk. İadelerSubDocument  C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yönetimi ve işleme yeteneklerinizi geliştirerek Alt Belge verilerini verimli bir şekilde döndüren Alt Belge NodeType özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-İadelerSubDocument .
+Geri DöndürürSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Örnekler
 
-Ana belgenin alt belgesine nasıl erişileceğini gösterir.
+Ana belgenin alt belgelerine nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");

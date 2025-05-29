@@ -2,15 +2,15 @@
 title: IFieldMergingCallback.FieldMerging
 linktitle: FieldMerging
 articleTitle: FieldMerging
-second_title: Aspose.Words for .NET
-description: IFieldMergingCallback FieldMerging yöntem. Aspose.Words adresmektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: iFieldMergingCallback yöntemiyle belge iş akışlarınızı optimize edin. Gelişmiş verimlilik için verileri Aspose.Words posta birleştirme alanlarınıza sorunsuz bir şekilde entegre edin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 ---
 ## IFieldMergingCallback.FieldMerging method
 
-Aspose.Words adres-mektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır.
+Aspose.Words posta birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır.
 
 ```csharp
 public void FieldMerging(FieldMergingArgs args)
@@ -18,7 +18,7 @@ public void FieldMerging(FieldMergingArgs args)
 
 ## Örnekler
 
-Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
+Bir veritabanı BLOB alanında saklanan görsellerin bir rapora nasıl ekleneceğini gösterir.
 
 ```csharp
 public void ImageFromBlob()
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyan bir modda olması gereken veri okuyucusunu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 
     /// <summary>
-    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Bu, bir posta birleştirme işlemi belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -62,7 +62,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+HTML belgeleri biçiminde birleştirme verilerini işleyen özel bir geri aramayla bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 public void MergeHtml()
@@ -95,32 +95,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
-/// bu geri çağırma, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
+/// Posta birleştirme işlemi, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
+/// bu geri çağırma birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Bir posta birleştirme işlemi verileri bir MERGEFIELD'a birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ayrıştırılmış HTML verilerini belgenin gövdesine ekleyin.
+            // Ayrıştırılmış HTML verilerini belgenin gövdesine ekle.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Birleştirilmiş içeriği zaten manuel olarak eklediğimiz için,
-             // bu etkinliğe "Text" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
+            // Birleştirilmiş içeriği zaten manuel olarak eklediğimizden,
+            // Bu olaya "Metin" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 }
 ```

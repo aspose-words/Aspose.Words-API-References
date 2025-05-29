@@ -2,15 +2,15 @@
 title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
-second_title: Aspose.Words for .NET
-description: FolderFontSource FolderPath mülk. Klasörün yolu C#'da.
+second_title: .NET için Aspose.Words
+description: Font klasörünüze kolay erişim için FolderFontSource FolderPath özelliğini keşfedin. Tasarım iş akışınızı bugün kolaylaştırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/folderfontsource/folderpath/
 ---
 ## FolderFontSource.FolderPath property
 
-Klasörün yolu.
+Klasöre giden yol.
 
 ```csharp
 public string FolderPath { get; }
@@ -18,10 +18,10 @@ public string FolderPath { get; }
 
 ## Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Font kaynağı olarak fontları içeren yerel bir sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
+// Font dosyalarını içeren bir klasörden bir font kaynağı oluştur.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

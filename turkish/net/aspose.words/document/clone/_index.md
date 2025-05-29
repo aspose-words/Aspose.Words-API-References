@@ -2,15 +2,15 @@
 title: Document.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: Aspose.Words for .NET
-description: Document Clone yöntem. Derin bir kopyasını gerçekleştirir.Document  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi Belge Klonlama yöntemimizle zahmetsizce çoğaltın. Sorunsuz düzenleme ve verimli iş akışı için hassas derin kopyalar elde edin.
 type: docs
-weight: 550
+weight: 590
 url: /tr/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Derin bir kopyasını gerçekleştirir.[`Document`](../) .
+Derin bir kopyasını gerçekleştirir[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -22,7 +22,7 @@ Klonlanmış belge.
 
 ## Örnekler
 
-Bir belgenin nasıl derinlemesine klonlanacağını gösterir.
+Bir belgenin nasıl derin klonlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,11 +30,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// Klonlama orijinaliyle aynı içeriğe sahip yeni bir belge üretecek,
-// ancak orijinal belgenin düğümlerinin her birinin benzersiz bir kopyasıyla.
+// Klonlama, orijinaliyle aynı içeriğe sahip yeni bir belge üretecektir.
+// ancak orijinal belgenin her bir düğümünün benzersiz bir kopyasıyla.
 Document clone = doc.Clone();
 
-Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 
+Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].Text);
 Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode());

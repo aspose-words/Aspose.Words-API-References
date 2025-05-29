@@ -2,15 +2,15 @@
 title: HtmlLoadOptions.IgnoreNoscriptElements
 linktitle: IgnoreNoscriptElements
 articleTitle: IgnoreNoscriptElements
-second_title: Aspose.Words for .NET
-description: HtmlLoadOptions IgnoreNoscriptElements mülk. noscript HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlLoadOptions IgnoreNoscriptElements özelliğinin noscript öğelerini kontrol ederek HTML ayrıştırmanızı nasıl geliştirdiğini keşfedin. Web performansınızı bugün geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-&lt;noscript&gt; HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+&lt;noscript&gt; HTML öğelerinin yoksayılıp yoksayılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -18,11 +18,11 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ## Notlar
 
-MS Word gibi, Aspose.Words da komut dosyalarını desteklemez ve varsayılan olarak &lt;noscript&gt; elements içeriğini sonuçtaki belgeye yükler. Ancak çoğu tarayıcıda komut dosyaları desteklenir ve &lt;noscript&gt; içeriği görünmez. Bu özelliği şu şekilde ayarlamak`doğru` Aspose.Words'ü tüm &lt;noscript&gt; öğelerini yoksaymaya zorlar ve tarayıcılarda görülene daha yakın görünen belgeler üretilmesine yardımcı olur.
+MS Word gibi, Aspose.Words de betikleri desteklemez ve varsayılan olarak &lt;noscript&gt; elements içeriğini sonuç belgesine yükler. Ancak çoğu tarayıcıda betikler desteklenir ve &lt;noscript&gt; içeriği görünmez. Bu özelliği şu şekilde ayarlamak`doğru` Aspose.Words'ün tüm &lt;noscript&gt; öğelerini yok saymasını zorlar ve tarayıcılarda görülenlere daha yakın görünen belgeler üretmeye yardımcı olur.
 
 ## Örnekler
 
-&lt;noscript&gt; HTML öğelerinin nasıl yok sayılacağını gösterir.
+&lt;noscript&gt; HTML öğelerinin nasıl göz ardı edileceğini gösterir.
 
 ```csharp
 const string html = @"

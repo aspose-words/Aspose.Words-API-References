@@ -2,10 +2,10 @@
 title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
-second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeChangingAction Sıralama. Düğüm değişikliğinin türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki düğüm değişikliklerini etkili bir şekilde yönetmek için Aspose.Words.NodeChangingAction enum'unu keşfedin. Belge işleme yeteneklerinizi bugün geliştirin!
 type: docs
-weight: 4180
+weight: 4870
 url: /tr/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -25,7 +25,7 @@ public enum NodeChangingAction
 
 ## Örnekler
 
-Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
+Düzenleme yaparken belge ağacındaki değişiklikleri gerçek zamanlı olarak izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Her düğüm ekleme/çıkarma işlemini belgede gerçekleştiği gibi yazdırır.
+/// Belgede gerçekleşen her düğüm ekleme/kaldırma işlemini yazdırır.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

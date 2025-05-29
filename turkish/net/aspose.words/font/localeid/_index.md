@@ -2,15 +2,15 @@
 title: Font.LocaleId
 linktitle: LocaleId
 articleTitle: LocaleId
-second_title: Aspose.Words for .NET
-description: Font LocaleId mülk. Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Font LocaleId özelliğinin çeşitli karakter dilleri için yerel tanımlayıcıları yöneterek metin biçimlendirmenizi nasıl geliştirdiğini keşfedin. Kodlamanızı bugün geliştirin!
 type: docs
 weight: 200
 url: /tr/net/aspose.words/font/localeid/
 ---
 ## Font.LocaleId property
 
-Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını (dili) alır veya ayarlar.
+Biçimlendirilmiş karakterlerin yerel tanımlayıcısını (dil) alır veya ayarlar.
 
 ```csharp
 public int LocaleId { get; set; }
@@ -22,18 +22,18 @@ Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/l
 
 ## Örnekler
 
-Belge oluşturucuyla eklediğimiz metnin yerel ayarının nasıl ayarlanacağını gösterir.
+Belge oluşturucu ile eklediğimiz metnin yerel ayarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fontun yerel ayarını İngilizce olarak ayarlayıp bir miktar Rusça metin eklersek,
-// İngilizce yerel yazım denetleyicisi metni tanımayacak ve onu bir yazım hatası olarak algılamayacaktır.
+// Yazı tipinin yerel ayarını İngilizce olarak ayarlayıp biraz Rusça metin eklersek,
+// İngilizce yerel yazım denetleyicisi metni tanımayacak ve bunu bir yazım hatası olarak algılayacaktır.
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 builder.Writeln("Привет!");
 
-// Eklemek üzere olduğumuz metin için uygun yazım denetleyiciyi uygulamak üzere eşleşen bir yerel ayar belirleyin.
+// Eklemek üzere olduğumuz metne uygun yazım denetimini uygulamak için eşleşen bir yerel ayar belirleyin.
 builder.Font.LocaleId = new CultureInfo("ru-RU", false).LCID;
 builder.Writeln("Привет!");
 

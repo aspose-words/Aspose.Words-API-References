@@ -2,17 +2,17 @@
 title: TxtSaveOptions.SimplifyListLabels
 linktitle: SimplifyListLabels
 articleTitle: SimplifyListLabels
-second_title: Aspose.Words for .NET
-description: TxtSaveOptions SimplifyListLabels mülk. karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptions'ın SimplifyListLabels özelliğinin, karmaşık liste etiketlerini düzenleyerek metin gösterimini iyileştirerek anlaşılırlığı nasıl artırdığını keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir.
+Programın, karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir.
 
-Eğer ayarlanmışsa`doğru` , numaralı liste etiketleri basit sayısal formatta olarak yazılır ve maddelendirilmiş liste etiketleri basit ASCII karakterleri olarak yazılır. Varsayılan değer:`YANLIŞ`.
+Eğer ayarlanırsa`doğru` , numaralandırılmış liste etiketleri basit sayısal format olarak yazılır ve maddeler halinde liste etiketleri basit ASCII karakterleri olarak yazılır. Varsayılan değer`YANLIŞ`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -38,12 +38,12 @@ builder.Writeln("Item 4");
 builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Bazı listeleri dönüştürmek için "SimplifyListLabels" özelliğini "true" olarak ayarlayın
-// sembolleri '*', 'o', '+', '>' vb. gibi daha basit ASCII karakterlere dönüştürün.
+// sembolleri daha basit ASCII karakterlerine dönüştürüyoruz, örneğin '*', 'o', '+', '>', vb.
 // Mümkün olduğunca çok sayıda orijinal liste sembolünü korumak için "SimplifyListLabels" özelliğini "false" olarak ayarlayın.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 
@@ -51,18 +51,20 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions)
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
 
+string newLine = Environment.NewLine;
+
 if (simplifyListLabels)
-    Assert.AreEqual("* Item 1\r\n" +
-                    "  > Item 2\r\n" +
-                    "    + Item 3\r\n" +
-                    "      - Item 4\r\n" +
-                    "        o Item 5\r\n", docText);
+    Assert.AreEqual($"* Item 1{newLine}" +
+                    $"  > Item 2{newLine}" +
+                    $"    + Item 3{newLine}" +
+                    $"      - Item 4{newLine}" +
+                    $"        o Item 5{newLine}", docText);
 else
-    Assert.AreEqual("· Item 1\r\n" +
-                    "o Item 2\r\n" +
-                    "§ Item 3\r\n" +
-                    "· Item 4\r\n" +
-                    "o Item 5\r\n", docText);
+    Assert.AreEqual($"· Item 1{newLine}" +
+                    $"o Item 2{newLine}" +
+                    $"§ Item 3{newLine}" +
+                    $"· Item 4{newLine}" +
+                    $"o Item 5{newLine}", docText);
 ```
 
 ### Ayrıca bakınız

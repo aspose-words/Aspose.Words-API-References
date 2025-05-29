@@ -2,15 +2,15 @@
 title: ChartDataLabel.ShowLeaderLines
 linktitle: ShowLeaderLines
 articleTitle: ShowLeaderLines
-second_title: Aspose.Words for .NET
-description: ChartDataLabel ShowLeaderLines mülk. Veri etiketi öncü çizgilerinin gösterilmesi gerekip gerekmediğini belirlemeye olanak tanır. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ChartDataLabel'daki ShowLeaderLines özelliğiyle grafiklerinizi geliştirin. Daha net veri görselleştirmesi için veri etiketi lider çizgilerini kolayca görüntüleyin.
 type: docs
-weight: 110
+weight: 160
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Veri etiketi öncü çizgilerinin gösterilmesi gerekip gerekmediğini belirlemeye olanak tanır. Varsayılan değer:`YANLIŞ` .
+Veri etiketi lider çizgilerinin gösterilmesi gerekip gerekmediğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -18,11 +18,11 @@ public bool ShowLeaderLines { get; set; }
 
 ## Notlar
 
-Yalnızca Pasta grafikleri için geçerlidir. Lider çizgiler, bir veri etiketi ile ona karşılık gelen veri noktası arasında görsel bir bağlantı oluşturur.
+Yalnızca Pasta grafikleri için geçerlidir. Lider çizgiler, bir veri etiketi ile karşılık gelen veri noktası arasında görsel bir bağlantı oluşturur.
 
 ## Örnekler
 
-Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
+Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void DataLabels()
@@ -39,7 +39,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Grafikteki her seriye veri etiketleri uygulayın.
-    // Bu etiketler grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
+    // Bu etiketler, grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -56,24 +56,28 @@ public void DataLabels()
         }
     }
 
-    // Daha temiz görünen bir grafik için veri etiketlerini tek tek kaldırabiliriz.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri etiketinin tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için veri etiketlerini tek tek kaldırabiliriz.
+    dataLabel.ClearFormat();
+
+    // Ayrıca bir dizi verinin tüm etiketlerini bir kerede kaldırabiliriz.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Özel sayı formatına ve ayırıcıya sahip veri etiketlerini bir serideki çeşitli veri noktalarına uygulayın.
+/// Bir serideki birden fazla veri noktasına özel sayı biçimi ve ayırıcı ile veri etiketleri uygulayın.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -82,7 +86,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

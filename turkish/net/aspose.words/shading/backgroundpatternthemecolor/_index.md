@@ -2,15 +2,15 @@
 title: Shading.BackgroundPatternThemeColor
 linktitle: BackgroundPatternThemeColor
 articleTitle: BackgroundPatternThemeColor
-second_title: Aspose.Words for .NET
-description: Shading BackgroundPatternThemeColor mülk. Bununla ilişkili uygulanan renk şemasındaki arka plan deseni tema rengini alır veya ayarlar.Shading nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızı benzersiz arka plan desenleri ve renk şemalarıyla geliştirmek için Shading BackgroundPatternThemeColor özelliğini nasıl özelleştireceğinizi keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/shading/backgroundpatternthemecolor/
 ---
 ## Shading.BackgroundPatternThemeColor property
 
-Bununla ilişkili uygulanan renk şemasındaki arka plan deseni tema rengini alır veya ayarlar.[`Shading`](../) nesne.
+Bu renk şemasıyla ilişkili uygulanan renk şemasındaki arka plan desen teması rengini alır veya ayarlar[`Shading`](../) nesne.
 
 ```csharp
 public ThemeColor BackgroundPatternThemeColor { get; set; }

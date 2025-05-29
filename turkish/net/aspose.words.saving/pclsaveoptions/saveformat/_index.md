@@ -2,8 +2,8 @@
 title: PclSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET
-description: PclSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaPcl  C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde uyumluluğu ve yüksek kaliteli çıktıyı garanti altına almak için PclSaveOptions SaveFormat özelliğini kullanarak belgeleri PCL formatında kolayca kaydedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pclsaveoptions/saveformat/

@@ -2,8 +2,8 @@
 title: FieldCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: FieldCollection Count mülk. Koleksiyondaki alanların sayısını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuzdaki alanların toplam sayısını verimli bir şekilde döndürerek veri yönetimini kolaylaştıran FieldCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Örnekler
 
-Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
+Bir alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,26 +36,26 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
-// 1 - Kendini kaldıracak bir alan edinin:
+// Aşağıda bir alan koleksiyonundan alanları kaldırmanın dört yolu bulunmaktadır.
+// 1 - Bir alanın kendisini kaldırmasını sağla:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Kaldırma yöntemine ilettiğimiz bir alanı kaldırmak için koleksiyonu alın:
+// 2 - Kaldırma yöntemine geçirdiğimiz bir alanı kaldırmak için koleksiyonu edinin:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Bir dizindeki koleksiyondan bir alanı kaldırın:
+// 3 - Bir dizindeki bir koleksiyondan bir alanı kaldır:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
+// 4 - Koleksiyondaki tüm alanları aynı anda kaldır:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
 
-Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
+Alan koleksiyonlarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void FieldCollection()
@@ -75,8 +75,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri yazdırıp yazın
-    // özel bir ziyaretçi uygulaması kullanarak her alanın.
+    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri ve türü yazdırın
+    // her alanın özel ziyaretçi uygulamasını kullanarak.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -100,7 +100,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Alan bilgilerini yazdıran ziyaretçi uygulamasını belgeleyin.
+/// Alan bilgilerini yazdıran belge ziyaretçisi uygulaması.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -110,7 +110,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -130,7 +130,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -140,7 +140,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

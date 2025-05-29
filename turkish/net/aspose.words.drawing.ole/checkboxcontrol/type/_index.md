@@ -1,0 +1,39 @@
+---
+title: CheckBoxControl.Type
+linktitle: Type
+articleTitle: Type
+second_title: .NET için Aspose.Words
+description: Forms 2.0 için CheckBoxControl Type özelliğini keşfedin ve uygulamanızın işlevselliğini artıracak çok yönlü kontrol seçeneklerinin kilidini açın.
+type: docs
+weight: 20
+url: /tr/net/aspose.words.drawing.ole/checkboxcontrol/type/
+---
+## CheckBoxControl.Type property
+
+Forms 2.0 denetiminin türünü alır.
+
+```csharp
+public override Forms2OleControlType Type { get; }
+```
+
+## Örnekler
+
+CheckBox denetiminin durumunun nasıl değiştirileceğini gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "ActiveX controls.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+CheckBoxControl checkBoxControl = (CheckBoxControl)shape.OleFormat.OleControl;
+checkBoxControl.Checked = true;
+
+Assert.AreEqual(true, checkBoxControl.Checked);
+Assert.AreEqual(Forms2OleControlType.CheckBox, checkBoxControl.Type);
+```
+
+### Ayrıca bakınız
+
+* enum [Forms2OleControlType](../../forms2olecontroltype/)
+* class [CheckBoxControl](../)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
+* toplantı [Aspose.Words](../../../)

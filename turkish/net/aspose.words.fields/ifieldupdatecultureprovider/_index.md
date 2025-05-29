@@ -2,15 +2,15 @@
 title: IFieldUpdateCultureProvider Interface
 linktitle: IFieldUpdateCultureProvider
 articleTitle: IFieldUpdateCultureProvider
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüz. UygulandığındaCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüzünü keşfedin. Hassas yerelleştirme için özelleştirilebilir bir CultureInfo nesnesiyle alan güncellemelerini geliştirin.
 type: docs
-weight: 2710
+weight: 3120
 url: /tr/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-Uygulandığında,CultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
+Uygulandığında, birCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -20,7 +20,7 @@ public interface IFieldUpdateCultureProvider
 
 | İsim | Tanım |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | BirCultureInfo alanın güncellenmesi sırasında kullanılacak nesne. |
 
 ## Örnekler
 
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Her alana özel bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
+    // Her alana özgü bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -52,7 +52,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

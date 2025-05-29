@@ -2,17 +2,17 @@
 title: FieldMergeSeq Class
 linktitle: FieldMergeSeq
 articleTitle: FieldMergeSeq
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldMergeSeq sınıf. MERGESEQ alanını uygular C#'da.
+second_title: .NET için Aspose.Words
+description: MERGESEQ alanıyla kusursuz belge birleştirme için Aspose.Words.Fields.FieldMergeSeq sınıfını keşfedin. Belge otomasyonunuzu bugün artırın!
 type: docs
-weight: 2170
+weight: 2580
 url: /tr/net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class
 
 MERGESEQ alanını uygular.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldMergeSeq : Field
@@ -30,12 +30,12 @@ public class FieldMergeSeq : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir tane alır[`FieldFormat`](../fieldformat/)alanın biçimlendirmesine yazılmış erişim sağlayan nesne. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcısı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcısını temsil eden düğümü alır.`hükümsüz` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
 
@@ -43,20 +43,20 @@ public class FieldMergeSeq : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
-| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Hem alan kodu hem de alt alanların alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son alt 'siyse, üst paragrafını döndürür. Alan zaten kaldırılmışsa, şunu döndürür`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alan bağlantısını kaldırma işlemini gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
 
 ## Notlar
 
-Şu anda MERGEREC ve MERGESEQ alanları aynı işlevi uyguluyor çünkü Aspose.Words adres-mektup birleştirmede kayıtların nasıl atlanacağını sure bilmiyoruz.
+Şu anda MERGEREC ve MERGESEQ alanları aynı işlevselliği uyguluyor çünkü Aspose.Words posta birleştirmede kayıtları nasıl atlayacağımızı kesin olarak bilmiyoruz.
 
 ## Örnekler
 
-Adres-mektup birleştirmenin çıktı belgelerindeki adres-mektup birleştirme kayıtlarını numaralandırmak ve saymak için MERGEREC ve MERGESEQ alanlarının nasıl kullanılacağını gösterir.
+Bir posta birleştirme işleminin çıktı belgelerinde, MERGEREC ve MERGESEQ alanlarının posta birleştirme kayıtlarını numaralandırmak ve saymak için nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -67,21 +67,21 @@ FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType
 fieldMergeField.FieldName = "Name";
 builder.Writeln(",");
 
-// Bir MERGEREC alanı, her birleştirme çıktı belgesinde birleştirilen verilerin satır numarasını yazdıracaktır.
+// MERGEREC alanı, her birleştirme çıktı belgesinde birleştirilecek verilerin satır numarasını yazdıracaktır.
 builder.Write("\nRow number of record in data source: ");
 FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
 
 Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 
-// MERGESEQ alanı başarılı birleştirmelerin sayısını sayar ve geçerli değeri ilgili her sayfaya yazdırır.
-// Adres-mektup birleştirme hiçbir satırı atlamıyorsa ve hiçbir SKIP/SKIPIF/NEXT/NEXTIF alanını çağırmıyorsa, tüm birleştirmeler başarılı olur.
-// MERGESEQ ve MERGEREC alanları, adres-mektup birleştirme başarılı olduğunda aynı sonuçları gösterecektir.
+// MERGESEQ alanı başarılı birleştirmelerin sayısını sayar ve her ilgili sayfada geçerli değeri yazdırır.
+// Bir posta birleştirme işlemi hiçbir satırı atlamıyorsa ve hiçbir SKIP/SKIPIF/NEXT/NEXTIF alanını çağırmıyorsa, tüm birleştirmeler başarılıdır.
+// MERGESEQ ve MERGEREC alanları, posta birleştirme işlemi başarılı olursa aynı sonuçları görüntüler.
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
 Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
 
-// Adın "John Doe" olması durumunda birleştirmeyi atlayacak bir SKIPIF alanı ekleyin.
+// İsim "John Doe" ise birleştirmeyi atlayacak bir SKIPIF alanı ekleyin.
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
 builder.MoveTo(fieldSkipIf.Separator);
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -89,17 +89,17 @@ fieldMergeField.FieldName = "Name";
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "John Doe";
 
-// 3 satırlı bir veri kaynağı oluşturun; bunlardan birinde "Ad" sütununun değeri "John Doe"dur.
-// Bir SKIPIF alanı bu değer tarafından bir kez tetikleneceğinden, adres-mektup birleştirmemizin çıktısı 3 yerine 2 sayfadan oluşacaktır.
-// 1. sayfada, MERGESEQ ve MERGEREC alanlarının her ikisi de "1" gösterecektir.
-// 2. sayfada MERGEREC alanında "3", MERGESEQ alanında ise "2" görüntülenecektir.
+// 3 satırdan oluşan bir veri kaynağı oluşturun, bunlardan birinde "Ad" sütunu için değer olarak "John Doe" bulunsun.
+// SKIPIF alanı bu değer tarafından bir kez tetikleneceğinden, posta birleştirme çıktımız 3 yerine 2 sayfa olacaktır.
+// 1. sayfada MERGESEQ ve MERGEREC alanlarının her ikisinde de "1" görüntülenecektir.
+// 2. sayfada MERGEREC alanı "3" değerini, MERGESEQ alanı ise "2" değerini gösterecektir.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
-table.Rows.Add(new[] { "Jane Doe" });
-table.Rows.Add(new[] { "John Doe" });
-table.Rows.Add(new[] { "Joe Bloggs" });
+table.Rows.Add("Jane Doe");
+table.Rows.Add("John Doe");
+table.Rows.Add("Joe Bloggs");
 
-doc.MailMerge.Execute(table);            
+doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

@@ -2,10 +2,10 @@
 title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
-second_title: Aspose.Words for .NET
-description: Table ClearBorders yöntem. Bu tablodaki tüm tablo ve hücre kenarlıklarını kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın netliğini ve çekiciliğini artırarak tüm tablo ve hücre kenarlıklarını zahmetsizce ortadan kaldırmak için Table ClearBorders yöntemini keşfedin.
 type: docs
-weight: 370
+weight: 390
 url: /tr/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -18,32 +18,32 @@ public void ClearBorders()
 
 ## Örnekler
 
-Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
+Bir tabloya dış kenarlığın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tabloyu sayfanın ortasına hizalayın.
+// Tabloyu sayfanın ortasına hizala.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
+// Tablodaki mevcut tüm kenarlıkları ve gölgelendirmeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 
-// Tablonun ana hatlarına yeşil kenarlıklar ekleyin.
+// Tablonun dış hatlarına yeşil kenarlıklar ekleyin.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Hücreleri açık yeşil düz renkle doldurun.
+// Hücreleri açık yeşil düz bir renkle doldurun.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-Tablodaki tüm kenarlıkların nasıl kaldırılacağını gösterir.
+Bir tablodan tüm kenarlıkların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.InsertCell();
 builder.Write("Hello world!");
 builder.EndTable();
 
-// Üst kenarlığın rengini ve kalınlığını değiştirin.
+// Üst sınırın rengini ve kalınlığını değiştirin.
 Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
 
@@ -62,11 +62,11 @@ Assert.AreEqual(1.5d, topBorder.LineWidth);
 Assert.AreEqual(Color.Red.ToArgb(), topBorder.Color.ToArgb());
 Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 
-// Tablodaki tüm hücrelerin kenarlıklarını temizleyin ve ardından belgeyi kaydedin.
+// Tablodaki tüm hücrelerin sınırlarını temizleyin ve ardından belgeyi kaydedin.
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// Belgeyi yeniden açtıktan sonra tablonun özelliklerinin değerlerini doğrulayın.
+// Belgeyi tekrar açtıktan sonra tablonun özelliklerinin değerlerini doğrulayın.
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];

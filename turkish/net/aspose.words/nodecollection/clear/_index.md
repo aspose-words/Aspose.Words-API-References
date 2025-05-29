@@ -2,15 +2,15 @@
 title: NodeCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET
-description: NodeCollection Clear yöntem. Tüm düğümleri bu koleksiyondan ve belgeden kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi performansı elde etmek için NodeCollection'ınızı Clear metodumuzla zahmetsizce temizleyin ve hem koleksiyondan hem de belgeden tüm düğümleri kaldırın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/nodecollection/clear/
 ---
 ## NodeCollection.Clear method
 
-Tüm düğümleri bu koleksiyondan ve belgeden kaldırır.
+Bu koleksiyondan ve belgeden tüm düğümleri kaldırır.
 
 ```csharp
 public void Clear()
@@ -18,17 +18,17 @@ public void Clear()
 
 ## Örnekler
 
-Bir belgedeki tüm bölümlerin nasıl kaldırılacağını gösterir.
+Bir belgeden tüm bölümlerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Bu belgede, belgenin tüm içeriğini içeren ve görüntüleyen birkaç alt düğümün bulunduğu bir bölüm vardır.
+// Bu belgenin, belgenin tüm içeriğini barındıran ve görüntüleyen birkaç alt düğümü olan bir bölümü vardır.
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Belgenin tüm alt öğelerini kaldıracak olan bölüm koleksiyonunu temizleyin.
+// Bölüm koleksiyonunu temizleyerek belgenin tüm alt öğelerini kaldır.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

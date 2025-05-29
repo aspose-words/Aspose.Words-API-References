@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.LastSavedBy
 linktitle: LastSavedBy
 articleTitle: LastSavedBy
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties LastSavedBy mülk. Son yazarın adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde belge yazarlığını kolayca yönetmek ve iş birliğini geliştirmek için BuiltInDocumentProperties LastSavedBy özelliğini keşfedin.
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
 ---
 ## BuiltInDocumentProperties.LastSavedBy property
@@ -22,16 +22,16 @@ Aspose.Words bu özelliği güncellemez.
 
 ## Örnekler
 
-"Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
+"Origin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
-// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açın.
+// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açalım.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Aşağıdaki yerleşik özellikler bu belgenin oluşturulmasına ve düzenlenmesine ilişkin bilgiler içerir.
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz
-// bu özellikler "Özellikler" aracılığıyla -> "Ayrıntılar" -> "Köken" kategorisi.
+// Aşağıdaki yerleşik özellikler, bu belgenin oluşturulması ve düzenlenmesiyle ilgili bilgileri içerir.
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz
+// bu özellikler "Özellikler" -> "Ayrıntılar" -> "Köken" kategorisi aracılığıyla.
 // PRINTDATE ve EDITTIME gibi alanlar bu değerleri belge gövdesinde görüntüleyebilir.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -45,11 +45,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word, belgeyi kaydettiğimizde aşağıdaki özellikleri otomatik olarak günceller.
-// Bu özellikleri Aspose.Words ile kullanmak için değerleri manuel olarak ayarlamamız gerekecek.
+// Bu özellikleri Aspose.Words ile kullanmak için, bunlara manuel olarak değer ayarlamamız gerekecek.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

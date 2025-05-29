@@ -2,8 +2,8 @@
 title: FieldDde.AutoUpdate
 linktitle: AutoUpdate
 articleTitle: AutoUpdate
-second_title: Aspose.Words for .NET
-description: FieldDde AutoUpdate mülk. Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz otomatik güncellemeler için FieldDde AutoUpdate ayarlarını nasıl yöneteceğinizi keşfedin. Verimli saha yönetimiyle iş akışınızı bugün geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddde/autoupdate/
@@ -26,8 +26,8 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda bağlantılı bir belgenin içeriğini metin biçiminde görüntülemek için kullanabileceğimiz üç alan türü bulunmaktadır.
-    // 1 - BİR BAĞLANTI alanı:
+    // Aşağıda, bağlantılı bir belgedeki içerikleri metin biçiminde görüntülemek için kullanabileceğimiz üç tür alan bulunmaktadır.
+    // 1 - Bir BAĞLANTI alanı:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -50,8 +50,8 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda bağlantılı bir belgenin içeriğini resim biçiminde görüntülemek için kullanabileceğimiz üç alan türü bulunmaktadır.
-    // 1 - BİR BAĞLANTI alanı:
+    // Aşağıda, bağlantılı bir belgedeki içerikleri resim biçiminde görüntülemek için kullanabileceğimiz üç tür alan bulunmaktadır.
+    // 1 - Bir BAĞLANTI alanı:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Bir DDE alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
+/// Bir DDE alanı eklemek için bir belge oluşturucu kullanın ve özelliklerini parametrelere göre ayarlayın.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -148,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Bir DDEAUTO alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
+/// DDEAUTO alanını eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // BağlantılıNesneMetinOlarak
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // BağlantılıNesneGörüntüOlarak
     Picture,
     Bitmap
 }

@@ -2,15 +2,15 @@
 title: Stroke.JoinStyle
 linktitle: JoinStyle
 articleTitle: JoinStyle
-second_title: Aspose.Words for .NET
-description: Stroke JoinStyle mülk. Sürekli çizginin birleştirme stilini tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Daha akıcı grafikler ve gelişmiş tasarım esnekliği için özelleştirilebilir birleştirme stilleriyle poli çizgilerinizi geliştirmek üzere Stroke JoinStyle özelliğini keşfedin.
 type: docs
-weight: 120
+weight: 170
 url: /tr/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
 
-Sürekli çizginin birleştirme stilini tanımlar.
+Bir poligonun birleştirme stilini tanımlar.
 
 ```csharp
 public JoinStyle JoinStyle { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:Round.
 
 ## Örnekler
 
-Kontur özelliklerinin nasıl değiştirildiğini gösterir.
+Vuruş özelliklerinin nasıl değiştiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
-// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
+// 1 - Şeklin dış hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını işaretleyen kontur:
+// 2 - Şeklin ana hatlarını belirleyen çizgi:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

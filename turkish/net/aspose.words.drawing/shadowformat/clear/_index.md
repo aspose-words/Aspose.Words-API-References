@@ -2,10 +2,10 @@
 title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET
-description: ShadowFormat Clear yöntem. Gölge biçimini temizler C#'da.
+second_title: .NET için Aspose.Words
+description: ShadowFormat Clear yöntemi ile gölge formatınızı zahmetsizce sıfırlayın. Tasarımınızı bugün temiz bir sayfa ile geliştirin!
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
@@ -18,16 +18,16 @@ public void Clear()
 
 ## Örnekler
 
-Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
+Şekil için gölge biçimlendirmesiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

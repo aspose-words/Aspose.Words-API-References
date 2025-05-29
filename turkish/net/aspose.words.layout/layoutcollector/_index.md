@@ -2,17 +2,17 @@
 title: LayoutCollector Class
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.LayoutCollector sınıf. Bu sınıf belge düğümlerinin sayfa numaralarının hesaplanmasına olanak tanır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge düğüm sayfa numaralarını verimli bir şekilde hesaplamak ve belge yönetimi deneyiminizi geliştirmek için Aspose.Words.Layout.LayoutCollector sınıfını keşfedin.
 type: docs
-weight: 3320
+weight: 3770
 url: /tr/net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
 
 Bu sınıf, belge düğümlerinin sayfa numaralarının hesaplanmasına olanak tanır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Sabit Sayfa Formatına Dönüştürme](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Sabit Sayfa Biçimine Dönüştürme](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) belgeleme makalesi.
 
 ```csharp
 public class LayoutCollector
@@ -28,40 +28,40 @@ public class LayoutCollector
 
 | İsim | Tanım |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Bu toplayıcı örneğinin eklendiği belgeyi alır veya ayarlar. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Bu toplayıcı örneğinin bağlı olduğu belgeyi alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Toplanan tüm düzen verilerini temizler. Belge manuel olarak güncellendikten veya düzen yeniden oluşturulduktan sonra bu yöntemi çağırın. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Nesnenin opak konumunu döndürür[`LayoutEnumerator`](../layoutenumerator/) belirtilen düğüme karşılık gelir. Döndürülen değeri argüman olarak kullanabilirsiniz.[`Current`](../layoutenumerator/current/) belgenin numaralandırıldığı ve düğümün belgesinin aynı olduğu göz önüne alındığında. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfadaysa 0. Bu, şununla aynıdır:[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 döndürür. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Opak bir konumu döndürür[`LayoutEnumerator`](../layoutenumerator/) belirtilen düğüme karşılık gelen. Döndürülen değeri bir argüman olarak kullanabilirsiniz[`Current`](../layoutenumerator/current/) verilen belge numaralandırılmıştır ve düğümün belgesi aynıdır. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfa içindeyse 0. Bu, şu şekildedir:[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 döndürür. |
 
 ## Notlar
 
-Bir oluşturduğunuz zaman`LayoutCollector` ve bir belirtin[`Document`](../../aspose.words/document/) Eklenecek belge nesnesi , belge sayfalar halinde formatlandığında, toplayıcı belge düğümlerinin düzen nesnelerine eşlenmesini kaydeder.
+Bir tane oluşturduğunuzda`LayoutCollector` ve bir tane belirtin[`Document`](../../aspose.words/document/)Eklenecek belge nesnesi, toplayıcı, belge sayfalara biçimlendirildiğinde belge düğümlerinin düzen nesnelerine eşlenmesini kaydedecektir.
 
-Belirli bir belge düğümünün (örneğin çalıştırma, paragraf veya tablo hücresi) hangi sayfada bulunduğunu kullanarak öğrenebilirsiniz.[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) Ve[`GetNumPagesSpanned`](./getnumpagesspanned/)yöntemler. Bu yöntemler, belgenin sayfa düzeni modelini otomatik olarak oluşturur ve gerekirse alanları günceller.
+Belirli bir belge düğümünün (örneğin çalıştırma, paragraf veya tablo hücresi) hangi sayfada bulunduğunu kullanarak bulabilirsiniz[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) Ve[`GetNumPagesSpanned`](./getnumpagesspanned/) yöntemler. Bu yöntemler, belgenin sayfa düzeni modelini otomatik olarak oluşturur ve gerektiğinde alanları günceller.
 
-Artık düzen bilgilerini toplamanız gerekmediğinde, en iyisi[`Document`](./document/) mülkiyet`hükümsüz` Daha fazla düzen eşlemesinin gereksiz şekilde toplanmasını önlemek için .
+Artık düzen bilgilerini toplamanız gerekmediğinde, en iyisi[`Document`](./document/) mülk`hükümsüz` gereksiz yere daha fazla düzen eşlemesi toplanmasını önlemek için.
 
 ## Örnekler
 
-Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
+Bir düğümün yayıldığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Belgemizin içeriğinin kaç sayfaya yayıldığını saymak için "GetNumPagesSpanned" yöntemini çağırın.
-// Belge boş olduğundan bu sayfa sayısı şu anda sıfırdır.
+// Belgemizin içeriğinin kaç sayfayı kapladığını saymak için "GetNumPagesSpanned" metodunu çağıralım.
+// Belge boş olduğundan, sayfa sayısı şu anda sıfırdır.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Belgeyi 5 sayfalık içerikle doldurun.
+// Belgeyi 5 sayfalık içerikle doldur.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -71,8 +71,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Düzen toplayıcıdan önce, bize bilgi vermesi için "UpdatePageLayout" yöntemini çağırmamız gerekiyor
-// sayfa sayısı gibi düzen ile ilgili herhangi bir ölçüm için doğru bir rakam.
+// Düzen toplayıcısından önce, bize bir düzen sağlamak için "UpdatePageLayout" yöntemini çağırmamız gerekir.
+// sayfa sayısı gibi düzenle ilgili herhangi bir metriğe ilişkin doğru bir rakam.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -80,7 +80,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Herhangi bir düğümün başlangıç ve bitiş sayfalarının sayısını ve genel sayfa aralıklarını görebiliriz.
+// Herhangi bir node'un başlangıç ve bitiş sayfa numaralarını ve bunların toplam sayfa genişliklerini görebiliriz.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -95,7 +95,7 @@ LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator, düzen varlıkları koleksiyonunu bir ağaç gibi geçebilir.
+// LayoutEnumerator, bir ağaç gibi düzen varlıklarının koleksiyonunu dolaşabilir.
 // Bunu herhangi bir düğümün karşılık gelen düzen varlığına da uygulayabiliriz.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 

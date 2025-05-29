@@ -2,8 +2,8 @@
 title: PageSetup.Orientation
 linktitle: Orientation
 articleTitle: Orientation
-second_title: Aspose.Words for .NET
-description: PageSetup Orientation mülk. Sayfanın yönünü döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin sayfa düzenini kolayca ayarlamak için PageSetup Orientation özelliğini keşfedin. Özelleştirilebilir oryantasyon ayarlarıyla yazdırmanızı optimize edin!
 type: docs
 weight: 290
 url: /tr/net/aspose.words/pagesetup/orientation/
@@ -18,11 +18,11 @@ public Orientation Orientation { get; set; }
 
 ## Notlar
 
-Değiştirme`Orientation` takaslar[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/).
+Değişiyor`Orientation` takaslar[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/).
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -42,25 +42,25 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
+Bir belgedeki bölümlere sayfa düzeni ayarlarının nasıl uygulanacağını ve geri alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucunun geçerli bölümü için sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
+// Oluşturucunun geçerli bölümünün sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Bir belge oluşturucu kullanarak yeni bir bölüme başlarsak,
-// oluşturucunun mevcut sayfa düzeni özelliklerini devralacaktır.
+// Belge oluşturucuyu kullanarak yeni bir bölüm başlatırsak,
+// Oluşturucunun geçerli sayfa düzeni özelliklerini devralacaktır.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// "ClearFormatting" yöntemini kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
+// "ClearFormatting" metodunu kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

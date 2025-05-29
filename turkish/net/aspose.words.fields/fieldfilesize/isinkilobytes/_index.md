@@ -2,15 +2,15 @@
 title: FieldFileSize.IsInKilobytes
 linktitle: IsInKilobytes
 articleTitle: IsInKilobytes
-second_title: Aspose.Words for .NET
-description: FieldFileSize IsInKilobytes mülk. Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFileSize IsInKilobytes ile dosya boyutu gösterimini kontrol edin. Gelişmiş veri yönetimi için kilobayt cinsinden boyut görünürlüğünü kolayca değiştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 ---
 ## FieldFileSize.IsInKilobytes property
 
-Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar.
+Dosya boyutunun kilobayt olarak gösterilip gösterilmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool IsInKilobytes { get; set; }
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Aşağıda üç farklı ölçü birimi verilmiştir
-// hangi FILESIZE alanlarının belgenin dosya boyutunu görüntüleyebileceği.
+// Aşağıda üç farklı ölçü birimi bulunmaktadır
+// FILESIZE alanlarının belgenin dosya boyutunu gösterebileceği alan.
 // 1 - Bayt:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -57,7 +57,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Microsoft Word'de düzenleme yaparken bu alanların değerlerini güncellemek için,
-// önce değişiklikleri kaydetmemiz, ardından bu alanları manuel olarak güncellememiz gerekiyor.
+// Öncelikle değişiklikleri kaydetmeli ve daha sonra bu alanları manuel olarak güncellemeliyiz.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

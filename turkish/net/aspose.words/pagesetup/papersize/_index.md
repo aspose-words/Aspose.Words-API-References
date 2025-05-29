@@ -2,8 +2,8 @@
 title: PageSetup.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
-second_title: Aspose.Words for .NET
-description: PageSetup PaperSize mülk. Kağıt boyutunu döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi yazdırma sonuçlarını elde etmek için belgenizin kağıt boyutunu kolayca özelleştirmek ve yönetmek amacıyla PageSetup PaperSize özelliğini keşfedin.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/pagesetup/papersize/
@@ -18,11 +18,23 @@ public PaperSize PaperSize { get; set; }
 
 ## Notlar
 
-Bu özellik güncellemelerini ayarlama[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/) değerler. Bu değer şu şekilde ayarlanıyor:Custom mevcut değerleri değiştirmez.
+Bu özellik güncellemelerini ayarlama[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/) değerler. Bu değeri şu şekilde ayarlamakCustom mevcut değerleri değiştirmez.
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+JisB4 veya JisB5'in kağıt boyutunun nasıl ayarlanacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+// Kağıt boyutunu JisB4 (257x364mm) olarak ayarlayın.
+pageSetup.PaperSize = PaperSize.JisB4;
+// Alternatif olarak kağıt boyutunu JisB5'e (182x257mm) ayarlayın.
+pageSetup.PaperSize = PaperSize.JisB5;
+```
+
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -48,8 +60,8 @@ Sayfa boyutlarının nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli sayfanın boyutunu önceden tanımlanmış bir boyuta değiştirebiliriz
-// bu bölümün PageSetup nesnesinin "PaperSize" özelliğini kullanarak.
+// Mevcut sayfanın boyutunu önceden tanımlanmış bir boyuta değiştirebiliriz
+// Bu bölümün PageSetup nesnesinin "PaperSize" özelliğini kullanarak.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -57,7 +69,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Her bölümün kendi PageSetup nesnesi vardır. Yeni bir bölüm oluşturmak için belge oluşturucuyu kullandığımızda,
+// Her bölümün kendine ait PageSetup nesnesi vardır. Yeni bir bölüm oluşturmak için bir belge oluşturucu kullandığımızda,
 // o bölümün PageSetup nesnesi, önceki bölümün PageSetup nesnesinin tüm değerlerini devralır.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -71,7 +83,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Bu bölümün sayfaları için özel bir boyut ayarlayın.
+// Bu bölümün sayfaları için özel bir boyut belirleyin.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -89,25 +101,25 @@ Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
+// Bölüm için bazı sayfa düzeni özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu alt öğe olarak gövdeye ekleyin.
+// Bir paragraf oluştur, bazı biçimlendirme özelliklerini ayarla ve sonra onu gövdeye bir alt paragraf olarak ekle.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -115,8 +127,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
+// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir çalışma oluşturun,
+// Görünümünü ve içeriğini ayarlayın ve ardından paragrafın bir alt öğesi olarak ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

@@ -2,15 +2,15 @@
 title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
-second_title: Aspose.Words for .NET
-description: DocumentBuilder CurrentStory mülk. Bu bölümde o anda seçili olan hikayeyi getirirDocumentBuilder  C#'da.
+second_title: .NET için Aspose.Words
+description: Seçili hikayeye etkin bir şekilde erişmek ve onu yönetmek için DocumentBuilder CurrentStory özelliğini keşfedin; böylece belge düzenleme deneyiminizi geliştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Bu bölümde o anda seçili olan hikayeyi getirir[`DocumentBuilder`](../) .
+Bu bölümde şu anda seçili olan hikayeyi alır[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -18,7 +18,7 @@ public Story CurrentStory { get; }
 
 ## Örnekler
 
-Belge oluşturucunun güncel hikayesiyle nasıl çalışılacağını gösterir.
+Belge oluşturucunun mevcut hikayesiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
 
 builder.CurrentStory.AppendParagraph("Text added to current Story.");
 
-// Bir Hikaye aynı zamanda tablolar da içerebilir.
+// Bir Hikaye tablolar da içerebilir.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1");

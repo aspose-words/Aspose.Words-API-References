@@ -2,8 +2,8 @@
 title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
-second_title: Aspose.Words for .NET
-description: CustomPart Data mülk. Bu özel parçanın verilerini içerir C#'da.
+second_title: .NET için Aspose.Words
+description: CustomPart Verilerini keşfedin. Projelerinizde gelişmiş hassasiyet ve verimlilik için özel parçalarınızla ilgili ayrıntılı bilgilere erişin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/custompart/data/
@@ -18,25 +18,25 @@ public byte[] Data { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca şu durumlarda geçerlidir:[`IsExternal`](../isexternal/) dır-dir`YANLIŞ`.
+Bu özellik yalnızca şu durumlarda geçerlidir:[`IsExternal`](../isexternal/) dır`YANLIŞ`.
 
-Varsayılan değer boş bir bayt dizisidir. Değer olamaz`hükümsüz`.
+Varsayılan değer boş bir bayt dizisidir. Değer şu şekilde olamaz:`hükümsüz`.
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

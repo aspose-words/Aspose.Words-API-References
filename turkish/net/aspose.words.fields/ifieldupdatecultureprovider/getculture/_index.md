@@ -2,15 +2,15 @@
 title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
-second_title: Aspose.Words for .NET
-description: IFieldUpdateCultureProvider GetCulture yöntem. Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz alan güncellemeleri için CultureInfo nesnesini verimli bir şekilde döndüren IFieldUpdateCultureProvider'ın GetCulture metodunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne.
+BirCultureInfo alanın güncellenmesi sırasında kullanılacak nesne.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -18,7 +18,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| culture | String | Güncellenmekte olan alan için istenen kültürün adı. |
+| culture | String | Güncellenen alan için talep edilen kültürün adı. |
 | field | Field | Alan güncelleniyor. |
 
 ### Geri dönüş değeri
@@ -39,7 +39,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Her alana özel bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
+    // Her alana özgü bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -55,7 +55,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

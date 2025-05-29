@@ -2,15 +2,15 @@
 title: FormField.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: FormField Type mülk. Form alanı türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Web formlarınızın işlevselliğini ve kullanıcı deneyimini geliştirmek için çeşitli form alanı türlerini kolayca tanımlayıp kullanmak amacıyla FormField Type özelliğini keşfedin.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.fields/formfield/type/
 ---
 ## FormField.Type property
 
-Form alanı türünü döndürür.
+Form alan türünü döndürür.
 
 ```csharp
 public FieldType Type { get; }
@@ -18,7 +18,7 @@ public FieldType Type { get; }
 
 ## Örnekler
 
-Açılan kutunun nasıl ekleneceğini gösterir.
+Bir açılır kutunun nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,14 +26,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Kullanıcının bir dizi dizeden bir seçenek seçmesine olanak tanıyacak bir açılan kutu ekleyin.
+// Kullanıcının bir dizi dize arasından bir seçenek seçmesine izin verecek bir açılır kutu ekleyin.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Form alanı "select" html etiketi şeklinde görünecektir.
+// Form alanı "select" html etiketi biçiminde görünecektir.
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

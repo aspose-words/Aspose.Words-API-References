@@ -2,15 +2,15 @@
 title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
-second_title: Aspose.Words for .NET
-description: ViewOptions ViewType mülk. Microsoft Worddeki görüntüleme modunu kontrol eder C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş üretkenlik ve kişiselleştirilmiş düzenleme deneyimi için Microsoft Word görünüm modunuzu kolayca özelleştirmek üzere ViewOptions ViewType özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/viewoptions/viewtype/
 ---
 ## ViewOptions.ViewType property
 
-Microsoft Word'deki görüntüleme modunu kontrol eder.
+Microsoft Word'deki görünüm modunu kontrol eder.
 
 ```csharp
 public ViewType ViewType { get; set; }
@@ -18,11 +18,11 @@ public ViewType ViewType { get; set; }
 
 ## Notlar
 
-Aspose.Words bu seçeneği okuyup yazabilse de kullanımı uygulamaya özeldir. Örneğin MS Word 2013 bu seçeneğin değerini dikkate almaz.
+Aspose.Words bu seçeneği okuyup yazabilmesine rağmen, kullanımı uygulamaya özgüdür. Örneğin MS Word 2013 bu seçeneğin değerine saygı göstermez.
 
 ## Örnekler
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin bir belgeyi yüklerken uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

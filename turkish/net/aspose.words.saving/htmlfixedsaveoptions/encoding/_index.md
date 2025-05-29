@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions Encoding mülk. HTMLye dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değeryeni UTF8Kodlamadoğru BOM ile UTF8 C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz HTML dışa aktarımları için HtmlFixedSaveOptions Kodlama özelliğini keşfedin. En iyi veri bütünlüğü için BOM ile UTF-8 kodlamasını kolayca ayarlayın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-HTML'ye dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer:`yeni UTF8Kodlama(doğru)` (BOM ile UTF-8).
+HTML'ye aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer`yeni UTF8Kodlama(true)` (BOM ile UTF-8).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 ## Örnekler
 
-Bir belgeyi HTML'ye aktarırken hangi kodlamanın kullanılacağını nasıl ayarlayacağınızı gösterir.
+Bir belgeyi HTML'e aktarırken hangi kodlamanın kullanılacağını nasıl ayarlayacağınızı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello World!");
 
 // Varsayılan kodlama UTF-8'dir. Belgemizi farklı bir kodlama kullanarak temsil etmek istiyorsak,
-// belirli bir kodlamayı ayarlamak için SaveOptions nesnesini kullanabiliriz.
+// Belirli bir kodlamayı ayarlamak için SaveOptions nesnesini kullanabiliriz.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
-    Encoding = Encoding.GetEncoding("ASCII")
+    Encoding = Encoding.ASCII
 };
 
 Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);

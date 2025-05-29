@@ -2,10 +2,10 @@
 title: Chart.Title
 linktitle: Title
 articleTitle: Title
-second_title: Aspose.Words for .NET
-description: Chart Title mülk. Grafik başlığı özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Kolay özelleştirme ve gelişmiş görseller için Grafik Başlığı özelliğini keşfedin. Kullanıcı dostu özelliklerle grafiklerinizin tüm potansiyelini açığa çıkarın!
 type: docs
-weight: 80
+weight: 120
 url: /tr/net/aspose.words.drawing.charts/chart/title/
 ---
 ## Chart.Title property
@@ -18,24 +18,26 @@ public ChartTitle Title { get; }
 
 ## Örnekler
 
-Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
+Bir grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belge oluşturucuyla bir grafik şekli ekleyin ve grafiğini alın.
+// Bir belge oluşturucu ile bir grafik şekli ekleyin ve grafiğini alın.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Grafiğimize, grafik alanının üst orta kısmında görünen bir başlık vermek için "Başlık" özelliğini kullanın.
+// Grafiğimize, grafik alanının üst orta kısmında görünecek bir başlık vermek için "Başlık" özelliğini kullanın.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
- // Başlığın görünür olması için "Show" özelliğini "true" olarak ayarlayın.
+ // Başlığı görünür kılmak için "Göster" özelliğini "true" olarak ayarlayın.
 title.Show = true;
 
-// "Overlay" özelliğini "true" olarak ayarlayın Diğer grafik öğelerinin başlıkla örtüşmesine izin vererek daha fazla alan sağlayın
+// "Üst Katman" özelliğini "doğru" olarak ayarlayın. Diğer grafik öğelerine, başlığın üzerine gelmelerine izin vererek daha fazla alan verin
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

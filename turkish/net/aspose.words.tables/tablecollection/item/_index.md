@@ -2,15 +2,15 @@
 title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: TableCollection Item mülk. Bir öğeyi alırTable verilen dizinde C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli dizinlerdeki tabloları alarak TableCollection öğelerine zahmetsizce erişin. Sezgisel özellik özelliğimizle veri yönetiminizi basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Bir öğeyi alır[`Table`](../../table/) verilen dizinde.
+Birini alır[`Table`](../../table/) verilen indekste.
 
 ```csharp
 public Table this[int index] { get; }
@@ -18,21 +18,21 @@ public Table this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Koleksiyona bir dizin. |
+| index | Koleksiyonun indeksi. |
 
 ## Notlar
 
 Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
+Negatif indekslere izin verilir ve koleksiyonun sonundan erişimi belirtir. Örneğin -1 son öğeyi, -2 sondan bir önceki öğeyi vb. ifade eder.
 
-Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
+Eğer indeks listedeki öğe sayısından büyük veya eşitse, bu boş bir referans döndürür.
 
-Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
+Eğer indeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu durum boş bir referans döndürür.
 
 ## Örnekler
 
-Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
+Belgedeki tüm tablolarda nasıl gezinileceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

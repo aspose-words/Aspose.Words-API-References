@@ -2,15 +2,15 @@
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 linktitle: NoSpaceBetweenParagraphsOfSameStyle
 articleTitle: NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words for .NET
-description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle mülk. Ne zamandoğru SpaceBefore VeSpaceAfter aynı stildeki paragraflar arasında göz ardı edilecek C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle özelliğini keşfedin. Aynı stildeki paragraflar arasındaki boşluğu ortadan kaldırarak belge düzeninizi optimize edin.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-Ne zaman`doğru` ,[`SpaceBefore`](../spacebefore/) Ve[`SpaceAfter`](../spaceafter/) aynı stildeki paragraflar arasında göz ardı edilecek.
+Ne zaman`doğru` ,[`SpaceBefore`](../spacebefore/) Ve[`SpaceAfter`](../spaceafter/) Aynı stildeki paragraflar arasında göz ardı edilecektir
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -18,11 +18,11 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ## Notlar
 
-Bu ayar yalnızca paragraf stiline uygulandığında etkili olur. Doğrudan bir paragrafa uygulanırsa hiçbir etkisi olmaz.
+Bu ayar yalnızca bir paragraf stiline uygulandığında etkili olur. Doğrudan bir paragrafa uygulandığında, hiçbir etkisi olmaz.
 
 ## Örnekler
 
-Aynı stile sahip paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
+Aynı stildeki paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // Uygulamak için "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "true" olarak ayarlayın
-// benzer paragrafları gruplandıracak aynı stildeki paragraflar arasında boşluk yok.
+// aynı stildeki paragraflar arasında boşluk bırakılmayacak, böylece benzer paragraflar gruplanacak.
 // "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "false" olarak bırakın
 // her paragrafa eşit aralık uygulamak için.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;

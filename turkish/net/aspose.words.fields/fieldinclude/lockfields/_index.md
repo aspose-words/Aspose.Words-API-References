@@ -2,8 +2,8 @@
 title: FieldInclude.LockFields
 linktitle: LockFields
 articleTitle: LockFields
-second_title: Aspose.Words for .NET
-description: FieldInclude LockFields mülk. Dahil edilen belgedeki alanların güncellenmesinin engellenip engellenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldInclude LockFields özelliğiyle belge güncellemelerini zahmetsizce yönetin. Alan düzenlemeyi kontrol edin ve belge bütünlüğünü kolaylıkla geliştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldinclude/lockfields/
@@ -24,8 +24,8 @@ INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlan
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yerel dosya sistemine başka bir belgenin bir bölümünü içe aktarmak için INCLUDE alanını kullanabiliriz.
-// Bu alanla referans verdiğimiz diğer belgedeki yer imi bu içe aktarılan kısmı içeriyor.
+// Yerel dosya sistemindeki başka bir belgenin bir kısmını içe aktarmak için INCLUDE alanını kullanabiliriz.
+// Bu alanla başvurduğumuz diğer belgedeki yer imi bu içe aktarılan kısmı içerir.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

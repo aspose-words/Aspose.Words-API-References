@@ -2,15 +2,15 @@
 title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
-second_title: Aspose.Words for .NET
-description: FrameFormat RelativeVerticalPosition mülk. Bir çerçevenin göreceli dikey konumunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin düzenini ve tasarımını geliştirmek için bir çerçevenin dikey hizalamasını kolayca belirlemek amacıyla FrameFormat RelativeVerticalPosition özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-Bir çerçevenin göreceli dikey konumunu alır.
+Bir çerçevenin göreli dikey konumunu alır.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
@@ -18,7 +18,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -2,8 +2,8 @@
 title: FrameFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
-second_title: Aspose.Words for .NET
-description: FrameFormat HeightRule mülk. Belirtilen çerçevenin yüksekliğini belirleme kuralını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçeve yüksekliğini kolayca belirlemek için FrameFormat HeightRule özelliğini keşfedin. Tasarımlarınızı hassas kontrol ve iyileştirilmiş düzen verimliliğiyle optimize edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/frameformat/heightrule/
@@ -18,7 +18,7 @@ public HeightRule HeightRule { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

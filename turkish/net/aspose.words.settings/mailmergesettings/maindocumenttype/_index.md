@@ -2,15 +2,15 @@
 title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
-second_title: Aspose.Words for .NET
-description: MailMergeSettings MainDocumentType mülk. Adresmektup birleştirme ana belge türünü belirtir. Varsayılan değerDefault  C#'da.
+second_title: .NET için Aspose.Words
+description: MailMergeSettings MainDocumentType özelliğinin posta birleştirme belgelerinizi nasıl tanımladığını keşfedin. En iyi ayarlarla kusursuz belge oluşturmanın kilidini açın!
 type: docs
 weight: 140
 url: /tr/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Adres-mektup birleştirme ana belge türünü belirtir. Varsayılan değer:Default .
+Posta birleştirme ana belge türünü belirtir. Varsayılan değer:Default .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -18,11 +18,11 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ## Notlar
 
-Ana belge, birleştirilmiş belgenin her sürümü için aynı olan bilgileri içeren belgedir.
+Ana belge, birleştirilen belgenin her sürümü için aynı olan bilgileri içeren belgedir.
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

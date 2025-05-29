@@ -2,8 +2,8 @@
 title: CustomXmlPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection RemoveAt yöntem. Belirtilen dizindeki bir öğeyi kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: CustomXmlPartCollection'ınızı RemoveAt yöntemiyle zahmetsizce yönetin; veri işlemeyi kolaylaştırmak için öğeleri dizine göre hızla kaldırın.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.markup/customxmlpartcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sıfır tabanlı endeks. |
+| index | Int32 | Sıfır bazlı endeks. |
 
 ## Örnekler
 
@@ -27,9 +27,9 @@ public void RemoveAt(int index)
 ```csharp
 Document doc = new Document();
 
-// Veri içeren bir XML bölümü oluşturun ve onu belgenin koleksiyonuna ekleyin.
+// Veri içeren bir XML parçası oluştur ve bunu belgenin koleksiyonuna ekle.
 // Microsoft Word'de "Geliştirici" sekmesini etkinleştirirsek,
-// bu koleksiyondaki öğeleri birkaç varsayılan öğeyle birlikte "XML Eşleme Bölmesi"nde bulabiliriz.
+// Bu koleksiyondaki öğeleri "XML Eşleme Bölmesi"nde, birkaç varsayılan öğeyle birlikte bulabiliriz.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -37,24 +37,24 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Aşağıda XML parçalarına başvurmanın iki yolu verilmiştir.
+// Aşağıda XML parçalarına başvurmanın iki yolu bulunmaktadır.
 // 1 - Özel XML parça koleksiyonundaki bir dizine göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - GUID'e göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Bir XML şeması ilişkisi ekleyin.
+// Bir XML şema ilişkisi ekleyin.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Bir parçayı klonlayın ve ardından onu koleksiyona ekleyin.
+// Bir parçayı klonla ve sonra onu koleksiyona ekle.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Koleksiyonu yineleyin ve her parçanın içeriğini yazdırın.
+// Koleksiyonda gezinin ve her parçanın içeriğini yazdırın.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -66,16 +66,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Klonlanan parçayı dizine göre kaldırmak için "RemoveAt" yöntemini kullanın.
+// Klonlanmış parçayı indekse göre kaldırmak için "RemoveAt" metodunu kullanın.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
+// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Clear" yöntemini kullanın.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun ve bunu belge gövdesine ekleyin.
+// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturup bunu belge gövdesine ekleyelim.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

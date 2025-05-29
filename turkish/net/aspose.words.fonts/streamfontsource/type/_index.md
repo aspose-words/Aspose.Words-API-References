@@ -2,8 +2,8 @@
 title: StreamFontSource.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: StreamFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipi kaynak türünüzü kolayca belirlemek, tasarım esnekliğinizi ve proje verimliliğinizi artırmak için StreamFontSource Type özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/streamfontsource/type/

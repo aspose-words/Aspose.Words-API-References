@@ -2,15 +2,15 @@
 title: Border.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
-second_title: Aspose.Words for .NET
-description: Border IsVisible mülk. İadelerdoğru EğerLineStyle değilNone  C#'da.
+second_title: .NET için Aspose.Words
+description: Border IsVisible özelliğinin, LineStyle uygulandığında true döndürerek tasarımınızı nasıl geliştirdiğini keşfedin. Bu önemli özellik ile kullanıcı arayüzünüzü optimize edin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-İadeler`doğru` Eğer[`LineStyle`](../linestyle/) değilNone .
+Geri Döndürür`doğru` eğer[`LineStyle`](../linestyle/) değilNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -18,13 +18,13 @@ public bool IsVisible { get; }
 
 ## Örnekler
 
-Paragraftaki kenarlıkların nasıl kaldırılacağını gösterir.
+Bir paragraftan kenarlıkların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Her paragrafın ayrı bir kenarlıkları vardır.
-// Bu kenarlıkların görünümüne ilişkin ayarlara paragraf format nesnesi üzerinden erişebiliriz.
+// Her paragrafın kendine ait bir kenarlık kümesi vardır.
+// Bu kenarlıkların görünümüne ilişkin ayarlara paragraf format nesnesi aracılığıyla erişebiliriz.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -32,8 +32,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
- // ClearFormatting metodunu çalıştırarak kenarlığı tek seferde kaldırabiliriz.
-// Bu yöntemi bir paragrafın her kenarlığında çalıştırmak, paragrafın tüm kenarlıklarını kaldıracaktır.
+ // ClearFormatting metodunu çalıştırarak bir kenarlığı tek seferde kaldırabiliriz.
+// Bu metodu bir paragrafın her kenarlığında çalıştırmak, tüm kenarlıklarını kaldıracaktır.
 foreach (Border border in borders)
     border.ClearFormatting();
 

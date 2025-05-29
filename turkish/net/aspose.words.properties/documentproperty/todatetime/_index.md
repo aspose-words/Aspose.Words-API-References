@@ -2,15 +2,15 @@
 title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
 articleTitle: ToDateTime
-second_title: Aspose.Words for .NET
-description: DocumentProperty ToDateTime yöntem. Özellik değerini şu şekilde döndürürTarihSaat UTC. de C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentProperty'yi zahmetsizce UTC DateTime'a dönüştürün. Güvenilir yöntemimizle doğru zaman damgalarına erişin ve veri yönetiminizi geliştirin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Özellik değerini şu şekilde döndürür:**TarihSaat** UTC. 'de
+Özellik değerini şu şekilde döndürür:**TarihSaat** UTC'de.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,9 +18,9 @@ public DateTime ToDateTime()
 
 ## Notlar
 
-Özellik türü değilse bir istisna atarDateTime.
+Özellik türü uygun değilse bir istisna atarDateTime.
 
-Microsoft Word, özel tarih özellikleri için yalnızca tarih bölümünü (saati değil) saklar.
+Microsoft Word, özel tarih özellikleri için yalnızca tarih bölümünü (saati değil) depolar.
 
 ## Örnekler
 
@@ -30,8 +30,8 @@ Tarih ve saat içeren özel bir belge özelliğinin nasıl oluşturulacağını 
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 Özel belge özelliklerinin çeşitli tür dönüştürme yöntemlerini gösterir.

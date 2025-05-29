@@ -2,17 +2,17 @@
 title: MergeFieldImageDimension Class
 linktitle: MergeFieldImageDimension
 articleTitle: MergeFieldImageDimension
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.MergeFieldImageDimension sınıf. Adresmektup birleştirme işleminde kullanılan görüntü boyutunu yani genişlik veya yükseklik temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Posta birleştirmelerinde hassas görüntü boyutlandırma için Aspose.Words.Fields.MergeFieldImageDimension sınıfını keşfedin. Belge otomasyonunuzu bugün geliştirin!
 type: docs
-weight: 2750
+weight: 3160
 url: /tr/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
-Adres-mektup birleştirme işleminde kullanılan görüntü boyutunu (yani genişlik veya yükseklik) temsil eder.
+Bir posta birleştirme işleminde kullanılan bir görüntü boyutunu (yani genişliği veya yüksekliği) temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -22,8 +22,8 @@ public class MergeFieldImageDimension
 
 | İsim | Tanım |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Verilen değer ve verilen birimle bir görüntü boyutu örneği oluşturur. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Belirtilen nokta değerine sahip bir görüntü boyutu örneği oluşturur. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Belirtilen değer ve belirtilen birimle bir görüntü boyutu örneği oluşturur. |
 
 ## Özellikleri
 
@@ -34,23 +34,23 @@ public class MergeFieldImageDimension
 
 ## Notlar
 
-Adres-mektup birleştirme sırasında resmin orijinal boyutuyla eklenmesi gerektiğini belirtmek için, öğesine negatif bir değer atamalısınız.[`Value`](./value/) özellik.
+Posta birleştirme sırasında görüntünün orijinal boyutuyla eklenmesi gerektiğini belirtmek için, öğesine negatif bir değer atamalısınız.[`Value`](./value/) mülk.
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
+MERGEFIELDS'in posta birleştirme sırasında kabul ettiği şekilde resimlerin boyutlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Adres-mektup birleştirme sırasında bir kaynaktan gelen görüntüleri kabul edecek bir MERGEFIELD ekleyin. Referans vermek için alan kodunu kullanın
-    // adres-mektup birleştirmede kullanmak istediğimiz görüntülerin yerel sistem dosya adlarını içeren veri kaynağındaki bir sütun.
+    // Bir posta birleştirme sırasında bir kaynaktan gelen görüntüleri kabul edecek bir MERGEFIELD ekleyin. Alan kodunu referans olarak kullanın
+    // posta birleştirmede kullanmak istediğimiz görsellerin yerel sistem dosya adlarını içeren veri kaynağındaki bir sütun.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Veri kaynağında "ImageColumn" adında bir sütun bulunmalıdır.
+    // Veri kaynağında "ImageColumn" adında böyle bir sütun bulunmalıdır.
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Uygun bir veri kaynağı oluşturun.
@@ -60,7 +60,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Birleştirme sırasında görüntülerin boyutlarını değiştirmek için bir geri arama yapılandırın, ardından adres-mektup birleştirmeyi yürütün.
+    // Birleştirme sırasında resimlerin boyutlarını değiştirmek için bir geri arama yapılandırın, ardından posta birleştirmeyi yürütün.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -69,7 +69,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Adres-postayla birleştirilmiş tüm görsellerin boyutunu tanımlanmış tek bir genişliğe ve yüksekliğe ayarlar.
+/// Birleştirilen tüm resimlerin boyutunu tek bir tanımlanmış genişliğe ve yüksekliğe ayarlar.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -95,6 +95,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

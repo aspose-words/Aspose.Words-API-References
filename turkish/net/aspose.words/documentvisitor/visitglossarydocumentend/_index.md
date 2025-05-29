@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitGlossaryDocumentEnd
 linktitle: VisitGlossaryDocumentEnd
 articleTitle: VisitGlossaryDocumentEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitGlossaryDocumentEnd yöntem. Bir sözlük belgesinin numaralandırılması sona erdiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentVisitor'daki VisitGlossaryDocumentEnd yöntemini keşfedin. Verimli veri yönetimi için sözlük belge numaralandırmasını nasıl geliştirdiğini öğrenin.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,15 +22,15 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Notlar
 
-Not: Bir sözlük belgesi düğümü ve onun alt öğeleri, a Visitor'ı bir[`Document`](../../document/) . Bir Ziyaretçiyi a sözlük belgesi üzerinden yürütmek istiyorsanız,[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Not: Bir sözlük belge düğümü ve onun alt düğümleri, bir a Visitor'ı bir[`Document`](../../document/) . Bir Visitor'ı a sözlük belgesi üzerinde çalıştırmak istiyorsanız, şunu çağırmanız gerekir:[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ## Örnekler
 
-Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
+Bir sözlük belgesindeki yapı taşlarına erişim yollarını gösterir.
 
 ```csharp
 public void GlossaryDocument()
@@ -38,42 +38,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Yapı taşlarına erişmenin çeşitli yolları vardır.
-    // 1 - Koleksiyondaki ilk/son yapı taşlarını alın:
+    // 1 - Koleksiyondaki ilk/son yapı taşlarını al:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Dizine göre bir yapı taşı alın:
+    // 2 - Dizin yoluyla bir yapı bloğunu al:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
+    // 3 - Bir galeriye, isme ve kategoriye uyan ilk yapı taşını al:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Bunu özel bir ziyaretçi kullanarak yapacağız,
-    // bu, GlossaryDocument'teki her BuildingBlock'a benzersiz bir GUID verecektir
+    // GlossaryDocument'taki her BuildingBlock'a benzersiz bir GUID verecek
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Sözlük belgesinin başlangıcını/sonunu ziyaret edin.
     glossaryDoc.Accept(visitor);
+    // Sözlük belgesinin yalnızca başlangıcını ziyaret edin.
+    glossaryDoc.AcceptStart(visitor);
+    // Sadece Sözlük belgesinin sonunu ziyaret edin.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // Microsoft Word'de yapı taşlarına "Ekle" --> aracılığıyla erişebiliriz. "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
+    // Microsoft Word'de yapı taşlarına "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Düzenleyicisi" yoluyla erişebiliriz.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Ziyaret edilen bir sözlük belgesindeki her yapı taşına benzersiz bir GUID verir.
-/// GUID yapı bloğu çiftlerini bir sözlükte saklar.
+/// Ziyaret edilen sözlük belgesindeki her yapı bloğuna benzersiz bir GUID verir.
+/// GUID yapı taşı çiftlerini bir sözlükte depolar.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

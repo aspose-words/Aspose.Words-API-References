@@ -2,10 +2,10 @@
 title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: BubbleSizeCollection Item mülk. Belirtilen dizindeki kabarcık boyutu değerini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli endekslerdeki kabarcık boyutlarını kolayca yönetmek ve veri görselleştirmenizi hassasiyetle geliştirmek için BubbleSizeCollection Item özelliğini keşfedin.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/bubblesizecollection/item/
 ---
 ## BubbleSizeCollection indexer

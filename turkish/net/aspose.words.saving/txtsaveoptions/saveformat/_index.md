@@ -2,8 +2,8 @@
 title: TxtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET
-description: TxtSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaText  C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptions SaveFormat özelliğinin belge kaydetme biçimlerini nasıl tanımladığını ve dosyalarınızın her zaman tercih edilen metin biçiminde olmasını nasıl sağladığını keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Örnekler
 
-Bir .txt belgesinin özel paragraf sonuyla nasıl kaydedileceğini gösterir.
+Özel paragraf sonuyla bir .txt belgesinin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);

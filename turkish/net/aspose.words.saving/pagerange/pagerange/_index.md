@@ -2,8 +2,8 @@
 title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
-second_title: Aspose.Words for .NET
-description: PageRange inşaatçı. Yeni bir sayfa aralığı nesnesi oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: PageRange oluşturucumuzla özelleştirilmiş sayfa aralıklarını zahmetsizce oluşturun. Belge yönetiminizi hassasiyet ve esneklikle geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pagerange/pagerange/
@@ -19,15 +19,15 @@ public PageRange(int from, int to)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | from | Int32 | Başlangıç sayfası sıfır tabanlı dizin. |
-| to | Int32 | Bitiş sayfası sıfır tabanlı dizin. Belgedeki son sayfanın indeksini aşarsa, oluşturma sırasında belgeye sığacak şekilde kesilir. |
+| to | Int32 | Son sayfa sıfır tabanlı dizin. Belgedeki son sayfanın dizinini aşarsa, işleme sırasında belgeye sığacak şekilde kesilir. |
 
 ## Notlar
 
-MaxValue belgedeki son sayfa anlamına gelir.
+MaxValue belgenin son sayfası anlamına gelir.
 
 ## Örnekler
 
-Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
+Sayfaların tam sayfa aralıklarına göre nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

@@ -2,8 +2,8 @@
 title: Font.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: Font Color mülk. Yazı tipinin rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızdaki metin renklerini kolayca özelleştirmek için Font Color özelliğini keşfedin. Canlı, göz alıcı tonlarla okunabilirliği ve estetiği artırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words/font/color/
@@ -24,7 +24,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi formatını belirtin, ardından metin ekleyin.
+// Yazı tipi biçimlendirmesini belirtin, ardından metni ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -35,7 +35,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-Köprü alanının nasıl ekleneceğini gösterir.
+Bir köprü metni alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,15 +43,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Bir köprü ekleyin ve bunu özel biçimlendirmeyle vurgulayın.
-// Köprü, bizi URL'de belirtilen konuma götürecek tıklanabilir bir metin parçası olacaktır.
+// Bir köprü metni ekleyin ve özel biçimlendirmeyle vurgulayın.
+// Köprü metni, URL'de belirtilen yere bizi götürecek tıklanabilir bir metin parçası olacaktır.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", yanlış);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Microsoft Word'deki metindeki bağlantıya Ctrl + sol tıklamak bizi yeni bir web tarayıcı penceresi aracılığıyla URL'ye götürecektir.
+// Microsoft Word'de metindeki bağlantıya Ctrl + sol tıklama bizi yeni bir web tarayıcısı penceresi aracılığıyla URL'ye götürecektir.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

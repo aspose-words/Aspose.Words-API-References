@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.LockContents
 linktitle: LockContents
 articleTitle: LockContents
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag LockContents mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu içeriği düzenlemesini yasaklarSDT  C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTag LockContents özelliğini keşfedin, true olarak ayarlandığında kullanıcıların SDT içeriğini düzenlemesini önleyerek belge bütünlüğünü ve güvenliğini sağlar.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu içeriği düzenlemesini yasaklar**SDT** .
+olarak ayarlandığında`doğru` , bu özellik bir kullanıcının bu içeriği düzenlemesini engelleyecektir**SDT** .
 
 ```csharp
 public bool LockContents { get; set; }
@@ -24,7 +24,7 @@ Yapılandırılmış belge etiketlerine düzenleme kısıtlamalarının nasıl u
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kullanıcının onu doldurmasını isteyen bir metin kutusu görevi gören, düz metin yapılı bir belge etiketi ekleyin.
+// Kullanıcının doldurmasını isteyen bir metin kutusu görevi gören düz metin yapılandırılmış belge etiketi ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // Kullanıcının bu metin kutusunun içeriğini düzenlemesini engellemek için "LockContents" özelliğini "true" olarak ayarlayın.
@@ -34,8 +34,8 @@ builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Kullanıcının şunları yapmasını engellemek için "LockContentControl" özelliğini "true" olarak ayarlayın
-// bu yapılandırılmış belge etiketinin Microsoft Word'de manuel olarak silinmesi.
+// Kullanıcının bunu yapmasını engellemek için "LockContentControl" özelliğini "true" olarak ayarlayın
+// Bu yapılandırılmış belge etiketini Microsoft Word'de manuel olarak siliyorum.
 tag.LockContentControl = true;
 
 builder.InsertParagraph();

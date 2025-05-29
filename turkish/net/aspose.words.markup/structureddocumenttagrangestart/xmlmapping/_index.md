@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart XmlMapping mülk. Bu yapılandırılmış belge etiketi aralığının geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTagRangeStart XmlMapping özelliğinin belgenizin etiket aralığını özel XML verilerine nasıl bağlayarak belge bütünleşmesini geliştirdiğini keşfedin.
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart.XmlMapping property
 
-Bu yapılandırılmış belge etiketi aralığının, geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır.
+Bu yapılandırılmış belge etiketi aralığının, geçerli belgenin özel bir XML bölümündeki XML data eşlemesini temsil eden bir nesne alır.
 
 ```csharp
 public XmlMapping XmlMapping { get; }
@@ -18,7 +18,7 @@ public XmlMapping XmlMapping { get; }
 
 ## Notlar
 
-Kullanabilirsiniz[`SetMapping`](../../xmlmapping/setmapping/) yapılandırılmış bir belge etiketi aralığını XML verileriyle eşlemek için this nesnesinin yöntemi.
+Şunu kullanabilirsiniz:[`SetMapping`](../../xmlmapping/setmapping/) this nesnesinin yapılandırılmış bir belge etiketi aralığını XML verilerine eşleme yöntemi.
 
 ## Örnekler
 
@@ -35,12 +35,12 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// CustomXmlPart'ımızın içeriğini belgede görüntüleyecek yapılandırılmış bir belge etiketi oluşturun.
+// Belgede CustomXmlPart'ımızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun.
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
 // Yapılandırılmış belge etiketimiz için bir eşleme ayarlarsak,
-// CustomXmlPart'ın yalnızca XPath'ın işaret ettiği bir kısmını görüntüleyecektir.
-// Bu XPath ikinci "<text>" içeriğine işaret edecek ilk "<root>" öğesinin öğesi CustomXmlPart'ımızın öğesi.
+// yalnızca XPath'nin işaret ettiği CustomXmlPart'ın bir kısmını görüntüler.
+// Bu XPath, CustomXmlPart'ımızın ilk "<root>" öğesinin ikinci "<text>" öğesinin içeriğine işaret edecektir.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

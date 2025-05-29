@@ -2,15 +2,15 @@
 title: DocumentBuilder.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET
-description: DocumentBuilder Font mülk. Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Mevcut yazı tipi biçimlendirmenize zahmetsizce erişmek ve özelleştirmek için DocumentBuilder Font özelliğini keşfedin. Belgenizin stilini bugün geliştirin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesne döndürür.
 
 ```csharp
 public Font Font { get; }
@@ -20,11 +20,11 @@ public Font Font { get; }
 
 Kullanmak`Font` yazı tipi biçimlendirme özelliklerine erişmek ve bunları değiştirmek için.
 
-Metin eklemeden önce yazı tipi formatını belirtin.
+Metni eklemeden önce yazı tipi biçimlendirmesini belirtin.
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Metin ve tablo görünümü için bazı biçimlendirme seçeneklerini ayarlayın.
+// Metin ve tablo görünümü için bazı biçimlendirme seçenekleri ayarlayın.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -59,9 +59,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Belge oluşturucudaki biçimlendirme seçeneklerini yapılandırmak bunları uygulayacaktır
+// Bir belge oluşturucuda biçimlendirme seçeneklerinin yapılandırılması bunları uygular
 // imlecin bulunduğu geçerli hücreye/satıra,
-// ve ayrıca bu oluşturucu kullanılarak oluşturulan yeni hücreler ve satırlar.
+// ve bu oluşturucu kullanılarak oluşturulan tüm yeni hücreler ve satırlar.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -69,8 +69,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Oluşturucunun biçimlendirme nesnelerini, yapmak üzere olduğumuz yeni satırlar ve hücreler için yeniden yapılandırın.
-// Oluşturucu bunları zaten oluşturulmuş olan ilk satıra uygulamayacaktır, böylece başlık satırı olarak öne çıkacaktır.
+// Oluşturmak üzere olduğumuz yeni satırlar ve hücreler için oluşturucunun biçimlendirme nesnelerini yeniden yapılandırın.
+// Oluşturucu bunları daha önceden oluşturulmuş ilk satıra uygulamayacak, böylece bu satır başlık satırı olarak öne çıkacaktır.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

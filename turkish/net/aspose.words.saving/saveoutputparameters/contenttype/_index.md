@@ -2,8 +2,8 @@
 title: SaveOutputParameters.ContentType
 linktitle: ContentType
 articleTitle: ContentType
-second_title: Aspose.Words for .NET
-description: SaveOutputParameters ContentType mülk. Kaydedilen belgenin türünü tanımlayan İçerik Türü dizesini İnternet Medya Türü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Kaydedilmiş belgeleriniz için İnternet Medya Türünü sağlayan ve doğru dosya tanımlamasını garantileyen SaveOutputParameters ContentType özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -25,12 +25,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Bir belgeyi kaydettikten sonra yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
+// Bir belgeyi kaydettikten sonra, yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// Bu özellik kaydetme formatına bağlı olarak değişir.
+// Bu özellik kayıt biçimine bağlı olarak değişir.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

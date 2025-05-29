@@ -2,8 +2,8 @@
 title: FieldBibliography
 linktitle: FieldBibliography
 articleTitle: FieldBibliography
-second_title: Aspose.Words for .NET
-description: FieldBibliography inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldBibliography oluşturucusunu keşfedin, atıfları zahmetsizce oluşturmak için temel aracınız. Varsayılan oluşturucumuzla araştırmanızı bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbibliography/fieldbibliography/

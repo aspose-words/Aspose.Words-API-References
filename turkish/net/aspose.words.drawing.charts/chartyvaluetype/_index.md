@@ -2,10 +2,10 @@
 title: ChartYValueType Enum
 linktitle: ChartYValueType
 articleTitle: ChartYValueType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueType Sıralama. Bir grafik serisinin Y değerinin türünü belirtmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik serileriniz için Y değer türlerini kolayca tanımlamak ve veri görselleştirme yeteneklerinizi geliştirmek için Aspose.Words.ChartYValueType enum'ını keşfedin.
 type: docs
-weight: 890
+weight: 1210
 url: /tr/net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 ## ChartYValueType enumeration
@@ -20,9 +20,9 @@ public enum ChartYValueType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Double | `0` | Bir Y değerinin çift duyarlıklı kayan noktalı sayı olduğunu belirtir. |
-| DateTime | `1` | Y değerinin günün tarihi ve saati olduğunu belirtir. |
-| Time | `2` | X değerinin günün bir saati olduğunu belirtir. |
+| Double | `0` | Bir Y değerinin çift hassasiyetli kayan noktalı bir sayı olduğunu belirtir. |
+| DateTime | `1` | Bir Y değerinin günün tarihi ve saati olduğunu belirtir. |
+| Time | `2` | Bir X değerinin günün saati olduğunu belirtir. |
 
 ### Ayrıca bakınız
 

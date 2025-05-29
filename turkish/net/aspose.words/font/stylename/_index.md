@@ -2,10 +2,10 @@
 title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
-second_title: Aspose.Words for .NET
-description: Font StyleName mülk. Bu biçimlendirmeye uygulanan karakter stilinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Font StyleName özelliğini keşfedin, projelerinizde gelişmiş metin biçimlendirme ve tasarım esnekliği için karakter stillerini kolayca yönetin.
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
@@ -24,18 +24,18 @@ Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda stillere referans vermenin iki yolu verilmiştir.
-// 1 - Stil adının kullanılması:
+// Aşağıda stillere referans vermenin iki yolu bulunmaktadır.
+// 1 - Stil adını kullanarak:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - Yerleşik bir stil tanımlayıcı kullanma:
+// 2 - Yerleşik bir stil tanımlayıcısı kullanarak:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Bir stilin tüm kullanımlarını diğerine dönüştürün,
-// eski ve yeni stillere referans vermek için yukarıdaki yöntemleri kullanıyoruz.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Bir stilin tüm kullanımlarını diğerine dönüştür,
+// yukarıdaki yöntemleri kullanarak eski ve yeni stillere referans vermek.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

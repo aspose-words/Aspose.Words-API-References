@@ -2,15 +2,15 @@
 title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
 articleTitle: FirstLineIndent
-second_title: Aspose.Words for .NET
-description: ParagraphFormat FirstLineIndent mülk. İlk satır veya asılı girinti için değeri puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki ilk satır veya asılı girintileri kolayca özelleştirmek ve okunabilirliği artırmak için ParagraphFormat FirstLineIndent özelliğinin nasıl kullanılacağını keşfedin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-İlk satır veya asılı girinti için değeri (puan cinsinden) alır veya ayarlar.
+İlk satır veya asılı girinti için değeri (nokta cinsinden) alır veya ayarlar.
 
 İlk satır girintisini ayarlamak için pozitif değerleri, asılı girintiyi ayarlamak için ise negatif değerleri kullanın.
 
@@ -20,7 +20,7 @@ public double FirstLineIndent { get; set; }
 
 ## Örnekler
 
-Belgeye nasıl paragraf ekleneceğini gösterir.
+Belgeye bir paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
-// ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
+// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// ve ardından yeni bir satır başlatır ve yeni bir paragraf ekler.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

@@ -2,15 +2,15 @@
 title: StructuredDocumentTagCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Numaratör nesnelerine kolay erişim için StructuredDocumentTagCollection GetEnumerator metodunu keşfedin ve belge yönetimi verimliliğinizi artırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
 ## StructuredDocumentTagCollection.GetEnumerator method
 
-Bir numaralandırıcı nesnesini döndürür.
+Bir numaralandırıcı nesnesi döndürür.
 
 ```csharp
 public IEnumerator<IStructuredDocumentTag> GetEnumerator()

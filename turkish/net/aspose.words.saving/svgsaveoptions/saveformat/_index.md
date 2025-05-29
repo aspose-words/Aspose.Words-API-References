@@ -2,10 +2,10 @@
 title: SvgSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaSvg  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgeleri SVG formatında zahmetsizce kaydetmek için SvgSaveOptions SaveFormat özelliğini keşfedin. En iyi dosya yönetimiyle iş akışınızı basitleştirin!
 type: docs
-weight: 70
+weight: 100
 url: /tr/net/aspose.words.saving/svgsaveoptions/saveformat/
 ---
 ## SvgSaveOptions.SaveFormat property
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Örnekler
 
-Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
+Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl düzenleneceğini ve yazdırılacağını gösterir.
 
 ```csharp
 public void SvgResourceFolder()
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// .svg'ye dönüştürülürken içerdiği kaynakların URI'lerini sayar ve yazdırır.
+/// .svg'ye dönüştürülürken, içerdiği kaynakların URI'lerini sayar ve yazdırır.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

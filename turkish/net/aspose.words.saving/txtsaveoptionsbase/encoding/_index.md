@@ -2,15 +2,15 @@
 title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET
-description: TxtSaveOptionsBase Encoding mülk. Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değerKodlama.UTF8  C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptionsBase'in Kodlama özelliğiyle metin dışa aktarımlarını nasıl optimize edeceğinizi keşfedin. Sorunsuz UTF-8 metin biçimlendirmesi için kodlama seçeneklerini kolayca ayarlayın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer:**Kodlama.UTF8** .
+Metin biçimlerinde dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer**Kodlama.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,17 +18,17 @@ public Encoding Encoding { get; set; }
 
 ## Örnekler
 
-Bir .txt çıktı belgesi için kodlamanın nasıl ayarlanacağını gösterir.
+.txt çıktı belgesi için kodlamanın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// ASCII karakter kümesinin dışından karakterler içeren bir miktar metin ekleyin.
+// ASCII karakter setinin dışındaki karakterlerle biraz metin ekleyin.
 builder.Write("À È Ì Ò Ù.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // "Kodlama" özelliğinin belgemizin içeriğine uygun kodlamayı içerdiğini doğrulayın.

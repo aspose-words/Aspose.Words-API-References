@@ -2,15 +2,15 @@
 title: ChartTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: ChartTitle Text mülk. Grafik başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik başlığınızı zahmetsizce özelleştirin! Kişiselleştirilmiş bir dokunuş için ChartTitle Text özelliğini ayarlayın veya edinin. Gerektiğinde başlıkları otomatik olarak oluşturun.
 type: docs
-weight: 30
+weight: 50
 url: /tr/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
 
-Grafik başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir.
+Grafik başlığının metnini alır veya ayarlar. Eğer`hükümsüz` veya boş değer belirtilirse, otomatik olarak oluşturulan başlık gösterilecektir.
 
 ```csharp
 public string Text { get; set; }
@@ -22,24 +22,26 @@ Kullanmak[`Show`](../show/) Başlığı gizlemeniz gerekiyorsa bu seçeneği kul
 
 ## Örnekler
 
-Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
+Bir grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belge oluşturucuyla bir grafik şekli ekleyin ve grafiğini alın.
+// Bir belge oluşturucu ile bir grafik şekli ekleyin ve grafiğini alın.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Grafiğimize, grafik alanının üst orta kısmında görünen bir başlık vermek için "Başlık" özelliğini kullanın.
+// Grafiğimize, grafik alanının üst orta kısmında görünecek bir başlık vermek için "Başlık" özelliğini kullanın.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
- // Başlığın görünür olması için "Show" özelliğini "true" olarak ayarlayın.
+ // Başlığı görünür kılmak için "Göster" özelliğini "true" olarak ayarlayın.
 title.Show = true;
 
-// "Overlay" özelliğini "true" olarak ayarlayın Diğer grafik öğelerinin başlıkla örtüşmesine izin vererek daha fazla alan sağlayın
+// "Üst Katman" özelliğini "doğru" olarak ayarlayın. Diğer grafik öğelerine, başlığın üzerine gelmelerine izin vererek daha fazla alan verin
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

@@ -2,15 +2,15 @@
 title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
-second_title: Aspose.Words for .NET
-description: Section ProtectedForForms mülk. Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğunda kullanıcıları yalnızca Microsoft Worddeki form alanlarındaki metni seçebilir ve değiştirebilir C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'deki ProtectedForForms özelliğinin belge güvenliğini nasıl artırdığını ve kullanıcıların yalnızca belirlenen form alanlarını kolayca düzenlemelerine olanak tanıdığını keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğunda, kullanıcıları yalnızca Microsoft Word'deki form alanlarındaki metni seçebilir ve değiştirebilir.
+Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğunda, kullanıcılar yalnızca Microsoft Word'deki form alanlarındaki metni seçebilir ve değiştirebilir.
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -31,14 +31,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Belgedeki her bölüme yazma koruması uygulayın.
+// Belgedeki her bölüme yazma koruması uygula.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
 // İlk bölüm için yazma korumasını kapatın.
 doc.Sections[0].ProtectedForForms = false;
 
-// Bu çıktı belgesinde ilk bölümü serbestçe düzenleyebileceğiz,
-// ve ikinci bölümde sadece form alanının içeriğini düzenleyebileceğiz.
+// Bu çıktı belgesinde, ilk bölümü serbestçe düzenleyebileceğiz,
+// ve sadece ikinci bölümdeki form alanının içeriğini düzenleyebileceğiz.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

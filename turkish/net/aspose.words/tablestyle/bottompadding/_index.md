@@ -2,15 +2,15 @@
 title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
-second_title: Aspose.Words for .NET
-description: TableStyle BottomPadding mülk. Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: TableStyle BottomPadding özelliğini keşfedin, gelişmiş düzen ve okunabilirlik için tablo hücre aralığınızı özelleştirin. Tasarımınızı zahmetsizce optimize edin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
+Tablo hücrelerinin içeriklerinin altına eklenecek boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

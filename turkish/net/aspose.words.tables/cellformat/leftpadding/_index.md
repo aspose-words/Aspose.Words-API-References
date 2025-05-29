@@ -2,15 +2,15 @@
 title: CellFormat.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
-second_title: Aspose.Words for .NET
-description: CellFormat LeftPadding mülk. Hücre içeriğinin soluna eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Hücre içeriğinizin görünümünü ve okunabilirliğini artırmak için noktalardaki sol boşlukları kolayca ayarlamak üzere CellFormat LeftPadding özelliğini keşfedin.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-Hücre içeriğinin soluna eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar.
+Hücrenin içeriğinin soluna eklenecek boşluk miktarını (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir hücre ekleyin ve ardından hücre metni dolgu seçeneklerini yapılandırın.
-// Oluşturucu bu ayarları mevcut hücresine uygulayacak ve daha sonra oluşturulacak yeni hücrelere uygulayacaktır.
+// İkinci bir hücre ekleyin ve ardından hücre metin dolgusu seçeneklerini yapılandırın.
+// Oluşturucu bu ayarları mevcut hücreye uygulayacak ve daha sonra oluşturulan tüm yeni hücrelere uygulayacaktır.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// İlk hücre dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
+// İlk hücre, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// İlk hücre, çıktı belgesinde komşu hücrenin boyutuna uyacak şekilde büyümeye devam edecek.
+// İlk hücre, komşu hücresinin boyutuna uyacak şekilde çıktı belgesinde büyümeye devam edecektir.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

@@ -2,10 +2,10 @@
 title: ImageBinarizationMethod Enum
 linktitle: ImageBinarizationMethod
 articleTitle: ImageBinarizationMethod
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod Sıralama. Görüntüyü ikili hale getirmek için kullanılan yöntemi belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Etkili görüntü ikilileştirme için Aspose.Words.ImageBinarizationMethod enum'unu keşfedin. Gelişmiş tekniklerle belge işlemenizi optimize edin.
 type: docs
-weight: 5200
+weight: 5950
 url: /tr/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -21,11 +21,11 @@ public enum ImageBinarizationMethod
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Threshold | `0` | Eşik yöntemini belirtir. |
-| FloydSteinbergDithering | `1` | Floyd-Steinberg hata dağıtma yöntemini kullanarak renk taklidini belirtir. |
+| FloydSteinbergDithering | `1` | Floyd-Steinberg hata dağıtma yöntemini kullanarak titremeyi belirtir. |
 
 ## Örnekler
 
-Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
+Floyd-Steinberg yöntemi kullanılarak bir TIFF görüntüsünün oluşturulması sırasında TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgeyi TIFF olarak kaydettiğimizde SaveOptions nesnesini iletebiliriz
-// Aspose.Words'ün bu görüntüyü işlerken uygulayacağı renk taklidini ayarlayın.
+// Belgeyi TIFF olarak kaydettiğimizde, SaveOptions nesnesini geçirebiliriz
+// Aspose.Words'ün bu resmi işlerken uygulayacağı titreşimi ayarlayın.
 // "ThresholdForFloydSteinbergDithering" özelliğinin varsayılan değeri 128'dir.
 // Daha yüksek değerler daha koyu görüntüler üretme eğilimindedir.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)

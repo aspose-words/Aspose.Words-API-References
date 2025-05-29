@@ -2,15 +2,15 @@
 title: Node.Range
 linktitle: Range
 articleTitle: Range
-second_title: Aspose.Words for .NET
-description: Node Range mülk. Bir değeri döndürürRange Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Düğüm Aralığı özelliğini keşfedin, gelişmiş içerik yönetimi için düğümünüz içindeki belge segmentini tanımlayan bir Aralık nesnesine zahmetsizce erişin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Bir değeri döndürür[`Range`](../../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne.
+Bir[`Range`](../../range/)bu düğümde bulunan bir belgenin bölümünü temsil eden nesne.
 
 ```csharp
 public Range Range { get; }

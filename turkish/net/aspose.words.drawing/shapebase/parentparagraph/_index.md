@@ -2,15 +2,15 @@
 title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
-second_title: Aspose.Words for .NET
-description: ShapeBase ParentParagraph mülk. Doğrudan üst paragrafı döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase ParentParagraph özelliğini keşfedin; akıcı içerik yönetimi ve gelişmiş organizasyon için hemen üst paragrafa etkili bir şekilde erişin.
 type: docs
-weight: 410
+weight: 430
 url: /tr/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
 
-Doğrudan üst paragrafı döndürür.
+Hemen üst paragrafı döndürür.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -22,7 +22,7 @@ Bir grup şeklinin alt şekilleri ve bir Office Math nesnesinin alt şekilleri i
 
 ## Örnekler
 
-Metin kutusunun nasıl ekleneceğini ve içeriğinin yazı tipinin nasıl ayarlanacağını gösterir.
+Metin kutusu eklemeyi ve içeriğinin yazı tipini ayarlamayı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Metin kutusunu görünürden gizlemek için şeklin "Font" nesnesinin "Gizli" özelliğini "true" olarak ayarlayın
-// ve normalde kaplayacağı alanı daraltın.
-// Metin kutusunu görünür bırakmak için şeklin "Font" nesnesinin "Gizli" özelliğini "false" olarak ayarlayın.
+// Şeklin "Font" nesnesinin "Hidden" özelliğini "true" olarak ayarlayın, böylece metin kutusu görünürden gizlenir
+// ve normalde kaplayacağı alanı daraltır.
+// Şeklin "Font" nesnesinin "Hidden" özelliğini "false" olarak ayarlayın, böylece metin kutusu görünür kalır.
 shape.Font.Hidden = hideShape;
 
-// Şekil görünürse yazı tipi nesnesi aracılığıyla görünümünü değiştireceğiz.
+// Şekil görünür durumdaysa, görünümünü font nesnesi aracılığıyla değiştireceğiz.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Oluşturucuyu metin kutusunun dışına, ana belgeye geri taşıyın.
+// Oluşturucuyu metin kutusundan çıkarıp ana belgeye geri taşı.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

@@ -2,8 +2,8 @@
 title: Chart.AxisZ
 linktitle: AxisZ
 articleTitle: AxisZ
-second_title: Aspose.Words for .NET
-description: Chart AxisZ mülk. Grafiğin Z ekseninin özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Z ekseni özelleştirme seçeneklerini açmak, daha net içgörüler ve etkili sunumlar için veri görselleştirmenizi geliştirmek amacıyla Grafik EkseniZ özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chart/axisz/
@@ -18,7 +18,7 @@ public ChartAxis AxisZ { get; }
 
 ## Örnekler
 
-Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
+Bir grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X ekseni için kategorileri ve Y ekseni için ilgili sayısal değerleri içeren bir grafik serisi ekleyin.
+// X ekseni için kategoriler ve Y ekseni için ilgili sayısal değerler içeren bir grafik serisi ekleyin.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Grafik eksenlerinin görünümlerini değiştirebilecek çeşitli seçenekleri vardır,
-// yönleri, büyük/küçük birim işaretleri ve onay işaretleri gibi.
+// Grafik eksenlerinin görünümünü değiştirebilen çeşitli seçenekleri vardır,
+// yönleri, majör/minör birim tikleri ve tik işaretleri gibi.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -45,10 +45,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -58,9 +60,12 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
-// Sütun grafiklerinde Z ekseni yoktur.
+// Sütun grafiklerin Z ekseni yoktur.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

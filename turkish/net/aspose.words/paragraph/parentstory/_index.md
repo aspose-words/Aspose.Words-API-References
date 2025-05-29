@@ -2,15 +2,15 @@
 title: Paragraph.ParentStory
 linktitle: ParentStory
 articleTitle: ParentStory
-second_title: Aspose.Words for .NET
-description: Paragraph ParentStory mülk. Oluşturulabilecek ana bölüm düzeyindeki öyküyü alır.Body veyaHeaderFooter  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin yapısını Gövde veya Üstbilgi ve Altbilgi seçenekleriyle geliştirerek, üst bölüm düzeyindeki hikayelere kolayca erişmek için Paragraf ÜstHikaye özelliğini keşfedin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-Oluşturulabilecek ana bölüm düzeyindeki öyküyü alır.[`Body`](../../body/) veya[`HeaderFooter`](../../headerfooter/) .
+Ana bölüm düzeyindeki hikayeyi alır.[`Body`](../../body/) veya[`HeaderFooter`](../../headerfooter/) .
 
 ```csharp
 public Story ParentStory { get; }
@@ -23,8 +23,8 @@ public Story ParentStory { get; }
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

@@ -2,15 +2,15 @@
 title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection sınıf. Grafik eksenlerinin bir koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik eksenlerini verimli bir şekilde yönetmek ve belgenizin veri görselleştirmesini geliştirmek için başvuracağınız çözüm olan Aspose.Words.ChartAxisCollection sınıfını keşfedin.
 type: docs
-weight: 640
+weight: 900
 url: /tr/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
 
-Grafik eksenlerinin bir koleksiyonunu temsil eder.
+Bir grafik eksenleri koleksiyonunu temsil eder.
 
 ```csharp
 public class ChartAxisCollection : IEnumerable<ChartAxis>
@@ -27,7 +27,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Örnekler
 
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Birincil ve ikincil Y eksenlerindeki ana ızgara çizgilerini gizleyin.
+// Birincil ve ikincil Y eksenlerindeki ana ızgara çizgilerini gizle.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

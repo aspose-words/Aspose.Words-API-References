@@ -2,15 +2,15 @@
 title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
-second_title: Aspose.Words for .NET
-description: HyphenationOptions HyphenationZone mülk. Sağ kenar boşluğundan sözcükleri tirelemesini istemediğiniz noktanın 1/20si kadar mesafeyi alır veya ayarlar. . Bu özellik için varsayılan değer 360tır 025 inç C#'da.
+second_title: .NET için Aspose.Words
+description: HyphenationZone özelliğiyle metin düzenini optimize edin. Daha temiz, profesyonel belgeler için sağ kenar boşluğundan tireleme mesafesini kontrol edin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-Sağ kenar boşluğundan, sözcükleri tirelemesini istemediğiniz noktanın 1/20'si kadar mesafeyi alır veya ayarlar. . Bu özellik için varsayılan değer 360'tır (0,25 inç).
+Kelimeleri tirelemek istemediğiniz sağ kenar boşluğundan 1/20'lik bir noktadan uzaklığı alır veya ayarlar. Bu özellik için varsayılan değer 360'tır (0,25 inç).
 
 ```csharp
 public int HyphenationZone { get; set; }

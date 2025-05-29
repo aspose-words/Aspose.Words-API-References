@@ -2,15 +2,15 @@
 title: WrapSide Enum
 linktitle: WrapSide
 articleTitle: WrapSide
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.WrapSide Sıralama. Metnin şeklin veya resmin hangi taraflarını saracağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Şekillerin ve resimlerin etrafındaki metin kaydırmayı kontrol etmek, belge düzenini ve okunabilirliği geliştirmek için Aspose.Words.Drawing.WrapSide enum'unu keşfedin.
 type: docs
-weight: 1390
+weight: 1800
 url: /tr/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Metnin şeklin veya resmin hangi taraflarını saracağını belirtir.
+Metnin şeklin veya resmin hangi tarafını/taraflarını saracağını belirtir.
 
 ```csharp
 public enum WrapSide
@@ -20,15 +20,15 @@ public enum WrapSide
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Both | `0` | Belge metni şeklin her iki tarafında da kaydırılır. |
-| Left | `1` | Belge metni yalnızca şeklin sol tarafında kaydırılır. Şeklin sağında metin içermeyen bir alan bulunmaktadır. |
-| Right | `2` | Belge metni yalnızca şeklin sağ tarafında kaydırılır. Şeklin sol tarafında metin içermeyen bir alan bulunmaktadır. |
-| Largest | `3` | Belge metni, şeklin sayfa kenar boşluğundan en uzak olan tarafına kaydırılır ve şeklin diğer tarafında metinsiz alan kalır. |
-| Default | `0` | Varsayılan değer:Both . |
+| Both | `0` | Belge metni şeklin her iki tarafına da sarılır. |
+| Left | `1` | Belge metni yalnızca şeklin sol tarafına sarılır. Şeklin sağında metinsiz bir alan vardır. |
+| Right | `2` | Belge metni yalnızca şeklin sağ tarafına sarılır. Şeklin sol tarafında metinsiz bir alan vardır. |
+| Largest | `3` | Belge metni, şeklin sayfa kenar boşluğundan en uzaktaki tarafına sarılır ve şeklin diğer tarafında metin için boş alan bırakır. |
+| Default | `0` | Varsayılan değerBoth . |
 
 ## Örnekler
 
-Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
+Tüm metin kutusu şekillerinin resim şekilleriyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

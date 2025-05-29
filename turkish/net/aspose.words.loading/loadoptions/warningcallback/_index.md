@@ -2,15 +2,15 @@
 title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: Aspose.Words for .NET
-description: LoadOptions WarningCallback mülk. Yükleme işlemi sırasında veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Veri kaybını önlemek ve biçimlendirme bütünlüğünü sağlamak için yükleme işlemleri sırasında sizi uyaran LoadOptions WarningCallback özelliğini keşfedin.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Yükleme işlemi sırasında, veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır.
+Veri veya biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında, yükleme işlemi sırasında çağrılır.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,17 +18,17 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Örnekler
 
-Belge yükleme sırasında oluşan uyarıların nasıl yazdırılacağını ve saklanacağını gösterir.
+Belge yüklenirken oluşan uyarıların nasıl yazdırılacağını ve saklanacağını gösterir.
 
 ```csharp
 public void LoadOptionsWarningCallback()
 {
-    // Yeni bir LoadOptions nesnesi oluşturun ve onun WarningCallback özelliğini ayarlayın
+    // Yeni bir LoadOptions nesnesi oluşturun ve onun WarningCallback niteliğini ayarlayın
     // IWarningCallback uygulamamızın bir örneği olarak.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Geri aramamız yükleme işlemi sırasında ortaya çıkan tüm uyarıları yazdıracaktır.
+    // Geri çağırmamız yükleme işlemi sırasında ortaya çıkan tüm uyarıları yazdıracaktır.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
@@ -36,7 +36,7 @@ public void LoadOptionsWarningCallback()
 }
 
 /// <summary>
-/// Belge yükleme sırasında ortaya çıkan uyarıları ve ayrıntılarını yazdıran IWarningCallback.
+/// Belge yüklenirken oluşan uyarıları ve ayrıntılarını yazdıran IWarningCallback.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

@@ -2,15 +2,15 @@
 title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
-second_title: Aspose.Words for .NET
-description: Section HeadersFooters mülk. Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sezgisel özellik özelliğimizle bölüm başlıklarına ve altbilgilerine zahmetsizce erişin ve yönetin. Belge organizasyonunu ve sunumunu bugün geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words/section/headersfooters/
 ---
 ## Section.HeadersFooters property
 
-Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar.
+Bölümün başlık ve altbilgi düğümlerine erişim sağlar.
 
 ```csharp
 public HeaderFooterCollection HeadersFooters { get; }
@@ -18,7 +18,7 @@ public HeaderFooterCollection HeadersFooters { get; }
 
 ## Örnekler
 
-Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
+Bir belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -38,15 +38,15 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Bir belgedeki tüm altbilgilerin nasıl silineceğini gösterir.
+Bir belgeden tüm altbilgilerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Her bölümü yineleyin ve her türden altbilgiyi kaldırın.
+// Her bölümü inceleyin ve her türlü altbilgiyi kaldırın.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Üç çeşit altbilgi ve başlık türü vardır.
+    // Üç çeşit altbilgi ve üstbilgi türü vardır.
     // 1 - Bir bölümün yalnızca ilk sayfasında görünen "İlk" üstbilgi/altbilgi.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
@@ -55,7 +55,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - Çift sayfalarda görünen "Çift" üstbilgi/altbilgi.
+     // 3 - Çift sayfalarda görünen "Çift" üstbilgisi/altbilgisi.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

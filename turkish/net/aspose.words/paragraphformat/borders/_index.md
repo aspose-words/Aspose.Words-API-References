@@ -2,15 +2,15 @@
 title: ParagraphFormat.Borders
 linktitle: Borders
 articleTitle: Borders
-second_title: Aspose.Words for .NET
-description: ParagraphFormat Borders mülk. Paragrafın kenarlıklarının toplanmasını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraf kenarlıklarınızı kolayca yönetmek ve özelleştirmek, belge estetiğini ve okunabilirliğini artırmak için ParagraphFormat Borders özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property
 
-Paragrafın kenarlıklarının toplanmasını alır.
+Paragrafın kenarlıklarının koleksiyonunu alır.
 
 ```csharp
 public BorderCollection Borders { get; }

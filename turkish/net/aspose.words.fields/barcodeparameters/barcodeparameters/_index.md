@@ -2,8 +2,8 @@
 title: BarcodeParameters
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
-second_title: Aspose.Words for .NET
-description: BarcodeParameters inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon için BarcodeParameters oluşturucusunu keşfedin. Kullanımı kolay varsayılan oluşturucumuzla verimli barkod yönetiminin kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/barcodeparameters/barcodeparameters/

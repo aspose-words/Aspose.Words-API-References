@@ -2,10 +2,10 @@
 title: CompositeNode.SelectSingleNode
 linktitle: SelectSingleNode
 articleTitle: SelectSingleNode
-second_title: Aspose.Words for .NET
-description: CompositeNode SelectSingleNode yöntem. İlkini seçerNode XPath ifadesiyle eşleşen C#'da.
+second_title: .NET için Aspose.Words
+description: CompositeNode'un SelectSingleNode yönteminin, XPath ifadenizle eşleşen ilk Düğümü nasıl verimli bir şekilde alarak veri işlemeyi kolaylaştırdığını keşfedin.
 type: docs
-weight: 200
+weight: 220
 url: /tr/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,38 +22,38 @@ public Node SelectSingleNode(string xpath)
 
 ### Geri dönüş değeri
 
-İlk[`Node`](../../node/) XPath sorgusuyla eşleşen veya`hükümsüz` eşleşen düğüm bulunamazsa.
+İlk[`Node`](../../node/) XPath sorgusuyla eşleşen veya`hükümsüz` eşleşen bir düğüm bulunamazsa.
 
 ## Notlar
 
-Şu anda yalnızca öğe adlarına sahip ifadeler desteklenmektedir. Öznitelik adlarını kullanan Expressions desteklenmez.
+Şu anda yalnızca öğe adlarına sahip ifadeler destekleniyor. Öznitelik adlarını kullanan Expressions desteklenmiyor.
 
 ## Örnekler
 
-XPath ifadesini kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
+XPath ifadesi kullanılarak belirli düğümlerin nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Bu ifade tüm paragraf düğümlerini çıkaracak,
-// bunlar belgedeki herhangi bir tablo düğümünün alt öğeleridir.
+// Bu ifade tüm paragraf düğümlerini çıkaracaktır,
+// belgedeki herhangi bir tablo düğümünün alt öğeleridir.
 NodeList nodeList = doc.SelectNodes("//Tablo//Paragraf");
 
-// Listeyi bir numaralandırıcıyla yineleyin ve her paragrafın içeriğini tablonun her hücresine yazdırın.
+// Bir numaralandırıcı ile listede dolaş ve tablonun her hücresindeki her paragrafın içeriğini yazdır.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Bu ifade, belgedeki herhangi bir Gövde düğümünün doğrudan alt öğesi olan paragrafları seçecektir.
-nodeList = doc.SelectNodes("//Gelişme paragrafı");
+// Bu ifade, belgedeki herhangi bir Body düğümünün doğrudan alt öğesi olan tüm paragrafları seçecektir.
+nodeList = doc.SelectNodes("//Gövde/Paragraf");
 
-// Listeyi bir dizi gibi ele alabiliriz.
+// Listeyi bir dizi olarak ele alabiliriz.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Yukarıdakiyle aynı ifadenin ilk sonucunu seçmek için SelectSingleNode'u kullanın.
-Node node = doc.SelectSingleNode("//Gelişme paragrafı");
+// Yukarıdaki ifadenin ilk sonucunu seçmek için SelectSingleNode'u kullanın.
+Node node = doc.SelectSingleNode("//Gövde/Paragraf");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());
 ```

@@ -2,8 +2,8 @@
 title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: VbaReferenceCollection Count mülk. Koleksiyondaki VBA referanslarının sayısını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli kodlama için VBA referanslarının toplam sayısını kolayca almak ve yönetmek amacıyla VBA Referans Koleksiyonu Sayısı özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbareferencecollection/count/

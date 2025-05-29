@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportXhtmlTransitional
 linktitle: ExportXhtmlTransitional
 articleTitle: ExportXhtmlTransitional
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportXhtmlTransitional mülk. HTMLye veya MHTMLye kaydederken DOCTYPE bildiriminin yazıp yazmayacağını belirtir. Ne zamandoğru  belgede kök öğeden önce bir DOCTYPE bildirimi yazar. Varsayılan değerYANLIŞ. EPUB veya HTML5e kaydederken Html5  DOCTYPE bildirimi her zaman yazılır C#'da.
+second_title: .NET için Aspose.Words
+description: HTML'nizi HtmlSaveOptions ExportXhtmlTransitional özelliğiyle optimize edin. HTML, MHTML ve EPUB formatlarında daha iyi uyumluluk için DOCTYPE bildirimlerini kontrol edin.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property
 
-HTML'ye veya MHTML'ye kaydederken DOCTYPE bildiriminin yazıp yazmayacağını belirtir. Ne zaman`doğru` , belgede kök öğeden önce bir DOCTYPE bildirimi yazar. Varsayılan değer:`YANLIŞ`. EPUB veya HTML5'e kaydederken (Html5 ) DOCTYPE bildirimi her zaman yazılır.
+HTML veya MHTML'ye kaydederken DOCTYPE bildiriminin yazılıp yazılamayacağını belirtir. `doğru` , kök öğeden önce belgeye bir DOCTYPE bildirimi yazar. Varsayılan değer`YANLIŞ`. EPUB veya HTML5'e kaydederken (Html5 ) DOCTYPE bildirimi her zaman yazılır.
 
 ```csharp
 public bool ExportXhtmlTransitional { get; set; }
@@ -20,15 +20,15 @@ public bool ExportXhtmlTransitional { get; set; }
 
 Aspose.Words bu ayardan bağımsız olarak her zaman iyi biçimlendirilmiş HTML yazar.
 
-Ne zaman`doğru`HTML çıktı belgesinin başlangıcı şöyle görünecektir:
+Ne zaman`doğru`HTML çıktı belgesinin başlangıcı şu şekilde görünecektir:
 
-Aspose.Words, XHTML 1.0 Transitional spesifikasyonuna ( ) göre XHTML çıktısı almayı hedefler ancak çıktı her zaman DTD'ye göre doğrulanmaz. Microsoft Word belgesi içindeki bazı yapıların XHTML şemasına göre doğrulama yapacak bir belgeyle eşleştirilmesi zor veya imkansızdır. Örneğin, XHTML iç içe geçmiş listelere izin vermez (UL, başka bir UL öğesinin içine yerleştirilemez), ancak Microsoft Word belgesinde çok düzeyli listeler oldukça sık görülür.
+Aspose.Words, XHTML 1.0 Transitional spesifikasyonuna göre XHTML çıktısı almayı hedefler, ancak çıktı her zaman DTD'ye göre doğrulanmaz. Microsoft Word belgesinin içindeki bazı yapıları XHTML şemasına göre doğrulanacak bir belgeye eşlemek zor veya imkansızdır. Örneğin, XHTML iç içe listeler (UL başka bir UL öğesinin içine yerleştirilemez) izin vermez, ancak Microsoft Word belgesinde çok düzeyli listeler oldukça sık görülür.
 
 ```csharp
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<!DOCTYPE html 
-      PUBLIC "-//W3C//DTD XHTML 1.0 Geçişli//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+      PUBLIC "-//W3C//DTD XHTML 1.0 Geçiş//TR"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-geçiş.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr" lang="tr">
 ```
 
@@ -51,13 +51,14 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// "ExportXhtmlTransitional" bayrağını "true" olarak ayarlamışsak, belgemiz yalnızca DOCTYPE bildirim başlığını içerecektir.
+// Belgemiz yalnızca "ExportXhtmlTransitional" bayrağını "true" olarak ayarladıysak bir DOCTYPE bildirim başlığı içerecektir.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Geçiş//TR\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-geçiş.dtd\">{newLine}" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));

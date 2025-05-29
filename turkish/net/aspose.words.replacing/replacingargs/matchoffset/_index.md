@@ -2,15 +2,15 @@
 title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
-second_title: Aspose.Words for .NET
-description: ReplacingArgs MatchOffset mülk. Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: ReplacingArgs MatchOffset özelliğini keşfedin, düğümlerinizdeki eşleşmelerin sıfırdan başlayan başlangıç konumunu kolayca bulun ve böylece verimli veri işleme elde edin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır.
+Maçın sıfır tabanlı başlangıç konumunu, maçın başlangıcını içeren düğümün başlangıcından alır.
 
 ```csharp
 public int MatchOffset { get; }
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,7 +51,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Sayısal bul-değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
 /// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback

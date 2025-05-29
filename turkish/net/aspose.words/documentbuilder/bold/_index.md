@@ -2,8 +2,8 @@
 title: DocumentBuilder.Bold
 linktitle: Bold
 articleTitle: Bold
-second_title: Aspose.Words for .NET
-description: DocumentBuilder Bold mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder Bold özelliğini keşfedin. Belgelerinizdeki metin görünürlüğünü ve etkisini artırmak için yazı tiplerini kolayca kalın olarak biçimlendirin. Tasarımınızı bugün güçlendirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/documentbuilder/bold/
@@ -18,14 +18,14 @@ public bool Bold { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
+Bir posta birleştirme yerine bir belge oluşturucu kullanarak MERGEFIELD'ların verilerle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres-mektup birleştirme sırasında veri kaynağındaki aynı isimdeki sütunlardan veri kabul eden bazı MERGEFIELDS'leri ekleyin,
-// ve ardından manuel olarak doldurun.
+// Bir posta birleştirme sırasında bir veri kaynağındaki aynı adlı sütunlardan veri kabul eden bazı MERGEFIELDS'leri ekleyin,
+// ve sonra bunları elle doldurun.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");

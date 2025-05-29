@@ -2,8 +2,8 @@
 title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
-second_title: Aspose.Words for .NET
-description: ListLevel NumberPosition mülk. Liste düzeyi için sayının veya madde işaretinin konumunu nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş liste biçimlendirmesi ve netliği için madde işaretlerini veya numara konumlandırmalarını noktalar halinde kolayca ayarlamak üzere ListLevel NumberPosition özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.lists/listlevel/numberposition/
@@ -18,20 +18,20 @@ public double NumberPosition { get; set; }
 
 ## Notlar
 
-`NumberPosition` paragrafın LeftIndent artı FirstLineIndent'ine karşılık gelir.
+`NumberPosition` paragrafın SolGirintisi artı İlkSatırGirintisi'ne karşılık gelir.
 
 ## Örnekler
 
-DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -52,7 +52,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şeklinde madde işaretli liste sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

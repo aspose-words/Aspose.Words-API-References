@@ -2,17 +2,17 @@
 title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Rendering.ShapeRenderer sınıf. Bir kişiyi işlemek için yöntemler sağlarShape veyaGroupShape bir raster veya vektör görüntüsüne veya bir Graphics nesnesine C#'da.
+second_title: .NET için Aspose.Words
+description: Projeleriniz için Şekilleri ve GrupŞekillerini yüksek kaliteli raster veya vektör görüntülerine zahmetsizce dönüştürmek için Aspose.Words.Rendering.ShapeRenderer'ı keşfedin.
 type: docs
-weight: 4590
+weight: 5320
 url: /tr/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Bir kişiyi işlemek için yöntemler sağlar[`Shape`](../../aspose.words.drawing/shape/) veya[`GroupShape`](../../aspose.words.drawing/groupshape/) bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+Bir bireyi işlemek için yöntemler sağlar[`Shape`](../../aspose.words.drawing/shape/) veya[`GroupShape`](../../aspose.words.drawing/groupshape/) bir raster veya vektör görüntüye veya bir Grafik nesnesine.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Şekillerle Çalışmak](https://docs.aspose.com/words/net/working-with-shapes/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Working Şekillerle](https://docs.aspose.com/words/net/working-with-shapes/) belgeleme makalesi.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -28,9 +28,9 @@ public class ShapeRenderer : NodeRendererBase
 
 | İsim | Tanım |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Şeklin gerçek sınırlarını nokta cinsinden alır. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Şeklin opak sınırlarını nokta cinsinden alır. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Şeklin gerçek boyutunu nokta cinsinden alır. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Şeklin gerçek sınırlarını noktalar halinde alır. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Şeklin opak sınırlarını noktalar halinde alır. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Şeklin gerçek boyutunu noktalar halinde alır. |
 
 ## yöntemler
 
@@ -42,14 +42,16 @@ public class ShapeRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Şekli birGraphics nesnesi belirtilen bir ölçeğe göre. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Şekli birGraphics nesnesini belirtilen bir boyuta ayarlayın. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Şekli bir görüntüye dönüştürür ve bir akışa kaydeder. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Şekli bir SVG görüntüsüne dönüştürür ve bir akışa kaydeder. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Şekli bir görüntüye dönüştürür ve bir dosyaya kaydeder. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Şekli bir SVG görüntüsüne dönüştürür ve bir dosyaya kaydeder. |
 
 ## Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl işleneceğini ve Windows Form kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -59,8 +61,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
+    // Aşağıda, bir şekli Graphics nesnesine işlemek için "ShapeRenderer" sınıfını kullanmanın iki yolu bulunmaktadır.
+    // 1 - Bir grafikle bir şekil oluştur ve onu belirli bir ölçeğe göre işle.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -71,7 +73,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
+    // 2 - Bir şekil grubu oluştur ve onu belirli bir boyuta getir.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -101,7 +103,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Şekillerin bir listesini oluşturur ve görüntüler.
+/// Şekillerin listesini oluşturur ve görüntüler.
 /// </summary>
 private class ShapeForm : Form
 {

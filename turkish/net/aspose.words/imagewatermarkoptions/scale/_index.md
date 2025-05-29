@@ -2,15 +2,15 @@
 title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
-second_title: Aspose.Words for .NET
-description: ImageWatermarkOptions Scale mülk. Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0dır  auto C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi filigranlama için görüntü ölçeklemesini kolayca ayarlamak üzere ImageWatermarkOptions Scale özelliğini keşfedin. Sorunsuz entegrasyon için varsayılan değer 0 otomatiktir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0'dır - auto.
+Görüntünün bir kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0'dır - auto.
 
 ```csharp
 public double Scale { get; set; }
@@ -20,30 +20,35 @@ public double Scale { get; set; }
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
+| ArgumentOutOfRangeException | Argüman geçerli değerler aralığının dışında olduğunda fırlatılır. |
 
 ## Notlar
 
-Geçerli değerler 0 ila 65,5 (dahil) arasındadır.
+Geçerli değerler 0 ile 65,5 arasındadır.
 
-Otomatik ölçeklendirme, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine göre ölçeklendirileceği anlamına gelir.
+Otomatik ölçekleme, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine ölçekleneceği anlamına gelir.
 
 ## Örnekler
 
-Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını gösterir.
+Yerel dosya sistemindeki bir görüntüden filigranın nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-            // Görüntü filigranının görünümünü ImageWatermarkOptions nesnesiyle değiştirin,
-            // ardından bir görüntü dosyasından filigran oluştururken bunu iletin.
+            // Resim filigranının görünümünü ImageWatermarkOptions nesnesiyle değiştirin,
+            // daha sonra bir resim dosyasından filigran oluştururken bunu geçirin.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Resim eklemek için farklı seçeneklerimiz var:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.TableWidthOutputMode
 linktitle: TableWidthOutputMode
 articleTitle: TableWidthOutputMode
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions TableWidthOutputMode mülk. Tablo satır ve hücre genişliklerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerAll  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions TableWidthOutputMode ile HTML dışa aktarımlarınızı optimize edin. Sorunsuz MHTML ve EPUB biçimlendirmesi için tablo satır ve hücre genişliklerini kontrol edin.
 type: docs
-weight: 460
+weight: 480
 url: /tr/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-Tablo, satır ve hücre genişliklerinin HTML, MHTML veya EPUB'a nasıl aktarıldığını kontrol eder. Varsayılan değer:All .
+Tablo, satır ve hücre genişliklerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını kontrol eder. Varsayılan değerAll .
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -18,21 +18,21 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ## Notlar
 
-HTML formatında tablo, satır ve hücre elemanları (**&lt;tablo&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) 'nin genişlikleri bağıl (yüzde) veya mutlak birimlerle belirtilebilir. Aspose.Words'teki bir belgede tabloların, satırların ve hücrelerin genişlikleri göreceli veya mutlak birimler kullanılarak olarak belirtilebilir.
+HTML biçiminde tablo, satır ve hücre elements (**&lt;tablo&gt;** ,**&lt;tr&gt;** ,**&lt;inci&gt;** ,**&lt;td&gt;**) genişlikleri ya bağıl (yüzde) ya da mutlak birimlerle belirtilebilir. Aspose'daki bir belgede, kelimeler, tablolar, satırlar ve hücrelerin genişlikleri de bağıl ya da mutlak birimler kullanılarak belirtilebilir.
 
-Aspose.Words kullanarak bir belgeyi HTML'ye dönüştürdüğünüzde, ortaya çıkan belgenin görsel aracıda (örneğin bir tarayıcı veya görüntüleyici) nasıl görüntüleneceğini etkilemek için nasıl tablo, satır ve hücre genişliklerinin dışa aktarıldığını kontrol etmek isteyebilirsiniz.
+Bir belgeyi Aspose.Words kullanarak HTML'e dönüştürdüğünüzde, ortaya çıkan belgenin görsel aracıda (örneğin bir tarayıcı veya görüntüleyici) nasıl görüntüleneceğini etkilemek için tablo, satır ve hücre genişliklerinin nasıl dışa aktarılacağını kontrol etmek isteyebilirsiniz.
 
-Hedef belgeye hangi tablo genişliği değerlerinin aktarılacağını belirtmek için bu özelliği filtre olarak kullanın. Örneğin, bir belgeyi EPUB'a dönüştürüyorsanız ve belgeyi mobil bir okuma cihazında görüntülemeyi düşünüyorsanız, muhtemelen bundan kaçınmak istersiniz mutlak genişlik değerlerini dışa aktarma. Bunu yapmak için çıkış modunu belirtmeniz gerekirRelativeOnly veyaNone böylece mobil cihazdaki izleyici, tabloyu ekranın genişliğine mümkün olan en iyi şekilde uyacak şekilde düzenleyebilir.
+Bu özelliği, hedef belgeye hangi tablo genişlikleri değerlerinin aktarılacağını belirtmek için bir filtre olarak kullanın. Örneğin, bir belgeyi EPUB'a dönüştürüyorsanız ve belgeyi mobil bir okuma aygıtında görüntülemeyi düşünüyorsanız, o zaman muhtemelen mutlak genişlik değerlerini dışa aktarmaktan kaçınmak istersiniz. Bunu yapmak için, çıktı modunu belirtmeniz gerekirRelativeOnly veyaNone böylece mobil cihazdaki izleyici tabloyu ekran genişliğine olabildiğince uygun şekilde yerleştirebilir.
 
 ## Örnekler
 
-.html çıktısında negatif girintilerin nasıl korunacağını gösterir.
+Çıktı .html'de negatif girintilerin nasıl korunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Negatif girintili bir tablo ekleyin, bu tabloyu sol sayfa sınırının ötesine itecek.
+// Negatif girintili bir tablo ekle, bu tabloyu sol sayfa sınırının ötesine itecektir.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Tabloyu sağa itecek pozitif girintili bir tablo ekleyin.
+// Tabloyu sağa itecek pozitif girintili bir tablo ekle.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -54,9 +54,9 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words yalnızca negatif girintileri korur
+// Bir belgeyi HTML'e kaydettiğimizde, Aspose.Words yalnızca negatif girintileri koruyacaktır
 // "AllowNegativeIndent" bayrağını ayarlarsak ilk tabloya uyguladığımız gibi
-// SaveOptions nesnesinde "true" değerine geçeceğiz.
+// "true"ya geçireceğimiz SaveOptions nesnesinde.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

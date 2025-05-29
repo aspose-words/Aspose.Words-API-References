@@ -2,15 +2,15 @@
 title: FontSettings.SubstitutionSettings
 linktitle: SubstitutionSettings
 articleTitle: SubstitutionSettings
-second_title: Aspose.Words for .NET
-description: FontSettings SubstitutionSettings mülk. Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Font değiştirme işleminizi optimize etmek ve metin görüntüleme kalitesini zahmetsizce artırmak için FontSettings SubstitutionSettings özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar.
+Font değiştirme mekanizmasıyla ilgili ayarlar.
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }
@@ -18,13 +18,13 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ## Örnekler
 
-Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
+Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi ikamelerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Varsayılan olarak boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
+// Varsayılan olarak, boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Windows Yazı Tipleri dizininde bulunan bir yazı tipini, bulunmayan bir yazı tipinin yerine ayarlayın.
+// Windows Yazı Tipleri dizininde var olan bir yazı tipini, olmayan bir yazı tipinin yerine kullan.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -55,18 +55,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternatif olarak, karşılık gelen klasörün yazı tipini içerdiği bir klasör yazı tipi kaynağı ekleyebiliriz.
+// Alternatif olarak, yazı tipini içeren ilgili klasörün bulunduğu bir yazı tipi kaynağı klasörü ekleyebiliriz.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Yazı tipi kaynaklarını sıfırlamak bizi yine de sistem yazı tipi kaynağı ve yedeklerimizle baş başa bırakır.
+// Yazı tipi kaynaklarını sıfırlamak bize sistem yazı tipi kaynağının yanı sıra yedeklerimizi de bırakır.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Ayrıca bakınız

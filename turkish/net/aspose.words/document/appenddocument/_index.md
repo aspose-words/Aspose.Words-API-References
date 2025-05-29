@@ -2,10 +2,10 @@
 title: Document.AppendDocument
 linktitle: AppendDocument
 articleTitle: AppendDocument
-second_title: Aspose.Words for .NET
-description: Document AppendDocument yöntem. Belirtilen belgeyi bu belgenin sonuna ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Belge Ekleme yöntemimizle belgeleri zahmetsizce ekleyin. İçeriği mevcut dosyalarınıza sorunsuz bir şekilde entegre ederek iş akışınızı geliştirin.
 type: docs
-weight: 530
+weight: 570
 url: /tr/net/aspose.words/document/appenddocument/
 ---
 ## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
@@ -19,7 +19,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcDoc | Document | Eklenecek belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
 
 ## Örnekler
 
@@ -32,7 +32,7 @@ srcDoc.FirstSection.Body.AppendParagraph("Source document text. ");
 Document dstDoc = new Document();
 dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
 
-// Kaynak belgeyi, biçimlendirmesini koruyarak hedef belgeye ekleyin,
+// Kaynak belgeyi biçimlendirmesini koruyarak hedef belgeye ekle,
 // daha sonra kaynak belgeyi yerel dosya sistemine kaydedin.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
@@ -48,8 +48,8 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Template Document");
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Some content here");
-// Tüm şifrelenmemiş belgeleri .doc uzantılı olarak ekle
-// yerel dosya sistemi dizinden temel belgeye.
+// Şifrelenmemiş tüm belgeleri .doc uzantısıyla ekle
+// yerel dosya sistemi dizinimizden temel belgeye.
 List<string> docFiles = Directory.GetFiles(MyDir, "*.doc").Where(item => item.EndsWith(".doc")).ToList();
 foreach (string fileName in docFiles)
 {
@@ -85,21 +85,21 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcDoc | Document | Eklenecek belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
-| importFormatOptions | ImportFormatOptions | Sonuç belgesinin biçimlendirmesini etkileyen seçenekleri belirtmenize olanak sağlar. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| importFormatOptions | ImportFormatOptions | Sonuç belgesinin biçimlendirmesini etkileyen seçeneklerin belirlenmesine olanak tanır. |
 
 ## Örnekler
 
-Bir belgenin kopyasını kendisine eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
+Bir belgenin klonunu kendisine eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");
 Document dstDoc = new Document(MyDir + "List item.docx");
 
-// Liste stilleri arasında çakışma varsa kaynak belgenin liste formatını uygulayın.
-// Liste numaralarını hedef belgeye aktarmamak için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
-// "KeepSourceNumbering" özelliğini "true" olarak ayarlayarak tüm çakışmaları içe aktarın
-// kaynak belgedekiyle aynı görünüme sahip stil numaralandırmasını listeleyin.
+// Liste stilleri arasında bir çakışma varsa, kaynak belgenin liste biçimini uygula.
+// Hedef belgeye herhangi bir liste numarası aktarılmaması için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
+// "KeepSourceNumbering" özelliğini "true" olarak ayarlayın, tüm çakışanları içe aktarın
+// kaynak belgedeki görünümüyle aynı olan liste stili numaralandırma.
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.MoveToDocumentEnd();
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -111,7 +111,7 @@ builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 dstDoc.UpdateListLabels();
 ```
 
-Belge eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
+Bir belge eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
 
 ```csharp
 Document dstDoc = new Document();
@@ -128,10 +128,10 @@ for (int i = 1; i <= 15; i++)
 
 Document attachDoc = (Document)dstDoc.Clone(true);
 
-// Liste stilleri arasında çakışma varsa kaynak belgenin liste formatını uygulayın.
-// Liste numaralarını hedef belgeye aktarmamak için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
-// "KeepSourceNumbering" özelliğini "true" olarak ayarlayarak tüm çakışmaları içe aktarın
-// kaynak belgedekiyle aynı görünüme sahip stil numaralandırmasını listeleyin.
+// Liste stilleri arasında bir çakışma varsa, kaynak belgenin liste biçimini uygula.
+// Hedef belgeye herhangi bir liste numarası aktarılmaması için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
+// "KeepSourceNumbering" özelliğini "true" olarak ayarlayın, tüm çakışanları içe aktarın
+// kaynak belgedeki görünümüyle aynı olan liste stili numaralandırma.
 ImportFormatOptions importOptions = new ImportFormatOptions();
 importOptions.KeepSourceNumbering = keepSourceNumbering;
 
@@ -144,23 +144,23 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.InsertDocumentAndResolveStyles.docx"
 Bir belge eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
 
 ```csharp
-// Özel stilde metin içeren bir belge yükleyin ve kopyalayın.
+// Özel bir stilde metin içeren bir belge yükleyin ve kopyalayın.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Artık her biri "CustomStyle" adında aynı stile sahip iki belgemiz var.
-// Stillerden birini diğerinden ayırmak için metin rengini değiştirin.
+// Şimdi her biri "CustomStyle" adında aynı stile sahip iki belgemiz var.
+// Bir stilin diğerinden farklı olmasını sağlamak için metin rengini değiştirin.
 dstDoc.Styles["CustomStyle"].Font.Color = Color.DarkRed;
 
-// Liste stilleri arasında çakışma varsa kaynak belgenin liste formatını uygulayın.
-// Liste numaralarını hedef belgeye aktarmamak için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
-// "KeepSourceNumbering" özelliğini "true" olarak ayarlayarak tüm çakışmaları içe aktarın
-// kaynak belgedekiyle aynı görünüme sahip stil numaralandırmasını listeleyin.
+// Liste stilleri arasında bir çakışma varsa, kaynak belgenin liste biçimini uygula.
+// Hedef belgeye herhangi bir liste numarası aktarılmaması için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
+// "KeepSourceNumbering" özelliğini "true" olarak ayarlayın, tüm çakışanları içe aktarın
+// kaynak belgedeki görünümüyle aynı olan liste stili numaralandırma.
 ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = keepSourceNumbering;
 
-// Aynı adı paylaşan farklı stillere sahip iki belgenin birleştirilmesi stil çatışmasına neden olur.
-// Bu çakışmayı çözmek için belgeleri eklerken bir içe aktarma formatı modu belirtebiliriz.
+// Aynı adı paylaşan farklı stillere sahip iki belgenin birleştirilmesi stil çakışmasına neden olur.
+// Bu çakışmayı çözmek için belgeleri eklerken bir içe aktarma biçim modu belirleyebiliriz.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepDifferentStyles, options);
 dstDoc.UpdateListLabels();
 

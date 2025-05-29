@@ -2,15 +2,15 @@
 title: FieldAdvance.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
-second_title: Aspose.Words for .NET
-description: FieldAdvance HorizontalPosition mülk. Alanı takip eden metnin sütunun çerçevenin veya metin kutusunun sol kenarından yatay olarak taşınması gereken nokta sayısını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldAdvance Yatay Pozisyon özelliğini keşfedin, belgelerinizde hassas düzen kontrolü için metin konumlandırmasını kolayca ayarlayın. Biçimlendirmenizi bugün geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-Alanı takip eden metnin sütunun, çerçevenin veya metin kutusunun sol kenarından yatay olarak taşınması gereken nokta sayısını alır veya ayarlar.
+Alanı takip eden metnin yatay olarak sütun, çerçeve veya metin kutusunun sol kenarından hareket ettirileceği nokta sayısını alır veya ayarlar.
 
 ```csharp
 public string HorizontalPosition { get; set; }
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Aşağıda, onu takip eden metnin konumunu ayarlamak için ADVANCE alanını kullanmanın iki yolu verilmiştir.
+// Aşağıda, ADVANCE alanını takip eden metnin konumunu ayarlamak için iki yol gösterilmektedir.
 // ADVANCE alanının etkileri paragraf bitene kadar uygulanmaya devam eder,
 // veya başka bir ADVANCE alanı ofset/koordinat değerlerini günceller.
-// 1 - Bir yön ofseti belirtin:
+// 1 - Yönsel bir ofset belirtin:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Metni koordinatlarla belirtilen konuma taşıyın:
+// 2 - Metni koordinatlarla belirtilen bir konuma taşı:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

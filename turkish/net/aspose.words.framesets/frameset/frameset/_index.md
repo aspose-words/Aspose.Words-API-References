@@ -2,8 +2,8 @@
 title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
-second_title: Aspose.Words for .NET
-description: Frameset inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Çok yönlü çerçeve seti oluşturucumuzla zahmetsizce çarpıcı çerçeveler yaratın. Kusursuz özelleştirmenin tadını çıkarın ve web tasarımınızı bugün yükseltin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.framesets/frameset/frameset/

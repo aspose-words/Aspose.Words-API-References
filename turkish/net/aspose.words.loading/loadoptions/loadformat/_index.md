@@ -2,15 +2,15 @@
 title: LoadOptions.LoadFormat
 linktitle: LoadFormat
 articleTitle: LoadFormat
-second_title: Aspose.Words for .NET
-description: LoadOptions LoadFormat mülk. Yüklenecek belgenin biçimini belirtir. VarsayılanAuto  C#'da.
+second_title: .NET için Aspose.Words
+description: Belge biçimlerini kolayca belirtmek için LoadOptions LoadFormat özelliğini keşfedin. Sorunsuz performans için varsayılan Otomatik ayarıyla yüklemeyi optimize edin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.loading/loadoptions/loadformat/
 ---
 ## LoadOptions.LoadFormat property
 
-Yüklenecek belgenin biçimini belirtir. Varsayılan:Auto .
+Yüklenecek belgenin biçimini belirtir. VarsayılanAuto .
 
 ```csharp
 public LoadFormat LoadFormat { get; set; }
@@ -18,15 +18,15 @@ public LoadFormat LoadFormat { get; set; }
 
 ## Notlar
 
-belirtmeniz önerilir.Auto değerini girin ve Aspose.Words'ün dosya formatını otomatik olarak tespit etmesine izin verin . Yüklemek üzere olduğunuz belgenin formatını biliyorsanız, format 'yi açıkça belirleyebilirsiniz ve bu, formatın otomatik olarak algılanmasıyla ilişkili ek yük nedeniyle yükleme süresini biraz azaltır. Açık bir yükleme formatı belirtirseniz, o da açılacaktır. yanlış olduğu anlaşılırsa, otomatik algılama başlatılacak ve dosyayı yüklemek için Second denemesi yapılacaktır.
+Aşağıdakileri belirtmeniz önerilir:Auto değerini ve Aspose.Words'ün dosya biçimini otomatik olarak algılamasına izin verin. Yüklemek üzere olduğunuz belgenin biçimini biliyorsanız, format 'yi açıkça belirtebilirsiniz ve bu, biçimi otomatik olarak algılamayla ilişkili ek yük nedeniyle yükleme süresini biraz azaltacaktır. Açık bir yükleme biçimi belirtirseniz ve bunun yanlış olduğu ortaya çıkarsa, otomatik algılama çağrılacak ve dosyayı yüklemek için ikinci bir denemesi yapılacaktır.
 
 ## Örnekler
 
-Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
+Bir HTML belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
 ```csharp
-// Göreli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
-// resim farklı bir konumdayken. Bu durumda, göreceli URI'yi mutlak bir URI'ye dönüştürmemiz gerekecek.
+// Göreceli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
+// görüntü farklı bir konumdayken. Bu durumda, bağıl URI'yi mutlak olana dönüştürmemiz gerekecektir.
  // HtmlLoadOptions nesnesini kullanarak bir temel URI sağlayabiliriz.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
@@ -34,7 +34,7 @@ Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Görüntü .html girişinde bozuk olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
+// Giriş .html'deki resim bozulmuş olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 

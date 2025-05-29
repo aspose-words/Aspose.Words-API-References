@@ -2,8 +2,8 @@
 title: AxisBound.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET
-description: AxisBound ToString yöntem. Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Nesnenizin değerinin daha iyi okunabilirlik için açık ve kullanıcı dostu bir dize gösterimini üreten AxisBound ToString yöntemini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/axisbound/tostring/

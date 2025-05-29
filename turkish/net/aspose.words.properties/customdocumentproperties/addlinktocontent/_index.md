@@ -2,15 +2,15 @@
 title: CustomDocumentProperties.AddLinkToContent
 linktitle: AddLinkToContent
 articleTitle: AddLinkToContent
-second_title: Aspose.Words for .NET
-description: CustomDocumentProperties AddLinkToContent yöntem. İçeriğe bağlı yeni bir özel belge özelliği oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge yönetimi için bağlantılı özel belge özelliklerini zahmetsizce oluşturmak üzere CustomDocumentProperties AddLinkToContent yöntemini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-İçeriğe bağlı yeni bir özel belge özelliği oluşturur.
+İçerikle bağlantılı yeni bir özel belge özelliği oluşturur.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -19,7 +19,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | name | String | Mülkün adı. |
-| linkSource | String | Mülkiyetin kaynağı. |
+| linkSource | String | Mülkün kaynağı. |
 
 ### Geri dönüş değeri
 
@@ -37,8 +37,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Yeni bir özel özelliği bir yer imine bağlayın. Bu mülkün değeri
-// "LinkSource" üyesinde başvuruda bulunduğu yer iminin içeriği olacaktır.
+// Yeni bir özel özelliği bir yer işaretine bağlayın. Bu özelliğin değeri
+// "LinkSource" üyesinde referans verdiği yer iminin içeriği olacaktır.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

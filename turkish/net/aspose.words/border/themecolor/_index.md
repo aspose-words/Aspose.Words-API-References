@@ -2,15 +2,15 @@
 title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
-second_title: Aspose.Words for .NET
-description: Border ThemeColor mülk. Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Renk düzeninizi özelleştirmek ve tasarımınızı canlı, özel temalarla geliştirmek için Border ThemeColor özelliğini nasıl kullanacağınızı keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/border/themecolor/
 ---
 ## Border.ThemeColor property
 
-Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.
+Bu Border nesnesiyle ilişkilendirilmiş uygulanan renk şemasındaki tema rengini alır veya ayarlar.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }

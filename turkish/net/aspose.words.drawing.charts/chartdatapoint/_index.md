@@ -2,17 +2,17 @@
 title: ChartDataPoint Class
 linktitle: ChartDataPoint
 articleTitle: ChartDataPoint
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint sınıf. Grafikteki tek bir veri noktasının formatını belirtmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Tek tek grafik veri noktalarını kolayca biçimlendirmek ve veri görselleştirmenizi hassasiyetle geliştirmek için Aspose.Words.Drawing.Charts.ChartDataPoint sınıfını keşfedin.
 type: docs
-weight: 690
+weight: 970
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Grafikteki tek bir veri noktasının formatını belirtmeye izin verir.
+Grafikteki tek bir veri noktasının biçimlendirmesini belirtmeye olanak tanır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Grafiklerle Çalışma](https://docs.aspose.com/words/net/working-with-charts/) belgeleme makalesi.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -22,26 +22,26 @@ public class ChartDataPoint : IChartDataPoint
 
 | İsim | Tanım |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir. |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif, özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir. |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Kabarcık grafiğindeki kabarcıklara 3 boyutlu efekt uygulanıp uygulanmayacağını belirtir. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif özelliğin ayarlanmadığı ve herhangi bir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca pasta grafikleri için geçerlidir. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Bu veri noktasının dolgu ve satır biçimlendirmesine erişim sağlar. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Bu nesnenin biçimlendirmeyi uyguladığı veri noktasının dizini. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Değer negatifse üst öğenin renklerini tersine çevirip çevirmeyeceğini belirtir. |
 | [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Grafik veri işaretçisini belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Bu veri noktasının biçimini temizler. Özellikler, ana seride tanımlanan varsayılan değerlere ayarlanır. |
 
 ## Notlar
 
-Bir seride,`ChartDataPoint` nesnenin bir üyesidir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir`ChartDataPoint` Her nokta için nesne.
+Bir dizide,`ChartDataPoint` nesne bir üyedir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) bir içerir`ChartDataPoint` her nokta için nesne.
 
 ## Örnekler
 
-Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
+Bir çizgi grafiğinde veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ChartDataPoint()
@@ -57,14 +57,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
-    foreach (ChartSeries series in chart.Series) 
+    // Grafiğin veri noktalarını elmas şekilleri şeklinde göstererek vurgulayın.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
+    // İlk serinin veri noktalarının, değer negatif olduğunda renklerinin tersine dönmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -73,17 +73,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için formatı tek tek temizleyebiliriz.
+    dataPoint.ClearFormat();
+
+    // Ayrıca bir dizi veri noktasını aynı anda soyabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Bir diziye bir dizi veri noktası uygular.
+/// Bir diziye belirli sayıda veri noktası uygular.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

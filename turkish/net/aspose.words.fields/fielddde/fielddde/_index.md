@@ -2,8 +2,8 @@
 title: FieldDde
 linktitle: FieldDde
 articleTitle: FieldDde
-second_title: Aspose.Words for .NET
-description: FieldDde inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon ve verimli kodlama için başvuracağınız çözüm olan FieldDde oluşturucusunu keşfedin. Projeleriniz için güçlü özellikleri bugünden açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddde/fielddde/

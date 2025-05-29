@@ -2,8 +2,8 @@
 title: ConditionalStyle.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: ConditionalStyle Equals yöntem. Bu koşullu stili belirtilen nesneyle karşılaştırır C#'da.
+second_title: .NET için Aspose.Words
+description: ConditionalStyle Equals yönteminin stilleri nasıl etkili bir şekilde karşılaştırdığını ve projeleriniz için hassas koşullu biçimlendirme sağladığını keşfedin. Kodlama verimliliğinizi artırın!
 type: docs
 weight: 110
 url: /tr/net/aspose.words/conditionalstyle/equals/

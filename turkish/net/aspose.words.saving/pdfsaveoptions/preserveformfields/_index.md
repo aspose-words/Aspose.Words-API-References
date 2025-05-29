@@ -2,15 +2,15 @@
 title: PdfSaveOptions.PreserveFormFields
 linktitle: PreserveFormFields
 articleTitle: PreserveFormFields
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions PreserveFormFields mülk. Microsoft Word form alanlarının PDFdeki form alanları olarak mı korunacağını yoksa metne mi dönüştürüleceğini belirtir. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: PdfSaveOptions' PreserveFormFields özelliğinin PDF'lerdeki Microsoft Word form alanlarını nasıl koruduğunu veya bunları metne nasıl dönüştürdüğünü keşfedin. Belge kalitenizi artırın!
 type: docs
-weight: 270
+weight: 280
 url: /tr/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
 ## PdfSaveOptions.PreserveFormFields property
 
-Microsoft Word form alanlarının PDF'deki form alanları olarak mı korunacağını yoksa metne mi dönüştürüleceğini belirtir. Varsayılan:`YANLIŞ` .
+Microsoft Word form alanlarının PDF'de form alanları olarak korunacağını veya metne dönüştürüleceğini belirtir. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool PreserveFormFields { get; set; }
@@ -18,21 +18,21 @@ public bool PreserveFormFields { get; set; }
 
 ## Notlar
 
-Microsoft Word form alanları metin girişi, açılır menü ve onay kutusu kontrollerini içerir.
+Microsoft Word form alanları metin girişi, açılır liste ve onay kutusu denetimlerini içerir.
 
-olarak ayarlandığında`YANLIŞ` , bu alanlar metin olarak PDF'ye aktarılacaktır. olarak ayarlandığında`doğru`, bu alanlar PDF form alanları olarak dışa aktarılacaktır.
+Ayarlandığında`YANLIŞ` , bu alanlar PDF'ye metin olarak aktarılacaktır. olarak ayarlandığında`doğru`, bu alanlar PDF form alanları olarak dışarı aktarılacaktır.
 
-Form alanlarını PDF'ye form alanları olarak dışa aktarırken, PDF form alanları Microsoft Word form alanlarının tüm özelliklerini desteklemediğinden bazı biçimlendirme kayıpları meydana gelebilir.
+Form alanlarını PDF'ye form alanı olarak aktarırken bazı biçimlendirme kayıpları meydana gelebilir, çünkü PDF form alanları Microsoft Word form alanlarının tüm özelliklerini desteklemez.
 
-Ayrıca, Microsoft Word'deki düzenlenebilir formlar satır içi nesneler olduğundan, çıktı boyutu içerik boyutuna bağlıdır.
+Ayrıca çıktı boyutu içerik boyutuna bağlıdır çünkü Microsoft Word'deki düzenlenebilir formlar satır içi nesnelerdir.
 
-Düzenlenebilir formlar PDF/A uyumluluğu nedeniyle yasaktır.`YANLIŞ` PDF/A'ya kaydederken otomatik olarak değeri kullanılacaktır.
+PDF/A uyumluluğu nedeniyle düzenlenebilir formlar yasaktır.`YANLIŞ` PDF/A'ya kaydederken değer otomatik olarak kullanılacaktır .
 
-PDF/UA'ya kaydederken form alanları desteklenmez.`YANLIŞ` değer otomatik olarak kullanılacaktır.
+PDF/UA'ya kaydederken form alanları desteklenmiyor.`YANLIŞ` değer otomatik olarak kullanılacaktır.
 
 ## Örnekler
 
-Kaydet yöntemini ve PdfSaveOptions sınıfını kullanarak bir belgenin PDF biçiminde nasıl kaydedileceğini gösterir.
+Save metodu ve PdfSaveOptions sınıfı kullanılarak bir belgenin PDF formatına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,16 +40,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Kullanıcının bir dizi dizeden bir seçenek seçmesine olanak tanıyacak bir açılan kutu ekleyin.
+// Kullanıcının bir dizi dize arasından bir seçenek seçmesine izin verecek bir açılır kutu ekleyin.
 builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions pdfOptions = new PdfSaveOptions();
 
-// Form alanlarını çıktı PDF'sinde etkileşimli nesneler olarak kaydetmek için "PreserveFormFields" özelliğini "true" olarak ayarlayın.
+// Çıktı PDF'inde form alanlarını etkileşimli nesneler olarak kaydetmek için "PreserveFormFields" özelliğini "true" olarak ayarlayın.
 // Belgedeki tüm form alanlarını dondurmak için "PreserveFormFields" özelliğini "false" olarak ayarlayın
-// mevcut değerleri ve bunları çıktı PDF'sinde düz metin olarak görüntüleyin.
+// mevcut değerlerini ve çıktı PDF'inde düz metin olarak görüntüler.
 pdfOptions.PreserveFormFields = preserveFormFields;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);

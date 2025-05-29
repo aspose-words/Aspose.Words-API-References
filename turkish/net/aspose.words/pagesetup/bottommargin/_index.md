@@ -2,8 +2,8 @@
 title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
-second_title: Aspose.Words for .NET
-description: PageSetup BottomMargin mülk. Sayfanın alt kenarı ile gövde metninin alt sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfanın alt kenarı ile gövde metni arasındaki boşluğu tanımlayarak en iyi sunumu elde etmek için PageSetup BottomMargin özelliğini kullanarak belgenizin düzenini ayarlayın.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/pagesetup/bottommargin/
@@ -18,7 +18,7 @@ public double BottomMargin { get; set; }
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

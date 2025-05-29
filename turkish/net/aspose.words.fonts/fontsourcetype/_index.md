@@ -2,10 +2,10 @@
 title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontSourceType Sıralama. Yazı tipi kaynağının türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli font kaynak yönetimi için Aspose.Words.Fonts.FontSourceType enum'unu keşfedin. Esnek font seçenekleriyle belge işlemenizi optimize edin.
 type: docs
-weight: 2990
+weight: 3420
 url: /tr/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -20,11 +20,11 @@ public enum FontSourceType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) tek yazı tipi dosyasını temsil eden nesne. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) yazı tipi dosyalarının bulunduğu klasörü temsil eden nesne. |
-| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) bellekteki tek yazı tipini temsil eden nesne. |
-| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) sisteme yüklenen tüm yazı tiplerini temsil eden nesne. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) yazı tipi verilerini içeren bir akışı temsil eden nesne. |
+| FontFile | `0` | Bir[`FileFontSource`](../filefontsource/) tek bir yazı tipi dosyasını temsil eden nesne. |
+| FontsFolder | `1` | Bir[`FolderFontSource`](../folderfontsource/) font dosyalarının bulunduğu klasörü temsil eden nesne. |
+| MemoryFont | `2` | Bir[`MemoryFontSource`](../memoryfontsource/) bellekteki tek bir yazı tipini temsil eden nesne. |
+| SystemFonts | `3` | Bir[`SystemFontSource`](../systemfontsource/) sisteme yüklenen tüm yazı tiplerini temsil eden nesne. |
+| FontStream | `4` | Bir[`StreamFontSource`](../streamfontsource/) yazı tipi verilerine sahip bir akışı temsil eden nesne. |
 
 ## Örnekler
 

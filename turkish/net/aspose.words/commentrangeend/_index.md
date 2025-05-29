@@ -2,17 +2,17 @@
 title: CommentRangeEnd Class
 linktitle: CommentRangeEnd
 articleTitle: CommentRangeEnd
-second_title: Aspose.Words for .NET
-description: Aspose.Words.CommentRangeEnd sınıf. Kendisiyle ilişkilendirilmiş bir yorumun bulunduğu metin bölgesinin sonunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Yorumla ilişkili metin bölgelerinin sonunu işaretleyen Aspose.Words.CommentRangeEnd sınıfını keşfedin. Hassas yorumlama ile belge yönetimini geliştirin!
 type: docs
-weight: 250
+weight: 440
 url: /tr/net/aspose.words/commentrangeend/
 ---
 ## CommentRangeEnd class
 
-Kendisiyle ilişkilendirilmiş bir yorumun bulunduğu metin bölgesinin sonunu belirtir.
+Yorumla ilişkilendirilmiş bir metin bölgesinin sonunu belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yorumlarla Çalışmak](https://docs.aspose.com/words/net/working-with-comments/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yorumlarla Çalışma](https://docs.aspose.com/words/net/working-with-comments/) belgeleme makalesi.
 
 ```csharp
 public sealed class CommentRangeEnd : Node
@@ -31,37 +31,37 @@ public sealed class CommentRangeEnd : Node
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
 | [Id](../../aspose.words/commentrangeend/id/) { get; set; } | Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
-| override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | İadelerCommentRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Geri Döndürür`doğru` eğer bu düğüm diğer düğümleri içerebiliyorsa. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümü hemen takip eden düğümü alır. |
+| override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | Geri DöndürürCommentRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün en yakın üst düğümünü alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir[`Range`](../range/)bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Bir ziyaretçiyi kabul eder. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atasını alır. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt düğümlerinin metnini alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağacı geçiş algoritmasına göre bir sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini ana öğeden kaldırır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ## Notlar
 
-Metnin bir bölgesine bağlı bir yorum oluşturmak için bir yorum oluşturmanız gerekir.[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) Ve`CommentRangeEnd`ve tanımlayıcılarını aynı olarak ayarlayın[`Id`](../comment/id/) değer.
+Metnin bir bölgesine sabitlenmiş bir yorum oluşturmak için, bir yorum oluşturmanız gerekir.[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) Ve`CommentRangeEnd` ve tanımlayıcılarını aynı şekilde ayarlayın[`Id`](../comment/id/) değer.
 
-`CommentRangeEnd` satır içi düzeyde bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
+`CommentRangeEnd` satır içi düzeyde bir düğümdür ve yalnızca bir alt düğüm olabilir[`Paragraph`](../paragraph/).
 
 ## Örnekler
 
-Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
+Bir belge ziyaretçisi kullanarak tüm yorumların içeriklerinin ve yorum aralıklarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -77,7 +77,7 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Belgeye metin ekleyin, onu bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
+    // Belgeye metin ekleyin, metni bir yorum aralığında bükün ve ardından yorumunuzu ekleyin.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
@@ -92,26 +92,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Her üst düzey yorumu yineler ve yorum aralığını, içeriğini ve yanıtlarını yazdırır.
+/// Her üst düzey yorum üzerinde yineleme yapar ve yorum aralığını, içeriklerini ve yanıtlarını yazdırır.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Tüm üst düzey yorumları yineleyin. Yanıt türü yorumların aksine, üst düzey yorumların kökeni yoktur.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Tüm üst düzey yorumlar üzerinde yineleme yap. Cevap türü yorumların aksine, üst düzey yorumların bir atası yoktur.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // İlk olarak yorum aralığının başlangıcını ziyaret edin.
+        // Öncelikle yorum aralığının başlangıcını ziyaret edin.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ardından yorumu ve alabileceği yanıtları ziyaret edin.
+        // Daha sonra yorumu ve varsa yorumdaki yanıtları ziyaret edin.
         comment.Accept(commentVisitor);
+        // Sadece yorumun başlangıcını ziyaret et.
+        comment.AcceptStart(commentVisitor);
+        // Sadece yorumun sonunu ziyaret edin.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Son olarak yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
+        // Son olarak yorum aralığının sonuna gidin ve ardından ziyaretçinin metin içeriğini yazdırın.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -120,7 +124,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriğini yazdırır.
+/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriklerini yazdırır.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -131,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -149,7 +153,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -161,7 +165,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -186,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorum düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Yorum düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -198,7 +202,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

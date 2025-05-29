@@ -2,15 +2,15 @@
 title: PdfEncryptionDetails.Permissions
 linktitle: Permissions
 articleTitle: Permissions
-second_title: Aspose.Words for .NET
-description: PdfEncryptionDetails Permissions mülk. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir. Varsayılan değerDisallowAll  C#'da.
+second_title: .NET için Aspose.Words
+description: Şifrelenmiş PDF'lerde kullanıcı işlemlerini tanımlayan PdfEncryptionDetails Permissions özelliğini keşfedin. Özelleştirilebilir erişimle güvenli belge yönetiminin kilidini açın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir. Varsayılan değer:DisallowAll .
+Şifrelenmiş bir PDF belgesinde bir kullanıcıya izin verilen işlemleri belirtir. Varsayılan değerDisallowAll .
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
@@ -26,17 +26,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
+// Açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
+// Bu belgeyi açtığımızda, içeriğine erişmeden önce parolayı girmemiz gerekecektir.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

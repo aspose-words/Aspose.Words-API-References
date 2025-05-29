@@ -2,15 +2,15 @@
 title: List.IsListStyleReference
 linktitle: IsListStyleReference
 articleTitle: IsListStyleReference
-second_title: Aspose.Words for .NET
-description: List IsListStyleReference mülk. İadelerdoğru bu liste bir liste stiline referans ise C#'da.
+second_title: .NET için Aspose.Words
+description: IsListStyleReference özelliğini keşfedin; bu özellik, bir listenin belirli bir stile başvurup başvurmadığını gösterir ve belgenizin biçimlendirmesini ve organizasyonunu geliştirir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-İadeler`doğru` bu liste bir liste stiline referans ise.
+Geri Döndürür`doğru` eğer bu liste bir liste stiline referanssa.
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -18,20 +18,20 @@ public bool IsListStyleReference { get; }
 
 ## Notlar
 
-Liste stiline referans olan bir listenin özelliklerini değiştirmenin hiçbir etkisi olmayacağını unutmayın. Liste stilinde belirtilen liste formatı her zaman önceliklidir.
+Dikkat, liste stiline referans olan bir listenin özelliklerini değiştirmenin hiçbir etkisi yoktur. Liste stilinde belirtilen liste biçimlendirmesi her zaman önceliklidir.
 
 ## Örnekler
 
-Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
+Bir liste stilinin nasıl oluşturulacağını ve bir belgede nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Bir stilin içinde bir List nesnesinin tamamını içerebiliriz.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Bir stilin içerisinde bütün bir Liste nesnesini barındırabiliriz.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -41,7 +41,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Listemizdeki tüm liste seviyelerinin görünümünü değiştirin.
+// Listemizdeki tüm liste seviyelerinin görünümünü değiştirelim.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -53,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Stil içindeki listeden başka bir liste oluşturun.
+// Bir stil içindeki listeden başka bir liste oluştur.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -68,7 +68,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Liste stiline göre başka bir liste oluşturup uygulayın.
+// Liste stiline göre başka bir liste oluştur ve uygula.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

@@ -2,15 +2,15 @@
 title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
-second_title: Aspose.Words for .NET
-description: ParagraphFormat SnapToGrid mülk. Geçerli paragrafın paragraftaki içerikleri düzenlerken sayfa başına belge ızgara çizgilerini kullanıp kullanmayacağını ayarlar belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat SnapToGrid özelliğinin, paragraflarınızı belge kılavuz çizgileriyle hizalayarak düzen hassasiyetini nasıl artırdığını ve cilalı bir görünüm sağladığını keşfedin.
 type: docs
-weight: 290
+weight: 300
 url: /tr/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Geçerli paragrafın, paragraftaki içerikleri düzenlerken sayfa başına belge ızgara çizgilerini kullanıp kullanmayacağını ayarlar belirtir.
+Geçerli paragrafın, paragraftaki içerikleri düzenlerken sayfa başına belge kılavuz çizgileri ayarlarını kullanıp kullanmayacağını belirtir.
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,14 +18,14 @@ public bool SnapToGrid { get; set; }
 
 ## Örnekler
 
-Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
+Her sayfanın sahip olabileceği satır sayısı için bir sınır belirlemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Perdelemeyi etkinleştirin ve ardından bu bölümdeki sayfa başına satır sayısını ayarlamak için bunu kullanın.
-// Yeterince büyük bir yazı tipi boyutu, karakterlerin çakışmasını önlemek için bazı satırları sonraki sayfaya doğru itecektir.
+// Atışı etkinleştirin ve ardından bunu bu bölümdeki sayfa başına satır sayısını ayarlamak için kullanın.
+// Yeterince büyük bir yazı tipi boyutu, karakterlerin üst üste gelmesini önlemek için bazı satırların bir sonraki sayfaya doğru itilmesini sağlayacaktır.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

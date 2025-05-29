@@ -2,8 +2,8 @@
 title: ChartNumberFormat.FormatCode
 linktitle: FormatCode
 articleTitle: FormatCode
-second_title: Aspose.Words for .NET
-description: ChartNumberFormat FormatCode mülk. Bir veri etiketine uygulanan biçim kodunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Daha net bilgiler ve gelişmiş veri sunumu için veri etiketi biçimlerini özelleştirmek amacıyla ChartNumberFormat FormatCode özelliğinin nasıl kullanılacağını keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -18,25 +18,25 @@ public string FormatCode { get; set; }
 
 ## Notlar
 
-Sayı biçimlendirmesi, bir değerin veri etiketinde görünme biçimini değiştirmek için kullanılır ve çok yaratıcı şekillerde kullanılabilir. Sayı biçimi örnekleri:
+Sayı biçimlendirmesi, bir değerin veri etiketinde görünme biçimini değiştirmek için kullanılır ve çok yaratıcı şekillerde kullanılabilir. Sayı biçimlerinin örnekleri:
 
-Sayı - "#,##0,00"
+Sayı - "#,##0.00"
 
-Para birimi - "\"$\"#,##0.00"
+Para Birimi - "\"$\"#,##0.00"
 
-Saat - "[$-x-systime]sa:dd:ss AM/PM"
+Zaman - "[$-x-systime]h:mm:ss AM/PM"
 
 Tarih - "g/aa/yyyy"
 
-Yüzde - "%0,00"
+Yüzde - "0.00%"
 
 Kesir - "# ?/?"
 
-Bilimsel - "0,00E+00"
+Bilimsel - "0.00E+00"
 
 Metin - "@"
 
-Muhasebe - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-"
+Muhasebe - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_-;_-@_-"
 
 Renkle özel - "[Kırmızı]-#,##0.0"
 
@@ -54,16 +54,16 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// Grafiğe X ekseni için kategoriler içeren özel bir seri ekleyin,
- // ve Y ekseni için ilgili büyük sayısal değerler.
+// X ekseni için kategorilerle grafiğe özel bir seri ekleyin,
+ // ve Y ekseni için büyük sayısal değerler.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Y ekseni onay etiketlerinin sayı biçimini, rakamları virgülle gruplandırmayacak şekilde ayarlayın.
+ // Y eksenindeki işaret etiketlerinin sayı biçimini, basamakların virgüllerle gruplanmaması için ayarlayın.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Bu bayrak yukarıdaki değeri geçersiz kılabilir ve sayı biçimini kaynak hücreden çekebilir.
+// Bu bayrak yukarıdaki değeri geçersiz kılabilir ve sayı biçimini kaynak hücreden çizebilir.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
@@ -82,10 +82,10 @@ Chart chart = shape.Chart;
 chart.Series.Clear();
 chart.Title.Text = "Monthly sales report";
 
-// X ekseni için ayları kategoriler halinde içeren özel bir grafik serisi ekleyin,
+// X ekseni için kategori olarak ayları içeren özel bir grafik serisi ekleyin,
 // ve Y ekseni için ilgili ondalık miktarlar.
-ChartSeries series = chart.Series.Add("Revenue", 
-    new[] { "January", "February", "March" }, 
+ChartSeries series = chart.Series.Add("Revenue",
+    new[] { "January", "February", "March" },
     new[] { 25.611d, 21.439d, 33.750d });
 
 // Veri etiketlerini etkinleştirin ve ardından veri etiketlerinde görüntülenen değerler için özel bir sayı biçimi uygulayın.
@@ -94,7 +94,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
-dataLabels.Font.Size = 12;            
+dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

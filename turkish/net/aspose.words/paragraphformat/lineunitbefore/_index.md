@@ -2,8 +2,8 @@
 title: ParagraphFormat.LineUnitBefore
 linktitle: LineUnitBefore
 articleTitle: LineUnitBefore
-second_title: Aspose.Words for .NET
-description: ParagraphFormat LineUnitBefore mülk. Paragraflardan önceki boşluk miktarını kılavuz çizgilerinde alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat LineUnitBefore özelliğinin, paragraflar arasındaki boşlukları ayarlayarak belgenizin düzenini nasıl geliştirdiğini ve daha şık bir görünüm sağladığını keşfedin.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/paragraphformat/lineunitbefore/
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Aşağıda, konfigürasyonlarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı aralık seçeneği bulunmaktadır.
+// Aşağıda, yapılandırmalarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı aralık seçeneği bulunmaktadır.
 // 1 - Sol girinti:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -47,14 +47,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - Paragraflardan önceki satır aralığı:
+// 4 - Paragraflardan önceki satır aralıkları:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Paragraflardan sonraki satır aralığı:
+// 5 - Paragraflardan sonraki satır aralıkları:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

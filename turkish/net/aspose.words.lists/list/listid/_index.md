@@ -2,8 +2,8 @@
 title: List.ListId
 linktitle: ListId
 articleTitle: ListId
-second_title: Aspose.Words for .NET
-description: List ListId mülk. Listenin benzersiz tanımlayıcısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Listelerinize kolayca erişmek ve onları yönetmek için benzersiz ListId özelliğini keşfedin. Bu temel tanımlayıcıyla iş akışınızı kolaylaştırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.lists/list/listid/
@@ -18,7 +18,7 @@ public int ListId { get; }
 
 ## Notlar
 
-Normalde bu özelliği kullanmanıza gerek yoktur. Ancak eğer onu kullanırsanız, normalde so ile birlikte yaparsınız.[`GetListByListId`](../../listcollection/getlistbylistid/) a listesini tanımlayıcısına göre bulma yöntemi.
+Normalde bu özelliği kullanmanız gerekmez. Ancak kullanırsanız, normalde bunu ile birlikte yaparsınız[`GetListByListId`](../../listcollection/getlistbylistid/) a listesini tanımlayıcısına göre bulma yöntemi.
 
 ## Örnekler
 
@@ -39,7 +39,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
+Bir belgedeki liste öğelerinden oluşan tüm paragrafların nasıl çıktı alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

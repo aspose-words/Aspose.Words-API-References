@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag LockContentControl mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bunu silmesini yasaklayacakSDT  C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTag LockContentControl özelliğinin kullanıcıların önemli içerikleri silmesini önleyerek belge güvenliğini nasıl artırdığını keşfedin. Daha fazla bilgi edinin!
 type: docs
 weight: 190
 url: /tr/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-Olarak ayarlandığında`doğru` , bu özellik kullanıcının bunu silmesini yasaklayacak**SDT** .
+olarak ayarlandığında`doğru` , bu özellik bir kullanıcının bunu silmesini engelleyecektir**SDT** .
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -24,7 +24,7 @@ Yapılandırılmış belge etiketlerine düzenleme kısıtlamalarının nasıl u
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kullanıcının onu doldurmasını isteyen bir metin kutusu görevi gören, düz metin yapılı bir belge etiketi ekleyin.
+// Kullanıcının doldurmasını isteyen bir metin kutusu görevi gören düz metin yapılandırılmış belge etiketi ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // Kullanıcının bu metin kutusunun içeriğini düzenlemesini engellemek için "LockContents" özelliğini "true" olarak ayarlayın.
@@ -34,8 +34,8 @@ builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Kullanıcının şunları yapmasını engellemek için "LockContentControl" özelliğini "true" olarak ayarlayın
-// bu yapılandırılmış belge etiketinin Microsoft Word'de manuel olarak silinmesi.
+// Kullanıcının bunu yapmasını engellemek için "LockContentControl" özelliğini "true" olarak ayarlayın
+// Bu yapılandırılmış belge etiketini Microsoft Word'de manuel olarak siliyorum.
 tag.LockContentControl = true;
 
 builder.InsertParagraph();

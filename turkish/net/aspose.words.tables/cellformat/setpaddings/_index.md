@@ -2,15 +2,15 @@
 title: CellFormat.SetPaddings
 linktitle: SetPaddings
 articleTitle: SetPaddings
-second_title: Aspose.Words for .NET
-description: CellFormat SetPaddings yöntem. Hücre içeriğinin sol/üst/sağ/alt kısmına eklenecek alan miktarını nokta cinsinden ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Hücre aralıklarını noktalar halinde özelleştirmek, okunabilirliği ve tasarımı geliştirmek için CellFormat SetPaddings yöntemini keşfedin.
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Hücre içeriğinin sol/üst/sağ/alt kısmına eklenecek alan miktarını (nokta cinsinden) ayarlar.
+Hücrenin içeriğinin soluna/üstüne/sağına/altına eklenecek boşluk miktarını (nokta cinsinden) ayarlar.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -19,14 +19,14 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 
 ## Örnekler
 
-Bir hücrenin içeriğinin boşlukla nasıl doldurulacağını gösterir.
+Bir hücrenin içeriğinin boşluklarla nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kenarlık ve metin içeriği arasında bir dolgu mesafesi (nokta olarak) ayarlayın
- // belge oluşturucuyla oluşturduğumuz her tablo hücresinin.
+// Sınır ile metin içeriği arasında bir dolgu mesafesi (nokta cinsinden) ayarlayın
+ // Belge oluşturucu ile oluşturduğumuz her tablo hücresinin.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
 // İçeriği boşluklarla doldurulacak tek hücreli bir tablo oluşturun.

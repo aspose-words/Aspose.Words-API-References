@@ -2,15 +2,15 @@
 title: DocumentBuilder.MoveToHeaderFooter
 linktitle: MoveToHeaderFooter
 articleTitle: MoveToHeaderFooter
-second_title: Aspose.Words for .NET
-description: DocumentBuilder MoveToHeaderFooter yöntem. İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder MoveToHeaderFooter yöntemi ile başlıklar ve altbilgiler arasında zahmetsizce gezinin, belge düzenleme verimliliğinizi artırın.
 type: docs
-weight: 540
+weight: 580
 url: /tr/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır.
+İmleci geçerli bölümdeki bir üstbilgi veya altbilginin başına taşır.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -22,26 +22,25 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ## Notlar
 
-İmleci bir üstbilgi veya altbilgiye taşıdıktan sonra geri kalanını kullanabilirsiniz.[`DocumentBuilder`](../) Üstbilgi veya altbilginin içeriğini değiştirmek için yöntemleri.
+İmleci bir üstbilgi veya altbilgiye taşıdıktan sonra, geri kalanını kullanabilirsiniz[`DocumentBuilder`](../) Başlık veya altbilginin içeriğini değiştirmek için yöntemleri.
 
-İlk sayfa için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamak için gerekir[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+İlk sayfa için farklı başlıklar ve altbilgiler oluşturmak istiyorsanız, need öğesini ayarlamanız gerekir[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Çift ve tek sayfalar için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamak için gerekir[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Çift ve tek sayfalar için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, need değerini ayarlamanız gerekir[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Kullanmak[`MoveToSection`](../movetosection/) başlıktan ana metne geçmek için.
+Kullanmak[`MoveToSection`](../movetosection/) Başlıktan ana metne geçmek için.
 
 ## Örnekler
 
-Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Resmi her sayfada görünecek şekilde başlığa ekleyin.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -54,33 +53,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Resmi her sayfada görünecek şekilde başlığa ekleyin.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Resmi sayfanın ortasına yerleştirin.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
-```
-
-DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
+DocumentBuilder kullanılarak bir belgede üstbilgi ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

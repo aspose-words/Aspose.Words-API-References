@@ -2,10 +2,10 @@
 title: CommentDisplayMode Enum
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.CommentDisplayMode Sıralama. Belge yorumları için işleme modunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Optimize edilmiş belge yorum oluşturma için Aspose.Words.Layout.CommentDisplayMode enum'unu keşfedin. Belgenizin netliğini ve sunumunu bugün geliştirin!
 type: docs
-weight: 3290
+weight: 3740
 url: /tr/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -20,13 +20,13 @@ public enum CommentDisplayMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Hide | `0` | Hiçbir belge yorumu oluşturulmaz. |
-| ShowInBalloons | `1` | Belge yorumlarını kenar boşluğundaki balonlar halinde görüntüler. Bu varsayılan değerdir. |
-| ShowInAnnotations | `2` | Ek açıklamalardaki belge yorumlarını işler. Bu yalnızca Pdf formatı için geçerlidir. |
+| Hide | `0` | Hiçbir belge yorumu oluşturulmadı. |
+| ShowInBalloons | `1` | Belge yorumlarını kenar boşluğundaki balonlarda işler. Bu varsayılan değerdir. |
+| ShowInAnnotations | `2` | Belge yorumlarını açıklamalarda işler. Bu yalnızca Pdf formatı için kullanılabilir. |
 
 ## Örnekler
 
-Bir belgeyi işlenmiş formatta kaydederken yorumların nasıl gösterileceğini gösterir.
+Bir belgeyi işlenmiş biçime kaydederken yorumların nasıl gösterileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations yalnızca Pdf1.7 ve Pdf1.5 formatlarında mevcuttur.
-// Diğer formatlarda Gizle'ye benzer şekilde çalışacaktır.
+// ShowInAnnotations yalnızca Pdf1.7 ve Pdf1.5 formatlarında kullanılabilir.
+// Diğer formatlarda Hide'a benzer şekilde çalışacaktır.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Belge sayfa düzenini yeniden oluşturmanın gerekli olduğunu unutmayın (Document.UpdatePageLayout() yöntemi aracılığıyla)
-// Document.LayoutOptions değerlerini değiştirdikten sonra.
+// Belge sayfa düzeninin yeniden oluşturulması gerektiğini unutmayın (Document.UpdatePageLayout() yöntemi aracılığıyla)
+// Document.LayoutOptions değerleri değiştirildikten sonra.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();
 

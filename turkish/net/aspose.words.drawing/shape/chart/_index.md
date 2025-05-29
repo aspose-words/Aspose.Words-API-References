@@ -2,15 +2,15 @@
 title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
-second_title: Aspose.Words for .NET
-description: Shape Chart mülk. Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlarChart  C#'da.
+second_title: .NET için Aspose.Words
+description: Şekil Tablosu ile grafik özelliklerinin kilidini açın. Görsel veri sunumunuzu zahmetsizce geliştirin ve içgörülerinizi bugün en üst düzeye çıkarın!
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlar[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlar.[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -18,11 +18,11 @@ public Chart Chart { get; }
 
 ## Notlar
 
-Bu özellik şunu döndürecektir:[`Chart`](../../../aspose.words.drawing.charts/chart/) yalnızca şu durumda itiraz edin[`HasChart`](../haschart/) özelliği:`doğru` bunun için[`Shape`](../)ve aksi takdirde bir istisna atacaktır.
+Bu özellik şunu döndürecektir:[`Chart`](../../../aspose.words.drawing.charts/chart/) yalnızca nesne[`HasChart`](../haschart/) özelliği`doğru` bunun için[`Shape`](../), aksi takdirde bir istisna fırlatacaktır.
 
 ## Örnekler
 
-Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
+Bir belgedeki tüm şekiller üzerinde nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 public void VisitShapes()
@@ -35,7 +35,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
+    /// Her girinti düzeyi için bir sekme karakterinin önüne eklendiği bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -57,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
+    /// StringBuilder'ın biriktirdiği tüm metni döndür.
     /// </summary>
     public string GetText()
     {
@@ -65,7 +65,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi bir Shape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir Şekil düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

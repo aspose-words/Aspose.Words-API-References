@@ -2,15 +2,15 @@
 title: FieldIncludeText.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: Aspose.Words for .NET
-description: FieldIncludeText SourceFullName mülk. Bir IRI kullanarak belgenin konumunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: IRI ile belge konumlarını kolayca yönetmek için FieldIncludeText SourceFullName özelliğini keşfedin. İş akışınızı geliştirin ve veri işlemeyi kolaylaştırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldincludetext/sourcefullname/
 ---
 ## FieldIncludeText.SourceFullName property
 
-Bir IRI kullanarak belgenin konumunu alır veya ayarlar.
+IRI kullanarak belgenin konumunu alır veya ayarlar.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

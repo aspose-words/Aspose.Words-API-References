@@ -2,8 +2,8 @@
 title: HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
-second_title: Aspose.Words for .NET
-description: HyphenationOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi sonuçlar için özelleştirilebilir ayarlarla etkili metin tirelemesi için başvuracağınız çözümünüz olan HyphenationOptions oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/hyphenationoptions/hyphenationoptions/

@@ -2,27 +2,35 @@
 title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
-second_title: Aspose.Words for .NET
-description: Fill ForeTintAndShade mülk. Ön plan rengini açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Ön plan renginizi kolayca açmak veya koyulaştırmak için ForeTintAndShade özelliğini ayarlayın, tasarımınızı hassasiyet ve yaratıcılıkla geliştirin.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
 
-Ön plan rengini açan veya koyulaştıran double değerini alır veya ayarlar.
+Ön plan rengini açan veya koyulaştıran bir çift değer alır veya ayarlar.
 
 ```csharp
 public double ForeTintAndShade { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentOutOfRangeException | Bu özelliği -1'den küçük veya 1'den büyük bir değere ayarlarsanız fırlatın. |
+
 ## Notlar
 
-Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
+Bu özellik için izin verilen değerler -1 (en koyu) ile 1 (en açık) arasında değişmektedir.
+
+Sıfır (0) nötrdür.
 
 ## Örnekler
 
-Açıklaştırma ve koyulaştırma ön plan yazı tipi renginin nasıl yönetileceğini gösterir.
+Ön plandaki yazı renginin nasıl açılıp koyulaştırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

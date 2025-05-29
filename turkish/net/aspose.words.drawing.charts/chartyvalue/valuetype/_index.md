@@ -2,15 +2,15 @@
 title: ChartYValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
-second_title: Aspose.Words for .NET
-description: ChartYValue ValueType mülk. Nesnede saklanan Y değerinin türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Veri nesnenizdeki Y değer türüne kolayca erişmek için ChartYValue ValueType özelliğini keşfedin ve veri görselleştirme deneyiminizi geliştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/valuetype/
 ---
 ## ChartYValue.ValueType property
 
-Nesnede saklanan Y değerinin türünü alır.
+Nesnede depolanan Y değerinin türünü alır.
 
 ```csharp
 public ChartYValueType ValueType { get; }

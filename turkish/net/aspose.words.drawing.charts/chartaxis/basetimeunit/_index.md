@@ -2,15 +2,15 @@
 title: ChartAxis.BaseTimeUnit
 linktitle: BaseTimeUnit
 articleTitle: BaseTimeUnit
-second_title: Aspose.Words for .NET
-description: ChartAxis BaseTimeUnit mülk. Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için zaman kategorisi eksenindeki en küçük zaman birimini kolayca tanımlamak üzere ChartAxis BaseTimeUnit özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 ---
 ## ChartAxis.BaseTimeUnit property
 
-Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar.
+Zaman kategorisi ekseninde gösterilen en küçük zaman birimini döndürür veya ayarlar.
 
 ```csharp
 public AxisTimeUnit BaseTimeUnit { get; set; }
@@ -18,11 +18,11 @@ public AxisTimeUnit BaseTimeUnit { get; set; }
 
 ## Notlar
 
-Özelliğin yalnızca zaman kategorisi eksenleri için etkisi vardır.
+Özellik yalnızca zaman kategorisi eksenleri için etkilidir.
 
 ## Örnekler
 
-Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
+Tarih/saat değerleri içeren grafiğin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,12 +43,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseninin alt ve üst sınırlarını ayarlayın.
+// X ekseni için alt ve üst sınırları belirleyin.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
+// X ekseninin ana birimlerini haftaya, küçük birimlerini ise güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -59,7 +59,7 @@ xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

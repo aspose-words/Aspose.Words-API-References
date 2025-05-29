@@ -2,8 +2,8 @@
 title: VbaExecutableAttribute
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
-second_title: Aspose.Words for .NET
-description: VbaExecutableAttribute inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: VbaExecutableAttribute yapıcısını keşfedin! Bu temel varsayılan yapıcıyla VBA projelerinizde kusursuz yürütmenin kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/

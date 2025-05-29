@@ -2,15 +2,15 @@
 title: HtmlLoadOptions.BlockImportMode
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
-second_title: Aspose.Words for .NET
-description: HtmlLoadOptions BlockImportMode mülk. Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarıldığını belirten bir değer alır veya ayarlar. Varsayılan değerMerge  C#'da.
+second_title: .NET için Aspose.Words
+description: Blok düzeyindeki öğe içe aktarımlarını özelleştirmek için HtmlLoadOptions' BlockImportMode özelliğini keşfedin. En iyi içerik yönetimi için birleştirmeyi kontrol edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/htmlloadoptions/blockimportmode/
 ---
 ## HtmlLoadOptions.BlockImportMode property
 
-Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarıldığını belirten bir değer alır veya ayarlar. Varsayılan değer:Merge .
+Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarılacağını belirten bir değeri alır veya ayarlar. Varsayılan değerMerge .
 
 ```csharp
 public BlockImportMode BlockImportMode { get; set; }
@@ -33,7 +33,7 @@ const string html = @"
 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-// HTML blok düzeyindeki öğelerin içe aktarılmasının yeni modunu ayarlayın.
+// HTML blok düzeyindeki öğelerin içe aktarılması için yeni modu ayarlayın.
 loadOptions.BlockImportMode = blockImportMode;
 
 Document doc = new Document(stream, loadOptions);

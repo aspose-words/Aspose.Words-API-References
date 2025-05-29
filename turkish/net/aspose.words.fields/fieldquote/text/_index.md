@@ -2,8 +2,8 @@
 title: FieldQuote.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: FieldQuote Text mülk. Alınacak metni alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldQuote Metin özelliği. Gelişmiş veri yönetimi için metni kolayca alın veya ayarlayın. Bu güçlü özellik ile iş akışınızı kolaylaştırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldquote/text/
@@ -31,8 +31,8 @@ field.Text = "\"Quoted text\"";
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
 // Bir QUOTE alanı ekleyin ve içine bir DATE alanı yerleştirin.
-// DATE alanları, belgeyi Microsoft Word kullanarak her açtığımızda değerlerini geçerli tarihe günceller.
-// DATE alanını QUOTE alanının içine bu şekilde yerleştirmek, değerini donduracaktır
+// DATE alanları, Microsoft Word kullanarak belgeyi her açtığımızda değerlerini geçerli tarihe günceller.
+// DATE alanını bu şekilde QUOTE alanının içine yerleştirmek değerini donduracaktır
 // belgeyi oluşturduğumuz tarihe.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
@@ -41,7 +41,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Doğru sonuçları görüntülemek için tüm alanları güncelleyin.
+// Tüm alanları doğru sonuçları gösterecek şekilde güncelleyin.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);

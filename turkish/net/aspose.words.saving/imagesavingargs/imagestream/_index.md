@@ -2,15 +2,15 @@
 title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
-second_title: Aspose.Words for .NET
-description: ImageSavingArgs ImageStream mülk. Görüntünün kaydedileceği akışı belirtmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Görüntülerinizi nereye kaydedeceğinizi kolayca belirlemek için ImageSavingArgs'daki ImageStream özelliğini keşfedin, böylece iş akışınızı ve verimliliğinizi artırın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-Görüntünün kaydedileceği akışı belirtmeye izin verir.
+Görüntünün kaydedileceği akışı belirtmenize olanak tanır.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -18,23 +18,23 @@ public Stream ImageStream { get; set; }
 
 ## Notlar
 
-Bu özellik, HTML sırasında görüntüleri dosyalar yerine akışlara kaydetmenize olanak tanır.
+Bu özellik HTML sırasında dosyaların yerine akışlara resim kaydetmenize olanak tanır.
 
-Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` görüntüsü, belirtilen dosyaya kaydedilecektir.[`ImageFileName`](../imagefilename/) mülk.
+Varsayılan değer:`hükümsüz` Bu özellik olduğunda`hükümsüz` , görüntüsü belirtilen bir dosyaya kaydedilecektir.[`ImageFileName`](../imagefilename/) mülk.
 
-Kullanma[`IImageSavingCallback`](../../iimagesavingcallback/) bir resmi başka bir resimle değiştiremezsiniz. Yalnızca görüntülerin kaydedileceği konumu kontrol etmek için tasarlanmıştır.
+Kullanarak[`IImageSavingCallback`](../../iimagesavingcallback/) bir resmi başka bir resimle değiştiremezsiniz. Bu sadece resimlerin kaydedileceği yerin kontrolü için tasarlanmıştır.
 
 ## Örnekler
 
-Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
+Bir HTML dönüştürme işleminde görüntü kaydetme geri aramasının nasıl dahil edileceğini gösterir.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
-    // görüntü kaydetme işlemini özelleştirmek için.
+    // Belgeyi HTML'e kaydettiğimizde, bir geri arama belirtmek için bir SaveOptions nesnesi geçirebiliriz
+    // Görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -42,8 +42,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Kaydetme işlemi yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
-/// bir belgenin HTML'ye aktarılması sırasında.
+/// Kaydetme işlemi görüntüyü yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
+/// Bir belgenin HTML'e aktarılması sırasında.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

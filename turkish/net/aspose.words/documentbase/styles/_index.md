@@ -2,15 +2,15 @@
 title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
-second_title: Aspose.Words for .NET
-description: DocumentBase Styles mülk. Belgede tanımlanan stillerin bir koleksiyonunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin görsel çekiciliğini ve tutarlılığını artıran zengin özelleştirilebilir stiller koleksiyonuna erişmek için DocumentBase Stilleri özelliğini keşfedin.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
 
-Belgede tanımlanan stillerin bir koleksiyonunu döndürür.
+Belgede tanımlanan stil koleksiyonunu döndürür.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -18,7 +18,7 @@ public StyleCollection Styles { get; }
 
 ## Notlar
 
-Daha fazla bilgi için açıklamasına bakın[`StyleCollection`](../../stylecollection/) sınıf.
+Daha fazla bilgi için açıklamayı inceleyin[`StyleCollection`](../../stylecollection/) sınıf.
 
 ## Örnekler
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -45,7 +45,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste biçimlendirmesiyle bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -61,11 +61,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stile değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

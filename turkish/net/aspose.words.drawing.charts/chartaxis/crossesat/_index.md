@@ -2,8 +2,8 @@
 title: ChartAxis.CrossesAt
 linktitle: CrossesAt
 articleTitle: CrossesAt
-second_title: Aspose.Words for .NET
-description: ChartAxis CrossesAt mülk. Eksenin dik eksende nerede kesiştiğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için grafiğinizin dik eksenindeki kesişim noktalarını kolayca tanımlamak üzere ChartAxis CrossesAt özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -18,13 +18,13 @@ public double CrossesAt { get; set; }
 
 ## Notlar
 
-Özelliğin yalnızca şu durumlarda etkisi vardır:[`Crosses`](../crosses/) şu şekilde ayarlandı:Custom. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
+Mülkiyet ancak aşağıdaki durumlarda geçerlidir:[`Crosses`](../crosses/) ayarlandıCustom. MS Office 2016 yeni grafikleri tarafından desteklenmiyor.
 
-Birimler eksen türüne göre belirlenir. Eksen bir değer ekseni olduğunda, property özelliğinin değeri, değer ekseninde bir ondalık sayıdır. Eksen bir zaman kategorisi ekseni olduğunda değer, temel tarihe (30/12/1899) göre günlerin tam sayısı olan olarak tanımlanır. Bir metin kategorisi ekseni için değer, ilk kategori olarak 1 ile başlayan bir tamsayı kategori numarasıdır .
+Birimler eksen türüne göre belirlenir. Eksen bir değer ekseni olduğunda, property değeri değer ekseninde bir ondalık sayıdır. Eksen bir zaman kategorisi ekseni olduğunda, değer temel tarihe (30/12/1899) göre tam sayı gün sayısı olarak tanımlanır. Metin kategorisi ekseni için değer, ilk kategori olarak 1 ile başlayan tam sayı kategori numarasıdır.
 
 ## Örnekler
 
-Özel bir konumda kesişecek bir grafik ekseninin nasıl alınacağını gösterir.
+Bir grafik ekseninin özel bir konumda nasıl kesişeceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Sütun grafikleri için Y ekseni varsayılan olarak sıfırdan geçer,
-// bu, sıfırın altındaki tüm değerlerin sütunlarının negatif değerleri temsil edecek şekilde aşağıyı gösterdiği anlamına gelir.
-// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda 3'e ayarlayacağız.
+// Sütun grafikleri için Y ekseni varsayılan olarak sıfırı geçer,
+// bu, sıfırın altındaki tüm değerler için sütunların negatif değerleri temsil edecek şekilde aşağıya doğru işaret ettiği anlamına gelir.
+// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda, bunu 3 olarak ayarlayacağız.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

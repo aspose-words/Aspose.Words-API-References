@@ -2,15 +2,15 @@
 title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TextureIndex Sıralama. Gölgeleme dokusunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş gölgelendirme dokuları için Aspose.Words.TextureIndex enum'unu keşfedin. Özelleştirilebilir, yüksek kaliteli dokularla belge tasarımınızı geliştirin.
 type: docs
-weight: 6450
+weight: 7300
 url: /tr/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Gölgeleme dokusunu belirtir.
+Gölgelendirme dokusunu belirtir.
 
 ```csharp
 public enum TextureIndex
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Mevcut gölgeli bölge üzerinde herhangi bir desen kullanılmayacağını belirtir (yani desen, arka plan rengiyle tam bir dolgu olacaktır). |
+| TextureNil | `65535` | Mevcut gölgeli bölge üzerinde hiçbir desen kullanılmayacağını belirtir (yani desen arka plan rengiyle tamamen doldurulmalıdır). |
 
 ## Örnekler
 
-Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirme ile nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -99,26 +99,26 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
+Bir tabloya dış kenarlığın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tabloyu sayfanın ortasına hizalayın.
+// Tabloyu sayfanın ortasına hizala.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
+// Tablodaki mevcut tüm kenarlıkları ve gölgelendirmeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 
-// Tablonun ana hatlarına yeşil kenarlıklar ekleyin.
+// Tablonun dış hatlarına yeşil kenarlıklar ekleyin.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Hücreleri açık yeşil düz renkle doldurun.
+// Hücreleri açık yeşil düz bir renkle doldurun.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

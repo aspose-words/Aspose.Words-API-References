@@ -1,15 +1,122 @@
 ---
 title: BuildingBlock.AcceptStart
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock yöntem. 
+linktitle: AcceptStart
+articleTitle: AcceptStart
+second_title: .NET için Aspose.Words
+description: BuildingBlock AcceptStart yöntemini keşfedin, ziyaretçilerinizi sorunsuz bir şekilde karşılayın ve geldikleri andan itibaren deneyimlerini geliştirin.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.buildingblocks/buildingblock/acceptstart/
 ---
 ## BuildingBlock.AcceptStart method
 
+BuildingBlock'un başlangıcını ziyaret eden bir ziyaretçiyi kabul eder.
+
 ```csharp
 public override VisitorAction AcceptStart(DocumentVisitor visitor)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| visitor | DocumentVisitor | Belge ziyaretçisi. |
+
+### Geri dönüş değeri
+
+Ziyaretçinin yapması gereken eylem.
+
+## Örnekler
+
+Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
+
+```csharp
+public void CreateAndInsert()
+{
+    // Bir belgenin sözlük belgesi yapı taşlarını depolar.
+    Document doc = new Document();
+    GlossaryDocument glossaryDoc = new GlossaryDocument();
+    doc.GlossaryDocument = glossaryDoc;
+
+    // Bir yapı taşı oluşturun, ona bir isim verin ve ardından sözlük belgesine ekleyin.
+    BuildingBlock block = new BuildingBlock(glossaryDoc)
+    {
+        Name = "Custom Block"
+    };
+
+    glossaryDoc.AppendChild(block);
+
+    // Tüm yeni yapı taşı GUID'leri varsayılan olarak aynı sıfır değerine sahiptir ve bunlara yeni ve benzersiz bir değer verebiliriz.
+    Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
+
+    block.Guid = Guid.NewGuid();
+
+    // Aşağıdaki özellikler yapı taşlarını kategorilere ayırır
+    // Microsoft Word'de "Ekle" -> "Hızlı Parçalar" -> "Yapı Blokları Düzenleyicisi" yoluyla ulaşabileceğimiz menüde.
+    Assert.AreEqual("(Empty Category)", block.Category);
+    Assert.AreEqual(BuildingBlockType.None, block.Type);
+    Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
+    Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
+
+    // Bu yapı taşını belgemize eklemeden önce, ona bazı içerikler vermemiz gerekecek,
+    // bunu bir belge ziyaretçisi kullanarak yapacağız. Bu ziyaretçi ayrıca bir kategori, galeri ve davranış belirleyecek.
+    BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // BuildingBlock'un başlangıcını/sonunu ziyaret edin.
+    block.Accept(visitor);
+
+    // Az önce oluşturduğumuz bloğa sözlük belgesinden erişebiliriz.
+    BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
+        "My custom building blocks", "Custom Block");
+
+    // Blok, metnin yer aldığı bölümdür.
+    Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
+    Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
+    // Şimdi bunu yeni bir bölüm olarak belgeye ekleyebiliriz.
+    doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
+
+    // Bunu Microsoft Word'ün Building Blocks Organizer'ında da bulabilir ve elle yerleştirebiliriz.
+    doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
+}
+
+/// <summary>
+/// Ziyaret edilen bir yapı bloğunun belgeye hızlı bir parça olarak eklenmesini ayarlar ve içeriğine metin ekler.
+/// </summary>
+public class BuildingBlockVisitor : DocumentVisitor
+{
+    public BuildingBlockVisitor(GlossaryDocument ownerGlossaryDoc)
+    {
+        mBuilder = new StringBuilder();
+        mGlossaryDoc = ownerGlossaryDoc;
+    }
+
+    public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
+    {
+        // Yapı bloğunu hızlı bir parça olarak yapılandırın ve Yapı Blokları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
+        block.Behavior = BuildingBlockBehavior.Paragraph;
+        block.Category = "My custom building blocks";
+        block.Description =
+            "Using this block in the Quick Parts section of word will place its contents at the cursor.";
+        block.Gallery = BuildingBlockGallery.QuickParts;
+
+        // Metin içeren bir bölüm ekleyin.
+        // Bloğun belgeye eklenmesi, bu bölümü alt düğümleriyle birlikte konuma ekleyecektir.
+        Section section = new Section(mGlossaryDoc);
+        block.AppendChild(section);
+        block.FirstSection.EnsureMinimum();
+
+        Run run = new Run(mGlossaryDoc, "Text inside " + block.Name);
+        block.FirstSection.Body.FirstParagraph.AppendChild(run);
+
+        return VisitorAction.Continue;
+    }
+
+    public override VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
+    {
+        mBuilder.Append("Visited " + block.Name + "\r\n");
+        return VisitorAction.Continue;
+    }
+
+    private readonly StringBuilder mBuilder;
+    private readonly GlossaryDocument mGlossaryDoc;
+}
 ```
 
 ### Ayrıca bakınız
@@ -17,7 +124,5 @@ public override VisitorAction AcceptStart(DocumentVisitor visitor)
 * enum [VisitorAction](../../../aspose.words/visitoraction/)
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

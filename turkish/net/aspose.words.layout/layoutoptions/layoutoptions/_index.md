@@ -2,8 +2,8 @@
 title: LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
-second_title: Aspose.Words for .NET
-description: LayoutOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir düzenler için LayoutOptions oluşturucusunu keşfedin. Tasarım esnekliğinizi artırmak ve kullanıcı deneyimini optimize etmek için varsayılan ayarların kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/layoutoptions/layoutoptions/

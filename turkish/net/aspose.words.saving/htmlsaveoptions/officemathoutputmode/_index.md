@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.OfficeMathOutputMode
 linktitle: OfficeMathOutputMode
 articleTitle: OfficeMathOutputMode
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions OfficeMathOutputMode mülk. OfficeMath nesnelerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerImage  C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi HTML, MHTML veya EPUB dışa aktarımları için HtmlSaveOptions' OfficeMathOutputMode'u keşfedin. OfficeMath nesne çıktısını kolaylıkla özelleştirin!
 type: docs
 weight: 400
 url: /tr/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property
 
-OfficeMath nesnelerinin HTML, MHTML veya EPUB'a nasıl aktarıldığını kontrol eder. Varsayılan değer:Image .
+OfficeMath nesnelerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını denetler. Varsayılan değerImage .
 
 ```csharp
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
@@ -23,14 +23,14 @@ Microsoft OfficeMath nesnelerinin HTML'ye nasıl aktarılacağının nasıl beli
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// Belgeyi HTML'e kaydettiğimizde, SaveOptions nesnesini geçirebiliriz
 // kaydetme işleminin OfficeMath nesnelerini nasıl işleyeceğini belirlemek için.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Image" olarak ayarlanması
-// her OfficeMath nesnesini bir görüntüye dönüştürecek.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.MathML" olarak ayarlanması
-// her OfficeMath nesnesini MathML'ye dönüştürecek.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Text" olarak ayarlanması
-// her OfficeMath formülünü düz HTML metni kullanarak temsil edecek.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.Image" olarak ayarlama
+// her OfficeMath nesnesini bir görüntüye dönüştürecektir.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.MathML" olarak ayarlama
+// her OfficeMath nesnesini MathML'ye dönüştürecektir.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.Text" olarak ayarlama
+// her OfficeMath formülünü düz HTML metni kullanarak temsil edecektir.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
@@ -39,16 +39,16 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.OfficeM
 switch (htmlOfficeMathOutputMode)
 {
     case HtmlOfficeMathOutputMode.Image:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
-                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"159\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
+                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
             "</p>").Success);
         break;
     case HtmlOfficeMathOutputMode.MathML:
         Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:center\">" +
-                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">" +
+                "<math xmlns=\"http://www.w3.org/1998/Matematik/MathML\">" +
                     "<mi>i</mi>" +
                     "<mo>[+]</mo>" +
                     "<mi>b</mi>" +

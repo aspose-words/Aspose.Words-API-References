@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.FontSavingCallback
 linktitle: FontSavingCallback
 articleTitle: FontSavingCallback
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions FontSavingCallback mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde yazı tiplerinin nasıl kaydedileceğini kontrol etmenizi sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions FontSavingCallback ile font kaydetmeyi kontrol edin. Belgelerinizi HTML, MHTML veya EPUB formatları için zahmetsizce optimize edin!
 type: docs
 weight: 300
 url: /tr/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 ---
 ## HtmlSaveOptions.FontSavingCallback property
 
-Bir belge HTML, MHTML veya EPUB'a kaydedildiğinde yazı tiplerinin nasıl kaydedileceğini kontrol etmenizi sağlar.
+Bir belge HTML, MHTML veya EPUB olarak kaydedildiğinde yazı tiplerinin nasıl kaydedileceğini kontrol etmenizi sağlar.
 
 ```csharp
 public IFontSavingCallback FontSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IFontSavingCallback FontSavingCallback { get; set; }
 
 ## Örnekler
 
-HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
+HTML'e kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,14 +26,14 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Yazı tiplerini ayrı dosyalara aktarmak için bir SaveOptions nesnesi yapılandırın.
-    // Yazı tipi kaydetmeyi özel bir şekilde gerçekleştirecek bir geri arama ayarlayın.
+    // Yazı tipi kaydetmeyi özel bir şekilde işleyecek bir geri çağırma ayarlayın.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // Geri arama, .ttf dosyalarını dışa aktaracak ve bunları çıktı belgesinin yanına kaydedecektir.
+    // Geri arama .ttf dosyalarını dışa aktaracak ve bunları çıktı belgesinin yanına kaydedecektir.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Dışa aktarılan yazı tipleri hakkındaki bilgileri yazdırır ve bunları çıktı .html'leriyle aynı yerel sistem klasörüne kaydeder.
+/// Dışa aktarılan yazı tipleri hakkında bilgi yazdırır ve bunları çıktı .html'leriyle aynı yerel sistem klasörüne kaydeder.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,10 +62,10 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsSubsettingNeeded);
 
         // Dışa aktarılan bir yazı tipini kaydetmenin iki yolu vardır.
-        // 1 - Yerel dosya sistemi konumuna kaydedin:
+        // 1 - Bunu yerel bir dosya sistemi konumuna kaydedin:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Bir akışa kaydedin:
+        // 2 - Bunu bir akışa kaydedin:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

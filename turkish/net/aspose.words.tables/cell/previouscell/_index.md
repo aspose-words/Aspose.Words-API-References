@@ -2,8 +2,8 @@
 title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
-second_title: Aspose.Words for .NET
-description: Cell PreviousCell mülk. Öncekini alırCell düğüm C#'da.
+second_title: .NET için Aspose.Words
+description: Cell PreviousCell özelliği ile önceki Cell düğümüne zahmetsizce erişin. Veri gezintinizi geliştirin ve kodlama sürecinizi hızlandırın.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.tables/cell/previouscell/
@@ -18,17 +18,17 @@ public Cell PreviousCell { get; }
 
 ## Notlar
 
-Bu yöntem, bir hücrenin hücrelerine yazarak erişmeniz gerektiğinde kullanılabilir.[`Row`](../../row/) . Eğer a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) düğüm bir hücre yerine bir satırda bulunursa, içinde yer alan bir hücreyi elde etmek için otomatik olarak geçilir.
+Bu yöntem, bir dosyanın hücrelerine yazılı erişime ihtiyaç duyduğunuzda kullanılabilir.[`Row`](../../row/) Eğer a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) düğüm bir hücre yerine bir satırda bulunursa, içinde bulunan bir hücreyi almak için otomatik olarak dolaştırılır
 
 ## Örnekler
 
-Tüm tablo hücrelerinin nasıl numaralandırılacağını gösterir.
+Tüm tablo hücrelerinde numaralandırmanın nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-//Tablonun tüm hücrelerini numaralandırıyoruz.
+// Tablonun tüm hücrelerini numaralandır.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

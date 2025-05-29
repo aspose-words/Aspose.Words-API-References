@@ -2,15 +2,15 @@
 title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions MergePastedLists mülk. Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştirilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ImportFormatOptions MergePastedLists özelliğiyle kontrol listesi birleştirme. Belge biçimlendirmesini geliştirmek için yapıştırılan listeleri kolayca yönetin. Varsayılan, false.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştirilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+Yapıştırılan listelerin çevreleyen listelerle birleştirilip birleştirilmeyeceğini belirten bir Boole değeri alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool MergePastedLists { get; set; }
@@ -26,7 +26,7 @@ Document dstDoc = new Document(MyDir + "List destination.docx");
 
 ImportFormatOptions options = new ImportFormatOptions { MergePastedLists = true };
 
-// "MergePastedLists" özelliğini "true" olarak ayarlayın, yapıştırılan listeler çevredeki listelerle birleştirilecektir.
+// "MergePastedLists" özelliğini "true" olarak ayarlayın, yapıştırılan listeler çevresindeki listelerle birleştirilecektir.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 
 dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");

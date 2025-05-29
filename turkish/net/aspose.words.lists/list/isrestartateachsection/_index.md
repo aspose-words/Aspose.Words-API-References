@@ -2,15 +2,15 @@
 title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
 articleTitle: IsRestartAtEachSection
-second_title: Aspose.Words for .NET
-description: List IsRestartAtEachSection mülk. Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Bölümlerdeki liste numaralandırmasını kontrol etmek için IsRestartAtEachSection özelliğini keşfedin. Bu kullanımı kolay özellik ile belge organizasyonunu geliştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
+Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -18,9 +18,9 @@ public bool IsRestartAtEachSection { get; set; }
 
 ## Notlar
 
-Bu seçenek yalnızca RTF, DOC ve DOCX belge formatlarında desteklenir.
+Bu seçenek yalnızca RTF, DOC ve DOCX belge biçimlerinde desteklenir.
 
-Bu seçenek yalnızca şu durumlarda DOCX'e yazılacaktır:[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) o zaman daha yüksekEcma376_2006.
+Bu seçenek yalnızca DOCX'e yazılır.[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) o zaman daha yüksektirEcma376_2006.
 
 ## Örnekler
 
@@ -36,7 +36,7 @@ Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
 // "IsRestartAtEachSection" özelliği yalnızca şu durumlarda geçerli olacaktır:
-// belgenin OOXML uyumluluk düzeyi "OoxmlComplianceCore.Ecma376"dan daha yeni bir standarttır.
+// belgenin OOXML uyumluluk düzeyi "OoxmlComplianceCore.Ecma376" standardından daha yeni bir standarda uygundur.
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

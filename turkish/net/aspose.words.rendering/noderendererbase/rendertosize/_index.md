@@ -2,15 +2,15 @@
 title: NodeRendererBase.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
-second_title: Aspose.Words for .NET
-description: NodeRendererBase RenderToSize yöntem. Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin C#'da.
+second_title: .NET için Aspose.Words
+description: Geliştirilmiş görsel çıktı için şekilleri istediğiniz boyutta Grafik nesnelerine verimli bir şekilde dönüştürmek üzere NodeRendererBase RenderToSize yöntemini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin.
+Şekli birGraphics nesnesini belirtilen bir boyuta ayarlayın.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -18,19 +18,19 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| graphics | Graphics | Oluşturulacak nesne. |
+| graphics | Graphics | Hangi nesneye render yapılacağı. |
 | x | Single | İşlenen şeklin sol üst köşesinin X koordinatı (dünya birimleri cinsinden). |
 | y | Single | İşlenen şeklin sol üst köşesinin Y koordinatı (dünya birimleri cinsinden). |
-| width | Single | İşlenen şeklin kaplayabileceği maksimum genişlik (dünya birimleri cinsinden). |
-| height | Single | İşlenen şeklin kaplayabileceği maksimum yükseklik (dünya birimleri cinsinden). |
+| width | Single | İşlenen şeklin kaplayabileceği maksimum genişlik (dünya birimi cinsinden). |
+| height | Single | Oluşturulan şeklin kaplayabileceği maksimum yükseklik (dünya birimi cinsinden). |
 
 ### Geri dönüş değeri
 
-Oluşturulan şeklin belirtilen boyuta sığması için otomatik olarak hesaplanan ölçek.
+İşlenen şeklin belirtilen boyuta uyması için otomatik olarak hesaplanan ölçek.
 
 ## Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl işleneceğini ve Windows Form kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -40,8 +40,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
+    // Aşağıda, bir şekli Graphics nesnesine işlemek için "ShapeRenderer" sınıfını kullanmanın iki yolu bulunmaktadır.
+    // 1 - Bir grafikle bir şekil oluştur ve onu belirli bir ölçeğe göre işle.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -52,7 +52,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
+    // 2 - Bir şekil grubu oluştur ve onu belirli bir boyuta getir.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -82,7 +82,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Şekillerin bir listesini oluşturur ve görüntüler.
+/// Şekillerin listesini oluşturur ve görüntüler.
 /// </summary>
 private class ShapeForm : Form
 {

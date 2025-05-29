@@ -2,10 +2,10 @@
 title: IChartDataPoint Interface
 linktitle: IChartDataPoint
 articleTitle: IChartDataPoint
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.IChartDataPoint arayüz. Grafikteki tek bir veri noktasının özelliklerini içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Ayrıntılı grafik veri noktası özellikleri için Aspose.Words.Drawing.Charts.IChartDataPoint arayüzünü keşfedin. Veri görselleştirmenizi zahmetsizce geliştirin!
 type: docs
-weight: 900
+weight: 1220
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -20,14 +20,14 @@ public interface IChartDataPoint
 
 | İsim | Tanım |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif, özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir. |
-| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Bir veri işaretçisini belirtir. İşaretleyici istendiğinde otomatik olarak oluşturulur. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Kabarcık grafiğindeki kabarcıklara 3 boyutlu efekt uygulanıp uygulanmayacağını belirtir. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif özelliğin ayarlanmadığı ve herhangi bir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca pasta grafikleri için geçerlidir. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Değer negatifse üst öğenin renklerini tersine çevirip çevirmeyeceğini belirtir. |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Bir veri işaretçisi belirtir. İşaretleyici, talep edildiğinde otomatik olarak oluşturulur. |
 
 ## Örnekler
 
-Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
+Bir çizgi grafiğinde veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ChartDataPoint()
@@ -43,14 +43,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
-    foreach (ChartSeries series in chart.Series) 
+    // Grafiğin veri noktalarını elmas şekilleri şeklinde göstererek vurgulayın.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
+    // İlk serinin veri noktalarının, değer negatif olduğunda renklerinin tersine dönmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -59,17 +59,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için formatı tek tek temizleyebiliriz.
+    dataPoint.ClearFormat();
+
+    // Ayrıca bir dizi veri noktasını aynı anda soyabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Bir diziye bir dizi veri noktası uygular.
+/// Bir diziye belirli sayıda veri noktası uygular.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

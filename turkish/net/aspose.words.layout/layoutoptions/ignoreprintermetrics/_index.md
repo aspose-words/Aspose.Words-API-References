@@ -2,15 +2,15 @@
 title: LayoutOptions.IgnorePrinterMetrics
 linktitle: IgnorePrinterMetrics
 articleTitle: IgnorePrinterMetrics
-second_title: Aspose.Words for .NET
-description: LayoutOptions IgnorePrinterMetrics mülk. Belgeyi düzenlemek için yazıcı ölçümlerini kullan uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılandoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: LayoutOptions IgnorePrinterMetrics özelliğini keşfedin, belge düzeni için yazıcı ölçümlerini kontrol edin. Uyumluluğu iyileştirin ve yazdırma hassasiyetini artırın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
 ## LayoutOptions.IgnorePrinterMetrics property
 
-"Belgeyi düzenlemek için yazıcı ölçümlerini kullan" uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılan:`doğru` .
+"Belgeyi düzenlemek için yazıcı ölçümlerini kullan" uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılan`doğru` .
 
 ```csharp
 public bool IgnorePrinterMetrics { get; set; }
@@ -18,7 +18,7 @@ public bool IgnorePrinterMetrics { get; set; }
 
 ## Örnekler
 
-'Belgeyi düzenlemek için yazıcı ölçümlerini kullan' seçeneğinin nasıl göz ardı edileceğini gösterir.
+'Belgeyi düzenlemek için yazıcı ölçütlerini kullan' seçeneğinin nasıl göz ardı edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -2,17 +2,17 @@
 title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.BorderType Sıralama. Kenarlığın kenarlarını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir kenarlık seçenekleri için Aspose.Words.BorderType enum'unu keşfedin. Belgelerinizi hassas kenarlık kontrolü ve stiliyle geliştirin!
 type: docs
-weight: 100
+weight: 290
 url: /tr/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
-Kenarlığın kenarlarını belirtir.
+Bir kenarlığın kenarlarını belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) belgeleme makalesi.
 
 ```csharp
 public enum BorderType
@@ -27,8 +27,8 @@ public enum BorderType
 | Left | `1` | Bir paragrafın veya tablo hücresinin sol kenarlığını belirtir. |
 | Right | `2` | Bir paragrafın veya tablo hücresinin sağ kenarlığını belirtir. |
 | Top | `3` | Bir paragrafın veya tablo hücresinin üst kenarlığını belirtir. |
-| Horizontal | `4` | Tablodaki hücreler arasındaki veya uyumlu paragraflar arasındaki yatay kenarlığı belirtir. |
-| Vertical | `5` | Tablodaki hücreler arasındaki dikey sınırı belirtir. |
+| Horizontal | `4` | Bir tablodaki hücreler veya uyumlu paragraflar arasındaki yatay kenarlığı belirtir. |
+| Vertical | `5` | Bir tabloda hücreler arasındaki dikey kenarlığı belirtir. |
 | DiagonalDown | `6` | Bir tablo hücresindeki çapraz kenarlığı belirtir. |
 | DiagonalUp | `7` | Bir tablo hücresindeki çapraz kenarlığı belirtir. |
 

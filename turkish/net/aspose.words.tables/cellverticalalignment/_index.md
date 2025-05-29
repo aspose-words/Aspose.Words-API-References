@@ -2,15 +2,15 @@
 title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.CellVerticalAlignment Sıralama. Bir tablo hücresi içindeki metnin dikey hizalamasını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Tablo hücrelerinde optimum metin hizalaması için Aspose.Words.Tables.CellVerticalAlignment enum'unu keşfedin. Belge düzeninizi zahmetsizce geliştirin!
 type: docs
-weight: 6280
+weight: 7130
 url: /tr/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
 
-Bir tablo hücresi içindeki metnin dikey hizalamasını belirtir.
+Bir tablo hücresinin içindeki metnin dikey hizalamasını belirtir.
 
 ```csharp
 public enum CellVerticalAlignment
@@ -20,13 +20,13 @@ public enum CellVerticalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Top | `0` | Metin hücrenin üstüne hizalanır. |
-| Center | `1` | Metin hücrenin ortasına hizalanır. |
+| Top | `0` | Metin bir hücrenin en üstüne hizalanır. |
+| Center | `1` | Metin bir hücrenin ortasına hizalanır. |
 | Bottom | `2` | Metin hücrenin altına hizalanır. |
 
 ## Örnekler
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

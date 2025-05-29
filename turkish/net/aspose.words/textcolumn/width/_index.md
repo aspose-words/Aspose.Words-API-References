@@ -2,15 +2,15 @@
 title: TextColumn.Width
 linktitle: Width
 articleTitle: Width
-second_title: Aspose.Words for .NET
-description: TextColumn Width mülk. Metin sütununun genişliğini nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş düzen kontrolü ve okunabilirlik için metin sütununuzun genişliğini noktalar halinde kolayca özelleştirmek üzere TextColumn Width özelliğini ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textcolumn/width/
 ---
 ## TextColumn.Width property
 
-Metin sütununun genişliğini nokta cinsinden alır veya ayarlar.
+Metin sütununun genişliğini noktalar halinde alır veya ayarlar.
 
 ```csharp
 public double Width { get; set; }
@@ -18,7 +18,7 @@ public double Width { get; set; }
 
 ## Örnekler
 
-Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
+Eşit olmayan aralıklı sütunların nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Sütunları düzenlemek için elimizde bulunan alan miktarını belirleyin.
+// Sütunları düzenlemek için kullanabileceğimiz alan miktarını belirleyelim.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// İlk sütunu dar olacak şekilde ayarlayın.
+// İlk sütunu dar olarak ayarla.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// İkinci sütunu, sayfanın kenar boşluklarındaki kalan alanı kaplayacak şekilde ayarlayın.
+// İkinci sütunun, sayfanın kenar boşlukları içinde kalan boş alanı kaplamasını sağlar.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

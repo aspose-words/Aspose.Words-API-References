@@ -2,8 +2,8 @@
 title: FieldAutoText.EntryName
 linktitle: EntryName
 articleTitle: EntryName
-second_title: Aspose.Words for .NET
-description: FieldAutoText EntryName mülk. Otomatik Metin girişinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge otomasyonunuzu ve verimliliğinizi artırmak için Otomatik Metin giriş adlarını kolayca yönetmek üzere FieldAutoText EntryName özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldautotext/entryname/
@@ -18,7 +18,7 @@ public string EntryName { get; set; }
 
 ## Örnekler
 
-OTOMETİN ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
+Bir yapı bloğunun AUTOTEXT ve GLOSSARY alanlarıyla nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Bir kaynak oluşturun ve bunu yapı taşımıza metin olarak ekleyin.
+// Bir kaynak oluşturup bunu yapı taşımıza metin olarak ekleyelim.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -46,14 +46,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu verilmiştir.
-// 1 - OTOMETİN alanını kullanma:
+// Aşağıda yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu bulunmaktadır.
+// 1 - AUTOTEXT alanının kullanılması:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - SÖZLÜK alanını kullanma:
+// 2 - GLOSSARY alanının kullanılması:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

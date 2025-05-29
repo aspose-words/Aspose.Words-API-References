@@ -2,15 +2,15 @@
 title: FormField.TextInputFormat
 linktitle: TextInputFormat
 articleTitle: TextInputFormat
-second_title: Aspose.Words for .NET
-description: FormField TextInputFormat mülk. Metin form alanı için metin formatını döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Formlarınız için metin biçimlendirmesini kolayca özelleştirmek, kullanıcı deneyimini ve veri toplamayı geliştirmek için FormField TextInputFormat özelliğini keşfedin.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.fields/formfield/textinputformat/
 ---
 ## FormField.TextInputFormat property
 
-Metin form alanı için metin formatını döndürür veya ayarlar.
+Bir metin form alanı için metin biçimlendirmesini döndürür veya ayarlar.
 
 ```csharp
 public string TextInputFormat { get; set; }
@@ -18,15 +18,15 @@ public string TextInputFormat { get; set; }
 
 ## Notlar
 
-Metin formu alanı normal metin içeriyorsa, geçerli biçim dizeleri şunlardır: "", "BÜYÜK HARF", "KÜÇÜK HARF", "İLK BÜYÜK HARF" ve "BAŞLIK HARFİ". strings büyük/küçük harfe duyarlı değildir.
+Metin form alanı normal metin içeriyorsa, geçerli biçim dizeleri şunlardır: "", "UPPERCASE", "LOWERCASE", "FIRSTYLE CAPITAL" ve "TITLE CASE". dizeleri büyük/küçük harfe duyarlı değildir.
 
-Metin formu alanı bir sayı veya tarih/saat değeri içeriyorsa valid biçim dizeleri sayı veya tarih ve saat biçimi dizeleridir.
+Metin form alanı bir sayı veya tarih/saat değeri içeriyorsa, valid biçim dizeleri sayı veya tarih ve saat biçim dizeleridir.
 
-Microsoft Word, en fazla 64 karakterden oluşan dizelere izin verir.
+Microsoft Word en fazla 64 karakter uzunluğundaki dizelere izin verir.
 
 ## Örnekler
 
-Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
+Farklı türdeki form alanlarının bir belgeye nasıl ekleneceğini ve belge ziyaretçisi uygulaması kullanılarak nasıl işleneceğini gösterir.
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Birleşik giriş kutusu eklemek için bir belge oluşturucu kullanın.
+    // Bir birleşik kutu eklemek için bir belge oluşturucu kullanın.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Onay kutusu eklemek için belge oluşturucuyu kullanın.
+    // Onay kutusu eklemek için bir belge oluşturucu kullanın.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -58,7 +58,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Metin giriş formu alanını eklemek için bir belge oluşturucu kullanın.
+    // Metin giriş formu alanına metin eklemek için bir belge oluşturucu kullanın.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -73,9 +73,9 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Alanlar form alanlarımızı gösterir. Bu belgeyi açarak alan kodlarını görebiliriz.
-    // Microsoft'ta ve Alt + F9 tuşlarına basıyorum. Bu alanların anahtarları yoktur,
-    // ve FormField nesnesinin üyeleri, form alanlarının içeriğini tamamen yönetir.
+    // Alanlar form alanlarımızı görüntüler. Bu belgeyi açarak alan kodlarını görebiliriz
+    // Microsoft'ta ve Alt + F9'a basarak. Bu alanların anahtarı yok,
+    // ve FormField nesnesinin üyeleri form alanlarının içeriğini tam olarak yönetir.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -95,7 +95,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması.
+ /// Ziyaretçinin ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -131,12 +131,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin verin.
+        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin ver.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Geçerli çıktıya yeni satır karakteriyle sonlandırılmış metni ekler.
+    /// Geçerli çıktıya yeni satır karakterle sonlandırılmış metin ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -144,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {

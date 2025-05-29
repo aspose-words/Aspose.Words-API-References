@@ -2,15 +2,15 @@
 title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
-second_title: Aspose.Words for .NET
-description: TextBox InternalMarginTop mülk. Şeklin iç üst kenar boşluğunu nokta cinsinden belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: TextBox InternalMarginTop özelliğini keşfedin; şeklinizin üst kenar boşluğunu noktalarla kontrol ederek hassas düzen ve gelişmiş tasarım esnekliği elde edin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-Şeklin iç üst kenar boşluğunu nokta cinsinden belirtir.
+Bir şekil için iç üst kenar boşluğunu noktalarla belirtir.
 
 ```csharp
 public double InternalMarginTop { get; set; }
@@ -28,7 +28,7 @@ Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını göst
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belirli kenar boşluklarına sahip başka bir metin kutusu ekleyin.
+// Belirli kenar boşluklarına sahip başka bir metin kutusu ekle.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

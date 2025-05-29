@@ -2,15 +2,15 @@
 title: EditableRange.EditorGroup
 linktitle: EditorGroup
 articleTitle: EditorGroup
-second_title: Aspose.Words for .NET
-description: EditableRange EditorGroup mülk. Geçerli user kullanıcısının bu düzenlenebilir aralığı düzenlemesine izin verilip verilmeyeceğini belirlemek için kullanılacak bir takma adı veya düzenleme grubunu döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: EditableRange EditorGroup özelliğiyle kullanıcı izinlerini zahmetsizce yönetin ve gelişmiş işbirliği için düzenleme erişimini kontrol edin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/editablerange/editorgroup/
 ---
 ## EditableRange.EditorGroup property
 
-Geçerli user kullanıcısının bu düzenlenebilir aralığı düzenlemesine izin verilip verilmeyeceğini belirlemek için kullanılacak bir takma adı (veya düzenleme grubunu) döndürür veya ayarlar.
+Mevcut kullanıcının bu düzenlenebilir aralığı düzenlemesine izin verilip verilmeyeceğini belirlemek için kullanılacak bir takma ad (veya düzenleme grubu) döndürür veya ayarlar.
 
 ```csharp
 public EditorType EditorGroup { get; set; }
@@ -18,7 +18,7 @@ public EditorType EditorGroup { get; set; }
 
 ## Notlar
 
-Belirli düzenlenebilir aralık için tek kullanıcı ve editör grubu aynı anda ayarlanamaz, biri ayarlanmışsa diğeri net olacaktır.
+Belirli düzenlenebilir aralık için tek kullanıcı ve editör grubu aynı anda ayarlanamaz, biri ayarlandığında diğeri temizlenir.
 
 ## Örnekler
 
@@ -32,16 +32,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
                 "we cannot edit this paragraph without the password.");
 
-// İç içe geçmiş iki düzenlenebilir aralık oluşturun.
+// İç içe iki düzenlenebilir aralık oluştur.
 EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
 
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// Şu anda, belge oluşturucunun düğüm ekleme imleci birden fazla devam eden düzenlenebilir aralıktadır.
+// Şu anda, belge oluşturucunun düğüm ekleme imleci birden fazla devam eden düzenlenebilir aralıkta.
 // Bu durumda düzenlenebilir bir aralığı sonlandırmak istediğimizde,
-// EditableRangeStart düğümünü geçerek hangi aralıkları bitirmek istediğimizi belirtmemiz gerekiyor.
+// EditableRangeStart düğümünü geçirerek hangi aralıkların sonlandırılmasını istediğimizi belirtmemiz gerekiyor.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -50,15 +50,15 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Metnin bir bölgesinde belirtilen gruplarla çakışan iki düzenlenebilir aralık varsa,
-// her iki grup tarafından hariç tutulan birleştirilmiş kullanıcı grubunun onu düzenlemesi engellenir.
+// Bir metin bölgesinin belirtilen gruplara sahip iki örtüşen düzenlenebilir aralığı varsa,
+// Her iki grup tarafından hariç tutulan kullanıcıların birleşik grubunun bunu düzenlemesi engellenir.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
 doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 ```
 
-Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
+Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlanacağını gösterir.
 
 ```csharp
 public void Visitor()
@@ -71,7 +71,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // Belgeleri yazmaya karşı koruduğumuzda, düzenlenebilir aralıklar kullanıcıların düzenleyebileceği belirli alanları seçmemize olanak tanır.
-    // İzin verilen düzenleyicilerin listesini daraltmanın birbirini dışlayan iki yolu vardır.
+    // İzin verilen editörlerin listesini daraltmanın iki karşılıklı olarak özel yolu vardır.
     // 1 - Bir kullanıcı belirtin:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -80,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grup belirtin:
+    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grubu belirtin:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -90,7 +90,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriğini yazdırın.
+    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriklerini yazdır.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriğini bir dizede toplar.
+/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriklerini bir dizgede toplar.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {

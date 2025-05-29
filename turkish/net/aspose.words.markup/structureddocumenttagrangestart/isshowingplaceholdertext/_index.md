@@ -2,17 +2,17 @@
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText mülk. Bu yapılandırılmış belge etiketinin içeriğinin yapılandırılmış belge etiketi içindeki normal metin içeriklerinin aksine yer tutucu metni içerecek şekilde yorumlanıp yorumlanmayacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTagRangeStart'ın IsShowingPlaceholderText özelliğini keşfedin. Yapılandırılmış belgelerinizde yer tutucu ile normal metni kolayca yönetin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Bu yapılandırılmış belge etiketinin içeriğinin, (yapılandırılmış belge etiketi içindeki normal metin içeriklerinin aksine) yer tutucu metni içerecek şekilde yorumlanıp yorumlanmayacağını belirtir.
+Bu yapılandırılmış belge etiketinin içeriğinin, yer tutucu metni (yapılandırılmış belge etiketindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanıp yorumlanmayacağını belirtir.
 
-olarak ayarlanmışsa`doğru` , bu durum bu belge açıldığında devam ettirilecektir (yer tutucu metni göstererek).
+olarak ayarlanırsa`doğru` , bu belge açıldığında bu durum devam ettirilecektir (yer tutucu metni gösteriliyor).
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

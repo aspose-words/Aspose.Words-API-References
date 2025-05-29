@@ -2,15 +2,15 @@
 title: TableStyle.ColumnStripe
 linktitle: ColumnStripe
 articleTitle: ColumnStripe
-second_title: Aspose.Words for .NET
-description: TableStyle ColumnStripe mülk. Stil tek/çift sütun bantlamasını belirttiğinde bantlamaya dahil edilecek sütun sayısını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablolarınızda cilalı, profesyonel bir görünüm için tek/çift sütun bantlarını kolayca özelleştirmek amacıyla TableStyle ColumnStripe özelliğini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property
 
-Stil tek/çift sütun bantlamasını belirttiğinde, bantlamaya dahil edilecek sütun sayısını alır veya ayarlar.
+Stil tek/çift sütun bantlamasını belirttiğinde bantlamaya dahil edilecek sütun sayısını alır veya ayarlar.
 
 ```csharp
 public int ColumnStripe { get; set; }
@@ -18,17 +18,17 @@ public int ColumnStripe { get; set; }
 
 ## Örnekler
 
-Satırlar arasında geçiş yapan koşullu tablo stillerinin nasıl oluşturulacağını gösterir.
+Satırlar arasında dönüşümlü koşullu tablo stilleri oluşturmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Satıra/sütuna farklı bir renk uygulamak için bir tablonun koşullu stilini yapılandırabiliriz,
-// satırın/sütunun çift veya tek olmasına bağlı olarak alternatif bir renk deseni oluşturulur.
-// Satır/sütun bantlamasına da n sayısını uygulayabiliriz,
-// rengin bir yerine her n satır/sütun sonrasında değişeceği anlamına gelir.
-// Tek sütunların ve satırların bantlanacağı, sütunların üçlü bantlanacağı bir tablo oluşturun.
+// Bir tablonun satır/sütununa farklı bir renk uygulamak için koşullu bir stilini yapılandırabiliriz,
+// satır/sütunun çift ya da tek olmasına göre değişen renk deseni oluşturur.
+// Satır/sütun bantlamasına n sayısını da uygulayabiliriz,
+// yani renk her n satır/sütun sonrasında bir yerine dönüşümlü olarak değişir.
+// Tek sütunların ve satırların sütunları üçlü olarak bantlayacağı bir tablo oluşturun.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -42,27 +42,27 @@ for (int i = 0; i < 15; i++)
 }
 builder.EndTable();
 
-// Tablonun tüm kenarlarına çizgi stili uygulayın.
+// Tablonun tüm kenarlarına bir çizgi stili uygula.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Her 3 satırda bir değişecek olan iki rengi ayarlayın.
+// Her 3 satırda dönüşümlü olacak iki rengi ayarlayın.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Her çift sütuna uygulanacak, özel satır renklendirmesini geçersiz kılacak bir renk belirleyin.
+// Her çift sütuna uygulanacak bir renk ayarlayın; bu, özel satır renklendirmesini geçersiz kılacaktır.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// "StyleOptions" özelliği varsayılan olarak satır bantlamayı etkinleştirir.
+// "StyleOptions" özelliği varsayılan olarak satır bantlamasını etkinleştirir.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Sütun bantlamayı etkinleştirmek için "StyleOptions" özelliğini de kullanın.
+// Sütun bantlamasını etkinleştirmek için "StyleOptions" özelliğini de kullanın.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

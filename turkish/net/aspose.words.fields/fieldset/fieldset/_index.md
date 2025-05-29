@@ -2,8 +2,8 @@
 title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
-second_title: Aspose.Words for .NET
-description: FieldSet inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Dinamik formları zahmetsizce oluşturmak için temel araç olan FieldSet oluşturucusunu keşfedin. Bugün kusursuz kullanıcı deneyimlerinin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldset/fieldset/

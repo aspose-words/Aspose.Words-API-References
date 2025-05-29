@@ -2,10 +2,10 @@
 title: AxisBuiltInUnit Enum
 linktitle: AxisBuiltInUnit
 articleTitle: AxisBuiltInUnit
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit Sıralama. Bir eksen için görüntüleme birimlerini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir eksen görüntüleme birimleri için Aspose.Words.Drawing.Charts.AxisBuiltInUnit enum'unu keşfedin, grafiğinizin netliğini ve etkinliğini artırın.
 type: docs
-weight: 520
+weight: 760
 url: /tr/net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 ## AxisBuiltInUnit enumeration
@@ -20,22 +20,22 @@ public enum AxisBuiltInUnit
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Grafikteki değerlerin bu şekilde görüntülenmesini belirtir. |
-| Custom | `1` | Grafikteki değerlerin kullanıcı tanımlı bir bölene bölünmesi gerektiğini belirtir. Bu değer, MS Office 2016'nın yeni grafik türleri tarafından desteklenmemektedir . |
-| Billions | `2` | Grafikteki değerlerin 1.000.000.000'e bölünmesi gerektiğini belirtir. |
-| HundredMillions | `3` | Grafikteki değerlerin 100.000.000'e bölünmesi gerektiğini belirtir. |
-| Hundreds | `4` | Grafikteki değerlerin 100'e bölünmesi gerektiğini belirtir. |
-| HundredThousands | `5` | Grafikteki değerlerin 100.000'e bölünmesi gerektiğini belirtir. |
-| Millions | `6` | Grafikteki değerlerin 1.000.000'e bölünmesi gerektiğini belirtir. |
-| TenMillions | `7` | Grafikteki değerlerin 10.000.000'e bölünmesi gerektiğini belirtir. |
-| TenThousands | `8` | Grafikteki değerlerin 10.000'e bölünmesi gerektiğini belirtir. |
-| Thousands | `9` | Grafikteki değerlerin 1.000'e bölünmesi gerektiğini belirtir. |
-| Trillions | `10` | Grafikteki değerlerin 1.000.000.000.0000'e bölünmesi gerektiğini belirtir. |
-| Percentage | `11` | Grafikteki değerlerin 0,01'e bölünmesi gerektiğini belirtir. Bu değer yalnızca MS Office 2016'nın yeni chart türleri tarafından desteklenir. |
+| None | `0` | Grafikteki değerlerin olduğu gibi görüntülenmesini belirtir. |
+| Custom | `1` | Grafikteki değerlerin kullanıcı tanımlı bir bölenle bölünmesini belirtir. Bu değer, MS Office 2016'nın yeni grafik türleri tarafından desteklenmez. |
+| Billions | `2` | Grafikteki değerlerin 1.000.000.000'a bölünmesini belirtir. |
+| HundredMillions | `3` | Grafikteki değerlerin 100.000.000'a bölünmesini belirtir. |
+| Hundreds | `4` | Grafikteki değerlerin 100'e bölünmesini belirtir. |
+| HundredThousands | `5` | Grafikteki değerlerin 100.000'e bölünmesini belirtir. |
+| Millions | `6` | Grafikteki değerlerin 1.000.000'a bölünmesini belirtir. |
+| TenMillions | `7` | Grafikteki değerlerin 10.000.000'a bölünmesini belirtir. |
+| TenThousands | `8` | Grafikteki değerlerin 10.000'e bölünmesini belirtir. |
+| Thousands | `9` | Grafikteki değerlerin 1.000'e bölünmesini belirtir. |
+| Trillions | `10` | Grafikteki değerlerin 1.000.000.000.0000'a bölünmesini belirtir. |
+| Percentage | `11` | Grafikteki değerlerin 0,01'e bölünmesini belirtir. Bu değer yalnızca MS Office 2016'nın yeni chart türleri tarafından desteklenir. |
 
 ## Örnekler
 
-Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
+Bir grafik ekseninin işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,43 +47,44 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Y ekseninin küçük onay işaretlerini çizim alanından uzağa bakacak şekilde ayarlayın,
-// ve ekseni geçmek için ana onay işaretleri.
+// Y ekseninin küçük işaretlerini çizim alanından uzağa bakacak şekilde ayarlayın,
+// ve ekseni geçmek için büyük işaretler.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Y eksenini her 10 birimde bir büyük işaret ve her 1 birimde bir küçük işaret gösterecek şekilde ayarlayın.
+// Y eksenini her 10 birimde bir büyük bir işaret ve her 1 birimde bir küçük bir işaret gösterecek şekilde ayarlayın.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Y ekseni sınırlarını -10 ve 20 olarak ayarlayın.
-// Bu Y ekseni artık 4 ana onay işareti ve 27 küçük onay işareti görüntüleyecek.
+// Y ekseninin sınırlarını -10 ve 20 olarak ayarlayın.
+// Bu Y ekseni artık 4 ana işaret ve 27 küçük işaret gösterecek.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// X ekseni için her 10 birimde ana onay işaretlerini ayarlayın,
-// 2,5 birimdeki her küçük onay işareti.
+// X ekseni için, ana işaret noktalarını her 10 birimde bir ayarlayın,
+// her küçük tik işareti 2,5 birimde.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Her iki onay işareti türünü de grafik çizim alanında görünecek şekilde yapılandırın.
+// Her iki tür işaretin de grafik çizim alanı içerisinde görünmesini yapılandırın.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// X ekseni sınırlarını, X ekseni 5 ana onay işaretini ve 12 ikincil onay işaretini kapsayacak şekilde ayarlayın.
+// X ekseninin sınırlarını, X ekseninin 5 ana çizgi ve 12 küçük çizgiyi kapsayacak şekilde ayarlayın.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabelSpacing);
+Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
-// Onay etiketlerini değerlerini milyon cinsinden gösterecek şekilde ayarlayın.
+// Tik etiketlerini milyon cinsinden değerlerini gösterecek şekilde ayarlayın.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Onay etiketlerinin değerlerini göstereceği daha spesifik bir değer ayarlayabiliriz.
-// Bu ifade yukarıdakine eşdeğerdir.
+// Tik etiketlerinin değerlerini hangi değere göre görüntüleyeceğini daha spesifik bir değere ayarlayabiliriz.
+// Bu ifade yukarıdaki ifadeye eşdeğerdir.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```

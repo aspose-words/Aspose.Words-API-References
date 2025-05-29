@@ -2,10 +2,10 @@
 title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
-second_title: Aspose.Words for .NET
-description: Font StrikeThrough mülk. Yazı tipi üstü çizili metin olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Font StrikeThrough özelliğini keşfedin. Tasarımlarınızda net görsel vurgular için metni kolayca üstü çizili olarak biçimlendirin. Okunabilirliği bugün artırın!
 type: docs
-weight: 390
+weight: 400
 url: /tr/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## Örnekler
 
-Metne üstü çizili çizginin nasıl ekleneceğini gösterir.
+Metne çizgi üstü çizmenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

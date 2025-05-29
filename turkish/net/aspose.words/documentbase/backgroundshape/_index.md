@@ -2,15 +2,15 @@
 title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
-second_title: Aspose.Words for .NET
-description: DocumentBase BackgroundShape mülk. Belgenin arka plan şeklini alır veya ayarlar. Olabilirhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBase BackgroundShape özelliğini keşfedin, gelişmiş görsel çekicilik için belgenizin arka plan şeklini kolayca özelleştirin. Tasarım potansiyelinizi en üst düzeye çıkarın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Belgenin arka plan şeklini alır veya ayarlar. Olabilir`hükümsüz` .
+Belgenin arka plan şeklini alır veya ayarlar.`hükümsüz` .
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -18,15 +18,15 @@ public Shape BackgroundShape { get; set; }
 
 ## Notlar
 
-Microsoft Word yalnızca kendine ait bir şekle izin verir[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) özellik equal -Rectangle bir belge için arka plan şekli olarak kullanılacak.
+Microsoft Word yalnızca kendi şekline sahip bir şekle izin verir[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) özellik equal toRectangle Bir belgenin arka plan şekli olarak kullanılmak üzere.
 
-Microsoft Word yalnızca arka plan şeklinin dolgu özelliklerini destekler. Diğer tüm özellikler yoksayılır.
+Microsoft Word yalnızca arka plan şeklinin dolgu özelliklerini destekler. Diğer tüm properties yoksayılır.
 
-Bu özelliğin null olmayan bir değere ayarlanması aynı zamanda[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) ile`doğru`.
+Bu özelliğin boş olmayan bir değere ayarlanması, aynı zamanda[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) ile`doğru`.
 
 ## Örnekler
 
-Bir belgenin her sayfası için arka plan şeklinin nasıl ayarlanacağını gösterir.
+Bir belgenin her sayfası için bir arka plan şeklinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.FlatColor.docx");
 shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 shapeRectangle.ImageData.SetImage(ImageDir + "Transparent background logo.png");
 
-// Filigran olarak daha uygun hale getirmek için görüntünün görünümünü ayarlayın.
+// Resmin görünümünü filigran olarak daha uygun hale getirmek için ayarlayın.
 shapeRectangle.ImageData.Contrast = 0.2;
 shapeRectangle.ImageData.Brightness = 0.7;
 
@@ -61,7 +61,7 @@ Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSave
 };
 
 // Microsoft Word, arka plan olarak resim içeren şekilleri desteklemez,
-// ancak bu arka planları hala .pdf gibi diğer kaydetme formatlarında görebiliriz.
+// ancak bu arka planları .pdf gibi diğer kayıt formatlarında da görebiliriz.
 doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 

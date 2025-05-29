@@ -2,10 +2,10 @@
 title: ShapeBase.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET
-description: ShapeBase Name mülk. İsteğe bağlı şekil adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: İsteğe bağlı şekil adlarını kolayca yönetmek, tasarım esnekliğinizi ve proje organizasyonunuzu geliştirmek için ShapeBase Name özelliğini keşfedin.
 type: docs
-weight: 400
+weight: 420
 url: /tr/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
@@ -18,9 +18,9 @@ public string Name { get; set; }
 
 ## Notlar
 
-Varsayılan boş dizedir.
+Varsayılan boş dizgedir.
 
-Olamaz`hükümsüz`, ancak boş bir dize olabilir.
+Olamaz`hükümsüz`, ancak boş bir dize de olabilir.
 
 ## Örnekler
 
@@ -34,11 +34,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Bir şeklin alternatif metnine sağ tıklayarak ve ardından "Otomatik Şekil Biçimlendir" -> aracılığıyla erişebiliriz. "Alternatif Metin".
+// Şeklin alternatif metnine, şeklin üzerine sağ tıklayıp, "Otomatik Şekli Biçimlendir" -> "Alternatif Metin" yoluyla ulaşabiliriz.
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
-// Belgeyi HTML'ye kaydedin ve ardından şeklimize ait bağlantılı görüntüyü silin.
-// HTML'mizi okuyan tarayıcı, eksik görselin yerine alternatif metni görüntüleyecektir.
+// Belgeyi HTML'e kaydedip, şeklimize ait bağlantılı resmi silelim.
+// HTML kodumuzu okuyan tarayıcı, eksik görselin yerine alternatif metni görüntüleyecektir.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

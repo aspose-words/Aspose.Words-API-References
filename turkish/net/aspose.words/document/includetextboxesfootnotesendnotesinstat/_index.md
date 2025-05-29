@@ -2,15 +2,15 @@
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
 linktitle: IncludeTextboxesFootnotesEndnotesInStat
 articleTitle: IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words for .NET
-description: Document IncludeTextboxesFootnotesEndnotesInStat mülk. Kelime sayısı istatistiklerine metin kutularının dipnotların ve son notların dahil edilip edilmeyeceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: IncludeTextboxesFootnotesEndnotesInStat özelliğiyle belgenizin kelime sayısını optimize edin. Metin kutularını, dipnotları ve son notları zahmetsizce kontrol edin!
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
 ## Document.IncludeTextboxesFootnotesEndnotesInStat property
 
-Kelime sayısı istatistiklerine metin kutularının, dipnotların ve son notların dahil edilip edilmeyeceğini belirtir.
+Kelime sayısı istatistiklerine metin kutuları, dipnotlar ve son notların dahil edilip edilmeyeceğini belirtir.
 
 ```csharp
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 
 ## Örnekler
 
-Metin kutularının, dipnotların ve son notların kelime sayısı istatistiklerine nasıl dahil edileceğini veya hariç tutulacağını gösterir.
+Kelime sayısı istatistiklerine metin kutularının, dipnotların ve son notların nasıl dahil edileceğini veya hariç tutulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,14 +26,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Lorem ipsum");
 builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 
-// Varsayılan olarak seçenek 'yanlış' olarak ayarlanmıştır.
+// Varsayılan olarak seçenek 'false' olarak ayarlanmıştır.
 doc.UpdateWordCount();
-// Kelimeler metin kutuları, dipnotlar ve son notlar olmadan sayılır.
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);            
+// Kelimeler metin kutuları, dipnotlar ve sonnotlar olmadan sayılır.
+Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();
-// Kelimeler metin kutuları, dipnotlar ve sonnotlarla sayılır.
+// Metin kutuları, dipnotlar ve sonnotlarda kelime sayısı.
 Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ```
 

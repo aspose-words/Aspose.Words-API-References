@@ -2,8 +2,8 @@
 title: Paragraph.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
-second_title: Aspose.Words for .NET
-description: Paragraph ParentSection mülk. Üst öğeyi alırSection paragrafın C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir paragrafın üst Bölümüne kolayca erişmek için Paragraf Üst Bölümü özelliğini keşfedin, böylece belge yapınızı ve organizasyonunuzu geliştirin.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/paragraph/parentsection/
@@ -23,8 +23,8 @@ public Section ParentSection { get; }
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

@@ -2,15 +2,15 @@
 title: StructuredDocumentTagCollection.GetByTitle
 linktitle: GetByTitle
 articleTitle: GetByTitle
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetByTitle yöntem. Koleksiyonda karşılaşılan ve belirtilen başlıktaki ilk yapılandırılmış belge etiketini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Veri yönetimini kolaylaştırmak için başlığa göre ilk belge etiketini verimli bir şekilde alan StructuredDocumentTagCollection'daki GetByTitle yöntemini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
 ---
 ## StructuredDocumentTagCollection.GetByTitle method
 
-Koleksiyonda karşılaşılan ve belirtilen başlıktaki ilk yapılandırılmış belge etiketini döndürür.
+Belirtilen başlığa sahip koleksiyonda karşılaşılan ilk yapılandırılmış belge etiketini döndürür.
 
 ```csharp
 public IStructuredDocumentTag GetByTitle(string title)
@@ -22,7 +22,7 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 ## Notlar
 
-Belirtilen başlığa sahip yapılandırılmış belge etiketi bulunamazsa null değerini döndürür.
+Belirtilen başlığa sahip yapılandırılmış belge etiketi bulunamazsa null döndürür.
 
 ## Örnekler
 
@@ -31,9 +31,9 @@ Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Yapılandırılmış belge etiketini kimliğe göre alın.
+// Id'ye göre yapılandırılmış belge etiketini al.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
 // Başlığa göre yapılandırılmış belge etiketini veya aralıklı etiketi alın.

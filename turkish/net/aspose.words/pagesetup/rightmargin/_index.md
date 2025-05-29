@@ -2,8 +2,8 @@
 title: PageSetup.RightMargin
 linktitle: RightMargin
 articleTitle: RightMargin
-second_title: Aspose.Words for .NET
-description: PageSetup RightMargin mülk. Sayfanın sağ kenarı ile gövde metninin sağ sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: PageSetup RightMargin özelliğini keşfedin, optimum metin düzeni ve gelişmiş belge sunumu için sağ kenar boşluğunu noktalar halinde kolayca ayarlayın.
 type: docs
 weight: 370
 url: /tr/net/aspose.words/pagesetup/rightmargin/
@@ -18,7 +18,7 @@ public double RightMargin { get; set; }
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -2,8 +2,8 @@
 title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: PageLayoutCallbackArgs Document mülk. Belgeyi alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge verilerinize etkili bir şekilde erişmek ve bunları yönetmek için PageLayoutCallbackArgs Belge özelliğini keşfedin. İş akışınızı bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Örnekler
 
-Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen değişikliklerinin düzen geri aramasıyla nasıl izleneceğini gösterir.
 
 ```csharp
 public void PageLayoutCallback()
@@ -36,8 +36,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
+/// Belgeyi sabit bir sayfa biçimine kaydettiğimizde bize bildirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfa oluşturur.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

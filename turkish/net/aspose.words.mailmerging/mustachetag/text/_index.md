@@ -2,8 +2,8 @@
 title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: MustacheTag Text mülk. Etiketin metnini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri işleme ve sorunsuz entegrasyon için etiket metnini zahmetsizce almak ve kullanmak amacıyla MustacheTag Text özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/mustachetag/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Örnekler
 
-Bıyık etiketleriyle nasıl çalışılacağını gösterir.
+Bıyık etiketlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

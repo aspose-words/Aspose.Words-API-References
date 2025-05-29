@@ -2,15 +2,15 @@
 title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.MailMergeDataType Sıralama. Harici adresmektup birleştirme veri kaynağının türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge otomasyon projelerinize harici veri kaynaklarının sorunsuz entegrasyonu için Aspose.Words.MailMergeDataType enum'unu keşfedin.
 type: docs
-weight: 5820
+weight: 6650
 url: /tr/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Harici adres-mektup birleştirme veri kaynağının türünü belirtir.
+Harici bir posta birleştirme veri kaynağının türünü belirtir.
 
 ```csharp
 public enum MailMergeDataType
@@ -20,18 +20,18 @@ public enum MailMergeDataType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `-1` | Adres-mektup birleştirme veri kaynağı belirtilmedi. |
+| None | `-1` | Hiçbir posta birleştirme veri kaynağı belirtilmedi. |
 | TextFile | `0` | Belirli bir belgenin Dinamik Veri Değişimi (DDE) sistemi aracılığıyla bir metin dosyasına bağlandığını belirtir. |
-| Database | `1` | Belirli bir belgenin Dinamik Veri Değişimi (DDE) sistemi aracılığıyla Access veritabanına bağlandığını belirtir. |
+| Database | `1` | Belirli bir belgenin Dinamik Veri Değişimi (DDE) sistemi aracılığıyla bir Access veritabanına bağlandığını belirtir. |
 | Spreadsheet | `2` | Belirli bir belgenin Dinamik Veri Değişimi (DDE) sistemi aracılığıyla bir Excel elektronik tablosuna bağlandığını belirtir. |
 | Query | `3` | Belirli bir belgenin harici bir sorgu aracı kullanılarak harici bir veri kaynağına bağlandığını belirtir. |
 | Odbc | `4` | Belirli bir belgenin Açık Veritabanı Bağlantısı arayüzü aracılığıyla harici bir veri kaynağına bağlandığını belirtir. |
-| Native | `5` | Belirli bir belgenin, Office Veri Kaynağı Nesnesi (ODSO) arabirimi aracılığıyla harici bir veri kaynağına bağlandığını belirtir. |
-| Default | `-1` | Şuna eşittir:None . |
+| Native | `5` | Belirli bir belgenin Office Veri Kaynağı Nesnesi (ODSO) arayüzü aracılığıyla harici bir veri kaynağına bağlandığını belirtir. |
+| Default | `-1` | eşittirNone . |
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -74,7 +74,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

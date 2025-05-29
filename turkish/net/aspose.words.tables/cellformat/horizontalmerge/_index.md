@@ -2,10 +2,10 @@
 title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
-second_title: Aspose.Words for .NET
-description: CellFormat HorizontalMerge mülk. Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Hücreleri yatay olarak sorunsuz bir şekilde birleştirmek, elektronik tablonuzun düzenini ve organizasyonunu geliştirmek için CellFormat YatayBirleştirme özelliğini keşfedin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -24,19 +24,19 @@ Tablo hücrelerinin yatay olarak nasıl birleştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İlk satırın ilk sütununa bir hücre ekleyin.
-// Bu hücre, yatay olarak birleştirilmiş hücreler aralığındaki ilk hücre olacaktır.
+// İlk satırın ilk sütununa bir hücre ekle.
+// Bu hücre yatay olarak birleştirilmiş hücrelerden oluşan bir aralığın ilki olacaktır.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// İlk satırın ikinci sütununa bir hücre ekleyin. Metin içeriği eklemek yerine,
-// bu hücreyi direkt sola eklediğimiz ilk hücreyle birleştireceğiz.
+// İlk satırın ikinci sütununa bir hücre ekleyin. Metin içerikleri eklemek yerine,
+// bu hücreyi doğrudan sola eklediğimiz ilk hücreyle birleştireceğiz.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// İkinci satıra iki birleşmemiş hücre daha ekleyin.
+// İkinci satıra iki tane birleştirilmemiş hücre daha ekle.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -48,7 +48,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-Bir hücrenin yatay ve dikey birleştirme türünü yazdırır.
+Hücrenin yatay ve dikey birleştirme türünü yazdırır.
 
 ```csharp
 public void CheckCellsMerged()
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

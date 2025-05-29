@@ -2,15 +2,15 @@
 title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
-second_title: Aspose.Words for .NET
-description: ListLevel DeletePictureBullet yöntem. Geçerli liste düzeyine ilişkin resim madde işaretini siler C#'da.
+second_title: .NET için Aspose.Words
+description: ListLevel DeletePictureBullet yöntemiyle mevcut liste seviyenizden resim madde işaretlerini zahmetsizce kaldırın. Belge biçimlendirmenizi bugün basitleştirin!
 type: docs
 weight: 160
 url: /tr/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-Geçerli liste düzeyine ilişkin resim madde işaretini siler.
+Mevcut liste düzeyi için resim madde işaretini siler.
 
 ```csharp
 public void DeletePictureBullet()
@@ -18,19 +18,19 @@ public void DeletePictureBullet()
 
 ## Notlar
 
-Silme işleminden sonra varsayılan madde işareti gösterilecektir.
+Silindikten sonra varsayılan madde işareti gösterilecektir.
 
 ## Örnekler
 
-Liste öğesi etiketleri için özel bir görüntü simgesinin nasıl ayarlanacağını gösterir.
+Liste öğesi etiketleri için özel bir resim simgesinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Geçerli liste düzeyi için bir resim işareti oluşturun ve yerel dosya sisteminden bir resim ayarlayın
-// bu liste düzeyi için madde işaretlerinin görüntüleyeceği simge olarak.
+// Mevcut liste düzeyi için bir resim madde işareti oluştur ve yerel bir dosya sisteminden bir resim ayarla
+// Bu liste düzeyi için madde işaretlerinin gösterileceği simge olarak.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

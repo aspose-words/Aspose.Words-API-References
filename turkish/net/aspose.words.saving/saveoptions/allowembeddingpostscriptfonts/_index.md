@@ -2,15 +2,15 @@
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 linktitle: AllowEmbeddingPostScriptFonts
 articleTitle: AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words for .NET
-description: SaveOptions AllowEmbeddingPostScriptFonts mülk. Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions' AllowEmbeddingPostScriptFonts ile belgelerinize font yerleştirmeyi kontrol edin. Gelişmiş belge kalitesi için TrueType font seçeneklerini kolayca yönetin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+PostScript anahatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir Boole değeri alır veya ayarlar. Bir belge kaydedildiğinde TrueType yazı tiplerini gömerken. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -18,9 +18,9 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ## Notlar
 
-Word'ün PostScript yazı tiplerini katıştırmadığını ancak bu türden katıştırılmış yazı tiplerine sahip belgeleri açabileceğini unutmayın.
+Word'ün PostScript yazı tiplerini gömmediğini, ancak bu tür yazı tiplerinin gömüldüğü belgeleri açabileceğini unutmayın.
 
-Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) of the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) özellik şu şekilde ayarlandı:`doğru`.
+Bu seçenek yalnızca şu durumlarda işe yarar:[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) x000d'nin_[`FontInfos`](../../../aspose.words/documentbase/fontinfos/) mülk ayarlandı`doğru`.
 
 ## Örnekler
 
@@ -38,11 +38,11 @@ MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "Allegr
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 
-// TrueType yazı tiplerini gömün.
+// TrueType yazı tiplerini göm.
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
-// TrueType yazı tiplerini gömerken PostScript yazı tiplerinin de gömülmesine izin ver.
-// Microsoft Word, PostScript yazı tiplerini gömmez ancak bu türden gömülü yazı tiplerine sahip belgeleri açabilir.
+// TrueType yazı tiplerini gömerken PostScript yazı tiplerini gömmeye izin ver.
+// Microsoft Word, PostScript yazı tiplerini gömmez, ancak bu tür yazı tiplerinin gömüldüğü belgeleri açabilir.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

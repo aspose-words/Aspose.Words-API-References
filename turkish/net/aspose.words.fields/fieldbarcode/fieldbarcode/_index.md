@@ -2,8 +2,8 @@
 title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
-second_title: Aspose.Words for .NET
-description: FieldBarcode inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldBarcode oluşturucusunu keşfedin—kusursuz barkod üretimi için başvuracağınız çözüm. Sezgisel varsayılan oluşturucumuzla verimliliğin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbarcode/fieldbarcode/

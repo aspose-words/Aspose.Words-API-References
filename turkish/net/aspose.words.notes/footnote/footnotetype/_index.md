@@ -2,15 +2,15 @@
 title: Footnote.FootnoteType
 linktitle: FootnoteType
 articleTitle: FootnoteType
-second_title: Aspose.Words for .NET
-description: Footnote FootnoteType mülk. Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: FootnoteType özelliğini keşfedin, belgelerinizdeki dipnotları veya son notları kolayca tanımlayarak daha net ve düzenli hale getirin.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.notes/footnote/footnotetype/
 ---
 ## Footnote.FootnoteType property
 
-Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
+Bunun bir dipnot mu yoksa sonnot mu olduğunu belirten bir değer döndürür.
 
 ```csharp
 public FootnoteType FootnoteType { get; }
@@ -18,17 +18,17 @@ public FootnoteType FootnoteType { get; }
 
 ## Örnekler
 
-Dipnotlarla sonnotlar arasındaki farkı gösterir.
+Dipnotlar ile sonnotlar arasındaki farkı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda metne numaralandırılmış referanslar eklemenin iki yolu verilmiştir. Bu referansların her ikisi de bir ekleyecektir
-// eklediğimiz yerdeki küçük üst simge referans işareti.
-// Referans işareti, varsayılan olarak, belgedeki tüm referanslar arasındaki referansın indeks numarasıdır.
-// Her referans aynı zamanda gövde metnindekiyle aynı referans işaretine sahip olacak bir giriş yaratacaktır.
-// ve belge oluşturucunun "InsertFootnote" yöntemine ileteceğimiz referans metni.
+// Aşağıda metne numaralandırılmış referanslar eklemenin iki yolu bulunmaktadır. Bu referansların her ikisi de bir
+// onları eklediğimiz yerde küçük üst simge referans işareti.
+// Referans işareti, varsayılan olarak, belgedeki tüm referanslar arasında referansın dizin numarasıdır.
+// Her referans aynı zamanda gövde metnindeki referans işaretiyle aynı olacak bir giriş oluşturacaktır
+// ve belge oluşturucunun "InsertFootnote" metoduna geçireceğimiz referans metni.
 // 1 - Girişi, atıfta bulunduğu metinle aynı sayfada görünecek bir dipnot:
 builder.Write("Footnote referenced main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, 

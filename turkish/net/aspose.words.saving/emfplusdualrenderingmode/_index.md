@@ -2,15 +2,15 @@
 title: EmfPlusDualRenderingMode Enum
 linktitle: EmfPlusDualRenderingMode
 articleTitle: EmfPlusDualRenderingMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.EmfPlusDualRenderingMode Sıralama. Aspose.Wordsün EMF Dual meta dosyalarını nasıl oluşturacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi EMF Dual meta dosyası oluşturma için Aspose.Words' EMF Plus Dual Rendering Mode enum'unu keşfedin. Belge işlemenizi hassasiyetle geliştirin!
 type: docs
-weight: 4980
+weight: 5730
 url: /tr/net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration
 
-Aspose.Words'ün EMF+ Dual meta dosyalarını nasıl oluşturacağını belirtir.
+Aspose.Words'ün EMF+ Dual meta dosyalarını nasıl işleyeceğini belirtir.
 
 ```csharp
 public enum EmfPlusDualRenderingMode
@@ -20,7 +20,7 @@ public enum EmfPlusDualRenderingMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| EmfPlusWithFallback | `0` | Aspose.Words, EMF+ Dual meta dosyasının EMF+ kısmını oluşturmaya çalışıyor. EMF+ kayıtlarından bazıları desteklenmiyorsa Aspose.Words, EMF+ Dual meta dosyasının EMF kısmını oluşturur. |
+| EmfPlusWithFallback | `0` | Aspose.Words, EMF+ Dual meta dosyasının EMF+ kısmını işlemeye çalışır. EMF+ kayıtlarından bazıları desteklenmiyorsa Aspose.Words, EMF+ Dual meta dosyasının EMF kısmını işler. |
 | EmfPlus | `1` | Aspose.Words, EMF+ Dual meta dosyasının EMF+ kısmını oluşturur. |
 | Emf | `2` | Aspose.Words, EMF+ Dual meta dosyasının EMF kısmını oluşturur. |
 
@@ -31,8 +31,8 @@ PDF'ye kaydederken Gelişmiş Windows Meta Dosyası ile ilgili işleme seçenekl
 ```csharp
 Document doc = new Document(MyDir + "EMF.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // "EmfPlusDualRenderingMode" özelliğini "EmfPlusDualRenderingMode.Emf" olarak ayarlayın
@@ -41,11 +41,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // EMF+ ikili meta dosyasının EMF+ kısmını işlemek için.
 // "EmfPlusDualRenderingMode" özelliğini "EmfPlusDualRenderingMode.EmfPlusWithFallback" olarak ayarlayın
 // EMF+ kayıtlarının tümü destekleniyorsa, EMF+ ikili meta dosyasının EMF+ kısmını işlemek için.
-// Aksi takdirde Aspose.Words EMF kısmını oluşturacaktır.
+// Aksi halde Aspose.Words EMF kısmını işleyecektir.
 saveOptions.MetafileRenderingOptions.EmfPlusDualRenderingMode = renderingMode;
 
-// Gömülü EMF verilerini oluşturmak için "UseEmfEmbeddedToWmf" özelliğini "true" olarak ayarlayın
-// vektör grafikleri olarak oluşturabileceğimiz meta dosyalar için.
+// Gömülü EMF verilerini işlemek için "UseEmfEmbeddedToWmf" özelliğini "true" olarak ayarlayın
+// vektörel grafikler olarak işlenebilecek meta dosyaları için.
 saveOptions.MetafileRenderingOptions.UseEmfEmbeddedToWmf = true;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);

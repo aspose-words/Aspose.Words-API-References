@@ -2,8 +2,8 @@
 title: ImageWatermarkOptions
 linktitle: ImageWatermarkOptions
 articleTitle: ImageWatermarkOptions
-second_title: Aspose.Words for .NET
-description: ImageWatermarkOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kolay görüntü koruması için ImageWatermarkOptions oluşturucusunu keşfedin. Filigranlarınızı zahmetsizce özelleştirin ve görsellerinizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/

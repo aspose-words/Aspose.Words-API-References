@@ -2,15 +2,15 @@
 title: TextWatermarkOptions.FontSize
 linktitle: FontSize
 articleTitle: FontSize
-second_title: Aspose.Words for .NET
-description: TextWatermarkOptions FontSize mülk. Yazı tipi boyutunu alır veya ayarlar. Varsayılan değer 0dır  auto C#'da.
+second_title: .NET için Aspose.Words
+description: Ayarlanabilir FontSize ile TextWatermarkOptions'ınızı özelleştirin. Tasarımlarınızda optimum görünürlük ve stil için tercih ettiğiniz boyutu kolayca ayarlayın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/textwatermarkoptions/fontsize/
 ---
 ## TextWatermarkOptions.FontSize property
 
-Yazı tipi boyutunu alır veya ayarlar. Varsayılan değer 0'dır - auto.
+Bir yazı tipi boyutu alır veya ayarlar. Varsayılan değer 0'dır - auto.
 
 ```csharp
 public float FontSize { get; set; }
@@ -20,13 +20,13 @@ public float FontSize { get; set; }
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
+| ArgumentOutOfRangeException | Argüman geçerli değerler aralığının dışında olduğunda fırlatılır. |
 
 ## Notlar
 
-Geçerli değerler 0 ila 65,5 (dahil) arasındadır.
+Geçerli değerler 0 ile 65,5 arasındadır.
 
-Otomatik yazı tipi boyutu, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine göre ölçeklendirileceği anlamına gelir.
+Otomatik yazı tipi boyutu, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine ölçekleneceği anlamına gelir.
 
 ## Örnekler
 
@@ -38,8 +38,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -51,7 +51,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

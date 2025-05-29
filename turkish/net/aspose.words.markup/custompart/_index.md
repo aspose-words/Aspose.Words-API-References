@@ -2,17 +2,17 @@
 title: CustomPart Class
 linktitle: CustomPart
 articleTitle: CustomPart
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomPart sınıf. ISO/IEC 29500 standardı tarafından tanımlanmayan özel rastgele içerik bir parçayı temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Esnek içerik yönetimi için Aspose.Words.Markup.CustomPart sınıfını keşfedin. ISO/IEC 29500'ün ötesinde benzersiz, standart dışı parçalar kolayca oluşturun!
 type: docs
-weight: 3900
+weight: 4590
 url: /tr/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
-ISO/IEC 29500 standardı tarafından tanımlanmayan özel (rastgele içerik) bir parçayı temsil eder.
+ISO/IEC 29500 standardında tanımlanmayan özel (keyfi içerik) bir parçayı temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Denetimi](https://docs.aspose.com/words/net/working-with-content-control-sdt/) belgeleme makalesi.
 
 ```csharp
 public class CustomPart
@@ -28,43 +28,43 @@ public class CustomPart
 
 | İsim | Tanım |
 | --- | --- |
-| [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Bu özel bölümün içerik türünü belirtir. |
+| [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Bu özel parçanın içerik türünü belirtir. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Bu özel parçanın verilerini içerir. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça harici bir hedefse doğrudur. |
-| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ayarlar. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Üst parçadan bu özel parçaya ilişkin ilişki türünü alır veya ayarlar. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | Bu özel parça OOXML paketinin içinde saklanıyorsa yanlıştır. Bu özel parça harici bir hedefse doğru. |
+| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Bu parçanın OOXML paketindeki veya hedef URL'deki mutlak adını alır veya ayarlar. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Üst parçadan bu özel parçaya olan ilişki türünü alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Baytları çoğaltmaz[`Data`](./data/) değer. |
+| [Clone](../../aspose.words.markup/custompart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Nesnenin baytlarını çoğaltmaz.[`Data`](./data/) değer. |
 
 ## Notlar
 
-Bu sınıf, "bilinmeyen bir ilişkinin" hedefi olan bir OOXML parçasını temsil eder. ISO/IEC 29500'de tanımlanmayan tüm ilişkiler, "bilinmeyen ilişkiler" olarak kabul edilir. Bir Office Açık XML belgesinde, uyumlu olmaları koşuluyla, bilinmeyen ilişkilere izin verilir. ilişki işaretleme yönergelerine.
+Bu sınıf, "bilinmeyen bir ilişkinin" hedefi olan bir OOXML parçasını temsil eder. ISO/IEC 29500 içinde tanımlanmamış tüm ilişkiler "bilinmeyen ilişkiler" olarak kabul edilir. İlişki işaretleme yönergelerine uymaları koşuluyla, Office Open XML belgesi içinde bilinmeyen ilişkilere izin verilir.
 
-Microsoft Word, açma/kaydetme döngüleri sırasında özel parçaları korur. Bazı ek bilgileri burada bulabilirsiniz http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+Microsoft Word, açık/kaydetme döngüleri sırasında özel parçaları korur. Bazı ek bilgiler burada bulunabilir http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words ayrıca özel parçalara gidiş dönüş sağlar ve ayrıca bu tür parçalara programlı olarak erişime izin verir.`CustomPart` Ve[`CustomPartCollection`](../custompartcollection/) nesneler.
+Aspose.Words ayrıca özel parçaları da döndürür ve buna ek olarak, bu tür parçalara programlı olarak erişime izin verir.`CustomPart` Ve[`CustomPartCollection`](../custompartcollection/) nesneler.
 
-Özel parçaları Özel XML Verileriyle karıştırmayın. Kullanmak[`CustomXmlPart`](../customxmlpart/) Özel XML Verilerine erişmek için 'ye ihtiyacınız varsa.
+Özel parçaları Özel XML Verileriyle karıştırmayın. Kullanın[`CustomXmlPart`](../customxmlpart/) Özel XML Verilerine erişmek için 'ye ihtiyacınız varsa.
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -81,7 +81,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

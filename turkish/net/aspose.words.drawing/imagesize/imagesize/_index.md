@@ -2,15 +2,15 @@
 title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
-second_title: Aspose.Words for .NET
-description: ImageSize inşaatçı. Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi netlik ve kalite için özel genişlik, yükseklik ve 96 dpi çözünürlük ayarlayarak ImageSize oluşturucusuyla hassas görüntüler oluşturun.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır.
+Genişliği ve yüksekliği piksel cinsinden verilen değerlere başlatır. Çözünürlüğü 96 dpi'ye başlatır.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -42,8 +42,8 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 | --- | --- | --- |
 | widthPixels | Int32 | Piksel cinsinden genişlik. |
 | heightPixels | Int32 | Piksel cinsinden yükseklik. |
-| horizontalResolution | Double | DPI'da yatay çözünürlük. |
-| verticalResolution | Double | DPI'da dikey çözünürlük. |
+| horizontalResolution | Double | DPI cinsinden yatay çözünürlük. |
+| verticalResolution | Double | DPI cinsinden dikey çözünürlük. |
 
 ### Ayrıca bakınız
 

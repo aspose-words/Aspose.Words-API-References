@@ -2,10 +2,10 @@
 title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WarningType Sıralama. Belge yükleme veya kaydetme sırasında Aspose.Words tarafından verilen uyarının türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yükleme veya kaydetme sırasında uyarıları kategorilere ayıran ve belge yönetimi deneyiminizi geliştiren Aspose.Words.WarningType enum'ını keşfedin.
 type: docs
-weight: 6660
+weight: 7510
 url: /tr/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -21,17 +21,17 @@ public enum WarningType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| DataLossCategory | `FF` | Yüklemeden sonra belge ağacında ( ) veya kaydetmeden sonra oluşturulan belgede bazı metin/karakter/resim veya diğer veriler eksik olacaktır. |
+| DataLossCategory | `FF` | Yüklemeden sonra belge ağacında bazı metin/karakter/görüntü veya diğer veriler kaybolacaktır, veya kaydetmeden sonra oluşturulan belgede. |
 | DataLoss | `1` | Genel veri kaybı, belirli bir kod yok. |
-| MajorFormattingLossCategory | `FF00` | Ortaya çıkan belge veya içindeki belirli bir konum, orijinal belgeyle karşılaştırıldığında önemli ölçüde farklı görünebilir. |
-| MajorFormattingLoss | `100` | Genel ana biçimlendirme kaybı, belirli bir kod yok. |
-| MinorFormattingLossCategory | `FF0000` | Ortaya çıkan belge veya içindeki belirli bir konum, ile orijinal belgeyle karşılaştırıldığında biraz farklı görünebilir. |
+| MajorFormattingLossCategory | `FF00` | Ortaya çıkan belge veya içindeki belirli bir konum, orijinal belgeye kıyasla önemli ölçüde farklı görünebilir. |
+| MajorFormattingLoss | `100` | Genel büyük biçimlendirme kaybı, belirli bir kod yok. |
+| MinorFormattingLossCategory | `FF0000` | Ortaya çıkan belge veya içindeki belirli bir konum, orijinal belgeye kıyasla biraz farklı görünebilir. |
 | MinorFormattingLoss | `10000` | Genel küçük biçimlendirme kaybı, belirli bir kod yok. |
 | FontSubstitution | `20000` | Yazı tipi değiştirildi. |
 | FontEmbedding | `40000` | Belge kaydedilirken gömülü yazı tipi bilgilerinin kaybı. |
-| UnexpectedContentCategory | `F000000` | Kaynak belgedeki bazı içerik tanınamadı (yani desteklenmiyor), bu durum sorunlara neden olabilir veya olmayabilir veya veri/biçimlendirme kaybına neden olabilir. |
+| UnexpectedContentCategory | `F000000` | Kaynak belgedeki bazı içerikler tanınamadı (yani desteklenmiyor), bu sorunlara yol açabilir veya açmayabilir veya veri/biçimlendirme kaybına neden olabilir. |
 | UnexpectedContent | `1000000` | Genel beklenmeyen içerik, belirli bir kod yok. |
-| Hint | `10000000` | Potansiyel bir soruna ilişkin tavsiyelerde bulunur veya bir iyileştirme önerir. |
+| Hint | `10000000` | Olası bir sorunu bildirir veya bir iyileştirme önerir. |
 
 ## Örnekler
 
@@ -40,23 +40,23 @@ Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşme
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belgeyi açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
+    // Yazı tipi değiştirme uyarılarını işlemek için bir geri çağırma atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değişimini etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    // Font değişiminden sonra orijinal font ölçütleri kullanılmalıdır.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
+    // Eksik font içeren bir belgeyi kaydedersek font değiştirme uyarısı alırız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -64,7 +64,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
+    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -72,13 +72,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

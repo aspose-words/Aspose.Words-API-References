@@ -2,15 +2,15 @@
 title: StyleCollection.ClearQuickStyleGallery
 linktitle: ClearQuickStyleGallery
 articleTitle: ClearQuickStyleGallery
-second_title: Aspose.Words for .NET
-description: StyleCollection ClearQuickStyleGallery yöntem. Hızlı Stil Galerisi panelindeki tüm stilleri kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: StyleCollection'ın ClearQuickStyleGallery yöntemi ile Hızlı Stil Galerinizden stilleri zahmetsizce temizleyin. Tasarım sürecinizi bugün basitleştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/stylecollection/clearquickstylegallery/
 ---
 ## StyleCollection.ClearQuickStyleGallery method
 
-Hızlı Stil Galerisi panelindeki tüm stilleri kaldırır.
+Hızlı Stil Galerisi panelinden tüm stilleri kaldırır.
 
 ```csharp
 public void ClearQuickStyleGallery()
@@ -22,7 +22,7 @@ Stil Galerisi panelinden stillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
-// Stilleri kaldırmanın şimdilik yalnızca DOCX formatında çalıştığını unutmayın.
+// Stil kaldırma işleminin şimdilik yalnızca DOCX formatıyla çalıştığını unutmayın.
 doc.Styles.ClearQuickStyleGallery();
 
 doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");

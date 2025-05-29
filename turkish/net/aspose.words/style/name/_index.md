@@ -2,10 +2,10 @@
 title: Style.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET
-description: Style Name mülk. Stilin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Stil Adı özelliğini keşfedin, gelişmiş tasarım esnekliği ve kullanıcı deneyimi için stillerinizi kolayca yönetin ve özelleştirin.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 Boş dize olamaz.
 
-Koleksiyonda zaten böyle bir ada sahip bir stil varsa, bu stil onu geçersiz kılacaktır. Etkilenen tüm düğümler yeni stile referans verecektir.
+Koleksiyonda zaten böyle bir isme sahip bir stil varsa, bu stil onu geçersiz kılacaktır. Etkilenen tüm düğümler yeni stile başvuracaktır.
 
 ## Örnekler
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -53,14 +53,14 @@ Bir belgenin stilinin nasıl kopyalanacağını gösterir.
 Document doc = new Document();
 
 // AddCopy yöntemi belirtilen stilin bir kopyasını oluşturur ve
-// stil için otomatik olarak "Başlık 1_0" gibi yeni bir ad oluşturur.
+// stil için otomatik olarak "Başlık 1_0" gibi yeni bir ad üretir.
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
 // Stilin tanımlayıcı adını değiştirmek için stilin "Ad" özelliğini kullanın.
 newStyle.Name = "My Heading 1";
 
-// Belgemiz artık farklı adlara sahip iki aynı görünümlü stile sahip.
-// Stillerden birinin ayarlarının değiştirilmesi diğerini etkilemez.
+// Belgemiz artık farklı isimlere sahip, aynı görünümlü iki stile sahip.
+// Stillerden birinin ayarlarını değiştirmek diğerini etkilemez.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

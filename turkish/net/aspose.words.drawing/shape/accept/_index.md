@@ -2,15 +2,15 @@
 title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Shape Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi katılımını artırmak ve daha iyi sonuçlar için kabul sürecinizi kolaylaştırmak üzere tasarlanmış Shape Accept yöntemini keşfedin.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) Şeklin ve çağrıların tüm alt düğümleri için [`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) sonunda.
+Çağrılar[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/) şeklin ve çağrıların tüm alt düğümleri için[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) sonunda.
 
 ## Örnekler
 
-Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
+Bir belgedeki tüm şekiller üzerinde nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 public void VisitShapes()
@@ -47,7 +47,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
+    /// Her girinti düzeyi için bir sekme karakterinin önüne eklendiği bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -69,7 +69,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
+    /// StringBuilder'ın biriktirdiği tüm metni döndür.
     /// </summary>
     public string GetText()
     {
@@ -77,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi bir Shape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir Şekil düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

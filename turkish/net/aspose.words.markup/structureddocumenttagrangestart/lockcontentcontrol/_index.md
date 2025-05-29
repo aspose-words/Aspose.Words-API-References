@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart LockContentControl mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu yapılandırılmış belge etiketini silmesini yasaklar C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTagRangeStart'taki LockContentControl özelliğinin, önemli etiketlerin istenmeyen şekilde silinmesini önleyerek belge güvenliğini nasıl artırdığını keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu yapılandırılmış belge etiketini silmesini yasaklar.
+olarak ayarlandığında`doğru` , bu özellik bir kullanıcının bu yapılandırılmış belge etiketini silmesini engelleyecektir.
 
 ```csharp
 public bool LockContentControl { get; set; }

@@ -2,15 +2,15 @@
 title: HeaderFooter
 linktitle: HeaderFooter
 articleTitle: HeaderFooter
-second_title: Aspose.Words for .NET
-description: HeaderFooter inşaatçı. Belirtilen türde yeni bir üst bilgi veya alt bilgi oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Sezgisel oluşturucumuzla zahmetsizce çarpıcı başlıklar ve altbilgiler tasarlayın. Benzersiz, profesyonel bir dokunuş için web sitenizin görünümünü özelleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/headerfooter/headerfooter/
 ---
 ## HeaderFooter constructor
 
-Belirtilen türde yeni bir üst bilgi veya alt bilgi oluşturur.
+Belirtilen türde yeni bir üstbilgi veya altbilgi oluşturur.
 
 ```csharp
 public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
@@ -18,14 +18,14 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahibi belgesi. |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) üstbilgi veya altbilginin türünü belirten value . |
+| doc | DocumentBase | Sahip belgesi. |
+| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/)Başlık veya altbilginin türünü belirten value . |
 
 ## Notlar
 
-Ne zaman[`HeaderFooter`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
+Ne zaman[`HeaderFooter`](../) oluşturulduğunda, belirtilen belgeye aittir, ancak henüz belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır`hükümsüz`.
 
-Eklemek[`HeaderFooter`](../)bir[`Section`](../../section/) kullanmak[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , veya[`HeadersFooters`](../../section/headersfooters/) özellik ve yöntemler[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Eklemek için[`HeaderFooter`](../)birine[`Section`](../../section/) kullanmak[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , veya[`HeadersFooters`](../../section/headersfooters/) özellik ve yöntemler[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ Eklemek[`HeaderFooter`](../)bir[`Section`](../../section/) kullanmak[`InsertAfte
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -44,8 +44,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

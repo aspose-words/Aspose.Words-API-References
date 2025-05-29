@@ -2,15 +2,15 @@
 title: Cell.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
-second_title: Aspose.Words for .NET
-description: Cell EnsureMinimum yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler C#'da.
+second_title: .NET için Aspose.Words
+description: EnsureMinimum yöntemi ile hücre yapınızı optimize edin, son çocuk paragraf değilse bile zahmetsizce bir paragraf ekleyin. Belgenizin netliğini artırın!
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
 
-Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler.
+Son çocuk bir paragraf değilse, boş bir paragraf oluşturur ve ekler.
 
 ```csharp
 public void EnsureMinimum()
@@ -18,7 +18,7 @@ public void EnsureMinimum()
 
 ## Örnekler
 
-Bir hücre düğümünün, ona içerik eklemeye başlamak için ihtiyacımız olan düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
+Bir hücre düğümünün, ona içerik eklemeye başlamak için ihtiyaç duyduğumuz düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,12 +29,12 @@ table.AppendChild(row);
 Cell cell = new Cell(doc);
 row.AppendChild(cell);
 
-// Hücreler, diziler, şekiller ve hatta diğer tablolar gibi tipik öğelerin bulunduğu paragraflar içerebilir.
-// Yeni hücremizde paragraf bulunmamaktadır ve bu hücre bulununcaya kadar ona düğüm çalıştırma, şekil verme gibi içerikler ekleyemiyoruz.
+// Hücreler, koşular, şekiller ve hatta diğer tablolar gibi tipik öğeler içeren paragraflar içerebilir.
+// Yeni hücremizde herhangi bir paragraf yok ve bu olana kadar çalıştırma ve şekil düğümleri gibi içerikleri ekleyemeyiz.
 Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
 
-// Bir hücrede "EnsureMinimum" yöntemini çağırmak şunları sağlayacaktır:
-// hücrede daha sonra içerik ekleyebileceğimiz en az bir boş paragraf var.
+// Bir hücrede "EnsureMinimum" metodunu çağırmak,
+// hücrede en az bir boş paragraf var, bu paragrafa içerik ekleyebiliriz.
 cell.EnsureMinimum();
 cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

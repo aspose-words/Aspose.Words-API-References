@@ -2,8 +2,8 @@
 title: SaveOptions.CreateSaveOptions
 linktitle: CreateSaveOptions
 articleTitle: CreateSaveOptions
-second_title: Aspose.Words for .NET
-description: SaveOptions CreateSaveOptions yöntem. Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Tercih ettiğiniz biçime göre özelleştirilmiş kaydetme seçeneklerini kolayca oluşturmak ve belge yönetimi verimliliğinizi artırmak için CreateSaveOptions yöntemini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/saveoptions/createsaveoptions/
@@ -22,21 +22,21 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### Geri dönüş değeri
 
-Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
+Bir sınıftan türetilen bir nesne[`SaveOptions`](../).
 
 ## Örnekler
 
-Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneğini gösterir.
+Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etmek için bir seçenek gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Büyük belgelerin kaydetme işlemlerinin bellek alanını azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
-// operasyonun süresini arttırma pahasına.
+// Büyük belgelerin kaydetme işlemlerinin bellek ayak izini azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
+// operasyonun süresinin artması pahasına.
 // Belgeyi normal şekilde PDF olarak kaydetmek için "MemoryOptimization" özelliğini "false" olarak ayarlayın.
 saveOptions.MemoryOptimization = memoryOptimization;
 
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
-Verilen dosya adında belirtilen dosya uzantısına uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur.
+Belirtilen dosya adında belirtilen dosya uzantısına uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(string fileName)
@@ -66,23 +66,23 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 ### Geri dönüş değeri
 
-Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
+Bir sınıftan türetilen bir nesne[`SaveOptions`](../).
 
 ## Örnekler
 
-Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
+Ekli şablonu olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Otomatik stil güncellemeyi etkinleştirin ancak şablon belgesi eklemeyin.
+// Otomatik stil güncellemesini etkinleştirin, ancak şablon belge eklemeyin.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Şablon belge olmadığından belgenin stil değişikliklerini izleyecek yeri yoktu.
-// Şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
-// eğer kaydettiğimiz belgede belge yoksa.
+// Şablon belge olmadığından, belgede stil değişikliklerini izleyecek bir yer yoktu.
+// Bir şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
+// eğer kaydettiğimiz bir belgede yoksa.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

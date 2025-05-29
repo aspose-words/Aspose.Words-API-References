@@ -2,15 +2,15 @@
 title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagCollection GetById yöntem. Yapılandırılmış belge etiketini tanımlayıcıya göre döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: GetById yöntemiyle yapılandırılmış belge etiketlerini zahmetsizce alın. Verilerinize hızla erişin ve belge yönetimi verimliliğini artırın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
 ## StructuredDocumentTagCollection.GetById method
 
-Yapılandırılmış belge etiketini tanımlayıcıya göre döndürür.
+Tanımlayıcıya göre yapılandırılmış belge etiketini döndürür.
 
 ```csharp
 public IStructuredDocumentTag GetById(int id)
@@ -31,9 +31,9 @@ Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Yapılandırılmış belge etiketini kimliğe göre alın.
+// Id'ye göre yapılandırılmış belge etiketini al.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
 // Başlığa göre yapılandırılmış belge etiketini veya aralıklı etiketi alın.

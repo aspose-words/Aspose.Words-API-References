@@ -2,15 +2,15 @@
 title: Field.Result
 linktitle: Result
 articleTitle: Result
-second_title: Aspose.Words for .NET
-description: Field Result mülk. Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Alan Sonuç özelliklerini zahmetsizce yönetin. Kolaylaştırılmış veri işleme ve gelişmiş verimlilik için alan ayırıcıları arasındaki metne erişin veya metni değiştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar.
+Alan ayırıcısı ile alan sonu arasındaki metni alır veya ayarlar.
 
 ```csharp
 public string Result { get; set; }
@@ -18,7 +18,7 @@ public string Result { get; set; }
 
 ## Örnekler
 
-Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
+Alan kodu kullanılarak bir belgeye alanın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// InsertField yönteminin bu aşırı yüklemesi, eklenen alanları otomatik olarak günceller.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// InsertField yönteminin bu aşırı yüklemesi eklenen alanları otomatik olarak günceller.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Ayrıca bakınız

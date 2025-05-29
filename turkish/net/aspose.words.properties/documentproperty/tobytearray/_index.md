@@ -2,8 +2,8 @@
 title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
-second_title: Aspose.Words for .NET
-description: DocumentProperty ToByteArray yöntem. Özellik değerini bayt dizisi olarak döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: ToByteArray metoduyla DocumentProperty'yi zahmetsizce bir bayt dizisine dönüştürün. Veri işlemeyi kolaylaştırın ve kodlama verimliliğinizi artırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.properties/documentproperty/tobytearray/
@@ -18,19 +18,19 @@ public byte[] ToByteArray()
 
 ## Notlar
 
-Özellik türü değilse bir istisna atarByteArray.
+Özellik türü uygun değilse bir istisna atarByteArray.
 
 ## Örnekler
 
-Epub olarak kaydettiğimiz bir belgeye nasıl küçük resim ekleneceğini gösterir.
+Epub olarak kaydettiğimiz bir belgeye küçük resim eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// "Thumbnail" özelliği eklediğimiz görsel verilerini içeren bir dokümanı Epub olarak kaydedersek,
-// o belgeyi açan okuyucu, görüntüyü ilk sayfadan önce görüntüleyebilir.
+// "Küçük Resim" özelliği eklediğimiz resim verilerini içeren bir belgeyi Epub olarak kaydedersek,
+// Bu belgeyi açan bir okuyucu, ilk sayfadan önce resmi görüntüleyebilir.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -38,7 +38,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Bir belgenin küçük resmini çıkartıp yerel dosya sistemine kaydedebiliriz.
+// Bir belgenin küçük resmini çıkarıp yerel dosya sistemine kaydedebiliriz.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

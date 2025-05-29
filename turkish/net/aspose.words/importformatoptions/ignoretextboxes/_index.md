@@ -2,15 +2,15 @@
 title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions IgnoreTextBoxes mülk. Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: ImportFormatOptions IgnoreTextBoxes özelliğinin metin kutusu içeriğini kontrol ederek belge biçimlendirmenizi nasıl geliştirdiğini keşfedin. Bugün kolayca optimize edin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değer:`doğru` .
+Metin kutusu içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir Boole değeri alır veya ayarlar eğerKeepSourceFormatting mod kullanılır. Varsayılan değer`doğru` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -18,16 +18,16 @@ public bool IgnoreTextBoxes { get; set; }
 
 ## Örnekler
 
-Belge eklerken metin kutusu formatının nasıl yönetileceğini gösterir.
+Bir belgeye ekleme yaparken metin kutusu biçimlendirmesinin nasıl yönetileceğini gösterir.
 
 ```csharp
-// Başka bir belgenin düğümlerinin ekleneceği bir belge oluşturun.
+// Başka bir belgeden düğümlerin ekleneceği bir belge oluşturun.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
 builder.Writeln("Hello world!");
 
-// İlk belgeye aktaracağımız metin kutusuyla başka bir belge oluşturun.
+// İlk belgeye aktaracağımız metin kutusu içeren başka bir belge oluşturalım.
 Document srcDoc = new Document();
 builder = new DocumentBuilder(srcDoc);
 
@@ -37,7 +37,7 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Metin kutusu formatının silineceğini veya korunacağını belirtmek için bir bayrak ayarlayın
+// Metin kutusu biçimlendirmesini temizlemek mi yoksa korumak mı istediğinizi belirtmek için bir bayrak ayarlayın
 // bunları diğer belgelere aktarırken.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;

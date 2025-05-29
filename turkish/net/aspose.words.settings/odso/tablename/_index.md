@@ -2,15 +2,15 @@
 title: Odso.TableName
 linktitle: TableName
 articleTitle: TableName
-second_title: Aspose.Words for .NET
-description: Odso TableName mülk. Bir kaynağın harici bir veri kaynağı dahilinde bağlanacağı belirli veri kümesini belirtir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: Odso TableName özelliğini keşfedin, harici kaynaklardaki belirli veri kümelerine zahmetsizce bağlanın ve veri entegrasyonunu kolaylıkla geliştirin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.settings/odso/tablename/
 ---
 ## Odso.TableName property
 
-Bir kaynağın harici bir veri kaynağı dahilinde bağlanacağı belirli veri kümesini belirtir. Varsayılan değer boş bir dizedir.
+Bir kaynağın harici bir veri kaynağı içinde bağlanacağı belirli veri kümesini belirtir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string TableName { get; set; }
@@ -18,7 +18,7 @@ public string TableName { get; set; }
 
 ## Örnekler
 
-Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Harici bir veri kaynağına bağlanırken posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
-// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
+// Belgeyi yüklemek için Microsoft Word kullanıldığında artık posta birleştirme işlemi gerçekleştirilmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

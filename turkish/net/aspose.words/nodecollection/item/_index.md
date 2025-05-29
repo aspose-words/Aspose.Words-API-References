@@ -2,15 +2,15 @@
 title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: NodeCollection Item mülk. Verilen dizindeki bir düğümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: NodeCollection Item özelliğiyle herhangi bir düğüme zahmetsizce erişin. Sorunsuz veri yönetimi ve gelişmiş performans için düğümleri dizine göre hızla alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodecollection/item/
 ---
 ## NodeCollection indexer
 
-Verilen dizindeki bir düğümü alır.
+Belirtilen dizindeki bir düğümü alır.
 
 ```csharp
 public Node this[int index] { get; }
@@ -18,41 +18,41 @@ public Node this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Düğümlerin koleksiyonuna ilişkin bir dizin. |
+| index | Düğüm koleksiyonuna ait bir indeks. |
 
 ## Notlar
 
 Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
+Negatif indekslere izin verilir ve koleksiyonun sonundan erişimi belirtir. Örneğin -1 son öğeyi, -2 sondan bir önceki öğeyi vb. ifade eder.
 
-Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
+Eğer indeks listedeki öğe sayısından büyük veya eşitse, bu boş bir referans döndürür.
 
-Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
+Eğer indeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu durum boş bir referans döndürür.
 
 ## Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
+Bir bileşik düğümün alt düğüm koleksiyonunda nasıl dolaşılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
+// Bu belgenin ilk paragrafına iki çalışma ve bir şekil alt düğüm olarak ekleyin.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
+// 'CustomNodeId' öğesinin bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün yaşam süresi boyunca var olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
-// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+// Paragrafın hemen altındaki alt öğelerin koleksiyonunda yineleme yapın,
+// ve içinde bulduğumuz herhangi bir koşuyu veya şekli yazdırırız.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

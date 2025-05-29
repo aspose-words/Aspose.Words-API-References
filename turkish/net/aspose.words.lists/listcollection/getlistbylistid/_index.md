@@ -2,15 +2,15 @@
 title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
-second_title: Aspose.Words for .NET
-description: ListCollection GetListByListId yöntem. Liste tanımlayıcısına göre bir liste alır C#'da.
+second_title: .NET için Aspose.Words
+description: GetListByListId metoduyla istediğiniz listeyi zahmetsizce alın. Gelişmiş verimlilik için basit bir liste tanımlayıcısı kullanarak verilere hızla erişin.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
 
-Liste tanımlayıcısına göre bir liste alır.
+Bir liste tanımlayıcısına göre bir liste alır.
 
 ```csharp
 public List GetListByListId(int listId)
@@ -22,11 +22,11 @@ public List GetListByListId(int listId)
 
 ### Geri dönüş değeri
 
-Liste nesnesini döndürür. İadeler`hükümsüz` belirtilen tanımlayıcıya sahip bir liste bulunamazsa.
+Liste nesnesini döndürür.`hükümsüz` Belirtilen tanımlayıcıya sahip bir liste bulunamadıysa.
 
 ## Notlar
 
-Normalde bu yöntemi kullanmanıza gerek yoktur. Çoğu zaman liste biçimlendirme 'yi paragraflara yalnızca ayarlarla uygularsınız.[`List`](../../listformat/list/) property /[`ListFormat`](../../listformat/) nesne.
+Normalde bu yöntemi kullanmanız gerekmez. Çoğu zaman paragraflara sadece şu ayarları yaparak list formatting uygularsınız:[`List`](../../listformat/list/) property öğesinin[`ListFormat`](../../listformat/) nesne.
 
 ## Örnekler
 

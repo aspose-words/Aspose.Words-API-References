@@ -2,8 +2,8 @@
 title: ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
-second_title: Aspose.Words for .NET
-description: ToaCategories inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon ve özelleştirilebilir özelliklerle verimli kategori yönetimi için vazgeçilmez çözümünüz olan ToaCategories oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/toacategories/toacategories/

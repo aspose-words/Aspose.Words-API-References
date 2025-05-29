@@ -2,8 +2,8 @@
 title: PsSaveOptions
 linktitle: PsSaveOptions
 articleTitle: PsSaveOptions
-second_title: Aspose.Words for .NET
-description: PsSaveOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz entegrasyon için PsSaveOptions oluşturucusunu keşfedin. Uygulamanızın performansını ve verimliliğini artıran varsayılan ayarların kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pssaveoptions/pssaveoptions/

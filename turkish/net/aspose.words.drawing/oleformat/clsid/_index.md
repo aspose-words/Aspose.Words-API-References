@@ -2,8 +2,8 @@
 title: OleFormat.Clsid
 linktitle: Clsid
 articleTitle: Clsid
-second_title: Aspose.Words for .NET
-description: OleFormat Clsid mülk. OLE nesnesinin CLSIDsini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamanızın işlevselliğini ve performansını artırarak OLE nesnelerinin CLSID'sini kolayca almak için OleFormat Clsid özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/oleformat/clsid/
@@ -18,19 +18,19 @@ public Guid Clsid { get; }
 
 ## Örnekler
 
-Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
+Bir belgeye gömülü bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Şekiller, OLE nesnelerini belgenin gövdesinde saklar ve görüntüler.
+// Şekiller, OLE nesnelerini belgenin gövdesinde depolar ve görüntüler.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Bazı OLE kontrolleri, bu belgedeki gibi üç seçenek düğmeli alt kontroller içerebilir.
+// Bazı OLE denetimleri, bu belgedeki üç seçenek düğmesine sahip denetim gibi, alt denetimler içerebilir.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

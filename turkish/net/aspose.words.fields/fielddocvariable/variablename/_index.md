@@ -2,8 +2,8 @@
 title: FieldDocVariable.VariableName
 linktitle: VariableName
 articleTitle: VariableName
-second_title: Aspose.Words for .NET
-description: FieldDocVariable VariableName mülk. Alınacak belge değişkeninin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge değişkenlerini kolayca yönetmek için FieldDocVariable VariableName özelliğini keşfedin. Bugün belge yönetiminizi basitleştirin ve iyileştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddocvariable/variablename/
@@ -24,9 +24,9 @@ Belge özelliklerini ve değişkenlerini görüntülemek için DOCPROPERTY alanl
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda DOCPROPERTY alanlarını kullanmanın iki yolu verilmiştir.
+// Aşağıda DOCPROPERTY alanlarının iki kullanım şekli bulunmaktadır.
 // 1 - Yerleşik bir özelliği görüntüle:
-// "Kategori" yerleşik özelliği için özel bir değer belirleyin, ardından buna referans veren bir DOCPROPERTY alanı ekleyin.
+// "Kategori" yerleşik özelliği için özel bir değer ayarlayın, ardından buna başvuran bir DOCPROPERTY alanı ekleyin.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -37,9 +37,9 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Özel bir belge değişkeni görüntüleyin:
-// Özel bir değişken tanımlayın, ardından bu değişkene DOCPROPERTY alanıyla referans verin.
-Assert.That(doc.Variables, Is.Empty);
+// 2 - Özel bir belge değişkenini görüntüle:
+// Özel bir değişken tanımlayın, ardından bu değişkene DOCPROPERTY alanıyla başvurun.
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

@@ -2,15 +2,15 @@
 title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing mülk. Cümle ve kelime aralığının otomatik olarak ayarlanıp ayarlanmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ImportFormatOptions AdjustSentenceAndWordSpacing özelliğini keşfedin. Gelişmiş metin netliği için otomatik cümle ve kelime aralığını kolayca kontrol edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions.AdjustSentenceAndWordSpacing property
 
-Cümle ve kelime aralığının otomatik olarak ayarlanıp ayarlanmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+Cümle ve kelime aralıklarının otomatik olarak ayarlanıp ayarlanamayacağını belirten bir Boole değeri alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool AdjustSentenceAndWordSpacing { get; set; }
@@ -18,7 +18,7 @@ public bool AdjustSentenceAndWordSpacing { get; set; }
 
 ## Örnekler
 
-Cümle ve sözcük aralığının otomatik olarak nasıl ayarlanacağını gösterir.
+Cümle ve kelime aralıklarının otomatik olarak nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document srcDoc = new Document();

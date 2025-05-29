@@ -2,8 +2,8 @@
 title: FieldSeq
 linktitle: FieldSeq
 articleTitle: FieldSeq
-second_title: Aspose.Words for .NET
-description: FieldSeq inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldSeq oluşturucusunu keşfedin—etkin dizi yönetimi için başvuracağınız çözüm. Bugün kusursuz entegrasyonun ve gelişmiş performansın kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldseq/fieldseq/

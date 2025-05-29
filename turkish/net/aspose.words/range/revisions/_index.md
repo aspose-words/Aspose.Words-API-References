@@ -2,15 +2,15 @@
 title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
-second_title: Aspose.Words for .NET
-description: Range Revisions mülk. Bu aralıkta mevcut olan revizyonların izlenen değişiklikler bir koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Range Revizyonlarını keşfedin. Proje netliğini artırmak için kapsamlı revizyon koleksiyonumuzla mülk değişikliklerini zahmetsizce takip edin ve yönetin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/range/revisions/
 ---
 ## Range.Revisions property
 
-Bu aralıkta mevcut olan revizyonların (izlenen değişiklikler) bir koleksiyonunu alır.
+Bu aralıkta bulunan revizyonların (izlenen değişikliklerin) bir koleksiyonunu alır.
 
 ```csharp
 public RevisionCollection Revisions { get; }
@@ -18,7 +18,7 @@ public RevisionCollection Revisions { get; }
 
 ## Notlar
 
-Döndürülen koleksiyon "canlı" bir koleksiyondur; yani bir belgenin düzeltmelerini içeren bölümlerini kaldırırsanız, silinen düzeltmeler bu koleksiyondan otomatik olarak kaybolacaktır.
+Döndürülen koleksiyon "canlı" bir koleksiyondur; bu, bir belgenin revizyon içeren kısımlarını kaldırırsanız, silinen revizyonların bu koleksiyondan otomatik olarak kaybolacağı anlamına gelir.
 
 ## Örnekler
 
@@ -34,7 +34,7 @@ foreach (Revision revision in paragraph.Range.Revisions)
         revision.Accept();
 }
 
-// İlk bölüm revizyonlarını reddet.
+// İlk bölüm revizyonlarını reddedin.
 doc.FirstSection.Range.Revisions.RejectAll();
 ```
 

@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Tag mülk. Geçerli yapılandırılmış belge etiketi düğümüyle ilişkili bir etiketi belirtir. Yapılamazhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge etiketleme için StructuredDocumentTagRangeStart özelliğini keşfedin. İş akışınızı kolaylaştırmak için etiketleri düğümlerle kolayca ilişkilendirin!
 type: docs
 weight: 150
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-Geçerli yapılandırılmış belge etiketi düğümüyle ilişkili bir etiketi belirtir. Yapılamaz`hükümsüz` .
+Geçerli yapılandırılmış belge etiketi düğümüyle ilişkili bir etiketi belirtir. Olamaz`hükümsüz` .
 
 ```csharp
 public string Tag { get; set; }
@@ -18,7 +18,7 @@ public string Tag { get; set; }
 
 ## Notlar
 
-Etiket, görünür bir kolay ad sağlamadan tanımlamak için uygulamaların yapılandırılmış document etiketiyle ilişkilendirebileceği rastgele bir dizedir.
+Bir etiket, uygulamaların görünür bir kullanıcı dostu ad sağlamadan tanımlamak için yapılandırılmış document etiketiyle ilişkilendirebileceği keyfi bir dizedir.
 
 ## Örnekler
 

@@ -2,15 +2,15 @@
 title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
-second_title: Aspose.Words for .NET
-description: Table Rows mülk. Tablonun satırlarına yazılı erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yazılı özelliğimizle tablo satırlarına zahmetsizce erişin, böylece projeleriniz için kusursuz veri yönetimi ve gelişmiş organizasyon sağlayın.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Tablonun satırlarına yazılı erişim sağlar.
+Tablonun satırlarına yazılmış erişim sağlar.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -23,24 +23,24 @@ public RowCollection Rows { get; }
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Aşağıda bir belgeden tablo almanın iki yolu verilmiştir.
-// 1 - Bir Gövde düğümünün "Tablolar" koleksiyonundan:
+// Aşağıda bir belgeden tablo almanın iki yolu bulunmaktadır.
+// 1 - Bir Body düğümünün "Tablolar" koleksiyonundan:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - "GetChild" yöntemini kullanarak:
+// 2 - "GetChild" metodunu kullanarak:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Geçerli tablodaki tüm satırları sonrakine ekle.
+// Mevcut tablodaki tüm satırları bir sonrakine ekle.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Boş masa kabını çıkarın.
+// Boş tablo kabını kaldır.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
+Belgedeki tüm tablolarda nasıl gezinileceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

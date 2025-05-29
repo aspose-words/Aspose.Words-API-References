@@ -2,15 +2,15 @@
 title: FieldIndex.PageNumberListSeparator
 linktitle: PageNumberListSeparator
 articleTitle: PageNumberListSeparator
-second_title: Aspose.Words for .NET
-description: FieldIndex PageNumberListSeparator mülk. Sayfa numarası listesindeki iki sayfa numarasını ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfa numarası biçimlendirmesini zahmetsizce özelleştirmek için FieldIndex PageNumberListSeparator özelliğini keşfedin. Belgenizin okunabilirliğini bugün artırın!
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldindex/pagenumberlistseparator/
 ---
 ## FieldIndex.PageNumberListSeparator property
 
-Sayfa numarası listesindeki iki sayfa numarasını ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+Bir sayfa numarası listesinde iki sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar.
 
 ```csharp
 public string PageNumberListSeparator { get; set; }
@@ -18,29 +18,29 @@ public string PageNumberListSeparator { get; set; }
 
 ## Örnekler
 
-Bir INDEX alanında sayfa numarası ayırıcısının nasıl düzenleneceğini gösterir.
+INDEX alanındaki sayfa numarası ayırıcısının nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
-// ve sağdaki XE alanını içeren sayfanın numarası.
-// INDEX girişi, XE alanlarını "Metin" özelliğinde eşleşen değerlerle gruplandırır
-// her XE alanı için bir giriş yapmak yerine tek bir girişe.
+// Belgede bulunan her XE alanı için bir girdi görüntüleyecek bir INDEX alanı oluşturun.
+// Her giriş, sol tarafta XE alanının Metin özelliği değerini görüntüler,
+// ve sağ tarafta XE alanını içeren sayfanın numarası.
+// INDEX girişi, "Metin" özelliğindeki eşleşen değerlere sahip XE alanlarını gruplayacaktır
+// her XE alanı için bir giriş yapmak yerine, tek bir girişe.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// INDEX alanımızda bir grup XE alanı için giriş varsa,
-// bu giriş, bu gruba ait bir XE alanı içeren her sayfanın numarasını görüntüleyecektir.
-// Bu sayfa numaralarının görünümünü özelleştirmek için özel ayırıcılar ayarlayabiliriz.
+// INDEX alanımızda bir grup XE alanı için bir giriş varsa,
+// bu giriş, bu gruba ait bir XE alanı içeren her sayfanın numarasını görüntüler.
+// Bu sayfa numaralarının görünümünü özelleştirmek için özel ayraçlar ayarlayabiliriz.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
 
 Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
 Assert.True(index.HasPageNumberSeparator);
 
-// Bu XE alanlarını ekledikten sonra, INDEX alanında "İlk giriş, sayfa 2, 3 ve 4'te" görüntülenecektir.
+// Bu XE alanlarını ekledikten sonra, INDEX alanı "İlk giriş, 2., 3. ve 4. sayfalarda" ifadesini gösterecektir.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";

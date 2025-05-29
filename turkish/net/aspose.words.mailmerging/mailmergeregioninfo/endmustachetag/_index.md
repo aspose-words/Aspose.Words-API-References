@@ -2,15 +2,15 @@
 title: MailMergeRegionInfo.EndMustacheTag
 linktitle: EndMustacheTag
 articleTitle: EndMustacheTag
-second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo EndMustacheTag mülk. Bölge için bir bitiş bıyık etiketi döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belge bölgeleriniz için son bıyık etiketini verimli bir şekilde döndüren MailMergeRegionInfo EndMustacheTag özelliğini keşfedin. İş akışınızı optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 ---
 ## MailMergeRegionInfo.EndMustacheTag property
 
-Bölge için bir bitiş "bıyık" etiketi döndürür.
+Bölge için bir "bıyık" etiketi sonu döndürür.
 
 ```csharp
 public MustacheTag EndMustacheTag { get; }
@@ -18,7 +18,7 @@ public MustacheTag EndMustacheTag { get; }
 
 ## Örnekler
 
-Bıyık etiketleriyle nasıl çalışılacağını gösterir.
+Bıyık etiketlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

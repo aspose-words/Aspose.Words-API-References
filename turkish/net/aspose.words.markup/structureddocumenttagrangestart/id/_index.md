@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Id mülk. Bu yapılandırılmış belge etiketi için benzersiz salt okunur kalıcı bir sayısal kimlik belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge etiketleme için benzersiz, salt okunur sayısal tanımlayıcıya giden anahtarınız olan StructuredDocumentTagRangeStart Id özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 ## StructuredDocumentTagRangeStart.Id property
 
-Bu yapılandırılmış belge etiketi için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir.
+Bu yapılandırılmış belge etiketi için benzersiz, salt okunur, kalıcı bir sayısal Kimlik belirtir.
 
 ```csharp
 public int Id { get; }
@@ -18,13 +18,13 @@ public int Id { get; }
 
 ## Notlar
 
-Kimlik özelliği şu kurallara uymalıdır:
+Kimlik niteliği şu kurallara uymalıdır:
 
-* Belge, yalnızca document belgesinin tamamı kopyalandığında yapılandırılmış belge etiketi kimliklerini koruyacaktır[`Clone`](../../../aspose.words/document/clone/).
-* Sırasında[`ImportNode`](../../../aspose.words/documentbase/importnode/) İçe aktarma, hedef belgedeki 'deki diğer yapılandırılmış belge etiketi kimlikleriyle çakışmaya neden olmazsa, kimliği korunacaktır.
-* Birden fazla yapılandırılmış belge etiketi düğümü, Id özelliği için aynı ondalık sayı değerini belirtirse, , o zaman belgedeki ilk yapılandırılmış belge etiketi bu orijinal kimliği, koruyacak ve sonraki tüm yapılandırılmış belge etiketi düğümleri, aşağıdaki durumlarda kendilerine atanan yeni tanımlayıcılara sahip olacaktır: belge yüklendi.
-* Bağımsız yapılandırılmış belge etiketi sırasındaINodeCloningListener)klonlanmış yapılandırılmış belge etiketi düğümü için yeni benzersiz kimlik işlemi be oluşturulacaktır.
-* Kaynak belgede kimlik belirtilmemişse, yapılandırılmış belge etiket düğümüne, belge yüklendiğinde kendisine atanan yeni bir benzersiz tanımlayıcıya sahip olacaktır.
+* Belge, yalnızca tüm document klonlandığında yapılandırılmış belge etiketi kimliklerini koruyacaktır[`Clone`](../../../aspose.words/document/clone/).
+* Sırasında[`ImportNode`](../../../aspose.words/documentbase/importnode/) Hedef belgedeki diğer yapılandırılmış belge etiketi kimlikleriyle çakışmalara neden olmazsa, kimliği korunmalıdır.
+* Birden fazla yapılandırılmış belge etiketi düğümü, Id niteliği için aynı ondalık sayı değerini belirtiyorsa, belgedeki ilk yapılandırılmış belge etiketi bu orijinal Id'yi, koruyacak ve belge yüklendiğinde tüm sonraki yapılandırılmış belge etiketi düğümlerine yeni tanımlayıcılar atanacaktır.
+* Bağımsız yapılandırılmış belge etiketi sırasındaINodeCloningListener) Klonlanmış yapılandırılmış belge etiketi düğümü için yeni benzersiz kimlik be oluşturulacaktır.
+* Kaynak belgede Id belirtilmemişse, yapılandırılmış belge etiketi düğümü, belge yüklendiğinde kendisine atanmış yeni bir benzersiz tanımlayıcıya sahip olacaktır.
 
 ## Örnekler
 

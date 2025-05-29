@@ -2,8 +2,8 @@
 title: LanguagePreferences.AddEditingLanguages
 linktitle: AddEditingLanguages
 articleTitle: AddEditingLanguages
-second_title: Aspose.Words for .NET
-description: LanguagePreferences AddEditingLanguages yöntem. Ek düzenleme dilleri ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Düzenleme deneyiminizi LanguagePreferences' AddEditingLanguages yöntemiyle geliştirin. Sorunsuz içerik oluşturma için birden fazla dili kolayca ekleyin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/languagepreferences/addeditinglanguages/

@@ -2,10 +2,10 @@
 title: ChapterPageSeparator Enum
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ChapterPageSeparator Sıralama. Bölüm ve sayfa numarası arasında görünen ayırıcı karakteri tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirmesi ve netlik için bölüm ve sayfa numarası ayırıcılarını özelleştirmek üzere Aspose.Words.ChapterPageSeparator numaralandırmasını keşfedin.
 type: docs
-weight: 200
+weight: 390
 url: /tr/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
@@ -20,10 +20,10 @@ public enum ChapterPageSeparator
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Hyphen | `0` | Bir iki nokta üst üste. |
-| Period | `1` | Bir nokta. |
-| Colon | `2` | Bir iki nokta üst üste. |
-| EmDash | `3` | Vurgulanan bir çizgi. |
+| Hyphen | `0` | İki nokta üst üste. |
+| Period | `1` | Bir dönem. |
+| Colon | `2` | İki nokta üst üste. |
+| EmDash | `3` | Vurgulanmış bir çizgi. |
 | EnDash | `4` | Standart bir çizgi. |
 
 ## Örnekler

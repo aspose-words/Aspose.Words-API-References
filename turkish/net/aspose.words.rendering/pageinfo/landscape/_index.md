@@ -2,15 +2,15 @@
 title: PageInfo.Landscape
 linktitle: Landscape
 articleTitle: Landscape
-second_title: Aspose.Words for .NET
-description: PageInfo Landscape mülk. İadelerdoğru bu sayfa için belgede belirtilen sayfa yönü yatay ise C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin sayfa yönünün yatay olup olmadığını PageInfo ile keşfedin. Çarpıcı sunumlar ve baskılar için en uygun düzeni sağlayın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-İadeler`doğru` bu sayfa için belgede belirtilen sayfa yönü yatay ise.
+Geri Döndürür`doğru` Bu sayfa için belgede belirtilen sayfa yönü yataysa.
 
 ```csharp
 public bool Landscape { get; }
@@ -18,13 +18,13 @@ public bool Landscape { get; }
 
 ## Örnekler
 
-Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
+Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız.
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Türleri değişecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,17 +38,17 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
+    // Her sayfanın bir PageInfo nesnesi vardır ve bu nesnenin indeksi ilgili sayfanın numarasıdır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Sayfanın yönünü ve boyutlarını yazdırın.
+    // Sayfanın yönünü ve boyutlarını yazdır.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Kaynak tepsi bilgilerini yazdırın.
+    // Kaynak tepsi bilgilerini yazdır.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -69,7 +69,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Yazdırma sırasında uygun kağıt boyutunu, yönünü ve kağıt tepsisini seçer.
+/// Yazdırma sırasında uygun bir kağıt boyutu, yönü ve kağıt tepsisi seçer.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -79,7 +79,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Kullanıcı seçimine göre yazdırılacak sayfa aralığını başlatır.
+    /// Kullanıcının seçimine göre yazdırılacak sayfa aralığını başlatır.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -107,39 +107,39 @@ public class MyPrintDocument : PrintDocument
     {
         base.OnQueryPageSettings(e);
 
-         // Tek bir Microsoft Word belgesi, farklı boyutlardaki sayfaları belirten birden fazla bölüme sahip olabilir,
-         // yönler ve kağıt tepsileri. .NET yazdırma çerçevesi bu kodu daha önce çağırır.
-        // her sayfa yazdırılır, bu da bize mevcut sayfanın nasıl yazdırılacağını belirleme şansı verir.
+         // Tek bir Microsoft Word belgesi, farklı boyutlarda sayfaları belirten birden fazla bölüme sahip olabilir,
+         // yönlendirmeler ve kağıt tepsileri. .NET yazdırma çerçevesi bu kodu yazdırmadan önce çağırır
+        // her sayfa yazdırılır, bu da bize mevcut sayfanın nasıl yazdırılacağını belirtme şansı verir.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word, her bölüm için kağıt kaynağını (yazıcı tepsisi) yazıcıya özgü bir değer olarak saklar.
+        // Microsoft Word, her bölüm için kağıt kaynağını (yazıcı tepsisi) yazıcıya özgü bir değer olarak depolar.
         // Doğru tepsi değerini elde etmek için yazıcınızın döndürmesi gereken "RawKind" özelliğini kullanmanız gerekecektir.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Her sayfanın yazdırılmak üzere işlenmesi için çağrılır.
+     /// Her sayfanın basıma hazır hale getirilmesi için çağrılır.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words render motoru, kağıdın orijininden (x = 0, y = 0) çizilmiş bir sayfa oluşturur.
-        // Yazıcıda her sayfayı işleyecek sert bir kenar boşluğu olacaktır. Bu zor marjı dengelememiz gerekiyor.
+        // Aspose.Words render motoru, kağıdın başlangıç noktasından (x = 0, y = 0) çizilen bir sayfa oluşturur.
+        // Yazıcıda her sayfayı işleyecek sert bir kenar boşluğu olacak. Bu sert kenar boşluğunu telafi etmemiz gerekiyor.
         float hardOffsetX, hardOffsetY;
 
-        // Aşağıda sert kenar boşluğu ayarlamanın iki yolu verilmiştir.
+        // Aşağıda sert marj ayarlamanın iki yolu bulunmaktadır.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - "PageSettings" özelliği aracılığıyla.
+            // 1 - "PageSettings" özelliği üzerinden.
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - "PageSettings" özelliği mevcut değilse kendi değerlerimizi kullanma.
+            // 2 - "PageSettings" özelliği kullanılamıyorsa kendi değerlerimizi kullanırız.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

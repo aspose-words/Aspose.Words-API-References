@@ -2,15 +2,15 @@
 title: ChartAxis.MajorUnitScale
 linktitle: MajorUnitScale
 articleTitle: MajorUnitScale
-second_title: Aspose.Words for .NET
-description: ChartAxis MajorUnitScale mülk. Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için zaman kategorisi ekseninizdeki önemli onay işaretlerini kolayca özelleştirmek amacıyla ChartAxis MajorUnitScale özelliğini keşfedin.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
 ## ChartAxis.MajorUnitScale property
 
-Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar.
+Zaman kategorisi eksenindeki ana işaretler için ölçek değerini döndürür veya ayarlar.
 
 ```csharp
 public AxisTimeUnit MajorUnitScale { get; set; }
@@ -18,11 +18,11 @@ public AxisTimeUnit MajorUnitScale { get; set; }
 
 ## Notlar
 
-Özelliğin yalnızca zaman kategorisi eksenleri için etkisi vardır.
+Özellik yalnızca zaman kategorisi eksenleri için etkilidir.
 
 ## Örnekler
 
-Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
+Bir grafik ekseninin işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,43 +34,44 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Y ekseninin küçük onay işaretlerini çizim alanından uzağa bakacak şekilde ayarlayın,
-// ve ekseni geçmek için ana onay işaretleri.
+// Y ekseninin küçük işaretlerini çizim alanından uzağa bakacak şekilde ayarlayın,
+// ve ekseni geçmek için büyük işaretler.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Y eksenini her 10 birimde bir büyük işaret ve her 1 birimde bir küçük işaret gösterecek şekilde ayarlayın.
+// Y eksenini her 10 birimde bir büyük bir işaret ve her 1 birimde bir küçük bir işaret gösterecek şekilde ayarlayın.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Y ekseni sınırlarını -10 ve 20 olarak ayarlayın.
-// Bu Y ekseni artık 4 ana onay işareti ve 27 küçük onay işareti görüntüleyecek.
+// Y ekseninin sınırlarını -10 ve 20 olarak ayarlayın.
+// Bu Y ekseni artık 4 ana işaret ve 27 küçük işaret gösterecek.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// X ekseni için her 10 birimde ana onay işaretlerini ayarlayın,
-// 2,5 birimdeki her küçük onay işareti.
+// X ekseni için, ana işaret noktalarını her 10 birimde bir ayarlayın,
+// her küçük tik işareti 2,5 birimde.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Her iki onay işareti türünü de grafik çizim alanında görünecek şekilde yapılandırın.
+// Her iki tür işaretin de grafik çizim alanı içerisinde görünmesini yapılandırın.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// X ekseni sınırlarını, X ekseni 5 ana onay işaretini ve 12 ikincil onay işaretini kapsayacak şekilde ayarlayın.
+// X ekseninin sınırlarını, X ekseninin 5 ana çizgi ve 12 küçük çizgiyi kapsayacak şekilde ayarlayın.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabelSpacing);
+Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
-// Onay etiketlerini değerlerini milyon cinsinden gösterecek şekilde ayarlayın.
+// Tik etiketlerini milyon cinsinden değerlerini gösterecek şekilde ayarlayın.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Onay etiketlerinin değerlerini göstereceği daha spesifik bir değer ayarlayabiliriz.
-// Bu ifade yukarıdakine eşdeğerdir.
+// Tik etiketlerinin değerlerini hangi değere göre görüntüleyeceğini daha spesifik bir değere ayarlayabiliriz.
+// Bu ifade yukarıdaki ifadeye eşdeğerdir.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```

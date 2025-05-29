@@ -2,15 +2,15 @@
 title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: ChartLegendEntryCollection Item mülk. İadelerChartLegendEntry belirtilen dizin için C#'da.
+second_title: .NET için Aspose.Words
+description: ChartLegendEntryCollection Item özelliği ile herhangi bir endeks için ChartLegendEntry'ye erişin. Veri görselleştirmenizi zahmetsizce geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-İadeler[`ChartLegendEntry`](../../chartlegendentry/) belirtilen dizin için.
+Geri Döndürür[`ChartLegendEntry`](../../chartlegendentry/) belirtilen dizin için.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

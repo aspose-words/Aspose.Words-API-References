@@ -2,15 +2,15 @@
 title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
-second_title: Aspose.Words for .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource arayüz. Nesne listesi gibi özel bir veri kaynağından adresmektup birleştirmeye izin vermek için bu arayüzü uygulayın. Ana detay verileri de desteklenmektedir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.MailMerging.IMailMergeDataSource ile güçlü e-posta birleştirmenin kilidini açın. Sorunsuz belge otomasyonu için özel veri kaynaklarını zahmetsizce bağlayın.
 type: docs
-weight: 3810
+weight: 4500
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Nesne listesi gibi özel bir veri kaynağından adres-mektup birleştirmeye izin vermek için bu arayüzü uygulayın. Ana detay verileri de desteklenmektedir.
+Nesnelerin listesi gibi özel bir veri kaynağından posta birleştirmeye izin vermek için bu arayüzü uygulayın. Ana-ayrıntılı veriler de desteklenir.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -26,17 +26,17 @@ public interface IMailMergeDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words adres-mektup birleştirme motoru, iç içe adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words posta birleştirme motoru, iç içe geçmiş bir posta birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
 | [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Belirtilen alan adı için bir değer döndürür veya`YANLIŞ` alan bulunamazsa. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Veri kaynağındaki bir sonraki kayda ilerler. |
 
 ## Notlar
 
-Bir veri kaynağı oluşturulduğunda, BOF'u işaret edecek şekilde başlatılmalıdır (ilk kayıttan önce). Aspose.Words adres-mektup birleştirme motoru,[`MoveNext`](./movenext/) sonraki kayda ilerlemek için and ardından çağırın[`GetValue`](./getvalue/) belgede veya geçerli adres-mektup birleştirme bölgesinde karşılaştığı her birleştirme alanı için.
+Bir veri kaynağı oluşturulduğunda, BOF'u (ilk kayıttan önce) işaret edecek şekilde başlatılmalıdır. Aspose.Words posta birleştirme motoru çağrılacaktır[`MoveNext`](./movenext/) bir sonraki kayda geçmek için ve ardından çağır[`GetValue`](./getvalue/) belgede veya geçerli posta birleştirme bölgesinde karşılaştığı her birleştirme alanı için.
 
 ## Örnekler
 
-Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Özel bir nesne biçiminde bir veri kaynağıyla posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 public void CustomDataSource()
@@ -62,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
+/// Uygulamanızdaki "veri varlığı" sınıfının bir örneği.
 /// </summary>
 public class Customer
 {
@@ -77,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
- /// Aspose.Words'e izin vermek için uyguladığınız özel bir adres-mektup birleştirme veri kaynağı
-/// Müşteri nesnelerinizdeki posta birleştirme verilerini Microsoft Word belgelerine aktarmak için.
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir posta birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki verileri Microsoft Word belgelerine birleştirmek için.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -86,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda, konumunun ilk kayıttan önce olması gerekir.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle posta birleştirme işlemi yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -99,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer almak amacıyla bu metodu çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -112,15 +112,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
-                // bu isimde bir alan bulamadık.
+                // Aspose.Words posta birleştirme motoruna "false" değerini döndürerek belirtin
+                // Bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Koleksiyondaki bir sonraki kayda geçmek için standart bir uygulama.
+    /// Bir koleksiyondaki bir sonraki kayda geçmek için standart bir uygulama.
     /// </summary>
     public bool MoveNext()
     {

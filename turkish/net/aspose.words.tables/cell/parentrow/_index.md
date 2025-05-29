@@ -2,8 +2,8 @@
 title: Cell.ParentRow
 linktitle: ParentRow
 articleTitle: ParentRow
-second_title: Aspose.Words for .NET
-description: Cell ParentRow mülk. Hücrenin üst satırını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir hücrenin üst satırına kolayca erişmek için Cell ParentRow özelliğini keşfedin, böylece veri yönetiminizi ve gezinme verimliliğinizi artırın.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/cell/parentrow/
@@ -16,22 +16,18 @@ Hücrenin üst satırını döndürür.
 public Row ParentRow { get; }
 ```
 
-## Notlar
-
-EşittirFirstNonMarkupParentNode rol almak[`Row`](../../row/).
-
 ## Örnekler
 
-Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
+Aynı sayfada bir arada kalmak için bir masanın nasıl kurulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tablodaki hariç her paragraf için KeepWithNext etkinleştiriliyor
-// son satırdaki sonuncular tablonun birden fazla sayfaya bölünmesini engelleyecektir.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Tablodaki her paragraf için KeepWithNext'i etkinleştirme, ancak
+// son satırdaki sonlar tablonun birden fazla sayfaya bölünmesini önleyecektir.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

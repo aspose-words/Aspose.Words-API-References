@@ -2,15 +2,15 @@
 title: ComHelper.OpenIStream
 linktitle: OpenIStream
 articleTitle: OpenIStream
-second_title: Aspose.Words for .NET
-description: ComHelper OpenIStream yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir IStream nesnesinden C#'da.
+second_title: .NET için Aspose.Words
+description: ComHelper OpenIStream yönteminin, COM uygulamalarınızdaki IStream nesnelerinden belgeleri yüklemeyi nasıl basitleştirerek kusursuz entegrasyon sağladığını keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comhelper/openistream/
 ---
 ## ComHelper.OpenIStream method
 
-COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../../document/) bir IStream nesnesinden.
+Bir COM uygulamasının bir[`Document`](../../document/) bir IStream nesnesinden.
 
 ```csharp
 public Document OpenIStream(IStream stream)
@@ -22,7 +22,7 @@ public Document OpenIStream(IStream stream)
 
 ### Geri dönüş değeri
 
-A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
+A[`Document`](../../document/) Word belgesini temsil eden nesne.
 
 ### Ayrıca bakınız
 

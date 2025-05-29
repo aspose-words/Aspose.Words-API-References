@@ -2,15 +2,15 @@
 title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ExportFontFormat Sıralama. Sabit HTML biçimine dönüştürülürken yazı tiplerini dışa aktarmak için kullanılan biçimi belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: HTML sabit formatına dönüştürürken en iyi font dışa aktarımı için Aspose.Words.Saving.ExportFontFormat enum'unu keşfedin. Belgenizin görsel kalitesini artırın!
 type: docs
-weight: 4990
+weight: 5740
 url: /tr/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Sabit HTML biçimine dönüştürülürken yazı tiplerini dışa aktarmak için kullanılan biçimi belirtir.
+HTML sabit biçimine dönüştürülürken yazı tiplerini dışa aktarmak için kullanılan biçimi belirtir.
 
 ```csharp
 public enum ExportFontFormat
@@ -20,12 +20,12 @@ public enum ExportFontFormat
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Woff | `0` | WOFF (Web Açık Yazı Tipi Formatı). |
-| Ttf | `1` | TTF (TrueType Yazı Tipi formatı). |
+| Woff | `0` | WOFF (Web Açık Yazı Tipi Biçimi). |
+| Ttf | `1` | TTF (TrueType Yazı Tipi biçimi). |
 
 ## Örnekler
 
-Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'e kaydederken yalnızca hedef makinedeki yazı tiplerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

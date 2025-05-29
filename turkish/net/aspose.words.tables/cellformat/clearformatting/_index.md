@@ -2,15 +2,15 @@
 title: CellFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: Aspose.Words for .NET
-description: CellFormat ClearFormatting yöntem. Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez C#'da.
+second_title: .NET için Aspose.Words
+description: Hücre genişliğini değiştirmeden hücre stillerini varsayılana kolayca sıfırlamak için CellFormat ClearFormatting yöntemini keşfedin. E-tablo verimliliğinizi artırın!
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez.
+Varsayılan hücre biçimlendirmesine sıfırlar. Hücrenin genişliğini değiştirmez.
 
 ```csharp
 public void ClearFormatting()
@@ -23,18 +23,18 @@ public void ClearFormatting()
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Aşağıda bir belgeden tablo almanın iki yolu verilmiştir.
-// 1 - Bir Gövde düğümünün "Tablolar" koleksiyonundan:
+// Aşağıda bir belgeden tablo almanın iki yolu bulunmaktadır.
+// 1 - Bir Body düğümünün "Tablolar" koleksiyonundan:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - "GetChild" yöntemini kullanarak:
+// 2 - "GetChild" metodunu kullanarak:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Geçerli tablodaki tüm satırları sonrakine ekle.
+// Mevcut tablodaki tüm satırları bir sonrakine ekle.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Boş masa kabını çıkarın.
+// Boş tablo kabını kaldır.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

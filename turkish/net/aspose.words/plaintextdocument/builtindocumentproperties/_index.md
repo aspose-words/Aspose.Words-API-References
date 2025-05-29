@@ -2,8 +2,8 @@
 title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
-second_title: Aspose.Words for .NET
-description: PlainTextDocument BuiltInDocumentProperties mülk. AlırBuiltInDocumentProperties belgenin C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge organizasyonu için temel belge meta verilerine kolayca erişmek ve bunları yönetmek amacıyla PlainTextDocument BuiltInDocumentProperties özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -18,7 +18,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ## Örnekler
 
-Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin yerleşik özelliklerine nasıl erişileceğini gösterir.
+Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin yerleşik özelliklerine nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -2,10 +2,10 @@
 title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
-second_title: Aspose.Words for .NET
-description: PhysicalFontInfo Version mülk. Yazı tipinin sürüm dizesi C#'da.
+second_title: .NET için Aspose.Words
+description: PhysicalFontInfo Sürüm özelliğini keşfedin, gelişmiş tasarım tutarlılığı ve iyileştirilmiş tipografi için yazı tipinin sürüm dizesine kolayca erişin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
@@ -18,10 +18,10 @@ public string Version { get; }
 
 ## Örnekler
 
-Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
+Mevcut yazı tiplerinin nasıl listeleneceğini gösterir.
 
 ```csharp
-// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından mevcut tüm yazı tiplerini yazdırın.
+// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından kullanılabilir tüm yazı tiplerini yazdırın.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

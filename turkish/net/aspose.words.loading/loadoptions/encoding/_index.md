@@ -2,15 +2,15 @@
 title: LoadOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET
-description: LoadOptions Encoding mülk. Belgede kodlama belirtilmemişse bir HTML TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilirhükümsüz . Varsayılanhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: HTML TXT veya CHM belge kodlamasını kolayca yönetmek için LoadOptions Kodlama özelliğini keşfedin. En iyi performans için içerik yüklemenizi özelleştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.loading/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-Belgede kodlama belirtilmemişse bir HTML, TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilir`hükümsüz` . Varsayılan:`hükümsüz` .
+Kodlama belirtilmemişse HTML, TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar belgenin içinde. Şu şekilde olabilir:`hükümsüz` Varsayılan değer:`hükümsüz` .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -20,11 +20,11 @@ public Encoding Encoding { get; set; }
 
 Bu özellik yalnızca HTML, TXT veya CHM belgeleri yüklenirken kullanılır.
 
-Belgede kodlama belirtilmemişse ve bu özellik`hükümsüz`ardından sistem to kodlamayı otomatik olarak algılamaya çalışacaktır.
+Belgenin içinde kodlama belirtilmemişse ve bu özellik`hükümsüz`daha sonra sistem kodlamayı otomatik olarak algılamaya çalışacaktır.
 
 ## Örnekler
 
-Bir belgenin açılacağı kodlamanın nasıl ayarlanacağını gösterir.
+Bir belgenin hangi kodlamayla açılacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions

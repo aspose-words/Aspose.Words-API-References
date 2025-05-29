@@ -2,15 +2,15 @@
 title: ParagraphFormat.DropCapPosition
 linktitle: DropCapPosition
 articleTitle: DropCapPosition
-second_title: Aspose.Words for .NET
-description: ParagraphFormat DropCapPosition mülk. Gömme metnin konumunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge tasarımı ve okunabilirliği için büyük harf metin konumunuzu kolayca özelleştirmek üzere ParagraphFormat DropCapPosition özelliğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/paragraphformat/dropcapposition/
 ---
 ## ParagraphFormat.DropCapPosition property
 
-Gömme metnin konumunu alır veya ayarlar.
+Büyük harfli bir metnin konumunu alır veya ayarlar.
 
 ```csharp
 public DropCapPosition DropCapPosition { get; set; }
@@ -24,23 +24,23 @@ Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Başlıklar için bir taslak listesi oluşturun.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Başlıklar için bir ana hat listesi oluşturun.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Numaralandırılmış bir liste oluşturun.
+// Numaralandırılmış bir liste oluştur.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// Listeyi oluşturan her paragraf bu bayrağa sahip olacaktır.
+// Liste oluşturan her paragraf bu bayrağa sahip olacaktır.
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
@@ -52,12 +52,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Numaralandırılmış listeye geri dönelim.
+// Numaralandırılmış listeye geri dön.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Anahat listesine geri dönelim.
+// Anahat listesine geri dön.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

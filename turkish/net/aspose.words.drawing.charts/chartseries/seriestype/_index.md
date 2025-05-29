@@ -2,8 +2,8 @@
 title: ChartSeries.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
-second_title: Aspose.Words for .NET
-description: ChartSeries SeriesType mülk. Bu grafik serisinin türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik serinizin türünü kolayca belirlemek ve veri görselleştirmenizi geliştirmek için ChartSeries SeriesType özelliğini keşfedin. Bugün güçlü içgörülerin kilidini açın!
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -18,13 +18,13 @@ public ChartSeriesType SeriesType { get; }
 
 ## Örnekler
 
-Nasıl yapılacağını gösterir
+Belirli grafik serilerinin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
 Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-// Sütun tipindeki tüm serileri kaldırın.
+// Sütun türündeki tüm serileri kaldır.
 for (int i = chart.Series.Count - 1; i >= 0; i--)
 {
     if (chart.Series[i].SeriesType == ChartSeriesType.Column)

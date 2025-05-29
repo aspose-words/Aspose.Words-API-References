@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Level mülk. Bu yapılandırılmış belge etiketi aralığının belge ağacında başlayacağı düzeyi alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge ağacındaki konumunu kolayca belirlemek için StructuredDocumentTagRangeStart Level özelliğini keşfedin ve belge yönetimi verimliliğinizi artırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-Bu yapılandırılmış belge etiketi aralığının belge ağacında başlayacağı düzeyi alır.
+Bu yapılandırılmış belge etiketi aralığının belge ağacında hangi düzeyde başladığını alır.
 
 ```csharp
 public MarkupLevel Level { get; }

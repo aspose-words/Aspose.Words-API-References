@@ -2,15 +2,15 @@
 title: ChartAxisTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: ChartAxisTitle Text mülk. Eksen başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir C#'da.
+second_title: .NET için Aspose.Words
+description: Eksen başlıklarınızı kolayca özelleştirmek için ChartAxisTitle Text özelliğini keşfedin. Gelişmiş veri görselleştirmesi için dinamik başlıklar ayarlayın veya edinin.
 type: docs
-weight: 30
+weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
 
-Eksen başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir.
+Eksen başlığının metnini alır veya ayarlar. Eğer`hükümsüz` veya boş değer belirtilirse, otomatik olarak oluşturulan başlık gösterilecektir.
 
 ```csharp
 public string Text { get; set; }
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## Notlar
 
-Kullanmak[`Show`](../show/) başlığı göstermeniz gerekiyorsa bu seçeneği kullanın.
+Kullanmak[`Show`](../show/)Başlığı göstermeniz gerekiyorsa bu seçeneği kullanın.
 
 ## Örnekler
 
-Grafik ekseni başlığının nasıl ayarlanacağını gösterir.
+Grafik eksen başlığının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,17 +32,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Varsayılan olarak oluşturulan seriyi silin.
+// Varsayılan olarak oluşturulan seriyi sil.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Eksen başlığını ayarlayın.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

@@ -2,17 +2,17 @@
 title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection sınıf. Şunun koleksiyonunu temsil ederForms2OleControl nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işlemede Forms2OleControl nesnelerini etkili bir şekilde yönetmeniz için çözümünüz olan Aspose.Words.Drawing.Ole.Forms2OleControlCollection sınıfını keşfedin.
 type: docs
-weight: 1120
+weight: 1470
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Şunun koleksiyonunu temsil eder:[`Forms2OleControl`](../forms2olecontrol/) nesneler.
+koleksiyonunu temsil eder[`Forms2OleControl`](../forms2olecontrol/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Ole Nesneleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-ole-objects/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Ole Nesneleriyle Çalışma](https://docs.aspose.com/words/net/working-with-ole-objects/) belgeleme makalesi.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -29,29 +29,29 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Koleksiyondaki nesnelerin sayısını alır. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Alır[`Forms2OleControl`](../forms2olecontrol/) belirtilen dizindeki nesne. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Alır[`Forms2OleControl`](../forms2olecontrol/) belirtilen bir dizindeki nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Numaralandırıcıyı alır. |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Numaratör alır. |
 
 ## Örnekler
 
-Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
+Bir belgeye gömülü bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Şekiller, OLE nesnelerini belgenin gövdesinde saklar ve görüntüler.
+// Şekiller, OLE nesnelerini belgenin gövdesinde depolar ve görüntüler.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Bazı OLE kontrolleri, bu belgedeki gibi üç seçenek düğmeli alt kontroller içerebilir.
+// Bazı OLE denetimleri, bu belgedeki üç seçenek düğmesine sahip denetim gibi, alt denetimler içerebilir.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

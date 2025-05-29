@@ -2,10 +2,10 @@
 title: BaselineAlignment Enum
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.BaselineAlignment Sıralama. Yazı tiplerinin bir satırdaki dikey konumunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Hassas yazı tipi konumlandırması için Aspose.Words.BaselineAlignment enum'unu keşfedin. Belge biçimlendirmenizi en uygun dikey hizalama seçenekleriyle geliştirin.
 type: docs
-weight: 20
+weight: 130
 url: /tr/net/aspose.words/baselinealignment/
 ---
 ## BaselineAlignment enumeration
@@ -20,15 +20,15 @@ public enum BaselineAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Top | `0` | Her yazı tipinin üst kısmı boyunca hizalar. |
+| Top | `0` | Her yazı tipinin üst kısmına hizalanır. |
 | Center | `1` | Her yazı tipinin merkez noktalarını hizalar. |
-| Baseline | `2` | Paragrafın taban çizgisine hizalar. |
-| Bottom | `3` | Her yazı tipinin alt kısmına hizalar. |
-| Auto | `4` | Taban çizgisi otomatik olarak ayarlanır. |
+| Baseline | `2` | Paragrafın temel çizgisine hizalanır. |
+| Bottom | `3` | Her yazı tipinin altına hizalanır. |
+| Auto | `4` | Temel çizgi otomatik olarak ayarlanır. |
 
 ## Örnekler
 
-Yazı tiplerinin bir satırdaki dikey konumunun nasıl ayarlanacağını gösterir.
+Bir satırda yazı tiplerinin dikey konumunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

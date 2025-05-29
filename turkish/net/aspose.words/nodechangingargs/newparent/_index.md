@@ -2,15 +2,15 @@
 title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
-second_title: Aspose.Words for .NET
-description: NodeChangingArgs NewParent mülk. İşlem tamamlandıktan sonra ayarlanacak düğümün ebeveynini alır C#'da.
+second_title: .NET için Aspose.Words
+description: İşlemler tamamlandıktan sonra bir düğümün gelecekteki üst öğesine etkili bir şekilde erişmek için NodeChangingArgs NewParent özelliğini keşfedin. Kodlamanızı kolaylıkla geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-İşlem tamamlandıktan sonra ayarlanacak düğümün ebeveynini alır.
+İşlem tamamlandıktan sonra ayarlanacak düğümün üst öğesini alır.
 
 ```csharp
 public Node NewParent { get; }
@@ -18,7 +18,7 @@ public Node NewParent { get; }
 
 ## Örnekler
 
-Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
+Düzenleme yaparken belge ağacındaki değişiklikleri gerçek zamanlı olarak izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Her düğüm ekleme/çıkarma işlemini belgede gerçekleştiği gibi yazdırır.
+/// Belgede gerçekleşen her düğüm ekleme/kaldırma işlemini yazdırır.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

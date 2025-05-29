@@ -2,15 +2,15 @@
 title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
-second_title: Aspose.Words for .NET
-description: IReplacingCallback Replacing yöntem. Değiştirme işlemi sırasında değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan kullanıcı tanımlı bir yöntem C#'da.
+second_title: .NET için Aspose.Words
+description: IReplacingCallback metoduyla kodlamanızı geliştirin! Bulunan her eşleşme için kullanıcı tanımlı eylemleri yürüterek değiştirme işlemlerini verimli bir şekilde özelleştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Değiştirme işlemi sırasında, değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan, kullanıcı tanımlı bir yöntem.
+Bir değiştirme yapılmadan hemen önce bulunan her eşleşme için bir değiştirme işlemi sırasında çağrılan kullanıcı tanımlı bir yöntem.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Geri dönüş değeri
 
-A[`ReplaceAction`](../../replaceaction/) mevcut eşleşme için gerçekleştirilecek eylemi belirten değer.
+Bir[`ReplaceAction`](../../replaceaction/) geçerli eşleşme için gerçekleştirilecek eylemi belirten değer.
 
 ## Örnekler
 
-Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm değiştirmeleri izlerken, düzenli ifade deseninin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
+    // "Değiştir" yönteminin yapacağı tüm değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,7 +50,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
+/// Bir bul-değiştir işlemi tarafından yapılan her metin değişiminin günlüğünü tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
+Bir bulma ve değiştirme işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Eşleşen metni içeren paragraftan sonra bir belge ekleyin.
+        // Eşleşen metni içeren paragraftan sonra bir belge ekle.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metnin bulunduğu paragrafı kaldırın.
+        // Eşleşen metne sahip paragrafı kaldır.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -107,7 +107,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
+/// Bir paragraf veya tablonun ardından başka bir belgenin tüm düğümlerini ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragrafsa düğümü atla.
+                // Bir bölümdeki son boş paragraf ise düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

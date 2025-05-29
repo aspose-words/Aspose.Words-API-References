@@ -2,15 +2,15 @@
 title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.HtmlInsertOptions Sıralama. Şunun için seçenekleri belirtirInsertHtml yöntem C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işleme verimliliğini artırmak için InsertHtml yöntemiyle HTML eklemeyi özelleştirmek üzere Aspose.Words.HtmlInsertOptions enum'unu keşfedin.
 type: docs
-weight: 3140
+weight: 3570
 url: /tr/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-Şunun için seçenekleri belirtir:[`InsertHtml`](../documentbuilder/inserthtml/) yöntem.
+Aşağıdakiler için seçenekleri belirtir:[`InsertHtml`](../documentbuilder/inserthtml/) yöntem.
 
 ```csharp
 [Flags]
@@ -21,14 +21,14 @@ public enum HtmlInsertOptions
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | HTML'yi eklerken varsayılan seçenekleri kullanın. |
-| UseBuilderFormatting | `1` | Belirtilen yazı tipi ve paragraf formatını kullan[`DocumentBuilder`](../documentbuilder/) HTML. 'den eklenen text için temel biçimlendirme olarak |
-| RemoveLastEmptyParagraph | `2` | Normalde HTML'den sonra eklenen ve blok düzeyinde bir öğeyle biten boş paragrafı kaldırın. |
-| PreserveBlocks | `4` | Blok düzeyindeki öğelerin özelliklerini koruyun. |
+| None | `0` | HTML eklerken varsayılan seçenekleri kullanın. |
+| UseBuilderFormatting | `1` | Belirtilen yazı tipini ve paragraf biçimlendirmesini kullanın[`DocumentBuilder`](../documentbuilder/) HTML'den eklenen text için temel biçimlendirme olarak. |
+| RemoveLastEmptyParagraph | `2` | Normalde blok düzeyindeki bir öğeyle biten HTML'den sonra eklenen boş paragrafı kaldırın. |
+| PreserveBlocks | `4` | Blok düzeyindeki öğelerin özelliklerini koru. |
 
 ## Örnekler
 
-Görünen kenarlıkların ve kenar boşluklarının daha iyi korunmasına nasıl izin verileceğini gösterir.
+Görülen sınırların ve kenar boşluklarının daha iyi korunmasına nasıl olanak tanınacağını gösterir.
 
 ```csharp
 const string html = @"
@@ -41,7 +41,7 @@ const string html = @"
         </div>
     </html>";
 
-// HTML blok düzeyindeki öğelerin içe aktarılmasının yeni modunu ayarlayın.
+// HTML blok düzeyindeki öğelerin içe aktarılması için yeni modu ayarlayın.
 HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
 
 DocumentBuilder builder = new DocumentBuilder();

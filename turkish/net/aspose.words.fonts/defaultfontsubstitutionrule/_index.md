@@ -2,17 +2,17 @@
 title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule sınıf. Varsayılan yazı tipi değiştirme kuralı C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz font yönetimi ve gelişmiş belge biçimlendirmesi için Aspose.Words.Fonts.DefaultFontSubstitutionRule sınıfını keşfedin. İş akışınızı bugün optimize edin!
 type: docs
-weight: 2840
+weight: 3250
 url: /tr/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
 Varsayılan yazı tipi değiştirme kuralı.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -27,7 +27,7 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ## Notlar
 
-Bu kural, orijinal yazı tipinin mevcut olmaması durumunda ikame için kullanılacak tek varsayılan yazı tipi adını tanımlar.
+Bu kural, orijinal yazı tipi mevcut değilse ikame için kullanılacak tek varsayılan yazı tipi adını tanımlar.
 
 ## Örnekler
 
@@ -38,7 +38,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// FontSettings'te varsayılan değiştirme kuralını alın.
+// FontSettings içindeki varsayılan değiştirme kuralını al.
 // Bu kural, eksik olan tüm yazı tiplerini "Times New Roman" ile değiştirecektir.
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
@@ -48,8 +48,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // Varsayılan yazı tipi alternatifini "Courier New" olarak ayarlayın.
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Bir belge oluşturucu kullanarak, yazı tipine, değişikliğin gerçekleştiğini görmek zorunda kalmayacağımız bir miktar metin ekleyin,
-// ve ardından sonucu bir PDF'ye dönüştürün.
+// Bir belge oluşturucu kullanarak, ikamenin gerçekleştiğini görmediğimiz bir yazı tipinde biraz metin ekleyin,
+// ve ardından sonucu PDF'e dönüştürün.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

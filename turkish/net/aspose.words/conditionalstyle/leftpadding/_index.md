@@ -2,15 +2,15 @@
 title: ConditionalStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
-second_title: Aspose.Words for .NET
-description: ConditionalStyle LeftPadding mülk. Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablo hücrelerindeki sol aralığı kolayca ayarlamak için ConditionalStyle LeftPadding özelliğini keşfedin. Düzenlerinizi hassas kontrolle geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/conditionalstyle/leftpadding/
 ---
 ## ConditionalStyle.LeftPadding property
 
-Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
+Tablo hücrelerinin içeriklerinin soluna eklenecek boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -40,17 +40,17 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
 // Koşullu stiller, tablonun yalnızca bazı hücrelerini etkileyen biçimlendirme değişiklikleridir
-// hücrelerin son satırda olması gibi bir yüklemi temel alır.
-// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu verilmiştir.
+// hücrelerin son satırda olması gibi bir öngörüye dayalı.
+// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu bulunmaktadır.
 // 1 - Stil türüne göre:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
-// 2 - Dizine göre:
+// 2 - Dizin olarak:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - Özellik olarak:
+// 3 - Bir özellik olarak:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 // Koşullu stillere dolgu ve metin biçimlendirmesi uygulayın.
@@ -60,7 +60,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Olası tüm stil koşullarını listeleyin.
+// Tüm olası stil koşullarını listele.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -70,14 +70,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Tüm koşullu stilleri içeren özel stili tabloya uygulayın.
+// Tüm koşullu stilleri içeren özel stili tabloya uygula.
 table.Style = tableStyle;
 
 // Stilimiz varsayılan olarak bazı koşullu stilleri uygular.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// "StyleOptions" özelliği aracılığıyla diğer tüm stilleri kendimiz etkinleştirmemiz gerekecek.
+// Diğer tüm stilleri "StyleOptions" özelliği aracılığıyla kendimiz etkinleştirmemiz gerekecek.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

@@ -2,8 +2,8 @@
 title: OdsoFieldMapDataCollection
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
-second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veri entegrasyonu için OdsoFieldMapDataCollection'ın güçlü varsayılan oluşturucusunu keşfedin. Projelerinizi verimli haritalama çözümleriyle geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/

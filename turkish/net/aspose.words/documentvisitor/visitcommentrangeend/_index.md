@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
 articleTitle: VisitCommentRangeEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitCommentRangeEnd yöntem. Yorum yapılan metin aralığının sonuna gelindiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki yorum aralığı sonlarını etkili bir şekilde işleyerek metin işlemeyi geliştirmek için tasarlanmış DocumentVisitor VisitCommentRangeEnd yöntemini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/documentvisitor/visitcommentrangeend/
 ---
 ## DocumentVisitor.VisitCommentRangeEnd method
 
-Yorum yapılan metin aralığının sonuna gelindiğinde çağrılır.
+Yorumlanmış bir metin aralığının sonuna gelindiğinde çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void CommentsToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm Comment/CommentRange düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm Yorum/YorumAralığı düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Belgede bir Çalıştırma düğümüyle karşılaşıldığında çağrılır.
-    /// Bir Çalıştırma yalnızca bir Comment veya CommentRange düğümünün çocuğu ise kaydedilir.
+    /// Bir Çalıştırma yalnızca bir Yorum veya YorumAralığı düğümünün çocuğuysa kaydedilir.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -83,7 +83,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -120,7 +120,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak girintisini ayarlayın
     /// bir yorum/yorum aralığının alt düğüm ağacına.
     /// </summary>
     /// <param adı="metin"></param>

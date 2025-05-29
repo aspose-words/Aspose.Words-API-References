@@ -2,10 +2,10 @@
 title: DocumentBuilder.InsertTableOfContents
 linktitle: InsertTableOfContents
 articleTitle: InsertTableOfContents
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertTableOfContents yöntem. Belgeye bir TOC içindekiler tablosu alanı ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder InsertTableOfContents yöntemiyle belgelerinizi zahmetsizce geliştirin, kolay gezinme ve gelişmiş organizasyon için dinamik bir İçindekiler tablosu ekleyin.
 type: docs
-weight: 460
+weight: 500
 url: /tr/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,41 +18,41 @@ public Field InsertTableOfContents(string switches)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| switches | String | TOC alanı değişir. |
+| switches | String | İçindekiler alanı değişir. |
 
 ## Notlar
 
-Bu yöntem, belgenin konumunda geçerli konumuna bir TOC (içindekiler tablosu) alanı ekler.
+Bu yöntem, belgenin geçerli konumuna at bir İçindekiler (TOC) alanı ekler.
 
-Bir Word belgesindeki içindekiler tablosu çeşitli şekillerde oluşturulabilir ve çeşitli seçenekler kullanılarak biçimlendirilebilir. Tablonun oluşturulma ve Microsoft Word tarafından görüntülenme şekli, alan anahtarları tarafından kontrol edilir.
+Word belgesindeki bir içerik tablosu çeşitli yollarla oluşturulabilir ve çeşitli seçenekler kullanılarak biçimlendirilebilir. Tablonun oluşturulma ve Microsoft Word tarafından görüntülenme şekli alan anahtarları tarafından kontrol edilir.
 
-Anahtarları belirtmenin en kolay yolu, Ekle-&gt;Referans-&gt;Dizin ve Tablolar menüsünü, kullanarak bir Word belgesine içerikli bir tablo eklemek ve yapılandırmak, ardından anahtarları görmek için alan kodlarının görünümünü açmaktır. Alan kodlarının görüntülenmesini açmak veya kapatmak için Microsoft Word'de Alt+F9 tuşlarına basabilirsiniz.
+Anahtarları belirtmenin en kolay yolu, Ekle-&gt;Başvuru-&gt;Dizin ve Tablolar menüsünü kullanarak bir Word belgesine içerik tablosu eklemek ve yapılandırmak, ardından anahtarları görmek için alan kodlarının gösterimini açmaktır. Alan kodlarının gösterimini açmak veya kapatmak için Microsoft Word'de Alt+F9 tuşlarına basabilirsiniz.
 
-Örneğin, bir içindekiler tablosu oluşturduktan sonra belgeye aşağıdaki alan eklenir :**{ TOC \o "1-3" \h \z \u }** . Kopyalayabilirsiniz**\o "1-3" \h \z \u** ve bunu switch parametresi olarak kullanın.
+Örneğin, bir içindekiler tablosu oluşturulduktan sonra, belgeye aşağıdaki alan insert eklenir:**{ İçindekiler \o "1-3" \h \z \u }** . Kopyalayabilirsiniz**\o "1-3" \h \z \u** ve bunu anahtar parametresi olarak kullanın.
 
-Dikkat`InsertTableOfContents` yalnızca bir İçindekiler alanı ekleyecektir, but aslında içindekiler tablosunu oluşturmayacaktır. İçindekiler tablosu, alan güncellendiğinde Microsoft Word tarafından oluşturulur.
+Dikkat`InsertTableOfContents` yalnızca bir TOC alanı ekleyecektir, ancak aslında içerik tablosunu oluşturmayacaktır. İçerik tablosu, alan güncellendiğinde Microsoft Word tarafından oluşturulur.
 
-Bu yöntemi kullanarak bir içindekiler tablosu eklerseniz ve ardından file dosyasını Microsoft Word'de açarsanız, TOC alanı henüz güncelleştirilmediğinden içindekiler tablosunu göremezsiniz.
+Bu yöntemi kullanarak bir içindekiler tablosu ekledikten sonra Microsoft Word'de dosyasını açarsanız, TOC alanı henüz güncellenmediği için içindekiler tablosunu göremezsiniz.
 
-Microsoft Word'de, bir belge açıldığında alanlar otomatik olarak güncellenmez, ancak bir belgedeki alanları istediğiniz zaman F9 tuşuna basarak güncelleyebilirsiniz.
+Microsoft Word'de, bir belge açıldığında alanlar otomatik olarak güncellenmez, ancak F9 tuşuna basarak belgedeki alanları istediğiniz zaman güncelleyebilirsiniz.
 
 ## Örnekler
 
-Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
+Başlık stillerini girdi olarak kullanarak bir belgeye İçindekiler Tablosu'nun (TOC) nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin ilk sayfasına bir içindekiler tablosu ekleyin.
-// Tabloyu, 1'den 3'e kadar düzeylerdeki başlıklara sahip paragrafları alacak şekilde yapılandırın.
-// Ayrıca girişlerini bizi götürecek köprüler olacak şekilde ayarlayın
-// Microsoft Word'de sol tıklandığında başlığın konumuna.
+// Belgenin ilk sayfasına bir içerik tablosu ekleyin.
+// Tabloyu 1 ila 3 düzey başlıklarına sahip paragrafları alacak şekilde yapılandırın.
+// Ayrıca, girişlerini bizi götürecek köprü metinleri olarak ayarlayın
+// Microsoft Word'de sol tıklandığında başlığın bulunduğu yere.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Başlık stillerine sahip paragraflar ekleyerek içindekiler tablosunu doldurun.
-// Seviyesi 1 ile 3 arasında olan bu tür başlıkların her biri tabloda bir giriş oluşturacaktır.
+// Başlık stilleri içeren paragraflar ekleyerek içindekiler tablosunu doldurun.
+// 1 ile 3 arasında bir seviyeye sahip her başlık tabloda bir girdi oluşturacaktır.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -80,7 +80,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// İçindekiler tablosu, güncel bir sonucu göstermek için güncellenmesi gereken türden bir alandır.
+// İçindekiler tablosu, güncel bir sonuç göstermek için güncellenmesi gereken bir tür alandır.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

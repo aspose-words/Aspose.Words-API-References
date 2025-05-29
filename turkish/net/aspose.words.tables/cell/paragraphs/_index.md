@@ -2,8 +2,8 @@
 title: Cell.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
-second_title: Aspose.Words for .NET
-description: Cell Paragraphs mülk. Hücrenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin yapısını ve okunabilirliğini artırarak doğrudan alt paragraf koleksiyonuna erişmek için Hücre Paragrafları özelliğini keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.tables/cell/paragraphs/
@@ -18,16 +18,16 @@ public ParagraphCollection Paragraphs { get; }
 
 ## Örnekler
 
-Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
+Aynı sayfada bir arada kalmak için bir masanın nasıl kurulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tablodaki hariç her paragraf için KeepWithNext etkinleştiriliyor
-// son satırdaki sonuncular tablonun birden fazla sayfaya bölünmesini engelleyecektir.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Tablodaki her paragraf için KeepWithNext'i etkinleştirme, ancak
+// son satırdaki sonlar tablonun birden fazla sayfaya bölünmesini önleyecektir.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

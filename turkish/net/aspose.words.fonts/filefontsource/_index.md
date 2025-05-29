@@ -2,17 +2,17 @@
 title: FileFontSource Class
 linktitle: FileFontSource
 articleTitle: FileFontSource
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FileFontSource sınıf. Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Fonts.FileFontSource'u keşfedin. Gelişmiş belge biçimlendirme ve tasarım esnekliği için TrueType yazı tipi dosyalarını sisteminizde kolayca yönetin.
 type: docs
-weight: 2870
+weight: 3280
 url: /tr/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+Dosya sisteminde saklanan tek TrueType yazı tipi dosyasını temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -22,25 +22,25 @@ public class FileFontSource : FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(*string*) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | İşlemci. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | İşlemci. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | İşlemci. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Bu kaynağın önbellekteki anahtarı. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Önbellekteki bu kaynağın anahtarı. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Yazı tipi dosyasının yolu. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynak önceliğini döndürür. |
 | override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilir yazı tiplerinin listesini döndürür. |
 
 ## Örnekler
 

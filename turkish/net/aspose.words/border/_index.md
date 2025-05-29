@@ -2,17 +2,17 @@
 title: Border Class
 linktitle: Border
 articleTitle: Border
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Border sınıf. Bir nesnenin kenarlığını temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerdeki nesne kenarlıklarını özelleştirmek için başvuracağınız çözüm olan Aspose.Words.Border sınıfını keşfedin. Projelerinizi hassasiyet ve stil ile geliştirin!
 type: docs
-weight: 80
+weight: 270
 url: /tr/net/aspose.words/border/
 ---
 ## Border class
 
-Bir nesnenin kenarlığını temsil eder.
+Bir nesnenin sınırını temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) belgeleme makalesi.
 
 ```csharp
 public class Border : InternableComplexAttr
@@ -22,31 +22,31 @@ public class Border : InternableComplexAttr
 
 | İsim | Tanım |
 | --- | --- |
-| [Color](../../aspose.words/border/color/) { get; set; } | Kenarlık rengini alır veya ayarlar. |
-| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Kenarlığın metinden veya sayfa kenarından nokta cinsinden mesafesini alır veya ayarlar. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | İadeler`doğru` Eğer[`LineStyle`](./linestyle/) değilNone . |
+| [Color](../../aspose.words/border/color/) { get; set; } | Sınır rengini alır veya ayarlar. |
+| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Kenarlığın metinden veya sayfa kenarından uzaklığını noktalar halinde alır veya ayarlar. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Geri Döndürür`doğru` eğer[`LineStyle`](./linestyle/) değilNone . |
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Kenarlık stilini alır veya ayarlar. |
-| [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Kenarlık genişliğini nokta cinsinden alır veya ayarlar. |
-| [Shadow](../../aspose.words/border/shadow/) { get; set; } | Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar. |
-| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar. |
-| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar. |
+| [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Sınır genişliğini noktalar halinde alır veya ayarlar. |
+| [Shadow](../../aspose.words/border/shadow/) { get; set; } | Sınırın gölgesi olup olmadığını belirten bir değer alır veya ayarlar. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Bu Border nesnesiyle ilişkilendirilmiş uygulanan renk şemasındaki tema rengini alır veya ayarlar. |
+| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Bir rengi açan veya koyulaştıran bir double değeri alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Kenarlık özelliklerini varsayılan değerlere sıfırlar. |
-| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.words/border/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Belirtilen kenarlığın geçerli kenarlıkla aynı değerde olup olmadığını belirler. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Belirtilen nesnenin geçerli nesneye eşit değerde olup olmadığını belirler. |
+| override [GetHashCode](../../aspose.words/border/gethashcode/)() | Bu tür için bir karma işlevi görevi görür. |
 
 ## Notlar
 
-Kenarlıklar, paragraf, paragraf veya tablo hücresi içindeki metin dizisi dahil olmak üzere çeşitli belge öğelerine uygulanabilir.
+Kenarlıklar, paragraf, paragrafın içindeki metin veya tablo hücresi dahil olmak üzere çeşitli belge öğelerine uygulanabilir.
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

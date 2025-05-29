@@ -2,15 +2,15 @@
 title: TableAlignment Enum
 linktitle: TableAlignment
 articleTitle: TableAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.TableAlignment Sıralama. Satır içi tablo için hizalamayı belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi satır içi tablo hizalaması için Aspose.Words.Tables.TableAlignment enum'unu keşfedin. Belge biçimlendirmenizi hassasiyet ve kolaylıkla geliştirin.
 type: docs
-weight: 6350
+weight: 7200
 url: /tr/net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration
 
-Satır içi tablo için hizalamayı belirtir.
+Satır içi bir tablo için hizalamayı belirtir.
 
 ```csharp
 public enum TableAlignment
@@ -21,31 +21,31 @@ public enum TableAlignment
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Left | `0` | Tablo sola hizalanmıştır. |
-| Center | `1` | Tablo ortalanmıştır. |
+| Center | `1` | Tablo ortalanmış. |
 | Right | `2` | Tablo sağa hizalanmıştır. |
 
 ## Örnekler
 
-Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
+Bir tabloya dış kenarlığın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tabloyu sayfanın ortasına hizalayın.
+// Tabloyu sayfanın ortasına hizala.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
+// Tablodaki mevcut tüm kenarlıkları ve gölgelendirmeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 
-// Tablonun ana hatlarına yeşil kenarlıklar ekleyin.
+// Tablonun dış hatlarına yeşil kenarlıklar ekleyin.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Hücreleri açık yeşil düz renkle doldurun.
+// Hücreleri açık yeşil düz bir renkle doldurun.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

@@ -2,15 +2,15 @@
 title: FrameFormat.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
-second_title: Aspose.Words for .NET
-description: FrameFormat HorizontalPosition mülk. Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki yatay mesafeyi alır.RelativeHorizontalPosition özellik C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçevenizin kenarı ile belirtilen öğe arasındaki mesafeyi kolayca ölçmek ve hassas düzen kontrolü sağlamak için FrameFormat VerticalPosition özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki yatay mesafeyi alır.[`RelativeHorizontalPosition`](../relativehorizontalposition/) özellik.
+Çerçevenin kenarı ile belirtilen öğe arasındaki yatay mesafeyi alır[`RelativeHorizontalPosition`](../relativehorizontalposition/) mülk.
 
 ```csharp
 public double HorizontalPosition { get; }
@@ -18,7 +18,7 @@ public double HorizontalPosition { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

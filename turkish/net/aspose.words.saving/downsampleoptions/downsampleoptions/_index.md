@@ -2,8 +2,8 @@
 title: DownsampleOptions
 linktitle: DownsampleOptions
 articleTitle: DownsampleOptions
-second_title: Aspose.Words for .NET
-description: DownsampleOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli görüntü işleme için DownsampleOptions oluşturucusunu keşfedin. Sorunsuz entegrasyon için varsayılan oluşturucumuzla iş akışınızı optimize edin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/downsampleoptions/downsampleoptions/

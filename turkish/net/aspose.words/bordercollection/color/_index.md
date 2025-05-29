@@ -2,15 +2,15 @@
 title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: BorderCollection Color mülk. Kenarlık rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınız için kenarlık renklerini kolayca özelleştirmek ve yönetmek için BorderCollection Color özelliğini keşfedin. Canlı seçeneklerle kullanıcı arayüzünüzü geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bordercollection/color/
 ---
 ## BorderCollection.Color property
 
-Kenarlık rengini alır veya ayarlar.
+Sınır rengini alır veya ayarlar.
 
 ```csharp
 public Color Color { get; set; }

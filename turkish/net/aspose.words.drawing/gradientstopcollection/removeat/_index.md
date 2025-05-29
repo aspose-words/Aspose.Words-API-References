@@ -2,15 +2,15 @@
 title: GradientStopCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: GradientStopCollection RemoveAt yöntem. Biri kaldırırGradientStop belirtilen dizindeki koleksiyondan C#'da.
+second_title: .NET için Aspose.Words
+description: GradientStopCollection'ınızı RemoveAt yöntemiyle zahmetsizce yönetin. Sorunsuz tasarım kontrolü için GradientStop'ları dizine göre kolayca kaldırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-Bir'i kaldırır[`GradientStop`](../../gradientstop/) belirtilen dizindeki koleksiyondan.
+Birini kaldırır[`GradientStop`](../../gradientstop/) belirtilen bir dizindeki koleksiyondan.
 
 ```csharp
 public GradientStop RemoveAt(int index)
@@ -31,24 +31,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Degrade durakları koleksiyonunu alın.
+// Degrade duraklarının toplanmasını sağla.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// İlk degrade durağını değiştirin.            
-gradientStops[0].Color = Color.Aqua;            
+// İlk degrade durağını değiştir.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Koleksiyonun sonuna yeni degrade durağı ekleyin.
+// Koleksiyonun sonuna yeni bir degrade durağı ekle.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Dizin 1'deki degrade durağını kaldırın.
+// 1. indeksteki degrade durağını kaldır.
 gradientStops.RemoveAt(1);
-// Ve aynı indeks 1'e yeni degrade durağı ekleyin.
+// Ve aynı indeks 1'e yeni bir degrade durağı ekle.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Koleksiyondaki son degrade durağını kaldırın.
+// Koleksiyondaki son degrade durağını kaldır.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 

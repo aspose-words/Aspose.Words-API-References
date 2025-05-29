@@ -2,15 +2,15 @@
 title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
-second_title: Aspose.Words for .NET
-description: FieldXE PageRangeBookmarkName mülk. Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldXE PageRangeBookmarkName özelliğini keşfedin; belgelerinizde hassas sayfa aralığı takibi için yer imi adlarını etkin bir şekilde yönetin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 ---
 ## FieldXE.PageRangeBookmarkName property
 
-Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar.
+Girdinin sayfa numarası olarak eklenen bir sayfa aralığını işaretleyen yer iminin adını alır veya ayarlar.
 
 ```csharp
 public string PageRangeBookmarkName { get; set; }
@@ -18,21 +18,21 @@ public string PageRangeBookmarkName { get; set; }
 
 ## Örnekler
 
-Bir yer iminin yayılmış sayfalarının bir INDEX alanı girişi için sayfa aralığı olarak nasıl belirtileceğini gösterir.
+Bir yer iminin yayılmış sayfalarının bir INDEX alan girişi için sayfa aralığı olarak nasıl belirtileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
-// ve sağdaki XE alanını içeren sayfanın numarası.
-// INDEX girişi "Text" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
-// her XE alanı için bir giriş yapmak yerine tek bir girişe.
+// Belgede bulunan her XE alanı için bir girdi görüntüleyecek bir INDEX alanı oluşturun.
+// Her giriş, sol tarafta XE alanının Metin özelliği değerini görüntüler,
+// ve sağ tarafta XE alanını içeren sayfanın numarası.
+// INDEX girişi, "Metin" özelliğindeki eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
+// her XE alanı için bir giriş yapmak yerine, tek bir girişe.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // Sayfa aralıklarını görüntüleyen INDEX girişleri için bir ayırıcı dize belirtebiliriz
-// ilk sayfanın numarası ile son sayfanın numarası arasında görünecek.
+// ilk sayfa numarası ile son sayfa numarası arasında görünecek.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
 
@@ -42,7 +42,7 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "My entry";
 
-// Bir XE alanı PageRangeBookmarkName özelliğini kullanarak bir yer imini adlandırırsa,
+// Bir XE alanı, PageRangeBookmarkName özelliğini kullanarak bir yer imini adlandırırsa,
 // INDEX girişi, yer iminin kapsadığı sayfa aralığını gösterecektir
 // XE alanını içeren sayfanın numarası yerine.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
@@ -50,9 +50,9 @@ indexEntry.PageRangeBookmarkName = "MyBookmark";
 Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
 Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
-// 3. sayfada başlayan ve 5. sayfada biten bir yer imi ekleyin.
-// Bu yer imine başvuran XE alanı için INDEX girişi bu sayfa aralığını görüntüleyecektir.
-// Tablomuzdaki INDEX girişi "Girişimim, sayfa 3'ten 5'e kadar" olarak görünecektir.
+// 3. sayfadan başlayıp 5. sayfada biten bir yer imi ekle.
+// Bu yer imine başvuran XE alanı için INDEX girişi bu sayfa aralığını görüntüler.
+// Tablomuzda INDEX girişi "Girişim, 3 ila 5. sayfadaki" ifadesini gösterecektir.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");

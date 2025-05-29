@@ -2,15 +2,15 @@
 title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
-second_title: Aspose.Words for .NET
-description: Cell FirstParagraph mülk. Birinci paragrafın ilk paragrafını alır C#'da.
+second_title: .NET için Aspose.Words
+description: İçerik yönetiminizi geliştirmek için, doğrudan alt paragraflardan ilk paragrafa zahmetsizce erişmek amacıyla Cell FirstParagraph özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/cell/firstparagraph/
 ---
 ## Cell.FirstParagraph property
 
-Birinci paragrafın ilk paragrafını alır.
+En yakın alt paragraflar arasında ilk paragrafı alır.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,20 +18,20 @@ public Paragraph FirstParagraph { get; }
 
 ## Örnekler
 
-Belge oluşturucu kullanılarak iç içe tablonun nasıl oluşturulacağını gösterir.
+Belge oluşturucuyu kullanarak iç içe geçmiş tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dış tabloyu oluşturuyoruz.
+// Dış tabloyu oluştur.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Dış tablonun ilk hücresine gidin, hücrenin içinde başka bir tablo oluşturun.
+// Dış tablonun ilk hücresine git, hücrenin içine başka bir tablo oluştur.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -42,18 +42,18 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
-Belge oluşturucu kullanmadan iç içe tablonun nasıl oluşturulacağını gösterir.
+Belge oluşturucu kullanmadan iç içe geçmiş tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Üç satır ve dört sütundan oluşan dış tabloyu oluşturup belgeye ekleyin.
+    // Üç satır ve dört sütundan oluşan dış tabloyu oluştur ve ardından bunu belgeye ekle.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // İki satır ve iki sütundan oluşan başka bir tablo oluşturun ve bunu ilk tablonun ilk hücresine ekleyin.
+    // İki satır ve iki sütundan oluşan başka bir tablo oluştur ve bunu ilk tablonun ilk hücresine ekle.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -61,7 +61,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Her hücrede verilen boyut ve metinle belgede yeni bir tablo oluşturur.
+/// Belgede, her hücrede belirtilen boyutlar ve metinle yeni bir tablo oluşturur.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -82,10 +82,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
-    // Bu özellikleri kullanabilmemiz için tablonun en az bir satıra sahip olması gerekir.
-    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
-    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri göz ardı eder.
+    // Tablonuza sırasıyla bir başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
+    // Bu özellikleri kullanabilmemiz için tablonun en az bir satırının olması gerekir.
+    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (OoxmlCompliance sınıfına bakın).
+    // Belgeyi ISO/IEC 29500 öncesi biçimlerde kaydedersek, Microsoft Word bu özellikleri yoksayar.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

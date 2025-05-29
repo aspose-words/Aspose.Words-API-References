@@ -2,17 +2,17 @@
 title: PdfEncryptionDetails Class
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails sınıf. Bir PDF belgesinin şifrelenmesine ve erişim izinlerine ilişkin ayrıntıları içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Güvenli PDF şifrelemesi ve özelleştirilebilir erişim izinleri için Aspose.Words.PdfEncryptionDetails'ı keşfedin; belgelerinizin korunmasını sağlayın.
 type: docs
-weight: 5460
+weight: 6250
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
-Bir PDF belgesinin şifrelenmesine ve erişim izinlerine ilişkin ayrıntıları içerir.
+Bir PDF belgesi için şifreleme ve erişim izinlerine ilişkin ayrıntıları içerir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Koruyun veya Şifreleyin](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Koruyun veya Şifreleyin](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) belgeleme makalesi.
 
 ```csharp
 public class PdfEncryptionDetails
@@ -29,9 +29,9 @@ public class PdfEncryptionDetails
 
 | İsim | Tanım |
 | --- | --- |
-| [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword/) { get; set; } | Şifrelenmiş PDF belgesinin sahip parolasını belirtir. |
-| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir. Varsayılan değer:DisallowAll . |
-| [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Şifrelenmiş PDF belgesini açmak için gereken kullanıcı şifresini belirtir. |
+| [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword/) { get; set; } | Şifrelenmiş PDF belgesi için sahip parolasını belirtir. |
+| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Şifrelenmiş bir PDF belgesinde bir kullanıcıya izin verilen işlemleri belirtir. Varsayılan değerDisallowAll . |
+| [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Şifrelenmiş PDF belgesini açmak için gereken kullanıcı parolasını belirtir. |
 
 ## Örnekler
 
@@ -43,17 +43,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
+// Açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
+// Bu belgeyi açtığımızda, içeriğine erişmeden önce parolayı girmemiz gerekecektir.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

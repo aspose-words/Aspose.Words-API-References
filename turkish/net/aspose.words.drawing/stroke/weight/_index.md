@@ -2,15 +2,15 @@
 title: Stroke.Weight
 linktitle: Weight
 articleTitle: Weight
-second_title: Aspose.Words for .NET
-description: Stroke Weight mülk. Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Şekiller için fırça kalınlığını özelleştirmek üzere Stroke Weight özelliğini keşfedin. Tasarımlarınızı noktalardaki hassas yol vuruşlarıyla geliştirin!
 type: docs
-weight: 210
+weight: 260
 url: /tr/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
 
-Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar.
+Bir şeklin yolunu noktalar halinde çizen fırça kalınlığını tanımlar.
 
 ```csharp
 public double Weight { get; set; }
@@ -22,7 +22,7 @@ Bir için varsayılan değer[`Shape`](../../shape/) 0,75'tir.
 
 ## Örnekler
 
-Kontur özelliklerinin nasıl değiştirildiğini gösterir.
+Vuruş özelliklerinin nasıl değiştiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
-// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
+// 1 - Şeklin dış hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını işaretleyen kontur:
+// 2 - Şeklin ana hatlarını belirleyen çizgi:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

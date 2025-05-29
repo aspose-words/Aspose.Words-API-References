@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 articleTitle: VisitEditableRangeEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitEditableRangeEnd yöntem. Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentVisitor VisitEditableRangeEnd yöntemini keşfedin; belgelerinizdeki düzenlenebilir aralık sonlarını sorunsuz düzenleme ve gelişmiş işlevsellik için verimli bir şekilde işleyin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor.VisitEditableRangeEnd method
 
-Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır.
+Belgede düzenlenebilir bir aralığın sonuna ulaşıldığında çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
-Bir belgedeki düzenlenebilir her aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki her düzenlenebilir aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void EditableRangeToText()
@@ -34,8 +34,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void EditableRangeToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm EditableRange düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm EditableRange düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -67,14 +67,14 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Çalıştırmaların içeriğini yazdırmak istiyoruz, ancak metin kutularında olduğu gibi yalnızca şekillerin içindeyseler
+        // Çalışmaların içeriklerini yazdırmak istiyoruz, ancak yalnızca metin kutularında olduğu gibi şekillerin içindeyse
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Belgede EditableRange düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir EditableRange düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// EditableRange düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Bir EditableRange düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,7 +99,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

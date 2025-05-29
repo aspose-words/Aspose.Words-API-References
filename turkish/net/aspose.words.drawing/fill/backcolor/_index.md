@@ -2,18 +2,56 @@
 title: Fill.BackColor
 linktitle: BackColor
 articleTitle: BackColor
-second_title: Aspose.Words for .NET
-description: Fill BackColor mülk. Dolgunun arka plan rengini temsil eden bir Color nesnesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: BackColor özelliğiyle dolgunuzun arka plan rengini zahmetsizce özelleştirin. Canlı bir tasarım için kolayca bir Renk nesnesi ayarlayın veya edinin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/fill/backcolor/
 ---
 ## Fill.BackColor property
 
-Dolgunun arka plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
+Dolgu için arka plan rengini temsil eden bir Renk nesnesi alır veya ayarlar.
 
 ```csharp
 public Color BackColor { get; set; }
+```
+
+## Örnekler
+
+Bir şeklin degradelerle nasıl doldurulacağını gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// ForeColor'ı degrade dolgu olarak kullanarak şekle tek renkli degrade dolgu uygulayın.
+shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
+
+Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
+Assert.AreEqual(GradientStyle.Horizontal, shape.Fill.GradientStyle);
+Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
+Assert.AreEqual(270, shape.Fill.GradientAngle);
+
+shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// Şekle iki renkli degrade dolgusu uygula.
+shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
+// Degrade dolgusunun BackColor'ını değiştir.
+shape.Fill.BackColor = Color.Yellow;
+// "GradientStyle.FromCorner/GradientStyle.FromCenter" için "GradientAngle" değişikliklerine dikkat edin
+// degrade dolgunun herhangi bir etkisi olmaz, sadece doğrusal degrade için çalışır.
+shape.Fill.GradientAngle = 15;
+
+Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
+Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
+Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
+Assert.AreEqual(0, shape.Fill.GradientAngle);
+
+// "GradientStyle" elde etmek istiyorsanız, DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın.
+// Belge kaydedildikten sonra "GradientVariant" ve "GradientAngle" özellikleri.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ```
 
 ### Ayrıca bakınız

@@ -2,8 +2,8 @@
 title: Paragraph.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
-second_title: Aspose.Words for .NET
-description: Paragraph ListFormat mülk. Paragrafın liste biçimlendirme özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraf liste biçimlendirmenize kolayca erişmek ve bunları özelleştirmek için Paragraf ListesiBiçimi özelliğini keşfedin ve belgenizin sunumunu geliştirin.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/paragraph/listformat/
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## Örnekler
 
-Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
+Bir belgedeki liste öğelerinden oluşan tüm paragrafların nasıl çıktı alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

@@ -2,17 +2,17 @@
 title: DocumentPropertyCollection Class
 linktitle: DocumentPropertyCollection
 articleTitle: DocumentPropertyCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Properties.DocumentPropertyCollection sınıf. Temel sınıfBuiltInDocumentProperties VeCustomDocumentProperties koleksiyonlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yerleşik ve Özel Belge Özelliklerini etkili bir şekilde yönetmek için başvuracağınız Aspose.Words.Properties.DocumentPropertyCollection sınıfını keşfedin.
 type: docs
-weight: 4480
+weight: 5210
 url: /tr/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
 Temel sınıf[`BuiltInDocumentProperties`](../builtindocumentproperties/) Ve[`CustomDocumentProperties`](../customdocumentproperties/) koleksiyonlar.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belge Özellikleriyle Çalışma](https://docs.aspose.com/words/net/work-with-document-properties/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belge Özellikleriyle Çalışma](https://docs.aspose.com/words/net/work-with-document-properties/) belgeleme makalesi.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -23,17 +23,17 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Koleksiyondaki öğelerin sayısını alır. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Bir değeri döndürür[`DocumentProperty`](../documentproperty/) indekse göre nesne. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Bir değeri döndürür[`DocumentProperty`](../documentproperty/) özelliğin adına göre nesne. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Bir[`DocumentProperty`](../documentproperty/) nesne index. tarafından |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Bir[`DocumentProperty`](../documentproperty/) nesnenin özelliğinin adına göre. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Koleksiyondaki tüm özellikleri kaldırır. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Bir özelliğin dizinini ada göre alır. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Koleksiyondan tüm özellikleri kaldırır. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Geri Döndürür`doğru` belirtilen ada sahip bir özellik koleksiyonda mevcutsa. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Bir özelliğin adına göre dizinini alır. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Belirtilen dizindeki bir özelliği kaldırır. |
 
@@ -41,7 +41,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 
 Özelliklerin adları büyük/küçük harfe duyarlı değildir.
 
-Koleksiyondaki özellikler ada göre alfabetik olarak sıralanmıştır.
+Koleksiyondaki mülkler adlarına göre alfabetik olarak sıralanmıştır.
 
 ## Örnekler
 
@@ -64,7 +64,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Belgedeki her özel özelliği yazdırın.
+// Belgedeki her özel özelliği yazdır.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -78,11 +78,11 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Özel" yoluyla bulabiliriz.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
-// 1 - Dizine göre kaldır:
+// 1 - Dizinle kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -94,7 +94,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Koleksiyonun tamamını bir kerede boşaltın:
+// 3 - Tüm koleksiyonu bir defada boşalt:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

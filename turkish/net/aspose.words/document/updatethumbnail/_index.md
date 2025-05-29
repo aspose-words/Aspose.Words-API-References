@@ -2,15 +2,15 @@
 title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
-second_title: Aspose.Words for .NET
-description: Document UpdateThumbnail yöntem. GüncellemelerThumbnail belirtilen seçeneklere göre belgenin C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir seçeneklerimizle belgenizin küçük resmini zahmetsizce güncelleyin. Görsellerinizi geliştirin ve belge sunumunuzu bugün iyileştirin!
 type: docs
-weight: 780
+weight: 840
 url: /tr/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
-Güncellemeler[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) belirtilen seçeneklere göre belgenin.
+Güncellemeler[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) Belirtilen seçeneklere göre belgenin.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -18,7 +18,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| options | ThumbnailGeneratingOptions | Kullanılacak oluşturma seçenekleri. |
+| options | ThumbnailGeneratingOptions | Kullanılacak üretim seçenekleri. |
 
 ## Notlar
 
@@ -35,12 +35,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
-// 1 - Belgenin ilk sayfasını kullanın:
+// Bir belgeyi .epub olarak kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
+// 1 - Belgenin ilk sayfasını kullan:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Belgede bulunan ilk resmi kullanın:
+// 2 - Belgede bulunan ilk resmi kullan:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;
@@ -77,12 +77,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
-// 1 - Belgenin ilk sayfasını kullanın:
+// Bir belgeyi .epub olarak kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
+// 1 - Belgenin ilk sayfasını kullan:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Belgede bulunan ilk resmi kullanın:
+// 2 - Belgede bulunan ilk resmi kullan:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

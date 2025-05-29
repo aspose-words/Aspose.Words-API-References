@@ -2,15 +2,15 @@
 title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
-second_title: Aspose.Words for .NET
-description: Font HighlightColor mülk. Vurgu işaretçi rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Font HighlightColor özelliğini keşfedin; gelişmiş okunabilirlik ve görsel çekicilik için metninizin vurgu rengini kolayca özelleştirin. Tasarımınızı yükseltin!
 type: docs
 weight: 150
 url: /tr/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-Vurgu (işaretçi) rengini alır veya ayarlar.
+Vurgu (işaretleyici) rengini alır veya ayarlar.
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Örnekler
 
-Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
+Bir metin dizisinin font özelliğini kullanarak nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

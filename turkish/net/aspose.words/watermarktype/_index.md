@@ -2,10 +2,10 @@
 title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WatermarkType Sıralama. Filigran türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerde kolay filigran özelleştirmesi için Aspose.Words.WatermarkType enum'unu keşfedin. Çok yönlü filigran seçenekleriyle projelerinizi geliştirin!
 type: docs
-weight: 6690
+weight: 7540
 url: /tr/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -21,7 +21,7 @@ public enum WatermarkType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Text | `0` | Metnin filigran olarak kullanılacağını belirtir. |
-| Image | `1` | Resmin filigran olarak kullanılacağını belirtir. |
+| Image | `1` | Görüntünün filigran olarak kullanılacağını belirtir. |
 | None | `2` | Filigranın ayarlanmadığını gösterir. |
 
 ## Örnekler
@@ -34,8 +34,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -47,7 +47,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

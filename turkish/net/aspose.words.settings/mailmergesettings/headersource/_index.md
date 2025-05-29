@@ -2,15 +2,15 @@
 title: MailMergeSettings.HeaderSource
 linktitle: HeaderSource
 articleTitle: HeaderSource
-second_title: Aspose.Words for .NET
-description: MailMergeSettings HeaderSource mülk. Adresmektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: MailMergeSettings HeaderSource özelliğini keşfedin, posta birleştirme başlık yolunuzu zahmetsizce tanımlayın. Belge iş akışınızı bugün optimize edin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.settings/mailmergesettings/headersource/
 ---
 ## MailMergeSettings.HeaderSource property
 
-Adres-mektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir.
+Posta birleştirme başlık kaynağına giden yolu belirtir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string HeaderSource { get; set; }
@@ -18,10 +18,10 @@ public string HeaderSource { get; set; }
 
 ## Örnekler
 
-Üst bilgi kaynağından ve veri kaynağından adres-mektup birleştirme için veri kaynağının nasıl oluşturulacağını gösterir.
+Bir başlık kaynağı ve bir veri kaynağından bir posta birleştirme için bir veri kaynağının nasıl oluşturulacağını gösterir.
 
 ```csharp
-// Tek satırlı bir tablodan oluşacak bir posta etiketi birleştirme başlık dosyası oluşturun.
+// Tek satırdan oluşan bir tablodan oluşan bir posta etiketi birleştirme başlık dosyası oluşturun.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -48,8 +48,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// MERGEFIELDS ile şu adlara sahip bir birleştirme hedefi belgesi oluşturun:
-// birleştirme başlığı dosyası tablosundaki sütun adlarını eşleştirin.
+// MERGEFIELDS ile bir birleştirme hedefi belgesi oluşturun ve adlarını şu şekilde girin:
+// birleştirme başlık dosyası tablosundaki sütun adlarıyla eşleşir.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -60,14 +60,14 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Adres-mektup birleştirmemiz için iki belge dosya adı belirterek bir veri kaynağı oluşturun.
+// İki belge dosya adı belirterek posta birleştirmemiz için bir veri kaynağı oluşturun.
 // Başlık kaynağı, veri kaynağı tablosunun sütunlarını adlandıracaktır.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// Veri kaynağı, başlık belgesi tablosundaki tüm sütunlar için veri satırları sağlayacaktır.
+// Veri kaynağı, başlık belge tablosundaki tüm sütunlar için veri satırları sağlayacaktır.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Microsoft Word'ün yürüteceği posta etiketi türü adres-mektup birleştirmeyi yapılandırın
+// Microsoft Word'ün yürüteceği bir posta etiketi türü posta birleştirmeyi yapılandırın
 // çıktı belgesini yüklemek için kullandığımız anda.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;

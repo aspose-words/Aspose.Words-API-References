@@ -2,15 +2,15 @@
 title: IWarningCallback Interface
 linktitle: IWarningCallback
 articleTitle: IWarningCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.IWarningCallback arayüz. Belge yükleme veya kaydetme sırasında oluşabilecek aslına uygunluk kaybı uyarılarını yakalamak için kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yükleme ve kaydetme sırasında doğruluk uyarılarını yakalama yöntemlerini özelleştirmek için Aspose.Words.IWarningCallback arayüzünü uygulayın. Belge bütünlüğünü geliştirin!
 type: docs
-weight: 3210
+weight: 3660
 url: /tr/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Belge yükleme veya kaydetme sırasında oluşabilecek aslına uygunluk kaybı uyarılarını yakalamak için kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+Belge yükleme veya kaydetme sırasında oluşabilecek sadakat kaybı uyarılarını yakalamak için kendi özel yönteminizi çağırmak istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IWarningCallback
@@ -20,11 +20,11 @@ public interface IWarningCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words, belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words, belge yükleme veya kaydetme sırasında biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır. |
 
 ## Örnekler
 
-Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arabiriminin nasıl kullanılacağını gösterir.
+Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arayüzünün nasıl kullanılacağını gösterir.
 
 ```csharp
 public void SubstitutionWarning()
@@ -38,15 +38,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Her belge için varsayılan yazı tipi kaynağı olacak mevcut yazı tipi kaynakları koleksiyonunu saklayın
-    // bunun için farklı bir yazı tipi kaynağı belirtmedik.
+    // Her belge için varsayılan yazı tipi kaynağı olacak olan geçerli yazı tipi kaynakları koleksiyonunu depola
+    // bunun için farklı bir yazı tipi kaynağı belirtmiyoruz.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // Test amacıyla Aspose.Words'ü yalnızca mevcut olmayan bir klasördeki yazı tiplerini arayacak şekilde ayarlayacağız.
+    // Test amaçlı olarak Aspose.Words'ü yalnızca var olmayan bir klasördeki fontları arayacak şekilde ayarlayacağız.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Belgeyi oluştururken "Times New Roman" yazı tipini bulabileceğimiz bir yer olmayacak.
-    // Bu, geri çağrımızın algılayacağı bir yazı tipi değiştirme uyarısına neden olacaktır.
+    // Belgeyi işlerken "Times New Roman" yazı tipini bulabileceğimiz bir yer olmayacak.
+    // Bu, geri aramamızın algılayacağı bir yazı tipi değiştirme uyarısına neden olacaktır.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -54,13 +54,13 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -72,7 +72,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
+Desteklenmeyen meta dosyası kayıtları hakkında bitmap oluşturma ve uyarı türlerini değiştirmeye yönelik bir geri dönüş eklendi.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -82,14 +82,14 @@ public void HandleBinaryRasterWarnings()
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın
-    // çıktı PDF'sinde görüntü oluşturmak için tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
+    // Çıktı PDF'inde işlenmesi için raster işlemlerinin gerekeceği bir meta dosyasıyla karşılaşır.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Her meta dosyasını vektör grafikleri kullanarak oluşturmayı denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
+    // Her meta dosyasını vektör grafikleri kullanarak işlemeyi denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme ve yapılandırmayı uygulama biçimini değiştirmek için
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye nasıl dönüştüreceğini ve yapılandırmayı nasıl uygulayacağını değiştirmek için
     // MetafileRenderingOptions nesnemizde kaydetme işlemine.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -105,7 +105,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Bir belge kaydedildiğinde oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
+/// Bir belgeyi kaydederken oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -127,23 +127,23 @@ Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşme
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belgeyi açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
+    // Yazı tipi değiştirme uyarılarını işlemek için bir geri çağırma atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değişimini etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    // Font değişiminden sonra orijinal font ölçütleri kullanılmalıdır.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
+    // Eksik font içeren bir belgeyi kaydedersek font değiştirme uyarısı alırız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -151,7 +151,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
+    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -159,13 +159,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

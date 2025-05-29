@@ -2,8 +2,8 @@
 title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
-second_title: Aspose.Words for .NET
-description: FieldMergingArgsBase FieldValue mülk. Alanın değerini veri kaynağından alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldMergingArgsBase'in FieldValue özelliğini keşfedin. Gelişmiş veri yönetimi için veri kaynağınızdan alan değerlerine kolayca erişin ve bunları değiştirin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -18,11 +18,11 @@ public object FieldValue { get; set; }
 
 ## Notlar
 
-Bu özellik, adres-mektup birleştirme motoru tarafından bu alan için veri kaynağınızdan seçilen bir değeri içerir. Ayrıca özelliği ayarlayarak değeri değiştirebilirsiniz.
+Bu özellik, posta birleştirme motoru tarafından bu alan için veri kaynağınızdan az önce seçilmiş bir değer içeriyor. Ayrıca, özelliği ayarlayarak değeri değiştirebilirsiniz.
 
 ## Örnekler
 
-Adres-mektup birleştirme gerçekleşirken MERGEFIELD'lerin aldığı değerlerin nasıl düzenleneceğini gösterir.
+MERGEFIELD'lerin posta birleştirme işlemi sırasında aldığı değerlerin nasıl düzenleneceğini gösterir.
 
 ```csharp
 public void FieldFormats()
@@ -30,7 +30,7 @@ public void FieldFormats()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Adres-mektup birleştirme sırasında alacakları değerleri düzenleyecek format anahtarlarına sahip bazı MERGEFIELD'leri ekleyin.
+    // Bir posta birleştirme sırasında alacakları değerleri düzenleyecek biçim anahtarlarına sahip bazı MERGEFIELD'ler ekleyin.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -47,13 +47,13 @@ public void FieldFormats()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme sırasında MERGEFIELD'lerin aldığı değerleri düzenler.
-/// Bu geri çağırmanın değerini etkilemesi için MERGEFIELD adının bir öneki olması gerekir.
+/// Bir posta birleştirme sırasında MERGEFIELD'lerin aldığı değerleri düzenler.
+/// Bu geri çağırmanın değeri üzerinde etkili olması için MERGEFIELD adının bir öneki olması gerekir.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Bir posta birleştirme işlemi verileri bir MERGEFIELD'a birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {
@@ -65,7 +65,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 }
 ```

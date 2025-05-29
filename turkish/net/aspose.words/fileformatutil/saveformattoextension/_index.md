@@ -2,15 +2,15 @@
 title: FileFormatUtil.SaveFormatToExtension
 linktitle: SaveFormatToExtension
 articleTitle: SaveFormatToExtension
-second_title: Aspose.Words for .NET
-description: FileFormatUtil SaveFormatToExtension yöntem. Kayıt biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı başında nokta bulunan küçük harfli bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: Kaydetme biçimi değerlerini FileFormatUtil'in SaveFormatToExtension yöntemi ile zahmetsizce dosya uzantılarına dönüştürün. Doğru, küçük harfli uzantıları kolayca elde edin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/fileformatutil/saveformattoextension/
 ---
 ## FileFormatUtil.SaveFormatToExtension method
 
-Kayıt biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir.
+Kayıtlı formatta numaralandırılmış bir değeri dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir.
 
 ```csharp
 public static string SaveFormatToExtension(SaveFormat saveFormat)
@@ -24,16 +24,16 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 
 ## Notlar
 
-WordML değer ".wml"ye dönüştürülür.
+TheWordML değer ".wml"ye dönüştürülür.
 
-FlatOpc değer ".fopc"e dönüştürülür.
+TheFlatOpc değer ".fopc"ye dönüştürülür.
 
 ## Örnekler
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
-// Dosya uzantısı eksik olan bir dosyadan belge yükleyin ve ardından dosya biçimini tespit edin.
+// Dosya uzantısı eksik olan bir dosyadan bir belge yükleyin ve ardından dosya biçimini algılayın.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -41,15 +41,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi verilmiştir.
-    // 1 - LoadFormat için dosya uzantısı dizesini alın, ardından bu dizeden karşılık gelen SaveFormat'ı alın:
+    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi bulunmaktadır.
+    // 1 - LoadFormat için dosya uzantısı dizesini al, ardından bu dizeden karşılık gelen SaveFormat'ı al:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştürün:
+    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştür:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Akıştan bir belge yükleyin ve ardından onu otomatik olarak algılanan dosya uzantısına kaydedin.
+    // Akıştan bir belge yükleyin ve ardından otomatik olarak algılanan dosya uzantısıyla kaydedin.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

@@ -2,8 +2,8 @@
 title: ImageData.Title
 linktitle: Title
 articleTitle: Title
-second_title: Aspose.Words for .NET
-description: ImageData Title mülk. Bir görüntünün başlığını tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: ImageData Title özelliğinin, benzersiz başlıklar tanımlayarak, arama sonuçlarında görünürlüğü ve etkileşimi iyileştirerek görsellerinizi nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing/imagedata/title/
@@ -30,48 +30,48 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Kaynak belgeden bir şekil içe aktarın ve onu ilk paragrafa ekleyin.
+// Kaynak belgeden bir şekil içe aktar ve onu ilk paragrafa ekle.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
-// İçe aktarılan şekil bir resim içeriyor. ImageData nesnesi aracılığıyla görüntünün özelliklerine ve ham verilerine erişebiliriz.
+// İçeri aktarılan şekil bir resim içeriyor. Resmin özelliklerine ve ham verilerine ImageData nesnesi aracılığıyla erişebiliriz.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
-// Bir görüntünün kenarlıkları yoksa, ImageData nesnesi kenarlık rengini boş olarak tanımlayacaktır.
+// Eğer bir resmin sınırları yoksa, ImageData nesnesi kenarlık rengini boş olarak tanımlayacaktır.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Bu görüntü, yerel dosya sistemindeki başka bir şekil veya görüntü dosyasına bağlanmaz.
+// Bu görüntü yerel dosya sistemindeki başka bir şekle veya görüntü dosyasına bağlı değil.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
-// "Parlaklık" ve "Kontrast" özellikleri görüntünün parlaklığını ve kontrastını tanımlar
+// "Parlaklık" ve "Kontrast" özellikleri görüntü parlaklığını ve kontrastını tanımlar
 // 0-1 ölçeğinde, varsayılan değer 0,5'tir.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// Yukarıdaki parlaklık ve kontrast değerleri beyazın bol olduğu bir görüntü oluşturdu.
-// ChromaKey özelliği ile şeffaflıkla değiştirilecek beyaz gibi bir renk seçebiliriz.
+// Yukarıdaki parlaklık ve kontrast değerleri çok fazla beyaz içeren bir görüntü oluşturmuştur.
+// ChromaKey özelliği ile şeffaflıkla değiştirilecek bir rengi (örneğin beyaz) seçebiliriz.
 imageData.ChromaKey = Color.White;
 
-// Kaynak şekli tekrar içe aktarın ve görüntüyü tek renkli olarak ayarlayın.
+// Kaynak şekli tekrar içe aktarın ve görüntüyü monokroma ayarlayın.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
-// Üçüncü bir görüntü oluşturmak için kaynak şekli tekrar içe aktarın ve BiLevel'e ayarlayın.
-// BiLevel her pikseli siyah veya beyaza (hangisi orijinal renge daha yakınsa) ayarlar.
+// Üçüncü bir görüntü oluşturmak için kaynak şekli tekrar içe aktarın ve onu BiLevel olarak ayarlayın.
+// BiLevel her pikseli orijinal renge en yakın olanı siyaha veya beyaza ayarlar.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Kırpma 0-1 ölçeğinde belirlenir. Bir tarafı 0,3 oranında kırpma
-// kırpılan taraftaki görüntünün %30'unu kırpacaktır.
+// Kırpma 0-1 ölçeğinde belirlenir. Bir tarafı 0,3 oranında kırpmak
+// Resmin kırpılmış tarafının %30'unu kesecektir.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

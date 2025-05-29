@@ -2,15 +2,15 @@
 title: Font.Scaling
 linktitle: Scaling
 articleTitle: Scaling
-second_title: Aspose.Words for .NET
-description: Font Scaling mülk. Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde metin okunabilirliğini ve tasarım esnekliğini artırmak için karakter genişliğini yüzde olarak ayarlamak üzere Font Ölçekleme özelliğini keşfedin.
 type: docs
-weight: 310
+weight: 320
 url: /tr/net/aspose.words/font/scaling/
 ---
 ## Font.Scaling property
 
-Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar.
+Karakter genişliği ölçeklemesini yüzde olarak alır veya ayarlar.
 
 ```csharp
 public int Scaling { get; set; }
@@ -18,21 +18,21 @@ public int Scaling { get; set; }
 
 ## Örnekler
 
-Karakterler için yatay ölçeklendirmenin ve aralığın nasıl ayarlanacağını gösterir.
+Karakterler için yatay ölçeklendirme ve aralıkların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Metnin tamamını ekleyin ve karakter genişliğini %150'ye yükseltin.
+// Metnin tamamını ekle ve karakter genişliğini %150'ye çıkar.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Metnin tamamını ekleyin ve her karakterin arasına 1 punto ekstra yatay boşluk ekleyin.
+// Metnin tamamını ekleyin ve her karakter arasına 1pt ekstra yatay boşluk ekleyin.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Metnin tamamını ekleyin ve karakterleri 1 punto kadar birbirine yaklaştırın.
+// Metnin bir bölümünü ekle ve karakterleri birbirine 1pt yakınlaştır.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

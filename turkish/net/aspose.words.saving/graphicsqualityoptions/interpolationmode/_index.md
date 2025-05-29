@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.InterpolationMode
 linktitle: InterpolationMode
 articleTitle: InterpolationMode
-second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions InterpolationMode mülk. Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiklerinizin enterpolasyon ayarlarını kolayca özelleştirerek gelişmiş görsel kalite elde etmek için GraphicsQualityOptions InterpolationMode özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar.
+Bu Grafikle ilişkili enterpolasyon modunu alır veya ayarlar.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -18,7 +18,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ## Örnekler
 
-Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken render kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

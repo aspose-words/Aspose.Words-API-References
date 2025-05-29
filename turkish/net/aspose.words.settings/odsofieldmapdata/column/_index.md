@@ -2,15 +2,15 @@
 title: OdsoFieldMapData.Column
 linktitle: Column
 articleTitle: Column
-second_title: Aspose.Words for .NET
-description: OdsoFieldMapData Column mülk. Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken harici bir veri kaynağı içindeki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. dir C#'da.
+second_title: .NET için Aspose.Words
+description: Harici veri kaynaklarını MERGEFIELD alanlarına zahmetsizce eşlemek için OdsoFieldMapData Column özelliğini nasıl kullanacağınızı keşfedin. Veri bütünleştirmenizi bugün optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsofieldmapdata/column/
 ---
 ## OdsoFieldMapData.Column property
 
-Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken, harici bir veri kaynağı içindeki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. 'dir
+Harici bir veri kaynağındaki sütunun sıfır tabanlı dizinini belirtir. Bu dizin, belirli bir MERGEFIELD alanının yerel adına eşlenir. Varsayılan değer 0'dır.
 
 ```csharp
 public int Column { get; set; }
@@ -18,12 +18,12 @@ public int Column { get; set; }
 
 ## Örnekler
 
-Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarına eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// Bu koleksiyon, bir posta birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
 // önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Bu koleksiyondaki öğeleri klonlayın.
+// Bu koleksiyondaki öğeleri klonla.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
+// "RemoveAt" metodu elemanlarını indekse göre tek tek kullan.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
+// Tüm koleksiyonu bir kerede temizlemek için "Clear" metodunu kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

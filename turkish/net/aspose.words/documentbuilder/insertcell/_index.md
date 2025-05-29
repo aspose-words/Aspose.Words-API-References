@@ -2,8 +2,8 @@
 title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertCell yöntem. Belgeye bir tablo hücresi ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder InsertCell yöntemiyle belgelerinizi zahmetsizce geliştirin; gelişmiş düzenleme ve netlik için özelleştirilebilir tablo hücrelerini hızla ekleyin.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/documentbuilder/insertcell/
@@ -22,17 +22,17 @@ Az önce eklenen hücre düğümü.
 
 ## Notlar
 
-Masa başlatmak için aramanız yeterli`InsertCell` . Bundan sonra, diğer yöntemlerini kullanarak eklediğiniz herhangi bir içerik[`DocumentBuilder`](../) sınıf mevcut hücreye eklenecek.
+Bir tablo başlatmak için sadece arayın`InsertCell` . Bundan sonra, diğer yöntemlerini kullanarak eklediğiniz herhangi bir içerik[`DocumentBuilder`](../) sınıf mevcut hücreye eklenecek.
 
-Aynı satırda yeni bir hücre başlatmak için`InsertCell` Tekrar.
+Aynı satırda yeni bir hücre başlatmak için şunu çağırın:`InsertCell` Tekrar.
 
-Bir tablo satırı çağrısını sonlandırmak için[`EndRow`](../endrow/).
+Bir tablo satır çağrısını sonlandırmak için[`EndRow`](../endrow/).
 
-Kullan[`CellFormat`](../cellformat/)Hücre biçimlendirmesini belirtme özelliği.
+Kullanın[`CellFormat`](../cellformat/) hücre biçimlendirmesini belirtmek için kullanılan özellik.
 
 ## Örnekler
 
-Tablo oluşturmak için belge oluşturucunun nasıl kullanılacağını gösterir.
+Bir tablo oluşturmak için belge oluşturucunun nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Yeni bir satır başlatmak için oluşturucunun "EndRow" yöntemini çağırın.
+// Yeni bir satır başlatmak için oluşturucunun "EndRow" metodunu çağırın.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -56,7 +56,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +64,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -88,8 +88,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -101,7 +101,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

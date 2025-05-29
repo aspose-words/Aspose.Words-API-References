@@ -2,10 +2,10 @@
 title: StyleType Enum
 linktitle: StyleType
 articleTitle: StyleType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.StyleType Sıralama. Stilin türünü temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerde etkili stil yönetimi için Aspose.Words.StyleType enum'unu keşfedin. En iyi sonuçlar için çok yönlü stil türleriyle biçimlendirmenizi geliştirin!
 type: docs
-weight: 6160
+weight: 7010
 url: /tr/net/aspose.words/styletype/
 ---
 ## StyleType enumeration
@@ -27,16 +27,16 @@ public enum StyleType
 
 ## Örnekler
 
-Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
+Bir liste stilinin nasıl oluşturulacağını ve bir belgede nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Bir stilin içinde bir List nesnesinin tamamını içerebiliriz.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Bir stilin içerisinde bütün bir Liste nesnesini barındırabiliriz.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -46,7 +46,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Listemizdeki tüm liste seviyelerinin görünümünü değiştirin.
+// Listemizdeki tüm liste seviyelerinin görünümünü değiştirelim.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Stil içindeki listeden başka bir liste oluşturun.
+// Bir stil içindeki listeden başka bir liste oluştur.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -73,7 +73,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Liste stiline göre başka bir liste oluşturup uygulayın.
+// Liste stiline göre başka bir liste oluştur ve uygula.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

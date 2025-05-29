@@ -2,15 +2,15 @@
 title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
-second_title: Aspose.Words for .NET
-description: Font ThemeFontAscii mülk. Latince metin için kullanılan tema yazı tipini 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasındaFont nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızda Latin metinler (kodlar 0-127) için tema yazı tiplerini kolayca özelleştirmek ve görsel çekiciliği artırmak için Font ThemeFontAscii özelliğini keşfedin.
 type: docs
-weight: 480
+weight: 490
 url: /tr/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Latince metin için kullanılan tema yazı tipini (0 (sıfır) ile 127 arasında karakter kodlarına sahip karakterler) alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasında[`Font`](../) nesne.
+Latin metni için kullanılan tema yazı tipini alır veya ayarlar (karakter kodları 0 (sıfır) ile 127 arasında olan karakterler) bu uygulamayla ilişkili olan yazı tipi şemasında[`Font`](../) nesne.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontAscii { get; set; }
 
 ## Örnekler
 
-Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
+Tema yazı tipleri ve renkleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Varsayılan olarak kullanılan diller için yazı tiplerini tanımlayın.
+// Varsayılan olarak kullanılan diller için yazı tiplerini tanımla.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Varsayılan değerler yerine tema yazı tipi ve rengini kullanabiliriz.
+// Varsayılan değerler yerine temanın yazı tipini ve rengini kullanabiliriz.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -54,7 +54,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Yazı tipini ve rengini sıfırlamanın birkaç yolu vardır.
-// 1 - ThemeFont.None/ThemeColor.None ayarını yaparak:
+// 1 - ThemeFont.None/ThemeColor.None ayarlanarak:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

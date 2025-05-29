@@ -2,15 +2,15 @@
 title: PageSetup.PageHeight
 linktitle: PageHeight
 articleTitle: PageHeight
-second_title: Aspose.Words for .NET
-description: PageSetup PageHeight mülk. Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin yüksekliğini noktalar halinde etkin bir şekilde yönetmek, düzeninizi ve sunumunuzu geliştirmek için PageSetup PageHeight özelliğini keşfedin.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar.
+Sayfanın yüksekliğini noktalar halinde döndürür veya ayarlar.
 
 ```csharp
 public double PageHeight { get; set; }
@@ -18,16 +18,15 @@ public double PageHeight { get; set; }
 
 ## Örnekler
 
-Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Resmi her sayfada görünecek şekilde başlığa ekleyin.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -38,32 +37,6 @@ shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Resmi her sayfada görünecek şekilde başlığa ekleyin.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Resmi sayfanın ortasına yerleştirin.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### Ayrıca bakınız

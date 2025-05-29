@@ -2,15 +2,15 @@
 title: FieldOptions.FieldUpdateCultureProvider
 linktitle: FieldUpdateCultureProvider
 articleTitle: FieldUpdateCultureProvider
-second_title: Aspose.Words for .NET
-description: FieldOptions FieldUpdateCultureProvider mülk. Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanıcı deneyimini ve yerelleştirmeyi geliştirmek için her alan için özel kültür nesneleri sağlayan FieldOptions FieldUpdateCultureProvider özelliğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar.
+Her belirli alan için belirli bir kültür nesnesi döndüren bir sağlayıcı alır veya ayarlar.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -18,9 +18,9 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ## Notlar
 
-Sağlayıcının değeri ne zaman istenir?[`FieldUpdateCultureSource`](../fieldupdateculturesource/) dır-dirFieldCode.
+Sağlayıcı, değeri talep edildiğinde[`FieldUpdateCultureSource`](../fieldupdateculturesource/) dırFieldCode.
 
-Sağlayıcı mevcutsa, döndürdüğü kültür nesnesi alan güncellemesi için kullanılır. Aksi halde sistem kültürü kullanılır.
+Sağlayıcı mevcutsa, döndürdüğü kültür nesnesi alan güncellemesi için kullanılır. Aksi takdirde, bir sistem kültürü kullanılır.
 
 ## Örnekler
 
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Her alana özel bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
+    // Her alana özgü bir kültür nesnesi döndüren bir sağlayıcı ayarlayın.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -52,7 +52,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

@@ -2,15 +2,15 @@
 title: DocumentProperty.ToBool
 linktitle: ToBool
 articleTitle: ToBool
-second_title: Aspose.Words for .NET
-description: DocumentProperty ToBool yöntem. Özellik değerini bool. olarak döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veri işleme ve gelişmiş kodlama verimliliği için özellik değerlerini Boole değerine verimli bir şekilde dönüştüren DocumentProperty ToBool yöntemini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.properties/documentproperty/tobool/
 ---
 ## DocumentProperty.ToBool method
 
-Özellik değerini bool. olarak döndürür
+Özellik değerini bool olarak döndürür.
 
 ```csharp
 public bool ToBool()
@@ -18,7 +18,7 @@ public bool ToBool()
 
 ## Notlar
 
-Özellik türü değilse bir istisna atarBoolean.
+Özellik türü uygun değilse bir istisna atarBoolean.
 
 ## Örnekler
 

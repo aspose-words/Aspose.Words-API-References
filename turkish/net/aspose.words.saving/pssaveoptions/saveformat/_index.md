@@ -2,8 +2,8 @@
 title: PsSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET
-description: PsSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaPs  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin kaydetme biçimini kolayca belirtmek için PsSaveOptions SaveFormat özelliğini keşfedin. Esnek kaydetme seçenekleriyle iş akışınızı optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pssaveoptions/saveformat/
@@ -18,15 +18,15 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Örnekler
 
-Bir belgenin Postscript formatında kitap katlama biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin kitap katlaması şeklinde Postscript formatına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi PostScript'e dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi PostScript'e nasıl dönüştüreceğini değiştirmek için.
 // İçeriği düzenlemek için "UseBookFoldPrintingSettings" özelliğini "true" olarak ayarlayın
-// çıktı Postscript belgesinde, bundan bir kitapçık oluşturmamıza yardımcı olacak şekilde.
+// çıktı Postscript belgesinde kitapçık yapmamıza yardımcı olacak şekilde.
 // Belgeyi normal şekilde kaydetmek için "UseBookFoldPrintingSettings" özelliğini "false" olarak ayarlayın.
 PsSaveOptions saveOptions = new PsSaveOptions
 {
@@ -34,15 +34,15 @@ PsSaveOptions saveOptions = new PsSaveOptions
     UseBookFoldPrintingSettings = renderTextAsBookFold
 };
 
-// Eğer belgeyi kitapçık olarak işliyorsak "Birden Çok Sayfa" ayarını yapmalıyız
-// tüm bölümlerin sayfa kurulum nesnelerinin özelliklerini "MultiplePagesType.BookFoldPrinting" olarak ayarlayın.
+// Belgeyi kitapçık olarak oluşturuyorsak, "Çoklu Sayfalar"ı ayarlamalıyız
+// tüm bölümlerin sayfa kurulumu nesnelerinin özellikleri "MultiplePagesType.BookFoldPrinting" olarak değiştirildi.
 foreach (Section s in doc.Sections)
 {
     s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 }
 
-// Bu belgeyi sayfaların her iki tarafına da yazdırdıktan sonra tüm sayfaları aynı anda ortadan katlayabiliriz,
-// ve içerikler kitapçık oluşturacak şekilde sıralanacaktır.
+// Bu belgeyi sayfaların her iki tarafına da yazdırdığımızda, tüm sayfaları aynı anda ortadan katlayabiliriz,
+// ve içerikler bir kitapçık oluşturacak şekilde sıralanacaktır.
 doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
 

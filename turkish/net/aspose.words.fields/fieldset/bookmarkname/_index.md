@@ -2,8 +2,8 @@
 title: FieldSet.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: Aspose.Words for .NET
-description: FieldSet BookmarkName mülk. Yer iminin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yer imlerinizi kolayca yönetmek ve özelleştirmek için FieldSet BookmarkName özelliğini keşfedin. Bu önemli özellik ile uygulamanızın gezinmesini geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldset/bookmarkname/
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## Örnekler
 
-SET alanıyla yer imli metnin nasıl oluşturulacağını ve ardından REF alanını kullanarak belgede nasıl görüntüleneceğini gösterir.
+SET alanıyla yer imli metnin nasıl oluşturulacağını ve ardından REF alanı kullanılarak belgede nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Yer imlerine eklenen metni SET alanıyla adlandırın.
-// Bu alan, metin içinde görünen bir yer imi yapısını değil, adlandırılmış bir değişkeni "yer işareti" anlamına gelir.
+ // SET alanı ile yer imli metni adlandırın.
+// Bu alan, metin içerisinde görünen bir yer imi yapısına değil, adlandırılmış bir değişkene atıfta bulunur.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Bir REF alanında yer imine isme göre bakın ve içeriğini görüntüleyin.
+// REF alanında yer imine adıyla başvur ve içeriğini görüntüle.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

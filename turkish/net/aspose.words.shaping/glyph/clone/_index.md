@@ -2,15 +2,15 @@
 title: Glyph.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: Aspose.Words for .NET
-description: Glyph Clone yöntem. Bu örneğin bir kopyasını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Örneğinizin bir kopyasını zahmetsizce oluşturmak için Glyph Clone yöntemini keşfedin. Bu güçlü araçla kodlama verimliliğinizi artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.shaping/glyph/clone/
 ---
 ## Glyph.Clone method
 
-Bu örneğin bir kopyasını döndürür.
+Bu örneğin bir klonunu döndürür.
 
 ```csharp
 public virtual Glyph Clone()

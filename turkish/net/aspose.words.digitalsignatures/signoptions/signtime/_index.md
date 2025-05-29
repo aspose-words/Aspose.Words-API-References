@@ -2,15 +2,15 @@
 title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
-second_title: Aspose.Words for .NET
-description: SignOptions SignTime mülk. İmzalama tarihi. Varsayılan değerşimdiki zaman Now C#'da.
+second_title: .NET için Aspose.Words
+description: Zahmetsiz imzalama için SignOptions SignTime'ı keşfedin. İmzalama tarihini varsayılan olarak geçerli saate kolayca ayarlayın. Belge sürecinizi kolaylaştırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-İmzalama tarihi. Varsayılan değer:**şimdiki zaman** (Now).
+İmzalama tarihi. Varsayılan değer**şimdiki zaman** (Now)
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -21,7 +21,7 @@ public DateTime SignTime { get; set; }
 Belgelerin dijital olarak nasıl imzalanacağını gösterir.
 
 ```csharp
-// PKCS#12 deposundan özel anahtar içermesi gereken bir X.509 sertifikası oluşturun.
+// Özel bir anahtar içermesi gereken bir PKCS#12 deposundan bir X.509 sertifikası oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Yeni dijital imzamızla uygulanacak bir yorum ve tarih oluşturun.
@@ -31,8 +31,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// İmzasız bir belgeyi dosya akışı aracılığıyla yerel dosya sisteminden alın,
-// ardından çıktı dosyası akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturun.
+// Yerel dosya sisteminden bir dosya akışı aracılığıyla imzalanmamış bir belge alın,
+// daha sonra çıktı dosya akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturur.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

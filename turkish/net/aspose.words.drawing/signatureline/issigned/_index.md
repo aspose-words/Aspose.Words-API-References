@@ -2,8 +2,8 @@
 title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
-second_title: Aspose.Words for .NET
-description: SignatureLine IsSigned mülk. İmza satırının dijital imza ile imzalandığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: SignatureLine'ın IsSigned özelliğinin dijital imzanın gerçekliğini nasıl doğruladığını, güvenli ve güvenilir işlemleri nasıl sağladığını keşfedin. Belge bütünlüğünüzü artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/signatureline/issigned/
@@ -18,7 +18,7 @@ public bool IsSigned { get; }
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -2,8 +2,8 @@
 title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
-second_title: Aspose.Words for .NET
-description: FileFontSource FilePath mülk. Yazı tipi dosyasının yolu C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipi dosyalarınıza kolay erişim için FileFontSource FilePath özelliğini keşfedin. Bu temel araçla tasarım sürecinizi kolaylaştırın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/filefontsource/filepath/

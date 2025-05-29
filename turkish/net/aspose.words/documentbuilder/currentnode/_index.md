@@ -2,15 +2,15 @@
 title: DocumentBuilder.CurrentNode
 linktitle: CurrentNode
 articleTitle: CurrentNode
-second_title: Aspose.Words for .NET
-description: DocumentBuilder CurrentNode mülk. Bu DocumentBuilderda seçili olan düğümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Seçili düğüme kolayca erişmek, belge düzenleme verimliliğinizi ve iş akışınızı artırmak için DocumentBuilder CurrentNode özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/documentbuilder/currentnode/
 ---
 ## DocumentBuilder.CurrentNode property
 
-Bu DocumentBuilder'da seçili olan düğümü alır.
+Bu DocumentBuilder'da şu anda seçili olan düğümü alır.
 
 ```csharp
 public Node CurrentNode { get; }
@@ -18,19 +18,19 @@ public Node CurrentNode { get; }
 
 ## Notlar
 
-`CurrentNode` bir imleçtir[`DocumentBuilder`](../) ve bir noktaya işaret ediyor[`Node`](../../node/) bu doğrudan bir alt öğedir[`Paragraph`](../../paragraph/) . kullanarak gerçekleştirdiğiniz tüm ekleme işlemleri[`DocumentBuilder`](../) önce eklenecek`CurrentNode`.
+`CurrentNode` bir imleçtir[`DocumentBuilder`](../) ve birine işaret ediyor[`Node`](../../node/) bir doğrudan alt öğedir[`Paragraph`](../../paragraph/) kullanarak gerçekleştirdiğiniz herhangi bir ekleme işlemi[`DocumentBuilder`](../) önce eklenecek`CurrentNode`.
 
-Geçerli paragraf boş olduğunda veya imleç bir paragrafın veya yapılandırılmış belge etiketinin sonundan hemen önce konumlandırıldığında,`CurrentNode` İadeler`hükümsüz`.
+Geçerli paragraf boş olduğunda veya imleç bir paragrafın veya yapılandırılmış belge etiketinin sonundan just önce konumlandırıldığında,`CurrentNode` döner`hükümsüz`.
 
 ## Örnekler
 
-Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
+Bir belge oluşturucunun imlecinin bir belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer imi, bir yer imi başlangıç düğümünün çevrelediği düğümlerden oluşan bir varlık oluşturun,
+// Yer imi başlangıç düğümü tarafından çevrelenen düğümlerden oluşan bir varlık olan geçerli bir yer imi oluşturun,
  // ve bir yer imi bitiş düğümü.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -44,26 +44,26 @@ Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
 // Belge oluşturucunun imleci her zaman en son eklediğimiz düğümün önündedir.
-// Oluşturucunun imleci belgenin sonundaysa, geçerli düğümü boş olacaktır.
-// Önceki düğüm, en son eklediğimiz yer işareti bitiş düğümüdür.
-// Oluşturucuyla yeni düğümler eklemek onları son düğüme ekleyecektir.
+// Eğer oluşturucunun imleci belgenin sonunda ise, geçerli düğümü boş olacaktır.
+// Önceki düğüm, en son eklediğimiz yer imi son düğümüdür.
+// Builder ile yeni düğümler eklendiğinde, bunlar son düğüme eklenecektir.
 Assert.Null(builder.CurrentNode);
 
-// Oluşturucu ile belgenin farklı bir bölümünü düzenlemek istiyorsak,
-// imlecini düzenlemek istediğimiz düğüme getirmemiz gerekecek.
+// Belgenin farklı bir bölümünü oluşturucuyla düzenlemek istersek,
+// Düzenlemek istediğimiz düğüme imleci getirmemiz gerekecek.
 builder.MoveToBookmark("MyBookmark");
 
-// Bunu bir yer imine taşımak, onu yer işareti başlangıç ve bitiş düğümleri içindeki ilk düğüme, yani ekteki çalıştırmaya taşıyacaktır.
+// Bunu bir yer imine taşımak, onu yer imi başlangıç ve bitiş düğümleri içindeki ilk düğüme, yani kapalı çalışmaya taşıyacaktır.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
-// İmleci bunun gibi tek bir düğüme de taşıyabiliriz.
+// İmleci bu şekilde tek bir düğüme de taşıyabiliriz.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
 Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Bir belgenin başına/sonuna gitmek için belirli yöntemler kullanabiliriz.
+// Bir belgenin başına/sonuna gitmek için belirli yöntemleri kullanabiliriz.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

@@ -2,8 +2,8 @@
 title: FieldMergeBarcode
 linktitle: FieldMergeBarcode
 articleTitle: FieldMergeBarcode
-second_title: Aspose.Words for .NET
-description: FieldMergeBarcode inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon için FieldMergeBarcode oluşturucusunu keşfedin. Güçlü özelliklerin kilidini açın ve projelerinizi zahmetsizce geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/

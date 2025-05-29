@@ -2,15 +2,15 @@
 title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
-second_title: Aspose.Words for .NET
-description: ChartAxis NumberFormat mülk. Bir değeri döndürürChartNumberFormat eksen için sayı formatlarının tanımlanmasına izin veren nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için ChartNumberFormat nesnesini kullanarak grafiğinizin sayı biçimlerini zahmetsizce özelleştirmek üzere ChartAxis NumberFormat özelliğini keşfedin.
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-Bir değeri döndürür[`ChartNumberFormat`](../../chartnumberformat/) eksen için sayı formatlarının tanımlanmasına izin veren nesne.
+Bir[`ChartNumberFormat`](../../chartnumberformat/) eksen için sayı biçimlerinin tanımlanmasına izin veren nesne.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -30,16 +30,16 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// Grafiğe X ekseni için kategoriler içeren özel bir seri ekleyin,
- // ve Y ekseni için ilgili büyük sayısal değerler.
+// X ekseni için kategorilerle grafiğe özel bir seri ekleyin,
+ // ve Y ekseni için büyük sayısal değerler.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Y ekseni onay etiketlerinin sayı biçimini, rakamları virgülle gruplandırmayacak şekilde ayarlayın.
+ // Y eksenindeki işaret etiketlerinin sayı biçimini, basamakların virgüllerle gruplanmaması için ayarlayın.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Bu bayrak yukarıdaki değeri geçersiz kılabilir ve sayı biçimini kaynak hücreden çekebilir.
+// Bu bayrak yukarıdaki değeri geçersiz kılabilir ve sayı biçimini kaynak hücreden çizebilir.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

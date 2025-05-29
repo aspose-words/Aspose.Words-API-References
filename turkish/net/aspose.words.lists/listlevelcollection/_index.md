@@ -2,17 +2,17 @@
 title: ListLevelCollection Class
 linktitle: ListLevelCollection
 articleTitle: ListLevelCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListLevelCollection sınıf. Bir listedeki her düzey için liste biçimlendirme koleksiyonu C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Lists.ListLevelCollection'ı keşfedin, gelişmiş netlik ve sunum için özelleştirilebilir liste düzeyleriyle belge biçimlendirmenizi kolaylaştırın.
 type: docs
-weight: 3520
+weight: 3970
 url: /tr/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
 
-Bir listedeki her düzey için liste biçimlendirme koleksiyonu.
+Bir listedeki her seviye için bir liste biçimlendirme koleksiyonu.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Listelerle Çalışmak](https://docs.aspose.com/words/net/working-with-lists/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Listelerle Çalışma](https://docs.aspose.com/words/net/working-with-lists/) belgeleme makalesi.
 
 ```csharp
 public class ListLevelCollection : IEnumerable<ListLevel>
@@ -22,27 +22,27 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | Bu listedeki düzey sayısını alır. |
-| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Dizine göre bir liste düzeyi alır. |
+| [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | Bu listedeki seviye sayısını alır. |
+| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Dizin düzeyinde bir liste alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Bu listedeki düzeyleri numaralandıracak numaralandırıcı nesnesini alır. |
+| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Bu listedeki seviyeleri numaralandıracak numaratör nesnesini alır. |
 
 ## Örnekler
 
-Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
+Bir liste stilinin nasıl oluşturulacağını ve bir belgede nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Bir stilin içinde bir List nesnesinin tamamını içerebiliriz.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Bir stilin içerisinde bütün bir Liste nesnesini barındırabiliriz.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -52,7 +52,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Listemizdeki tüm liste seviyelerinin görünümünü değiştirin.
+// Listemizdeki tüm liste seviyelerinin görünümünü değiştirelim.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -64,7 +64,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Stil içindeki listeden başka bir liste oluşturun.
+// Bir stil içindeki listeden başka bir liste oluştur.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -79,7 +79,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Liste stiline göre başka bir liste oluşturup uygulayın.
+// Liste stiline göre başka bir liste oluştur ve uygula.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");
@@ -89,16 +89,16 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -119,7 +119,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şeklinde madde işaretli liste sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

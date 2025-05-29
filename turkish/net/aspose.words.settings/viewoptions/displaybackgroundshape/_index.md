@@ -2,15 +2,15 @@
 title: ViewOptions.DisplayBackgroundShape
 linktitle: DisplayBackgroundShape
 articleTitle: DisplayBackgroundShape
-second_title: Aspose.Words for .NET
-description: ViewOptions DisplayBackgroundShape mülk. Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontrol eder C#'da.
+second_title: .NET için Aspose.Words
+description: Baskı düzeninizi, cilalı bir görünüm için özelleştirilebilir arka plan şekilleriyle geliştirmek üzere ViewOptions'daki DisplayBackgroundShape özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/viewoptions/displaybackgroundshape/
 ---
 ## ViewOptions.DisplayBackgroundShape property
 
-Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontrol eder.
+Baskı düzeni görünümünde arka plan şeklinin görüntüsünü kontrol eder.
 
 ```csharp
 public bool DisplayBackgroundShape { get; set; }
@@ -31,11 +31,11 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// Belgenin kaynağının düz renkli bir arka planı var,
-// bunun varlığı "DisplayBackgroundShape" bayrağını "true" olarak ayarlayacaktır.
+// Belgenin kaynağı düz renkli bir arka plana sahiptir,
+// varlığı "DisplayBackgroundShape" bayrağını "true" olarak ayarlayacaktır.
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// Belgenin arka plan rengini göstermesini sağlamak için "DisplayBackgroundShape" değerini "true" olarak tutun.
+// Belgenin arka plan rengini göstermesi için "DisplayBackgroundShape" değerini "true" olarak tutun.
 // Bu, görünürlüğü artırmak için bazı metin renklerini etkileyebilir.
 // Arka plan rengini göstermemek için "DisplayBackgroundShape" değerini "false" olarak ayarlayın.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;

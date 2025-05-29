@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.OptimizeOutput
 linktitle: OptimizeOutput
 articleTitle: OptimizeOutput
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions OptimizeOutput mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . Varsayılandoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: HTML çıktınızı HtmlFixedSaveOptions özelliğiyle optimize edin. Gereksiz tuvalleri kaldırarak ve benzer glifleri birleştirerek performansı artırın. Varsayılan, true.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Bayrak, çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa, yedekli iç içe tuvaller ve boş tuvaller kaldırılır, aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not: Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir: bu özellik şu şekilde ayarlandı:`doğru` . Varsayılan:`doğru` .
+Bayrağı, çıktının optimize edilmesinin gerekip gerekmediğini belirtir. Bu bayrak ayarlanırsa, gereksiz iç içe geçmiş tuvaller ve boş tuvaller kaldırılır, aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not: Bu özellik olarak ayarlanırsa içerik görüntüsünün doğruluğu etkilenebilir.`doğru` . Varsayılan`doğru` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -18,7 +18,7 @@ public override bool OptimizeOutput { get; set; }
 
 ## Örnekler
 
-Çeşitli gereksiz nesneleri kaldırarak bir belgeyi HTML'ye kaydederken nasıl basitleştirileceğini gösterir.
+Çeşitli gereksiz nesneleri kaldırarak bir belgeyi HTML'e kaydederken belgenin nasıl basitleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -27,8 +27,8 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
-// Belgenin optimize edilmiş sürümünün boyutu, optimize edilmemiş belgenin neredeyse üçte biri kadardır.
-Assert.AreEqual(optimizeOutput ? 62521 : 191770,
+// Belgenin optimize edilmiş sürümünün boyutu, optimize edilmemiş belgenin boyutunun neredeyse üçte biri kadardır.
+Assert.AreEqual(optimizeOutput ? 60385 : 191000,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```
 

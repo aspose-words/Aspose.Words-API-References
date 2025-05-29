@@ -2,15 +2,15 @@
 title: OleFormat.SuggestedExtension
 linktitle: SuggestedExtension
 articleTitle: SuggestedExtension
-second_title: Aspose.Words for .NET
-description: OleFormat SuggestedExtension mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya uzantısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gömülü nesnelerinizi etkili bir şekilde kaydetmek için ideal dosya uzantısını kolayca elde etmek amacıyla OleFormat SuggestedExtension özelliğini keşfedin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/oleformat/suggestedextension/
 ---
 ## OleFormat.SuggestedExtension property
 
-Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, önerilen dosya uzantısını alır.
+Mevcut gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, nesne için önerilen dosya uzantısını alır.
 
 ```csharp
 public string SuggestedExtension { get; }
@@ -18,7 +18,7 @@ public string SuggestedExtension { get; }
 
 ## Örnekler
 
-Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
+Gömülü OLE nesnelerinin dosyalara nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -29,7 +29,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nesnemiz ne otomatik güncelleniyor ne de güncellemelerden kilitli.
+// Nesnemiz ne otomatik güncelleniyor ne de güncellemelere kapalı.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -37,7 +37,7 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // Dosyaya hangi dosya uzantısının uygulanacağını belirlemek için "SuggestedExtension" özelliğini kullanabiliriz.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu verilmiştir.
+// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu bulunmaktadır.
 // 1 - Bir akış aracılığıyla kaydedin:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {

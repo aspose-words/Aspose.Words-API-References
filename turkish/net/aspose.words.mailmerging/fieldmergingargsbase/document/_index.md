@@ -2,15 +2,15 @@
 title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: FieldMergingArgsBase Document mülk. Şunu döndürürDocument Adresmektup birleştirmenin gerçekleştirildiği nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz posta birleştirme işlemleri için Belge nesnesi sağlayan FieldMergingArgsBase Belge özelliğini keşfedin. İş akışınızı bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-Şunu döndürür:`Document` Adres-mektup birleştirmenin gerçekleştirildiği nesne.
+şunu döndürür:`Document`posta birleştirme işleminin gerçekleştirildiği nesne.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Örnekler
 
-HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+HTML belgeleri biçiminde birleştirme verilerini işleyen özel bir geri aramayla bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 public void MergeHtml()
@@ -51,32 +51,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
-/// bu geri çağırma, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
+/// Posta birleştirme işlemi, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
+/// bu geri çağırma birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Bir posta birleştirme işlemi verileri bir MERGEFIELD'a birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ayrıştırılmış HTML verilerini belgenin gövdesine ekleyin.
+            // Ayrıştırılmış HTML verilerini belgenin gövdesine ekle.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Birleştirilmiş içeriği zaten manuel olarak eklediğimiz için,
-             // bu etkinliğe "Text" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
+            // Birleştirilmiş içeriği zaten manuel olarak eklediğimizden,
+            // Bu olaya "Metin" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 }
 ```

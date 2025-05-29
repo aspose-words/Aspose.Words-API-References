@@ -2,15 +2,15 @@
 title: GradientStopCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: GradientStopCollection Count mülk. Koleksiyondaki öğelerin sayısını belirten bir tamsayı değeri alır C#'da.
+second_title: .NET için Aspose.Words
+description: Veri yönetiminizi ve kullanıcı arayüzü tasarım verimliliğinizi artıran, toplam öğe sayısını sağlayan GradientStopCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/gradientstopcollection/count/
 ---
 ## GradientStopCollection.Count property
 
-Koleksiyondaki öğelerin sayısını belirten bir tamsayı değeri alır.
+Koleksiyondaki öğe sayısını belirten bir tamsayı değeri alır.
 
 ```csharp
 public int Count { get; }
@@ -27,24 +27,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Degrade durakları koleksiyonunu alın.
+// Degrade duraklarının toplanmasını sağla.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// İlk degrade durağını değiştirin.            
-gradientStops[0].Color = Color.Aqua;            
+// İlk degrade durağını değiştir.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Koleksiyonun sonuna yeni degrade durağı ekleyin.
+// Koleksiyonun sonuna yeni bir degrade durağı ekle.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Dizin 1'deki degrade durağını kaldırın.
+// 1. indeksteki degrade durağını kaldır.
 gradientStops.RemoveAt(1);
-// Ve aynı indeks 1'e yeni degrade durağı ekleyin.
+// Ve aynı indeks 1'e yeni bir degrade durağı ekle.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Koleksiyondaki son degrade durağını kaldırın.
+// Koleksiyondaki son degrade durağını kaldır.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 

@@ -2,8 +2,8 @@
 title: Frameset.ChildFramesets
 linktitle: ChildFramesets
 articleTitle: ChildFramesets
-second_title: Aspose.Words for .NET
-description: Frameset ChildFramesets mülk. Alt çerçevelerin ve çerçeve sayfalarının koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş web tasarımı için alt çerçeve ve sayfa koleksiyonlarına kolayca erişmek ve bunları yönetmek amacıyla Frameset ChildFramesets özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.framesets/frameset/childframesets/
@@ -21,20 +21,21 @@ public FramesetCollection ChildFramesets { get; }
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
 ```csharp
-// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içerir.
+// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içeriyor.
 Document doc = new Document(MyDir + "Frameset.docx");
 
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
 // Varsayılan URL'yi (bir web sayfası URL'si veya yerel belge) veya çerçevenin harici bir kaynak olup olmadığını kontrol edebiliriz.
-Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
+Assert.AreEqual("https://dosya-ornekleri-com.github.io/uploads/2017/02/dosya-ornegi_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
 
 Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
 Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
 
-// Çerçevelerimizden birinin özelliklerini değiştirin.
+// Çerçevelerimizden birinin özelliklerini değiştirelim.
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
-    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mutlak%20konum%20tab.docx";
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ```
 

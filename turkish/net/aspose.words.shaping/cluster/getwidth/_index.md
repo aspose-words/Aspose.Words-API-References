@@ -2,8 +2,8 @@
 title: Cluster.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
-second_title: Aspose.Words for .NET
-description: Cluster GetWidth yöntem. Kümenin genişliğini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Kümenin genişliğini kolayca almak, veri analizi ve görselleştirme yeteneklerinizi geliştirmek için Cluster GetWidth yöntemini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.shaping/cluster/getwidth/

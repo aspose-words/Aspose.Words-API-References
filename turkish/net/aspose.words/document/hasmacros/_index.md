@@ -2,15 +2,15 @@
 title: Document.HasMacros
 linktitle: HasMacros
 articleTitle: HasMacros
-second_title: Aspose.Words for .NET
-description: Document HasMacros mülk. İadelerdoğru belgede bir VBA projesi makrolar varsa C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin HasMacros özelliğiyle VBA proje makroları içerip içermediğini keşfedin. İş akışlarınızda otomasyonu ve verimliliği bugün artırın!
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-İadeler`doğru` belgede bir VBA projesi (makrolar) varsa.
+Geri Döndürür`doğru` eğer belgenin bir VBA projesi varsa (makrolar).
 
 ```csharp
 public bool HasMacros { get; }
@@ -18,7 +18,7 @@ public bool HasMacros { get; }
 
 ## Örnekler
 
-Tıklayarak bir belgenin makrolarını çalıştırmamıza izin vermek için MACROBUTTON alanlarının nasıl kullanılacağını gösterir.
+Bir belgenin makrolarını tıklayarak çalıştırmamızı sağlayan MACROBUTTON alanlarının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -26,18 +26,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// Bir MACROBUTTON alanı ekleyin ve MacroName özelliğinde belgenin makrolarından birine ada göre başvurun.
+// Bir MACROBUTTON alanı ekleyin ve MacroName özelliğinde belgenin makrolarından birine adıyla başvurun.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// Microsoft Word ile birlikte gelen bir makro olan "ViewZoom200"e başvuruda bulunmak için bu özelliği kullanın.
-// Diğer tüm makroları Görünüm -> aracılığıyla bulabiliriz. Makrolar (açılır menü) -> Makroları Görüntüle.
-// Bu menüde, "Makrolar:" açılır menüsünden "Word Komutları"nı seçin.
-// Belgemiz hisse senedi makrosu ile aynı isimde özel bir makro içeriyorsa,
-// makromuz MACROBUTTON alanının çalıştırdığı makro olacaktır.
+// Microsoft Word ile birlikte gelen bir makro olan "ViewZoom200"e başvurmak için özelliği kullanın.
+// Diğer tüm makrolara Görünüm -> Makrolar (açılır liste) -> Makroları Görüntüle yoluyla ulaşabiliriz.
+// Bu menüde "Makrolar:" açılır menüsünden "Word Komutları"nı seçin.
+// Belgemiz stok makro ile aynı adı taşıyan özel bir makro içeriyorsa,
+// bizim makromuz MACROBUTTON alanının çalıştıracağı makro olacaktır.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";
@@ -45,7 +45,7 @@ field.DisplayText = "Run " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  ViewZoom200 Run ViewZoom200", field.GetFieldCode());
 
-// Belgeyi makro etkin belge türü olarak kaydedin.
+// Belgeyi makro etkinleştirilmiş belge türü olarak kaydedin.
 doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ```
 

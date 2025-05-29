@@ -2,15 +2,15 @@
 title: EditableRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: EditableRangeStart Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi etkileşimlerini etkin bir şekilde yönetmek ve sitenizdeki kullanıcı deneyimini geliştirmek için EditableRangeStart Accept yöntemini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/editablerangestart/accept/
 ---
 ## EditableRangeStart.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-`YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
+`YANLIŞ` eğer ziyaretçi sayımın durdurulmasını talep ederse.
 
 ## Notlar
 
-Aramalar[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
+Çağrılar[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 ## Örnekler
 
-Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
+Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlanacağını gösterir.
 
 ```csharp
 public void Visitor()
@@ -45,7 +45,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // Belgeleri yazmaya karşı koruduğumuzda, düzenlenebilir aralıklar kullanıcıların düzenleyebileceği belirli alanları seçmemize olanak tanır.
-    // İzin verilen düzenleyicilerin listesini daraltmanın birbirini dışlayan iki yolu vardır.
+    // İzin verilen editörlerin listesini daraltmanın iki karşılıklı olarak özel yolu vardır.
     // 1 - Bir kullanıcı belirtin:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -54,7 +54,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grup belirtin:
+    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grubu belirtin:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriğini yazdırın.
+    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriklerini yazdır.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriğini bir dizede toplar.
+/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriklerini bir dizgede toplar.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -94,7 +94,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {

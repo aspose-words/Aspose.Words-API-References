@@ -2,15 +2,15 @@
 title: SaveOptions.PrettyFormat
 linktitle: PrettyFormat
 articleTitle: PrettyFormat
-second_title: Aspose.Words for .NET
-description: SaveOptions PrettyFormat mülk. Ne zamandoğru uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Çıktınızı SaveOptions' PrettyFormat özelliğiyle geliştirin. Daha temiz, iyi yapılandırılmış sonuçlar için etkinleştirin. Varsayılan değer false'tur. Farkı keşfedin!
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Ne zaman`doğru` uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değer:`YANLIŞ` .
+Ne zaman`doğru` , uygun olduğu durumlarda çıktıyı güzel biçimlerde biçimlendirir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -18,11 +18,11 @@ public bool PrettyFormat { get; set; }
 
 ## Notlar
 
-Ayarlanır`doğru` HTML, MHTML, EPUB, WordML, RTF, DOCX ve ODT çıktılarını insanlar tarafından okunabilir hale getirmek için. Test etme veya hata ayıklama için kullanışlıdır.
+Ayarla`doğru` HTML, MHTML, EPUB, WordML, RTF, DOCX ve ODT çıktılarını insan tarafından okunabilir hale getirmek için kullanılır. Test veya hata ayıklama için kullanışlıdır.
 
 ## Örnekler
 
-Kaydedilmiş bir .html belgesinin ham kodunun okunabilirliğinin nasıl geliştirileceğini gösterir.
+Kaydedilmiş bir .html belgesinin ham kodunun okunabilirliğinin nasıl artırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,29 +33,30 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// Güzel formatın etkinleştirilmesi, sekme durağı ve yeni satır karakterleri ekleyerek ham html kodunu daha okunabilir hale getirir.
+// Güzel biçimi etkinleştirmek, sekme durağı ve yeni satır karakterleri ekleyerek ham HTML kodunu daha okunabilir hale getirir.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
+string newLine = Environment.NewLine;
 
 if (usePrettyFormat)
     Assert.AreEqual(
-        "<html>\r\n" +
-                    "\t<head>\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\r\n" +
-                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />\r\n" +
-                        "\t\t<title>\r\n" +
-                        "\t\t</title>\r\n" +
-                    "\t</head>\r\n" +
-                    "\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">\r\n" +
-                        "\t\t<div>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span>Hello world!</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                        "\t\t</div>\r\n" +
-                    "\t</body>\r\n</html>", 
+        $"<html>{newLine}" +
+                    $"\t<head>{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />{newLine}" +
+                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />{newLine}" +
+                        $"\t\t<title>{newLine}" +
+                        $"\t\t</title>{newLine}" +
+                    $"\t</head>{newLine}" +
+                    $"\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">{newLine}" +
+                        $"\t\t<div>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span>Hello world!</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                        $"\t\t</div>{newLine}" +
+                    $"\t</body>{newLine}</html>", 
         html);
 else
     Assert.AreEqual(

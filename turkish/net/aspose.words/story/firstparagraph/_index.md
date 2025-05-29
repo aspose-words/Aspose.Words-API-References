@@ -2,8 +2,8 @@
 title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
-second_title: Aspose.Words for .NET
-description: Story FirstParagraph mülk. Hikayedeki ilk paragrafı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir hikayenin ilk paragrafını kolayca çıkarmak, içeriğinizi ve kullanıcı etkileşimini geliştirmek için Story FirstParagraph özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/story/firstparagraph/
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Örnekler
 
-Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
+Bir metin dizisinin font özelliğini kullanarak nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +33,12 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
+Bir metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Kayan bir metin kutusu oluşturun.
+// Yüzen bir metin kutusu oluşturun.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -48,7 +48,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Metin kutusuna bir paragraf ekleyin ve metin kutusunun görüntüleyeceği bir metin dizisi ekleyin.
+// Metin kutusuna bir paragraf ekleyin ve metin kutusunun göstereceği bir metin parçası ekleyin.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

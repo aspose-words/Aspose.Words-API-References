@@ -2,15 +2,15 @@
 title: IPageSavingCallback Interface
 linktitle: IPageSavingCallback
 articleTitle: IPageSavingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.IPageSavingCallback arayüz. Bir belgeyi sabit sayfa formatlarında kaydederken Aspose.Wordsün ayrı sayfaları nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Saving.IPageSavingCallback ile belge kaydetmeyi kontrol edin. En iyi sonuçlar için sayfaların sabit formatlarda nasıl kaydedileceğini özelleştirin.
 type: docs
-weight: 5180
+weight: 5930
 url: /tr/net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-Bir belgeyi sabit sayfa formatlarında kaydederken Aspose.Words'ün ayrı sayfaları nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın.
+Bir belgeyi sabit sayfa biçimlerine kaydederken Aspose.Words'ün ayrı sayfaları nasıl kaydedeceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IPageSavingCallback
@@ -20,11 +20,11 @@ public interface IPageSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | Aspose.Words ayrı bir sayfayı sabit sayfa formatlarına kaydettiğinde çağrılır. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | Aspose.Words sabit sayfa biçimlerine ayrı bir sayfa kaydettiğinde çağrılır. |
 
 ## Örnekler
 
-Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi sayfa sayfa HTML olarak kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void PageFileNames()
@@ -39,12 +39,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Bu belgedeki her sayfayı yerel dosya sisteminde ayrı bir HTML dosyasına kaydedeceğiz.
-    // Her çıktı HTML belgesini adlandırmamızı sağlayan bir geri çağırma ayarlayın.
+    // Bu belgedeki her sayfayı yerel dosya sistemindeki ayrı bir HTML dosyasına kaydedeceğiz.
+    // Her çıktı HTML belgesine isim vermemizi sağlayacak bir geri çağırma ayarlayın.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -56,7 +56,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Tüm sayfaları belirtilen dosya ve dizine kaydeder.
+/// Tüm sayfaları belirtilen bir dosyaya ve dizine kaydeder.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -64,11 +64,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Aşağıda Aspose.Words'ün belgenin her sayfasını nereye kaydedeceğini belirtmenin iki yolu verilmiştir.
-        // 1 - Çıkış sayfası dosyası için bir dosya adı belirleyin:
+        // Aşağıda Aspose.Words'ün belgenin her sayfasını nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
+        // 1 - Çıktı sayfası dosyası için bir dosya adı belirleyin:
         args.PageFileName = outFileName;
 
-        // 2 - Çıkış sayfası dosyası için özel bir akış oluşturun:
+        // 2 - Çıktı sayfası dosyası için özel bir akış oluşturun:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

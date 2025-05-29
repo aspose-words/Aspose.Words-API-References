@@ -2,10 +2,10 @@
 title: DocumentBuilder.MoveToParagraph
 linktitle: MoveToParagraph
 articleTitle: MoveToParagraph
-second_title: Aspose.Words for .NET
-description: DocumentBuilder MoveToParagraph yöntem. İmleci geçerli bölümdeki bir paragrafa taşır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder MoveToParagraph yöntemiyle belgenizde zahmetsizce gezinin ve bölümünüzdeki herhangi bir paragrafa hızlı imleç hareketi sağlayın.
 type: docs
-weight: 560
+weight: 600
 url: /tr/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -18,18 +18,18 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| paragraphIndex | Int32 | Taşınacak paragrafın dizini. |
-| characterIndex | Int32 | Paragrafın içindeki karakterin dizini. Negatif bir değer, paragrafın sonundan itibaren bir konum belirtmenize olanak tanır. Paragrafın sonuna gitmek için -1'i kullanın. |
+| paragraphIndex | Int32 | Gitmek istediğiniz paragrafın dizini. |
+| characterIndex | Int32 | Paragrafın içindeki karakterin dizini. Negatif bir değer, paragrafın sonundan itibaren bir konum belirtmenize olanak tanır. Paragrafın sonuna gitmek için -1 kullanın. |
 
 ## Notlar
 
-Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir. Yani, imleci ilk bölümün birincil başlığına, götürdüyseniz, ardından*paragraphIndex* bölümün başlık içindeki paragrafın dizinini belirtti.
+Gezinme, geçerli bölümün geçerli hikayesi içinde gerçekleştirilir. Yani, imleci ilk bölümün birincil başlığına, taşıdıysanız,*paragraphIndex* o bölümün header içindeki paragrafın dizinini belirtti.
 
-Ne zaman*paragraphIndex* 0'dan büyük veya ona eşitse, 0'ın ilk paragraf olduğu bölümün başlangıcındaki dizinini belirtir. Ne zaman*paragraphIndex* 0, 'den küçükse, son paragraf -1 olmak üzere bölümün sonundan itibaren bir dizin belirtir.
+Ne zaman*paragraphIndex* 0'dan büyük veya ona eşitse, bölümün başlangıcından itibaren bir dizin belirtir ve 0 ilk paragraftır.*paragraphIndex* 0, 'den küçükse, bölümün sonundan itibaren bir indeks belirtmiştir; -1 son paragraftır.
 
 ## Örnekler
 
-Oluşturucunun imleç konumunun belirli bir paragrafa nasıl taşınacağını gösterir.
+Bir inşaatçının imleç konumunun belirtilen bir paragrafa nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -37,16 +37,16 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(22, paragraphs.Count);
 
-// Belgeyi düzenlemek için belge oluşturucu oluşturun. İnşaatçının imleci,
-// belge oluşturma yöntemlerini çağırdığımızda yeni düğümlerin ekleneceği nokta,
-// şu anda belgenin başındadır.
+// Belgeyi düzenlemek için belge oluşturucuyu oluşturun. Oluşturucunun imleci,
+// belge oluşturma yöntemlerini çağırdığımızda yeni düğümler ekleyeceği nokta burasıdır,
+// şu anda belgenin başında yer almaktadır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
 
-// İmleci farklı bir paragrafa taşıdığınızda, imleç o paragrafın önüne yerleştirilecektir.
+// İmleci farklı bir paragrafa taşımak, imleci o paragrafın önüne getirecektir.
 builder.MoveToParagraph(2, 0);
-// Eklediğimiz yeni içerik bu noktada eklenecektir.
+// Eklediğimiz her yeni içerik o noktada eklenecektir.
 builder.Writeln("This is a new third paragraph. ");
 ```
 

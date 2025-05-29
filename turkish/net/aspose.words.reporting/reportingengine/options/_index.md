@@ -2,18 +2,32 @@
 title: ReportingEngine.Options
 linktitle: Options
 articleTitle: Options
-second_title: Aspose.Words for .NET
-description: ReportingEngine Options mülk. Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlarReportingEngine rapor oluştururken örneği C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi performans ve kontrol için esnek bayraklarla rapor oluşturma davranışlarını kolayca özelleştirmek amacıyla ReportingEngine Seçenekleri özelliğini keşfedin.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlar[`ReportingEngine`](../) rapor oluştururken örneği.
+Bu davranışın kontrol edildiği bir bayrak kümesini alır veya ayarlar[`ReportingEngine`](../) Bir rapor oluştururken örneği.
 
 ```csharp
 public ReportBuildOptions Options { get; set; }
+```
+
+## Örnekler
+
+Eksik üyelere nasıl izin verileceğini gösterir.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+builder.Writeln("<<[missingObject.First().id]>>");
+builder.Writeln("<<foreach [in missingObject]>><<[id]>><</foreach>>");
+
+ReportingEngine engine = new ReportingEngine { Options = ReportBuildOptions.AllowMissingMembers };
+engine.MissingMemberMessage = "Missed";
+engine.BuildReport(builder.Document, new DataSet(), "");
 ```
 
 ### Ayrıca bakınız

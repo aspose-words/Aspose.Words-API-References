@@ -2,15 +2,15 @@
 title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
-second_title: Aspose.Words for .NET
-description: MailMerge PreserveUnusedTags mülk. Kullanılmayan bıyık etiketlerinin korunması gerekip gerekmediğini belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanılmayan bıyık etiketlerini etkili bir şekilde yönetmek ve belge otomasyon sürecinizi geliştirmek için MailMerge PreserveUnusedTags özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
 
-Kullanılmayan "bıyık" etiketlerinin korunması gerekip gerekmediğini belirten bir değer alır veya ayarlar.
+Kullanılmayan "mustache" etiketlerinin korunup korunmayacağını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool PreserveUnusedTags { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`YANLIŞ` .
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında kullanılmayan alternatif adres-mektup birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
+Bir posta birleştirme sırasında kullanılmayan alternatif posta birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,19 +30,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // Adres-mektup birleştirme, varsayılan olarak bir tablonun her satırındaki verileri, o tablodaki sütunları adlandıran MERGEFIELD'lere yerleştirir.
-    // Belgemizde bu tür alanlar yok ancak küme parantezleri içine alınmış düz metin etiketleri var.
-    // "PreserveUnusedTags" bayrağını "true" olarak ayarlarsak, bu etiketleri MERGEFIELD'ler olarak değerlendirebiliriz
-    // adres-mektup birleştirmemizin bu etiketlere veri kaynağından veri eklemesine izin vermek için.
-    // "PreserveUnusedTags" flagını "false" olarak ayarlarsak,
-    // adres-mektup birleştirme bu etiketleri MERGEFIELD'lere dönüştürecek ve doldurulmamış bırakacaktır.
+     // Varsayılan olarak, bir posta birleştirme işlemi bir tablonun her satırındaki verileri, o tablodaki sütunları adlandıran MERGEFIELD'lara yerleştirir.
+    // Belgemizde böyle alanlar yok, ancak süslü parantezlerle çevrili düz metin etiketleri var.
+    // "PreserveUnusedTags" bayrağını "true" olarak ayarlarsak, bu etiketleri MERGEFIELD'ler olarak ele alabiliriz
+    // birleştirme işlemimizin veri kaynağındaki verileri bu etiketlere eklemesine izin vermek için.
+    // "PreserveUnusedTags" bayrağını "false" olarak ayarlarsak,
+    // posta birleştirme bu etiketleri MERGEFIELD'lara dönüştürecek ve doldurulmamış bırakacaktır.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Belgemizde tabloda bulunmayan "Column2" adlı bir sütun için etiket bulunmaktadır.
-    // "PreserveUnusedTags" flagını "false" olarak ayarlarsak, then the mail merge will convert this tag into a MERGEFIELD.
+    // Belgemizde tabloda bulunmayan "Column2" isimli bir sütuna ait etiket var.
+    // "PreserveUnusedTags" bayrağını "false" olarak ayarlarsak, then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -52,7 +52,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// Bir belge oluşturun ve adres-mektup birleştirme sırasında MERGEFIELD işlevi görebilecek iki düz metin etiketi ekleyin.
+/// Bir belge oluşturun ve posta birleştirme sırasında MERGEFIELD işlevi görebilecek iki düz metin etiketi ekleyin.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {
@@ -62,7 +62,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Etiketlerimiz, yalnızca bunu true olarak ayarlarsak, adres-mektup birleştirme verileri için hedef olarak kaydedilecektir.
+    // Etiketlerimiz yalnızca bunu true olarak ayarlarsak posta birleştirme verileri için hedef olarak kaydedilecektir.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

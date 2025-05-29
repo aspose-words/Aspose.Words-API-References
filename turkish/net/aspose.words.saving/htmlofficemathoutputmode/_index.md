@@ -2,15 +2,15 @@
 title: HtmlOfficeMathOutputMode Enum
 linktitle: HtmlOfficeMathOutputMode
 articleTitle: HtmlOfficeMathOutputMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode Sıralama. Aspose.Wordsün OfficeMathi HTML MHTML ve EPUBa nasıl aktardığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Saving.HtmlOfficeMathOutputMode'un OfficeMath'i HTML, MHTML ve EPUB'a aktarmayı nasıl geliştirdiğini ve sorunsuz belge dönüştürmeyi nasıl sağladığını keşfedin.
 type: docs
-weight: 5100
+weight: 5850
 url: /tr/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
 
-Aspose.Words'ün OfficeMath'i HTML, MHTML ve EPUB'a nasıl aktardığını belirtir.
+Aspose.Words'ün OfficeMath'i HTML, MHTML ve EPUB'a nasıl aktaracağını belirtir.
 
 ```csharp
 public enum HtmlOfficeMathOutputMode
@@ -20,9 +20,9 @@ public enum HtmlOfficeMathOutputMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Image | `0` | OfficeMath, &lt;img&gt; etiketiyle belirtilen resim olarak HTML'ye dönüştürülür. |
-| MathML | `1` | OfficeMath, MathML. kullanılarak HTML'ye dönüştürülür |
-| Text | `2` | OfficeMath, &lt;span&gt; etiketleri tarafından belirtilen çalıştırma sırası olarak HTML'ye dönüştürülür. |
+| Image | `0` | OfficeMath, &lt;img&gt; etiketiyle belirtilen görüntü olarak HTML'ye dönüştürülür. |
+| MathML | `1` | OfficeMath, MathML kullanılarak HTML'ye dönüştürülür. |
+| Text | `2` | OfficeMath, &lt;span&gt; etiketleri tarafından belirtilen çalıştırma dizisi olarak HTML'ye dönüştürülür. |
 
 ## Örnekler
 
@@ -31,14 +31,14 @@ Microsoft OfficeMath nesnelerinin HTML'ye nasıl aktarılacağının nasıl beli
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// Belgeyi HTML'e kaydettiğimizde, SaveOptions nesnesini geçirebiliriz
 // kaydetme işleminin OfficeMath nesnelerini nasıl işleyeceğini belirlemek için.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Image" olarak ayarlanması
-// her OfficeMath nesnesini bir görüntüye dönüştürecek.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.MathML" olarak ayarlanması
-// her OfficeMath nesnesini MathML'ye dönüştürecek.
-// "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Text" olarak ayarlanması
-// her OfficeMath formülünü düz HTML metni kullanarak temsil edecek.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.Image" olarak ayarlama
+// her OfficeMath nesnesini bir görüntüye dönüştürecektir.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.MathML" olarak ayarlama
+// her OfficeMath nesnesini MathML'ye dönüştürecektir.
+// "OfficeMathOutputMode" özelliğini "HtmlOfficeMathOutputMode.Text" olarak ayarlama
+// her OfficeMath formülünü düz HTML metni kullanarak temsil edecektir.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
@@ -47,16 +47,16 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.OfficeM
 switch (htmlOfficeMathOutputMode)
 {
     case HtmlOfficeMathOutputMode.Image:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
-                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"159\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
+                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
             "</p>").Success);
         break;
     case HtmlOfficeMathOutputMode.MathML:
         Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:center\">" +
-                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">" +
+                "<math xmlns=\"http://www.w3.org/1998/Matematik/MathML\">" +
                     "<mi>i</mi>" +
                     "<mo>[+]</mo>" +
                     "<mi>b</mi>" +

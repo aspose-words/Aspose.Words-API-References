@@ -2,10 +2,10 @@
 title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.LayoutFlow Sıralama. Bir metin kutusundaki metin düzeninin akışını belirler C#'da.
+second_title: .NET için Aspose.Words
+description: Metin kutularındaki metin düzenini kontrol etmek, belge tasarımınızı ve okunabilirliğinizi zahmetsizce geliştirmek için Aspose.Words.Drawing.LayoutFlow enum'unu keşfedin.
 type: docs
-weight: 1100
+weight: 1430
 url: /tr/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -29,7 +29,7 @@ public enum LayoutFlow
 
 ## Örnekler
 
-Metin kutusuna nasıl metin ekleneceğini ve yönünün nasıl değiştirileceğini gösterir
+Bir metin kutusuna nasıl metin ekleneceğini ve yönünün nasıl değiştirileceğini gösterir
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

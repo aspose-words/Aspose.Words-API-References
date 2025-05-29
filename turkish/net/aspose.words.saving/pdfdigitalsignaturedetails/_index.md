@@ -2,15 +2,15 @@
 title: PdfDigitalSignatureDetails Class
 linktitle: PdfDigitalSignatureDetails
 articleTitle: PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails sınıf. PDF belgesini dijital imzayla imzalamaya ilişkin ayrıntıları içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz PDF dijital imzalama için Aspose.Words.PdfDigitalSignatureDetails sınıfını keşfedin. Kolay entegrasyon ve sağlam özellikler ile belge güvenliğini artırın.
 type: docs
-weight: 5430
+weight: 6220
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
 
-PDF belgesini dijital imzayla imzalamaya ilişkin ayrıntıları içerir.
+Bir PDF belgesini dijital imzayla imzalamaya ilişkin ayrıntıları içerir.
 
 ```csharp
 public class PdfDigitalSignatureDetails
@@ -28,17 +28,17 @@ public class PdfDigitalSignatureDetails
 | İsim | Tanım |
 | --- | --- |
 | [CertificateHolder](../../aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/) { get; set; } | Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür. |
-| [HashAlgorithm](../../aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/) { get; set; } | Karma algoritmayı alır veya ayarlar. |
+| [HashAlgorithm](../../aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/) { get; set; } | Karma algoritmasını alır veya ayarlar. |
 | [Location](../../aspose.words.saving/pdfdigitalsignaturedetails/location/) { get; set; } | İmzalamanın konumunu alır veya ayarlar. |
-| [Reason](../../aspose.words.saving/pdfdigitalsignaturedetails/reason/) { get; set; } | İmzalama nedenini alır veya ayarlar. |
-| [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | İmzalama tarihini alır veya ayarlar. |
+| [Reason](../../aspose.words.saving/pdfdigitalsignaturedetails/reason/) { get; set; } | İmzalamanın nedenini alır veya ayarlar. |
+| [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | İmzalamanın tarihini alır veya ayarlar. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Dijital imza zaman damgası ayarlarını alır veya ayarlar. |
 
 ## Notlar
 
-Şu anda PDF belgelerini dijital olarak imzalamak yalnızca .NET 2.0 veya üzeri sürümlerde mümkündür.
+Şu anda PDF belgelerini dijital olarak imzalamak yalnızca .NET 3.5 ve üzeri sürümlerde mümkündür.
 
-Aspose.Words tarafından oluşturulan bir PDF belgesini dijital olarak imzalamak için,[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) özelliğini geçerli bir`PdfDigitalSignatureDetails` nesneyi seçin ve ardından belgeyi ileterek PDF formatında kaydedin.[`PdfSaveOptions`](../pdfsaveoptions/) parametre olarak[`Save`](../../aspose.words/document/save/) yöntem.
+Aspose.Words tarafından oluşturulduğunda bir PDF belgesini dijital olarak imzalamak için,[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) özelliğini geçerli bir özelliğe dönüştürün`PdfDigitalSignatureDetails` nesneyi ve ardından belgeyi ile PDF formatında kaydedin[`PdfSaveOptions`](../pdfsaveoptions/) bir parametre olarak[`Save`](../../aspose.words/document/save/) yöntem.
 
 Aspose.Words, tüm PDF belgesi üzerinde bir PKCS#7 imzası oluşturur ve dijital imza oluştururken "Adobe.PPKMS" filtresini ve "adbe.pkcs7.sha1" alt filtresini kullanır.
 
@@ -53,12 +53,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "SaveOptions" nesnesinin "DigitalSignatureDetails" nesnesini yapılandırın
-// belgeyi "Kaydet" yöntemiyle oluştururken dijital olarak imzalayın.
+// "Kaydet" metoduyla oluşturduğumuz belgeyi dijital olarak imzalıyoruz.
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -67,6 +67,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

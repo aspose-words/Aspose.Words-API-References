@@ -2,15 +2,15 @@
 title: Document.GrammarChecked
 linktitle: GrammarChecked
 articleTitle: GrammarChecked
-second_title: Aspose.Words for .NET
-description: Document GrammarChecked mülk. İadelerdoğru belge dilbilgisi açısından kontrol edilmişse C#'da.
+second_title: .NET için Aspose.Words
+description: GrammarChecked özelliğiyle belgenizin kalitesini garantileyin. Metninizin cilalı, profesyonel sonuçlar için dilbilgisi açısından doğrulanıp doğrulanmadığını keşfedin.
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-İadeler`doğru` belge dilbilgisi açısından kontrol edilmişse.
+Geri Döndürür`doğru` belgenin dil bilgisi açısından kontrol edilip edilmediği.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -18,21 +18,21 @@ public bool GrammarChecked { get; set; }
 
 ## Notlar
 
-Belgedeki dilbilgisini yeniden kontrol etmek için bu özelliği şu şekilde ayarlayın:`YANLIŞ` .
+Belgedeki dilbilgisini yeniden denetlemek için bu özelliği şu şekilde ayarlayın:`YANLIŞ` .
 
 ## Örnekler
 
-Yazım veya dil bilgisi doğrulamanın nasıl ayarlanacağını gösterir.
+Yazım veya dilbilgisi doğrulamasının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Yazım hatası içeren dize.
+// Yazım hataları içeren dize.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // Özellikleri false olarak ayarlarsak Yazım/Dilbilgisi denetimi başlar.
-// Microsoft Word'deki tüm hataları İnceleme --> aracılığıyla görebiliriz. Yazım ve amp; Dilbilgisi.
-// Microsoft Word'ün DOC ve RTF belge formatı için dilbilgisi/yazım denetimini otomatik olarak başlatmadığını unutmayın.
+// Özellikleri false olarak ayarlarsak yazım/dilbilgisi denetimi başlar.
+// Microsoft Word'deki tüm hataları İnceleme -> Yazım ve Dilbilgisi'nden görebiliriz.
+// Microsoft Word'ün DOC ve RTF belge biçimleri için dilbilgisi/yazım denetimini otomatik olarak başlatmadığını unutmayın.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

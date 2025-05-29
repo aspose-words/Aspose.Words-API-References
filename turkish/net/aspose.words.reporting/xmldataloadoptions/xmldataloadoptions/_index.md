@@ -2,8 +2,8 @@
 title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
-second_title: Aspose.Words for .NET
-description: XmlDataLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi performans için varsayılan ayarlarla veri yüklemenizi zahmetsizce başlatmak üzere tasarlanmış XmlDataLoadOptions oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
