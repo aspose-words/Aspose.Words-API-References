@@ -2,15 +2,15 @@
 title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.ComparisonEvaluationResult 班级. 比较评估结果 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.ComparisonEvaluationResult 类，实现高效的文档比较分析。解锁洞见，优化您的工作流程！
 type: docs
-weight: 1480
+weight: 1890
 url: /zh/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-比较评估结果.
+比较评估结果。
 
 要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
@@ -23,7 +23,7 @@ public sealed class ComparisonEvaluationResult
 | 姓名 | 描述 |
 | --- | --- |
 | [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | 创建比较评估结果。 |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | 创建失败的比较评估结果以及相应的错误消息。 |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | 创建失败的比较评估结果并显示相应的错误消息。 |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public sealed class ComparisonEvaluationResult
 
 ## 例子
 
-展示如何实现 IF 和 COMPARE 字段的自定义评估。
+展示如何对 IF 和 COMPARE 字段实现自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -47,11 +47,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较{0} {1} {2}”。
+    // 1. "如果 {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较 {0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
+    // 如果“comparisonResult”未定义，我们将使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -73,6 +73,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

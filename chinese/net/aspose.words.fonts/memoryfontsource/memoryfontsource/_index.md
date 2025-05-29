@@ -2,15 +2,15 @@
 title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
-second_title: 用于 .NET 的 Aspose.Words
-description: MemoryFontSource 构造函数. 向量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MemoryFontSource，一个强大的构造函数，可在您的项目中实现无缝字体管理。轻松高效地提升您的设计！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-向量.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## 例子
 
-演示如何使用字节数组和字体文件中的数据作为字体源。
+展示如何使用包含字体文件中数据的字节数组作为字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-向量.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,11 +55,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontData | Byte[] | 二进制字体数据。 |
-| priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
+| priority | Int32 | 字体源优先级。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 
 ## 例子
 
-演示如何使用字节数组和字体文件中的数据作为字体源。
+展示如何使用包含字体文件中数据的字节数组作为字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-向量.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,12 +92,12 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontData | Byte[] | 二进制字体数据。 |
-| priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
-| cacheKey | String | 缓存中该源的键。看[`CacheKey`](../cachekey/)属性描述以获取更多信息。 |
+| priority | Int32 | 字体源优先级。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
+| cacheKey | String | 此源在缓存中的键。请参阅[`CacheKey`](../cachekey/)属性描述以获取更多信息。 |
 
 ## 例子
 
-展示如何加快字体缓存初始化过程。
+展示如何加速字体缓存初始化过程。
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,7 +127,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// 仅在需要时加载字体数据而不是将其存储在内存中
+/// 仅在需要时加载字体数据，而不是将其存储在内存中
 /// 在“FontSettings”对象的整个生命周期内。
 /// </summary>
 private class SearchCacheStream : StreamFontSource

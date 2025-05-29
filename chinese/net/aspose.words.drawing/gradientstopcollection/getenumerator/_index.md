@@ -2,15 +2,15 @@
 title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: GradientStopCollection GetEnumerator 方法. 返回一个迭代集合的枚举器 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GradientStopCollection GetEnumerator 方法，轻松遍历渐变停止点，通过无缝过渡增强 UI 设计。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-返回一个迭代集合的枚举器。
+返回遍历集合的枚举器。
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

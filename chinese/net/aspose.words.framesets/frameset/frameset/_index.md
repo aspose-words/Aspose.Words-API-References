@@ -2,8 +2,8 @@
 title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
-second_title: 用于 .NET 的 Aspose.Words
-description: Frameset 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们功能强大的框架集构造器，轻松创建精美的框架。立即享受无缝定制，提升您的网页设计！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.framesets/frameset/frameset/

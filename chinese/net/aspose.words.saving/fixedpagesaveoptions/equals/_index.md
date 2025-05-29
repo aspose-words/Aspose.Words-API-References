@@ -2,8 +2,8 @@
 title: FixedPageSaveOptions.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: FixedPageSaveOptions Equals 方法. 确定指定对象的值是否等于当前对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FixedPageSaveOptions Equals 方法如何检查与当前对象的值相等性，以确保应用程序中的数据处理准确。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/equals/

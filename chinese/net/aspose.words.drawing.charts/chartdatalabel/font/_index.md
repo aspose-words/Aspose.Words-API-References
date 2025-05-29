@@ -2,8 +2,8 @@
 title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabel Font 财产. 提供对此数据标签的字体格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataLabel Font 属性，轻松自定义数据标签的字体格式，以增强视觉吸引力和清晰度。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## 例子
 
-展示如何将 3D 效果与气泡图结合使用。
+展示如何在气泡图中使用 3D 效果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// 将数据标签应用于显示其直径的每个气泡。
+// 为每个显示其直径的气泡应用数据标签。
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

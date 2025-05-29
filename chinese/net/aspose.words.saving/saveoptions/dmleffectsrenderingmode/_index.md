@@ -2,8 +2,8 @@
 title: SaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
 articleTitle: DmlEffectsRenderingMode
-second_title: 用于 .NET 的 Aspose.Words
-description: SaveOptions DmlEffectsRenderingMode 财产. 获取或设置一个值确定如何呈现 DrawingML 效果 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SaveOptions DmlEffectsRenderingMode 属性如何优化 DrawingML 效果渲染以增强文档质量和性能。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/
@@ -24,7 +24,7 @@ public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 ## 例子
 
-演示如何在将文档保存为 PDF 时配置 DrawingML 效果的渲染质量。
+展示如何在将文档保存为 PDF 时配置文档中 DrawingML 效果的渲染质量。
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
@@ -33,11 +33,11 @@ Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 // 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以放弃所有 DrawingML 效果。
+// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以放弃所有DrawingML效果。
 // 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Simplified”
-// 渲染 DrawingML 效果的简化版本。
+// 呈现 DrawingML 效果的简化版本。
 // 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Fine”
-// 更准确地渲染 DrawingML 效果，但处理成本也更高。
+// 以更高的精度和更高的处理成本渲染 DrawingML 效果。
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

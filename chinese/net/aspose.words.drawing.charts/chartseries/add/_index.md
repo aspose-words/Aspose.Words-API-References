@@ -2,18 +2,52 @@
 title: ChartSeries.Add
 linktitle: Add
 articleTitle: Add
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries Add 方法. 将指定的 X 值添加到图表系列如果该系列支持 Y 值和气泡大小它们将为 X 值 留空 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartSeries Add 方法，轻松将 X 值集成到图表中。支持 Y 值和气泡大小，增强数据可视化。
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing.charts/chartseries/add/
 ---
 ## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
-将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，它们将为 X 值 留空。
+将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，则 X 值将为空。
 
 ```csharp
 public void Add(ChartXValue xValue)
+```
+
+## 例子
+
+展示如何用数据填充图表系列。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// 清除第一个系列的 X 和 Y 值。
+series1.ClearValues();
+
+// 用数据填充系列。
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// 清除第二个系列的 X 和 Y 值。
+series2.Clear();
+
+// 用数据填充系列。
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### 也可以看看
@@ -35,7 +69,7 @@ public void Add(ChartXValue xValue, ChartYValue yValue)
 
 ## 例子
 
-展示如何添加/删除图表数据值。
+显示如何添加/删除图表数据值。
 
 ```csharp
 Document doc = new Document();
@@ -58,11 +92,11 @@ department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));
 doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ```
 
-展示如何使用数据填充图表系列。
+展示如何用数据填充图表系列。
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
@@ -72,15 +106,14 @@ ChartSeries series1 = chart.Series[0];
 series1.ClearValues();
 
 // 用数据填充系列。
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
 // 清除第二个系列的 X 和 Y 值。
-series2.ClearValues();
+series2.Clear();
 
 // 用数据填充系列。
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
@@ -103,10 +136,44 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 
 ## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
-将指定的 X 值、Y 值和气泡大小添加到图表系列中。
+将指定的 X 值、Y 值和气泡大小添加到图表系列。
 
 ```csharp
 public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
+```
+
+## 例子
+
+展示如何用数据填充图表系列。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// 清除第一个系列的 X 和 Y 值。
+series1.ClearValues();
+
+// 用数据填充系列。
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// 清除第二个系列的 X 和 Y 值。
+series2.Clear();
+
+// 用数据填充系列。
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### 也可以看看

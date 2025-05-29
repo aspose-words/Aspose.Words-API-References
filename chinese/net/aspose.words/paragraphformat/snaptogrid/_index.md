@@ -2,15 +2,15 @@
 title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat SnapToGrid 财产. 指定当前段落在布置段落中的内容时是否应使用文档每页网格线设置  在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ParagraphFormat SnapToGrid 属性如何通过将段落与文档网格线对齐以获得精美的外观来提高布局精度。
 type: docs
-weight: 290
+weight: 300
 url: /zh/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-指定当前段落在布置段落中的内容时是否应使用文档每页网格线设置 。
+指定当前段落在布置段落内容时是否应使用每页文档网格线数设置。
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,14 +18,14 @@ public bool SnapToGrid { get; set; }
 
 ## 例子
 
-演示如何指定每页可以拥有的行数限制。
+展示如何指定每页行数的限制。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用间距，然后用它来设置此部分中每页的行数。
-// 足够大的字体大小会将某些行向下推到下一页，以避免字符重叠。
+// 启用间距，然后使用它来设置本节每页的行数。
+// 足够大的字体大小会将一些行推到下一页以避免字符重叠。
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

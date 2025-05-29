@@ -2,8 +2,8 @@
 title: DocumentPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentPropertyCollection RemoveAt 方法. 删除指定索引处的属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveAt 方法删除任意索引处的属性，轻松管理 DocumentPropertyCollection。立即简化您的文档管理！
 type: docs
 weight: 80
 url: /zh/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -30,7 +30,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -55,7 +55,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -71,7 +71,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

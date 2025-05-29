@@ -2,8 +2,8 @@
 title: FieldDatabaseDataTable.ColumnNames
 linktitle: ColumnNames
 articleTitle: ColumnNames
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDatabaseDataTable ColumnNames 财产. 获取属于此表的列 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldDatabaseDataTable 的 ColumnNames 属性，轻松访问和管理表列，从而增强数据组织和分析。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fielddatabasedatatable/columnnames/

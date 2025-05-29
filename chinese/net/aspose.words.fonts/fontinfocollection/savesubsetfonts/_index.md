@@ -2,15 +2,15 @@
 title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfoCollection SaveSubsetFonts 财产. 指定是否将嵌入的 TrueType 字体的子集与文档一起保存 此属性的默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FontInfoCollection SaveSubsetFonts 属性，控制文档中嵌入的 TrueType 字体子集，以优化文件大小和性能。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为`错误的`。
+指定是否将嵌入的 TrueType 字体子集与文档一起保存。 此属性的默认值为`错误的`。
 
 此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)属性设置为`真的`。
 
@@ -24,7 +24,7 @@ public bool SaveSubsetFonts { get; set; }
 
 ## 例子
 
-演示如何保存嵌入 TrueType 字体的文档。
+展示如何保存嵌入 TrueType 字体的文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### 也可以看看

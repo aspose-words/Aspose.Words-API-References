@@ -2,10 +2,10 @@
 title: FileFormatInfo.LoadFormat
 linktitle: LoadFormat
 articleTitle: LoadFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: FileFormatInfo LoadFormat 财产. 获取检测到的文档格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FileFormatInfo LoadFormat 属性，轻松识别和访问检测到的文档格式，实现无缝文件管理。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/fileformatinfo/loadformat/
 ---
 ## FileFormatInfo.LoadFormat property
@@ -18,52 +18,53 @@ public LoadFormat LoadFormat { get; }
 
 ## 评论
 
-当 OOXML 文档加密时，如果不先解密，就无法确定它是否是 Excel、Word 或 PowerPoint 文档，因此对于加密的 OOXML 文档，此属性将始终返回Docx。
+当 OOXML 文档被加密时，如果不先解密，就无法确定它是否是 Excel、Word 或 PowerPoint 文档，因此对于加密的 OOXML 文档，此属性将始终返回Docx。
 
 ## 例子
 
-演示如何使用 FileFormatUtil 类来检测文档格式和加密。
+展示如何使用 FileFormatUtil 类检测文档格式和加密。
 
 ```csharp
 Document doc = new Document();
 
-// 配置 SaveOptions 对象来加密文档
-// 我们保存的时候带上密码，然后保存文档。
+// 配置一个 SaveOptions 对象来加密文档
+// 保存时使用密码，然后保存文档。
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// 验证文档的文件类型及其加密状态。
+// 验证我们文档的文件类型及其加密状态。
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.True(info.IsEncrypted);
 ```
 
-演示如何使用 FileFormatUtil 类来检测文档格式和数字签名的存在。
+展示如何使用 FileFormatUtil 类检测文档格式和数字签名的存在。
 
 ```csharp
-// 使用 FileFormatInfo 实例验证文档是否未经过数字签名。
+// 使用 FileFormatInfo 实例来验证文档是否未经数字签名。
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // 使用新的 FileFormatInstance 来确认它已签名。
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// 我们可以像这样加载和访问集合中已签名文档的签名。
+// 我们可以像这样在集合中加载和访问已签名文档的签名。
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
-演示如何使用 FileFormatUtil 方法来检测文档的格式。
+展示如何使用 FileFormatUtil 方法检测文档的格式。
 
 ```csharp
 // 从缺少文件扩展名的文件中加载文档，然后检测其文件格式。
@@ -74,7 +75,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // 下面是将 LoadFormat 转换为其相应的 SaveFormat 的两种方法。
+    // 以下是将 LoadFormat 转换为其对应的 SaveFormat 的两种方法。
     // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
@@ -82,7 +83,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // 从流中加载文档，然后将其保存到自动检测到的文件扩展名。
+    // 从流中加载文档，然后将其保存到自动检测的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

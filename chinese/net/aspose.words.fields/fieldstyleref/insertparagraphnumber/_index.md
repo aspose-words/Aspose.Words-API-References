@@ -2,15 +2,15 @@
 title: FieldStyleRef.InsertParagraphNumber
 linktitle: InsertParagraphNumber
 articleTitle: InsertParagraphNumber
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldStyleRef InsertParagraphNumber 财产. 获取或设置是否按照文档中显示的方式插入引用段落的段落编号 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldStyleRef InsertParagraphNumber 属性可以轻松管理文档中的段落编号，确保准确的引用和增强的格式。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 ---
 ## FieldStyleRef.InsertParagraphNumber property
 
-获取或设置是否按照文档中显示的方式插入引用段落的段落编号。
+获取或设置是否插入与文档中显示的完全相同的引用段落的段落编号。
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }
@@ -18,17 +18,17 @@ public bool InsertParagraphNumber { get; set; }
 
 ## 例子
 
-演示如何使用 STYLEREF 字段。
+展示如何使用 STYLEREF 字段。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用 Microsoft Word 列表模板创建一个列表。
+// 使用 Microsoft Word 列表模板创建列表。
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// 这个生成的列表将显示“1.a )”。
- // 括号前的空格是非分隔符，我们可以将其隐藏。
+// 此生成的列表将显示“1.a)”。
+ // 括号前的空格是非分隔符，我们可以抑制它。
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// 在标题中放置一个 STYLEREF 字段，并显示文档中第一个“List Paragraph”样式的文本。
+// 在标题中放置一个 STYLEREF 字段并显示文档中第一个“列表段落”样式的文本。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// 我们还可以使用STYLEREF字段来引用列表的列表编号。
+// 我们还可以使用 STYLEREF 字段来引用列表的列表编号。
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

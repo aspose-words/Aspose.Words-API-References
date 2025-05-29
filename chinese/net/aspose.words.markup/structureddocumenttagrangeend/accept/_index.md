@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeEnd Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTagRangeEnd 的 Accept 方法。通过高效管理访客互动，增强文档处理能力。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为 True；如果访问了所有节点，则为 false[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
+枚举此节点及其所有子节点。每个节点都会调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
 ### 也可以看看
 

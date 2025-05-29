@@ -2,15 +2,15 @@
 title: ChartSeries Class
 linktitle: ChartSeries
 articleTitle: ChartSeries
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartSeries 班级. 代表图表系列属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.ChartSeries 类，这是增强动态文档创建和可视化的图表系列属性的关键。
 type: docs
-weight: 780
+weight: 1070
 url: /zh/net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
 
-代表图表系列属性。
+表示图表系列属性。
 
 要了解更多信息，请访问[使用图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
 
@@ -22,39 +22,40 @@ public class ChartSeries : IChartDataPoint
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } | 指定气泡图中的气泡是否应应用 3-D 效果。 |
-| [BubbleSizes](../../aspose.words.drawing.charts/chartseries/bubblesizes/) { get; } | 获取此图表系列的气泡大小的集合。 |
-| [DataLabels](../../aspose.words.drawing.charts/chartseries/datalabels/) { get; } | 指定整个系列的数据标签的设置。 |
-| [DataPoints](../../aspose.words.drawing.charts/chartseries/datapoints/) { get; } | 返回该系列中所有数据点的格式化对象的集合。 |
-| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } | 指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性且不应应用爆炸。 仅适用于饼图。 |
-| [Format](../../aspose.words.drawing.charts/chartseries/format/) { get; } | 提供对系列的填充和线条格式的访问。 |
-| [HasDataLabels](../../aspose.words.drawing.charts/chartseries/hasdatalabels/) { get; set; } | 获取或设置一个标志，指示是否显示该系列的数据标签。 |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } | 指定如果值为负数，父元素是否应反转其颜色。 |
+| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } | 指定气泡图中的气泡是否应用三维效果。 |
+| [BubbleSizes](../../aspose.words.drawing.charts/chartseries/bubblesizes/) { get; } | 获取此图表系列的气泡大小集合。 |
+| [DataLabels](../../aspose.words.drawing.charts/chartseries/datalabels/) { get; } | 指定整个系列的数据标签设置。 |
+| [DataPoints](../../aspose.words.drawing.charts/chartseries/datapoints/) { get; } | 返回此系列中所有数据点的格式化对象集合。 |
+| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } | 指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性，不应应用爆炸。 仅适用于饼图。 |
+| [Format](../../aspose.words.drawing.charts/chartseries/format/) { get; } | 提供对系列填充和线条格式的访问。 |
+| [HasDataLabels](../../aspose.words.drawing.charts/chartseries/hasdatalabels/) { get; set; } | 获取或设置一个标志，指示是否显示系列的数据标签。 |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } | 指定当值为负时父元素是否应反转其颜色。 |
 | [LegendEntry](../../aspose.words.drawing.charts/chartseries/legendentry/) { get; } | 获取此图表系列的图例条目。 |
-| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } | 指定数据标记。根据请求自动创建标记。 |
-| [Name](../../aspose.words.drawing.charts/chartseries/name/) { get; set; } | 获取或设置系列的名称，如果未显式设置名称，则使用索引生成。 默认情况下返回系列加一的索引。 |
+| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } | 指定数据标记。请求时会自动创建标记。 |
+| [Name](../../aspose.words.drawing.charts/chartseries/name/) { get; set; } | 获取或设置系列的名称，如果未明确设置名称，则使用索引生成。 默认情况下返回系列加上一个基于索引的索引。 |
 | [SeriesType](../../aspose.words.drawing.charts/chartseries/seriestype/) { get; } | 获取此图表系列的类型。 |
-| [Smooth](../../aspose.words.drawing.charts/chartseries/smooth/) { get; set; } | 允许指定是否应使用 Catmull-Rom 样条线来平滑连接图表上的点的线。 |
-| [XValues](../../aspose.words.drawing.charts/chartseries/xvalues/) { get; } | 获取此图表系列的 X 值的集合。 |
+| [Smooth](../../aspose.words.drawing.charts/chartseries/smooth/) { get; set; } | 允许指定是否使用 Catmull-Rom 样条曲线对图表上各点之间的连接线进行平滑处理。 |
+| [XValues](../../aspose.words.drawing.charts/chartseries/xvalues/) { get; } | 获取此图表系列的 X 值集合。 |
 | [YValues](../../aspose.words.drawing.charts/chartseries/yvalues/) { get; } | 获取此图表系列的 Y 值集合。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | 将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，它们将为 X 值 留空。 |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | 将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，则 X 值将为空。 |
 | [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | 将指定的 X 和 Y 值添加到图表系列。 |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小添加到图表系列中。 |
-| [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | 从图表系列中删除所有数据值。所有单独数据点和数据标签的格式均已清除。 |
-| [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | 从图表系列中删除所有数据值，并保留数据点和数据标签的格式。 |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | 将指定的 X 值插入到图表系列的指定索引处。如果系列支持 Y 值 和气泡大小，则 X 值它们将为空。 |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | 将指定的 X 和 Y 值插入图表系列中指定的索引处。 |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小插入到图表系列的指定索引处。 |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | 从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也会被删除。 |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小添加到图表系列。 |
+| [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | 从图表系列中删除所有数据值。所有单个数据点和数据标签的格式均被清除。 |
+| [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | 从图表系列中删除所有数据值，同时保留数据点和数据标签的格式。 |
+| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(*int*) | 从具有指定索引的数据点复制默认数据点格式。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | 将指定的 X 值插入图表系列的指定索引处。如果该系列支持 Y 值和气泡大小，则 X 值将为空。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | 将指定的 X 和 Y 值插入到指定索引处的图表系列中。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小插入到指定索引处的图表系列中。 |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | 从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也将被删除。 |
 
 ## 例子
 
-展示如何将标签应用到折线图中的数据点。
+展示如何将标签应用于折线图中的数据点。
 
 ```csharp
 public void DataLabels()
@@ -88,10 +89,13 @@ public void DataLabels()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
+    dataLabel.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
@@ -102,10 +106,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -114,7 +119,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

@@ -2,15 +2,15 @@
 title: FileFormatUtil.ImageTypeToExtension
 linktitle: ImageTypeToExtension
 articleTitle: ImageTypeToExtension
-second_title: 用于 .NET 的 Aspose.Words
-description: FileFormatUtil ImageTypeToExtension 方法. 将 Aspose.Words 图像类型枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FileFormatUtil 方法轻松将 Aspose.Words 图像类型转换为文件扩展名。几秒钟内即可获得准确的小写扩展名！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/fileformatutil/imagetypetoextension/
 ---
 ## FileFormatUtil.ImageTypeToExtension method
 
-将 Aspose.Words 图像类型枚举值转换为文件扩展名。返回的扩展名是带有前导点的小写字符串。
+将 Aspose.Words 图像类型枚举值转换为文件扩展名。返回的扩展名是一个以点开头的小写字符串。
 
 ```csharp
 public static string ImageTypeToExtension(ImageType imageType)
@@ -24,13 +24,13 @@ public static string ImageTypeToExtension(ImageType imageType)
 
 ## 例子
 
-演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
+展示如何从文档中提取图像，并将其作为单独的文件保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // 从文档中获取形状集合，
-// 并将每个形状的图像数据以图像的形式保存到本地文件系统。
+// 并将每个带有图像的形状的图像数据作为文件保存到本地文件系统。
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));

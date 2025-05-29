@@ -2,15 +2,15 @@
 title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
-second_title: 用于 .NET 的 Aspose.Words
-description: ViewOptions ViewType 财产. 控制 Microsoft Word 中的查看模式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ViewOptions ViewType 属性，轻松自定义 Microsoft Word 视图模式，从而提高工作效率并获得量身定制的编辑体验。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/viewoptions/viewtype/
 ---
 ## ViewOptions.ViewType property
 
-控制 Microsoft Word 中的查看模式。
+控制 Microsoft Word 中的视图模式。
 
 ```csharp
 public ViewType ViewType { get; set; }
@@ -22,7 +22,7 @@ public ViewType ViewType { get; set; }
 
 ## 例子
 
-演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
+展示如何设置自定义缩放比例，旧版本的 Microsoft Word 将在加载时将该比例应用于文档。
 
 ```csharp
 Document doc = new Document();

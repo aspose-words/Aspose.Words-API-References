@@ -2,15 +2,15 @@
 title: RowCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: RowCollection Item 财产. 检索Row在给定的索引 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RowCollection Item 属性轻松访问任意行。快速检索所需索引处的数据，实现无缝数据管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/rowcollection/item/
 ---
 ## RowCollection indexer
 
-检索[`Row`](../../row/)在给定的索引.
+检索[`Row`](../../row/)在给定的索引处。
 
 ```csharp
 public Row this[int index] { get; }
@@ -22,17 +22,17 @@ public Row this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-演示如何迭代文档中的所有表格并打印每个单元格的内容。
+展示如何遍历文档中的所有表格并打印每个单元格的内容。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // 我们可以对行集合使用“ToArray”方法将其克隆到数组中。
+    // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // 我们可以对单元集合使用“ToArray”方法将其克隆到数组中。
+        // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

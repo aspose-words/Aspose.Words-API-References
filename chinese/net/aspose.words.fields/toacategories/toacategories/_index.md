@@ -2,8 +2,8 @@
 title: ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
-second_title: 用于 .NET 的 Aspose.Words
-description: ToaCategories 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ToaCategories 构造函数——具有无缝集成和可定制功能的高效类别管理解决方案。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/toacategories/toacategories/

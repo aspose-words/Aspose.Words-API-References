@@ -2,15 +2,15 @@
 title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
-second_title: 用于 .NET 的 Aspose.Words
-description: Odso FirstRowContainsColumnNames 财产. 指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Odso FirstRowContainsColumnNames 属性，该属性允许应用程序将第一个数据行识别为标题，从而增强数据清晰度和可用性。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行。 默认值为`错误的`.
+指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每列名称的标题行。 默认值为`错误的`.
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,11 +18,11 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## 评论
 
-RK 我从未见过它被使用过。
+RK 我从未见过这种用法。
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

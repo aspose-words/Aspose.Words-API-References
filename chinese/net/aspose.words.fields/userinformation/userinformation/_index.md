@@ -2,8 +2,8 @@
 title: UserInformation
 linktitle: UserInformation
 articleTitle: UserInformation
-second_title: 用于 .NET 的 Aspose.Words
-description: UserInformation 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 UserInformation 构造函数——使用默认设置轻松创建用户配置文件以实现无缝集成的基本工具。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/userinformation/userinformation/

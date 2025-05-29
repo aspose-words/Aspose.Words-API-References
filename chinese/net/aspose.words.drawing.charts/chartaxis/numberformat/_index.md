@@ -2,15 +2,15 @@
 title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxis NumberFormat 财产. 返回一个ChartNumberFormat允许定义轴数字格式的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxis NumberFormat 属性，使用 ChartNumberFormat 对象轻松自定义图表的数字格式，从而增强数据可视化。
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-返回一个[`ChartNumberFormat`](../../chartnumberformat/)允许定义轴数字格式的对象。
+返回[`ChartNumberFormat`](../../chartnumberformat/)允许定义轴的数字格式的对象。
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -18,7 +18,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ## 例子
 
-展示如何设置图表值的格式。
+显示如何设置图表值的格式。
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 将自定义系列添加到图表中，其中 X 轴为类别，
- // 和 Y 轴各自较大的数值。
+// 向图表中添加自定义系列，其中包含 X 轴的类别，
+ // 以及 Y 轴的相应较大数值。
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // 将 Y 轴刻度标签的数字格式设置为不使用逗号对数字进行分组。
+ // 设置 Y 轴刻度标签的数字格式，不使用逗号对数字进行分组。
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// 该标志可以覆盖上面的值并从源单元格中绘制数字格式。
+// 此标志可以覆盖上述值并从源单元格绘制数字格式。
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

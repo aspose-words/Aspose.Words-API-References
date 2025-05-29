@@ -2,8 +2,8 @@
 title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
-second_title: 用于 .NET 的 Aspose.Words
-description: Cluster Codepoints 财产. 获取集群的代码点 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现集群代码点属性以有效地检索集群代码点并增强您的数据管理能力。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.shaping/cluster/codepoints/

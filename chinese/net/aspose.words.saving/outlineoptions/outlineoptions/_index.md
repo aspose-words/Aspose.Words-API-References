@@ -2,8 +2,8 @@
 title: OutlineOptions
 linktitle: OutlineOptions
 articleTitle: OutlineOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: OutlineOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OutlineOptions 构造函数，这是一款强大的默认工具，可帮助您在应用程序中高效管理轮廓。立即提升您的编码体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/outlineoptions/outlineoptions/

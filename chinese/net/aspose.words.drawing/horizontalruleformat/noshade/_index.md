@@ -2,15 +2,15 @@
 title: HorizontalRuleFormat.NoShade
 linktitle: NoShade
 articleTitle: NoShade
-second_title: 用于 .NET 的 Aspose.Words
-description: HorizontalRuleFormat NoShade 财产. 指示水平线存在 3D 阴影 如果真的则水平线没有 3D 阴影并使用纯色 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HorizontalRuleFormat NoShade 属性，控制水平线的 3D 阴影效果。轻松打造时尚、纯色的设计！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-指示水平线存在 3D 阴影。 如果`真的`，则水平线没有 3D 阴影并使用纯色。
+表示水平线存在 3D 阴影。 如果`真的`，则水平线不带 3D 阴影，并使用纯色。
 
 ```csharp
 public bool NoShade { get; set; }
@@ -22,7 +22,7 @@ public bool NoShade { get; set; }
 
 ## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+展示如何插入水平线形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

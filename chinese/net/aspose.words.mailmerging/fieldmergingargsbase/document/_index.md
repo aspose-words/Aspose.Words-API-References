@@ -2,8 +2,8 @@
 title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergingArgsBase Document 财产. 返回Document执行邮件合并的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldMergingArgsBase Document 属性，它提供 Document 对象以实现无缝的邮件合并操作。立即增强您的工作流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## 例子
 
-演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
+展示如何使用自定义回调执行邮件合并，以 HTML 文档的形式处理合并数据。
 
 ```csharp
 public void MergeHtml()
@@ -51,8 +51,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD，
-/// 此回调将其合并数据解析为 HTML 内容，并将结果添加到 MERGEFIELD 的文档位置。
+/// 如果邮件合并遇到名称以“html_”前缀开头的合并字段，
+/// 此回调将其合并数据解析为 HTML 内容并将结果添加到 MERGEFIELD 的文档位置。
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -69,14 +69,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // 由于我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应此事件。
+            // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 }
 ```

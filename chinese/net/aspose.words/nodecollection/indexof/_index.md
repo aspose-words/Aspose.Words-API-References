@@ -2,8 +2,8 @@
 title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection IndexOf 方法. 返回指定节点的从零开始的索引 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 NodeCollection IndexOf 方法，以有效地找到集合中任何指定节点的从零开始的索引。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/nodecollection/indexof/
@@ -22,7 +22,7 @@ public int IndexOf(Node node)
 
 ### 返回值
 
-集合内节点的从零开始的索引（如果找到）；否则，-1。
+如果找到，则为集合中节点的从零开始的索引；否则为 -1。
 
 ## 评论
 
@@ -30,7 +30,7 @@ public int IndexOf(Node node)
 
 ## 例子
 
-演示如何获取集合中节点的索引。
+展示如何获取集合中节点的索引。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -2,8 +2,8 @@
 title: OfficeMath.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: OfficeMath NodeType 财产. 返回OfficeMath 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 OfficeMath NodeType 属性，该属性可有效返回 OfficeMath 元素，从而增强文档的数学功能。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.math/officemath/nodetype/
@@ -18,20 +18,20 @@ public override NodeType NodeType { get; }
 
 ## 例子
 
-演示如何设置 Office 数学显示格式。
+展示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// 作为其他 OfficeMath 节点子级的 OfficeMath 节点始终是内联的。
-// 我们正在使用的节点是改变其位置和显示类型的基础节点。
+// 作为其他 OfficeMath 节点的子节点的 OfficeMath 节点始终是内联的。
+// 我们正在处理的节点是改变其位置和显示类型的基础节点。
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// 更改 OfficeMath 节点的位置和显示类型。
+// 更改OfficeMath节点的位置和显示类型。
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

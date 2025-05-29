@@ -2,8 +2,8 @@
 title: ChartYValue.FromDouble
 linktitle: FromDouble
 articleTitle: FromDouble
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue FromDouble 方法. 创建一个ChartYValue的实例Double类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValue FromDouble 方法，轻松创建 Double 类型的 ChartYValue 实例，以增强数据可视化。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -18,11 +18,11 @@ public static ChartYValue FromDouble(double value)
 
 ## 例子
 
-展示如何使用数据填充图表系列。
+展示如何用数据填充图表系列。
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
@@ -32,15 +32,14 @@ ChartSeries series1 = chart.Series[0];
 series1.ClearValues();
 
 // 用数据填充系列。
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
 // 清除第二个系列的 X 和 Y 值。
-series2.ClearValues();
+series2.Clear();
 
 // 用数据填充系列。
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));

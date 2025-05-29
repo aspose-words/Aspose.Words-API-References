@@ -2,15 +2,15 @@
 title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: ListCollection Item 财产. 按索引获取列表 在 C#.
+second_title: Aspose.Words for .NET
+description: 通过索引轻松访问 ListCollection 中的项目。此强大属性可简化您的数据管理并提高您的编码效率！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listcollection/item/
 ---
 ## ListCollection indexer
 
-按索引获取列表。
+通过索引获取列表。
 
 ```csharp
 public List this[int index] { get; }
@@ -18,7 +18,7 @@ public List this[int index] { get; }
 
 ## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-演示如何将现有列表的列表格式应用于段落集合。
+展示如何将现有列表的列表格式应用于段落集合。
 
 ```csharp
 Document doc = new Document();
@@ -47,18 +47,18 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 ### 也可以看看

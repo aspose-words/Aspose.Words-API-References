@@ -2,15 +2,15 @@
 title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.TextureIndex 枚举. 指定着色纹理 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.TextureIndex 枚举，获取高级阴影纹理。使用可自定义的高质量纹理增强您的文档设计。
 type: docs
-weight: 6450
+weight: 7300
 url: /zh/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-指定着色纹理。
+指定阴影纹理。
 
 ```csharp
 public enum TextureIndex
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | 指定当前阴影区域 上不应使用任何图案（即图案应完全填充背景颜色）。 |
+| TextureNil | `65535` | 指定当前阴影区域不得使用任何图案 （即图案应完全填充背景颜色）。 |
 
 ## 例子
 
-展示如何用边框和底纹装饰文本。
+展示如何使用边框和阴影装饰文本。
 
 ```csharp
 Document doc = new Document();
@@ -99,7 +99,7 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-演示如何将轮廓边框应用到表格。
+展示如何将外框应用于表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -108,11 +108,11 @@ Table table = doc.FirstSection.Body.Tables[0];
 // 将表格与页面中心对齐。
 table.Alignment = TableAlignment.Center;
 
-// 清除表格中任何现有的边框和阴影。
+// 清除表格中所有现有的边框和阴影。
 table.ClearBorders();
 table.ClearShading();
 
-// 将绿色边框添加到表格的轮廓。
+// 为表格轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

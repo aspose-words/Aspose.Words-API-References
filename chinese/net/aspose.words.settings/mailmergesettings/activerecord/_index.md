@@ -2,15 +2,15 @@
 title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings ActiveRecord 财产. 指定应在 Microsoft Word 中显示的数据源中记录的从一开始的索引默认值为 1 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索邮件合并设置。从数据源中选择所需的记录索引，即可自定义您的 Microsoft Word 文档。轻松开始！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-指定应在 Microsoft Word 中显示的数据源中记录的从一开始的索引。默认值为 1.
+指定数据源中记录的从一开始的索引，该索引应显示在 Microsoft Word 中。默认值为 1。
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -18,7 +18,7 @@ public int ActiveRecord { get; set; }
 
 ## 例子
 
-演示如何在连接到外部数据源时执行邮件合并。
+显示如何在连接到外部数据源时执行邮件合并。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
+// 我们可以通过清除这些设置来重置它们。清除后，保存文档，
 // 当我们使用 Microsoft Word 加载文档时，它将不再执行邮件合并。
 settings.Clear();
 

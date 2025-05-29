@@ -2,8 +2,8 @@
 title: AbsolutePositionTab.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: AbsolutePositionTab Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 AbsolutePositionTab 的“接受”方法，实现无缝访客互动。立即增强您网站的互动性，提升用户满意度！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/absolutepositiontab/accept/
@@ -22,28 +22,33 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-`错误的`如果访问者请求停止枚举。
+`错误的`如果访问者要求停止计数。
 
 ## 评论
 
-通话[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/)。
+呼叫[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
 ## 例子
 
-演示如何使用文档访问者处理绝对位置制表符。
+展示如何使用文档访问器处理绝对位置制表符。
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // 通过接受此自定义文档访问者来提取文档的文本内容。
+    // 通过接受这个自定义文档访问者来提取我们文档的文本内容。
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // 仅访问文档主体的开头。
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // 仅访问文档主体的末尾。
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // 绝对位置制表符在字符串形式中没有等效项，已被显式转换为制表符。
+    // 绝对位置制表符，在字符串形式中没有等效项，已明确转换为制表符。
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
@@ -75,7 +80,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 AbsolutePositionTab 节点时调用。
+    /// 当在文档中遇到 AbsolutePositionTab 节点时调用。
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -84,7 +89,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将文本添加到当前输出。尊重启用/禁用输出标志。
+    /// 将文本添加到当前输出。遵守启用/禁用输出标志。
     /// </summary>
     private void AppendText(string text)
     {

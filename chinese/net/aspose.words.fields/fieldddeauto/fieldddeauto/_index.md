@@ -2,8 +2,8 @@
 title: FieldDdeAuto
 linktitle: FieldDdeAuto
 articleTitle: FieldDdeAuto
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDdeAuto 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDdeAuto 的默认构造函数，实现无缝集成和优化性能。立即提升您的编码效率！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldddeauto/fieldddeauto/

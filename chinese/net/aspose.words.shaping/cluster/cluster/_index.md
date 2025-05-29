@@ -2,8 +2,8 @@
 title: Cluster
 linktitle: Cluster
 articleTitle: Cluster
-second_title: 用于 .NET 的 Aspose.Words
-description: Cluster 构造函数. 初始化此类的新实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的构造函数轻松创建强大的集群实例。立即提升您的项目效率和可扩展性！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/cluster/cluster/

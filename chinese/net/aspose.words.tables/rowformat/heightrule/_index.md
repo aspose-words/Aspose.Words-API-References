@@ -2,8 +2,8 @@
 title: RowFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
-second_title: 用于 .NET 的 Aspose.Words
-description: RowFormat HeightRule 财产. 获取或设置确定表格行高度的规则 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 RowFormat HeightRule 属性，轻松自定义表格行高，以实现应用程序的最佳布局和设计。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/rowformat/heightrule/
@@ -18,7 +18,7 @@ public HeightRule HeightRule { get; set; }
 
 ## 例子
 
-演示如何使用文档生成器设置行格式。
+展示如何使用文档生成器来格式化行。
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// 开始第二行，然后配置其高度。构建器会将这些设置应用到
-// 它的当前行，以及之后创建的任何新行。
+// 开始第二行，然后配置其高度。构建器将应用这些设置到
+// 它的当前行，以及它之后创建的任何新行。
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-演示如何使用 DocumentBuilder 创建格式化表。
+展示如何使用 DocumentBuilder 创建格式化的表格。
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// 设置文本和表格外观的一些格式选项。
+// 为文本和表格外观设置一些格式选项。
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// 为我们即将创建的新行和单元格重新配置构建器的格式化对象。
-// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行脱颖而出。
+// 为我们即将创建的新行和新单元格重新配置构建器的格式化对象。
+// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行突出显示。
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

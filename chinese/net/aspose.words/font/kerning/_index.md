@@ -2,8 +2,8 @@
 title: Font.Kerning
 linktitle: Kerning
 articleTitle: Kerning
-second_title: 用于 .NET 的 Aspose.Words
-description: Font Kerning 财产. 获取或设置字距调整开始时的字体大小 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索字体字距调整属性，控制字距调整的开始时间，以获得最佳的文本清晰度和设计感。精准提升您的排版效果！
 type: docs
 weight: 180
 url: /zh/net/aspose.words/font/kerning/
@@ -18,23 +18,23 @@ public double Kerning { get; set; }
 
 ## 例子
 
-演示如何指定字距调整开始生效的字体大小。
+展示如何指定字距调整开始生效的字体大小。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial Black";
 
-// 设置构建器的字体大小以及字距调整生效的最小大小。
+// 设置构建器的字体大小，以及字距调整生效的最小尺寸。
 // 字体大小低于字距调整阈值，因此下面的运行将不会进行字距调整。
 builder.Font.Size = 18;
 builder.Font.Kerning = 24;
 
 builder.Writeln("TALLY. (Kerning not applied)");
 
-// 设置字距调整阈值，使构建器的当前字体大小位于其之上。
-// 我们从此时添加的任何文本都将应用字距调整。字符之间的空格
-// 将进行调整，通常会产生稍微更美观的文本运行。
+// 设置字距调整阈值，以便构建器的当前字体大小高于该阈值。
+// 从此处添加的任何文本都将应用字距调整。字符之间的空格
+// 将会进行调整，通常会导致文本运行更加美观。
 builder.Font.Kerning = 12;
 
 builder.Writeln("TALLY. (Kerning applied)");

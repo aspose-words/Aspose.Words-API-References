@@ -2,8 +2,8 @@
 title: BarcodeParameters
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
-second_title: 用于 .NET 的 Aspose.Words
-description: BarcodeParameters 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BarcodeParameters 构造函数，实现无缝集成。使用我们易于使用的默认构造函数，实现高效的条形码管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/barcodeparameters/barcodeparameters/

@@ -2,15 +2,15 @@
 title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
-second_title: 用于 .NET 的 Aspose.Words
-description: Font StrikeThrough 财产. 如果字体格式为删除线文本则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索字体删除线属性。轻松使用删除线格式化文本，让您的设计更具视觉冲击力。立即提升可读性！
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-如果字体格式为删除线文本，则为 True。
+如果字体格式为删除线文本，则为真。
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## 例子
 
-演示如何向文本添加行删除线。
+展示如何为文本添加删除线。
 
 ```csharp
 Document doc = new Document();

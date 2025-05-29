@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
 linktitle: DocumentSplitHeadingLevel
 articleTitle: DocumentSplitHeadingLevel
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions DocumentSplitHeadingLevel 财产. 指定分割文档的最大标题级别 默认值为2 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 HtmlSaveOptions 的 DocumentSplitHeadingLevel 优化文档拆分。控制标题级别以实现更佳的组织。默认设置为 2。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 ---
 ## HtmlSaveOptions.DocumentSplitHeadingLevel property
 
-指定分割文档的最大标题级别。 默认值为`2`.
+指定拆分文档的最大标题级别。 默认值为`2`.
 
 ```csharp
 public int DocumentSplitHeadingLevel { get; set; }
@@ -18,20 +18,20 @@ public int DocumentSplitHeadingLevel { get; set; }
 
 ## 评论
 
-什么时候[`DocumentSplitCriteria`](../documentsplitcriteria/)包括HeadingParagraph 并且此属性设置为 1 到 9 之间的值，文档将按使用 格式化的段落进行分割**标题 1**,**标题 2**,**标题 3**等样式达到指定的标题级别。
+什么时候[`DocumentSplitCriteria`](../documentsplitcriteria/)包括HeadingParagraph 并且此属性设置为 1 到 9 之间的值，则文档将在使用 格式化的段落处拆分**标题 1**，**标题 2**，**标题 3**等样式直至指定的标题级别。
 
-默认情况下，仅**标题 1**和**标题 2**段落导致文档被分割。 将此属性设置为零将导致文档根本不会在标题段落处拆分。
+默认情况下，仅**标题 1**和**标题 2**段落导致文档被分割。 将此属性设置为零将导致文档根本不在标题段落处分割。
 
 ## 例子
 
-演示如何按标题将输出 HTML 文档拆分为多个部分。
+展示如何根据标题将输出 HTML 文档分成几个部分。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 我们使用“标题”样式格式化的每个段落都可以用作标题。
-// 每个标题还可以有一个标题级别，由其标题样式的数量决定。
+// 我们使用“标题”样式格式化的每个段落都可以作为标题。
+// 每个标题也可能有一个标题级别，由其标题样式的数量决定。
 // 下面的标题为 1-3 级。
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 1"];
 builder.Writeln("Heading #1");
@@ -46,20 +46,20 @@ builder.Writeln("Heading #5");
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
 builder.Writeln("Heading #6");
 
-// 创建一个 HtmlSaveOptions 对象并将分割条件设置为“HeadingParagraph”。
-// 这些条件会将具有“标题”样式的段落中的文档拆分为几个较小的文档，
+// 创建一个 HtmlSaveOptions 对象并将拆分条件设置为“HeadingParagraph”。
+// 这些标准将把文档按“标题”样式的段落拆分成几个较小的文档，
 // 并将每个文档保存在本地文件系统中的单独 HTML 文件中。
-// 我们还将设置最大标题级别，将文档拆分为 2。
-// 保存文档时会将其拆分为 1 级和 2 级标题，但不会拆分为 3 到 9 级标题。
+// 我们还将设置最大标题级别，将文档拆分为 2 个。
+// 保存文档将按照 1 级和 2 级标题进行拆分，但不按照 3 级到 9 级标题进行拆分。
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph,
     DocumentSplitHeadingLevel = 2
 };
 
-// 我们的文档有四个级别 1 - 2 的标题。其中一个标题不会是
+// 我们的文档有 1 - 2 级的四个标题。其中一个标题不会
 // 分割点，因为它位于文档的开头。
-// 保存操作会将我们的文档在三个地方分割成四个较小的文档。
+// 保存操作将在三个地方将我们的文档拆分为四个较小的文档。
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html", options);
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html");

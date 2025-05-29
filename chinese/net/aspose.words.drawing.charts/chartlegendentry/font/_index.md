@@ -2,8 +2,8 @@
 title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegendEntry Font 财产. 提供对此图例条目的字体格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartLegendEntry Font 属性，轻松访问可自定义的字体格式，增强图例条目以获得更好的视觉吸引力。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -18,34 +18,22 @@ public Font Font { get; }
 
 ## 例子
 
-展示如何使用图表系列的图例条目。
+展示如何使用图例字体。
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
+Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+ChartLegend chartLegend = chart.Legend;
+// 设置所有图例条目的默认字体大小。
+chartLegend.Font.Size = 14;
+// 更改特定图例条目的字体。
+chartLegend.LegendEntries[1].Font.Italic = true;
+chartLegend.LegendEntries[1].Font.Size = 12;
+// 获取图表系列的图例条目。
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
-Chart chart = shape.Chart;
-ChartSeriesCollection series = chart.Series;
-series.Clear();
-
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
-series.Add("Series 2", categories, new double[] { 3, 4 });
-series.Add("Series 3", categories, new double[] { 5, 6 });
-series.Add("Series 4", categories, new double[] { 0, 0 });
-
-ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
-legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
-
-doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```
 
 ### 也可以看看

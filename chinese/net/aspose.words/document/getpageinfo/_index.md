@@ -2,15 +2,15 @@
 title: Document.GetPageInfo
 linktitle: GetPageInfo
 articleTitle: GetPageInfo
-second_title: 用于 .NET 的 Aspose.Words
-description: Document GetPageInfo 方法. 获取可能对打印或渲染有用的页面大小方向和其他信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GetPageInfo 方法来检索基本页面大小、方向和渲染详细信息，以优化打印和增强文档管理。
 type: docs
-weight: 610
+weight: 650
 url: /zh/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
 
-获取可能对打印或渲染有用的页面大小、方向和其他信息。
+获取页面大小、方向和其他可能对打印或渲染有用的页面信息。
 
 ```csharp
 public PageInfo GetPageInfo(int pageIndex)
@@ -19,6 +19,17 @@ public PageInfo GetPageInfo(int pageIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageIndex | Int32 | 从 0 开始的页面索引。 |
+
+## 例子
+
+显示如何检查页面是否为彩色。
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+// 检查文档的第一页是否没有彩色。
+Assert.IsFalse(doc.GetPageInfo(0).Colored);
+```
 
 ### 也可以看看
 

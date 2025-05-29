@@ -2,15 +2,15 @@
 title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageWatermarkOptions Scale 财产. 获取或设置表示为图像分数的比例因子默认值为 0  auto 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageWatermarkOptions Scale 属性，轻松调整图像缩放比例以获得最佳水印效果。默认值 0 为自动，可实现无缝集成。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-获取或设置表示为图像分数的比例因子。默认值为 0 - auto.
+获取或设置以图像分数表示的比例因子。默认值为 0 - 自动。
 
 ```csharp
 public double Scale { get; set; }
@@ -24,13 +24,13 @@ public double Scale { get; set; }
 
 ## 评论
 
-有效值范围为 0 到 65.5（含）。
+有效值范围为 0 至 65.5（含）。
 
-自动缩放意味着水印将缩放至相对于 页边距的最大宽度和最大高度。
+自动缩放意味着水印将根据页边距缩放至其最大宽度和最大高度。
 
 ## 例子
 
-演示如何从本地文件系统中的图像创建水印。
+展示如何从本地文件系统中的图像创建水印。
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,14 @@ Document doc = new Document();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // 我们有不同的选项来插入图像：
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

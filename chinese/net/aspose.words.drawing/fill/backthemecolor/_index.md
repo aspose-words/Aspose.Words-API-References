@@ -2,15 +2,15 @@
 title: Fill.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill BackThemeColor 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的背景颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 BackThemeColor 属性自定义您的设计。轻松设置 ThemeColor 对象，增强背景填充效果，提升用户体验。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/fill/backthemecolor/
 ---
 ## Fill.BackThemeColor property
 
-获取或设置一个 ThemeColor 对象，该对象表示填充的背景颜色。
+获取或设置代表填充背景颜色的 ThemeColor 对象。
 
 ```csharp
 public ThemeColor BackThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor BackThemeColor { get; set; }
 
 ## 例子
 
-展示如何设置前景色/背景形状颜色的主题颜色。
+展示如何设置前景/背景形状颜色的主题颜色。
 
 ```csharp
 Document doc = new Document();

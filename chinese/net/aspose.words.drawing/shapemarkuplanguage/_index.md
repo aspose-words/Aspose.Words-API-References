@@ -2,10 +2,10 @@
 title: ShapeMarkupLanguage Enum
 linktitle: ShapeMarkupLanguage
 articleTitle: ShapeMarkupLanguage
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.ShapeMarkupLanguage 枚举. 指定用于形状的标记语言 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.ShapeMarkupLanguage 枚举，定义形状标记语言以增强文档格式和设计灵活性。
 type: docs
-weight: 1280
+weight: 1670
 url: /zh/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -25,7 +25,7 @@ public enum ShapeMarkupLanguage : byte
 
 ## 例子
 
-演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
+展示如何设置已保存文档所遵循的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// “ISO/IEC 29500:2008”OOXML 标准不支持 VML 形状。
+// “ISO/IEC 29500:2008” OOXML 标准不支持 VML 形状。
 // 如果我们将 SaveOptions 对象的“Compliance”属性设置为“OoxmlCompliance.Iso29500_2008_Strict”，
  // 我们在传递此对象时保存的任何文档都必须遵循该标准。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -49,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状以遵守“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

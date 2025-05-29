@@ -2,15 +2,15 @@
 title: Stroke.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Stroke LineStyle 财产. 定义笔画的线条样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Stroke LineStyle 属性，使用独特的线条样式自定义您的设计，增强项目的视觉吸引力。
 type: docs
-weight: 130
+weight: 180
 url: /zh/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
 
-定义笔画的线条样式。
+定义笔触的线条样式。
 
 ```csharp
 public ShapeLineStyle LineStyle { get; set; }
@@ -22,7 +22,7 @@ public ShapeLineStyle LineStyle { get; set; }
 
 ## 例子
 
-显示如何更改笔划属性。
+显示如何改变笔触属性。
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
 // 1 - 填充，适用于形状轮廓内的区域：
 shape.Fill.ForeColor = Color.White;
 
-// 2 - 笔划，标记形状的轮廓：
-// 修改该形状笔划的各种属性。
+// 2 - 笔触，标记形状的轮廓：
+// 修改此形状的笔触的各种属性。
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

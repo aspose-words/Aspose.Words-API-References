@@ -2,17 +2,17 @@
 title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.RevisionGroup 班级. 代表一组顺序Revision对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.RevisionGroup 类，旨在有效管理和组织连续的 Revision 对象，以简化文档编辑。
 type: docs
-weight: 4780
+weight: 5520
 url: /zh/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-代表一组顺序[`Revision`](../revision/)对象.
+代表一组连续的[`Revision`](../revision/)对象.
 
-要了解更多信息，请访问[跟踪文档中的更改](https://docs.aspose.com/words/net/track-changes-in-a-document/)文档文章。
+要了解更多信息，请访问[跟踪文档中的修订](https://docs.aspose.com/words/net/track-changes-in-a-document/)文档文章。
 
 ```csharp
 public class RevisionGroup
@@ -28,7 +28,7 @@ public class RevisionGroup
 
 ## 例子
 
-演示如何打印有关文档中一组修订的信息。
+展示如何打印有关文档中一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

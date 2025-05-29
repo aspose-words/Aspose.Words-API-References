@@ -2,8 +2,8 @@
 title: CustomPart
 linktitle: CustomPart
 articleTitle: CustomPart
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPart 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPart 构造器，定制组件的理想解决方案。立即为您的项目解锁效率和精度！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/custompart/custompart/

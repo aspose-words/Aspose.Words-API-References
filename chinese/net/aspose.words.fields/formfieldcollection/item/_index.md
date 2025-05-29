@@ -2,8 +2,8 @@
 title: FormFieldCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: FormFieldCollection Item 财产. 返回指定索引处的表单字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FormFieldCollection Item 属性轻松访问特定表单字段。简化数据处理并增强表单管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/formfieldcollection/item/
@@ -22,17 +22,17 @@ public FormField this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
+展示如何将不同类型的表单字段插入文档，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // 使用文档生成器插入文本输入表单字段。
+    // 使用文档构建器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -75,19 +75,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // 该集合包含我们所有的表单字段。
+    // 此集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // 字段显示我们的表单字段。我们打开这个文档就可以看到他们的域代码
-    // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
+    // Fields 显示我们的表单字段。我们可以通过打开此文档来查看它们的字段代码
+    // 在 Microsoft 中按下 Alt + F9。这些字段没有开关，
     // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // 允许每个表单字段接受文档访问者。
+    // 允许每个表单字段接受一个文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -101,7 +101,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// 访问者实现，打印其访问的表单字段的详细信息。
+ /// 访问者实现打印其访问的表单字段的详细信息。
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -111,7 +111,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FormField 节点时调用。
+    /// 当在文档中遇到 FormField 节点时调用。
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将换行符结尾的文本添加到当前输出。
+    /// 将换行符终止的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -172,7 +172,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 ## FormFieldCollection indexer (2 of 2)
 
-按书签名称返回表单字段。
+通过书签名称返回表单字段。
 
 ```csharp
 public FormField this[string bookmarkName] { get; }
@@ -184,11 +184,11 @@ public FormField this[string bookmarkName] { get; }
 
 ## 评论
 
-返回`无效的`如果找不到指定书签名称的表单字段。
+返回`无效的`如果找不到具有指定书签名称的表单字段。
 
 ## 例子
 
-展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
+展示如何将不同类型的表单字段插入文档，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -220,7 +220,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // 使用文档生成器插入文本输入表单字段。
+    // 使用文档构建器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -231,19 +231,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // 该集合包含我们所有的表单字段。
+    // 此集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // 字段显示我们的表单字段。我们打开这个文档就可以看到他们的域代码
-    // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
+    // Fields 显示我们的表单字段。我们可以通过打开此文档来查看它们的字段代码
+    // 在 Microsoft 中按下 Alt + F9。这些字段没有开关，
     // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // 允许每个表单字段接受文档访问者。
+    // 允许每个表单字段接受一个文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -257,7 +257,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// 访问者实现，打印其访问的表单字段的详细信息。
+ /// 访问者实现打印其访问的表单字段的详细信息。
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -267,7 +267,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FormField 节点时调用。
+    /// 当在文档中遇到 FormField 节点时调用。
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -298,7 +298,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将换行符结尾的文本添加到当前输出。
+    /// 将换行符终止的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {

@@ -2,15 +2,15 @@
 title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
-second_title: 用于 .NET 的 Aspose.Words
-description: Stroke Visible 财产. 获取或设置指示笔划是否可见的标志 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们易于使用的属性控制笔触可见性。切换笔触可见性，提升您的设计，打造更佳视觉效果！
 type: docs
-weight: 200
+weight: 250
 url: /zh/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-获取或设置指示笔划是否可见的标志。
+获取或设置指示笔画是否可见的标志。
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,7 +18,7 @@ public bool Visible { get; set; }
 
 ## 评论
 
-a 的默认值[`Shape`](../../shape/)是`真的`.
+的默认值[`Shape`](../../shape/)是`真的`.
 
 ## 例子
 

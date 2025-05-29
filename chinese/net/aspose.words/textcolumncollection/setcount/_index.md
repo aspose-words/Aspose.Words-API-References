@@ -2,8 +2,8 @@
 title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
-second_title: 用于 .NET 的 Aspose.Words
-description: TextColumnCollection SetCount 方法. 将文本排列到指定数量的文本列中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 TextColumnCollection SetCount 方法优化您的布局，轻松地将文本排列到所需的列数中，以增强可读性。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/textcolumncollection/setcount/
@@ -22,11 +22,11 @@ public void SetCount(int newCount)
 
 ## 评论
 
-什么时候[`EvenlySpaced`](../evenlyspaced/)是`错误的`然后您增加列数， new[`TextColumn`](../../textcolumn/)创建的对象的宽度和间距为零。 您需要为新列设置宽度和间距。
+什么时候[`EvenlySpaced`](../evenlyspaced/)是`错误的`并增加列数， new[`TextColumn`](../../textcolumn/)对象以零宽度和间距创建。 您需要为新列设置宽度和间距。
 
 ## 例子
 
-演示如何在一个部分中创建多个均匀间隔的列。
+展示如何在一个部分中创建多个间距均匀的列。
 
 ```csharp
 Document doc = new Document();

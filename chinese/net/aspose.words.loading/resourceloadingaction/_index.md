@@ -2,10 +2,10 @@
 title: ResourceLoadingAction Enum
 linktitle: ResourceLoadingAction
 articleTitle: ResourceLoadingAction
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Loading.ResourceLoadingAction 枚举. 指定资源加载模式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ResourceLoadingAction 枚举，实现高效的资源加载模式。优化性能，增强您的文档处理能力！
 type: docs
-weight: 3680
+weight: 4140
 url: /zh/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
@@ -23,12 +23,12 @@ public enum ResourceLoadingAction
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Default | `0` | Aspose.Words 将照常加载此资源。 |
-| Skip | `1` | Aspose.Words 将跳过此资源的加载。 图像只会存储没有数据的链接，HTML 格式将忽略 CSS 样式表。 |
-| UserProvided | `2` | Aspose.Words 将使用用户提供的字节数组[`SetData`](../resourceloadingargs/setdata/)作为资源数据. |
+| Skip | `1` | Aspose.Words 将跳过此资源的加载。 图像仅存储无数据的链接，HTML 格式的 CSS 样式表将被忽略。 |
+| UserProvided | `2` | Aspose.Words 将使用用户提供的字节数组[`SetData`](../resourceloadingargs/setdata/)作为资源数据。 |
 
 ## 例子
 
-演示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -39,7 +39,7 @@ public void ResourceLoadingCallback()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 图像通常使用 URI 或字节数组插入。
-    // 资源加载的每个实例都会调用回调的 ResourceLoading 方法。
+    // 每个资源加载实例都会调用我们的回调的 ResourceLoading 方法。
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -50,22 +50,22 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// 允许我们使用预定义的速记方式（而不是 URI）将图像加载到文档中。
-/// 这会将图像加载逻辑与文档构造的其余部分分开。
+/// 允许我们使用预定义的简写（而不是 URI）将图像加载到文档中。
+/// 这将把图像加载逻辑与文档构造的其余部分分开。
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
         // 如果此回调在加载图像时遇到图像简写之一，
-        // 它将为每个定义的简写应用独特的逻辑，而不是将其视为 URI。
+        // 它将为每个定义的简写应用唯一的逻辑，而不是将其视为 URI。
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {
                 case "Google logo":
                     using (WebClient webClient = new WebClient())
                     {
-                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png"));
+                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png");
                     }
 
                     return ResourceLoadingAction.UserProvided;

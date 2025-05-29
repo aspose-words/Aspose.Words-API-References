@@ -2,8 +2,8 @@
 title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder DeleteRow 方法. 从表中删除一行 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder 的 DeleteRow 方法轻松从表格中删除行。简化您的文档编辑并增强您的工作流程！
 type: docs
 weight: 200
 url: /zh/net/aspose.words/documentbuilder/deleterow/
@@ -27,15 +27,15 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 ## 评论
 
-如果光标位于要删除的行内部，则光标将移出 到下一行或表后的下一个段落。
+如果光标位于要删除的行内，则光标将移动至下一行或表格后的下一个段落。
 
-如果从仅包含一行的表中删除一行，则 Whole 表将被删除。
+如果从仅包含一行的表中删除一行，则会删除整个 表。
 
-对于索引参数，当index大于或等于0时，指定索引从 开始，以0为第一个元素。当index小于0时，它指定一个索引from 结尾，-1是最后一个元素。
+对于 index 参数，当 index 大于等于 0 时，指定从 开始的索引，0 为第一个元素。当 index 小于 0 时，指定从 结束的索引，-1 为最后一个元素。
 
 ## 例子
 
-演示如何从表中删除行。
+展示如何从表中删除一行。
 
 ```csharp
 Document doc = new Document();

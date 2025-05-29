@@ -2,10 +2,10 @@
 title: FieldStart Class
 linktitle: FieldStart
 articleTitle: FieldStart
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldStart 班级. 表示文档中 Word 字段的开始 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldStart 类，高效管理文档中 Word 字段的关键。立即增强您的文档处理能力！
 type: docs
-weight: 2430
+weight: 2840
 url: /zh/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -23,24 +23,24 @@ public class FieldStart : FieldChar
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
-| virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
-| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | 获取与字段关联的自定义字段数据。 |
+| virtual [Document](../../aspose.words/node/document/) { get; } | 获取此节点所属的文档。 |
+| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | 获取与该字段关联的自定义字段数据。 |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | 返回字段的类型。 |
 | [Font](../../aspose.words/inline/font/) { get; } | 提供对此对象的字体格式的访问。 |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确（陈旧）。 |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式，则返回 true。 |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中，则返回 true。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果此节点可以包含其他节点。 |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则返回 true。 |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（过时）。 |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下 Microsoft Word 中的对象格式发生更改，则返回 true。 |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入 Microsoft Word，则返回 true。 |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | 获取或设置父字段是否被锁定（不应重新计算其结果）。 |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果启用更改跟踪时在 Microsoft Word 中移动（删除）此对象。 |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（删除）此对象。 |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（插入）此对象。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随此节点之后的节点。 |
 | override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | 返回FieldStart. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../../aspose.words/paragraph/)此节点的. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../../aspose.words/range/)表示此节点中包含的文档部分的对象。 |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../../aspose.words/paragraph/)此节点的。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取此节点前一个节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回[`Range`](../../aspose.words/range/)表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -51,26 +51,26 @@ public class FieldStart : FieldChar
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | 返回字段 char. 的字段 |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取前一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取此节点代表的特殊字符。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据前序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据前序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中移除。 |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点内容导出为字符串。 |
 
 ## 评论
 
-`FieldStart`是一个内联级节点，由 the 表示[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/)文档中的控制字符。
+`FieldStart`是内联级别节点，由 表示[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/)文档中的控制字符。
 
-`FieldStart`只能是一个孩子[`Paragraph`](../../aspose.words/paragraph/)。
+`FieldStart`只能是[`Paragraph`](../../aspose.words/paragraph/)。
 
-Microsoft Word 文档中的完整字段是一个复杂的结构，由 字段起始字符、字段代码、字段分隔符、字段结果 和字段结束字符组成。有些字段只有字段开始、字段代码和字段结束。
+Microsoft Word 文档中一个完整的字段是一个复杂的结构，由字段起始符、字段代码、字段分隔符、字段结果和字段结束符组成。有些字段只有字段起始符、字段代码和字段结束符。
 
-要轻松地将新字段插入到文档中，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/) 方法。
+要轻松地将新字段插入文档，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/) 方法。
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -133,7 +133,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -145,7 +145,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -155,7 +155,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -168,7 +168,7 @@ public class FieldVisitor : DocumentVisitor
 }
 ```
 
-演示如何查找 Word 文档中的所有超链接，然后更改其 URL 和显示名称。
+展示如何查找 Word 文档中的所有超链接，然后更改它们的 URL 和显示名称。
 
 ```csharp
 using System;
@@ -201,7 +201,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // 为每个 URL 超链接指定一个新的 URL 和名称。
+                    // 为每个 URL 超链接赋予一个新的 URL 和名称。
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -210,14 +210,14 @@ namespace ApiExamples
             doc.Save(ArtifactsDir + "ReplaceHyperlinks.Fields.docx");
         }
 
-        private const string NewUrl = @"http://www.aspose.com";
+        private const string NewUrl = @"http://www.aspose.com”;
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
      ///<summary>
-      ///HYPERLINK 字段包含并显示文档正文中的超链接。 Aspose.Words 中的字段
-     ///由多个节点组成，直接使用所有这些节点可能很困难。
-     ///仅当超链接代码和名称仅包含一个运行节点时，此实现才有效。
+      ///HYPERLINK 字段包含并显示文档正文中的超链接。Aspose.Words 中的一个字段
+     ///由多个节点组成，直接处理所有这些节点可能会很困难。
+     ///仅当超链接代码和名称各自仅由一个 Run 节点组成时，此实现才会有效。
     ///
      ///字段的节点结构如下：
      ///
@@ -240,18 +240,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // 找到字段分隔符节点。
+            // 查找字段分隔符节点。
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // 通常情况下，我们总能找到字段的结束节点，但是示例文档
-            // 在超链接内包含段落分隔符，这会将字段置于末尾
-            // 在下一段中。处理跨多个字段的情况会复杂得多
-            // 段落正确。在这种情况下，允许字段结束为空就足够了。
+             // 正常情况下，我们总能找到字段的结束节点，但示例文档
+            // 包含超链接内的段落分隔符，使字段结束
+            // 在下一段中。处理跨越多个字段会更加复杂
+            // 段落正确。在这种情况下，允许字段 end 为空就足够了。
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // 字段代码看起来类似于“HYPERLINK "http:\\www.myurl.com"”，但它可以由多次运行组成。
+            // 字段代码看起来像“HYPERLINK“http:\\www.myurl.com””，但它可以由多次运行组成。
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -265,15 +265,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // 超链接显示名称存储在字段result中，该字段是一个Run
-                // 字段分隔符和字段结束之间的节点。
+                 // 超链接显示名称存储在字段 result 中，该字段为 Run
+                // 字段分隔符和字段结尾之间的节点。
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // 如果字段结果包含多个运行，则删除这些运行。
+                // 如果字段结果由多个运行组成，则删除这些运行。
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -283,7 +286,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -296,7 +302,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -306,11 +315,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // 字段的字段代码位于字段起始节点和字段分隔符之间的 Run 节点中。
+            // 字段的字段代码位于字段的起始节点和字段分隔符之间的 Run 节点中。
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // 如果字段代码包含多个运行，则删除这些运行。
+            // 如果字段代码由多个运行组成，则删除这些运行。
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -368,9 +377,9 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // 一个或多个非空格超链接或其他语言中的其他单词。
+            "\\S+" + // 一个或多个非空格 HYPERLINK 或其他语言中的其他单词。
             "\\s+" + // 一个或多个空格。
-            "(?:\"\"\\s+)?" + // 不捕获可选的“”和一个或多个空格。
+            "(?:\"\"\\s+)?" + // 非捕获可选的“”和一个或多个空格。
             "(\\\\l\\s+)?" + // 可选的 \l 标志后跟一个或多个空格。
             "\"" +  // 一个撇号。
             "([^\"]+)" + // 一个或多个字符，不包括撇号（超链接目标）。

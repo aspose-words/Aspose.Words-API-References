@@ -2,8 +2,8 @@
 title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
-second_title: 用于 .NET 的 Aspose.Words
-description: IDocumentReaderPlugin Read 方法. 将指定流中的数据读入Document实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IDocumentReaderPlugin 的 Read 方法，轻松将数据读入 Document 实例。立即增强您的文档处理能力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/idocumentreaderplugin/read/
@@ -20,7 +20,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | 从中读取文档的源流。 |
 | loadOptions | LoadOptions | 用于加载文档的附加加载选项。 |
-| document | Document | 的实例[`Document`](../../document/)读取数据的类。 如果实例包含某些内容，它将被源流中的数据覆盖 |
+| document | Document | 的实例[`Document`](../../document/)类来读取数据。 如果实例包含某些内容，它将被源流中的数据覆盖 |
 
 ### 也可以看看
 

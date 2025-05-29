@@ -2,10 +2,10 @@
 title: WriteProtection Class
 linktitle: WriteProtection
 articleTitle: WriteProtection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.WriteProtection 班级. 指定文档的写保护设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Settings.WriteProtection 类，轻松管理文档写保护设置并增强文档安全性。
 type: docs
-weight: 5970
+weight: 6800
 url: /zh/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -22,7 +22,7 @@ public class WriteProtection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | 返回`真的`当设置写保护密码时。 |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | 返回`真的`当设置了写保护密码时。 |
 | [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | 指定文档作者是否建议以只读方式打开文档。 |
 
 ## 方法
@@ -30,25 +30,25 @@ public class WriteProtection
 | 姓名 | 描述 |
 | --- | --- |
 | [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | 设置文档的写保护密码。 |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | 返回`真的`如果指定的密码与保护文档的写保护密码相同。 如果文档没有使用密码写保护，则返回`错误的`. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | 返回`真的`如果指定的密码与文档的写保护密码相同。 如果文档未使用密码进行写保护，则返回`错误的`. |
 
 ## 评论
 
-写保护指定作者是否建议 以只读方式打开文档和/或需要密码才能修改文档。
+写保护指定作者是否建议以只读方式打开文档 和/或需要密码才能修改文档。
 
-写保护与文档保护不同。写保护在 Microsoft Word 的“另存为”对话框的选项中指定。
+写保护与文档保护不同。写保护是在“另存为”对话框的选项中，在“ Microsoft Word”中指定的。
 
-您不直接创建此类的实例。您可以通过以下方式访问文档保护设置 [`WriteProtection`](../../aspose.words/document/writeprotection/)财产。
+您不能直接创建此类的实例。您可以通过以下方式访问文档保护设置 [`WriteProtection`](../../aspose.words/document/writeprotection/)财产。
 
 ## 例子
 
-演示如何使用密码保护文档。
+展示如何使用密码保护文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// 输入长度不超过15个字符的密码，然后验证文档的保护状态。
+// 输入长度最多为 15 个字符的密码，然后验证文档的保护状态。
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 

@@ -2,15 +2,15 @@
 title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeRegionInfo StartMustacheTag 财产. 返回该区域的开始mustache标签 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 MailMergeRegionInfo StartMustacheTag 属性，它为项目中的无缝文档区域提供了重要的开始标记。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 ---
 ## MailMergeRegionInfo.StartMustacheTag property
 
-返回该区域的开始“mustache”标签。
+返回该区域的起始“胡子”标签。
 
 ```csharp
 public MustacheTag StartMustacheTag { get; }
@@ -18,7 +18,7 @@ public MustacheTag StartMustacheTag { get; }
 
 ## 例子
 
-展示如何使用小胡子标签。
+展示如何使用胡子标签。
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

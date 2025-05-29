@@ -2,10 +2,10 @@
 title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: 用于 .NET 的 Aspose.Words
-description: ShadowFormat Clear 方法. 清除阴影格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ShadowFormat Clear 方法轻松重置阴影格式。立即以全新面貌提升您的设计！
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
@@ -24,10 +24,10 @@ public void Clear()
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

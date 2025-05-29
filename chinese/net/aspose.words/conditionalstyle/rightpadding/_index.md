@@ -2,15 +2,15 @@
 title: ConditionalStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyle RightPadding 财产. 获取或设置要添加到表格单元格内容右侧的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ConditionalStyle RightPadding 属性，轻松调整表格单元格间距。通过精确控制增强布局，打造更佳设计。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/conditionalstyle/rightpadding/
 ---
 ## ConditionalStyle.RightPadding property
 
-获取或设置要添加到表格单元格内容右侧的空间量（以磅为单位）。
+获取或设置在表格单元格内容右侧添加的空间量（以点为单位）。
 
 ```csharp
 public double RightPadding { get; set; }
@@ -39,9 +39,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是仅影响部分表格单元格的格式更改
+// 基于谓词，例如单元格位于最后一行。
+// 以下是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -70,7 +70,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// 将包含所有条件样式的自定义样式应用于表格。
+// 将包含所有条件样式的自定义样式应用到表格。
 table.Style = tableStyle;
 
 // 我们的样式默认应用一些条件样式。

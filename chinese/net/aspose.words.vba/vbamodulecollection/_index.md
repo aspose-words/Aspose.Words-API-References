@@ -2,15 +2,15 @@
 title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaModuleCollection 班级. 代表集合VbaModule对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Vba.VbaModuleCollection 类，这是在文档自动化中有效管理 VbaModule 对象的重要工具。
 type: docs
-weight: 6560
+weight: 7410
 url: /zh/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-代表集合[`VbaModule`](../vbamodule/)对象.
+代表[`VbaModule`](../vbamodule/)对象.
 
 要了解更多信息，请访问[使用 VBA 宏](https://docs.aspose.com/words/net/working-with-vba-macros/)文档文章。
 
@@ -22,8 +22,8 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | 返回集合中 VBA 模块的数量。 |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | 检索[`VbaModule`](../vbamodule/)按索引的对象. (2 indexers) |
+| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | 返回集合中的 VBA 模块的数量。 |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | 检索[`VbaModule`](../vbamodule/)按索引排序的对象. (2 indexers) |
 
 ## 方法
 
@@ -34,7 +34,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -45,7 +45,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

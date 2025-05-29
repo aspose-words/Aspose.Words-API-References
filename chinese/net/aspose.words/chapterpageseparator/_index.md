@@ -2,15 +2,15 @@
 title: ChapterPageSeparator Enum
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.ChapterPageSeparator 枚举. 定义出现在章节和页码之间的分隔符 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ChapterPageSeparator 枚举以自定义章节和页码分隔符，从而增强文档格式和清晰度。
 type: docs
-weight: 200
+weight: 390
 url: /zh/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
 
-定义出现在章节和页码之间的分隔符。
+定义章节和页码之间的分隔符。
 
 ```csharp
 public enum ChapterPageSeparator
@@ -20,15 +20,15 @@ public enum ChapterPageSeparator
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Hyphen | `0` | 冒号. |
-| Period | `1` | 一个时期. |
-| Colon | `2` | 冒号. |
-| EmDash | `3` | 强调的破折号。 |
+| Hyphen | `0` | 冒号。 |
+| Period | `1` | 一个句号。 |
+| Colon | `2` | 冒号。 |
+| EmDash | `3` | 强调破折号。 |
 | EnDash | `4` | 标准破折号。 |
 
 ## 例子
 
-展示如何使用页面章节。
+展示如何处理页面章节。
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

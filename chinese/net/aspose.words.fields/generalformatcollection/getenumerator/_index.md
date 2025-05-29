@@ -2,8 +2,8 @@
 title: GeneralFormatCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: GeneralFormatCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GeneralFormatCollection GetEnumerator 方法，以便轻松高效、精确地访问和迭代数据集合。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/generalformatcollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<GeneralFormat> GetEnumerator()
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

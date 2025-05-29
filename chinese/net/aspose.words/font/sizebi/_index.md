@@ -2,10 +2,10 @@
 title: Font.SizeBi
 linktitle: SizeBi
 articleTitle: SizeBi
-second_title: 用于 .NET 的 Aspose.Words
-description: Font SizeBi 财产. 获取或设置从右到左文档中使用的字体大小以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松调整从右到左文档的字体大小（以磅为单位）。使用我们易于使用的 Font SizeBi 属性，提升可读性和设计感！
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/aspose.words/font/sizebi/
 ---
 ## Font.SizeBi property
@@ -18,7 +18,7 @@ public double SizeBi { get; set; }
 
 ## 例子
 
-演示如何为从右到左和从右到左的文本定义单独的字体设置集。
+展示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// 我们可以使用 Bidi 标志来指示我们是否要添加文本
-// 文档生成器是从右到左。当我们添加文本并将此标志设置为 true 时，
-// 它将使用从右到左的字体设置集进行格式化。
+// 我们可以使用 Bidi 标志来指示我们即将添加的文本
+// 使用文档构建器时，文本的显示顺序是从右到左。当我们添加文本时，如果此标志设置为 true，
+// 它将使用从右到左的字体设置进行格式化。
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
 // 将标志设置为 false，然后添加从左到右的文本。
-// 文档生成器将使用从左到右的字体设置集来格式化它们。
+// 文档构建器将使用从左到右的字体设置来格式化这些内容。
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

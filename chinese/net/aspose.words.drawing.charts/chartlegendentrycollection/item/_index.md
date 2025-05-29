@@ -2,15 +2,15 @@
 title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegendEntryCollection Item 财产. 返回ChartLegendEntry对于指定的索引 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ChartLegendEntryCollection Item 属性访问任意索引的 ChartLegendEntry。轻松增强您的数据可视化！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-返回[`ChartLegendEntry`](../../chartlegendentry/)对于指定的索引.
+返回[`ChartLegendEntry`](../../chartlegendentry/)对于指定的索引。
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

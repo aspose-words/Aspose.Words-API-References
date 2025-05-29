@@ -2,15 +2,15 @@
 title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
-second_title: 用于 .NET 的 Aspose.Words
-description: HyphenationOptions AutoHyphenation 财产. 获取或设置确定是否为文档打开自动连字符的值 此属性的默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 HyphenationOptions 属性控制自动断字。通过切换此功能，轻松提升文档的可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-获取或设置确定是否为文档打开自动连字符的值。 此属性的默认值为`错误的`.
+获取或设置确定文档是否启用自动连字的值。 此属性的默认值为`错误的`.
 
 ```csharp
 public bool AutoHyphenation { get; set; }

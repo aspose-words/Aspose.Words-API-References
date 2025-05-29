@@ -2,15 +2,15 @@
 title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat HangingPunctuation 财产. 获取或设置一个标志指示当前段落是否启用悬挂标点符号 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 ParagraphFormat 中的“悬挂标点”属性增强文本布局。轻松优化可读性和风格！
 type: docs
 weight: 130
 url: /zh/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-获取或设置一个标志，指示当前段落是否启用悬挂标点符号。
+获取或设置一个标志，指示当前段落是否启用悬挂标点。
 
 ```csharp
 public bool HangingPunctuation { get; set; }
@@ -18,7 +18,7 @@ public bool HangingPunctuation { get; set; }
 
 ## 例子
 
-展示如何设置亚洲版式的特殊属性。
+展示如何设置亚洲字体的特殊属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

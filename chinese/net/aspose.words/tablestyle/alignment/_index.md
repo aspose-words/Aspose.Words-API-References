@@ -2,8 +2,8 @@
 title: TableStyle.Alignment
 linktitle: Alignment
 articleTitle: Alignment
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle Alignment 财产. 指定表格样式的对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle Alignment 属性，轻松自定义表格布局并增强视觉吸引力，打造专业外观。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/tablestyle/alignment/
@@ -28,14 +28,14 @@ public TableAlignment Alignment { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是两种水平对齐表格的方法。
+// 以下是两种水平对齐表格的方法。
 // 1 - 使用“Alignment”属性将其对齐到页面上的某个位置，例如中心：
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// 插入一个表格并应用我们创建的样式。
+// 插入一个表格并将我们创建的样式应用到它。
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

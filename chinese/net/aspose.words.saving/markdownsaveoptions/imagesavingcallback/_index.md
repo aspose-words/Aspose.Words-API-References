@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: MarkdownSaveOptions ImageSavingCallback 财产. 允许控制将文档保存到 时图像的保存方式Markdown格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 MarkdownSaveOptions 的 ImageSavingCallback 控制 Markdown 中的图像保存。轻松增强文档格式并简化工作流程！
 type: docs
-weight: 30
+weight: 70
 url: /zh/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-允许控制将文档保存到 时图像的保存方式Markdown格式.
+允许控制将文档保存到 时如何保存图像Markdown格式.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## 例子
 
-演示如何在保存到 Markdown 文档期间重命名图像名称。
+展示如何在保存到 Markdown 文档时重命名图像名称。
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // 如果我们将包含图像的文档转换为 Markdown，我们最终会得到一个链接到多个图像的 Markdown 文件。
-    // 每个图像将以文件的形式存在于本地文件系统中。
+    // 每个图像都将以文件的形式存储在本地文件系统中。
     // 还有一个回调可以自定义每个图像的名称和文件系统位置。
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // 我们回调的 ImageSaving() 方法将在此时运行。
+    // 此时我们的回调的 ImageSaving() 方法将会运行。
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -46,7 +46,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// 重命名保存 Markdown 文档时生成的保存图像。
+/// 重命名保存 Markdown 文档时生成的已保存图像。
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

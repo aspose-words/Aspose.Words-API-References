@@ -2,15 +2,15 @@
 title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
-second_title: 用于 .NET 的 Aspose.Words
-description: Document MailMergeSettings 财产. 获取或设置包含文档的所有邮件合并信息的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 MailMergeSettings 属性有效地管理所有文档的邮件合并数据并增强您的工作流程。
 type: docs
-weight: 270
+weight: 280
 url: /zh/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-获取或设置包含文档的所有邮件合并信息的对象。
+获取或设置包含文档所有邮件合并信息的对象。
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,13 +18,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## 评论
 
-您可以使用此对象指定文档的邮件合并数据源，当用户打开此文档时，此信息 （以及可用数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象来查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
+您可以使用此对象为文档指定邮件合并数据源，并且当用户打开此文档时，此信息 （连同可用的数据字段）将显示在 Microsoft Word 中。 或者您可以使用此对象查询用户在 Microsoft Word 中为此文档指定的邮件合并设置。
 
-这个物体从来都不是`无效的`。
+此对象永远不会`无效的`。
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

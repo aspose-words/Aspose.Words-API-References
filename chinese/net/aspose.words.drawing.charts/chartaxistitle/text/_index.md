@@ -2,15 +2,15 @@
 title: ChartAxisTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxisTitle Text 财产. 获取或设置轴标题的文本 如果无效的或指定空值将显示自动生成的标题 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxisTitle Text 属性，轻松自定义轴标题。设置或获取动态标题，增强数据可视化效果。
 type: docs
-weight: 30
+weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
 
-获取或设置轴标题的文本。 如果`无效的`或指定空值，将显示自动生成的标题。
+获取或设置轴标题的文本。 如果`无效的`或者指定空值，将显示自动生成的标题。
 
 ```csharp
 public string Text { get; set; }
@@ -18,7 +18,7 @@ public string Text { get; set; }
 
 ## 评论
 
-使用[`Show`](../show/)如果您需要显示标题，请选择。
+使用[`Show`](../show/)如果您需要显示标题，请选择此选项。
 
 ## 例子
 
@@ -37,12 +37,15 @@ seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// 设置轴标题。
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

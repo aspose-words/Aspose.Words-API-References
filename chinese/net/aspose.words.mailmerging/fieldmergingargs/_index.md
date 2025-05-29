@@ -2,15 +2,15 @@
 title: FieldMergingArgs Class
 linktitle: FieldMergingArgs
 articleTitle: FieldMergingArgs
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.MailMerging.FieldMergingArgs 班级. 提供数据合并字段事件 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.MailMerging.FieldMergingArgs 类，用于在 MergeField 事件中无缝处理数据，增强您的文档处理体验。
 type: docs
-weight: 3770
+weight: 4460
 url: /zh/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-提供数据**合并字段**事件.
+为**合并字段**事件.
 
 要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
 
@@ -24,20 +24,20 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | --- | --- |
 | [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | 返回[`Document`](../fieldmergingargsbase/document/)执行邮件合并的对象。 |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | 获取文档中指定的合并字段的名称。 |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | 获取表示当前合并字段的对象。 |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | 获取代表当前合并字段的对象。 |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | 获取数据源中合并字段的名称。 |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | 从数据源获取或设置字段的值。 |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | 获取正在合并的记录的从零开始的索引。 |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。 |
-| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | 获取或设置将插入当前合并字段文档中的文本。 |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表名称，如果名称不可用，则获取空字符串。 |
+| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | 获取或设置将插入到当前合并字段文档中的文本。 |
 
 ## 评论
 
-这**合并字段**当文档中遇到简单的邮件 merge 字段时，在邮件合并期间会发生事件。您可以响应此事件以 return 文本，以便邮件合并引擎插入到文档中。
+这**合并字段**邮件合并期间，当文档中出现简单的邮件合并 字段时，将触发此事件。您可以响应此事件，返回 文本，以供邮件合并引擎插入到文档中。
 
 ## 例子
 
-演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
+展示如何使用自定义回调执行邮件合并，以 HTML 文档的形式处理合并数据。
 
 ```csharp
 public void MergeHtml()
@@ -70,8 +70,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD，
-/// 此回调将其合并数据解析为 HTML 内容，并将结果添加到 MERGEFIELD 的文档位置。
+/// 如果邮件合并遇到名称以“html_”前缀开头的合并字段，
+/// 此回调将其合并数据解析为 HTML 内容并将结果添加到 MERGEFIELD 的文档位置。
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -88,14 +88,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // 由于我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应此事件。
+            // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 }
 ```

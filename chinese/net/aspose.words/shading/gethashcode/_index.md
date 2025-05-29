@@ -2,15 +2,15 @@
 title: Shading.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading GetHashCode 方法. 用作该类型的哈希函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Shading GetHashCode 方法——有效生成唯一的哈希值，增强应用程序中的数据完整性和性能。
 type: docs
 weight: 100
 url: /zh/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method
 
-用作该类型的哈希函数。
+用作此类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()

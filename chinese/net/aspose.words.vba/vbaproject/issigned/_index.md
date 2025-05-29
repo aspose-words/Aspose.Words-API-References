@@ -2,15 +2,15 @@
 title: VbaProject.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaProject IsSigned 财产. 显示是否VbaProject是否已签名 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 VbaProject IsSigned 属性，轻松验证项目签名并增强代码安全性。确保您的 VBA 项目值得信赖！
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.vba/vbaproject/issigned/
 ---
 ## VbaProject.IsSigned property
 
-显示是否[`VbaProject`](../)是否已签名。
+显示[`VbaProject`](../)是否已签名。
 
 ```csharp
 public bool IsSigned { get; }
@@ -18,7 +18,7 @@ public bool IsSigned { get; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

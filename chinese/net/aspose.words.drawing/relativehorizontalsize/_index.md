@@ -2,15 +2,15 @@
 title: RelativeHorizontalSize Enum
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.RelativeHorizontalSize 枚举. 指定相对于形状或文本框架的水平计算宽度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.RelativeHorizontalSize 枚举，精确控制文档中形状和文本框的宽度。立即增强您的格式！
 type: docs
-weight: 1200
+weight: 1590
 url: /zh/net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration
 
-指定相对于形状或文本框架的水平计算宽度。
+指定形状或文本框的宽度相对于水平方向的计算。
 
 ```csharp
 public enum RelativeHorizontalSize
@@ -20,12 +20,12 @@ public enum RelativeHorizontalSize
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Margin | `0` | 指定宽度是相对于左右边距之间的空间计算的。 |
+| Margin | `0` | 指定宽度是相对于左边距和右边距之间的空间来计算的。 |
 | Page | `1` | 指定宽度是相对于页面宽度计算的。 |
 | LeftMargin | `2` | 指定宽度是相对于左边距区域大小计算的。 |
 | RightMargin | `3` | 指定宽度是相对于右边距区域大小计算的。 |
-| InnerMargin | `4` | 指定宽度是相对于内边距区域大小计算的， 是奇数页的左边距区域大小，偶数页的右边距区域大小。 |
-| OuterMargin | `5` | 指定宽度是相对于外边距区域大小计算的， 是奇数页的右边距区域大小，偶数页的左边距区域大小。 |
+| InnerMargin | `4` | 指定宽度是相对于内边距区域大小计算的， 对于奇数页，宽度是相对于左边距区域大小计算的，对于偶数页，宽度是相对于右边距区域大小计算的。 |
+| OuterMargin | `5` | 指定宽度是相对于外部边距区域大小计算的， 对于奇数页，是相对于右边距区域大小计算的，对于偶数页，是相对于左边距区域大小计算的。 |
 | Default | `1` | 默认值为Margin. |
 
 ## 例子
@@ -36,7 +36,7 @@ public enum RelativeHorizontalSize
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 添加一个具有绝对大小和位置的简单形状。
+// 添加具有绝对大小和位置的简单形状。
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
 // 将 WrapType 设置为 WrapType.None，因为内联形状会自动转换为绝对单位。
 shape.WrapType = WrapType.None;
@@ -44,7 +44,7 @@ shape.WrapType = WrapType.None;
 // 检查并设置相对水平尺寸。
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // 将水平尺寸绑定设置为 Margin。
+    // 设置水平尺寸绑定到Margin。
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
     // 将宽度设置为边距宽度的 50%。
     shape.WidthRelative = 50;
@@ -53,7 +53,7 @@ if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 // 检查并设置相对垂直尺寸。
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // 将垂直尺寸绑定设置为 Margin。
+    // 设置垂直尺寸绑定到Margin。
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
     // 将高度设置为边距高度的 30%。
     shape.HeightRelative = 30;
@@ -62,16 +62,16 @@ if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 // 检查并设置相对垂直位置。
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // 设置绑定到 TopMargin 的位置。
+    // 设置与 TopMargin 的位置绑定。
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // 将相对顶部设置为 TopMargin 位置的 30%。
+    // 将相对 Top 设置为 TopMargin 位置的 30%。
     shape.TopRelative = 30;
 }
 
 // 检查并设置相对水平位置。
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // 将位置绑定设置为 RightMargin。
+    // 设置位置绑定到RightMargin。
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
     // 位置相对值可以为负数。
     shape.LeftRelative = -260;

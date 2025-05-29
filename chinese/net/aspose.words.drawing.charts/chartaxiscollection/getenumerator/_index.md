@@ -2,8 +2,8 @@
 title: ChartAxisCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxisCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxisCollection GetEnumerator 方法，轻松检索枚举器对象以增强数据可视化并简化编码！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/

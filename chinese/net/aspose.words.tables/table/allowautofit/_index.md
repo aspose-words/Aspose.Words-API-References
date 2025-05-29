@@ -2,15 +2,15 @@
 title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
-second_title: 用于 .NET 的 Aspose.Words
-description: Table AllowAutoFit 财产. 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适合其内容 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Table AllowAutoFit 属性可以轻松调整 Microsoft Word 和 Aspose.Words 表格单元格的大小，从而增强文档的可读性和演示效果。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/table/allowautofit/
 ---
 ## Table.AllowAutoFit property
 
-允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适合其内容。
+允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。
 
 ```csharp
 public bool AllowAutoFit { get; set; }
@@ -22,7 +22,7 @@ public bool AllowAutoFit { get; set; }
 
 ## 例子
 
-显示如何启用/禁用自动调整表格单元格大小。
+展示如何启用/禁用表格单元格自动调整大小。
 
 ```csharp
 Document doc = new Document();
@@ -42,9 +42,9 @@ builder.EndRow();
 builder.EndTable();
 
 // 将“AllowAutoFit”属性设置为“false”以使表格保持尺寸
-// 其所有行和单元格，如果内容太大而无法容纳，则截断内容。
-// 将“AllowAutoFit”属性设置为“true”以允许表格更改其单元格的宽度和高度
-// 容纳它们的内容。
+// 所有行和单元格，如果它们太大而无法容纳，则截断内容。
+// 将“AllowAutoFit”属性设置为“true”以允许表格改变其单元格的宽度和高度
+// 以容纳其内容。
 table.AllowAutoFit = allowAutoFit;
 
 doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");

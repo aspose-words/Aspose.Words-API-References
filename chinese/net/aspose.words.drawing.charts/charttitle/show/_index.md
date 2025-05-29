@@ -2,15 +2,15 @@
 title: ChartTitle.Show
 linktitle: Show
 articleTitle: Show
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartTitle Show 财产. 确定是否应显示此图表的标题 默认值为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用可自定义的标题增强您的图表。轻松控制可见性 - 默认为 True。立即提升您的数据呈现效果！
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-确定是否应显示此图表的标题。 默认值为`真的`.
+确定是否显示此图表的标题。 默认值为`真的`.
 
 ```csharp
 public bool Show { get; set; }
@@ -18,7 +18,7 @@ public bool Show { get; set; }
 
 ## 例子
 
-演示如何插入图表并设置标题。
+展示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
@@ -28,9 +28,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性为我们的图表添加标题，该标题显示在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
  // 将“Show”属性设置为“true”以使标题可见。
 title.Show = true;

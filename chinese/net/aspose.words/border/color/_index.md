@@ -2,8 +2,8 @@
 title: Border.Color
 linktitle: Color
 articleTitle: Color
-second_title: 用于 .NET 的 Aspose.Words
-description: Border Color 财产. 获取或设置边框颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用边框颜色属性轻松自定义您的设计，让您可以设置和修改边框颜色以获得惊人的视觉效果。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/border/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## 例子
 
-演示如何将边框包围的字符串插入到文档中。
+展示如何将带边框的字符串插入文档。
 
 ```csharp
 Document doc = new Document();

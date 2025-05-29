@@ -2,15 +2,15 @@
 title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
-second_title: 用于 .NET 的 Aspose.Words
-description: ControlChar Cr 场地. 回车符x000d或r与...一样ParagraphBreak 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ControlChar Cr，即回车符（x000d 或 r），它可以增强文本格式。使用我们独特的解决方案简化您的编码！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/controlchar/cr/
 ---
 ## ControlChar.Cr field
 
-回车符：“\x000d”或“\r”。与...一样[`ParagraphBreak`](../paragraphbreak/).
+回车符：“\x000d”或“\r”。与[`ParagraphBreak`](../paragraphbreak/).
 
 ```csharp
 public static readonly string Cr;

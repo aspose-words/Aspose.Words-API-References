@@ -2,15 +2,15 @@
 title: DocumentBuilder.MoveToCell
 linktitle: MoveToCell
 articleTitle: MoveToCell
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder MoveToCell 方法. 将光标移动到当前部分中的表格单元格 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder MoveToCell 方法轻松导航您的文档，快速将光标定位在任何表格单元格中以增强编辑。
 type: docs
-weight: 500
+weight: 540
 url: /zh/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
 
-将光标移动到当前部分中的表格单元格。
+将光标移动到当前部分的表格单元格。
 
 ```csharp
 public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
@@ -21,17 +21,17 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | tableIndex | Int32 | 要移动到的表的索引。 |
 | rowIndex | Int32 | 表中行的索引。 |
 | columnIndex | Int32 | 表中列的索引。 |
-| characterIndex | Int32 | 单元格内字符的索引。 负值允许您指定从单元格末尾开始的位置。使用 -1 移动到单元格的末尾 of 。 |
+| characterIndex | Int32 | 单元格内字符的索引。 负值允许您指定从单元格末尾开始的位置。使用 -1 可移动到 单元格的末尾。 |
 
 ## 评论
 
-导航在当前部分的当前故事内执行。
+导航在当前部分的当前故事内进行。
 
-对于索引参数，当index大于或等于0时，指定索引从 开始，以0为第一个元素。当index小于0时，它指定一个索引from 结尾，-1是最后一个元素。
+对于 index 参数，当 index 大于等于 0 时，指定从 开始的索引，0 为第一个元素。当 index 小于 0 时，指定从 结束的索引，-1 为最后一个元素。
 
 ## 例子
 
-演示如何将文档生成器的光标移动到表中的单元格。
+展示如何将文档构建器的光标移动到表中的单元格。
 
 ```csharp
 Document doc = new Document();
@@ -48,8 +48,8 @@ builder.EndTable();
 
 // 因为我们已经用 EndTable 方法结束了表格，
 // 文档构建器的光标当前位于表格之外。
-// 该光标与 Microsoft Word 的闪烁文本光标具有相同的功能。
-// 还可以使用构建器的 MoveTo 方法将其移动到文档中的其他位置。
+// 此光标具有与 Microsoft Word 的闪烁文本光标相同的功能。
+// 它也可以使用构建器的 MoveTo 方法移动到文档中的其他位置。
 // 我们可以将光标移回表格内的特定单元格。
 builder.MoveToCell(0, 1, 1, 0);
 builder.Write("Column 2, cell 2.");

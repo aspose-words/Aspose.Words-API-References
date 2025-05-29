@@ -2,15 +2,15 @@
 title: PageInfo.PaperTray
 linktitle: PaperTray
 articleTitle: PaperTray
-second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo PaperTray 财产. 获取文档中指定的该页的纸盘 bin 该值是特定于实现打印机的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageInfo PaperTray 属性，访问文档的特定纸盘。通过定制解决方案提升您的打印效率！
 type: docs
 weight: 50
 url: /zh/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property
 
-获取文档中指定的该页的纸盘 (bin)。 该值是特定于实现（打印机）的。
+获取文档中指定的此页面的纸盘（纸盒）。 该值是特定于实现（打印机）的。
 
 ```csharp
 public int PaperTray { get; }
@@ -18,13 +18,13 @@ public int PaperTray { get; }
 
 ## 例子
 
-演示如何打印 Word 文档中每个页面的页面大小和方向信息。
+展示如何打印 Word 文档中每一页的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
-// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
+// 第一部分有两页。我们将为每页分配不同的打印机纸盘，
+// 其编号将与一种纸张来源匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,7 +38,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // 每个页面都有一个 PageInfo 对象，其索引是相应页面的编号。
+    // 每个页面都有一个PageInfo对象，其索引是相应页面的编号。
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // 打印页面的方向和尺寸。

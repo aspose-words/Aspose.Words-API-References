@@ -2,8 +2,8 @@
 title: PageSavingArgs
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSavingArgs 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageSavingArgs 构造函数——高效数据管理的必备工具。立即使用此默认构造函数简化您的编码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pagesavingargs/pagesavingargs/

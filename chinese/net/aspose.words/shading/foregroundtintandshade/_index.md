@@ -2,29 +2,36 @@
 title: Shading.ForegroundTintAndShade
 linktitle: ForegroundTintAndShade
 articleTitle: ForegroundTintAndShade
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading ForegroundTintAndShade 财产. 获取或设置一个双精度值该值使前景色主题颜色变亮或变暗 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 ForegroundTintAndShade 属性可以轻松地使主题颜色变亮或变暗，增强设计的视觉吸引力。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/shading/foregroundtintandshade/
 ---
 ## Shading.ForegroundTintAndShade property
 
-获取或设置一个双精度值，该值使前景色主题颜色变亮或变暗。
+获取或设置使前景主题颜色变亮或变暗的双精度值。
 
 ```csharp
 public double ForegroundTintAndShade { get; set; }
 ```
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 如果将此属性设置为小于 -1 或大于 1 的值，则抛出。 |
+| InvalidOperationException | 如果为具有非主题颜色的着色对象设置此属性，则抛出。 |
+
 ## 评论
 
-此属性允许的值范围为 -1（最暗）到 1（最亮）。 零 (0) 为中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
+此属性的允许值范围是从 -1（最暗）到 1（最亮）。
 
-为具有非主题颜色 的着色对象设置此属性会导致InvalidOperationException。
+零（0）是中性的。
 
 ## 例子
 
-演示如何设置着色纹理的前景色和背景色。
+展示如何设置阴影纹理的前景色和背景色。
 
 ```csharp
 Document doc = new Document();

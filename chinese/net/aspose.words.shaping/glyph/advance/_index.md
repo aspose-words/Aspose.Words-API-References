@@ -2,15 +2,15 @@
 title: Glyph.Advance
 linktitle: Advance
 articleTitle: Advance
-second_title: 用于 .NET 的 Aspose.Words
-description: Glyph Advance 财产. 前进宽度指示后续字形的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Glyph Advance 属性，使用精确的宽度指示器优化文本布局，实现无缝字形放置和增强可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
 
-前进宽度，指示后续字形的位置。
+前进宽度指示后续字形的位置。
 
 ```csharp
 public short Advance { get; set; }

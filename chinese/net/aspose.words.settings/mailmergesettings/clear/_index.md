@@ -2,15 +2,15 @@
 title: MailMergeSettings.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings Clear 方法. 清除邮件合并设置这样当保存文档时 不会保存任何邮件合并设置它将成为普通文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 MailMergeSettings Clear 方法轻松重置您的邮件合并设置，将您的文档转换为标准格式以便无缝使用。
 type: docs
 weight: 180
 url: /zh/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-清除邮件合并设置，这样当保存文档时， 不会保存任何邮件合并设置，它将成为普通文档。
+清除邮件合并设置，以便在保存文档时， 不会保存任何邮件合并设置，并且它将成为普通文档。
 
 ```csharp
 public void Clear()
@@ -18,7 +18,7 @@ public void Clear()
 
 ## 例子
 
-演示如何在连接到外部数据源时执行邮件合并。
+显示如何在连接到外部数据源时执行邮件合并。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
+// 我们可以通过清除这些设置来重置它们。清除后，保存文档，
 // 当我们使用 Microsoft Word 加载文档时，它将不再执行邮件合并。
 settings.Clear();
 

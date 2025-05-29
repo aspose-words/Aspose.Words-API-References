@@ -2,24 +2,25 @@
 title: CompositeNode.InsertBefore
 linktitle: InsertBefore
 articleTitle: InsertBefore
-second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode InsertBefore 方法. 在指定的引用节点之前插入指定的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 CompositeNode InsertBefore 方法在参考节点之前无缝插入节点，从而增强数据结构管理。
 type: docs
-weight: 140
+weight: 160
 url: /zh/net/aspose.words/compositenode/insertbefore/
 ---
-## CompositeNode.InsertBefore method
+## CompositeNode.InsertBefore&lt;T&gt; method
 
-在指定的引用节点之前插入指定的节点。
+在指定的参考节点之前立即插入指定的节点。
 
 ```csharp
-public Node InsertBefore(Node newChild, Node refChild)
+public T InsertBefore<T>(T newChild, Node refChild)
+    where T : Node
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newChild | Node | 这[`Node`](../../node/)插入。 |
-| refChild | Node | 这[`Node`](../../node/)那是参考节点。这*newChild*放置在该节点之前。 |
+| newChild | T | 这[`Node`](../../node/)插入。 |
+| refChild | Node | 这[`Node`](../../node/)这是参考节点。*newChild*位于该节点之前。 |
 
 ### 返回值
 
@@ -27,20 +28,20 @@ public Node InsertBefore(Node newChild, Node refChild)
 
 ## 评论
 
-如果*refChild*是`无效的` , 插入*newChild*位于子节点列表的末尾。
+如果*refChild*是`无效的` ，插入*newChild*在子节点列表的末尾。
 
-如果*newChild*已经在树中，首先将其删除。
+如果*newChild*已经在树中，则首先将其删除。
 
-如果插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode/)将节点导入到当前文档。 然后可以将导入的节点插入到当前文档中。
+如果插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode/)将节点导入当前文档。 然后可以将导入的节点插入到当前文档中。
 
 ## 例子
 
-演示如何在 CompositeNode 的子节点集合中添加、更新和删除子节点。
+展示如何在 CompositeNode 的子节点集合中添加、更新和删除子节点。
 
 ```csharp
 Document doc = new Document();
 
-// 默认情况下，一个空文档只有一个段落。
+// 默认情况下，空文档有一个段落。
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
 // 复合节点（例如我们的段落）可以包含其他复合节点和内联节点作为子节点。
@@ -53,10 +54,10 @@ Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// 文档主体不会显示这些运行，直到我们将它们插入到复合节点中
-// 它本身是文档节点树的一部分，就像我们在第一次运行时所做的那样。
-// 我们可以确定我们插入的节点的文本内容在哪里
-// 通过指定相对于段落中另一个节点的插入位置来出现在文档中。
+// 在我们将它们插入到复合节点之前，文档主体不会显示这些运行
+// 它本身是文档节点树的一部分，就像我们第一次运行一样。
+// 我们可以确定插入节点的文本内容
+// 通过指定相对于段落中另一个节点的插入位置出现在文档中。
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
 // 将第二个运行插入到第一个运行前面的段落中。
@@ -64,12 +65,12 @@ paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// 在初始运行之后插入第三次运行。
+// 在初次运行后插入第三次运行。
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// 将第一行插入到段落子节点集合的开头。
+// 将第一个运行插入到段落子节点集合的开头。
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

@@ -2,15 +2,15 @@
 title: FieldRD.FileName
 linktitle: FileName
 articleTitle: FileName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldRD FileName 财产. 获取或设置生成目录权限表或索引时要包含的文件的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldRD FileName 属性如何通过轻松设置用于生成目录和索引的名称来简化文件管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldrd/filename/
 ---
 ## FieldRD.FileName property
 
-获取或设置生成目录、权限表或索引时要包含的文件的名称。
+获取或设置生成目录、引文表或索引时要包含的文件的名称。
 
 ```csharp
 public string FileName { get; set; }
@@ -18,14 +18,14 @@ public string FileName { get; set; }
 
 ## 例子
 
-演示如何使用 RD 字段根据其他文档中的标题创建目录条目。
+显示使用 RD 字段从其他文档中的标题创建目录条目。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 使用文档生成器插入目录，
-// 然后在下一页的目录中添加一个条目。
+// 然后在下一页为目录添加一个条目。
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
@@ -39,7 +39,7 @@ field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
  // 创建 RD 字段引用的文档并插入标题。
-// 该标题将显示为我们第一个文档中 TOC 字段中的条目。
+// 此标题将作为我们第一个文档的 TOC 字段中的条目显示。
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

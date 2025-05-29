@@ -2,8 +2,8 @@
 title: ShapeBase.Font
 linktitle: Font
 articleTitle: Font
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase Font 财产. 提供对此对象的字体格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase Font 属性，轻松访问字体格式。使用可自定义的文本样式和独特的排版选项，提升您的设计体验。
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing/shapebase/font/
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## 例子
 
-演示如何插入文本框并设置其内容的字体。
+展示如何插入文本框并设置其内容的字体。
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// 将形状的“Font”对象的“Hidden”属性设置为“true”以隐藏文本框
-// 并折叠它通常占用的空间。
+// 将形状的“Font”对象的“Hidden”属性设置为“true”，以隐藏文本框
+// 并折叠它通常占据的空间。
 // 将形状的“Font”对象的“Hidden”属性设置为“false”以使文本框可见。
 shape.Font.Hidden = hideShape;
 
@@ -43,7 +43,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// 将构建器从文本框中移回主文档中。
+// 将构建器从文本框移回主文档。
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

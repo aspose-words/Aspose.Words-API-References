@@ -2,15 +2,15 @@
 title: ListLevel.TrailingCharacter
 linktitle: TrailingCharacter
 articleTitle: TrailingCharacter
-second_title: 用于 .NET 的 Aspose.Words
-description: ListLevel TrailingCharacter 财产. 返回或设置在列表级别的数字之后插入的字符 在 C#.
+second_title: Aspose.Words for .NET
+description: 通过设置或检索每个列表编号后的字符，发现 ListLevel TrailingCharacter 属性来自定义列表格式。
 type: docs
 weight: 140
 url: /zh/net/aspose.words.lists/listlevel/trailingcharacter/
 ---
 ## ListLevel.TrailingCharacter property
 
-返回或设置在列表级别的数字之后插入的字符。
+返回或设置插入列表级别数字后的字符。
 
 ```csharp
 public ListTrailingCharacter TrailingCharacter { get; set; }
@@ -18,7 +18,7 @@ public ListTrailingCharacter TrailingCharacter { get; set; }
 
 ## 例子
 
-演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+展示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其列表的前两个级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其列表级别的前两个。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -53,7 +53,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// 创建段落并将自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将我们的自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

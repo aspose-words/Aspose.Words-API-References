@@ -2,15 +2,15 @@
 title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
-second_title: 用于 .NET 的 Aspose.Words
-description: Font Italic 财产. 如果字体格式为斜体则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索斜体字体属性！轻松将文本格式化为斜体，提升设计的可读性和风格。立即提升你的排版效果！
 type: docs
 weight: 160
 url: /zh/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-如果字体格式为斜体，则为 True。
+如果字体格式为斜体，则为真。
 
 ```csharp
 public bool Italic { get; set; }
@@ -18,7 +18,7 @@ public bool Italic { get; set; }
 
 ## 例子
 
-演示如何使用文档生成器编写斜体文本。
+展示如何使用文档生成器编写斜体文本。
 
 ```csharp
 Document doc = new Document();

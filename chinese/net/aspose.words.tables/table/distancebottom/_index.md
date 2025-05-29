@@ -2,8 +2,8 @@
 title: Table.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
-second_title: 用于 .NET 的 Aspose.Words
-description: Table DistanceBottom 财产. 获取或设置表格底部与周围文本之间的距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整表格底部距离属性来控制表格底部和周围文本之间的间距，增强布局和可读性。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.tables/table/distancebottom/
@@ -18,7 +18,7 @@ public double DistanceBottom { get; set; }
 
 ## 例子
 
-演示如何设置表格边界和文本之间的距离。
+显示如何设置表格边界和文本之间的距离。
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // 设置表格和周围文本之间的距离。
+// 设置表格和周围文本之间的距离。
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

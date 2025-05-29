@@ -2,15 +2,15 @@
 title: ChartAxis.CategoryType
 linktitle: CategoryType
 articleTitle: CategoryType
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxis CategoryType 财产. 获取或设置类别轴的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxis CategoryType 属性，轻松自定义类别轴，以增强数据可视化并提高图表清晰度。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartaxis/categorytype/
 ---
 ## ChartAxis.CategoryType property
 
-获取或设置类别轴的类型。
+获取或设置分类轴的类型。
 
 ```csharp
 public AxisCategoryType CategoryType { get; set; }
@@ -18,11 +18,11 @@ public AxisCategoryType CategoryType { get; set; }
 
 ## 评论
 
-仅文本类别（Category ) 在 MS Office 2016 新图表中允许使用。
+仅限文本类别（Category 允许在 MS Office 2016 新图表中使用。
 
 ## 例子
 
-演示如何插入图表并修改其轴的外观。
+展示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // 图表轴有各种可以改变其外观的选项，
-// 例如它们的方向、主要/次要单位刻度和刻度线。
+// 例如它们的方向、主/次单位刻度和刻度标记。
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -49,10 +49,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -62,9 +64,12 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
-// 柱形图没有 Z 轴。
+// 柱状图没有 Z 轴。
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

@@ -2,15 +2,15 @@
 title: PageInfo.GetSpecifiedPrinterPaperSource
 linktitle: GetSpecifiedPrinterPaperSource
 articleTitle: GetSpecifiedPrinterPaperSource
-second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo GetSpecifiedPrinterPaperSource 方法. 获取PaperSource适合打印 由此表示的页面的对象PageInfo 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageInfo 中的 GetSpecifiedPrinterPaperSource 方法。高效检索理想的 PaperSource，实现无缝页面打印。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-获取PaperSource适合打印 由此表示的页面的对象[`PageInfo`](../).
+获取PaperSource适合打印的对象 此所代表的页面[`PageInfo`](../).
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -28,17 +28,17 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 ## 评论
 
-此方法需要 .NET Framework 2.0 或更高版本。
+此方法需要.NET Framework 2.0或更高版本。
 
 ## 例子
 
-演示如何打印 Word 文档中每个页面的页面大小和方向信息。
+展示如何打印 Word 文档中每一页的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
-// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
+// 第一部分有两页。我们将为每页分配不同的打印机纸盘，
+// 其编号将与一种纸张来源匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -52,7 +52,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // 每个页面都有一个 PageInfo 对象，其索引是相应页面的编号。
+    // 每个页面都有一个PageInfo对象，其索引是相应页面的编号。
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // 打印页面的方向和尺寸。

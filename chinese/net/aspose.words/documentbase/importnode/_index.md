@@ -2,10 +2,10 @@
 title: DocumentBase.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBase ImportNode 方法. 将节点从另一个文档导入到当前文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBase 的 ImportNode 方法，轻松从其他文档导入节点，增强您的工作流程。立即简化您的文档管理！
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.words/documentbase/importnode/
 ---
 ## ImportNode(*[Node](../../node/), bool*) {#importnode}
@@ -27,17 +27,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 ## 评论
 
-该方法使用UseDestinationStyles解决格式问题的选项。
+此方法使用UseDestinationStyles解决格式问题的选项。
 
-导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
+导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会被更改，也不会从原始文档中删除。
 
-在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
+在将其他文档中的节点插入到本文档之前，必须先将其导入。 在导入过程中，文档特定的属性（例如对样式和列表的引用）会从原始文档转换到导入文档。 导入节点后，可以使用以下命令将其插入到文档中的相应位置。[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
 
-如果源节点已经属于目标文档，则只需创建源节点的深层clone 。
+如果源节点已经属于目标文档，则只需创建源节点的深度 clone 。
 
 ## 例子
 
-演示如何将节点从一个文档导入到另一个文档。
+展示如何将节点从一个文档导入到另一个文档。
 
 ```csharp
 Document srcDoc = new Document();
@@ -49,12 +49,12 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
     new Run(dstDoc, "Destination document first paragraph text."));
 
 // 每个节点都有一个父文档，即包含该节点的文档。
-// 将节点插入到不属于该节点的文档中将会抛出异常。
+// 将节点插入到不属于该节点的文档中将引发异常。
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
-Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
+Assert.Throws<ArgumentException>(() => dstDoc.AppendChild(srcDoc.FirstSection));
 
-// 使用 ImportNode 方法创建节点的副本，其中将包含文档
-// 调用 ImportNode 方法并将其设置为新的所有者文档。
+// 使用 ImportNode 方法创建一个节点的副本，该副本将包含文档
+// 调用 ImportNode 方法将其设置为新的所有者文档。
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
 Assert.AreEqual(dstDoc, importedSection.Document);
@@ -95,21 +95,21 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 ## 评论
 
-此重载对于控制样式和列表格式的导入方式很有用。
+此重载对于控制如何导入样式和列表格式很有用。
 
-导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
+导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会被更改，也不会从原始文档中删除。
 
-在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
+在将其他文档中的节点插入到本文档之前，必须先将其导入。 在导入过程中，文档特定的属性（例如对样式和列表的引用）会从原始文档转换到导入文档。 导入节点后，可以使用以下命令将其插入到文档中的相应位置。[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
 
-如果源节点已经属于目标文档，则只需创建源节点的深层clone 。
+如果源节点已经属于目标文档，则只需创建源节点的深度 clone 。
 
 ## 例子
 
-演示如何使用特定选项将节点从源文档导入到目标文档。
+显示如何使用特定选项将节点从源文档导入到目标文档。
 
 ```csharp
-// 创建两个文档并为每个文档添加字符样式。
-// 将样式配置为具有相同的名称，但文本格式不同。
+// 创建两个文档并为每个文档添加一个字符样式。
+// 将样式配置为具有相同的名称，但具有不同的文本格式。
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
 srcStyle.Font.Name = "Courier New";
@@ -124,15 +124,15 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// 将目标文档中的Section导入到源文档中，导致样式名称冲突。
+// 将目标文档中的 Section 导入源文档，导致样式名称冲突。
 // 如果我们使用目标样式，则导入的源文本具有相同的样式名称
-// 作为目标文本将采用目标样式。
+// 因为目标文本将采用目标样式。
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// 如果我们使用 ImportFormatMode.KeepDifferentStyles，则保留源样式，
-// 命名冲突可以通过添加后缀来解决。
+// 如果我们使用 ImportFormatMode.KeepDifferentStyles，源样式将被保留，
+// 并且通过添加后缀来解决命名冲突。
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
 Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);

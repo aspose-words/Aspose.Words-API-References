@@ -2,8 +2,8 @@
 title: ReportingEngine
 linktitle: ReportingEngine
 articleTitle: ReportingEngine
-second_title: 用于 .NET 的 Aspose.Words
-description: ReportingEngine 构造函数. 初始化此类的新实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ReportingEngine 轻松创建强大的报表。无缝初始化您的报表解决方案，增强数据洞察。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/reportingengine/reportingengine/

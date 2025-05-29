@@ -2,10 +2,10 @@
 title: StyleIdentifier Enum
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.StyleIdentifier 枚举. 独立于语言环境的样式标识符 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.StyleIdentifier 枚举，实现灵活且不受语言环境限制的文档样式管理。立即增强您的文档处理能力！
 type: docs
-weight: 6150
+weight: 7000
 url: /zh/net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
@@ -21,12 +21,12 @@ public enum StyleIdentifier
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | BookTitle | `264` |  |
-| CommentReference | `39` | 注释（注释）参考样式。 |
+| CommentReference | `39` | 注释（评论）参考样式。 |
 | DefaultParagraphFont | `65` | 默认段落字体样式。 |
 | Emphasis | `88` |  |
-| EndnoteReference | `42` | 尾注参考样式。 |
+| EndnoteReference | `42` | 尾注引用样式。 |
 | FollowedHyperlink | `86` |  |
-| FootnoteReference | `38` | 脚注参考样式。 |
+| FootnoteReference | `38` | 脚注引用样式。 |
 | HtmlAcronym | `95` |  |
 | HtmlCite | `97` |  |
 | HtmlCode | `98` |  |
@@ -56,7 +56,7 @@ public enum StyleIdentifier
 | BodyTextInd3 | `83` |  |
 | Closing | `63` |  |
 | CommentSubject | `106` |  |
-| CommentText | `30` | 注释（注释）文本样式。 |
+| CommentText | `30` | 注释（评论）文本样式。 |
 | Date | `76` |  |
 | DocumentMap | `89` |  |
 | EmailSignature | `91` |  |
@@ -91,7 +91,7 @@ public enum StyleIdentifier
 | BlockText | `84` |  |
 | Caption | `34` |  |
 | EnvelopeAddress | `36` | 信封地址样式。 |
-| EnvelopeReturn | `37` | 信封返回样式。 |
+| EnvelopeReturn | `37` | 信封退回样式。 |
 | Index1 | `10` |  |
 | Index2 | `11` |  |
 | Index3 | `12` |  |
@@ -293,127 +293,127 @@ public enum StyleIdentifier
 | PlainTable3 | `269` | 普通表 3 |
 | PlainTable4 | `270` | 普通表 4 |
 | PlainTable5 | `271` | 普通表 5 |
-| TableGridLight | `272` | 桌子网格灯 |
-| GridTable1Light | `273` | 网格表 1 灯光 |
+| TableGridLight | `272` | 桌面网格灯 |
+| GridTable1Light | `273` | 网格表 1 Light |
 | GridTable2 | `274` | 网格表 2 |
 | GridTable3 | `275` | 网格表 3 |
 | GridTable4 | `276` | 网格表 4 |
-| GridTable5Dark | `277` | 网格表 5 暗 |
-| GridTable6Colorful | `278` | 网格表 6 多彩 |
-| GridTable7Colorful | `279` | 网格表 7 多彩 |
-| GridTable1LightAccent1 | `280` | 网格表 1 灯光 - 强调 1 |
+| GridTable5Dark | `277` | 网格表 5 Dark |
+| GridTable6Colorful | `278` | 网格表 6 彩色 |
+| GridTable7Colorful | `279` | 网格表 7 彩色 |
+| GridTable1LightAccent1 | `280` | 网格表 1 灯 - 重点 1 |
 | GridTable2Accent1 | `281` | 网格表 2 - 重音 1 |
 | GridTable3Accent1 | `282` | 网格表 3 - 重音 1 |
 | GridTable4Accent1 | `283` | 网格表 4 - 重音 1 |
-| GridTable5DarkAccent1 | `284` | 网格表 5 深色 - 口音 1 |
-| GridTable6ColorfulAccent1 | `285` | 网格表 6 彩色 - 强调 1 |
-| GridTable7ColorfulAccent1 | `286` | 网格表 7 彩色 - 强调 1 |
-| GridTable1LightAccent2 | `287` | 网格表 1 浅色 - 强调 2 |
+| GridTable5DarkAccent1 | `284` | 网格表 5 深色 - 重点 1 |
+| GridTable6ColorfulAccent1 | `285` | 网格表 6 彩色 - 重点 1 |
+| GridTable7ColorfulAccent1 | `286` | 网格表 7 彩色 - 重点 1 |
+| GridTable1LightAccent2 | `287` | 网格表 1 灯 - 重点 2 |
 | GridTable2Accent2 | `288` | 网格表 2 - 重音 2 |
 | GridTable3Accent2 | `289` | 网格表 3 - 重音 2 |
 | GridTable4Accent2 | `290` | 网格表 4 - 重音 2 |
-| GridTable5DarkAccent2 | `291` | 网格表 5 深色 - 口音 2 |
-| GridTable6ColorfulAccent2 | `292` | 网格表 6 彩色 - 强调 2 |
-| GridTable7ColorfulAccent2 | `293` | 网格表 7 彩色 - 强调 2 |
-| GridTable1LightAccent3 | `294` | 网格表 1 浅色 - 强调 3 |
+| GridTable5DarkAccent2 | `291` | 网格表 5 深色 - 重点 2 |
+| GridTable6ColorfulAccent2 | `292` | 网格表 6 彩色 - 重点 2 |
+| GridTable7ColorfulAccent2 | `293` | 网格表 7 彩色 - 重点 2 |
+| GridTable1LightAccent3 | `294` | 网格表 1 灯 - 重点 3 |
 | GridTable2Accent3 | `295` | 网格表 2 - 重音 3 |
 | GridTable3Accent3 | `296` | 网格表 3 - 重音 3 |
 | GridTable4Accent3 | `297` | 网格表 4 - 重音 3 |
-| GridTable5DarkAccent3 | `298` | 网格表 5 深色 - 口音 3 |
-| GridTable6ColorfulAccent3 | `299` | 网格表 6 彩色 - 口音 3 |
-| GridTable7ColorfulAccent3 | `300` | 网格表 7 彩色 - 口音 3 |
-| GridTable1LightAccent4 | `301` | 网格表 1 浅色 - 强调 4 |
+| GridTable5DarkAccent3 | `298` | 网格表 5 深色 - 重点 3 |
+| GridTable6ColorfulAccent3 | `299` | 网格表 6 彩色 - 重点 3 |
+| GridTable7ColorfulAccent3 | `300` | 网格表 7 彩色 - 重点 3 |
+| GridTable1LightAccent4 | `301` | 网格表 1 灯 - 重点 4 |
 | GridTable2Accent4 | `302` | 网格表 2 - 重音 4 |
 | GridTable3Accent4 | `303` | 网格表 3 - 重音 4 |
 | GridTable4Accent4 | `304` | 网格表 4 - 重音 4 |
-| GridTable5DarkAccent4 | `305` | 网格表 5 深色 - 口音 4 |
-| GridTable6ColorfulAccent4 | `306` | 网格表 6 彩色 - 强调 4 |
-| GridTable7ColorfulAccent4 | `307` | 网格表 7 彩色 - 口音 4 |
-| GridTable1LightAccent5 | `308` | 网格表 1 浅色 - 强调 5 |
+| GridTable5DarkAccent4 | `305` | 网格表 5 深色 - 强调色 4 |
+| GridTable6ColorfulAccent4 | `306` | 网格表 6 彩色 - 重点 4 |
+| GridTable7ColorfulAccent4 | `307` | 网格表 7 彩色 - 重点 4 |
+| GridTable1LightAccent5 | `308` | 网格表 1 灯 - 重点 5 |
 | GridTable2Accent5 | `309` | 网格表 2 - 重音 5 |
 | GridTable3Accent5 | `310` | 网格表 3 - 重音 5 |
 | GridTable4Accent5 | `311` | 网格表 4 - 重音 5 |
-| GridTable5DarkAccent5 | `312` | 网格表 5 深色 - 口音 5 |
-| GridTable6ColorfulAccent5 | `313` | 网格表 6 彩色 - 强调 5 |
-| GridTable7ColorfulAccent5 | `314` | 网格表 7 彩色 - 强调 5 |
-| GridTable1LightAccent6 | `315` | 网格表 1 浅色 - 强调 6 |
+| GridTable5DarkAccent5 | `312` | 网格表 5 深色 - 重点 5 |
+| GridTable6ColorfulAccent5 | `313` | 网格表 6 彩色 - 重点 5 |
+| GridTable7ColorfulAccent5 | `314` | 网格表 7 彩色 - 重点 5 |
+| GridTable1LightAccent6 | `315` | 网格表 1 灯 - 重点 6 |
 | GridTable2Accent6 | `316` | 网格表 2 - 重音 6 |
 | GridTable3Accent6 | `317` | 网格表 3 - 重音 6 |
 | GridTable4Accent6 | `318` | 网格表 4 - 重音 6 |
-| GridTable5DarkAccent6 | `319` | 网格表 5 深色 - 口音 6 |
-| GridTable6ColorfulAccent6 | `320` | 网格表 6 彩色 - 强调 6 |
-| GridTable7ColorfulAccent6 | `321` | 网格表 7 彩色 - 强调 6 |
+| GridTable5DarkAccent6 | `319` | 网格表 5 深色 - 强调色 6 |
+| GridTable6ColorfulAccent6 | `320` | 网格表 6 彩色 - 重点 6 |
+| GridTable7ColorfulAccent6 | `321` | 网格表 7 彩色 - 重点 6 |
 | ListTable1Light | `322` | 列表表 1 Light |
-| ListTable2 | `323` | 列表 2 |
-| ListTable3 | `324` | 列表 3 |
-| ListTable4 | `325` | 列表 4 |
-| ListTable5Dark | `326` | 列表表 5 暗 |
-| ListTable6Colorful | `327` | 列表表 6 多彩 |
-| ListTable7Colorful | `328` | 列表表 7 多彩 |
-| ListTable1LightAccent1 | `329` | 列表表 1 浅色 - 强调 1 |
-| ListTable2Accent1 | `330` | 列表 2 - 重音 1 |
-| ListTable3Accent1 | `331` | 列表 3 - 重音 1 |
-| ListTable4Accent1 | `332` | 列表 4 - 重音 1 |
-| ListTable5DarkAccent1 | `333` | 列表表 5 深色 - 强调色 1 |
-| ListTable6ColorfulAccent1 | `334` | 列表 6 彩色 - 强调 1 |
-| ListTable7ColorfulAccent1 | `335` | 列表表 7 彩色 - 强调 1 |
-| ListTable1LightAccent2 | `336` | 列表表 1 浅色 - 强调 2 |
-| ListTable2Accent2 | `337` | 列表 2 - 重音 2 |
-| ListTable3Accent2 | `338` | 列表 3 - 重音 2 |
-| ListTable4Accent2 | `339` | 列表 4 - 重音 2 |
-| ListTable5DarkAccent2 | `340` | 列表表 5 深色 - 口音 2 |
-| ListTable6ColorfulAccent2 | `341` | 列表表 6 彩色 - 强调 2 |
-| ListTable7ColorfulAccent2 | `342` | 列表表 7 彩色 - 强调 2 |
-| ListTable1LightAccent3 | `343` | 列表表 1 浅色 - 强调 3 |
-| ListTable2Accent3 | `344` | 列表 2 - 重音 3 |
-| ListTable3Accent3 | `345` | 列表 3 - 重音 3 |
-| ListTable4Accent3 | `346` | 列表 4 - 重音 3 |
-| ListTable5DarkAccent3 | `347` | 列表表 5 深色 - 口音 3 |
-| ListTable6ColorfulAccent3 | `348` | 列表 6 彩色 - 强调 3 |
-| ListTable7ColorfulAccent3 | `349` | 列表表 7 彩色 - 强调 3 |
-| ListTable1LightAccent4 | `350` | 列表表 1 浅色 - 强调 4 |
-| ListTable2Accent4 | `351` | 列表 2 - 重音 4 |
-| ListTable3Accent4 | `352` | 列表 3 - 重音 4 |
-| ListTable4Accent4 | `353` | 列表 4 - 重音 4 |
-| ListTable5DarkAccent4 | `354` | 列表表 5 深色 - 口音 4 |
-| ListTable6ColorfulAccent4 | `355` | 列表 6 彩色 - 强调 4 |
-| ListTable7ColorfulAccent4 | `356` | 列表表 7 彩色 - 强调 4 |
-| ListTable1LightAccent5 | `357` | 列表表 1 浅色 - 强调 5 |
-| ListTable2Accent5 | `358` | 列表 2 - 重音 5 |
-| ListTable3Accent5 | `359` | 列表 3 - 重音 5 |
-| ListTable4Accent5 | `360` | 列表 4 - 重音 5 |
-| ListTable5DarkAccent5 | `361` | 列表表 5 深色 - 口音 5 |
-| ListTable6ColorfulAccent5 | `362` | 列表 6 彩色 - 强调 5 |
-| ListTable7ColorfulAccent5 | `363` | 列表表 7 彩色 - 强调 5 |
-| ListTable1LightAccent6 | `364` | 列表表 1 浅色 - 强调 6 |
-| ListTable2Accent6 | `365` | 列表 2 - 重音 6 |
-| ListTable3Accent6 | `366` | 列表 3 - 重音 6 |
-| ListTable4Accent6 | `367` | 列表 4 - 重音 6 |
-| ListTable5DarkAccent6 | `368` | 列表表 5 深色 - 口音 6 |
-| ListTable6ColorfulAccent6 | `369` | 列表 6 彩色 - 强调 6 |
-| ListTable7ColorfulAccent6 | `370` | 列表表 7 彩色 - 强调 6 |
+| ListTable2 | `323` | 列表表 2 |
+| ListTable3 | `324` | 列表表 3 |
+| ListTable4 | `325` | 列表表 4 |
+| ListTable5Dark | `326` | 列表表 5 Dark |
+| ListTable6Colorful | `327` | 列表表 6 Colorful |
+| ListTable7Colorful | `328` | 列表表 7 Colorful |
+| ListTable1LightAccent1 | `329` | 列表表 1 灯 - 重点 1 |
+| ListTable2Accent1 | `330` | 列表表 2 - 重音 1 |
+| ListTable3Accent1 | `331` | 列表表 3 - 重音 1 |
+| ListTable4Accent1 | `332` | 列表表 4 - 重音 1 |
+| ListTable5DarkAccent1 | `333` | 列表表 5 深色 - 重音 1 |
+| ListTable6ColorfulAccent1 | `334` | 列表表 6 彩色 - 重点 1 |
+| ListTable7ColorfulAccent1 | `335` | 列表表 7 彩色 - 重点 1 |
+| ListTable1LightAccent2 | `336` | 列表表 1 灯 - 重点 2 |
+| ListTable2Accent2 | `337` | 列表表 2 - 重音 2 |
+| ListTable3Accent2 | `338` | 列表表 3 - 重音 2 |
+| ListTable4Accent2 | `339` | 列表表 4 - 重音 2 |
+| ListTable5DarkAccent2 | `340` | 列表表 5 深色 - 重音 2 |
+| ListTable6ColorfulAccent2 | `341` | 列表表 6 彩色 - 重点 2 |
+| ListTable7ColorfulAccent2 | `342` | 列表表 7 彩色 - 重点 2 |
+| ListTable1LightAccent3 | `343` | 列表表 1 灯 - 重点 3 |
+| ListTable2Accent3 | `344` | 列表表 2 - 重音 3 |
+| ListTable3Accent3 | `345` | 列表表 3 - 重音 3 |
+| ListTable4Accent3 | `346` | 列表表 4 - 重音 3 |
+| ListTable5DarkAccent3 | `347` | 列表表 5 深色 - 重音 3 |
+| ListTable6ColorfulAccent3 | `348` | 列表表 6 彩色 - 重点 3 |
+| ListTable7ColorfulAccent3 | `349` | 列表表 7 彩色 - 重点 3 |
+| ListTable1LightAccent4 | `350` | 列表表 1 灯 - 重点 4 |
+| ListTable2Accent4 | `351` | 列表表 2 - 重音 4 |
+| ListTable3Accent4 | `352` | 列表表 3 - 重音 4 |
+| ListTable4Accent4 | `353` | 列表表 4 - 重音 4 |
+| ListTable5DarkAccent4 | `354` | 列表表 5 深色 - 重音 4 |
+| ListTable6ColorfulAccent4 | `355` | 列表表 6 彩色 - 重点 4 |
+| ListTable7ColorfulAccent4 | `356` | 列表表 7 彩色 - 重点 4 |
+| ListTable1LightAccent5 | `357` | 列表表 1 灯 - 重点 5 |
+| ListTable2Accent5 | `358` | 列表表 2 - 重音 5 |
+| ListTable3Accent5 | `359` | 列表表 3 - 重音 5 |
+| ListTable4Accent5 | `360` | 列表表 4 - 重音 5 |
+| ListTable5DarkAccent5 | `361` | 列表表 5 深色 - 重音 5 |
+| ListTable6ColorfulAccent5 | `362` | 列表表 6 彩色 - 重点 5 |
+| ListTable7ColorfulAccent5 | `363` | 列表表 7 彩色 - 重点 5 |
+| ListTable1LightAccent6 | `364` | 列表表 1 灯 - 重点 6 |
+| ListTable2Accent6 | `365` | 列表表 2 - 重音 6 |
+| ListTable3Accent6 | `366` | 列表表 3 - 重音 6 |
+| ListTable4Accent6 | `367` | 列表表 4 - 重音 6 |
+| ListTable5DarkAccent6 | `368` | 列表表 5 深色 - 强调 6 |
+| ListTable6ColorfulAccent6 | `369` | 列表表 6 彩色 - 重点 6 |
+| ListTable7ColorfulAccent6 | `370` | 列表表 7 彩色 - 重点 6 |
 | Mention | `372` | 提及风格。 |
 | SmartHyperlink | `373` | SmartHyperlink 样式。 |
 | Hashtag | `374` | 标签风格。 |
-| UnresolvedMention | `375` | UnresolvedMention 样式。 |
+| UnresolvedMention | `375` | 未解决提及的风格。 |
 | User | `4094` | 用户定义的样式。 |
 | Nil | `12287` | 保留供内部使用。 |
 
 ## 评论
 
-MS Word 中内置样式的名称针对不同语言进行了本地化。 使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
+MS Word 中内置样式的名称针对不同的语言进行了本地化。 使用样式标识符，您可以找到正确的样式，而不管文档语言是什么。
 
-所有用户定义的样式都被分配User价值。
+所有用户定义的样式均被分配User价值。
 
 ## 例子
 
-演示如何更改现有文本的样式。
+展示如何改变现有文本的样式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是两种引用样式的方法。
+// 下面是两种引用样式的方式。
 // 1 - 使用样式名称：
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
@@ -422,9 +422,9 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// 将一种样式的所有使用转换为另一种样式，
+// 将一种风格的所有用途转换为另一种风格，
 // 使用上述方法引用新旧样式。
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

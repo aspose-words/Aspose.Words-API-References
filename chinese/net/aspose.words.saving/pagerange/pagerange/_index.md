@@ -2,8 +2,8 @@
 title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
-second_title: 用于 .NET 的 Aspose.Words
-description: PageRange 构造函数. 创建一个新的页面范围对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的 PageRange 构造函数轻松创建自定义页面范围。提升文档管理的精准性和灵活性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pagerange/pagerange/
@@ -19,15 +19,15 @@ public PageRange(int from, int to)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | from | Int32 | 起始页从零开始的索引。 |
-| to | Int32 | 结束页从零开始的索引。 如果它超出文档中最后一页的索引，则 将被截断以适合渲染时的文档。 |
+| to | Int32 | 结束页的索引从零开始。 如果它超出了文档中最后一页的索引， 则会在渲染时将其截断以适合文档。 |
 
 ## 评论
 
-MaxValue表示文档中的最后一页。
+MaxValue表示文档的最后一页。
 
 ## 例子
 
-展示如何根据确切的页面范围提取页面。
+显示如何根据精确的页面范围提取页面。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

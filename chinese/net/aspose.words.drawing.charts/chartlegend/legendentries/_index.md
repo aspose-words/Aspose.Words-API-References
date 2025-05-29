@@ -2,15 +2,15 @@
 title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegend LegendEntries 财产. 返回父图表的所有系列和趋势线的图例条目的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartLegend LegendEntries 属性以访问图表中所有系列和趋势线的图例条目综合集合。
 type: docs
-weight: 10
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
 
-返回父图表的所有系列和趋势线的图例条目的集合。
+返回父图表的所有系列和趋势线的图例条目集合。
 
 ```csharp
 public ChartLegendEntryCollection LegendEntries { get; }
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

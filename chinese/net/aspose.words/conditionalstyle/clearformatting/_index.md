@@ -2,8 +2,8 @@
 title: ConditionalStyle.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyle ClearFormatting 方法. 清除此条件样式的格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ConditionalStyle ClearFormatting 方法轻松清除格式。立即简化您的设计流程，提升文档清晰度！
 type: docs
 weight: 100
 url: /zh/net/aspose.words/conditionalstyle/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## 例子
 
-演示如何重置条件表样式。
+展示如何重置条件表样式。
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// 设置表格样式，将表格第一行的边框着色为红色。
+// 设置表格样式，将表格第一行的边框颜色设为红色。
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// 设置表格样式，将表格最后一行的边框着色为蓝色。
+// 设置表格样式，将表格最后一行的边框颜色设为蓝色。
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// 下面是使用“ClearFormatting”方法清除条件样式的两种方法。
+// 以下是两种使用“ClearFormatting”方法清除条件样式的方法。
 // 1 - 清除表格特定部分的条件样式：
 tableStyle.ConditionalStyles[0].ClearFormatting();
 

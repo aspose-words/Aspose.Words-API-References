@@ -2,15 +2,15 @@
 title: ConditionalStyle.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyle GetHashCode 方法. 计算该对象的哈希码 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ConditionalStyle GetHashCode 方法如何有效地计算对象的唯一哈希码，从而提高性能和数据完整性。
 type: docs
 weight: 120
 url: /zh/net/aspose.words/conditionalstyle/gethashcode/
 ---
 ## ConditionalStyle.GetHashCode method
 
-计算该对象的哈希码。
+计算此对象的哈希码。
 
 ```csharp
 public override int GetHashCode()

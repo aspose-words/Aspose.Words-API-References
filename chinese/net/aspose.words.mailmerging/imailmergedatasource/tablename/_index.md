@@ -2,8 +2,8 @@
 title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
-second_title: 用于 .NET 的 Aspose.Words
-description: IMailMergeDataSource TableName 财产. 返回数据源的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 IMailMergeDataSource TableName 属性以轻松访问您的数据源名称并增强您的文档自动化流程。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -22,13 +22,13 @@ public string TableName { get; }
 
 ## 评论
 
-如果您正在实施[`IMailMergeDataSource`](../)，从此属性返回 data 源的名称。
+如果你正在实施[`IMailMergeDataSource`](../)，从此属性返回 data 源的名称。
 
-Aspose.Words 使用此名称来匹配模板文档中指定的邮件合并区域名称 。数据源名称和 邮件合并区域名称之间的比较不区分大小写。
+Aspose.Words 使用此名称与模板文档中指定的邮件合并区域名称 进行匹配。数据源名称与邮件合并区域名称 之间的比较不区分大小写。
 
 ## 例子
 
-演示如何使用自定义对象形式的数据源执行邮件合并。
+展示如何以自定义对象的形式执行与数据源的邮件合并。
 
 ```csharp
 public void CustomDataSource()
@@ -54,7 +54,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// 应用程序中“数据实体”类的示例。
+/// 您的应用程序中“数据实体”类的示例。
 /// </summary>
 public class Customer
 {
@@ -69,7 +69,7 @@ public class Customer
 }
 
 /// <summary>
- /// 您实现的自定义邮件合并数据源以允许 Aspose.Words
+ /// 您实现的自定义邮件合并数据源，以允许 Aspose.Words
 /// 将客户对象中的数据通过邮件合并到 Microsoft Word 文档中。
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -78,12 +78,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // 当我们初始化数据源时，它的位置必须在第一条记录之前。
+        // 当我们初始化数据源时，它的位置必须在第一个记录之前。
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// 数据源的名称。仅在对可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在执行可重复区域的邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -104,15 +104,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // 返回“false”给Aspose.Words邮件合并引擎来表示
-                // 我们找不到具有该名称的字段。
+                // 返回“false”给 Aspose.Words 邮件合并引擎以表示
+                // 我们找不到具有此名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// 移动到集合中下一条记录的标准实现。
+    /// 移动到集合中的下一个记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {

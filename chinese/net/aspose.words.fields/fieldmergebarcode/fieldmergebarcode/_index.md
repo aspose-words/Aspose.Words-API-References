@@ -2,8 +2,8 @@
 title: FieldMergeBarcode
 linktitle: FieldMergeBarcode
 articleTitle: FieldMergeBarcode
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergeBarcode 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldMergeBarcode 构造函数，实现无缝集成。解锁强大功能，轻松提升您的项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/

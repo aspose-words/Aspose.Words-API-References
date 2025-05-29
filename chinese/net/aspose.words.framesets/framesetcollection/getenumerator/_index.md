@@ -2,15 +2,15 @@
 title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: FramesetCollection GetEnumerator 方法. 返回一个迭代集合的枚举器 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FramesetCollection GetEnumerator 方法，它可以有效地遍历您的集合，增强数据管理和可访问性。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-返回一个迭代集合的枚举器。
+返回遍历集合的枚举器。
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

@@ -2,10 +2,10 @@
 title: FontConfigSubstitutionRule Class
 linktitle: FontConfigSubstitutionRule
 articleTitle: FontConfigSubstitutionRule
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule 班级. 字体配置替换规则 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.FontConfigSubstitutionRule 类，实现文档中字体的无缝管理和自定义。立即增强您的文本样式！
 type: docs
-weight: 2890
+weight: 3300
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
@@ -22,7 +22,7 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled/) { set; } | 指定是否启用规则。 |
+| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled/) { set; } | 指定规则是否启用。 |
 
 ## 方法
 
@@ -33,7 +33,7 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 ## 评论
 
-如果原始字体不可用，则此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
+如果原始字体不可用，此规则将使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
 
 如果 fontconfig 实用程序不可用，则此规则将被忽略。
 
@@ -49,7 +49,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule 对象在 Windows/非 Windows 平台上的工作方式不同。
+// FontConfigSubstitutionRule 对象在 Windows 和非 Windows 平台上的工作方式不同。
 // 在 Windows 上，它不可用。
 if (isWindows)
 {
@@ -60,7 +60,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

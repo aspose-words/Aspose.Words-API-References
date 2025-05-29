@@ -2,8 +2,8 @@
 title: Style.List
 linktitle: List
 articleTitle: List
-second_title: 用于 .NET 的 Aspose.Words
-description: Style List 财产. 获取定义此列表样式格式的列表 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索如何有效地设计列表样式！学习如何定义独特的列表格式，提升内容的视觉吸引力。
 type: docs
 weight: 100
 url: /zh/net/aspose.words/style/list/
@@ -18,11 +18,11 @@ public List List { get; }
 
 ## 评论
 
-此属性仅对列表样式有效。 对于此属性返回的其他样式类型`无效的`。
+此属性仅对列表样式有效。 对于其他样式类型，此属性返回`无效的`。
 
 ## 例子
 
-演示如何创建列表样式并在文档中使用它。
+展示如何创建列表样式并在文档中使用它。
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 我们可以在样式中包含整个 List 对象。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 我们可以在一种样式中包含整个列表对象。
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -60,7 +60,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// 添加我们的列表将格式化的一些列表项。
+// 添加一些我们的列表将格式化的列表项。
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

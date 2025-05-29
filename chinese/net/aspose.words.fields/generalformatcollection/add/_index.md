@@ -2,15 +2,15 @@
 title: GeneralFormatCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: 用于 .NET 的 Aspose.Words
-description: GeneralFormatCollection Add 方法. 将通用格式添加到集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 GeneralFormatCollection Add 方法增强您的收藏——有效地添加多种格式以改善数据管理！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/generalformatcollection/add/
 ---
 ## GeneralFormatCollection.Add method
 
-将通用格式添加到集合中。
+向集合添加通用格式。
 
 ```csharp
 public void Add(GeneralFormat item)
@@ -22,7 +22,7 @@ public void Add(GeneralFormat item)
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

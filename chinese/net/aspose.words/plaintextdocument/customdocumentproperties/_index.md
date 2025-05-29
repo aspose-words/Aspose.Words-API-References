@@ -2,15 +2,15 @@
 title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
-second_title: 用于 .NET 的 Aspose.Words
-description: PlainTextDocument CustomDocumentProperties 财产. 获取CustomDocumentProperties文档的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何访问 PlainTextDocument 中的 CustomDocumentProperties，以增强文档管理和自定义功能。释放文档的无限潜能！
 type: docs
 weight: 30
 url: /zh/net/aspose.words/plaintextdocument/customdocumentproperties/
 ---
 ## PlainTextDocument.CustomDocumentProperties property
 
-获取`CustomDocumentProperties`文档的.
+获取`CustomDocumentProperties`的文件。
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## 例子
 
-演示如何以纯文本形式加载 Microsoft Word 文档的内容，然后访问原始文档的自定义属性。
+展示如何以纯文本形式加载 Microsoft Word 文档的内容，然后访问原始文档的自定义属性。
 
 ```csharp
 Document doc = new Document();

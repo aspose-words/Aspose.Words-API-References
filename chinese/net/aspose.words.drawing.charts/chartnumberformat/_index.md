@@ -2,10 +2,10 @@
 title: ChartNumberFormat Class
 linktitle: ChartNumberFormat
 articleTitle: ChartNumberFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat 班级. 表示父元素的数字格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.ChartNumberFormat 类，实现图表中的高级数字格式。提升文档的视觉吸引力！
 type: docs
-weight: 770
+weight: 1060
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
@@ -27,7 +27,7 @@ public class ChartNumberFormat
 
 ## 例子
 
-展示如何设置图表值的格式。
+显示如何设置图表值的格式。
 
 ```csharp
 Document doc = new Document();
@@ -39,16 +39,16 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 将自定义系列添加到图表中，其中 X 轴为类别，
- // 和 Y 轴各自较大的数值。
+// 向图表中添加自定义系列，其中包含 X 轴的类别，
+ // 以及 Y 轴的相应较大数值。
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // 将 Y 轴刻度标签的数字格式设置为不使用逗号对数字进行分组。
+ // 设置 Y 轴刻度标签的数字格式，不使用逗号对数字进行分组。
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// 该标志可以覆盖上面的值并从源单元格中绘制数字格式。
+// 此标志可以覆盖上述值并从源单元格绘制数字格式。
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

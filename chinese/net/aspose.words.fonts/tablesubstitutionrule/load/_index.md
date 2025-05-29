@@ -2,8 +2,8 @@
 title: TableSubstitutionRule.Load
 linktitle: Load
 articleTitle: Load
-second_title: 用于 .NET 的 Aspose.Words
-description: TableSubstitutionRule Load 方法. 从 XML 文件加载表替换设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 TableSubstitutionRule Load 方法轻松从 XML 文件加载表替换设置。立即优化您的数据管理！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/load/
@@ -29,45 +29,45 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// 创建新的表替换规则并加载默认的 Windows 字体替换表。
+// 创建一个新的表替换规则并加载默认的 Windows 字体替换表。
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// 如果我们只从文件夹中选择字体，我们将需要一个自定义替换表。
-// 我们将无法再访问 Microsoft Windows 字体，
+// 如果我们只从我们的文件夹中选择字体，我们将需要一个自定义替换表。
+// 我们将不再有权访问 Microsoft Windows 字体，
 // 例如“Arial”或“Times New Roman”，因为它们不存在于我们的新字体文件夹中。
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// 下面是从本地文件系统中的文件加载替换表的两种方法。
+// 以下是从本地文件系统中的文件加载替换表的两种方法。
 // 1 - 来自流：
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
 }
 
-// 2 - 直接来自文件：
+// 2 - 直接从文件获取：
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
 // 由于我们不再有权访问“Arial”，我们的字体表将首先尝试用“不存在的字体”替换它。
-// 我们没有此字体，因此它将移至“MyFonts”文件夹中找到的下一个替代字体“Kreon”。
+// 我们没有这种字体，因此它将转移到“MyFonts”文件夹中的下一个替代字体“Kreon”。
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// 我们可以通过编程方式扩展该表。我们将添加一个条目，将“Times New Roman”替换为“Arvo”
+// 我们可以通过编程方式扩展此表。我们将添加一个条目，将“Times New Roman”替换为“Arvo”
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// 我们可以使用 AddSubstitutes() 添加现有字体条目的辅助后备替代。
+// 我们可以使用 AddSubstitutes() 为现有字体条目添加辅助后备替代。
 // 如果“Arvo”不可用，我们的表将寻找“M+ 2m”作为第二个替代选项。
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes() 可以为某种字体设置新的替代字体列表。
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+// SetSubstitutes() 可以为字体设置新的替代字体列表。
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// 使用我们无权访问的字体编写文本将调用我们的替换规则。
+// 使用我们无法访问的字体编写文本将调用我们的替换规则。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");
@@ -107,45 +107,45 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// 创建新的表替换规则并加载默认的 Windows 字体替换表。
+// 创建一个新的表替换规则并加载默认的 Windows 字体替换表。
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// 如果我们只从文件夹中选择字体，我们将需要一个自定义替换表。
-// 我们将无法再访问 Microsoft Windows 字体，
+// 如果我们只从我们的文件夹中选择字体，我们将需要一个自定义替换表。
+// 我们将不再有权访问 Microsoft Windows 字体，
 // 例如“Arial”或“Times New Roman”，因为它们不存在于我们的新字体文件夹中。
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// 下面是从本地文件系统中的文件加载替换表的两种方法。
+// 以下是从本地文件系统中的文件加载替换表的两种方法。
 // 1 - 来自流：
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
 }
 
-// 2 - 直接来自文件：
+// 2 - 直接从文件获取：
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
 // 由于我们不再有权访问“Arial”，我们的字体表将首先尝试用“不存在的字体”替换它。
-// 我们没有此字体，因此它将移至“MyFonts”文件夹中找到的下一个替代字体“Kreon”。
+// 我们没有这种字体，因此它将转移到“MyFonts”文件夹中的下一个替代字体“Kreon”。
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// 我们可以通过编程方式扩展该表。我们将添加一个条目，将“Times New Roman”替换为“Arvo”
+// 我们可以通过编程方式扩展此表。我们将添加一个条目，将“Times New Roman”替换为“Arvo”
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// 我们可以使用 AddSubstitutes() 添加现有字体条目的辅助后备替代。
+// 我们可以使用 AddSubstitutes() 为现有字体条目添加辅助后备替代。
 // 如果“Arvo”不可用，我们的表将寻找“M+ 2m”作为第二个替代选项。
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes() 可以为某种字体设置新的替代字体列表。
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+// SetSubstitutes() 可以为字体设置新的替代字体列表。
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// 使用我们无权访问的字体编写文本将调用我们的替换规则。
+// 使用我们无法访问的字体编写文本将调用我们的替换规则。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

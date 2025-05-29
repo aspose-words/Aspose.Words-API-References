@@ -2,15 +2,15 @@
 title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.HtmlInsertOptions 枚举. 指定选项InsertHtml方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.HtmlInsertOptions 枚举以使用 InsertHtml 方法自定义 HTML 插入，从而提高文档处理效率。
 type: docs
-weight: 3140
+weight: 3570
 url: /zh/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-指定选项[`InsertHtml`](../documentbuilder/inserthtml/)方法.
+指定[`InsertHtml`](../documentbuilder/inserthtml/)方法.
 
 ```csharp
 [Flags]
@@ -22,13 +22,13 @@ public enum HtmlInsertOptions
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 插入 HTML 时使用默认选项。 |
-| UseBuilderFormatting | `1` | 使用中指定的字体和段落格式[`DocumentBuilder`](../documentbuilder/)作为从 HTML. 插入的 text 的基本格式 |
-| RemoveLastEmptyParagraph | `2` | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
+| UseBuilderFormatting | `1` | 使用指定的字体和段落格式[`DocumentBuilder`](../documentbuilder/)作为从 HTML 插入的 text 的基本格式。 |
+| RemoveLastEmptyParagraph | `2` | 删除通常插入在以块级元素结尾的 HTML 之后的空段落。 |
 | PreserveBlocks | `4` | 保留块级元素的属性。 |
 
 ## 例子
 
-展示如何更好地保留所看到的边框和边距。
+展示如何更好地保留可见的边框和边距。
 
 ```csharp
 const string html = @"

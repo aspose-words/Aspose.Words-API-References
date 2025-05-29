@@ -2,8 +2,8 @@
 title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill BackTintAndShade 财产. 获取或设置使背景颜色变亮或变暗的双精度值 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 BackTintAndShade 属性可以轻松地使背景颜色变亮或变暗，增强设计的视觉吸引力和用户体验。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/fill/backtintandshade/
@@ -16,13 +16,21 @@ url: /zh/net/aspose.words.drawing/fill/backtintandshade/
 public double BackTintAndShade { get; set; }
 ```
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 如果将此属性设置为小于 -1 或大于 1 的值，则抛出。 |
+
 ## 评论
 
-此属性允许的值在 -1（最暗）到 1（最亮）的范围内。 零 (0) 表示中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
+此属性的允许值范围是从 -1（最暗）到 1（最亮）。
+
+零（0）是中性的。
 
 ## 例子
 
-展示如何设置前景色/背景形状颜色的主题颜色。
+展示如何设置前景/背景形状颜色的主题颜色。
 
 ```csharp
 Document doc = new Document();

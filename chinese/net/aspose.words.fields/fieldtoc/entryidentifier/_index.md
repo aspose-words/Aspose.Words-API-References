@@ -2,8 +2,8 @@
 title: FieldToc.EntryIdentifier
 linktitle: EntryIdentifier
 articleTitle: EntryIdentifier
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldToc EntryIdentifier 财产. 获取或设置应与所包含的 TC 字段的类型标识符匹配的字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldToc EntryIdentifier 属性如何通过轻松匹配类型标识符来实现高效的数据组织，从而简化 TC 字段管理。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -18,7 +18,7 @@ public string EntryIdentifier { get; set; }
 
 ## 例子
 
-展示如何插入 TOC 字段，以及过滤哪些 TC 字段最终作为条目。
+显示如何插入 TOC 字段，并过滤最终作为条目的 TC 字段。
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入一个TOC字段，这会将所有TC字段编译成目录。
+    // 插入一个 TOC 字段，它将把所有 TC 字段编译成一个目录。
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // 配置该字段仅拾取“A”类型的 TC 条目，以及 1 到 3 之间的条目级别。
+    // 配置该字段仅选取“A”类型且条目级别在 1 到 3 之间的 TC 条目。
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 

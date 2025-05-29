@@ -2,10 +2,10 @@
 title: JsonDataLoadOptions Class
 linktitle: JsonDataLoadOptions
 articleTitle: JsonDataLoadOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Reporting.JsonDataLoadOptions 班级. 表示解析 JSON 数据的选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Reporting.JsonDataLoadOptions 类，实现无缝 JSON 数据解析。使用灵活的选项增强您的文档处理能力！
 type: docs
-weight: 4680
+weight: 5420
 url: /zh/net/aspose.words.reporting/jsondataloadoptions/
 ---
 ## JsonDataLoadOptions class
@@ -28,14 +28,35 @@ public class JsonDataLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/) { get; set; } | 获取或设置一个标志，该标志指示生成的数据源是否始终包含 JSON root 元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。 |
-| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/) { get; set; } | 获取或设置加载 JSON 时解析 JSON 日期时间值的精确格式。默认为`无效的`. |
-| [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | 获取或设置一个标志，该标志指示在加载 JSON 数据的 string 值时是否应保留前导空格和尾随空格。 |
-| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | 获取或设置加载 JSON 时解析 JSON 简单值（空、布尔值、数字、整数和字符串） 的模式。这种模式不会影响日期时间值的解析。默认为 Loose. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/) { get; set; } | 获取或设置一个标志，指示生成的数据源是否始终包含 JSON 根元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。 |
+| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/) { get; set; } | 获取或设置在加载 JSON 时解析 JSON 日期时间值的精确格式。默认值为`无效的`. |
+| [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | 获取或设置一个标志，指示在加载 JSON 数据的字符串值时是否应保留前导和尾随空格。 |
+| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | 获取或设置在加载 JSON 时解析 JSON 简单值（null、boolean、number、integer 和 string）的模式。此模式不会影响日期时间值的解析。默认值为 Loose. |
 
 ## 评论
 
-此类的实例可以传递到构造函数中[`JsonDataSource`](../jsondatasource/).
+此类的实例可以传递到[`JsonDataSource`](../jsondatasource/).
+
+## 例子
+
+展示如何使用 JSON 作为数据源（字符串）。
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - JSON data destination.docx");
+
+JsonDataLoadOptions options = new JsonDataLoadOptions
+{
+    ExactDateTimeParseFormats = new List<string> {"MM/dd/yyyy", "MM.d.yy", "MM d yy"},
+    AlwaysGenerateRootObject = true,
+    PreserveSpaces = true,
+    SimpleValueParseMode = JsonSimpleValueParseMode.Loose
+};
+
+JsonDataSource dataSource = new JsonDataSource(MyDir + "List of people.json", options);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.JsonDataString.docx");
+```
 
 ### 也可以看看
 

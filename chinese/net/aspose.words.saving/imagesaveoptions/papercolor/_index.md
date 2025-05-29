@@ -2,8 +2,8 @@
 title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSaveOptions PaperColor 财产. 获取或设置生成图像的背景纸张颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ImageSaveOptions PaperColor 属性可以轻松自定义生成的图像的背景颜色，增强视觉吸引力和独特性。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -24,7 +24,7 @@ public Color PaperColor { get; set; }
 
 ## 例子
 
-将Word文档的页面渲染为具有透明或彩色背景的图像。
+将 Word 文档的一页呈现为具有透明或彩色背景的图像。
 
 ```csharp
 Document doc = new Document();
@@ -39,15 +39,14 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
 // 修改该方法将文档呈现为图像的方式。
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
 // 将“PaperColor”属性设置为透明颜色以应用透明
-// 将文档渲染为图像时的背景。
+// 在将其渲染为图像时将其背景添加到文档中。
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
 // 将“PaperColor”属性设置为不透明颜色以应用该颜色
-// 作为我们将文档渲染为图像时的背景。
+// 作为文档的背景，我们将其渲染为图像。
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);

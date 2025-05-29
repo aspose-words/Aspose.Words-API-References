@@ -2,8 +2,8 @@
 title: List.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: 用于 .NET 的 Aspose.Words
-description: List GetHashCode 方法. 计算此列表对象的哈希码 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 GetHashCode 方法如何有效地计算列表的唯一哈希码，从而增强数据管理和性能。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.lists/list/gethashcode/

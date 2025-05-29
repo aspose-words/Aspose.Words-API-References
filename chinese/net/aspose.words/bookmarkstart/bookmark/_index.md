@@ -2,8 +2,8 @@
 title: BookmarkStart.Bookmark
 linktitle: Bookmark
 articleTitle: Bookmark
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkStart Bookmark 财产. 获取封装此书签开始和结束的外观对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 BookmarkStart 的独特属性来访问外观对象，通过无缝的开始和结束封装简化您的书签管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bookmarkstart/bookmark/
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

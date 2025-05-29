@@ -2,15 +2,15 @@
 title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaProject 班级. 提供对 VBA 项目信息的访问 文档内的 VBA 项目定义为 VBA 模块的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 解锁 Aspose.Words.Vba.VbaProject 类的强大功能，轻松管理文档中的 VBA 项目信息和模块。立即提升您的自动化水平！
 type: docs
-weight: 6580
+weight: 7430
 url: /zh/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-提供对 VBA 项目信息的访问。 文档内的 VBA 项目定义为 VBA 模块的集合。
+提供对 VBA 项目信息的访问。 文档内的 VBA 项目被定义为 VBA 模块的集合。
 
 要了解更多信息，请访问[使用 VBA 宏](https://docs.aspose.com/words/net/working-with-vba-macros/)文档文章。
 
@@ -29,7 +29,8 @@ public class VbaProject
 | 姓名 | 描述 |
 | --- | --- |
 | [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | 获取或设置 VBA 项目的代码页。 |
-| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | 显示是否`VbaProject`是否已签名。 |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | 显示`VbaProject`受密码保护。 |
+| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | 显示`VbaProject`是否已签名。 |
 | [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | 返回 VBA 项目模块的集合。 |
 | [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | 获取或设置 VBA 项目名称。 |
 | [References](../../aspose.words.vba/vbaproject/references/) { get; } | 获取 VBA 项目引用的集合。 |
@@ -42,7 +43,7 @@ public class VbaProject
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -53,7 +54,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

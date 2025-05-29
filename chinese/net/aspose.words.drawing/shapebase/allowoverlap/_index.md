@@ -2,15 +2,15 @@
 title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase AllowOverlap 财产. 获取或设置一个值该值指定此形状是否可以与其他形状重叠 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase AllowOverlap 属性，通过启用或禁用与其他形状的重叠来控制形状交互，以增强设计灵活性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-获取或设置一个值，该值指定此形状是否可以与其他形状重叠。
+获取或设置一个值，指定此形状是否可以与其他形状重叠。
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -18,7 +18,7 @@ public bool AllowOverlap { get; set; }
 
 ## 评论
 
-此属性影响 Microsoft Word 中形状的行为。 Aspose.Words 忽略此属性的值。
+此属性会影响 Microsoft Word 中形状的行为。 Aspose.Words 忽略此属性的值。
 
 此属性仅适用于顶级形状。
 
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // 只有 Margin、Page、Column 在 HorizontalAnchor setter 的relativehorizontalposition 中可用。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Column 在 RelativeHorizontalPosition 中可用于 HorizontalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // 仅边距、页面、段落可用于 VerticalAnchor setter 的relativeverticalposition。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Paragraph 在 RelativeVerticalPosition 中可用于 VerticalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

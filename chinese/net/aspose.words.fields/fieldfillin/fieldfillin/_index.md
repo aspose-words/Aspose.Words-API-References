@@ -2,8 +2,8 @@
 title: FieldFillIn
 linktitle: FieldFillIn
 articleTitle: FieldFillIn
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFillIn 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldFillIn 构造函数——无缝数据处理的首选解决方案。体验高效便捷的编码项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldfillin/fieldfillin/

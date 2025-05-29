@@ -2,15 +2,15 @@
 title: ShapeBase.RelativeHorizontalSize
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase RelativeHorizontalSize 财产. 获取或设置形状在水平方向的相对大小值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase RelativeHorizontalSize 属性，轻松水平调整形状大小，从而增强设计灵活性和精确度。
 type: docs
-weight: 430
+weight: 460
 url: /zh/net/aspose.words.drawing/shapebase/relativehorizontalsize/
 ---
 ## ShapeBase.RelativeHorizontalSize property
 
-获取或设置形状在水平方向的相对大小值。
+获取或设置形状在水平方向上的相对大小值。
 
 ```csharp
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
@@ -20,7 +20,7 @@ public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 
 默认值为[`RelativeHorizontalSize`](../../relativehorizontalsize/)。
 
-仅当以下情况时才有效[`WidthRelative`](../widthrelative/)已设置。
+仅在以下情况下有效[`WidthRelative`](../widthrelative/)已设置。
 
 ## 例子
 
@@ -30,7 +30,7 @@ public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 添加一个具有绝对大小和位置的简单形状。
+// 添加具有绝对大小和位置的简单形状。
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
 // 将 WrapType 设置为 WrapType.None，因为内联形状会自动转换为绝对单位。
 shape.WrapType = WrapType.None;
@@ -38,7 +38,7 @@ shape.WrapType = WrapType.None;
 // 检查并设置相对水平尺寸。
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // 将水平尺寸绑定设置为 Margin。
+    // 设置水平尺寸绑定到Margin。
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
     // 将宽度设置为边距宽度的 50%。
     shape.WidthRelative = 50;
@@ -47,7 +47,7 @@ if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 // 检查并设置相对垂直尺寸。
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // 将垂直尺寸绑定设置为 Margin。
+    // 设置垂直尺寸绑定到Margin。
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
     // 将高度设置为边距高度的 30%。
     shape.HeightRelative = 30;
@@ -56,16 +56,16 @@ if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 // 检查并设置相对垂直位置。
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // 设置绑定到 TopMargin 的位置。
+    // 设置与 TopMargin 的位置绑定。
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // 将相对顶部设置为 TopMargin 位置的 30%。
+    // 将相对 Top 设置为 TopMargin 位置的 30%。
     shape.TopRelative = 30;
 }
 
 // 检查并设置相对水平位置。
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // 将位置绑定设置为 RightMargin。
+    // 设置位置绑定到RightMargin。
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
     // 位置相对值可以为负数。
     shape.LeftRelative = -260;

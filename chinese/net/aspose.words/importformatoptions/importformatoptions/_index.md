@@ -2,8 +2,8 @@
 title: ImportFormatOptions
 linktitle: ImportFormatOptions
 articleTitle: ImportFormatOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: ImportFormatOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImportFormatOptions 构造函数，实现无缝集成。使用我们的默认构造函数解锁强大功能，提升您的编码效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/importformatoptions/importformatoptions/

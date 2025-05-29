@@ -2,27 +2,29 @@
 title: RevisionOptions.InsertedTextEffect
 linktitle: InsertedTextEffect
 articleTitle: InsertedTextEffect
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionOptions InsertedTextEffect 财产. 允许指定要应用于插入内容的效果Insertion. 默认值为Underline 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 RevisionOptions 的 InsertedTextEffect 属性，使用独特的效果自定义您的内容。默认效果为下划线。提升文本的视觉冲击力！
 type: docs
-weight: 50
+weight: 70
 url: /zh/net/aspose.words.layout/revisionoptions/insertedtexteffect/
 ---
 ## RevisionOptions.InsertedTextEffect property
 
-允许指定要应用于插入内容的效果Insertion. 默认值为Underline.
+允许指定应用于插入内容的效果Insertion. 默认值是Underline.
 
 ```csharp
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-## 评论
+### 例外
 
-的价值观Hidden和DoubleStrikeThrough 是不允许的，会导致ArgumentOutOfRangeException。
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 价值观Hidden和DoubleStrikeThrough不允许使用 。 |
 
 ## 例子
 
-展示如何修改修订版本的外观。
+展示如何修改修订的外观。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -30,7 +32,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // 获取控制修订外观的 RevisionOptions 对象。
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// 以绿色和斜体渲染插入修订。
+// 以绿色和斜体呈现插入修订。
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
@@ -38,20 +40,20 @@ revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// 相同的文本将在运动修订中出现两次：
+// 相同的文本将在动作修订中出现两次：
 // 一次在出发点，一次在到达目的地。
-// 将移出的修订版本处的文本渲染为黄色，并带有双删除线
-// 并在移至的修订版处显示蓝色双下划线。
+// 将移出修订版的文本渲染为黄色，并带有双删除线
+// 并在移至的修订版处使用双下划线蓝色。
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// 以深红色和粗体渲染格式修订版。
+// 以深红色和粗体呈现格式修订。
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// 在页面左侧受修订影响的行旁边放置一个粗的深蓝色条。
+// 在页面左侧受修订影响的行旁边放置一个粗深蓝色条。
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -59,12 +61,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// 获取移动、删除、格式修订和注释以显示在绿色气球中
+// 使移动、删除、格式修改和评论显示在绿色气球中
 // 在页面的右侧。
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// 这些功能仅适用于 .pdf 或 .jpg 等格式。
+// 这些功能仅适用于.pdf或.jpg等格式。
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

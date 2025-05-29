@@ -2,15 +2,15 @@
 title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: PreferredWidth Equals 方法. 判断是否指定PreferredWidth与当前值相等PreferredWidth 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 PreferredWidth Equals 方法如何检查指定的宽度是否与当前值匹配，以确保布局设计的精确性。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(*[PreferredWidth](../)*) {#equals}
 
-判断是否指定[`PreferredWidth`](../)与当前值相等[`PreferredWidth`](../).
+确定指定的[`PreferredWidth`](../)价值与当前[`PreferredWidth`](../).
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -18,14 +18,14 @@ public bool Equals(PreferredWidth other)
 
 ## 例子
 
-演示如何设置表格单元格的首选宽度。
+展示如何设置表格单元格的首选宽度。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// 有两种方法将“PreferredWidth”类应用于表格单元格。
+// 有两种方法可以将“PreferredWidth”类应用于表格单元格。
 // 1 - 根据点设置绝对首选宽度：
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
@@ -43,7 +43,7 @@ builder.InsertCell();
 // 未指定首选宽度的单元格将占用剩余的可用空间。
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// “PreferredWidth”属性的每个配置都会创建一个新对象。
+// “PreferredWidth”属性的每次配置都会创建一个新对象。
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 
@@ -71,14 +71,14 @@ public override bool Equals(object obj)
 
 ## 例子
 
-演示如何设置表格单元格的首选宽度。
+展示如何设置表格单元格的首选宽度。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// 有两种方法将“PreferredWidth”类应用于表格单元格。
+// 有两种方法可以将“PreferredWidth”类应用于表格单元格。
 // 1 - 根据点设置绝对首选宽度：
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
@@ -96,7 +96,7 @@ builder.InsertCell();
 // 未指定首选宽度的单元格将占用剩余的可用空间。
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// “PreferredWidth”属性的每个配置都会创建一个新对象。
+// “PreferredWidth”属性的每次配置都会创建一个新对象。
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

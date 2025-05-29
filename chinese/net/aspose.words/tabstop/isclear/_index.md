@@ -2,15 +2,15 @@
 title: TabStop.IsClear
 linktitle: IsClear
 articleTitle: IsClear
-second_title: 用于 .NET 的 Aspose.Words
-description: TabStop IsClear 财产. 返回真的如果此制表位清除此位置的任何现有制表位 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TabStop IsClear 属性如何通过确保无缝选项卡管理、清除现有停止以获得更流畅的用户体验来增强您的 UI。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-返回`真的`如果此制表位清除此位置的任何现有制表位。
+返回`真的`如果此制表位清除了此位置上所有现有的制表位。
 
 ```csharp
 public bool IsClear { get; }
@@ -34,18 +34,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// 每个“制表符”字符都会将构建器的光标移动到下一个制表位的位置。
+// 每个“制表符”都会将构建器的光标移动到下一个制表位的位置。
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// 每个段落都获取其制表位集合，该集合从文档构建器的制表位集合克隆其值。
+// 每个段落都会获得其制表位集合，该集合从文档构建器的制表位集合中克隆其值。
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// 制表位集合可以将我们指向某些位置之前和之后的制表位。
+// 制表位集合可以指向某些位置之前和之后的制表位。
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

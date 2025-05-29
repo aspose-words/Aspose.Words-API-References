@@ -2,15 +2,15 @@
 title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
-second_title: 用于 .NET 的 Aspose.Words
-description: FontSettings SetFontsSources 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Aspose.Words 中的 SetFontsSources 方法如何通过指定 TrueType 字体源来增强文档渲染以获得最佳效果。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
-设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源。
+设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的来源。
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -48,18 +48,18 @@ Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
 // 默认字体源缺少我们在文档中使用的两种字体。
-// 当我们保存此文档时，Aspose.Words 会将后备字体应用于所有使用不可访问字体格式化的文本。
+// 当我们保存此文档时，Aspose.Words 将对所有使用无法访问的字体格式化的文本应用后备字体。
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
 // 从包含字体的文件夹创建字体源。
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// 应用一个新的字体源数组，其中包含原始字体源以及我们的自定义字体。
+// 应用一个包含原始字体源以及自定义字体的新字体源数组。
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// 在将文档渲染为 PDF 之前，验证 Aspose.Words 是否可以访问所有必需的字体。
+// 在将文档呈现为 PDF 之前，验证 Aspose.Words 是否可以访问所有必需的字体。
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-设置 Aspose.Words 查找 TrueType 字体的来源，并另外加载之前保存的 字体搜索缓存。
+设置 Aspose.Words 查找 TrueType 字体的来源，并额外加载以前保存的 字体搜索缓存。
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -92,19 +92,19 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sources | FontSourceBase[] | 包含 TrueType 字体的源数组。 |
-| cacheInputStream | Stream | 具有保存的字体搜索缓存的输入流。 |
+| cacheInputStream | Stream | 带有已保存字体搜索缓存的输入流。 |
 
 ## 评论
 
-加载以前保存的字体搜索缓存将加快字体缓存初始化过程。当对字体源的访问很复杂时（例如，当通过网络加载字体时），它是 特别有用。
+加载之前保存的字体搜索缓存将加快字体缓存的初始化过程。当访问字体源比较复杂时（例如通过网络加载字体），此功能尤其有用。
 
-保存和加载字体搜索缓存时，提供的源中的字体通过缓存键进行识别。 对于[`SystemFontSource`](../../systemfontsource/)和[`FolderFontSource`](../../folderfontsource/)缓存键是字体文件的path 。为了[`MemoryFontSource`](../../memoryfontsource/)和[`StreamFontSource`](../../streamfontsource/)缓存键定义在 中[`CacheKey`](../../memoryfontsource/cachekey/)和[`CacheKey`](../../streamfontsource/cachekey/)分别是properties 。为了[`FileFontSource`](../../filefontsource/)缓存键是[`CacheKey`](../../filefontsource/cachekey/) 属性或文件路径（如果[`CacheKey`](../../filefontsource/cachekey/)是`无效的`。
+保存和加载字体搜索缓存时，通过缓存键识别所提供源中的字体。 对于[`SystemFontSource`](../../systemfontsource/)和[`FolderFontSource`](../../folderfontsource/)缓存键是字体文件的 path 。例如[`MemoryFontSource`](../../memoryfontsource/)和[`StreamFontSource`](../../streamfontsource/)缓存键的定义 在[`CacheKey`](../../memoryfontsource/cachekey/)和[`CacheKey`](../../streamfontsource/cachekey/)properties 。对于[`FileFontSource`](../../filefontsource/)缓存键是[`CacheKey`](../../filefontsource/cachekey/) 属性或文件路径（如果[`CacheKey`](../../filefontsource/cachekey/)是`无效的`。
 
-强烈建议在加载缓存时提供与保存缓存时相同的字体源。 字体源中的任何更改（例如添加新字体、移动字体文件或更改缓存键）都可能导致 字体不准确通过Aspose.Words 解析。
+强烈建议在加载缓存时提供与保存缓存时相同的字体源。 字体源中的任何更改（例如添加新字体、移动字体文件或更改缓存键）都可能导致 Aspose.Words 解析字体不准确。
 
 ## 例子
 
-展示如何加快字体缓存初始化过程。
+展示如何加速字体缓存初始化过程。
 
 ```csharp
 public void LoadFontSearchCache()
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -134,7 +134,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// 仅在需要时加载字体数据而不是将其存储在内存中
+/// 仅在需要时加载字体数据，而不是将其存储在内存中
 /// 在“FontSettings”对象的整个生命周期内。
 /// </summary>
 private class SearchCacheStream : StreamFontSource

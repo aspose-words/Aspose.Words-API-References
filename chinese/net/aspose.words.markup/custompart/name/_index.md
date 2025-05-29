@@ -2,15 +2,15 @@
 title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPart Name 财产. 获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何在 OOXML 包中管理 CustomPart 名称。轻松设置或检索绝对名称，实现无缝集成并增强功能。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称。
+获取或设置此部分在 OOXML 包或目标 URL 中的绝对名称。
 
 ```csharp
 public string Name { get; set; }
@@ -24,7 +24,7 @@ public string Name { get; set; }
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

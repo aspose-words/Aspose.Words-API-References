@@ -2,15 +2,15 @@
 title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSize 构造函数. 将宽度和高度初始化为给定值以像素为单位将分辨率初始化为 96 dpi 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ImageSize 构造函数创建精确的图像，设置自定义宽度、高度和 96 dpi 分辨率以获得最佳清晰度和质量。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-将宽度和高度初始化为给定值（以像素为单位）。将分辨率初始化为 96 dpi.
+将宽度和高度初始化为给定的像素值。将分辨率初始化为 96 dpi。
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -42,8 +42,8 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 | --- | --- | --- |
 | widthPixels | Int32 | 宽度（以像素为单位）。 |
 | heightPixels | Int32 | 高度（以像素为单位）。 |
-| horizontalResolution | Double | 以 DPI 为单位的水平分辨率。 |
-| verticalResolution | Double | 垂直分辨率（DPI）。 |
+| horizontalResolution | Double | 水平分辨率（以 DPI 为单位）。 |
+| verticalResolution | Double | 垂直分辨率（以 DPI 为单位）。 |
 
 ### 也可以看看
 

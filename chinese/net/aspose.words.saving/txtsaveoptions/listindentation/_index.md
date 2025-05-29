@@ -2,15 +2,15 @@
 title: TxtSaveOptions.ListIndentation
 linktitle: ListIndentation
 articleTitle: ListIndentation
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptions ListIndentation 财产. 获得TxtListIndentation指定用于列表级别缩进的字符数和哪个字符的对象 默认情况下字符 0 的计数为零这意味着没有缩进 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TxtSaveOptions ListIndentation 属性，它可以自定义列表缩进，增强可读性。轻松控制字符和级别！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-获得[`TxtListIndentation`](../../txtlistindentation/)指定用于列表级别缩进的字符数和哪个字符的对象。 默认情况下，字符 '\0' 的计数为零，这意味着没有缩进。
+获得[`TxtListIndentation`](../../txtlistindentation/)指定列表级别缩进所用字符数和字符数的对象。 默认情况下，字符 '\0' 的计数为零，即不缩进。
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }
@@ -18,7 +18,7 @@ public TxtListIndentation ListIndentation { get; }
 
 ## 例子
 
-演示如何在将文档保存为纯文本时配置列表缩进。
+展示如何在将文档保存为纯文本时配置列表缩进。
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ builder.Write("Item 3");
 // 修改我们将文档保存为纯文本的方式。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// 设置“Character”属性来指定要使用的字符
-// 用于模拟明文列表缩进的填充。
+// 设置“Character”属性来分配要使用的字符
+// 用于模拟纯文本列表缩进的填充。
 txtSaveOptions.ListIndentation.Character = ' ';
 
 // 设置“Count”属性来指定次数
@@ -47,10 +47,11 @@ txtSaveOptions.ListIndentation.Count = 3;
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### 也可以看看

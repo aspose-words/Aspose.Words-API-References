@@ -2,10 +2,10 @@
 title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
-second_title: 用于 .NET 的 Aspose.Words
-description: Document VbaProject 财产. 获取或设置VbaProject 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何有效地管理 VbaProject 属性。学习如何获取或设置 VbaProject，以增强自动化并简化工作流程。
 type: docs
-weight: 450
+weight: 470
 url: /zh/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
@@ -18,7 +18,7 @@ public VbaProject VbaProject { get; set; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

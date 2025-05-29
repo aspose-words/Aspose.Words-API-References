@@ -2,8 +2,8 @@
 title: FieldIncludeText.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIncludeText TextConverter 财产. 获取或设置包含文件格式的文本转换器的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldIncludeText TextConverter 属性，轻松管理包含文件格式的文本转换器名称。立即提升您的工作流程！
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldincludetext/textconverter/
@@ -18,7 +18,7 @@ public string TextConverter { get; set; }
 
 ## 例子
 
-演示如何创建 INCLUDETEXT 字段并设置其属性。
+展示如何创建 INCLUDETEXT 字段并设置其属性。
 
 ```csharp
 public void FieldIncludeText()
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是使用 INCLUDETEXT 字段显示本地文件系统中 XML 文件内容的两种方法。
+    // 以下是两种使用 INCLUDETEXT 字段在本地文件系统中显示 XML 文件内容的方法。
     // 1 - 对 XML 文档执行 XSL 转换：
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

@@ -2,8 +2,8 @@
 title: FieldDatabase
 linktitle: FieldDatabase
 articleTitle: FieldDatabase
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDatabase 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDatabase 构造函数，它拥有用户友好的默认设置，是您实现无缝数据管理的首选解决方案。立即优化您的项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fielddatabase/fielddatabase/

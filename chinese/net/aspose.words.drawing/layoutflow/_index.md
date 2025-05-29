@@ -2,10 +2,10 @@
 title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.LayoutFlow 枚举. 确定文本框中文本布局的流程 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Aspose.Words.Drawing.LayoutFlow 枚举来控制文本框中的文本布局，轻松增强文档设计和可读性。
 type: docs
-weight: 1100
+weight: 1430
 url: /zh/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -29,7 +29,7 @@ public enum LayoutFlow
 
 ## 例子
 
-演示如何将文本添加到文本框并更改其方向
+演示如何向文本框添加文本并更改其方向
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

@@ -2,15 +2,15 @@
 title: Row.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
-second_title: 用于 .NET 的 Aspose.Words
-description: Row EnsureMinimum 方法. 如果Row没有单元格创建并追加一个Cell 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Row EnsureMinimum 方法，当不存在 Cell 时轻松创建并附加 Cell，增强数据结构管理。
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-如果[`Row`](../)没有单元格，创建并追加一个[`Cell`](../../cell/).
+如果[`Row`](../)没有单元格，创建并附加一个[`Cell`](../../cell/).
 
 ```csharp
 public void EnsureMinimum()
@@ -28,11 +28,11 @@ Row row = new Row(doc);
 table.AppendChild(row);
 
 // 行包含单元格，其中包含具有典型元素（例如运行、形状甚至其他表格）的段落。
-// 我们的新行没有这些节点，并且在它出现之前我们无法向其中添加内容。
+// 我们的新行没有这些节点，并且我们不能向其中添加内容。
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
 // 在表上调用“EnsureMinimum”方法将确保
-// 该表格至少有一个包含空段落的单元格。
+// 表格中至少有一个单元格包含空段落。
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

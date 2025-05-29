@@ -2,15 +2,15 @@
 title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag 构造函数. 初始化一个新实例结构化文档标签类 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 StructuredDocumentTag 构造函数轻松创建强大的结构化文档。初始化新实例以增强文档的组织性和清晰度。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-初始化一个新实例**结构化文档标签**类.
+初始化**结构化文档标签**类.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +20,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 | type | SdtType | SDT 节点的类型。 |
-| level | MarkupLevel | 文档中 SDT 节点的级别。 |
+| level | MarkupLevel | 文档内的 SDT 节点级别。 |
 
 ## 评论
 
@@ -45,7 +45,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
 // 我们可以设置用于表示复选框内容控件的选中/未选中状态的符号。
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");

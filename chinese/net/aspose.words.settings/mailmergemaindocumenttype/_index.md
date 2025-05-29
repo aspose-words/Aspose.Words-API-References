@@ -2,10 +2,10 @@
 title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.MailMergeMainDocumentType 枚举. 指定邮件合并源文档的可能类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.MailMergeMainDocumentType 枚举，定义各种邮件合并源文档类型，实现无缝文档自动化。
 type: docs
-weight: 5840
+weight: 6670
 url: /zh/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -20,18 +20,18 @@ public enum MailMergeMainDocumentType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | 该文档不是邮件合并文档。 |
-| FormLetters | `1` | 指定邮件合并源文档为套用信函类型。 |
+| NotAMergeDocument | `0` | 此文档不是邮件合并文档。 |
+| FormLetters | `1` | 指定邮件合并源文档为格式信函类型。 |
 | MailingLabels | `2` | 指定邮件合并源文档属于邮件标签类型。 |
 | Envelopes | `4` | 指定邮件合并源文档为信封类型。 |
-| Catalog | `8` | 指定邮件合并源文档为目录类型。 |
-| Email | `16` | 指定邮件合并源文档属于电子邮件消息类型。 |
+| Catalog | `8` | 指定邮件合并源文档属于目录类型。 |
+| Email | `16` | 指定邮件合并源文档属于电子邮件类型。 |
 | Fax | `32` | 指定邮件合并源文档为传真类型。 |
 | Default | `0` | 等于NotAMergeDocument |
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

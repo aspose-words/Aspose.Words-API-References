@@ -2,15 +2,15 @@
 title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
-second_title: 用于 .NET 的 Aspose.Words
-description: Table FirstRow 财产. 返回第一个Row表中的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现表的 FirstRow 属性，轻松访问第一行节点，从而简化数据管理并增强表功能。
 type: docs
 weight: 160
 url: /zh/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-返回第一个[`Row`](../../row/)表中的节点.
+返回第一个[`Row`](../../row/)表中的节点。
 
 ```csharp
 public Row FirstRow { get; }
@@ -18,7 +18,7 @@ public Row FirstRow { get; }
 
 ## 例子
 
-演示如何删除文档中所有表格的第一行和最后一行。
+展示如何删除文档中所有表格的第一行和最后一行。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -38,23 +38,23 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-演示如何将两个表中的行合并为一个表。
+展示如何将两个表中的行合并为一个。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// 下面是从文档中获取表格的两种方法。
+// 以下是从文档中获取表格的两种方法。
 // 1 - 来自 Body 节点的“Tables”集合：
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - 使用“GetChild”方法：
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// 将当前表中的所有行追加到下一个表中。
+// 将当前表中的所有行附加到下一个表。
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// 删除空表容器。
+// 删除空的表格容器。
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

@@ -2,15 +2,15 @@
 title: ChartTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartTitle Text 财产. 获取或设置图表标题的文本 如果无效的或指定空值将显示自动生成的标题 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松自定义图表标题！设置或获取 ChartTitle Text 属性，打造个性化图表。按需自动生成标题。
 type: docs
-weight: 30
+weight: 50
 url: /zh/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
 
-获取或设置图表标题的文本。 如果`无效的`或指定空值，将显示自动生成的标题。
+获取或设置图表标题的文本。 如果`无效的`或者指定空值，将显示自动生成的标题。
 
 ```csharp
 public string Text { get; set; }
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## 评论
 
-使用[`Show`](../show/)如果您需要隐藏标题，请选择。
+使用[`Show`](../show/)如果您需要隐藏标题，请选择此选项。
 
 ## 例子
 
-演示如何插入图表并设置标题。
+展示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
@@ -32,9 +32,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性为我们的图表添加标题，该标题显示在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
  // 将“Show”属性设置为“true”以使标题可见。
 title.Show = true;

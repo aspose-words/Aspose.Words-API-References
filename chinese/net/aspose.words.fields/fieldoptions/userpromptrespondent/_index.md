@@ -2,15 +2,15 @@
 title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldOptions UserPromptRespondent 财产. 获取或设置字段更新期间用户提示的受访者 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldOptions UserPromptRespondent 属性如何通过管理字段更新期间的受访者交互来增强用户体验。
 type: docs
 weight: 220
 url: /zh/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-获取或设置字段更新期间用户提示的受访者。
+获取或设置字段更新期间对用户提示的响应者。
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,13 +18,13 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## 评论
 
-如果该属性的值设置为`无效的`，需要用户在prompting 上响应的字段（例如[`FieldAsk`](../../fieldask/)或者[`FieldFillIn`](../../fieldfillin/)）没有更新。
+如果此属性的值设置为`无效的`，需要用户在 prompting 上响应的字段（例如[`FieldAsk`](../../fieldask/)或者[`FieldFillIn`](../../fieldfillin/)未更新。
 
 默认值为`无效的`。
 
 ## 例子
 
-演示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 public void FieldAsk()
@@ -51,7 +51,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
+    // 邮件合并期间，ASK 字段将默认响应应用于其各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -60,7 +60,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

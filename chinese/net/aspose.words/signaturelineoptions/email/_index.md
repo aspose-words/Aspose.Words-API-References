@@ -2,15 +2,15 @@
 title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
-second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLineOptions Email 财产. 获取或设置建议签名者的电子邮件地址 此属性的默认值为空字符串Empty 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 SignatureLineOptions 轻松管理建议的签名者电子邮件地址。使用可自定义的选项增强您的电子邮件工作流程，实现无缝沟通。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-获取或设置建议签名者的电子邮件地址。 此属性的默认值为**空字符串**（Empty).
+获取或设置建议签名者的电子邮件地址。 此属性的默认值为**空字符串**(Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -18,7 +18,7 @@ public string Email { get; set; }
 
 ## 例子
 
-演示如何使用个人证书和签名行签署文档。
+展示如何使用个人证书和签名行签署文件。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性是否都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

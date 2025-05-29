@@ -2,8 +2,8 @@
 title: Border.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Border LineStyle 财产. 获取或设置边框样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Border LineStyle 属性自定义您的设计，让您轻松获取或设置独特的边框样式以增强视觉吸引力。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/border/linestyle/
@@ -22,7 +22,7 @@ public LineStyle LineStyle { get; set; }
 
 ## 例子
 
-演示如何将边框包围的字符串插入到文档中。
+展示如何将带边框的字符串插入文档。
 
 ```csharp
 Document doc = new Document();

@@ -2,8 +2,8 @@
 title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
-second_title: 用于 .NET 的 Aspose.Words
-description: Document AttachedTemplate 财产. 获取或设置附加到文档的模板的完整路径 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何高效管理 Document AttachedTemplate 属性。轻松设置或检索文档模板的完整路径，实现无缝集成。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/document/attachedtemplate/
@@ -28,7 +28,7 @@ public string AttachedTemplate { get; set; }
 
 ## 例子
 
-演示如何为没有附加模板的文档设置默认模板。
+展示如何为没有附加模板的文档设置默认模板。
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// 由于没有模板文档，文档无处跟踪样式更改。
+// 由于没有模板文档，文档无处跟踪样式变化。
 // 使用 SaveOptions 对象自动设置模板
-// 如果我们正在保存的文档没有该文档。
+// 如果我们正在保存的文档没有该属性。
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

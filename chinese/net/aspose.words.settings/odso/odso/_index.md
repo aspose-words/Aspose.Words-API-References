@@ -2,8 +2,8 @@
 title: Odso
 linktitle: Odso
 articleTitle: Odso
-second_title: 用于 .NET 的 Aspose.Words
-description: Odso 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Odso 构造函数，这是您在编程中高效构建默认构造函数的首选解决方案。立即简化您的代码并提升性能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.settings/odso/odso/

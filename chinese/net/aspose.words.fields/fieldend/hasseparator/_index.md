@@ -2,15 +2,15 @@
 title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldEnd HasSeparator 财产. 返回真的如果该字段有分隔符 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldEnd HasSeparator 属性，轻松检查您的字段是否包含分隔符，以增强数据组织和清晰度。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-返回`真的`如果该字段有分隔符.
+返回`真的`如果此字段有分隔符。
 
 ```csharp
 public bool HasSeparator { get; }
@@ -18,7 +18,7 @@ public bool HasSeparator { get; }
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

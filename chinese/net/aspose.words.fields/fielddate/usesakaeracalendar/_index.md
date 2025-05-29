@@ -2,15 +2,15 @@
 title: FieldDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDate UseSakaEraCalendar 财产. 获取或设置是否使用Saka Era日历 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldDate 如何通过 Saka Era 日历支持增强您的项目。轻松设置或调整日期格式，实现无缝集成。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fielddate/usesakaeracalendar/
 ---
 ## FieldDate.UseSakaEraCalendar property
 
-获取或设置是否使用Saka Era日历。
+获取或设置是否使用萨迦历法。
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }
@@ -18,21 +18,21 @@ public bool UseSakaEraCalendar { get; set; }
 
 ## 例子
 
-演示如何使用 DATE 字段根据不同类型的日历显示日期。
+展示如何使用 DATE 字段根据不同类型的日历显示日期。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 如果我们希望文档中的文本始终显示正确的日期，我们可以使用 DATE 字段。
-// 下面是 DATE 字段可用来显示日期的三种文化日历。
-// 1 - 伊斯兰农历：
+// 以下是 DATE 字段可以用来显示日期的三种文化日历。
+// 1 - 伊斯兰阴历：
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - 乌姆古拉历：
+// 2 - 古兰经日历：
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// 插入一个日期字段并将其日历类型设置为主机应用程序最后使用的日历类型。
-// 在 Microsoft Word 中，该类型将是插入 -> 中最近使用的类型文字->日期和时间对话框。
+// 插入一个 DATE 字段并将其日历类型设置为主机应用程序最后使用的日历类型。
+// 在 Microsoft Word 中，类型将是插入 -> 文本 -> 日期和时间对话框中最近使用的类型。
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

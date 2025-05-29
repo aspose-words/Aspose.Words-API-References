@@ -2,8 +2,8 @@
 title: TableStyle.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle VerticalAlignment 财产. 指定单元格的垂直对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 TableStyle VerticalAlignment 属性可以轻松控制表格中的单元格对齐方式，从而增强可读性和演示效果。
 type: docs
 weight: 150
 url: /zh/net/aspose.words/tablestyle/verticalalignment/
@@ -22,7 +22,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

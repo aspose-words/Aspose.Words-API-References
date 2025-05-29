@@ -2,10 +2,10 @@
 title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.FrameFormat 班级. 表示段落的框架相关格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.FrameFormat 类，用于段落中的高级框架格式设置。通过无缝集成和灵活性增强您的文档设计。
 type: docs
-weight: 3070
+weight: 3500
 url: /zh/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -22,26 +22,26 @@ public class FrameFormat
 | --- | --- |
 | [Height](../../aspose.words/frameformat/height/) { get; } | 获取指定框架的高度。 |
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | 获取确定指定框架高度的规则。 |
-| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | 获取指定帧的水平对齐方式。 |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | 获取框架与周围文本之间的水平距离（以磅为单位）。 |
+| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | 获取指定框架的水平对齐方式。 |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | 获取框架与周围文本之间的水平距离（以点为单位）。 |
 | [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | 获取框架边缘与指定项目之间的水平距离[`RelativeHorizontalPosition`](./relativehorizontalposition/)属性. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | 返回`真的`如果该段落是一个框架. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | 获取帧的相对水平位置。 |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | 获取帧的相对垂直位置。 |
-| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | 获取指定帧的垂直对齐方式。 |
-| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | 指定框架与周围文本之间的垂直距离（以磅为单位）。 |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | 返回`真的`如果该段落是一个框架。 |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | 获取框架的相对水平位置。 |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | 获取框架的相对垂直位置。 |
+| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | 获取指定框架的垂直对齐方式。 |
+| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | 指定框架和周围文本之间的垂直距离（以点为单位）。 |
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | 获取框架边缘与指定项目之间的垂直距离[`RelativeVerticalPosition`](./relativeverticalposition/)属性. |
-| [Width](../../aspose.words/frameformat/width/) { get; } | 获取指定框架的宽度，以磅为单位。 |
+| [Width](../../aspose.words/frameformat/width/) { get; } | 获取指定框架的宽度（以磅为单位）。 |
 
 ## 评论
 
-这个对象总是被创建的。如果段落是框架，则所有属性都将包含各自的值，否则 所有属性都将设置为其默认值。
+此对象始终会被创建。如果段落是框架，则所有属性都将包含相应的值；否则，所有属性都将设置为默认值。
 
 使用[`IsFrame`](./isframe/)检查段落是否为框架。
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

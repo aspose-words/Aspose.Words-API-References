@@ -2,15 +2,15 @@
 title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 articleTitle: UseLegacyOrder
-second_title: 用于 .NET 的 Aspose.Words
-description: FindReplaceOptions UseLegacyOrder 财产. True 表示考虑文本框从上到下顺序执行文本搜索 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FindReplaceOptions 中的 UseLegacyOrder 属性。启用顺序文本搜索以提高准确性。默认值为 false。优化您的文本处理！
 type: docs
-weight: 170
+weight: 180
 url: /zh/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True 表示考虑文本框从上到下顺序执行文本搜索。 默认值为`错误的`.
+True 表示考虑文本框，按从上到下的顺序执行文本搜索。 默认值为`错误的`.
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -18,7 +18,7 @@ public bool UseLegacyOrder { get; set; }
 
 ## 例子
 
-演示如何在执行查找和替换文本操作时更改节点的搜索顺序。
+展示如何在执行查找和替换文本操作时更改节点的搜索顺序。
 
 ```csharp
 public void UseLegacyOrder(bool useLegacyOrder)
@@ -26,8 +26,8 @@ public void UseLegacyOrder(bool useLegacyOrder)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入我们可以使用正则表达式模式搜索的三个运行。
-    // 将其中一个运行放在文本框中。
+    // 插入三个我们可以使用正则表达式模式进行搜索的运行。
+    // 将其中一个运行放在文本框内。
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
@@ -45,7 +45,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // 查找和替换操作将遍历文本框之外的所有运行
     // 在浏览文本框内的内容之前。
     // 如果我们将“UseLegacyOrder”属性设置为“false”，则
-    // 查找和替换操作将按顺序遍历某个范围内的所有运行。
+    // 查找和替换操作将按顺序遍历范围内的所有运行。
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);

@@ -2,10 +2,10 @@
 title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaProject Modules 财产. 返回 VBA 项目模块的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 VbaProject 模块属性，轻松访问和管理您的 VBA 项目模块，以增强自动化和效率。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
@@ -18,7 +18,7 @@ public VbaModuleCollection Modules { get; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

@@ -2,15 +2,15 @@
 title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldDatabaseDataRow 班级. 提供数据FieldDatabase现场结果请参见DataRow实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldDatabaseDataRow 类，它为 FieldDatabase 结果提供必要的数据。立即增强您的文档处理能力！
 type: docs
-weight: 1750
+weight: 2160
 url: /zh/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-提供数据[`FieldDatabase`](../fielddatabase/)现场结果。请参见DataRow实例.
+为[`FieldDatabase`](../fielddatabase/)字段结果。请参阅DataRow实例.
 
 要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
@@ -22,19 +22,19 @@ public class FieldDatabaseDataRow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | 初始化一个新实例`FieldDatabaseDataRow`类. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | 初始化`FieldDatabaseDataRow`类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | 获取属于该行的值。 |
+| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | 获取属于此行的值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | 初始化一个新实例`FieldDatabaseDataRow`类 来自DataRow实例. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | 初始化`FieldDatabaseDataRow`class 来自DataRow实例. |
 
 ### 也可以看看
 

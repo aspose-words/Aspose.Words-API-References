@@ -2,10 +2,10 @@
 title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 articleTitle: IsSignatureLine
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase IsSignatureLine 财产. 表示形状是SignatureLine 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase 的 IsSignatureLine 属性，该属性将形状定义为 SignatureLines，增强文档完整性和专业演示。
 type: docs
-weight: 340
+weight: 360
 url: /zh/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
@@ -18,7 +18,7 @@ public bool IsSignatureLine { get; }
 
 ## 例子
 
-演示如何创建签名行并将其插入文档中。
+展示如何创建签名行并将其插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// 插入一个包含签名线的形状，我们将其外观
+// 插入一个包含签名线的形状，我们将对其进行外观设计
 // 使用我们上面创建的“SignatureLineOptions”对象进行自定义。
-// 如果我们插入一个坐标源自页面右下角的形状，
-// 我们需要提供负的 x 和 y 坐标才能将形状带入视图。
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// 如果我们插入一个坐标位于页面右下角的形状，
+// 我们需要提供负的 x 和 y 坐标来使形状可见。
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// 通过 Shape 对象验证签名线的属性。
+// 通过 Shape 对象验证我们的签名线的属性。
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

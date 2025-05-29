@@ -2,15 +2,15 @@
 title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeRendererBase RenderToScale 方法. 将形状渲染为Graphics 对象达到指定比例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 NodeRendererBase RenderToScale 方法——高效地将形状渲染为任意比例的 Graphics 对象，以增强视觉输出。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-将形状渲染为Graphics 对象达到指定比例。
+将形状渲染为Graphics 对象到指定的比例。
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -18,18 +18,18 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| graphics | Graphics | 渲染到的对象。 |
-| x | Single | 渲染形状左上角的 X 坐标（以世界单位表示）。 |
-| y | Single | 渲染形状左上角的 Y 坐标（以世界单位表示）。 |
+| graphics | Graphics | 要渲染到的对象。 |
+| x | Single | 渲染形状左上角的 X 坐标（以世界单位为单位）。 |
+| y | Single | 渲染形状左上角的 Y 坐标（以世界单位为单位）。 |
 | scale | Single | 渲染形状的比例（1.0 为 100%）。 |
 
 ### 返回值
 
-渲染形状的宽度和高度（以世界单位表示）。
+渲染形状的宽度和高度（以世界单位为单位）。
 
 ## 例子
 
-演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
+展示如何使用 Graphics 对象呈现形状并使用 Windows 窗体显示它。
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,8 +39,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // 下面是使用“ShapeRenderer”类将形状渲染到 Graphics 对象的两种方法。
-    // 1 - 创建带有图表的形状，并将其渲染为特定比例。
+    // 下面是两种使用“ShapeRenderer”类将形状渲染为 Graphics 对象的方法。
+    // 1 - 使用图表创建形状，并将其渲染到特定比例。
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

@@ -2,10 +2,10 @@
 title: MergeFieldImageDimensionUnit Enum
 linktitle: MergeFieldImageDimensionUnit
 articleTitle: MergeFieldImageDimensionUnit
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit 枚举. 指定邮件合并过程中使用的图像尺寸单位即宽度或高度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.MergeFieldImageDimensionUnit 枚举，用于在邮件合并中精确控制图像尺寸。立即增强您的文档自动化！
 type: docs
-weight: 2760
+weight: 3170
 url: /zh/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
@@ -25,15 +25,15 @@ public enum MergeFieldImageDimensionUnit
 
 ## 例子
 
-展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
+展示如何在邮件合并期间设置 MERGEFIELDS 接受的图像尺寸。
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
-    // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
+    // 插入一个合并字段，用于在邮件合并期间接收来自源的图片。使用字段代码来引用
+    // 数据源中的一列包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
@@ -82,6 +82,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

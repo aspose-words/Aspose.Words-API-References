@@ -2,15 +2,15 @@
 title: Stroke.EndCap
 linktitle: EndCap
 articleTitle: EndCap
-second_title: 用于 .NET 的 Aspose.Words
-description: Stroke EndCap 财产. 定义笔画末端的端盖样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“描边结束点”属性，自定义描边结束样式，提升设计的视觉吸引力和精准度。立即提升您的图形效果！
 type: docs
-weight: 80
+weight: 110
 url: /zh/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
 
-定义笔画末端的端盖样式。
+定义笔画末端的端点样式。
 
 ```csharp
 public EndCap EndCap { get; set; }
@@ -22,14 +22,14 @@ public EndCap EndCap { get; set; }
 
 ## 例子
 
-展示创造出各种形状。
+展现出多种多样的造型创造。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 下面是我们可以插入到文档中的四个形状的示例。
+// 1 - 虚线，水平，半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 翻转方向的箭头，填充 Aspose 徽标：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -80,7 +80,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 在获得显示形状之前，将图像翻转到另一个方向以取消此操作。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

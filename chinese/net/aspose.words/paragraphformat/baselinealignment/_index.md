@@ -2,8 +2,8 @@
 title: ParagraphFormat.BaselineAlignment
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat BaselineAlignment 财产. 获取或设置字体在一行上的垂直位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ParagraphFormat BaselineAlignment 属性优化文本布局，可以精确控制字体垂直定位，从而增强可读性。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/paragraphformat/baselinealignment/
@@ -18,7 +18,7 @@ public BaselineAlignment BaselineAlignment { get; set; }
 
 ## 例子
 
-演示如何设置字体在一行上的垂直位置。
+展示如何设置一行上的字体垂直位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

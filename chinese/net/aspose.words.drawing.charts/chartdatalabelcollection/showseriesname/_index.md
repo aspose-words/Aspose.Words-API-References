@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection ShowSeriesName 财产. 返回或设置一个布尔值以指示整个系列的数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataLabelCollection 的 ShowSeriesName 属性，轻松控制数据标签中系列名称的可见性。立即提升您的图表效果！
 type: docs
-weight: 130
+weight: 160
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-返回或设置一个布尔值，以指示整个系列的数据标签的系列名称显示行为。 `真的`显示系列名称；`错误的`隐藏。默认情况下`错误的`.
+返回或设置一个布尔值来指示整个系列的数据标签的系列名称显示行为。 `真的`显示系列名称；`错误的`隐藏。默认情况下`错误的`.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,11 +18,11 @@ public bool ShowSeriesName { get; set; }
 
 ## 评论
 
-可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowSeriesName`](../../chartdatalabel/showseriesname/)属性.
+可以使用 覆盖此属性定义的单个数据标签值[`ShowSeriesName`](../../chartdatalabel/showseriesname/)属性.
 
 ## 例子
 
-演示如何使用气泡图的数据标签。
+展示如何使用气泡图的数据标签。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 添加带有 X/Y 坐标和每个气泡直径的自定义系列。
+ // 添加一个自定义系列，其中包含每个气泡的 X/Y 坐标和直径。
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

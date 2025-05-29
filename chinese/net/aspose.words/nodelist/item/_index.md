@@ -2,8 +2,8 @@
 title: NodeList.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeList Item 财产. 检索给定索引处的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 NodeList Item 属性轻松访问特定节点。通过索引检索节点，简化数据操作并提高编码效率。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodelist/item/
@@ -22,17 +22,17 @@ public Node this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-演示如何使用 XPath 导航 NodeList。
+展示如何使用 XPath 导航 NodeList。
 
 ```csharp
 Document doc = new Document();
@@ -48,12 +48,7 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
 // 我们的文档包含三个 Run 节点。
 NodeList nodeList = doc.SelectNodes("//跑步”）;
@@ -63,18 +58,18 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// 使用双正斜杠选择所有 Run 节点
-// 它们是表节点的间接后代，这将是我们插入的两个单元格内的运行。
+// 使用双斜杠选择所有 Run 节点
+// 它们是表节点的间接后代，也就是我们插入的两个单元格内的运行。
 nodeList = doc.SelectNodes("//Table//跑步”）;
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// 单正斜杠指定直接后代关系，
+// 单斜杠指定直接后代关系，
 // 当我们使用双斜杠时我们跳过了它。
-Assert.AreEqual(doc.SelectNodes(" //表//运行"),
-    doc.SelectNodes("//表/行/单元格/段落/运行"));
+Assert.AreEqual(doc.SelectNodes(" //表//运行”），
+    doc.SelectNodes("//表格/行/单元格/段落/运行”））；
 
 // 访问包含我们插入的图像的形状。
 nodeList = doc.SelectNodes("//形状”）;

@@ -2,15 +2,15 @@
 title: LayoutOptions.IgnorePrinterMetrics
 linktitle: IgnorePrinterMetrics
 articleTitle: IgnorePrinterMetrics
-second_title: 用于 .NET 的 Aspose.Words
-description: LayoutOptions IgnorePrinterMetrics 财产. 获取或设置是否忽略使用打印机指标来设计文档布局兼容性选项的指示 默认为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 LayoutOptions 的 IgnorePrinterMetrics 属性，控制文档布局的打印机指标。优化兼容性并提升打印精度。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
 ## LayoutOptions.IgnorePrinterMetrics property
 
-获取或设置是否忽略“使用打印机指标来设计文档布局”兼容性选项的指示。 默认为`真的`.
+获取或设置是否忽略“使用打印机指标来布局文档”兼容性选项的指示。 默认值为`真的`.
 
 ```csharp
 public bool IgnorePrinterMetrics { get; set; }
@@ -18,7 +18,7 @@ public bool IgnorePrinterMetrics { get; set; }
 
 ## 例子
 
-演示如何忽略“使用打印机指标来设计文档布局”选项。
+显示如何忽略“使用打印机指标来布局文档”选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

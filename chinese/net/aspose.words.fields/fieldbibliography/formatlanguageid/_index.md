@@ -2,15 +2,15 @@
 title: FieldBibliography.FormatLanguageId
 linktitle: FormatLanguageId
 articleTitle: FormatLanguageId
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldBibliography FormatLanguageId 财产. 获取或设置用于格式化文档中书目来源的语言 ID 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldBibliography FormatLanguageId 属性如何通过可自定义的语言设置增强文档的书目来源，从而提高清晰度。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldbibliography/formatlanguageid/
 ---
 ## FieldBibliography.FormatLanguageId property
 
-获取或设置用于格式化文档中书目来源的语言 ID。
+获取或设置用于格式化文档中的书目来源的语言 ID。
 
 ```csharp
 public string FormatLanguageId { get; set; }
@@ -21,16 +21,16 @@ public string FormatLanguageId { get; set; }
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
-// 打开一个包含我们可以找到的书目来源的文档
-// Microsoft Word 通过参考文献 ->引文与参考书目->管理来源。
+// 打开一个包含我们可以在其中找到的书目来源的文档
+// Microsoft Word 通过参考 -> 引文和参考书目 -> 管理来源。
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// 创建仅包含参考书籍的页码和作者的引文。
+// 仅使用所引用书籍的页码和作者来创建引文。
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// 我们使用标签名称来引用源。
+// 我们使用标签名称来引用来源。
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -39,7 +39,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// 创建引用两个来源的更详细的引文。
+// 创建更详细的引用，引用两个来源。
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -60,8 +60,10 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
 fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

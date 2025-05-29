@@ -2,8 +2,8 @@
 title: AxisScaling.Type
 linktitle: Type
 articleTitle: Type
-second_title: 用于 .NET 的 Aspose.Words
-description: AxisScaling Type 财产. 获取或设置轴的缩放类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 AxisScaling Type 属性，轻松自定义轴缩放比例。灵活的设置可增强数据可视化效果，实现最佳清晰度。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/axisscaling/type/
@@ -18,7 +18,7 @@ public AxisScaleType Type { get; set; }
 
 ## 评论
 
-的Linear该值是 MS Office 2016 新图表中允许的唯一值。
+Linear值是 MS Office 2016 新图表中唯一允许的值。
 
 ## 例子
 
@@ -35,15 +35,15 @@ Chart chart = chartShape.Chart;
 chart.Series.Clear();
 
 // 插入五个点的 X/Y 坐标系列。
-chart.Series.Add("Series 1", 
-    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 },
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
-// X轴的缩放默认是线性的，
-// 显示覆盖 X 值范围（0、1、2、3...）的均匀递增值。
+// X 轴的缩放默认是线性的，
+// 显示覆盖我们的 X 值范围（0、1、2、3……）的均匀递增值。
 // 线性轴对于我们的 Y 值来说并不理想
 // 因为 Y 值较小的点将更难读取。
-// 以 20 为底的对数缩放 (1, 20, 400, 8000...)
+// 以 20 为底的对数缩放（1、20、400、8000……）
 // 将分散绘制的点，使我们能够更轻松地在图表上读取它们的值。
 chart.AxisY.Scaling.Type = AxisScaleType.Logarithmic;
 chart.AxisY.Scaling.LogBase = 20;

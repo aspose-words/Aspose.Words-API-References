@@ -2,8 +2,8 @@
 title: List.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: List Document 财产. 获取所有者文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何轻松列出文档属性并访问所有权详情。立即释放您的文档管理潜能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/list/document/
@@ -18,11 +18,11 @@ public DocumentBase Document { get; }
 
 ## 评论
 
-列表始终有一个父文档，并且仅在该文档的上下文中有效。
+列表始终具有父文档，并且仅在该文档的上下文中有效。
 
 ## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();

@@ -2,15 +2,15 @@
 title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
-second_title: 用于 .NET 的 Aspose.Words
-description: Node PreviousSibling 财产. 获取紧邻此节点之前的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Node PreviousSibling 属性，轻松访问当前节点之前的节点，增强您的 DOM 操作技能。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-获取紧邻此节点之前的节点。
+获取此节点前一个节点。
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -18,11 +18,11 @@ public Node PreviousSibling { get; }
 
 ## 评论
 
-如果没有前面的节点，则`无效的`返回。
+如果没有前一个节点，则`无效的`被返回。
 
 ## 例子
 
-演示如何使用 Node 和 CompositeNode 的方法删除文档中最后一部分之前的部分。
+展示如何使用 Node 和 CompositeNode 的方法删除文档中最后一节之前的部分。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// 两个部分互为兄弟部分。
+// 这两个部分互为兄弟。
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -40,7 +40,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// 我们删除的部分是第一个部分，文档中只剩下第二个部分。
+// 我们删除的是第一部分，文档中只剩下第二部分。
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

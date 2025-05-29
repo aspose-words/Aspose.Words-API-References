@@ -2,15 +2,15 @@
 title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
-second_title: 用于 .NET 的 Aspose.Words
-description: Style AutomaticallyUpdate 财产. 指定是否根据适当的值自动重新定义此样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 AutomaticallyUpdate 属性如何通过自动重新定义样式来增强样式，从而实现项目的最佳价值和性能。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/style/automaticallyupdate/
 ---
 ## Style.AutomaticallyUpdate property
 
-指定是否根据适当的值自动重新定义此样式。
+指定此样式是否根据适当的值自动重新定义。
 
 ```csharp
 public bool AutomaticallyUpdate { get; set; }
@@ -18,9 +18,9 @@ public bool AutomaticallyUpdate { get; set; }
 
 ## 评论
 
-如果该属性值设置为 true，则当 适当的段落格式已更改时，MS Word 会自动重新定义当前样式。
+如果将属性值设置为 true，则当相应的段落格式发生更改时，MS Word 会自动重新定义当前样式。
 
-自动更新属性仅适用于段落样式。
+AutomaticallyUpdate 属性仅适用于段落样式。
 
 默认值为`错误的`。
 
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将文档中的一种样式应用到文档生成器正在创建的段落。
+// 将文档中的一种样式应用到文档构建器正在创建的段落。
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -53,7 +53,7 @@ doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// 使用已删除样式的任何文本都会恢复为默认格式。
+// 任何使用已删除样式的文本都会恢复为默认格式。
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

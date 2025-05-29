@@ -2,10 +2,10 @@
 title: BookmarkEnd Class
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.BookmarkEnd 班级. 表示 Word 文档中书签的结尾 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.BookmarkEnd 类，它可以有效地管理 Word 文档中的书签结尾，增强您的文档编辑体验。
 type: docs
-weight: 60
+weight: 250
 url: /zh/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
@@ -22,21 +22,21 @@ public class BookmarkEnd : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | 初始化一个新实例`BookmarkEnd`类. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | 初始化`BookmarkEnd`类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
-| virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | 获取此节点所属的文档。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果此节点可以包含其他节点。 |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | 获取或设置书签名称。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随此节点之后的节点。 |
 | override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | 返回BookmarkEnd. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取此节点前一个节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -47,19 +47,19 @@ public class BookmarkEnd : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中移除。 |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点内容导出为字符串。 |
 
 ## 评论
 
-Word 文档中的完整书签由[`BookmarkStart`](../bookmarkstart/) 和一个匹配的`BookmarkEnd`具有相同的书签名称。
+Word 文档中的完整书签由[`BookmarkStart`](../bookmarkstart/) 和匹配的`BookmarkEnd`具有相同的书签名称。
 
 [`BookmarkStart`](../bookmarkstart/)和`BookmarkEnd`只是 document 内的标记，指定书签的开始和结束位置。
 
-使用[`Bookmark`](../bookmark/)类作为“外观”，将 bookmark 作为单个对象使用。
+使用[`Bookmark`](../bookmark/)类作为“外观”，与 bookmark 一起作为单个对象使用。
 
 ## 例子
 
@@ -77,7 +77,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

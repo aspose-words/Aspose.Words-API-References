@@ -2,8 +2,8 @@
 title: FieldInfo
 linktitle: FieldInfo
 articleTitle: FieldInfo
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldInfo 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldInfo 构造函数，它是您在编程中高效处理数据的首选解决方案。使用我们的默认构造函数简化您的代码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldinfo/fieldinfo/

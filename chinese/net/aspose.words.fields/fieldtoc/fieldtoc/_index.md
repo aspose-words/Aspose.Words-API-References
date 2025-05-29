@@ -2,8 +2,8 @@
 title: FieldToc
 linktitle: FieldToc
 articleTitle: FieldToc
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldToc 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldToc 强大的构造函数，实现无缝数据集成。立即使用我们直观的工具简化您的项目，增强您的工作流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldtoc/fieldtoc/

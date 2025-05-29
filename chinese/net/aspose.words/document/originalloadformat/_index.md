@@ -2,15 +2,15 @@
 title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Document OriginalLoadFormat 财产. 获取加载到此对象中的原始文档的格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 OriginalLoadFormat 属性可以轻松访问加载到对象中的原始文档的格式，增强文档管理。
 type: docs
-weight: 300
+weight: 310
 url: /zh/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
 
-获取加载到此对象中的原始文档的格式。
+获取加载到此对象的原始文档的格式。
 
 ```csharp
 public LoadFormat OriginalLoadFormat { get; }
@@ -22,7 +22,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ## 例子
 
-演示如何检索文档加载操作的详细信息。
+展示如何检索文档加载操作的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

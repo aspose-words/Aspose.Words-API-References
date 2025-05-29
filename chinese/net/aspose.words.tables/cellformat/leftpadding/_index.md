@@ -2,15 +2,15 @@
 title: CellFormat.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
-second_title: 用于 .NET 的 Aspose.Words
-description: CellFormat LeftPadding 财产. 返回或设置要添加到单元格内容左侧的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CellFormat LeftPadding 属性，轻松调整左侧间距（以点为单位），增强单元格内容的外观和可读性。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-返回或设置要添加到单元格内容左侧的空间量（以磅为单位）。
+返回或设置在单元格内容左侧添加的空间量（以点为单位）。
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## 例子
 
-演示如何使用文档生成器设置单元格格式。
+展示如何使用文档生成器来格式化单元格。
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 第一个单元格不受填充重新配置的影响，并且仍然保留默认值。
+// 第一个单元格不受填充重新配置的影响，仍然保留默认值。
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// 第一个单元格仍将在输出文档中增长，以匹配其相邻单元格的大小。
+// 第一个单元格仍将在输出文档中增长以匹配其相邻单元格的大小。
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

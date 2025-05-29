@@ -2,10 +2,10 @@
 title: Document.FieldOptions
 linktitle: FieldOptions
 articleTitle: FieldOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Document FieldOptions 财产. 获得FieldOptions表示控制文档中字段处理的选项的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索文档字段选项 (FieldOptions) 属性，高效管理字段处理。探索增强文档控制和自定义功能的独特选项。
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/aspose.words/document/fieldoptions/
 ---
 ## Document.FieldOptions property
@@ -18,30 +18,30 @@ public FieldOptions FieldOptions { get; }
 
 ## 例子
 
-演示如何在字段更新或邮件合并期间指定用于日期格式设置的区域性来源。
+展示如何在字段更新或邮件合并期间指定用于日期格式化的文化来源。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入两个具有德语区域设置的合并字段。
+// 插入两个具有德语语言环境的合并字段。
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// 在变量中保留其原始值后，将当前区域性设置为美国英语。
+// 在变量中保存其原始值后，将当前文化设置为美国英语。
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// 此合并将使用当前线程的区域性来格式化日期，美国英语。
+// 此次合并将使用当前线程的文化来格式化日期，即美国英语。
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// 配置下一个合并以从字段代码中获取其区域性值。这种文化的价值将是德国的。
+// 配置下一次合并，从字段代码中获取其文化值。该文化值将为“德语”。
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// 第一个合并结果包含英语格式的日期，而第二个则包含德语格式的日期。
+// 第一个合并结果包含英文格式的日期，而第二个合并结果包含德文格式的日期。
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
 // 恢复线程的原始文化。

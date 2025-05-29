@@ -2,8 +2,8 @@
 title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentProperty ToInt 方法. 以整数形式返回属性值 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ToInt 方法轻松将 DocumentProperty 值转换为整数。为您的应用程序解锁无缝数据处理！
 type: docs
 weight: 100
 url: /zh/net/aspose.words.properties/documentproperty/toint/

@@ -2,15 +2,15 @@
 title: Range.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
-second_title: 用于 .NET 的 Aspose.Words
-description: Range UnlinkFields 方法. 取消链接此范围内的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Range UnlinkFields 方法，轻松取消文档范围内字段的链接，增强您的工作流程和文档管理。
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
 
-取消链接此范围内的字段。
+取消此范围内的字段链接。
 
 ```csharp
 public void UnlinkFields()
@@ -18,13 +18,13 @@ public void UnlinkFields()
 
 ## 评论
 
-将此范围内的所有字段替换为其最新结果。
+用最新的结果替换此范围内的所有字段。
 
-要取消链接整个文档中的字段，请使用`UnlinkFields`。
+要取消整个文档中的字段链接，请使用`UnlinkFields`。
 
 ## 例子
 
-展示如何取消链接范围内的所有字段。
+显示如何取消某个范围内的所有字段的链接。
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

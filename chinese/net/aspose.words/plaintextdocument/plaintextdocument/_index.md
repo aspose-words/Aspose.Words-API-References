@@ -2,8 +2,8 @@
 title: PlainTextDocument
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
-second_title: 用于 .NET 的 Aspose.Words
-description: PlainTextDocument 构造函数. 从文件创建纯文本文档自动检测文件格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的 PlainTextDocument 构造函数轻松创建纯文本文档。享受自动文件格式检测功能，实现无缝集成！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/plaintextdocument/plaintextdocument/
@@ -24,8 +24,8 @@ public PlainTextDocument(string fileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 无法识别或不支持文档格式。 |
-| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏且无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 该文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏，无法加载。 |
 | Exception | 该文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
@@ -33,7 +33,7 @@ public PlainTextDocument(string fileName)
 
 ## 例子
 
-演示如何以纯文本形式加载 Microsoft Word 文档的内容。
+展示如何以纯文本形式加载 Microsoft Word 文档的内容。
 
 ```csharp
 Document doc = new Document(); 
@@ -66,14 +66,14 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 要从中提取文本的文件的名称。 |
-| loadOptions | LoadOptions | 加载文档时使用的其他选项。可`无效的`。 |
+| loadOptions | LoadOptions | 加载文档时使用的附加选项。可以是`无效的`。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 无法识别或不支持文档格式。 |
-| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏且无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 该文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏，无法加载。 |
 | Exception | 该文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
@@ -81,7 +81,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 ## 例子
 
-演示如何以纯文本形式加载加密的 Microsoft Word 文档的内容。
+展示如何以纯文本形式加载加密的 Microsoft Word 文档的内容。
 
 ```csharp
 Document doc = new Document();
@@ -126,14 +126,14 @@ public PlainTextDocument(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 无法识别或不支持文档格式。 |
-| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏且无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 该文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏，无法加载。 |
 | Exception | 该文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentNullException | 流不能为空。 |
 | NotSupportedException | 该流不支持读取或查找。 |
-| ObjectDisposedException | 流是一个已处理的对象。 |
+| ObjectDisposedException | 该流是一个已处置的对象。 |
 
 ## 评论
 
@@ -141,7 +141,7 @@ public PlainTextDocument(Stream stream)
 
 ## 例子
 
-演示如何使用流以纯文本形式加载 Microsoft Word 文档的内容。
+展示如何使用流以纯文本形式加载 Microsoft Word 文档的内容。
 
 ```csharp
 Document doc = new Document();
@@ -177,20 +177,20 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 从中提取文本的流。 |
-| loadOptions | LoadOptions | 加载文档时使用的其他选项。可`无效的`。 |
+| loadOptions | LoadOptions | 加载文档时使用的附加选项。可以是`无效的`。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 无法识别或不支持文档格式。 |
-| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏且无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 该文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 该文档似乎已损坏，无法加载。 |
 | Exception | 该文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentNullException | 流不能为空。 |
 | NotSupportedException | 该流不支持读取或查找。 |
-| ObjectDisposedException | 流是一个已处理的对象。 |
+| ObjectDisposedException | 该流是一个已处置的对象。 |
 
 ## 评论
 
@@ -198,7 +198,7 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 ## 例子
 
-演示如何使用流以纯文本形式加载加密的 Microsoft Word 文档的内容。
+展示如何使用流以纯文本形式加载加密的 Microsoft Word 文档的内容。
 
 ```csharp
 Document doc = new Document();

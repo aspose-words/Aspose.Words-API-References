@@ -2,8 +2,8 @@
 title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionGroup Text 财产. 返回插入/删除/移动的文本或格式更改的描述 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 RevisionGroup Text 属性以访问插入、删除或移动的文本，增强文档的格式洞察力和编辑效率。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/revisiongroup/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## 例子
 
-演示如何打印有关文档中一组修订的信息。
+展示如何打印有关文档中一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

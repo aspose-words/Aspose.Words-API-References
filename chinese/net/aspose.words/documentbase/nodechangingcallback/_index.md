@@ -2,10 +2,10 @@
 title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
 articleTitle: NodeChangingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBase NodeChangingCallback 财产. 在文档中插入或删除节点时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 DocumentBase NodeChangingCallback 属性，该属性在节点插入或删除时触发，从而增强文档管理和工作流程效率。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
@@ -18,7 +18,7 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 
 ## 例子
 
-展示如何通过回调自定义节点更改。
+展示如何使用回调自定义节点变化。
 
 ```csharp
 public void FontChangeViaCallback()
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

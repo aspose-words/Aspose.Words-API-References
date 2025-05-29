@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
-second_title: 用于 .NET 的 Aspose.Words
-description: MarkdownSaveOptions ExportImagesAsBase64 财产. 指定图像是否以 Base64 格式保存到输出文件 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 MarkdownSaveOptions ExportImagesAsBase64 属性如何通过允许以 Base64 格式保存图像来增强输出文件。默认值为 false。
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-指定图像是否以 Base64 格式保存到输出文件。 默认值为`错误的`.
+指定是否将图像以 Base64 格式保存到输出文件。 默认值为`错误的`.
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## 评论
 
-当该属性设置为`真的`图像数据直接导出 到**图像**不会创建元素和单独的文件。
+当此属性设置为`真的`图像数据直接导出到**图片**元素和单独的文件不会被创建。
 
 ## 例子
 
-演示如何保存嵌入图像的 .md 文档。
+展示如何保存嵌入图像的 .md 文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

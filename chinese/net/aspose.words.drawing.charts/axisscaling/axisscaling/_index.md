@@ -2,8 +2,8 @@
 title: AxisScaling
 linktitle: AxisScaling
 articleTitle: AxisScaling
-second_title: 用于 .NET 的 Aspose.Words
-description: AxisScaling 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 AxisScaling 构造函数——实现应用程序无缝缩放的首选解决方案。使用我们高效的默认构造函数提升性能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/axisscaling/axisscaling/

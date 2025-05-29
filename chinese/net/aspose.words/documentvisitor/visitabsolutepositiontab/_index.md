@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitAbsolutePositionTab
 linktitle: VisitAbsolutePositionTab
 articleTitle: VisitAbsolutePositionTab
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitAbsolutePositionTab 方法. 当 a 时调用AbsolutePositionTab文档中遇到节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor VisitAbsolutePositionTab 方法，旨在通过有效处理 AbsolutePositionTab 节点来增强文档处理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-当 a 时调用[`AbsolutePositionTab`](../../absolutepositiontab/)文档中遇到节点。
+当[`AbsolutePositionTab`](../../absolutepositiontab/)文档中遇到节点。
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -22,22 +22,27 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何使用文档访问者处理绝对位置制表符。
+展示如何使用文档访问器处理绝对位置制表符。
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // 通过接受此自定义文档访问者来提取文档的文本内容。
+    // 通过接受这个自定义文档访问者来提取我们文档的文本内容。
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // 仅访问文档主体的开头。
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // 仅访问文档主体的末尾。
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // 绝对位置制表符在字符串形式中没有等效项，已被显式转换为制表符。
+    // 绝对位置制表符，在字符串形式中没有等效项，已明确转换为制表符。
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
@@ -69,7 +74,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 AbsolutePositionTab 节点时调用。
+    /// 当在文档中遇到 AbsolutePositionTab 节点时调用。
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -78,7 +83,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将文本添加到当前输出。尊重启用/禁用输出标志。
+    /// 将文本添加到当前输出。遵守启用/禁用输出标志。
     /// </summary>
     private void AppendText(string text)
     {

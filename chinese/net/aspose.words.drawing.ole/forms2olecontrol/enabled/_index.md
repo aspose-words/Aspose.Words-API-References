@@ -2,10 +2,10 @@
 title: Forms2OleControl.Enabled
 linktitle: Enabled
 articleTitle: Enabled
-second_title: 用于 .NET 的 Aspose.Words
-description: Forms2OleControl Enabled 财产. 返回真的如果控制处于启用状态 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Forms2OleControl Enabled 属性如何通过确认控件是否处于活动状态来增强用户交互。提升您的应用功能！
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 ## Forms2OleControl.Enabled property
@@ -18,20 +18,20 @@ public bool Enabled { get; }
 
 ## 例子
 
-演示如何验证 ActiveX 控件的属性。
+展示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

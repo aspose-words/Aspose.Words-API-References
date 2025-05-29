@@ -2,15 +2,15 @@
 title: Row.IsLastRow
 linktitle: IsLastRow
 articleTitle: IsLastRow
-second_title: 用于 .NET 的 Aspose.Words
-description: Row IsLastRow 财产. 如果这是表中的最后一行则为 True否则为假 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Row IsLastRow 属性。轻松识别某一行是否是表中的最后一行，从而简化数据管理并提高编程效率。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/row/islastrow/
 ---
 ## Row.IsLastRow property
 
-如果这是表中的最后一行，则为 True；否则为假。
+如果这是表中的最后一行，则为 True；否则为 false。
 
 ```csharp
 public bool IsLastRow { get; }
@@ -18,16 +18,16 @@ public bool IsLastRow { get; }
 
 ## 例子
 
-展示如何将表格设置为在同一页面上保持在一起。
+展示如何设置表格以保持在同一页面上。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// 对表中的每个段落启用 KeepWithNext，除了
-// 最后一行中的最后一个将防止表格拆分为多个页面。
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行的最后一个将防止表格分裂到多个页面上。
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

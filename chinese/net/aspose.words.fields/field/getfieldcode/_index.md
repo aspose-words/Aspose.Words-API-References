@@ -2,8 +2,8 @@
 title: Field.GetFieldCode
 linktitle: GetFieldCode
 articleTitle: GetFieldCode
-second_title: 用于 .NET 的 Aspose.Words
-description: Field GetFieldCode 方法. 返回字段开始和字段分隔符之间的文本如果没有分隔符则返回字段结束 包括子字段的字段代码和字段结果 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GetFieldCode 方法，轻松检索字段起始和分隔符之间的文本，包括子字段代码和结果。提升您的编码效率！
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/field/getfieldcode/
@@ -18,7 +18,7 @@ public string GetFieldCode()
 
 ## 例子
 
-演示如何使用域代码将域插入到文档中。
+展示如何使用字段代码将字段插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // InsertField 方法的此重载会自动更新插入的字段。
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
-展示如何获取字段的字段代码。
+显示如何获取字段的字段代码。
 
 ```csharp
-// 打开一个在 IF 字段内包含 MERGEFIELD 的文档。
+// 打开包含 IF 字段内的 MERGEFIELD 的文档。
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
@@ -44,7 +44,7 @@ FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 // 1 - 省略其内部字段：
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - 包含其内部字段：
+// 2 - 包括其内部字段：
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
@@ -70,14 +70,14 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `真的`是否应包含子字段代码。 |
+| includeChildFieldCodes | Boolean | `真的`是否应包括子字段代码。 |
 
 ## 例子
 
-展示如何获取字段的字段代码。
+显示如何获取字段的字段代码。
 
 ```csharp
-// 打开一个在 IF 字段内包含 MERGEFIELD 的文档。
+// 打开包含 IF 字段内的 MERGEFIELD 的文档。
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
@@ -85,7 +85,7 @@ FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 // 1 - 省略其内部字段：
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - 包含其内部字段：
+// 2 - 包括其内部字段：
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 

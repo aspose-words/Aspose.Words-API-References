@@ -2,15 +2,15 @@
 title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Paragraph FrameFormat 财产. 提供对帧格式属性的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现段落 FrameFormat 属性，轻松访问和自定义框架格式属性以增强文档呈现。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-提供对帧格式属性的访问。
+提供对框架格式属性的访问。
 
 ```csharp
 public FrameFormat FrameFormat { get; }
@@ -18,7 +18,7 @@ public FrameFormat FrameFormat { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

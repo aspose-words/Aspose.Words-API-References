@@ -2,8 +2,8 @@
 title: WarningInfoCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: 用于 .NET 的 Aspose.Words
-description: WarningInfoCollection Clear 方法. 从集合中删除所有元素 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用此方法轻松清除您的WarningInfoCollection，删除所有元素以简化数据管理并提高性能。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/warninginfocollection/clear/
@@ -18,12 +18,12 @@ public void Clear()
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

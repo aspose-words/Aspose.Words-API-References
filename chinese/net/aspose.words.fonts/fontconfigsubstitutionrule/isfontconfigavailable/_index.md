@@ -2,8 +2,8 @@
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
 linktitle: IsFontConfigAvailable
 articleTitle: IsFontConfigAvailable
-second_title: 用于 .NET 的 Aspose.Words
-description: FontConfigSubstitutionRule IsFontConfigAvailable 方法. 检查 fontconfig 实用程序是否可用 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IsFontConfigAvailable 方法检查 FontConfig 实用程序是否可用。确保您的应用程序拥有最佳的字体管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule 对象在 Windows/非 Windows 平台上的工作方式不同。
+// FontConfigSubstitutionRule 对象在 Windows 和非 Windows 平台上的工作方式不同。
 // 在 Windows 上，它不可用。
 if (isWindows)
 {
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

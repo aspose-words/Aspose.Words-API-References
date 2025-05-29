@@ -2,15 +2,15 @@
 title: Shading.BackgroundPatternThemeColor
 linktitle: BackgroundPatternThemeColor
 articleTitle: BackgroundPatternThemeColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading BackgroundPatternThemeColor 财产. 获取或设置与此关联的已应用配色方案中的背景图案主题颜色Shading对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何自定义 Shading BackgroundPatternThemeColor 属性，以使用独特的背景图案和配色方案增强您的设计。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/shading/backgroundpatternthemecolor/
 ---
 ## Shading.BackgroundPatternThemeColor property
 
-获取或设置与此关联的已应用配色方案中的背景图案主题颜色[`Shading`](../)对象.
+获取或设置与此关联的应用配色方案中的背景图案主题颜色[`Shading`](../)对象.
 
 ```csharp
 public ThemeColor BackgroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor BackgroundPatternThemeColor { get; set; }
 
 ## 例子
 
-演示如何设置着色纹理的前景色和背景色。
+展示如何设置阴影纹理的前景色和背景色。
 
 ```csharp
 Document doc = new Document();

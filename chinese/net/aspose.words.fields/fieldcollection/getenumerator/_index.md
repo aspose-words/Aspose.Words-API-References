@@ -2,8 +2,8 @@
 title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldCollection GetEnumerator 方法——有效地返回一个枚举器对象并增强您的数据处理能力。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<Field> GetEnumerator()
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

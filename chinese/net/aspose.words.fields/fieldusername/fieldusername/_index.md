@@ -2,8 +2,8 @@
 title: FieldUserName
 linktitle: FieldUserName
 articleTitle: FieldUserName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldUserName 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldUserName 构造函数，它是您在应用程序中实现无缝用户管理的首选解决方案。使用我们的默认构造函数优化性能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldusername/fieldusername/

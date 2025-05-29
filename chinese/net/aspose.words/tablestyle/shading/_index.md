@@ -2,15 +2,15 @@
 title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle Shading 财产. 获得Shading引用表格单元格的底纹格式的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle Shading 属性，通过可自定义的阴影格式增强表格单元格，获得精致、专业的外观。
 type: docs
 weight: 130
 url: /zh/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-获得[`Shading`](../../shading/)引用表格单元格的底纹格式的对象。
+获得[`Shading`](../../shading/)引用表格单元格阴影格式的对象。
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

@@ -2,10 +2,10 @@
 title: DocumentBase.Lists
 linktitle: Lists
 articleTitle: Lists
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBase Lists 财产. 提供对文档中使用的列表格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentBase Lists，高效管理资产。访问可自定义的列表格式，提升文档的呈现效果和清晰度。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/documentbase/lists/
 ---
 ## DocumentBase.Lists property
@@ -18,7 +18,7 @@ public ListCollection Lists { get; }
 
 ## 评论
 
-欲了解更多信息，请参阅描述[`ListCollection`](../../../aspose.words.lists/listcollection/)班级。
+更多信息请参见[`ListCollection`](../../../aspose.words.lists/listcollection/)班级。
 
 ## 例子
 
@@ -33,8 +33,8 @@ Assert.False(builder.ListFormat.IsListItem);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档生成器创建的两种类型的列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 以下是我们可以使用文档构建器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -52,8 +52,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
-// 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+// 此列表将在每个段落前应用缩进和项目符号（“•”）。
+// 此列表的更深级别将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -62,7 +62,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“列表”标志来禁用列表格式，以免将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.CssStyleSheetType
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions CssStyleSheetType 财产. 指定如何将 CSS层叠样式表样式导出为 HTMLMHTML 或 EPUB 默认值为Inline对于 HTML/MHTML 和 External对于 EPUB 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 HtmlSaveOptions 中的 CssStyleSheetType 属性如何优化 CSS 导出为 HTML、MHTML 和 EPUB 格式，实现无缝集成。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 ---
 ## HtmlSaveOptions.CssStyleSheetType property
 
-指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。 默认值为Inline对于 HTML/MHTML 和 External对于 EPUB.
+指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。 默认值为Inline适用于 HTML/MHTML 和 External适用于 EPUB。
 
 ```csharp
 public CssStyleSheetType CssStyleSheetType { get; set; }
@@ -18,11 +18,11 @@ public CssStyleSheetType CssStyleSheetType { get; set; }
 
 ## 评论
 
-仅当保存为 HTML 时才支持将 CSS 样式表保存到外部文件中。 当您导出为一种容器格式（EPUB 或 MHTML）并指定 时External，CSS文件将被封装 到输出包中。
+仅当保存为 HTML 时才支持将 CSS 样式表保存到外部文件中。 当您导出到其中一种容器格式（EPUB 或 MHTML）并指定 External，CSS 文件将被封装到输出包中。
 
 ## 例子
 
-演示如何使用 HTML 转换创建的 CSS 样式表。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
@@ -33,12 +33,12 @@ public void ExternalCssFilenames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
-    // 保存的 HTML 文档附带外部 CSS 样式表文件。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”
+    // 将已保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
+    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

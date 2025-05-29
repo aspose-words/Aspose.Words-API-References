@@ -2,10 +2,10 @@
 title: ChartXValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValueCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartXValueCollection GetEnumerator 方法——使用强大的枚举器对象高效检索数据，从而简化数据处理。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
 ---
 ## ChartXValueCollection.GetEnumerator method

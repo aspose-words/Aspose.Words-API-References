@@ -2,15 +2,15 @@
 title: ChartMultilevelValue.Level1
 linktitle: Level1
 articleTitle: Level1
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartMultilevelValue Level1 财产. 获取该值引用的图表顶层的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartMultilevelValue Level1。轻松识别顶级图表名称，增强数据清晰度和洞察力。释放数据潜能！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 ---
 ## ChartMultilevelValue.Level1 property
 
-获取该值引用的图表顶层的名称。
+获取此值所指的图表顶层的名称。
 
 ```csharp
 public string Level1 { get; }

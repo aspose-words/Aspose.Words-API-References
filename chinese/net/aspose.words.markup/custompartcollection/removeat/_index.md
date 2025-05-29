@@ -2,8 +2,8 @@
 title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection RemoveAt 方法. 删除指定索引处的项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveAt 方法轻松管理您的 CustomPartCollection——通过索引快速删除项目以简化数据处理。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/custompartcollection/removeat/
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

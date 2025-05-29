@@ -2,15 +2,15 @@
 title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase Rotation 财产. 定义形状旋转的角度以度为单位 正值对应于顺时针旋转角度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase 旋转属性，轻松定义和自定义形状的旋转角度，增强设计的精确度和创造力。
 type: docs
-weight: 470
+weight: 500
 url: /zh/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-定义形状旋转的角度（以度为单位）。 正值对应于顺时针旋转角度。
+定义形状旋转的角度（以度为单位）。 正值对应顺时针旋转角度。
 
 ```csharp
 public double Rotation { get; set; }
@@ -22,14 +22,14 @@ public double Rotation { get; set; }
 
 ## 例子
 
-演示如何插入和旋转图像。
+展示如何插入和旋转图像。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 插入带有图像的形状。
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

@@ -2,8 +2,8 @@
 title: StructuredDocumentTagCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTagCollection GetEnumerator 方法，轻松访问枚举器对象，提高文档管理效率。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/

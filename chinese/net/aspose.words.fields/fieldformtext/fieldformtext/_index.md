@@ -2,8 +2,8 @@
 title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFormText 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldFormText 构造函数——您在表单中实现无缝文本管理的首选解决方案。立即简化您的开发流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldformtext/fieldformtext/

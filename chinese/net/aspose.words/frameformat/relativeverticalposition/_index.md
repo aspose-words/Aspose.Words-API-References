@@ -2,15 +2,15 @@
 title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat RelativeVerticalPosition 财产. 获取帧的相对垂直位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat RelativeVerticalPosition 属性，轻松确定框架的垂直对齐方式，增强文档的布局和设计。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-获取帧的相对垂直位置。
+获取框架的相对垂直位置。
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
@@ -18,7 +18,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

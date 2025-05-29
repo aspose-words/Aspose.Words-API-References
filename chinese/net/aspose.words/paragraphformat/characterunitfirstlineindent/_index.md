@@ -2,8 +2,8 @@
 title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat CharacterUnitFirstLineIndent 财产. 获取或设置首行或悬挂缩进的值以字符为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ParagraphFormat CharacterUnitFirstLineIndent 属性，轻松自定义文档的第一行或悬挂缩进，以获得精美的外观。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -20,14 +20,14 @@ public double CharacterUnitFirstLineIndent { get; set; }
 
 ## 例子
 
-演示如何更改段落间距和缩进。
+展示如何更改段落间距和缩进。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// 下面是五个不同的间距选项，以及它们的配置间接影响的属性。
+// 下面是五种不同的间距选项，以及它们的配置间接影响的属性。
 // 1 - 左缩进：
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -49,14 +49,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - 段落前的行间距：
+// 4 - 段落前的行距：
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - 段落后的行间距：
+// 5 - 段落后行距：
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

@@ -2,15 +2,15 @@
 title: MailMerge.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge GetFieldNames 方法. 返回文档中可用的邮件合并字段名称的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 MailMerge GetFieldNames 方法可以轻松访问和利用文档中的所有邮件合并字段名称，从而简化文档自动化。
 type: docs
 weight: 220
 url: /zh/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-返回文档中可用的邮件合并字段名称的集合。
+返回文档中可用的邮件合并字段名称集合。
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,15 +18,15 @@ public string[] GetFieldNames()
 
 ## 评论
 
-返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
+返回包含可选前缀的完整合并字段名称。不会消除重复的字段名称。
 
 每次调用时都会创建一个新的字符串数组。
 
-包含“mustache”字段名称，如果[`UseNonMergeFields`](../usenonmergefields/)是`真的`。
+如果包含“胡子”字段名称[`UseNonMergeFields`](../usenonmergefields/)是`真的`。
 
 ## 例子
 
-演示如何获取文档中所有合并字段的名称。
+展示如何获取文档中所有合并字段的名称。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // 对于文档中的每个 MERGEFIELD 名称，确保数据表包含一列
-// 同名，然后执行邮件合并。
+// 具有相同的名称，然后执行邮件合并。
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

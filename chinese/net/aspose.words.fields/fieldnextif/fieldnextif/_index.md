@@ -2,8 +2,8 @@
 title: FieldNextIf
 linktitle: FieldNextIf
 articleTitle: FieldNextIf
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldNextIf 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldNextIf 构造函数，它是您实现无缝集成和高效代码管理的首选解决方案。立即简化您的开发流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldnextif/fieldnextif/

@@ -2,8 +2,8 @@
 title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignatureCollection GetEnumerator 方法. 返回一个字典枚举器对象可用于迭代集合中的所有项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DigitalSignatureCollection GetEnumerator 方法，使用方便的字典枚举器轻松遍历所有集合项。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<DigitalSignature> GetEnumerator()
 
 ## 例子
 
-演示如何打印已签名文档的所有数字签名。
+展示如何打印签名文档的所有数字签名。
 
 ```csharp
 DigitalSignatureCollection digitalSignatures =

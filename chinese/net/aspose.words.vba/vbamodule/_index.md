@@ -2,10 +2,10 @@
 title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaModule 班级. 提供对 VBA 项目模块的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 解锁 Aspose.Words.Vba.VbaModule 的强大功能，无缝访问您的 VBA 项目模块。提高生产力并简化您的文档自动化！
 type: docs
-weight: 6550
+weight: 7400
 url: /zh/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -40,7 +40,7 @@ public class VbaModule
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -51,7 +51,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

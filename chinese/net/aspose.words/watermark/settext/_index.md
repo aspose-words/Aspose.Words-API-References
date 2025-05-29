@@ -2,15 +2,15 @@
 title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
-second_title: 用于 .NET 的 Aspose.Words
-description: Watermark SetText 方法. 将文本水印添加到文档中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的“水印设置文本”方法增强您的文档效果。轻松添加可自定义的文本水印，打造专业水印！
 type: docs
 weight: 40
 url: /zh/net/aspose.words/watermark/settext/
 ---
 ## SetText(*string*) {#settext}
 
-将文本水印添加到文档中。
+在文档中添加文本水印。
 
 ```csharp
 public void SetText(string text)
@@ -25,11 +25,11 @@ public void SetText(string text)
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格时抛出。 |
-| ArgumentNullException | 当文本为`无效的`. |
+| ArgumentNullException | 当文本`无效的`. |
 
 ## 评论
 
-文本长度必须在 1 到 200 之间（含 1 和 200）。 文本不能是`无效的`或仅包含空格。
+文本长度必须在 1 到 200 之间（含 1 和 200）。 文本不能`无效的`或仅包含空格。
 
 ## 例子
 
@@ -42,7 +42,7 @@ Document doc = new Document();
 doc.Watermark.SetText("Aspose Watermark");
 
 // 如果我们希望使用它作为水印来编辑文本格式，
-// 我们可以通过在创建水印时传递 TextWatermarkOptions 对象来做到这一点。
+// 我们可以在创建水印时通过传递 TextWatermarkOptions 对象来实现这一点。
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -54,7 +54,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// 我们可以像这样从文档中删除水印。
+// 我们可以从这样的文档中删除水印。
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```
@@ -69,7 +69,7 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 ## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
-将文本水印添加到文档中。
+在文档中添加文本水印。
 
 ```csharp
 public void SetText(string text, TextWatermarkOptions options)
@@ -85,13 +85,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格时抛出。 |
-| ArgumentNullException | 当文本为`无效的`. |
+| ArgumentNullException | 当文本`无效的`. |
 
 ## 评论
 
-文本长度必须在 1 到 200 之间（含 1 和 200）。 文本不能是`无效的`或仅包含空格。
+文本长度必须在 1 到 200 之间（含 1 和 200）。 文本不能`无效的`或仅包含空格。
 
-如果[`TextWatermarkOptions`](../../textwatermarkoptions/)是`无效的`，水印将设置为默认选项。
+如果[`TextWatermarkOptions`](../../textwatermarkoptions/)是`无效的`，水印将使用默认选项设置。
 
 ## 例子
 
@@ -104,7 +104,7 @@ Document doc = new Document();
 doc.Watermark.SetText("Aspose Watermark");
 
 // 如果我们希望使用它作为水印来编辑文本格式，
-// 我们可以通过在创建水印时传递 TextWatermarkOptions 对象来做到这一点。
+// 我们可以在创建水印时通过传递 TextWatermarkOptions 对象来实现这一点。
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -116,7 +116,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// 我们可以像这样从文档中删除水印。
+// 我们可以从这样的文档中删除水印。
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -2,8 +2,8 @@
 title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
-second_title: 用于 .NET 的 Aspose.Words
-description: Table StyleName 财产. 获取或设置应用于此表的表格样式的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“表格样式名称”属性，轻松自定义表格外观。立即使用独特的表格样式选项，提升您的设计！
 type: docs
 weight: 290
 url: /zh/net/aspose.words.tables/table/stylename/
@@ -18,7 +18,7 @@ public string StyleName { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

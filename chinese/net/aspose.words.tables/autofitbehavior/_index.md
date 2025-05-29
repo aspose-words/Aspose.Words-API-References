@@ -2,15 +2,15 @@
 title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Tables.AutoFitBehavior 枚举. 确定当您调用时 Aspose.Words 如何调整表格大小AutoFit方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Tables.AutoFitBehavior 枚举，使用 AutoFit 方法优化表格大小调整，增强文档布局和演示。
 type: docs
-weight: 6230
+weight: 7080
 url: /zh/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-确定当您调用时 Aspose.Words 如何调整表格大小[`AutoFit`](../table/autofit/)方法.
+确定调用时 Aspose.Words 如何调整表格大小[`AutoFit`](../table/autofit/)方法.
 
 ```csharp
 public enum AutoFitBehavior
@@ -21,12 +21,12 @@ public enum AutoFitBehavior
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | AutoFitToContents | `0` | Aspose.Words 启用自动调整选项，从表格和所有单元格中删除首选宽度，然后更新表格布局。 |
-| AutoFitToWindow | `1` | 当您使用此值时，Aspose.Words 会启用“自动调整”选项，将表格的首选宽度设置为 100%， 从所有单元格中删除首选宽度，然后更新表格布局。 |
-| FixedColumnWidths | `2` | Aspose.Words 禁用“自动调整”选项并从表格中删除首选选项。 |
+| AutoFitToWindow | `1` | 当您使用此值时，Aspose.Words 会启用“自动调整”选项，将表格的首选宽度设置为 100%， 会从所有单元格中删除首选宽度，然后更新表格布局。 |
+| FixedColumnWidths | `2` | Aspose.Words 禁用自动调整选项并从表中删除首选选项。 |
 
 ## 例子
 
-演示如何在应用样式时构建新表格。
+展示如何在应用样式的同时构建新表。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.InsertCell();
 // 请注意，保存为 .doc 格式时并非所有表格样式都可用。
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// 根据谓词将样式部分应用到表的特征，然后构建表。
+// 根据谓词将样式部分应用于表的特征，然后构建表。
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -72,7 +72,7 @@ builder.EndRow();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
-演示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表。
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// 构建表时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
-// 到其光标所在的当前行/单元格以及创建它们时的任何新行/单元格。
+// 在构建表格时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
+// 到其光标所在的当前行/单元格以及它创建的任何新行/单元格。
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -102,7 +102,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 先前添加的行和单元格不会受到构建器格式更改的影响。
+// 先前添加的行和单元格不会因构建器格式的更改而受到追溯影响。
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

@@ -2,15 +2,15 @@
 title: FieldBarcode.FacingIdentificationMark
 linktitle: FacingIdentificationMark
 articleTitle: FacingIdentificationMark
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldBarcode FacingIdentificationMark 财产. 获取或设置要插入的正面识别标记 FIM 的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldBarcode FacingIdentificationMark 属性，轻松管理和自定义面部识别标记 (FIM)，从而提高扫描效率。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
 ## FieldBarcode.FacingIdentificationMark property
 
-获取或设置要插入的正面识别标记 (FIM) 的类型。
+获取或设置要插入的面部识别标记 (FIM) 的类型。
 
 ```csharp
 public string FacingIdentificationMark { get; set; }
@@ -18,7 +18,7 @@ public string FacingIdentificationMark { get; set; }
 
 ## 例子
 
-演示如何使用“条形码”字段以条形码的形式显示美国邮政编码。
+展示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// 以下是使用条形码字段将自定义值显示为条形码的两种方法。
+// 以下是两种使用 BARCODE 字段将自定义值显示为条形码的方法。
 // 1 - 将条形码将显示的值存储在 PostalAddress 属性中：
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
-// 该值必须是有效的邮政编码。
+// 此值需要是有效的邮政编码。
 field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
@@ -47,7 +47,7 @@ field.IsBookmark = true;
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
 // BARCODE 字段在其 PostalAddress 属性中引用的书签
-// 除了有效的邮政编码之外不需要包含任何内容。
+// 除了有效的邮政编码外，不需要包含任何内容。
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

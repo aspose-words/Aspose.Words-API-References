@@ -2,15 +2,15 @@
 title: FieldPrintDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldPrintDate UseLunarCalendar 财产. 获取或设置是否使用回历农历或希伯来农历 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldPrintDate 的 UseLunarCalendar 属性轻松管理日期。轻松在回历和希伯来阴历之间切换，实现无缝集成。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 ---
 ## FieldPrintDate.UseLunarCalendar property
 
-获取或设置是否使用回历农历或希伯来农历。
+获取或设置是否使用伊斯兰历或希伯来历。
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseLunarCalendar { get; set; }
 
 ## 例子
 
-显示读取的 PRINTDATE 字段。
+显示已读 PRINTDATE 字段。
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
@@ -31,9 +31,9 @@ FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// 下面是三种不同的日历类型，根据它们的 PRINTDATE 字段
+// 下面是三种不同的日历类型，PRINTDATE 字段根据
 // 可以显示上次打印操作的日期和时间。
-// 1 - 伊斯兰农历：
+// 1 - 伊斯兰阴历：
 field = (FieldPrintDate)doc.Range.Fields[1];
 
 Assert.True(field.UseLunarCalendar);
@@ -42,7 +42,7 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - 乌姆古拉历：
+// 2 - 古兰经日历：
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());

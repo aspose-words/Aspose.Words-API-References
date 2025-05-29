@@ -2,8 +2,8 @@
 title: Glyph.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: 用于 .NET 的 Aspose.Words
-description: Glyph Clone 方法. 返回此实例的克隆 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“字形克隆”方法，轻松创建实例副本。使用这款强大的工具，提升您的编码效率！
 type: docs
 weight: 60
 url: /zh/net/aspose.words.shaping/glyph/clone/

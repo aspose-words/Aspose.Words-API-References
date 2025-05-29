@@ -2,15 +2,15 @@
 title: TextWatermarkOptions.Layout
 linktitle: Layout
 articleTitle: Layout
-second_title: 用于 .NET 的 Aspose.Words
-description: TextWatermarkOptions Layout 财产. 获取或设置水印的布局默认值为Diagonal 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TextWatermarkOptions 布局属性，自定义水印外观。轻松将其设置为对角线或您喜欢的布局，以获得更佳的视觉效果。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-获取或设置水印的布局。默认值为Diagonal.
+获取或设置水印布局。默认值为Diagonal.
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -27,7 +27,7 @@ Document doc = new Document();
 doc.Watermark.SetText("Aspose Watermark");
 
 // 如果我们希望使用它作为水印来编辑文本格式，
-// 我们可以通过在创建水印时传递 TextWatermarkOptions 对象来做到这一点。
+// 我们可以在创建水印时通过传递 TextWatermarkOptions 对象来实现这一点。
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// 我们可以像这样从文档中删除水印。
+// 我们可以从这样的文档中删除水印。
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

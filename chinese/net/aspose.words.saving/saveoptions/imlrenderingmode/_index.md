@@ -2,15 +2,15 @@
 title: SaveOptions.ImlRenderingMode
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
-second_title: 用于 .NET 的 Aspose.Words
-description: SaveOptions ImlRenderingMode 财产. 获取或设置一个值确定如何呈现墨迹 InkML 对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SaveOptions ImlRenderingMode 属性如何增强 InkML 对象渲染。优化您的墨迹渲染，获得更佳的视觉效果！
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property
 
-获取或设置一个值，确定如何呈现墨迹 (InkML) 对象。
+获取或设置一个值，该值确定如何呈现墨水（InkML）对象。
 
 ```csharp
 public ImlRenderingMode ImlRenderingMode { get; set; }
@@ -24,13 +24,13 @@ public ImlRenderingMode ImlRenderingMode { get; set; }
 
 ## 例子
 
-演示如何渲染 Ink 对象。
+展示如何渲染 Ink 对象。
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// 设置“ImlRenderingMode.InkML”会忽略墨迹 (InkML) 对象的后备形状并渲染 InkML 本身。
-// 如果渲染结果不理想，
+// 设置“ImlRenderingMode.InkML”忽略墨水（InkML）对象的后备形状并呈现 InkML 本身。
+// 如果渲染结果不令人满意，
 // 请使用“ImlRenderingMode.Fallback”来获得与以前版本类似的结果。
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)
 {

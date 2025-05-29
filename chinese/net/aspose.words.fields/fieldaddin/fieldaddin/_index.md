@@ -2,8 +2,8 @@
 title: FieldAddIn
 linktitle: FieldAddIn
 articleTitle: FieldAddIn
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAddIn 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldAddIn 构造函数——实现无缝集成的首选解决方案。立即使用我们用户友好的默认构造函数解锁强大功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldaddin/fieldaddin/

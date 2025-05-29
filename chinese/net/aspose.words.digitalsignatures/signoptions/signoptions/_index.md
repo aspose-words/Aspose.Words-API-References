@@ -2,8 +2,8 @@
 title: SignOptions
 linktitle: SignOptions
 articleTitle: SignOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: SignOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 SignOptions，这款功能强大的构造函数旨在轻松定制和无缝集成。立即为您的项目解锁独特功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signoptions/

@@ -2,15 +2,15 @@
 title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
-second_title: 用于 .NET 的 Aspose.Words
-description: CellFormat WrapText 财产. 如果真的 单元格文本换行 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CellFormat WrapText 属性，通过自动将单元格中的文本换行以获得更整洁的外观来增强电子表格的可读性。
 type: docs
-weight: 140
+weight: 150
 url: /zh/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-如果`真的` ，单元格文本换行。
+如果`真的` ，为单元格换行。
 
 ```csharp
 public bool WrapText { get; set; }
@@ -18,7 +18,7 @@ public bool WrapText { get; set; }
 
 ## 例子
 
-演示如何构建具有自定义边框的表格。
+展示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // 为文档生成器设置表格格式选项
-// 将它们应用到我们添加的每一行和单元格。
+// 将它们应用于我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,7 +50,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// 更改格式会将其应用到当前单元格，
+// 更改格式将应用于当前单元格，
 // 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适合垂直文本。
+// 增加行高以适应垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

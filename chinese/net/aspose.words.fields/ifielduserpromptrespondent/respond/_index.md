@@ -2,15 +2,15 @@
 title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
-second_title: 用于 .NET 的 Aspose.Words
-description: IFieldUserPromptRespondent Respond 方法. 实现后根据提示返回用户的响应 您的实现应该返回无效的表示用户尚未响应提示 即用户已按下提示窗口中的取消按钮 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 IFieldUserPromptRespondent 的响应方法，高效捕获用户响应。学习如何无缝处理取消操作！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-实现后，根据提示返回用户的响应。 您的实现应该返回`无效的`表示用户尚未响应提示 （即用户已按下提示窗口中的“取消”按钮）。
+实施后，返回用户在提示时的响应。 您的实施应该返回`无效的`表示用户尚未响应提示 （即用户按下了提示窗口中的“取消”按钮）。
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -27,7 +27,7 @@ public string Respond(string promptText, string defaultResponse)
 
 ## 例子
 
-演示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 public void FieldAsk()
@@ -54,7 +54,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
+    // 邮件合并期间，ASK 字段将默认响应应用于其各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,7 +63,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

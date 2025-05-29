@@ -2,15 +2,15 @@
 title: Node.IsComposite
 linktitle: IsComposite
 articleTitle: IsComposite
-second_title: 用于 .NET 的 Aspose.Words
-description: Node IsComposite 财产. 返回真的如果该节点可以包含其他节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Node 的 IsComposite 属性。轻松识别某个节点是否可以容纳其他节点，增强数据结构管理和灵活性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-返回`真的`如果该节点可以包含其他节点.
+返回`真的`如果此节点可以包含其他节点。
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -18,11 +18,11 @@ public virtual bool IsComposite { get; }
 
 ### 适当的价值
 
-该方法返回`错误的`作为[`Node`](../)不能有子节点。
+此方法返回`错误的`作为[`Node`](../)不能有子节点。
 
 ## 例子
 
-演示如何遍历复合节点的子节点树。
+展示如何遍历复合节点的子节点树。
 
 ```csharp
 public void RecurseChildren()
@@ -32,12 +32,12 @@ public void RecurseChildren()
     // 任何可以包含子节点的节点（例如文档本身）都是复合节点。
     Assert.True(doc.IsComposite);
 
-    // 调用递归函数，该函数将遍历并打印复合节点的所有子节点。
+    // 调用递归函数，遍历并打印复合节点的所有子节点。
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// 递归遍历一棵节点树，同时打印每个节点的类型
+/// 递归遍历节点树，同时打印每个节点的类型
 /// 缩进取决于深度以及所有内联节点的内容。
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -46,7 +46,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // 如果该节点是复合节点，则递归到该节点。否则，如果它是内联节点，则打印其内容。
+        // 如果该节点是复合节点，则递归进入该节点。否则，如果该节点是内联节点，则打印其内容。
         if (childNode.IsComposite)
         {
             Console.WriteLine();

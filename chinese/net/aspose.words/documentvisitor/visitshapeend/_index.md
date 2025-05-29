@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitShapeEnd 方法. 当形状枚举结束时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor 的 VisitShapeEnd 方法，这对于管理应用程序中的形状枚举至关重要。立即提升您的编码效率！
 type: docs
 weight: 390
 url: /zh/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何创建一组形状，并使用文档访问者打印其内容。
+展示如何创建一组形状，并使用文档访问器打印其内容。
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
+    // 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // 顶角一个圆角一个截角、单角圆角、顶角圆角、对角角圆角
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

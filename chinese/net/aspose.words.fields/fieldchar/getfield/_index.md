@@ -2,8 +2,8 @@
 title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldChar GetField 方法. 返回字段 char. 的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldChar 中的 GetField 方法，轻松检索字段以实现最佳数据管理并增强应用程序的性能。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +18,11 @@ public Field GetField()
 
 ### 返回值
 
-字段字符的字段。
+字段 char 的字段。
 
 ## 评论
 
-一个新的[`Field`](../../field/)每次调用方法时都会创建对象。
+一个新的[`Field`](../../field/)每次调用该方法时都会创建对象。
 
 ## 例子
 
@@ -42,7 +42,7 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// 检索代表文档中字段的外观对象。
+// 检索代表文档中的字段的外观对象。
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);

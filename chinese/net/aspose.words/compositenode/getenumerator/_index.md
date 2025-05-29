@@ -2,15 +2,15 @@
 title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode GetEnumerator 方法. 为该节点的子节点上的每个样式迭代提供支持 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CompositeNode 的 GetEnumerator 方法，实现对子节点的无缝迭代。这项强大的功能将提升您的编码效率！
 type: docs
-weight: 100
+weight: 120
 url: /zh/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-为该节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点提供对每个样式迭代的支持。
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -18,44 +18,25 @@ public IEnumerator<Node> GetEnumerator()
 
 ## 例子
 
-演示如何遍历复合节点的子节点集合。
+展示如何打印文档的所有评论及其回复。
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Comments.docx");
 
-// 将两个运行和一个形状作为子节点添加到本文档的第一段。
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
-
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// 请注意，“CustomNodeId”不会保存到输出文件中，并且仅在节点生命周期内存在。
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
-
-paragraph.AppendChild(new Run(doc, "Hello again!"));
-
-// 遍历该段落的直接子级集合，
-// 并打印我们在其中找到的任何运行或形状。
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
-
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
+NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+// 如果评论没有祖先，它就是“顶级”评论，而不是回复类型的评论。
+// 打印所有顶级评论及其可能有的任何回复。
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
+{
+    Console.WriteLine("Top-level comment:");
+    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+    Console.WriteLine($"Has {comment.Replies.Count} replies");
+    foreach (Comment commentReply in comment.Replies)
     {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
+        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
     }
+    Console.WriteLine();
+}
 ```
 
 ### 也可以看看

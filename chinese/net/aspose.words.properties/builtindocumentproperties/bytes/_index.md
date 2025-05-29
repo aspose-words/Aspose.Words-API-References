@@ -2,15 +2,15 @@
 title: BuiltInDocumentProperties.Bytes
 linktitle: Bytes
 articleTitle: Bytes
-second_title: 用于 .NET 的 Aspose.Words
-description: BuiltInDocumentProperties Bytes 财产. 表示文档中字节数的估计值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BuiltInDocumentProperties Bytes 属性，这是估计文档大小、增强文件管理和效率的重要工具。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.properties/builtindocumentproperties/bytes/
 ---
 ## BuiltInDocumentProperties.Bytes property
 
-表示文档中字节数的估计值。
+表示对文档中字节数的估计。
 
 ```csharp
 public int Bytes { get; set; }
@@ -34,10 +34,10 @@ public void Content()
 
     // 通过使用内置属性，
     // 我们可以将文档统计信息（例如字数/页数/字符数）视为元数据，无需打开文档即可查看
-    // 通过在 Windows 资源管理器中右键单击文件并导航到“属性”>“可以访问这些属性”详情>>内容
-    // 如果我们想在文档中显示这些数据，我们可以使用 NUMPAGES、NUMWORDS、NUMCHARS 等字段。
-    // 此外，还可以通过导航“文件”>“在 Microsoft Word 中查看这些值”属性>高级属性>统计数据
-    // 页数：PageCount属性实时显示页数，其值可以赋给Pages属性
+    // 可以通过在 Windows 资源管理器中右键单击文件并导航至“属性”>“详细信息”>“内容”来访问这些属性
+    // 如果我们想在文档中显示这些数据，我们可以使用诸如 NUMPAGES、NUMWORDS、NUMCHARS 等字段。
+    // 此外，您也可以在 Microsoft Word 中通过导航“文件”>“属性”>“高级属性”>“统计信息”来查看这些值
+    // 页数：PageCount 属性实时显示页数，其值可以赋给 Pages 属性
 
     // “Pages”属性存储文档的页数。
     Assert.AreEqual(6, properties.Pages);
@@ -50,27 +50,27 @@ public void Content()
     Assert.AreEqual(6026, properties.Characters);
     Assert.AreEqual(7041, properties.CharactersWithSpaces);
 
-    // 计算文档中的行数，然后将结果分配给“Lines”内置属性。
+    // 计算文档中的行数，然后将结果赋给“Lines”内置属性。
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
     Assert.AreEqual(142, properties.Lines);
 
-    // 将文档中的段落节点数分配给“Paragraphs”内置属性。
+    // 将文档中的段落节点数分配给“段落”内置属性。
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // 通过“Bytes”内置属性获取文档文件大小的估计值。
+    // 通过“字节”内置属性获取文档文件大小的估计值。
     Assert.AreEqual(20310, properties.Bytes);
 
     // 为我们的文档设置不同的模板，然后手动更新“模板”内置属性以反映此更改。
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
-    // “ContentStatus”是一个描述性的内置属性。
+    // “ContentStatus” 是一个描述性的内置属性。
     properties.ContentStatus = "Draft";
 
     // 保存后，“ContentType”内置属性将包含输出保存格式的 MIME 类型。
@@ -84,8 +84,8 @@ public void Content()
 
 /// <summary>
 /// 计算文档中的行数。
-/// 在构造时遍历文档的布局实体树，
-/// 计算也包含真实文本的“Line”类型的实体。
+/// 在构建时遍历文档的布局实体树，
+/// 计算也包含真实文本的“线”类型的实体。
 /// </summary>
 private class LineCounter
 {

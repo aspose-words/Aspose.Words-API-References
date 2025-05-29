@@ -2,15 +2,15 @@
 title: Paragraph.IsEndOfCell
 linktitle: IsEndOfCell
 articleTitle: IsEndOfCell
-second_title: 用于 .NET 的 Aspose.Words
-description: Paragraph IsEndOfCell 财产. 如果该段落是最后一段则为 TrueCell否则为假 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索段落的 IsEndOfCell 属性。学习如何识别某个段落是否是单元格中的最后一个段落，从而增强文档结构。
 type: docs
 weight: 50
 url: /zh/net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property
 
-如果该段落是最后一段，则为 True[`Cell`](../../../aspose.words.tables/cell/);否则为假。
+如果此段是[`Cell`](../../../aspose.words.tables/cell/) ；否则为假。
 
 ```csharp
 public bool IsEndOfCell { get; }
@@ -18,16 +18,16 @@ public bool IsEndOfCell { get; }
 
 ## 例子
 
-展示如何将表格设置为在同一页面上保持在一起。
+展示如何设置表格以保持在同一页面上。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// 对表中的每个段落启用 KeepWithNext，除了
-// 最后一行中的最后一个将防止表格拆分为多个页面。
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行的最后一个将防止表格分裂到多个页面上。
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

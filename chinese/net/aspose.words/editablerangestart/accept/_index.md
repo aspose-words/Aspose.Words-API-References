@@ -2,8 +2,8 @@
 title: EditableRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: EditableRangeStart Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 EditableRangeStart Accept 方法，以有效管理访问者互动并增强您网站上的用户体验。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/editablerangestart/accept/
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-`错误的`如果访问者请求停止枚举。
+`错误的`如果访问者要求停止计数。
 
 ## 评论
 
-通话[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/)。
+呼叫[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
 ## 例子
 
-展示如何将可编辑范围的编辑权限限制为特定组/用户。
+展示如何将可编辑范围的编辑权限限制给特定的组/用户。
 
 ```csharp
 public void Visitor()
@@ -45,7 +45,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
+    // 有两种互斥的方法来缩小允许的编辑器列表。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -54,7 +54,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - 指定允许用户关联的组：
+    // 2 - 指定允许的用户所关联的组：
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 收集字符串中访问过的可编辑范围的属性和内容。
+/// 在字符串中收集已访问的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -94,7 +94,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 EditableRangeStart 节点时调用。
+    /// 当在文档中遇到 EditableRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -112,7 +112,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 EditableRangeEnd 节点时调用。
+    /// 当在文档中遇到 EditableRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

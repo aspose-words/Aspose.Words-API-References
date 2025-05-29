@@ -2,8 +2,8 @@
 title: FieldCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCollection RemoveAt 方法. 从此集合和文档中删除指定索引处的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldCollection RemoveAt 方法轻松从文档中移除字段。立即简化您的数据管理！
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldcollection/removeat/
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## 例子
 
-演示如何从字段集合中删除字段。
+展示如何从字段集合中删除字段。
 
 ```csharp
 Document doc = new Document();
@@ -40,21 +40,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// 下面是从字段集合中删除字段的四种方法。
-// 1 - 获取一个字段来删除自身：
+// 以下是从字段集合中删除字段的四种方法。
+// 1 - 获取要删除的字段：
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - 获取集合以删除我们传递给其删除方法的字段：
+// 2 - 获取要删除的字段的集合，并将其传递给其删除方法：
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - 从索引处的集合中删除字段：
+// 3 - 从集合中移除索引处的字段：
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - 立即从集合中删除所有字段：
+// 4 - 一次性从集合中删除所有字段：
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

@@ -2,8 +2,8 @@
 title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo Charset 财产. 获取或设置字体的字符集 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FontInfo Charset 属性，轻松管理和自定义字体的字符集，以增强设计灵活性和可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontinfo/charset/
@@ -18,7 +18,7 @@ public int Charset { get; set; }
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

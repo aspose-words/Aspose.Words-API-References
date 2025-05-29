@@ -2,8 +2,8 @@
 title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
-second_title: 用于 .NET 的 Aspose.Words
-description: OleFormat GetRawData 方法. 获取 OLE 对象原始数据 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OleFormat 的 GetRawData 方法，轻松检索 OLE 对象原始数据，增强您的数据管理和集成能力。
 type: docs
 weight: 150
 url: /zh/net/aspose.words.drawing/oleformat/getrawdata/
@@ -18,7 +18,7 @@ public byte[] GetRawData()
 
 ## 例子
 
-演示如何访问嵌入 OLE 对象的原始数据。
+展示如何访问嵌入的 OLE 对象的原始数据。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

@@ -2,15 +2,15 @@
 title: SystemFontSource
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
-second_title: 用于 .NET 的 Aspose.Words
-description: SystemFontSource 构造函数. 向量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 SystemFontSource 构造函数，实现高效的字体管理。立即使用优化的排版解决方案，提升您的网页设计！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-向量.
+Ctor.
 
 ```csharp
 public SystemFontSource()
@@ -18,7 +18,7 @@ public SystemFontSource()
 
 ## 例子
 
-演示如何访问文档的系统字体源并设置字体替代品。
+展示如何访问文档的系统字体源并设置字体替代。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
+// 将 Windows 字体目录中存在的字体设置为不存在的字体的替代字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -60,13 +60,14 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然让我们保留系统字体源以及替代品。
+// 重置字体源仍然会给我们留下系统字体源以及替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### 也可以看看
@@ -79,7 +80,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(*int*) {#constructor_1}
 
-向量.
+Ctor.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -87,11 +88,11 @@ public SystemFontSource(int priority)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
+| priority | Int32 | 字体源优先级。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 
 ## 例子
 
-演示如何访问文档的系统字体源并设置字体替代品。
+展示如何访问文档的系统字体源并设置字体替代。
 
 ```csharp
 Document doc = new Document();
@@ -119,7 +120,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
+// 将 Windows 字体目录中存在的字体设置为不存在的字体的替代字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -133,13 +134,14 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然让我们保留系统字体源以及替代品。
+// 重置字体源仍然会给我们留下系统字体源以及替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### 也可以看看

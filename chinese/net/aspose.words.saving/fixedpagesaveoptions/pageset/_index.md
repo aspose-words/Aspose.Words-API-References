@@ -2,8 +2,8 @@
 title: FixedPageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: 用于 .NET 的 Aspose.Words
-description: FixedPageSaveOptions PageSet 财产. 获取或设置要呈现的页面 默认为文档中的所有页面 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FixedPageSaveOptions PageSet 控制文档渲染。轻松选择特定页面或全部选择以实现无缝输出。优化您的工作流程！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -18,7 +18,7 @@ public PageSet PageSet { get; set; }
 
 ## 例子
 
-演示如何根据精确的页面索引提取页面。
+展示如何根据精确的页面索引提取页面。
 
 ```csharp
 Document doc = new Document();
@@ -35,14 +35,14 @@ for (int i = 1; i < 6; i++)
 // 修改该方法将文档转换为 .XPS 的方式。
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// 使用“PageSet”属性选择一组文档页面以保存到输出 XPS。
-// 在本例中，我们将通过从零开始的索引仅选择三个页面：第 1 页、第 2 页和第 4 页。
+// 使用“PageSet”属性选择一组文档页面来保存到输出 XPS。
+// 在这种情况下，我们将通过从零开始的索引仅选择三页：第 1 页、第 2 页和第 4 页。
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
-演示如何仅将文档中的部分页面转换为 PDF。
+展示如何将文档中的部分页面转换为 PDF。
 
 ```csharp
 Document doc = new Document();
@@ -60,10 +60,10 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
     // 修改该方法将文档转换为 .PDF 的方式。
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // 将“PageIndex”设置为“1”以从第二页开始渲染文档的一部分。
+    // 将“PageIndex”设置为“1”以从第二页开始呈现文档的一部分。
     options.PageSet = new PageSet(1);
 
-    // 该文档将从第二页开始包含一页，仅包含第二页。
+    // 本文档将包含从第二页开始的一页，其中只包含第二页。
     doc.Save(stream, options);
 }
 ```
@@ -85,8 +85,8 @@ for (int i = 0; i < 5; i++)
 // 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 下面是三个 PageSet 属性，我们可以使用它们来过滤出一组页面
-// 我们的文档根据页码奇偶性保存在输出 PDF 文档中。
+// 下面是三个 PageSet 属性，我们可以用它们来从中筛选出一组页面
+// 根据页码的奇偶性将我们的文档保存在输出 PDF 文档中。
 // 1 - 仅保存偶数页：
 options.PageSet = PageSet.Even;
 
@@ -97,7 +97,7 @@ options.PageSet = PageSet.Odd;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
 
-// 3 - 保存每个页面：
+// 3 - 保存每一页：
 options.PageSet = PageSet.All;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);

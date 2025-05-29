@@ -2,10 +2,10 @@
 title: FieldXE Class
 linktitle: FieldXE
 articleTitle: FieldXE
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldXE 班级. 实现 XE 字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldXE 类，这是您在文档处理中高效实现 XE 字段的解决方案。立即增强您的工作流程！
 type: docs
-weight: 2610
+weight: 3020
 url: /zh/net/aspose.words.fields/fieldxe/
 ---
 ## FieldXE class
@@ -28,23 +28,23 @@ public class FieldXE : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段结束的节点。 |
 | [EntryType](../../aspose.words.fields/fieldxe/entrytype/) { get; set; } | 获取或设置索引条目类型。 |
-| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式进行类型化访问的对象。 |
 | [IsBold](../../aspose.words.fields/fieldxe/isbold/) { get; set; } | 获取或设置是否对条目的页码应用粗体格式。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确（陈旧）。 |
-| [IsItalic](../../aspose.words.fields/fieldxe/isitalic/) { get; set; } | 获取或设置是否将斜体格式应用于条目的页码。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（陈旧）。 |
+| [IsItalic](../../aspose.words.fields/fieldxe/isitalic/) { get; set; } | 获取或设置是否对条目的页码应用斜体格式。 |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的 LCID。 |
 | [PageNumberReplacement](../../aspose.words.fields/fieldxe/pagenumberreplacement/) { get; set; } | 获取或设置用于代替页码的文本。 |
-| [PageRangeBookmarkName](../../aspose.words.fields/fieldxe/pagerangebookmarkname/) { get; set; } | 获取或设置书签的名称，该书签标记作为条目页码插入的页面范围。 |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
+| [PageRangeBookmarkName](../../aspose.words.fields/fieldxe/pagerangebookmarkname/) { get; set; } | 获取或设置标记插入为条目页码的页面范围的书签名称。 |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以是`无效的`. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
 | [Text](../../aspose.words.fields/fieldxe/text/) { get; set; } | 获取或设置条目的文本。 |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
-| [Yomi](../../aspose.words.fields/fieldxe/yomi/) { get; set; } | 获取或设置索引条目的 yomi（用于排序索引的第一个拼音字符） |
+| [Yomi](../../aspose.words.fields/fieldxe/yomi/) { get; set; } | 获取或设置索引条目的读音（用于排序索引的第一个语音字符） |
 
 ## 方法
 
@@ -52,10 +52,10 @@ public class FieldXE : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中移除该字段。返回紧接该字段之后的节点。如果该字段的末尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被移除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果字段已在更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果字段已在更新，则抛出异常。 |
 
 ## 评论
 
@@ -63,20 +63,20 @@ public class FieldXE : Field
 
 ## 例子
 
-演示如何创建 INDEX 字段，然后使用 XE 字段用条目填充该字段。
+展示如何创建 INDEX 字段，然后使用 XE 字段填充条目。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
-// 每个条目都会在左侧显示XE字段的Text属性值
+// 每个条目将在左侧显示 XE 字段的 Text 属性值
 // 以及右侧包含 XE 字段的页面。
 // 如果 XE 字段的“Text”属性具有相同的值，
 // INDEX 字段会将它们分组为一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// 配置 INDEX 字段仅显示范围内的 XE 字段
+// 配置 INDEX 字段仅显示边界内的 XE 字段
 // 名为“MainBookmark”的书签，其“EntryType”属性的值为“A”。
 // 对于 INDEX 和 XE 字段，“EntryType”属性仅使用其字符串值的第一个字符。
 index.BookmarkName = "MainBookmark";
@@ -84,13 +84,13 @@ index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// 在新页面上，以与值匹配的名称开始书签
+// 在新页面上，使用与值匹配的名称开始书签
 // INDEX 字段的“BookmarkName”属性。
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// INDEX 字段将拾取此条目，因为它位于书签内，
-// 并且它的条目类型也与 INDEX 字段的条目类型匹配。
+// INDEX 字段将选取此条目，因为它位于书签内，
+// 并且其条目类型也与 INDEX 字段的条目类型匹配。
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
@@ -103,7 +103,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// 结束书签并随后插入 XE 字段。
+// 结束书签并在之后插入 XE 字段。
 // 与INDEX字段类型相同，但不会出现
 // 因为它超出了书签的边界。
 builder.EndBookmark("MainBookmark");
@@ -117,28 +117,28 @@ doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ```
 
-演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
+展示如何使用 XE 字段填充 INDEX 字段，以及如何修改其外观。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
-// 每个条目都会在左侧显示XE字段的Text属性值，
-// 以及右侧包含 XE 字段的页码。
+// 每个条目将在左侧显示 XE 字段的 Text 属性值，
+// 以及右侧包含 XE 字段的页面的编号。
 // 如果 XE 字段的“Text”属性具有相同的值，
 // INDEX 字段会将它们分组为一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
 // 将此属性的值设置为“A”将按首字母对所有条目进行分组，
-// 并将该字母以大写形式放在每个组的上方。
+// 并将大写字母放在每个组上方。
 index.Heading = "A";
 
-// 将 INDEX 字段创建的表设置为跨越 2 列。
+// 设置由INDEX字段创建的表跨越2列。
 index.NumberOfColumns = "2";
 
-// 设置省略起始字母在“ac”字符范围之外的所有条目。
+// 设置省略任何以“ac”字符范围之外的字母开头的条目。
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
@@ -174,7 +174,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
 // 该条目不会出现，因为它以字母“D”开头，
-// 它超出了 INDEX 字段的 LetterRange 属性定义的“ac”字符范围。
+// 这超出了 INDEX 字段的 LetterRange 属性定义的“ac”字符范围。
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

@@ -2,15 +2,15 @@
 title: ConditionalStyleCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyleCollection Item 财产. 检索ConditionalStyle按条件样式类型的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ConditionalStyleCollection Item 属性以便按类型轻松访问 ConditionalStyle 对象，从而毫不费力地增强您的样式功能。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/conditionalstylecollection/item/
 ---
 ## ConditionalStyleCollection indexer (1 of 2)
 
-检索[`ConditionalStyle`](../../conditionalstyle/)按条件样式类型的对象.
+检索[`ConditionalStyle`](../../conditionalstyle/)按条件样式类型对象.
 
 ```csharp
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
@@ -39,9 +39,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是仅影响部分表格单元格的格式更改
+// 基于谓词，例如单元格位于最后一行。
+// 以下是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -70,7 +70,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// 将包含所有条件样式的自定义样式应用于表格。
+// 将包含所有条件样式的自定义样式应用到表格。
 table.Style = tableStyle;
 
 // 我们的样式默认应用一些条件样式。
@@ -95,7 +95,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ## ConditionalStyleCollection indexer (2 of 2)
 
-检索[`ConditionalStyle`](../../conditionalstyle/)按索引的对象.
+检索[`ConditionalStyle`](../../conditionalstyle/)按索引排序的对象.
 
 ```csharp
 public ConditionalStyle this[int index] { get; }
@@ -128,9 +128,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是仅影响部分表格单元格的格式更改
+// 基于谓词，例如单元格位于最后一行。
+// 以下是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -159,7 +159,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// 将包含所有条件样式的自定义样式应用于表格。
+// 将包含所有条件样式的自定义样式应用到表格。
 table.Style = tableStyle;
 
 // 我们的样式默认应用一些条件样式。

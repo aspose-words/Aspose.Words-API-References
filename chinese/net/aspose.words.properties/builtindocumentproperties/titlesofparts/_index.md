@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.TitlesOfParts
 linktitle: TitlesOfParts
 articleTitle: TitlesOfParts
-second_title: 用于 .NET 的 Aspose.Words
-description: BuiltInDocumentProperties TitlesOfParts 财产. 数组中的每个字符串指定文档中某个部分的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BuiltInDocumentProperties 中的 TitlesOfParts 属性。使用清晰、可自定义的各部分名称，轻松管理文档各部分，从而增强组织性。
 type: docs
-weight: 300
+weight: 330
 url: /zh/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
@@ -28,8 +28,8 @@ Aspose.Words 不会更新此属性。
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // 我们可以通过以下方式找到这些集合的组合值
-//“文件”-> “属性”-> “高级属性”-> “内容”选项卡。
-// HeadingPairs 属性是 <string, int> 的集合配对
+//“文件”->“属性”->“高级属性”->“内容”选项卡。
+// HeadingPairs 属性是 <string, int> 对的集合，
 // 确定标题跨越多少个文档部分。
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 

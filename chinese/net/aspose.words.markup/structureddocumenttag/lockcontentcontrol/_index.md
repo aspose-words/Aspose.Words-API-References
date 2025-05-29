@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag LockContentControl 财产. 当设置为真的 此属性将禁止用户删除此特殊测试 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 StructuredDocumentTag LockContentControl 属性如何通过阻止用户删除重要内容来增强文档安全性。了解更多！
 type: docs
 weight: 190
 url: /zh/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-当设置为`真的` ，此属性将禁止用户删除此**特殊测试**.
+设置为`真的` ，此属性将禁止用户删除此**特殊和差别待遇**.
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -18,13 +18,13 @@ public bool LockContentControl { get; set; }
 
 ## 例子
 
-演示如何对结构化文档标签应用编辑限制。
+展示如何对结构化文档标签应用编辑限制。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入纯文本结构化文档标签，该标签充当文本框，提示用户填写。
+// 插入纯文本结构化文档标签，该标签作为文本框，提示用户填写。
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // 将“LockContents”属性设置为“true”以禁止用户编辑此文本框的内容。

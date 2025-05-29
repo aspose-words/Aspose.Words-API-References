@@ -2,15 +2,15 @@
 title: XmlMapping.StoreItemId
 linktitle: StoreItemId
 articleTitle: StoreItemId
-second_title: 用于 .NET 的 Aspose.Words
-description: XmlMapping StoreItemId 财产. 指定自定义 XML 数据部分的自定义 XML 数据标识符其中 应用于评估XPath表达式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 XmlMapping StoreItemId 属性，用于自定义 XML 数据标识符。使用我们独特的解决方案增强 XPath 评估，实现高效的数据管理。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-指定自定义 XML 数据部分的自定义 XML 数据标识符，其中 应用于评估[`XPath`](../xpath/)表达式.
+指定自定义 XML 数据部分的自定义 XML 数据标识符，该标识符应用于评估[`XPath`](../xpath/)表达式.
 
 ```csharp
 public string StoreItemId { get; }
@@ -18,13 +18,13 @@ public string StoreItemId { get; }
 
 ## 例子
 
-演示如何获取 XML 部件的自定义 XML 数据标识符。
+展示如何获取 XML 部分的自定义 XML 数据标识符。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");
 
 // 结构化文档标签具有 GUID 形式的 ID。
-StructuredDocumentTag tag = (StructuredDocumentTag) doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
+StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
 
 Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreItemId);
 ```

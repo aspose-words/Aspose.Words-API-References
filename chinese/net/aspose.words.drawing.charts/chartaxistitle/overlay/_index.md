@@ -2,10 +2,10 @@
 title: ChartAxisTitle.Overlay
 linktitle: Overlay
 articleTitle: Overlay
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxisTitle Overlay 财产. 确定是否允许其他图表元素与标题重叠 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxisTitle Overlay 属性，控制图表元素重叠，获得更清晰的视觉效果。轻松提升数据呈现效果！
 type: docs
-weight: 10
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -33,12 +33,15 @@ seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// 设置轴标题。
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

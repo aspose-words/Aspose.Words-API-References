@@ -2,15 +2,15 @@
 title: FieldIndexFormat Enum
 linktitle: FieldIndexFormat
 articleTitle: FieldIndexFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldIndexFormat 枚举. 指定格式FieldIndex文档中的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.FieldIndexFormat 枚举，自定义文档中的 FieldIndex 格式。轻松增强文档结构！
 type: docs
-weight: 2070
+weight: 2480
 url: /zh/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration
 
-指定格式[`FieldIndex`](../fieldindex/)文档中的字段.
+指定[`FieldIndex`](../fieldindex/)文档中的字段。
 
 ```csharp
 public enum FieldIndexFormat
@@ -27,6 +27,26 @@ public enum FieldIndexFormat
 | Bulleted | `4` | 项目符号。 |
 | Formal | `5` | 正式的。 |
 | Simple | `6` | 简单的。 |
+
+## 例子
+
+展示如何格式化 FieldIndex 字段。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("A");
+builder.InsertBreak(BreakType.LineBreak);
+builder.InsertField("XE \"A\"");
+builder.Write("B");
+
+builder.InsertField(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", null);
+
+doc.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
+```
 
 ### 也可以看看
 

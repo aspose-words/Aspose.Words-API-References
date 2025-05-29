@@ -2,10 +2,10 @@
 title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase ParentParagraph 财产. 返回直接父段落 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ShapeBase ParentParagraph 属性——有效访问直接父段落，以简化内容管理和增强组织。
 type: docs
-weight: 410
+weight: 430
 url: /zh/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -22,7 +22,7 @@ public Paragraph ParentParagraph { get; }
 
 ## 例子
 
-演示如何插入文本框并设置其内容的字体。
+展示如何插入文本框并设置其内容的字体。
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// 将形状的“Font”对象的“Hidden”属性设置为“true”以隐藏文本框
-// 并折叠它通常占用的空间。
+// 将形状的“Font”对象的“Hidden”属性设置为“true”，以隐藏文本框
+// 并折叠它通常占据的空间。
 // 将形状的“Font”对象的“Hidden”属性设置为“false”以使文本框可见。
 shape.Font.Hidden = hideShape;
 
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// 将构建器从文本框中移回主文档中。
+// 将构建器从文本框移回主文档。
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

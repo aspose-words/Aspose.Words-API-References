@@ -2,15 +2,15 @@
 title: DocumentReaderPluginLoadException Class
 linktitle: DocumentReaderPluginLoadException
 articleTitle: DocumentReaderPluginLoadException
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.DocumentReaderPluginLoadException 班级. 在文档加载过程中当无法加载读取文档格式所需的插件时抛出 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.DocumentReaderPluginLoadException 类，旨在通过无缝管理格式兼容性问题来增强文档加载。
 type: docs
-weight: 460
+weight: 680
 url: /zh/net/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException class
 
-在文档加载过程中，当无法加载读取文档格式所需的插件时抛出。
+在文档加载期间抛出，当无法加载读取文档格式所需的插件时。
 
 ```csharp
 public class DocumentReaderPluginLoadException : Exception

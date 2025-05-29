@@ -2,15 +2,15 @@
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 linktitle: AddSpaceBetweenFarEastAndAlpha
 articleTitle: AddSpaceBetweenFarEastAndAlpha
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha 财产. 获取或设置一个标志指示当前段落中拉丁文本的regions 和东亚文本区域之间的字符间距是否自动调整 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ParagraphFormat AddSpaceBetweenFarEastAndAlpha 属性优化文档的外观，增强拉丁文本和东亚文本之间的间距。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-获取或设置一个标志，指示当前段落中拉丁文本的regions 和东亚文本区域之间的字符间距是否自动调整。
+获取或设置一个标志，指示当前段落中的拉丁文本区域和东亚文本区域之间的字符间距是否自动调整。
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -18,7 +18,7 @@ public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 
 ## 例子
 
-演示如何在文档中插入段落。
+展示如何在文档中插入段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在附加文本后结束段落
-// 然后开始一个新行，添加一个新段落。
+//“Writeln”方法在附加文本后结束段落
+// 然后开始新的一行，添加一个新段落。
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

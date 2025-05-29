@@ -2,8 +2,8 @@
 title: HtmlLoadOptions.BlockImportMode
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlLoadOptions BlockImportMode 财产. 获取或设置一个值该值指定如何导入块级元素的属性 默认值为Merge 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HtmlLoadOptions 的 BlockImportMode 属性，自定义块级元素导入。控制合并，实现最佳内容管理！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -18,7 +18,7 @@ public BlockImportMode BlockImportMode { get; set; }
 
 ## 例子
 
-显示如何从基于 HTML 的文档导入块级元素的属性。
+展示如何从基于 HTML 的文档导入块级元素的属性。
 
 ```csharp
 const string html = @"

@@ -2,15 +2,15 @@
 title: Glyph.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
-second_title: 用于 .NET 的 Aspose.Words
-description: Glyph GetWidth 方法. 返回字形的宽度提前以点为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Glyph GetWidth 方法以有效地检索以点为单位的字形宽度，从而增强您的排版和设计精度。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.shaping/glyph/getwidth/
 ---
 ## Glyph.GetWidth method
 
-返回字形的宽度（提前），以点为单位。
+以点为单位返回字形的宽度（前进）。
 
 ```csharp
 public virtual float GetWidth(int em, float fontSize)

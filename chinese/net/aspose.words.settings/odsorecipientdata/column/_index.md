@@ -2,8 +2,8 @@
 title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
-second_title: 用于 .NET 的 Aspose.Words
-description: OdsoRecipientData Column 财产. 指定数据源中包含当前记录的唯一数据的列 默认值为 0 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OdsoRecipientData 列属性，轻松识别记录的唯一数据列，增强数据管理。默认值为 0。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsorecipientdata/column/
@@ -18,7 +18,7 @@ public int Column { get; set; }
 
 ## 例子
 
-显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
+展示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们还可以单独删除元素，或者一次性清除整个集合。
+// 我们还可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

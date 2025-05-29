@@ -2,15 +2,15 @@
 title: IDocumentSavingCallback Interface
 linktitle: IDocumentSavingCallback
 articleTitle: IDocumentSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.IDocumentSavingCallback 界面. 如果您想在保存文档期间调用自己的自定义方法请实现此接口 在 C#.
+second_title: Aspose.Words for .NET
+description: 实现 Aspose.Words.Saving.IDocumentSavingCallback 接口来创建文档的自定义保存方法，增强您的文档管理解决方案。
 type: docs
-weight: 5150
+weight: 5900
 url: /zh/net/aspose.words.saving/idocumentsavingcallback/
 ---
 ## IDocumentSavingCallback interface
 
-如果您想在保存文档期间调用自己的自定义方法，请实现此接口。
+如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
 
 ```csharp
 public interface IDocumentSavingCallback
@@ -20,7 +20,7 @@ public interface IDocumentSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | 调用此函数以通知文档保存进度。 |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | 这是为了通知文档保存进度。 |
 
 ## 例子
 
@@ -48,7 +48,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -56,7 +56,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存期间调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -73,13 +73,13 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// 允许的最大持续时间（以秒为单位）。
+    /// 允许的最大持续时间（秒）。
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
 ```
 
-演示如何在保存为 docx 时管理文档。
+展示如何在保存为 docx 的同时管理文档。
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -103,7 +103,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -111,7 +111,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存期间调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -128,13 +128,13 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// 允许的最大持续时间（以秒为单位）。
+    /// 允许的最大持续时间（秒）。
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
 ```
 
-演示如何在保存到 xamlflow 时管理文档。
+展示如何在保存到 xamlflow 时管理文档。
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -158,7 +158,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -166,7 +166,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存期间调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -183,7 +183,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// 允许的最大持续时间（以秒为单位）。
+    /// 允许的最大持续时间（秒）。
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

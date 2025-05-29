@@ -2,15 +2,15 @@
 title: CustomPart.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPart Clone 方法. 制作对象的足够深的副本 不重复字节Data值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPart Clone 方法，高效创建对象的深度复制，无需复制数据字节。立即优化您的编码流程！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-制作对象的“足够深”的副本。 不重复字节[`Data`](../data/)值.
+制作对象的“足够深”副本。 不复制[`Data`](../data/)值.
 
 ```csharp
 public CustomPart Clone()
@@ -18,7 +18,7 @@ public CustomPart Clone()
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

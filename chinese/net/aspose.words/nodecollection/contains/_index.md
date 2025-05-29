@@ -2,8 +2,8 @@
 title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection Contains 方法. 确定节点是否在集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 NodeCollection Contains 方法如何有效地检查集合中是否存在节点，从而增强数据管理能力。
 type: docs
 weight: 50
 url: /zh/net/aspose.words/nodecollection/contains/
@@ -22,7 +22,7 @@ public bool Contains(Node node)
 
 ### 返回值
 
-`真的`如果在集合中找到项目；否则，`错误的`。
+`真的`如果在集合中找到该项目；否则，`错误的`。
 
 ## 评论
 
@@ -36,12 +36,12 @@ public bool Contains(Node node)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 通过使用 DocumentBuilder 插入 Runs 来将文本添加到文档中。
+// 通过使用 DocumentBuilder 插入 Runs 向文档添加文本。
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
 // 每次调用“Write”方法都会创建一个新的 Run，
-// 然后出现在父段落的 RunCollection 中。
+// 然后出现在父 Paragraph 的 RunCollection 中。
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
@@ -53,7 +53,7 @@ runs.Insert(3, newRun);
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// 访问各个运行并删除它们以从文档中删除它们的文本。
+// 访问单个运行并将其删除以从文档中删除其文本。
 Run run = runs[1];
 runs.Remove(run);
 

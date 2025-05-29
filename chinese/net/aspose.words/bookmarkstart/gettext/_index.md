@@ -2,15 +2,15 @@
 title: BookmarkStart.GetText
 linktitle: GetText
 articleTitle: GetText
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkStart GetText 方法. 返回空字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarkStart GetText 方法——轻松高效地检索文本。立即简化您的编码并增强功能！
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmarkstart/gettext/
 ---
 ## BookmarkStart.GetText method
 
-返回空字符串。
+返回一个空字符串。
 
 ```csharp
 public override string GetText()
@@ -18,7 +18,7 @@ public override string GetText()
 
 ### 返回值
 
-一个空字符串。
+空字符串。
 
 ## 例子
 
@@ -36,7 +36,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

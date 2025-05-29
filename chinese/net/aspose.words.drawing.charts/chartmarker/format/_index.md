@@ -2,8 +2,8 @@
 title: ChartMarker.Format
 linktitle: Format
 articleTitle: Format
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartMarker Format 财产. 提供对此标记的填充和线条格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartMarker 格式属性，轻松访问可自定义的填充和线条样式，使用独特的标记增强数据可视化。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartmarker/format/

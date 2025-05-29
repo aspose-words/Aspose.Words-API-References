@@ -2,8 +2,8 @@
 title: RowFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: RowFormat ClearFormatting 方法. 重置为默认行格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 RowFormat ClearFormatting 方法如何轻松地将数据恢复为默认样式，从而增强清晰度和呈现效果。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/rowformat/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## 例子
 
-演示如何构建具有自定义边框的表格。
+展示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // 为文档生成器设置表格格式选项
-// 将它们应用到我们添加的每一行和单元格。
+// 将它们应用于我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,7 +50,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// 更改格式会将其应用到当前单元格，
+// 更改格式将应用于当前单元格，
 // 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适合垂直文本。
+// 增加行高以适应垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

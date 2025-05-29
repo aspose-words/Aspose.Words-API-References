@@ -2,15 +2,15 @@
 title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: Table RelativeHorizontalAlignment 财产. 获取或设置浮动表相对水平对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Table RelativeHorizontalAlignment 属性，轻松调整表格的水平对齐方式，以增强布局控制和视觉吸引力。
 type: docs
 weight: 230
 url: /zh/net/aspose.words.tables/table/relativehorizontalalignment/
 ---
 ## Table.RelativeHorizontalAlignment property
 
-获取或设置浮动表相对水平对齐方式。
+获取或设置浮动表相对水平对齐。
 
 ```csharp
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// 将表格的位置设置为页面上的某个位置，例如本例中的右下角。
+// 将表格的位置设置为页面上的某个位置，例如，在本例中为右下角。
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // 我们还可以设置距插入表格的段落位置的水平和垂直偏移（以磅为单位）。
+ // 我们还可以从插入表格的段落位置设置水平和垂直偏移量（以点为单位）。
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

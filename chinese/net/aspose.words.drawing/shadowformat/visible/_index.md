@@ -2,10 +2,10 @@
 title: ShadowFormat.Visible
 linktitle: Visible
 articleTitle: Visible
-second_title: 用于 .NET 的 Aspose.Words
-description: ShadowFormat Visible 财产. 返回真的如果应用于此实例的格式可见 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShadowFormat Visible 属性。轻松检查格式是否可见，提升文档的外观和清晰度。
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing/shadowformat/visible/
 ---
 ## ShadowFormat.Visible property
@@ -18,7 +18,7 @@ public bool Visible { get; }
 
 ## 评论
 
-不像[`Clear`](../clear/) 分配`错误的`to Visible 不会清除格式， 它仅隐藏形状效果。
+不像[`Clear`](../clear/)，分配`错误的`可见不会清除格式， 它只会隐藏形状效果。
 
 ## 例子
 
@@ -28,10 +28,10 @@ public bool Visible { get; }
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

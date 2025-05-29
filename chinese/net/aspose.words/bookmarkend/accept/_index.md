@@ -2,8 +2,8 @@
 title: BookmarkEnd.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkEnd Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarkEnd Accept 方法，提升访客参与度，优化网站用户体验。立即提升您网站的性能！
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmarkend/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-`错误的`如果访问者请求停止枚举。
+`错误的`如果访问者要求停止计数。
 
 ## 评论
 
-通话[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/)。
+呼叫[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
 ## 例子
 
@@ -46,7 +46,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

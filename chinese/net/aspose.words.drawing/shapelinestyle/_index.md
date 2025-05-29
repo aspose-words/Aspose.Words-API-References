@@ -2,10 +2,10 @@
 title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.ShapeLineStyle 枚举. 指定复合线样式Shape 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.ShapeLineStyle 枚举，使用可自定义的形状复合线条样式来增强文档设计。
 type: docs
-weight: 1270
+weight: 1660
 url: /zh/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -22,14 +22,14 @@ public enum ShapeLineStyle
 | --- | --- | --- |
 | Single | `0` | 单行。 |
 | Double | `1` | 等宽双线。 |
-| ThickThin | `2` | 双线，一粗一细。 |
-| ThinThick | `3` | 双线，一根细，一根粗。 |
-| Triple | `4` | 三行，细，粗，细。 |
+| ThickThin | `2` | 双线，一条粗，一条细。 |
+| ThinThick | `3` | 双线，一细一粗。 |
+| Triple | `4` | 三条线，细，粗，细。 |
 | Default | `0` | 默认值为Single. |
 
 ## 例子
 
-显示如何更改笔划属性。
+显示如何改变笔触属性。
 
 ```csharp
 Document doc = new Document();
@@ -42,8 +42,8 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
 // 1 - 填充，适用于形状轮廓内的区域：
 shape.Fill.ForeColor = Color.White;
 
-// 2 - 笔划，标记形状的轮廓：
-// 修改该形状笔划的各种属性。
+// 2 - 笔触，标记形状的轮廓：
+// 修改此形状的笔触的各种属性。
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

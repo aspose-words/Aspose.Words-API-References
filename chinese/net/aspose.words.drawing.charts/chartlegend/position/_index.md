@@ -2,23 +2,27 @@
 title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegend Position 财产. 指定图例在图表上的位置 默认值为Right 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartLegend Position 属性，轻松自定义图表的图例位置，以增强清晰度和视觉吸引力。
 type: docs
-weight: 30
+weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-指定图例在图表上的位置。 默认值为Right.
+指定图表上图例的位置。
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
 
+## 评论
+
+默认值为Right适用于 Word 2016 之前的图表和 Top用于 Word 2016 图表。
+
 ## 例子
 
-演示如何编辑图表图例的外观。
+展示如何编辑图表图例的外观。
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +40,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// 通过允许其他图表元素（例如图表）与图例重叠，为它们提供更多空间。
+// 允许其他图表元素（例如图形）与图例重叠，从而为它们提供更多空间。
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

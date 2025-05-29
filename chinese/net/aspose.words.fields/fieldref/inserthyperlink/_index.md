@@ -2,15 +2,15 @@
 title: FieldRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldRef InsertHyperlink 财产. 获取或设置是否创建指向已添加书签的段落的超链接 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldRef InsertHyperlink 属性，轻松创建指向书签段落的超链接，增强文档中的导航和用户体验。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldref/inserthyperlink/
 ---
 ## FieldRef.InsertHyperlink property
 
-获取或设置是否创建指向已添加书签的段落的超链接。
+获取或设置是否创建指向书签段落的超链接。
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -18,7 +18,7 @@ public bool InsertHyperlink { get; set; }
 
 ## 例子
 
-演示如何将 REF 字段插入到参考书签。
+显示如何将 REF 字段插入到参考书签。
 
 ```csharp
 public void FieldRef()
@@ -50,24 +50,24 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // 显示文档中出现的书签的列表编号。
+    // 显示文档中书签的列表编号。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // 显示书签的列表编号，但省略非分隔符（例如尖括号）。
+    // 显示书签的列表编号，但省略非分隔符，例如尖括号。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // 向下移动一级列表。
+    // 向下移动一个列表级别。
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // 显示书签的列表编号及其上方所有列表级别的编号。
+    // 显示书签的列表编号以及其上所有列表级别的编号。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -81,7 +81,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // 在文档的末尾，书签将在此处显示为列表项。
+    // 在文档末尾，书签将作为列表项显示在此处。
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
@@ -91,7 +91,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// 让文档构建器插入 REF 字段，用它引用书签，并在其前后添加文本。
+/// 获取文档构建器插入 REF 字段，用它引用书签，并在其前后添加文本。
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

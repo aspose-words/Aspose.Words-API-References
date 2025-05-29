@@ -2,15 +2,15 @@
 title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFormat GeneralFormats 财产. 获取应用于数字文本或任何字段结果的通用格式的集合 对应于  开关 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldFormat GeneralFormats 属性，提供多种数字文本格式集合，以增强数据呈现和结果。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-获取应用于数字、文本或任何字段结果的通用格式的集合。 对应于 \* 开关。
+获取应用于数字、文本或任何字段结果的通用格式集合。 对应于 \* 开关。
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -18,7 +18,7 @@ public GeneralFormatCollection GeneralFormats { get; }
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

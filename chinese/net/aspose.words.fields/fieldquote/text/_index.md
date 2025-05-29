@@ -2,8 +2,8 @@
 title: FieldQuote.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldQuote Text 财产. 获取或设置要检索的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: FieldQuote Text 属性。轻松检索或设置文本，增强数据管理。这项强大功能将简化您的工作流程！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldquote/text/
@@ -24,7 +24,7 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个 QUOTE 字段，该字段将显示其 Text 属性的值。
+// 插入一个 QUOTE 字段，它将显示其 Text 属性的值。
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
@@ -41,7 +41,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// 更新所有字段以显示正确的结果。
+// 更新所有字段以显示其正确结果。
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);

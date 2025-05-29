@@ -2,15 +2,15 @@
 title: IWarningCallback.Warning
 linktitle: Warning
 articleTitle: Warning
-second_title: 用于 .NET 的 Aspose.Words
-description: IWarningCallback Warning 方法. Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words 中的 IWarningCallback 方法。无缝处理文档加载和保存问题，保留格式和数据完整性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法。
+Aspose.Words 在文档加载或保存过程中遇到某些问题时会调用此方法，这可能会导致格式或数据保真度的丢失。
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -18,12 +18,12 @@ public void Warning(WarningInfo info)
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

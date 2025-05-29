@@ -2,8 +2,8 @@
 title: DigitalSignature.IsValid
 linktitle: IsValid
 articleTitle: IsValid
-second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignature IsValid 财产. 返回真的如果此数字签名有效且文档未被篡改 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DigitalSignature IsValid 属性确保文档完整性，确认真实性并防止篡改。信任您的数字签名！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -18,7 +18,7 @@ public bool IsValid { get; }
 
 ## 例子
 
-演示如何验证和显示有关文档中每个签名的信息。
+展示如何验证和显示文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

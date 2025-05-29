@@ -2,15 +2,15 @@
 title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle RightPadding 财产. 获取或设置要添加到表格单元格内容右侧的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 TableStyle RightPadding 属性，使用精确的右间距自定义表格单元格布局，以增强可读性和演示效果。
 type: docs
 weight: 110
 url: /zh/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-获取或设置要添加到表格单元格内容右侧的空间量（以磅为单位）。
+获取或设置在表格单元格内容右侧添加的空间量（以点为单位）。
 
 ```csharp
 public double RightPadding { get; set; }
@@ -18,7 +18,7 @@ public double RightPadding { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

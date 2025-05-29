@@ -2,8 +2,8 @@
 title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge CleanupOptions 财产. 获取或设置一组标志指定在邮件合并期间应删除哪些项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 CleanupOptions 属性优化您的邮件合并 - 轻松管理要删除的项目，以实现无缝、高效的流程。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -18,7 +18,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ## 例子
 
-演示如何删除邮件合并可能从合并输出文档中创建的空段落。
+展示如何从合并输出文档中删除邮件合并可能创建的空段落。
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +51,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-演示如何自动删除邮件合并期间未使用的 MERGEFIELD。
+显示如何自动删除邮件合并期间未使用的 MERGEFIELD。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用 MERGEFIELD 为邮件合并数据源表的三列创建一个文档，
-// 然后创建一个只有两列的表，其名称与我们的 MERGEFIELD 匹配。
+// 创建一个包含邮件合并数据源表三列的 MERGEFIELDs 文档，
+// 然后创建一个只有两列且其名称与我们的 MERGEFIELDs 匹配的表。
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -71,9 +71,9 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// 我们的第三个 MERGEFIELD 引用了“City”列，该列在我们的数据源中不存在。
-// 邮件合并将使此类字段保持在合并前的状态不变。
-// 将“CleanupOptions”属性设置为“RemoveUnusedFields”将删除所有 MERGEFIELD
+// 我们的第三个 MERGEFIELD 引用了“城市”列，但该列在我们的数据源中不存在。
+// 邮件合并将使此类字段保持合并前的状态不变。
+// 将“CleanupOptions”属性设置为“RemoveUnusedFields”将删除任何 MERGEFIELDs
 // 在邮件合并期间未使用以清理合并文档。
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);

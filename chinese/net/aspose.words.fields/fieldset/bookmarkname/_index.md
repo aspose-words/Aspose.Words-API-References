@@ -2,8 +2,8 @@
 title: FieldSet.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSet BookmarkName 财产. 获取或设置书签的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSet 的 BookmarkName 属性，轻松管理和自定义您的书签。这项关键功能将增强您应用程序的导航体验！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldset/bookmarkname/
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## 例子
 
-演示如何使用 SET 字段创建带书签的文本，然后使用 REF 字段将其显示在文档中。
+展示如何使用 SET 字段创建书签文本，然后使用 REF 字段将其显示在文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 使用 SET 字段命名已添加书签的文本。
-// 该字段指的是“书签”，不是出现在文本中的书签结构，而是一个命名变量。
+ // 使用 SET 字段命名书签文本。
+// 该字段指的是“书签”，而不是文本中出现的书签结构，而是一个命名变量。
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";

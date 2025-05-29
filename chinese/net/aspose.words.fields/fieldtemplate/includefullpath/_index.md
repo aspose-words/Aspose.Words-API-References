@@ -2,8 +2,8 @@
 title: FieldTemplate.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldTemplate IncludeFullPath 财产. 获取或设置是否包含完整文件路径名 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldTemplate IncludeFullPath 属性可以轻松管理完整文件路径包含，从而提高项目的效率和组织性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -18,7 +18,7 @@ public bool IncludeFullPath { get; set; }
 
 ## 例子
 
-演示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
+展示如何使用 TEMPLATE 字段显示文档模板的本地文件系统位置。
 
 ```csharp
 Document doc = new Document();

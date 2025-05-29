@@ -2,8 +2,8 @@
 title: CustomPartCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection Count 财产. 获取集合中包含的元素数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPartCollection Count 属性，轻松检索集合中的元素总数，实现高效的数据管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/custompartcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

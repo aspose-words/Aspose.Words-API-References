@@ -2,15 +2,15 @@
 title: IImageSavingCallback Interface
 linktitle: IImageSavingCallback
 articleTitle: IImageSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.IImageSavingCallback 界面. 如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存图像请实现此接口可以被其他格式使用 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IImageSavingCallback 接口控制 Aspose.Words 中的图像保存。轻松优化文档导出为 HTML 和其他格式。
 type: docs
-weight: 5170
+weight: 5920
 url: /zh/net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存图像，请实现此接口。可以被其他格式使用。
+如果您想控制 Aspose.Words 在将文档保存为 HTML 格式时如何保存图像，请实现此接口。其他格式也可以使用。
 
 ```csharp
 public interface IImageSavingCallback
@@ -24,7 +24,7 @@ public interface IImageSavingCallback
 
 ## 例子
 
-演示如何在保存到 Markdown 文档期间重命名图像名称。
+展示如何在保存到 Markdown 文档时重命名图像名称。
 
 ```csharp
 public void RenameImages()
@@ -32,13 +32,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // 如果我们将包含图像的文档转换为 Markdown，我们最终会得到一个链接到多个图像的 Markdown 文件。
-    // 每个图像将以文件的形式存在于本地文件系统中。
+    // 每个图像都将以文件的形式存储在本地文件系统中。
     // 还有一个回调可以自定义每个图像的名称和文件系统位置。
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // 我们回调的 ImageSaving() 方法将在此时运行。
+    // 此时我们的回调的 ImageSaving() 方法将会运行。
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -52,7 +52,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// 重命名保存 Markdown 文档时生成的保存图像。
+/// 重命名保存 Markdown 文档时生成的已保存图像。
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -78,7 +78,7 @@ public class SavedImageRename : IImageSavingCallback
 }
 ```
 
-演示如何将文档拆分为多个部分并保存它们。
+展示如何将文档拆分成多个部分并保存它们。
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -91,16 +91,16 @@ public void DocumentPartsFileNames()
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // 如果我们正常保存文档，将会有一个输出 HTML
-    // 包含所有源文档内容的文档。
+    // 包含源文档的所有内容的文档。
     // 将“DocumentSplitCriteria”属性设置为“DocumentSplitCriteria.SectionBreak”
-    // 将我们的文档保存到多个 HTML 文件：每个部分一个。
+    // 将我们的文档保存到多个 HTML 文件中：每个部分一个。
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // 将自定义回调分配给“DocumentPartSavingCallback”属性以更改文档部分保存逻辑。
+    // 将自定义回调分配给“DocumentPartSavingCallback”属性以改变文档部分保存逻辑。
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
     // 如果我们将包含图像的文档转换为 html，我们最终会得到一个链接到多个图像的 html 文件。
-    // 每个图像将以文件的形式存在于本地文件系统中。
+    // 每个图像都将以文件的形式存储在本地文件系统中。
     // 还有一个回调可以自定义每个图像的名称和文件系统位置。
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
@@ -108,7 +108,7 @@ public void DocumentPartsFileNames()
 }
 
 /// <summary>
-/// 设置保存操作将文档分割成的输出文档的自定义文件名。
+/// 为保存操作将文档拆分成的输出文档设置自定义文件名。
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -143,11 +143,11 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // 以下是指定 Aspose.Words 保存文档各部分的位置的两种方法。
-        // 1 - 设置输出零件文件的文件名：
+        // 以下是两种指定 Aspose.Words 保存文档各个部分的位置的方法。
+        // 1 - 为输出部分文件设置文件名：
         args.DocumentPartFileName = partFileName;
 
-        // 2 - 为输出零件文件创建自定义流：
+        // 2 - 为输出部分文件创建自定义流：
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -173,8 +173,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // 以下是指定 Aspose.Words 保存文档各部分的位置的两种方法。
-        // 1 - 设置输出图像文件的文件名：
+        // 以下是两种指定 Aspose.Words 保存文档各个部分的位置的方法。
+        // 1 - 为输出图像文件设置文件名：
         args.ImageFileName = imageFileName;
 
         // 2 - 为输出图像文件创建自定义流：

@@ -2,8 +2,8 @@
 title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldShape 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldShape 构造函数——高效创建形状的首选解决方案。立即解锁无缝设计和功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldshape/fieldshape/

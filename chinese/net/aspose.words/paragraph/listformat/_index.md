@@ -2,15 +2,15 @@
 title: Paragraph.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Paragraph ListFormat 财产. 提供对段落的列表格式属性的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现段落 ListFormat 属性可以轻松访问和自定义段落的列表格式，增强文档的显示效果。
 type: docs
 weight: 150
 url: /zh/net/aspose.words/paragraph/listformat/
 ---
 ## Paragraph.ListFormat property
 
-提供对段落的列表格式属性的访问。
+提供对段落列表格式属性的访问。
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## 例子
 
-演示如何输出文档中作为列表项的所有段落。
+展示如何输出文档中所有列表项的段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

@@ -2,8 +2,8 @@
 title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldChar FieldType 财产. 返回字段的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldChar FieldType 属性，该属性可显示字段的类型，从而提升您的数据管理和编程效率。立即了解更多！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldchar/fieldtype/
@@ -34,7 +34,7 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// 检索代表文档中字段的外观对象。
+// 检索代表文档中的字段的外观对象。
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);

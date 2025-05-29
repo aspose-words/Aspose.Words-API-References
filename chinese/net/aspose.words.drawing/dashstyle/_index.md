@@ -2,10 +2,10 @@
 title: DashStyle Enum
 linktitle: DashStyle
 articleTitle: DashStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.DashStyle 枚举. 虚线样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.DashStyle 枚举，获取多种虚线样式。使用可自定义的视觉元素增强您的文档设计。
 type: docs
-weight: 930
+weight: 1250
 url: /zh/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -26,23 +26,23 @@ public enum DashStyle
 | ShortDashDot | `3` | 系统破折号样式。 |
 | ShortDashDotDot | `4` | 系统破折号样式。 |
 | Dot | `5` | 方点样式。 |
-| Dash | `6` | 破折号样式。 |
-| LongDash | `7` | 长破折号样式。 |
-| DashDot | `8` | 短划线。 |
-| LongDashDot | `9` | 长划线 短划线. |
-| LongDashDotDot | `10` | 长划线 短划线 短划线. |
-| Default | `0` | 与相同Solid. |
+| Dash | `6` | 破折号风格。 |
+| LongDash | `7` | 长划线样式。 |
+| DashDot | `8` | 冲刺短冲刺。 |
+| LongDashDot | `9` | 长划线短划线。 |
+| LongDashDotDot | `10` | 长划短划短划。 |
+| Default | `0` | 相同Solid. |
 
 ## 例子
 
-展示创造出各种形状。
+展现出多种多样的造型创造。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 下面是我们可以插入到文档中的四个形状的示例。
+// 1 - 虚线，水平，半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -80,7 +80,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 翻转方向的箭头，填充 Aspose 徽标：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -93,7 +93,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 在获得显示形状之前，将图像翻转到另一个方向以取消此操作。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

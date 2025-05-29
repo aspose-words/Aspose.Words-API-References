@@ -2,10 +2,10 @@
 title: Comment.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: Comment Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“评论接受”方法，提升访客参与度，并在您的网站上创造有意义的互动。立即提升您的在线社区！
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为 True；如果访问了所有节点，则为 false[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
+枚举此节点及其所有子节点。每个节点都会调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
-通话[`VisitCommentStart`](../../documentvisitor/visitcommentstart/)，然后调用[`Accept`](../../node/accept/)对于注释和调用的 all 子节点[`VisitCommentEnd`](../../documentvisitor/visitcommentend/)最后.
+呼叫[`VisitCommentStart`](../../documentvisitor/visitcommentstart/)，然后调用[`Accept`](../../node/accept/)对于 all 子节点的评论和调用[`VisitCommentEnd`](../../documentvisitor/visitcommentend/)在最后。
 
 ## 例子
 
-展示如何使用文档访问者打印所有注释的内容及其注释范围。
+展示如何使用文档访问器打印所有评论的内容及其评论范围。
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -50,14 +50,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // 将文本添加到文档中，将其扭曲到注释范围内，然后添加您的注释。
+    // 将文本添加到文档，将其扭曲到注释范围内，然后添加您的注释。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // 添加两条对评论的回复。
+    // 为评论添加两条回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -65,26 +65,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// 迭代每个顶级评论并打印其评论范围、内容和回复。
+/// 遍历每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // 迭代所有顶级注释。与回复类型评论不同，顶级评论没有祖先。
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // 遍历所有顶级评论。与回复类型的评论不同，顶级评论没有祖先。
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // 首先，访问评论范围的开头。
+        // 首先，访问注释范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // 然后，访问评论及其可能有的任何回复。
+        // 然后，访问该评论以及它可能有的任何回复。
         comment.Accept(commentVisitor);
+        // 仅访问评论的开头。
+        comment.AcceptStart(commentVisitor);
+        // 仅访问注释的结尾。
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // 最后访问评论范围末尾，然后打印访问者的文本内容。
+        // 最后访问评论范围的末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -122,7 +126,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 CommentRangeStart 节点时调用。
+    /// 当在文档中遇到 CommentRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -134,7 +138,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 CommentRangeEnd 节点时调用。
+    /// 当在文档中遇到 CommentRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -146,7 +150,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Comment 节点时调用。
+    /// 当在文档中遇到注释节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -159,7 +163,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中Comment节点的访问结束时调用。
+    /// 当文档中评论节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -171,9 +175,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 向 StringBuilder 附加一行并根据访问者在文档树中的深度进行缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

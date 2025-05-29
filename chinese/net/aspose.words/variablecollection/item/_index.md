@@ -2,18 +2,85 @@
 title: VariableCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: VariableCollection Item 财产. 通过不区分大小写的名称获取或设置文档变量 无效的值不允许作为赋值的右侧并将被空字符串替换 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 VariableCollection Item 轻松管理文档变量。轻松设置或检索不区分大小写的名称 - 不允许使用空值，确保数据完整性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/variablecollection/item/
 ---
 ## VariableCollection indexer (1 of 2)
 
-通过不区分大小写的名称获取或设置文档变量。 `无效的`值不允许作为赋值的右侧，并将被空字符串替换。
+通过不区分大小写的名称获取或设置文档变量。 `无效的`值不允许作为赋值的右侧，并将被替换为空字符串。
 
 ```csharp
 public string this[string name] { get; set; }
+```
+
+## 例子
+
+展示如何使用文档的变量集合。
+
+```csharp
+Document doc = new Document();
+VariableCollection variables = doc.Variables;
+
+// 每个文档都有一个键/值对变量的集合，我们可以向其中添加项目。
+variables.Add("Home address", "123 Main St.");
+variables.Add("City", "London");
+variables.Add("Bedrooms", "3");
+
+Assert.AreEqual(3, variables.Count);
+
+// 我们可以使用 DOCVARIABLE 字段在文档正文中显示变量的值。
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
+field.VariableName = "Home address";
+field.Update();
+
+Assert.AreEqual("123 Main St.", field.Result);
+
+// 为现有键分配值将会更新它们。
+variables.Add("Home address", "456 Queen St.");
+
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
+Assert.AreEqual("123 Main St.", field.Result);
+
+field.Update();
+
+Assert.AreEqual("456 Queen St.", field.Result);
+
+// 验证具有特定名称或值的文档变量是否存在。
+Assert.True(variables.Contains("City"));
+Assert.True(variables.Any(v => v.Value == "London"));
+
+// 变量集合自动按名称的字母顺序对变量进行排序。
+Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
+Assert.AreEqual(1, variables.IndexOfKey("City"));
+Assert.AreEqual(2, variables.IndexOfKey("Home address"));
+
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// 枚举变量集合。
+using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
+    while (enumerator.MoveNext())
+        Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
+
+// 以下是从集合中删除文档变量的三种方法。
+// 1 - 按名称：
+variables.Remove("City");
+
+Assert.False(variables.Contains("City"));
+
+// 2 - 按索引：
+variables.RemoveAt(1);
+
+Assert.False(variables.Contains("Home address"));
+
+// 3 - 一次清除整个集合：
+variables.Clear();
+
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### 也可以看看
@@ -26,7 +93,7 @@ public string this[string name] { get; set; }
 
 ## VariableCollection indexer (2 of 2)
 
-获取或设置指定索引处的文档变量。 `无效的`值不允许作为赋值的右侧，并将被空字符串替换。
+获取或设置指定索引处的文档变量。 `无效的`值不允许作为赋值的右侧，并将被替换为空字符串。
 
 ```csharp
 public string this[int index] { get; set; }
@@ -35,6 +102,73 @@ public string this[int index] { get; set; }
 | 范围 | 描述 |
 | --- | --- |
 | index | 文档变量的从零开始的索引。 |
+
+## 例子
+
+展示如何使用文档的变量集合。
+
+```csharp
+Document doc = new Document();
+VariableCollection variables = doc.Variables;
+
+// 每个文档都有一个键/值对变量的集合，我们可以向其中添加项目。
+variables.Add("Home address", "123 Main St.");
+variables.Add("City", "London");
+variables.Add("Bedrooms", "3");
+
+Assert.AreEqual(3, variables.Count);
+
+// 我们可以使用 DOCVARIABLE 字段在文档正文中显示变量的值。
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
+field.VariableName = "Home address";
+field.Update();
+
+Assert.AreEqual("123 Main St.", field.Result);
+
+// 为现有键分配值将会更新它们。
+variables.Add("Home address", "456 Queen St.");
+
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
+Assert.AreEqual("123 Main St.", field.Result);
+
+field.Update();
+
+Assert.AreEqual("456 Queen St.", field.Result);
+
+// 验证具有特定名称或值的文档变量是否存在。
+Assert.True(variables.Contains("City"));
+Assert.True(variables.Any(v => v.Value == "London"));
+
+// 变量集合自动按名称的字母顺序对变量进行排序。
+Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
+Assert.AreEqual(1, variables.IndexOfKey("City"));
+Assert.AreEqual(2, variables.IndexOfKey("Home address"));
+
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// 枚举变量集合。
+using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
+    while (enumerator.MoveNext())
+        Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
+
+// 以下是从集合中删除文档变量的三种方法。
+// 1 - 按名称：
+variables.Remove("City");
+
+Assert.False(variables.Contains("City"));
+
+// 2 - 按索引：
+variables.RemoveAt(1);
+
+Assert.False(variables.Contains("Home address"));
+
+// 3 - 一次清除整个集合：
+variables.Clear();
+
+Assert.AreEqual(0, variables.Count);
+```
 
 ### 也可以看看
 

@@ -2,15 +2,15 @@
 title: BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkEnd 构造函数. 初始化一个新实例BookmarkEnd类 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松创建新的 BookmarkEnd 实例。使用这款高效管理书签的必备工具，增强您的项目功能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkend/bookmarkend/
 ---
 ## BookmarkEnd constructor
 
-初始化一个新实例[`BookmarkEnd`](../)类.
+初始化[`BookmarkEnd`](../)类.
 
 ```csharp
 public BookmarkEnd(DocumentBase doc, string name)
@@ -19,7 +19,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
-| name | String | 书签的名称。不可能是`无效的`。 |
+| name | String | 书签的名称。不能`无效的`。 |
 
 ## 例子
 
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

@@ -2,15 +2,15 @@
 title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle TopPadding 财产. 获取或设置要在表格单元格内容上方添加的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle TopPadding 属性，轻松调整表格单元格内容上方的间距，增强表格的可读性和设计感。
 type: docs
 weight: 140
 url: /zh/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-获取或设置要在表格单元格内容上方添加的空间量（以磅为单位）。
+获取或设置在表格单元格内容上方添加的空间量（以点为单位）。
 
 ```csharp
 public double TopPadding { get; set; }
@@ -18,7 +18,7 @@ public double TopPadding { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

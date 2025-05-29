@@ -2,8 +2,8 @@
 title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag SdtType 财产. 获取此类型结构化文档标签 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTag 的 SdtType 属性，轻松识别标签类型，增强文档管理和组织。
 type: docs
 weight: 250
 url: /zh/net/aspose.words.markup/structureddocumenttag/sdttype/
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## 例子
 
-演示如何获取结构化文档标签的类型。
+展示如何获取结构化文档标签的类型。
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

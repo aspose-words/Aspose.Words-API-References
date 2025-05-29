@@ -2,15 +2,15 @@
 title: FontInfo.IsTrueType
 linktitle: IsTrueType
 articleTitle: IsTrueType
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo IsTrueType 财产. 指示此字体是 TrueType 或 OpenType 字体而不是光栅或矢量字体 默认为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FontInfo 的 IsTrueType 属性，确保您的字体是 TrueType 或 OpenType，以获得卓越的品质 - 非常适合清晰且可扩展的设计。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-指示此字体是 TrueType 或 OpenType 字体，而不是光栅或矢量字体。 默认为`真的`.
+表示此字体是 TrueType 或 OpenType 字体，而不是光栅字体或矢量字体。 默认值为`真的`.
 
 ```csharp
 public bool IsTrueType { get; set; }
@@ -18,7 +18,7 @@ public bool IsTrueType { get; set; }
 
 ## 例子
 
-演示如何打印文档中存在的字体的详细信息。
+显示如何打印文档中存在的字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

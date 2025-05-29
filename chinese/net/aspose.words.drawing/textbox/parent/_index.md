@@ -2,8 +2,8 @@
 title: TextBox.Parent
 linktitle: Parent
 articleTitle: Parent
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox Parent 财产. 获取父形状TextBox 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TextBox Parent 属性以轻松访问其父形状，增强您的设计工作流程并提高项目效率。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/textbox/parent/

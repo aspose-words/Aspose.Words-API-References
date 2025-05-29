@@ -2,15 +2,15 @@
 title: Fill.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill ForeThemeColor 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的前景色 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何设置 ForeThemeColor 属性，使用鲜艳的填充颜色自定义设计。轻松提升项目的视觉吸引力！
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
 
-获取或设置一个 ThemeColor 对象，该对象表示填充的前景色。
+获取或设置代表填充前景色的 ThemeColor 对象。
 
 ```csharp
 public ThemeColor ForeThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ForeThemeColor { get; set; }
 
 ## 例子
 
-展示如何设置前景色/背景形状颜色的主题颜色。
+展示如何设置前景/背景形状颜色的主题颜色。
 
 ```csharp
 Document doc = new Document();

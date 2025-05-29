@@ -2,10 +2,10 @@
 title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
-second_title: 用于 .NET 的 Aspose.Words
-description: CellFormat PreferredWidth 财产. 返回或设置单元格的首选宽度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CellFormat PreferredWidth 属性，轻松自定义单元格宽度，实现电子表格的最佳布局和设计。提升您的数据呈现效果！
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -18,22 +18,22 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## 评论
 
-首选宽度（以及表格的自动调整选项）确定表格布局算法如何计算单元格的实际 宽度。表格布局可以由 Aspose.Words 在保存文档时执行，或由 Microsoft Word 在显示文档时执行。
+首选宽度（以及表格的“自动调整”选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以由 Aspose.Words 在保存文档时执行，也可以由 Microsoft Word 在显示文档时执行。
 
-首选宽度可以用点或百分比来指定。首选 width 也可以指定为“auto”，这意味着不指定首选宽度。
+首选宽度可以用磅或百分比来指定。首选宽度 也可以指定为“auto”，即不指定首选宽度。
 
 默认值为[`Auto`](../../preferredwidth/auto/)。
 
 ## 例子
 
-演示如何设置表格单元格的首选宽度。
+展示如何设置表格单元格的首选宽度。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// 有两种方法将“PreferredWidth”类应用于表格单元格。
+// 有两种方法可以将“PreferredWidth”类应用于表格单元格。
 // 1 - 根据点设置绝对首选宽度：
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
@@ -51,7 +51,7 @@ builder.InsertCell();
 // 未指定首选宽度的单元格将占用剩余的可用空间。
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// “PreferredWidth”属性的每个配置都会创建一个新对象。
+// “PreferredWidth”属性的每次配置都会创建一个新对象。
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

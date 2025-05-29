@@ -2,15 +2,15 @@
 title: RowCollection Class
 linktitle: RowCollection
 articleTitle: RowCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Tables.RowCollection 班级. 提供对集合的类型化访问Row节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Tables.RowCollection，高效访问 Row 节点。使用我们强大的类型化集合功能，增强文档处理能力。
 type: docs
-weight: 6320
+weight: 7170
 url: /zh/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
-提供对集合的类型化访问[`Row`](../row/)节点.
+提供对集合的类型访问[`Row`](../row/)节点.
 
 要了解更多信息，请访问[使用表格](https://docs.aspose.com/words/net/working-with-tables/)文档文章。
 
@@ -23,25 +23,25 @@ public class RowCollection : NodeCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | 获取集合中的节点数。 |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | 检索[`Row`](../row/)在给定的索引. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | 检索[`Row`](../row/)在给定的索引处。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | 将节点添加到集合的末尾。 |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | 在集合末尾添加一个节点。 |
 | [Clear](../../aspose.words/nodecollection/clear/)() | 从此集合和文档中删除所有节点。 |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | 确定节点是否在集合中。 |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | 提供对节点集合的简单“foreach”样式迭代。 |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | 返回指定节点的从零开始的索引。 |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | 将节点插入集合中指定索引处。 |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | 将节点插入到指定索引的集合中。 |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | 从集合和文档中删除节点。 |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | 从集合和文档中删除指定索引处的节点。 |
-| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | 将集合中的所有行复制到新的行数组。 (2 methods) |
+| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | 将集合中的所有行复制到新的行数组中。 (2 methods) |
 
 ## 例子
 
-演示如何迭代文档中的所有表格并打印每个单元格的内容。
+展示如何遍历文档中的所有表格并打印每个单元格的内容。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -55,7 +55,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // 我们可以对行集合使用“ToArray”方法将其克隆到数组中。
+    // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -65,7 +65,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // 我们可以对单元集合使用“ToArray”方法将其克隆到数组中。
+        // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

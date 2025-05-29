@@ -2,8 +2,8 @@
 title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
-second_title: 用于 .NET 的 Aspose.Words
-description: GroupShape 构造函数. 创建一个新的组形状 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 GroupShape 构造函数轻松设计出令人惊艳的组合形状。使用可自定义、用户友好的工具，打造独一无二的作品，提升您的项目体验。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/groupshape/groupshape/
@@ -22,13 +22,13 @@ public GroupShape(DocumentBase doc)
 
 ## 评论
 
-默认情况下，形状是浮动的，并且具有默认位置和大小。
+默认情况下，形状是浮动的，具有默认位置和大小。
 
 创建形状后，您应该指定所需的形状属性。
 
 ## 例子
 
-演示如何创建一组形状，并使用文档访问者打印其内容。
+展示如何创建一组形状，并使用文档访问器打印其内容。
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
+    // 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // 顶角一个圆角一个截角、单角圆角、顶角圆角、对角角圆角
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

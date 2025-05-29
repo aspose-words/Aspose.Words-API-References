@@ -2,15 +2,15 @@
 title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
-second_title: 用于 .NET 的 Aspose.Words
-description: Font Bold 财产. 如果字体格式为粗体则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现字体粗体属性，轻松识别您的文本是否加粗，增强您的网页设计项目的可读性和风格。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-如果字体格式为粗体，则为 True。
+如果字体格式为粗体，则为真。
 
 ```csharp
 public bool Bold { get; set; }
@@ -18,7 +18,7 @@ public bool Bold { get; set; }
 
 ## 例子
 
-演示如何使用 DocumentBuilder 插入格式化文本。
+展示如何使用 DocumentBuilder 插入格式化文本。
 
 ```csharp
 Document doc = new Document();

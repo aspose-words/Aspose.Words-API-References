@@ -2,8 +2,8 @@
 title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder Underline 财产. 获取/设置当前字体的下划线类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentBuilder 的“下划线”属性，轻松自定义字体样式。使用丰富的下划线选项，提升文档的专业外观。
 type: docs
 weight: 190
 url: /zh/net/aspose.words/documentbuilder/underline/
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## 例子
 
-演示如何设置文档生成器插入的文本格式。
+展示如何格式化文档生成器插入的文本。
 
 ```csharp
 Document doc = new Document();

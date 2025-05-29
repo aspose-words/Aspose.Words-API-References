@@ -2,10 +2,10 @@
 title: ImageBinarizationMethod Enum
 linktitle: ImageBinarizationMethod
 articleTitle: ImageBinarizationMethod
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.ImageBinarizationMethod 枚举. 指定用于二值化图像的方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ImageBinarizationMethod 枚举，实现高效的图像二值化。使用先进的技术优化您的文档处理。
 type: docs
-weight: 5200
+weight: 5950
 url: /zh/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -25,7 +25,7 @@ public enum ImageBinarizationMethod
 
 ## 例子
 
-演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
+展示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 
 // 当我们将文档保存为 TIFF 时，我们可以将 SaveOptions 对象传递给
 // 调整 Aspose.Words 在渲染此图像时将应用的抖动。
-// “ThresholdForFloydSteinbergDithering”属性的默认值为 128。
-// 较高的值往往会产生较暗的图像。
+// “ThresholdForFloydSteinbergDithering”属性的默认值为128。
+// 值越高，图像就越暗。
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

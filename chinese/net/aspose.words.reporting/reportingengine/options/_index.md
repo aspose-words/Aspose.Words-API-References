@@ -2,18 +2,32 @@
 title: ReportingEngine.Options
 linktitle: Options
 articleTitle: Options
-second_title: 用于 .NET 的 Aspose.Words
-description: ReportingEngine Options 财产. 获取或设置一组控制此行为的标志ReportingEngine生成报告时的实例  在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ReportingEngine 选项属性，使用灵活的标志轻松定制报告构建行为，以实现最佳性能和控制。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-获取或设置一组控制此行为的标志[`ReportingEngine`](../)生成报告时的实例 。
+获取或设置一组控制此行为的标志[`ReportingEngine`](../)实例 ，同时构建报告。
 
 ```csharp
 public ReportBuildOptions Options { get; set; }
+```
+
+## 例子
+
+展示如何允许缺少成员。
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+builder.Writeln("<<[missingObject.First().id]>>");
+builder.Writeln("<<foreach [in missingObject]>><<[id]>><</foreach>>");
+
+ReportingEngine engine = new ReportingEngine { Options = ReportBuildOptions.AllowMissingMembers };
+engine.MissingMemberMessage = "Missed";
+engine.BuildReport(builder.Document, new DataSet(), "");
 ```
 
 ### 也可以看看

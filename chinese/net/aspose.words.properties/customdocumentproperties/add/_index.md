@@ -2,8 +2,8 @@
 title: CustomDocumentProperties.Add
 linktitle: Add
 articleTitle: Add
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomDocumentProperties Add 方法. 创建一个新的自定义文档属性String数据类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Add 方法轻松创建独特的自定义文档属性。使用定制的字符串数据类型增强您的文档，以获得最佳性能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.properties/customdocumentproperties/add/
@@ -35,7 +35,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -60,7 +60,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -76,7 +76,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -118,7 +118,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -143,7 +143,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -159,7 +159,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -193,14 +193,14 @@ public DocumentProperty Add(string name, DateTime value)
 
 ## 例子
 
-演示如何创建包含日期和时间的自定义文档属性。
+展示如何创建包含日期和时间的自定义文档属性。
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 展示如何使用文档的自定义属性。
@@ -211,7 +211,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -236,7 +236,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -252,7 +252,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -294,7 +294,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -319,7 +319,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -335,7 +335,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -377,7 +377,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -402,7 +402,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以在 Microsoft Word 中通过“文件”->“属性”->“高级属性”->“自定义”找到这些自定义属性。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -418,7 +418,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

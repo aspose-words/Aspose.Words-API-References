@@ -2,8 +2,8 @@
 title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
-second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection Vertical 财产. 获取单元格之间使用的垂直边框 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BorderCollection Vertical 属性，打造无缝单元格边框。使用可自定义的垂直边框，提升您的设计，打造更精致的外观！
 type: docs
 weight: 130
 url: /zh/net/aspose.words/bordercollection/vertical/
@@ -18,7 +18,7 @@ public Border Vertical { get; }
 
 ## 例子
 
-演示如何将垂直边框设置应用到表格行的格式。
+展示如何将垂直边框设置应用于表格行的格式。
 
 ```csharp
 Document doc = new Document();
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // 调整行之间出现的边框的外观。
+    // 调整行间边框的外观。
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // 调整单元格之间出现的边框的外观。
+    // 调整单元格之间边框的外观。
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

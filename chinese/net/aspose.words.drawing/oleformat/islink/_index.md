@@ -2,15 +2,15 @@
 title: OleFormat.IsLink
 linktitle: IsLink
 articleTitle: IsLink
-second_title: 用于 .NET 的 Aspose.Words
-description: OleFormat IsLink 财产. 返回真的如果 OLE 对象已链接当SourceFullName已指定 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OleFormat 的 IsLink 属性。轻松检查您的 OLE 对象是否与 SourceFullName 链接，以实现无缝数据集成和管理。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-返回`真的`如果 OLE 对象已链接（当[`SourceFullName`](../sourcefullname/)已指定）.
+返回`真的`如果 OLE 对象被链接（当[`SourceFullName`](../sourcefullname/)已指定）。
 
 ```csharp
 public bool IsLink { get; }
@@ -18,7 +18,7 @@ public bool IsLink { get; }
 
 ## 例子
 
-演示如何插入链接和未链接的 OLE 对象。
+展示如何插入链接和非链接的 OLE 对象。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将 Microsoft Visio 绘图作为 OLE 对象嵌入到文档中。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// 插入本地文件系统中文件的链接并将其显示为图标。
+// 插入本地文件系统中的文件链接并将其显示为图标。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // 插入 OLE 对象会创建存储这些对象的形状。
@@ -37,7 +37,7 @@ Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
 // 如果形状包含 OLE 对象，它将具有有效的“OleFormat”属性，
-// 我们可以用它来验证形状的某些方面。
+// 我们可以使用它来验证形状的某些方面。
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

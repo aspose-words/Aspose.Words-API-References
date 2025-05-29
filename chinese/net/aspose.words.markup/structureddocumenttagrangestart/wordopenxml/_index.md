@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart WordOpenXML 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 WordOpenXML 中的 StructuredDocumentTagRangeStart 属性。访问 FlatOpc 格式的 XML 数据，以增强文档管理和自定义功能。
 type: docs
 weight: 170
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
@@ -18,7 +18,7 @@ public string WordOpenXML { get; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

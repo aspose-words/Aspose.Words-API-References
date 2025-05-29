@@ -2,15 +2,15 @@
 title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPart IsExternal 财产. 如果此自定义部分存储在 OOXML 包内则为 False如果此自定义部件是外部目标则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPart IsExternal 属性，了解它如何在 OOXML 包中定义内部与外部自定义部件以简化数据管理。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-如果此自定义部分存储在 OOXML 包内，则为 False。如果此自定义部件是外部目标，则为 True。
+如果此自定义部件存储在 OOXML 包内，则为 false。如果此自定义部件是外部目标，则为 true。
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -22,7 +22,7 @@ public bool IsExternal { get; set; }
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

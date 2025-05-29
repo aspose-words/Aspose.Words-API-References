@@ -2,15 +2,15 @@
 title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Markup.CustomPartCollection 班级. 代表集合CustomPart对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Markup.CustomPartCollection 类，高效管理 CustomPart 对象。立即提升您的文档处理能力！
 type: docs
-weight: 3910
+weight: 4600
 url: /zh/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
-代表集合[`CustomPart`](../custompart/)对象.
+代表[`CustomPart`](../custompart/)对象.
 
 要了解更多信息，请访问[结构化文档标签或内容控制](https://docs.aspose.com/words/net/working-with-content-control-sdt/)文档文章。
 
@@ -35,19 +35,19 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | 将项目添加到集合中。 |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | 将项目添加到集合。 |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | 从集合中删除所有元素。 |
-| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | 制作此集合及其项目的深层副本。 |
+| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | 对此集合及其项目进行深层复制。 |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | 删除指定索引处的项目。 |
 
 ## 评论
 
-您通常不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部分 [`PackageCustomParts`](../../aspose.words/document/packagecustomparts/)财产。
+通常情况下，您不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部件 [`PackageCustomParts`](../../aspose.words/document/packagecustomparts/)财产。
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

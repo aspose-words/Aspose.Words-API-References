@@ -2,8 +2,8 @@
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptionsBase ExportHeadersFootersMode 财产. 指定页眉和页脚导出为文本格式的方式 默认值为PrimaryOnly 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TxtSaveOptionsBase ExportHeadersFootersMode 属性如何优化文本格式的页眉和页脚导出。默认值：PrimaryOnly。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -18,12 +18,12 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ## 例子
 
-显示如何指定如何将页眉和页脚导出为纯文本格式。
+显示如何指定将页眉和页脚导出为纯文本格式。
 
 ```csharp
 Document doc = new Document();
 
-// 将偶数和主页眉/页脚插入到文档中。
+// 在文档中插入偶数和主页眉/页脚。
 // 主页眉/页脚将覆盖偶数页眉/页脚。
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
@@ -51,35 +51,36 @@ TxtSaveOptions saveOptions = new TxtSaveOptions();
 // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.PrimaryOnly”
 // 仅导出主页眉/页脚。
 // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.AllAtEnd”
-// 将所有节主体的所有页眉和页脚放置在文档末尾。
+// 将所有部分主体的所有页眉和页脚放置在文档末尾。
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt");
 
+string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Even header\r\n\r\n" +
-                        "Primary header\r\n\r\n" +
-                        "Even footer\r\n\r\n" +
-                        "Primary footer\r\n\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Even header{newLine}{newLine}" +
+                        $"Primary header{newLine}{newLine}" +
+                        $"Even footer{newLine}{newLine}" +
+                        $"Primary footer{newLine}{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual("Primary header\r\n" +
-                        "Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Primary footer\r\n", docText);
+        Assert.AreEqual($"Primary header{newLine}" +
+                        $"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Primary footer{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}", docText);
         break;
 }
 ```

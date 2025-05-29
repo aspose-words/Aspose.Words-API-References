@@ -2,15 +2,15 @@
 title: Field.Format
 linktitle: Format
 articleTitle: Format
-second_title: 用于 .NET 的 Aspose.Words
-description: Field Format 财产. 获得FieldFormat提供对字段格式的类型化访问的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索字段格式属性以无缝访问 FieldFormat 对象，从而精确、轻松地增强字段的格式。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-获得[`FieldFormat`](../../fieldformat/)提供对字段格式的类型化访问的对象。
+获得[`FieldFormat`](../../fieldformat/)提供对字段格式进行类型化访问的对象。
 
 ```csharp
 public FieldFormat Format { get; }
@@ -18,7 +18,7 @@ public FieldFormat Format { get; }
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

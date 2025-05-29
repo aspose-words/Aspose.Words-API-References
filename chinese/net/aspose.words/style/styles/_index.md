@@ -2,15 +2,15 @@
 title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
-second_title: 用于 .NET 的 Aspose.Words
-description: Style Styles 财产. 获取该样式所属的样式集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索样式样式属性以访问精选的样式集合，以独特、有凝聚力的美感增强您的设计。
 type: docs
-weight: 160
+weight: 190
 url: /zh/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-获取该样式所属的样式集合。
+获取此样式所属的样式集合。
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -18,7 +18,7 @@ public StyleCollection Styles { get; }
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

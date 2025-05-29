@@ -2,15 +2,15 @@
 title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIncludeText XslTransformation 财产. 获取或设置用于格式化 XML 数据的 XSL 转换的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldIncludeText XslTransformation 属性，通过可自定义的 XSL 转换轻松管理 XML 数据格式。提升您的数据呈现效果！
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldincludetext/xsltransformation/
 ---
 ## FieldIncludeText.XslTransformation property
 
-获取或设置用于格式化 XML 数据的 XSL 转换的位置。
+获取或设置 XSL 转换的位置以格式化 XML 数据。
 
 ```csharp
 public string XslTransformation { get; set; }
@@ -18,7 +18,7 @@ public string XslTransformation { get; set; }
 
 ## 例子
 
-演示如何创建 INCLUDETEXT 字段并设置其属性。
+展示如何创建 INCLUDETEXT 字段并设置其属性。
 
 ```csharp
 public void FieldIncludeText()
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是使用 INCLUDETEXT 字段显示本地文件系统中 XML 文件内容的两种方法。
+    // 以下是两种使用 INCLUDETEXT 字段在本地文件系统中显示 XML 文件内容的方法。
     // 1 - 对 XML 文档执行 XSL 转换：
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

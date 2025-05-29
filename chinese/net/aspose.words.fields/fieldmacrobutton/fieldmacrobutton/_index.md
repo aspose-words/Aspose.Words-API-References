@@ -2,8 +2,8 @@
 title: FieldMacroButton
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMacroButton 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldMacroButton 构造函数——轻松高效地创建可自定义宏按钮的首选解决方案。立即提升您的工作流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/

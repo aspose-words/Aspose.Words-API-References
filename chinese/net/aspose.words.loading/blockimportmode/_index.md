@@ -2,10 +2,10 @@
 title: BlockImportMode Enum
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Loading.BlockImportMode 枚举. 指定如何从基于 HTML 的文档导入块级元素的属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Aspose.Words.BlockImportMode 枚举如何通过优化块级元素属性导入实现无缝工作流程，从而增强 HTML 文档集成。
 type: docs
-weight: 3560
+weight: 4010
 url: /zh/net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
@@ -25,7 +25,7 @@ public enum BlockImportMode
 
 ## 例子
 
-显示如何从基于 HTML 的文档导入块级元素的属性。
+展示如何从基于 HTML 的文档导入块级元素的属性。
 
 ```csharp
 const string html = @"

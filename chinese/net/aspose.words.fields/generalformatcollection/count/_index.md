@@ -2,8 +2,8 @@
 title: GeneralFormatCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: GeneralFormatCollection Count 财产. 获取集合中项目的总数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GeneralFormatCollection Count 属性，轻松访问集合中的项目总数，提高数据管理效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/generalformatcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

@@ -2,10 +2,10 @@
 title: SvgSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: SvgSaveOptions ResourceSavingCallback 财产. 允许控制将文档导出为 SVG 格式时如何保存资源图像 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 SvgSaveOptions 的 ResourceSavingCallback 控制图像资源的保存。优化 SVG 导出，提升质量和效率。
 type: docs
-weight: 40
+weight: 70
 url: /zh/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 ---
 ## SvgSaveOptions.ResourceSavingCallback property
@@ -18,7 +18,7 @@ public IResourceSavingCallback ResourceSavingCallback { get; set; }
 
 ## 例子
 
-演示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
+展示如何操作和打印将文档转换为 .svg 时创建的链接资源的 URI。
 
 ```csharp
 public void SvgResourceFolder()
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 计算并打印 包含的资源转换为 .svg 时的 URI。
+/// 在转换为 .svg 时计算并打印所包含资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

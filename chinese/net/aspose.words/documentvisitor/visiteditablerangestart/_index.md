@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitEditableRangeStart
 linktitle: VisitEditableRangeStart
 articleTitle: VisitEditableRangeStart
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitEditableRangeStart 方法. 在文档中遇到可编辑范围的开头时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor VisitEditableRangeStart 方法，该方法在可编辑范围开始时触发，以实现无缝文档编辑和增强用户体验。
 type: docs
 weight: 170
 url: /zh/net/aspose.words/documentvisitor/visiteditablerangestart/
 ---
 ## DocumentVisitor.VisitEditableRangeStart method
 
-在文档中遇到可编辑范围的开头时调用。
+当在文档中遇到可编辑范围的开始时调用。
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何打印文档中每个可编辑范围的节点结构。
+展示如何打印文档中每个可编辑范围的节点结构。
 
 ```csharp
 public void EditableRangeToText()
@@ -34,17 +34,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
     // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以所有遇到的 EditableRange 节点及其子节点的字符串形式创建一个映射。
+/// 遍历节点的子节点非二叉树。
+/// 以字符串的形式创建所有遇到的 EditableRange 节点及其子节点的地图。
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -67,14 +67,14 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // 我们想要打印运行的内容，但前提是它们位于形状内部，就像文本框的情况一样
+        // 我们想要打印运行的内容，但只有当它们位于形状内时才打印，就像在文本框中一样
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// 在文档中遇到 EditableRange 节点时调用。
+    /// 当在文档中遇到 EditableRange 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当EditableRange节点访问结束时调用。
+    /// 当对 EditableRange 节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,9 +99,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 向 StringBuilder 附加一行并根据访问者在文档树中的深度进行缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

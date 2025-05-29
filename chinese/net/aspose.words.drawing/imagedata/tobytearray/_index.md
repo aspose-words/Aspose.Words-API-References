@@ -2,15 +2,15 @@
 title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageData ToByteArray 方法. 返回任何图像的图像字节无论图像是存储还是链接 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ImageData ToByteArray 方法轻松将任何图像转换为字节数组。轻松访问存储或链接源中的图像字节！
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-返回任何图像的图像字节，无论图像是存储还是链接。
+返回任何图像的图像字节，无论该图像是否存储或链接。
 
 ```csharp
 public byte[] ToByteArray()
@@ -18,11 +18,11 @@ public byte[] ToByteArray()
 
 ## 评论
 
-如果图像已链接，则每次调用时都会下载该图像。
+如果图像已链接，则每次调用时都会下载图像。
 
 ## 例子
 
-演示如何从形状的原始图像数据创建图像文件。
+展示如何从形状的原始图像数据创建图像文件。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");

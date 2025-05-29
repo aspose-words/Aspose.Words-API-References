@@ -2,8 +2,8 @@
 title: HeaderFooter.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
-second_title: 用于 .NET 的 Aspose.Words
-description: HeaderFooter ParentSection 财产. 获取此故事的父部分 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 HeaderFooter ParentSection 属性可以轻松访问故事的父部分，增强文档的结构和组织。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/headerfooter/parentsection/
@@ -18,11 +18,11 @@ public Section ParentSection { get; }
 
 ## 评论
 
-`ParentSection`相当于[`ParentNode`](../../node/parentnode/)投射到[`Section`](../../section/)。
+`ParentSection`相当于[`ParentNode`](../../node/parentnode/)投放到[`Section`](../../section/)。
 
 ## 例子
 
-展示如何在各部分之间链接页眉和页脚。
+展示如何链接各部分之间的页眉和页脚。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// 移至第一部分并创建页眉和页脚。默认情况下，
+// 移动到第一部分并创建页眉和页脚。默认情况下，
 // 页眉和页脚只会出现在包含它们的部分的页面上。
 builder.MoveToSection(0);
 
@@ -44,11 +44,11 @@ builder.Write("This is the header, which will be displayed in sections 1 and 2."
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
-// 我们可以将一个部分的页眉/页脚链接到上一个部分的页眉/页脚
-// 允许链接部分显示链接部分的页眉/页脚。
+// 我们可以将一个部分的页眉/页脚链接到前一部分的页眉/页脚
+// 允许链接部分显示被链接部分的页眉/页脚。
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// 每个部分仍然有自己的页眉/页脚对象。当我们链接部分时，
+// 每个部分仍将拥有自己的页眉/页脚对象。当我们链接部分时，
 // 链接部分将显示链接部分的页眉/页脚，同时保留其自己的页眉/页脚。
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
@@ -59,14 +59,14 @@ Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections
 // 第一、第二和现在的第三部分都将显示第一部分的标题。
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// 我们可以通过在调用 LinkToPrevious 方法时传递“false”来取消链接上一节的页眉/页脚。
+// 我们可以在调用 LinkToPrevious 方法时传递“false”来取消链接前一节的页眉/页脚。
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // 我们还可以使用此方法仅选择特定类型的页眉/页脚进行链接。
-// 第三部分现在将具有与第二部分和第一部分相同的页脚，但没有标题。
+// 第三部分现在将具有与第二部分和第一部分相同的页脚，但没有页眉。
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// 第一部分的页眉/页脚无法将自己链接到任何内容，因为没有前一部分。
+// 第一节的页眉/页脚无法链接到任何内容，因为没有前一节。
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 

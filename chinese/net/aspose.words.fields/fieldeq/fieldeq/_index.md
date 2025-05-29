@@ -2,8 +2,8 @@
 title: FieldEQ
 linktitle: FieldEQ
 articleTitle: FieldEQ
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldEQ 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldEQ 强大的默认构造函数，实现无缝集成并提升性能。利用我们的创新解决方案提升您的项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldeq/fieldeq/

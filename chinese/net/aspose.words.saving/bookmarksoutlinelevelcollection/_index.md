@@ -2,15 +2,15 @@
 title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection 班级. 各个书签大纲级别的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Saving.BookmarksOutlineLevelCollection 类——一个用于轻松管理书签和增强文档导航的强大工具。
 type: docs
-weight: 4850
+weight: 5590
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-各个书签大纲级别的集合。
+单个书签大纲级别的集合。
 
 要了解更多信息，请访问[使用书签](https://docs.aspose.com/words/net/working-with-bookmarks/)文档文章。
 
@@ -35,9 +35,9 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | 将书签添加到集合中。 |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | 将书签添加到收藏夹。 |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | 确定集合中是否包含具有给定名称的书签。 |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | 确定集合是否包含具有给定名称的书签。 |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | 返回集合中指定书签的从零开始的索引。 |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | 从集合中删除具有指定名称的书签。 |
@@ -45,13 +45,13 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 ## 评论
 
-Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
+键是一个不区分大小写的字符串书签名称。值是一个整数类型的书签大纲级别。
 
-书签大纲级别可以是 0 到 9 之间的值。指定 0，Word 书签将不会显示在文档大纲中。 指定 1，Word 书签将显示在文档大纲中的级别 1； 2 表示级别 2，依此类推。
+书签大纲级别可以是 0 到 9 之间的值。指定 0，Word 书签将不会显示在文档大纲中。 指定 1，Word 书签将显示在文档大纲的 1 级中；指定 2，则显示在 2 级中，依此类推。
 
 ## 例子
 
-演示如何设置书签的大纲级别。
+展示如何设置书签的大纲级别。
 
 ```csharp
 Document doc = new Document();
@@ -73,9 +73,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// 保存为 .pdf 时，可以通过下拉菜单访问书签，并被大多数读者用作锚点。
+// 保存为 .pdf 时，大多数读者可以通过下拉菜单访问书签并将其用作锚点。
 // 书签也可以有大纲级别的数值，
-// 启用较低级别的大纲条目，以便在阅读器中折叠时隐藏较高级别的子条目。
+// 使较低级别的大纲条目在阅读器中折叠时隐藏较高级别的子条目。
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -89,18 +89,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// 我们可以删除两个元素，以便仅留下“书签 1”的大纲级别指定。
+// 我们可以删除两个元素，以便只留下“书签 1”的大纲级别指定。
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// 有九个大纲级别。它们的编号将在保存操作期间进行优化。
+// 大纲级别共有九个。保存操作期间，它们的编号将会进行优化。
 // 在这种情况下，级别“5”和“9”将变为“2”和“3”。
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// 清空此集合将保留书签并将它们全部放在同一大纲级别上。
+// 清空此集合将保留书签并将它们全部放在同一大纲级别。
 outlineLevels.Clear();
 ```
 

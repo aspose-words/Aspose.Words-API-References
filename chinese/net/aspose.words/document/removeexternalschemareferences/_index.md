@@ -2,10 +2,10 @@
 title: Document.RemoveExternalSchemaReferences
 linktitle: RemoveExternalSchemaReferences
 articleTitle: RemoveExternalSchemaReferences
-second_title: 用于 .NET 的 Aspose.Words
-description: Document RemoveExternalSchemaReferences 方法. 从此文档中删除外部 XML 架构引用 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveExternalSchemaReferences 方法轻松消除外部 XML 模式引用，增强文档完整性和性能。
 type: docs
-weight: 660
+weight: 710
 url: /zh/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method
@@ -18,7 +18,7 @@ public void RemoveExternalSchemaReferences()
 
 ## 例子
 
-演示如何从文档中删除所有外部 XML 架构引用。
+展示如何从文档中删除所有外部 XML 架构引用。
 
 ```csharp
 Document doc = new Document(MyDir + "External XML schema.docx");

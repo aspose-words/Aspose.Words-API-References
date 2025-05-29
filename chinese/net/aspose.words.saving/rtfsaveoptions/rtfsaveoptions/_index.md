@@ -2,8 +2,8 @@
 title: RtfSaveOptions
 linktitle: RtfSaveOptions
 articleTitle: RtfSaveOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: RtfSaveOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 RtfSaveOptions 构造函数，实现无缝文档格式化。解锁轻松自定义和增强文件管理的优势。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/

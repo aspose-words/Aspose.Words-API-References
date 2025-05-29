@@ -2,8 +2,8 @@
 title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: 用于 .NET 的 Aspose.Words
-description: Node ToString 方法. 将节点的内容导出为指定格式的字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Node ToString 方法，轻松将节点内容转换为可自定义格式的字符串，增强数据处理能力。立即优化您的代码！
 type: docs
 weight: 160
 url: /zh/net/aspose.words/node/tostring/
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText 将检索可见文本以及字段代码和特殊字符。
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
 // 如果保存为传递的保存格式，ToString 将为我们提供文档的外观。
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
 将节点的内容导出为 HTML 格式的字符串。
@@ -59,7 +59,7 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
                 "</p>", node.ToString(saveOptions));
 ```
 
-演示如何提取属于列表项的所有段落的列表标签。
+展示如何提取所有列表项段落的列表标签。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -67,24 +67,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// 查找是否有段落列表。在我们的文档中，我们的列表使用简单的阿拉伯数字，
+// 查找是否有段落列表。在我们的文档中，列表使用纯阿拉伯数字，
 // 从三点开始到六点结束。
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // 这是我们把这个节点输出为文本格式时获取到的文本。
-     // 此文本输出将省略列表标签。修剪任何段落格式字符。
+    // 这是我们将此节点输出为文本格式时得到的文本。
+     // 此文本输出将省略列表标签。请修剪所有段落格式字符。
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // 这获取段落在列表当前级别中的位置。如果我们有一个包含多个级别的列表，
+    // 获取段落在列表当前层级中的位置。如果我们有一个包含多个层的列表，
     // 这将告诉我们它在该级别上的位置。
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // 将它们组合在一起以在输出中包含列表标签和文本。
+    // 将它们组合在一起，将列表标签与文本一起包含在输出中。
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```
@@ -100,7 +100,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
-使用指定的保存选项将节点的内容导出到字符串中。
+使用指定的保存选项将节点内容导出为字符串。
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -108,7 +108,7 @@ public string ToString(SaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveOptions | SaveOptions | 指定控制节点保存方式的选项。 |
+| saveOptions | SaveOptions | 指定控制如何保存节点的选项。 |
 
 ### 返回值
 

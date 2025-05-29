@@ -2,10 +2,10 @@
 title: WebExtensionProperty Class
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.WebExtensions.WebExtensionProperty 班级. 指定 Web 扩展自定义属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.WebExtensionProperty 类，用于定义自定义 Web 扩展属性。轻松增强您的文档管理！
 type: docs
-weight: 6780
+weight: 7630
 url: /zh/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
@@ -22,7 +22,7 @@ public class WebExtensionProperty
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(*string, string*) | 创建具有指定名称和值的 Web 扩展自定义属性。 |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | 使用指定的名称和值创建 Web 扩展自定义属性。 |
 
 ## 特性
 

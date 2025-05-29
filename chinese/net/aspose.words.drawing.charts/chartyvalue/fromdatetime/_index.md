@@ -2,8 +2,8 @@
 title: ChartYValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue FromDateTime 方法. 创建一个ChartYValue的实例DateTime类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValue FromDateTime 方法，轻松为图表创建 DateTime 实例，增强数据可视化和分析。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/

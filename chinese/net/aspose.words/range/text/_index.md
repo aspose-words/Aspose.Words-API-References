@@ -2,8 +2,8 @@
 title: Range.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: Range Text 财产. 获取范围的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现范围文本属性，轻松检索和操作指定范围内的文本，以增强内容管理。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/range/text/
@@ -22,7 +22,7 @@ public string Text { get; }
 
 ## 例子
 
-展示如何获取范围覆盖的所有节点的文本内容。
+展示如何获取某个范围覆盖的所有节点的文本内容。
 
 ```csharp
 Document doc = new Document();

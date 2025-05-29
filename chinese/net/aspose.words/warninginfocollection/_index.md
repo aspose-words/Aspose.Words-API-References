@@ -2,17 +2,17 @@
 title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.WarningInfoCollection 班级. 表示类型化集合WarningInfo对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.WarningInfoCollection，一个用于管理 WarningInfo 对象、增强文档处理和错误处理的强大类。
 type: docs
-weight: 6640
+weight: 7490
 url: /zh/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-表示类型化集合[`WarningInfo`](../warninginfo/)对象.
+表示[`WarningInfo`](../warninginfo/)对象.
 
-要了解更多信息，请访问[使用文档编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
+要了解更多信息，请访问[使用文档进行编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -37,20 +37,20 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | 从集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | 实现[`IWarningCallback`](../iwarningcallback/)界面。向此集合添加警告。 |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | 实现[`IWarningCallback`](../iwarningcallback/)接口。向此集合添加警告。 |
 
 ## 评论
 
-您可以将此集合对象用作最简单的形式[`IWarningCallback`](../iwarningcallback/)实现收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例并将其分配给 [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/)或者[`WarningCallback`](../documentbase/warningcallback/)财产。
+您可以将此集合对象用作最简单的形式[`IWarningCallback`](../iwarningcallback/)实现用于收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例，并将其分配给[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/)或者[`WarningCallback`](../documentbase/warningcallback/)财产。
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -82,13 +82,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

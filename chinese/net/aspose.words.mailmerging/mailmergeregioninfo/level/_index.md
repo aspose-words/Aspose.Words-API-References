@@ -2,8 +2,8 @@
 title: MailMergeRegionInfo.Level
 linktitle: Level
 articleTitle: Level
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeRegionInfo Level 财产. 返回区域的嵌套级别 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 MailMergeRegionInfo Level 属性，该属性揭示了区域的嵌套级别，从而增强了文档的自动化和效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -18,7 +18,7 @@ public int Level { get; }
 
 ## 例子
 
-演示如何验证邮件合并区域。
+显示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // 获取第一个顶部区域内的字段列表。
 IList<Field> fieldList = topRegions[0].Fields;

@@ -2,15 +2,15 @@
 title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.FontPitch 枚举. 表示字体间距 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.FontPitch 枚举，这是一个用于管理字体样式和增强应用程序中的文档格式的强大工具。
 type: docs
-weight: 2960
+weight: 3390
 url: /zh/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-表示字体间距。
+代表字体间距。
 
 ```csharp
 public enum FontPitch
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定没有有关字体间距的信息。 |
-| Fixed | `1` | 指定这是固定宽度字体。 |
-| Variable | `2` | 指定这是比例宽度字体。 |
+| Default | `0` | 指定没有关于字体间距的信息。 |
+| Fixed | `1` | 指定这是一种固定宽度的字体。 |
+| Variable | `2` | 指定这是一种比例宽度字体。 |
 
 ## 评论
 
-间距指示字体是固定间距、按比例间隔还是依赖于默认设置。
+间距指示字体是否为固定间距、比例间距或依赖于默认设置。
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

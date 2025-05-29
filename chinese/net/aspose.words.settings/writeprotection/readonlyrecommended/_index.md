@@ -2,8 +2,8 @@
 title: WriteProtection.ReadOnlyRecommended
 linktitle: ReadOnlyRecommended
 articleTitle: ReadOnlyRecommended
-second_title: 用于 .NET 的 Aspose.Words
-description: WriteProtection ReadOnlyRecommended 财产. 指定文档作者是否建议以只读方式打开文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 WriteProtection ReadOnlyRecommended 属性，指导用户以只读模式打开文档以增强安全性和完整性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -18,13 +18,13 @@ public bool ReadOnlyRecommended { get; set; }
 
 ## 例子
 
-演示如何使用密码保护文档。
+展示如何使用密码保护文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// 输入长度不超过15个字符的密码，然后验证文档的保护状态。
+// 输入长度最多为 15 个字符的密码，然后验证文档的保护状态。
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 

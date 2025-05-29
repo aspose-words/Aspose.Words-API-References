@@ -2,8 +2,8 @@
 title: WriteProtection.SetPassword
 linktitle: SetPassword
 articleTitle: SetPassword
-second_title: 用于 .NET 的 Aspose.Words
-description: WriteProtection SetPassword 方法. 设置文档的写保护密码 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 WriteProtection SetPassword 方法保护您的文档。轻松设置密码，增强文档安全性，防止未经授权的访问。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,7 +18,7 @@ public void SetPassword(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 要设置的密码。不可能是`无效的`，但可以是空字符串。 |
+| password | String | 要设置的密码。无法`无效的`，但可以是空字符串。 |
 
 ## 评论
 
@@ -26,13 +26,13 @@ public void SetPassword(string password)
 
 ## 例子
 
-演示如何使用密码保护文档。
+展示如何使用密码保护文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// 输入长度不超过15个字符的密码，然后验证文档的保护状态。
+// 输入长度最多为 15 个字符的密码，然后验证文档的保护状态。
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
