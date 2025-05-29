@@ -2,15 +2,15 @@
 title: Run.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Run Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçileri sorunsuz bir şekilde karşılamak, kullanıcı deneyimini geliştirmek ve web sitenizdeki etkileşimi artırmak için Kabul yöntemini kullanın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/run/accept/
 ---
 ## Run.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-`YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
+`YANLIŞ` eğer ziyaretçi sayımın durdurulmasını talep ederse.
 
 ## Notlar
 
-Aramalar[`VisitRun`](../../documentvisitor/visitrun/).
+Çağrılar[`VisitRun`](../../documentvisitor/visitrun/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 ## Örnekler
 
-Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki her başlık ve alt bilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void HeaderFooterToText()
@@ -40,21 +40,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Bir belgenin üstbilgisine/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu da koleksiyona erişmektir.
+    // Bir belgenin başlık/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu koleksiyona erişmektir.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm HeaderFooter düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm HeaderFooter düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -80,7 +80,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede HeaderFooter düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir HeaderFooter düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -92,7 +92,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// HeaderFooter düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir HeaderFooter düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -104,7 +104,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

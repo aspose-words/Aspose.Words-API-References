@@ -3,7 +3,7 @@ title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words для .NET
-description: FieldBarcode строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldBarcode — ваше решение для бесшовной генерации штрихкодов. Раскройте эффективность с помощью нашего интуитивного конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldbarcode/fieldbarcode/

@@ -3,16 +3,16 @@ title: ReportingEngine Class
 linktitle: ReportingEngine
 articleTitle: ReportingEngine
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Reporting.ReportingEngine فصل. يوفر إجراءات لملء مستندات القالب بالبيانات ومجموعة من الإعدادات للتحكم في هذه الإجراءات في C#.
+description: أطلق العنان لأتمتة المستندات القوية مع Aspose.Words.ReportingEngine. املأ القوالب بالبيانات بسهولة، وخصّص الإعدادات لإعداد تقارير سلسة.
 type: docs
-weight: 4730
+weight: 5470
 url: /ar/net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
 
-يوفر إجراءات لملء مستندات القالب بالبيانات ومجموعة من الإعدادات للتحكم في هذه الإجراءات.
+يوفر روتينات لملء مستندات القالب بالبيانات ومجموعة من الإعدادات للتحكم في هذه الروتينات.
 
-لمعرفة المزيد، قم بزيارة[محرك التقارير LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[محرك إعداد التقارير LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) مقالة توثيقية.
 
 ```csharp
 public class ReportingEngine
@@ -22,15 +22,16 @@ public class ReportingEngine
 
 | اسم | وصف |
 | --- | --- |
-| [ReportingEngine](reportingengine/)() | تهيئة مثيل جديد لهذه الفئة. |
+| [ReportingEngine](reportingengine/)() | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | يحصل على مجموعة غير مرتبة (أي مجموعة من العناصر الفريدة) تحتوي علىTypeالكائنات التي يمكن استخدام أسمائها المؤهلة كليًا أو جزئيًا ضمن قوالب التقارير التي تتم معالجتها بواسطة مثيل Engine هذا لاستدعاء الأعضاء الثابتين للأنواع المقابلة، وإجراء عمليات تحويل النوع، وما إلى ذلك. |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذا`ReportingEngine` مثيل أثناء إنشاء التقرير. |
-| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت استدعاءات أعضاء النوع المخصص التي يتم إجراؤها عبر واجهة برمجة تطبيقات الانعكاس هي محسنة باستخدام إنشاء فئة ديناميكية أم لا. القيمة الافتراضية هي`حقيقي` . |
+| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | يحصل على مجموعة غير مرتبة (أي مجموعة من العناصر الفريدة) تحتوي علىType الكائنات التي يمكن استخدام أسمائها المؤهلة بالكامل أو جزئيًا داخل قوالب التقارير التي تتم معالجتها بواسطة مثيل engine هذا لاستدعاء الأعضاء الثابتة للأنواع المقابلة، وإجراء عمليات تحويل النوع، وما إلى ذلك. |
+| [MissingMemberMessage](../../aspose.words.reporting/reportingengine/missingmembermessage/) { get; set; } | يحصل على أو يعيّن قيمة سلسلة نصية مطبوعة بدلاً من تعبير قالب يمثل مرجعًا بسيطًا إلى ، وهو عنصر مفقود في كائن. القيمة الافتراضية هي سلسلة نصية فارغة. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | يحصل على مجموعة من العلامات التي تتحكم في سلوك هذا أو يعينها`ReportingEngine` مثال أثناء بناء تقرير. |
+| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | يحصل على قيمة أو يعيّنها لتحديد ما إذا كانت استدعاءات عناصر النوع المخصص التي تُجرى عبر واجهة برمجة تطبيقات الانعكاس مُحسّنة باستخدام توليد الفئات الديناميكي أم لا. القيمة الافتراضية هي`حقيقي` . |
 
 ## طُرق
 
@@ -39,8 +40,8 @@ public class ReportingEngine
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | يملأ مستند القالب المحدد بالبيانات من المصادر المحددة مما يجعله تقريرًا جاهزًا. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
+| static [GetRestrictedTypes](../../aspose.words.reporting/reportingengine/getrestrictedtypes/)() | يعيد الأنواع، وأي الأعضاء، وكذلك أعضاء الأنواع المشتقة التي يجب ألا يتمكن engine من الوصول إليها من خلال بناء جملة القالب. |
+| static [SetRestrictedTypes](../../aspose.words.reporting/reportingengine/setrestrictedtypes/)(*params Type[]*) | يحدد الأنواع، وأي الأعضاء، وكذلك أعضاء الأنواع المشتقة التي يجب ألا يتمكن engine من الوصول إليها من خلال بناء جملة القالب. |
 
 ### أنظر أيضا
 

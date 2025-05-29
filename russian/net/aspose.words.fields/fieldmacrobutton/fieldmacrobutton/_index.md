@@ -3,7 +3,7 @@ title: FieldMacroButton
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
 second_title: Aspose.Words для .NET
-description: FieldMacroButton строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldMacroButton — ваше решение для создания настраиваемых макрокнопок легко и эффективно. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/

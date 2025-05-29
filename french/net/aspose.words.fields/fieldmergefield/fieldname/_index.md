@@ -3,7 +3,7 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words pour .NET
-description: FieldMergeField FieldName propriété. Obtient ou définit le nom dun champ de données en C#.
+description: Découvrez la propriété FieldMergeField FieldName pour gérer et personnaliser facilement vos champs de données pour une intégration et une efficacité des données améliorées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -24,7 +24,7 @@ Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée une table de données à utiliser comme source de données de publipostage.
+// Créez une table de données à utiliser comme source de données de publipostage.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -32,19 +32,20 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Insère un MERGEFIELD avec une propriété FieldName définie sur le nom d'une colonne dans la source de données.
+// Insérer un MERGEFIELD avec une propriété FieldName définie sur le nom d'une colonne dans la source de données.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Nous pouvons appliquer du texte avant et après la valeur que ce champ accepte lors de la fusion.
+// Nous pouvons appliquer du texte avant et après la valeur que ce champ accepte lorsque la fusion a lieu.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Insère un autre MERGEFIELD pour une colonne différente dans la source de données.
+// Insérer un autre MERGEFIELD pour une colonne différente dans la source de données.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

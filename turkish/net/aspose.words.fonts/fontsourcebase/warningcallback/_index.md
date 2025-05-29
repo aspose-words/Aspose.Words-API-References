@@ -2,15 +2,15 @@
 title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: Aspose.Words for .NET
-description: FontSourceBase WarningCallback mülk. Yazı tipi kaynağının işlenmesi sırasında biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Font kaynak işleme sırasında sorunları tespit ederek biçimlendirme doğruluğunu sağlamak için önemli olan FontSourceBase WarningCallback özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
+Biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Uyarı geri aramasını çağıracak yazı tiplerinin listesini alın.
+    // Uyarı geri aramasını çağıracak yazı tiplerinin listesini al.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -40,7 +40,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Yazı tipi kaynağının işlenmesi sırasında her uyarı oluştuğunda çağrılır.
+    /// Font kaynağının işlenmesi sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

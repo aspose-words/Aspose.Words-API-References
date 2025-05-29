@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words для .NET
-description: OoxmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDocx формат на С#.
+description: Откройте для себя конструктор OoxmlSaveOptions для легкого сохранения документов в формате Docx. Откройте для себя бесперебойное управление документами и улучшенную совместимость.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
@@ -18,7 +18,7 @@ public OoxmlSaveOptions()
 
 ## Примеры
 
-Показывает, как установить спецификацию соответствия OOXML для сохраненного документа.
+Показывает, как задать спецификацию соответствия OOXML для сохраненного документа.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Стандарт OOXML «ISO/IEC 29500:2008» не поддерживает формы VML.
-// Если мы установим для свойства «Соответствие» объекта SaveOptions значение «OoxmlCompliance.Iso29500_2008_Strict»,
+// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
+// Если мы установим свойство «Compliance» объекта SaveOptions на «OoxmlCompliance.Iso29500_2008_Strict»,
  // любой документ, который мы сохраняем при передаче этого объекта, должен будет соответствовать этому стандарту.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Наш сохраненный документ определяет форму с использованием DML, чтобы соответствовать стандарту OOXML «ISO/IEC 29500:2008».
+// Наш сохраненный документ определяет форму с помощью DML для соответствия стандарту OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -66,21 +66,21 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | ВозможноDocx ,Docm , Dotx ,Dotm илиFlatOpc . |
+| saveFormat | SaveFormat | Может бытьDocx ,Docm , Dotx ,Dotm илиFlatOpc . |
 
 ## Примеры
 
-Показывает, как поддерживать устаревшие управляющие символы при преобразовании в формат .docx.
+Показывает, как обеспечить поддержку устаревших управляющих символов при конвертации в .docx.
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Когда мы сохраняем документ в формате OOXML, мы можем создать объект OoxmlSaveOptions
-// а затем передаем его методу сохранения документа, чтобы изменить способ сохранения документа.
-// Установите для свойства KeepLegacyControlChars значение true, чтобы сохранить
-// устаревший символ «ShortDateTime» при сохранении.
-// Установите для свойства «KeepLegacyControlChars» значение «false», чтобы удалить
-// устаревший символ «ShortDateTime» из выходного документа.
+// а затем передаем его в метод сохранения документа, чтобы изменить способ сохранения документа.
+// Установите свойство "KeepLegacyControlChars" в значение "true", чтобы сохранить
+// устаревший символ "ShortDateTime" при сохранении.
+// Установите свойство "KeepLegacyControlChars" в значение "false", чтобы удалить
+// устаревший символ "ShortDateTime" из выходного документа.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

@@ -2,15 +2,15 @@
 title: CompositeNode.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: CompositeNode Count mülk. Bu düğümün doğrudan alt öğelerinin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: CompositeNode Count özelliğini keşfedin, verimli veri yönetimi ve sorunsuz işleme için anında alt düğümlerin sayısını kolayca alın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/compositenode/count/
 ---
 ## CompositeNode.Count property
 
-Bu düğümün doğrudan alt öğelerinin sayısını alır.
+Bu düğümün hemen alt düğümlerinin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -18,47 +18,47 @@ public int Count { get; }
 
 ## Örnekler
 
-CompositeNode'un alt öğeleri koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleştirileceğini ve silineceğini gösterir.
+CompositeNode'un alt düğüm koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleneceğini ve silineceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belgede varsayılan olarak bir paragraf bulunur.
+// Boş bir belgenin varsayılan olarak bir paragrafı vardır.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Paragrafımız gibi kompozit düğümler çocuk olarak diğer kompozit ve satır içi düğümleri de içerebilir.
+// Paragrafımızdaki gibi bileşik düğümler, çocuk olarak başka bileşik ve satır içi düğümler içerebilir.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// Üç tane daha çalıştırma düğümü oluşturun.
+// Üç tane daha çalıştırma düğümü oluştur.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Belge gövdesi, biz bunları bir bileşik düğüme ekleyene kadar bu işlemleri görüntülemeyecektir
-// ilk çalıştırmada yaptığımız gibi bu da belgenin düğüm ağacının bir parçası.
-// Eklediğimiz düğümlerin metin içeriklerinin nerede olduğunu belirleyebiliriz
-// paragraftaki başka bir düğüme göre ekleme konumunu belirterek belgede görünür.
+// Belge gövdesi, bunları bileşik bir düğüme ekleyene kadar bu çalışmaları görüntülemeyecektir
+// bu, ilk çalıştırmada yaptığımız gibi, belgenin düğüm ağacının bir parçasıdır.
+// Eklediğimiz düğümlerin metin içeriklerinin nereye gideceğini belirleyebiliriz
+// paragraftaki başka bir düğüme göre bir ekleme konumu belirtilerek belgede görünür.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// İkinci çalıştırmayı paragrafın ilk çalıştırmanın önüne ekleyin.
+// İkinci çalışmayı ilk çalışmanın önündeki paragrafa ekle.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// İlk çalıştırmadan sonra üçüncü çalıştırmayı ekleyin.
+// İlk çalıştırmadan sonra üçüncü çalıştırmayı ekle.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// İlk çalıştırmayı paragrafın alt düğüm koleksiyonunun başlangıcına ekleyin.
+// İlk çalışmayı paragrafın alt düğüm koleksiyonunun başına ekle.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Mevcut alt düğümleri düzenleyip silerek çalıştırmanın içeriğini değiştirebiliriz.
+// Mevcut alt düğümleri düzenleyerek ve silerek çalıştırmanın içeriğini değiştirebiliriz.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

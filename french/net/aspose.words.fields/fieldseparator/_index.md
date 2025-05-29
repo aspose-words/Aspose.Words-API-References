@@ -3,16 +3,16 @@ title: FieldSeparator Class
 linktitle: FieldSeparator
 articleTitle: FieldSeparator
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldSeparator classe. Représente un séparateur de champ Word qui sépare le code du champ du résultat du champ en C#.
+description: Découvrez la classe Aspose.Words.Fields.FieldSeparator, conçue pour améliorer vos documents Word en séparant efficacement les codes de champ des résultats.
 type: docs
-weight: 2380
+weight: 2790
 url: /fr/net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
 
 Représente un séparateur de champ Word qui sépare le code du champ du résultat du champ.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldSeparator : FieldChar
@@ -25,11 +25,11 @@ public class FieldSeparator : FieldChar
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Renvoie le type du champ. |
-| [Font](../../aspose.words/inline/font/) { get; } | Donne accès au formatage de la police de cet objet. |
+| [Font](../../aspose.words/inline/font/) { get; } | Donne accès à la mise en forme de la police de cet objet. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie vrai si le formatage de l'objet a été modifié dans Microsoft Word alors que le suivi des modifications était activé. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (obsolète) en raison d'autres modifications apportées au document. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie true si la mise en forme de l'objet a été modifiée dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Obtient ou définit si le champ parent est verrouillé (ne doit pas recalculer son résultat). |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Retours`vrai` si cet objet a été déplacé (supprimé) dans Microsoft Word alors que le suivi des modifications était activé. |
@@ -39,23 +39,23 @@ public class FieldSeparator : FieldChar
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Récupère le parent[`Paragraph`](../../aspose.words/paragraph/) de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words.fields/fieldseparator/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Renvoie un champ pour le champ char. |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que représente ce nœud. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que ce nœud représente. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
@@ -63,7 +63,7 @@ public class FieldSeparator : FieldChar
 
 `FieldSeparator` ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
 
-Un champ complet dans un document Microsoft Word est une structure complexe composée de , d'un caractère de début de champ, d'un code de champ, d'un caractère séparateur de champ, d'un résultat de champ et d'un caractère de fin de champ. Certains champs n'ont qu'un début de champ, un code de champ et une fin de champ.
+Un champ complet dans un document Microsoft Word est une structure complexe composée d'un caractère de début, d'un code, d'un séparateur, d'un résultat et d'un caractère de fin. Certains champs ne comportent que le début, le code et la fin du champ.
 
 Pour insérer facilement un nouveau champ dans un document, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Méthode .
 
@@ -89,8 +89,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -114,7 +114,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {

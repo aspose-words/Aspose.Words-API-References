@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties Version proprietà. Rappresenta il numero di versione dellapplicazione che ha creato il documento in C#.
+description: Scopri la proprietà Versione di BuiltInDocumentProperties, che mostra la versione dell'app che ha creato il tuo documento. Migliora la tua gestione dei documenti oggi stesso!
 type: docs
-weight: 320
+weight: 350
 url: /it/net/aspose.words.properties/builtindocumentproperties/version/
 ---
 ## BuiltInDocumentProperties.Version property
@@ -18,21 +18,21 @@ public int Version { get; set; }
 
 ## Osservazioni
 
-Quando un documento è stato creato da Microsoft Word, i 16 bit alti rappresentano la versione principale e i 16 bit bassi rappresentano il numero di build.
+Quando un documento è stato creato con Microsoft Word, i 16 bit più alti rappresentano la versione principale e i 16 bit più bassi rappresentano il numero di build.
 
 ## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apriamo un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Le seguenti proprietà integrate contengono informazioni relative alla creazione e alla modifica di questo documento.
 // Possiamo fare clic con il pulsante destro del mouse su questo documento in Esplora risorse e trovare
-// queste proprietà tramite "Proprietà" -> "Dettagli" -> Categoria "Origine".
-// Campi come PRINTDATE e EDITTIME possono visualizzare questi valori nel corpo del documento.
+// queste proprietà tramite la categoria "Proprietà" -> "Dettagli" -> "Origine".
+// Campi come PRINTDATE ed EDITTIME possono visualizzare questi valori nel corpo del documento.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
@@ -45,7 +45,7 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word aggiorna automaticamente le seguenti proprietà quando salviamo il documento.
-// Per utilizzare queste proprietà con Aspose.Words, dovremo impostarne i valori manualmente.
+// Per utilizzare queste proprietà con Aspose.Words, dovremo impostare manualmente i relativi valori.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 

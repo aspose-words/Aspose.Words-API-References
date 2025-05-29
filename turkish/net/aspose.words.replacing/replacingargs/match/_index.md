@@ -2,15 +2,15 @@
 title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
-second_title: Aspose.Words for .NET
-description: ReplacingArgs Match mülk. Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanırYer değiştirmek  C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz regex değiştirmeleri için ReplacingArgs Match özelliğini keşfedin. Kesin eşleşme sonuçlarıyla kodlama verimliliğinizi artırın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır**Yer değiştirmek** .
+Match bir regular ifadesinin eşleşmesinden kaynaklanan**Yer değiştirmek** .
 
 ```csharp
 public Match Match { get; }
@@ -18,7 +18,7 @@ public Match Match { get; }
 
 ## Notlar
 
-**Eşleşme Endeksi"** bulma ve değiştirme aralığının başlangıcından itibaren eşleşmenin sıfır tabanlı startup konumunu alır.
+**Eşleşme.İndeks"** Bul ve değiştir aralığının başlangıcından itibaren eşleşmenin sıfırdan başlayan starting konumunu alır.
 
 ## Örnekler
 
@@ -34,10 +34,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,7 +55,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Sayısal bul-değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
 /// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback

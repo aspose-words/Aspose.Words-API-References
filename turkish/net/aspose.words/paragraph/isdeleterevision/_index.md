@@ -2,15 +2,15 @@
 title: Paragraph.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
-second_title: Aspose.Words for .NET
-description: Paragraph IsDeleteRevision mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'deki IsDeleteRevision özelliğini keşfedin. Verimli belge yönetimi için değişiklik izleme sırasında silmeleri nasıl gösterdiğini öğrenin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değerini döndürür.
+Değişiklik izleme etkinleştirilmişken bu nesnenin Microsoft Word'de silinmesi durumunda doğru değerini döndürür.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -18,7 +18,7 @@ public bool IsDeleteRevision { get; }
 
 ## Örnekler
 
-Revizyon paragraflarıyla nasıl çalışılacağını gösterir.
+Gözden geçirme paragraflarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -45,17 +45,17 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Bu tür paragraflar, silme revizyonunu kabul edene veya reddedene kadar kalacaktır.
-// Düzeltmeyi kabul etmek paragrafı tamamen kaldıracaktır,
-// ve revizyonu reddetmek, onu sanki hiç silmemişiz gibi belgede bırakacaktır.
+// Bu tür paragraflar, silme revizyonunu kabul veya reddedene kadar kalacaktır.
+// Revizyonu kabul etmek paragrafı tamamen kaldıracaktır,
+// ve revizyonu reddetmek, onu hiç silmemişiz gibi belgede bırakacaktır.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Düzeltmeyi kabul edin ve ardından paragrafın kaybolduğunu doğrulayın.
+// Revizyonu kabul edin ve ardından paragrafın gittiğini doğrulayın.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

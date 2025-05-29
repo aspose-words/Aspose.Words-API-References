@@ -3,7 +3,7 @@ title: CustomPart
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words لـ .NET
-description: CustomPart البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ CustomPart، الحل الأمثل للمكونات المُخصصة. حقق الكفاءة والدقة في مشاريعك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/custompart/custompart/

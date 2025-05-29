@@ -3,14 +3,14 @@ title: SectionCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words para .NET
-description: SectionCollection ToArray método. Copia todas las secciones de la colección en una nueva matriz de secciones en C#.
+description: Descubra el método SectionCollection ToArray, copie sin esfuerzo todas las secciones en una nueva matriz, mejorando la gestión de datos y la eficiencia de la codificación.
 type: docs
 weight: 20
 url: /es/net/aspose.words/sectioncollection/toarray/
 ---
 ## SectionCollection.ToArray method
 
-Copia todas las secciones de la colección en una nueva matriz de secciones.
+Copia todas las secciones de la colección a una nueva matriz de secciones.
 
 ```csharp
 public Section[] ToArray()

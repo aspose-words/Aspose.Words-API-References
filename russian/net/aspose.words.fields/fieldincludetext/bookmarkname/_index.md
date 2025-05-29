@@ -3,14 +3,14 @@ title: FieldIncludeText.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words для .NET
-description: FieldIncludeText BookmarkName свойство. Получает или задает имя закладки в документе который необходимо включить на С#.
+description: Откройте для себя свойство FieldIncludeText BookmarkName, которое позволяет легко управлять именами закладок в документах и настраивать их для лучшей организации и эффективности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldincludetext/bookmarkname/
 ---
 ## FieldIncludeText.BookmarkName property
 
-Получает или задает имя закладки в документе, который необходимо включить.
+Возвращает или задает имя закладки в документе, которую необходимо включить.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,7 +18,7 @@ public string BookmarkName { get; set; }
 
 ## Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены два способа использования полей INCLUDETEXT для отображения содержимого XML-файла в локальной файловой системе.
-    // 1 — выполнить XSL-преобразование XML-документа:
+    // 1 — Выполнить XSL-преобразование XML-документа:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2. Используйте XPath для получения определенных элементов из XML-документа:
+    // 2 — Используйте XPath для извлечения определенных элементов из XML-документа:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле INCLUDETEXT с настраиваемыми свойствами.
+/// Используйте конструктор документов для вставки поля INCLUDETEXT с пользовательскими свойствами.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

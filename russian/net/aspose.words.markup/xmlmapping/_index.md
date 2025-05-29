@@ -3,16 +3,16 @@ title: XmlMapping Class
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.XmlMapping сорт. Указывает информацию которая используется для установления сопоставления между тегом структурированного документа Parent и элементом XML хранящимся в пользовательской части данных XML в документе на С#.
+description: Откройте для себя класс Aspose.Words.Markup.XmlMapping, который позволяет легко связать структурированные теги документа с элементами XML, улучшая интеграцию данных вашего документа.
 type: docs
-weight: 4100
+weight: 4790
 url: /ru/net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class
 
-Указывает информацию, которая используется для установления сопоставления между тегом структурированного документа Parent и элементом XML, хранящимся в пользовательской части данных XML в документе.
+Указывает информацию, которая используется для установления сопоставления между структурированным тегом документа parent и элементом XML, хранящимся в пользовательской части данных XML в документе.
 
-Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
+Чтобы узнать больше, посетите[Структурированные теги документов или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) документальная статья.
 
 ```csharp
 public class XmlMapping
@@ -22,48 +22,48 @@ public class XmlMapping
 
 | Имя | Описание |
 | --- | --- |
-| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | Возвращает пользовательскую часть данных XML, с которой сопоставлен тег родительского структурированного документа. |
-| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | Возвращает`истинный` если тег родительского структурированного документа успешно сопоставлен с данными XML. |
+| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | Возвращает пользовательскую часть данных XML, с которой сопоставляется родительский структурированный тег документа. |
+| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | Возврат`истинный` если родительский структурированный тег документа успешно сопоставлен с XML-данными. |
 | [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings/) { get; } | Возвращает сопоставления префиксов пространства имен XML для оценки[`XPath`](./xpath/) . |
-| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | Указывает пользовательский идентификатор XML-данных для пользовательской части данных XML, который должен использоваться для оценки[`XPath`](./xpath/) выражение. |
-| [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | Возвращает выражение XPath, которое оценивается для поиска пользовательского узла XML , сопоставленного с тегом родительского структурированного документа. |
+| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | Указывает пользовательский идентификатор данных XML для пользовательской части данных XML, которая будет использоваться для оценки[`XPath`](./xpath/) выражение. |
+| [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | Возвращает выражение XPath, которое вычисляется для поиска пользовательского XML-узла , сопоставленного с родительским структурированным тегом документа. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Удаляет сопоставление родительского структурированного документа с данными XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Устанавливает сопоставление между родительским структурированным тегом документа и узлом XML пользовательской части данных XML. |
 
 ## Примеры
 
-Показывает, как настроить сопоставления XML для пользовательских частей XML.
+Показывает, как устанавливать XML-сопоставления для пользовательских XML-частей.
 
 ```csharp
 Document doc = new Document();
 
-// Создайте часть XML, содержащую текст, и добавьте ее в коллекцию CustomXmlPart документа.
+// Создаем часть XML, содержащую текст, и добавляем ее в коллекцию CustomXmlPart документа.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
+Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// Создаем тег структурированного документа, который будет отображать содержимое нашего CustomXmlPart.
+// Создаем структурированный тег документа, который будет отображать содержимое нашего CustomXmlPart.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// Установите сопоставление для нашего тега структурированного документа. Это отображение будет инструктировать
-// наш тег структурированного документа для отображения части текстового содержимого XML-части, на которую указывает XPath.
-// В данном случае это будет содержимое второго "<text>" элемент первого "<root>" элемент: «Текстовый элемент №2».
+// Установите сопоставление для нашего структурированного тега документа. Это сопоставление будет указывать
+// наш структурированный тег документа для отображения части текстового содержимого XML-части, на которую указывает XPath.
+// В этом случае это будет содержимое второго элемента "<text>" первого элемента "<root>": "Текстовый элемент №2".
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);
 Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
 Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
-Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag.XmlMapping.PrefixMappings);
+Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", тег.XmlMapping.PrefixMappings);
 
-// Добавьте в документ тег структурированного документа, чтобы отобразить содержимое нашей пользовательской части.
+// Добавляем структурированный тег документа в документ для отображения содержимого из нашей пользовательской части.
 doc.FirstSection.Body.AppendChild(tag);
 doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ```

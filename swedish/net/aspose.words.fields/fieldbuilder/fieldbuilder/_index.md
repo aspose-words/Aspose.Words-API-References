@@ -3,14 +3,14 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words för .NET
-description: FieldBuilder byggare. Initierar en instans avFieldBuilder class i C#.
+description: Upptäck FieldBuilder, det kraftfulla verktyget för att enkelt skapa och hantera fält i dina projekt. Effektivisera ditt arbetsflöde idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-Initierar en instans av[`FieldBuilder`](../) class.
+Initierar en instans av[`FieldBuilder`](../) klass.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -31,8 +31,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// Fält har sin byggare, som vi kan använda för att konstruera en fältkod bit för bit.
-// I det här fallet kommer vi att konstruera ett STreckkodsfält som representerar ett amerikanskt postnummer,
+// Fält har sin egen verktygsbyggare, som vi kan använda för att konstruera fältkod bit för bit.
+// I det här fallet kommer vi att konstruera ett streckkodsfält som representerar ett amerikanskt postnummer,
 // och sedan infoga den framför en Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");

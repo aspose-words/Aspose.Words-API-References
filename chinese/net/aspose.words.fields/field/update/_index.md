@@ -2,15 +2,15 @@
 title: Field.Update
 linktitle: Update
 articleTitle: Update
-second_title: 用于 .NET 的 Aspose.Words
-description: Field Update 方法. 执行字段更新如果该字段已被更新则抛出异常 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的字段更新方法高效更新字段。通过确保字段未被使用，避免冲突。立即简化您的数据管理！
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-执行字段更新。如果该字段已被更新，则抛出异常。
+执行字段更新。如果字段已在更新，则抛出异常。
 
 ```csharp
 public void Update()
@@ -18,14 +18,14 @@ public void Update()
 
 ## 例子
 
-演示如何使用 FieldType 将字段插入到文档中。
+展示如何使用 FieldType 将字段插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入两个字段，同时传递一个标志，该标志确定在构建器插入它们时是否更新它们。
-// 在某些情况下，更新字段的计算成本可能很高，推迟更新可能是个好主意。
+// 插入两个字段，同时传递一个标志，该标志决定在构建器插入它们时是否更新它们。
+// 在某些情况下，更新字段可能需要花费大量的计算资源，因此推迟更新可能是一个好主意。
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -58,7 +58,7 @@ else
 }
 ```
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +71,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-执行字段更新。如果该字段已被更新，则抛出异常。
+执行字段更新。如果字段已在更新，则抛出异常。
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,11 +135,11 @@ public void Update(bool ignoreMergeFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | 如果`真的`然后，无论 MERGEFORMAT 开关如何，都会放弃直接字段结果格式化，否则将执行正常更新。 |
+| ignoreMergeFormat | Boolean | 如果`真的`然后放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ## 例子
 
-演示如何在加载文档时保留或丢弃 INCLUDEPICTURE 字段。
+展示如何在加载文档时保留或丢弃 INCLUDEPICTURE 字段。
 
 ```csharp
 Document doc = new Document();
@@ -154,7 +154,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // 我们可以在 LoadOptions 对象中设置一个标志来决定是否转换所有 INCLUDEPICTURE 字段
-    // 加载包含图像形状的文档时将其转换为图像形状。
+    // 在加载包含它们的文档时将其转换为图像形状。
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

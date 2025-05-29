@@ -3,7 +3,7 @@ title: ImportFormatOptions
 linktitle: ImportFormatOptions
 articleTitle: ImportFormatOptions
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ ImportFormatOptions لتكامل سلس. تمتع بميزات فعّالة مع مُنشئنا الافتراضي لتحسين كفاءة البرمجة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/importformatoptions/importformatoptions/

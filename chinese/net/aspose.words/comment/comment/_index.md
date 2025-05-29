@@ -2,15 +2,15 @@
 title: Comment
 linktitle: Comment
 articleTitle: Comment
-second_title: 用于 .NET 的 Aspose.Words
-description: Comment 构造函数. 初始化一个新实例Comment类 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的 Comment 构造函数轻松创建引人入胜的评论。初始化一个新的 Comment 类实例，无缝增强用户交互！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comment/comment/
 ---
 ## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
-初始化一个新实例[`Comment`](../)类.
+初始化[`Comment`](../)类.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -22,15 +22,15 @@ public Comment(DocumentBase doc)
 
 ## 评论
 
-什么时候[`Comment`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
+什么时候[`Comment`](../)已创建，它属于指定文档，但尚未成为文档的一部分，并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Comment`](../)到文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/) 在您想要插入评论的段落上。
+附加[`Comment`](../)文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/)在您想要插入评论的段落上输入 。
 
-创建评论后，不要忘记设置它[`Author`](../author/), [`Initial`](../initial/)和[`DateTime`](../datetime/)特性。
+创建评论后，不要忘记设置其[`Author`](../author/), [`Initial`](../initial/)和[`DateTime`](../datetime/)特性。
 
 ## 例子
 
-展示如何使用文档访问者打印所有注释的内容及其注释范围。
+展示如何使用文档访问器打印所有评论的内容及其评论范围。
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -46,14 +46,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // 将文本添加到文档中，将其扭曲到注释范围内，然后添加您的注释。
+    // 将文本添加到文档，将其扭曲到注释范围内，然后添加您的注释。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // 添加两条对评论的回复。
+    // 为评论添加两条回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -61,26 +61,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// 迭代每个顶级评论并打印其评论范围、内容和回复。
+/// 遍历每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // 迭代所有顶级注释。与回复类型评论不同，顶级评论没有祖先。
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // 遍历所有顶级评论。与回复类型的评论不同，顶级评论没有祖先。
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // 首先，访问评论范围的开头。
+        // 首先，访问注释范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // 然后，访问评论及其可能有的任何回复。
+        // 然后，访问该评论以及它可能有的任何回复。
         comment.Accept(commentVisitor);
+        // 仅访问评论的开头。
+        comment.AcceptStart(commentVisitor);
+        // 仅访问注释的结尾。
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // 最后访问评论范围末尾，然后打印访问者的文本内容。
+        // 最后访问评论范围的末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -118,7 +122,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 CommentRangeStart 节点时调用。
+    /// 当在文档中遇到 CommentRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -130,7 +134,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 CommentRangeEnd 节点时调用。
+    /// 当在文档中遇到 CommentRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -142,7 +146,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Comment 节点时调用。
+    /// 当在文档中遇到注释节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -155,7 +159,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中Comment节点的访问结束时调用。
+    /// 当文档中评论节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -167,9 +171,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 向 StringBuilder 附加一行并根据访问者在文档树中的深度进行缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -197,7 +201,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
-初始化一个新实例[`Comment`](../)类.
+初始化[`Comment`](../)类.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -206,13 +210,13 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
-| author | String | 评论的作者姓名。不可能是`无效的`。 |
-| initial | String | 评论的作者姓名缩写。不可能是`无效的`。 |
-| dateTime | DateTime | 发表评论的日期和时间。 |
+| author | String | 评论的作者姓名。不能是`无效的`。 |
+| initial | String | 作者在评论处签名。无法`无效的`。 |
+| dateTime | DateTime | 评论的日期和时间。 |
 
 ## 例子
 
-演示如何向段落添加注释。
+展示如何向段落添加注释。
 
 ```csharp
 Document doc = new Document();
@@ -226,7 +230,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
- // 在Microsoft Word中，我们可以在文档正文中右键单击该注释进行编辑，或者回复。
+ // 在Microsoft Word中，我们可以在文档正文中右键单击该注释来编辑它，或者回复它。
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

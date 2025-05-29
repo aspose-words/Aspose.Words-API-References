@@ -3,7 +3,7 @@ title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
 second_title: Aspose.Words per .NET
-description: FieldPrint PostScriptGroup proprietà. Ottiene o imposta il rettangolo di disegno su cui operano le istruzioni PostScript in C#.
+description: Scopri la proprietà FieldPrint PostScriptGroup per gestire facilmente il rettangolo di disegno per una gestione efficiente delle istruzioni PostScript.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -18,7 +18,7 @@ public string PostScriptGroup { get; set; }
 
 ## Esempi
 
-Mostra per inserire un campo PRINT.
+Mostra come inserire un campo STAMPA.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ builder.Write("My paragraph");
 // Il campo PRINT può inviare istruzioni alla stampante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Imposta l'area su cui la stampante esegue le istruzioni.
-// In questo caso, sarà il paragrafo che contiene il nostro campo PRINT.
+// Imposta l'area su cui la stampante dovrà eseguire le istruzioni.
+// In questo caso, sarà il paragrafo a contenere il nostro campo PRINT.
 field.PostScriptGroup = "para";
 
 // Quando utilizziamo una stampante che supporta PostScript per stampare il nostro documento,

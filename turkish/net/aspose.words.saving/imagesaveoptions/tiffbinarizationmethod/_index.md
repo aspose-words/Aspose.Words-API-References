@@ -2,15 +2,15 @@
 title: ImageSaveOptions.TiffBinarizationMethod
 linktitle: TiffBinarizationMethod
 articleTitle: TiffBinarizationMethod
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions TiffBinarizationMethod mülk. Görüntüleri 1 bpp format ye dönüştürürken kullanılan yöntemi alır veya ayarlar.SaveFormat dırdirTiff ve TiffCompression eşittirCcitt3 veyaCcitt4  C#'da.
+second_title: .NET için Aspose.Words
+description: ImageSaveOptions için TiffBinarizationMethod özelliğini keşfedin. Görüntüleri Ccitt3 veya Ccitt4 sıkıştırmasıyla kolayca 1 bpp biçimine dönüştürün.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Görüntüleri 1 bpp format 'ye dönüştürürken kullanılan yöntemi alır veya ayarlar.[`SaveFormat`](../saveformat/) dır-dirTiff ve [`TiffCompression`](../tiffcompression/) eşittirCcitt3 veyaCcitt4 .
+Görüntüleri 1 bpp formatına dönüştürürken kullanılan yöntemi alır veya ayarlar [`SaveFormat`](../saveformat/) dırTiff ve [`TiffCompression`](../tiffcompression/) eşittirCcitt3 veyaCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:Threshold.
 
 ## Örnekler
 
-Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
+Floyd-Steinberg yöntemi kullanılarak bir TIFF görüntüsünün oluşturulması sırasında TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgeyi TIFF olarak kaydettiğimizde SaveOptions nesnesini iletebiliriz
-// Aspose.Words'ün bu görüntüyü işlerken uygulayacağı renk taklidini ayarlayın.
+// Belgeyi TIFF olarak kaydettiğimizde, SaveOptions nesnesini geçirebiliriz
+// Aspose.Words'ün bu resmi işlerken uygulayacağı titreşimi ayarlayın.
 // "ThresholdForFloydSteinbergDithering" özelliğinin varsayılan değeri 128'dir.
 // Daha yüksek değerler daha koyu görüntüler üretme eğilimindedir.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)

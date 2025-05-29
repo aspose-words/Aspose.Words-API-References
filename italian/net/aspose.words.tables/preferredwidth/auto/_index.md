@@ -3,7 +3,7 @@ title: PreferredWidth.Auto
 linktitle: Auto
 articleTitle: Auto
 second_title: Aspose.Words per .NET
-description: PreferredWidth Auto campo. Restituisce unistanza che rappresenta il valore larghezza preferita non specificata in C#.
+description: Scopri il campo PreferredWidth Auto, che gestisce in modo efficiente i valori di larghezza non specificati per una personalizzazione ottimale del layout nei tuoi progetti.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/preferredwidth/auto/
@@ -18,7 +18,7 @@ public static readonly PreferredWidth Auto;
 
 ## Esempi
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

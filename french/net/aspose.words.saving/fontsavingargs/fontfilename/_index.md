@@ -3,7 +3,7 @@ title: FontSavingArgs.FontFileName
 linktitle: FontFileName
 articleTitle: FontFileName
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs FontFileName propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la police sera enregistrée en C#.
+description: Découvrez la propriété FontFileName de FontSavingArgs, gérez facilement les noms de fichiers de polices et améliorez votre flux de travail de conception avec des capacités d'enregistrement transparentes.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -18,11 +18,11 @@ public string FontFileName { get; set; }
 
 ## Remarques
 
-Cette propriété vous permet de redéfinir la manière dont les noms de fichiers de polices sont générés lors de l'exportation au format HTML.
+Cette propriété vous permet de redéfinir la manière dont les noms de fichiers de police sont générés lors de l'exportation vers HTML.
 
-Lorsque l'événement est déclenché, cette propriété contient le nom de fichier généré par Aspose.Words. Vous pouvez modifier la valeur de cette propriété pour enregistrer la police dans un fichier différent. Notez que les noms de fichiers doivent être uniques.
+Lorsque l'événement est déclenché, cette propriété contient le nom du fichier généré par Aspose.Words. Vous pouvez modifier la valeur de cette propriété pour enregistrer la police dans un fichier différent. Notez que les noms de fichiers doivent être uniques.
 
-Aspose.Words génère automatiquement un nom de fichier unique pour chaque police intégrée lors de l'exportation au format HTML. La manière dont le nom du fichier de police est généré dépend du fait que vous enregistrez le document dans un fichier ou dans un flux.
+Aspose.Words génère automatiquement un nom de fichier unique pour chaque police intégrée lors de l'exportation au format HTML. Le mode de génération du nom de fichier de police varie selon que vous enregistrez le document dans un fichier ou un flux.
 
 Lors de l'enregistrement d'un document dans un fichier, le nom du fichier de police généré ressemble à &lt;nom du fichier de base du document&gt;.&lt;nom du fichier d'origine&gt;&lt;suffixe facultatif&gt;.&lt;extension&gt;.
 
@@ -32,7 +32,7 @@ Lors de l'enregistrement d'un document dans un flux, le nom du fichier de police
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -58,7 +58,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -75,7 +75,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

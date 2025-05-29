@@ -3,14 +3,14 @@ title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: DigitalSignatureCollection GetEnumerator methode. Gibt ein WörterbuchEnumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann in C#.
+description: Erkunden Sie die GetEnumerator-Methode von DigitalSignatureCollection, um mit einem praktischen Wörterbuch-Enumerator einfach durch alle Sammlungselemente zu iterieren.
 type: docs
 weight: 50
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
 ---
 ## DigitalSignatureCollection.GetEnumerator method
 
-Gibt ein Wörterbuch-Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
+Gibt ein Wörterbuch-Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können.
 
 ```csharp
 public IEnumerator<DigitalSignature> GetEnumerator()

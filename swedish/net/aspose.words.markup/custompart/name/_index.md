@@ -3,14 +3,14 @@ title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: CustomPart Name fast egendom. Hämtar eller ställer in denna dels absoluta namn i OOXMLpaketet eller målURL i C#.
+description: Upptäck hur du hanterar CustomPart-namn i OOXML-paket. Ställ in eller hämta enkelt absoluta namn för sömlös integration och förbättrad funktionalitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-Hämtar eller ställer in denna dels absoluta namn i OOXML-paketet eller mål-URL.
+Hämtar eller anger den här delens absoluta namn i OOXML-paketet eller mål-URL:en.
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Anmärkningar
 
-Om relationsmålet är internt är denna egenskap det absoluta delnamnet i paketet. Om relationsmålet är externt är den här egenskapen mål-URL.
+Om relationsmålet är internt är den här egenskapen det absoluta delnamnet i paketet. Om relationsmålet är externt är den här egenskapen mål-URL:en.
 
-Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
+Standardvärdet är en tom sträng. Ett giltigt värde måste vara en sträng som inte är tom.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

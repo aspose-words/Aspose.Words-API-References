@@ -2,15 +2,15 @@
 title: OdtSaveOptions.MeasureUnit
 linktitle: MeasureUnit
 articleTitle: MeasureUnit
-second_title: Aspose.Words for .NET
-description: OdtSaveOptions MeasureUnit mülk. Belge içeriğine uygulanacak ölçü birimlerinin belirtilmesine izin verir. Varsayılan değerCentimeters C#'da.
+second_title: .NET için Aspose.Words
+description: OdtSaveOptions ile belgenizin MeasureUnit'ini özelleştirin. Hassasiyet için tercih ettiğiniz ölçüm birimlerini seçin; varsayılan Santimetre'dir.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.saving/odtsaveoptions/measureunit/
 ---
 ## OdtSaveOptions.MeasureUnit property
 
-Belge içeriğine uygulanacak ölçü birimlerinin belirtilmesine izin verir. Varsayılan değer:Centimeters
+Belge içeriğine uygulanacak ölçü birimlerini belirtmenize olanak tanır. Varsayılan değerCentimeters
 
 ```csharp
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
@@ -18,20 +18,20 @@ public OdtSaveMeasureUnit MeasureUnit { get; set; }
 
 ## Notlar
 
-Open Office, belgelerde uzunlukları, genişlikleri ve diğer ölçülebilir biçimlendirmeleri ve içerik özelliklerini belirtirken santimetreyi kullanırken, MS Office inç kullanır.
+Open Office, belgelerde uzunlukları, genişlikleri ve diğer ölçülebilir biçimlendirmeleri ve içerik özelliklerini belirtirken santimetre kullanır, oysa MS Office inç kullanır.
 
 ## Örnekler
 
-Kaydedilmiş bir ODT belgesinin stil parametrelerini tanımlamak için farklı ölçü birimlerinin nasıl kullanılacağını gösterir.
+Kaydedilmiş bir ODT belgesinin stil parametrelerini tanımlamak için farklı ölçüm birimlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgeyi .odt'a aktardığımızda, belgeyi kaydetme şeklimizi değiştirmek için OdtSaveOptions nesnesini kullanabiliriz.
+// Belgeyi .odt'ye aktardığımızda, belgeyi nasıl kaydedeceğimizi değiştirmek için OdtSaveOptions nesnesini kullanabiliriz.
 // "MeasureUnit" özelliğini "OdtSaveMeasureUnit.Centimeters" olarak ayarlayabiliriz
- // stil parametreleri gibi içerikleri Open Office'in kullandığı metrik sistemi kullanarak tanımlamak için.
+ // Open Office'in kullandığı metrik sistemi kullanarak stil parametreleri gibi içerikleri tanımlamak için.
 // "MeasureUnit" özelliğini "OdtSaveMeasureUnit.Inches" olarak ayarlayabiliriz
-// Microsoft Word'ün kullandığı emperyal sistemi kullanarak stil parametreleri gibi içerikleri tanımlamak için.
+// Microsoft Word'ün kullandığı imparatorluk sistemini kullanarak stil parametreleri gibi içerikleri tanımlamak için.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

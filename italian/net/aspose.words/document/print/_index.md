@@ -3,9 +3,9 @@ title: Document.Print
 linktitle: Print
 articleTitle: Print
 second_title: Aspose.Words per .NET
-description: Document Print metodo. Stampa lintero documento sulla stampante predefinita in C#.
+description: Stampa senza sforzo l'intero documento sulla tua stampante predefinita con il nostro metodo di stampa semplificato. Goditi una stampa veloce e senza problemi!
 type: docs
-weight: 640
+weight: 680
 url: /it/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -29,7 +29,7 @@ builder.Writeln("Hello world!");
 // 1 - Stampa utilizzando la stampante predefinita:
 doc.Print();
 
-// 2 - Specificare per nome la stampante con cui desideriamo stampare il documento:
+// 2 - Specificare il nome della stampante con cui si desidera stampare il documento:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -70,7 +70,7 @@ builder.Writeln("Hello world!");
 // 1 - Stampa utilizzando la stampante predefinita:
 doc.Print();
 
-// 2 - Specificare per nome la stampante con cui desideriamo stampare il documento:
+// 2 - Specificare il nome della stampante con cui si desidera stampare il documento:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -88,7 +88,7 @@ doc.Print(myPrinter);
 
 ## Print(*PrinterSettings*) {#print_1}
 
-Stampa il documento in base alle impostazioni della stampante specificate, utilizzando il controller di stampa standard (senza interfaccia utente).
+Stampa il documento in base alle impostazioni di stampa specificate, utilizzando il controller di stampa standard (senza interfaccia utente).
 
 ```csharp
 public void Print(PrinterSettings printerSettings)
@@ -112,12 +112,12 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // Crea un oggetto "PrinterSettings" per modificare il modo in cui stampiamo il documento.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// Imposta la proprietà "PrintRange" su "PrintRange.SomePages" su
+// Imposta la proprietà "PrintRange" su "PrintRange.SomePages" per
 // comunica alla stampante che intendiamo stampare solo alcune pagine del documento.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// Imposta la proprietà "FromPage" su "1" e la proprietà "ToPage" su "3" per stampare le pagine da 1 a 3.
-// L'indicizzazione della pagina è in base 1.
+// Impostare la proprietà "FromPage" su "1" e la proprietà "ToPage" su "3" per stampare le pagine da 1 a 3.
+// L'indicizzazione delle pagine è basata su 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
@@ -125,8 +125,8 @@ printerSettings.ToPage = 3;
 // 1 - Stampa applicando le nostre impostazioni di stampa:
 doc.Print(printerSettings);
 
-// 2 - Stampa applicando le nostre impostazioni di stampa, while also
-// dando al documento un nome personalizzato che potremmo riconoscere nella coda della stampante:
+// 2 - Stampa applicando le nostre impostazioni di stampa, mentre anche
+// assegnando al documento un nome personalizzato che potremmo riconoscere nella coda di stampa:
 doc.Print(printerSettings, "My rendered document");
 ```
 
@@ -140,7 +140,7 @@ doc.Print(printerSettings, "My rendered document");
 
 ## Print(*PrinterSettings, string*) {#print_2}
 
-Stampa il documento in base alle impostazioni della stampante specificate, utilizzando il controller di stampa standard (senza interfaccia utente) e un nome documento.
+Stampa il documento in base alle impostazioni di stampa specificate, utilizzando il controller di stampa standard (senza interfaccia utente) e un nome di documento.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, string documentName)
@@ -149,7 +149,7 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Le impostazioni della stampante da utilizzare. |
-| documentName | String | Il nome del documento da visualizzare (ad esempio, in una finestra di dialogo di stato della stampa o nella coda della stampante) durante la stampa del documento. |
+| documentName | String | Nome del documento da visualizzare (ad esempio, in una finestra di dialogo di stato di stampa o in una coda di stampa) durante la stampa del documento. |
 
 ## Osservazioni
 
@@ -165,12 +165,12 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // Crea un oggetto "PrinterSettings" per modificare il modo in cui stampiamo il documento.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// Imposta la proprietà "PrintRange" su "PrintRange.SomePages" su
+// Imposta la proprietà "PrintRange" su "PrintRange.SomePages" per
 // comunica alla stampante che intendiamo stampare solo alcune pagine del documento.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// Imposta la proprietà "FromPage" su "1" e la proprietà "ToPage" su "3" per stampare le pagine da 1 a 3.
-// L'indicizzazione della pagina è in base 1.
+// Impostare la proprietà "FromPage" su "1" e la proprietà "ToPage" su "3" per stampare le pagine da 1 a 3.
+// L'indicizzazione delle pagine è basata su 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
@@ -178,8 +178,8 @@ printerSettings.ToPage = 3;
 // 1 - Stampa applicando le nostre impostazioni di stampa:
 doc.Print(printerSettings);
 
-// 2 - Stampa applicando le nostre impostazioni di stampa, while also
-// dando al documento un nome personalizzato che potremmo riconoscere nella coda della stampante:
+// 2 - Stampa applicando le nostre impostazioni di stampa, mentre anche
+// assegnando al documento un nome personalizzato che potremmo riconoscere nella coda di stampa:
 doc.Print(printerSettings, "My rendered document");
 ```
 

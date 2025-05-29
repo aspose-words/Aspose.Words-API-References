@@ -3,7 +3,7 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words для .NET
-description: BuildVersionInfo Version свойство. Получает версию продукта на С#.
+description: Откройте для себя свойство BuildVersionInfo Version, чтобы легко получать доступ к версии продукта и управлять ею для повышения производительности и надежности программного обеспечения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/buildversioninfo/version/
@@ -18,7 +18,7 @@ public static string Version { get; }
 
 ## Примечания
 
-Версия продукта имеет формат Major.Minor.Hotfix.0.
+Версия продукта имеет формат «Major.Minor.Hotfix.0».
 
 ## Примеры
 

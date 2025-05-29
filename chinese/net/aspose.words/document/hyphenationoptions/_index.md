@@ -2,15 +2,15 @@
 title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Document HyphenationOptions 财产. 提供对文档连字符选项的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Document HyphenationOptions 属性来自定义连字设置，增强可读性并改善文档的呈现效果。
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-提供对文档连字符选项的访问。
+提供对文档连字选项的访问。
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

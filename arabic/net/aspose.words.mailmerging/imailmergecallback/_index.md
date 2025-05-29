@@ -3,14 +3,14 @@ title: IMailMergeCallback Interface
 linktitle: IMailMergeCallback
 articleTitle: IMailMergeCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد تلقي إشعارات أثناء إجراء دمج البريد في C#.
+description: حسّن عملية دمج البريد لديك باستخدام Aspose.Words.MailMerging.IMailMergeCallback. احصل على إشعارات فورية وحسّن كفاءة أتمتة مستنداتك.
 type: docs
-weight: 3800
+weight: 4490
 url: /ar/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
 
-قم بتطبيق هذه الواجهة إذا كنت تريد تلقي إشعارات أثناء إجراء دمج البريد.
+قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات أثناء تنفيذ دمج البريد.
 
 ```csharp
 public interface IMailMergeCallback
@@ -20,11 +20,11 @@ public interface IMailMergeCallback
 
 | اسم | وصف |
 | --- | --- |
-| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | يتم الاتصال به عند استبدال العلامات النصية "الشارب" بحقول MERGEFIELD. |
+| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | يتم استدعاؤها عند استبدال علامات النص "mustache" بحقول MERGEFIELD. |
 
 ## أمثلة
 
-يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
+يوضح كيفية تحديد منطق مخصص للتعامل مع الأحداث أثناء دمج البريد.
 
 ```csharp
 public void Callback()
@@ -32,7 +32,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل علامتي دمج المراسلات تشيران إلى عمودين في مصدر بيانات.
+    // إدراج علامتي دمج بريد تشيران إلى عمودين في مصدر بيانات.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -45,8 +45,8 @@ public void Callback()
     // قم بتكوين دمج البريد الخاص بنا لاستخدام علامات دمج البريد البديلة.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // بعد ذلك، تأكد من أن عملية دمج البريد ستحول العلامات، مثل علامة "LastName" الخاصة بنا،
-    // إلى MERGEFIELDs في مستندات الدمج.
+    // ثم تأكد من أن دمج البريد سيحول العلامات، مثل علامة "LastName" الخاصة بنا،
+    // في MERGEFIELDs في مستندات الدمج.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -57,7 +57,7 @@ public void Callback()
 }
 
 /// <summary>
-/// حساب عدد المرات التي يستبدل فيها دمج البريد علامات دمج البريد التي لم يتمكن من تعبئتها بالبيانات باستخدام MERGEFIELDs.
+/// يحسب عدد المرات التي يستبدل فيها دمج البريد علامات دمج البريد التي لا يمكنه ملؤها بالبيانات باستخدام MERGEFIELDs.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

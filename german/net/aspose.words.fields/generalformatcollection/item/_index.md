@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: GeneralFormatCollection Item eigendom. Ruft ein allgemeines Format am angegebenen Index ab in C#.
+description: Greifen Sie auf die Elementeigenschaft GeneralFormatCollection zu, um an jedem Index problemlos anpassbare Formate abzurufen und so Ihre Datenpräsentation mühelos zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/generalformatcollection/item/
@@ -32,14 +32,14 @@ Zeigt, wie Feldergebnisse formatiert werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Dokument-Builder, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
+// Verwenden Sie einen Dokumentgenerator, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Wir können mithilfe der Eigenschaften des Felds ein Format auf das Ergebnis eines Felds anwenden.
-// Nachfolgend sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
+// Wir können mithilfe der Feldeigenschaften ein Format auf das Ergebnis eines Felds anwenden.
+// Unten sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
 // 1 - Numerisches Format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -48,7 +48,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datums-/Uhrzeitformat:
+// 2 - Datums-/Zeitformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -74,7 +74,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Wir können unsere Formate entfernen, um das Ergebnis des Feldes in seine ursprüngliche Form zurückzusetzen.
+// Wir können unsere Formate entfernen, um das Ergebnis des Felds in seine ursprüngliche Form zurückzusetzen.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

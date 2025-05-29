@@ -2,10 +2,10 @@
 title: ChartFormat.Stroke
 linktitle: Stroke
 articleTitle: Stroke
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartFormat Stroke 财产. 获取父图表元素的线条格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartFormat Stroke 属性以增强图表中的线条样式，确保专业且具有视觉吸引力的演示。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property

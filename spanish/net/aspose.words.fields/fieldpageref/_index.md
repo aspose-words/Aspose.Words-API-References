@@ -3,16 +3,16 @@ title: FieldPageRef Class
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldPageRef clase. Implementa el campo PAGEREF en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldPageRef para una implementación perfecta del campo PAGEREF, mejorando la navegación y la eficiencia del documento.
 type: docs
-weight: 2270
+weight: 2680
 url: /es/net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class
 
 Implementa el campo PAGEREF.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldPageRef : Field
@@ -31,14 +31,14 @@ public class FieldPageRef : Field
 | [BookmarkName](../../aspose.words.fields/fieldpageref/bookmarkname/) { get; set; } | Obtiene o establece el nombre del marcador. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/)objeto que proporciona acceso tipificado al formato del campo. |
 | [InsertHyperlink](../../aspose.words.fields/fieldpageref/inserthyperlink/) { get; set; } | Obtiene o establece si se debe insertar un hipervínculo al párrafo marcado. |
 | [InsertRelativePosition](../../aspose.words.fields/fieldpageref/insertrelativeposition/) { get; set; } | Obtiene o establece si se debe insertar una posición relativa del párrafo marcado. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas al documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que está entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campo. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -46,12 +46,12 @@ public class FieldPageRef : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo padre, devuelve su párrafo padre. Si el campo ya se ha eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza una excepción si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se lanza una excepción si el campo ya se está actualizando. |
 
 ## Observaciones
 
@@ -59,32 +59,32 @@ Inserta el número de la página que contiene el marcador especificado para una 
 
 ## Ejemplos
 
-Muestra para insertar campos PAGEREF para mostrar la ubicación relativa de los marcadores.
+Muestra cómo insertar campos PAGEREF para mostrar la ubicación relativa de los marcadores.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
     // Inserta un campo PAGEREF que muestra en qué página se encuentra un marcador.
-    // Establece el indicador InsertHyperlink para que el campo también funcione como un enlace al marcador en el que se puede hacer clic.
+    // Establezca el indicador InsertHyperlink para que el campo también funcione como un enlace al marcador en el que se puede hacer clic.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // Podemos usar el indicador \p para mostrar el campo PAGEREF
+    // Podemos usar el indicador \p para que se muestre el campo PAGEREF
     // la posición del marcador en relación con la posición del campo.
-    // Bookmark1 está en la misma página y encima de este campo, por lo que el resultado mostrado de este campo estará "arriba".
+    // Bookmark1 está en la misma página y encima de este campo, por lo que el resultado mostrado de este campo será "encima".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 estará en la misma página y debajo de este campo, por lo que el resultado mostrado de este campo estará "abajo".
+    // Bookmark2 estará en la misma página y debajo de este campo, por lo que el resultado mostrado de este campo será "debajo".
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 estará en una página diferente, por lo que el campo se mostrará "en la página 2".
+    // Bookmark3 estará en una página diferente, por lo que el campo mostrará "en la página 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 

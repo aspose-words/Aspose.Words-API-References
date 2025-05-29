@@ -3,14 +3,14 @@ title: Style.NextParagraphStyleName
 linktitle: NextParagraphStyleName
 articleTitle: NextParagraphStyleName
 second_title: Aspose.Words لـ .NET
-description: Style NextParagraphStyleName ملكية. الحصول على/تعيين اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة تم إدراجها بعد a فقرة منسقة بالنمط المحدد في C#.
+description: اكتشف كيفية استخدام خاصية NextParagraphStyleName بشكل فعال لأتمتة تطبيق الأسلوب للفقرات الجديدة، مما يعزز تنسيق مستندك.
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-الحصول على/تعيين اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة تم إدراجها بعد a فقرة منسقة بالنمط المحدد.
+يحصل على/يحدد اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة مدرجة بعد فقرة a بتنسيق النمط المحدد.
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
@@ -18,7 +18,7 @@ public string NextParagraphStyleName { get; set; }
 
 ## ملاحظات
 
-لا يتم استخدام هذه الخاصية بواسطة Aspose.Words. سيتم تطبيق نمط الفقرة التالي فقط تلقائيًا عند تحرير المستند في برنامج MS Word.
+لا يستخدم Aspose.Words هذه الخاصية. سيتم تطبيق نمط الفقرة التالية تلقائيًا فقط عند تحرير المستند في MS Word.
 
 ## أمثلة
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

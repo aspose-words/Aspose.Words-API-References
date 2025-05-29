@@ -3,7 +3,7 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: ImageSavingArgs Document fast egendom. Hämtar dokumentobjektet som för närvarande sparas i C#.
+description: Upptäck egenskapen ImageSavingArgs-dokument för att komma åt det dokument som sparas, vilket förbättrar effektiviteten i ditt arbetsflöde och sparar tid.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/imagesavingargs/document/
@@ -18,14 +18,14 @@ public Document Document { get; }
 
 ## Exempel
 
-Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
+Visar hur man inkluderar en återanropsfunktion för att spara bilder i en HTML-konverteringsprocess.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återuppringning
+    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återanropning
     // för att anpassa processen för att spara bilder.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Skriver ut egenskaperna för varje bild när sparprocessen sparar den i en bildfil i det lokala filsystemet
-/// under exporten av ett dokument till HTML.
+/// Skriver ut egenskaperna för varje bild medan sparprocessen sparar den till en bildfil i det lokala filsystemet
+/// under export av ett dokument till HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.ForcePageBreaks
 linktitle: ForcePageBreaks
 articleTitle: ForcePageBreaks
 second_title: Aspose.Words för .NET
-description: TxtSaveOptionsBase ForcePageBreaks fast egendom. Tillåter att ange om sidbrytningarna ska bevaras under export i C#.
+description: Styr sidbrytningar med TxtSaveOptionsBases ForcePageBreaks-egenskap. Säkerställ sömlös export och underhåll dokumentformatering utan ansträngning.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 ---
 ## TxtSaveOptionsBase.ForcePageBreaks property
 
-Tillåter att ange om sidbrytningarna ska bevaras under export.
+Gör det möjligt att ange om sidbrytningarna ska bevaras under export.
 
 Standardvärdet är`falsk`.
 
@@ -20,11 +20,11 @@ public bool ForcePageBreaks { get; set; }
 
 ## Anmärkningar
 
-Egenskapen påverkar endast sidbrytningar som infogas uttryckligen i ett dokument. Det är inte relaterat till sidbrytningar som MS Word automatiskt infogar i slutet av varje sida.
+Egenskapen påverkar endast sidbrytningar som infogas explicit i ett dokument. Den är inte relaterad till sidbrytningar som MS Word automatiskt infogar i slutet av varje sida.
 
 ## Exempel
 
-Visar hur man anger om sidbrytningar ska bevaras vid export av ett dokument till klartext.
+Visar hur man anger om sidbrytningar ska behållas när man exporterar ett dokument till klartext.
 
 ```csharp
 Document doc = new Document();
@@ -36,20 +36,20 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3");
 
-// Skapa ett "TxtSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"
+// Skapa ett "TxtSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-funktion.
 // metod för att ändra hur vi sparar dokumentet till klartext.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Aspose.Words "Document"-objekt har sidbrytningar, precis som Microsoft Word-dokument.
-// Spara format som ".txt" är en sammanhängande text utan sidbrytningar.
-// Ställ in egenskapen "ForcePageBreaks" på "true" för att bevara alla sidbrytningar i form av '\f'-tecken.
-// Ställ in egenskapen "ForcePageBreaks" på "false" för att ignorera alla sidbrytningar.
+// Aspose.Words "Dokument"-objekt har sidbrytningar, precis som Microsoft Word-dokument.
+// Sparformat som ".txt" är en sammanhängande text utan sidbrytningar.
+// Sätt egenskapen "ForcePageBreaks" till "true" för att bevara alla sidbrytningar i form av '\f'-tecken.
+// Sätt egenskapen "ForcePageBreaks" till "false" för att ignorera alla sidbrytningar.
 saveOptions.ForcePageBreaks = forcePageBreaks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);
 
-// Om vi laddar ett dokument i vanlig text med sidbrytningar,
-// "Dokument"-objektet kommer att använda dem för att dela upp brödtexten i sidor.
+// Om vi laddar ett klartextdokument med sidbrytningar,
+// objektet "Dokument" kommer att använda dem för att dela upp brödtexten i sidor.
 doc = new Document(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt");
 
 Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);

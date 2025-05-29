@@ -3,14 +3,14 @@ title: ListLevel.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words لـ .NET
-description: ListLevel ImageData ملكية. إرجاع بيانات الصورة لشكل التعداد النقطي للصورة لمستوى القائمة الحالي في C#.
+description: اكتشف خاصية ImageData على مستوى القائمة للوصول إلى بيانات الصور وتحسينها لأشكال النقاط في قائمتك الحالية. حسّن تصميمك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/listlevel/imagedata/
 ---
 ## ListLevel.ImageData property
 
-إرجاع بيانات الصورة لشكل التعداد النقطي للصورة لمستوى القائمة الحالي.
+إرجاع بيانات الصورة لشكل النقطة للصورة لمستوى القائمة الحالي.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -18,7 +18,7 @@ public ImageData ImageData { get; }
 
 ## ملاحظات
 
-إذا لم يحدد هذا المستوى الصورة، فسيتم إرجاع التعداد النقطي`باطل` . قبل تعيين صورة جديدة لشكل نقطي غير الصورة، يرجى استخدامها[`CreatePictureBullet`](../createpicturebullet/) الطريقة أولاً.
+إذا لم يحدد هذا المستوى، تعود صورة الرصاصة`باطل` . قبل تعيين صورة جديدة لشكل نقطي غير مصور، يرجى استخدام[`CreatePictureBullet`](../createpicturebullet/) الطريقة الأولى.
 
 ### أنظر أيضا
 

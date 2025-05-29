@@ -2,8 +2,8 @@
 title: HtmlLoadOptions
 linktitle: HtmlLoadOptions
 articleTitle: HtmlLoadOptions
-second_title: Aspose.Words for .NET
-description: HtmlLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz web geliştirme için varsayılan ayarlarla örnekleri zahmetsizce başlatmak üzere tasarlanmış HtmlLoadOptions oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -23,13 +23,13 @@ Bir HTML belgesi yüklenirken koşullu yorumların nasıl destekleneceğini gös
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Değer doğruysa yüklenen belgeyi ayrıştırırken VML kodunu dikkate alırız.
+// Değer doğruysa, yüklenen belgeyi ayrıştırırken VML kodunu dikkate alırız.
 loadOptions.SupportVml = supportVml;
 
-// Bu belge "<!--[if gte vml 1]>" içinde bir JPEG resmi içeriyor etiketler,
-// ve "<![if !vml]>" içinde farklı bir PNG resmi Etiketler.
-// "SupportVml" bayrağını "true" olarak ayarlarsak Aspose.Words JPEG'i yükleyecektir.
-// Bu bayrağı "false" olarak ayarlarsak Aspose.Words yalnızca PNG'yi yükleyecektir.
+// Bu belge "<!--[if gte vml 1]>" etiketleri arasında bir JPEG görüntüsü içeriyor,
+// ve "<![if !vml]>" etiketleri arasında farklı bir PNG resmi.
+// "SupportVml" bayrağını "true" olarak ayarlarsak, Aspose.Words JPEG'i yükleyecektir.
+// Bu bayrağı "false" olarak ayarlarsak, Aspose.Words yalnızca PNG'yi yükleyecektir.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)
@@ -48,7 +48,7 @@ else
 
 ## HtmlLoadOptions(*string*) {#constructor_2}
 
-Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol.
+Şifrelenmiş bir belgeyi yüklemek için belirtilen parolayla bu sınıfın yeni bir örneğini başlatmak için bir kısayol.
 
 ```csharp
 public HtmlLoadOptions(string password)
@@ -56,11 +56,11 @@ public HtmlLoadOptions(string password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
+| password | String | Şifrelenmiş bir belgeyi açmak için şifre. Olabilir`hükümsüz` veya boş dize. |
 
 ## Örnekler
 
-Bir Html belgesinin nasıl şifreleneceğini ve ardından parola kullanılarak nasıl açılacağını gösterir.
+Bir Html belgesinin nasıl şifreleneceğini ve daha sonra parola kullanılarak nasıl açılacağını gösterir.
 
 ```csharp
 // Şifrelenmiş bir .docx dosyasından şifrelenmiş bir HTML belgesi oluşturun ve imzalayın.
@@ -98,7 +98,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
-Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol.
+Bu sınıfın özelliklerini belirtilen değerlere ayarlayarak yeni bir örneğini başlatmak için bir kısayol.
 
 ```csharp
 public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -106,17 +106,17 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Yüklenecek belgenin formatı. |
-| password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
-| baseUri | String | Göreli URI'leri mutlak olarak çözümlemek için kullanılacak dize. Olabilir`hükümsüz` veya boş dize. |
+| loadFormat | LoadFormat | Yüklenecek belgenin biçimi. |
+| password | String | Şifrelenmiş bir belgeyi açmak için şifre. Olabilir`hükümsüz` veya boş dize. |
+| baseUri | String | Göreceli URI'leri mutlak değere dönüştürmek için kullanılacak dize.`hükümsüz` veya boş dize. |
 
 ## Örnekler
 
-Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
+Bir HTML belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
 ```csharp
-// Göreli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
-// resim farklı bir konumdayken. Bu durumda, göreceli URI'yi mutlak bir URI'ye dönüştürmemiz gerekecek.
+// Göreceli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
+// görüntü farklı bir konumdayken. Bu durumda, bağıl URI'yi mutlak olana dönüştürmemiz gerekecektir.
  // HtmlLoadOptions nesnesini kullanarak bir temel URI sağlayabiliriz.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
@@ -124,7 +124,7 @@ Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Görüntü .html girişinde bozuk olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
+// Giriş .html'deki resim bozulmuş olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 

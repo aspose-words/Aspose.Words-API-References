@@ -3,14 +3,14 @@ title: HeaderFooter.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: HeaderFooter NodeType eigendom. Gibt zurückHeaderFooter  in C#.
+description: Entdecken Sie die NodeType-Eigenschaft HeaderFooter, die effizient Kopf- und Fußzeilendetails abruft und so Ihre Inhaltsstruktur und das Benutzererlebnis verbessert.
 type: docs
 weight: 50
 url: /de/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-Gibt zurückHeaderFooter .
+RückgabenHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }

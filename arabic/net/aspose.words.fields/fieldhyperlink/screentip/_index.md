@@ -3,14 +3,14 @@ title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words لـ .NET
-description: FieldHyperlink ScreenTip ملكية. الحصول على نص تلميح الشاشة للارتباط التشعبي أو تعيينه في C#.
+description: اكتشف خاصية FieldHyperlink ScreenTip لتخصيص نص الرابط التشعبي، مما يُحسّن تجربة المستخدم وتفاعله. حسّن روابطك اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldhyperlink/screentip/
 ---
 ## FieldHyperlink.ScreenTip property
 
-الحصول على نص تلميح الشاشة للارتباط التشعبي أو تعيينه.
+يحصل على نص تلميح الشاشة للرابط التشعبي أو يعينه.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -26,16 +26,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
-// سيتم فتح المستند المرتبط ثم وضع المؤشر على الإشارة المرجعية المحددة.
+// عندما نضغط على حقل الارتباط التشعبي هذا في Microsoft Word،
+//سيتم فتح المستند المرتبط ثم وضع المؤشر عند الإشارة المرجعية المحددة.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
-// سيفتح المستند المرتبط، وينتقل تلقائيًا لأسفل إلى إطار iframe المحدد.
+// عندما نضغط على حقل الارتباط التشعبي هذا في Microsoft Word،
+//سيتم فتح المستند المرتبط، والانتقال تلقائيًا إلى الإطار المحدد.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";
 field.ScreenTip = "Open " + field.Address;

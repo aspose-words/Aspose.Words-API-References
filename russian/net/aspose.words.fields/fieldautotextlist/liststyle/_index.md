@@ -3,14 +3,14 @@ title: FieldAutoTextList.ListStyle
 linktitle: ListStyle
 articleTitle: ListStyle
 second_title: Aspose.Words для .NET
-description: FieldAutoTextList ListStyle свойство. Получает или задает имя стиля на котором основан список содержащий записи на С#.
+description: Откройте для себя свойство FieldAutoTextList ListStyle, чтобы без труда настроить списки записей. Улучшите свой контент с помощью индивидуальных стилей уже сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-Получает или задает имя стиля, на котором основан список, содержащий записи.
+Возвращает или задает имя стиля, на котором основан список, содержащий записи.
 
 ```csharp
 public string ListStyle { get; set; }
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Создайте поле АВТОТЕКСТЛИСТ и задайте текст, который будет отображаться в этом поле в Microsoft Word.
-    // Установите текст, предлагающий пользователю щелкнуть это поле правой кнопкой мыши, чтобы выбрать стандартный блок автотекста,
+    // Создайте поле AUTOTEXTLIST и задайте текст, который будет отображаться в поле в Microsoft Word.
+    // Задайте текст, который предложит пользователю щелкнуть правой кнопкой мыши по этому полю, чтобы выбрать блок AutoText,
     // содержимое которого будет отображаться в поле.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Создайте стандартный блок типа Автотекст и добавьте его в документ глоссария.
+/// Создайте строительный блок типа AutoText и добавьте его в документ глоссария.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

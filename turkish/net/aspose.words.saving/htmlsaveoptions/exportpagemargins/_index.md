@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportPageMargins mülk. Sayfa kenar boşluklarının HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportPageMargins özelliğinin, sayfa kenar boşluklarını kontrol ederek HTML, MHTML ve EPUB dışa aktarımlarınızı nasıl geliştirdiğini ve cilalı bir sunum sağladığını keşfedin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-Sayfa kenar boşluklarının HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılacağını belirtir. Varsayılan:`YANLIŞ` .
+Sayfa kenar boşluklarının HTML, MHTML veya EPUB olarak dışa aktarılıp aktarılmayacağını belirtir. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -18,30 +18,30 @@ public bool ExportPageMargins { get; set; }
 
 ## Notlar
 
-Aspose.Words varsayılan olarak sayfa kenar boşluklarının alanını göstermez. Herhangi bir öğe belgenin kenarı tarafından tamamen veya kısmen kırpılmışsa, görüntülenen alan bu seçenekle genişletilebilir.
+Aspose.Words varsayılan olarak sayfa kenar boşluklarının alanını göstermez. Herhangi bir öğe belge kenarı tarafından tamamen veya kısmen kesilmişse görüntülenen alan bu seçenekle genişletilebilir.
 
 ## Örnekler
 
-Çıkış HTML belgelerinde sınırların dışındaki nesnelerin nasıl gösterileceğini gösterir.
+Çıkış HTML belgelerinde sınır dışı nesnelerin nasıl gösterileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sarma olmadan bir şekil eklemek için bir oluşturucu kullanın.
+// Sarmalama yapmadan bir şekil eklemek için bir oluşturucu kullanın.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// Negatif şekil konumu değerleri, şekli sayfa sınırlarının dışına yerleştirebilir.
-// Bunu HTML'ye aktarırsak şekil kesik görünecektir.
+// Negatif şekil konum değerleri şekli sayfa sınırlarının dışına yerleştirebilir.
+// Bunu HTML'e aktarırsak şekil kesilmiş olarak görünecektir.
 shape.Left = -150;
 
-// Belgeyi HTML'ye kaydederken bir SaveOptions nesnesi iletebiliriz
-// sayfanın sınırların dışındaki nesneleri tam olarak görüntüleyecek şekilde ayarlanıp ayarlanmayacağına karar vermek için.
-// "ExportPageMargins" bayrağını "true" olarak ayarlarsak, şekil çıktı HTML'sinde tamamen görünür olacaktır.
+// Belgeyi HTML'e kaydederken SaveOptions nesnesini geçirebiliriz
+// sayfanın sınır dışı nesneleri tam olarak görüntüleyecek şekilde ayarlanıp ayarlanmayacağına karar vermek için.
+// "ExportPageMargins" bayrağını "true" olarak ayarlarsak şekil çıktı HTML'inde tam olarak görünür olacaktır.
 // "ExportPageMargins" bayrağını "false" olarak ayarlarsak,
 // belgemiz şekli Microsoft Word'de gördüğümüz gibi kesilmiş olarak görüntüleyecektir.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };

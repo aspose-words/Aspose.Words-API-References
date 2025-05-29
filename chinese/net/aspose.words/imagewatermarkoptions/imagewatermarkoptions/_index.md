@@ -2,8 +2,8 @@
 title: ImageWatermarkOptions
 linktitle: ImageWatermarkOptions
 articleTitle: ImageWatermarkOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageWatermarkOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageWatermarkOptions 构造函数，轻松保护图片。轻松自定义水印，提升视觉效果！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/

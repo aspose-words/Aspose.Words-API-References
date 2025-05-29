@@ -3,22 +3,30 @@ title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
 second_title: Aspose.Words لـ .NET
-description: Fill BackTintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تؤدي إلى تفتيح أو تغميق لون الخلفية في C#.
+description: قم بضبط خاصية BackTintAndShade لتفتيح أو تعتيم لون الخلفية بسهولة، مما يعزز الجاذبية البصرية لتصميمك وتجربة المستخدم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/fill/backtintandshade/
 ---
 ## Fill.BackTintAndShade property
 
-الحصول على أو تعيين قيمة مزدوجة تؤدي إلى تفتيح أو تغميق لون الخلفية.
+يحصل على قيمة مزدوجة لتفتيح أو تعتيم لون الخلفية أو تعيينها.
 
 ```csharp
 public double BackTintAndShade { get; set; }
 ```
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentOutOfRangeException | قم بالرمي إذا قمت بتعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1. |
+
 ## ملاحظات
 
-القيم المسموح بها تقع ضمن النطاق من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
+القيم المسموح بها تتراوح من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية.
+
+الصفر (0) محايد.
 
 ## أمثلة
 

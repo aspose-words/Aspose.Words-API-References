@@ -3,14 +3,14 @@ title: IDocumentSavingCallback Interface
 linktitle: IDocumentSavingCallback
 articleTitle: IDocumentSavingCallback
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.IDocumentSavingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время сохранения документа вызывался собственный метод на С#.
+description: Реализуйте интерфейс Aspose.Words.Saving.IDocumentSavingCallback для создания пользовательских методов сохранения документов, улучшая ваши решения по управлению документами.
 type: docs
-weight: 5150
+weight: 5900
 url: /ru/net/aspose.words.saving/idocumentsavingcallback/
 ---
 ## IDocumentSavingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы во время сохранения документа вызывался собственный метод.
+Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный метод вызывался во время сохранения документа.
 
 ```csharp
 public interface IDocumentSavingCallback
@@ -24,7 +24,7 @@ public interface IDocumentSavingCallback
 
 ## Примеры
 
-Показывает, как управлять документом при сохранении в HTML.
+Показывает, как управлять документом при сохранении в формате HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -43,12 +43,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
+/// Обратный вызов хода сохранения. Отменить сохранение документа после "MaxDuration" секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Центр.
+    /// Ктр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -56,7 +56,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается при сохранении документа.
+    /// Метод обратного вызова, вызываемый во время сохранения документа.
     /// </summary>
     /// <param name="args">Сохранение аргументов.</param>
     public void Notify(DocumentSavingArgs args)
@@ -73,13 +73,13 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в секундах.
+    /// Максимально допустимая длительность в сек.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
 ```
 
-Показывает, как управлять документом при сохранении в docx.
+Показывает, как управлять документом при сохранении в формате docx.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -98,12 +98,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
+/// Обратный вызов хода сохранения. Отменить сохранение документа после "MaxDuration" секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Центр.
+    /// Ктр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -111,7 +111,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается при сохранении документа.
+    /// Метод обратного вызова, вызываемый во время сохранения документа.
     /// </summary>
     /// <param name="args">Сохранение аргументов.</param>
     public void Notify(DocumentSavingArgs args)
@@ -128,7 +128,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в секундах.
+    /// Максимально допустимая длительность в сек.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
@@ -153,12 +153,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
+/// Обратный вызов хода сохранения. Отменить сохранение документа после "MaxDuration" секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Центр.
+    /// Ктр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -166,7 +166,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается при сохранении документа.
+    /// Метод обратного вызова, вызываемый во время сохранения документа.
     /// </summary>
     /// <param name="args">Сохранение аргументов.</param>
     public void Notify(DocumentSavingArgs args)
@@ -183,7 +183,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в секундах.
+    /// Максимально допустимая длительность в сек.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

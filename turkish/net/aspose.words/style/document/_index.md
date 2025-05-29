@@ -2,8 +2,8 @@
 title: Style.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: Style Document mülk. Sahip belgesini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş organizasyon ve verimlilik için sahip olduğunuz belgelere kolayca erişmek ve bunları yönetmek amacıyla Stil Belgesi özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/style/document/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

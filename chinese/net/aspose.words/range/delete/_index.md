@@ -2,8 +2,8 @@
 title: Range.Delete
 linktitle: Delete
 articleTitle: Delete
-second_title: 用于 .NET 的 Aspose.Words
-description: Range Delete 方法. 删除范围内的所有字符 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用“范围删除”方法高效删除指定范围内的所有字符。轻松简化您的文本编辑任务！
 type: docs
 weight: 70
 url: /zh/net/aspose.words/range/delete/
@@ -18,13 +18,13 @@ public void Delete()
 
 ## 例子
 
-演示如何删除范围中的所有节点。
+显示如何删除某个范围内的所有节点。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将文本添加到文档的第一部分，然后添加另一个部分。
+// 在文档的第一部分添加文本，然后添加另一部分。
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");

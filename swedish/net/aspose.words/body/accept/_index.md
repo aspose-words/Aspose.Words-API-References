@@ -3,14 +3,14 @@ title: Body.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: Body Accept metod. Accepterar en besökare i C#.
+description: Upptäck Body Accept-metoden för sömlöst besökarengagemang. Förbättra användarupplevelsen och öka konverteringar med vår unika metod!
 type: docs
 weight: 40
 url: /sv/net/aspose.words/body/accept/
 ---
 ## Body.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,179 +22,91 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
-Samtal[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , sedan ringer[`Accept`](../../node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) i slutet.
+Samtal[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , ringer sedan[`Accept`](../../node/accept/) för alla underordnade noder till section och anrop[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) i slutet.
 
 ## Exempel
 
-Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
+Visar hur man bearbetar tabbtecken för absolut position med en dokumentbesökare.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
-    // Besökaren kan läsa och ändra varje besökt nod.
-    doc.Accept(visitor);
+    // Extrahera textinnehållet i vårt dokument genom att acceptera denna anpassade dokumentbesökare.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Besök endast början av dokumentets brödtext.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Besök endast slutet av dokumentets brödtext.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // Den absoluta positionstabben, som inte har någon motsvarighet i strängform, har explicit konverterats till ett tabbtecken.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // En AbsolutePositionTab kan också acceptera en DocumentVisitor i sig själv.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// Går igenom en nods träd med undernoder.
-/// Skapar en karta över detta träd i form av en sträng.
+/// Samlar in textinnehållet från alla körningar i det besökta dokumentet. Ersätter alla absoluta tabbtecken med vanliga tabbtecken.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
-    /// Anropas när en dokumentnod påträffas.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // Tillåt besökaren att fortsätta besöka andra noder.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas efter att alla undernoder i en dokumentnod har besökts.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas när en sektionsnod påträffas i dokumentet.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // Hämta indexet för vår sektion i dokumentet.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas efter att alla undernoder i en sektionsnod har besökts.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas när en Body-nod påträffas i dokumentet.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Kallas efter att alla underordnade noder i en Kroppsnod har besökts.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas när en Paragraph-nod påträffas i dokumentet.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas efter att alla undernoder i en Paragraph-nod har besökts.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Anropas när en SubDocument-nod påträffas i dokumentet.
+    /// Anropas när en AbsolutePositionTab-nod påträffas i dokumentet.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägger till text i den aktuella utdatan. Respekterar flaggan för aktiverad/inaktiverad utdata.
     /// </summary>
-    /// <param name="text"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// Klartext för dokumentet som besökaren samlade in.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

@@ -3,14 +3,14 @@ title: FieldImport.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words för .NET
-description: FieldImport SourceFullName fast egendom. Hämtar eller ställer in bildens plats i C#.
+description: Upptäck hur du använder egenskapen FieldImport SourceFullName för att enkelt hantera bildplatser i dina projekt för förbättrad organisation och tillgänglighet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldimport/sourcefullname/
 ---
 ## FieldImport.SourceFullName property
 
-Hämtar eller ställer in bildens plats.
+Hämtar eller anger bildens plats.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -18,14 +18,14 @@ public string SourceFullName { get; set; }
 
 ## Exempel
 
-Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
+Visar hur man infogar bilder med hjälp av fälten IMPORT och INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
-// 1 - Fältet INKLUDERA BILD:
+// Nedan följer två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
+// 1 - Fältet INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

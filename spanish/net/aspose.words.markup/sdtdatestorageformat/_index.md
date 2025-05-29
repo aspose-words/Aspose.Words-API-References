@@ -3,9 +3,9 @@ title: SdtDateStorageFormat Enum
 linktitle: SdtDateStorageFormat
 articleTitle: SdtDateStorageFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtDateStorageFormat enumeración. Especifica cómo se almacena/recupera la fecha de un SDT de fecha cuando el SDT está vinculado a un nodo XML en el almacén de datos del documento en C#.
+description: Descubra cómo Aspose.Words.Markup.SdtDateStorageFormat mejora el manejo de fechas en SDT, garantizando una integración perfecta de datos XML en sus documentos.
 type: docs
-weight: 4010
+weight: 4700
 url: /es/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
@@ -20,10 +20,44 @@ public enum SdtDateStorageFormat
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Date | `0` | El valor de fecha para una fecha SDT se almacena como una fecha en el formato de fecha de esquema XML estándar. |
-| DateTime | `1` | El valor de fecha para una fecha SDT se almacena como una fecha en el formato estándar XML Schema DateTime. |
+| Date | `0` | El valor de fecha para un SDT de fecha se almacena como una fecha en el formato de fecha de esquema XML estándar. |
+| DateTime | `1` | El valor de fecha para un SDT de fecha se almacena como una fecha en el formato estándar de esquema XML DateTime. |
 | Text | `2` | El valor de fecha para una fecha SDT se almacena como texto. |
 | Default | `1` | El valor predeterminado esDateTime |
+
+## Ejemplos
+
+Muestra cómo solicitar al usuario que ingrese una fecha con una etiqueta de documento estructurado.
+
+```csharp
+Document doc = new Document();
+
+// Inserte una etiqueta de documento estructurado que solicite al usuario que ingrese una fecha.
+// En Microsoft Word, este elemento se conoce como "control de contenido del selector de fecha".
+// Cuando hacemos clic en la flecha en el extremo derecho de esta etiqueta en Microsoft Word,
+//Veremos una ventana emergente en forma de calendario en el que podemos hacer clic.
+//Podemos usar esa ventana emergente para seleccionar una fecha que se mostrará en la etiqueta.
+StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
+
+// Muestra la fecha, según la configuración regional del árabe de Arabia Saudita.
+sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
+
+// Establezca el formato con el que se mostrará la fecha.
+sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
+sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
+
+// Muestra la fecha según el calendario Hijri.
+sdtDate.CalendarType = SdtCalendarType.Hijri;
+
+// Antes de que el usuario elija una fecha en Microsoft Word, la etiqueta mostrará el texto "Haga clic aquí para ingresar una fecha".
+// Según el calendario de la etiqueta, configure la propiedad "FullDate" para que la etiqueta muestre una fecha predeterminada.
+sdtDate.FullDate = new DateTime(1440, 10, 20);
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertNode(sdtDate);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
+```
 
 ### Ver también
 

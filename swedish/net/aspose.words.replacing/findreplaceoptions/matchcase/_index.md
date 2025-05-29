@@ -3,14 +3,14 @@ title: FindReplaceOptions.MatchCase
 linktitle: MatchCase
 articleTitle: MatchCase
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions MatchCase fast egendom. True indikerar skiftlägeskänslig jämförelse false indikerar skiftlägesokänslig jämförelse i C#.
+description: Upptäck egenskapen MatchCase i FindReplaceOptions, aktivera jämförelser med eller utan skiftlägeskänslighet för exakt textredigering. Optimera ditt arbetsflöde!
 type: docs
 weight: 140
 url: /sv/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
 
-True indikerar skiftlägeskänslig jämförelse, false indikerar skiftlägesokänslig jämförelse.
+Sant indikerar skiftlägeskänslig jämförelse, falskt indikerar skiftläges-okänslig jämförelse.
 
 ```csharp
 public bool MatchCase { get; set; }
@@ -18,7 +18,7 @@ public bool MatchCase { get; set; }
 
 ## Exempel
 
-Visar hur du växlar skiftlägeskänslighet när du utför en sök-och-ersätt-åtgärd.
+Visar hur man växlar mellan skiftlägeskänslighet och versalkänslighet när man utför en sök-och-ersätt-åtgärd.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+// Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Ställ in "MatchCase"-flaggan till "true" för att tillämpa skiftlägeskänslighet samtidigt som du hittar strängar att ersätta.
-// Ställ in "MatchCase"-flaggan till "false" för att ignorera skiftläge när du söker efter text som ska ersättas.
+// Sätt flaggan "MatchCase" till "true" för att tillämpa skiftlägeskänslighet när strängar söks efter att ersättas.
+// Sätt flaggan "MatchCase" till "false" för att ignorera skiftläge vid sökning efter text att ersätta.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);

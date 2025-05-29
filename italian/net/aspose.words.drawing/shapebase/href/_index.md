@@ -3,9 +3,9 @@ title: ShapeBase.HRef
 linktitle: HRef
 articleTitle: HRef
 second_title: Aspose.Words per .NET
-description: ShapeBase HRef proprietà. Ottiene o imposta lindirizzo completo del collegamento ipertestuale per una forma in C#.
+description: Scopri la proprietà ShapeBase HRef per gestire facilmente gli indirizzi completi dei collegamenti ipertestuali per le tue forme, migliorando l'interattività e la funzionalità del tuo design.
 type: docs
-weight: 230
+weight: 250
 url: /it/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -20,23 +20,23 @@ public string HRef { get; set; }
 
 Il valore predefinito è una stringa vuota.
 
-Di seguito sono riportati esempi di valori validi per questa proprietà:
+Di seguito sono riportati alcuni esempi di valori validi per questa proprietà:
 
 URI completo:`https://www.aspose.com/`.
 
-Nome completo del file:`C:\\Documenti\\RapportoVendite.doc`.
+Nome completo del file:`C:\\Documenti\\ReportVendite.doc`.
 
 URI relativo:`../../../risorsa.txt`
 
 Nome file relativo:`..\\Documenti\\RapportoVendite.doc`.
 
-Segnalibro all'interno di un altro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
+Aggiungi ai segnalibri in un altro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Segnalibro all'interno di questo documento:`#NomeLibro`.
+Aggiungi ai preferiti in questo documento:`#NomeSegnalibro`.
 
 ## Esempi
 
-Mostra come inserire una forma che contiene un'immagine ed è anche un collegamento ipertestuale.
+Mostra come inserire una forma che contiene un'immagine e che è anche un collegamento ipertestuale.
 
 ```csharp
 Document doc = new Document();
@@ -47,8 +47,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
-// e portaci al collegamento ipertestuale nella proprietà "HRef".
+// Facendo clic con il tasto sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
+// e ci porta al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

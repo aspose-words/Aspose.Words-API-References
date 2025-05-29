@@ -2,17 +2,17 @@
 title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection sınıf. Grafik açıklama girişlerinin bir koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik açıklama girişlerini etkili bir şekilde yönetmek ve belge görsellerinizi kolaylıkla geliştirmek için Aspose.Words.ChartLegendEntryCollection'ı keşfedin.
 type: docs
-weight: 740
+weight: 1030
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
 
-Grafik açıklama girişlerinin bir koleksiyonunu temsil eder.
+Grafik efsanesi girişlerinin bir koleksiyonunu temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Grafiklerle Çalışma](https://docs.aspose.com/words/net/working-with-charts/) belgeleme makalesi.
 
 ```csharp
 public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
@@ -22,18 +22,18 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | Sayıyı döndürür[`ChartLegendEntry`](../chartlegendentry/) bu koleksiyonda. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | İadeler[`ChartLegendEntry`](../chartlegendentry/) belirtilen dizin için. |
+| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | sayısını döndürür[`ChartLegendEntry`](../chartlegendentry/) bu koleksiyonda. |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | Geri Döndürür[`ChartLegendEntry`](../chartlegendentry/) belirtilen dizin için. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Örnekler
 
-Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
+Grafik serileri için bir gösterge girişiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,11 +54,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

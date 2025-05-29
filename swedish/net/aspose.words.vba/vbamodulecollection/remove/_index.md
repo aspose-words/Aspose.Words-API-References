@@ -3,7 +3,7 @@ title: VbaModuleCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: VbaModuleCollection Remove metod. Tar bort den angivna modulen från samlingen i C#.
+description: Ta enkelt bort specifika moduler från din VbaModuleCollection med vår lättanvända borttagningsmetod. Effektivisera dina VBA-projekt idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +18,7 @@ public void Remove(VbaModule module)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| module | VbaModule | Modulen att ta bort. |
+| module | VbaModule | Modulen som ska tas bort. |
 
 ## Exempel
 
@@ -33,14 +33,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

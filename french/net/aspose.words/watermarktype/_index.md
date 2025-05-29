@@ -3,9 +3,9 @@ title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.WatermarkType énumération. Spécifie le type de filigrane en C#.
+description: Découvrez l'énumération Aspose.Words.WatermarkType pour personnaliser facilement vos filigranes dans vos documents. Améliorez vos projets grâce à des options de filigrane polyvalentes !
 type: docs
-weight: 6690
+weight: 7540
 url: /fr/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -31,10 +31,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajoute un filigrane en texte brut.
+// Ajouter un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
+// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

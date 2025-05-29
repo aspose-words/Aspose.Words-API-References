@@ -3,7 +3,7 @@ title: Table.HorizontalAnchor
 linktitle: HorizontalAnchor
 articleTitle: HorizontalAnchor
 second_title: Aspose.Words für .NET
-description: Table HorizontalAnchor eigendom. Ruft das Basisobjekt ab aus dem die horizontale Positionierung der schwebenden Tabelle berechnet werden soll. Der Standardwert istColumn  in C#.
+description: Entdecken Sie die Eigenschaft „Table HorizontalAnchor“, um die Positionierung schwebender Tabellen zu optimieren. Passen Sie die horizontale Ausrichtung einfach an und optimieren Sie so die Layoutkontrolle.
 type: docs
 weight: 170
 url: /de/net/aspose.words.tables/table/horizontalanchor/
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
+Zeigt, wie mit den Eigenschaften schwebender Tabellen gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Nur Rand, Seite, Spalte in RelativeHorizontalPosition für HorizontalAnchor-Setter verfügbar.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den HorizontalAnchor-Setter sind in RelativeHorizontalPosition nur Margin, Page und Column verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Nur Rand, Seite, Absatz verfügbar in RelativeVerticalPosition für VerticalAnchor-Setter.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den VerticalAnchor-Setter sind in RelativeVerticalPosition nur Margin, Page und Paragraph verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

@@ -3,14 +3,14 @@ title: PageSetup.RightMargin
 linktitle: RightMargin
 articleTitle: RightMargin
 second_title: Aspose.Words för .NET
-description: PageSetup RightMargin fast egendom. Returnerar eller ställer in avståndet i punkter mellan sidans högra kant och den högra gränsen för brödtexten i C#.
+description: Upptäck egenskapen PageSetup RightMargin, justera enkelt högermarginalen i punkter för optimal textlayout och förbättrad dokumentpresentation.
 type: docs
 weight: 370
 url: /sv/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
 
-Returnerar eller ställer in avståndet (i punkter) mellan sidans högra kant och den högra gränsen för brödtexten.
+Returnerar eller anger avståndet (i punkter) mellan sidans högra kant och brödtextens högra kant.
 
 ```csharp
 public double RightMargin { get; set; }
@@ -18,7 +18,7 @@ public double RightMargin { get; set; }
 
 ## Exempel
 
-Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
+Visar hur man justerar pappersstorlek, orientering, marginaler och andra inställningar för ett avsnitt.
 
 ```csharp
 Document doc = new Document();

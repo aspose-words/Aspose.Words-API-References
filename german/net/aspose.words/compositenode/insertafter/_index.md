@@ -3,23 +3,24 @@ title: CompositeNode.InsertAfter
 linktitle: InsertAfter
 articleTitle: InsertAfter
 second_title: Aspose.Words für .NET
-description: CompositeNode InsertAfter methode. Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein in C#.
+description: Fügen Sie mühelos Knoten mit der CompositeNode InsertAfter-Methode ein, verbessern Sie so Ihr Datenstrukturmanagement und gewährleisten Sie eine effiziente Knotenplatzierung.
 type: docs
-weight: 130
+weight: 150
 url: /de/net/aspose.words/compositenode/insertafter/
 ---
-## CompositeNode.InsertAfter method
+## CompositeNode.InsertAfter&lt;T&gt; method
 
 Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein.
 
 ```csharp
-public Node InsertAfter(Node newChild, Node refChild)
+public T InsertAfter<T>(T newChild, Node refChild)
+    where T : Node
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newChild | Node | Der[`Node`](../../node/) einführen. |
-| refChild | Node | Der[`Node`](../../node/) das ist der Referenzknoten. Der*newChild* wird nach dem platziert*refChild*. |
+| newChild | T | Der[`Node`](../../node/) einfügen. |
+| refChild | Node | Der[`Node`](../../node/) das ist der Referenzknoten. Der*newChild* wird nach dem*refChild*. |
 
 ### Rückgabewert
 
@@ -27,9 +28,9 @@ Der eingefügte Knoten.
 
 ## Bemerkungen
 
-Wenn*refChild* Ist`Null` , fügt ein*newChild* am Anfang der Liste der untergeordneten Knoten.
+Wenn*refChild* Ist`null` , Einsätze*newChild* am Anfang der Liste der untergeordneten Knoten.
 
-Wenn die*newChild* bereits im Baum vorhanden ist, wird dieser zunächst entfernt.
+Wenn die*newChild* ist bereits im Baum vorhanden, wird es zunächst entfernt.
 
 Wenn der einzufügende Knoten aus einem anderen Dokument erstellt wurde, sollten Sie verwenden.[`ImportNode`](../../documentbase/importnode/) um den Knoten in das aktuelle Dokument zu importieren. Der importierte Knoten kann dann in das aktuelle Dokument eingefügt werden.
 
@@ -75,7 +76,7 @@ Assert.AreEqual(4, shapes.Count(s => s.ShapeType == ShapeType.Image));
 doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 ```
 
-Zeigt, wie untergeordnete Knoten in der untergeordneten Sammlung eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
+Zeigt, wie untergeordnete Knoten in der Sammlung untergeordneter Knoten eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
 
 ```csharp
 Document doc = new Document();
@@ -83,33 +84,33 @@ Document doc = new Document();
 // Ein leeres Dokument hat standardmäßig einen Absatz.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Zusammengesetzte Knoten wie unser Absatz können andere zusammengesetzte und Inline-Knoten als untergeordnete Knoten enthalten.
+// Zusammengesetzte Knoten wie unser Absatz können andere zusammengesetzte und Inline-Knoten als untergeordnete Elemente enthalten.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// Drei weitere Ausführungsknoten erstellen.
+// Erstellen Sie drei weitere Run-Knoten.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Der Dokumentkörper zeigt diese Läufe erst an, wenn wir sie in einen zusammengesetzten Knoten einfügen
-// das selbst ist Teil des Knotenbaums des Dokuments, wie wir es beim ersten Durchlauf getan haben.
-// Wir können bestimmen, wo sich die Textinhalte der Knoten befinden, die wir einfügen
-// wird im Dokument angezeigt, indem eine Einfügeposition relativ zu einem anderen Knoten im Absatz angegeben wird.
+// Der Dokumenttext zeigt diese Läufe erst an, wenn wir sie in einen zusammengesetzten Knoten einfügen
+// das selbst ein Teil des Knotenbaums des Dokuments ist, wie wir es beim ersten Durchlauf getan haben.
+// Wir können bestimmen, wo der Textinhalt der Knoten, die wir einfügen
+// erscheint im Dokument, indem eine Einfügeposition relativ zu einem anderen Knoten im Absatz angegeben wird.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Den zweiten Lauf in den Absatz vor dem ersten Lauf einfügen.
+// Fügen Sie den zweiten Lauf in den Absatz vor dem ersten Lauf ein.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Den dritten Lauf nach dem ersten Lauf einfügen.
+// Fügen Sie den dritten Lauf nach dem ersten Lauf ein.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Den ersten Lauf am Anfang der Sammlung der untergeordneten Knoten des Absatzes einfügen.
+// Fügen Sie den ersten Lauf am Anfang der untergeordneten Knotensammlung des Absatzes ein.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

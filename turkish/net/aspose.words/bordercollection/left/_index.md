@@ -2,8 +2,8 @@
 title: BorderCollection.Left
 linktitle: Left
 articleTitle: Left
-second_title: Aspose.Words for .NET
-description: BorderCollection Left mülk. Sol kenarlığı alır C#'da.
+second_title: .NET için Aspose.Words
+description: BorderCollection Left özelliğini keşfedin, gelişmiş tasarım esnekliği ve görsel çekicilik için sol kenarlığa zahmetsizce erişin ve özelleştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/bordercollection/left/
@@ -18,17 +18,17 @@ public Border Left { get; }
 
 ## Örnekler
 
-Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
+Bir tablo oluştururken kenarlık ve gölgelendirme renginin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir tablo başlatın ve kenarlıkları için varsayılan rengi/kalınlığı ayarlayın.
+// Bir tablo başlatın ve kenarlıkları için varsayılan bir renk/kalınlık ayarlayın.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Farklı arka plan renklerine sahip iki hücreden oluşan bir satır oluşturun.
+// Farklı arka plan renklerine sahip iki hücreden oluşan bir satır oluştur.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -38,8 +38,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Arka plan renklerini devre dışı bırakmak için hücre biçimlendirmesini sıfırlayın
-// oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenar kalınlığı ayarlayın,
-// sonra ikinci satırı oluşturalım.
+// Oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenarlık kalınlığı ayarlayın,
+// daha sonra ikinci bir satır oluştur.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

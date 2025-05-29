@@ -3,14 +3,14 @@ title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
 second_title: Aspose.Words для .NET
-description: FileFormatUtil ContentTypeToLoadFormat метод. Преобразует тип контента IANA в перечисляемое значение формата загрузки на С#.
+description: Преобразуйте типы контента IANA в значения формата загрузки без усилий с помощью метода FileFormatUtil ContentTypeToLoadFormat. Упростите обработку файлов уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-Преобразует тип контента IANA в перечисляемое значение формата загрузки.
+Преобразует тип содержимого IANA в перечислимое значение формата загрузки.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -20,17 +20,17 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выдает, когда невозможно преобразовать. |
+| ArgumentException | Выдает, когда не может конвертировать. |
 
 ## Примеры
 
-Показывает, как найти соответствующий формат загрузки/сохранения Aspose из каждой строки типа мультимедиа.
+Показывает, как найти соответствующий формат загрузки/сохранения Aspose из каждой строки типа носителя.
 
 ```csharp
- // Методы ContentTypeToSaveFormat/ContentTypeToLoadFormat принимают только официальные имена типов мультимедиа IANA, также известные как типы MIME.
-// Все допустимые типы мультимедиа перечислены здесь: https://www.iana.org/assignments/media-types/media-types.xhtml.
+ // Методы ContentTypeToSaveFormat/ContentTypeToLoadFormat принимают только официальные имена типов носителей IANA, также известные как типы MIME.
+// Все допустимые типы носителей перечислены здесь: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Попытка связать SaveFormat с частичной строкой медиа-типа не сработает.
+// Попытка связать SaveFormat с частичной строкой типа носителя не сработает.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
 // Если Aspose.Words не имеет соответствующего формата сохранения/загрузки для типа контента, также будет выдано исключение.

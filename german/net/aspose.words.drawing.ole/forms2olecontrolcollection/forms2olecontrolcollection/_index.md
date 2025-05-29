@@ -3,7 +3,7 @@ title: Forms2OleControlCollection
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words für .NET
-description: Forms2OleControlCollection constructeur. Default_Constructor in C#.
+description: Entdecken Sie den Forms2OleControlCollection-Konstruktor – Ihre Lösung für nahtloses Formularmanagement in Anwendungen. Vereinfachen Sie Ihre Entwicklung noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/forms2olecontrolcollection/

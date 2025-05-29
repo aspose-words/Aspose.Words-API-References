@@ -3,9 +3,9 @@ title: AxisTimeUnit Enum
 linktitle: AxisTimeUnit
 articleTitle: AxisTimeUnit
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit énumération. Spécifie lunité de temps pour les axes en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.Charts.AxisTimeUnit : votre solution pour définir efficacement les unités de temps sur les axes des graphiques.
 type: docs
-weight: 600
+weight: 860
 url: /fr/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Effacez la série de données de démonstration du graphique pour démarrer avec un graphique propre.
 chart.Series.Clear();
 
 // Ajoutez une série personnalisée contenant des valeurs de date/heure pour l'axe X et des valeurs décimales respectives pour l'axe Y.
@@ -48,12 +48,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Définit les limites inférieure et supérieure de l'axe X.
+// Définissez les limites inférieures et supérieures de l'axe X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Définit les unités principales de l'axe X sur une semaine et les unités mineures sur un jour.
+// Définissez les unités principales de l'axe X sur une semaine et les unités mineures sur un jour.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -64,7 +64,7 @@ xAxis.HasMinorGridlines = true;
 
 // Définir les propriétés de l'axe Y pour les valeurs décimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

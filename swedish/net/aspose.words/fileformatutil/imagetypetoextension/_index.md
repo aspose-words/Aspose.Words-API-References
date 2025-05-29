@@ -3,14 +3,14 @@ title: FileFormatUtil.ImageTypeToExtension
 linktitle: ImageTypeToExtension
 articleTitle: ImageTypeToExtension
 second_title: Aspose.Words för .NET
-description: FileFormatUtil ImageTypeToExtension metod. Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt i C#.
+description: Konvertera Aspose.Words-bildtyper till filändelser utan problem med FileFormatUtil-metoden. Få korrekta filändelser med gemener på några sekunder!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/fileformatutil/imagetypetoextension/
 ---
 ## FileFormatUtil.ImageTypeToExtension method
 
-Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt.
+Konverterar ett uppräknat värde av bildtypen Aspose.Words till en filändelse. Den returnerade filändelsen är en liten sträng med en inledande punkt.
 
 ```csharp
 public static string ImageTypeToExtension(ImageType imageType)
@@ -40,8 +40,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -3,9 +3,9 @@ title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
 second_title: Aspose.Words för .NET
-description: Font ThemeFontAscii fast egendom. Hämtar eller ställer in temateckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
+description: Upptäck egenskapen Font ThemeFontAscii för att enkelt anpassa temateckensnitt för latinsk text (koder 0-127) i din design, vilket förbättrar det visuella tilltalet.
 type: docs
-weight: 480
+weight: 490
 url: /sv/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontAscii { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

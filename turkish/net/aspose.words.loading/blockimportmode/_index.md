@@ -2,15 +2,15 @@
 title: BlockImportMode Enum
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.BlockImportMode Sıralama. Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.BlockImportMode enum'unun, sorunsuz iş akışları için blok düzeyindeki öğe özelliği içe aktarımlarını optimize ederek HTML belge entegrasyonunu nasıl geliştirdiğini keşfedin.
 type: docs
-weight: 3560
+weight: 4010
 url: /tr/net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
 
-Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını belirtir.
+Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarılacağını belirtir.
 
 ```csharp
 public enum BlockImportMode
@@ -20,8 +20,8 @@ public enum BlockImportMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Merge | `0` | Ana blokların özellikleri birleştirilir ve alt öğelerde (örn. paragraflar veya tablolar) saklanır. |
-| Preserve | `1` | Ana blokların özellikleri özel bir mantıksal yapıya aktarılır ve belge düğümlerinden ayrı olarak depolanır. |
+| Merge | `0` | Üst blokların özellikleri birleştirilir ve alt öğelerde (yani paragraflar veya tablolar) saklanır. |
+| Preserve | `1` | Üst blokların özellikleri özel bir mantıksal yapıya aktarılır ve belge düğümlerinden ayrı olarak saklanır. |
 
 ## Örnekler
 
@@ -40,7 +40,7 @@ const string html = @"
 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-// HTML blok düzeyindeki öğelerin içe aktarılmasının yeni modunu ayarlayın.
+// HTML blok düzeyindeki öğelerin içe aktarılması için yeni modu ayarlayın.
 loadOptions.BlockImportMode = blockImportMode;
 
 Document doc = new Document(stream, loadOptions);

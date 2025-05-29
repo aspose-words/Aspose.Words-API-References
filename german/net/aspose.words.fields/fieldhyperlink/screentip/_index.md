@@ -3,14 +3,14 @@ title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words für .NET
-description: FieldHyperlink ScreenTip eigendom. Ruft den QuickInfoText für den Hyperlink ab oder legt diesen fest in C#.
+description: Entdecken Sie die QuickInfo-Eigenschaft „FieldHyperlink“, um Ihren Hyperlink-Text anzupassen und so die Benutzerfreundlichkeit und das Engagement zu verbessern. Optimieren Sie Ihre Links noch heute!
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldhyperlink/screentip/
 ---
 ## FieldHyperlink.ScreenTip property
 
-Ruft den QuickInfo-Text für den Hyperlink ab oder legt diesen fest.
+Ruft den QuickInfo-Text für den Hyperlink ab oder legt ihn fest.
 
 ```csharp
 public string ScreenTip { get; set; }

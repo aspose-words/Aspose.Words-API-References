@@ -3,14 +3,14 @@ title: FieldRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words für .NET
-description: FieldRef BookmarkName eigendom. Ruft den Namen des referenzierten Lesezeichens ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft FieldRef BookmarkName, um Ihre Lesezeichen einfach zu verwalten und anzupassen. Verbessern Sie mühelos Ihre Dokumentnavigation!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldref/bookmarkname/
 ---
 ## FieldRef.BookmarkName property
 
-Ruft den Namen des referenzierten Lesezeichens ab oder legt diesen fest.
+Ruft den Namen des referenzierten Lesezeichens ab oder legt ihn fest.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,13 +18,13 @@ public string BookmarkName { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie mit einem SET-Feld markierten Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
+Zeigt, wie Sie mit einem SET-Feld mit Lesezeichen versehenen Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Mit einem Lesezeichen versehenen Text mit einem SET-Feld benennen.
+    // Benennen Sie mit einem SET-Feld markierten Text.
 // Dieses Feld bezieht sich auf das „Lesezeichen“, nicht auf eine Lesezeichenstruktur, die im Text erscheint, sondern auf eine benannte Variable.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// In einem REF-Feld namentlich auf das Lesezeichen verweisen und seinen Inhalt anzeigen.
+// Verweisen Sie in einem REF-Feld per Namen auf das Lesezeichen und zeigen Sie seinen Inhalt an.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
@@ -44,7 +44,7 @@ Assert.AreEqual("Hello world!", fieldRef.Result);
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```
 
-Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
+Zeigt, wie REF-Felder zum Verweisen auf Lesezeichen eingefügt werden.
 
 ```csharp
 public void FieldRef()
@@ -59,7 +59,7 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Wir werden ein benutzerdefiniertes Listenformat anwenden, wobei die Anzahl der spitzen Klammern die Listenebene angibt, auf der wir uns gerade befinden.
+    // Wir wenden ein benutzerdefiniertes Listenformat an, bei dem die Anzahl der spitzen Klammern die Listenebene angibt, auf der wir uns gerade befinden.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
@@ -82,18 +82,18 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Zeigt die Listennummer des Lesezeichens an, jedoch ohne Trennzeichen, wie z. B. spitze Klammern.
+    // Zeigt die Listennummer des Lesezeichens an, wobei jedoch Nicht-Trennzeichen wie etwa spitze Klammern weggelassen werden.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Eine Listenebene nach unten verschieben.
+    // Eine Listenebene nach unten gehen.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Listennummer des Lesezeichens und die Nummern aller darüber liegenden Listenebenen anzeigen.
+    // Zeigt die Listennummer des Lesezeichens und die Nummern aller darüber liegenden Listenebenen an.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -117,7 +117,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// Veranlassen Sie den Document Builder, ein REF-Feld einzufügen, damit auf ein Lesezeichen zu verweisen und Text davor und danach hinzuzufügen.
+/// Lassen Sie den Dokumentgenerator ein REF-Feld einfügen, damit auf ein Lesezeichen verweisen und davor und danach Text hinzufügen.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

@@ -3,7 +3,7 @@ title: DropDownItemCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words pour .NET
-description: DropDownItemCollection Add méthode. Ajoute une chaîne à la fin de la collection en C#.
+description: Améliorez facilement votre DropDownItemCollection grâce à la méthode Add. Ajoutez instantanément des chaînes pour étendre votre collection et améliorer l'expérience utilisateur.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +22,7 @@ public int Add(string value)
 
 ### Return_Value
 
-Index de base zéro auquel le nouvel élément est inséré.
+L'index de base zéro auquel le nouvel élément est inséré.
 
 ## Exemples
 
@@ -32,8 +32,8 @@ Montre comment insérer un champ de zone de liste déroulante et modifier les é
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une zone de liste déroulante, puis vérifie sa collection d'éléments déroulants.
-// Dans Microsoft Word, l'utilisateur cliquera sur la combo,
+// Insérez une zone de liste déroulante, puis vérifiez sa collection d'éléments déroulants.
+// Dans Microsoft Word, l'utilisateur cliquera sur la zone de liste déroulante,
 // puis choisissez l'un des éléments de texte de la collection à afficher.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
@@ -48,12 +48,12 @@ Assert.IsTrue(dropDownItems.Contains("Three"));
 // 1 - Ajouter un élément à la fin de la collection :
 dropDownItems.Add("Four");
 
-// 2 - Insère un élément avant un autre élément à un index spécifié :
+// 2 - Insérer un élément avant un autre élément à un index spécifié :
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Parcourez la collection et imprimez chaque élément.
+// Itérer sur la collection et imprimer chaque élément.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -62,7 +62,7 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
 // 1 - Supprime un élément dont le contenu est égal à la chaîne passée :
 dropDownItems.Remove("Four");
 
-// 2 - Supprime un élément à un index :
+// 2 - Supprimer un élément à un index :
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -71,7 +71,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Vide toute la collection d'éléments déroulants.
+// Vider toute la collection d'éléments déroulants.
 dropDownItems.Clear();
 ```
 

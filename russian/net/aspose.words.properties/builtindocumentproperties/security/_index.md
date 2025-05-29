@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Security
 linktitle: Security
 articleTitle: Security
 second_title: Aspose.Words для .NET
-description: BuiltInDocumentProperties Security свойство. Указывает уровень безопасности документа в виде числового значения на С#.
+description: Откройте для себя функцию BuiltInDocumentProperties Security, точно определяющую уровень безопасности вашего документа. Улучшите защиту вашего документа сегодня!
 type: docs
-weight: 250
+weight: 270
 url: /ru/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
@@ -33,14 +33,14 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Если мы настроим документ только для чтения, он будет отображать этот статус с помощью встроенного свойства «Безопасность».
+// Если мы настроим документ как доступный только для чтения, он отобразит этот статус с помощью встроенного свойства «Безопасность».
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// Защитить документ от записи, а затем проверить уровень его безопасности.
+// Защитите документ от записи, а затем проверьте его уровень безопасности.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// «Безопасность» — описательное свойство. Мы можем редактировать его значение вручную.
+// "Безопасность" — описательное свойство. Мы можем редактировать его значение вручную.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

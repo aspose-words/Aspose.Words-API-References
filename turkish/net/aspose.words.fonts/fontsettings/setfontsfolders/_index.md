@@ -2,15 +2,15 @@
 title: FontSettings.SetFontsFolders
 linktitle: SetFontsFolders
 articleTitle: SetFontsFolders
-second_title: Aspose.Words for .NET
-description: FontSettings SetFontsFolders yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini arayacağı klasörleri ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words'de SetFontsFolders yönteminin, TrueType yazı tipi konumlarını en iyi belge oluşturma ve yerleştirme için nasıl özelleştirileceğini keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fonts/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini arayacağı klasörleri ayarlar.
+Aspose.Words'ün belgeleri işlerken veya yazı tiplerini yerleştirirken TrueType yazı tiplerini arayacağı klasörleri ayarlar.
 
 ```csharp
 public void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -18,18 +18,18 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fontsFolders | String[] | TrueType yazı tiplerini içeren bir dizi klasör. |
-| recursive | Boolean | Yazı tipleri için belirtilen klasörleri yinelemeli olarak taramak için True. |
+| fontsFolders | String[] | TrueType yazı tiplerini içeren klasör dizisi. |
+| recursive | Boolean | Belirtilen klasörleri yazı tipleri için yinelemeli olarak taramak için doğru. |
 
 ## Notlar
 
-Aspose.Words varsayılan olarak sistemde yüklü olan yazı tiplerini arar.
+Varsayılan olarak Aspose.Words sisteme yüklenen yazı tiplerini arar.
 
-Bu özelliğin ayarlanması önceden yüklenen tüm yazı tiplerinin önbelleğini sıfırlar.
+Bu özelliğin ayarlanması, daha önce yüklenen tüm yazı tiplerinin önbelleğini sıfırlar.
 
 ## Örnekler
 
-Birden çok yazı tipi kaynağı dizininin nasıl ayarlanacağını gösterir.
+Birden fazla font kaynak dizininin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,8 +41,8 @@ builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // Yazı tipi kaynaklarımız bu belgede metin için kullandığımız yazı tipini içermiyor.
-// Bu belgeyi render ederken bu font ayarlarını kullanırsak,
-// Aspose.Words, Aspose.Words'ün bulamadığı bir yazı tipine sahip metne bir yedek yazı tipi uygulayacaktır.
+// Bu dokümanı oluştururken bu yazı tipi ayarlarını kullanırsak,
+// Aspose.Words, Aspose.Words'ün bulamadığı bir yazı tipine sahip metne yedek bir yazı tipi uygulayacaktır.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
@@ -52,11 +52,11 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// İlk argüman olarak ilettiğimiz her font dizininden bir font kaynağı oluşturmak için "SetFontsFolders" yöntemini kullanın.
-// Dizinlerdeki tüm yazı tipi dosyalarından yazı tiplerini dahil etmek için "özyinelemeli" argüman olarak "yanlış"ı iletin
-// ilk argümanda aktarıyoruz ancak dizinlerin alt klasörlerinden herhangi bir yazı tipini dahil etmiyoruz.
-// İlettiğimiz dizinlerdeki tüm yazı tipi dosyalarını dahil etmek için "özyinelemeli" argüman olarak "doğru"yu iletin
-// ilk argümanda ve ayrıca alt dizinlerindeki tüm yazı tiplerinde.
+// İlk argüman olarak geçirdiğimiz her font dizininden bir font kaynağı oluşturmak için "SetFontsFolders" metodunu kullanın.
+// Dizinlerdeki tüm yazı tipi dosyalarındaki yazı tiplerini dahil etmek için "yinelemeli" argüman olarak "false" değerini geçirin
+// ilk argümanı geçiriyoruz ancak dizinlerin alt klasörlerinden hiçbir fontu dahil etmiyoruz.
+// Geçirdiğimiz dizinlerdeki tüm yazı tipi dosyalarını dahil etmek için "tekrarlı" argüman olarak "true" değerini geçirin
+// ilk argümanda ve alt dizinlerindeki tüm fontlarda.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
 
@@ -67,7 +67,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// "Junction" klasörünün kendisi yazı tipi dosyası içermez, ancak yazı tipi dosyası içeren alt klasörlere sahiptir.
+// "Junction" klasörünün kendisi herhangi bir font dosyası içermez, ancak bunu yapan alt klasörlere sahiptir.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

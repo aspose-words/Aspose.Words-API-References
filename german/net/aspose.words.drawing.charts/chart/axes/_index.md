@@ -3,7 +3,7 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words für .NET
-description: Chart Axes eigendom. Ruft eine Sammlung aller Achsen dieses Diagramms ab in C#.
+description: Entdecken Sie die Diagrammachsen-Eigenschaft, um mühelos auf alle Diagrammachsen zuzugreifen. Verbessern Sie Ihre Datenvisualisierung mit umfassender Achsenverwaltung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chart/axes/
@@ -18,16 +18,16 @@ public ChartAxisCollection Axes { get; }
 
 ## Beispiele
 
-Zeigt, wie man mit der Achsensammlung arbeitet.
+Zeigt, wie mit der Achsensammlung gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Die Hauptgitterlinien auf der primären und sekundären Y-Achse ausblenden.
+// Blenden Sie die Hauptgitterlinien auf der primären und sekundären Y-Achse aus.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

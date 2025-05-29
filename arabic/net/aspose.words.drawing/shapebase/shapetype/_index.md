@@ -3,14 +3,14 @@ title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words لـ .NET
-description: ShapeBase ShapeType ملكية. الحصول على نوع الشكل في C#.
+description: اكتشف خاصية ShapeBase ShapeType للوصول بسهولة إلى أنواع الأشكال وتحديدها، مما يعزز قدرات التصميم وكفاءة المشروع.
 type: docs
-weight: 500
+weight: 530
 url: /ar/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
 
-الحصول على نوع الشكل.
+يحصل على نوع الشكل.
 
 ```csharp
 public ShapeType ShapeType { get; }
@@ -18,7 +18,7 @@ public ShapeType ShapeType { get; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
+    // إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped وTopCornersSnipped وDiagonalCornersSnipped،
+    // الزوايا العلوية مستديرة واحدة، زوايا علوية مستديرة واحدة، زوايا علوية مستديرة، زوايا قطرية مستديرة
+    // يرجى استخدام طرق DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -58,7 +58,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات مجموعة الأشكال التي تمت زيارتها في وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

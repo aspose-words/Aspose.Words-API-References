@@ -3,9 +3,9 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.BorderType opsomming. Gibt die Seiten eines Rahmens an in C#.
+description: Entdecken Sie die Aspose.Words.BorderType-Aufzählung für anpassbare Rahmenoptionen. Verbessern Sie Ihre Dokumente mit präziser Rahmensteuerung und Stil!
 type: docs
-weight: 100
+weight: 290
 url: /de/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
@@ -27,10 +27,10 @@ public enum BorderType
 | Left | `1` | Gibt den linken Rand eines Absatzes oder einer Tabellenzelle an. |
 | Right | `2` | Gibt den rechten Rand eines Absatzes oder einer Tabellenzelle an. |
 | Top | `3` | Gibt den oberen Rand eines Absatzes oder einer Tabellenzelle an. |
-| Horizontal | `4` | Gibt die horizontale Grenze zwischen Zellen in einer Tabelle oder zwischen konformen Absätzen an. |
-| Vertical | `5` | Gibt den vertikalen Rand zwischen Zellen in einer Tabelle an. |
-| DiagonalDown | `6` | Gibt den diagonalen Rand in einer Tabellenzelle an. |
-| DiagonalUp | `7` | Gibt den diagonalen Rand in einer Tabellenzelle an. |
+| Horizontal | `4` | Gibt die horizontale Grenze zwischen Zellen in einer Tabelle oder zwischen übereinstimmenden Absätzen an. |
+| Vertical | `5` | Gibt die vertikale Grenze zwischen Zellen in einer Tabelle an. |
+| DiagonalDown | `6` | Gibt den diagonalen Rahmen einer Tabellenzelle an. |
+| DiagonalUp | `7` | Gibt den diagonalen Rahmen einer Tabellenzelle an. |
 
 ## Beispiele
 
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// ThemeColor nur festlegen, wenn LineWidth oder LineStyle festgelegt ist.
+// ThemeColor nur festlegen, wenn LineWidth oder LineStyle festgelegt sind.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

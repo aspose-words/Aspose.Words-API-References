@@ -2,15 +2,15 @@
 title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
-second_title: 用于 .NET 的 Aspose.Words
-description: HyphenationOptions ConsecutiveHyphenLimit 财产. 获取或设置可以以连字符结尾的最大连续行数 此属性的默认值为 0 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HyphenationOptions 中的 ConsecutiveHyphenLimit 属性。控制文本中连字符的使用，以提高可读性和格式。默认值为 0。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-获取或设置可以以连字符结尾的最大连续行数。 此属性的默认值为 0。
+获取或设置可以以连字符结尾的连续行的最大数量。 此属性的默认值为 0。
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -20,7 +20,7 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 如果此属性的值设置为 0，则任意数量的连续行都可以以连字符结尾。
 
-当保存为固定页面格式（例如 PDF）时，该属性不起作用。
+保存为固定页面格式（例如 PDF）时，该属性不起作用。
 
 ## 例子
 

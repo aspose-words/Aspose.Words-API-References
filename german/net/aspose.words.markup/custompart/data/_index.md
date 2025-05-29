@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words für .NET
-description: CustomPart Data eigendom. Enthält die Daten dieses benutzerdefinierten Teils in C#.
+description: Entdecken Sie CustomPart-Daten. Greifen Sie auf detaillierte Informationen zu Ihren benutzerdefinierten Teilen zu, um die Präzision und Effizienz Ihrer Projekte zu steigern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/custompart/data/
@@ -20,7 +20,7 @@ public byte[] Data { get; set; }
 
 Diese Eigenschaft ist nur anwendbar, wenn[`IsExternal`](../isexternal/) Ist`FALSCH`.
 
-Der Standardwert ist ein leeres Byte-Array. Der Wert kann nicht sein`Null`.
+Der Standardwert ist ein leeres Byte-Array. Der Wert kann nicht`null`.
 
 ## Beispiele
 
@@ -31,12 +31,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

@@ -3,7 +3,7 @@ title: XlsxSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words per .NET
-description: XlsxSaveOptions CompressionLevel proprietà. Specifica il livello di compressione utilizzato per salvare il documento. Il valore predefinito èNormal  in C#.
+description: Scopri la proprietà CompressionLevel di XlsxSaveOptions per ottimizzare il salvataggio dei documenti con impostazioni di compressione personalizzabili per una gestione efficiente dei file.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -24,7 +24,8 @@ Mostra come comprimere un documento XLSX.
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
 
 XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
-xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum; 
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum;
+xlsxSaveOptions.SaveFormat = SaveFormat.Xlsx;
 
 doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```

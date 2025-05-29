@@ -3,9 +3,9 @@ title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klass. Standardregel för teckensnittsersättning i C#.
+description: Upptäck klassen Aspose.Words.Fonts.DefaultFontSubstitutionRule för sömlös typsnittshantering och förbättrad dokumentformatering. Optimera ditt arbetsflöde idag!
 type: docs
-weight: 2840
+weight: 3250
 url: /sv/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
@@ -22,16 +22,16 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 | namn | Beskrivning |
 | --- | --- |
-| [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Hämtar eller ställer in standardteckensnittsnamnet. |
+| [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Hämtar eller ställer in standardnamnet på teckensnittet. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Anger om regeln är aktiverad eller inte. |
 
 ## Anmärkningar
 
-Den här regeln definierar ett enda standardteckensnittsnamn som ska användas för ersättning om det ursprungliga teckensnittet inte är tillgängligt.
+Denna regel definierar ett enda standardtypsnitt som ska användas för ersättning om det ursprungliga typsnittet inte är tillgängligt.
 
 ## Exempel
 
-Visar hur du ställer in standardregeln för teckensnittsersättning.
+Visar hur man ställer in standardregeln för teckensnittsersättning.
 
 ```csharp
 Document doc = new Document();
@@ -45,11 +45,11 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Ställ in standardtypsnittsersättningen till "Courier New".
+// Ställ in standardteckensnittsersättningen till "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Med hjälp av en dokumentbyggare, lägg till lite text i ett teckensnitt som vi inte behöver se ersättningen ske,
-// och rendera sedan resultatet i en PDF.
+// Använd en dokumentbyggare, lägg till text i ett teckensnitt som vi inte behöver se för att substitutionen ska ske,
+// och sedan rendera resultatet i en PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

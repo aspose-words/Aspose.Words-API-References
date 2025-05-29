@@ -3,9 +3,9 @@ title: Document.StopTrackRevisions
 linktitle: StopTrackRevisions
 articleTitle: StopTrackRevisions
 second_title: Aspose.Words för .NET
-description: Document StopTrackRevisions metod. Stoppar automatisk markering av dokumentändringar som revisioner i C#.
+description: Lär dig hur du använder StopTrackRevisions-metoden för att förhindra automatiska dokumentändringsmarkeringar, vilket förbättrar din redigeringseffektivitet och dokumentets tydlighet.
 type: docs
-weight: 720
+weight: 770
 url: /sv/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -18,7 +18,7 @@ public void StopTrackRevisions()
 
 ## Exempel
 
-Visar hur man spårar revisioner medan man redigerar ett dokument.
+Visar hur man spårar revisioner när man redigerar ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -37,16 +37,16 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// Sluta spåra revisioner för att inte räkna några framtida redigeringar som revisioner.
+// Sluta spåra revisioner för att inte räkna framtida redigeringar som revisioner.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// Att skapa revisioner ger dem ett datum och tid för operationen.
+// Att skapa revisioner ger dem ett datum och en tid för operationen.
 // Vi kan inaktivera detta genom att skicka DateTime.MinValue när vi börjar spåra revisioner.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
@@ -55,10 +55,10 @@ Assert.AreEqual(2, doc.Revisions.Count);
 Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
-// Vi kan acceptera/förkasta dessa ändringar programmatiskt
-// genom att anropa metoder som Document.AcceptAllRevisions, eller varje versions Accept-metod.
-// I Microsoft Word kan vi bearbeta dem manuellt via "Review" -> "Ändringar".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// Vi kan acceptera/avvisa dessa revisioner programmatiskt
+// genom att anropa metoder som Document.AcceptAllRevisions, eller varje revisions Accept-metod.
+// I Microsoft Word kan vi bearbeta dem manuellt via "Granska" -> "Ändringar".
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Se även

@@ -3,7 +3,7 @@ title: IChartDataPoint.InvertIfNegative
 linktitle: InvertIfNegative
 articleTitle: InvertIfNegative
 second_title: Aspose.Words для .NET
-description: IChartDataPoint InvertIfNegative свойство. Указывает должен ли родительский элемент инвертировать свои цвета если значение отрицательное на С#.
+description: Откройте для себя свойство IChartDataPoint InvertIfNegative, позволяющее инвертировать цвета для отрицательных значений. Улучшите визуализацию данных с помощью этой уникальной функции!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/invertifnegative/
@@ -18,7 +18,7 @@ public bool InvertIfNegative { get; set; }
 
 ## Примеры
 
-Показывает, как работать с точками данных на линейной диаграмме.
+Показывает, как работать с точками данных на линейном графике.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,8 +34,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Выделите точки данных диаграммы, придав им вид ромба.
-    foreach (ChartSeries series in chart.Series) 
+    // Выделите точки данных на диаграмме, придав им форму ромбов.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
@@ -50,17 +50,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Мы также можем удалить сразу всю серию точек данных.
+    // Для более четкого вида графика мы можем очистить формат по отдельности.
+    dataPoint.ClearFormat();
+
+    // Мы также можем удалить целую серию точек данных за один раз.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет к ряду несколько точек данных.
+/// Применяет ряд точек данных к ряду.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

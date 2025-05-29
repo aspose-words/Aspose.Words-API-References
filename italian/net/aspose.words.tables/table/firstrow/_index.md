@@ -3,7 +3,7 @@ title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
 second_title: Aspose.Words per .NET
-description: Table FirstRow proprietà. Restituisce il primoRow nodo nella tabella in C#.
+description: Scopri la proprietà FirstRow delle tabelle, accedi senza sforzo al nodo della prima riga per una gestione semplificata dei dati e funzionalità avanzate delle tabelle.
 type: docs
 weight: 160
 url: /it/net/aspose.words.tables/table/firstrow/
@@ -44,13 +44,13 @@ Mostra come combinare le righe di due tabelle in una.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Di seguito sono riportati due modi per ottenere una tabella da un documento.
-// 1 - Dalla raccolta "Tables" di un nodo Body:
+// 1 - Dalla raccolta "Tabelle" di un nodo Corpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Utilizzando il metodo "GetChild":
+// 2 - Utilizzo del metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe della tabella corrente a quella successiva.
+// Aggiunge tutte le righe dalla tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

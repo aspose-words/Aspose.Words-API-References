@@ -3,9 +3,9 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: Style Name propiedad. Obtiene o establece el nombre del estilo en C#.
+description: Descubra la propiedad Nombre de estilo, administre y personalice fácilmente sus estilos para obtener una mejor flexibilidad de diseño y experiencia de usuario.
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 No puede ser una cadena vacía.
 
-Si ya existe un estilo con ese nombre en la colección, este estilo lo anulará. Todos los nodos afectados harán referencia al nuevo estilo.
+Si ya existe un estilo con ese nombre en la colección, este lo sobrescribirá. Todos los nodos afectados harán referencia al nuevo estilo.
 
 ## Ejemplos
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumerar y enumerar todos los estilos que contiene de forma predeterminada un documento creado con Aspose.Words.
+// Enumerar y listar todos los estilos que un documento creado con Aspose.Words contiene de forma predeterminada.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -59,7 +59,7 @@ Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 // Utilice la propiedad "Nombre" del estilo para cambiar el nombre de identificación del estilo.
 newStyle.Name = "My Heading 1";
 
-// Nuestro documento ahora tiene dos estilos idénticos con nombres diferentes.
+//Nuestro documento ahora tiene dos estilos de aspecto idéntico con nombres diferentes.
 // Cambiar la configuración de uno de los estilos no afecta al otro.
 newStyle.Font.Color = Color.Red;
 

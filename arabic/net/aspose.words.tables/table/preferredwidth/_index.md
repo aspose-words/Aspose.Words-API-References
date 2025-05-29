@@ -3,14 +3,14 @@ title: Table.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words لـ .NET
-description: Table PreferredWidth ملكية. الحصول على العرض المفضل للجدول أو تعيينه في C#.
+description: اكتشف كيفية استخدام خاصية Table PreferredWidth لتعيين تخطيط الجدول الخاص بك وتحسينه بسهولة لتحسين التصميم وتجربة المستخدم.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.tables/table/preferredwidth/
 ---
 ## Table.PreferredWidth property
 
-الحصول على العرض المفضل للجدول أو تعيينه.
+يحصل على العرض المفضل للجدول أو يعينه.
 
 ```csharp
 public PreferredWidth PreferredWidth { get; set; }
@@ -22,7 +22,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
+يوضح كيفية ضبط الجدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
 ```csharp
 Document doc = new Document();

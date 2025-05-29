@@ -3,14 +3,14 @@ title: EditableRange.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: EditableRange Remove metod. Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara intervallet i C#.
+description: Ta enkelt bort redigerbara områden från ditt dokument med metoden EditableRange Remove, samtidigt som du bevarar innehållet intakt. Förbättra din dokumenthantering!
 type: docs
 weight: 60
 url: /sv/net/aspose.words/editablerange/remove/
 ---
 ## EditableRange.Remove method
 
-Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara intervallet.
+Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara området.
 
 ```csharp
 public void Remove()
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Redigerbara intervall tillåter oss att lämna delar av skyddade dokument öppna för redigering.
+// Redigerbara områden låter oss lämna delar av skyddade dokument öppna för redigering.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -40,7 +40,7 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Olika delar av det redigerbara intervallet länkar till varandra.
+// Olika delar av det redigerbara området länkar till varandra.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Ta bort ett redigerbart område. Alla noder som fanns inom intervallet kommer att förbli intakta.
+// Ta bort ett redigerbart område. Alla noder som fanns inom området kommer att förbli intakta.
 editableRange.Remove();
 ```
 

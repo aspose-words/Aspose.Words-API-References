@@ -2,15 +2,15 @@
 title: MetafileRenderingMode Enum
 linktitle: MetafileRenderingMode
 articleTitle: MetafileRenderingMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MetafileRenderingMode Sıralama. Aspose.Wordsün WMF ve EMF meta dosyalarını nasıl oluşturacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Saving.MetafileRenderingMode'un, optimum belge kalitesi ve performansı için WMF ve EMF meta dosyası oluşturmayı nasıl geliştirdiğini keşfedin.
 type: docs
-weight: 5290
+weight: 6070
 url: /tr/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
 
-Aspose.Words'ün WMF ve EMF meta dosyalarını nasıl oluşturacağını belirtir.
+Aspose.Words'ün WMF ve EMF meta dosyalarını nasıl işleyeceğini belirtir.
 
 ```csharp
 public enum MetafileRenderingMode
@@ -20,13 +20,13 @@ public enum MetafileRenderingMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words bir meta dosyasını vektör grafikleri olarak işlemeye çalışır. Aspose.Words, meta dosyası kayıtlarından bazılarını vektör grafiklerine doğru şekilde işleyemezse, Aspose.Words bu meta dosyasını bir bitmap'e dönüştürür. |
+| VectorWithFallback | `0` | Aspose.Words bir meta dosyasını vektör grafikleri olarak işlemeye çalışır. Aspose.Words meta dosyası kayıtlarının bazılarını vektör grafiklerine doğru şekilde işleyemezse Aspose.Words bu meta dosyasını bir bit eşlemine işler. |
 | Vector | `1` | Aspose.Words bir meta dosyasını vektör grafikleri olarak işler. |
-| Bitmap | `2` | Aspose.Words, bir meta dosyasını bir bitmap'e dönüştürmek için GDI+'yı çağırır ve ardından bitmap'i çıktı belgesine kaydeder. |
+| Bitmap | `2` | Aspose.Words, bir meta dosyasını bir bit eşlemine dönüştürmek için GDI+'ı çağırır ve ardından bit eşlemini çıktı belgesine kaydeder. |
 
 ## Örnekler
 
-Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
+Desteklenmeyen meta dosyası kayıtları hakkında bitmap oluşturma ve uyarı türlerini değiştirmeye yönelik bir geri dönüş eklendi.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -36,14 +36,14 @@ public void HandleBinaryRasterWarnings()
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın
-    // çıktı PDF'sinde görüntü oluşturmak için tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
+    // Çıktı PDF'inde işlenmesi için raster işlemlerinin gerekeceği bir meta dosyasıyla karşılaşır.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Her meta dosyasını vektör grafikleri kullanarak oluşturmayı denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
+    // Her meta dosyasını vektör grafikleri kullanarak işlemeyi denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme ve yapılandırmayı uygulama biçimini değiştirmek için
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye nasıl dönüştüreceğini ve yapılandırmayı nasıl uygulayacağını değiştirmek için
     // MetafileRenderingOptions nesnemizde kaydetme işlemine.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -59,7 +59,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Bir belge kaydedildiğinde oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
+/// Bir belgeyi kaydederken oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

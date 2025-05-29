@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words для .NET
-description: IReplacingCallback Replacing метод. Определенный пользователем метод который вызывается во время операции замены для каждого совпадения найденного непосредственно перед выполнением замены на С#.
+description: Улучшите свой код с помощью метода IReplacingCallback! Эффективно настраивайте операции замены, выполняя определяемые пользователем действия для каждого найденного совпадения.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Определенный пользователем метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены.
+Пользовательский метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,7 +18,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Возвращаемое значение
 
-А[`ReplaceAction`](../../replaceaction/) значение, указывающее действие, которое необходимо предпринять для текущего совпадения.
+А[`ReplaceAction`](../../replaceaction/) значение, которое определяет действие, которое необходимо выполнить для текущего совпадения.
 
 ## Примеры
 
@@ -36,7 +36,7 @@ public void ReplaceWithCallback()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
+    // Устанавливаем обратный вызов, который отслеживает любые замены, которые будет выполнять метод «Replace».
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,7 +50,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставляем документ после абзаца, содержащего совпадающий текст.
+        // Вставить документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Удаляем абзац с совпадающим текстом.
+        // Удалить абзац с совпадающим текстом.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропускаем узел, если это последний пустой абзац в разделе.
+                // Пропустить узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

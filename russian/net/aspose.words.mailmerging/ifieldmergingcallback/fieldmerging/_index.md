@@ -3,7 +3,7 @@ title: IFieldMergingCallback.FieldMerging
 linktitle: FieldMerging
 articleTitle: FieldMerging
 second_title: Aspose.Words для .NET
-description: IFieldMergingCallback FieldMerging метод. Вызывается когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе на С#.
+description: Оптимизируйте свои документообороты с помощью метода iFieldMergingCallback. Беспрепятственно интегрируйте данные в поля слияния почты Aspose.Words для повышения эффективности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
+        // Откройте средство чтения данных, которое должно находиться в режиме, позволяющем считывать все записи одновременно.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,7 +52,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
+    /// Вызывается, когда при слиянии почты в документе обнаруживается MERGEFIELD с тегом «Image:» в имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -62,7 +62,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
+Показывает, как выполнить слияние почты с помощью настраиваемого обратного вызова, который обрабатывает данные слияния в форме HTML-документов.
 
 ```csharp
 public void MergeHtml()
@@ -95,7 +95,7 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// Если при слиянии почты обнаруживается MERGEFIELD, имя которого начинается с префикса "html_",
 /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
@@ -107,13 +107,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные данные HTML в тело документа.
+            // Добавить проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Поскольку мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
+            // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство "Текст".
             args.Text = string.Empty;
         }
     }

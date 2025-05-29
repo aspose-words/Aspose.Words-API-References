@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: PageLayoutCallbackArgs Document свойство. Получает документ на С#.
+description: Откройте для себя свойство PageLayoutCallbackArgs Document для эффективного доступа и управления данными документа. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Уведомляет нас, когда мы сохраняем документ в фиксированном формате страницы
-/// и отображает страницу, на которой мы выполняем перекомпоновку страницы, в изображение в локальной файловой системе.
+/// и отображает страницу, которую мы преобразуем в изображение в локальной файловой системе.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

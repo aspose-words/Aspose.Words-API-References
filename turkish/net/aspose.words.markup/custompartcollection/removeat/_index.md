@@ -2,8 +2,8 @@
 title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: CustomPartCollection RemoveAt yöntem. Belirtilen dizindeki bir öğeyi kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: CustomPartCollection'ınızı RemoveAt yöntemiyle zahmetsizce yönetin; veri işlemeyi kolaylaştırmak için öğeleri dizine göre hızla kaldırın.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,23 +18,23 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sıfır tabanlı endeks. |
+| index | Int32 | Sıfır bazlı endeks. |
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

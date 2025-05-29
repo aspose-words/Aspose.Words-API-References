@@ -3,14 +3,14 @@ title: Section.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: Section Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Section-Accept-Methode, um die Besucherinteraktion zu verbessern und Interaktionen zu optimieren. Steigern Sie noch heute die Leistung Ihrer Website!
 type: docs
 weight: 70
 url: /de/net/aspose.words/section/accept/
 ---
 ## Section.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,19 +18,205 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
-Anrufe[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten der section und Aufrufe[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) am Ende.
+Anrufe[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , dann ruft[`Accept`](../../node/accept/) für alle Kindknoten des Abschnitts und ruft[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) am Ende.
+
+## Beispiele
+
+Zeigt, wie Sie mit einem Dokumentbesucher die Knotenstruktur eines Dokuments drucken.
+
+```csharp
+public void DocStructureToText()
+{
+    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+    DocStructurePrinter visitor = new DocStructurePrinter();
+
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
+    // Der Besucher kann jeden besuchten Knoten lesen und ändern.
+    doc.Accept(visitor);
+
+    Console.WriteLine(visitor.GetText());
+}
+
+/// <summary>
+/// Durchläuft den Baum der untergeordneten Knoten eines Knotens.
+/// Erstellt eine Karte dieses Baums in Form einer Zeichenfolge.
+/// </summary>
+public class DocStructurePrinter : DocumentVisitor
+{
+    public DocStructurePrinter()
+    {
+        mAcceptingNodeChildTree = new StringBuilder();
+    }
+
+    public string GetText()
+    {
+        return mAcceptingNodeChildTree.ToString();
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn ein Dokumentknoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitDocumentStart(Document doc)
+    {
+        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
+
+        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+        mDocTraversalDepth++;
+
+        // Dem Besucher erlauben, weiterhin andere Knoten zu besuchen.
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Dokumentknotens besucht wurden.
+    /// </summary>
+    public override VisitorAction VisitDocumentEnd(Document doc)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Document end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein Abschnittsknoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitSectionStart(Section section)
+    {
+        // Holen Sie sich den Index unseres Abschnitts innerhalb des Dokuments.
+        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
+        int sectionIndex = docSections.IndexOf(section);
+
+        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Abschnittsknotens besucht wurden.
+    /// </summary>
+    public override VisitorAction VisitSectionEnd(Section section)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Section end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein Body-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitBodyStart(Body body)
+    {
+        int paragraphCount = body.Paragraphs.Count;
+        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Body-Knotens besucht wurden.
+    /// </summary>
+    public override VisitorAction VisitBodyEnd(Body body)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Body end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
+    {
+        IndentAndAppendLine("[Paragraph start]");
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Absatzknotens besucht wurden.
+    /// </summary>
+    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Paragraph end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    {
+        IndentAndAppendLine("[SubDocument]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
+    /// </summary>
+    /// <param name="text"></param>
+    private void IndentAndAppendLine(string text)
+    {
+        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
+
+        mAcceptingNodeChildTree.AppendLine(text);
+    }
+
+    private int mDocTraversalDepth;
+    private readonly StringBuilder mAcceptingNodeChildTree;
+}
+```
 
 ### Siehe auch
 

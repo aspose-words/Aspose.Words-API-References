@@ -2,15 +2,15 @@
 title: PageSetup.LineNumberCountBy
 linktitle: LineNumberCountBy
 articleTitle: LineNumberCountBy
-second_title: Aspose.Words for .NET
-description: PageSetup LineNumberCountBy mülk. Satır numaralarının sayısal artışını döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirmesi ve okunabilirliği için satır numarası artışlarını kolayca özelleştirmek üzere PageSetup LineNumberCountBy özelliğini keşfedin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/pagesetup/linenumbercountby/
 ---
 ## PageSetup.LineNumberCountBy property
 
-Satır numaralarının sayısal artışını döndürür veya ayarlar.
+Satır numaraları için sayısal artışı döndürür veya ayarlar.
 
 ```csharp
 public int LineNumberCountBy { get; set; }
@@ -24,11 +24,11 @@ Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini göst
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bölümün metin satırlarının solundaki sayıları görüntülemek için bölümün PageSetup nesnesini kullanabiliriz.
-// Bu, List nesnesiyle aynı davranıştır,
-// ancak bölümün tamamını kapsar ve metni hiçbir şekilde değiştirmez.
-// Bölümümüz her yeni sayfada numaralandırmayı 1'den başlatacak ve numarayı gösterecektir,
-// 3'ün katı ise satırın solunda 50 punto.
+// Bölümün PageSetup nesnesini kullanarak bölümün metin satırlarının solunda sayıları görüntüleyebiliriz.
+// Bu, bir Liste nesnesiyle aynı davranıştır,
+// ancak bölümün tamamını kapsıyor ve metni hiçbir şekilde değiştirmiyor.
+// Bölümümüz her yeni sayfada numaralandırmayı 1'den yeniden başlatacak ve numarayı görüntüleyecektir,
+// 3'ün katı ise satırın solunda 50pt.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -38,10 +38,10 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// Satır sayacı, "SuppressLineNumbers" bayrağı "true" olarak ayarlanmış olan herhangi bir paragrafı atlayacaktır.
-// Bu paragraf 3'ün katı olan 15. satırdadır ve bu nedenle normalde bir satır numarası görüntüler.
-// Bölümün satır sayacı da bu satırı göz ardı edecek, sonraki satırı 15'inci satır olarak değerlendirecek,
-// ve bu noktadan itibaren saymaya devam edin.
+// Satır sayacı, "SuppressLineNumbers" bayrağı "true" olarak ayarlandığında herhangi bir paragrafı atlayacaktır.
+// Bu paragraf 15. satırdadır, yani 3'ün katıdır ve bu nedenle normalde satır numarası gösterilmelidir.
+// Bölümün satır sayacı da bu satırı yoksayacak, bir sonraki satırı 15. satır olarak değerlendirecek,
+// ve saymaya o noktadan itibaren devam edilir.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 
 doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");

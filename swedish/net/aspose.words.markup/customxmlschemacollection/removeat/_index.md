@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection RemoveAt metod. Tar bort ett värde vid det angivna indexet i C#.
+description: Hantera enkelt din CustomXmlSchemaCollection med RemoveAt-metoden – ta snabbt bort värden efter index för effektiv datahantering.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -43,15 +43,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

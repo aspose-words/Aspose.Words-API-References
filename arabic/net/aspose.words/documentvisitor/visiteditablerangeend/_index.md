@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 articleTitle: VisitEditableRangeEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitEditableRangeEnd طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند في C#.
+description: اكتشف طريقة DocumentVisitor VisitEditableRangeEnd—تعامل بكفاءة مع نهايات النطاق القابلة للتحرير في مستنداتك لتحقيق تحرير سلس ووظائف محسنة.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor.VisitEditableRangeEnd method
 
-يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند.
+يتم استدعاؤها عند مواجهة نهاية نطاق قابل للتحرير في المستند.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| editableRangeEnd | EditableRangeEnd | الكائن الذي تتم زيارته. |
+| editableRangeEnd | EditableRangeEnd | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في المستند.
+يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في مستند.
 
 ```csharp
 public void EditableRangeToText()
@@ -34,17 +34,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة من جميع عقد EditableRange التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد EditableRange التي تم مواجهتها وأطفالها.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -63,18 +63,18 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // نريد طباعة محتويات عمليات التشغيل، ولكن فقط إذا كانت داخل الأشكال، كما هو الحال في مربعات النص
+        // نريد طباعة محتويات التشغيلات، ولكن فقط إذا كانت داخل الأشكال، كما هو الحال في حالة مربعات النص
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة EditableRange في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة EditableRange في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة EditableRange.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,9 +99,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

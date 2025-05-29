@@ -3,7 +3,7 @@ title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: StyleCollection Document свойство. Получает документ владельца на С#.
+description: Получите доступ к документу владельца без усилий с помощью StyleCollection. Откройте для себя бесперебойное управление документами и улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words/stylecollection/document/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

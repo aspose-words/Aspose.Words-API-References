@@ -3,14 +3,14 @@ title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words für .NET
-description: TableStyle LeftPadding eigendom. Ruft die Menge an Platz in Punkten ab die links vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
+description: Entdecken Sie die Eigenschaft „TableStyle LeftPadding“, um das Layout Ihrer Tabellenzellen anzupassen. Passen Sie den linken Abstand ganz einfach an und erzielen Sie ein elegantes, professionelles Erscheinungsbild.
 type: docs
 weight: 100
 url: /de/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-Ruft die Menge an Platz (in Punkten) ab, die links vom Inhalt von Tabellenzellen hinzugefügt werden soll, oder legt diese fest.
+Ruft den Abstand (in Punkten) ab, der links vom Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

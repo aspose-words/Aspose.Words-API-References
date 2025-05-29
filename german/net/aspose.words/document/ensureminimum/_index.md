@@ -3,9 +3,9 @@ title: Document.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words für .NET
-description: Document EnsureMinimum methode. Wenn das Dokument keine Abschnitte enthält wird ein Abschnitt mit einem Absatz erstellt in C#.
+description: Erfahren Sie, wie Sie mit der Methode EnsureMinimum automatisch Abschnitte und Absätze in Dokumenten erstellen und so vollständige und organisierte Inhalte sicherstellen.
 type: docs
-weight: 580
+weight: 620
 url: /de/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -18,11 +18,11 @@ public void EnsureMinimum()
 
 ## Beispiele
 
-Zeigt, wie sichergestellt wird, dass ein Dokument die minimale Menge an Knoten enthält, die zum Bearbeiten seines Inhalts erforderlich sind.
+Zeigt, wie sichergestellt wird, dass ein Dokument den zum Bearbeiten seines Inhalts erforderlichen Mindestsatz an Knoten enthält.
 
 ```csharp
-// Ein neu erstelltes Dokument enthält einen untergeordneten Abschnitt, der einen untergeordneten Textkörper und einen untergeordneten Absatz enthält.
-// Wir können den Inhalt des Dokumentkörpers bearbeiten, indem wir diesem Absatz Knoten wie Runs oder Inline-Shapes hinzufügen.
+// Ein neu erstelltes Dokument enthält einen untergeordneten Abschnitt, der wiederum einen untergeordneten Textkörper und einen untergeordneten Absatz enthält.
+// Wir können den Inhalt des Dokumenttexts bearbeiten, indem wir diesem Absatz Knoten wie Läufe oder Inline-Formen hinzufügen.
 Document doc = new Document();
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 
@@ -35,13 +35,13 @@ Assert.AreEqual(nodes[0], nodes[1].ParentNode);
 Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 Assert.AreEqual(nodes[1], nodes[2].ParentNode);
 
-// Dies ist die minimale Menge an Knoten, die wir benötigen, um das Dokument bearbeiten zu können.
-// Wir können das Dokument nicht mehr bearbeiten, wenn wir eines davon entfernen.
+// Dies ist der minimale Satz an Knoten, den wir benötigen, um das Dokument bearbeiten zu können.
+// Wenn wir eines davon entfernen, können wir das Dokument nicht mehr bearbeiten.
 doc.RemoveAllChildren();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);
 
-// Rufen Sie diese Methode auf, um sicherzustellen, dass das Dokument mindestens diese drei Knoten hat, damit wir es erneut bearbeiten können.
+// Rufen Sie diese Methode auf, um sicherzustellen, dass das Dokument mindestens diese drei Knoten enthält, damit wir es erneut bearbeiten können.
 doc.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Section, nodes[0].NodeType);

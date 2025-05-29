@@ -3,14 +3,14 @@ title: VbaProject.CodePage
 linktitle: CodePage
 articleTitle: CodePage
 second_title: Aspose.Words för .NET
-description: VbaProject CodePage fast egendom. Hämtar eller ställer in VBAprojektets teckentabell i C#.
+description: Upptäck hur du hanterar VbaProject CodePage-egenskapen för att optimera ditt VBA-projekts teckentabellsinställningar för förbättrad prestanda och kompatibilitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.vba/vbaproject/codepage/
 ---
 ## VbaProject.CodePage property
 
-Hämtar eller ställer in VBA-projektets teckentabell.
+Hämtar eller ställer in VBA-projektets kodsida.
 
 ```csharp
 public int CodePage { get; set; }
@@ -18,7 +18,7 @@ public int CodePage { get; set; }
 
 ## Anmärkningar
 
-Observera att VBA är en pre-Unicode-funktion och du måste uttryckligen ställa in lämplig teckentabell för att bevara regionala teckenuppsättningar.
+Observera att VBA är en funktion före Unicode och att du explicit måste ange lämplig kodsida för att bevara regionala teckenuppsättningar.
 
 ## Exempel
 
@@ -33,14 +33,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

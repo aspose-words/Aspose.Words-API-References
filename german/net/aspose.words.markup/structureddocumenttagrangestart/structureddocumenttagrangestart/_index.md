@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart constructeur. Initialisiert eine neue Instanz vonStrukturierter DokumentTagBereichsanfang Klasse in C#.
+description: Erstellen Sie mühelos eine neue StructuredDocumentTagRangeStart-Instanz. Verbessern Sie Ihr Dokumentenmanagement mit diesem leistungsstarken Konstruktor für strukturierte Tags.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Initialisiert eine neue Instanz von**Strukturierter Dokument-Tag-Bereichsanfang** Klasse.
+Initialisiert eine neue Instanz des**Tagbereichsanfang für strukturierte Dokumente** Klasse.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -23,7 +23,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 ## Bemerkungen
 
-Die folgenden Arten von SDT können erstellt werden:
+Die folgenden SDT-Typen können erstellt werden:
 
 * Checkbox
 * DropDownList
@@ -47,9 +47,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Entfernt das strukturierte Dokument-Tag, behält aber den Inhalt bei.
+    // Entfernt den strukturierten Dokumenttag mit Bereich, behält aber den Inhalt bei.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -62,7 +62,7 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
@@ -74,13 +74,15 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

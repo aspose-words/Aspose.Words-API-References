@@ -3,14 +3,14 @@ title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
 second_title: Aspose.Words para .NET
-description: ImportFormatOptions IgnoreTextBoxes propiedad. Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de los cuadros de texto se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado esverdadero  en C#.
+description: Descubra cómo la propiedad ImportFormatOptions IgnoreTextBoxes mejora el formato de su documento controlando el contenido de los cuadros de texto. ¡Optimice fácilmente hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de los cuadros de texto se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado es`verdadero` .
+Obtiene o establece un valor booleano que especifica que se ignora el formato de origen del contenido de los cuadros de texto siKeepSourceFormatting Se utiliza el modo. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreTextBoxes { get; set; }
 
 ## Ejemplos
 
-Muestra cómo administrar el formato de cuadro de texto al agregar un documento.
+Muestra cómo administrar el formato del cuadro de texto al agregar un documento.
 
 ```csharp
 // Crea un documento que tendrá nodos de otro documento insertados en él.
@@ -37,12 +37,12 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Establece una bandera para especificar si se borra o conserva el formato del cuadro de texto
-// mientras los importa a otros documentos.
+// Establezca un indicador para especificar si se debe borrar o conservar el formato del cuadro de texto
+// al importarlos a otros documentos.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
-// Importa el cuadro de texto del documento de origen al documento de destino,
+// Importar el cuadro de texto del documento de origen al documento de destino,
 // y luego verificar si hemos conservado el estilo de su contenido de texto.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);

@@ -3,7 +3,7 @@ title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
 second_title: Aspose.Words для .NET
-description: Style AutomaticallyUpdate свойство. Указывает будет ли этот стиль автоматически переопределяться на основе соответствующего значения на С#.
+description: Узнайте, как свойство AutomaticallyUpdate улучшает ваши стили, автоматически переопределяя их для оптимальной ценности и производительности в ваших проектах.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/style/automaticallyupdate/
@@ -18,15 +18,15 @@ public bool AutomaticallyUpdate { get; set; }
 
 ## Примечания
 
-Если для свойства установлено значение true, MS Word автоматически переопределяет текущий стиль, когда соответствующее форматирование абзаца было изменено.
+Если значение свойства установлено равным true, MS Word автоматически переопределяет текущий стиль, когда изменяется соответствующее форматирование абзаца.
 
-Свойство АвтоматическиОбновить применимо только к стилям абзаца.
+Свойство AutomaticallyUpdate применимо только к стилям абзацев.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
 ## Примеры
 
-Показывает, как создать и применить собственный стиль.
+Показывает, как создать и применить пользовательский стиль.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Применяем один из стилей документа к абзацу, который создает конструктор документов.
+// Применить один из стилей документа к абзацу, создаваемому конструктором документа.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -48,7 +48,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Удаляем наш собственный стиль из коллекции стилей документа.
+// Удаляем наш пользовательский стиль из коллекции стилей документа.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

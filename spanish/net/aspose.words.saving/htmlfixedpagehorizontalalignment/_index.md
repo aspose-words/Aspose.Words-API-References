@@ -3,9 +3,9 @@ title: HtmlFixedPageHorizontalAlignment Enum
 linktitle: HtmlFixedPageHorizontalAlignment
 articleTitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment enumeración. Especifica la alineación horizontal de las páginas en el documento HTML de salida en C#.
+description: Descubra la enumeración Aspose.Words.HtmlFixedPageHorizontalAlignment para un control preciso de la alineación de páginas en sus documentos HTML. ¡Mejore el formato de sus documentos hoy mismo!
 type: docs
-weight: 5070
+weight: 5820
 url: /es/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -21,12 +21,12 @@ public enum HtmlFixedPageHorizontalAlignment
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Left | `0` | Alinear páginas a la izquierda. |
-| Center | `1` | Centro de páginas. Este es el valor predeterminado. |
+| Center | `1` | Centrar páginas. Este es el valor predeterminado. |
 | Right | `2` | Alinear páginas a la derecha. |
 
 ## Ejemplos
 
-Muestra cómo configurar la alineación horizontal de las páginas al guardar un documento en HTML.
+Muestra cómo establecer la alineación horizontal de las páginas al guardar un documento en HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -47,11 +47,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

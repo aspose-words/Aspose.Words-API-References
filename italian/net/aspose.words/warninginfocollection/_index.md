@@ -3,14 +3,14 @@ title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.WarningInfoCollection classe. Rappresenta una raccolta digitata diWarningInfo oggetti in C#.
+description: Scopri Aspose.Words.WarningInfoCollection, una potente classe per la gestione di oggetti WarningInfo, migliorando l'elaborazione dei documenti e la gestione degli errori.
 type: docs
-weight: 6640
+weight: 7490
 url: /it/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Rappresenta una raccolta digitata di[`WarningInfo`](../warninginfo/) oggetti.
+Rappresenta una raccolta tipizzata di[`WarningInfo`](../warninginfo/) oggetti.
 
 Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose.com/words/net/programming-with-documents/) articolo di documentazione.
 
@@ -36,37 +36,37 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Nome | Descrizione |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implementa il[`IWarningCallback`](../iwarningcallback/) interfaccia. Aggiunge un avviso a questa raccolta. |
 
 ## Osservazioni
 
-È possibile utilizzare questo oggetto raccolta come la forma più semplice di[`IWarningCallback`](../iwarningcallback/) implementazione per raccogliere tutti gli avvisi generati da Aspose.Words durante un'operazione di caricamento o salvataggio. Crea un'istanza di questa classe e assegnala al file[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) O[`WarningCallback`](../documentbase/warningcallback/) proprietà.
+È possibile utilizzare questo oggetto di raccolta come la forma più semplice di[`IWarningCallback`](../iwarningcallback/) Implementazione per raccogliere tutti gli avvisi generati da Aspose.Words durante un'operazione di caricamento o salvataggio. Creare un'istanza di questa classe e assegnarla a[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) O[`WarningCallback`](../documentbase/warningcallback/) proprietà.
 
 ## Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un font mancante tra le sorgenti di font disponibili.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
+    // Apre un documento contenente testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
+    // Assegna un callback per gestire gli avvisi di sostituzione dei font.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
+    // Imposta un nome di font predefinito e abilita la sostituzione dei font.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    // Dopo la sostituzione del font, è necessario utilizzare le metriche originali.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
+    // Se salviamo un documento con un font mancante, riceveremo un avviso di sostituzione del font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -82,7 +82,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

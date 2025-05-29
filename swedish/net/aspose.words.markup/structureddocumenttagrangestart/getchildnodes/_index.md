@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart GetChildNodes metod. Returnerar en livesamling av underordnade noder som matchar de angivna typerna i C#.
+description: Upptäck metoden StructuredDocumentTagRangeStart GetChildNodes, som tillhandahåller en dynamisk samling av underordnade noder anpassade till dina angivna typer.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method
 
-Returnerar en livesamling av underordnade noder som matchar de angivna typerna.
+Returnerar en live-samling av underordnade noder som matchar de angivna typerna.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -18,7 +18,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 ## Exempel
 
-Visar hur man får barnnoder för StructuredDocumentTagRangeStart.
+Visar hur man hämtar underordnade noder till StructuredDocumentTagRangeStart.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

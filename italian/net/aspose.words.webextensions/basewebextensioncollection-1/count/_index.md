@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: BaseWebExtensionCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
+description: Scopri la proprietà BaseWebExtensionCollection Count per recuperare facilmente il numero totale di elementi, migliorando l'efficienza dello sviluppo web.
 type: docs
 weight: 10
 url: /it/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -36,7 +36,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Rimuove l'estensione web.
+// Rimuovere l'estensione web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

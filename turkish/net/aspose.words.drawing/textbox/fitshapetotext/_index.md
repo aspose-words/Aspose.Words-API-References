@@ -2,15 +2,15 @@
 title: TextBox.FitShapeToText
 linktitle: FitShapeToText
 articleTitle: FitShapeToText
-second_title: Aspose.Words for .NET
-description: TextBox FitShapeToText mülk. Microsoft Wordün şekli metne sığacak şekilde büyütüp büyütmeyeceğini belirler C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'deki FitShapeToText özelliğinin, belge sunumunu geliştirerek şekilleri metninize mükemmel şekilde uyacak şekilde nasıl otomatik olarak ayarladığını keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/textbox/fitshapetotext/
 ---
 ## TextBox.FitShapeToText property
 
-Microsoft Word'ün şekli metne sığacak şekilde büyütüp büyütmeyeceğini belirler.
+Microsoft Word'ün şekli metne uyacak şekilde büyütüp büyütmeyeceğini belirler.
 
 ```csharp
 public bool FitShapeToText { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`YANLIŞ`.
 
 ## Örnekler
 
-Bir metin kutusunun, içeriğine sıkı bir şekilde sığacak şekilde kendisini yeniden boyutlandırmasının nasıl sağlanacağını gösterir.
+Bir metin kutusunun içeriğini sıkıca sığdırmak için nasıl yeniden boyutlandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Ana şeklin sığması için bu değerleri her iki üyeye de uygulayın
-// ayarladığımız boyutları göz ardı ederek metin içeriğinin etrafını sıkıca sarıyoruz.
+// Üst şeklin uyması için bu değerleri her iki üyeye de uygulayın
+// belirlediğimiz boyutları göz ardı ederek metin içeriğinin etrafına sıkıca oturtuyoruz.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

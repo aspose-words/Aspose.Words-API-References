@@ -3,14 +3,14 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words für .NET
-description: Font TextEffect eigendom. Ruft den Schriftartanimationseffekt ab oder legt ihn fest in C#.
+description: Entdecken Sie die Font TextEffect-Eigenschaft, um Schriftanimationen einfach anzupassen und Ihre Designs mit dynamischen Texteffekten für ein fesselndes Benutzererlebnis zu verbessern.
 type: docs
-weight: 450
+weight: 460
 url: /de/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
 
-Ruft den Schriftartanimationseffekt ab oder legt ihn fest.
+Ruft den Schriftanimationseffekt ab oder legt ihn fest.
 
 ```csharp
 public TextEffect TextEffect { get; set; }
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen visuellen Effekt auf einen Lauf anwendet.
+Zeigt, wie man einem Lauf einen visuellen Effekt zuweist.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// Ältere Versionen von Microsoft Word unterstützen nur Schriftartanimationseffekte.
+// Ältere Versionen von Microsoft Word unterstützen nur Schriftanimationseffekte.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

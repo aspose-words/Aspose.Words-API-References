@@ -3,9 +3,9 @@ title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
 second_title: Aspose.Words pour .NET
-description: Fill ForeTintAndShade propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur de premier plan en C#.
+description: Ajustez la propriété ForeTintAndShade pour éclaircir ou assombrir facilement votre couleur de premier plan, améliorant ainsi votre conception avec précision et créativité.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
@@ -16,13 +16,21 @@ Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur de 
 public double ForeTintAndShade { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Lancer si cette propriété est définie sur une valeur inférieure à -1 ou supérieure à 1. |
+
 ## Remarques
 
-Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîneArgumentOutOfRangeException.
+Les valeurs autorisées sont comprises entre -1 (la plus foncée) et 1 (la plus claire) pour cette propriété.
+
+Zéro (0) est neutre.
 
 ## Exemples
 
-Montre comment gérer l’éclaircissement et l’assombrissement de la couleur de la police de premier plan.
+Montre comment gérer l'éclaircissement et l'assombrissement de la couleur de police de premier plan.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

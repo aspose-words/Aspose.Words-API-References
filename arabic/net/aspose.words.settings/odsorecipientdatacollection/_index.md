@@ -3,9 +3,9 @@ title: OdsoRecipientDataCollection Class
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection فصل. مجموعة مطبوعة منOdsoRecipientData في C#.
+description: اكتشف Aspose.Words.Settings.OdsoRecipientDataCollection، وهي مجموعة مكتوبة قوية لإدارة OdsoRecipientData بكفاءة في تطبيقاتك.
 type: docs
-weight: 5940
+weight: 6770
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
@@ -28,21 +28,21 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | الحصول على أو تعيين عنصر في هذه المجموعة. |
+| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | يحصل على عدد العناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | يحصل على عنصر في هذه المجموعة أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | إضافة كائن إلى نهاية هذه المجموعة. |
-| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | إزالة كافة العناصر من هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | يضيف كائنًا إلى نهاية هذه المجموعة. |
+| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | يزيل جميع العناصر من هذه المجموعة. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | يزيل العنصر عند الفهرس المحدد. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -64,10 +64,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

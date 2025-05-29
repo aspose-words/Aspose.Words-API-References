@@ -3,7 +3,7 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words para .NET
-description: Paragraph FrameFormat propiedad. Proporciona acceso a las propiedades de formato del marco en C#.
+description: Descubra la propiedad Paragraph FrameFormat, acceda y personalice fácilmente las propiedades de formato de marco para mejorar la presentación del documento.
 type: docs
 weight: 30
 url: /es/net/aspose.words/paragraph/frameformat/
@@ -18,7 +18,7 @@ public FrameFormat FrameFormat { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

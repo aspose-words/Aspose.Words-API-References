@@ -3,14 +3,14 @@ title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaProject klas. Bietet Zugriff auf VBAProjektinformationen. Ein VBAProjekt innerhalb des Dokuments ist als Sammlung von VBAModulen definiert in C#.
+description: Nutzen Sie die Leistungsfähigkeit der Aspose.Words.Vba.VbaProject-Klasse, um VBA-Projektinformationen und -Module mühelos in Ihren Dokumenten zu verwalten. Verbessern Sie Ihre Automatisierung noch heute!
 type: docs
-weight: 6580
+weight: 7430
 url: /de/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-Bietet Zugriff auf VBA-Projektinformationen. Ein VBA-Projekt innerhalb des Dokuments ist als Sammlung von VBA-Modulen definiert.
+Bietet Zugriff auf VBA-Projektinformationen. Ein VBA-Projekt innerhalb des Dokuments wird als Sammlung von VBA-Modulen definiert.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit VBA-Makros](https://docs.aspose.com/words/net/working-with-vba-macros/) Dokumentationsartikel.
 
@@ -22,23 +22,24 @@ public class VbaProject
 
 | Name | Beschreibung |
 | --- | --- |
-| [VbaProject](vbaproject/)() | Erstellt ein Leerzeichen`VbaProject` . |
+| [VbaProject](vbaproject/)() | Erstellt ein leeres`VbaProject` . |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Ruft die Codepage des VBA-Projekts ab oder legt diese fest. |
+| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Ruft die Codepage des VBA-Projekts ab oder legt sie fest. |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | Zeigt an, ob die`VbaProject` ist passwortgeschützt. |
 | [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Zeigt an, ob die`VbaProject` ist signiert oder nicht. |
 | [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | Gibt eine Sammlung von VBA-Projektmodulen zurück. |
 | [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | Ruft den VBA-Projektnamen ab oder legt ihn fest. |
-| [References](../../aspose.words.vba/vbaproject/references/) { get; } | Ruft eine Sammlung von VBA-Projektverweisen ab. |
+| [References](../../aspose.words.vba/vbaproject/references/) { get; } | Ruft eine Sammlung von VBA-Projektreferenzen ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Führt eine Kopie des aus`VbaProject` . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Führt eine Kopie der`VbaProject` . |
 
 ## Beispiele
 
@@ -53,7 +54,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -64,7 +65,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

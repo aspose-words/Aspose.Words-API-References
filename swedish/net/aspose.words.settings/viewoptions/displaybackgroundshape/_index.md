@@ -3,7 +3,7 @@ title: ViewOptions.DisplayBackgroundShape
 linktitle: DisplayBackgroundShape
 articleTitle: DisplayBackgroundShape
 second_title: Aspose.Words för .NET
-description: ViewOptions DisplayBackgroundShape fast egendom. Styr visningen av bakgrundsformen i utskriftslayoutvyn i C#.
+description: Upptäck egenskapen DisplayBackgroundShape i ViewOptions för att förbättra din utskriftslayout med anpassningsbara bakgrundsformer för ett elegant utseende.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -18,7 +18,7 @@ public bool DisplayBackgroundShape { get; set; }
 
 ## Exempel
 
-Visar hur man döljer/visar dokumentbakgrundsbilder i visningsalternativ.
+Visar hur man döljer/visar dokumentbakgrundsbilder i vyalternativen.
 
 ```csharp
 // Använd en HTML-sträng för att skapa ett nytt dokument med en platt bakgrundsfärg.
@@ -31,13 +31,13 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// Källan för dokumentet har en platt färgbakgrund,
-// vars närvaro kommer att ställa in "DisplayBackgroundShape"-flaggan till "true".
+// Källkoden för dokumentet har en bakgrund med en platt färg,
+// vars närvaro sätter flaggan "DisplayBackgroundShape" till "sant".
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
 // Behåll "DisplayBackgroundShape" som "true" för att få dokumentet att visa bakgrundsfärgen.
 // Detta kan påverka vissa textfärger för att förbättra synligheten.
-// Ställ in "DisplayBackgroundShape" till "false" för att inte visa bakgrundsfärgen.
+// Sätt "DisplayBackgroundShape" till "false" för att inte visa bakgrundsfärgen.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");

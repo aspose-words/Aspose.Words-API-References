@@ -2,15 +2,15 @@
 title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
-second_title: Aspose.Words for .NET
-description: TableStyle Shading mülk. Bir alırShading tablo hücrelerinin gölgelendirme formatını ifade eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Tablo hücrelerinizi özelleştirilebilir gölgelendirme biçimlendirmesiyle geliştirerek cilalı, profesyonel bir görünüm elde etmek için TableStyle Gölgelendirme özelliğini keşfedin.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Bir alır[`Shading`](../../shading/) tablo hücrelerinin gölgelendirme formatını ifade eden nesne.
+Bir tane alır[`Shading`](../../shading/) tablo hücreleri için gölgelendirme biçimlendirmesine başvuran nesne.
 
 ```csharp
 public Shading Shading { get; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

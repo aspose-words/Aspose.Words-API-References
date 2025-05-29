@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.ForcePageBreaks
 linktitle: ForcePageBreaks
 articleTitle: ForcePageBreaks
 second_title: Aspose.Words для .NET
-description: TxtSaveOptionsBase ForcePageBreaks свойство. Позволяет указать следует ли сохранять разрывы страниц во время экспорта на С#.
+description: Контролируйте разрывы страниц с помощью свойства ForcePageBreaks TxtSaveOptionsBase. Обеспечьте бесперебойный экспорт и сохраняйте форматирование документа без усилий.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 ---
 ## TxtSaveOptionsBase.ForcePageBreaks property
 
-Позволяет указать, следует ли сохранять разрывы страниц во время экспорта.
+Позволяет указать, следует ли сохранять разрывы страниц при экспорте.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
@@ -20,7 +20,7 @@ public bool ForcePageBreaks { get; set; }
 
 ## Примечания
 
-Это свойство влияет только на разрывы страниц, которые явно вставлены в документ. Это не связано с разрывами страниц, которые MS Word автоматически вставляет в конец каждой страницы.
+Свойство влияет только на разрывы страниц, которые явно вставлены в документ. Оно не связано с разрывами страниц, которые MS Word автоматически вставляет в конце каждой страницы.
 
 ## Примеры
 
@@ -36,19 +36,19 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3");
 
-// Создаем объект «TxtSaveOptions», который мы можем передать в «Сохранить» документа.
-// метод для изменения способа сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать в функцию "Сохранить" документа
+// метод для изменения способа сохранения документа в виде обычного текста.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Объекты «Документ» Aspose.Words имеют разрывы страниц, как и документы Microsoft Word.
-// Форматы сохранения, такие как «.txt», представляют собой один непрерывный текст без разрывов страниц.
-// Установите для свойства «ForcePageBreaks» значение «true», чтобы сохранить все разрывы страниц в виде символов «\f».
-// Установите для свойства «ForcePageBreaks» значение «false», чтобы отменить все разрывы страниц.
+// Объекты Aspose.Words «Документ» имеют разрывы страниц, как и документы Microsoft Word.
+// Форматы сохранения, такие как «.txt», представляют собой единый непрерывный текст без разрывов страниц.
+// Установите свойство «ForcePageBreaks» в значение «true», чтобы сохранить все разрывы страниц в виде символов '\f'.
+// Установите свойство «ForcePageBreaks» в значение «false», чтобы отменить все разрывы страниц.
 saveOptions.ForcePageBreaks = forcePageBreaks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);
 
-// Если мы загружаем текстовый документ с разрывами страниц,
+// Если мы загрузим текстовый документ с разрывами страниц,
 // объект «Документ» будет использовать их для разделения тела на страницы.
 doc = new Document(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt");
 

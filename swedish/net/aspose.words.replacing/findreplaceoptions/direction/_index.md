@@ -3,7 +3,7 @@ title: FindReplaceOptions.Direction
 linktitle: Direction
 articleTitle: Direction
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions Direction fast egendom. Väljer riktning för ersättning. Standardvärdet ärForward  i C#.
+description: Upptäck egenskapen FindReplaceOptions Direction för att anpassa din ersättningsfunktion. Välj mellan Framåt och Bakåt för optimala resultat.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -18,7 +18,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ## Exempel
 
-Visar hur man bestämmer i vilken riktning en sök-och-ersätt-operation korsar dokumentet.
+Visar hur man avgör vilken riktning en sök-och-ersätt-operation rör sig i dokumentet.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -26,23 +26,23 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga tre körningar som vi kan söka efter med hjälp av ett regexmönster.
+    // Infoga tre körningar som vi kan söka efter med hjälp av ett regex-mönster.
     // Placera en av dessa körningar i en textruta.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
     builder.Writeln("Match 4.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Tilldela en anpassad återuppringning till egenskapen "ReplacingCallback".
+    // Tilldela en anpassad återanropning till egenskapen "ReplacingCallback".
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // Ställ in "Direction"-egenskapen till "FindReplaceDirection.Backward" för att få sök-och-ersätt
-    // operation för att starta från slutet av intervallet och gå tillbaka till början.
-    // Ställ in "Direction"-egenskapen till "FindReplaceDirection.Backward" för att få sök-och-ersätt
+    // Sätt egenskapen "Direction" till "FindReplaceDirection.Backward" för att hämta sök-och-ersätt-funktionen
+    // operation för att börja från slutet av intervallet och gå tillbaka till början.
+    // Sätt egenskapen "Direction" till "FindReplaceDirection.Forward" för att hämta sök-och-ersätt-funktionen
     // operation för att börja från början av intervallet och gå till slutet.
     options.Direction = findReplaceDirection;
 
@@ -65,7 +65,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// Registrerar alla matchningar som inträffar under en sök-och-ersätt-operation i den ordning som de äger rum.
+/// Registrerar alla träffar som inträffar under en sök-och-ersätt-operation i den ordning de inträffar.
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

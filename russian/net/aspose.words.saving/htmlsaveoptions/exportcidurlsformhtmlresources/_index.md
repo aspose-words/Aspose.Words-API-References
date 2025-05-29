@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 linktitle: ExportCidUrlsForMhtmlResources
 articleTitle: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportCidUrlsForMhtmlResources свойство. Указывает следует ли использовать URLадреса CID ContentID для ссылки на ресурсы изображения шрифты CSS включенные в документы MHTML . Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как ExportCidUrlsForMhtmlResources HtmlSaveOptions улучшает документы MHTML, включая URL-адреса CID для изображений, шрифтов и CSS. По умолчанию — false.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
-Указывает, следует ли использовать URL-адреса CID (Content-ID) для ссылки на ресурсы (изображения, шрифты, CSS), включенные в документы MHTML . Значение по умолчанию:`ЛОЖЬ` .
+Указывает, следует ли использовать URL-адреса CID (Content-ID) для ссылок на ресурсы (изображения, шрифты, CSS), включенные в документы MHTML . Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -18,13 +18,13 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 ## Примечания
 
-Эта опция влияет только на документы, сохраняемые в MHTML.
+Эта опция влияет только на документы, сохраняемые в формате MHTML.
 
-По умолчанию на ресурсы в документах MHTML ссылаются по имени файла (например, «image.png»), которое сопоставляется с заголовками «Content-Location» частей MIME.
+По умолчанию ресурсы в документах MHTML ссылаются на имя файла (например, «image.png»), которое сопоставляется с заголовками «Content-Location» частей MIME.
 
-Этот параметр включает альтернативный метод, при котором ссылки на файлы ресурсов записываются как URL-адреса CID (Content-ID) (например, «cid:image.png») и сопоставляются с заголовками «Content-ID».
+Эта опция включает альтернативный метод, при котором ссылки на файлы ресурсов записываются как URL-адреса CID (Content-ID) (например, «cid:image.png») и сопоставляются с заголовками «Content-ID».
 
-Теоретически между этими двумя методами ссылок не должно быть никакой разницы, и любой из них должен нормально работать в любом браузере или почтовом агенте. Однако на практике некоторым агентам не удается получить ресурсы по имени файла. Если ваш браузер или почтовый агент отказывается загружать ресурсы, включенные в документ MTHML (не отображает изображения или не загружает стили CSS), попробуйте экспортировать документ с URL-адресами CID.
+Теоретически, не должно быть никакой разницы между двумя методами ссылок, и любой из них должен работать нормально в любом браузере или почтовом агенте. Однако на практике некоторые агенты не могут извлечь ресурсы по имени файла. Если ваш браузер или почтовый агент отказывается загружать ресурсы, включенные в документ MTHML (не показывает изображения или не загружает стили CSS), попробуйте экспортировать документ с URL-адресами CID.
 
 ## Примеры
 
@@ -33,8 +33,8 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Установка этого флага заменит теги "Content-Location"
-// с тегами Content-ID для каждого ресурса из входного документа.
+// Установка этого флага заменит теги «Content-Location»
+// с тегами «Content-ID» для каждого ресурса из входного документа.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mhtml)
 {
     ExportCidUrlsForMhtmlResources = exportCidUrlsForMhtmlResources,

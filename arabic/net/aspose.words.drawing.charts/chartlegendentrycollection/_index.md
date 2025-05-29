@@ -3,14 +3,14 @@ title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection فصل. يمثل مجموعة من إدخالات وسيلة إيضاح المخطط في C#.
+description: استكشف Aspose.Words.ChartLegendEntryCollection لإدارة إدخالات أسطورة الرسم البياني بكفاءة وتحسين العروض التوضيحية للمستندات بسهولة.
 type: docs
-weight: 740
+weight: 1030
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
 
-يمثل مجموعة من إدخالات وسيلة إيضاح المخطط.
+يمثل مجموعة من إدخالات أسطورة الرسم البياني.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
@@ -23,17 +23,17 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | إرجاع عدد[`ChartLegendEntry`](../chartlegendentry/) في هذه المجموعة. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | إرجاع[`ChartLegendEntry`](../chartlegendentry/) للفهرس المحدد. |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | إرجاع[`ChartLegendEntry`](../chartlegendentry/) للمؤشر المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | يُرجع كائن العداد. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | يعيد كائن المعداد. |
 
 ## أمثلة
 
-يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
+يوضح كيفية العمل مع إدخال الأسطورة لسلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -54,11 +54,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

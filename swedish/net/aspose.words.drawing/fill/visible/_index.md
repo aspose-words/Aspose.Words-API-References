@@ -3,14 +3,14 @@ title: Fill.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words för .NET
-description: Fill Visible fast egendom. Hämtar eller ställer in värde dvsSann om formateringen som tillämpas på den här instansen är synlig i C#.
+description: Styr synligheten med egenskapen Fyll synlig. Hantera enkelt formatering för att förbättra din design och säkerställa tydlighet i din applikation.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
 
-Hämtar eller ställer in värde dvs`Sann` om formateringen som tillämpas på den här instansen är synlig.
+Hämtar eller ställer in ett värde som är`sann` om formateringen som tillämpats på den här instansen är synlig.
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,15 +18,15 @@ public bool Visible { get; set; }
 
 ## Exempel
 
-Visar för att skapa en mängd olika former.
+Visar hur man skapar en mängd olika former.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns fyra exempel på former som vi kan infoga i våra dokument.
+// Nedan följer fyra exempel på former som vi kan infoga i våra dokument.
 // 1 - Prickad, horisontell, halvtransparent röd linje
-// med en pil till vänster och en romb till höger:
+// med en pil i vänster ände och en diamant i höger ände:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -63,7 +63,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pil med en vänd orientering fylld i med Aspose-logotypen:
+// 4 - Pil med en omvänd orientering fylld med Aspose-logotypen:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -75,8 +75,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // När vi vänder på riktningen på vår pil vänder vi också bilden som pilen innehåller.
-    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen att visa den.
+    // När vi vänder orienteringen på vår pil, vänder vi också bilden som pilen innehåller.
+    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen för att visa den.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

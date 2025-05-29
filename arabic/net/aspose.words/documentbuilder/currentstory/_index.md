@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder CurrentStory ملكية. يحصل على القصة المحددة حاليًا في هذاDocumentBuilder  في C#.
+description: اكتشف خاصية CurrentStory في DocumentBuilder للوصول إلى القصة المحددة وإدارتها بكفاءة، مما يعزز تجربة تحرير المستندات لديك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-يحصل على القصة المحددة حاليًا في هذا[`DocumentBuilder`](../) .
+يحصل على القصة المحددة حاليًا في هذه[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -18,20 +18,20 @@ public Story CurrentStory { get; }
 
 ## أمثلة
 
-يوضح كيفية التعامل مع القصة الحالية لمنشئ المستندات.
+يوضح كيفية العمل مع القصة الحالية لمنشئ المستندات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// القصة هي نوع من العقد التي تحتوي على عقد فقرات فرعية، مثل النص الأساسي.
+// القصة هي نوع من العقد التي تحتوي على عقد فقرة فرعية، مثل النص.
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
 
 builder.CurrentStory.AppendParagraph("Text added to current Story.");
 
-// يمكن أن تحتوي القصة أيضًا على جداول.
+//يمكن أن تحتوي القصة أيضًا على جداول.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1");

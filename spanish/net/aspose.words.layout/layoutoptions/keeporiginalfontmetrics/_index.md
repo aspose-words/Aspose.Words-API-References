@@ -3,14 +3,14 @@ title: LayoutOptions.KeepOriginalFontMetrics
 linktitle: KeepOriginalFontMetrics
 articleTitle: KeepOriginalFontMetrics
 second_title: Aspose.Words para .NET
-description: LayoutOptions KeepOriginalFontMetrics propiedad. Obtiene o establece una indicación de si las métricas de fuente originales deben usarse después de la sustitución de fuentes. El valor predeterminado esverdadero  en C#.
+description: Descubra la propiedad KeepOriginalFontMetrics de LayoutOptions, que controla las métricas de la fuente durante la sustitución para un diseño consistente. El valor predeterminado es "true".
 type: docs
 weight: 60
 url: /es/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 ---
 ## LayoutOptions.KeepOriginalFontMetrics property
 
-Obtiene o establece una indicación de si las métricas de fuente originales deben usarse después de la sustitución de fuentes. El valor predeterminado es`verdadero` .
+Obtiene o establece una indicación de si se deben utilizar las métricas de fuente originales después de la sustitución de la fuente. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool KeepOriginalFontMetrics { get; set; }
@@ -26,20 +26,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

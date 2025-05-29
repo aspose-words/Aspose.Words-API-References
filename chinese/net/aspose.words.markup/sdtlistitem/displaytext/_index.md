@@ -2,15 +2,15 @@
 title: SdtListItem.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
-second_title: 用于 .NET 的 Aspose.Words
-description: SdtListItem DisplayText 财产. 获取要在运行内容中显示的文本以代替Value此列表项的属性内容 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SdtListItem DisplayText 属性如何通过自定义显示文本来增强您的内容，从而提高用户参与度和清晰度。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/sdtlistitem/displaytext/
 ---
 ## SdtListItem.DisplayText property
 
-获取要在运行内容中显示的文本，以代替[`Value`](../value/)此列表项的属性内容。
+获取在运行内容中显示的文本，代替[`Value`](../value/)此列表项的属性内容。
 
 ```csharp
 public string DisplayText { get; }
@@ -18,7 +18,7 @@ public string DisplayText { get; }
 
 ## 评论
 
-不可能是`无效的`并且不能为空字符串。
+不可能`无效的`并且不能为空字符串。
 
 ## 例子
 
@@ -30,14 +30,14 @@ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList,
 doc.FirstSection.Body.AppendChild(tag);
 
 // 下拉列表结构化文档标签是一种允许用户
-// 通过左键单击并在 Microsoft Word 中打开表单，从列表中选择一个选项。
+// 通过左键单击并在 Microsoft Word 中打开表单从列表中选择一个选项。
 // “ListItems”属性包含所有列表项，每个列表项都是一个“SdtListItem”。
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
+// 添加另外 3 个列表项。使用与第一个项不同的构造函数来初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -45,7 +45,7 @@ listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// 下拉列表显示第一项。将不同的列表项分配给“SelectedValue”以显示它。
+// 下拉列表正在显示第一项。请将其他列表项分配给“SelectedValue”以显示它。
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
@@ -63,7 +63,7 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
+// 由于我们的下拉控件默认设置为显示已移除的项目，因此请为其提供一个存在的项目来显示。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");

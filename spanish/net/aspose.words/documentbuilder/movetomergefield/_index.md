@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToMergeField
 linktitle: MoveToMergeField
 articleTitle: MoveToMergeField
 second_title: Aspose.Words para .NET
-description: DocumentBuilder MoveToMergeField método. Mueve el cursor a una posición justo más allá del campo de combinación especificado y elimina el campo de combinación en C#.
+description: Navegue fácilmente por su documento con el método MoveToMergeField. Coloque el cursor al instante más allá de los campos de combinación para una edición fluida.
 type: docs
-weight: 550
+weight: 590
 url: /es/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(*string*) {#movetomergefield}
@@ -18,7 +18,7 @@ public bool MoveToMergeField(string fieldName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldName | String | El nombre que no distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia. |
+| fieldName | String | El nombre del campo de combinación de correspondencia, que no distingue entre mayúsculas y minúsculas. |
 
 ### Valor_devuelto
 
@@ -30,14 +30,14 @@ Tenga en cuenta que este método elimina el campo de combinación del documento 
 
 ## Ejemplos
 
-Muestra cómo llenar MERGEFIELD con datos con un generador de documentos en lugar de una combinación de correspondencia.
+Muestra cómo llenar campos MERGEFIELD con datos con un generador de documentos en lugar de una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insertar algunos MERGEFIELDS, que aceptan datos de columnas del mismo nombre en una fuente de datos durante una combinación de correspondencia,
-// y luego llenarlos manualmente.
+// y luego rellenarlos manualmente.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -57,7 +57,7 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
+Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELDs como datos de combinación durante la combinación de correspondencia.
 
 ```csharp
 public void InsertCheckBox()
@@ -65,7 +65,7 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilice MERGEFIELD con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
+    // Utilice MERGEFIELDs con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
     // que pertenece a una fuente de datos denominada "StudentCourse" y tiene un MERGEFIELD que acepta datos de una columna denominada "CourseName".
     builder.StartTable();
     builder.InsertCell();
@@ -85,12 +85,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de fusionar texto de datos.
+/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de texto de datos combinados.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -114,7 +114,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 
     private int mCheckBoxCount;
@@ -156,8 +156,8 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldName | String | El nombre que no distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia. |
-| isAfter | Boolean | Cuando`verdadero` , mueve el cursor para que esté después del final del campo. Cuando`FALSO` , mueve el cursor para que esté antes del inicio del campo. |
+| fieldName | String | El nombre del campo de combinación de correspondencia, que no distingue entre mayúsculas y minúsculas. |
+| isAfter | Boolean | Cuando`verdadero` , mueve el cursor para que esté después del final del campo. Cuando`FALSO` , mueve el cursor para ubicarse antes del inicio del campo. |
 | isDeleteField | Boolean | Cuando`verdadero`, elimina el campo de combinación. |
 
 ### Valor_devuelto
@@ -181,10 +181,10 @@ builder.MoveToMergeField("MyMergeField1", true, false);
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Si deseamos editar el código o el contenido del campo usando el constructor,
-// su cursor debería estar dentro de un campo.
-// Para colocarlo dentro de un campo, necesitaríamos llamar al método MoveTo del creador de documentos
-// y pasa el nodo de inicio o separador del campo como argumento.
+// Si deseamos editar el código de campo o el contenido del campo utilizando el constructor,
+//su cursor necesitaría estar dentro de un campo.
+// Para colocarlo dentro de un campo, necesitaríamos llamar al método MoveTo del generador de documentos
+// y pasar el nodo de inicio o separador del campo como argumento.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");

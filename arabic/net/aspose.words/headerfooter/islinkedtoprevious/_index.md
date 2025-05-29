@@ -3,7 +3,7 @@ title: HeaderFooter.IsLinkedToPrevious
 linktitle: IsLinkedToPrevious
 articleTitle: IsLinkedToPrevious
 second_title: Aspose.Words لـ .NET
-description: HeaderFooter IsLinkedToPrevious ملكية. صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل في القسم السابق في C#.
+description: اكتشف كيف تعمل خاصية IsLinkedToPrevious على تعزيز رؤوس وتذييلات مستندك، مما يضمن استمرارية سلسة عبر الأقسام لتحسين التنظيم.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -20,7 +20,7 @@ public bool IsLinkedToPrevious { get; set; }
 
 الافتراضي هو`حقيقي`.
 
-لاحظ أنه عندما يكون الرابط الخاص بك عبارة عن رأس أو تذييل، يتم مسح محتوياته.
+لاحظ أنه عند ربط رأس أو تذييل الصفحة، سيتم مسح محتوياته.
 
 ## أمثلة
 
@@ -36,8 +36,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// انتقل إلى القسم الأول وقم بإنشاء رأس وتذييل. بشكل افتراضي،
-// لن يظهر الرأس والتذييل إلا على الصفحات الموجودة في القسم الذي يحتوي عليهما.
+// انتقل إلى القسم الأول وأنشئ رأسًا وتذييلًا. افتراضيًا،
+// سوف يظهر الرأس والتذييل فقط في الصفحات الموجودة في القسم الذي يحتوي عليهما.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -50,29 +50,29 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // للسماح لقسم الارتباط بعرض رؤوس/تذييلات القسم المرتبط.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// سيظل لكل قسم كائنات الرأس/التذييل الخاصة به. عندما نربط الأقسام
-// سيعرض قسم الارتباط رأس/تذييلات القسم المرتبط مع الاحتفاظ به.
+// سيظل لكل قسم كائنات رأس/تذييل خاصة به. عند ربط الأقسام،
+// سيعرض القسم المرتبط رأس/تذييل القسم المرتبط مع الاحتفاظ برأس/تذييل القسم الخاص به.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// اربط رؤوس/تذييلات القسم الثالث برؤوس/تذييلات القسم الثاني.
+// ربط رؤوس/تذييلات القسم الثالث برؤوس/تذييلات القسم الثاني.
 // يرتبط القسم الثاني بالفعل برأس/تذييلات القسم الأول،
 // لذا فإن الارتباط بالقسم الثاني سيؤدي إلى إنشاء سلسلة ارتباط.
-// ستعرض الأقسام الأول والثاني والآن الثالث رؤوس القسم الأول.
+// سيتم عرض عناوين القسم الأول، والثاني، والآن القسم الثالث.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// يمكننا إلغاء ربط رأس/تذييلات القسم السابق عن طريق تمرير "خطأ" عند استدعاء الأسلوب LinkToPrevious.
+// يمكننا إلغاء ربط رأس/تذييل القسم السابق عن طريق تمرير "false" عند استدعاء طريقة LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// يمكننا أيضًا تحديد نوع معين فقط من الرأس/التذييل للربط باستخدام هذه الطريقة.
-// سيكون للقسم الثالث الآن نفس التذييل مثل القسمين الثاني والأول، ولكن ليس الرأس.
+//يمكننا أيضًا تحديد نوع معين فقط من الرأس/التذييل للربط باستخدام هذه الطريقة.
+// الآن سيكون للقسم الثالث نفس التذييل مثل القسمين الثاني والأول، ولكن ليس الرأس.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// لا يمكن لرأس/تذييلات القسم الأول ربط نفسها بأي شيء لأنه لا يوجد قسم سابق.
+// لا يمكن لرأس/تذييل القسم الأول ربط نفسه بأي شيء لأنه لا يوجد قسم سابق.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
-// جميع رؤوس/تذييلات القسم الثاني مرتبطة برؤوس/تذييلات القسم الأول.
+// ترتبط جميع رؤوس/تذييلات القسم الثاني برؤوس/تذييلات القسم الأول.
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 

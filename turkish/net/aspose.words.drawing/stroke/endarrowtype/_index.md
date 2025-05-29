@@ -2,15 +2,15 @@
 title: Stroke.EndArrowType
 linktitle: EndArrowType
 articleTitle: EndArrowType
-second_title: Aspose.Words for .NET
-description: Stroke EndArrowType mülk. Konturun sonu için ok ucunu tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Stroke EndArrowType özelliğinin, vuruşlar için şık ok uçları tanımlayarak tasarımlarınızı nasıl geliştirdiğini keşfedin. Grafiklerinizi bugün yükseltin!
 type: docs
-weight: 60
+weight: 90
 url: /tr/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
 
-Konturun sonu için ok ucunu tanımlar.
+Bir vuruşun sonu için ok ucunu tanımlar.
 
 ```csharp
 public ArrowType EndArrowType { get; set; }
@@ -22,15 +22,15 @@ Varsayılan değer:None.
 
 ## Örnekler
 
-Çeşitli şekiller oluşturmayı gösterir.
+Çeşitli şekiller yaratmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
+// Aşağıda belgelerimize ekleyebileceğimiz şekillerin dört örneği bulunmaktadır.
+// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
+// sol ucunda bir ok ve sağ ucunda bir elmas bulunan:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Yuvarlak uçlu kalın siyah çapraz çizgi:
+// 2 - Uçları yuvarlatılmış kalın siyah çapraz çizgi:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
+// 4 - Aspose logosuyla doldurulmuş, ters yöne bakan ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Şekli görüntülemeden önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

@@ -2,15 +2,15 @@
 title: Document.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
 articleTitle: NormalizeFieldTypes
-second_title: 用于 .NET 的 Aspose.Words
-description: Document NormalizeFieldTypes 方法. 更改字段类型值FieldType的FieldStartFieldSeparatorFieldEnd 在整个文档中以便它们对应于字段代码中包含的字段类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 NormalizeFieldTypes 方法优化您的文档，确保所有字段类型值与字段代码一致，以增强一致性和准确性。
 type: docs
-weight: 630
+weight: 670
 url: /zh/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-更改字段类型值[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/)的[`FieldStart`](../../../aspose.words.fields/fieldstart/),[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/),[`FieldEnd`](../../../aspose.words.fields/fieldend/) 在整个文档中，以便它们对应于字段代码中包含的字段类型。
+更改字段类型值[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/)的[`FieldStart`](../../../aspose.words.fields/fieldstart/)，[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/)，[`FieldEnd`](../../../aspose.words.fields/fieldend/) 在整个文档中，以便它们与字段代码中包含的字段类型相对应。
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -20,11 +20,11 @@ public void NormalizeFieldTypes()
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes/)。
+要更改文档特定部分的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes/)。
 
 ## 例子
 
-演示如何使字段类型与其字段代码保持最新。
+展示如何使字段类型与字段代码保持同步。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
 fieldText.Text = "PAGE";
 
-// 更改字段代码已将此字段更改为不同类型之一，
+// 更改字段代码已将此字段更改为其他类型，
 // 但字段的类型属性仍然显示旧类型。
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);
@@ -52,7 +52,7 @@ doc.NormalizeFieldTypes();
 
 Assert.AreEqual(FieldType.FieldPage, field.Type);
 Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType); 
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ```
 

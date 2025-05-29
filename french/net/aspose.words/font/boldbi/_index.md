@@ -3,7 +3,7 @@ title: Font.BoldBi
 linktitle: BoldBi
 articleTitle: BoldBi
 second_title: Aspose.Words pour .NET
-description: Font BoldBi propriété. Vrai si le texte de droite à gauche est formaté en gras en C#.
+description: Découvrez la propriété BoldBi, qui garantit que le texte de droite à gauche est affiché en gras, améliorant ainsi la lisibilité et l'expérience utilisateur pour diverses langues.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/font/boldbi/
@@ -38,13 +38,13 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Nous pouvons utiliser le drapeau Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
-// avec le générateur de documents, c'est de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur défini sur true,
+// Nous pouvons utiliser l'indicateur Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
+// avec le générateur de documents, l'écriture s'effectue de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur à « vrai »,
 // il sera formaté en utilisant l'ensemble de paramètres de police de droite à gauche.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Définissez l'indicateur sur false, puis ajoutez du texte de gauche à droite.
+// Définissez l'indicateur sur faux, puis ajoutez du texte de gauche à droite.
 // Le générateur de documents les formatera en utilisant l'ensemble de paramètres de police de gauche à droite.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");

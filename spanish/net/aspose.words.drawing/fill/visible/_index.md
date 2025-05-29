@@ -3,14 +3,14 @@ title: Fill.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words para .NET
-description: Fill Visible propiedad. Obtiene o establece el valor que esverdadero si el formato aplicado a esta instancia es visible en C#.
+description: Controle la visibilidad con la propiedad Rellenar visible. Gestione fácilmente el formato para mejorar su diseño y garantizar la claridad de su aplicación.
 type: docs
-weight: 200
+weight: 210
 url: /es/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
 
-Obtiene o establece el valor que es`verdadero` si el formato aplicado a esta instancia es visible.
+Obtiene o establece el valor que es`verdadero` Si el formato aplicado a esta instancia es visible.
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,13 +18,13 @@ public bool Visible { get; set; }
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -75,8 +75,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

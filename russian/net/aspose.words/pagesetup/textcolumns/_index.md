@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 linktitle: TextColumns
 articleTitle: TextColumns
 second_title: Aspose.Words для .NET
-description: PageSetup TextColumns свойство. Возвращает коллекцию представляющую набор текстовых столбцов на С#.
+description: Откройте для себя свойство PageSetup TextColumns, получите доступ к универсальной коллекции текстовых столбцов, чтобы без труда улучшить макет и форматирование документа.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/pagesetup/textcolumns/
@@ -18,7 +18,7 @@ public TextColumnCollection TextColumns { get; }
 
 ## Примеры
 
-Показывает, как создать в разделе несколько равномерно расположенных столбцов.
+Показывает, как создать несколько равномерно распределенных столбцов в разделе.
 
 ```csharp
 Document doc = new Document();

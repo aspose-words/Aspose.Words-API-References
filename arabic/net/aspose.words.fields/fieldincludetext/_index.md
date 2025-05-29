@@ -3,9 +3,9 @@ title: FieldIncludeText Class
 linktitle: FieldIncludeText
 articleTitle: FieldIncludeText
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldIncludeText فصل. ينفذ حقل INCLUDETEXT في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldIncludeText لدمج المستندات بسلاسة. حسّن سير عملك من خلال تطبيق حقل INCLUDETEXT بكفاءة.
 type: docs
-weight: 2050
+weight: 2460
 url: /ar/net/aspose.words.fields/fieldincludetext/
 ---
 ## FieldIncludeText class
@@ -28,36 +28,36 @@ public class FieldIncludeText : Field
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
-| [Encoding](../../aspose.words.fields/fieldincludetext/encoding/) { get; set; } | الحصول على أو تعيين الترميز المطبق على البيانات داخل الملف المشار إليه. |
+| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname/) { get; set; } | يحصل على اسم الإشارة المرجعية في المستند المراد تضمينها أو يعينه. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
+| [Encoding](../../aspose.words.fields/fieldincludetext/encoding/) { get; set; } | يحصل على أو يعين الترميز المطبق على البيانات داخل الملف المرجعي. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [LockFields](../../aspose.words.fields/fieldincludetext/lockfields/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن. |
-| [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | الحصول على أو تعيين نوع MIME للملف المشار إليه. |
-| [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
-| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | الحصول على أو تعيين موقع المستند باستخدام IRI. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [LockFields](../../aspose.words.fields/fieldincludetext/lockfields/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم منع تحديث الحقول في المستند المضمن. |
+| [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | يحصل على نوع MIME للملف المرجعي أو يعينه. |
+| [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | يحصل على تعيينات مساحة الأسماء لاستعلامات XPath أو يعينها. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
+| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | يحصل على موقع المستند أو يعينه باستخدام IRI. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | الحصول على أو تعيين اسم محول النص لتنسيق الملف المضمن. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
-| [XPath](../../aspose.words.fields/fieldincludetext/xpath/) { get; set; } | الحصول على XPath أو تعيينه للجزء المطلوب من ملف XML. |
-| [XslTransformation](../../aspose.words.fields/fieldincludetext/xsltransformation/) { get; set; } | الحصول على أو تعيين موقع تحويل XSL لتنسيق بيانات XML. |
+| [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | يحصل على اسم محول النص لتنسيق الملف المضمن أو يعينه. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
+| [XPath](../../aspose.words.fields/fieldincludetext/xpath/) { get; set; } | يحصل على XPath أو يعينه للجزء المطلوب من ملف XML. |
+| [XslTransformation](../../aspose.words.fields/fieldincludetext/xsltransformation/) { get; set; } | يحصل على موقع تحويل XSL لتنسيق بيانات XML أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
@@ -74,13 +74,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // فيما يلي طريقتان لاستخدام حقول INCLUDETEXT لعرض محتويات ملف XML في نظام الملفات المحلي.
-    // 1 - إجراء تحويل XSL على مستند XML:
+    // 1 - تنفيذ تحويل XSL على مستند XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - استخدم XPath لأخذ عناصر محددة من مستند XML:
+    // 2 - استخدام XPath لأخذ عناصر محددة من مستند XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -90,7 +90,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT مع خصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

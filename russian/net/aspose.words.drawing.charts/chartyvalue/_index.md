@@ -3,9 +3,9 @@ title: ChartYValue Class
 linktitle: ChartYValue
 articleTitle: ChartYValue
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartYValue сорт. Представляет значение Y для серии диаграмм на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Charts.ChartYValue для точного представления значений Y в ваших сериях диаграмм, улучшая визуализацию данных.
 type: docs
-weight: 870
+weight: 1190
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/
 ---
 ## ChartYValue class
@@ -29,17 +29,17 @@ public class ChartYValue
 
 | Имя | Описание |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Создает`ChartYValue` экземплярDateTime тип. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Создает`ChartYValue` экземплярDouble тип. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Создает`ChartYValue` экземплярTime тип. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Получает флаг, указывающий, равен ли указанный объект текущему объекту значения Y. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Создает`ChartYValue` примерDateTime тип. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Создает`ChartYValue` примерDouble тип. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Создает`ChartYValue` примерTime тип. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Возвращает флаг, указывающий, равен ли указанный объект текущему значению Y object. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Получает хэш-код для текущего объекта значения Y. |
 
 ## Примечания
 
 Этот класс содержит ряд статических методов для создания значения Y определенного типа. The [`ValueType`](./valuetype/) Свойство позволяет определить тип существующего значения Y.
 
-Все ненулевые значения Y серии диаграмм должны иметь одно и то же значение.[`ChartYValueType`](../chartyvaluetype/) тип.
+Все ненулевые значения Y в серии диаграмм должны быть одинаковыми[`ChartYValueType`](../chartyvaluetype/) тип.
 
 ### Смотрите также
 

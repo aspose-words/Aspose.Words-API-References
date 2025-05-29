@@ -3,9 +3,9 @@ title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words pour .NET
-description: ShapeBase VerticalAlignment propriété. Spécifie comment la forme est positionnée verticalement en C#.
+description: Découvrez la propriété ShapeBase VerticalAlignment pour optimiser le positionnement vertical de votre forme pour une précision de conception et un attrait visuel améliorés.
 type: docs
-weight: 560
+weight: 600
 url: /fr/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -20,17 +20,17 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 La valeur par défaut estNone.
 
-N'a d'effet que sur les formes flottantes de niveau supérieur.
+N'a d'effet que pour les formes flottantes de niveau supérieur.
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

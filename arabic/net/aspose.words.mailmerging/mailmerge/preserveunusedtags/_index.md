@@ -3,14 +3,14 @@ title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
 second_title: Aspose.Words لـ .NET
-description: MailMerge PreserveUnusedTags ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بعلامات الشارب غير المستخدمة في C#.
+description: اكتشف خاصية MailMerge PreserveUnusedTags لإدارة علامات mustache غير المستخدمة بشكل فعال، مما يعزز عملية أتمتة المستندات الخاصة بك.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بعلامات "الشارب" غير المستخدمة.
+يحصل على قيمة تشير إلى ما إذا كان يجب الحفاظ على علامات "الشارب" غير المستخدمة أو تعيينها.
 
 ```csharp
 public bool PreserveUnusedTags { get; set; }
@@ -22,7 +22,7 @@ public bool PreserveUnusedTags { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحفاظ على مظهر علامات دمج البريد البديلة التي لا يتم استخدامها أثناء عملية دمج البريد.
+يوضح كيفية الحفاظ على مظهر علامات دمج البريد البديلة التي لا يتم استخدامها أثناء دمج البريد.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,19 +30,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // بشكل افتراضي، يقوم دمج البريد بوضع البيانات من كل صف من الجدول في MERGEFIELDs، والتي تسمي الأعمدة في هذا الجدول.
-    // لا تحتوي وثيقتنا على مثل هذه الحقول، ولكنها تحتوي على علامات نص عادي محاطة بأقواس متعرجة.
-    // إذا قمنا بتعيين علامة "PreserveUnusedTags" على "true"، فيمكننا التعامل مع هذه العلامات على أنها MERGEFIELDs
+     // بشكل افتراضي، يقوم دمج البريد بوضع البيانات من كل صف من الجدول في MERGEFIELDs، والتي تقوم بتسمية الأعمدة في هذا الجدول.
+    // لا تحتوي مستندنا على مثل هذه الحقول، ولكنها تحتوي على علامات نصية عادية محاطة بأقواس متعرجة.
+    // إذا قمنا بتعيين علامة "PreserveUnusedTags" إلى "true"، فيمكننا التعامل مع هذه العلامات كـ MERGEFIELDs
     // للسماح لدمج البريد الخاص بنا بإدراج البيانات من مصدر البيانات في تلك العلامات.
-    // إذا قمنا بتعيين علامة "PreserveUnusedTags" على "خطأ"،
-    // سيؤدي دمج البريد إلى تحويل هذه العلامات إلى علامات MERGEFIELD وتركها شاغرة.
+    // إذا قمنا بتعيين علامة "PreserveUnusedTags" إلى "false"،
+    // سيؤدي دمج البريد إلى تحويل هذه العلامات إلى MERGEFIELDs وتركها غير مملوءة.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // تحتوي وثيقتنا على علامة لعمود يسمى "Column2"، وهو غير موجود في الجدول.
-    // إذا قمنا بتعيين علامة "PreserveUnusedTags" على "خطأ"، then the mail merge will convert this tag into a MERGEFIELD.
+    // تحتوي مستندنا على علامة لعمود يسمى "Column2"، وهو غير موجود في الجدول.
+    // إذا قمنا بتعيين علامة "PreserveUnusedTags" إلى "false"، then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -52,7 +52,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// أنشئ مستندًا وأضف علامتي نص عادي قد تعملان كـ MERGEFIELDs أثناء دمج البريد.
+/// قم بإنشاء مستند وأضف علامتي نص عاديتين يمكنهما العمل كحقول MERGEFIELD أثناء دمج البريد.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {
@@ -62,14 +62,14 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // سيتم تسجيل علاماتنا كوجهات لبيانات دمج البريد فقط إذا قمنا بتعيين هذا على "صحيح".
+    // سيتم تسجيل علاماتنا كوجهات لبيانات دمج البريد فقط إذا قمنا بتعيين هذا على true.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;
 }
 
 /// <summary>
-/// أنشئ جدول بيانات بسيطًا بعمود واحد.
+/// قم بإنشاء جدول بيانات بسيط بعمود واحد.
 /// </summary>
 private static DataTable CreateSourceTablePreserveUnusedTags()
 {

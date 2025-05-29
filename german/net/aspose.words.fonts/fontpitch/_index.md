@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontPitch opsomming. Stellt den Schriftabstand dar in C#.
+description: Entdecken Sie die Aspose.Words.Fonts.FontPitch-Aufzählung, ein leistungsstarkes Tool zum Verwalten von Schriftarten und Verbessern der Dokumentformatierung in Ihren Anwendungen.
 type: docs
-weight: 2960
+weight: 3390
 url: /de/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Stellt den Schriftabstand dar.
+Stellt die Schriftgröße dar.
 
 ```csharp
 public enum FontPitch
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt an, dass keine Informationen über die Tonhöhe einer Schriftart verfügbar sind. |
-| Fixed | `1` | Gibt an, dass es sich um eine Schriftart mit fester Breite handelt. |
-| Variable | `2` | Gibt an, dass es sich um eine Schriftart mit proportionaler Breite handelt. |
+| Default | `0` | Gibt an, dass keine Informationen zur Tonhöhe einer Schriftart verfügbar sind. |
+| Fixed | `1` | Gibt an, dass dies eine Schriftart mit fester Breite ist. |
+| Variable | `2` | Gibt an, dass dies eine Schriftart mit proportionaler Breite ist. |
 
 ## Bemerkungen
 
-Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe oder einen proportionalen Abstand hat oder auf einer Standardeinstellung basiert.
+Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe hat, proportional verteilt ist oder auf einer Standardeinstellung basiert.
 
 ## Beispiele
 
-Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf die Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

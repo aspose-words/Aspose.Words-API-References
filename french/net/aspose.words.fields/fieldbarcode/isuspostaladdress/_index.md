@@ -3,14 +3,14 @@ title: FieldBarcode.IsUSPostalAddress
 linktitle: IsUSPostalAddress
 articleTitle: IsUSPostalAddress
 second_title: Aspose.Words pour .NET
-description: FieldBarcode IsUSPostalAddress propriété. Obtient ou définit siPostalAddress est une adresse postale aux ÉtatsUnis en C#.
+description: Découvrez la propriété FieldBarcode IsUSPostalAddress. Gérez facilement la validation des adresses postales américaines pour une gestion précise des données et une efficacité accrue.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
 ## FieldBarcode.IsUSPostalAddress property
 
-Obtient ou définit si[`PostalAddress`](../postaladdress/) est une adresse postale aux États-Unis.
+Obtient ou définit si[`PostalAddress`](../postaladdress/) est une adresse postale américaine.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -18,7 +18,7 @@ public bool IsUSPostalAddress { get; set; }
 
 ## Exemples
 
-Montre comment utiliser le champ BARCODE pour afficher les codes postaux américains sous la forme d'un code-barres.
+Montre comment utiliser le champ CODE-BARRES pour afficher les codes postaux américains sous la forme d'un code-barres.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln();
 
 // Vous trouverez ci-dessous deux manières d'utiliser les champs BARCODE pour afficher des valeurs personnalisées sous forme de codes-barres.
-// 1 - Stocke la valeur que le code-barres affichera dans la propriété PostalAddress :
+// 1 - Stockez la valeur que le code-barres affichera dans la propriété PostalAddress :
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
 // Cette valeur doit être un code postal valide.
@@ -47,7 +47,7 @@ field.IsBookmark = true;
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
 // Le signet auquel le champ BARCODE fait référence dans sa propriété PostalAddress
-// ne doit rien contenir d'autre que le code postal valide.
+// ne doit contenir rien d'autre que le code postal valide.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

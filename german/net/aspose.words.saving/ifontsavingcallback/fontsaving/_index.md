@@ -3,14 +3,14 @@ title: IFontSavingCallback.FontSaving
 linktitle: FontSaving
 articleTitle: FontSaving
 second_title: Aspose.Words für .NET
-description: IFontSavingCallback FontSaving methode. Wird aufgerufen wenn Aspose.Words im Begriff ist eine Schriftartressource zu speichern in C#.
+description: Entdecken Sie die Methode iFontSavingCallback in Aspose.Words, die zur Optimierung der Schriftressourceneinsparung für eine verbesserte Dokumentleistung entwickelt wurde.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-Wird aufgerufen, wenn Aspose.Words im Begriff ist, eine Schriftartressource zu speichern.
+Wird aufgerufen, wenn Aspose.Words dabei ist, eine Schriftartressource zu speichern.
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
@@ -18,7 +18,7 @@ public void FontSaving(FontSavingArgs args)
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,7 +26,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

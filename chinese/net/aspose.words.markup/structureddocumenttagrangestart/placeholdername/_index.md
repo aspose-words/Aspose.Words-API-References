@@ -2,25 +2,29 @@
 title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart PlaceholderName 财产. 获取或设置名称BuildingBlock包含占位符文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何管理 StructuredDocumentTagRangeStart 的 PlaceholderName 属性，从而增强文档的构建块效率。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-获取或设置名称[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)包含占位符文本。
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)用这个名字[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须存在于[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
+获取或设置[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)包含占位符文本。
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| InvalidOperationException | 如果 BuildingBlock 具有此名称，则抛出[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)不存在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/)。 |
+
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

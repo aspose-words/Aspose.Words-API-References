@@ -3,14 +3,14 @@ title: FieldAsk.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words для .NET
-description: FieldAsk PromptOnceOnMailMerge свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты на С#.
+description: Оптимизируйте свои почтовые рассылки с помощью FieldAsk PromptOnceOnMailMerge. Эффективно контролируйте ответы пользователей, повышая точность данных и оптимизируя процесс.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
 ## FieldAsk.PromptOnceOnMailMerge property
 
-Получает или задает, следует ли получать ответ пользователя один раз за операцию слияния почты.
+Возвращает или задает, должен ли ответ пользователя быть получен один раз за операцию слияния почты.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -18,7 +18,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ## Примеры
 
-Показывает, как создать поле ASK и настроить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 public void FieldAsk()
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Размещаем поле, в котором будет размещен ответ на наше поле ASK.
+    // Размещаем поле, в которое будет помещен ответ на наше поле ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью специального ответчика на приглашение,
+    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью пользовательского ответчика на подсказки,
     // что произойдет во время слияния почты.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Добавляет текст к ответу по умолчанию в поле ASK во время слияния почты.
+/// Добавляет текст к ответу по умолчанию поля ASK во время слияния почты.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

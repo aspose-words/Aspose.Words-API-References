@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.RenderingMode
 linktitle: RenderingMode
 articleTitle: RenderingMode
 second_title: Aspose.Words لـ .NET
-description: MetafileRenderingOptions RenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض صور ملف التعريف في C#.
+description: اكتشف خاصية MetafileRenderingOptions RenderingMode للتحكم في كيفية عرض صور الملف التعريفي، مما يعزز جودة الرسومات والأداء.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-الحصول على قيمة أو تعيينها لتحديد كيفية عرض صور ملف التعريف.
+يحصل على قيمة تحدد كيفية عرض صور الملف التعريفي أو يعينها.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -18,11 +18,11 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ## ملاحظات
 
-تعتمد القيمة الافتراضية على تنسيق الحفظ. بالنسبة للصور هوBitmap . بالنسبة للتنسيقات الأخرى فهو كذلكVectorWithFallback.
+تعتمد القيمة الافتراضية على تنسيق الحفظ. بالنسبة للصور، تكونBitmap . بالنسبة للتنسيقات الأخرى فهوVectorWithFallback.
 
 ## أمثلة
 
-تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
+يُظهر العرض إضافة بديل لعرض الخريطة النقطية وتغيير نوع التحذيرات حول سجلات الملفات التعريفية غير المدعومة.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -31,14 +31,14 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // قم بتعيين خاصية "EmulateRasterOperations" على "خطأ" للرجوع إلى الصورة النقطية عندما
-    // يواجه ملف تعريف، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
+    // اضبط خاصية "EmulateRasterOperations" على "false" للعودة إلى الخريطة النقطية عندما
+    // يواجه ملفًا تعريفيًا، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // قم بتعيين خاصية "RenderingMode" على "VectorWithFallback" لمحاولة عرض كل ملف تعريف باستخدام الرسومات المتجهة.
+    // قم بتعيين خاصية "RenderingMode" إلى "VectorWithFallback" لمحاولة عرض كل ملف تعريفي باستخدام الرسومات المتجهة.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
     // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF وتطبيق التكوين
     // في كائن MetafileRenderingOptions الخاص بنا لعملية الحفظ.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -55,7 +55,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// يطبع ويجمع التحذيرات المتعلقة بفقدان التنسيق التي تحدث عند حفظ المستند.
+/// يطبع ويجمع تحذيرات فقدان التنسيق التي تحدث عند حفظ المستند.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

@@ -3,7 +3,7 @@ title: DocumentProperty.IsLinkToContent
 linktitle: IsLinkToContent
 articleTitle: IsLinkToContent
 second_title: Aspose.Words para .NET
-description: DocumentProperty IsLinkToContent propiedad. Muestra si esta propiedad está vinculada al contenido o no en C#.
+description: Descubra si la propiedad IsLinkToContent de DocumentProperty se conecta al contenido. Optimice su flujo de trabajo con soluciones de gestión documental integradas.
 type: docs
 weight: 10
 url: /es/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -28,7 +28,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Vincular una nueva propiedad personalizada a un marcador. El valor de esta propiedad.
+Vincular una nueva propiedad personalizada a un marcador. El valor de esta propiedad
 // será el contenido del marcador al que hace referencia en el miembro "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

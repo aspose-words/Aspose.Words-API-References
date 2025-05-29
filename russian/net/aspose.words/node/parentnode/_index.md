@@ -3,7 +3,7 @@ title: Node.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
 second_title: Aspose.Words для .NET
-description: Node ParentNode свойство. Получает непосредственного родителя этого узла на С#.
+description: Откройте для себя свойство Node ParentNode, чтобы легко получить доступ к непосредственному родительскому элементу любого узла, повышая эффективность веб-разработки и ясность кода.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/node/parentnode/
@@ -18,7 +18,7 @@ public CompositeNode ParentNode { get; }
 
 ## Примечания
 
-Если узел только что был создан и еще не добавлен в дерево, , или если он был удален из дерева, родительским элементом является`нулевой`.
+Если узел только что создан и еще не добавлен в дерево, или если он был удален из дерева, родительский узел`нулевой`.
 
 ## Примеры
 
@@ -32,7 +32,7 @@ Paragraph para = doc.FirstSection.Body.FirstParagraph;
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// Абзац является родительским узлом узла выполнения. Мы можем проследить эту родословную
+// Абзац является родительским узлом узла run. Мы можем проследить эту родословную
 // вплоть до узла документа, который является корнем дерева узлов документа.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
@@ -40,19 +40,19 @@ Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
 Assert.AreEqual(doc, doc.FirstSection.ParentNode);
 ```
 
-Показывает, как создать узел и установить для него документ-владелец.
+Показывает, как создать узел и задать документ, владеющий им.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Мы еще не добавили этот абзац как дочерний ни к одному составному узлу.
+// Мы еще не добавили этот абзац в качестве дочернего элемента ни к одному составному узлу.
 Assert.IsNull(para.ParentNode);
 
 // Если узел является подходящим типом дочернего узла другого составного узла,
-// мы можем прикрепить его как дочерний, только если оба узла имеют один и тот же документ-владелец.
-// Документ-владелец — это документ, который мы передали конструктору узла.
+// мы можем присоединить его как дочерний элемент, только если оба узла имеют один и тот же документ-владелец.
+// Документ владельца — это документ, который мы передали конструктору узла.
 // Мы не прикрепили этот абзац к документу, поэтому документ не содержит его текста.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
@@ -60,7 +60,7 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 // Поскольку документ владеет этим абзацем, мы можем применить один из его стилей к содержимому абзаца.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// Добавляем этот узел в документ, а затем проверяем его содержимое.
+// Добавьте этот узел в документ, а затем проверьте его содержимое.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

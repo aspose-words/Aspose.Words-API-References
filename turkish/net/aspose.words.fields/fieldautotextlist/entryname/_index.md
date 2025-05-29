@@ -2,8 +2,8 @@
 title: FieldAutoTextList.EntryName
 linktitle: EntryName
 articleTitle: EntryName
-second_title: Aspose.Words for .NET
-description: FieldAutoTextList EntryName mülk. Otomatik Metin girişinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldAutoTextList EntryName özelliğiyle Otomatik Metin girişlerini nasıl yöneteceğinizi keşfedin; belge düzenlemeyi kolaylaştırmak için adları kolayca ayarlayın veya alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -25,7 +25,7 @@ public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Bir sözlük belgesi oluşturun ve onu otomatik metin girişleriyle doldurun.
+    // Bir sözlük belgesi oluşturun ve otomatik metin girişleriyle doldurun.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,9 +33,9 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bir AUTOTEXTLIST alanı oluşturun ve alanın Microsoft Word'de görüntüleyeceği metni ayarlayın.
-    // Kullanıcının bir Otomatik Metin yapı taşı seçmesi için bu alanı sağ tıklatmasını isteyecek şekilde metni ayarlayın,
-    // alanın kimin içeriğini göstereceği.
+    // Bir AUTOTEXTLIST alanı oluşturun ve alanın Microsoft Word'de görüntüleneceği metni ayarlayın.
+    // Kullanıcının bu alana sağ tıklayıp bir Otomatik Metin yapı taşı seçmesini sağlayacak metni ayarlayın,
+    // alanın içeriğini görüntüleyecek olan.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Otomatik Metin tipi bir yapı taşı oluşturun ve bunu bir sözlük belgesine ekleyin.
+/// Otomatik Metin türünde bir yapı taşı oluşturun ve bunu bir sözlük belgesine ekleyin.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

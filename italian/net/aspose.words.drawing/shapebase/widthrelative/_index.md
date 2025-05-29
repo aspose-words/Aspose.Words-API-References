@@ -3,9 +3,9 @@ title: ShapeBase.WidthRelative
 linktitle: WidthRelative
 articleTitle: WidthRelative
 second_title: Aspose.Words per .NET
-description: ShapeBase WidthRelative proprietà. Ottiene o imposta il valore che rappresenta la percentuale della larghezza relativa della forma in C#.
+description: Scopri la proprietà ShapeBase WidthRelative per regolare facilmente la larghezza delle forme in percentuale, migliorando così la flessibilità e la precisione della progettazione.
 type: docs
-weight: 580
+weight: 620
 url: /it/net/aspose.words.drawing/shapebase/widthrelative/
 ---
 ## ShapeBase.WidthRelative property
@@ -18,7 +18,7 @@ public float WidthRelative { get; set; }
 
 ## Esempi
 
-Mostra come impostare la dimensione e la posizione relativa.
+Mostra come impostare la dimensione e la posizione relative.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ shape.WrapType = WrapType.None;
 // Controllo e impostazione della dimensione orizzontale relativa.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Imposta la rilegatura della dimensione orizzontale su Margine.
+    // Impostazione della rilegatura della dimensione orizzontale su Margine.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
     // Imposta la larghezza al 50% della larghezza del margine.
     shape.WidthRelative = 50;
@@ -41,7 +41,7 @@ if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 // Controllo e impostazione della dimensione verticale relativa.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Impostazione della rilegatura della dimensione verticale su Margine.
+    // Impostazione del limite di dimensione verticale su Margine.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
     // Imposta l'altezza al 30% dell'altezza del margine.
     shape.HeightRelative = 30;
@@ -50,16 +50,16 @@ if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 // Controllo e impostazione della posizione verticale relativa.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // imposta la posizione vincolante a TopMargin.
+    // impostazione del binding della posizione su TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Impostazione della parte superiore relativa al 30% della posizione TopMargin.
+    // Impostazione del valore Top relativo al 30% della posizione TopMargin.
     shape.TopRelative = 30;
 }
 
 // Controllo e impostazione della posizione orizzontale relativa.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // Impostazione del legame di posizione su RightMargin.
+    // Impostazione del binding della posizione su RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
     // Il valore relativo della posizione può essere negativo.
     shape.LeftRelative = -260;

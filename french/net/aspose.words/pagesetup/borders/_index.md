@@ -3,7 +3,7 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words pour .NET
-description: PageSetup Borders propriété. Obtient une collection des bordures de page en C#.
+description: Découvrez la propriété Bordures de PageSetup pour accéder et personnaliser facilement les bordures de votre page pour un aspect soigné et professionnel dans vos documents.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/pagesetup/borders/

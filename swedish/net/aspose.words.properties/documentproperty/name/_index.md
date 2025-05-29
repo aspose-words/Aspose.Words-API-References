@@ -3,7 +3,7 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: DocumentProperty Name fast egendom. Returnerar namnet på egenskapen i C#.
+description: Upptäck funktionen DocumentProperty Name som enkelt hämtar egenskapsnamn, vilket förbättrar din dokumenthantering och effektivitet i arbetsflödet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.properties/documentproperty/name/
@@ -27,7 +27,7 @@ Visar hur man arbetar med inbyggda dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Dokument"-objektet innehåller en del av dess metadata i sina medlemmar.
+// Objektet "Dokument" innehåller en del av dess metadata i sina medlemmar.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Dokumentet lagrar även metadata i sina inbyggda egenskaper.

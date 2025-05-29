@@ -3,9 +3,9 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.HeaderFooterType enum. Identifica il tipo di intestazione o piè di pagina trovato in un file Word in C#.
+description: Scopri l'enum Aspose.Words.HeaderFooterType per identificare facilmente i tipi di intestazione e piè di pagina nei documenti Word. Migliora l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 3120
+weight: 3550
 url: /it/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -24,7 +24,7 @@ public enum HeaderFooterType
 | HeaderPrimary | `1` | Intestazione primaria, utilizzata anche per le pagine dispari. |
 | FooterEven | `2` | Piè di pagina per le pagine pari. |
 | FooterPrimary | `3` | Piè di pagina principale, utilizzato anche per le pagine dispari. |
-| HeaderFirst | `4` | Intestazione della prima pagina della sezione. |
+| HeaderFirst | `4` | Intestazione per la prima pagina della sezione. |
 | FooterFirst | `5` | Piè di pagina per la prima pagina della sezione. |
 
 ## Esempi
@@ -35,7 +35,7 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
+// Specificare che si vogliono intestazioni e piè di pagina diversi per la prima pagina, le pagine pari e quelle dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

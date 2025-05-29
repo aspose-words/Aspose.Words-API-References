@@ -3,16 +3,16 @@ title: ImageData Class
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ImageData classe. Définit une image pour une forme en C#.
+description: Découvrez la classe Aspose.Words.Drawing.ImageData : votre solution pour définir et gérer des images dans des formes. Améliorez la conception de vos documents sans effort !
 type: docs
-weight: 1060
+weight: 1390
 url: /fr/net/aspose.words.drawing/imagedata/
 ---
 ## ImageData class
 
 Définit une image pour une forme.
 
-Pour en savoir plus, visitez le[Travailler avec des images](https://docs.aspose.com/words/net/working-with-images/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des images](https://docs.aspose.com/words/net/working-with-images/) article de documentation.
 
 ```csharp
 public class ImageData
@@ -23,13 +23,13 @@ public class ImageData
 | Nom | La description |
 | --- | --- |
 | [BiLevel](../../aspose.words.drawing/imagedata/bilevel/) { get; set; } | Détermine si une image sera affichée en noir et blanc. |
-| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | Obtient la collection de bordures de l'image. Les bordures n'ont d'effet que sur les images en ligne. |
-| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | Obtient ou définit la luminosité de l'image. La valeur de cette propriété doit être un nombre compris entre 0,0 (le plus sombre) et 1,0 (le plus lumineux). |
+| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | Récupère la collection de bordures de l'image. Les bordures n'ont d'effet que sur les images intégrées. |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | Obtient ou définit la luminosité de l'image. La valeur de cette propriété doit être un nombre compris entre 0,0 (le plus faible) et 1,0 (le plus lumineux). |
 | [ChromaKey](../../aspose.words.drawing/imagedata/chromakey/) { get; set; } | Définit la valeur de couleur de l'image qui sera traitée comme transparente. |
-| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | Obtient ou définit le contraste de l'image spécifiée. La valeur pour cette propriété doit être un nombre compris entre 0,0 (le moindre contraste) et 1,0 (le plus grand contraste). |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | Récupère ou définit le contraste de l'image spécifiée. La valeur de cette propriété doit être un nombre compris entre 0,0 (contraste le plus faible) et 1,0 (contraste le plus élevé). |
 | [CropBottom](../../aspose.words.drawing/imagedata/cropbottom/) { get; set; } | Définit la fraction de suppression de l'image du côté inférieur. |
-| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | Définit la fraction de suppression de l'image du côté gauche. |
-| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Définit la fraction de suppression de l'image du côté droit. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | Définit la fraction de suppression d'image du côté gauche. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Définit la fraction de suppression d'image du côté droit. |
 | [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Définit la fraction de suppression de l'image du côté supérieur. |
 | [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Détermine si une image s'affichera en mode niveaux de gris. |
 | [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Retours`vrai` si la forme contient des octets d'image ou lie une image. |
@@ -45,34 +45,35 @@ public class ImageData
 
 | Nom | La description |
 | --- | --- |
+| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() | Ajuste les données d'image au cadre de forme afin que le rapport hauteur/largeur des données d'image corresponde au rapport hauteur/largeur du cadre de forme. |
 | [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Enregistre l'image dans le flux spécifié. |
 | [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Enregistre l'image dans un fichier. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Définit l'image affichée par la forme. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Définit l'image affichée par la forme. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Définit l'image affichée par la forme. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Définit l'image que la forme affiche. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Définit l'image que la forme affiche. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Définit l'image que la forme affiche. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Renvoie les octets d'image pour n'importe quelle image, que l'image soit stockée ou liée. |
-| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Obtient l'image stockée dans la forme en tant queImage objet. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Obtient l'image stockée dans la forme sous forme deImage objet. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Crée et renvoie un flux contenant les octets de l'image. |
 
 ## Remarques
 
-Utilisez le[`ImageData`](../shape/imagedata/) propriété pour accéder et modifier l'image à l'intérieur d'une forme. Vous ne créez pas d'instances de la`ImageData` classe directement.
+Utilisez le[`ImageData`](../shape/imagedata/)propriété pour accéder et modifier l'image à l'intérieur d'une forme. Vous ne créez pas d'instances de la`ImageData` classe directement.
 
 Une image peut être stockée dans une forme, liée à un fichier externe ou les deux (liée et stockée dans le document).
 
-Que l'image soit stockée à l'intérieur de la forme ou liée, vous pouvez toujours accéder à l'image actual à l'aide du[`ToByteArray`](./tobytearray/) ,[`ToStream`](./tostream/) ,[`ToImage`](./toimage/) ou[`Save`](./save/) méthodes. Si l'image est stockée à l'intérieur de la forme, vous pouvez également y accéder directement à l'aide du[`ImageBytes`](./imagebytes/) propriété.
+Que l'image soit stockée à l'intérieur de la forme ou liée, vous pouvez toujours accéder à l'image actual à l'aide de la[`ToByteArray`](./tobytearray/) ,[`ToStream`](./tostream/) ,[`ToImage`](./toimage/) ou[`Save`](./save/) méthodes. Si l'image est stockée à l'intérieur de la forme, vous pouvez également y accéder directement à l'aide de la[`ImageBytes`](./imagebytes/) propriété.
 
-Pour stocker une image dans une forme, utilisez le[`SetImage`](./setimage/) méthode. Pour lier une image à une forme, définissez le[`SourceFullName`](./sourcefullname/) propriété.
+Pour stocker une image dans une forme, utilisez le[`SetImage`](./setimage/) méthode. Pour lier une image à une forme, définissez la[`SourceFullName`](./sourcefullname/) propriété.
 
 ## Exemples
 
-Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local en tant que fichiers individuels.
+Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local sous forme de fichiers individuels.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Récupère la collection de formes du document,
-// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier dans le système de fichiers local.
+// Récupérer la collection de formes du document,
+// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier sur le système de fichiers local.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -101,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // Vous trouverez ci-dessous deux manières d'appliquer une image à une forme afin qu'elle puisse l'afficher.
-// 1 - Définit la forme pour contenir l'image.
+// 1 - Définissez la forme pour contenir l'image.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -123,9 +124,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// La création de liens vers des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
-// Cependant, le document ne peut afficher correctement l'image que lorsque
-// le fichier image est présent à l'emplacement vers lequel pointe la propriété "SourceFullName" de la forme.
+// Lier des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
+// Cependant, le document ne peut afficher correctement l'image que pendant
+// le fichier image est présent à l'emplacement vers lequel pointe la propriété « SourceFullName » de la forme.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

@@ -3,7 +3,7 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words pour .NET
-description: PageSetup HeaderDistance propriété. Renvoie ou définit la distance en points entre lentête et le haut de la page en C#.
+description: Ajustez la propriété PageSetup HeaderDistance pour personnaliser l'espacement des en-têtes en points, améliorant ainsi la mise en page de votre document pour une meilleure lisibilité et présentation.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/pagesetup/headerdistance/
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();

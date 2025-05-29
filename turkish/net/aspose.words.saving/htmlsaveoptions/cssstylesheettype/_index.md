@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.CssStyleSheetType
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions CssStyleSheetType mülk. CSS Basamaklı Stil Sayfası stillerinin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerInline HTML/MHTML ve içinExternal EPUB. için C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions'daki CssStyleSheetType özelliğinin sorunsuz entegrasyon için CSS aktarımını HTML, MHTML ve EPUB formatlarına nasıl optimize ettiğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 ---
 ## HtmlSaveOptions.CssStyleSheetType property
 
-CSS (Basamaklı Stil Sayfası) stillerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını belirtir. Varsayılan değer:Inline HTML/MHTML ve içinExternal EPUB. için
+CSS (Basamaklı Stil Sayfası) stillerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını belirtir. Varsayılan değerInline HTML/MHTML ve içinExternal EPUB için.
 
 ```csharp
 public CssStyleSheetType CssStyleSheetType { get; set; }
@@ -18,26 +18,26 @@ public CssStyleSheetType CssStyleSheetType { get; set; }
 
 ## Notlar
 
-CSS stil sayfasını harici bir dosyaya kaydetmek yalnızca HTML'ye kaydederken desteklenir. Kapsayıcı formatlardan birine (EPUB veya MHTML) dışa aktarırken ve belirtirkenExternal, CSS dosyası çıktı paketine olarak kapsüllenecektir.
+CSS stil sayfasını harici bir dosyaya kaydetmek yalnızca HTML'e kaydederken desteklenir. Kapsayıcı biçimlerinden birine (EPUB veya MHTML) dışa aktarırken ve belirtirkenExternal, CSS dosyası çıktı paketine encapsulated eklenecektir.
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -49,7 +49,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

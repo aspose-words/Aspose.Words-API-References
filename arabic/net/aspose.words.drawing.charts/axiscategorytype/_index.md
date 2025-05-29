@@ -3,9 +3,9 @@ title: AxisCategoryType Enum
 linktitle: AxisCategoryType
 articleTitle: AxisCategoryType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType تعداد. يحدد نوع محور الفئة في C#.
+description: اكتشف Aspose.Words.Drawing.Charts.AxisCategoryType enum، الذي يحدد أنواع محاور الفئة لتحسين تصور البيانات في مشاريعك.
 type: docs
-weight: 530
+weight: 770
 url: /ar/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
@@ -20,9 +20,9 @@ public enum AxisCategoryType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Automatic | `0` | يحدد أن نوع محور الفئة يتم تحديده تلقائيًا بناءً على البيانات. |
-| Category | `1` | يحدد محور مجموعة عشوائية من الفئات. |
-| Time | `2` | يحدد محور الفئة الزمنية. |
+| Automatic | `0` | يحدد أن نوع محور الفئة يتم تحديده تلقائيًا استنادًا إلى البيانات. |
+| Category | `1` | يحدد محورًا لمجموعة عشوائية من الفئات. |
+| Time | `2` | يحدد محور فئة الوقت. |
 
 ## أمثلة
 
@@ -35,16 +35,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// قم بإدراج سلسلة مخططات تحتوي على فئات للمحور X والقيم الرقمية المعنية للمحور Y.
+// قم بإدراج سلسلة مخططات تحتوي على فئات لمحور X والقيم الرقمية المقابلة لمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// تحتوي محاور المخطط على خيارات متعددة يمكنها تغيير مظهرها،
-// مثل اتجاهها، وعلامات التجزئة للوحدة الرئيسية/الثانوية، وعلامات التجزئة.
+// تحتوي محاور الرسم البياني على خيارات مختلفة يمكنها تغيير مظهرها،
+// مثل اتجاهها، وعلامات الوحدة الرئيسية/الثانوية، وعلامات التجزئة.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -53,10 +53,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -66,7 +68,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // لا تحتوي المخططات العمودية على محور Z.
 Assert.Null(chart.AxisZ);

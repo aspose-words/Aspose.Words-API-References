@@ -3,7 +3,7 @@ title: List.ListId
 linktitle: ListId
 articleTitle: ListId
 second_title: Aspose.Words para .NET
-description: List ListId propiedad. Obtiene el identificador único de la lista en C#.
+description: Descubre la propiedad única ListId para acceder y gestionar fácilmente tus listas. Optimiza tu flujo de trabajo con este identificador esencial.
 type: docs
 weight: 60
 url: /es/net/aspose.words.lists/list/listid/
@@ -18,11 +18,11 @@ public int ListId { get; }
 
 ## Observaciones
 
-Normalmente no es necesario utilizar esta propiedad. Pero si lo usas, normalmente lo haces junto con el[`GetListByListId`](../../listcollection/getlistbylistid/) Método para encontrar una lista por su identificador.
+Normalmente no es necesario usar esta propiedad. Pero si la usa, normalmente lo hace junto con la propiedad so .[`GetListByListId`](../../listcollection/getlistbylistid/) método para encontrar una lista por su identificador.
 
 ## Ejemplos
 
-Muestra cómo verificar las propiedades del documento del propietario de las listas.
+Muestra cómo verificar las propiedades del documento propietario de las listas.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

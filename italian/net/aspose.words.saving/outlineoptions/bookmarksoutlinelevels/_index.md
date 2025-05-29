@@ -3,14 +3,14 @@ title: OutlineOptions.BookmarksOutlineLevels
 linktitle: BookmarksOutlineLevels
 articleTitle: BookmarksOutlineLevels
 second_title: Aspose.Words per .NET
-description: OutlineOptions BookmarksOutlineLevels proprietà. Permette di specificare il livello di struttura dei singoli segnalibri in C#.
+description: Scopri la proprietà BookmarksOutlineLevels in OutlineOptions per personalizzare la gerarchia dei tuoi segnalibri, migliorando la navigazione e l'esperienza utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 ---
 ## OutlineOptions.BookmarksOutlineLevels property
 
-Permette di specificare il livello di struttura dei singoli segnalibri.
+Consente di specificare il livello di struttura dei singoli segnalibri.
 
 ```csharp
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
@@ -18,7 +18,7 @@ public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 
 ## Osservazioni
 
-Se il livello dei segnalibri non è specificato in questa raccolta, allora[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) viene utilizzato il valore.
+Se il livello del segnalibro non è specificato in questa raccolta, allora[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) viene utilizzato il valore.
 
 ## Esempi
 
@@ -28,7 +28,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisce un segnalibro con un altro segnalibro annidato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -44,9 +44,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
+// Salvando in formato .pdf, i segnalibri sono accessibili tramite un menu a discesa e possono essere utilizzati come punti di riferimento dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci figlio di livello superiore quando compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -71,7 +71,7 @@ outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Lo svuotamento di questa raccolta conserverà i segnalibri e li metterà tutti sullo stesso livello di struttura.
+// Svuotando questa raccolta i segnalibri verranno conservati e tutti verranno inseriti nello stesso livello di struttura.
 outlineLevels.Clear();
 ```
 

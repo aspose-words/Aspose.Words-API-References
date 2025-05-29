@@ -2,17 +2,17 @@
 title: ConditionalStyleCollection Class
 linktitle: ConditionalStyleCollection
 articleTitle: ConditionalStyleCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ConditionalStyleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederConditionalStyle nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: ConditionalStyle nesnelerini etkili bir şekilde yönetmek, belge biçimlendirmesini ve özelleştirmeyi geliştirmek için Aspose.Words.ConditionalStyleCollection sınıfını keşfedin.
 type: docs
-weight: 320
+weight: 520
 url: /tr/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Aşağıdakilerin bir koleksiyonunu temsil eder:[`ConditionalStyle`](../conditionalstyle/) nesneler.
+Bir koleksiyonu temsil eder[`ConditionalStyle`](../conditionalstyle/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Tablolarla Çalışma](https://docs.aspose.com/words/net/working-with-tables/) belgeleme makalesi.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -26,14 +26,14 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Sağ alttaki hücre stilini alır. |
 | [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Koleksiyondaki koşullu stillerin sayısını alır. |
 | [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Eşit sütun bantlama stilini alır. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Çift sıra şeritleme stilini alır. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Çift satır bantlama stilini alır. |
 | [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | İlk sütun stilini alır. |
 | [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | İlk satır stilini alır. |
-| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Bir öğeyi alır[`ConditionalStyle`](../conditionalstyle/) koşullu stil türüne göre nesne. (2 indexers) |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Birini alır[`ConditionalStyle`](../conditionalstyle/) koşullu stil türüne göre nesne. (2 indexers) |
 | [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Son sütun stilini alır. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Son satırın stilini alır. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Son satır stilini alır. |
 | [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Tek sütun bantlama stilini alır. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Tek satır şeritleme stilini alır. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Tek satır bantlama stilini alır. |
 | [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Sol üst hücre stilini alır. |
 | [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Sağ üst hücre stilini alır. |
 
@@ -42,11 +42,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Tablo stilinin tüm koşullu stillerini temizler. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Koleksiyondaki tüm koşullu stiller üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür. |
 
 ## Notlar
 
-Bu koleksiyona öğe eklemek veya koleksiyondan öğe çıkarmak mümkün değildir. Kalıcı öğe kümesi içerir: her değer için için bir öğe[`ConditionalStyleType`](../conditionalstyletype/) numaralandırma türü.
+Bu koleksiyona öğe eklemek veya kaldırmak mümkün değildir. Kalıcı öğe kümesi içerir: her değer için bir öğe [`ConditionalStyleType`](../conditionalstyletype/) numaralandırma türü.
 
 ## Örnekler
 
@@ -72,17 +72,17 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
 // Koşullu stiller, tablonun yalnızca bazı hücrelerini etkileyen biçimlendirme değişiklikleridir
-// hücrelerin son satırda olması gibi bir yüklemi temel alır.
-// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu verilmiştir.
+// hücrelerin son satırda olması gibi bir öngörüye dayalı.
+// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu bulunmaktadır.
 // 1 - Stil türüne göre:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
-// 2 - Dizine göre:
+// 2 - Dizin olarak:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - Özellik olarak:
+// 3 - Bir özellik olarak:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 // Koşullu stillere dolgu ve metin biçimlendirmesi uygulayın.
@@ -92,7 +92,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Olası tüm stil koşullarını listeleyin.
+// Tüm olası stil koşullarını listele.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -102,14 +102,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Tüm koşullu stilleri içeren özel stili tabloya uygulayın.
+// Tüm koşullu stilleri içeren özel stili tabloya uygula.
 table.Style = tableStyle;
 
 // Stilimiz varsayılan olarak bazı koşullu stilleri uygular.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// "StyleOptions" özelliği aracılığıyla diğer tüm stilleri kendimiz etkinleştirmemiz gerekecek.
+// Diğer tüm stilleri "StyleOptions" özelliği aracılığıyla kendimiz etkinleştirmemiz gerekecek.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

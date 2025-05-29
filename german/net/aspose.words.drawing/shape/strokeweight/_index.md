@@ -3,14 +3,14 @@ title: Shape.StrokeWeight
 linktitle: StrokeWeight
 articleTitle: StrokeWeight
 second_title: Aspose.Words für .NET
-description: Shape StrokeWeight eigendom. Definiert die Pinselstärke die den Pfad einer Form in Punkten streicht in C#.
+description: Passen Sie die StrokeWeight-Eigenschaft an, um die Pinselstärke für Formen anzupassen und Ihre Designs durch präzise Linienkontrolle und professionelle Qualität zu verbessern.
 type: docs
-weight: 210
+weight: 220
 url: /de/net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
 
-Definiert die Pinselstärke, die den Pfad einer Form in Punkten streicht.
+Definiert die Pinseldicke in Punkten, mit der der Pfad einer Form nachgezeichnet wird.
 
 ```csharp
 public double StrokeWeight { get; set; }
@@ -18,7 +18,7 @@ public double StrokeWeight { get; set; }
 
 ## Bemerkungen
 
-Dies ist eine Verknüpfung zum[`Weight`](../../stroke/weight/) Eigentum.
+Dies ist eine Abkürzung zum[`Weight`](../../stroke/weight/) Eigentum.
 
 Der Standardwert ist 0,75.
 
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

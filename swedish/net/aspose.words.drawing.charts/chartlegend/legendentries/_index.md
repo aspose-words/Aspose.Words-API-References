@@ -3,9 +3,9 @@ title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
 second_title: Aspose.Words för .NET
-description: ChartLegend LegendEntries fast egendom. Returnerar en samling förklaringsposter för alla serier och trendlinjer i det överordnade diagrammet i C#.
+description: Utforska egenskapen ChartLegend LegendEntries för att få tillgång till en omfattande samling av förklaringsposter för alla serier och trendlinjer i ditt diagram.
 type: docs
-weight: 10
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

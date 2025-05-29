@@ -2,15 +2,15 @@
 title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
-second_title: Aspose.Words for .NET
-description: FieldPrint PrinterInstructions mülk. Yazıcıya özel kontrol kodu karakterlerini veya PostScript talimatlarını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Optimize edilmiş baskı çözümleri için FieldPrint PrinterInstructions ile yazıcıya özgü kontrol kodlarını ve PostScript talimatlarını nasıl yöneteceğinizi keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Yazıcıya özel kontrol kodu karakterlerini veya PostScript talimatlarını alır veya ayarlar.
+Yazıcıya özgü kontrol kodu karakterlerini veya PostScript talimatlarını alır veya ayarlar.
 
 ```csharp
 public string PrinterInstructions { get; set; }

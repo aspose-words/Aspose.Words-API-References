@@ -2,8 +2,8 @@
 title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat Height 财产. 获取指定框架的高度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat Height 属性，轻松访问和利用指定框架的高度，以增强设计灵活性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/frameformat/height/
@@ -18,7 +18,7 @@ public double Height { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

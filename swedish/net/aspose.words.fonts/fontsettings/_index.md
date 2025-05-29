@@ -3,9 +3,9 @@ title: FontSettings Class
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontSettings klass. Anger teckensnittsinställningar för ett dokument i C#.
+description: Upptäck klassen Aspose.Words.Fonts.FontSettings för att enkelt anpassa dokumentteckensnittsinställningar för förbättrad läsbarhet och professionell presentation.
 type: docs
-weight: 2970
+weight: 3400
 url: /sv/net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
@@ -28,33 +28,33 @@ public class FontSettings
 
 | namn | Beskrivning |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Statiska standardteckensnittsinställningar. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Inställningar relaterade till reservmekanism för teckensnitt. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Inställningar relaterade till teckensnittsersättningsmekanism. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Statiska standardinställningar för teckensnitt. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Inställningar relaterade till alternativ mekanism för teckensnitt. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Inställningar relaterade till mekanism för teckensnittsersättning. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Får en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueType-teckensnitt. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Återställer teckensnittskällorna till systemets standard. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | Sparar typsnittssökningscachen i strömmen. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | Ställer in mappen där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg till[`SetFontsFolders`](./setfontsfolders/) för att endast ställa in en teckensnittskatalog. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | Ställer in mapparna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt och laddar dessutom tidigare sparad typsnittssökningscache. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Hämtar en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueType-teckensnitt. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Återställer teckensnittskällorna till systemets standardinställningar. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | Sparar cachen för teckensnittssökning i strömmen. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | Anger mappen där Aspose.Words letar efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg till[`SetFontsFolders`](./setfontsfolders/) för att endast ställa in en typsnittskatalog. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | Anger mapparna där Aspose.Words letar efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | Anger källorna där Aspose.Words letar efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | Anger källorna där Aspose.Words söker efter TrueType-teckensnitt och dessutom laddar tidigare sparad cache för teckensnittssökning. |
 
 ## Anmärkningar
 
-Aspose.Words använder teckensnittsinställningar för att lösa teckensnitten i dokumentet. Teckensnitt löses mest när man bygger dokumentlayout eller renderar till fasta sidformat. Men när du laddar vissa format kan Aspose.Words också behöva lösa teckensnitten. Till exempel, när laddar HTML-dokument Aspose.Words kan lösa teckensnitten för att utföra fallback. Så det rekommenderas att du ställer in teckensnittsinställningarna i [`LoadOptions`](../../aspose.words.loading/loadoptions/) när du laddar dokumentet. Eller åtminstone innan du bygger layouten eller renderar dokumentet till formatet med fasta sidor.
+Aspose.Words använder teckensnittsinställningar för att tolka teckensnitten i dokumentet. Teckensnitt tolkas oftast när man bygger dokumentlayout eller renderar till fasta sidformat. Men när man laddar vissa format kan Aspose.Words också behöva tolka teckensnitten. Till exempel, när laddar HTML-dokument kan Aspose.Words tolka teckensnitten för att utföra reservfunktioner. Så det rekommenderas att du ställer in teckensnittsinställningarna i .[`LoadOptions`](../../aspose.words.loading/loadoptions/) när dokumentet laddas. Eller åtminstone innan layouten skapas eller dokumentet renderas till formatet med fasta sidor.
 
-Som standard använder alla dokument enstaka statiska teckensnittsinställningar. Den kunde nås av [`DefaultInstance`](./defaultinstance/) fast egendom.
+Som standard använder alla dokument en enda statisk typsnittsinstans. Den kan nås via [`DefaultInstance`](./defaultinstance/) egendom.
 
-Att ändra teckensnittsinställningar är säkert när som helst från vilken tråd som helst. Men det rekommenderas att du inte ändrar teckensnittsinställningarna medan bearbetar vissa dokument som använder dessa inställningar. Detta kan leda till att samma typsnitt kommer att lösas olika i olika delar av dokumentet.
+Det är säkert att ändra teckensnittsinställningar när som helst från vilken tråd som helst. Men det rekommenderas att du inte ändrar teckensnittsinställningarna medan bearbetar vissa dokument som använder dessa inställningar. Detta kan leda till att samma teckensnitt kommer att upplösas olika i olika delar av dokumentet.
 
 ## Exempel
 
-Visar hur du lägger till en teckensnittskälla till våra befintliga teckensnittskällor.
+Visar hur man lägger till en teckensnittskälla till våra befintliga teckensnittskällor.
 
 ```csharp
 Document doc = new Document();
@@ -73,15 +73,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Standardfontkällan saknar två av de teckensnitt som vi använder i vårt dokument.
-// När vi sparar det här dokumentet kommer Aspose.Words att tillämpa reservteckensnitt på all text som är formaterad med otillgängliga teckensnitt.
+// Standardfontkällan saknar två av de fonter som vi använder i vårt dokument.
+// När vi sparar det här dokumentet kommer Aspose.Words att använda reservteckensnitt på all text som är formaterad med oåtkomliga teckensnitt.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Skapa en teckensnittskälla från en mapp som innehåller teckensnitt.
+// Skapa en typsnittskälla från en mapp som innehåller typsnitt.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Använd en ny uppsättning teckensnittskällor som innehåller de ursprungliga teckensnittskällorna, såväl som våra anpassade teckensnitt.
+// Använd en ny array med teckensnittskällor som innehåller de ursprungliga teckensnittskällorna, såväl som våra anpassade teckensnitt.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
@@ -98,7 +98,7 @@ doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
-Visar hur man ställer in en teckensnittskällkatalog.
+Visar hur man ställer in en källkatalog för teckensnitt.
 
 ```csharp
 Document doc = new Document();
@@ -109,22 +109,22 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Våra teckensnittskällor innehåller inte det teckensnitt som vi har använt för text i detta dokument.
+// Våra typsnittskällor innehåller inte det typsnitt som vi har använt för texten i det här dokumentet.
 // Om vi använder dessa teckensnittsinställningar när vi renderar detta dokument,
-// Aspose.Words kommer att tillämpa ett reservteckensnitt på text som har ett teckensnitt som Aspose.Words inte kan hitta.
+// Aspose.Words kommer att använda ett reservteckensnitt för text som har ett teckensnitt som Aspose.Words inte kan hitta.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Standardteckensnittskällorna saknar de två typsnitten som vi använder i det här dokumentet.
+// Standardfontkällorna saknar de två fonter som vi använder i det här dokumentet.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Använd metoden "SetFontsFolder" för att ställa in en katalog som kommer att fungera som en ny teckensnittskälla.
-// Skicka "false" som det "rekursiva" argumentet för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogen
-// som vi skickar i det första argumentet, men inte inkluderar några teckensnitt i någon av den katalogens undermappar.
-// Skicka "true" som det "rekursiva" argumentet för att inkludera alla teckensnittsfiler i katalogen som vi skickar
+// Använd metoden "SetFontsFolder" för att ange en katalog som ska fungera som en ny teckensnittskälla.
+// Skicka "false" som argumentet "rekursivt" för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogen
+// som vi skickar med i det första argumentet, men inte inkluderar några teckensnitt i någon av undermapparna i den katalogen.
+// Skicka "true" som argumentet "rekursivt" för att inkludera alla teckensnittsfiler i den katalog vi skickar
 // i det första argumentet, såväl som alla teckensnitt i dess underkataloger.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
@@ -134,7 +134,7 @@ Assert.AreEqual(1, newFontSources.Length);
 Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Teckensnittet "Amethysta" finns i en undermapp till teckensnittskatalogen.
+// Typsnittet "Amethysta" finns i en undermapp i typsnittskatalogen.
 if (recursive)
 {
     Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
-Visar hur du ställer in flera teckensnittskataloger.
+Visar hur man ställer in flera källkataloger för teckensnitt.
 
 ```csharp
 Document doc = new Document();
@@ -163,22 +163,22 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Våra teckensnittskällor innehåller inte det teckensnitt som vi har använt för text i detta dokument.
+// Våra typsnittskällor innehåller inte det typsnitt som vi har använt för texten i det här dokumentet.
 // Om vi använder dessa teckensnittsinställningar när vi renderar detta dokument,
-// Aspose.Words kommer att tillämpa ett reservteckensnitt på text som har ett teckensnitt som Aspose.Words inte kan hitta.
+// Aspose.Words kommer att använda ett reservteckensnitt för text som har ett teckensnitt som Aspose.Words inte kan hitta.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Standardteckensnittskällorna saknar de två typsnitten som vi använder i det här dokumentet.
+// Standardfontkällorna saknar de två fonter som vi använder i det här dokumentet.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Använd metoden "SetFontsFolders" för att skapa en teckensnittskälla från varje teckensnittskatalog som vi skickar som det första argumentet.
-// Skicka "false" som det "rekursiva" argumentet för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogerna
-// att vi skickar i det första argumentet, men inte inkluderar några typsnitt från någon av katalogernas undermappar.
-// Ange "true" som det "rekursiva" argumentet för att inkludera alla teckensnittsfiler i katalogerna som vi skickar
+// Använd metoden "SetFontsFolders" för att skapa en teckensnittskälla från varje teckensnittskatalog som vi skickar som första argument.
+// Skicka "false" som argumentet "rekursivt" för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogerna
+// som vi skickar med i det första argumentet, men inte inkluderar några teckensnitt från någon av katalogernas undermappar.
+// Skicka "true" som argumentet "rekursivt" för att inkludera alla teckensnittsfiler i de kataloger vi skickar
 // i det första argumentet, såväl som alla teckensnitt i deras underkataloger.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
@@ -190,7 +190,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Själva mappen "Junction" innehåller inga teckensnittsfiler, men har undermappar som gör det.
+// Själva mappen "Junction" innehåller inga typsnittsfiler, men har undermappar som gör det.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

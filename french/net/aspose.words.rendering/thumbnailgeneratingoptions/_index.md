@@ -3,9 +3,9 @@ title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de la génération dune vignette pour un document en C#.
+description: Découvrez la classe Aspose.Words.Rendering.ThumbnailGeneratingOptions pour améliorer la génération de vignettes de vos documents avec des fonctionnalités personnalisables et une qualité améliorée.
 type: docs
-weight: 4600
+weight: 5330
 url: /fr/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -26,7 +26,7 @@ public class ThumbnailGeneratingOptions
 
 | Nom | La description |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Spécifie s'il faut générer une vignette à partir de la première page du document ou de la première image. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Spécifie s'il faut générer la miniature à partir de la première page du document ou de la première image. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Taille de la vignette générée en pixels. La valeur par défaut est 600x900. |
 
 ## Remarques
@@ -49,7 +49,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

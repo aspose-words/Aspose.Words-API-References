@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: BaseWebExtensionCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
+description: Upptäck egenskapen BaseWebExtensionCollection Count för att enkelt hämta det totala antalet element och förbättra effektiviteten i din webbutveckling.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/count/

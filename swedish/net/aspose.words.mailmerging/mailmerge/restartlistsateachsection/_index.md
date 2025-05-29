@@ -3,14 +3,14 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words för .NET
-description: MailMerge RestartListsAtEachSection fast egendom. Hämtar eller ställer in ett värde som anger om listor startas om vid varje sektion efter körning av en epostsammanfogning i C#.
+description: Upptäck egenskapen RestartListsAtEachSection för MailMerge – kontrolllistor återställs i varje avsnitt för sömlösa dokumentkopplingar. Förbättra din dokumentprecision idag!
 type: docs
 weight: 110
 url: /sv/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-Hämtar eller ställer in ett värde som anger om listor startas om vid varje sektion efter körning av en e-postsammanfogning.
+Hämtar eller anger ett värde som anger om listor startas om i varje avsnitt efter att en dokumentkoppling har utförts.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -18,11 +18,11 @@ public bool RestartListsAtEachSection { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`Sann` .
+Standardvärdet är`sann` .
 
 ## Exempel
 
-Visar hur man kontrollerar om listnumrering ska startas om eller inte vid varje avsnitt när kopplingen utförs.
+Visar hur man styr om listnumreringen startas om i varje avsnitt när dokumentkoppling utförs.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

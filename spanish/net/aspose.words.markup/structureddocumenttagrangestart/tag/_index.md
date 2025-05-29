@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart Tag propiedad. Especifica una etiqueta asociada con el nodo de etiqueta del documento estructurado actual. No se puedenulo  en C#.
+description: Descubra la propiedad StructuredDocumentTagRangeStart para un etiquetado de documentos mejorado. Asocie etiquetas fácilmente con nodos para optimizar su flujo de trabajo.
 type: docs
 weight: 150
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## Observaciones
 
-Una etiqueta es una cadena arbitraria que las aplicaciones pueden asociar con la etiqueta document estructurada para identificarla sin proporcionar un nombre descriptivo visible.
+Una etiqueta es una cadena arbitraria que las aplicaciones pueden asociar con una etiqueta de documento estructurado para identificarla sin proporcionar un nombre descriptivo visible.
 
 ## Ejemplos
 
-Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

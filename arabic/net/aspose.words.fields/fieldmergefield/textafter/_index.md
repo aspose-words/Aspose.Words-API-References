@@ -3,14 +3,14 @@ title: FieldMergeField.TextAfter
 linktitle: TextAfter
 articleTitle: TextAfter
 second_title: Aspose.Words لـ .NET
-description: FieldMergeField TextAfter ملكية. الحصول على النص الذي سيتم إدراجه بعد الحقل أو تعيينه إذا لم يكن الحقل فارغًا في C#.
+description: اكتشف خاصية FieldMergeField TextAfter لتخصيص مخرجات الحقل بسهولة باستخدام نص ديناميكي، مما يعزز وضوح المستند وتفاعله.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldmergefield/textafter/
 ---
 ## FieldMergeField.TextAfter property
 
-الحصول على النص الذي سيتم إدراجه بعد الحقل أو تعيينه إذا لم يكن الحقل فارغًا.
+يحصل على النص الذي سيتم إدراجه بعد الحقل أو يعينه إذا لم يكن الحقل فارغًا.
 
 ```csharp
 public string TextAfter { get; set; }
@@ -18,13 +18,13 @@ public string TextAfter { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
+يوضح كيفية استخدام حقول MERGEFIELD لإجراء دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج المراسلات.
+// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج البريد.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -32,17 +32,18 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// قم بإدراج MERGEFIELD مع تعيين خاصية FieldName على اسم عمود في مصدر البيانات.
+// إدراج MERGEFIELD مع تعيين خاصية FieldName إلى اسم عمود في مصدر البيانات.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
+//يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
 // أدخل MERGEFIELD آخر لعمود مختلف في مصدر البيانات.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);

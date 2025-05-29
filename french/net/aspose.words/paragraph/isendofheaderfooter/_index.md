@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
 articleTitle: IsEndOfHeaderFooter
 second_title: Aspose.Words pour .NET
-description: Paragraph IsEndOfHeaderFooter propriété. Vrai si ce paragraphe est le dernier paragraphe duHeaderFooter histoire du texte principal dunSection  faux sinon en C#.
+description: Découvrez la propriété IsEndOfHeaderFooter pour les paragraphes. Déterminez facilement si un paragraphe est le dernier d'un en-tête/pied de page, améliorant ainsi la structure du document.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/paragraph/isendofheaderfooter/
@@ -24,7 +24,7 @@ Montre comment créer un en-tête et un pied de page.
 Document doc = new Document();
 
 // Créez un en-tête et ajoutez-y un paragraphe. Le texte de ce paragraphe
-// apparaîtra en haut de chaque page de cette section, au-dessus du corps du texte principal.
+// apparaîtra en haut de chaque page de cette section, au-dessus du texte principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -34,7 +34,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Créez un pied de page et ajoutez-y un paragraphe. Le texte de ce paragraphe
-// apparaîtra au bas de chaque page de cette section, sous le corps du texte principal.
+// apparaîtra au bas de chaque page de cette section, sous le texte principal.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

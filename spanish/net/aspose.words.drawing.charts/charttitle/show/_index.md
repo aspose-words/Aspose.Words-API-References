@@ -3,14 +3,14 @@ title: ChartTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words para .NET
-description: ChartTitle Show propiedad. Determina si el título se mostrará para este gráfico. El valor predeterminado esverdadero  en C#.
+description: Mejore sus gráficos con títulos personalizables. Controle la visibilidad fácilmente (valor predeterminado: "true"). ¡Mejore la presentación de sus datos hoy mismo!
 type: docs
-weight: 20
+weight: 40
 url: /es/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-Determina si el título se mostrará para este gráfico. El valor predeterminado es`verdadero` .
+Determina si se mostrará el título para este gráfico. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool Show { get; set; }
@@ -24,18 +24,20 @@ Muestra cómo insertar un gráfico y establecer un título.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una forma de gráfico con un generador de documentos y obtén su gráfico.
+// Inserte una forma de gráfico con un generador de documentos y obtenga su gráfico.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
 // Utilice la propiedad "Título" para darle un título a nuestro gráfico, que aparece en la parte superior central del área del gráfico.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
- // Establece la propiedad "Mostrar" en "verdadero" para que el título sea visible.
+ // Establezca la propiedad "Mostrar" en "verdadero" para que el título sea visible.
 title.Show = true;
 
-// Establece la propiedad "Superposición" en "verdadero" Da más espacio a otros elementos del gráfico permitiéndoles superponerse al título
+// Establezca la propiedad "Superposición" en "verdadero". Otorgue más espacio a otros elementos del gráfico permitiéndoles superponerse al título.
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

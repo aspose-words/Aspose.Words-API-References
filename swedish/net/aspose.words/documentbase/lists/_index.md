@@ -3,14 +3,14 @@ title: DocumentBase.Lists
 linktitle: Lists
 articleTitle: Lists
 second_title: Aspose.Words för .NET
-description: DocumentBase Lists fast egendom. Ger tillgång till listformateringen som används i dokumentet i C#.
+description: Upptäck DocumentBase-listor för effektiv fastighetshantering. Få tillgång till anpassningsbar listformatering för att förbättra dokumentets presentation och tydlighet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/documentbase/lists/
 ---
 ## DocumentBase.Lists property
 
-Ger tillgång till listformateringen som används i dokumentet.
+Ger åtkomst till listformateringen som används i dokumentet.
 
 ```csharp
 public ListCollection Lists { get; }
@@ -32,18 +32,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
-// för att starta en fristående underlista vid det aktuella listobjektet.
-// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// för att börja en fristående underlista vid det aktuella listobjektet.
+// Listmallen i Microsoft Word som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
  // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
@@ -52,8 +52,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
-// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda andra symboler, såsom "■" och "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -62,7 +62,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera flaggan "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

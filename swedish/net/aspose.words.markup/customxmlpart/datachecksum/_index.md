@@ -3,14 +3,14 @@ title: CustomXmlPart.DataChecksum
 linktitle: DataChecksum
 articleTitle: DataChecksum
 second_title: Aspose.Words för .NET
-description: CustomXmlPart DataChecksum fast egendom. Anger en cyklisk redundanskontroll CRC checksumma förData innehåll i C#.
+description: Upptäck egenskapen CustomXmlPart DataChecksum, som säkerställer dataintegritet med en pålitlig CRC-kontrollsumma för ditt XML-innehåll. Förbättra dina datas tillförlitlighet!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Anger en cyklisk redundanskontroll (CRC) checksumma för[`Data`](../data/) innehåll.
+Anger en cyklisk redundanskontroll (CRC) för[`Data`](../data/) innehåll.
 
 ```csharp
 public long DataChecksum { get; }
@@ -18,7 +18,7 @@ public long DataChecksum { get; }
 
 ## Exempel
 
-Visar hur kontrollsumman beräknas under en körning.
+Visar hur kontrollsumman beräknas i en körning.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// Vi ändrade XmlPart av taggen, och kontrollsumman uppdaterades vid körning.
+// Vi ändrade XmlPart i taggen och kontrollsumman uppdaterades vid körning.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

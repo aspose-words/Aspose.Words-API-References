@@ -3,14 +3,14 @@ title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Replacing.IReplacingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under en sök och ersättoperation i C#.
+description: Förbättra din dokumenthantering med Aspose.Words IReplacingCallback-gränssnitt. Skapa anpassade sök- och ersättningsmetoder för skräddarsydda resultat.
 type: docs
-weight: 4630
+weight: 5360
 url: /sv/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under en sök- och ersätt-operation.
+Implementera det här gränssnittet om du vill att din egen anpassade metod ska anropas under en sök- och ersättningsoperation.
 
 ```csharp
 public interface IReplacingCallback
@@ -24,6 +24,49 @@ public interface IReplacingCallback
 
 ## Exempel
 
+Visar hur man spårar i vilken ordning en textersättningsoperation passerar noder.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // Att använda ett annat sidhuvud/sidfot för första sidan påverkar sökordningen.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// Under en sök-och-ersätt-operation registreras innehållet i varje nod som har text som operationen 'hittar',
+/// i det tillstånd den är i innan utbytet sker.
+/// Detta visar i vilken ordning textersättningsoperationen passerar noder.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
+
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
 ```csharp
@@ -35,10 +78,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,8 +95,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -75,64 +118,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Visar hur man spårar i vilken ordning en textersättningsoperation passerar noder.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // Att använda en annan sidhuvud/sidfot för den första sidan kommer att påverka sökordningen.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// Under en sök-och-ersätt-operation, registrerar innehållet i varje nod som har text som operationen "hittar",
-        /// i det tillstånd den är i innan bytet sker.
-        /// Detta kommer att visa i vilken ordning textersättningsoperationen korsar noder.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
-```
-
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -147,11 +140,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

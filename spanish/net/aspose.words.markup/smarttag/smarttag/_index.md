@@ -3,7 +3,7 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words para .NET
-description: SmartTag constructor. Inicializa una nueva instancia delSmartTag clase en C#.
+description: Crea etiquetas inteligentes dinámicas fácilmente con nuestro constructor. Optimiza tus proyectos con funciones personalizables e integración perfecta para un rendimiento óptimo.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/smarttag/smarttag/
@@ -22,9 +22,9 @@ public SmartTag(DocumentBase doc)
 
 ## Observaciones
 
-Cuando crea un nuevo nodo, necesita especificar un documento al que pertenece el nodo. Un nodo no puede existir sin un documento porque depende de las estructuras de todo el documento , como listas y estilos. Aunque un nodo siempre pertenece a un documento, un nodo puede o no ser parte del árbol del documento.
+Al crear un nodo, debe especificar el documento al que pertenece. Un nodo no puede existir sin un documento, ya que depende de las estructuras del documento, como listas y estilos. Aunque un nodo siempre pertenece a un documento, puede o no formar parte del árbol del documento.
 
-Cuando se crea un nodo, pertenece a un documento, pero aún no forma parte del documento tree y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo` . Para insertar un nodo en el documento, use the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) métodos en el nodo principal.
+Cuando se crea un nodo, pertenece a un documento, pero aún no es parte del árbol de documentos y[`ParentNode`](../../../aspose.words/node/parentnode/) es nulo. Para insertar un nodo en el documento, utilice the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)Métodos en el nodo padre.
 
 ## Ejemplos
 
@@ -35,30 +35,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+    // Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+    // como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
     SmartTag smartTag = new SmartTag(doc);
 
     // Las etiquetas inteligentes son nodos compuestos que contienen el texto reconocido en su totalidad.
     // Agregue contenido a esta etiqueta inteligente manualmente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word puede reconocer el contenido anterior como una fecha.
+    //Microsoft Word puede reconocer el contenido anterior como una fecha.
     // Las etiquetas inteligentes utilizan la propiedad "Elemento" para reflejar el tipo de datos que contienen.
     smartTag.Element = "date";
 
-    // Algunos tipos de etiquetas inteligentes procesan su contenido en propiedades XML personalizadas.
+    // Algunos tipos de etiquetas inteligentes procesan sus contenidos y los convierten en propiedades XML personalizadas.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Establece el URI de la etiqueta inteligente en el valor predeterminado.
+    // Establezca el URI de la etiqueta inteligente en el valor predeterminado.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea otra etiqueta inteligente para un ticker bursátil.
+    // Crea otra etiqueta inteligente para un símbolo de bolsa.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -68,7 +68,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime todas las etiquetas inteligentes en nuestro documento usando un visitante del documento.
+    // Imprima todas las etiquetas inteligentes en nuestro documento usando un visitante de documentos.
     doc.Accept(new SmartTagPrinter());
 
     // Las versiones anteriores de Microsoft Word admiten etiquetas inteligentes.

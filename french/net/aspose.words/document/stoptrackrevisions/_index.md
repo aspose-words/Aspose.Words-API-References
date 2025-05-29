@@ -3,14 +3,14 @@ title: Document.StopTrackRevisions
 linktitle: StopTrackRevisions
 articleTitle: StopTrackRevisions
 second_title: Aspose.Words pour .NET
-description: Document StopTrackRevisions méthode. Arrête le marquage automatique des modifications du document en tant que révisions en C#.
+description: Apprenez à utiliser la méthode StopTrackRevisions pour empêcher les marquages automatiques de modification de document, améliorant ainsi l'efficacité de votre édition et la clarté de votre document.
 type: docs
-weight: 720
+weight: 770
 url: /fr/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
 
-Arrête le marquage automatique des modifications du document en tant que révisions.
+Arrête le marquage automatique des modifications du document comme des révisions.
 
 ```csharp
 public void StopTrackRevisions()
@@ -18,7 +18,7 @@ public void StopTrackRevisions()
 
 ## Exemples
 
-Montre comment suivre les révisions lors de la modification d’un document.
+Montre comment suivre les révisions lors de l'édition d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
 // Arrêtez de suivre les révisions pour ne pas compter les modifications futures comme des révisions.
 doc.StopTrackRevisions();
@@ -56,9 +56,9 @@ Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Nous pouvons accepter/rejeter ces révisions par programmation
-// en appelant des méthodes telles que Document.AcceptAllRevisions ou la méthode Accept de chaque révision.
-// Dans Microsoft Word, nous pouvons les traiter manuellement via "Révision" -> "Changements".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// en appelant des méthodes telles que Document.AcceptAllRevisions, ou la méthode Accept de chaque révision.
+// Dans Microsoft Word, nous pouvons les traiter manuellement via « Révision » -> « Modifications ».
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Voir également

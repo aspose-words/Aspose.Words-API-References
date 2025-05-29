@@ -3,7 +3,7 @@ title: ICssSavingCallback.CssSaving
 linktitle: CssSaving
 articleTitle: CssSaving
 second_title: Aspose.Words per .NET
-description: ICssSavingCallback CssSaving metodo. Chiamato quando Aspose.Words salva un CSS Cascading Style Sheet in C#.
+description: Scopri il metodo ICssSavingCallback CssSaving in Aspose.Words, che migliora la gestione CSS per una migliore efficienza nella progettazione web.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -25,19 +25,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crea un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
+    // Creiamo un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" su
+    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" per
     // accompagna un documento HTML salvato con un file di foglio di stile CSS esterno.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizzare la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
+    // 2 - Utilizza un callback personalizzato per nominare il nostro foglio di stile:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

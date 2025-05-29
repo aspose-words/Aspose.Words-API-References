@@ -2,10 +2,10 @@
 title: PdfCustomPropertiesExport Enum
 linktitle: PdfCustomPropertiesExport
 articleTitle: PdfCustomPropertiesExport
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.PdfCustomPropertiesExport 枚举. 指定方式CustomDocumentProperties导出为 PDF 文件 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Aspose.Words.PdfCustomPropertiesExport 枚举如何通过自定义文档属性来增强 PDF 导出以获得最佳结果。
 type: docs
-weight: 5420
+weight: 6210
 url: /zh/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
@@ -20,13 +20,13 @@ public enum PdfCustomPropertiesExport
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未导出自定义属性。 |
-| Standard | `1` | 自定义属性作为 /Info 字典中的条目导出。 |
+| None | `0` | 未导出任何自定义属性。 |
+| Standard | `1` | 自定义属性将作为 /Info 字典中的条目导出。 |
 | Metadata | `2` | 自定义属性是元数据。 |
 
 ## 例子
 
-演示如何在将文档转换为 PDF 时导出自定义属性。
+展示如何在将文档转换为 PDF 时导出自定义属性。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // 将“CustomPropertiesExport”属性设置为“PdfCustomPropertiesExport.Standard”
 // 在输出 PDF 文档中保留自定义属性。
 // 将“CustomPropertiesExport”属性设置为“PdfCustomPropertiesExport.Metadata”
-// 在 XMP 数据包中保留自定义属性。
+// 在 XMP 包中保存自定义属性。
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);

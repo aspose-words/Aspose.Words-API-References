@@ -2,8 +2,8 @@
 title: WarningInfoCollection
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
-second_title: Aspose.Words for .NET
-description: WarningInfoCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarda etkili hata işleme için başvuracağınız çözüm olan WarningInfoCollection oluşturucusunu keşfedin. Varsayılan oluşturucumuzla kodlamayı basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/warninginfocollection/warninginfocollection/

@@ -3,14 +3,14 @@ title: FontSubstitutionSettings Class
 linktitle: FontSubstitutionSettings
 articleTitle: FontSubstitutionSettings
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings klass. Anger inställningar för teckensnittsersättningsmekanism i C#.
+description: Upptäck Aspose.Words.Fonts.FontSubstitutionSettings för effektiv typsnittshantering. Optimera dokumentrendering med anpassningsbara alternativ för typsnittsersättning.
 type: docs
-weight: 3010
+weight: 3440
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
 
-Anger inställningar för teckensnittsersättningsmekanism.
+Anger inställningar för mekanismen för teckensnittsersättning.
 
 För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
@@ -22,25 +22,25 @@ public class FontSubstitutionSettings
 
 | namn | Beskrivning |
 | --- | --- |
-| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Inställningar relaterade till standardregel för teckensnittsersättning. |
-| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Inställningar relaterade till regel för teckensnittskonfigurationsersättning. |
+| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Inställningar relaterade till standardregeln för teckensnittsersättning. |
+| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Inställningar relaterade till ersättningsregel för teckensnittskonfiguration. |
 | [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | Inställningar relaterade till regel för ersättning av teckensnittsinformation. |
-| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Inställningar relaterade till regel för teckensnittsnamnsersättning. |
-| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Inställningar relaterade till regel för tabellersättning. |
+| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Inställningar relaterade till regel för ersättning av teckensnittsnamn. |
+| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Inställningar relaterade till tabellersättningsregel. |
 
 ## Anmärkningar
 
-Teckensnittsersättningsprocessen består av flera regler som kontrolleras en efter en i specifik ordning. Om den första regeln inte kan lösa teckensnittet kontrolleras den andra regeln och så vidare.
+Teckensnittsersättningsprocessen består av flera regler som kontrolleras en efter en i specifik ordning. Om den första regeln inte kan matcha teckensnittet kontrolleras den andra regeln och så vidare.
 
-Ordningen för reglerna är följande: 1. Regel för ersättning av teckensnittsnamn (aktiverad som standard) 2. Regel för ersättning av teckensnittskonfiguration (inaktiverad som standard) 3. Regel för tabellersättning (aktiverad som standard) 4. Regel för ersättning av teckensnittsinformation (aktiverad som standard) 5. Standard teckensnittsregel (aktiverad som standard)
+Reglernas ordning är följande: 1. Regel för ersättning av teckensnittsnamn (aktiverad som standard) 2. Regel för ersättning av teckensnittskonfiguration (inaktiverad som standard) 3. Regel för ersättning av tabell (aktiverad som standard) 4. Regel för ersättning av teckensnittsinformation (aktiverad som standard) 5. Standardregel för teckensnitt (aktiverad som standard)
 
-Observera att regeln för ersättning av teckensnittsinformation alltid kommer att lösa teckensnittet if[`FontInfo`](../fontinfo/) är available och kommer att åsidosätta standardfontregeln. Om du vill använda standardfontregeln bör du inaktivera regeln för ersättning av typsnittsinformation .
+Observera att regeln för ersättning av teckensnittsinformation alltid löser teckensnittet om[`FontInfo`](../fontinfo/) är tillgänglig och kommer att åsidosätta standardteckensnittsregeln. Om du vill använda standardteckensnittsregeln bör du inaktivera ersättningsregeln för teckensnittsinformation .
 
-Observera att ersättningsregeln för teckensnittskonfiguration kommer att lösa teckensnittet i de flesta fall och åsidosätter därmed alla andra regler.
+Observera att ersättningsregeln för teckensnitt i de flesta fall löser teckensnittet och därmed åsidosätter alla andra regler.
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
+Visar hur man kommer åt ett dokuments systemfontkälla och ställer in fontersättningar.
 
 ```csharp
 Document doc = new Document();
@@ -68,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ett substitut för ett som inte gör det.
+// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ersättning för ett som inte finns.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -77,18 +77,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativt kan vi lägga till en mappfontkälla där motsvarande mapp innehåller typsnittet.
+// Alternativt kan vi lägga till en mapp för teckensnittskälla där motsvarande mapp innehåller teckensnittet.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Att återställa teckensnittskällorna lämnar oss fortfarande kvar med systemteckensnittskällan såväl som våra substitut.
+// Om vi återställer teckensnittskällorna har vi fortfarande kvar systemets teckensnittskälla samt våra ersättningar.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Se även

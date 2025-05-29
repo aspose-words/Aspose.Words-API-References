@@ -2,8 +2,8 @@
 title: FieldXE
 linktitle: FieldXE
 articleTitle: FieldXE
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldXE 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldXE 的多功能构造函数，实现无缝项目设置。使用我们用户友好的默认构造函数解决方案，简化您的开发流程。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldxe/fieldxe/

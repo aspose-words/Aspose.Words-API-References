@@ -2,15 +2,15 @@
 title: INodeChangingCallback.NodeRemoving
 linktitle: NodeRemoving
 articleTitle: NodeRemoving
-second_title: Aspose.Words for .NET
-description: INodeChangingCallback NodeRemoving yöntem. Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Bir belge düğümü kaldırılmadan önce tetiklenen ve sorunsuz belge yönetimini sağlayan INodeChangingCallback NodeRemoving metodunu keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/inodechangingcallback/noderemoving/
 ---
 ## INodeChangingCallback.NodeRemoving method
 
-Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır.
+Bu belgeye ait bir düğümün belgeden kaldırılmak üzere olduğu andan hemen önce çağrılır.
 
 ```csharp
 public void NodeRemoving(NodeChangingArgs args)
@@ -18,7 +18,7 @@ public void NodeRemoving(NodeChangingArgs args)
 
 ## Örnekler
 
-Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
+Geri arama ile düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Düğüm değiştirme geri çağrısını özel uygulamaya ayarlayın,
-    // ardından bir günlük oluşturmasını sağlamak için düğümleri ekleyin/kaldırın.
+    // Düğüm değiştirme geri aramasını özel uygulamaya ayarlayın,
+    // daha sonra bir günlük oluşturması için düğümleri ekleyin/kaldırın.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,7 +42,7 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Her düğüm ekleme ve çıkarma işleminin tarihini ve saatini günlüğe kaydeder.
+/// Her düğümün eklenmesi ve kaldırılmasının tarih ve saatini günlüğe kaydeder.
 /// Çalıştırma düğümlerinin metin içerikleri için özel bir yazı tipi adı/boyutu ayarlar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

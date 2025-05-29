@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
 articleTitle: VisitCommentRangeEnd
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitCommentRangeEnd metod. Anropas när slutet av ett kommenterat textintervall påträffas i C#.
+description: Upptäck DocumentVisitor VisitCommentRangeEnd-metoden, utformad för att förbättra textbehandling genom att effektivt hantera kommentarintervallslut i dina dokument.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur du skriver ut nodstrukturen för varje kommentar och kommentarintervall i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje kommentar och kommentarintervall i ett dokument.
 
 ```csharp
 public void CommentsToText()
@@ -35,7 +35,7 @@ public void CommentsToText()
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void CommentsToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade Comment/CommentRange-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade Comment/CommentRange-noder och deras undernoder.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
-    /// En körning spelas bara in om den är en underordnad nod för en kommentar eller kommentarområde.
+    /// Anropas när en Run-nod påträffas i dokumentet.
+    /// En körning registreras endast om den är underordnad noden Comment eller CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -95,7 +95,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en kommentarsnod påträffas i dokumentet.
+    /// Anropas när en kommentarnod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -108,7 +108,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en kommentarsnod har besökts.
+    /// Anropas efter att alla undernoder till en kommentarnod har besökts.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -120,10 +120,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
-    /// till ett kommentars-/kommentarintervalls träd med underordnade noder.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
+    /// i ett kommentar-/kommentarintervalls träd av underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

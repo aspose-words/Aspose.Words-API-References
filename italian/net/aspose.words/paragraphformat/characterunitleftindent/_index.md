@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitLeftIndent
 linktitle: CharacterUnitLeftIndent
 articleTitle: CharacterUnitLeftIndent
 second_title: Aspose.Words per .NET
-description: ParagraphFormat CharacterUnitLeftIndent proprietà. Ottiene o imposta il valore del rientro sinistro in caratteri per i paragrafi specificati in C#.
+description: Scopri come regolare facilmente il rientro sinistro dei paragrafi utilizzando la proprietà CharacterUnitLeftIndent. Migliora la formattazione dei tuoi documenti senza sforzo!
 type: docs
 weight: 80
 url: /it/net/aspose.words/paragraphformat/characterunitleftindent/
 ---
 ## ParagraphFormat.CharacterUnitLeftIndent property
 
-Ottiene o imposta il valore del rientro sinistro (in caratteri) per i paragrafi specificati.
+Ottiene o imposta il valore di rientro sinistro (in caratteri) per i paragrafi specificati.
 
 ```csharp
 public double CharacterUnitLeftIndent { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà che la loro configurazione influenza indirettamente.
+// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà sulle quali la loro configurazione influisce indirettamente.
 // 1 - Rientro sinistro:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -33,7 +33,7 @@ format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - Rientro destro:
+// 2 - Rientro a destra:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

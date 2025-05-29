@@ -3,16 +3,16 @@ title: List Class
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Lists.List classe. Représente le formatage dune liste en C#.
+description: Découvrez la classe Aspose.Words.Lists.List pour une mise en forme performante des listes. Améliorez vos documents grâce à une organisation fluide et une présentation professionnelle.
 type: docs
-weight: 3460
+weight: 3910
 url: /fr/net/aspose.words.lists/list/
 ---
 ## List class
 
-Représente le formatage d'une liste.
+Représente la mise en forme d'une liste.
 
-Pour en savoir plus, visitez le[Travailler avec des listes](https://docs.aspose.com/words/net/working-with-lists/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des listes](https://docs.aspose.com/words/net/working-with-lists/) article de documentation.
 
 ```csharp
 public class List : IComparable<List>
@@ -27,7 +27,7 @@ public class List : IComparable<List>
 | [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Retours`vrai` si cette liste est une référence à un style de liste. |
 | [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Retours`vrai` lorsque la liste contient 9 niveaux ;`FAUX` quand 1 niveau. |
 | [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut est`FAUX` . |
-| [ListId](../../aspose.words.lists/list/listid/) { get; } | Récupère l'identifiant unique de la liste. |
+| [ListId](../../aspose.words.lists/list/listid/) { get; } | Obtient l'identifiant unique de la liste. |
 | [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Obtient la collection de niveaux de liste pour cette liste. |
 | [Style](../../aspose.words.lists/list/style/) { get; } | Obtient le style de liste auquel cette liste fait référence ou définit. |
 
@@ -38,19 +38,19 @@ public class List : IComparable<List>
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Compare la liste spécifiée à la liste actuelle. |
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Compare l'objet spécifié à l'objet actuel. |
 | [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Compare avec la liste spécifiée. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Détermine si l'objet spécifié est égal en valeur à l'objet actuel. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calcule le code de hachage pour cet objet de liste. |
 | [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Renvoie vrai si la liste actuelle et la liste donnée sont créées à partir du même modèle. |
 
 ## Remarques
 
-Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Chaque liste peut avoir jusqu'à 9 niveaux et les propriétés de formatage, telles que le style numérique, la valeur de début, le retrait , la position de tabulation, etc. sont définies séparément pour chaque niveau.
+Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Chaque liste peut avoir jusqu'à 9 niveaux et les propriétés de formatage, telles que le style de nombre, la valeur de départ, le retrait, la position de tabulation, etc. sont définies séparément pour chaque niveau.
 
 UN`List` l'objet appartient toujours au[`ListCollection`](../listcollection/) collection.
 
-Pour créer une nouvelle liste, utilisez les méthodes Add du[`ListCollection`](../listcollection/) collection.
+Pour créer une nouvelle liste, utilisez les méthodes Add de la[`ListCollection`](../listcollection/) collection.
 
-Pour modifier le formatage d'une liste, utilisez[`ListLevel`](../listlevel/) objets trouvés dans le[`ListLevels`](./listlevels/) collection.
+Pour modifier la mise en forme d'une liste, utilisez[`ListLevel`](../listlevel/) objets trouvés dans le[`ListLevels`](./listlevels/) collection.
 
 Pour appliquer ou supprimer la mise en forme de liste d'un paragraphe, utilisez[`ListFormat`](../listformat/).
 
@@ -63,14 +63,14 @@ Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez son premier niveau de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez son premier niveau de liste.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applique notre liste à certains paragraphes.
+// Appliquez notre liste à certains paragraphes.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -85,7 +85,7 @@ List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Applique la deuxième liste aux nouveaux paragraphes.
+// Appliquer la deuxième liste aux nouveaux paragraphes.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -95,16 +95,16 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -149,7 +149,7 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ```
 
-Montre comment utiliser les niveaux de liste.
+Montre comment travailler avec les niveaux de liste.
 
 ```csharp
 Document doc = new Document();
@@ -159,18 +159,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Vous trouverez ci-dessous deux types de listes que nous pouvons créer à l'aide d'un générateur de documents.
+// Vous trouverez ci-dessous deux types de listes que nous pouvons créer à l’aide d’un générateur de documents.
 // 1 - Une liste numérotée :
 // Les listes numérotées créent un ordre logique pour leurs paragraphes en numérotant chaque élément.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// En définissant la propriété "ListLevelNumber", nous pouvons augmenter le niveau de la liste
-// pour commencer une sous-liste autonome à l'élément de liste actuel.
-// Le modèle de liste Microsoft Word appelé « NumberDefault » utilise des nombres pour créer des niveaux de liste pour le premier niveau de liste.
+// En définissant la propriété « ListLevelNumber », nous pouvons augmenter le niveau de la liste
+// pour commencer une sous-liste autonome à partir de l'élément de liste actuel.
+// Le modèle de liste Microsoft Word appelé « NumberDefault » utilise des nombres pour créer des niveaux de liste pour le premier niveau de liste.
  // Les niveaux de liste plus profonds utilisent des lettres et des chiffres romains minuscules.
 for (int i = 0; i < 9; i++)
 {
@@ -178,9 +178,9 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 2 - Une liste à puces :
-// Cette liste appliquera un retrait et une puce ("•") avant chaque paragraphe.
-// Les niveaux plus profonds de cette liste utiliseront différents symboles, tels que " ■ " et " ○ ".
+// 2 - Une liste à puces :
+// Cette liste appliquera un retrait et un symbole de puce (« • ») avant chaque paragraphe.
+// Les niveaux plus profonds de cette liste utiliseront des symboles différents, tels que « ■ » et « ○ ».
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -189,7 +189,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Nous pouvons désactiver le formatage de la liste pour ne pas formater les paragraphes suivants sous forme de listes en désactivant l'indicateur "Liste".
+// Nous pouvons désactiver le formatage de liste pour ne pas formater les paragraphes suivants sous forme de listes en désactivant l'indicateur « Liste ».
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

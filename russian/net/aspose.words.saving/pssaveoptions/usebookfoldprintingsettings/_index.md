@@ -3,14 +3,14 @@ title: PsSaveOptions.UseBookFoldPrintingSettings
 linktitle: UseBookFoldPrintingSettings
 articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words для .NET
-description: PsSaveOptions UseBookFoldPrintingSettings свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages  на С#.
+description: Откройте для себя свойство PsSaveOptions UseBookFoldPrintingSettings, позволяющее легко сохранять документы в виде брошюры для повышения эффективности печати.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
 ---
 ## PsSaveOptions.UseBookFoldPrintingSettings property
 
-Получает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета для печати буклета, , если оно указано через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
+Возвращает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета печати буклета, , если он указан через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -18,7 +18,7 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ## Примечания
 
-Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если параметры печати сгиба книги не указаны в настройках страницы, этот параметр не будет иметь никакого эффекта.
+Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если параметры печати сгиба книги не указаны в параметрах страницы, этот параметр не будет иметь никакого эффекта.
 
 ## Примеры
 
@@ -27,26 +27,26 @@ public bool UseBookFoldPrintingSettings { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Создаем объект «PsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в PostScript.
-// Установите для свойства UseBookFoldPrintingSettings значение «true», чтобы упорядочить содержимое
-// в выходном документе Postscript таким образом, чтобы можно было сделать из него буклет.
-// Установите для свойства «UseBookFoldPrintingSettings» значение «false», чтобы сохранить документ в обычном режиме.
+// Создаем объект "PsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в PostScript.
+// Установите свойство "UseBookFoldPrintingSettings" в значение "true", чтобы упорядочить содержимое
+// в выходном документе Postscript таким образом, чтобы это помогло нам сделать из него брошюру.
+// Установите свойство «UseBookFoldPrintingSettings» в значение «false», чтобы сохранить документ обычным образом.
 PsSaveOptions saveOptions = new PsSaveOptions
 {
     SaveFormat = SaveFormat.Ps,
     UseBookFoldPrintingSettings = renderTextAsBookFold
 };
 
-// Если мы отображаем документ как буклет, мы должны установить «MultiplePages»
-// свойства объектов настройки страницы всех разделов равны "MultiplePagesType.BookFoldPrinting".
+// Если мы визуализируем документ как брошюру, мы должны установить "MultiplePages"
+// свойства объектов настройки страницы всех разделов на "MultiplePagesType.BookFoldPrinting".
 foreach (Section s in doc.Sections)
 {
     s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 }
 
-// Как только мы напечатаем этот документ на обеих сторонах страниц, мы сможем сразу сложить все страницы посередине,
-// и содержимое выстроится в линию, образующую буклет.
+// После того, как мы распечатаем этот документ с обеих сторон страниц, мы можем сложить все страницы посередине одновременно,
+// и содержимое будет выстроено таким образом, что получится брошюра.
 doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
 

@@ -3,14 +3,14 @@ title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words لـ .NET
-description: IChartDataPoint Bubble3D ملكية. يحدد ما إذا كان يجب أن يكون للفقاعات الموجودة في المخطط الفقاعي تأثير ثلاثي الأبعاد مطبق عليها في C#.
+description: اكتشف خاصية IChartDataPoint Bubble3D لتعزيز مخططات الفقاعات الخاصة بك باستخدام تأثيرات ثلاثية الأبعاد مذهلة لتصور البيانات بشكل أكثر جاذبية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 ---
 ## IChartDataPoint.Bubble3D property
 
-يحدد ما إذا كان يجب أن يكون للفقاعات الموجودة في المخطط الفقاعي تأثير ثلاثي الأبعاد مطبق عليها.
+يحدد ما إذا كان يجب تطبيق تأثير ثلاثي الأبعاد على الفقاعات الموجودة في مخطط الفقاعات.
 
 ```csharp
 public bool Bubble3D { get; set; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// قم بتطبيق تسمية البيانات على كل فقاعة تعرض قطرها.
+// قم بتطبيق تسمية بيانات على كل فقاعة تعرض قطرها.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

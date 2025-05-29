@@ -3,14 +3,14 @@ title: ParagraphFormat.LineSpacingRule
 linktitle: LineSpacingRule
 articleTitle: LineSpacingRule
 second_title: Aspose.Words для .NET
-description: ParagraphFormat LineSpacingRule свойство. Получает или задает межстрочный интервал для абзаца на С#.
+description: Откройте для себя свойство ParagraphFormat LineSpacingRule, позволяющее легко настраивать межстрочный интервал абзаца для улучшения читаемости и стиля ваших документов.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraphformat/linespacingrule/
 ---
 ## ParagraphFormat.LineSpacingRule property
 
-Получает или задает межстрочный интервал для абзаца.
+Возвращает или задает межстрочный интервал для абзаца.
 
 ```csharp
 public LineSpacingRule LineSpacingRule { get; set; }
@@ -25,9 +25,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены три правила межстрочного интервала, которые мы можем определить с помощью
-// Свойство абзаца "LineSpacingRule" для настройки интервала между абзацами.
-// 1 - Установить минимальный интервал.
-// Это обеспечит вертикальное заполнение строк текста любого размера
+// свойство абзаца "LineSpacingRule" для настройки интервала между абзацами.
+// 1 — Установить минимальный интервал.
+// Это даст вертикальный отступ строкам текста любого размера
 // это слишком мало для поддержания минимальной высоты строки.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
@@ -36,15 +36,15 @@ builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
 // 2 - Установить точный интервал.
-// Использование размеров шрифта, слишком больших для данного интервала, приведет к обрезанию текста.
+// Использование шрифта слишком большого размера для данного интервала приведет к обрезанию текста.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 — установить интервал, кратный межстрочному интервалу по умолчанию, который по умолчанию составляет 12 пунктов.
-// Этот тип интервала будет масштабироваться в зависимости от размера шрифта.
+// 3 - Установить интервал как кратный межстрочному интервалу по умолчанию, который по умолчанию составляет 12 пунктов.
+// Этот тип интервала будет масштабироваться под разные размеры шрифта.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;
 

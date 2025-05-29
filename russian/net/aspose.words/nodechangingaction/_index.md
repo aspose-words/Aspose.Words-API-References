@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words для .NET
-description: Aspose.Words.NodeChangingAction перечисление. Указывает тип изменения узла на С#.
+description: Откройте для себя перечисление Aspose.Words.NodeChangingAction для эффективного управления изменениями узлов в ваших документах. Расширьте свои возможности обработки документов сегодня!
 type: docs
-weight: 4180
+weight: 4870
 url: /ru/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -20,7 +20,7 @@ public enum NodeChangingAction
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Insert | `0` | В дерево вставляется узел. |
+| Insert | `0` | Узел вставляется в дерево. |
 | Remove | `1` | Узел удаляется из дерева. |
 
 ## Примеры
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Печатает каждую вставку/удаление узла, как это происходит в документе.
+/// Печатает каждую вставку/удаление узла по мере их возникновения в документе.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

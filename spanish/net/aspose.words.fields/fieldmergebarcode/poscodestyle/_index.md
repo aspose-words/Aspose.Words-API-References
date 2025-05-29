@@ -3,14 +3,14 @@ title: FieldMergeBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode PosCodeStyle propiedad. Obtiene o establece el estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE en C#.
+description: Descubra la propiedad FieldMergeBarcode PosCodeStyle para códigos de barras de punto de venta personalizables. Compatible con UPCA, EAN13 y más, con opciones de estilo flexibles.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 ---
 ## FieldMergeBarcode.PosCodeStyle property
 
-Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos de códigos de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinguir entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Obtiene o establece el estilo de un código de barras de punto de venta (tipos de código de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinción entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyEAN13Barcode" de una fuente de datos combinada en códigos de barras EAN13.
+// Este campo convertirá todos los valores de la columna "MyEAN13Barcode" de una fuente de datos de combinación en códigos de barras EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -39,8 +39,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código de barras EAN13 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");

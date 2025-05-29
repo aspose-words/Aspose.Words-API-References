@@ -3,7 +3,7 @@ title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words para .NET
-description: HorizontalRuleFormat Alignment propiedad. Obtiene o establece la alineación de la regla horizontal en C#.
+description: Descubra la propiedad Alineación HorizontalRuleFormat para personalizar fácilmente la alineación de las reglas horizontales para una mayor flexibilidad de diseño.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -22,7 +22,7 @@ El valor predeterminado esLeft.
 
 ## Ejemplos
 
-Muestra cómo insertar una forma de regla horizontal y personalizar su formato.
+Muestra cómo insertar una regla horizontal y personalizar su formato.
 
 ```csharp
 Document doc = new Document();

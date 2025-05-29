@@ -3,16 +3,16 @@ title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaProject فصل. يوفر الوصول إلى معلومات مشروع VBA. يتم تعريف مشروع VBA الموجود داخل المستند على أنه مجموعة من وحدات VBA في C#.
+description: استغل قوة فئة Aspose.Words.Vba.VbaProject لإدارة معلومات ووحدات مشروع VBA بسهولة داخل مستنداتك. حسّن أتمتتك اليوم!
 type: docs
-weight: 6580
+weight: 7430
 url: /ar/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-يوفر الوصول إلى معلومات مشروع VBA. يتم تعريف مشروع VBA الموجود داخل المستند على أنه مجموعة من وحدات VBA.
+يوفر الوصول إلى معلومات مشروع VBA. يتم تعريف مشروع VBA داخل المستند كمجموعة من وحدات VBA.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات الماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public class VbaProject
@@ -22,45 +22,46 @@ public class VbaProject
 
 | اسم | وصف |
 | --- | --- |
-| [VbaProject](vbaproject/)() | إنشاء فراغ`VbaProject` . |
+| [VbaProject](vbaproject/)() | ينشئ مساحة فارغة`VbaProject` . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | الحصول على أو تعيين صفحة التعليمات البرمجية لمشروع VBA. |
-| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | يظهر ما إذا كان`VbaProject` تم التوقيع أم لا. |
-| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | إرجاع مجموعة وحدات مشروع VBA. |
-| [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | الحصول على اسم مشروع VBA أو تعيينه. |
-| [References](../../aspose.words.vba/vbaproject/references/) { get; } | الحصول على مجموعة من مراجع مشروع VBA. |
+| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | يحصل على صفحة التعليمات البرمجية لمشروع VBA أو يعينها. |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | يظهر ما إذا كان`VbaProject` محمي بكلمة مرور. |
+| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | يظهر ما إذا كان`VbaProject` هل تم التوقيع أم لا. |
+| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | إرجاع مجموعة من وحدات مشروع VBA. |
+| [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | يحصل على اسم مشروع VBA أو يعينه. |
+| [References](../../aspose.words.vba/vbaproject/references/) { get; } | يحصل على مجموعة من مراجع مشروع VBA. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | ينفذ نسخة من`VbaProject` . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | يقوم بإجراء نسخة من`VbaProject` . |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

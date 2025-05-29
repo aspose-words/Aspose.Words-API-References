@@ -3,14 +3,14 @@ title: RowCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words para .NET
-description: RowCollection ToArray método. Copia todas las filas de la colección en una nueva matriz de filas en C#.
+description: Convierta sin esfuerzo su RowCollection en una nueva matriz con el método ToArray, lo que garantiza una gestión de datos perfecta y un rendimiento mejorado.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection.ToArray method
 
-Copia todas las filas de la colección en una nueva matriz de filas.
+Copia todas las filas de la colección a una nueva matriz de filas.
 
 ```csharp
 public Row[] ToArray()
@@ -18,11 +18,11 @@ public Row[] ToArray()
 
 ### Valor_devuelto
 
-Una serie de filas.
+Una matriz de filas.
 
 ## Ejemplos
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

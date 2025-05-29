@@ -3,14 +3,14 @@ title: ExportHeadersFootersMode Enum
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.ExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till HTML MHTML eller EPUB i C#.
+description: Upptäck Aspose.Words ExportHeadersFootersMode-enum för sömlös export av sidhuvud och sidfot i HTML, MHTML eller EPUB. Optimera din dokumentkonvertering idag!
 type: docs
-weight: 5000
+weight: 5750
 url: /sv/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
 
-Anger hur sidhuvuden och sidfötter exporteras till HTML, MHTML eller EPUB.
+Anger hur sidhuvuden och sidfot exporteras till HTML, MHTML eller EPUB.
 
 ```csharp
 public enum ExportHeadersFootersMode
@@ -20,25 +20,25 @@ public enum ExportHeadersFootersMode
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Sidhuvuden och sidfötter exporteras inte. |
-| PerSection | `1` | Primära sidhuvuden och sidfötter exporteras i början och slutet av varje avsnitt. |
-| FirstSectionHeaderLastSectionFooter | `2` | Primär sidhuvud för det första avsnittet exporteras i början av dokumentet och primär sidfot är i slutet. |
-| FirstPageHeaderFooterPerSection | `3` | Första sidans sidhuvud och sidfot exporteras i början och slutet av varje avsnitt. |
+| None | `0` | Sidhuvuden och sidfot exporteras inte. |
+| PerSection | `1` | Primära sidhuvuden och sidfot exporteras i början och slutet av varje avsnitt. |
+| FirstSectionHeaderLastSectionFooter | `2` | Det primära sidhuvudet för det första avsnittet exporteras i början av dokumentet och det primära sidfoten finns i slutet. |
+| FirstPageHeaderFooterPerSection | `3` | Sidhuvud och sidfot på första sidan exporteras i början och slutet av varje avsnitt. |
 
 ## Exempel
 
-Visar hur du utelämnar sidhuvuden/sidfötter när du sparar ett dokument i HTML.
+Visar hur man utelämnar sidhuvuden/sidfot när man sparar ett dokument som HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Detta dokument innehåller sidhuvuden och sidfötter. Vi kan komma åt dem via samlingen "HeadersFooters".
+// Detta dokument innehåller sidhuvuden och sidfot. Vi kan komma åt dem via samlingen "HeadersFooters".
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// Format som .html delar inte upp dokumentet i sidor, så sidhuvuden/sidfötter fungerar inte på samma sätt
-// skulle de göra när vi öppnar dokumentet som en .docx med Microsoft Word.
-// Om vi konverterar ett dokument med sidhuvuden/sidfötter till html, kommer konverteringen att assimilera sidhuvuden/sidfötter till brödtext.
-// Vi kan använda ett SaveOptions-objekt för att utelämna sidhuvuden/sidfötter när vi konverterar till html.
+// Format som .html delar inte upp dokumentet i sidor, så sidhuvuden/sidfot fungerar inte på samma sätt
+// de skulle göra det när vi öppnade dokumentet som en .docx med Microsoft Word.
+// Om vi konverterar ett dokument med sidhuvuden/sidfötter till html, kommer konverteringen att assimilera sidhuvudena/sidfötterna till brödtexten.
+// Vi kan använda ett SaveOptions-objekt för att utelämna sidhuvuden/sidfot vid konvertering till html.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 

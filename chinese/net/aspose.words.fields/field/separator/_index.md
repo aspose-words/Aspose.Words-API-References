@@ -2,15 +2,15 @@
 title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
-second_title: 用于 .NET 的 Aspose.Words
-description: Field Separator 财产. 获取表示字段分隔符的节点可无效的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“字段分隔符”属性，轻松访问表示字段分隔符的节点，提升数据管理效率。了解更多！
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-获取表示字段分隔符的节点。可`无效的`.
+获取表示字段分隔符的节点。可以是`无效的`.
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -18,7 +18,7 @@ public FieldSeparator Separator { get; }
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

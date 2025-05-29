@@ -3,14 +3,14 @@ title: InlineStory.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 articleTitle: IsMoveFromRevision
 second_title: Aspose.Words para .NET
-description: InlineStory IsMoveFromRevision propiedad. Devolucionesverdadero si este objeto se movió eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado en C#.
+description: Descubra la propiedad IsMoveFromRevision de InlineStory. Realice un seguimiento fácil del contenido movido o eliminado en Microsoft Word con el seguimiento de cambios habilitado para una edición fluida.
 type: docs
 weight: 50
 url: /es/net/aspose.words/inlinestory/ismovefromrevision/
 ---
 ## InlineStory.IsMoveFromRevision property
 
-Devoluciones`verdadero` si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado.
+Devuelve`verdadero` Si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado.
 
 ```csharp
 public bool IsMoveFromRevision { get; }
@@ -23,11 +23,11 @@ Muestra cómo ver las propiedades relacionadas con la revisión de los nodos Inl
 ```csharp
 Document doc = new Document(MyDir + "Revision footnotes.docx");
 
-// Cuando editamos el documento mientras la opción "Seguimiento de cambios", que se encuentra en vía Revisar -> Seguimiento,
+// Cuando editamos el documento mientras está activa la opción "Seguimiento de cambios", que se encuentra en Vía Revisión -> Seguimiento,
 // está activado en Microsoft Word, los cambios que aplicamos cuentan como revisiones.
-// Al editar un documento usando Aspose.Words, podemos comenzar a rastrear las revisiones por
-// invocando el método "StartTrackRevisions" del documento y deteniendo el seguimiento utilizando el método "StopTrackRevisions".
-// Podemos aceptar revisiones para asimilarlas al documento
+// Al editar un documento usando Aspose.Words, podemos comenzar a rastrear las revisiones
+// invocar el método "StartTrackRevisions" del documento y detener el seguimiento utilizando el método "StopTrackRevisions".
+//Podemos aceptar revisiones para asimilarlas al documento.
 // o rechazarlos para deshacer y descartar el cambio propuesto.
 Assert.IsTrue(doc.HasRevisions);
 
@@ -37,27 +37,27 @@ Assert.AreEqual(5, footnotes.Count);
 
 // A continuación se muestran cinco tipos de revisiones que pueden marcar un nodo InlineStory.
 // 1 - Una revisión "insertar":
-// Esta revisión ocurre cuando insertamos texto mientras realizamos el seguimiento de los cambios.
+//Esta revisión ocurre cuando insertamos texto mientras hacemos un seguimiento de los cambios.
 Assert.IsTrue(footnotes[2].IsInsertRevision);
 
-// 2 - Una revisión de "paso de":
+// 2 - Una revisión de "movimiento desde":
 // Cuando resaltamos texto en Microsoft Word y luego lo arrastramos a un lugar diferente en el documento
 // mientras se rastrean los cambios, aparecen dos revisiones.
 // La revisión "mover desde" es una copia del texto original antes de que lo moviéramos.
 Assert.IsTrue(footnotes[4].IsMoveFromRevision);
 
-// 3 - Una revisión de "mover a":
-// La revisión "mover a" es el texto que movimos en su nueva posición en el documento.
-// Las revisiones "mover desde" y "mover a" aparecen en pares para cada revisión de movimiento que realizamos.
+// 3 - Una revisión "mover a":
+// La revisión "mover a" es el texto que movimos a su nueva posición en el documento.
+// Las revisiones "Mover desde" y "mover a" aparecen en pares para cada revisión de movimiento que realizamos.
 // Al aceptar una revisión de movimiento se elimina la revisión "mover desde" y su texto,
-// y mantiene el texto de la revisión "mover a".
-// Al rechazar una revisión de movimiento, se mantiene la revisión de "mover desde" y se elimina la revisión de "mover a".
+// y conserva el texto de la revisión "mover a".
+// Rechazar una revisión de movimiento, por el contrario, conserva la revisión "mover desde" y elimina la revisión "mover a".
 Assert.IsTrue(footnotes[1].IsMoveToRevision);
 
 // 4 - Una revisión "eliminada":
-// Esta revisión ocurre cuando eliminamos texto mientras realizamos un seguimiento de los cambios. Cuando eliminamos texto como este,
+Esta revisión ocurre cuando eliminamos texto durante el seguimiento de cambios. Al eliminar texto de esta manera,
 // permanecerá en el documento como una revisión hasta que aceptemos la revisión,
-// que eliminará el texto definitivamente, o rechazará la revisión, que mantendrá el texto que eliminamos donde estaba.
+// lo que eliminará el texto para siempre, o rechazará la revisión, lo que mantendrá el texto que eliminamos donde estaba.
 Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ```
 

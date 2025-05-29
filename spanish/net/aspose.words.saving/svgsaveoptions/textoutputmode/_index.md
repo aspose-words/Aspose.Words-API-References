@@ -3,9 +3,9 @@ title: SvgSaveOptions.TextOutputMode
 linktitle: TextOutputMode
 articleTitle: TextOutputMode
 second_title: Aspose.Words para .NET
-description: SvgSaveOptions TextOutputMode propiedad. Obtiene o establece un valor que determina cómo se debe representar el texto en SVG en C#.
+description: Descubra la propiedad TextOutputMode de SvgSaveOptions, que controla la representación de texto en SVG para una mejor calidad visual y personalización. ¡Optimice sus gráficos hoy mismo!
 type: docs
-weight: 90
+weight: 120
 url: /es/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
@@ -18,7 +18,7 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ## Observaciones
 
-Utilice esta propiedad para obtener o establecer el modo en que se debe representar el texto dentro de un documento al guardarlo en formato SVG.
+Utilice esta propiedad para obtener o establecer el modo en que debe representarse el texto dentro de un documento al guardar en formato SVG.
 
 El valor predeterminado esUseTargetMachineFonts.
 

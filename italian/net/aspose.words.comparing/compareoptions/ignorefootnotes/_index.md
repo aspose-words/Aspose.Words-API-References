@@ -3,18 +3,22 @@ title: CompareOptions.IgnoreFootnotes
 linktitle: IgnoreFootnotes
 articleTitle: IgnoreFootnotes
 second_title: Aspose.Words per .NET
-description: CompareOptions IgnoreFootnotes proprietà. Specifica se confrontare le differenze nelle note a piè di pagina e nelle note di chiusura. Per impostazione predefinita le note a piè di pagina non vengono ignorate in C#.
+description: Scopri come la proprietà IgnoreFootnotes in CompareOptions migliora il confronto dei documenti escludendo note a piè di pagina e note di chiusura per risultati più chiari.
 type: docs
 weight: 80
 url: /it/net/aspose.words.comparing/compareoptions/ignorefootnotes/
 ---
 ## CompareOptions.IgnoreFootnotes property
 
-Specifica se confrontare le differenze nelle note a piè di pagina e nelle note di chiusura. Per impostazione predefinita, le note a piè di pagina non vengono ignorate.
+Specifica se confrontare le differenze nelle note a piè di pagina e nelle note di chiusura.
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
 ```
+
+## Osservazioni
+
+Per impostazione predefinita, le note a piè di pagina non vengono ignorate.
 
 ## Esempi
 
@@ -25,7 +29,7 @@ Mostra come filtrare tipi specifici di elementi del documento quando si effettua
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Testo del paragrafo referenziato con una nota finale:
+// Testo del paragrafo a cui si fa riferimento con una nota finale:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -55,7 +59,7 @@ builder.CurrentParagraph.AppendChild(newComment);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Crea un clone del nostro documento ed esegui una rapida modifica su ciascuno degli elementi del documento clonato.
+// Creiamo un clone del nostro documento ed eseguiamo una modifica rapida su ciascuno degli elementi del documento clonato.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -64,27 +68,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Il confronto dei documenti crea una revisione per ogni modifica nel documento modificato.
-// Un oggetto CompareOptions dispone di una serie di flag che possono eliminare le revisioni
-// su ciascun rispettivo tipo di elemento, ignorando di fatto la loro modifica.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// Il confronto dei documenti crea una revisione per ogni modifica apportata al documento modificato.
+// Un oggetto CompareOptions ha una serie di flag che possono sopprimere le revisioni
+// su ogni rispettivo tipo di elemento, ignorando di fatto la loro modifica.
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### Guarda anche

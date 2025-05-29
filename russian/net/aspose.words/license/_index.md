@@ -3,16 +3,16 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words для .NET
-description: Aspose.Words.License сорт. Предоставляет методы лицензирования компонента на С#.
+description: Раскройте весь потенциал Aspose.Words с нашим классом лицензий. Легко управляйте лицензированием для бесперебойной обработки документов и улучшенной функциональности.
 type: docs
-weight: 3420
+weight: 3870
 url: /ru/net/aspose.words/license/
 ---
 ## License class
 
 Предоставляет методы лицензирования компонента.
 
-Чтобы узнать больше, посетите[Лицензирование и подписка](https://docs.aspose.com/words/net/licensing/) статья документации.
+Чтобы узнать больше, посетите[Лицензирование и подписка](https://docs.aspose.com/words/net/licensing/) документальная статья.
 
 ```csharp
 public class License
@@ -28,27 +28,27 @@ public class License
 
 | Имя | Описание |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Лицензиирует компонент. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Лицензиирует компонент. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Лицензирует компонент. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Лицензирует компонент. |
 
 ## Примеры
 
-Показывает, как инициализировать лицензию для Aspose.Words с использованием файла лицензии в локальной файловой системе.
+Показывает, как инициализировать лицензию для Aspose.Words, используя файл лицензии в локальной файловой системе.
 
 ```csharp
-// Установите лицензию для нашего продукта Aspose.Words, передав имя файла локальной файловой системы действительного файла лицензии.
+// Устанавливаем лицензию для нашего продукта Aspose.Words, передавая имя файла локальной файловой системы действительного файла лицензии.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Создайте копию нашего файла лицензии в папке двоичных файлов нашего приложения.
+// Создаем копию нашего файла лицензии в папке двоичных файлов нашего приложения.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Если мы передаем имя файла без пути,
-// SetLicense будет искать этот файл в нескольких местах локальной файловой системы.
-// Одним из этих мест будет папка «bin», содержащая копию нашего файла лицензии.
+// Если мы передадим имя файла без пути,
+// SetLicense выполнит поиск этого файла в нескольких местах локальной файловой системы.
+// Одним из таких мест будет папка «bin», содержащая копию нашего файла лицензии.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

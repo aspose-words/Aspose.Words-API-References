@@ -3,14 +3,14 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words pour .NET
-description: ShapeBase WrapType propriété. Définit si la forme est en ligne ou flottante. Pour les formes flottantes définit le mode dhabillage du texte autour de la forme en C#.
+description: Découvrez la propriété ShapeBase WrapType, contrôlez les formes en ligne ou flottantes et personnalisez l'habillage du texte pour une flexibilité de mise en page améliorée.
 type: docs
-weight: 600
+weight: 640
 url: /fr/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Définit si la forme est en ligne ou flottante. Pour les formes flottantes, définit le mode d'habillage du texte autour de la forme.
+Définit si la forme est linéaire ou flottante. Pour les formes flottantes, définit le mode d'habillage du texte autour de la forme.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -24,13 +24,13 @@ N'a d'effet que sur les formes de niveau supérieur.
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -47,13 +47,13 @@ Montre comment créer et formater une zone de texte.
 ```csharp
 Document doc = new Document();
 
-// Crée une zone de texte flottante.
+// Créer une zone de texte flottante.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Définit l'alignement horizontal et vertical du texte à l'intérieur de la forme.
+// Définissez l'alignement horizontal et vertical du texte à l'intérieur de la forme.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

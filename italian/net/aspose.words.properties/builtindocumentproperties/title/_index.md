@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties Title proprietà. Ottiene o imposta il titolo del documento in C#.
+description: Gestisci i titoli dei tuoi documenti senza sforzo con BuiltInDocumentProperties. Imposta o recupera facilmente i titoli per una migliore organizzazione e chiarezza.
 type: docs
-weight: 290
+weight: 320
 url: /it/net/aspose.words.properties/builtindocumentproperties/title/
 ---
 ## BuiltInDocumentProperties.Title property
@@ -25,18 +25,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Di seguito sono riportate quattro proprietà del documento integrate che dispongono di campi che possono visualizzare i relativi valori nel corpo del documento.
+// Di seguito sono riportate quattro proprietà predefinite del documento che dispongono di campi in grado di visualizzare i propri valori nel corpo del documento.
 // 1 - Proprietà "Autore", che possiamo visualizzare utilizzando un campo AUTORE:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - Proprietà "Titolo", che possiamo visualizzare utilizzando un campo TITOLO:
+// 2 - Proprietà "Titolo", che possiamo visualizzare utilizzando un campo TITLE:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - Proprietà "Oggetto", che possiamo visualizzare utilizzando un campo OGGETTO:
+// 3 - Proprietà "Oggetto", che possiamo visualizzare utilizzando un campo SOGGETTO:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
@@ -47,14 +47,14 @@ builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// La proprietà incorporata "Categoria" non dispone di un campo in grado di visualizzarne il valore.
+// La proprietà incorporata "Categoria" non ha un campo in grado di visualizzarne il valore.
 properties.Category = "My category";
 
-// Possiamo impostare più parole chiave per un documento separando il valore della stringa della proprietà "Keywords" con punto e virgola.
+// Possiamo impostare più parole chiave per un documento separando il valore stringa della proprietà "Parole chiave" con punti e virgola.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Possiamo fare clic con il pulsante destro del mouse su questo documento in Esplora risorse e trovare queste proprietà in "Proprietà" -> "Dettagli".
-// La proprietà integrata "Autore" è nel gruppo "Origine" e le altre sono nel gruppo "Descrizione".
+// Possiamo fare clic con il pulsante destro del mouse su questo documento in Esplora risorse di Windows e trovare queste proprietà in "Proprietà" -> "Dettagli".
+// La proprietà incorporata "Autore" si trova nel gruppo "Origine", mentre le altre si trovano nel gruppo "Descrizione".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

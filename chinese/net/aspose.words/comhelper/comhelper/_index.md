@@ -2,8 +2,8 @@
 title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
-second_title: 用于 .NET 的 Aspose.Words
-description: ComHelper 构造函数. 初始化此类的新实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ComHelper，这个强大的构造函数可以轻松初始化新的类实例，从而提高您的编程效率和生产力。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comhelper/comhelper/
@@ -18,10 +18,10 @@ public ComHelper()
 
 ## 例子
 
-演示如何使用 ComHelper 类打开文档。
+展示如何使用 ComHelper 类打开文档。
 
 ```csharp
-// ComHelper 类允许我们从 COM 客户端加载文档。
+// ComHelper 类允许我们从 COM 客户端内部加载文档。
 ComHelper comHelper = new ComHelper();
 
 // 1 - 使用本地系统文件名：

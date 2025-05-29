@@ -3,9 +3,9 @@ title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection сорт. Представляет коллекцию значений Y для серии диаграмм на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Charts.ChartYValueCollection — ваше идеальное решение для эффективного управления значениями Y в рядах диаграмм.
 type: docs
-weight: 880
+weight: 1200
 url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
@@ -21,6 +21,7 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Получает количество элементов в этой коллекции. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | Возвращает или задает код формата, применяемый к значениям Y. |
 | [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Получает или задает значение Y по указанному индексу. |
 
 ## Методы
@@ -31,9 +32,9 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 ## Примечания
 
-Все предметы коллекции, кроме**нулевой** должно быть то же самое[`ValueType`](../chartyvalue/valuetype/).
+Все предметы коллекции, кроме**нулевой** должны иметь то же самое[`ValueType`](../chartyvalue/valuetype/).
 
-Коллекция позволяет изменять только значения Y. Чтобы добавить или вставить новые значения в серию диаграмм или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс можно использовать.
+Коллекция позволяет изменять только значения Y. Чтобы добавить или вставить новые значения в ряд диаграммы или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс может быть использован.
 
 ## Примеры
 
@@ -55,10 +56,10 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Очистить индивидуальный формат всех точек данных.
-    // Точки данных и значения данных в столбчатых диаграммах взаимно однозначны.
+    // Точки данных и значения данных в столбчатых диаграммах соответствуют друг другу.
     series.DataPoints[i].ClearFormat();
 
-    // Получаем значение Y.
+    // Получить значение Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Изменяем цвета максимального и минимального значений.
+// Изменить цвета максимальных и минимальных значений.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

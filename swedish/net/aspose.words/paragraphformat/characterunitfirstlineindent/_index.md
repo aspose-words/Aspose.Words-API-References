@@ -3,16 +3,16 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words för .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent fast egendom. Hämtar eller ställer in värdet i tecken för första raden eller hängande indrag i C#.
+description: Upptäck egenskapen ParagraphFormat CharacterUnitFirstLineIndent för att enkelt anpassa dokumentets första rad eller hängande indrag för ett elegant utseende.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Hämtar eller ställer in värdet (i tecken) för första raden eller hängande indrag.
+Hämtar eller anger värdet (i tecken) för den första raden eller det hängande indraget.
 
-Använd positiva värden för att ställa in första radens indrag och negativa värden för att ställa in hängande indrag.
+Använd positiva värden för att ange indraget på första raden och negativa värden för att ange det hängande indraget.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -20,14 +20,14 @@ public double CharacterUnitFirstLineIndent { get; set; }
 
 ## Exempel
 
-Visar hur du ändrar styckeavstånd och indrag.
+Visar hur man ändrar styckeavstånd och indrag.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nedan finns fem olika mellanrumsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
+// Nedan följer fem olika avståndsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
 // 1 - Vänster indrag:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

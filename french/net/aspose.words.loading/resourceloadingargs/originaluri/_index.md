@@ -3,14 +3,14 @@ title: ResourceLoadingArgs.OriginalUri
 linktitle: OriginalUri
 articleTitle: OriginalUri
 second_title: Aspose.Words pour .NET
-description: ResourceLoadingArgs OriginalUri propriété. URI dorigine de la ressource tel que spécifié dans le document importé en C#.
+description: Découvrez la propriété ResourceLoadingArgs OriginalUri : accédez à l'URI d'origine des ressources à partir de documents importés pour une gestion simplifiée des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/resourceloadingargs/originaluri/
 ---
 ## ResourceLoadingArgs.OriginalUri property
 
-URI d'origine de la ressource tel que spécifié dans le document importé.
+URI d'origine de la ressource telle que spécifiée dans le document importé.
 
 ```csharp
 public string OriginalUri { get; }
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words för .NET
-description: ShapeRenderer byggare. Initierar en ny instans av den här klassen i C#.
+description: Upptäck ShapeRenderer-konstruktorn för att enkelt skapa och anpassa former i dina projekt, vilket förbättrar visuell attraktionskraft och funktionalitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,11 +18,11 @@ public ShapeRenderer(ShapeBase shape)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| shape | ShapeBase | DrawinML-formobjektet som du vill rendera. |
+| shape | ShapeBase | Det DrawinML-formobjekt som du vill rendera. |
 
 ## Exempel
 
-Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
+Visar hur man renderar en form med ett grafikobjekt och visar den med hjälp av ett Windows-formulär.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,7 +32,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Nedan finns två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett grafikobjekt.
+    // Nedan följer två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett Graphics-objekt.
     // 1 - Skapa en form med ett diagram och rendera den till en specifik skala.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -74,7 +74,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Återger och visar en lista med former.
+/// Renderar och visar en lista med former.
 /// </summary>
 private class ShapeForm : Form
 {

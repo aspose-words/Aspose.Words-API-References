@@ -3,7 +3,7 @@ title: MailMergeSettings.Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings Odso propriété. Obtient ou définit lobjet qui spécifie les paramètres de lobjet source de données Office ODSO en C#.
+description: Découvrez comment gérer facilement les paramètres de publipostage avec les propriétés ODSO. Optimisez l'automatisation de vos documents et optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 150
 url: /fr/net/aspose.words.settings/mailmergesettings/odso/
@@ -22,7 +22,7 @@ Cet objet n'est jamais`nul`.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

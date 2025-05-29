@@ -3,14 +3,14 @@ title: ImageData.GrayScale
 linktitle: GrayScale
 articleTitle: GrayScale
 second_title: Aspose.Words für .NET
-description: ImageData GrayScale eigendom. Legt fest ob ein Bild im Graustufenmodus angezeigt wird in C#.
+description: Entdecken Sie die ImageData GrayScale-Eigenschaft zur Optimierung Ihrer Bilder. Steuern Sie die Graustufenanzeige für beeindruckende visuelle Effekte und verbesserte Benutzerinteraktion.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/imagedata/grayscale/
 ---
 ## ImageData.GrayScale property
 
-Legt fest, ob ein Bild im Graustufenmodus angezeigt wird.
+Bestimmt, ob ein Bild im Graustufenmodus angezeigt wird.
 
 ```csharp
 public bool GrayScale { get; set; }
@@ -30,31 +30,31 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Eine Form aus dem Quelldokument importieren und an den ersten Absatz anhängen.
+// Importieren Sie eine Form aus dem Quelldokument und hängen Sie sie an den ersten Absatz an.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
-// Die importierte Form enthält ein Bild. Über das ImageData-Objekt können wir auf die Eigenschaften und Rohdaten des Bildes zugreifen.
+// Die importierte Form enthält ein Bild. Wir können über das ImageData-Objekt auf die Eigenschaften und Rohdaten des Bildes zugreifen.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
-// Wenn ein Bild keine Ränder hat, definiert sein ImageData-Objekt die Rahmenfarbe als leer.
+// Wenn ein Bild keine Ränder hat, definiert sein ImageData-Objekt die Randfarbe als leer.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Dieses Bild ist nicht mit einer anderen Form- oder Bilddatei im lokalen Dateisystem verknüpft.
+// Dieses Bild ist nicht mit einer anderen Form oder Bilddatei im lokalen Dateisystem verknüpft.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
-// Die Eigenschaften „Brightness“ und „Contrast“ definieren Bildhelligkeit und Kontrast
-// auf einer Skala von 0 bis 1, mit dem Standardwert 0,5.
+// Die Eigenschaften „Helligkeit“ und „Kontrast“ definieren Bildhelligkeit und Kontrast
+// auf einer Skala von 0 bis 1, wobei der Standardwert 0,5 ist.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// Die oben genannten Helligkeits- und Kontrastwerte haben ein Bild mit viel Weiß erzeugt.
-// Wir können mit der ChromaKey-Eigenschaft eine Farbe auswählen, die durch Transparenz ersetzt werden soll, z. B. Weiß.
+// Die obigen Helligkeits- und Kontrastwerte haben ein Bild mit viel Weiß erzeugt.
+// Wir können mit der ChromaKey-Eigenschaft eine Farbe auswählen, die durch Transparenz ersetzt werden soll, z. B. Weiß.
 imageData.ChromaKey = Color.White;
 
 // Importieren Sie die Quellform erneut und stellen Sie das Bild auf Monochrom ein.
@@ -63,15 +63,15 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
-// Importiere die Quellform erneut, um ein drittes Bild zu erstellen und setze es auf BiLevel.
-// BiLevel setzt jedes Pixel entweder auf Schwarz oder Weiß, je nachdem, was näher an der Originalfarbe liegt.
+// Importieren Sie die Quellform erneut, um ein drittes Bild zu erstellen und es auf BiLevel einzustellen.
+// BiLevel setzt jedes Pixel entweder auf Schwarz oder Weiß, je nachdem, was der Originalfarbe näher kommt.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Der Zuschnitt wird auf einer Skala von 0-1 bestimmt. Beschneiden einer Seite um 0,3
-// schneidet 30 % des Bildes an der beschnittenen Seite aus.
+// Das Zuschneiden erfolgt auf einer Skala von 0 bis 1. Zuschneiden einer Seite um 0,3
+// schneidet 30 % des Bildes auf der zugeschnittenen Seite ab.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

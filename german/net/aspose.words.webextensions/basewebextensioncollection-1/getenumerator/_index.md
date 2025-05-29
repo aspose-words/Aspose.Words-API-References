@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: BaseWebExtensionCollection GetEnumerator methode. Gibt einen Enumerator zurück der eine Sammlung durchlaufen kann in C#.
+description: Entdecken Sie die GetEnumerator-Methode von BaseWebExtensionCollection, um einfach durch Sammlungen zu iterieren und so Ihre Entwicklungseffizienz und Codeverwaltung zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -36,7 +36,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Web-Erweiterung entfernen.
+// Entfernen Sie die Weberweiterung.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

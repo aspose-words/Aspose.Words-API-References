@@ -3,14 +3,14 @@ title: Font.Border
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words для .NET
-description: Font Border свойство. ВозвращаетBorder объект задающий границу шрифта на С#.
+description: Откройте для себя свойство Font Border, которое предоставляет настраиваемый объект Border для улучшения стиля шрифта и гибкости дизайна.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Возвращает[`Border`](../../border/) объект, задающий границу шрифта.
+Возвращает[`Border`](../../border/) объект, задающий границу для шрифта.
 
 ```csharp
 public Border Border { get; }

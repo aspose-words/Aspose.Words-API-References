@@ -3,14 +3,14 @@ title: RevisionOptions.ShowInBalloons
 linktitle: ShowInBalloons
 articleTitle: ShowInBalloons
 second_title: Aspose.Words per .NET
-description: RevisionOptions ShowInBalloons proprietà. Permette di specificare se le revisioni vengono renderizzate nei fumetti. Il valore predefinito èNone  in C#.
+description: Scopri la proprietà ShowInBalloons di RevisionOptions! Controlla la visibilità delle revisioni nei fumetti per una maggiore chiarezza del documento. L'impostazione predefinita è Nessuno.
 type: docs
-weight: 160
+weight: 180
 url: /it/net/aspose.words.layout/revisionoptions/showinballoons/
 ---
 ## RevisionOptions.ShowInBalloons property
 
-Permette di specificare se le revisioni vengono renderizzate nei fumetti. Il valore predefinito èNone .
+Consente di specificare se le revisioni vengono renderizzate nei fumetti. Il valore predefinito èNone .
 
 ```csharp
 public ShowInBalloons ShowInBalloons { get; set; }
@@ -18,7 +18,7 @@ public ShowInBalloons ShowInBalloons { get; set; }
 
 ## Osservazioni
 
-Tieni presente che le revisioni non vengono visualizzate nei fumetti perShowInAnnotations .
+Nota che le revisioni non vengono visualizzate nei fumetti perShowInAnnotations .
 
 ## Esempi
 
@@ -27,8 +27,8 @@ Mostra come visualizzare le revisioni nei fumetti.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Per impostazione predefinita, il testo che è una revisione ha un colore diverso per differenziarlo dall'altro testo non di revisione.
-// Imposta un'opzione di revisione per mostrare maggiori dettagli su ciascuna revisione in un fumetto sul margine destro della pagina.
+// Per impostazione predefinita, il testo che costituisce una revisione ha un colore diverso per differenziarlo dal resto del testo non di revisione.
+// Imposta un'opzione di revisione per mostrare maggiori dettagli su ogni revisione in un fumetto sul margine destro della pagina.
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
 doc.Save(ArtifactsDir + "Revision.ShowRevisionBalloons.pdf");
 ```
@@ -38,10 +38,10 @@ Mostra come modificare l'aspetto delle revisioni.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Ottiene l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
+// Ottieni l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Visualizza le revisioni dell'inserimento in verde e corsivo.
+// Visualizza le revisioni di inserimento in verde e corsivo.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
@@ -51,18 +51,18 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Lo stesso testo apparirà due volte in una revisione del movimento:
 // una volta al punto di partenza e una volta alla destinazione di arrivo.
-// Rende il testo della revisione spostata in giallo con un doppio barrato
-// e doppia sottolineatura in blu nella revisione spostata.
+// Rendi il testo della revisione spostata in giallo con una doppia barratura
+// e doppia sottolineatura blu nella revisione spostata.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Rende le revisioni del formato in rosso scuro e grassetto.
+// Visualizza le revisioni del formato in rosso scuro e in grassetto.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Posiziona una spessa barra blu scuro sul lato sinistro della pagina accanto alle righe interessate dalle revisioni.
+// Inserire una barra spessa blu scuro sul lato sinistro della pagina, accanto alle righe interessate dalle revisioni.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -70,12 +70,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Ottieni movimento, eliminazione, revisioni di formattazione e commenti da visualizzare in fumetti verdi
+// Ottieni che i movimenti, le eliminazioni, le revisioni di formattazione e i commenti vengano visualizzati in palloncini verdi
 // sul lato destro della pagina.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Queste funzionalità sono applicabili solo a formati come .pdf o .jpg.
+// Queste funzionalità sono applicabili solo ai formati quali .pdf o .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

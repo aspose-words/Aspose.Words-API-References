@@ -2,15 +2,15 @@
 title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
-second_title: Aspose.Words for .NET
-description: OoxmlSaveOptions inşaatçı. Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Docx format C#'da.
+second_title: .NET için Aspose.Words
+description: Belgeleri Docx formatında zahmetsizce kaydetmek için OoxmlSaveOptions oluşturucusunu keşfedin. Sorunsuz belge yönetiminin ve gelişmiş uyumluluğun kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Docx format.
+Bu sınıfın, bir belgeyi kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Docx biçim.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,14 +18,14 @@ public OoxmlSaveOptions()
 
 ## Örnekler
 
-Kaydedilen bir belge için uyulması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
+Kaydedilen bir belgenin uyması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Uyumluluk seçeneklerini Microsoft Word 2003'e uyacak şekilde yapılandırırsak,
-// bir görüntünün eklenmesi, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
+// Uyumluluk seçeneklerini Microsoft Word 2003 ile uyumlu olacak şekilde yapılandırırsak,
+// Bir resim eklemek, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -33,7 +33,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // "ISO/IEC 29500:2008" OOXML standardı VML şekillerini desteklemez.
 // SaveOptions nesnesinin "Compliance" özelliğini "OoxmlCompliance.Iso29500_2008_Strict" olarak ayarlarsak,
- // bu nesneyi geçerken kaydettiğimiz herhangi bir belgenin bu standarda uyması gerekecek.
+ // Bu nesneyi geçirirken kaydettiğimiz her belgenin o standarda uyması gerekecektir.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
+// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için şekli DML kullanarak tanımlar.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Docx , Docm ,Dotx ,Dotm veya FlatOpc format.
+Bu sınıfın, bir belgeyi kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Docx , Docm ,Dotx ,Dotm veya FlatOpc biçim.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -75,11 +75,11 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
-// Korumak için "KeepLegacyControlChars" özelliğini "true" olarak ayarlayın
-// kaydederken "ShortDateTime" eski karakteri.
-// Kaldırmak için "KeepLegacyControlChars" özelliğini "false" olarak ayarlayın
+// Belgeyi OOXML biçiminde kaydettiğimizde, bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgenin nasıl kaydedileceğini değiştirmek için bunu belgenin kaydetme yöntemine geçiriyoruz.
+// "KeepLegacyControlChars" özelliğini korumak için "true" olarak ayarlayın
+// Kaydederken "ShortDateTime" eski karakteri.
+// "KeepLegacyControlChars" özelliğini kaldırmak için "false" olarak ayarlayın
 // çıktı belgesindeki "ShortDateTime" eski karakteri.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;

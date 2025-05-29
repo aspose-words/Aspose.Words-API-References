@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeEnd Id 财产. 为此指定唯一的只读持久数字 ID结构化文档标签范围 node. 对应StructuredDocumentTagRangeStart节点有相同的Id 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTagRangeEnd Id 属性，这是一个用于无缝文档标记的唯一只读标识符。立即增强您的文档管理！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-为此指定唯一的只读持久数字 ID**结构化文档标签范围** node. 对应[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/)节点有相同的[`Id`](../../structureddocumenttagrangestart/id/).
+指定一个唯一的只读持久数字 ID**结构化文档标签范围** node. 对应[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/)节点具有相同[`Id`](../../structureddocumenttagrangestart/id/).
 
 ```csharp
 public int Id { get; }
@@ -18,7 +18,7 @@ public int Id { get; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

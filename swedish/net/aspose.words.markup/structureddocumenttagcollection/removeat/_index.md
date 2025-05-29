@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagCollection RemoveAt metod. Tar bort en strukturerad dokumenttagg vid det angivna indexet i C#.
+description: Hantera enkelt dina strukturerade dokumenttaggar med metoden RemoveAt. Ta snabbt bort taggar efter index för effektiv dokumentredigering.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/removeat/
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| index | Int32 | Ett index i samlingen. |
+| index | Int32 | Ett index till samlingen. |
 
 ## Exempel
 
-Visar hur man tar bort strukturerad dokumenttagg.
+Visar hur man tar bort taggen för strukturerat dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Ta bort den strukturerade dokumenttaggen med Id.
+// Ta bort taggen för det strukturerade dokumentet med Id.
 structuredDocumentTags.Remove(1691867797);
-// Ta bort den strukturerade dokumenttaggen vid position 0.
+// Ta bort taggen för det strukturerade dokumentet vid position 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

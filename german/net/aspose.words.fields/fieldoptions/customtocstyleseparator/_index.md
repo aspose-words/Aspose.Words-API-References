@@ -3,14 +3,14 @@ title: FieldOptions.CustomTocStyleSeparator
 linktitle: CustomTocStyleSeparator
 articleTitle: CustomTocStyleSeparator
 second_title: Aspose.Words für .NET
-description: FieldOptions CustomTocStyleSeparator eigendom. Ruft ein benutzerdefiniertes Stiltrennzeichen für den tSchalter ab oder legt es festFieldToc field in C#.
+description: Entdecken Sie die FieldOptions CustomTocStyleSeparator-Eigenschaft, um den Stiltrenner Ihres FieldToc-Felds für eine verbesserte Dokumentnavigation einfach anzupassen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-Ruft ein benutzerdefiniertes Stiltrennzeichen für den \t-Schalter ab oder legt es fest[`FieldToc`](../../fieldtoc/) field.
+Ruft einen benutzerdefinierten Stiltrenner für den \t-Schalter ab oder legt ihn fest in[`FieldToc`](../../fieldtoc/) Feld.
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }
@@ -18,11 +18,11 @@ public string CustomTocStyleSeparator { get; set; }
 
 ## Bemerkungen
 
-Standardmäßig werden benutzerdefinierte Stile, die durch den Schalter \t im definiert werden, verwendet[`FieldToc`](../../fieldtoc/)Felder werden durch ein Trennzeichen aus der aktuellen Kultur getrennt. Diese Eigenschaft überschreibt dieses Verhalten, indem sie ein benutzerdefiniertes Trennzeichen angibt.
+Standardmäßig werden benutzerdefinierte Stile, die durch den Schalter \t in der[`FieldToc`](../../fieldtoc/) Felder werden durch ein Trennzeichen aus der aktuellen Kultur getrennt. Diese Eigenschaft überschreibt dieses Verhalten durch Angabe eines benutzerdefinierten Trennzeichens.
 
 ## Beispiele
 
-Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
+Zeigt, wie Sie ein Inhaltsverzeichnis einfügen und es mit Einträgen basierend auf Überschriftenstilen füllen.
 
 ```csharp
 public void FieldToc()
@@ -32,30 +32,30 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // Ein TOC-Feld einfügen, das alle Überschriften in einem Inhaltsverzeichnis zusammenstellt.
+    // Fügen Sie ein TOC-Feld ein, das alle Überschriften in einem Inhaltsverzeichnis zusammenfasst.
     // Für jede Überschrift erstellt dieses Feld eine Zeile mit dem Text in diesem Überschriftenstil auf der linken Seite.
-    // und die Seite, auf der die Überschrift rechts erscheint.
+    // und rechts die Seite, auf der die Überschrift erscheint.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Verwenden Sie die BookmarkName-Eigenschaft, um nur Überschriften aufzulisten
+    // Verwenden Sie die Eigenschaft BookmarkName, um nur Überschriften aufzulisten
     // die innerhalb der Grenzen eines Lesezeichens mit dem Namen „MyBookmark“ erscheinen.
     field.BookmarkName = "MyBookmark";
 
-    // Text mit einem integrierten Überschriftenstil, z. B. „Überschrift 1“, der darauf angewendet wird, zählt als Überschrift.
-    // Wir können zusätzliche Stile benennen, die vom Inhaltsverzeichnis in dieser Eigenschaft als Überschriften aufgenommen werden sollen, und deren Inhaltsverzeichnisebenen.
+    // Text mit einem integrierten Überschriftenstil, z. B. „Überschrift 1“, wird als Überschrift gezählt.
+    // In dieser Eigenschaft und den Inhaltsverzeichnisebenen können wir weitere Stile benennen, die als Überschriften vom Inhaltsverzeichnis übernommen werden sollen.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // Standardmäßig werden Styles/TOC-Ebenen in der CustomStyles-Eigenschaft durch ein Komma getrennt.
+    // Standardmäßig werden Stile/Inhaltsverzeichnisebenen in der Eigenschaft „CustomStyles“ durch ein Komma getrennt.
     // aber wir können in dieser Eigenschaft ein benutzerdefiniertes Trennzeichen festlegen.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
     // Konfigurieren Sie das Feld so, dass alle Überschriften ausgeschlossen werden, deren Inhaltsverzeichnisebenen außerhalb dieses Bereichs liegen.
     field.HeadingLevelRange = "1-3";
 
-    // Das Inhaltsverzeichnis zeigt nicht die Seitenzahlen von Überschriften an, deren Inhaltsverzeichnisebenen in diesem Bereich liegen.
+    // Das Inhaltsverzeichnis zeigt nicht die Seitenzahlen von Überschriften an, deren Inhaltsverzeichnisebenen innerhalb dieses Bereichs liegen.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // Legen Sie eine benutzerdefinierte Zeichenfolge fest, die jede Überschrift von ihrer Seitenzahl trennt.
+        // Legen Sie eine benutzerdefinierte Zeichenfolge fest, die jede Überschrift von ihrer Seitenzahl trennt.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -73,7 +73,7 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // Dieser Eintrag wird nicht angezeigt, da „Überschrift 4“ außerhalb des zuvor festgelegten Bereichs „1-3“ liegt.
+    // Dieser Eintrag wird nicht angezeigt, da „Überschrift 4“ außerhalb des zuvor festgelegten Bereichs „1–3“ liegt.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
@@ -90,7 +90,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// Eine neue Seite beginnen und einen Absatz eines bestimmten Stils einfügen.
+/// Beginnen Sie eine neue Seite und fügen Sie einen Absatz im angegebenen Stil ein.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

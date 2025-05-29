@@ -2,15 +2,15 @@
 title: FieldDatabaseDataTable
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
-second_title: Aspose.Words for .NET
-description: FieldDatabaseDataTable inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataTable class C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veritabanı yönetimi ve gelişmiş performans için veri tablolarını verimli bir şekilde başlatmanın anahtarı olan FieldDatabaseDataTable oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable constructor
 
-Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](../) class.
+Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](../) sınıf.
 
 ```csharp
 public FieldDatabaseDataTable(params string[] columnNames)

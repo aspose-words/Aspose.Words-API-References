@@ -2,8 +2,8 @@
 title: ChartAxisCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: ChartAxisCollection Count mülk. Bu koleksiyondaki eksen sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Toplam eksen sayısına kolayca erişmek için ChartAxisCollection Count özelliğini keşfedin ve veri görselleştirme deneyiminizi geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartaxiscollection/count/

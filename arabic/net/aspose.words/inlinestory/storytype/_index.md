@@ -3,14 +3,14 @@ title: InlineStory.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words لـ .NET
-description: InlineStory StoryType ملكية. إرجاع نوع القصة في C#.
+description: اكتشف خاصية InlineStory StoryType، التي تكشف عن النوع الفريد لقصتك. حسّن سردك القصصي بتصنيف دقيق!
 type: docs
 weight: 100
 url: /ar/net/aspose.words/inlinestory/storytype/
 ---
 ## InlineStory.StoryType property
 
-إرجاع نوع القصة.
+يعيد نوع القصة.
 
 ```csharp
 public abstract StoryType StoryType { get; }
@@ -29,19 +29,19 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 Table table = new Table(doc);
 table.EnsureMinimum();
 
-// يمكننا وضع جدول داخل الحاشية السفلية، مما يجعله يظهر في تذييل الصفحة المرجعية.
-Assert.That(footnote.Tables, Is.Empty);
+//يمكننا وضع جدول داخل الحاشية السفلية، مما سيجعله يظهر في تذييل الصفحة المرجعية.
+Assert.AreEqual(0, footnote.Tables.Count);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// تحتوي InlineStory على طريقة "EnsureMinimum()" أيضًا، ولكن في هذه الحالة،
-// يتأكد من أن الطفل الأخير للعقدة هو فقرة،
-// لكي نتمكن من النقر على النص وكتابته بسهولة في Microsoft Word.
+// تحتوي InlineStory أيضًا على طريقة "EnsureMinimum()"، ولكن في هذه الحالة،
+// يتأكد من أن آخر طفل للعقدة هو فقرة،
+// حتى نتمكن من النقر وكتابة النص بسهولة في Microsoft Word.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
-// قم بتحرير مظهر المرساة، وهو رقم مرتفع صغير
+// تعديل مظهر المرساة، وهو الرقم العلوي الصغير
 // في النص الرئيسي الذي يشير إلى الحاشية السفلية.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
@@ -49,21 +49,21 @@ footnote.Font.Color = Color.Green;
 // جميع عقد القصة المضمنة لها أنواع القصة الخاصة بها.
 Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 
-// التعليق هو نوع آخر من القصة المضمّنة.
+//التعليق هو نوع آخر من القصة المضمنة.
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
 // ستكون الفقرة الأصلية لعقدة القصة المضمنة هي الفقرة الموجودة في نص المستند الرئيسي.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
-// ومع ذلك، فإن الفقرة الأخيرة هي تلك الموجودة في محتوى نص التعليق،
-// والذي سيكون خارج نص المستند الرئيسي في فقاعة الكلام.
+// ومع ذلك، فإن الفقرة الأخيرة هي الفقرة الموجودة في محتوى نص التعليق،
+// والتي ستكون خارج نص المستند الرئيسي في فقاعة الكلام.
 // لن يحتوي التعليق على أي عقد فرعية بشكل افتراضي،
 // حتى نتمكن من تطبيق طريقة EnsureMinimum() لوضع فقرة هنا أيضًا.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);
 
-// بمجرد أن يكون لدينا فقرة، يمكننا تحريك المنشئ للقيام بذلك وكتابة تعليقنا.
+// بمجرد أن نحصل على فقرة، يمكننا تحريك المنشئ للقيام بذلك وكتابة تعليقنا.
 builder.MoveTo(comment.LastParagraph);
 builder.Write("My comment.");
 

@@ -3,9 +3,9 @@ title: FieldStart Class
 linktitle: FieldStart
 articleTitle: FieldStart
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldStart classe. Rappresenta linizio di un campo Word in un documento in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldStart, la chiave per gestire in modo efficiente i campi di Word nei documenti. Migliora l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 2430
+weight: 2840
 url: /it/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -24,23 +24,23 @@ public class FieldStart : FieldChar
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Ottiene i dati del campo personalizzato associati al campo. |
+| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Ottiene i dati del campo personalizzato associato al campo. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Restituisce il tipo del campo. |
-| [Font](../../aspose.words/inline/font/) { get; } | Fornisce l'accesso alla formattazione dei caratteri di questo oggetto. |
+| [Font](../../aspose.words/inline/font/) { get; } | Fornisce l'accesso alla formattazione del carattere di questo oggetto. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce`VERO` se questo nodo può contenere altri nodi. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Restituisce true se questo oggetto è stato eliminato in Microsoft Word mentre il monitoraggio delle modifiche era abilitato. |
 | [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Restituisce true se la formattazione dell'oggetto è stata modificata in Microsoft Word mentre era abilitato il rilevamento delle modifiche. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Ottiene o imposta se il campo padre è bloccato (non deve ricalcolare il risultato). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Restituisce`VERO` se questo oggetto è stato spostato (eliminato) in Microsoft Word mentre il rilevamento delle modifiche era abilitato. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Restituisce`VERO` se questo oggetto è stato spostato (inserito) in Microsoft Word mentre il rilevamento delle modifiche era abilitato. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Restituisce true se la formattazione dell'oggetto è stata modificata in Microsoft Word mentre il rilevamento delle modifiche era abilitato. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Restituisce true se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato. |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Ottiene o imposta se il campo padre è bloccato (non dovrebbe ricalcolare il suo risultato). |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Restituisce`VERO` se questo oggetto è stato spostato (eliminato) in Microsoft Word mentre il monitoraggio delle modifiche era abilitato. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Restituisce`VERO` se questo oggetto è stato spostato (inserito) in Microsoft Word mentre il monitoraggio delle modifiche era abilitato. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | RestituisceFieldStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Recupera il genitore[`Paragraph`](../../aspose.words/paragraph/) di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../../aspose.words/range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../../aspose.words/range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -52,21 +52,21 @@ public class FieldStart : FieldChar
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Restituisce un campo per il campo char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ottiene il carattere speciale rappresentato da questo nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ## Osservazioni
 
-`FieldStart` è un nodo a livello in linea e rappresentato da the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) carattere di controllo nel documento.
+`FieldStart` è un nodo di livello inline ed è rappresentato da [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) carattere di controllo nel documento.
 
 `FieldStart` può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
 
-Un campo completo in un documento Microsoft Word è una struttura complessa composta da un carattere di inizio campo, un codice di campo, un carattere separatore di campo, un risultato di campo e un carattere di fine campo. Alcuni campi hanno solo inizio campo, codice campo e fine campo.
+Un campo completo in un documento di Microsoft Word è una struttura complessa composta da un carattere di inizio campo, un codice campo, un carattere separatore campo, un risultato campo e un carattere di fine campo. Alcuni campi hanno solo inizio campo, codice campo e fine campo.
 
-Per inserire facilmente un nuovo campo in un documento, utilizzare il comando[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Metodo .
+Per inserire facilmente un nuovo campo in un documento, utilizzare[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Metodo .
 
 ## Esempi
 
@@ -90,7 +90,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itera sulla raccolta di campi e stampa contenuto e tipo
+    // Esegui l'iterazione sulla raccolta dei campi e stampa il contenuto e il tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -115,7 +115,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
+/// Implementazione del visitatore del documento che stampa le informazioni sui campi.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -125,7 +125,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -133,7 +133,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -145,7 +145,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -155,7 +155,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -168,7 +168,7 @@ public class FieldVisitor : DocumentVisitor
 }
 ```
 
-Mostra come trovare tutti i collegamenti ipertestuali in un documento di Word e quindi modificarne gli URL e i nomi visualizzati.
+Mostra come trovare tutti i collegamenti ipertestuali in un documento Word e quindi modificarne gli URL e i nomi visualizzati.
 
 ```csharp
 using System;
@@ -187,9 +187,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // I collegamenti ipertestuali nei documenti Word sono campi. Per iniziare a cercare i collegamenti ipertestuali, dobbiamo prima trovare tutti i campi.
-            // Utilizza il metodo "SelectNodes" per trovare tutti i campi nel documento tramite un XPath.
-            NodeList fieldStarts = doc.SelectNodes("//Inizio campo");
+            // I collegamenti ipertestuali in un documento Word sono campi. Per iniziare a cercare i collegamenti ipertestuali, dobbiamo prima trovare tutti i campi.
+            // Utilizzare il metodo "SelectNodes" per trovare tutti i campi nel documento tramite un XPath.
+            NodeList fieldStarts = doc.SelectNodes("//InizioCampo");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -197,11 +197,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // I collegamenti ipertestuali che si collegano ai segnalibri non hanno URL.
+                    // I collegamenti ipertestuali che rimandano ai segnalibri non hanno URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Assegna a ogni collegamento ipertestuale URL un nuovo URL e nome.
+                    // Assegna a ciascun collegamento URL un nuovo URL e un nuovo nome.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -215,7 +215,7 @@ namespace ApiExamples
     }
 
      ///<summary>
-      ///I campi HYPERLINK contengono e visualizzano i collegamenti ipertestuali nel corpo del documento. Un campo in Aspose.Words
+      ///I campi HYPERLINK contengono e visualizzano collegamenti ipertestuali nel corpo del documento. Un campo in Aspose.Words
       ///è costituito da diversi nodi e potrebbe essere difficile lavorare direttamente con tutti questi nodi.
      ///Questa implementazione funzionerà solo se il codice e il nome del collegamento ipertestuale sono costituiti ciascuno da un solo nodo Esegui.
     ///
@@ -245,10 +245,10 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalmente possiamo sempre trovare il nodo finale del campo, ma il documento di esempio
+             // Normalmente, possiamo sempre trovare il nodo finale del campo, ma il documento di esempio
              // contiene un'interruzione di paragrafo all'interno di un collegamento ipertestuale, che pone la fine del campo
-            // nel paragrafo successivo. Sarà molto più complicato gestire campi che si estendono su più campi
-            // paragrafi correttamente. In questo caso è sufficiente consentire che la fine del campo sia nulla.
+             // nel prossimo paragrafo. Sarà molto più complicato gestire campi che si estendono su più
+            // paragrafi correttamente. In questo caso, è sufficiente lasciare che la fine del campo sia null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
             // Il codice del campo assomiglia a "HYPERLINK "http:\\www.myurl.com"", ma può essere costituito da più esecuzioni.
@@ -265,15 +265,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Il nome visualizzato del collegamento ipertestuale viene archiviato nel campo risultato, che è Run
+                 // Il nome visualizzato del collegamento ipertestuale è memorizzato nel risultato del campo, che è un'esecuzione
                 // nodo tra il separatore di campo e la fine del campo.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Se il risultato del campo è costituito da più di un'esecuzione, eliminare queste esecuzioni.
+                // Se il risultato del campo è costituito da più di un'esecuzione, eliminare tali esecuzioni.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -283,7 +286,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -296,7 +302,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -368,10 +377,10 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Uno o più non spazi HYPERLINK o altra parola in altre lingue.
+            "\\S+" + // Uno o più collegamenti ipertestuali senza spazi o altre parole in altre lingue.
             "\\s+" + // Uno o più spazi.
-            "(?:\"\"\\s+)?" + // Opzionale "" che non cattura e uno o più spazi.
-            "(\\\\l\\s+)?" + // Flag facoltativo \l seguito da uno o più spazi.
+            "(?:\"\"\\s+)?" + // "" facoltativo non catturante e uno o più spazi.
+            "(\\\\l\\s+)?" + // Flag \l facoltativo seguito da uno o più spazi.
             "\"" +  // Un apostrofo.
             "([^\"]+)" + // Uno o più caratteri, escluso l'apostrofo (destinazione del collegamento ipertestuale).
             "\"" // Un apostrofo di chiusura.

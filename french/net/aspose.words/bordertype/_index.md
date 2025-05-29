@@ -3,16 +3,16 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.BorderType énumération. Spécifie les côtés dune bordure en C#.
+description: Découvrez l'énumération Aspose.Words.BorderType pour personnaliser vos bordures. Améliorez vos documents grâce à un contrôle précis des bordures et à un style précis !
 type: docs
-weight: 100
+weight: 290
 url: /fr/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
 Spécifie les côtés d'une bordure.
 
-Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article de documentation.
 
 ```csharp
 public enum BorderType
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Définit ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
+// Définissez ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

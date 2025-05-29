@@ -2,17 +2,17 @@
 title: FontNameSubstitutionRule Class
 linktitle: FontNameSubstitutionRule
 articleTitle: FontNameSubstitutionRule
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule sınıf. Yazı tipi adının işlenmesi için yazı tipi değiştirme kuralı C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli font adı işleme ve kusursuz belge biçimlendirme için Aspose.Words.Fonts.FontNameSubstitutionRule sınıfını keşfedin. Metin oluşturmanızı geliştirin!
 type: docs
-weight: 2950
+weight: 3380
 url: /tr/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
-Yazı tipi adının işlenmesi için yazı tipi değiştirme kuralı.
+Yazı tipi adını işlemek için yazı tipi değiştirme kuralı.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -26,7 +26,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ## Notlar
 
-Bu kurala göre Aspose.Words, yazı tipi adını değiştirmeyi elde etmek için işlemeye çalışır. Özellikle Aspose.Words, MS Word'de olduğu gibi '-', ',' ve '(' ayırıcıları içeren son ekleri kaldırmaya çalışır.
+Bu kurala göre Aspose.Words, ikameyi elde etmek için yazı tipi adını işlemeye çalışır. Özellikle Aspose.Words, MS Word'de yaptığı gibi '-', ',' ve '(' ayırıcıları olan ekleri kaldırmaya çalışır.
 
 ### Ayrıca bakınız
 

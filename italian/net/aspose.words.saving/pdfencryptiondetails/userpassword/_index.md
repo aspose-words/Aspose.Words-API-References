@@ -3,7 +3,7 @@ title: PdfEncryptionDetails.UserPassword
 linktitle: UserPassword
 articleTitle: UserPassword
 second_title: Aspose.Words per .NET
-description: PdfEncryptionDetails UserPassword proprietà. Specifica la password utente richiesta per aprire il documento PDF crittografato in C#.
+description: Scopri come la proprietà UserPassword migliora la sicurezza dei PDF richiedendo una password per l'accesso, garantendo così la protezione e la riservatezza dei tuoi documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -18,9 +18,9 @@ public string UserPassword { get; set; }
 
 ## Osservazioni
 
-La password utente sarà richiesta per aprire un documento PDF crittografato per la visualizzazione. Le autorizzazioni specificate in [`Permissions`](../permissions/) verrà applicato dal software del lettore.
+Sarà richiesta la password utente per aprire un documento PDF crittografato e visualizzarlo. Le autorizzazioni specificate in [`Permissions`](../permissions/) verrà applicata dal software di lettura.
 
-La password dell'utente può essere`nullo` oppure stringa vuota, in questo caso non verrà richiesta alcuna password all'utente all'apertura del documento PDF. La password dell'utente non può essere uguale alla password del proprietario.
+La password utente può essere`null` o stringa vuota, in questo caso non verrà richiesta alcuna password all'utente quando apre il documento PDF. La password utente non può essere uguale alla password del proprietario.
 
 ## Esempi
 
@@ -32,17 +32,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Estende i permessi per consentire la modifica delle annotazioni.
+// Estendi i permessi per consentire la modifica delle annotazioni.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Abilita la crittografia tramite la proprietà "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Quando apriremo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
+// Quando apriamo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

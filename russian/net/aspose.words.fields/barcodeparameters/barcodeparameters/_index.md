@@ -3,7 +3,7 @@ title: BarcodeParameters
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.Words для .NET
-description: BarcodeParameters строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор BarcodeParameters для бесшовной интеграции. Откройте для себя эффективное управление штрихкодами с помощью нашего простого в использовании конструктора по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/barcodeparameters/barcodeparameters/

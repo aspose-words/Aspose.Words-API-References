@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ImageResolution propriété. Spécifie la résolution de sortie des images lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut est96 ppp  en C#.
+description: Ajustez facilement la résolution de vos images grâce à HtmlSaveOptions. Optimisez vos exportations HTML, MHTML ou EPUB grâce à des paramètres personnalisables pour des visuels époustouflants.
 type: docs
 weight: 340
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-Spécifie la résolution de sortie des images lors de l'exportation au format HTML, MHTML ou EPUB. La valeur par défaut est`96 ppp` .
+Spécifie la résolution de sortie des images lors de l'exportation au format HTML, MHTML ou EPUB. La valeur par défaut est`96 dpi` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -18,11 +18,11 @@ public int ImageResolution { get; set; }
 
 ## Remarques
 
-Cette propriété affecte les images raster lorsque[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) est`vrai` et métafichiers d'effets exportés sous forme d'images raster. Certaines propriétés d'image telles que cropping ou rotation nécessitent l'enregistrement des images transformées et dans ce cas, les images transformées sont créées dans la résolution donnée .
+Cette propriété affecte les images raster lorsque[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) est`vrai` et les métafichiers d'effets exportés sous forme d'images raster. Certaines propriétés d'image, telles que le recadrage (x000d_) ou la rotation, nécessitent l'enregistrement des images transformées ; dans ce cas, les images transformées sont créées avec la résolution (x000d_).
 
 ## Exemples
 
-Montre comment définir des dossiers et des alias de dossier pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
+Montre comment définir des dossiers et des alias de dossiers pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

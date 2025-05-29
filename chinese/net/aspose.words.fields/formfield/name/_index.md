@@ -2,8 +2,8 @@
 title: FormField.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: FormField Name 财产. 获取或设置表单字段名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何轻松管理 FormField Name 属性以自定义和优化表单，从而实现更好的用户参与度和数据收集。
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/formfield/name/
@@ -22,7 +22,7 @@ Microsoft Word 允许最多包含 20 个字符的字符串。
 
 ## 例子
 
-演示如何插入组合框。
+显示如何插入组合框。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// 表单字段将以“select”html 标签的形式出现。
+// 表单字段将以“select”html标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

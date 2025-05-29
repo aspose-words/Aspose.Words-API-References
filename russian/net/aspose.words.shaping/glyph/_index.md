@@ -3,14 +3,14 @@ title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Shaping.Glyph сорт. Представляет собой глиф  на С#.
+description: Откройте для себя класс Aspose.Words.Shaping.Glyph — ваш ключ к продвинутой типографике и точному представлению глифов для бесшовного форматирования документов.
 type: docs
-weight: 6040
+weight: 6870
 url: /ru/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
 
-Представляет собой глиф .
+Представляет глиф
 
 ```csharp
 public class Glyph
@@ -26,9 +26,9 @@ public class Glyph
 
 | Имя | Описание |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Расширенная ширина, указывающая размещение последующего глифа. |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Смещение по горизонтали (x) относительно положения глифа. Чаще всего используется для прикрепления знаков (например, диакритических знаков) к базовым символам. |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Смещение по вертикали (y) относительно положения глифа. Чаще всего используется для прикрепления знаков (например, диакритических знаков) к базовым символам. |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Ширина продвижения, указывающая размещение последующего глифа. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Горизонтальное (x) смещение относительно положения глифа. В основном используется для присоединения знаков (например, диакритических) к базовым символам. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Вертикальное (y) смещение относительно положения глифа. В основном используется для присоединения знаков (например, диакритических) к базовым символам. |
 | [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | Индекс глифа (GID) в физическом шрифте. |
 
 ## Методы
@@ -36,7 +36,7 @@ public class Glyph
 | Имя | Описание |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Возвращает клон этого экземпляра. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Возвращает ширину (прогресс) глифа в пунктах. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Возвращает ширину (продвижение) глифа в пунктах. |
 
 ### Смотрите также
 

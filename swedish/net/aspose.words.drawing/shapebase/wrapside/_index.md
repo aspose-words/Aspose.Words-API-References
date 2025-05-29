@@ -3,14 +3,14 @@ title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words för .NET
-description: ShapeBase WrapSide fast egendom. Anger hur texten lindas runt formen i C#.
+description: Upptäck ShapeBase WrapSide-egenskapen för att styra textbrytning runt former, vilket förbättrar din designs visuella attraktionskraft och läsbarhet.
 type: docs
-weight: 590
+weight: 630
 url: /sv/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
 
-Anger hur texten lindas runt formen.
+Anger hur texten radbryts runt formen.
 
 ```csharp
 public WrapSide WrapSide { get; set; }
@@ -20,7 +20,7 @@ public WrapSide WrapSide { get; set; }
 
 Standardvärdet ärBoth.
 
-Har effekt endast för former på högsta nivå.
+Har endast effekt för former på översta nivån.
 
 ## Exempel
 

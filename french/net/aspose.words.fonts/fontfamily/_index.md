@@ -3,9 +3,9 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontFamily énumération. Représente la famille de polices en C#.
+description: Découvrez l'énumération Aspose.Words.Fonts.FontFamily, votre clé pour gérer sans effort diverses familles de polices pour un style et un formatage de document améliorés.
 type: docs
-weight: 2910
+weight: 3340
 url: /fr/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -20,16 +20,16 @@ public enum FontFamily
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Auto | `0` | Spécifie un nom de famille générique. Ce nom est utilisé lorsque les informations sur une police n'existent pas ou n'ont pas d'importance. La police par défaut est utilisée. |
-| Roman | `1` | Spécifie une police proportionnelle avec des empattements. Un exemple est Times New Roman. |
-| Swiss | `2` | Spécifie une police proportionnelle sans empattements. Un exemple est Arial. |
-| Modern | `3` | Spécifie une police à espacement fixe avec ou sans empattements. Les polices monospaces sont généralement modernes ; les exemples incluent Pica, Elite et Courier New. |
+| Auto | `0` | Spécifie un nom de famille générique. Ce nom est utilisé lorsque les informations sur une police sont inexistantes ou sans importance. La police par défaut est utilisée. |
+| Roman | `1` | Spécifie une police proportionnelle avec empattements. Par exemple, Times New Roman. |
+| Swiss | `2` | Spécifie une police proportionnelle sans empattements. Par exemple, Arial. |
+| Modern | `3` | Spécifie une police à espacement fixe avec ou sans empattements. Les polices à espacement fixe sont généralement modernes ; par exemple, Pica, Elite et Courier New. |
 | Script | `4` | Spécifie une police conçue pour ressembler à une écriture manuscrite ; les exemples incluent Script et Cursive. |
-| Decorative | `5` | Spécifie une police de nouveauté. Un exemple est le vieil anglais. |
+| Decorative | `5` | Spécifie une police originale. Par exemple, le vieil anglais. |
 
 ## Remarques
 
-Une famille de polices est un ensemble de polices ayant des caractéristiques communes de largeur de trait et d’empattement.
+Une famille de polices est un ensemble de polices ayant une largeur de trait et des caractéristiques d'empattement communes.
 
 ## Exemples
 

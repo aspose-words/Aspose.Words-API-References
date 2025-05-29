@@ -2,15 +2,15 @@
 title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading Texture 财产. 获取或设置着色纹理 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“阴影纹理”属性，提升您的设计。轻松自定义和设置纹理，为您的项目打造惊艳的视觉效果。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
 
-获取或设置着色纹理。
+获取或设置阴影纹理。
 
 ```csharp
 public TextureIndex Texture { get; set; }
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## 例子
 
-展示如何用边框和底纹装饰文本。
+展示如何使用边框和阴影装饰文本。
 
 ```csharp
 Document doc = new Document();

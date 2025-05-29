@@ -3,14 +3,14 @@ title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
 second_title: Aspose.Words per .NET
-description: Document UpdateThumbnail metodo. AggiornamentiThumbnail del documento secondo le opzioni specificate in C#.
+description: Aggiorna facilmente la miniatura del tuo documento con le nostre opzioni personalizzabili. Migliora la grafica e la presentazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 780
+weight: 840
 url: /it/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
-Aggiornamenti[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) del documento secondo le opzioni specificate.
+Aggiornamenti[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) del documento in base alle opzioni specificate.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -22,7 +22,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ## Osservazioni
 
-Il[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) ti consente di specificare l'origine della miniatura, la dimensione e altre opzioni. Se il tentativo di generare la miniatura fallisce, non ne viene modificata una.
+Il[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) consente di specificare l'origine della miniatura, la dimensione e altre opzioni. Se il tentativo di generare una miniatura fallisce, non ne modifica una.
 
 ## Esempi
 
@@ -35,7 +35,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in formato .epub.
 // 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
@@ -77,7 +77,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in formato .epub.
 // 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

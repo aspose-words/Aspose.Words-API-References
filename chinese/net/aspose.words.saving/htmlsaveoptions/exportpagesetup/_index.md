@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ExportPageSetup 财产. 指定是否将页面设置导出为 HTMLMHTML 或 EPUB 默认为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 HtmlSaveOptions ExportPageSetup 属性如何通过允许自定义页面设置来增强您的 HTML、MHTML 或 EPUB 导出以获得更好的输出。
 type: docs
 weight: 220
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-指定是否将页面设置导出为 HTML、MHTML 或 EPUB。 默认为`错误的`.
+指定页面设置是否导出为 HTML、MHTML 或 EPUB。 默认值为`错误的`.
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## 评论
 
-每个[`Section`](../../../aspose.words/section/)在Aspose.Words文档模型中提供页面设置信息 via[`PageSetup`](../../../aspose.words/pagesetup/)班级。当您将文档导出为 HTML 格式时，您可能需要保留此信息 以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印） 或随后转换为本机 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
+每个[`Section`](../../../aspose.words/section/)在 Aspose.Words 文档模型中提供页面设置信息 通过[`PageSetup`](../../../aspose.words/pagesetup/)类。将文档导出为 HTML 格式时，您可能需要保留此信息 以供将来使用。特别是，页面设置对于渲染到分页媒体（打印） 或随后转换为原生 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能非常重要。
 
-在大多数情况下，HTML 旨在在不执行分页的浏览器中查看。所以这个feature 默认是不活动的。
+大多数情况下，HTML 旨在用于在不支持分页的浏览器中查看。因此此功能 默认处于禁用状态。
 
 ## 例子
 
-显示在保存为 HTML 时如何决定是否保留部分结构/页面设置信息。
+显示如何决定在保存为 HTML 时是否保留部分结构/页面设置信息。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ pageSetup.PaperSize = PaperSize.A5;
 // 将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
 // 决定是否保留或放弃页面设置。
 // 如果我们将“ExportPageSetup”标志设置为“true”，则输出 HTML 文档将包含我们的页面设置配置。
-// 如果我们将“ExportPageSetup”标志设置为“false”，则保存操作将丢弃我们的页面设置设置
+// 如果我们将“ExportPageSetup”标志设置为“false”，则保存操作将丢弃我们的页面设置
 // 对于第一部分，两个部分看起来相同。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 

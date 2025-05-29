@@ -3,14 +3,14 @@ title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words для .NET
-description: Font Spacing свойство. Возвращает или устанавливает интервал в пунктах между символами  на С#.
+description: Откройте для себя свойство Font Spacing, чтобы легко настроить интервал между символами в пунктах. Улучшите читаемость и дизайн с помощью точного типографского контроля.
 type: docs
-weight: 380
+weight: 390
 url: /ru/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-Возвращает или устанавливает интервал (в пунктах) между символами .
+Возвращает или задает интервал (в пунктах) между символами .
 
 ```csharp
 public double Spacing { get; set; }
@@ -18,21 +18,21 @@ public double Spacing { get; set; }
 
 ## Примеры
 
-Показывает, как установить горизонтальное масштабирование и интервал для символов.
+Показывает, как задать горизонтальное масштабирование и интервалы для символов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавляем фрагмент текста и увеличиваем ширину символа до 150%.
+// Добавьте фрагмент текста и увеличьте ширину символов до 150%.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Добавляем фрагмент текста и добавляем дополнительный горизонтальный интервал в 1 пт между каждым символом.
+// Добавьте фрагмент текста и добавьте 1 пункт дополнительного горизонтального интервала между каждым символом.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Добавляем фрагмент текста и сближаем символы на 1 пт.
+// Добавьте фрагмент текста и сблизьте символы на 1 пункт.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

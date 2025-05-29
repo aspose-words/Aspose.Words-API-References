@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeEnd Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för dettaStructuredDocumentTagRange node. MotsvarandeStructuredDocumentTagRangeStart noden har sammaId  i C#.
+description: Upptäck egenskapen StructuredDocumentTagRangeEnd Id, en unik, skrivskyddad identifierare för sömlös dokumenttaggning. Förbättra din dokumenthantering idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Anger ett unikt skrivskyddat beständigt numeriskt ID för detta**StructuredDocumentTagRange** node. Motsvarande[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) noden har samma[`Id`](../../structureddocumenttagrangestart/id/) .
+Anger ett unikt skrivskyddat, beständigt numeriskt ID för detta**Strukturerat dokumenttaggintervall** nod. Motsvarande[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) noden har samma[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -18,7 +18,7 @@ public int Id { get; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

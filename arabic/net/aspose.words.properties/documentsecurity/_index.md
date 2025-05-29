@@ -3,14 +3,14 @@ title: DocumentSecurity Enum
 linktitle: DocumentSecurity
 articleTitle: DocumentSecurity
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Properties.DocumentSecurity تعداد. تستخدم كقيمة لـSecurity property. يحدد مستوى الأمان للمستند كقيمة رقمية في C#.
+description: اكتشف Aspose.Words.DocumentSecurity enum لتعزيز أمان مستندك. حدد مستويات الأمان وأدرها بسهولة لضمان حماية مثالية.
 type: docs
-weight: 4490
+weight: 5220
 url: /ar/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
 
-تستخدم كقيمة لـ[`Security`](../builtindocumentproperties/security/) property. يحدد مستوى الأمان للمستند كقيمة رقمية.
+يتم استخدامه كقيمة لـ[`Security`](../builtindocumentproperties/security/) property. يحدد مستوى أمان المستند كقيمة رقمية.
 
 ```csharp
 [Flags]
@@ -22,8 +22,8 @@ public enum DocumentSecurity
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | None | `0` | لا توجد حالات أمان محددة بواسطة الخاصية. |
-| PasswordProtected | `1` | المستند محمي بكلمة مرور. (لم تظهر الملاحظة في مستند حتى الآن). |
-| ReadOnlyRecommended | `2` | المستند الذي سيتم فتحه للقراءة فقط إن أمكن، ولكن يمكن تجاوز الإعداد. |
+| PasswordProtected | `1` | المستند محمي بكلمة مرور. (ملاحظة: لم يتم رؤية أي مستند حتى الآن). |
+| ReadOnlyRecommended | `2` | يجب فتح المستند للقراءة فقط إذا كان ذلك ممكنًا، ولكن يمكن تجاوز الإعداد. |
 | ReadOnlyEnforced | `4` | المستند الذي سيتم فتحه دائمًا للقراءة فقط. |
 | ReadOnlyExceptAnnotations | `8` | المستند الذي سيتم فتحه دائمًا للقراءة فقط باستثناء التعليقات التوضيحية. |
 
@@ -36,14 +36,14 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// إذا قمنا بتكوين مستند ليكون للقراءة فقط، فسوف يعرض هذه الحالة باستخدام خاصية "الأمان" المضمنة.
+// إذا قمنا بتكوين مستند ليكون للقراءة فقط، فسوف يعرض هذه الحالة باستخدام الخاصية المضمنة "الأمان".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// حماية المستند أثناء الكتابة، ثم التحقق من مستوى الأمان الخاص به.
+// قم بحماية المستند ضد الكتابة، ثم تحقق من مستوى الأمان الخاص به.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// "الأمان" خاصية وصفية. يمكننا تعديل قيمته يدويا.
+// "الأمان" خاصية وصفية. يُمكننا تعديل قيمتها يدويًا.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

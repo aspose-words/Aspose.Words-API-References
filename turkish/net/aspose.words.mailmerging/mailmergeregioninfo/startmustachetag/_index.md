@@ -2,8 +2,8 @@
 title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
-second_title: Aspose.Words for .NET
-description: MailMergeRegionInfo StartMustacheTag mülk. Bölge için bir başlangıç bıyık etiketi döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizdeki kesintisiz belge bölgeleri için temel bir başlangıç etiketi sağlayan MailMergeRegionInfo StartMustacheTag özelliğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -18,7 +18,7 @@ public MustacheTag StartMustacheTag { get; }
 
 ## Örnekler
 
-Bıyık etiketleriyle nasıl çalışılacağını gösterir.
+Bıyık etiketlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

@@ -3,14 +3,14 @@ title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
 second_title: Aspose.Words per .NET
-description: PageSetup BorderDistanceFrom proprietà. Ottiene o imposta un valore che indica se il bordo della pagina specificato viene misurato dal bordo della pagina o dal testo che lo circonda in C#.
+description: Scopri la proprietà BorderDistanceFrom di PageSetup per controllare le misure dei bordi della pagina e ottenere una formattazione precisa dei documenti. Migliora il tuo layout oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Ottiene o imposta un valore che indica se il bordo della pagina specificato viene misurato dal bordo della pagina o dal testo che lo circonda.
+Ottiene o imposta un valore che indica se il bordo della pagina specificato viene misurato dal bordo della pagina o dal testo che la circonda.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -18,7 +18,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ## Esempi
 
-Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
+Mostra come creare un bordo con una larga fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

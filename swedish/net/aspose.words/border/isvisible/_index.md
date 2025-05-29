@@ -3,14 +3,14 @@ title: Border.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
 second_title: Aspose.Words för .NET
-description: Border IsVisible fast egendom. ReturnerarSann omLineStyle är inteNone  i C#.
+description: Upptäck hur egenskapen Border IsVisible förbättrar din design genom att returnera sant när LineStyle tillämpas. Optimera ditt användargränssnitt med den här viktiga funktionen!
 type: docs
 weight: 30
 url: /sv/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Returnerar`Sann` om[`LineStyle`](../linestyle/) är inteNone .
+Returer`sann` om den[`LineStyle`](../linestyle/) är inteNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -18,13 +18,13 @@ public bool IsVisible { get; }
 
 ## Exempel
 
-Visar hur man tar bort kanter från ett stycke.
+Visar hur man tar bort ramar från ett stycke.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
 // Varje stycke har en individuell uppsättning ramar.
-// Vi kan komma åt inställningarna för utseendet på dessa gränser via objektet styckeformat.
+// Vi kan komma åt inställningarna för utseendet på dessa ramar via styckeformatobjektet.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -32,8 +32,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
- // Vi kan ta bort en kantlinje på en gång genom att köra metoden ClearFormatting.
-// Att köra den här metoden på varje kant i ett stycke tar bort alla dess kanter.
+ // Vi kan ta bort en kantlinje direkt genom att köra ClearFormatting-metoden.
+// Om du kör den här metoden på varje kantlinje i ett stycke tas alla dess kantlinjer bort.
 foreach (Border border in borders)
     border.ClearFormatting();
 

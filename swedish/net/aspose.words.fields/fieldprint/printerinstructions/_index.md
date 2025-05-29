@@ -3,14 +3,14 @@ title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
 second_title: Aspose.Words för .NET
-description: FieldPrint PrinterInstructions fast egendom. Hämtar eller ställer in de skrivarspecifika kontrollkodtecken eller PostScriptinstruktioner i C#.
+description: Upptäck hur du hanterar skrivarspecifika kontrollkoder och PostScript-instruktioner med FieldPrint PrinterInstructions för optimerade utskriftslösningar.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Hämtar eller ställer in de skrivarspecifika kontrollkodtecken eller PostScript-instruktioner.
+Hämtar eller ställer in skrivarspecifika kontrollkodstecken eller PostScript-instruktioner.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -29,12 +29,12 @@ builder.Write("My paragraph");
 // Fältet PRINT kan skicka instruktioner till skrivaren.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Ställ in området där skrivaren ska utföra instruktioner.
+// Ange området där skrivaren ska utföra instruktioner.
 // I det här fallet kommer det att vara stycket som innehåller vårt PRINT-fält.
 field.PostScriptGroup = "para";
 
 // När vi använder en skrivare som stöder PostScript för att skriva ut vårt dokument,
-// detta kommando kommer att göra hela området som vi angav i "field.PostScriptGroup" vitt.
+// det här kommandot kommer att göra hela området som vi angav i "field.PostScriptGroup" vitt.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

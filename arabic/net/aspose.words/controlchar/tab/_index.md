@@ -3,7 +3,7 @@ title: ControlChar.Tab
 linktitle: Tab
 articleTitle: Tab
 second_title: Aspose.Words لـ .NET
-description: ControlChar Tab مجال. حرف علامة التبويب x0009 أو t في C#.
+description: اكتشف حقل علامة التبويب ControlChar، وفهم حرف Tab x0009 لتحقيق تنسيق نصي فعال وإدارة بيانات محسنة.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/controlchar/tab/
@@ -18,16 +18,16 @@ public static readonly string Tab;
 
 ## أمثلة
 
-يوضح كيفية تعيين فاصل زمني مخصص لمواضع علامات الجدولة.
+يوضح كيفية تعيين فترة زمنية مخصصة لمواضع علامة التبويب.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
+// تعيين علامات التبويب لتظهر كل 72 نقطة (1 بوصة).
 builder.Document.DefaultTabStop = 72;
 
-// يلتقط كل حرف جدولة النص الذي يليه إلى أقرب موضع لعلامة الجدولة.
+// كل حرف علامة تبويب يوجه النص بعده إلى أقرب موضع علامة تبويب.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

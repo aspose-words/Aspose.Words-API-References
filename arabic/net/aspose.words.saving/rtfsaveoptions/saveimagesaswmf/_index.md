@@ -3,14 +3,14 @@ title: RtfSaveOptions.SaveImagesAsWmf
 linktitle: SaveImagesAsWmf
 articleTitle: SaveImagesAsWmf
 second_title: Aspose.Words لـ .NET
-description: RtfSaveOptions SaveImagesAsWmf ملكية. متىحقيقي سيتم حفظ جميع الصور بتنسيق WMF في C#.
+description: اكتشف كيف تعمل خاصية RtfSaveOptions SaveImagesAsWmf على تعزيز مستندك عن طريق حفظ كافة الصور بتنسيق WMF لتحقيق جودة وتوافق فائقين.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-متى`حقيقي` سيتم حفظ جميع الصور بتنسيق WMF.
+عندما`حقيقي` سيتم حفظ جميع الصور بتنسيق WMF.
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }
@@ -18,11 +18,11 @@ public bool SaveImagesAsWmf { get; set; }
 
 ## ملاحظات
 
-قد يساعد هذا الخيار في تجنب رسائل تحذير الدفتر.
+قد يساعد هذا الخيار في تجنب رسائل تحذير WordPad.
 
 ## أمثلة
 
-يوضح كيفية تحويل جميع الصور في مستند إلى تنسيق Windows Metafile حيث نقوم بحفظ المستند بتنسيق RTF.
+يوضح كيفية تحويل كافة الصور في مستند إلى تنسيق Windows Metafile أثناء حفظ المستند بتنسيق RTF.
 
 ```csharp
 Document doc = new Document();
@@ -42,10 +42,10 @@ Assert.AreEqual(ImageType.Png, imageShape.ImageData.ImageType);
 // قم بإنشاء كائن "RtfSaveOptions" لتمريره إلى طريقة "حفظ" المستند لتعديل كيفية حفظه في RTF.
 RtfSaveOptions rtfSaveOptions = new RtfSaveOptions();
 
-// قم بتعيين خاصية "SaveImagesAsWmf" على "true" لتحويل جميع الصور الموجودة في المستند إلى WMF أثناء حفظها في RTF.
-// القيام بذلك سيساعد القراء مثل الدفتر على قراءة وثيقتنا.
-// اضبط الخاصية "SaveImagesAsWmf" على "خطأ" للحفاظ على التنسيق الأصلي لجميع الصور في المستند
-// كما نحفظه في RTF. سيؤدي هذا إلى الحفاظ على جودة الصور على حساب التوافق مع أجهزة قراءة RTF الأقدم.
+// قم بضبط الخاصية "SaveImagesAsWmf" على "true" لتحويل كافة الصور في المستند إلى WMF أثناء حفظه في RTF.
+// إن القيام بذلك سيساعد القراء مثل WordPad على قراءة مستندنا.
+// اضبط خاصية "SaveImagesAsWmf" على "false" للحفاظ على التنسيق الأصلي لجميع الصور في المستند
+// عند حفظها بتنسيق RTF، سيحافظ هذا على جودة الصور على حساب التوافق مع قارئات RTF القديمة.
 rtfSaveOptions.SaveImagesAsWmf = saveImagesAsWmf;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);

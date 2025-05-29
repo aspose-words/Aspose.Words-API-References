@@ -3,7 +3,7 @@ title: ListLevel.StartAt
 linktitle: StartAt
 articleTitle: StartAt
 second_title: Aspose.Words para .NET
-description: ListLevel StartAt propiedad. Devuelve o establece el número inicial para este nivel de lista en C#.
+description: Descubra la propiedad ListLevel StartAt para personalizar fácilmente el número de inicio de su lista, mejorando la organización y la claridad de sus documentos.
 type: docs
 weight: 110
 url: /es/net/aspose.words.lists/listlevel/startat/
@@ -28,15 +28,15 @@ Muestra cómo reiniciar la numeración en una lista copiando una lista.
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
 // Cree una lista a partir de una plantilla de Microsoft Word y personalice su primer nivel de lista.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Aplicar nuestra lista a algunos párrafos.
+//Aplica nuestra lista a algunos párrafos.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -45,13 +45,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Podemos agregar una copia de una lista existente a la colección de listas del documento
+//Podemos agregar una copia de una lista existente a la colección de listas del documento
 // para crear una lista similar sin realizar cambios en la original.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Aplicar la segunda lista a nuevos párrafos.
+// Aplicar la segunda lista a los nuevos párrafos.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -61,16 +61,16 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
+Muestra cómo aplicar formato de lista personalizado a los párrafos cuando se utiliza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de su lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de lista.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

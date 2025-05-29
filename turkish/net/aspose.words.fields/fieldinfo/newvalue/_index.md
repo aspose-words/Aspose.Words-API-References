@@ -2,15 +2,15 @@
 title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
-second_title: Aspose.Words for .NET
-description: FieldInfo NewValue mülk. Özelliği güncelleyen isteğe bağlı bir değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldInfo NewValue özelliğini keşfedin, veri güncellemelerinizi geliştirmek ve kodlama deneyiminizi kolaylaştırmak için isteğe bağlı değerleri kolayca yönetin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-Özelliği güncelleyen isteğe bağlı bir değeri alır veya ayarlar.
+Özelliği güncelleyen isteğe bağlı bir değer alır veya ayarlar.
 
 ```csharp
 public string NewValue { get; set; }
@@ -35,8 +35,8 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Alanın NewValue özelliği için değer belirleme ve güncelleme
-// alan ayrıca yeni değeri karşılık gelen yerleşik özelliğin üzerine yazacaktır.
+// Alanın NewValue özelliği için bir değer ayarlama ve güncelleme
+// alan aynı zamanda yeni değerle ilgili yerleşik özelliğin üzerine yazacaktır.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

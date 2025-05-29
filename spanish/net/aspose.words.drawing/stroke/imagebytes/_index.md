@@ -3,9 +3,9 @@ title: Stroke.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words para .NET
-description: Stroke ImageBytes propiedad. Define la imagen para una imagen de trazo o relleno de patrón en C#.
+description: Descubre cómo usar la propiedad ImageBytes para crear impresionantes imágenes de trazo y rellenos de patrones únicos para tus diseños. ¡Mejora tus imágenes hoy mismo!
 type: docs
-weight: 110
+weight: 160
 url: /es/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -26,7 +26,7 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
 // Los trazos pueden tener dos colores, que se utilizan para crear un patrón definido por datos de imagen de dos tonos.
-// Los trazos de un solo color no utilizan la propiedad Color2.
+//Los trazos con un solo color no utilizan la propiedad Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

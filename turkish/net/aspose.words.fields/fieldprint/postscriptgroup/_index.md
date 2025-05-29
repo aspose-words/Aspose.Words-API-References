@@ -2,8 +2,8 @@
 title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
-second_title: Aspose.Words for .NET
-description: FieldPrint PostScriptGroup mülk. PostScript talimatlarının üzerinde çalıştığı çizim dikdörtgenini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli PostScript talimatı işleme için çizim dikdörtgeninizi kolayca yönetmek üzere FieldPrint PostScriptGroup özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldprint/postscriptgroup/

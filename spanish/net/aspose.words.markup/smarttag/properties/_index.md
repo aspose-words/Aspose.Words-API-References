@@ -3,7 +3,7 @@ title: SmartTag.Properties
 linktitle: Properties
 articleTitle: Properties
 second_title: Aspose.Words para .NET
-description: SmartTag Properties propiedad. Una colección de propiedades de etiquetas inteligentes en C#.
+description: Descubra SmartTag Properties, una colección única de innovadoras soluciones de etiquetas inteligentes diseñadas para mejorar la administración de su propiedad y agilizar las operaciones.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/smarttag/properties/
@@ -29,30 +29,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+    // Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+    // como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
     SmartTag smartTag = new SmartTag(doc);
 
     // Las etiquetas inteligentes son nodos compuestos que contienen el texto reconocido en su totalidad.
     // Agregue contenido a esta etiqueta inteligente manualmente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word puede reconocer el contenido anterior como una fecha.
+    //Microsoft Word puede reconocer el contenido anterior como una fecha.
     // Las etiquetas inteligentes utilizan la propiedad "Elemento" para reflejar el tipo de datos que contienen.
     smartTag.Element = "date";
 
-    // Algunos tipos de etiquetas inteligentes procesan su contenido en propiedades XML personalizadas.
+    // Algunos tipos de etiquetas inteligentes procesan sus contenidos y los convierten en propiedades XML personalizadas.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Establece el URI de la etiqueta inteligente en el valor predeterminado.
+    // Establezca el URI de la etiqueta inteligente en el valor predeterminado.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea otra etiqueta inteligente para un ticker bursátil.
+    // Crea otra etiqueta inteligente para un símbolo de bolsa.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -62,7 +62,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime todas las etiquetas inteligentes en nuestro documento usando un visitante del documento.
+    // Imprima todas las etiquetas inteligentes en nuestro documento usando un visitante de documentos.
     doc.Accept(new SmartTagPrinter());
 
     // Las versiones anteriores de Microsoft Word admiten etiquetas inteligentes.

@@ -2,15 +2,15 @@
 title: ChartSeries.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: ChartSeries Remove yöntem. Belirtilen dizindeki grafik serisinden X değerini Y değerini ve kabarcık boyutunu destekleniyorsa kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır C#'da.
+second_title: .NET için Aspose.Words
+description: ChartSeries Remove yöntemiyle grafik serinizden X değerlerini, Y değerlerini ve kabarcık boyutlarını zahmetsizce kaldırın. Veri görselleştirmenizi bugün kolaylaştırın!
 type: docs
-weight: 200
+weight: 210
 url: /tr/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
 
-Belirtilen dizindeki grafik serisinden X değerini, Y değerini ve kabarcık boyutunu (destekleniyorsa) kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır.
+Destekleniyorsa, belirtilen dizindeki grafik serisinden X değerini, Y değerini ve kabarcık boyutunu kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır.
 
 ```csharp
 public void Remove(int index)
@@ -29,11 +29,11 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Her iki serideki ilk değeri kaldırın.
+// Her iki serideki ilk değeri kaldır.
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Her iki seriye de yeni değerler ekliyoruz.
+// Her iki seriye de yeni değerler ekleyin.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

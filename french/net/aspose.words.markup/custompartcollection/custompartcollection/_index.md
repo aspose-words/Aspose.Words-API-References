@@ -3,7 +3,7 @@ title: CustomPartCollection
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
 second_title: Aspose.Words pour .NET
-description: CustomPartCollection constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur CustomPartCollection pour une intégration fluide. Optimisez vos projets grâce à notre constructeur par défaut polyvalent pour des performances accrues.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/custompartcollection/custompartcollection/

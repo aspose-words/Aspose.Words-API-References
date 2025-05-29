@@ -3,9 +3,9 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Math.OfficeMathDisplayType перечисление. Указывает тип формата отображения уравнения на С#.
+description: Откройте для себя перечисление Aspose.Words.Math.OfficeMathDisplayType, чтобы легко настраивать форматы отображения уравнений для повышения ясности и наглядности документа.
 type: docs
-weight: 4130
+weight: 4820
 url: /ru/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -20,25 +20,25 @@ public enum OfficeMathDisplayType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Display | `0` | Математическая часть Office отображается в отдельной строке. |
-| Inline | `1` | Математическая часть Office отображается вместе с текстом. |
+| Display | `0` | Office Math отображается в отдельной строке. |
+| Inline | `1` | Office Math отображается в строке с текстом. |
 
 ## Примеры
 
-Показывает, как настроить форматирование отображения математических функций Office.
+Показывает, как настроить форматирование отображения офисных математических данных.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Узлы OfficeMath, являющиеся дочерними по отношению к другим узлам OfficeMath, всегда являются встроенными.
+// Узлы OfficeMath, являющиеся дочерними узлами других узлов OfficeMath, всегда являются встроенными.
 // Узел, с которым мы работаем, является базовым узлом для изменения его местоположения и типа отображения.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Изменяем расположение и тип отображения узла OfficeMath.
+// Измените местоположение и тип отображения узла OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

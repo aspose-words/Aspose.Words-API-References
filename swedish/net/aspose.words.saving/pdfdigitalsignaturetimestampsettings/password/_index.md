@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words för .NET
-description: PdfDigitalSignatureTimestampSettings Password fast egendom. Lösenord för tidsstämpelserver i C#.
+description: Säkra dina PDF-dokument med PdfDigitalSignatureTimestampSettings. Hantera enkelt lösenord för tidsstämpelservrar för förbättrat skydd och efterlevnad.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
@@ -29,15 +29,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det till PDF.
+// Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det som PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Skapa en tidsstämpel behörighetsverifierad tidsstämpel.
+// Skapa en tidsstämpel som verifierats av en tidsstämpel, auktoritetsverifierad.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mitt lösenord");
 
@@ -53,7 +53,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// "Spara"-metoden kommer att tillämpa vår signatur på utdatadokumentet vid denna tidpunkt.
+// Metoden "Spara" kommer att tillämpa vår signatur på utdatadokumentet vid denna tidpunkt.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

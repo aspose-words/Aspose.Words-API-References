@@ -3,14 +3,14 @@ title: OoxmlCompliance Enum
 linktitle: OoxmlCompliance
 articleTitle: OoxmlCompliance
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.OoxmlCompliance énumération. Permet de préciser quelle spécification OOXML sera utilisée lors de lenregistrement au format DOCX en C#.
+description: Explorez l'énumération Aspose.Words.Saving.OoxmlCompliance pour choisir votre spécification OOXML préférée et optimiser l'enregistrement au format DOCX. Améliorez la qualité de vos documents dès aujourd'hui !
 type: docs
-weight: 5340
+weight: 6120
 url: /fr/net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
 
-Permet de préciser quelle spécification OOXML sera utilisée lors de l'enregistrement au format DOCX.
+Permet de spécifier quelle spécification OOXML sera utilisée lors de l'enregistrement au format DOCX.
 
 ```csharp
 public enum OoxmlCompliance
@@ -32,17 +32,17 @@ Montre comment insérer des formes DML dans un document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types d'habillage que les formes peuvent avoir.
-// 1 - Flottant :
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+// Vous trouverez ci-dessous deux types d'emballage que les formes peuvent avoir.
+// 1 - Flottant :
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - En ligne :
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Si vous devez créer des formes "non primitives", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded ou DiagonalCornersRounded,
-// puis enregistrez le document avec une conformité "Strict" ou "Transitional", ce qui permet d'enregistrer la forme au format DML.
+// Si vous devez créer des formes « non primitives », telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Coins supérieurs un arrondi un coupé, Coin unique arrondi, Coins supérieurs arrondis ou Coins diagonaux arrondis,
+// puis enregistrez le document avec une conformité « Stricte » ou « Transitionnelle », ce qui permet d'enregistrer la forme au format DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -60,8 +60,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// La propriété "IsRestartAtEachSection" ne sera applicable que lorsque
-// le niveau de conformité OOXML du document correspond à une norme plus récente que "OoxmlComplianceCore.Ecma376".
+// La propriété « IsRestartAtEachSection » ne sera applicable que lorsque
+// le niveau de conformité OOXML du document est conforme à une norme plus récente que « OoxmlComplianceCore.Ecma376 ».
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -88,16 +88,16 @@ Montre comment définir une spécification de conformité OOXML à laquelle un d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si nous configurons les options de compatibilité pour se conformer à Microsoft Word 2003,
-// l'insertion d'une image définira sa forme en utilisant VML.
+// Si nous configurons les options de compatibilité pour être conformes à Microsoft Word 2003,
+// l'insertion d'une image définira sa forme à l'aide de VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// La norme OOXML "ISO/IEC 29500:2008" ne prend pas en charge les formes VML.
-// Si on fixe la propriété "Compliance" de l'objet SaveOptions à "OoxmlCompliance.Iso29500_2008_Strict",
- // tout document que nous enregistrons en transmettant cet objet devra suivre cette norme.
+// La norme OOXML « ISO/IEC 29500:2008 » ne prend pas en charge les formes VML.
+// Si nous définissons la propriété « Compliance » de l'objet SaveOptions sur « OoxmlCompliance.Iso29500_2008_Strict »,
+ // tout document que nous sauvegardons en passant cet objet devra suivre cette norme.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -106,7 +106,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Notre document enregistré définit la forme à l'aide de DML pour adhérer à la norme OOXML "ISO/IEC 29500:2008".
+// Notre document enregistré définit la forme à l'aide de DML pour adhérer à la norme OOXML « ISO/IEC 29500:2008 ».
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

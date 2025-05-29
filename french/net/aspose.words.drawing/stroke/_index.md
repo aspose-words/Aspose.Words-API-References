@@ -3,16 +3,16 @@ title: Stroke Class
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Stroke classe. Définit un trait pour une forme en C#.
+description: Découvrez la classe Aspose.Words.Drawing.Stroke pour améliorer vos formes avec des traits personnalisables, ajoutant une touche professionnelle à vos documents sans effort.
 type: docs
-weight: 1310
+weight: 1720
 url: /fr/net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
 
 Définit un trait pour une forme.
 
-Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article de documentation.
 
 ```csharp
 public class Stroke
@@ -23,6 +23,9 @@ public class Stroke
 | Nom | La description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Obtient ou définit la couleur d'arrière-plan du trait. |
+| [BackThemeColor](../../aspose.words.drawing/stroke/backthemecolor/) { get; set; } | Obtient ou définit un objet ThemeColor qui représente la couleur d'arrière-plan du trait. |
+| [BackTintAndShade](../../aspose.words.drawing/stroke/backtintandshade/) { get; set; } | Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur d'arrière-plan du trait. |
+| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } | Obtient la couleur de premier plan de base du trait sans aucun modificateur. |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Définit la couleur d'un trait. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Définit une deuxième couleur pour un trait. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Spécifie le motif de points et de tirets pour un trait. |
@@ -32,21 +35,23 @@ public class Stroke
 | [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Définit le style de capuchon pour la fin d'un trait. |
 | [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Obtient le formatage de remplissage pour le`Stroke` . |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Obtient ou définit la couleur de premier plan du trait. |
+| [ForeThemeColor](../../aspose.words.drawing/stroke/forethemecolor/) { get; set; } | Obtient ou définit un objet ThemeColor qui représente la couleur de premier plan du trait. |
+| [ForeTintAndShade](../../aspose.words.drawing/stroke/foretintandshade/) { get; set; } | Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur de premier plan du trait. |
 | [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Définit l'image pour une image de trait ou un remplissage de motif. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Définit le style de jointure d'une polyligne. |
 | [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Définit le style de ligne du trait. |
 | [On](../../aspose.words.drawing/stroke/on/) { get; set; } | Définit si le chemin sera tracé. |
-| [Opacity](../../aspose.words.drawing/stroke/opacity/) { get; set; } | Définit la quantité de transparence d'un trait. La plage valide est de 0 à 1. |
+| [Opacity](../../aspose.words.drawing/stroke/opacity/) { get; set; } | Définit le degré de transparence d'un trait. La plage valide est de 0 à 1. |
 | [StartArrowLength](../../aspose.words.drawing/stroke/startarrowlength/) { get; set; } | Définit la longueur de la pointe de flèche pour le début d'un trait. |
 | [StartArrowType](../../aspose.words.drawing/stroke/startarrowtype/) { get; set; } | Définit la pointe de flèche pour le début d'un trait. |
 | [StartArrowWidth](../../aspose.words.drawing/stroke/startarrowwidth/) { get; set; } | Définit la largeur de la pointe de flèche pour le début d'un trait. |
 | [Transparency](../../aspose.words.drawing/stroke/transparency/) { get; set; } | Obtient ou définit une valeur comprise entre 0,0 (opaque) et 1,0 (clair) représentant le degré de transparence du trait. |
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Obtient ou définit un indicateur indiquant si le trait est visible. |
-| [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Définit l'épaisseur du pinceau qui trace le chemin d'une forme en points. |
+| [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Définit l'épaisseur du pinceau qui parcourt le chemin d'une forme en points. |
 
 ## Remarques
 
-Utilisez le[`Stroke`](../shape/stroke/) propriété pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances du`Stroke` classe directement.
+Utilisez le[`Stroke`](../shape/stroke/)propriété pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances de la`Stroke` classe directement.
 
 ## Exemples
 
@@ -59,8 +64,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, comme le rectangle, comportent deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, ont deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :

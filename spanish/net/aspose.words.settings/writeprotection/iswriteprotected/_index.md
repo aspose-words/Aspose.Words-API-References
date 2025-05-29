@@ -3,14 +3,14 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words para .NET
-description: WriteProtection IsWriteProtected propiedad. Devolucionesverdadero cuando se establece una contraseña de protección contra escritura en C#.
+description: Descubra la propiedad IsWriteProtected de WriteProtection, verifique fácilmente si una contraseña de protección contra escritura está activa para mejorar la seguridad y la integridad de los datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Devoluciones`verdadero` cuando se establece una contraseña de protección contra escritura.
+Devuelve`verdadero` cuando se establece una contraseña de protección contra escritura.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protección no impide que el documento se edite mediante programación ni cifra el contenido.
+//La protección no impide que el documento se edite mediante programación ni cifra el contenido.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

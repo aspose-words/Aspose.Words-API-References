@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitRowEnd
 linktitle: VisitRowEnd
 articleTitle: VisitRowEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitRowEnd طريقة. يتم استدعاؤه عند انتهاء تعداد صف الجدول في C#.
+description: اكتشف طريقة DocumentVisitor VisitRowEnd، وهي أساسية لإدارة تعداد صفوف الجداول في تطبيقاتك. حسّن كفاءة البرمجة لديك اليوم!
 type: docs
 weight: 340
 url: /ar/net/aspose.words/documentvisitor/visitrowend/
 ---
 ## DocumentVisitor.VisitRowEnd method
 
-يتم استدعاؤه عند انتهاء تعداد صف الجدول.
+يتم استدعاؤها عند انتهاء تعداد صف الجدول.
 
 ```csharp
 public virtual VisitorAction VisitRowEnd(Row row)
@@ -18,11 +18,11 @@ public virtual VisitorAction VisitRowEnd(Row row)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| row | Row | الكائن الذي تتم زيارته. |
+| row | Row | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
@@ -34,17 +34,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة تضم جميع عقد الجدول التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الجدول التي تم مواجهتها وأطفالها.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
-    /// لا يتم تسجيل العمليات التي ليست ضمن الجداول.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
+    /// لن يتم تسجيل عمليات التشغيل التي لا تقع ضمن الجداول.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة جدول في المستند.
+    /// يتم استدعاؤها عند العثور على جدول في المستند.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -92,7 +92,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الجدول.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الجدول.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -104,7 +104,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة صف في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة صف في المستند.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -124,7 +124,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الصف.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الصف.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -135,7 +135,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة الخلية في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة خلية في المستند.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الخلية.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الخلية.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -164,10 +164,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة للجدول الحالي.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة العقد الفرعية للجدول الحالي.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -184,7 +184,7 @@ public class TableStructurePrinter : DocumentVisitor
 }
 ```
 
-يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
+يوضح كيفية استخدام تنفيذ DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -193,7 +193,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // فيما يلي ثلاثة أنواع من الحقول التي يمكنها قبول زائر المستند،
-    // والذي سيسمح لها بزيارة العقدة المقبولة، ثم اجتياز العقد الفرعية الخاصة بها بطريقة العمق أولاً.
+    // مما سيسمح لها بزيارة العقدة المستقبلة، ثم عبور العقد الفرعية الخاصة بها بطريقة العمق أولاً.
     // 1 - عقدة الفقرة:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -202,19 +202,19 @@ public void RemoveHiddenContentFromDocument()
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - عقدة الوثيقة:
+    // 3 - عقدة المستند:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
 }
 
 /// <summary>
-/// يزيل جميع العقد التي تمت زيارتها والتي تم وضع علامة "المحتوى المخفي" عليها.
+/// يقوم بإزالة جميع العقد التي تمت زيارتها والتي تم وضع علامة "المحتوى المخفي" عليها.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -225,7 +225,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -236,7 +236,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -247,7 +247,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -258,7 +258,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة فقرة في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة فقرة في المستند.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -269,7 +269,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة FormField في المستند.
+    /// يتم استدعاؤها عند العثور على FormField في المستند.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -280,7 +280,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة شكل مجموعة في المستند.
+    /// يتم استدعاؤها عند مواجهة GroupShape في المستند.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -291,7 +291,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة شكل ما في المستند.
+    /// يتم استدعاؤها عند العثور على شكل في المستند.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -302,7 +302,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة تعليق في المستند.
+    /// يتم استدعاؤها عند العثور على تعليق في المستند.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -313,7 +313,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند وجود حاشية سفلية في المستند.
+    /// يتم استدعاؤها عند العثور على حاشية سفلية في المستند.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -324,10 +324,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة حرف خاص في المستند.
+    /// يتم استدعاؤها عند مواجهة SpecialCharacter في المستند.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -335,16 +337,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة الجدول في المستند.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة الجدول في المستند.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // قد يحتوي المحتوى الموجود داخل خلايا الجدول على علامة محتوى مخفية، لكن لا يمكن أن تحتوي الجداول نفسها على علامة محتوى مخفية.
-        // لو لم يكن هذا الجدول سوى محتوى مخفي، لكان هذا الزائر قد أزاله كله،
-        // ولن تكون هناك عقد فرعية متبقية.
+        // قد يكون المحتوى الموجود داخل خلايا الجدول يحتوي على علامة المحتوى المخفي، ولكن الجداول نفسها لا يمكن أن يكون لديها هذه العلامة.
+        // إذا لم يكن في هذا الجدول سوى محتوى مخفي، فإن هذا الزائر كان سيحذفه بالكامل،
+        //ولن يتبقى أي عقدة فرعية.
         // وبالتالي، يمكننا أيضًا التعامل مع الجدول نفسه كمحتوى مخفي وإزالته.
-        // الجداول الفارغة ولكن لا تحتوي على محتوى مخفي ستحتوي على خلايا تحتوي على فقرات فارغة بداخلها،
-        // الذي لن يقوم هذا الزائر بإزالته.
+        // ستحتوي الجداول الفارغة التي لا تحتوي على محتوى مخفي على خلايا تحتوي على فقرات فارغة بداخلها،
+        // والتي لن يقوم هذا الزائر بإزالتها.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -352,7 +354,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة الخلية في المستند.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة الخلية في المستند.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -363,7 +365,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة الصف في المستند.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة الصف في المستند.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

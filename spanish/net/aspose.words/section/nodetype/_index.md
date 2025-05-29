@@ -3,14 +3,14 @@ title: Section.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words para .NET
-description: Section NodeType propiedad. DevolucionesSection  en C#.
+description: Descubra la propiedad Section NodeType que devuelve datos de sección de forma eficiente, mejorando la estructura y el rendimiento de su sitio. ¡Desbloquee una navegación fluida hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words/section/nodetype/
 ---
 ## Section.NodeType property
 
-DevolucionesSection .
+DevuelveSection .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -28,13 +28,13 @@ public void RecurseChildren()
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que recorrerá e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
+/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría dependiendo de la profundidad así como del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Recurre al nodo si es un nodo compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
+        // Recurse al nodo si es compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

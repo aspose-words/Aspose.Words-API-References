@@ -3,14 +3,14 @@ title: FontInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: FontInfoCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
+description: Откройте для себя метод FontInfoCollection GetEnumerator для легкого перебора всех элементов коллекции. Оптимизируйте кодирование с помощью этого эффективного инструмента!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
 ## FontInfoCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<FontInfo> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<FontInfo> GetEnumerator()
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -2,15 +2,15 @@
 title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
-second_title: Aspose.Words for .NET
-description: FieldIncludePicture ResizeVertically mülk. Resmin kaynaktan dikey olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldIncludePicture'ın ResizeVertically özelliğinin, en iyi görüntüleme için dikey yeniden boyutlandırmaya izin vererek görüntü yönetimini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Resmin kaynaktan dikey olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar.
+Resmin kaynaktan dikey olarak yeniden boyutlandırılıp boyutlandırılmayacağını alır veya ayarlar.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -18,7 +18,7 @@ public bool ResizeVertically { get; set; }
 
 ## Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak resim eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - İTHALAT alanı:
+// 2 - IMPORT alanı:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

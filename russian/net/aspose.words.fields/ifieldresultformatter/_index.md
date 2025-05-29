@@ -3,14 +3,14 @@ title: IFieldResultFormatter Interface
 linktitle: IFieldResultFormatter
 articleTitle: IFieldResultFormatter
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldResultFormatter интерфейс. Реализуйте этот интерфейс если хотите контролировать форматирование результата поля на С#.
+description: Откройте для себя интерфейс Aspose.Words.Fields.IFieldResultFormatter, который позволит вам легко настраивать и улучшать форматирование результатов полей для ваших документов.
 type: docs
-weight: 2700
+weight: 3110
 url: /ru/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
 
-Реализуйте этот интерфейс, если хотите контролировать форматирование результата поля.
+Реализуйте этот интерфейс, если вы хотите контролировать форматирование результата поля.
 
 ```csharp
 public interface IFieldResultFormatter
@@ -20,14 +20,14 @@ public interface IFieldResultFormatter
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т. е. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т. е. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т. е. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т. е. \# "#.##". |
 
 ## Примеры
 
-Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
+Показывает, как автоматически применять пользовательский формат к результатам полей по мере обновления полей.
 
 ```csharp
 public void FieldResultFormatting()
@@ -37,10 +37,10 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Наш форматировщик результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
-    // Средства форматирования результатов полей применяют новое форматирование к полям по мере их обновления,
+    // Наш форматировщик результатов поля применяет пользовательский формат к вновь созданным полям трех типов форматов.
+    // Форматировщики результатов полей применяют новое форматирование к полям по мере их обновления,
     // что происходит, как только мы создаем их с помощью перегрузки метода InsertField.
-    // 1 - Числовое:
+    // 1 - Числовой:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
@@ -52,7 +52,7 @@ public void FieldResultFormatting()
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Общее:
+    // 3 - Общие сведения:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -62,7 +62,7 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Когда поля с форматированием обновляются, этот форматтер переопределит их форматирование
+/// При обновлении полей с форматированием этот форматировщик переопределит их форматирование
 /// с пользовательским форматом, отслеживая каждый вызов.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
@@ -118,12 +118,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

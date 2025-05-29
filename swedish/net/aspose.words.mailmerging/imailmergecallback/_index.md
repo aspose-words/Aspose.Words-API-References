@@ -3,14 +3,14 @@ title: IMailMergeCallback Interface
 linktitle: IMailMergeCallback
 articleTitle: IMailMergeCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden medan epostsammanslagning utförs i C#.
+description: Optimera din dokumentkopplingsprocess med Aspose.Words.MailMerging.IMailMergeCallback. Få realtidsmeddelanden och effektivisera din dokumentautomation.
 type: docs
-weight: 3800
+weight: 4490
 url: /sv/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
 
-Implementera detta gränssnitt om du vill få meddelanden medan e-postsammanslagning utförs.
+Implementera det här gränssnittet om du vill ta emot aviseringar medan dokumentkoppling utförs.
 
 ```csharp
 public interface IMailMergeCallback
@@ -20,11 +20,11 @@ public interface IMailMergeCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Anropas när "mustasch"-texttaggar ersätts med MERGEFIELD-fält. |
+| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Anropas när texttaggar för "mustache" ersätts med MERGEFIELD-fält. |
 
 ## Exempel
 
-Visar hur man definierar anpassad logik för hantering av händelser under sammanslagning.
+Visar hur man definierar anpassad logik för hantering av händelser under dokumentkoppling.
 
 ```csharp
 public void Callback()
@@ -32,21 +32,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga två sammanslagningstaggar som refererar till två kolumner i en datakälla.
+    // Infoga två kopplingstaggar som refererar till två kolumner i en datakälla.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // Skapa en datakälla som bara innehåller en av kolumnerna som våra sammanslagningstaggar refererar till.
+    // Skapa en datakälla som bara innehåller en av de kolumner som våra merge-taggar refererar till.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Konfigurera vår kopplingsfil för att använda alternativa kopplingstaggar.
+    // Konfigurera vår dokumentkoppling för att använda alternativa taggar för dokumentkoppling.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Se sedan till att e-postsammanslagningen kommer att konvertera taggar, som vår "LastName"-tagg,
-    // till MERGEFIELDs i sammanslagningsdokumenten.
+    // Se sedan till att dokumentkopplingen konverterar taggar, till exempel vår "LastName"-tagg,
+    // i MERGEFIELDS i merge-dokumenten.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -57,7 +57,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Räknar antalet gånger en kopplingskoppling ersätter kopplingsetiketter som den inte kunde fylla med data med MERGEFIELDs.
+/// Räknar antalet gånger en dokumentkoppling ersätter dokumentkopplingstaggar som den inte kunde fylla med data med MERGEFIELDS.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

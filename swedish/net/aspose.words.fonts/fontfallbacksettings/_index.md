@@ -3,14 +3,14 @@ title: FontFallbackSettings Class
 linktitle: FontFallbackSettings
 articleTitle: FontFallbackSettings
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontFallbackSettings klass. Anger inställningar för reservmekanism för teckensnitt i C#.
+description: Upptäck Aspose.Words.Fonts.FontFallbackSettings för anpassningsbara alternativ för teckensnitt, vilket säkerställer sömlös dokumentrendering och förbättrad textvisning.
 type: docs
-weight: 2900
+weight: 3330
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
-Anger inställningar för reservmekanism för teckensnitt.
+Anger inställningar för alternativa teckensnitt.
 
 För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
@@ -23,16 +23,16 @@ public class FontFallbackSettings
 | namn | Beskrivning |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Skapar automatiskt reservinställningarna genom att skanna tillgängliga teckensnitt. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Laddar reservinställningar från XML-ström. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Läser in alternativa teckensnittsinställningar från XML-fil. |
-| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Laddar fördefinierade reservinställningar som efterliknar Microsoft Word reserv och använder Microsoft office-teckensnitt. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Läser in reservinställningar från XML-strömmen. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Laddar alternativa teckensnittsinställningar från XML-filen. |
+| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Laddar fördefinierade reservinställningar som imiterar Microsoft Words reservinställningar och använder Microsoft Office-teckensnitt. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Laddar fördefinierade reservinställningar som använder Google Noto-teckensnitt. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Sparar de aktuella reservinställningarna för att streama. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Sparar de aktuella reservinställningarna i filen. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Sparar de aktuella reservinställningarna för strömning. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Sparar de aktuella reservinställningarna till filen. |
 
 ## Anmärkningar
 
-Som standard initieras reservinställningar med fördefinierade inställningar som efterliknar Microsoft Word reserv.
+Som standard initieras reservinställningar med fördefinierade inställningar som imiterar Microsoft Words reservinställningar.
 
 ## Exempel
 
@@ -45,19 +45,19 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Konfigurera våra teckensnittsinställningar till att endast källtypsnitt från mappen "MyFonts".
+// Konfigurera våra typsnittsinställningar så att de endast hämtar typsnitt från mappen "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Att anropa "BuildAutomatic"-metoden kommer att generera ett reservschema som
-// distribuerar tillgängliga typsnitt över så många Unicode-teckenkoder som möjligt.
-// I vårt fall har den bara tillgång till en handfull typsnitt i mappen "MyFonts".
+// Anrop av metoden "BuildAutomatic" genererar ett reservschema som
+// distribuerar tillgängliga teckensnitt över så många Unicode-teckenkoder som möjligt.
+// I vårt fall har den bara åtkomst till de få teckensnitt som finns i mappen "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Vi kan också ladda ett anpassat ersättningsschema från en fil som denna.
-// Detta schema tillämpar typsnittet "AllegroOpen" över "0000-00ff" Unicode-blocken, "AllegroOpen"-teckensnittet över "0100-024f",
-// och typsnittet "M+ 2m" i alla andra intervall som andra typsnitt i schemat inte täcker.
+// Vi kan också ladda ett anpassat substitutionsschema från en fil som denna.
+// Detta schema tillämpar teckensnittet "AllegroOpen" över Unicode-blocken "0000-00ff", teckensnittet "AllegroOpen" över "0100-024f",
+// och teckensnittet "M+ 2m" i alla andra intervall som andra teckensnitt i schemat inte täcker.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Skapa en dokumentbyggare och ställ in dess teckensnitt till ett som inte finns i någon av våra källor.
@@ -65,8 +65,8 @@ fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Använd byggaren för att skriva ut varje Unicode-tecken från 0x0021 till 0x052F,
-// med beskrivande linjer som delar Unicode-block som vi definierade i vårt anpassade typsnittsalternativ.
+// Använd byggaren för att skriva ut alla Unicode-tecken från 0x0021 till 0x052F,
+// med beskrivande linjer som delar Unicode-block som vi definierade i vårt anpassade teckensnittsalternativ.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

@@ -3,9 +3,9 @@ title: FieldIf Class
 linktitle: FieldIf
 articleTitle: FieldIf
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldIf فصل. ينفذ حقل IF في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldIf—قم بتنفيذ حقول IF بكفاءة لتحسين أتمتة المستندات وتبسيط سير عملك.
 type: docs
-weight: 2000
+weight: 2410
 url: /ar/net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class
@@ -28,39 +28,39 @@ public class FieldIf : Field
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/fieldif/comparisonoperator/) { get; set; } | الحصول على عامل المقارنة أو تعيينه. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [ComparisonOperator](../../aspose.words.fields/fieldif/comparisonoperator/) { get; set; } | يحصل على عامل المقارنة أو يعينه. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [FalseText](../../aspose.words.fields/fieldif/falsetext/) { get; set; } | الحصول على أو تعيين النص المعروض إذا كان تعبير المقارنة كذلك`خطأ شنيع` . |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LeftExpression](../../aspose.words.fields/fieldif/leftexpression/) { get; set; } | الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [RightExpression](../../aspose.words.fields/fieldif/rightexpression/) { get; set; } | الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [FalseText](../../aspose.words.fields/fieldif/falsetext/) { get; set; } | يحصل على النص المعروض أو يعينه إذا كان تعبير المقارنة هو`خطأ شنيع` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LeftExpression](../../aspose.words.fields/fieldif/leftexpression/) { get; set; } | يحصل على الجزء الأيسر من تعبير المقارنة أو يعينه. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [RightExpression](../../aspose.words.fields/fieldif/rightexpression/) { get; set; } | يحصل على الجزء الصحيح من تعبير المقارنة أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [TrueText](../../aspose.words.fields/fieldif/truetext/) { get; set; } | الحصول على النص المعروض أو تعيينه إذا كان تعبير المقارنة صحيحًا. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| [TrueText](../../aspose.words.fields/fieldif/truetext/) { get; set; } | يحصل على النص المعروض أو يعينه إذا كان تعبير المقارنة صحيحًا. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | تقييم الحالة. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | يقيم الشرط. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-يقارن القيم المعينة بواسطة التعبيرات[`LeftExpression`](./leftexpression/) و[`RightExpression`](./rightexpression/) بالمقارنة باستخدام عامل التشغيل المعين بواسطة[`ComparisonOperator`](./comparisonoperator/).
+يقارن القيم المعينة بواسطة التعبيرات[`LeftExpression`](./leftexpression/) و[`RightExpression`](./rightexpression/) بالمقارنة باستخدام المشغل المعين بواسطة[`ComparisonOperator`](./comparisonoperator/).
 
-سيتم استخدام حقل بالتنسيق التالي كمصدر لدمج البريد: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
+سيتم استخدام الحقل بالتنسيق التالي كمصدر لدمج البريد: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
 ## أمثلة
 
@@ -77,12 +77,12 @@ field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
 // سيعرض حقل IF سلسلة من خاصية "TrueText" الخاصة به،
-// أو خاصية "FalseText" الخاصة بها، اعتمادًا على صحة العبارة التي قمنا ببنائها.
+// أو خاصية "FalseText" الخاصة بها، اعتمادًا على صحة العبارة التي أنشأناها.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// في هذه الحالة، "0 = 1" غير صحيح، لذا ستكون النتيجة المعروضة "خطأ".
+// في هذه الحالة، "0 = 1" غير صحيحة، وبالتالي فإن النتيجة المعروضة ستكون "False".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -96,7 +96,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// هذه المرة العبارة صحيحة، لذا ستكون النتيجة المعروضة "صحيح".
+// هذه المرة العبارة صحيحة، لذا فإن النتيجة المعروضة ستكون "صحيح".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

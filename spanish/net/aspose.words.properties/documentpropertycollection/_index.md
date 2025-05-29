@@ -3,16 +3,16 @@ title: DocumentPropertyCollection Class
 linktitle: DocumentPropertyCollection
 articleTitle: DocumentPropertyCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Properties.DocumentPropertyCollection clase. Clase base paraBuiltInDocumentProperties yCustomDocumentProperties colecciones en C#.
+description: Descubra la clase Aspose.Words.Properties.DocumentPropertyCollection, su opción ideal para administrar propiedades de documentos personalizadas e integradas de manera eficiente.
 type: docs
-weight: 4480
+weight: 5210
 url: /es/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
 Clase base para[`BuiltInDocumentProperties`](../builtindocumentproperties/) y[`CustomDocumentProperties`](../customdocumentproperties/) colecciones.
 
-Para obtener más información, visite el[Trabajar con propiedades de documento](https://docs.aspose.com/words/net/work-with-document-properties/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con propiedades del documento](https://docs.aspose.com/words/net/work-with-document-properties/) Artículo de documentación.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -22,8 +22,8 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos de la colección. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por index. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos en la colección. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por índice. |
 | virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por el nombre de la propiedad. |
 
 ## Métodos
@@ -31,7 +31,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Nombre | Descripción |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Elimina todas las propiedades de la colección. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devuelve`verdadero` si existe una propiedad con el nombre especificado en la colección. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtiene el índice de una propiedad por nombre. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Elimina una propiedad con el nombre especificado de la colección. |
@@ -53,18 +53,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -78,10 +78,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 

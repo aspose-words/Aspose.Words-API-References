@@ -3,9 +3,9 @@ title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
 second_title: Aspose.Words pour .NET
-description: CellFormat HorizontalMerge propriété. Spécifie comment la cellule est fusionnée horizontalement avec les autres cellules de la ligne en C#.
+description: Découvrez la propriété CellFormat HorizontalMerge pour fusionner de manière transparente les cellules horizontalement, améliorant ainsi la mise en page et l'organisation de votre feuille de calcul.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -18,25 +18,25 @@ public CellMerge HorizontalMerge { get; set; }
 
 ## Exemples
 
-Montre comment fusionner les cellules d’un tableau horizontalement.
+Montre comment fusionner les cellules d'un tableau horizontalement.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une cellule dans la première colonne de la première ligne.
+// Insérer une cellule dans la première colonne de la première ligne.
 // Cette cellule sera la première d'une plage de cellules fusionnées horizontalement.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Insère une cellule dans la deuxième colonne de la première ligne. Au lieu d'ajouter du contenu textuel,
+// Insérer une cellule dans la deuxième colonne de la première ligne. Au lieu d'ajouter du texte,
 // nous allons fusionner cette cellule avec la première cellule que nous avons ajoutée directement à gauche.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Insère deux cellules supplémentaires non fusionnées dans la deuxième ligne.
+// Insérer deux autres cellules non fusionnées dans la deuxième ligne.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

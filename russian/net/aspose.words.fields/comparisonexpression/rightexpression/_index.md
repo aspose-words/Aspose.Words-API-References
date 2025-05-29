@@ -3,7 +3,7 @@ title: ComparisonExpression.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words для .NET
-description: ComparisonExpression RightExpression свойство. Получает правильное выражение на С#.
+description: Откройте для себя свойство RightExpression для ComparisonExpression. Легко извлекайте правильное выражение для улучшенного анализа данных и повышения производительности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Коды полей, которые мы используем в этом примере:
-    // 1. " ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
-    // 2. " СРАВНИТЬ {0} {1} {2} ".
+    // 1. "ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
+    // 2. "СРАВНИТЬ {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Если «comparisonResult» не определен, мы создаем «ComparisonEvaluationResult» со строкой вместо bool.
+    // Если "comparisonResult" не определен, мы создаем "ComparisonEvaluationResult" со строкой, а не с логическим значением.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

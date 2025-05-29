@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 linktitle: ExportLanguageToSpanTag
 articleTitle: ExportLanguageToSpanTag
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions ExportLanguageToSpanTag ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة Span في بنية المستند لتصدير لغة النص أم لا في C#.
+description: اكتشف خاصية ExportLanguageToSpanTag في PdfSaveOptions. تحكم في تصدير لغة النص باستخدام علامات Span لتحسين بنية المستند وسهولة الوصول إليه.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة "Span" في بنية المستند لتصدير لغة النص أم لا.
+يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم إنشاء علامة "Span" في بنية المستند لتصدير لغة النص أم لا.
 
 ```csharp
 public bool ExportLanguageToSpanTag { get; set; }
@@ -18,11 +18,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي`خطأ شنيع`ويتم إرفاق السمة "Lang" بتسلسل محتوى محدد في تدفق محتوى الصفحة.
+القيمة الافتراضية هي`خطأ شنيع`ويتم ربط السمة "Lang" بتسلسل المحتوى المحدد في مجرى محتوى الصفحة.
 
-عندما تكون القيمة`حقيقي` يتم إنشاء علامة "Span" للنص الذي يحتوي على language غير الافتراضية ويتم إرفاق سمة "Lang" بهذه العلامة.
+عندما تكون القيمة`حقيقي` تم إنشاء علامة "Span" للنص الذي يحتوي على لغة غير افتراضية وتم إرفاق سمة "Lang" بهذه العلامة.
 
-يتم تجاهل هذه القيمة عندما[`ExportDocumentStructure`](../exportdocumentstructure/) يكون`خطأ شنيع` .
+يتم تجاهل هذه القيمة عند[`ExportDocumentStructure`](../exportdocumentstructure/) يكون`خطأ شنيع` .
 
 ## أمثلة
 
@@ -37,7 +37,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // ملاحظة، عندما تكون قيمة "ExportDocumentStructure" خاطئة، يتم تجاهل "ExportLanguageToSpanTag".
+    // ملاحظة، عندما يكون "ExportDocumentStructure" خاطئًا، سيتم تجاهل "ExportLanguageToSpanTag".
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

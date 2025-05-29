@@ -3,14 +3,14 @@ title: GeneralFormatCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: GeneralFormatCollection RemoveAt metodo. Rimuove unoccorrenza di formato generale nellindice specificato in C#.
+description: Rimuovi facilmente un'occorrenza specifica da GeneralFormatCollection utilizzando il metodo RemoveAt. Semplifica la gestione dei tuoi dati oggi stesso!
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/generalformatcollection/removeat/
 ---
 ## GeneralFormatCollection.RemoveAt method
 
-Rimuove un'occorrenza di formato generale nell'indice specificato.
+Rimuove un'occorrenza di formato generale all'indice specificato.
 
 ```csharp
 public void RemoveAt(int index)
@@ -28,7 +28,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -70,7 +70,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

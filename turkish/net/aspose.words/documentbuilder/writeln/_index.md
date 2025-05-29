@@ -2,15 +2,15 @@
 title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
-second_title: Aspose.Words for .NET
-description: DocumentBuilder Writeln yöntem. Belgeye bir dize ve paragraf sonu ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder'ın Writeln yöntemiyle belgelerinizi zahmetsizce geliştirin; daha iyi okunabilirlik için metin ve paragraf sonlarını sorunsuz bir şekilde ekleyin.
 type: docs
-weight: 660
+weight: 700
 url: /tr/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
 
-Belgeye bir dize ve paragraf sonu ekler.
+Belgeye bir dize ve bir paragraf sonu ekler.
 
 ```csharp
 public void Writeln(string text)
@@ -22,11 +22,11 @@ public void Writeln(string text)
 
 ## Notlar
 
-Geçerli yazı tipi ve paragraf formatı,[`Font`](../font/) Ve[`ParagraphFormat`](../paragraphformat/) özellikler kullanılır.
+tarafından belirtilen geçerli yazı tipi ve paragraf biçimlendirmesi[`Font`](../font/) Ve[`ParagraphFormat`](../paragraphformat/) özellikler kullanılır.
 
 ## Örnekler
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -77,7 +77,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ## Writeln() {#writeln}
 
-Belgeye paragraf sonu ekler.
+Belgeye bir paragraf sonu ekler.
 
 ```csharp
 public void Writeln()
@@ -85,11 +85,11 @@ public void Writeln()
 
 ## Notlar
 
-Aramalar[`InsertParagraph`](../insertparagraph/).
+Çağrılar[`InsertParagraph`](../insertparagraph/).
 
 ## Örnekler
 
-DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
+DocumentBuilder kullanılarak bir belgede üstbilgi ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

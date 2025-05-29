@@ -2,10 +2,10 @@
 title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.MemoryFontSource 班级. 表示存储在内存中的单个 TrueType 字体文件 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.MemoryFontSource 类，实现对存储在内存中的 TrueType 字体的无缝访问，从而增强文档处理能力。
 type: docs
-weight: 3020
+weight: 3450
 url: /zh/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
@@ -22,29 +22,29 @@ public class MemoryFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | 向量. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | 向量. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | 向量. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Ctor. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | 缓存中此源的键。 |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | 二进制字体数据。 |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | 二进制字体数据. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | 返回字体源优先级。 |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | 返回字体源的类型。 |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 在处理字体源期间检测到可能导致格式保真度损失的问题时调用。 |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回可通过此源使用的字体列表。 |
 
 ## 例子
 
-演示如何使用字节数组和字体文件中的数据作为字体源。
+展示如何使用包含字体文件中数据的字节数组作为字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

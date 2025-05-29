@@ -3,7 +3,7 @@ title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
 second_title: Aspose.Words para .NET
-description: ConvertUtil PixelToNewDpi método. Convierte píxeles de una resolución a otra en C#.
+description: Transforme la resolución de píxeles fácilmente con el método PixelToNewDpi de ConvertUtil. Consiga una calidad de imagen y precisión óptimas para sus proyectos.
 type: docs
 weight: 30
 url: /es/net/aspose.words/convertutil/pixeltonewdpi/
@@ -19,8 +19,8 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | pixels | Double | El valor a convertir. |
-| oldDpi | Double | La resolución actual de ppp (puntos por pulgada). |
-| newDpi | Double | La nueva resolución dpi (puntos por pulgada). |
+| oldDpi | Double | La resolución actual de dpi (puntos por pulgada). |
+| newDpi | Double | La nueva resolución de dpi (puntos por pulgada). |
 
 ## Ejemplos
 
@@ -30,7 +30,7 @@ Muestra cómo utilizar la conversión de puntos a píxeles con resolución prede
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definir el tamaño del margen superior de esta sección en píxeles, según un DPI personalizado.
+// Define el tamaño del margen superior de esta sección en píxeles, de acuerdo con un DPI personalizado.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;

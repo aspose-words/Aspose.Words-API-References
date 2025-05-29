@@ -3,28 +3,35 @@ title: Shading.ForegroundTintAndShade
 linktitle: ForegroundTintAndShade
 articleTitle: ForegroundTintAndShade
 second_title: Aspose.Words per .NET
-description: Shading ForegroundTintAndShade proprietà. Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di primo piano in C#.
+description: Regola la proprietà ForegroundTintAndShade per schiarire o scurire senza sforzo i colori del tema, migliorando l'aspetto visivo del tuo design.
 type: docs
 weight: 60
 url: /it/net/aspose.words/shading/foregroundtintandshade/
 ---
 ## Shading.ForegroundTintAndShade property
 
-Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di primo piano.
+Ottiene o imposta un valore double che schiarisce o scurisce un colore del tema in primo piano.
 
 ```csharp
 public double ForegroundTintAndShade { get; set; }
 ```
 
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentOutOfRangeException | Genera un'eccezione se si imposta questa proprietà su un valore inferiore a -1 o superiore a 1. |
+| InvalidOperationException | Genera un errore se questa proprietà viene impostata per un oggetto Ombreggiatura con colori non a tema. |
+
 ## Osservazioni
 
-I valori consentiti sono compresi nell'intervallo da -1 (il più scuro) a 1 (il più chiaro) per questa proprietà. Zero (0) è neutro. Il tentativo di impostare questa proprietà su un valore inferiore a -1 o superiore a 1 risulta inArgumentOutOfRangeException.
+I valori consentiti per questa proprietà sono compresi tra -1 (il più scuro) e 1 (il più chiaro).
 
-L'impostazione di questa proprietà per l'oggetto Shading con colori non tematici risulta in:InvalidOperationException.
+Zero (0) è neutro.
 
 ## Esempi
 
-Mostra come impostare i colori di primo piano e di sfondo per l'ombreggiatura della texture.
+Mostra come impostare i colori di primo piano e di sfondo per la texture dell'ombreggiatura.
 
 ```csharp
 Document doc = new Document();

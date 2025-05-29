@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCellStart
 linktitle: VisitCellStart
 articleTitle: VisitCellStart
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitCellStart metod. Anropas när uppräkningen av en tabellcell har startat i C#.
+description: Upptäck VisitCellStart-metoden i DocumentVisitor, avgörande för att effektivt hantera uppräkning av tabellceller. Förbättra dina kodningskunskaper idag!
 type: docs
 weight: 90
 url: /sv/net/aspose.words/documentvisitor/visitcellstart/
 ---
 ## DocumentVisitor.VisitCellStart method
 
-Anropas när uppräkningen av en tabellcell har startat.
+Anropas när uppräkningen av en tabellcell har påbörjats.
 
 ```csharp
 public virtual VisitorAction VisitCellStart(Cell cell)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ public void TableToText()
     TableStructurePrinter visitor = new TableStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras undernoder.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
-    /// Körningar som inte finns i tabeller registreras inte.
+    /// Anropas när en Run-nod påträffas i dokumentet.
+    /// Körningar som inte finns inom tabeller registreras inte.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -92,7 +92,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Kallas efter att alla undernoder i en tabellnod har besökts.
+    /// Anropas efter att alla undernoder till en tabellnod har besökts.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -124,7 +124,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en radnod har besökts.
+    /// Anropas efter att alla undernoder till en radnod har besökts.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en cellnod har besökts.
+    /// Anropas efter att alla undernoder till en Cell-nod har besökts.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -164,10 +164,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
-    /// i den aktuella tabellens träd med underordnade noder.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
+    /// in i den aktuella tabellens träd med underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

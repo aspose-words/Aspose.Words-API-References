@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words för .NET
-description: ChartDataLabelCollection ShowSeriesName fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk  i C#.
+description: Upptäck egenskapen ChartDataLabelCollection ShowSeriesName, styr enkelt serienamnens synlighet i dina dataetiketter. Förbättra dina diagram idag!
 type: docs
-weight: 130
+weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` .
+Returnerar eller anger ett booleskt värde för att ange visningsbeteendet för serienamnet för dataetiketterna för hela serien. `sann` för att visa seriens namn;`falsk` att dölja. Som standard`falsk` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowSeriesName { get; set; }
 
 ## Anmärkningar
 
-Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowSeriesName`](../../chartdatalabel/showseriesname/) egenskap.
+Värde definierat för den här egenskapen kan åsidosättas för en enskild dataetikett med hjälp av [`ShowSeriesName`](../../chartdatalabel/showseriesname/) egendom.
 
 ## Exempel
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
+ // Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

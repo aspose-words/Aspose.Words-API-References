@@ -3,7 +3,7 @@ title: Field.Start
 linktitle: Start
 articleTitle: Start
 second_title: Aspose.Words für .NET
-description: Field Start eigendom. Ruft den Knoten ab der den Anfang des Felds darstellt in C#.
+description: Entdecken Sie die Eigenschaft „Feldstart“, um einfach auf den Startknoten Ihres Felds zuzugreifen, Ihr Datenmanagement zu verbessern und Arbeitsabläufe zu optimieren.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/field/start/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

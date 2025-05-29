@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Placeholder
 linktitle: Placeholder
 articleTitle: Placeholder
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart Placeholder ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة وعنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping العنصر أوIsShowingPlaceholderText العنصر هوحقيقي  في C#.
+description: اكتشف خاصية العنصر النائب StructuredDocumentTagRangeStart، التي تعرض نص العنصر النائب الأساسي للمحتوى الفارغ، مما يعزز وضوح مستندك وسهولة استخدامه.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 ---
 ## StructuredDocumentTagRangeStart.Placeholder property
 
-يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة، وعنصر XML المعين المرتبط فارغ كما هو محدد عبر[`XmlMapping`](../xmlmapping/) العنصر أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر هو`حقيقي` .
+يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)يحتوي على نص نائب يجب عرضه عندما تكون محتويات علامة المستند المنظم هذه فارغة، يكون عنصر XML المرتبط فارغًا كما هو محدد بواسطة عبر[`XmlMapping`](../xmlmapping/) العنصر أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر هو`حقيقي` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -18,7 +18,7 @@ public BuildingBlock Placeholder { get; }
 
 ## ملاحظات
 
-يمكن ان يكون`باطل`، مما يعني أن العنصر النائب لا ينطبق على علامة المستند المنظمة هذه.
+يمكن أن يكون`باطل`، مما يعني أن العنصر النائب غير قابل للتطبيق على علامة المستند المنظمة هذه.
 
 ### أنظر أيضا
 

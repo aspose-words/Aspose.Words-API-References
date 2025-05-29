@@ -3,16 +3,16 @@ title: FolderFontSource Class
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FolderFontSource classe. Représente le dossier contenant les fichiers de police TrueType en C#.
+description: Découvrez la classe Aspose.Words.Fonts.FolderFontSource, votre solution pour gérer efficacement les polices TrueType. Améliorez la typographie de vos documents dès aujourd'hui !
 type: docs
-weight: 2880
+weight: 3290
 url: /fr/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
-Représente le dossier contenant les fichiers de police TrueType.
+Représente le dossier contenant les fichiers de polices TrueType.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class FolderFontSource : FontSourceBase
@@ -22,18 +22,18 @@ public class FolderFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Directeur. |
-| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Directeur. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Cteur. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Cteur. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Chemin d'accès au dossier. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
+| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Chemin vers le dossier. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
 | [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Détermine s'il faut ou non analyser les sous-dossiers. |
-| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Renvoie le type de la source de police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
+| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Renvoie le type de la source de la police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé pendant le traitement de la source de police lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage. |
 
 ## Méthodes
 
@@ -46,7 +46,7 @@ public class FolderFontSource : FontSourceBase
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
 ```csharp
-// Crée une source de police à partir d'un dossier contenant des fichiers de police.
+// Créez une source de police à partir d'un dossier contenant des fichiers de police.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

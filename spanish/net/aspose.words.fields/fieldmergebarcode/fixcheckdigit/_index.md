@@ -3,14 +3,14 @@ title: FieldMergeBarcode.FixCheckDigit
 linktitle: FixCheckDigit
 articleTitle: FixCheckDigit
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode FixCheckDigit propiedad. Obtiene o establece si se corrige el dígito de control si no es válido en C#.
+description: Optimice su FieldMergeBarcode con la propiedad FixCheckDigit para garantizar una validación precisa del dígito de verificación y mejorar la integridad de los datos sin esfuerzo.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
 ---
 ## FieldMergeBarcode.FixCheckDigit property
 
-Obtiene o establece si se corrige el dígito de control si no es válido.
+Obtiene o establece si se debe corregir el dígito de verificación si no es válido.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyEAN13Barcode" de una fuente de datos combinada en códigos de barras EAN13.
+// Este campo convertirá todos los valores de la columna "MyEAN13Barcode" de una fuente de datos de combinación en códigos de barras EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -39,8 +39,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código de barras EAN13 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");

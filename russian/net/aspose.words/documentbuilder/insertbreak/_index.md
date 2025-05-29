@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertBreak
 linktitle: InsertBreak
 articleTitle: InsertBreak
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertBreak метод. Вставляет в документ разрыв указанного типа на С#.
+description: Улучшайте свои документы без особых усилий с помощью метода InsertBreak в DocumentBuilder, который позволяет легко добавлять пользовательские разрывы для улучшенного форматирования.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/documentbuilder/insertbreak/
 ---
 ## DocumentBuilder.InsertBreak method
 
-Вставляет в документ разрыв указанного типа.
+Вставляет разрыв указанного типа в документ.
 
 ```csharp
 public void InsertBreak(BreakType breakType)
@@ -32,11 +32,11 @@ public void InsertBreak(BreakType breakType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+// Укажите, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
+// Создаем заголовки, затем добавляем в документ три страницы для отображения каждого типа заголовков.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -54,7 +54,7 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +65,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
@@ -89,15 +89,15 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление первой страницы документа.
-// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
-// Также сделайте его записи гиперссылками, которые приведут нас
-// к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
+// Вставьте оглавление для первой страницы документа.
+// Настройте таблицу для выбора абзацев с заголовками уровней 1–3.
+// Также задайте его записи как гиперссылки, которые перенесут нас
+// в место расположения заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
+// Заполните оглавление, добавив абзацы со стилями заголовков.
+// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -125,7 +125,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
+// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

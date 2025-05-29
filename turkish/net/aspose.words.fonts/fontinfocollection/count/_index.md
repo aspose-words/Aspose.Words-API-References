@@ -2,15 +2,15 @@
 title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: FontInfoCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: FontInfoCollection Count özelliğini keşfedin, kusursuz veri yönetimi için koleksiyonunuzdaki toplam öğe sayısını zahmetsizce alın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontinfocollection/count/
 ---
 ## FontInfoCollection.Count property
 
-Koleksiyonda yer alan öğelerin sayısını alır.
+Koleksiyonda bulunan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Örnekler
 
-Boş belgede bulunan yazı tipleri hakkındaki bilgileri gösterir.
+Boş belgede bulunan yazı tipleri hakkında bilgi gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belgede 3 varsayılan yazı tipi bulunur. Belgedeki her yazı tipi
-// o yazı tipiyle ilgili ayrıntıları içeren karşılık gelen bir FontInfo nesnesine sahip olacaktır.
+// Boş bir belge 3 varsayılan yazı tipi içerir. Belgedeki her yazı tipi
+// o font hakkında detayları içeren karşılık gelen bir FontInfo nesnesi olacaktır.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

@@ -3,9 +3,9 @@ title: WriteProtection Class
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.WriteProtection klass. Anger skrivskyddsinställningar för ett dokument i C#.
+description: Upptäck klassen Aspose.Words.Settings.WriteProtection för att enkelt hantera inställningar för dokumentskrivskydd och förbättra din dokumentsäkerhet.
 type: docs
-weight: 5970
+weight: 6800
 url: /sv/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -22,15 +22,15 @@ public class WriteProtection
 
 | namn | Beskrivning |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returnerar`Sann` när ett skrivskyddslösenord är inställt. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returer`sann` när ett lösenord för skrivskydd är inställt. |
 | [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Anger om dokumentförfattaren har rekommenderat att dokumentet öppnas som skrivskyddat. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Ställer in skrivskyddslösenordet för dokumentet. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Returnerar`Sann` om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras`falsk` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Ställer in lösenordet för skrivskydd för dokumentet. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Returer`sann` om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras`falsk` . |
 
 ## Anmärkningar
 
@@ -38,7 +38,7 @@ Skrivskydd anger om författaren har rekommenderat att dokumentet ska öppnas so
 
 Skrivskydd skiljer sig från dokumentskydd. Skrivskydd anges i Microsoft Word i alternativen i dialogrutan Spara som.
 
-Du skapar inte instanser av den här klassen direkt. Du kommer åt dokumentskyddsinställningar via[`WriteProtection`](../../aspose.words/document/writeprotection/) fast egendom.
+Du skapar inte instanser av den här klassen direkt. Du kommer åt dokumentskyddsinställningar via[`WriteProtection`](../../aspose.words/document/writeprotection/) egendom.
 
 ## Exempel
 
@@ -55,7 +55,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och det krypterar inte heller innehållet.
+// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och krypterar inte heller innehållet.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

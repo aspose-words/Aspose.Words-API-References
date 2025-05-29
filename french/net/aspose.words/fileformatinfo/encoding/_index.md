@@ -3,14 +3,14 @@ title: FileFormatInfo.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words pour .NET
-description: FileFormatInfo Encoding propriété. Obtient lencodage détecté sil est applicable au format de document actuel. Détecte pour le moment lencodage uniquement pour les documents HTML en C#.
+description: Découvrez la propriété d'encodage FileFormatInfo pour identifier facilement l'encodage des documents. Prise en charge des formats HTML pour des résultats précis.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/fileformatinfo/encoding/
 ---
 ## FileFormatInfo.Encoding property
 
-Obtient l'encodage détecté s'il est applicable au format de document actuel. Détecte pour le moment l'encodage uniquement pour les documents HTML.
+Obtient l'encodage détecté s'il s'applique au format de document actuel. Détecte actuellement l'encodage uniquement pour les documents HTML.
 
 ```csharp
 public Encoding Encoding { get; }

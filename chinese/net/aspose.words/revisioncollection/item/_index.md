@@ -2,15 +2,15 @@
 title: RevisionCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionCollection Item 财产. 返回一个Revision在指定的索引处 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RevisionCollection Item 属性轻松访问特定修订版本。通过索引快速检索修订版本，简化数据管理。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/revisioncollection/item/
 ---
 ## RevisionCollection indexer
 
-返回一个[`Revision`](../../revision/)在指定的索引处。
+返回[`Revision`](../../revision/)在指定的索引处。
 
 ```csharp
 public Revision this[int index] { get; }
@@ -22,13 +22,13 @@ public Revision this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
@@ -38,12 +38,12 @@ public Revision this[int index] { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 文档的正常编辑不算作修订。
+// 对文档的正常编辑不算作修订。
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// 要将我们的编辑注册为修订，我们需要声明作者，然后开始跟踪它们。
+// 要将我们的编辑注册为修订，我们需要声明一个作者，然后开始跟踪它们。
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -51,13 +51,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// 该标志对应于“Review”-> 「追踪」-> Microsoft Word 中的“跟踪更改”选项。
-// “StartTrackRevisions”方法不影响其值，
-// 并且该文档正在以编程方式跟踪修订，尽管它的值为“false”。
+// 此标志对应于 Microsoft Word 中的“审阅”->“跟踪”->“跟踪更改”选项。
+//“StartTrackRevisions”方法不会影响其值，
+// 尽管值为“false”，但文档仍以编程方式跟踪修订。
 // 如果我们使用 Microsoft Word 打开此文档，它将不会跟踪修订。
 Assert.IsFalse(doc.TrackRevisions);
 
-// 我们使用文档生成器添加了文本，因此第一个修订版是插入型修订版。
+// 我们已经使用文档构建器添加了文本，因此第一次修订是插入类型的修订。
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -68,17 +68,17 @@ Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 // 删除运行以创建删除类型修订。
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// 添加新修订将其放置在修订集合的开头。
+// 添加新的修订版本会将其放置在修订版本集合的开头。
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// 在我们接受/拒绝修订之前插入显示在文档正文中的修订。
-// 拒绝修订将从正文中删除其节点。相反，组成删除修订的节点
-// 也停留在文档中，直到我们接受修订。
+// 在我们接受/拒绝修订之前，插入修订就会显示在文档正文中。
+// 拒绝修订版本将从主体中删除其节点。相反，组成修订版本的节点将被删除
+// 也停留在文档中直到我们接受修订。
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
 // 接受删除修订将从段落文本中删除其父节点
-// 然后删除集合的修订本身。
+// 然后删除集合本身的修订版本。
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);

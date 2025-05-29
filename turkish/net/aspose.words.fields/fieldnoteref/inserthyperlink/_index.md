@@ -2,15 +2,15 @@
 title: FieldNoteRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
-second_title: Aspose.Words for .NET
-description: FieldNoteRef InsertHyperlink mülk. Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldNoteRef InsertHyperlink özelliğini keşfedin, yer imlerine eklenen paragraflar için köprü metni eklemeyi kolayca yöneterek belgenizin etkileşimliliğini artırın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldnoteref/inserthyperlink/
 ---
 ## FieldNoteRef.InsertHyperlink property
 
-Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar.
+Yer imlerine eklenen paragrafa bir köprü eklenip eklenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -18,7 +18,7 @@ public bool InsertHyperlink { get; set; }
 
 ## Örnekler
 
-NOTEREF alanlarının eklenmesini ve görünümlerinin değiştirilmesini gösterir.
+NOTEREF alanlarının nasıl ekleneceğini ve görünümlerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void FieldNoteRef()
@@ -26,21 +26,21 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // NOTEREF alanının referans alacağı dipnotlu bir yer imi oluşturun.
+    // NOTEREF alanının referans göstereceği bir dipnot içeren bir yer imi oluşturun.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Bu NOTEREF alanı, başvurulan yer iminin içindeki dipnotun numarasını gösterecektir.
-    // InsertHyperlink özelliğini ayarlamak, Microsoft Word'deki alanı Ctrl + tıklatarak yer işaretine atlamamızı sağlar.
+    // Bu NOTEREF alanı, referans verilen yer iminin içindeki dipnotun numarasını görüntüler.
+    // InsertHyperlink özelliğini ayarlamak, Microsoft Word'de alana Ctrl + tıklayarak yer imine geçmemizi sağlar.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
     // \p bayrağı kullanıldığında, dipnot numarasından sonra alan, yer iminin alana göre konumunu da görüntüler.
-    // Bookmark1 bu alanın üstündedir ve 1 numaralı dipnot içerir, dolayısıyla güncellemede sonuç "yukarıda 1" olacaktır.
+    // Bookmark1 bu alanın üstündedir ve 1 numaralı dipnotu içermektedir, dolayısıyla güncelleme sırasında sonuç "1 üstte" olacaktır.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 bu alanın altındadır ve 2 numaralı dipnot içerir, dolayısıyla alan "aşağıda 2" olarak görünecektir.
-    // \f bayrağı, 2 sayısının asıl metindeki dipnot numarası etiketiyle aynı formatta görünmesini sağlar.
+    // Bookmark2 bu alanın altındadır ve dipnot numarası 2'yi içerdiğinden, alanda "aşağıda 2" görüntülenecektir.
+    // \f bayrağı, 2 sayısının gerçek metindeki dipnot numarası etiketiyle aynı biçimde görünmesini sağlar.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// Belirtilen özelliklere sahip bir NOTEREF alanı eklemek için belge oluşturucuyu kullanır.
+/// Belirtilen özelliklere sahip bir NOTEREF alanı eklemek için bir belge oluşturucu kullanır.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {

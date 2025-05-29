@@ -2,10 +2,10 @@
 title: FootnotePosition Enum
 linktitle: FootnotePosition
 articleTitle: FootnotePosition
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Notes.FootnotePosition Sıralama. Dipnot konumunu tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir dipnot yerleşimi, belge biçimlendirmesinin iyileştirilmesi ve okunabilirlik için Aspose.Words.Notes.FootnotePosition numaralandırmasını keşfedin.
 type: docs
-weight: 4290
+weight: 4980
 url: /tr/net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration
@@ -20,8 +20,8 @@ public enum FootnotePosition
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| BottomOfPage | `1` | Dipnotlar her sayfanın altında görüntülenir. |
-| BeneathText | `2` | Dipnotlar her sayfadaki metnin altında görüntülenir. |
+| BottomOfPage | `1` | Dipnotlar her sayfanın alt kısmında çıktı olarak verilir. |
+| BeneathText | `2` | Dipnotlar her sayfadaki metnin altında çıktı olarak verilir. |
 
 ## Örnekler
 
@@ -31,21 +31,21 @@ Belgenin dipnotlarını toplayıp görüntüleyeceği farklı bir yerin nasıl s
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dipnot, metne referans veya yan yorum eklemenin bir yoludur
- // bu, ana gövde metninin akışına müdahale etmez.
-// Dipnot eklemek küçük bir üst simge referans sembolü ekler
-// ana gövde metninde dipnotu eklediğimiz yere.
-// Her dipnot ayrıca sayfanın altında bir sembolden oluşan bir giriş oluşturur
+// Dipnot, metne bir referans veya yan yorum eklemenin bir yoludur
+ // ana gövde metninin akışını engellemeyen.
+// Dipnot eklemek, küçük bir üst simge referans sembolü ekler
+// Dipnotu eklediğimiz ana metinde.
+// Her dipnot ayrıca sayfanın en altında bir giriş oluşturur ve bu giriş bir sembolden oluşur
 // ana gövde metnindeki referans sembolüyle eşleşen.
-// Belge oluşturucunun "InsertFootnote" yöntemine ilettiğimiz referans metni.
+// Belge oluşturucunun "InsertFootnote" metoduna geçirdiğimiz referans metni.
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote contents.");
 
-// Belgenin tüm dipnotlarını nereye yerleştireceğini belirlemek için "Konum" özelliğini kullanabiliriz.
+// Belgenin tüm dipnotlarının nereye yerleştirileceğini belirlemek için "Konum" özelliğini kullanabiliriz.
 // "Position" özelliğinin değerini "FootnotePosition.BottomOfPage" olarak ayarlarsak,
-// her dipnot, referans işaretini içeren sayfanın altında görünecektir. Bu varsayılan değerdir.
+// her dipnot, referans işaretini içeren sayfanın en altında görünecektir. Bu varsayılan değerdir.
 // "Position" özelliğinin değerini "FootnotePosition.BeneathText" olarak ayarlarsak,
-// her dipnot, referans işaretini içeren sayfa metninin sonunda görünecektir.
+// her dipnot, referans işaretini içeren sayfanın metninin sonunda görünecektir.
 doc.FootnoteOptions.Position = footnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");

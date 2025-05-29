@@ -3,14 +3,14 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words für .NET
-description: Font HighlightColor eigendom. Ruft die Hervorhebungsfarbe Markerfarbe ab oder legt diese fest in C#.
+description: Entdecken Sie die Font HighlightColor-Eigenschaft – passen Sie die Hervorhebungsfarbe Ihres Textes ganz einfach an, um die Lesbarkeit und die visuelle Attraktivität zu verbessern. Werten Sie Ihr Design auf!
 type: docs
 weight: 150
 url: /de/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-Ruft die Hervorhebungsfarbe (Markerfarbe) ab oder legt diese fest.
+Ruft die Hervorhebungsfarbe (Markierung) ab oder legt sie fest.
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
+Zeigt, wie ein Textlauf mithilfe seiner Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();

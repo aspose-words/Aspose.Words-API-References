@@ -2,15 +2,15 @@
 title: NodeCollection.Insert
 linktitle: Insert
 articleTitle: Insert
-second_title: Aspose.Words for .NET
-description: NodeCollection Insert yöntem. Belirtilen dizindeki koleksiyona bir düğüm ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Basitleştirilmiş Ekleme yöntemimizle NodeCollection'ınıza herhangi bir dizinde zahmetsizce düğümler ekleyin. Veri yönetiminizi bugün geliştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/nodecollection/insert/
 ---
 ## NodeCollection.Insert method
 
-Belirtilen dizindeki koleksiyona bir düğüm ekler.
+Belirtilen dizinde koleksiyona bir düğüm ekler.
 
 ```csharp
 public void Insert(int index, Node node)
@@ -18,24 +18,24 @@ public void Insert(int index, Node node)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi belirtir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir ve bu şekilde devam eder. |
+| index | Int32 | Düğümün sıfırdan başlayan indeksi. Negatif indekslere izin verilir ve listenin sonundan erişimi belirtir. Örneğin -1 son düğüm anlamına gelir, -2 sondan bir önceki düğüm anlamına gelir, vb. |
 | node | Node | Eklenecek düğüm. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
+| NotSupportedException | The[`NodeCollection`](../) "derin" bir koleksiyondur. |
 
 ## Notlar
 
-Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
+Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine bir çocuk olarak eklenir.
 
-Endeksin eşit veya büyük olması durumunda[`Count`](../count/)düğüm koleksiyonun sonuna eklenir.
+Eğer endeks eşit veya daha büyükse[`Count`](../count/), düğüm koleksiyonun sonuna eklenir.
 
-Endeks negatifse ve mutlak değeri şundan büyükse:[`Count`](../count/)düğüm koleksiyonun sonuna eklenir.
+Eğer endeks negatif ise ve mutlak değeri 'den büyükse[`Count`](../count/), düğüm koleksiyonun sonuna eklenir.
 
-Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
+Eklenen düğüm başka bir belgeden oluşturulduysa, kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. Daha sonra içe aktarılan düğüm geçerli belgeye eklenebilir.
 
 ## Örnekler
 
@@ -45,7 +45,7 @@ NodeCollection ile nasıl çalışılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder kullanarak Çalıştırmalar ekleyerek belgeye metin ekleyin.
+// DocumentBuilder kullanarak çalıştırmalar ekleyerek belgeye metin ekleyin.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
@@ -55,14 +55,14 @@ RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// RunCollection'a manuel olarak da düğüm ekleyebiliriz.
+// RunCollection'a manuel olarak da bir düğüm ekleyebiliriz.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Metinlerini belgeden kaldırmak için bireysel çalıştırmalara erişin ve bunları kaldırın.
+// Tek tek çalışmalara erişin ve bunları kaldırarak metinlerini belgeden kaldırın.
 Run run = runs[1];
 runs.Remove(run);
 

@@ -3,7 +3,7 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words för .NET
-description: ViewOptions FormsDesign fast egendom. Anger om dokumentet är i formulärdesignläge i C#.
+description: Upptäck hur ViewOptions FormsDesign förbättrar din dokumentupplevelse genom att aktivera och växla formulärdesignläge för sömlös redigering och anpassning.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/viewoptions/formsdesign/
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Ställ in egenskapen "FormsDesign" till "false" för att hålla formulärdesignläget inaktiverat.
-// Ställ in egenskapen "FormsDesign" på "true" för att aktivera formulärdesignläge.
+// Sätt egenskapen "FormsDesign" till "false" för att hålla formulärdesignläget inaktiverat.
+// Sätt egenskapen "FormsDesign" till "true" för att aktivera formulärdesignläge.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

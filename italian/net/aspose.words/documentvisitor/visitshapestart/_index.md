@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitShapeStart
 linktitle: VisitShapeStart
 articleTitle: VisitShapeStart
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitShapeStart metodo. Chiamato quando è iniziata lenumerazione di una forma in C#.
+description: Esplora il metodo VisitShapeStart di DocumentVisitor per migliorare l'enumerazione delle forme nelle tue applicazioni. Aumenta l'efficienza e semplifica il tuo processo di codifica!
 type: docs
 weight: 400
 url: /it/net/aspose.words/documentvisitor/visitshapestart/
@@ -26,7 +26,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ## Esempi
 
-Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
+Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un documento visitatore.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // utilizzare i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "NonPrimitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // AngoliSuperioriUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliSuperioriArrotondati, AngoliDiagonaliArrotondati
+    // si prega di utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -121,7 +121,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Di seguito sono riportati tre tipi di campi che possono accettare un visitatore del documento,
-    // che gli consentirà di visitare il nodo accettante e quindi di attraversare i suoi nodi figli in modo approfondito.
+    // che gli consentirà di visitare il nodo accettante e quindi attraversare i suoi nodi figlio in modalità depth-first.
     // 1 - Nodo paragrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -142,7 +142,7 @@ public void RemoveHiddenContentFromDocument()
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -153,7 +153,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -164,7 +164,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -175,7 +175,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -186,7 +186,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -197,7 +197,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un FormField nel documento.
+    /// Chiamato quando nel documento viene rilevato un FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -219,7 +219,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una forma nel documento.
+    /// Chiamato quando nel documento viene rilevata una forma.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -230,7 +230,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un commento nel documento.
+    /// Chiamato quando nel documento viene rilevato un commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -252,10 +252,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato uno SpecialCharacter.
+    /// Chiamato quando nel documento viene rilevato uno SpecialCharacter.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -263,13 +265,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Tabella viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Tabella nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Il contenuto all'interno delle celle della tabella può avere il flag di contenuto nascosto, ma le tabelle stesse no.
-        // Se questa tabella non avesse altro che contenuto nascosto, questo visitatore lo avrebbe rimosso tutto,
-        // e non rimarrebbero nodi figli.
+        // Il contenuto all'interno delle celle della tabella potrebbe avere il flag di contenuto nascosto, ma le tabelle stesse no.
+        // Se questa tabella non avesse altro che contenuti nascosti, questo visitatore li avrebbe rimossi tutti,
+        // e non rimarrebbero nodi figlio.
         // Pertanto, possiamo anche trattare la tabella stessa come contenuto nascosto e rimuoverla.
         // Le tabelle vuote ma senza contenuto nascosto avranno celle con paragrafi vuoti all'interno,
         // che questo visitatore non rimuoverà.
@@ -280,7 +282,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Cella termina nel documento.
+    /// Chiamato quando la visita di un nodo Cella è terminata nel documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -291,7 +293,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Riga viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Riga nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

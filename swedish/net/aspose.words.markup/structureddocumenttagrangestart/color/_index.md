@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart Color fast egendom. Hämtar eller ställer in färgen på den strukturerade dokumenttaggen i C#.
+description: Upptäck hur du anpassar färgegenskapen för StructuredDocumentTagRangeStart för förbättrad dokumentformatering och visuellt tilltalande.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

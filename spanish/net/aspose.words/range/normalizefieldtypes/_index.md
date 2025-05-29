@@ -3,9 +3,9 @@ title: Range.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
 articleTitle: NormalizeFieldTypes
 second_title: Aspose.Words para .NET
-description: Range NormalizeFieldTypes método. Cambia los valores del tipo de campoFieldType deFieldStart FieldSeparator FieldEnd en este rango para que correspondan a los tipos de campo contenidos en los códigos de campo en C#.
+description: Transforme los tipos de campo con el método NormalizeFieldTypes. Asegúrese de que FieldStart, FieldSeparator y FieldEnd coincidan con los códigos de campo especificados para una gestión de datos fluida.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words/range/normalizefieldtypes/
 ---
 ## Range.NormalizeFieldTypes method
@@ -18,9 +18,43 @@ public void NormalizeFieldTypes()
 
 ## Observaciones
 
-Utilice este método después de cambios en el documento que afecten a los tipos de campos.
+Utilice este método después de realizar cambios en el documento que afecten los tipos de campo.
 
-Para cambiar los valores de tipo de campo en todo el documento utilice[`NormalizeFieldTypes`](../../document/normalizefieldtypes/).
+Para cambiar los valores del tipo de campo en todo el documento utilice[`NormalizeFieldTypes`](../../document/normalizefieldtypes/).
+
+## Ejemplos
+
+Muestra cómo mantener actualizado el tipo de un campo con su código de campo.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE", null);
+
+// Aspose.Words detecta automáticamente los tipos de campo según los códigos de campo.
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+
+// Cambia manualmente el texto sin formato del campo, que determina el código del campo.
+Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
+
+// Cambiar el código de campo ha cambiado este campo a uno de un tipo diferente,
+// pero las propiedades de tipo del campo todavía muestran el tipo antiguo.
+Assert.AreEqual("PAGE", field.GetFieldCode());
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual(FieldType.FieldDate, field.Start.FieldType);
+Assert.AreEqual(FieldType.FieldDate, field.Separator.FieldType);
+Assert.AreEqual(FieldType.FieldDate, field.End.FieldType);
+
+// Actualice esas propiedades con este método para mostrar el valor actual.
+doc.NormalizeFieldTypes();
+
+Assert.AreEqual(FieldType.FieldPage, field.Type);
+Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
+Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
+```
 
 ### Ver también
 

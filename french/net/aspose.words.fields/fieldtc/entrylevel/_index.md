@@ -3,7 +3,7 @@ title: FieldTC.EntryLevel
 linktitle: EntryLevel
 articleTitle: EntryLevel
 second_title: Aspose.Words pour .NET
-description: FieldTC EntryLevel propriété. Obtient ou définit le niveau de lentrée en C#.
+description: Découvrez la propriété FieldTC EntryLevel, gérez et personnalisez sans effort vos niveaux d'entrée pour une efficacité accrue et des flux de travail rationalisés.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldtc/entrylevel/
@@ -18,7 +18,7 @@ public string EntryLevel { get; set; }
 
 ## Exemples
 
-Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
+Montre comment insérer un champ TOC et filtrer les champs TC qui finissent par être des entrées.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insère un champ TOC, qui compilera tous les champs TC dans une table des matières.
+    // Insérez un champ TOC, qui compilera tous les champs TC dans une table des matières.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configure le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
+    // Configurez le champ uniquement pour récupérer les entrées TC de type « A » et un niveau d'entrée compris entre 1 et 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,7 +42,7 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Cette entrée sera omise du tableau car elle a un type différent de "A".
+    // Cette entrée sera omise du tableau car elle a un type différent de « A ».
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
     // Cette entrée sera omise du tableau car elle a un niveau d'entrée en dehors de la plage 1-3.

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ImagesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند HTML. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف خاصية HtmlSaveOptions ImagesFolderAlias لإدارة عناوين URI للصور بسهولة في مستندات HTML. بسّط سير عملك مع هذه الميزة الأساسية!
 type: docs
 weight: 370
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند HTML. الافتراضي هو سلسلة فارغة.
+يحدد اسم المجلد المستخدم لإنشاء عناوين URI للصور المكتوبة في مستند HTML. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,19 +18,19 @@ public string ImagesFolderAlias { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق HTML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.[`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ImagesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) في تنسيق HTML، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.[`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و`ImagesFolderAlias` يسمح لك بتحديد كيفية إنشاء عناوين URI للصور.
 
-لو`ImagesFolderAlias` ليست سلسلة فارغة، فإن URI للصورة المكتوب إلى HTML سيكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias` إذا لم تكن سلسلة فارغة، فإن عنوان URI للصورة الذي تمت كتابته إلى HTML سيكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
 
-لو`ImagesFolderAlias` إذا كانت سلسلة فارغة، فسيكون URI للصورة المكتوبة إلى HTMLImagesFolder + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias`إذا كانت السلسلة فارغة، فإن عنوان URI للصورة الذي تمت كتابته إلى HTML سيكون x000d_مجلد الصور + &lt;اسم ملف الصورة&gt;.
 
-لو`ImagesFolderAlias`تم ضبطه على "." (نقطة)، فسيتم كتابة اسم ملف الصورة إلى HTML بدون مسار بغض النظر عن الخيارات الأخرى.
+لو`ImagesFolderAlias` إذا تم تعيينه على '.' (نقطة)، فسيتم كتابة ملف الصورة name إلى HTML بدون مسار بغض النظر عن الخيارات الأخرى.
 
-طريقة بديلة لتحديد اسم المجلد لإنشاء صورة URIs هي الاستخدام[`ResourceFolderAlias`](../resourcefolderalias/).
+الطريقة البديلة لتحديد اسم المجلد لإنشاء URIs للصورة هي استخدام[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات وأسماء المجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

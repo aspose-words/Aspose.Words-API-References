@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText ملكية. يتحكم في كيفية حفظ حقول نموذج إدخال النص في HTML أو MHTML. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية HtmlSaveOptions ExportTextInputFormFieldAsText حقول نموذج إدخال النص لحفظ HTML أو MHTML بسلاسة. حسّن عملية التصدير!
 type: docs
 weight: 260
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -18,9 +18,9 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ## ملاحظات
 
-عند التعيين على`حقيقي` ، يصدر حقول نموذج إدخال النص كنص عادي. متى`خطأ شنيع`، يقوم بتصدير حقول نموذج إدخال نص Word كعناصر INPUT في HTML.
+عند ضبطه على`حقيقي` ، يصدر حقول نموذج إدخال النص كنص عادي. عندما`خطأ شنيع`، يصدر حقول نموذج إدخال النص Word كعناصر INPUT في HTML.
 
-عند التصدير إلى EPUB، يتم دائمًا حفظ حقول نموذج إدخال النص كنص بسبب لمتطلبات هذا التنسيق.
+عند التصدير إلى EPUB، يتم دائمًا حفظ حقول نموذج إدخال النص كنص due وفقًا لمتطلبات هذا التنسيق.
 
 ## أمثلة
 
@@ -36,7 +36,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// قم بتعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
+// تعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

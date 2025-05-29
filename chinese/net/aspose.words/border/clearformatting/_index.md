@@ -2,8 +2,8 @@
 title: Border.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: Border ClearFormatting 方法. 将边框属性重置为默认值 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Border ClearFormatting 方法将边框属性重置为默认值。简化您的设计流程，提升项目外观！
 type: docs
 weight: 90
 url: /zh/net/aspose.words/border/clearformatting/
@@ -22,13 +22,13 @@ public void ClearFormatting()
 
 ## 例子
 
-演示如何删除段落边框。
+展示如何删除段落的边框。
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
 // 每个段落都有一组单独的边框。
-// 我们可以通过段落格式对象访问这些边框外观的设置。
+// 我们可以通过段落格式对象访问这些边框的外观设置。
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());

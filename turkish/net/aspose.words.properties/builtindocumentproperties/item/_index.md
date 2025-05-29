@@ -2,15 +2,15 @@
 title: BuiltInDocumentProperties.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Item mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties Item özelliğiyle DocumentProperty nesnelerine zahmetsizce erişin. Belge yönetiminizi bugün kolaylaştırın!
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
 
-Bir değeri döndürür[`DocumentProperty`](../../documentproperty/) özelliğin adına göre nesne.
+Bir[`DocumentProperty`](../../documentproperty/) nesnenin özelliğinin adına göre.
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -22,11 +22,11 @@ public override DocumentProperty this[string name] { get; }
 
 ## Notlar
 
-Özelliklerin dize adları, şurada mevcut olan typed özelliklerinin adlarına karşılık gelir.[`BuiltInDocumentProperties`](../).
+Özelliklerin dize adları, typed özelliğinin adlarına karşılık gelir.[`BuiltInDocumentProperties`](../).
 
-Belgede bulunmayan bir özellik talep ederseniz ancak özelliğin name değeri geçerli bir yerleşik ad olarak tanınırsa, yeni bir[`DocumentProperty`](../../documentproperty/) oluşturulur, koleksiyona eklenir ve döndürülür. Yeni oluşturulan özelliğe varsayılan bir değer olarak atanır (boş dize, sıfır,`YANLIŞ` veya yerleşik özelliğin type türüne bağlı olarak DateTime.MinValue).
+Belgede bulunmayan bir özelliği talep ederseniz ancak özelliğin name değeri geçerli bir yerleşik ad olarak tanınırsa, yeni bir[`DocumentProperty`](../../documentproperty/) oluşturulur, koleksiyona eklenir ve döndürülür. Yeni oluşturulan özelliğe varsayılan bir değer atanır (boş dize, sıfır,`YANLIŞ` veya yerleşik özelliğin type değerine bağlı olarak DateTime.MinValue).
 
-Belgede bulunmayan bir özellik talep ederseniz ve name yerleşik ad olarak tanınmıyorsa,`hükümsüz` Geri döndü.
+Belgede bulunmayan bir özelliği talep ederseniz ve name yerleşik bir ad olarak tanınmıyorsa,`hükümsüz` iade edilir.
 
 ## Örnekler
 
@@ -35,8 +35,8 @@ Belgede bulunmayan bir özellik talep ederseniz ve name yerleşik ad olarak tan�
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Her belge, yerleşik özellikler gibi anahtar/değer çiftleri olan özel özelliklerin bir koleksiyonunu içerir.
- // Belgenin sabit bir yerleşik özellikler listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
+// Her belge, yerleşik özellikler gibi anahtar-değer çiftleri olan bir dizi özel özellik içerir.
+ // Belgenin yerleşik özelliklerin sabit bir listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

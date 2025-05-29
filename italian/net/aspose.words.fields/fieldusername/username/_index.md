@@ -3,14 +3,14 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words per .NET
-description: FieldUserName UserName proprietà. Gestisci o imposta il nome dellutente corrente in C#.
+description: Gestisci il nome dell'utente corrente senza problemi con la proprietà FieldUserName. Migliora l'esperienza utente e personalizza le interazioni in modo fluido.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Gestisci o imposta il nome dell'utente corrente.
+Gestisce o imposta il nome dell'utente corrente.
 
 ```csharp
 public string UserName { get; set; }
@@ -18,12 +18,12 @@ public string UserName { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare il campo USERNAME.
+Mostra come utilizzare il campo NOME UTENTE.
 
 ```csharp
 Document doc = new Document();
 
-// Crea un oggetto UserInformation e impostalo come origine delle informazioni sull'utente per tutti i campi che creiamo.
+// Creiamo un oggetto UserInformation e lo impostiamo come origine delle informazioni utente per tutti i campi che creiamo.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -31,14 +31,14 @@ doc.FieldOptions.CurrentUser = userInformation;
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Crea un campo USERNAME per visualizzare il nome dell'utente corrente,
-// tratto dall'oggetto UserInformation che abbiamo creato sopra.
+// tratto dall'oggetto UserInformation creato sopra.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Possiamo impostare questa proprietà per fare in modo che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
+ // Possiamo impostare questa proprietà per far sì che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

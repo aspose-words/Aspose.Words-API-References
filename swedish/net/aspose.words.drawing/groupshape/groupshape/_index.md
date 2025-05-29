@@ -3,7 +3,7 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words för .NET
-description: GroupShape byggare. Skapar en ny gruppform i C#.
+description: Designa enkelt fantastiska gruppformer med GroupShape-konstruktorn. Förbättra dina projekt med anpassningsbara, användarvänliga verktyg för unika skapelser.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/groupshape/groupshape/
@@ -22,13 +22,13 @@ public GroupShape(DocumentBase doc)
 
 ## Anmärkningar
 
-Som standard är formen flytande och har standardplats och standardstorlek.
+Som standard är formen flytande och har standardplats och storlek.
 
-Du bör ange önskade formegenskaper efter att du skapat en form.
+Du bör ange önskade formegenskaper efter att du har skapat en form.
 
 ## Exempel
 
-Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
+Visar hur man skapar en grupp med former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Om du behöver skapa "NonPrimitive" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // använd DocumentBuilder.InsertShape metoder.
+    // Om du behöver skapa "Icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade, DiagonalaHörnRundade
+    // använd DocumentBuilder.InsertShape-metoderna.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

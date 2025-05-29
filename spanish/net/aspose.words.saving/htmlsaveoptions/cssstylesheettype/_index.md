@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssStyleSheetType
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions CssStyleSheetType propiedad. Especifica cómo se exportan los estilos CSS Hoja de estilos en cascada a HTML MHTML o EPUB. El valor predeterminado esInline para HTML/MHTML y External para EPUB en C#.
+description: Descubra cómo la propiedad CssStyleSheetType en HtmlSaveOptions optimiza la exportación de CSS a formatos HTML, MHTML y EPUB para una integración perfecta.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 ---
 ## HtmlSaveOptions.CssStyleSheetType property
 
-Especifica cómo se exportan los estilos CSS (Hoja de estilos en cascada) a HTML, MHTML o EPUB. El valor predeterminado esInline para HTML/MHTML y External para EPUB.
+Especifica cómo se exportan los estilos CSS (hojas de estilo en cascada) a HTML, MHTML o EPUB. El valor predeterminado esInline para HTML/MHTML y External para EPUB.
 
 ```csharp
 public CssStyleSheetType CssStyleSheetType { get; set; }
@@ -18,7 +18,7 @@ public CssStyleSheetType CssStyleSheetType { get; set; }
 
 ## Observaciones
 
-Guardar una hoja de estilo CSS en un archivo externo solo se admite cuando se guarda en HTML. Cuando exporta a uno de los formatos contenedores (EPUB o MHTML) y especifica External, el archivo CSS se encapsulará en el paquete de salida.
+Solo se puede guardar una hoja de estilo CSS en un archivo externo cuando se guarda en HTML. Cuando se exporta a uno de los formatos contenedores (EPUB o MHTML) y se especifica ExternalEl archivo CSS se encapsulará en el paquete de salida.
 
 ## Ejemplos
 
@@ -30,18 +30,18 @@ public void ExternalCssFilenames()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
-    // para modificar cómo convertimos el documento a HTML.
+    // para modificar la forma en que convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Establece la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
-    // acompaña un documento HTML guardado con un archivo de hoja de estilo CSS externo.
+    // Establezca la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
+    // Acompañe un documento HTML guardado con un archivo de hoja de estilo CSS externo.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // A continuación se muestran dos formas de especificar directorios y nombres de archivos para las hojas de estilo CSS de salida.
-    // 1 - Usa la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
+    // 1 - Utilice la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Usa una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
+    // 2 - Utilice una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
+        //Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

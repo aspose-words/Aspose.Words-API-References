@@ -3,7 +3,7 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words لـ .NET
-description: ViewOptions FormsDesign ملكية. يحدد ما إذا كانت الوثيقة في وضع تصميم النماذج في C#.
+description: اكتشف كيف يعمل ViewOptions FormsDesign على تعزيز تجربة المستند لديك من خلال تبديل وضع تصميم النماذج لتحريرها وتخصيصها بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/viewoptions/formsdesign/
@@ -18,7 +18,7 @@ public bool FormsDesign { get; set; }
 
 ## ملاحظات
 
-يعمل حاليًا فقط مع المستندات بتنسيق WordML.
+يعمل حاليًا فقط للمستندات بتنسيق WordML.
 
 ## أمثلة
 
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بتعيين خاصية "FormsDesign" على "خطأ" لإبقاء وضع تصميم النماذج معطلاً.
-// اضبط خاصية "FormsDesign" على "true" لتمكين وضع تصميم النماذج.
+// قم بضبط خاصية "FormsDesign" على "false" لإبقاء وضع تصميم النماذج معطلاً.
+// قم بضبط خاصية "FormsDesign" على "true" لتمكين وضع تصميم النماذج.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

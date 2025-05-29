@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words für .NET
-description: MetafileRenderingOptions constructeur. Default_Constructor in C#.
+description: Entdecken Sie den MetafileRenderingOptions-Konstruktor – Ihre Lösung für effizientes Rendering mit Standardeinstellungen. Optimieren Sie Ihre Grafiken noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/metafilerenderingoptions/metafilerenderingoptions/

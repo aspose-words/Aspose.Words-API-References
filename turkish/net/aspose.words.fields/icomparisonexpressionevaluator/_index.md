@@ -2,15 +2,15 @@
 title: IComparisonExpressionEvaluator Interface
 linktitle: IComparisonExpressionEvaluator
 articleTitle: IComparisonExpressionEvaluator
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator arayüz. Uygulandığında varsayılan karşılaştırma ifadeleri değerlendirmesinin geçersiz kılınmasına olanak tanır.FieldIf VeFieldCompare alanlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator ile belge işlemenizi geliştirin. FieldIf ve FieldCompare alanları için karşılaştırma değerlendirmelerini zahmetsizce özelleştirin!
 type: docs
-weight: 2680
+weight: 3090
 url: /tr/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-Uygulandığında, varsayılan karşılaştırma ifadeleri değerlendirmesinin geçersiz kılınmasına olanak tanır.[`FieldIf`](../fieldif/) Ve[`FieldCompare`](../fieldcompare/) alanlar.
+Uygulandığında, varsayılan karşılaştırma ifadeleri değerlendirmesinin geçersiz kılınmasına izin verir[`FieldIf`](../fieldif/) Ve[`FieldCompare`](../fieldcompare/) alanlar.
 
 ```csharp
 public interface IComparisonExpressionEvaluator
@@ -21,6 +21,92 @@ public interface IComparisonExpressionEvaluator
 | İsim | Tanım |
 | --- | --- |
 | [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(*[Field](../field/), [ComparisonExpression](../comparisonexpression/)*) | Karşılaştırma ifadesini değerlendirir. |
+
+## Örnekler
+
+IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
+
+```csharp
+public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
+    string expectedResult)
+{
+    const string left = "\"left expression\"";
+    const string @operator = "<>";
+    const string right = "\"right expression\"";
+
+    DocumentBuilder builder = new DocumentBuilder();
+
+    // Bu örnekte kullandığımız alan kodları:
+    // 1. " EĞER {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
+    // 2. " {0} {1} {2}'yi KARŞILAŞTIR ".
+    Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
+
+    // Eğer "comparisonResult" tanımsızsa, "ComparisonEvaluationResult"u bool yerine string ile oluşturuyoruz.
+    ComparisonEvaluationResult result = comparisonResult != -1
+        ? new ComparisonEvaluationResult(comparisonResult == 1)
+        : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+
+    ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+    builder.Document.FieldOptions.ComparisonExpressionEvaluator = evaluator;
+
+    builder.Document.UpdateFields();
+
+    Assert.AreEqual(expectedResult, field.Result);
+    evaluator.AssertInvocationsCount(1).AssertInvocationArguments(0, left, @operator, right);
+}
+
+/// <summary>
+/// FieldIf ve FieldCompare için karşılaştırma ifadelerinin değerlendirilmesi.
+/// </summary>
+private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
+{
+    public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
+    {
+        mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
+    }
+
+    public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
+    {
+        mInvocations.Add(new[]
+        {
+            expression.LeftExpression,
+            expression.ComparisonOperator,
+            expression.RightExpression
+        });
+
+        return mResult;
+    }
+
+    public ComparisonExpressionEvaluator AssertInvocationsCount(int expected)
+    {
+        Assert.AreEqual(expected, mInvocations.Count);
+        return this;
+    }
+
+    public ComparisonExpressionEvaluator AssertInvocationArguments(
+        int invocationIndex,
+        string expectedLeftExpression,
+        string expectedComparisonOperator,
+        string expectedRightExpression)
+    {
+        string[] arguments = mInvocations[invocationIndex];
+
+        Assert.AreEqual(expectedLeftExpression, arguments[0]);
+        Assert.AreEqual(expectedComparisonOperator, arguments[1]);
+        Assert.AreEqual(expectedRightExpression, arguments[2]);
+
+        return this;
+    }
+
+    private readonly ComparisonEvaluationResult mResult;
+    private readonly List<string[]> mInvocations = new List<string[]>();
+}
+```
 
 ### Ayrıca bakınız
 

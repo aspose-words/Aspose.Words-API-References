@@ -3,14 +3,14 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings LinkToQuery ملكية. لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية LinkToQuery في MailMergeSettings، وتعرف على كيفية التحكم في تنفيذ الاستعلام في مستندات Word وإعداداتها الافتراضية للحصول على الأداء الأمثل.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هي`خطأ شنيع` .
+لست متأكدًا من هذا. يشير مرجع أتمتة مايكروسوفت وورد إلى أن هذا يُحدد تنفيذ الاستعلام في كل مرة يُفتح فيها المستند في مايكروسوفت وورد. لكن مواصفات OOXML تُشير إلى أن هذا يُحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -18,7 +18,7 @@ public bool LinkToQuery { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

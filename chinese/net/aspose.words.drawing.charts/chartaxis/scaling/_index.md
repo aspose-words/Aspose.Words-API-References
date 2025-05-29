@@ -2,15 +2,15 @@
 title: ChartAxis.Scaling
 linktitle: Scaling
 articleTitle: Scaling
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxis Scaling 财产. 提供对轴缩放选项的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxis 缩放属性，实现最佳的轴调整效果。使用简单易用的缩放选项，精准控制数据可视化。
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 ## ChartAxis.Scaling property
 
-提供对轴缩放选项的访问。
+提供对轴的缩放选项的访问。
 
 ```csharp
 public AxisScaling Scaling { get; }
@@ -18,7 +18,7 @@ public AxisScaling Scaling { get; }
 
 ## 例子
 
-演示如何插入带有日期/时间值的图表。
+显示如何插入带有日期/时间值的图表。
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 添加一个自定义系列，其中包含 X 轴的日期/时间值以及 Y 轴的相应小数值。
+// 添加一个自定义系列，其中包含 X 轴的日期/时间值以及 Y 轴的相应十进制值。
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -44,7 +44,7 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// 将X轴的主要单位设置为周，次要单位设置为天。
+// 将 X 轴的主单位设置为周，次单位设置为天。
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -53,9 +53,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// 定义小数值的 Y 轴属性。
+// 定义十进制值的 Y 轴属性。
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

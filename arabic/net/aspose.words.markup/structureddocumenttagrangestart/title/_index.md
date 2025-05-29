@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart Title ملكية. يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكونباطل  في C#.
+description: اكتشف خاصية عنوان StructuredDocumentTagRangeStart لتحديد أسماء سهلة لعلامات المستند المنظم، مما يعزز وضوح المستند وإمكانية الوصول إليه.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون`باطل` .
+يحدد الاسم الودود المرتبط بعلامة المستند المنظمة هذه. لا يمكن`باطل` .
 
 ```csharp
 public string Title { get; set; }
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

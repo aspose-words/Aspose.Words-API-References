@@ -3,14 +3,14 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words per .NET
-description: DocumentBuilder RowFormat proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione della riga della tabella corrente in C#.
+description: Esplora la proprietà RowFormat di DocumentBuilder per accedere facilmente e personalizzare la formattazione delle righe della tabella, migliorando la progettazione e la presentazione dei documenti.
 type: docs
 weight: 180
 url: /it/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-Restituisce un oggetto che rappresenta le proprietà di formattazione della riga della tabella corrente.
+Restituisce un oggetto che rappresenta le proprietà di formattazione delle righe della tabella corrente.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inizia una seconda riga e quindi configura la sua altezza. Il builder applicherà queste impostazioni a
-// la riga corrente, nonché le eventuali nuove righe create in seguito.
+// Avvia una seconda riga e quindi configurane l'altezza. Il builder applicherà queste impostazioni a
+// la sua riga corrente, nonché tutte le nuove righe che crea in seguito.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La prima riga non è stata influenzata dalla riconfigurazione del riempimento e mantiene ancora i valori predefiniti.
+// La prima riga non è stata interessata dalla riconfigurazione del padding e mantiene ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -80,7 +80,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -100,7 +100,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -123,9 +123,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

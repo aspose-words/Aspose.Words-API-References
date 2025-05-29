@@ -3,14 +3,14 @@ title: Table.AbsoluteHorizontalDistance
 linktitle: AbsoluteHorizontalDistance
 articleTitle: AbsoluteHorizontalDistance
 second_title: Aspose.Words für .NET
-description: Table AbsoluteHorizontalDistance eigendom. Ruft die durch die Tabelleneigenschaften angegebene absolute horizontale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0 in C#.
+description: Entdecken Sie die Eigenschaft „Table AbsoluteHorizontalDistance“, um die horizontale Position Ihrer Tabelle einfach in Punkten anzupassen. Optimieren Sie das Layout mit einem Standardwert von 0!
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/table/absolutehorizontaldistance/
 ---
 ## Table.AbsoluteHorizontalDistance property
 
-Ruft die durch die Tabelleneigenschaften angegebene absolute horizontale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0.
+Ruft die absolute horizontale Position der schwebenden Tabelle ab oder legt sie in Punkten fest, die durch die Tabelleneigenschaften angegeben wird. Der Standardwert ist 0.
 
 ```csharp
 public double AbsoluteHorizontalDistance { get; set; }
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die rechte untere Ecke.
+// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die untere rechte Ecke.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
+    // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

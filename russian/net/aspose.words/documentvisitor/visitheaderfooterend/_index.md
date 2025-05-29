@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitHeaderFooterEnd метод. Вызывается когда перечисление верхнего или нижнего колонтитула в разделе закончилось на С#.
+description: Откройте для себя метод DocumentVisitor VisitHeaderFooterEnd, необходимый для эффективного управления перечислением верхних и нижних колонтитулов в ваших документах.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-Вызывается, когда перечисление верхнего или нижнего колонтитула в разделе закончилось.
+Вызывается, когда перечисление верхнего или нижнего колонтитула в разделе завершено.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| headerFooter | HeaderFooter | Объект, который посещается. |
+| headerFooter | HeaderFooter | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,14 +34,14 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Альтернативный способ доступа к верхнему и нижнему колонтитулу документа по разделам — обращение к коллекции.
+    // Альтернативный способ доступа к верхним и нижним колонтитулам документа по разделам — доступ к коллекции.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
@@ -98,7 +98,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

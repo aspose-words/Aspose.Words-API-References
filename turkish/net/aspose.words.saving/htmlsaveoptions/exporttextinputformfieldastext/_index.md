@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText mülk. Metin girişi form alanlarının HTML veya MHTMLye nasıl kaydedileceğini kontrol eder. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportTextInputFormFieldAsText özelliğinin, sorunsuz HTML veya MHTML kaydı için metin girişi form alanlarını nasıl optimize ettiğini keşfedin. Dışa aktarma sürecinizi geliştirin!
 type: docs
 weight: 260
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Metin girişi form alanlarının HTML veya MHTML'ye nasıl kaydedileceğini kontrol eder. Varsayılan değer:`YANLIŞ` .
+Metin girişi form alanlarının HTML veya MHTML'ye nasıl kaydedileceğini kontrol eder. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -18,13 +18,13 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ## Notlar
 
-olarak ayarlandığında`doğru` , metin giriş formu alanlarını normal metin olarak dışa aktarır. Ne zaman`YANLIŞ`, Word metni giriş formu alanlarını HTML'deki INPUT öğeleri olarak dışa aktarır.
+Ayarlandığında`doğru` , metin girişi form alanlarını normal metin olarak dışa aktarır. `YANLIŞ`, Word metin girişi form alanlarını HTML'de GİRİŞ öğeleri olarak dışa aktarır.
 
-EPUB'a dışa aktarırken, metin giriş formu alanları bu formatın gereklilikleri nedeniyle nedeniyle her zaman metin olarak kaydedilir.
+EPUB'a aktarırken, metin girişi form alanları bu formatın gereklilikleri nedeniyle her zaman metin olarak kaydedilir.
 
 ## Örnekler
 
-Bağlantılı görsellerin .html'ye kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
+Bağlantılı görsellerin .html olarak kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,7 +36,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Form alanlarını HTML giriş öğeleri yerine düz metin olarak dışa aktarmak için bir seçenek belirleyin.
+// Form alanlarını HTML giriş öğeleri yerine düz metin olarak dışa aktarmak için bir seçenek ayarlayın.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

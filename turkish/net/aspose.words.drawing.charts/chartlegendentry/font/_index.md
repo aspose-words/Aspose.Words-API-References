@@ -2,15 +2,15 @@
 title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET
-description: ChartLegendEntry Font mülk. Bu açıklama girişinin yazı tipi formatına erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir yazı tipi biçimlendirmesine kolay erişim için ChartLegendEntry Font özelliğini keşfedin ve daha iyi görsel çekicilik için açıklama girişlerinizi geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/font/
 ---
 ## ChartLegendEntry.Font property
 
-Bu açıklama girişinin yazı tipi formatına erişim sağlar.
+Bu efsane girişinin yazı tipi biçimlendirmesine erişim sağlar.
 
 ```csharp
 public Font Font { get; }
@@ -18,34 +18,22 @@ public Font Font { get; }
 
 ## Örnekler
 
-Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
+Efsane yazı tipiyle nasıl çalışılacağını gösterir.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
+Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+ChartLegend chartLegend = chart.Legend;
+// Tüm açıklama girişleri için varsayılan yazı tipi boyutunu ayarla.
+chartLegend.Font.Size = 14;
+// Belirli bir açıklama girişi için yazı tipini değiştir.
+chartLegend.LegendEntries[1].Font.Italic = true;
+chartLegend.LegendEntries[1].Font.Size = 12;
+// Grafik serileri için açıklama girişini al.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
-Chart chart = shape.Chart;
-ChartSeriesCollection series = chart.Series;
-series.Clear();
-
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
-series.Add("Series 2", categories, new double[] { 3, 4 });
-series.Add("Series 3", categories, new double[] { 5, 6 });
-series.Add("Series 4", categories, new double[] { 0, 0 });
-
-ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
-legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
-
-doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```
 
 ### Ayrıca bakınız

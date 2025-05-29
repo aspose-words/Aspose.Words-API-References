@@ -3,14 +3,14 @@ title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words لـ .NET
-description: ImageData ImageBytes ملكية. الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل في C#.
+description: اكتشف خاصية ImageData ImageBytes لإدارة بايتات الصور الخام ومعالجتها بسهولة داخل الأشكال الخاصة بك للحصول على محتوى مرئي محسّن.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل.
+يحصل على البايتات الخام للصورة المخزنة في الشكل أو يعينها.
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -18,13 +18,13 @@ public byte[] ImageBytes { get; set; }
 
 ## ملاحظات
 
-ضبط القيمة على`باطل` أو ستقوم مجموعة فارغة بإزالة الصورة من الشكل.
+تعيين القيمة إلى`باطل` أو سيؤدي استخدام مصفوفة فارغة إلى إزالة الصورة من الشكل.
 
-عائدات`باطل` إذا لم تكن الصورة مخزنة في المستند (على سبيل المثال، من المحتمل أن تكون الصورة مرتبطة في هذه الحالة).
+الإرجاعات`باطل` إذا لم يتم تخزين الصورة في المستند (على سبيل المثال، من المحتمل أن تكون الصورة مرتبطة في هذه الحالة).
 
 ## أمثلة
 
-يوضح كيفية إنشاء ملف صورة من بيانات الصورة الأولية للشكل.
+يوضح كيفية إنشاء ملف صورة من بيانات الصورة الخام للشكل.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -32,7 +32,7 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray () يُرجع المصفوفة المخزنة في خاصية ImageBytes.
+// تقوم ToByteArray() بإرجاع المصفوفة المخزنة في خاصية ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // احفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.

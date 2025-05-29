@@ -3,16 +3,16 @@ title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult klass. Resultatet av jämförelseutvärderingen i C#.
+description: Upptäck klassen Aspose.Words.Fields.ComparisonEvaluationResult för effektiv dokumentjämförelseanalys. Få insikter och förbättra ditt arbetsflöde!
 type: docs
-weight: 1480
+weight: 1890
 url: /sv/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 Resultatet av jämförelseutvärderingen.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -22,19 +22,19 @@ public sealed class ComparisonEvaluationResult
 
 | namn | Beskrivning |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Skapar ett resultat för jämförelseutvärdering. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande felmeddelande. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Skapar ett jämförande utvärderingsresultat. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Skapar ett misslyckat jämförelseutvärderingsresultat med motsvarande felmeddelande. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Får felmeddelandet om resultatet av den misslyckade jämförelseutvärderingen. |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Får resultatet av jämförelseutvärderingen. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Hämtar felmeddelandet för det misslyckade jämförelseutvärderingsresultatet. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Hämtar resultatet av jämförelseutvärderingen. |
 
 ## Exempel
 
-Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
+Visar hur man implementerar anpassad utvärdering för fälten OM och JÄMFÖR.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -46,12 +46,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Fältkoder som vi använder i detta exempel:
-    // 1. " IF {0} {1} {2} \"true argument\" \"false argument\" ".
-    // 2. " JÄMFÖR {0} {1} {2} ".
+    // Fältkoder som vi använder i det här exemplet:
+    // 1. " OM {0} {1} {2} "sant argument" "falskt argument" .
+    // 2. "JÄMFÖR {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med sträng, istället för bool.
+    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med strängen istället för bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -73,6 +73,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

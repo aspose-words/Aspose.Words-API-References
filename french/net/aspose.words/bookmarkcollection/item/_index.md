@@ -3,7 +3,7 @@ title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: BookmarkCollection Item propriété. Renvoie un signet à lindex spécifié en C#.
+description: Découvrez la propriété d'élément BookmarkCollection, récupérez sans effort les signets par index pour une navigation simplifiée et une expérience utilisateur améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmarkcollection/item/
@@ -18,17 +18,17 @@ public Bookmark this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Un index dans la collection. |
+| index | Un index de la collection. |
 
 ## Remarques
 
-L'indice est de base zéro.
+L'indice est basé sur zéro.
 
-Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
+Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la collection. Par exemple, -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
-Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
 ## Exemples
 
@@ -51,7 +51,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -79,7 +79,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -135,11 +135,11 @@ public Bookmark this[string bookmarkName] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| bookmarkName | Nom du signet qui ne respecte pas la casse. |
+| bookmarkName | Nom du signet insensible à la casse. |
 
 ## Remarques
 
-Retour`nul`si le signet portant le nom spécifié est introuvable.
+Retours`nul`si le signet portant le nom spécifié ne peut pas être trouvé.
 
 ## Exemples
 
@@ -162,7 +162,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -190,7 +190,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

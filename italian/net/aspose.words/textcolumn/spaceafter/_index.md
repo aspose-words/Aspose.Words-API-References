@@ -3,7 +3,7 @@ title: TextColumn.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
 second_title: Aspose.Words per .NET
-description: TextColumn SpaceAfter proprietà. Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti. Non richiesto per lultima colonna in C#.
+description: Scopri la proprietà TextColumn SpaceAfter per regolare facilmente la spaziatura tra le colonne del tuo layout. Migliora la leggibilità e il design con precisione!
 type: docs
 weight: 10
 url: /it/net/aspose.words/textcolumn/spaceafter/
@@ -18,7 +18,7 @@ public double SpaceAfter { get; set; }
 
 ## Esempi
 
-Mostra come creare colonne con spaziatura non uniforme.
+Mostra come creare colonne con spaziature non uniformi.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Determina la quantità di spazio disponibile per la disposizione delle colonne.
+// Determinare la quantità di spazio disponibile per disporre le colonne.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
@@ -39,7 +39,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Imposta la seconda colonna per occupare il resto dello spazio disponibile entro i margini della pagina.
+// Imposta la seconda colonna in modo che occupi il resto dello spazio disponibile entro i margini della pagina.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

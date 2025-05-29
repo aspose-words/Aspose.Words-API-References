@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitRowStart
 linktitle: VisitRowStart
 articleTitle: VisitRowStart
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitRowStart yöntem. Bir tablo satırının numaralandırılması başladığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentVisitor VisitRowStart yöntemini keşfedin. Optimize edilmiş performans için verimli, akıcı işlemeyle tablo satır numaralandırmanızı geliştirin.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/documentvisitor/visitrowstart/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm Tablo düğümleri ve bunların alt öğelerinden oluşan bir dizi biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm Tablo düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Belgede bir Çalıştırma düğümüyle karşılaşıldığında çağrılır.
-    /// Tabloların içinde olmayan işlemler kaydedilmez.
+    /// Tabloların içinde olmayan çalıştırmalar kaydedilmez.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hücre düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Hücre düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -164,8 +164,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
-    /// geçerli tablonun alt düğüm ağacına.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak girintisini ayarlayın
+    /// Mevcut tablonun alt düğüm ağacına.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

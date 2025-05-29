@@ -2,15 +2,15 @@
 title: FieldEnd Class
 linktitle: FieldEnd
 articleTitle: FieldEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldEnd 班级. 表示文档中 Word 字段的结尾 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldEnd 类，它可以有效地处理文档中的 Word 字段结尾，增强您的文档处理能力。
 type: docs
-weight: 1860
+weight: 2270
 url: /zh/net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
 
-表示文档中 Word 字段的结尾。
+表示文档中 Word 字段的结束。
 
 要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
@@ -23,24 +23,24 @@ public class FieldEnd : FieldChar
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
-| virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
+| virtual [Document](../../aspose.words/node/document/) { get; } | 获取此节点所属的文档。 |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | 返回字段的类型。 |
 | [Font](../../aspose.words/inline/font/) { get; } | 提供对此对象的字体格式的访问。 |
-| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | 返回`真的`如果该字段有分隔符. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确（陈旧）。 |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式，则返回 true。 |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中，则返回 true。 |
+| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | 返回`真的`如果此字段有分隔符。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果此节点可以包含其他节点。 |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则返回 true。 |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（过时）。 |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下 Microsoft Word 中的对象格式发生更改，则返回 true。 |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入 Microsoft Word，则返回 true。 |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | 获取或设置父字段是否被锁定（不应重新计算其结果）。 |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果启用更改跟踪时在 Microsoft Word 中移动（删除）此对象。 |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（删除）此对象。 |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（插入）此对象。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随此节点之后的节点。 |
 | override [NodeType](../../aspose.words.fields/fieldend/nodetype/) { get; } | 返回FieldEnd. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../../aspose.words/paragraph/)此节点的. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../../aspose.words/range/)表示此节点中包含的文档部分的对象。 |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../../aspose.words/paragraph/)此节点的。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取此节点前一个节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回[`Range`](../../aspose.words/range/)表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -51,26 +51,26 @@ public class FieldEnd : FieldChar
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | 返回字段 char. 的字段 |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取前一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取此节点代表的特殊字符。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据前序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据前序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中移除。 |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点内容导出为字符串。 |
 
 ## 评论
 
-`FieldEnd`是一个内联级节点，由以下表示 [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/)文档中的控制字符。
+`FieldEnd`是一个内联级别节点，由[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/)文档中的控制字符。
 
-`FieldEnd`只能是一个孩子[`Paragraph`](../../aspose.words/paragraph/)。
+`FieldEnd`只能是[`Paragraph`](../../aspose.words/paragraph/)。
 
-Microsoft Word 文档中的完整字段是一个复杂的结构，由 字段起始字符、字段代码、字段分隔符、字段结果 和字段结束字符组成。有些字段只有字段开始、字段代码和字段结束。
+Microsoft Word 文档中一个完整的字段是一个复杂的结构，由字段起始符、字段代码、字段分隔符、字段结果和字段结束符组成。有些字段只有字段起始符、字段代码和字段结束符。
 
-要轻松地将新字段插入到文档中，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/) 方法。
+要轻松地将新字段插入文档，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/) 方法。
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -133,7 +133,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -145,7 +145,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -155,7 +155,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

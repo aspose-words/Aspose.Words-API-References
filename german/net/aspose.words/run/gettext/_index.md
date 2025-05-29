@@ -3,7 +3,7 @@ title: Run.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words für .NET
-description: Run GetText methode. Ruft den Text des Laufs ab in C#.
+description: Rufen Sie mühelos Text mit der GetText-Methode ab. Vereinfachen Sie Ihre Programmierung mit diesem unverzichtbaren Tool für effizientes Textmanagement.
 type: docs
 weight: 70
 url: /de/net/aspose.words/run/gettext/
@@ -30,8 +30,8 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void HeaderFooterToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

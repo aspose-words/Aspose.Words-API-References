@@ -2,8 +2,8 @@
 title: TxtSaveOptions.AddBidiMarks
 linktitle: AddBidiMarks
 articleTitle: AddBidiMarks
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptions AddBidiMarks 财产. 指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TxtSaveOptions AddBidiMarks 属性如何通过添加双向标记来增强纯文本导出，从而提高可读性和格式。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -20,7 +20,7 @@ public bool AddBidiMarks { get; set; }
 
 ## 例子
 
-演示如何在文本中的每个双向运行之前插入 Unicode 字符“从右到左标记”(U+200F)。
+展示如何在每个双向运行文本前插入 Unicode 字符“从右到左标记”（U+200F）。
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ builder.Writeln("مرحبا بالعالم!");
 TxtSaveOptions saveOptions = new TxtSaveOptions { Encoding = System.Text.Encoding.Unicode};
 
 // 将“AddBidiMarks”属性设置为“true”以在运行前添加标记
-// 用从右到左的文本来指示事实。
-// 将“AddBidiMarks”属性设置为“false”以从左到右写入
-// 和从右到左的运行方式相同，没有任何内容来指示哪个是哪个。
+// 使用从右到左的文本来表明事实。
+// 将“AddBidiMarks”属性设置为“false”，以便从左到右书写
+// 并且从右到左同样运行，没有任何内容可以表明哪个是哪个。
 saveOptions.AddBidiMarks = addBidiMarks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.AddBidiMarks.txt", saveOptions);

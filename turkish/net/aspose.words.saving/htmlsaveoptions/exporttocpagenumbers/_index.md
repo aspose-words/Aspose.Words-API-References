@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportTocPageNumbers mülk. HTML MHTML ve EPUBu kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ile HTML, MHTML ve EPUB dışa aktarımlarında TOC sayfa numaralarını kontrol edin. Gezinmeyi ve kullanıcı deneyimini zahmetsizce geliştirin!
 type: docs
 weight: 270
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-HTML, MHTML ve EPUB'u kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
+HTML, MHTML ve EPUB kaydedilirken içerik tablosuna sayfa numaralarının yazılıp yazılmayacağını belirtir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }
@@ -18,14 +18,14 @@ public bool ExportTocPageNumbers { get; set; }
 
 ## Örnekler
 
-İçindekiler tablosu içeren bir belgeyi .html'ye kaydederken sayfa numaralarının nasıl görüntüleneceğini gösterir.
+İçindekiler tablosu olan bir belgeyi .html olarak kaydederken sayfa numaralarının nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir içindekiler tablosu ekleyin ve ardından belgeyi "Başlık" kullanılarak biçimlendirilmiş paragraflarla doldurun
-// içindekiler tablosunun giriş olarak alacağı stil. Her girişte başlık paragrafı solda görüntülenecektir,
+// İçindekiler tablosunu ekleyin ve ardından belgeyi "Başlık" kullanılarak biçimlendirilmiş paragraflarla doldurun
+// içerik tablosunun girişler olarak alacağı stil. Her giriş, soldaki başlık paragrafını görüntüler,
 // ve sağdaki başlığı içeren sayfa numarası.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -40,11 +40,11 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// HTML dokümanlarının sayfaları yoktur. Bu belgeyi HTML'ye kaydedersek,
-// TOC'nin gösterdiği sayfa numaralarının hiçbir anlamı olmayacak.
-// Belgeyi HTML'ye kaydettiğimizde, bu sayfa numaralarını TOC'den çıkarmak için bir SaveOptions nesnesini iletebiliriz.
+// HTML belgelerinin sayfaları yoktur. Bu belgeyi HTML'ye kaydedersek,
+// İçindekiler tablomuzda gösterilen sayfa numaralarının hiçbir anlamı olmayacaktır.
+// Belgeyi HTML'e kaydettiğimizde, bu sayfa numaralarını İçindekiler tablosundan çıkarmak için bir SaveOptions nesnesi geçirebiliriz.
 // "ExportTocPageNumbers" bayrağını "true" olarak ayarlarsak,
-// her İçindekiler girişi, Microsoft Word'deki görünümünü koruyarak başlığı, ayırıcıyı ve sayfa numarasını görüntüleyecektir.
+// Her İçindekiler girişi, Microsoft Word'deki görünümünü koruyarak başlığı, ayırıcıyı ve sayfa numarasını görüntüler.
 // "ExportTocPageNumbers" bayrağını "false" olarak ayarlarsak,
 // kaydetme işlemi hem ayırıcıyı hem de sayfa numarasını atlayacak ve her girişin başlığını olduğu gibi bırakacaktır.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };

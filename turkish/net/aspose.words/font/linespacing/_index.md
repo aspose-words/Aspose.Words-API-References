@@ -2,15 +2,15 @@
 title: Font.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
-second_title: Aspose.Words for .NET
-description: Font LineSpacing mülk. Bu yazı tipinin satır aralığını döndürür nokta cinsinden C#'da.
+second_title: .NET için Aspose.Words
+description: Metninizin okunabilirliğini ve tasarımını geliştiren, nokta cinsinden hassas satır aralığı sağlayan Font LineSpacing özelliğini keşfedin.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-Bu yazı tipinin satır aralığını döndürür (nokta cinsinden).
+Bu yazı tipinin satır aralığını (nokta cinsinden) döndürür.
 
 ```csharp
 public double LineSpacing { get; }

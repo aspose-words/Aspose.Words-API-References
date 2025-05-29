@@ -3,9 +3,9 @@ title: Document.UpdatePageLayout
 linktitle: UpdatePageLayout
 articleTitle: UpdatePageLayout
 second_title: Aspose.Words para .NET
-description: Document UpdatePageLayout método. Reconstruye el diseño de página del documento en C#.
+description: Modernice la estructura de su documento con el método UpdatePageLayout, garantizando un diseño pulido y organizado para una mejor legibilidad y presentación.
 type: docs
-weight: 770
+weight: 830
 url: /es/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -18,29 +18,29 @@ public void UpdatePageLayout()
 
 ## Observaciones
 
-Este método formatea un documento en páginas y actualiza los campos relacionados con el número de página en el documento, como PAGE, PAGES, PAGEREF y REF. Se requiere información de diseño de página actualizada para una representación correcta del document en formatos de página fija.
+Este método formatea un documento en páginas y actualiza los campos relacionados con el número de página, como PÁGINA, PÁGINAS, REF.PAG. y REF. La información actualizada del diseño de página es necesaria para una correcta representación del documento en formatos de página fijos.
 
-Este método se invoca automáticamente cuando convierte por primera vez un documento a PDF, XPS, imagen o lo imprime. Sin embargo, si modifica el documento después de renderizarlo y luego intenta renderizarlo nuevamente, Aspose.Words no actualizará el diseño de la página automáticamente. En este caso deberías llamar`UpdatePageLayout` before renderizando nuevamente.
+Este método se invoca automáticamente al convertir un documento a PDF, XPS o imagen por primera vez, o al imprimirlo. Sin embargo, si modifica el documento después de renderizarlo y luego intenta renderizarlo de nuevo, Aspose.Words no actualizará el diseño de página automáticamente. En ese caso, debe llamar a`UpdatePageLayout` before renderizando nuevamente.
 
 ## Ejemplos
 
-Muestra cuándo volver a calcular el diseño de página del documento.
+Muestra cuándo recalcular el diseño de página del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Guardar un documento en PDF, en una imagen o imprimirlo por primera vez se realizará automáticamente
+// Guardar un documento como PDF, como imagen o imprimirlo por primera vez se realizará automáticamente
 // almacena en caché el diseño del documento dentro de sus páginas.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
-// Modificar el documento de alguna manera.
+//Modificar el documento de alguna manera.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // En la versión actual de Aspose.Words, la modificación del documento no se reconstruye automáticamente
-// el diseño de la página en caché. Si deseamos el diseño en caché
-// para mantenernos actualizados, necesitaremos actualizarlo manualmente.
+// En la versión actual de Aspose.Words, modificar el documento no lo reconstruye automáticamente
+// El diseño de la página en caché. Si deseamos el diseño en caché
+// Para mantenernos actualizados, necesitaremos actualizarlo manualmente.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");

@@ -3,7 +3,7 @@ title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
 second_title: Aspose.Words para .NET
-description: Table StyleOptions propiedad. Obtiene o establece indicadores de bits que especifican cómo se aplica un estilo de tabla a esta tabla en C#.
+description: Descubre la propiedad Table StyleOptions para personalizar la apariencia de tu tabla con indicadores de bits flexibles. ¡Mejora el estilo de tu tabla sin esfuerzo!
 type: docs
 weight: 300
 url: /es/net/aspose.words.tables/table/styleoptions/
@@ -25,14 +25,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Debemos insertar al menos una fila antes de configurar cualquier formato de tabla.
+//Debemos insertar al menos una fila antes de establecer cualquier formato de tabla.
 builder.InsertCell();
 
-// Establece el estilo de tabla utilizado según el identificador de estilo.
+// Establezca el estilo de tabla utilizado en función del identificador de estilo.
 // Tenga en cuenta que no todos los estilos de tabla están disponibles al guardar en formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Aplique parcialmente el estilo a las características de la tabla según los predicados y luego cree la tabla.
+// Aplicar parcialmente el estilo a las características de la tabla en función de los predicados y, luego, crear la tabla.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

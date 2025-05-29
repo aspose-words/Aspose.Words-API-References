@@ -3,7 +3,7 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words pour .NET
-description: TabStopCollection GetPositionByIndex méthode. Obtient la position en points du taquet de tabulation à lindex spécifié en C#.
+description: Découvrez la méthode GetPositionByIndex de TabStopCollection pour trouver facilement la position des taquets de tabulation en points par index. Optimisez votre mise en page sans effort !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -18,11 +18,11 @@ public double GetPositionByIndex(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Un index dans la collection de taquets de tabulation. |
+| index | Int32 | Un index dans la collection des taquets de tabulation. |
 
 ### Return_Value
 
-La position du taquet de tabulation.
+La position de la tabulation.
 
 ## Exemples
 

@@ -3,14 +3,14 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words pour .NET
-description: BorderCollection Equals méthode. Compare les collections de bordures en C#.
+description: Découvrez la méthode BorderCollection Equals pour comparer efficacement des collections de bordures et améliorer votre productivité de codage. Optimisez vos projets dès aujourd'hui !
 type: docs
 weight: 150
 url: /fr/net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method
 
-Compare les collections de bordures.
+Compare des collections de bordures.
 
 ```csharp
 public bool Equals(BorderCollection brColl)
@@ -41,7 +41,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

@@ -2,8 +2,8 @@
 title: DocumentProperty.ToDouble
 linktitle: ToDouble
 articleTitle: ToDouble
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentProperty ToDouble 方法. 以双精度形式返回属性值 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ToDouble 方法轻松将 DocumentProperty 值转换为 double 值。立即为您的应用程序解锁精准的数据处理！
 type: docs
 weight: 90
 url: /zh/net/aspose.words.properties/documentproperty/todouble/

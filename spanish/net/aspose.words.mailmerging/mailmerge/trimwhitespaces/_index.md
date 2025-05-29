@@ -3,14 +3,14 @@ title: MailMerge.TrimWhitespaces
 linktitle: TrimWhitespaces
 articleTitle: TrimWhitespaces
 second_title: Aspose.Words para .NET
-description: MailMerge TrimWhitespaces propiedad. Obtiene o establece un valor que indica si los espacios en blanco iniciales y finales se recortan de los valores de combinación de correspondencia en C#.
+description: Optimice su proceso de combinación de correspondencia con la propiedad TrimWhitespaces, garantizando datos limpios al eliminar espacios iniciales y finales para obtener resultados precisos.
 type: docs
 weight: 130
 url: /es/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-Obtiene o establece un valor que indica si los espacios en blanco iniciales y finales se recortan de los valores de combinación de correspondencia.
+Obtiene o establece un valor que indica si los espacios iniciales y finales se eliminan de los valores de combinación de correspondencia.
 
 ```csharp
 public bool TrimWhitespaces { get; set; }

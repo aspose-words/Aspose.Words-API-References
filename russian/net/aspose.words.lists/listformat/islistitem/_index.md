@@ -3,7 +3,7 @@ title: ListFormat.IsListItem
 linktitle: IsListItem
 articleTitle: IsListItem
 second_title: Aspose.Words для .NET
-description: ListFormat IsListItem свойство. Истинно если к абзацу применено маркированное или нумерованное форматирование на С#.
+description: Узнайте, как свойство ListFormat IsListItem улучшает структуру вашего документа, определяя маркированные или нумерованные абзацы для лучшей читаемости.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listformat/islistitem/
@@ -38,7 +38,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
@@ -53,10 +53,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+// Список позволяет нам организовывать и украшать наборы абзацев с помощью префиксных символов и отступов.
  // Мы можем создавать вложенные списки, увеличивая уровень отступа.
- // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
-// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+ // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов.
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом в списке.
 // Ниже приведены два типа списков, которые мы можем создать с помощью конструктора документов.
 // 1 - Нумерованный список:
 // Нумерованные списки создают логический порядок абзацев путем нумерации каждого элемента.
@@ -64,10 +64,10 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// Установив свойство ListLevelNumber, мы можем повысить уровень списка
-// чтобы начать автономный подсписок с текущего элемента списка.
+// Установив свойство "ListLevelNumber", мы можем увеличить уровень списка
+// для начала автономного подсписка с текущего элемента списка.
 // Шаблон списка Microsoft Word под названием «NumberDefault» использует числа для создания уровней списка для первого уровня списка.
- // На более глубоких уровнях списка используются буквы и строчные римские цифры.
+ // Более глубокие уровни списка используют буквы и строчные римские цифры.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -75,8 +75,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Маркированный список:
-// Этот список будет применять отступ и символ маркера («•») перед каждым абзацем.
-// На более глубоких уровнях этого списка будут использоваться другие символы, например «■» и «○».
+// В этом списке перед каждым абзацем будет применен отступ и символ маркера ("•").
+// Более глубокие уровни этого списка будут использовать другие символы, такие как «■» и «○».
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)

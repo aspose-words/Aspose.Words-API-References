@@ -3,14 +3,14 @@ title: ChartDataPointCollection Class
 linktitle: ChartDataPointCollection
 articleTitle: ChartDataPointCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection klas. Stellt eine Sammlung von a darChartDataPoint  in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.ChartDataPointCollection, Ihren Schlüssel zur mühelosen Verwaltung von ChartDataPoint-Sammlungen für eine verbesserte Datenvisualisierung.
 type: docs
-weight: 700
+weight: 980
 url: /de/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Stellt eine Sammlung von a dar[`ChartDataPoint`](../chartdatapoint/) .
+Stellt eine Sammlung von[`ChartDataPoint`](../chartdatapoint/) .
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
@@ -22,15 +22,17 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Gibt die Anzahl zurück[`ChartDataPoint`](../chartdatapoint/) in dieser Sammlung. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Gibt zurück[`ChartDataPoint`](../chartdatapoint/) für den angegebenen Index. |
+| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Gibt die Anzahl der[`ChartDataPoint`](../chartdatapoint/) in dieser Sammlung. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Rückgaben[`ChartDataPoint`](../chartdatapoint/) für den angegebenen Index. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Löscht das gesamte Format[`ChartDataPoint`](../chartdatapoint/) in dieser Sammlung. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Löscht das Format aller[`ChartDataPoint`](../chartdatapoint/) in dieser Sammlung. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | Kopiert das Format vom Quelldatenpunkt zum Zieldatenpunkt. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | Ruft ein Flag ab, das angibt, ob der Datenpunkt am angegebenen Index das Standardformat hat. |
 
 ## Beispiele
 
@@ -50,14 +52,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
-    foreach (ChartSeries series in chart.Series) 
+    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen darstellen.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
+    // Überprüfen Sie, ob die Datenpunkte der ersten Reihe ihre Farben nicht invertieren, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,8 +68,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.
     chart.Series[2].DataPoints.ClearFormat();
@@ -76,7 +81,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// Wendet eine Reihe von Datenpunkten auf eine Reihe an.
+/// Wendet eine Anzahl Datenpunkte auf eine Reihe an.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

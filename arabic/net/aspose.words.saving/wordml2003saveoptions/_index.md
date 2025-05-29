@@ -3,16 +3,16 @@ title: WordML2003SaveOptions Class
 linktitle: WordML2003SaveOptions
 articleTitle: WordML2003SaveOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.WordML2003SaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفWordML التنسيق في C#.
+description: اكتشف فئة Aspose.Words.Saving.WordML2003SaveOptions لتحسين تجربة حفظ المستندات بتنسيق WordML باستخدام خيارات قابلة للتخصيص.
 type: docs
-weight: 5680
+weight: 6480
 url: /ar/net/aspose.words.saving/wordml2003saveoptions/
 ---
 ## WordML2003SaveOptions class
 
-يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفWordML التنسيق.
+يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند فيWordML تنسيق.
 
-لمعرفة المزيد، قم بزيارة[حدد خيارات الحفظ](https://docs.aspose.com/words/net/specify-save-options/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[تحديد خيارات الحفظ](https://docs.aspose.com/words/net/specify-save-options/) مقالة توثيقية.
 
 ```csharp
 public class WordML2003SaveOptions : SaveOptions
@@ -28,29 +28,30 @@ public class WordML2003SaveOptions : SaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
-| [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
-| [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
-| virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
-| [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
-| [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | متى`حقيقي` ، يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هي`حقيقي` . |
-| [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض كائنات الحبر (InkML). |
-| [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | الحصول على أو تحديد القيمة التي تحدد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
-| [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | متى`حقيقي`، إخراج تنسيقات جميلة حيثما ينطبق ذلك. القيمة الافتراضية هي`خطأ شنيع` . |
-| [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | يتم الاتصال به أثناء حفظ مستند ويقبل البيانات المتعلقة بتقدم الحفظ. |
-| override [SaveFormat](../../aspose.words.saving/wordml2003saveoptions/saveformat/) { get; set; } | يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطWordML . |
+| [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | يحصل على قيمة منطقية أو يعينها للإشارة إلى ما إذا كان سيتم السماح بتضمين الخطوط مع الخطوط العريضة لـ PostScript عند تضمين خطوط TrueType في مستند عند حفظه. القيمة الافتراضية هي`خطأ شنيع` . |
+| [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | يحصل على أو يعين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | يحصل على المسار إلى القالب الافتراضي (بما في ذلك اسم الملف) أو يعينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ). |
+| [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | يحصل على قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد أو يعينها. |
+| virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | يحصل على قيمة تحدد كيفية عرض تأثيرات DrawingML أو يعينها. |
+| [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | يحصل على قيمة تحدد كيفية عرض أشكال DrawingML أو يعينها. |
+| [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | عندما`حقيقي` ، يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هي`حقيقي` . |
+| [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | يحصل على قيمة تحدد كيفية عرض كائنات الحبر (InkML) أو يعينها. |
+| [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | يحصل على القيمة أو يعينها لتحديد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
+| [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | عندما`حقيقي` ، تنسيقات الإخراج الجميلة حيثما ينطبق ذلك. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | يتم استدعاؤها أثناء حفظ المستند وتقبل البيانات حول تقدم الحفظ. |
+| override [SaveFormat](../../aspose.words.saving/wordml2003saveoptions/saveformat/) { get; set; } | يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. لا يمكن أن يكون إلاWordML . |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | يحدد المجلد للملفات المؤقتة المستخدمة عند الحفظ في ملف DOC أو DOCX. بشكل افتراضي، تكون هذه الخاصية`باطل` ولا يتم استخدام أي ملفات مؤقتة. |
-| [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | الحصول على أو تعيين قيمة لتحديد ما إذا كان[`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) يتم تحديث الخاصية قبل الحفظ. القيمة الافتراضية هي`خطأ شنيع` ; |
-| [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تحديث الحقول من أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
-| [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty/) { get; set; } | الحصول على أو تعيين قيمة لتحديد ما إذا كان[`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted/) يتم تحديث الخاصية قبل الحفظ. |
-| [UpdateLastSavedTimeProperty](../../aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) { get; set; } | الحصول على أو تعيين قيمة لتحديد ما إذا كان[`LastSavedTime`](../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) يتم تحديث الخاصية قبل الحفظ. |
-| [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا. |
-| [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
+| [UpdateAmbiguousTextFont](../../aspose.words.saving/saveoptions/updateambiguoustextfont/) { get; set; } | يحدد ما إذا كانت سمات الخط ستتغير وفقًا لرمز الحرف المستخدم. |
+| [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان[`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime/) يتم تحديث الخاصية قبل الحفظ. القيمة الافتراضية هي`خطأ شنيع` ; |
+| [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان يجب تحديث حقول أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
+| [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان[`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted/) يتم تحديث الخاصية قبل الحفظ. |
+| [UpdateLastSavedTimeProperty](../../aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان[`LastSavedTime`](../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) يتم تحديث الخاصية قبل الحفظ. |
+| [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم استخدام التنعيم للرسم أم لا. |
+| [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
 
 ## ملاحظات
 
-في هذه اللحظة يوفر فقط[`SaveFormat`](./saveformat/)الملكية، ولكن في المستقبل قد يكون هناك خيارات أخرى مضافة.
+في الوقت الحالي يوفر فقط[`SaveFormat`](./saveformat/) الممتلكات، ولكن في المستقبل قد يتم إضافة خيارات أخرى.
 
 ## أمثلة
 
@@ -61,52 +62,53 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية حفظ المستند بتنسيق حفظ WordML.
+// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى طريقة "حفظ" الخاصة بالمستند
+// لتعديل كيفية حفظ المستند إلى تنسيق حفظ WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 // اضبط علامة "MemoryOptimization" على "true" لتقليل استهلاك الذاكرة
-// أثناء عملية حفظ المستند على حساب توفير وقت أطول.
-// اضبط علامة "تحسين الذاكرة" على "خطأ" لحفظ المستند بشكل طبيعي.
+// أثناء عملية حفظ المستند على حساب وقت حفظ أطول.
+// اضبط علامة "MemoryOptimization" على "false" لحفظ المستند بشكل طبيعي.
 options.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.MemoryOptimization.xml", options);
 ```
 
-يوضح كيفية إدارة المحتوى الأولي لمستند الإخراج.
+يوضح كيفية إدارة المحتوى الخام للمستند الناتج.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية حفظ المستند بتنسيق حفظ WordML.
+// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى طريقة "حفظ" الخاصة بالمستند
+// لتعديل كيفية حفظ المستند إلى تنسيق حفظ WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// قم بتعيين خاصية "PrettyFormat" على "صحيح" لتطبيق المسافة البادئة لأحرف علامة التبويب و
-// خطوط جديدة لتسهيل قراءة المحتوى الأولي للمستند الناتج.
-// اضبط خاصية "PrettyFormat" على "خطأ" لحفظ المحتوى الأولي للمستند في نص واحد متواصل من النص.
+// اضبط خاصية "PrettyFormat" على "true" لتطبيق مسافة بادئة لأحرف الجدولة و
+//أسطر جديدة لجعل محتوى المستند الناتج الخام أسهل للقراءة.
+// اضبط خاصية "PrettyFormat" على "false" لحفظ محتوى المستند الخام في نص واحد مستمر.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);
 
 string fileContents = File.ReadAllText(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml");
+string newLine = Environment.NewLine;
 
 if (prettyFormat)
     Assert.True(fileContents.Contains(
-        "<o:DocumentProperties>\r\n\t\t" +
-            "<o:Revision>1</o:Revision>\r\n\t\t" +
-            "<o:TotalTime>0</o:TotalTime>\r\n\t\t" +
-            "<o:Pages>1</o:Pages>\r\n\t\t" +
-            "<o:Words>0</o:Words>\r\n\t\t" +
-            "<o:Characters>0</o:Characters>\r\n\t\t" +
-            "<o:Lines>1</o:Lines>\r\n\t\t" +
-            "<o:Paragraphs>1</o:Paragraphs>\r\n\t\t" +
-            "<o:CharactersWithSpaces>0</o:CharactersWithSpaces>\r\n\t\t" +
-            "<o:Version>11.5606</o:Version>\r\n\t" +
+        $"<o:DocumentProperties>{newLine}\t\t" +
+            $"<o:Revision>1</o:Revision>{newLine}\t\t" +
+            $"<o:TotalTime>0</o:TotalTime>{newLine}\t\t" +
+            $"<o:Pages>1</o:Pages>{newLine}\t\t" +
+            $"<o:Words>0</o:Words>{newLine}\t\t" +
+            $"<o:Characters>0</o:Characters>{newLine}\t\t" +
+            $"<o:Lines>1</o:Lines>{newLine}\t\t" +
+            $"<o:Paragraphs>1</o:Paragraphs>{newLine}\t\t" +
+            $"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>{newLine}\t\t" +
+            $"<o:Version>11.5606</o:Version>{newLine}\t" +
         "</o:DocumentProperties>"));
 else
     Assert.True(fileContents.Contains(

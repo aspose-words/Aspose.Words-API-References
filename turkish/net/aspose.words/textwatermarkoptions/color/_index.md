@@ -2,15 +2,15 @@
 title: TextWatermarkOptions.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: TextWatermarkOptions Color mülk. Yazı tipi rengini alır veya ayarlar. Varsayılan değerSilver  C#'da.
+second_title: .NET için Aspose.Words
+description: Görünürlüğü artırmak için Color özelliğiyle TextWatermarkOptions'ınızı özelleştirin. Kişiselleştirilmiş bir dokunuş için tercih ettiğiniz yazı tipi rengini ayarlayın. Varsayılan, Gümüş.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Yazı tipi rengini alır veya ayarlar. Varsayılan değer:Silver .
+Yazı tipi rengini alır veya ayarlar. Varsayılan değerSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -26,8 +26,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

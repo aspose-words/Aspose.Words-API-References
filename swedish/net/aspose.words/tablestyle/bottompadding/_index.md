@@ -3,14 +3,14 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words för .NET
-description: TableStyle BottomPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i tabellceller i C#.
+description: Upptäck egenskapen TableStyle BottomPadding, anpassa cellavståndet i tabellen för förbättrad layout och läsbarhet. Optimera din design utan ansträngning!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i tabellceller.
+Hämtar eller anger mängden utrymme (i punkter) som ska läggas till under innehållet i tabellceller.
 
 ```csharp
 public double BottomPadding { get; set; }

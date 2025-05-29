@@ -3,14 +3,14 @@ title: LayoutCollector.GetEntity
 linktitle: GetEntity
 articleTitle: GetEntity
 second_title: Aspose.Words per .NET
-description: LayoutCollector GetEntity metodo. Restituisce una posizione opaca delLayoutEnumerator che corrisponde al nodo specificato. È possibile utilizzare il valore restituito come argomentoCurrent dato che il documento in corso enumerato e il documento del nodo sono gli stessi in C#.
+description: Scopri il metodo GetEntity di LayoutCollector e recupera senza sforzo la posizione di LayoutEnumerator per una navigazione fluida nei documenti e una maggiore produttività.
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/layoutcollector/getentity/
 ---
 ## LayoutCollector.GetEntity method
 
-Restituisce una posizione opaca del[`LayoutEnumerator`](../../layoutenumerator/) che corrisponde al nodo specificato. È possibile utilizzare il valore restituito come argomento[`Current`](../../layoutenumerator/current/) dato che il documento in corso enumerato e il documento del nodo sono gli stessi.
+Restituisce una posizione opaca del[`LayoutEnumerator`](../../layoutenumerator/) che corrisponde al nodo specificato. È possibile utilizzare il valore restituito come argomento per[`Current`](../../layoutenumerator/current/) dato che il documento che viene enumerato e il documento del nodo sono gli stessi.
 
 ```csharp
 public object GetEntity(Node node)
@@ -18,13 +18,13 @@ public object GetEntity(Node node)
 
 ## Osservazioni
 
-Questo metodo funziona solo per[`Paragraph`](../../../aspose.words/paragraph/) nodi, così come nodi inline indivisibili, ad es[`BookmarkStart`](../../../aspose.words/bookmarkstart/) O[`Shape`](../../../aspose.words.drawing/shape/) . Non funziona per[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) O[`Table`](../../../aspose.words.tables/table/) nodi e nodi all'interno di intestazione/piè di pagina.
+Questo metodo funziona solo per[`Paragraph`](../../../aspose.words/paragraph/) nodi, così come nodi in linea indivisibili, ad esempio[`BookmarkStart`](../../../aspose.words/bookmarkstart/) O[`Shape`](../../../aspose.words.drawing/shape/) Non funziona per[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) O[`Table`](../../../aspose.words.tables/table/) nodi e nodi all'interno dell'intestazione/piè di pagina.
 
-Tieni presente che l'entità è stata restituita per a[`Paragraph`](../../../aspose.words/paragraph/) il nodo è un intervallo di interruzione di paragrafo. Utilizzare il metodo appropriato per salire alla linea madre
+Si noti che l'entità è stata restituita per un[`Paragraph`](../../../aspose.words/paragraph/)Il nodo è un'interruzione di paragrafo. Utilizza il metodo appropriato per risalire alla riga padre.
 
-Se è necessario accedere a a[`Run`](../../../aspose.words/run/) di testo, puoi inserire il segnalibro subito prima di it e quindi passare al segnalibro.
+Se hai bisogno di navigare verso un[`Run`](../../../aspose.words/run/) di testo, puoi inserire un segnalibro subito prima di esso e poi passare al segnalibro.
 
-Se è necessario accedere a a[`Cell`](../../../aspose.words.tables/cell/) nodo quindi puoi spostarti su a[`Paragraph`](../../../aspose.words/paragraph/) nodo in questa cella e quindi ascendere a un'entità principale. Lo stesso approccio può essere utilizzato per[`Row`](../../../aspose.words.tables/row/) e[`Table`](../../../aspose.words.tables/table/) nodi.
+Se hai bisogno di navigare verso un[`Cell`](../../../aspose.words.tables/cell/) nodo quindi puoi spostarti su un[`Paragraph`](../../../aspose.words/paragraph/) nodo in questa cella e poi ascendere a un'entità padre. Lo stesso approccio può essere utilizzato per[`Row`](../../../aspose.words.tables/row/) e[`Table`](../../../aspose.words.tables/table/) nodi.
 
 ## Esempi
 
@@ -34,12 +34,12 @@ Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Chiama il metodo "GetNumPagesSpanned" per contare quante pagine si estende il contenuto del nostro documento.
-// Poiché il documento è vuoto, il numero di pagine attualmente è zero.
+// Chiama il metodo "GetNumPagesSpanned" per contare su quante pagine si estende il contenuto del nostro documento.
+// Poiché il documento è vuoto, il numero di pagine è attualmente zero.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Compila il documento con 5 pagine di contenuto.
+// Popola il documento con 5 pagine di contenuto.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -49,8 +49,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per darci
-// una cifra precisa per qualsiasi metrica relativa al layout, come il conteggio delle pagine.
+// Prima del layout collector, dobbiamo chiamare il metodo "UpdatePageLayout" per fornirci
+// un valore preciso per qualsiasi metrica correlata al layout, come il numero di pagine.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -58,7 +58,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e la loro estensione complessiva delle pagine.
+// Possiamo vedere i numeri delle pagine iniziali e finali di ogni nodo e la loro estensione complessiva di pagina.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -68,13 +68,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Possiamo scorrere le entità del layout utilizzando un LayoutEnumerator.
+// Possiamo scorrere le entità di layout utilizzando un LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
 // LayoutEnumerator può attraversare la raccolta di entità di layout come un albero.
-// Possiamo anche applicarlo all'entità di layout corrispondente di qualsiasi nodo.
+// Possiamo applicarlo anche a qualsiasi entità layout corrispondente a un nodo.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

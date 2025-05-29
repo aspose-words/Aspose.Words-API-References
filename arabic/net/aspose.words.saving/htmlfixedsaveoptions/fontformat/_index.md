@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.FontFormat
 linktitle: FontFormat
 articleTitle: FontFormat
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions FontFormat ملكية. يحصل على أو مجموعاتExportFontFormat يستخدم لتصدير الخط. القيمة الافتراضية هيWoff  في C#.
+description: اكتشف خاصية FontFormat في HtmlFixedSaveOptions لتخصيص تصدير الخطوط. اضبط تنسيقك الافتراضي على Woff وحسّنه بسهولة لتحسين الأداء.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
 ## HtmlFixedSaveOptions.FontFormat property
 
-يحصل على أو مجموعات[`ExportFontFormat`](../../exportfontformat/) يستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
+يحصل أو يعين[`ExportFontFormat`](../../exportfontformat/) يستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
 
 ```csharp
 public ExportFontFormat FontFormat { get; set; }

@@ -3,14 +3,14 @@ title: CustomDocumentProperties.AddLinkToContent
 linktitle: AddLinkToContent
 articleTitle: AddLinkToContent
 second_title: Aspose.Words per .NET
-description: CustomDocumentProperties AddLinkToContent metodo. Crea una nuova proprietà del documento personalizzato collegato al contenuto in C#.
+description: Scopri il metodo AddLinkToContent di CustomDocumentProperties per creare senza sforzo proprietà di documenti personalizzati collegati per una migliore gestione dei documenti.
 type: docs
 weight: 20
 url: /it/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-Crea una nuova proprietà del documento personalizzato collegato al contenuto.
+Crea una nuova proprietà personalizzata del documento collegata al contenuto.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -23,11 +23,11 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Valore di ritorno
 
-L'oggetto proprietà appena creato o`nullo` quando il*linkSource* è invalido.
+L'oggetto di proprietà appena creato o`null` quando il*linkSource* non è valido.
 
 ## Esempi
 
-Mostra come collegare una proprietà del documento personalizzata a un segnalibro.
+Mostra come collegare una proprietà personalizzata del documento a un segnalibro.
 
 ```csharp
 Document doc = new Document();

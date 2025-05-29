@@ -2,15 +2,15 @@
 title: MarkerSymbol Enum
 linktitle: MarkerSymbol
 articleTitle: MarkerSymbol
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol Sıralama. İşaretçi sembolü stilini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik görsellerinizi geliştiren ve veri sunumunuzu iyileştiren özelleştirilebilir işaretçi stilleri için Aspose.Words.Drawing.Charts.MarkerSymbol numaralandırmasını keşfedin.
 type: docs
-weight: 920
+weight: 1240
 url: /tr/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-İşaretçi sembolü stilini belirtir.
+İşaretleyici sembol stilini belirtir.
 
 ```csharp
 public enum MarkerSymbol
@@ -20,22 +20,22 @@ public enum MarkerSymbol
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Default | `0` | Her veri noktasında varsayılan bir işaretleyici sembolün çizileceğini belirtir. |
-| Circle | `1` | Her veri noktasında bir daire çizileceğini belirtir. |
-| Dash | `2` | Her veri noktasında bir çizgi çizileceğini belirtir. |
-| Diamond | `3` | Her veri noktasında bir baklava şekli çizileceğini belirtir. |
+| Default | `0` | Her veri noktasına çizilecek varsayılan bir işaretleyici sembolünü belirtir. |
+| Circle | `1` | Her veri noktasına bir daire çizileceğini belirtir. |
+| Dash | `2` | Her veri noktasına bir çizgi çizileceğini belirtir. |
+| Diamond | `3` | Her veri noktasına bir elmas çizileceğini belirtir. |
 | Dot | `4` | Her veri noktasına bir nokta çizileceğini belirtir. |
-| None | `5` | Her veri noktasında hiçbir şeyin çizilmeyeceğini belirtir. |
-| Picture | `6` | Her veri noktasında bir resim çizileceğini belirtir. |
+| None | `5` | Her veri noktasına hiçbir şey çizilmeyeceğini belirtir. |
+| Picture | `6` | Her veri noktasına bir resim çizileceğini belirtir. |
 | Plus | `7` | Her veri noktasına bir artı çizileceğini belirtir. |
-| Square | `8` | Her veri noktasında bir kare çizileceğini belirtir. |
-| Star | `9` | Her veri noktasında bir yıldızın çizileceğini belirtir. |
-| Triangle | `10` | Her veri noktasında bir üçgen çizileceğini belirtir. |
-| X | `11` | Her veri noktasında bir X çizileceğini belirtir. |
+| Square | `8` | Her veri noktasına bir kare çizileceğini belirtir. |
+| Star | `9` | Her veri noktasına bir yıldız çizileceğini belirtir. |
+| Triangle | `10` | Her veri noktasına bir üçgen çizileceğini belirtir. |
+| X | `11` | Her veri noktasına bir X çizileceğini belirtir. |
 
 ## Örnekler
 
-Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
+Bir çizgi grafiğinde veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ChartDataPoint()
@@ -51,14 +51,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
-    foreach (ChartSeries series in chart.Series) 
+    // Grafiğin veri noktalarını elmas şekilleri şeklinde göstererek vurgulayın.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
+    // İlk serinin veri noktalarının, değer negatif olduğunda renklerinin tersine dönmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -67,17 +67,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için formatı tek tek temizleyebiliriz.
+    dataPoint.ClearFormat();
+
+    // Ayrıca bir dizi veri noktasını aynı anda soyabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Bir diziye bir dizi veri noktası uygular.
+/// Bir diziye belirli sayıda veri noktası uygular.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

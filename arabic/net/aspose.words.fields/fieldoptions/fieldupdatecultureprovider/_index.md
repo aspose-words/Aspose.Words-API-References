@@ -3,14 +3,14 @@ title: FieldOptions.FieldUpdateCultureProvider
 linktitle: FieldUpdateCultureProvider
 articleTitle: FieldUpdateCultureProvider
 second_title: Aspose.Words لـ .NET
-description: FieldOptions FieldUpdateCultureProvider ملكية. الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين في C#.
+description: اكتشف خاصية FieldOptions FieldUpdateCultureProvider، التي تعمل على تمكين كائنات الثقافة المخصصة لكل حقل لتحسين تجربة المستخدم والتوطين.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين.
+يحصل على أو يعين موفرًا يعيد كائن ثقافة محددًا لكل حقل معين.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -18,13 +18,13 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ## ملاحظات
 
-يتم طلب الموفر عندما تكون قيمة[`FieldUpdateCultureSource`](../fieldupdateculturesource/) يكونFieldCode.
+يتم طلب المزود عندما تكون القيمة[`FieldUpdateCultureSource`](../fieldupdateculturesource/) يكونFieldCode.
 
-إذا كان الموفر موجودًا، فسيتم استخدام كائن الثقافة الذي يُرجعه للتحديث الميداني. وبخلاف ذلك، يتم استخدام ثقافة النظام.
+إذا كان المزوّد موجودًا، فسيتم استخدام كائن الثقافة الذي يُرجعه لتحديث الحقل. وإلا، فسيتم استخدام ثقافة النظام.
 
 ## أمثلة
 
-يوضح كيفية تحديد ثقافة تقوم بتوزيع تنسيق التاريخ/الوقت لكل حقل.
+يوضح كيفية تحديد ثقافة تقوم بتحليل تنسيق التاريخ/الوقت لكل حقل.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // قم بتعيين موفر يُرجع كائن ثقافة خاصًا بكل حقل.
+    // تعيين موفر يقوم بإرجاع كائن ثقافة محدد لكل حقل.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -52,7 +52,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// يُرجع كائن CultureInfo ليتم استخدامه أثناء تحديث الحقل.
+    /// إرجاع كائن CultureInfo لاستخدامه أثناء تحديث الحقل.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

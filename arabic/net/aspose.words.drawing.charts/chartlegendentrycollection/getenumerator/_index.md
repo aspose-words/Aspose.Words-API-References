@@ -3,14 +3,14 @@ title: ChartLegendEntryCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: ChartLegendEntryCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة ChartLegendEntryCollection GetEnumerator لترقيم مُدخلات الأسطورة بكفاءة. بسّط إدارة بياناتك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
 ---
 ## ChartLegendEntryCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<ChartLegendEntry> GetEnumerator()

@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.FixCheckDigit
 linktitle: FixCheckDigit
 articleTitle: FixCheckDigit
 second_title: Aspose.Words para .NET
-description: FieldDisplayBarcode FixCheckDigit propiedad. Obtiene o establece si se corrige el dígito de control si no es válido en C#.
+description: Optimice su FieldDisplayBarcode con la propiedad FixCheckDigit. Gestione fácilmente los dígitos de control no válidos para una mayor precisión y fiabilidad.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
 ---
 ## FieldDisplayBarcode.FixCheckDigit property
 
-Obtiene o establece si se corrige el dígito de control si no es válido.
+Obtiene o establece si se debe corregir el dígito de verificación si no es válido.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -18,7 +18,7 @@ public bool FixCheckDigit { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
+Muestra cómo insertar un campo DISPLAYBARCODE y configurar sus propiedades.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas maneras, que el campo DISPLAYBARCODE puede mostrar.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - código de barras CODE39:
+// 3 - Código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

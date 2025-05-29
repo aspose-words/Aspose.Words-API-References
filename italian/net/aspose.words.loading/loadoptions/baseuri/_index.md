@@ -3,14 +3,14 @@ title: LoadOptions.BaseUri
 linktitle: BaseUri
 articleTitle: BaseUri
 second_title: Aspose.Words per .NET
-description: LoadOptions BaseUri proprietà. Ottiene o imposta la stringa che verrà utilizzata per risolvere gli URI relativi trovati nel documento in URI assoluti quando richiesto. Può esserenullo o stringa vuota. Limpostazione predefinita ènullo  in C#.
+description: Scopri la proprietà BaseUri di LoadOptions per convertire facilmente gli URI relativi in assoluti nei tuoi documenti. Migliora la tua gestione degli URI oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.loading/loadoptions/baseuri/
 ---
 ## LoadOptions.BaseUri property
 
-Ottiene o imposta la stringa che verrà utilizzata per risolvere gli URI relativi trovati nel documento in URI assoluti quando richiesto. Può essere`nullo` o stringa vuota. L'impostazione predefinita è`nullo` .
+Ottiene o imposta la stringa che verrà utilizzata per risolvere gli URI relativi trovati nel documento in URI assoluti quando richiesto. Può essere`null` o stringa vuota. Il valore predefinito è`null` .
 
 ```csharp
 public string BaseUri { get; set; }
@@ -20,8 +20,8 @@ public string BaseUri { get; set; }
 
 Questa proprietà viene utilizzata per risolvere gli URI relativi in assoluti nei seguenti casi:
 
-1. Quando si carica un documento HTML da uno stream e il documento contiene immagini con URI relativi e non ha un URI di base specificato nell'elemento BASE HTML.
-2. Quando si salva un documento in PDF e altri formati, per recuperare le immagini collegate utilizzando gli URI relativi in modo che le immagini possano essere salvate nel documento di output.
+1. Quando si carica un documento HTML da un flusso e il documento contiene immagini con URI relativi e non ha un URI di base specificato nell'elemento BASE HTML.
+2. Quando si salva un documento in formato PDF e altri formati, recuperare le immagini collegate utilizzando gli URI relativi in modo che le immagini possano essere salvate nel documento di output.
 
 ## Esempi
 
@@ -30,8 +30,8 @@ Mostra come aprire un documento HTML con immagini da un flusso utilizzando un UR
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Passa l'URI della cartella base durante il caricamento
-    // in modo che sia possibile trovare eventuali immagini con relativi URI nel documento HTML.
+    // Passare l'URI della cartella base durante il caricamento
+    // in modo che sia possibile trovare tutte le immagini con URI relativi nel documento HTML.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 

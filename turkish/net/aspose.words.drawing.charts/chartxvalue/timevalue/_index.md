@@ -2,15 +2,15 @@
 title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
-second_title: Aspose.Words for .NET
-description: ChartXValue TimeValue mülk. Saklanan zaman değerini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için depolanan zaman değerlerinize kolayca erişmek ve bunları yönetmek amacıyla ChartXValue TimeValue özelliğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/timevalue/
 ---
 ## ChartXValue.TimeValue property
 
-Saklanan zaman değerini alır.
+Depolanan zaman değerini alır.
 
 ```csharp
 public TimeSpan TimeValue { get; }

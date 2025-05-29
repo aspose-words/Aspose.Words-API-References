@@ -3,14 +3,14 @@ title: Document.Theme
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words لـ .NET
-description: Document Theme ملكية. يحصل علىTheme كائن لهذا المستند في C#.
+description: يمكنك الوصول إلى خاصية سمة المستند لاسترداد كائن السمة بسهولة، مما يعزز تصميم المستند وجاذبيته البصرية.
 type: docs
-weight: 420
+weight: 440
 url: /ar/net/aspose.words/document/theme/
 ---
 ## Document.Theme property
 
-يحصل على`Theme` كائن لهذا المستند.
+يحصل على`Theme` كائن لهذه الوثيقة.
 
 ```csharp
 public Theme Theme { get; }
@@ -23,24 +23,24 @@ public Theme Theme { get; }
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// يمنحنا كائن "Theme" إمكانية الوصول إلى سمة المستند، وهو مصدر الخطوط والألوان الافتراضية.
+// يمنحنا كائن "المظهر" إمكانية الوصول إلى مظهر المستند، وهو مصدر الخطوط والألوان الافتراضية.
 Theme theme = doc.Theme;
 
 // بعض الأنماط، مثل "العنوان 1" و"العنوان الفرعي"، سوف ترث هذه الخطوط.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا الموضوع.
+// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا المظهر.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
 // تحتوي خاصية "الألوان" على لوحة الألوان من Microsoft Word،
-// والذي يظهر عند تغيير التظليل أو لون الخط.
-// قم بتطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
+//الذي يظهر عند تغيير التظليل أو لون الخط.
+// تطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
 // عندما نقوم، على سبيل المثال، بتغيير لون الخط عبر "الصفحة الرئيسية" -> "الخط" -> "لون الخط"،
-// أو قم بإدراج شكل ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
+// أو أدخل شكلًا، ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -54,7 +54,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// تطبيق ألوان مخصصة على الارتباطات التشعبية في حالات النقر عليها وعدم النقر عليها.
+// تطبيق الألوان المخصصة على الروابط التشعبية في حالتها عند النقر عليها أو عدم النقر عليها.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

@@ -3,14 +3,14 @@ title: ChartYValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: ChartYValueCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck ChartYValueCollection GetEnumerator-metoden – iterera effektivt och enkelt genom data och förbättra dina datahanteringsmöjligheter.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
 ---
 ## ChartYValueCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<ChartYValue> GetEnumerator()

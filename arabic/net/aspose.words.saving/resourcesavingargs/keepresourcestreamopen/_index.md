@@ -3,14 +3,14 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words لـ .NET
-description: ResourceSavingArgs KeepResourceStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ المورد في C#.
+description: اكتشف كيف تعمل خاصية KeepResourceStreamOpen في ResourceSavingArgs على تعزيز Aspose.Words من خلال إدارة كفاءة التدفق أثناء حفظ الموارد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 ---
 ## ResourceSavingArgs.KeepResourceStreamOpen property
 
-يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ المورد.
+يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ مورد.
 
 ```csharp
 public bool KeepResourceStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`ResourceStream`](../resourcestream/) الخاصية بعد كتابة المصدر فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
+الافتراضي هو`خطأ شنيع` وسوف يقوم Aspose.Words بإغلاق الدفق الذي قدمته في[`ResourceStream`](../resourcestream/) الخاصية بعد كتابة مورد فيها. حدد`حقيقي` للحفاظ على مجرى النهر مفتوحا.
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لطباعة عناوين URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // سيحتوي المجلد المحدد بواسطة ResourcesFolderAlias على الموارد بدلاً من ResourcesFolder.
-    // يجب أن نتأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
+    // يتعين علينا التأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -56,13 +56,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد التي تحتوي عليها عند تحويلها إلى HTML ثابت.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة أثناء تحويلها إلى HTML ثابت.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسنكون قادرين على طباعته من هنا.
+        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسوف نتمكن من طباعته من هنا.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -72,7 +72,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // بشكل افتراضي، يستخدم 'ResourceFileUri' مجلد النظام للخطوط.
-                // لتجنب المشاكل في الأنظمة الأساسية الأخرى، يجب عليك تحديد مسار الخطوط بشكل صريح.
+                // لتجنب المشاكل في المنصات الأخرى، يجب عليك تحديد المسار للخطوط بشكل صريح.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -81,7 +81,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // إذا قمنا بتحديد مجلد في خاصية "ResourcesFolderAlias"،
-        // سنحتاج أيضًا إلى إعادة توجيه كل تيار لوضع موارده في هذا المجلد.
+        // سوف نحتاج أيضًا إلى إعادة توجيه كل مجرى لوضع موارده في هذا المجلد.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

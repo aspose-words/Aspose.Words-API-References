@@ -3,7 +3,7 @@ title: FieldDisplayBarcode
 linktitle: FieldDisplayBarcode
 articleTitle: FieldDisplayBarcode
 second_title: Aspose.Words لـ .NET
-description: FieldDisplayBarcode البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldDisplayBarcode لتكامل سلس. استخدم الميزات الافتراضية لتحسين كفاءة عرض الباركود.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/fielddisplaybarcode/

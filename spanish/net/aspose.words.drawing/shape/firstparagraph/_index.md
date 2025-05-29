@@ -3,9 +3,9 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words para .NET
-description: Shape FirstParagraph propiedad. Obtiene el primer párrafo de la forma en C#.
+description: Recupera el primer párrafo de una forma sin esfuerzo. Mejora el diseño de tu documento con nuestra sencilla función "Primer párrafo de forma".
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Ejemplos
 
-Muestra cómo crear y dar formato a un cuadro de texto.
+Muestra cómo crear y formatear un cuadro de texto.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Establece la alineación horizontal y vertical del texto dentro de la forma.
+// Establezca la alineación horizontal y vertical del texto dentro de la forma.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

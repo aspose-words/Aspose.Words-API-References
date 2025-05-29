@@ -3,14 +3,14 @@ title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Replacing.IReplacingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время операции поиска и замены вызывался собственный метод на С#.
+description: Улучшите обработку документов с помощью интерфейса IReplacingCallback от Aspose.Words. Создавайте собственные методы поиска и замены для получения индивидуальных результатов.
 type: docs
-weight: 4630
+weight: 5360
 url: /ru/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы во время операции поиска и замены вызывался собственный метод.
+Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный метод вызывался во время операции поиска и замены.
 
 ```csharp
 public interface IReplacingCallback
@@ -20,9 +20,52 @@ public interface IReplacingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Определенный пользователем метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Пользовательский метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены. |
 
 ## Примеры
+
+Показывает, как отслеживать порядок, в котором операция замены текста проходит по узлам.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // Использование другого верхнего/нижнего колонтитула для первой страницы повлияет на порядок поиска.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// Во время операции поиска и замены записывает содержимое каждого узла, содержащего текст, который операция «находит»,
+/// в том состоянии, в котором он находился до замены.
+/// Это отобразит порядок, в котором операция замены текста проходит по узлам.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -38,7 +81,7 @@ public void ReplaceWithCallback()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
+    // Устанавливаем обратный вызов, который отслеживает любые замены, которые будет выполнять метод «Replace».
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,7 +95,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -73,56 +116,6 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
     private readonly StringBuilder mLog = new StringBuilder();
 }
-```
-
-Показывает, как отслеживать порядок, в котором операция замены текста проходит узлы.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // Использование другого верхнего/нижнего колонтитула для первой страницы повлияет на порядок поиска.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// Во время операции поиска и замены записывает содержимое каждого узла, имеющего текст, который "находит" операция,
-        /// в том состоянии, в котором он находился до замены.
-        /// Это отобразит порядок, в котором операция замены текста проходит через узлы.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
 ```
 
 Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
@@ -147,11 +140,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставляем документ после абзаца, содержащего совпадающий текст.
+        // Вставить документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Удаляем абзац с совпадающим текстом.
+        // Удалить абзац с совпадающим текстом.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -173,7 +166,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропускаем узел, если это последний пустой абзац в разделе.
+                // Пропустить узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Fields
 linktitle: Fields
 articleTitle: Fields
 second_title: Aspose.Words para .NET
-description: MailMergeRegionInfo Fields propiedad. Devuelve una lista de campos secundarios en C#.
+description: Descubra la propiedad Campos MailMergeRegionInfo, acceda y administre fácilmente los campos secundarios para una automatización eficiente de documentos y una mayor productividad.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/fields/
@@ -18,15 +18,15 @@ public IList<Field> Fields { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar regiones de combinación de correspondencia.
+Muestra cómo verificar las regiones de combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELD disponibles en el documento.
+// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELDs disponibles en el documento.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obtener las principales regiones del documento.
+// Obtener las regiones principales del documento.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Obtener la lista de campos dentro de la primera región superior.
 IList<Field> fieldList = topRegions[0].Fields;

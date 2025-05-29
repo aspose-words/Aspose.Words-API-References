@@ -3,7 +3,7 @@ title: ImageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words para .NET
-description: ImageSaveOptions MetafileRenderingOptions propiedad. Permite especificar cómo se tratan los metarchivos en la salida renderizada en C#.
+description: Descubra la propiedad MetafileRenderingOptions de ImageSaveOptions para controlar el manejo de metarchivos en su salida renderizada para una mejor calidad de imagen.
 type: docs
 weight: 90
 url: /es/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -18,32 +18,32 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 ## Observaciones
 
-CuandoVector se especifica, Aspose.Words renderiza el metarchivo en gráficos vectoriales usando su propio motor de renderizado de metarchivos primero y luego renderiza los gráficos vector en la imagen.
+CuandoVector Si se especifica, Aspose.Words renders metarchivo a gráficos vectoriales utilizando primero su propio motor de renderizado de metarchivos y luego renderiza gráficos vector a la imagen.
 
 CuandoBitmap Si se especifica, Aspose.Words renderiza el metarchivo directamente en la imagen utilizando el motor de renderizado de metarchivos GDI+.
 
-El motor de representación de metarchivos GDI+ funciona más rápido, admite casi todas las funciones de metarchivos, pero en resoluciones bajas puede producir resultados inconsistentes en comparación con el resto de gráficos vectoriales (especialmente para texto) en la página. El motor de renderizado de metarchivos Aspose.Words producirá resultados más consistentes incluso en resoluciones bajas, pero funciona más lento y puede renderizar metarchivos complejos de manera imprecisa.
+El motor de renderizado de metarchivos GDI+ funciona más rápido y admite casi todas las funciones de los metarchivos, pero en resoluciones bajas puede generar resultados inconsistentes en comparación con el resto de los gráficos vectoriales (especialmente para texto) de la página. El motor de renderizado de metarchivos Aspose.Words produce resultados más consistentes incluso en resoluciones bajas, pero funciona más lento y puede generar metarchivos complejos de forma imprecisa.
 
 El valor predeterminado para[`MetafileRenderingMode`](../../metafilerenderingmode/) esBitmap.
 
 ## Ejemplos
 
-Muestra cómo configurar el modo de representación al guardar documentos con imágenes de metarchivo de Windows en otros formatos de imagen.
+Muestra cómo configurar el modo de renderizado al guardar documentos con imágenes de Metarchivo de Windows en otros formatos de imagen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(Image.FromFile(ImageDir + "Windows MetaFile.wmf"));
+builder.InsertImage(ImageDir + "Windows MetaFile.wmf");
 
 // Cuando guardamos el documento como una imagen, podemos pasar un objeto SaveOptions a
 // determina cómo la operación de guardado procesará los metarchivos de Windows en el documento.
-// Si configuramos la propiedad "RenderingMode" en "MetafileRenderingMode.Vector",
-// o "MetafileRenderingMode.VectorWithFallback", representaremos todos los metarchivos como gráficos vectoriales.
-// Si configuramos la propiedad "RenderingMode" en "MetafileRenderingMode.Bitmap", representaremos todos los metarchivos como mapas de bits.
+// Si establecemos la propiedad "RenderingMode" en "MetafileRenderingMode.Vector",
+// o "MetafileRenderingMode.VectorWithFallback", renderizaremos todos los metarchivos como gráficos vectoriales.
+// Si establecemos la propiedad "RenderingMode" en "MetafileRenderingMode.Bitmap", renderizaremos todos los metarchivos como mapas de bits.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.MetafileRenderingOptions.RenderingMode = metafileRenderingMode;
-// Aspose.Words usa GDI+ para la emulación de operaciones ráster, cuando el valor se establece en verdadero.
+// Aspose.Words usa GDI+ para la emulación de operaciones raster, cuando el valor se establece en verdadero.
 options.MetafileRenderingOptions.UseGdiRasterOperationsEmulation = true;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);

@@ -3,14 +3,14 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words para .NET
-description: Body NodeType propiedad. DevolucionesBody  en C#.
+description: Descubra la propiedad Body NodeType que devuelve eficientemente el contenido del cuerpo, mejorando su experiencia de desarrollo web y agilizando sus proyectos.
 type: docs
 weight: 20
 url: /es/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-DevolucionesBody .
+DevuelveBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una sección es un nodo compuesto y puede contener nodos secundarios.
-// pero sólo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
+// Una sección es un nodo compuesto y puede contener nodos secundarios,
+// pero sólo si esos nodos secundarios son de un tipo de nodo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

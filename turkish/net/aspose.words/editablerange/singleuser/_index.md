@@ -2,8 +2,8 @@
 title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
-second_title: Aspose.Words for .NET
-description: EditableRange SingleUser mülk. Düzenlenebilir aralık için tek kullanıcıyı döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Düzenlenebilir aralıkları etkin bir şekilde yönetmek, sorunsuz işbirliği ve kullanıcıya özel erişim kontrolü sağlamak için EditableRange SingleUser özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/editablerange/singleuser/
@@ -18,19 +18,19 @@ public string SingleUser { get; set; }
 
 ## Notlar
 
-Bu düzenleyici aşağıdaki formlardan birinde saklanabilir:
+Bu düzenleyici aşağıdaki biçimlerden birinde saklanabilir:
 
-ALAN\Kullanıcı adı - geçerli kullanıcının etki alanı kimlik bilgileri kullanılarak erişimi doğrulanacak kullanıcılar için.
+DOMAIN\Kullanıcı Adı - Erişimi geçerli kullanıcının etki alanı kimlik bilgileri kullanılarak doğrulanacak kullanıcılar için.
 
-kullanici@alanadi.com - kimlik bilgileri olarak kullanıcının e-posta adresi kullanılarak erişimi doğrulanacak kullanıcılar için.
+user@domain.com - Kullanıcının e-posta adresini kimlik bilgisi olarak kullanarak erişimi doğrulanacak kullanıcılar için.
 
 kullanıcı - erişimi geçerli kullanıcının makine kimlik bilgileri kullanılarak doğrulanacak kullanıcılar için.
 
-Belirli düzenlenebilir aralık için tek kullanıcı ve editör grubu aynı anda ayarlanamaz, biri ayarlanmışsa diğeri net olacaktır.
+Belirli düzenlenebilir aralık için aynı anda tek kullanıcı ve editör grubu ayarlanamaz, biri ayarlandığında diğeri temizlenir.
 
 ## Örnekler
 
-Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
+Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlanacağını gösterir.
 
 ```csharp
 public void Visitor()
@@ -43,7 +43,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // Belgeleri yazmaya karşı koruduğumuzda, düzenlenebilir aralıklar kullanıcıların düzenleyebileceği belirli alanları seçmemize olanak tanır.
-    // İzin verilen düzenleyicilerin listesini daraltmanın birbirini dışlayan iki yolu vardır.
+    // İzin verilen editörlerin listesini daraltmanın iki karşılıklı olarak özel yolu vardır.
     // 1 - Bir kullanıcı belirtin:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grup belirtin:
+    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grubu belirtin:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriğini yazdırın.
+    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriklerini yazdır.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriğini bir dizede toplar.
+/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriklerini bir dizgede toplar.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -92,7 +92,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {

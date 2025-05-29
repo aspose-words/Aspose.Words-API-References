@@ -3,16 +3,16 @@ title: WarningInfo Class
 linktitle: WarningInfo
 articleTitle: WarningInfo
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WarningInfo сорт. Содержит информацию о предупреждении которое Aspose.Words выдал во время загрузки или сохранения документа на С#.
+description: Откройте для себя класс Aspose.Words.WarningInfo, который предоставляет важную информацию о предупреждениях во время загрузки или сохранения документа, повышая эффективность вашего рабочего процесса.
 type: docs
-weight: 6630
+weight: 7480
 url: /ru/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 Содержит информацию о предупреждении, которое Aspose.Words выдал во время загрузки или сохранения документа.
 
-Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) документальная статья.
 
 ```csharp
 public class WarningInfo
@@ -32,25 +32,25 @@ public class WarningInfo
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -69,7 +69,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

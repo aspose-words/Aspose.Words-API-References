@@ -3,14 +3,14 @@ title: Shape.ShadowEnabled
 linktitle: ShadowEnabled
 articleTitle: ShadowEnabled
 second_title: Aspose.Words para .NET
-description: Shape ShadowEnabled propiedad. Devolucionesverdadero si un efecto de sombra está habilitado en C#.
+description: Descubra cómo la propiedad Shape ShadowEnabled mejora sus diseños al habilitar efectos de sombra para un atractivo visual más dinámico.
 type: docs
-weight: 150
+weight: 160
 url: /es/net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Devoluciones`verdadero` si un efecto de sombra está habilitado.
+Devuelve`verdadero` Si está habilitado un efecto de sombra.
 
 ```csharp
 public bool ShadowEnabled { get; }
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

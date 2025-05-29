@@ -3,7 +3,7 @@ title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
 second_title: Aspose.Words für .NET
-description: Table RelativeHorizontalAlignment eigendom. Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt sie fest in C#.
+description: Entdecken Sie die Eigenschaft „Table RelativeHorizontalAlignment“, um die horizontale Ausrichtung Ihrer Tabelle einfach anzupassen und so die Layoutkontrolle und optische Attraktivität zu verbessern.
 type: docs
 weight: 230
 url: /de/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die rechte untere Ecke.
+// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die untere rechte Ecke.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
+    // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

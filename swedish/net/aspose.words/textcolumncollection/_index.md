@@ -3,14 +3,14 @@ title: TextColumnCollection Class
 linktitle: TextColumnCollection
 articleTitle: TextColumnCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.TextColumnCollection klass. En samling avTextColumn objekt som representerar alla textkolumner i en del av ett dokument i C#.
+description: Utforska Aspose.Words.TextColumnCollection för att enkelt hantera textkolumner i dina dokument. Förbättra din dokumentformatering med lätthet!
 type: docs
-weight: 6400
+weight: 7250
 url: /sv/net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
 
-En samling av[`TextColumn`](../textcolumn/) objekt som representerar alla textkolumner i en del av ett dokument.
+En samling av[`TextColumn`](../textcolumn/) objekt som representerar alla textkolumner i ett avsnitt av ett dokument.
 
 För att lära dig mer, besök[Arbeta med sektioner](https://docs.aspose.com/words/net/working-with-sections/) dokumentationsartikel.
 
@@ -22,12 +22,12 @@ public class TextColumnCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Hämtar antalet kolumner i avsnittet av ett dokument. |
-| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | Sant om textkolumner är lika breda och jämnt fördelade. |
+| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Hämtar antalet kolumner i avsnittet i ett dokument. |
+| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | Sant om textkolumner har samma bredd och är jämnt fördelade. |
 | [Item](../../aspose.words/textcolumncollection/item/) { get; } | Returnerar en textkolumn vid det angivna indexet. |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | När`Sann` lägger till en vertikal linje mellan kolumner. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | När kolumner är jämnt fördelade, hämtas eller ställer in mängden utrymme mellan varje kolumn i poäng. |
-| [Width](../../aspose.words/textcolumncollection/width/) { get; } | När kolumner är jämnt fördelade, får bredden på kolumnerna. |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | När`sann` , lägger till en vertikal linje mellan kolumner. |
+| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | När kolumnerna är jämnt fördelade, hämtar eller ställer in mängden avstånd mellan varje kolumn i punkter. |
+| [Width](../../aspose.words/textcolumncollection/width/) { get; } | När kolumnerna är jämnt fördelade, hämtar kolumnernas bredd. |
 
 ## Metoder
 
@@ -37,13 +37,13 @@ public class TextColumnCollection
 
 ## Anmärkningar
 
-Använda sig av[`SetCount`](./setcount/) för att ställa in antalet textkolumner.
+Använda[`SetCount`](./setcount/) för att ställa in antalet textkolumner.
 
-Ställ in för att göra alla kolumner lika breda och jämnt fördelade[`EvenlySpaced`](./evenlyspaced/) till`Sann` och ange mängden utrymme mellan kolumnerna i[`Spacing`](./spacing/). MS Word kommer att automatiskt beräkna kolumnbredder.
+För att göra alla kolumner lika breda och jämnt fördelade, ange[`EvenlySpaced`](./evenlyspaced/) till`sann` och ange mängden avstånd mellan kolumnerna i[`Spacing`](./spacing/)MS Word beräknar kolumnbredder automatiskt.
 
-Om du har[`EvenlySpaced`](./evenlyspaced/) satt till`falsk` måste du ange bredd och avstånd för varje kolumn individuellt. Använd indexeraren för att komma åt individen[`TextColumn`](../textcolumn/) föremål.
+Om du har[`EvenlySpaced`](./evenlyspaced/) inställd på`falsk` , måste du ange bredd och avstånd för varje -kolumn individuellt. Använd indexeraren för att komma åt enskilda[`TextColumn`](../textcolumn/) föremål.
 
-När du använder anpassade kolumnbredder, se till att summan av alla kolumnbredder och avstånd mellan dem är lika med sidbredd minus vänster och höger sidmarginaler.
+När du använder anpassade kolumnbredder, se till att summan av alla kolumnbredder och avstånden mellan dem är lika med sidbredden minus vänster och höger sidmarginaler.
 
 ## Exempel
 

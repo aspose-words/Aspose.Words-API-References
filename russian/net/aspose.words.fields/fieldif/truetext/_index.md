@@ -3,14 +3,14 @@ title: FieldIf.TrueText
 linktitle: TrueText
 articleTitle: TrueText
 second_title: Aspose.Words для .NET
-description: FieldIf TrueText свойство. Получает или задает текст отображаемый если выражение сравнения истинно на С#.
+description: Откройте для себя свойство FieldIf TrueText, легко управляйте отображаемым текстом для получения истинных выражений сравнения, улучшая пользовательский интерфейс и ясность данных.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldif/truetext/
 ---
 ## FieldIf.TrueText property
 
-Получает или задает текст, отображаемый, если выражение сравнения истинно.
+Возвращает или задает текст, отображаемый, если выражение сравнения истинно.
 
 ```csharp
 public string TrueText { get; set; }
@@ -18,7 +18,7 @@ public string TrueText { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

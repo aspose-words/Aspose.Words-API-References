@@ -2,8 +2,8 @@
 title: CustomXmlPart
 linktitle: CustomXmlPart
 articleTitle: CustomXmlPart
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomXmlPart 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomXmlPart 构造函数，实现无缝集成。探索默认构造函数如何提升您的 XML 自定义体验。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/customxmlpart/customxmlpart/

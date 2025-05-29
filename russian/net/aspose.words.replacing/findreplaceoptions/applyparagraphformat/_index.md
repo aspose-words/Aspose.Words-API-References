@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions ApplyParagraphFormat свойство. Форматирование абзацев применено к новому содержимому на С#.
+description: Откройте для себя свойство ApplyParagraphFormat в FindReplaceOptions для бесшовного форматирования абзацев в ваших документах. Улучшайте свой контент без усилий!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Форматирование абзацев применено к новому содержимому.
+Форматирование абзаца применено к новому содержимому.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ## Примеры
 
-Показывает, как добавить форматирование к абзацам, в которых операция поиска и замены обнаружила совпадения.
+Показывает, как добавить форматирование к абзацам, в которых операция поиска и замены нашла совпадения.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для свойства «Alignment» значение «ParagraphAlignment.Right», чтобы выровнять каждый абзац по правому краю.
-// который содержит совпадение, найденное операцией поиска и замены.
+// Установите свойство "Alignment" на "ParagraphAlignment.Right", чтобы выровнять каждый абзац по правому краю
+// содержащий совпадение, которое находит операция поиска и замены.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
 // Замените каждую точку перед разрывом абзаца восклицательным знаком.

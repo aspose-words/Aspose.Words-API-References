@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words per .NET
-description: FrameFormat HorizontalAlignment proprietà. Ottiene lallineamento orizzontale del frame specificato in C#.
+description: Scopri la proprietà FrameFormat HorizontalAlignment per regolare e ottimizzare facilmente l'allineamento orizzontale della cornice per un migliore controllo del design.
 type: docs
 weight: 30
 url: /it/net/aspose.words/frameformat/horizontalalignment/

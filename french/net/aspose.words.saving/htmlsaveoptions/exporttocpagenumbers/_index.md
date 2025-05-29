@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ExportTocPageNumbers propriété. Spécifie sil faut écrire les numéros de page dans la table des matières lors de lenregistrement HTML MHTML et EPUB. La valeur par défaut estFAUX  en C#.
+description: Contrôlez les numéros de page de la table des matières dans les exportations HTML, MHTML et EPUB avec HtmlSaveOptions. Améliorez la navigation et l'expérience utilisateur en toute simplicité !
 type: docs
 weight: 270
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -24,8 +24,8 @@ Montre comment afficher les numéros de page lors de l'enregistrement d'un docum
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une table des matières, puis remplit le document avec des paragraphes formatés à l'aide d'un "En-tête"
-// style que la table des matières reprendra en tant qu'entrées. Chaque entrée affichera le paragraphe d'en-tête à gauche,
+// Insérer une table des matières, puis remplir le document avec des paragraphes formatés à l'aide d'un « Titre »
+// style que la table des matières reprendra comme entrée. Chaque entrée affichera le paragraphe d'en-tête à gauche,
 // et le numéro de page qui contient le titre à droite.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -40,13 +40,13 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// Les documents HTML n'ont pas de pages. Si nous enregistrons ce document au format HTML,
-// les numéros de page affichés par notre table des matières n'auront aucune signification.
-// Lorsque nous enregistrons le document au format HTML, nous pouvons transmettre un objet SaveOptions pour omettre ces numéros de page de la table des matières.
-// Si on met le flag "ExportTocPageNumbers" à "true",
-// chaque entrée de la table des matières affichera le titre, le séparateur et le numéro de page, préservant son apparence dans Microsoft Word.
-// Si on met le flag "ExportTocPageNumbers" à "false",
-// l'opération de sauvegarde omettra à la fois le séparateur et le numéro de page et laissera le titre de chaque entrée intact.
+// Les documents HTML ne contiennent pas de pages. Si nous enregistrons ce document au format HTML,
+// les numéros de page affichés dans notre table des matières n'auront aucune signification.
+// Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour omettre ces numéros de page de la table des matières.
+// Si nous définissons l'indicateur "ExportTocPageNumbers" sur "true",
+// chaque entrée de table des matières affichera le titre, le séparateur et le numéro de page, préservant ainsi son apparence dans Microsoft Word.
+// Si nous définissons l'indicateur "ExportTocPageNumbers" sur "false",
+// l'opération de sauvegarde omettra à la fois le séparateur et le numéro de page et laissera l'en-tête de chaque entrée intact.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTocPageNumbers.html", options);

@@ -3,14 +3,14 @@ title: Node.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: Node Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Node-Accept-Methode für nahtloses Besucher-Engagement. Verbessern Sie das Benutzererlebnis und steigern Sie die Interaktion mit diesem leistungsstarken Tool!
 type: docs
 weight: 90
 url: /de/net/aspose.words/node/accept/
 ---
 ## Node.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public abstract bool Accept(DocumentVisitor visitor)
@@ -18,17 +18,17 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
@@ -40,8 +40,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können.
+    // Dadurch kann es den akzeptierenden Knoten besuchen und dann seine untergeordneten Knoten in einer Tiefensuche durchlaufen.
     // 1 - Absatzknoten:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -106,7 +106,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -172,10 +172,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -183,16 +185,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
-        // und es gäbe keine untergeordneten Knoten mehr.
-        // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
+        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles entfernt.
+        // und es wären keine untergeordneten Knoten übrig.
+        // Daher können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
         // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
-        // was dieser Besucher nicht entfernen wird.
+        // die dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -200,7 +202,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -211,7 +213,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

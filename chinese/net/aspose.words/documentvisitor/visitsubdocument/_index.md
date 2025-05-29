@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitSubDocument
 linktitle: VisitSubDocument
 articleTitle: VisitSubDocument
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitSubDocument 方法. 遇到子文档时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor 的 VisitSubDocument 方法，该方法旨在高效处理应用程序中的子文档。提升您的编码效率！
 type: docs
 weight: 480
 url: /zh/net/aspose.words/documentvisitor/visitsubdocument/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitSubDocument(SubDocument subDocument)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何使用文档访问者打印文档的节点结构。
+展示如何使用文档访问器打印文档的节点结构。
 
 ```csharp
 public void DocStructureToText()
@@ -34,9 +34,9 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
     // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
@@ -44,7 +44,7 @@ public void DocStructureToText()
 
 /// <summary>
 /// 遍历节点的子节点树。
-/// 以字符串的形式创建该树的映射。
+/// 以字符串的形式创建这棵树的映射。
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 遇到 Document 节点时调用。
+    /// 当遇到 Document 节点时调用。
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -73,7 +73,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Document 节点的所有子节点后调用。
+    /// 在访问完 Document 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -84,7 +84,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到Section 节点时调用。
+    /// 当在文档中遇到 Section 节点时调用。
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -99,7 +99,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了Section节点的所有子节点后调用。
+    /// 在访问完 Section 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -110,7 +110,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Body 节点时调用。
+    /// 当在文档中遇到 Body 节点时调用。
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -122,7 +122,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了 Body 节点的所有子节点后调用。
+    /// 在访问完 Body 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -133,7 +133,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到段落节点时调用。
+    /// 当在文档中遇到段落节点时调用。
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -144,7 +144,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Paragraph 节点的所有子节点后调用。
+    /// 在访问完 Paragraph 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -165,7 +165,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 SubDocument 节点时调用。
+    /// 当在文档中遇到 SubDocument 节点时调用。
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -175,9 +175,29 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 当在文档中遇到 SubDocument 节点时调用。
     /// </summary>
-    /// <param name="text"></param>;
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 SubDocument 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 向 StringBuilder 附加一行并根据访问者在文档树中的深度进行缩进。
+    /// </summary>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

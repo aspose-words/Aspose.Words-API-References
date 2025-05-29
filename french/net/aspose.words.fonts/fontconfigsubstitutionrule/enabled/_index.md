@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words pour .NET
-description: FontConfigSubstitutionRule Enabled propriété. Spécifie si la règle est activée ou non en C#.
+description: Découvrez comment gérer la propriété FontConfigSubstitutionRule Enabled pour optimiser les paramètres de police et améliorer votre flexibilité de conception.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plateformes Windows/non Windows.
+// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plates-formes Windows/non Windows.
 // Sous Windows, il n'est pas disponible.
 if (isWindows)
 {

@@ -3,9 +3,9 @@ title: FieldDocVariable Class
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldDocVariable klas. Implementiert das DOCVARIABLEFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldDocVariable für die nahtlose DOCVARIABLE-Feldintegration und verbessern Sie so Ihre Dokumentenautomatisierung und -verwaltung.
 type: docs
-weight: 1820
+weight: 2230
 url: /de/net/aspose.words.fields/fielddocvariable/
 ---
 ## FieldDocVariable class
@@ -30,24 +30,24 @@ public class FieldDocVariable : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
-| [VariableName](../../aspose.words.fields/fielddocvariable/variablename/) { get; set; } | Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt diesen fest. |
+| [VariableName](../../aspose.words.fields/fielddocvariable/variablename/) { get; set; } | Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
@@ -59,9 +59,9 @@ Zeigt, wie DOCPROPERTY-Felder zum Anzeigen von Dokumenteigenschaften und -variab
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten zur Verwendung von DOCPROPERTY-Feldern.
+// Unten sind zwei Möglichkeiten zur Verwendung von DOCPROPERTY-Feldern aufgeführt.
 // 1 – Eine integrierte Eigenschaft anzeigen:
-// Legen Sie einen benutzerdefinierten Wert für die integrierte Eigenschaft „Category“ fest und fügen Sie dann ein DOCPROPERTY-Feld ein, das darauf verweist.
+// Legen Sie einen benutzerdefinierten Wert für die integrierte Eigenschaft „Kategorie“ fest und fügen Sie dann ein DOCPROPERTY-Feld ein, das darauf verweist.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -73,8 +73,8 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 builder.InsertParagraph();
 
 // 2 – Eine benutzerdefinierte Dokumentvariable anzeigen:
-// Definieren Sie eine benutzerdefinierte Variable und referenzieren Sie diese Variable dann mit einem DOCPROPERTY-Feld.
-Assert.That(doc.Variables, Is.Empty);
+// Definieren Sie eine benutzerdefinierte Variable und verweisen Sie dann mit einem DOCPROPERTY-Feld auf diese Variable.
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

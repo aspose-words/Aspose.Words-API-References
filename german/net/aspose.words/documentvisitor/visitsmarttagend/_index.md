@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSmartTagEnd
 linktitle: VisitSmartTagEnd
 articleTitle: VisitSmartTagEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitSmartTagEnd methode. Wird aufgerufen wenn die Aufzählung eines Smarttags beendet wurde in C#.
+description: Entdecken Sie die DocumentVisitor VisitSmartTagEnd-Methode, die für eine effiziente Smarttag-Aufzählung unerlässlich ist. Verbessern Sie Ihren Code mit dieser Schlüsselfunktion!
 type: docs
 weight: 410
 url: /de/net/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor.VisitSmartTagEnd method
 
-Wird aufgerufen, wenn die Aufzählung eines Smarttags beendet wurde.
+Wird aufgerufen, wenn die Enumeration eines Smarttags beendet ist.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -97,7 +97,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

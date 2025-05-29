@@ -3,14 +3,14 @@ title: Font.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words för .NET
-description: Font Color fast egendom. Hämtar eller ställer in färgen på teckensnittet i C#.
+description: Upptäck egenskapen Teckenfärg för att enkelt anpassa textfärger i dina designer. Förbättra läsbarhet och estetik med livfulla, iögonfallande nyanser!
 type: docs
 weight: 70
 url: /sv/net/aspose.words/font/color/
 ---
 ## Font.Color property
 
-Hämtar eller ställer in färgen på teckensnittet.
+Hämtar eller ställer in teckensnittets färg.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Exempel
 
-Visar hur man infogar formaterad text med DocumentBuilder.
+Visar hur man infogar formaterad text med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Infoga en hyperlänk och framhäva den med anpassad formatering.
-// Hyperlänken kommer att vara ett klickbart stycke text som tar oss till den plats som anges i URL:en.
+// Infoga en hyperlänk och framhäv den med anpassad formatering.
+// Hyperlänken kommer att vara en klickbar textbit som tar oss till den plats som anges i URL:en.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falskt);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

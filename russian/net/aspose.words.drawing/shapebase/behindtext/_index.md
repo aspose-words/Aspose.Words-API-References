@@ -3,14 +3,14 @@ title: ShapeBase.BehindText
 linktitle: BehindText
 articleTitle: BehindText
 second_title: Aspose.Words для .NET
-description: ShapeBase BehindText свойство. Указывает находится ли фигура ниже или выше текста на С#.
+description: Откройте для себя свойство ShapeBase BehindText, позволяющее легко управлять наложением фигур в дизайне, улучшая видимость текста и точность макета.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Указывает, находится ли фигура ниже или выше текста.
+Указывает, находится ли фигура под или над текстом.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -18,7 +18,7 @@ public bool BehindText { get; set; }
 
 ## Примечания
 
-Имеет эффект только для фигур верхнего уровня.
+Действует только для фигур верхнего уровня.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
@@ -30,7 +30,7 @@ public bool BehindText { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart Accept metodo. Accetta un visitatore in C#.
+description: Scopri come il metodo StructuredDocumentTagRangeStart Accept migliora l'elaborazione dei documenti accettando in modo efficace i visitatori per un'integrazione perfetta.
 type: docs
-weight: 190
+weight: 200
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
 ## StructuredDocumentTagRangeStart.Accept method
@@ -26,9 +26,9 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
 ### Guarda anche
 

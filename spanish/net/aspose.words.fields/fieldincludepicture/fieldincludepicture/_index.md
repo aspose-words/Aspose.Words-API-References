@@ -3,7 +3,7 @@ title: FieldIncludePicture
 linktitle: FieldIncludePicture
 articleTitle: FieldIncludePicture
 second_title: Aspose.Words para .NET
-description: FieldIncludePicture constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldIncludePicture para una integración fluida de imágenes. ¡Desbloquee funciones mejoradas con nuestro constructor predeterminado hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldincludepicture/fieldincludepicture/

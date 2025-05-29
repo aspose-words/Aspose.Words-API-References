@@ -2,15 +2,15 @@
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 linktitle: AddSpaceBetweenFarEastAndAlpha
 articleTitle: AddSpaceBetweenFarEastAndAlpha
-second_title: Aspose.Words for .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha mülk. Geçerli paragraftaki Latin metninin bölgeleri ile Doğu Asya metninin bölgeleri arasında karakterler arası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir işaret alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha özelliğiyle belgenizin görünümünü en iyi duruma getirin ve Latin ve Doğu Asya metinleri arasındaki boşlukları artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-Geçerli paragraftaki Latin metninin bölgeleri ile Doğu Asya metninin bölgeleri arasında karakterler arası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir işaret alır veya ayarlar.
+Latin metin bölgeleri ile Doğu Asya metin bölgeleri arasındaki karakter aralığının otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -18,7 +18,7 @@ public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 
 ## Örnekler
 
-Belgeye nasıl paragraf ekleneceğini gösterir.
+Belgeye bir paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
-// ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
+// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// ve ardından yeni bir satır başlatır ve yeni bir paragraf ekler.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

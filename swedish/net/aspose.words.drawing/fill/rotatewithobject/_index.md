@@ -3,14 +3,14 @@ title: Fill.RotateWithObject
 linktitle: RotateWithObject
 articleTitle: RotateWithObject
 second_title: Aspose.Words för .NET
-description: Fill RotateWithObject fast egendom. Hämtar eller ställer in om fyllningen roterar med det angivna objektet i C#.
+description: Hantera egenskapen RotateWithObject för att kontrollera om fyllningen roterar med ditt objekt. Öka din designflexibilitet och precision utan ansträngning!
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
 
-Hämtar eller ställer in om fyllningen roterar med det angivna objektet.
+Hämtar eller anger om fyllningen roterar med det angivna objektet.
 
 ```csharp
 public bool RotateWithObject { get; set; }

@@ -2,8 +2,8 @@
 title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSubject Text 财产. 获取或设置主题的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松管理 FieldSubject Text 属性 - 获取或设置主题文本，实现无缝数据处理和增强用户体验。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldsubject/text/
@@ -18,7 +18,7 @@ public string Text { get; set; }
 
 ## 例子
 
-演示如何使用 SUBJECT 字段。
+显示如何使用 SUBJECT 字段。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
 // 如果我们给出 SUBJECT 字段的 Text 属性值并更新它，该字段将
-// 用 Text 属性的值覆盖“Subject”内置属性的当前值，
+// 用其 Text 属性的值覆盖“Subject”内置属性的当前值，
 // 然后显示新值。
 field.Text = "My new subject";
 field.Update();

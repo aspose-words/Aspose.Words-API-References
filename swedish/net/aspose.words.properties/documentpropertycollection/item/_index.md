@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: DocumentPropertyCollection Item fast egendom. Returnerar enDocumentProperty objekt efter egenskapens namn i C#.
+description: Få enkel åtkomst till DocumentProperty-objekt med vårt DocumentPropertyCollection-objekt. Hämta egenskaper efter namn för smidig dokumenthantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Returnerar en[`DocumentProperty`](../../documentproperty/) objekt efter egenskapens namn.
+Returnerar en[`DocumentProperty`](../../documentproperty/) objekt med egenskapens namn.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -18,22 +18,22 @@ public virtual DocumentProperty this[string name] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| name | Det skiftlägesokänsliga namnet på egendomen som ska hämtas. |
+| name | Det skiftlägeskänsliga namnet på den egenskap som ska hämtas. |
 
 ## Anmärkningar
 
-Returnerar`null` om en egenskap med det angivna namnet inte hittas.
+Returer`null` om en egenskap med det angivna namnet inte hittas.
 
 ## Exempel
 
-Visar hur man skapar en anpassad dokumentegenskap som innehåller ett datum och en tid.
+Visar hur man skapar en anpassad dokumentegenskap som innehåller datum och tid.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### Se även
@@ -47,7 +47,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Returnerar en[`DocumentProperty`](../../documentproperty/) objekt efter index.
+Returnerar en[`DocumentProperty`](../../documentproperty/) objekt av index.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -64,7 +64,7 @@ Visar hur man arbetar med anpassade dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Varje dokument innehåller en samling anpassade egenskaper, som, liksom de inbyggda egenskaperna, är nyckel-värdepar.
+// Varje dokument innehåller en samling anpassade egenskaper, vilka, liksom de inbyggda egenskaperna, är nyckel-värde-par.
  // Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 

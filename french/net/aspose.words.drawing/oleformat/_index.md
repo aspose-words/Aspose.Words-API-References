@@ -3,16 +3,16 @@ title: OleFormat Class
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.OleFormat classe. Permet daccéder aux données dun objet OLE ou dun contrôle ActiveX en C#.
+description: Découvrez la classe Aspose.Words.Drawing.OleFormat pour un accès transparent aux objets OLE et aux contrôles ActiveX, améliorant ainsi vos capacités de traitement de documents.
 type: docs
-weight: 1150
+weight: 1530
 url: /fr/net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
 
-Permet d'accéder aux données d'un objet OLE ou d'un contrôle ActiveX.
+Fournit l'accès aux données d'un objet OLE ou d'un contrôle ActiveX.
 
-Pour en savoir plus, visitez le[Travailler avec des objets Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des objets Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) article de documentation.
 
 ```csharp
 public class OleFormat
@@ -25,11 +25,11 @@ public class OleFormat
 | [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Spécifie si le lien vers l'objet OLE est automatiquement mis à jour ou non dans Microsoft Word. |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Obtient le CLSID de l'objet OLE. |
 | [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Obtient la légende de l'icône de l'objet OLE. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Retours`vrai` si l'objet OLE est lié (quand[`SourceFullName`](./sourcefullname/) est spécifié). |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Retours`vrai` si l'objet OLE est lié (lorsque[`SourceFullName`](./sourcefullname/) est spécifié). |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Spécifie si le lien vers l'objet OLE est verrouillé contre les mises à jour. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Obtient[`OleControl`](./olecontrol/) objets si cet objet OLE est un contrôle ActiveX. Sinon cette propriété est null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Obtient l'aspect dessin de l'objet OLE. Quand`vrai` , l'objet OLE s'affiche sous forme d'icône. Lorsque`FAUX` , l'objet OLE s'affiche sous la forme content. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Donner accès à[`OlePackage`](../olepackage/) si l'objet OLE est un package OLE. `nul` sinon. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Obtient[`OleControl`](./olecontrol/) objets si cet objet OLE est un contrôle ActiveX. Sinon, cette propriété est nulle. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Obtient l'aspect de dessin de l'objet OLE. Lorsque`vrai` l'objet OLE s'affiche sous forme d'icône. Lorsque`FAUX` , l'objet OLE est affiché comme contenu. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Fournir l'accès à[`OlePackage`](../olepackage/) si l'objet OLE est un package OLE. Renvoie`nul` sinon. |
 | [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Obtient ou définit le ProgID de l'objet OLE. |
 | [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Obtient ou définit le chemin et le nom du fichier source de l'objet OLE lié. |
 | [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Obtient ou définit une chaîne utilisée pour identifier la partie du fichier source qui est liée. |
@@ -40,18 +40,18 @@ public class OleFormat
 
 | Nom | La description |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Obtient la saisie des données de l'objet OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Obtient l'entrée de données de l'objet OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Obtient les données brutes de l'objet OLE. |
 | [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Enregistre les données de l'objet incorporé dans le flux spécifié. |
 | [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Enregistre les données de l'objet incorporé dans un fichier portant le nom spécifié. |
 
 ## Remarques
 
-Utilisez le[`OleFormat`](../shape/oleformat/)propriété pour accéder aux données d'un objet OLE. Vous ne créez pas d'instances du`OleFormat` classe directement.
+Utilisez le[`OleFormat`](../shape/oleformat/) propriété pour accéder aux données d'un objet OLE. Vous ne créez pas d'instances de la`OleFormat` classe directement.
 
 ## Exemples
 
-Montre comment extraire des objets OLE incorporés dans des fichiers.
+Montre comment extraire des objets OLE intégrés dans des fichiers.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -67,7 +67,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Si nous prévoyons d'enregistrer l'objet OLE dans un fichier du système de fichiers local,
-// nous pouvons utiliser la propriété "SuggestedExtension" pour déterminer quelle extension de fichier appliquer au fichier.
+// nous pouvons utiliser la propriété « SuggestedExtension » pour déterminer quelle extension de fichier appliquer au fichier.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Vous trouverez ci-dessous deux manières d'enregistrer un objet OLE dans un fichier du système de fichiers local.
@@ -77,7 +77,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement sous un nom de fichier :
+// 2 - Enregistrez-le directement dans un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

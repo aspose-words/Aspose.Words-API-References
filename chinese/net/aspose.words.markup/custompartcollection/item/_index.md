@@ -2,8 +2,8 @@
 title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection Item 财产. 获取或设置指定索引处的项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的 item 属性轻松管理您的 CustomPartCollection。快速获取或设置任意索引项，实现无缝定制，提升效率。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/custompartcollection/item/
@@ -18,11 +18,11 @@ public CustomPart this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 项目的从零开始的索引。 |
+| index | 该项目的从零开始的索引。 |
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

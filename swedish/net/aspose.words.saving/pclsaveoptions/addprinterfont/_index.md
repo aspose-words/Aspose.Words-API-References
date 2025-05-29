@@ -3,7 +3,7 @@ title: PclSaveOptions.AddPrinterFont
 linktitle: AddPrinterFont
 articleTitle: AddPrinterFont
 second_title: Aspose.Words för .NET
-description: PclSaveOptions AddPrinterFont metod. Lägger till information om teckensnitt som laddas upp till skrivaren av tillverkaren i C#.
+description: Upptäck PclSaveOptions AddPrinterFont-metoden för att effektivt ladda upp och hantera skrivarfonter från tillverkare för förbättrad utskriftsprestanda.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/pclsaveoptions/addprinterfont/
@@ -19,15 +19,15 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fontFullName | String | Typsnittets fullständiga namn (t.ex. "Times New Roman Bold Italic"). |
-| fontPclName | String | Namn på typsnittet som används i Pcl-dokument. |
+| fontPclName | String | Namn på teckensnittet som används i Pcl-dokumentet. |
 
 ## Anmärkningar
 
-Det finns 52 typsnitt som ska byggas in i vilken skrivare som helst enligt Pcl-specifikationen. Tillverkarna kan dock lägga till några andra typsnitt till sina enheter.
+Det finns 52 teckensnitt som ska byggas in i alla skrivare enligt Pcl-specifikationen. Tillverkare kan dock lägga till andra teckensnitt i sina enheter.
 
 ## Exempel
 
-Visar hur man får en skrivare att ersätta alla instanser av ett specifikt teckensnitt med ett annat teckensnitt.
+Visar hur man får en skrivare att ersätta alla förekomster av ett specifikt teckensnitt med ett annat teckensnitt.
 
 ```csharp
 Document doc = new Document();
@@ -39,8 +39,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// När du skriver ut detta dokument kommer skrivaren att använda teckensnittet "Courier New".
-// för att komma åt platser där vårt dokument använde typsnittet "Courier".
+// När detta dokument skrivs ut använder skrivaren teckensnittet "Courier New"
+// för att komma åt platser där vårt dokument använde teckensnittet "Courier".
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

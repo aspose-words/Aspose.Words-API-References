@@ -2,15 +2,15 @@
 title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
-second_title: Aspose.Words for .NET
-description: StreamFontSource OpenFontDataStream yöntem. Bu yöntem akışı isteğe bağlı olarak yazı tipi verileriyle açmalıdır C#'da.
+second_title: .NET için Aspose.Words
+description: İsteğe bağlı olarak yazı tipi veri akışlarına verimli bir şekilde erişmek ve tasarım iş akışınızı geliştirmek için StreamFontSource OpenFontDataStream yöntemini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method
 
-Bu yöntem, akışı isteğe bağlı olarak yazı tipi verileriyle açmalıdır.
+Bu yöntem, akışı talep üzerine yazı tipi verileriyle açmalıdır.
 
 ```csharp
 public abstract Stream OpenFontDataStream()
@@ -22,11 +22,11 @@ Yazı tipi veri akışı.
 
 ## Notlar
 
-Yayın okunduktan sonra kapatılacak. Açıkça kapatmanıza gerek yoktur.
+Akış okunduktan sonra kapatılacak. Açıkça kapatılmasına gerek yok.
 
 ## Örnekler
 
-Akıştan yazı tiplerinin nasıl yükleneceğini gösterir.
+Yazı tiplerinin akıştan nasıl yükleneceğini gösterir.
 
 ```csharp
 public void StreamFontSourceFileRendering()
@@ -43,8 +43,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm ömrü boyunca.
+/// Font verilerini hafızada saklamak yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm yaşam süresi boyunca.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

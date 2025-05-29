@@ -3,16 +3,16 @@ title: WebExtension Class
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words per .NET
-description: Aspose.Words.WebExtensions.WebExtension classe. Rappresenta un oggetto estensione web in C#.
+description: Scopri la classe Aspose.Words.WebExtensions.WebExtension, la soluzione ideale per creare estensioni web dinamiche nei documenti. Migliora le funzionalità senza sforzo!
 type: docs
-weight: 6740
+weight: 7590
 url: /it/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
 
 Rappresenta un oggetto estensione web.
 
-Per saperne di più, visita il[Lavora con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
 
 ```csharp
 public class WebExtension
@@ -27,11 +27,11 @@ public class WebExtension
 | [Id](../../aspose.words.webextensions/webextension/id/) { get; set; } | Identifica in modo univoco l'istanza dell'estensione web nel documento corrente. |
 | [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen/) { get; set; } | Specifica se l'utente può interagire o meno con l'estensione web. |
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Rappresenta un insieme di proprietà personalizzate dell'estensione web. |
-| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Specifica il riferimento principale a un'estensione web. |
+| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Specifica il riferimento primario a un'estensione web. |
 
 ## Esempi
 
-Mostra come aggiungere un'estensione Web a un documento.
+Mostra come aggiungere un'estensione web a un documento.
 
 ```csharp
 Document doc = new Document();
@@ -45,13 +45,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// Se sono presenti più riquadri attività nella stessa posizione di ancoraggio, è possibile impostare questo indice per organizzarli.
+// Se ci sono più riquadri attività nella stessa posizione di ancoraggio, possiamo impostare questo indice per disporli.
 myScriptTaskPane.Row = 1;
 
-// Crea un componente aggiuntivo chiamato "MyScript Math Sample", all'interno del quale verrà visualizzato il riquadro attività.
+// Crea un componente aggiuntivo denominato "MyScript Math Sample", che verrà visualizzato nel riquadro delle attività.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Imposta i parametri di riferimento dell'archivio applicazioni per il nostro componente aggiuntivo, come l'ID.
+// Imposta i parametri di riferimento dell'app store per il nostro componente aggiuntivo, come l'ID.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -59,16 +59,43 @@ webExtension.Reference.Store = CultureInfo.CurrentCulture.Name;
 webExtension.Properties.Add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
 webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindingType.Text, "104380646"));
 
-// Consentire all'utente di interagire con il componente aggiuntivo.
+// Consenti all'utente di interagire con il componente aggiuntivo.
 webExtension.IsFrozen = false;
 
-// Possiamo accedere all'estensione web in Microsoft Word tramite Developer -> Componenti aggiuntivi.
+// Possiamo accedere all'estensione web in Microsoft Word tramite Sviluppatore -> Componenti aggiuntivi.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Rimuovi tutti i riquadri attività delle estensioni Web contemporaneamente in questo modo.
+// Rimuovi tutti i riquadri attività dell'estensione web in una volta sola, in questo modo.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Guarda anche

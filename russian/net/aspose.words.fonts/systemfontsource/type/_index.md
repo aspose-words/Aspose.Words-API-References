@@ -3,7 +3,7 @@ title: SystemFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: SystemFontSource Type свойство. Возвращает тип источника шрифта на С#.
+description: Откройте для себя свойство SystemFontSource Type, легко получайте доступ и идентифицируйте типы источников шрифтов для улучшения вашего веб-дизайна и пользовательского опыта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/systemfontsource/type/
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -67,6 +67,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

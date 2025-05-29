@@ -3,9 +3,9 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words für .NET
-description: Section DeleteHeaderFooterShapes methode. Löscht alle Formen Zeichenobjekte aus den Kopf und Fußzeilen dieses Abschnitts in C#.
+description: Entfernen Sie mühelos alle Zeichnungsformen aus Abschnittskopf- und -fußzeilen mit der Methode „DeleteHeaderFooterShapes“, um eine übersichtlichere Dokumentdarstellung zu erzielen.
 type: docs
-weight: 120
+weight: 140
 url: /de/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -24,18 +24,18 @@ Zeigt, wie alle Formen aus allen Kopf- und Fußzeilen in einem Abschnitt entfern
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstelle einen primären Header mit einer Form.
+// Erstellen Sie eine primäre Kopfzeile mit einer Form.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// Erstelle eine primäre Fußzeile mit einem Bild.
+// Erstellen Sie eine primäre Fußzeile mit einem Bild.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// Alle Formen aus den Kopf- und Fußzeilen im ersten Abschnitt entfernen.
+// Entfernen Sie alle Formen aus den Kopf- und Fußzeilen im ersten Abschnitt.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

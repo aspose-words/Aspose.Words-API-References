@@ -3,7 +3,7 @@ title: DocumentProperty.IsLinkToContent
 linktitle: IsLinkToContent
 articleTitle: IsLinkToContent
 second_title: Aspose.Words für .NET
-description: DocumentProperty IsLinkToContent eigendom. Zeigt an ob diese Eigenschaft mit Inhalt verknüpft ist oder nicht in C#.
+description: Ermitteln Sie, ob die Eigenschaft „IsLinkToContent“ von DocumentProperty eine Verbindung zum Inhalt herstellt. Verbessern Sie Ihren Workflow mit nahtlosen Dokumentenmanagementlösungen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -28,8 +28,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen verknüpfen. Der Wert dieser Immobilie
-// ist der Inhalt des Lesezeichens, auf das es im Mitglied „LinkSource“ verweist.
+// Verknüpfen Sie eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen. Der Wert dieser Eigenschaft
+// wird der Inhalt des Lesezeichens sein, auf das im Mitglied „LinkSource“ verwiesen wird.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

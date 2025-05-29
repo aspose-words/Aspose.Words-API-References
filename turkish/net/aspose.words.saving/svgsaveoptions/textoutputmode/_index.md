@@ -2,15 +2,15 @@
 title: SvgSaveOptions.TextOutputMode
 linktitle: TextOutputMode
 articleTitle: TextOutputMode
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions TextOutputMode mülk. Metnin SVGde nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş görsel kalite ve özelleştirme için SVG'de metin oluşturmayı kontrol eden SvgSaveOptions TextOutputMode özelliğini keşfedin. Grafiklerinizi bugün optimize edin!
 type: docs
-weight: 90
+weight: 120
 url: /tr/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-Metnin SVG'de nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar.
+Metnin SVG'de nasıl işleneceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -18,18 +18,18 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ## Notlar
 
-SVG formatında kaydederken bir belge içindeki metnin nasıl render olması gerektiğine ilişkin modu almak veya ayarlamak için bu özelliği kullanın.
+Bu özelliği, bir belgenin içindeki metnin SVG biçiminde kaydedilirken nasıl rendered olacağını belirlemek veya almak için kullanın.
 
 Varsayılan değer:UseTargetMachineFonts.
 
 ## Örnekler
 
-Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
+.docx belgesini .svg'ye dönüştürürken görsellerin özelliklerinin nasıl taklit edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// SvgSaveOptions nesnesini, sayfa kenarlıkları veya seçilebilir metin olmadan kaydedilecek şekilde yapılandırın.
+// SvgSaveOptions nesnesini sayfa kenarlıkları veya seçilebilir metin olmadan kaydedecek şekilde yapılandırın.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

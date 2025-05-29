@@ -3,14 +3,14 @@ title: TableStyle.ColumnStripe
 linktitle: ColumnStripe
 articleTitle: ColumnStripe
 second_title: Aspose.Words för .NET
-description: TableStyle ColumnStripe fast egendom. Hämtar eller ställer in ett antal kolumner som ska inkluderas i bandningen när stilen anger udda/jämna kolumner i C#.
+description: Upptäck egenskapen TableStyle ColumnStripe för att enkelt anpassa udda/jämna kolumnband för ett polerat och professionellt utseende i dina tabeller.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property
 
-Hämtar eller ställer in ett antal kolumner som ska inkluderas i bandningen när stilen anger udda/jämna kolumner.
+Hämtar eller anger ett antal kolumner som ska inkluderas i bandningen när stilen anger bandning för udda/jämna kolumner.
 
 ```csharp
 public int ColumnStripe { get; set; }
@@ -18,7 +18,7 @@ public int ColumnStripe { get; set; }
 
 ## Exempel
 
-Visar hur man skapar villkorliga tabellstilar som växlar mellan rader.
+Visar hur man skapar villkorliga tabellformat som växlar mellan rader.
 
 ```csharp
 Document doc = new Document();
@@ -26,9 +26,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vi kan konfigurera en villkorlig stil för en tabell för att tillämpa en annan färg på raden/kolumnen,
 // baserat på om raden/kolumnen är jämn eller udda, vilket skapar ett alternerande färgmönster.
-// Vi kan också använda ett nummer n på rad-/kolumnbandet,
-// betyder att färgen växlar efter var n:e rad/kolumn istället för en.
-// Skapa en tabell där enstaka kolumner och rader kommer att banda kolumnerna i tre band.
+// Vi kan också tillämpa ett tal n på rad-/kolumnbandningen,
+// vilket betyder att färgen alternerar efter var n:te rad/kolumn istället för en.
+// Skapa en tabell där enskilda kolumner och rader är uppdelade i band, kolumnerna är uppdelade i tre.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -42,7 +42,7 @@ for (int i = 0; i < 15; i++)
 }
 builder.EndTable();
 
-// Tillämpa en linjestil på tabellens alla kanter.
+// Använd en linjestil på alla tabellens kanter.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
@@ -52,17 +52,17 @@ tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Ställ in en färg som ska tillämpas på varje jämn kolumn, vilket kommer att åsidosätta alla anpassade radfärger.
+// Ange en färg som ska tillämpas på varje jämn kolumn, vilket åsidosätter eventuell anpassad radfärgning.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// Egenskapen "StyleOptions" aktiverar radband som standard.
+// Egenskapen "StyleOptions" aktiverar radbandning som standard.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Använd egenskapen "StyleOptions" också för att aktivera kolumnband.
+// Använd även egenskapen "StyleOptions" för att aktivera kolumnbandning.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

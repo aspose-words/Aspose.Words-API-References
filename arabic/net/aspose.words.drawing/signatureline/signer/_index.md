@@ -3,14 +3,14 @@ title: SignatureLine.Signer
 linktitle: Signer
 articleTitle: Signer
 second_title: Aspose.Words لـ .NET
-description: SignatureLine Signer ملكية. الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
+description: حسّن مستنداتك باستخدام خاصية SignatureLine Signer. حدّد بسهولة مُوقّعين مُقترحين لخطوط التوقيع، مما يُبسّط عملية التوقيع لديك دون عناء.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
+يحصل على أو يعين الموقع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ).
 
 ```csharp
 public string Signer { get; set; }
@@ -35,11 +35,11 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// قم بإدراج شكل يحتوي على سطر التوقيع، وسنقوم بمظهره
-// التخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
-// إذا قمنا بإدراج شكل تقع إحداثياته في الركن الأيمن السفلي من الصفحة،
-// سنحتاج إلى توفير إحداثيات x وy السالبة لعرض الشكل.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// أدخل شكلاً سيحتوي على خط توقيع، والذي سنحدد مظهره
+// قم بالتخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
+// إذا قمنا بإدراج شكل تنشأ إحداثياته في الزاوية اليمنى السفلية من الصفحة،
+// سوف نحتاج إلى توفير إحداثيات x و y سلبية لإظهار الشكل.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);

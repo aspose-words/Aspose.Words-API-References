@@ -3,14 +3,14 @@ title: CompositeNode.SelectSingleNode
 linktitle: SelectSingleNode
 articleTitle: SelectSingleNode
 second_title: Aspose.Words для .NET
-description: CompositeNode SelectSingleNode метод. Выбирает первыйNode которое соответствует выражению XPath на С#.
+description: Узнайте, как метод SelectSingleNode класса CompositeNode эффективно извлекает первый узел, соответствующий вашему выражению XPath, для оптимизированной обработки данных.
 type: docs
-weight: 200
+weight: 220
 url: /ru/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
 
-Выбирает первый[`Node`](../../node/) которое соответствует выражению XPath.
+Выбирает первый[`Node`](../../node/) что соответствует выражению XPath.
 
 ```csharp
 public Node SelectSingleNode(string xpath)
@@ -26,7 +26,7 @@ public Node SelectSingleNode(string xpath)
 
 ## Примечания
 
-На данный момент поддерживаются только выражения с именами элементов. Выражения , использующие имена атрибутов, не поддерживаются.
+В данный момент поддерживаются только выражения с именами элементов. Выражения , использующие имена атрибутов, не поддерживаются.
 
 ## Примеры
 
@@ -39,20 +39,20 @@ Document doc = new Document(MyDir + "Tables.docx");
 // которые являются потомками любого узла таблицы в документе.
 NodeList nodeList = doc.SelectNodes("//Таблица//Абзац");
 
-// Перебираем список с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
+// Проходим по списку с помощью перечислителя и выводим содержимое каждого абзаца в каждой ячейке таблицы.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Это выражение выберет любые абзацы, которые являются прямыми дочерними элементами любого узла Body в документе.
+// Это выражение выберет все абзацы, которые являются прямыми дочерними элементами любого узла Body в документе.
 nodeList = doc.SelectNodes("//Тело/Абзац");
 
 // Мы можем рассматривать список как массив.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Используйте SelectSingleNode, чтобы выбрать первый результат того же выражения, что и выше.
+// Используйте SelectSingleNode для выбора первого результата того же выражения, что и выше.
 Node node = doc.SelectSingleNode("//Тело/Абзац");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

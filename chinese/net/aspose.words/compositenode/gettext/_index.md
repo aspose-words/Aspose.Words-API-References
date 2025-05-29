@@ -2,10 +2,10 @@
 title: CompositeNode.GetText
 linktitle: GetText
 articleTitle: GetText
-second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode GetText 方法. 获取此节点及其所有子节点的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CompositeNode GetText 方法，以有效地从节点及其子节点检索文本，增强您的数据处理能力。
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -31,13 +31,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText 将检索可见文本以及字段代码和特殊字符。
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
 // 如果保存为传递的保存格式，ToString 将为我们提供文档的外观。
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-演示如何输出文档中作为列表项的所有段落。
+展示如何输出文档中所有列表项的段落。
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

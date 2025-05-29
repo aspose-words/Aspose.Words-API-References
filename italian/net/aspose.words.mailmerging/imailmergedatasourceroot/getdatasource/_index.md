@@ -3,7 +3,7 @@ title: IMailMergeDataSourceRoot.GetDataSource
 linktitle: GetDataSource
 articleTitle: GetDataSource
 second_title: Aspose.Words per .NET
-description: IMailMergeDataSourceRoot GetDataSource metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di unarea di stampa unione di livello superiore in C#.
+description: Sblocca l'unione di email senza interruzioni con Aspose.Words! Scopri come il metodo GetDataSource di IMailMergeDataSourceRoot migliora il processo di automazione dei documenti.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -18,26 +18,26 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| tableName | String | Il nome dell'area di stampa unione come specificato nel documento modello. Senza distinzione tra maiuscole e minuscole. |
+| tableName | String | Nome dell'area di stampa unione come specificato nel documento modello. Non distingue tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-Un oggetto origine dati che fornirà l'accesso ai record di dati della tabella specificata.
+Un oggetto sorgente dati che fornirà l'accesso ai record di dati della tabella specificata.
 
 ## Osservazioni
 
-Quando i motori di stampa unione Aspose.Words popolano un documento con dati e incontrano MERGEFIELD TableStart:TableName, invoca`GetDataSource` su questo oggetto. La tua implementazione deve restituire un nuovo oggetto origine dati. Aspose.Words utilizzerà l'origine dati restituita per popolare la regione di stampa unione.
+Quando i motori di stampa unione Aspose.Words popolano un documento con dati e incontrano MERGEFIELD TableStart:TableName, richiama`GetDataSource` Su questo oggetto. L'implementazione deve restituire un nuovo oggetto sorgente dati. Aspose.Words utilizzerà la sorgente dati restituita per popolare l'area di stampa unione.
 
-Se un'origine dati (tabella) con il nome specificato non esiste, l'implementazione dovrebbe restituire`nullo` .
+Se un'origine dati (tabella) con il nome specificato non esiste, l'implementazione dovrebbe restituire`null` .
 
 ## Esempi
 
-Esegue la stampa unione da un'origine dati personalizzata con dati master-dettagli.
+Esegue la stampa unione da un'origine dati personalizzata con dati master-detail.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Crea un documento con due regioni di stampa unione denominate "Washington" e "Seattle".
+    // Crea un documento con due aree di stampa unione denominate "Washington" e "Seattle".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
@@ -50,15 +50,15 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Registra le nostre origini dati per nome in una radice dell'origine dati.
-    // Se stiamo per utilizzare questa radice dell'origine dati in una stampa unione con regioni,
-    // il nome registrato di ciascuna origine deve corrispondere al nome di un'area di stampa unione esistente nel documento di origine della stampa unione.
+    // Registra le nostre fonti dati in base al nome in una radice della fonte dati.
+    // Se stiamo per utilizzare questa radice di origine dati in una stampa unione con regioni,
+    // il nome registrato di ogni origine deve corrispondere al nome di un'area di stampa unione esistente nel documento di origine della stampa unione.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Dato che abbiamo regioni di stampa unione consecutive, normalmente dovremmo eseguire due stampe unione.
-    // Tuttavia, un'origine di stampa unione con una radice di dati può riempire più regioni
+    // Poiché abbiamo aree di stampa unione consecutive, normalmente dovremmo eseguire due stampe unione.
+    // Tuttavia, un'origine di stampa unione con una radice dati può riempire più regioni
     // se la radice contiene tabelle con nomi/nomi di colonna corrispondenti.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
@@ -66,7 +66,7 @@ public void CustomDataSourceRoot()
 }
 
 /// <summary>
-/// Crea un documento che contenga regioni di stampa unione consecutive, con nomi designati dall'array di input,
+/// Crea un documento che contiene aree di unione di stampa consecutive, con nomi designati dalla matrice di input,
 /// per una tabella dati dei dipendenti.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -115,9 +115,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Radice dell'origine dati che può essere passata direttamente a una stampa unione che può registrare e contenere molte origini dati secondarie.
-/// Queste origini devono tutte implementare IMailMergeDataSource e sono registrate e differenziate da un nome
-/// che corrisponde a una regione di stampa unione che leggerà i rispettivi dati.
+/// Radice della fonte dati che può essere passata direttamente in una stampa unione che può registrare e contenere molte fonti dati secondarie.
+/// Tutte queste fonti devono implementare IMailMergeDataSource e sono registrate e differenziate da un nome
+/// che corrisponde a un'area di stampa unione che leggerà i rispettivi dati.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -137,7 +137,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// Origine dati di stampa unione personalizzata.
+/// Origine dati per la stampa unione personalizzata.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -169,7 +169,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo quando si esegue la stampa unione con aree ripetibili.
     /// </summary>
     public string TableName
     {
@@ -198,7 +198,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le origini dati secondarie sono per le stampe unione nidificate.
+    /// Le origini dati figlio sono per le unioni di posta nidificate.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {

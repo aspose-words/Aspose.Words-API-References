@@ -3,14 +3,14 @@ title: ChartAxis.MajorUnit
 linktitle: MajorUnit
 articleTitle: MajorUnit
 second_title: Aspose.Words für .NET
-description: ChartAxis MajorUnit eigendom. Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis MajorUnit“, um den Abstand der Hauptmarkierungen einfach anzupassen und so die Datenvisualisierung und Diagrammübersichtlichkeit zu verbessern.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
 
-Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest.
+Gibt den Abstand zwischen den Hauptmarkierungen zurück oder legt ihn fest.
 
 ```csharp
 public double MajorUnit { get; set; }
@@ -18,13 +18,13 @@ public double MajorUnit { get; set; }
 
 ## Bemerkungen
 
-Der gültige Bereich eines Werts ist größer als Null. Die Eigenschaft wirkt sich auf die Zeitkategorie- und -Werteachsen aus.
+Der gültige Wertebereich ist größer als Null. Die Eigenschaft wirkt sich auf Zeitkategorien- und -Werteachsen aus.
 
-Durch das Festlegen dieser Eigenschaft wird die festgelegt[`MajorUnitIsAuto`](../majorunitisauto/) Eigentum zu`FALSCH`.
+Durch das Setzen dieser Eigenschaft wird die[`MajorUnitIsAuto`](../majorunitisauto/) Eigentum zu`FALSCH`.
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -51,10 +51,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -64,7 +66,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

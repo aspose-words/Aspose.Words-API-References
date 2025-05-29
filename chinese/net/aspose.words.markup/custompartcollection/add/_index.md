@@ -2,15 +2,15 @@
 title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection Add 方法. 将项目添加到集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 CustomPartCollection Add 方法轻松增强您的项目 - 快速将项目添加到您的收藏中，实现无缝集成和效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompartcollection/add/
 ---
 ## CustomPartCollection.Add method
 
-将项目添加到集合中。
+将项目添加到集合。
 
 ```csharp
 public void Add(CustomPart part)
@@ -22,7 +22,7 @@ public void Add(CustomPart part)
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

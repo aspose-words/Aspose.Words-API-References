@@ -3,7 +3,7 @@ title: AxisDisplayUnit
 linktitle: AxisDisplayUnit
 articleTitle: AxisDisplayUnit
 second_title: Aspose.Words для .NET
-description: AxisDisplayUnit строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор AxisDisplayUnit для бесшовной интеграции и улучшенной функциональности в ваших проектах. Откройте для себя мощные функции сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/axisdisplayunit/

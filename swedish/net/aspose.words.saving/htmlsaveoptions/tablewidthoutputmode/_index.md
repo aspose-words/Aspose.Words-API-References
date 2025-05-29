@@ -3,9 +3,9 @@ title: HtmlSaveOptions.TableWidthOutputMode
 linktitle: TableWidthOutputMode
 articleTitle: TableWidthOutputMode
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions TableWidthOutputMode fast egendom. Styr hur tabell rad och cellbredder exporteras till HTML MHTML eller EPUB. Standardvärdet ärAll  i C#.
+description: Optimera dina HTML-exporter med HtmlSaveOptions TableWidthOutputMode. Kontrollera rad- och cellbredder i tabeller för sömlös MHTML- och EPUB-formatering.
 type: docs
-weight: 460
+weight: 480
 url: /sv/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
@@ -18,21 +18,21 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ## Anmärkningar
 
-HTML-formatet, tabell-, rad- och cellelement (**&lt;tabell&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) kan ha sina bredder specificerade antingen i relativ (procent) eller i absoluta enheter. I ett dokument i Aspose. Words, tabeller, rader och celler kan ha sina bredder specificerade med antingen relativa eller absoluta enheter.
+HTML-formatet, tabell-, rad- och cellelement (**&lt;tabell&gt;** ,**&lt;tr&gt;** ,**&lt;e&gt;** ,**&lt;td&gt;**) kan få sina bredder angivna antingen i relativa (procent) eller i absoluta enheter. I ett dokument i Aspose. Ord, tabeller, rader och celler kan också få sina bredder angivna med antingen relativa eller absoluta enheter.
 
-När du konverterar ett dokument till HTML med Aspose.Words kanske du vill kontrollera hur tabell-, rad- och cellbredder exporteras för att påverka hur det resulterande dokumentet visas i den visuella agenten (t.ex. en webbläsare eller visningsprogram).
+När du konverterar ett dokument till HTML med Aspose.Words kanske du vill kontrollera hur tabell-, rad- och cellbredder exporteras för att påverka hur det resulterande dokumentet visas i den visuella agenten (t.ex. en webbläsare eller ett visningsprogram).
 
-Använd den här egenskapen som ett filter för att ange vilka tabellbreddsvärden som ska exporteras till måldokumentet. Om du till exempel konverterar ett dokument till EPUB och tänker visa dokumentet på en mobil läsenhet, vill du förmodligen undvika exporterar absoluta breddvärden. För att göra detta måste du ange utgångslägetRelativeOnly ellerNone så att tittaren på den mobila enheten kan layouta tabellen så att den passar skärmens bredd så bra som den kan.
+Använd den här egenskapen som ett filter för att ange vilka tabellbredder som exporteras till destinationsdokumentet. Om du till exempel konverterar ett dokument till EPUB och avser att visa dokumentet på en mobil läsenhet, vill du förmodligen undvika att exportera absoluta breddvärden. För att göra detta måste du ange utdataläget.RelativeOnly ellerNone så att tittaren på den mobila enheten kan utforma tabellen så att den passar skärmens bredd så bra som möjligt.
 
 ## Exempel
 
-Visar hur man bevarar negativa indrag i utdata .html.
+Visar hur man bevarar negativa indent i utdata-.html-filen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en tabell med ett negativt indrag, vilket kommer att skjuta den till vänster förbi den vänstra sidgränsen.
+// Infoga en tabell med ett negativt indrag, vilket flyttar den åt vänster förbi den vänstra sidgränsen.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Infoga en tabell med ett positivt indrag, vilket kommer att skjuta tabellen åt höger.
+// Infoga en tabell med ett positivt indrag, vilket flyttar tabellen åt höger.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -54,8 +54,8 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// När vi sparar ett dokument till HTML kommer Aspose.Words endast att bevara negativa indrag
-// som den vi har tillämpat på den första tabellen om vi ställer in flaggan "AllowNegativeIndent"
+// När vi sparar ett dokument till HTML, kommer Aspose.Words bara att bevara negativa indrag
+// som den vi har tillämpat på den första tabellen om vi sätter flaggan "AllowNegativeIndent"
 // i ett SaveOptions-objekt som vi skickar till "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

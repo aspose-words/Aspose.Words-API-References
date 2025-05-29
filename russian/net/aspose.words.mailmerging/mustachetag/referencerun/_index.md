@@ -3,14 +3,14 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words для .NET
-description: MustacheTag ReferenceRun свойство. Получает серию содержащую начало тега на С#.
+description: Откройте для себя MustacheTag ReferenceRun. Получите доступ к запуску, который отмечает начало вашего тега, для бесперебойного управления данными и повышения производительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mustachetag/referencerun/
 ---
 ## MustacheTag.ReferenceRun property
 
-Получает серию, содержащую начало тега.
+Получает прогон, содержащий начало тега.
 
 ```csharp
 public Run ReferenceRun { get; }
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## Примеры
 
-Показывает, как работать с тегами усов.
+Показывает, как работать с бирками-усами.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

@@ -3,9 +3,9 @@ title: MsWordVersion Enum
 linktitle: MsWordVersion
 articleTitle: MsWordVersion
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.MsWordVersion enumeración. Permite que Aspose.Wods imite el comportamiento de la aplicación específica de la versión de MS Word en C#.
+description: Descubra la enumeración Aspose.Words.Settings.MsWordVersion para replicar los comportamientos de MS Word, mejorando el procesamiento de documentos y la compatibilidad para flujos de trabajo fluidos.
 type: docs
-weight: 5860
+weight: 6690
 url: /es/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
@@ -20,14 +20,14 @@ public enum MsWordVersion
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Word2000 | `0` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2000. |
-| Word2002 | `1` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2002. |
-| Word2003 | `2` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2003. |
-| Word2007 | `3` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2007. |
-| Word2010 | `4` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2010. |
-| Word2013 | `5` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2013. |
-| Word2016 | `6` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2016. |
-| Word2019 | `7` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2019. |
+| Word2000 | `0` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2000. |
+| Word2002 | `1` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2002. |
+| Word2003 | `2` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2003. |
+| Word2007 | `3` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2007. |
+| Word2010 | `4` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2010. |
+| Word2013 | `5` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2013. |
+| Word2016 | `6` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2016. |
+| Word2019 | `7` | Optimizar el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2019. |
 
 ## Ejemplos
 
@@ -38,18 +38,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Este objeto contiene una lista extensa de indicadores únicos para cada documento
+    // Este objeto contiene una lista extensa de indicadores exclusivos de cada documento.
     // que nos permiten facilitar la compatibilidad con versiones anteriores de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Imprime la configuración predeterminada para un documento en blanco.
+    // Imprima la configuración predeterminada para un documento en blanco.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
+    //Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzadas" -> "Opciones de compatibilidad para...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
+    //Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -60,28 +60,97 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Agrupa todas las banderas en el objeto de opciones de compatibilidad de un documento por estado, luego imprime cada grupo.
+/// Agrupa todas las banderas en el objeto de opciones de compatibilidad de un documento por estado y luego imprime cada grupo.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {
-    for (int i = 1; i >= 0; i--)
-    {
-        Console.WriteLine(Convert.ToBoolean(i) ? "\tEnabled options:" : "\tDisabled options:");
-        SortedSet<string> optionNames = new SortedSet<string>();
+    IList<string> enabledOptions = new List<string>();
+    IList<string> disabledOptions = new List<string>();
+    AddOptionName(options.AdjustLineHeightInTable, "AdjustLineHeightInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.AlignTablesRowByRow, "AlignTablesRowByRow", enabledOptions, disabledOptions);
+    AddOptionName(options.AllowSpaceOfSameStyleInTable, "AllowSpaceOfSameStyleInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.ApplyBreakingRules, "ApplyBreakingRules", enabledOptions, disabledOptions);
+    AddOptionName(options.AutoSpaceLikeWord95, "AutoSpaceLikeWord95", enabledOptions, disabledOptions);
+    AddOptionName(options.AutofitToFirstFixedWidthCell, "AutofitToFirstFixedWidthCell", enabledOptions, disabledOptions);
+    AddOptionName(options.BalanceSingleByteDoubleByteWidth, "BalanceSingleByteDoubleByteWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.CachedColBalance, "CachedColBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.ConvMailMergeEsc, "ConvMailMergeEsc", enabledOptions, disabledOptions);
+    AddOptionName(options.DisableOpenTypeFontFormattingFeatures, "DisableOpenTypeFontFormattingFeatures", enabledOptions, disabledOptions);
+    AddOptionName(options.DisplayHangulFixedWidth, "DisplayHangulFixedWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotAutofitConstrainedTables, "DoNotAutofitConstrainedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakConstrainedForcedTable, "DoNotBreakConstrainedForcedTable", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakWrappedTables, "DoNotBreakWrappedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotExpandShiftReturn, "DoNotExpandShiftReturn", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotLeaveBackslashAlone, "DoNotLeaveBackslashAlone", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSnapToGridInCell, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressIndentation, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressParagraphBorders, "DoNotSuppressParagraphBorders", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseEastAsianBreakRules, "DoNotUseEastAsianBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseHTMLParagraphAutoSpacing, "DoNotUseHTMLParagraphAutoSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseIndentAsNumberingTabStop, "DoNotUseIndentAsNumberingTabStop", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignCellWithSp, "DoNotVertAlignCellWithSp", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignInTxbx, "DoNotVertAlignInTxbx", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotWrapTextWithPunct, "DoNotWrapTextWithPunct", enabledOptions, disabledOptions);
+    AddOptionName(options.FootnoteLayoutLikeWW8, "FootnoteLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ForgetLastTabAlignment, "ForgetLastTabAlignment", enabledOptions, disabledOptions);
+    AddOptionName(options.GrowAutofit, "GrowAutofit", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutRawTableWidth, "LayoutRawTableWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutTableRowsApart, "LayoutTableRowsApart", enabledOptions, disabledOptions);
+    AddOptionName(options.LineWrapLikeWord6, "LineWrapLikeWord6", enabledOptions, disabledOptions);
+    AddOptionName(options.MWSmallCaps, "MWSmallCaps", enabledOptions, disabledOptions);
+    AddOptionName(options.NoColumnBalance, "NoColumnBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.NoExtraLineSpacing, "NoExtraLineSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.NoLeading, "NoLeading", enabledOptions, disabledOptions);
+    AddOptionName(options.NoSpaceRaiseLower, "NoSpaceRaiseLower", enabledOptions, disabledOptions);
+    AddOptionName(options.NoTabHangInd, "NoTabHangInd", enabledOptions, disabledOptions);
+    AddOptionName(options.OverrideTableStyleFontSizeAndJustification, "OverrideTableStyleFontSizeAndJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintBodyTextBeforeHeader, "PrintBodyTextBeforeHeader", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintColBlack, "PrintColBlack", enabledOptions, disabledOptions);
+    AddOptionName(options.SelectFldWithFirstOrLastChar, "SelectFldWithFirstOrLastChar", enabledOptions, disabledOptions);
+    AddOptionName(options.ShapeLayoutLikeWW8, "ShapeLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ShowBreaksInFrames, "ShowBreaksInFrames", enabledOptions, disabledOptions);
+    AddOptionName(options.SpaceForUL, "SpaceForUL", enabledOptions, disabledOptions);
+    AddOptionName(options.SpacingInWholePoints, "SpacingInWholePoints", enabledOptions, disabledOptions);
+    AddOptionName(options.SplitPgBreakAndParaMark, "SplitPgBreakAndParaMark", enabledOptions, disabledOptions);
+    AddOptionName(options.SubFontBySize, "SubFontBySize", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressBottomSpacing, "SuppressBottomSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpBfAfterPgBrk, "SuppressSpBfAfterPgBrk", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpacingAtTopOfPage, "SuppressSpacingAtTopOfPage", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacing, "SuppressTopSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacingWP, "SuppressTopSpacingWP", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapBordersFacingPgs, "SwapBordersFacingPgs", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning, "SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning", enabledOptions, disabledOptions);
+    AddOptionName(options.TransparentMetafiles, "TransparentMetafiles", enabledOptions, disabledOptions);
+    AddOptionName(options.TruncateFontHeightsLikeWP6, "TruncateFontHeightsLikeWP6", enabledOptions, disabledOptions);
+    AddOptionName(options.UICompat97To2003, "UICompat97To2003", enabledOptions, disabledOptions);
+    AddOptionName(options.UlTrailSpace, "UlTrailSpace", enabledOptions, disabledOptions);
+    AddOptionName(options.UnderlineTabInNumList, "UnderlineTabInNumList", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAltKinsokuLineBreakRules, "UseAltKinsokuLineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAnsiKerningPairs, "UseAnsiKerningPairs", enabledOptions, disabledOptions);
+    AddOptionName(options.UseFELayout, "UseFELayout", enabledOptions, disabledOptions);
+    AddOptionName(options.UseNormalStyleForList, "UseNormalStyleForList", enabledOptions, disabledOptions);
+    AddOptionName(options.UsePrinterMetrics, "UsePrinterMetrics", enabledOptions, disabledOptions);
+    AddOptionName(options.UseSingleBorderforContiguousCells, "UseSingleBorderforContiguousCells", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2002TableStyleRules, "UseWord2002TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2010TableStyleRules, "UseWord2010TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord97LineBreakRules, "UseWord97LineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.WPJustification, "WPJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.WPSpaceWidth, "WPSpaceWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.WrapTrailSpaces, "WrapTrailSpaces", enabledOptions, disabledOptions);
+    Console.WriteLine("\tEnabled options:");
+    foreach (string optionName in enabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+    Console.WriteLine("\tDisabled options:");
+    foreach (string optionName in disabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+}
 
-        foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(options))
-        {
-            if (descriptor.PropertyType == Type.GetType("System.Boolean") && i == Convert.ToInt32(descriptor.GetValue(options)))
-            {
-                optionNames.Add(descriptor.Name);
-            }
-        }
-
-        foreach (string s in optionNames)
-        {
-            Console.WriteLine($"\t\t{s}");
-        }
-    }
+private static void AddOptionName(Boolean option, String optionName, IList<string> enabledOptions, IList<string> disabledOptions)
+{
+    if (option)
+        enabledOptions.Add(optionName);
+    else
+        disabledOptions.Add(optionName);
 }
 ```
 

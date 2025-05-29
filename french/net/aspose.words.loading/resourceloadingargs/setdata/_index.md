@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.SetData
 linktitle: SetData
 articleTitle: SetData
 second_title: Aspose.Words pour .NET
-description: ResourceLoadingArgs SetData méthode. Définit les données fournies par lutilisateur de la ressource qui est utilisée siResourceLoading renvoieUserProvided  en C#.
+description: Découvrez comment la méthode ResourceLoadingArgs SetData améliore l'expérience utilisateur en gérant efficacement les données des ressources pour des performances optimales.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

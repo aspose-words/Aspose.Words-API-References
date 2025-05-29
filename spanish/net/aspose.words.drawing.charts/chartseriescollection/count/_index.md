@@ -3,7 +3,7 @@ title: ChartSeriesCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: ChartSeriesCollection Count propiedad. Devuelve el número deChartSeries en esta colección en C#.
+description: Descubra la propiedad ChartSeriesCollection Count, que proporciona el número total de ChartSeries en su colección para una mejor visualización de datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Column, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Cada serie tiene cuatro valores decimales: uno para cada una de las cuatro categorías.
+//Cada serie tiene cuatro valores decimales: uno para cada una de las cuatro categorías.
 // Cuatro grupos de tres columnas representarán estos datos.
 ChartSeriesCollection chartData = chart.Series;
 
@@ -43,20 +43,20 @@ using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
     }
 }
 
-// Estos son los nombres de las categorías del gráfico.
+//Estos son los nombres de las categorías en el gráfico.
 string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" };
 
-// Podemos agregar una serie con nuevos valores para categorías existentes.
-// Este gráfico ahora contendrá cuatro grupos de cuatro columnas.
+//Podemos agregar una serie con nuevos valores para categorías existentes.
+//Este gráfico ahora contendrá cuatro grupos de cuatro columnas.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-// Una serie de gráficos también se puede eliminar por índice, como este.
-// Esto eliminará una de las tres series de demostración que vienen con el gráfico.
+//Una serie de gráficos también se puede eliminar por índice, de esta manera.
+// Esto eliminará una de las tres series de demostración que venían con el gráfico.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
 // También podemos borrar todos los datos del gráfico a la vez con este método.
 // Al crear un nuevo gráfico, esta es la forma de borrar todos los datos de demostración
-// antes de que podamos comenzar a trabajar en un gráfico en blanco.
+//antes de que podamos empezar a trabajar en un gráfico en blanco.
 chartData.Clear();
 ```
 

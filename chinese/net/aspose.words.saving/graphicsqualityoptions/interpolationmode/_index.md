@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.InterpolationMode
 linktitle: InterpolationMode
 articleTitle: InterpolationMode
-second_title: 用于 .NET 的 Aspose.Words
-description: GraphicsQualityOptions InterpolationMode 财产. 获取或设置与此 Graphics 关联的插值模式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GraphicsQualityOptions InterpolationMode 属性，轻松自定义图形的插值设置，以增强视觉质量。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-获取或设置与此 Graphics 关联的插值模式。
+获取或设置与此 Graphics 相关的插值模式。
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -18,7 +18,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ## 例子
 
-演示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

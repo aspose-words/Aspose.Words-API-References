@@ -3,7 +3,7 @@ title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
 second_title: Aspose.Words для .NET
-description: PageSetup BottomMargin свойство. Возвращает или задает расстояние в пунктах между нижним краем страницы и нижней границей основного текста на С#.
+description: Настройте макет документа с помощью свойства PageSetup BottomMargin, определяя расстояние между нижним краем страницы и основным текстом для оптимального представления.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/pagesetup/bottommargin/
@@ -18,7 +18,7 @@ public double BottomMargin { get; set; }
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();

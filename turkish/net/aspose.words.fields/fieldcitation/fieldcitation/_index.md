@@ -2,8 +2,8 @@
 title: FieldCitation
 linktitle: FieldCitation
 articleTitle: FieldCitation
-second_title: Aspose.Words for .NET
-description: FieldCitation inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Etkili atıf yönetimi için başvuracağınız çözüm olan FieldCitation oluşturucusunu keşfedin. Referanslama sürecinizi bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcitation/fieldcitation/

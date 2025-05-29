@@ -3,7 +3,7 @@ title: LoadOptions.IgnoreOleData
 linktitle: IgnoreOleData
 articleTitle: IgnoreOleData
 second_title: Aspose.Words per .NET
-description: LoadOptions IgnoreOleData proprietà. Specifica se ignorare i dati OLE in C#.
+description: Scopri come la proprietà IgnoreOleData di LoadOptions migliora la gestione dei dati consentendoti di controllare l'elaborazione dei dati OLE. Ottimizza il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 70
 url: /it/net/aspose.words.loading/loadoptions/ignoreoledata/
@@ -18,13 +18,13 @@ public bool IgnoreOleData { get; set; }
 
 ## Osservazioni
 
-Ignorare i dati OLE può ridurre il consumo di memoria e aumentare le prestazioni senza perdita di dati nel caso in cui il formato di destinazione non supporti gli oggetti OLE.
+Ignorando i dati OLE è possibile ridurre il consumo di memoria e aumentare le prestazioni senza perdita di dati nei casi in cui il formato di destinazione non supporti gli oggetti OLE.
 
 Il valore predefinito è`falso`.
 
 ## Esempi
 
-Mostra come inserire dati OLE durante il caricamento.
+Mostra come ignorare i dati OLE durante il caricamento.
 
 ```csharp
 // Ignorare i dati OLE può ridurre il consumo di memoria e aumentare le prestazioni

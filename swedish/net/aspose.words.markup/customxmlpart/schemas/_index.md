@@ -3,14 +3,14 @@ title: CustomXmlPart.Schemas
 linktitle: Schemas
 articleTitle: Schemas
 second_title: Aspose.Words för .NET
-description: CustomXmlPart Schemas fast egendom. Anger uppsättningen XMLscheman som är associerade med den här anpassade XMLdelen i C#.
+description: Upptäck egenskapen CustomXmlPart Schemas för att enkelt hantera XML-scheman länkade till dina anpassade XML-delar, vilket förbättrar dataorganisation och effektivitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/customxmlpart/schemas/
 ---
 ## CustomXmlPart.Schemas property
 
-Anger uppsättningen XML-scheman som är associerade med den här anpassade XML-delen.
+Anger den uppsättning XML-scheman som är associerade med denna anpassade XML-del.
 
 ```csharp
 public CustomXmlSchemaCollection Schemas { get; }
@@ -18,14 +18,14 @@ public CustomXmlSchemaCollection Schemas { get; }
 
 ## Exempel
 
-Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
+Visar hur man skapar en strukturerad dokumenttagg med anpassad XML-data.
 
 ```csharp
 Document doc = new Document();
 
 // Konstruera en XML-del som innehåller data och lägg till den i dokumentets samling.
 // Om vi aktiverar fliken "Utvecklare" i Microsoft Word,
-// vi kan hitta element från denna samling i "XML Mapping Pane", tillsammans med några standardelement.
+// vi kan hitta element från den här samlingen i "XML-mappningsrutan", tillsammans med några standardelement.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -33,8 +33,8 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Nedan finns två sätt att referera till XML-delar.
-// 1 - Genom ett index i den anpassade XML-delsamlingen:
+// Nedan följer två sätt att referera till XML-delar.
+// 1 - Av ett index i den anpassade XML-delsamlingen:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Av GUID:
@@ -62,16 +62,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Använd metoden "RemoveAt" för att ta bort den klonade delen efter index.
+// Använd metoden "RemoveAt" för att ta bort den klonade delen via index.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Klona XML-delsamlingen och använd sedan metoden "Rensa" för att ta bort alla dess element på en gång.
+// Klona XML-delsamlingen och använd sedan "Rensa"-metoden för att ta bort alla dess element på en gång.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Skapa en strukturerad dokumenttagg som visar vår dels innehåll och infoga den i dokumentets brödtext.
+// Skapa en strukturerad dokumenttagg som visar innehållet i vår del och infogar den i dokumentets brödtext.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

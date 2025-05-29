@@ -3,14 +3,14 @@ title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
 second_title: Aspose.Words för .NET
-description: BorderCollection Vertical fast egendom. Hämtar den vertikala gränsen som används mellan celler i C#.
+description: Upptäck egenskapen BorderCollection Vertical för sömlösa cellkanter. Förbättra din design med anpassningsbara vertikala kantlinjer för ett elegant utseende!
 type: docs
 weight: 130
 url: /sv/net/aspose.words/bordercollection/vertical/
 ---
 ## BorderCollection.Vertical property
 
-Hämtar den vertikala gränsen som används mellan celler.
+Hämtar den vertikala kantlinjen som används mellan celler.
 
 ```csharp
 public Border Vertical { get; }
@@ -18,7 +18,7 @@ public Border Vertical { get; }
 
 ## Exempel
 
-Visar hur man tillämpar inställningar på vertikala ramar på en tabellrads format.
+Visar hur man tillämpar inställningar på vertikala kantlinjer i en tabellrads format.
 
 ```csharp
 Document doc = new Document();
@@ -37,18 +37,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Justera utseendet på kanter som kommer att visas mellan rader.
+    // Justera utseendet på kantlinjer som ska visas mellan rader.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Justera utseendet på kanter som kommer att visas mellan celler.
+    // Justera utseendet på kantlinjer som ska visas mellan celler.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Ett radformat och en cells inre stycke använder olika raminställningar.
+// Ett radformat och ett cells inre stycke använder olika kantlinjer.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

@@ -3,14 +3,14 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words لـ .NET
-description: OoxmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocx التنسيق في C#.
+description: اكتشف مُنشئ OoxmlSaveOptions لحفظ المستندات بسهولة بتنسيق Docx. تمتع بإدارة مستندات سلسة وتوافق مُحسّن.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocx التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ مستند فيDocx تنسيق.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,22 +18,22 @@ public OoxmlSaveOptions()
 
 ## أمثلة
 
-يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
+يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام بها.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // إذا قمنا بتكوين خيارات التوافق لتتوافق مع Microsoft Word 2003،
-// إدراج صورة سيحدد شكلها باستخدام VML.
+// إدراج صورة سيؤدي إلى تحديد شكلها باستخدام VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // لا يدعم معيار OOXML "ISO/IEC 29500:2008" أشكال VML.
-// إذا قمنا بتعيين خاصية "الامتثال" لكائن SaveOptions على "OoxmlCompliance.Iso29500_2008_Strict"،
- // أي مستند نحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
+// إذا قمنا بتعيين خاصية "التوافق" لكائن SaveOptions إلى "OoxmlCompliance.Iso29500_2008_Strict"،
+ // أي مستند نقوم بحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// يحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
+// تحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocxDocm ,Dotx ,Dotm أو FlatOpc التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ مستند فيDocx ، Docm ،Dotx ،Dotm أو FlatOpc تنسيق.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -66,7 +66,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| saveFormat | SaveFormat | يمكن ان يكونDocx ,DocmDotx ,Dotm أوFlatOpc . |
+| saveFormat | SaveFormat | يمكن أن يكونDocx ،Docm ، Dotx ،Dotm أوFlatOpc . |
 
 ## أمثلة
 
@@ -76,11 +76,11 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
-// ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// اضبط خاصية "KeepLegacyControlChars" على "صحيح" للمحافظة عليها
-// الحرف القديم "ShortDateTime" أثناء الحفظ.
-// اضبط خاصية "KeepLegacyControlChars" على "خطأ" لإزالتها
-// الحرف القديم "ShortDateTime" من مستند الإخراج.
+// ثم قم بتمريرها إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
+// اضبط خاصية "KeepLegacyControlChars" على "true" للحفاظ عليها
+// حرف "ShortDateTime" القديم أثناء الحفظ.
+// اضبط خاصية "KeepLegacyControlChars" على "false" لإزالة
+// حرف "ShortDateTime" القديم من المستند الناتج.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

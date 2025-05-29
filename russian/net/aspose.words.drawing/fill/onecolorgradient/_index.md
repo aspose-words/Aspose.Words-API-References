@@ -3,14 +3,14 @@ title: Fill.OneColorGradient
 linktitle: OneColorGradient
 articleTitle: OneColorGradient
 second_title: Aspose.Words для .NET
-description: Fill OneColorGradient метод. Устанавливает для указанной заливки одноцветный градиент на С#.
+description: Узнайте, как использовать метод OneColorGradient для создания потрясающих одноцветных градиентов для ваших проектов. Улучшайте свои проекты без усилий!
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
-Устанавливает для указанной заливки одноцветный градиент.
+Устанавливает указанную заливку в виде одноцветного градиента.
 
 ```csharp
 public void OneColorGradient(GradientStyle style, GradientVariant variant, double degree)
@@ -24,14 +24,14 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 
 ## Примеры
 
-Показывает, как заполнить фигуру градиентами.
+Показывает, как заполнить фигуру градиентом.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем одноцветную градиентную заливку к фигуре с градиентной заливкой ForeColor.
+// Применить одноцветную градиентную заливку к фигуре с помощью ForeColor градиентной заливки.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -40,12 +40,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем двухцветную градиентную заливку к фигуре.
+// Применить к фигуре двухцветную градиентную заливку.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Изменяем BackColor градиентной заливки.
+// Изменить BackColor градиентной заливки.
 shape.Fill.BackColor = Color.Yellow;
 // Обратите внимание, что "GradientAngle" меняется на "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// Градиентная заливка не дает никакого эффекта, она будет работать только для линейного градиента.
+// градиентная заливка не даст никакого эффекта, она будет работать только для линейного градиента.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -53,8 +53,8 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Используйте опцию соответствия, чтобы определить форму с помощью DML, если вы хотите получить «GradientStyle»,
-// Свойства «GradientVariant» и «GradientAngle» после сохранения документа.
+// Используйте параметр соответствия, чтобы определить форму с помощью DML, если вы хотите получить "GradientStyle",
+// Свойства "GradientVariant" и "GradientAngle" после сохранения документа.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
-Устанавливает для указанной заливки одноцветный градиент с использованием указанного цвета.
+Устанавливает указанную заливку в виде одноцветного градиента, используя указанный цвет.
 
 ```csharp
 public void OneColorGradient(Color color, GradientStyle style, GradientVariant variant, 
@@ -88,14 +88,14 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 
 ## Примеры
 
-Показывает, как заполнить фигуру градиентами.
+Показывает, как заполнить фигуру градиентом.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем одноцветную градиентную заливку к фигуре с градиентной заливкой ForeColor.
+// Применить одноцветную градиентную заливку к фигуре с помощью ForeColor градиентной заливки.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -104,12 +104,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем двухцветную градиентную заливку к фигуре.
+// Применить к фигуре двухцветную градиентную заливку.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Изменяем BackColor градиентной заливки.
+// Изменить BackColor градиентной заливки.
 shape.Fill.BackColor = Color.Yellow;
 // Обратите внимание, что "GradientAngle" меняется на "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// Градиентная заливка не дает никакого эффекта, она будет работать только для линейного градиента.
+// градиентная заливка не даст никакого эффекта, она будет работать только для линейного градиента.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -117,8 +117,8 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Используйте опцию соответствия, чтобы определить форму с помощью DML, если вы хотите получить «GradientStyle»,
-// Свойства «GradientVariant» и «GradientAngle» после сохранения документа.
+// Используйте параметр соответствия, чтобы определить форму с помощью DML, если вы хотите получить "GradientStyle",
+// Свойства "GradientVariant" и "GradientAngle" после сохранения документа.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);

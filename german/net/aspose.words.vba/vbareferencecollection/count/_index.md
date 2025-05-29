@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: VbaReferenceCollection Count eigendom. Gibt die Anzahl der VBAReferenzen in der Sammlung zurück in C#.
+description: Entdecken Sie die Eigenschaft „VBA Reference Collection Count“, um die Gesamtzahl der VBA-Referenzen für effizientes Codieren einfach abzurufen und zu verwalten.
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbareferencecollection/count/
@@ -46,7 +46,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
+    /// Gibt eine Zeichenfolge zurück, die den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

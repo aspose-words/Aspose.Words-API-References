@@ -3,7 +3,7 @@ title: PageSetup.PageHeight
 linktitle: PageHeight
 articleTitle: PageHeight
 second_title: Aspose.Words pour .NET
-description: PageSetup PageHeight propriété. Renvoie ou définit la hauteur de la page en points en C#.
+description: Découvrez la propriété PageSetup PageHeight pour gérer efficacement la hauteur de votre document en points, améliorant ainsi votre mise en page et votre présentation.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/pagesetup/pageheight/
@@ -24,46 +24,19 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// Place l'image au centre de la page.
+// Placez l'image au centre de la page.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Place l'image au centre de la page.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### Voir également

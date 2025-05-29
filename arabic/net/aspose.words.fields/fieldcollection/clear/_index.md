@@ -3,14 +3,14 @@ title: FieldCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: FieldCollection Clear طريقة. إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها في C#.
+description: امسح جميع حقول مجموعتك بسهولة باستخدام طريقة المسح لدينا. بسّط إدارة مستنداتك وحسّن كفاءتك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldcollection/clear/
 ---
 ## FieldCollection.Clear method
 
-إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها.
+يزيل جميع حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها.
 
 ```csharp
 public void Clear()
@@ -37,20 +37,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // فيما يلي أربع طرق لإزالة الحقول من مجموعة الحقول.
-// 1 - احصل على حقل لإزالة نفسه:
+// 1 - الحصول على حقل لإزالة نفسه:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - احصل على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
+// 2 - الحصول على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - إزالة حقل من مجموعة في فهرس:
+// 3 - إزالة حقل من مجموعة عند الفهرس:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
+// 4 - إزالة جميع الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words per .NET
-description: FieldMergeBarcode CaseCodeStyle proprietà. Ottiene o imposta lo stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono STDEXTADD in C#.
+description: Scopri la proprietà FieldMergeBarcode CaseCodeStyle per i codici a barre ITF14. Personalizza facilmente lo stile del tuo Case Code con opzioni valide come STDEXTADD.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Ottiene o imposta lo stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
+Ottiene o imposta lo stile di un codice a barre per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -24,8 +24,8 @@ Mostra come eseguire una stampa unione sui codici a barre ITF14.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyITF14Barcode" di un'origine dati di unione in codici a barre ITF14.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyITF14Barcode" di una sorgente dati di unione in codici a barre ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,7 +34,7 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice a barre ITF14 con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");

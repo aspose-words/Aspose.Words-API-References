@@ -2,8 +2,8 @@
 title: OdsoFieldMapDataCollection
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: OdsoFieldMapDataCollection 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OdsoFieldMapDataCollection 强大的默认构造函数，实现无缝数据集成。使用高效的地图解决方案增强您的项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/

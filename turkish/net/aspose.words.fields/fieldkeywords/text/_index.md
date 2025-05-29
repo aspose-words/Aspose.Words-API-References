@@ -2,15 +2,15 @@
 title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: FieldKeywords Text mülk. Anahtar kelimelerin metnini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldKeywords'lerinizi kolaylıkla yönetin! Optimum SEO performansı ve gelişmiş görünürlük için anahtar kelime metnine erişin ve özelleştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldkeywords/text/
 ---
 ## FieldKeywords.Text property
 
-Anahtar kelimelerin metnini alır veya ayarlar.
+Anahtar sözcüklerin metnini alır veya ayarlar.
 
 ```csharp
 public string Text { get; set; }
@@ -18,7 +18,7 @@ public string Text { get; set; }
 
 ## Örnekler
 
-ANAHTAR KELİMELER alanının eklenmesini gösterir.
+ANAHTAR KELİMELER alanı eklemek için kullanılır.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Alanın Text özelliği için bir değer ayarlıyoruz,
-// ve ardından alanın güncellenmesi, yeni değerin karşılık gelen yerleşik özelliğin üzerine yazılmasına neden olacaktır.
+// Alanın Metin özelliği için bir değer ayarlama,
+// ve ardından alanı güncellemek, yeni değerle ilgili yerleşik özelliğin üzerine yazacaktır.
 field.Text = "OverridingKeyword";
 field.Update();
 

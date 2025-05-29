@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.OptimizeOutput
 linktitle: OptimizeOutput
 articleTitle: OptimizeOutput
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions OptimizeOutput eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istWAHR  in C#.
+description: Optimieren Sie Ihre HTML-Ausgabe mit der Eigenschaft „HtmlFixedSaveOptions“. Verbessern Sie die Leistung, indem Sie redundante Leinwände entfernen und ähnliche Glyphen zusammenführen. Standardmäßig „true“.
 type: docs
-weight: 100
+weight: 110
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Flag gibt an, ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist, werden redundante verschachtelte Leinwände und leere Leinwände entfernt, auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis: Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden, wenn Diese Eigenschaft ist auf festgelegt`WAHR` . Standard ist`WAHR` .
+Flag gibt an, ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist, werden redundante verschachtelte Leinwände und leere Leinwände entfernt, auch benachbarte Glyphen mit der gleichen Formatierung werden verkettet. Hinweis: Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden, wenn diese Eigenschaft auf`WAHR` . Standard ist`WAHR` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -18,7 +18,7 @@ public override bool OptimizeOutput { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument beim Speichern in HTML vereinfacht, indem man verschiedene überflüssige Objekte entfernt.
+Zeigt, wie Sie ein Dokument beim Speichern im HTML-Format durch das Entfernen verschiedener redundanter Objekte vereinfachen können.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,7 +28,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
 // Die Größe der optimierten Version des Dokuments beträgt fast ein Drittel der Größe des nicht optimierten Dokuments.
-Assert.AreEqual(optimizeOutput ? 62521 : 191770,
+Assert.AreEqual(optimizeOutput ? 60385 : 191000,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```
 

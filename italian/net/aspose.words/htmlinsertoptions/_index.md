@@ -3,14 +3,14 @@ title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.HtmlInsertOptions enum. Specifica le opzioni perInsertHtml metodo in C#.
+description: Esplora l'enum Aspose.Words.HtmlInsertOptions per personalizzare l'inserimento HTML con il metodo InsertHtml, migliorando l'efficienza di elaborazione dei documenti.
 type: docs
-weight: 3140
+weight: 3570
 url: /it/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-Specifica le opzioni per[`InsertHtml`](../documentbuilder/inserthtml/) metodo.
+Specifica le opzioni per il[`InsertHtml`](../documentbuilder/inserthtml/) metodo.
 
 ```csharp
 [Flags]
@@ -22,9 +22,9 @@ public enum HtmlInsertOptions
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Utilizza le opzioni predefinite quando inserisci HTML. |
-| UseBuilderFormatting | `1` | Utilizza la formattazione del carattere e del paragrafo specificata in[`DocumentBuilder`](../documentbuilder/) come formattazione di base per text inserito da HTML. |
+| UseBuilderFormatting | `1` | Utilizza il formato del carattere e del paragrafo specificato in[`DocumentBuilder`](../documentbuilder/) come formattazione di base per il testo inserito da HTML. |
 | RemoveLastEmptyParagraph | `2` | Rimuovi il paragrafo vuoto che normalmente viene inserito dopo l'HTML che termina con un elemento a livello di blocco. |
-| PreserveBlocks | `4` | Preserva le proprietà degli elementi a livello di blocco. |
+| PreserveBlocks | `4` | Conserva le proprietà degli elementi a livello di blocco. |
 
 ## Esempi
 
@@ -41,7 +41,7 @@ const string html = @"
         </div>
     </html>";
 
-// Imposta la nuova modalità di importazione di elementi HTML a livello di blocco.
+// Imposta la nuova modalità di importazione degli elementi HTML a livello di blocco.
 HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
 
 DocumentBuilder builder = new DocumentBuilder();

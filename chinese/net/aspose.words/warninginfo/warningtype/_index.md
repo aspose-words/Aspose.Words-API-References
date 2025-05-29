@@ -2,8 +2,8 @@
 title: WarningInfo.WarningType
 linktitle: WarningType
 articleTitle: WarningType
-second_title: 用于 .NET 的 Aspose.Words
-description: WarningInfo WarningType 财产. 返回警告的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 WarningInfo WarningType 属性，它揭示了重要的警告类型，增强了错误处理并提高了应用程序的可靠性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/warninginfo/warningtype/
@@ -18,12 +18,12 @@ public WarningType WarningType { get; }
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

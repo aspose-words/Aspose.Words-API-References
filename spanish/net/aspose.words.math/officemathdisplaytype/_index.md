@@ -3,9 +3,9 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Math.OfficeMathDisplayType enumeración. Especifica el tipo de formato de visualización de la ecuación en C#.
+description: Descubra la enumeración Aspose.Words.Math.OfficeMathDisplayType para personalizar fácilmente los formatos de visualización de ecuaciones para mejorar la claridad y presentación del documento.
 type: docs
-weight: 4130
+weight: 4820
 url: /es/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -20,25 +20,25 @@ public enum OfficeMathDisplayType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Display | `0` | Office Math se muestra en su propia línea. |
-| Inline | `1` | Office Math se muestra en línea con el texto. |
+| Display | `0` | La función Office Math se muestra en su propia línea. |
+| Inline | `1` | La función Office Math se muestra en línea con el texto. |
 
 ## Ejemplos
 
-Muestra cómo configurar el formato de visualización de matemáticas de Office.
+Muestra cómo configurar el formato de visualización de matemáticas de oficina.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Los nodos de OfficeMath que son hijos de otros nodos de OfficeMath siempre están en línea.
-// El nodo con el que estamos trabajando es el nodo base para cambiar su ubicación y tipo de visualización.
+// Los nodos OfficeMath que son hijos de otros nodos OfficeMath siempre están en línea.
+//El nodo con el que estamos trabajando es el nodo base para cambiar su ubicación y tipo de visualización.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Cambiar la ubicación y el tipo de visualización del nodo OfficeMath.
+// Cambia la ubicación y el tipo de visualización del nodo OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

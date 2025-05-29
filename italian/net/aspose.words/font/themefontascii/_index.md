@@ -3,14 +3,14 @@ title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
 second_title: Aspose.Words per .NET
-description: Font ThemeFontAscii proprietà. Ottiene o imposta il carattere del tema utilizzato per il testo latino caratteri con codici carattere da 0 zero a 127 nello schema di caratteri applicato associato a questoFont oggetto in C#.
+description: Scopri la proprietà Font ThemeFontAscii per personalizzare facilmente i font del tema per il testo latino (codici 0-127) nel tuo design, migliorandone l'aspetto visivo.
 type: docs
-weight: 480
+weight: 490
 url: /it/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Ottiene o imposta il carattere del tema utilizzato per il testo latino (caratteri con codici carattere da 0 (zero) a 127) nello schema di caratteri applicato associato a questo[`Font`](../) oggetto.
+Ottiene o imposta il font del tema utilizzato per il testo latino (caratteri con codici carattere da 0 (zero) a 127) nello schema di font applicato associato a questo[`Font`](../) oggetto.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontAscii { get; set; }
 
 ## Esempi
 
-Mostra come lavorare con i caratteri e i colori del tema.
+Mostra come lavorare con i font e i colori del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisci i font per le lingue utilizzate di default.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Possiamo usare il carattere e il colore del tema invece dei valori predefiniti.
+// Possiamo usare il font e il colore del tema invece dei valori predefiniti.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -53,7 +53,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarne il carattere e il colore.
+// Esistono diversi modi per reimpostare il font e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di font/colori non legati al tema:
+// 2 - Impostando nomi di font/colori non tematici:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

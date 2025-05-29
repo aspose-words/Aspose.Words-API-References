@@ -3,7 +3,7 @@ title: Style.List
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words för .NET
-description: Style List fast egendom. Hämtar listan som definierar formateringen av denna liststil i C#.
+description: Upptäck hur du formaterar dina listor effektivt! Lär dig definiera unik formatering för listformat för att förbättra ditt innehålls visuella attraktionskraft.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/style/list/
@@ -18,19 +18,19 @@ public List List { get; }
 
 ## Anmärkningar
 
-Den här egenskapen är endast giltig för liststilar. För andra stiltyper returnerar den här egenskapen`null`.
+Den här egenskapen är endast giltig för listformat. För andra formattyper returnerar den här egenskapen`null`.
 
 ## Exempel
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -68,7 +68,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

@@ -2,15 +2,15 @@
 title: ShowInBalloons Enum
 linktitle: ShowInBalloons
 articleTitle: ShowInBalloons
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.ShowInBalloons Sıralama. Balonlarda hangi revizyonların oluşturulacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Layout.ShowInBalloons enumunun, balonlardaki görünür revizyonları kontrol ederek belge düzenlemeyi nasıl geliştirdiğini ve net işbirliğini nasıl sağladığını keşfedin.
 type: docs
-weight: 3410
+weight: 3860
 url: /tr/net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
 
-Balonlarda hangi revizyonların oluşturulacağını belirtir.
+Balonlarda hangi revizyonların işleneceğini belirtir.
 
 ```csharp
 public enum ShowInBalloons
@@ -20,13 +20,13 @@ public enum ShowInBalloons
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Revizyonları satır içi ekleme, silme ve biçimlendirme işlemlerini gerçekleştirir. |
-| Format | `1` | Revizyonları satır içi olarak ekler ve siler, revizyonları balonlarda biçimlendirir. |
-| FormatAndDelete | `2` | Revizyonları satır içi olarak ekler, revizyonları balonlarda siler ve biçimlendirir. |
+| None | `0` | Ekleme, silme ve biçimlendirme revizyonlarını satır içi olarak işler. |
+| Format | `1` | Revizyonları satır içi olarak ekler ve siler, revizyonları balonlar halinde biçimlendirir. |
+| FormatAndDelete | `2` | Revizyonları satır içi olarak ekler, balonlardaki revizyonları siler ve biçimlendirir. |
 
 ## Notlar
 
-Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
+Düzeltmelerin balonlarda işlenmediğini unutmayınShowInAnnotations .
 
 ## Örnekler
 
@@ -38,37 +38,37 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Revizyonların görünümünü kontrol eden RevisionOptions nesnesini alın.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Ekleme revizyonlarını yeşil ve italik olarak işle.
+// Ekleme revizyonlarını yeşil ve italik olarak göster.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Silme düzeltmelerini kırmızı ve kalın harflerle işleyin.
+// Silme revizyonlarını kırmızı ve kalın olarak göster.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Aynı metin bir hareket revizyonunda iki kez görünecektir:
+// Bir hareket revizyonunda aynı metin iki kez görünecek:
 // bir kez kalkış noktasında ve bir kez varış noktasında.
-// Taşınan revizyondaki metni çift çizgiyle sarıya dönüştür
+// Taşınmış revizyondaki metni çift çizgiyle sarıya boya
 // ve taşınan revizyonda çift altı çizili mavi.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Format revizyonlarını koyu kırmızı ve kalın olarak işleyin.
+// Biçim revizyonlarını koyu kırmızı ve kalın olarak göster.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Sayfanın sol tarafına, revizyonlardan etkilenen satırların yanına kalın, lacivert bir çubuk yerleştirin.
+// Revizyonlardan etkilenen satırların yanına, sayfanın sol tarafına kalın, koyu mavi bir çubuk yerleştirin.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Revizyon işaretlerini ve orijinal metni göster.
+// Düzeltme işaretlerini ve orijinal metni göster.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarla gösterilmesini sağlayın
-//sayfanın sağ tarafında.
+// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarda gösterilmesini sağlayın
+// Sayfanın sağ tarafında.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 

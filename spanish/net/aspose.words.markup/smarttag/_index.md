@@ -3,16 +3,16 @@ title: SmartTag Class
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Markup.SmartTag clase. Este elemento especifica la presencia de una etiqueta inteligente alrededor de una o más estructuras en línea ejecuciones imágenes campos etc. dentro de un párrafo en C#.
+description: Descubra la clase Aspose.Words.Markup.SmartTag, que mejora la edición de documentos al identificar etiquetas inteligentes alrededor de elementos en línea como imágenes y campos.
 type: docs
-weight: 4050
+weight: 4740
 url: /es/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
 Este elemento especifica la presencia de una etiqueta inteligente alrededor de una o más estructuras en línea (ejecuciones, imágenes, campos, etc.) dentro de un párrafo.
 
-Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
+Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Artículo de documentación.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -29,19 +29,19 @@ public class SmartTag : CompositeNode
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Obtiene el número de hijos inmediatos de este nodo. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica un identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
 | [Element](../../aspose.words.markup/smarttag/element/) { get; set; } | Especifica el nombre de la etiqueta inteligente dentro del documento. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Obtiene el primer hijo del nodo. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Devoluciones`verdadero` si este nodo tiene nodos secundarios. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Devoluciones`verdadero` ya que este nodo puede tener nodos secundarios. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Devuelve`verdadero` si este nodo tiene nodos secundarios. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Devuelve`verdadero` ya que este nodo puede tener nodos secundarios. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Obtiene el último hijo del nodo. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | DevolucionesSmartTag . |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo inmediatamente siguiente a este nodo. |
+| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | DevuelveSmartTag . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
 | [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Una colección de propiedades de etiquetas inteligentes. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/)objeto que representa la porción de un documento que está contenida en este nodo. |
 | [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Especifica el URI del espacio de nombres de la etiqueta inteligente. |
 
 ## Métodos
@@ -49,35 +49,37 @@ public class SmartTag : CompositeNode
 | Nombre | Descripción |
 | --- | --- |
 | override [Accept](../../aspose.words.markup/smarttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
+| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante por visitar el final de la SmartTag. |
+| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante por visitar el inicio del SmartTag. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que se puede utilizar para atravesar y leer nodos. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que puede utilizarse para recorrer y leer nodos. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Devuelve un nodo secundario N que coincide con el tipo especificado. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Agrega el nodo especificado al principio de la lista de nodos secundarios para este nodo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Agrega el nodo especificado al comienzo de la lista de nodos secundarios para este nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo de recorrido del árbol de preorden. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Elimina el nodo secundario especificado. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo`SmartTag`nodos descendientes del nodo actual. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Elimina el nodo secundario especificado. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo`SmartTag` nodos descendientes del nodo actual. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selecciona el primero[`Node`](../../aspose.words/node/) que coincide con la expresión XPath. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selecciona el primer[`Node`](../../aspose.words/node/) que coincide con la expresión XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo en una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo en una cadena utilizando las opciones de guardado especificadas. |
 
 ## Observaciones
 
-Las etiquetas inteligentes son una especie de marcado XML personalizado. Las etiquetas inteligentes proporcionan una función para incrustar semántica definida por el cliente en el documento mediante la capacidad de proporcionar un espacio de nombres/nombre básico para una ejecución o un conjunto de ejecuciones dentro de un documento.
+Las etiquetas inteligentes son un tipo de marcado XML personalizado. Permiten incrustar semántica definida por el cliente en el documento mediante la capacidad de proporcionar un espacio de nombres básico para una ejecución o un conjunto de ejecuciones dentro del documento.
 
-`SmartTag` puede ser hijo de un[`Paragraph`](../../aspose.words/paragraph/) or otro`SmartTag` nodo.
+`SmartTag` puede ser hijo de un[`Paragraph`](../../aspose.words/paragraph/) o otro`SmartTag` nodo.
 
 La lista completa de nodos secundarios que pueden aparecer dentro de una etiqueta inteligente consta de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
@@ -90,30 +92,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+    // Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+    // como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
     SmartTag smartTag = new SmartTag(doc);
 
     // Las etiquetas inteligentes son nodos compuestos que contienen el texto reconocido en su totalidad.
     // Agregue contenido a esta etiqueta inteligente manualmente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word puede reconocer el contenido anterior como una fecha.
+    //Microsoft Word puede reconocer el contenido anterior como una fecha.
     // Las etiquetas inteligentes utilizan la propiedad "Elemento" para reflejar el tipo de datos que contienen.
     smartTag.Element = "date";
 
-    // Algunos tipos de etiquetas inteligentes procesan su contenido en propiedades XML personalizadas.
+    // Algunos tipos de etiquetas inteligentes procesan sus contenidos y los convierten en propiedades XML personalizadas.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Establece el URI de la etiqueta inteligente en el valor predeterminado.
+    // Establezca el URI de la etiqueta inteligente en el valor predeterminado.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea otra etiqueta inteligente para un ticker bursátil.
+    // Crea otra etiqueta inteligente para un símbolo de bolsa.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -123,7 +125,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime todas las etiquetas inteligentes en nuestro documento usando un visitante del documento.
+    // Imprima todas las etiquetas inteligentes en nuestro documento usando un visitante de documentos.
     doc.Accept(new SmartTagPrinter());
 
     // Las versiones anteriores de Microsoft Word admiten etiquetas inteligentes.

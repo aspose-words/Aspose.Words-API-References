@@ -3,14 +3,14 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words für .NET
-description: IFieldMergingCallback ImageFieldMerging methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist ein Bild in ein Serienbrieffeld einzufügen in C#.
+description: Entdecken Sie die ImageFieldMerging-Methode in IFieldMergingCallback, die für das nahtlose Einfügen von Bildern in Aspose.Words-Serienbriefe entwickelt wurde. Optimieren Sie Ihre Dokumentenautomatisierung!
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, ein Bild in ein Serienbrieffeld einzufügen.
+Wird aufgerufen, wenn die Serienbrief-Engine von Aspose.Words dabei ist, ein Bild in ein Serienbrieffeld einzufügen.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -18,7 +18,7 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 
 ## Beispiele
 
-Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
+Zeigt, wie in einem BLOB-Feld einer Datenbank gespeicherte Bilder in einen Bericht eingefügt werden.
 
 ```csharp
 public void ImageFromBlob()
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze auf einmal liest.
+        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze gleichzeitig liest.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,7 +52,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief auf ein MERGEFIELD im Dokument trifft, dessen Name ein „Image:“-Tag enthält.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

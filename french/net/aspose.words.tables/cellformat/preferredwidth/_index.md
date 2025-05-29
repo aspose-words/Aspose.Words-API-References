@@ -3,9 +3,9 @@ title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words pour .NET
-description: CellFormat PreferredWidth propriété. Renvoie ou définit la largeur préférée de la cellule en C#.
+description: Découvrez la propriété CellFormat PreferredWidth pour personnaliser facilement la largeur des cellules et optimiser la mise en page et le design de vos feuilles de calcul. Améliorez la présentation de vos données !
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -18,9 +18,9 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Remarques
 
-La largeur préférée (ainsi que l'option Ajustement automatique du tableau) détermine la manière dont la largeur réelle de la cellule est calculée par l'algorithme de mise en page du tableau. La mise en page du tableau peut être effectuée par Aspose.Words lors de l'enregistrement du document ou par Microsoft Word lors de l'affichage du document.
+La largeur préférée (ainsi que l'option d'ajustement automatique du tableau) détermine comment la largeur réelle de la cellule est calculée par l'algorithme de mise en page du tableau. La mise en page du tableau peut être effectuée par Aspose.Words lors de l'enregistrement du document ou par Microsoft Word lors de son affichage.
 
-La largeur préférée peut être spécifiée en points ou en pourcentage. La largeur préférée peut également être spécifiée comme « auto », ce qui signifie qu'aucune largeur préférée n'est spécifiée.
+La largeur préférée peut être spécifiée en points ou en pourcentage. La largeur préférée (largeur ) peut également être définie sur « auto », ce qui signifie qu'aucune largeur préférée n'est spécifiée.
 
 La valeur par défaut est[`Auto`](../../preferredwidth/auto/).
 
@@ -33,14 +33,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Il existe deux manières d'appliquer la classe "PreferredWidth" aux cellules d'un tableau.
-// 1 - Définit une largeur préférée absolue basée sur les points :
+// Il existe deux manières d'appliquer la classe « PreferredWidth » aux cellules du tableau.
+// 1 - Définir une largeur préférée absolue en fonction des points :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Définit une largeur préférée relative basée sur le pourcentage de la largeur du tableau :
+// 2 - Définir une largeur préférée relative en fonction du pourcentage de la largeur du tableau :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -51,7 +51,7 @@ builder.InsertCell();
 // Une cellule sans largeur préférée spécifiée occupera le reste de l'espace disponible.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Chaque configuration de la propriété "PreferredWidth" crée un nouvel objet.
+// Chaque configuration de la propriété « PreferredWidth » crée un nouvel objet.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

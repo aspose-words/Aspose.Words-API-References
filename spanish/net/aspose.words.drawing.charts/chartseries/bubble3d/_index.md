@@ -3,17 +3,43 @@ title: ChartSeries.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words para .NET
-description: ChartSeries Bubble3D propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D en C#.
+description: ¡Mejora tu gráfico de burbujas con ChartSeries Bubble3D! Añade impresionantes efectos 3D a tus burbujas para un impacto visual impactante.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartseries/bubble3d/
 ---
 ## ChartSeries.Bubble3D property
 
-Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D.
+Especifica si se debe aplicar un efecto 3D a las burbujas del gráfico de burbujas.
 
 ```csharp
 public bool Bubble3D { get; set; }
+```
+
+## Ejemplos
+
+Muestra cómo utilizar efectos 3D con gráficos de burbujas.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Bubble3D, 500, 350);
+Chart chart = shape.Chart;
+
+Assert.AreEqual(1, chart.Series.Count);
+Assert.AreEqual("Y-Values", chart.Series[0].Name);
+Assert.True(chart.Series[0].Bubble3D);
+
+//Aplica una etiqueta de datos a cada burbuja que muestre su diámetro.
+for (int i = 0; i < 3; i++)
+{
+    chart.Series[0].HasDataLabels = true;
+    chart.Series[0].DataLabels[i].ShowBubbleSize = true;
+    chart.Series[0].DataLabels[i].Font.Size = 12;
+}
+
+doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ```
 
 ### Ver también

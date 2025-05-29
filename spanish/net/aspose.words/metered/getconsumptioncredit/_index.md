@@ -3,9 +3,9 @@ title: Metered.GetConsumptionCredit
 linktitle: GetConsumptionCredit
 articleTitle: GetConsumptionCredit
 second_title: Aspose.Words para .NET
-description: Metered GetConsumptionCredit método. Obtiene crédito de consumo en C#.
+description: Descubra ahorros con el método GetConsumptionCredit medido: recupere de manera eficiente sus créditos de consumo para una gestión de energía más inteligente.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
@@ -29,15 +29,17 @@ Muestra cómo activar una licencia medida y realizar un seguimiento del crédito
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opere usando Aspose.Words y luego imprima nuestras estadísticas medidas nuevamente para ver cuánto gastamos.
+// Opere utilizando Aspose.Words y luego imprima nuevamente nuestras estadísticas medidas para ver cuánto gastamos.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// El mecanismo de licencia medida de Aspose no envía los datos de uso al servidor de compra cada vez,
-// necesitas usar la espera.
+// El mecanismo de licencias medidas de Aspose no envía los datos de uso al servidor de compra cada vez,
+// necesitas usar espera.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

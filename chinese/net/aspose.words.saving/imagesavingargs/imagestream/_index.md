@@ -2,15 +2,15 @@
 title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSavingArgs ImageStream 财产. 允许指定图像将保存到的流 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ImageSavingArgs 中的 ImageStream 属性，轻松指定保存图像的位置，从而增强工作流程和效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-允许指定图像将保存到的流。
+允许指定将图像保存到的流。
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -20,13 +20,13 @@ public Stream ImageStream { get; set; }
 
 此属性允许您在 HTML 期间将图像保存到流而不是文件。
 
-默认值为`无效的` 。当这个属性是`无效的` ，图像 将被保存到指定的文件中[`ImageFileName`](../imagefilename/)财产。
+默认值为`无效的` . 当此属性`无效的` ，图像 将保存到[`ImageFileName`](../imagefilename/)财产。
 
-使用[`IImageSavingCallback`](../../iimagesavingcallback/)您不能用 一张图像替换另一张图像。它仅用于控制保存图像的位置。
+使用[`IImageSavingCallback`](../../iimagesavingcallback/)您不能用 替换一张图片。它仅用于控制图片的保存位置。
 
 ## 例子
 
-演示如何在 HTML 转换过程中涉及图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 public void ImageSavingCallback()
@@ -42,8 +42,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// 在保存过程将每个图像保存到本地文件系统中的图像文件时打印每个图像的属性
-/// 将文档导出为 HTML 期间。
+/// 在保存过程中将每幅图像保存到本地文件系统中的图像文件时，打印其属性
+/// 在将文档导出为 HTML 期间。
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

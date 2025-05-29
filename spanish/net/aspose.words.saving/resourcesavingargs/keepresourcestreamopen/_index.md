@@ -3,7 +3,7 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words para .NET
-description: ResourceSavingArgs KeepResourceStreamOpen propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar un recurso en C#.
+description: Descubra cómo la propiedad KeepResourceStreamOpen en ResourceSavingArgs mejora Aspose.Words al administrar la eficiencia de la transmisión durante el ahorro de recursos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -18,11 +18,11 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ## Observaciones
 
-El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que proporcionó en el[`ResourceStream`](../resourcestream/) propiedad después de escribir un recurso en ella. Especificar`verdadero` para mantener la corriente abierta.
+El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que usted proporcionó en el[`ResourceStream`](../resourcestream/) propiedad después de escribir un recurso en ella. Especificar`verdadero` para mantener el arroyo abierto.
 
 ## Ejemplos
 
-Muestra cómo utilizar una devolución de llamada para imprimir los URI de recursos externos creados al convertir un documento a HTML.
+Muestra cómo utilizar una devolución de llamada para imprimir las URI de recursos externos creados al convertir un documento a HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una carpeta especificada por ResourcesFolderAlias contendrá los recursos en lugar de ResourcesFolder.
-    // Debemos asegurarnos de que la carpeta exista antes de que las transmisiones puedan poner sus recursos en ella.
+    //Debemos asegurarnos de que la carpeta exista antes de que los flujos puedan poner sus recursos en ella.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -56,13 +56,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime los URI de los recursos contenidos en a medida que se convierten a HTML fijo.
+/// Cuenta e imprime las URI de los recursos contenidos en él a medida que se convierten a HTML fijo.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Si configuramos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
+        // Si establecemos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -71,7 +71,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // De forma predeterminada, 'ResourceFileUri' usa la carpeta del sistema para las fuentes.
+                // De forma predeterminada, 'ResourceFileUri' utiliza la carpeta del sistema para las fuentes.
                 // Para evitar problemas en otras plataformas debes especificar explícitamente la ruta de las fuentes.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -81,7 +81,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si hemos especificado una carpeta en la propiedad "ResourcesFolderAlias",
-        // también necesitaremos redirigir cada secuencia para colocar su recurso en esa carpeta.
+        // También necesitaremos redirigir cada flujo para colocar su recurso en esa carpeta.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

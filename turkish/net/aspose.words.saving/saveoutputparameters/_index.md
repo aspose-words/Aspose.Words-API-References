@@ -2,17 +2,17 @@
 title: SaveOutputParameters Class
 linktitle: SaveOutputParameters
 articleTitle: SaveOutputParameters
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.SaveOutputParameters sınıf. Bu nesne bir belge kaydedildikten sonra arayan kişiye döndürülür ve kaydetme işlemi sırasında nin oluşturulduğu veya hesaplandığı ek bilgileri içerir. Arayan kişi bu nesneyi kullanabilir veya yok sayabilir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgeyi kaydettikten sonra önemli ayrıntıları sağlayan ve belge yönetimi deneyiminizi geliştiren Aspose.Words.Saving.SaveOutputParameters sınıfını keşfedin.
 type: docs
-weight: 5590
+weight: 6390
 url: /tr/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Bu nesne, bir belge kaydedildikten sonra arayan kişiye döndürülür ve kaydetme işlemi sırasında 'nin oluşturulduğu veya hesaplandığı ek bilgileri içerir. Arayan kişi bu nesneyi kullanabilir veya yok sayabilir.
+Bu nesne, bir belge kaydedildikten sonra çağırana döndürülür ve kaydetme işlemi sırasında 'nin oluşturulduğu veya hesaplandığına dair ek bilgiler içerir. Çağıran bu nesneyi kullanabilir veya yoksayabilir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) belgeleme makalesi.
 
 ```csharp
 public class SaveOutputParameters
@@ -33,12 +33,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Bir belgeyi kaydettikten sonra yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
+// Bir belgeyi kaydettikten sonra, yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// Bu özellik kaydetme formatına bağlı olarak değişir.
+// Bu özellik kayıt biçimine bağlı olarak değişir.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

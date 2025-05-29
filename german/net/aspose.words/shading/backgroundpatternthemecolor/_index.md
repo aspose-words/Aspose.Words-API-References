@@ -3,14 +3,14 @@ title: Shading.BackgroundPatternThemeColor
 linktitle: BackgroundPatternThemeColor
 articleTitle: BackgroundPatternThemeColor
 second_title: Aspose.Words für .NET
-description: Shading BackgroundPatternThemeColor eigendom. Ruft die Designfarbe des Hintergrundmusters in dem damit verbundenen angewendeten Farbschema ab oder legt diese festShading Objekt in C#.
+description: Entdecken Sie, wie Sie die Shading-Eigenschaft „BackgroundPatternThemeColor“ anpassen, um Ihr Design mit einzigartigen Hintergrundmustern und Farbschemata zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words/shading/backgroundpatternthemecolor/
 ---
 ## Shading.BackgroundPatternThemeColor property
 
-Ruft die Designfarbe des Hintergrundmusters in dem damit verbundenen angewendeten Farbschema ab oder legt diese fest[`Shading`](../) Objekt.
+Ruft die Hintergrundmuster-Designfarbe im angewendeten Farbschema ab oder legt sie fest, die mit diesem verknüpft ist.[`Shading`](../) Objekt.
 
 ```csharp
 public ThemeColor BackgroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor BackgroundPatternThemeColor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man Vordergrund- und Hintergrundfarben für die Schattierungstextur festlegt.
+Zeigt, wie Vordergrund- und Hintergrundfarben für die Schattierungstextur festgelegt werden.
 
 ```csharp
 Document doc = new Document();

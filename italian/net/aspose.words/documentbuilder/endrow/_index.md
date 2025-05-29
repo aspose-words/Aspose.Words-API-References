@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 linktitle: EndRow
 articleTitle: EndRow
 second_title: Aspose.Words per .NET
-description: DocumentBuilder EndRow metodo. Termina una riga della tabella nel documento in C#.
+description: Termina senza sforzo le righe delle tabelle nei tuoi documenti con il metodo EndRow di DocumentBuilder. Semplifica la formattazione e migliora la chiarezza dei documenti!
 type: docs
 weight: 240
 url: /it/net/aspose.words/documentbuilder/endrow/
@@ -18,41 +18,41 @@ public Row EndRow()
 
 ### Valore di ritorno
 
-Il nodo riga appena terminato.
+Il nodo della riga appena completato.
 
 ## Osservazioni
 
-Chiamata`EndRow` per terminare una riga della tabella. Se chiami[`InsertCell`](../insertcell/) immediatamente dopo, la tabella continua su una nuova riga.
+Chiamata`EndRow` per terminare una riga della tabella. Se si chiama[`InsertCell`](../insertcell/) immediatamente dopodiché la tabella continua su una nuova riga.
 
-Usa il[`RowFormat`](../rowformat/) proprietà per specificare la formattazione della riga.
+Utilizzare il[`RowFormat`](../rowformat/) proprietà per specificare la formattazione della riga.
 
 ## Esempi
 
-Mostra come unire verticalmente le celle della tabella.
+Mostra come unire verticalmente le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una cella nella prima colonna della prima riga.
+// Inserisce una cella nella prima colonna della prima riga.
 // Questa cella sarà la prima di un intervallo di celle unite verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserisci una cella nella seconda colonna della prima riga, quindi termina la riga.
-// Inoltre, configura il builder per disabilitare l'unione verticale nelle celle create.
+// Inserisce una cella nella seconda colonna della prima riga, quindi termina la riga.
+// Inoltre, configurare il builder per disabilitare l'unione verticale nelle celle create.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
- // Inserisci una cella nella prima colonna della seconda riga.
-// Invece di aggiungere contenuti di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
+ // Inserisce una cella nella prima colonna della seconda riga.
+// Invece di aggiungere contenuto di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Inserisci un'altra cella indipendente nella seconda colonna della seconda riga.
+// Inserisce un'altra cella indipendente nella seconda colonna della seconda riga.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -62,7 +62,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 ```
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -76,8 +76,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -92,7 +92,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -112,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -135,9 +135,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

@@ -3,14 +3,14 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: FileFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
+description: Upptäck egenskapen FileFontSource Type för att enkelt identifiera teckensnittskälltyper och förbättra dina designprojekt med exakta typografiska lösningar.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/filefontsource/type/
 ---
 ## FileFontSource.Type property
 
-Returnerar typen av teckensnittskälla.
+Returnerar typen av teckensnittskällan.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

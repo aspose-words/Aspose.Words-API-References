@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions Encoding свойство. Указывает кодировку которая будет использоваться при экспорте в HTML. Значение по умолчаниюновая кодировка UTF8истина UTF8 со спецификацией на С#.
+description: Откройте для себя свойство кодировки HtmlFixedSaveOptions для бесшовного экспорта HTML. Легко установите кодировку UTF-8 с BOM для оптимальной целостности данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-Указывает кодировку, которая будет использоваться при экспорте в HTML. Значение по умолчанию:`новая кодировка UTF8(истина)` (UTF-8 со спецификацией).
+Указывает кодировку, используемую при экспорте в HTML. Значение по умолчанию:`новая кодировка UTF8(истина)` (UTF-8 с BOM).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 ## Примеры
 
-Показывает, как установить кодировку, которую следует использовать при экспорте документа в HTML.
+Показывает, как выбрать кодировку, используемую при экспорте документа в HTML.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello World!");
 
-// Кодировка по умолчанию — UTF-8. Если мы хотим представить наш документ, используя другую кодировку,
+// Кодировка по умолчанию — UTF-8. Если мы хотим представить наш документ с использованием другой кодировки,
 // мы можем использовать объект SaveOptions для установки определенной кодировки.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
-    Encoding = Encoding.GetEncoding("ASCII")
+    Encoding = Encoding.ASCII
 };
 
 Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);

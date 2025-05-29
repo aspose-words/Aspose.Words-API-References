@@ -2,8 +2,8 @@
 title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
-second_title: Aspose.Words for .NET
-description: ParagraphFormat KeepTogether mülk. Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat KeepTogether özelliğini keşfedin, belge okunabilirliğini artırmak ve profesyonel sunum için tüm satırların tek bir sayfada bir arada kalmasını sağlayın.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/paragraphformat/keeptogether/
@@ -18,7 +18,7 @@ public bool KeepTogether { get; set; }
 
 ## Örnekler
 
-Belgeye nasıl paragraf ekleneceğini gösterir.
+Belgeye bir paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
-// ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
+// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// ve ardından yeni bir satır başlatır ve yeni bir paragraf ekler.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

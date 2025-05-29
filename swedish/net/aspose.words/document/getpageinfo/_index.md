@@ -3,9 +3,9 @@ title: Document.GetPageInfo
 linktitle: GetPageInfo
 articleTitle: GetPageInfo
 second_title: Aspose.Words för .NET
-description: Document GetPageInfo metod. Hämtar sidstorlek orientering och annan information om en sida som kan vara användbar för utskrift eller rendering i C#.
+description: Upptäck GetPageInfo-metoden för att hämta viktig information om sidstorlek, orientering och rendering för optimerad utskrift och förbättrad dokumenthantering.
 type: docs
-weight: 610
+weight: 650
 url: /sv/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -19,6 +19,17 @@ public PageInfo GetPageInfo(int pageIndex)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | pageIndex | Int32 | Det 0-baserade sidindexet. |
+
+## Exempel
+
+Visar hur man kontrollerar om sidan är i färg eller inte.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+// Kontrollera att dokumentets första sida inte är färgad.
+Assert.IsFalse(doc.GetPageInfo(0).Colored);
+```
 
 ### Se även
 

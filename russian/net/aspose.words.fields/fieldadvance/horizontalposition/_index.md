@@ -3,14 +3,14 @@ title: FieldAdvance.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: Aspose.Words для .NET
-description: FieldAdvance HorizontalPosition свойство. Получает или задает количество точек на которое текст следующий за полем должен быть перемещен горизонтально от левого края столбца фрейма или текстового поля на С#.
+description: Откройте для себя свойство FieldAdvance HorizontalPosition, легко настройте позиционирование текста для точного управления макетом в ваших документах. Улучшите свое форматирование сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-Получает или задает количество точек, на которое текст, следующий за полем, должен быть перемещен горизонтально от левого края столбца, фрейма или текстового поля.
+Возвращает или задает количество точек, на которое текст, следующий за полем, должен быть перемещен по горизонтали от левого края столбца, рамки или текстового поля.
 
 ```csharp
 public string HorizontalPosition { get; set; }
@@ -18,7 +18,7 @@ public string HorizontalPosition { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ADVANCE и отредактировать его свойства.
+Показывает, как вставить поле ADVANCE и редактировать его свойства.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Ниже приведены два способа использования поля ADVANCE для настройки положения следующего за ним текста.
+// Ниже приведены два способа использования поля ADVANCE для настройки положения текста, следующего за ним.
 // Эффекты поля ADVANCE продолжают применяться до тех пор, пока не закончится абзац,
-// или другое поле ADVANCE обновляет значения смещения/координаты.
-// 1 - Укажите смещение по направлению:
+// или другое поле ADVANCE обновляет значения смещения/координат.
+// 1 - Укажите смещение направления:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

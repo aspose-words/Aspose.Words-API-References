@@ -3,14 +3,14 @@ title: TxtSaveOptions.ListIndentation
 linktitle: ListIndentation
 articleTitle: ListIndentation
 second_title: Aspose.Words для .NET
-description: TxtSaveOptions ListIndentation свойство. ПолучаетTxtListIndentation объект который определяет сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов 0 что означает отсутствие отступов на С#.
+description: Откройте для себя свойство TxtSaveOptions ListIndentation, которое настраивает отступ списка для улучшения читаемости. Управляйте символами и уровнями без усилий!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-Получает[`TxtListIndentation`](../../txtlistindentation/) объект, который определяет, сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов '\0', что означает отсутствие отступов.
+Получает[`TxtListIndentation`](../../txtlistindentation/)объект, который указывает, сколько и какие символы использовать для отступа уровней списка. По умолчанию это нулевое количество символов '\0', что означает отсутствие отступа.
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }
@@ -18,13 +18,13 @@ public TxtListIndentation ListIndentation { get; }
 
 ## Примеры
 
-Показывает, как настроить отступ списка при сохранении документа в виде открытого текста.
+Показывает, как настроить отступ списка при сохранении документа в виде обычного текста.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем список с тремя уровнями отступов.
+// Создаем список с тремя уровнями отступа.
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -32,11 +32,11 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ сохранения документа в виде обычного текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Установите свойство «Символ», чтобы назначить используемый символ
+// Установите свойство "Character", чтобы назначить символ для использования
 // для заполнения, имитирующего отступ списка в открытом тексте.
 txtSaveOptions.ListIndentation.Character = ' ';
 
@@ -47,10 +47,11 @@ txtSaveOptions.ListIndentation.Count = 3;
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Смотрите также

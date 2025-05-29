@@ -3,14 +3,14 @@ title: Comment.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: Comment Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Kommentarakzeptanz-Methode, um die Besucherinteraktion zu verbessern und sinnvolle Interaktionen auf Ihrer Website zu ermöglichen. Stärken Sie noch heute Ihre Online-Community!
 type: docs
-weight: 110
+weight: 130
 url: /de/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,23 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
-Anrufe[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten des Kommentars und der Aufrufe[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) am Ende.
+Anrufe[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , dann ruft[`Accept`](../../node/accept/)für alle Kindknoten des Kommentars und der Aufrufe[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) am Ende.
 
 ## Beispiele
 
-Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbetrachters gedruckt werden.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -57,7 +57,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Zwei Antworten zum Kommentar hinzufügen.
+    // Fügen Sie dem Kommentar zwei Antworten hinzu.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -65,26 +65,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und druckt seinen Kommentarbereich, Inhalt und seine Antworten.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Durchlaufe alle Kommentare der obersten Ebene. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorgänger.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
+        // Sehen Sie sich dann den Kommentar und alle Antworten an, die er möglicherweise enthält.
         comment.Accept(commentVisitor);
+        // Besuchen Sie nur den Anfang des Kommentars.
+        comment.AcceptStart(commentVisitor);
+        // Besuchen Sie nur das Ende des Kommentars.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -159,7 +163,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -171,7 +175,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

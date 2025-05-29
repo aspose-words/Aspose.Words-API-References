@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words für .NET
-description: IFieldUpdatingCallback FieldUpdated methode. Eine benutzerdefinierte Methode die unmittelbar nach der Aktualisierung eines Felds aufgerufen wird in C#.
+description: Entdecken Sie die Methode IFieldUpdatingCallback FieldUpdated – Ihre Lösung für nahtlose Feldaktualisierungen in Anwendungen. Verbessern Sie die Leistung mit benutzerdefinierten Rückrufen!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
@@ -18,7 +18,7 @@ public void FieldUpdated(Field field)
 
 ## Beispiele
 
-Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
+Zeigt, wie Rückrufmethoden während einer Feldaktualisierung verwendet werden.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufgerufen werden.
+/// Implementieren Sie diese Schnittstelle, wenn Sie während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufrufen möchten.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Eine benutzerdefinierte Methode, die aufgerufen wird, unmittelbar bevor ein Feld aktualisiert wird.
+    /// Eine benutzerdefinierte Methode, die unmittelbar vor der Aktualisierung eines Felds aufgerufen wird.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {

@@ -3,7 +3,7 @@ title: FieldGoToButton
 linktitle: FieldGoToButton
 articleTitle: FieldGoToButton
 second_title: Aspose.Words لـ .NET
-description: FieldGoToButton البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldGoToButton لتصفح سلس. بسّط برمجة جهازك باستخدام مُنشئنا الافتراضي، وحسّن تجربة المستخدم اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldgotobutton/fieldgotobutton/

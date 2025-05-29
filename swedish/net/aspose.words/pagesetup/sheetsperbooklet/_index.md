@@ -3,14 +3,14 @@ title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
 second_title: Aspose.Words för .NET
-description: PageSetup SheetsPerBooklet fast egendom. Returnerar eller ställer in antalet sidor som ska ingå i varje häfte i C#.
+description: Upptäck egenskapen PageSetup SheetsPerBooklet för att enkelt hantera antalet häften, vilket förbättrar dokumentlayouten och utskriftseffektiviteten.
 type: docs
 weight: 400
 url: /sv/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Returnerar eller ställer in antalet sidor som ska ingå i varje häfte.
+Returnerar eller anger antalet sidor som ska inkluderas i varje häfte.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -34,8 +34,8 @@ for (int i = 0; i < 15; i++)
 }
 
 // Konfigurera den första sektionens "PageSetup"-egenskap för att skriva ut dokumentet i form av en bokvikning.
-// När vi skriver ut det här dokumentet på båda sidor kan vi ta sidorna för att stapla dem
-// och vik ner alla på mitten på en gång. Innehållet i dokumentet kommer att hamna i en bokveck.
+// När vi skriver ut detta dokument på båda sidor kan vi ta sidorna och stapla dem
+// och vik dem alla på mitten samtidigt. Innehållet i dokumentet kommer att radas upp till en bokvikning.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 

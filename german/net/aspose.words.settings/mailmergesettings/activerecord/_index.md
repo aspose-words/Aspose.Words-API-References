@@ -3,14 +3,14 @@ title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
 second_title: Aspose.Words für .NET
-description: MailMergeSettings ActiveRecord eigendom. Gibt den einbasierten Index des Datensatzes aus der Datenquelle an der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1 in C#.
+description: Entdecken Sie MailMergeSettings. Passen Sie Ihre Microsoft Word-Dokumente an, indem Sie den gewünschten Datensatzindex aus Ihrer Datenquelle auswählen. Starten Sie ganz einfach!
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Gibt den einbasierten Index des Datensatzes aus der Datenquelle an, der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
+Gibt den einsbasierten Index des Datensatzes aus der Datenquelle an, der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
 
 ```csharp
 public int ActiveRecord { get; set; }

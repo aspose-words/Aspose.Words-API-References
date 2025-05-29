@@ -3,7 +3,7 @@ title: RtfLoadOptions
 linktitle: RtfLoadOptions
 articleTitle: RtfLoadOptions
 second_title: Aspose.Words für .NET
-description: RtfLoadOptions constructeur. Initialisiert eine neue Instanz dieser Klasse mit Standardwerten in C#.
+description: Entdecken Sie den RtfLoadOptions-Konstruktor, der Ihre Klasse mühelos mit Standardwerten initialisiert und so Ihre Codierungseffizienz und Produktivität steigert.
 type: docs
 weight: 10
 url: /de/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -18,15 +18,15 @@ public RtfLoadOptions()
 
 ## Beispiele
 
-Zeigt, wie UTF-8-Zeichen beim Laden eines RTF-Dokuments erkannt werden.
+Zeigt, wie beim Laden eines RTF-Dokuments UTF-8-Zeichen erkannt werden.
 
 ```csharp
 // Erstellen Sie ein „RtfLoadOptions“-Objekt, um zu ändern, wie wir ein RTF-Dokument laden.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „false“, um anzunehmen, dass das Dokument den ISO 8859-1-Zeichensatz verwendet
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „false“, um anzunehmen, dass das Dokument den Zeichensatz ISO 8859-1 verwendet
 // und lädt jedes Zeichen im Dokument.
-// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „true“, um alle Zeichen variabler Länge zu analysieren, die im Text vorkommen können.
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „true“, um alle im Text vorkommenden Zeichen variabler Länge zu analysieren.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

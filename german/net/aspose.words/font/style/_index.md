@@ -3,14 +3,14 @@ title: Font.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words für .NET
-description: Font Style eigendom. Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft „Schriftstil“ die Zeichenstile in Ihrer Formatierung anpassen können, um die Attraktivität und Lesbarkeit Ihres Textes zu verbessern.
 type: docs
-weight: 400
+weight: 410
 url: /de/net/aspose.words/font/style/
 ---
 ## Font.Style property
 
-Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt diesen fest.
+Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt ihn fest.
 
 ```csharp
 public Style Style { get; set; }
@@ -18,13 +18,13 @@ public Style Style { get; set; }
 
 ## Beispiele
 
-Wendet eine doppelte Unterstreichung auf alle Zeilen in einem Dokument an, die mit benutzerdefinierten Zeichenstilen formatiert sind.
+Wendet eine doppelte Unterstreichung auf alle Läufe in einem Dokument an, die mit benutzerdefinierten Zeichenstilen formatiert sind.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen benutzerdefinierten Stil einfügen und auf Text anwenden, der mit einem Document Builder erstellt wurde.
+// Fügen Sie einen benutzerdefinierten Stil ein und wenden Sie ihn auf Text an, der mit einem Dokumentgenerator erstellt wurde.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -32,8 +32,8 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Bei jedem Lauf iterieren und jedem benutzerdefinierten Stil eine doppelte Unterstreichung hinzufügen.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Iterieren Sie über jeden Lauf und fügen Sie jedem benutzerdefinierten Stil eine doppelte Unterstreichung hinzu.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     Style charStyle = run.Font.Style;
 

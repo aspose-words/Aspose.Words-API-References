@@ -3,14 +3,14 @@ title: FontInfoSubstitutionRule Class
 linktitle: FontInfoSubstitutionRule
 articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule klas. SchriftartInfoErsetzungsregel in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.FontInfoSubstitutionRule, um die Schriftartverwaltung in Ihren Dokumenten mit nahtlosen Ersetzungsfunktionen zu optimieren.
 type: docs
-weight: 2940
+weight: 3370
 url: /de/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
-Schriftart-Info-Ersetzungsregel.
+Regel zur Ersetzung von Schriftinformationen.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -26,11 +26,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ## Bemerkungen
 
-Gemäß dieser Regel wertet Aspose.Words alle zugehörigen Felder in aus[`FontInfo`](../fontinfo/) (Panose, Sig usw.) for die fehlende Schriftart und findet die beste Übereinstimmung unter den verfügbaren Schriftartquellen. Wenn[`FontInfo`](../fontinfo/)Ist die fehlende Schriftart nicht verfügbar, wird nichts unternommen.
+Nach dieser Regel wertet Aspose.Words alle zugehörigen Felder in[`FontInfo`](../fontinfo/) (Panose, Sig usw.) for die fehlende Schriftart und sucht die beste Übereinstimmung unter den verfügbaren Schriftartquellen. Wenn[`FontInfo`](../fontinfo/) ist für die fehlende Schriftart nicht verfügbar, dann wird nichts unternommen.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -38,7 +38,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -48,7 +48,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -67,7 +67,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

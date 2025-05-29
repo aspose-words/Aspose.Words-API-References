@@ -3,14 +3,14 @@ title: ControlChar.Tab
 linktitle: Tab
 articleTitle: Tab
 second_title: Aspose.Words für .NET
-description: ControlChar Tab veld. Tabulatorzeichen x0009 oder t in C#.
+description: Entdecken Sie das ControlChar-Tabulatorfeld und verstehen Sie das Tabulatorzeichen x0009 für eine effiziente Textformatierung und verbesserte Datenverwaltung.
 type: docs
 weight: 270
 url: /de/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-Tabulatorzeichen: „\x0009“ oder „\t“.
+Tabulatorzeichen: "\x0009" oder "\t".
 
 ```csharp
 public static readonly string Tab;
@@ -24,10 +24,10 @@ Zeigt, wie ein benutzerdefiniertes Intervall für Tabstopppositionen festgelegt 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tabstopps so festlegen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
+// Tabstopps so einstellen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
 builder.Document.DefaultTabStop = 72;
 
-// Mit jedem Tabulatorzeichen wird der darauffolgende Text an der nächstgelegenen Tabstoppposition ausgerichtet.
+// Jedes Tabulatorzeichen rastet den Text dahinter an die nächstgelegene Tabulatorposition ein.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

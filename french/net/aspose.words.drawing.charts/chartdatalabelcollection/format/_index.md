@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words pour .NET
-description: ChartDataLabelCollection Format propriété. Permet daccéder au formatage de remplissage et de ligne des étiquettes de données en C#.
+description: Découvrez la propriété Format ChartDataLabelCollection pour accéder facilement à des formats de remplissage et de ligne personnalisables pour vos étiquettes de données. Améliorez vos graphiques dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 ---
 ## ChartDataLabelCollection.Format property
 
-Permet d'accéder au formatage de remplissage et de ligne des étiquettes de données.
+Donne accès au remplissage et au formatage des lignes des étiquettes de données.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Exemples
 
-Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données de graphique.
+Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données du graphique.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 chart.Series.Clear();
 
 // Ajouter une nouvelle série.
@@ -39,14 +39,14 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formate les étiquettes de données sous forme de légendes.
+// Formater les étiquettes de données sous forme d'appels.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;
 format.Fill.Solid(Color.Green);
 series.DataLabels.Font.Color = Color.Yellow;
 
-// Modifie le remplissage et le contour d'une étiquette de données individuelle.
+// Modifier le remplissage et le contour d'une étiquette de données individuelle.
 ChartFormat labelFormat = series.DataLabels[0].Format;
 labelFormat.Stroke.Color = Color.DarkBlue;
 labelFormat.Fill.Solid(Color.Blue);

@@ -3,9 +3,9 @@ title: ChartFormat.Stroke
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words för .NET
-description: ChartFormat Stroke fast egendom. Hämtar linjeformatering för det överordnade diagramelementet i C#.
+description: Upptäck egenskapen ChartFormat Stroke för att förbättra linjestilen i dina diagram, vilket säkerställer professionella och visuellt tilltalande presentationer.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -18,7 +18,7 @@ public Stroke Stroke { get; }
 
 ## Exempel
 
-Visa hur du ställer in markörformatering.
+Visa hur man ställer in markörformatering.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Ställ in markörformatering.
+// Ange markörformatering.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

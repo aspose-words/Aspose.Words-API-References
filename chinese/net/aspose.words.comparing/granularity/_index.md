@@ -2,10 +2,10 @@
 title: Granularity Enum
 linktitle: Granularity
 articleTitle: Granularity
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Comparing.Granularity 枚举. 指定比较两个文档时要跟踪的更改的粒度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Comparing.Granularity 枚举，轻松精准地追踪文档变更。立即增强您的文档比较功能！
 type: docs
-weight: 290
+weight: 490
 url: /zh/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
@@ -20,8 +20,8 @@ public enum Granularity
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| CharLevel | `0` |  |
-| WordLevel | `1` |  |
+| CharLevel | `0` | 指定字符级别的更改。 |
+| WordLevel | `1` | 指定单词级别的更改。 |
 
 ## 例子
 
@@ -37,8 +37,8 @@ DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
 // 指定是否跟踪更改
-// 按字符 ('Granularity.CharLevel') 或按单词 ('Granularity.WordLevel')。
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+// 按字符（'Granularity.CharLevel'）或按单词（'Granularity.WordLevel'）。
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);

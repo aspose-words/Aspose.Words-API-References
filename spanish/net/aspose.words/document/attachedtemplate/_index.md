@@ -3,7 +3,7 @@ title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
 second_title: Aspose.Words para .NET
-description: Document AttachedTemplate propiedad. Obtiene o establece la ruta completa de la plantilla adjunta al documento en C#.
+description: Descubra cómo administrar eficientemente su propiedad Document AttachedTemplate. Configure o recupere fácilmente la ruta completa de la plantilla de su documento para una integración perfecta.
 type: docs
 weight: 20
 url: /es/net/aspose.words/document/attachedtemplate/
@@ -20,27 +20,27 @@ public string AttachedTemplate { get; set; }
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza si intenta establecer un`nulo` valor. |
+| ArgumentNullException | Se lanza si intenta establecer en un`nulo` valor. |
 
 ## Observaciones
 
-Cadena vacía significa que el documento está adjunto a la plantilla Normal.
+Una cadena vacía significa que el documento está adjunto a la plantilla Normal.
 
 ## Ejemplos
 
-Muestra cómo configurar una plantilla predeterminada para documentos que no tienen plantillas adjuntas.
+Muestra cómo establecer una plantilla predeterminada para documentos que no tienen plantillas adjuntas.
 
 ```csharp
 Document doc = new Document();
 
-// Habilite la actualización automática de estilo, pero no adjunte un documento de plantilla.
+// Habilite la actualización automática de estilos, pero no adjunte un documento de plantilla.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Como no hay un documento de plantilla, el documento no tenía ningún lugar para realizar un seguimiento de los cambios de estilo.
-// Usa un objeto SaveOptions para configurar automáticamente una plantilla
-// si un documento que estamos guardando no lo tiene.
+// Como no existe un documento de plantilla, el documento no tenía dónde rastrear los cambios de estilo.
+// Utilice un objeto SaveOptions para establecer automáticamente una plantilla
+// si un documento que estamos guardando no tiene uno.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

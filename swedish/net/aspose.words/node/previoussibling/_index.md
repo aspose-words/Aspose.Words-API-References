@@ -3,14 +3,14 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words för .NET
-description: Node PreviousSibling fast egendom. Hämtar noden omedelbart före denna nod i C#.
+description: Upptäck egenskapen Node PreviousSibling för att enkelt komma åt noden som kommer före din nuvarande nod, vilket förbättrar dina DOM-manipulationsfärdigheter.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-Hämtar noden omedelbart före denna nod.
+Hämtar noden som omedelbart föregår denna nod.
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -18,11 +18,11 @@ public Node PreviousSibling { get; }
 
 ## Anmärkningar
 
-Om det inte finns någon föregående nod, a`null` returneras.
+Om det inte finns någon föregående nod, en`null` returneras.
 
 ## Exempel
 
-Visar hur man använder metoderna för Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
+Visar hur man använder metoderna Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Ta bort ett avsnitt baserat på dess syskonförhållande med ett annat avsnitt.
+// Ta bort en sektion baserat på dess syskonrelation med en annan sektion.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

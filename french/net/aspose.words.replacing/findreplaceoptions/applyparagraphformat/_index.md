@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions ApplyParagraphFormat propriété. Mise en forme du paragraphe appliquée au nouveau contenu en C#.
+description: Découvrez la propriété ApplyParagraphFormat de FindReplaceOptions pour une mise en forme fluide des paragraphes de vos documents. Améliorez votre contenu sans effort !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Mise en forme du paragraphe appliquée au nouveau contenu.
+Mise en forme de paragraphe appliquée au nouveau contenu.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -34,10 +34,10 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+// Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Définissez la propriété "Alignment" sur "ParagraphAlignment.Right" pour aligner chaque paragraphe à droite
+// Définissez la propriété « Alignment » sur « ParagraphAlignment.Right » pour aligner à droite chaque paragraphe
 // qui contient une correspondance trouvée par l'opération de recherche et de remplacement.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 

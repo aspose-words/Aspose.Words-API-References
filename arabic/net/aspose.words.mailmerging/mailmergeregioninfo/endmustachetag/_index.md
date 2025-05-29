@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.EndMustacheTag
 linktitle: EndMustacheTag
 articleTitle: EndMustacheTag
 second_title: Aspose.Words لـ .NET
-description: MailMergeRegionInfo EndMustacheTag ملكية. إرجاع علامة نهاية الشارب للمنطقة في C#.
+description: اكتشف خاصية MailMergeRegionInfo EndMustacheTag، التي تُرجع بفعالية علامة نهاية الشارب لمناطق مستنداتك. حسّن سير عملك!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 ---
 ## MailMergeRegionInfo.EndMustacheTag property
 
-إرجاع علامة نهاية "الشارب" للمنطقة.
+يعيد علامة نهاية "الشارب" للمنطقة.
 
 ```csharp
 public MustacheTag EndMustacheTag { get; }

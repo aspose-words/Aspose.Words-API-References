@@ -2,8 +2,8 @@
 title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
-second_title: Aspose.Words for .NET
-description: MailMergeSettings ConnectString mülk. Harici bir veri kaynağına bağlanmak için kullanılan bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: MailMergeSettings ConnectString özelliğinin harici veri kaynaklarına nasıl bağlandığını keşfedin. Sorunsuz veri entegrasyonu için bağlantınızı kolayca özelleştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -18,7 +18,7 @@ public string ConnectString { get; set; }
 
 ## Örnekler
 
-Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Harici bir veri kaynağına bağlanırken posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
-// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
+// Belgeyi yüklemek için Microsoft Word kullanıldığında artık posta birleştirme işlemi gerçekleştirilmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

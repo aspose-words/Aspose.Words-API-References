@@ -3,14 +3,14 @@ title: ChartAxisCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: ChartAxisCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck ChartAxisCollection GetEnumerator-metoden, hämta enkelt uppräknarobjekt för att förbättra din datavisualisering och effektivisera din kodning!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/
 ---
 ## ChartAxisCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<ChartAxis> GetEnumerator()

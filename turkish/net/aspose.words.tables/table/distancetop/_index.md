@@ -2,15 +2,15 @@
 title: Table.DistanceTop
 linktitle: DistanceTop
 articleTitle: DistanceTop
-second_title: Aspose.Words for .NET
-description: Table DistanceTop mülk. Masa üstü ile etrafındaki metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Masa üstünüz ile çevresindeki metin arasındaki mesafeyi zahmetsizce ayarlayın. DistanceTop ile cilalı, profesyonel bir görünüm için düzeninizi geliştirin!
 type: docs
 weight: 150
 url: /tr/net/aspose.words.tables/table/distancetop/
 ---
 ## Table.DistanceTop property
 
-Masa üstü ile etrafındaki metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar.
+Tablo üstü ile çevresindeki metin arasındaki mesafeyi puan cinsinden alır veya ayarlar.
 
 ```csharp
 public double DistanceTop { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Tablo ile çevresindeki metin arasındaki mesafeyi ayarlayın.
+// Tablo ile çevresindeki metin arasındaki mesafeyi ayarlayın.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

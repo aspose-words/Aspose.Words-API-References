@@ -3,14 +3,14 @@ title: ColorPrintMode Enum
 linktitle: ColorPrintMode
 articleTitle: ColorPrintMode
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Rendering.ColorPrintMode énumération. Spécifie la façon dont les pages non colorées sont imprimées si le périphérique prend en charge limpression couleur en C#.
+description: Découvrez l'énumération Aspose.Words.Rendering.ColorPrintMode pour une impression couleur optimisée. Contrôlez l'impression des pages non colorées pour une qualité de document améliorée.
 type: docs
-weight: 4540
+weight: 5270
 url: /fr/net/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enumeration
 
-Spécifie la façon dont les pages non colorées sont imprimées si le périphérique prend en charge l'impression couleur.
+Spécifie comment les pages non colorées sont imprimées si le périphérique prend en charge l'impression couleur.
 
 ```csharp
 public enum ColorPrintMode
@@ -21,7 +21,7 @@ public enum ColorPrintMode
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Normal | `0` | Toutes les pages sont imprimées en fonction des capacités et des paramètres de l'imprimante. |
-| GrayscaleAuto | `1` | Les pages non colorées si elles sont détectées sont imprimées en niveaux de gris. |
+| GrayscaleAuto | `1` | Les pages non colorées, si elles sont détectées, sont imprimées en niveaux de gris. |
 
 ## Exemples
 
@@ -32,10 +32,10 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Appelez la méthode "Show" pour que le formulaire d'aperçu avant impression s'affiche en haut.
+// Appelez la méthode « Afficher » pour afficher le formulaire d'aperçu avant impression en haut.
 previewDlg.Show();
 
-// Initialise la boîte de dialogue d'impression avec le nombre de pages du document.
+// Initialisez la boîte de dialogue d'impression avec le nombre de pages du document.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -46,26 +46,26 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Créer l'implémentation "Aspose.Words" du document d'impression .NET,
-// puis transmettez les paramètres de l'imprimante depuis la boîte de dialogue.
+// Créez l'implémentation « Aspose.Words » du document d'impression .NET,
+// puis transmettez les paramètres de l'imprimante à partir de la boîte de dialogue.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// Spécifie le nouveau mode d'impression couleur.
+// Spécifiez le nouveau mode d'impression couleur.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Utilisation de la méthode "CachePrinterSettings" pour réduire le temps du premier appel de la méthode "Print".
+// Utilisez la méthode « CachePrinterSettings » pour réduire le temps du premier appel de la méthode « Print ».
 awPrintDoc.CachePrinterSettings();
 
-// Appelez les méthodes "Hide", puis "InvalidatePreview" pour que l'aperçu avant impression s'affiche en haut.
+// Appelez les méthodes « Hide », puis « InvalidatePreview » pour afficher l'aperçu avant impression en haut.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Transmettez le document d'impression "Aspose.Words" à la boîte de dialogue Aperçu avant impression .NET.
+// Transmettez le document d'impression « Aspose.Words » à la boîte de dialogue Aperçu avant impression .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

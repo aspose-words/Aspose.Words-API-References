@@ -2,8 +2,8 @@
 title: Section.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: Section Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“部分接受”方法，提升访客参与度并简化互动。立即提升您网站的性能！
 type: docs
 weight: 70
 url: /zh/net/aspose.words/section/accept/
@@ -22,15 +22,201 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为 True；如果访问了所有节点，则为 false[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
+枚举此节点及其所有子节点。每个节点都会调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
-通话[`VisitSectionStart`](../../documentvisitor/visitsectionstart/)，然后调用[`Accept`](../../node/accept/)对于section 的所有子节点并调用[`VisitSectionEnd`](../../documentvisitor/visitsectionend/)最后.
+呼叫[`VisitSectionStart`](../../documentvisitor/visitsectionstart/)，然后调用[`Accept`](../../node/accept/)对于 section 的所有子节点并调用[`VisitSectionEnd`](../../documentvisitor/visitsectionend/)在最后。
+
+## 例子
+
+展示如何使用文档访问器打印文档的节点结构。
+
+```csharp
+public void DocStructureToText()
+{
+    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+    DocStructurePrinter visitor = new DocStructurePrinter();
+
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
+    // 然后以深度优先的方式遍历该节点的所有子节点。
+    // 访问者可以读取和修改每个访问的节点。
+    doc.Accept(visitor);
+
+    Console.WriteLine(visitor.GetText());
+}
+
+/// <summary>
+/// 遍历节点的子节点树。
+/// 以字符串的形式创建这棵树的映射。
+/// </summary>
+public class DocStructurePrinter : DocumentVisitor
+{
+    public DocStructurePrinter()
+    {
+        mAcceptingNodeChildTree = new StringBuilder();
+    }
+
+    public string GetText()
+    {
+        return mAcceptingNodeChildTree.ToString();
+    }
+
+    /// <summary>
+    /// 当遇到 Document 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitDocumentStart(Document doc)
+    {
+        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
+
+        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+        mDocTraversalDepth++;
+
+        // 允许访问者继续访问其他节点。
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 在访问完 Document 节点的所有子节点后调用。
+    /// </summary>
+    public override VisitorAction VisitDocumentEnd(Document doc)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Document end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 Section 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitSectionStart(Section section)
+    {
+        // 获取文档中我们部分的索引。
+        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
+        int sectionIndex = docSections.IndexOf(section);
+
+        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 在访问完 Section 节点的所有子节点后调用。
+    /// </summary>
+    public override VisitorAction VisitSectionEnd(Section section)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Section end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 Body 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitBodyStart(Body body)
+    {
+        int paragraphCount = body.Paragraphs.Count;
+        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 在访问完 Body 节点的所有子节点后调用。
+    /// </summary>
+    public override VisitorAction VisitBodyEnd(Body body)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Body end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到段落节点时调用。
+    /// </summary>
+    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
+    {
+        IndentAndAppendLine("[Paragraph start]");
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 在访问完 Paragraph 节点的所有子节点后调用。
+    /// </summary>
+    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Paragraph end]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 在文档中遇到 Run 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 SubDocument 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    {
+        IndentAndAppendLine("[SubDocument]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 SubDocument 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 当在文档中遇到 SubDocument 节点时调用。
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// 向 StringBuilder 附加一行并根据访问者在文档树中的深度进行缩进。
+    /// </summary>
+    /// <param name="text"></param>
+    private void IndentAndAppendLine(string text)
+    {
+        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
+
+        mAcceptingNodeChildTree.AppendLine(text);
+    }
+
+    private int mDocTraversalDepth;
+    private readonly StringBuilder mAcceptingNodeChildTree;
+}
+```
 
 ### 也可以看看
 

@@ -3,14 +3,14 @@ title: Style.Aliases
 linktitle: Aliases
 articleTitle: Aliases
 second_title: Aspose.Words для .NET
-description: Style Aliases свойство. Получает все псевдонимы этого стиля. Если стиль не имеет псевдонимов возвращается пустой массив строк на С#.
+description: Легко найдите все псевдонимы стилей с помощью свойства Style Aliases. Если их нет, получите пустой массив строк. Упростите управление стилями!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/style/aliases/
 ---
 ## Style.Aliases property
 
-Получает все псевдонимы этого стиля. Если стиль не имеет псевдонимов, возвращается пустой массив строк.
+Получает все псевдонимы этого стиля. Если у стиля нет псевдонимов, то возвращается пустой массив строк.
 
 ```csharp
 public string[] Aliases { get; }
@@ -23,8 +23,8 @@ public string[] Aliases { get; }
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Этот документ содержит стиль с именем «MyStyle, MyStyle Alias 1, MyStyle Alias 2».
-// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение представляет собой отдельный псевдоним.
+// Этот документ содержит стиль с именем "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение является отдельным псевдонимом.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);

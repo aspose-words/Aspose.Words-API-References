@@ -3,14 +3,14 @@ title: CertificateHolder.Certificate
 linktitle: Certificate
 articleTitle: Certificate
 second_title: Aspose.Words für .NET
-description: CertificateHolder Certificate eigendom. Gibt die Instanz von zurückX509Zertifikat2 das private öffentliche Schlüssel und die Zertifikatskette enthält in C#.
+description: Greifen Sie mit privaten Schlüsseln und Zertifikatskette auf die X509Certificate2-Instanz zu. Vereinfachen Sie Ihr Sicherheitsmanagement mit unserer CertificateHolder-Eigenschaft.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Gibt die Instanz von zurück**X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält.
+Gibt die Instanz von**X509Zertifikat2** die private und öffentliche Schlüssel sowie die Zertifikatskette enthält.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

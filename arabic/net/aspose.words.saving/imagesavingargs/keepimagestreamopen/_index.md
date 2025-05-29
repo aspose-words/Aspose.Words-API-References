@@ -3,7 +3,7 @@ title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
 second_title: Aspose.Words لـ .NET
-description: ImageSavingArgs KeepImageStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الصورة في C#.
+description: اكتشف خاصية KeepImageStreamOpen في ImageSavingArgs لـ Aspose.Words. تحكم في سلوك التدفق لحفظ الصور بكفاءة وتحسين الأداء.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -18,18 +18,18 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`ImageStream`](../imagestream/) الخاصية بعد كتابة الصورة فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
+الافتراضي هو`خطأ شنيع` وسوف يقوم Aspose.Words بإغلاق الدفق الذي قدمته في[`ImageStream`](../imagestream/) الخاصية بعد كتابة صورة فيها. حدد`حقيقي` للحفاظ على مجرى النهر مفتوحا.
 
 ## أمثلة
 
-يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
+يوضح كيفية إشراك استدعاء حفظ الصورة في عملية تحويل HTML.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions لتعيين معاودة الاتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -38,8 +38,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
-/// أثناء تصدير مستند إلى HTML.
+/// طباعة خصائص كل صورة أثناء عملية الحفظ التي تحفظها في ملف صورة في نظام الملفات المحلي
+/// أثناء تصدير المستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

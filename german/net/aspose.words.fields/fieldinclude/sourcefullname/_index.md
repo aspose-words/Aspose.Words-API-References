@@ -3,14 +3,14 @@ title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words für .NET
-description: FieldInclude SourceFullName eigendom. Ruft den Speicherort des Dokuments ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „FieldInclude SourceFullName“ nutzen, um Dokumentspeicherorte effizient zu verwalten. Optimieren Sie noch heute Ihren Workflow!
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-Ruft den Speicherort des Dokuments ab oder legt diesen fest.
+Ruft den Speicherort des Dokuments ab oder legt ihn fest.
 
 ```csharp
 public string SourceFullName { get; set; }

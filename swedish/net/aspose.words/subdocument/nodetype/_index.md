@@ -3,14 +3,14 @@ title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: SubDocument NodeType fast egendom. ReturnerarSubDocument  i C#.
+description: Upptäck egenskapen SubDocument NodeType som effektivt returnerar SubDocument-data och förbättrar dina dokumenthanterings- och bearbetningsmöjligheter.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-ReturnerarSubDocument .
+ReturerSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -24,7 +24,7 @@ Visar hur man kommer åt ett huvuddokuments underdokument.
 Document doc = new Document(MyDir + "Master document.docx");
 
 NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
-// Denna nod fungerar som en referens till ett externt dokument, och dess innehåll kan inte nås.
+// Denna nod fungerar som en referens till ett externt dokument, och dess innehåll är inte åtkomligt.
 SubDocument subDocument = (SubDocument)subDocuments[0];
 
 Assert.False(subDocument.IsComposite);

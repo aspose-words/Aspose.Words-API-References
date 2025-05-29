@@ -2,8 +2,8 @@
 title: Theme
 linktitle: Theme
 articleTitle: Theme
-second_title: 用于 .NET 的 Aspose.Words
-description: Theme 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们直观的构造器，轻松创建令人惊艳的主题。轻松定制您的设计，立即提升您网站的吸引力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.themes/theme/theme/

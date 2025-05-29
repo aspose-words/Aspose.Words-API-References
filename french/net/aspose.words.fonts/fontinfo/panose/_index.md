@@ -3,9 +3,9 @@ title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
 second_title: Aspose.Words pour .NET
-description: FontInfo Panose propriété. Obtient ou définit le numéro de classification de la police PANOSE en C#.
+description: Découvrez la propriété FontInfo PANOSE, obtenez ou définissez facilement le numéro de classification des polices pour une gestion améliorée des polices et une précision de conception.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
@@ -18,7 +18,7 @@ public byte[] Panose { get; set; }
 
 ## Remarques
 
-PANOSE est une description compacte de 10 octets des caractéristiques visuelles critiques d'une police, telles que le contraste, l'épaisseur et le style serif. Les chiffres représentent le type de famille, le style Serif, le poids , la proportion, le contraste, la variation de trait, le style de bras, la forme des lettres, la ligne médiane et la hauteur X.
+PANOSE est une description compacte de 10 octets des caractéristiques visuelles essentielles d'une police, telles que le contraste, la graisse et le style d'empattement. Les chiffres représentent le type de police, le style d'empattement, la graisse, la proportion, le contraste, la variation de trait, le style de manche, la forme de lettre, la ligne médiane et la hauteur d'axe.
 
 Peut être`nul`.
 

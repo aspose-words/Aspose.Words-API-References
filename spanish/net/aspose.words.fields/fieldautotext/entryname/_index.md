@@ -3,7 +3,7 @@ title: FieldAutoText.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words para .NET
-description: FieldAutoText EntryName propiedad. Obtiene o establece el nombre de la entrada de Autotexto en C#.
+description: Descubra la propiedad FieldAutoText EntryName para administrar fácilmente los nombres de las entradas de Autotexto, mejorando la automatización y la eficiencia de sus documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldautotext/entryname/
@@ -18,7 +18,7 @@ public string EntryName { get; set; }
 
 ## Ejemplos
 
-Muestra cómo mostrar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
+Muestra cómo visualizar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
 
 ```csharp
 Document doc = new Document();
@@ -41,12 +41,12 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Establece un archivo que contiene partes que nuestro documento o su plantilla adjunta pueden no contener.
+// Establezca un archivo que contenga partes que nuestro documento o su plantilla adjunta pueden no contener.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran dos formas de utilizar campos para mostrar el contenido de nuestro bloque de construcción.
+A continuación se muestran dos formas de utilizar campos para mostrar el contenido de nuestro bloque de construcción.
 // 1 - Usando un campo AUTOTEXTO:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";

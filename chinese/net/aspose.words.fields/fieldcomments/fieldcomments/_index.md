@@ -2,8 +2,8 @@
 title: FieldComments
 linktitle: FieldComments
 articleTitle: FieldComments
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldComments 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldComments 构造函数——您项目中无缝集成和增强功能的首选解决方案。立即简化开发！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldcomments/fieldcomments/

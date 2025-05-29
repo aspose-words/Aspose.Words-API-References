@@ -3,14 +3,14 @@ title: FieldDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words для .NET
-description: FieldDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
+description: Откройте для себя свойство FieldDate UseUmAlQuraCalendar для легкого управления датами с помощью календаря UmalQura. Улучшите обработку дат сегодня!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fielddate/useumalquracalendar/
 ---
 ## FieldDate.UseUmAlQuraCalendar property
 
-Получает или задает необходимость использования календаря Ум-аль-Кура.
+Возвращает или задает, использовать ли календарь Ум-аль-Кура.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными видами календарей.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
-// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
+// Вставьте поле ДАТА и установите его тип календаря на последний, использовавшийся хост-приложением.
+// В Microsoft Word тип будет последним использованным в диалоговом окне Вставка -> Текст -> Дата и время.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

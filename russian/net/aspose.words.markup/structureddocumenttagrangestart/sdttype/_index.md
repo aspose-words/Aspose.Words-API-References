@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart SdtType свойство. Получает тип тега структурированного документа на С#.
+description: Откройте для себя свойство SdtType StructuredDocumentTagRangeStart. Узнайте, как определить типы тегов структурированных документов для улучшенного управления документами.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 ---
 ## StructuredDocumentTagRangeStart.SdtType property
 
-Получает тип тега структурированного документа.
+Получает тип этого структурированного тега документа.
 
 ```csharp
 public SdtType SdtType { get; }

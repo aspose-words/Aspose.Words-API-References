@@ -2,15 +2,15 @@
 title: Font.ComplexScript
 linktitle: ComplexScript
 articleTitle: ComplexScript
-second_title: Aspose.Words for .NET
-description: Font ComplexScript mülk. Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden bağımsız olarak bu çalıştırmanın içeriğinin karmaşık komut dosyası metni olarak değerlendirilip değerlendirilmeyeceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Unicode değerlerinden bağımsız olarak, metninizin gelişmiş okunabilirlik ve stil için karmaşık bir betik olarak biçimlendirilmesini sağlayan Font ComplexScript özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property
 
-Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden bağımsız olarak bu çalıştırmanın içeriğinin karmaşık komut dosyası metni olarak değerlendirilip değerlendirilmeyeceğini belirtir.
+Bu çalışmanın içeriğinin, bu çalışmanın biçimlendirmesini belirlerken Unicode karakter değerlerinden bağımsız olarak karmaşık betik metni olarak ele alınıp alınmayacağını belirtir.
 
 ```csharp
 public bool ComplexScript { get; set; }
@@ -18,7 +18,7 @@ public bool ComplexScript { get; set; }
 
 ## Örnekler
 
-Her zaman karmaşık komut dosyası olarak değerlendirilen metnin nasıl ekleneceğini gösterir.
+Her zaman karmaşık bir betik olarak ele alınan metnin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

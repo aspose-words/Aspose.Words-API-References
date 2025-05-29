@@ -2,8 +2,8 @@
 title: BookmarkCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkCollection Remove 方法. 从文档中删除指定的书签 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 BookmarkCollection Remove 方法轻松从文档中删除书签。立即增强您的文档管理！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bookmarkcollection/remove/
@@ -22,13 +22,13 @@ public void Remove(Bookmark bookmark)
 
 ## 例子
 
-演示如何从文档中删除书签。
+展示如何从文档中删除书签。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入五个书签，其边界内有文本。
+// 插入五个书签，并在其边界内添加文本。
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -39,13 +39,13 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// 该集合存储书签。
+// 此集合存储书签。
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// 删除书签有多种方法。
-// 1 - 调用书签的Remove方法：
+// 有几种方法可以删除书签。
+// 1 - 调用书签的 Remove 方法：
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
@@ -61,7 +61,7 @@ doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - 删除书签集合中索引处的书签：
+// 4 - 删除书签集合中某个索引处的书签：
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
@@ -70,7 +70,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 bookmarks.Clear();
 
 // 书签内的文本仍然存在于文档中。
-Assert.That(bookmarks, Is.Empty);
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +
@@ -101,13 +101,13 @@ public void Remove(string bookmarkName)
 
 ## 例子
 
-演示如何从文档中删除书签。
+展示如何从文档中删除书签。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入五个书签，其边界内有文本。
+// 插入五个书签，并在其边界内添加文本。
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -118,13 +118,13 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// 该集合存储书签。
+// 此集合存储书签。
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// 删除书签有多种方法。
-// 1 - 调用书签的Remove方法：
+// 有几种方法可以删除书签。
+// 1 - 调用书签的 Remove 方法：
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
@@ -140,7 +140,7 @@ doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - 删除书签集合中索引处的书签：
+// 4 - 删除书签集合中某个索引处的书签：
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
@@ -149,7 +149,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 bookmarks.Clear();
 
 // 书签内的文本仍然存在于文档中。
-Assert.That(bookmarks, Is.Empty);
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

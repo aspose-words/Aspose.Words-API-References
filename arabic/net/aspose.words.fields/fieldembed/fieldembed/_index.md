@@ -3,7 +3,7 @@ title: FieldEmbed
 linktitle: FieldEmbed
 articleTitle: FieldEmbed
 second_title: Aspose.Words لـ .NET
-description: FieldEmbed البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldEmbed، الحل الأمثل للتكامل السلس. حسّن مشاريعك بميزات المُنشئ الافتراضية القوية لدينا.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldembed/fieldembed/

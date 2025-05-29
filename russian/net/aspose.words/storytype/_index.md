@@ -3,14 +3,14 @@ title: StoryType Enum
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.StoryType перечисление. Текст документа Word хранится в историях.StoryType идентифицирует историю на С#.
+description: Откройте для себя перечисление Aspose.Words.StoryType, эффективно управляйте текстовыми историями документов Word с легкостью. Улучшите свой опыт обработки документов сегодня!
 type: docs
-weight: 6120
+weight: 6970
 url: /ru/net/aspose.words/storytype/
 ---
 ## StoryType enumeration
 
-Текст документа Word хранится в историях.`StoryType` идентифицирует историю.
+Текст документа Word хранится в историях.`StoryType` определяет историю.
 
 ```csharp
 public enum StoryType
@@ -20,24 +20,24 @@ public enum StoryType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Значение по умолчанию. В документе такой истории нет. |
+| None | `0` | Значение по умолчанию. Такой истории в документе нет. |
 | MainText | `1` | Содержит основной текст документа, представленный[`Body`](../body/) . |
-| Footnotes | `2` | Содержит текст сноски, представленный[`Footnote`](../../aspose.words.notes/footnote/) . |
-| Endnotes | `3` | Содержит текст концевых сносок, представленный[`Footnote`](../../aspose.words.notes/footnote/) . |
+| Footnotes | `2` | Содержит текст сноски, представленный как[`Footnote`](../../aspose.words.notes/footnote/) . |
+| Endnotes | `3` | Содержит текст концевых сносок, представленный как[`Footnote`](../../aspose.words.notes/footnote/) . |
 | Comments | `4` | Содержит комментарии к документу (аннотации), представленные[`Comment`](../comment/) . |
-| Textbox | `5` | Содержит текст фигуры или текстового поля, представленный[`Shape`](../../aspose.words.drawing/shape/) . |
-| EvenPagesHeader | `6` | Содержит текст заголовка четных страниц, представленный[`HeaderFooter`](../headerfooter/) . |
-| PrimaryHeader | `7` | Содержит текст основного заголовка. Если заголовок различен для нечетных и четных страниц, содержит текст заголовка нечетных страниц. Представлена[`HeaderFooter`](../headerfooter/) . |
-| EvenPagesFooter | `8` | Содержит текст нижнего колонтитула четных страниц, представленный[`HeaderFooter`](../headerfooter/) . |
-| PrimaryFooter | `9` | Содержит текст основного нижнего колонтитула. Если нижний колонтитул разный для нечетных и четных страниц, содержит текст нижнего колонтитула нечетных страниц. Представлена[`HeaderFooter`](../headerfooter/) . |
-| FirstPageHeader | `10` | Содержит текст заголовка первой страницы, представленный[`HeaderFooter`](../headerfooter/) . |
-| FirstPageFooter | `11` | Содержит текст нижнего колонтитула первой страницы, представленный[`HeaderFooter`](../headerfooter/) . |
-| FootnoteSeparator | `12` | Содержит текст разделителя сносок, представленныйFootnoteSeparator . |
-| FootnoteContinuationSeparator | `13` | Содержит текст разделителя продолжения сноски, представленныйFootnoteSeparator . |
-| FootnoteContinuationNotice | `14` | Содержит текст разделителя уведомления о продолжении сноски, представленныйFootnoteSeparator . |
-| EndnoteSeparator | `15` | Содержит текст разделителя концевой сноски, представленныйFootnoteSeparator . |
-| EndnoteContinuationSeparator | `16` | Содержит текст разделителя продолжения концевой сноски, представленныйFootnoteSeparator . |
-| EndnoteContinuationNotice | `17` | Содержит текст разделителя уведомления о продолжении концевой сноски, представленныйFootnoteSeparator . |
+| Textbox | `5` | Содержит текст фигуры или текстового поля, представленный как[`Shape`](../../aspose.words.drawing/shape/) . |
+| EvenPagesHeader | `6` | Содержит текст заголовка четных страниц, представленный как[`HeaderFooter`](../headerfooter/) . |
+| PrimaryHeader | `7` | Содержит текст основного заголовка. Когда заголовок отличается для нечетных и четных страниц, содержит текст заголовка нечетных страниц. Представлено[`HeaderFooter`](../headerfooter/) . |
+| EvenPagesFooter | `8` | Содержит текст нижнего колонтитула четных страниц, представленный как[`HeaderFooter`](../headerfooter/) . |
+| PrimaryFooter | `9` | Содержит текст основного нижнего колонтитула. Когда нижний колонтитул отличается для нечетных и четных страниц, содержит текст нижнего колонтитула нечетных страниц. Представлено[`HeaderFooter`](../headerfooter/) . |
+| FirstPageHeader | `10` | Содержит текст заголовка первой страницы, представленный как[`HeaderFooter`](../headerfooter/) . |
+| FirstPageFooter | `11` | Содержит текст нижнего колонтитула первой страницы, представленный как[`HeaderFooter`](../headerfooter/) . |
+| FootnoteSeparator | `12` | Содержит текст разделителя сносок. |
+| FootnoteContinuationSeparator | `13` | Содержит текст разделителя продолжения сноски. |
+| FootnoteContinuationNotice | `14` | Содержит текст разделителя уведомления о продолжении сноски. |
+| EndnoteSeparator | `15` | Содержит текст разделителя концевой сноски. |
+| EndnoteContinuationSeparator | `16` | Содержит текст разделителя продолжения концевой сноски. |
+| EndnoteContinuationNotice | `17` | Содержит текст разделителя уведомления о продолжении концевой сноски. |
 
 ## Примеры
 

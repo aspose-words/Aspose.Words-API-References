@@ -3,14 +3,14 @@ title: Theme.MinorFonts
 linktitle: MinorFonts
 articleTitle: MinorFonts
 second_title: Aspose.Words لـ .NET
-description: Theme MinorFonts ملكية. يسمح بتحديد مجموعة الخطوط الثانوية للغات المختلفة في C#.
+description: خصّص أسلوب الطباعة في موقعك باستخدام MinorFonts. حدّد بسهولة خطوطًا فريدة لمختلف اللغات لتحسين تجربة المستخدم وتفاعله.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.themes/theme/minorfonts/
 ---
 ## Theme.MinorFonts property
 
-يسمح بتحديد مجموعة الخطوط الثانوية للغات المختلفة.
+يسمح بتحديد مجموعة الخطوط الثانوية للغات مختلفة.
 
 ```csharp
 public ThemeFonts MinorFonts { get; }
@@ -23,24 +23,24 @@ public ThemeFonts MinorFonts { get; }
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// يمنحنا كائن "Theme" إمكانية الوصول إلى سمة المستند، وهو مصدر الخطوط والألوان الافتراضية.
+// يمنحنا كائن "المظهر" إمكانية الوصول إلى مظهر المستند، وهو مصدر الخطوط والألوان الافتراضية.
 Theme theme = doc.Theme;
 
 // بعض الأنماط، مثل "العنوان 1" و"العنوان الفرعي"، سوف ترث هذه الخطوط.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا الموضوع.
+// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا المظهر.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
 // تحتوي خاصية "الألوان" على لوحة الألوان من Microsoft Word،
-// والذي يظهر عند تغيير التظليل أو لون الخط.
-// قم بتطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
+//الذي يظهر عند تغيير التظليل أو لون الخط.
+// تطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
 // عندما نقوم، على سبيل المثال، بتغيير لون الخط عبر "الصفحة الرئيسية" -> "الخط" -> "لون الخط"،
-// أو قم بإدراج شكل ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
+// أو أدخل شكلًا، ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -54,7 +54,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// تطبيق ألوان مخصصة على الارتباطات التشعبية في حالات النقر عليها وعدم النقر عليها.
+// تطبيق الألوان المخصصة على الروابط التشعبية في حالتها عند النقر عليها أو عدم النقر عليها.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

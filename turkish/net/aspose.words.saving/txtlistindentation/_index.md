@@ -2,17 +2,17 @@
 title: TxtListIndentation Class
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.TxtListIndentation sınıf. Belge dışa aktarılırken liste düzeylerinin nasıl girintileneceğini belirtirText format C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz Metin biçimi dışa aktarımları için liste girinti düzeylerini özelleştirmek üzere Aspose.Words.Saving.TxtListIndentation sınıfını keşfedin. Belge biçimlendirmenizi geliştirin!
 type: docs
-weight: 5650
+weight: 6450
 url: /tr/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
-Belge dışa aktarılırken liste düzeylerinin nasıl girintileneceğini belirtirText format.
+Belge dışa aktarılırken liste düzeylerinin nasıl girintilendirileceğini belirtirText biçim.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) belgeleme makalesi.
 
 ```csharp
 public class TxtListIndentation
@@ -29,7 +29,7 @@ public class TxtListIndentation
 | İsim | Tanım |
 | --- | --- |
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Liste düzeylerini girintilemek için hangi karakterin kullanılacağını alır veya ayarlar. Varsayılan değer '\0'dır, yani girinti yoktur. |
-| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Kaç tane olduğunu alır veya ayarlar[`Character`](./character/) bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0'dır; bu, girinti olmadığı anlamına gelir. |
+| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Kaç tane alır veya ayarlar[`Character`](./character/)bir liste düzeyi başına girinti olarak kullanmak için. Varsayılan değer 0'dır, bu girinti olmadığı anlamına gelir. |
 
 ## Örnekler
 
@@ -39,7 +39,7 @@ Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılaca�
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üç düzeyde girintiye sahip bir liste oluşturun.
+// Üç düzeyde girintiye sahip bir liste oluştur.
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -47,25 +47,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Kullanılacak bir karakter atamak için "Karakter" özelliğini ayarlayın
 // düz metinde liste girintisini simüle eden dolgu için.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Kaç kez olduğunu belirtmek için "Sayma" özelliğini ayarlayın
-// her liste girinti düzeyine dolgu karakteri yerleştirmek için.
+// "Count" özelliğini, kaç kez olacağını belirtmek için ayarlayın
+// her liste girinti düzeyi için dolgu karakterini yerleştirmek için.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Ayrıca bakınız

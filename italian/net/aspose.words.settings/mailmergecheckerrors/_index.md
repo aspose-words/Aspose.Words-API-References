@@ -3,14 +3,14 @@ title: MailMergeCheckErrors Enum
 linktitle: MailMergeCheckErrors
 articleTitle: MailMergeCheckErrors
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione in C#.
+description: Scopri come l'enum Aspose.Words.MailMergeCheckErrors migliora il processo di unione di posta segnalando in modo efficiente gli errori di Microsoft Word per una creazione di documenti senza problemi.
 type: docs
-weight: 5810
+weight: 6640
 url: /it/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione.
+Specifica come Microsoft Word segnalerà gli errori rilevati durante la stampa unione.
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -21,13 +21,13 @@ public enum MailMergeCheckErrors
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Simulate | `1` | Simula l'unione e segnala gli errori in un nuovo documento. |
-| PauseOnError | `2` | Completa l'unione e metti in pausa per segnalare errori. |
+| PauseOnError | `2` | Completa l'unione e metti in pausa per segnalare gli errori. |
 | CollectErrors | `3` | Completa l'unione e segnala gli errori in un nuovo documento. |
 | Default | `2` | Uguale aPauseOnError valore. |
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

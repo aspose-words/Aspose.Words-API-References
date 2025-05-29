@@ -3,14 +3,14 @@ title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words لـ .NET
-description: LoadOptions WarningCallback ملكية. يتم استدعاؤه أثناء عملية التحميل عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق في C#.
+description: اكتشف خاصية LoadOptions WarningCallback، التي تنبهك أثناء عمليات التحميل لمنع فقدان البيانات وضمان سلامة التنسيق.
 type: docs
-weight: 170
+weight: 180
 url: /ar/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-يتم استدعاؤه أثناء عملية التحميل، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
+يتم استدعاؤها أثناء عملية التحميل، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -23,12 +23,12 @@ public IWarningCallback WarningCallback { get; set; }
 ```csharp
 public void LoadOptionsWarningCallback()
 {
-    // قم بإنشاء كائن LoadOptions جديد وقم بتعيين سمة وارنكالباك الخاصة به
-    // كمثال لتطبيق IWarningCallback الخاص بنا.
+    // قم بإنشاء كائن LoadOptions جديد وقم بتعيين سمة WarningCallback الخاصة به
+    // كمثال لتنفيذ IWarningCallback الخاص بنا.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // سوف يقوم رد الاتصال الخاص بنا بطباعة جميع التحذيرات التي تظهر أثناء عملية التحميل.
+    // ستقوم معاودة الاتصال الخاصة بنا بطباعة جميع التحذيرات التي تظهر أثناء عملية التحميل.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();

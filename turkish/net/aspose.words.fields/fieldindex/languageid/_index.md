@@ -2,15 +2,15 @@
 title: FieldIndex.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
-second_title: Aspose.Words for .NET
-description: FieldIndex LanguageId mülk. Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Optimize edilmiş dizinleme için dil kimliklerini kolayca yönetmek üzere FieldIndex LanguageId özelliğini keşfedin. Arama yeteneklerinizi bugün geliştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldindex/languageid/
 ---
 ## FieldIndex.LanguageId property
 
-Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar.
+Dizin oluşturmak için kullanılan dil kimliğini alır veya ayarlar.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -18,34 +18,34 @@ public string LanguageId { get; set; }
 
 ## Örnekler
 
-Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
+XE alanlarını kullanarak bir INDEX alanının nasıl girdilerle doldurulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
-// ve sağdaki XE alanını içeren sayfanın numarası.
-// XE alanlarının "Text" özelliğinde aynı değer varsa,
-// INDEX alanı bunları tek bir girişte gruplandıracaktır.
+// Belgede bulunan her XE alanı için bir girdi görüntüleyecek bir INDEX alanı oluşturun.
+// Her giriş, sol tarafta XE alanının Metin özelliği değerini görüntüler,
+// ve sağ tarafta XE alanını içeren sayfanın numarası.
+// XE alanlarının "Metin" özelliğinde aynı değer varsa,
+// INDEX alanı bunları tek bir girdide gruplayacaktır.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
-// Bu özelliğin değerini "A" olarak ayarlamak tüm girişleri ilk harflerine göre gruplandıracaktır,
-// ve o harfi her grubun üstüne büyük harfle yerleştir.
+// Bu özelliğin değerini "A" olarak ayarlamak tüm girdileri ilk harflerine göre gruplandıracaktır,
+// ve her grubun üstüne o harfi büyük harfle yaz.
 index.Heading = "A";
 
-// INDEX alanı tarafından oluşturulan tabloyu 2 sütuna yayılacak şekilde ayarlayın.
+// INDEX alanıyla oluşturulan tabloyu 2 sütuna yayılacak şekilde ayarla.
 index.NumberOfColumns = "2";
 
-// "ac" karakter aralığının dışında kalan başlangıç harflerine sahip tüm girişleri atlanacak şekilde ayarlayın.
+// "ac" karakter aralığının dışında başlayan harflere sahip tüm girdilerin atlanmasını ayarla.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
-// Sonraki iki XE alanı "A" başlığı altında görünecek,
-// ilgili metin stilleri sayfa numaralarına da uygulanır.
+// Sonraki iki XE alanı "A" başlığı altında gösterilecektir.
+// kendi metin stilleri sayfa numaralarına da uygulandı.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -60,7 +60,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Sonraki iki XE alanının her ikisi de INDEX alanları içindekiler tablosunda "B" ve "C" başlığı altında olacaktır.
+// Sonraki iki XE alanı, INDEX alanları içindekiler tablosunda "B" ve "C" başlığı altında yer alacaktır.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -69,12 +69,12 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cherry";
 
-// INDEX alanları tüm girişleri alfabetik olarak sıralar, böylece bu giriş diğer ikisiyle birlikte "A" altında görünecektir.
+// INDEX alanları tüm girdileri alfabetik olarak sıralar, bu nedenle bu girdi diğer ikisiyle birlikte "A" altında gösterilir.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Bu girdi "D" harfiyle başladığı için görünmeyecektir,
+// Bu giriş "D" harfiyle başladığı için görünmeyecektir.
 // INDEX alanının LetterRange özelliğinin tanımladığı "ac" karakter aralığının dışındadır.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

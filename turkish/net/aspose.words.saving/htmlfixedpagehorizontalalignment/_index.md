@@ -2,15 +2,15 @@
 title: HtmlFixedPageHorizontalAlignment Enum
 linktitle: HtmlFixedPageHorizontalAlignment
 articleTitle: HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment Sıralama. Çıktı HTML belgesindeki sayfaların yatay hizalamasını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: HTML belgelerinizdeki sayfa hizalamasının hassas kontrolü için Aspose.Words.HtmlFixedPageHorizontalAlignment enum'unu keşfedin. Belge biçimlendirmenizi bugün geliştirin!
 type: docs
-weight: 5070
+weight: 5820
 url: /tr/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
 
-Çıktı HTML belgesindeki sayfaların yatay hizalamasını belirtir.
+Çıkış HTML belgesindeki sayfalar için yatay hizalamayı belirtir.
 
 ```csharp
 public enum HtmlFixedPageHorizontalAlignment
@@ -20,13 +20,13 @@ public enum HtmlFixedPageHorizontalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Left | `0` | Sayfaları sola hizalayın. |
-| Center | `1` | Sayfaları ortalayın. Bu varsayılan değerdir. |
-| Right | `2` | Sayfaları sağa hizalayın. |
+| Left | `0` | Sayfaları sola hizala. |
+| Center | `1` | Sayfaları ortala. Bu varsayılan değerdir. |
+| Right | `2` | Sayfaları sağa hizala. |
 
 ## Örnekler
 
-Bir belgeyi HTML'ye kaydederken sayfaların yatay hizalamasının nasıl ayarlanacağını gösterir.
+Bir belgeyi HTML olarak kaydederken sayfaların yatay hizalamasının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -47,11 +47,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

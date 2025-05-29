@@ -3,9 +3,9 @@ title: ContinuousSectionRestart Enum
 linktitle: ContinuousSectionRestart
 articleTitle: ContinuousSectionRestart
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Layout.ContinuousSectionRestart تعداد. يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات في C#.
+description: استكشف قائمة Aspose.Words.Layout.ContinuousSectionRestart لترقيم الصفحات بمرونة في الأقسام المتصلة. حسّن تخطيط المستند بسهولة!
 type: docs
-weight: 3300
+weight: 3750
 url: /ar/net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration
@@ -20,8 +20,8 @@ public enum ContinuousSectionRestart
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Always | `0` | تتم إعادة تشغيل ترقيم الصفحات دائمًا بغض النظر عن تدفق المحتوى. |
-| FromNewPageOnly | `1` | تتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود في الصفحة التي يبدأ فيها القسم. |
+| Always | `0` | يتم إعادة تشغيل ترقيم الصفحات دائمًا بغض النظر عن تدفق المحتوى. |
+| FromNewPageOnly | `1` | يتم إعادة تشغيل ترقيم الصفحات فقط إذا لم يكن هناك أي محتوى آخر قبل القسم في الصفحة التي يبدأ فيها القسم. |
 
 ## أمثلة
 
@@ -30,9 +30,9 @@ public enum ContinuousSectionRestart
 ```csharp
 Document doc = new Document(MyDir + "Continuous section page numbering.docx");
 
-// افتراضيًا، يتطابق سلوك Aspose.Words مع Microsoft Word 2019.
-// إذا كنت بحاجة إلى سلوك Aspose.Words القديم، أو Microsoft Word 2016 المتكرر، فاستخدم "ContiniousSectionRestart.FromNewPageOnly".
-// تتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود في الصفحة التي يبدأ فيها القسم،
+// بشكل افتراضي، يتطابق سلوك Aspose.Words مع سلوك Microsoft Word 2019.
+// إذا كنت بحاجة إلى سلوك Aspose.Words القديم، وتكرار Microsoft Word 2016، استخدم 'ContinuousSectionRestart.FromNewPageOnly'.
+// يتم إعادة تشغيل ترقيم الصفحات فقط إذا لم يكن هناك أي محتوى آخر قبل القسم الموجود في الصفحة حيث يبدأ القسم،
 // وبسبب ذلك سيتم إعادة تعيين الترقيم إلى 2 من الصفحة الثانية.
 doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuousSectionRestart.FromNewPageOnly;
 doc.UpdatePageLayout();

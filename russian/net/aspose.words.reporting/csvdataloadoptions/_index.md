@@ -3,16 +3,16 @@ title: CsvDataLoadOptions Class
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Reporting.CsvDataLoadOptions сорт. Представляет параметры анализа данных CSV на С#.
+description: Откройте для себя Aspose.Words.Reporting.CsvDataLoadOptions для эффективного анализа данных CSV. Оптимизируйте обработку документов с помощью настраиваемых параметров уже сегодня!
 type: docs
-weight: 4660
+weight: 5400
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
 
-Представляет параметры анализа данных CSV.
+Представляет параметры для анализа данных CSV.
 
-Чтобы узнать больше, посетите[Механизм отчетов LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) статья документации.
+Чтобы узнать больше, посетите[Механизм отчетов LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) документальная статья.
 
 ```csharp
 public class CsvDataLoadOptions
@@ -29,14 +29,33 @@ public class CsvDataLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar/) { get; set; } | Получает или задает символ, используемый для комментариев строк данных CSV. |
-| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter/) { get; set; } | Получает или задает символ, который будет использоваться в качестве разделителя столбцов. |
-| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Получает или задает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
-| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Получает или задает символ, используемый для кавычек значений полей. |
+| [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar/) { get; set; } | Возвращает или задает символ, который используется для комментариев к строкам данных CSV. |
+| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter/) { get; set; } | Возвращает или задает символ, который будет использоваться в качестве разделителя столбцов. |
+| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Возвращает или задает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
+| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Возвращает или задает символ, который используется для заключения значений полей в кавычки. |
 
 ## Примечания
 
-Экземпляр этого класса можно передать в конструкторы[`CsvDataSource`](../csvdatasource/) .
+Экземпляр этого класса может быть передан в конструкторы[`CsvDataSource`](../csvdatasource/) .
+
+## Примеры
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Смотрите также
 

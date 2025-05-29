@@ -3,9 +3,9 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.License فصل. يوفر طرقًا لترخيص المكون في C#.
+description: أطلق العنان لإمكانات Aspose.Words الكاملة مع فئة الترخيص لدينا. أدر التراخيص بسهولة لمعالجة مستندات سلسة وتحسين الوظائف.
 type: docs
-weight: 3420
+weight: 3870
 url: /ar/net/aspose.words/license/
 ---
 ## License class
@@ -22,18 +22,18 @@ public class License
 
 | اسم | وصف |
 | --- | --- |
-| [License](license/)() | تهيئة مثيل جديد لهذه الفئة. |
+| [License](license/)() | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | ترخيص المكون. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | ترخيص المكون. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | يرخص المكون. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | يرخص المكون. |
 
 ## أمثلة
 
-يوضح كيفية تهيئة ترخيص Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
+يوضح كيفية تهيئة ترخيص لـ Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
 
 ```csharp
 // قم بتعيين الترخيص لمنتج Aspose.Words الخاص بنا عن طريق تمرير اسم ملف نظام الملفات المحلي لملف ترخيص صالح.
@@ -42,13 +42,13 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// قم بإنشاء نسخة من ملف الترخيص الخاص بنا في مجلد الثنائيات الخاص بتطبيقنا.
+// قم بإنشاء نسخة من ملف الترخيص الخاص بنا في مجلد الملفات الثنائية في تطبيقنا.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// إذا مررنا اسم ملف بدون مسار،
-// سيبحث SetLicense في العديد من مواقع نظام الملفات المحلية لهذا الملف.
-// سيكون أحد هذه المواقع هو المجلد "bin"، الذي يحتوي على نسخة من ملف الترخيص الخاص بنا.
+// إذا مررنا اسم الملف بدون مسار،
+// سوف يقوم SetLicense بالبحث في عدة مواقع لنظام الملفات المحلي عن هذا الملف.
+// سيكون أحد هذه المواقع هو مجلد "bin"، الذي يحتوي على نسخة من ملف الترخيص الخاص بنا.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

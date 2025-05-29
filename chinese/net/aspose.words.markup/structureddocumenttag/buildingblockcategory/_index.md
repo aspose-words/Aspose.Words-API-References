@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.BuildingBlockCategory
 linktitle: BuildingBlockCategory
 articleTitle: BuildingBlockCategory
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag BuildingBlockCategory 财产. 指定此构建块的类别特殊测试节点. 不能无效的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTag BuildingBlockCategory 属性，该属性对于定义 SDT 节点中的构建块类别至关重要。增强您的文档结构！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-指定此构建块的类别**特殊测试**节点. 不能`无效的`.
+指定此构建块的类别**特殊和差别待遇**node. 不能`无效的`.
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockCategory { get; set; }
 
 ## 评论
 
-访问该属性仅适用于BuildingBlockGallery和 DocPartObjSDT 类型。它是只读的**特殊测试**文档部分类型的。
+访问此属性仅适用于BuildingBlockGalleryand DocPartObjSDT 类型。对于**特殊和差别待遇**文档部分类型。
 
 对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 
-演示如何插入结构化文档标签作为构建块，并设置其类别和库。
+展示如何插入结构化文档标签作为构建块，并设置其类别和图库。
 
 ```csharp
 Document doc = new Document();

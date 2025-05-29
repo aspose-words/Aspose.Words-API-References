@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words pour .NET
-description: IFieldUpdatingCallback FieldUpdated méthode. Une méthode définie par lutilisateur qui est appelée juste après la mise à jour dun champ en C#.
+description: Découvrez la méthode IFieldUpdatingCallback FieldUpdated : votre solution pour des mises à jour de champs fluides dans vos applications. Améliorez les performances grâce à des rappels personnalisés !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
@@ -18,7 +18,7 @@ public void FieldUpdated(Field field)
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

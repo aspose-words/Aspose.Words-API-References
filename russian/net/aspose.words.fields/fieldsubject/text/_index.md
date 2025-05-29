@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: FieldSubject Text свойство. Получает или задает текст темы на С#.
+description: Управляйте свойством FieldSubject Text с легкостью — получайте или задавайте текст темы для бесперебойной обработки данных и улучшения пользовательского опыта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldsubject/text/
@@ -23,7 +23,7 @@ public string Text { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Установите значение для встроенного свойства документа «Тема».
+// Задаем значение для встроенного свойства документа «Тема».
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
 // Создайте поле SUBJECT для отображения значения этого встроенного свойства.
@@ -35,8 +35,8 @@ Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
 // Если мы зададим значение свойства Text поля SUBJECT и обновим его, поле будет
-// перезаписываем текущее значение встроенного свойства «Тема» значением его свойства Text,
-// и затем отображаем новое значение.
+// перезаписать текущее значение встроенного свойства "Тема" значением его свойства Текст,
+// а затем отобразить новое значение.
 field.Text = "My new subject";
 field.Update();
 

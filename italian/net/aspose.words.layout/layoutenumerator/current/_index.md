@@ -3,14 +3,14 @@ title: LayoutEnumerator.Current
 linktitle: Current
 articleTitle: Current
 second_title: Aspose.Words per .NET
-description: LayoutEnumerator Current proprietà. Ottiene o imposta la posizione corrente nel modello di layout della pagina. Questa proprietà restituisce un oggetto opaco che corrisponde allentità di layout corrente in C#.
+description: Scopri la proprietà Current di LayoutEnumerator per accedere e modificare facilmente la posizione corrente nel modello di layout della pagina, per una maggiore flessibilità di progettazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words.layout/layoutenumerator/current/
 ---
 ## LayoutEnumerator.Current property
 
-Ottiene o imposta la posizione corrente nel modello di layout della pagina. Questa proprietà restituisce un oggetto opaco che corrisponde all'entità di layout corrente.
+Ottiene o imposta la posizione corrente nel modello di layout di pagina. Questa proprietà restituisce un oggetto opaco che corrisponde all'entità di layout corrente.
 
 ```csharp
 public object Current { get; set; }
@@ -24,12 +24,12 @@ Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Chiama il metodo "GetNumPagesSpanned" per contare quante pagine si estende il contenuto del nostro documento.
-// Poiché il documento è vuoto, il numero di pagine attualmente è zero.
+// Chiama il metodo "GetNumPagesSpanned" per contare su quante pagine si estende il contenuto del nostro documento.
+// Poiché il documento è vuoto, il numero di pagine è attualmente zero.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Compila il documento con 5 pagine di contenuto.
+// Popola il documento con 5 pagine di contenuto.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per darci
-// una cifra precisa per qualsiasi metrica relativa al layout, come il conteggio delle pagine.
+// Prima del layout collector, dobbiamo chiamare il metodo "UpdatePageLayout" per fornirci
+// un valore preciso per qualsiasi metrica correlata al layout, come il numero di pagine.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e la loro estensione complessiva delle pagine.
+// Possiamo vedere i numeri delle pagine iniziali e finali di ogni nodo e la loro estensione complessiva di pagina.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -58,13 +58,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Possiamo scorrere le entità del layout utilizzando un LayoutEnumerator.
+// Possiamo scorrere le entità di layout utilizzando un LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
 // LayoutEnumerator può attraversare la raccolta di entità di layout come un albero.
-// Possiamo anche applicarlo all'entità di layout corrispondente di qualsiasi nodo.
+// Possiamo applicarlo anche a qualsiasi entità layout corrispondente a un nodo.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

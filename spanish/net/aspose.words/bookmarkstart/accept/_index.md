@@ -3,7 +3,7 @@ title: BookmarkStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words para .NET
-description: BookmarkStart Accept método. Acepta un visitante en C#.
+description: Descubre el método Accept de BookmarkStart para conectar con los visitantes sin problemas y mejorar la experiencia del usuario. ¡Aumenta la interacción en tu sitio hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-`FALSO` si el visitante solicitó que se detuviera la enumeración.
+`FALSO` Si el visitante solicitó que se detuviera la enumeración.
 
 ## Observaciones
 
-llamadas[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
+Llamadas[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
-Para obtener más información, consulte el patrón de diseño Visitante.
+Para obtener más información, consulte el patrón de diseño Visitor.
 
 ## Ejemplos
 
@@ -37,16 +37,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

@@ -3,14 +3,14 @@ title: FieldDatabaseDataRow.CreateFrom
 linktitle: CreateFrom
 articleTitle: CreateFrom
 second_title: Aspose.Words für .NET
-description: FieldDatabaseDataRow CreateFrom methode. Initialisiert eine neue Instanz vonFieldDatabaseDataRow class aus demDataRow Instanz in C#.
+description: Erstellen Sie mühelos eine FieldDatabaseDataRow-Instanz aus einer DataRow mit der Methode CreateFrom, was die Datenverwaltung vereinfacht und die Effizienz steigert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddatabasedatarow/createfrom/
 ---
 ## FieldDatabaseDataRow.CreateFrom method
 
-Initialisiert eine neue Instanz von[`FieldDatabaseDataRow`](../) class aus demDataRow Instanz.
+Initialisiert eine neue Instanz des[`FieldDatabaseDataRow`](../) class aus demDataRow Instanz.
 
 ```csharp
 public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)

@@ -2,15 +2,15 @@
 title: ChartTitle.Overlay
 linktitle: Overlay
 articleTitle: Overlay
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartTitle Overlay 财产. 确定是否允许其他图表元素重叠标题 默认情况下重叠是错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartTitle Overlay 属性，控制元素重叠以获得更清晰的视觉效果。通过这个简单的设置，轻松增强您的图表！
 type: docs
-weight: 10
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-确定是否允许其他图表元素重叠标题。 默认情况下重叠是`错误的`.
+确定是否允许其他图表元素覆盖标题。 默认情况下覆盖是`错误的`.
 
 ```csharp
 public bool Overlay { get; set; }
@@ -18,7 +18,7 @@ public bool Overlay { get; set; }
 
 ## 例子
 
-演示如何插入图表并设置标题。
+展示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
@@ -28,9 +28,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性为我们的图表添加标题，该标题显示在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
  // 将“Show”属性设置为“true”以使标题可见。
 title.Show = true;

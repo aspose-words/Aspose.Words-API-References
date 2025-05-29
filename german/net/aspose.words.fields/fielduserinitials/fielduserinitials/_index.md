@@ -3,7 +3,7 @@ title: FieldUserInitials
 linktitle: FieldUserInitials
 articleTitle: FieldUserInitials
 second_title: Aspose.Words für .NET
-description: FieldUserInitials constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldUserInitials-Konstruktor – Ihre Lösung für nahtlose Benutzeridentifizierung. Steigern Sie noch heute die Effizienz mit unserem Standardkonstruktor!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fielduserinitials/fielduserinitials/

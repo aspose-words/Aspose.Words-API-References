@@ -3,9 +3,9 @@ title: CommentDisplayMode Enum
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Layout.CommentDisplayMode énumération. Spécifie le mode de rendu des commentaires du document en C#.
+description: Découvrez l'énumération Aspose.Words.Layout.CommentDisplayMode pour un rendu optimisé des commentaires de documents. Améliorez la clarté et la présentation de vos documents dès aujourd'hui !
 type: docs
-weight: 3290
+weight: 3740
 url: /fr/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -20,9 +20,9 @@ public enum CommentDisplayMode
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Hide | `0` | Aucun commentaire sur le document n'est affiché. |
-| ShowInBalloons | `1` | Affiche les commentaires du document dans des bulles dans la marge. Il s'agit de la valeur par défaut. |
-| ShowInAnnotations | `2` | Rend les commentaires du document sous forme d'annotations. Ceci n'est disponible que pour le format Pdf. |
+| Hide | `0` | Aucun commentaire de document n'est rendu. |
+| ShowInBalloons | `1` | Affiche les commentaires du document dans des bulles en marge. Il s'agit de la valeur par défaut. |
+| ShowInAnnotations | `2` | Affiche les commentaires du document sous forme d'annotations. Disponible uniquement pour le format PDF. |
 
 ## Exemples
 
@@ -39,7 +39,7 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations est uniquement disponible aux formats Pdf1.7 et Pdf1.5.
-// Dans d'autres formats, cela fonctionnera de la même manière que Hide.
+// Dans d'autres formats, cela fonctionnera de manière similaire à Masquer.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");

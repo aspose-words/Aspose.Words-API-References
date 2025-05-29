@@ -2,8 +2,8 @@
 title: ChartXValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue DoubleValue 财产. 获取存储的数值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartXValue DoubleValue 属性，轻松检索和利用存储的数值，以增强数据可视化和分析。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/doublevalue/

@@ -3,7 +3,7 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words для .NET
-description: Story Tables свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами истории на С#.
+description: Откройте для себя Story Tables — тщательно подобранную коллекцию таблиц, напрямую связанных с вашей историей, которая легко улучшает организацию и вовлеченность.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/story/tables/

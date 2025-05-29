@@ -3,9 +3,9 @@ title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.CellVerticalAlignment перечисление. Задает вертикальное выравнивание текста внутри ячейки таблицы на С#.
+description: Откройте для себя перечисление Aspose.Words.Tables.CellVerticalAlignment для оптимального выравнивания текста в ячейках таблицы. Улучшите макет документа без усилий!
 type: docs
-weight: 6280
+weight: 7130
 url: /ru/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -20,13 +20,13 @@ public enum CellVerticalAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Top | `0` | Текст выравнивается по верху ячейки. |
-| Center | `1` | Текст выравнивается по середине ячейки. |
-| Bottom | `2` | Текст выравнивается по низу ячейки. |
+| Top | `0` | Текст выравнивается по верхнему краю ячейки. |
+| Center | `1` | Текст выравнивается по центру ячейки. |
+| Bottom | `2` | Текст выравнивается по нижнему краю ячейки. |
 
 ## Примеры
 
-Показывает, как построить форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы конструктор документов применит текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и ко всем новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
+// Изменения в форматировании конструктора не влияют на ранее добавленные строки и ячейки.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

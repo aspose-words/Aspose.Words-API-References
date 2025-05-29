@@ -2,10 +2,10 @@
 title: OlePackage Class
 linktitle: OlePackage
 articleTitle: OlePackage
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.OlePackage 班级. 允许访问 OLE 包属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.OlePackage 类以轻松管理 OLE 包属性并增强您的文档处理能力。
 type: docs
-weight: 1160
+weight: 1540
 url: /zh/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
@@ -27,19 +27,19 @@ public class OlePackage
 
 ## 评论
 
-OLE 包是一种传统且“未记录”的方式，用于在 OLE 处理程序未知的情况下存储嵌入对象。 早期 Windows 版本（例如 Windows 3.1、95 和 98）具有 Packager.exe 应用程序，可用于将任何类型的数据嵌入到文档中. 现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
+如果 OLE 处理程序未知，则 OLE 包是一种传统的、“未记录的”存储嵌入对象的方法。 早期的 Windows 版本（如 Windows 3.1、95 和 98）具有 Packager.exe 应用程序，可用于将任何类型的数据嵌入文档。 现在，此应用程序已被排除在 Windows 之外，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍会使用它来嵌入数据。
 
 ## 例子
 
-显示如何将 OLE 对象插入到文档中。
+展示如何将 OLE 对象插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE 对象允许我们使用另一个已安装的应用程序打开本地文件系统中的其他文件
-// 在我们的操作系统中，双击文档正文中包含 OLE 对象的形状。
-// 在这种情况下，我们的外部文件将是 ZIP 存档。
+// 在我们的操作系统中，通过双击文档主体中包含 OLE 对象的形状。
+// 在这种情况下，我们的外部文件将是一个 ZIP 存档。
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

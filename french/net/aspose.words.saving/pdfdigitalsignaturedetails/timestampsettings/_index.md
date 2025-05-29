@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails.TimestampSettings
 linktitle: TimestampSettings
 articleTitle: TimestampSettings
 second_title: Aspose.Words pour .NET
-description: PdfDigitalSignatureDetails TimestampSettings propriété. Obtient ou définit les paramètres dhorodatage de la signature numérique en C#.
+description: Découvrez la propriété PdfDigitalSignatureDetails TimestampSettings pour gérer facilement les horodatages de signature numérique pour une sécurité et une conformité améliorées des documents.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -18,7 +18,7 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`nul` et la signature numérique ne sera pas horodatée. Lorsque cette propriété est définie sur une valeur valide[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, alors la signature numérique dans le document PDF sera horodatée.
+La valeur par défaut est`nul` et la signature numérique ne sera pas horodatée. Lorsque cette propriété est définie sur une valeur valide[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) objet, alors la signature numérique dans le document PDF sera horodatée.
 
 ## Exemples
 
@@ -29,22 +29,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crée un horodatage vérifié par l'autorité.
+// Créer un horodatage vérifié par une autorité.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
 // La durée de vie par défaut de l'horodatage est de 100 secondes.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Nous pouvons définir notre délai d'attente via le constructeur.
+// Nous pouvons définir notre délai d'expiration via le constructeur.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", TimeSpan.FromMinutes(30));
 
@@ -53,7 +53,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// La méthode "Save" appliquera notre signature au document de sortie à ce moment.
+// La méthode « Enregistrer » appliquera notre signature au document de sortie à ce moment-là.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

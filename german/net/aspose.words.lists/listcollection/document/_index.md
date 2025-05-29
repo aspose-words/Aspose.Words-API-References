@@ -3,14 +3,14 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: ListCollection Document eigendom. Ruft das Eigentümerdokument ab in C#.
+description: Entdecken Sie die ListCollection-Dokumenteigenschaft, um einfach auf das Eigentümerdokument zuzugreifen und Ihr Datenmanagement zu optimieren. Steigern Sie noch heute Ihre Effizienz!
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listcollection/document/
 ---
 ## ListCollection.Document property
 
-Ruft das Eigentümerdokument ab.
+Ruft das Besitzerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Beispiele
 
-Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie die Eigentümerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();

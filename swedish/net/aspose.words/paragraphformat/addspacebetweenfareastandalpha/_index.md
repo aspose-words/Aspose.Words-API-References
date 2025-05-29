@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 linktitle: AddSpaceBetweenFarEastAndAlpha
 articleTitle: AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words för .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha fast egendom. Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av latinsk text och regioner av östasiatisk text i det aktuella stycket i C#.
+description: Optimera dokumentets utseende med egenskapen ParagraphFormat AddSpaceBetweenFarEastAndAlpha, vilket förbättrar avståndet mellan latinsk och östasiatisk text.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av latinsk text och regioner av östasiatisk text i det aktuella stycket.
+Hämtar eller ställer in en flagga som anger om avståndet mellan tecken justeras automatiskt mellan regioner av latinsk text och regioner av östasiatisk text i det aktuella stycket.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

@@ -3,14 +3,14 @@ title: DocumentBuilder.EndEditableRange
 linktitle: EndEditableRange
 articleTitle: EndEditableRange
 second_title: Aspose.Words för .NET
-description: DocumentBuilder EndEditableRange metod. Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut i C#.
+description: Upptäck DocumentBuilder-metoden EndEditableRange för att effektivt markera redigerbara avsnitt i dina dokument och förbättra ditt redigeringsarbetsflöde.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/documentbuilder/endeditablerange/
 ---
 ## EndEditableRange() {#endeditablerange}
 
-Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut.
+Markerar den aktuella positionen i dokumentet som ett redigerbart områdesslut.
 
 ```csharp
 public EditableRangeEnd EndEditableRange()
@@ -18,13 +18,13 @@ public EditableRangeEnd EndEditableRange()
 
 ### Returvärde
 
-Den redigerbara intervallnoden som just skapades.
+Den redigerbara intervallslutnoden som just skapades.
 
 ## Anmärkningar
 
-Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
+Redigerbart område i ett dokument kan överlappa och omfatta vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda.[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
 
-Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
+Felaktigt utformade redigerbara områden kommer att ignoreras när dokumentet sparas.
 
 ## Exempel
 
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Redigerbara intervall tillåter oss att lämna delar av skyddade dokument öppna för redigering.
+// Redigerbara områden låter oss lämna delar av skyddade dokument öppna för redigering.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -50,7 +50,7 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Olika delar av det redigerbara intervallet länkar till varandra.
+// Olika delar av det redigerbara området länkar till varandra.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
@@ -65,7 +65,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Ta bort ett redigerbart område. Alla noder som fanns inom intervallet kommer att förbli intakta.
+// Ta bort ett redigerbart område. Alla noder som fanns inom området kommer att förbli intakta.
 editableRange.Remove();
 ```
 
@@ -80,7 +80,7 @@ editableRange.Remove();
 
 ## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
-Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut.
+Markerar den aktuella positionen i dokumentet som ett redigerbart områdesslut.
 
 ```csharp
 public EditableRangeEnd EndEditableRange(EditableRangeStart start)
@@ -88,23 +88,23 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| start | EditableRangeStart | Detta redigerbara intervall startar. |
+| start | EditableRangeStart | Detta redigerbara intervall börjar. |
 
 ### Returvärde
 
-Den redigerbara intervallnoden som just skapades.
+Den redigerbara intervallslutnoden som just skapades.
 
 ## Anmärkningar
 
-Använd denna överbelastning när du skapar kapslade redigerbara intervall.
+Använd denna överbelastning när du skapar kapslade redigerbara områden.
 
-Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
+Redigerbart område i ett dokument kan överlappa och omfatta vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda.[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
 
-Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
+Felaktigt utformade redigerbara områden kommer att ignoreras när dokumentet sparas.
 
 ## Exempel
 
-Visar hur man skapar kapslade redigerbara intervall.
+Visar hur man skapar kapslade redigerbara områden.
 
 ```csharp
 Document doc = new Document();
@@ -114,15 +114,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
                 "we cannot edit this paragraph without the password.");
 
-// Skapa två kapslade redigerbara intervall.
+// Skapa två kapslade redigerbara områden.
 EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
 
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// För närvarande är dokumentbyggarens nodinfogningsmarkör inom mer än ett pågående redigerbart område.
-// När vi vill avsluta ett redigerbart intervall i den här situationen,
+// För närvarande finns dokumentbyggarens nodinsättningsmarkör i mer än ett pågående redigerbart område.
+// När vi vill avsluta ett redigerbart område i den här situationen,
 // vi måste ange vilket av intervallen vi vill avsluta genom att skicka dess EditableRangeStart-nod.
 builder.EndEditableRange(innerEditableRangeStart);
 
@@ -132,8 +132,8 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Om en textregion har två överlappande redigerbara intervall med specificerade grupper,
-// den kombinerade gruppen av användare som utesluts av båda grupperna hindras från att redigera den.
+// Om ett textområde har två överlappande redigerbara områden med angivna grupper,
+// den kombinerade gruppen av användare som exkluderas av båda grupperna hindras från att redigera den.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 

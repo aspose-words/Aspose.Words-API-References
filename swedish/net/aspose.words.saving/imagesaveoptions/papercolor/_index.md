@@ -3,14 +3,14 @@ title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions PaperColor fast egendom. Hämtar eller ställer in bakgrundsfärgen papper för de genererade bilderna i C#.
+description: Upptäck egenskapen ImageSaveOptions PaperColor för att enkelt anpassa bakgrundsfärger för dina genererade bilder, vilket förbättrar visuell attraktionskraft och unikhet.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
 
-Hämtar eller ställer in bakgrundsfärgen (papper) för de genererade bilderna.
+Hämtar eller ställer in bakgrundsfärgen (pappersfärgen) för de genererade bilderna.
 
 Standardvärdet ärWhite.
 
@@ -20,11 +20,11 @@ public Color PaperColor { get; set; }
 
 ## Anmärkningar
 
-När du renderar sidor i ett dokument som anger sin egen bakgrundsfärg, , kommer dokumentets bakgrundsfärg att åsidosätta färgen som anges av den här egenskapen.
+När sidor i ett dokument som anger sin egen bakgrundsfärg, , renderas kommer dokumentets bakgrundsfärg att åsidosätta den färg som anges av den här egenskapen.
 
 ## Exempel
 
-Återger en sida i ett Word-dokument till en bild med transparent eller färgad bakgrund.
+Återger en sida från ett Word-dokument till en bild med transparent eller färgad bakgrund.
 
 ```csharp
 Document doc = new Document();
@@ -36,12 +36,11 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
-// för att ändra sättet på vilket den metoden renderar dokumentet till en bild.
+// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+// för att modifiera hur metoden renderar dokumentet till en bild.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
-// Ställ in egenskapen "PaperColor" till en transparent färg för att tillämpa en transparent
-// bakgrund till dokumentet medan du renderar det till en bild.
+// Ställ in egenskapen "PaperColor" till en transparent färg för att tillämpa en transparent färg
+// bakgrund till dokumentet när det renderas till en bild.
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);

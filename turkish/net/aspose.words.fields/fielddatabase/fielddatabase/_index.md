@@ -2,8 +2,8 @@
 title: FieldDatabase
 linktitle: FieldDatabase
 articleTitle: FieldDatabase
-second_title: Aspose.Words for .NET
-description: FieldDatabase inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanıcı dostu varsayılan kurulumla kusursuz veri yönetimi için başvuracağınız çözüm olan FieldDatabase oluşturucusunu keşfedin. Projelerinizi bugün optimize edin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabase/fielddatabase/

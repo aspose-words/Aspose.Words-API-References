@@ -3,14 +3,14 @@ title: FieldUserAddress.UserAddress
 linktitle: UserAddress
 articleTitle: UserAddress
 second_title: Aspose.Words для .NET
-description: FieldUserAddress UserAddress свойство. Получает или задает почтовый адрес текущего пользователя на С#.
+description: Управляйте почтовыми адресами пользователей без усилий с помощью свойства FieldUserAddress. Легко извлекайте и обновляйте информацию о текущем пользователе для улучшения опыта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielduseraddress/useraddress/
 ---
 ## FieldUserAddress.UserAddress property
 
-Получает или задает почтовый адрес текущего пользователя.
+Возвращает или задает почтовый адрес текущего пользователя.
 
 ```csharp
 public string UserAddress { get; set; }
@@ -23,7 +23,7 @@ public string UserAddress { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
+// Создаем объект UserInformation и устанавливаем его как источник информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -35,14 +35,14 @@ FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldT
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
+// Мы можем задать это свойство, чтобы наше поле переопределяло значение, которое в данный момент хранится в объекте UserInformation.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 
 Assert.AreEqual(" USERADDRESS  \"456 North Road\"", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("456 North Road", fieldUserAddress.Result);
 
-// Это не влияет на значение объекта UserInformation.
+// Это не влияет на значение в объекте UserInformation.
 Assert.AreEqual("123 Main Street", doc.FieldOptions.CurrentUser.Address);
 
 doc.UpdateFields();

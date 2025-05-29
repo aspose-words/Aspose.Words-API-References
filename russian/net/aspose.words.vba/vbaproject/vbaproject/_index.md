@@ -3,14 +3,14 @@ title: VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words для .NET
-description: VbaProject строитель. Создает пробелVbaProject  на С#.
+description: Создайте новый VbaProject без усилий с помощью нашего конструктора. Начните свой путь программирования с пустого проекта и раскройте свой творческий потенциал!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Создает пробел[`VbaProject`](../) .
+Создает пустое место[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()
@@ -18,12 +18,12 @@ public VbaProject()
 
 ## Примеры
 
-Показывает, как создать проект VBA с помощью макросов.
+Показывает, как создать проект VBA с использованием макросов.
 
 ```csharp
 Document doc = new Document();
 
-// Создаем новый проект VBA.
+// Создать новый проект VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;

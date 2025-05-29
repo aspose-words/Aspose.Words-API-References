@@ -3,9 +3,9 @@ title: Document.Revisions
 linktitle: Revisions
 articleTitle: Revisions
 second_title: Aspose.Words pour .NET
-description: Document Revisions propriété. Obtient une collection de révisions modifications suivies qui existent dans ce document en C#.
+description: Suivez facilement les révisions de vos documents grâce à notre outil avancé. Restez organisé et améliorez la collaboration grâce à des modifications claires et mises en évidence !
 type: docs
-weight: 350
+weight: 370
 url: /fr/net/aspose.words/document/revisions/
 ---
 ## Document.Revisions property
@@ -18,7 +18,7 @@ public RevisionCollection Revisions { get; }
 
 ## Remarques
 
-La collection renvoyée est une collection « live », ce qui signifie que si vous supprimez des parties d'un document contenant des révisions , les révisions supprimées disparaîtront automatiquement de cette collection.
+La collection renvoyée est une collection « live », ce qui signifie que si vous supprimez des parties d'un document contenant révisions, les révisions supprimées disparaîtront automatiquement de cette collection.
 
 ## Exemples
 
@@ -41,13 +41,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Ce flag correspond au "Review" -> "Suivi" -> Option « Suivre les modifications » dans Microsoft Word.
+// Cet indicateur correspond à l'option « Révision » -> « Suivi » -> « Suivi des modifications » dans Microsoft Word.
 // La méthode "StartTrackRevisions" n'affecte pas sa valeur,
-// et le document suit les révisions par programme même s'il a la valeur "false".
+// et le document suit les révisions par programmation malgré sa valeur « false ».
 // Si nous ouvrons ce document à l'aide de Microsoft Word, il ne suivra pas les révisions.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Nous avons ajouté du texte à l'aide du générateur de documents, la première révision est donc une révision de type insertion.
+// Nous avons ajouté du texte à l'aide du générateur de documents, donc la première révision est une révision de type insertion.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -55,7 +55,7 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Supprime une exécution pour créer une révision de type suppression.
+// Supprimez une exécution pour créer une révision de type suppression.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
 // L'ajout d'une nouvelle révision la place au début de la collection de révisions.
@@ -63,12 +63,12 @@ Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
 // Les révisions d'insertion apparaissent dans le corps du document avant même que nous acceptions/rejetions la révision.
-// Le rejet de la révision supprimera ses nœuds du corps. A l’inverse, les nœuds qui composent les révisions de suppression
-// s'attarde également dans le document jusqu'à ce que nous acceptions la révision.
+// Rejeter la révision supprimera ses nœuds du corps. À l'inverse, les nœuds qui la composent suppriment les révisions.
+// restent également dans le document jusqu'à ce que nous acceptions la révision.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Accepter la révision supprimée supprimera son nœud parent du texte du paragraphe
-// puis supprime la révision de la collection elle-même.
+// L'acceptation de la suppression de révision supprimera son nœud parent du texte du paragraphe
+// puis supprimez la révision de la collection elle-même.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);

@@ -2,15 +2,15 @@
 title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo Panose 财产. 获取或设置 PANOSE 字体分类号 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FontInfo PANOSE 属性，轻松获取或设置字体分类编号，以增强字体管理和设计精度。
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
 
-获取或设置 PANOSE 字体分类号。
+获取或设置 PANOSE 字体分类编号。
 
 ```csharp
 public byte[] Panose { get; set; }
@@ -18,13 +18,13 @@ public byte[] Panose { get; set; }
 
 ## 评论
 
-PANOSE 是对字体关键视觉特征 （例如对比度、粗细和衬线样式）的紧凑 10 字节描述。这些数字代表系列种类、衬线样式、 粗细、比例、对比度、笔画变化、臂样式、字母形式、中线和 X 高度。
+PANOSE 是一个紧凑的 10 字节描述，用于描述字体的关键视觉特征，例如对比度、粗细和衬线样式。这些数字分别代表字体家族类型、衬线样式、粗细、比例、对比度、笔画变化、臂样式、字体形状、中线和 X 高度。
 
-可`无效的`。
+可以`无效的`。
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -37,7 +37,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

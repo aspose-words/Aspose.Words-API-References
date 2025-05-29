@@ -3,14 +3,14 @@ title: FieldOptions.UseInvariantCultureNumberFormat
 linktitle: UseInvariantCultureNumberFormat
 articleTitle: UseInvariantCultureNumberFormat
 second_title: Aspose.Words für .NET
-description: FieldOptions UseInvariantCultureNumberFormat eigendom. Ruft den Wert ab oder legt ihn fest der angibt dass das Zahlenformat mithilfe der invarianten Kultur analysiert wird oder nicht in C#.
+description: Entdecken Sie die UseInvariantCultureNumberFormat-Eigenschaft von FieldOptions, um die Zahlenformatierung mit invarianter Kultur für eine konsistente Datenverarbeitung einfach zu verwalten.
 type: docs
 weight: 210
 url: /de/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
 
-Ruft den Wert ab oder legt ihn fest, der angibt, dass das Zahlenformat mithilfe der invarianten Kultur analysiert wird oder nicht
+Ruft den Wert ab oder legt ihn fest, der angibt, ob das Zahlenformat mit invarianter Kultur analysiert wird oder nicht
 
 ```csharp
 public bool UseInvariantCultureNumberFormat { get; set; }
@@ -18,9 +18,9 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt ist`WAHR` , das Zahlenformat stammt aus einer invarianten Kultur.
+Wenn diese Eigenschaft auf`WAHR` das Zahlenformat wird aus einer invarianten Kultur übernommen.
 
-Wenn diese Eigenschaft auf festgelegt ist`FALSCH` , das Zahlenformat wird aus der Kultur des aktuellen Threads übernommen.
+Wenn diese Eigenschaft auf`FALSCH` , das Zahlenformat wird aus der Kultur des aktuellen Threads übernommen.
 
 Der Standardwert ist`FALSCH`.
 
@@ -36,13 +36,13 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
- // Manchmal formatieren Felder ihre Zahlen in bestimmten Kulturen möglicherweise nicht richtig.
+    // Manchmal werden die Zahlen in bestimmten Kulturen nicht korrekt formatiert.
 Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
-Assert.AreEqual("$1234567,89 .     ", field.Result);
+Assert.AreEqual("$1.234.567,89 ,     ", field.Result);
 
 // Um dies zu beheben, könnten wir die Kultur für den gesamten Thread ändern.
 // Eine andere Möglichkeit, dies zu beheben, besteht darin, dieses Flag zu setzen.
-// wodurch alle Felder bei der Formatierung von Zahlen die invariante Kultur verwenden.
+// wodurch alle Felder beim Formatieren von Zahlen die invariante Kultur verwenden.
 // Auf diese Weise können wir vermeiden, die Kultur für den gesamten Thread zu ändern.
 doc.FieldOptions.UseInvariantCultureNumberFormat = true;
 field.Update();

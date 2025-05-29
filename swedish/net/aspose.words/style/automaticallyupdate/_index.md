@@ -3,14 +3,14 @@ title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
 second_title: Aspose.Words för .NET
-description: Style AutomaticallyUpdate fast egendom. Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde i C#.
+description: Upptäck hur egenskapen AutomaticallyUpdate förbättrar dina stilar genom att automatiskt omdefiniera dem för optimalt värde och prestanda i dina projekt.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/style/automaticallyupdate/
 ---
 ## Style.AutomaticallyUpdate property
 
-Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde.
+Anger om den här stilen automatiskt omdefinieras baserat på lämpligt värde.
 
 ```csharp
 public bool AutomaticallyUpdate { get; set; }
@@ -18,9 +18,9 @@ public bool AutomaticallyUpdate { get; set; }
 
 ## Anmärkningar
 
-Om egenskapsvärdet är satt till true, omdefinierar MS Word automatiskt den aktuella stilen när lämplig styckeformatering har ändrats.
+Om egenskapsvärdet är inställt på sant omdefinierar MS Word automatiskt den aktuella stilen när lämplig styckeformatering har ändrats.
 
-Egenskapen AutomaticallyUpdate är endast tillämplig på styckeformat.
+Egenskapen AutomaticallyUpdate gäller endast för styckeformat.
 
 Standardvärdet är`falsk`.
 
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tillämpa en av stilarna från dokumentet på stycket som dokumentbyggaren skapar.
+// Använd en av formaten från dokumentet på stycket som dokumentbyggaren skapar.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

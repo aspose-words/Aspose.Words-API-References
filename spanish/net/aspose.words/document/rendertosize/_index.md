@@ -3,14 +3,14 @@ title: Document.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words para .NET
-description: Document RenderToSize método. Representa una página de documento en unGraphics objeto a un tamaño específico en C#.
+description: Descubra el método RenderToSize para convertir eficientemente las páginas de documentos en objetos gráficos con las dimensiones deseadas. ¡Mejore su proceso de renderizado hoy mismo!
 type: docs
-weight: 690
+weight: 740
 url: /es/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
 
-Representa una página de documento en unGraphics objeto a un tamaño específico.
+Representa una página de documento en unGraphics objeto a un tamaño especificado.
 
 ```csharp
 public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, float width, 
@@ -28,7 +28,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 ### Valor_devuelto
 
-La escala que se calculó automáticamente para que la página renderizada se ajustara al tamaño especificado.
+La escala que se calculó automáticamente para que la página renderizada se ajuste al tamaño especificado.
 
 ## Ejemplos
 
@@ -41,13 +41,13 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Aplicar un factor de escala del 70% a la página que representaremos usando este lienzo.
+        //Aplicamos un factor de escala del 70% a la página que renderizaremos utilizando este lienzo.
         canvas.Scale(70);
 
         // Desplaza la página 0,5" desde los bordes superior e izquierdo de la página.
         canvas.Translate(0.5f, 0.5f);
 
-        // Gira la página renderizada 10 grados.
+        // Girar la página renderizada 10 grados.
         canvas.RotateDegrees(10);
 
         // Crea y dibuja un rectángulo.
@@ -59,18 +59,18 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
             StrokeWidth = 3f / 72f
         });
 
-        // Representa la primera página del documento al mismo tamaño que el rectángulo anterior.
-        // El rectángulo enmarcará esta página.
+        // Renderiza la primera página del documento al mismo tamaño que el rectángulo anterior.
+        //El rectángulo enmarcará esta página.
         float returnedScale = doc.RenderToSize(0, canvas, 0f, 0f, 3f, 3f);
 
         Console.WriteLine("The image was rendered at {0:P0} zoom.", returnedScale);
 
-        // Restablece la matriz y luego aplica un nuevo conjunto de escalas y traducciones.
+        // Restablezca la matriz y luego aplique un nuevo conjunto de escalas y traducciones.
         canvas.ResetMatrix();
         canvas.Scale(5);
         canvas.Translate(10, 10);
 
-        // Crea otro rectángulo.
+        //Crea otro rectángulo.
         rect = new SKRect(0, 0, 50, 100);
         rect.Offset(90, 10);
         canvas.DrawRect(rect, new SKPaint
@@ -80,7 +80,7 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
             StrokeWidth = 1
         });
 
-        // Representa nuevamente la primera página dentro del rectángulo recién creado.
+        // Renderiza nuevamente la primera página dentro del rectángulo recién creado.
         doc.RenderToSize(0, canvas, 90, 10, 50, 100);
 
         using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "Rendering.RenderToSizeNetStandard2.png"))
@@ -102,34 +102,34 @@ using (Bitmap bmp = new Bitmap(700, 700))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Establece la propiedad "PageUnit" en "GraphicsUnit.Inch" para usar pulgadas como tamaño
-        // unidad de medida para cualquier transformación y dimensión que definamos.
+        // Establezca la propiedad "PageUnit" en "GraphicsUnit.Inch" para utilizar pulgadas como
+        //Unidad de medida para cualquier transformación y dimensión que definamos.
         gr.PageUnit = GraphicsUnit.Inch;
 
-        // Compensa la salida 0,5" desde el borde.
+        // Desplaza la salida 0,5" desde el borde.
         gr.TranslateTransform(0.5f, 0.5f);
 
         // Gira la salida 10 grados.
         gr.RotateTransform(10);
 
-        // Dibuja un rectángulo de 3"x3".
+        //Dibuja un rectángulo de 3"x3".
         gr.DrawRectangle(new Pen(Color.Black, 3f / 72f), 0f, 0f, 3f, 3f);
 
-        // Dibuja la primera página de nuestro documento con las mismas dimensiones y transformación que el rectángulo.
-        // El rectángulo enmarcará la primera página.
+        //Dibuja la primera página de nuestro documento con las mismas dimensiones y transformación que el rectángulo.
+        //El rectángulo enmarcará la primera página.
         float returnedScale = doc.RenderToSize(0, gr, 0f, 0f, 3f, 3f);
 
         // Este es el factor de escala que el método RenderToSize aplicó a la primera página para ajustarse al tamaño especificado.
         Assert.AreEqual(0.2566f, returnedScale, 0.0001f);
 
-        // Establece la propiedad "PageUnit" en "GraphicsUnit.Millimeter" para usar milímetros como
-        // unidad de medida para cualquier transformación y dimensión que definamos.
+        // Establezca la propiedad "PageUnit" en "GraphicsUnit.Millimeter" para utilizar milímetros como
+        //Unidad de medida para cualquier transformación y dimensión que definamos.
         gr.PageUnit = GraphicsUnit.Millimeter;
 
-        // Restablece las transformaciones que usamos en el renderizado anterior.
+        // Restablece las transformaciones que usamos en la representación anterior.
         gr.ResetTransform();
 
-        // Aplicar otro conjunto de transformaciones.
+         //Aplica otro conjunto de transformaciones.
         gr.TranslateTransform(10, 10);
         gr.ScaleTransform(0.5f, 0.5f);
         gr.PageScale = 2f;

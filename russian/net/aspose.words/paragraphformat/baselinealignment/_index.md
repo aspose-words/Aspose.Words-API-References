@@ -3,14 +3,14 @@ title: ParagraphFormat.BaselineAlignment
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words для .NET
-description: ParagraphFormat BaselineAlignment свойство. Получает или задает вертикальное положение шрифта в строке на С#.
+description: Оптимизируйте макет текста с помощью свойства ParagraphFormat BaselineAlignment, позволяющего точно контролировать вертикальное расположение шрифта для улучшения читаемости.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/paragraphformat/baselinealignment/
 ---
 ## ParagraphFormat.BaselineAlignment property
 
-Получает или задает вертикальное положение шрифта в строке.
+Возвращает или задает вертикальное положение шрифтов в строке.
 
 ```csharp
 public BaselineAlignment BaselineAlignment { get; set; }
@@ -18,7 +18,7 @@ public BaselineAlignment BaselineAlignment { get; set; }
 
 ## Примеры
 
-Показывает, как установить вертикальное положение шрифтов в строке.
+Показывает, как задать вертикальное положение шрифтов в строке.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

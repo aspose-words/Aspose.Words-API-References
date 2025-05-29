@@ -2,8 +2,8 @@
 title: PageSetup.Margins
 linktitle: Margins
 articleTitle: Margins
-second_title: Aspose.Words for .NET
-description: PageSetup Margins mülk. Ön ayarı döndürür veya ayarlarMargins sayfanın C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfanızın Kenar Boşluklarını PageSetup özelliğiyle zahmetsizce ayarlayın. En iyi düzen ve sunum için ayarları özelleştirin. Belgenizin görünümünü geliştirin!
 type: docs
 weight: 260
 url: /tr/net/aspose.words/pagesetup/margins/
@@ -23,8 +23,8 @@ Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir belgeyi PDF'ye veya görüntüye kaydetmek veya ilk kez yazdırmak otomatik olarak
-// sayfalarının içindeki belgenin düzenini önbelleğe al.
+// Bir belgeyi PDF'e, görüntüye kaydetmek veya ilk kez yazdırmak otomatik olarak
+// Belgenin düzenini sayfalarının içinde önbelleğe al.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
 // Belgeyi bir şekilde değiştirin.
@@ -32,9 +32,9 @@ doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // Aspose.Words'ün mevcut sürümünde belgeyi değiştirmek otomatik olarak yeniden oluşturmuyor
-// önbelleğe alınan sayfa düzeni. Önbelleğe alınmış düzeni istiyorsak
-// güncel kalmak için manuel olarak güncellememiz gerekecek.
+// Aspose.Words'ün geçerli sürümünde, belgeyi değiştirmek otomatik olarak yeniden oluşturmaz
+// önbelleğe alınmış sayfa düzeni. Önbelleğe alınmış düzeni istiyorsak
+// Güncel kalmak için manuel olarak güncellememiz gerekecek.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");

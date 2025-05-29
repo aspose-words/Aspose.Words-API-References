@@ -3,14 +3,14 @@ title: FieldCreateDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words لـ .NET
-description: FieldCreateDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
+description: أدر تنسيقات التاريخ بسهولة باستخدام خاصية FieldCreateDate UseLunarCalendar. اختر بين التقويمين الهجري والعبري القمري لجدولة دقيقة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+يحصل على أو يعين ما إذا كان سيتم استخدام التقويم الهجري القمري أو التقويم العبري القمري.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseLunarCalendar { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقل "تاريخ الإنشاء" لعرض تاريخ/وقت إنشاء المستند.
+يوضح كيفية استخدام الحقل CREATEDATE لعرض تاريخ/وقت إنشاء المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// يمكننا استخدام حقل تاريخ الإنشاء لعرض تاريخ ووقت إنشاء المستند.
-// فيما يلي ثلاثة أنواع تقويم مختلفة يمكن لحقل "التاريخ الإنشاء" من خلالها عرض التاريخ/الوقت.
+//يمكننا استخدام الحقل CREATEDATE لعرض تاريخ ووقت إنشاء المستند.
+// فيما يلي ثلاثة أنواع مختلفة من التقويم والتي وفقًا لها يمكن لحقل CREATEDATE عرض التاريخ/الوقت.
 // 1 - التقويم القمري الإسلامي:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
@@ -35,7 +35,7 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - تقويم أم القرى :
+// 2 - تقويم أم القرى:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

@@ -3,14 +3,14 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words لـ .NET
-description: Shape StrokeColor ملكية. يحدد لون الحد في C#.
+description: قم بتخصيص التصميم الخاص بك باستخدام خاصية Shape StrokeColor، مما يسمح لك بتحديد ألوان حدود نابضة بالحياة للحصول على تأثير بصري مذهل.
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
 
-يحدد لون الحد.
+يحدد لون الخط.
 
 ```csharp
 public Color StrokeColor { get; set; }
@@ -18,13 +18,13 @@ public Color StrokeColor { get; set; }
 
 ## ملاحظات
 
-هذا اختصار لل[`Color`](../../stroke/color/) ملكية.
+هذا اختصار لـ[`Color`](../../stroke/color/) ملكية.
 
-القيمة الافتراضية هي Black.
+القيمة الافتراضية هي Black .
 
 ## أمثلة
 
-يوضح كيفية تعبئة الشكل بلون خالص.
+يوضح كيفية ملء الشكل بلون ثابت.
 
 ```csharp
 Document doc = new Document();
@@ -37,24 +37,24 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// استخدم خاصية "StrokeColor" لتعيين لون المخطط التفصيلي للشكل.
+//استخدم خاصية "StrokeColor" لتعيين لون الخطوط العريضة للشكل.
 shape.StrokeColor = Color.CadetBlue;
 
-// استخدم خاصية "FillColor" لتعيين لون المنطقة الداخلية من الشكل.
+//استخدم خاصية "FillColor" لتعيين لون المنطقة الداخلية للشكل.
 shape.FillColor = Color.LightBlue;
 
-// تحدد خاصية "العتامة" مدى شفافية اللون على مقياس من 0 إلى 1،
-// مع كون 1 معتمًا تمامًا، و0 غير مرئي.
-// تكون تعبئة الشكل معتمة تمامًا بشكل افتراضي، لذا لا يمكننا رؤية النص الذي يوجد هذا الشكل فوقه.
+// تحدد خاصية "الشفافية" مدى شفافية اللون على مقياس من 0 إلى 1،
+// حيث 1 يكون معتمًا تمامًا، و0 يكون غير مرئي.
+// يتم تعبئة الشكل بشكل افتراضي بشكل معتم بالكامل، وبالتالي لا يمكننا رؤية النص الموجود أعلى هذا الشكل.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// اضبط عتامة لون تعبئة الشكل على قيمة أقل حتى نتمكن من رؤية النص الموجود أسفله.
+// قم بضبط تعتيم لون تعبئة الشكل إلى قيمة أقل حتى نتمكن من رؤية النص الموجود أسفله.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ```
 
-يوضح كيفية التكرار على كافة الأشكال في المستند.
+يوضح كيفية تكرار جميع الأشكال في مستند.
 
 ```csharp
 public void VisitShapes()
@@ -67,7 +67,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// يسجل المعلومات المتعلقة بالمظهر حول الأشكال التي تمت زيارتها.
+/// يسجل معلومات متعلقة بالمظهر حول الأشكال التي تمت زيارتها.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -79,7 +79,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
+    /// يضيف سطرًا إلى StringBuilder بإضافة حرف تبويب واحد لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -89,7 +89,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة الشكل.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -133,7 +132,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة الشكل.
+    /// يتم استدعاؤها عندما يقوم هذا الزائر بزيارة نهاية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -145,7 +144,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -156,7 +155,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

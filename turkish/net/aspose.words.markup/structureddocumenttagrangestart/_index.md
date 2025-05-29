@@ -2,17 +2,17 @@
 title: StructuredDocumentTagRangeStart Class
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeStart sınıf. Bir başlangıcı temsil ederaralıklı çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.StructuredDocumentTagRangeEnd  C#'da.
+second_title: .NET için Aspose.Words
+description: Yapılandırılmış belgelerde sorunsuz çok bölümlü içerik yönetimini sağlayan Aspose.Words.Markup.StructuredDocumentTagRangeStart sınıfını keşfedin.
 type: docs
-weight: 4090
+weight: 4780
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-Bir başlangıcı temsil eder**aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
+Bir başlangıcı temsil eder**menzilli** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Denetimi](https://docs.aspose.com/words/net/working-with-content-control-sdt/) belgeleme makalesi.
 
 ```csharp
 public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructuredDocumentTag
@@ -22,60 +22,61 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | İsim | Tanım |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | Yeni bir örneğini başlatır**Yapılandırılmış belge etiketi aralığı başlangıcı** class. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | Yeni bir örneğini başlatır**Yapılandırılmış belge etiketi aralığı başlangıcı** sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [ChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/childnodes/) { get; } | Bu aralık başlangıç düğümü ile aralık bitiş düğümü arasındaki tüm düğümleri alır. |
+| [Appearance](../../aspose.words.markup/structureddocumenttagrangestart/appearance/) { get; set; } | Yapılandırılmış belge etiketinin görünümünü alır veya ayarlar. |
 | [Color](../../aspose.words.markup/structureddocumenttagrangestart/color/) { get; set; } | Yapılandırılmış belge etiketinin rengini alır veya ayarlar. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangestart/id/) { get; } | Bu yapılandırılmış belge etiketi için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
-| [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/) { get; set; } | Bu yapılandırılmış belge etiketinin içeriğinin, (yapılandırılmış belge etiketi içindeki normal metin içeriklerinin aksine) yer tutucu metni içerecek şekilde yorumlanıp yorumlanmayacağını belirtir. |
-| [LastChild](../../aspose.words.markup/structureddocumenttagrangestart/lastchild/) { get; } | StdContent aralığındaki son alt öğeyi alır. |
-| [Level](../../aspose.words.markup/structureddocumenttagrangestart/level/) { get; } | Bu yapılandırılmış belge etiketi aralığının belge ağacında başlayacağı düzeyi alır. |
-| [LockContentControl](../../aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/) { get; set; } | Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu yapılandırılmış belge etiketini silmesini yasaklar. |
-| [LockContents](../../aspose.words.markup/structureddocumenttagrangestart/lockcontents/) { get; set; } | Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini yasaklar. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype/) { get; } | İadelerStructuredDocumentTagRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
-| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder/) { get; } | Alır[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/)bu yapılandırılmış belge etiketi çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içerir, ilgili eşlenen XML öğesi, belirtilen aracılığıyla boştur[`XmlMapping`](./xmlmapping/) eleman veya[`IsShowingPlaceholderText`](./isshowingplaceholdertext/) eleman`doğru` . |
-| [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername/) { get; set; } | Adını alır veya ayarlar[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) yer tutucu metni içerir. |
+| [Id](../../aspose.words.markup/structureddocumenttagrangestart/id/) { get; } | Bu yapılandırılmış belge etiketi için benzersiz, salt okunur, kalıcı bir sayısal Kimlik belirtir. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Geri Döndürür`doğru` eğer bu düğüm diğer düğümleri içerebiliyorsa. |
+| [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/) { get; set; } | Bu yapılandırılmış belge etiketinin içeriğinin, yer tutucu metni (yapılandırılmış belge etiketindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanıp yorumlanmayacağını belirtir. |
+| [LastChild](../../aspose.words.markup/structureddocumenttagrangestart/lastchild/) { get; } | stdContent aralığındaki son çocuğu alır. |
+| [Level](../../aspose.words.markup/structureddocumenttagrangestart/level/) { get; } | Bu yapılandırılmış belge etiketi aralığının belge ağacında hangi düzeyde başladığını alır. |
+| [LockContentControl](../../aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/) { get; set; } | olarak ayarlandığında`doğru` , bu özellik bir kullanıcının bu yapılandırılmış belge etiketini silmesini engelleyecektir. |
+| [LockContents](../../aspose.words.markup/structureddocumenttagrangestart/lockcontents/) { get; set; } | olarak ayarlandığında`doğru` , bu özellik bir kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini yasaklayacaktır. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümü hemen takip eden düğümü alır. |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype/) { get; } | Geri DöndürürStructuredDocumentTagRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün en yakın üst düğümünü alır. |
+| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder/) { get; } | Şunu alır:[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/)yer tutucu metni içeren ve bu yapılandırılmış belge etiketinin içeriği boş olduğunda görüntülenmesi gereken bu metin, ilişkili eşlenen XML öğesi belirtilen şekilde boştur aracılığıyla[`XmlMapping`](./xmlmapping/) eleman veya[`IsShowingPlaceholderText`](./isshowingplaceholdertext/) eleman`doğru` . |
+| [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername/) { get; set; } | Adını alır veya ayarlar[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) yer tutucu metin içeren. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../../aspose.words/range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
-| [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend/) { get; } | Aşağıdaki durumlarda aralığın sonunu belirtir:[`StructuredDocumentTag`](../structureddocumenttag/) aralıklı yapılandırılmış bir belge etiketidir. Aksi halde şunu döndürür`hükümsüz` . |
+| [Range](../../aspose.words/node/range/) { get; } | Bir[`Range`](../../aspose.words/range/)bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
+| [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend/) { get; } | Aralık sonunu belirtir.[`StructuredDocumentTag`](../structureddocumenttag/) aralıklı yapılandırılmış bir belge etiketidir. Aksi takdirde döner`hükümsüz` . |
 | [SdtType](../../aspose.words.markup/structureddocumenttagrangestart/sdttype/) { get; } | Bu yapılandırılmış belge etiketinin türünü alır. |
-| [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag/) { get; set; } | Geçerli yapılandırılmış belge etiketi düğümüyle ilişkili bir etiketi belirtir. Yapılamaz`hükümsüz` . |
-| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title/) { get; set; } | Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılamaz`hükümsüz` . |
-| [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml/) { get; } | Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc format. |
-| [XmlMapping](../../aspose.words.markup/structureddocumenttagrangestart/xmlmapping/) { get; } | Bu yapılandırılmış belge etiketi aralığının, geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır. |
+| [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag/) { get; set; } | Geçerli yapılandırılmış belge etiketi düğümüyle ilişkili bir etiketi belirtir. Olamaz`hükümsüz` . |
+| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title/) { get; set; } | Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. olamaz`hükümsüz` . |
+| [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml/) { get; } | Düğümün içinde bulunan XML'i temsil eden bir dize alırFlatOpc biçim. |
+| [WordOpenXMLMinimal](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxmlminimal/) { get; } | Düğümün içinde bulunan XML'i temsil eden bir dize alırFlatOpc format. Bunun aksine[`WordOpenXML`](./wordopenxml/) özellik, bu yöntem içerikle ilgili olmayan parçaları hariç tutan soyulmuş bir belge oluşturur. |
+| [XmlMapping](../../aspose.words.markup/structureddocumenttagrangestart/xmlmapping/) { get; } | Bu yapılandırılmış belge etiketi aralığının, geçerli belgenin özel bir XML bölümündeki XML data eşlemesini temsil eden bir nesne alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Ziyaretçi kabul eder. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Bir ziyaretçiyi kabul eder. |
 | [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümü stdContent aralığının sonuna ekler. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Belirtilenin ilk atasını alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atasını alır. |
 | [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Belirtilen türlerle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt düğümlerinin metnini alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağacı geçiş algoritmasına göre bir sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini ana öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words.markup/structureddocumenttagrangestart/removeallchildren/)() | Bu aralık başlangıç düğümü ile aralık bitiş düğümü arasındaki tüm düğümleri kaldırır. |
-| [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | Yapılandırılmış belge etiketinin, bu aralık başlangıç ve uygun aralık sonu düğümlerini kaldırır, ancak içeriğini belge ağacının içinde tutar. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | Yapılandırılmış belge etiketinin bu aralık başlangıcını ve uygun aralık bitiş düğümlerini kaldırır, ancak içeriğini belge ağacının içinde tutar. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ## Notlar
 
-Birincil alt öğe olabilir[`Body`](../../aspose.words/body/) düğüm**sadece** .
+Şunun hemen çocuğu olabilir:[`Body`](../../aspose.words/body/) düğüm**sadece** .
 
 ## Örnekler
 

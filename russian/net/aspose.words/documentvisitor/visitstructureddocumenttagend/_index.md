@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitStructuredDocumentTagEnd
 linktitle: VisitStructuredDocumentTagEnd
 articleTitle: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitStructuredDocumentTagEnd метод. Вызывается когда перечисление тега структурированного документа завершено на С#.
+description: Откройте для себя метод DocumentVisitor VisitStructuredDocumentTagEnd, необходимый для эффективного управления перечислением структурированных тегов документов. Улучшите свои навыки кодирования!
 type: docs
 weight: 440
 url: /ru/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagEnd method
 
-Вызывается, когда перечисление тега структурированного документа завершено.
+Вызывается, когда перечисление структурированного тега документа завершено.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdt | StructuredDocumentTag | Объект, который посещается. |
+| sdt | StructuredDocumentTag | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 ## Примеры
 
-Показывает, как распечатать структуру узла каждого тега структурированного документа в документе.
+Показывает, как распечатать структуру узлов каждого структурированного тега документа в документе.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -34,7 +34,7 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -55,7 +55,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -95,7 +95,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

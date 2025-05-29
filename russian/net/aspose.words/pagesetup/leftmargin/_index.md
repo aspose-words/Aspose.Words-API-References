@@ -3,7 +3,7 @@ title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
 second_title: Aspose.Words для .NET
-description: PageSetup LeftMargin свойство. Возвращает или задает расстояние в пунктах между левым краем страницы и левой границей основного текста на С#.
+description: Откройте для себя свойство PageSetup LeftMargin, которое позволяет легко настроить левое поле в пунктах, улучшив макет и читабельность документа.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/pagesetup/leftmargin/
@@ -18,7 +18,7 @@ public double LeftMargin { get; set; }
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();

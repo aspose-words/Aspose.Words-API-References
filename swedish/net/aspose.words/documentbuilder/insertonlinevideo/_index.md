@@ -3,65 +3,11 @@ title: DocumentBuilder.InsertOnlineVideo
 linktitle: InsertOnlineVideo
 articleTitle: InsertOnlineVideo
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertOnlineVideo metod. Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken i C#.
+description: Lägg enkelt till och skala onlinevideor i dina dokument med DocumentBuilders InsertOnlineVideo-metod för ökat engagemang och kreativitet.
 type: docs
-weight: 410
+weight: 440
 url: /sv/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
-
-Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
-
-```csharp
-public Shape InsertOnlineVideo(string videoUrl, double width, double height)
-```
-
-| Parameter | Typ | Beskrivning |
-| --- | --- | --- |
-| videoUrl | String | Webbadressen till videon. |
-| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-
-### Returvärde
-
-Bildnoden som precis infogades.
-
-## Anmärkningar
-
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
-
-Infogning av onlinevideo från följande resurser stöds:
-
-* https://www.youtube.com/
-* https://vimeo.com/
-
-Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad html-kod.
-
-Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
-
-## Exempel
-
-Visar hur man infogar en onlinevideo i ett dokument med hjälp av en URL.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.InsertOnlineVideo("https://youtu.be/t_1LYZ102RA", 360, 270);
-
-// Vi kan se videon från Microsoft Word genom att klicka på formen.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
-```
-
-### Se även
-
-* class [Shape](../../../aspose.words.drawing/shape/)
-* class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../../aspose.words/)
-* hopsättning [Aspose.Words](../../../)
-
----
-
 ## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
@@ -73,31 +19,31 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| videoUrl | String | Webbadressen till videon. |
+| videoUrl | String | URL:en till videon. |
 | horzPos | RelativeHorizontalPosition | Anger varifrån avståndet till bilden mäts. |
-| left | Double | Avstånd i punkter från origo till vänster sida av bilden. |
-| vertPos | RelativeVerticalPosition | Anger var avståndet till bilden mätt från. |
-| top | Double | Avstånd i punkter från origo till bildens övre sida. |
-| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| wrapType | WrapType | Anger hur text lindas runt bilden. |
+| left | Double | Avstånd i punkter från origo till bildens vänstra sida. |
+| vertPos | RelativeVerticalPosition | Anger varifrån avståndet till bilden mäts. |
+| top | Double | Avstånd i punkter från origo till bildens översida. |
+| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| wrapType | WrapType | Anger hur text ska radbrytas runt bilden. |
 
 ### Returvärde
 
-Bildnoden som precis infogades.
+Bildnoden som just infogades.
 
 ## Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras av den här metoden.
 
-Infogning av onlinevideo från följande resurser stöds:
+Insättning av onlinevideo från följande resurser stöds:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad html-kod.
+Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad HTML-kod.
 
-Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
+Koden för att bädda in video kan variera mellan leverantörer, kontakta din valda leverantör för mer information.
 
 ## Exempel
 
@@ -109,10 +55,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 
-// Infoga en form som spelar upp en video från webben när den klickas i Microsoft Word.
-// Den här rektangulära formen kommer att innehålla en bild baserad på den första bildrutan i den länkade videon
-// och en visuell uppmaning av "spelaknapp". Videon har ett bildförhållande på 16:9.
-// Vi kommer att ställa in formens storlek till det förhållandet, så att bilden inte ser utsträckt ut.
+// Infoga en form som spelar upp en video från webben när man klickar på den i Microsoft Word.
+// Denna rektangulära form kommer att innehålla en bild baserad på den första bildrutan i den länkade videon
+// och en visuell uppmaning med en "uppspelningsknapp". Videon har ett bildförhållande på 16:9.
+// Vi ställer in formens storlek på det förhållandet, så att bilden inte verkar utsträckt.
 builder.InsertOnlineVideo(videoUrl, RelativeHorizontalPosition.LeftMargin, 0,
     RelativeVerticalPosition.TopMargin, 0, 320, 180, WrapType.Square);
 
@@ -142,19 +88,19 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| videoUrl | String | Webbadressen till videon. |
+| videoUrl | String | URL:en till videon. |
 | videoEmbedCode | String | Inbäddningskoden för videon. |
-| thumbnailImageBytes | Byte[] | Miniatyrbilden bytes. |
-| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
+| thumbnailImageBytes | Byte[] | Miniatyrbildens byte. |
+| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
 
 ### Returvärde
 
-Bildnoden som precis infogades.
+Bildnoden som just infogades.
 
 ## Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras av den här metoden.
 
 ## Exempel
 
@@ -175,9 +121,9 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Nedan finns två sätt att skapa en form med en anpassad miniatyrbild, som länkar till en onlinevideo
-        // som kommer att spelas upp när vi klickar på formen i Microsoft Word.
-        // 1 - Infoga en inline-form vid byggarens nodinfogningsmarkör:
+        // Nedan följer två sätt att skapa en form med en anpassad miniatyrbild, som länkar till en onlinevideo
+        // som spelas upp när vi klickar på formen i Microsoft Word.
+        // 1 - Infoga en inbäddad form vid byggarens nodinsättningsmarkör:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);
@@ -216,24 +162,24 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| videoUrl | String | Webbadressen till videon. |
+| videoUrl | String | URL:en till videon. |
 | videoEmbedCode | String | Inbäddningskoden för videon. |
-| thumbnailImageBytes | Byte[] | Miniatyrbilden bytes. |
+| thumbnailImageBytes | Byte[] | Miniatyrbildens byte. |
 | horzPos | RelativeHorizontalPosition | Anger varifrån avståndet till bilden mäts. |
-| left | Double | Avstånd i punkter från origo till vänster sida av bilden. |
-| vertPos | RelativeVerticalPosition | Anger var avståndet till bilden mätt från. |
-| top | Double | Avstånd i punkter från origo till bildens övre sida. |
-| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller noll värde för att begära 100 % skala. |
-| wrapType | WrapType | Anger hur text lindas runt bilden. |
+| left | Double | Avstånd i punkter från origo till bildens vänstra sida. |
+| vertPos | RelativeVerticalPosition | Anger varifrån avståndet till bilden mäts. |
+| top | Double | Avstånd i punkter från origo till bildens översida. |
+| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| wrapType | WrapType | Anger hur text ska radbrytas runt bilden. |
 
 ### Returvärde
 
-Bildnoden som precis infogades.
+Bildnoden som just infogades.
 
 ## Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras av den här metoden.
 
 ## Exempel
 
@@ -254,9 +200,9 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Nedan finns två sätt att skapa en form med en anpassad miniatyrbild, som länkar till en onlinevideo
-        // som kommer att spelas upp när vi klickar på formen i Microsoft Word.
-        // 1 - Infoga en inline-form vid byggarens nodinfogningsmarkör:
+        // Nedan följer två sätt att skapa en form med en anpassad miniatyrbild, som länkar till en onlinevideo
+        // som spelas upp när vi klickar på formen i Microsoft Word.
+        // 1 - Infoga en inbäddad form vid byggarens nodinsättningsmarkör:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);
@@ -280,6 +226,60 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
+* hopsättning [Aspose.Words](../../../)
+
+---
+
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
+
+Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
+
+```csharp
+public Shape InsertOnlineVideo(string videoUrl, double width, double height)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| videoUrl | String | URL:en till videon. |
+| width | Double | Bildens bredd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+| height | Double | Bildens höjd i punkter. Kan vara ett negativt eller nollvärde för att begära 100 % skala. |
+
+### Returvärde
+
+Bildnoden som just infogades.
+
+## Anmärkningar
+
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras av den här metoden.
+
+Insättning av onlinevideo från följande resurser stöds:
+
+* https://www.youtube.com/
+* https://vimeo.com/
+
+Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad HTML-kod.
+
+Koden för att bädda in video kan variera mellan leverantörer, kontakta din valda leverantör för mer information.
+
+## Exempel
+
+Visar hur man infogar en onlinevideo i ett dokument med hjälp av en URL.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertOnlineVideo("https://youtu.be/g1N9ke8Prmk", 360, 270);
+
+// Vi kan titta på videon från Microsoft Word genom att klicka på formen.
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
+```
+
+### Se även
+
+* class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
 * namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)

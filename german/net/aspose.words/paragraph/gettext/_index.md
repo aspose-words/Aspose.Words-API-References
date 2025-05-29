@@ -3,9 +3,9 @@ title: Paragraph.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words für .NET
-description: Paragraph GetText methode. Ruft den Text dieses Absatzes einschließlich des Absatzendezeichens ab in C#.
+description: Entdecken Sie die Methode „Paragraph GetText“, um mühelos Text, einschließlich Absatzenden, abzurufen und so die Effizienz Ihrer Textverarbeitung zu steigern.
 type: docs
-weight: 260
+weight: 280
 url: /de/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -18,17 +18,17 @@ public override string GetText()
 
 ## Bemerkungen
 
-Der Text aller untergeordneten Knoten wird verkettet und das Absatzendezeichen wird wie folgt angehängt:
+Der Text aller untergeordneten Knoten wird aneinandergereiht und das Absatzendezeichen wird wie folgt angehängt:
 
-* Wenn der Absatz der letzte Absatz von ist[`Body`](../../body/) , then [`SectionBreak`](../../controlchar/sectionbreak/) (\x000c) wird angehängt.
-* Wenn der Absatz der letzte Absatz von ist[`Cell`](../../../aspose.words.tables/cell/) , then [`Cell`](../../controlchar/cell/) (\x0007) wird angehängt.
+* Wenn der Absatz der letzte Absatz von[`Body`](../../body/) , dann [`SectionBreak`](../../controlchar/sectionbreak/) (\x000c) wird angehängt.
+* Wenn der Absatz der letzte Absatz von[`Cell`](../../../aspose.words.tables/cell/) , dann [`Cell`](../../controlchar/cell/) (\x0007) wird angehängt.
 * Für alle anderen Absätze [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) wird angehängt.
 
-Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
+Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen wie in[`ControlChar`](../../controlchar/).
 
 ## Beispiele
 
-Zeigt, wie untergeordnete Knoten in der untergeordneten Sammlung eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
+Zeigt, wie untergeordnete Knoten in der Sammlung untergeordneter Knoten eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
 
 ```csharp
 Document doc = new Document();
@@ -36,33 +36,33 @@ Document doc = new Document();
 // Ein leeres Dokument hat standardmäßig einen Absatz.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Zusammengesetzte Knoten wie unser Absatz können andere zusammengesetzte und Inline-Knoten als untergeordnete Knoten enthalten.
+// Zusammengesetzte Knoten wie unser Absatz können andere zusammengesetzte und Inline-Knoten als untergeordnete Elemente enthalten.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// Drei weitere Ausführungsknoten erstellen.
+// Erstellen Sie drei weitere Run-Knoten.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Der Dokumentkörper zeigt diese Läufe erst an, wenn wir sie in einen zusammengesetzten Knoten einfügen
-// das selbst ist Teil des Knotenbaums des Dokuments, wie wir es beim ersten Durchlauf getan haben.
-// Wir können bestimmen, wo sich die Textinhalte der Knoten befinden, die wir einfügen
-// wird im Dokument angezeigt, indem eine Einfügeposition relativ zu einem anderen Knoten im Absatz angegeben wird.
+// Der Dokumenttext zeigt diese Läufe erst an, wenn wir sie in einen zusammengesetzten Knoten einfügen
+// das selbst ein Teil des Knotenbaums des Dokuments ist, wie wir es beim ersten Durchlauf getan haben.
+// Wir können bestimmen, wo der Textinhalt der Knoten, die wir einfügen
+// erscheint im Dokument, indem eine Einfügeposition relativ zu einem anderen Knoten im Absatz angegeben wird.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Den zweiten Lauf in den Absatz vor dem ersten Lauf einfügen.
+// Fügen Sie den zweiten Lauf in den Absatz vor dem ersten Lauf ein.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Den dritten Lauf nach dem ersten Lauf einfügen.
+// Fügen Sie den dritten Lauf nach dem ersten Lauf ein.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Den ersten Lauf am Anfang der Sammlung der untergeordneten Knoten des Absatzes einfügen.
+// Fügen Sie den ersten Lauf am Anfang der untergeordneten Knotensammlung des Absatzes ein.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

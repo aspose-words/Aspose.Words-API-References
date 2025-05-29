@@ -3,7 +3,7 @@ title: AxisBound.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: AxisBound Equals метод. Определяет равен ли указанный объект по значению текущему объекту на С#.
+description: Откройте для себя метод AxisBound Equals, легко проверяйте, соответствует ли объект текущему по значению, повышая эффективность и точность кодирования.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/axisbound/equals/

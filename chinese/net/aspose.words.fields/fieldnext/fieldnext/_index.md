@@ -2,8 +2,8 @@
 title: FieldNext
 linktitle: FieldNext
 articleTitle: FieldNext
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldNext 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldNext 强大的默认构造函数，它旨在无缝集成并提升项目性能。提升您的编码体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldnext/fieldnext/

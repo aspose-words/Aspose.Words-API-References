@@ -3,14 +3,14 @@ title: ImportFormatOptions.ForceCopyStyles
 linktitle: ForceCopyStyles
 articleTitle: ForceCopyStyles
 second_title: Aspose.Words för .NET
-description: ImportFormatOptions ForceCopyStyles fast egendom. Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen ImportFormatOptions ForceCopyStyles och styr enkelt kopiering av stilar i KeepSourceFormatting-läget. Standardvärdet är falskt för optimala resultat.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet är`falsk` .
+Hämtar eller anger ett booleskt värde som anger att antingen motstridiga stilar ska kopieras inKeepSourceFormatting läge. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -18,18 +18,18 @@ public bool ForceCopyStyles { get; set; }
 
 ## Anmärkningar
 
-Som standard, om en matchande stil redan finns i ett måldokument, utökas källformatet formatting till direkta nodattribut och stilen för denna nod återställs till en standard.
+Som standard, om ett matchande format redan finns i ett måldokument, expanderas källformatet formatering till direkta nodattribut och formatet för denna nod återställs till standardinställningen.
 
-När detta alternativ är inställt på`Sann`, kommer källformatet att tvångskopieras till måldokument med unikt namn och tillämpas på den importerade noden.
+När det här alternativet är inställt på`sann`, källstilen kommer att tvångskopieras till destinationsdokumentet med ett unikt namn och tillämpas på den importerade noden.
 
-Observera, i det här fallet är det inte garanterat att formateringen av den importerade noden i destination document kommer att bevaras.
+Observera att det i det här fallet inte garanteras att formateringen av den importerade noden i destinationsdokumentet document kommer att bevaras.
 
 ## Exempel
 
-Visar hur man kopierar källstilar med unika namn med tvång.
+Visar hur man tvångskopierar källformat med unika namn.
 
 ```csharp
-// Båda dokumenten innehåller MyStyle1 och MyStyle2, MyStyle3 finns bara i ett källdokument.
+// Båda dokumenten innehåller MinStil1 och MinStil2, MinStil3 finns bara i ett källdokument.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

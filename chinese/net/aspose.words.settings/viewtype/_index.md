@@ -2,15 +2,15 @@
 title: ViewType Enum
 linktitle: ViewType
 articleTitle: ViewType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.ViewType 枚举. Microsoft Word 中查看模式的可能值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索适用于 Microsoft Word 的 Aspose.Words.Settings.ViewType 枚举。解锁灵活的视图模式，增强文档呈现效果和用户体验。
 type: docs
-weight: 5960
+weight: 6790
 url: /zh/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
 
-Microsoft Word 中查看模式的可能值。
+Microsoft Word 中视图模式的可能值。
 
 ```csharp
 public enum ViewType
@@ -20,16 +20,16 @@ public enum ViewType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 文档应在应用程序的默认视图中呈现。 |
-| Reading | `0` | 文档应在应用程序的默认视图中呈现。 |
-| PageLayout | `1` | 文档应在按打印方式显示文档的视图中打开。 |
-| Outline | `3` | 文档应在针对概述或创建长文档而优化的视图中呈现。 |
-| Normal | `4` | 文档应在针对概述或创建长文档而优化的视图中呈现。 |
-| Web | `5` | 该文档应在模仿该文档在网页中显示 的方式的视图中呈现。 |
+| None | `0` | 该文档应在应用程序的默认视图中呈现。 |
+| Reading | `0` | 该文档应在应用程序的默认视图中呈现。 |
+| PageLayout | `1` | 文档应在显示打印文档的视图中打开。 |
+| Outline | `3` | 该文档应在针对概述或创建长文档而优化的视图中呈现。 |
+| Normal | `4` | 该文档应在针对概述或创建长文档而优化的视图中呈现。 |
+| Web | `5` | 该文档应以与网页中显示方式相同的视图呈现。 |
 
 ## 例子
 
-演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
+展示如何设置自定义缩放比例，旧版本的 Microsoft Word 将在加载时将该比例应用于文档。
 
 ```csharp
 Document doc = new Document();

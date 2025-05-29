@@ -3,14 +3,14 @@ title: AxisBound.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: AxisBound GetHashCode طريقة. بمثابة وظيفة تجزئة لهذا النوع في C#.
+description: اكتشف طريقة AxisBound GetHashCode—الحل الفعال لتوليد قيم تجزئة فريدة، وتعزيز سلامة البيانات والأداء.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/axisbound/gethashcode/
 ---
 ## AxisBound.GetHashCode method
 
-بمثابة وظيفة تجزئة لهذا النوع.
+يعمل كدالة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()

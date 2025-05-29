@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.Version
 linktitle: Version
 articleTitle: Version
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Version mülk. Belgeyi oluşturan uygulamanın sürüm numarasını temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizi oluşturan uygulama sürümünü gösteren BuiltInDocumentProperties Version özelliğini keşfedin. Belge yönetiminizi bugün geliştirin!
 type: docs
-weight: 320
+weight: 350
 url: /tr/net/aspose.words.properties/builtindocumentproperties/version/
 ---
 ## BuiltInDocumentProperties.Version property
@@ -18,20 +18,20 @@ public int Version { get; set; }
 
 ## Notlar
 
-Bir belge Microsoft Word tarafından oluşturulduğunda, yüksek 16 bit ana sürümü temsil eder ve düşük 16 bit ise yapı numarasını temsil eder.
+Bir belge Microsoft Word ile oluşturulduğunda, yüksek 16 bit ana sürümü, düşük 16 bit ise yapı numarasını temsil eder.
 
 ## Örnekler
 
-"Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
+"Origin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
-// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açın.
+// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açalım.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Aşağıdaki yerleşik özellikler bu belgenin oluşturulmasına ve düzenlenmesine ilişkin bilgiler içerir.
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz
-// bu özellikler "Özellikler" aracılığıyla -> "Ayrıntılar" -> "Köken" kategorisi.
+// Aşağıdaki yerleşik özellikler, bu belgenin oluşturulması ve düzenlenmesiyle ilgili bilgileri içerir.
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz
+// bu özellikler "Özellikler" -> "Ayrıntılar" -> "Köken" kategorisi aracılığıyla.
 // PRINTDATE ve EDITTIME gibi alanlar bu değerleri belge gövdesinde görüntüleyebilir.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -45,11 +45,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word, belgeyi kaydettiğimizde aşağıdaki özellikleri otomatik olarak günceller.
-// Bu özellikleri Aspose.Words ile kullanmak için değerleri manuel olarak ayarlamamız gerekecek.
+// Bu özellikleri Aspose.Words ile kullanmak için, bunlara manuel olarak değer ayarlamamız gerekecek.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

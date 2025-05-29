@@ -3,14 +3,14 @@ title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
 second_title: Aspose.Words لـ .NET
-description: Range ToDocument طريقة. إنشاء مستند جديد كامل التكوين يحتوي على النطاق في C#.
+description: اكتشف طريقة Range ToDocument، وقم بإنشاء مستند كامل بسهولة من النطاق المحدد لديك، مما يعزز سير عملك وإنتاجيتك.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method
 
-إنشاء مستند جديد كامل التكوين يحتوي على النطاق.
+يقوم بإنشاء مستند جديد كامل التكوين يحتوي على النطاق.
 
 ```csharp
 public Document ToDocument()

@@ -2,15 +2,15 @@
 title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat WordWrap 财产. 如果此属性是错误的 单词中间的拉丁文本可以换行 for 当前段落否则拉丁文本将被整个单词包围 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ParagraphFormat WordWrap 属性如何影响 Word 中的文本换行。学习如何控制拉丁文本的换行方式，从而提高文档的可读性。
 type: docs
-weight: 410
+weight: 420
 url: /zh/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-如果此属性是`错误的` 单词中间的拉丁文本可以换行 for 当前段落。否则拉丁文本将被整个单词包围。
+如果此属性是`错误的`，单词中间的拉丁文本可以按 当前段落换行。否则，拉丁文本将按整个单词换行。
 
 ```csharp
 public bool WordWrap { get; set; }
@@ -18,7 +18,7 @@ public bool WordWrap { get; set; }
 
 ## 例子
 
-展示如何设置亚洲版式的特殊属性。
+展示如何设置亚洲字体的特殊属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

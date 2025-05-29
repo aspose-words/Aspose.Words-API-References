@@ -3,16 +3,16 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaReference فصل. تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA في C#.
+description: اكتشف فئة Aspose.Words.Vba.VbaReference للتكامل السلس مع مكتبات أنواع الأتمتة ومشاريع VBA. حسّن أتمتة مستنداتك اليوم!
 type: docs
-weight: 6590
+weight: 7440
 url: /ar/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA.
+ينفذ مرجعًا إلى مكتبة نوع الأتمتة أو مشروع VBA.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات الماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public abstract class VbaReference
@@ -22,12 +22,12 @@ public abstract class VbaReference
 
 | اسم | وصف |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | يحصل[`VbaReferenceType`](../vbareferencetype/) كائن يشير إلى نوع المرجع الذي أ`VbaReference` يمثل الكائن. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | يحصل على قيمة سلسلة تحتوي على معرف مكتبة نوع الأتمتة. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | يحصل[`VbaReferenceType`](../vbareferencetype/) كائن يشير إلى نوع المرجع الذي`VbaReference` يمثل الكائن. |
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

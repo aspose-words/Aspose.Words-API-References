@@ -3,14 +3,14 @@ title: PdfSaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
 articleTitle: DmlEffectsRenderingMode
 second_title: Aspose.Words für .NET
-description: PdfSaveOptions DmlEffectsRenderingMode eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie DrawingMLEffekte gerendert werden in C#.
+description: Entdecken Sie die DmlEffectsRenderingMode-Eigenschaft von PdfSaveOptions, um das Rendern von DrawingML-Effekten für eine verbesserte PDF-Ausgabequalität zu steuern.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions.DmlEffectsRenderingMode property
 
-Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Effekte gerendert werden.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie DrawingML-Effekte gerendert werden.
 
 ```csharp
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
@@ -22,24 +22,24 @@ Der Standardwert istSimplified .
 
 Diese Eigenschaft wird verwendet, wenn das Dokument in feste Seitenformate exportiert wird.
 
-Wenn[`Compliance`](../compliance/) ist eingestellt aufPdfA1a oderPdfA1b Die Eigenschaft „ “ wird immer zurückgegebenNone.
+Wenn[`Compliance`](../compliance/) ist eingestellt aufPdfA1a oderPdfA1b , -Eigenschaft gibt immer zurückNone.
 
 ## Beispiele
 
-Zeigt, wie die Renderqualität von DrawingML-Effekten in einem Dokument konfiguriert wird, während wir es als PDF speichern.
+Zeigt, wie die Rendering-Qualität von DrawingML-Effekten in einem Dokument beim Speichern im PDF-Format konfiguriert wird.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.None“, um alle DrawingML-Effekte zu verwerfen.
 // Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Simplified“
-// um eine vereinfachte Version von DrawingML-Effekten zu rendern.
-// Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Fine“.
-// DrawingML-Effekte mit größerer Genauigkeit und auch mit höherem Verarbeitungsaufwand rendern.
+// um eine vereinfachte Version der DrawingML-Effekte zu rendern.
+// Setzen Sie die Eigenschaft "DmlEffectsRenderingMode" auf "DmlEffectsRenderingMode.Fine" auf
+// DrawingML-Effekte mit höherer Genauigkeit und auch mit höheren Verarbeitungskosten rendern.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

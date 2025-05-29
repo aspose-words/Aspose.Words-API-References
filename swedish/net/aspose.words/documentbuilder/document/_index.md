@@ -3,14 +3,14 @@ title: DocumentBuilder.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: DocumentBuilder Document fast egendom. Hämtar eller ställer inDocumentobjekt som detta objekt är kopplat till i C#.
+description: Hantera dokumentegenskaper enkelt med DocumentBuilder. Hämta eller konfigurera enkelt ditt dokumentobjekt för effektiv dokumenthantering.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Hämtar eller ställer in`Document`objekt som detta objekt är kopplat till.
+Hämtar eller ställer in`Document` objekt som detta objekt är kopplat till.
 
 ```csharp
 public Document Document { get; set; }
@@ -18,25 +18,25 @@ public Document Document { get; set; }
 
 ## Exempel
 
-Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
+Visar hur man tillämpar och återställer inställningar för sidinställningar för avsnitt i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ändra sidinställningarna för byggarens nuvarande avsnitt och lägg till text.
+// Ändra sidinställningarna för den aktuella sektionen i skaparen och lägg till text.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Om vi startar ett nytt avsnitt med hjälp av en dokumentbyggare,
-// det kommer att ärva byggarens nuvarande sidinställningar.
+// den kommer att ärva skaparens nuvarande sidinställningar.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Vi kan återställa dess sidinställningar till deras standardvärden med "ClearFormatting"-metoden.
+// Vi kan återställa dess sidinställningar till standardvärdena med hjälp av metoden "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

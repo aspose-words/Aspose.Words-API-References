@@ -2,15 +2,15 @@
 title: Document.Print
 linktitle: Print
 articleTitle: Print
-second_title: Aspose.Words for .NET
-description: Document Print yöntem. Belgenin tamamını varsayılan yazıcıya yazdırır C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz Belge Yazdırma yöntemimizle tüm belgenizi varsayılan yazıcınıza zahmetsizce yazdırın. Hızlı, zahmetsiz yazdırmanın tadını çıkarın!
 type: docs
-weight: 640
+weight: 680
 url: /tr/net/aspose.words/document/print/
 ---
 ## Print() {#print}
 
-Belgenin tamamını varsayılan yazıcıya yazdırır.
+Tüm belgeyi varsayılan yazıcıya yazdırır.
 
 ```csharp
 public void Print()
@@ -25,11 +25,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Aşağıda belgemizi yazdırmanın iki yolu verilmiştir.
-// 1 - Varsayılan yazıcıyı kullanarak yazdırın:
+// Aşağıda belgemizi yazdırmanın iki yolu bulunmaktadır.
+// 1 - Varsayılan yazıcıyı kullanarak yazdır:
 doc.Print();
 
-// 2 - Belgeyi adıyla yazdırmak istediğimiz yazıcıyı belirtin:
+// 2 - Belgeyi yazdırmak istediğimiz yazıcıyı adıyla belirtin:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -47,7 +47,7 @@ doc.Print(myPrinter);
 
 ## Print(*string*) {#print_3}
 
-Standart (Kullanıcı Arayüzü olmayan) yazdırma denetleyicisini kullanarak belgenin tamamını belirtilen yazıcıya, yazdırın.
+Tüm belgeyi belirtilen yazıcıya yazdırın, standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak.
 
 ```csharp
 public void Print(string printerName)
@@ -66,11 +66,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Aşağıda belgemizi yazdırmanın iki yolu verilmiştir.
-// 1 - Varsayılan yazıcıyı kullanarak yazdırın:
+// Aşağıda belgemizi yazdırmanın iki yolu bulunmaktadır.
+// 1 - Varsayılan yazıcıyı kullanarak yazdır:
 doc.Print();
 
-// 2 - Belgeyi adıyla yazdırmak istediğimiz yazıcıyı belirtin:
+// 2 - Belgeyi yazdırmak istediğimiz yazıcıyı adıyla belirtin:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -88,7 +88,7 @@ doc.Print(myPrinter);
 
 ## Print(*PrinterSettings*) {#print_1}
 
-Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak yazdırır.
+Belgeyi belirtilen yazıcı ayarlarına göre yazdırır, standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak.
 
 ```csharp
 public void Print(PrinterSettings printerSettings)
@@ -100,7 +100,7 @@ public void Print(PrinterSettings printerSettings)
 
 ## Notlar
 
-PrinterSettings nesnesi, yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
+ThePrinterSettings nesnesi, üzerine yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
 
 ## Örnekler
 
@@ -109,23 +109,23 @@ Bir dizi sayfanın nasıl yazdırılacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgeyi yazdırma şeklimizi değiştirmek için bir "PrinterSettings" nesnesi oluşturun.
+// Belgeyi nasıl yazdıracağımızı değiştirmek için bir "PrinterSettings" nesnesi oluşturun.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// "PrintRange" özelliğini "PrintRange.SomePages" olarak ayarlayın.
-// yazıcıya yalnızca bazı belge sayfalarını yazdırmak istediğimizi söyleyin.
+// "PrintRange" özelliğini "PrintRange.SomePages" olarak ayarlayın
+// yazıcıya yalnızca bazı belge sayfalarını yazdırmak istediğimizi söyleriz.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// 1'den 3'e kadar olan sayfaları yazdırmak için "FromPage" özelliğini "1" ve "ToPage" özelliğini "3" olarak ayarlayın.
-// Sayfa indeksleme 1 tabanlıdır.
+// 1'den 3'e kadar olan sayfaları yazdırmak için "FromPage" özelliğini "1", "ToPage" özelliğini ise "3" olarak ayarlayın.
+// Sayfa indekslemesi 1 tabanlıdır.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// Aşağıda belgemizi yazdırmanın iki yolu verilmiştir.
-// 1 - Yazdırma ayarlarımızı uygulayarak yazdırın:
+// Aşağıda belgemizi yazdırmanın iki yolu bulunmaktadır.
+// 1 - Yazdırma ayarlarımızı uygulayarak yazdıralım:
 doc.Print(printerSettings);
 
-// 2 - Yazdırma ayarlarımızı uygularken aynı zamanda yazdırın
+// 2 - Yazdırma ayarlarımızı uygularken yazdırın, aynı zamanda
 // belgeye yazıcı kuyruğunda tanıyabileceğimiz özel bir ad veriyoruz:
 doc.Print(printerSettings, "My rendered document");
 ```
@@ -140,7 +140,7 @@ doc.Print(printerSettings, "My rendered document");
 
 ## Print(*PrinterSettings, string*) {#print_2}
 
-Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini ve belge adını kullanarak yazdırır.
+Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini ve bir belge adını kullanarak, belirtilen yazıcı ayarlarına göre belgeyi yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, string documentName)
@@ -149,11 +149,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Kullanılacak yazıcı ayarları. |
-| documentName | String | Belgeyi yazdırırken görüntülenecek belge adı (örneğin, yazdırma durumu iletişim kutusunda kutusunda veya yazıcı kuyruğunda). |
+| documentName | String | Belge yazdırılırken görüntülenecek belge adı (örneğin, yazdırma durumu iletişim kutusu kutusunda veya yazıcı kuyruğunda). |
 
 ## Notlar
 
-PrinterSettings nesnesi, yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
+ThePrinterSettings nesnesi, üzerine yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
 
 ## Örnekler
 
@@ -162,23 +162,23 @@ Bir dizi sayfanın nasıl yazdırılacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgeyi yazdırma şeklimizi değiştirmek için bir "PrinterSettings" nesnesi oluşturun.
+// Belgeyi nasıl yazdıracağımızı değiştirmek için bir "PrinterSettings" nesnesi oluşturun.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// "PrintRange" özelliğini "PrintRange.SomePages" olarak ayarlayın.
-// yazıcıya yalnızca bazı belge sayfalarını yazdırmak istediğimizi söyleyin.
+// "PrintRange" özelliğini "PrintRange.SomePages" olarak ayarlayın
+// yazıcıya yalnızca bazı belge sayfalarını yazdırmak istediğimizi söyleriz.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// 1'den 3'e kadar olan sayfaları yazdırmak için "FromPage" özelliğini "1" ve "ToPage" özelliğini "3" olarak ayarlayın.
-// Sayfa indeksleme 1 tabanlıdır.
+// 1'den 3'e kadar olan sayfaları yazdırmak için "FromPage" özelliğini "1", "ToPage" özelliğini ise "3" olarak ayarlayın.
+// Sayfa indekslemesi 1 tabanlıdır.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// Aşağıda belgemizi yazdırmanın iki yolu verilmiştir.
-// 1 - Yazdırma ayarlarımızı uygulayarak yazdırın:
+// Aşağıda belgemizi yazdırmanın iki yolu bulunmaktadır.
+// 1 - Yazdırma ayarlarımızı uygulayarak yazdıralım:
 doc.Print(printerSettings);
 
-// 2 - Yazdırma ayarlarımızı uygularken aynı zamanda yazdırın
+// 2 - Yazdırma ayarlarımızı uygularken yazdırın, aynı zamanda
 // belgeye yazıcı kuyruğunda tanıyabileceğimiz özel bir ad veriyoruz:
 doc.Print(printerSettings, "My rendered document");
 ```

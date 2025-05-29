@@ -3,14 +3,14 @@ title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words för .NET
-description: FieldChar FieldType fast egendom. Returnerar fältets typ i C#.
+description: Upptäck FieldChar FieldType-egenskapen, som visar fältets typ och förbättrar din datahantering och programmeringseffektivitet. Läs mer nu!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldchar/fieldtype/
 ---
 ## FieldChar.FieldType property
 
-Returnerar fältets typ.
+Returnerar fälttypen.
 
 ```csharp
 public FieldType FieldType { get; }

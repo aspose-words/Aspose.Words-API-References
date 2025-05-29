@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words para .NET
-description: FrameFormat HorizontalAlignment propiedad. Obtiene la alineación horizontal del marco especificado en C#.
+description: Descubra la propiedad FrameFormat HorizontalAlignment para ajustar y optimizar fácilmente la alineación horizontal de su marco para un mejor control del diseño.
 type: docs
 weight: 30
 url: /es/net/aspose.words/frameformat/horizontalalignment/
@@ -18,7 +18,7 @@ public HorizontalAlignment HorizontalAlignment { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

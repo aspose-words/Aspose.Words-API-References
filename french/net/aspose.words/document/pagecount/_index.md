@@ -3,14 +3,14 @@ title: Document.PageCount
 linktitle: PageCount
 articleTitle: PageCount
 second_title: Aspose.Words pour .NET
-description: Document PageCount propriété. Obtient le nombre de pages du document calculé par lopération de mise en page la plus récente en C#.
+description: Découvrez la propriété Document PageCount, qui révèle le nombre total de pages en fonction de la dernière mise en page, garantissant une gestion et des informations précises sur les documents.
 type: docs
-weight: 320
+weight: 330
 url: /fr/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-Obtient le nombre de pages du document calculé par l'opération de mise en page la plus récente.
+Obtient le nombre de pages du document tel que calculé par l'opération de mise en page la plus récente.
 
 ```csharp
 public int PageCount { get; }
@@ -34,8 +34,8 @@ builder.Write("Page 3");
 Assert.AreEqual(3, doc.PageCount);
 
 // L'obtention de la propriété PageCount a invoqué la mise en page du document pour calculer la valeur.
-// Cette opération n'aura pas besoin d'être refaite lors du rendu du document dans un format de sauvegarde de page fixe,
-// tel que .pdf. Vous pouvez ainsi gagner du temps, notamment avec des documents plus complexes.
+// Cette opération n'aura pas besoin d'être refaite lors du rendu du document dans un format d'enregistrement de page fixe,
+// comme .pdf. Vous gagnerez ainsi du temps, notamment avec les documents complexes.
 doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 ```
 

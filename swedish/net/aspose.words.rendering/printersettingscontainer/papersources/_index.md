@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.PaperSources
 linktitle: PaperSources
 articleTitle: PaperSources
 second_title: Aspose.Words för .NET
-description: PrinterSettingsContainer PaperSources fast egendom. SePaperSources  i C#.
+description: Upptäck PrinterSettingsContainers PaperSources-egenskap för sömlös utskrift. Optimera dina utskriftsinställningar för bättre resultat och effektivitet!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.rendering/printersettingscontainer/papersources/
@@ -18,7 +18,7 @@ public PaperSourceCollection PaperSources { get; }
 
 ## Exempel
 
-Visar hur du kommer åt och listar skrivarens papperskällor och storlekar.
+Visar hur du får åtkomst till och listar skrivarens papperskällor och storlekar.
 
 ```csharp
 // "PrinterSettingsContainer" innehåller ett "PrinterSettings"-objekt,
@@ -33,12 +33,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Egenskapen "PaperSizes" innehåller listan över pappersstorlekar att instruera skrivaren att använda.
+// Egenskapen "PaperSizes" innehåller en lista över pappersstorlekar som skrivaren ska använda.
 // Både PrinterSource och PrinterSize innehåller en "RawKind"-egenskap,
-// vilket motsvarar en papperstyp som listas på PaperSourceKind enum.
-// Om det finns en papperskälla med samma "RawKind"-värde som på den utskrivna sidan,
-// skrivaren kommer att skriva ut sidan med den medföljande papperskällan och storleken.
-// Annars kommer skrivaren som standard att använda den källa som anges av egenskapen "DefaultPageSettingsPaperSource".
+// vilket motsvarar en papperstyp som listas i PaperSourceKind-uppräkningen.
+// Om det finns en papperskälla med samma "RawKind"-värde som utskriftssidan,
+// skrivaren skriver ut sidan med den angivna papperskällan och storleken.
+// Annars kommer skrivaren att använda den källa som anges av egenskapen "DefaultPageSettingsPaperSource" som standard.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

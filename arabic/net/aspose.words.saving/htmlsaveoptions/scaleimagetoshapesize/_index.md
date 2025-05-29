@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ScaleImageToShapeSize
 linktitle: ScaleImageToShapeSize
 articleTitle: ScaleImageToShapeSize
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ScaleImageToShapeSize ملكية. يحدد ما إذا كان سيتم تغيير حجم الصور بواسطة Aspose.Words إلى حجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف كيف تُحسّن خاصية ScaleImageToShapeSize في HtmlSaveOptions تحجيم الصور في Aspose.Words لتصدير HTML أو MHTML أو EPUB. حسّن مستنداتك!
 type: docs
-weight: 450
+weight: 470
 url: /ar/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property
 
-يحدد ما إذا كان سيتم تغيير حجم الصور بواسطة Aspose.Words إلى حجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`حقيقي` .
+يحدد ما إذا كانت الصور يتم قياسها بواسطة Aspose.Words إلى حجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool ScaleImageToShapeSize { get; set; }
@@ -18,66 +18,40 @@ public bool ScaleImageToShapeSize { get; set; }
 
 ## ملاحظات
 
-الصورة في مستند Microsoft Word هي شكل. الشكل له حجم وimage له حجمه الخاص. لا ترتبط الأحجام بشكل مباشر. على سبيل المثال، يمكن أن تكون الصورة 1024x786 بكسل، ولكن الشكل الذي يعرض هذه الصورة يمكن أن يكون 400x300 نقطة.
+الصورة في مستند مايكروسوفت وورد هي شكل. للشكل حجم، وللصورة image حجمها الخاص. لا ترتبط الأحجام مباشرةً. على سبيل المثال، يمكن أن تكون الصورة 1024×786 بكسل، ولكن الشكل الذي يعرض هذه الصورة يمكن أن يكون 400×300 نقطة.
 
-لكي يتم عرض صورة في المتصفح، يجب تغيير حجمها إلى حجم الشكل. `ScaleImageToShapeSize` تتحكم الخاصية في المكان الذي يتم فيه تغيير حجم الصورة image : في Aspose.Words أثناء التصدير إلى HTML أو في المتصفح عند عرض المستند.
+لعرض صورة في المتصفح، يجب أن يتم قياسها إلى حجم الشكل. `ScaleImageToShapeSize` تتحكم الخاصية في المكان الذي يتم فيه تغيير مقياس image : في Aspose.Words أثناء التصدير إلى HTML أو في المتصفح عند عرض المستند.
 
-متى`ScaleImageToShapeSize` يكون`حقيقي` ، يتم تغيير حجم الصورة بواسطة Aspose.Words باستخدام تحجيم عالي الجودة أثناء التصدير إلى HTML. متى`ScaleImageToShapeSize` هو`خطأ شنيع`، يتم إخراج الصورة بحجمها الأصلي ويجب على المتصفح تغيير حجمها.
+متى`ScaleImageToShapeSize` يكون`حقيقي` يتم قياس الصورة باستخدام Aspose.Words باستخدام مقياس عالي الجودة أثناء التصدير إلى HTML. عند`ScaleImageToShapeSize` هو`خطأ شنيع`يتم إخراج الصورة بحجمها الأصلي ويتعين على المتصفح تغيير حجمها.
 
-بشكل عام، تقوم المتصفحات بتحجيم الجودة بسرعة وبطريقة رديئة. ونتيجة لذلك، ستحصل عادةً على جودة عرض أفضل في المتصفح وحجم ملف أصغر عندما`ScaleImageToShapeSize` يكون`حقيقي` ، ولكن جودة طباعة أفضل وتحويل أسرع عندما`ScaleImageToShapeSize` يكون`خطأ شنيع`.
+بشكل عام، تُجري المتصفحات عملية تحجيم سريعة وبطيئة الجودة. ونتيجةً لذلك، ستحصل عادةً على جودة عرض أفضل في المتصفح وحجم ملف أصغر عند`ScaleImageToShapeSize` يكون`حقيقي` ، ولكن جودة الطباعة أفضل والتحويل أسرع عند`ScaleImageToShapeSize` يكون`خطأ شنيع`.
 
-بالإضافة إلى الأشكال التي تحتوي على صور نقطية فردية، يؤثر هذا الخيار أيضًا على أشكال المجموعة التي تتكون من من الصور النقطية. لو`ScaleImageToShapeSize` يكون`خطأ شنيع` ويحتوي شكل المجموعة على صور نقطية ذات دقة جوهرية أعلى من القيمة المحددة في[`ImageResolution`](../imageresolution/)، Aspose.Words سوف يزيد من دقة العرض لهذه المجموعة. يتيح ذلك الحفاظ بشكل أفضل على جودة الصور المجمعة ذات الدقة العالية عند الحفظ في HTML.
+بالإضافة إلى الأشكال التي تحتوي على صور نقطية فردية، يؤثر هذا الخيار أيضًا على أشكال المجموعة المكونة من صور نقطية. إذا`ScaleImageToShapeSize` يكون`خطأ شنيع` ويحتوي شكل المجموعة على صور نقطية ذات دقة جوهرية أعلى من القيمة المحددة في[`ImageResolution`](../imageresolution/)سيؤدي استخدام Aspose.Words إلى زيادة دقة عرض هذه المجموعة. هذا يسمح بالحفاظ على جودة الصور عالية الدقة المجمعة بشكل أفضل عند الحفظ بتنسيق HTML.
 
 ## أمثلة
 
-يوضح كيفية تعطيل تغيير حجم الصور إلى أبعاد الشكل الأصلي الخاصة بها عند الحفظ في .html.
+يوضح كيفية تعطيل تغيير مقياس الصور إلى أبعاد شكلها الأصلي عند الحفظ في .html.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            // قم بإدراج شكل يحتوي على صورة، ثم اجعل هذا الشكل أصغر بكثير من الصورة.
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// قم بإدراج شكل يحتوي على صورة، ثم اجعل هذا الشكل أصغر بكثير من الصورة.
+Shape imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
+imageShape.Width = 50;
+imageShape.Height = 50;
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png");
+// سيؤدي حفظ مستند يحتوي على أشكال مع صور إلى HTML إلى إنشاء ملف صورة في نظام الملفات المحلي
+// لكل شكل. سيستخدم مستند HTML الناتج وسم <image> للربط بهذه الصور وعرضها.
+// عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions لتحديد
+// ما إذا كان سيتم تغيير حجم جميع الصور الموجودة داخل الأشكال إلى أحجام أشكالها.
+// تعيين علامة "ScaleImageToShapeSize" إلى "true" سيؤدي إلى تقليص حجم كل صورة
+// إلى حجم الشكل الذي يحتويه، بحيث لا تكون الصور المحفوظة أكبر من الحجم المطلوب في المستند.
+// سيؤدي تعيين علامة "ScaleImageToShapeSize" إلى "false" إلى الحفاظ على أحجام هذه الصور الأصلية،
+// مما سيشغل مساحة أكبر مقابل الحفاظ على جودة الصورة.
+HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
-
-            Shape imageShape = builder.InsertImage(image);
-            imageShape.Width = 50;
-            imageShape.Height = 50;
-
-            // سيؤدي حفظ مستند يحتوي على أشكال وصور بتنسيق HTML إلى إنشاء ملف صورة في نظام الملفات المحلي
-            // لكل شكل من هذا القبيل. سيستخدم مستند HTML الناتج <image> علامات للارتباط بهذه الصور وعرضها.
-            // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتحديده
-            // ما إذا كان سيتم تغيير حجم جميع الصور الموجودة داخل الأشكال إلى أحجام أشكالها.
-            // سيؤدي تعيين علامة "ScaleImageToShapeSize" على "true" إلى تقليص كل صورة
-            // إلى حجم الشكل الذي يحتوي عليه، بحيث لا تكون الصور المحفوظة أكبر مما يتطلبه المستند.
-            // سيؤدي تعيين علامة "ScaleImageToShapeSize" إلى "خطأ" إلى الحفاظ على الأحجام الأصلية لهذه الصور،
-            // والتي ستشغل مساحة أكبر مقابل الحفاظ على جودة الصورة.
-            HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };
-
-            doc.Save(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
-
-            FileInfo fileInfo = new FileInfo(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.001.png");
-
-#if NET48 || JAVA
-        if (scaleImageToShapeSize)
-            Assert.That(3000, Is.AtLeast(fileInfo.Length));
-        else
-            Assert.That(20000, Is.LessThan(fileInfo.Length));
-#elif NET5_0_OR_GREATER
-        if (scaleImageToShapeSize)
-            Assert.That(10000, Is.AtLeast(fileInfo.Length));
-        else
-            Assert.That(30000, Is.LessThan(fileInfo.Length));
-#endif
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
 ```
 
 ### أنظر أيضا

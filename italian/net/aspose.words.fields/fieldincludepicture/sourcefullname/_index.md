@@ -3,7 +3,7 @@ title: FieldIncludePicture.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words per .NET
-description: FieldIncludePicture SourceFullName proprietà. Ottiene o imposta la posizione dellimmagine utilizzando un IRI in C#.
+description: Scopri la proprietà FieldIncludePicture SourceFullName. Gestisci facilmente la posizione delle immagini con IRI per una migliore integrazione dei media e un'esperienza utente fluida.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -24,7 +24,7 @@ Mostra come inserire immagini utilizzando i campi IMPORT e INCLUDEPICTURE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due tipi di campo simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
+// Di seguito sono riportati due tipi di campi simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
 // 1 - Il campo INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

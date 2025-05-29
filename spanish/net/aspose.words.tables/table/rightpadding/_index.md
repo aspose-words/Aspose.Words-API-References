@@ -3,7 +3,7 @@ title: Table.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words para .NET
-description: Table RightPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la derecha del contenido de las celdas en C#.
+description: Descubre la propiedad Table RightPadding para personalizar el espaciado entre celdas. Ajusta fácilmente el margen derecho para mejorar la presentación y la legibilidad de tus diseños.
 type: docs
 weight: 250
 url: /es/net/aspose.words.tables/table/rightpadding/
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Para cada celda de la tabla, establece la distancia entre su contenido y cada uno de sus bordes.
-// Esta tabla mantendrá la distancia mínima de relleno ajustando el texto.
+ // Para cada celda de la tabla, establezca la distancia entre su contenido y cada uno de sus bordes.
+// Esta tabla mantendrá la distancia de relleno mínima ajustando el texto.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

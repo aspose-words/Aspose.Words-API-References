@@ -3,14 +3,14 @@ title: OlePackage.DisplayName
 linktitle: DisplayName
 articleTitle: DisplayName
 second_title: Aspose.Words لـ .NET
-description: OlePackage DisplayName ملكية. الحصول على اسم عرض حزمة OLE أو تعيينه في C#.
+description: اكتشف خاصية OlePackage DisplayName لإدارة أسماء عرض حزمة OLE بسهولة. حسّن تنظيم بياناتك بهذه الميزة الأساسية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/olepackage/displayname/
 ---
 ## OlePackage.DisplayName property
 
-الحصول على اسم عرض حزمة OLE أو تعيينه.
+يحصل على اسم عرض حزمة OLE أو يعينه.
 
 ```csharp
 public string DisplayName { get; set; }
@@ -18,7 +18,7 @@ public string DisplayName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج كائن OLE في المستند.
+يوضح كيفية إدراج كائن OLE في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // تسمح لنا كائنات OLE بفتح ملفات أخرى في نظام الملفات المحلي باستخدام تطبيق آخر مثبت
 // في نظام التشغيل الخاص بنا عن طريق النقر المزدوج على الشكل الذي يحتوي على كائن OLE في نص المستند.
-// في هذه الحالة، سيكون ملفنا الخارجي عبارة عن أرشيف مضغوط بتنسيق ZIP.
+// في هذه الحالة، سيكون ملفنا الخارجي عبارة عن أرشيف ZIP.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

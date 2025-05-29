@@ -3,7 +3,7 @@ title: VbaModuleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: VbaModuleCollection Add metodo. Aggiunge un modulo alla raccolta in C#.
+description: Migliora senza sforzo i tuoi progetti VBA con il metodo Add di VbaModuleCollection, che consente l'aggiunta fluida di moduli per funzionalità migliorate.
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbamodulecollection/add/
@@ -34,7 +34,7 @@ module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Aggiunge il modulo al progetto VBA.
+// Aggiungere il modulo al progetto VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

@@ -2,8 +2,8 @@
 title: CustomPart
 linktitle: CustomPart
 articleTitle: CustomPart
-second_title: Aspose.Words for .NET
-description: CustomPart inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilmiş bileşenler için başvuracağınız çözüm olan CustomPart oluşturucusunu keşfedin. Projeleriniz için verimliliği ve hassasiyeti bugün açığa çıkarın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/custompart/custompart/

@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words для .NET
-description: CustomXmlPropertyCollection IndexOfKey метод. Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции на С#.
+description: Откройте для себя метод CustomXmlPropertyCollection IndexOfKey, чтобы легко найти индекс любого свойства в вашей коллекции, начиная с нуля. Повысьте эффективность кодирования!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -18,11 +18,11 @@ public int IndexOfKey(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства с учетом регистра. |
+| name | String | Имя свойства чувствительно к регистру. |
 
 ### Возвращаемое значение
 
-Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
+Индекс от нуля. Отрицательное значение, если не найдено.
 
 ## Примеры
 
@@ -31,9 +31,9 @@ public int IndexOfKey(string name)
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
-// например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
-// В Word 2003 мы можем включить смарт-теги через «Инструменты» -> > "Параметры автозамены..." -> «СмартТеги».
+// Смарт-тег появляется в документе, в котором Microsoft Word распознает часть текста как некоторую форму данных,
+// например имя, дату или адрес, и преобразует его в гиперссылку, которая отображается подчеркиванием из фиолетовых точек.
+// В Word 2003 мы можем включить смарт-теги через «Сервис» -> «Параметры автозамены...» -> «SmartTags».
 // В нашем входном документе есть три объекта, которые Microsoft Word зарегистрировал как смарт-теги.
 // Смарт-теги могут быть вложенными, поэтому эта коллекция содержит больше.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();

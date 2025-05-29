@@ -2,15 +2,15 @@
 title: ShapeBase.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
-second_title: Aspose.Words for .NET
-description: ShapeBase IsDeleteRevision mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase IsDeleteRevision özelliğini keşfedin, Microsoft Word'de gelişmiş belge yönetimi için değişiklik izleme etkinleştirildiğinde nesnenin silinmesini nasıl gösterdiğini öğrenin.
 type: docs
-weight: 250
+weight: 270
 url: /tr/net/aspose.words.drawing/shapebase/isdeleterevision/
 ---
 ## ShapeBase.IsDeleteRevision property
 
-Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değerini döndürür.
+Değişiklik izleme etkinleştirilmişken bu nesnenin Microsoft Word'de silinmesi durumunda doğru değerini döndürür.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -25,14 +25,14 @@ Document doc = new Document();
 
 Assert.False(doc.TrackRevisions);
 
-// Düzeltmeleri izlemeden satır içi bir şekil ekleyin; bu, bu şeklin herhangi bir türde revizyon olmamasını sağlar.
+// Revizyonları izlemeyen bir satır içi şekil ekle, bu şeklin hiçbir şekilde bir revizyon olmamasını sağlar.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.WrapType = WrapType.Inline;
 shape.Width = 100.0;
 shape.Height = 100.0;
 doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-// Revizyonları izlemeye başlayın ve ardından revizyon olacak başka bir şekil ekleyin.
+// Revizyonları izlemeye başla ve ardından revizyon olacak başka bir şekil ekle.
 doc.StartTrackRevisions("John Doe");
 
 shape = new Shape(doc, ShapeType.Sun);
@@ -47,15 +47,15 @@ Assert.AreEqual(2, shapes.Length);
 
 shapes[0].Remove();
 
-// Değişiklikleri takip ederken o şekli kaldırdığımız için,
-// şekil belgede kalır ve revizyon silme olarak sayılır.
-// Bu düzeltmeyi kabul etmek şekli kalıcı olarak kaldıracak, reddetmek ise onu belgede tutacaktır.
+// Değişiklikleri izlerken o şekli kaldırdığımızdan,
+// şekil belgede kalır ve silme revizyonu olarak sayılır.
+// Bu düzeltmeyi kabul etmek şekli kalıcı olarak kaldıracak, reddetmek ise belgede kalmasını sağlayacaktır.
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
-// Ve değişiklikleri izlerken başka bir şekil ekledik, böylece bu şekil bir ekleme revizyonu olarak sayılacaktır.
-// Bu revizyonun kabul edilmesi, bu şeklin revizyon dışı olarak belgeye asimile edilmesini sağlayacaktır,
-// ve düzeltmenin reddedilmesi bu şekli kalıcı olarak kaldıracaktır.
+// Ve değişiklikleri izlerken başka bir şekil daha ekledik, bu yüzden bu şekil bir ekleme revizyonu olarak sayılacak.
+// Bu revizyonu kabul etmek, bu şeklin revizyon olmayan bir belge olarak belgeye dahil edilmesine neden olacaktır.
+// ve revizyonu reddetmek bu şekli kalıcı olarak kaldıracaktır.
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);
 ```

@@ -3,14 +3,14 @@ title: LayoutOptions.TextShaperFactory
 linktitle: TextShaperFactory
 articleTitle: TextShaperFactory
 second_title: Aspose.Words för .NET
-description: LayoutOptions TextShaperFactory fast egendom. Hämtar eller sätterITextShaperFactory implementering som används för avancerade typografirenderingsfunktioner i C#.
+description: Upptäck LayoutOptions TextShaperFactory-egenskapen för avancerad typografi. Förbättra din rendering med anpassningsbara ITextShaperFactory-implementeringar.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property
 
-Hämtar eller sätter[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) implementering som används för avancerade typografirenderingsfunktioner.
+Hämtar eller sätter[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) implementering som används för avancerade typografiska renderingsfunktioner.
 
 ```csharp
 public ITextShaperFactory TextShaperFactory { get; set; }
@@ -18,19 +18,19 @@ public ITextShaperFactory TextShaperFactory { get; set; }
 
 ## Exempel
 
-Visar hur man stöder OpenType-funktioner med hjälp av HarfBuzz-motorn för textformning.
+Visar hur man stöder OpenType-funktioner med hjälp av HarfBuzz textformningsmotor.
 
 ```csharp
 Document doc = new Document(MyDir + "OpenType text shaping.docx");
 
 // Aspose.Words kan använda externt tillhandahållna textformningsobjekt,
-// som representerar teckensnitt och beräkningsformningsinformation för text.
+// som representerar teckensnitt och beräknar formningsinformation för text.
 // En textformningsfabrik är nödvändig för dokument som använder flera teckensnitt.
 // När textformaren är fabriksinställd använder layouten OpenType-funktioner.
-// En Instance-egenskap returnerar ett statiskt BasicTextShaperCache-objekt som omsluter HarfBuzzTextShaperFactory.
+// En instansegenskap returnerar ett statiskt BasicTextShaperCache-objekt som omsluter HarfBuzzTextShaperFactory.
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
 
-// För närvarande utförs textformning vid export till PDF- eller XPS-format.
+// För närvarande fungerar textformning vid export till PDF- eller XPS-format.
 doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 ```
 

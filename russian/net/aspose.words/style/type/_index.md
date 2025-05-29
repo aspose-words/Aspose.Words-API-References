@@ -3,9 +3,9 @@ title: Style.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: Style Type свойство. Получает тип стиля абзац или символ на С#.
+description: Откройте для себя свойство «Тип стиля», чтобы легко получать доступ к стилям абзацев или символов и настраивать их, улучшая визуальную привлекательность вашего документа.
 type: docs
-weight: 170
+weight: 200
 url: /ru/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

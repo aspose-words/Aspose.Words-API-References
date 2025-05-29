@@ -3,7 +3,7 @@ title: OleFormat.SuggestedFileName
 linktitle: SuggestedFileName
 articleTitle: SuggestedFileName
 second_title: Aspose.Words para .NET
-description: OleFormat SuggestedFileName propiedad. Obtiene el nombre de archivo sugerido para el objeto incrustado actual si desea guardarlo en un archivo en C#.
+description: Descubra la propiedad OleFormat SuggestedFileName para recuperar fácilmente el nombre de archivo recomendado para guardar sus objetos incrustados sin problemas.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -23,7 +23,7 @@ Muestra cómo obtener el nombre de archivo sugerido de un objeto OLE.
 ```csharp
 Document doc = new Document(MyDir + "OLE shape.rtf");
 
-Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
+Shape oleShape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
 // Los objetos OLE pueden proporcionar un nombre de archivo y una extensión sugeridos,
 // que podemos usar al guardar el contenido del objeto en un archivo en el sistema de archivos local.

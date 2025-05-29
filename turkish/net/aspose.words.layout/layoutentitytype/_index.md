@@ -2,10 +2,10 @@
 title: LayoutEntityType Enum
 linktitle: LayoutEntityType
 articleTitle: LayoutEntityType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.LayoutEntityType Sıralama. Düzen varlıklarının türleri C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirme ve sorunsuz entegrasyon için çeşitli düzen varlık türlerini içeren Aspose.Words.Layout.LayoutEntityType enum'unu keşfedin.
 type: docs
-weight: 3330
+weight: 3780
 url: /tr/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
@@ -22,33 +22,33 @@ public enum LayoutEntityType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Varsayılan değer. |
-| Page | `1` | Bir belgenin sayfasını temsil eder. Sayfada şunlar olabilir:Column ,HeaderFooter VeComment alt varlıklar. |
-| Column | `2` | Bir sayfadaki metnin bir sütununu temsil eder. Sütun, aşağıdaki öğelerle aynı alt öğelere sahip olabilir:Cell , artıFootnote ,Endnote VeNoteSeparator varlıklar. |
-| Row | `8` | Bir tablo satırını temsil eder. Satırın sahip olabileceğiCell alt varlıklar olarak. |
-| Cell | `10` | Bir tablo hücresini temsil eder. Hücrenin sahip olabileceğiLine VeRow alt varlıklar. |
-| Line | `20` | Metin ve satır içi nesnelerin karakter satırını temsil eder. Satırda şunlar olabilir:Span alt varlıklar. |
-| Span | `40` | Bir satırdaki bir veya daha fazla karakteri temsil eder. Bu, alan başlangıç/bitiş işaretçileri, yer imleri ve yorumlar gibi özel karakterleri içerir. Span'ın alt varlıkları olmayabilir. |
-| Footnote | `100` | Dipnot içeriği için yer tutucuyu temsil eder. Dipnotta şunlar olabilir:Note alt varlıklar. |
-| Endnote | `200` | Son not içeriği için yer tutucuyu temsil eder. Son notta şunlar olabilir:Note alt varlıklar. |
-| Note | `4000` | Not içeriği için yer tutucuyu temsil eder. Notta şunlar olabilir:Line VeRow alt varlıklar. |
-| HeaderFooter | `400` | Bir sayfadaki üstbilgi/altbilgi içeriği için yer tutucuyu temsil eder. HeaderFooter'da şunlar bulunabilir:Line VeRow alt varlıklar. |
-| TextBox | `800` | Bir şeklin içindeki metin alanını temsil eder. Metin kutusu şunları içerebilir:Line VeRow alt varlıklar. |
-| Comment | `1000` | Yorum içeriği için yer tutucuyu temsil eder. Yorumda şunlar olabilir:Line VeRow alt varlıklar. |
-| NoteSeparator | `2000` | Dipnot/sonnot ayırıcısını temsil eder. Not Ayırıcıda şunlar olabilir:Line VeRow alt varlıklar. |
+| Page | `1` | Bir belgenin sayfasını temsil eder. Sayfa şu özelliklere sahip olabilir:Column ,HeaderFooter VeComment çocuk varlıklar. |
+| Column | `2` | Bir sayfadaki metin sütununu temsil eder. Sütun, aynı alt varlıklara sahip olabilirCell , artıFootnote ,Endnote VeNoteSeparator varlıklar. |
+| Row | `8` | Bir tablo satırını temsil eder. Satır şunlardan biri olabilir:Cell çocuk varlıklar olarak. |
+| Cell | `10` | Bir tablo hücresini temsil eder. Hücre şu özelliklere sahip olabilir:Line VeRow çocuk varlıklar. |
+| Line | `20` | Metin ve satır içi nesnelerin karakter satırını temsil eder. Satır,Span çocuk varlıklar. |
+| Span | `40` | Bir satırdaki bir veya daha fazla karakteri temsil eder. Bu, alan başlangıç/bitiş işaretçileri, yer imleri ve yorumlar gibi özel karakterleri içerir. Span'in alt varlıkları olamaz. |
+| Footnote | `100` | Dipnot içeriği için yer tutucuyu temsil eder. Dipnot,Note çocuk varlıklar. |
+| Endnote | `200` | Son not içeriği için yer tutucuyu temsil eder. Son not şunları içerebilir:Note çocuk varlıklar. |
+| Note | `4000` | Not içeriği için yer tutucuyu temsil eder. Not şunları içerebilir:Line VeRow çocuk varlıklar. |
+| HeaderFooter | `400` | Bir sayfadaki üstbilgi/altbilgi içeriği için yer tutucuyu temsil eder. HeaderFooter,Line VeRow çocuk varlıklar. |
+| TextBox | `800` | Bir şeklin içindeki metin alanını temsil eder. Metin kutusu olabilirLine VeRow çocuk varlıklar. |
+| Comment | `1000` | Yorum içeriği için yer tutucuyu temsil eder. Yorum,Line VeRow çocuk varlıklar. |
+| NoteSeparator | `2000` | Dipnot/sonnot ayırıcısını temsil eder. NoteSeparator şu şekilde olabilir:Line VeRow çocuk varlıklar. |
 
 ## Örnekler
 
-Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
+Bir belgenin düzen varlıkları arasında gezinmenin yollarını gösterir.
 
 ```csharp
 public void LayoutEnumerator()
 {
-    // Çeşitli düzen varlıkları içeren bir belge açın.
-    // Düzen varlıkları, LayoutEntityType numaralandırmasında yer alan sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
-    // Her düzen varlığının belge gövdesinde kapladığı dikdörtgen bir alan vardır.
+    // Çeşitli düzen varlıkları içeren bir belgeyi açın.
+    // Düzen varlıkları, LayoutEntityType enum'unda yer alan sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
+    // Her düzen varlığının, belge gövdesinde kapladığı dikdörtgen bir alanı vardır.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Bu varlıkları bir ağaç gibi geçebilecek bir numaralandırıcı oluşturun.
+    // Bu varlıkları bir ağaç gibi dolaşabilen bir numaratör oluşturun.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -58,24 +58,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Numaralandırıcının ilk düzen öğesinde olacağından emin olmak için bu yöntemi çağırabiliriz.
+    // Numaratörün ilk düzen varlığında olacağından emin olmak için bu metodu çağırabiliriz.
     layoutEnumerator.Reset();
 
-    // Düzen numaralandırıcının düzen öğelerini çaprazlamaya nasıl devam edeceğini belirleyen iki sıra vardır
+    // Düzen numaralandırıcısının düzen varlıklarını dolaşmaya nasıl devam edeceğini belirleyen iki düzen vardır
     // birden fazla sayfaya yayılan varlıklarla karşılaştığında.
     // 1 - Görsel sırayla:
-    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
-    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçip bir sonraki sayfadakilerden kaçınırız.
+    // Birden fazla sayfaya yayılan bir varlığın alt öğeleri arasında hareket ederken,
+    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçeriz ve bir sonraki sayfadakilerden kaçınırız.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Numaralandırıcımız artık koleksiyonun sonunda. Başlangıca geri dönmek için düzen varlıklarını geriye doğru hareket ettirebiliriz.
+    // Sayıcımız artık koleksiyonun sonunda. Başlangıca geri dönmek için düzen varlıklarını geriye doğru dolaşabiliriz.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - Mantıksal sırayla:
-    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
-    // numaralandırıcı tüm alt varlıklar arasında geçiş yapmak için sayfalar arasında hareket edecektir.
+    // Birden fazla sayfaya yayılan bir varlığın alt öğeleri arasında hareket ederken,
+    // numaratör tüm alt varlıkları dolaşmak için sayfalar arasında hareket edecektir.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -84,8 +84,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
-/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
+/// layoutEnumerator'ın düzen varlık koleksiyonunu baştan sona numaralandırın,
+/// derinlemesine ve "Görsel" düzende.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -102,8 +102,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
-/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
+/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
+/// derinlemesine ve "Görsel" düzende.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -120,8 +120,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
-/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
+/// layoutEnumerator'ın düzen varlık koleksiyonunu baştan sona numaralandırın,
+/// derinlemesine ve "Mantıksal" bir düzende.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -138,8 +138,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
-/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
+/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
+/// derinlemesine ve "Mantıksal" bir düzende.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -156,9 +156,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Metni sekme karakterleriyle girintilerken, LayoutEnumerator'ın geçerli varlığı hakkındaki bilgileri konsola yazdırın
-/// yapıcı LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine dayalı.
-/// Sonda işlediğimiz dikdörtgen, varlığın belgede kapladığı alanı ve konumu temsil eder.
+/// Konsola layoutEnumerator'ın geçerli varlığı hakkında bilgi yazdırın, metni sekme karakterleriyle girintileyin
+/// LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine göre.
+/// Son olarak işlediğimiz dikdörtgen, varlığın belgede kapladığı alanı ve konumu temsil eder.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -168,7 +168,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // Yalnızca yayılma alanları metin içerebilir.
+    // Sadece span'lar metin içerebilir.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

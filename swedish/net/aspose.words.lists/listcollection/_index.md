@@ -3,9 +3,9 @@ title: ListCollection Class
 linktitle: ListCollection
 articleTitle: ListCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Lists.ListCollection klass. Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument i C#.
+description: Upptäck klassen Aspose.Words.Lists.ListCollection för effektiv hantering av punktlistor och numrerade listor, vilket förbättrar dokumentformatering och organisation.
 type: docs
-weight: 3470
+weight: 3920
 url: /sv/net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
@@ -33,28 +33,29 @@ public class ListCollection : IEnumerable<List>
 | [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet. |
 | [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet. |
 | [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Hämtar en lista med en listidentifierare. |
+| [AddSingleLevelList](../../aspose.words.lists/listcollection/addsinglelevellist/)(*[ListTemplate](../listtemplate/)*) | Skapar en ny lista på en nivå baserad på den fördefinierade mallen och lägger till den i listsamlingen i dokumentet. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Hämtar enumerator-objektet som räknar upp listor i dokumentet. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Hämtar en lista med hjälp av en listidentifierare. |
 
 ## Anmärkningar
 
-En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i`ListCollection` samling separat från textstyckena.
+En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Listornas formatering lagras i`ListCollection` samling separat från textstycken.
 
-Du skapar inte objekt av den här klassen. Det finns alltid bara en`ListCollection` objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists/) fast egendom.
+Du skapar inte objekt av den här klassen. Det finns alltid bara ett`ListCollection` -objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists/) egendom.
 
-För att skapa en ny lista baserad på en fördefinierad listmall eller baserad på en liststil, använd[`Add`](./add/) metod.
+För att skapa en ny lista baserad på en fördefinierad listmall eller baserat på en liststil, använd[`Add`](./add/) metod.
 
 För att skapa en ny lista med formatering identisk med en befintlig lista, använd[`AddCopy`](./addcopy/) metod.
 
-För att göra ett stycke punktat eller numrerat måste du tillämpa listformatering på ett stycke genom att tilldela en[`List`](../list/)invända mot the [`List`](../listformat/list/) egendom av[`ListFormat`](../listformat/).
+För att göra ett stycke punktformaterat eller numrerat måste du använda listformatering på ett stycke genom att tilldela en[`List`](../list/)invända mot the [`List`](../listformat/list/) egendom av[`ListFormat`](../listformat/).
 
-För att ta bort listformatering från ett stycke, använd[`RemoveNumbers`](../listformat/removenumbers/) metod.
+För att ta bort listformatering från ett stycke, använd[`RemoveNumbers`](../listformat/removenumbers/) -metoden.
 
-Om du kan lite om WordprocessingML, så kanske du vet att det definierar separata concepts för "list" och "list definition". Detta motsvarar exakt hur listformatering lagras i ett Microsoft Word-dokument på låg nivå. Listdefinition är som ett "schema" och list är som en instans av en listdefinition.
+Om du vet lite om WordprocessingML kanske du vet att det definierar separata begrepp för "lista" och "listdefinition". Detta motsvarar exakt hur listformatering lagras i ett Microsoft Word-dokument på låg nivå. Listdefinition är som ett "schema" och lista är som en instans av en listdefinition.
 
-För att förenkla programmeringsmodellen döljer Aspose.Words skillnaden mellan list och list definition på ungefär samma sätt som Microsoft Word döljer detta i sitt användargränssnitt. Detta gör att du kan koncentrera dig mer på hur du vill att ditt dokument ska se ut, snarare än bygga objekt på låg nivå för att uppfylla kraven i Microsoft Word-filformatet.
+För att förenkla programmeringsmodellen döljer Aspose.Words skillnaden mellan list och list definitioner på ungefär samma sätt som Microsoft Word döljer detta i sitt användargränssnitt. Detta låter dig koncentrera dig mer på hur du vill att ditt dokument ska se ut, snarare än att bygga lågnivåobjekt för att uppfylla kraven i Microsoft Word-filformatet.
 
-Det är inte möjligt att ta bort listor när de väl har skapats i den aktuella versionen av Aspose.Words. Detta liknar Microsoft Word där användaren inte har explicit kontroll över listdefinitioner.
+Det är inte möjligt att ta bort listor när de väl har skapats i den aktuella versionen av Aspose.Words. . Detta liknar Microsoft Word där användaren inte har explicit kontroll över listdefinitioner.
 
 ## Exempel
 
@@ -92,21 +93,21 @@ private static void AddListSample(DocumentBuilder builder, List list)
 }
 ```
 
-Visar hur man startar om numrering i en lista genom att kopiera en lista.
+Visar hur man startar om numreringen i en lista genom att kopiera en lista.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa dess första listnivå.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Tillämpa vår lista på några stycken.
+// Tillämpa vår lista på vissa stycken.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -115,7 +116,7 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Vi kan lägga till en kopia av en befintlig lista till dokumentets listsamling
+// Vi kan lägga till en kopia av en befintlig lista i dokumentets listsamling
 // för att skapa en liknande lista utan att göra ändringar i originalet.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
@@ -141,18 +142,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
-// för att starta en fristående underlista vid det aktuella listobjektet.
-// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// för att börja en fristående underlista vid det aktuella listobjektet.
+// Listmallen i Microsoft Word som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
  // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
@@ -161,8 +162,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
-// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda andra symboler, såsom "■" och "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -171,7 +172,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera flaggan "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

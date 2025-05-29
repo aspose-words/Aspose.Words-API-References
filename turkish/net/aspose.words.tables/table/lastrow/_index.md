@@ -2,8 +2,8 @@
 title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
-second_title: Aspose.Words for .NET
-description: Table LastRow mülk. Sonuncuyu döndürürRow tablodaki düğüm C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzdaki son Satır düğümüne kolayca erişmek, veri yönetimini ve verimliliği artırmak için Table LastRow özelliğini keşfedin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.tables/table/lastrow/

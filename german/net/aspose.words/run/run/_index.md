@@ -3,14 +3,14 @@ title: Run
 linktitle: Run
 articleTitle: Run
 second_title: Aspose.Words für .NET
-description: Run constructeur. Initialisiert eine neue Instanz vonRun Klasse in C#.
+description: Erstellen und passen Sie Ihre Run-Klasseninstanz mühelos an. Schalten Sie leistungsstarke Funktionen für optimierte Leistung und erweiterte Funktionalität frei.
 type: docs
 weight: 10
 url: /de/net/aspose.words/run/run/
 ---
 ## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
-Initialisiert eine neue Instanz von[`Run`](../) Klasse.
+Initialisiert eine neue Instanz des[`Run`](../) Klasse.
 
 ```csharp
 public Run(DocumentBase doc)
@@ -22,9 +22,9 @@ public Run(DocumentBase doc)
 
 ## Bemerkungen
 
-Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
+Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`null`.
 
-Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) an dem Absatz, an dem der Lauf eingefügt werden soll.
+Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) auf dem Absatz, in den Sie den Lauf einfügen möchten.
 
 ## Beispiele
 
@@ -35,12 +35,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -53,7 +53,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -84,7 +84,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Initialisiert eine neue Instanz von**Laufen** Klasse.
+Initialisiert eine neue Instanz des**Laufen** Klasse.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -97,13 +97,13 @@ public Run(DocumentBase doc, string text)
 
 ## Bemerkungen
 
-Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
+Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`null`.
 
-Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) an dem Absatz, an dem der Lauf eingefügt werden soll.
+Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) auf dem Absatz, in den Sie den Lauf einfügen möchten.
 
 ## Beispiele
 
-Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
+Zeigt, wie ein Textlauf mithilfe seiner Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();

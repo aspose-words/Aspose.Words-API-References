@@ -2,10 +2,10 @@
 title: DropDownItemCollection Class
 linktitle: DropDownItemCollection
 articleTitle: DropDownItemCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.DropDownItemCollection 班级. 表示下拉表单字段中所有项目的字符串集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.DropDownItemCollection 类 - 轻松管理表单字段中的下拉项的解决方案！
 type: docs
-weight: 1500
+weight: 1910
 url: /zh/net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
@@ -29,18 +29,18 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | 将字符串添加到集合的末尾。 |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | 在集合末尾添加一个字符串。 |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | 确定集合中是否包含指定值。 |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | 确定集合是否包含指定的值。 |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | 返回集合中指定值的从零开始的索引。 |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | 将字符串插入集合中指定索引处。 |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | 从集合中删除指定值。 |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | 将字符串插入到指定索引处的集合中。 |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | 从集合中删除指定的值。 |
 | [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | 删除指定索引处的值。 |
 
 ## 例子
 
-演示如何插入组合框字段以及编辑其项目集合中的元素。
+展示如何插入组合框字段，并编辑其项目集合中的元素。
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 插入一个组合框，然后验证其下拉项集合。
 // 在 Microsoft Word 中，用户将单击组合框，
-// 然后选择集合中要显示的文本项之一。
+// 然后选择集合中的一项文本进行显示。
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -58,7 +58,7 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// 有两种方法可以将新项目添加到现有的下拉框项目集合中。
+// 有两种方法可以向现有的下拉框项目集合中添加新项目。
 // 1 - 将一个项目附加到集合的末尾：
 dropDownItems.Add("Four");
 
@@ -67,7 +67,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// 迭代集合并打印每个元素。
+// 遍历集合并打印每个元素。
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);

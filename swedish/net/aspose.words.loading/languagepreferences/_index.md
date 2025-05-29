@@ -3,9 +3,9 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.LanguagePreferences klass. Gör det möjligt att ställa in språkinställningar i C#.
+description: Upptäck klassen Aspose.Words.LanguagePreferences för att enkelt anpassa och hantera språkinställningar för förbättrad dokumentbehandling.
 type: docs
-weight: 3650
+weight: 4100
 url: /sv/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -28,7 +28,7 @@ public class LanguagePreferences
 
 | namn | Beskrivning |
 | --- | --- |
-| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | Hämtar eller ställer in standardspråk för redigering. |
+| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | Hämtar eller ställer in standardredigeringsspråk. |
 
 ## Metoder
 
@@ -39,11 +39,11 @@ public class LanguagePreferences
 
 ## Anmärkningar
 
-Implementerar "Ange språkinställningar för Office" i Word.
+Implementerar dialogrutan "Ange språkinställningar för Office" i Word.
 
 ## Exempel
 
-Visar hur du använder språkinställningar när du laddar ett dokument.
+Visar hur man tillämpar språkinställningar när man laddar ett dokument.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

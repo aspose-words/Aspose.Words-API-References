@@ -3,7 +3,7 @@ title: Field.DisplayResult
 linktitle: DisplayResult
 articleTitle: DisplayResult
 second_title: Aspose.Words för .NET
-description: Field DisplayResult fast egendom. Hämtar texten som representerar det visade fältresultatet i C#.
+description: Upptäck egenskapen Field DisplayResult som levererar texten för dina visade fältresultat, vilket förbättrar tydligheten och användarupplevelsen.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/field/displayresult/
@@ -18,11 +18,11 @@ public string DisplayResult { get; }
 
 ## Anmärkningar
 
-Den[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) metod måste anropas för att erhålla korrekt värde för [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) och[`FieldAutoNumLgl`](../../fieldautonumlgl/) fields.
+Den[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Metoden måste anropas för att få rätt värde för the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) och[`FieldAutoNumLgl`](../../fieldautonumlgl/) fält.
 
 ## Exempel
 
-Visar hur man får fram den verkliga texten som ett fält visar i dokumentet.
+Visar hur man får den riktiga texten som ett fält visar i dokumentet.
 
 ```csharp
 Document doc = new Document();
@@ -32,13 +32,13 @@ builder.Write("This document was written by ");
 FieldAuthor fieldAuthor = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 fieldAuthor.AuthorName = "John Doe";
 
-// Vi kan använda egenskapen DisplayResult för att verifiera vilken exakt text
-// ett fält skulle visas på dess plats i dokumentet.
+// Vi kan använda DisplayResult-egenskapen för att verifiera exakt vilken text
+// ett fält skulle visas på sin plats i dokumentet.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
- // Fält upprätthåller inte korrekta resultatvärden i realtid.
+ // Fälten upprätthåller inte korrekta resultatvärden i realtid.
 // För att säkerställa att våra fält visar korrekta resultat vid varje given tidpunkt,
-// som precis innan en lagringsoperation måste vi uppdatera dem manuellt.
+// till exempel precis innan en sparoperation, måste vi uppdatera dem manuellt.
 fieldAuthor.Update();
 
 Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);

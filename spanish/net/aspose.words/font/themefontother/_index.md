@@ -3,9 +3,9 @@ title: Font.ThemeFontOther
 linktitle: ThemeFontOther
 articleTitle: ThemeFontOther
 second_title: Aspose.Words para .NET
-description: Font ThemeFontOther propiedad. Obtiene o establece la fuente del tema utilizada para caracteres con códigos de caracteres del 128 al 255 en el esquema de fuente aplicado que está asociado con esteFont objeto en C#.
+description: Descubra cómo personalizar la fuente del tema para los caracteres 128-255 en su esquema de fuentes, mejorando su diseño con opciones tipográficas únicas.
 type: docs
-weight: 510
+weight: 520
 url: /es/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontOther { get; set; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con fuentes y colores de temas.
+Muestra cómo trabajar con fuentes y colores del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para los idiomas utilizados de forma predeterminada.
+// Define fuentes para los idiomas que se utilizan por defecto.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
+//Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -54,7 +54,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Hay varias formas de restablecer la fuente y el color.
-// 1 - Configurando ThemeFont.None/ThemeColor.None:
+// 1 - Al configurar ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Configurando nombres de fuentes/colores que no sean temas:
+// 2 - Al configurar nombres de fuentes y colores que no sean del tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

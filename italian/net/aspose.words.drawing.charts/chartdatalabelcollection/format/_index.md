@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words per .NET
-description: ChartDataLabelCollection Format proprietà. Fornisce laccesso al riempimento e alla formattazione della riga delle etichette dati in C#.
+description: Scopri la proprietà ChartDataLabelCollection Format per accedere facilmente a formati di riempimento e linee personalizzabili per le tue etichette dati. Migliora i tuoi grafici oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 ---
 ## ChartDataLabelCollection.Format property
 
-Fornisce l'accesso al riempimento e alla formattazione della riga delle etichette dati.
+Fornisce accesso al riempimento e alla formattazione delle linee delle etichette dati.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Esempi
 
-Mostra come impostare la formattazione di riempimento, tratto e didascalia per le etichette dei dati del grafico.
+Mostra come impostare la formattazione di riempimento, tratto e callout per le etichette dei dati del grafico.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina le serie generate predefinite.
+// Elimina la serie generata di default.
 chart.Series.Clear();
 
-// Aggiunge una nuova serie.
+// Aggiungi nuova serie.
 ChartSeries series = chart.Series.Add("AW Series 1",
     new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" },
     new double[] { 100, 200, 300, 400 });
@@ -39,7 +39,7 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formatta le etichette dei dati come callout.
+// Formatta le etichette dati come callout.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;

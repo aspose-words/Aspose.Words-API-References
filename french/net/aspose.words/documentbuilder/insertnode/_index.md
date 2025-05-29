@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertNode
 linktitle: InsertNode
 articleTitle: InsertNode
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder InsertNode méthode. Insère un nœud avant le curseur en C#.
+description: Améliorez la création de vos documents grâce à la méthode InsertNode de DocumentBuilder. Insérez facilement des nœuds avant le curseur pour une édition fluide !
 type: docs
-weight: 380
+weight: 410
 url: /fr/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // Vous trouverez ci-dessous deux manières d'appliquer une image à une forme afin qu'elle puisse l'afficher.
-// 1 - Définit la forme pour contenir l'image.
+// 1 - Définissez la forme pour contenir l'image.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -49,9 +49,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// La création de liens vers des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
-// Cependant, le document ne peut afficher correctement l'image que lorsque
-// le fichier image est présent à l'emplacement vers lequel pointe la propriété "SourceFullName" de la forme.
+// Lier des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
+// Cependant, le document ne peut afficher correctement l'image que pendant
+// le fichier image est présent à l'emplacement vers lequel pointe la propriété « SourceFullName » de la forme.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

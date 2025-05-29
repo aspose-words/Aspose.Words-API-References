@@ -3,7 +3,7 @@ title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
 second_title: Aspose.Words för .NET
-description: FieldPrint PostScriptGroup fast egendom. Hämtar eller ställer in ritningsrektangeln som PostScriptinstruktionerna fungerar på i C#.
+description: Upptäck egenskapen FieldPrint PostScriptGroup för att enkelt hantera din ritningsrektangel för effektiv hantering av PostScript-instruktioner.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -29,12 +29,12 @@ builder.Write("My paragraph");
 // Fältet PRINT kan skicka instruktioner till skrivaren.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Ställ in området där skrivaren ska utföra instruktioner.
+// Ange området där skrivaren ska utföra instruktioner.
 // I det här fallet kommer det att vara stycket som innehåller vårt PRINT-fält.
 field.PostScriptGroup = "para";
 
 // När vi använder en skrivare som stöder PostScript för att skriva ut vårt dokument,
-// detta kommando kommer att göra hela området som vi angav i "field.PostScriptGroup" vitt.
+// det här kommandot kommer att göra hela området som vi angav i "field.PostScriptGroup" vitt.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

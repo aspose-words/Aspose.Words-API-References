@@ -3,14 +3,14 @@ title: PdfDigitalSignatureDetails.Reason
 linktitle: Reason
 articleTitle: Reason
 second_title: Aspose.Words لـ .NET
-description: PdfDigitalSignatureDetails Reason ملكية. الحصول على سبب التوقيع أو تحديده في C#.
+description: اكتشف خاصية PdfDigitalSignatureDetails Reason لإدارة وتخصيص أسباب توقيع المستندات بسهولة لتحسين الأمان والامتثال.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 ---
 ## PdfDigitalSignatureDetails.Reason property
 
-الحصول على سبب التوقيع أو تحديده.
+يحصل على سبب التوقيع أو يحدده.
 
 ```csharp
 public string Reason { get; set; }
@@ -22,7 +22,7 @@ public string Reason { get; set; }
 
 ## أمثلة
 
-يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
+يوضح كيفية توقيع مستند PDF تم إنشاؤه.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,11 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// قم بتكوين كائن "DigitalSignatureDetails" للكائن "SaveOptions" إلى
+// قم بتكوين كائن "DigitalSignatureDetails" من كائن "SaveOptions" إلى
 // قم بتوقيع المستند رقميًا أثناء عرضه باستخدام طريقة "الحفظ".
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

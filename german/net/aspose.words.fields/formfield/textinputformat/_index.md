@@ -3,7 +3,7 @@ title: FormField.TextInputFormat
 linktitle: TextInputFormat
 articleTitle: TextInputFormat
 second_title: Aspose.Words für .NET
-description: FormField TextInputFormat eigendom. Gibt die Textformatierung für ein Textformularfeld zurück oder legt sie fest in C#.
+description: Entdecken Sie die FormField-Eigenschaft TextInputFormat, um die Textformatierung für Ihre Formulare einfach anzupassen und so die Benutzererfahrung und Datenerfassung zu verbessern.
 type: docs
 weight: 200
 url: /de/net/aspose.words.fields/formfield/textinputformat/
@@ -18,9 +18,9 @@ public string TextInputFormat { get; set; }
 
 ## Bemerkungen
 
-Wenn das Textformularfeld regulären Text enthält, sind die gültigen Formatzeichenfolgen „ “, „GROSSBUCHSTABEN“, „KLEINBUCHSTABEN“, „ERSTES GROSSBUCHSTABEN“ und „TITELCASE“. Bei strings wird die Groß-/Kleinschreibung nicht beachtet.
+Wenn das Textformularfeld normalen Text enthält, sind die gültigen Formatzeichenfolgen "", "GROSSBUCHSTABEN", "KLEINBUCHSTABEN", "VORNAME GROSS" und "TITEL-SCHRIFT". Die Zeichenfolgen berücksichtigen die Groß- und Kleinschreibung nicht.
 
-Wenn das Textformularfeld eine Zahl oder einen Datums-/Uhrzeitwert enthält, sind valid -Formatzeichenfolgen Zahlen- oder Datums- und Uhrzeitformatzeichenfolgen.
+Wenn das Textformularfeld eine Zahl oder einen Datums-/Uhrzeitwert enthält, handelt es sich bei den Formatzeichenfolgen „valid “ um Zahlen- oder Datums- und Uhrzeitformatzeichenfolgen.
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 64 Zeichen.
 
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -58,7 +58,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -81,7 +81,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -95,7 +95,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {

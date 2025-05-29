@@ -3,14 +3,14 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words für .NET
-description: PageSetup HeaderDistance eigendom. Gibt den Abstand in Punkten zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt diesen fest in C#.
+description: Passen Sie die Eigenschaft „PageSetup HeaderDistance“ an, um den Abstand der Kopfzeilen in Punkten anzupassen und so das Layout Ihres Dokuments für eine bessere Lesbarkeit und Präsentation zu verbessern.
 type: docs
 weight: 170
 url: /de/net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property
 
-Gibt den Abstand (in Punkten) zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt diesen fest.
+Gibt den Abstand (in Punkten) zwischen der Kopfzeile und dem oberen Seitenrand zurück oder legt ihn fest.
 
 ```csharp
 public double HeaderDistance { get; set; }
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
+Zeigt, wie Sie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt anpassen.
 
 ```csharp
 Document doc = new Document();

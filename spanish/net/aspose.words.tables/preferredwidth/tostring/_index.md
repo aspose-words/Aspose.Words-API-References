@@ -3,7 +3,7 @@ title: PreferredWidth.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words para .NET
-description: PreferredWidth ToString método. Devuelve una cadena fácil de usar que muestra el valor de este objeto en C#.
+description: Descubra el método ToString PreferredWidth, que genera una cadena fácil de usar que muestra el valor de su objeto para una mayor claridad y facilidad de uso.
 type: docs
 weight: 80
 url: /es/net/aspose.words.tables/preferredwidth/tostring/
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establece un ancho preferido absoluto basado en puntos:
+// 1 - Establezca un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
+// 2 - Establezca un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -43,7 +43,7 @@ builder.InsertCell();
 // Una celda sin un ancho preferido especificado ocupará el resto del espacio disponible.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Cada configuración de la propiedad "PreferredWidth" crea un nuevo objeto.
+//Cada configuración de la propiedad "PreferredWidth" crea un nuevo objeto.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

@@ -3,7 +3,7 @@ title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words para .NET
-description: Body ParentSection propiedad. Obtiene la sección principal de esta historia en C#.
+description: Descubra la propiedad Body ParentSection para acceder fácilmente a la sección principal de una historia y mejorar la eficiencia de la gestión de contenido.
 type: docs
 weight: 30
 url: /es/net/aspose.words/body/parentsection/
@@ -33,7 +33,7 @@ public void SuppressEndnotes()
      // De forma predeterminada, un documento compila todas las notas finales al final.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // Usamos la propiedad "Position" del objeto "EndnoteOptions" del documento
+    // Utilizamos la propiedad "Posición" del objeto "EndnoteOptions" del documento
      // para recopilar notas finales al final de cada sección.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
@@ -41,9 +41,9 @@ public void SuppressEndnotes()
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Mientras hacemos que las secciones muestren sus respectivas notas finales, podemos configurar el indicador "SuppressEndnotes"
-    // del objeto "PageSetup" de una sección a "true" para volver al comportamiento predeterminado y pasar sus notas finales
-    // a la siguiente sección.
+    // Mientras hacemos que las secciones muestren sus respectivas notas finales, podemos configurar el indicador "Suprimir notas finales"
+    // del objeto "PageSetup" de una sección a "verdadero" para volver al comportamiento predeterminado y pasar sus notas finales
+    //pasamos a la siguiente sección.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -51,7 +51,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// Agregar una sección con texto y una nota final a un documento.
+/// Añade una sección con texto y una nota final a un documento.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

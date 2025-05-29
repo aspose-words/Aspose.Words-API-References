@@ -3,7 +3,7 @@ title: FontSavingArgs.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs OriginalFileName propriété. Obtient le nom du fichier de police dorigine avec une extension en C#.
+description: Découvrez la propriété FontSavingArgs OriginalFileName pour récupérer facilement le nom du fichier de police d'origine et améliorer l'efficacité de votre gestion des polices.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -18,11 +18,11 @@ public string OriginalFileName { get; }
 
 ## Remarques
 
-Cette propriété contient le nom de fichier d'origine de la police actuelle s'il est connu. Sinon, il peut s'agir d'une chaîne vide.
+Cette propriété contient le nom du fichier d'origine de la police actuelle, s'il est connu. Sinon, il peut s'agir d'une chaîne vide.
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

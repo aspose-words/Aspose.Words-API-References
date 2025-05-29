@@ -3,14 +3,14 @@ title: FileFormatInfo.IsEncrypted
 linktitle: IsEncrypted
 articleTitle: IsEncrypted
 second_title: Aspose.Words für .NET
-description: FileFormatInfo IsEncrypted eigendom. Gibt zurückWAHR wenn das Dokument verschlüsselt ist und zum Öffnen ein Passwort erfordert in C#.
+description: Ermitteln Sie mit der FileFormatInfo-Eigenschaft „IsEncrypted“, ob Ihr Dokument sicher ist. Sie gibt „true“ zurück, wenn für den Zugriff auf verschlüsselte Dateien ein Kennwort erforderlich ist.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-Gibt zurück`WAHR` wenn das Dokument verschlüsselt ist und zum Öffnen ein Passwort erfordert.
+Rückgaben`WAHR` wenn das Dokument verschlüsselt ist und zum Öffnen ein Kennwort erforderlich ist.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -18,17 +18,17 @@ public bool IsEncrypted { get; }
 
 ## Bemerkungen
 
-Diese Eigenschaft hilft Ihnen dabei, verschlüsselte Dokumente von nicht verschlüsselten Dokumenten zu unterscheiden. Wenn Sie versuchen, ein verschlüsseltes Dokument mit Aspose.Words zu laden, ohne ein Kennwort anzugeben, wird eine -Ausnahme ausgelöst. Mit dieser Eigenschaft können Sie erkennen, ob für ein Dokument ein Kennwort erforderlich ist, und vor dem Laden eines Dokuments Maßnahmen ergreifen, beispielsweise den Benutzer zur Eingabe eines Kennworts auffordern.
+Diese Eigenschaft hilft Ihnen, verschlüsselte von unverschlüsselten Dokumenten zu trennen. Wenn Sie versuchen, ein verschlüsseltes Dokument mit Aspose.Words ohne Angabe eines Kennworts zu laden, wird eine -Ausnahme ausgelöst. Mithilfe dieser Eigenschaft können Sie feststellen, ob für ein Dokument ein Kennwort erforderlich ist und vor dem Laden des Dokuments entsprechende Maßnahmen ergreifen, z. B. den Benutzer zur Kennworteingabe auffordern.
 
 ## Beispiele
 
-Zeigt, wie die FileFormatUtil-Klasse verwendet wird, um das Dokumentformat und die Verschlüsselung zu erkennen.
+Zeigt, wie die FileFormatUtil-Klasse zum Erkennen des Dokumentformats und der Verschlüsselung verwendet wird.
 
 ```csharp
 Document doc = new Document();
 
 // Konfigurieren Sie ein SaveOptions-Objekt, um das Dokument zu verschlüsseln
-// mit einem Passwort, wenn wir es speichern, und dann das Dokument speichern.
+// mit einem Passwort, wenn wir es speichern, und speichern Sie dann das Dokument.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 

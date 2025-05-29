@@ -3,14 +3,14 @@ title: SaveOptions.CreateSaveOptions
 linktitle: CreateSaveOptions
 articleTitle: CreateSaveOptions
 second_title: Aspose.Words لـ .NET
-description: SaveOptions CreateSaveOptions طريقة. إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد في C#.
+description: اكتشف طريقة CreateSaveOptions لإنشاء خيارات حفظ مخصصة للتنسيق المفضل لديك بسهولة، مما يعزز كفاءة إدارة المستندات لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
 ## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
-إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد.
+ينشئ كائن خيارات الحفظ لفئة مناسبة لتنسيق الحفظ المحدد.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
@@ -22,22 +22,22 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### قيمة الإرجاع
 
-كائن من فئة مشتقة من[`SaveOptions`](../).
+كائن من فئة مشتق من[`SaveOptions`](../).
 
 ## أمثلة
 
-يعرض خيارًا لتحسين استهلاك الذاكرة عند تحويل مستندات كبيرة إلى PDF.
+يُظهر خيارًا لتحسين استهلاك الذاكرة عند تحويل المستندات الكبيرة إلى PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// اضبط خاصية "تحسين الذاكرة" على "صحيح" لتقليل مساحة الذاكرة لعمليات حفظ المستندات الكبيرة
+// اضبط خاصية "MemoryOptimization" على "true" لتقليل حجم الذاكرة لعمليات حفظ المستندات الكبيرة
 // على حساب زيادة مدة العملية.
-// اضبط خاصية "تحسين الذاكرة" على "خطأ" لحفظ المستند كملف PDF بشكل طبيعي.
+// اضبط خاصية "MemoryOptimization" على "false" لحفظ المستند بتنسيق PDF بشكل طبيعي.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
-إنشاء كائن خيارات حفظ من فئة مناسبة لامتداد الملف المحدد في اسم الملف المحدد.
+ينشئ كائن خيارات الحفظ لفئة مناسبة لامتداد الملف المحدد في اسم الملف المعطى.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(string fileName)
@@ -62,11 +62,11 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | يحدد ملحق اسم الملف هذا فئة كائن خيارات الحفظ المراد إنشاؤه. |
+| fileName | String | يحدد امتداد اسم هذا الملف فئة كائن خيارات الحفظ الذي سيتم إنشاؤه. |
 
 ### قيمة الإرجاع
 
-كائن من فئة مشتقة من[`SaveOptions`](../).
+كائن من فئة مشتق من[`SaveOptions`](../).
 
 ## أمثلة
 
@@ -75,14 +75,14 @@ public static SaveOptions CreateSaveOptions(string fileName)
 ```csharp
 Document doc = new Document();
 
-// تمكين التحديث التلقائي للنمط، ولكن لا ترفق مستند القالب.
+// تمكين تحديث النمط التلقائي، ولكن لا تقم بإرفاق مستند قالب.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// نظرًا لعدم وجود مستند قالب، لم يكن للمستند مكان لتتبع تغييرات النمط.
-// استخدم كائن SaveOptions لتعيين القالب تلقائيًا
-// إذا كانت الوثيقة التي نقوم بحفظها لا تحتوي على واحدة.
+// نظرًا لعدم وجود مستند قالب، لم يكن لدى المستند مكان لتتبع تغييرات الأسلوب.
+// استخدم كائن SaveOptions لتعيين قالب تلقائيًا
+// إذا كان المستند الذي نحفظه لا يحتوي على واحد.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

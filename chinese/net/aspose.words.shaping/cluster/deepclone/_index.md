@@ -2,8 +2,8 @@
 title: Cluster.DeepClone
 linktitle: DeepClone
 articleTitle: DeepClone
-second_title: 用于 .NET 的 Aspose.Words
-description: Cluster DeepClone 方法. 返回此实例的深度克隆 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Cluster DeepClone 方法，轻松创建实例的完整副本，确保数据完整性和无缝功能。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.shaping/cluster/deepclone/

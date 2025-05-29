@@ -3,14 +3,14 @@ title: MailMerge.GetFieldNamesForRegion
 linktitle: GetFieldNamesForRegion
 articleTitle: GetFieldNamesForRegion
 second_title: Aspose.Words для .NET
-description: MailMerge GetFieldNamesForRegion метод. Возвращает коллекцию имен полей слияния почты доступных в регионе на С#.
+description: Откройте для себя метод MailMerge GetFieldNamesForRegion для легкого доступа к коллекции имен полей слияния в указанном вами регионе. Оптимизируйте свой рабочий процесс!
 type: docs
 weight: 230
 url: /ru/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
 ## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
-Возвращает коллекцию имен полей слияния почты, доступных в регионе.
+Возвращает коллекцию имен полей слияния, доступных в регионе.
 
 ```csharp
 public string[] GetFieldNamesForRegion(string regionName)
@@ -22,22 +22,22 @@ public string[] GetFieldNamesForRegion(string regionName)
 
 ## Примечания
 
-Возвращает полные имена полей слияния, включая необязательный префикс. Не удаляет повторяющиеся имена полей.
+Возвращает полные имена полей слияния, включая необязательный префикс. Не устраняет дублирующиеся имена полей.
 
 Если документ содержит несколько регионов с одинаковым именем, обрабатывается самый первый регион.
 
-Новый массив строк создается при каждом вызове.
+При каждом вызове создается новый массив строк.
 
 ## Примеры
 
-Показывает, как создавать, составлять список и читать регионы слияния почты.
+Показывает, как создавать, перечислять и читать регионы слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Теги "TableStart" и "TableEnd", которые находятся внутри MERGEFIELD,
-// обозначают строки, обозначающие начало и конец регионов слияния почты.
+// обозначают строки, которые обозначают начало и конец областей слияния почты.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
@@ -61,13 +61,13 @@ Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
 // Вставляем регион с тем же именем внутрь существующего региона, что делает его родительским.
-// Теперь поле «Столбец2» будет внутри нового региона.
+// Теперь поле «Столбец2» будет находиться внутри новой области.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Если мы ищем имена повторяющихся регионов с помощью метода GetRegionsByName,
+// Если мы ищем имя дублирующихся регионов с помощью метода "GetRegionsByName",
 // он вернет все такие регионы в коллекции.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
@@ -90,7 +90,7 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 ## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
-Возвращает коллекцию имен полей слияния почты, доступных в регионе.
+Возвращает коллекцию имен полей слияния, доступных в регионе.
 
 ```csharp
 public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
@@ -99,26 +99,26 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | regionName | String | Название региона (без учета регистра). |
-| regionIndex | Int32 | Индекс региона (отсчитывается от нуля). |
+| regionIndex | Int32 | Индекс региона (отсчет начинается с нуля). |
 
 ## Примечания
 
-Возвращает полные имена полей слияния, включая необязательный префикс. Не удаляет повторяющиеся имена полей.
+Возвращает полные имена полей слияния, включая необязательный префикс. Не устраняет дублирующиеся имена полей.
 
-Если документ содержит несколько регионов с одинаковым именем, обрабатывается N-й регион (отсчитывается от нуля).
+Если документ содержит несколько регионов с одинаковым именем, обрабатывается N-й регион (начиная с нуля).
 
-Новый массив строк создается при каждом вызове.
+При каждом вызове создается новый массив строк.
 
 ## Примеры
 
-Показывает, как создавать, составлять список и читать регионы слияния почты.
+Показывает, как создавать, перечислять и читать регионы слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Теги "TableStart" и "TableEnd", которые находятся внутри MERGEFIELD,
-// обозначают строки, обозначающие начало и конец регионов слияния почты.
+// обозначают строки, которые обозначают начало и конец областей слияния почты.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
@@ -142,13 +142,13 @@ Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
 // Вставляем регион с тем же именем внутрь существующего региона, что делает его родительским.
-// Теперь поле «Столбец2» будет внутри нового региона.
+// Теперь поле «Столбец2» будет находиться внутри новой области.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Если мы ищем имена повторяющихся регионов с помощью метода GetRegionsByName,
+// Если мы ищем имя дублирующихся регионов с помощью метода "GetRegionsByName",
 // он вернет все такие регионы в коллекции.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 

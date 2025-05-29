@@ -3,14 +3,14 @@ title: Border.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words для .NET
-description: Border DistanceFromText свойство. Получает или задает расстояние границы от текста или от края страницы в пунктах на С#.
+description: Откройте для себя свойство Border DistanceFromText, позволяющее легко настраивать расстояние от границ текста или краев страницы в пунктах для улучшенного управления макетом.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/border/distancefromtext/
 ---
 ## Border.DistanceFromText property
 
-Получает или задает расстояние границы от текста или от края страницы в пунктах.
+Возвращает или задает расстояние границы от текста или от края страницы в пунктах.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,11 +18,11 @@ public double DistanceFromText { get; set; }
 
 ## Примечания
 
-Не имеет никакого эффекта и автоматически обнуляется для границ ячеек таблицы.
+Не имеет никакого эффекта и будет автоматически сброшен на ноль для границ ячеек таблицы.
 
 ## Примеры
 
-Показывает, как создать широкую синюю рамку в верхней части первой страницы.
+Показывает, как создать широкую синюю полосу в верхней части первой страницы.
 
 ```csharp
 Document doc = new Document();

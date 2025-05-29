@@ -3,14 +3,14 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words per .NET
-description: FontInfo Family proprietà. Ottiene o imposta la famiglia di caratteri a cui appartiene questo carattere in C#.
+description: Scopri la proprietà FontInfo Family per gestire e personalizzare facilmente le impostazioni della tua famiglia di font, per una maggiore flessibilità di progettazione e stile.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-Ottiene o imposta la famiglia di caratteri a cui appartiene questo carattere.
+Ottiene o imposta la famiglia di font a cui appartiene questo font.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## Esempi
 
-Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
+Mostra come accedere e stampare i dettagli di ciascun font in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi sono generalmente vuoti.
+        // I nomi alt sono solitamente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

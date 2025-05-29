@@ -3,14 +3,14 @@ title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
 second_title: Aspose.Words для .NET
-description: ParagraphFormat SnapToGrid свойство. Указывает должен ли текущий абзац использовать линии сетки документа на странице settings при размещении содержимого в абзаце на С#.
+description: Узнайте, как свойство ParagraphFormat SnapToGrid повышает точность макета, выравнивая абзацы по линиям сетки документа, что придает ему изысканный вид.
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Указывает, должен ли текущий абзац использовать линии сетки документа на странице settings при размещении содержимого в абзаце.
+Указывает, должен ли текущий абзац использовать линии сетки документа на страницу settings при размещении содержимого в абзаце.
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,14 +18,14 @@ public bool SnapToGrid { get; set; }
 
 ## Примеры
 
-Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
+Показывает, как указать ограничение на количество строк на каждой странице.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите шаг, а затем используйте его, чтобы установить количество строк на странице в этом разделе.
-// Достаточно большой размер шрифта переместит некоторые строки вниз на следующую страницу, чтобы избежать перекрытия символов.
+// Включите питч, а затем используйте его для установки количества строк на странице в этом разделе.
+// Достаточно большой размер шрифта сдвинет некоторые строки на следующую страницу, чтобы избежать перекрытия символов.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

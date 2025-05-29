@@ -3,14 +3,14 @@ title: Shading.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: Shading Equals طريقة. تحديد ما إذا كان المحددShading يساوي القيمة الحاليةShading  في C#.
+description: اكتشف طريقة "التظليل يساوي" لمقارنة قيم التظليل بسهولة، مما يضمن نتائج دقيقة في مشاريعك. بسّط برمجة أعمالك اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words/shading/equals/
 ---
 ## Equals(*[Shading](../)*) {#equals}
 
-تحديد ما إذا كان المحدد[`Shading`](../) يساوي القيمة الحالية[`Shading`](../) .
+يحدد ما إذا كان المحدد[`Shading`](../) يساوي القيمة الحالية[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)
@@ -26,7 +26,7 @@ public bool Equals(Shading rhs)
 
 ## Equals(*object*) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)

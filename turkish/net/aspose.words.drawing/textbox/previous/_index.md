@@ -2,15 +2,15 @@
 title: TextBox.Previous
 linktitle: Previous
 articleTitle: Previous
-second_title: Aspose.Words for .NET
-description: TextBox Previous mülk. Bir değeri döndürürTextBox öncekini temsil edenTextBox bir dizi şekil halinde C#'da.
+second_title: .NET için Aspose.Words
+description: TextBox Previous özelliğini keşfedin, şekil dizinizdeki önceki TextBox'a zahmetsizce erişin; böylece akıcı bir tasarım ve gelişmiş iş akışı elde edin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Bir değeri döndürür[`TextBox`](../) öncekini temsil eden[`TextBox`](../) bir dizi şekil halinde.
+Bir[`TextBox`](../) öncekini temsil eden[`TextBox`](../)bir dizi şekil halinde.
 
 ```csharp
 public TextBox Previous { get; }
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
+// Sadece boş bir metin kutusunda bağlantı bulunabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

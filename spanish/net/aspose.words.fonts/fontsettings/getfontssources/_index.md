@@ -3,7 +3,7 @@ title: FontSettings.GetFontsSources
 linktitle: GetFontsSources
 articleTitle: GetFontsSources
 second_title: Aspose.Words para .NET
-description: FontSettings GetFontsSources método. Obtiene una copia de la matriz que contiene la lista de fuentes donde Aspose.Words busca fuentes TrueType en C#.
+description: Descubre el método GetFontsSources de FontSettings para acceder fácilmente a la matriz de fuentes TrueType en Aspose.Words. ¡Optimiza tu gestión de fuentes hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +18,11 @@ public FontSourceBase[] GetFontsSources()
 
 ### Valor_devuelto
 
-Una copia de las fuentes de fuentes actuales.
+Una copia de las fuentes actuales.
 
 ## Observaciones
 
-El valor devuelto es una copia de los datos que utiliza Aspose.Words. Si cambia las entradas en la matriz devuelta, no tendrá ningún efecto en la representación del documento. Para especificar nuevas fuentes fuentes use el[`SetFontsSources`](../setfontssources/) método.
+El valor devuelto es una copia de los datos que utiliza Aspose.Words. Si modifica entries en la matriz devuelta, no afectará la representación del documento. Para especificar la nueva fuente sources , utilice[`SetFontsSources`](../setfontssources/) método.
 
 ## Ejemplos
 
@@ -45,19 +45,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// A la fuente de fuente predeterminada le faltan dos de las fuentes que estamos usando en nuestro documento.
-// Cuando guardemos este documento, Aspose.Words aplicará fuentes alternativas a todo el texto formateado con fuentes inaccesibles.
+//A la fuente de fuente predeterminada le faltan dos de las fuentes que estamos usando en nuestro documento.
+// Cuando guardemos este documento, Aspose.Words aplicará fuentes de respaldo a todo el texto formateado con fuentes inaccesibles.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
 // Crea una fuente de fuente desde una carpeta que contiene fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Aplique una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
+// Aplicar una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de procesar el documento en PDF.
+// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de convertir el documento a PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -66,7 +66,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Restaurar las fuentes de fuentes originales.
+// Restaurar las fuentes originales.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

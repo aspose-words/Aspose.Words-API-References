@@ -3,9 +3,9 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Math.OfficeMathDisplayType énumération. Spécifie le type de format daffichage de léquation en C#.
+description: Découvrez l'énumération Aspose.Words.Math.OfficeMathDisplayType pour personnaliser facilement les formats d'affichage des équations pour une clarté et une présentation améliorées des documents.
 type: docs
-weight: 4130
+weight: 4820
 url: /fr/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -20,20 +20,20 @@ public enum OfficeMathDisplayType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Display | `0` | Office Math est affiché sur sa propre ligne. |
-| Inline | `1` | Office Math s'affiche en ligne avec le texte. |
+| Display | `0` | Le bureau mathématique est affiché sur sa propre ligne. |
+| Inline | `1` | Le bureau mathématique est affiché en ligne avec le texte. |
 
 ## Exemples
 
-Montre comment définir le formatage de l’affichage des mathématiques de bureau.
+Montre comment définir la mise en forme de l'affichage mathématique du bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Les nœuds OfficeMath qui sont des enfants d'autres nœuds OfficeMath sont toujours en ligne.
-// Le nœud avec lequel nous travaillons est le nœud de base pour changer son emplacement et son type d'affichage.
+// Le nœud avec lequel nous travaillons est le nœud de base pour modifier son emplacement et son type d'affichage.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

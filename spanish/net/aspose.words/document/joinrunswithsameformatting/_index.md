@@ -3,14 +3,14 @@ title: Document.JoinRunsWithSameFormatting
 linktitle: JoinRunsWithSameFormatting
 articleTitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words para .NET
-description: Document JoinRunsWithSameFormatting método. Las uniones se ejecutan con el mismo formato en todos los párrafos del documento en C#.
+description: Descubra cómo el método JoinRunsWithSameFormatting fusiona sin problemas el texto formateado en los párrafos de su documento para lograr una apariencia pulida y profesional.
 type: docs
-weight: 620
+weight: 660
 url: /es/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
 
-Las uniones se ejecutan con el mismo formato en todos los párrafos del documento.
+Une ejecuciones con el mismo formato en todos los párrafos del documento.
 
 ```csharp
 public int JoinRunsWithSameFormatting()
@@ -18,32 +18,32 @@ public int JoinRunsWithSameFormatting()
 
 ### Valor_devuelto
 
-Número de uniones realizadas. Cuando**norte** se unen tramos adyacentes, cuentan como**norte-1** Uniones.
+Número de uniones realizadas. Cuando**norte** Se unen carreras adyacentes y se cuentan como**N-1** se une.
 
 ## Observaciones
 
-Este es un método de optimización. Algunos documentos contienen ejecuciones adyacentes con el mismo formato. Generalmente esto ocurre si un documento se editó manualmente de manera intensiva. Puede reducir el tamaño del documento y acelerar el procesamiento posterior uniendo estas ejecuciones.
+Este es un método de optimización. Algunos documentos contienen ejecuciones adyacentes con el mismo formato. Esto suele ocurrir si un documento se editó manualmente de forma intensiva. Puede reducir el tamaño del documento y acelerar el procesamiento posterior uniendo estas ejecuciones.
 
-La operación comprueba cada[`Paragraph`](../../paragraph/) nodo en el documento para adyacente[`Run`](../../run/) nodos que tienen propiedades idénticas. Ignora los identificadores únicos utilizados para rastrear las sesiones de edición de creación y modificación de run . La primera ejecución de cada secuencia de unión acumula todo el texto. Las ejecuciones restantes se eliminan del documento.
+La operación verifica cada[`Paragraph`](../../paragraph/) nodo en el documento para adyacente[`Run`](../../run/)Nodos con propiedades idénticas. Se ignoran los identificadores únicos utilizados para registrar las sesiones de edición de creación y modificación de run . La primera ejecución de cada secuencia de unión acumula todo el texto. Las ejecuciones restantes se eliminan del documento.
 
 ## Ejemplos
 
 Muestra cómo unir ejecuciones en un documento para reducir ejecuciones innecesarias.
 
 ```csharp
-// Abrir un documento que contiene tiradas de texto adyacentes con formato idéntico,
-// lo cual ocurre comúnmente si editamos el mismo párrafo varias veces en Microsoft Word.
+//Abre un documento que contiene líneas de texto adyacentes con formato idéntico,
+// lo que ocurre comúnmente si editamos el mismo párrafo varias veces en Microsoft Word.
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Si cualquier número de estas ejecuciones son adyacentes con formato idéntico,
-// entonces el documento puede simplificarse.
+// Si alguna cantidad de estas ejecuciones son adyacentes con formato idéntico,
+//Entonces el documento puede simplificarse.
 Assert.AreEqual(317, doc.GetChildNodes(NodeType.Run, true).Count);
 
-// Combine dichas ejecuciones con este método y verifique la cantidad de uniones de ejecución que se llevarán a cabo.
+// Combine dichas ejecuciones con este método y verifique la cantidad de uniones de ejecuciones que se realizarán.
 Assert.AreEqual(121, doc.JoinRunsWithSameFormatting());
 
 // El número de uniones y el número de ejecuciones que tenemos después de la unión
-// debería sumar el número de ejecuciones que teníamos inicialmente.
+//deberíamos sumar el número de carreras que teníamos inicialmente.
 Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ```
 

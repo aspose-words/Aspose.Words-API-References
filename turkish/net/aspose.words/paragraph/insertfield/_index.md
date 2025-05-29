@@ -2,10 +2,10 @@
 title: Paragraph.InsertField
 linktitle: InsertField
 articleTitle: InsertField
-second_title: Aspose.Words for .NET
-description: Paragraph InsertField yöntem. Bu paragrafa bir alan ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraph InsertField yöntemi ile paragraflara alanları zahmetsizce ekleyin. Belgenizin işlevselliğini artırın ve içerik yönetimini kolaylaştırın.
 type: docs
-weight: 270
+weight: 290
 url: /tr/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
@@ -20,8 +20,8 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | --- | --- | --- |
 | fieldType | FieldType | Eklenecek alanın türü. |
 | updateField | Boolean | Alanın hemen güncellenip güncellenmeyeceğini belirtir. |
-| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır-dir`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
-| isAfter | Boolean | Alanın referans düğümünden sonra mı yoksa önce mi ekleneceği. |
+| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
+| isAfter | Boolean | Alanın referans düğümünden önce mi sonra mı ekleneceğini belirtir. |
 
 ### Geri dönüş değeri
 
@@ -35,27 +35,27 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafa alan eklemenin üç yolu verilmiştir.
-// 1 - Paragrafın alt düğümlerinden birinden sonra paragrafa bir AUTHOR alanı ekleyin:
+// Aşağıda bir paragrafa alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir paragrafın alt düğümlerinden birinin ardından paragrafa bir YAZAR alanı ekle:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Paragrafın alt düğümlerinden birinden sonra bir QUOTE alanı ekleyin:
+// 2 - Paragrafın alt düğümlerinden birinin ardından bir QUOTE alanı ekle:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekleyin,
-// ve bir yer tutucu değeri göstermesini sağlayın:
+// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekle,
+// ve bir yer tutucu değerin görüntülenmesini sağlayın:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -84,9 +84,9 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
-| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır-dir`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
-| isAfter | Boolean | Alanın referans düğümünden sonra mı yoksa önce mi ekleneceği. |
+| fieldCode | String | Eklenecek alan kodu (süslü parantez olmadan). |
+| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
+| isAfter | Boolean | Alanın referans düğümünden önce mi sonra mı ekleneceğini belirtir. |
 
 ### Geri dönüş değeri
 
@@ -100,27 +100,27 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafa alan eklemenin üç yolu verilmiştir.
-// 1 - Paragrafın alt düğümlerinden birinden sonra paragrafa bir AUTHOR alanı ekleyin:
+// Aşağıda bir paragrafa alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir paragrafın alt düğümlerinden birinin ardından paragrafa bir YAZAR alanı ekle:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Paragrafın alt düğümlerinden birinden sonra bir QUOTE alanı ekleyin:
+// 2 - Paragrafın alt düğümlerinden birinin ardından bir QUOTE alanı ekle:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekleyin,
-// ve bir yer tutucu değeri göstermesini sağlayın:
+// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekle,
+// ve bir yer tutucu değerin görüntülenmesini sağlayın:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -148,10 +148,10 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
-| fieldValue | String | Eklenecek alan değeri. Geçmek`hükümsüz` değeri olmayan alanlar için. |
-| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır-dir`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
-| isAfter | Boolean | Alanın referans düğümünden sonra mı yoksa önce mi ekleneceği. |
+| fieldCode | String | Eklenecek alan kodu (süslü parantez olmadan). |
+| fieldValue | String | Eklenecek alan değeri. Geç`hükümsüz` değeri olmayan alanlar için. |
+| refNode | Node | Bu paragrafın içindeki referans düğümü (eğer*refNode* dır`hükümsüz`, daha sonra paragrafın sonuna eklenir). |
+| isAfter | Boolean | Alanın referans düğümünden önce mi sonra mı ekleneceğini belirtir. |
 
 ### Geri dönüş değeri
 
@@ -165,27 +165,27 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafa alan eklemenin üç yolu verilmiştir.
-// 1 - Paragrafın alt düğümlerinden birinden sonra paragrafa bir AUTHOR alanı ekleyin:
+// Aşağıda bir paragrafa alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir paragrafın alt düğümlerinden birinin ardından paragrafa bir YAZAR alanı ekle:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Paragrafın alt düğümlerinden birinden sonra bir QUOTE alanı ekleyin:
+// 2 - Paragrafın alt düğümlerinden birinin ardından bir QUOTE alanı ekle:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekleyin,
-// ve bir yer tutucu değeri göstermesini sağlayın:
+// 3 - Paragrafın alt düğümlerinden birinin önüne bir QUOTE alanı ekle,
+// ve bir yer tutucu değerin görüntülenmesini sağlayın:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);

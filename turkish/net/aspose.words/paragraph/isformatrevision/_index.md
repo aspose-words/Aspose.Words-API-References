@@ -2,15 +2,15 @@
 title: Paragraph.IsFormatRevision
 linktitle: IsFormatRevision
 articleTitle: IsFormatRevision
-second_title: Aspose.Words for .NET
-description: Paragraph IsFormatRevision mülk. Microsoft Wordde değişiklik izleme etkinken nesnenin biçimlendirmesi değiştirilmişse doğru değerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'deki IsFormatRevision özelliğinin biçimlendirme değişikliklerini nasıl izlediğini, böylece doğru belge düzenlemelerini ve gelişmiş işbirliğini nasıl sağladığını keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/paragraph/isformatrevision/
 ---
 ## Paragraph.IsFormatRevision property
 
-Microsoft Word'de değişiklik izleme etkinken nesnenin biçimlendirmesi değiştirilmişse doğru değerini döndürür.
+Değişiklik izleme etkinleştirilmişken Microsoft Word'de nesnenin biçimlendirmesinin değiştirilmesi durumunda doğru değerini döndürür.
 
 ```csharp
 public bool IsFormatRevision { get; }
@@ -18,13 +18,13 @@ public bool IsFormatRevision { get; }
 
 ## Örnekler
 
-Bir paragrafın format revizyonu olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir paragrafın biçim revizyonu olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
-// Bu paragraf, mevcut metnin formatını değiştirdiğimizde ortaya çıkan bir "Format" revizyonudur
-// "İnceleme" aracılığıyla Microsoft Word'deki revizyonları izlerken -> "Parça değişiklikleri".
+// Bu paragraf, mevcut metnin biçimlendirmesini değiştirdiğimizde oluşan bir "Biçim" revizyonudur
+// Microsoft Word'de revizyonları "Gözden Geçir" -> "Değişiklikleri İzle" yoluyla izlerken.
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```
 

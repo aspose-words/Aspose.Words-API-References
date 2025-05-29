@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitShapeStart
 linktitle: VisitShapeStart
 articleTitle: VisitShapeStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitShapeStart метод. Вызывается когда начинается перечисление фигуры на С#.
+description: Изучите метод DocumentVisitor VisitShapeStart для улучшения перечисления фигур в ваших приложениях. Повысьте эффективность и оптимизируйте процесс кодирования!
 type: docs
 weight: 400
 url: /ru/net/aspose.words/documentvisitor/visitshapestart/
 ---
 ## DocumentVisitor.VisitShapeStart method
 
-Вызывается, когда начинается перечисление фигуры.
+Вызывается, когда началось перечисление фигуры.
 
 ```csharp
 public virtual VisitorAction VisitShapeStart(Shape shape)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitShapeStart(Shape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | Shape | Объект, который посещается. |
+| shape | Shape | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать «непримитивные» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ВерхниеУглыОдинЗакругленныйОдинОбрезанный, ОдинЗакругленныйУгол, ВерхниеУглыЗакругленные, ДиагональныеУглыЗакругленные
+    // пожалуйста, используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит на консоль содержимое посещенной группы фигур.
+/// Выводит содержимое посещенной группы фигур на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {
@@ -120,8 +120,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетитель документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
+    // Ниже приведены три типа полей, которые могут принять посетителя документа,
+    // что позволит ему посетить принимающий узел, а затем обойти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -137,7 +137,7 @@ public void RemoveHiddenContentFromDocument()
 }
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
+/// Удаляет все посещенные узлы, отмеченные как «скрытое содержимое».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -219,7 +219,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается форма.
+    /// Вызывается при обнаружении фигуры в документе.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -256,6 +256,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -263,13 +265,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе завершается посещение узла Таблицы.
+    /// Вызывается, когда посещение узла таблицы в документе завершено.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и дочерних узлов не останется.
+        // Содержимое ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
+        // Если бы в этой таблице не было ничего, кроме скрытого контента, этот посетитель удалил бы его весь,
+        // и не останется ни одного дочернего узла.
         // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
@@ -280,7 +282,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
+    /// Вызывается, когда посещение узла ячейки в документе завершено.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -291,7 +293,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе заканчивается посещение узла Row.
+    /// Вызывается, когда посещение узла строки в документе завершено.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

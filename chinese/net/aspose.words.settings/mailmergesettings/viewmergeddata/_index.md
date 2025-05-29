@@ -2,15 +2,15 @@
 title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings ViewMergedData 财产. 指定Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据例如预览合并数据默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Microsoft Word 中的 MailMergeSettings 的 ViewMergedData 属性如何通过预览来自外部来源的合并数据来增强您的文档创建。
 type: docs
 weight: 170
 url: /zh/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-指定Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据（例如预览合并数据）。默认值为`错误的`.
+指定 Microsoft Word 应显示来自指定外部数据源的数据，其中已插入合并字段 （例如，预览合并数据）。默认值为`错误的`.
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -18,7 +18,7 @@ public bool ViewMergedData { get; set; }
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

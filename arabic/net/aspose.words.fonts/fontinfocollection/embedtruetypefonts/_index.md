@@ -3,7 +3,7 @@ title: FontInfoCollection.EmbedTrueTypeFonts
 linktitle: EmbedTrueTypeFonts
 articleTitle: EmbedTrueTypeFonts
 second_title: Aspose.Words لـ .NET
-description: FontInfoCollection EmbedTrueTypeFonts ملكية. يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند عند حفظه أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
+description: تعرّف على كيفية تحسين خاصية EmbedTrueTypeFonts في FontInfoCollection لجودة المستند من خلال السماح بتضمين خطوط TrueType. القيمة الافتراضية هي False.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -18,13 +18,13 @@ public bool EmbedTrueTypeFonts { get; set; }
 
 ## ملاحظات
 
-يتيح تضمين خطوط TrueType للآخرين إمكانية عرض المستند بنفس الخطوط التي تم استخدامها لإنشائه، ولكنه قد يؤدي إلى زيادة حجم المستند بشكل كبير.
+يتيح تضمين خطوط TrueType للآخرين عرض المستند باستخدام نفس الخطوط التي تم استخدامها لإنشائه، ولكن قد يؤدي ذلك إلى زيادة حجم المستند بشكل كبير.
 
 يعمل هذا الخيار مع تنسيقات DOC وDOCX وRTF فقط.
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
+يوضح كيفية حفظ مستند يحتوي على خطوط TrueType المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### أنظر أيضا

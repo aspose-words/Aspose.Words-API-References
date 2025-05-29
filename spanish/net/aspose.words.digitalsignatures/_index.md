@@ -3,12 +3,12 @@ title: Aspose.Words.DigitalSignatures
 linktitle: Aspose.Words.DigitalSignatures
 articleTitle: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words para .NET
-description: ElAspose.Words.DigitalSignatures El espacio de nombres proporciona clases para firmar documentos y verificar firmas en C#.
+description: Descubra el espacio de nombres Aspose.Words.DigitalSignatures para firmar documentos y verificar firmas fácilmente, garantizando la seguridad y la autenticidad en sus flujos de trabajo.
 type: docs
-weight: 40
+weight: 60
 url: /es/net/aspose.words.digitalsignatures/
 ---
-El**Aspose.Words.DigitalSignatures** El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
+El**Aspose.Palabras.Firmas digitales** El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
 
 ## Clases
 
@@ -24,3 +24,4 @@ El**Aspose.Words.DigitalSignatures** El espacio de nombres proporciona clases pa
 | Enumeración | Descripción |
 | --- | --- |
 | [DigitalSignatureType](./digitalsignaturetype/) | Especifica el tipo de firma digital. |
+| [XmlDsigLevel](./xmldsiglevel/) | Especifica el nivel de una firma digital basada en el estándar XML-DSig. |

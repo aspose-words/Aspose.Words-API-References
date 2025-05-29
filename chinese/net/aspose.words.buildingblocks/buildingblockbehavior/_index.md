@@ -2,15 +2,15 @@
 title: BuildingBlockBehavior Enum
 linktitle: BuildingBlockBehavior
 articleTitle: BuildingBlockBehavior
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior 枚举. 指定将构建块 插入到主文档中时应用于其内容的行为 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words BuildingBlockBehavior 枚举，定义构建块如何在插入时增强文档内容以实现无缝编辑。
 type: docs
-weight: 140
+weight: 330
 url: /zh/net/aspose.words.buildingblocks/buildingblockbehavior/
 ---
 ## BuildingBlockBehavior enumeration
 
-指定将构建块 插入到主文档中时应用于其内容的行为。
+指定将构建块插入主文档时应应用于构建块内容的行为。
 
 ```csharp
 public enum BuildingBlockBehavior
@@ -23,7 +23,7 @@ public enum BuildingBlockBehavior
 | Content | `0` | 指定构建块应作为内联内容插入。 |
 | Paragraph | `1` | 指定构建块应插入到其自己的段落中。 |
 | Page | `2` | 指定构建块应添加到其自己的页面中。 |
-| Default | `0` | 与相同Content. |
+| Default | `0` | 相同Content. |
 
 ## 评论
 
@@ -31,17 +31,17 @@ public enum BuildingBlockBehavior
 
 ## 例子
 
-演示如何将自定义构建块添加到文档中。
+展示如何向文档添加自定义构建块。
 
 ```csharp
 public void CreateAndInsert()
 {
-    // 文档的术语表文档存储构建块。
+    // 文档的词汇表文档存储构建块。
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // 创建一个构建块，为其命名，然后将其添加到术语表文档中。
+    // 创建一个构建块，命名它，然后将其添加到词汇表文档中。
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -49,24 +49,25 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // 默认情况下，所有新的构建块 GUID 都具有相同的零值，我们可以给它们一个新的唯一值。
+    // 所有新的构建块 GUID 默认具有相同的零值，我们可以赋予它们一个新的唯一值。
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // 以下属性对构建块进行分类
-    // 在菜单中我们可以通过“插入”在 Microsoft Word 中访问 -> “快速零件”-> “积木组织者”。
+    // 在菜单中，我们可以通过 Microsoft Word 中的“插入”->“快速部件”->“构建块管理器”进行访问。
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // 在我们将此构建块添加到文档之前，我们需要为其提供一些内容，
-    // 我们将使用文档访问者来完成此操作。该访客还将设置类别、画廊和行为。
+    // 在我们将这个构建块添加到我们的文档之前，我们需要给它一些内容，
+    // 我们将使用文档访问者来实现。此访问者还将设置类别、图库和行为。
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // 访问 BuildingBlock 的开始/结束。
     block.Accept(visitor);
 
-    // 我们可以访问刚刚从词汇表文档中创建的块。
+    // 我们可以从词汇表文档中访问刚刚创建的块。
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
@@ -76,12 +77,12 @@ public void CreateAndInsert()
     // 现在，我们可以将其作为新部分插入到文档中。
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到它并手动放置。
+    // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到它并手动放置它。
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// 设置要作为快速部分插入到文档中的已访问构建块，并向其内容添加文本。
+/// 设置已访问的构建块作为快速部分插入到文档中，并将文本添加到其内容中。
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -93,7 +94,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // 将 Building Block 配置为快速部件，并添加 Building Blocks Organizer 使用的属性。
+        // 将构建块配置为快速部件，并添加构建块管理器使用的属性。
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
@@ -101,7 +102,7 @@ public class BuildingBlockVisitor : DocumentVisitor
         block.Gallery = BuildingBlockGallery.QuickParts;
 
         // 添加带有文本的部分。
-        // 将块插入到文档中将在该位置附加此部分及其子节点。
+        // 将该块插入文档将把该部分及其子节点附加到该位置。
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

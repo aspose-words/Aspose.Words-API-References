@@ -2,8 +2,8 @@
 title: Node.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: Node Document mülk. Bu düğümün ait olduğu belgeyi alır C#'da.
+second_title: .NET için Aspose.Words
+description: Node Belge özelliğini keşfedin, sorunsuz veri yönetimi ve gelişmiş üretkenlik için node'unuza bağlı belgeye zahmetsizce erişin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/node/document/
@@ -18,28 +18,28 @@ public virtual DocumentBase Document { get; }
 
 ## Notlar
 
-Düğüm, yeni oluşturulmuş olsa ve ağaca henüz eklenmemiş olsa veya ağaçtan kaldırılmış olsa bile her zaman bir belgeye aittir.
+Düğüm, henüz yeni oluşturulmuş olsa bile ve henüz ağaca eklenmemiş olsa bile veya ağaçtan kaldırılmış olsa bile her zaman bir belgeye aittir.
 
 ## Örnekler
 
-Bir düğümün nasıl oluşturulacağını ve sahiplik belgesinin nasıl ayarlanacağını gösterir.
+Bir düğümün nasıl oluşturulacağını ve ona ait belgenin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Bu paragrafı henüz alt öğe olarak herhangi bir bileşik düğüme eklemedik.
+// Bu paragrafı henüz herhangi bir bileşik düğüme alt öğe olarak eklemedik.
 Assert.IsNull(para.ParentNode);
 
-// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm tipi ise,
-// ancak her iki düğümün de aynı sahip belgesine sahip olması durumunda onu çocuk olarak ekleyebiliriz.
-// Sahip belgesi, düğümün yapıcısına ilettiğimiz belgedir.
-// Bu paragrafı belgeye eklemedik, dolayısıyla belge metnini içermiyor.
+// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm türüyse,
+// yalnızca her iki düğümün de aynı sahip belgesi varsa bunu bir çocuk olarak ekleyebiliriz.
+// Sahip belgesi, düğümün kurucusuna geçirdiğimiz belgedir.
+// Bu paragrafı belgeye eklemediğimiz için belgede metni bulunmuyor.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Belge bu paragrafın sahibi olduğundan, onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
+// Belge bu paragrafın sahibi olduğundan, paragrafın içeriğine onun stillerinden birini uygulayabiliriz.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Bu düğümü belgeye ekleyin ve ardından içeriğini doğrulayın.

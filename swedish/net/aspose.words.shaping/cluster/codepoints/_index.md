@@ -3,7 +3,7 @@ title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
 second_title: Aspose.Words för .NET
-description: Cluster Codepoints fast egendom. Hämtar kodpunkter för klustret i C#.
+description: Upptäck egenskapen Klusterkodpunkter för att effektivt hämta klusterkodpunkter och förbättra dina datahanteringsfunktioner.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.shaping/cluster/codepoints/

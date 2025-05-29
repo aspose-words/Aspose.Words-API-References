@@ -3,9 +3,9 @@ title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Shaping.Glyph clase. Representa un glifo en C#.
+description: Descubra la clase Aspose.Words.Shaping.Glyph: su clave para la tipografía avanzada y la representación precisa de glifos para un formato de documento perfecto.
 type: docs
-weight: 6040
+weight: 6870
 url: /es/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
@@ -26,9 +26,9 @@ public class Glyph
 
 | Nombre | Descripción |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Ancho de avance que indica la ubicación del glifo siguiente. |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Desplazamiento horizontal (x) relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas (como signos diacríticos) a caracteres base. |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Desplazamiento vertical (y) relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas (como signos diacríticos) a caracteres base. |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Ancho avanzado que indica la ubicación del glifo posterior. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Desplazamiento horizontal (x) relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas (como diacríticos) a caracteres base. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Desplazamiento vertical (y) relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas (como diacríticos) a caracteres base. |
 | [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | Índice del glifo (GID) en la fuente física. |
 
 ## Métodos

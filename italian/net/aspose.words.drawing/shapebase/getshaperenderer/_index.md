@@ -3,14 +3,14 @@ title: ShapeBase.GetShapeRenderer
 linktitle: GetShapeRenderer
 articleTitle: GetShapeRenderer
 second_title: Aspose.Words per .NET
-description: ShapeBase GetShapeRenderer metodo. Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in unimmagine in C#.
+description: Scopri il metodo ShapeBase GetShapeRenderer per creare e riprodurre senza sforzo forme come immagini, migliorando con facilità i tuoi progetti di design.
 type: docs
-weight: 660
+weight: 670
 url: /it/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
 
-Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in un'immagine.
+Crea e restituisce un oggetto che può essere utilizzato per trasformare questa forma in un'immagine.
 
 ```csharp
 public ShapeRenderer GetShapeRenderer()
@@ -22,11 +22,11 @@ L'oggetto renderer per questa forma.
 
 ## Osservazioni
 
-Questo metodo invoca semplicemente il file[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) costruttore e passa questo oggetto come parametro.
+Questo metodo richiama semplicemente il[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) costruttore e passa questo oggetto come parametro.
 
 ## Esempi
 
-Mostra come utilizzare un renderer di forme per esportare forme in file nel file system locale.
+Mostra come utilizzare uno shape renderer per esportare forme in file nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");
@@ -34,10 +34,10 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// Sono presenti 7 forme nel documento, inclusa una forma di gruppo con 2 forme secondarie.
-// Renderemo ogni forma in un file immagine nel file system locale
-// ignorando le forme del gruppo poiché non hanno aspetto.
-// Questo produrrà 6 file di immagine.
+// Nel documento sono presenti 7 forme, tra cui una forma di gruppo con 2 forme figlio.
+// Renderizzeremo ogni forma in un file immagine nel file system locale
+// ignorando le forme del gruppo poiché non hanno alcun aspetto.
+// Verranno prodotti 6 file immagine.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {
     ShapeRenderer renderer = shape.GetShapeRenderer();

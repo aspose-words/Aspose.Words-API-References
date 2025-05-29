@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Security
 linktitle: Security
 articleTitle: Security
 second_title: Aspose.Words para .NET
-description: BuiltInDocumentProperties Security propiedad. Especifica el nivel de seguridad de un documento como un valor numérico en C#.
+description: Descubra la función de seguridad BuiltInDocumentProperties, que define el nivel de seguridad de sus documentos con precisión. ¡Mejore la protección de sus documentos hoy mismo!
 type: docs
-weight: 250
+weight: 270
 url: /es/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
@@ -18,7 +18,7 @@ public DocumentSecurity Security { get; set; }
 
 ## Observaciones
 
-Utilice esta propiedad sólo con fines informativos porque Microsoft Word no siempre establece esta propiedad. Esta propiedad solo está disponible en documentos DOC y OOXML.
+Utilice esta propiedad solo con fines informativos, ya que Microsoft Word no siempre la establece. Esta propiedad solo está disponible en documentos DOC y OOXML.
 
 Para proteger o desproteger un documento utilice the [`Protect`](../../../aspose.words/document/protect/) y[`Unprotect`](../../../aspose.words/document/unprotect/) métodos.
 
@@ -33,7 +33,7 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Si configuramos un documento para que sea de solo lectura, mostrará este estado usando la propiedad incorporada "Seguridad".
+// Si configuramos un documento para que sea de sólo lectura, mostrará este estado utilizando la propiedad incorporada "Seguridad".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

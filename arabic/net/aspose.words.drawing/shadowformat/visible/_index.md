@@ -3,14 +3,14 @@ title: ShadowFormat.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words لـ .NET
-description: ShadowFormat Visible ملكية. إرجاعحقيقي إذا كان التنسيق المطبق على هذا المثيل مرئيًا في C#.
+description: اكتشف خاصية ShadowFormat Visible. تحقق بسهولة من ظهور التنسيق، مما يُحسّن مظهر مستندك ووضوحه.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.drawing/shadowformat/visible/
 ---
 ## ShadowFormat.Visible property
 
-إرجاع`حقيقي` إذا كان التنسيق المطبق على هذا المثيل مرئيًا.
+إرجاع`حقيقي` إذا كان التنسيق المطبق على هذه الحالة مرئيًا.
 
 ```csharp
 public bool Visible { get; }
@@ -18,7 +18,7 @@ public bool Visible { get; }
 
 ## ملاحظات
 
-على عكس[`Clear`](../clear/) ، إسناد`خطأ شنيع` إلى مرئي لا يمسح التنسيق، فهو يخفي تأثير الشكل فقط.
+على عكس[`Clear`](../clear/) ، تعيين`خطأ شنيع`لا يؤدي "الظهور" إلى مسح التنسيق، بل يخفي تأثير الشكل فقط.
 
 ## أمثلة
 
@@ -28,10 +28,10 @@ public bool Visible { get; }
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

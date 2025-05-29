@@ -3,7 +3,7 @@ title: List.CompareTo
 linktitle: CompareTo
 articleTitle: CompareTo
 second_title: Aspose.Words per .NET
-description: List CompareTo metodo. Confronta loggetto specificato con loggetto corrente in C#.
+description: Scopri il metodo List CompareTo, confronta in modo efficiente gli oggetti e migliora le tue competenze di programmazione con questo strumento di programmazione essenziale.
 type: docs
 weight: 90
 url: /it/net/aspose.words.lists/list/compareto/

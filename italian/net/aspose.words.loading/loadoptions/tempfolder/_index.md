@@ -3,14 +3,14 @@ title: LoadOptions.TempFolder
 linktitle: TempFolder
 articleTitle: TempFolder
 second_title: Aspose.Words per .NET
-description: LoadOptions TempFolder proprietà. Permette di utilizzare file temporanei durante la lettura del documento. Per impostazione predefinita questa proprietà ènullo e non vengono utilizzati file temporanei in C#.
+description: Ottimizza la lettura dei documenti con la proprietà TempFolder di LoadOptions. Gestisci facilmente i file temporanei per un'elaborazione efficiente e prestazioni migliorate.
 type: docs
 weight: 150
 url: /it/net/aspose.words.loading/loadoptions/tempfolder/
 ---
 ## LoadOptions.TempFolder property
 
-Permette di utilizzare file temporanei durante la lettura del documento. Per impostazione predefinita questa proprietà è`nullo` e non vengono utilizzati file temporanei.
+Consente di utilizzare file temporanei durante la lettura del documento. Per impostazione predefinita, questa proprietà è`null` e non vengono utilizzati file temporanei.
 
 ```csharp
 public string TempFolder { get; set; }
@@ -27,21 +27,21 @@ Aspose.Words elimina automaticamente tutti i file temporanei al termine della le
 Mostra come caricare un documento utilizzando file temporanei.
 
 ```csharp
-// Tieni presente che un approccio di questo tipo può ridurre l'utilizzo della memoria ma riduce la velocità
+// Nota che un approccio del genere può ridurre l'utilizzo della memoria ma riduce la velocità
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.TempFolder = @"C:\TempFolder\";
 
-// Assicurarsi che la directory esista e venga caricata
+// Assicurarsi che la directory esista e caricarla
 Directory.CreateDirectory(loadOptions.TempFolder);
 
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 ```
 
-Mostra come utilizzare il disco rigido anziché la memoria durante il caricamento di un documento.
+Mostra come utilizzare il disco rigido anziché la memoria quando si carica un documento.
 
 ```csharp
-// Quando carichiamo un documento, vari elementi vengono temporaneamente archiviati in memoria mentre avviene l'operazione di salvataggio.
-// Possiamo usare questa opzione per usare invece una cartella temporanea nel file system locale,
+// Quando carichiamo un documento, vari elementi vengono temporaneamente memorizzati nella memoria mentre avviene l'operazione di salvataggio.
+// Possiamo usare questa opzione per usare una cartella temporanea nel file system locale,
 // che ridurrà il sovraccarico di memoria della nostra applicazione.
 LoadOptions options = new LoadOptions();
 options.TempFolder = ArtifactsDir + "TempFiles";
@@ -51,8 +51,8 @@ Directory.CreateDirectory(options.TempFolder);
 
 Document doc = new Document(MyDir + "Document.docx", options);
 
-// La cartella persisterà senza contenuti residui dall'operazione di caricamento.
-Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
+// La cartella persisterà senza alcun contenuto residuo dall'operazione di caricamento.
+Assert.AreEqual(0, Directory.GetFiles(options.TempFolder).Length);
 ```
 
 ### Guarda anche

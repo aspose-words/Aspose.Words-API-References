@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: Forms2OleControlCollection GetEnumerator طريقة. يحصل على العداد في C#.
+description: اكتشف طريقة Forms2OleControlCollection GetEnumerator لاسترداد المعدّدين بسهولة للتعامل الفعال مع البيانات في تطبيقاتك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
 ---
 ## Forms2OleControlCollection.GetEnumerator method
 
-يحصل على العداد.
+يحصل على المُعدِّد.
 
 ```csharp
 public IEnumerator<Forms2OleControl> GetEnumerator()

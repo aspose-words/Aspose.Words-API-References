@@ -3,16 +3,16 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.HyphenationOptions сорт. Позволяет настроить параметры расстановки переносов в документе на С#.
+description: Откройте для себя класс Aspose.Words.Settings.HyphenationOptions, чтобы легко настраивать параметры переносов для ваших документов и улучшать представление текста.
 type: docs
-weight: 5790
+weight: 6620
 url: /ru/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-Позволяет настроить параметры расстановки переносов в документе.
+Позволяет настраивать параметры переноса слов в документе.
 
-Чтобы узнать больше, посетите[Работа с переносами](https://docs.aspose.com/words/net/working-with-hyphenation/) статья документации.
+Чтобы узнать больше, посетите[Работа с переносами](https://docs.aspose.com/words/net/working-with-hyphenation/) документальная статья.
 
 ```csharp
 public class HyphenationOptions
@@ -28,10 +28,10 @@ public class HyphenationOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Получает или задает значение, определяющее, включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойства:`ЛОЖЬ` . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Получает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Получает или задает значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. Значение по умолчанию для этого свойства:`истинный` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Получает или задает расстояние в 1/20 точки от правого поля, в пределах которого вы не хотите, чтобы переносил слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма). |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Возвращает или задает значение, определяющее, включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойства:`ЛОЖЬ` . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Возвращает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Возвращает или задает значение, определяющее, переносятся ли слова, написанные заглавными буквами. Значение по умолчанию для этого свойства:`истинный` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Возвращает или задает расстояние в 1/20 пункта от правого поля, в пределах которого не требуется переносить слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма). |
 
 ## Примеры
 

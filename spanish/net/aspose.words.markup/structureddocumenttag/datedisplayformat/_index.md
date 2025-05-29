@@ -3,14 +3,14 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag DateDisplayFormat propiedad. Cadena que representa el formato en el que se muestran las fechas. No puede sernulo . Las fechas para inglés EE. UU. son mm/dd/yyyy en C#.
+description: Descubra la propiedad StructuredDocumentTag DateDisplayFormat para personalizar fácilmente los formatos de visualización de fechas. ¡Mejore la claridad y el atractivo de su documento!
 type: docs
 weight: 90
 url: /es/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-Cadena que representa el formato en el que se muestran las fechas. No puede ser`nulo` . Las fechas para inglés (EE. UU.) son "mm/dd/yyyy"
+Cadena que representa el formato en que se muestran las fechas.
 
 ```csharp
 public string DateDisplayFormat { get; set; }
@@ -18,7 +18,11 @@ public string DateDisplayFormat { get; set; }
 
 ## Observaciones
 
-Acceder a esta propiedad sólo funcionará paraDate Tipo SDT.
+No puede ser`nulo`.
+
+Las fechas para inglés (EE. UU.) son "mm/dd/aaaa"
+
+El acceso a esta propiedad sólo funcionará paraDate Tipo SDT.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
@@ -32,14 +36,14 @@ Document doc = new Document();
 // Inserte una etiqueta de documento estructurado que solicite al usuario que ingrese una fecha.
 // En Microsoft Word, este elemento se conoce como "control de contenido del selector de fecha".
 // Cuando hacemos clic en la flecha en el extremo derecho de esta etiqueta en Microsoft Word,
-// veremos una ventana emergente en forma de calendario en el que se puede hacer clic.
-// Podemos usar esa ventana emergente para seleccionar una fecha en la que se mostrará la etiqueta.
+//Veremos una ventana emergente en forma de calendario en el que podemos hacer clic.
+//Podemos usar esa ventana emergente para seleccionar una fecha que se mostrará en la etiqueta.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Muestra la fecha, según la configuración regional árabe de Arabia Saudita.
+// Muestra la fecha, según la configuración regional del árabe de Arabia Saudita.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Establece el formato con el que mostrar la fecha.
+// Establezca el formato con el que se mostrará la fecha.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
@@ -47,7 +51,7 @@ sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
 // Antes de que el usuario elija una fecha en Microsoft Word, la etiqueta mostrará el texto "Haga clic aquí para ingresar una fecha".
-// Según el calendario de la etiqueta, establezca la propiedad "FullDate" para que la etiqueta muestre una fecha predeterminada.
+// Según el calendario de la etiqueta, configure la propiedad "FullDate" para que la etiqueta muestre una fecha predeterminada.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

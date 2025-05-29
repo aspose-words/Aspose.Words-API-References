@@ -3,14 +3,14 @@ title: FieldTC.EntryLevel
 linktitle: EntryLevel
 articleTitle: EntryLevel
 second_title: Aspose.Words för .NET
-description: FieldTC EntryLevel fast egendom. Hämtar eller ställer in nivån för posten i C#.
+description: Upptäck FieldTC EntryLevel-egenskapen och hantera och anpassa enkelt dina entry-nivåer för ökad effektivitet och strömlinjeformade arbetsflöden.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtc/entrylevel/
 ---
 ## FieldTC.EntryLevel property
 
-Hämtar eller ställer in nivån för posten.
+Hämtar eller ställer in nivån på posten.
 
 ```csharp
 public string EntryLevel { get; set; }
@@ -18,7 +18,7 @@ public string EntryLevel { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
+Visar hur man infogar ett innehållsförteckningsfält och filtrerar vilka innehållsförteckningsfält som slutar som poster.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga ett TOC-fält, som kommer att kompilera alla TC-fält till en innehållsförteckning.
+    // Infoga ett innehållsförteckningsfält, vilket sammanställer alla TC-fält till en innehållsförteckning.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Konfigurera fältet endast för att ta upp TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
+    // Konfigurera fältet för att endast hämta TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 

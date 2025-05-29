@@ -3,7 +3,7 @@ title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
 second_title: Aspose.Words pour .NET
-description: NodeChangingArgs NewParent propriété. Obtient le parent du nœud qui sera défini une fois lopération terminée en C#.
+description: Découvrez la propriété NewParent de NodeChangingArgs pour accéder efficacement au futur parent d'un nœud une fois les opérations terminées. Améliorez votre code en toute simplicité !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/nodechangingargs/newparent/
@@ -18,7 +18,7 @@ public Node NewParent { get; }
 
 ## Exemples
 
-Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous la modifions.
+Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel pendant que nous le modifions.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Imprime chaque insertion/suppression de nœud au fur et à mesure qu'elle a lieu dans le document.
+/// Imprime chaque insertion/suppression de nœud au fur et à mesure qu'elle se produit dans le document.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

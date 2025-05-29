@@ -3,7 +3,7 @@ title: ListLevel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words för .NET
-description: ListLevel Font fast egendom. Anger teckenformatering som används för listetiketten i C#.
+description: Upptäck egenskapen ListLevel Font för att förbättra dina listetiketter med anpassningsbar teckenformatering för ett polerat och professionellt utseende.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listlevel/font/
@@ -18,16 +18,16 @@ public Font Font { get; }
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

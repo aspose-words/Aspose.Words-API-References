@@ -3,7 +3,7 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words per .NET
-description: ParagraphCollection ToArray metodo. Copia tutti i paragrafi dalla raccolta in un nuovo array di paragrafi in C#.
+description: Converti senza sforzo la tua ParagraphCollection in un array con il metodo ToArray, semplificando la gestione dei dati e migliorando l'elaborazione dei tuoi documenti.
 type: docs
 weight: 20
 url: /it/net/aspose.words/paragraphcollection/toarray/
@@ -22,7 +22,7 @@ Una serie di paragrafi.
 
 ## Esempi
 
-Mostra come creare una matrice da una NodeCollection.
+Mostra come creare un array da un NodeCollection.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -32,7 +32,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-Mostra come utilizzare la "rimozione a caldo" per rimuovere un nodo durante l'enumerazione.
+Mostra come utilizzare "hot remove" per rimuovere un nodo durante l'enumerazione.
 
 ```csharp
 Document doc = new Document();

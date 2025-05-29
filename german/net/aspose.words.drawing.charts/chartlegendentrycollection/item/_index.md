@@ -3,14 +3,14 @@ title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: ChartLegendEntryCollection Item eigendom. Gibt zurückChartLegendEntry für den angegebenen Index in C#.
+description: Greifen Sie mit der Item-Eigenschaft ChartLegendEntryCollection auf den ChartLegendEntry für jeden Index zu. Verbessern Sie Ihre Datenvisualisierung mühelos!
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-Gibt zurück[`ChartLegendEntry`](../../chartlegendentry/) für den angegebenen Index.
+Rückgaben[`ChartLegendEntry`](../../chartlegendentry/) für den angegebenen Index.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

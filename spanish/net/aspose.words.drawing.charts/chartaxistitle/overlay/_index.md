@@ -3,9 +3,9 @@ title: ChartAxisTitle.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words para .NET
-description: ChartAxisTitle Overlay propiedad. Determina si se permitirá que otros elementos del gráfico se superpongan al título. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad ChartAxisTitle Overlay, que controla la superposición de elementos del gráfico para una visualización más clara. ¡Mejore la presentación de sus datos sin esfuerzo!
 type: docs
-weight: 10
+weight: 30
 url: /es/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -18,7 +18,7 @@ public bool Overlay { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar el título del eje del gráfico.
+Muestra cómo establecer el título del eje del gráfico.
 
 ```csharp
 Document doc = new Document();
@@ -28,17 +28,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Eliminar la serie generada por defecto.
+//Eliminar serie generada por defecto.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Establecer título del eje.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

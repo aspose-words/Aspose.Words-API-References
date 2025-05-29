@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words لـ .NET
-description: ConditionalStyleCollection ClearFormatting طريقة. مسح كافة الأنماط الشرطية لنمط الجدول في C#.
+description: اكتشف كيف تقوم طريقة ConditionalStyleCollection ClearFormatting بإزالة جميع الأنماط الشرطية من جدولك بشكل فعال، مما يعزز الوضوح والتصميم.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/conditionalstylecollection/clearformatting/
 ---
 ## ConditionalStyleCollection.ClearFormatting method
 
-مسح كافة الأنماط الشرطية لنمط الجدول.
+مسح جميع الأنماط الشرطية لنمط الجدول.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## أمثلة
 
-يوضح كيفية إعادة تعيين أنماط الجدول الشرطي.
+يوضح كيفية إعادة تعيين أنماط الجدول الشرطية.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - امسح الأنماط الشرطية للجدول بأكمله:
+// 2 - مسح الأنماط الشرطية للجدول بأكمله:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

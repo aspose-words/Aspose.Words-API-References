@@ -3,7 +3,7 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words för .NET
-description: OdsoRecipientData Column fast egendom. Anger kolumnen i datakällan som innehåller unika data för den aktuella posten. Standardvärdet är 0 i C#.
+description: Upptäck egenskapen OdsoRecipientData Column, identifiera enkelt unika datakolumner för poster och förbättra datahanteringen. Standardvärdet är 0.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsorecipientdata/column/
@@ -18,7 +18,7 @@ public int Column { get; set; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

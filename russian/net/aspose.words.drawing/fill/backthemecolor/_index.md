@@ -3,14 +3,14 @@ title: Fill.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
 second_title: Aspose.Words для .NET
-description: Fill BackThemeColor свойство. Получает или задает объект ThemeColor который представляет цвет фона для заливки на С#.
+description: Настройте свой дизайн с помощью свойства BackThemeColor. Легко установите объект ThemeColor, чтобы улучшить фоновую заливку и улучшить пользовательский опыт.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/fill/backthemecolor/
 ---
 ## Fill.BackThemeColor property
 
-Получает или задает объект ThemeColor, который представляет цвет фона для заливки.
+Возвращает или задает объект ThemeColor, представляющий цвет фона для заливки.
 
 ```csharp
 public ThemeColor BackThemeColor { get; set; }

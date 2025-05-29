@@ -2,27 +2,15 @@
 title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
-second_title: Aspose.Words for .NET
-description: KnownTypeSet Add yöntem. Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda C#'da.
+second_title: .NET için Aspose.Words
+description: Veri yönetiminizi ve işlevselliğinizi geliştirmek için, kümenize Tip nesnelerini zahmetsizce eklemek üzere KnownTypeSet Add yöntemini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda:
-
--*type* dır-dir`hükümsüz`.
-
--*type* void tipini temsil eder.
-
--*type* görünmez bir türü, yani genel olmayan bir türü veya genel olmayan bir dış türe sahip genel iç içe geçmiş bir type 'yi temsil eder.
-
--*type* genel bir türü temsil eder.
-
--*type* bir dizi türünü temsil eder.
-
--*type* zaten sete eklendi.
+Belirtilenleri eklerType nesne kümesine.
 
 ```csharp
 public void Add(Type type)
@@ -31,6 +19,12 @@ public void Add(Type type)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | type | Type | AType eklenecek nesne. |
+
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentException | Aşağıdaki durumlarda atar: |
 
 ### Ayrıca bakınız
 

@@ -2,10 +2,10 @@
 title: Font.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
-second_title: 用于 .NET 的 Aspose.Words
-description: Font TintAndShade 财产. 获取或设置使颜色变亮或变暗的双精度值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Font TintAndShade 属性，轻松调整颜色！亮化或暗化阴影，打造活力四射的设计。轻松提升您的项目！
 type: docs
-weight: 520
+weight: 530
 url: /zh/net/aspose.words/font/tintandshade/
 ---
 ## Font.TintAndShade property
@@ -16,15 +16,22 @@ url: /zh/net/aspose.words/font/tintandshade/
 public double TintAndShade { get; set; }
 ```
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 如果将此属性设置为小于 -1 或大于 1 的值，则抛出。 |
+| InvalidOperationException | 如果设置此属性为[`Font`](../)具有非主题颜色的对象。 |
+
 ## 评论
 
-此属性允许的值范围为 -1（最暗）到 1（最亮）。 零 (0) 为中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
+此属性的允许值范围是从 -1（最暗）到 1（最亮）。
 
-设置该属性为[`Font`](../)具有非主题 color 的对象会导致InvalidOperationException。
+零（0）是中性的。
 
 ## 例子
 
-展示如何创建和使用主题样式。
+展示如何创建和使用主题风格。
 
 ```csharp
 Document doc = new Document();

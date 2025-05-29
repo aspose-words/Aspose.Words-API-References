@@ -3,14 +3,14 @@ title: Document.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words för .NET
-description: Document Save metod. Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget i C#.
+description: Spara dina dokument enkelt med vår smarta sparmetod, som automatiskt väljer rätt format baserat på filändelsen för smidig lagring.
 type: docs
-weight: 700
+weight: 750
 url: /sv/net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
 
-Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget.
+Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från filändelsen.
 
 ```csharp
 public SaveOutputParameters Save(string fileName)
@@ -44,7 +44,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// Ladda PDF-dokumentet som vi just sparat och konvertera det till .docx.
+// Ladda PDF-dokumentet som vi just sparade och konvertera det till .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -61,7 +61,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
-Sparar dokumentet till en fil i angivet format.
+Sparar dokumentet till en fil i det angivna formatet.
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
@@ -70,7 +70,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Namnet på dokumentet. Om ett dokument med det angivna filnamnet redan finns, skrivs det befintliga dokumentet över. |
-| saveFormat | SaveFormat | Formatet för att spara dokumentet. |
+| saveFormat | SaveFormat | Formatet som dokumentet ska sparas i. |
 
 ### Returvärde
 
@@ -133,7 +133,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-Visar hur man konverterar en PDF till en .docx och anpassar sparprocessen med ett SaveOptions-objekt.
+Visar hur man konverterar en PDF till en .docx-fil och anpassar sparprocessen med ett SaveOptions-objekt.
 
 ```csharp
 Document doc = new Document();
@@ -143,12 +143,12 @@ builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
-// Ladda PDF-dokumentet som vi just sparat och konvertera det till .docx.
+// Ladda PDF-dokumentet som vi just sparade och konvertera det till .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 
-// Ställ in egenskapen "Password" för att kryptera det sparade dokumentet med ett lösenord.
+// Ange egenskapen "Lösenord" för att kryptera det sparade dokumentet med ett lösenord.
 saveOptions.Password = "MyPassword";
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
@@ -167,16 +167,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
-// för att ändra sättet på vilket den metoden renderar dokumentet till en bild.
+// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+// för att modifiera hur metoden renderar dokumentet till en bild.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
     // Ställ in egenskapen "PageSet" till numret på den första sidan från
-    // som du ska börja rendera dokumentet från.
+    // vilken dokumentet ska börja renderas från.
     options.PageSet = new PageSet(i);
-    // Exportera sida med 2325x5325 pixlar och 600 dpi.
+    // Exportera sidan med 2325x5325 pixlar och 600 dpi.
     options.Resolution = 600;
     options.ImageSize = new Size(2325, 5325);
 
@@ -197,55 +197,47 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
-// för att ändra sättet på vilket den metoden renderar dokumentet till en bild.
+// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+// för att modifiera hur metoden renderar dokumentet till en bild.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// Ställ in "PageSet" på "1" för att välja den andra sidan via
+// Ställ in "PageSet" till "1" för att välja den andra sidan via
 // det nollbaserade indexet att börja rendera dokumentet från.
 options.PageSet = new PageSet(1);
 
 // När vi sparar dokumentet i JPEG-format renderar Aspose.Words bara en sida.
-// Den här bilden kommer att innehålla en sida från sida två,
-// som bara kommer att vara den andra sidan i originaldokumentet.
+// Den här bilden kommer att innehålla en sida med början från sida två,
+// vilket bara kommer att vara den andra sidan i originaldokumentet.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
-Visar hur du konfigurerar komprimering medan du sparar ett dokument som en JPEG.
+Visar hur man konfigurerar komprimering när man sparar ett dokument som JPEG.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
-// för att ändra sättet på vilket den metoden renderar dokumentet till en bild.
+// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+// för att modifiera hur metoden renderar dokumentet till en bild.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// Ställ in egenskapen "JpegQuality" till "10" för att använda starkare komprimering när du renderar dokumentet.
-// Detta kommer att minska filstorleken på dokumentet, men bilden kommer att visa mer framträdande komprimeringsartefakter.
+// Sätt egenskapen "JpegQuality" till "10" för att använda starkare komprimering vid rendering av dokumentet.
+// Detta minskar dokumentets filstorlek, men bilden kommer att visa mer framträdande komprimeringsartefakter.
 imageOptions.JpegQuality = 10;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
-Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
-
-// Ställ in egenskapen "JpegQuality" till "100" för att använda svagare komprimering när du renderar dokumentet.
-// Detta kommer att förbättra kvaliteten på bilden till priset av en ökad filstorlek.
+// Sätt egenskapen "JpegQuality" till "100" för att använda svagare komprimering vid rendering av dokumentet.
+// Detta kommer att förbättra bildens kvalitet till bekostnad av en ökad filstorlek.
 imageOptions.JpegQuality = 100;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
-Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentöversikten.
+Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentdispositionen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga rubriker för nivåerna 1 till 5.
+// Infoga rubriker för nivå 1 till 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -272,22 +264,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Det utgående PDF-dokumentet kommer att innehålla en disposition, som är en innehållsförteckning som listar rubriker i dokumentets brödtext.
-// Genom att klicka på en post i denna disposition kommer vi till platsen för dess respektive rubrik.
-// Ställ in egenskapen "HeadingsOutlineLevels" till "4" för att utesluta alla rubriker vars nivåer är över 4 från dispositionen.
+// Det utgående PDF-dokumentet kommer att innehålla en disposition, vilket är en innehållsförteckning som listar rubriker i dokumentets brödtext.
+// Om du klickar på en post i den här dispositionen kommer vi till platsen för respektive rubrik.
+// Sätt egenskapen "HeadingsOutlineLevels" till "4" för att exkludera alla rubriker vars nivåer är över 4 från dispositionen.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Om en konturpost har efterföljande poster på en högre nivå mellan sig och nästa post på samma eller lägre nivå,
+// Om en dispositionspost har efterföljande poster på en högre nivå mellan sig själv och nästa post på samma eller lägre nivå,
 // en pil visas till vänster om posten. Denna post är "ägare" till flera sådana "underposter".
-// I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra 4:e nivåns dispositionspost,
-// posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
-// I dispositionen kan vi klicka på pilen för "ägare"-posten för att komprimera/expandera alla dess underposter.
-// Ställ in egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt utöka alla rubriknivå 2 och lägre dispositionsposter
-// och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
+// I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra dispositionsposten på den 4:e nivån,
+// posterna på rubriknivå 4 och 5 är underposter till den andra posten på nivå 3, och så vidare.
+// I dispositionen kan vi klicka på pilen för posten "ägare" för att minimera/expandera alla dess underposter.
+// Sätt egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt expandera alla rubriknivå 2 och lägre dispositionsposter
+// och komprimerar alla poster på nivå 3 och högre när vi öppnar dokumentet.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -305,7 +297,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
-Sparar dokumentet i en ström med det angivna formatet.
+Sparar dokumentet till en ström med det angivna formatet.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
@@ -313,8 +305,8 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Streama var du vill spara dokumentet. |
-| saveFormat | SaveFormat | Formatet för att spara dokumentet. |
+| stream | Stream | Strömma var dokumentet ska sparas. |
+| saveFormat | SaveFormat | Formatet som dokumentet ska sparas i. |
 
 ### Returvärde
 
@@ -336,7 +328,7 @@ using (MemoryStream dstStream = new MemoryStream())
 }
 ```
 
-Visar hur man sparar ett dokument till en bild via stream, och sedan läser bilden från den streamen.
+Visar hur man sparar ett dokument till en bild via en ström och sedan läser bilden från den strömmen.
 
 ```csharp
 Document doc = new Document();
@@ -348,14 +340,14 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
 
                 stream.Position = 0;
 
-                // Läs strömmen tillbaka till en bild.
+                // Läs tillbaka strömmen till en bild.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -363,7 +355,7 @@ Document doc = new Document();
                     Assert.AreEqual(1056, image.Height);
                 }
             }
-#elif NET5_0_OR_GREATER || __MOBILE__
+#elif NET5_0_OR_GREATER
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -371,7 +363,6 @@ Document doc = new Document();
                 stream.Position = 0;
 
                 SKCodec codec = SKCodec.Create(stream);
-
                 Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
 
                 stream.Position = 0;
@@ -397,7 +388,7 @@ Document doc = new Document();
 
 ## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
-Sparar dokumentet i en ström med de angivna sparalternativen.
+Sparar dokumentet till en ström med de angivna sparalternativen.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
@@ -405,7 +396,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Streama var du vill spara dokumentet. |
+| stream | Stream | Strömma var dokumentet ska sparas. |
 | saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara`null` . Om detta är`null`, kommer dokumentet att sparas i det binära DOC-formatet. |
 
 ### Returvärde
@@ -414,7 +405,7 @@ Ytterligare information som du valfritt kan använda.
 
 ## Exempel
 
-Visar hur man endast konverterar några av sidorna i ett dokument till PDF.
+Visar hur man konverterar endast vissa sidor i ett dokument till PDF.
 
 ```csharp
 Document doc = new Document();
@@ -428,14 +419,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur den metoden konverterar dokumentet till .PDF.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Ställ in "PageIndex" till "1" för att rendera en del av dokumentet från den andra sidan.
+    // Sätt "PageIndex" till "1" för att rendera en del av dokumentet med början från den andra sidan.
     options.PageSet = new PageSet(1);
 
-    // Detta dokument kommer att innehålla en sida från sida två, som bara kommer att innehålla den andra sidan.
+    // Detta dokument kommer att innehålla en sida med början från sida två, som bara kommer att innehålla den andra sidan.
     doc.Save(stream, options);
 }
 ```
@@ -461,9 +452,9 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| response | HttpResponse | Svarsobjekt där dokumentet ska sparas. |
-| fileName | String | Namnet på dokumentet som kommer att visas i klientens webbläsare. Namnet ska inte innehålla sökväg. |
-| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/)värde that anger hur dokumentet presenteras i klientens webbläsare. |
+| response | HttpResponse | Svarsobjekt var dokumentet ska sparas. |
+| fileName | String | Namnet på dokumentet som ska visas i klientens webbläsare. Namnet får inte innehålla sökvägen. |
+| contentDisposition | ContentDisposition | En[`ContentDisposition`](../../contentdisposition/) värdet that anger hur dokumentet presenteras i klientens webbläsare. |
 | saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara`null`. |
 
 ### Returvärde
@@ -472,11 +463,11 @@ Ytterligare information som du valfritt kan använda.
 
 ## Anmärkningar
 
-Internt sparar den här metoden först i en minnesström och kopieras sedan till svaret stream eftersom svarsströmmen inte stöder sökning.
+Internt sparar den här metoden först till en minnesström och kopierar sedan till svarsströmmen stream eftersom svarsströmmen inte stöder sökning.
 
 ## Exempel
 
-Visar hur man utför en sammanfogning och sedan sparar dokumentet i klientens webbläsare.
+Visar hur man utför en dokumentkoppling och sedan sparar dokumentet i klientens webbläsare.
 
 ```csharp
 Document doc = new Document();
@@ -494,11 +485,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // Skicka dokumentet till klientens webbläsare.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Kastad eftersom HttpResponse är null i testet.
+//Kastas eftersom HttpResponse är null i testet.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Vi kommer att behöva stänga detta svar manuellt för att säkerställa att vi inte lägger till något överflödigt innehåll i dokumentet efter att ha sparats.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Vi måste stänga detta svar manuellt för att säkerställa att vi inte lägger till något överflödigt innehåll i dokumentet efter att det har sparats.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Se även

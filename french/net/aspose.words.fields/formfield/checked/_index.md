@@ -3,14 +3,14 @@ title: FormField.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words pour .NET
-description: FormField Checked propriété. Obtient ou définit létat coché du champ du formulaire de case à cocher. La valeur par défaut de cette propriété estFAUX  en C#.
+description: Gérez facilement votre formulaire grâce à la propriété « FormField Checked ». Contrôlez facilement l'état des cases à cocher : la case est décochée par défaut pour une expérience utilisateur simplifiée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/formfield/checked/
 ---
 ## FormField.Checked property
 
-Obtient ou définit l'état coché du champ du formulaire de case à cocher. La valeur par défaut de cette propriété est`FAUX` .
+Obtient ou définit l'état coché du champ de formulaire de case à cocher. La valeur par défaut de cette propriété est`FAUX` .
 
 ```csharp
 public bool Checked { get; set; }
@@ -69,15 +69,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

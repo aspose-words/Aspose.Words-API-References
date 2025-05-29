@@ -2,8 +2,8 @@
 title: Field.DisplayResult
 linktitle: DisplayResult
 articleTitle: DisplayResult
-second_title: Aspose.Words for .NET
-description: Field DisplayResult mülk. Görüntülenen alan sonucunu temsil eden metni alır C#'da.
+second_title: .NET için Aspose.Words
+description: Görüntülenen alan sonuçlarınız için metni ileten, netliği ve kullanıcı deneyimini artıran Field DisplayResult özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/field/displayresult/
@@ -32,13 +32,13 @@ builder.Write("This document was written by ");
 FieldAuthor fieldAuthor = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 fieldAuthor.AuthorName = "John Doe";
 
-// Tam metnin hangi metin olduğunu doğrulamak için DisplayResult özelliğini kullanabiliriz
-// belgedeki yerinde bir alan görüntülenecektir.
+// DisplayResult özelliğini kullanarak tam olarak hangi metnin görüntülendiğini doğrulayabiliriz
+// bir alan, belgedeki yerinde görüntülenecektir.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
  // Alanlar gerçek zamanlı olarak doğru sonuç değerlerini korumaz.
-// Alanlarımızın herhangi bir zamanda doğru sonuçları gösterdiğinden emin olmak için,
-// mesela kaydetme işleminden hemen önce bunları manuel olarak güncellememiz gerekiyor.
+// Alanlarımızın her an doğru sonuçları gösterdiğinden emin olmak için,
+// örneğin bir kaydetme işleminden hemen önce bunları manuel olarak güncellememiz gerekiyor.
 fieldAuthor.Update();
 
 Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);

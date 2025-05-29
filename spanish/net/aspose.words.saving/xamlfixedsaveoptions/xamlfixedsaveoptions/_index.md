@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions
 linktitle: XamlFixedSaveOptions
 articleTitle: XamlFixedSaveOptions
 second_title: Aspose.Words para .NET
-description: XamlFixedSaveOptions constructor. Constructor predeterminado en C#.
+description: Descubra el constructor XamlFixedSaveOptions para una integración perfecta y un rendimiento mejorado en sus aplicaciones. ¡Simplifique su código hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/xamlfixedsaveoptions/xamlfixedsaveoptions/

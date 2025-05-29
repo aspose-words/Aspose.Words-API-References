@@ -3,7 +3,7 @@ title: Story.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words для .NET
-description: Story StoryType свойство. Получает тип этой истории на С#.
+description: Откройте для себя свойство StoryType, которое поможет вам легко идентифицировать и классифицировать свои истории, улучшая организацию и улучшая процесс повествования.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/story/storytype/

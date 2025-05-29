@@ -3,14 +3,14 @@ title: LayoutOptions.KeepOriginalFontMetrics
 linktitle: KeepOriginalFontMetrics
 articleTitle: KeepOriginalFontMetrics
 second_title: Aspose.Words per .NET
-description: LayoutOptions KeepOriginalFontMetrics proprietà. Ottiene o imposta unindicazione se la metrica del carattere originale deve essere utilizzata dopo la sostituzione del carattere. Limpostazione predefinita èVERO  in C#.
+description: Scopri la proprietà KeepOriginalFontMetrics di LayoutOptions, controlla le metriche dei font durante la sostituzione per un design coerente. L'impostazione predefinita è "true".
 type: docs
 weight: 60
 url: /it/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 ---
 ## LayoutOptions.KeepOriginalFontMetrics property
 
-Ottiene o imposta un'indicazione se la metrica del carattere originale deve essere utilizzata dopo la sostituzione del carattere. L'impostazione predefinita è`VERO` .
+Ottiene o imposta un'indicazione se le metriche del font originale devono essere utilizzate dopo la sostituzione del font. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool KeepOriginalFontMetrics { get; set; }
@@ -18,28 +18,28 @@ public bool KeepOriginalFontMetrics { get; set; }
 
 ## Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un font mancante tra le sorgenti di font disponibili.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
+    // Apre un documento contenente testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
+    // Assegna un callback per gestire gli avvisi di sostituzione dei font.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
+    // Imposta un nome di font predefinito e abilita la sostituzione dei font.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    // Dopo la sostituzione del font, è necessario utilizzare le metriche originali.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
+    // Se salviamo un documento con un font mancante, riceveremo un avviso di sostituzione del font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

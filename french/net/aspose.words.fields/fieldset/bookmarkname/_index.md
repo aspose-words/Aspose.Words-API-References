@@ -3,7 +3,7 @@ title: FieldSet.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words pour .NET
-description: FieldSet BookmarkName propriété. Obtient ou définit le nom du signet en C#.
+description: Découvrez la propriété FieldSet BookmarkName pour gérer et personnaliser facilement vos favoris. Améliorez la navigation dans votre application grâce à cette fonctionnalité clé !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldset/bookmarkname/
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## Exemples
 
-Montre comment créer un texte mis en signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
+Montre comment créer du texte marqué d'un signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Nommez le texte mis en signet avec un champ SET.
-// Ce champ fait référence au "signet" non pas à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
+ // Nommez le texte marqué avec un champ SET.
+// Ce champ fait référence au « signet », non pas à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";

@@ -3,14 +3,14 @@ title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words för .NET
-description: CompositeNode GetChildNodes metod. Returnerar en aktiv samling av underordnade noder som matchar den angivna typen i C#.
+description: Upptäck metoden CompositeNode GetChildNodes – hämta enkelt en livesamling av underordnade noder anpassade till din angivna typ för förbättrad prestanda.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
 
-Returnerar en aktiv samling av underordnade noder som matchar den angivna typen.
+Returnerar en live-samling av underordnade noder som matchar den angivna typen.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -19,29 +19,29 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | nodeType | NodeType | Anger vilken typ av noder som ska väljas. |
-| isDeep | Boolean | `Sann` för att välja från alla underordnade noder rekursivt; `falsk`att endast välja bland närmaste barn. |
+| isDeep | Boolean | `sann` att välja rekursivt från alla underordnade noder; `falsk` att endast välja bland omedelbara underordnade. |
 
 ### Returvärde
 
-En livesamling av underordnade noder av den angivna typen.
+En live-samling av underordnade noder av den angivna typen.
 
 ## Anmärkningar
 
-Samlingen av noder som returneras av denna metod är alltid live.
+Samlingen av noder som returneras av den här metoden är alltid aktiv.
 
-En livesamling är alltid synkroniserad med dokumentet. Till exempel, om you markerade alla avsnitt i ett dokument och räknar upp genom att samlingen tar bort avsnitten, tas avsnittet bort från samlingen omedelbart när det tas bort från dokumentet.
+En aktiv samling är alltid synkroniserad med dokumentet. Om du till exempel markerade alla avsnitt i ett dokument och räknade upp genom att ta bort avsnitten, tas avsnittet bort från samlingen omedelbart när det tas bort från dokumentet.
 
 ## Exempel
 
-Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
+Visar hur man skriver ut alla kommentarer och svar i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
-// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Om en kommentar inte har någon överordnad kommentar är det en kommentar på "toppnivå" i motsats till en kommentar av svarstyp.
+// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
@@ -70,8 +70,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -80,7 +80,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 }
 ```
 
-Visar hur man går igenom en sammansatt nods samling av undernoder.
+Visar hur man navigerar genom en sammansatt nods samling av underordnade noder.
 
 ```csharp
 Document doc = new Document();
@@ -92,15 +92,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast existerar under nodens livstid.
+// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast finns under nodens livstid.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Iterera genom styckets samling av närmaste barn,
-// och skriv ut alla körningar eller former som vi hittar inom.
+// Iterera genom styckets samling av omedelbara underordnade,
+// och skriv ut alla körningar eller former som vi hittar inuti.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -120,7 +120,7 @@ foreach (Node child in children)
     }
 ```
 
-Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av barn.
+Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av underordnade noder.
 
 ```csharp
 Document doc = new Document();
@@ -128,7 +128,7 @@ Document doc = new Document();
 // Ett tomt dokument har som standard ett stycke.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Sammansatta noder som vårt stycke kan innehålla andra sammansatta och infogade noder som underordnade.
+// Sammansatta noder som vårt stycke kan innehålla andra sammansatta och inline-noder som underordnade.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -138,13 +138,13 @@ Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Dokumentets brödtext kommer inte att visa dessa körningar förrän vi infogar dem i en sammansatt nod
-// som i sig är en del av dokumentets nodträd, som vi gjorde med den första körningen.
-// Vi kan bestämma var textinnehållet i noder som vi infogar
-// visas i dokumentet genom att ange en infogningsplats i förhållande till en annan nod i stycket.
+// Dokumentets innehåll kommer inte att visa dessa körningar förrän vi infogar dem i en sammansatt nod
+// som i sig är en del av dokumentets nodträd, precis som vi gjorde med den första körningen.
+// Vi kan avgöra var textinnehållet i noder som vi infogar ska
+// visas i dokumentet genom att ange en insättningsplats i förhållande till en annan nod i stycket.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Infoga den andra körningen i stycket framför den första körningen.
+// Infoga den andra satsen i stycket före den första satsen.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
@@ -154,13 +154,13 @@ paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Infoga den första körningen till början av styckets samling av underordnade noder.
+// Infoga den första körningen i början av styckets samling av underordnade noder.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Vi kan ändra innehållet i körningen genom att redigera och ta bort befintliga underordnade noder.
+// Vi kan ändra innehållet i körningen genom att redigera och ta bort befintliga undernoder.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

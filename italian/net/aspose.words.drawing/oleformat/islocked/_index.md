@@ -3,7 +3,7 @@ title: OleFormat.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words per .NET
-description: OleFormat IsLocked proprietà. Specifica se il collegamento alloggetto OLE è bloccato dagli aggiornamenti in C#.
+description: Scopri la proprietà IsLocked di OleFormat, controlla i collegamenti degli oggetti OLE e migliora l'integrità dei dati impedendo aggiornamenti indesiderati. Scopri di più ora!
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/oleformat/islocked/
@@ -28,7 +28,7 @@ Mostra come estrarre oggetti OLE incorporati nei file.
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -38,11 +38,11 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
+// possiamo usare la proprietà "SuggestedExtension" per determinare quale estensione file applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.
-// 1 - Salvalo tramite uno stream:
+// Di seguito sono riportati due metodi per salvare un oggetto OLE in un file nel file system locale.
+// 1 - Salvalo tramite un flusso:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

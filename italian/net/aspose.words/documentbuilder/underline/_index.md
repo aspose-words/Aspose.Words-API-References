@@ -3,14 +3,14 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words per .NET
-description: DocumentBuilder Underline proprietà. Ottiene/imposta il tipo di sottolineatura per il carattere corrente in C#.
+description: Scopri la proprietà "Sottolineato" di DocumentBuilder per personalizzare facilmente gli stili dei font. Migliora i tuoi documenti con versatili opzioni di sottolineatura per un aspetto professionale.
 type: docs
 weight: 190
 url: /it/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property
 
-Ottiene/imposta il tipo di sottolineatura per il carattere corrente.
+Ottiene/imposta il tipo di sottolineatura per il font corrente.
 
 ```csharp
 public Underline Underline { get; set; }

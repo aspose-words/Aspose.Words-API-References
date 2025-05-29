@@ -3,14 +3,14 @@ title: Border.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words für .NET
-description: Border Equals methode. Bestimmt ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat in C#.
+description: Entdecken Sie die Border Equals-Methode, um Randwerte einfach zu vergleichen und Ihre Designpräzision zu verbessern. Erzielen Sie mühelos konsistente Ergebnisse!
 type: docs
 weight: 100
 url: /de/net/aspose.words/border/equals/
 ---
 ## Equals(*[Border](../)*) {#equals}
 
-Bestimmt, ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat.
+Bestimmt, ob der angegebene Rahmen dem aktuellen Rahmen im Wert entspricht.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
+// Da wir beim Erstellen die gleiche Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen weisen dieselben Elemente auf.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -41,8 +41,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
-// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
+// Nachdem ich den Linienstil der Rahmen nur im zweiten Absatz geändert habe,
+// Die Randsammlungen weisen nicht mehr dieselben Elemente auf.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -82,8 +82,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
+// Da wir beim Erstellen die gleiche Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen weisen dieselben Elemente auf.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -96,8 +96,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
-// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
+// Nachdem ich den Linienstil der Rahmen nur im zweiten Absatz geändert habe,
+// Die Randsammlungen weisen nicht mehr dieselben Elemente auf.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

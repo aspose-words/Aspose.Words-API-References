@@ -3,7 +3,7 @@ title: BorderCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: BorderCollection Count propriété. Obtient le nombre de bordures dans la collection en C#.
+description: Découvrez la propriété BorderCollection Count pour accéder facilement au nombre total de bordures, améliorant ainsi la flexibilité et l'efficacité de votre conception.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/bordercollection/count/
@@ -41,7 +41,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

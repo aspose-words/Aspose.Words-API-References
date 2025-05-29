@@ -3,14 +3,14 @@ title: FieldMergingArgs.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: FieldMergingArgs Text ملكية. الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي في C#.
+description: أدر حقول دمج مستندك بسهولة باستخدام FieldMergingArgs. اضبط أو استرجاع النص بسهولة لضمان تكامل سلس للمستندات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/fieldmergingargs/text/
 ---
 ## FieldMergingArgs.Text property
 
-الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي.
+يحصل على النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي أو يعينه.
 
 ```csharp
 public string Text { get; set; }
@@ -18,15 +18,15 @@ public string Text { get; set; }
 
 ## ملاحظات
 
-عندما يتم استدعاء معالج الحدث الخاص بك، يتم تعيين هذه الخاصية إلى`باطل`.
+عند استدعاء معالج الحدث الخاص بك، يتم تعيين هذه الخاصية على`باطل`.
 
-إذا تركت النص كـ`باطل` ، سيتم إدراج مشغل دمج المراسلات[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) بدلاً من حقل الدمج.
+إذا تركت النص كما هو`باطل` ، سيقوم محرك دمج البريد بإدراج[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) في مكان حقل الدمج.
 
 إذا قمت بتعيين النص إلى أي سلسلة (بما في ذلك فارغة)، فسيتم إدراج السلسلة في المستند بدلاً من حقل الدمج.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
+يوضح كيفية تنفيذ دمج البريد باستخدام معاودة الاتصال المخصصة التي تتعامل مع بيانات الدمج في شكل مستندات HTML.
 
 ```csharp
 public void MergeHtml()
@@ -60,31 +60,31 @@ public void MergeHtml()
 
 /// <summary>
 /// إذا واجه دمج البريد MERGEFIELD الذي يبدأ اسمه بالبادئة "html_"،
-/// يقوم رد الاتصال هذا بتحليل بيانات الدمج الخاصة به كمحتوى HTML وإضافة النتيجة إلى موقع مستند MERGEFIELD.
+/// تقوم وظيفة الارتداد هذه بتحليل بيانات الدمج الخاصة بها كمحتوى HTML وتضيف النتيجة إلى موقع المستند الخاص بـ MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // أضف بيانات HTML التي تم تحليلها إلى نص المستند.
+            // أضف بيانات HTML المحللة إلى نص المستند.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // نظرًا لأننا قمنا بالفعل بإدراج المحتوى المدمج يدويًا،
-             // لن نحتاج إلى الرد على هذا الحدث من خلال إعادة المحتوى عبر خاصية "النص".
+            // لن نحتاج إلى الاستجابة لهذا الحدث عن طريق إرجاع المحتوى عبر خاصية "النص".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 }
 ```

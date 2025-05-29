@@ -3,14 +3,14 @@ title: CustomXmlPart.DataChecksum
 linktitle: DataChecksum
 articleTitle: DataChecksum
 second_title: Aspose.Words para .NET
-description: CustomXmlPart DataChecksum propiedad. Especifica una suma de comprobación de verificación de redundancia cíclica CRC delData contenido en C#.
+description: Descubra la propiedad DataChecksum de CustomXmlPart, que garantiza la integridad de los datos con una suma de comprobación CRC fiable para su contenido XML. ¡Mejore la fiabilidad de sus datos!
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Especifica una suma de comprobación de verificación de redundancia cíclica (CRC) del[`Data`](../data/) contenido.
+Especifica una suma de comprobación de redundancia cíclica (CRC) de la[`Data`](../data/) contenido.
 
 ```csharp
 public long DataChecksum { get; }
@@ -18,7 +18,7 @@ public long DataChecksum { get; }
 
 ## Ejemplos
 
-Muestra cómo se calcula la suma de comprobación en tiempo de ejecución.
+Muestra cómo se calcula la suma de comprobación en un tiempo de ejecución.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// Cambiamos la XmlPart de la etiqueta y la suma de comprobación se actualizó en tiempo de ejecución.
+// Cambiamos la parte XmlPart de la etiqueta y la suma de comprobación se actualizó en tiempo de ejecución.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

@@ -3,12 +3,12 @@ title: Aspose.Words.Properties
 linktitle: Aspose.Words.Properties
 articleTitle: Aspose.Words.Properties
 second_title: Aspose.Words pour .NET
-description: LeAspose.Words.Propriétés Lespace de noms fournit des classes à work avec des propriétés de document personnalisées et intégrées telles que le titre les motsclés la société etc en C#.
+description: Découvrez l'espace de noms Aspose.Words.Properties pour gérer facilement les propriétés de document personnalisées et intégrées telles que le titre, les mots-clés et l'entreprise pour une organisation améliorée des documents.
 type: docs
-weight: 190
+weight: 210
 url: /fr/net/aspose.words.properties/
 ---
-Le**Aspose.Words.Propriétés** L'espace de noms fournit des classes à work avec des propriétés de document personnalisées et intégrées telles que le titre, les mots-clés, la société, etc.
+Le**Aspose.Words.Properties** L'espace de noms fournit des classes à work avec des propriétés de document personnalisées et intégrées telles que le titre, les mots-clés, l'entreprise, etc.
 
 ## Des classes
 

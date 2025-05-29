@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words für .NET
-description: DigitalSignature SignatureValue eigendom. Ruft ein Array von Bytes ab die einen Signaturwert darstellen in C#.
+description: Entdecken Sie die DigitalSignature SignatureValue-Eigenschaft, die ein Byte-Array für die sichere Signaturdarstellung bereitstellt. Verbessern Sie noch heute Ihre digitale Sicherheit!
 type: docs
 weight: 60
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Ruft ein Array von Bytes ab, die einen Signaturwert darstellen.
+Ruft ein Byte-Array ab, das einen Signaturwert darstellt.
 
 ```csharp
 public byte[] SignatureValue { get; }

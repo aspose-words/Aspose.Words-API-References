@@ -3,14 +3,14 @@ title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
 second_title: Aspose.Words لـ .NET
-description: PclSaveOptions RasterizeTransformedElements ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تنقيط العناصر المحولة المعقدة أم لا. قبل الحفظ في مستند PCL. الافتراضي هوحقيقي  في C#.
+description: تحكّم في تحويل العناصر المعقدة إلى صور نقطية في مستندات PCL باستخدام PclSaveOptions. تمكّن من إدارة جودة الصورة وحجم الملف بسهولة لتحقيق أفضل النتائج.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تنقيط العناصر المحولة المعقدة أم لا. قبل الحفظ في مستند PCL. الافتراضي هو`حقيقي` .
+يحصل على قيمة أو يعينها لتحديد ما إذا كان يجب تحويل العناصر المعقدة المحولة إلى نقطية أم لا قبل الحفظ في مستند PCL. الافتراضي هو`حقيقي` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -18,11 +18,11 @@ public bool RasterizeTransformedElements { get; set; }
 
 ## ملاحظات
 
-لا يدعم PCL بعض أنواع التحويلات التي تستخدمها Aspose Words. على سبيل المثال، الصور المدورة والمائلة وفرش الملمس. لعرض هذه العناصر بشكل صحيح يتم استخدام عملية التنقيط، أي الحفظ في الصورة والقصاصة. يمكن أن تستغرق هذه العملية وقتًا وذاكرة إضافية. إذا تم تعيين العلامة على`خطأ شنيع` ، قد يكون بعض المحتوى في الإخراج مختلفًا مقارنة بالمستند المصدر.
+لا يدعم PCL بعض أنواع التحويلات التي يستخدمها Aspose Words. مثل الصور المُدارة والمائلة وفرش الملمس. لعرض هذه العناصر بشكل صحيح، تُستخدم عملية التنقيط، أي الحفظ في صورة والقص. قد تستغرق هذه العملية وقتًا وذاكرة إضافيين. إذا تم ضبط العلامة على`خطأ شنيع` قد يكون بعض المحتوى في الإخراج مختلفًا مقارنة بالمستند المصدر.
 
 ## أمثلة
 
-يوضح كيفية تنقيط العناصر المعقدة أثناء حفظ مستند في PCL.
+يوضح كيفية تحويل العناصر المعقدة إلى صور نقطية أثناء حفظ مستند في PCL.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

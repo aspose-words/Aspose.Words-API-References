@@ -3,9 +3,9 @@ title: ParagraphFormat.SpaceBeforeAuto
 linktitle: SpaceBeforeAuto
 articleTitle: SpaceBeforeAuto
 second_title: Aspose.Words per .NET
-description: ParagraphFormat SpaceBeforeAuto proprietà. Vero se la quantità di spaziatura prima del paragrafo viene impostata automaticamente in C#.
+description: Scopri la proprietà ParagraphFormat SpaceBeforeAuto. Regola automaticamente la spaziatura dei paragrafi per un aspetto curato e professionale nei tuoi documenti.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.words/paragraphformat/spacebeforeauto/
 ---
 ## ParagraphFormat.SpaceBeforeAuto property
@@ -18,16 +18,16 @@ public bool SpaceBeforeAuto { get; set; }
 
 ## Osservazioni
 
-Quando impostato su`VERO` , sovrascrive l'effetto di[`SpaceBefore`](../spacebefore/).
+Quando impostato su`VERO` , annulla l'effetto di[`SpaceBefore`](../spacebefore/).
 
-Quando imposti Spazio prima e Spazio dopo su Auto, Microsoft Word aggiunge automaticamente 14 punti di spaziatura tra i paragrafi in base alle seguenti regole:
+Quando imposti Spazio prima e Spazio dopo il paragrafo su Auto, Microsoft Word aggiunge automaticamente 14 punti di spaziatura tra i paragrafi in base alle seguenti regole:
 
-* Normalmente, la spaziatura viene aggiunta dopo tutti i paragrafi.
+* Solitamente la spaziatura viene aggiunta dopo tutti i paragrafi.
 * In un elenco puntato o numerato, la spaziatura viene aggiunta solo dopo l'ultimo elemento dell'elenco. La spaziatura non viene aggiunta tra gli elementi dell'elenco.
 * In un elenco puntato o numerato nidificato la spaziatura non viene aggiunta.
-* La spaziatura viene normalmente aggiunta dopo una tabella.
-* La spaziatura non viene aggiunta dopo una tabella se si tratta dell'ultimo blocco in una cella della tabella.
-* La spaziatura non viene aggiunta dopo l'ultimo paragrafo in una cella di tabella.
+* Solitamente la spaziatura viene aggiunta dopo una tabella.
+* La spaziatura non viene aggiunta dopo una tabella se questa è l'ultimo blocco in una cella di tabella.
+* In una cella di tabella, la spaziatura non viene aggiunta dopo l'ultimo paragrafo.
 
 ## Esempi
 
@@ -42,12 +42,12 @@ builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // Imposta questi flag su "true" per applicare la spaziatura automatica,
-// ignorando di fatto la spaziatura nelle proprietà impostate sopra.
-// Lasciarli come "falsi" applicherà la nostra spaziatura paragrafo personalizzata.
+// ignorando di fatto la spaziatura nelle proprietà che abbiamo impostato sopra.
+// Lasciandoli su "false" verrà applicata la nostra spaziatura personalizzata per i paragrafi.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Inserisci due paragrafi che avranno uno spazio sopra e sotto e salva il documento.
+// Inserire due paragrafi con spaziatura sopra e sotto e salvare il documento.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 

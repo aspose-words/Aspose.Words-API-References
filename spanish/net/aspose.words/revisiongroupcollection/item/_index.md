@@ -3,7 +3,7 @@ title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: RevisionGroupCollection Item propiedad. Devuelve un grupo de revisión en el índice especificado en C#.
+description: Acceda fácilmente a grupos de revisiones específicos con la propiedad Elemento RevisionGroupCollection. Mejore la gestión de sus datos con una indexación precisa.
 type: docs
 weight: 20
 url: /es/net/aspose.words/revisiongroupcollection/item/

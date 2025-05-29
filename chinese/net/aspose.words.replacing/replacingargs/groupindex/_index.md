@@ -2,15 +2,15 @@
 title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
-second_title: 用于 .NET 的 Aspose.Words
-description: ReplacingArgs GroupIndex 财产. 通过索引标识捕获组Match 将替换为Replacement字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 ReplacingArgs 中的 GroupIndex 属性轻松识别并用自定义字符串替换匹配中的捕获组。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-通过索引标识捕获组[`Match`](../match/) 将替换为[`Replacement`](../replacement/)字符串.
+通过索引标识捕获组[`Match`](../match/) 将被替换为[`Replacement`](../replacement/)字符串.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## 评论
 
-`GroupIndex`仅当[`GroupName`](../groupname/)是`无效的`。
+`GroupIndex`仅在以下情况下有效[`GroupName`](../groupname/)是`无效的`。
 
-默认为零。
+默认值为零。
 
 ## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -39,7 +39,7 @@ public void ConvertNumbersToHexadecimal()
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 将“HighlightColor”属性设置为我们想要应用于操作结果文本的背景颜色。
+    // 将“HighlightColor”属性设置为我们想要应用于操作的结果文本的背景颜色。
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,7 +57,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// 将数字查找和替换匹配替换为其十六进制等效项。
+/// 用十六进制等效值替换数字查找和替换匹配项。
 /// 维护每次替换的日志。
 /// </summary>
 private class NumberHexer : IReplacingCallback

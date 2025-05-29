@@ -3,14 +3,14 @@ title: Fill.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words per .NET
-description: Fill ImageBytes proprietà. Ottiene i byte grezzi della trama o del motivo di riempimento in C#.
+description: Accedi ai byte grezzi della tua texture o del tuo motivo di riempimento con la proprietà ImageBytes per un'integrazione di progettazione perfetta e una qualità visiva migliorata.
 type: docs
-weight: 130
+weight: 140
 url: /it/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
 
-Ottiene i byte grezzi della trama o del motivo di riempimento.
+Ottiene i byte grezzi della texture o del motivo di riempimento.
 
 ```csharp
 public byte[] ImageBytes { get; }
@@ -18,11 +18,11 @@ public byte[] ImageBytes { get; }
 
 ## Osservazioni
 
-Il valore predefinito è`nullo`.
+Il valore predefinito è`null`.
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

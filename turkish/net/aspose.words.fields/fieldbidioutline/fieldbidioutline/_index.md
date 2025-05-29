@@ -2,8 +2,8 @@
 title: FieldBidiOutline
 linktitle: FieldBidiOutline
 articleTitle: FieldBidiOutline
-second_title: Aspose.Words for .NET
-description: FieldBidiOutline inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldBidiOutline oluşturucusunu keşfedin; sezgisel varsayılan kurulumuyla verimli veri işleme için başvuracağınız çözüm. Kodlama deneyiminizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/

@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat KeepTogether propriété. Vrai si toutes les lignes du paragraphe doivent rester sur la même page en C#.
+description: Découvrez la propriété KeepTogether de ParagraphFormat, assurez-vous que toutes les lignes restent ensemble sur une seule page pour une meilleure lisibilité du document et une présentation professionnelle.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/paragraphformat/keeptogether/
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

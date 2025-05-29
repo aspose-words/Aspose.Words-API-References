@@ -3,14 +3,14 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words لـ .NET
-description: Fill Patterned طريقة. يضبط التعبئة المحددة على النمط في C#.
+description: اكتشف طريقة Fill Patterned لتطبيق أنماط فريدة على تصميماتك بسهولة، مما يعزز الإبداع والجاذبية البصرية في مشاريعك.
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
-يضبط التعبئة المحددة على النمط.
+يضبط التعبئة المحددة إلى نمط.
 
 ```csharp
 public void Patterned(PatternType patternType)
@@ -22,7 +22,7 @@ public void Patterned(PatternType patternType)
 
 ## أمثلة
 
-يوضح كيفية تعيين نمط للشكل.
+يوضح كيفية تعيين نمط لشكل ما.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -32,11 +32,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// هناك عدة طرق محددة لملء النمط.
+// هناك عدة طرق محددة لتعبئة النمط.
 // 1 - تطبيق النمط على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - قم بتطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
+// 2 - تطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
-يضبط التعبئة المحددة على النمط.
+يضبط التعبئة المحددة إلى نمط.
 
 ```csharp
 public void Patterned(PatternType patternType, Color foreColor, Color backColor)
@@ -67,7 +67,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 
 ## أمثلة
 
-يوضح كيفية تعيين نمط للشكل.
+يوضح كيفية تعيين نمط لشكل ما.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -77,11 +77,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// هناك عدة طرق محددة لملء النمط.
+// هناك عدة طرق محددة لتعبئة النمط.
 // 1 - تطبيق النمط على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - قم بتطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
+// 2 - تطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

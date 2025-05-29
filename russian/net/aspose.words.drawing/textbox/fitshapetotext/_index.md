@@ -3,14 +3,14 @@ title: TextBox.FitShapeToText
 linktitle: FitShapeToText
 articleTitle: FitShapeToText
 second_title: Aspose.Words для .NET
-description: TextBox FitShapeToText свойство. Определяет будет ли Microsoft Word увеличивать форму до размера текста на С#.
+description: Узнайте, как свойство FitShapeToText в Microsoft Word автоматически подгоняет фигуры под ваш текст, улучшая презентацию документа.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/textbox/fitshapetotext/
 ---
 ## TextBox.FitShapeToText property
 
-Определяет, будет ли Microsoft Word увеличивать форму до размера текста.
+Определяет, будет ли Microsoft Word увеличивать фигуру, чтобы вместить текст.
 
 ```csharp
 public bool FitShapeToText { get; set; }
@@ -22,7 +22,7 @@ public bool FitShapeToText { get; set; }
 
 ## Примеры
 
-Показывает, как изменить размер текстового поля, чтобы оно плотно вписывалось в его содержимое.
+Показывает, как изменить размер текстового поля, чтобы оно полностью вмещало его содержимое.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Применяем эти значения к обоим элементам, чтобы родительская фигура соответствовала размеру
-// плотно окружает текстовое содержимое, игнорируя установленные нами размеры.
+// Применяем эти значения к обоим членам, чтобы подогнать родительскую форму
+// плотно обхватывает текстовое содержимое, игнорируя заданные нами размеры.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

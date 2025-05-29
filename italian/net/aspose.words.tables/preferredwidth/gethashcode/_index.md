@@ -3,7 +3,7 @@ title: PreferredWidth.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words per .NET
-description: PreferredWidth GetHashCode metodo. Serve come funzione hash per questo tipo in C#.
+description: Scopri il metodo GetHashCode di PreferredWidth: una funzione hash essenziale per la gestione efficiente dei dati e la generazione di valori univoci nelle tue applicazioni.
 type: docs
 weight: 70
 url: /it/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -18,7 +18,7 @@ public override int GetHashCode()
 
 ## Esempi
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

@@ -3,14 +3,14 @@ title: ChartXValue.FromString
 linktitle: FromString
 articleTitle: FromString
 second_title: Aspose.Words لـ .NET
-description: ChartXValue FromString طريقة. إنشاء ملفChartXValue مثال علىString اكتب في C#.
+description: اكتشف طريقة ChartXValue FromString لإنشاء مثيلات ChartXValue من نوع String بسهولة. حسّن تصور بياناتك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 ---
 ## ChartXValue.FromString method
 
-إنشاء ملف[`ChartXValue`](../) مثال علىString اكتب.
+ينشئ[`ChartXValue`](../) مثال على ذلكString النوع.
 
 ```csharp
 public static ChartXValue FromString(string value)
@@ -18,7 +18,7 @@ public static ChartXValue FromString(string value)
 
 ## أمثلة
 
-يوضح كيفية إضافة/إزالة قيم بيانات المخطط.
+يوضح كيفية إضافة/إزالة قيم بيانات الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// قم بإزالة القيمة الأولى في كلتا السلسلتين.
+// قم بإزالة القيمة الأولى في كلا السلسلتين.
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// أضف قيمًا جديدة إلى كلتا السلسلتين.
+//أضف قيمًا جديدة إلى كلتا السلسلتين.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

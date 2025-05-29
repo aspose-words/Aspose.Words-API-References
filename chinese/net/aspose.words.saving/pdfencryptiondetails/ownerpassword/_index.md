@@ -2,8 +2,8 @@
 title: PdfEncryptionDetails.OwnerPassword
 linktitle: OwnerPassword
 articleTitle: OwnerPassword
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfEncryptionDetails OwnerPassword 财产. 指定加密 PDF 文档的所有者密码 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 OwnerPassword 属性如何保护您的加密 PDF 文件，确保只有授权人员才能访问。轻松保护您的文档！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -18,13 +18,13 @@ public string OwnerPassword { get; set; }
 
 ## 评论
 
-所有者密码允许用户打开加密的 PDF 文档，而没有任何访问限制 中指定的[`Permissions`](../permissions/)。
+所有者密码允许用户打开加密的 PDF 文档，而无需在[`Permissions`](../permissions/)。
 
 所有者密码不能与用户密码相同。
 
 ## 例子
 
-演示如何设置已保存 PDF 文档的权限。
+展示如何设置已保存的 PDF 文档的权限。
 
 ```csharp
 Document doc = new Document();

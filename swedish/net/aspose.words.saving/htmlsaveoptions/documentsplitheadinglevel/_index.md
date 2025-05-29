@@ -3,14 +3,14 @@ title: HtmlSaveOptions.DocumentSplitHeadingLevel
 linktitle: DocumentSplitHeadingLevel
 articleTitle: DocumentSplitHeadingLevel
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions DocumentSplitHeadingLevel fast egendom. Anger den maximala nivån för rubriker för att dela dokumentet. Standardvärdet är2  i C#.
+description: Optimera dokumentdelning med HtmlSaveOptions DocumentSplitHeadingLevel. Kontrollera rubriknivåer för bättre organisation. Standardinställningen är 2.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 ---
 ## HtmlSaveOptions.DocumentSplitHeadingLevel property
 
-Anger den maximala nivån för rubriker för att dela dokumentet. Standardvärdet är`2` .
+Anger den maximala rubriknivån där dokumentet ska delas. Standardvärdet är`2` .
 
 ```csharp
 public int DocumentSplitHeadingLevel { get; set; }
@@ -18,20 +18,20 @@ public int DocumentSplitHeadingLevel { get; set; }
 
 ## Anmärkningar
 
-När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas i stycken formaterade med **Rubrik 1** ,**Rubrik 2** ,**Rubrik 3**etc. stilar upp till angiven rubriknivå.
+När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas vid stycken formaterade med **Rubrik 1** ,**Rubrik 2** ,**Rubrik 3**etc. stilar upp till den angivna rubriknivån.
 
-Endast som standard**Rubrik 1** och**Rubrik 2** stycken gör att dokumentet delas. Om du ställer in den här egenskapen till noll kommer dokumentet inte att delas vid rubrikstycken alls.
+Som standard endast**Rubrik 1** och**Rubrik 2** stycken gör att dokumentet delas. Om den här egenskapen ställs in på noll delas dokumentet inte alls vid rubrikstycken.
 
 ## Exempel
 
-Visar hur man delar upp ett HTML-dokument efter rubriker i flera delar.
+Visar hur man delar upp ett HTML-dokument med rubriker i flera delar.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Varje stycke som vi formaterar med en "Rubrik"-stil kan fungera som en rubrik.
-// Varje rubrik kan också ha en rubriknivå, som bestäms av numret på dess rubrikstil.
+// Varje stycke som vi formaterar med formatet "Rubrik" kan fungera som en rubrik.
+// Varje rubrik kan också ha en rubriknivå, bestämd av numret på dess rubrikstil.
 // Rubrikerna nedan är av nivå 1-3.
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 1"];
 builder.Writeln("Heading #1");
@@ -46,20 +46,20 @@ builder.Writeln("Heading #5");
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
 builder.Writeln("Heading #6");
 
-// Skapa ett HtmlSaveOptions-objekt och ställ in delingskriterierna till "HeadingParagraph".
-// Dessa kriterier kommer att dela upp dokumentet i stycken med "Rubrik"-stilar i flera mindre dokument,
+// Skapa ett HtmlSaveOptions-objekt och sätt delningskriterierna till "HeadingParagraph".
+// Dessa kriterier kommer att dela upp dokumentet vid stycken med "Rubrik"-format i flera mindre dokument,
 // och spara varje dokument i en separat HTML-fil i det lokala filsystemet.
-// Vi kommer också att ställa in den maximala rubriknivån, vilket delar upp dokumentet till 2.
-// Om du sparar dokumentet delas det upp i rubriker på nivå 1 och 2, men inte på 3 till 9.
+// Vi kommer också att ställa in den maximala rubriknivån, vilket delar dokumentet till 2.
+// Om du sparar dokumentet delas det upp i rubriker på nivå 1 och 2, men inte på nivå 3 till 9.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph,
     DocumentSplitHeadingLevel = 2
 };
 
-// Vårt dokument har fyra rubriker på nivåerna 1 - 2. En av dessa rubriker kommer inte att vara det
-// en splitpunkt eftersom den är i början av dokumentet.
-// Sparandet kommer att dela upp vårt dokument på tre platser, i fyra mindre dokument.
+// Vårt dokument har fyra rubriker på nivå 1–2. En av dessa rubriker kommer inte att vara
+// en delningspunkt eftersom den är i början av dokumentet.
+// Sparoperationen kommer att dela upp vårt dokument på tre ställen, i fyra mindre dokument.
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html", options);
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html");

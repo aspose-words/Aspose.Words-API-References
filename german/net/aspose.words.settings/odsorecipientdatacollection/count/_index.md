@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: OdsoRecipientDataCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
+description: Entdecken Sie die Eigenschaft „OdsoRecipientDataCollection Count“, um einfach die Gesamtzahl der Elemente abzurufen und so die Effizienz Ihrer Datenverwaltung zu steigern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

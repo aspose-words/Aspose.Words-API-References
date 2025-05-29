@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words per .NET
-description: ChartDataLabel ShowBubbleSize proprietà. Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ShowBubbleSize migliora i tuoi grafici a bolle visualizzando le dimensioni delle etichette dati. Ottimizza la rappresentazione visiva dei tuoi dati oggi stesso!
 type: docs
-weight: 80
+weight: 130
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
 
-Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito è`falso` .
+Consente di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito è `falso` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Applica un'etichetta dati a ciascuna bolla che ne mostra il diametro.
+// Applica un'etichetta dati a ciascuna bolla che ne visualizza il diametro.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

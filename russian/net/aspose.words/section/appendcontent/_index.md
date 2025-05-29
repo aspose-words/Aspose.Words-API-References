@@ -3,14 +3,14 @@ title: Section.AppendContent
 linktitle: AppendContent
 articleTitle: AppendContent
 second_title: Aspose.Words для .NET
-description: Section AppendContent метод. Вставляет копию содержимого исходного раздела в конец этого раздела на С#.
+description: Узнайте, как метод AppendContent улучшает ваши разделы, легко добавляя исходный контент, повышая организованность и ясность ваших проектов.
 type: docs
-weight: 80
+weight: 100
 url: /ru/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-Вставляет копию содержимого исходного раздела в конец этого раздела.
+Вставляет копию содержимого исходного раздела в конец данного раздела.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -18,11 +18,11 @@ public void AppendContent(Section sourceSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceSection | Section | Раздел, из которого копируется контент. |
+| sourceSection | Section | Раздел, из которого копируется содержимое. |
 
 ## Примечания
 
-Только содержание[`Body`](../body/) исходного раздела копируется, настройка страницы, верхние и нижние колонтитулы не копируются.
+Только содержание[`Body`](../body/) исходного раздела копируется, параметры страницы, верхние и нижние колонтитулы не копируются.
 
 Узлы автоматически импортируются, если исходный раздел принадлежит другому документу.
 
@@ -50,11 +50,11 @@ Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Вставляем содержимое второго раздела в конец третьего раздела.
+// Вставьте содержимое второго раздела в конец третьего раздела.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// Методы «PrependContent» и «AppendContent» не создали новых разделов.
+// Методы «PrependContent» и «AppendContent» не создали никаких новых разделов.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

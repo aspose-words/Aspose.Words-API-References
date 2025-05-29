@@ -2,15 +2,15 @@
 title: CalendarType Enum
 linktitle: CalendarType
 articleTitle: CalendarType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.CalendarType Sıralama. Takvimin türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge yönetimi ve otomasyonu için takvim türlerinizi kolayca belirlemek ve özelleştirmek amacıyla Aspose.Words.CalendarType enum'unu keşfedin.
 type: docs
-weight: 190
+weight: 380
 url: /tr/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
 
-Takvimin türünü belirtir.
+Bir takvimin türünü belirtir.
 
 ```csharp
 public enum CalendarType
@@ -20,7 +20,7 @@ public enum CalendarType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Gregorian | `0` | Gregoryen takvimi. |
+| Gregorian | `0` | Miladi takvim. |
 | Hijri | `1` | Hicri Ay takvimi. |
 | Hebrew | `2` | İbrani Ay takvimi. |
 | SakaEra | `3` | Saka Dönemi takvimi. |
@@ -28,7 +28,7 @@ public enum CalendarType
 
 ## Örnekler
 
-Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
+Alanlar güncellendikçe alan sonuçlarına özel bir formatın otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
 public void FieldResultFormatting()
@@ -40,7 +40,7 @@ public void FieldResultFormatting()
 
     // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
+    // bu, InsertField metodunun aşırı yüklenmesini kullanarak bunları oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -63,8 +63,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
-/// her çağrıyı takip ederken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde, bu biçimlendirici biçimlendirmelerini geçersiz kılacaktır
+/// özel bir formatla, her çağrıyı takip ederek.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -119,12 +119,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

@@ -3,14 +3,14 @@ title: GeneralFormatCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: GeneralFormatCollection Count fast egendom. Får det totala antalet föremål i samlingen i C#.
+description: Upptäck egenskapen GeneralFormatCollection Count för att enkelt komma åt det totala antalet objekt i din samling, vilket förbättrar effektiviteten i datahanteringen.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/generalformatcollection/count/
 ---
 ## GeneralFormatCollection.Count property
 
-Får det totala antalet föremål i samlingen.
+Hämtar det totala antalet objekt i samlingen.
 
 ```csharp
 public int Count { get; }
@@ -24,14 +24,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

@@ -3,7 +3,7 @@ title: Theme
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words для .NET
-description: Theme строитель. Конструктор по умолчанию на С#.
+description: Создавайте потрясающие темы без усилий с помощью нашего интуитивно понятного конструктора. С легкостью настраивайте свой дизайн и повышайте привлекательность своего веб-сайта уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.themes/theme/theme/

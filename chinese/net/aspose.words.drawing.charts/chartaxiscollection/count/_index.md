@@ -2,8 +2,8 @@
 title: ChartAxisCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxisCollection Count 财产. 获取此集合中的轴数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxisCollection Count 属性以轻松访问轴的总数，增强您的数据可视化体验。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartaxiscollection/count/

@@ -2,15 +2,15 @@
 title: NodeImporter
 linktitle: NodeImporter
 articleTitle: NodeImporter
-second_title: Aspose.Words for .NET
-description: NodeImporter inşaatçı. Yeni bir örneğini başlatırNodeImporter class C#'da.
+second_title: .NET için Aspose.Words
+description: NodeImporter oluşturucusunu keşfedin, veri yönetiminizi kolaylaştırmak ve proje verimliliğini artırmak için zahmetsizce yeni NodeImporter örnekleri oluşturun.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
-Yeni bir örneğini başlatır[`NodeImporter`](../) class.
+Yeni bir örneğini başlatır[`NodeImporter`](../) sınıf.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -19,8 +19,8 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Kaynak belge. |
-| dstDoc | DocumentBase | İçe aktarılan düğümlerin sahibi olacak hedef belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
+| dstDoc | DocumentBase | İçeri aktarılan düğümlerin sahibi olacak hedef belge. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
 
 ## Örnekler
 
@@ -51,7 +51,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belgenin içeriğini belirtilen düğümden sonra ekler.
+/// Belirtilen düğümden sonra belgenin içeriğini ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -62,8 +62,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü kur,
+        // daha sonra bölümün son boş paragrafı olmayan her düğümü klonla ve ekle.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -99,7 +99,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
-Yeni bir örneğini başlatır[`NodeImporter`](../) class.
+Yeni bir örneğini başlatır[`NodeImporter`](../) sınıf.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 
@@ -109,20 +109,20 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Kaynak belge. |
-| dstDoc | DocumentBase | İçe aktarılan düğümlerin sahibi olacak hedef belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
-| importFormatOptions | ImportFormatOptions | İçe aktarılan düğümü biçimlendirmek için çeşitli seçenekleri belirtir. |
+| dstDoc | DocumentBase | İçeri aktarılan düğümlerin sahibi olacak hedef belge. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| importFormatOptions | ImportFormatOptions | İçeri aktarılan düğümü biçimlendirmek için çeşitli seçenekleri belirtir. |
 
 ## Örnekler
 
-Aynı liste tanımı tanımlayıcısına sahip listeleri içe aktarırken çakışmanın nasıl çözüleceğini gösterir.
+Aynı liste tanımlama tanımlayıcısına sahip listeleri içe aktarırken bir çakışmanın nasıl çözüleceğini gösterir.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Farklı bir liste tanımı kimliği uygulamak için "KeepSourceNumbering" özelliğini "true" olarak ayarlayın
-// Aspose.Words'ün bunları hedef belgelere aktarmasıyla aynı stillere.
+// Aspose.Words ile aynı stilleri hedef belgelere aktarır.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -132,18 +132,18 @@ dstDoc.UpdateListLabels();
 Kaynak ve hedef belgelerdeki liste numaralandırma çakışmalarının nasıl çözüleceğini gösterir.
 
 ```csharp
-// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından kopyalayın.
-// Her ikisi de aynı numaralandırma formatına sahip olduğundan, bir belgeyi diğerine aktarırsak formatlar çakışacaktır.
+// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından onu kopyalayın.
+// Her ikisinin de numaralandırma biçimi aynı olduğundan, bir belgeyi diğerine aktardığımızda biçimler çakışacaktır.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Belgenin klonunu orijinale aktarıp eklediğimizde,
-// aynı liste formatına sahip iki liste birleşecek.
-// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, belge klonundaki liste
-// orijinale eklediğimiz, eklediğimiz listenin numaralandırmasını taşıyacaktır.
-// Bu, iki listeyi etkili bir şekilde tek bir listede birleştirecektir.
-// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak belge klonu
- // liste orijinal numaralandırmasını koruyacak ve iki listenin ayrı listeler olarak görünmesini sağlayacaktır.
+// Belgenin klonunu orijinaline aktardığımızda ve sonra eklediğimizde,
+// daha sonra aynı liste formatına sahip iki liste birleşecektir.
+// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, belge klonundan gelen liste
+// orijinaline eklediğimiz her bir liste, onu eklediğimiz listenin numaralandırmasını sürdürecektir.
+// Bu, iki listeyi etkili bir şekilde birleştirecektir.
+// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak, belge klonu
+ // liste orijinal numaralandırmasını koruyarak iki listenin ayrı listeler olarak görünmesini sağlar.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

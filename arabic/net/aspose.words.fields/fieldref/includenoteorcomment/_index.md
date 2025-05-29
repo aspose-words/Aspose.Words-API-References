@@ -3,14 +3,14 @@ title: FieldRef.IncludeNoteOrComment
 linktitle: IncludeNoteOrComment
 articleTitle: IncludeNoteOrComment
 second_title: Aspose.Words لـ .NET
-description: FieldRef IncludeNoteOrComment ملكية. الحصول على أو تعيين ما إذا كان سيتم زيادة أرقام الحواشي السفلية والتعليقات الختامية والتعليقات التوضيحية التي تم وضع علامة عليها بواسطة الإشارة المرجعية وإدراج الحاشية السفلية والتعليقات الختامية ونص التعليق المقابل في C#.
+description: اكتشف خاصية FieldRef IncludeNoteOrComment لإدارة ترقيم الحواشي السفلية والختامية بسهولة، وتحسين مستنداتك باستخدام التعليقات التوضيحية السلسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
 ## FieldRef.IncludeNoteOrComment property
 
-الحصول على أو تعيين ما إذا كان سيتم زيادة أرقام الحواشي السفلية والتعليقات الختامية والتعليقات التوضيحية التي تم وضع علامة عليها بواسطة الإشارة المرجعية، وإدراج الحاشية السفلية والتعليقات الختامية ونص التعليق المقابل.
+يحصل على أو يعين ما إذا كان سيتم زيادة أرقام الحواشي السفلية والحواشي النهائية والتعليقات التوضيحية التي تم وضع علامة عليها بواسطة الإشارة المرجعية، وإدراج نص الحاشية السفلية والحاشية النهائية والتعليق المقابل.
 
 ```csharp
 public bool IncludeNoteOrComment { get; set; }
@@ -33,41 +33,41 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // سوف نقوم بتطبيق تنسيق قائمة مخصص، حيث يشير مقدار الأقواس الزاوية إلى مستوى القائمة الذي نحن فيه حاليًا.
+    // سوف نطبق تنسيق قائمة مخصص، حيث يشير عدد الأقواس الزاوية إلى مستوى القائمة الذي نحن فيه حاليًا.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // أدخل حقل REF الذي سيحتوي على النص الموجود داخل الإشارة المرجعية الخاصة بنا، وسيكون بمثابة رابط تشعبي، واستنساخ الحواشي السفلية للإشارة المرجعية.
+    // قم بإدراج حقل REF الذي سيحتوي على النص الموجود داخل الإشارة المرجعية لدينا، وسيعمل كارتباط تشعبي، ويستنسخ حواشي الإشارة المرجعية.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // أدخل حقل REF، واعرض ما إذا كانت الإشارة المرجعية أعلى أو أسفل منه.
+    // أدخل حقل REF، واعرض ما إذا كانت الإشارة المرجعية أعلى أو أسفله.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // اعرض رقم قائمة الإشارة المرجعية كما يظهر في المستند.
+    // عرض رقم قائمة الإشارة المرجعية كما يظهر في المستند.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // عرض رقم قائمة الإشارة المرجعية، ولكن مع حذف الأحرف غير المحددة، مثل الأقواس الزاوية.
+    // عرض رقم قائمة الإشارة المرجعية، ولكن مع حذف الأحرف غير الفاصلة، مثل الأقواس الزاوية.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // تحرك لأسفل مستوى القائمة بمقدار مستوى واحد.
+    //الانتقال إلى أسفل مستوى واحد في القائمة.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة فوقها.
+    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة الموجودة أعلى منها.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -91,7 +91,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// اطلب من منشئ المستندات إدراج حقل REF، والإشارة إلى إشارة مرجعية به، وإضافة نص قبله وبعده.
+/// احصل على منشئ المستندات لإدراج حقل REF، والإشارة إلى إشارة مرجعية به، وإضافة نص قبله وبعده.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

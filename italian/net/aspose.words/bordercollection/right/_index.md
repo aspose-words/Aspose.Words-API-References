@@ -3,14 +3,14 @@ title: BorderCollection.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words per .NET
-description: BorderCollection Right proprietà. Ottiene il bordo destro in C#.
+description: Scopri BorderCollection Right per un controllo preciso dei bordi nei tuoi progetti. Migliora i tuoi layout con un bordo perfetto ogni volta!
 type: docs
 weight: 100
 url: /it/net/aspose.words/bordercollection/right/
 ---
 ## BorderCollection.Right property
 
-Ottiene il bordo destro.
+Ottiene il bordo giusto.
 
 ```csharp
 public Border Right { get; }
@@ -18,7 +18,7 @@ public Border Right { get; }
 
 ## Esempi
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

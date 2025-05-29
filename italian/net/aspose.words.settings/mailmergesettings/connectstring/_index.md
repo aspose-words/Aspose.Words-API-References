@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words per .NET
-description: MailMergeSettings ConnectString proprietà. Specifica la stringa di connessione utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
+description: Scopri come la proprietà ConnectString di MailMergeSettings si collega a fonti dati esterne. Personalizza facilmente la tua connessione per un'integrazione dati impeccabile!
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto questo e salvato il documento,
 // Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 

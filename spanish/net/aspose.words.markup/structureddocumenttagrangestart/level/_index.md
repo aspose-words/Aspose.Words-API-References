@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart Level propiedad. Obtiene el nivel en el que se produce el inicio del rango de etiquetas de documento estructurado en el árbol del documento en C#.
+description: Descubra la propiedad StructuredDocumentTagRangeStart Level para identificar fácilmente su posición en el árbol del documento, mejorando la eficiencia de la gestión de documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-Obtiene el nivel en el que se produce el inicio del rango de etiquetas de documento estructurado en el árbol del documento.
+Obtiene el nivel en el que se produce el inicio del rango de etiquetas de este documento estructurado en el árbol del documento.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +18,7 @@ public MarkupLevel Level { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

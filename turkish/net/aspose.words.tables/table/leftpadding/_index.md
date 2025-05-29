@@ -2,15 +2,15 @@
 title: Table.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
-second_title: Aspose.Words for .NET
-description: Table LeftPadding mülk. Hücre içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Table LeftPadding özelliğini keşfedin, gelişmiş düzen kontrolü ve iyileştirilmiş tasarım esnekliği için hücre içeriği aralığını noktalar halinde kolayca ayarlayın.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.tables/table/leftpadding/
 ---
 ## Table.LeftPadding property
 
-Hücre içeriğinin soluna eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
+Hücrelerin içeriklerinin soluna eklenecek boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Tablodaki her hücre için, içeriği ile kenarlıkları arasındaki mesafeyi ayarlayın.
-// Bu tablo, metni kaydırarak minimum dolgu mesafesini koruyacaktır.
+ // Tablodaki her hücre için, hücre içeriği ile her bir kenarlık arasındaki mesafeyi ayarlayın.
+// Bu tablo metni sararak minimum dolgu mesafesini koruyacaktır.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

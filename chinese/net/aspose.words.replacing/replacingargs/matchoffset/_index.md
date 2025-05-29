@@ -2,15 +2,15 @@
 title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
-second_title: 用于 .NET 的 Aspose.Words
-description: ReplacingArgs MatchOffset 财产. 从包含匹配开始的节点的 开始处获取匹配的从零开始的起始位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ReplacingArgs MatchOffset 属性，轻松找到节点中匹配的从零开始的起始位置，以实现高效的数据处理。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-从包含匹配开始的节点的 开始处获取匹配的从零开始的起始位置。
+从包含匹配开头的节点的开始处获取匹配的从零开始的起始位置。
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -33,7 +33,7 @@ public void ConvertNumbersToHexadecimal()
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 将“HighlightColor”属性设置为我们想要应用于操作结果文本的背景颜色。
+    // 将“HighlightColor”属性设置为我们想要应用于操作的结果文本的背景颜色。
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,7 +51,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// 将数字查找和替换匹配替换为其十六进制等效项。
+/// 用十六进制等效值替换数字查找和替换匹配项。
 /// 维护每次替换的日志。
 /// </summary>
 private class NumberHexer : IReplacingCallback

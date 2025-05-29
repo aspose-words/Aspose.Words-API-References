@@ -3,7 +3,7 @@ title: Cluster.CodepointsLength
 linktitle: CodepointsLength
 articleTitle: CodepointsLength
 second_title: Aspose.Words для .NET
-description: Cluster CodepointsLength свойство. Получает общее количество кодовых точек вCluster  на С#.
+description: Откройте для себя свойство Cluster CodepointsLength для эффективного расчета общего количества кодовых точек в ваших кластерах данных. Повысьте производительность сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.shaping/cluster/codepointslength/

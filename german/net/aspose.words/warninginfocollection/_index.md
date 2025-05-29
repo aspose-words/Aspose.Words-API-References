@@ -3,14 +3,14 @@ title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WarningInfoCollection klas. Stellt eine typisierte Sammlung von darWarningInfo Objekte in C#.
+description: Entdecken Sie Aspose.Words.WarningInfoCollection, eine leistungsstarke Klasse zum Verwalten von WarningInfo-Objekten, die die Dokumentverarbeitung und Fehlerbehandlung verbessert.
 type: docs
-weight: 6640
+weight: 7490
 url: /de/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Stellt eine typisierte Sammlung von dar[`WarningInfo`](../warninginfo/) Objekte.
+Stellt eine typisierte Sammlung von[`WarningInfo`](../warninginfo/) Objekte.
 
 Um mehr zu erfahren, besuchen Sie die[Programmieren mit Dokumenten](https://docs.aspose.com/words/net/programming-with-documents/) Dokumentationsartikel.
 
@@ -36,16 +36,16 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implementiert die[`IWarningCallback`](../iwarningcallback/) Schnittstelle. Fügt dieser Sammlung eine Warnung hinzu. |
 
 ## Bemerkungen
 
-Sie können dieses Sammlungsobjekt als einfachste Form von verwenden[`IWarningCallback`](../iwarningcallback/) Implementierung, um alle Warnungen zu sammeln, die Aspose.Words während eines Lade- oder Speichervorgangs generiert. Erstellen Sie eine Instanz dieser Klasse und weisen Sie sie zu[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) oder[`WarningCallback`](../documentbase/warningcallback/) Eigentum.
+Sie können dieses Sammlungsobjekt als einfachste Form von[`IWarningCallback`](../iwarningcallback/) Implementierung, um alle Warnungen zu erfassen, die Aspose.Words während eines Lade- oder Speichervorgangs generiert. Erstellen Sie eine Instanz dieser Klasse und weisen Sie sie dem[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) oder[`WarningCallback`](../documentbase/warningcallback/) Eigentum.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -53,7 +53,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -63,7 +63,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -82,7 +82,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

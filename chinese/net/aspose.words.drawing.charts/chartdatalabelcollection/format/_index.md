@@ -2,8 +2,8 @@
 title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection Format 财产. 提供对数据标签的填充和线条格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataLabelCollection 格式属性，轻松自定义数据标签的填充和线条格式。立即提升您的图表效果！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## 例子
 
-演示如何设置图表数据标签的填充、描边和标注格式。
+展示如何设置图表数据标签的填充、描边和标注格式。
 
 ```csharp
 Document doc = new Document();

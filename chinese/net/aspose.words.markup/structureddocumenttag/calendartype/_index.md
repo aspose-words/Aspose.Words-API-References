@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.CalendarType
 linktitle: CalendarType
 articleTitle: CalendarType
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag CalendarType 财产. 指定此日历的类型特殊测试. 默认为Default 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTag CalendarType 属性，自定义您的 SDT 日历类型。使用定制的日历选项，提升您的文档质量！
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-指定此日历的类型**特殊测试**. 默认为Default
+指定此日历的类型**特殊和差别待遇**. 默认为Default
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
@@ -18,13 +18,13 @@ public SdtCalendarType CalendarType { get; set; }
 
 ## 评论
 
-访问该属性仅适用于DateSDT 类型.
+访问此属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 
-演示如何提示用户输入带有结构化文档标记的日期。
+展示如何使用结构化文档标签提示用户输入日期。
 
 ```csharp
 Document doc = new Document();
@@ -36,18 +36,18 @@ Document doc = new Document();
 // 我们可以使用该弹出窗口来选择标签将显示的日期。
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// 根据沙特阿拉伯阿拉伯语语言环境显示日期。
+// 根据沙特阿拉伯阿拉伯语区域设置显示日期。
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
 // 设置显示日期的格式。
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
-// 根据回历显示日期。
+// 根据伊斯兰历显示日期。
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// 用户在 Microsoft Word 中选择日期之前，标记将显示文本“单击此处输入日期。”。
-// 根据标签的日历，设置“FullDate”属性，让标签显示默认日期。
+// 在用户在 Microsoft Word 中选择日期之前，标签将显示文本“单击此处输入日期。”。
+// 根据标签的日历，设置“FullDate”属性，让标签显示一个默认日期。
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

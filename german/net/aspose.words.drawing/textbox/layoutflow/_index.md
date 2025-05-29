@@ -3,7 +3,7 @@ title: TextBox.LayoutFlow
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words für .NET
-description: TextBox LayoutFlow eigendom. Bestimmt den Fluss des Textlayouts in einer Form in C#.
+description: Entdecken Sie, wie die TextBox-LayoutFlow-Eigenschaft das Textlayout in Formen verbessert und so die Designflexibilität und Lesbarkeit Ihrer Projekte steigert.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/textbox/layoutflow/
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Verschieben Sie den Dokument-Builder in die TextBox und fügen Sie Text hinzu.
+// Verschieben Sie den Dokumentgenerator in das Textfeld und fügen Sie Text hinzu.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

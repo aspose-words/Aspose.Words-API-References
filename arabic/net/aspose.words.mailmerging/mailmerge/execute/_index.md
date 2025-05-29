@@ -3,14 +3,14 @@ title: MailMerge.Execute
 linktitle: Execute
 articleTitle: Execute
 second_title: Aspose.Words لـ .NET
-description: MailMerge Execute طريقة. تنفيذ عملية دمج البريد من مصدر بيانات مخصص في C#.
+description: قم بتبسيط عملية البريد الخاصة بك باستخدام طريقة MailMerge Execute، والتي تعمل على دمج البيانات بسهولة من مصادر مخصصة لتوفير اتصالات مخصصة.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.mailmerging/mailmerge/execute/
 ---
 ## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
-تنفيذ عملية دمج البريد من مصدر بيانات مخصص.
+يقوم بتنفيذ دمج البريد من مصدر بيانات مخصص.
 
 ```csharp
 public void Execute(IMailMergeDataSource dataSource)
@@ -18,15 +18,126 @@ public void Execute(IMailMergeDataSource dataSource)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | كائن يقوم بتطبيق واجهة مصدر بيانات دمج المراسلات المخصصة. |
+| dataSource | IMailMergeDataSource | كائن ينفذ واجهة مصدر بيانات دمج البريد المخصصة. |
 
 ## ملاحظات
 
-استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات مثل القائمة أو جدول التجزئة أو الكائنات. أنت بحاجة إلى كتابة فصلك الخاص الذي ينفذ[`IMailMergeDataSource`](../../imailmergedatasource/) واجهه المستخدم.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات، مثل قائمة أو جدول تجزئة أو كائنات. ستحتاج إلى كتابة فئة خاصة بك تُطبّق [`IMailMergeDataSource`](../../imailmergedatasource/) واجهة.
 
-يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`، أي أنك لا تحتاج إلى التوافق مع اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
+يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`, وهذا يعني أنك لا تحتاج إلى توافق اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
+
+## أمثلة
+
+يوضح كيفية تنفيذ دمج البريد مع مصدر البيانات في شكل كائن مخصص.
+
+```csharp
+public void CustomDataSource()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.InsertField(" MERGEFIELD FullName ");
+    builder.InsertParagraph();
+    builder.InsertField(" MERGEFIELD Address ");
+
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
+
+     // لاستخدام كائن مخصص كمصدر بيانات، يجب عليه تنفيذ واجهة IMailMergeDataSource.
+    CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
+
+    doc.MailMerge.Execute(dataSource);
+
+    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+}
+
+/// <summary>
+/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// </summary>
+public class Customer
+{
+    public Customer(string aFullName, string anAddress)
+    {
+        FullName = aFullName;
+        Address = anAddress;
+    }
+
+    public string FullName { get; set; }
+    public string Address { get; set; }
+}
+
+/// <summary>
+ /// مصدر بيانات دمج البريد المخصص الذي تقوم بتنفيذه للسماح لـ Aspose.Words
+/// لدمج البيانات من كائنات العميل الخاصة بك في مستندات Microsoft Word.
+/// </summary>
+public class CustomerMailMergeDataSource : IMailMergeDataSource
+{
+    public CustomerMailMergeDataSource(List<Customer> customers)
+    {
+        mCustomers = customers;
+
+        // عندما نقوم بتهيئة مصدر البيانات، يجب أن يكون موضعه قبل السجل الأول.
+        mRecordIndex = -1;
+    }
+
+    /// <summary>
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع مناطق قابلة للتكرار.
+    /// </summary>
+    public string TableName
+    {
+        get { return "Customer"; }
+    }
+
+    /// <summary>
+    /// تستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// </summary>
+    public bool GetValue(string fieldName, out object fieldValue)
+    {
+        switch (fieldName)
+        {
+            case "FullName":
+                fieldValue = mCustomers[mRecordIndex].FullName;
+                return true;
+            case "Address":
+                fieldValue = mCustomers[mRecordIndex].Address;
+                return true;
+            default:
+                // قم بإرجاع "false" إلى محرك دمج البريد Aspose.Words للإشارة إلى
+                // لم نتمكن من العثور على حقل بهذا الاسم.
+                fieldValue = null;
+                return false;
+        }
+    }
+
+    /// <summary>
+    /// تنفيذ قياسي للانتقال إلى السجل التالي في المجموعة.
+    /// </summary>
+    public bool MoveNext()
+    {
+        if (!IsEof)
+            mRecordIndex++;
+
+        return !IsEof;
+    }
+
+    public IMailMergeDataSource GetChildDataSource(string tableName)
+    {
+        return null;
+    }
+
+    private bool IsEof
+    {
+        get { return (mRecordIndex >= mCustomers.Count); }
+    }
+
+    private readonly List<Customer> mCustomers;
+    private int mRecordIndex;
+}
+```
 
 ### أنظر أيضا
 
@@ -39,7 +150,7 @@ public void Execute(IMailMergeDataSource dataSource)
 
 ## Execute(*string[], object[]*) {#execute_5}
 
-تنفيذ عملية دمج البريد لسجل واحد.
+ينفذ عملية دمج البريد لسجل واحد.
 
 ```csharp
 public void Execute(string[] fieldNames, object[] values)
@@ -47,45 +158,45 @@ public void Execute(string[] fieldNames, object[] values)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldNames | String[] | مجموعة من أسماء حقول الدمج. أسماء الحقول ليست حساسة لحالة الأحرف. إذا تمت مصادفة اسم حقل غير موجود في المستند، فسيتم تجاهله. |
-| values | Object[] | صفيف القيم المراد إدراجه في حقول الدمج. يجب أن يكون عدد العناصر في هذا الصفيف هو نفس عدد العناصر الموجودة في*fieldNames*. |
+| fieldNames | String[] | مجموعة من أسماء حقول الدمج. أسماء الحقول لا تفرق بين الأحرف الكبيرة والصغيرة. إذا وُجد اسم حقل غير موجود في المستند، فسيتم تجاهله. |
+| values | Object[] | مجموعة من القيم التي سيتم إدراجها في حقول الدمج. يجب أن يكون عدد العناصر في هذه المجموعة مساويًا لعدد العناصر في*fieldNames*. |
 
 ## ملاحظات
 
-استخدم هذا الأسلوب لملء حقول دمج البريد في المستند بقيم from صفيف من الكائنات.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من مجموعة من الكائنات.
 
-تقوم هذه الطريقة بدمج البيانات لسجل واحد فقط. تمثل مجموعة الحقول name ومجموعة القيم بيانات سجل واحد.
+تدمج هذه الطريقة بيانات سجل واحد فقط. تُمثل مصفوفة أسماء الحقول ومصفوفة القيم بيانات سجل واحد.
 
-لا يستخدم هذا الأسلوب مناطق دمج المراسلات.
+لا تستخدم هذه الطريقة مناطق دمج البريد.
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
 
 ## أمثلة
 
-يوضح كيفية دمج صورة من URI كبيانات دمج البريد في MERGEFIELD.
+يوضح كيفية دمج صورة من عنوان URI كبيانات دمج بريد في MERGEFIELD.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// MERGEFIELDs ذات علامات "الصورة:" ستتلقى صورة أثناء عملية دمج البريد.
-// السلسلة بعد النقطتين في علامة "الصورة:" تتوافق مع اسم العمود
-// في مصدر البيانات الذي تحتوي خلاياه على معرفات URI لملفات الصور.
+// ستتلقى حقول الدمج التي تحتوي على علامات "Image:" صورة أثناء دمج البريد.
+// السلسلة بعد النقطتين في علامة "Image:" تتوافق مع اسم العمود
+// في مصدر البيانات الذي تحتوي خلاياه على عناوين URI لملفات الصور.
 builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
 builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
 
- // قم بإنشاء مصدر بيانات يحتوي على معرفات URI للصور التي سنقوم بدمجها.
-// يمكن أن يكون عنوان URI عنوان URL على الويب يشير إلى صورة، أو اسم ملف نظام ملفات محلي لملف صورة.
+ // قم بإنشاء مصدر بيانات يحتوي على عناوين URI للصور التي سنقوم بدمجها.
+// يمكن أن يكون URI عنوان URL للويب يشير إلى صورة، أو اسم ملف نظام ملفات محلي لملف صورة.
 string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
 object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
 
-// تنفيذ دمج البريد على مصدر بيانات بصف واحد.
+//تنفيذ دمج البريد على مصدر بيانات يحتوي على صف واحد.
 doc.MailMerge.Execute(columns, URIs);
 
 doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromUrl.docx");
 ```
 
-يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
+يوضح كيفية تنفيذ عملية دمج البريد، ثم حفظ المستند في متصفح العميل.
 
 ```csharp
 Document doc = new Document();
@@ -102,12 +213,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// أرسل المستند إلى متصفح العميل.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // تم طرحه لأن HttpResponse فارغ في الاختبار.
+//إرسال المستند إلى متصفح العميل.
+//تم إلقاؤه لأن HttpResponse فارغ في الاختبار.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// سنحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من أننا لا نضيف أي محتوى غير ضروري إلى المستند بعد الحفظ.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// سوف نحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من عدم إضافة أي محتوى غير ضروري إلى المستند بعد الحفظ.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### أنظر أيضا
@@ -120,7 +231,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 ## Execute(*DataTable*) {#execute_2}
 
-تنفيذ دمج البريد من DataTable في المستند.
+يقوم بدمج البريد من جدول بيانات إلى المستند.
 
 ```csharp
 public void Execute(DataTable table)
@@ -128,23 +239,23 @@ public void Execute(DataTable table)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| table | DataTable | الجدول الذي يحتوي على البيانات التي سيتم إدراجها في حقول دمج البريد. أسماء الحقول ليست حساسة لحالة الأحرف. إذا تمت مواجهة اسم حقل غير موجود في المستند، فسيتم تجاهله. |
+| table | DataTable | جدول يحتوي على بيانات سيتم إدراجها في حقول دمج البريد. أسماء الحقول ليست حساسة لحالة الأحرف. إذا تم العثور على اسم حقل غير موجود في المستند، فسيتم تجاهله. |
 
 ## ملاحظات
 
-استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من a **جدول البيانات**.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بالقيم من a **جدول البيانات**.
 
-يتم دمج كافة السجلات من الجدول في المستند.
+سيتم دمج كافة السجلات من الجدول في المستند.
 
-يمكنك استخدام الحقل التالي في مستند Word للتسبب[`MailMerge`](../) كائن لتحديد السجل التالي من**جدول البيانات** واستمر في الدمج. يمكن استخدام هذا عند إنشاء مستندات مثل الملصقات البريدية.
+يمكنك استخدام الحقل التالي في مستند Word للتسبب في[`MailMerge`](../) كائن لتحديد السجل التالي من**جدول البيانات** ويمكن استخدام هذا عند إنشاء مستندات مثل ملصقات البريد.
 
-متى[`MailMerge`](../) يصل الكائن إلى نهاية المستند الرئيسي ولا يزال هناك المزيد من الصفوف في الملف**جدول البيانات**، يقوم بنسخ محتوى المستند الرئيسي بالكامل وإلحاقه بنهاية المستند الوجهة باستخدام فاصل section كفاصل.
+متى[`MailMerge`](../) يصل الكائن إلى نهاية المستند الرئيسي ولا يزال هناك المزيد من الصفوف في**جدول البيانات**، فإنه ينسخ المحتوى الكامل لـ المستند الرئيسي ويضيفه إلى نهاية المستند الوجهة باستخدام فاصل section كفاصل.
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من DataTable.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من جدول البيانات.
 
 ```csharp
 public void ExecuteDataTable()
@@ -155,7 +266,7 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // فيما يلي طريقتان لاستخدام DataTable كمصدر بيانات لدمج البريد.
+    // فيما يلي طريقتان لاستخدام جدول البيانات كمصدر بيانات لدمج البريد.
     // 1 - استخدم الجدول بأكمله لدمج البريد لإنشاء مستند دمج بريدي واحد لكل صف في الجدول:
     Document doc = CreateSourceDocExecuteDataTable();
 
@@ -163,7 +274,7 @@ public void ExecuteDataTable()
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند واحد لدمج البريد:
+    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند دمج بريدي واحد:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -197,7 +308,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(*IDataReader*) {#execute_4}
 
-يقوم بدمج البريد من**معرف البيانات** في المستند.
+يقوم بدمج البريد من**قارئ بيانات الهوية** في المستند.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +316,15 @@ public void Execute(IDataReader dataReader)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataReader | IDataReader | مصدر البيانات لعملية دمج المراسلات. |
+| dataReader | IDataReader | مصدر البيانات لعملية دمج البريد. |
 
 ## ملاحظات
 
-يمكنك تمرير**SqlDataReader** أو**OleDbDataReader** كائن في طريقة this كمعلمة لأن كلاهما تم تنفيذهما**معرف البيانات** واجهه المستخدم.
+يمكنك المرور**قارئ بيانات SQL** أو**قارئ بيانات OleDb**الكائن في طريقة this كمعلمة لأن كلاهما تم تنفيذه**قارئ بيانات الهوية** واجهة.
 
-لاحظ أن هذا الأسلوب لا يستخدم مناطق دمج المراسلات وبالنسبة للسجلات المتعددة، فإن المستند سينمو عن طريق تكرار المستند بأكمله.
+لاحظ أن هذه الطريقة لا تستخدم مناطق دمج البريد وبالنسبة للسجلات المتعددة فإن مستند the سوف ينمو عن طريق تكرار المستند بأكمله.
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
 
 ## أمثلة
 
@@ -232,8 +343,8 @@ builder.InsertField(" MERGEFIELD QuantityPerUnit");
 builder.Write(" for $");
 builder.InsertField(" MERGEFIELD UnitPrice");
 
-// قم بإنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind".
-// في نظام الملفات المحلي الخاص بنا، افتح اتصالاً وقم بإعداد استعلام SQL.
+// إنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind"
+// في نظام الملفات المحلي لدينا، افتح اتصالاً، وقم بإعداد استعلام SQL.
 string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
 string query =
     @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
@@ -243,14 +354,14 @@ string query =
 
 using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    // قم بإنشاء أمر SQL الذي سيصدر البيانات لدمج البريد لدينا.
-    // أسماء أعمدة الجدول التي ستعيدها عبارة التحديد هذه
-    // يجب أن يتوافق مع حقول الدمج التي وضعناها أعلاه.
+    // قم بإنشاء أمر SQL الذي سيقوم بتوريد البيانات لعملية دمج البريد الخاصة بنا.
+    // أسماء أعمدة الجدول التي ستعيدها عبارة SELECT هذه
+    // سوف تحتاج إلى التوافق مع حقول الدمج التي وضعناها أعلاه.
     OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
     try
-    {                    
-        connection.Open();                 
+    {
+        connection.Open();
         using (OleDbDataReader reader = command.ExecuteReader())
         {
             // خذ البيانات من القارئ واستخدمها في دمج البريد.
@@ -260,7 +371,7 @@ using (OleDbConnection connection = new OleDbConnection(connectionString))
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
-    }                
+    }
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
@@ -276,7 +387,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(*DataView*) {#execute_3}
 
-يقوم بدمج البريد من a**عرض البيانات** في المستند.
+يقوم بدمج البريد من**عرض البيانات** في المستند.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +395,15 @@ public void Execute(DataView dataView)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataView | DataView | مصدر البيانات لعملية دمج المراسلات. |
+| dataView | DataView | مصدر البيانات لعملية دمج البريد. |
 
 ## ملاحظات
 
-هذه الطريقة مفيدة إذا قمت باسترداد البيانات إلى ملف**جدول البيانات** ولكن ثم بحاجة إلى تطبيق عامل تصفية أو فرز قبل دمج البريد.
+هذه الطريقة مفيدة إذا كنت ترغب في استرداد البيانات في**جدول البيانات** ولكن بعد ذلك، يجب تطبيق عامل تصفية أو فرز قبل دمج البريد.
 
-لاحظ أن هذا الأسلوب لا يستخدم مناطق دمج المراسلات وبالنسبة للسجلات المتعددة، فإن المستند سينمو عن طريق تكرار المستند بأكمله.
+لاحظ أن هذه الطريقة لا تستخدم مناطق دمج البريد وبالنسبة للسجلات المتعددة فإن مستند the سوف ينمو عن طريق تكرار المستند بأكمله.
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
 
 ## أمثلة
 
@@ -306,7 +417,7 @@ builder.InsertField(" MERGEFIELD Name");
 builder.Write(" for passing with a grade of ");
 builder.InsertField(" MERGEFIELD Grade");
 
-// أنشئ جدول بيانات سيصدر منه دمج البريد البيانات.
+// قم بإنشاء جدول بيانات سيستمد منه دمج البريد الخاص بنا البيانات.
 DataTable table = new DataTable("ExamResults");
 table.Columns.Add("Name");
 table.Columns.Add("Grade");
@@ -315,14 +426,14 @@ table.Rows.Add(new object[] { "Jane Doe", "81" });
 table.Rows.Add(new object[] { "John Cardholder", "47" });
 table.Rows.Add(new object[] { "Joe Bloggs", "75" });
 
-// يمكننا استخدام طريقة عرض البيانات لتغيير بيانات دمج المراسلات دون إجراء تغييرات على جدول البيانات نفسه.
+// يمكننا استخدام عرض البيانات لتعديل بيانات دمج البريد دون إجراء أي تغييرات على جدول البيانات نفسه.
 DataView view = new DataView(table);
 view.Sort = "Grade DESC";
 view.RowFilter = "Grade >= 50";
 
-// يقوم عرض البيانات الخاص بنا بفرز الإدخالات بترتيب تنازلي على طول عمود "الدرجة".
-// ويقوم بتصفية الصفوف ذات القيم الأقل من 50 في هذا العمود.
-// ثلاثة من الصفوف الأربعة تناسب هذه المعايير بحيث يحتوي مستند الإخراج على ثلاث مستندات مدمجة.
+// يقوم عرض البيانات لدينا بفرز الإدخالات بترتيب تنازلي على طول عمود "الدرجة"
+// ويقوم بتصفية الصفوف التي تحتوي على قيم أقل من 50 في هذا العمود.
+// ثلاثة من الصفوف الأربعة تتناسب مع هذه المعايير بحيث تحتوي وثيقة الإخراج على ثلاثة مستندات دمج.
 doc.MailMerge.Execute(view);
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
@@ -338,7 +449,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(*DataRow*) {#execute_1}
 
-يقوم بدمج البريد من a**DataRow** في المستند.
+يقوم بدمج البريد من**صف البيانات** في المستند.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,17 +457,17 @@ public void Execute(DataRow row)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| row | DataRow | الصف الذي يحتوي على بيانات سيتم إدراجها في حقول دمج البريد. أسماء الحقول ليست حساسة لحالة الأحرف. إذا تمت مواجهة اسم حقل غير موجود في المستند، فسيتم تجاهله. |
+| row | DataRow | صف يحتوي على بيانات سيتم إدراجها في حقول دمج البريد. أسماء الحقول ليست حساسة لحالة الأحرف. إذا تم العثور على اسم حقل غير موجود في المستند، فسيتم تجاهله. |
 
 ## ملاحظات
 
-استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من a**DataRow**.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من**صف البيانات**.
 
-تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
+هذه الطريقة تتجاهلRemoveUnusedRegions خيار.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من DataTable.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من جدول البيانات.
 
 ```csharp
 public void ExecuteDataTable()
@@ -367,7 +478,7 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // فيما يلي طريقتان لاستخدام DataTable كمصدر بيانات لدمج البريد.
+    // فيما يلي طريقتان لاستخدام جدول البيانات كمصدر بيانات لدمج البريد.
     // 1 - استخدم الجدول بأكمله لدمج البريد لإنشاء مستند دمج بريدي واحد لكل صف في الجدول:
     Document doc = CreateSourceDocExecuteDataTable();
 
@@ -375,7 +486,7 @@ public void ExecuteDataTable()
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند واحد لدمج البريد:
+    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند دمج بريدي واحد:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldSeparator
 linktitle: VisitFieldSeparator
 articleTitle: VisitFieldSeparator
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitFieldSeparator método. Se llama cuando se encuentra un separador de campo en el documento en C#.
+description: Descubra el método VisitFieldSeparator en DocumentVisitor. Gestione eficientemente los separadores de campo en sus documentos para un procesamiento optimizado.
 type: docs
 weight: 190
 url: /es/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -26,13 +26,13 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Observaciones
 
-El separador de campos separa el código de campo del valor del campo en el documento. Tenga en cuenta que algunos campos solo tienen código de campo y no tienen separador de campo ni valor de campo.
+El separador de campo separa el código del valor del campo en el documento. Tenga en cuenta que algunos campos solo tienen código de campo y no tienen separador ni valor de campo.
 
-Para más información ver[`VisitFieldStart`](../visitfieldstart/)
+Para más información véase[`VisitFieldStart`](../visitfieldstart/)
 
 ## Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada campo en un documento.
+Muestra cómo imprimir la estructura de nodos de cada campo de un documento.
 
 ```csharp
 public void FieldToText()
@@ -40,16 +40,16 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos de campo encontrados y sus hijos.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
@@ -110,10 +110,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
     /// en el árbol de nodos secundarios del campo.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

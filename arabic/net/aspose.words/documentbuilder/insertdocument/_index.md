@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 linktitle: InsertDocument
 articleTitle: InsertDocument
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertDocument طريقة. إدراج مستند في موضع المؤشر في C#.
+description: أدرج المستندات بسهولة في أي موضع مؤشر باستخدام طريقة InsertDocument من DocumentBuilder. بسّط سير عملك وحسّن إنتاجيتك!
 type: docs
 weight: 310
 url: /ar/net/aspose.words/documentbuilder/insertdocument/
@@ -18,8 +18,8 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | Document | مستند المصدر للإدراج. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
+| srcDoc | Document | وثيقة المصدر للإدراج. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات الأنماط المتعارضة. |
 
 ### قيمة الإرجاع
 
@@ -27,11 +27,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 ## ملاحظات
 
-تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
+تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (نسخ المحدد في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (إدراج محتوى من المخزن المؤقت) داخل مستند آخر.
 
 ## أمثلة
 
-يوضح كيفية إدراج مستند في مستند آخر.
+يوضح كيفية إدراج مستند داخل مستند آخر.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -68,9 +68,9 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | Document | مستند المصدر للإدراج. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
-| importFormatOptions | ImportFormatOptions | يسمح بتحديد الخيارات التي تؤثر على تنسيق مستند النتيجة. |
+| srcDoc | Document | وثيقة المصدر للإدراج. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات الأنماط المتعارضة. |
+| importFormatOptions | ImportFormatOptions | يسمح بتحديد الخيارات التي تؤثر على تنسيق المستند الناتج. |
 
 ### قيمة الإرجاع
 
@@ -78,7 +78,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 ## ملاحظات
 
-تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
+تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (نسخ المحدد في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (إدراج محتوى من المخزن المؤقت) داخل مستند آخر.
 
 ## أمثلة
 
@@ -96,13 +96,13 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// انسخ المستند وقم بتحرير نمط "MyStyle" الخاص بالمستنسخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
-// إذا قمنا بإدراج النسخة في المستند الأصلي، فسيتسبب النمطان اللذان يحملان نفس الاسم في حدوث تعارض.
+// استنساخ المستند وتحرير نمط "MyStyle" الخاص بالاستنساخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
+// إذا قمنا بإدراج النسخة المستنسخة في المستند الأصلي، فإن النمطين اللذين يحملان نفس الاسم سوف يتسببان في حدوث تعارض.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// عندما نقوم بتمكين SmartStyleBehavior ونستخدم وضع تنسيق الاستيراد KeepSourceFormatting،
-// Aspose.Words سوف يحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
+// عندما نقوم بتمكين SmartStyleBehavior واستخدام وضع تنسيق الاستيراد KeepSourceFormatting،
+// سيقوم Aspose.Words بحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
 // بنفس أسماء أنماط الوجهة في سمات الفقرة المباشرة.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

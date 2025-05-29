@@ -3,16 +3,16 @@ title: SystemFontSource Class
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.SystemFontSource сорт. Представляет все шрифты TrueType установленные в системе на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.SystemFontSource — ваш шлюз для доступа ко всем шрифтам TrueType в вашей системе для беспрепятственного создания документов.
 type: docs
-weight: 3050
+weight: 3480
 url: /ru/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
 
 Представляет все шрифты TrueType, установленные в системе.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class SystemFontSource : FontSourceBase
@@ -22,8 +22,8 @@ public class SystemFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [SystemFontSource](systemfontsource/#constructor)() | Cтор. |
-| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Cтор. |
+| [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
 
 ## Характеристики
 
@@ -38,11 +38,11 @@ public class SystemFontSource : FontSourceBase
 | Имя | Описание |
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
-| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Возвращает папки системных шрифтов или пустой массив, если папки недоступны. |
+| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Возвращает системные папки шрифтов или пустой массив, если папки недоступны. |
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -91,6 +91,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

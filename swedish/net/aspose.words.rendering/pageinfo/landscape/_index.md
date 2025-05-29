@@ -3,14 +3,14 @@ title: PageInfo.Landscape
 linktitle: Landscape
 articleTitle: Landscape
 second_title: Aspose.Words för .NET
-description: PageInfo Landscape fast egendom. ReturnerarSann om sidorienteringen som anges i dokumentet för den här sidan är liggande i C#.
+description: Ta reda på om ditt dokuments sidorientering är liggande med PageInfo. Säkerställ optimal layout för fantastiska presentationer och utskrifter.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Returnerar`Sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande.
+Returer`sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande.
 
 ```csharp
 public bool Landscape { get; }
@@ -18,13 +18,13 @@ public bool Landscape { get; }
 
 ## Exempel
 
-Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
+Visar hur man skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Det första avsnittet har 2 sidor. Vi kommer att tilldela ett annat skrivarpappersfack till var och en,
-// vars nummer kommer att matcha en sorts papperskälla. Dessa källor och deras slag kommer att variera
+// Det första avsnittet har två sidor. Vi kommer att tilldela ett annat pappersfack till varje sida,
+// vars nummer matchar en typ av papperskälla. Dessa källor och deras typer kommer att variera
 // beroende på den installerade skrivardrivrutinen.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -48,7 +48,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Skriv ut information om källfacket.
+    // Skriv ut informationen om källfacket.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -79,7 +79,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Initierar intervallet av sidor som ska skrivas ut enligt användarens val.
+    /// Initierar sidintervallet som ska skrivas ut enligt användarens val.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -108,38 +108,38 @@ public class MyPrintDocument : PrintDocument
         base.OnQueryPageSettings(e);
 
          // Ett enda Microsoft Word-dokument kan ha flera avsnitt som anger sidor med olika storlekar,
-         // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod tidigare
-        // varje sida skrivs ut, vilket ger oss en chans att specificera hur den aktuella sidan ska skrivas ut.
+         // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod innan
+        // varje sida skrivs ut, vilket ger oss möjlighet att ange hur den aktuella sidan ska skrivas ut.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // Microsoft Word lagrar papperskällan (skrivarfacket) för varje avsnitt som ett skrivarspecifikt värde.
-        // För att få rätt fackvärde måste du använda egenskapen "RawKind", som din skrivare ska returnera.
+        // För att få rätt värde för facket måste du använda egenskapen "RawKind", som din skrivare ska returnera.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Kallas för varje sida för att göra den för utskrift.
+     /// Anropade varje sida för att rendera den för utskrift.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words-renderingsmotorn skapar en sida som ritas från papperets ursprung (x = 0, y = 0).
-        // Det kommer att finnas en hård marginal i skrivaren, som renderar varje sida. Vi måste kompensera med den hårda marginalen.
+        // Aspose.Words renderingsmotor skapar en sida ritad från papprets origo (x = 0, y = 0).
+        // Det kommer att finnas en hård marginal i skrivaren, som kommer att återge varje sida. Vi behöver förskjuta med den hårda marginalen.
         float hardOffsetX, hardOffsetY;
 
-        // Nedan finns två sätt att ställa in en hård marginal.
+        // Nedan följer två sätt att ställa in en hård marginal.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - Via egenskapen "PageSettings".
+            // 1 - Via egenskapen "Sidinställningar".
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - Använda våra egna värden, om egenskapen "PageSettings" inte är tillgänglig.
+            // 2 - Använder våra egna värden om egenskapen "PageSettings" inte är tillgänglig.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

@@ -3,14 +3,14 @@ title: FieldInclude.LockFields
 linktitle: LockFields
 articleTitle: LockFields
 second_title: Aspose.Words لـ .NET
-description: FieldInclude LockFields ملكية. الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن في C#.
+description: أدر تحديثات المستندات بسهولة باستخدام خاصية "FileInclude LockFields". تحكّم في تحرير الحقول وحسّن سلامة المستندات بسهولة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldinclude/lockfields/
 ---
 ## FieldInclude.LockFields property
 
-الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن.
+يحصل على أو يحدد ما إذا كان سيتم منع تحديث الحقول في المستند المضمن.
 
 ```csharp
 public bool LockFields { get; set; }

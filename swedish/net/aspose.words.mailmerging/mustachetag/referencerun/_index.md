@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words för .NET
-description: MustacheTag ReferenceRun fast egendom. Hämtar körningen som innehåller början av taggen i C#.
+description: Upptäck MustacheTag ReferenceRun. Få åtkomst till körningen som markerar starten på din tagg för sömlös datahantering och förbättrad prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## Exempel
 
-Visar hur man arbetar med mustaschtaggarna.
+Visar hur man arbetar med mustaschtaggar.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

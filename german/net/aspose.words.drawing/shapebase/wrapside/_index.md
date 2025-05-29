@@ -3,9 +3,9 @@ title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words für .NET
-description: ShapeBase WrapSide eigendom. Gibt an wie der Text um die Form gewickelt wird in C#.
+description: Entdecken Sie die ShapeBase WrapSide-Eigenschaft, um den Textumbruch um Formen zu steuern und so die visuelle Attraktivität und Lesbarkeit Ihres Designs zu verbessern.
 type: docs
-weight: 590
+weight: 630
 url: /de/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -20,7 +20,7 @@ public WrapSide WrapSide { get; set; }
 
 Der Standardwert istBoth.
 
-Hat nur Auswirkungen auf Formen der obersten Ebene.
+Wirkt sich nur auf Formen der obersten Ebene aus.
 
 ## Beispiele
 

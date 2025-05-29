@@ -3,14 +3,14 @@ title: FieldStyleRef.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words для .NET
-description: FieldStyleRef StyleName свойство. Получает или задает имя стиля по которому форматируется искомый текст на С#.
+description: Откройте для себя свойство FieldStyleRef StyleName, чтобы легко настроить и отформатировать текст поиска. Улучшите стиль вашего проекта с гибкостью и точностью.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldstyleref/stylename/
 ---
 ## FieldStyleRef.StyleName property
 
-Получает или задает имя стиля, по которому форматируется искомый текст.
+Возвращает или задает имя стиля, по которому форматируется искомый текст.
 
 ```csharp
 public string StyleName { get; set; }
@@ -24,15 +24,15 @@ public string StyleName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создание списка на основе шаблона списка Microsoft Word.
+// Создайте список на основе шаблона списка Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// В этом сгенерированном списке будет отображаться «1.a )».
- // Пробел перед скобкой — это символ, не являющийся разделителем, который мы можем подавить.
+// Этот сгенерированный список будет отображать «1.a )».
+ // Пробел перед скобкой — это не разделительный символ, который мы можем подавить.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Добавляем текст и применяем стили абзацев, на которые будут ссылаться поля STYLEREF.
+// Добавьте текст и примените стили абзацев, на которые будут ссылаться поля STYLEREF.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,12 +44,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Размещаем поле STYLEREF в заголовке и отображаем первый текст в документе в стиле «Абзац списка».
+// Размещаем поле STYLEREF в заголовке и отображаем первый текст в стиле «Абзац списка» в документе.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Поместите поле STYLEREF в нижний колонтитул и отобразите последний текст.
+// Поместите поле STYLEREF в нижний колонтитул и отобразите в нем последний текст.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";

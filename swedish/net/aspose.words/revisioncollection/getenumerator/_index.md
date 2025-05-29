@@ -3,14 +3,14 @@ title: RevisionCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: RevisionCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck RevisionCollection GetEnumerator-metoden! Hämta effektivt uppräknarobjekt för sömlös datahantering och förbättrad prestanda.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words/revisioncollection/getenumerator/
 ---
 ## RevisionCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<Revision> GetEnumerator()
@@ -18,17 +18,17 @@ public IEnumerator<Revision> GetEnumerator()
 
 ## Exempel
 
-Visar hur man arbetar med ett dokuments samling av revisioner.
+Visar hur man arbetar med en dokumentsamling av revisioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Denna samling i sig har en samling revisionsgrupper.
+// Den här samlingen har i sig en samling revisionsgrupper.
 // Varje grupp är en sekvens av intilliggande revisioner.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Iterera över samlingen av grupper och skriv ut texten som revideringen gäller.
+// Iterera över samlingen av grupper och skriv ut texten som revisionen avser.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -39,17 +39,17 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 }
 
 // Varje körning som en revision påverkar får ett motsvarande revisionsobjekt.
-// Revisionernas samling är avsevärt större än den sammanfattade formen vi tryckte ovan,
-// beroende på hur många körningar vi har segmenterat dokumentet i under Microsoft Word-redigering.
+// Samlingen av revisionerna är betydligt större än den kondenserade versionen vi tryckte ovan,
+// beroende på hur många körningar vi har segmenterat dokumentet i under redigeringen i Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // En StyleDefinitionChange påverkar strikt stilar och inte dokumentnoder. Detta betyder "föräldrastilen"
-        //-egenskapen kommer alltid att användas, medan ParentNode alltid kommer att vara null.
-        // Eftersom alla andra ändringar påverkar noder, kommer ParentNode omvänt att användas, och ParentStyle kommer att vara null.
+        // En StyleDefinitionChange påverkar strikt stilar och inte dokumentnoder. Detta innebär "ParentStyle"
+        // egenskapen kommer alltid att användas, medan ParentNode alltid kommer att vara null.
+        // Eftersom alla andra ändringar påverkar noder, kommer ParentNode å andra sidan att användas, och ParentStyle kommer att vara null.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +

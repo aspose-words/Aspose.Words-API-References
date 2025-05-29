@@ -2,8 +2,8 @@
 title: FieldDde
 linktitle: FieldDde
 articleTitle: FieldDde
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDde 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDde 构造函数，实现无缝集成和高效编码的首选解决方案。立即为您的项目解锁强大功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fielddde/fielddde/

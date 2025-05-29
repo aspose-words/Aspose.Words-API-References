@@ -3,14 +3,14 @@ title: SmartTag.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: SmartTag Accept metod. Accepterar en besökare i C#.
+description: Förbättra användarengagemang med SmartTags Accept-metod, utformad för att smidigt välkomna besökare och öka din webbplats interaktion.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/smarttag/accept/
 ---
 ## SmartTag.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
-Samtal[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder för smarttaggen och anrop[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) i slutet.
+Samtal[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , ringer sedan[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder till smarttaggen och anrop[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) i slutet.
 
 ## Exempel
 
@@ -41,16 +41,16 @@ public void Create()
 {
     Document doc = new Document();
 
-    // En smart tagg visas i ett dokument med Microsoft Word känner igen en del av sin text som någon form av data,
-    // som ett namn, datum eller adress, och konverterar det till en hyperlänk som visar en lila prickad underlinje.
+    // En smart tagg visas i ett dokument där Microsoft Word känner igen en del av texten som någon form av data,
+    // såsom ett namn, datum eller adress, och konverterar den till en hyperlänk som visar en lila prickad understrykning.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Smarta taggar är sammansatta noder som innehåller sin igenkända text i sin helhet.
-    // Lägg till innehåll till denna smarta tag manuellt.
+    // Smarta taggar är sammansatta noder som innehåller sin tolkade text i sin helhet.
+    // Lägg till innehåll i den här smarta taggen manuellt.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word kan känna igen ovanstående innehåll som ett datum.
-    // Smarta taggar använder egenskapen "Element" för att återspegla typen av data de innehåller.
+    // Microsoft Word kan identifiera ovanstående innehåll som ett datum.
+    // Smarta taggar använder egenskapen "Element" för att återspegla vilken typ av data de innehåller.
     smartTag.Element = "date";
 
     // Vissa smarta taggtyper bearbetar sitt innehåll vidare till anpassade XML-egenskaper.
@@ -77,7 +77,7 @@ public void Create()
     // Skriv ut alla smarta taggar i vårt dokument med hjälp av en dokumentbesökare.
     doc.Accept(new SmartTagPrinter());
 
-    // Äldre versioner av Microsoft Word stöder smarta taggar.
+    // Äldre versioner av Microsoft Word har stöd för smarta taggar.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Använd metoden "RemoveSmartTags" för att ta bort alla smarta taggar från ett dokument.
@@ -103,7 +103,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en SmartTag-nod avslutas.
+    /// Anropas när besöket av en SmartTag-nod är avslutat.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

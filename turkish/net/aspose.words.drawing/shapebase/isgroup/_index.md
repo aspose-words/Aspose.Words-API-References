@@ -2,15 +2,15 @@
 title: ShapeBase.IsGroup
 linktitle: IsGroup
 articleTitle: IsGroup
-second_title: Aspose.Words for .NET
-description: ShapeBase IsGroup mülk. İadelerdoğru eğer bu bir grup şekli ise C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase IsGroup'u keşfedin. Bir şeklin grup olup olmadığını kolayca belirleyin. Daha iyi organizasyon için bu temel özellik ile tasarım iş akışınızı geliştirin.
 type: docs
-weight: 260
+weight: 280
 url: /tr/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-İadeler`doğru` eğer bu bir grup şekli ise.
+Geri Döndürür`doğru` eğer bu bir grup şekliyse.
 
 ```csharp
 public bool IsGroup { get; }
@@ -18,7 +18,7 @@ public bool IsGroup { get; }
 
 ## Örnekler
 
-Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve içeriklerinin bir belge ziyaretçisi kullanılarak nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "İlkel Olmayan" şekiller oluşturmanız gerekiyorsa,
     // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
-    // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
+    // Lütfen DocumentBuilder.InsertShape metotlarını kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

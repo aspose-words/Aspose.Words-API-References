@@ -3,7 +3,7 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words för .NET
-description: Border LineWidth fast egendom. Hämtar eller ställer in kantbredden i punkter i C#.
+description: Justera egenskapen Border LineWidth för att anpassa kanttjockleken i punkter, vilket förbättrar designens precision och visuella attraktionskraft.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/border/linewidth/
@@ -18,11 +18,11 @@ public double LineWidth { get; set; }
 
 ## Anmärkningar
 
-Om du ställer in linjebredden större än noll när linjestilen inte är någon, ändras linjestilen automatiskt till en rad.
+Om du ställer in linjebredden större än noll när linjestilen är ingen, ändras linjestilen is automatiskt till en enda rad.
 
 ## Exempel
 
-Visar hur man infogar en sträng omgiven av en kant i ett dokument.
+Visar hur man infogar en sträng omgiven av en kantlinje i ett dokument.
 
 ```csharp
 Document doc = new Document();

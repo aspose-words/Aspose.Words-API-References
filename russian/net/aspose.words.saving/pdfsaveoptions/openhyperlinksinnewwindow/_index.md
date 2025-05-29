@@ -3,14 +3,14 @@ title: PdfSaveOptions.OpenHyperlinksInNewWindow
 linktitle: OpenHyperlinksInNewWindow
 articleTitle: OpenHyperlinksInNewWindow
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions OpenHyperlinksInNewWindow свойство. Получает или задает значение определяющее будут ли гиперссылки в выходном PDFдокументе document принудительно открываться в новом окне или вкладке браузера на С#.
+description: Управляйте поведением гиперссылок в вашем PDF с помощью PdfSaveOptions. Легко настройте ссылки на открытие в новом окне или вкладке для улучшения пользовательского опыта.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property
 
-Получает или задает значение, определяющее, будут ли гиперссылки в выходном PDF-документе document принудительно открываться в новом окне (или вкладке) браузера.
+Возвращает или задает значение, определяющее, будут ли гиперссылки в выходном документе PDF принудительно открываться в новом окне (или вкладке) браузера.
 
 ```csharp
 public bool OpenHyperlinksInNewWindow { get; set; }
@@ -18,28 +18,28 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 ## Примечания
 
-Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` Гиперссылки сохраняются с использованием кода JavaScript. Код JavaScript `app.launchURL("URL", правда);` , где`URL-адрес` это гиперссылка.
+Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` гиперссылки сохраняются с помощью кода JavaScript. код JavaScript`app.launchURL("URL", true);` , где`URL` является гиперссылкой.
 
-Обратите внимание: если для этой опции установлено значение`истинный` гиперссылки не работают в некоторых программах для чтения PDF-файлов, например Chrome, Firefox.
+Обратите внимание, что если этот параметр установлен на`истинный` гиперссылки не работают в некоторых программах для чтения PDF-файлов, например Chrome, Firefox.
 
-Действия JavaScript запрещены стандартами PDF/A-1 и PDF/A-2.`ЛОЖЬ`будет использоваться автоматически при сохранении в PDF/A-1 и PDF/A-2.
+Действия JavaScript запрещены стандартами PDF/A-1 и PDF/A-2.`ЛОЖЬ`будет использоваться автоматически при сохранении в формате PDF/A-1 и PDF/A-2.
 
 ## Примеры
 
-Показывает, как сохранить гиперссылки в документе, который мы конвертируем в PDF, чтобы при нажатии на них открывались новые страницы.
+Показывает, как сохранять гиперссылки в документе, конвертируемом в PDF, чтобы при нажатии на них открывались новые страницы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", false);
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства OpenHyperlinksInNewWindow значение «true», чтобы сохранить все гиперссылки с использованием кода Javascript.
-// это заставляет читателей открывать эти ссылки в новых вкладках Windows/браузера.
-// Установите для свойства «OpenHyperlinksInNewWindow» значение «false», чтобы все гиперссылки сохранялись в обычном режиме.
+// Установите свойство "OpenHyperlinksInNewWindow" в значение "true", чтобы сохранить все гиперссылки с помощью кода Javascript
+// что заставляет читателей открывать эти ссылки в новых окнах/вкладках браузера.
+// Установите свойство "OpenHyperlinksInNewWindow" в значение "false", чтобы сохранить все гиперссылки в обычном режиме.
 options.OpenHyperlinksInNewWindow = openHyperlinksInNewWindow;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);

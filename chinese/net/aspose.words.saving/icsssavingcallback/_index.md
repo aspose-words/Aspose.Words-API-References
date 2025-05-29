@@ -2,15 +2,15 @@
 title: ICssSavingCallback Interface
 linktitle: ICssSavingCallback
 articleTitle: ICssSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.ICssSavingCallback 界面. 如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存 CSS层叠样式表请实现此接口 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ICssSavingCallback 接口控制 Aspose.Words 中的 CSS 保存。自定义 HTML 文档输出，增强样式和灵活性。
 type: docs
-weight: 5130
+weight: 5880
 url: /zh/net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存 CSS（层叠样式表），请实现此接口。
+如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存 CSS（层叠样式表），请实现此接口。
 
 ```csharp
 public interface ICssSavingCallback
@@ -24,7 +24,7 @@ public interface ICssSavingCallback
 
 ## 例子
 
-演示如何使用 HTML 转换创建的 CSS 样式表。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
@@ -35,12 +35,12 @@ public void ExternalCssFilenames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
-    // 保存的 HTML 文档附带外部 CSS 样式表文件。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”
+    // 将已保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
+    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

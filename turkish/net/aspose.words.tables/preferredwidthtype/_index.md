@@ -2,15 +2,15 @@
 title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.PreferredWidthType Sıralama. Bir tablo veya hücrenin tercih edilen genişliği için ölçü birimini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Tables.PreferredWidthType enum'unu keşfedin. Hassas belge biçimlendirmesi için tablo ve hücre genişliği ölçümlerini kolayca tanımlayın.
 type: docs
-weight: 6300
+weight: 7150
 url: /tr/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
 
-Bir tablo veya hücrenin tercih edilen genişliği için ölçü birimini belirtir.
+Bir tablonun veya hücrenin tercih edilen genişliği için ölçüm birimini belirtir.
 
 ```csharp
 public enum PreferredWidthType
@@ -20,13 +20,13 @@ public enum PreferredWidthType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Auto | `1` | Tercih edilen genişlik belirtilmemiş. Tablonun veya hücrenin gerçek genişliği ya açık genişlik kullanılarak belirtilir ya da tablo otomatik sığdırma ayarına bağlı olarak tablo görüntülendiğinde tablo düzeni algoritması tarafından otomatik olarak belirlenir. |
-| Percent | `2` | Belirtilen yüzdeyi kullanarak geçerli öğe genişliğini ölçün. |
-| Points | `3` | Belirtilen sayıda noktayı (1/72 inç) kullanarak geçerli öğe genişliğini ölçün. |
+| Auto | `1` | Tercih edilen genişlik belirtilmemiştir. Tablonun veya hücrenin gerçek genişliği, açık genişlik kullanılarak belirtilir veya tablo görüntülendiğinde tablo otomatik uyum ayarına bağlı olarak tablo düzeni algoritması tarafından otomatik olarak belirlenir. |
+| Percent | `2` | Belirtilen bir yüzdeyi kullanarak geçerli öğe genişliğini ölçün. |
+| Points | `3` | Belirtilen sayıda noktayı (1/72 inç) kullanarak geçerli öğenin genişliğini ölçün. |
 
 ## Örnekler
 
-Bir tablo hücresinin tercih edilen genişlik tipinin ve değerinin nasıl doğrulanacağını gösterir.
+Bir tablo hücresinin tercih edilen genişlik türünün ve değerinin nasıl doğrulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

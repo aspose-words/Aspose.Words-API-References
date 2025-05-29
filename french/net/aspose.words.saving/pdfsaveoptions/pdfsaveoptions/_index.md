@@ -3,7 +3,7 @@ title: PdfSaveOptions
 linktitle: PdfSaveOptions
 articleTitle: PdfSaveOptions
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans le Pdf format en C#.
+description: Découvrez le constructeur PdfSaveOptions, conçu pour initialiser et enregistrer facilement vos documents au format PDF haute qualité. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -18,7 +18,7 @@ public PdfSaveOptions()
 
 ## Exemples
 
-Montre comment activer ou désactiver les sous-paramètres lors de l'intégration de polices lors du rendu d'un document au format PDF.
+Montre comment activer ou désactiver le sous-ensemble lors de l'incorporation de polices lors du rendu d'un document au format PDF.
 
 ```csharp
 Document doc = new Document();
@@ -29,35 +29,31 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Arvo";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Configurez nos sources de polices pour nous assurer que nous avons accès aux deux polices de ce document.
+// Configurez nos sources de polices pour garantir que nous avons accès aux deux polices de ce document.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
-Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
+Aspose.Words.Fonts.FolderFontSource folderFontSource =
+    new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Puisque notre document contient une police personnalisée, l'intégration dans le document de sortie peut être souhaitable.
-// Définissez la propriété "EmbedFullFonts" sur "true" pour intégrer chaque glyphe de chaque police incorporée dans le PDF de sortie.
+// Étant donné que notre document contient une police personnalisée, son intégration dans le document de sortie peut être souhaitable.
+// Définissez la propriété « EmbedFullFonts » sur « true » pour intégrer chaque glyphe de chaque police intégrée dans le PDF de sortie.
 // La taille du document peut devenir très grande, mais nous aurons pleinement accès à toutes les polices si nous éditons le PDF.
-// Définissez la propriété "EmbedFullFonts" sur "false" pour appliquer un sous-ensemble aux polices, en enregistrant uniquement les glyphes
+// Définissez la propriété « EmbedFullFonts » sur « false » pour appliquer un sous-ensemble aux polices, en enregistrant uniquement les glyphes
 // que le document utilise. Le fichier sera considérablement plus petit,
-// mais nous pourrions avoir besoin d'accéder à des polices personnalisées si nous modifions le document.
+// mais nous pouvons avoir besoin d'accéder à des polices personnalisées si nous modifions le document.
 options.EmbedFullFonts = embedFullFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf", options);
 
-if (embedFullFonts)
-    Assert.That(500000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-else
-    Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-
-// Restaure les sources de polices d'origine.
+// Restaurer les sources de polices d'origine.
 FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ```
 

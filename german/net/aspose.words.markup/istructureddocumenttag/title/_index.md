@@ -3,14 +3,14 @@ title: IStructuredDocumentTag.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words für .NET
-description: IStructuredDocumentTag Title eigendom. Gibt den damit verbundenen Anzeigenamen anSDT . Kann nicht null sein in C#.
+description: Entdecken Sie die Titeleigenschaft von IStructuredDocumentTag – definieren Sie einen benutzerfreundlichen Namen für Ihr SDT und verbessern Sie die Dokumentübersicht. Jetzt mehr erfahren!
 type: docs
-weight: 110
+weight: 140
 url: /de/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Gibt den damit verbundenen Anzeigenamen an**SDT** . Kann nicht null sein.
+Gibt den Anzeigenamen an, der mit diesem**SDT** . Darf nicht null sein.
 
 ```csharp
 public string Title { get; set; }
@@ -18,14 +18,14 @@ public string Title { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein strukturiertes Dokument-Tag erhält.
+Zeigt, wie man strukturierte Dokument-Tags erhält.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Holen Sie sich das Tag des strukturierten Dokuments anhand der ID.
+// Holen Sie sich das strukturierte Dokument-Tag nach ID.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
 // Holen Sie sich das strukturierte Dokument-Tag oder das Bereichs-Tag nach Titel.

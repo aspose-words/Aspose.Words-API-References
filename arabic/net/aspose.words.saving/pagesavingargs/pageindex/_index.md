@@ -3,7 +3,7 @@ title: PageSavingArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words لـ .NET
-description: PageSavingArgs PageIndex ملكية. فهرس الصفحة الحالية في C#.
+description: اكتشف خاصية PageIndex في PageSavingArgs لإدارة صفحاتك بكفاءة. حسّن تصفحك من خلال تتبع دقيق للصفحات الحالية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -18,7 +18,7 @@ public int PageIndex { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
+يوضح كيفية استخدام معاودة الاتصال لحفظ مستند في صفحة HTML تلو الأخرى.
 
 ```csharp
 public void PageFileNames()
@@ -33,12 +33,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // سنقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
-    // قم بتعيين رد اتصال يسمح لنا بتسمية كل مستند HTML مخرج.
+    // سوف نقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
+    // قم بتعيين معاودة اتصال تسمح لنا بتسمية كل مستند HTML الناتج.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -50,7 +50,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// يحفظ جميع الصفحات في ملف ودليل محددين فيه.
+/// يحفظ جميع الصفحات في الملف والدليل المحددين بداخله.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -59,10 +59,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل صفحة من المستند.
-        // 1 - قم بتعيين اسم ملف لملف صفحة الإخراج:
+        // 1 - تعيين اسم ملف لملف الصفحة الناتج:
         args.PageFileName = outFileName;
 
-        // 2 - إنشاء دفق مخصص لملف صفحة الإخراج:
+        // 2 - إنشاء تدفق مخصص لملف الصفحة الناتج:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

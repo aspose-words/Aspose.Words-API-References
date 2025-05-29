@@ -2,8 +2,8 @@
 title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeChangingArgs OldParent 财产. 在操作开始之前获取节点的父节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 NodeChangingArgs OldParent 属性，该属性在更改之前检索父节点，确保无缝操作和增强数据管理。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/nodechangingargs/oldparent/
@@ -18,7 +18,7 @@ public Node OldParent { get; }
 
 ## 例子
 
-演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
+展示如何在编辑文档树时使用 NodeChangingCallback 实时监控文档树的变化。
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,12 +35,7 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }

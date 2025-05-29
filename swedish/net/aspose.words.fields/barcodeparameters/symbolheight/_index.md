@@ -3,14 +3,14 @@ title: BarcodeParameters.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words för .NET
-description: BarcodeParameters SymbolHeight fast egendom. Streckkodsbildhöjd i twips  1/1440 tum i C#.
+description: Upptäck egenskapen BarcodeParameters SymbolHeight för att enkelt justera streckkodsbildens höjd i twips (1/1440 tum) för optimal skanningsprestanda.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/barcodeparameters/symbolheight/
 ---
 ## BarcodeParameters.SymbolHeight property
 
-Streckkodsbildhöjd (i twips - 1/1440 tum)
+Streckkodsbildens höjd (i twips - 1/1440 tum)
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -24,10 +24,10 @@ Visar hur man använder en streckkodsgenerator.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
-// och infoga dem sedan i dokumentet som bilder.
+// och sedan infoga dem i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Nedan finns fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
+// Nedan följer fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
 // För varje streckkod anger vi en ny uppsättning streckkodsparametrar och genererar sedan bilden.
 // Efteråt kan vi infoga bilden i dokumentet, eller spara den i det lokala filsystemet.
 // 1 - QR-kod:
@@ -44,11 +44,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - EAN13 streckkod:
+// 2 - EAN13-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 streckkod:
@@ -71,10 +84,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - ITF14 streckkod:
+// 4 - ITF14-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

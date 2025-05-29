@@ -3,14 +3,14 @@ title: Document.StartTrackRevisions
 linktitle: StartTrackRevisions
 articleTitle: StartTrackRevisions
 second_title: Aspose.Words لـ .NET
-description: Document StartTrackRevisions طريقة. يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة في C#.
+description: تتبع تغييرات المستندات بسهولة باستخدام طريقة StartTrackRevisions. حدّد تلقائيًا جميع التعديلات كمراجعات لضمان تعاون سلس ووضوح أكبر.
 type: docs
-weight: 710
+weight: 760
 url: /ar/net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
-يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة.
+يبدأ تلقائيًا بوضع علامة على جميع التغييرات الإضافية التي تقوم بها على المستند برمجيًا باعتبارها تغييرات مراجعة.
 
 ```csharp
 public void StartTrackRevisions(string author, DateTime dateTime)
@@ -19,17 +19,17 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | author | String | الأحرف الأولى من اسم المؤلف لاستخدامها في المراجعات. |
-| dateTime | DateTime | التاريخ والوقت المستخدم للمراجعات. |
+| dateTime | DateTime | التاريخ والوقت المستخدم للمراجعة. |
 
 ## ملاحظات
 
-إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، فاحفظ المستند ثم افتح المستند لاحقًا في برنامج MS Word، وسترى هذه التغييرات كمراجعات.
+إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، ثم حفظ المستند ثم فتحه لاحقًا في MS Word، فسترى هذه التغييرات كإصدارات معدلة.
 
-يدعم Aspose.Words حاليًا تتبع عمليات إدراج وحذف العقدة فقط. لا يتم تسجيل تغييرات التنسيق كمراجعات.
+يدعم Aspose.Words حاليًا تتبع عمليات إدخال وحذف العقد فقط. لا تُسجل تغييرات التنسيق كمراجعات.
 
-يتم دعم التتبع التلقائي للتغييرات عند تعديل هذا المستند من خلال معالجة العقدة وكذلك عند الاستخدام[`DocumentBuilder`](../../documentbuilder/)
+يتم دعم التتبع التلقائي للتغييرات عند تعديل هذه الوثيقة من خلال node manipulations وكذلك عند استخدام[`DocumentBuilder`](../../documentbuilder/)
 
-هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم value الخاص به لأغراض تتبع المراجعة.
+هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم قيمته لأغراض تتبع المراجعة.
 
 ## أمثلة
 
@@ -39,7 +39,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تحرير المستند عادةً لا يُحتسب كمراجعة حتى نبدأ في تتبعه.
+// عادةً لا يُعتبر تحرير المستند بمثابة مراجعة إلا بعد أن نبدأ في تتبعه.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -52,17 +52,17 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// إيقاف تتبع المراجعات حتى لا يتم احتساب أي تعديلات مستقبلية على أنها مراجعات.
+//توقف عن تتبع المراجعات حتى لا يتم احتساب أي تعديلات مستقبلية كمراجعات.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// إنشاء المراجعات يمنحهم تاريخ ووقت العملية.
-// يمكننا تعطيل هذا عن طريق تمرير DateTime.MinValue عندما نبدأ في تتبع المراجعات.
+//إن إنشاء المراجعات يمنحها تاريخًا ووقتًا للعملية.
+// يمكننا تعطيل ذلك عن طريق تمرير DateTime.MinValue عندما نبدأ في تتبع المراجعات.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -71,9 +71,9 @@ Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // يمكننا قبول/رفض هذه المراجعات برمجيًا
-// عن طريق استدعاء أساليب مثل Document.AcceptAllRevisions، أو أسلوب قبول كل مراجعة.
-// في Microsoft Word، يمكننا معالجتها يدويًا عبر "المراجعة" -> "التغييرات".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// عن طريق استدعاء طرق مثل Document.AcceptAllRevisions، أو طريقة Accept الخاصة بكل مراجعة.
+// في Microsoft Word، يمكننا معالجتها يدويًا عبر "مراجعة" -> "التغييرات".
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### أنظر أيضا
@@ -87,7 +87,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 ## StartTrackRevisions(*string*) {#starttrackrevisions}
 
-يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة.
+يبدأ تلقائيًا بوضع علامة على جميع التغييرات الإضافية التي تقوم بها على المستند برمجيًا باعتبارها تغييرات مراجعة.
 
 ```csharp
 public void StartTrackRevisions(string author)
@@ -99,13 +99,13 @@ public void StartTrackRevisions(string author)
 
 ## ملاحظات
 
-إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، فاحفظ المستند ثم افتح المستند لاحقًا في برنامج MS Word، وسترى هذه التغييرات كمراجعات.
+إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، ثم حفظ المستند ثم فتحه لاحقًا في MS Word، فسترى هذه التغييرات كإصدارات معدلة.
 
-يدعم Aspose.Words حاليًا تتبع عمليات إدراج وحذف العقدة فقط. لا يتم تسجيل تغييرات التنسيق كمراجعات.
+يدعم Aspose.Words حاليًا تتبع عمليات إدخال وحذف العقد فقط. لا تُسجل تغييرات التنسيق كمراجعات.
 
-يتم دعم التتبع التلقائي للتغييرات عند تعديل هذا المستند من خلال معالجة العقدة وكذلك عند الاستخدام[`DocumentBuilder`](../../documentbuilder/)
+يتم دعم التتبع التلقائي للتغييرات عند تعديل هذه الوثيقة من خلال node manipulations وكذلك عند استخدام[`DocumentBuilder`](../../documentbuilder/)
 
-هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم value الخاص به لأغراض تتبع المراجعة.
+هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم قيمته لأغراض تتبع المراجعة.
 
 ## أمثلة
 
@@ -115,7 +115,7 @@ public void StartTrackRevisions(string author)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تحرير المستند عادةً لا يُحتسب كمراجعة حتى نبدأ في تتبعه.
+// عادةً لا يُعتبر تحرير المستند بمثابة مراجعة إلا بعد أن نبدأ في تتبعه.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -128,17 +128,17 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// إيقاف تتبع المراجعات حتى لا يتم احتساب أي تعديلات مستقبلية على أنها مراجعات.
+//توقف عن تتبع المراجعات حتى لا يتم احتساب أي تعديلات مستقبلية كمراجعات.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// إنشاء المراجعات يمنحهم تاريخ ووقت العملية.
-// يمكننا تعطيل هذا عن طريق تمرير DateTime.MinValue عندما نبدأ في تتبع المراجعات.
+//إن إنشاء المراجعات يمنحها تاريخًا ووقتًا للعملية.
+// يمكننا تعطيل ذلك عن طريق تمرير DateTime.MinValue عندما نبدأ في تتبع المراجعات.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -147,9 +147,9 @@ Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // يمكننا قبول/رفض هذه المراجعات برمجيًا
-// عن طريق استدعاء أساليب مثل Document.AcceptAllRevisions، أو أسلوب قبول كل مراجعة.
-// في Microsoft Word، يمكننا معالجتها يدويًا عبر "المراجعة" -> "التغييرات".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// عن طريق استدعاء طرق مثل Document.AcceptAllRevisions، أو طريقة Accept الخاصة بكل مراجعة.
+// في Microsoft Word، يمكننا معالجتها يدويًا عبر "مراجعة" -> "التغييرات".
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### أنظر أيضا

@@ -3,7 +3,7 @@ title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
 second_title: Aspose.Words pour .NET
-description: PageSetup SheetsPerBooklet propriété. Renvoie ou définit le nombre de pages à inclure dans chaque livret en C#.
+description: Découvrez la propriété PageSetup SheetsPerBooklet pour gérer facilement le nombre de pages du livret, améliorant ainsi la mise en page de votre document et l'efficacité de l'impression.
 type: docs
 weight: 400
 url: /fr/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -18,12 +18,12 @@ public int SheetsPerBooklet { get; set; }
 
 ## Exemples
 
-Montre comment configurer un document pouvant être imprimé sous forme de pli de livre.
+Montre comment configurer un document pouvant être imprimé sous forme de livre plié.
 
 ```csharp
 Document doc = new Document();
 
-// Insère un texte qui s'étend sur 16 pages.
+// Insérer un texte qui s'étend sur 16 pages.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -33,13 +33,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Configure la propriété "PageSetup" de la première section pour imprimer le document sous la forme d'un pli de livre.
-// Lorsqu'on imprime ce document recto verso, on peut prendre les pages pour les empiler
-// et pliez-les tous au milieu en même temps. Le contenu du document s’alignera dans un pli de livre.
+// Configurez la propriété « PageSetup » de la première section pour imprimer le document sous la forme d'un pli de livre.
+// Lorsque nous imprimons ce document en recto verso, nous pouvons prendre les pages pour les empiler
+// et pliez-les tous en deux. Le contenu du document sera aligné pour former un pli de livre.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// On ne peut préciser le nombre de feuilles qu'en multiples de 4.
+// Nous ne pouvons spécifier le nombre de feuilles qu'en multiples de 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

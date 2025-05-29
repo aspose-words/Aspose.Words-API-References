@@ -3,16 +3,16 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.HyphenationOptions klass. Gör det möjligt att konfigurera alternativ för dokumentavstavning i C#.
+description: Upptäck klassen Aspose.Words.Settings.HyphenationOptions för att enkelt anpassa bindestrecksinställningar för dina dokument och förbättra textpresentationen.
 type: docs
-weight: 5790
+weight: 6620
 url: /sv/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-Gör det möjligt att konfigurera alternativ för dokumentavstavning.
+Gör det möjligt att konfigurera alternativ för bindestreck i dokument.
 
-För att lära dig mer, besök[Arbeta med avstavning](https://docs.aspose.com/words/net/working-with-hyphenation/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med bindestreck](https://docs.aspose.com/words/net/working-with-hyphenation/) dokumentationsartikel.
 
 ```csharp
 public class HyphenationOptions
@@ -28,14 +28,14 @@ public class HyphenationOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är`falsk` . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Hämtar eller ställer in det maximala antalet rader i följd som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen är`Sann` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 (0,25 tum). |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Hämtar eller anger värde som avgör om automatisk bindestreck är aktiverat för dokumentet. Standardvärde för den här egenskapen är`falsk` . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Hämtar eller anger det maximala antalet på varandra följande rader som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Hämtar eller anger värde som avgör om ord skrivna med enbart versaler ska vara avstängda. Standardvärdet för den här egenskapen är`sann` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilket du inte vill att ord ska bindestreckas. Standardvärdet för den här egenskapen är 360 (0,25 tum). |
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: MailMerge.FieldMergingCallback
 linktitle: FieldMergingCallback
 articleTitle: FieldMergingCallback
 second_title: Aspose.Words para .NET
-description: MailMerge FieldMergingCallback propiedad. Ocurre durante la combinación de correspondencia cuando se encuentra un campo de combinación de correspondencia en el documento en C#.
+description: Descubra la propiedad MailMerge FieldMergingCallback, que mejora su experiencia de combinación de correspondencia al manejar de manera eficiente los campos de documentos para una integración perfecta.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 ---
 ## MailMerge.FieldMergingCallback property
 
-Ocurre durante la combinación de correspondencia cuando se encuentra un campo de combinación de correspondencia en el documento.
+Se produce durante la combinación de correspondencia cuando se encuentra un campo de combinación de correspondencia en el documento.
 
 ```csharp
 public IFieldMergingCallback FieldMergingCallback { get; set; }
@@ -18,7 +18,7 @@ public IFieldMergingCallback FieldMergingCallback { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
+Muestra cómo insertar imágenes almacenadas en un campo BLOB de base de datos en un informe.
 
 ```csharp
 public void ImageFromBlob()
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 
     /// <summary>
-    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Imagen:" en su nombre.
+    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Image:" en su nombre.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -96,12 +96,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -113,14 +113,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```

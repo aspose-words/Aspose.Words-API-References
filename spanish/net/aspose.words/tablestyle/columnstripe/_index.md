@@ -3,14 +3,14 @@ title: TableStyle.ColumnStripe
 linktitle: ColumnStripe
 articleTitle: ColumnStripe
 second_title: Aspose.Words para .NET
-description: TableStyle ColumnStripe propiedad. Obtiene o establece un número de columnas para incluir en las bandas cuando el estilo especifica bandas de columnas pares/impares en C#.
+description: Descubra la propiedad TableStyle ColumnStripe para personalizar fácilmente las bandas de columnas pares/impares para lograr una apariencia pulida y profesional en sus tablas.
 type: docs
 weight: 70
 url: /es/net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property
 
-Obtiene o establece un número de columnas para incluir en las bandas cuando el estilo especifica bandas de columnas pares/impares.
+Obtiene o establece una cantidad de columnas para incluir en las bandas cuando el estilo especifica bandas de columnas pares/impares.
 
 ```csharp
 public int ColumnStripe { get; set; }
@@ -24,11 +24,11 @@ Muestra cómo crear estilos de tabla condicionales que alternan entre filas.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Podemos configurar un estilo condicional de una tabla para aplicar un color diferente a la fila/columna,
-// basado en si la fila/columna es par o impar, creando un patrón de color alterno.
+//Podemos configurar un estilo condicional de una tabla para aplicar un color diferente a la fila/columna,
+// según si la fila/columna es par o impar, creando un patrón de colores alternados.
 // También podemos aplicar un número n a las bandas de fila/columna,
 // lo que significa que el color se alterna después de cada n filas/columnas en lugar de una.
-// Cree una tabla donde las columnas y filas individuales se agruparán en bandas y las columnas se agruparán en grupos de tres.
+// Cree una tabla en la que las columnas y filas individuales se agruparán y las columnas se agruparán de tres en tres.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -42,23 +42,23 @@ for (int i = 0; i < 15; i++)
 }
 builder.EndTable();
 
-// Aplicar un estilo de línea a todos los bordes de la tabla.
+//Aplica un estilo de línea a todos los bordes de la tabla.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Establece los dos colores, que se alternarán cada 3 filas.
+// Establezca los dos colores, que se alternarán cada 3 filas.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Establece un color para aplicar a cada columna par, lo que anulará cualquier color de fila personalizado.
+// Establezca un color para aplicar a cada columna par, que anulará cualquier color de fila personalizado.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// La propiedad "StyleOptions" habilita las bandas de filas de forma predeterminada.
+// La propiedad "StyleOptions" habilita la agrupación de filas de manera predeterminada.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 

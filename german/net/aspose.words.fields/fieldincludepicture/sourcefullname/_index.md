@@ -3,14 +3,14 @@ title: FieldIncludePicture.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words für .NET
-description: FieldIncludePicture SourceFullName eigendom. Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldIncludePicture SourceFullName“. Verwalten Sie Bildstandorte ganz einfach mit IRI für eine verbesserte Medienintegration und ein nahtloses Benutzererlebnis.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldincludepicture/sourcefullname/
 ---
 ## FieldIncludePicture.SourceFullName property
 
-Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt diesen fest.
+Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt ihn fest.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -24,20 +24,20 @@ Zeigt, wie Bilder mithilfe der Felder IMPORT und INCLUDEPICTURE eingefügt werde
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei ähnliche Feldtypen, mit denen wir Bilder anzeigen können, die aus dem lokalen Dateisystem verknüpft sind.
-// 1 – Das INCLUDEPICTURE-Feld:
+// Unten sind zwei ähnliche Feldtypen, die wir verwenden können, um Bilder anzuzeigen, die vom lokalen Dateisystem verknüpft sind.
+// 1 - Das Feld INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
 Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
 
-// Den PNG32.FLT-Filter anwenden.
+// Wenden Sie den PNG32.FLT-Filter an.
 fieldIncludePicture.GraphicFilter = "PNG32";
 fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 – Das IMPORT-Feld:
+// 2 - Das IMPORT-Feld:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

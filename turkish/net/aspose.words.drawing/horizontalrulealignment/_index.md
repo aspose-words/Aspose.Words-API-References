@@ -2,15 +2,15 @@
 title: HorizontalRuleAlignment Enum
 linktitle: HorizontalRuleAlignment
 articleTitle: HorizontalRuleAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.HorizontalRuleAlignment Sıralama. Belirtilen yatay kurala ilişkin hizalamayı temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Yatay kural hizalaması üzerinde hassas kontrol sağlamak, belge biçimlendirmenizi ve tasarımınızı geliştirmek için Aspose.Words.HorizontalRuleAlignment numaralandırmasını keşfedin.
 type: docs
-weight: 1040
+weight: 1370
 url: /tr/net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration
 
-Belirtilen yatay kurala ilişkin hizalamayı temsil eder.
+Belirtilen yatay kural için hizalamayı temsil eder.
 
 ```csharp
 public enum HorizontalRuleAlignment
@@ -21,8 +21,28 @@ public enum HorizontalRuleAlignment
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Left | `0` | Sola hizalanmış. |
-| Center | `1` | Ortaya hizalandı. |
+| Center | `1` | Merkeze hizalanmış. |
 | Right | `2` | Sağa hizalanmış. |
+
+## Örnekler
+
+Yatay çizgi şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertHorizontalRule();
+
+HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
+horizontalRuleFormat.Alignment = HorizontalRuleAlignment.Center;
+horizontalRuleFormat.WidthPercent = 70;
+horizontalRuleFormat.Height = 3;
+horizontalRuleFormat.Color = Color.Blue;
+horizontalRuleFormat.NoShade = true;
+
+Assert.True(shape.IsHorizontalRule);
+Assert.True(shape.HorizontalRuleFormat.NoShade);
+```
 
 ### Ayrıca bakınız
 

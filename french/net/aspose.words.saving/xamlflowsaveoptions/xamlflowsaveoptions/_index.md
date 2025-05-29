@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 linktitle: XamlFlowSaveOptions
 articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words pour .NET
-description: XamlFlowSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leXamlFlow format en C#.
+description: Découvrez le constructeur XamlFlowSaveOptions pour initialiser et enregistrer facilement des documents au format XamlFlow. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -18,7 +18,7 @@ public XamlFlowSaveOptions()
 
 ## Exemples
 
-Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document en .xaml sous forme de flux.
+Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document au format .xaml.
 
 ```csharp
 public void ImageFolder()
@@ -27,23 +27,23 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Crée un objet "XamlFlowSaveOptions", que l'on peut passer à la méthode "Save" du document
-    // pour modifier la façon dont nous enregistrons le document au format de sauvegarde XAML.
+    // Créez un objet « XamlFlowSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
+    // pour modifier la façon dont nous enregistrons le document au format d'enregistrement XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Utilisez la propriété "ImagesFolder" pour attribuer un dossier dans le système de fichiers local dans lequel
-    // Aspose.Words enregistrera toutes les images liées au document.
+    // Utilisez la propriété « ImagesFolder » pour attribuer un dossier dans le système de fichiers local dans lequel
+    // Aspose.Words enregistrera toutes les images liées du document.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Utilisez la propriété "ImagesFolderAlias" pour utiliser ce dossier
-    // lors de la construction des URI d'image au lieu du nom du dossier images.
+    // Utilisez la propriété « ImagesFolderAlias » pour utiliser ce dossier
+    // lors de la construction d'URI d'image au lieu du nom du dossier d'images.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // Un dossier spécifié par "ImagesFolderAlias" devra contenir les ressources au lieu de "ImagesFolder".
+    // Un dossier spécifié par « ImagesFolderAlias » devra contenir les ressources au lieu de « ImagesFolder ».
     // Nous devons nous assurer que le dossier existe avant que les flux du rappel puissent y placer leurs ressources.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -54,7 +54,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Compte et imprime les noms de fichiers des images pendant que leur document parent est converti en flux .xaml.
+/// Compte et imprime les noms de fichiers des images pendant que leur document parent est converti au format .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -68,7 +68,7 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Si nous spécifions un alias de dossier image, nous aurions également besoin
+        // Si nous spécifions un alias de dossier d'images, nous aurions également besoin
         // pour rediriger chaque flux pour mettre son image dans le dossier alias.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
@@ -101,7 +101,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
 ## Exemples
 
-Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document en .xaml sous forme de flux.
+Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document au format .xaml.
 
 ```csharp
 public void ImageFolder()
@@ -110,23 +110,23 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Crée un objet "XamlFlowSaveOptions", que l'on peut passer à la méthode "Save" du document
-    // pour modifier la façon dont nous enregistrons le document au format de sauvegarde XAML.
+    // Créez un objet « XamlFlowSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
+    // pour modifier la façon dont nous enregistrons le document au format d'enregistrement XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Utilisez la propriété "ImagesFolder" pour attribuer un dossier dans le système de fichiers local dans lequel
-    // Aspose.Words enregistrera toutes les images liées au document.
+    // Utilisez la propriété « ImagesFolder » pour attribuer un dossier dans le système de fichiers local dans lequel
+    // Aspose.Words enregistrera toutes les images liées du document.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Utilisez la propriété "ImagesFolderAlias" pour utiliser ce dossier
-    // lors de la construction des URI d'image au lieu du nom du dossier images.
+    // Utilisez la propriété « ImagesFolderAlias » pour utiliser ce dossier
+    // lors de la construction d'URI d'image au lieu du nom du dossier d'images.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // Un dossier spécifié par "ImagesFolderAlias" devra contenir les ressources au lieu de "ImagesFolder".
+    // Un dossier spécifié par « ImagesFolderAlias » devra contenir les ressources au lieu de « ImagesFolder ».
     // Nous devons nous assurer que le dossier existe avant que les flux du rappel puissent y placer leurs ressources.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -137,7 +137,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Compte et imprime les noms de fichiers des images pendant que leur document parent est converti en flux .xaml.
+/// Compte et imprime les noms de fichiers des images pendant que leur document parent est converti au format .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -151,7 +151,7 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Si nous spécifions un alias de dossier image, nous aurions également besoin
+        // Si nous spécifions un alias de dossier d'images, nous aurions également besoin
         // pour rediriger chaque flux pour mettre son image dans le dossier alias.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;

@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 articleTitle: VisitEditableRangeEnd
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitEditableRangeEnd metod. Anropas när ett slut på ett redigerbart område påträffas i dokumentet i C#.
+description: Upptäck DocumentVisitor VisitEditableRangeEnd-metoden – hantera effektivt redigerbara intervallslut i dina dokument för smidig redigering och förbättrad funktionalitet.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor.VisitEditableRangeEnd method
 
-Anropas när ett slut på ett redigerbart område påträffas i dokumentet.
+Anropas när slutet av ett redigerbart område påträffas i dokumentet.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur du skriver ut nodstrukturen för varje redigerbart område i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje redigerbart område i ett dokument.
 
 ```csharp
 public void EditableRangeToText()
@@ -35,7 +35,7 @@ public void EditableRangeToText()
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void EditableRangeToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade EditableRange-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade EditableRange-noder och deras undernoder.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -63,11 +63,11 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Vi vill skriva ut innehållet i körningar, men bara om de är inuti former, som de skulle vara i fallet med textrutor
+        // Vi vill skriva ut innehållet i körningar, men bara om de är inuti former, som det skulle vara i fallet med textrutor
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en EditableRange-nod avslutas.
+    /// Anropas när besöket av en EditableRange-nod är avslutat.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,9 +99,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

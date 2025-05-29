@@ -3,14 +3,14 @@ title: Document.JoinRunsWithSameFormatting
 linktitle: JoinRunsWithSameFormatting
 articleTitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words för .NET
-description: Document JoinRunsWithSameFormatting metod. Sammanfogar körningar med samma formatering i alla stycken i dokumentet i C#.
+description: Upptäck hur metoden JoinRunsWithSameFormatting sömlöst sammanfogar formaterad text i dokumentets stycken för ett elegant och professionellt utseende.
 type: docs
-weight: 620
+weight: 660
 url: /sv/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
 
-Sammanfogar körningar med samma formatering i alla stycken i dokumentet.
+Kopplar samman körningar med samma formatering i alla stycken i dokumentet.
 
 ```csharp
 public int JoinRunsWithSameFormatting()
@@ -18,32 +18,32 @@ public int JoinRunsWithSameFormatting()
 
 ### Returvärde
 
-Antal utförda anslutningar. När**N** angränsande körningar sammanfogas de räknas som**N - 1** ansluter sig.
+Antal utförda kopplingar. När**N** angränsande löpningar sammanfogas räknas de som**N-1** ansluter sig.
 
 ## Anmärkningar
 
-Detta är en optimeringsmetod. Vissa dokument innehåller angränsande körningar med samma formatering. Vanligtvis inträffar detta om ett dokument har redigerats intensivt manuellt. Du kan minska dokumentstorleken och påskynda ytterligare bearbetning genom att sammanfoga dessa körningar.
+Detta är en optimeringsmetod. Vissa dokument innehåller intilliggande körningar med samma formatering. Vanligtvis inträffar detta om ett dokument har redigerats intensivt manuellt. Du kan minska dokumentstorleken och påskynda vidare bearbetning genom att sammanfoga dessa körningar.
 
-Operationen kontrollerar varje[`Paragraph`](../../paragraph/) nod i dokumentet för intilliggande[`Run`](../../run/) noder med identiska egenskaper. Den ignorerar unika identifierare som används för att spåra redigeringssessioner för skapande och modifiering av run . Första körningen i varje sammanfogningssekvens ackumulerar all text. Remaining körningar tas bort från dokumentet.
+Operationen kontrollerar varje[`Paragraph`](../../paragraph/) nod i dokumentet för intilliggande[`Run`](../../run/) -noder med identiska egenskaper. Den ignorerar unika identifierare som används för att spåra redigeringssessioner för skapande och modifiering av run . Den första körningen i varje kopplingssekvens ackumulerar all text. Återstående -körningar raderas från dokumentet.
 
 ## Exempel
 
-Visar hur man sammanfogar körningar i ett dokument för att minska onödiga körningar.
+Visar hur man kopplar ihop körningar i ett dokument för att minska onödiga körningar.
 
 ```csharp
-// Öppna ett dokument som innehåller intilliggande serier av text med identisk formatering,
-// vilket ofta inträffar om vi redigerar samma stycke flera gånger i Microsoft Word.
+// Öppna ett dokument som innehåller angränsande textsekvenser med identisk formatering,
+// vilket vanligtvis inträffar om vi redigerar samma stycke flera gånger i Microsoft Word.
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Om något antal av dessa körningar ligger intill med identisk formatering,
+// Om ett antal av dessa körningar ligger intill varandra med identisk formatering,
 // då kan dokumentet förenklas.
 Assert.AreEqual(317, doc.GetChildNodes(NodeType.Run, true).Count);
 
-// Kombinera sådana körningar med den här metoden och verifiera antalet körningar som kommer att äga rum.
+// Kombinera sådana körningar med den här metoden och verifiera antalet körningskopplingar som kommer att äga rum.
 Assert.AreEqual(121, doc.JoinRunsWithSameFormatting());
 
-// Antalet anslutningar och antalet körningar vi har efter sammanfogningen
-// bör summera antalet körningar vi hade från början.
+// Antalet joins och antalet körningar vi har efter joinen
+// borde lägga ihop antalet körningar vi hade från början.
 Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ```
 

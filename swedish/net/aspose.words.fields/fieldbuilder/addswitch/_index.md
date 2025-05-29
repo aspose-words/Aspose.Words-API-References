@@ -3,14 +3,14 @@ title: FieldBuilder.AddSwitch
 linktitle: AddSwitch
 articleTitle: AddSwitch
 second_title: Aspose.Words för .NET
-description: FieldBuilder AddSwitch metod. Lägger till ett fälts switch i C#.
+description: Upptäck FieldBuilder AddSwitch-metoden för att enkelt lägga till fältväxlar, vilket förbättrar din applikations funktionalitet och användarupplevelse.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## AddSwitch(*string*) {#addswitch}
 
-Lägger till ett fälts switch.
+Lägger till ett fälts växel.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName)
@@ -18,22 +18,22 @@ public FieldBuilder AddSwitch(string switchName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| switchName | String | Switchens namn. |
+| switchName | String | Växelns namn. |
 
 ## Anmärkningar
 
-Denna överbelastning lägger till en flagga (switch utan argument).
+Denna överbelastning lägger till en flagga (växel utan argument).
 
 ## Exempel
 
-Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+Visar hur man konstruerar fält med hjälp av en fältbyggare och sedan infogar dem i dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Nedan är tre exempel på fältkonstruktioner gjorda med en fältbyggare.
-// 1 - Enstaka fält:
-// Använd en fältbyggare för att lägga till ett SYMBOLfält som visar symbolen ƒ (Florin).
+// Nedan följer tre exempel på fältkonstruktion gjord med en fältbyggare.
+// 1 - Enskilt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar symbolen ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -43,28 +43,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - Kapslade fält:
+// 2 - Kapslat fält:
 // Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Skapa ytterligare en byggare för ett annat SYMBOL-fält och infoga formelfältet
+// Skapa en annan verktygsbyggare för ett annat SYMBOL-fält och infoga formelfältet
  // som vi har skapat ovan i SYMBOL-fältet som dess argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Det yttre SYMBOL-fältet kommer att använda formelfältsresultatet, 174, som sitt argument,
-// som gör att fältet visar symbolen ® (Registered Sign) eftersom dess teckennummer är 174.
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som sitt argument,
+// vilket gör att fältet visar symbolen ® (registrerat tecken) eftersom dess teckennummer är 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Flera kapslade fält och argument:
-// Nu kommer vi att använda en byggare för att skapa ett IF-fält, som visar ett av två anpassade strängvärden,
-// beroende på värdet sant/falskt för dess uttryck. För att få ett sant/falskt värde
-// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
-// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kapslar inuti IF-fältet.
+// Nu ska vi använda en byggare för att skapa ett OM-fält, som visar ett av två anpassade strängvärden,
+// beroende på det sanna/falska värdet i dess uttryck. För att få ett sant/falskt värde
+// som avgör vilken sträng OM-fältet visar, OM-fältet kommer att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att kapsla inuti OM-fältet.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -75,8 +75,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Därefter kommer vi att bygga två fältargument, som kommer att fungera som sanna/falska utdatasträngar för IF-fältet.
-// Dessa argument kommer att återanvända utdatavärdena för våra numeriska uttryck.
+// Härnäst ska vi bygga två fältargument, som kommer att fungera som sant/falskt utdatasträngar för OM-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -87,7 +87,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen skapar vi ytterligare en fältbyggare för OM-fältet och kombinerar alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(*string, string*) {#addswitch_3}
 
-Lägger till ett fälts switch.
+Lägger till ett fälts växel.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, string switchArgument)
@@ -122,19 +122,19 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| switchName | String | Switchens namn. |
-| switchArgument | String | Växlingsvärdet. |
+| switchName | String | Växelns namn. |
+| switchArgument | String | Växelvärdet. |
 
 ## Exempel
 
-Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+Visar hur man konstruerar fält med hjälp av en fältbyggare och sedan infogar dem i dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Nedan är tre exempel på fältkonstruktioner gjorda med en fältbyggare.
-// 1 - Enstaka fält:
-// Använd en fältbyggare för att lägga till ett SYMBOLfält som visar symbolen ƒ (Florin).
+// Nedan följer tre exempel på fältkonstruktion gjord med en fältbyggare.
+// 1 - Enskilt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar symbolen ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -144,28 +144,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - Kapslade fält:
+// 2 - Kapslat fält:
 // Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Skapa ytterligare en byggare för ett annat SYMBOL-fält och infoga formelfältet
+// Skapa en annan verktygsbyggare för ett annat SYMBOL-fält och infoga formelfältet
  // som vi har skapat ovan i SYMBOL-fältet som dess argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Det yttre SYMBOL-fältet kommer att använda formelfältsresultatet, 174, som sitt argument,
-// som gör att fältet visar symbolen ® (Registered Sign) eftersom dess teckennummer är 174.
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som sitt argument,
+// vilket gör att fältet visar symbolen ® (registrerat tecken) eftersom dess teckennummer är 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Flera kapslade fält och argument:
-// Nu kommer vi att använda en byggare för att skapa ett IF-fält, som visar ett av två anpassade strängvärden,
-// beroende på värdet sant/falskt för dess uttryck. För att få ett sant/falskt värde
-// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
-// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kapslar inuti IF-fältet.
+// Nu ska vi använda en byggare för att skapa ett OM-fält, som visar ett av två anpassade strängvärden,
+// beroende på det sanna/falska värdet i dess uttryck. För att få ett sant/falskt värde
+// som avgör vilken sträng OM-fältet visar, OM-fältet kommer att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att kapsla inuti OM-fältet.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -176,8 +176,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Därefter kommer vi att bygga två fältargument, som kommer att fungera som sanna/falska utdatasträngar för IF-fältet.
-// Dessa argument kommer att återanvända utdatavärdena för våra numeriska uttryck.
+// Härnäst ska vi bygga två fältargument, som kommer att fungera som sant/falskt utdatasträngar för OM-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -188,7 +188,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen skapar vi ytterligare en fältbyggare för OM-fältet och kombinerar alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -215,7 +215,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(*string, int*) {#addswitch_2}
 
-Lägger till ett fälts switch.
+Lägger till ett fälts växel.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, int switchArgument)
@@ -223,19 +223,19 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| switchName | String | Switchens namn. |
-| switchArgument | Int32 | Växlingsvärdet. |
+| switchName | String | Växelns namn. |
+| switchArgument | Int32 | Växelvärdet. |
 
 ## Exempel
 
-Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+Visar hur man konstruerar fält med hjälp av en fältbyggare och sedan infogar dem i dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Nedan är tre exempel på fältkonstruktioner gjorda med en fältbyggare.
-// 1 - Enstaka fält:
-// Använd en fältbyggare för att lägga till ett SYMBOLfält som visar symbolen ƒ (Florin).
+// Nedan följer tre exempel på fältkonstruktion gjord med en fältbyggare.
+// 1 - Enskilt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar symbolen ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -245,28 +245,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - Kapslade fält:
+// 2 - Kapslat fält:
 // Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Skapa ytterligare en byggare för ett annat SYMBOL-fält och infoga formelfältet
+// Skapa en annan verktygsbyggare för ett annat SYMBOL-fält och infoga formelfältet
  // som vi har skapat ovan i SYMBOL-fältet som dess argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Det yttre SYMBOL-fältet kommer att använda formelfältsresultatet, 174, som sitt argument,
-// som gör att fältet visar symbolen ® (Registered Sign) eftersom dess teckennummer är 174.
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som sitt argument,
+// vilket gör att fältet visar symbolen ® (registrerat tecken) eftersom dess teckennummer är 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Flera kapslade fält och argument:
-// Nu kommer vi att använda en byggare för att skapa ett IF-fält, som visar ett av två anpassade strängvärden,
-// beroende på värdet sant/falskt för dess uttryck. För att få ett sant/falskt värde
-// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
-// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kapslar inuti IF-fältet.
+// Nu ska vi använda en byggare för att skapa ett OM-fält, som visar ett av två anpassade strängvärden,
+// beroende på det sanna/falska värdet i dess uttryck. För att få ett sant/falskt värde
+// som avgör vilken sträng OM-fältet visar, OM-fältet kommer att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att kapsla inuti OM-fältet.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -277,8 +277,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Därefter kommer vi att bygga två fältargument, som kommer att fungera som sanna/falska utdatasträngar för IF-fältet.
-// Dessa argument kommer att återanvända utdatavärdena för våra numeriska uttryck.
+// Härnäst ska vi bygga två fältargument, som kommer att fungera som sant/falskt utdatasträngar för OM-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -289,7 +289,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen skapar vi ytterligare en fältbyggare för OM-fältet och kombinerar alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -316,7 +316,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(*string, double*) {#addswitch_1}
 
-Lägger till ett fälts switch.
+Lägger till ett fälts växel.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, double switchArgument)
@@ -324,19 +324,19 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| switchName | String | Switchens namn. |
-| switchArgument | Double | Växlingsvärdet. |
+| switchName | String | Växelns namn. |
+| switchArgument | Double | Växelvärdet. |
 
 ## Exempel
 
-Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+Visar hur man konstruerar fält med hjälp av en fältbyggare och sedan infogar dem i dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Nedan är tre exempel på fältkonstruktioner gjorda med en fältbyggare.
-// 1 - Enstaka fält:
-// Använd en fältbyggare för att lägga till ett SYMBOLfält som visar symbolen ƒ (Florin).
+// Nedan följer tre exempel på fältkonstruktion gjord med en fältbyggare.
+// 1 - Enskilt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar symbolen ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -346,28 +346,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - Kapslade fält:
+// 2 - Kapslat fält:
 // Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Skapa ytterligare en byggare för ett annat SYMBOL-fält och infoga formelfältet
+// Skapa en annan verktygsbyggare för ett annat SYMBOL-fält och infoga formelfältet
  // som vi har skapat ovan i SYMBOL-fältet som dess argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Det yttre SYMBOL-fältet kommer att använda formelfältsresultatet, 174, som sitt argument,
-// som gör att fältet visar symbolen ® (Registered Sign) eftersom dess teckennummer är 174.
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som sitt argument,
+// vilket gör att fältet visar symbolen ® (registrerat tecken) eftersom dess teckennummer är 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Flera kapslade fält och argument:
-// Nu kommer vi att använda en byggare för att skapa ett IF-fält, som visar ett av två anpassade strängvärden,
-// beroende på värdet sant/falskt för dess uttryck. För att få ett sant/falskt värde
-// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
-// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kapslar inuti IF-fältet.
+// Nu ska vi använda en byggare för att skapa ett OM-fält, som visar ett av två anpassade strängvärden,
+// beroende på det sanna/falska värdet i dess uttryck. För att få ett sant/falskt värde
+// som avgör vilken sträng OM-fältet visar, OM-fältet kommer att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att kapsla inuti OM-fältet.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -378,8 +378,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Därefter kommer vi att bygga två fältargument, som kommer att fungera som sanna/falska utdatasträngar för IF-fältet.
-// Dessa argument kommer att återanvända utdatavärdena för våra numeriska uttryck.
+// Härnäst ska vi bygga två fältargument, som kommer att fungera som sant/falskt utdatasträngar för OM-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -390,7 +390,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen skapar vi ytterligare en fältbyggare för OM-fältet och kombinerar alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

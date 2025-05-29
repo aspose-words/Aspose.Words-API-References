@@ -3,14 +3,14 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق في C#.
+description: اكتشف منشئ HtmlSaveOptions لإنشاء المستندات وحفظها بسهولة بتنسيق HTML، مما يضمن التنسيق الأمثل والمشاركة السهلة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ document فيHtml تنسيق.
 
 ```csharp
 public HtmlSaveOptions()
@@ -18,20 +18,20 @@ public HtmlSaveOptions()
 
 ## أمثلة
 
-يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
+يوضح كيفية استخدام ترميز معين عند حفظ مستند بتنسيق .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// استخدم كائن SaveOptions لتحديد ترميز المستند الذي سنقوم بحفظه.
+// استخدم كائن SaveOptions لتحديد الترميز للمستند الذي سنحفظه.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// بشكل افتراضي، سيحتوي مستند الإخراج .epub على جميع محتوياته في جزء HTML واحد.
-// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
-// سنضع المعايير لتقسيم الوثيقة إلى فقرات رأسية.
-// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
+// بشكل افتراضي، سيكون مستند .epub الناتج يحتوي على كل محتوياته في جزء HTML واحد.
+// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء HTML.
+// سوف نقوم بتحديد المعايير لتقسيم المستند إلى فقرات عنوانية.
+// يعد هذا مفيدًا للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // حدد أننا نريد تصدير خصائص المستند.
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml ,Mhtml ,EpubAzw3 أوMobi التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ document فيHtml ،Mhtml ،Epub ، Azw3 أوMobi تنسيق.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -58,7 +58,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| saveFormat | SaveFormat | يمكن أن يكونHtml ,Mhtml ,EpubAzw3 أوMobi . |
+| saveFormat | SaveFormat | يمكن أن يكونHtml ،Mhtml ،Epub ، Azw3 أوMobi . |
 
 ## أمثلة
 
@@ -83,7 +83,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

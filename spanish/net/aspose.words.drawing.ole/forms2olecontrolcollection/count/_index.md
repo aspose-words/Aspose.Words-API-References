@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: Forms2OleControlCollection Count propiedad. Obtiene el recuento de objetos de la colección en C#.
+description: Descubra la propiedad Count de Forms2OleControlCollection para recuperar fácilmente el número total de objetos en su colección para una mejor gestión de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
 ## Forms2OleControlCollection.Count property
 
-Obtiene el recuento de objetos de la colección.
+Obtiene el recuento de objetos en la colección.
 
 ```csharp
 public int Count { get; }

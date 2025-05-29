@@ -3,14 +3,14 @@ title: Document.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words per .NET
-description: Document RenderToScale metodo. Rende una pagina del documento in un fileGraphics oggetto su una scala specificata in C#.
+description: Scopri il metodo RenderToScale per trasformare in modo efficiente le pagine dei documenti in oggetti grafici nella scala desiderata, ottenendo risultati visivi ottimali.
 type: docs
-weight: 680
+weight: 730
 url: /it/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-Rende una pagina del documento in un fileGraphics oggetto su una scala specificata.
+Rende una pagina del documento in unGraphics oggetto a una scala specificata.
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -18,31 +18,32 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageIndex | Int32 | L'indice di pagina in base 0. |
-| graphics | Graphics | L'oggetto su cui eseguire il rendering. |
-| x | Single | La coordinata X (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
-| y | Single | La coordinata Y (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
-| scale | Single | La scala per il rendering della pagina (1.0 è 100%). |
+| pageIndex | Int32 | Indice di pagina basato su 0. |
+| graphics | Graphics | L'oggetto su cui effettuare il rendering. |
+| x | Single | Coordinata X (in unità mondiali) dell'angolo in alto a sinistra della pagina visualizzata. |
+| y | Single | Coordinata Y (in unità mondiali) dell'angolo in alto a sinistra della pagina visualizzata. |
+| scale | Single | Scala per il rendering della pagina (1.0 è 100%). |
 
 ### Valore di ritorno
 
-La larghezza e l'altezza (in unità mondiali) della pagina renderizzata.
+Larghezza e altezza (in unità mondiali) della pagina renderizzata.
 
 ## Esempi
 
-Mostra come creare graficamente le singole pagine di un documento per creare un'immagine con le miniature di tutte le pagine.
+Mostra come trasformare le singole pagine di un documento in grafici per creare un'immagine con le miniature di tutte le pagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Calcola il numero di righe e colonne che riempiremo con le miniature.
 const int thumbColumns = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
+int thumbRows = doc.PageCount / thumbColumns;
+int remainder = doc.PageCount % thumbColumns;
 
 if (remainder > 0)
     thumbRows++;
 
-// Ridimensiona le miniature rispetto alla dimensione della prima pagina.
+// Adatta le miniature alle dimensioni della prima pagina.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -61,13 +62,14 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
+            int rowIdx = pageIndex / thumbColumns;
+            int columnIdx = pageIndex % thumbColumns;
 
             // Specifica dove vogliamo che appaia la miniatura.
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
-            // Visualizza una pagina come miniatura, quindi inquadrala in un rettangolo della stessa dimensione.
+            // Rendi una pagina come miniatura, quindi incorniciala in un rettangolo delle stesse dimensioni.
             SizeF size = doc.RenderToScale(pageIndex, gr, thumbLeft, thumbTop, scale);
             gr.DrawRectangle(Pens.Black, thumbLeft, thumbTop, size.Width, size.Height);
         }
@@ -77,19 +79,20 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Trasforma le singole pagine in grafica per creare un'immagine con le miniature di tutte le pagine (.NetStandard 2.0).
+Esegue il rendering delle singole pagine in grafica per creare un'immagine con le miniature di tutte le pagine (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Calcola il numero di righe e colonne che riempiremo con le miniature.
 const int thumbnailColumnsNum = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
+int thumbRows = doc.PageCount / thumbnailColumnsNum;
+int remainder = doc.PageCount % thumbnailColumnsNum;
 
 if (remainder > 0)
     thumbRows++;
 
- // Ridimensiona le miniature rispetto alla dimensione della prima pagina.
+ // Adatta le miniature alle dimensioni della prima pagina.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -106,7 +109,8 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
+            int rowIdx = pageIndex / thumbnailColumnsNum;
+            int columnIdx = pageIndex % thumbnailColumnsNum;
 
             // Specifica dove vogliamo che appaia la miniatura.
             float thumbLeft = columnIdx * thumbSize.Width;
@@ -114,7 +118,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
             SizeF size = doc.RenderToScale(pageIndex, canvas, thumbLeft, thumbTop, scale);
 
-            // Visualizza una pagina come miniatura, quindi inquadrala in un rettangolo della stessa dimensione.
+            // Rendi una pagina come miniatura, quindi incorniciala in un rettangolo delle stesse dimensioni.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
             canvas.DrawRect(rect, new SKPaint

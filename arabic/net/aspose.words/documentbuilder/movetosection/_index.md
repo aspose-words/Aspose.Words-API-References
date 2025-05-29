@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToSection طريقة. ينقل المؤشر إلى بداية النص في قسم محدد في C#.
+description: اكتشف طريقة MoveToSection في DocumentBuilder للتنقل بسهولة إلى بداية نص أي قسم، مما يعزز كفاءة تحرير المستندات لديك.
 type: docs
-weight: 570
+weight: 610
 url: /ar/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-ينقل المؤشر إلى بداية النص في قسم محدد.
+يحرك المؤشر إلى بداية النص في قسم محدد.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -18,11 +18,11 @@ public void MoveToSection(int sectionIndex)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| sectionIndex | Int32 | فهرس القسم المراد الانتقال إليه. |
+| sectionIndex | Int32 | فهرس القسم الذي تريد الانتقال إليه. |
 
 ## ملاحظات
 
-متى*sectionIndex* أكبر من أو يساوي 0، فإنه يحدد فهرس from بداية المستند حيث يكون 0 هو القسم الأول. متى*sectionIndex* أقل من 0, وقد حددت فهرسًا من نهاية المستند حيث يكون -1 هو القسم الأخير.
+متى*sectionIndex*أكبر من أو يساوي 0، فإنه يحدد فهرسًا من بداية المستند مع كون 0 هو القسم الأول. عندما*sectionIndex* أقل من 0، لقد حدد فهرسًا من نهاية المستند مع كون -1 هو القسم الأخير.
 
 يتم نقل المؤشر إلى الفقرة الأولى في[`Body`](../../body/) من القسم المحدد.
 
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

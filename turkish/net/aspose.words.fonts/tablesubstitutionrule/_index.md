@@ -2,17 +2,17 @@
 title: TableSubstitutionRule Class
 linktitle: TableSubstitutionRule
 articleTitle: TableSubstitutionRule
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule sınıf. Tablo yazı tipi değiştirme kuralı C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde verimli font yönetimi ve kusursuz metin biçimlendirme için Aspose.Words.Fonts.TableSubstitutionRule sınıfını keşfedin.
 type: docs
-weight: 3060
+weight: 3490
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
 Tablo yazı tipi değiştirme kuralı.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -28,24 +28,24 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | İsim | Tanım |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını ekler. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Verilen orijinal yazı tipi adı için yedek yazı tipi adları ekler. |
 | [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Belirtilen orijinal yazı tipi adı için yedek yazı tipi adlarını içeren diziyi döndürür. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | XML akışından tablo değiştirme ayarlarını yükler. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | XML dosyasından tablo değiştirme ayarlarını yükler. |
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Android platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Linux platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Windows platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Geçerli tablo değiştirme ayarlarını akışa kaydeder. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Geçerli tablo değiştirme ayarlarını dosyaya kaydeder. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını geçersiz kıl. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Mevcut tablo değiştirme ayarlarını akışa kaydeder. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Mevcut tablo değiştirme ayarlarını dosyaya kaydeder. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Belirtilen orijinal yazı tipi adı için yedek yazı tipi adlarını geçersiz kıl. |
 
 ## Notlar
 
-Bu kural, orijinal yazı tipinin mevcut olmaması durumunda kullanılacak yedek yazı tipi adlarının listesini tanımlar. Yazı tipi adı ve yazı tipi için yedekler kontrol edilecektir.[`AltName`](../fontinfo/altname/) (varsa).
+Bu kural, orijinal yazı tipi mevcut değilse kullanılacak yedek yazı tipi adlarının listesini tanımlar. Yazı tipi adı için yedekler kontrol edilecek ve[`AltName`](../fontinfo/altname/) (eğer varsa).
 
 ## Örnekler
 
-Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
+Windows ve Linux için font değiştirme tablolarına nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,18 +60,18 @@ tableSubstitutionRule.LoadWindowsSettings();
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Tabloyu XML belgesi biçiminde kaydedebiliriz.
+// Tabloyu XML belgesi şeklinde kaydedebiliriz.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux'un kendi ikame tablosu vardır.
-// "Times New Roman CE" için birden fazla yedek yazı tipi vardır.
-// İlk yedek olan "FreeSerif" de mevcut değilse,
-// bu kural, kullanılabilir bir kural bulana kadar dizideki diğer kurallar arasında geçiş yapacaktır.
+// Linux'un kendine ait bir ikame tablosu vardır.
+// "Times New Roman CE" için birden fazla alternatif yazı tipi bulunmaktadır.
+// Eğer ilk ikame "FreeSerif" de mevcut değilse,
+// bu kural, kullanılabilir bir kural bulana kadar dizideki diğerleri arasında geçiş yapacaktır.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Linux değiştirme tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
+// Linux ikame tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

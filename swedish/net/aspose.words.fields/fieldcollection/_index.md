@@ -3,16 +3,16 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldCollection klass. En samling avField objekt som representerar fälten i det angivna intervallet i C#.
+description: Upptäck Aspose.Words.FieldCollection, en kraftfull klass för att hantera fältobjekt inom angivna dokumentintervall, vilket förbättrar din dokumentautomation.
 type: docs
-weight: 1690
+weight: 2100
 url: /sv/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
-En samling av[`Field`](../field/) objekt som representerar fälten i det angivna intervallet.
+En samling av[`Field`](../field/) objekt som representerar fälten i det angivna området.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -30,17 +30,17 @@ public class FieldCollection : IEnumerable<Field>
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Tar bort alla fält i den här samlingen från dokumentet och från själva samlingen. |
-| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Tar bort det angivna fältet från den här samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Tar bort ett fält vid det angivna indexet från denna samling och från dokumentet. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Tar bort ett fält vid det angivna indexet från den här samlingen och från dokumentet. |
 
 ## Anmärkningar
 
-En instans av denna samling itererar fält som börjar falla inom det angivna intervallet.
+En instans av den här samlingen itererar fält som börjar falla inom det angivna intervallet.
 
-De`FieldCollection` samlingen äger inte fälten den innehåller, utan är bara ett urval av fält.
+De`FieldCollection` samlingen äger inte de fält den innehåller, utan är bara ett urval av fält.
 
-De`FieldCollection` samlingen är "live", dvs. ändringar av underordnade noden objekt som den skapades från återspeglas omedelbart i fälten som returneras av`FieldCollection` egenskaper och metoder.
+De`FieldCollection` samlingen är "live", dvs. ändringar i nodens underordnade objekt object som den skapades från återspeglas omedelbart i fälten som returneras av`FieldCollection` egenskaper och metoder.
 
 ## Exempel
 
@@ -62,12 +62,12 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Nedan finns fyra sätt att ta bort fält från en fältsamling.
-// 1 - Få ett fält för att ta bort sig själv:
+// Nedan följer fyra sätt att ta bort fält från en fältsamling.
+// 1 - Få ett fält att ta bort sig självt:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Få samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
+// 2 - Hämta samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
@@ -101,8 +101,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

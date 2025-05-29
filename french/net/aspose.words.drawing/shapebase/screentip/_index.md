@@ -3,9 +3,9 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words pour .NET
-description: ShapeBase ScreenTip propriété. Définit le texte affiché lorsque le pointeur de la souris se déplace sur la forme en C#.
+description: Découvrez la propriété ShapeBase ScreenTip, améliorez l'expérience utilisateur en personnalisant le texte de l'info-bulle qui apparaît au survol de la souris sur les formes.
 type: docs
-weight: 480
+weight: 510
 url: /fr/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
@@ -22,7 +22,7 @@ La valeur par défaut est une chaîne vide.
 
 ## Exemples
 
-Montre comment insérer une forme contenant une image et qui constitue également un lien hypertexte.
+Montre comment insérer une forme qui contient une image et qui est également un hyperlien.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + clic gauche sur la forme dans Microsoft Word ouvrira une nouvelle fenêtre de navigateur Web
-// et nous amène au lien hypertexte dans la propriété "HRef".
+// et nous amène à l'hyperlien dans la propriété "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

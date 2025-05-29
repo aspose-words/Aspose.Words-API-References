@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs GroupIndex ملكية. يحدد حسب الفهرس المجموعة الملتقطة فيMatch الذي سيتم استبداله بـReplacement سلسلة في C#.
+description: تعرف على كيفية استخدام خاصية GroupIndex في ReplacingArgs لتحديد المجموعات الملتقطة واستبدالها بسهولة في المطابقات باستخدام السلاسل المخصصة لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-يحدد، حسب الفهرس، المجموعة الملتقطة في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
+يحدد، عن طريق الفهرس، المجموعة الملتقطة في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## ملاحظات
 
-`GroupIndex`له تأثير فقط عندما[`GroupName`](../groupname/) يكون`باطل`.
+`GroupIndex` لا يكون له تأثير إلا عندما[`GroupName`](../groupname/) يكون`باطل`.
 
-الافتراضي هو صفر.
+الإفتراضي هو صفر.
 
 ## أمثلة
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

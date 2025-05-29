@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: OdsoRecipientDataCollection Item propiedad. Obtiene o establece un elemento de esta colección en C#.
+description: Gestione fácilmente su OdsoRecipientDataCollection con nuestra propiedad Item. Recupere o actualice elementos fácilmente para una gestión de datos fluida.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/item/
 ---
 ## OdsoRecipientDataCollection indexer
 
-Obtiene o establece un elemento de esta colección.
+Obtiene o establece un elemento en esta colección.
 
 ```csharp
 public OdsoRecipientData this[int index] { get; set; }
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

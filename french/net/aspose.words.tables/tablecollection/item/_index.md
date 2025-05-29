@@ -3,7 +3,7 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: TableCollection Item propriété. Récupère unTable à lindex donné en C#.
+description: Accédez facilement aux éléments de TableCollection en récupérant les tables à des index spécifiques. Simplifiez la gestion de vos données grâce à notre fonctionnalité intuitive de propriétés !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/tablecollection/item/
@@ -18,17 +18,17 @@ public Table this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Un index dans la collection. |
+| index | Un index de la collection. |
 
 ## Remarques
 
-L'indice est de base zéro.
+L'indice est basé sur zéro.
 
-Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
+Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la collection. Par exemple, -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
-Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
 ## Exemples
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // Nous pouvons utiliser la méthode « ToArray » sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // Nous pouvons utiliser la méthode « ToArray » sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertCell metodo. Inserisce una cella di tabella nel documento in C#.
+description: Migliora senza sforzo i tuoi documenti con il metodo InsertCell di DocumentBuilder: aggiungi rapidamente celle di tabella personalizzabili per una migliore organizzazione e chiarezza.
 type: docs
 weight: 270
 url: /it/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
 
-Inserisce una cella di tabella nel documento.
+Inserisce una cella della tabella nel documento.
 
 ```csharp
 public Cell InsertCell()
@@ -18,17 +18,17 @@ public Cell InsertCell()
 
 ### Valore di ritorno
 
-Il nodo della cella appena inserito.
+Il nodo cellulare appena inserito.
 
 ## Osservazioni
 
-Per avviare un tavolo, basta chiamare`InsertCell` . Successivamente, qualsiasi contenuto aggiunto utilizzando altri metodi del[`DocumentBuilder`](../) la classe verrà aggiunta alla cella corrente.
+Per iniziare una tabella, basta chiamare`InsertCell` Dopo questo, qualsiasi contenuto aggiunto utilizzando altri metodi del[`DocumentBuilder`](../) la classe verrà aggiunta alla cella corrente.
 
-Per iniziare una nuova cella nella stessa riga, chiama`InsertCell` Ancora.
+Per iniziare una nuova cella nella stessa riga, chiamare`InsertCell` Ancora.
 
-Per terminare una chiamata alla riga di una tabella[`EndRow`](../endrow/).
+Per terminare una chiamata di riga di tabella[`EndRow`](../endrow/).
 
-Usa il[`CellFormat`](../cellformat/)proprietà per specificare la formattazione della cella.
+Utilizzare il[`CellFormat`](../cellformat/) proprietà per specificare la formattazione della cella.
 
 ## Esempi
 
@@ -38,7 +38,7 @@ Mostra come utilizzare un generatore di documenti per creare una tabella.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inizia la tabella, quindi compila la prima riga con due celle.
+// Avvia la tabella, quindi popola la prima riga con due celle.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
@@ -65,7 +65,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -88,9 +88,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

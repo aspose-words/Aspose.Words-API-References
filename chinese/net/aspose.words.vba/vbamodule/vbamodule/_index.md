@@ -2,8 +2,8 @@
 title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaModule 构造函数. 创建一个空模块 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的 VbaModule 构造函数轻松创建空的 VBA 模块。立即简化您的编码流程并增强您的开发工作流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbamodule/vbamodule/
@@ -18,7 +18,7 @@ public VbaModule()
 
 ## 例子
 
-演示如何使用宏创建 VBA 项目。
+展示如何使用宏创建 VBA 项目。
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// 创建一个新模块并指定宏源代码。
+// 创建一个新模块并指定一个宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// 将模块添加到 VBA 项目中。
+// 将模块添加到 VBA 项目。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words för .NET
-description: Document HyphenationOptions fast egendom. Ger tillgång till alternativ för dokumentavstavning i C#.
+description: Utforska egenskapen Document HyphenationOptions för att anpassa inställningar för avstavning, förbättra läsbarheten och dokumentets presentation.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Ger tillgång till alternativ för dokumentavstavning.
+Ger åtkomst till alternativ för avstavning i dokumentet.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }
@@ -18,7 +18,7 @@ public HyphenationOptions HyphenationOptions { get; }
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

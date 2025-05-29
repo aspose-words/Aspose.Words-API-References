@@ -2,8 +2,8 @@
 title: FieldIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIf ComparisonOperator 财产. 获取或设置比较运算符 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldIfComparisonOperator 属性，轻松管理和自定义比较运算符，以增强数据处理和分析。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## 例子
 
-演示如何插入 IF 字段。
+显示如何插入 IF 字段。
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
 // IF 字段将显示来自其“TrueText”属性的字符串，
-// 或其“FalseText”属性，具体取决于我们构建的语句的真实性。
+// 或其“FalseText”属性，取决于我们构建的语句的真实性。
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// 在这种情况下，“0 = 1”不正确，因此显示的结果将为“False”。
+// 在这种情况下，“0 = 1”是不正确的，因此显示的结果将为“False”。
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);

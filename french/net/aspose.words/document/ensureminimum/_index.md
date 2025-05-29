@@ -3,9 +3,9 @@ title: Document.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words pour .NET
-description: Document EnsureMinimum méthode. Si le document ne contient aucune section crée une section avec un paragraphe en C#.
+description: Apprenez à utiliser la méthode EnsureMinimum pour créer automatiquement une section et un paragraphe dans les documents, garantissant ainsi un contenu complet et organisé.
 type: docs
-weight: 580
+weight: 620
 url: /fr/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -35,13 +35,13 @@ Assert.AreEqual(nodes[0], nodes[1].ParentNode);
 Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 Assert.AreEqual(nodes[1], nodes[2].ParentNode);
 
-// Il s'agit de l'ensemble minimal de nœuds dont nous avons besoin pour pouvoir éditer le document.
+// Il s'agit de l'ensemble minimal de nœuds dont nous avons besoin pour pouvoir modifier le document.
 // Nous ne pourrons plus modifier le document si nous supprimons l'un d'entre eux.
 doc.RemoveAllChildren();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);
 
-// Appelez cette méthode pour vous assurer que le document possède au moins ces trois nœuds afin que nous puissions le modifier à nouveau.
+// Appelez cette méthode pour vous assurer que le document contient au moins ces trois nœuds afin que nous puissions le modifier à nouveau.
 doc.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Section, nodes[0].NodeType);

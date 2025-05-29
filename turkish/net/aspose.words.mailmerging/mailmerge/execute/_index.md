@@ -2,15 +2,15 @@
 title: MailMerge.Execute
 linktitle: Execute
 articleTitle: Execute
-second_title: Aspose.Words for .NET
-description: MailMerge Execute yöntem. Özel bir veri kaynağından adresmektup birleştirme gerçekleştirir C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge Execute yöntemi ile postalama sürecinizi kolaylaştırın ve kişiselleştirilmiş iletişim için özel kaynaklardan gelen verileri zahmetsizce birleştirin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.mailmerging/mailmerge/execute/
 ---
 ## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
-Özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
+Özel bir veri kaynağından posta birleştirme gerçekleştirir.
 
 ```csharp
 public void Execute(IMailMergeDataSource dataSource)
@@ -18,15 +18,126 @@ public void Execute(IMailMergeDataSource dataSource)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Özel adres-mektup birleştirme veri kaynağı arayüzünü uygulayan bir nesne. |
+| dataSource | IMailMergeDataSource | Özel posta birleştirme veri kaynağı arayüzünü uygulayan bir nesne. |
 
 ## Notlar
 
-Belgedeki adres-mektup birleştirme alanlarını liste, karma tablosu veya nesneler gibi herhangi bir veri kaynağından değerleri ile doldurmak için bu yöntemi kullanın. Bunu uygulayan your kendi sınıfını yazmanız gerekir.[`IMailMergeDataSource`](../../imailmergedatasource/) arayüz.
+Bu yöntemi, belgedeki posta birleştirme alanlarını bir liste veya karma tablo veya nesneler gibi herhangi bir veri kaynağından gelen değerlerle doldurmak için kullanın. Bunu uygulayan kendi sınıfınızı yazmanız gerekir.[`IMailMergeDataSource`](../../imailmergedatasource/) arayüz.
 
-Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır-dir`YANLIŞ`, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
+Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır`YANLIŞ`, yani Sağdan Sola dil (örneğin Arapça veya İbranice) uyumluluğuna ihtiyacınız yok.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
+
+## Örnekler
+
+Özel bir nesne biçiminde bir veri kaynağıyla posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
+
+```csharp
+public void CustomDataSource()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.InsertField(" MERGEFIELD FullName ");
+    builder.InsertParagraph();
+    builder.InsertField(" MERGEFIELD Address ");
+
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
+
+     // Özel bir nesneyi veri kaynağı olarak kullanmak için IMailMergeDataSource arayüzünü uygulaması gerekir.
+    CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
+
+    doc.MailMerge.Execute(dataSource);
+
+    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+}
+
+/// <summary>
+/// Uygulamanızdaki "veri varlığı" sınıfının bir örneği.
+/// </summary>
+public class Customer
+{
+    public Customer(string aFullName, string anAddress)
+    {
+        FullName = aFullName;
+        Address = anAddress;
+    }
+
+    public string FullName { get; set; }
+    public string Address { get; set; }
+}
+
+/// <summary>
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir posta birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki verileri Microsoft Word belgelerine birleştirmek için.
+/// </summary>
+public class CustomerMailMergeDataSource : IMailMergeDataSource
+{
+    public CustomerMailMergeDataSource(List<Customer> customers)
+    {
+        mCustomers = customers;
+
+        // Veri kaynağını başlattığımızda, konumunun ilk kayıttan önce olması gerekir.
+        mRecordIndex = -1;
+    }
+
+    /// <summary>
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle posta birleştirme işlemi yürütülürken kullanılır.
+    /// </summary>
+    public string TableName
+    {
+        get { return "Customer"; }
+    }
+
+    /// <summary>
+    /// Aspose.Words her veri alanı için bir değer almak amacıyla bu metodu çağırır.
+    /// </summary>
+    public bool GetValue(string fieldName, out object fieldValue)
+    {
+        switch (fieldName)
+        {
+            case "FullName":
+                fieldValue = mCustomers[mRecordIndex].FullName;
+                return true;
+            case "Address":
+                fieldValue = mCustomers[mRecordIndex].Address;
+                return true;
+            default:
+                // Aspose.Words posta birleştirme motoruna "false" değerini döndürerek belirtin
+                // Bu isimde bir alan bulamadık.
+                fieldValue = null;
+                return false;
+        }
+    }
+
+    /// <summary>
+    /// Bir koleksiyondaki bir sonraki kayda geçmek için standart bir uygulama.
+    /// </summary>
+    public bool MoveNext()
+    {
+        if (!IsEof)
+            mRecordIndex++;
+
+        return !IsEof;
+    }
+
+    public IMailMergeDataSource GetChildDataSource(string tableName)
+    {
+        return null;
+    }
+
+    private bool IsEof
+    {
+        get { return (mRecordIndex >= mCustomers.Count); }
+    }
+
+    private readonly List<Customer> mCustomers;
+    private int mRecordIndex;
+}
+```
 
 ### Ayrıca bakınız
 
@@ -39,7 +150,7 @@ Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
 
 ## Execute(*string[], object[]*) {#execute_5}
 
-Tek bir kayıt için adres-mektup birleştirme işlemi gerçekleştirir.
+Tek bir kayıt için bir posta birleştirme işlemi gerçekleştirir.
 
 ```csharp
 public void Execute(string[] fieldNames, object[] values)
@@ -47,45 +158,45 @@ public void Execute(string[] fieldNames, object[] values)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldNames | String[] | Birleştirme alanı adları dizisi. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşılırsa dikkate alınmaz. |
-| values | Object[] | Birleştirme alanlarına eklenecek değerler dizisi. Bu dizideki öğe sayısı, dizideki öğe sayısıyla aynı olmalıdır*fieldNames*. |
+| fieldNames | String[] | Birleştirme alanı adları dizisi. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşılırsa, bu ad yoksayılır. |
+| values | Object[] | Birleştirme alanlarına eklenecek değer dizisi. Bu dizideki öğe sayısı, dizideki öğe sayısıyla aynı olmalıdır.*fieldNames*. |
 
 ## Notlar
 
-Belgedeki adres-mektup birleştirme alanlarını bir nesne dizisinden değerleri ile doldurmak için bu yöntemi kullanın.
+Belgedeki birleştirme alanlarını nesnelerden oluşan bir dizi olan değerleriyle doldurmak için bu yöntemi kullanın.
 
-Bu yöntem yalnızca bir kayda ait verileri birleştirir. name alan dizisi ve değerler dizisi tek bir kaydın verilerini temsil eder.
+Bu yöntem yalnızca bir kayıt için verileri birleştirir. Alan adları dizisi ve değerler dizisi tek bir kaydın verilerini temsil eder.
 
-Bu yöntem adres-mektup birleştirme bölgelerini kullanmaz.
+Bu yöntem posta birleştirme bölgelerini kullanmaz.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
 
 ## Örnekler
 
-URI'deki bir görüntünün adres-mektup birleştirme verileri olarak MERGEFIELD'a nasıl birleştirileceğini gösterir.
+Bir URI'den gelen bir görüntünün birleştirme postası verisi olarak bir MERGEFIELD'a nasıl birleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "Resim:" etiketli MERGEFIELD'ler, adres-mektup birleştirme sırasında bir resim alacaktır.
-// "Resim:" etiketindeki iki nokta üst üste işaretinden sonraki dize, bir sütun adına karşılık gelir
-// hücreleri görüntü dosyalarının URI'lerini içeren veri kaynağında.
+// "Image:" etiketli MERGEFIELD'lar, posta birleştirme sırasında bir resim alacaktır.
+// "Image:" etiketindeki iki noktadan sonraki dize bir sütun adına karşılık gelir
+// Hücreleri resim dosyalarının URI'lerini içeren veri kaynağında.
 builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
 builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
 
- // Birleştireceğimiz görsellerin URI'lerini içeren bir veri kaynağı oluşturun.
-// URI, bir görsele işaret eden bir web URL'si veya bir görsel dosyasının yerel dosya sistemi dosya adı olabilir.
+ // Birleştireceğimiz resimlerin URI'lerini içeren bir veri kaynağı oluşturun.
+// Bir URI, bir görüntüye işaret eden bir web URL'si veya bir görüntü dosyasının yerel dosya sistemi dosya adı olabilir.
 string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
 object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
 
-// Tek satırlı bir veri kaynağında adres-mektup birleştirme gerçekleştirin.
+// Tek satırdan oluşan bir veri kaynağında posta birleştirme işlemini gerçekleştir.
 doc.MailMerge.Execute(columns, URIs);
 
 doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromUrl.docx");
 ```
 
-Adres-mektup birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
+Posta birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -102,12 +213,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Belgeyi istemci tarayıcısına gönderin.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //HttpResponse testte null olduğundan atıldı.
+// Belgeyi istemci tarayıcısına gönder.
+//Testte HttpResponse boş olduğu için atıldı.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Kaydettikten sonra belgeye gereksiz içerik eklemediğimizden emin olmak için bu yanıtı manuel olarak kapatmamız gerekecek.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Kaydedildikten sonra belgeye gereksiz içerik eklememek için bu yanıtı manuel olarak kapatmamız gerekecek.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Ayrıca bakınız
@@ -120,7 +231,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 ## Execute(*DataTable*) {#execute_2}
 
-DataTable'dan belgeye adres-mektup birleştirme gerçekleştirir.
+Bir DataTable'dan belgeye posta birleştirme işlemini gerçekleştirir.
 
 ```csharp
 public void Execute(DataTable table)
@@ -128,23 +239,23 @@ public void Execute(DataTable table)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| table | DataTable | Adres-mektup birleştirme alanlarına eklenecek verileri içeren tablo. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşılırsa dikkate alınmaz. |
+| table | DataTable | Posta birleştirme alanlarına eklenecek verileri içeren tablo. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşıldığında, bu ad yoksayılır. |
 
 ## Notlar
 
-Belgedeki adres-mektup birleştirme alanlarını a değerleri ile doldurmak için bu yöntemi kullanın.**Veri tablosu**.
+Belgedeki birleştirme alanlarını a değerleriyle doldurmak için bu yöntemi kullanın**Veri Tablosu**.
 
-Tablodaki tüm kayıtlar belgede birleştirilir.
+Tablodaki tüm kayıtlar belgeye birleştirilir.
 
-Bunun için Word belgesindeki NEXT alanını kullanabilirsiniz.[`MailMerge`](../) sonraki kaydın seçilmesi nesnesi**Veri tablosu** ve birleştirmeye devam edin. Bu, posta etiketleri gibi belgeler oluştururken kullanılabilir.
+Word belgesinde NEXT alanını kullanarak[`MailMerge`](../) select sonraki kaydı seçmek için nesne**Veri Tablosu** ve birleştirmeye devam edin. Bu, posta etiketleri gibi belgeler oluştururken kullanılabilir.
 
-Ne zaman[`MailMerge`](../) nesne ana belgenin sonuna ulaştığında hala more satırları var**Veri tablosu**, ana belgenin içeriğinin tamamını kopyalar ve ayırıcı olarak bir bölüm sonu kullanarak bunu hedef belgenin sonuna ekler.
+Ne zaman[`MailMerge`](../) nesne ana belgenin sonuna ulaşır ve hala daha fazla satır vardır**Veri Tablosu**ana belgenin tüm içeriğini kopyalar ve ayırıcı olarak section kesmesini kullanarak hedef belgenin sonuna ekler.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
 
 ## Örnekler
 
-DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+DataTable'daki verilerle posta birleştirme işleminin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 public void ExecuteDataTable()
@@ -155,15 +266,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Aşağıda, adres-mektup birleştirme için veri kaynağı olarak DataTable'ı kullanmanın iki yolu verilmiştir.
-    // 1 - Tablodaki her satır için bir çıktı adres-mektup birleştirme belgesi oluşturmak amacıyla adres-mektup birleştirme için tablonun tamamını kullanın:
+    // Aşağıda bir posta birleştirme için veri kaynağı olarak DataTable kullanmanın iki yolu bulunmaktadır.
+    // 1 - Tablonun tamamını kullanarak, tablodaki her satır için tek bir çıktı birleştirme belgesi oluşturun:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Bir çıktı adres-mektup birleştirme belgesi oluşturmak için tablonun bir satırını kullanın:
+    // 2 - Tablonun bir satırını kullanarak tek bir çıktı birleştirme belgesi oluşturun:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -172,7 +283,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme kaynak belgesi oluşturur.
+/// Bir posta birleştirme kaynak belgesi oluşturur.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {
@@ -197,7 +308,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(*IDataReader*) {#execute_4}
 
-Adres-mektup birleştirmeyi şuradan gerçekleştirir:**IDataReader** belgeye.
+Posta birleştirme işlemini gerçekleştirir**IDataOkuyucu** belgeye.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,19 +316,19 @@ public void Execute(IDataReader dataReader)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataReader | IDataReader | Adres-mektup birleştirme işlemi için veri kaynağı. |
+| dataReader | IDataReader | Posta birleştirme işlemi için veri kaynağı. |
 
 ## Notlar
 
-Geçebilirsin**SqlDataReader** veya**OleDbDataReader** this yöntemine parametre olarak itiraz edin çünkü ikisi de uygulandı**IDataReader** arayüz.
+Geçebilirsin**SqlDataOkuyucu** veya**OleDbVeriOkuyucu**nesneyi this yöntemine parametre olarak eklediler çünkü ikisi de uygulandı**IDataOkuyucu** arayüz.
 
-Bu yöntemin adres-mektup birleştirme bölgelerini kullanmadığını ve birden fazla kayıt için the belgesinin tüm belgeyi tekrarlayarak büyüyeceğini unutmayın.
+Bu yöntemin birleştirme bölgelerini kullanmadığını ve birden fazla kayıt için the belgesinin tüm belgeyi tekrarlayarak büyüyeceğini unutmayın.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
 
 ## Örnekler
 
-Veri okuyucudan alınan verileri kullanarak adres-mektup birleştirmenin nasıl çalıştırılacağını gösterir.
+Veri okuyucusundan gelen verileri kullanarak posta birleştirmenin nasıl çalıştırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -233,7 +344,7 @@ builder.Write(" for $");
 builder.InsertField(" MERGEFIELD UnitPrice");
 
 // "Northwind" veritabanı dosyasına işaret eden bir bağlantı dizesi oluşturun
-// yerel dosya sistemimizde bir bağlantı açın ve bir SQL sorgusu oluşturun.
+// yerel dosya sistemimizde bir bağlantı açın ve bir SQL sorgusu ayarlayın.
 string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
 string query =
     @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
@@ -243,24 +354,24 @@ string query =
 
 using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    // Adres-mektup birleştirmemiz için veri kaynağı olacak bir SQL komutu oluşturun.
-    // Bu SELECT ifadesinin döndüreceği tablo sütunlarının adları
-    // yukarıda yerleştirdiğimiz birleştirme alanlarına karşılık gelmeli.
+    // Posta birleştirme işlemimiz için veri kaynağı olacak bir SQL komutu oluşturun.
+    // Bu SELECT ifadesinin döndüreceği tablonun sütunlarının adları
+    // yukarıda yerleştirdiğimiz birleştirme alanlarına karşılık gelmesi gerekecektir.
     OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
     try
-    {                    
-        connection.Open();                 
+    {
+        connection.Open();
         using (OleDbDataReader reader = command.ExecuteReader())
         {
-            // Verileri okuyucudan alın ve adres-mektup birleştirmede kullanın.
+            // Okuyucudan verileri al ve posta birleştirmede kullan.
             doc.MailMerge.Execute(reader);
         }
     }
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
-    }                
+    }
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
@@ -276,7 +387,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(*DataView*) {#execute_3}
 
-Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri görünümü** belgeye.
+Bir e-posta birleştirme işlemini gerçekleştirir**VeriGörünümü** belgeye.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,19 +395,19 @@ public void Execute(DataView dataView)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataView | DataView | Adres-mektup birleştirme işlemi için veri kaynağı. |
+| dataView | DataView | Posta birleştirme işlemi için veri kaynağı. |
 
 ## Notlar
 
-Bu yöntem, verileri bir dosyaya alırsanız kullanışlıdır.**Veri tablosu** ancak Then adres-mektup birleştirmeden önce bir filtre uygulamanız veya sıralamanız gerekir.
+Bu yöntem, verileri bir**Veri Tablosu** ancak then birleştirmeden önce bir filtre veya sıralama uygulamanız gerekir.
 
-Bu yöntemin adres-mektup birleştirme bölgelerini kullanmadığını ve birden fazla kayıt için the belgesinin tüm belgeyi tekrarlayarak büyüyeceğini unutmayın.
+Bu yöntemin birleştirme bölgelerini kullanmadığını ve birden fazla kayıt için the belgesinin tüm belgeyi tekrarlayarak büyüyeceğini unutmayın.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
 
 ## Örnekler
 
-DataView ile adres-mektup birleştirme verilerinin nasıl düzenleneceğini gösterir.
+Bir DataView ile posta birleştirme verilerinin nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -306,7 +417,7 @@ builder.InsertField(" MERGEFIELD Name");
 builder.Write(" for passing with a grade of ");
 builder.InsertField(" MERGEFIELD Grade");
 
-// Adres-mektup birleştirmemizin veri kaynağı olacağı bir veri tablosu oluşturun.
+// Posta birleştirmemizin veri alacağı bir veri tablosu oluşturun.
 DataTable table = new DataTable("ExamResults");
 table.Columns.Add("Name");
 table.Columns.Add("Grade");
@@ -315,14 +426,14 @@ table.Rows.Add(new object[] { "Jane Doe", "81" });
 table.Rows.Add(new object[] { "John Cardholder", "47" });
 table.Rows.Add(new object[] { "Joe Bloggs", "75" });
 
-// Veri tablosunun kendisinde değişiklik yapmadan adres-mektup birleştirme verilerini değiştirmek için veri görünümünü kullanabiliriz.
+// Veri tablosunda değişiklik yapmadan, posta birleştirme verilerini değiştirmek için bir veri görünümü kullanabiliriz.
 DataView view = new DataView(table);
 view.Sort = "Grade DESC";
 view.RowFilter = "Grade >= 50";
 
-// Veri görünümümüz, girişleri "Not" sütunu boyunca azalan düzende sıralar
-// ve o sütundaki değeri 50'den küçük olan satırları filtreler.
-// Dört satırdan üçü bu kriterlere uyuyor, böylece çıktı belgesi üç birleştirme belgesi içerecek.
+// Veri görünümümüz, girdileri "Sınıf" sütunu boyunca azalan düzende sıralar
+// ve o sütunda değeri 50'den küçük olan satırları filtreler.
+// Dört satırdan üçü bu ölçütlere uyduğundan çıktı belgesi üç birleştirme belgesi içerecektir.
 doc.MailMerge.Execute(view);
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
@@ -338,7 +449,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(*DataRow*) {#execute_1}
 
-Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri Satırı** belgeye.
+Bir e-posta birleştirme işlemini gerçekleştirir**Veri Satırı** belgeye.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,17 +457,17 @@ public void Execute(DataRow row)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| row | DataRow | Adres-mektup birleştirme alanlarına eklenecek verileri içeren satır. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşılırsa dikkate alınmaz. |
+| row | DataRow | Posta birleştirme alanlarına eklenecek verileri içeren satır. Alan adları büyük/küçük harfe duyarlı değildir. Belgede bulunmayan bir alan adıyla karşılaşıldığında, bu ad yoksayılır. |
 
 ## Notlar
 
-Belgedeki adres-mektup birleştirme alanlarını bir adresten gelen değerlerle doldurmak için bu yöntemi kullanın.**Veri Satırı**.
+Belgedeki birleştirme alanlarını bir e-posta adresinden gelen değerlerle doldurmak için bu yöntemi kullanın.**Veri Satırı**.
 
-Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
+Bu yöntem,RemoveUnusedRegions seçenek.
 
 ## Örnekler
 
-DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+DataTable'daki verilerle posta birleştirme işleminin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 public void ExecuteDataTable()
@@ -367,15 +478,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Aşağıda, adres-mektup birleştirme için veri kaynağı olarak DataTable'ı kullanmanın iki yolu verilmiştir.
-    // 1 - Tablodaki her satır için bir çıktı adres-mektup birleştirme belgesi oluşturmak amacıyla adres-mektup birleştirme için tablonun tamamını kullanın:
+    // Aşağıda bir posta birleştirme için veri kaynağı olarak DataTable kullanmanın iki yolu bulunmaktadır.
+    // 1 - Tablonun tamamını kullanarak, tablodaki her satır için tek bir çıktı birleştirme belgesi oluşturun:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Bir çıktı adres-mektup birleştirme belgesi oluşturmak için tablonun bir satırını kullanın:
+    // 2 - Tablonun bir satırını kullanarak tek bir çıktı birleştirme belgesi oluşturun:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -384,7 +495,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme kaynak belgesi oluşturur.
+/// Bir posta birleştirme kaynak belgesi oluşturur.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

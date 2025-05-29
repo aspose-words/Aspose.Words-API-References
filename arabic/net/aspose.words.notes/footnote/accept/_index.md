@@ -3,14 +3,14 @@ title: Footnote.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: Footnote Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول الحواشي السفلية لتعزيز تفاعل الزوار وتحسين تجربة استخدام موقعك الإلكتروني. عزز معدلات التحويل اليوم!
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.notes/footnote/accept/
 ---
 ## Footnote.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,23 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-يستدعي DocumentVisitor.VisitFootnoteStart، ثم يستدعي قبول لكافة العقد التابعة للحاشية السفلية ويستدعي DocumentVisitor.VisitFootnoteEnd في النهاية.
+يستدعي DocumentVisitor.VisitFootnoteStart، ثم يستدعي Accept لجميع العقد الفرعية لـ footnote ويستدعي DocumentVisitor.VisitFootnoteEnd في النهاية.
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في المستند.
+يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في مستند.
 
 ```csharp
 public void FootnoteToText()
@@ -42,17 +42,17 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة تحتوي على جميع عقد الحواشي السفلية وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الحواشي السفلية التي تم مواجهتها وأطفالها.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -71,7 +71,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة حاشية سفلية في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة الحاشية السفلية في المستند.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -83,7 +83,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الحاشية السفلية.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الحاشية السفلية.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -95,7 +95,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -105,9 +105,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

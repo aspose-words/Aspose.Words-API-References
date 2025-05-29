@@ -2,15 +2,15 @@
 title: TextBox.BreakForwardLink
 linktitle: BreakForwardLink
 articleTitle: BreakForwardLink
-second_title: Aspose.Words for .NET
-description: TextBox BreakForwardLink yöntem. Sonrakine olan bağlantıyı keserTextBox  C#'da.
+second_title: .NET için Aspose.Words
+description: TextBox'larınızı sorunsuz bir şekilde bağlantısını kaldırmak, kullanıcı deneyimini ve form gezintisini geliştirmek için TextBox BreakForwardLink yöntemini keşfedin. Kullanıcı arayüzünüzü bugün optimize edin!
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Sonrakine olan bağlantıyı keser[`TextBox`](../) .
+Bir sonrakine olan bağlantıyı keser[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -18,7 +18,7 @@ public void BreakForwardLink()
 
 ## Notlar
 
-`BreakForwardLink`geçerli şekil dizisindeki diğer tüm bağlantıları kesmez. Örneğin: 1-2-3-4 dizisi ve`BreakForwardLink` 2. metin kutusunda, 1-2, 3-4. olmak üzere iki dizi oluşturulacak
+`BreakForwardLink` geçerli şekil dizisindeki diğer tüm bağlantıları bozmaz. Örneğin: 1-2-3-4 dizisi ve`BreakForwardLink` 2. metin kutusunda 1-2, 3-4 olmak üzere iki dizi oluşturulacak
 
 ## Örnekler
 
@@ -50,7 +50,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
+// Sadece boş bir metin kutusunda bağlantı bulunabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -68,9 +68,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

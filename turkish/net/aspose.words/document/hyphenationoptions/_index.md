@@ -2,10 +2,10 @@
 title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
-second_title: Aspose.Words for .NET
-description: Document HyphenationOptions mülk. Belge tireleme seçeneklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin sunumunu iyileştirmek, okunabilirliğini artırmak ve tireleme ayarlarını özelleştirmek için Belge Tireleme Seçenekleri özelliğini inceleyin.
 type: docs
-weight: 210
+weight: 220
 url: /tr/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property

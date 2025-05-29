@@ -2,8 +2,8 @@
 title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
-second_title: Aspose.Words for .NET
-description: PageSetup HeaderDistance mülk. Başlık ile sayfanın üstü arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin düzenini daha iyi okunabilirlik ve sunum için geliştirmek amacıyla, başlık aralıklarını noktalar halinde özelleştirmek üzere PageSetup HeaderDistance özelliğini ayarlayın.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/pagesetup/headerdistance/
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

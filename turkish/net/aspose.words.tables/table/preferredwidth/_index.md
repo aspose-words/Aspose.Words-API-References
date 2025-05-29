@@ -2,8 +2,8 @@
 title: Table.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
-second_title: Aspose.Words for .NET
-description: Table PreferredWidth mülk. Tablonun tercih edilen genişliğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım ve kullanıcı deneyimi için tablonuzun düzenini kolayca ayarlamak ve optimize etmek amacıyla Table PreferredWidth özelliğini nasıl kullanacağınızı keşfedin.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.tables/table/preferredwidth/

@@ -3,7 +3,7 @@ title: FieldHyperlink.IsImageMap
 linktitle: IsImageMap
 articleTitle: IsImageMap
 second_title: Aspose.Words pour .NET
-description: FieldHyperlink IsImageMap propriété. Obtient ou définit sil faut ajouter des coordonnées au lien hypertexte pour une image cliquable côté serveur en C#.
+description: Découvrez comment la propriété FieldHyperlink IsImageMap améliore vos cartes d'images côté serveur en ajoutant des coordonnées aux hyperliens pour une fonctionnalité améliorée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié puis placera le curseur sur le signet spécifié.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -34,7 +34,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié et défilera automatiquement jusqu'à l'iframe spécifié.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

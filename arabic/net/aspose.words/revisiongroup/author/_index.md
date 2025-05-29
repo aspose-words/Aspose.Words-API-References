@@ -3,14 +3,14 @@ title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words لـ .NET
-description: RevisionGroup Author ملكية. الحصول على مؤلف مجموعة المراجعة هذه في C#.
+description: اكتشف خاصية مؤلف مجموعة المراجعة لتتمكن من التعرف بسهولة على مؤلف كل مجموعة مراجعة، مما يعزز كفاءة إدارة المستندات لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-الحصول على مؤلف مجموعة المراجعة هذه.
+يحصل على مؤلف مجموعة المراجعة هذه.
 
 ```csharp
 public string Author { get; }
@@ -18,7 +18,7 @@ public string Author { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
+يوضح كيفية طباعة المعلومات حول مجموعة من المراجعات في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

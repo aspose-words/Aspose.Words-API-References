@@ -3,7 +3,7 @@ title: DropDownItemCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: DropDownItemCollection Remove methode. Entfernt den angegebenen Wert aus der Sammlung in C#.
+description: Entfernen Sie mühelos bestimmte Werte aus Ihrer DropDownItemCollection mit unserer intuitiven Remove-Methode. Optimieren Sie noch heute Ihr Datenmanagement!
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,19 +18,19 @@ public void Remove(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der zu entfernende Wert, bei dem die Groß-/Kleinschreibung beachtet werden soll. |
+| name | String | Der zu entfernende Wert (unter Beachtung der Groß- und Kleinschreibung). |
 
 ## Beispiele
 
-Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
+Zeigt, wie Sie ein Kombinationsfeld einfügen und die Elemente in seiner Elementsammlung bearbeiten.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein Kombinationsfeld einfügen und dann seine Sammlung von Dropdown-Elementen überprüfen.
+// Fügen Sie ein Kombinationsfeld ein und überprüfen Sie dann die darin enthaltenen Dropdown-Elemente.
 // In Microsoft Word klickt der Benutzer auf das Kombinationsfeld,
-// und wählen Sie dann eines der anzuzeigenden Textelemente in der Sammlung aus.
+// und wählen Sie dann eines der Textelemente in der Sammlung zur Anzeige aus.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -40,25 +40,25 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Es gibt zwei Möglichkeiten, ein neues Element zu einer vorhandenen Sammlung von Dropdown-Box-Elementen hinzuzufügen.
+// Es gibt zwei Möglichkeiten, einer vorhandenen Sammlung von Dropdown-Box-Elementen ein neues Element hinzuzufügen.
 // 1 – Ein Element an das Ende der Sammlung anhängen:
 dropDownItems.Add("Four");
 
-// 2 – Ein Element vor einem anderen Element an einem angegebenen Index einfügen:
+// 2 – Fügen Sie ein Element vor einem anderen Element an einem angegebenen Index ein:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Durch die Sammlung iterieren und jedes Element ausgeben.
+// Durchlaufe die Sammlung und drucke jedes Element.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
 // Es gibt zwei Möglichkeiten, Elemente aus einer Sammlung von Dropdown-Elementen zu entfernen.
-// 1 – Ein Element entfernen, dessen Inhalt der übergebenen Zeichenfolge entspricht:
+// 1 – Entfernt ein Element mit dem Inhalt der übergebenen Zeichenfolge:
 dropDownItems.Remove("Four");
 
-// 2 – Ein Element an einem Index entfernen:
+// 2 - Entfernen Sie ein Element an einem Index:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -67,7 +67,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Leeren Sie die gesamte Sammlung von Dropdown-Elementen.
+// Leere die gesamte Sammlung der Dropdown-Elemente.
 dropDownItems.Clear();
 ```
 

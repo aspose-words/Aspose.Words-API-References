@@ -2,10 +2,10 @@
 title: TextWrapping Enum
 linktitle: TextWrapping
 articleTitle: TextWrapping
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.TextWrapping Sıralama. Metnin tablonun etrafına nasıl sarılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Tabloların etrafında etkili metin sarma için Aspose.Words.Tables.TextWrapping enum'unu keşfedin. Belge biçimlendirmenizi kolaylıkla geliştirin!
 type: docs
-weight: 6380
+weight: 7230
 url: /tr/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -20,13 +20,13 @@ public enum TextWrapping
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Metin ve tablo, belgedeki görünüm sırasına göre görüntülenir. |
-| Around | `1` | Metin masanın çevresine sarılarak yan taraftaki boş alanı kaplar. |
+| None | `0` | Metin ve tablo, belgede göründükleri sıraya göre görüntülenir. |
+| Around | `1` | Metin, tablonun etrafına sarılmış ve mevcut kenar alanını kaplıyor. |
 | Default | `0` | Varsayılan değer. |
 
 ## Örnekler
 
-Tablo metni kaydırmayla nasıl çalışılacağını gösterir.
+Tablo metin kaydırmanın nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Tablonun etrafındaki metni sarmasını sağlamak için "TextWrapping" özelliğini "TextWrapping.Around" olarak ayarlayın,
-// ve konumu ayarlayarak aşağıdaki paragrafın içine doğru itin.
+// Tablonun metni etrafına sarmasını sağlamak için "TextWrapping" özelliğini "TextWrapping.Around" olarak ayarlayın,
+// ve pozisyonunu ayarlayarak aşağıdaki paragrafa doğru itin.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

@@ -3,14 +3,14 @@ title: PhoneticGuide.RubyText
 linktitle: RubyText
 articleTitle: RubyText
 second_title: Aspose.Words per .NET
-description: PhoneticGuide RubyText proprietà. Ottiene il testo in rubino della guida fonetica in C#.
+description: Scopri la proprietà PhoneticGuide RubyText per accedere e migliorare il testo Ruby, ottenendo così una maggiore chiarezza fonetica nelle tue applicazioni.
 type: docs
 weight: 20
 url: /it/net/aspose.words/phoneticguide/rubytext/
 ---
 ## PhoneticGuide.RubyText property
 
-Ottiene il testo in rubino della guida fonetica.
+Ottiene il testo Ruby della guida fonetica.
 
 ```csharp
 public string RubyText { get; }
@@ -21,13 +21,15 @@ public string RubyText { get; }
 Mostra come ottenere le proprietà della guida fonetica.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-// Utilizza la guida fonetica nel testo asiatico.
+// Utilizzare la guida fonetica nel testo asiatico.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Guarda anche

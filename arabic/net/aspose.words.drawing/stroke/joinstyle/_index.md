@@ -3,14 +3,14 @@ title: Stroke.JoinStyle
 linktitle: JoinStyle
 articleTitle: JoinStyle
 second_title: Aspose.Words لـ .NET
-description: Stroke JoinStyle ملكية. يحدد نمط ربط الخطوط المتعددة في C#.
+description: اكتشف خاصية Stroke JoinStyle لتحسين خطوطك المتعددة باستخدام أنماط الوصل القابلة للتخصيص للحصول على رسومات أكثر سلاسة ومرونة تصميم محسنة.
 type: docs
-weight: 120
+weight: 170
 url: /ar/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
 
-يحدد نمط ربط الخطوط المتعددة.
+يحدد نمط الانضمام للخط المتعدد.
 
 ```csharp
 public JoinStyle JoinStyle { get; set; }
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// الأشكال الأساسية، مثل المستطيل، لها جزأين مرئيين.
-// 1 - التعبئة، والتي تنطبق على المساحة الموجودة داخل المخطط التفصيلي للشكل:
+//الأشكال الأساسية، مثل المستطيل، تحتوي على جزأين مرئيين.
+// 1 - التعبئة، والتي تنطبق على المنطقة داخل مخطط الشكل:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - الحد الذي يحدد الخطوط العريضة للشكل:
-// تعديل الخصائص المختلفة لحد هذا الشكل.
+// 2 - الخط الذي يحدد الخطوط العريضة للشكل:
+// تعديل خصائص مختلفة لخط هذا الشكل.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

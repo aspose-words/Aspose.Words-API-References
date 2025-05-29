@@ -3,14 +3,14 @@ title: IChartDataPoint.Marker
 linktitle: Marker
 articleTitle: Marker
 second_title: Aspose.Words per .NET
-description: IChartDataPoint Marker proprietà. Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto in C#.
+description: Scopri la proprietà IChartDataPoint Marker, che crea automaticamente marcatori di dati per una visualizzazione e un'analisi ottimizzate. Migliora la tua esperienza di creazione di grafici!
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker property
 
-Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto.
+Specifica un marcatore di dati. Il marcatore viene creato automaticamente quando richiesto.
 
 ```csharp
 public ChartMarker Marker { get; }
@@ -18,7 +18,7 @@ public ChartMarker Marker { get; }
 
 ## Esempi
 
-Mostra come utilizzare i punti dati su un grafico a linee.
+Mostra come lavorare con i punti dati su un grafico a linee.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,14 +34,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatizza i punti dati del grafico facendoli apparire come forme di diamante.
-    foreach (ChartSeries series in chart.Series) 
+    // Metti in risalto i punti dati del grafico facendoli apparire come rombi.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appianare la linea che rappresenta la prima serie di dati.
+    // Smussa la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
+    // Verificare che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo cancellare il formato singolarmente.
+    dataPoint.ClearFormat();
+
+    // Possiamo anche eliminare un'intera serie di punti dati in una volta sola.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

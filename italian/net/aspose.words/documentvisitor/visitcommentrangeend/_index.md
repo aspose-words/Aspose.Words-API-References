@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
 articleTitle: VisitCommentRangeEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitCommentRangeEnd metodo. Chiamato quando viene raggiunta la fine di un intervallo di testo commentato in C#.
+description: Scopri il metodo VisitCommentRangeEnd di DocumentVisitor, progettato per migliorare l'elaborazione del testo gestendo in modo efficiente le terminazioni degli intervalli di commenti nei tuoi documenti.
 type: docs
 weight: 110
 url: /it/net/aspose.words/documentvisitor/visitcommentrangeend/
 ---
 ## DocumentVisitor.VisitCommentRangeEnd method
 
-Chiamato quando viene raggiunta la fine di un intervallo di testo commentato.
+Chiamato quando viene rilevata la fine di un intervallo di testo commentato.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
@@ -34,8 +34,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void CommentsToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi Comment/CommentRange incontrati e i relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi Comment/CommentRange rilevati e dei loro elementi figlio.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
-    /// Una corsa viene registrata solo se è figlia di un nodo Comment o CommentRange.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
+    /// Un'esecuzione viene registrata solo se è figlia di un nodo Commento o CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -83,7 +83,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo CommentRangeEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -95,7 +95,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Commento.
+    /// Chiamato quando nel documento viene rilevato un nodo Commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -108,7 +108,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Commento sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figlio di un nodo Commento sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -120,8 +120,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
-    /// nell'albero dei nodi secondari di un commento/intervallo di commenti.
+    /// Aggiungi una riga allo StringBuilder e rientrala a seconda della profondità del visitatore
+    /// nell'albero dei nodi figlio di un commento/intervallo di commenti.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

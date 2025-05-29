@@ -3,14 +3,14 @@ title: BorderCollection.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words för .NET
-description: BorderCollection Bottom fast egendom. Får den nedre kanten i C#.
+description: Upptäck egenskapen BorderCollection Bottom för att enkelt komma åt och anpassa din nedre kantlinje för ökad designflexibilitet och stil.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/bordercollection/bottom/
 ---
 ## BorderCollection.Bottom property
 
-Får den nedre kanten.
+Hämtar den nedre kanten.
 
 ```csharp
 public Border Bottom { get; }
@@ -18,13 +18,13 @@ public Border Bottom { get; }
 
 ## Exempel
 
-Visar hur man applicerar kant- och skuggfärg när man bygger ett bord.
+Visar hur man använder kant- och skuggningsfärg när man skapar en tabell.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Starta en tabell och ställ in en standardfärg/tjocklek för dess kanter.
+// Starta en tabell och ange en standardfärg/tjocklek för dess kanter.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -38,8 +38,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Återställ cellformateringen för att inaktivera bakgrundsfärgerna
-// ställ in en anpassad kanttjocklek för alla nya celler skapade av byggaren,
-// bygg sedan en andra rad.
+// ange en anpassad kanttjocklek för alla nya celler som skapas av byggaren,
+// sedan bygga en andra rad.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

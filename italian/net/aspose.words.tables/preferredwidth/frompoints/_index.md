@@ -3,7 +3,7 @@ title: PreferredWidth.FromPoints
 linktitle: FromPoints
 articleTitle: FromPoints
 second_title: Aspose.Words per .NET
-description: PreferredWidth FromPoints metodo. Un metodo di creazione che restituisce una nuova istanza che rappresenta una larghezza preferita specificata utilizzando un numero di punti in C#.
+description: Scopri il metodo PreferredWidth FromPoints per creare una nuova istanza con una larghezza definita in punti, migliorando così la precisione e l'efficienza della progettazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/preferredwidth/frompoints/
@@ -22,7 +22,7 @@ public static PreferredWidth FromPoints(double points)
 
 ## Esempi
 
-Mostra come utilizzare gli strumenti di conversione delle unità specificando una larghezza preferita per una cella.
+Mostra come utilizzare gli strumenti di conversione delle unità specificando la larghezza preferita per una cella.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertCell();
 Assert.AreEqual(216.0d, table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value);
 ```
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

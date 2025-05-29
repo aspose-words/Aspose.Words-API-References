@@ -3,14 +3,14 @@ title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words för .NET
-description: Table StyleName fast egendom. Hämtar eller ställer in namnet på tabellformatet som tillämpas på denna tabell i C#.
+description: Upptäck egenskapen Table StyleName för att enkelt anpassa din tabells utseende. Förbättra din design med unika tabellstilsalternativ idag!
 type: docs
 weight: 290
 url: /sv/net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property
 
-Hämtar eller ställer in namnet på tabellformatet som tillämpas på denna tabell.
+Hämtar eller anger namnet på tabellformatet som tillämpats på den här tabellen.
 
 ```csharp
 public string StyleName { get; set; }

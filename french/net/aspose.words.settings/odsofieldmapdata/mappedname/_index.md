@@ -3,14 +3,14 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words pour .NET
-description: OdsoFieldMapData MappedName propriété. Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par leColumn propriété dans ce champ mapping. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez la propriété OdsoFieldMapData MappedName, qui lie les noms de champs de fusion aux colonnes spécifiées, améliorant ainsi l'efficacité et la précision du mappage des données.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par le[`Column`](../column/) propriété dans ce champ mapping. La valeur par défaut est une chaîne vide.
+Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par le[`Column`](../column/) propriété dans ce mappage de champ. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string MappedName { get; set; }
@@ -24,7 +24,7 @@ Montre comment accéder à la collection de données qui mappe les colonnes de l
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Cette collection définit comment un publipostage mappera les colonnes d'une source de données
-// aux champs prédéfinis MERGEFIELD, ADDRESSBLOCK et GREETINGLINE.
+// aux champs MERGEFIELD, ADDRESSBLOCK et GREETINGLINE prédéfinis.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clonez les éléments de cette collection.
+// Cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode « RemoveAt » individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
+// Utilisez la méthode « Clear » pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,7 +3,7 @@ title: FieldNumChars
 linktitle: FieldNumChars
 articleTitle: FieldNumChars
 second_title: Aspose.Words för .NET
-description: FieldNumChars byggare. Default_Constructor i C#.
+description: Upptäck FieldNumChars-konstruktorn – ett kraftfullt verktyg för effektiv teckenhantering i dina applikationer. Lås upp sömlös kodning idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldnumchars/fieldnumchars/

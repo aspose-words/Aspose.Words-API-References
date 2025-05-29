@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageFileName
 linktitle: ImageFileName
 articleTitle: ImageFileName
 second_title: Aspose.Words pour .NET
-description: ImageFieldMergingArgs ImageFileName propriété. Définit le nom de fichier de limage que le moteur de publipostage doit insérer dans le document en C#.
+description: Définissez le paramètre ImageFileName dans ImageFieldMergingArgs pour insérer facilement des images dans vos documents lors des publipostages. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -18,19 +18,19 @@ public string ImageFileName { get; set; }
 
 ## Exemples
 
-Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Insère un MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utilisez le code de champ pour référencer
-    // une colonne dans la source de données contenant les noms de fichiers du système local des images que nous souhaitons utiliser dans le publipostage.
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La source de données doit avoir une telle colonne nommée "ImageColumn".
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Créez une source de données appropriée.
@@ -49,7 +49,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -75,6 +75,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

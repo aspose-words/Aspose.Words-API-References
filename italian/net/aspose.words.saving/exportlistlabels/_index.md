@@ -3,14 +3,14 @@ title: ExportListLabels Enum
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.ExportListLabels enum. Specifica la modalità di esportazione delle etichette dellelenco in HTML MHTML ed EPUB in C#.
+description: Scopri come l'enum Aspose.Words.Saving.ExportListLabels migliora le tue esportazioni HTML, MHTML ed EPUB con opzioni di etichette di elenco personalizzabili.
 type: docs
-weight: 5010
+weight: 5760
 url: /it/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
 
-Specifica la modalità di esportazione delle etichette dell'elenco in HTML, MHTML ed EPUB.
+Specifica come le etichette degli elenchi vengono esportate in HTML, MHTML ed EPUB.
 
 ```csharp
 public enum ExportListLabels
@@ -20,13 +20,13 @@ public enum ExportListLabels
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Etichette dell'elenco degli output in modalità automatica. Utilizza elementi nativi HTML quando possibile. |
-| AsInlineText | `1` | Visualizza tutte le etichette dell'elenco come testo in linea. |
-| ByHtmlTags | `2` | Restituisce tutte le etichette dell'elenco come elementi nativi HTML. |
+| Auto | `0` | Emette le etichette degli elenchi in modalità automatica. Utilizza elementi HTML nativi quando possibile. |
+| AsInlineText | `1` | Restituisce tutte le etichette degli elenchi come testo in linea. |
+| ByHtmlTags | `2` | Restituisce tutte le etichette degli elenchi come elementi nativi HTML. |
 
 ## Esempi
 
-Mostra come configurare l'esportazione dell'elenco in HTML.
+Mostra come configurare l'esportazione degli elenchi in HTML.
 
 ```csharp
 Document doc = new Document();
@@ -54,14 +54,14 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
-// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere quali elementi HTML il documento utilizzerà per rappresentare le liste.
+// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere quali elementi HTML il documento utilizzerà per rappresentare gli elenchi.
 // Impostazione della proprietà "ExportListLabels" su "ExportListLabels.AsInlineText"
 // creerà elenchi formattando gli intervalli.
-// Impostando la proprietà "ExportListLabels" su "ExportListLabels.Auto" verrà utilizzato il tag <p> etichetta
-// per creare elenchi nei casi in cui si utilizza <ol> e <li> i tag possono causare la perdita di formattazione.
+// Impostando la proprietà "ExportListLabels" su "ExportListLabels.Auto" verrà utilizzato il tag <p>
+// per creare elenchi nei casi in cui l'utilizzo dei tag <ol> e <li> potrebbe causare la perdita di formattazione.
 // Impostazione della proprietà "ExportListLabels" su "ExportListLabels.ByHtmlTags"
-// utilizzerà <ol> e <li> tag per creare tutti gli elenchi.
+// utilizzerà i tag <ol> e <li> per creare tutti gli elenchi.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

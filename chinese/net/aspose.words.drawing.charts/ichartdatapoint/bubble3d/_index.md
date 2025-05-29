@@ -2,15 +2,15 @@
 title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
-second_title: 用于 .NET 的 Aspose.Words
-description: IChartDataPoint Bubble3D 财产. 指定气泡图中的气泡是否应应用 3D 效果 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 IChartDataPoint Bubble3D 属性，以令人惊叹的 3D 效果增强您的气泡图，实现更具吸引力的数据可视化。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 ---
 ## IChartDataPoint.Bubble3D property
 
-指定气泡图中的气泡是否应应用 3-D 效果。
+指定气泡图中的气泡是否应用三维效果。
 
 ```csharp
 public bool Bubble3D { get; set; }
@@ -18,7 +18,7 @@ public bool Bubble3D { get; set; }
 
 ## 例子
 
-展示如何将 3D 效果与气泡图结合使用。
+展示如何在气泡图中使用 3D 效果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// 将数据标签应用于显示其直径的每个气泡。
+// 为每个显示其直径的气泡应用数据标签。
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

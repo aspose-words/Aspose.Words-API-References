@@ -3,14 +3,14 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words لـ .NET
-description: HyphenationOptions ConsecutiveHyphenLimit ملكية. الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0 في C#.
+description: اكتشف خاصية ConsecutiveHyphenLimit في HyphenationOptions. تحكّم في استخدام الواصلات في نصك لتحسين سهولة القراءة والتنسيق. القيمة الافتراضية: 0.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0.
+يحصل على أو يعين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0.
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -18,13 +18,13 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 ## ملاحظات
 
-إذا تم تعيين قيمة هذه الخاصية على 0، فإن أي عدد من الأسطر المتتالية يمكن أن ينتهي بواصلات.
+إذا تم تعيين قيمة هذه الخاصية على 0، فيمكن أن ينتهي أي عدد من الأسطر المتتالية بواصلات.
 
-لا يكون لهذه الخاصية أي تأثير عند الحفظ في تنسيقات الصفحات الثابتة، مثل PDF.
+لا يكون للخاصية أي تأثير عند الحفظ بتنسيقات الصفحات الثابتة مثل PDF.
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

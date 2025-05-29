@@ -3,9 +3,9 @@ title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontSourceBase فصل. هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة في C#.
+description: اكتشف Aspose.Words.Fonts.FontSourceBase، الفئة المجردة الأساسية لتحديد مصادر الخطوط المتنوعة في تطبيقاتك. حسّن تنسيق مستنداتك!
 type: docs
-weight: 2980
+weight: 3410
 url: /ar/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -22,9 +22,9 @@ public abstract class FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يُرجع أولوية مصدر الخط. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | إرجاع نوع مصدر الخط. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يعيد أولوية مصدر الخط. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | يعيد نوع مصدر الخط. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤها أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
 
 ## طُرق
 

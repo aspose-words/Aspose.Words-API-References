@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportTocPageNumbers fast egendom. Anger om sidnummer ska skrivas till innehållsförteckningen när HTML MHTML och EPUB sparas. Standardvärdet ärfalsk  i C#.
+description: Kontrollera sidnummer för innehållsförteckning i HTML-, MHTML- och EPUB-exporter med HtmlSaveOptions. Förbättra navigering och användarupplevelse utan ansträngning!
 type: docs
 weight: 270
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -24,8 +24,8 @@ Visar hur man visar sidnummer när man sparar ett dokument med en innehållsför
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en innehållsförteckning och fyll sedan i dokumentet med stycken formaterade med en "Rubrik"
-// stil som innehållsförteckningen kommer att plocka upp som poster. Varje post kommer att visa rubrikstycket till vänster,
+// Infoga en innehållsförteckning och fyll sedan dokumentet med stycken formaterade med en "Rubrik"
+// stil som innehållsförteckningen kommer att hämta som poster. Varje post kommer att visa rubriken till vänster,
 // och sidnumret som innehåller rubriken till höger.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -40,13 +40,13 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// HTML-dokument har inga sidor. Om vi sparar det här dokumentet i HTML,
+// HTML-dokument har inga sidor. Om vi sparar detta dokument som HTML,
 // sidnumren som vår innehållsförteckning visar kommer inte att ha någon betydelse.
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att utelämna dessa sidnummer från innehållsförteckningen.
-// Om vi ställer in "ExportTocPageNumbers"-flaggan till "true",
-// varje innehållsförteckningspost kommer att visa rubriken, avgränsaren och sidnumret, och bevara dess utseende i Microsoft Word.
-// Om vi ställer in "ExportTocPageNumbers"-flaggan till "false",
-// Spara operationen kommer att utelämna både avgränsare och sidnummer och lämnar rubriken för varje post intakt.
+// Om vi ställer in flaggan "ExportTocPageNumbers" till "sant",
+// varje innehållsförteckning visar rubrik, avgränsare och sidnummer, vilket behåller utseendet i Microsoft Word.
+// Om vi ställer in flaggan "ExportTocPageNumbers" till "false",
+// sparåtgärden utelämnar både avgränsare och sidnummer och lämnar rubriken för varje post intakt.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTocPageNumbers.html", options);

@@ -2,15 +2,15 @@
 title: MetafileRenderingOptions Class
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.MetafileRenderingOptions 班级. 允许指定其他图元文件渲染选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Saving.MetafileRenderingOptions，增强文档中的图元文件渲染控制和自定义功能。立即优化您的工作流程！
 type: docs
-weight: 5300
+weight: 6080
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-允许指定其他图元文件渲染选项。
+允许指定额外的图元文件渲染选项。
 
 要了解更多信息，请访问[处理 Windows 图元文件](https://docs.aspose.com/words/net/handling-windows-metafiles/)文档文章。
 
@@ -28,17 +28,17 @@ public class MetafileRenderingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | 获取或设置一个值，确定应如何呈现 EMF+ 双图元文件。 |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | 获取或设置一个值，确定是否应模拟光栅操作。 |
-| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | 获取或设置一个值，该值确定图元文件渲染是根据页面 上的大小模拟图元文件的显示，还是以其默认大小显示图元文件。 |
-| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | 获取或设置分辨率（以每英寸像素为单位），以模拟图元文件渲染为页面上的大小。 |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | 获取或设置一个值，确定图元文件图像应如何呈现。 |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | 获取或设置一个值，确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件。 |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 EMF+ Dual 图元文件。 |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | 获取或设置一个值，确定是否应该模拟光栅操作。 |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | 获取或设置一个值，该值确定图元文件渲染是否根据页面 上的大小模拟图元文件的显示，还是模拟图元文件的默认大小显示。 |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | 获取或设置用于模拟图元文件渲染到页面大小的分辨率（以像素/英寸为单位）。 |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现图元文件图像。 |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | 获取或设置一个值，该值确定如何呈现嵌入 EMF 元文件的 WMF 元文件。 |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | 获取或设置一个值，确定是否使用 GDI+ 进行光栅操作模拟。 |
 
 ## 例子
 
-显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
+显示添加了位图渲染的回退并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -47,16 +47,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // 将“EmulateRasterOperations”属性设置为“false”以在以下情况下回退到位图：
-    // 它遇到一个图元文件，这将需要光栅操作才能在输出 PDF 中呈现。
+    // 将“EmulateRasterOperations”属性设置为“false”，以便在
+    // 它遇到一个元文件，这将需要光栅操作才能在输出 PDF 中呈现。
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // 将“RenderingMode”属性设置为“VectorWithFallback”以尝试使用矢量图形渲染每个图元文件。
+    // 将“RenderingMode”属性设置为“VectorWithFallback”以尝试使用矢量图形渲染每个元文件。
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
     // 修改该方法将文档转换为 .PDF 并应用配置的方式
-    // 在我们的MetafileRenderingOptions对象中进行保存操作。
+    // 在我们的 MetafileRenderingOptions 对象中进行保存操作。
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 

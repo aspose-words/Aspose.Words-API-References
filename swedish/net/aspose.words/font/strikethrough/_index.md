@@ -3,9 +3,9 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words för .NET
-description: Font StrikeThrough fast egendom. Sant om teckensnittet är formaterat som genomstruken text i C#.
+description: Upptäck egenskapen för genomstruken text. Formatera enkelt text med genomstruken text för tydlig visuell betoning i dina designer. Förbättra läsbarheten idag!
 type: docs
-weight: 390
+weight: 400
 url: /sv/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## Exempel
 
-Visar hur man lägger till en rad genomstruken i text.
+Visar hur man lägger till en genomstrykning av text.
 
 ```csharp
 Document doc = new Document();

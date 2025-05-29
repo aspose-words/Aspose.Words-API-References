@@ -3,7 +3,7 @@ title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
 second_title: Aspose.Words für .NET
-description: PageSetup BorderAppliesTo eigendom. Gibt an auf welchen Seiten der Seitenrand gedruckt wird in C#.
+description: Entdecken Sie, wie die Eigenschaft „PageSetup BorderAppliesTo“ Ihr Dokumentlayout verbessert, indem sie den Druck der Seitenränder steuert und so für ein elegantes, professionelles Erscheinungsbild sorgt.
 type: docs
 weight: 30
 url: /de/net/aspose.words/pagesetup/borderappliesto/
@@ -18,7 +18,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
+Zeigt, wie oben auf der ersten Seite ein breiter blauer Bandrand erstellt wird.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: FieldIncludePicture.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words для .NET
-description: FieldIncludePicture GraphicFilter свойство. Получает или задает имя фильтра для формата вставляемого изображения на С#.
+description: Откройте для себя свойство FieldIncludePicture GraphicFilter, легко управляйте фильтрами графических форматов для бесшовной интеграции изображений в ваши проекты.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-Получает или задает имя фильтра для формата вставляемого изображения.
+Возвращает или задает имя фильтра для формата вставляемого графического объекта.
 
 ```csharp
 public string GraphicFilter { get; set; }

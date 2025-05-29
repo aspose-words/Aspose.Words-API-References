@@ -2,8 +2,8 @@
 title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: BaseWebExtensionCollection Item 财产. 获取或设置指定索引处的项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BaseWebExtensionCollection 的 Item 属性，轻松按索引管理项目。立即使用高效的数据处理简化您的开发！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 项目的从零开始的索引。 |
+| index | 该项目的从零开始的索引。 |
 
 ## 例子
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// 打印文档 Web 扩展的所有属性。
+// 打印文档的 Web 扩展的所有属性。
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

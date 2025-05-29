@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
 articleTitle: ShowPercentage
 second_title: Aspose.Words für .NET
-description: ChartDataLabelCollection ShowPercentage eigendom. Ermöglicht die Angabe ob Prozentwerte für die Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH . Gilt nur für Kreisdiagramme in C#.
+description: Entdecken Sie die Eigenschaft „ShowPercentage“ in ChartDataLabelCollection, um Ihre Kreisdiagramme durch die Anzeige von Prozentwerten für Datenbeschriftungen zu verbessern. Steigern Sie die Übersichtlichkeit und den Einblick!
 type: docs
-weight: 120
+weight: 150
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` . Gilt nur für Kreisdiagramme.
+Ermöglicht die Angabe, ob der Prozentwert für die Datenbeschriftungen der gesamten Reihe angezeigt werden soll. Der Standardwert ist`FALSCH` . Gilt nur für Kreisdiagramme.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPercentage { get; set; }
 
 ## Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowPercentage`](../../chartdatalabel/showpercentage/) Eigenschaft.
+Der für diese Eigenschaft definierte Wert kann für ein einzelnes Datenlabel mit dem überschrieben werden.[`ShowPercentage`](../../chartdatalabel/showpercentage/) Eigenschaft.
 
 ## Beispiele
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und deren Häufigkeitstabelle ein.
+// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und ihrer Häufigkeitstabelle ein.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });

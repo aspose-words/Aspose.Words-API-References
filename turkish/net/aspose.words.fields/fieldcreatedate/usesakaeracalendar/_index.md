@@ -2,8 +2,8 @@
 title: FieldCreateDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
-second_title: Aspose.Words for .NET
-description: FieldCreateDate UseSakaEraCalendar mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda Saka Era takvim ayarlarını kolayca yönetmek ve gelişmiş tarih yönetimi için FieldCreateDate UseSakaEraCalendar özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -28,14 +28,14 @@ builder.Writeln(" Date this document was created:");
 
 // Belgenin oluşturulma tarihini ve saatini görüntülemek için CREATEDATE alanını kullanabiliriz.
 // Aşağıda CREATEDATE alanının tarih/saati görüntüleyebileceği üç farklı takvim türü bulunmaktadır.
-// 1 - İslami Ay Takvimi:
+// 1 - Hicri Takvim:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - Ümmü'l-Kura takvimi:
+// 2 - Ümmü'l-Kurâ takvimi:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

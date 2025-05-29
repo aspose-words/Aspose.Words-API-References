@@ -3,14 +3,14 @@ title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.SvgTextOutputMode enum. Permette di specificare come deve essere reso il testo allinterno di un documento durante il salvataggio in formato SVG in C#.
+description: Scopri l'enum Aspose.Words.Saving.SvgTextOutputMode per personalizzare il rendering del testo in formato SVG, migliorando la presentazione e l'attrattiva visiva del documento.
 type: docs
-weight: 5610
+weight: 6410
 url: /it/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
 
-Permette di specificare come deve essere reso il testo all'interno di un documento durante il salvataggio in formato SVG.
+Consente di specificare come deve essere visualizzato il testo all'interno di un documento quando si salva in formato SVG.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -20,9 +20,9 @@ public enum SvgTextOutputMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| UseSvgFonts | `0` | I caratteri SVG vengono utilizzati per il rendering del testo. Tieni presente che non tutti i browser supportano i caratteri SVG. |
-| UseTargetMachineFonts | `1` | I caratteri installati sul computer di destinazione vengono utilizzati per eseguire il rendering del testo. Nota: se alcuni dei caratteri utilizzati nel documento non sono disponibili sul computer di destinazione, il documento può apparire diversamente. |
-| UsePlacedGlyphs | `2` | Il testo viene renderizzato utilizzando le curve. Tieni presente che la selezione del testo non funzionerà se utilizzi questa opzione. |
+| UseSvgFonts | `0` | I font SVG vengono utilizzati per il rendering del testo. Nota: non tutti i browser supportano i font SVG. |
+| UseTargetMachineFonts | `1` | Per il rendering del testo vengono utilizzati i font installati sul computer di destinazione. Nota: se alcuni dei font utilizzati nel documento non sono disponibili sul computer di destinazione, il documento potrebbe apparire diverso. |
+| UsePlacedGlyphs | `2` | Il testo viene renderizzato utilizzando le curve. Nota: la selezione del testo non funzionerà se si utilizza questa opzione. |
 
 ## Esempi
 
@@ -31,7 +31,7 @@ Mostra come imitare le proprietà delle immagini durante la conversione di un do
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Configura l'oggetto SvgSaveOptions per il salvataggio senza bordi della pagina o testo selezionabile.
+// Configurare l'oggetto SvgSaveOptions per salvare senza bordi di pagina o testo selezionabile.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

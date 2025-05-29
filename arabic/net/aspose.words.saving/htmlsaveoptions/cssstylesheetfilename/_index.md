@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssStyleSheetFileName
 linktitle: CssStyleSheetFileName
 articleTitle: CssStyleSheetFileName
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions CssStyleSheetFileName ملكية. يحدد المسار واسم ملف ورقة الأنماط المتتالية CSS الذي يتم كتابته عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف كيف تقوم خاصية HtmlSaveOptions CssStyleSheetFileName بتخصيص صادرات HTML الخاصة بك باستخدام مسار ملف CSS محدد، مما يعزز أسلوب مستندك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-يحدد المسار واسم ملف ورقة الأنماط المتتالية (CSS) الذي يتم كتابته عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة.
+يحدد المسار واسم ملف Cascading Style Sheet (CSS) المكتوب عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -18,15 +18,15 @@ public string CssStyleSheetFileName { get; set; }
 
 ## ملاحظات
 
-تكون هذه الخاصية سارية فقط عند حفظ مستند بتنسيق HTML وطلب ورقة أنماط CSS خارجية باستخدام[`CssStyleSheetType`](../cssstylesheettype/).
+لا يكون لهذه الخاصية تأثير إلا عند حفظ مستند بتنسيق HTML ويتم طلب ورقة أنماط CSS خارجية باستخدام[`CssStyleSheetType`](../cssstylesheettype/).
 
-إذا كانت هذه الخاصية فارغة، فسيتم حفظ ملف CSS في نفس المجلد وبنفس اسم مستند HTML ولكن بامتداد ".css".
+إذا كانت هذه الخاصية فارغة، سيتم حفظ ملف CSS في نفس المجلد وبنفس اسم مستند HTML ولكن مع الامتداد ".css".
 
-إذا تم تحديد مسار فقط ولكن لم يتم تحديد اسم ملف في هذه الخاصية، فسيتم حفظ ملف CSS في المجلد المحدد وسيكون له نفس اسم مستند HTML ولكن بامتداد ".css".
+إذا تم تحديد المسار فقط ولكن لم يتم تحديد اسم الملف في هذه الخاصية، فسيتم حفظ ملف CSS في المجلد selected وسيكون له نفس اسم مستند HTML ولكن مع امتداد ".css".
 
-إذا كان المجلد المحدد بهذه الخاصية غير موجود، فسيتم إنشاؤه تلقائيًا قبل حفظ ملف CSS file .
+إذا لم يكن المجلد المحدد بواسطة هذه الخاصية موجودًا، فسيتم إنشاؤه تلقائيًا قبل حفظ ملف CSS file .
 
-هناك طريقة أخرى لتحديد المجلد الذي يتم حفظ ملف CSS الخارجي فيه وهي الاستخدام[`ResourceFolder`](../resourcefolder/) .
+هناك طريقة أخرى لتحديد المجلد الذي سيتم حفظ ملف CSS الخارجي فيه وهي استخدام[`ResourceFolder`](../resourcefolder/) .
 
 ## أمثلة
 
@@ -37,19 +37,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // قم بتعيين خاصية "CssStylesheetType" على "CssStyleSheetType.External" إلى
-    // قم بإرفاق مستند HTML محفوظ بملف ورقة أنماط CSS خارجي.
+    // اضبط خاصية "CssStylesheetType" إلى "CssStyleSheetType.External"
+    // قم بإرفاق مستند HTML المحفوظ بملف جدول أنماط CSS خارجي.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // فيما يلي طريقتان لتحديد الدلائل وأسماء الملفات لأوراق أنماط CSS الناتجة.
     // 1 - استخدم خاصية "CssStyleSheetFileName" لتعيين اسم ملف لورقة الأنماط الخاصة بنا:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - استخدم رد اتصال مخصصًا لتسمية ورقة الأنماط الخاصة بنا:
+    // 2 - استخدم استدعاء مخصص لتسمية ورقة الأنماط الخاصة بنا:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -57,7 +57,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// يعين اسم ملف مخصصًا، بالإضافة إلى معلمات أخرى لورقة أنماط CSS خارجية.
+/// تعيين اسم ملف مخصص، إلى جانب معلمات أخرى لنمط CSS الخارجي.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -70,7 +70,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
+        //يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

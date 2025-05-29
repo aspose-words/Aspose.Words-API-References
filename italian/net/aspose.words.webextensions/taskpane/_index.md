@@ -3,16 +3,16 @@ title: TaskPane Class
 linktitle: TaskPane
 articleTitle: TaskPane
 second_title: Aspose.Words per .NET
-description: Aspose.Words.WebExtensions.TaskPane classe. Rappresenta un oggetto del riquadro attività del componente aggiuntivo in C#.
+description: Scopri la classe Aspose.Words.WebExtensions.TaskPane, la chiave per creare potenti riquadri attività aggiuntivi per migliorare la modifica dei documenti e la produttività.
 type: docs
-weight: 6710
+weight: 7560
 url: /it/net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
 
 Rappresenta un oggetto del riquadro attività del componente aggiuntivo.
 
-Per saperne di più, visita il[Lavora con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
 
 ```csharp
 public class TaskPane
@@ -28,16 +28,16 @@ public class TaskPane
 
 | Nome | Descrizione |
 | --- | --- |
-| [DockState](../../aspose.words.webextensions/taskpane/dockstate/) { get; set; } | Specifica l'ultima posizione ancorata di questo oggetto del riquadro attività. |
+| [DockState](../../aspose.words.webextensions/taskpane/dockstate/) { get; set; } | Specifica l'ultima posizione di ancoraggio di questo oggetto del riquadro attività. |
 | [IsLocked](../../aspose.words.webextensions/taskpane/islocked/) { get; set; } | Specifica se il riquadro attività è bloccato sul documento nell'interfaccia utente e non può essere chiuso dall'utente. |
-| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible/) { get; set; } | Specifica se il riquadro attività viene visualizzato come visibile per impostazione predefinita all'apertura del documento. |
-| [Row](../../aspose.words.webextensions/taskpane/row/) { get; set; } | Specifica l'indice, enumerato dall'esterno verso l'interno, di questo riquadro attività tra gli altri riquadri attività persistented ancorati nella stessa posizione predefinita. |
+| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible/) { get; set; } | Specifica se il riquadro attività viene visualizzato come visibile per impostazione predefinita quando si apre il documento. |
+| [Row](../../aspose.words.webextensions/taskpane/row/) { get; set; } | Specifica l'indice, enumerando dall'esterno all'interno, di questo riquadro attività tra gli altri riquadri attività persistenti ancorati nella stessa posizione predefinita. |
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Rappresenta un oggetto estensione web. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Specifica il valore di larghezza predefinito per questa istanza del riquadro attività. |
 
 ## Esempi
 
-Mostra come aggiungere un'estensione Web a un documento.
+Mostra come aggiungere un'estensione web a un documento.
 
 ```csharp
 Document doc = new Document();
@@ -51,13 +51,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// Se sono presenti più riquadri attività nella stessa posizione di ancoraggio, è possibile impostare questo indice per organizzarli.
+// Se ci sono più riquadri attività nella stessa posizione di ancoraggio, possiamo impostare questo indice per disporli.
 myScriptTaskPane.Row = 1;
 
-// Crea un componente aggiuntivo chiamato "MyScript Math Sample", all'interno del quale verrà visualizzato il riquadro attività.
+// Crea un componente aggiuntivo denominato "MyScript Math Sample", che verrà visualizzato nel riquadro delle attività.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Imposta i parametri di riferimento dell'archivio applicazioni per il nostro componente aggiuntivo, come l'ID.
+// Imposta i parametri di riferimento dell'app store per il nostro componente aggiuntivo, come l'ID.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -65,16 +65,43 @@ webExtension.Reference.Store = CultureInfo.CurrentCulture.Name;
 webExtension.Properties.Add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
 webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindingType.Text, "104380646"));
 
-// Consentire all'utente di interagire con il componente aggiuntivo.
+// Consenti all'utente di interagire con il componente aggiuntivo.
 webExtension.IsFrozen = false;
 
-// Possiamo accedere all'estensione web in Microsoft Word tramite Developer -> Componenti aggiuntivi.
+// Possiamo accedere all'estensione web in Microsoft Word tramite Sviluppatore -> Componenti aggiuntivi.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Rimuovi tutti i riquadri attività delle estensioni Web contemporaneamente in questo modo.
+// Rimuovi tutti i riquadri attività dell'estensione web in una volta sola, in questo modo.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Guarda anche

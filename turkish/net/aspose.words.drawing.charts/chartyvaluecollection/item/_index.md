@@ -2,10 +2,10 @@
 title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: ChartYValueCollection Item mülk. Belirtilen dizindeki Y değerini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir dizindeki Y değerlerine kolayca erişmek veya bunları değiştirmek için ChartYValueCollection Item özelliğini keşfedin ve veri görselleştirme deneyiminizi geliştirin.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer

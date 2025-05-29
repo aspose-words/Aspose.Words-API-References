@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldEnd
 linktitle: VisitFieldEnd
 articleTitle: VisitFieldEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitFieldEnd метод. Вызывается когда в документе заканчивается поле на С#.
+description: Откройте для себя метод DocumentVisitor VisitFieldEnd, необходимый для обработки завершения полей в документах. Повысьте эффективность кодирования сегодня!
 type: docs
 weight: 180
 url: /ru/net/aspose.words/documentvisitor/visitfieldend/
 ---
 ## DocumentVisitor.VisitFieldEnd method
 
-Вызывается, когда в документе заканчивается поле.
+Вызывается, когда поле заканчивается в документе.
 
 ```csharp
 public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldEnd | FieldEnd | Объект, который посещается. |
+| fieldEnd | FieldEnd | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -30,7 +30,7 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 ## Примеры
 
-Показывает, как распечатать структуру узла каждого поля в документе.
+Показывает, как распечатать структуру узлов каждого поля в документе.
 
 ```csharp
 public void FieldToText()
@@ -38,7 +38,7 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -48,7 +48,7 @@ public void FieldToText()
 
 /// <summary>
 /// Обходит недвоичное дерево дочерних узлов узла.
-/// Создает карту в виде строки всех встреченных узлов Field и их дочерних элементов.
+/// Создает карту в виде строки всех встреченных узлов полей и их дочерних элементов.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -108,7 +108,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов поля.
     /// </summary>
     /// <param name="text"></param>

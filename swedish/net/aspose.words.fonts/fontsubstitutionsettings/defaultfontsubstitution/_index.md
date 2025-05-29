@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
 second_title: Aspose.Words för .NET
-description: FontSubstitutionSettings DefaultFontSubstitution fast egendom. Inställningar relaterade till standardregel för teckensnittsersättning i C#.
+description: Upptäck hur egenskapen DefaultFontSubstitution optimerar teckensnittsinställningarna för sömlös typografi. Förbättra din design med effektiva regler för teckensnittsersättning.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Inställningar relaterade till standardregel för teckensnittsersättning.
+Inställningar relaterade till standardregeln för teckensnittsersättning.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -18,7 +18,7 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ## Exempel
 
-Visar hur du ställer in standardregeln för teckensnittsersättning.
+Visar hur man ställer in standardregeln för teckensnittsersättning.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Ställ in standardtypsnittsersättningen till "Courier New".
+// Ställ in standardteckensnittsersättningen till "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Med hjälp av en dokumentbyggare, lägg till lite text i ett teckensnitt som vi inte behöver se ersättningen ske,
-// och rendera sedan resultatet i en PDF.
+// Använd en dokumentbyggare, lägg till text i ett teckensnitt som vi inte behöver se för att substitutionen ska ske,
+// och sedan rendera resultatet i en PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

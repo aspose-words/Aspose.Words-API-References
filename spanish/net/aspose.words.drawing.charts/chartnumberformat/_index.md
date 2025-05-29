@@ -3,16 +3,16 @@ title: ChartNumberFormat Class
 linktitle: ChartNumberFormat
 articleTitle: ChartNumberFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat clase. Representa el formato numérico del elemento principal en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.ChartNumberFormat para un formato numérico avanzado en gráficos. ¡Mejore el atractivo visual de sus documentos!
 type: docs
-weight: 770
+weight: 1060
 url: /es/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
-Representa el formato numérico del elemento principal.
+Representa el formato de número del elemento padre.
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public class ChartNumberFormat
@@ -27,7 +27,7 @@ public class ChartNumberFormat
 
 ## Ejemplos
 
-Muestra cómo configurar el formato para los valores del gráfico.
+Muestra cómo establecer el formato para los valores del gráfico.
 
 ```csharp
 Document doc = new Document();
@@ -36,19 +36,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agrega una serie personalizada al gráfico con categorías para el eje X,
- // y valores numéricos respectivos grandes para el eje Y.
+// Agregue una serie personalizada al gráfico con categorías para el eje X,
+ // y valores numéricos grandes respectivos para el eje Y.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Establece el formato numérico de las etiquetas de marca del eje Y para no agrupar dígitos con comas.
+ // Establezca el formato de número de las etiquetas de marca del eje Y para no agrupar los dígitos con comas.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Esta bandera puede anular el valor anterior y extraer el formato numérico de la celda de origen.
+// Esta bandera puede anular el valor anterior y extraer el formato de número de la celda de origen.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

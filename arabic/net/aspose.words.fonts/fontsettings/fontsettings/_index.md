@@ -3,7 +3,7 @@ title: FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words لـ .NET
-description: FontSettings البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ إعدادات الخطوط لتخصيص خصائص الخط بسهولة. حسّن عرض النص في تطبيقك بإعداداتنا الافتراضية!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsettings/fontsettings/

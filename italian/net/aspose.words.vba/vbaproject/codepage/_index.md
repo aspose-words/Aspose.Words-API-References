@@ -3,7 +3,7 @@ title: VbaProject.CodePage
 linktitle: CodePage
 articleTitle: CodePage
 second_title: Aspose.Words per .NET
-description: VbaProject CodePage proprietà. Ottiene o imposta la code page del progetto VBA in C#.
+description: Scopri come gestire la proprietà CodePage di VbaProject per ottimizzare le impostazioni della code page del tuo progetto VBA, migliorando prestazioni e compatibilità.
 type: docs
 weight: 20
 url: /it/net/aspose.words.vba/vbaproject/codepage/
@@ -18,11 +18,11 @@ public int CodePage { get; set; }
 
 ## Osservazioni
 
-Tieni presente che VBA è una funzionalità pre-Unicode e devi impostare esplicitamente la code page appropriata per preservare i set di caratteri regionali.
+Si noti che VBA è una funzionalità pre-Unicode e che è necessario impostare esplicitamente la code page appropriata per preservare i set di caratteri regionali.
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

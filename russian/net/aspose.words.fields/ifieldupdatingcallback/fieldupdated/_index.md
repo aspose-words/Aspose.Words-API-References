@@ -3,14 +3,14 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words для .NET
-description: IFieldUpdatingCallback FieldUpdated метод. Определенный пользователем метод который вызывается сразу после обновления поля на С#.
+description: Откройте для себя метод IFieldUpdatingCallback FieldUpdated — ваше решение для бесшовных обновлений полей в приложениях. Повысьте производительность с помощью пользовательских обратных вызовов!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 ---
 ## IFieldUpdatingCallback.FieldUpdated method
 
-Определенный пользователем метод, который вызывается сразу после обновления поля.
+Пользовательский метод, который вызывается сразу после обновления поля.
 
 ```csharp
 public void FieldUpdated(Field field)
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+/// Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
+    /// Пользовательский метод, который вызывается непосредственно перед обновлением поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
+    /// Пользовательский метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

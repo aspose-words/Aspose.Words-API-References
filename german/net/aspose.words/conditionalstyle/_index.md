@@ -3,14 +3,14 @@ title: ConditionalStyle Class
 linktitle: ConditionalStyle
 articleTitle: ConditionalStyle
 second_title: Aspose.Words für .NET
-description: Aspose.Words.ConditionalStyle klas. Stellt eine spezielle Formatierung dar die auf einen bestimmten Bereich einer Tabelle mit zugewiesenem Tabellenstil angewendet wird in C#.
+description: Entdecken Sie die Aspose.Words.ConditionalStyle-Klasse für erweiterte Tabellenformatierung. Optimieren Sie Ihre Dokumente mit dynamischen Stilen und verbessern Sie mühelos die Lesbarkeit.
 type: docs
-weight: 310
+weight: 510
 url: /de/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
-Stellt eine spezielle Formatierung dar, die auf einen bestimmten Bereich einer Tabelle mit zugewiesenem Tabellenstil angewendet wird.
+Stellt eine spezielle Formatierung dar, die auf einen Bereich einer Tabelle mit zugewiesenem Tabellenstil angewendet wird.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Tabellen](https://docs.aspose.com/words/net/working-with-tables/) Dokumentationsartikel.
 
@@ -22,14 +22,14 @@ public sealed class ConditionalStyle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Ruft die Sammlung von Standard-Zellenrändern für den bedingten Stil ab. |
+| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Ruft die Sammlung der Standardzellenränder für den bedingten Stil ab. |
 | [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | Ruft den Abstand (in Punkten) ab, der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll, oder legt diesen fest. |
 | [Font](../../aspose.words/conditionalstyle/font/) { get; } | Ruft die Zeichenformatierung des bedingten Stils ab. |
-| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Ruft die Menge an Platz (in Punkten) ab, die links vom Inhalt von Tabellenzellen hinzugefügt werden soll, oder legt diese fest. |
+| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Ruft den Abstand (in Punkten) ab, der links vom Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest. |
 | [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Ruft die Absatzformatierung des bedingten Stils ab. |
-| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Ruft die Menge an Platz (in Punkten) ab, die rechts vom Inhalt von Tabellenzellen hinzugefügt werden soll, oder legt diese fest. |
-| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Ruft a ab[`Shading`](../shading/) Objekt, das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht. |
-| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Ruft die Menge an Platz (in Punkten) ab, die oberhalb des Inhalts von Tabellenzellen hinzugefügt werden soll, oder legt diese fest. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Ruft den Abstand (in Punkten) ab, der rechts vom Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest. |
+| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Erhält eine[`Shading`](../shading/) Objekt, das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht. |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Ruft den Abstand (in Punkten) ab, der über dem Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest. |
 | [Type](../../aspose.words/conditionalstyle/type/) { get; } | Ruft den Tabellenbereich ab, auf den sich dieser bedingte Stil bezieht. |
 
 ## Methoden
@@ -38,7 +38,7 @@ public sealed class ConditionalStyle
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Löscht die Formatierung dieses bedingten Stils. |
 | override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Vergleicht diesen bedingten Stil mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Berechnet den Hash-Code für dieses Objekt. |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Berechnet den Hashcode für dieses Objekt. |
 
 ## Beispiele
 
@@ -60,12 +60,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

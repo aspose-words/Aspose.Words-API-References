@@ -3,7 +3,7 @@ title: NodeCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words per .NET
-description: NodeCollection Clear metodo. Rimuove tutti i nodi da questa raccolta e dal documento in C#.
+description: Cancella senza sforzo la tua NodeCollection con il nostro metodo Clear, rimuovendo tutti i nodi sia dalla raccolta che dal documento per prestazioni ottimali.
 type: docs
 weight: 40
 url: /it/net/aspose.words/nodecollection/clear/
@@ -23,12 +23,12 @@ Mostra come rimuovere tutte le sezioni da un documento.
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Questo documento ha una sezione con alcuni nodi figli che contengono e visualizzano tutti i contenuti del documento.
+// Questo documento ha una sezione con alcuni nodi figlio che contengono e visualizzano tutto il contenuto del documento.
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Cancella la raccolta di sezioni, rimuovendo così tutti i figli del documento.
+// Cancella la raccolta di sezioni, rimuovendo così tutti gli elementi figlio del documento.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

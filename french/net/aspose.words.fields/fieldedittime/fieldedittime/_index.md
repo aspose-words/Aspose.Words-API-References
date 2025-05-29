@@ -3,7 +3,7 @@ title: FieldEditTime
 linktitle: FieldEditTime
 articleTitle: FieldEditTime
 second_title: Aspose.Words pour .NET
-description: FieldEditTime constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldEditTime, votre solution idéale pour une édition temporelle fluide. Gagnez en efficacité grâce à notre constructeur par défaut pour des performances optimisées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldedittime/fieldedittime/

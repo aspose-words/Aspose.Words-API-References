@@ -3,16 +3,16 @@ title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WarningInfoCollection сорт. Представляет типизированную коллекциюWarningInfo объекты на С#.
+description: Откройте для себя Aspose.Words.WarningInfoCollection — мощный класс для управления объектами WarningInfo, улучшающий обработку документов и обработку ошибок.
 type: docs
-weight: 6640
+weight: 7490
 url: /ru/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
 Представляет типизированную коллекцию[`WarningInfo`](../warninginfo/) объекты.
 
-Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) документальная статья.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -36,34 +36,34 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Удаляет все элементы из коллекции. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Реализует[`IWarningCallback`](../iwarningcallback/) интерфейс. Добавляет предупреждение в эту коллекцию. |
 
 ## Примечания
 
-Вы можете использовать этот объект коллекции как простейшую форму[`IWarningCallback`](../iwarningcallback/) реализация для сбора всех предупреждений, которые Aspose.Words генерирует во время операции загрузки или сохранения. Создайте экземпляр этого класса и присвойте ему [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) или[`WarningCallback`](../documentbase/warningcallback/) свойство.
+Вы можете использовать этот объект коллекции как простейшую форму[`IWarningCallback`](../iwarningcallback/) реализация для сбора всех предупреждений, которые Aspose.Words генерирует во время операции загрузки или сохранения. Создайте экземпляр этого класса и назначьте его [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) или[`WarningCallback`](../documentbase/warningcallback/) свойство.
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -82,7 +82,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

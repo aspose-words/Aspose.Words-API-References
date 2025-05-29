@@ -3,9 +3,9 @@ title: PdfSaveOptions.CacheBackgroundGraphics
 linktitle: CacheBackgroundGraphics
 articleTitle: CacheBackgroundGraphics
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions CacheBackgroundGraphics propriété. Obtient ou définit une valeur déterminant sil faut ou non mettre en cache les graphiques placés en arrièreplan du document en C#.
+description: Découvrez la propriété PdfSaveOptions CacheBackgroundGraphics pour optimiser la mise en cache des graphiques des documents, améliorant ainsi la création et les performances de vos PDF.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property
@@ -20,11 +20,11 @@ public bool CacheBackgroundGraphics { get; set; }
 
 La valeur par défaut est`vrai` et les graphiques d'arrière-plan sont écrits dans le document PDF en tant que xObject.
 
-Lorsque la valeur est`FAUX` les graphiques d’arrière-plan ne sont pas mis en cache.
+Lorsque la valeur est`FAUX` les graphiques d'arrière-plan ne sont pas mis en cache.
 
 Certaines formes ne sont pas prises en charge pour la mise en cache (formes avec champs, signets, HRefs).
 
-Le graphique d'arrière-plan du document est constitué de diverses formes, graphiques, images placées dans le pied de page ou l'en-tête, ainsi que l'arrière-plan et la bordure d'une page.
+L'arrière-plan graphique du document est constitué de diverses formes, graphiques, images placées dans le pied de page ou l'en-tête, ainsi que l'arrière-plan et la bordure d'une page.
 
 ## Exemples
 

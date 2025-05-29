@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
 articleTitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words per .NET
-description: DocumentBuilder CurrentStructuredDocumentTag proprietà. Ottiene il tag del documento strutturato attualmente selezionato in thisDocumentBuilder  in C#.
+description: Scopri la proprietà CurrentStructuredDocumentTag in DocumentBuilder. Accedi facilmente al tag del documento strutturato selezionato per una gestione efficiente dei documenti.
 type: docs
 weight: 80
 url: /it/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 ---
 ## DocumentBuilder.CurrentStructuredDocumentTag property
 
-Ottiene il tag del documento strutturato attualmente selezionato in this[`DocumentBuilder`](../) .
+Ottiene il tag del documento strutturato attualmente selezionato in questo[`DocumentBuilder`](../) .
 
 ```csharp
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
@@ -25,19 +25,19 @@ Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Esistono diversi modi per spostare il cursore:
-// 1 - Passa al primo carattere del tag del documento strutturato per indice.
+// 1 - Passa al primo carattere del tag del documento strutturato tramite l'indice.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Passa al primo carattere del tag del documento strutturato per oggetto.
+// 2 - Passa al primo carattere del tag del documento strutturato tramite oggetto.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Passa alla fine del secondo tag del documento strutturato.
+// 3 - Spostarsi alla fine del secondo tag del documento strutturato.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
 // Ottieni il tag del documento strutturato attualmente selezionato.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;

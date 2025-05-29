@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitFieldStart طريقة. يتم استدعاؤه عند بدء حقل في المستند في C#.
+description: اكتشف طريقة DocumentVisitor VisitFieldStart، التي يتم تشغيلها في بداية الحقل في مستندك، مما يعزز كفاءة الترميز وسير العمل لديك.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
 
-يتم استدعاؤه عند بدء حقل في المستند.
+يتم استدعاؤها عند بدء حقل في المستند.
 
 ```csharp
 public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
@@ -18,23 +18,23 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldStart | FieldStart | الكائن الذي تتم زيارته. |
+| fieldStart | FieldStart | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## ملاحظات
 
-يتكون الحقل الموجود في مستند Word من رمز الحقل وقيمة الحقل.
+يتكون الحقل في مستند Word من رمز الحقل وقيمة الحقل.
 
 على سبيل المثال، يمكن تمثيل الحقل الذي يعرض رقم الصفحة على النحو التالي:
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[بداية الحقل]الصفحة[فاصل الحقل]98[نهاية الحقل]
 
-يفصل فاصل الحقل رمز الحقل عن قيمة الحقل في المستند. لاحظ أن بعض حقول تحتوي على رمز الحقل فقط ولا تحتوي على فاصل حقل وقيمة حقل.
+يفصل فاصل الحقول رمز الحقل عن قيمته في المستند. يُرجى ملاحظة أن بعض حقول تحتوي على رمز الحقل فقط، ولا تحتوي على فاصل أو قيمة حقل.
 
-يمكن أن تكون متداخلة الحقول.
+يمكن تعشيش الحقول.
 
 ## أمثلة
 
@@ -46,17 +46,17 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة من جميع العقد الميدانية التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الحقل التي تم مواجهتها وأطفالها.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -72,7 +72,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -82,7 +82,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -94,7 +94,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -106,7 +106,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -116,10 +116,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة للحقل.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة الحقل الخاصة بالعقد الفرعية.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

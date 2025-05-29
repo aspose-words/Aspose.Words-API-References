@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ClearFormat
 linktitle: ClearFormat
 articleTitle: ClearFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection ClearFormat 方法. 清除所有格式ChartDataLabel在这个集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 ChartDataLabelCollection 中的 ClearFormat 方法轻松重置所有图表数据标签格式，以获得更清晰的视觉效果。
 type: docs
-weight: 150
+weight: 180
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method
 
-清除所有格式[`ChartDataLabel`](../../chartdatalabel/)在这个集合中.
+清除所有格式[`ChartDataLabel`](../../chartdatalabel/)在此集合中。
 
 ```csharp
 public void ClearFormat()
@@ -18,7 +18,7 @@ public void ClearFormat()
 
 ## 例子
 
-展示如何将标签应用到折线图中的数据点。
+展示如何将标签应用于折线图中的数据点。
 
 ```csharp
 public void DataLabels()
@@ -52,10 +52,13 @@ public void DataLabels()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
+    dataLabel.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
@@ -66,10 +69,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

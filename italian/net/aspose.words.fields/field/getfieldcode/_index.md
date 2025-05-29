@@ -3,14 +3,14 @@ title: Field.GetFieldCode
 linktitle: GetFieldCode
 articleTitle: GetFieldCode
 second_title: Aspose.Words per .NET
-description: Field GetFieldCode metodo. Restituisce il testo compreso tra linizio del campo e il separatore di campo o la fine del campo se non è presente alcun separatore. Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari in C#.
+description: Scopri il metodo GetFieldCode, recupera facilmente il testo tra l'inizio e il separatore del campo, inclusi i codici dei campi figlio e i risultati. Migliora la tua efficienza di programmazione!
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari.
+Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio.
 
 ```csharp
 public string GetFieldCode()
@@ -30,7 +30,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Questo sovraccarico del metodo InsertField aggiorna automaticamente i campi inseriti.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 Mostra come ottenere il codice di campo di un campo.
@@ -62,7 +62,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ## GetFieldCode(*bool*) {#getfieldcode_1}
 
-Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore).
+Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore).
 
 ```csharp
 public string GetFieldCode(bool includeChildFieldCodes)
@@ -70,7 +70,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `VERO` se i codici di campo secondari devono essere inclusi. |
+| includeChildFieldCodes | Boolean | `VERO` se i codici dei campi figlio devono essere inclusi. |
 
 ## Esempi
 

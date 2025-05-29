@@ -3,16 +3,16 @@ title: BuildVersionInfo Class
 linktitle: BuildVersionInfo
 articleTitle: BuildVersionInfo
 second_title: Aspose.Words для .NET
-description: Aspose.Words.BuildVersionInfo сорт. Предоставляет информацию о текущем названии и версии продукта на С#.
+description: Откройте для себя класс Aspose.Words.BuildVersionInfo для получения подробной информации о названии и версии продукта. Улучшите управление документами с помощью надежных данных!
 type: docs
-weight: 120
+weight: 310
 url: /ru/net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class
 
-Предоставляет информацию о текущем названии и версии продукта.
+Предоставляет информацию о текущем названии продукта и версии.
 
-Чтобы узнать больше, посетите[Имя генератора или производителя, включенное в выходные документы](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) статья документации.
+Чтобы узнать больше, посетите[Имя генератора или производителя включено в выходные документы](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) документальная статья.
 
 ```csharp
 public static class BuildVersionInfo

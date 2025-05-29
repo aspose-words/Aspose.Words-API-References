@@ -2,15 +2,15 @@
 title: IBibliographyStylesProvider Interface
 linktitle: IBibliographyStylesProvider
 articleTitle: IBibliographyStylesProvider
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.IBibliographyStylesProvider 界面. 实现此接口为 提供参考书目样式FieldBibliography和FieldCitation更新时的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Aspose.Words.IBibliographyStylesProvider 接口增强您的文档格式，非常适合自定义引用中的参考书目样式。
 type: docs
-weight: 2670
+weight: 3080
 url: /zh/net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface
 
-实现此接口为 提供参考书目样式[`FieldBibliography`](../fieldbibliography/)和[`FieldCitation`](../fieldcitation/)更新时的字段。
+实现此接口来为 提供参考书目样式[`FieldBibliography`](../fieldbibliography/)和[`FieldCitation`](../fieldcitation/)字段更新时。
 
 ```csharp
 public interface IBibliographyStylesProvider
@@ -28,13 +28,17 @@ public interface IBibliographyStylesProvider
 
 ```csharp
 public void ChangeBibliographyStyles()
-{            
+{
     Document doc = new Document(MyDir + "Bibliography.docx");
+
+    // 如果文档已经有样式，您可以使用以下代码进行更改：
+    // doc.Bibliography.BibliographyStyle = "书目自定义样式.xsl";
 
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 
     doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
 }
 
 public class BibliographyStylesProvider : IBibliographyStylesProvider

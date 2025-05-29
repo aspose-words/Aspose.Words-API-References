@@ -3,7 +3,7 @@ title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
 second_title: Aspose.Words para .NET
-description: StreamFontSource OpenFontDataStream método. Este método debería abrir la secuencia con datos de fuente a pedido en C#.
+description: Descubra el método StreamFontSource OpenFontDataStream para acceder de manera eficiente a los flujos de datos de fuentes a pedido, mejorando su flujo de trabajo de diseño.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/streamfontsource/openfontdatastream/
@@ -22,11 +22,11 @@ Flujo de datos de fuentes.
 
 ## Observaciones
 
-La transmisión se cerrará después de la lectura. No es necesario cerrarlo explícitamente.
+El flujo se cerrará después de leerlo. No es necesario cerrarlo explícitamente.
 
 ## Ejemplos
 
-Muestra cómo cargar fuentes desde la secuencia.
+Muestra cómo cargar fuentes desde la transmisión.
 
 ```csharp
 public void StreamFontSourceFileRendering()
@@ -43,7 +43,7 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource

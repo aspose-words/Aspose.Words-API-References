@@ -2,15 +2,15 @@
 title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
-second_title: Aspose.Words for .NET
-description: RevisionGroup RevisionType mülk. Bu gruba dahil olan revizyonların türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Projenizdeki revizyon türlerini kolayca belirlemek ve yönetmek için RevisionGroup RevisionType özelliğini keşfedin. İş akışınızı bugün hızlandırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Bu gruba dahil olan revizyonların türünü alır.
+Bu gruba dahil edilen revizyonların türünü alır.
 
 ```csharp
 public RevisionType RevisionType { get; }
@@ -18,7 +18,7 @@ public RevisionType RevisionType { get; }
 
 ## Örnekler
 
-Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubuyla ilgili bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

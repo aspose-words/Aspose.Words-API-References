@@ -3,9 +3,9 @@ title: ShapeBase.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words pour .NET
-description: ShapeBase RelativeHorizontalPosition propriété. Spécifie par rapport à quoi la forme est positionnée horizontalement en C#.
+description: Découvrez la propriété ShapeBase RelativeHorizontalPosition pour maîtriser le positionnement horizontal des formes. Optimisez votre conception avec précision et contrôle !
 type: docs
-weight: 420
+weight: 450
 url: /fr/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
@@ -20,17 +20,17 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 La valeur par défaut estColumn.
 
-N'a d'effet que sur les formes flottantes de niveau supérieur.
+N'a d'effet que pour les formes flottantes de niveau supérieur.
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

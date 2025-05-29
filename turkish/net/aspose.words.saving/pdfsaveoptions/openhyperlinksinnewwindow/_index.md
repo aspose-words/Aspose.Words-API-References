@@ -2,15 +2,15 @@
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
 linktitle: OpenHyperlinksInNewWindow
 articleTitle: OpenHyperlinksInNewWindow
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions OpenHyperlinksInNewWindow mülk. Pdf document çıktısındaki köprülerin tarayıcının yeni bir penceresinde veya sekmesinde açılmaya zorlanıp zorlanmayacağını belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: PDF'nizdeki köprü metni davranışını PdfSaveOptions ile kontrol edin. Gelişmiş kullanıcı deneyimi için bağlantıları yeni bir pencerede veya sekmede açılacak şekilde kolayca ayarlayın.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property
 
-Pdf document çıktısındaki köprülerin tarayıcının yeni bir penceresinde (veya sekmesinde) açılmaya zorlanıp zorlanmayacağını belirleyen bir değer alır veya ayarlar.
+Çıktı Pdf belgesindeki köprü metinlerinin bir tarayıcının yeni bir penceresinde (veya sekmesinde) açılmasının zorunlu olup olmadığını belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public bool OpenHyperlinksInNewWindow { get; set; }
@@ -18,28 +18,28 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 ## Notlar
 
-Varsayılan değer:`YANLIŞ` . Bu değer şu şekilde ayarlandığında`doğru` köprüler JavaScript kodu kullanılarak kaydedilir. JavaScript kodu`app.launchURL("URL", doğru);` , nerede`URL'si` bir köprüdür.
+Varsayılan değer:`YANLIŞ` Bu değer olarak ayarlandığında`doğru` köprü metinleri JavaScript kodu kullanılarak kaydedilir. JavaScript kodu`app.launchURL("URL", doğru);` , nerede`URL` bir köprü metnidir.
 
-Bu seçeneğin şu şekilde ayarlandığını unutmayın:`doğru` köprüler Chrome, Firefox gibi bazı PDF okuyucularda çalışamaz .
+Bu seçeneğin şu şekilde ayarlandığını unutmayın:`doğru` hiperlinkler bazı PDF okuyucularında (örneğin Chrome, Firefox) çalışamaz
 
-JavaScript eylemleri PDF/A-1 ve PDF/A-2 uyumluluğu nedeniyle yasaklanmıştır.`YANLIŞ` PDF/A-1 ve PDF/A-2'ye kaydedildiğinde otomatik olarak kullanılacaktır.
+PDF/A-1 ve PDF/A-2 uyumluluğu JavaScript eylemlerini yasaklamaktadır.`YANLIŞ`PDF/A-1 ve PDF/A-2'ye kayıt yaparken otomatik olarak kullanılacaktır.
 
 ## Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki köprülerin, üzerlerine tıkladığımızda yeni sayfalar açmaları için nasıl kaydedileceğini gösterir.
+PDF'e dönüştürdüğümüz bir belgedeki köprü metinlerinin, üzerine tıkladığımızda yeni sayfalar açacak şekilde nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", false);
+builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", yanlış);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Javascript kodunu kullanarak tüm köprüleri kaydetmek için "OpenHyperlinksInNewWindow" özelliğini "true" olarak ayarlayın
-// okuyucuları bu bağlantıları yeni pencerelerde/tarayıcı sekmelerinde açmaya zorlar.
-// Tüm köprüleri normal şekilde kaydetmek için "OpenHyperlinksInNewWindow" özelliğini "false" olarak ayarlayın.
+// Javascript kodunu kullanarak tüm köprü metinlerini kaydetmek için "OpenHyperlinksInNewWindow" özelliğini "true" olarak ayarlayın
+// okuyucuların bu bağlantıları yeni pencerelerde/tarayıcı sekmelerinde açmasını zorunlu kılar.
+// Tüm köprü metinlerini normal şekilde kaydetmek için "OpenHyperlinksInNewWindow" özelliğini "false" olarak ayarlayın.
 options.OpenHyperlinksInNewWindow = openHyperlinksInNewWindow;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);

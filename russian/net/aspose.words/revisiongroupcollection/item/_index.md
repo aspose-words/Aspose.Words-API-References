@@ -3,14 +3,14 @@ title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: RevisionGroupCollection Item свойство. Возвращает группу редакций по указанному индексу на С#.
+description: Получите доступ к определенным группам ревизий без усилий с помощью свойства RevisionGroupCollection Item. Улучшите управление данными с помощью точного индексирования.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Возвращает группу редакций по указанному индексу.
+Возвращает группу ревизий по указанному индексу.
 
 ```csharp
 public RevisionGroup this[int index] { get; }
@@ -18,7 +18,7 @@ public RevisionGroup this[int index] { get; }
 
 ## Примеры
 
-Показывает, как получить группу редакций в документе.
+Показывает, как получить группу правок в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

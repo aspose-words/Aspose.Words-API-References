@@ -3,7 +3,7 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words для .NET
-description: Odso UdlConnectString свойство. Указывает строку подключения Universal Data Link UDL используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка на С#.
+description: Откройте для себя свойство Odso UdlConnectString для бесшовных подключений к внешним источникам данных с помощью UDL. Разблокируйте интеграцию данных с легкостью и эффективностью!
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/odso/udlconnectstring/

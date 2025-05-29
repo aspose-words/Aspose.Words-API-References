@@ -3,14 +3,14 @@ title: DocumentBuilder.EndTable
 linktitle: EndTable
 articleTitle: EndTable
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder EndTable طريقة. إنهاء جدول في المستند في C#.
+description: قم باختتام جداول المستندات الخاصة بك بسهولة باستخدام طريقة EndTable الخاصة بـ DocumentBuilder، مما يضمن تنسيقًا سلسًا وعرضًا احترافيًا.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/documentbuilder/endtable/
 ---
 ## DocumentBuilder.EndTable method
 
-إنهاء جدول في المستند.
+ينهي جدولًا في المستند.
 
 ```csharp
 public Table EndTable()
@@ -22,11 +22,11 @@ public Table EndTable()
 
 ## ملاحظات
 
-يجب أن يتم استدعاء هذه الطريقة مرة واحدة فقط بعد ذلك[`EndRow`](../endrow/) كان يسمى. عند الاتصال، `EndTable` يحرك المؤشر خارج الخلية الحالية ليشير بعد الجدول مباشرة.
+يجب استدعاء هذه الطريقة مرة واحدة فقط بعد[`EndRow`](../endrow/) تم استدعاؤه. عند استدعائه، `EndTable` يحرك المؤشر خارج الخلية الحالية ليشير إلى ما بعد الجدول مباشرة.
 
 ## أمثلة
 
-يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الخلايا باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// أدخل خلية ثانية، ثم قم بتكوين خيارات حشو نص الخلية.
-// سيقوم المنشئ بتطبيق هذه الإعدادات في خليته الحالية، وسيتم إنشاء أي خلايا جديدة بعد ذلك.
+// أدخل خلية ثانية، ثم قم بتكوين خيارات تعبئة نص الخلية.
+// سيقوم المنشئ بتطبيق هذه الإعدادات في الخلية الحالية، وأي خلايا جديدة يتم إنشاؤها بعد ذلك.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -64,11 +64,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// ستستمر الخلية الأولى في النمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
+// ستظل الخلية الأولى تنمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -82,8 +82,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -117,7 +117,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -142,8 +142,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -154,7 +154,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

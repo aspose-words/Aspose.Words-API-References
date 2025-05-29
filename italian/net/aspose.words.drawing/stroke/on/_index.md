@@ -3,9 +3,9 @@ title: Stroke.On
 linktitle: On
 articleTitle: On
 second_title: Aspose.Words per .NET
-description: Stroke On proprietà. Definisce se il percorso verrà tracciato in C#.
+description: Controlla lo stile del tracciato con la proprietà Traccia attiva. Migliora i tuoi progetti definendo come tracciare i tracciati per un aspetto raffinato e professionale.
 type: docs
-weight: 140
+weight: 190
 url: /it/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property

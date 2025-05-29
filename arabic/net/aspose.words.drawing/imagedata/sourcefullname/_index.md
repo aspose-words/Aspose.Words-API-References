@@ -3,14 +3,14 @@ title: ImageData.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words لـ .NET
-description: ImageData SourceFullName ملكية. الحصول على أو تعيين مسار واسم الملف المصدر للصورة المرتبطة في C#.
+description: اكتشف خاصية ImageData SourceFullName لإدارة مسارات الصور وأسماء الملفات المرتبطة بسهولة، مما يعزز كفاءة التعامل مع الصور.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/imagedata/sourcefullname/
 ---
 ## ImageData.SourceFullName property
 
-الحصول على أو تعيين مسار واسم الملف المصدر للصورة المرتبطة.
+يحصل على مسار واسم ملف المصدر للصورة المرتبطة أو يعينهما.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -32,8 +32,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// فيما يلي طريقتان لتطبيق صورة على شكل حتى يتمكن من عرضها.
-// 1 - قم بتعيين الشكل الذي يحتوي على الصورة.
+// فيما يلي طريقتان لتطبيق صورة على شكل حتى يمكن عرضها.
+// 1 - اضبط الشكل لاحتواء الصورة.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -42,7 +42,7 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// كل صورة نخزنها في شكلها ستزيد من حجم وثيقتنا.
+// كل صورة نقوم بتخزينها بالشكل المناسب سوف تؤدي إلى زيادة حجم مستندنا.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
@@ -55,9 +55,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// سيؤدي الارتباط بالصور إلى توفير المساحة وينتج عنه مستند أصغر.
-// ومع ذلك، يمكن للمستند عرض الصورة بشكل صحيح فقط while
-// ملف الصورة موجود في الموقع الذي تشير إليه خاصية "SourceFullName" الخاصة بالشكل.
+// سيؤدي ربط الصور إلى توفير المساحة وسيؤدي إلى مستند أصغر حجمًا.
+// ومع ذلك، لا يمكن للمستند عرض الصورة بشكل صحيح إلا أثناء
+// ملف الصورة موجود في الموقع الذي يشير إليه خاصية "SourceFullName" الخاصة بالشكل.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

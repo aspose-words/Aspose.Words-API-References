@@ -3,14 +3,14 @@ title: TxtListIndentation Class
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.TxtListIndentation classe. Specifica il rientro dei livelli dellelenco durante lesportazione del documentoText formato in C#.
+description: Scopri la classe Aspose.Words.Saving.TxtListIndentation per personalizzare i livelli di indentazione degli elenchi per esportazioni fluide in formato testo. Migliora la formattazione dei tuoi documenti!
 type: docs
-weight: 5650
+weight: 6450
 url: /it/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
-Specifica il rientro dei livelli dell'elenco durante l'esportazione del documentoText formato.
+Specifica come i livelli dell'elenco vengono rientrati quando il documento viene esportato inText formato.
 
 Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
@@ -28,8 +28,8 @@ public class TxtListIndentation
 
 | Nome | Descrizione |
 | --- | --- |
-| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dell'elenco. Il valore predefinito è '\0', ciò significa che non c'è rientro. |
-| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Ottiene o imposta il numero[`Character`](./character/) da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0, ciò significa nessun rientro. |
+| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Ottiene o imposta il carattere da utilizzare per l'indentazione dei livelli di elenco. Il valore predefinito è '\0', che significa che non c'è indentazione. |
+| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Ottiene o imposta quanti[`Character`](./character/)da usare come rientro per un livello di elenco. Il valore predefinito è 0, che significa nessun rientro. |
 
 ## Esempi
 
@@ -47,25 +47,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Imposta la proprietà "Carattere" per assegnare un carattere da utilizzare
-// per il riempimento che simula il rientro dell'elenco nel testo normale.
+// per il padding che simula l'indentazione dell'elenco nel testo normale.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Imposta la proprietà "Count" per specificare il numero di volte
-// per posizionare il carattere di riempimento per ciascun livello di rientro dell'elenco.
+// Imposta la proprietà "Conteggio" per specificare il numero di volte
+// per posizionare il carattere di riempimento per ogni livello di rientro dell'elenco.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Guarda anche

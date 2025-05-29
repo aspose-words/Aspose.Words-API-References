@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResourceFolder
 linktitle: ResourceFolder
 articleTitle: ResourceFolder
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ResourceFolder propriété. Spécifie un dossier physique dans lequel toutes les ressources telles que les images les polices et les CSS externes sont enregistrées lorsquun document est exporté au format HTML. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez la propriété ResourceFolder de HtmlSaveOptions pour une exportation optimale de vos documents. Gérez facilement les images, les polices et les feuilles de style CSS dans un dossier dédié.
 type: docs
-weight: 420
+weight: 440
 url: /fr/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property
 
-Spécifie un dossier physique dans lequel toutes les ressources telles que les images, les polices et les CSS externes sont enregistrées lorsqu'un document est exporté au format HTML. La valeur par défaut est une chaîne vide.
+Spécifie un dossier physique où sont enregistrées toutes les ressources (images, polices et CSS externes) lors de l'exportation d'un document au format HTML. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string ResourceFolder { get; set; }
@@ -18,15 +18,15 @@ public string ResourceFolder { get; set; }
 
 ## Remarques
 
-`ResourceFolder` est le moyen le plus simple de spécifier un dossier dans lequel toutes les ressources doivent être écrites. Une autre façon consiste à utiliser des propriétés individuelles[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/).
+`ResourceFolder` est le moyen le plus simple de spécifier un dossier dans lequel toutes les ressources doivent être écrites. Une autre façon est d'utiliser des propriétés individuelles[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
-`ResourceFolder` a une priorité inférieure aux dossiers spécifiés via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Par exemple, si Both `ResourceFolder` et[`FontsFolder`](../fontsfolder/)sont spécifiés, les polices seront enregistrées dans[`FontsFolder`](../fontsfolder/) , tandis que les images et CSS seront enregistrés dans`ResourceFolder`.
+`ResourceFolder` a une priorité inférieure à celle des dossiers spécifiés via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Par exemple, si both `ResourceFolder` et[`FontsFolder`](../fontsfolder/)sont spécifiés, les polices seront enregistrées dans[`FontsFolder`](../fontsfolder/) , tandis que les images et le CSS seront enregistrés dans`ResourceFolder`.
 
 Si le dossier spécifié par`ResourceFolder` n'existe pas, il sera créé automatiquement.
 
 ## Exemples
 
-Montre comment définir des dossiers et des alias de dossier pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
+Montre comment définir des dossiers et des alias de dossiers pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

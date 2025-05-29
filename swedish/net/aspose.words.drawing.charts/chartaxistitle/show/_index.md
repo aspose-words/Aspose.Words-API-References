@@ -3,14 +3,14 @@ title: ChartAxisTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words för .NET
-description: ChartAxisTitle Show fast egendom. Bestämmer om titeln ska visas för axeln. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen ChartAxisTitle Show för att kontrollera synligheten av axelrubriker. Förbättra dina diagram med tydliga, informativa titlar för bättre datainsikter.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
 
-Bestämmer om titeln ska visas för axeln. Standardvärdet är`falsk` .
+Avgör om titeln ska visas för axeln. Standardvärdet är`falsk` .
 
 ```csharp
 public bool Show { get; set; }
@@ -28,17 +28,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Ställ in axeltitel.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
 second_title: Aspose.Words för .NET
-description: ParagraphFormat LineSpacing fast egendom. Hämtar eller ställer in radavståndet i punkter för stycket i C#.
+description: Justera radavståndet i dina stycken enkelt med egenskapen ParagraphFormat LineSpacing. Förbättra läsbarheten och stilen i dina dokument!
 type: docs
 weight: 190
 url: /sv/net/aspose.words/paragraphformat/linespacing/
@@ -18,9 +18,9 @@ public double LineSpacing { get; set; }
 
 ## Anmärkningar
 
-När[`LineSpacingRule`](../linespacingrule/) egenskapen är inställd påAtLeast , radavståndet kan vara större än eller lika med, men aldrig mindre än det angivna`LineSpacing` värde.
+När[`LineSpacingRule`](../linespacingrule/) egendomen är inställd påAtLeast , radavståndet kan vara större än eller lika med men aldrig mindre än det angivna`LineSpacing` värde.
 
-När[`LineSpacingRule`](../linespacingrule/) egenskapen är inställd påExactly , radavståndet ändras aldrig från det angivna`LineSpacing` värde, även om ett större teckensnitt används inom stycket.
+När[`LineSpacingRule`](../linespacingrule/) egendomen är inställd påExactly , radavståndet ändras aldrig från det angivna`LineSpacing` värde, även om ett större teckensnitt används i stycket.
 
 ## Exempel
 
@@ -30,27 +30,27 @@ Visar hur man arbetar med radavstånd.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns tre radavståndsregler som vi kan definiera med hjälp av
+// Nedan följer tre radavståndsregler som vi kan definiera med hjälp av
 // styckets "LineSpacingRule"-egenskap för att konfigurera avståndet mellan stycken.
-// 1 - Ställ in ett minsta avstånd.
-// Detta kommer att ge vertikal utfyllnad till textrader av valfri storlek
-// som är för liten för att bibehålla den lägsta linjehöjden.
+// 1 - Ange ett minsta avstånd.
+// Detta ger vertikal utfyllnad till textrader av valfri storlek
+// som är för liten för att bibehålla den minsta radhöjden.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 
 builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
-// 2 - Ställ in exakt avstånd.
-// Om du använder teckenstorlekar som är för stora för avståndet kommer texten att trunkeras.
+// 2 - Ange exakt avstånd.
+// Om du använder för stora teckenstorlekar för avståndet kommer texten att avkortas.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 - Ange avstånd som en multipel av standard radavstånd, vilket är 12 punkter som standard.
-// Den här typen av mellanrum kommer att skalas till olika teckenstorlekar.
+// 3 - Ange radavståndet som en multipel av standardradavståndet, vilket är 12 punkter som standard.
+// Den här typen av avstånd skalas till olika teckenstorlekar.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;
 

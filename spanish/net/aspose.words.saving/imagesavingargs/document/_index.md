@@ -3,14 +3,14 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words para .NET
-description: ImageSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando actualmente en C#.
+description: Descubra la propiedad de documento ImageSavingArgs para acceder al documento actual que se está guardando, mejorando la eficiencia de su flujo de trabajo y ahorrando tiempo.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-Obtiene el objeto del documento que se está guardando actualmente.
+Obtiene el objeto de documento que se está guardando actualmente.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Ejemplos
 
-Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
+Muestra cómo involucrar una devolución de llamada de guardado de imágenes en un proceso de conversión HTML.
 
 ```csharp
 public void ImageSavingCallback()

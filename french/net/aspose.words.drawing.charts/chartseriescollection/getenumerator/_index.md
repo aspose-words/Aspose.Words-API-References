@@ -3,7 +3,7 @@ title: ChartSeriesCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: ChartSeriesCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode GetEnumerator de ChartSeriesCollection : récupérez efficacement les objets énumérateurs pour une manipulation et une analyse transparentes des données.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
@@ -24,17 +24,17 @@ Montre comment ajouter et supprimer des données de série dans un graphique.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un histogramme qui contiendra trois séries de données de démonstration par défaut.
+// Insérez un graphique à colonnes qui contiendra trois séries de données de démonstration par défaut.
 Shape chartShape = builder.InsertChart(ChartType.Column, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Chaque série a quatre valeurs décimales : une pour chacune des quatre catégories.
+// Chaque série comporte quatre valeurs décimales : une pour chacune des quatre catégories.
 // Quatre groupes de trois colonnes représenteront ces données.
 ChartSeriesCollection chartData = chart.Series;
 
 Assert.AreEqual(3, chartData.Count);
 
-// Imprime le nom de chaque série du graphique.
+// Imprimez le nom de chaque série dans le graphique.
 using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -54,8 +54,8 @@ chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-// Nous pouvons également effacer toutes les données du graphique en même temps avec cette méthode.
-// Lors de la création d'un nouveau graphique, c'est le moyen d'effacer toutes les données de démonstration
+// Nous pouvons également effacer toutes les données du graphique en une seule fois avec cette méthode.
+// Lors de la création d'un nouveau graphique, voici comment effacer toutes les données de démonstration
 // avant de pouvoir commencer à travailler sur un graphique vierge.
 chartData.Clear();
 ```

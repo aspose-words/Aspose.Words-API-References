@@ -2,15 +2,15 @@
 title: PrinterSettingsContainer.PaperSources
 linktitle: PaperSources
 articleTitle: PaperSources
-second_title: Aspose.Words for .NET
-description: PrinterSettingsContainer PaperSources mülk. Bkz.PaperSources  C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz baskı için PrinterSettingsContainer'ın PaperSources özelliğini keşfedin. Daha iyi sonuçlar ve verimlilik için baskı ayarlarınızı optimize edin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.rendering/printersettingscontainer/papersources/
 ---
 ## PrinterSettingsContainer.PaperSources property
 
-Bkz.PaperSources .
+BakınızPaperSources .
 
 ```csharp
 public PaperSourceCollection PaperSources { get; }
@@ -18,7 +18,7 @@ public PaperSourceCollection PaperSources { get; }
 
 ## Örnekler
 
-Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
+Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları nasıl listeleyeceğinizi gösterir.
 
 ```csharp
 // "PrinterSettingsContainer" bir "PrinterSettings" nesnesi içerir,
@@ -33,12 +33,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// "PaperSizes" özelliği, yazıcının kullanması talimatını verecek kağıt boyutlarının listesini içerir.
+// "PaperSizes" özelliği, yazıcının kullanması gereken kağıt boyutlarının listesini içerir.
 // Hem PrinterSource hem de PrinterSize bir "RawKind" özelliği içerir,
-// bu, PaperSourceKind numaralandırmasında listelenen kağıt türüne eşittir.
-// Yazdırılan sayfayla aynı "RawKind" değerine sahip bir kağıt kaynağı varsa,
-// yazıcı, sağlanan kağıt kaynağını ve boyutunu kullanarak sayfayı yazdıracaktır.
-// Aksi takdirde, yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirlenen kaynağı kullanacaktır.
+// PaperSourceKind enumunda listelenen bir kağıt türüne eşdeğerdir.
+// Yazdırma sayfasının "RawKind" değeriyle aynı olan bir kağıt kaynağı varsa,
+// yazıcı, sağlanan kağıt kaynağı ve boyutunu kullanarak sayfayı yazdıracaktır.
+// Aksi takdirde yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirtilen kaynağa dönecektir.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

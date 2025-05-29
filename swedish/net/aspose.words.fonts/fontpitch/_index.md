@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontPitch uppräkning. Representerar teckensnittets tonhöjd i C#.
+description: Upptäck Aspose.Words.Fonts.FontPitch-enum, ett kraftfullt verktyg för att hantera teckensnitt och förbättra dokumentformatering i dina applikationer.
 type: docs
-weight: 2960
+weight: 3390
 url: /sv/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Representerar teckensnittets tonhöjd.
+Representerar teckensnittets breddgrad.
 
 ```csharp
 public enum FontPitch
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Default | `0` | Anger att ingen information är tillgänglig om tonhöjden för ett teckensnitt. |
+| Default | `0` | Anger att ingen information finns tillgänglig om teckensnittets breddgrad. |
 | Fixed | `1` | Anger att detta är ett teckensnitt med fast bredd. |
 | Variable | `2` | Anger att detta är ett teckensnitt med proportionell bredd. |
 
 ## Anmärkningar
 
-Pitch indikerar om teckensnittet är fast breddsteg, proportionellt fördelat eller är beroende av en standardinställning.
+Bredvidden anger om teckensnittet har fast bredd, är proportionellt fördelat eller använder en standardinställning.
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

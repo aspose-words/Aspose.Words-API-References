@@ -3,14 +3,14 @@ title: OdsoFieldMapDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: OdsoFieldMapDataCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
+description: اكتشف طريقة GetEnumerator في OdsoFieldMapDataCollection لتكرار جميع عناصر المجموعة بسهولة. حسّن معالجة بياناتك اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 ---
 ## OdsoFieldMapDataCollection.GetEnumerator method
 
-إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة.
 
 ```csharp
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
@@ -18,13 +18,13 @@ public IEnumerator<OdsoFieldMapData> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات إلى حقول الدمج.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
-// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية قيام دمج البريد بتعيين الأعمدة من مصدر البيانات
+// إلى الحقول المحددة مسبقًا MERGEFIELD وADDRESSBLOCK وGREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر الموجودة في هذه المجموعة.
+//استنساخ العناصر في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
+// استخدم عناصر طريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
+//استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

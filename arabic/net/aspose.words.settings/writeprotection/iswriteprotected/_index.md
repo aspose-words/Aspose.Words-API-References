@@ -3,14 +3,14 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words لـ .NET
-description: WriteProtection IsWriteProtected ملكية. إرجاعحقيقي عندما يتم تعيين كلمة مرور الحماية ضد الكتابة في C#.
+description: اكتشف خاصية WriteProtection IsWriteProtected، وتحقق بسهولة مما إذا كانت كلمة مرور حماية الكتابة نشطة لتحسين الأمان وسلامة البيانات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-إرجاع`حقيقي` عندما يتم تعيين كلمة مرور الحماية ضد الكتابة.
+إرجاع`حقيقي` عندما يتم تعيين كلمة مرور لحماية الكتابة.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير محتوياته.
+// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير المحتويات.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

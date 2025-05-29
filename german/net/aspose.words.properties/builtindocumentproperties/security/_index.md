@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Security
 linktitle: Security
 articleTitle: Security
 second_title: Aspose.Words für .NET
-description: BuiltInDocumentProperties Security eigendom. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an in C#.
+description: Entdecken Sie die Sicherheitsfunktion „BuiltInDocumentProperties“, die die Sicherheitsstufe Ihres Dokuments präzise definiert. Verbessern Sie noch heute Ihren Dokumentenschutz!
 type: docs
-weight: 250
+weight: 270
 url: /de/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
@@ -18,29 +18,29 @@ public DocumentSecurity Security { get; set; }
 
 ## Bemerkungen
 
-Verwenden Sie diese Eigenschaft nur zu Informationszwecken, da Microsoft Word diese Eigenschaft nicht immer festlegt. Diese Eigenschaft ist nur in DOC- und OOXML-Dokumenten verfügbar.
+Verwenden Sie diese Eigenschaft nur zu Informationszwecken, da sie in Microsoft Word nicht immer festgelegt wird. Diese Eigenschaft ist nur in DOC- und OOXML-Dokumenten verfügbar.
 
-Um ein Dokument zu schützen oder den Schutz aufzuheben, verwenden Sie the [`Protect`](../../../aspose.words/document/protect/) Und[`Unprotect`](../../../aspose.words/document/unprotect/) Methoden.
+Um ein Dokument zu schützen oder den Schutz aufzuheben, verwenden Sie die Funktion [`Protect`](../../../aspose.words/document/protect/) Und[`Unprotect`](../../../aspose.words/document/unprotect/) Methoden.
 
-Aspose.Words aktualisiert diese Eigenschaft auf einen korrekten Wert, bevor ein Dokument gespeichert wird.
+Aspose.Words aktualisiert diese Eigenschaft vor dem Speichern eines Dokuments auf einen korrekten Wert.
 
 ## Beispiele
 
-Zeigt, wie Dokumenteigenschaften verwendet werden, um die Sicherheitsstufe eines Dokuments anzuzeigen.
+Zeigt, wie Sie Dokumenteigenschaften verwenden, um die Sicherheitsstufe eines Dokuments anzuzeigen.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Wenn wir ein Dokument als schreibgeschützt konfigurieren, zeigt es diesen Status mithilfe der integrierten Eigenschaft „Sicherheit“ an.
+// Wenn wir ein Dokument als schreibgeschützt konfigurieren, wird dieser Status mithilfe der integrierten Eigenschaft „Sicherheit“ angezeigt.
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// Schreibschützen Sie ein Dokument und überprüfen Sie dann seine Sicherheitsstufe.
+// Schützen Sie ein Dokument mit einem Schreibschutz und überprüfen Sie dann seine Sicherheitsstufe.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// „Sicherheit“ ist eine beschreibende Eigenschaft. Wir können seinen Wert manuell bearbeiten.
+// „Sicherheit“ ist eine beschreibende Eigenschaft. Wir können ihren Wert manuell bearbeiten.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

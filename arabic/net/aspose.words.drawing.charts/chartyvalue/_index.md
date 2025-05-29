@@ -3,14 +3,14 @@ title: ChartYValue Class
 linktitle: ChartYValue
 articleTitle: ChartYValue
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartYValue فصل. يمثل قيمة Y لسلسلة المخططات في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartYValue للحصول على تمثيل دقيق لقيمة Y في سلسلة المخططات الخاصة بك، مما يعزز تصور البيانات لديك.
 type: docs
-weight: 870
+weight: 1190
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/
 ---
 ## ChartYValue class
 
-يمثل قيمة Y لسلسلة المخططات.
+يمثل قيمة Y لسلسلة الرسم البياني.
 
 ```csharp
 public class ChartYValue
@@ -20,26 +20,26 @@ public class ChartYValue
 
 | اسم | وصف |
 | --- | --- |
-| [DateTimeValue](../../aspose.words.drawing.charts/chartyvalue/datetimevalue/) { get; } | الحصول على قيمة التاريخ والوقت المخزنة. |
-| [DoubleValue](../../aspose.words.drawing.charts/chartyvalue/doublevalue/) { get; } | الحصول على القيمة الرقمية المخزنة. |
-| [TimeValue](../../aspose.words.drawing.charts/chartyvalue/timevalue/) { get; } | الحصول على قيمة الوقت المخزنة. |
-| [ValueType](../../aspose.words.drawing.charts/chartyvalue/valuetype/) { get; } | الحصول على نوع قيمة Y المخزنة في الكائن. |
+| [DateTimeValue](../../aspose.words.drawing.charts/chartyvalue/datetimevalue/) { get; } | يحصل على قيمة التاريخ والوقت المخزنة. |
+| [DoubleValue](../../aspose.words.drawing.charts/chartyvalue/doublevalue/) { get; } | يحصل على القيمة الرقمية المخزنة. |
+| [TimeValue](../../aspose.words.drawing.charts/chartyvalue/timevalue/) { get; } | يحصل على قيمة الوقت المخزنة. |
+| [ValueType](../../aspose.words.drawing.charts/chartyvalue/valuetype/) { get; } | يحصل على نوع قيمة Y المخزنة في الكائن. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | إنشاء ملف`ChartYValue` مثال علىDateTime اكتب. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | إنشاء ملف`ChartYValue` مثال علىDouble اكتب. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | إنشاء ملف`ChartYValue` مثال علىTime اكتب. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي. |
-| override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | الحصول على رمز التجزئة لكائن القيمة Y الحالي. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | ينشئ`ChartYValue` مثال على ذلكDateTime النوع. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | ينشئ`ChartYValue` مثال على ذلكDouble النوع. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | ينشئ`ChartYValue` مثال على ذلكTime النوع. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | يحصل على علم يشير إلى ما إذا كان الكائن المحدد يساوي قيمة الكائن Y الحالية. |
+| override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | يحصل على رمز تجزئة لكائن القيمة Y الحالي. |
 
 ## ملاحظات
 
-تحتوي هذه الفئة على عدد من الطرق الثابتة لإنشاء قيمة Y لنوع معين. The [`ValueType`](./valuetype/) تتيح لك الخاصية تحديد نوع قيمة Y الموجودة.
+تحتوي هذه الفئة على عدد من الطرق الثابتة لإنشاء قيمة Y من نوع معين. The [`ValueType`](./valuetype/) تتيح لك الخاصية تحديد نوع قيمة Y الموجودة.
 
-يجب أن تكون كافة قيم Y غير الخالية لسلسلة المخططات متماثلة[`ChartYValueType`](../chartyvaluetype/) يكتب.
+يجب أن تكون جميع قيم Y غير الصفرية لسلسلة الرسم البياني من نفس القيمة[`ChartYValueType`](../chartyvaluetype/) يكتب.
 
 ### أنظر أيضا
 

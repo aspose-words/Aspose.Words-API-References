@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: BaseWebExtensionCollection Item fast egendom. Hämtar eller ställer in ett objekt på angivet index i C#.
+description: Upptäck BaseWebExtensionCollections objektegenskap för att enkelt hantera objekt efter index. Förenkla din utveckling med effektiv datahantering idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/item/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; indexer
 
-Hämtar eller ställer in ett objekt på angivet index.
+Hämtar eller ställer in ett objekt vid det angivna indexet.
 
 ```csharp
 public T this[int index] { get; set; }

@@ -2,15 +2,15 @@
 title: PreferredWidth.FromPercent
 linktitle: FromPercent
 articleTitle: FromPercent
-second_title: Aspose.Words for .NET
-description: PreferredWidth FromPercent yöntem. Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi C#'da.
+second_title: .NET için Aspose.Words
+description: Tercih edilen genişlikleri yüzde olarak tanımlamak için yeni bir örnek oluşturan PreferredWidth FromPercent yöntemini keşfedin. Tasarım hassasiyetinizi artırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/preferredwidth/frompercent/
 ---
 ## PreferredWidth.FromPercent method
 
-Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi.
+Yüzde olarak belirtilen tercih edilen bir genişliği temsil eden yeni bir örnek döndüren bir oluşturma yöntemi.
 
 ```csharp
 public static PreferredWidth FromPercent(double percent)
@@ -18,7 +18,7 @@ public static PreferredWidth FromPercent(double percent)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| percent | Double | Değer 0 ila 100 arasında olmalıdır. |
+| percent | Double | Değer 0 ile 100 arasında olmalıdır. |
 
 ## Örnekler
 
@@ -49,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "PreferredWidth" sınıfını tablo hücrelerine uygulamanın iki yolu vardır.
-// 1 - Noktalara dayalı olarak tercih edilen mutlak genişliği ayarlayın:
+// 1 - Noktalara dayalı olarak mutlak bir tercih edilen genişlik ayarlayın:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
@@ -63,10 +63,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Tercih edilen genişliği belirtilmeyen bir hücre, kullanılabilir alanın geri kalanını kaplayacaktır.
+// Tercih edilen genişliği belirtilmeyen bir hücre kalan kullanılabilir alanı kaplayacaktır.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// "PreferredWidth" özelliğinin her konfigürasyonu yeni bir nesne oluşturur.
+// "PreferredWidth" özelliğinin her yapılandırması yeni bir nesne oluşturur.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

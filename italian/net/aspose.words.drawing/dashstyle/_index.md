@@ -3,9 +3,9 @@ title: DashStyle Enum
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.DashStyle enum. Stile linea tratteggiata in C#.
+description: Scopri l'enum Aspose.Words.Drawing.DashStyle per stili di linea tratteggiata versatili. Migliora il design dei tuoi documenti con elementi visivi personalizzabili.
 type: docs
-weight: 930
+weight: 1250
 url: /it/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -20,22 +20,22 @@ public enum DashStyle
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Solid | `0` | Penna continua (continua). |
-| ShortDash | `1` | Stile trattino di sistema. |
-| ShortDot | `2` | Stile trattino di sistema. |
-| ShortDashDot | `3` | Stile trattino di sistema. |
-| ShortDashDotDot | `4` | Stile trattino di sistema. |
+| Solid | `0` | Penna continua. |
+| ShortDash | `1` | Stile del trattino di sistema. |
+| ShortDot | `2` | Stile del trattino di sistema. |
+| ShortDashDot | `3` | Stile del trattino di sistema. |
+| ShortDashDotDot | `4` | Stile del trattino di sistema. |
 | Dot | `5` | Stile punto quadrato. |
 | Dash | `6` | Stile trattino. |
 | LongDash | `7` | Stile trattino lungo. |
 | DashDot | `8` | Trattino corto. |
-| LongDashDot | `9` | Trattino lungo trattino corto. |
-| LongDashDotDot | `10` | Trattino lungo trattino corto trattino corto. |
-| Default | `0` | Uguale aSolid . |
+| LongDashDot | `9` | Trattino lungo, trattino corto. |
+| LongDashDotDot | `10` | Trattino lungo, trattino corto, trattino corto. |
+| Default | `0` | Lo stesso diSolid . |
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -80,7 +80,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -92,8 +92,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

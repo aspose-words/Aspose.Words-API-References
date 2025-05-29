@@ -3,14 +3,14 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words pour .NET
-description: OdsoRecipientData Column propriété. Spécifie la colonne de la source de données qui contient des données uniques pour lenregistrement actuel. La valeur par défaut est 0 en C#.
+description: Découvrez la propriété Colonne OdsoRecipientData, identifiez facilement les colonnes de données uniques pour les enregistrements et optimisez la gestion des données. La valeur par défaut est 0.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsorecipientdata/column/
 ---
 ## OdsoRecipientData.Column property
 
-Spécifie la colonne de la source de données qui contient des données uniques pour l'enregistrement actuel. La valeur par défaut est 0.
+Spécifie la colonne dans la source de données qui contient des données uniques pour l'enregistrement actuel. La valeur par défaut est 0.
 
 ```csharp
 public int Column { get; set; }
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

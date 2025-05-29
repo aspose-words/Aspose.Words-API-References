@@ -3,14 +3,14 @@ title: IDocumentSavingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words pour .NET
-description: IDocumentSavingCallback Notify méthode. Ceci est appelé pour informer de la progression de lenregistrement du document en C#.
+description: Suivez la progression de l'enregistrement de vos documents grâce à la méthode de notification iDocumentSavingCallback. Améliorez l'efficacité et l'expérience utilisateur de votre application dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Ceci est appelé pour informer de la progression de l'enregistrement du document.
+Ceci est appelé pour notifier la progression de l'enregistrement du document.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -28,14 +28,14 @@ Une exception doit être levée à partir du rappel de progression pour l'avorte
 
 ## Exemples
 
-Montre comment gérer un document tout en l'enregistrant au format HTML.
+Montre comment gérer un document lors de son enregistrement au format HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Les formats suivants sont pris en charge : Html, Mhtml, Epub.
+    // Les formats suivants sont pris en charge : Html, Mhtml, Epub.
     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -47,7 +47,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sauvegarde du rappel de progression. Annulez l'enregistrement d'un document après les secondes "MaxDuration".
+/// Rappel de progression de l'enregistrement. Annuler l'enregistrement d'un document après la durée maximale (en secondes).
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -60,9 +60,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Méthode de rappel appelée lors de la sauvegarde du document.
+    /// Méthode de rappel appelée lors de l'enregistrement du document.
     /// </summary>
-    /// <param name="args">Enregistrement des arguments.</param>
+    /// <param name="args">Sauvegarde des arguments.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -72,7 +72,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage de l'enregistrement du document.
+    /// Date et heure de début de l'enregistrement du document.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -102,7 +102,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sauvegarde du rappel de progression. Annulez l'enregistrement d'un document après les secondes "MaxDuration".
+/// Rappel de progression de l'enregistrement. Annuler l'enregistrement d'un document après la durée maximale (en secondes).
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -115,9 +115,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Méthode de rappel appelée lors de la sauvegarde du document.
+    /// Méthode de rappel appelée lors de l'enregistrement du document.
     /// </summary>
-    /// <param name="args">Enregistrement des arguments.</param>
+    /// <param name="args">Sauvegarde des arguments.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -127,7 +127,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage de l'enregistrement du document.
+    /// Date et heure de début de l'enregistrement du document.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -138,7 +138,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
 }
 ```
 
-Montre comment gérer un document lors de son enregistrement sur xamlflow.
+Montre comment gérer un document lors de l'enregistrement dans xamlflow.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -157,7 +157,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sauvegarde du rappel de progression. Annulez l'enregistrement d'un document après les secondes "MaxDuration".
+/// Rappel de progression de l'enregistrement. Annuler l'enregistrement d'un document après la durée maximale (en secondes).
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -170,9 +170,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Méthode de rappel appelée lors de la sauvegarde du document.
+    /// Méthode de rappel appelée lors de l'enregistrement du document.
     /// </summary>
-    /// <param name="args">Enregistrement des arguments.</param>
+    /// <param name="args">Sauvegarde des arguments.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -182,7 +182,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage de l'enregistrement du document.
+    /// Date et heure de début de l'enregistrement du document.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 

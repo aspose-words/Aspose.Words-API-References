@@ -2,15 +2,15 @@
 title: IImageSavingCallback Interface
 linktitle: IImageSavingCallback
 articleTitle: IImageSavingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.IImageSavingCallback arayüz. Bir belgeyi HTMLye kaydederken Aspose.Wordsün görüntüleri nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın. Diğer formatlar tarafından kullanılabilir C#'da.
+second_title: .NET için Aspose.Words
+description: IImageSavingCallback arayüzü ile Aspose.Words'de görüntü kaydetmeyi kontrol edin. Belge dışa aktarımlarını HTML ve diğer formatlara zahmetsizce optimize edin.
 type: docs
-weight: 5170
+weight: 5920
 url: /tr/net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-Bir belgeyi HTML'ye kaydederken Aspose.Words'ün görüntüleri nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın. Diğer formatlar tarafından kullanılabilir.
+Bu arayüzü, bir belgeyi HTML'e kaydederken Aspose.Words'ün görüntüleri nasıl kaydedeceğini kontrol etmek istiyorsanız uygulayın. Diğer biçimler tarafından kullanılabilir.
 
 ```csharp
 public interface IImageSavingCallback
@@ -20,11 +20,11 @@ public interface IImageSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Aspose.Words bir görüntüyü HTML'ye kaydettiğinde çağrılır. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Aspose.Words bir resmi HTML'e kaydettiğinde çağrılır. |
 
 ## Örnekler
 
-Markdown belgesine kaydederken görüntü adının nasıl yeniden adlandırılacağını gösterir.
+Markdown belgesine kaydederken resim adının nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void RenameImages()
@@ -32,13 +32,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // Eğer görseller içeren bir belgeyi Markdown'a dönüştürürsek, birden fazla görsele bağlantı veren bir Markdown dosyası elde ederiz.
-    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
+    // Resim içeren bir belgeyi Markdown'a dönüştürürsek, birden fazla resme bağlantı veren tek bir Markdown dosyası elde ederiz.
+    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacak.
+    // Ayrıca her bir görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // Geri çağrımızın ImageSaving() yöntemi şu anda çalıştırılacak.
+    // Geri aramamızın ImageSaving() metodu bu anda çalıştırılacak.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -52,7 +52,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// Markdown belgesi kaydedildiğinde üretilen kayıtlı görüntüleri yeniden adlandırır.
+/// Bir Markdown belgesi kaydedildiğinde üretilen kaydedilmiş görüntüleri yeniden adlandırır.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -78,7 +78,7 @@ public class SavedImageRename : IImageSavingCallback
 }
 ```
 
-Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
+Bir belgenin parçalara nasıl bölüneceğini ve kaydedileceğini gösterir.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -86,29 +86,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Belgeyi normal şekilde kaydedersek tek bir çıktı HTML'si olacaktır
+    // Belgeyi normal şekilde kaydedersek, bir HTML çıktısı olacaktır
     // kaynak belgenin tüm içeriğini içeren belge.
     // "DocumentSplitCriteria" özelliğini "DocumentSplitCriteria.SectionBreak" olarak ayarlayın
-    // belgemizi birden fazla HTML dosyasına kaydedin: her bölüm için bir tane.
+    // Belgemizi birden fazla HTML dosyasına kaydedelim: her bölüm için bir tane.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Belge bölümü kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri çağırma atayın.
+    // Belge parçası kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri arama atayın.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Eğer görseller içeren bir belgeyi html'ye dönüştürürsek, birden fazla görsele bağlantı veren bir html dosyası elde ederiz.
-    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
+    // Resim içeren bir belgeyi html'e dönüştürürsek, birden fazla resme bağlantı veren tek bir html dosyası elde ederiz.
+    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacak.
+    // Ayrıca her bir görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adlarını ayarlar.
+/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adları ayarlar.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -120,7 +120,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -143,7 +143,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
+        // Aşağıda Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
         // 1 - Çıktı parçası dosyası için bir dosya adı belirleyin:
         args.DocumentPartFileName = partFileName;
 
@@ -160,7 +160,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// HTML dönüştürmesinin oluşturduğu görüntü dosyaları için özel dosya adlarını ayarlar.
+/// HTML dönüşümünün oluşturduğu resim dosyaları için özel dosya adları ayarlar.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -173,8 +173,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
-        // 1 - Çıktı görüntü dosyası için bir dosya adı belirleyin:
+        // Aşağıda Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
+        // 1 - Çıkış görüntü dosyası için bir dosya adı belirleyin:
         args.ImageFileName = imageFileName;
 
         // 2 - Çıktı görüntü dosyası için özel bir akış oluşturun:

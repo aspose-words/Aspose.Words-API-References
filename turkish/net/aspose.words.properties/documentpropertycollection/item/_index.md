@@ -2,15 +2,15 @@
 title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection Item mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentPropertyCollection Item'ımızla DocumentProperty nesnelerine zahmetsizce erişin. Sorunsuz belge yönetimi için özellikleri adlarına göre alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Bir değeri döndürür[`DocumentProperty`](../../documentproperty/) özelliğin adına göre nesne.
+Bir[`DocumentProperty`](../../documentproperty/) nesnenin özelliğinin adına göre.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -22,7 +22,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ## Notlar
 
-İadeler`hükümsüz` belirtilen ada sahip bir özellik bulunamazsa.
+İade`hükümsüz` Belirtilen isimde bir özellik bulunamazsa.
 
 ## Örnekler
 
@@ -32,8 +32,8 @@ Tarih ve saat içeren özel bir belge özelliğinin nasıl oluşturulacağını 
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### Ayrıca bakınız
@@ -47,7 +47,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Bir değeri döndürür[`DocumentProperty`](../../documentproperty/) indekse göre nesne.
+Bir[`DocumentProperty`](../../documentproperty/) nesne index. tarafından
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -55,7 +55,7 @@ public DocumentProperty this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Sıfır tabanlı endeks[`DocumentProperty`](../../documentproperty/) geri almak için. |
+| index | Sıfır tabanlı endeks[`DocumentProperty`](../../documentproperty/) geri almak. |
 
 ## Örnekler
 
@@ -64,8 +64,8 @@ public DocumentProperty this[int index] { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Her belge, yerleşik özellikler gibi anahtar/değer çiftleri olan özel özelliklerin bir koleksiyonunu içerir.
- // Belgenin sabit bir yerleşik özellikler listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
+// Her belge, yerleşik özellikler gibi anahtar-değer çiftleri olan bir dizi özel özellik içerir.
+ // Belgenin yerleşik özelliklerin sabit bir listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

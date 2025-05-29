@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection clase. Una colección mecanografiada deOdsoFieldMapData objetos en C#.
+description: Descubra la clase OdsoFieldMapDataCollection de Aspose.Words, una potente colección tipificada para la gestión eficiente de objetos OdsoFieldMapData.
 type: docs
-weight: 5910
+weight: 6740
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-Una colección mecanografiada de[`OdsoFieldMapData`](../odsofieldmapdata/) objetos.
+Una colección tipificada de[`OdsoFieldMapData`](../odsofieldmapdata/) objetos.
 
-Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Artículo de documentación.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -29,7 +29,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
-| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Obtiene o establece un elemento de esta colección. |
+| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Obtiene o establece un elemento en esta colección. |
 
 ## Métodos
 
@@ -42,13 +42,13 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
+Muestra cómo acceder a la colección de datos que asigna columnas de fuente de datos a campos de combinación.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Esta colección define cómo una combinación de correspondencia asignará columnas de una fuente de datos
-// a los campos predefinidos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE.
+// a los campos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE predefinidos.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -66,15 +66,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clona los elementos de esta colección.
+// Clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utiliza los elementos del método "RemoveAt" individualmente por índice.
+// Utilice el método "RemoveAt" para eliminar elementos individualmente por índice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilice el método "Borrar" para borrar toda la colección a la vez.
+// Utilice el método "Borrar" para borrar toda la colección de una vez.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

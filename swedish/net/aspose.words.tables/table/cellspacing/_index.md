@@ -3,14 +3,14 @@ title: Table.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words för .NET
-description: Table CellSpacing fast egendom. Hämtar eller ställer in mängden utrymme i poäng mellan cellerna i C#.
+description: Upptäck egenskapen Table CellSpacing för att enkelt anpassa cellavståndet i punkter, vilket förbättrar tabellens utseende och läsbarhet.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/table/cellspacing/
 ---
 ## Table.CellSpacing property
 
-Hämtar eller ställer in mängden utrymme (i poäng) mellan cellerna.
+Hämtar eller anger mängden utrymme (i punkter) mellan cellerna.
 
 ```csharp
 public double CellSpacing { get; set; }
@@ -38,15 +38,15 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Ställ in egenskapen "AllowCellSpacing" till "true" för att möjliggöra avstånd mellan celler
-// med en magnitud lika med värdet på egenskapen "CellSpacing", i poäng.
-// Ställ in egenskapen "AllowCellSpacing" till "false" för att inaktivera cellavstånd
+// Sätt egenskapen "AllowCellSpacing" till "true" för att aktivera avstånd mellan celler
+// med en magnitud lika med värdet av egenskapen "CellSpacing", i punkter.
+// Sätt egenskapen "AllowCellSpacing" till "false" för att inaktivera cellavstånd
 // och ignorera värdet för egenskapen "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Om du justerar egenskapen "CellSpacing" aktiveras cellavstånd automatiskt.
+// Om du justerar egenskapen "CellSpacing" aktiveras cellavståndet automatiskt.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);

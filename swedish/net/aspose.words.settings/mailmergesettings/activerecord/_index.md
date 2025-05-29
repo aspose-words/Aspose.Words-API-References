@@ -3,7 +3,7 @@ title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
 second_title: Aspose.Words för .NET
-description: MailMergeSettings ActiveRecord fast egendom. Anger det enbaserade indexet för posten från datakällan som ska visas i Microsoft Word. Standardvärdet är 1 i C#.
+description: Upptäck MailMergeSettings. Anpassa dina Microsoft Word-dokument genom att välja önskat postindex från din datakälla. Kom igång enkelt!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -18,7 +18,7 @@ public int ActiveRecord { get; set; }
 
 ## Exempel
 
-Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
+Visar hur man utför en dokumentkoppling när man ansluter till en extern datakälla.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -39,7 +39,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Vi kan återställa dessa inställningar genom att rensa dem. När vi har gjort det och sparat dokumentet,
-// Microsoft Word kommer inte längre att köra en e-postsammanfogning när vi använder den för att ladda dokumentet.
+// Microsoft Word kommer inte längre att köra en dokumentkoppling när vi använder det för att läsa in dokumentet.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -2,10 +2,10 @@
 title: DocumentBuilder.PushFont
 linktitle: PushFont
 articleTitle: PushFont
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder PushFont 方法. 将当前字符格式保存到堆栈上 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 DocumentBuilder PushFont 方法如何通过保存字符样式以便于检索和实现一致的设计来增强文档格式。
 type: docs
-weight: 600
+weight: 640
 url: /zh/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -18,7 +18,7 @@ public void PushFont()
 
 ## 例子
 
-演示如何使用文档生成器的格式堆栈。
+展示如何使用文档构建器的格式化堆栈。
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// 在堆栈上保留当前的格式配置。
+// 在堆栈上保留我们当前的格式配置。
 builder.PushFont();
 
-// 通过应用新样式来更改构建器的当前格式。
+// 通过应用新样式来改变构建器的当前格式。
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", false);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// 恢复我们之前保存的字体格式并从堆栈中删除该元素。
+// 恢复我们之前保存的字体格式并从堆栈中移除元素。
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

@@ -3,14 +3,14 @@ title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
 second_title: Aspose.Words para .NET
-description: VbaReference LibId propiedad. Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo de automatización en C#.
+description: Descubra la propiedad LibId de VBA y recupere fácilmente el identificador de la biblioteca de tipos de automatización con esta guía esencial para desarrolladores. ¡Mejore sus habilidades de programación!
 type: docs
 weight: 10
 url: /es/net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property
 
-Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo de automatización.
+Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo Automation.
 
 ```csharp
 public abstract string LibId { get; }
@@ -71,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -86,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

@@ -2,8 +2,8 @@
 title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
-second_title: 用于 .NET 的 Aspose.Words
-description: HeaderFooter HeaderFooterType 财产. 获取此页眉/页脚的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 HeaderFooterType 属性可以轻松访问和管理文档的页眉和页脚类型，以增强格式控制。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/headerfooter/headerfootertype/
@@ -18,13 +18,13 @@ public HeaderFooterType HeaderFooterType { get; }
 
 ## 例子
 
-演示如何创建页眉和页脚。
+展示如何创建页眉和页脚。
 
 ```csharp
 Document doc = new Document();
 
-// 创建一个标题并向其附加一个段落。该段落中的文字
-// 将出现在本节每个页面的顶部，主体文本上方。
+// 创建标题并在其后附加一个段落。该段落中的文本
+// 将出现在本节每一页的顶部，正文上方。
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// 创建一个页脚并向其附加一个段落。该段落中的文字
-// 将出现在本节每个页面的底部，主体文本下方。
+// 创建页脚并在其后附加一个段落。该段落中的文本
+// 将出现在本节每一页的底部，正文下方。
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

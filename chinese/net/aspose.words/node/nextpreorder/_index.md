@@ -2,15 +2,15 @@
 title: Node.NextPreOrder
 linktitle: NextPreOrder
 articleTitle: NextPreOrder
-second_title: 用于 .NET 的 Aspose.Words
-description: Node NextPreOrder 方法. 根据先序树遍历算法获取下一个节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Node NextPreOrder 方法，实现高效的树形遍历。学习如何高效地使用预排序算法获取下一个节点！
 type: docs
 weight: 130
 url: /zh/net/aspose.words/node/nextpreorder/
 ---
 ## Node.NextPreOrder method
 
-根据先序树遍历算法获取下一个节点。
+根据前序树遍历算法获取下一个节点。
 
 ```csharp
 public Node NextPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node NextPreOrder(Node rootNode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | Node | 遍历的顶节点（极限）。 |
+| rootNode | Node | 遍历的顶部节点（极限）。 |
 
 ### 返回值
 
-预订顺序中的下一个节点。如果达到则为空*rootNode*。
+前序的下一个节点。如果到达*rootNode*。
 
 ## 例子
 
-演示如何使用前序遍历算法遍历文档的节点树，并删除遇到的任何图像形状。
+展示如何使用前序遍历算法遍历文档的节点树，并删除任何遇到的带有图像的形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

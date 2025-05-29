@@ -3,7 +3,7 @@ title: OleFormat.AutoUpdate
 linktitle: AutoUpdate
 articleTitle: AutoUpdate
 second_title: Aspose.Words för .NET
-description: OleFormat AutoUpdate fast egendom. Anger om länken till OLEobjektet uppdateras automatiskt eller inte i Microsoft Word i C#.
+description: Upptäck OleFormat AutoUpdate-egenskapen i Microsoft Word, som säkerställer att dina OLE-objektlänkar hålls aktuella och förbättrar dokumentets noggrannhet utan problem.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/oleformat/autoupdate/
@@ -33,7 +33,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -41,8 +41,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

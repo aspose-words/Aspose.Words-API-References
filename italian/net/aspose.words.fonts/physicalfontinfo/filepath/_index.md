@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words per .NET
-description: PhysicalFontInfo FilePath proprietà. Percorso del file del carattere se presente in C#.
+description: Scopri la proprietà PhysicalFontInfo FilePath, individua facilmente i file dei tuoi font per un'integrazione perfetta del design e una tipografia migliorata nei tuoi progetti.
 type: docs
-weight: 10
+weight: 20
 url: /it/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
 
-Percorso del file del carattere, se presente.
+Percorso al file del font, se presente.
 
 ```csharp
 public string FilePath { get; }
@@ -18,10 +18,10 @@ public string FilePath { get; }
 
 ## Esempi
 
-Mostra come elencare i caratteri disponibili.
+Mostra come elencare i font disponibili.
 
 ```csharp
-// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
+// Configurare Aspose.Words per ottenere i font da una cartella personalizzata e quindi stampare tutti i font disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

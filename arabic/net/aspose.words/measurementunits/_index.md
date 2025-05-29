@@ -3,14 +3,14 @@ title: MeasurementUnits Enum
 linktitle: MeasurementUnits
 articleTitle: MeasurementUnits
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MeasurementUnits تعداد. تحدد وحدة القياس في C#.
+description: اكتشف Aspose.Words.MeasurementUnits enum لاختيار وحدات القياس بدقة في معالجة المستندات. حسّن سير عملك بخيارات قياس دقيقة!
 type: docs
-weight: 4150
+weight: 4840
 url: /ar/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
 
-تحدد وحدة القياس.
+يحدد وحدة القياس.
 
 ```csharp
 public enum MeasurementUnits
@@ -21,10 +21,26 @@ public enum MeasurementUnits
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Inches | `0` | بوصة. |
-| Centimeters | `1` | سنتيمترات. |
+| Centimeters | `1` | سنتيمتر. |
 | Millimeters | `2` | ملليمتر. |
-| Points | `3` | النقاط. |
-| Picas | `4` | بيكاس (يشيع استخدامه في تباعد خطوط الآلة الكاتبة التقليدية). |
+| Points | `3` | نقاط. |
+| Picas | `4` | Picas (تستخدم عادةً في المسافات بين الخطوط في الآلة الكاتبة التقليدية). |
+
+## أمثلة
+
+يوضح كيفية جعل المستند المحفوظ يتوافق مع مخطط ODT الأقدم.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
 
 ### أنظر أيضا
 

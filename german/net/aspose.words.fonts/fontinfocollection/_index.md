@@ -3,9 +3,9 @@ title: FontInfoCollection Class
 linktitle: FontInfoCollection
 articleTitle: FontInfoCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontInfoCollection klas. Stellt eine Sammlung von Schriftarten dar die in einem Dokument verwendet werden in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.FontInfoCollection, Ihre Lösung für die effiziente Verwaltung von Dokumentschriftarten und die Verbesserung der visuellen Attraktivität Ihres Dokuments.
 type: docs
-weight: 2930
+weight: 3360
 url: /de/net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
@@ -23,40 +23,25 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.fonts/fontinfocollection/count/) { get; } | Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab. |
-| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Gibt an, ob Systemschriftarten in das Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft ist`FALSCH`. |
+| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Gibt an, ob Systemschriftarten in das Dokument eingebettet werden sollen oder nicht. Der Standardwert für diese Eigenschaft ist`FALSCH`. |
 | [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | Gibt an, ob TrueType-Schriftarten beim Speichern in ein Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft ist`FALSCH` . |
 | [Item](../../aspose.words.fonts/fontinfocollection/item/) { get; } | Ruft eine Schriftart mit dem angegebenen Namen ab. (2 indexers) |
-| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit document. gespeichert werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH`. |
+| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit dem Dokument gespeichert werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH`. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Ermittelt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält. |
-| [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Bestimmt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält. |
+| [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 
 ## Bemerkungen
 
 Artikel sind[`FontInfo`](../fontinfo/) Objekte.
 
-Sie erstellen keine Instanzen dieser Klasse direkt. Verwenden Sie die[`FontInfos`](../../aspose.words/documentbase/fontinfos/) Eigenschaft, um auf die im Dokument definierte Sammlung von Schriftarten zuzugreifen.
+Sie erstellen keine Instanzen dieser Klasse direkt. Verwenden Sie die[`FontInfos`](../../aspose.words/documentbase/fontinfos/) -Eigenschaft, um auf die im Dokument definierte Schriftartensammlung zuzugreifen.
 
 ## Beispiele
-
-Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
-
-```csharp
-Document doc = new Document(MyDir + "Embedded font.docx");
-
-FontInfoCollection allFonts = doc.FontInfos;
-// Alle verwendeten und nicht verwendeten Schriftarten im Dokument drucken.
-for (int i = 0; i < allFonts.Count; i++)
-{
-    Console.WriteLine($"Font index #{i}");
-    Console.WriteLine($"\tName: {allFonts[i].Name}");
-    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
-}
-```
 
 Zeigt, wie ein Dokument mit eingebetteten TrueType-Schriftarten gespeichert wird.
 
@@ -69,11 +54,21 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
+```
 
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
+Zeigt, wie Sie die Details der in einem Dokument vorhandenen Schriftarten ausdrucken.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfoCollection allFonts = doc.FontInfos;
+// Alle verwendeten und nicht verwendeten Schriftarten im Dokument drucken.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
 ```
 
 ### Siehe auch

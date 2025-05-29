@@ -3,9 +3,9 @@ title: Font.Outline
 linktitle: Outline
 articleTitle: Outline
 second_title: Aspose.Words för .NET
-description: Font Outline fast egendom. Sant om teckensnittet är formaterat som kontur i C#.
+description: Upptäck egenskapen Teckensnittskontur. Formatera enkelt teckensnitt som konturer för en unik designkänsla. Förbättra din typografi med den här enkla funktionen!
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
@@ -18,13 +18,13 @@ public bool Outline { get; set; }
 
 ## Exempel
 
-Visar hur man skapar en serie text formaterad som disposition.
+Visar hur man skapar en textsekvens formaterad som disposition.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in Outline-flaggan för att ändra textens fyllnadsfärg till vit och
+// Ställ in flaggan Kontur för att ändra textens fyllningsfärg till vit och
  // lämna en tunn kontur runt varje tecken i textens ursprungliga färg.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;

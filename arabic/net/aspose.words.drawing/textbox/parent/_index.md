@@ -3,14 +3,14 @@ title: TextBox.Parent
 linktitle: Parent
 articleTitle: Parent
 second_title: Aspose.Words لـ .NET
-description: TextBox Parent ملكية. يحصل على الشكل الأصلي لـTextBox  في C#.
+description: اكتشف خاصية TextBox Parent للوصول بسهولة إلى شكلها الأصلي، مما يعزز سير عمل التصميم لديك ويزيد الكفاءة في مشاريعك.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-يحصل على الشكل الأصلي لـ[`TextBox`](../) .
+يحصل على شكل رئيسي لـ[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

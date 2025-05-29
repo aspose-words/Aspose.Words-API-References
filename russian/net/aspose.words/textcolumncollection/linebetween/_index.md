@@ -3,14 +3,14 @@ title: TextColumnCollection.LineBetween
 linktitle: LineBetween
 articleTitle: LineBetween
 second_title: Aspose.Words для .NET
-description: TextColumnCollection LineBetween свойство. Когдаистинный добавляет вертикальную линию между столбцами на С#.
+description: Улучшите свой макет с помощью свойства TextColumnCollection LineBetween. Включите вертикальные линии между столбцами для изысканного, организованного вида.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-Когда`истинный` добавляет вертикальную линию между столбцами.
+Когда`истинный` , добавляет вертикальную линию между столбцами.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -18,15 +18,15 @@ public bool LineBetween { get; set; }
 
 ## Примеры
 
-Показывает, как разделить столбцы вертикальной линией.
+Показывает, как разделять столбцы вертикальной линией.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Настройте объект PageSetup текущего раздела, чтобы разделить текст на несколько столбцов.
-// Установите для свойства LineBetween значение true, чтобы разместить разделительную линию между столбцами.
-// Установите для свойства LineBetween значение false, чтобы оставить пространство между столбцами пустым.
+// Настройте объект PageSetup текущего раздела для разделения текста на несколько столбцов.
+// Установите свойство «LineBetween» в значение «true», чтобы разместить разделительную линию между столбцами.
+// Установите свойство "LineBetween" в значение "false", чтобы оставить пространство между столбцами пустым.
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.LineBetween = lineBetween;
 columns.SetCount(3);

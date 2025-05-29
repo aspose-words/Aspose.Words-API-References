@@ -3,14 +3,14 @@ title: Underline Enum
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Underline перечисление. Указывает тип подчеркивания примененного к шрифту на С#.
+description: Откройте для себя перечисление Aspose.Words.Underline для универсальных вариантов подчеркивания шрифта. Улучшите форматирование документа с помощью настраиваемых стилей сегодня!
 type: docs
-weight: 6510
+weight: 7360
 url: /ru/net/aspose.words/underline/
 ---
 ## Underline enumeration
 
-Указывает тип подчеркивания, примененного к шрифту.
+Указывает тип подчеркивания, применяемого к шрифту.
 
 ```csharp
 public enum Underline
@@ -49,15 +49,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
-// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и выделите ее с помощью пользовательского форматирования.
+// Гиперссылка будет представлять собой фрагмент текста, нажав на который, мы перейдем в место, указанное в URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", ложь);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word приведет нас к URL-адресу через новое окно веб-браузера.
+// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word перенаправит нас на URL-адрес через новое окно веб-браузера.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

@@ -3,14 +3,14 @@ title: Border.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words لـ .NET
-description: Border DistanceFromText ملكية. الحصول على أو تعيين مسافة الحد من النص أو من حافة الصفحة بالنقاط في C#.
+description: اكتشف خاصية Border DistanceFromText لضبط مسافة الحدود بسهولة من النص أو حواف الصفحة بالنقاط لتحسين التحكم في التخطيط.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/border/distancefromtext/
 ---
 ## Border.DistanceFromText property
 
-الحصول على أو تعيين مسافة الحد من النص أو من حافة الصفحة بالنقاط.
+يحصل على أو يعين مسافة الحدود من النص أو من حافة الصفحة بالنقاط.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -22,7 +22,7 @@ public double DistanceFromText { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حدود ذات شريط أزرق عريض في الجزء العلوي من الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

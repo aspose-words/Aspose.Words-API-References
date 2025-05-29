@@ -3,7 +3,7 @@ title: Table.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words pour .NET
-description: Table Description propriété. Obtient ou définit la description de cette table. Il fournit une représentation textuelle alternative des informations contenues dans la table en C#.
+description: Améliorez l'accessibilité de vos tableaux grâce à des propriétés descriptives. Définissez et récupérez facilement du texte alternatif pour une expérience utilisateur optimale.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.tables/table/description/
@@ -35,7 +35,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Créez un autre tableau avec deux lignes et deux colonnes puis insérez-le dans la première cellule du premier tableau.
+    // Créez un autre tableau avec deux lignes et deux colonnes, puis insérez-le dans la première cellule du premier tableau.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -64,10 +64,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Vous pouvez utiliser les propriétés "Titre" et "Description" pour ajouter respectivement un titre et une description à votre tableau.
-    // Le tableau doit avoir au moins une ligne avant de pouvoir utiliser ces propriétés.
-    // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO/IEC 29500 (voir la classe OoxmlCompliance).
-    // Si nous enregistrons le document aux formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
+    // Vous pouvez utiliser les propriétés « Titre » et « Description » pour ajouter respectivement un titre et une description à votre tableau.
+    // La table doit avoir au moins une ligne avant que nous puissions utiliser ces propriétés.
+    // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO / IEC 29500 (voir la classe OoxmlCompliance).
+    // Si nous enregistrons le document dans des formats antérieurs à ISO/IEC 29500, Microsoft Word ignore ces propriétés.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

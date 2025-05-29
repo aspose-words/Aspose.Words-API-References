@@ -2,15 +2,15 @@
 title: ShapeBase.Fill
 linktitle: Fill
 articleTitle: Fill
-second_title: Aspose.Words for .NET
-description: ShapeBase Fill mülk. Şeklin dolgu formatını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Şekiller için özelleştirilebilir dolgu biçimlendirmesiyle tasarımlarınızı geliştirmek için ShapeBase Fill özelliğini keşfedin. Görsellerinizi zahmetsizce yükseltin!
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing/shapebase/fill/
 ---
 ## ShapeBase.Fill property
 
-Şeklin dolgu formatını alır.
+Şekil için dolgu biçimlendirmesini alır.
 
 ```csharp
 public Fill Fill { get; }
@@ -18,31 +18,31 @@ public Fill Fill { get; }
 
 ## Örnekler
 
-Bir şeklin düz renkle nasıl doldurulacağını gösterir.
+Bir şeklin düz bir renkle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir miktar metin yazın ve ardından onu kayan bir şekille kaplayın.
+// Biraz metin yazın ve ardından onu yüzen bir şekille örtün.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Şeklin anahattının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
+// Şeklin dış hatlarının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
 shape.StrokeColor = Color.CadetBlue;
 
 // Şeklin iç alanının rengini ayarlamak için "FillColor" özelliğini kullanın.
 shape.FillColor = Color.LightBlue;
 
 // "Opaklık" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
-// 1 tamamen opak ve 0 görünmez olacak şekilde.
-// Şekil dolgusu varsayılan olarak tamamen opaktır, dolayısıyla bu şeklin üstünde olduğu metni göremiyoruz.
+// 1 tamamen opak, 0 ise görünmez anlamına gelir.
+// Şeklin dolgusu varsayılan olarak tamamen opak olduğundan, şeklin üstündeki metni göremeyiz.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
+// Şeklin dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

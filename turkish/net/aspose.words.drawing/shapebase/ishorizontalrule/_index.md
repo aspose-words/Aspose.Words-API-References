@@ -2,15 +2,15 @@
 title: ShapeBase.IsHorizontalRule
 linktitle: IsHorizontalRule
 articleTitle: IsHorizontalRule
-second_title: Aspose.Words for .NET
-description: ShapeBase IsHorizontalRule mülk. İadelerdoğru eğer bu şekil yatay bir kural ise C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase IsHorizontalRule özelliğini keşfedin, tasarımlarınızda yatay çizgileri kolayca tanımlayarak düzen ve stil verimliliğini artırın.
 type: docs
-weight: 270
+weight: 290
 url: /tr/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-İadeler`doğru` eğer bu şekil yatay bir kural ise.
+Geri Döndürür`doğru` eğer bu şekil yatay bir cetvel ise.
 
 ```csharp
 public bool IsHorizontalRule { get; }
@@ -18,7 +18,7 @@ public bool IsHorizontalRule { get; }
 
 ## Örnekler
 
-Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay çizgi şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

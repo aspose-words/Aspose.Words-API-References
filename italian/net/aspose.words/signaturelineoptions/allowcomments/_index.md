@@ -3,7 +3,7 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words per .NET
-description: SignatureLineOptions AllowComments proprietà. Ottiene o imposta un valore che indica che il firmatario può aggiungere commenti nella finestra di dialogo Firma. Il valore predefinito per questa proprietà èfalso  in C#.
+description: Abilita i commenti dei firmatari nella finestra di dialogo Firma con la proprietà AllowComments di SignatureLineOptions. Migliora la collaborazione e il feedback senza sforzo!
 type: docs
 weight: 20
 url: /it/net/aspose.words/signaturelineoptions/allowcomments/

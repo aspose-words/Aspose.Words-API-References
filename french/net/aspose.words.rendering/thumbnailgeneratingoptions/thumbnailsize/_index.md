@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions.ThumbnailSize
 linktitle: ThumbnailSize
 articleTitle: ThumbnailSize
 second_title: Aspose.Words pour .NET
-description: ThumbnailGeneratingOptions ThumbnailSize propriété. Taille de la vignette générée en pixels. La valeur par défaut est 600x900 en C#.
+description: Découvrez des options de miniatures personnalisables grâce à notre propriété ThumbnailSize. Générez des miniatures parfaitement dimensionnées, avec une taille par défaut de 600 x 900 pixels pour un affichage optimal !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -32,7 +32,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

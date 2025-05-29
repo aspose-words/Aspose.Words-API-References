@@ -3,7 +3,7 @@ title: FieldOptions.ComparisonExpressionEvaluator
 linktitle: ComparisonExpressionEvaluator
 articleTitle: ComparisonExpressionEvaluator
 second_title: Aspose.Words pour .NET
-description: FieldOptions ComparisonExpressionEvaluator propriété. Obtient ou définit lévaluateur des expressions de comparaison de champs en C#.
+description: Découvrez la propriété FieldOptions ComparisonExpressionEvaluator pour gérer et personnaliser facilement les expressions de comparaison de champs pour une analyse de données améliorée.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -30,12 +30,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champs que nous utilisons dans cet exemple :
-    // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
+    // Codes de champ que nous utilisons dans cet exemple :
+    // 1. " SI {0} {1} {2} \"argument vrai\" \"argument faux\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Si le "comparisonResult" n'est pas défini, nous créons "ComparisonEvaluationResult" avec une chaîne, au lieu de bool.
+    // Si le « comparisonResult » n'est pas défini, nous créons « ComparisonEvaluationResult » avec une chaîne, au lieu d'un booléen.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

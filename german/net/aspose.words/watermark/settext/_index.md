@@ -3,7 +3,7 @@ title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words für .NET
-description: Watermark SetText methode. Fügt dem Dokument ein Textwasserzeichen hinzu in C#.
+description: Optimieren Sie Ihre Dokumente mit unserer Wasserzeichen-SetText-Methode. Fügen Sie ganz einfach anpassbare Textwasserzeichen für einen professionellen Touch hinzu!
 type: docs
 weight: 40
 url: /de/net/aspose.words/watermark/settext/
@@ -24,25 +24,25 @@ public void SetText(string text)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentOutOfRangeException | Wird ausgelöst, wenn die Textlänge außerhalb des zulässigen Bereichs liegt oder der Text nur Leerzeichen enthält. |
-| ArgumentNullException | Wird ausgelöst, wenn der Text vorhanden ist`Null` . |
+| ArgumentOutOfRangeException | Wird ausgelöst, wenn die Textlänge außerhalb des gültigen Bereichs liegt oder der Text nur Leerzeichen enthält. |
+| ArgumentNullException | Wirft, wenn der Text`null` . |
 
 ## Bemerkungen
 
-Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text darf nicht sein`Null` oder nur Leerzeichen enthalten.
+Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text kann nicht`null` oder nur Leerzeichen enthalten.
 
 ## Beispiele
 
-Zeigt, wie man ein Textwasserzeichen erstellt.
+Zeigt, wie ein Textwasserzeichen erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein reines Textwasserzeichen hinzufügen.
+// Fügen Sie ein Wasserzeichen im Klartext hinzu.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
-// Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+// Wenn wir die Textformatierung bearbeiten und sie als Wasserzeichen verwenden möchten,
+// Dies können wir tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -85,26 +85,26 @@ public void SetText(string text, TextWatermarkOptions options)
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn die Textlänge außerhalb des zulässigen Bereichs liegt oder der Text nur Leerzeichen enthält. |
-| ArgumentNullException | Wird ausgelöst, wenn der Text vorhanden ist`Null` . |
+| ArgumentNullException | Wirft, wenn der Text`null` . |
 
 ## Bemerkungen
 
-Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text darf nicht sein`Null` oder nur Leerzeichen enthalten.
+Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text kann nicht`null` oder nur Leerzeichen enthalten.
 
-Wenn[`TextWatermarkOptions`](../../textwatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
+Wenn[`TextWatermarkOptions`](../../textwatermarkoptions/) Ist`null`, das Wasserzeichen wird mit den Standardoptionen gesetzt.
 
 ## Beispiele
 
-Zeigt, wie man ein Textwasserzeichen erstellt.
+Zeigt, wie ein Textwasserzeichen erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein reines Textwasserzeichen hinzufügen.
+// Fügen Sie ein Wasserzeichen im Klartext hinzu.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
-// Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+// Wenn wir die Textformatierung bearbeiten und sie als Wasserzeichen verwenden möchten,
+// Dies können wir tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

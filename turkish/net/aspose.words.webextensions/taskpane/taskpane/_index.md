@@ -2,8 +2,8 @@
 title: TaskPane
 linktitle: TaskPane
 articleTitle: TaskPane
-second_title: Aspose.Words for .NET
-description: TaskPane inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Dinamik, özelleştirilebilir panelleri kolaylıkla oluşturmak için başvuracağınız çözüm olan TaskPane oluşturucusunu keşfedin. Kullanıcı deneyiminizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/taskpane/taskpane/

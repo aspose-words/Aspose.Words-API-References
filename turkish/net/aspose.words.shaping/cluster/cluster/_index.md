@@ -2,8 +2,8 @@
 title: Cluster
 linktitle: Cluster
 articleTitle: Cluster
-second_title: Aspose.Words for .NET
-description: Cluster inşaatçı. Bu sınıfın yeni örneğini başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Oluşturucumuzla zahmetsizce güçlü küme örnekleri oluşturun. Projenizin verimliliğini ve ölçeklenebilirliğini bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/cluster/cluster/
@@ -18,8 +18,8 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| codepoints | Int32[] | Bir grafik oluşturan Unicode noktaları dizisi. |
-| glyphs | Glyph[] | dizisi[`Glyph`](../../glyph/)&gt; bir grafik oluşturmak. |
+| codepoints | Int32[] | Bir grafemi oluşturan Unicode noktalarının dizisi. |
+| glyphs | Glyph[] | Dizi[`Glyph`](../../glyph/)&gt; bir grafemi oluşturmak. |
 
 ### Ayrıca bakınız
 

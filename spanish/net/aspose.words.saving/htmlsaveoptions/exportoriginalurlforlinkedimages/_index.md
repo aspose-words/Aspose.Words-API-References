@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 linktitle: ExportOriginalUrlForLinkedImages
 articleTitle: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportOriginalUrlForLinkedImages propiedad. Especifica si la URL original debe usarse como la URL de las imágenes vinculadas. El valor predeterminado esFALSO  en C#.
+description: Descubra la función ExportOriginalUrlForLinkedImages de HtmlSaveOptions, que le permite usar URL originales para las imágenes vinculadas. ¡Mejore la integridad de su documento!
 type: docs
 weight: 200
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-Especifica si la URL original debe usarse como la URL de las imágenes vinculadas. El valor predeterminado es`FALSO` .
+Especifica si se debe utilizar la URL original como URL de las imágenes vinculadas. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -18,9 +18,9 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ## Observaciones
 
-Si el valor se establece en`verdadero`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) El valor se utiliza ya que la URL de las imágenes vinculadas y las imágenes vinculadas no se cargan en la carpeta del documento o[`ImagesFolder`](../imagesfolder/).
+Si el valor se establece en`verdadero`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) El valor se usa como la URL de las imágenes vinculadas y las imágenes vinculadas no se cargan en la carpeta del documento o[`ImagesFolder`](../imagesfolder/).
 
-Si el valor se establece en`FALSO`las imágenes vinculadas se cargan en la carpeta del documento o[`ImagesFolder`](../imagesfolder/) y la URL de cada imagen vinculada se construye dependiendo de la carpeta del documento,[`ImagesFolder`](../imagesfolder/) y[`ImagesFolderAlias`](../imagesfolderalias/) propiedades.
+Si el valor se establece en`FALSO`Las imágenes vinculadas se cargan en la carpeta del documento o[`ImagesFolder`](../imagesfolder/) y la URL de cada imagen vinculada se construye dependiendo de la carpeta del documento,[`ImagesFolder`](../imagesfolder/) y[`ImagesFolderAlias`](../imagesfolderalias/) propiedades.
 
 ## Ejemplos
 
@@ -38,8 +38,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://ejemplo.com/fonts",
-    ImagesFolderAlias = "http://ejemplo.com/imagenes",
+    FontsFolderAlias = "http://ejemplo.com/fuentes",
+    ImagesFolderAlias = "http://ejemplo.com/imágenes",
     ResourceFolderAlias = "http://ejemplo.com/recursos",
     ExportOriginalUrlForLinkedImages = true
 };

@@ -3,14 +3,14 @@ title: TabStop.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words для .NET
-description: TabStop GetHashCode метод. Вычисляет хешкод для этого объекта на С#.
+description: Узнайте, как метод TabStop GetHashCode эффективно генерирует уникальные хэш-коды для ваших объектов, улучшая извлечение данных и производительность.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/tabstop/gethashcode/
 ---
 ## TabStop.GetHashCode method
 
-Вычисляет хеш-код для этого объекта.
+Вычисляет хэш-код для этого объекта.
 
 ```csharp
 public override int GetHashCode()

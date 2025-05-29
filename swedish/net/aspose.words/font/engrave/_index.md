@@ -3,7 +3,7 @@ title: Font.Engrave
 linktitle: Engrave
 articleTitle: Engrave
 second_title: Aspose.Words för .NET
-description: Font Engrave fast egendom. Sant om teckensnittet är formaterat som graverat i C#.
+description: Upptäck funktionen Font Engrave. Formatera enkelt teckensnitt för ett elegant graverat utseende, vilket förbättrar din designs sofistikering och attraktionskraft.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/font/engrave/
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Nedan finns två sätt att använda skuggor för att applicera en 3D-liknande effekt på texten.
-// 1 - Gravera text så att det ser ut som om bokstäverna är nedsänkta på sidan:
+// Nedan följer två sätt att använda skuggor för att applicera en 3D-liknande effekt på texten.
+// 1 - Gravera text så att det ser ut som att bokstäverna är nedsänkta i sidan:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Relief text så att det ser ut som om bokstäverna dyker upp från sidan:
+// 2 - Reliefmarkera texten så att det ser ut som att bokstäverna sticker ut från sidan:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

@@ -3,14 +3,14 @@ title: MergeFieldImageDimensionUnit Enum
 linktitle: MergeFieldImageDimensionUnit
 articleTitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit opsomming. Gibt eine Einheit einer Bildabmessung z. B. Breite oder Höhe an die in einem Serienbriefprozess verwendet wird in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Fields.MergeFieldImageDimensionUnit für eine präzise Bildabmessungskontrolle in Serienbriefen. Verbessern Sie noch heute Ihre Dokumentenautomatisierung!
 type: docs
-weight: 2760
+weight: 3170
 url: /de/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
 
-Gibt eine Einheit einer Bildabmessung (z. B. Breite oder Höhe) an, die in einem Serienbriefprozess verwendet wird.
+Gibt eine Einheit für die Bildabmessung (also die Breite oder Höhe) an, die in einem Serienbriefprozess verwendet wird.
 
 ```csharp
 public enum MergeFieldImageDimensionUnit
@@ -21,18 +21,18 @@ public enum MergeFieldImageDimensionUnit
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Point | `0` | Der Punkt (dh 1/72 Zoll). |
-| Percent | `1` | Der Prozentsatz des ursprünglichen Bilddimensionswerts. |
+| Percent | `1` | Der Prozentsatz des ursprünglichen Bildabmessungswerts. |
 
 ## Beispiele
 
-Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
+Zeigt, wie die Abmessungen von Bildern festgelegt werden, da MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // Fügen Sie ein MERGEFIELD ein, das während eines Serienbriefs Bilder aus einer Quelle akzeptiert. Verwenden Sie den Feldcode zum Verweisen
     // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -47,7 +47,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Serienbrief aus.
+    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Seriendruck aus.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -56,7 +56,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Setzt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe.
+/// Legt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe fest.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -82,6 +82,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

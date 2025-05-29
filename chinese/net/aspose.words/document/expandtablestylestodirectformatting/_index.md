@@ -2,10 +2,10 @@
 title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: Document ExpandTableStylesToDirectFormatting 方法. 将表格样式中指定的格式转换为文档中表格的直接格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ExpandTableStylesToDirectFormatting 方法将表格样式转换为直接格式，轻松增强文档的外观。
 type: docs
-weight: 590
+weight: 630
 url: /zh/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -18,17 +18,17 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## 评论
 
-存在此方法是因为此版本的 Aspose.Words 仅对 表格样式提供有限的支持（见下文）。当您加载包含使用表格样式格式化的表格的 DOCX 或 WordprocessingML 文档并且需要查询 x000d_ 表格、单元格、段落或文本的格式时，此方法可能很有用。
+此方法之所以存在，是因为此版本的 Aspose.Words 仅对 x000d 表格样式提供有限的支持（见下文）。当您加载包含已使用表格样式格式化的表格的 DOCX 或 WordprocessingML x000d 文档，并且需要查询 x000d 表格、单元格、段落或文本的格式时，此方法可能很有用。
 
-此版本的 Aspose.Words 对表格样式提供有限支持，如下所示：
+此版本的 Aspose.Words 对表格样式提供有限的支持，如下所示：
 
-* 将文档保存为 DOCX 或 WordprocessingML 时，DOCX 或 WordprocessingML 文档中定义的表格样式将保留为 table styles 。
-* 将文档保存为任何其他格式、 渲染或打印时，DOCX 或 WordprocessingML 文档中定义的表格样式会自动转换 为表格上的直接格式。
-* 当 仅将文档保存为 DOC 时，DOC 文档中定义的表格样式将保留为表格样式。
+* 将文档保存为 DOCX 或 WordprocessingML 时，DOCX 或 WordprocessingML 文档中定义的表格样式将保留为 table style 。
+* 在将文档保存为任何其他格式、渲染或打印时，DOCX 或 WordprocessingML 文档中定义的表格样式会自动转换为表格上的直接格式。
+* 仅当将文档保存为 DOC 时，DOC 文档中定义的表格样式才会保留为表格样式。
 
 ## 例子
 
-演示如何将表格样式的属性直接应用于表格的元素。
+展示如何将表格样式的属性直接应用于表格的元素。
 
 ```csharp
 Document doc = new Document();

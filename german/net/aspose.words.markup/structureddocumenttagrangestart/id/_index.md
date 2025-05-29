@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart Id eigendom. Gibt eine eindeutige schreibgeschützte persistente numerische ID für dieses strukturierte DokumentTag an in C#.
+description: Entdecken Sie die StructuredDocumentTagRangeStart Id-Eigenschaft – Ihren Schlüssel zu einer eindeutigen, schreibgeschützten numerischen Kennung für effizientes Dokument-Tagging.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 ## StructuredDocumentTagRangeStart.Id property
 
-Gibt eine eindeutige, schreibgeschützte, persistente numerische ID für dieses strukturierte Dokument-Tag an.
+Gibt eine eindeutige, schreibgeschützte, dauerhafte numerische ID für dieses strukturierte Dokument-Tag an.
 
 ```csharp
 public int Id { get; }
@@ -20,15 +20,15 @@ public int Id { get; }
 
 Das ID-Attribut muss diesen Regeln folgen:
 
-* Das Dokument behält strukturierte Dokument-Tag-IDs nur dann bei, wenn das gesamte document geklont wird[`Clone`](../../../aspose.words/document/clone/).
-* Während[`ImportNode`](../../../aspose.words/documentbase/importnode/) Die -ID soll beibehalten werden, wenn der Import keine Konflikte mit anderen strukturierten Dokument-Tag-IDs im des Zieldokuments verursacht.
-* Wenn mehrere Tag-Knoten eines strukturierten Dokuments denselben Dezimalzahlenwert für das ID-Attribut angeben, , behält das erste Tag des strukturierten Dokuments im Dokument diese ursprüngliche ID bei, , und allen nachfolgenden Tag-Knoten eines strukturierten Dokuments werden neue Bezeichner zugewiesen, wenn Das Dokument wird geladen.
-* Während eines eigenständigen strukturierten Dokument-TagsINodeCloningListener)Für den geklonten Strukturdokument-Tag-Knoten wird eine neue eindeutige ID generiert.
-* Wenn im Quelldokument keine ID angegeben ist, wird dem Tag-Knoten des strukturierten Dokuments beim Laden des Dokuments eine neue eindeutige Kennung zugewiesen .
+* Das Dokument soll strukturierte Dokument-Tag-IDs nur dann behalten, wenn das gesamte Dokument geklont wird[`Clone`](../../../aspose.words/document/clone/).
+* Während[`ImportNode`](../../../aspose.words/documentbase/importnode/) Die ID muss beibehalten werden, wenn der Import keine Konflikte mit anderen strukturierten Dokument-Tag-IDs im Zieldokument verursacht.
+* Wenn mehrere strukturierte Dokument-Tag-Knoten denselben Dezimalwert für das ID-Attribut angeben, dann muss der erste strukturierte Dokument-Tag im Dokument diese ursprüngliche ID beibehalten, und allen nachfolgenden strukturierten Dokument-Tag-Knoten müssen beim Laden des Dokuments neue Kennungen zugewiesen werden.
+* Während des eigenständigen strukturierten DokumenttagsINodeCloningListener) Bei der Operation wird für den geklonten strukturierten Dokument-Tag-Knoten eine neue eindeutige ID generiert.
+* Wenn im Quelldokument keine ID angegeben ist, muss dem Tag-Knoten des strukturierten Dokuments beim Laden des Dokuments eine neue eindeutige Kennung zugewiesen werden.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

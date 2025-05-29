@@ -3,9 +3,9 @@ title: FolderFontSource Class
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FolderFontSource klass. Representerar mappen som innehåller TrueTypeteckensnittsfiler i C#.
+description: Upptäck klassen Aspose.Words.Fonts.FolderFontSource, din lösning för att hantera TrueType-teckensnitt effektivt. Förbättra ditt dokuments typografi idag!
 type: docs
-weight: 2880
+weight: 3290
 url: /sv/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
@@ -22,24 +22,24 @@ public class FolderFontSource : FontSourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Ctor. |
-| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | ktor. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | ktor. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
 | [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Sökväg till mappen. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittskällans prioritet. |
-| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Bestämmer om undermapparna ska skannas eller inte. |
-| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Returnerar typen av teckensnittskälla. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittets källprioritet. |
+| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Avgör om undermapparna ska genomsökas eller inte. |
+| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Returnerar typen av teckensnittskällan. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskälla när ett problem upptäcks som kan leda till förlust av formateringstillverkning. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via denna källa. |
 
 ## Exempel
 

@@ -3,9 +3,9 @@ title: Document.EndnoteOptions
 linktitle: EndnoteOptions
 articleTitle: EndnoteOptions
 second_title: Aspose.Words per .NET
-description: Document EndnoteOptions proprietà. Fornisce opzioni che controllano la numerazione e il posizionamento delle note di chiusura in questo documento in C#.
+description: Esplora la proprietà EndnoteOptions per personalizzare la numerazione e il posizionamento delle note di chiusura, migliorando la chiarezza e la professionalità del tuo documento.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words/document/endnoteoptions/
 ---
 ## Document.EndnoteOptions property
@@ -18,49 +18,49 @@ public EndnoteOptions EndnoteOptions { get; }
 
 ## Esempi
 
-Mostra come selezionare una posizione diversa in cui il documento raccoglie e visualizza le sue note di chiusura.
+Mostra come selezionare una posizione diversa in cui il documento raccoglie e visualizza le note di chiusura.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Una nota finale è un modo per allegare un riferimento o un commento laterale al testo
- // che non interferisca con il flusso del corpo principale del testo.
+// Una nota di chiusura è un modo per allegare un riferimento o un commento laterale al testo
+ // che non interferisca con il flusso del testo principale.
 // L'inserimento di una nota di chiusura aggiunge un piccolo simbolo di riferimento in apice
-// nel corpo principale del testo dove inseriamo la nota finale.
-// Ogni nota finale crea anche una voce alla fine del documento, costituita da un simbolo
-// che corrisponde al simbolo di riferimento nel corpo del testo principale.
+// nel corpo del testo principale dove inseriamo la nota di chiusura.
+// Ogni nota di chiusura crea anche una voce alla fine del documento, costituita da un simbolo
+// che corrisponde al simbolo di riferimento nel testo principale.
 // Il testo di riferimento che passiamo al metodo "InsertEndnote" del generatore di documenti.
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote contents.");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("This is the second section.");
 
-// Possiamo usare la proprietà "Posizione" per determinare dove il documento posizionerà tutte le sue note di chiusura.
+// Possiamo usare la proprietà "Posizione" per determinare dove verranno posizionate tutte le note di chiusura del documento.
 // Se impostiamo il valore della proprietà "Position" su "EndnotePosition.EndOfDocument",
 // ogni nota a piè di pagina verrà visualizzata in una raccolta alla fine del documento. Questo è il valore predefinito.
 // Se impostiamo il valore della proprietà "Position" su "EndnotePosition.EndOfSection",
-// ogni nota a piè di pagina verrà visualizzata in una raccolta alla fine della sezione il cui testo contiene il segno di riferimento della nota finale.
+// ogni nota a piè di pagina verrà visualizzata in una raccolta alla fine della sezione il cui testo contiene il segno di riferimento della nota di chiusura.
 doc.EndnoteOptions.Position = endnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 ```
 
-Mostra come impostare un numero con il quale il documento inizia il conteggio delle note a piè di pagina/note di chiusura.
+Mostra come impostare un numero in base al quale il documento inizia il conteggio delle note a piè di pagina/note di chiusura.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Le note a piè di pagina e le note di chiusura sono un modo per allegare un riferimento o un commento a margine del testo
- // che non interferisca con il flusso del corpo principale del testo.
-// L'inserimento di una nota a piè di pagina/nota finale aggiunge un piccolo simbolo di riferimento in apice
-// nel corpo principale del testo dove inseriamo la nota a piè di pagina/nota finale.
-// Ogni nota a piè di pagina/nota finale crea anche una voce, che consiste in un simbolo
-// che corrisponde al simbolo di riferimento nel corpo del testo principale.
+// Le note a piè di pagina e le note finali sono un modo per allegare un riferimento o un commento laterale al testo
+ // che non interferisca con il flusso del testo principale.
+// L'inserimento di una nota a piè di pagina/nota di chiusura aggiunge un piccolo simbolo di riferimento in apice
+// nel corpo del testo principale dove inseriamo la nota a piè di pagina/nota di chiusura.
+// Ogni nota a piè di pagina/nota di chiusura crea anche una voce, che consiste in un simbolo
+// che corrisponde al simbolo di riferimento nel testo principale.
 // Il testo di riferimento che passiamo al metodo "InsertEndnote" del generatore di documenti.
-// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ciascuna pagina che contiene
-// i loro simboli di riferimento e le note finali vengono visualizzati alla fine del documento.
+// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ogni pagina che contiene
+// i relativi simboli di riferimento e le note di chiusura vengono visualizzati alla fine del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -78,33 +78,33 @@ builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
 // Per impostazione predefinita, il simbolo di riferimento per ogni nota a piè di pagina e nota di chiusura è il suo indice
-// tra tutte le note a piè di pagina/note finali del documento. Ogni documento mantiene conteggi separati
-// per le note a piè di pagina e per le note di chiusura, che iniziano entrambe con 1.
+// tra tutte le note a piè di pagina/note di chiusura del documento. Ogni documento mantiene conteggi separati
+// per le note a piè di pagina e per le note finali, che iniziano entrambe da 1.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
-// Possiamo utilizzare la proprietà "StartNumber" per ottenere il documento
-// inizia il conteggio delle note a piè di pagina o di chiusura con un numero diverso.
+// Possiamo usare la proprietà "StartNumber" per ottenere il documento
+// inizia il conteggio delle note a piè di pagina o delle note di chiusura da un numero diverso.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 
 doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ```
 
-Mostra come modificare lo stile dei numeri dei segni di riferimento delle note a piè di pagina/note di chiusura.
+Mostra come modificare lo stile dei numeri dei riferimenti delle note a piè di pagina/note di chiusura.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Le note a piè di pagina e le note di chiusura sono un modo per allegare un riferimento o un commento a margine del testo
- // che non interferisca con il flusso del corpo principale del testo.
-// L'inserimento di una nota a piè di pagina/nota finale aggiunge un piccolo simbolo di riferimento in apice
-// nel corpo principale del testo dove inseriamo la nota a piè di pagina/nota finale.
-// Ogni nota a piè di pagina/nota finale crea anche una voce, che consiste in un simbolo che corrisponde al riferimento
+// Le note a piè di pagina e le note finali sono un modo per allegare un riferimento o un commento laterale al testo
+ // che non interferisca con il flusso del testo principale.
+// L'inserimento di una nota a piè di pagina/nota di chiusura aggiunge un piccolo simbolo di riferimento in apice
+// nel corpo del testo principale dove inseriamo la nota a piè di pagina/nota di chiusura.
+// Ogni nota a piè di pagina/nota di chiusura crea anche una voce, che consiste in un simbolo che corrisponde al riferimento
 // simbolo nel corpo del testo principale. Il testo di riferimento che passiamo al metodo "InsertEndnote" del generatore di documenti.
-// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ciascuna pagina che contiene
-// i loro simboli di riferimento e le note finali vengono visualizzati alla fine del documento.
+// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ogni pagina che contiene
+// i relativi simboli di riferimento e le note di chiusura vengono visualizzati alla fine del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -122,14 +122,14 @@ builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
 // Per impostazione predefinita, il simbolo di riferimento per ogni nota a piè di pagina e nota di chiusura è il suo indice
-// tra tutte le note a piè di pagina/note finali del documento. Ogni documento mantiene conteggi separati
-// per le note a piè di pagina e per le note di chiusura. Per impostazione predefinita, le note a piè di pagina visualizzano i loro numeri utilizzando numeri arabi,
-// e le note finali mostrano i loro numeri in numeri romani minuscoli.
+// tra tutte le note a piè di pagina/note di chiusura del documento. Ogni documento mantiene conteggi separati
+// per le note a piè di pagina e per le note di chiusura. Per impostazione predefinita, le note a piè di pagina visualizzano i numeri arabi,
+// e le note finali mostrano i numeri in numeri romani minuscoli.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
-// Possiamo utilizzare la proprietà "NumberStyle" per applicare stili di numerazione personalizzati alle note a piè di pagina e alle note di chiusura.
-// Ciò non influirà sulle note a piè di pagina/note di chiusura con segni di riferimento personalizzati.
+// Possiamo usare la proprietà "NumberStyle" per applicare stili di numerazione personalizzati alle note a piè di pagina e alle note di chiusura.
+// Ciò non influirà sulle note a piè di pagina/note di chiusura con riferimenti personalizzati.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 
@@ -142,14 +142,14 @@ Mostra come riavviare la numerazione delle note a piè di pagina/note di chiusur
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Le note a piè di pagina e le note di chiusura sono un modo per allegare un riferimento o un commento a margine del testo
- // che non interferisca con il flusso del corpo principale del testo.
-// L'inserimento di una nota a piè di pagina/nota finale aggiunge un piccolo simbolo di riferimento in apice
-// nel corpo principale del testo dove inseriamo la nota a piè di pagina/nota finale.
-// Ogni nota a piè di pagina/nota finale crea anche una voce, che consiste in un simbolo che corrisponde al riferimento
+// Le note a piè di pagina e le note finali sono un modo per allegare un riferimento o un commento laterale al testo
+ // che non interferisca con il flusso del testo principale.
+// L'inserimento di una nota a piè di pagina/nota di chiusura aggiunge un piccolo simbolo di riferimento in apice
+// nel corpo del testo principale dove inseriamo la nota a piè di pagina/nota di chiusura.
+// Ogni nota a piè di pagina/nota di chiusura crea anche una voce, che consiste in un simbolo che corrisponde al riferimento
 // simbolo nel corpo del testo principale. Il testo di riferimento che passiamo al metodo "InsertEndnote" del generatore di documenti.
-// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ciascuna pagina che contiene
-// i loro simboli di riferimento e le note finali vengono visualizzati alla fine del documento.
+// Le voci delle note a piè di pagina, per impostazione predefinita, vengono visualizzate in fondo a ogni pagina che contiene
+// i relativi simboli di riferimento e le note di chiusura vengono visualizzati alla fine del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -173,13 +173,13 @@ builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
 // Per impostazione predefinita, il simbolo di riferimento per ogni nota a piè di pagina e nota di chiusura è il suo indice
-// tra tutte le note a piè di pagina/note finali del documento. Ogni documento mantiene conteggi separati
-// per le note a piè di pagina e di chiusura e non riavvia questi conteggi in nessun momento.
+// tra tutte le note a piè di pagina/note di chiusura del documento. Ogni documento mantiene conteggi separati
+// per le note a piè di pagina e le note di chiusura e non riavvia questi conteggi in nessun punto.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
-// Possiamo utilizzare la proprietà "RestartRule" per riavviare il documento
-// la nota a piè di pagina/nota finale conta in una nuova pagina o sezione.
+// Possiamo usare la proprietà "RestartRule" per riavviare il documento
+// la nota a piè di pagina/nota di chiusura viene conteggiata in una nuova pagina o sezione.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

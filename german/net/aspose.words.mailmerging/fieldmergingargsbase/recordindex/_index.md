@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.RecordIndex
 linktitle: RecordIndex
 articleTitle: RecordIndex
 second_title: Aspose.Words für .NET
-description: FieldMergingArgsBase RecordIndex eigendom. Ruft den nullbasierten Index des Datensatzes ab der zusammengeführt wird in C#.
+description: Entdecken Sie die FieldMergingArgsBase RecordIndex-Eigenschaft. Greifen Sie auf den nullbasierten Index des zusammengeführten Datensatzes zu, um die Datenverwaltung und -integration zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -18,7 +18,7 @@ public int RecordIndex { get; }
 
 ## Beispiele
 
-Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
+Zeigt, wie Kontrollkästchen-Formularfelder als Seriendruckdaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
 ```csharp
 public void InsertCheckBox()
@@ -26,8 +26,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie MERGEFIELDs mit den Tags „TableStart“/„TableEnd“, um einen Seriendruckbereich zu definieren
-    // das zu einer Datenquelle namens „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte namens „CourseName“ akzeptiert.
+    // Verwenden Sie MERGEFIELDs mit den Tags "TableStart"/"TableEnd", um einen Serienbriefbereich zu definieren
+    // das zu einer Datenquelle mit dem Namen „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte mit dem Namen „CourseName“ akzeptiert.
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -46,12 +46,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Zusammenführungsdatentextes ein Kontrollkästchen-Formularfeld eingefügt.
+/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Seriendruckdatentexts ein Kontrollkästchen-Formularfeld eingefügt.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {

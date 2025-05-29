@@ -2,8 +2,8 @@
 title: ChartFormat.Fill
 linktitle: Fill
 articleTitle: Fill
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartFormat Fill 财产. 获取父图表元素的填充格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartFormat Fill 属性，增强图表视觉效果。立即为您的父图表元素解锁独特的填充格式选项！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartformat/fill/

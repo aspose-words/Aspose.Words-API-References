@@ -2,15 +2,15 @@
 title: ShadowFormat.Visible
 linktitle: Visible
 articleTitle: Visible
-second_title: Aspose.Words for .NET
-description: ShadowFormat Visible mülk. İadelerdoğru bu örneğe uygulanan format görünürse C#'da.
+second_title: .NET için Aspose.Words
+description: ShadowFormat Visible özelliğini keşfedin. Biçimlendirmenizin görünür olup olmadığını kolayca kontrol edin, belgenizin görünümünü ve netliğini artırın.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.drawing/shadowformat/visible/
 ---
 ## ShadowFormat.Visible property
 
-İadeler`doğru` bu örneğe uygulanan format görünürse.
+Geri Döndürür`doğru` bu örneğe uygulanan biçimlendirme görünürse.
 
 ```csharp
 public bool Visible { get; }
@@ -18,20 +18,20 @@ public bool Visible { get; }
 
 ## Notlar
 
-Beğenmedim[`Clear`](../clear/) , atama`YANLIŞ` Görünür, biçimlendirmeyi temizlemez, yalnızca şekil efektini gizler.
+aksine[`Clear`](../clear/) , atama`YANLIŞ`Görünür olarak ayarlamak biçimlendirmeyi temizlemez, sadece şekil efektini gizler.
 
 ## Örnekler
 
-Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
+Şekil için gölge biçimlendirmesiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

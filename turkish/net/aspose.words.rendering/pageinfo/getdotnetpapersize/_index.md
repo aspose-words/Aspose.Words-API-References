@@ -2,15 +2,15 @@
 title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
-second_title: Aspose.Words for .NET
-description: PageInfo GetDotNetPaperSize yöntem. AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo  C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz sayfa yazdırma için ideal PaperSize nesnesini zahmetsizce almak üzere tasarlanmış PageInfo'daki GetDotNetPaperSize yöntemini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfa[`PageInfo`](../) .
+Şunu alır:PaperSize yazdırmaya uygun nesne bununla temsil edilen sayfa[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -22,7 +22,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### Geri dönüş değeri
 
-Kağıt boyutunu belirtmek için .NET yazdırma çerçevesinde kullanabileceğiniz bir nesne.
+.NET yazdırma çerçevesinde kağıt boyutunu belirtmek için kullanabileceğiniz bir nesne.
 
 ## Örnekler
 
@@ -40,7 +40,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Yazdırma sırasında uygun kağıt boyutunu, yönünü ve kağıt tepsisini seçer.
+/// Yazdırma sırasında uygun bir kağıt boyutu, yönü ve kağıt tepsisi seçer.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -50,7 +50,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Kullanıcı seçimine göre yazdırılacak sayfa aralığını başlatır.
+    /// Kullanıcının seçimine göre yazdırılacak sayfa aralığını başlatır.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -78,39 +78,39 @@ public class MyPrintDocument : PrintDocument
     {
         base.OnQueryPageSettings(e);
 
-         // Tek bir Microsoft Word belgesi, farklı boyutlardaki sayfaları belirten birden fazla bölüme sahip olabilir,
-         // yönler ve kağıt tepsileri. .NET yazdırma çerçevesi bu kodu daha önce çağırır.
-        // her sayfa yazdırılır, bu da bize mevcut sayfanın nasıl yazdırılacağını belirleme şansı verir.
+         // Tek bir Microsoft Word belgesi, farklı boyutlarda sayfaları belirten birden fazla bölüme sahip olabilir,
+         // yönlendirmeler ve kağıt tepsileri. .NET yazdırma çerçevesi bu kodu yazdırmadan önce çağırır
+        // her sayfa yazdırılır, bu da bize mevcut sayfanın nasıl yazdırılacağını belirtme şansı verir.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word, her bölüm için kağıt kaynağını (yazıcı tepsisi) yazıcıya özgü bir değer olarak saklar.
+        // Microsoft Word, her bölüm için kağıt kaynağını (yazıcı tepsisi) yazıcıya özgü bir değer olarak depolar.
         // Doğru tepsi değerini elde etmek için yazıcınızın döndürmesi gereken "RawKind" özelliğini kullanmanız gerekecektir.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Her sayfanın yazdırılmak üzere işlenmesi için çağrılır.
+     /// Her sayfanın basıma hazır hale getirilmesi için çağrılır.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words render motoru, kağıdın orijininden (x = 0, y = 0) çizilmiş bir sayfa oluşturur.
-        // Yazıcıda her sayfayı işleyecek sert bir kenar boşluğu olacaktır. Bu zor marjı dengelememiz gerekiyor.
+        // Aspose.Words render motoru, kağıdın başlangıç noktasından (x = 0, y = 0) çizilen bir sayfa oluşturur.
+        // Yazıcıda her sayfayı işleyecek sert bir kenar boşluğu olacak. Bu sert kenar boşluğunu telafi etmemiz gerekiyor.
         float hardOffsetX, hardOffsetY;
 
-        // Aşağıda sert kenar boşluğu ayarlamanın iki yolu verilmiştir.
+        // Aşağıda sert marj ayarlamanın iki yolu bulunmaktadır.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - "PageSettings" özelliği aracılığıyla.
+            // 1 - "PageSettings" özelliği üzerinden.
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - "PageSettings" özelliği mevcut değilse kendi değerlerimizi kullanma.
+            // 2 - "PageSettings" özelliği kullanılamıyorsa kendi değerlerimizi kullanırız.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

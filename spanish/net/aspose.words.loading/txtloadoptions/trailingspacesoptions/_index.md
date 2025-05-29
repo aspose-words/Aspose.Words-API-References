@@ -3,14 +3,14 @@ title: TxtLoadOptions.TrailingSpacesOptions
 linktitle: TrailingSpacesOptions
 articleTitle: TrailingSpacesOptions
 second_title: Aspose.Words para .NET
-description: TxtLoadOptions TrailingSpacesOptions propiedad. Obtiene o establece la opción preferida de manejo de espacio final. El valor predeterminado esTrim  en C#.
+description: Descubra la propiedad TrailingSpacesOptions de TxtLoadOptions para gestionar fácilmente los espacios finales. Personalice el manejo con la opción predeterminada Recortar para obtener resultados óptimos.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
 
-Obtiene o establece la opción preferida de manejo de espacio final. El valor predeterminado esTrim .
+Obtiene o establece la opción preferida de manejo de espacios finales. El valor predeterminado esTrim .
 
 ```csharp
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
@@ -25,23 +25,23 @@ string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Crea un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento.
-// para modificar cómo cargamos un documento de texto plano.
+// Crea un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento
+// para modificar la forma en que cargamos un documento de texto plano.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Establece la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.Preserve"
-// para conservar todos los espacios en blanco al comienzo de cada línea.
-// Establece la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.ConvertToIndent"
-// para eliminar todos los espacios en blanco del inicio de cada línea,
-// y luego aplica una sangría izquierda en la primera línea del párrafo para simular el efecto de los espacios en blanco.
-// Establece la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.Trim"
-// para eliminar todos los espacios en blanco del inicio de cada línea.
+// Establezca la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.Preserve"
+// para preservar todos los caracteres de espacio en blanco al comienzo de cada línea.
+// Establezca la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.ConvertToIndent"
+// para eliminar todos los espacios en blanco del comienzo de cada línea,
+// y luego aplique una sangría en la primera línea izquierda del párrafo para simular el efecto de los espacios en blanco.
+// Establezca la propiedad "LeadingSpacesOptions" en "TxtLeadingSpacesOptions.Trim"
+// para eliminar todos los caracteres de espacio en blanco del inicio de cada línea.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
-// Establece la propiedad "TrailingSpacesOptions" en "TxtTrailingSpacesOptions.Preserve"
- // para conservar todos los espacios en blanco al final de cada línea.
- // Establece la propiedad "TrailingSpacesOptions" en "TxtTrailingSpacesOptions.Trim" para
-// elimina todos los espacios en blanco del final de cada línea.
+// Establezca la propiedad "TrailingSpacesOptions" en "TxtTrailingSpacesOptions.Preserve"
+ // para preservar todos los caracteres de espacio en blanco al final de cada línea.
+ // Establezca la propiedad "TrailingSpacesOptions" en "TxtTrailingSpacesOptions.Trim" para
+// eliminar todos los espacios en blanco del final de cada línea.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

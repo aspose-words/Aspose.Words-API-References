@@ -3,14 +3,14 @@ title: Shape.ExtrusionEnabled
 linktitle: ExtrusionEnabled
 articleTitle: ExtrusionEnabled
 second_title: Aspose.Words para .NET
-description: Shape ExtrusionEnabled propiedad. Devolucionesverdadero si un efecto de extrusión está habilitado en C#.
+description: Descubre si la función Extrusión de Forma está activa. ¡Mejora fácilmente tus diseños con impresionantes efectos 3D para un toque profesional!
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Devoluciones`verdadero` si un efecto de extrusión está habilitado.
+Devuelve`verdadero` Si está habilitado un efecto de extrusión.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

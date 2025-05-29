@@ -3,14 +3,14 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words для .NET
-description: Row Cells свойство. Обеспечивает типизированный доступ кCell дочерние узлы строки на С#.
+description: Получайте доступ к ячейкам строк без усилий с помощью типизированных элементов управления для бесперебойного управления дочерними узлами, что расширяет возможности манипулирования данными.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Обеспечивает типизированный доступ к[`Cell`](../../cell/) дочерние узлы строки.
+Предоставляет типизированный доступ к[`Cell`](../../cell/) дочерние узлы строки.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## Примеры
 
-Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Мы можем использовать метод ToArray для коллекции строк, чтобы клонировать ее в массив.
+    // Мы можем использовать метод «ToArray» для коллекции строк, чтобы клонировать ее в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Мы можем использовать метод ToArray для коллекции ячеек, чтобы клонировать ее в массив.
+        // Мы можем использовать метод «ToArray» для коллекции ячеек, чтобы клонировать ее в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

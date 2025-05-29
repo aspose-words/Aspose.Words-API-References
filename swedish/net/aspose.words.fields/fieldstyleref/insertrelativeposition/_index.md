@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words för .NET
-description: FieldStyleRef InsertRelativePosition fast egendom. Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas i C#.
+description: Upptäck hur egenskapen InsertRelativePosition i FieldStyleRef kan förbättra formateringen av ditt dokument genom att hantera styckereferenser effektivt.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
 ---
 ## FieldStyleRef.InsertRelativePosition property
 
-Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas.
+Hämtar eller anger om den relativa positionen för det refererade stycket ska infogas.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -24,15 +24,15 @@ Visar hur man använder STYLEREF-fält.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en lista baserad med hjälp av en Microsoft Word-listmall.
+// Skapa en lista baserad på en listmall i Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Den här genererade listan kommer att visa "1.a )".
- // Mellanslag före parentes är ett icke-avgränsande tecken, som vi kan undertrycka.
+// Den här genererade listan kommer att visa "1.a)".
+ // Mellanslag före parentesen är ett icke-avgränsande tecken, vilket vi kan undertrycka.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Lägg till text och använd styckestilar som STYLEREF-fälten refererar till.
+// Lägg till text och använd styckeformat som STYLEREF-fält refererar till.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Placera ett STYLEREF-fält i rubriken och visa den första "List Paragraph"-stilad text i dokumentet.
+// Placera ett STYLEREF-fält i sidhuvudet och visa den första texten i dokumentet med "List Paragraph"-formatering.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// Vi kan också använda STYLEREF-fält för att referera till listnumren på listor.
+// Vi kan också använda STYLEREF-fält för att referera till listnumren för listor.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

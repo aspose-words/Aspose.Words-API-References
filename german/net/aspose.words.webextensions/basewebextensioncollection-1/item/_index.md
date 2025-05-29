@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: BaseWebExtensionCollection Item eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest in C#.
+description: Entdecken Sie die Item-Eigenschaft BaseWebExtensionCollection zur einfachen Verwaltung von Elementen nach Index. Vereinfachen Sie Ihre Entwicklung noch heute mit effizienter Datenverarbeitung!
 type: docs
 weight: 20
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Web-Erweiterung entfernen.
+// Entfernen Sie die Weberweiterung.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

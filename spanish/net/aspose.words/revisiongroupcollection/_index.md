@@ -3,16 +3,16 @@ title: RevisionGroupCollection Class
 linktitle: RevisionGroupCollection
 articleTitle: RevisionGroupCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.RevisionGroupCollection clase. Una colección deRevisionGroup objetos que representan grupos de revisión en el documento en C#.
+description: Descubra la clase Aspose.Words.RevisionGroupCollection, que ofrece una gestión eficiente de grupos de revisión de documentos para mejorar la edición y la colaboración.
 type: docs
-weight: 4790
+weight: 5530
 url: /es/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Una colección de[`RevisionGroup`](../revisiongroup/) objetos que representan grupos de revisión en el documento.
+Una colección de[`RevisionGroup`](../revisiongroup/)objetos que representan grupos de revisión en el documento.
 
-Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) artículo de documentación.
+Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) Artículo de documentación.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -33,7 +33,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ## Observaciones
 
-No crea instancias de esta clase directamente. Utilizar el[`Groups`](../revisioncollection/groups/) Propiedad para obtener grupos de revisión presentes en un documento.
+No se crean instancias de esta clase directamente. Utilice el[`Groups`](../revisioncollection/groups/) Propiedad para obtener los grupos de revisión presentes en un documento.
 
 ## Ejemplos
 

@@ -3,14 +3,14 @@ title: TableCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words para .NET
-description: TableCollection ToArray método. Copia todas las tablas de la colección en una nueva matriz de tablas en C#.
+description: Convierta sin esfuerzo su TableCollection en una matriz con el método ToArray, simplificando la gestión de datos y mejorando el rendimiento de su aplicación.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/tablecollection/toarray/
 ---
 ## TableCollection.ToArray method
 
-Copia todas las tablas de la colección en una nueva matriz de tablas.
+Copia todas las tablas de la colección a una nueva matriz de tablas.
 
 ```csharp
 public Table[] ToArray()
@@ -18,11 +18,11 @@ public Table[] ToArray()
 
 ### Valor_devuelto
 
-Una serie de mesas.
+Una serie de tablas.
 
 ## Ejemplos
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

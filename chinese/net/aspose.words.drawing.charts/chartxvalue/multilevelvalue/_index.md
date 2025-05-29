@@ -2,8 +2,8 @@
 title: ChartXValue.MultilevelValue
 linktitle: MultilevelValue
 articleTitle: MultilevelValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue MultilevelValue 财产. 获取存储的多级值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartXValue 的 MultilevelValue 属性，轻松访问存储的多级数据。立即解锁洞见，增强您的数据分析能力！
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/

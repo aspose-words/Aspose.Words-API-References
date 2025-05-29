@@ -3,14 +3,14 @@ title: DocumentBuilder.PopFont
 linktitle: PopFont
 articleTitle: PopFont
 second_title: Aspose.Words för .NET
-description: DocumentBuilder PopFont metod. Hämtar teckenformatering som tidigare sparats i stacken i C#.
+description: Upptäck DocumentBuilder PopFont-metoden för att enkelt återställa teckenformatering från stacken och förbättra din dokumentskapandeprocess.
 type: docs
-weight: 590
+weight: 630
 url: /sv/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
 
-Hämtar teckenformatering som tidigare sparats i stacken.
+Hämtar teckenformatering som tidigare sparats på stacken.
 
 ```csharp
 public void PopFont()
@@ -18,23 +18,23 @@ public void PopFont()
 
 ## Exempel
 
-Visar hur du använder en dokumentbyggares formateringsstack.
+Visar hur man använder formateringsstack för ett dokumentverktyg.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in teckensnittsformatering och skriv sedan texten som går före hyperlänken.
+// Ställ in teckensnittsformatering och skriv sedan texten som kommer före hyperlänken.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Bevara vår nuvarande formateringskonfiguration i stacken.
+// Bevara vår nuvarande formateringskonfiguration på stacken.
 builder.PushFont();
 
-// Ändra byggarens nuvarande formatering genom att använda en ny stil.
+// Ändra verktygets nuvarande formatering genom att använda en ny stil.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", false);
+builder.InsertHyperlink("here", "http://www.google.com", falskt);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);

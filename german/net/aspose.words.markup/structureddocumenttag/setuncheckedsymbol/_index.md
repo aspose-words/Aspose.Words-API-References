@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SetUncheckedSymbol
 linktitle: SetUncheckedSymbol
 articleTitle: SetUncheckedSymbol
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag SetUncheckedSymbol methode. Legt das Symbol fest das verwendet wird um den deaktivierten Zustand eines KontrollkästchenInhaltssteuerelements darzustellen in C#.
+description: Entdecken Sie, wie die Methode SetUncheckedSymbol Ihr StructuredDocumentTag verbessert, indem sie die visuelle Darstellung von Kontrollkästchen für eine bessere Benutzererfahrung anpasst.
 type: docs
-weight: 370
+weight: 390
 url: /de/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
 
-Legt das Symbol fest, das verwendet wird, um den deaktivierten Zustand eines Kontrollkästchen-Inhaltssteuerelements darzustellen.
+Legt das Symbol fest, das zur Darstellung des deaktivierten Status eines Kontrollkästchen-Inhaltssteuerelements verwendet wird.
 
 ```csharp
 public void SetUncheckedSymbol(int characterCode, string fontName)
@@ -36,9 +36,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Wir können die Symbole festlegen, die verwendet werden, um den aktivierten/nicht aktivierten Status eines Kontrollkästchen-Inhaltssteuerelements darzustellen.
+// Wir können die Symbole festlegen, die zur Darstellung des aktivierten/deaktivierten Status eines Kontrollkästchen-Inhaltssteuerelements verwendet werden.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

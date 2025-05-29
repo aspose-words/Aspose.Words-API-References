@@ -2,10 +2,10 @@
 title: Fill.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill ImageBytes 财产. 获取填充纹理或图案的原始字节 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ImageBytes 属性访问填充纹理或图案的原始字节，实现无缝设计集成和增强的视觉质量。
 type: docs
-weight: 130
+weight: 140
 url: /zh/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -22,14 +22,14 @@ public byte[] ImageBytes { get; }
 
 ## 例子
 
-展示创造出各种形状。
+展现出多种多样的造型创造。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 下面是我们可以插入到文档中的四个形状的示例。
+// 1 - 虚线，水平，半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 翻转方向的箭头，填充 Aspose 徽标：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -80,7 +80,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 在获得显示形状之前，将图像翻转到另一个方向以取消此操作。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

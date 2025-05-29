@@ -3,14 +3,14 @@ title: PageSet
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words لـ .NET
-description: PageSet البناء. إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد في C#.
+description: قم بإنشاء مجموعة مخصصة من صفحة واحدة بسهولة باستخدام منشئ PageSet، المصمم لفهرسة الصفحات بدقة وتجربة مستخدم سلسة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet(*int*) {#constructor_1}
 
-إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد.
+ينشئ مجموعة من صفحة واحدة استنادًا إلى فهرس الصفحة الدقيق.
 
 ```csharp
 public PageSet(int page)
@@ -18,11 +18,39 @@ public PageSet(int page)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| page | Int32 | الفهرس الصفري للصفحة. |
+| page | Int32 | فهرس الصفحة يبدأ من الصفر. |
 
 ## ملاحظات
 
-إذا تمت مصادفة صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
+إذا تم العثور على صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
+
+## أمثلة
+
+يوضح كيفية عرض صفحة واحدة من مستند إلى صورة JPEG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+// قم بإنشاء كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل الطريقة التي تقوم بها هذه الطريقة بتحويل المستند إلى صورة.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+// اضبط "PageSet" على "1" لتحديد الصفحة الثانية عبر
+// الفهرس المبني على الصفر لبدء عرض المستند منه.
+options.PageSet = new PageSet(1);
+
+// عندما نحفظ المستند بتنسيق JPEG، يقوم Aspose.Words بعرض صفحة واحدة فقط.
+// ستحتوي هذه الصورة على صفحة واحدة بدءًا من الصفحة الثانية،
+// والتي ستكون فقط الصفحة الثانية من المستند الأصلي.
+doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
+```
 
 ### أنظر أيضا
 
@@ -34,7 +62,7 @@ public PageSet(int page)
 
 ## PageSet(*params int[]*) {#constructor_2}
 
-إنشاء مجموعة صفحات بناءً على فهارس الصفحات المحددة.
+ينشئ مجموعة صفحات استنادًا إلى مؤشرات الصفحات الدقيقة.
 
 ```csharp
 public PageSet(params int[] pages)
@@ -42,33 +70,33 @@ public PageSet(params int[] pages)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pages | Int32[] | الفهارس الصفرية للصفحات. |
+| pages | Int32[] | فهرس الصفحات يبدأ من الصفر. |
 
 ## ملاحظات
 
-إذا تمت مصادفة صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
+إذا تم العثور على صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
 
 ## أمثلة
 
-يوضح كيفية استخراج الصفحات بناءً على فهارس الصفحات الدقيقة.
+يوضح كيفية استخراج الصفحات استنادًا إلى مؤشرات الصفحات الدقيقة.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف خمس صفحات إلى المستند.
+//أضف خمس صفحات إلى المستند.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// قم بإنشاء كائن "XpsSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذا الأسلوب للمستند إلى .XPS.
+// قم بإنشاء كائن "XpsSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// استخدم خاصية "PageSet" لتحديد مجموعة من صفحات المستند لحفظها لإخراج XPS.
-// في هذه الحالة سنختار عبر فهرس صفري ثلاث صفحات فقط: الصفحة 1، الصفحة 2، والصفحة 4.
+// استخدم خاصية "PageSet" لتحديد مجموعة من صفحات المستند لحفظها في تنسيق XPS الناتج.
+// في هذه الحالة سوف نختار، من خلال فهرس يعتمد على الصفر، ثلاث صفحات فقط: الصفحة 1، والصفحة 2، والصفحة 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
@@ -84,7 +112,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 
 ## PageSet(*params PageRange[]*) {#constructor}
 
-إنشاء مجموعة صفحات بناءً على النطاقات.
+ينشئ مجموعة صفحات استنادًا إلى النطاقات.
 
 ```csharp
 public PageSet(params PageRange[] ranges)
@@ -96,11 +124,11 @@ public PageSet(params PageRange[] ranges)
 
 ## ملاحظات
 
-إذا تمت مواجهة نطاق يبدأ بعد الصفحة الأخيرة في المستند، فسيتم طرح استثناء أثناء العرض. يتم اقتطاع جميع النطاقات التي تنتهي بعد الصفحة الأخيرة لتناسب المستند.
+إذا تم العثور على نطاق يبدأ بعد الصفحة الأخيرة في المستند، فسيتم طرح استثناء أثناء العرض. سيتم اقتطاع جميع النطاقات التي تنتهي بعد الصفحة الأخيرة لتتناسب مع المستند.
 
 ## أمثلة
 
-يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
+يوضح كيفية استخراج الصفحات استنادًا إلى نطاقات الصفحات الدقيقة.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

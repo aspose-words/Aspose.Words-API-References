@@ -2,8 +2,8 @@
 title: BuiltInDocumentProperties.Category
 linktitle: Category
 articleTitle: Category
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Category mülk. Belgenin kategorisini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties ile belgenizin kategorisini zahmetsizce yönetin. Daha iyi iş akışı için belge organizasyonunu kolayca özelleştirin ve geliştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.properties/builtindocumentproperties/category/
@@ -18,15 +18,15 @@ public string Category { get; set; }
 
 ## Örnekler
 
-"Açıklama" kategorisinde yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
+"Açıklama" kategorisindeki yerleşik belge özelliklerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Aşağıda, değerlerini belge gövdesinde görüntüleyebilen alanlara sahip dört yerleşik belge özelliği bulunmaktadır.
-// 1 - AUTHOR alanını kullanarak görüntüleyebileceğimiz "Yazar" özelliği:
+// Aşağıda, belge gövdesinde değerlerini görüntüleyebilen alanlara sahip dört yerleşik belge özelliği bulunmaktadır.
+// 1 - AUTHOR alanını kullanarak görüntüleyebileceğimiz "Author" özelliği:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
@@ -36,25 +36,25 @@ properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - SUBJECT alanını kullanarak görüntüleyebileceğimiz "Konu" özelliği:
+// 3 - SUBJECT alanını kullanarak görüntüleyebileceğimiz "Subject" özelliği:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 - YORUMLAR alanını kullanarak görüntüleyebileceğimiz "Yorumlar" özelliği:
+// 4 - COMMENTS alanını kullanarak görüntüleyebileceğimiz "Comments" özelliği:
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// "Kategori" yerleşik özelliğinin değerini görüntüleyebilecek bir alanı yok.
+// "Kategori" yerleşik özelliğinin değerini görüntüleyebilecek bir alanı yoktur.
 properties.Category = "My category";
 
-// "Keywords" özelliğinin string değerini noktalı virgülle ayırarak bir belge için birden fazla anahtar kelime belirleyebiliriz.
+// "Anahtar Sözcükler" özelliğinin dize değerini noktalı virgülle ayırarak bir belge için birden fazla anahtar sözcük belirleyebiliriz.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Windows Explorer'da bu belgeye sağ tıklayıp bu özellikleri "Özellikler" --> "Detaylar".
-// "Yazar" yerleşik özelliği "Origin" grubunda, diğerleri ise "Açıklama" grubundadır.
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp "Özellikler" -> "Ayrıntılar" kısmından bu özellikleri bulabiliriz.
+// "Yazar" yerleşik özelliği "Köken" grubunda, diğerleri ise "Açıklama" grubundadır.
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

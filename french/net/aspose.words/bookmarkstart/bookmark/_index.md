@@ -3,7 +3,7 @@ title: BookmarkStart.Bookmark
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words pour .NET
-description: BookmarkStart Bookmark propriété. Obtient lobjet de façade qui encapsule le début et la fin de ce signet en C#.
+description: Découvrez la propriété unique de BookmarkStart pour accéder à l'objet de façade, simplifiant ainsi la gestion de vos signets avec une encapsulation de début et de fin transparente.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmarkstart/bookmark/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

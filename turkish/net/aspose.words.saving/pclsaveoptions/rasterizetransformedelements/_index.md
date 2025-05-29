@@ -2,15 +2,15 @@
 title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
-second_title: Aspose.Words for .NET
-description: PclSaveOptions RasterizeTransformedElements mülk. Karmaşık dönüştürülmüş elementlerin nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılandoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: PCL belgelerindeki karmaşık öğelerin rasterleştirilmesini PclSaveOptions ile kontrol edin. En iyi sonuçlar için görüntü kalitesini ve dosya boyutunu kolayca yönetin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-Karmaşık dönüştürülmüş elementlerin 'nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılan:`doğru` .
+Karmaşık dönüştürülmüş elements 'nin PCL belgesine kaydedilmeden önce rasterleştirilip rasterleştirilmeyeceğini belirleyen bir değer alır veya ayarlar. Varsayılan`doğru` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -18,7 +18,7 @@ public bool RasterizeTransformedElements { get; set; }
 
 ## Notlar
 
-PCL, Aspose Words tarafından kullanılan bazı dönüşüm türlerini desteklemez. Örneğin döndürülmüş, çarpık görüntüler ve doku fırçaları. Bu tür elemanların düzgün bir şekilde işlenmesi için rasterleştirme işlemi kullanılır, yani görüntüye kaydetme ve kırpma. Bu işlem ek zaman ve bellek alabilir. Eğer bayrak şu şekilde ayarlanırsa:`YANLIŞ` , çıktıdaki bazı içerikler kaynak belgeyle karşılaştırıldığında farklı olabilir.
+PCL, Aspose Words tarafından kullanılan bazı dönüşümleri desteklemez. Örn. döndürülmüş, eğik resimler ve doku fırçaları. Bu tür öğeleri düzgün bir şekilde işlemek için rasterleştirme işlemi kullanılır, yani resme kaydetme ve kırpma. Bu işlem ek zaman ve bellek alabilir. Eğer bayrak`YANLIŞ` , çıktıdaki bazı içerikler kaynak belgeyle karşılaştırıldığında farklı olabilir.
 
 ## Örnekler
 

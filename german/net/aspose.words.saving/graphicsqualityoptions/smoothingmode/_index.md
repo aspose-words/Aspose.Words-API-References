@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.SmoothingMode
 linktitle: SmoothingMode
 articleTitle: SmoothingMode
 second_title: Aspose.Words für .NET
-description: GraphicsQualityOptions SmoothingMode eigendom. Ruft die Renderqualität für diese Grafik ab oder legt sie fest in C#.
+description: Entdecken Sie die SmoothingMode-Eigenschaft von GraphicsQualityOptions, um Ihre Rendering-Qualität zu verbessern und Ihre Grafikleistung mühelos zu steigern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
 ## GraphicsQualityOptions.SmoothingMode property
 
-Ruft die Renderqualität für diese Grafik ab oder legt sie fest.
+Ruft die Rendering-Qualität für diese Grafik ab oder legt sie fest.
 
 ```csharp
 public SmoothingMode? SmoothingMode { get; set; }
@@ -18,7 +18,7 @@ public SmoothingMode? SmoothingMode { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Sie beim Konvertieren von Dokumenten in Bildformate Optionen für die Renderqualität festlegen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

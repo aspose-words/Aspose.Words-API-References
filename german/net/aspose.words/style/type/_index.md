@@ -3,9 +3,9 @@ title: Style.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: Style Type eigendom. Ruft den Stiltyp Absatz oder Zeichen ab in C#.
+description: Entdecken Sie die Eigenschaft „Stiltyp“, um mühelos auf Absatz- oder Zeichenstile zuzugreifen und diese anzupassen und so die visuelle Attraktivität Ihres Dokuments zu verbessern.
 type: docs
-weight: 170
+weight: 200
 url: /de/net/aspose.words/style/type/
 ---
 ## Style.Type property

@@ -3,14 +3,14 @@ title: PreferredWidth.FromPercent
 linktitle: FromPercent
 articleTitle: FromPercent
 second_title: Aspose.Words för .NET
-description: PreferredWidth FromPercent metod. En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent i C#.
+description: Upptäck metoden PreferredWidth FromPercent, som skapar en ny instans för att definiera önskade bredder som en procentandel. Förbättra din designprecision!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/preferredwidth/frompercent/
 ---
 ## PreferredWidth.FromPercent method
 
-En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent.
+En skapandemetod som returnerar en ny instans som representerar en önskad bredd angiven som en procentandel.
 
 ```csharp
 public static PreferredWidth FromPercent(double percent)
@@ -18,11 +18,11 @@ public static PreferredWidth FromPercent(double percent)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| percent | Double | Värdet måste vara från 0 till 100. |
+| percent | Double | Värdet måste vara mellan 0 och 100. |
 
 ## Exempel
 
-Visar hur du ställer in en tabell för att automatiskt anpassa till 50 % av sidans bredd.
+Visar hur man ställer in en tabell så att den automatiskt anpassas till 50 % av sidans bredd.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ table.PreferredWidth = PreferredWidth.FromPercent(50);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
-Visar hur man ställer in en föredragen bredd för tabellceller.
+Visar hur man anger en önskad bredd för tabellceller.
 
 ```csharp
 Document doc = new Document();
@@ -49,13 +49,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Det finns två sätt att tillämpa klassen "PreferredWidth" på tabellceller.
-// 1 - Ställ in en absolut föredragen bredd baserat på punkter:
+// 1 - Ange en absolut önskad bredd baserat på punkter:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Ställ in en relativ föredragen bredd baserat på procent av tabellens bredd:
+// 2 - Ange en relativ önskad bredd baserat på procentandel av tabellens bredd:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -63,7 +63,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// En cell utan angiven önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
+// En cell utan specificerad önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Varje konfiguration av egenskapen "PreferredWidth" skapar ett nytt objekt.

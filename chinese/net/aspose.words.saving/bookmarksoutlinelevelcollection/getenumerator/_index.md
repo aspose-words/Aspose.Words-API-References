@@ -2,8 +2,8 @@
 title: BookmarksOutlineLevelCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarksOutlineLevelCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarksOutlineLevelCollection 的 GetEnumerator 方法，轻松高效地遍历集合项。立即提升您的编程体验！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/

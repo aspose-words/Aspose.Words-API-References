@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words för .NET
-description: IDocumentLoadingCallback Notify metod. Detta anropas för att meddela om dokumentets laddningsförlopp i C#.
+description: Spåra dokumentinläsningen enkelt med metoden IDocumentLoadingCallback Notify. Förbättra användarupplevelsen med uppdateringar i realtid!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-Detta anropas för att meddela om dokumentets laddningsförlopp.
+Detta anropas för att meddela om dokumentets inläsningsförlopp.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -22,13 +22,13 @@ public void Notify(DocumentLoadingArgs args)
 
 ## Anmärkningar
 
-De primära användningsområdena för detta gränssnitt är att tillåta applikationskod att erhålla förloppsstatus och avbryta laddningsprocessen.
+Det här gränssnittet används huvudsakligen för att tillåta applikationskod att hämta förloppsstatus och avbryta laddningsprocessen.
 
-Ett undantag bör kastas från förloppsåteruppringningen för abort och det bör fångas i konsumentkoden.
+Ett undantag bör genereras från progress-återanropet för abort och det bör fångas i konsumentkoden.
 
 ## Exempel
 
-Visar hur man meddelar användaren om dokumentladdningen överskrider förväntad laddningstid.
+Visar hur man meddelar användaren om dokumentinläsningen överskrider den förväntade inläsningstiden.
 
 ```csharp
 public void ProgressCallback()
@@ -50,12 +50,12 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// Avbryt ett dokument som laddas efter "MaxDuration" sekunderna.
+/// Avbryt en dokumentinläsning efter "MaxDuration" sekunder.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centrum
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -63,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Återuppringningsmetod som anropades under dokumentladdning.
+    /// Återanropsmetod som anropades under dokumentinläsning.
     /// </summary>
     /// <param name="args">Laddar argument.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -76,12 +76,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Datum och tid när dokumentladdningen startas.
+    /// Datum och tid då dokumentinläsningen startade.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal tillåten varaktighet i sek.
+    /// Maximal tillåten varaktighet i sekunder.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

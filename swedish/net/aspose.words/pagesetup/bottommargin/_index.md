@@ -3,14 +3,14 @@ title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
 second_title: Aspose.Words för .NET
-description: PageSetup BottomMargin fast egendom. Returnerar eller ställer in avståndet i poäng mellan den nedre kanten av sidan och den nedre gränsen för brödtexten i C#.
+description: Justera dokumentets layout med egenskapen PageSetup BottomMargin, som definierar avståndet mellan sidans nederkant och brödtexten för optimal presentation.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property
 
-Returnerar eller ställer in avståndet (i poäng) mellan den nedre kanten av sidan och den nedre gränsen för brödtexten.
+Returnerar eller anger avståndet (i punkter) mellan sidans nederkant och brödtextens nedre gräns.
 
 ```csharp
 public double BottomMargin { get; set; }
@@ -18,7 +18,7 @@ public double BottomMargin { get; set; }
 
 ## Exempel
 
-Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
+Visar hur man justerar pappersstorlek, orientering, marginaler och andra inställningar för ett avsnitt.
 
 ```csharp
 Document doc = new Document();

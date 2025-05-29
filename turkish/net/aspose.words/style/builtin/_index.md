@@ -2,8 +2,8 @@
 title: Style.BuiltIn
 linktitle: BuiltIn
 articleTitle: BuiltIn
-second_title: Aspose.Words for .NET
-description: Style BuiltIn mülk. Bu stil MS Worddeki yerleşik stillerden biriyse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Bir stilin MS Word'de yerleşik bir seçenek olup olmadığını keşfedin. Word'ün yerleşik stillerine ilişkin kapsamlı kılavuzumuzla belge tasarımınızı geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/style/builtin/
@@ -18,21 +18,21 @@ public bool BuiltIn { get; }
 
 ## Örnekler
 
-Özel stillerin yerleşik stillerden nasıl ayırt edileceğini gösterir.
+Özel stilleri yerleşik stillerden nasıl ayırt edeceğinizi gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Microsoft Word kullanarak veya programlı olarak Aspose.Words kullanarak bir belge oluşturduğumuzda,
-// belge, görünümünü değiştirmek için metnine uygulanacak bir stil koleksiyonuyla birlikte gelecektir.
-// Bu yerleşik stillere belgenin "Stiller" koleksiyonu aracılığıyla erişebiliriz.
-// Bu stillerin hepsinde "Yerleşik" bayrağı "true" olarak ayarlanacaktır.
+// Microsoft Word kullanarak veya Aspose.Words'ü programlı olarak kullanarak bir belge oluşturduğumuzda,
+// Belge, görünümünü değiştirmek için metne uygulanacak bir dizi stil ile birlikte gelecektir.
+// Bu yerleşik stillere, belgenin "Stiller" koleksiyonu aracılığıyla erişebiliriz.
+// Bu stillerin hepsinde "BuiltIn" bayrağı "true" olarak ayarlanacaktır.
 Style style = doc.Styles["Emphasis"];
 
 Assert.True(style.BuiltIn);
 
-// Özel bir stil oluşturun ve onu koleksiyona ekleyin.
-// Bunun gibi özel stillerde "Yerleşik" bayrağı "yanlış" olarak ayarlanacaktır.
+// Özel bir stil oluşturup koleksiyona ekleyin.
+ // Bu tür özel stiller için "Yerleşik" bayrağı "yanlış" olarak ayarlanacaktır.
 style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Navy;
 style.Font.Name = "Courier New";

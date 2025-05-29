@@ -3,14 +3,14 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words для .NET
-description: Section ProtectedForForms свойство. True если раздел защищен для форм. Если раздел защищен для форм пользователи могут выбирать и изменять текст только в полях формы в Microsoft Word на С#.
+description: Узнайте, как свойство ProtectedForForms в Microsoft Word повышает безопасность документа, позволяя пользователям легко редактировать только определенные поля формы.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-True, если раздел защищен для форм. Если раздел защищен для форм, пользователи могут выбирать и изменять текст только в полях формы в Microsoft Word.
+True, если раздел защищен для форм. Когда раздел защищен для форм, пользователи могут выбирать и изменять текст только в полях форм в Microsoft Word.
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -31,14 +31,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Применяем защиту от записи к каждому разделу документа.
+// Применить защиту от записи к каждому разделу документа.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
 // Отключаем защиту от записи для первого раздела.
 doc.Sections[0].ProtectedForForms = false;
 
 // В этом выходном документе мы сможем свободно редактировать первый раздел,
-// и мы сможем редактировать содержимое поля формы только во втором разделе.
+// и мы сможем редактировать только содержимое поля формы во втором разделе.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

@@ -3,14 +3,14 @@ title: OleFormat.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words för .NET
-description: OleFormat Save metod. Sparar data för det inbäddade objektet i den angivna strömmen i C#.
+description: Upptäck OleFormat Save-metoden för att effektivt lagra inbäddade objektdata i din valda ström. Förbättra datahanteringen med lätthet!
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/oleformat/save/
 ---
 ## Save(*Stream*) {#save}
 
-Sparar data för det inbäddade objektet i den angivna strömmen.
+Sparar data från det inbäddade objektet i den angivna strömmen.
 
 ```csharp
 public void Save(Stream stream)
@@ -18,17 +18,17 @@ public void Save(Stream stream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Var ska objektdata sparas. |
+| stream | Stream | Var objektdata ska sparas. |
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Kastar om du försöker spara ett länkat objekt. |
+| InvalidOperationException | Utlöses om du försöker spara ett länkat objekt. |
 
 ## Anmärkningar
 
-Det är uppringarens ansvar att göra sig av med strömmen.
+Det är uppringarens ansvar att avyttra strömmen.
 
 ## Exempel
 
@@ -43,7 +43,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -51,8 +51,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
@@ -72,7 +72,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(*string*) {#save_1}
 
-Sparar data för det inbäddade objektet i en fil med det angivna namnet.
+Sparar data från det inbäddade objektet i en fil med det angivna namnet.
 
 ```csharp
 public void Save(string fileName)
@@ -86,7 +86,7 @@ public void Save(string fileName)
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Kastar om du försöker spara ett länkat objekt. |
+| InvalidOperationException | Utlöses om du försöker spara ett länkat objekt. |
 
 ## Exempel
 
@@ -101,7 +101,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -109,8 +109,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

@@ -3,14 +3,14 @@ title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
 second_title: Aspose.Words för .NET
-description: MailMergeSettings MainDocumentType fast egendom. Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault  i C#.
+description: Upptäck hur egenskapen MailMergeSettings MainDocumentType definierar dina dokument med kopplingar. Skapa sömlöst dokument med optimala inställningar!
 type: docs
 weight: 140
 url: /sv/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault .
+Anger huvuddokumenttypen för dokumentkopplingen. Standardvärdet ärDefault .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -22,7 +22,7 @@ Huvuddokumentet är det dokument som innehåller information som är densamma f�
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

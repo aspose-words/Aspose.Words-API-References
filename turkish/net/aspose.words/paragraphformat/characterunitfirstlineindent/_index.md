@@ -2,8 +2,8 @@
 title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
-second_title: Aspose.Words for .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent mülk. İlk satır veya asılı girinti için değeri karakter cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin ilk satırını veya asılı girintisini kolayca özelleştirerek cilalı bir görünüm elde etmek için ParagraphFormat CharacterUnitFirstLineIndent özelliğini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Aşağıda, konfigürasyonlarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı aralık seçeneği bulunmaktadır.
+// Aşağıda, yapılandırmalarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı aralık seçeneği bulunmaktadır.
 // 1 - Sol girinti:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -49,14 +49,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - Paragraflardan önceki satır aralığı:
+// 4 - Paragraflardan önceki satır aralıkları:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Paragraflardan sonraki satır aralığı:
+// 5 - Paragraflardan sonraki satır aralıkları:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

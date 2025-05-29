@@ -3,14 +3,14 @@ title: PdfSaveOptions.ZoomBehavior
 linktitle: ZoomBehavior
 articleTitle: ZoomBehavior
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions ZoomBehavior ملكية. الحصول على قيمة أو تعيينها لتحديد نوع التكبير/التصغير الذي يجب تطبيقه عند فتح مستند باستخدام عارض PDF في C#.
+description: اكتشف خاصية ZoomBehavior في PdfSaveOptions، وتحكم في إعدادات التكبير/التصغير لعرض مثالي في عارضات PDF. حسّن تجربة المستخدم مع عرض مُخصص للمستندات!
 type: docs
-weight: 320
+weight: 350
 url: /ar/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 ---
 ## PdfSaveOptions.ZoomBehavior property
 
-الحصول على قيمة أو تعيينها لتحديد نوع التكبير/التصغير الذي يجب تطبيقه عند فتح مستند باستخدام عارض PDF.
+يحصل على قيمة أو يعينها لتحديد نوع التكبير الذي يجب تطبيقه عند فتح مستند باستخدام عارض PDF.
 
 ```csharp
 public PdfZoomBehavior ZoomBehavior { get; set; }
@@ -18,22 +18,22 @@ public PdfZoomBehavior ZoomBehavior { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هيNone ، أي لم يتم تطبيق أي ملاءمة.
+القيمة الافتراضية هيNone ، أي أنه لا يتم تطبيق أي ملاءمة.
 
 ## أمثلة
 
-يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
+يوضح كيفية تعيين التكبير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 // اضبط خاصية "ZoomBehavior" على "PdfZoomBehavior.ZoomFactor" للحصول على قارئ PDF
-// قم بتطبيق عامل التكبير على أساس النسبة المئوية عندما نفتح المستند به.
-// اضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
+// تطبيق عامل تكبير يعتمد على النسبة المئوية عند فتح المستند به.
+// قم بضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

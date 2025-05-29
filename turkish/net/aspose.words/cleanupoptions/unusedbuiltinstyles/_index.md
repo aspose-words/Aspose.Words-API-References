@@ -2,15 +2,15 @@
 title: CleanupOptions.UnusedBuiltinStyles
 linktitle: UnusedBuiltinStyles
 articleTitle: UnusedBuiltinStyles
-second_title: Aspose.Words for .NET
-description: CleanupOptions UnusedBuiltinStyles mülk. Kullanılmadığını belirtirBuiltIn stiller belgeden kaldırılmalıdır C#'da.
+second_title: .NET için Aspose.Words
+description: CleanupOptions'ın UnusedBuiltinStyles özelliğiyle belgelerinizi optimize edin; böylece kullanılmayan BuiltIn stilleri daha temiz ve profesyonel sonuçlar için etkili bir şekilde kaldırılır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
 ---
 ## CleanupOptions.UnusedBuiltinStyles property
 
-Kullanılmadığını belirtir[`BuiltIn`](../../style/builtin/) stiller belgeden kaldırılmalıdır.
+Kullanılmayanları belirtir[`BuiltIn`](../../style/builtin/) stiller belgeden kaldırılmalıdır.
 
 ```csharp
 public bool UnusedBuiltinStyles { get; set; }
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Yerleşik stillerle birleştirildiğinde belgenin artık sekiz stili var.
-// Belgede herhangi bir metin varken özel stil "kullanılmış" olarak işaretlenir
-// bu tarzda biçimlendirilmiş. Bu, eklediğimiz 4 stilin şu anda kullanılmadığı anlamına gelir.
+// Yerleşik stillerle birlikte, belge artık sekiz stile sahip.
+// Belge içerisinde herhangi bir metin varken özel bir stil "kullanılmış" olarak işaretlenir
+// o stilde biçimlendirildi. Bu, eklediğimiz 4 stilin şu anda kullanılmadığı anlamına geliyor.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Özel bir karakter stili ve ardından özel bir liste stili uygulayın. Bunu yaptığınızda bunlar "kullanılmış" olarak işaretlenir.
+// Özel bir karakter stili ve ardından özel bir liste stili uygulayın. Bunu yapmak onları "kullanılmış" olarak işaretleyecektir.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -43,8 +43,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Artık kullanılmayan bir karakter stili ve kullanılmayan bir liste stili var.
-// Cleanup() yöntemi, bir CleanupOptions nesnesiyle yapılandırıldığında kullanılmayan stilleri hedefleyebilir ve bunları kaldırabilir.
+// Şimdi, kullanılmayan bir karakter stili ve kullanılmayan bir liste stili var.
+// Cleanup() yöntemi, CleanupOptions nesnesiyle yapılandırıldığında kullanılmayan stilleri hedefleyebilir ve bunları kaldırabilir.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -54,8 +54,8 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmamış" olarak işaretler.
-// Bunları kaldırmak için Temizleme yöntemini yeniden çalıştırın.
+ // Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmayan" olarak işaretler.
+// Bunları kaldırmak için Temizleme yöntemini tekrar çalıştırın.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

@@ -3,9 +3,9 @@ title: ListLabel Class
 linktitle: ListLabel
 articleTitle: ListLabel
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Lists.ListLabel klass. Definierar egenskaper som är specifika för en listetikett i C#.
+description: Utforska klassen Aspose.Words.Lists.ListLabel för att förbättra din dokumentformatering med anpassningsbara listetikettegenskaper för bättre kontroll och presentation.
 type: docs
-weight: 3490
+weight: 3940
 url: /sv/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
@@ -22,9 +22,9 @@ public class ListLabel
 
 | namn | Beskrivning |
 | --- | --- |
-| [Font](../../aspose.words.lists/listlabel/font/) { get; } | Hämtar listetikettens teckensnitt. |
-| [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Får en strängrepresentation av listetikett. |
-| [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Får ett numeriskt värde för denna etikett. |
+| [Font](../../aspose.words.lists/listlabel/font/) { get; } | Hämtar teckensnittet för listetiketten. |
+| [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Hämtar en strängrepresentation av listetiketten. |
+| [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Hämtar ett numeriskt värde för denna etikett. |
 
 ## Exempel
 
@@ -36,21 +36,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Hitta om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
+// Se om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
 // som börjar vid tre och slutar vid sex.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Det här är texten vi får när vi matar ut den här noden till textformat.
-     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
+    // Detta är texten vi får när vi skriver ut noden i textformat.
+     // Denna textutdata kommer att utelämna listetiketter. Beskär alla tecken för styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Detta får styckets position på den aktuella nivån i listan. Om vi har en lista med flera nivåer,
-    // detta kommer att berätta vilken position det är på den nivån.
+    // Detta hämtar styckets position på listans aktuella nivå. Om vi har en lista med flera nivåer,
+    // detta kommer att berätta för oss vilken position den är på den nivån.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Kombinera dem för att inkludera listetiketten med texten i utdata.

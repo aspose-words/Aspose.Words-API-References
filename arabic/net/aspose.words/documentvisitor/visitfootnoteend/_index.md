@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFootnoteEnd
 linktitle: VisitFootnoteEnd
 articleTitle: VisitFootnoteEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitFootnoteEnd طريقة. يتم استدعاؤه عند انتهاء تعداد نص الحاشية السفلية أو التعليق الختامي في C#.
+description: اكتشف طريقة DocumentVisitor VisitFootnoteEnd، وهي ضرورية للتعامل بكفاءة مع تعداد نصوص الحواشي السفلية والختامية في تطبيقاتك.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-يتم استدعاؤه عند انتهاء تعداد نص الحاشية السفلية أو التعليق الختامي.
+يتم استدعاؤها عند انتهاء تعداد نص الحاشية السفلية أو النهائية.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| footnote | Footnote | الكائن الذي تتم زيارته. |
+| footnote | Footnote | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في المستند.
+يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في مستند.
 
 ```csharp
 public void FootnoteToText()
@@ -34,17 +34,17 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة تحتوي على جميع عقد الحواشي السفلية وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الحواشي السفلية التي تم مواجهتها وأطفالها.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة حاشية سفلية في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة الحاشية السفلية في المستند.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -75,7 +75,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الحاشية السفلية.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الحاشية السفلية.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -87,7 +87,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -97,9 +97,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

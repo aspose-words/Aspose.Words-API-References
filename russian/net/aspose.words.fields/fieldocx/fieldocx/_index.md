@@ -3,7 +3,7 @@ title: FieldOcx
 linktitle: FieldOcx
 articleTitle: FieldOcx
 second_title: Aspose.Words для .NET
-description: FieldOcx строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldOcx, ваше решение для бесшовной интеграции и настройки. Откройте для себя мощные функции для оптимальной производительности!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldocx/fieldocx/

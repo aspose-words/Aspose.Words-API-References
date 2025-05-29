@@ -3,7 +3,7 @@ title: FieldDde
 linktitle: FieldDde
 articleTitle: FieldDde
 second_title: Aspose.Words для .NET
-description: FieldDde строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldDde, ваше решение для бесшовной интеграции и эффективного кодирования. Откройте для себя мощные функции для своих проектов сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddde/fielddde/

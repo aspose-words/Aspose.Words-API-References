@@ -3,14 +3,14 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words لـ .NET
-description: Table LastRow ملكية. إرجاع الأخيرRow العقدة في الجدول في C#.
+description: اكتشف خاصية Table LastRow للوصول بسهولة إلى عقدة الصف الأخيرة في جدولك، مما يعزز إدارة البيانات وكفاءتها.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-إرجاع الأخير[`Row`](../../row/) العقدة في الجدول.
+يعيد آخر[`Row`](../../row/) عقدة في الجدول.
 
 ```csharp
 public Row LastRow { get; }
@@ -18,7 +18,7 @@ public Row LastRow { get; }
 
 ## أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
+يوضح كيفية إزالة الصفوف الأولى والأخيرة من كافة الجداول في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

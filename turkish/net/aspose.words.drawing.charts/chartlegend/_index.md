@@ -2,17 +2,17 @@
 title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend sınıf. Grafik açıklama özelliklerini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Daha iyi veri görselleştirmesi için grafiklerinizi özelleştirilebilir gösterge özellikleriyle geliştirmek üzere Aspose.Words.Drawing.Charts.ChartLegend sınıfını keşfedin.
 type: docs
-weight: 720
+weight: 1010
 url: /tr/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
-Grafik açıklama özelliklerini temsil eder.
+Grafik efsanesi özelliklerini temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Grafiklerle Çalışma](https://docs.aspose.com/words/net/working-with-charts/) belgeleme makalesi.
 
 ```csharp
 public class ChartLegend
@@ -22,13 +22,15 @@ public class ChartLegend
 
 | İsim | Tanım |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` . |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Göstergenin grafikteki konumunu belirtir. Varsayılan değer:Right . |
+| [Font](../../aspose.words.drawing.charts/chartlegend/font/) { get; } | Efsane girişlerinin varsayılan yazı tipi biçimlendirmesine erişim sağlar. Belirli bir efsane girişi için yazı tipi biçimlendirmesini geçersiz kılmak için, kullanın[`Font`](../chartlegendentry/font/) mülk. |
+| [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | Efsanenin dolgu ve satır biçimlendirmesine erişim sağlar. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Ana grafiğin tüm serileri ve eğilim çizgileri için bir dizi gösterge girişi döndürür. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Diğer grafik öğelerinin efsaneyle örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan değer`YANLIŞ` . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Bir grafikteki efsanenin konumunu belirtir. |
 
 ## Örnekler
 
-Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
+Bir grafiğin açıklamasının görünümünün nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -42,11 +44,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin açıklamasını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşı.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerine, açıklamanın üzerine binmelerine izin vererek daha fazla yer verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

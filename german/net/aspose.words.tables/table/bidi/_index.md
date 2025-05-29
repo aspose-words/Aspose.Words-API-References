@@ -3,7 +3,7 @@ title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words für .NET
-description: Table Bidi eigendom. Ruft ab oder legt fest ob es sich um eine von rechts nach links verlaufende Tabelle handelt in C#.
+description: Entdecken Sie die Bidi-Eigenschaften für Tabellen für eine nahtlose Formatierung von rechts nach links. Verbessern Sie Ihr Webdesign mit einfachen Anpassungsoptionen!
 type: docs
 weight: 80
 url: /de/net/aspose.words.tables/table/bidi/
@@ -18,13 +18,13 @@ public bool Bidi { get; set; }
 
 ## Bemerkungen
 
-Wann`WAHR`, sind die Zellen in dieser Zeile von rechts nach links angeordnet.
+Wann`WAHR`, die Zellen in dieser Zeile werden von rechts nach links angeordnet.
 
 Der Standardwert ist`FALSCH`.
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

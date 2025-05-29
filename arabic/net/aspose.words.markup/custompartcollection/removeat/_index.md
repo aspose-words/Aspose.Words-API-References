@@ -3,14 +3,14 @@ title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: CustomPartCollection RemoveAt طريقة. إزالة عنصر في الفهرس المحدد في C#.
+description: قم بإدارة CustomPartCollection بسهولة باستخدام طريقة RemoveAt—قم بإزالة العناصر بسرعة حسب الفهرس للتعامل مع البيانات بشكل مبسط.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/custompartcollection/removeat/
 ---
 ## CustomPartCollection.RemoveAt method
 
-إزالة عنصر في الفهرس المحدد.
+يزيل عنصرًا عند الفهرس المحدد.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,23 +18,23 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | المؤشر القائم على الصفر. |
+| index | Int32 | المؤشر المبني على الصفر. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

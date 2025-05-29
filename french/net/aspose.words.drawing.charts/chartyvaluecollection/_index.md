@@ -3,9 +3,9 @@ title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection classe. Représente une collection de valeurs Y pour une série de graphiques en C#.
+description: Découvrez la classe Aspose.Words.Drawing.Charts.ChartYValueCollection, votre solution de référence pour gérer les valeurs Y dans les séries de graphiques de manière efficace et efficiente.
 type: docs
-weight: 880
+weight: 1200
 url: /fr/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
@@ -21,6 +21,7 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Obtient le nombre d'éléments dans cette collection. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | Obtient ou définit le code de format appliqué aux valeurs Y. |
 | [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Obtient ou définit la valeur Y à l'index spécifié. |
 
 ## Méthodes
@@ -33,7 +34,7 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 Tous les éléments de la collection autres que**nul** doit avoir le même[`ValueType`](../chartyvalue/valuetype/).
 
-La collection permet uniquement de modifier les valeurs Y. Pour ajouter ou insérer de nouvelles valeurs à une série de graphiques, ou supprimer des valeurs, les méthodes appropriées du[`ChartSeries`](../chartseries/) la classe peut être utilisée.
+La collection permet uniquement de modifier les valeurs Y. Pour ajouter ou insérer de nouvelles valeurs à une série de graphiques, ou supprimer des valeurs, utilisez les méthodes appropriées du[`ChartSeries`](../chartseries/) la classe peut être utilisée.
 
 ## Exemples
 
@@ -54,11 +55,11 @@ int maxValueIndex = 0;
 
 for (int i = 0; i < series.YValues.Count; i++)
 {
-    // Efface le format individuel de tous les points de données.
-    // Les points de données et les valeurs des données sont un à un dans les histogrammes.
+    // Effacer le format individuel de tous les points de données.
+    // Les points de données et les valeurs de données sont un à un dans les graphiques à colonnes.
     series.DataPoints[i].ClearFormat();
 
-    // Récupère la valeur Y.
+    // Obtenir la valeur Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Change les couleurs des valeurs max et min.
+// Changer les couleurs des valeurs max et min.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

@@ -3,14 +3,14 @@ title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
 second_title: Aspose.Words für .NET
-description: FieldEnd HasSeparator eigendom. Gibt zurückWAHRwenn dieses Feld ein Trennzeichen hat in C#.
+description: Entdecken Sie die Eigenschaft „FieldEnd HasSeparator“ und überprüfen Sie einfach, ob Ihr Feld ein Trennzeichen zur verbesserten Datenorganisation und Übersichtlichkeit enthält.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Gibt zurück`WAHR`wenn dieses Feld ein Trennzeichen hat.
+Rückgaben`WAHR` wenn dieses Feld ein Trennzeichen hat.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

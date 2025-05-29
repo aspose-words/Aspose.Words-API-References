@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: DocumentPropertyCollection Item propriété. Renvoie unDocumentProperty objet par le nom de la propriété en C#.
+description: Accédez facilement aux objets DocumentProperty grâce à notre élément DocumentPropertyCollection. Récupérez les propriétés par nom pour une gestion documentaire fluide.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.properties/documentpropertycollection/item/
@@ -22,7 +22,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ## Remarques
 
-Retour`nul` si une propriété portant le nom spécifié n'est pas trouvée.
+Retours`nul` si une propriété avec le nom spécifié n'est pas trouvée.
 
 ## Exemples
 
@@ -32,8 +32,8 @@ Montre comment créer une propriété de document personnalisée contenant une d
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### Voir également
@@ -59,13 +59,13 @@ public DocumentProperty this[int index] { get; }
 
 ## Exemples
 
-Montre comment utiliser les propriétés de document personnalisées.
+Montre comment travailler avec les propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Chaque document contient une collection de propriétés personnalisées qui, comme les propriétés intégrées, sont des paires clé-valeur.
- // Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
+ // Le document possède une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternThemeColor
 linktitle: ForegroundPatternThemeColor
 articleTitle: ForegroundPatternThemeColor
 second_title: Aspose.Words для .NET
-description: Shading ForegroundPatternThemeColor свойство. Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме связанной с этимShading объект на С#.
+description: Узнайте, как настроить свойство Shading ForegroundPatternThemeColor, чтобы улучшить цветовую схему вашего дизайна и повысить его визуальную привлекательность.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/shading/foregroundpatternthemecolor/
 ---
 ## Shading.ForegroundPatternThemeColor property
 
-Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме, связанной с этим[`Shading`](../) объект.
+Возвращает или задает цвет темы узора переднего плана в примененной цветовой схеме, которая связана с этим[`Shading`](../) объект.
 
 ```csharp
 public ThemeColor ForegroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ForegroundPatternThemeColor { get; set; }
 
 ## Примеры
 
-Показывает, как установить цвета переднего плана и фона для затенения текстуры.
+Показывает, как задать цвета переднего плана и фона для текстуры затенения.
 
 ```csharp
 Document doc = new Document();

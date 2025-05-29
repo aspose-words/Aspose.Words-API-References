@@ -1,0 +1,141 @@
+---
+title: SourceType Enum
+linktitle: SourceType
+articleTitle: SourceType
+second_title: Aspose.Words für .NET
+description: Entdecken Sie die Aspose.Words.Bibliography.SourceType-Aufzählung für verschiedene Bibliografiequellentypen. Verbessern Sie Ihr Dokumentenmanagement mit leistungsstarken Funktionen!
+type: docs
+weight: 210
+url: /de/net/aspose.words.bibliography/sourcetype/
+---
+## SourceType enumeration
+
+Stellt Bibliografiequellentypen dar.
+
+```csharp
+public enum SourceType
+```
+
+### Werte
+
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| ArticleInAPeriodical | `0` | Gibt den Artikel in einer Zeitschriftenquelle an. |
+| Book | `1` | Gibt die Buchquelle an. |
+| BookSection | `2` | Gibt die Quelle des Buchabschnitts an. |
+| JournalArticle | `3` | Gibt die Quelle des Zeitschriftenartikels an. |
+| ConferenceProceedings | `4` | Gibt die Quelle der Konferenzberichte an. |
+| Report | `5` | Gibt die Reporterquelle an. |
+| SoundRecording | `6` | Gibt die Quelle der Tonaufnahme an. |
+| Performance | `7` | Gibt die Leistungsquelle an. |
+| Art | `8` | Gibt die Grafikquelle an. |
+| DocumentFromInternetSite | `9` | Gibt das Dokument aus der Internetseitenquelle an. |
+| InternetSite | `10` | Gibt die Quelle der Internetseite an. |
+| Film | `11` | Gibt die Filmquelle an. |
+| Interview | `12` | Gibt die Interviewquelle an. |
+| Patent | `13` | Gibt die Patentquelle an. |
+| Electronic | `14` | Gibt die elektronische Quelle an. |
+| Case | `15` | Gibt die Fallquelle an. |
+| Misc | `16` | Gibt die sonstige Quelle an. |
+
+## Beispiele
+
+Zeigt, wie man im Dokument verfügbare Bibliografiequellen erhält.
+
+```csharp
+Document document = new Document(MyDir + "Bibliography sources.docx");
+
+Bibliography bibliography = document.Bibliography;
+Assert.AreEqual(12, bibliography.Sources.Count);
+
+// Standarddaten aus Bibliografiequellen abrufen.
+Source source = bibliography.Sources.FirstOrDefault();
+Assert.AreEqual("Book 0 (No LCID)", source.Title);
+Assert.AreEqual(SourceType.Book, source.SourceType);
+Assert.AreEqual(3, source.Contributors.Count());
+Assert.IsNull(source.AbbreviatedCaseNumber);
+Assert.IsNull(source.AlbumTitle);
+Assert.IsNull(source.BookTitle);
+Assert.IsNull(source.Broadcaster);
+Assert.IsNull(source.BroadcastTitle);
+Assert.IsNull(source.CaseNumber);
+Assert.IsNull(source.ChapterNumber);
+Assert.IsNull(source.Comments);
+Assert.IsNull(source.ConferenceName);
+Assert.IsNull(source.CountryOrRegion);
+Assert.IsNull(source.Court);
+Assert.IsNull(source.Day);
+Assert.IsNull(source.DayAccessed);
+Assert.IsNull(source.Department);
+Assert.IsNull(source.Distributor);
+Assert.IsNull(source.Doi);
+Assert.IsNull(source.Edition);
+Assert.IsNull(source.Guid);
+Assert.IsNull(source.Institution);
+Assert.IsNull(source.InternetSiteTitle);
+Assert.IsNull(source.Issue);
+Assert.IsNull(source.JournalName);
+Assert.IsNull(source.Lcid);
+Assert.IsNull(source.Medium);
+Assert.IsNull(source.Month);
+Assert.IsNull(source.MonthAccessed);
+Assert.IsNull(source.NumberVolumes);
+Assert.IsNull(source.Pages);
+Assert.IsNull(source.PatentNumber);
+Assert.IsNull(source.PeriodicalTitle);
+Assert.IsNull(source.ProductionCompany);
+Assert.IsNull(source.PublicationTitle);
+Assert.IsNull(source.Publisher);
+Assert.IsNull(source.RecordingNumber);
+Assert.IsNull(source.RefOrder);
+Assert.IsNull(source.Reporter);
+Assert.IsNull(source.ShortTitle);
+Assert.IsNull(source.StandardNumber);
+Assert.IsNull(source.StateOrProvince);
+Assert.IsNull(source.Station);
+Assert.AreEqual("BookNoLCID", source.Tag);
+Assert.IsNull(source.Theater);
+Assert.IsNull(source.ThesisType);
+Assert.IsNull(source.Type);
+Assert.IsNull(source.Url);
+Assert.IsNull(source.Version);
+Assert.IsNull(source.Volume);
+Assert.IsNull(source.Year);
+Assert.IsNull(source.YearAccessed);
+
+// Sie können auch eine neue Quelle erstellen.
+Source newSource = new Source("New source", SourceType.Misc);
+
+ContributorCollection contributors = source.Contributors;
+Assert.IsNull(contributors.Artist);
+Assert.IsNull(contributors.BookAuthor);
+Assert.IsNull(contributors.Compiler);
+Assert.IsNull(contributors.Composer);
+Assert.IsNull(contributors.Conductor);
+Assert.IsNull(contributors.Counsel);
+Assert.IsNull(contributors.Director);
+Assert.IsNotNull(contributors.Editor);
+Assert.IsNull(contributors.Interviewee);
+Assert.IsNull(contributors.Interviewer);
+Assert.IsNull(contributors.Inventor);
+Assert.IsNull(contributors.Performer);
+Assert.IsNull(contributors.Producer);
+Assert.IsNotNull(contributors.Translator);
+Assert.IsNull(contributors.Writer);
+
+Contributor editor  = contributors.Editor;
+Assert.AreEqual(2, ((PersonCollection)editor).Count());
+
+PersonCollection authors = (PersonCollection)contributors.Author;
+Assert.AreEqual(2, authors.Count());
+
+Person person = authors[0];
+Assert.AreEqual("Roxanne", person.First);
+Assert.AreEqual("Brielle", person.Middle);
+Assert.AreEqual("Tejeda", person.Last);
+```
+
+### Siehe auch
+
+* namensraum [Aspose.Words.Bibliography](../../aspose.words.bibliography/)
+* Montage [Aspose.Words](../../)

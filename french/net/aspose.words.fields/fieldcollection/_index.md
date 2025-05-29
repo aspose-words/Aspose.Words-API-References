@@ -3,16 +3,16 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldCollection classe. Une collection deField objets qui représentent les champs dans la plage spécifiée en C#.
+description: Découvrez Aspose.Words.FieldCollection, une classe puissante pour gérer les objets Field dans des plages de documents spécifiées, améliorant ainsi l'automatisation de vos documents.
 type: docs
-weight: 1690
+weight: 2100
 url: /fr/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Une collection de[`Field`](../field/) objets qui représentent les champs dans la plage spécifiée.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -38,13 +38,13 @@ public class FieldCollection : IEnumerable<Field>
 
 Une instance de cette collection itère les champs qui commencent par se situer dans la plage spécifiée.
 
-Le`FieldCollection` La collection ne possède pas les champs qu'elle contient, mais n'est qu'une sélection de champs.
+Le`FieldCollection` la collection ne possède pas les champs qu'elle contient, mais est simplement une sélection de champs.
 
-Le`FieldCollection` la collection est "live", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` Propriétés et méthodes .
+Le`FieldCollection` la collection est « live », c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` propriétés et méthodes.
 
 ## Exemples
 
-Montre comment supprimer des champs d’une collection de champs.
+Montre comment supprimer des champs d'une collection de champs.
 
 ```csharp
 Document doc = new Document();
@@ -62,21 +62,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Vous trouverez ci-dessous quatre façons de supprimer des champs d'une collection de champs.
-// 1 - Récupère un champ à supprimer :
+// Vous trouverez ci-dessous quatre manières de supprimer des champs d’une collection de champs.
+// 1 - Obtenir un champ pour qu'il se supprime lui-même :
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Récupère la collection pour supprimer un champ que l'on passe à sa méthode de suppression :
+// 2 - Récupérer la collection pour supprimer un champ que nous passons à sa méthode de suppression :
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Supprime un champ d'une collection à un index :
+// 3 - Supprimer un champ d'une collection à un index :
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Supprimez tous les champs de la collection d'un coup :
+// 4 - Supprimez tous les champs de la collection en une seule fois :
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -101,8 +101,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {

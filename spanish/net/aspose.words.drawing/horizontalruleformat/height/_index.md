@@ -3,7 +3,7 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words para .NET
-description: HorizontalRuleFormat Height propiedad. Obtiene o establece la altura de la regla horizontal en C#.
+description: Ajusta la altura de tu regla horizontal fácilmente. Explora la propiedad Altura para personalizar el diseño de tus proyectos web. ¡Mejora tu diseño hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/horizontalruleformat/height/
@@ -20,11 +20,11 @@ public double Height { get; set; }
 
 | excepción | condición |
 | --- | --- |
-| ArgumentOutOfRangeException | Se lanza cuando el argumento estaba fuera del rango de valores válidos. |
+| ArgumentOutOfRangeException | Se lanza cuando el argumento está fuera del rango de valores válidos. |
 
 ## Observaciones
 
-Este es un atajo hacia el[`Height`](../../shapebase/height/) propiedad.
+Este es un acceso directo a la[`Height`](../../shapebase/height/) propiedad.
 
 Los valores válidos oscilan entre 0 y 1584 inclusive.
 
@@ -32,7 +32,7 @@ El valor predeterminado es 1,5.
 
 ## Ejemplos
 
-Muestra cómo insertar una forma de regla horizontal y personalizar su formato.
+Muestra cómo insertar una regla horizontal y personalizar su formato.
 
 ```csharp
 Document doc = new Document();

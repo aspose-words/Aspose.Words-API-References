@@ -2,8 +2,8 @@
 title: PageSetup.LinesPerPage
 linktitle: LinesPerPage
 articleTitle: LinesPerPage
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup LinesPerPage 财产. 获取或设置文档网格中每页的行数 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 PageSetup LinesPerPage 属性控制文档布局。轻松调整每页行数，以获得最佳的可读性和组织性。
 type: docs
 weight: 240
 url: /zh/net/aspose.words/pagesetup/linesperpage/
@@ -18,20 +18,20 @@ public int LinesPerPage { get; set; }
 
 ## 评论
 
-该属性的最小值为 1。最大值取决于页面高度和 Normal 样式的字体大小。最小行距为字体大小的 136%。例如，页边距为 1 英寸的 Letter 页面的每页最大行数为 39 行。
+该属性的最小值为 1。最大值取决于 Normal 样式的页面高度和字体大小。最小行距为字体大小的 136%。例如，对于边距为 1 英寸的 Letter 页面，每页的最大行数为 39。
 
-默认情况下，该属性有一个值，该值的行间距是正常样式的 字体大小的1.5倍。
+默认情况下，该属性具有一个值，即行距是 Normal 样式字体大小的 1.5 倍。
 
 ## 例子
 
-演示如何指定每页可以拥有的行数限制。
+展示如何指定每页行数的限制。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用间距，然后用它来设置此部分中每页的行数。
-// 足够大的字体大小会将某些行向下推到下一页，以避免字符重叠。
+// 启用间距，然后使用它来设置本节每页的行数。
+// 足够大的字体大小会将一些行推到下一页以避免字符重叠。
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

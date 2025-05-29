@@ -3,14 +3,14 @@ title: FlipOrientation Enum
 linktitle: FlipOrientation
 articleTitle: FlipOrientation
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.FlipOrientation تعداد. القيم المحتملة لاتجاه الشكل في C#.
+description: اكتشف Aspose.Words.Drawing.FlipOrientation enum لخيارات توجيه متعددة للأشكال. حسّن تصميم مستندك بتخصيص مرن!
 type: docs
-weight: 970
+weight: 1290
 url: /ar/net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration
 
-القيم المحتملة لاتجاه الشكل.
+القيم الممكنة لاتجاه الشكل.
 
 ```csharp
 [Flags]
@@ -21,10 +21,10 @@ public enum FlipOrientation
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لم يتم قلب الإحداثيات. |
-| Horizontal | `1` | اقلب على طول المحور y، مع عكس إحداثيات x. |
-| Vertical | `2` | اقلب على طول المحور x، مع عكس إحداثيات y. |
-| Both | `3` | اقلب على طول المحورين y وx. |
+| None | `0` | لا يتم قلب الإحداثيات. |
+| Horizontal | `1` | انقلب على طول المحور y، مع عكس إحداثيات x. |
+| Vertical | `2` | انقلب على طول المحور السيني، مع عكس إحداثيات y. |
+| Both | `3` | انقلب على طول المحورين y وx. |
 
 ## أمثلة
 
@@ -34,7 +34,7 @@ public enum FlipOrientation
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل شكل صورة واترك اتجاهه في حالته الافتراضية.
+// قم بإدراج شكل صورة واترك اتجاهها في حالتها الافتراضية.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -45,24 +45,24 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// اضبط الخاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الثاني على المحور y،
-// جعلها صورة معكوسة أفقية للشكل الأول.
+// اضبط خاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الثاني على المحور y،
+//جعله صورة أفقية معكوسة للشكل الأول.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// اضبط الخاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الثالث على المحور السيني،
-// تحويلها إلى صورة معكوسة عمودية للشكل الأول.
+// اضبط خاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الثالث على المحور x،
+//جعله صورة معكوسة عمودية للشكل الأول.
 shape.FlipOrientation = FlipOrientation.Vertical;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// اضبط الخاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الرابع على المحورين x وy،
-// تحويلها إلى صورة مرآة أفقية ورأسية للشكل الأول.
+// اضبط خاصية "FlipOrientation" على "FlipOrientation.Horizontal" لقلب الشكل الرابع على كل من المحورين x وy،
+//جعله صورة معكوسة أفقية ورأسية للشكل الأول.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

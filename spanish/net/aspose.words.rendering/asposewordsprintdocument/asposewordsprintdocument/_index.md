@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument
 linktitle: AsposeWordsPrintDocument
 articleTitle: AsposeWordsPrintDocument
 second_title: Aspose.Words para .NET
-description: AsposeWordsPrintDocument constructor. Inicializa una nueva instancia de esta clase en C#.
+description: Descubra el constructor PrintDocument de Aspose.Words para crear y gestionar fácilmente la impresión de documentos en sus aplicaciones. ¡Aumente la productividad con una integración perfecta!
 type: docs
 weight: 10
 url: /es/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -22,7 +22,7 @@ public AsposeWordsPrintDocument(Document document)
 
 ## Ejemplos
 
-Muestra cómo seleccionar un rango de páginas y una impresora para imprimir el documento y luego abrir una vista previa de impresión.
+Muestra cómo seleccionar un rango de páginas y una impresora para imprimir el documento y luego mostrar una vista previa de impresión.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -32,7 +32,7 @@ PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 // Llame al método "Mostrar" para que el formulario de vista previa de impresión se muestre en la parte superior.
 previewDlg.Show();
 
-// Inicializa el cuadro de diálogo Imprimir con el número de páginas del documento.
+// Inicializa el cuadro de diálogo de impresión con el número de páginas del documento.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -43,15 +43,15 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Crea la implementación "Aspose.Words" del documento de impresión .NET,
-// y luego pasar la configuración de la impresora desde el cuadro de diálogo.
+// Cree la implementación "Aspose.Words" del documento de impresión .NET,
+// y luego pase la configuración de la impresora desde el cuadro de diálogo.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
 // Especifique el nuevo modo de impresión en color.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Utilice el método "CachePrinterSettings" para reducir el tiempo de la primera llamada del método "Imprimir".
+// Utilice el método "CachePrinterSettings" para reducir el tiempo de la primera llamada al método "Print".
 awPrintDoc.CachePrinterSettings();
 
 // Llame a los métodos "Ocultar" y luego a "InvalidatePreview" para que la vista previa de impresión se muestre en la parte superior.
@@ -62,7 +62,7 @@ previewDlg.PrintPreviewControl.InvalidatePreview();
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

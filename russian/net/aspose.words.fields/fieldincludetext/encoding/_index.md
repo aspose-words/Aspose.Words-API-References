@@ -3,14 +3,14 @@ title: FieldIncludeText.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words для .NET
-description: FieldIncludeText Encoding свойство. Получает или задает кодировку применяемую к данным в указанном файле на С#.
+description: Откройте для себя свойство FieldIncludeText Encoding, чтобы легко управлять кодировкой данных в ваших файлах. Улучшите обработку данных с помощью этой важной функции!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldincludetext/encoding/
 ---
 ## FieldIncludeText.Encoding property
 
-Получает или задает кодировку, применяемую к данным в указанном файле.
+Возвращает или задает кодировку, применяемую к данным в указанном файле.
 
 ```csharp
 public string Encoding { get; set; }
@@ -18,7 +18,7 @@ public string Encoding { get; set; }
 
 ## Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены два способа использования полей INCLUDETEXT для отображения содержимого XML-файла в локальной файловой системе.
-    // 1 — выполнить XSL-преобразование XML-документа:
+    // 1 — Выполнить XSL-преобразование XML-документа:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2. Используйте XPath для получения определенных элементов из XML-документа:
+    // 2 — Используйте XPath для извлечения определенных элементов из XML-документа:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле INCLUDETEXT с настраиваемыми свойствами.
+/// Используйте конструктор документов для вставки поля INCLUDETEXT с пользовательскими свойствами.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

@@ -2,15 +2,15 @@
 title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
-second_title: Aspose.Words for .NET
-description: HyphenationOptions AutoHyphenation mülk. Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HyphenationOptions özelliğiyle otomatik tirelemeyi kontrol edin. Bu özelliği açıp kapatarak belgenizin okunabilirliğini kolayca artırın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` .
+Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri`YANLIŞ` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

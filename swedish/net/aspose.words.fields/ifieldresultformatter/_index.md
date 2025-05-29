@@ -3,9 +3,9 @@ title: IFieldResultFormatter Interface
 linktitle: IFieldResultFormatter
 articleTitle: IFieldResultFormatter
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.IFieldResultFormatter gränssnitt. Implementera detta gränssnitt om du vill styra hur fältresultatet formateras i C#.
+description: Upptäck gränssnittet Aspose.Words.Fields.IFieldResultFormatter för att enkelt anpassa och förbättra formateringen av fältresultat för dina dokument.
 type: docs
-weight: 2700
+weight: 3110
 url: /sv/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -20,10 +20,10 @@ public interface IFieldResultFormatter
 
 | namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Anropas när Aspose.Words använder en ändring av datum/tid-format, dvs. \@ "dd.MM.åååå". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Anropas när Aspose.Words använder en numerisk formatväxling, dvs. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en växel för talformat, t.ex. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en växel för versaler, t.ex. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Anropas när Aspose.Words använder en växel för datum/tid-format, t.ex. \@ "dd.MM.åååå". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Anropas när Aspose.Words använder en numerisk formatväxel, t.ex. \# "#.##". |
 
 ## Exempel
 
@@ -37,9 +37,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Vår fältresultatformaterare tillämpar ett anpassat format på nyskapade fält av tre typer av format.
-    // Fältresultatformaterare tillämpar ny formatering på fält när de uppdateras,
-    // vilket händer så fort vi skapar dem med den här InsertField-metoden överbelastning.
+    // Vår fältresultatsformaterare tillämpar ett anpassat format på nyskapade fält med tre olika formattyper.
+    // Fältresultatformaterare tillämpar ny formatering på fält allt eftersom de uppdateras,
+    // vilket händer så fort vi skapar dem med hjälp av denna InsertField-metodöverbelastning.
     // 1 - Numerisk:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -62,8 +62,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// När fält med formatering uppdateras kommer denna formatterare att åsidosätta deras formatering
-/// med ett anpassat format, samtidigt som du spårar varje anrop.
+/// När fält med formatering uppdateras kommer denna formatering att åsidosätta deras formatering
+/// med ett anpassat format, samtidigt som varje anrop spåras.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -118,12 +118,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

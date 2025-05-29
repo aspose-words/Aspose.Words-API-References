@@ -3,9 +3,9 @@ title: BasicTextShaperCache Class
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Shaping.BasicTextShaperCache classe. Implementa la cache di base perITextShaper istanze. Questa classe è threadsafe in C#.
+description: Scopri la classe Aspose.Words.Shaping.BasicTextShaperCache: la soluzione per una memorizzazione nella cache efficiente e thread-safe delle istanze di ITextShaper per un'elaborazione avanzata del testo.
 type: docs
-weight: 6000
+weight: 6830
 url: /it/net/aspose.words.shaping/basictextshapercache/
 ---
 ## BasicTextShaperCache class
@@ -20,13 +20,13 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Avvolge*factory* e cache[`GetTextShaper`](../itextshaperfactory/gettextshaper/) risultati. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Avvolgimenti*factory* e cache[`GetTextShaper`](../itextshaperfactory/gettextshaper/) risultati. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | Elimina la cache[`ITextShaper`](../itextshaper/) istanze. |
+| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | Elimina i dati memorizzati nella cache[`ITextShaper`](../itextshaper/) istanze. |
 
 ### Guarda anche
 

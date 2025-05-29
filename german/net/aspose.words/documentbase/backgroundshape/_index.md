@@ -3,14 +3,14 @@ title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
 second_title: Aspose.Words für .NET
-description: DocumentBase BackgroundShape eigendom. Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann seinNull  in C#.
+description: Entdecken Sie die DocumentBase BackgroundShape-Eigenschaft und passen Sie die Hintergrundform Ihres Dokuments ganz einfach an, um die Optik zu verbessern. Maximieren Sie Ihr Designpotenzial!
 type: docs
 weight: 10
 url: /de/net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann sein`Null` .
+Ruft die Hintergrundform des Dokuments ab oder legt sie fest. Kann sein`null` .
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -18,15 +18,15 @@ public Shape BackgroundShape { get; set; }
 
 ## Bemerkungen
 
-Microsoft Word erlaubt nur eine Form, die ihre eigenen hat[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) Eigenschaft equal toRectangle als Hintergrundform für ein Dokument verwendet werden.
+Microsoft Word erlaubt nur eine Form, die ihre[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) Eigenschaft equal zuRectangle zur Verwendung als Hintergrundform für ein Dokument.
 
-Microsoft Word unterstützt nur die Fülleigenschaften einer Hintergrundform. Alle anderen Properties werden ignoriert.
+Microsoft Word unterstützt nur die Fülleigenschaften einer Hintergrundform. Alle anderen Eigenschaften werden ignoriert.
 
-Wenn Sie diese Eigenschaft auf einen Wert ungleich Null setzen, wird auch die festgelegt[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) Zu`WAHR`.
+Wenn Sie diese Eigenschaft auf einen Wert ungleich Null setzen, wird auch die[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) Zu`WAHR`.
 
 ## Beispiele
 
-Zeigt, wie man für jede Seite eines Dokuments eine Hintergrundform festlegt.
+Zeigt, wie für jede Seite eines Dokuments eine Hintergrundform festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.FlatColor.docx");
 shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 shapeRectangle.ImageData.SetImage(ImageDir + "Transparent background logo.png");
 
-// Passen Sie das Erscheinungsbild des Bildes an, damit es besser als Wasserzeichen geeignet ist.
+// Passen Sie das Erscheinungsbild des Bildes an, um es besser als Wasserzeichen geeignet zu machen.
 shapeRectangle.ImageData.Contrast = 0.2;
 shapeRectangle.ImageData.Brightness = 0.7;
 

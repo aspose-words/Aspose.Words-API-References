@@ -3,7 +3,7 @@ title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: ListCollection Item propiedad. Obtiene una lista por índice en C#.
+description: Acceda fácilmente a los elementos de ListCollection por índice. Simplifique la gestión de datos y mejore la eficiencia de su codificación con esta potente propiedad.
 type: docs
 weight: 30
 url: /es/net/aspose.words.lists/listcollection/item/
@@ -18,7 +18,7 @@ public List this[int index] { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar las propiedades del documento del propietario de las listas.
+Muestra cómo verificar las propiedades del documento propietario de las listas.
 
 ```csharp
 Document doc = new Document();
@@ -47,18 +47,18 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 ### Ver también

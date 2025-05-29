@@ -3,14 +3,14 @@ title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaReferenceCollection klas. Stellt eine Sammlung von darVbaReference Objekte in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Vba.VbaReferenceCollection, ein leistungsstarkes Tool zur effizienten Verwaltung von VbaReference-Objekten in Ihren Projekten.
 type: docs
-weight: 6600
+weight: 7450
 url: /de/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Stellt eine Sammlung von dar[`VbaReference`](../vbareference/) Objekte.
+Stellt eine Sammlung von[`VbaReference`](../vbareference/) Objekte.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit VBA-Makros](https://docs.aspose.com/words/net/working-with-vba-macros/) Dokumentationsartikel.
 
@@ -62,7 +62,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
+    /// Gibt eine Zeichenfolge zurück, die den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

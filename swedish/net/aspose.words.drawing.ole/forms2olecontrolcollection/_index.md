@@ -3,16 +3,16 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection klass. Representerar samling avForms2OleControl objekt i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Ole.Forms2OleControlCollection, din lösning för att effektivt hantera Forms2OleControl-objekt i dokumentbehandling.
 type: docs
-weight: 1120
+weight: 1470
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Representerar samling av[`Forms2OleControl`](../forms2olecontrol/) objekt.
+Representerar en samling av[`Forms2OleControl`](../forms2olecontrol/) objekt.
 
-För att lära dig mer, besök[Arbeta med Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med Ole-objekt](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -28,30 +28,30 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Får antalet objekt i samlingen. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Blir[`Forms2OleControl`](../forms2olecontrol/) objekt vid ett angivet index. |
+| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Hämtar antal objekt i samlingen. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Får[`Forms2OleControl`](../forms2olecontrol/) objekt vid ett angivet index. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Får enumerator. |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Hämtar uppräknaren. |
 
 ## Exempel
 
-Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
+Visar hur man kommer åt en OLE-kontroll som är inbäddad i ett dokument och dess underkontroller.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Former lagrar och visar OLE-objekt i dokumentets kropp.
+// Former lagrar och visar OLE-objekt i dokumentets brödtext.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Vissa OLE-kontroller kan innehålla underordnade kontroller, till exempel den i detta dokument med tre alternativknappar.
+// Vissa OLE-kontroller kan innehålla underkontroller, till exempel den i det här dokumentet med tre alternativknappar.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

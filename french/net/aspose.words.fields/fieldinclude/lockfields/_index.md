@@ -3,7 +3,7 @@ title: FieldInclude.LockFields
 linktitle: LockFields
 articleTitle: LockFields
 second_title: Aspose.Words pour .NET
-description: FieldInclude LockFields propriété. Obtient ou définit sil faut empêcher la mise à jour des champs du document inclus en C#.
+description: Gérez facilement les mises à jour de vos documents grâce à la propriété FieldInclude LockFields. Contrôlez la modification des champs et améliorez l'intégrité de vos documents en toute simplicité.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldinclude/lockfields/
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nous pouvons utiliser un champ INCLUDE pour importer une partie d'un autre document dans le système de fichiers local.
-// Le signet de l'autre document auquel nous référençons avec ce champ contient cette partie importée.
+// Le signet de l'autre document auquel nous faisons référence avec ce champ contient cette partie importée.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

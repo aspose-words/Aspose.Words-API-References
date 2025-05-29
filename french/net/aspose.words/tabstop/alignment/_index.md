@@ -3,7 +3,7 @@ title: TabStop.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words pour .NET
-description: TabStop Alignment propriété. Obtient ou définit lalignement du texte à ce taquet de tabulation en C#.
+description: Découvrez la propriété d'alignement TabStop pour personnaliser facilement l'alignement du texte aux taquets de tabulation, améliorant ainsi la mise en page et la lisibilité de votre document.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/tabstop/alignment/
@@ -18,20 +18,20 @@ public TabAlignment Alignment { get; set; }
 
 ## Exemples
 
-Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
+Montre comment modifier la position de la tabulation droite dans les paragraphes liés à la table des matières.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Parcourez tous les paragraphes avec les styles basés sur les résultats de la table des matières ; c'est n'importe quel style entre TOC et TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Parcourez tous les paragraphes avec des styles basés sur les résultats de la table des matières ; il s'agit de n'importe quel style entre TOC et TOC9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Récupère le premier onglet utilisé dans ce paragraphe, ce doit être l'onglet utilisé pour aligner les numéros de page.
+        // Obtenez le premier onglet utilisé dans ce paragraphe, cela devrait être l'onglet utilisé pour aligner les numéros de page.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Remplacez la première tabulation par défaut, arrêtez-vous par un taquet de tabulation personnalisé.
+        // Remplacez le premier taquet de tabulation par défaut par un taquet de tabulation personnalisé.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

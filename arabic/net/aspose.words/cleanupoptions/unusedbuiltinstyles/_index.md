@@ -3,14 +3,14 @@ title: CleanupOptions.UnusedBuiltinStyles
 linktitle: UnusedBuiltinStyles
 articleTitle: UnusedBuiltinStyles
 second_title: Aspose.Words لـ .NET
-description: CleanupOptions UnusedBuiltinStyles ملكية. يحدد ما هو غير مستخدمBuiltIn يجب إزالة الأنماط من المستند في C#.
+description: قم بتحسين مستنداتك باستخدام خاصية UnusedBuiltinStyles في CleanupOptions، مما يضمن إزالة الأنماط المضمنة غير المستخدمة بكفاءة للحصول على نتائج أنظف واحترافية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
 ---
 ## CleanupOptions.UnusedBuiltinStyles property
 
-يحدد ما هو غير مستخدم[`BuiltIn`](../../style/builtin/) يجب إزالة الأنماط من المستند.
+يحدد أنه غير مستخدم[`BuiltIn`](../../style/builtin/) يجب إزالة الأنماط من المستند.
 
 ```csharp
 public bool UnusedBuiltinStyles { get; set; }
@@ -18,7 +18,7 @@ public bool UnusedBuiltinStyles { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
+يوضح كيفية إزالة كافة الأنماط المخصصة غير المستخدمة من مستند.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
+// مع دمج الأنماط المضمنة، أصبح لدى المستند الآن ثمانية أنماط.
 // يتم وضع علامة على النمط المخصص على أنه "مستخدم" أثناء وجود أي نص داخل المستند
-// منسق بهذا النمط. وهذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
+// مُنسّق بهذا النمط. هذا يعني أن الأنماط الأربعة التي أضفناها غير مُستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة "مستخدمة" عليها.
+// طبّق نمط حرف مخصص، ثم نمط قائمة مخصص. سيؤدي ذلك إلى تمييزهما بعلامة "مستخدم".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -43,8 +43,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// الآن، يوجد نمط أحرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
-// يمكن لأسلوب Cleanup()، عند تكوينه باستخدام كائن CleanupOptions، استهداف الأنماط غير المستخدمة وإزالتها.
+// الآن، هناك نمط حرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
+// عند تكوين طريقة Cleanup() باستخدام كائن CleanupOptions، يمكنها استهداف الأنماط غير المستخدمة وإزالتها.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -54,7 +54,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى.
+ // يؤدي إزالة كل عقدة تم تطبيق نمط مخصص عليها إلى تمييزها بأنها "غير مستخدمة" مرة أخرى.
 // أعد تشغيل طريقة التنظيف لإزالتها.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

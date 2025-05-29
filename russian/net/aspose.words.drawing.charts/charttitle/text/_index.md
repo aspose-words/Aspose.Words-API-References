@@ -3,9 +3,9 @@ title: ChartTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: ChartTitle Text свойство. Получает или задает текст заголовка диаграммы. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок на С#.
+description: Настройте заголовок диаграммы без усилий! Установите или получите свойство ChartTitle Text для персонализации. Автоматически создавайте заголовки при необходимости.
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -18,7 +18,7 @@ public string Text { get; set; }
 
 ## Примечания
 
-Использовать[`Show`](../show/) вариант, если вам нужно скрыть заголовок.
+Использовать[`Show`](../show/) опция, если вам нужно скрыть заголовок.
 
 ## Примеры
 
@@ -28,18 +28,20 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте фигуру диаграммы с помощью конструктора документов и получите ее диаграмму.
+// Вставьте форму диаграммы с помощью конструктора документов и получите ее диаграмму.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Используйте свойство «Title», чтобы присвоить нашей диаграмме заголовок, который появится в верхней центральной части области диаграммы.
+// Используйте свойство «Заголовок», чтобы задать заголовок нашей диаграммы, который отображается в верхней центральной части области диаграммы.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
- // Установите для свойства «Показать» значение «истина», чтобы сделать заголовок видимым.
+ // Установите свойство «Показать» в значение «true», чтобы сделать заголовок видимым.
 title.Show = true;
 
-// Установите для свойства Overlay значение true. Дайте другим элементам диаграммы больше места, разрешив им перекрывать заголовок.
+// Установите свойство «Overlay» на «true» Дайте другим элементам диаграммы больше места, разрешив им перекрывать заголовок
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

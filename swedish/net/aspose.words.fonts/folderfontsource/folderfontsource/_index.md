@@ -3,14 +3,14 @@ title: FolderFontSource
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words för .NET
-description: FolderFontSource byggare. Ctor i C#.
+description: Upptäck FolderFontSource-konstruktorn för sömlös typsnittshantering. Förbättra dina webbprojekt med effektiv typsnittskälla idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource(*string, bool*) {#constructor}
 
-Ctor.
+ktor.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders)
@@ -19,7 +19,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | folderPath | String | Sökväg till mapp. |
-| scanSubfolders | Boolean | Bestämmer om undermappar ska skannas eller inte. |
+| scanSubfolders | Boolean | Avgör om undermappar ska genomsökas eller inte. |
 
 ## Exempel
 
@@ -49,7 +49,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ## FolderFontSource(*string, bool, int*) {#constructor_1}
 
-Ctor.
+ktor.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
@@ -58,8 +58,8 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | folderPath | String | Sökväg till mapp. |
-| scanSubfolders | Boolean | Bestämmer om undermappar ska skannas eller inte. |
-| priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
+| scanSubfolders | Boolean | Avgör om undermappar ska genomsökas eller inte. |
+| priority | Int32 | Prioritet för teckensnittskälla. Se[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
 ## Exempel
 

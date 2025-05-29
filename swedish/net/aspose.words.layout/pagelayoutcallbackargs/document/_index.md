@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: PageLayoutCallbackArgs Document fast egendom. Hämtar dokument i C#.
+description: Upptäck dokumentegenskapen PageLayoutCallbackArgs för att effektivt komma åt och hantera dina dokumentdata. Förbättra ditt arbetsflöde idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exempel
 
-Visar hur man spårar layoutändringar med en layoutåteruppringning.
+Visar hur man spårar layoutändringar med ett layoutåteranrop.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Meddelar oss när vi sparar dokumentet till ett fast sidformat
-/// och renderar en sida som vi utför ett sidflöde på till en bild i det lokala filsystemet.
+/// och renderar en sida som vi utför en sidflödesomflöde på till en bild i det lokala filsystemet.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

@@ -3,14 +3,14 @@ title: OdsoFieldMappingType Enum
 linktitle: OdsoFieldMappingType
 articleTitle: OdsoFieldMappingType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType opsomming. Gibt die möglichen Typen an die verwendet werden um anzuzeigen ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.OdsoFieldMappingType für eine effiziente Zuordnung von Serienbrieffeldern zu externen Datenquellen. Verbessern Sie noch heute Ihre Dokumentenautomatisierung!
 type: docs
-weight: 5920
+weight: 6750
 url: /de/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
 
-Gibt die möglichen Typen an, die verwendet werden, um anzuzeigen, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde.
+Gibt die möglichen Typen an, die verwendet werden, um anzuzeigen, ob ein bestimmtes Seriendruckfeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde.
 
 ```csharp
 public enum OdsoFieldMappingType
@@ -20,19 +20,19 @@ public enum OdsoFieldMappingType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Column | `0` | Gibt an, dass das Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
-| Null | `1` | Gibt an, dass das Serienbrieffeld keiner Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
-| Default | `1` | EntsprichtNull . |
+| Column | `0` | Gibt an, dass das Seriendruckfeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
+| Null | `1` | Gibt an, dass das Seriendruckfeld keiner Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
+| Default | `1` | Ist gleichNull . |
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Seriendruckfeldern zuordnet.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle zuordnet
-// zu den vordefinierten Feldern MERGEFIELD, ADDRESSBLOCK und GREETINGLINE.
+// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle abbildet
+// zu vordefinierten MERGEFIELD-, ADDRESSBLOCK- und GREETINGLINE-Feldern.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -53,7 +53,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klonen Sie die Elemente in dieser Sammlung.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Die Elemente der Methode „RemoveAt“ einzeln nach Index verwenden.
+// Verwenden Sie die Elemente der Methode „RemoveAt“ einzeln nach Index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

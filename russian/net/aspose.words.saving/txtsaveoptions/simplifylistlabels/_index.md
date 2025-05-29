@@ -3,16 +3,16 @@ title: TxtSaveOptions.SimplifyListLabels
 linktitle: SimplifyListLabels
 articleTitle: SimplifyListLabels
 second_title: Aspose.Words для .NET
-description: TxtSaveOptions SimplifyListLabels свойство. Указывает должна ли программа упрощать метки списков в случае если сложное форматирование меток не представляется должным образом в виде обычного текста на С#.
+description: Узнайте, как функция SimplifyListLabels в TxtSaveOptions повышает ясность, упрощая сложные списки и улучшая представление текста.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-Указывает, должна ли программа упрощать метки списков в случае, если сложное форматирование меток не представляется должным образом в виде обычного текста.
+Указывает, должна ли программа упрощать метки списков в случае, если сложное форматирование меток x000d_ не может быть адекватно представлено простым текстом.
 
-Если установлено значение`истинный` метки нумерованных списков записываются в простом числовом формате , а метки детализированных списков — в виде простых символов ASCII. Значение по умолчанию:`ЛОЖЬ`.
+Если установлено значение`истинный` , нумерованные списки записываются в простом числовом формате , а подробные списки — в виде простых символов ASCII. Значение по умолчанию:`ЛОЖЬ`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -26,7 +26,7 @@ public bool SimplifyListLabels { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем маркированный список с пятью уровнями отступов.
+// Создать маркированный список с пятью уровнями отступа.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -38,31 +38,33 @@ builder.Writeln("Item 4");
 builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
-// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ сохранения документа в виде обычного текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Установите для свойства «SimplifyListLabels» значение «true», чтобы преобразовать некоторый список
+// Установите свойство "SimplifyListLabels" в значение "true", чтобы преобразовать некоторый список
 // символы в более простые символы ASCII, такие как '*', 'o', '+', '>' и т. д.
-// Установите для свойства SimplifyListLabels значение «false», чтобы сохранить как можно больше исходных символов списка.
+// Установите свойство «SimplifyListLabels» в значение «false», чтобы сохранить как можно больше исходных символов списка.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
 
+string newLine = Environment.NewLine;
+
 if (simplifyListLabels)
-    Assert.AreEqual("* Item 1\r\n" +
-                    "  > Item 2\r\n" +
-                    "    + Item 3\r\n" +
-                    "      - Item 4\r\n" +
-                    "        o Item 5\r\n", docText);
+    Assert.AreEqual($"* Item 1{newLine}" +
+                    $"  > Item 2{newLine}" +
+                    $"    + Item 3{newLine}" +
+                    $"      - Item 4{newLine}" +
+                    $"        o Item 5{newLine}", docText);
 else
-    Assert.AreEqual("· Item 1\r\n" +
-                    "o Item 2\r\n" +
-                    "§ Item 3\r\n" +
-                    "· Item 4\r\n" +
-                    "o Item 5\r\n", docText);
+    Assert.AreEqual($"· Item 1{newLine}" +
+                    $"o Item 2{newLine}" +
+                    $"§ Item 3{newLine}" +
+                    $"· Item 4{newLine}" +
+                    $"o Item 5{newLine}", docText);
 ```
 
 ### Смотрите также

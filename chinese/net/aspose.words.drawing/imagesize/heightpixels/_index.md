@@ -2,8 +2,8 @@
 title: ImageSize.HeightPixels
 linktitle: HeightPixels
 articleTitle: HeightPixels
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSize HeightPixels 财产. 获取图像的高度以像素为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageSize HeightPixels 属性，轻松访问和优化图像的像素高度，以获得更好的性能和质量。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/imagesize/heightpixels/
@@ -18,18 +18,18 @@ public int HeightPixels { get; }
 
 ## 例子
 
-演示如何读取形状中图像的属性。
+展示如何读取形状中图像的属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将一个形状插入到文档中，其中包含从本地文件系统获取的图像。
+// 将包含从我们的本地文件系统获取的图像的形状插入到文档中。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// 如果形状包含图像，则其 ImageData 属性将有效，
+// 如果形状包含图像，其 ImageData 属性将有效，
 // 它将包含一个 ImageSize 对象。
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // ImageSize 对象包含有关形状内图像的只读信息。
 Assert.AreEqual(400, imageSize.HeightPixels);

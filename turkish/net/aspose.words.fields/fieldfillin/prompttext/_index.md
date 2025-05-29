@@ -2,15 +2,15 @@
 title: FieldFillIn.PromptText
 linktitle: PromptText
 articleTitle: PromptText
-second_title: Aspose.Words for .NET
-description: FieldFillIn PromptText mülk. Bilgi istemi metnini bilgi istemi penceresinin başlığı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFillIn PromptText özelliğini keşfedin, kullanıcı deneyimini geliştirmek ve arayüz anlaşılırlığını artırmak için istem penceresi başlıklarını kolayca özelleştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldfillin/prompttext/
 ---
 ## FieldFillIn.PromptText property
 
-Bilgi istemi metnini (bilgi istemi penceresinin başlığı) alır veya ayarlar.
+İstem metnini (istem penceresinin başlığı) alır veya ayarlar.
 
 ```csharp
 public string PromptText { get; set; }
@@ -18,7 +18,7 @@ public string PromptText { get; set; }
 
 ## Örnekler
 
-Kullanıcıdan yanıt istemek için FILLIN alanının nasıl kullanılacağını gösterir.
+FILLIN alanının kullanıcıdan yanıt istemek için nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldFillIn()
@@ -27,13 +27,13 @@ public void FieldFillIn()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Bir FILLIN alanı ekleyin. Bu alanı Microsoft Word'de manuel olarak güncellediğimizde,
-    // bizden bir yanıt girmemizi isteyecek. Alan daha sonra yanıtı metin olarak görüntüleyecektir.
+    // bize bir yanıt girmemizi isteyecektir. Alan daha sonra yanıtı metin olarak gösterecektir.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // Bu alanları kullanıcıdan her sayfa için benzersiz bir yanıt istemek amacıyla da kullanabiliriz
-    // Microsoft Word kullanılarak yapılan adres-mektup birleştirme sırasında oluşturuldu.
+    // Ayrıca bu alanları, kullanıcıdan her sayfa için benzersiz bir yanıt istemek için de kullanabiliriz
+    // Microsoft Word kullanılarak yapılan bir posta birleştirme sırasında oluşturuldu.
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -41,8 +41,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Adres-mektup birleştirmeyi programlı olarak gerçekleştirirsek, özel bir istem yanıtlayıcısı kullanabiliriz
-    // Adres-mektup birleştirmenin karşılaştığı FILLIN alanlarına yönelik yanıtları otomatik olarak düzenlemek için.
+    // Eğer bir posta birleştirme işlemini programatik olarak gerçekleştirirsek, özel bir istem yanıtlayıcısı kullanabiliriz
+    // posta birleştirme işleminin karşılaştığı FILLIN alanları için yanıtları otomatik olarak düzenlemek için.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
@@ -51,7 +51,7 @@ public void FieldFillIn()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme sırasında her FILLIN alanının varsayılan yanıtının başına bir satır eklenir.
+/// Bir posta birleştirme sırasında her FILLIN alanının varsayılan yanıtına bir satır ekler.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

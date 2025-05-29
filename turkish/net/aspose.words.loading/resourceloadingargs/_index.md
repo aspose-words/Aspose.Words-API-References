@@ -2,10 +2,10 @@
 title: ResourceLoadingArgs Class
 linktitle: ResourceLoadingArgs
 articleTitle: ResourceLoadingArgs
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.ResourceLoadingArgs sınıf. Şunun için veri sağlarResourceLoading yöntem C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda kaynak yükleme verimliliğini artırmak için tasarlanmış Aspose.Words.Loading.ResourceLoadingArgs sınıfını keşfedin. Bugün kusursuz entegrasyonun kilidini açın!
 type: docs
-weight: 3690
+weight: 4150
 url: /tr/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -20,19 +20,19 @@ public class ResourceLoadingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | İçe aktarılan belgede belirtildiği şekliyle kaynağın orijinal URI'si. |
+| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | İçe aktarılan belgede belirtilen kaynağın orijinal URI'si. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Kaynak türü. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | İndirmek için kullanılan kaynağın URI'si ise[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | indirmek için kullanılan kaynağın URI'si[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) dönerDefault. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar eğer[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) dönerUserProvided . |
 
 ## Örnekler
 
-Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
+Harici kaynakların bir belgeye yüklenme sürecinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -42,8 +42,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Görüntüler genellikle bir URI veya bir bayt dizisi kullanılarak eklenir.
-    // Bir kaynak yükünün her örneği, geri çağırmamızın ResourceLoading yöntemini çağıracaktır.
+    // Resimler genellikle bir URI veya bayt dizisi kullanılarak eklenir.
+    // Kaynak yüklemesinin her örneği geri aramamızın ResourceLoading metodunu çağıracaktır.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -54,15 +54,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// URI'lerin aksine, önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize olanak tanır.
+/// URI'lerin aksine, önceden tanımlanmış kısayollar kullanarak bir belgeye resim yüklememize olanak tanır.
 /// Bu, görüntü yükleme mantığını belge yapısının geri kalanından ayıracaktır.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Bu geri arama, bir görüntüyü yüklerken görüntünün kısa yollarından biriyle karşılaşırsa,
-        // tanımlanan her kısayol için, onu bir URI olarak ele almak yerine benzersiz bir mantık uygulayacaktır.
+        // Bu geri çağırma, bir resim yüklenirken resim kısayollarından biriyle karşılaşırsa,
+        // Tanımlanan her kısaltmayı bir URI olarak ele almak yerine, ona özgü bir mantık uygulayacaktır.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

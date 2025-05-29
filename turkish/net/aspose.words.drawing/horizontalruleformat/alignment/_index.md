@@ -2,8 +2,8 @@
 title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
-second_title: Aspose.Words for .NET
-description: HorizontalRuleFormat Alignment mülk. Yatay kuralın hizalamasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım esnekliği için yatay kuralların hizalamasını kolayca özelleştirmek amacıyla YatayKuralBiçim Hizalama özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -22,7 +22,7 @@ Varsayılan değer:Left.
 
 ## Örnekler
 
-Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay çizgi şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

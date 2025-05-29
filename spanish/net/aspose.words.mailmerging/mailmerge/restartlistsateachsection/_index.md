@@ -3,7 +3,7 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words para .NET
-description: MailMerge RestartListsAtEachSection propiedad. Obtiene o establece un valor que indica si las listas se reinician en cada sección después de ejecutar una combinación de correspondencia en C#.
+description: Descubra la propiedad RestartListsAtEachSection de MailMerge: la lista de control se restablece en cada sección para una combinación de correspondencia fluida. ¡Mejore la precisión de sus documentos hoy mismo!
 type: docs
 weight: 110
 url: /es/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
@@ -22,7 +22,7 @@ El valor predeterminado es`verdadero` .
 
 ## Ejemplos
 
-Muestra cómo controlar si se reinicia o no la numeración de listas en cada sección cuando se realiza la combinación de correspondencia.
+Muestra cómo controlar si la numeración de listas se reinicia o no en cada sección cuando se realiza la combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

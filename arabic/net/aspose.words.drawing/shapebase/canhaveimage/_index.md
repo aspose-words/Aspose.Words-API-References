@@ -3,14 +3,14 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: Aspose.Words لـ .NET
-description: ShapeBase CanHaveImage ملكية. إرجاعحقيقي إذا كان نوع الشكل يسمح للشكل بأن يكون له صورة في C#.
+description: اكتشف خاصية ShapeBase CanHaveImage—تعرف على كيفية تحديد ما إذا كان نوع الشكل الخاص بك يدعم الصور لتحسين الجاذبية البصرية!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-إرجاع`حقيقي` إذا كان نوع الشكل يسمح للشكل بأن يكون له صورة.
+إرجاع`حقيقي` إذا كان نوع الشكل يسمح للشكل بالحصول على صورة.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -18,7 +18,7 @@ public bool CanHaveImage { get; }
 
 ## ملاحظات
 
-على الرغم من أن Microsoft Word يحتوي على نوع شكل خاص للصور، إلا أنه يبدو أنه في مستندات Microsoft Word يمكن لأي شكل باستثناء شكل المجموعة أن يحتوي على صورة، وبالتالي ترجع هذه الخاصية`حقيقي` لجميع الأشكال ما عدا[`GroupShape`](../../groupshape/).
+على الرغم من أن Microsoft Word لديه نوع شكل خاص للصور، يبدو أنه في مستندات Microsoft Word يمكن لأي شكل باستثناء شكل المجموعة أن يحتوي على صورة، وبالتالي فإن هذه الخاصية ترجع`حقيقي` لجميع الأشكال باستثناء[`GroupShape`](../../groupshape/).
 
 ## أمثلة
 
@@ -28,8 +28,8 @@ public bool CanHaveImage { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل شكلاً مع صورة.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+//إدراج شكل مع صورة.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

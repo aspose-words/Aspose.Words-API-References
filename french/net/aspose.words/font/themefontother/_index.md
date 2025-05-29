@@ -3,14 +3,14 @@ title: Font.ThemeFontOther
 linktitle: ThemeFontOther
 articleTitle: ThemeFontOther
 second_title: Aspose.Words pour .NET
-description: Font ThemeFontOther propriété. Obtient ou définit la police de thème utilisée pour les caractères avec des codes de caractères compris entre 128 et 255 dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
+description: Découvrez comment personnaliser la police du thème pour les caractères 128 à 255 dans votre schéma de polices, en améliorant votre conception avec des options typographiques uniques.
 type: docs
-weight: 510
+weight: 520
 url: /fr/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Obtient ou définit la police de thème utilisée pour les caractères avec des codes de caractères compris entre 128 et 255 dans le jeu de polices appliqué associé à ce thème.[`Font`](../) objet.
+Obtient ou définit la police de thème utilisée pour les caractères avec des codes de caractère compris entre 128 et 255 dans le schéma de polices appliqué associé à ceci[`Font`](../) objet.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }
@@ -18,7 +18,7 @@ public ThemeFont ThemeFontOther { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

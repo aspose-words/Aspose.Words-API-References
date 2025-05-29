@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart AppendChild метод. Добавляет указанный узел в конец диапазона stdContent на С#.
+description: Узнайте, как метод StructuredDocumentTagRangeStart AppendChild расширяет возможности редактирования документов, легко добавляя узлы в диапазон stdContent.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
 ---
 ## StructuredDocumentTagRangeStart.AppendChild method
@@ -18,7 +18,7 @@ public Node AppendChild(Node newChild)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newChild | Node | Узел, который нужно добавить. |
+| newChild | Node | Узел для добавления. |
 
 ### Возвращаемое значение
 

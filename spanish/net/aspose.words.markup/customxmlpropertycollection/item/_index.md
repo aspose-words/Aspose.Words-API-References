@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: CustomXmlPropertyCollection Item propiedad. Obtiene una propiedad con el nombre especificado en C#.
+description: Acceda fácilmente a propiedades específicas con CustomXmlPropertyCollection. Recupere elementos por nombre para optimizar la gestión de datos y aumentar la productividad.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +18,7 @@ public CustomXmlProperty this[string name] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| name | Nombre de la propiedad que se va a localizar, que distingue entre mayúsculas y minúsculas. |
+| name | Nombre de la propiedad a localizar que distingue entre mayúsculas y minúsculas. |
 
 ## Ejemplos
 
@@ -27,11 +27,11 @@ Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener in
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+// Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+// como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
 // En Word 2003, podemos habilitar etiquetas inteligentes a través de "Herramientas" -> "Opciones de Autocorrección..." -> "Etiquetas inteligentes".
 // En nuestro documento de entrada, hay tres objetos que Microsoft Word registró como etiquetas inteligentes.
-// Las etiquetas inteligentes pueden estar anidadas, por lo que esta colección contiene más.
+// Las etiquetas inteligentes se pueden anidar, por lo que esta colección contiene más.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
@@ -51,13 +51,13 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// También podemos acceder a las propiedades de varias formas, como por ejemplo mediante un par clave-valor.
+// También podemos acceder a las propiedades de varias maneras, como un par clave-valor.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
+A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
 // 1 - Eliminar por índice:
 properties.RemoveAt(3);
 
@@ -68,7 +68,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -93,7 +93,7 @@ public CustomXmlProperty this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del inmueble. |
+| index | Índice de la propiedad basado en cero. |
 
 ## Ejemplos
 
@@ -102,11 +102,11 @@ Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener in
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+// Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+// como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
 // En Word 2003, podemos habilitar etiquetas inteligentes a través de "Herramientas" -> "Opciones de Autocorrección..." -> "Etiquetas inteligentes".
 // En nuestro documento de entrada, hay tres objetos que Microsoft Word registró como etiquetas inteligentes.
-// Las etiquetas inteligentes pueden estar anidadas, por lo que esta colección contiene más.
+// Las etiquetas inteligentes se pueden anidar, por lo que esta colección contiene más.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
@@ -126,13 +126,13 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// También podemos acceder a las propiedades de varias formas, como por ejemplo mediante un par clave-valor.
+// También podemos acceder a las propiedades de varias maneras, como un par clave-valor.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
+A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
 // 1 - Eliminar por índice:
 properties.RemoveAt(3);
 
@@ -143,7 +143,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

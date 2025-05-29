@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.FontsFolderAlias
 linktitle: FontsFolderAlias
 articleTitle: FontsFolderAlias
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions FontsFolderAlias mülk. Bir HTML belgesine yazılan yazı tipi URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: HTML belgelerinizdeki yazı tipi URI'lerini özelleştirmek için HtmlSaveOptions FontsFolderAlias özelliğini keşfedin. Web tasarımınızı kolaylıkla geliştirin!
 type: docs
 weight: 320
 url: /tr/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property
 
-Bir HTML belgesine yazılan yazı tipi URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan, boş bir dizedir.
+Bir HTML belgesine yazılan yazı tipi URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
 
 ```csharp
 public string FontsFolderAlias { get; set; }
@@ -18,19 +18,19 @@ public string FontsFolderAlias { get; set; }
 
 ## Notlar
 
-Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında ve[`ExportFontResources`](../exportfontresources/) şu şekilde ayarlandı`doğru` , Aspose.Words'ün belgede kullanılan yazı tiplerini bağımsız dosyalar olarak kaydetmesi gerekir. [`FontsFolder`](../fontsfolder/) yazı tiplerinin nereye kaydedileceğini ve belirtmenizi sağlar`FontsFolderAlias` yazı tipi URI'lerinin nasıl oluşturulacağını belirlemeye olanak tanır.
+Birini kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında ve[`ExportFontResources`](../exportfontresources/) olarak ayarlandı`doğru` , Aspose.Words'ün belgede kullanılan yazı tiplerini bağımsız dosyalar olarak kaydetmesi gerekiyor. [`FontsFolder`](../fontsfolder/) yazı tiplerinin nereye kaydedileceğini belirtmenize olanak tanır ve `FontsFolderAlias` yazı tipi URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
-Eğer`FontsFolderAlias` boş bir dize değilse, HTML'ye yazılan yazı tipi URI'si şöyle olacaktır:FontsFolderAlias + &lt;yazı tipi dosyası adı&gt;.
+Eğer`FontsFolderAlias` boş bir dize değilse, HTML'ye yazılan yazı tipi URI'si şu şekilde olacaktır:FontsFolderAlias + &lt;yazı tipi dosya adı&gt;.
 
-Eğer`FontsFolderAlias` boş bir dize ise, HTML'ye yazılan yazı tipi URI'si şöyle olacaktır:FontsFolder + &lt;yazı tipi dosya adı&gt;.
+Eğer`FontsFolderAlias` boş bir dize ise, HTML'ye yazılan yazı tipi URI'si şu şekilde olacaktırFontsFolder + &lt;font dosya adı&gt;.
 
-Eğer`FontsFolderAlias`ayarlandı '.' (nokta) ise, diğer seçeneklere bakılmaksızın yazı tipi dosya adı yol olmadan HTML'ye yazılacaktır.
+Eğer`FontsFolderAlias`'.' (nokta) olarak ayarlanırsa, font dosyası name diğer seçeneklerden bağımsız olarak yol olmaksızın HTML'ye yazılır.
 
-URIs yazı tipini oluşturmak için klasörün adını belirtmenin alternatif yolu kullanmaktır[`ResourceFolderAlias`](../resourcefolderalias/).
+Font URIs 'yi oluşturmak için klasörün adını belirtmenin alternatif yolu şudur:[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## Örnekler
 
-Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
+Aspose.Words'ün bir belgeyi HTML'e kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -44,9 +44,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
-    ResourceFolderAlias = "http://example.com/resources",
+    FontsFolderAlias = "http://example.com/yazı tipleri",
+    ImagesFolderAlias = "http://example.com/resimler",
+    ResourceFolderAlias = "http://example.com/kaynaklar",
     ExportOriginalUrlForLinkedImages = true
 };
 

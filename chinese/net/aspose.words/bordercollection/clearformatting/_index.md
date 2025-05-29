@@ -2,8 +2,8 @@
 title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection ClearFormatting 方法. 删除对象的所有边框 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 BorderCollection ClearFormatting 方法如何轻松删除所有对象边框，以干净、清晰的视觉效果增强您的设计。
 type: docs
 weight: 140
 url: /zh/net/aspose.words/bordercollection/clearformatting/
@@ -18,19 +18,19 @@ public void ClearFormatting()
 
 ## 例子
 
-演示如何删除文档中所有段落的所有边框。
+展示如何删除文档中所有段落的所有边框。
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// 本文档的第一段具有带有这些设置的可见边框。
+// 在这些设置下，本文档的第一段具有可见的边框。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// 对每个段落使用“ClearFormatting”方法删除所有边框。
+// 在每个段落上使用“ClearFormatting”方法来删除所有边框。
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

@@ -2,8 +2,8 @@
 title: Cell.ParentRow
 linktitle: ParentRow
 articleTitle: ParentRow
-second_title: 用于 .NET 的 Aspose.Words
-description: Cell ParentRow 财产. 返回单元格的父行 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Cell ParentRow 属性可以轻松访问任何单元格的父行，从而增强数据管理和导航效率。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/cell/parentrow/
@@ -16,22 +16,18 @@ url: /zh/net/aspose.words.tables/cell/parentrow/
 public Row ParentRow { get; }
 ```
 
-## 评论
-
-相当于FirstNonMarkupParentNode投射到[`Row`](../../row/)。
-
 ## 例子
 
-展示如何将表格设置为在同一页面上保持在一起。
+展示如何设置表格以保持在同一页面上。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// 对表中的每个段落启用 KeepWithNext，除了
-// 最后一行中的最后一个将防止表格拆分为多个页面。
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行的最后一个将防止表格分裂到多个页面上。
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

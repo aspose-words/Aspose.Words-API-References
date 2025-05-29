@@ -2,8 +2,8 @@
 title: OlePackage.FileName
 linktitle: FileName
 articleTitle: FileName
-second_title: Aspose.Words for .NET
-description: OlePackage FileName mülk. OLE Paketi dosya adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: OLE paket dosya adlarını kolayca yönetmek için OlePackage FileName özelliğini keşfedin. Sorunsuz entegrasyon ve esneklikle veri işlemeyi geliştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/olepackage/filename/
@@ -18,15 +18,15 @@ public string FileName { get; set; }
 
 ## Örnekler
 
-Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
+Bir OLE nesnesinin bir belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// OLE nesneleri, kurulu başka bir uygulamayı kullanarak yerel dosya sistemindeki diğer dosyaları açmamıza olanak tanır
-// işletim sistemimizde belge gövdesinde OLE nesnesini içeren şekle çift tıklayarak.
-// Bu durumda harici dosyamız ZIP arşivi olacaktır.
+// OLE nesneleri, yerel dosya sistemindeki diğer dosyaları başka bir yüklü uygulamayı kullanarak açmamıza olanak tanır
+// İşletim sistemimizde, belge gövdesinde OLE nesnesini içeren şekle çift tıklayarak.
+// Bu durumda harici dosyamız bir ZIP arşivi olacaktır.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

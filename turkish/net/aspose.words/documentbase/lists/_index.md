@@ -2,15 +2,15 @@
 title: DocumentBase.Lists
 linktitle: Lists
 articleTitle: Lists
-second_title: Aspose.Words for .NET
-description: DocumentBase Lists mülk. Belgede kullanılan liste formatına erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli mülk yönetimi için DocumentBase Listelerini keşfedin. Belgenizin sunumunu ve netliğini geliştirmek için özelleştirilebilir liste biçimlendirmesine erişin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words/documentbase/lists/
 ---
 ## DocumentBase.Lists property
 
-Belgede kullanılan liste formatına erişim sağlar.
+Belgede kullanılan liste biçimlendirmesine erişim sağlar.
 
 ```csharp
 public ListCollection Lists { get; }
@@ -18,7 +18,7 @@ public ListCollection Lists { get; }
 
 ## Notlar
 
-Daha fazla bilgi için açıklamasına bakın[`ListCollection`](../../../aspose.words.lists/listcollection/) sınıf.
+Daha fazla bilgi için açıklamayı inceleyin[`ListCollection`](../../../aspose.words.lists/listcollection/) sınıf.
 
 ## Örnekler
 
@@ -30,21 +30,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Aşağıda belge oluşturucuyu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
-// 1 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Aşağıda bir belge oluşturucu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
+// 1 - Numaralandırılmış liste:
+// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini arttırabiliriz
-// geçerli liste öğesinde bağımsız bir alt liste başlatmak için.
-// "NumberDefault" adı verilen Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
- // Daha derin liste seviyelerinde harfler ve küçük harf Romen rakamları kullanılır.
+// "ListLevelNumber" özelliğini ayarlayarak liste düzeyini artırabiliriz
+// geçerli liste öğesinde kendi kendine yeten bir alt liste başlatmak için.
+// "NumberDefault" adlı Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
+ // Daha derin liste seviyelerinde harfler ve küçük harfli Roma rakamları kullanılır.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -52,7 +52,7 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Madde işaretli liste:
-// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
+// Bu liste her paragraftan önce bir girinti ve madde işareti ("•") uygulayacaktır.
 // Bu listenin daha derin seviyelerinde "■" ve "○" gibi farklı semboller kullanılacaktır.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -62,7 +62,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// "Liste" bayrağının ayarını kaldırarak sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
+// "Liste" bayrağını kaldırarak, sonraki paragrafların liste olarak biçimlendirilmesini önlemek için liste biçimlendirmesini devre dışı bırakabiliriz.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

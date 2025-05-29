@@ -3,14 +3,14 @@ title: StyleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: StyleCollection Add طريقة. إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة في C#.
+description: اكتشف طريقة StyleCollection Add لإنشاء أنماط مخصصة محددة من قبل المستخدم وإضافتها إلى مجموعتك بسهولة، مما يعزز مرونة التصميم لديك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/stylecollection/add/
 ---
 ## StyleCollection.Add method
 
-إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة.
+ينشئ نمطًا جديدًا محددًا من قبل المستخدم ويضيفه إلى المجموعة.
 
 ```csharp
 public Style Add(StyleType type, string name)
@@ -18,16 +18,16 @@ public Style Add(StyleType type, string name)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| type | StyleType | أ[`StyleType`](../../styletype/) القيمة التي تحدد نوع النمط المراد إنشاؤه. |
+| type | StyleType | أ[`StyleType`](../../styletype/) القيمة التي تحدد نوع النمط الذي سيتم إنشاؤه. |
 | name | String | اسم النمط الذي سيتم إنشاؤه حساس لحالة الأحرف. |
 
 ## ملاحظات
 
-يمكنك إنشاء حرف أو فقرة أو نمط قائمة.
+يمكنك إنشاء نمط حرف أو فقرة أو قائمة.
 
-عند إنشاء نمط قائمة، يتم إنشاء النمط بالتنسيق الافتراضي للقائمة المرقمة (1 \ a \ i).
+عند إنشاء نمط قائمة، يتم إنشاء النمط باستخدام تنسيق القائمة المرقمة الافتراضي (1 \ a \ i).
 
-يطرح استثناءً إذا كان النمط بهذا الاسم موجودًا بالفعل.
+يُلقي استثناءً إذا كان النمط بهذا الاسم موجودًا بالفعل.
 
 ## أمثلة
 
@@ -37,28 +37,28 @@ public Style Add(StyleType type, string name)
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمط "StyleType.Paragraph"، ستطبق المجموعة قيم
+// خاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+//أضف نمطًا، ثم تأكد من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);
 Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ```
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -80,14 +80,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

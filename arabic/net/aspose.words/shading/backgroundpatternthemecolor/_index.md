@@ -3,14 +3,14 @@ title: Shading.BackgroundPatternThemeColor
 linktitle: BackgroundPatternThemeColor
 articleTitle: BackgroundPatternThemeColor
 second_title: Aspose.Words لـ .NET
-description: Shading BackgroundPatternThemeColor ملكية. الحصول على أو تعيين لون سمة نمط الخلفية في نظام الألوان المطبق المرتبط بهذاShading الكائن في C#.
+description: اكتشف كيفية تخصيص خاصية Shading BackgroundPatternThemeColor لتعزيز تصميمك باستخدام أنماط خلفية ومخططات ألوان فريدة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/shading/backgroundpatternthemecolor/
 ---
 ## Shading.BackgroundPatternThemeColor property
 
-الحصول على أو تعيين لون سمة نمط الخلفية في نظام الألوان المطبق المرتبط بهذا[`Shading`](../) الكائن.
+يحصل على لون سمة نمط الخلفية أو يعينه في مخطط الألوان المطبق المرتبط بهذا[`Shading`](../) الكائن.
 
 ```csharp
 public ThemeColor BackgroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor BackgroundPatternThemeColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين الألوان الأمامية والخلفية لتظليل الملمس.
+يوضح كيفية تعيين ألوان المقدمة والخلفية لملمس التظليل.
 
 ```csharp
 Document doc = new Document();

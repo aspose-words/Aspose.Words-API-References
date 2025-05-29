@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ClearFormat
 linktitle: ClearFormat
 articleTitle: ClearFormat
-second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection ClearFormat yöntem. Tümünün biçimini temizlerChartDataLabel bu koleksiyonda C#'da.
+second_title: .NET için Aspose.Words
+description: Daha temiz görseller için tüm grafik veri etiketi biçimlerini zahmetsizce sıfırlamak amacıyla ChartDataLabelCollection'daki ClearFormat yönteminin nasıl kullanılacağını keşfedin.
 type: docs
-weight: 150
+weight: 180
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method
 
-Tümünün biçimini temizler[`ChartDataLabel`](../../chartdatalabel/) bu koleksiyonda.
+Tüm formatları temizler[`ChartDataLabel`](../../chartdatalabel/) bu koleksiyonda.
 
 ```csharp
 public void ClearFormat()
@@ -18,7 +18,7 @@ public void ClearFormat()
 
 ## Örnekler
 
-Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
+Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void DataLabels()
@@ -35,7 +35,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Grafikteki her seriye veri etiketleri uygulayın.
-    // Bu etiketler grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
+    // Bu etiketler, grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // Daha temiz görünen bir grafik için veri etiketlerini tek tek kaldırabiliriz.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri etiketinin tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için veri etiketlerini tek tek kaldırabiliriz.
+    dataLabel.ClearFormat();
+
+    // Ayrıca bir dizi verinin tüm etiketlerini bir kerede kaldırabiliriz.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Özel sayı formatına ve ayırıcıya sahip veri etiketlerini bir serideki çeşitli veri noktalarına uygulayın.
+/// Bir serideki birden fazla veri noktasına özel sayı biçimi ve ayırıcı ile veri etiketleri uygulayın.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

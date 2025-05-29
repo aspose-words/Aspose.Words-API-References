@@ -3,7 +3,7 @@ title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: SubDocument NodeType ملكية. إرجاعSubDocument  في C#.
+description: اكتشف خاصية SubDocument NodeType التي تقوم بإرجاع بيانات SubDocument بكفاءة، مما يعمل على تحسين قدرات إدارة المستندات ومعالجتها.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/subdocument/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى المستند الثانوي للمستند الرئيسي.
+يوضح كيفية الوصول إلى المستند الفرعي للمستند الرئيسي.
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");

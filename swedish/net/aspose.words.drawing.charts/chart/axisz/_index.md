@@ -3,14 +3,14 @@ title: Chart.AxisZ
 linktitle: AxisZ
 articleTitle: AxisZ
 second_title: Aspose.Words för .NET
-description: Chart AxisZ fast egendom. Ger tillgång till egenskaperna för Zaxeln i diagrammet i C#.
+description: Utforska egenskapen DiagramaxelZ för att låsa upp anpassningsalternativ för Z-axeln och förbättra din datavisualisering för tydligare insikter och effektfulla presentationer.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chart/axisz/
 ---
 ## Chart.AxisZ property
 
-Ger tillgång till egenskaperna för Z-axeln i diagrammet.
+Ger åtkomst till egenskaper för diagrammets Z-axel.
 
 ```csharp
 public ChartAxis AxisZ { get; }
@@ -35,8 +35,8 @@ chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Diagramaxlar har olika alternativ som kan ändra utseende,
-// som t.ex. deras riktning, större/mindre enhetsmarkeringar och bockmarkeringar.
+// Diagramaxlar har olika alternativ som kan ändra deras utseende,
+// såsom deras riktning, större/mindre enhets tick och skalmtecken.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -45,10 +45,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -58,7 +60,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Kolumndiagram har ingen Z-axel.
 Assert.Null(chart.AxisZ);

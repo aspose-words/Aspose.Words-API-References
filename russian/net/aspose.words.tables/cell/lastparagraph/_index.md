@@ -3,14 +3,14 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words для .NET
-description: Cell LastParagraph свойство. Получает последний абзац среди ближайших дочерних элементов на С#.
+description: Откройте для себя свойство Cell LastParagraph. Легко получайте доступ к последнему абзацу из непосредственных дочерних элементов для эффективного управления контентом.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/cell/lastparagraph/
 ---
 ## Cell.LastParagraph property
 
-Получает последний абзац среди ближайших дочерних элементов.
+Получает последний абзац среди непосредственных дочерних элементов.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,13 +18,13 @@ public Paragraph LastParagraph { get; }
 
 ## Примеры
 
-Показывает, как применить настройки к вертикальным границам формата строки таблицы.
+Показывает, как применить настройки вертикальных границ к формату строки таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаём таблицу с красной и синей внутренней рамкой.
+// Создаем таблицу с красными и синими внутренними границами.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Настраиваем внешний вид границ между строками.
+    // Настройте внешний вид границ, которые будут отображаться между строками.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Настраиваем внешний вид границ между ячейками.
+    // Настройте внешний вид границ, которые будут отображаться между ячейками.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

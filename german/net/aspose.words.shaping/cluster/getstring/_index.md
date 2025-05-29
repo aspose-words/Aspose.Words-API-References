@@ -3,14 +3,14 @@ title: Cluster.GetString
 linktitle: GetString
 articleTitle: GetString
 second_title: Aspose.Words für .NET
-description: Cluster GetString methode. ErstelltString Verwenden von Codepunkten aus den angegebenen Clustern in C#.
+description: Erstellen Sie mühelos Zeichenfolgen mit der Cluster-GetString-Methode und nutzen Sie Codepunkte aus angegebenen Clustern für eine effiziente Datenverarbeitung.
 type: docs
 weight: 70
 url: /de/net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(*Cluster[]*)
 
-ErstelltString Verwenden von Codepunkten aus den angegebenen Clustern.
+ErstelltString unter Verwendung von Codepunkten aus den angegebenen Clustern.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -26,7 +26,7 @@ public static string GetString(Cluster[] clusters)
 
 ## GetString()
 
-ErstelltString Verwenden von Codepunkten aus diesem Cluster.
+ErstelltString unter Verwendung von Codepunkten aus diesem Cluster.
 
 ```csharp
 public string GetString()

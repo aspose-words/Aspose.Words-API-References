@@ -2,8 +2,8 @@
 title: LanguagePreferences.AddEditingLanguage
 linktitle: AddEditingLanguage
 articleTitle: AddEditingLanguage
-second_title: 用于 .NET 的 Aspose.Words
-description: LanguagePreferences AddEditingLanguage 方法. 添加额外的编辑语言 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 LanguagePreferences 的 AddEditingLanguage 方法提升您的编辑体验。轻松添加和管理多种编辑语言，实现流畅的工作流程。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/languagepreferences/addeditinglanguage/
@@ -18,7 +18,7 @@ public void AddEditingLanguage(EditingLanguage language)
 
 ## 例子
 
-演示如何在加载文档时应用语言首选项。
+展示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

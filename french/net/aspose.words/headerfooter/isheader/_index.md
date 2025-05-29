@@ -3,7 +3,7 @@ title: HeaderFooter.IsHeader
 linktitle: IsHeader
 articleTitle: IsHeader
 second_title: Aspose.Words pour .NET
-description: HeaderFooter IsHeader propriété. Vrai si ceciHeaderFooter lobjet est un entête en C#.
+description: Découvrez la propriété IsHeader de HeaderFooter : identifiez facilement si votre objet HeaderFooter est un en-tête pour une mise en forme simplifiée des documents.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/headerfooter/isheader/
@@ -24,7 +24,7 @@ Montre comment créer un en-tête et un pied de page.
 Document doc = new Document();
 
 // Créez un en-tête et ajoutez-y un paragraphe. Le texte de ce paragraphe
-// apparaîtra en haut de chaque page de cette section, au-dessus du corps du texte principal.
+// apparaîtra en haut de chaque page de cette section, au-dessus du texte principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -34,7 +34,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Créez un pied de page et ajoutez-y un paragraphe. Le texte de ce paragraphe
-// apparaîtra au bas de chaque page de cette section, sous le corps du texte principal.
+// apparaîtra au bas de chaque page de cette section, sous le texte principal.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

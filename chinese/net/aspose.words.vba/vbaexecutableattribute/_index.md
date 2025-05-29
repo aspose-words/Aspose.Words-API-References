@@ -2,10 +2,10 @@
 title: VbaExecutableAttribute Class
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaExecutableAttribute 班级.  在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Vba.VbaExecutableAttribute 类，实现强大的文档自动化。通过无缝集成和高效性增强您的 VBA 项目。
 type: docs
-weight: 6540
+weight: 7390
 url: /zh/net/aspose.words.vba/vbaexecutableattribute/
 ---
 ## VbaExecutableAttribute class

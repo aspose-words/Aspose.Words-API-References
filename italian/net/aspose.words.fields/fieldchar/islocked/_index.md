@@ -3,14 +3,14 @@ title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words per .NET
-description: FieldChar IsLocked proprietà. Ottiene o imposta se il campo padre è bloccato non deve ricalcolare il risultato in C#.
+description: Scopri la proprietà FieldChar IsLocked e controlla facilmente il ricalcolo dei campi. Migliora l'accuratezza e l'efficienza del tuo documento oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-Ottiene o imposta se il campo padre è bloccato (non deve ricalcolare il risultato).
+Ottiene o imposta se il campo padre è bloccato (non dovrebbe ricalcolare il suo risultato).
 
 ```csharp
 public bool IsLocked { get; set; }

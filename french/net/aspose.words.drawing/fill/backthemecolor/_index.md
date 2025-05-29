@@ -3,7 +3,7 @@ title: Fill.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
 second_title: Aspose.Words pour .NET
-description: Fill BackThemeColor propriété. Obtient ou définit un objet ThemeColor qui représente la couleur darrièreplan du remplissage en C#.
+description: Personnalisez votre design avec la propriété BackThemeColor. Définissez facilement un objet ThemeColor pour améliorer le remplissage de votre arrière-plan et améliorer l'expérience utilisateur.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/fill/backthemecolor/
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Remarque : n'utilisez pas "BackThemeColor" et "BackTintAndShade" pour le remplissage de la police.
+// Remarque : n'utilisez pas « BackThemeColor » et « BackTintAndShade » pour le remplissage de la police.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

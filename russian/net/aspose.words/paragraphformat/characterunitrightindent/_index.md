@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitRightIndent
 linktitle: CharacterUnitRightIndent
 articleTitle: CharacterUnitRightIndent
 second_title: Aspose.Words для .NET
-description: ParagraphFormat CharacterUnitRightIndent свойство. Получает или задает правильное значение отступа в символах для указанных абзацев на С#.
+description: Откройте для себя свойство ParagraphFormat CharacterUnitRightIndent, которое позволяет легко настраивать значения отступа справа в символах абзацев, улучшая макет документа.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/paragraphformat/characterunitrightindent/
 ---
 ## ParagraphFormat.CharacterUnitRightIndent property
 
-Получает или задает правильное значение отступа (в символах) для указанных абзацев.
+Возвращает или задает правильное значение отступа (в символах) для указанных абзацев.
 
 ```csharp
 public double CharacterUnitRightIndent { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые косвенно влияет их конфигурация.
+// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые их конфигурация косвенно влияет.
 // 1 - Отступ слева:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -40,7 +40,7 @@ format.CharacterUnitRightIndent = -5.5;
 
 Assert.AreEqual(format.RightIndent, -66.0d);
 
-// 3 - Висячий отступ:
+// 3 - Отступ:
 Assert.AreEqual(format.FirstLineIndent, 0.0d);
 
 format.CharacterUnitFirstLineIndent = 20.3;

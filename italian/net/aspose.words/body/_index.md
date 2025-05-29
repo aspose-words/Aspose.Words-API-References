@@ -3,16 +3,16 @@ title: Body Class
 linktitle: Body
 articleTitle: Body
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Body classe. Rappresenta un contenitore per il testo principale di una sezione in C#.
+description: Scopri la classe Aspose.Words.Body, il tuo strumento essenziale per gestire senza sforzi il testo delle sezioni e migliorare l'efficienza nell'elaborazione dei documenti.
 type: docs
-weight: 30
+weight: 220
 url: /it/net/aspose.words/body/
 ---
 ## Body class
 
 Rappresenta un contenitore per il testo principale di una sezione.
 
-Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
+Per saperne di più, visita il[Modello a oggetti del documento (DOM) di Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class Body : Story
@@ -33,47 +33,49 @@ public class Body : Story
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Ottiene il primo figlio del nodo. |
 | [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Ottiene il primo paragrafo della storia. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figli. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figli. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figlio. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figlio. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Ottiene l'ultimo figlio del nodo. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Ottiene l'ultimo paragrafo della storia. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words/body/nodetype/) { get; } | RestituisceBody . |
 | [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Ottiene una raccolta di paragrafi che sono figli immediati della storia. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
-| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Ottiene la sezione principale di questa storia. |
+| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Ottiene la sezione padre di questa storia. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 | [StoryType](../../aspose.words/story/storytype/) { get; } | Ottiene il tipo di questa storia. |
-| [Tables](../../aspose.words/story/tables/) { get; } | Ottiene una raccolta di tabelle che sono figli immediati della storia. |
+| [Tables](../../aspose.words/story/tables/) { get; } | Ottiene una raccolta di tabelle che sono figlie immediate della storia. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi secondari per questo nodo. |
-| [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | Un metodo di scelta rapida che crea un file[`Paragraph`](../paragraph/) oggetto con testo facoltativo e lo aggiunge alla fine di questo oggetto. |
+| override [AcceptEnd](../../aspose.words/body/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore che visita la fine del corpo del documento. |
+| override [AcceptStart](../../aspose.words/body/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore per visitare l'inizio del corpo del documento. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi figlio per questo nodo. |
+| [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | Un metodo di scelta rapida che crea un[`Paragraph`](../paragraph/) oggetto con testo facoltativo e lo aggiunge alla fine di questo oggetto. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navigatore che può essere utilizzato per attraversare e leggere i nodi. |
 | [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Elimina tutte le forme dal testo di questa storia. |
-| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Se l'ultimo figlio non è un paragrafo, crea e aggiunge un paragrafo vuoto. |
+| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Se l'ultimo elemento figlio non è un paragrafo, crea e aggiunge un paragrafo vuoto. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Restituisce un N-esimo nodo figlio che corrisponde al tipo specificato. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Restituisce una raccolta live di nodi figlio che corrispondono al tipo specificato. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce supporto per ogni iterazione di stile sui nodi figlio di questo nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserisce il nodo specificato immediatamente dopo il nodo di riferimento specificato. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Restituisce l'indice del nodo figlio specificato nell'array dei nodi figlio. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) | Inserisce il nodo specificato subito dopo il nodo di riferimento specificato. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi figlio per questo nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Rimuove il nodo figlio specificato. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](../../aspose.words.markup/smarttag/)nodi discendenti del nodo corrente. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Rimuove il nodo figlio specificato. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](../../aspose.words.markup/smarttag/) nodi discendenti del nodo corrente. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Seleziona il primo[`Node`](../node/) che corrisponde all'espressione XPath. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
@@ -81,27 +83,27 @@ public class Body : Story
 
 ## Osservazioni
 
-`Body` può contenere[`Paragraph`](../paragraph/) E[`Tavolo`](../../aspose.words.tables/table/) nodi figli.
+`Body` può contenere[`Paragraph`](../paragraph/) E[`Tavolo`](../../aspose.words.tables/table/) nodi figlio.
 
-`Body` è un nodo a livello di sezione e può essere solo figlio di[`Section`](../section/) . Può essercene solo uno`Body` in un[`Section`](../section/).
+`Body` è un nodo a livello di sezione e può essere solo un figlio di[`Section`](../section/) . Può essercene solo uno`Body` in un[`Section`](../section/).
 
-Un minimo valido`Body` deve contenerne almeno uno[`Paragraph`](../paragraph/).
+Un minimo valido`Body` deve contenere almeno uno[`Paragraph`](../paragraph/).
 
 ## Esempi
 
-Mostra come costruire manualmente un documento Aspose.Words.
+Mostra come creare manualmente un documento Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento vuoto contiene una sezione, un corpo e un paragrafo.
-// Chiama il metodo "RemoveAllChildren" per rimuovere tutti questi nodi,
-// e finiamo con un nodo documento senza figli.
+// Chiama il metodo "RemoveAllChildren" per rimuovere tutti quei nodi,
+// e si finisce con un nodo documento senza elementi figlio.
 doc.RemoveAllChildren();
 
-// Questo documento ora non ha nodi secondari compositi a cui possiamo aggiungere contenuto.
-// Se desideriamo modificarlo, dovremo ripopolare la sua raccolta di nodi.
-// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlia al nodo del documento root.
+// Questo documento non ha più nodi figlio compositi a cui aggiungere contenuto.
+// Se volessimo modificarlo, dovremo ripopolare la sua raccolta di nodi.
+// Per prima cosa, crea una nuova sezione, quindi aggiungila come figlia al nodo radice del documento.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -109,12 +111,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Una sezione necessita di un corpo, che conterrà e visualizzerà tutto il suo contenuto
+// Una sezione ha bisogno di un corpo, che conterrà e visualizzerà tutto il suo contenuto
 // nella pagina tra l'intestazione e il piè di pagina della sezione.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crea un paragrafo, imposta alcune proprietà di formattazione e quindi lo aggiunge come figlio al corpo.
+// Crea un paragrafo, imposta alcune proprietà di formattazione e poi aggiungilo come elemento secondario al corpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -122,8 +124,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Infine, aggiungi del contenuto per realizzare il documento. Crea una corsa,
-// ne imposta l'aspetto e il contenuto, quindi lo aggiunge come figlio al paragrafo.
+// Infine, aggiungi del contenuto per completare il documento. Crea una run,
+// impostane l'aspetto e il contenuto, quindi aggiungilo come elemento figlio al paragrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

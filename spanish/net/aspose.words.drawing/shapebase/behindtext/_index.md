@@ -3,7 +3,7 @@ title: ShapeBase.BehindText
 linktitle: BehindText
 articleTitle: BehindText
 second_title: Aspose.Words para .NET
-description: ShapeBase BehindText propiedad. Especifica si la forma está debajo o encima del texto en C#.
+description: Descubra la propiedad ShapeBase BehindText para controlar las capas de formas en sus diseños, mejorando la visibilidad del texto y la precisión del diseño sin esfuerzo.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/shapebase/behindtext/
@@ -30,7 +30,7 @@ Muestra cómo insertar una imagen flotante en el centro de una página.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y alinéala con el centro de la página.
+// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y la alinea con el centro de la página.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

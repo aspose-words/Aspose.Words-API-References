@@ -3,14 +3,14 @@ title: Frameset Class
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Framesets.Frameset klass. Representerar en ramsida eller en enda ram på en ramsida i C#.
+description: Upptäck klassen Aspose.Words.Framesets.Frameset för sömlös ramhantering i dokument. Förbättra dina webbsidor med effektiv ramintegration!
 type: docs
-weight: 3080
+weight: 3510
 url: /sv/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
-Representerar en ramsida eller en enda ram på en ramsida.
+Representerar en bildrutesida eller en enskild bildruta på en bildrutesida.
 
 För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
@@ -28,24 +28,25 @@ public class Frameset
 
 | namn | Beskrivning |
 | --- | --- |
-| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Får samlingen av underordnade ramar och ramsidor. |
-| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i denna ram. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Hämtar eller ställer in ett värde som anger om webbsidan eller dokumentfilnamnet som anges i [`FrameDefaultUrl`](./framedefaulturl/) egenskapen är en extern resurs som ramen är länkad till. |
+| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Hämtar samlingen av underramar och ramsidor. |
+| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i den här ramen. |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Hämtar eller anger ett värde som anger om webbsidans eller dokumentets filnamn som anges i [`FrameDefaultUrl`](./framedefaulturl/) egenskapen är en extern resurs som ramen är länkad till. |
 
 ## Anmärkningar
 
-Om[`ChildFramesets`](./childframesets/) egenskapen innehåller objekt, den här instansen är en ramsida, annars är den en enda ram.
+Om[`ChildFramesets`](./childframesets/) egenskapen innehåller objekt, den här instansen är en frames-sida, annars är det en enda frame.
 
 ## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
 ```csharp
-// Dokument innehåller flera ramar med länkar till andra dokument.
+// Dokumentet innehåller flera ramar med länkar till andra dokument.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Vi kan kontrollera standard URL (en webbadress eller lokalt dokument) eller om ramen är en extern resurs.
-Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// Vi kan kontrollera standard-URL:en (en webbsides-URL eller ett lokalt dokument) eller om ramen är en extern resurs.
+Assert.AreEqual("https://filexempel-com.github.io/uploads/2017/02/filexempel_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
 
@@ -54,7 +55,7 @@ Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
 
 // Ändra egenskaper för en av våra ramar.
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
-    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Exempel/Data/Absolut%20position%20tab.docx";
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ```
 

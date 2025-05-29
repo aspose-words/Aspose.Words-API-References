@@ -3,14 +3,14 @@ title: AxisBound.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words для .NET
-description: AxisBound GetHashCode метод. Служит хешфункцией для этого типа на С#.
+description: Откройте для себя метод AxisBound GetHashCode — эффективное решение для генерации уникальных значений хэша, повышения целостности данных и производительности.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/axisbound/gethashcode/
 ---
 ## AxisBound.GetHashCode method
 
-Служит хеш-функцией для этого типа.
+Служит хэш-функцией для этого типа.
 
 ```csharp
 public override int GetHashCode()

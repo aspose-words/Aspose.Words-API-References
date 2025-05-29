@@ -3,7 +3,7 @@ title: FieldFileSize
 linktitle: FieldFileSize
 articleTitle: FieldFileSize
 second_title: Aspose.Words для .NET
-description: FieldFileSize строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldFileSize — ваше решение для эффективного управления размером файла. Упростите кодирование с помощью нашего конструктора по умолчанию уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldfilesize/fieldfilesize/

@@ -3,7 +3,7 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words per .NET
-description: Style Document proprietà. Ottiene il documento del proprietario in C#.
+description: Scopri la proprietà Documento di stile per accedere e gestire facilmente il tuo documento proprietario, migliorando l'organizzazione e l'efficienza.
 type: docs
 weight: 50
 url: /it/net/aspose.words/style/document/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

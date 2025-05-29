@@ -3,14 +3,14 @@ title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
 second_title: Aspose.Words para .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing propiedad. Obtiene o establece un valor booleano que especifica si se debe ajustar el espaciado entre oraciones y palabras automáticamente. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad AdjustSentenceAndWordSpacing de ImportFormatOptions. Controle fácilmente el espaciado automático entre oraciones y palabras para mejorar la claridad del texto.
 type: docs
 weight: 20
 url: /es/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions.AdjustSentenceAndWordSpacing property
 
-Obtiene o establece un valor booleano que especifica si se debe ajustar el espaciado entre oraciones y palabras automáticamente. El valor predeterminado es`FALSO` .
+Obtiene o establece un valor booleano que especifica si se debe ajustar automáticamente el espaciado entre oraciones y palabras. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool AdjustSentenceAndWordSpacing { get; set; }

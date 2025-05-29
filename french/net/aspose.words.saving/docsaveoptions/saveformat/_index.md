@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words pour .NET
-description: DocSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Peut êtreDoc ouDot  en C#.
+description: Découvrez la propriété SaveFormat de DocSaveOptions pour choisir facilement entre les formats Doc et Dot et enregistrer vos documents en toute simplicité. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words.saving/docsaveoptions/saveformat/
 ---
 ## DocSaveOptions.SaveFormat property
 
-Spécifie le format dans lequel le document sera enregistré si cet objet d'options de sauvegarde est utilisé. Peut êtreDoc ouDot .
+Spécifie le format dans lequel le document sera enregistré si cet objet d'options d'enregistrement est utilisé. Peut êtreDoc ouDot .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Définir un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
-// Notez que cela ne crypte en aucun cas le contenu du document.
+// Définissez un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
+// Notez que cela ne crypte en aucune façon le contenu du document.
 options.Password = "MyPassword";
 
-// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en mettant cet indicateur à true.
+// Si le document contient un bordereau d'acheminement, nous pouvons le conserver lors de l'enregistrement en définissant cet indicateur sur true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

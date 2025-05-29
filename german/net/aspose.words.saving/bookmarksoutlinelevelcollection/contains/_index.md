@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words für .NET
-description: BookmarksOutlineLevelCollection Contains methode. Ermittelt ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält in C#.
+description: Finden Sie heraus, ob ein Lesezeichen in der BookmarksOutlineLevelCollection vorhanden ist. Verwalten Sie Ihre Lesezeichen ganz einfach mit dieser wichtigen Methode für eine effiziente Organisation.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 ---
 ## BookmarksOutlineLevelCollection.Contains method
 
-Ermittelt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält.
+Bestimmt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält.
 
 ```csharp
 public bool Contains(string name)
@@ -18,11 +18,11 @@ public bool Contains(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name des zu suchenden Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| name | String | Name des zu suchenden Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
 ### Rückgabewert
 
-`WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
+`WAHR`wenn das Element in der Sammlung gefunden wird; andernfalls`FALSCH`.
 
 ## Beispiele
 
@@ -32,7 +32,7 @@ Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Lesezeichen mit einem anderen darin verschachtelten Lesezeichen ein.
+// Fügt ein Lesezeichen ein, in dem ein weiteres Lesezeichen verschachtelt ist.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -68,14 +68,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird während des Speichervorgangs optimiert.
-// In diesem Fall werden die Stufen „5“ und „9“ zu „2“ und „3“.
+// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird beim Speichern optimiert.
+// In diesem Fall werden die Ebenen „5“ und „9“ zu „2“ und „3“.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf derselben Gliederungsebene platziert.
+// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf die gleiche Gliederungsebene gesetzt.
 outlineLevels.Clear();
 ```
 

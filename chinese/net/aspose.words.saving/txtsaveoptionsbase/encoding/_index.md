@@ -2,15 +2,15 @@
 title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptionsBase Encoding 财产. 指定以文本格式导出时要使用的编码 默认值为编码.UTF8 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 TxtSaveOptionsBase 的 Encoding 属性优化文本导出。轻松设置编码选项，实现无缝的 UTF-8 文本格式。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-指定以文本格式导出时要使用的编码。 默认值为**编码.UTF8**.
+指定以文本格式导出时使用的编码。 默认值为**编码.UTF8**.
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 ## 例子
 
-演示如何设置 .txt 输出文档的编码。
+展示如何设置 .txt 输出文档的编码。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.Write("À È Ì Ò Ù.");
 // 修改我们将文档保存为纯文本的方式。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// 验证“Encoding”属性是否包含适合文档内容的编码。
+// 验证“Encoding”属性是否包含适合我们文档内容的编码。
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

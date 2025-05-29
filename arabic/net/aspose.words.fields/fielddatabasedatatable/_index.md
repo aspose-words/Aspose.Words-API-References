@@ -3,14 +3,14 @@ title: FieldDatabaseDataTable Class
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldDatabaseDataTable فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataTable المثال في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldDatabaseDataTable، الحل الأمثل لنتائج حقول FieldDatabase فعّالة. تكامل بيانات سلس اليوم!
 type: docs
-weight: 1760
+weight: 2170
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) النتيجة الميدانية. لطفا أنظرDataTable المثال.
+يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) نتيجة الحقل. يرجى الاطلاع علىDataTable مثال.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
@@ -22,20 +22,70 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` فئة. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | يقوم بتهيئة مثيل جديد لـ`FieldDatabaseDataTable` الصف. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames/) { get; } | الحصول على الأعمدة التي تنتمي إلى هذا الجدول. |
-| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows/) { get; } | الحصول على الصفوف التي تنتمي إلى هذا الجدول. |
+| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames/) { get; } | يحصل على الأعمدة التي تنتمي إلى هذا الجدول. |
+| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows/) { get; } | يحصل على الصفوف التي تنتمي إلى هذا الجدول. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` class منDataTable المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | يقوم بتهيئة مثيل جديد لـ`FieldDatabaseDataTable` class منDataTable مثال. |
+
+## أمثلة
+
+يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في مستند.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// سيقوم حقل قاعدة البيانات هذا بتشغيل استعلام على قاعدة البيانات، وعرض النتيجة في جدول.
+FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.Query = "SELECT * FROM [Products]";
+
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+
+// قم بإدراج حقل قاعدة بيانات آخر باستخدام استعلام أكثر تعقيدًا يقوم بفرز جميع المنتجات بترتيب تنازلي حسب إجمالي المبيعات.
+field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.Query =
+    "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
+    "FROM([Products] " +
+    "LEFT JOIN[Order Details] ON[Products].[ProductID] = [Order Details].[ProductID]) " +
+    "GROUP BY[Products].ProductName " +
+    "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
+
+// هذه الخصائص لها نفس وظيفة جملتي LIMIT وTOP.
+// قم بتكوينها لعرض الصفوف من 1 إلى 10 فقط من نتيجة الاستعلام في جدول الحقل.
+field.FirstRecord = "1";
+field.LastRecord = "10";
+
+// هذه الخاصية هي فهرس التنسيق الذي نريد استخدامه لجدولنا. قائمة تنسيقات الجدول موجودة في قائمة "تنسيق الجدول تلقائيًا..."
+// يظهر هذا عند إنشاء حقل قاعدة بيانات في مايكروسوفت وورد. الفهرس رقم ١٠ يتوافق مع تنسيق "Colorful 3".
+field.TableFormat = "10";
+
+// خاصية FormatAttribute عبارة عن تمثيل سلسلة لعدد صحيح يخزن أعلامًا متعددة.
+// يمكننا تطبيق التنسيق الذي تشير إليه خاصية TableFormat بشكل أصيل عن طريق تعيين علامات مختلفة في هذه الخاصية.
+// الرقم الذي نستخدمه هو مجموع مجموعة من القيم المقابلة لجوانب مختلفة من نمط الجدول.
+// 63 يمثل 1 (الحدود) + 2 (التظليل) + 4 (الخط) + 8 (اللون) + 16 (التوافق التلقائي) + 32 (صفوف العناوين).
+field.FormatAttributes = "63";
+field.InsertHeadings = true;
+field.InsertOnceOnMailMerge = true;
+
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.DATABASE.docx");
+```
 
 ### أنظر أيضا
 

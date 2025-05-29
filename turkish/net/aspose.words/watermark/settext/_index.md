@@ -2,8 +2,8 @@
 title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
-second_title: Aspose.Words for .NET
-description: Watermark SetText yöntem. Belgeye Metin filigranı ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi Watermark SetText yöntemimizle geliştirin. Profesyonel bir dokunuş için kolayca özelleştirilebilir metin filigranları ekleyin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/watermark/settext/
@@ -24,12 +24,12 @@ public void SetText(string text)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
-| ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
+| ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde fırlatılır. |
+| ArgumentNullException | Metin olduğunda fırlatılır`hükümsüz` . |
 
 ## Notlar
 
-Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
+Metin uzunluğu 1 ile 200 dahil aralığında olmalıdır. Metin,`hükümsüz` veya yalnızca boşluklar içerir.
 
 ## Örnekler
 
@@ -41,8 +41,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -54,7 +54,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```
@@ -84,14 +84,14 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
-| ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
+| ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde fırlatılır. |
+| ArgumentNullException | Metin olduğunda fırlatılır`hükümsüz` . |
 
 ## Notlar
 
-Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
+Metin uzunluğu 1 ile 200 dahil aralığında olmalıdır. Metin,`hükümsüz` veya yalnızca boşluklar içerir.
 
-Eğer[`TextWatermarkOptions`](../../textwatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
+Eğer[`TextWatermarkOptions`](../../textwatermarkoptions/) dır`hükümsüz`, filigran varsayılan seçeneklerle ayarlanacaktır.
 
 ## Örnekler
 
@@ -103,8 +103,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -116,7 +116,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -3,9 +3,9 @@ title: LegendPosition Enum
 linktitle: LegendPosition
 articleTitle: LegendPosition
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition énumération. Spécifie les positions possibles pour une légende de graphique en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.Charts.LegendPosition pour personnaliser facilement la position de la légende de votre graphique pour une visualisation améliorée des données.
 type: docs
-weight: 910
+weight: 1230
 url: /fr/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
@@ -29,7 +29,7 @@ public enum LegendPosition
 
 ## Exemples
 
-Montre comment modifier l’apparence de la légende d’un graphique.
+Montre comment modifier l'apparence de la légende d'un graphique.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Déplace la légende du graphique vers le coin supérieur droit.
+// Déplacez la légende du graphique vers le coin supérieur droit.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 

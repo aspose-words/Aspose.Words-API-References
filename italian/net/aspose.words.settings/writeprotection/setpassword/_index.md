@@ -3,7 +3,7 @@ title: WriteProtection.SetPassword
 linktitle: SetPassword
 articleTitle: SetPassword
 second_title: Aspose.Words per .NET
-description: WriteProtection SetPassword metodo. Imposta la password di protezione da scrittura per il documento in C#.
+description: Proteggi i tuoi documenti con il metodo WriteProtection SetPassword. Imposta facilmente una password per migliorare la sicurezza dei documenti e impedire l'accesso non autorizzato.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,11 +18,11 @@ public void SetPassword(string password)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| password | String | La password da impostare. Non può essere`nullo`, ma può essere una stringa vuota. |
+| password | String | La password da impostare. Non può essere`null`, ma può essere una stringa vuota. |
 
 ## Osservazioni
 
-Se è impostata una password, Microsoft Word richiederà all'utente di inserirla o di aprire il documento in sola lettura.
+Se è impostata una password, Microsoft Word richiederà all'utente di immetterla o di aprire il documento in sola lettura.
 
 ## Esempi
 
@@ -32,14 +32,14 @@ Mostra come proteggere un documento con una password.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// Immettere una password lunga fino a 15 caratteri, quindi verificare lo stato di protezione del documento.
+// Inserisci una password lunga fino a 15 caratteri, quindi verifica lo stato di protezione del documento.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protezione non impedisce la modifica del documento a livello di codice, né ne crittografa il contenuto.
+// La protezione non impedisce che il documento venga modificato a livello di programmazione, né ne crittografa il contenuto.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

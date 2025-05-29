@@ -3,7 +3,7 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: CustomPartCollection Add methode. Fügt der Sammlung ein Element hinzu in C#.
+description: Verbessern Sie Ihr Projekt mühelos mit der Add-Methode „CustomPartCollection“ – fügen Sie Ihrer Sammlung schnell Elemente hinzu, um eine nahtlose Integration und Effizienz zu gewährleisten.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/custompartcollection/add/
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

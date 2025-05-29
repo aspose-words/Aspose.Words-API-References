@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words för .NET
-description: Paragraph IsEndOfSection fast egendom. Sant om detta stycke är det sista stycket iBody huvudtextberättelse av enSection  falskt annars i C#.
+description: Upptäck egenskapen Paragraph IsEndOfSection för att identifiera om ett stycke är det sista i ett avsnitts huvudtext för förbättrad dokumentstruktur och tydlighet.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/paragraph/isendofsection/
@@ -56,8 +56,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Slinga igenom alla noder på blocknivå i sektionens kropp,
-        // klona sedan och infoga varje nod som inte är det sista tomma stycket i ett avsnitt.
+        // Loopa igenom alla blocknivånoder i sektionens brödtext,
+        // klona och infoga sedan varje nod som inte är det sista tomma stycket i ett avsnitt.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

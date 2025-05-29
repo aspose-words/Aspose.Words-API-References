@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToMergeField
 linktitle: MoveToMergeField
 articleTitle: MoveToMergeField
 second_title: Aspose.Words för .NET
-description: DocumentBuilder MoveToMergeField metod. Flyttar markören till en position strax bortom det angivna kopplingsfältet och tar bort kopplingsfältet i C#.
+description: Navigera enkelt i ditt dokument med metoden MoveToMergeField. Placera markören direkt bortom kopplingsfälten för sömlös redigering.
 type: docs
-weight: 550
+weight: 590
 url: /sv/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(*string*) {#movetomergefield}
@@ -18,26 +18,26 @@ public bool MoveToMergeField(string fieldName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldName | String | Det skiftlägesokänsliga namnet på kopplingsfältet. |
+| fieldName | String | Det skiftlägeskänsliga namnet på fältet för dokumentkoppling. |
 
 ### Returvärde
 
-`Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
+`sann` om kopplingsfältet hittades och markören flyttades;`falsk` annat.
 
 ## Anmärkningar
 
-Observera att den här metoden tar bort sammanslagningsfältet från dokumentet efter att du har flyttat markören.
+Observera att den här metoden tar bort kopplingsfältet från dokumentet efter att markören har flyttats.
 
 ## Exempel
 
-Visar hur man fyller MERGEFIELDs med data med en dokumentbyggare istället för en brevkoppling.
+Visar hur man fyller MERGEFIELDs med data med en dokumentbyggare istället för en dokumentkoppling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga några MERGEFIELDS, som accepterar data från kolumner med samma namn i en datakälla under en e-postsammanfogning,
-// och fyll dem sedan manuellt.
+// Infoga några MERGEFIELDS, som accepterar data från kolumner med samma namn i en datakälla under en dokumentkoppling,
+// och fyll sedan i dem manuellt.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -57,7 +57,7 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
+Visar hur man infogar kryssrutefält i MERGEFIELDS som kopplingsdata under dokumentkoppling.
 
 ```csharp
 public void InsertCheckBox()
@@ -65,8 +65,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Använd MERGEFIELDs med "TableStart"/"TableEnd"-taggar för att definiera en kopplingsregion
-    // som tillhör en datakälla som heter "StudentCourse" och har ett MERGEFIELD som accepterar data från en kolumn som heter "CourseName".
+    // Använd MERGEFIELDs med taggarna "TableStart"/"TableEnd" för att definiera ett område för dokumentkoppling
+    // som tillhör en datakälla med namnet "StudentCourse" och har ett MERGEFIELD som accepterar data från en kolumn med namnet "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -85,12 +85,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// När du stöter på ett MERGEFIELD med ett specifikt namn, infogar ett kryssrutaformulärfält istället för sammanslagningsdatatext.
+/// När ett MERGEFIELD med ett specifikt namn påträffas, infogas ett kryssruteformulärfält istället för text för sammanfogningsdata.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -104,7 +104,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // I detta fall, för varje postindex 'n', är motsvarande fältvärde "Course n".
+            // I det här fallet är motsvarande fältvärde "Kurs n" för varje postindex 'n'.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -114,14 +114,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// Skapar en kopplingsdatakälla.
+/// Skapar en datakälla för dokumentkoppling.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {
@@ -156,13 +156,13 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldName | String | Det skiftlägesokänsliga namnet på kopplingsfältet. |
-| isAfter | Boolean | När`Sann` , flyttar markören så att den hamnar efter fältets slut. When`falsk` , flyttar markören till att vara före fältstarten. |
-| isDeleteField | Boolean | När`Sann`, tar bort sammanslagningsfältet. |
+| fieldName | String | Det skiftlägeskänsliga namnet på fältet för dokumentkoppling. |
+| isAfter | Boolean | När`sann` , flyttar markören så att den är efter fältets slut. När`falsk` , flyttar markören så att den är före fältets början. |
+| isDeleteField | Boolean | När`sann`, tar bort kopplingsfältet. |
 
 ### Returvärde
 
-`Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
+`sann` om kopplingsfältet hittades och markören flyttades;`falsk` annat.
 
 ## Exempel
 
@@ -177,13 +177,13 @@ builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 // Flytta markören till det första MERGEFIELD.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// Observera att markören placeras omedelbart efter det första MERGEFIELD, och före det andra.
+// Observera att markören placeras omedelbart efter det första MERGEFIELD-värdet och före det andra.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Om vi vill redigera fältets fältkod eller innehåll med hjälp av byggaren,
-// dess markör måste vara inuti ett fält.
-// För att placera den i ett fält, skulle vi behöva anropa dokumentbyggarens MoveTo-metod
+// Om vi vill redigera fältets fältkod eller innehåll med hjälp av verktyget,
+// dess markör skulle behöva vara inuti ett fält.
+// För att placera den inuti ett fält skulle vi behöva anropa dokumentbyggarens MoveTo-metod
 // och skicka fältets start- eller separatornod som ett argument.
 builder.Write(" Text between our merge fields. ");
 

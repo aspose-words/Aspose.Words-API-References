@@ -3,12 +3,12 @@ title: Aspose.Words.Replacing
 linktitle: Aspose.Words.Replacing
 articleTitle: Aspose.Words.Replacing
 second_title: Aspose.Words für .NET
-description: DerAspose.Words.Replaceing Der Namespace stellt Klassen zum Manipulieren von mit Such/Ersetzungsoperationen über den Dokumentbaum bereit in C#.
+description: Verbessern Sie Ihre Dokumente mühelos mit dem Aspose.Words.Replacing-Namespace – leistungsstarke Klassen für effiziente Such-/Ersetzungsvorgänge in Ihrem Dokumentbaum.
 type: docs
-weight: 210
+weight: 230
 url: /de/net/aspose.words.replacing/
 ---
-Der**Aspose.Words.Replaceing** Der Namespace stellt Klassen zum Manipulieren von mit Such-/Ersetzungsoperationen über den Dokumentbaum bereit.
+Der**Aspose.Wörter.Ersetzen** Der Namespace bietet Klassen zum Manipulieren von x000d mit Such-/Ersetzungsvorgängen im Dokumentbaum.
 
 ## Klassen
 
@@ -20,10 +20,11 @@ Der**Aspose.Words.Replaceing** Der Namespace stellt Klassen zum Manipulieren von
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [IReplacingCallback](./ireplacingcallback/) | Implementieren Sie diese Schnittstelle, wenn Sie Ihre eigene benutzerdefinierte Methode während eines Such- und Ersetzungsvorgangs aufrufen möchten. |
+| [IReplacingCallback](./ireplacingcallback/) | Implementieren Sie diese Schnittstelle, wenn Sie während eines Such- und Ersetzungsvorgangs Ihre eigene benutzerdefinierte Methode aufrufen möchten. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Gibt die Richtung für Ersetzungsvorgänge an. |
-| [ReplaceAction](./replaceaction/) | Ermöglicht dem Benutzer festzulegen, was mit der aktuellen Übereinstimmung während eines Ersetzungsvorgangs geschieht. |
+| [ReplaceAction](./replaceaction/) | Ermöglicht dem Benutzer anzugeben, was während eines Ersetzungsvorgangs mit der aktuellen Übereinstimmung geschieht. |
+| [ReplacementFormat](./replacementformat/) | Gibt das Ersetzungsformat an. |

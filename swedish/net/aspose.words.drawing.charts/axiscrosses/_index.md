@@ -3,9 +3,9 @@ title: AxisCrosses Enum
 linktitle: AxisCrosses
 articleTitle: AxisCrosses
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.AxisCrosses uppräkning. Anger möjliga korsningspunkter för en axel i C#.
+description: Upptäck Aspose.Words.Drawing.Charts.AxisCrosses-uppräkningen för att definiera axelkorsningspunkter och förbättra dina diagramfunktioner utan ansträngning.
 type: docs
-weight: 540
+weight: 780
 url: /sv/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
@@ -20,10 +20,10 @@ public enum AxisCrosses
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Automatic | `0` | Kategoriaxeln korsar vid nollpunkten för värdeaxeln (om möjligt), eller vid minimivärdet om minimum är större än noll, eller vid maximum om maximum är mindre än noll. |
-| Maximum | `1` | En vinkelrät axel korsar vid axelns maximala värde. |
-| Minimum | `2` | En vinkelrät axel korsar vid axelns minimivärde. |
-| Custom | `3` | En vinkelrät axel korsar vid det angivna värdet på axeln. |
+| Automatic | `0` | Kategoriaxeln skär vid värdeaxelns nollpunkt (om möjligt), eller vid minimivärdet om minimumvärdet är större än noll, eller vid maximumvärdet om maximumvärdet är mindre än noll. |
+| Maximum | `1` | En vinkelrät axel skärs vid axelns maximala värde. |
+| Minimum | `2` | En vinkelrät axel skärs vid axelns minimivärde. |
+| Custom | `3` | En vinkelrät axel skärs vid det angivna värdet för axeln. |
 
 ## Exempel
 
@@ -44,8 +44,8 @@ chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Diagramaxlar har olika alternativ som kan ändra utseende,
-// som t.ex. deras riktning, större/mindre enhetsmarkeringar och bockmarkeringar.
+// Diagramaxlar har olika alternativ som kan ändra deras utseende,
+// såsom deras riktning, större/mindre enhets tick och skalmtecken.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -54,10 +54,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -67,7 +69,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Kolumndiagram har ingen Z-axel.
 Assert.Null(chart.AxisZ);

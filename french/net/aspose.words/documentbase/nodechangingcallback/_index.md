@@ -3,9 +3,9 @@ title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
 articleTitle: NodeChangingCallback
 second_title: Aspose.Words pour .NET
-description: DocumentBase NodeChangingCallback propriété. Appelé lorsquun nœud est inséré ou supprimé dans le document en C#.
+description: Découvrez la propriété DocumentBase NodeChangingCallback, qui se déclenche lors des insertions ou des suppressions de nœuds, améliorant ainsi la gestion des documents et l'efficacité du flux de travail.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Définit le rappel de changement de nœud sur une implémentation personnalisée,
-    // puis ajoutez/supprimez des nœuds pour qu'il génère un journal.
+    // Définir le rappel de changement de nœud sur une implémentation personnalisée,
+    // puis ajoutez/supprimez des nœuds pour générer un journal.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// Enregistre la date et l'heure de chaque insertion et suppression de nœud.
-/// Définit un nom/une taille de police personnalisée pour le contenu du texte des nœuds Run.
+/// Définit un nom/une taille de police personnalisée pour le contenu texte des nœuds Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

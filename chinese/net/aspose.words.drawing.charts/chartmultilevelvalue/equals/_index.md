@@ -2,8 +2,8 @@
 title: ChartMultilevelValue.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartMultilevelValue Equals 方法. 获取一个标志指示指定对象是否等于当前多级数据对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ChartMultilevelValue Equals 方法如何判断多级数据对象是否相等。立即提升您的编码效率！
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/

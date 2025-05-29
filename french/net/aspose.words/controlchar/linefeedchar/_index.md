@@ -3,14 +3,14 @@ title: ControlChar.LineFeedChar
 linktitle: LineFeedChar
 articleTitle: LineFeedChar
 second_title: Aspose.Words pour .NET
-description: ControlChar LineFeedChar champ. Caractère de saut de ligne  char10 ou n en C#.
+description: Découvrez le champ ControlChar LineFeedChar : optimisez votre traitement de texte avec le caractère de saut de ligne essentiel (char10 ou n) pour une gestion transparente des données.
 type: docs
 weight: 150
 url: /fr/net/aspose.words/controlchar/linefeedchar/
 ---
 ## ControlChar.LineFeedChar field
 
-Caractère de saut de ligne : (char)10 ou "\n".
+Caractère de saut de ligne : (char)10 ou « \n ».
 
 ```csharp
 public const char LineFeedChar;
@@ -24,20 +24,20 @@ Montre comment ajouter divers caractères de contrôle à un document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoute un espace régulier.
+// Ajouter un espace régulier.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
 // Ajoutez un NBSP, qui est un espace insécable.
 // Contrairement à l'espace normal, cet espace ne peut pas avoir de saut de ligne automatique à sa position.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Ajoute un caractère de tabulation.
+// Ajouter un caractère de tabulation.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Ajoute un saut de ligne.
+// Ajouter un saut de ligne.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Ajoute une nouvelle ligne et commence un nouveau paragraphe.
+// Ajoute une nouvelle ligne et démarre un nouveau paragraphe.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -48,22 +48,22 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // Les retours chariot et les sauts de ligne peuvent être représentés ensemble par un seul caractère.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Ajoute un saut de paragraphe, qui démarrera un nouveau paragraphe.
+// Ajoutez un saut de paragraphe, qui démarrera un nouveau paragraphe.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Ajout d'un saut de section. Cela ne crée pas une nouvelle section ou un nouveau paragraphe.
+// Ajouter un saut de section. Cela ne crée pas de nouvelle section ni de nouveau paragraphe.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Ajoute un saut de page.
+// Ajouter un saut de page.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
 // Un saut de page a la même valeur qu'un saut de section.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Insère une nouvelle section, puis définit son nombre de colonnes sur deux.
+// Insérez une nouvelle section, puis définissez son nombre de colonnes sur deux.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
@@ -73,7 +73,7 @@ builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at be
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Il existe des équivalents char et chaîne pour la plupart des caractères.
+// Il existe des équivalents char et string pour la plupart des caractères.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

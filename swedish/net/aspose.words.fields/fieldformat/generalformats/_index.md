@@ -3,14 +3,14 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words för .NET
-description: FieldFormat GeneralFormats fast egendom. Hämtar en samling allmänna format som tillämpas på ett numeriskt text eller valfritt fältresultat. Motsvarar omkopplarna i C#.
+description: Upptäck egenskapen FieldFormat GeneralFormats, som erbjuder en mångsidig samling numeriska textformat för att förbättra din datapresentation och dina resultat.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Motsvarar \*-omkopplarna.
+Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Motsvarar \*-växlarna.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -24,14 +24,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

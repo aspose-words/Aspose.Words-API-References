@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreDeleted
 linktitle: IgnoreDeleted
 articleTitle: IgnoreDeleted
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions IgnoreDeleted propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le texte à lintérieur des révisions supprimées. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété IgnoreDeleted de FindReplaceOptions et contrôlez la visibilité du texte dans les révisions supprimées grâce à une simple option booléenne. Améliorez votre expérience d'édition !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 ---
 ## FindReplaceOptions.IgnoreDeleted property
 
-Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des révisions supprimées. La valeur par défaut est`FAUX` .
+Obtient ou définit une valeur booléenne indiquant d'ignorer le texte à l'intérieur des révisions de suppression. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IgnoreDeleted { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreDeleted { get; set; }
 
 ## Exemples
 
-Montre comment inclure ou ignorer du texte dans les révisions de suppression lors d’une opération de recherche et de remplacement.
+Montre comment inclure ou ignorer du texte dans les révisions de suppression lors d'une opération de recherche et de remplacement.
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ doc.StopTrackRevisions();
 
 Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 
-// Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+// Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Définissez l'indicateur "IgnoreDeleted" sur "true" pour obtenir la recherche et le remplacement
-// opération pour ignorer les paragraphes qui sont des révisions supprimées.
-// Définissez l'indicateur "IgnoreDeleted" sur "false" pour obtenir la recherche et le remplacement
-// opération pour rechercher également du texte dans les révisions de suppression.
+// Définissez l'indicateur « IgnoreDeleted » sur « true » pour obtenir la fonction de recherche et de remplacement
+// opération pour ignorer les paragraphes qui sont des révisions de suppression.
+// Définissez l'indicateur « IgnoreDeleted » sur « false » pour obtenir la fonction de recherche et de remplacement
+// opération permettant également de rechercher du texte à l'intérieur des révisions de suppression.
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

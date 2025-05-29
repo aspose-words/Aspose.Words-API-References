@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ImageResolution ملكية. يحدد دقة الإخراج للصور عند التصدير إلى HTML أو MHTML أو EPUB. الافتراضي هو96 نقطة في البوصة  في C#.
+description: اضبط دقة الصورة بسهولة مع خيارات حفظ Html. حسّن صادراتك بتنسيقات HTML أو MHTML أو EPUB بإعدادات قابلة للتخصيص للحصول على صور مذهلة.
 type: docs
 weight: 340
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -18,11 +18,11 @@ public int ImageResolution { get; set; }
 
 ## ملاحظات
 
-تؤثر هذه الخاصية على الصور النقطية عندما[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) هو`حقيقي` وملفات تعريف التأثيرات التي يتم تصديرها كصور نقطية. تتطلب بعض خصائص الصورة مثل Cropping أو التدوير حفظ الصور المحولة وفي هذه الحالة يتم إنشاء الصور المحولة بدقة معينة .
+تؤثر هذه الخاصية على الصور النقطية عندما[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) هو`حقيقي` وملفات تعريف التأثيرات المُصدَّرة كصور نقطية. تتطلب بعض خصائص الصورة، مثل الاقتصاص x000d_ أو الدوران، حفظ الصور المُحوَّلة، وفي هذه الحالة تُنشأ الصور المُحوَّلة بدقة x000d_ المُحدَّدة.
 
 ## أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات وأسماء المجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -2,15 +2,15 @@
 title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Lists.ListTrailingCharacter 枚举. 指定将列表标签与段落文本分隔开的字符 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Lists.ListTrailingCharacter 枚举以自定义列表标签并增强段落格式，从而实现更完美的文档呈现。
 type: docs
-weight: 3540
+weight: 3990
 url: /zh/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
 
-指定将列表标签与段落文本分隔开的字符。
+指定分隔列表标签和段落文本的字符。
 
 ```csharp
 public enum ListTrailingCharacter
@@ -20,17 +20,17 @@ public enum ListTrailingCharacter
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Tab | `0` | 制表符放置在列表标签和段落文本之间。 |
+| Tab | `0` | 列表标签和段落文本之间放置一个制表符。 |
 | Space | `1` | 列表标签和段落文本之间放置一个空格字符。 |
 | Nothing | `2` | 列表标签和段落文本之间没有分隔符。 |
 
 ## 评论
 
-用作值[`TrailingCharacter`](../listlevel/trailingcharacter/)财产。
+用作[`TrailingCharacter`](../listlevel/trailingcharacter/)财产。
 
 ## 例子
 
-演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+展示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其列表的前两个级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其列表级别的前两个。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -65,7 +65,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// 创建段落并将自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将我们的自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

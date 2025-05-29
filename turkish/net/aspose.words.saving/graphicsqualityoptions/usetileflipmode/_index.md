@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
-second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions UseTileFlipMode mülk. WrapModeun TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda gelişmiş görsel kalite için WrapMode ayarlarını kontrol etmek üzere GraphicsQualityOptions UseTileFlipMode özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-WrapMode'un TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar.
+WrapMode'un TileFlipXY olup olmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -18,15 +18,15 @@ public bool UseTileFlipMode { get; set; }
 
 ## Notlar
 
-WrapMode doldurulan alandan daha küçük olduğunda bir doku veya degradenin nasıl döşeneceğini belirtir.
+TheWrapMode Doldurulacak alandan x000d daha küçük olduğunda bir doku veya degradenin nasıl döşeneceğini belirtir.
 
-Varsayılan olarak kullanımlarTile (çevirmeden döşemeyi belirtir). Bu, ölçeklendirilmiş görüntünün (yüksek çözünürlükte) hatalı oluşturulmasına neden olur.
+Varsayılan olarak kullanırTile (çevirmeden döşemeyi belirtir). Bu, ölçeklenmiş görüntünün (yüksek çözünürlükte) yanlış işlenmesine neden olur.
 
-Bu özellik WrapMode'un şu şekilde değiştirilmesine izin verir:TileFlipXY (bir satır boyunca hareket ederken döşemelerin yatay olarak çevrildiğini ve bir sütun boyunca hareket ederken dikey olarak çevrildiğini belirtir).
+Bu özellik, WrapMode'u şu şekilde değiştirmenize olanak tanır:TileFlipXY (bir satır boyunca hareket ettiğinizde fayansların yatay olarak , bir sütun boyunca hareket ettiğinizde ise dikey olarak çevrileceğini belirtir).
 
 ## Örnekler
 
-Yüksek çözünürlükte görüntü oluştururken beyaz çizginin görünmesinin nasıl önleneceğini gösterir.
+Yüksek çözünürlükte render alırken beyaz çizginin nasıl önleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

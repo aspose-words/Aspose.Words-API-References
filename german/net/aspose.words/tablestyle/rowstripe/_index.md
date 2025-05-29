@@ -3,14 +3,14 @@ title: TableStyle.RowStripe
 linktitle: RowStripe
 articleTitle: RowStripe
 second_title: Aspose.Words für .NET
-description: TableStyle RowStripe eigendom. Ruft eine Anzahl von Zeilen ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil ungerade/gerade Zeilenbanderstellung angibt in C#.
+description: Entdecken Sie die RowStripe-Eigenschaft von TableStyle, um die Einteilung gerader/ungerader Zeilen einfach anzupassen und so die Lesbarkeit und Optik der Tabelle zu verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words/tablestyle/rowstripe/
 ---
 ## TableStyle.RowStripe property
 
-Ruft eine Anzahl von Zeilen ab, die in die Banderstellung einbezogen werden sollen, oder legt diese fest, wenn der Stil ungerade/gerade Zeilenbanderstellung angibt.
+Ruft die Anzahl der Zeilen ab oder legt sie fest, die in die Streifenbildung einbezogen werden sollen, wenn der Stil eine Streifenbildung in gerade/ungerade Zeilen vorgibt.
 
 ```csharp
 public int RowStripe { get; set; }
@@ -24,11 +24,11 @@ Zeigt, wie bedingte Tabellenstile erstellt werden, die zwischen Zeilen wechseln.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wir können einen bedingten Stil einer Tabelle konfigurieren, um eine andere Farbe auf die Zeile/Spalte anzuwenden.
-// basierend darauf, ob die Zeile/Spalte gerade oder ungerade ist, wodurch ein alternierendes Farbmuster entsteht.
+// Wir können einen bedingten Stil einer Tabelle konfigurieren, um der Zeile/Spalte eine andere Farbe zuzuweisen,
+// basierend darauf, ob die Zeile/Spalte gerade oder ungerade ist, wodurch ein abwechselndes Farbmuster entsteht.
 // Wir können auch eine Zahl n auf die Zeilen-/Spaltenbandierung anwenden,
-// bedeutet, dass die Farbe nach jeweils n Zeilen/Spalten statt nach einer wechselt.
-// Erstellen Sie eine Tabelle, in der einzelne Spalten und Zeilen in drei Gruppen unterteilt werden.
+// was bedeutet, dass die Farbe nach jeweils n Zeilen/Spalten statt nach einer wechselt.
+// Erstellen Sie eine Tabelle, in der einzelne Spalten und Zeilen zusammengefasst werden, die Spalten werden in Dreiergruppen zusammengefasst.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -42,27 +42,27 @@ for (int i = 0; i < 15; i++)
 }
 builder.EndTable();
 
-// Einen Linienstil auf alle Ränder der Tabelle anwenden.
+// Wenden Sie einen Linienstil auf alle Ränder der Tabelle an.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Legen Sie die beiden Farben fest, die sich alle 3 Zeilen abwechseln.
+// Legen Sie die beiden Farben fest, die alle 3 Zeilen abwechseln.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Legen Sie eine Farbe fest, die auf jede gerade Spalte angewendet wird und alle benutzerdefinierten Zeilenfarben überschreibt.
+// Legen Sie eine Farbe fest, die auf jede gerade Spalte angewendet werden soll. Dadurch wird jede benutzerdefinierte Zeilenfärbung überschrieben.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// Die Eigenschaft „StyleOptions“ aktiviert standardmäßig die Zeilenbanderstellung.
+// Die Eigenschaft „StyleOptions“ aktiviert standardmäßig die Zeilenbandbildung.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Verwenden Sie die Eigenschaft „StyleOptions“ auch, um die Spaltenbänderung zu aktivieren.
+// Verwenden Sie die Eigenschaft „StyleOptions“, um auch die Spaltenbandbildung zu aktivieren.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

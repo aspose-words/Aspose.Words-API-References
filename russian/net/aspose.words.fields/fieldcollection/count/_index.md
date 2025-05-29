@@ -3,7 +3,7 @@ title: FieldCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: FieldCollection Count свойство. Возвращает количество полей в коллекции на С#.
+description: Откройте для себя свойство FieldCollection Count, которое эффективно возвращает общее количество полей в вашей коллекции для оптимизированного управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как удалить поля из коллекции полей.
+Показывает, как удалять поля из коллекции полей.
 
 ```csharp
 Document doc = new Document();
@@ -37,16 +37,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Ниже приведены четыре способа удаления полей из коллекции полей.
-// 1 - Получить поле для удаления самого себя:
+// 1 - Получить поле для удаления:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 — Получение коллекции для удаления поля, которое мы передаем методу удаления:
+// 2 - Получаем коллекцию для удаления поля, которое передаем ее методу удаления:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 — Удалить поле из коллекции по индексу:
+// 3 - Удалить поле из коллекции по индексу:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
@@ -55,7 +55,7 @@ fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -75,7 +75,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -100,7 +100,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -110,7 +110,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

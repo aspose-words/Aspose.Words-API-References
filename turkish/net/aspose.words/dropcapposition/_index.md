@@ -2,15 +2,15 @@
 title: DropCapPosition Enum
 linktitle: DropCapPosition
 articleTitle: DropCapPosition
-second_title: Aspose.Words for .NET
-description: Aspose.Words.DropCapPosition Sıralama. Gömme metninin konumunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Etkili görsel çekicilik için benzersiz büyük harf metin konumları tanımlayarak belge tasarımınızı geliştirmek için Aspose.Words.DropCapPosition enum'unu keşfedin.
 type: docs
-weight: 1410
+weight: 1820
 url: /tr/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration
 
-Gömme metninin konumunu belirtir.
+Büyük harfli bir metnin konumunu belirtir.
 
 ```csharp
 public enum DropCapPosition
@@ -20,19 +20,19 @@ public enum DropCapPosition
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Paragrafta büyük harf yoktur. |
-| Normal | `1` | Gömme, bağlantı paragrafındaki metin kenar boşluğunun içine yerleştirilir. |
-| Margin | `2` | Gömme, bağlantı paragrafındaki metin kenar boşluğunun dışına yerleştirilir. |
+| None | `0` | Paragrafta büyük harf kullanılmamıştır. |
+| Normal | `1` | Büyük harf, bağlantı paragrafındaki metin kenar boşluğunun içine yerleştirilir. |
+| Margin | `2` | Büyük harf, bağlantı paragrafındaki metin kenar boşluğunun dışında konumlandırılır. |
 
 ## Örnekler
 
-Gömme işleminin nasıl oluşturulacağını gösterir.
+Büyük harfle başlamanın nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İkinci ve üçüncü paragraflardaki metnin başlayacağı büyük harfli bir paragraf ekleyin.
+// İkinci ve üçüncü paragraflardaki metnin büyük harfle başladığı bir paragraf ekleyin.
 builder.Font.Size = 54;
 builder.Writeln("L");
 
@@ -42,12 +42,12 @@ builder.Writeln("orem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Writeln("Ut enim ad minim veniam, quis nostrud exercitation " +
                 "ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Şu anda ikinci ve üçüncü paragraflar birincinin altında görünecek.
-// "ParagraphFormat" nesnesi aracılığıyla ilk paragrafı diğer paragraflar için büyük harf olarak dönüştürebiliriz.
-// Gömmeyi yerleştirmek için "DropCapPosition" özelliğini "DropCapPosition.Margin" olarak ayarlayın
-// metnimiz soldan sağa ise sol taraftaki sayfa kenar boşluğunun dışında.
-// Gömmeyi sayfa kenar boşluklarına yerleştirmek için "DropCapPosition" özelliğini "DropCapPosition.Normal" olarak ayarlayın
-// ve metnin geri kalanını onun etrafına sarmak için.
+// Şimdilik ikinci ve üçüncü paragraflar birinci paragrafın altında görünecek.
+// "ParagraphFormat" nesnesi aracılığıyla ilk paragrafı diğer paragraflar için büyük harfle baş harfe dönüştürebiliriz.
+// "DropCapPosition" özelliğini "DropCapPosition.Margin" olarak ayarlayın ve büyük harf yerleştirmeyi deneyin
+// Metnimiz soldan sağa ise sol sayfa kenar boşluğunun dışında.
+// "DropCapPosition" özelliğini "DropCapPosition.Normal" olarak ayarlayın ve büyük harfin sayfa kenar boşluklarına yerleştirilmesini sağlayın
+// ve metnin geri kalanını bunun etrafına sarmak için.
 // "DropCapPosition.None" tüm paragraflar için varsayılan durumdur.
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 format.DropCapPosition = dropCapPosition;

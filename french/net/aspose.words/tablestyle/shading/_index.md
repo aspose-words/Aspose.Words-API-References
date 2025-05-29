@@ -3,14 +3,14 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words pour .NET
-description: TableStyle Shading propriété. Obtient unShading objet qui fait référence au formatage dombrage des cellules du tableau en C#.
+description: Découvrez la propriété TableStyle Shading pour améliorer les cellules de votre tableau avec une mise en forme d'ombrage personnalisable pour un aspect soigné et professionnel.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Obtient un[`Shading`](../../shading/) objet qui fait référence au formatage d'ombrage des cellules du tableau.
+Obtient un[`Shading`](../../shading/) objet qui fait référence à la mise en forme de l'ombrage des cellules du tableau.
 
 ```csharp
 public Shading Shading { get; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

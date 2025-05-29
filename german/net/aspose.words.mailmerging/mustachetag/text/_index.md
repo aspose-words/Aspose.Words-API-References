@@ -3,7 +3,7 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: MustacheTag Text eigendom. Ruft den Text des Tags ab in C#.
+description: Entdecken Sie die MustacheTag-Texteigenschaft, um Tag-Text mühelos abzurufen und zu verwenden, um die Datenverarbeitung zu verbessern und eine nahtlose Integration zu ermöglichen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mustachetag/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Beispiele
 
-Zeigt, wie mit den Moustache-Tags gearbeitet wird.
+Zeigt, wie mit den Mustache-Tags gearbeitet wird.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

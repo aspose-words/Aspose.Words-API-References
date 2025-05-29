@@ -2,15 +2,15 @@
 title: CustomPartCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: CustomPartCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuzdaki tüm öğeler arasında zahmetsizce yineleme yapmak için CustomPartCollection GetEnumerator yöntemini keşfedin. Veri yönetiminizi bugün kolaylaştırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -18,19 +18,19 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

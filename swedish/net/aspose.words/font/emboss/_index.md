@@ -3,14 +3,14 @@ title: Font.Emboss
 linktitle: Emboss
 articleTitle: Emboss
 second_title: Aspose.Words för .NET
-description: Font Emboss fast egendom. True om teckensnittet är formaterat som relief i C#.
+description: Upptäck funktionen Font Emboss, som förbättrar din text med en snygg präglad effekt för iögonfallande design. Förbättra din typografi idag!
 type: docs
 weight: 100
 url: /sv/net/aspose.words/font/emboss/
 ---
 ## Font.Emboss property
 
-True om teckensnittet är formaterat som relief.
+Sant om teckensnittet är formaterat som präglat.
 
 ```csharp
 public bool Emboss { get; set; }
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Nedan finns två sätt att använda skuggor för att applicera en 3D-liknande effekt på texten.
-// 1 - Gravera text så att det ser ut som om bokstäverna är nedsänkta på sidan:
+// Nedan följer två sätt att använda skuggor för att applicera en 3D-liknande effekt på texten.
+// 1 - Gravera text så att det ser ut som att bokstäverna är nedsänkta i sidan:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Relief text så att det ser ut som om bokstäverna dyker upp från sidan:
+// 2 - Reliefmarkera texten så att det ser ut som att bokstäverna sticker ut från sidan:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

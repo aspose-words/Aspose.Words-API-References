@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 articleTitle: RevisionOptions
 second_title: Aspose.Words per .NET
-description: LayoutOptions RevisionOptions proprietà. Ottiene le opzioni di revisione in C#.
+description: Esplora la proprietà LayoutOptions RevisionOptions per accedere facilmente alle impostazioni di revisione e personalizzarle, per un maggiore controllo e flessibilità dei documenti.
 type: docs
 weight: 70
 url: /it/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -18,7 +18,7 @@ public RevisionOptions RevisionOptions { get; }
 
 ## Esempi
 
-Mostra come modificare l'aspetto delle revisioni in un documento di output sottoposto a rendering.
+Mostra come modificare l'aspetto delle revisioni in un documento di output renderizzato.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,12 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Rimuove la barra che appare a sinistra di ogni riga modificata.
+// Rimuovi la barra che appare a sinistra di ogni riga rivista.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Guarda anche

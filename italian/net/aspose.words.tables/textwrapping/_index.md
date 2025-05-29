@@ -3,9 +3,9 @@ title: TextWrapping Enum
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.TextWrapping enum. Specifica come il testo viene disposto attorno alla tabella in C#.
+description: Scopri l'enum Aspose.Words.Tables.TextWrapping per un efficiente inserimento del testo nelle tabelle. Migliora la formattazione dei tuoi documenti con facilità!
 type: docs
-weight: 6380
+weight: 7230
 url: /it/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -21,12 +21,12 @@ public enum TextWrapping
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Il testo e la tabella vengono visualizzati nell'ordine in cui appaiono nel documento. |
-| Around | `1` | Il testo è disposto attorno alla tabella occupando lo spazio laterale disponibile. |
+| Around | `1` | Il testo viene disposto attorno alla tabella occupando lo spazio laterale disponibile. |
 | Default | `0` | Valore predefinito. |
 
 ## Esempi
 
-Mostra come utilizzare la disposizione del testo della tabella.
+Mostra come lavorare con l'interruzione di testo nelle tabelle.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Imposta la proprietà "TextWrapping" su "TextWrapping.Around" per fare in modo che la tabella avvolga il testo attorno ad essa,
-// e spingilo nel paragrafo seguente impostando la posizione.
+// Imposta la proprietà "TextWrapping" su "TextWrapping.Around" per far sì che la tabella disponga il testo attorno ad essa,
+// e spingerlo nel paragrafo sottostante impostando la posizione.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

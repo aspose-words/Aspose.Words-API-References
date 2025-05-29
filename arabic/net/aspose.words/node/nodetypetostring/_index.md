@@ -3,14 +3,14 @@ title: Node.NodeTypeToString
 linktitle: NodeTypeToString
 articleTitle: NodeTypeToString
 second_title: Aspose.Words لـ .NET
-description: Node NodeTypeToString طريقة. طريقة مساعدة تقوم بتحويل قيمة تعداد نوع العقدة إلى سلسلة سهلة الاستخدام في C#.
+description: اكتشف طريقة Node NodeTypeToString، وقم بتحويل أنواع العقد بسهولة إلى سلاسل سهلة الاستخدام للحصول على ترميز سلس وقابلية قراءة محسنة.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/node/nodetypetostring/
 ---
 ## Node.NodeTypeToString method
 
-طريقة مساعدة تقوم بتحويل قيمة تعداد نوع العقدة إلى سلسلة سهلة الاستخدام.
+طريقة مساعدة تقوم بتحويل قيمة عددية لنوع العقدة إلى سلسلة سهلة الاستخدام.
 
 ```csharp
 public static string NodeTypeToString(NodeType nodeType)
@@ -18,7 +18,7 @@ public static string NodeTypeToString(NodeType nodeType)
 
 ## أمثلة
 
-يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة للتعداد من خلال أبنائها المباشرين.
+يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة لإجراء حصر من خلال أبنائها المباشرين.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -33,22 +33,22 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
+يوضح كيفية التنقل عبر شجرة العقد المركبة من العقد الفرعية.
 
 ```csharp
 public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // أي عقدة يمكن أن تحتوي على عقد فرعية، مثل المستند نفسه، تكون مركبة.
+    // أي عقدة يمكنها أن تحتوي على عقد فرعية، مثل المستند نفسه، هي عقدة مركبة.
     Assert.True(doc.IsComposite);
 
-    // استدعاء الوظيفة العودية التي ستمر عبر جميع العقد الفرعية للعقدة المركبة وتطبعها.
+    // استدعاء الدالة التكرارية التي ستقوم بالمرور وطباعة جميع العقد الفرعية للعقدة المركبة.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// يجتاز شجرة العقدة بشكل متكرر أثناء طباعة نوع كل عقدة
+/// يتنقل بشكل متكرر عبر شجرة العقد أثناء طباعة نوع كل عقدة
 /// مع مسافة بادئة تعتمد على العمق بالإضافة إلى محتويات جميع العقد المضمنة.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -57,7 +57,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // العودة إلى العقدة إذا كانت عقدة مركبة. بخلاف ذلك، قم بطباعة محتوياتها إذا كانت عقدة مضمنة.
+        // كرر العملية في العقدة إذا كانت عقدة مركبة. وإلا، فاطبع محتوياتها إذا كانت عقدة مضمنة.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

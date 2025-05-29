@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertStyleSeparator
 linktitle: InsertStyleSeparator
 articleTitle: InsertStyleSeparator
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertStyleSeparator metodo. Inserisce il separatore di stile nel documento in C#.
+description: Migliora i tuoi documenti con il metodo InsertStyleSeparator di DocumentBuilder, aggiungendo senza sforzo separatori di stile per una formattazione e un'organizzazione migliori.
 type: docs
-weight: 450
+weight: 490
 url: /it/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
 
-Inserisce il separatore di stile nel documento.
+Inserisce un separatore di stile nel documento.
 
 ```csharp
 public void InsertStyleSeparator()
@@ -43,7 +43,7 @@ builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
 // La chiamata al metodo InsertStyleSeparator crea un altro paragrafo,
-// che può avere uno stile diverso dal precedente. Non ci sarà alcuna interruzione tra i paragrafi.
+// che può avere uno stile diverso dal precedente. Non ci saranno interruzioni tra i paragrafi.
 // Il testo nel documento di output apparirà come un paragrafo con due stili.
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);

@@ -2,15 +2,15 @@
 title: MailMerge.FieldMergingCallback
 linktitle: FieldMergingCallback
 articleTitle: FieldMergingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge FieldMergingCallback 财产. 在邮件合并过程中当文档中遇到邮件合并字段时发生 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MailMerge FieldMergingCallback 属性，通过有效处理文档字段实现无缝集成，增强您的邮件合并体验。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 ---
 ## MailMerge.FieldMergingCallback property
 
-在邮件合并过程中，当文档中遇到邮件合并字段时发生。
+当文档中遇到邮件合并字段时，在邮件合并期间发生。
 
 ```csharp
 public IFieldMergingCallback FieldMergingCallback { get; set; }
@@ -18,7 +18,7 @@ public IFieldMergingCallback FieldMergingCallback { get; set; }
 
 ## 例子
 
-演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
+展示如何将存储在数据库 BLOB 字段中的图像插入到报告中。
 
 ```csharp
 public void ImageFromBlob()
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 
     /// <summary>
-    /// 当邮件合并在文档中遇到名称中包含“Image:”标记的 MERGEFIELD 时，将调用此函数。
+    /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用此函数。
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -62,7 +62,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
+展示如何使用自定义回调执行邮件合并，以 HTML 文档的形式处理合并数据。
 
 ```csharp
 public void MergeHtml()
@@ -95,8 +95,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD，
-/// 此回调将其合并数据解析为 HTML 内容，并将结果添加到 MERGEFIELD 的文档位置。
+/// 如果邮件合并遇到名称以“html_”前缀开头的合并字段，
+/// 此回调将其合并数据解析为 HTML 内容并将结果添加到 MERGEFIELD 的文档位置。
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -113,14 +113,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // 由于我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应此事件。
+            // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 }
 ```

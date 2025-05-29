@@ -3,14 +3,14 @@ title: ShadowFormat.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words для .NET
-description: ShadowFormat Visible свойство. Возвращаетистинный если форматирование примененное к этому экземпляру видимо на С#.
+description: Откройте для себя свойство ShadowFormat Visible. Легко проверяйте, видимо ли ваше форматирование, улучшая внешний вид и четкость вашего документа.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.drawing/shadowformat/visible/
 ---
 ## ShadowFormat.Visible property
 
-Возвращает`истинный` если форматирование, примененное к этому экземпляру, видимо.
+Возврат`истинный` если форматирование, примененное к этому экземпляру, видимо.
 
 ```csharp
 public bool Visible { get; }
@@ -18,7 +18,7 @@ public bool Visible { get; }
 
 ## Примечания
 
-В отличие от[`Clear`](../clear/) , назначение`ЛОЖЬ` to Visible не очищает форматирование, он только скрывает эффект формы.
+В отличие от[`Clear`](../clear/) , назначение`ЛОЖЬ`Видимый не очищает форматирование, он только скрывает эффект формы.
 
 ## Примеры
 
@@ -28,10 +28,10 @@ public bool Visible { get; }
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

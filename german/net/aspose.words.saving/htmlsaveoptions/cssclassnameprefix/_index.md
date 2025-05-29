@@ -3,7 +3,7 @@ title: HtmlSaveOptions.CssClassNamePrefix
 linktitle: CssClassNamePrefix
 articleTitle: CssClassNamePrefix
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions CssClassNamePrefix eigendom. Gibt ein Präfix an das allen CSSKlassennamen hinzugefügt wird. Der Standardwert ist eine leere Zeichenfolge und generierte CSSKlassennamen haben kein gemeinsames Präfix in C#.
+description: Entdecken Sie die Eigenschaft „HtmlSaveOptions CssClassNamePrefix“, um CSS-Klassennamen einfach mit einem eindeutigen Präfix anzupassen und so die Konsistenz Ihres Webdesigns zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
@@ -24,13 +24,13 @@ public string CssClassNamePrefix { get; set; }
 
 ## Bemerkungen
 
-Wenn dieser Wert nicht leer ist, beginnen alle von Aspose.Words generierten CSS-Klassen mit dem angegebenen Präfix. . Dies kann beispielsweise nützlich sein, wenn Sie generierten Dokumenten benutzerdefiniertes CSS hinzufügen und Klassenkonflikte mit dem Namen „class “ verhindern möchten.
+Wenn dieser Wert nicht leer ist, beginnen alle von Aspose.Words generierten CSS-Klassen mit dem angegebenen Präfix. . Dies kann beispielsweise nützlich sein, wenn Sie generierten Dokumenten benutzerdefiniertes CSS hinzufügen und Namenskonflikte der Klasse vermeiden möchten.
 
-Wenn der Wert nicht stimmt`Null` oder leer, es muss ein gültiger CSS-Bezeichner sein.
+Wenn der Wert nicht`null` oder leer, es muss ein gültiger CSS-Bezeichner sein.
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument im HTML-Format speichert und allen CSS-Klassennamen ein Präfix hinzufügt.
+Zeigt, wie Sie ein Dokument im HTML-Format speichern und allen CSS-Klassennamen ein Präfix hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -50,8 +50,8 @@ Assert.True(outDocContents.Contains("<p class=\"myprefix-Footer\">"));
 
 outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.css");
 
-Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n" +
-                                    ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n"));
+Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"));
+Assert.True(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"));
 ```
 
 ### Siehe auch

@@ -3,14 +3,14 @@ title: IResourceLoadingCallback Interface
 linktitle: IResourceLoadingCallback
 articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بتحميل الموارد الخارجية عند استيراد مستند وإدراج الصور باستخدامDocumentBuilder  في C#.
+description: تحكّم في تحميل الموارد الخارجية في Aspose.Words باستخدام واجهة IResourceLoadingCallback. حسّن استيراد المستندات وإدراج الصور بسلاسة.
 type: docs
-weight: 3640
+weight: 4090
 url: /ar/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بتحميل الموارد الخارجية عند استيراد مستند وإدراج الصور باستخدام[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تحميل Aspose.Words للموارد الخارجية عند استيراد مستند وإدراج صور باستخدام[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -20,7 +20,7 @@ public interface IResourceLoadingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتحميل أي مورد خارجي. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | يتم استدعاؤها عندما يقوم Aspose.Words بتحميل أي مورد خارجي. |
 
 ## أمثلة
 
@@ -34,8 +34,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادة ما يتم إدراج الصور باستخدام URI، أو مصفوفة بايت.
-    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة برد الاتصال الخاص بنا.
+    // عادةً ما يتم إدراج الصور باستخدام URI أو مجموعة بايتات.
+    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة بإرجاعنا.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -46,15 +46,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// يسمح لنا بتحميل الصور في مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
-/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية إنشاء المستند.
+/// يسمح لنا بتحميل الصور إلى مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
+/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية بناء المستند.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // إذا واجه رد الاتصال هذا أحد اختصارات الصورة أثناء تحميل الصورة،
-        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من معاملته كعنوان URI.
+        // إذا واجهت هذه الاستدعاءات أحد اختصارات الصورة أثناء تحميل صورة،
+        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من التعامل معه باعتباره URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

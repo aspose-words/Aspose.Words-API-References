@@ -3,22 +3,26 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words для .NET
-description: ChartLegend Position свойство. Указывает положение легенды на диаграмме. Значение по умолчаниюRight  на С#.
+description: Откройте для себя свойство ChartLegend Position, которое позволит легко настроить размещение легенды вашей диаграммы для большей ясности и визуальной привлекательности.
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Указывает положение легенды на диаграмме. Значение по умолчанию:Right .
+Указывает положение легенды на диаграмме.
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
 
+## Примечания
+
+Значение по умолчанию:Right для диаграмм до Word 2016 года and Top для диаграмм Word 2016.
+
 ## Примеры
 
-Показывает, как изменить внешний вид легенды диаграммы.
+Показывает, как редактировать внешний вид легенды диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +36,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Перемещаем легенду диаграммы в правый верхний угол.
+// Переместить легенду диаграммы в верхний правый угол.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Дайте другим элементам диаграммы, таким как графику, больше места, разрешив им перекрывать легенду.
+// Дайте другим элементам диаграммы, таким как график, больше места, разрешив им перекрывать легенду.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

@@ -3,7 +3,7 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words pour .NET
-description: Row Cells propriété. Fournit un accès typé auCell nœuds enfants de la ligne en C#.
+description: Accédez aux cellules de ligne sans effort avec des contrôles typés pour une gestion transparente des nœuds enfants, améliorant ainsi votre expérience de manipulation des données.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/row/cells/
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // Nous pouvons utiliser la méthode « ToArray » sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // Nous pouvons utiliser la méthode « ToArray » sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

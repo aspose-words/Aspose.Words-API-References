@@ -3,9 +3,9 @@ title: RevisionsView Enum
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.RevisionsView énumération. Permet de spécifier sil faut travailler avec la version originale ou révisée dun document en C#.
+description: Découvrez l'énumération Aspose.Words.RevisionsView pour choisir facilement entre les versions originales et révisées du document pour une édition et une collaboration simplifiées.
 type: docs
-weight: 4810
+weight: 5550
 url: /fr/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
@@ -36,7 +36,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Affiche l'objet document comme si toutes les révisions étaient acceptées. Prend actuellement en charge les étiquettes de liste.
+// Afficher l'objet document comme si toutes les révisions étaient acceptées. Prend actuellement en charge les étiquettes de liste.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

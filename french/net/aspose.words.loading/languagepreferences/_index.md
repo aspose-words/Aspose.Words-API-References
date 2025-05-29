@@ -3,16 +3,16 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Loading.LanguagePreferences classe. Permet de configurer les préférences de langue en C#.
+description: Découvrez la classe Aspose.Words.LanguagePreferences pour personnaliser et gérer sans effort les paramètres de langue pour un traitement amélioré des documents.
 type: docs
-weight: 3650
+weight: 4100
 url: /fr/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Permet de configurer les préférences de langue.
 
-Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article documentaire.
+Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article de documentation.
 
 ```csharp
 public class LanguagePreferences
@@ -43,7 +43,7 @@ Implémente la boîte de dialogue « Définir les préférences linguistiques d'
 
 ## Exemples
 
-Montre comment appliquer les préférences de langue lors du chargement d'un document.
+Montre comment appliquer les préférences linguistiques lors du chargement d'un document.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

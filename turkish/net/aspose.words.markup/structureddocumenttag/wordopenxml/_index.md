@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag WordOpenXML mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTag WordOpenXML özelliğini keşfedin. Sorunsuz belge entegrasyonu ve gelişmiş işlevsellik için FlatOpc biçimindeki XML verilerine erişin.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.markup/structureddocumenttag/wordopenxml/
 ---
 ## StructuredDocumentTag.WordOpenXML property
 
-Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc format.
+Düğümün içinde bulunan XML'i temsil eden bir dize alırFlatOpc biçim.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -18,7 +18,7 @@ public string WordOpenXML { get; }
 
 ## Örnekler
 
-Düğümde bulunan XML'in FlatOpc biçiminde nasıl alınacağını gösterir.
+FlatOpc formatında düğüm içerisinde bulunan XML'in nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

@@ -2,15 +2,15 @@
 title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Border ThemeColor 财产. 获取或设置与此 Border 对象关联的已应用配色方案中的主题颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 Border ThemeColor 属性自定义您的配色方案并使用充满活力的定制主题增强您的设计。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/border/themecolor/
 ---
 ## Border.ThemeColor property
 
-获取或设置与此 Border 对象关联的已应用配色方案中的主题颜色。
+获取或设置与此 Border 对象关联的应用配色方案中的主题颜色。
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ThemeColor { get; set; }
 
 ## 例子
 
-演示如何插入带有上边框的段落。
+演示如何插入带有顶部边框的段落。
 
 ```csharp
 Document doc = new Document();

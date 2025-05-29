@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words für .NET
-description: Paragraph IsEndOfSection eigendom. True wenn dieser Absatz der letzte Absatz im istBody Haupttextgeschichte von aSection  sonst falsch in C#.
+description: Entdecken Sie die Paragraph IsEndOfSection-Eigenschaft und ermitteln Sie, ob ein Absatz der letzte im Haupttext eines Abschnitts ist, um die Dokumentstruktur und -übersichtlichkeit zu verbessern.
 type: docs
 weight: 80
 url: /de/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-True, wenn dieser Absatz der letzte Absatz im ist[`Body`](../../body/) (Haupttextgeschichte) von a[`Section`](../../section/) ; sonst falsch.
+Wahr, wenn dieser Absatz der letzte Absatz in der[`Body`](../../body/) (Haupttextgeschichte) eines[`Section`](../../section/) ; andernfalls false.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -56,8 +56,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Alle Knoten auf Blockebene im Hauptteil des Abschnitts durchlaufen,
-        // dann jeden Knoten klonen und einfügen, der nicht der letzte leere Absatz eines Abschnitts ist.
+        // Durchlaufe alle Knoten auf Blockebene im Hauptteil des Abschnitts,
+        // dann klonen und fügen Sie jeden Knoten ein, der nicht der letzte leere Absatz eines Abschnitts ist.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

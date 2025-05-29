@@ -3,14 +3,14 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words för .NET
-description: ShapeBase ScreenTip fast egendom. Definierar texten som visas när muspekaren rör sig över formen i C#.
+description: Upptäck ShapeBase ScreenTip-egenskapen och förbättra användarupplevelsen genom att anpassa verktygstipstexten som visas när muspekaren förs över former.
 type: docs
-weight: 480
+weight: 510
 url: /sv/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
 
-Definierar texten som visas när muspekaren rör sig över formen.
+Definierar texten som visas när muspekaren flyttas över formen.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är en tom sträng.
 
 ## Exempel
 
-Visar hur man infogar en form som innehåller en bild och är också en hyperlänk.
+Visar hur man infogar en form som innehåller en bild och som också är en hyperlänk.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + vänsterklicka på formen i Microsoft Word öppnar ett nytt webbläsarfönster
-// och ta oss till hyperlänken i egenskapen "HRef".
+// och tar oss till hyperlänken i egenskapen "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

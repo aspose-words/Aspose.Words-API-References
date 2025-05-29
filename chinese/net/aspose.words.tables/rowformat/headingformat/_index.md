@@ -2,15 +2,15 @@
 title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: RowFormat HeadingFormat 财产. 如果当表格跨越一页以上时该行作为表格标题在每一页上重复则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 RowFormat HeadingFormat 属性，确保表格标题在每一页上重复，以提高多页文档的清晰度和可读性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-如果当表格跨越一页以上时，该行作为表格标题在每一页上重复，则为 True。
+如果当表格跨越多页时，该行在每一页上重复作为表格标题，则为真。
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -18,7 +18,7 @@ public bool HeadingFormat { get; set; }
 
 ## 例子
 
-演示如何构建一个表，其中的行在每页上重复。
+展示如何构建一个每页都有重复行的表格。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // 当“HeadingFormat”标志设置为“true”时插入的任何行
-// 将显示在其跨越的每个页面的表格顶部。
+// 将显示在表格跨越的每一页的顶部。
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -42,7 +42,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// 添加足够的行以使表格跨越两页。
+// 为表格添加足够的行以跨越两页。
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

@@ -3,7 +3,7 @@ title: FormField.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: FormField Name proprietà. Ottiene o imposta il nome del campo del modulo in C#.
+description: Scopri come gestire facilmente la proprietà Nome del FormField per personalizzare e ottimizzare i tuoi moduli, migliorando il coinvolgimento degli utenti e la raccolta dei dati.
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/formfield/name/
@@ -37,7 +37,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Il campo del modulo apparirà sotto forma di tag html "seleziona".
+// Il campo del modulo apparirà sotto forma di tag HTML "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

@@ -3,14 +3,14 @@ title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.ProtectionType opsomming. Schutztyp für ein Dokument in C#.
+description: Entdecken Sie Aspose.Words.ProtectionType Enumeration für robuste Dokumentensicherheit. Verbessern Sie Ihre Dokumente noch heute mit anpassbaren Schutzoptionen!
 type: docs
-weight: 4510
+weight: 5240
 url: /de/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
 
-Schutztyp für ein Dokument.
+Schutzart für ein Dokument.
 
 ```csharp
 public enum ProtectionType
@@ -21,7 +21,7 @@ public enum ProtectionType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | AllowOnlyComments | `1` | Der Benutzer kann nur Kommentare im Dokument ändern. |
-| AllowOnlyFormFields | `2` | Der Benutzer kann nur Daten in die Formularfelder im Dokument eingeben. |
+| AllowOnlyFormFields | `2` | Der Benutzer kann Daten nur in die Formularfelder des Dokuments eingeben. |
 | AllowOnlyRevisions | `0` | Der Benutzer kann dem Dokument nur Revisionsmarkierungen hinzufügen. |
 | ReadOnly | `3` | Es sind keine Änderungen am Dokument zulässig. Verfügbar seit Microsoft Word 2003. |
 | NoProtection | `-1` | Das Dokument ist nicht geschützt. |

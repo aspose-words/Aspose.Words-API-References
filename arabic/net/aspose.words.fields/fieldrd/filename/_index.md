@@ -3,14 +3,14 @@ title: FieldRD.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words لـ .NET
-description: FieldRD FileName ملكية. الحصول على أو تعيين اسم الملف الذي سيتم تضمينه عند إنشاء جدول محتويات أو جدول المراجع أو الفهرس في C#.
+description: اكتشف كيف تقوم خاصية FileName الخاصة بـ FieldRD بتبسيط إدارة الملفات من خلال تعيين أسماء بسهولة لإنشاء جدول المحتويات والفهرس الخاص بك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldrd/filename/
 ---
 ## FieldRD.FileName property
 
-الحصول على أو تعيين اسم الملف الذي سيتم تضمينه عند إنشاء جدول محتويات، أو جدول المراجع، أو الفهرس.
+يحصل على اسم الملف الذي سيتم تضمينه عند إنشاء جدول المحتويات أو جدول السلطات أو الفهرس أو تعيينه.
 
 ```csharp
 public string FileName { get; set; }
@@ -18,7 +18,7 @@ public string FileName { get; set; }
 
 ## أمثلة
 
-يظهر كيفية استخدام حقل RD لإنشاء جدول محتويات الإدخالات من العناوين في المستندات الأخرى.
+يوضح كيفية استخدام حقل RD لإنشاء إدخالات جدول المحتويات من العناوين الموجودة في مستندات أخرى.
 
 ```csharp
 Document doc = new Document();
@@ -31,15 +31,15 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// أدخل حقل RD، الذي يشير إلى مستند نظام ملفات محلي آخر في خاصية FileName الخاصة به.
-// سيقبل جدول المحتويات الآن أيضًا جميع العناوين من المستند المشار إليه كمدخلات لجدوله.
+// قم بإدراج حقل RD، والذي يشير إلى مستند نظام ملفات محلي آخر في خاصية FileName الخاصة به.
+// سوف يقبل جدول المحتويات الآن أيضًا جميع العناوين من المستند المشار إليه كإدخالات لجدوله.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
- // أنشئ المستند الذي يشير إليه حقل RD وأدخل عنوانًا.
-// سيظهر هذا العنوان كإدخال في حقل جدول المحتويات (TOC) في وثيقتنا الأولى.
+ // قم بإنشاء المستند الذي يشير إليه حقل RD وأدرج عنوانًا.
+// سيظهر هذا العنوان كمدخل في حقل جدول المحتويات في مستندنا الأول.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

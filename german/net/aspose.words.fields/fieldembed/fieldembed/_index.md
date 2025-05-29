@@ -3,7 +3,7 @@ title: FieldEmbed
 linktitle: FieldEmbed
 articleTitle: FieldEmbed
 second_title: Aspose.Words für .NET
-description: FieldEmbed constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldEmbed-Konstruktor, Ihre Lösung für nahtlose Integration. Optimieren Sie Ihre Projekte mit unseren leistungsstarken Standard-Konstruktorfunktionen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldembed/fieldembed/

@@ -3,9 +3,9 @@ title: CellFormat.VerticalMerge
 linktitle: VerticalMerge
 articleTitle: VerticalMerge
 second_title: Aspose.Words för .NET
-description: CellFormat VerticalMerge fast egendom. Anger hur cellen sammanfogas med andra celler vertikalt i C#.
+description: Upptäck CellFormat VerticalMerge-egenskapen för sömlös vertikal cellsammanfogning i kalkylblad. Förbättra dataorganisation och presentation utan ansträngning!
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -18,13 +18,13 @@ public CellMerge VerticalMerge { get; set; }
 
 ## Anmärkningar
 
-Celler kan bara slås samman vertikalt om deras vänstra och högra gränser är identiska.
+Celler kan bara sammanfogas vertikalt om deras vänstra och högra gränser är identiska.
 
-När celler sammanfogas vertikalt, konsolideras visningsområdena för de sammanslagna cellerna. Det konsoliderade området används för att visa innehållet i den första vertikalt sammanslagna cellen och alla andra vertikalt sammanslagna celler måste vara tomma.
+När celler sammanfogas vertikalt konsolideras visningsområdena för de sammanfogade cellerna. Det konsoliderade området används för att visa innehållet i den första vertikalt sammanfogade cellen och alla andra vertikalt sammanfogade celler måste vara tomma.
 
 ## Exempel
 
-Skriver ut den horisontella och vertikala sammanslagningstypen för en cell.
+Skriver ut den horisontella och vertikala sammanfogningstypen för en cell.
 
 ```csharp
 public void CheckCellsMerged()
@@ -32,8 +32,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 
@@ -53,31 +53,31 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Visar hur man slår samman tabellceller vertikalt.
+Visar hur man sammanfogar tabellceller vertikalt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en cell i den första kolumnen på den första raden.
-// Den här cellen kommer att vara den första i en rad vertikalt sammanslagna celler.
+// Den här cellen blir den första i ett intervall av vertikalt sammanfogade celler.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Infoga en cell i den andra kolumnen på den första raden, avsluta sedan raden.
-// Konfigurera också byggaren för att inaktivera vertikal sammanslagning i skapade celler.
+// Infoga en cell i den andra kolumnen på den första raden och avsluta sedan raden.
+// Konfigurera även byggaren för att inaktivera vertikal sammanslagning i skapade celler.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
  // Infoga en cell i den första kolumnen på den andra raden.
-// Istället för att lägga till textinnehåll kommer vi att slå samman denna cell med den första cellen som vi lade till direkt ovanför.
+// Istället för att lägga till textinnehåll kommer vi att sammanfoga den här cellen med den första cellen som vi lade till direkt ovanför.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Infoga en annan oberoende cell i den andra kolumnen på den andra raden.
+// Infoga ytterligare en oberoende cell i den andra kolumnen på den andra raden.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

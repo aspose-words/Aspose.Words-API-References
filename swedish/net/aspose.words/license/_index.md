@@ -3,9 +3,9 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words för .NET
-description: Aspose.Words.License klass. Tillhandahåller metoder för att licensiera komponenten i C#.
+description: Frigör Aspose.Words fulla potential med vår licensklass. Hantera enkelt licensiering för sömlös dokumenthantering och förbättrad funktionalitet.
 type: docs
-weight: 3420
+weight: 3870
 url: /sv/net/aspose.words/license/
 ---
 ## License class
@@ -36,19 +36,19 @@ public class License
 Visar hur man initierar en licens för Aspose.Words med hjälp av en licensfil i det lokala filsystemet.
 
 ```csharp
-// Ställ in licensen för vår Aspose.Words-produkt genom att skicka det lokala filsystemets filnamn för en giltig licensfil.
+// Ställ in licensen för vår Aspose.Words-produkt genom att skicka det lokala filsystemsfilnamnet för en giltig licensfil.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Skapa en kopia av vår licensfil i mappen binärer i vår applikation.
+// Skapa en kopia av vår licensfil i binärmappen i vår applikation.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Om vi skickar ett filnamn utan en sökväg,
-// SetLicense kommer att söka på flera lokala filsystemplatser för denna fil.
-// En av dessa platser kommer att vara mappen "bin", som innehåller en kopia av vår licensfil.
+// Om vi skickar ett filnamn utan sökväg,
+// SetLicense kommer att söka efter den här filen i flera lokala filsystem.
+// En av dessa platser kommer att vara "bin"-mappen, som innehåller en kopia av vår licensfil.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

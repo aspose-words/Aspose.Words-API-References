@@ -3,14 +3,14 @@ title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: PlainTextDocument Text ملكية. الحصول على المحتوى النصي للمستند متسلسل كسلسلة في C#.
+description: يمكنك الوصول إلى خاصية النص في PlainTextDocument لاسترداد محتوى المستند كسلسلة واحدة، مما يعزز معالجة البيانات وتحليلها.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-الحصول على المحتوى النصي للمستند متسلسل كسلسلة.
+يحصل على محتوى نصي للمستند مُدمجًا كسلسلة.
 
 ```csharp
 public string Text { get; }
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي.
 
 ```csharp
 Document doc = new Document(); 

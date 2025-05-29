@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words per .NET
-description: GraphicsQualityOptions UseTileFlipMode proprietà. Ottiene o imposta un flag che indica se WrapMode è TileFlipXY in C#.
+description: Scopri la proprietà UseTileFlipMode di GraphicsQualityOptions per controllare le impostazioni WrapMode e ottenere una qualità visiva migliorata nelle tue applicazioni.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -18,15 +18,15 @@ public bool UseTileFlipMode { get; set; }
 
 ## Osservazioni
 
-ILWrapMode specifica come viene affiancata una texture o un gradiente quando è più piccolo dell'area da riempire.
+ILWrapMode specifica come viene piastrellata una texture o un gradiente quando è più piccolo dell'area da riempire.
 
-Per impostazione predefinita utilizzaTile (specifica l'affiancamento senza capovolgimento). Ciò causa un rendering impreciso dell'immagine in scala (ad alta risoluzione).
+Per impostazione predefinita utilizzaTile (specifica l'affiancamento senza capovolgimento). Ciò causa un rendering impreciso dell'immagine ridimensionata (ad alta risoluzione).
 
-Questa proprietà consente di passare a WrapModeTileFlipXY (specifica che le tessere vengono girate orizzontalmente mentre ti muovi lungo una riga e girate verticalmente mentre ti muovi lungo una colonna).
+Questa proprietà consente di cambiare WrapMode inTileFlipXY (specifica che le tessere vengono capovolte orizzontalmente quando ci si sposta lungo una riga e capovolte verticalmente quando ci si sposta lungo una colonna).
 
 ## Esempi
 
-Mostra come evitare che appaia la linea bianca durante il rendering ad alta risoluzione.
+Mostra come evitare che venga visualizzata la linea bianca durante il rendering ad alta risoluzione.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

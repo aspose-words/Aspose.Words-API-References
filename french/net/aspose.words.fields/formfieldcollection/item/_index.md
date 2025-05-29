@@ -3,7 +3,7 @@ title: FormFieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: FormFieldCollection Item propriété. Renvoie un champ de formulaire à lindex spécifié en C#.
+description: Accédez facilement à des champs de formulaire spécifiques grâce à la propriété d'élément FormFieldCollection. Simplifiez la gestion de vos données et optimisez la gestion de vos formulaires.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/formfieldcollection/item/
@@ -18,17 +18,17 @@ public FormField this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Un index dans la collection. |
+| index | Un index de la collection. |
 
 ## Remarques
 
-L'indice est de base zéro.
+L'indice est basé sur zéro.
 
-Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
+Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la collection. Par exemple, -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
-Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
 ## Exemples
 
@@ -79,15 +79,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -180,11 +180,11 @@ public FormField this[string bookmarkName] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| bookmarkName | Nom du signet qui ne respecte pas la casse. |
+| bookmarkName | Nom du signet insensible à la casse. |
 
 ## Remarques
 
-Retours`nul` si le champ de formulaire avec le nom du signet spécifié est introuvable.
+Retours`nul` si le champ de formulaire avec le nom de signet spécifié est introuvable.
 
 ## Exemples
 
@@ -235,15 +235,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

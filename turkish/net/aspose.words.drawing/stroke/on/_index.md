@@ -2,15 +2,15 @@
 title: Stroke.On
 linktitle: On
 articleTitle: On
-second_title: Aspose.Words for .NET
-description: Stroke On mülk. Yolun vuruşlu olup olmayacağını tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Stroke On özelliğiyle yol stilini kontrol edin. Cilalı, profesyonel bir görünüm için yolların nasıl çizileceğini tanımlayarak tasarımlarınızı geliştirin.
 type: docs
-weight: 140
+weight: 190
 url: /tr/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
 
-Yolun vuruşlu olup olmayacağını tanımlar.
+Yolun çizilip çizilmeyeceğini tanımlar.
 
 ```csharp
 public bool On { get; set; }
@@ -18,11 +18,11 @@ public bool On { get; set; }
 
 ## Notlar
 
-Bir için varsayılan değer[`Shape`](../../shape/) dır-dir`doğru`.
+Bir için varsayılan değer[`Shape`](../../shape/) dır`doğru`.
 
 ## Örnekler
 
-Kontur özelliklerinin nasıl değiştirildiğini gösterir.
+Vuruş özelliklerinin nasıl değiştiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
-// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
+// 1 - Şeklin dış hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını işaretleyen kontur:
+// 2 - Şeklin ana hatlarını belirleyen çizgi:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

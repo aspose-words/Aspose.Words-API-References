@@ -3,7 +3,7 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words pour .NET
-description: TabStopCollection RemoveByIndex méthode. Supprime un taquet de tabulation à lindex spécifié de la collection en C#.
+description: Gérez facilement vos taquets de tabulation grâce à la méthode RemoveByIndex. Supprimez rapidement tout taquet de tabulation de votre collection pour un design épuré.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,7 +18,7 @@ public void RemoveByIndex(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Un index dans la collection de taquets de tabulation. |
+| index | Int32 | Un index dans la collection des taquets de tabulation. |
 
 ## Exemples
 
@@ -33,7 +33,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
-// Supprime le premier taquet de tabulation.
+// Supprimez le premier taquet de tabulation.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

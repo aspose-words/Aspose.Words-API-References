@@ -2,15 +2,15 @@
 title: FieldDatabaseDataRow
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
-second_title: Aspose.Words for .NET
-description: FieldDatabaseDataRow inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataRow class C#'da.
+second_title: .NET için Aspose.Words
+description: FieldDatabaseDataRow oluşturucusunu keşfedin, verimli veri yönetimi ve gelişmiş performans için bu güçlü sınıfın yeni örneklerini sorunsuz bir şekilde başlatın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow constructor
 
-Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](../) class.
+Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](../) sınıf.
 
 ```csharp
 public FieldDatabaseDataRow(params string[] values)

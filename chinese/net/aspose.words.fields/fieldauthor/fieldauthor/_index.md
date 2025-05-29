@@ -2,8 +2,8 @@
 title: FieldAuthor
 linktitle: FieldAuthor
 articleTitle: FieldAuthor
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAuthor 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldAuthor 构造函数——您无缝创建和自定义内容的首选工具。立即解锁全新可能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldauthor/fieldauthor/

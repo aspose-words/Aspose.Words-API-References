@@ -3,7 +3,7 @@ title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
 second_title: Aspose.Words pour .NET
-description: Range Revisions propriété. Obtient une collection de révisions modifications suivies qui existent dans cette plage en C#.
+description: Découvrez les révisions de gamme. Suivez et gérez facilement les modifications apportées à votre propriété grâce à notre collection complète de révisions pour une meilleure clarté du projet.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/range/revisions/
@@ -18,7 +18,7 @@ public RevisionCollection Revisions { get; }
 
 ## Remarques
 
-La collection renvoyée est une collection « live », ce qui signifie que si vous supprimez des parties d'un document contenant des révisions , les révisions supprimées disparaîtront automatiquement de cette collection.
+La collection renvoyée est une collection « live », ce qui signifie que si vous supprimez des parties d'un document contenant révisions, les révisions supprimées disparaîtront automatiquement de cette collection.
 
 ## Exemples
 
@@ -34,7 +34,7 @@ foreach (Revision revision in paragraph.Range.Revisions)
         revision.Accept();
 }
 
-// Rejette les révisions de la première section.
+// Rejeter les révisions de la première section.
 doc.FirstSection.Range.Revisions.RejectAll();
 ```
 

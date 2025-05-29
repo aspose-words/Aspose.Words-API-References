@@ -2,15 +2,15 @@
 title: Document.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
 articleTitle: NormalizeFieldTypes
-second_title: Aspose.Words for .NET
-description: Document NormalizeFieldTypes yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede C#'da.
+second_title: .NET için Aspose.Words
+description: NormalizeFieldTypes yöntemiyle belgenizi optimize edin ve gelişmiş tutarlılık ve doğruluk için tüm alan türü değerlerinin alan kodlarıyla hizalanmasını sağlayın.
 type: docs
-weight: 630
+weight: 670
 url: /tr/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) ile ilgili[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede.
+Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) ile ilgili[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) tüm belgede, alan kodlarında bulunan alan türlerine karşılık gelecek şekilde.
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -24,7 +24,7 @@ Belgenin belirli bir bölümündeki alan türü değerlerini değiştirmek için
 
 ## Örnekler
 
-Bir alanın türünün alan koduyla nasıl güncel tutulacağını gösterir.
+Bir alanın türünün alan koduyla güncel tutulmasının nasıl sağlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
 fieldText.Text = "PAGE";
 
-// Alan kodunun değiştirilmesi bu alanı farklı türde bir alanla değiştirdi,
+// Alan kodunun değiştirilmesi bu alanı farklı bir türe dönüştürdü,
 // ancak alanın tür özellikleri hala eski türü gösteriyor.
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);
@@ -47,12 +47,12 @@ Assert.AreEqual(FieldType.FieldDate, field.Start.FieldType);
 Assert.AreEqual(FieldType.FieldDate, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldDate, field.End.FieldType);
 
-// Geçerli değeri görüntülemek için bu özellikleri bu yöntemle güncelleyin.
+// Bu metodu kullanarak o özellikleri güncelleyip geçerli değeri görüntüleyebilirsiniz.
 doc.NormalizeFieldTypes();
 
 Assert.AreEqual(FieldType.FieldPage, field.Type);
 Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType); 
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ```
 

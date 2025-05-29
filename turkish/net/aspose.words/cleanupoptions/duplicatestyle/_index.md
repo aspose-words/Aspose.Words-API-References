@@ -2,15 +2,15 @@
 title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
-second_title: Aspose.Words for .NET
-description: CleanupOptions DuplicateStyle mülk. Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi CleanupOptions DuplicateStyle özelliğiyle optimize edin; daha temiz, daha verimli biçimlendirme için yinelenen stilleri kolayca kaldırın. Varsayılan değer false'tur.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değer:`YANLIŞ` .
+Belgeden yinelenen stillerin kaldırılıp kaldırılmayacağını belirten bir bayrak alır/ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -18,13 +18,13 @@ public bool DuplicateStyle { get; set; }
 
 ## Örnekler
 
-Yinelenen stillerin belgeden nasıl kaldırılacağını gösterir.
+Belgeden yinelenen stillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Belgeye aynı özelliklere sahip iki stil ekleyin,
-// ama farklı isimler. İkinci stil, birincinin kopyası olarak kabul edilir.
+// Belgeye aynı özelliklere sahip iki stil ekle,
+// ama farklı isimler. İkinci stil birincinin bir kopyası olarak kabul edilir.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -51,7 +51,7 @@ Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
 // Bir CleanOptions nesnesi yapılandırın, ardından tüm yinelenen stilleri değiştirmek için Cleanup yöntemini çağırın
-// orijinali kullanın ve kopyaları belgeden kaldırın.
+// orijinaliyle değiştir ve kopyaları belgeden kaldır.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

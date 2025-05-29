@@ -2,8 +2,8 @@
 title: FieldToa
 linktitle: FieldToa
 articleTitle: FieldToa
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldToa 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldToa 的默认构造函数，它旨在为您的项目提供无缝集成和最佳性能。立即提升您的编码效率！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldtoa/fieldtoa/

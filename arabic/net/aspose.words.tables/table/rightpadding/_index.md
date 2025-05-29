@@ -3,14 +3,14 @@ title: Table.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words لـ .NET
-description: Table RightPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات الخلايا في C#.
+description: اكتشف خاصية Table RightPadding لتخصيص تباعد الخلايا. اضبط الهامش الأيمن بسهولة لتحسين التخطيط وسهولة القراءة في تصاميمك.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.tables/table/rightpadding/
 ---
 ## Table.RightPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات الخلايا.
+يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يمين محتويات الخلايا أو يعينها.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -18,7 +18,7 @@ public double RightPadding { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين حشوة المحتوى في الجدول.
+يوضح كيفية تكوين تعبئة المحتوى في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
  // لكل خلية في الجدول، قم بتعيين المسافة بين محتوياتها وكل حدودها.
-// سيحافظ هذا الجدول على الحد الأدنى من مسافة الحشو عن طريق التفاف النص.
+// سيحافظ هذا الجدول على الحد الأدنى لمسافة الحشو عن طريق لف النص.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

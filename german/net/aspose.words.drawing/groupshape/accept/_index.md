@@ -3,14 +3,14 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: GroupShape Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die GroupShape Accept-Methode, um Besucher nahtlos einzubinden und das Nutzererlebnis auf Ihrer Website zu verbessern. Steigern Sie noch heute die Interaktion!
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,23 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
-Anrufe[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Formen dieser Gruppenform und Aufrufe[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) am Ende.
+Anrufe[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle Kindformen dieser Gruppenform und ruft[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) am Ende.
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -74,7 +74,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

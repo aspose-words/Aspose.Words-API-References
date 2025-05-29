@@ -3,14 +3,14 @@ title: FieldNextIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words für .NET
-description: FieldNextIf RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldNextIf RightExpression“, um die rechte Seite Ihrer Vergleichsausdrücke für eine verbesserte Datenverarbeitung einfach zu verwalten und anzupassen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldnextif/rightexpression/
 ---
 ## FieldNextIf.RightExpression property
 
-Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+Ruft den rechten Teil des Vergleichsausdrucks ab oder legt ihn fest.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,7 +18,7 @@ public string RightExpression { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie NEXT/NEXTIF-Felder verwenden, um während eines Seriendrucks mehrere Zeilen auf einer Seite zusammenzuführen.
+Zeigt, wie Sie NEXT/NEXTIF-Felder verwenden, um während eines Seriendrucks mehrere Zeilen zu einer Seite zusammenzuführen.
 
 ```csharp
 public void FieldNext()
@@ -27,7 +27,7 @@ public void FieldNext()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Erstellen Sie eine Datenquelle für unseren Serienbrief mit 3 Zeilen.
-    // Ein Serienbrief, der diese Tabelle verwendet, würde normalerweise ein dreiseitiges Dokument erstellen.
+    // Ein Serienbrief, der diese Tabelle verwendet, würde normalerweise ein 3-seitiges Dokument erstellen.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -38,21 +38,21 @@ public void FieldNext()
 
     InsertMergeFields(builder, "First row: ");
 
-    // Wenn wir mehrere Zusammenführungsfelder mit demselben FieldName haben,
+    // Wenn wir mehrere Seriendruckfelder mit demselben Feldnamen haben,
     // Sie erhalten Daten aus derselben Zeile der Datenquelle und zeigen nach der Zusammenführung denselben Wert an.
-    // Ein NEXT-Feld weist den Seriendruck sofort an, eine Zeile nach unten zu gehen.
-    // was bedeutet, dass alle MERGEFIELDs, die auf das NEXT-Feld folgen, Daten aus der nächsten Zeile empfangen.
-    // Stellen Sie sicher, dass Sie niemals versuchen, zur nächsten Zeile zu springen, während Sie sich bereits in der letzten Zeile befinden.
+    // Ein NEXT-Feld weist den Serienbrief sofort an, eine Zeile nach unten zu gehen,
+    // was bedeutet, dass alle MERGEFIELDs, die auf das NEXT-Feld folgen, Daten aus der nächsten Zeile erhalten.
+    // Achten Sie darauf, niemals zu versuchen, zur nächsten Zeile zu springen, während Sie sich bereits in der letzten Zeile befinden.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Nach der Zusammenführung die Datenquellenwerte, die diese MERGEFIELDs akzeptieren
-     // landet auf derselben Seite wie die oben genannten MERGEFIELDs.
+    // Nach der Zusammenführung werden die Datenquellenwerte, die diese MERGEFIELDs akzeptieren
+        // landet auf derselben Seite wie die MERGEFIELDs oben.
     InsertMergeFields(builder, "Second row: ");
 
     // Ein NEXTIF-Feld hat die gleiche Funktion wie ein NEXT-Feld,
-    // aber es springt nur dann zur nächsten Zeile, wenn eine durch die folgenden 3 Eigenschaften erstellte Aussage wahr ist.
+    // aber es wird nur dann zur nächsten Zeile gesprungen, wenn eine aus den folgenden 3 Eigenschaften erstellte Anweisung wahr ist.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -60,20 +60,20 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Wenn der vom obigen Feld behauptete Vergleich korrekt ist,
-    // Die folgenden 3 Zusammenführungsfelder übernehmen Daten aus der dritten Zeile.
-    // Andernfalls übernehmen diese Felder wieder Daten aus Zeile 2.
+    // Wenn der durch das obige Feld bestätigte Vergleich korrekt ist,
+    // Die folgenden 3 Seriendruckfelder übernehmen Daten aus der dritten Zeile.
+    // Andernfalls übernehmen diese Felder erneut Daten aus Zeile 2.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // Unsere Datenquelle hat 3 Zeilen und wir haben Zeilen zweimal übersprungen.
-    // Unser Ausgabedokument wird 1 Seite mit Daten aus allen 3 Zeilen haben.
+        // Unsere Datenquelle hat 3 Zeilen und wir haben zweimal Zeilen übersprungen.
+    // Unser Ausgabedokument besteht aus 1 Seite mit Daten aus allen 3 Zeilen.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um MERGEFIELDs für eine Datenquelle einzufügen, die Spalten mit den Namen „Courtesy Title“, „First Name“ und „Last Name“ enthält.
+/// Verwendet einen Dokumentgenerator, um MERGEFIELDs für eine Datenquelle einzufügen, die Spalten mit den Namen „Anrede“, „Vorname“ und „Nachname“ enthält.
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -84,7 +84,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um ein MERRGEFIELD mit angegebenen Eigenschaften einzufügen.
+/// Verwendet einen Dokumentgenerator, um ein MERRGEFIELD mit angegebenen Eigenschaften einzufügen.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

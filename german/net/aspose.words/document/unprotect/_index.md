@@ -3,14 +3,14 @@ title: Document.Unprotect
 linktitle: Unprotect
 articleTitle: Unprotect
 second_title: Aspose.Words für .NET
-description: Document Unprotect methode. Entfernt den Schutz vom Dokument unabhängig vom Passwort in C#.
+description: Entsperren Sie Ihre Dokumente mühelos mit unserer Methode zum Aufheben des Dokumentschutzes und entfernen Sie jeglichen Kennwortschutz für einfachen Zugriff und einfache Bearbeitung.
 type: docs
-weight: 740
+weight: 790
 url: /de/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-Entfernt den Schutz vom Dokument unabhängig vom Passwort.
+Entfernt den Schutz des Dokuments, unabhängig vom Kennwort.
 
 ```csharp
 public void Unprotect()
@@ -18,13 +18,13 @@ public void Unprotect()
 
 ## Bemerkungen
 
-Diese Methode hebt den Schutz des Dokuments auf, selbst wenn es über ein Schutzkennwort verfügt.
+Mit dieser Methode wird der Dokumentschutz aufgehoben, auch wenn das Dokument mit einem Kennwort geschützt ist.
 
-Beachten Sie, dass sich der Dokumentschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
+Beachten Sie, dass sich der Dokumentenschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mithilfe des[`WriteProtection`](../writeprotection/).
 
 ## Beispiele
 
-Zeigt, wie ein Dokument geschützt bzw. der Schutz aufgehoben wird.
+Zeigt, wie Sie ein Dokument schützen und den Schutz aufheben.
 
 ```csharp
 Document doc = new Document();
@@ -32,12 +32,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Wenn wir dieses Dokument mit Microsoft Word öffnen und es bearbeiten möchten,
-// Wir müssen das Passwort anwenden, um den Schutz zu überwinden.
+// Wenn wir dieses Dokument mit Microsoft Word öffnen, um es zu bearbeiten,
+// Wir müssen das Passwort anwenden, um den Schutz zu umgehen.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Beachten Sie, dass der Schutz nur für Microsoft Word-Benutzer gilt, die unser Dokument öffnen.
-// Wir haben das Dokument in keiner Weise verschlüsselt und benötigen kein Passwort, um es programmgesteuert zu öffnen und zu bearbeiten.
+// Wir haben das Dokument in keiner Weise verschlüsselt und benötigen das Kennwort nicht, um es programmgesteuert zu öffnen und zu bearbeiten.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
@@ -74,7 +74,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ## Unprotect(*string*) {#unprotect}
 
-Entfernt den Schutz vom Dokument, wenn ein korrektes Passwort angegeben wird.
+Entfernt den Schutz vom Dokument, wenn ein korrektes Kennwort angegeben ist.
 
 ```csharp
 public bool Unprotect(string password)
@@ -82,21 +82,21 @@ public bool Unprotect(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das Passwort, mit dem der Schutz des Dokuments aufgehoben werden soll. |
+| password | String | Das Kennwort, mit dem der Dokumentschutz aufgehoben werden soll. |
 
 ### Rückgabewert
 
-`WAHR` wenn ein korrektes Passwort angegeben wurde und das Dokument ungeschützt war.
+`WAHR`wenn ein korrektes Passwort angegeben wurde und das Dokument ungeschützt war.
 
 ## Bemerkungen
 
-Diese Methode hebt den Schutz des Dokuments nur auf, wenn ein korrektes Passwort angegeben wird.
+Diese Methode hebt den Dokumentschutz nur auf, wenn ein korrektes Kennwort angegeben wird.
 
-Beachten Sie, dass sich der Dokumentschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
+Beachten Sie, dass sich der Dokumentenschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mithilfe des[`WriteProtection`](../writeprotection/).
 
 ## Beispiele
 
-Zeigt, wie ein Dokument geschützt bzw. der Schutz aufgehoben wird.
+Zeigt, wie Sie ein Dokument schützen und den Schutz aufheben.
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +104,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Wenn wir dieses Dokument mit Microsoft Word öffnen und es bearbeiten möchten,
-// Wir müssen das Passwort anwenden, um den Schutz zu überwinden.
+// Wenn wir dieses Dokument mit Microsoft Word öffnen, um es zu bearbeiten,
+// Wir müssen das Passwort anwenden, um den Schutz zu umgehen.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Beachten Sie, dass der Schutz nur für Microsoft Word-Benutzer gilt, die unser Dokument öffnen.
-// Wir haben das Dokument in keiner Weise verschlüsselt und benötigen kein Passwort, um es programmgesteuert zu öffnen und zu bearbeiten.
+// Wir haben das Dokument in keiner Weise verschlüsselt und benötigen das Kennwort nicht, um es programmgesteuert zu öffnen und zu bearbeiten.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

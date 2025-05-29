@@ -3,16 +3,16 @@ title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WarningInfoCollection فصل. يمثل مجموعة مكتوبة منWarningInfo الكائنات في C#.
+description: اكتشف Aspose.Words.WarningInfoCollection، وهي فئة قوية لإدارة كائنات WarningInfo، وتحسين معالجة المستندات والتعامل مع الأخطاء.
 type: docs
-weight: 6640
+weight: 7490
 url: /ar/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-يمثل مجموعة مكتوبة من[`WarningInfo`](../warninginfo/) الكائنات.
+يمثل مجموعة مكتوبة من[`WarningInfo`](../warninginfo/) الأشياء.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -28,20 +28,20 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/warninginfocollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words/warninginfocollection/item/) { get; } | الحصول على عنصر في الفهرس المحدد. |
+| [Count](../../aspose.words/warninginfocollection/count/) { get; } | يحصل على عدد العناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words/warninginfocollection/item/) { get; } | يحصل على عنصر في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clear](../../aspose.words/warninginfocollection/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | ينفذ[`IWarningCallback`](../iwarningcallback/) واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة. |
+| [Clear](../../aspose.words/warninginfocollection/clear/)() | يزيل جميع العناصر من المجموعة. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | ينفذ[`IWarningCallback`](../iwarningcallback/) الواجهة. إضافة تحذير إلى هذه المجموعة. |
 
 ## ملاحظات
 
-يمكنك استخدام كائن المجموعة هذا كأبسط أشكال[`IWarningCallback`](../iwarningcallback/) التنفيذ لتجميع كافة التحذيرات التي ينشئها Aspose.Words أثناء عملية التحميل أو الحفظ. قم بإنشاء مثيل لهذه الفئة وقم بتعيينه إلى ملف[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) أو[`WarningCallback`](../documentbase/warningcallback/) ملكية.
+يمكنك استخدام كائن المجموعة هذا باعتباره أبسط شكل لـ[`IWarningCallback`](../iwarningcallback/) تطبيق لجمع جميع التحذيرات التي يُنشئها Aspose.Words أثناء عملية التحميل أو الحفظ. أنشئ مثيلًا لهذه الفئة وعيّنه إلى [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) أو[`WarningCallback`](../documentbase/warningcallback/) ملكية.
 
 ## أمثلة
 
@@ -53,20 +53,20 @@ public void EnableFontSubstitution()
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // تعيين معاودة الاتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    // ينبغي استخدام مقاييس الخط الأصلية بعد استبدال الخط.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
+    // سوف نحصل على تحذير استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -74,7 +74,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // يمكننا أيضًا التحقق من التحذيرات في المجموعة ومسحها.
+    //يمكننا أيضًا التحقق من التحذيرات الموجودة في المجموعة ومسحها.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -82,13 +82,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
+    /// يتم استدعاؤها في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -2,15 +2,15 @@
 title: ChartLegend.Overlay
 linktitle: Overlay
 articleTitle: Overlay
-second_title: Aspose.Words for .NET
-description: ChartLegend Overlay mülk. Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: Kontrol grafik öğesi, ChartLegend Overlay özelliğiyle örtüşüyor. Daha net içgörüler için özelleştirilebilir efsane ayarlarıyla veri görselleştirmenizi geliştirin.
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` .
+Diğer grafik öğelerinin efsaneyle örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -18,7 +18,7 @@ public bool Overlay { get; set; }
 
 ## Örnekler
 
-Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
+Bir grafiğin açıklamasının görünümünün nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin açıklamasını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşı.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerine, açıklamanın üzerine binmelerine izin vererek daha fazla yer verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

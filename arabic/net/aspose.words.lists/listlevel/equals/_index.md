@@ -3,14 +3,14 @@ title: ListLevel.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: ListLevel Equals طريقة. يقارن مع مستوى القائمة المحدد في C#.
+description: اكتشف طريقة ListLevel Equals لمقارنة ListLevels بشكل فعال، مما يعزز كفاءة الترميز ودقته في إدارة البيانات.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.lists/listlevel/equals/
 ---
 ## ListLevel.Equals method
 
-يقارن مع مستوى القائمة المحدد.
+يقارن مع ListLevel المحدد.
 
 ```csharp
 public bool Equals(ListLevel level)

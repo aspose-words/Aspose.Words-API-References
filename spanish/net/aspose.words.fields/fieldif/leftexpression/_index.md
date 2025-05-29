@@ -3,7 +3,7 @@ title: FieldIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words para .NET
-description: FieldIf LeftExpression propiedad. Obtiene o establece la parte izquierda de la expresión de comparación en C#.
+description: Descubra la propiedad LeftExpression de FieldIf, administre fácilmente el lado izquierdo de su expresión de comparación para un mejor manejo y análisis de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldif/leftexpression/
@@ -18,7 +18,7 @@ public string LeftExpression { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo IF.
+Muestra cómo insertar un campo SI.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// El campo IF mostrará una cadena de su propiedad "TrueText",
+// El campo SI mostrará una cadena de su propiedad "TrueText",
 // o su propiedad "FalseText", dependiendo de la verdad de la declaración que hemos construido.
 field.TrueText = "True";
 field.FalseText = "False";
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Esta vez la declaración es correcta, por lo que el resultado mostrado será "Verdadero".
+// Esta vez la afirmación es correcta, por lo que el resultado mostrado será "Verdadero".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

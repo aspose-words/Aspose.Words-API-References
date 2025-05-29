@@ -3,22 +3,24 @@ title: RevisionOptions.InsertedTextEffect
 linktitle: InsertedTextEffect
 articleTitle: InsertedTextEffect
 second_title: Aspose.Words för .NET
-description: RevisionOptions InsertedTextEffect fast egendom. Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline  i C#.
+description: Upptäck egenskapen RevisionOptions InsertedTextEffect för att anpassa ditt innehåll med unika effekter. Standard, Understryk. Förstärk din texts effekt!
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words.layout/revisionoptions/insertedtexteffect/
 ---
 ## RevisionOptions.InsertedTextEffect property
 
-Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline .
+Gör det möjligt att ange vilken effekt som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline .
 
 ```csharp
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-## Anmärkningar
+### Undantag
 
-Värden avHidden ochDoubleStrikeThrough är inte tillåtna och kommer att orsakaArgumentOutOfRangeException.
+| undantag | skick |
+| --- | --- |
+| ArgumentOutOfRangeException | Värden avHidden ochDoubleStrikeThrough är inte tillåtna. |
 
 ## Exempel
 
@@ -30,41 +32,41 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Hämta RevisionOptions-objektet som styr utseendet på revisioner.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Gör insättningsrevisioner i grönt och kursivt.
+// Rendera infogningsrevideringar i grönt och kursiv stil.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Gör raderingsrevisioner i rött och fetstil.
+// Rendera borttagna revisioner i rött och fetstil.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Samma text kommer att visas två gånger i en rörelserevision:
-// en gång vid avgångsplatsen och en gång vid ankomstdestinationen.
-// Gör texten vid den flyttade från revisionen gul med dubbel genomstrykning
-// och dubbelt understruket blått vid den flyttade till revisionen.
+// Samma text kommer att förekomma två gånger i en satsrevision:
+// en gång vid avgångspunkten och en gång vid ankomstdestinationen.
+// Gör texten vid den flyttade versionen gul med en dubbel överstrykning
+// och dubbelt understruken blå vid den flyttade versionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Gör formatrevisioner i mörkrött och fetstil.
+// Rendera formatrevideringar i mörkrött och fetstil.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Placera en tjock mörkblå stapel till vänster på sidan bredvid rader som påverkas av ändringar.
+// Placera en tjock mörkblå stapel på vänster sida av sidan bredvid rader som påverkas av revisioner.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Visa revisionsmärken och originaltext.
+// Visa revisionsmarkeringar och originaltext.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Få rörelse, radering, formateringsrevisioner och kommentarer att dyka upp i gröna ballonger
-// till höger på sidan.
+// Få flyttningar, borttagningar, formateringsändringar och kommentarer att visas i gröna ballonger
+// på höger sida av sidan.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Dessa funktioner är endast tillämpliga på format som .pdf eller .jpg.
+// Dessa funktioner gäller endast för format som .pdf eller .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

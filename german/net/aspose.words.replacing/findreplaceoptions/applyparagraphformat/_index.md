@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions ApplyParagraphFormat eigendom. Absatzformatierung wird auf neuen Inhalt angewendet in C#.
+description: Entdecken Sie die ApplyParagraphFormat-Eigenschaft in FindReplaceOptions für eine nahtlose Absatzformatierung in Ihren Dokumenten. Optimieren Sie Ihre Inhalte mühelos!
 type: docs
 weight: 30
 url: /de/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Absatzformatierung wird auf neuen Inhalt angewendet.
+Absatzformatierung auf neuen Inhalt angewendet.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ## Beispiele
 
-Zeigt, wie Formatierungen zu Absätzen hinzugefügt werden, in denen ein Such- und Ersetzungsvorgang Übereinstimmungen gefunden hat.
+Zeigt, wie Sie Absätzen, in denen eine Suchen-und-Ersetzen-Operation Übereinstimmungen gefunden hat, Formatierungen hinzufügen.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Setzen Sie die Eigenschaft „Alignment“ auf „ParagraphAlignment.Right“, um jeden Absatz rechtsbündig auszurichten
-// das eine Übereinstimmung enthält, die der Such- und Ersetzungsvorgang findet.
+// das eine Übereinstimmung enthält, die durch die Such- und Ersetzungsoperation gefunden wird.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Ersetzen Sie jeden Punkt, der direkt vor einem Absatzumbruch steht, durch ein Ausrufezeichen.
+// Ersetzen Sie jeden Punkt direkt vor einem Absatzumbruch durch ein Ausrufezeichen.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

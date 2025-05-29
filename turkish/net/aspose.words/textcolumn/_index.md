@@ -2,17 +2,17 @@
 title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TextColumn sınıf. Tek bir metin sütununu temsil eder.TextColumn üyesidirTextColumnCollection koleksiyon. TextColumn koleksiyon bir belgenin bir bölümündeki tüm sütunları içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki metin sütunlarını yönetmek için Aspose.Words.TextColumn sınıfını keşfedin. Metin bölümünüzdeki her sütuna kolayca erişin ve özelleştirin.
 type: docs
-weight: 6390
+weight: 7240
 url: /tr/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Tek bir metin sütununu temsil eder.`TextColumn` üyesidir[`TextColumnCollection`](../textcolumncollection/) koleksiyon. `TextColumn` koleksiyon, bir belgenin bir bölümündeki tüm sütunları içerir.
+Tek bir metin sütununu temsil eder.`TextColumn` üyesidir[`TextColumnCollection`](../textcolumncollection/) koleksiyon. `TextColumn`koleksiyon, bir belgenin bir bölümündeki tüm sütunları içerir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bölümlerle Çalışmak](https://docs.aspose.com/words/net/working-with-sections/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bölümlerle Çalışma](https://docs.aspose.com/words/net/working-with-sections/) belgeleme makalesi.
 
 ```csharp
 public class TextColumn
@@ -22,18 +22,18 @@ public class TextColumn
 
 | İsim | Tanım |
 | --- | --- |
-| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir. |
-| [Width](../../aspose.words/textcolumn/width/) { get; set; } | Metin sütununun genişliğini nokta cinsinden alır veya ayarlar. |
+| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Bu sütun ile bir sonraki sütun arasındaki boşluğu noktalar halinde alır veya ayarlar. Son sütun için gerekli değildir. |
+| [Width](../../aspose.words/textcolumn/width/) { get; set; } | Metin sütununun genişliğini noktalar halinde alır veya ayarlar. |
 
 ## Notlar
 
-`TextColumn` nesneler yalnızca özel genişlik ve aralıklara sahip sütunları belirtmek için kullanılır. Belgedeki sütunların eşit genişlikte olmasını istiyorsanız TextColumns'u ayarlayın.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) ile`doğru`.
+`TextColumn` nesneler yalnızca özel genişlik ve aralıklı sütunları belirtmek için kullanılır. Belgedeki sütunların eşit genişlikte olmasını istiyorsanız, TextColumns'ı ayarlayın.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) ile`doğru`.
 
-Ne zaman yeni`TextColumn` oluşturulduğunda genişliği ve aralığı sıfıra ayarlanmıştır.
+Yeni bir`TextColumn` oluşturulduğunda genişliği ve aralığı sıfıra ayarlanır.
 
 ## Örnekler
 
-Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
+Eşit olmayan aralıklı sütunların nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -44,17 +44,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Sütunları düzenlemek için elimizde bulunan alan miktarını belirleyin.
+// Sütunları düzenlemek için kullanabileceğimiz alan miktarını belirleyelim.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// İlk sütunu dar olacak şekilde ayarlayın.
+// İlk sütunu dar olarak ayarla.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// İkinci sütunu, sayfanın kenar boşluklarındaki kalan alanı kaplayacak şekilde ayarlayın.
+// İkinci sütunun, sayfanın kenar boşlukları içinde kalan boş alanı kaplamasını sağlar.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

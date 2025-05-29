@@ -3,14 +3,14 @@ title: XmlMapping.XPath
 linktitle: XPath
 articleTitle: XPath
 second_title: Aspose.Words för .NET
-description: XmlMapping XPath fast egendom. Returnerar XPathuttrycket som utvärderas för att hitta den anpassade XMLnoden som är mappad till den överordnade strukturerade dokumenttaggen i C#.
+description: Upptäck hur XmlMappings XPath-egenskap effektivt lokaliserar anpassade XML-noder, vilket förbättrar din strukturerade dokumenthantering med precision och enkelhet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/xmlmapping/xpath/
 ---
 ## XmlMapping.XPath property
 
-Returnerar XPath-uttrycket, som utvärderas för att hitta den anpassade XML-noden som är mappad till den överordnade strukturerade dokumenttaggen.
+Returnerar XPath-uttrycket, vilket utvärderas för att hitta den anpassade XML-noden som är mappad till den överordnade taggen för strukturerat dokument.
 
 ```csharp
 public string XPath { get; }
@@ -18,7 +18,7 @@ public string XPath { get; }
 
 ## Exempel
 
-Visar hur du ställer in XML-mappningar för anpassade XML-delar.
+Visar hur man ställer in XML-mappningar för anpassade XML-delar.
 
 ```csharp
 Document doc = new Document();
@@ -28,23 +28,23 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
+Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
 // Skapa en strukturerad dokumenttagg som visar innehållet i vår CustomXmlPart.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// Ställ in en mappning för vår strukturerade dokumenttagg. Denna mappning kommer att instruera
+// Ange en mappning för vår strukturerade dokumenttagg. Denna mappning kommer att instruera
 // vår strukturerade dokumenttagg för att visa en del av XML-delens textinnehåll som XPath pekar på.
-// I det här fallet kommer det att vara innehållet i den andra "<text>" element i den första "<root>" element: "Textelement #2".
+// I det här fallet kommer det att vara innehållet i det andra "<text>"-elementet i det första "<root>"-elementet: "Textelement #2".
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);
 Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
 Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
-Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag.XmlMapping.PrefixMappings);
+Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", tagg.XmlMapping.PrefixMappings);
 
-// Lägg till den strukturerade dokumenttaggen i dokumentet för att visa innehållet från vår anpassade del.
+// Lägg till taggen "structured document" i dokumentet för att visa innehållet från vår anpassade del.
 doc.FirstSection.Body.AppendChild(tag);
 doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ```

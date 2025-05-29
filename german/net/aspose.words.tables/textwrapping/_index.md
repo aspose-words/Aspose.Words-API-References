@@ -3,14 +3,14 @@ title: TextWrapping Enum
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.TextWrapping opsomming. Gibt an wie Text um die Tabelle gewickelt wird in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Tables.TextWrapping für effizienten Textumbruch um Tabellen. Verbessern Sie mühelos die Formatierung Ihrer Dokumente!
 type: docs
-weight: 6380
+weight: 7230
 url: /de/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
 
-Gibt an, wie Text um die Tabelle gewickelt wird.
+Gibt an, wie der Text um die Tabelle herum umbrochen wird.
 
 ```csharp
 public enum TextWrapping
@@ -20,13 +20,13 @@ public enum TextWrapping
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Text und Tabelle werden in der Reihenfolge ihres Erscheinens im Dokument angezeigt. |
-| Around | `1` | Der Text wird um die Tabelle gewickelt und nimmt den verfügbaren seitlichen Platz ein. |
+| None | `0` | Text und Tabelle werden in der Reihenfolge ihres Auftretens im Dokument angezeigt. |
+| Around | `1` | Der Text wird um die Tabelle herumgeführt und belegt den verfügbaren seitlichen Platz. |
 | Default | `0` | Standardwert. |
 
 ## Beispiele
 
-Zeigt, wie man mit Tabellentextumbrüchen arbeitet.
+Zeigt, wie mit dem Textumbruch in Tabellen gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Setzen Sie die Eigenschaft „TextWrapping“ auf „TextWrapping.Around“, damit die Tabelle den Text umbricht.
-// und schiebe es nach unten in den Absatz darunter, indem du die Position festlegst.
+// Setzen Sie die Eigenschaft „TextWrapping“ auf „TextWrapping.Around“, damit die Tabelle den Text umschließt.
+// und schieben Sie es durch Festlegen der Position in den darunter liegenden Absatz.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

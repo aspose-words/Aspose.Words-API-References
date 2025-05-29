@@ -3,14 +3,14 @@ title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
 second_title: Aspose.Words för .NET
-description: ParagraphFormat WordWrap fast egendom. Om den här egenskapen ärfalsk  latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord i C#.
+description: Upptäck hur egenskapen ParagraphFormat WordWrap påverkar textbrytning i Word. Lär dig att styra textflödet på latin för förbättrad läsbarhet i dokumentet.
 type: docs
-weight: 410
+weight: 420
 url: /sv/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Om den här egenskapen är`falsk` , latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord.
+Om den här egenskapen är`falsk` , Latinsk text mitt i ett ord kan radbrytas för det aktuella stycket. Annars radbryts latinsk text av hela ord.
 
 ```csharp
 public bool WordWrap { get; set; }
@@ -18,7 +18,7 @@ public bool WordWrap { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in speciella egenskaper för asiatisk typografi.
+Visar hur man ställer in specialegenskaper för asiatisk typografi.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

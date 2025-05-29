@@ -3,7 +3,7 @@ title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
 second_title: Aspose.Words pour .NET
-description: VbaReference LibId propriété. Obtient une valeur de chaîne contenant lidentifiant dune bibliothèque de types Automation en C#.
+description: Découvrez la propriété VBA LibId et récupérez facilement l'identifiant de la bibliothèque de types Automation grâce à ce guide essentiel pour les développeurs. Améliorez vos compétences en codage !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.vba/vbareference/libid/
@@ -20,8 +20,8 @@ public abstract string LibId { get; }
 
 Selon le type de référence, la valeur de cette propriété peut être :
 
-* une LibidReference spécifiée à 2.1.1.8 LibidReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* un ProjectReference spécifié à 2.1.1.12 ProjectReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* une LibidReference spécifiée dans 2.1.1.8 LibidReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* une ProjectReference spécifiée dans 2.1.1.12 ProjectReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ## Exemples
 
@@ -71,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -86,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

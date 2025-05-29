@@ -3,7 +3,7 @@ title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: ChartXValueCollection Count свойство. Получает количество элементов в этой коллекции на С#.
+description: Откройте для себя свойство ChartXValueCollection Count, чтобы легко получить общее количество элементов в вашей коллекции данных для эффективного анализа.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartxvaluecollection/count/

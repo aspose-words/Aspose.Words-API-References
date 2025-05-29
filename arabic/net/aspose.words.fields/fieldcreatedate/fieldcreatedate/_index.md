@@ -3,7 +3,7 @@ title: FieldCreateDate
 linktitle: FieldCreateDate
 articleTitle: FieldCreateDate
 second_title: Aspose.Words لـ .NET
-description: FieldCreateDate البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldCreateDate، الحل الأمثل لإدارة التواريخ بسهولة في البرمجة. بسّط مشاريعك باستخدام مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldcreatedate/fieldcreatedate/

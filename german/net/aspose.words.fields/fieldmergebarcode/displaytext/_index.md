@@ -3,7 +3,7 @@ title: FieldMergeBarcode.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode DisplayText eigendom. Ruft ab oder legt fest ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen in C#.
+description: Steuern Sie die Anzeige von Barcode-Text mit der DisplayText-Eigenschaft von FieldMergeBarcode. Verbessern Sie mühelos Lesbarkeit und Funktionalität Ihrer Anwendungen.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -18,14 +18,14 @@ public bool DisplayText { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
+Zeigt, wie ein Serienbrief mit EAN13-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyEAN13Barcode“ einer Zusammenführungsdatenquelle in EAN13-Barcodes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyEAN13Barcode“ einer zusammengeführten Datenquelle in EAN13-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -41,7 +41,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein EAN13-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein EAN13-Barcode mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
 table.Rows.Add(new[] { "501234567890" });

@@ -3,7 +3,7 @@ title: ConditionalStyle.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words لـ .NET
-description: ConditionalStyle ClearFormatting طريقة. مسح تنسيق هذا النمط الشرطي في C#.
+description: تنسيق واضح وسهل مع طريقة ClearFormatting من ConditionalStyle. بسّط عملية التصميم لديك وحسّن وضوح مستندك اليوم!
 type: docs
 weight: 100
 url: /ar/net/aspose.words/conditionalstyle/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## أمثلة
 
-يوضح كيفية إعادة تعيين أنماط الجدول الشرطي.
+يوضح كيفية إعادة تعيين أنماط الجدول الشرطية.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - امسح الأنماط الشرطية للجدول بأكمله:
+// 2 - مسح الأنماط الشرطية للجدول بأكمله:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

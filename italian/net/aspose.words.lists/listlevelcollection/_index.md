@@ -3,14 +3,14 @@ title: ListLevelCollection Class
 linktitle: ListLevelCollection
 articleTitle: ListLevelCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Lists.ListLevelCollection classe. Una raccolta di formattazioni di elenchi per ogni livello in un elenco in C#.
+description: Scopri Aspose.Words.Lists.ListLevelCollection e semplifica la formattazione dei tuoi documenti con livelli di elenco personalizzabili per una maggiore chiarezza e presentazione.
 type: docs
-weight: 3520
+weight: 3970
 url: /it/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
 
-Una raccolta di formattazioni di elenchi per ogni livello in un elenco.
+Una raccolta di formattazioni di elenco per ogni livello in un elenco.
 
 Per saperne di più, visita il[Lavorare con gli elenchi](https://docs.aspose.com/words/net/working-with-lists/) articolo di documentazione.
 
@@ -23,7 +23,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | Ottiene il numero di livelli in questo elenco. |
-| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Ottiene un livello di elenco per indice. |
+| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Ottiene un livello di elenco in base all'indice. |
 
 ## Metodi
 
@@ -38,10 +38,10 @@ Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Possiamo contenere un intero oggetto List all'interno di uno stile.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -52,7 +52,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifica l'aspetto di tutti i livelli dell'elenco nel nostro elenco.
+// Modifica l'aspetto di tutti i livelli dell'elenco.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -71,7 +71,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Aggiungi alcuni elementi dell'elenco che verrà formattato dal nostro elenco.
+// Aggiungi alcuni elementi dell'elenco che verranno formattati dal nostro elenco.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -89,16 +89,16 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

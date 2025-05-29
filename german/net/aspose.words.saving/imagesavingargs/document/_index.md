@@ -3,14 +3,14 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: ImageSavingArgs Document eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird in C#.
+description: Entdecken Sie die Dokumenteigenschaft ImageSavingArgs, um auf das aktuell gespeicherte Dokument zuzugreifen, die Effizienz Ihres Arbeitsablaufs zu steigern und Zeit zu sparen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-Ruft das Dokumentobjekt ab, das gerade gespeichert wird.
+Ruft das Dokumentobjekt ab, das aktuell gespeichert wird.
 
 ```csharp
 public Document Document { get; }

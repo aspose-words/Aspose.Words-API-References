@@ -3,14 +3,14 @@ title: ShapeBase.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words für .NET
-description: ShapeBase Bottom eigendom. Ermittelt die Position der Unterkante des enthaltenden Blocks der Form in C#.
+description: Entdecken Sie die ShapeBase Bottom-Eigenschaft, um einfach auf die Position der unteren Kante des Blocks zuzugreifen, der Ihre Form enthält, und so eine präzise Designkontrolle zu ermöglichen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/shapebase/bottom/
 ---
 ## ShapeBase.Bottom property
 
-Ermittelt die Position der Unterkante des enthaltenden Blocks der Form.
+Ruft die Position der Unterkante des umschließenden Blocks der Form ab.
 
 ```csharp
 public double Bottom { get; }
@@ -18,13 +18,13 @@ public double Bottom { get; }
 
 ## Bemerkungen
 
-Für eine Form der obersten Ebene wird der Wert in Punkten und relativ zum Formanker angegeben.
+Bei einer Form der obersten Ebene wird der Wert in Punkten angegeben und ist relativ zum Formanker.
 
-Für Formen in einer Gruppe liegt der Wert im Koordinatenraum und in den Einheiten der übergeordneten Gruppe.
+Bei Formen in einer Gruppe liegt der Wert im Koordinatenraum und in den Einheiten der übergeordneten Gruppe vor.
 
 ## Beispiele
 
-Zeigt, wie man ein schwebendes Bild einfügt und seine Position und Größe angibt.
+Zeigt, wie Sie ein schwebendes Bild einfügen und seine Position und Größe angeben.
 
 ```csharp
 Document doc = new Document();
@@ -34,22 +34,22 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Konfigurieren Sie die Eigenschaft „RelativeHorizontalPosition“ der Form, um den Wert der Eigenschaft „Left“ zu behandeln
- // als horizontaler Abstand der Form in Punkten von der linken Seite der Seite.
+    // als horizontaler Abstand der Form in Punkten von der linken Seite der Seite.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Legen Sie den horizontalen Abstand der Form von der linken Seite der Seite auf 100 fest.
+// Setzen Sie den horizontalen Abstand der Form von der linken Seite der Seite auf 100.
 shape.Left = 100;
 
-// Verwenden Sie die Eigenschaft „RelativeVerticalPosition“ auf ähnliche Weise, um die Form 80pt unter dem oberen Rand der Seite zu positionieren.
+// Verwenden Sie die Eigenschaft „RelativeVerticalPosition“ auf ähnliche Weise, um die Form 80pt unterhalb des oberen Seitenrands zu positionieren.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Legen Sie die Höhe der Form fest, wodurch die Breite automatisch skaliert wird, um die Abmessungen beizubehalten.
+// Legen Sie die Höhe der Form fest. Dadurch wird die Breite automatisch skaliert, um die Abmessungen beizubehalten.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Die Eigenschaften „Bottom“ und „Right“ enthalten den unteren und rechten Rand des Bildes.
+// Die Eigenschaften „Bottom“ und „Right“ enthalten die unteren und rechten Ränder des Bildes.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

@@ -3,7 +3,7 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words для .NET
-description: FieldBuilder строитель. Инициализирует экземплярFieldBuilder класс на С#.
+description: Откройте для себя FieldBuilder, мощный инструмент для легкого создания и управления полями в ваших проектах. Оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,11 +18,11 @@ public FieldBuilder(FieldType fieldType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | FieldType | Тип поля для построения. |
+| fieldType | FieldType | Тип поля для строительства. |
 
 ## Примеры
 
-Показывает, как создать и вставить поле с помощью построителя полей.
+Показывает, как создать и вставить поле с помощью конструктора полей.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
 // У полей есть свой конструктор, который мы можем использовать для построения кода поля по частям.
 // В этом случае мы создадим поле BARCODE, представляющее почтовый индекс США,
-// и затем вставляем его перед Run.
+// а затем вставьте его перед Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");

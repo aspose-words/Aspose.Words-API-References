@@ -3,9 +3,9 @@ title: ParagraphFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words para .NET
-description: ParagraphFormat ClearFormatting método. Restablece el formato de párrafo predeterminado en C#.
+description: Restablezca el formato de sus párrafos sin esfuerzo con el método ClearFormatting, garantizando una apariencia pulida y profesional para sus documentos.
 type: docs
-weight: 420
+weight: 430
 url: /es/net/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat.ClearFormatting method
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Observaciones
 
-El formato de párrafo predeterminado es Estilo normal, alineado a la izquierda, sin sangría, sin espacios, sin bordes ni sombreado.
+El formato de párrafo predeterminado es el estilo Normal, alineado a la izquierda, sin sangría, sin espaciado, sin bordes y sin sombreado.
 
 ## Ejemplos
 
@@ -29,22 +29,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Crea una lista de resumen para los encabezados.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Crear una lista de esquema para los encabezados.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Crea una lista numerada.
+//Crea una lista numerada.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// Cada párrafo que compone una lista tendrá esta bandera.
+//Cada párrafo que compone una lista tendrá esta bandera.
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
@@ -61,7 +61,7 @@ builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Volver a la lista de esquemas.
+// Volver a la lista de esquema.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

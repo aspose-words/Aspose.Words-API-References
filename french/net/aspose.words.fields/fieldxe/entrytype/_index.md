@@ -3,7 +3,7 @@ title: FieldXE.EntryType
 linktitle: EntryType
 articleTitle: EntryType
 second_title: Aspose.Words pour .NET
-description: FieldXE EntryType propriété. Obtient ou définit un type dentrée dindex en C#.
+description: Découvrez la propriété FieldXE EntryType, gérez et personnalisez facilement les types d'entrées d'index pour une organisation des données et une efficacité de récupération améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldxe/entrytype/
@@ -18,29 +18,29 @@ public string EntryType { get; set; }
 
 ## Exemples
 
-Montre comment créer un champ INDEX, puis utiliser les champs XE pour le remplir avec des entrées.
+Montre comment créer un champ INDEX, puis utiliser des champs XE pour le remplir avec des entrées.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
-// Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche
+// Chaque entrée affichera la valeur de la propriété Texte du champ XE sur le côté gauche
 // et la page contenant le champ XE à droite.
-// Si les champs XE ont la même valeur dans leur propriété "Texte",
+// Si les champs XE ont la même valeur dans leur propriété « Texte »,
 // le champ INDEX les regroupera en une seule entrée.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // Configurez le champ INDEX uniquement pour afficher les champs XE qui se trouvent dans les limites
-// d'un marque-page nommé "MainBookmark", et dont les propriétés "EntryType" ont la valeur "A".
-// Pour les champs INDEX et XE, la propriété "EntryType" utilise uniquement le premier caractère de sa valeur de chaîne.
+// d'un signet nommé "MainBookmark", et dont les propriétés "EntryType" ont une valeur de "A".
+// Pour les champs INDEX et XE, la propriété « EntryType » utilise uniquement le premier caractère de sa valeur de chaîne.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// Sur une nouvelle page, démarre le signet avec un nom qui correspond à la valeur
-// de la propriété "BookmarkName" du champ INDEX.
+// Sur une nouvelle page, démarrez le signet avec un nom qui correspond à la valeur
+// de la propriété « BookmarkName » du champ INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
@@ -52,15 +52,15 @@ indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// Insère un champ XE qui n'apparaîtra pas dans l'INDEX car les types d'entrée ne correspondent pas.
+// Insérer un champ XE qui n'apparaîtra pas dans l'INDEX car les types d'entrée ne correspondent pas.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// Termine le signet et insère ensuite un champ XE.
+// Terminez le signet et insérez ensuite un champ XE.
 // Il est du même type que le champ INDEX, mais n'apparaîtra pas
-// puisqu'il est en dehors des limites du signet.
+// car il est en dehors des limites du signet.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

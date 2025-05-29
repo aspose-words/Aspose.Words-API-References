@@ -3,14 +3,14 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection فصل. يمثل مجموعة منForms2OleControl الكائنات في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Ole.Forms2OleControlCollection، الحل الخاص بك لإدارة كائنات Forms2OleControl بكفاءة في معالجة المستندات.
 type: docs
-weight: 1120
+weight: 1470
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-يمثل مجموعة من[`Forms2OleControl`](../forms2olecontrol/) الكائنات.
+يمثل مجموعة من[`Forms2OleControl`](../forms2olecontrol/) الأشياء.
 
 لمعرفة المزيد، قم بزيارة[العمل مع كائنات Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) مقالة توثيقية.
 
@@ -28,18 +28,18 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | الحصول على عدد الكائنات الموجودة في المجموعة. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | يحصل[`Forms2OleControl`](../forms2olecontrol/) كائن في فهرس محدد. |
+| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | يحصل على عدد الكائنات في المجموعة. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | يحصل[`Forms2OleControl`](../forms2olecontrol/) الكائن عند فهرس محدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | يحصل على العداد. |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | يحصل على المُعدِّد. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
+يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في مستند وعناصر التحكم الفرعية الخاصة به.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
@@ -51,7 +51,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذا المستند والتي تحتوي على ثلاثة أزرار خيارات.
+// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذه الوثيقة والتي تحتوي على ثلاثة أزرار خيارات.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

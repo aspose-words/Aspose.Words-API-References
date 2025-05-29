@@ -3,14 +3,14 @@ title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
 second_title: Aspose.Words für .NET
-description: ParagraphFormat HangingPunctuation eigendom. Ruft ein Flag ab oder setzt es das angibt ob hängende Satzzeichen für den aktuellen Absatz aktiviert sind in C#.
+description: Entdecken Sie, wie Sie Ihr Textlayout mit der Eigenschaft „Hängende Interpunktion“ in ParagraphFormat verbessern. Optimieren Sie mühelos Lesbarkeit und Stil!
 type: docs
 weight: 130
 url: /de/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob hängende Satzzeichen für den aktuellen Absatz aktiviert sind.
+Ruft ein Flag ab oder legt es fest, das angibt, ob hängende Interpunktion für den aktuellen Absatz aktiviert ist.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

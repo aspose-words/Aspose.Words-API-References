@@ -2,15 +2,15 @@
 title: BuiltInDocumentProperties.LinksUpToDate
 linktitle: LinksUpToDate
 articleTitle: LinksUpToDate
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties LinksUpToDate mülk. Bir belgedeki köprülerin güncel olup olmadığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin köprü metinlerinin güncel olmasını sağlayan ve içeriğinizin güvenilirliğini artıran BuiltInDocumentProperties LinksUpToDate özelliğini keşfedin.
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 ---
 ## BuiltInDocumentProperties.LinksUpToDate property
 
-Bir belgedeki köprülerin güncel olup olmadığını belirtir.
+Bir belgedeki köprü metinlerinin güncel olup olmadığını belirtir.
 
 ```csharp
 public bool LinksUpToDate { get; set; }
@@ -22,7 +22,7 @@ Aspose.Words bu özelliği güncellemez.
 
 ## Örnekler
 
-"İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
+"İçerik" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 public void Content()
@@ -30,18 +30,18 @@ public void Content()
     Document doc = new Document(MyDir + "Paragraphs.docx");
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-    // Yerleşik özellikleri kullanarak,
-    // kelime/sayfa/karakter sayıları gibi belge istatistiklerini, belgeyi açmadan bakılabilecek meta veriler olarak ele alabiliriz
-    // Bu özelliklere Windows Gezgini'nde dosyaya sağ tıklayarak ve Özellikler > Ayrıntılar > İçerik
-    // Bu verileri belge içerisinde görüntülemek istiyorsak NUMPAGES, NUMWORDS, NUMCHARS vb. alanları kullanabiliriz.
-    // Ayrıca bu değerler Microsoft Word'de Dosya > Özellikler > Gelişmiş Özellikler > İstatistik
-    // Sayfa sayısı: PageCount özelliği sayfa sayısını gerçek zamanlı olarak gösterir ve değeri Pages özelliğine atanabilir
+    // Dahili özellikleri kullanarak,
+    // Kelime/sayfa/karakter sayıları gibi belge istatistiklerini, belgeyi açmadan göz atılabilecek meta veri olarak ele alabiliriz
+    // Bu özelliklere Windows Gezgini'nde dosyaya sağ tıklanarak ve Özellikler > Ayrıntılar > İçerik'e gidilerek erişilebilir
+    // Eğer bu verileri doküman içerisinde göstermek istiyorsak NUMPAGES, NUMWORDS, NUMCHARS vb. alanları kullanabiliriz.
+    // Ayrıca, bu değerler Microsoft Word'de Dosya > Özellikler > Gelişmiş Özellikler > İstatistikler'e gidilerek de görüntülenebilir
+    // Sayfa sayısı: PageCount özelliği, sayfa sayısını gerçek zamanlı olarak gösterir ve değeri Pages özelliğine atanabilir
 
      // "Sayfalar" özelliği belgenin sayfa sayısını saklar.
     Assert.AreEqual(6, properties.Pages);
 
-    // "Words", "Characters" ve "CharactersWithSpaces" yerleşik özellikleri ayrıca çeşitli belge istatistiklerini de görüntüler,
-    // ancak bunların doğru değerler içermesini beklemeden önce tüm belgede "UpdateWordCount" yöntemini çağırmamız gerekiyor.
+    // "Words", "Characters" ve "CharactersWithSpaces" yerleşik özellikleri ayrıca çeşitli belge istatistiklerini görüntüler.
+    // ancak bunların doğru değerler içermesini beklemeden önce, tüm belge üzerinde "UpdateWordCount" metodunu çağırmamız gerekir.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
@@ -58,23 +58,23 @@ public void Content()
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // "Bayt" yerleşik özelliği aracılığıyla belgemizin dosya boyutuna ilişkin bir tahmin alın.
+    // "Bayt" yerleşik özelliği aracılığıyla belgemizin dosya boyutunun bir tahminini alın.
     Assert.AreEqual(20310, properties.Bytes);
 
-    // Belgemiz için farklı bir şablon ayarlayın ve ardından bu değişikliği yansıtacak şekilde "Şablon" yerleşik özelliğini manuel olarak güncelleyin.
+    // Belgemiz için farklı bir şablon belirleyelim ve ardından bu değişikliği yansıtmak için yerleşik "Şablon" özelliğini manuel olarak güncelleyelim.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
-    // "ContentStatus" açıklayıcı bir yerleşik özelliktir.
+    // "ContentStatus" tanımlayıcı bir yerleşik özelliktir.
     properties.ContentStatus = "Draft";
 
-    // Kaydedildikten sonra "ContentType" yerleşik özelliği, çıktı kaydetme biçiminin MIME türünü içerecektir.
+    // Kaydetme sırasında, "ContentType" yerleşik özelliği, çıktı kaydetme biçiminin MIME türünü içerecektir.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // Belgede bağlantılar varsa ve hepsi güncelse "LinksUpToDate" özelliğini "true" olarak ayarlayabiliriz.
+    // Belgede bağlantılar varsa ve hepsi güncelse, "LinksUpToDate" özelliğini "true" olarak ayarlayabiliriz.
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
@@ -82,8 +82,8 @@ public void Content()
 
 /// <summary>
 /// Bir belgedeki satırları sayar.
-/// Oluşturma sonrasında belgenin düzen varlıkları ağacını geçer,
-/// aynı zamanda gerçek metin de içeren "Çizgi" türündeki varlıkları sayma.
+/// Oluşturma sırasında belgenin düzen varlıkları ağacını dolaşır,
+/// Gerçek metin içeren "Çizgi" türündeki varlıkların sayılması.
 /// </summary>
 private class LineCounter
 {

@@ -3,14 +3,14 @@ title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words för .NET
-description: Stroke Visible fast egendom. Hämtar eller ställer in en flagga som indikerar om strecket är synligt i C#.
+description: Kontrollera linjevisningen med vår lättanvända egenskap. Förbättra din design genom att aktivera/deaktivera linjevisningen för bättre visuell effekt!
 type: docs
-weight: 200
+weight: 250
 url: /sv/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-Hämtar eller ställer in en flagga som indikerar om strecket är synligt.
+Hämtar eller anger en flagga som anger om linjen är synlig.
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,11 +18,11 @@ public bool Visible { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet för a[`Shape`](../../shape/) är`Sann` .
+Standardvärdet för en[`Shape`](../../shape/) är`sann` .
 
 ## Exempel
 
-Visa hur du ställer in markörformatering.
+Visa hur man ställer in markörformatering.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Ställ in markörformatering.
+// Ange markörformatering.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

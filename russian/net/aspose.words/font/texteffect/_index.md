@@ -3,9 +3,9 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words для .NET
-description: Font TextEffect свойство. Получает или задает эффект анимации шрифта на С#.
+description: Откройте для себя свойство Font TextEffect, позволяющее легко настраивать анимацию шрифтов и дополнять свои проекты динамическими текстовыми эффектами, создавая захватывающий пользовательский опыт.
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Примеры
 
-Показывает, как применить визуальный эффект к бегу.
+Показывает, как применить визуальный эффект к прогону.
 
 ```csharp
 Document doc = new Document();

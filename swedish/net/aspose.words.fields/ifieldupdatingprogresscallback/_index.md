@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback Interface
 linktitle: IFieldUpdatingProgressCallback
 articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback gränssnitt. Implementera detta gränssnitt om du vill spåra fältuppdateringsförlopp i C#.
+description: Spåra fältuppdateringar sömlöst med Aspose.Words.Fields.IFieldUpdatingProgressCallback-gränssnittet. Förbättra din dokumenthantering idag!
 type: docs
-weight: 2730
+weight: 3140
 url: /sv/net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
 
-Implementera detta gränssnitt om du vill spåra fältuppdateringsförlopp.
+Implementera detta gränssnitt om du vill spåra fältuppdateringsförloppet.
 
 ```csharp
 public interface IFieldUpdatingProgressCallback
@@ -24,7 +24,7 @@ public interface IFieldUpdatingProgressCallback
 
 ## Exempel
 
-Visar hur man använder återuppringningsmetoder under en fältuppdatering.
+Visar hur man använder återanropsmetoder under en fältuppdatering.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -48,7 +48,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
+/// Implementera detta gränssnitt om du vill att dina egna anpassade metoder anropas under en fältuppdatering.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {

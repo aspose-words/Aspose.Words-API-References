@@ -2,10 +2,10 @@
 title: FieldFillIn Class
 linktitle: FieldFillIn
 articleTitle: FieldFillIn
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldFillIn 班级. 实现 FILLIN 字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldFillIn 类，轻松实现 FILLIN 字段，增强文档自动化和用户交互性。
 type: docs
-weight: 1890
+weight: 2300
 url: /zh/net/aspose.words.fields/fieldfillin/
 ---
 ## FieldFillIn class
@@ -29,16 +29,16 @@ public class FieldFillIn : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [DefaultResponse](../../aspose.words.fields/fieldfillin/defaultresponse/) { get; set; } | 获取或设置默认用户响应（提示窗口中包含的初始值）。 |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确（陈旧）。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段结束的节点。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式进行类型化访问的对象。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的 LCID。 |
-| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldfillin/promptonceonmailmerge/) { get; set; } | 获取或设置每次邮件合并操作是否应接收一次用户响应。 |
+| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldfillin/promptonceonmailmerge/) { get; set; } | 获取或设置是否应在每次邮件合并操作中接收一次用户响应。 |
 | [PromptText](../../aspose.words.fields/fieldfillin/prompttext/) { get; set; } | 获取或设置提示文本（提示窗口的标题）。 |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以是`无效的`. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
 
@@ -48,10 +48,10 @@ public class FieldFillIn : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中移除该字段。返回紧接该字段之后的节点。如果该字段的末尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被移除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果字段已在更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果字段已在更新，则抛出异常。 |
 
 ## 评论
 
@@ -59,7 +59,7 @@ public class FieldFillIn : Field
 
 ## 例子
 
-演示如何使用 FILLIN 字段提示用户做出响应。
+展示如何使用 FILLIN 字段提示用户做出回应。
 
 ```csharp
 public void FieldFillIn()
@@ -67,14 +67,14 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入 FILLIN 字段。当我们在 Microsoft Word 中手动更新此字段时，
-    // 它会提示我们输入响应。然后该字段将以文本形式显示响应。
+    // 插入一个 FILLIN 字段。当我们在 Microsoft Word 中手动更新此字段时，
+    // 它会提示我们输入答案。然后，该字段将以文本形式显示答案。
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // 我们还可以使用这些字段向用户询问每个页面的唯一响应
-    // 在使用 Microsoft Word 完成邮件合并期间创建。
+    // 我们还可以使用这些字段来要求用户对每个页面做出唯一的响应
+    // 在使用 Microsoft Word 进行邮件合并时创建。
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -92,7 +92,7 @@ public void FieldFillIn()
 }
 
 /// <summary>
-/// 在邮件合并期间，在每个 FILLIN 字段的默认响应前面添加一行。
+/// 在邮件合并期间，在每个 FILLIN 字段的默认响应前添加一行。
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

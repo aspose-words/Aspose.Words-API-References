@@ -3,14 +3,14 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words för .NET
-description: FrameFormat RelativeVerticalPosition fast egendom. Får den relativa vertikala positionen för en ram i C#.
+description: Upptäck egenskapen FrameFormat RelativeVerticalPosition för att enkelt avgöra en rams vertikala justering, vilket förbättrar dokumentets layout och design.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-Får den relativa vertikala positionen för en ram.
+Hämtar den relativa vertikala positionen för en ram.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }

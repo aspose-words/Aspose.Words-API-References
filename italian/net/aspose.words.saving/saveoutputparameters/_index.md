@@ -3,9 +3,9 @@ title: SaveOutputParameters Class
 linktitle: SaveOutputParameters
 articleTitle: SaveOutputParameters
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.SaveOutputParameters classe. Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che sono state generate o calcolate durante loperazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto in C#.
+description: Scopri la classe Aspose.Words.Saving.SaveOutputParameters, che fornisce dettagli essenziali dopo il salvataggio del documento, migliorando l'esperienza di gestione dei documenti.
 type: docs
-weight: 5590
+weight: 6390
 url: /it/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
@@ -22,7 +22,7 @@ public class SaveOutputParameters
 
 | Nome | Descrizione |
 | --- | --- |
-| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Restituisce la stringa Content-Type (Internet Media Type) che identifica il tipo del documento salvato. |
+| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Restituisce la stringa Content-Type (Internet Media Type) che identifica il tipo di documento salvato. |
 
 ## Esempi
 
@@ -33,7 +33,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Dopo aver salvato un documento, possiamo accedere all'Internet Media Type (tipo MIME) del documento di output appena creato.
+// Dopo aver salvato un documento, possiamo accedere al tipo MIME (Internet Media Type) del documento di output appena creato.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);

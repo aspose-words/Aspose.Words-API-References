@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.CompositingMode
 linktitle: CompositingMode
 articleTitle: CompositingMode
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions CompositingMode propiedad. Obtiene o establece un valor que especifica cómo se dibujan las imágenes compuestas en este Gráficos en C#.
+description: Descubra la propiedad GraphicsQualityOptions CompositingMode para optimizar la forma en que se renderizan las imágenes, mejorando el rendimiento y la calidad de sus gráficos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
 ## GraphicsQualityOptions.CompositingMode property
 
-Obtiene o establece un valor que especifica cómo se dibujan las imágenes compuestas en este Gráficos.
+Obtiene o establece un valor que especifica cómo se dibujan las imágenes compuestas en este Graphics.
 
 ```csharp
 public CompositingMode? CompositingMode { get; set; }

@@ -2,10 +2,10 @@
 title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
-second_title: 用于 .NET 的 Aspose.Words
-description: PhysicalFontInfo Version 财产. 字体的版本字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PhysicalFontInfo 版本属性，轻松访问字体的版本字符串，以增强设计一致性并改进排版。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
@@ -18,10 +18,10 @@ public string Version { get; }
 
 ## 例子
 
-演示如何列出可用字体。
+显示如何列出可用的字体。
 
 ```csharp
-// 将 Aspose.Words 配置为从自定义文件夹获取字体，然后打印每种可用字体。
+// 配置 Aspose.Words 从自定义文件夹中获取字体，然后打印每个可用的字体。
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

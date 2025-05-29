@@ -3,14 +3,14 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: Aspose.Words per .NET
-description: CellFormat WrapText proprietà. SeVERO  manda a capo il testo per la cella in C#.
+description: Scopri la proprietà CellFormat WrapText per migliorare la leggibilità del tuo foglio di calcolo, inserendo automaticamente il testo nelle celle e ottenendo un aspetto più pulito.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Se`VERO` , manda a capo il testo per la cella.
+Se`VERO` , inserisci il testo nella cella.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

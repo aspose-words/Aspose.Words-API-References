@@ -3,9 +3,9 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words per .NET
-description: Shape Chart proprietà. Fornisce laccesso alle proprietà del grafico se questa forma ha unChart  in C#.
+description: Sblocca le proprietà dei grafici con Shape Chart. Migliora la presentazione visiva dei tuoi dati senza sforzo e massimizza le tue informazioni oggi stesso!
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
@@ -18,7 +18,7 @@ public Chart Chart { get; }
 
 ## Osservazioni
 
-Questa proprietà restituirà il file[`Chart`](../../../aspose.words.drawing.charts/chart/) oggetto solo se[`HasChart`](../haschart/) La proprietà è`VERO` per questo[`Shape`](../)altrimenti genererà un'eccezione.
+Questa proprietà restituirà il[`Chart`](../../../aspose.words.drawing.charts/chart/) oggetto solo se[`HasChart`](../haschart/)La proprietà è`VERO` per questo[`Shape`](../)e in caso contrario verrà generata un'eccezione.
 
 ## Esempi
 
@@ -35,7 +35,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Registra le informazioni relative all'aspetto delle forme visitate.
+/// Registra informazioni relative all'aspetto delle forme visitate.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
+    /// Aggiunge una riga allo StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -101,7 +100,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo Shape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -124,7 +123,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo GroupShape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

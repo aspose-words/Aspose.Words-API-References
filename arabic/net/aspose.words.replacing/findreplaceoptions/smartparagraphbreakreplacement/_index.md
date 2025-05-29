@@ -3,14 +3,14 @@ title: FindReplaceOptions.SmartParagraphBreakReplacement
 linktitle: SmartParagraphBreakReplacement
 articleTitle: SmartParagraphBreakReplacement
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions SmartParagraphBreakReplacement ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية في C#.
+description: اكتشف خاصية SmartParagraphBreakReplacement في FindReplaceOptions. تحكّم بسهولة في فواصل الفقرات لتنسيق نصّ سلس.
 type: docs
-weight: 160
+weight: 170
 url: /ar/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية.
+يحصل على قيمة منطقية أو يعينها تشير إلى أنه مسموح له باستبدال الفقرة break عندما لا تكون هناك فقرة شقيقة تالية.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
@@ -20,7 +20,7 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ## ملاحظات
 
-يسمح هذا الخيار باستبدال فاصل الفقرة في حالة عدم وجود فقرة فرعية تالية يمكن نقل جميع العقد التابعة لها، وذلك من خلال البحث عن أي فقرة تالية (ليست بالضرورة فرعية) بعد الفقرة التي يتم استبدالها.
+يسمح لك هذا الخيار باستبدال فاصل الفقرة عندما لا توجد فقرة شقيقة تالية يمكن نقل جميع عقد child إليها، وذلك من خلال العثور على أي فقرة تالية (ليس بالضرورة شقيقة) بعد الفقرة التي يتم استبدالها.
 
 ## أمثلة
 
@@ -41,8 +41,8 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
-// عندما يتم تعيين الخيار التالي على "صحيح"، سيقوم Aspose.Words بإزالة نص الفقرة
-// بالكامل مع علامة الفقرة الخاصة به. وإلا، فإن Aspose.Words سوف يحاكي Word ويزيله
+// عندما يتم تعيين الخيار التالي على "true"، سيقوم Aspose.Words بإزالة نص الفقرة
+// تمامًا مع علامة الفقرة. وإلا، فسيُحاكي Aspose.Words وورد ويزيل
 // نص الفقرة فقط ويترك علامة الفقرة سليمة (عندما يتبع الجدول النص).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);

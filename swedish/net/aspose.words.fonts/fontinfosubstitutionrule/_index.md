@@ -3,9 +3,9 @@ title: FontInfoSubstitutionRule Class
 linktitle: FontInfoSubstitutionRule
 articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule klass. Regel för ersättning av teckensnittsinformation i C#.
+description: Upptäck klassen Aspose.Words.Fonts.FontInfoSubstitutionRule för att optimera teckensnittshanteringen i dina dokument med sömlösa ersättningsmöjligheter.
 type: docs
-weight: 2940
+weight: 3370
 url: /sv/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
@@ -26,11 +26,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ## Anmärkningar
 
-Enligt denna regel utvärderar Aspose.Words alla relaterade fält i[`FontInfo`](../fontinfo/) (Panose, Sig etc) för det saknade teckensnittet och hittar den närmaste matchningen bland de tillgängliga teckensnittskällorna. Om[`FontInfo`](../fontinfo/)är not tillgängligt för det saknade teckensnittet kommer ingenting att göras.
+Enligt denna regel utvärderar Aspose.Words alla relaterade fält i[`FontInfo`](../fontinfo/) (Panose, Sig etc.) for det saknade teckensnittet och hittar den närmaste matchningen bland de tillgängliga teckensnittskällorna.[`FontInfo`](../fontinfo/) är inte tillgängligt för det saknade teckensnittet kommer ingenting att göras.
 
 ## Exempel
 
-Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
+Visar hur man ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från de tillgängliga teckensnittskällorna.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -38,20 +38,20 @@ public void EnableFontSubstitution()
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Tilldela en återuppringning för hantering av varningar för teckensnittsersättning.
+    // Tilldela en återanropning för att hantera varningar om teckensnittsersättning.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Ange ett standardtypsnittsnamn och aktivera teckensnittsersättning.
+    // Ange ett standardnamn för teckensnitt och aktivera teckensnittsersättning.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    // Ursprungliga teckensnittsmått bör användas efter teckensnittsersättning.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
+    // Vi får en varning om teckensnittsersättning om vi sparar ett dokument med ett saknat teckensnitt.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -67,13 +67,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -3,9 +3,9 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.ArrowType enumeración. Especifica el tipo de flecha al final de una línea en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.ArrowType para personalizar los estilos de flecha para los finales de línea, mejorando el atractivo visual y la precisión de su documento.
 type: docs
-weight: 490
+weight: 730
 url: /es/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
@@ -23,20 +23,20 @@ public enum ArrowType
 | None | `0` | La línea no tiene una flecha al final. |
 | Arrow | `1` | La flecha es un triángulo sólido. |
 | Stealth | `2` | La flecha es una flecha "sigilosa". |
-| Diamond | `3` | El final de la línea es un diamante macizo. |
+| Diamond | `3` | El final de la línea es un diamante sólido. |
 | Oval | `4` | El final de la línea es un óvalo sólido. |
 | Open | `5` | La flecha es una flecha abierta. |
-| Default | `0` | Igual queNone . |
+| Default | `0` | Lo mismo queNone . |
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -87,8 +87,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

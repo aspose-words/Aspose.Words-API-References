@@ -2,15 +2,15 @@
 title: DigitalSignatureCollection.IsValid
 linktitle: IsValid
 articleTitle: IsValid
-second_title: Aspose.Words for .NET
-description: DigitalSignatureCollection IsValid mülk. İadelerdoğru bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmadıysa Ayrıca şunu döndürürdoğru dijital imza yoksa. DöndürürYANLIŞ en az bir dijital imza geçersizse C#'da.
+second_title: .NET için Aspose.Words
+description: DigitalSignatureCollection'ın IsValid özelliğiyle belge bütünlüğünü sağlayın. Tüm imzaların geçerli ve bozulmamış olduğunu doğrulayarak güvenliği artırır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-İadeler`doğru` bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmadıysa Ayrıca şunu döndürür:`doğru` dijital imza yoksa. Döndürür`YANLIŞ` en az bir dijital imza geçersizse.
+Geri Döndürür`doğru`bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmamışsa Ayrıca şunu da döndürür:`doğru` dijital imzalar yoksa. Geri döner`YANLIŞ` en az bir dijital imza geçersizse.
 
 ```csharp
 public bool IsValid { get; }
@@ -18,19 +18,20 @@ public bool IsValid { get; }
 
 ## Örnekler
 
-X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir CertificateHolder nesnesi oluşturalım.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Bir belgeyi yerel sistem dosya adıyla tanımlayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen bir konuma kaydedin.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 

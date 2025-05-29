@@ -2,10 +2,10 @@
 title: ThemeFont Enum
 linktitle: ThemeFont
 articleTitle: ThemeFont
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Themes.ThemeFont Sıralama. Belge temaları için tema yazı tipi adlarının türlerini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge tema yazı tiplerini kolayca yönetmek ve belgelerinizin görsel çekiciliğini özel stillerle artırmak için Aspose.Words ThemeFont enum'unu keşfedin.
 type: docs
-weight: 6490
+weight: 7340
 url: /tr/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
@@ -22,11 +22,11 @@ public enum ThemeFont
 | --- | --- | --- |
 | None | `0` | Tema yazı tipi yok. |
 | Major | `1` | Ana tema yazı tipi. |
-| Minor | `2` | İkincil tema yazı tipi. |
+| Minor | `2` | Küçük tema yazı tipi. |
 
 ## Notlar
 
-Ana nesne özelliklerinde tema yazı tipi olarak başvurulabilecek bir tema yazı tipini belirtir. Bu tema yazı tipi, belgenin Tema kısmında bulunan ve yazı tipi bilgilerinin belgede merkezi olarak ayarlanabilir.
+Üst nesne özellikleri içinde tema yazı tipi olarak başvurulabilen bir tema yazı tipi türünü belirtir. Bu tema yazı tipi, belgenin Tema bölümünde bulunan önceden tanımlanmış tema yazı tiplerinden birine başvurudur ve bu, yazı tipi bilgilerinin belgede merkezi olarak ayarlanmasına olanak tanır.
 
 ## Örnekler
 
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Tema yazı tipi özellikleriyle bir stil oluşturun.
+// Tema yazı tipi özellikleriyle biraz stil yaratın.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -48,12 +48,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
+Tema yazı tipleri ve renkleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Varsayılan olarak kullanılan diller için yazı tiplerini tanımlayın.
+// Varsayılan olarak kullanılan diller için yazı tiplerini tanımla.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -61,7 +61,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Varsayılan değerler yerine tema yazı tipi ve rengini kullanabiliriz.
+// Varsayılan değerler yerine temanın yazı tipini ve rengini kullanabiliriz.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -84,7 +84,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Yazı tipini ve rengini sıfırlamanın birkaç yolu vardır.
-// 1 - ThemeFont.None/ThemeColor.None ayarını yaparak:
+// 1 - ThemeFont.None/ThemeColor.None ayarlanarak:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

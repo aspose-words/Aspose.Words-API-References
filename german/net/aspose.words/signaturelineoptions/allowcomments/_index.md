@@ -3,14 +3,14 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words für .NET
-description: SignatureLineOptions AllowComments eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass der Unterzeichner im Dialogfeld Signieren Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
+description: Aktivieren Sie Unterzeichnerkommentare im Signierdialog mit der Eigenschaft „AllowComments“ von SignatureLineOptions. Verbessern Sie mühelos die Zusammenarbeit und das Feedback!
 type: docs
 weight: 20
 url: /de/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, dass der Unterzeichner im Dialogfeld „Signieren“ Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft ist`FALSCH` .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, dass der Unterzeichner im Dialogfeld „Signieren“ Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft ist`FALSCH` .
 
 ```csharp
 public bool AllowComments { get; set; }

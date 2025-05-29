@@ -3,7 +3,7 @@ title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
 second_title: Aspose.Words für .NET
-description: Section HeadersFooters eigendom. Bietet Zugriff auf die Kopf und Fußzeilenknoten des Abschnitts in C#.
+description: Greifen Sie mühelos auf Abschnittskopf- und -fußzeilen zu und verwalten Sie diese mit unserer intuitiven Eigenschaftenfunktion. Verbessern Sie noch heute die Organisation und Präsentation Ihrer Dokumente!
 type: docs
 weight: 30
 url: /de/net/aspose.words/section/headersfooters/
@@ -43,11 +43,11 @@ Zeigt, wie alle Fußzeilen aus einem Dokument gelöscht werden.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Jeden Abschnitt durchlaufen und Fußzeilen aller Art entfernen.
+// Durchlaufen Sie jeden Abschnitt und entfernen Sie Fußzeilen aller Art.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Es gibt drei Arten von Fuß- und Kopfzeilentypen.
-    // 1 – Die „erste“ Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts erscheint.
+    // Es gibt drei Arten von Fußzeilen- und Kopfzeilentypen.
+    // 1 – Die „Erste“ Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts angezeigt wird.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
@@ -55,7 +55,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 – Die „gerade“ Kopf-/Fußzeile, die auf geraden Seiten erscheint.
+        // 3 – Die Kopf-/Fußzeile „Gerade“, die auf geraden Seiten erscheint.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
 second_title: Aspose.Words para .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts propiedad. El indicador indica si se deben usar fuentes de la máquina de destino para mostrar el documento. Si este indicador está configurado enverdadero FontFormat yExportEmbeddedFonts las propiedades no tienen efecto tambiénResourceSavingCallback no se activa para las fuentes. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad UseTargetMachineFonts de HtmlFixedSaveOptions mejora la visualización del documento al utilizar las fuentes de la máquina de destino. ¡Optimice su gestión de fuentes hoy mismo!
 type: docs
-weight: 190
+weight: 210
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-El indicador indica si se deben usar fuentes de la máquina de destino para mostrar el documento. Si este indicador está configurado en`verdadero` ,[`FontFormat`](../fontformat/) y[`ExportEmbeddedFonts`](../exportembeddedfonts/) las propiedades no tienen efecto, también[`ResourceSavingCallback`](../resourcesavingcallback/) no se activa para las fuentes. El valor predeterminado es`FALSO` .
+El indicador indica si se deben usar las fuentes de la máquina de destino para mostrar el documento. Si este indicador está configurado en`verdadero` ,[`FontFormat`](../fontformat/) y[`ExportEmbeddedFonts`](../exportembeddedfonts/) las propiedades no tienen efecto, también[`ResourceSavingCallback`](../resourcesavingcallback/) no se activa para fuentes. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -18,7 +18,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ## Ejemplos
 
-Muestra cómo usar fuentes solo de la máquina de destino al guardar un documento en HTML.
+Muestra cómo utilizar únicamente fuentes de la máquina de destino al guardar un documento en HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

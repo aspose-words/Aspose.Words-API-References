@@ -3,7 +3,7 @@ title: FontSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: FontSavingArgs Document fast egendom. Hämtar dokumentobjektet som sparas i C#.
+description: Upptäck egenskapen FontSavingArgs för att komma åt dokumentobjektet under sparningsåtgärder, vilket förbättrar din dokumenthanterings effektivitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/fontsavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exempel
 
-Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
+Visar hur man definierar anpassad logik för export av teckensnitt när man sparar till HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,14 +26,14 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurera ett SaveOptions-objekt för att exportera teckensnitt till separata filer.
-    // Ställ in en återuppringning som kommer att hantera teckensnittssparande på ett anpassat sätt.
+    // Ställ in en återanropning som hanterar teckensnittssparning på ett anpassat sätt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // Återuppringningen kommer att exportera .ttf-filer och spara dem tillsammans med utdatadokumentet.
+    // Återanropet exporterar .ttf-filer och sparar dem tillsammans med utdatadokumentet.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.
+/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata-.html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,10 +62,10 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsSubsettingNeeded);
 
         // Det finns två sätt att spara ett exporterat teckensnitt.
-        // 1 - Spara den på en lokal filsystemsplats:
+        // 1 - Spara det till en lokal filsystemplats:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Spara det i en stream:
+        // 2 - Spara det till en ström:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

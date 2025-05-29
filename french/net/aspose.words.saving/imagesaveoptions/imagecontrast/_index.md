@@ -3,7 +3,7 @@ title: ImageSaveOptions.ImageContrast
 linktitle: ImageContrast
 articleTitle: ImageContrast
 second_title: Aspose.Words pour .NET
-description: ImageSaveOptions ImageContrast propriété. Obtient ou définit le contraste des images générées en C#.
+description: Ajustez la propriété ImageContrast dans ImageSaveOptions pour améliorer la clarté et la profondeur de vos images. Optimisez vos visuels sans effort !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/imagesaveoptions/imagecontrast/
@@ -18,9 +18,9 @@ public float ImageContrast { get; set; }
 
 ## Remarques
 
-Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster.
+Cette propriété n'a d'effet que lors de l'enregistrement dans des formats d'image raster.
 
-La valeur par défaut est 0,5. La valeur doit être comprise entre 0 et 1.
+La valeur par défaut est 0,5. Elle doit être comprise entre 0 et 1.
 
 ## Exemples
 
@@ -35,7 +35,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
-// édite l'image pendant que l'opération de sauvegarde la restitue.
+// modifier l'image pendant que l'opération de sauvegarde la rend.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Nous pouvons ajuster ces propriétés pour modifier la luminosité et le contraste de l'image.
@@ -49,8 +49,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Nous pouvons redimensionner l'image en utilisant cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
-    // Nous pouvons utiliser cette propriété pour annuler toute modification des dimensions de l'image que la modification de la résolution entraînerait.
+    // Nous pouvons redimensionner l'image grâce à cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
+    // Nous pouvons utiliser cette propriété pour annuler tout changement dans les dimensions de l'image que provoquerait un changement de résolution.
     Scale = 96f / 72f
 };
 

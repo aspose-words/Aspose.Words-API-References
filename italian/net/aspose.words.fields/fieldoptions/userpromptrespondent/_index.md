@@ -3,14 +3,14 @@ title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
 second_title: Aspose.Words per .NET
-description: FieldOptions UserPromptRespondent proprietà. Ottiene o imposta lintervistato per le richieste dellutente durante laggiornamento del campo in C#.
+description: Scopri come la proprietà UserPromptRespondent di FieldOptions migliora l'esperienza utente gestendo le interazioni degli intervistati durante gli aggiornamenti dei campi.
 type: docs
 weight: 220
 url: /it/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Ottiene o imposta l'intervistato per le richieste dell'utente durante l'aggiornamento del campo.
+Ottiene o imposta il rispondente per le richieste utente durante l'aggiornamento del campo.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,9 +18,9 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## Osservazioni
 
-Se il valore di questa proprietà è impostato su`nullo` , i campi che richiedono la risposta dell'utente al prompting (come[`FieldAsk`](../../fieldask/) O[`FieldFillIn`](../../fieldfillin/)) non sono aggiornati.
+Se il valore di questa proprietà è impostato su`null` , i campi che richiedono una risposta dell'utente su prompting (come[`FieldAsk`](../../fieldask/) O[`FieldFillIn`](../../fieldfillin/)) non vengono aggiornati.
 
-Il valore predefinito è`nullo`.
+Il valore predefinito è`null`.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -60,7 +60,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -70,7 +70,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

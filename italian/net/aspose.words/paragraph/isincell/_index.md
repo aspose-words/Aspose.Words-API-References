@@ -3,7 +3,7 @@ title: Paragraph.IsInCell
 linktitle: IsInCell
 articleTitle: IsInCell
 second_title: Aspose.Words per .NET
-description: Paragraph IsInCell proprietà. Vero se questo paragrafo è un figlio immediato diCell  falso altrimenti in C#.
+description: Scopri la proprietà Paragraph IsInCell. Determina facilmente se un paragrafo è figlio diretto di una cella, migliorando la struttura e la formattazione del documento.
 type: docs
 weight: 100
 url: /it/net/aspose.words/paragraph/isincell/
@@ -18,16 +18,16 @@ public bool IsInCell { get; }
 
 ## Esempi
 
-Mostra come apparecchiare una tavola per stare insieme sulla stessa pagina.
+Mostra come apparecchiare la tavola in modo che tutti siano sulla stessa lunghezza d'onda.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Abilita KeepWithNext per ogni paragrafo nella tabella ad eccezione di
-// gli ultimi nell'ultima riga impediranno alla tabella di dividersi su più pagine.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Abilitazione di KeepWithNext per ogni paragrafo nella tabella eccetto per
+// gli ultimi nell'ultima riga impediranno che la tabella venga suddivisa su più pagine.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,14 +3,14 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words för .NET
-description: ShapeBase AllowOverlap fast egendom. Hämtar eller ställer in ett värde som anger om denna form kan överlappa andra former i C#.
+description: Upptäck ShapeBase AllowOverlap-egenskapen och styr forminteraktioner genom att aktivera eller inaktivera överlappning med andra former för ökad designflexibilitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-Hämtar eller ställer in ett värde som anger om denna form kan överlappa andra former.
+Hämtar eller anger ett värde som anger om denna form kan överlappa andra former.
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -18,11 +18,11 @@ public bool AllowOverlap { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen påverkar beteendet hos formen i Microsoft Word. Aspose.Words ignorerar värdet på den här egenskapen.
+Den här egenskapen påverkar formens beteende i Microsoft Word. Aspose.Words ignorerar värdet för den här egenskapen.
 
-Den här egenskapen är endast tillämplig på former på toppnivå.
+Den här egenskapen gäller endast för former på översta nivån.
 
-Standardvärdet är`Sann`.
+Standardvärdet är`sann`.
 
 ## Exempel
 
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Endast Marginal, Sida, Kolumn tillgängliga i RelativeHorizontalPosition för HorizontalAnchor Setter.
-    // ArgumentException kommer att kastas för alla andra värden.
+    // Endast marginal, sida och kolumn är tillgängliga i RelativeHorizontalPosition för HorizontalAnchor-sättaren.
+    // ArgumentException kommer att utlösas för alla andra värden.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Endast Marginal, Sida, Paragraph tillgängliga i RelativeVerticalPosition för VerticalAnchor Setter.
-    // ArgumentException kommer att kastas för alla andra värden.
+    // Endast marginal, sida och stycke tillgängliga i RelativeVerticalPosition för VerticalAnchor-inställaren.
+    // ArgumentException kommer att utlösas för alla andra värden.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

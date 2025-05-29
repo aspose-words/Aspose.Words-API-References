@@ -3,14 +3,14 @@ title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
 second_title: Aspose.Words för .NET
-description: VbaProject Modules fast egendom. Returnerar samling av VBAprojektmoduler i C#.
+description: Upptäck VbaProject-modulerna, få enkelt tillgång till och hantera dina VBA-projektmoduler för förbättrad automatisering och effektivitet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
 
-Returnerar samling av VBA-projektmoduler.
+Returnerar en samling av VBA-projektmoduler.
 
 ```csharp
 public VbaModuleCollection Modules { get; }
@@ -29,14 +29,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

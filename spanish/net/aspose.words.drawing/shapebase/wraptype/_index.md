@@ -3,14 +3,14 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words para .NET
-description: ShapeBase WrapType propiedad. Define si la forma está en línea o flotante. Para formas flotantes define el modo de ajuste del texto alrededor de la forma en C#.
+description: Descubra la propiedad ShapeBase WrapType, controle formas en línea o flotantes y personalice el ajuste de texto para una mayor flexibilidad de diseño.
 type: docs
-weight: 600
+weight: 640
 url: /es/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Define si la forma está en línea o flotante. Para formas flotantes, define el modo de ajuste del texto alrededor de la forma.
+Define si la forma es en línea o flotante. Para las formas flotantes, define el modo de ajuste del texto alrededor de la forma.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -30,7 +30,7 @@ Muestra cómo insertar una imagen flotante en el centro de una página.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y alinéala con el centro de la página.
+// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y la alinea con el centro de la página.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -42,7 +42,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Muestra cómo crear y dar formato a un cuadro de texto.
+Muestra cómo crear y formatear un cuadro de texto.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Establece la alineación horizontal y vertical del texto dentro de la forma.
+// Establezca la alineación horizontal y vertical del texto dentro de la forma.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

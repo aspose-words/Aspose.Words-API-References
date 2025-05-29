@@ -3,7 +3,7 @@ title: CommentRangeStart
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words per .NET
-description: CommentRangeStart costruttore. Inizializza una nuova istanza di questa classe in C#.
+description: Scopri il costruttore CommentRangeStart. Crea facilmente nuove istanze di questa classe per una maggiore efficienza di codifica e uno sviluppo semplificato.
 type: docs
 weight: 10
 url: /it/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,17 +19,17 @@ public CommentRangeStart(DocumentBase doc, int id)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
-| id | Int32 | L'identificatore del commento a cui è collegato questo oggetto. |
+| id | Int32 | Identificatore del commento a cui è collegato questo oggetto. |
 
 ## Osservazioni
 
-Quando[`CommentRangeStart`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
+Quando[`CommentRangeStart`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`null`.
 
-Per aggiungere a[`CommentRangeStart`](../) al documento utilizzare InsertAfter o InsertBefore sul paragrafo in cui si desidera inserire il commento.
+Per aggiungere un[`CommentRangeStart`](../) nel documento utilizzare InsertAfter o InsertBefore sul paragrafo in cui si desidera inserire il commento.
 
 ## Esempi
 
-Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
+Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli utilizzando un visitatore di documenti.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -45,14 +45,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Aggiungi testo al documento, deformalo in un intervallo di commenti, quindi aggiungi il tuo commento.
+    // Aggiungi del testo al documento, inseriscilo in un intervallo di commenti e poi aggiungi il tuo commento.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Aggiunge due risposte al commento.
+    // Aggiungi due risposte al commento.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -60,26 +60,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itera su ogni commento di livello superiore e stampa l'intervallo di commenti, i contenuti e le risposte.
+/// Esegue l'iterazione su ogni commento di primo livello e ne stampa l'intervallo, il contenuto e le risposte.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itera su tutti i commenti di livello superiore. A differenza dei commenti di tipo risposta, i commenti di livello superiore non hanno antenati.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itera su tutti i commenti di primo livello. A differenza dei commenti di tipo risposta, i commenti di primo livello non hanno antenati.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Innanzitutto, visita l'inizio dell'intervallo di commenti.
+        // Per prima cosa, visita l'inizio dell'intervallo dei commenti.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Quindi, visita il commento e le eventuali risposte che potrebbe contenere.
+        // Quindi, visita il commento e le eventuali risposte.
         comment.Accept(commentVisitor);
+        // Visita solo l'inizio del commento.
+        comment.AcceptStart(commentVisitor);
+        // Visita solo la fine del commento.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Infine, visita la fine dell'intervallo di commenti, quindi stampa il contenuto del testo del visitatore.
+        // Infine, visita la fine dell'intervallo di commenti e quindi stampa il contenuto del testo del visitatore.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -88,7 +92,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Stampa le informazioni e il contenuto di tutti i commenti e gli intervalli di commenti incontrati nel documento.
+/// Stampa informazioni e contenuti di tutti i commenti e intervalli di commenti presenti nel documento.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -99,7 +103,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -107,7 +111,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -129,7 +133,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo CommentRangeEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -141,7 +145,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Commento.
+    /// Chiamato quando nel documento viene rilevato un nodo Commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -154,7 +158,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Commento è terminata nel documento.
+    /// Chiamato quando la visita di un nodo Commento nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -166,7 +170,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

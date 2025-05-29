@@ -3,14 +3,14 @@ title: ImageSaveOptions.ImageColorMode
 linktitle: ImageColorMode
 articleTitle: ImageColorMode
 second_title: Aspose.Words لـ .NET
-description: ImageSaveOptions ImageColorMode ملكية. الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها في C#.
+description: اكتشف خاصية ImageSaveOptions ImageColorMode لتخصيص وتحسين وضع الألوان للصور المُولّدة بسهولة. حسّن صورك اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
 ## ImageSaveOptions.ImageColorMode property
 
-الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها.
+يحصل على وضع اللون للصور المولدة أو يعينه.
 
 ```csharp
 public ImageColorMode ImageColorMode { get; set; }
@@ -18,64 +18,34 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ## ملاحظات
 
-تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
+لا يكون لهذه الخاصية تأثير إلا عند الحفظ بتنسيقات الصور النقطية.
 
 القيمة الافتراضية هيNone.
 
 ## أمثلة
 
-يوضح كيفية ضبط وضع الألوان عند عرض المستندات.
+يوضح كيفية تعيين وضع الألوان عند عرض المستندات.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-            builder.Writeln("Hello world!");
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
+// عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إلى
+// حدد وضع اللون للصورة التي سيتم إنشاءها من خلال عملية الحفظ.
+// إذا قمنا بتعيين خاصية "ImageColorMode" إلى "ImageColorMode.BlackAndWhite"،
+// ستطبق عملية الحفظ تقليل لون التدرج الرمادي أثناء عرض المستند.
+ // إذا قمنا بتعيين خاصية "ImageColorMode" إلى "ImageColorMode.Grayscale"،
+// ستؤدي عملية الحفظ إلى تحويل المستند إلى صورة أحادية اللون.
+// إذا قمنا بتعيين خاصية "ImageColorMode" إلى "None"، فسوف تطبق عملية الحفظ الطريقة الافتراضية
+// والحفاظ على كافة ألوان المستند في الصورة الناتجة.
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.ImageColorMode = imageColorMode;
 
-            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
-            // حدد وضع الألوان للصورة التي ستنشئها عملية الحفظ.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.BlackAndWhite"،
-            // ستطبق عملية الحفظ تقليل اللون الرمادي أثناء عرض المستند.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.Grayscale"،
-            // ستعمل عملية الحفظ على تحويل المستند إلى صورة أحادية اللون.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "لا شيء"، فستطبق عملية الحفظ الطريقة الافتراضية
-            // والحفاظ على جميع ألوان المستند في الصورة الناتجة.
-            ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
-            imageSaveOptions.ImageColorMode = imageColorMode;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
-
-#if NET48 || JAVA
-            switch (imageColorMode)
-            {
-                case ImageColorMode.None:
-                    Assert.That(150000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.Grayscale:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.BlackAndWhite:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-            }
-#elif NET5_0_OR_GREATER
-            switch (imageColorMode)
-            {
-                case ImageColorMode.None:
-                    Assert.That(120000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.Grayscale:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.BlackAndWhite:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-            }
-#endif
+doc.Save(ArtifactsDir + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
 ```
 
 ### أنظر أيضا

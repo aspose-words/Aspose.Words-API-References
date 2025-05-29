@@ -3,14 +3,14 @@ title: Table.AutoFit
 linktitle: AutoFit
 articleTitle: AutoFit
 second_title: Aspose.Words для .NET
-description: Table AutoFit метод. Изменяет размеры таблицы и ячеек в соответствии с указанным поведением автоподбора на С#.
+description: Откройте для себя метод Table AutoFit, чтобы без усилий изменять размер таблиц и ячеек для оптимальной компоновки. Улучшите презентацию вашего документа с легкостью!
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
 
-Изменяет размеры таблицы и ячеек в соответствии с указанным поведением автоподбора.
+Изменяет размер таблицы и ячеек в соответствии с указанным поведением автоподбора.
 
 ```csharp
 public void AutoFit(AutoFitBehavior behavior)
@@ -18,29 +18,29 @@ public void AutoFit(AutoFitBehavior behavior)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| behavior | AutoFitBehavior | Указывает, как автоматически подогнать таблицу. |
+| behavior | AutoFitBehavior | Указывает, как автоматически подгонять таблицу. |
 
 ## Примечания
 
-Этот метод имитирует команды, доступные в меню «Автоматическое размещение» для таблицы в Microsoft Word. Доступные команды: «Автоматическое соответствие содержимому», «Автоматическое соответствие размеру окна» и «Фиксированная ширина столбца». В Microsoft Word эти команды устанавливают соответствующие свойства таблицы, а затем обновляют макет таблицы, и Aspose.Words делает то же самое за вас.
+Этот метод имитирует команды, доступные в меню Auto Fit для таблицы в Microsoft Word. Доступны команды "Auto Fit to Contents", "Auto Fit to Window" и "Fixed Column Width". В Microsoft Word эти команды устанавливают соответствующие свойства таблицы, а затем обновляют макет таблицы, и Aspose.Words делает то же самое для вас.
 
 ## Примеры
 
-Показывает, как построить новую таблицу с применением стиля.
+Показывает, как создать новую таблицу, применяя стиль.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
+// Перед настройкой форматирования таблицы необходимо вставить хотя бы одну строку.
 builder.InsertCell();
 
-// Установите используемый стиль таблицы на основе идентификатора стиля.
+// Устанавливаем используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
+// Частично применяем стиль к признакам таблицы на основе предикатов, затем создаем таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

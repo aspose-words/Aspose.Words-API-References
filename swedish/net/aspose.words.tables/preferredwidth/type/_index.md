@@ -3,14 +3,14 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: PreferredWidth Type fast egendom. Hämtar måttenheten som används för detta föredragna breddvärde i C#.
+description: Upptäck egenskapen PreferredWidth Type, som definierar måttenheten för önskade breddvärden, vilket förbättrar din designprecision och flexibilitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-Hämtar måttenheten som används för detta föredragna breddvärde.
+Hämtar måttenheten som används för detta önskade breddvärde.
 
 ```csharp
 public PreferredWidthType Type { get; }
@@ -18,7 +18,7 @@ public PreferredWidthType Type { get; }
 
 ## Exempel
 
-Visar hur man verifierar den föredragna breddtypen och värdet för en tabellcell.
+Visar hur man verifierar önskad breddtyp och värde för en tabellcell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

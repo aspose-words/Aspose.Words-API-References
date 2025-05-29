@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
 second_title: Aspose.Words لـ .NET
-description: DigitalSignatureCollection البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ مجموعة التوقيعات الرقمية - الحل الأمثل لإدارة التوقيعات الرقمية بكفاءة. بسّط سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/

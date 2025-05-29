@@ -2,15 +2,15 @@
 title: DocumentBuilder.InsertImage
 linktitle: InsertImage
 articleTitle: InsertImage
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder InsertImage 方法. 插入来自 .NET 的图像Image 对象放入文档中图像以 100 比例内嵌插入 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder 的 InsertImage 方法轻松增强您的文档，允许无缝插入全尺寸的 .NET 图像以获得令人惊叹的视觉效果。
 type: docs
-weight: 370
+weight: 400
 url: /zh/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(*Image*) {#insertimage_3}
 
-插入来自 .NET 的图像Image 对象放入文档中。图像以 100% 比例内嵌插入。
+插入来自 .NET 的图像Image 对象插入文档。图像以 100% 比例内联插入。
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -26,31 +26,31 @@ public Shape InsertImage(Image image)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将对象中的图像插入到文档中。
+展示如何将对象中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// 下面是从 Image 对象实例插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
-builder.InsertImage(image);
+// 以下是从 Image 对象实例插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - 具有自定义尺寸的内联形状：
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - 具有自定义尺寸的浮动形状：
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ## InsertImage(*string*) {#insertimage_9}
 
-将文件或 URL 中的图像插入到文档中。图像以 100% 比例内嵌插入。
+将文件或 URL 中的图片插入文档。图片以内联方式插入，且比例为 100%。
 
 ```csharp
 public Shape InsertImage(string fileName)
@@ -75,7 +75,7 @@ public Shape InsertImage(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 带有图像的文件。可以是任何有效的本地或远程 URI。 |
+| fileName | String | 包含图像的文件。可以是任何有效的本地或远程 URI。 |
 
 ### 返回值
 
@@ -83,19 +83,30 @@ public Shape InsertImage(string fileName)
 
 ## 评论
 
-如果您指定远程 URI，此重载将在插入到 document 之前自动下载图像。
+如果您指定远程 URI，此重载将在插入 document 之前自动下载图像。
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将 gif 图像插入到文档中。
+展示如何插入 WebP 图像。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertImage(ImageDir + "WebP image.webp");
+
+doc.Save(ArtifactsDir + "Image.InsertWebpImage.docx");
+```
+
+展示如何将 gif 图像插入文档。
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
 // 我们可以使用路径或字节数组插入 gif 图像。
-// 仅当 DocumentBuilder 针对 Word 版本 2010 或更高版本进行优化时才有效。
+// 仅当 DocumentBuilder 优化到 Word 2010 或更高版本时才有效。
 // 注意，访问图像字节会导致 Gif 转换为 Png。
 Shape gifImage = builder.InsertImage(ImageDir + "Graphics Interchange Format.gif");
 
@@ -104,13 +115,13 @@ gifImage = builder.InsertImage(File.ReadAllBytes(ImageDir + "Graphics Interchang
 builder.Document.Save(ArtifactsDir + "InsertGif.docx");
 ```
 
-演示如何将带有图像的形状插入到文档中。
+展示如何将带有图像的形状插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是文档生成器的“InsertShape”方法的两个位置
+// 下面是文档构建器的“InsertShape”方法的两个位置
 // 可以获取形状将显示的图像。
 // 1 - 传递图像文件的本地文件系统文件名：
 builder.Write("Image from local file: ");
@@ -125,13 +136,13 @@ builder.Writeln();
 doc.Save(ArtifactsDir + "Image.FromUrl.docx");
 ```
 
-演示如何将浮动图像插入到页面中央。
+展示如何将浮动图像插入到页面的中心。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个浮动图像，该图像将出现在重叠文本后面并将其与页面中心对齐。
+// 插入一个浮动图像，该图像将出现在重叠文本后面，并将其与页面的中心对齐。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -143,7 +154,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-演示如何确定将插入哪个图像。
+显示如何确定要插入哪个图像。
 
 ```csharp
 Document doc = new Document();
@@ -151,7 +162,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 
-// Aspose.Words 将 SVG 图像以带有 svgBlip 扩展名的 PNG 格式插入到文档中
+// Aspose.Words 将 SVG 图像以 PNG 格式插入文档，并附加 svgBlip 扩展名
 // 包含原始矢量 SVG 图像表示。
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
@@ -160,18 +171,18 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 
-// Aspose.Words 将 SVG 图像作为 EMF 图元文件插入到文档中，以保持图像的矢量表示形式。
+// Aspose.Words 将 SVG 图像作为 EMF 元文件插入到文档中，以将图像保存为矢量表示。
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
-演示如何将本地文件系统中的图像插入到文档中。
+展示如何将本地文件系统中的图像插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 以下是从本地系统文件名插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -200,7 +211,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream*) {#insertimage_6}
 
-将图像从流插入到文档中。图像以 100% 比例内嵌插入。
+将流中的图像插入文档。图像以内联方式插入，且比例为 100%。
 
 ```csharp
 public Shape InsertImage(Stream stream)
@@ -216,11 +227,11 @@ public Shape InsertImage(Stream stream)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将带有图像的形状从流插入到文档中。
+展示如何将流中的带有图像的形状插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -235,7 +246,7 @@ using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
-演示如何将图像从流插入到文档中。
+展示如何将流中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -243,8 +254,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // 下面是从流中插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
+    // 以下是从流插入图像的三种方法。
+    // 1 - 根据图像的原始尺寸具有默认大小的内联形状：
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -273,7 +284,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(*byte[]*) {#insertimage}
 
-将字节数组中的图像插入到文档中。图像以 100% 比例内嵌插入。
+将字节数组中的图像插入文档。图像以内联方式插入，且比例为 100%。
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes)
@@ -289,76 +300,34 @@ public Shape InsertImage(byte[] imageBytes)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将图像从字节数组插入到文档中。
+展示如何将字节数组中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// 以下是从字节数组插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageByteArray);
 
-    // 下面是从字节数组插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - 具有自定义尺寸的内联形状：
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - 具有自定义尺寸的内联形状：
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - 具有自定义尺寸的浮动形状：
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - 具有自定义尺寸的浮动形状：
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-演示如何将图像从字节数组插入到文档中 (.NetStandard 2.0)。
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// 解码图像会将其转换为 .png 格式。
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // 下面是从字节数组插入图像的三种方法。
-            // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - 具有自定义尺寸的内联形状：
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - 具有自定义尺寸的浮动形状：
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### 也可以看看
@@ -372,7 +341,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(*Image, double, double*) {#insertimage_5}
 
-从 .NET 插入内嵌图像Image 对象放入文档中并将其缩放至指定大小。
+从 .NET 插入内联图像Image 对象放入文档并将其缩放到指定大小。
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -381,8 +350,8 @@ public Shape InsertImage(Image image, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | Image | 要插入到文档中的图像。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
 
 ### 返回值
 
@@ -390,62 +359,34 @@ public Shape InsertImage(Image image, double width, double height)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将对象中的图像插入到文档中。
+展示如何将对象中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// 下面是从 Image 对象实例插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
-builder.InsertImage(image);
+// 以下是从 Image 对象实例插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - 具有自定义尺寸的内联形状：
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - 具有自定义尺寸的浮动形状：
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-演示如何将对象中的图像插入到文档中 (.NetStandard 2.0)。
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// 解码图像会将其转换为 .png 格式。
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // 下面是从 Image 对象实例插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 - 具有自定义尺寸的内联形状：
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - 具有自定义尺寸的浮动形状：
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### 也可以看看
@@ -459,7 +400,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(*string, double, double*) {#insertimage_11}
 
-将文件或 URL 中的内嵌图像插入到文档中，并将其缩放到指定的大小。
+将文件或 URL 中的内嵌图像插入文档并将其缩放到指定大小。
 
 ```csharp
 public Shape InsertImage(string fileName, double width, double height)
@@ -468,8 +409,8 @@ public Shape InsertImage(string fileName, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 包含图像的文件。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
 
 ### 返回值
 
@@ -477,18 +418,18 @@ public Shape InsertImage(string fileName, double width, double height)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将本地文件系统中的图像插入到文档中。
+展示如何将本地文件系统中的图像插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 以下是从本地系统文件名插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -517,7 +458,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream, double, double*) {#insertimage_8}
 
-将内嵌图像从流插入到文档中并将其缩放到指定的大小。
+将流中的内嵌图像插入文档并将其缩放到指定大小。
 
 ```csharp
 public Shape InsertImage(Stream stream, double width, double height)
@@ -526,8 +467,8 @@ public Shape InsertImage(Stream stream, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 包含图像的流。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
 
 ### 返回值
 
@@ -535,11 +476,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将图像从流插入到文档中。
+展示如何将流中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -547,8 +488,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // 下面是从流中插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
+    // 以下是从流插入图像的三种方法。
+    // 1 - 根据图像的原始尺寸具有默认大小的内联形状：
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -577,7 +518,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(*byte[], double, double*) {#insertimage_2}
 
-将字节数组中的内联图像插入到文档中并将其缩放到指定的大小。
+将字节数组中的内联图像插入文档并将其缩放到指定大小。
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes, double width, double height)
@@ -586,8 +527,8 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | Byte[] | 包含图像的字节数组。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
 
 ### 返回值
 
@@ -595,76 +536,34 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将图像从字节数组插入到文档中。
+展示如何将字节数组中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// 以下是从字节数组插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageByteArray);
 
-    // 下面是从字节数组插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - 具有自定义尺寸的内联形状：
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - 具有自定义尺寸的内联形状：
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - 具有自定义尺寸的浮动形状：
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - 具有自定义尺寸的浮动形状：
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-演示如何将图像从字节数组插入到文档中 (.NetStandard 2.0)。
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// 解码图像会将其转换为 .png 格式。
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // 下面是从字节数组插入图像的三种方法。
-            // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - 具有自定义尺寸的内联形状：
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - 具有自定义尺寸的浮动形状：
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### 也可以看看
@@ -678,7 +577,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
-插入来自 .NET 的图像Image 指定位置和大小的对象。
+插入来自 .NET 的图像Image位于指定位置和大小的 对象。
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
@@ -688,13 +587,13 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | Image | 要插入到文档中的图像。 |
-| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| wrapType | WrapType | 指定如何使文本环绕图像。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| wrapType | WrapType | 指定如何让文本环绕图像。 |
 
 ### 返回值
 
@@ -702,62 +601,34 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将对象中的图像插入到文档中。
+展示如何将对象中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// 下面是从 Image 对象实例插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
-builder.InsertImage(image);
+// 以下是从 Image 对象实例插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - 具有自定义尺寸的内联形状：
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - 具有自定义尺寸的浮动形状：
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-演示如何将对象中的图像插入到文档中 (.NetStandard 2.0)。
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// 解码图像会将其转换为 .png 格式。
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // 下面是从 Image 对象实例插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 - 具有自定义尺寸的内联形状：
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - 具有自定义尺寸的浮动形状：
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### 也可以看看
@@ -774,7 +645,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
-在指定位置和大小插入文件或 URL 中的图像。
+从文件或 URL 中插入指定位置和大小的图像。
 
 ```csharp
 public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, double left, 
@@ -784,13 +655,13 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 包含图像的文件。 |
-| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| wrapType | WrapType | 指定如何使文本环绕图像。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| wrapType | WrapType | 指定如何让文本环绕图像。 |
 
 ### 返回值
 
@@ -798,17 +669,17 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-展示如何插入图像。
+显示如何插入图像。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 有两种方法可以使用文档生成器获取图像，然后将其作为浮动形状插入。
+// 有两种方法可以使用文档构建器来获取图像然后将其作为浮动形状插入。
 // 1 - 来自本地文件系统中的文件：
 builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
@@ -820,18 +691,18 @@ builder.InsertImage(ImageUrl, RelativeHorizontalPosition.Margin, 100,
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFloatingImage.docx");
 ```
 
-演示如何将图像从本地文件系统插入到文档中，同时保留其尺寸。
+展示如何将本地文件系统中的图像插入文档，同时保留其尺寸。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// InsertImage 方法创建一个浮动形状，其图像数据中包含传递的图像。
-// 我们可以指定形状的尺寸，并将它们传递给此方法。
+// InsertImage 方法使用传递的图像在其图像数据中创建一个浮动形状。
+// 我们可以指定形状的尺寸并将它们传递给此方法。
 Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
     RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
-// 传递负值作为预期尺寸将自动定义
+// 传递负值，因为预期尺寸将自动定义
 // 形状的尺寸基于其图像的尺寸。
 Assert.AreEqual(300.0d, imageShape.Width);
 Assert.AreEqual(300.0d, imageShape.Height);
@@ -839,14 +710,14 @@ Assert.AreEqual(300.0d, imageShape.Height);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertImageOriginalSize.docx");
 ```
 
-演示如何将本地文件系统中的图像插入到文档中。
+展示如何将本地文件系统中的图像插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 以下是从本地系统文件名插入图像的三种方法。
-// 1 - 内联形状，其默认大小基于图像的原始尺寸：
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -878,7 +749,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
-在指定位置和大小处插入流中的图像。
+将流中的图像插入到指定位置和大小。
 
 ```csharp
 public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, double left, 
@@ -888,13 +759,13 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 包含图像的流。 |
-| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| wrapType | WrapType | 指定如何使文本环绕图像。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| wrapType | WrapType | 指定如何让文本环绕图像。 |
 
 ### 返回值
 
@@ -902,11 +773,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将图像从流插入到文档中。
+展示如何将流中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -914,8 +785,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // 下面是从流中插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
+    // 以下是从流插入图像的三种方法。
+    // 1 - 根据图像的原始尺寸具有默认大小的内联形状：
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -947,7 +818,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(*byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_1}
 
-在指定位置和大小处插入字节数组中的图像。
+在指定位置和大小插入字节数组中的图像。
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, double left, 
@@ -957,13 +828,13 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | Byte[] | 包含图像的字节数组。 |
-| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
-| wrapType | WrapType | 指定如何使文本环绕图像。 |
+| width | Double | 图像的宽度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| height | Double | 图像的高度（以磅为单位）。可以为负值或零，以请求 100% 缩放。 |
+| wrapType | WrapType | 指定如何让文本环绕图像。 |
 
 ### 返回值
 
@@ -971,76 +842,34 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 ## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
 ## 例子
 
-演示如何将图像从字节数组插入到文档中。
+展示如何将字节数组中的图像插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// 以下是从字节数组插入图像的三种方法。
+// 1 - 根据图像的原始尺寸具有默认大小的内联形状：
+builder.InsertImage(imageByteArray);
 
-    // 下面是从字节数组插入图像的三种方法。
-    // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - 具有自定义尺寸的内联形状：
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - 具有自定义尺寸的内联形状：
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - 具有自定义尺寸的浮动形状：
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - 具有自定义尺寸的浮动形状：
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-演示如何将图像从字节数组插入到文档中 (.NetStandard 2.0)。
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// 解码图像会将其转换为 .png 格式。
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // 下面是从字节数组插入图像的三种方法。
-            // 1 - 内联形状，其默认大小基于图像的原始尺寸：
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - 具有自定义尺寸的内联形状：
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - 具有自定义尺寸的浮动形状：
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### 也可以看看

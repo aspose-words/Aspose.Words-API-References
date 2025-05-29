@@ -2,8 +2,8 @@
 title: AxisScaling.Minimum
 linktitle: Minimum
 articleTitle: Minimum
-second_title: 用于 .NET 的 Aspose.Words
-description: AxisScaling Minimum 财产. 获取或设置轴的最小值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 AxisScaling Minimum 属性，轻松设置和自定义轴的最小值，以增强数据可视化。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -18,11 +18,11 @@ public AxisBound Minimum { get; set; }
 
 ## 评论
 
-默认值为“自动”。
+默认值为“auto”。
 
 ## 例子
 
-演示如何插入带有日期/时间值的图表。
+显示如何插入带有日期/时间值的图表。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 添加一个自定义系列，其中包含 X 轴的日期/时间值以及 Y 轴的相应小数值。
+// 添加一个自定义系列，其中包含 X 轴的日期/时间值以及 Y 轴的相应十进制值。
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -48,7 +48,7 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// 将X轴的主要单位设置为周，次要单位设置为天。
+// 将 X 轴的主单位设置为周，次单位设置为天。
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -57,9 +57,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// 定义小数值的 Y 轴属性。
+// 定义十进制值的 Y 轴属性。
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

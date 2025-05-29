@@ -3,14 +3,14 @@ title: Section.AppendContent
 linktitle: AppendContent
 articleTitle: AppendContent
 second_title: Aspose.Words för .NET
-description: Section AppendContent metod. Infogar en kopia av innehållet i källavsnittet i slutet av det här avsnittet i C#.
+description: Upptäck hur AppendContent-metoden förbättrar dina avsnitt genom att sömlöst lägga till källinnehåll, vilket förbättrar organisationen och tydligheten i dina projekt.
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-Infogar en kopia av innehållet i källavsnittet i slutet av det här avsnittet.
+Infogar en kopia av innehållet i källavsnittet i slutet av detta avsnitt.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -22,15 +22,15 @@ public void AppendContent(Section sourceSection)
 
 ## Anmärkningar
 
-Endast innehållet i[`Body`](../body/) av källsektionen kopieras, sidinställningar, sidhuvuden och sidfötter kopieras inte.
+Endast innehållet i[`Body`](../body/) av källavsnittet kopieras, sidinställningar, sidhuvuden och sidfötter kopieras inte.
 
-Noderna importeras automatiskt om källdelen tillhör ett annat dokument.
+Noderna importeras automatiskt om källavsnittet tillhör ett annat dokument.
 
-Ingen ny sektion skapas i måldokumentet.
+Inget nytt avsnitt skapas i måldokumentet.
 
 ## Exempel
 
-Visar hur man lägger till innehållet i ett avsnitt till ett annat avsnitt.
+Visar hur man lägger till innehållet i ett avsnitt i ett annat avsnitt.
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,11 @@ Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Infoga innehållet i det andra avsnittet i slutet av det tredje avsnittet.
+// Infoga innehållet i den andra sektionen i slutet av den tredje sektionen.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// Metoderna "PrependContent" och "AppendContent" skapade inga nya sektioner.
+// Metoderna "PrependContent" och "AppendContent" skapade inga nya avsnitt.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

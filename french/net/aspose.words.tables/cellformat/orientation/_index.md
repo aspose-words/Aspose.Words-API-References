@@ -3,9 +3,9 @@ title: CellFormat.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words pour .NET
-description: CellFormat Orientation propriété. Renvoie ou définit lorientation du texte dans une cellule de tableau en C#.
+description: Découvrez comment utiliser la propriété Orientation CellFormat pour ajuster la direction du texte dans les cellules du tableau, améliorant ainsi la lisibilité et la conception de vos documents.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -18,7 +18,7 @@ public TextOrientation Orientation { get; set; }
 
 ## Exemples
 
-Montre comment créer un tableau 2x2 formaté.
+Montre comment créer un tableau formaté 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
+// Les lignes et cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Définition des options de formatage de tableau pour un générateur de documents
-// les appliquera à chaque ligne et cellule que nous ajouterons avec.
+// les appliquera à chaque ligne et cellule que nous ajouterons avec lui.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -91,8 +91,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer le formatage l'appliquera à la cellule actuelle,
-// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
+// La modification de la mise en forme l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons avec le générateur par la suite.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -104,7 +104,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
+// Augmenter la hauteur de la ligne pour s'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

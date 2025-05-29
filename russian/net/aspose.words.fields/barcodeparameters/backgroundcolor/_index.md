@@ -3,7 +3,7 @@ title: BarcodeParameters.BackgroundColor
 linktitle: BackgroundColor
 articleTitle: BackgroundColor
 second_title: Aspose.Words для .NET
-description: BarcodeParameters BackgroundColor свойство. Цвет фона штрихкода 0x000000  0xFFFFFF на С#.
+description: Откройте для себя свойство BarcodeParameters BackgroundColor для создания собственных дизайнов штрихкодов. Легко устанавливайте цвета фона от 0x000000 до 0xFFFFFF для оптимальной видимости!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/barcodeparameters/backgroundcolor/
@@ -18,17 +18,17 @@ public string BackgroundColor { get; set; }
 
 ## Примеры
 
-Показывает, как использовать генератор штрих-кода.
+Показывает, как использовать генератор штрихкодов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// а затем вставляем их в документ как изображения.
+// Мы можем использовать пользовательскую реализацию IBarcodeGenerator для генерации штрихкодов,
+// а затем вставить их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
-// Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
+// Ниже приведены четыре примера различных типов штрихкодов, которые мы можем создать с помощью нашего генератора.
+// Для каждого штрихкода мы указываем новый набор параметров штрихкода, а затем генерируем изображение.
 // После этого мы можем вставить изображение в документ или сохранить его в локальной файловой системе.
 // 1 - QR-код:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -44,8 +44,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - штрих-код EAN13:
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - штрих-код CODE39:
@@ -71,7 +84,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - штрих-код ITF14:
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

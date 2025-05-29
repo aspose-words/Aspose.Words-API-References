@@ -3,7 +3,7 @@ title: INodeChangingCallback.NodeRemoving
 linktitle: NodeRemoving
 articleTitle: NodeRemoving
 second_title: Aspose.Words для .NET
-description: INodeChangingCallback NodeRemoving метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет удален из документа на С#.
+description: Откройте для себя метод INodeChangingCallback NodeRemoving, который срабатывает перед удалением узла документа, обеспечивая бесперебойное управление документами.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/inodechangingcallback/noderemoving/
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Установите обратный вызов изменения узла в пользовательскую реализацию,
-    // затем добавляем/удаляем узлы, чтобы создать журнал.
+    // Устанавливаем обратный вызов изменения узла для пользовательской реализации,
+    // затем добавьте/удалите узлы, чтобы сгенерировать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Регистрирует дату и время добавления и удаления каждого узла.
-/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
+/// Регистрирует дату и время вставки и удаления каждого узла.
+/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

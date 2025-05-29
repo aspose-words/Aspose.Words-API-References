@@ -2,15 +2,15 @@
 title: DocumentSplitCriteria Enum
 linktitle: DocumentSplitCriteria
 articleTitle: DocumentSplitCriteria
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.DocumentSplitCriteria Sıralama. Kaydederken belgenin nasıl parçalara bölüneceğini belirtirHtml  Epub veyaAzw3 format C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Saving.DocumentSplitCriteria'nın en iyi Html, Epub ve Azw3 formatları için belge bölmeyi nasıl geliştirdiğini keşfedin. Kaydetme sürecinizi kolaylaştırın!
 type: docs
-weight: 4960
+weight: 5710
 url: /tr/net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration
 
-Kaydederken belgenin nasıl parçalara bölüneceğini belirtirHtml , Epub veyaAzw3 format.
+Belgenin, kaydedilirken parçalara nasıl bölüneceğini belirtirHtml , Epub veyaAzw3 biçim.
 
 ```csharp
 [Flags]
@@ -21,21 +21,21 @@ public enum DocumentSplitCriteria
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Belge bölünmemiş. |
-| PageBreak | `1` | Belge, açık sayfa sonlarıyla parçalara bölünmüştür. Bir sayfa sonu, bir[`PageBreak`](../../aspose.words/controlchar/pagebreak/) karakter, yeni bir sayfada yeni bölümün başlangıcını belirten bölüm sonu, veya kendine ait bir paragraf[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) özellik şu şekilde ayarlandı:`doğru` . |
-| ColumnBreak | `2` | Belge, sütun sonlarında parçalara bölünür. Bir sütun sonu, bir[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/) karakter veya yeni bir sütunda yeni bölümün başlangıcını belirten bölüm sonu. |
-| SectionBreak | `4` | Belge herhangi bir türdeki bölüm sonunda parçalara bölünür. |
-| HeadingParagraph | `8` | Belge, başlık stili kullanılarak biçimlendirilmiş bir paragrafta parçalara bölünmüştür**Başlık 1** ,**Başlık 2** vb. Birlikte kullanın[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) bölünecek başlık düzeylerini (1'den belirtilen düzeye kadar) belirtmek için. |
+| None | `0` | Belge bölünmedi. |
+| PageBreak | `1` | Belge, açık sayfa sonlarıyla parçalara bölünür. Bir sayfa sonu, bir[`PageBreak`](../../aspose.words/controlchar/pagebreak/) karakter, yeni bir sayfada yeni bölümün başlangıcını belirten bir bölüm sonu, veya kendi paragrafı olan bir bölüm sonu[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) özellik ayarlandı`doğru` . |
+| ColumnBreak | `2` | Belge, sütun sonlarında parçalara bölünür. Bir sütun sonu, bir[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/) or karakteri yeni bir sütunda yeni bölümün başlangıcını belirten bir bölüm sonu. |
+| SectionBreak | `4` | Belge herhangi bir türde bölüm sonuyla parçalara bölünür. |
+| HeadingParagraph | `8` | Belge, başlık stili kullanılarak biçimlendirilmiş bir paragrafta parçalara bölünür**Başlık 1** ,**Başlık 2** vb. ile birlikte kullanın[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) bölünecek başlık düzeylerini (1'den belirtilen düzeye kadar) belirtmek için |
 
 ## Notlar
 
-`DocumentSplitCriteria`birleştirilebilen bir dizi bayraktır. Örneğin, aynı dışa aktarma işleminde document 'yi sayfa sonlarında ve başlık paragraflarında bölebilirsiniz.
+`DocumentSplitCriteria`birleştirilebilen bir bayrak kümesidir. Örneğin, document 'yi aynı dışa aktarma işleminde sayfa sonlarında ve başlık paragraflarında bölebilirsiniz.
 
-Farklı kriterler kısmen örtüşebilir. Örneğin,**Başlık 1** stil sıklıkla olarak verilir[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) özellik, bu nedenle iki kritere girer:PageBreak ve HeadingParagraph. Bazı bölüm sonları sayfa sonlarına vb. neden olabilir. Tipik durumlarda yalnızca bir bayrağın belirtilmesi en pratik seçenektir.
+Farklı kriterler kısmen örtüşebilir. Örneğin,**Başlık 1** stile sıklıkla verilir[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) mülk, bu yüzden iki kritere giriyor:PageBreak ve HeadingParagraph. Bazı bölüm sonları sayfa sonlarına vb. neden olabilir. Tipik durumlarda yalnızca bir bayrak belirtmek en pratik seçenektir.
 
 ## Örnekler
 
-Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
+Bir belgeyi .epub olarak kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -45,13 +45,13 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Varsayılan olarak, bir çıktı .epub belgesinin tüm içeriği tek bir HTML bölümünde bulunur.
-// Bölme kriteri, belgeyi birkaç HTML parçasına ayırmamıza olanak tanır.
-// Belgeyi başlık paragraflarına bölmek için kriterleri belirleyeceğiz.
-// Bu, belirli bir boyuttan daha büyük HTML dosyalarını okuyamayan okuyucular için kullanışlıdır.
+// Varsayılan olarak, bir çıktı .epub belgesinin tüm içeriği tek bir HTML parçasında olacaktır.
+// Bölme kriteri, belgeyi birkaç HTML parçasına ayırmamızı sağlar.
+// Belgeyi başlık paragraflarına bölme kriterini belirleyeceğiz.
+// Bu, belirli bir boyuttan daha büyük HTML dosyalarını okuyamayan okuyucular için yararlıdır.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
-// Belge özelliklerini dışa aktarmak istediğimizi belirtin.
+// Belge özelliklerini dışa aktarmak istediğimizi belirtelim.
 saveOptions.ExportDocumentProperties = true;
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);

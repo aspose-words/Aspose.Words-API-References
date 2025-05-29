@@ -3,14 +3,14 @@ title: FieldAddressBlock.IncludeCountryOrRegionName
 linktitle: IncludeCountryOrRegionName
 articleTitle: IncludeCountryOrRegionName
 second_title: Aspose.Words لـ .NET
-description: FieldAddressBlock IncludeCountryOrRegionName ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم البلد/المنطقة أم لا في C#.
+description: اكتشف خاصية FieldAddressBlock IncludeCountryOrRegionName لإدارة تضمين اسم البلد/المنطقة بسهولة لتحسين تنسيق العنوان.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
 ---
 ## FieldAddressBlock.IncludeCountryOrRegionName property
 
-الحصول على أو تحديد ما إذا كان سيتم تضمين اسم البلد/المنطقة أم لا.
+يحصل على أو يعين ما إذا كان سيتم تضمين اسم البلد/المنطقة.
 
 ```csharp
 public string IncludeCountryOrRegionName { get; set; }
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// ضبط هذا على "2" سيشمل جميع البلدان والمناطق،
-// إلا إذا كان هو المحدد في خاصية ExcludedCountryOrRegionName.
+// سيؤدي تعيين هذا على "2" إلى تضمين جميع البلدان والمناطق،
+// ما لم يكن هو المحدد في خاصية ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // بشكل افتراضي، ستحتوي هذه الخاصية على معرف اللغة للحرف الأول من المستند.
-// يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة بهذا الشكل.
+//يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة على هذا النحو.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

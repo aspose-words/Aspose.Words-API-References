@@ -3,14 +3,14 @@ title: Shape.OleFormat
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words für .NET
-description: Shape OleFormat eigendom. Bietet Zugriff auf die OLEDaten einer Form. Für eine Form die kein OLEObjekt oder ActiveXSteuerelement ist wird zurückgegebenNull  in C#.
+description: Greifen Sie mühelos auf die OleFormat-Eigenschaft von Formen zu und verwalten Sie sie. Rufen Sie OLE-Daten für erweiterte Funktionalität ab, mit Nullrückgabe für Nicht-OLE-Objekte.
 type: docs
-weight: 140
+weight: 150
 url: /de/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Bietet Zugriff auf die OLE-Daten einer Form. Für eine Form, die kein OLE-Objekt oder ActiveX-Steuerelement ist, wird zurückgegeben`Null` .
+Ermöglicht den Zugriff auf die OLE-Daten einer Form. Für eine Form, die kein OLE-Objekt oder ActiveX-Steuerelement ist, gibt`null` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

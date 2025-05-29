@@ -2,8 +2,8 @@
 title: FieldNextIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
-second_title: Aspose.Words for .NET
-description: FieldNextIf ComparisonOperator mülk. Karşılaştırma operatörünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş işlevsellik için karşılaştırma operatörlerinizi kolayca yönetmek ve özelleştirmek amacıyla FieldNextIf ComparisonOperator özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında birden çok satırı tek sayfada birleştirmek için NEXT/NEXTIF alanlarının nasıl kullanılacağını gösterir.
+Bir posta birleştirme sırasında birden fazla satırı tek bir sayfada birleştirmek için NEXT/NEXTIF alanlarının nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldNext()
@@ -26,8 +26,8 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Adres-mektup birleştirmemiz için 3 satırlı bir veri kaynağı oluşturun.
-    // Bu tabloyu kullanan bir adres-mektup birleştirme normalde 3 sayfalık bir belge oluşturur.
+    // E-posta birleştirmemiz için 3 satırdan oluşan bir veri kaynağı oluşturalım.
+    // Bu tabloyu kullanan bir posta birleştirme işlemi normalde 3 sayfalık bir belge oluşturur.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -38,21 +38,21 @@ public void FieldNext()
 
     InsertMergeFields(builder, "First row: ");
 
-    // Aynı AlanAdına sahip birden fazla birleştirme alanımız varsa,
-    // veri kaynağının aynı satırından veri alacaklar ve birleştirme sonrasında aynı değeri gösterecekler.
-    // NEXT alanı adres-mektup birleştirmeye anında bir satır aşağı gitmesini söyler,
-    // bu, NEXT alanını takip eden tüm MERGEFIELD'lerin bir sonraki satırdan veri alacağı anlamına gelir.
-    // Zaten son satırdayken asla bir sonraki satıra atlamaya çalışmadığınızdan emin olun.
+    // Aynı FieldName'e sahip birden fazla birleştirme alanımız varsa,
+    // veri kaynağının aynı satırından veri alacaklar ve birleştirmeden sonra aynı değeri görüntüleyecekler.
+    // SONRAKİ alanı, posta birleştirmeye anında bir satır aşağı hareket etmesini söyler,
+    // bu, NEXT alanını takip eden tüm MERGEFIELD'ların bir sonraki satırdan veri alacağı anlamına gelir.
+    // Son satırdayken bir sonraki satıra geçmeye kesinlikle çalışmayın.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Birleştirme sonrasında bu MERGEFIELD'lerin kabul ettiği veri kaynağı değerleri
-     // yukarıdaki MERGEFIELD'lerle aynı sayfada yer alacak.
+    // Birleştirmeden sonra, bu MERGEFIELD'lerin kabul ettiği veri kaynağı değerleri
+     // yukarıdaki MERGEFIELD'larla aynı sayfada sonlanacaktır.
     InsertMergeFields(builder, "Second row: ");
 
-    // NEXTIF alanı NEXT alanıyla aynı işleve sahiptir,
-    // ancak yalnızca aşağıdaki 3 özellik tarafından oluşturulan bir ifade doğruysa bir sonraki satıra atlar.
+    // NEXTIF alanı, NEXT alanıyla aynı işleve sahiptir.
+    // ancak aşağıdaki 3 özellik tarafından oluşturulan bir ifade doğruysa bir sonraki satıra atlar.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -60,20 +60,20 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Yukarıdaki alanın ileri sürdüğü karşılaştırma doğruysa,
-    // aşağıdaki 3 birleştirme alanı üçüncü satırdan veri alacaktır.
-    // Aksi halde bu alanlar yine 2. satırdan veri alacaktır.
+    // Yukarıdaki alan tarafından iddia edilen karşılaştırma doğruysa,
+    // Aşağıdaki 3 birleştirme alanı üçüncü satırdan veri alacaktır.
+    // Aksi halde bu alanlar tekrar 2. satırdan veri alacaktır.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // Veri kaynağımız 3 satırdan oluşuyor ve satırları iki kere atladık.
-    // Çıktı belgemiz 3 satırın tümünden gelen verileri içeren 1 sayfadan oluşacaktır.
+     // Veri kaynağımızda 3 satır var ve iki kez satır atladık.
+    // Çıktı belgemiz, 3 satırın tümünden veri içeren 1 sayfadan oluşacaktır.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
 /// <summary>
-/// "Nezaket Başlığı", "Ad" ve "Soyadı" adlı sütunları içeren bir veri kaynağı için MERGEFIELD'leri eklemek üzere bir belge oluşturucu kullanır.
+/// "Nezaket Ünvanı", "Adı" ve "Soyadı" adlı sütunları içeren bir veri kaynağı için MERGEFIELD'leri eklemek üzere bir belge oluşturucu kullanır.
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -84,7 +84,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Belirtilen özelliklere sahip bir MERRGEFIELD eklemek için bir belge oluşturucu kullanır.
+/// Belirtilen özelliklere sahip bir MERGFEILD eklemek için bir belge oluşturucu kullanır.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

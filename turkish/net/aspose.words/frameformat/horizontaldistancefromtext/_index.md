@@ -2,15 +2,15 @@
 title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
-second_title: Aspose.Words for .NET
-description: FrameFormat HorizontalDistanceFromText mülk. Bir çerçeve ile onu çevreleyen metin arasındaki yatay mesafeyi nokta cinsinden alır C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçeveler ve metin arasındaki boşluğu noktalarla ölçmek ve belge düzeninizi geliştirmek için FrameFormat HorizontalDistanceFromText özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-Bir çerçeve ile onu çevreleyen metin arasındaki yatay mesafeyi nokta cinsinden alır.
+Bir çerçeve ile çevresindeki metin arasındaki yatay mesafeyi nokta cinsinden alır.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -18,7 +18,7 @@ public double HorizontalDistanceFromText { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

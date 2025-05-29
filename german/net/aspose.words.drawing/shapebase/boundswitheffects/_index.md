@@ -3,14 +3,14 @@ title: ShapeBase.BoundsWithEffects
 linktitle: BoundsWithEffects
 articleTitle: BoundsWithEffects
 second_title: Aspose.Words für .NET
-description: ShapeBase BoundsWithEffects eigendom. Ruft die endgültige Ausdehnung ab die dieses Formobjekt nach dem Anwenden von Zeichnungseffekten hat. Der Wert wird in Punkten gemessen in C#.
+description: Entdecken Sie die ShapeBase BoundsWithEffects-Eigenschaft, um den endgültigen Umfang Ihrer Form nach dem Anwenden von Zeicheneffekten zu erhalten, der zur Präzision in Punkten gemessen wird.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing/shapebase/boundswitheffects/
 ---
 ## ShapeBase.BoundsWithEffects property
 
-Ruft die endgültige Ausdehnung ab, die dieses Formobjekt nach dem Anwenden von Zeichnungseffekten hat. Der Wert wird in Punkten gemessen.
+Ruft die endgültige Ausdehnung dieses Formobjekts nach dem Anwenden von Zeicheneffekten ab. Der Wert wird in Punkten gemessen.
 
 ```csharp
 public RectangleF BoundsWithEffects { get; }
@@ -33,7 +33,7 @@ Assert.AreEqual(shapes[0].Height, shapes[1].Height);
 Assert.AreEqual(shapes[0].ShapeType, shapes[1].ShapeType);
 
 // Die erste Form hat keine Effekte und die zweite hat einen Schatten und einen dicken Umriss.
-// Durch diese Effekte wird die Silhouette der zweiten Form größer als die der ersten.
+// Diese Effekte machen die Silhouette der zweiten Form größer als die der ersten.
 // Auch wenn die Größe des Rechtecks angezeigt wird, wenn wir in Microsoft Word auf diese Formen klicken,
 // Die sichtbaren Außengrenzen der zweiten Form werden durch Schatten und Umriss beeinflusst und sind daher größer.
 // Wir können die Methode „AdjustWithEffects“ verwenden, um die wahre Größe der Form anzuzeigen.
@@ -44,14 +44,14 @@ Assert.True(shapes[1].ShadowEnabled);
 
 Shape shape = shapes[0];
 
-// Erstelle ein RechteckF-Objekt, das ein Rechteck darstellt,
+// Erstelle ein RectangleF-Objekt, das ein Rechteck darstellt,
 // die wir möglicherweise als Koordinaten und Grenzen für eine Form verwenden könnten.
 RectangleF rectangleF = new RectangleF(200, 200, 1000, 1000);
 
 // Führen Sie diese Methode aus, um die Größe des Rechtecks für alle unsere Formeffekte anzupassen.
 RectangleF rectangleFOut = shape.AdjustWithEffects(rectangleF);
 
-// Da die Form keine randverändernden Auswirkungen hat, bleiben ihre Randabmessungen davon unberührt.
+// Da die Form keine randverändernden Effekte hat, bleiben ihre Randabmessungen unberührt.
 Assert.AreEqual(200, rectangleFOut.X);
 Assert.AreEqual(200, rectangleFOut.Y);
 Assert.AreEqual(1000, rectangleFOut.Width);
@@ -71,15 +71,15 @@ rectangleFOut = shape.AdjustWithEffects(rectangleF);
 Assert.AreEqual(171.5, rectangleFOut.X);
 Assert.AreEqual(167, rectangleFOut.Y);
 
-// Die Effekte haben sich auch auf die sichtbaren Abmessungen der Form ausgewirkt.
+// Die Effekte haben auch die sichtbaren Abmessungen der Form beeinflusst.
 Assert.AreEqual(1045, rectangleFOut.Width);
-Assert.AreEqual(1132, rectangleFOut.Height);
+Assert.AreEqual(1133.5, rectangleFOut.Height);
 
-// Die Effekte haben sich auch auf die sichtbaren Grenzen der Form ausgewirkt.
+// Die Effekte haben auch die sichtbaren Grenzen der Form beeinflusst.
 Assert.AreEqual(-28.5, shape.BoundsWithEffects.X);
 Assert.AreEqual(-33, shape.BoundsWithEffects.Y);
 Assert.AreEqual(192, shape.BoundsWithEffects.Width);
-Assert.AreEqual(279, shape.BoundsWithEffects.Height);
+Assert.AreEqual(280.5, shape.BoundsWithEffects.Height);
 ```
 
 ### Siehe auch

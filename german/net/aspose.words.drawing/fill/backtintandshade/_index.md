@@ -3,22 +3,30 @@ title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
 second_title: Aspose.Words für .NET
-description: Fill BackTintAndShade eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Hintergrundfarbe heller oder dunkler macht in C#.
+description: Passen Sie die Eigenschaft „BackTintAndShade“ an, um Ihre Hintergrundfarbe mühelos aufzuhellen oder abzudunkeln und so die visuelle Attraktivität und das Benutzererlebnis Ihres Designs zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/fill/backtintandshade/
 ---
 ## Fill.BackTintAndShade property
 
-Ruft einen Double-Wert ab oder legt diesen fest, der die Hintergrundfarbe heller oder dunkler macht.
+Ruft einen Double-Wert ab oder legt ihn fest, der die Hintergrundfarbe aufhellt oder abdunkelt.
 
 ```csharp
 public double BackTintAndShade { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentOutOfRangeException | Wird ausgelöst, wenn diese Eigenschaft auf einen Wert kleiner als -1 oder größer als 1 gesetzt wird. |
+
 ## Bemerkungen
 
-Die zulässigen Werte liegen für diese Eigenschaft im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
+Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (dunkelster Wert) bis 1 (hellster Wert).
+
+Null (0) ist neutral.
 
 ## Beispiele
 
@@ -34,7 +42,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Hinweis: Verwenden Sie nicht „BackThemeColor“ und „BackTintAndShade“ für die Schriftartfüllung.
+// Hinweis: Verwenden Sie „BackThemeColor“ und „BackTintAndShade“ nicht zum Füllen der Schriftart.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

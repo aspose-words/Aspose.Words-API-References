@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 linktitle: ExportEmbeddedFonts
 articleTitle: ExportEmbeddedFonts
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions ExportEmbeddedFonts eigendom. Gibt an ob Schriftarten in ein HTMLDokument im Base64Format eingebettet werden sollen. Hinweis Das Setzen dieses Flags kann die Größe der ausgegebenen HTMLDatei erheblich erhöhen in C#.
+description: Steuern Sie die Einbettung von Schriftarten in Ihr HTML mit der Eigenschaft „ExportEmbeddedFonts“. Verbessern Sie die Dokumentqualität und verwalten Sie gleichzeitig die Dateigröße effektiv.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-Gibt an, ob Schriftarten in ein HTML-Dokument im Base64-Format eingebettet werden sollen. Hinweis: Das Setzen dieses Flags kann die Größe der ausgegebenen HTML-Datei erheblich erhöhen.
+Gibt an, ob Schriftarten im Base64-Format in HTML-Dokumente eingebettet werden sollen. Beachten Sie, dass das Setzen dieses Flags die Größe der HTML-Ausgabedatei erheblich erhöhen kann.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -18,18 +18,18 @@ public bool ExportEmbeddedFonts { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie bestimmen, wo eingebettete Schriftarten gespeichert werden sollen, wenn Sie ein Dokument in HTML exportieren.
+Zeigt, wie Sie beim Exportieren eines Dokuments in HTML bestimmen, wo eingebettete Schriftarten gespeichert werden sollen.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 // Wenn wir ein Dokument mit eingebetteten Schriftarten nach .html exportieren,
-// Aspose.Words kann die Schriftarten an zwei möglichen Orten platzieren.
+// Aspose.Words kann die Schriftarten an zwei möglichen Stellen platzieren.
 // Wenn Sie das Flag „ExportEmbeddedFonts“ auf „true“ setzen, werden die Rohdaten für eingebettete Schriftarten im CSS-Stylesheet gespeichert.
-// in der Eigenschaft „url“ der Regel „@font-face“. Dadurch kann eine riesige CSS-Stylesheet-Datei entstehen
-// und reduzieren Sie die Anzahl der externen Dateien, die diese HTML-Konvertierung erstellt.
+// in der "url"-Eigenschaft der "@font-face"-Regel. Dies kann eine riesige CSS-Stylesheet-Datei erzeugen
+// und reduzieren Sie die Anzahl der externen Dateien, die durch diese HTML-Konvertierung erstellt werden.
 // Wenn Sie dieses Flag auf „false“ setzen, wird für jede Schriftart eine Datei erstellt.
-// Das CSS-Stylesheet stellt mithilfe der „url“-Eigenschaft der „@font-face“-Regel eine Verknüpfung zu jeder Schriftartendatei her.
+// Das CSS-Stylesheet verknüpft jede Schriftartdatei mithilfe der „URL“-Eigenschaft der „@font-face“-Regel.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedFonts = exportEmbeddedFonts

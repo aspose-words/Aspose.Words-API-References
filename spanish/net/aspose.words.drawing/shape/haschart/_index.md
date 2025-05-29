@@ -3,14 +3,14 @@ title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
 second_title: Aspose.Words para .NET
-description: Shape HasChart propiedad. Devolucionesverdadero si estoShape tiene unChart  en C#.
+description: Descubre si tu forma incluye un gráfico con la propiedad HasChart. ¡Mejora la visualización de tus datos fácilmente!
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Devoluciones`verdadero` si esto[`Shape`](../) tiene un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Devuelve`verdadero` Si esto[`Shape`](../) tiene una[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

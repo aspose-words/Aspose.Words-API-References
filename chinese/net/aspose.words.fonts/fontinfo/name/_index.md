@@ -2,15 +2,15 @@
 title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo Name 财产. 获取字体名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FontInfo Name 属性以便轻松访问和使用字体名称来增强项目中的排版。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
 
-获取字体名称。
+获取字体的名称。
 
 ```csharp
 public string Name { get; }
@@ -18,11 +18,11 @@ public string Name { get; }
 
 ## 评论
 
-不可能是`无效的`。可以是空字符串。
+不可能`无效的`. 可以是空字符串。
 
 ## 例子
 
-演示如何打印文档中存在的字体的详细信息。
+显示如何打印文档中存在的字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

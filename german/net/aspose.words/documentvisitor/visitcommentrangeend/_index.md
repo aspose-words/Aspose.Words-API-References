@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
 articleTitle: VisitCommentRangeEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitCommentRangeEnd methode. Wird aufgerufen wenn das Ende eines kommentierten Textbereichs erreicht wird in C#.
+description: Entdecken Sie die DocumentVisitor-Methode VisitCommentRangeEnd, die die Textverarbeitung durch effiziente Handhabung von Kommentarbereichsenden in Ihren Dokumenten verbessern soll.
 type: docs
 weight: 110
 url: /de/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Ein Run wird nur aufgezeichnet, wenn er ein untergeordnetes Element eines Comment- oder CommentRange-Knotens ist.
+    /// Ein Lauf wird nur aufgezeichnet, wenn er ein untergeordnetes Element eines Kommentar- oder CommentRange-Knotens ist.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -120,7 +120,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie diese ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten eines Kommentars/Kommentarbereichs.
     /// </summary>
     /// <param name="text"></param>

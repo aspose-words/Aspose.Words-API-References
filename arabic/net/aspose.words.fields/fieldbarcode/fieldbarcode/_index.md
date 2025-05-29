@@ -3,7 +3,7 @@ title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words لـ .NET
-description: FieldBarcode البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldBarcode - الحل الأمثل لإنشاء باركود سلس. حسّن كفاءة عملك مع مُنشئنا الافتراضي البديهي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbarcode/fieldbarcode/

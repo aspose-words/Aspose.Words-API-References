@@ -3,14 +3,14 @@ title: FontInfoCollection.EmbedTrueTypeFonts
 linktitle: EmbedTrueTypeFonts
 articleTitle: EmbedTrueTypeFonts
 second_title: Aspose.Words para .NET
-description: FontInfoCollection EmbedTrueTypeFonts propiedad. Especifica si se incrustan o no fuentes TrueType en un documento cuando se guarda. El valor predeterminado para esta propiedad esFALSO  en C#.
+description: Descubra cómo la propiedad EmbedTrueTypeFonts de FontInfoCollection mejora la calidad del documento al permitir la incrustación de fuentes TrueType. El valor predeterminado es falso.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 ---
 ## FontInfoCollection.EmbedTrueTypeFonts property
 
-Especifica si se incrustan o no fuentes TrueType en un documento cuando se guarda. El valor predeterminado para esta propiedad es`FALSO` .
+Especifica si se deben incrustar o no fuentes TrueType en un documento cuando se guarda. El valor predeterminado para esta propiedad es`FALSO` .
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }
@@ -18,9 +18,9 @@ public bool EmbedTrueTypeFonts { get; set; }
 
 ## Observaciones
 
-La incrustación de fuentes TrueType permite que otras personas vean el documento con las mismas fuentes que se utilizaron para crearlo, pero puede aumentar sustancialmente el tamaño del documento.
+La incorporación de fuentes TrueType permite que otros vean el documento con las mismas fuentes que se utilizaron para crearlo, pero puede aumentar sustancialmente el tamaño del documento.
 
-Esta opción sólo funciona con formatos DOC, DOCX y RTF.
+Esta opción funciona solo para formatos DOC, DOCX y RTF.
 
 ## Ejemplos
 
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Ver también

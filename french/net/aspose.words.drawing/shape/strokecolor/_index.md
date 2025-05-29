@@ -3,9 +3,9 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words pour .NET
-description: Shape StrokeColor propriété. Définit la couleur dun trait en C#.
+description: Personnalisez votre conception avec la propriété Shape StrokeColor, vous permettant de définir des couleurs de trait vibrantes pour un impact visuel époustouflant.
 type: docs
-weight: 190
+weight: 200
 url: /fr/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -20,7 +20,7 @@ public Color StrokeColor { get; set; }
 
 Il s'agit d'un raccourci vers le[`Color`](../../stroke/color/) propriété.
 
-La valeur par défaut est Black.
+La valeur par défaut est Black .
 
 ## Exemples
 
@@ -37,24 +37,24 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Utilisez la propriété "StrokeColor" pour définir la couleur du contour de la forme.
+// Utilisez la propriété « StrokeColor » pour définir la couleur du contour de la forme.
 shape.StrokeColor = Color.CadetBlue;
 
-// Utilisez la propriété "FillColor" pour définir la couleur de la zone intérieure de la forme.
+// Utilisez la propriété « FillColor » pour définir la couleur de la zone intérieure de la forme.
 shape.FillColor = Color.LightBlue;
 
-// La propriété "Opacité" détermine le degré de transparence de la couleur sur une échelle de 0 à 1,
-// avec 1 étant entièrement opaque et 0 étant invisible.
+// La propriété « Opacité » détermine le degré de transparence de la couleur sur une échelle de 0 à 1,
+// avec 1 étant totalement opaque et 0 étant invisible.
 // Le remplissage de la forme par défaut est entièrement opaque, nous ne pouvons donc pas voir le texte sur lequel se trouve cette forme.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Définit l'opacité de la couleur de remplissage de la forme sur une valeur inférieure afin que nous puissions voir le texte en dessous.
+// Définissez l'opacité de la couleur de remplissage de la forme sur une valeur inférieure afin que nous puissions voir le texte en dessous.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ```
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -79,7 +79,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -89,7 +89,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

@@ -3,14 +3,14 @@ title: Field.End
 linktitle: End
 articleTitle: End
 second_title: Aspose.Words för .NET
-description: Field End fast egendom. Hämtar noden som representerar fältänden i C#.
+description: Upptäck egenskapen Field End. Få enkel åtkomst till noden som representerar fältslutet för sömlös datahantering och förbättrad prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/field/end/
 ---
 ## Field.End property
 
-Hämtar noden som representerar fältänden.
+Hämtar noden som representerar fältets slut.
 
 ```csharp
 public FieldEnd End { get; }
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

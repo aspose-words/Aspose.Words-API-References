@@ -3,16 +3,16 @@ title: Theme Class
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Themes.Theme сорт. Представляет тему документа и обеспечивает доступ к основным частям темы включаяMajorFonts MinorFonts иColors на С#.
+description: Изучите класс Aspose.Words.Theme, чтобы улучшить свои документы с помощью настраиваемых тем, включая MajorFonts, MinorFonts и яркие цвета.
 type: docs
-weight: 6460
+weight: 7310
 url: /ru/net/aspose.words.themes/theme/
 ---
 ## Theme class
 
 Представляет тему документа и обеспечивает доступ к основным частям темы, включая[`MajorFonts`](./majorfonts/) ,[`MinorFonts`](./minorfonts/) и[`Colors`](./colors/)
 
-Чтобы узнать больше, посетите[Работа со стилями и темами](https://docs.aspose.com/words/net/working-with-styles-and-themes/) статья документации.
+Чтобы узнать больше, посетите[Работа со стилями и темами](https://docs.aspose.com/words/net/working-with-styles-and-themes/) документальная статья.
 
 ```csharp
 public class Theme
@@ -34,15 +34,15 @@ public class Theme
 
 ## Примеры
 
-Показывает, как устанавливать собственные цвета и шрифты для тем.
+Показывает, как устанавливать пользовательские цвета и шрифты для тем.
 
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// Объект «Тема» дает нам доступ к теме документа, источнику шрифтов и цветов по умолчанию.
+// Объект «Тема» предоставляет нам доступ к теме документа, источнику шрифтов и цветов по умолчанию.
 Theme theme = doc.Theme;
 
-// Некоторые стили, такие как «Заголовок 1» и «Подзаголовок», наследуют эти шрифты.
+// Некоторые стили, такие как «Заголовок 1» и «Подзаголовок», унаследуют эти шрифты.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
@@ -52,11 +52,11 @@ Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// Свойство "Цвета" содержит цветовую палитру из Microsoft Word,
-// который появляется при изменении заливки или цвета шрифта.
+// Свойство «Цвета» содержит цветовую палитру из Microsoft Word,
+// который появляется при изменении затенения или цвета шрифта.
 // Применяем пользовательские цвета к цветовой палитре, чтобы иметь к ним легкий доступ в Microsoft Word
-// когда мы, например, меняем цвет шрифта через "Домой" -> gt; «Шрифт» -> "Цвет шрифта",
-// или вставьте фигуру, а затем задайте для нее цвет с помощью «Формата фигуры» -> gt; «Стили фигур».
+// когда мы, например, меняем цвет шрифта через "Главная" -> "Шрифт" -> "Цвет шрифта",
+// или вставьте фигуру, а затем задайте для нее цвет с помощью «Формат фигуры» -> «Стили фигуры».
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -70,7 +70,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Применяем пользовательские цвета к гиперссылкам в состояниях, когда они нажаты и не нажаты.
+// Применить пользовательские цвета к гиперссылкам в нажатом и ненажатом состоянии.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

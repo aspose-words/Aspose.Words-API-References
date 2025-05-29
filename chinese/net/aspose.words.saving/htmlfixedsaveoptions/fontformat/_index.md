@@ -2,8 +2,8 @@
 title: HtmlFixedSaveOptions.FontFormat
 linktitle: FontFormat
 articleTitle: FontFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlFixedSaveOptions FontFormat 财产. 获取或设置ExportFontFormat用于字体导出 默认值为Woff 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HtmlFixedSaveOptions FontFormat 属性，自定义字体导出。轻松设置并优化默认格式为 Woff，以获得更佳性能。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -18,7 +18,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ## 例子
 
-显示将文档保存为 HTML 时如何仅使用目标计算机的字体。
+展示如何将文档保存为 HTML 时仅使用目标机器的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

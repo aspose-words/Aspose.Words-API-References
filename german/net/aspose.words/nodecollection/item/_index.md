@@ -3,7 +3,7 @@ title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: NodeCollection Item eigendom. Ruft einen Knoten am angegebenen Index ab in C#.
+description: Greifen Sie mit der NodeCollection-Elementeigenschaft mühelos auf jeden Knoten zu. Rufen Sie Knoten schnell nach Index ab, um nahtloses Datenmanagement und verbesserte Leistung zu gewährleisten.
 type: docs
 weight: 20
 url: /de/net/aspose.words/nodecollection/item/
@@ -18,17 +18,17 @@ public Node this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index für die Sammlung von Knoten. |
+| index | Ein Index in der Knotensammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
@@ -44,15 +44,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
+// Durchlaufen Sie die Sammlung der unmittelbar untergeordneten Elemente des Absatzes.
+// und drucke alle Läufe oder Formen aus, die wir darin finden.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

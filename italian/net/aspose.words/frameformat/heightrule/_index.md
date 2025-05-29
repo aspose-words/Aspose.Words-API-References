@@ -3,7 +3,7 @@ title: FrameFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words per .NET
-description: FrameFormat HeightRule proprietà. Ottiene la regola per determinare laltezza del frame specificato in C#.
+description: Scopri la proprietà FrameFormat HeightRule per determinare facilmente l'altezza del frame. Ottimizza i tuoi progetti con un controllo preciso e una migliore efficienza di layout.
 type: docs
 weight: 20
 url: /it/net/aspose.words/frameformat/heightrule/

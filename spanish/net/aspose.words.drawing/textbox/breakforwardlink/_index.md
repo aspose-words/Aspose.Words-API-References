@@ -3,7 +3,7 @@ title: TextBox.BreakForwardLink
 linktitle: BreakForwardLink
 articleTitle: BreakForwardLink
 second_title: Aspose.Words para .NET
-description: TextBox BreakForwardLink método. Rompe el enlace al siguienteTextBox  en C#.
+description: Descubre el método TextBox BreakForwardLink para desvincular fácilmente tus TextBoxes, mejorando la experiencia del usuario y la navegación en los formularios. ¡Optimiza tu interfaz de usuario hoy mismo!
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -18,7 +18,7 @@ public void BreakForwardLink()
 
 ## Observaciones
 
-`BreakForwardLink`no rompe todos los demás enlaces en la secuencia actual de formas. Por ejemplo: secuencia 1-2-3-4 y`BreakForwardLink` en el segundo cuadro de texto creará dos secuencias 1-2, 3-4.
+`BreakForwardLink` no rompe todos los demás enlaces en la secuencia actual de formas. Por ejemplo: secuencia 1-2-3-4 y`BreakForwardLink` en el segundo cuadro de texto se crearán dos secuencias 1-2, 3-4.
 
 ## Ejemplos
 
@@ -43,14 +43,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crea enlaces entre algunos de los cuadros de texto.
+//Crea enlaces entre algunos de los cuadros de texto.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Sólo un cuadro de texto vacío puede tener un enlace.
+//Solo un cuadro de texto vacío puede tener un enlace.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -68,9 +68,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Rompe el vínculo de reenvío entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
+    // Rompa el vínculo hacia adelante entre textBox2 y textBox3 y luego verifique que ya no estén vinculados.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

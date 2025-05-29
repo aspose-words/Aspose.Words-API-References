@@ -3,14 +3,14 @@ title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
 second_title: Aspose.Words для .NET
-description: RevisionCollection AcceptAll метод. Принимает все версии в этой коллекции на С#.
+description: Откройте для себя метод RevisionCollection AcceptAll для бесшовной интеграции всех изменений, повышения эффективности рабочего процесса и совместной работы.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
 
-Принимает все версии в этой коллекции.
+Принимает все изменения в этой коллекции.
 
 ```csharp
 public void AcceptAll()
@@ -29,11 +29,11 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Сравнение документов с редакциями вызовет исключение.
+// Сравнение документов с ревизиями вызовет исключение.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// После сравнения исходный документ получит новую редакцию
+// После сравнения исходный документ получит новую версию
 // для каждого элемента, отличающегося в редактируемом документе.
 foreach (Revision r in docOriginal.Revisions)
 {
@@ -41,7 +41,7 @@ foreach (Revision r in docOriginal.Revisions)
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Принятие этих изменений приведет к преобразованию исходного документа в отредактированный документ.
+// Принятие этих изменений преобразует исходный документ в отредактированный документ.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

@@ -3,14 +3,14 @@ title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
 second_title: Aspose.Words لـ .NET
-description: LanguagePreferences DefaultEditingLanguage ملكية. الحصول على لغة التحرير الافتراضية أو تعيينها في C#.
+description: أدر تجربة التحرير لديك باستخدام خاصية "لغة التحرير الافتراضية" في "تفضيلات اللغة". عيّن لغة التحرير الافتراضية وخصصها بسهولة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
 ## LanguagePreferences.DefaultEditingLanguage property
 
-الحصول على لغة التحرير الافتراضية أو تعيينها.
+يحصل على لغة التحرير الافتراضية أو يعينها.
 
 القيمة الافتراضية هيEnglishUS.
 
@@ -20,7 +20,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين اللغة الافتراضية عند تحميل مستند.
+يوضح كيفية تعيين لغة افتراضية عند تحميل مستند.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

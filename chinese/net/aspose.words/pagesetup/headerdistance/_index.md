@@ -2,15 +2,15 @@
 title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup HeaderDistance 财产. 返回或设置页眉与页面顶部之间的距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 PageSetup HeaderDistance 属性以自定义页眉间距（以点为单位），增强文档的布局，从而提高可读性和呈现效果。
 type: docs
 weight: 170
 url: /zh/net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property
 
-返回或设置页眉与页面顶部之间的距离（以磅为单位）。
+返回或设置页眉和页面顶部之间的距离（以磅为单位）。
 
 ```csharp
 public double HeaderDistance { get; set; }

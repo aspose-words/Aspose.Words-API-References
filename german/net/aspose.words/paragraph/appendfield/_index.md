@@ -3,14 +3,14 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words für .NET
-description: Paragraph AppendField methode. Fügt ein Feld an diesen Absatz an in C#.
+description: Verbessern Sie Ihr Dokument mit der Paragraph AppendField-Methode, indem Sie Absätzen nahtlos benutzerdefinierte Felder hinzufügen, um die Organisation und Übersichtlichkeit zu verbessern.
 type: docs
-weight: 240
+weight: 260
 url: /de/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
-Fügt ein Feld an diesen Absatz an.
+Fügt diesem Absatz ein Feld hinzu.
 
 ```csharp
 public Field AppendField(FieldType fieldType, bool updateField)
@@ -18,7 +18,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldType | FieldType | Der Typ des anzuhängenden Felds. |
+| fieldType | FieldType | Der Typ des anzuhängenden Feldes. |
 | updateField | Boolean | Gibt an, ob das Feld sofort aktualisiert werden soll. |
 
 ### Rückgabewert
@@ -33,19 +33,19 @@ Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nachfolgend finden Sie drei Möglichkeiten, ein Feld an das Ende eines Absatzes anzuhängen.
-// 1 – Hängen Sie ein DATE-Feld mithilfe eines Feldtyps an und aktualisieren Sie es dann:
+// Unten sind drei Möglichkeiten zum Anhängen eines Felds an das Ende eines Absatzes aufgeführt.
+// 1 – Hängen Sie ein DATE-Feld mit einem Feldtyp an und aktualisieren Sie es dann:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 – Ein TIME-Feld mithilfe eines Feldcodes anhängen:
+    // 2 - Hängen Sie ein ZEIT-Feld mit einem Feldcode an:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 – Hängen Sie ein QUOTE-Feld mithilfe eines Feldcodes an und lassen Sie es einen Platzhalterwert anzeigen:
+// 3 - Hängen Sie ein QUOTE-Feld mit einem Feldcode an und lassen Sie es einen Platzhalterwert anzeigen:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Dieses Feld zeigt seinen Platzhalterwert an, bis wir ihn aktualisieren.
+// Dieses Feld zeigt seinen Platzhalterwert an, bis wir es aktualisieren.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(*string*) {#appendfield_1}
 
-Fügt ein Feld an diesen Absatz an.
+Fügt diesem Absatz ein Feld hinzu.
 
 ```csharp
 public Field AppendField(string fieldCode)
@@ -73,7 +73,7 @@ public Field AppendField(string fieldCode)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldCode | String | Der anzufügende Feldcode (ohne geschweifte Klammern). |
+| fieldCode | String | Der anzuhängende Feldcode (ohne geschweifte Klammern). |
 
 ### Rückgabewert
 
@@ -87,19 +87,19 @@ Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nachfolgend finden Sie drei Möglichkeiten, ein Feld an das Ende eines Absatzes anzuhängen.
-// 1 – Hängen Sie ein DATE-Feld mithilfe eines Feldtyps an und aktualisieren Sie es dann:
+// Unten sind drei Möglichkeiten zum Anhängen eines Felds an das Ende eines Absatzes aufgeführt.
+// 1 – Hängen Sie ein DATE-Feld mit einem Feldtyp an und aktualisieren Sie es dann:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 – Ein TIME-Feld mithilfe eines Feldcodes anhängen:
+    // 2 - Hängen Sie ein ZEIT-Feld mit einem Feldcode an:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 – Hängen Sie ein QUOTE-Feld mithilfe eines Feldcodes an und lassen Sie es einen Platzhalterwert anzeigen:
+// 3 - Hängen Sie ein QUOTE-Feld mit einem Feldcode an und lassen Sie es einen Platzhalterwert anzeigen:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Dieses Feld zeigt seinen Platzhalterwert an, bis wir ihn aktualisieren.
+// Dieses Feld zeigt seinen Platzhalterwert an, bis wir es aktualisieren.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -118,7 +118,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(*string, string*) {#appendfield_2}
 
-Fügt ein Feld an diesen Absatz an.
+Fügt diesem Absatz ein Feld hinzu.
 
 ```csharp
 public Field AppendField(string fieldCode, string fieldValue)
@@ -126,8 +126,8 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldCode | String | Der anzufügende Feldcode (ohne geschweifte Klammern). |
-| fieldValue | String | Der anzufügende Feldwert. Passieren`Null` für Felder, die keinen Wert haben. |
+| fieldCode | String | Der anzuhängende Feldcode (ohne geschweifte Klammern). |
+| fieldValue | String | Der anzuhängende Feldwert.`null` für Felder, die keinen Wert haben. |
 
 ### Rückgabewert
 
@@ -141,19 +141,19 @@ Zeigt verschiedene Möglichkeiten zum Anhängen von Feldern an einen Absatz.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nachfolgend finden Sie drei Möglichkeiten, ein Feld an das Ende eines Absatzes anzuhängen.
-// 1 – Hängen Sie ein DATE-Feld mithilfe eines Feldtyps an und aktualisieren Sie es dann:
+// Unten sind drei Möglichkeiten zum Anhängen eines Felds an das Ende eines Absatzes aufgeführt.
+// 1 – Hängen Sie ein DATE-Feld mit einem Feldtyp an und aktualisieren Sie es dann:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 – Ein TIME-Feld mithilfe eines Feldcodes anhängen:
+    // 2 - Hängen Sie ein ZEIT-Feld mit einem Feldcode an:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 – Hängen Sie ein QUOTE-Feld mithilfe eines Feldcodes an und lassen Sie es einen Platzhalterwert anzeigen:
+// 3 - Hängen Sie ein QUOTE-Feld mit einem Feldcode an und lassen Sie es einen Platzhalterwert anzeigen:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Dieses Feld zeigt seinen Platzhalterwert an, bis wir ihn aktualisieren.
+// Dieses Feld zeigt seinen Platzhalterwert an, bis wir es aktualisieren.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

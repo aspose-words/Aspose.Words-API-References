@@ -3,14 +3,14 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words per .NET
-description: Document PackageCustomParts proprietà. Ottiene o imposta la raccolta di parti personalizzate contenuto arbitrario collegate al pacchetto OOXML utilizzando relazioni sconosciute in C#.
+description: Gestisci le parti personalizzate nel tuo pacchetto OOXML senza sforzo. Accedi e modifica i contenuti collegati con facilità, per una maggiore flessibilità e funzionalità dei documenti.
 type: docs
-weight: 310
+weight: 320
 url: /it/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Ottiene o imposta la raccolta di parti personalizzate (contenuto arbitrario) collegate al pacchetto OOXML utilizzando "relazioni sconosciute".
+Ottiene o imposta la raccolta di parti personalizzate (contenuto arbitrario) collegate al pacchetto OOXML tramite "relazioni sconosciute".
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -18,13 +18,13 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## Osservazioni
 
-Non confondere queste parti personalizzate con i dati XML personalizzati. Se devi accedere a parti XML personalizzate, utilizza il file[`CustomXmlParts`](../customxmlparts/) proprietà.
+Non confondere queste parti personalizzate con i dati XML personalizzati. Se devi accedere alle parti XML personalizzate, usa[`CustomXmlParts`](../customxmlparts/) proprietà.
 
-Questa raccolta contiene parti OOXML il cui genitore è il pacchetto OOXML e i cui target hanno una "relazione sconosciuta". Per ulteriori informazioni vedere[`CustomPart`](../../../aspose.words.markup/custompart/).
+Questa raccolta contiene parti OOXML il cui genitore è il pacchetto OOXML e i cui target sono di una "relazione sconosciuta". Per ulteriori informazioni vedere[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words carica e salva parti personalizzate solo in documenti OOXML.
+Aspose.Words carica e salva le parti personalizzate solo nei documenti OOXML.
 
-Questa proprietà non può essere`nullo`.
+Questa proprietà non può essere`null`.
 
 ## Esempi
 
@@ -57,7 +57,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

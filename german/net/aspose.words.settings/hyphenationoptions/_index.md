@@ -3,9 +3,9 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.HyphenationOptions klas. Ermöglicht die Konfiguration der Silbentrennungsoptionen für Dokumente in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Settings.HyphenationOptions, um die Silbentrennungseinstellungen für Ihre Dokumente mühelos anzupassen und die Textdarstellung zu verbessern.
 type: docs
-weight: 5790
+weight: 6620
 url: /de/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
@@ -28,10 +28,10 @@ public class HyphenationOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob die automatische Silbentrennung für das Dokument aktiviert ist. Der Standardwert für diese Eigenschaft ist`FALSCH` . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Ruft den Wert ab oder legt ihn fest, der bestimmt, ob die automatische Silbentrennung für das Dokument aktiviert ist. Der Standardwert für diese Eigenschaft ist`FALSCH` . |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Ruft die maximale Anzahl aufeinanderfolgender Zeilen ab, die mit Bindestrichen enden können, oder legt diese fest. Der Standardwert für diese Eigenschaft ist 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ruft den Wert ab oder legt diesen fest, der bestimmt, ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft ist`WAHR` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Ruft den Abstand in 1/20 eines Punktes vom rechten Rand ab, innerhalb dessen Sie Wörter nicht trennen möchten. Der Standardwert für diese Eigenschaft ist 360 (0,25 Zoll). |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob Wörter, die in Großbuchstaben geschrieben sind, mit Bindestrichen getrennt werden. Der Standardwert für diese Eigenschaft ist`WAHR` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Ruft den Abstand in 1/20 Punkt vom rechten Rand ab oder legt ihn fest, innerhalb dessen Wörter nicht getrennt werden sollen. Der Standardwert für diese Eigenschaft ist 360 (0,25 Zoll). |
 
 ## Beispiele
 

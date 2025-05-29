@@ -2,15 +2,15 @@
 title: ParagraphFormat.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat LeftIndent 财产. 获取或设置表示段落左缩进的值以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ParagraphFormat LeftIndent 属性轻松调整段落左缩进。自定义文本布局，提升可读性！
 type: docs
 weight: 180
 url: /zh/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-获取或设置表示段落左缩进的值（以磅为单位）。
+获取或设置代表段落左缩进的值（以磅为单位）。
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,15 +18,15 @@ public double LeftIndent { get; set; }
 
 ## 例子
 
-演示如何配置段落格式以创建偏离中心的文本。
+展示如何配置段落格式来创建偏心文本。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 将文档构建器编写的所有文本居中，并设置缩进。
-// 下面的缩进配置将创建一个不对称地位于页面上的文本正文。
-// 我们将文本对齐的“中心”将是文本正文的中间，而不是页面的中间。
+// 下面的缩进配置将创建一个在页面上不对称的文本主体。
+// 我们将文本对齐到的“中心”是文本主体的中间，而不是页面的中间。
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

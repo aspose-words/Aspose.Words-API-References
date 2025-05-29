@@ -3,14 +3,14 @@ title: IDocumentSavingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words för .NET
-description: IDocumentSavingCallback Notify metod. Detta anropas för att meddela om hur dokumentet sparas i C#.
+description: Spåra dokumentsparandets förlopp med metoden iDocumentSavingCallback Notify. Förbättra din apps effektivitet och användarupplevelse idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Detta anropas för att meddela om hur dokumentet sparas.
+Detta anropas för att meddela om dokumentets sparningsförlopp.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -22,13 +22,13 @@ public void Notify(DocumentSavingArgs args)
 
 ## Anmärkningar
 
-De primära användningsområdena för detta gränssnitt är att tillåta applikationskod att erhålla förloppsstatus och avbryta sparprocessen.
+Det här gränssnittet används huvudsakligen för att tillåta applikationskod att hämta förloppsstatus och avbryta sparprocessen.
 
-Ett undantag bör kastas från förloppsåteruppringningen för abort och det bör fångas i konsumentkoden.
+Ett undantag bör genereras från progress-återanropet för abort och det bör fångas i konsumentkoden.
 
 ## Exempel
 
-Visar hur man hanterar ett dokument samtidigt som man sparar till html.
+Visar hur man hanterar ett dokument när man sparar det till html.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -47,12 +47,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sparar förlopp för återuppringning. Avbryt ett dokumentsparande efter "MaxDuration" sekunderna.
+/// Återuppringning av sparningsförlopp. Avbryt en dokumentsparning efter "MaxDuration" sekunder.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centrum
     /// </summary>
     public SavingProgressCallback()
     {
@@ -60,7 +60,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Återuppringningsmetod som anropades under dokumentsparandet.
+    /// Återanropsmetod som anropades när dokumentet sparades.
     /// </summary>
     /// <param name="args">Spara argument.</param>
     public void Notify(DocumentSavingArgs args)
@@ -72,18 +72,18 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum och tid när dokumentsparandet startas.
+    /// Datum och tid då dokumentsparandet startade.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal tillåten varaktighet i sek.
+    /// Maximal tillåten varaktighet i sekunder.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
 ```
 
-Visar hur du hanterar ett dokument samtidigt som du sparar till docx.
+Visar hur man hanterar ett dokument när man sparar det i docx-format.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -102,12 +102,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sparar förlopp för återuppringning. Avbryt ett dokumentsparande efter "MaxDuration" sekunderna.
+/// Återuppringning av sparningsförlopp. Avbryt en dokumentsparning efter "MaxDuration" sekunder.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centrum
     /// </summary>
     public SavingProgressCallback()
     {
@@ -115,7 +115,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Återuppringningsmetod som anropades under dokumentsparandet.
+    /// Återanropsmetod som anropades när dokumentet sparades.
     /// </summary>
     /// <param name="args">Spara argument.</param>
     public void Notify(DocumentSavingArgs args)
@@ -127,18 +127,18 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum och tid när dokumentsparandet startas.
+    /// Datum och tid då dokumentsparandet startade.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal tillåten varaktighet i sek.
+    /// Maximal tillåten varaktighet i sekunder.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
 ```
 
-Visar hur du hanterar ett dokument samtidigt som du sparar till xamlflow.
+Visar hur man hanterar ett dokument medan man sparar till xamlflow.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -157,12 +157,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Sparar förlopp för återuppringning. Avbryt ett dokumentsparande efter "MaxDuration" sekunderna.
+/// Återuppringning av sparningsförlopp. Avbryt en dokumentsparning efter "MaxDuration" sekunder.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centrum
     /// </summary>
     public SavingProgressCallback()
     {
@@ -170,7 +170,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Återuppringningsmetod som anropades under dokumentsparandet.
+    /// Återanropsmetod som anropades när dokumentet sparades.
     /// </summary>
     /// <param name="args">Spara argument.</param>
     public void Notify(DocumentSavingArgs args)
@@ -182,12 +182,12 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum och tid när dokumentsparandet startas.
+    /// Datum och tid då dokumentsparandet startade.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal tillåten varaktighet i sek.
+    /// Maximal tillåten varaktighet i sekunder.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

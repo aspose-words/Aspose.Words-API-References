@@ -2,17 +2,17 @@
 title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontSourceBase sınıf. Bu kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan sınıflar için soyut bir temel sınıftır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda çeşitli font kaynaklarını tanımlamak için temel soyut sınıf olan Aspose.Words.Fonts.FontSourceBase'i keşfedin. Belge biçimlendirmenizi geliştirin!
 type: docs
-weight: 2980
+weight: 3410
 url: /tr/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
-Bu, kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan, sınıflar için soyut bir temel sınıftır.
+Bu, kullanıcının çeşitli yazı tipi kaynaklarını belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public abstract class FontSourceBase
@@ -22,15 +22,15 @@ public abstract class FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynak önceliğini döndürür. |
 | abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilir yazı tiplerinin listesini döndürür. |
 
 ## Örnekler
 

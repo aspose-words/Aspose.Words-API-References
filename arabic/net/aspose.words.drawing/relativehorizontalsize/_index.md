@@ -3,14 +3,14 @@ title: RelativeHorizontalSize Enum
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.RelativeHorizontalSize تعداد. يحدد نسبيًا ما يتم حساب عرض الشكل أو إطار النص أفقيًا في C#.
+description: اكتشف Aspose.Words.Drawing.RelativeHorizontalSize enum للتحكم الدقيق في الشكل وعرض إطارات النص في مستنداتك. حسّن تنسيقك اليوم!
 type: docs
-weight: 1200
+weight: 1590
 url: /ar/net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration
 
-يحدد نسبيًا ما يتم حساب عرض الشكل أو إطار النص أفقيًا.
+يحدد بشكل نسبي ما يتم حسابه أفقيًا لعرض الشكل أو إطار النص.
 
 ```csharp
 public enum RelativeHorizontalSize
@@ -20,60 +20,60 @@ public enum RelativeHorizontalSize
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Margin | `0` | يحدد أن العرض يتم حسابه نسبيًا للمسافة بين الهامش الأيسر والأيمن. |
+| Margin | `0` | يحدد أن العرض يتم حسابه نسبيًا بالنسبة للمسافة بين الهامشين الأيسر والأيمن. |
 | Page | `1` | يحدد أن العرض يتم حسابه نسبيًا لعرض الصفحة. |
-| LeftMargin | `2` | يحدد أن العرض يتم حسابه نسبيًا لحجم مساحة الهامش الأيسر. |
-| RightMargin | `3` | يحدد أن العرض يتم حسابه نسبيًا لحجم مساحة الهامش الصحيح. |
-| InnerMargin | `4` | يحدد أن العرض يتم حسابه نسبيًا إلى حجم مساحة الهامش الداخلي، إلى حجم مساحة الهامش الأيسر للصفحات الفردية وإلى حجم مساحة الهامش الأيمن للصفحات الزوجية. |
-| OuterMargin | `5` | يحدد أن العرض يتم حسابه نسبيًا لحجم مساحة الهامش الخارجي، لحجم مساحة الهامش الأيمن للصفحات الفردية وحجم مساحة الهامش الأيسر للصفحات الزوجية. |
+| LeftMargin | `2` | يحدد أن العرض يتم حسابه نسبيًا لحجم منطقة الهامش الأيسر. |
+| RightMargin | `3` | يحدد أن العرض يتم حسابه نسبيًا لحجم منطقة الهامش الأيمن. |
+| InnerMargin | `4` | يحدد أن العرض يتم حسابه نسبيًا إلى حجم منطقة الهامش الداخلي، إلى حجم منطقة الهامش الأيسر للصفحات الفردية وإلى حجم منطقة الهامش الأيمن للصفحات الزوجية. |
+| OuterMargin | `5` | يحدد أن العرض يتم حسابه نسبيًا إلى حجم منطقة الهامش الخارجي، إلى حجم منطقة الهامش الأيمن للصفحات الفردية وإلى حجم منطقة الهامش الأيسر للصفحات الزوجية. |
 | Default | `1` | القيمة الافتراضية هيMargin . |
 
 ## أمثلة
 
-يوضح كيفية ضبط الحجم والموضع النسبي.
+يوضح كيفية تعيين الحجم والموضع النسبي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إضافة شكل بسيط بالحجم والموضع المطلقين.
+//إضافة شكل بسيط بالحجم والموضع المطلق.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// قم بتعيين WrapType على WrapType.None حيث يتم تحويل الأشكال المضمنة تلقائيًا إلى وحدات مطلقة.
+// قم بتعيين WrapType إلى WrapType.None نظرًا لأن الأشكال المضمنة يتم تحويلها تلقائيًا إلى وحدات مطلقة.
 shape.WrapType = WrapType.None;
 
 // التحقق من الحجم الأفقي النسبي وتعيينه.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // ضبط الحجم الأفقي للربط بالهامش.
+    // تعيين حجم الربط الأفقي إلى الهامش.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // ضبط العرض على 50% من عرض الهامش.
+    // ضبط العرض إلى 50% من عرض الهامش.
     shape.WidthRelative = 50;
 }
 
 // التحقق من الحجم الرأسي النسبي وتعيينه.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // ضبط الحجم الرأسي للربط بالهامش.
+    // تعيين حجم الربط الرأسي إلى الهامش.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // ضبط الارتفاع على 30% من ارتفاع الهامش.
+    // ضبط الارتفاع إلى 30% من ارتفاع الهامش.
     shape.HeightRelative = 30;
 }
 
-// التحقق من الوضع الرأسي النسبي وتعيينه.
+// التحقق من الموضع الرأسي النسبي وتعيينه.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // تحديد الموضع المرتبط بـ TopMargin.
+    // تعيين ربط الموضع إلى TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // تعيين أعلى نسبة إلى 30% من موضع الهامش العلوي.
+    // ضبط الجزء العلوي النسبي إلى 30% من موضع TopMargin.
     shape.TopRelative = 30;
 }
 
-// التحقق من الوضع الأفقي النسبي وضبطه.
+// التحقق من الموضع الأفقي النسبي وتعيينه.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // تعيين موضع ربط RightMargin.
+    // تعيين ربط الموضع إلى RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // يمكن أن تكون القيمة النسبية للموضع سالبة.
+    //يمكن أن تكون القيمة النسبية للموضع سلبية.
     shape.LeftRelative = -260;
 }
 

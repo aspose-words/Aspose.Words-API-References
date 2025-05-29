@@ -3,14 +3,14 @@ title: Shape.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words för .NET
-description: Shape ImageData fast egendom. Ger tillgång till bilden av formen. Returnerarnull om formen inte kan ha en bild i C#.
+description: Få tillgång till och hantera formbilder enkelt med egenskapen Shape ImageData. Få omedelbara resultat eller null om det inte är tillämpligt. Förbättra ditt designarbetsflöde!
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-Ger tillgång till bilden av formen. Returnerar`null` om formen inte kan ha en bild.
+Ger åtkomst till bilden av formen. Returnerar`null` om formen inte kan ha en bild.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -34,8 +34,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -52,8 +52,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Nedan finns två sätt att applicera en bild på en form så att den kan visa den.
-// 1 - Ställ in formen så att den innehåller bilden.
+// Nedan följer två sätt att tillämpa en bild på en form så att den kan visas.
+// 1 - Ange formen så att den innehåller bilden.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -67,7 +67,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Ställ in formen för att länka till en bildfil i det lokala filsystemet.
+// 2 - Ange formen för att länka till en bildfil i det lokala filsystemet.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

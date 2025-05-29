@@ -3,14 +3,14 @@ title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
 second_title: Aspose.Words für .NET
-description: CleanupOptions DuplicateStyle eigendom. Ruft/setzt ein Flag das angibt ob doppelte Stile aus dem Dokument entfernt werden sollen. Der Standardwert istFALSCH  in C#.
+description: Optimieren Sie Ihre Dokumente mit der CleanupOptions DuplicateStyle-Eigenschaft – entfernen Sie doppelte Stile einfach für eine sauberere und effizientere Formatierung. Der Standardwert ist „false“.
 type: docs
 weight: 20
 url: /de/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Ruft/setzt ein Flag, das angibt, ob doppelte Stile aus dem Dokument entfernt werden sollen. Der Standardwert ist`FALSCH` .
+Ruft ein Flag ab/setzt es, das angibt, ob doppelte Stile aus dem Dokument entfernt werden sollen. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -18,13 +18,13 @@ public bool DuplicateStyle { get; set; }
 
 ## Beispiele
 
-Zeigt, wie du duplizierte Stile aus dem Dokument entfernt.
+Zeigt, wie doppelte Stile aus dem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document();
 
 // Dem Dokument zwei Stile mit identischen Eigenschaften hinzufügen,
-// aber andere Namen. Der zweite Stil wird als Duplikat des ersten betrachtet.
+// aber unterschiedliche Namen. Der zweite Stil wird als Duplikat des ersten betrachtet.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -37,7 +37,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Beide Stile auf verschiedene Absätze im Dokument anwenden.
+// Wenden Sie beide Stile auf verschiedene Absätze im Dokument an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");

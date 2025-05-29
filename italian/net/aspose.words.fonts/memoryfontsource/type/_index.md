@@ -3,14 +3,14 @@ title: MemoryFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: MemoryFontSource Type proprietà. Restituisce il tipo di fonte del carattere in C#.
+description: Scopri la proprietà MemoryFontSource Type che rivela il tipo di sorgente del tuo font, migliorando la precisione e la creatività del tuo design. Sblocca il potenziale del tuo font!
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/memoryfontsource/type/
 ---
 ## MemoryFontSource.Type property
 
-Restituisce il tipo di fonte del carattere.
+Restituisce il tipo di origine del font.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## Esempi
 
-Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
+Mostra come utilizzare un array di byte con dati provenienti da un file di font come sorgente del font.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

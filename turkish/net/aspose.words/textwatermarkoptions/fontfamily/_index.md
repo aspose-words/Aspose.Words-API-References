@@ -2,15 +2,15 @@
 title: TextWatermarkOptions.FontFamily
 linktitle: FontFamily
 articleTitle: FontFamily
-second_title: Aspose.Words for .NET
-description: TextWatermarkOptions FontFamily mülk. Yazı tipi ailesi adını alır veya ayarlar. Varsayılan değer Calibridir C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızı geliştirmek için TextWatermarkOptions'ınızı FontFamily özelliğiyle özelleştirin. Varsayılan Calibri'dir; markanıza uyan bir stil seçin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-Yazı tipi ailesi adını alır veya ayarlar. Varsayılan değer "Calibri"dir.
+Yazı tipi aile adını alır veya ayarlar. Varsayılan değer "Calibri"dir.
 
 ```csharp
 public string FontFamily { get; set; }
@@ -26,8 +26,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -3,14 +3,14 @@ title: LayoutEnumerator.MoveLastChild
 linktitle: MoveLastChild
 articleTitle: MoveLastChild
 second_title: Aspose.Words لـ .NET
-description: LayoutEnumerator MoveLastChild طريقة. للانتقال إلى الكيان الفرعي الأخير في C#.
+description: اكتشف كيف تقوم طريقة LayoutEnumerator MoveLastChild بالتنقل بكفاءة إلى الكيان الفرعي الأخير، مما يعزز قدرات إدارة البيانات لديك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.layout/layoutenumerator/movelastchild/
 ---
 ## LayoutEnumerator.MoveLastChild method
 
-للانتقال إلى الكيان الفرعي الأخير.
+ينتقل إلى الكيان الفرعي الأخير.
 
 ```csharp
 public bool MoveLastChild()
@@ -18,17 +18,17 @@ public bool MoveLastChild()
 
 ## أمثلة
 
-يُظهر طرق اجتياز كيانات تخطيط المستند.
+يُظهر طرقًا لاجتياز كيانات تخطيط المستند.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // افتح مستندًا يحتوي على مجموعة متنوعة من كيانات التخطيط.
-    // كيانات التخطيط هي الصفحات والخلايا والصفوف والخطوط والكائنات الأخرى المضمنة في LayoutEntityType enum.
+    // كيانات التخطيط هي الصفحات والخلايا والصفوف والأسطر والكائنات الأخرى المضمنة في LayoutEntityType.
     // يحتوي كل كيان تخطيط على مساحة مستطيلة يشغلها في نص المستند.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // قم بإنشاء عداد يمكنه اجتياز هذه الكيانات مثل الشجرة.
+    // قم بإنشاء مُعَدِّد يمكنه عبور هذه الكيانات مثل الشجرة.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -38,24 +38,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // يمكننا استدعاء هذه الطريقة للتأكد من أن العداد سيكون في كيان التخطيط الأول.
+    // يمكننا استدعاء هذه الطريقة للتأكد من أن المُعدِّد سيكون في كيان التخطيط الأول.
     layoutEnumerator.Reset();
 
-    // هناك أمران يحددان كيفية استمرار عداد التخطيط في اجتياز كيانات التخطيط
+    // هناك أمران يحددان كيفية استمرار مُعَدِّد التخطيط في عبور كيانات التخطيط
     // عندما يواجه كيانات تمتد عبر صفحات متعددة.
     // 1 - بالترتيب المرئي:
-    // عند التنقل بين العناصر التابعة للكيان والتي تمتد على عدة صفحات،
-    // تخطيط الصفحة له الأولوية، وننتقل إلى العناصر الفرعية الأخرى في هذه الصفحة ونتجنب العناصر الموجودة في الصفحة التالية.
+    // عند التنقل عبر أبناء الكيان الذين يمتدون عبر صفحات متعددة،
+    // تخطيط الصفحة له الأولوية، ونحن ننتقل إلى عناصر فرعية أخرى في هذه الصفحة ونتجنب العناصر الموجودة في الصفحة التالية.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // أصبح العداد لدينا الآن في نهاية المجموعة. يمكننا اجتياز كيانات التخطيط للخلف للعودة إلى البداية.
+    // أصبح مُعَدِّدنا الآن في نهاية المجموعة. يُمكننا اجتياز عناصر التخطيط للخلف للعودة إلى البداية.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - بالترتيب المنطقي:
-    // عند التنقل بين العناصر التابعة للكيان والتي تمتد على عدة صفحات،
-    // سيتنقل العداد بين الصفحات لاجتياز جميع الكيانات الفرعية.
+    // عند التنقل عبر أبناء الكيان الذين يمتدون عبر صفحات متعددة،
+    // سوف ينتقل المُعدِّد بين الصفحات لاجتياز جميع الكيانات الفرعية.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -64,7 +64,7 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الأمام إلى الخلف،
+/// قم بالترقيم من خلال مجموعة كيان تخطيط layoutEnumerator من الأمام إلى الخلف،
 /// بطريقة العمق أولاً، وبالترتيب "المرئي".
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
@@ -82,7 +82,7 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الخلف إلى الأمام،
+/// قم بالترقيم من خلال مجموعة كيان تخطيط layoutEnumerator من الخلف إلى الأمام،
 /// بطريقة العمق أولاً، وبالترتيب "المرئي".
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
@@ -100,7 +100,7 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الأمام إلى الخلف،
+/// قم بالترقيم من خلال مجموعة كيان تخطيط layoutEnumerator من الأمام إلى الخلف،
 /// بطريقة العمق أولاً، وبالترتيب "المنطقي".
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
@@ -118,7 +118,7 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الخلف إلى الأمام،
+/// قم بالترقيم من خلال مجموعة كيان تخطيط layoutEnumerator من الخلف إلى الأمام،
 /// بطريقة العمق أولاً، وبالترتيب "المنطقي".
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
@@ -136,9 +136,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// اطبع معلومات حول الكيان الحالي لـ LayoutEnumerator إلى وحدة التحكم، مع وضع مسافة بادئة للنص باستخدام أحرف الجدولة
-/// استنادًا إلى عمقها بالنسبة إلى العقدة الجذرية التي قدمناها في مثيل LayoutEnumerator المُنشئ.
-/// يمثل المستطيل الذي نقوم بمعالجته في النهاية المنطقة والموقع الذي يشغله الكيان في المستند.
+/// اطبع معلومات حول كيان layoutEnumerator الحالي في وحدة التحكم، مع وضع مسافة بادئة للنص باستخدام أحرف الجدولة
+/// بناءً على عمقها النسبي لعقدة الجذر التي قدمناها في مثيل المنشئ LayoutEnumerator.
+/// المستطيل الذي نقوم بمعالجته في النهاية يمثل المساحة والموقع الذي تشغله الكيان في المستند.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -148,7 +148,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // الامتدادات فقط هي التي يمكن أن تحتوي على نص.
+    // فقط النطاقات يمكن أن تحتوي على نص.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

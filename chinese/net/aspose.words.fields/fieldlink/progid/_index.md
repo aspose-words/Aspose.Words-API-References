@@ -2,8 +2,8 @@
 title: FieldLink.ProgId
 linktitle: ProgId
 articleTitle: ProgId
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldLink ProgId 财产. 获取或设置链接信息的应用类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldLink ProgId 属性，轻松管理链接信息的应用类型。使用这款必备工具，优化您的工作流程！
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldlink/progid/
@@ -18,7 +18,7 @@ public string ProgId { get; set; }
 
 ## 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -26,8 +26,8 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是三种类型的字段，我们可以使用它们以文本形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 以下是我们可以用来以文本形式显示链接文档内容的三种类型的字段。
+    // 1 - LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -50,8 +50,8 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是三种类型的字段，我们可以使用它们以图像的形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 以下是我们可以用来以图像形式显示链接文档内容的三种类型的字段。
+    // 1 - LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// 使用文档构建器插入DDE字段，并根据参数设置其属性。
+/// 使用文档生成器插入 DDE 字段，并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)

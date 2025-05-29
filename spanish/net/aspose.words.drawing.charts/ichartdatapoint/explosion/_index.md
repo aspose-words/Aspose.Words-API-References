@@ -3,14 +3,14 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words para .NET
-description: IChartDataPoint Explosion propiedad. Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares en C#.
+description: Descubra la propiedad IChartDataPoint Explosion para gráficos circulares. Controle la posición de los puntos de datos con precisión: ¡mejore su narrativa visual de datos hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo, negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares.
+Especifica la cantidad en que se moverá el punto de datos desde el centro del gráfico circular. Puede ser negativo; negativo significa que la propiedad no está configurada y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares.
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## Ejemplos
 
-Muestra cómo alejar las porciones de un gráfico circular del centro.
+Muestra cómo mover las porciones de un gráfico circular lejos del centro.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// Las "porciones" de un gráfico circular se pueden alejar una distancia del centro mediante el atributo Explosión del punto de datos respectivo.
-// Agregue un punto de datos a la primera parte del gráfico circular y aléjelo del centro 10 puntos.
+// Las "porciones" de un gráfico circular se pueden alejar del centro una distancia a través del atributo Explosión del punto de datos respectivo.
+// Agregue un punto de datos a la primera parte del gráfico circular y muévalo 10 puntos lejos del centro.
 // Aspose.Words crea puntos de datos automáticamente si no existen.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 
-// Desplaza la segunda porción a una distancia mayor.
+// Desplazar la segunda porción a una distancia mayor.
 dataPoint = chart.Series[0].DataPoints[1];
 dataPoint.Explosion = 40;
 

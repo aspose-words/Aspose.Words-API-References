@@ -2,17 +2,17 @@
 title: CustomXmlPart Class
 linktitle: CustomXmlPart
 articleTitle: CustomXmlPart
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomXmlPart sınıf. Özel XML Veri Depolama Bölümünü temsil eder bir paket içindeki özel XML verileri C#'da.
+second_title: .NET için Aspose.Words
+description: Paketler içindeki özel XML veri depolamasının verimli yönetimi için Aspose.Words.Markup.CustomXmlPart sınıfını keşfedin. Belge işlemenizi bugün geliştirin!
 type: docs
-weight: 3920
+weight: 4610
 url: /tr/net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
 
-Özel XML Veri Depolama Bölümünü temsil eder (bir paket içindeki özel XML verileri).
+Özel XML Veri Depolama Parçasını (bir paket içindeki özel XML verileri) temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Denetimi](https://docs.aspose.com/words/net/working-with-content-control-sdt/) belgeleme makalesi.
 
 ```csharp
 public class CustomXmlPart
@@ -29,19 +29,19 @@ public class CustomXmlPart
 | İsim | Tanım |
 | --- | --- |
 | [Data](../../aspose.words.markup/customxmlpart/data/) { get; set; } | Bu Özel XML Veri Depolama Parçasının XML içeriğini alır veya ayarlar. |
-| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum/) { get; } | Döngüsel artıklık denetimi (CRC) sağlama toplamını belirtir.[`Data`](./data/) içerik. |
-| [Id](../../aspose.words.markup/customxmlpart/id/) { get; set; } | Bir OOXML belgesi içindeki bu özel XML bölümünü tanımlayan dizeyi alır veya ayarlar. |
-| [Schemas](../../aspose.words.markup/customxmlpart/schemas/) { get; } | Bu özel XML bölümüyle ilişkili XML şemaları kümesini belirtir. |
+| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum/) { get; } | Döngüsel yedeklilik denetimi (CRC) toplamını belirtir[`Data`](./data/) içerik. |
+| [Id](../../aspose.words.markup/customxmlpart/id/) { get; set; } | Bu özel XML parçasını bir OOXML belgesi içinde tanımlayan dizeyi alır veya ayarlar. |
+| [Schemas](../../aspose.words.markup/customxmlpart/schemas/) { get; } | Bu özel XML parçasıyla ilişkili XML şemaları kümesini belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clone](../../aspose.words.markup/customxmlpart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Baytları çoğaltmaz[`Data`](./data/) değer. |
+| [Clone](../../aspose.words.markup/customxmlpart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Nesnenin baytlarını çoğaltmaz.[`Data`](./data/) değer. |
 
 ## Notlar
 
-Bir DOCX veya DOC belgesi bir veya daha fazla Özel XML Veri Depolama bölümü içerebilir. Aspose.Words korur ve , Özel XML Verilerini oluşturmanıza ve çıkarmanıza olanak tanır.[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) Toplamak.
+Bir DOCX veya DOC belgesi bir veya daha fazla Özel XML Veri Depolama parçası içerebilir. Aspose.Words korur ve Özel XML Verilerini oluşturmanıza ve çıkarmanıza olanak tanır[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) koleksiyon.
 
 ## Örnekler
 
@@ -50,9 +50,9 @@ Bir DOCX veya DOC belgesi bir veya daha fazla Özel XML Veri Depolama bölümü 
 ```csharp
 Document doc = new Document();
 
-// Veri içeren bir XML bölümü oluşturun ve onu belgenin koleksiyonuna ekleyin.
+// Veri içeren bir XML parçası oluştur ve bunu belgenin koleksiyonuna ekle.
 // Microsoft Word'de "Geliştirici" sekmesini etkinleştirirsek,
-// bu koleksiyondaki öğeleri birkaç varsayılan öğeyle birlikte "XML Eşleme Bölmesi"nde bulabiliriz.
+// Bu koleksiyondaki öğeleri "XML Eşleme Bölmesi"nde, birkaç varsayılan öğeyle birlikte bulabiliriz.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -60,24 +60,24 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Aşağıda XML parçalarına başvurmanın iki yolu verilmiştir.
+// Aşağıda XML parçalarına başvurmanın iki yolu bulunmaktadır.
 // 1 - Özel XML parça koleksiyonundaki bir dizine göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - GUID'e göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Bir XML şeması ilişkisi ekleyin.
+// Bir XML şema ilişkisi ekleyin.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Bir parçayı klonlayın ve ardından onu koleksiyona ekleyin.
+// Bir parçayı klonla ve sonra onu koleksiyona ekle.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Koleksiyonu yineleyin ve her parçanın içeriğini yazdırın.
+// Koleksiyonda gezinin ve her parçanın içeriğini yazdırın.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -89,16 +89,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Klonlanan parçayı dizine göre kaldırmak için "RemoveAt" yöntemini kullanın.
+// Klonlanmış parçayı indekse göre kaldırmak için "RemoveAt" metodunu kullanın.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
+// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Clear" yöntemini kullanın.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun ve bunu belge gövdesine ekleyin.
+// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturup bunu belge gövdesine ekleyelim.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

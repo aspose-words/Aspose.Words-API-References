@@ -3,7 +3,7 @@ title: FieldSectionPages
 linktitle: FieldSectionPages
 articleTitle: FieldSectionPages
 second_title: Aspose.Words для .NET
-description: FieldSectionPages строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldSectionPages — ваше решение для эффективного управления страницами. Откройте для себя бесшовную интеграцию и улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/

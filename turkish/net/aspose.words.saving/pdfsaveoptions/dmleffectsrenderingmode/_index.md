@@ -2,15 +2,15 @@
 title: PdfSaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
 articleTitle: DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions DmlEffectsRenderingMode mülk. DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş PDF çıktı kalitesi için DrawingML efektlerinin işlenmesini kontrol etmek üzere PdfSaveOptions DmlEffectsRenderingMode özelliğini keşfedin.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions.DmlEffectsRenderingMode property
 
-DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+DrawingML efektlerinin nasıl işleneceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
@@ -20,26 +20,26 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 Varsayılan değer:Simplified .
 
-Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
+Bu özellik, belge sabit sayfa biçimlerine aktarıldığında kullanılır.
 
-Eğer[`Compliance`](../compliance/) ayarlandıPdfA1a veyaPdfA1b , özelliği her zaman döndürürNone.
+Eğer[`Compliance`](../compliance/) ayarlandıPdfA1a veyaPdfA1b , özelliği her zaman dönerNone.
 
 ## Örnekler
 
-Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin görüntü oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
+Bir belgeyi PDF olarak kaydederken DrawingML efektlerinin işleme kalitesinin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Tüm DrawingML efektlerini atmak için "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.None" olarak ayarlayın.
 // "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Simplified" olarak ayarlayın
 // DrawingML efektlerinin basitleştirilmiş bir versiyonunu oluşturmak için.
 // "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Fine" olarak ayarlayın
-// DrawingML efektlerini daha doğru ve aynı zamanda daha fazla işlem maliyetiyle işleyin.
+// DrawingML efektlerini daha yüksek doğrulukla ve daha yüksek işlem maliyetiyle işleyin.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

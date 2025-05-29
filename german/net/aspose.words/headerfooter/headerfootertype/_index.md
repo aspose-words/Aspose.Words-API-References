@@ -3,7 +3,7 @@ title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words für .NET
-description: HeaderFooter HeaderFooterType eigendom. Ruft den Typ dieser Kopf/Fußzeile ab in C#.
+description: Entdecken Sie die HeaderFooterType-Eigenschaft, um einfach auf die Kopf- und Fußzeilentypen Ihres Dokuments zuzugreifen und diese zu verwalten und so eine verbesserte Formatierungskontrolle zu erhalten.
 type: docs
 weight: 20
 url: /de/net/aspose.words/headerfooter/headerfootertype/
@@ -18,12 +18,12 @@ public HeaderFooterType HeaderFooterType { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
+Zeigt, wie eine Kopf- und eine Fußzeile erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Überschrift erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Überschrift und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird oben auf jeder Seite dieses Abschnitts über dem Haupttext angezeigt.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -33,7 +33,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Eine Fußzeile erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Fußzeile und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird unten auf jeder Seite dieses Abschnitts unter dem Haupttext angezeigt.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

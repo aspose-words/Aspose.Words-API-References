@@ -3,14 +3,14 @@ title: CellFormat.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words لـ .NET
-description: CellFormat LeftPadding ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات الخلية في C#.
+description: اكتشف خاصية CellFormat LeftPadding لضبط المسافة اليسرى بالنقاط بسهولة، مما يعزز مظهر محتوى الخلية وقابليته للقراءة.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات الخلية.
+يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يسار محتويات الخلية.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الخلايا باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// أدخل خلية ثانية، ثم قم بتكوين خيارات حشو نص الخلية.
-// سيقوم المنشئ بتطبيق هذه الإعدادات في خليته الحالية، وسيتم إنشاء أي خلايا جديدة بعد ذلك.
+// أدخل خلية ثانية، ثم قم بتكوين خيارات تعبئة نص الخلية.
+// سيقوم المنشئ بتطبيق هذه الإعدادات في الخلية الحالية، وأي خلايا جديدة يتم إنشاؤها بعد ذلك.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// ستستمر الخلية الأولى في النمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
+// ستظل الخلية الأولى تنمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

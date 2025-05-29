@@ -2,10 +2,10 @@
 title: JustificationMode Enum
 linktitle: JustificationMode
 articleTitle: JustificationMode
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.JustificationMode 枚举. 指定文档的字符间距调整 默认值为扩张 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words JustificationMode 枚举，用于精确调整文档中的字符间距。通过可自定义的设置增强可读性！
 type: docs
-weight: 5800
+weight: 6630
 url: /zh/net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration
@@ -20,19 +20,19 @@ public enum JustificationMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Expand | `0` |  |
-| Compress | `1` |  |
-| CompressKana | `2` |  |
+| Expand | `0` | 不压缩字符间距。 |
+| Compress | `1` | 压缩字符间距。 |
+| CompressKana | `2` | 压缩，使用假名音节表、平假名和片假名的规则。 |
 
 ## 例子
 
-演示如何管理字符间距控制。
+展示如何管理字符间距控制。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

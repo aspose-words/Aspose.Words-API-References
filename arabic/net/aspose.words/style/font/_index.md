@@ -3,14 +3,14 @@ title: Style.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words لـ .NET
-description: Style Font ملكية. الحصول على تنسيق الأحرف للنمط في C#.
+description: اكتشف خاصية "نمط الخط" لتحسين تنسيق حروفك بسهولة. تمتع بخيارات تنسيق فريدة لمظهر أنيق!
 type: docs
 weight: 60
 url: /ar/net/aspose.words/style/font/
 ---
 ## Style.Font property
 
-الحصول على تنسيق الأحرف للنمط.
+يحصل على تنسيق الأحرف للنمط.
 
 ```csharp
 public Font Font { get; }
@@ -22,7 +22,7 @@ public Font Font { get; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
+يوضح كيفية إنشاء نمط الفقرة واستخدامه مع تنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -34,15 +34,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// أنشئ قائمة وتأكد من أن الفقرات التي تستخدم هذا النمط ستستخدم هذه القائمة.
+// قم بإنشاء قائمة وتأكد من أن الفقرات التي تستخدم هذا النمط سوف تستخدم هذه القائمة.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية في منشئ المستند، ثم أضف بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// قم بتغيير نمط منشئ المستندات إلى نمط لا يحتوي على تنسيق قائمة واكتب فقرة أخرى.
+// قم بتغيير نمط منشئ المستندات إلى نمط لا يحتوي على تنسيق القائمة واكتب فقرة أخرى.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -58,12 +58,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
-// إعادة تعريف النمط تلقائيًا.
+//إعادة تعريف النمط تلقائيًا.
 style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتطبيق أحد الأنماط من المستند على الفقرة التي يقوم منشئ المستند بإنشائها.
+// قم بتطبيق أحد الأنماط الموجودة في المستند على الفقرة التي يقوم منشئ المستند بإنشائها.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

@@ -3,14 +3,14 @@ title: FieldDde.InsertAsRtf
 linktitle: InsertAsRtf
 articleTitle: InsertAsRtf
 second_title: Aspose.Words для .NET
-description: FieldDde InsertAsRtf свойство. Получает или задает следует ли вставлять связанный объект в расширенном текстовом формате RTF на С#.
+description: Узнайте, как свойство FieldDde InsertAsRtf улучшает ваш документ, легко вставляя связанные объекты в формате RTF для улучшенного форматирования.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fielddde/insertasrtf/
 ---
 ## FieldDde.InsertAsRtf property
 
-Получает или задает, следует ли вставлять связанный объект в расширенном текстовом формате (RTF).
+Возвращает или задает, следует ли вставлять связанный объект в формате RTF.
 
 ```csharp
 public bool InsertAsRtf { get; set; }
@@ -18,7 +18,7 @@ public bool InsertAsRtf { get; set; }
 
 ## Примеры
 
-Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
+Показывает, как использовать различные типы полей для ссылки на другие документы в локальной файловой системе и отображения их содержимого.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -27,7 +27,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде текста.
-    // 1 - Поле LINK:
+    // 1 - Поле ССЫЛКИ:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -51,7 +51,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде изображения.
-    // 1 - Поле LINK:
+    // 1 - Поле ССЫЛКИ:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -71,7 +71,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле LINK и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов, чтобы вставить поле LINK и задать его свойства в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле DDE и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов для вставки поля DDE и установки его свойств в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -148,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле DDEAUTO и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов для вставки поля DDEAUTO и установки его свойств в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

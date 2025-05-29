@@ -3,14 +3,14 @@ title: Font.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
 second_title: Aspose.Words для .NET
-description: Font LineSpacing свойство. Возвращает межстрочный интервал этого шрифта в пунктах на С#.
+description: Откройте для себя свойство Font LineSpacing, которое обеспечивает точный межстрочный интервал в пунктах, улучшая читаемость и дизайн текста.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-Возвращает межстрочный интервал этого шрифта (в пунктах).
+Возвращает межстрочный интервал данного шрифта (в пунктах).
 
 ```csharp
 public double LineSpacing { get; }

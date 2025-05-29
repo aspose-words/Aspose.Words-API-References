@@ -3,14 +3,14 @@ title: ChartYValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
 second_title: Aspose.Words لـ .NET
-description: ChartYValue FromDateTime طريقة. إنشاء ملفChartYValue مثال علىDateTime اكتب في C#.
+description: اكتشف طريقة ChartYValue FromDateTime لإنشاء مثيلات DateTime لمخططاتك بسهولة، مما يعزز تصور البيانات وتحليلها.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
 ---
 ## ChartYValue.FromDateTime method
 
-إنشاء ملف[`ChartYValue`](../) مثال علىDateTime اكتب.
+ينشئ[`ChartYValue`](../) مثال على ذلكDateTime النوع.
 
 ```csharp
 public static ChartYValue FromDateTime(DateTime value)

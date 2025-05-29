@@ -3,14 +3,14 @@ title: FixedPageSaveOptions.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words para .NET
-description: FixedPageSaveOptions Equals método. Determina si el objeto especificado tiene el mismo valor que el objeto actual en C#.
+description: Descubra cómo el método FixedPageSaveOptions Equals verifica la igualdad de valores con su objeto actual, garantizando un manejo preciso de los datos en sus aplicaciones.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/fixedpagesaveoptions/equals/
 ---
 ## FixedPageSaveOptions.Equals method
 
-Determina si el objeto especificado tiene el mismo valor que el objeto actual.
+Determina si el objeto especificado es igual en valor al objeto actual.
 
 ```csharp
 public override bool Equals(object obj)

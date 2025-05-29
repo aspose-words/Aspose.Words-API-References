@@ -2,10 +2,10 @@
 title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule 班级. 默认字体替换规则 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.DefaultFontSubstitutionRule 类，实现无缝字体管理和增强的文档格式。立即优化您的工作流程！
 type: docs
-weight: 2840
+weight: 3250
 url: /zh/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
@@ -23,15 +23,15 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | 姓名 | 描述 |
 | --- | --- |
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | 获取或设置默认字体名称。 |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | 指定是否启用规则。 |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | 指定规则是否启用。 |
 
 ## 评论
 
-此规则定义单个默认字体名称，用于在原始字体不可用时进行替换。
+如果原始字体不可用，此规则将定义用于替换的单个默认字体名称。
 
 ## 例子
 
-演示如何设置默认字体替换规则。
+显示如何设置默认字体替换规则。
 
 ```csharp
 Document doc = new Document();
@@ -45,10 +45,10 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// 将默认字体替换设置为“Courier New”。
+// 将默认字体替代设置为“Courier New”。
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// 使用文档生成器，以我们不必看到替换发生的字体添加一些文本，
+// 使用文档生成器，添加一些我们不需要看到替换发生的字体的文本，
 // 然后将结果呈现为 PDF。
 DocumentBuilder builder = new DocumentBuilder(doc);
 

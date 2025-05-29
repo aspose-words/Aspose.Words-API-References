@@ -3,7 +3,7 @@ title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
 second_title: Aspose.Words para .NET
-description: Fill BackTintAndShade propiedad. Obtiene o establece un valor doble que aclara u oscurece el color de fondo en C#.
+description: Ajuste la propiedad BackTintAndShade para aclarar u oscurecer sin esfuerzo el color de fondo, mejorando el atractivo visual de su diseño y la experiencia del usuario.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/fill/backtintandshade/
@@ -16,13 +16,21 @@ Obtiene o establece un valor doble que aclara u oscurece el color de fondo.
 public double BackTintAndShade { get; set; }
 ```
 
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| ArgumentOutOfRangeException | Se lanza si se establece esta propiedad en un valor menor que -1 o mayor que 1. |
+
 ## Observaciones
 
-Los valores permitidos están dentro del rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultadoArgumentOutOfRangeException.
+Los valores permitidos están en el rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad.
+
+Cero (0) es neutral.
 
 ## Ejemplos
 
-Muestra cómo configurar el color del tema para el color de la forma de primer plano/fondo.
+Muestra cómo establecer el color del tema para el color de la forma de primer plano/fondo.
 
 ```csharp
 Document doc = new Document();

@@ -3,9 +3,9 @@ title: PdfImageCompression Enum
 linktitle: PdfImageCompression
 articleTitle: PdfImageCompression
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.PdfImageCompression opsomming. Gibt die Art der Komprimierung an die auf Bilder in der PDFDatei angewendet wird in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.PdfImageCompression, um die Bildkomprimierung in Ihren PDF-Dateien zu optimieren, die Qualität zu verbessern und die Dateigröße mühelos zu reduzieren.
 type: docs
-weight: 5490
+weight: 6280
 url: /de/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -25,7 +25,7 @@ public enum PdfImageCompression
 
 ## Beispiele
 
-Zeigt, wie man einen Komprimierungstyp für alle Bilder in einem Dokument angibt, das wir in PDF konvertieren.
+Zeigt, wie ein Komprimierungstyp für alle Bilder in einem Dokument angegeben wird, das wir in PDF konvertieren.
 
 ```csharp
 Document doc = new Document();
@@ -37,16 +37,14 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Auto“, um die zu verwenden
-// „ImageCompression“-Eigenschaft zur Steuerung der Qualität der JPEG-Bilder, die im Ausgabe-PDF landen.
-// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Jpeg“, um die zu verwenden
-// „ImageCompression“-Eigenschaft zur Steuerung der Qualität aller Bilder, die im Ausgabe-PDF landen.
+// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Auto“, um die
+// Eigenschaft „ImageCompression“ zur Steuerung der Qualität der JPEG-Bilder, die im Ausgabe-PDF landen.
+// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Jpeg“, um die
+// Eigenschaft „ImageCompression“ zur Steuerung der Qualität aller Bilder, die im Ausgabe-PDF landen.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
 // Setzen Sie die Eigenschaft „JpegQuality“ auf „10“, um die Komprimierung auf Kosten der Bildqualität zu verstärken.
 pdfSaveOptions.JpegQuality = 10;
 

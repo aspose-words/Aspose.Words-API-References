@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties Item proprietà. Restituisce aDocumentProperty oggetto con il nome della proprietà in C#.
+description: Accedi facilmente agli oggetti DocumentProperty con la proprietà Item BuiltInDocumentProperties. Semplifica la gestione dei tuoi documenti oggi stesso!
 type: docs
-weight: 130
+weight: 140
 url: /it/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
 
-Restituisce a[`DocumentProperty`](../../documentproperty/) oggetto con il nome della proprietà.
+Restituisce un[`DocumentProperty`](../../documentproperty/) oggetto in base al nome della proprietà.
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -18,25 +18,25 @@ public override DocumentProperty this[string name] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| name | Il nome della proprietà da recuperare senza distinzione tra maiuscole e minuscole. |
+| name | Nome della proprietà da recuperare, senza distinzione tra maiuscole e minuscole. |
 
 ## Osservazioni
 
-I nomi delle stringhe delle proprietà corrispondono ai nomi delle proprietà typed disponibili da[`BuiltInDocumentProperties`](../).
+I nomi stringa delle proprietà corrispondono ai nomi delle proprietà typed disponibili da[`BuiltInDocumentProperties`](../).
 
-Se richiedi una proprietà che non è presente nel documento, ma il nome della proprietà viene riconosciuto come nome integrato valido, un nuovo[`DocumentProperty`](../../documentproperty/) viene creato, aggiunto alla raccolta e restituito. Alla proprietà appena creata viene assegnato un valore predefinito (stringa vuota, zero,`falso` o DateTime.MinValue a seconda del type della proprietà integrata).
+Se si richiede una proprietà che non è presente nel documento, ma il nome della proprietà è riconosciuto come nome predefinito valido, viene creato un nuovo[`DocumentProperty`](../../documentproperty/) viene creato, aggiunto alla raccolta e restituito. Alla proprietà appena creata viene assegnato un valore predefinito (stringa vuota, zero,`falso` o DateTime.MinValue a seconda del tipo della proprietà incorporata).
 
-Se richiedi una proprietà non presente nel documento e il nome non viene riconosciuto come nome predefinito, a`nullo` viene restituito.
+Se si richiede una proprietà che non è presente nel documento e il nome non è riconosciuto come nome incorporato, un`null` viene restituito.
 
 ## Esempi
 
-Mostra come lavorare con le proprietà personalizzate del documento.
+Mostra come lavorare con le proprietà personalizzate dei documenti.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Ogni documento contiene una raccolta di proprietà personalizzate che, come le proprietà integrate, sono coppie chiave-valore.
- // Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate.
+ // Il documento ha un elenco fisso di proprietà predefinite. L'utente crea tutte le proprietà personalizzate.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 linktitle: ExportEmbeddedSvg
 articleTitle: ExportEmbeddedSvg
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions ExportEmbeddedSvg ملكية. يحدد ما إذا كان يجب تضمين موارد SVG في مستند Html. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف خاصية ExportEmbeddedSvg في HtmlFixedSaveOptions، وقم بتضمين موارد SVG بسهولة في مستندات HTML لتحسين جودة الصور. افتراضيًا، القيمة true.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
-يحدد ما إذا كان يجب تضمين موارد SVG في مستند Html. القيمة الافتراضية هي`حقيقي` .
+يحدد ما إذا كان يجب تضمين موارد SVG في مستند HTML. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool ExportEmbeddedSvg { get; set; }
@@ -23,12 +23,12 @@ public bool ExportEmbeddedSvg { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// عندما نقوم بتصدير مستند يحتوي على كائنات SVG إلى ‎.html،
+// عندما نقوم بتصدير مستند يحتوي على كائنات SVG إلى .html،
 // يمكن لـ Aspose.Words وضع هذه الكائنات في موقعين محتملين.
-// سيؤدي تعيين علامة "ExportEmbeddedSvg" على "true" إلى تضمين كافة البيانات الأولية لكائن SVG
-// داخل HTML الناتج، داخل <image> العلامات.
-// سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف في نظام الملفات المحلي لكل كائن SVG.
-// سوف يرتبط HTML بكل ملف باستخدام سمة "البيانات" الخاصة بالكائن <object> بطاقة شعار.
+// سيؤدي تعيين علامة "ExportEmbeddedSvg" إلى "true" إلى تضمين جميع بيانات كائن SVG الخام
+// داخل HTML الناتج، داخل علامات <image>.
+// سيؤدي تعيين هذا العلم إلى "false" إلى إنشاء ملف في نظام الملفات المحلي لكل كائن SVG.
+// سوف يقوم HTML بالربط بكل ملف باستخدام سمة "data" الخاصة بعلامة <object>.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

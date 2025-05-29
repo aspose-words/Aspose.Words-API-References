@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words pour .NET
-description: MustacheTag ReferenceOffset propriété. Obtient la position de départ de base zéro de la balise à partir du début de laReferenceRun  en C#.
+description: Découvrez la propriété MustacheTag ReferenceOffset, qui révèle la position de départ basée sur zéro des balises dans votre ReferenceRun pour une gestion précise des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## Exemples
 
-Montre comment utiliser les balises de moustache.
+Montre comment travailler avec les balises de moustache.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

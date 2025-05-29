@@ -2,8 +2,8 @@
 title: CustomXmlSchemaCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomXmlSchemaCollection RemoveAt 方法. 删除指定索引处的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveAt 方法轻松管理您的 CustomXmlSchemaCollection——通过索引快速删除值以简化数据处理。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -34,14 +34,14 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // 添加 XML 模式关联。
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// 克隆自定义 XML 部分的 XML 模式关联集合，
-// 然后将几个新模式添加到克隆中。
+// 克隆自定义 XML 部分的 XML 架构关联集合，
+// 然后向克隆添加几个新模式。
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
-schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
+schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType”);
 
 Assert.AreEqual(3, schemas.Count);
-Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
+Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
 // 枚举模式并打印每个元素。
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
@@ -51,10 +51,10 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 }
 
 // 以下是从集合中删除模式的三种方法。
-// 1 - 按索引删除模式：
+// 1 - 通过索引删除模式：
 schemas.RemoveAt(2);
 
-// 2 - 按值删除模式：
+// 2 - 通过值删除架构：
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
 // 3 - 使用“Clear”方法立即清空集合。

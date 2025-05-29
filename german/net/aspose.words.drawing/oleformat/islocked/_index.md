@@ -3,14 +3,14 @@ title: OleFormat.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words für .NET
-description: OleFormat IsLocked eigendom. Gibt an ob der Link zum OLEObjekt für Aktualisierungen gesperrt ist in C#.
+description: Entdecken Sie die OleFormat IsLocked-Eigenschaft, steuern Sie OLE-Objektverknüpfungen und verbessern Sie die Datenintegrität, indem Sie unerwünschte Aktualisierungen verhindern. Jetzt mehr erfahren!
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/oleformat/islocked/
 ---
 ## OleFormat.IsLocked property
 
-Gibt an, ob der Link zum OLE-Objekt für Aktualisierungen gesperrt ist.
+Gibt an, ob die Verknüpfung zum OLE-Objekt vor Aktualisierungen gesperrt ist.
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -33,22 +33,22 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Unser Objekt wird weder automatisch aktualisiert noch für Aktualisierungen gesperrt.
+// Unser Objekt wird weder automatisch aktualisiert noch ist es für Aktualisierungen gesperrt.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
-// Wenn wir planen, das OLE-Objekt in einer Datei im lokalen Dateisystem zu speichern,
+// Wenn wir das OLE-Objekt in einer Datei im lokalen Dateisystem speichern möchten,
 // Wir können die Eigenschaft „SuggestedExtension“ verwenden, um zu bestimmen, welche Dateierweiterung auf die Datei angewendet werden soll.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, ein OLE-Objekt in einer Datei im lokalen Dateisystem zu speichern.
-// 1 - Über einen Stream speichern:
+// Unten sind zwei Möglichkeiten zum Speichern eines OLE-Objekts in einer Datei im lokalen Dateisystem aufgeführt.
+// 1 - Speichern Sie es über einen Stream:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 – Direkt unter einem Dateinamen speichern:
+// 2 - Speichern Sie es direkt unter einem Dateinamen:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

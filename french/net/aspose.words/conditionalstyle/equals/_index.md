@@ -3,7 +3,7 @@ title: ConditionalStyle.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words pour .NET
-description: ConditionalStyle Equals méthode. Compare ce style conditionnel avec lobjet spécifié en C#.
+description: Découvrez comment la méthode ConditionalStyle Equals compare efficacement les styles, garantissant une mise en forme conditionnelle précise pour vos projets. Améliorez votre efficacité de codage !
 type: docs
 weight: 110
 url: /fr/net/aspose.words/conditionalstyle/equals/

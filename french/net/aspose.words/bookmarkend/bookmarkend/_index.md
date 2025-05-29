@@ -3,7 +3,7 @@ title: BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words pour .NET
-description: BookmarkEnd constructeur. Initialise une nouvelle instance duBookmarkEnd classe en C#.
+description: Créez facilement une instance BookmarkEnd. Optimisez votre projet grâce à cet outil essentiel pour gérer efficacement vos signets.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +19,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| name | String | Le nom du signet. C'est pas possible`nul`. |
+| name | String | Le nom du signet. Impossible`nul`. |
 
 ## Exemples
 
@@ -42,7 +42,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -70,7 +70,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

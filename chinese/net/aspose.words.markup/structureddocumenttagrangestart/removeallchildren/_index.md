@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart RemoveAllChildren 方法. 删除该范围起始节点和范围结束节点之间的所有节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 有效地使用 RemoveAllChildren 方法清除 StructuredDocumentTagRangeStart 和 end 之间的节点，增强文档管理。
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-删除该范围起始节点和范围结束节点之间的所有节点。
+删除此范围起始节点和范围结束节点之间的所有节点。
 
 ```csharp
 public void RemoveAllChildren()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // 删除范围结构化文档标签，但保留内部内容。
+    // 删除范围结构化文档标签，但保留其中的内容。
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,25 +43,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // 删除范围内的结构化文档标签和内容。
+    // 删除范围结构化文档标签及其内部内容。
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

@@ -2,8 +2,8 @@
 title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
-second_title: 用于 .NET 的 Aspose.Words
-description: IFieldResultFormatter FormatDateTime 方法. 当 Aspose.Words 应用日期/时间格式切换时调用即  dd.MM.yyyy 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words 的 iFieldResultFormatter FormatDateTime 方法。使用 dd.MM.yyyy 开关轻松格式化日期！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -18,11 +18,11 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ## 评论
 
-实现应该返回`无效的`指示应应用默认格式。
+实现应该返回`无效的`表示应应用默认格式。
 
 ## 例子
 
-展示如何在更新字段时自动将自定义格式应用于字段结果。
+展示如何在字段更新时自动将自定义格式应用于字段结果。
 
 ```csharp
 public void FieldResultFormatting()
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // 我们的字段结果格式化程序将自定义格式应用于新创建的三种格式的字段。
-    // 字段结果格式化程序在更新字段时应用新的格式，
-    // 一旦我们使用此 InsertField 方法重载创建它们，就会发生这种情况。
+    // 我们的字段结果格式化程序将自定义格式应用于三种格式的新创建的字段。
+    // 字段结果格式化程序在字段更新时将新格式应用于字段，
+    // 当我们使用此 InsertField 方法重载创建它们时就会发生这种情况。
     // 1 - 数字：
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// 当更新具有格式的字段时，此格式化程序将覆盖它们的格式
-/// 使用自定义格式，同时跟踪每个调用。
+/// 当带有格式的字段更新时，此格式化程序将覆盖其格式
+/// 使用自定义格式，同时跟踪每次调用。
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

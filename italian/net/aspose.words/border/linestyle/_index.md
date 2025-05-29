@@ -3,7 +3,7 @@ title: Border.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words per .NET
-description: Border LineStyle proprietà. Ottiene o imposta lo stile del bordo in C#.
+description: Personalizza il tuo design con la proprietà Border LineStyle, che ti consente di ottenere o impostare facilmente stili di bordo unici per un impatto visivo migliore.
 type: docs
 weight: 40
 url: /it/net/aspose.words/border/linestyle/
@@ -18,7 +18,7 @@ public LineStyle LineStyle { get; set; }
 
 ## Osservazioni
 
-Se imposti lo stile della linea su nessuno, la larghezza della linea verrà automaticamente modificata su zero.
+Se si imposta lo stile della linea su "Nessuno", la larghezza della linea verrà automaticamente impostata su zero.
 
 ## Esempi
 

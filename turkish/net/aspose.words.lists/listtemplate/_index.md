@@ -2,15 +2,15 @@
 title: ListTemplate Enum
 linktitle: ListTemplate
 articleTitle: ListTemplate
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListTemplate Sıralama. Microsoft Wordde bulunan önceden tanımlanmış liste formatlarından birini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin sunumunu zahmetsizce geliştirmek için önceden tanımlanmış Microsoft Word liste biçimlerini içeren Aspose.Words.Lists.ListTemplate enum'unu keşfedin.
 type: docs
-weight: 3530
+weight: 3980
 url: /tr/net/aspose.words.lists/listtemplate/
 ---
 ## ListTemplate enumeration
 
-Microsoft Word'de bulunan önceden tanımlanmış liste formatlarından birini belirtir.
+Microsoft Word'de bulunan önceden tanımlanmış liste biçimlerinden birini belirtir.
 
 ```csharp
 public enum ListTemplate
@@ -20,38 +20,38 @@ public enum ListTemplate
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| BulletDefault | `0` | seviyeli varsayılan madde işaretli liste. Birinci düzeyin madde işareti bir disktir, ikinci düzeyin madde işareti bir dairedir, üçüncü düzeyin madde işareti bir karedir. Daha sonra biçimlendirme geri kalan düzeyler için tekrarlanır. |
-| BulletDisk | `0` | İle aynıBulletDefault. |
-| BulletCircle | `1` | Birinci seviyenin mermisi bir dairedir. Geriye kalan seviyeler öncekiyle aynıdır.BulletDefault. |
-| BulletSquare | `2` | Birinci seviyenin mermisi karedir. Geriye kalan seviyeler öncekiyle aynıdır.BulletDefault. |
-| BulletDiamonds | `3` | Birinci seviyenin mermisi 4 elmaslı Wingding karakteridir. Geriye kalan seviyeler öncekiyle aynıdır.BulletDefault. |
-| BulletArrowHead | `4` | Birinci seviyenin mermisi ok uçlu Wingding karakteridir. Geriye kalan seviyeler öncekiyle aynıdır.BulletDefault. |
-| BulletTick | `5` | Birinci seviyenin mermisi bir kene Wingding karakteridir. Geriye kalan seviyeler öncekiyle aynıdır.BulletDefault. |
-| NumberDefault | `6` | 9 seviyeli varsayılan numaralandırılmış liste. Birinci düzey için Arapça numaralandırma (1., 2., 3., ...), ikinci düzey için küçük harf numaralandırma (a., b., c., ...), küçük harf roman numaralandırma (i) ., ii., iii., ...) üçüncü düzey için. Daha sonra biçimlendirme kalan düzeyler için tekrarlanır. |
-| NumberArabicDot | `6` | İle aynıNumberDefault. |
-| NumberArabicParenthesis | `7` | Birinci seviyenin numarası "1)"dir. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| NumberUppercaseRomanDot | `8` | Birinci seviyenin numarası "I"dir. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| NumberUppercaseLetterDot | `9` | Birinci seviyenin numarası "A"dır. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| NumberLowercaseLetterParenthesis | `10` | Birinci seviyenin numarası "a)"dır. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| NumberLowercaseLetterDot | `11` | Birinci seviyenin numarası "a"dır. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| NumberLowercaseRomanDot | `12` | Birinci seviyenin numarası "i"dir. Geriye kalan seviyeler öncekiyle aynıdır.NumberDefault. |
-| OutlineNumbers | `13` | "1), a), i), (1), (a), (i), 1., a., i." numaralı düzeylerden oluşan bir taslak liste. |
-| OutlineLegal | `14` | Seviyeleri içeren taslak liste "1., 1.1., 1.1.1, ..." olarak numaralandırılmıştır. |
-| OutlineBullets | `15` | Farklı düzeyler için çeşitli madde işaretlerinin yer aldığı bir taslak liste. |
-| OutlineHeadingsArticleSection | `16` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
-| OutlineHeadingsLegal | `17` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
-| OutlineHeadingsNumbers | `18` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
-| OutlineHeadingsChapter | `19` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
+| BulletDefault | `0` | 9 seviyeli varsayılan madde işaretli liste. İlk seviyenin madde işareti bir disktir, ikinci seviyenin madde işareti bir dairedir, üçüncü seviyenin madde işareti bir karedir. Daha sonra biçimlendirme kalan seviyeler için tekrarlanır. |
+| BulletDisk | `0` | AynısıBulletDefault. |
+| BulletCircle | `1` | İlk seviyenin mermisi bir dairedir. Kalan seviyeler şu şekildedir:BulletDefault. |
+| BulletSquare | `2` | İlk seviyenin mermisi karedir. Kalan seviyeler de aynıdırBulletDefault. |
+| BulletDiamonds | `3` | İlk seviyenin mermisi 4 elmaslı bir Wingding karakteridir. Kalan seviyeler şu şekildedir:BulletDefault. |
+| BulletArrowHead | `4` | İlk seviyenin mermisi ok uçlu bir Wingding karakteridir. Kalan seviyeler şu şekildedir:BulletDefault. |
+| BulletTick | `5` | İlk seviyenin mermisi bir tick Wingding karakteridir. Kalan seviyeler şu şekildedir:BulletDefault. |
+| NumberDefault | `6` | seviyeli varsayılan numaralı liste. Birinci seviye için Arapça numaralandırma (1., 2., 3., ...), ikinci seviye için küçük harfli numaralandırma (a., b., c., ...), üçüncü seviye için küçük harfli Roma numaralandırması (i., ii., iii., ...). Daha sonra biçimlendirme kalan seviyeler için tekrarlanır. |
+| NumberArabicDot | `6` | AynısıNumberDefault. |
+| NumberArabicParenthesis | `7` | İlk seviyenin numarası "1)"dir. Kalan seviyeler şu şekildedir:NumberDefault. |
+| NumberUppercaseRomanDot | `8` | İlk seviyenin numarası "I."dir. Kalan seviyeler de aynıdır.NumberDefault. |
+| NumberUppercaseLetterDot | `9` | İlk seviyenin numarası "A."dır. Geri kalan seviyeler de aynıdır.NumberDefault. |
+| NumberLowercaseLetterParenthesis | `10` | İlk seviyenin numarası "a)"dır. Kalan seviyeler şu şekildedir:NumberDefault. |
+| NumberLowercaseLetterDot | `11` | İlk seviyenin numarası "a."dır. Geri kalan seviyeler de aynıdır.NumberDefault. |
+| NumberLowercaseRomanDot | `12` | İlk seviyenin numarası "i."dir. Geri kalan seviyeler de aynıdır.NumberDefault. |
+| OutlineNumbers | `13` | "1), a), i), (1), (a), (i), 1., a., i." şeklinde numaralandırılmış seviyelere sahip bir taslak liste. |
+| OutlineLegal | `14` | Seviyeleri içeren bir taslak liste "1., 1.1., 1.1.1, ..." şeklinde numaralandırılmıştır. |
+| OutlineBullets | `15` | Farklı seviyeler için çeşitli maddeler içeren bir taslak liste. |
+| OutlineHeadingsArticleSection | `16` | Başlık stillerine bağlı düzeylerin bulunduğu bir ana hat listesi. |
+| OutlineHeadingsLegal | `17` | Başlık stillerine bağlı düzeylerin bulunduğu bir ana hat listesi. |
+| OutlineHeadingsNumbers | `18` | Başlık stillerine bağlı düzeylerin bulunduğu bir ana hat listesi. |
+| OutlineHeadingsChapter | `19` | Başlık stillerine bağlı düzeylerin bulunduğu bir ana hat listesi. |
 
 ## Notlar
 
-the 'de parametre olarak bir liste şablonu değeri kullanılır[`Add`](../listcollection/add/) yöntem.
+Bir liste şablonu değeri, the parametresi olarak kullanılır[`Add`](../listcollection/add/) yöntem.
 
-Aspose.Words liste şablonları, Microsoft Word 2003'teki Madde İşaretleri ve Numaralandırma iletişim kutusunda bulunan 21 liste şablonuna karşılık gelir .
+Aspose.Words liste şablonları, Microsoft Word 2003'teki Madde İşaretleri ve Numaralandırma iletişim kutusunda bulunan 21 liste şablonuna karşılık gelir.
 
 ## Örnekler
 
-Tüm ana hat başlıkları listesi şablonlarını içeren bir belgenin nasıl oluşturulacağını gösterir.
+Tüm anahat başlık listesi şablonlarını içeren bir belgenin nasıl oluşturulacağını gösterir.
 
 ```csharp
 public void OutlineHeadingTemplates()
@@ -95,21 +95,21 @@ private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List li
 }
 ```
 
-Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
+Bir listeyi kopyalayarak listede numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
 // Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Listemizi bazı paragraflara uygulayın.
+// Listemizi bazı paragraflara uygulayalım.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -119,7 +119,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
 // Mevcut bir listenin bir kopyasını belgenin liste koleksiyonuna ekleyebiliriz
-// orijinalde değişiklik yapmadan benzer bir liste oluşturmak için.
+// orijinalinde değişiklik yapmadan benzer bir liste oluşturmak.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
@@ -142,21 +142,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Aşağıda belge oluşturucuyu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
-// 1 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Aşağıda bir belge oluşturucu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
+// 1 - Numaralandırılmış liste:
+// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini arttırabiliriz
-// geçerli liste öğesinde bağımsız bir alt liste başlatmak için.
-// "NumberDefault" adı verilen Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
- // Daha derin liste seviyelerinde harfler ve küçük harf Romen rakamları kullanılır.
+// "ListLevelNumber" özelliğini ayarlayarak liste düzeyini artırabiliriz
+// geçerli liste öğesinde kendi kendine yeten bir alt liste başlatmak için.
+// "NumberDefault" adlı Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
+ // Daha derin liste seviyelerinde harfler ve küçük harfli Roma rakamları kullanılır.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -164,7 +164,7 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Madde işaretli liste:
-// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
+// Bu liste her paragraftan önce bir girinti ve madde işareti ("•") uygulayacaktır.
 // Bu listenin daha derin seviyelerinde "■" ve "○" gibi farklı semboller kullanılacaktır.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -174,7 +174,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// "Liste" bayrağının ayarını kaldırarak sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
+// "Liste" bayrağını kaldırarak, sonraki paragrafların liste olarak biçimlendirilmesini önlemek için liste biçimlendirmesini devre dışı bırakabiliriz.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

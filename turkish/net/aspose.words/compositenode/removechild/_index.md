@@ -2,23 +2,24 @@
 title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
-second_title: Aspose.Words for .NET
-description: CompositeNode RemoveChild yöntem. Belirtilen alt düğümü kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş performans ve verimlilik için düğüm kaldırma işlemini kolaylaştırmak üzere tasarlanan RemoveChild yöntemi ile CompositeNode'unuzu zahmetsizce yönetin.
 type: docs
-weight: 170
+weight: 190
 url: /tr/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Belirtilen alt düğümü kaldırır.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| oldChild | Node | Kaldırılacak düğüm. |
+| oldChild | T | Kaldırılacak düğüm. |
 
 ### Geri dönüş değeri
 
@@ -26,7 +27,7 @@ Kaldırılan düğüm.
 
 ## Notlar
 
-ebeveyni*oldChild* ayarlandı`hükümsüz` düğüm çıkarıldıktan sonra.
+Ebeveyni*oldChild* ayarlandı`hükümsüz` düğüm kaldırıldıktan sonra.
 
 ## Örnekler
 
@@ -44,11 +45,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldırın.
+// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldır.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Kaldırdığımız bölüm ilk bölümdü, belgede yalnızca ikinci bölüm kaldı.
+// Kaldırdığımız bölüm ilk bölümdü, belgede sadece ikinci bölüm kaldı.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

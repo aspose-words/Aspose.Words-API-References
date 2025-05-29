@@ -3,9 +3,9 @@ title: CommentDisplayMode Enum
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Layout.CommentDisplayMode تعداد. يحدد وضع العرض لتعليقات المستند في C#.
+description: اكتشف خاصية Aspose.Words.Layout.CommentDisplayMode لتحسين عرض تعليقات المستندات. حسّن وضوح مستندك وعرضه اليوم!
 type: docs
-weight: 3290
+weight: 3740
 url: /ar/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -20,13 +20,13 @@ public enum CommentDisplayMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Hide | `0` | لم يتم عرض أي تعليقات على المستند. |
+| Hide | `0` | لم يتم تقديم أي تعليقات على المستند. |
 | ShowInBalloons | `1` | يعرض تعليقات المستند في بالونات في الهامش. هذه هي القيمة الافتراضية. |
-| ShowInAnnotations | `2` | يعرض تعليقات المستند في التعليقات التوضيحية. هذا متاح فقط لتنسيق Pdf. |
+| ShowInAnnotations | `2` | يعرض تعليقات المستندات في شكل شروح توضيحية. هذا متاح فقط لصيغة PDF. |
 
 ## أمثلة
 
-يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق معروض.
+يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق مُقدم.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations متاح فقط بتنسيقات Pdf1.7 وPdf1.5.
-// في التنسيقات الأخرى، سيعمل بشكل مشابه لـ Hide.
+//يتوفر ShowInAnnotations فقط بتنسيقي Pdf1.7 وPdf1.5.
+// في التنسيقات الأخرى، سوف يعمل بشكل مشابه لإخفاء.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");

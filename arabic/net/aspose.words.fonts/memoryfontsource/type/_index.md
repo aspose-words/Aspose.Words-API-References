@@ -3,14 +3,14 @@ title: MemoryFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: MemoryFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
+description: اكتشف خاصية MemoryFontSource Type التي تكشف عن نوع مصدر خطك، مما يعزز دقة تصميمك وإبداعك. أطلق العنان لإمكانياتك في مجال الخطوط!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/memoryfontsource/type/
 ---
 ## MemoryFontSource.Type property
 
-إرجاع نوع مصدر الخط.
+يعيد نوع مصدر الخط.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مجموعة بايتات تحتوي على بيانات من ملف الخط كمصدر للخط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

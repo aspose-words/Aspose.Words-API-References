@@ -3,14 +3,14 @@ title: IFontSavingCallback Interface
 linktitle: IFontSavingCallback
 articleTitle: IFontSavingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.IFontSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten und steuern möchten wie Aspose.Words Schriftarten speichert wenn ein Dokument in das HTMLFormat exportiert wird in C#.
+description: Steuern Sie die Schriftartenspeicherung in Aspose.Words mit der IFontSavingCallback-Schnittstelle. Erhalten Sie Benachrichtigungen und passen Sie HTML-Exporte für optimale Dokumentqualität an.
 type: docs
-weight: 5160
+weight: 5910
 url: /de/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten und steuern möchten, wie Aspose.Words Schriftarten speichert, wenn ein Dokument in das HTML-Format exportiert wird.
+Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten und steuern möchten, wie Aspose.Words Schriftarten beim Exportieren eines Dokuments in das HTML-Format speichert.
 
 ```csharp
 public interface IFontSavingCallback
@@ -20,11 +20,11 @@ public interface IFontSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Wird aufgerufen, wenn Aspose.Words im Begriff ist, eine Schriftartressource zu speichern. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Wird aufgerufen, wenn Aspose.Words dabei ist, eine Schriftartressource zu speichern. |
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -32,7 +32,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -71,7 +71,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

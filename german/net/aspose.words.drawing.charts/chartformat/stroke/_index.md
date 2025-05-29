@@ -3,9 +3,9 @@ title: ChartFormat.Stroke
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words für .NET
-description: ChartFormat Stroke eigendom. Ruft die Linienformatierung für das übergeordnete Diagrammelement ab in C#.
+description: Entdecken Sie die ChartFormat-Stricheigenschaft, um die Liniengestaltung in Ihren Diagrammen zu verbessern und so professionelle und optisch ansprechende Präsentationen zu gewährleisten.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property

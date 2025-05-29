@@ -3,14 +3,14 @@ title: IResourceLoadingCallback Interface
 linktitle: IResourceLoadingCallback
 articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words загружает внешний ресурс при импорте документа и вставке изображений с помощьюDocumentBuilder  на С#.
+description: Управляйте загрузкой внешних ресурсов в Aspose.Words с помощью интерфейса IResourceLoadingCallback. Улучшите импорт документов и вставку изображений без проблем.
 type: docs
-weight: 3640
+weight: 4090
 url: /ru/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-Реализуйте этот интерфейс, если хотите контролировать, как Aspose.Words загружает внешний ресурс при импорте документа и вставке изображений с помощью[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+Реализуйте этот интерфейс, если вы хотите контролировать, как Aspose.Words загружает внешний ресурс при импорте документа и вставке изображений с помощью[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -34,7 +34,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Изображения обычно вставляются с использованием URI или массива байтов.
+    // Изображения обычно вставляются с помощью URI или байтового массива.
     // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -46,8 +46,8 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
+/// Позволяет загружать изображения в документ, используя предопределенные сокращения, а не URI.
+/// Это отделит логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

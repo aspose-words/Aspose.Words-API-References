@@ -3,7 +3,7 @@ title: AbsolutePositionTab.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: AbsolutePositionTab Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод AbsolutePositionTab Accept для бесперебойного взаимодействия с посетителями. Повысьте интерактивность своего сайта и увеличьте удовлетворенность пользователей уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/absolutepositiontab/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-`ЛОЖЬ` если посетитель запросил остановку перечисления.
+`ЛОЖЬ` если посетитель попросил остановить перечисление.
 
 ## Примечания
 
 Звонки[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 ## Примеры
 
@@ -39,14 +39,19 @@ public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Извлекаем текстовое содержимое нашего документа, приняв этого пользовательского посетителя документа.
+    // Извлекаем текстовое содержимое нашего документа, приняв этого посетителя пользовательского документа.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Посетить только начало тела документа.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Посетить только конец тела документа.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
     // Абсолютная позиция табуляции, не имеющая эквивалента в строковой форме, была явно преобразована в символ табуляции.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // AbsolutePositionTab также может принимать DocumentVisitor сам по себе.
+    // AbsolutePositionTab также может принимать DocumentVisitor самостоятельно.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -56,7 +61,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Собирает текстовое содержимое всех прогонов в посещенном документе. Заменяет все абсолютные символы табуляции обычными табуляциями.
+/// Собирает текстовое содержимое всех прогонов в посещенном документе. Заменяет все абсолютные символы табуляции на обычные табуляции.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -84,7 +89,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст в текущий вывод. Учитывает включенный/отключенный выходной флаг.
+    /// Добавляет текст к текущему выводу. Учитывает флаг включенного/отключенного вывода.
     /// </summary>
     private void AppendText(string text)
     {
@@ -92,7 +97,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Простой текст документа, накопленного посетителем.
+    /// Простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

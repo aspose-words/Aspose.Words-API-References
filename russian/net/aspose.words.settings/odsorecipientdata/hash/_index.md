@@ -3,14 +3,14 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words для .NET
-description: OdsoRecipientData Hash свойство. Представляет хэшкод этой записи. Иногда Microsoft Word используетHash всей записи вместоUniqueTag value. Значение по умолчанию  0.  на С#.
+description: Откройте для себя свойство OdsoRecipientData Hash, которое предоставляет уникальный хэш-код для записей, улучшая целостность данных в Microsoft Word. Значение по умолчанию — 0.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Представляет хэш-код этой записи. Иногда Microsoft Word использует`Hash` всей записи вместо[`UniqueTag`](../uniquetag/) value. Значение по умолчанию — 0. .
+Представляет хэш-код для этой записи. Иногда Microsoft Word использует`Hash` целой записи вместо[`UniqueTag`](../uniquetag/) значение. Значение по умолчанию — 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -18,7 +18,7 @@ public int Hash { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

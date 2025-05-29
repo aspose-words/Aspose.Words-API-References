@@ -2,15 +2,15 @@
 title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Replacing.IReplacingCallback arayüz. Bul ve değiştir işlemi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words' IReplacingCallback arayüzüyle belge işlemenizi geliştirin. Kişiye özel sonuçlar için özel bul ve değiştir yöntemleri oluşturun.
 type: docs
-weight: 4630
+weight: 5360
 url: /tr/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-Bul ve değiştir işlemi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+Bir bul ve değiştir işlemi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IReplacingCallback
@@ -20,11 +20,54 @@ public interface IReplacingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Değiştirme işlemi sırasında, değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan, kullanıcı tanımlı bir yöntem. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Bir değiştirme yapılmadan hemen önce bulunan her eşleşme için bir değiştirme işlemi sırasında çağrılan kullanıcı tanımlı bir yöntem. |
 
 ## Örnekler
 
-Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Bir metin değiştirme işleminin düğümleri hangi sırayla geçtiğinin nasıl izleneceğini gösterir.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // İlk sayfa için farklı bir üstbilgi/altbilgi kullanılması arama sırasını etkileyecektir.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// Bir bul-değiştir işlemi sırasında, işlemin 'bulduğu' metni içeren her düğümün içeriğini kaydeder,
+/// değiştirme gerçekleşmeden önceki hali.
+/// Bu, metin değiştirme işleminin düğümleri hangi sırayla dolaşacağını görüntüler.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
+
+Tüm değiştirmeleri izlerken, düzenli ifade deseninin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -35,10 +78,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
+    // "Değiştir" yönteminin yapacağı tüm değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,7 +95,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
+/// Bir bul-değiştir işlemi tarafından yapılan her metin değişiminin günlüğünü tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -75,64 +118,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Bir metin değiştirme işleminin düğümlerden geçtiği sıranın nasıl izleneceğini gösterir.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // İlk sayfa için farklı bir üstbilgi/altbilgi kullanılması arama sırasını etkileyecektir.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// Bul ve değiştir işlemi sırasında, işlemin 'bulduğu' metni içeren her düğümün içeriğini kaydeder,
-        /// değiştirme gerçekleşmeden önceki durumu.
-        /// Bu, metin değiştirme işleminin düğümlerden geçtiği sırayı görüntüler.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
-```
-
-Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
+Bir bulma ve değiştirme işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -147,11 +140,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Eşleşen metni içeren paragraftan sonra bir belge ekleyin.
+        // Eşleşen metni içeren paragraftan sonra bir belge ekle.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metnin bulunduğu paragrafı kaldırın.
+        // Eşleşen metne sahip paragrafı kaldır.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -159,7 +152,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
+/// Bir paragraf veya tablonun ardından başka bir belgenin tüm düğümlerini ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -173,7 +166,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragrafsa düğümü atla.
+                // Bir bölümdeki son boş paragraf ise düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

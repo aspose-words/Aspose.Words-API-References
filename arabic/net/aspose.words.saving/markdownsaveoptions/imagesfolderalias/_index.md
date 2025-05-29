@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words لـ .NET
-description: MarkdownSaveOptions ImagesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في المستند. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف خاصية MarkdownSaveOptions ImagesFolderAlias لإدارة عناوين URI للصور في مستنداتك بسهولة. سهّل سير عملك مع هذه الميزة الأساسية!
 type: docs
-weight: 50
+weight: 90
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
 ---
 ## MarkdownSaveOptions.ImagesFolderAlias property
 
-يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في المستند. الافتراضي هو سلسلة فارغة.
+يحدد اسم المجلد المستخدم لإنشاء عناوين URI للصور المكتوبة في مستند. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,51 +18,31 @@ public string ImagesFolderAlias { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) فيMarkdown التنسيق، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة. [`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و `ImagesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) فيMarkdown يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة. [`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و `ImagesFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للصور.
 
-لو`ImagesFolderAlias` ليست سلسلة فارغة، فسيكون عنوان URI للصورة المكتوب إلى MarkdownImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias` إذا لم تكن سلسلة فارغة، فإن عنوان URI للصورة الذي تمت كتابته إلى Markdown سيكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
 
-لو`ImagesFolderAlias` عبارة عن سلسلة فارغة، فسيكون عنوان URI للصورة المكتوب إلى MarkdownImagesFolder + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias` إذا كانت السلسلة فارغة، فإن عنوان URI للصورة الذي تمت كتابته إلى Markdown سيكون:مجلد الصور + &lt;اسم ملف الصورة&gt;.
 
-لو`ImagesFolderAlias`تم ضبطه على "." (نقطة)، فسيتم كتابة ملف الصورة name إلى Markdown بدون مسار بغض النظر عن الخيارات الأخرى.
+لو`ImagesFolderAlias` إذا تم تعيينه على '.' (نقطة)، فسيتم كتابة ملف الصورة name إلى Markdown بدون مسار بغض النظر عن الخيارات الأخرى.
 
 ## أمثلة
 
-يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء معرفات URI للصورة.
+يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء عناوين URI للصور.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.Writeln("Some image below:");
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
-builder.InsertImage(image);
+builder.InsertImage(ImageDir + "Logo.jpg");
 
+string imagesFolder = Path.Combine(ArtifactsDir, "ImagesDir");
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
-// Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي سيتم تخزين الصور فيه
+// سيقوم Aspose.Words بحفظ جميع الصور المرتبطة بالمستند.
+saveOptions.ImagesFolder = imagesFolder;
 // استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-// عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
-saveOptions.ImagesFolderAlias = "http://example.com/images";
-
-builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
-```
-
-يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء معرفات URI للصورة (.NetStandard 2.0).
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.Writeln("Some image below:");
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(bitmap);
-
-MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
-// Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
-// استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-// عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
+// عند إنشاء عناوين URI للصور بدلاً من اسم مجلد الصور.
 saveOptions.ImagesFolderAlias = "http://example.com/images";
 
 builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText ملكية. يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب على عكس محتويات النص العادي داخل علامة المستند المنظم في C#.
+description: اكتشف خاصية IsShowingPlaceholderText في StructuredDocumentTagRangeStart. تمكّن من إدارة النصوص النائبة والنصوص العادية بسهولة في مستنداتك المنظمة!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب (على عكس محتويات النص العادي داخل علامة المستند المنظم).
+يحدد ما إذا كان سيتم تفسير محتوى علامة المستند المنظم هذا بحيث يحتوي على نص نائب (على عكس محتويات النص العادي داخل علامة المستند المنظم).
 
 إذا تم ضبطه على`حقيقي` ، سيتم استئناف هذه الحالة (إظهار نص العنصر النائب) عند فتح هذا المستند.
 
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

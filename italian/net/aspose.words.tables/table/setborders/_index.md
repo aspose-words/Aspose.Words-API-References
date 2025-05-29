@@ -3,14 +3,14 @@ title: Table.SetBorders
 linktitle: SetBorders
 articleTitle: SetBorders
 second_title: Aspose.Words per .NET
-description: Table SetBorders metodo. Imposta tutti i bordi della tabella sullo stile di linea larghezza e colore specificati in C#.
+description: Personalizza le tue tabelle senza sforzo con il metodo SetBorders, regolando lo stile, la larghezza e il colore delle linee per un aspetto curato e professionale.
 type: docs
-weight: 420
+weight: 440
 url: /it/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
 
-Imposta tutti i bordi della tabella sullo stile di linea, larghezza e colore specificati.
+Imposta tutti i bordi della tabella sullo stile di linea, la larghezza e il colore specificati.
 
 ```csharp
 public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
@@ -18,9 +18,9 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| lineStyle | LineStyle | Lo stile di linea da applicare. |
-| lineWidth | Double | Lo spessore della linea da impostare (in punti). |
-| color | Color | Il colore da utilizzare per il bordo. |
+| lineStyle | LineStyle | Stile della linea da applicare. |
+| lineWidth | Double | Larghezza della linea da impostare (in punti). |
+| color | Color | Il colore da usare per il bordo. |
 
 ## Esempi
 
@@ -33,13 +33,13 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Cancella tutti i bordi esistenti dalla tabella.
 table.ClearBorders();
 
-// Imposta una singola linea verde che funga da bordo esterno ed interno di questa tabella.
+// Imposta una singola linea verde che funga da bordo esterno e interno per ogni tabella.
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 
 doc.Save(ArtifactsDir + "Table.SetBorders.docx");
 ```
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

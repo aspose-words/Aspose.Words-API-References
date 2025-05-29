@@ -3,14 +3,14 @@ title: DocumentBuilder
 linktitle: DocumentBuilder
 articleTitle: DocumentBuilder
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder البناء. تهيئة مثيل جديد لهذه الفئة في C#.
+description: أنشئ مستندات قوية بكل سهولة مع DocumentBuilder. أنشئ نسخة جديدة وسهّل إدارة مستنداتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/documentbuilder/documentbuilder/
 ---
 ## DocumentBuilder() {#constructor}
 
-تهيئة مثيل جديد لهذه الفئة.
+يقوم بتهيئة مثيل جديد لهذه الفئة.
 
 ```csharp
 public DocumentBuilder()
@@ -18,7 +18,7 @@ public DocumentBuilder()
 
 ## ملاحظات
 
-إنشاء ملف جديد[`DocumentBuilder`](../) الكائن وإرفاقه بكائن جديد[`Document`](../../document/) الكائن.
+ينشئ جديدًا[`DocumentBuilder`](../)الكائن ويربطه بجسم جديد[`Document`](../../document/) الكائن.
 
 ## أمثلة
 
@@ -47,9 +47,60 @@ builder.Write("Hello world!");
 
 ---
 
+## DocumentBuilder(*[DocumentBuilderOptions](../../documentbuilderoptions/)*) {#constructor_3}
+
+يقوم بتهيئة مثيل جديد لهذه الفئة.
+
+```csharp
+public DocumentBuilder(DocumentBuilderOptions options)
+```
+
+## ملاحظات
+
+ينشئ جديدًا[`DocumentBuilder`](../)الكائن ويربطه بجسم جديد[`Document`](../../document/) object. يمكن تحديد خيارات إضافية لبناء المستندات.
+
+## أمثلة
+
+يوضح كيفية تجاهل تنسيق الجدول للمحتوى بعد ذلك.
+
+```csharp
+Document doc = new Document();
+DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+builderOptions.ContextTableFormatting = true;
+DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+//يضيف المحتوى قبل الجدول.
+// حجم الخط الافتراضي هو 12.
+builder.Writeln("Font size 12 here.");
+builder.StartTable();
+builder.InsertCell();
+//تغيير حجم الخط داخل الجدول.
+builder.Font.Size = 5;
+builder.Write("Font size 5 here");
+builder.InsertCell();
+builder.Write("Font size 5 here");
+builder.EndRow();
+builder.EndTable();
+
+// إذا كان ContextTableFormatting صحيحًا، فلن يتم تطبيق تنسيق الجدول على المحتوى بعد ذلك.
+// إذا كان ContextTableFormatting خاطئًا، فسيتم تطبيق تنسيق الجدول على المحتوى بعد ذلك.
+builder.Writeln("Font size 12 here.");
+
+doc.Save(ArtifactsDir + "Table.ContextTableFormatting.docx");
+```
+
+### أنظر أيضا
+
+* class [DocumentBuilderOptions](../../documentbuilderoptions/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
+* المجسم [Aspose.Words](../../../)
+
+---
+
 ## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
-تهيئة مثيل جديد لهذه الفئة.
+يقوم بتهيئة مثيل جديد لهذه الفئة.
 
 ```csharp
 public DocumentBuilder(Document doc)
@@ -57,11 +108,11 @@ public DocumentBuilder(Document doc)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| doc | Document | ال[`Document`](../../document/) كائن لنعلق عليه. |
+| doc | Document | ال[`Document`](../../document/) كائن لربطه. |
 
 ## ملاحظات
 
-إنشاء ملف جديد[`DocumentBuilder`](../) كائن، يعلق على المحدد[`Document`](../../document/)object. تم وضع المؤشر في بداية المستند.
+ينشئ جديدًا[`DocumentBuilder`](../) الكائن، يرتبط بالشيء المحدد[`Document`](../../document/) الكائن. يقع المؤشر في بداية المستند.
 
 ## أمثلة
 
@@ -75,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -93,21 +144,21 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
+يوضح كيفية إدراج جدول المحتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل جدول محتويات للصفحة الأولى من المستند.
-// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
-// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
+//إدراج جدول المحتويات للصفحة الأولى من المستند.
+// قم بتكوين الجدول لالتقاط الفقرات التي تحتوي على عناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاتها لتكون روابط تشعبية تأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
-// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات ذات أنماط عناوين.
+// كل عنوان من هذا القبيل بمستوى بين 1 و3 سوف ينشئ إدخالاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -135,7 +186,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من نوع يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```
@@ -143,6 +194,63 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### أنظر أيضا
 
 * class [Document](../../document/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
+* المجسم [Aspose.Words](../../../)
+
+---
+
+## DocumentBuilder(*[Document](../../document/), [DocumentBuilderOptions](../../documentbuilderoptions/)*) {#constructor_2}
+
+يقوم بتهيئة مثيل جديد لهذه الفئة.
+
+```csharp
+public DocumentBuilder(Document doc, DocumentBuilderOptions options)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| doc | Document | ال[`Document`](../../document/) كائن لربطه. |
+| options | DocumentBuilderOptions | خيارات إضافية لعملية بناء المستندات. |
+
+## ملاحظات
+
+ينشئ جديدًا[`DocumentBuilder`](../) الكائن، يرتبط بالشيء المحدد[`Document`](../../document/) الكائن. يقع المؤشر في بداية المستند.
+
+## أمثلة
+
+يوضح كيفية تجاهل تنسيق الجدول للمحتوى بعد ذلك.
+
+```csharp
+Document doc = new Document();
+DocumentBuilderOptions builderOptions = new DocumentBuilderOptions();
+builderOptions.ContextTableFormatting = true;
+DocumentBuilder builder = new DocumentBuilder(doc, builderOptions);
+
+//يضيف المحتوى قبل الجدول.
+// حجم الخط الافتراضي هو 12.
+builder.Writeln("Font size 12 here.");
+builder.StartTable();
+builder.InsertCell();
+//تغيير حجم الخط داخل الجدول.
+builder.Font.Size = 5;
+builder.Write("Font size 5 here");
+builder.InsertCell();
+builder.Write("Font size 5 here");
+builder.EndRow();
+builder.EndTable();
+
+// إذا كان ContextTableFormatting صحيحًا، فلن يتم تطبيق تنسيق الجدول على المحتوى بعد ذلك.
+// إذا كان ContextTableFormatting خاطئًا، فسيتم تطبيق تنسيق الجدول على المحتوى بعد ذلك.
+builder.Writeln("Font size 12 here.");
+
+doc.Save(ArtifactsDir + "Table.ContextTableFormatting.docx");
+```
+
+### أنظر أيضا
+
+* class [Document](../../document/)
+* class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * class [DocumentBuilder](../)
 * مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)

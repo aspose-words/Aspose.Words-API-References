@@ -3,24 +3,28 @@ title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart PlaceholderName eigendom. Ruft den Namen ab oder legt ihn festBuildingBlock enthält Platzhaltertext in C#.
+description: Entdecken Sie, wie Sie die PlaceholderName-Eigenschaft für StructuredDocumentTagRangeStart verwalten und so die Effizienz der Bausteine Ihres Dokuments verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Ruft den Namen ab oder legt ihn fest[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) enthält Platzhaltertext.
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) mit diesem Namen[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) muss in der vorhanden sein[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sonstInvalidOperationException wird passieren.
+Ruft den Namen des[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) mit Platzhaltertext.
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| InvalidOperationException | Auslösen, wenn BuildingBlock mit diesem Namen[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) ist nicht vorhanden in[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
+
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

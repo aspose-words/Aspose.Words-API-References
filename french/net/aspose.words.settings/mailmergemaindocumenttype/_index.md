@@ -3,9 +3,9 @@ title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType énumération. Spécifie les types possibles pour un document source de publipostage en C#.
+description: Découvrez l'énumération Aspose.Words.MailMergeMainDocumentType, définissant différents types de documents sources de publipostage pour une automatisation transparente des documents.
 type: docs
-weight: 5840
+weight: 6670
 url: /fr/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -21,17 +21,17 @@ public enum MailMergeMainDocumentType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | NotAMergeDocument | `0` | Ce document n'est pas un document de publipostage. |
-| FormLetters | `1` | Spécifie que le document source du publipostage est du type lettre type. |
-| MailingLabels | `2` | Spécifie que le document source du publipostage est du type étiquette de publipostage. |
-| Envelopes | `4` | Spécifie que le document source du publipostage est du type enveloppe. |
-| Catalog | `8` | Spécifie que le document source du publipostage est du type catalogue. |
-| Email | `16` | Spécifie que le document source du publipostage est du type message électronique. |
-| Fax | `32` | Spécifie que le document source du publipostage est du type fax. |
+| FormLetters | `1` | Spécifie que le document source de publipostage est de type lettre type. |
+| MailingLabels | `2` | Spécifie que le document source de publipostage est de type étiquette de publipostage. |
+| Envelopes | `4` | Spécifie que le document source de publipostage est de type enveloppe. |
+| Catalog | `8` | Spécifie que le document source de publipostage est de type catalogue. |
+| Email | `16` | Spécifie que le document source de publipostage est du type message électronique. |
+| Fax | `32` | Spécifie que le document source de publipostage est de type fax. |
 | Default | `0` | Égal àNotAMergeDocument |
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

@@ -3,14 +3,14 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words för .NET
-description: SignatureLineOptions AllowComments fast egendom. Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen ärfalsk  i C#.
+description: Aktivera undertecknarkommentarer i dialogrutan Signera med egenskapen AllowComments i SignatureLineOptions. Förbättra samarbete och feedback utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är`falsk` .
+Hämtar eller anger ett värde som anger att signeraren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart RangeEnd propriété. Spécifie la fin de la plage si leStructuredDocumentTag est une balise de document structuré à distance. Sinon renvoienul  en C#.
+description: Explorez les propriétés StructuredDocumentTagRangeStart et RangeEnd pour définir les limites des balises de document, améliorant ainsi la gestion de vos documents structurés.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Spécifie la fin de la plage si le[`StructuredDocumentTag`](../../structureddocumenttag/) est une balise de document structuré à distance. Sinon, renvoie`nul` .
+Spécifie la fin de la plage si le[`StructuredDocumentTag`](../../structureddocumenttag/) est une balise de document structurée à plage. Sinon, renvoie`nul` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
@@ -18,7 +18,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

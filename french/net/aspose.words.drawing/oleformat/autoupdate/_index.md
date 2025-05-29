@@ -3,7 +3,7 @@ title: OleFormat.AutoUpdate
 linktitle: AutoUpdate
 articleTitle: AutoUpdate
 second_title: Aspose.Words pour .NET
-description: OleFormat AutoUpdate propriété. Spécifie si le lien vers lobjet OLE est automatiquement mis à jour ou non dans Microsoft Word en C#.
+description: Découvrez la propriété OleFormat AutoUpdate dans Microsoft Word, garantissant que vos liens d'objet OLE restent à jour et améliorent la précision du document sans effort.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/oleformat/autoupdate/
@@ -22,7 +22,7 @@ La valeur par défaut est`FAUX`.
 
 ## Exemples
 
-Montre comment extraire des objets OLE incorporés dans des fichiers.
+Montre comment extraire des objets OLE intégrés dans des fichiers.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -38,7 +38,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Si nous prévoyons d'enregistrer l'objet OLE dans un fichier du système de fichiers local,
-// nous pouvons utiliser la propriété "SuggestedExtension" pour déterminer quelle extension de fichier appliquer au fichier.
+// nous pouvons utiliser la propriété « SuggestedExtension » pour déterminer quelle extension de fichier appliquer au fichier.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Vous trouverez ci-dessous deux manières d'enregistrer un objet OLE dans un fichier du système de fichiers local.
@@ -48,7 +48,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement sous un nom de fichier :
+// 2 - Enregistrez-le directement dans un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

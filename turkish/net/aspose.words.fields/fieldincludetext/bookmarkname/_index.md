@@ -2,15 +2,15 @@
 title: FieldIncludeText.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: Aspose.Words for .NET
-description: FieldIncludeText BookmarkName mülk. Belgeye eklenecek yer işaretinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş organizasyon ve verimlilik için belgelerinizdeki yer imi adlarını kolayca yönetmek ve özelleştirmek amacıyla FieldIncludeText BookmarkName özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldincludetext/bookmarkname/
 ---
 ## FieldIncludeText.BookmarkName property
 
-Belgeye eklenecek yer işaretinin adını alır veya ayarlar.
+Belgedeki yer iminin adını alır veya ayarlar.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

@@ -2,15 +2,15 @@
 title: FieldFormat.NumericFormat
 linktitle: NumericFormat
 articleTitle: NumericFormat
-second_title: Aspose.Words for .NET
-description: FieldFormat NumericFormat mülk. Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar.  anahtarına karşılık gelir C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFormat NumericFormat özelliğinin sayısal alan sonuçlarını nasıl özelleştirerek veri sunumunu ve kullanıcı deneyimini etkili bir şekilde geliştirdiğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar. \# anahtarına karşılık gelir.
+Sayısal alan sonucuna uygulanan bir biçimlendirmeyi alır veya ayarlar. \# anahtarına karşılık gelir.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -24,15 +24,15 @@ Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hiçbir format uygulanmadan sonucu görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
+// Biçim uygulanmadan bir sonuç görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Alanın özelliklerini kullanarak alanın sonucuna bir format uygulayabiliriz.
+// Bir alanın sonucuna, alanın özelliklerini kullanarak bir format uygulayabiliriz.
 // Aşağıda bir alanın sonucuna uygulayabileceğimiz üç tür format bulunmaktadır.
-// 1 - Sayısal format:
+// 1 - Sayısal biçim:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Tarih/saat formatı:
+// 2 - Tarih/saat biçimi:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Alanın sonucunu orijinal formuna döndürmek için formatlarımızı kaldırabiliriz.
+// Alanın sonucunu orijinal haline döndürmek için formatlarımızı kaldırabiliriz.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

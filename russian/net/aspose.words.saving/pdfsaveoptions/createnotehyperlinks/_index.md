@@ -3,14 +3,14 @@ title: PdfSaveOptions.CreateNoteHyperlinks
 linktitle: CreateNoteHyperlinks
 articleTitle: CreateNoteHyperlinks
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions CreateNoteHyperlinks свойство. Указывает следует ли преобразовывать ссылки на сноски/концевые сноски в основном тексте в активные гиперссылки. При нажатии гиперссылка приведет к соответствующей сноске/концевой сноске. Значение по умолчаниюЛОЖЬ  на С#.
+description: Улучшите свои PDF-файлы с помощью CreateNoteHyperlinks в PdfSaveOptions. Преобразуйте сноски и концевые сноски в кликабельные ссылки для легкой навигации. По умолчанию — false.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property
 
-Указывает, следует ли преобразовывать ссылки на сноски/концевые сноски в основном тексте в активные гиперссылки. При нажатии гиперссылка приведет к соответствующей сноске/концевой сноске. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, следует ли преобразовывать ссылки на сноски/концевые сноски в основном тексте статьи в активные гиперссылки. При щелчке по гиперссылке будет открыта соответствующая сноска/концевая сноска. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool CreateNoteHyperlinks { get; set; }
@@ -18,18 +18,18 @@ public bool CreateNoteHyperlinks { get; set; }
 
 ## Примеры
 
-Показывает, как заставить сноски и концевые сноски функционировать как гиперссылки.
+Показывает, как сделать так, чтобы обычные и концевые сноски функционировали как гиперссылки.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства CreateNoteHyperlinks значение «true», чтобы повернуть все символы сносок/концевых сносок.
-// в тексте действуют как ссылки, которые при нажатии ведут к соответствующим сноскам/концевым сноскам.
-// Установите для свойства CreateNoteHyperlinks значение «false», чтобы символы сносок/концевых сносок не ссылались ни на что.
+// Установите свойство "CreateNoteHyperlinks" в значение "true", чтобы включить все символы сносок/концевых сносок
+// в тексте действуют как ссылки, при нажатии на которые мы переходим к соответствующим сноскам/концевым примечаниям.
+// Установите свойство "CreateNoteHyperlinks" в значение "false", чтобы символы сносок/концевых сносок не ссылались ни на что.
 options.CreateNoteHyperlinks = createNoteHyperlinks;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);

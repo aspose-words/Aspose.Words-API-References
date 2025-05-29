@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow.Values
 linktitle: Values
 articleTitle: Values
 second_title: Aspose.Words für .NET
-description: FieldDatabaseDataRow Values eigendom. Ruft Werte ab die zu dieser Zeile gehören in C#.
+description: Entdecken Sie die Eigenschaft „FieldDatabaseDataRow-Werte“, um einfach auf Datenwerte für jede Zeile zuzugreifen und diese zu verwalten und so die Effizienz Ihrer Datenverarbeitung zu steigern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddatabasedatarow/values/

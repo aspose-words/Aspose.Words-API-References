@@ -2,15 +2,15 @@
 title: KnownTypeSet.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: KnownTypeSet Remove yöntem. Belirtilenleri kaldırırTypekümeden nesne. AtarArgumentException if type dırdirhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli Remove metodumuzla belirli Type nesnelerini KnownTypeSet'inizden zahmetsizce kaldırın. Veri yönetiminizi bugün basitleştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Belirtilenleri kaldırırTypekümeden nesne. AtarArgumentException if *type* dır-dir`hükümsüz` .
+Belirtilenleri kaldırırType kümeden nesne.
 
 ```csharp
 public void Remove(Type type)
@@ -19,6 +19,12 @@ public void Remove(Type type)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | type | Type | AType kaldırılacak nesne. |
+
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentException | Eğer atarsa*type* dır`hükümsüz`. |
 
 ### Ayrıca bakınız
 

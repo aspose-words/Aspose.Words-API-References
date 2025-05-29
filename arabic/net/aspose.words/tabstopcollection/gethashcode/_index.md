@@ -3,14 +3,14 @@ title: TabStopCollection.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
+description: اكتشف طريقة TabStopCollection GetHashCode—وهي دالة تجزئة أساسية لإدارة البيانات بكفاءة وتحسين الأداء.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/tabstopcollection/gethashcode/
 ---
 ## TabStopCollection.GetHashCode method
 
-بمثابة دالة تجزئة لهذا النوع.
+يعمل كدالة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()
@@ -18,7 +18,7 @@ public override int GetHashCode()
 
 ## أمثلة
 
-يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
+يوضح كيفية العمل مع مجموعة علامات التبويب الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 نقطة هي "بوصة" واحدة في مسطرة إيقاف علامة التبويب في Microsoft Word.
+// 72 نقطة هي "بوصة" واحدة على مسطرة علامة التبويب في برنامج Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -34,22 +34,22 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// يأخذ كل حرف "علامة تبويب" مؤشر المنشئ إلى موقع علامة التبويب التالية.
+// كل حرف "علامة تبويب" يأخذ مؤشر المنشئ إلى موقع علامة التبويب التالية.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// تحصل كل فقرة على مجموعة علامات الجدولة الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات الجدولة الخاصة بمنشئ المستندات.
+// تحصل كل فقرة على مجموعة علامات التبويب الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات التبويب الخاصة بمنشئ المستندات.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// يمكن أن توجهنا مجموعة علامات التبويب إلى TabStops قبل وبعد مواضع معينة.
+// يمكن لمجموعة علامات التبويب أن تشير إلينا إلى علامات التبويب قبل وبعد مواضع معينة.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// يمكننا مسح مجموعة علامات الجدولة الخاصة بالفقرة للعودة إلى سلوك الجدولة الافتراضي.
+// يمكننا مسح مجموعة علامات التبويب الخاصة بالفقرة للعودة إلى سلوك علامات التبويب الافتراضي.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

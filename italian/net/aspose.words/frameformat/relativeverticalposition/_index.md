@@ -3,7 +3,7 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words per .NET
-description: FrameFormat RelativeVerticalPosition proprietà. Ottiene la posizione verticale relativa di un frame in C#.
+description: Scopri la proprietà FrameFormat RelativeVerticalPosition per determinare facilmente l'allineamento verticale di una cornice, migliorando il layout e il design del tuo documento.
 type: docs
 weight: 80
 url: /it/net/aspose.words/frameformat/relativeverticalposition/

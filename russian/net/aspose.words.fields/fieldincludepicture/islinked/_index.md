@@ -3,14 +3,14 @@ title: FieldIncludePicture.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words для .NET
-description: FieldIncludePicture IsLinked свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом на С#.
+description: Оптимизируйте свои документы с помощью свойства FieldIncludePicture IsLinked — управляйте хранилищем графики, чтобы уменьшить размер файла и повысить производительность.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldincludepicture/islinked/
 ---
 ## FieldIncludePicture.IsLinked property
 
-Получает или задает, следует ли уменьшать размер файла, не сохраняя графические данные вместе с документом.
+Возвращает или задает, следует ли уменьшить размер файла, не сохраняя графические данные вместе с документом.
 
 ```csharp
 public bool IsLinked { get; set; }

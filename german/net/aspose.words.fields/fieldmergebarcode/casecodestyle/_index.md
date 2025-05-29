@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode CaseCodeStyle eigendom. Ruft den Stil eines Fallcodes für den Barcodetyp ITF14 ab oder legt ihn fest. Die gültigen Werte sind STDEXTADD in C#.
+description: Entdecken Sie die FieldMergeBarcode CaseCodeStyle-Eigenschaft für ITF14-Barcodes. Passen Sie Ihren Case-Code-Stil ganz einfach mit gültigen Optionen wie STDEXTADD an.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Ruft den Stil eines Fallcodes für den Barcodetyp ITF14 ab oder legt ihn fest. Die gültigen Werte sind [STD&#x7C;EXT&#x7C;ADD]
+Ruft den Stil eines Case Codes für den Barcode-Typ ITF14 ab oder legt ihn fest. Die gültigen Werte sind [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,14 +18,14 @@ public string CaseCodeStyle { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Seriendruck für ITF14-Barcodes durchgeführt wird.
+Zeigt, wie ein Serienbrief mit ITF14-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyITF14Barcode“ einer Zusammenführungsdatenquelle in ITF14-Barcodes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyITF14Barcode“ einer zusammengeführten Datenquelle in ITF14-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -36,7 +36,7 @@ Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCod
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein ITF14-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein ITF14-Barcode mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
 table.Rows.Add(new[] { "09312345678907" });

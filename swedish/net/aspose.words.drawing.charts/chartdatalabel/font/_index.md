@@ -3,14 +3,14 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words för .NET
-description: ChartDataLabel Font fast egendom. Ger tillgång till teckensnittsformateringen för denna dataetikett i C#.
+description: Upptäck teckensnittsegenskapen ChartDataLabel för att enkelt anpassa teckensnittsformateringen för din dataetikett för förbättrad visuell attraktionskraft och tydlighet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 ## ChartDataLabel.Font property
 
-Ger tillgång till teckensnittsformateringen för denna dataetikett.
+Ger åtkomst till teckensnittsformateringen för denna dataetikett.
 
 ```csharp
 public Font Font { get; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Applicera en dataetikett på varje bubbla som visar dess diameter.
+// Använd en dataetikett för varje bubbla som visar dess diameter.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

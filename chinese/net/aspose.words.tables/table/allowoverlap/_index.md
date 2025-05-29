@@ -2,15 +2,15 @@
 title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
-second_title: 用于 .NET 的 Aspose.Words
-description: Table AllowOverlap 财产. 获取浮动表是否允许文档中的其他浮动对象 在显示时重叠其范围 默认值为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格的 AllowOverlap 属性，该属性控制浮动对象是否可以与表格重叠。增强布局灵活性，实现更佳的文档呈现效果。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-获取浮动表是否允许文档中的其他浮动对象 在显示时重叠其范围。 默认值为`真的`.
+获取浮动表格是否允许文档中的其他浮动对象在显示时与其范围重叠。 默认值为`真的`.
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // 只有 Margin、Page、Column 在 HorizontalAnchor setter 的relativehorizontalposition 中可用。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Column 在 RelativeHorizontalPosition 中可用于 HorizontalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // 仅边距、页面、段落可用于 VerticalAnchor setter 的relativeverticalposition。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Paragraph 在 RelativeVerticalPosition 中可用于 VerticalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

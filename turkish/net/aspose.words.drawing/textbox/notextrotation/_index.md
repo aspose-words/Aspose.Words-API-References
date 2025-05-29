@@ -2,15 +2,15 @@
 title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
-second_title: Aspose.Words for .NET
-description: TextBox NoTextRotation mülk. Şekil döndürüldüğünde TextBox metninin de dönmemesi gerektiğini belirten bir boole değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: NoTextRotation özelliğiyle TextBox'ınızdaki metin dönüşünü kontrol edin. Şekiller döndürüldüğünde bile net, okunabilir metin sağlayın. Tasarımınızı geliştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/textbox/notextrotation/
 ---
 ## TextBox.NoTextRotation property
 
-Şekil döndürüldüğünde TextBox metninin de dönmemesi gerektiğini belirten bir boole değeri alır veya ayarlar.
+Şekil döndürüldüğünde TextBox'ın metninin dönmemesi gerektiğini belirten bir Boole değeri alır veya ayarlar.
 
 ```csharp
 public bool NoTextRotation { get; set; }

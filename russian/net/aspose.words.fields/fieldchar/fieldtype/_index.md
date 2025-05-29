@@ -3,7 +3,7 @@ title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words для .NET
-description: FieldChar FieldType свойство. Возвращает тип поля на С#.
+description: Откройте для себя свойство FieldChar FieldType, которое раскрывает тип поля, улучшая управление данными и эффективность программирования. Узнайте больше прямо сейчас!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldchar/fieldtype/
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получаем фасадный объект, который представляет поле в документе.
+// Извлекаем объект фасада, представляющий поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновляем поле, чтобы оно отображало текущую дату.
+// Обновите поле, чтобы отобразить текущую дату.
 field.Update();
 ```
 

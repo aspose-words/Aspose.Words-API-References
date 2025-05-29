@@ -3,14 +3,14 @@ title: OdsoFieldMappingType Enum
 linktitle: OdsoFieldMappingType
 articleTitle: OdsoFieldMappingType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType перечисление. Указывает возможные типы используемые для указания того было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных на С#.
+description: Откройте для себя перечисление Aspose.Words.OdsoFieldMappingType для эффективного сопоставления полей слияния с внешними источниками данных. Улучшите автоматизацию документов сегодня!
 type: docs
-weight: 5920
+weight: 6750
 url: /ru/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
 
-Указывает возможные типы, используемые для указания того, было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных.
+Указывает возможные типы, используемые для указания того, сопоставлено ли заданное поле слияния со столбцом в заданном внешнем источнике данных.
 
 ```csharp
 public enum OdsoFieldMappingType
@@ -20,8 +20,8 @@ public enum OdsoFieldMappingType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Column | `0` | Указывает, что поле слияния почты сопоставлено со столбцом в данном внешнем источнике данных. |
-| Null | `1` | Указывает, что поле слияния почты не сопоставлено со столбцом в данном внешнем источнике данных. |
+| Column | `0` | Указывает, что поле слияния почты сопоставлено со столбцом в указанном внешнем источнике данных. |
+| Null | `1` | Указывает, что поле слияния почты не сопоставлено со столбцом в указанном внешнем источнике данных. |
 | Default | `1` | РавноNull . |
 
 ## Примеры
@@ -53,7 +53,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

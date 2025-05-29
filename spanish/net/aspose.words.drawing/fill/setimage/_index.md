@@ -3,9 +3,9 @@ title: Fill.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words para .NET
-description: Fill SetImage método. Cambia el tipo de relleno a una sola imagen en C#.
+description: Mejora tu diseño con el método SetImage. Cambia fácilmente a un solo tipo de relleno de imagen para obtener imágenes impactantes y una integración perfecta.
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(*string*) {#setimage_2}
@@ -22,23 +22,23 @@ public void SetImage(string fileName)
 
 ## Ejemplos
 
-Muestra cómo configurar el tipo de relleno de forma como imagen.
+Muestra cómo establecer el tipo de relleno de forma como imagen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hay varias formas de configurar la imagen.
+//Hay varias formas de configurar la imagen.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 1 - Usando un nombre de archivo del sistema local:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - Carga un archivo en una matriz de bytes:
+// 2 - Cargar un archivo en una matriz de bytes:
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - Desde una secuencia:
+// 3 - Desde un stream:
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -64,6 +64,30 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | La secuencia que contiene los bytes de la imagen. |
 
+## Ejemplos
+
+Muestra cómo establecer el tipo de relleno de forma como imagen.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//Hay varias formas de configurar la imagen.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Usando un nombre de archivo del sistema local:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Cargar un archivo en una matriz de bytes:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - Desde un stream:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
+
 ### Ver también
 
 * class [Fill](../)
@@ -82,7 +106,31 @@ public void SetImage(byte[] imageBytes)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matriz de bytes de imagen. |
+| imageBytes | Byte[] | La matriz de bytes de la imagen. |
+
+## Ejemplos
+
+Muestra cómo establecer el tipo de relleno de forma como imagen.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//Hay varias formas de configurar la imagen.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Usando un nombre de archivo del sistema local:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Cargar un archivo en una matriz de bytes:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - Desde un stream:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### Ver también
 

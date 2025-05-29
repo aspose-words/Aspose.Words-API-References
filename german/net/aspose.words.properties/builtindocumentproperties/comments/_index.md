@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words für .NET
-description: BuiltInDocumentProperties Comments eigendom. Ruft die Dokumentkommentare ab oder legt diese fest in C#.
+description: Verwalten Sie Ihre Dokumentkommentare mühelos mit BuiltInDocumentProperties. Rufen Sie Kommentare einfach ab oder legen Sie sie fest, um die Zusammenarbeit zu verbessern und die Übersichtlichkeit zu erhöhen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.properties/builtindocumentproperties/comments/
 ---
 ## BuiltInDocumentProperties.Comments property
 
-Ruft die Dokumentkommentare ab oder legt diese fest.
+Ruft die Dokumentkommentare ab oder legt sie fest.
 
 ```csharp
 public string Comments { get; set; }
@@ -25,36 +25,36 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Nachfolgend finden Sie vier integrierte Dokumenteigenschaften mit Feldern, die ihre Werte im Dokumentkörper anzeigen können.
-// 1 – Eigenschaft „Autor“, die wir mithilfe eines AUTHOR-Felds anzeigen können:
+// Unten sind vier integrierte Dokumenteigenschaften aufgeführt, die über Felder verfügen, deren Werte im Dokumenttext angezeigt werden können.
+// 1 - Eigenschaft „Autor“, die wir mithilfe eines AUTHOR-Felds anzeigen können:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - „Title“-Eigenschaft, die wir mithilfe eines TITLE-Felds anzeigen können:
+// 2 - Eigenschaft „Titel“, die wir mithilfe eines TITLE-Felds anzeigen können:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - „Subject“-Eigenschaft, die wir mithilfe eines SUBJECT-Felds anzeigen können:
+// 3 - Eigenschaft „Betreff“, die wir mithilfe eines SUBJECT-Felds anzeigen können:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 – Eigenschaft „Comments“, die wir mithilfe eines COMMENTS-Felds anzeigen können:
+// 4 - Eigenschaft „Kommentare“, die wir mithilfe eines KOMMENTAR-Felds anzeigen können:
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// Die integrierte Eigenschaft „Kategorie“ verfügt über kein Feld, das ihren Wert anzeigen kann.
+// Die integrierte Eigenschaft „Kategorie“ verfügt nicht über ein Feld, das ihren Wert anzeigen kann.
 properties.Category = "My category";
 
 // Wir können mehrere Schlüsselwörter für ein Dokument festlegen, indem wir den Zeichenfolgenwert der Eigenschaft „Schlüsselwörter“ durch Semikolons trennen.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und diese Eigenschaften unter „Eigenschaften“ finden –> "Einzelheiten".
-// Die integrierte Eigenschaft „Autor“ befindet sich in der Gruppe „Ursprung“, die anderen in der Gruppe „Beschreibung“.
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und diese Eigenschaften unter „Eigenschaften“ -> „Details“ finden.
+// Die integrierte Eigenschaft „Autor“ befindet sich in der Gruppe „Ursprung“ und die anderen in der Gruppe „Beschreibung“.
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

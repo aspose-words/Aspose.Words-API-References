@@ -3,14 +3,14 @@ title: VbaModuleType Enum
 linktitle: VbaModuleType
 articleTitle: VbaModuleType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Vba.VbaModuleType uppräkning. Anger typen av modell i ett VBAprojekt i C#.
+description: Upptäck enumereringen Aspose.Words.Vba.VbaModuleType, som definierar modelltyper i VBA-projekt för förbättrad automatisering och effektiv dokumenthantering.
 type: docs
-weight: 6570
+weight: 7420
 url: /sv/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
 
-Anger typen av modell i ett VBA-projekt.
+Anger typen av en modell i ett VBA-projekt.
 
 ```csharp
 public enum VbaModuleType
@@ -20,10 +20,10 @@ public enum VbaModuleType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| DocumentModule | `0` | En typ av VBA-projektobjekt som specificerar en modul för inbäddade makron och programmatiska åtkomstoperationer som är associerade med ett dokument. |
+| DocumentModule | `0` | En typ av VBA-projektobjekt som anger en modul för inbäddade makron och programmatiska åtkomståtgärder som är associerade med ett dokument. |
 | ProceduralModule | `1` | En samling subrutiner och funktioner. |
 | ClassModule | `2` | En modul som innehåller definitionen för ett nytt objekt. Varje instans av en klass skapar ett nytt objekt, och procedurer som definieras i modulen blir egenskaper och metoder för objektet. |
-| DesignerModule | `3` | En VBA-modul som utökar metoderna och egenskaperna för en ActiveX-kontroll som har registrerats i projektet. |
+| DesignerModule | `3` | En VBA-modul som utökar metoderna och egenskaperna för en ActiveX-kontroll som har registrerats med projektet. |
 
 ## Exempel
 

@@ -3,7 +3,7 @@ title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words para .NET
-description: ChartXValue FromTimeSpan método. Crea unChartXValue instancia de laTime tipo en C#.
+description: Descubra el método ChartXValue FromTimeSpan para crear fácilmente instancias de tipo Time y mejorar su experiencia de visualización de datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/

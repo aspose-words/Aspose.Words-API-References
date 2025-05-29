@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd строитель. Инициализирует новый экземплярКонец диапазона тегов структурированного документа класс на С#.
+description: Откройте для себя конструктор StructuredDocumentTagRangeEnd — эффективно инициализируйте диапазоны тегов документа для улучшенного управления контентом и бесшовной интеграции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
@@ -23,7 +23,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
 ## Примеры
 
-Показывает, как создать/удалить тег структурированного документа и его содержимое.
+Показывает, как создать/удалить структурированный тег документа и его содержимое.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -33,9 +33,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Удаляет тег структурированного документа, но сохраняет содержимое внутри.
+    // Удаляет тег структурированного документа с диапазоном, но сохраняет содержимое внутри.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -48,25 +48,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Удаляет тег структурированного документа и содержимое внутри него.
+    // Удаляет тег структурированного документа с диапазоном и его содержимое.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

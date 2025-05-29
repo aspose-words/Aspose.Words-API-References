@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertBreak
 linktitle: InsertBreak
 articleTitle: InsertBreak
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertBreak metod. Infogar en brytning av angiven typ i dokumentet i C#.
+description: Förbättra dina dokument enkelt med DocumentBuilder InsertBreak-metoden, så att du smidigt kan lägga till anpassade brytningar för förbättrad formatering.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/documentbuilder/insertbreak/
 ---
 ## DocumentBuilder.InsertBreak method
 
-Infogar en brytning av angiven typ i dokumentet.
+Infogar en brytning av den angivna typen i dokumentet.
 
 ```csharp
 public void InsertBreak(BreakType breakType)
@@ -18,7 +18,7 @@ public void InsertBreak(BreakType breakType)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| breakType | BreakType | Anger typen av brytning som ska infogas. |
+| breakType | BreakType | Anger vilken typ av brytning som ska infogas. |
 
 ## Anmärkningar
 
@@ -26,13 +26,13 @@ Använd den här metoden för att infoga stycke, sida, kolumn, avsnitt eller rad
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -54,25 +54,25 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
+Visar hur man tillämpar och återställer inställningar för sidinställningar för avsnitt i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ändra sidinställningarna för byggarens nuvarande avsnitt och lägg till text.
+// Ändra sidinställningarna för den aktuella sektionen i skaparen och lägg till text.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Om vi startar ett nytt avsnitt med hjälp av en dokumentbyggare,
-// det kommer att ärva byggarens nuvarande sidinställningar.
+// den kommer att ärva skaparens nuvarande sidinställningar.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Vi kan återställa dess sidinställningar till deras standardvärden med "ClearFormatting"-metoden.
+// Vi kan återställa dess sidinställningar till standardvärdena med hjälp av metoden "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -83,21 +83,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med rubrikstilar som poster.
+Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med hjälp av rubrikformat som poster.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en innehållsförteckning för dokumentets första sida.
-// Konfigurera tabellen för att ta upp stycken med rubriker på nivå 1 till 3.
-// Ställ också in dess poster att vara hyperlänkar som tar oss
-// till platsen för rubriken när du vänsterklickar i Microsoft Word.
+// Konfigurera tabellen för att hämta stycken med rubriker på nivå 1 till 3.
+// Ställ också in dess poster som hyperlänkar som tar oss
+// till rubrikens plats när man vänsterklickar i Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Fyll i innehållsförteckningen genom att lägga till stycken med rubrikstilar.
-// Varje sådan rubrik med en nivå mellan 1 och 3 kommer att skapa en post i tabellen.
+// Fyll innehållsförteckningen genom att lägga till stycken med rubrikformat.
+// Varje sådan rubrik med en nivå mellan 1 och 3 skapar en post i tabellen.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

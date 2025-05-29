@@ -3,9 +3,9 @@ title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaModule classe. Fornisce laccesso al modulo del progetto VBA in C#.
+description: Sfrutta la potenza di Aspose.Words.Vba.VbaModule per un accesso senza interruzioni ai moduli del tuo progetto VBA. Aumenta la produttività e semplifica l'automazione dei tuoi documenti!
 type: docs
-weight: 6550
+weight: 7400
 url: /it/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -29,18 +29,18 @@ public class VbaModule
 | Nome | Descrizione |
 | --- | --- |
 | [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | Ottiene o imposta il nome del modulo del progetto VBA. |
-| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | Ottiene o imposta il codice sorgente del modulo di progetto VBA. |
-| [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | Specifica se il modulo è un modulo procedurale, un modulo di documento, un modulo di classe o un modulo di progettazione. |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | Ottiene o imposta il codice sorgente del modulo del progetto VBA. |
+| [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | Specifica se il modulo è un modulo procedurale, un modulo documento, un modulo classe o un modulo designer. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Esegue una copia del file`VbaModule` . |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Esegue una copia del`VbaModule` . |
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -51,7 +51,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

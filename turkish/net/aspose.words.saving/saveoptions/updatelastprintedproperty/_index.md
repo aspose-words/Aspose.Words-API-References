@@ -2,15 +2,15 @@
 title: SaveOptions.UpdateLastPrintedProperty
 linktitle: UpdateLastPrintedProperty
 articleTitle: UpdateLastPrintedProperty
-second_title: Aspose.Words for .NET
-description: SaveOptions UpdateLastPrintedProperty mülk. Bir değer alır veya ayarlar.LastPrinted özellik kaydedilmeden önce güncellenir C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions UpdateLastPrintedProperty ile belge yönetimini optimize edin. Verimli kaydetme ve gelişmiş iş akışı için LastPrinted güncellemelerini kontrol edin.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
 
-Bir değer alır veya ayarlar.[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) özellik kaydedilmeden önce güncellenir.
+Bir değeri alır veya ayarlar.[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) özellik kaydedilmeden önce güncellenir.
 
 ```csharp
 public bool UpdateLastPrintedProperty { get; set; }
@@ -18,46 +18,31 @@ public bool UpdateLastPrintedProperty { get; set; }
 
 ## Örnekler
 
-Kaydederken bir belgenin "CreatedTime" özelliğinin nasıl güncelleneceğini gösterir.
+Bir belgenin kaydedilirken "Son yazdırılan" özelliğinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
-doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
 
-// Bu bayrak yerleşik bir özellik olan oluşturulan saatin güncellenip güncellenmeyeceğini belirler.
-// Eğer öyleyse, belgenin en son kaydetme işleminin tarihi
-// parametre olarak iletilen bu SaveOptions nesnesi, oluşturulan zaman olarak kullanılır.
-DocSaveOptions saveOptions = new DocSaveOptions();
-saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
+DateTime lastPrinted = new DateTime(2019, 12, 20);
+doc.BuiltInDocumentProperties.LastPrinted = lastPrinted;
 
-doc.Save(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
-
-// Kaydedilen belgeyi açın, ardından özelliğin değerini doğrulayın.
-doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx");
-
-Assert.AreNotEqual(isUpdateCreatedTimeProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.CreatedTime);
-```
-
-Kaydederken belgenin "Son yazdırılan" özelliğinin nasıl güncelleştirileceğini gösterir.
-
-```csharp
-Document doc = new Document();
-doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
-
-// Bu bayrak yerleşik bir özellik olan son basım tarihinin güncellenip güncellenmeyeceğini belirler.
-// Eğer öyleyse, belgenin en son kaydetme işleminin tarihi
-// parametre olarak iletilen bu SaveOptions nesnesi, yazdırma tarihi olarak kullanılır.
+// Bu bayrak, yerleşik bir özellik olan son yazdırılan tarihin güncellenip güncellenmeyeceğini belirler.
+// Eğer öyleyse, belgenin en son kaydedilme işleminin tarihi
+// Parametre olarak geçirilen bu SaveOptions nesnesi baskı tarihi olarak kullanılır.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
 
-// Microsoft Word 2003'te bu özelliğe Dosya -> aracılığıyla ulaşılabilir. Özellikler -> İstatistikler -> Basılı.
+// Microsoft Word 2003'te bu özellik Dosya -> Özellikler -> İstatistikler -> Yazdırılan yoluyla bulunabilir.
 // PRINTDATE alanı kullanılarak belgenin gövdesinde de görüntülenebilir.
 doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
 
 // Kaydedilen belgeyi açın, ardından özelliğin değerini doğrulayın.
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
-Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.LastPrinted);
+if (isUpdateLastPrintedProperty)
+    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+else
+    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
 ```
 
 ### Ayrıca bakınız

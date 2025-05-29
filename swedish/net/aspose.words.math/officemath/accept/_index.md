@@ -3,14 +3,14 @@ title: OfficeMath.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: OfficeMath Accept metod. Accepterar en besökare i C#.
+description: Upptäck OfficeMath Accept-metoden för sömlös besökshantering. Förbättra ditt arbetsflöde med enkel integration och förbättrad effektivitet!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.math/officemath/accept/
 ---
 ## OfficeMath.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
-Samtal[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder i Office Math och samtal[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) i slutet.
+Samtal[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , ringer sedan[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder till Office Math och anrop[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) i slutet.
 
 ## Exempel
 
-Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje kontorsmatematiknod i ett dokument.
 
 ```csharp
 public void OfficeMathToText()
@@ -43,7 +43,7 @@ public void OfficeMathToText()
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras undernoder.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -71,7 +71,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -93,7 +93,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en OfficeMath-nod har besökts.
+    /// Anropas efter att alla undernoder till en OfficeMath-nod har besökts.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -105,9 +105,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

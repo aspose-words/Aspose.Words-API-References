@@ -3,14 +3,14 @@ title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
 second_title: Aspose.Words per .NET
-description: Section HeadersFooters proprietà. Fornisce laccesso ai nodi intestazioni e piè di pagina della sezione in C#.
+description: Accedi e gestisci intestazioni e piè di pagina di sezione senza sforzo con la nostra intuitiva funzione di gestione delle proprietà. Migliora l'organizzazione e la presentazione dei documenti oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words/section/headersfooters/
 ---
 ## Section.HeadersFooters property
 
-Fornisce l'accesso ai nodi intestazioni e piè di pagina della sezione.
+Fornisce l'accesso ai nodi delle intestazioni e dei piè di pagina della sezione.
 
 ```csharp
 public HeaderFooterCollection HeadersFooters { get; }
@@ -43,7 +43,7 @@ Mostra come eliminare tutti i piè di pagina da un documento.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Scorri ogni sezione e rimuovi piè di pagina di ogni tipo.
+// Scorrere ogni sezione e rimuovere i piè di pagina di ogni tipo.
 foreach (Section section in doc.OfType<Section>())
 {
     // Esistono tre tipi di piè di pagina e di intestazione.
@@ -51,11 +51,11 @@ foreach (Section section in doc.OfType<Section>())
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - L'intestazione/piè di pagina "Primario", che appare sulle pagine dispari.
+    // 2 - L'intestazione/piè di pagina "Principale", che appare sulle pagine dispari.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - L'intestazione/piè di pagina "Pari", che appare sulle pagine pari.
+     // 3 - L'intestazione/piè di pagina "Pari", che appare nelle pagine pari.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

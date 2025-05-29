@@ -3,14 +3,14 @@ title: FieldIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words для .NET
-description: FieldIf LeftExpression свойство. Получает или задает левую часть выражения сравнения на С#.
+description: Откройте для себя свойство LeftExpression функции FieldIf, с легкостью управляйте левой частью выражения сравнения для улучшенной обработки и анализа данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldif/leftexpression/
 ---
 ## FieldIf.LeftExpression property
 
-Получает или задает левую часть выражения сравнения.
+Возвращает или задает левую часть выражения сравнения.
 
 ```csharp
 public string LeftExpression { get; set; }
@@ -18,7 +18,7 @@ public string LeftExpression { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

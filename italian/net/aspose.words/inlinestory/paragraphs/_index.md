@@ -3,7 +3,7 @@ title: InlineStory.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
 second_title: Aspose.Words per .NET
-description: InlineStory Paragraphs proprietà. Ottiene una raccolta di paragrafi che sono figli immediati della storia in C#.
+description: Scopri la proprietà Paragrafi InlineStory e accedi a una raccolta unica di paragrafi di storie per una migliore organizzazione e leggibilità dei contenuti.
 type: docs
 weight: 80
 url: /it/net/aspose.words/inlinestory/paragraphs/
@@ -32,7 +32,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
- // In Microsoft Word, possiamo fare clic con il pulsante destro del mouse su questo commento nel corpo del documento per modificarlo o rispondere.
+ // In Microsoft Word, possiamo fare clic con il pulsante destro del mouse su questo commento nel corpo del documento per modificarlo o per rispondere.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
@@ -42,14 +42,14 @@ Mostra come inserire e personalizzare le note a piè di pagina.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiunge testo e fa riferimento ad esso con una nota a piè di pagina. Questa nota inserirà un piccolo riferimento in apice
-// segna dopo il testo a cui fa riferimento e crea una voce sotto il corpo del testo principale in fondo alla pagina.
+// Aggiungi del testo e fai riferimento ad esso con una nota a piè di pagina. Questa nota inserirà un piccolo riferimento in apice.
+// contrassegna dopo il testo a cui fa riferimento e crea una voce sotto il testo principale in fondo alla pagina.
 // Questa voce conterrà il segno di riferimento della nota a piè di pagina e il testo di riferimento,
 // che passeremo al metodo "InsertFootnote" del generatore di documenti.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Se questa proprietà è impostata su "true", allora il segno di riferimento della nostra nota a piè di pagina
+// Se questa proprietà è impostata su "true", il segno di riferimento della nostra nota a piè di pagina
 // sarà il suo indice tra tutte le note a piè di pagina della sezione.
 // Questa è la prima nota a piè di pagina, quindi il segno di riferimento sarà "1".
 Assert.True(footnote.IsAuto);
@@ -64,13 +64,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Possiamo impostare un segno di riferimento personalizzato che verrà utilizzato dalla nota a piè di pagina al posto del suo numero di indice.
+// Possiamo impostare un segno di riferimento personalizzato che la nota a piè di pagina utilizzerà al posto del suo numero di indice.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
 // Un segnalibro con il flag "IsAuto" impostato su true mostrerà comunque il suo indice reale
-// anche se i segnalibri precedenti visualizzano segni di riferimento personalizzati, quindi il segno di riferimento di questo segnalibro sarà un "3".
+// anche se i segnalibri precedenti visualizzano riferimenti personalizzati, il riferimento di questo segnalibro sarà "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

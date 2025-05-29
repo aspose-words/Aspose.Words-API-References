@@ -3,7 +3,7 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words для .NET
-description: FontInfo Charset свойство. Получает или задает набор символов для шрифта на С#.
+description: Откройте для себя свойство FontInfo Charset, которое позволяет легко управлять набором символов шрифта и настраивать его, повышая гибкость дизайна и удобочитаемость.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontinfo/charset/
@@ -18,7 +18,7 @@ public int Charset { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -2,15 +2,15 @@
 title: Bookmark.BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
-second_title: 用于 .NET 的 Aspose.Words
-description: Bookmark BookmarkStart 财产. 获取表示书签开头的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 BookmarkStart 属性可以轻松访问标记书签开始的节点，从而增强项目的导航和效率。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bookmark/bookmarkstart/
 ---
 ## Bookmark.BookmarkStart property
 
-获取表示书签开头的节点。
+获取代表书签开始的节点。
 
 ```csharp
 public BookmarkStart BookmarkStart { get; }
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

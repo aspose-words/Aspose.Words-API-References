@@ -3,9 +3,9 @@ title: ViewType Enum
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.ViewType enumeración. Valores posibles para el modo de visualización en Microsoft Word en C#.
+description: Descubra la enumeración Aspose.Words.Settings.ViewType para Microsoft Word. Desbloquee modos de visualización flexibles para mejorar la presentación de documentos y la experiencia del usuario.
 type: docs
-weight: 5960
+weight: 6790
 url: /es/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
@@ -20,16 +20,16 @@ public enum ViewType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | El documento se representará en la vista predeterminada de la aplicación. |
-| Reading | `0` | El documento se representará en la vista predeterminada de la aplicación. |
+| None | `0` | El documento se mostrará en la vista predeterminada de la aplicación. |
+| Reading | `0` | El documento se mostrará en la vista predeterminada de la aplicación. |
 | PageLayout | `1` | El documento se abrirá en una vista que muestre el documento tal como se imprimirá. |
-| Outline | `3` | El documento se presentará en una vista optimizada para delinear o crear documentos largos. |
-| Normal | `4` | El documento se presentará en una vista optimizada para delinear o crear documentos largos. |
-| Web | `5` | El documento se presentará en una vista que imite la forma en que se mostraría este documento en una página web. |
+| Outline | `3` | El documento se deberá representar en una vista optimizada para delinear o crear documentos largos. |
+| Normal | `4` | El documento se deberá representar en una vista optimizada para delinear o crear documentos largos. |
+| Web | `5` | El documento se representará en una vista que imite la forma en que este documento se mostraría en una página web. |
 
 ## Ejemplos
 
-Muestra cómo configurar un factor de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
+Muestra cómo establecer un factor de zoom personalizado, que las versiones anteriores de Microsoft Word aplicarán a un documento al cargarlo.
 
 ```csharp
 Document doc = new Document();

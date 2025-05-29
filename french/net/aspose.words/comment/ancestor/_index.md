@@ -3,14 +3,14 @@ title: Comment.Ancestor
 linktitle: Ancestor
 articleTitle: Ancestor
 second_title: Aspose.Words pour .NET
-description: Comment Ancestor propriété. Renvoie le parentComment objet. Retournul pour les commentaires de niveau supérieur en C#.
+description: Récupérez l'objet parent Commentaire grâce à notre propriété Ancestor. Idéal pour naviguer dans les fils de commentaires et améliorer l'engagement des utilisateurs.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-Renvoie le parent[`Comment`](../) objet. Retour`nul` pour les commentaires de niveau supérieur.
+Renvoie le parent[`Comment`](../)objet. Retours`nul` pour les commentaires de haut niveau.
 
 ```csharp
 public Comment Ancestor { get; }
@@ -24,9 +24,9 @@ Montre comment imprimer tous les commentaires d'un document et leurs réponses.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Si un commentaire n'a pas d'ancêtre, il s'agit d'un commentaire de "niveau supérieur" par opposition à un commentaire de type réponse.
-// Imprime tous les commentaires de niveau supérieur ainsi que leurs réponses éventuelles.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Si un commentaire n'a pas d'ancêtre, il s'agit d'un commentaire de « niveau supérieur » par opposition à un commentaire de type réponse.
+// Imprimez tous les commentaires de niveau supérieur ainsi que toutes les réponses qu'ils peuvent contenir.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

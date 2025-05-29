@@ -3,7 +3,7 @@ title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: NodeCollection Remove méthode. Supprime le nœud de la collection et du document en C#.
+description: Supprimez sans effort les nœuds de votre document avec la méthode NodeCollection Remove, simplifiant ainsi la gestion de vos données et améliorant les performances.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/nodecollection/remove/
@@ -22,23 +22,23 @@ public void Remove(Node node)
 
 ## Exemples
 
-Montre comment travailler avec un NodeCollection.
+Montre comment travailler avec une NodeCollection.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoutez du texte au document en insérant des Runs à l'aide d'un DocumentBuilder.
+// Ajoutez du texte au document en insérant des exécutions à l'aide d'un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Chaque invocation de la méthode "Write" crée un nouveau Run,
+// Chaque invocation de la méthode « Write » crée une nouvelle exécution,
 // qui apparaît ensuite dans la RunCollection du paragraphe parent.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Nous pouvons également insérer manuellement un nœud dans RunCollection.
+// Nous pouvons également insérer un nœud dans RunCollection manuellement.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 

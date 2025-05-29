@@ -2,15 +2,15 @@
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words for .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit mülk. Geçerli paragraftaki Doğu Asya metninin bölgeleri ve bölgeleri arasında karakterlerarası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: AddSpaceBetweenFarEastAndDigit özelliğiyle belgenizin düzenini optimize edin ve Doğu Asya metinleri ile rakamları arasındaki boşlukları ayarlayarak okunabilirliği artırın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Geçerli paragraftaki Doğu Asya metninin bölgeleri ve bölgeleri arasında karakterlerarası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
+Geçerli paragraftaki sayıların bölgeleri ve Doğu Asya metinlerinin bölgeleri arasında karakter arası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -18,7 +18,7 @@ public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 
 ## Örnekler
 
-Belgeye nasıl paragraf ekleneceğini gösterir.
+Belgeye bir paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
-// ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
+// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// ve ardından yeni bir satır başlatır ve yeni bir paragraf ekler.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

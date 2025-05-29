@@ -3,14 +3,14 @@ title: HtmlLoadOptions.PreferredControlType
 linktitle: PreferredControlType
 articleTitle: PreferredControlType
 second_title: Aspose.Words för .NET
-description: HtmlLoadOptions PreferredControlType fast egendom. Hämtar eller ställer in önskad typ av dokumentnoder som kommer att representera importerade input och select element. Standardvärdet ärFormField  i C#.
+description: Upptäck HtmlLoadOptions egenskap PreferredControlType för att anpassa dokumentnodtyper för importerade indata och välja element. Optimera dina formulär utan ansträngning!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-Hämtar eller ställer in önskad typ av dokumentnoder som kommer att representera importerade &lt;input&gt; och &lt;select&gt; element. Standardvärdet ärFormField .
+Hämtar eller ställer in önskad typ av dokumentnoder som representerar importerade &lt;input&gt;- och &lt;select&gt;-element. Standardvärdet ärFormField .
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -22,14 +22,14 @@ Observera att inställningen av den här egenskapen inte garanterar att alla imp
 
 ## Exempel
 
-Visar hur man ställer in önskad typ av dokumentnoder som ska representera importerade &lt;input&gt; och &lt;select&gt; element.
+Visar hur man anger önskad typ av dokumentnoder som representerar importerade &lt;input&gt;- och &lt;select&gt;-element.
 
 ```csharp
 const string html = @"
     <html>
         <select name='ComboBox' size='1'>
             <option value='val1'>item1</option>
-            <option value='val2'></option>                        
+            <option value='val2'></option>
         </select>
     </html>
 ";

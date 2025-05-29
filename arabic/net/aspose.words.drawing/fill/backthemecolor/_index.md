@@ -3,14 +3,14 @@ title: Fill.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
 second_title: Aspose.Words لـ .NET
-description: Fill BackThemeColor ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل لون الخلفية للتعبئة في C#.
+description: خصّص تصميمك باستخدام خاصية BackThemeColor. عيّن بسهولة كائن ThemeColor لتحسين لون الخلفية وتحسين تجربة المستخدم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/fill/backthemecolor/
 ---
 ## Fill.BackThemeColor property
 
-الحصول على أو تعيين كائن ThemeColor الذي يمثل لون الخلفية للتعبئة.
+يحصل على كائن ThemeColor أو يعينه، والذي يمثل لون الخلفية للتعبئة.
 
 ```csharp
 public ThemeColor BackThemeColor { get; set; }

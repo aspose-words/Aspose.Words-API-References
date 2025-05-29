@@ -3,14 +3,14 @@ title: ChartFormat.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words för .NET
-description: ChartFormat Fill fast egendom. Får fyllningsformatering för det överordnade diagramelementet i C#.
+description: Upptäck egenskapen ChartFormat Fill för förbättrad diagramvisualitet. Lås upp unika alternativ för fyllningsformatering för dina överordnade diagramelement idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartformat/fill/
 ---
 ## ChartFormat.Fill property
 
-Får fyllningsformatering för det överordnade diagramelementet.
+Hämtar fyllningsformatering för det överordnade diagramelementet.
 
 ```csharp
 public Fill Fill { get; }
@@ -18,7 +18,7 @@ public Fill Fill { get; }
 
 ## Exempel
 
-Visa hur du ställer in markörformatering.
+Visa hur man ställer in markörformatering.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Ställ in markörformatering.
+// Ange markörformatering.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

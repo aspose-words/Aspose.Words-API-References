@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertParagraph metod. Infogar en styckebrytning i dokumentet i C#.
+description: Förbättra dina dokument enkelt med DocumentBuilder InsertParagraph-metoden, vilket möjliggör sömlösa styckebrytningar för förbättrad läsbarhet.
 type: docs
-weight: 420
+weight: 450
 url: /sv/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,15 +18,15 @@ public Paragraph InsertParagraph()
 
 ### Returvärde
 
-Paragrafnoden som precis infogades. Det är samma nod som[`CurrentParagraph`](../currentparagraph/).
+Styckenoden som just infogades. Det är samma nod som[`CurrentParagraph`](../currentparagraph/).
 
 ## Anmärkningar
 
-Aktuell styckeformatering specificerad av[`ParagraphFormat`](../paragraphformat/) egendom används.
+Aktuell styckeformatering som anges av[`ParagraphFormat`](../paragraphformat/) egendom används.
 
-Delar det aktuella stycket i två delar. Efter att ha infogat stycket placeras markören i början av det nya stycket.
+Delar upp det aktuella stycket i två delar. Efter att stycket har infogats placeras markören i början av det nya stycket.
 
-Ett undantag görs om det inte är möjligt att infoga en styckebrytning vid den aktuella markörpositionen.
+Ett undantag utlöses om det inte är möjligt att infoga en styckebrytning vid markörens aktuella position.
 
 ## Exempel
 
@@ -50,8 +50,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

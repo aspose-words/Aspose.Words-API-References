@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions UseTileFlipMode propiedad. Obtiene o establece un indicador que indica si WrapMode es TileFlipXY en C#.
+description: Descubra la propiedad GraphicsQualityOptions UseTileFlipMode para controlar la configuración de WrapMode para una mejor calidad visual en sus aplicaciones.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -18,11 +18,11 @@ public bool UseTileFlipMode { get; set; }
 
 ## Observaciones
 
-ElWrapMode especifica cómo se mosaico una textura o un degradado cuando es menor que el área que se está rellenando.
+ElWrapMode especifica cómo se coloca una textura o un degradado cuando es más pequeño que el área que se está rellenando.
 
-Por defecto utilizaTile (especifica mosaico sin voltear). Esto provoca una representación inexacta de la imagen escalada (con alta resolución).
+Por defecto se utilizaTile (especifica mosaico sin volteo). Esto provoca una representación inexacta de la imagen escalada (con alta resolución).
 
-Esta propiedad permite cambiar WrapMode aTileFlipXY (especifica que los mosaicos se voltean horizontalmente a medida que se mueve a lo largo de una fila y se voltean verticalmente a medida que se mueve a lo largo de una columna).
+Esta propiedad permite cambiar WrapMode aTileFlipXY (especifica que los mosaicos se voltean horizontalmente a medida que te mueves a lo largo de una fila y verticalmente a medida que te mueves a lo largo de una columna).
 
 ## Ejemplos
 

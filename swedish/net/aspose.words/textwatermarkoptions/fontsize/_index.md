@@ -3,7 +3,7 @@ title: TextWatermarkOptions.FontSize
 linktitle: FontSize
 articleTitle: FontSize
 second_title: Aspose.Words för .NET
-description: TextWatermarkOptions FontSize fast egendom. Hämtar eller ställer in en teckenstorlek. Standardvärdet är 0  auto i C#.
+description: Anpassa dina TextWatermarkOptions med justerbar teckenstorlek. Ställ enkelt in önskad storlek för optimal synlighet och stil i dina designer.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +20,13 @@ public float FontSize { get; set; }
 
 | undantag | skick |
 | --- | --- |
-| ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
+| ArgumentOutOfRangeException | Kasta ett värde när argumentet låg utanför intervallet för giltiga värden. |
 
 ## Anmärkningar
 
-Giltiga värden sträcker sig från 0 till 65,5 inklusive.
+Giltiga värden sträcker sig från 0 till 65,5.
 
-Automatisk teckenstorlek betyder att vattenstämpeln skalas till dess maxbredd och maxhöjd i förhållande till sidmarginalerna.
+Automatisk teckenstorlek innebär att vattenstämpeln skalas till sin maximala bredd och maximala höjd i förhållande till sidmarginalerna.
 
 ## Exempel
 
@@ -35,11 +35,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

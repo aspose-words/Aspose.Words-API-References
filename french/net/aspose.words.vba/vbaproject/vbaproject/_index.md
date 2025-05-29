@@ -3,7 +3,7 @@ title: VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words pour .NET
-description: VbaProject constructeur. Crée un espace videVbaProject  en C#.
+description: Créez facilement un nouveau projet VBA grâce à notre outil de création. Commencez votre parcours de programmation avec un projet vierge et laissez libre cours à votre créativité !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.vba/vbaproject/vbaproject/
@@ -23,7 +23,7 @@ Montre comment créer un projet VBA à l'aide de macros.
 ```csharp
 Document doc = new Document();
 
-// Créez un nouveau projet VBA.
+// Créer un nouveau projet VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
@@ -34,7 +34,7 @@ module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Ajoute le module au projet VBA.
+// Ajoutez le module au projet VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

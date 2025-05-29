@@ -3,7 +3,7 @@ title: Font.NameOther
 linktitle: NameOther
 articleTitle: NameOther
 second_title: Aspose.Words für .NET
-description: Font NameOther eigendom. Gibt die Schriftart zurück oder legt sie fest die für Zeichen mit Zeichencodes von 128 bis 255 verwendet wird in C#.
+description: Entdecken Sie die Schriftart NameOther. Passen Sie Schriftarten für die Zeichencodes 128–255 einfach an und verbessern Sie so Stil und Lesbarkeit Ihres Textes. Verbessern Sie Ihr Design noch heute!
 type: docs
 weight: 270
 url: /de/net/aspose.words/font/nameother/
@@ -24,9 +24,9 @@ Zeigt, wie Microsoft Word zwei verschiedene Schriftarten in einem Durchgang komb
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Angenommen, ein Lauf, den wir mit dem Builder einfügen, während wir diese Schriftartenkonfiguration verwenden
-// enthält Zeichen innerhalb des ASCII-Zeichenbereichs. In diesem Fall,
-// Es werden diese Zeichen mit dieser Schriftart angezeigt.
+// Nehmen wir an, wir verwenden den Builder zum Einfügen, während wir diese Schriftartkonfiguration verwenden
+// enthält Zeichen innerhalb des ASCII-Zeichenbereichs. In diesem Fall
+// Es werden diese Zeichen in dieser Schriftart angezeigt.
 builder.Font.NameAscii = "Calibri";
 
 // Wenn keine andere Schriftart angegeben ist, wendet der Builder diese Schriftart auch auf alle Zeichen an, die er einfügt.
@@ -36,8 +36,8 @@ Assert.AreEqual("Calibri", builder.Font.Name);
 // Idealerweise sollte diese Schriftart für jeden erforderlichen Nicht-ASCII-Zeichencode ein Glyph haben.
 builder.Font.NameOther = "Courier New";
 
-// Einen Lauf mit einem Wort bestehend aus ASCII-Zeichen und einem Wort mit allen Zeichen außerhalb dieses Bereichs einfügen.
-// Jedes Zeichen wird abhängig von einer der Schriftarten angezeigt.
+// Fügen Sie einen Lauf mit einem Wort ein, das aus ASCII-Zeichen besteht, und einem Wort mit allen Zeichen außerhalb dieses Bereichs.
+// Jedes Zeichen wird je nach Schriftart in einer der beiden Schriftarten angezeigt.
 builder.Writeln("Hello, Привет");
 
 doc.Save(ArtifactsDir + "Font.NameAscii.docx");

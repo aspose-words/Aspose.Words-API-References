@@ -3,14 +3,14 @@ title: TableStyle.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words لـ .NET
-description: TableStyle CellSpacing ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط بين الخلايا في C#.
+description: اكتشف خاصية TableStyle CellSpacing لضبط مسافة الخلايا بسهولة بالنقاط، مما يعزز مظهر الجدول وقابليته للقراءة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/tablestyle/cellspacing/
 ---
 ## TableStyle.CellSpacing property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) بين الخلايا.
+يحصل على مقدار المساحة (بالنقاط) بين الخلايا أو يعينها.
 
 ```csharp
 public double CellSpacing { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -2,15 +2,15 @@
 title: ChartXValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: ChartXValueCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: ChartXValueCollection GetEnumerator metodunu keşfedin; akıcı veri işleme için güçlü bir numaratör nesnesiyle verileri verimli bir şekilde alın.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
 ---
 ## ChartXValueCollection.GetEnumerator method
 
-Bir numaralandırıcı nesnesini döndürür.
+Bir numaralandırıcı nesnesi döndürür.
 
 ```csharp
 public IEnumerator<ChartXValue> GetEnumerator()

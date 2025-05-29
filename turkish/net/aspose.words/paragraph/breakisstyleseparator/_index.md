@@ -2,15 +2,15 @@
 title: Paragraph.BreakIsStyleSeparator
 linktitle: BreakIsStyleSeparator
 articleTitle: BreakIsStyleSeparator
-second_title: Aspose.Words for .NET
-description: Paragraph BreakIsStyleSeparator mülk. Bu paragraf sonu bir Stil Ayırıcı ise doğrudur. Stil ayırıcı one paragrafının farklı paragraf stillerine sahip parçalardan oluşmasına olanak tanır C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraf Sonu IsStyleSeparator özelliğinin, daha fazla tasarım esnekliği için karışık paragraf stilleri kullanılmasına izin vererek belge biçimlendirmesini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/paragraph/breakisstyleseparator/
 ---
 ## Paragraph.BreakIsStyleSeparator property
 
-Bu paragraf sonu bir Stil Ayırıcı ise doğrudur. Stil ayırıcı, one paragrafının farklı paragraf stillerine sahip parçalardan oluşmasına olanak tanır.
+Bu paragraf sonu bir Stil Ayırıcısıysa Doğru. Bir stil ayırıcısı, bir paragrafının farklı paragraf stillerine sahip parçalardan oluşmasına izin verir.
 
 ```csharp
 public bool BreakIsStyleSeparator { get; }
@@ -18,7 +18,7 @@ public bool BreakIsStyleSeparator { get; }
 
 ## Örnekler
 
-İçindekiler başlığıyla aynı satıra nasıl metin yazılacağını ve içindekiler tablosunda görünmesinin nasıl sağlanacağını gösterir.
+İçindekiler başlığıyla aynı satıra metin yazmanın ve İçindekiler'de görünmemesinin nasıl sağlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,15 +27,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertTableOfContents("\\o \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// İçindekiler Tablosunun giriş olarak seçeceği stile sahip bir paragraf ekleyin.
+// İçindekiler tablosunun giriş olarak seçeceği bir stilde bir paragraf ekleyin.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-// Bu dizelerin her ikisi de aynı paragraftadır ve bu nedenle aynı TOC girişinde görünecektir.
+// Bu iki dize de aynı paragrafta yer alır ve bu nedenle aynı İçindekiler girişinde gösterilir.
 builder.Write("Heading 1. ");
 builder.Write("Will appear in the TOC. ");
 
-// Stil ayırıcı eklersek aynı paragrafa daha fazla metin yazabiliriz
-// ve içindekiler tablosunda görünmeden farklı bir stil kullanın.
+// Bir stil ayracı eklersek aynı paragrafa daha fazla metin yazabiliriz
+// ve İçindekiler tablosunda görünmeden farklı bir stil kullanın.
 // Ayırıcıdan sonra başlık tipi stili kullanırsak, bir belge metin satırından birden fazla İçindekiler girişi çizebiliriz.
 builder.InsertStyleSeparator();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Quote;

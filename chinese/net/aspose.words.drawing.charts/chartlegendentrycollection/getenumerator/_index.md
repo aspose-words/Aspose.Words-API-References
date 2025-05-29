@@ -2,8 +2,8 @@
 title: ChartLegendEntryCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegendEntryCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartLegendEntryCollection 的 GetEnumerator 方法，高效枚举图例条目。立即简化您的数据管理！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/

@@ -2,8 +2,8 @@
 title: FieldNumWords
 linktitle: FieldNumWords
 articleTitle: FieldNumWords
-second_title: Aspose.Words for .NET
-description: FieldNumWords inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde etkili kelime sayımı için olmazsa olmaz araç olan FieldNumWords oluşturucusunu keşfedin. Varsayılan kurulumumuzla kodlamanızı basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldnumwords/fieldnumwords/

@@ -3,14 +3,14 @@ title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words per .NET
-description: DocumentProperty ToString metodo. Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti in C#.
+description: Scopri il metodo DocumentProperty ToString, che formatta i valori delle proprietà come stringhe in base alle impostazioni locali, migliorando la presentazione dei dati e l'esperienza utente.
 type: docs
 weight: 110
 url: /it/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti.
+Restituisce il valore della proprietà come stringa formattata in base alle impostazioni locali correnti.
 
 ```csharp
 public override string ToString()
@@ -18,11 +18,11 @@ public override string ToString()
 
 ## Osservazioni
 
-Converte una proprietà booleana in "Y" o "N". Converte una proprietà di data in una stringa di data breve. Per tutti gli altri tipi converte una proprietà utilizzando Object.ToString().
+Converte una proprietà booleana in "Y" o "N". Converte una proprietà data in una stringa data breve. Per tutti gli altri tipi converte una proprietà utilizzando Object.ToString().
 
 ## Esempi
 
-Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
+Mostra vari metodi di conversione del tipo di proprietà di documenti personalizzati.
 
 ```csharp
 Document doc = new Document();
@@ -42,13 +42,13 @@ Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
 Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
-Mostra come lavorare con le proprietà personalizzate del documento.
+Mostra come lavorare con le proprietà personalizzate dei documenti.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Ogni documento contiene una raccolta di proprietà personalizzate che, come le proprietà integrate, sono coppie chiave-valore.
- // Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate.
+ // Il documento ha un elenco fisso di proprietà predefinite. L'utente crea tutte le proprietà personalizzate.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

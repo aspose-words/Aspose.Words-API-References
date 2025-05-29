@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.NoShade
 linktitle: NoShade
 articleTitle: NoShade
 second_title: Aspose.Words per .NET
-description: HorizontalRuleFormat NoShade proprietà. Indica la presenza di ombreggiatura 3D per il filetto orizzontale. SeVERO il filetto orizzontale è privo di ombreggiatura 3D e viene utilizzato il colore a tinta unita in C#.
+description: Scopri la proprietà NoShade di HorizontalRuleFormat e controlla l'ombreggiatura 3D per le linee orizzontali. Ottieni un design elegante e dai colori uniformi senza sforzo!
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Indica la presenza di ombreggiatura 3D per il filetto orizzontale. Se`VERO` il filetto orizzontale è privo di ombreggiatura 3D e viene utilizzato il colore a tinta unita.
+Indica la presenza di ombreggiatura 3D per la regola orizzontale. Se`VERO` , quindi la regola orizzontale è senza ombreggiatura 3D e viene utilizzato un colore pieno.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito è`falso`.
 
 ## Esempi
 
-Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
+Mostra come inserire una forma di regola orizzontale e personalizzarne la formattazione.
 
 ```csharp
 Document doc = new Document();

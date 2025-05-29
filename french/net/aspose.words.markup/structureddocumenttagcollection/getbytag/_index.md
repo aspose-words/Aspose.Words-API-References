@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetByTag
 linktitle: GetByTag
 articleTitle: GetByTag
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagCollection GetByTag méthode. Renvoie la première balise de document structuré rencontrée dans la collection avec la balise spécifiée en C#.
+description: Découvrez la méthode GetByTag dans StructuredDocumentTagCollection. Récupérez efficacement la première balise de document structuré avec la balise souhaitée pour une gestion documentaire fluide.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
@@ -22,7 +22,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 ## Remarques
 
-Renvoie null si la balise du document structuré avec la balise spécifiée est introuvable.
+Renvoie null si la balise de document structuré avec la balise spécifiée est introuvable.
 
 ### Voir également
 

@@ -3,14 +3,14 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words für .NET
-description: MailMergeSettings ConnectString eigendom. Gibt die Verbindungszeichenfolge an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie, wie die ConnectString-Eigenschaft von MailMergeSettings mit externen Datenquellen verknüpft. Passen Sie Ihre Verbindung ganz einfach für eine nahtlose Datenintegration an!
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/mailmergesettings/connectstring/
 ---
 ## MailMergeSettings.ConnectString property
 
-Gibt die Verbindungszeichenfolge an, die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
+Gibt die Verbindungszeichenfolge für die Verbindung mit einer externen Datenquelle an. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string ConnectString { get; set; }

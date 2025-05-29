@@ -2,17 +2,17 @@
 title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Bookmark sınıf. Tek bir yer imini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerde yer imlerini etkili bir şekilde yönetmeniz için çözümünüz olan Aspose.Words.Bookmark sınıfını keşfedin. Belge düzenleme deneyiminizi bugün geliştirin!
 type: docs
-weight: 40
+weight: 230
 url: /tr/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
 Tek bir yer imini temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yer İşaretleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-bookmarks/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yer İşaretleriyle Çalışma](https://docs.aspose.com/words/net/working-with-bookmarks/) belgeleme makalesi.
 
 ```csharp
 public class Bookmark
@@ -24,44 +24,44 @@ public class Bookmark
 | --- | --- |
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Yer iminin sonunu temsil eden düğümü alır. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Yer iminin başlangıcını temsil eden düğümü alır. |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Yer işaretiyle ilişkili tablo sütun aralığının ilk sütununun sıfır tabanlı dizinini alır. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | İadeler`doğru` bu yer imi bir tablo sütunu yer imi ise. |
-| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır tabanlı dizinini alır. |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Yer imiyle ilişkili tablo sütun aralığının ilk sütununun sıfır tabanlı dizinini alır. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Geri Döndürür`doğru` eğer bu yer imi bir tablo sütun yer imi ise. |
+| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Yer imiyle ilişkili tablo sütun aralığının son sütununun sıfır tabanlı dizinini alır. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Yer iminin adını alır veya ayarlar. |
-| [Text](../../aspose.words/bookmark/text/) { get; set; } | Yer iminin içine alınan metni alır veya ayarlar. |
+| [Text](../../aspose.words/bookmark/text/) { get; set; } | Yer imine eklenen metni alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Remove](../../aspose.words/bookmark/remove/)() | Yer imini belgeden kaldırır. Yer işaretinin içindeki metni kaldırmaz. |
+| [Remove](../../aspose.words/bookmark/remove/)() | Yer imini belgeden kaldırır. Yer imi içindeki metni kaldırmaz. |
 
 ## Notlar
 
-`Bookmark` iki düğümü kapsayan bir "cephe" nesnesidir[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) bir belge ağacında bulunur ve bir yer imiyle tek bir nesne olarak çalışılmasına olanak tanır.
+`Bookmark` iki düğümü kapsayan bir "cephe" nesnesidir[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) Bir belge ağacında yer alır ve yer imleriyle tek bir nesne olarak çalışmaya olanak tanır.
 
 ## Örnekler
 
-Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
+    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imlerine yer imi koleksiyonunda indeks veya isimle erişilebilir ve isimleri güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
+    // Güncellenmiş değerleri görmek için tüm yer imlerini tekrar yazdır.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
+/// Belirtilen sayıda yer imi içeren bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -83,13 +83,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Koleksiyondaki her yer iminin bilgilerini yazdırmak için bir yineleyici ve bir ziyaretçi kullanın.
+/// Koleksiyondaki her yer iminin bilgisini yazdırmak için bir yineleyici ve bir ziyaretçi kullanın.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağla.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

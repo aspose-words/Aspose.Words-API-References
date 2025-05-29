@@ -3,14 +3,14 @@ title: IPageLayoutCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words لـ .NET
-description: IPageLayoutCallback Notify طريقة. يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم في C#.
+description: اكتشف طريقة iPageLayoutCallback Notify لتحسين كفاءة بناء المخططات وعرضها. حسّن أداء تطبيقك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم.
+يتم استدعاء هذا لإعلامك ببناء التخطيط وتقدم العرض.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -22,11 +22,11 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ## ملاحظات
 
-الاستثناء عند طرحه بواسطة التنفيذ يجهض عملية بناء التخطيط.
+استثناء عند إلقائه بواسطة التنفيذ يلغى عملية بناء التخطيط.
 
 ## أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط باستخدام استدعاء التخطيط.
 
 ```csharp
 public void PageLayoutCallback()
@@ -45,7 +45,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
+/// ويقوم بعرض صفحة نقوم بإعادة ترتيب صفحاتها على صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

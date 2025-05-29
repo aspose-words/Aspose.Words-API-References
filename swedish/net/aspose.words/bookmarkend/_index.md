@@ -3,14 +3,14 @@ title: BookmarkEnd Class
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BookmarkEnd klass. Representerar slutet av ett bokmärke i ett Worddokument i C#.
+description: Upptäck klassen Aspose.Words.BookmarkEnd, som effektivt hanterar bokmärkesslut i Word-dokument och förbättrar din dokumentredigeringsupplevelse.
 type: docs
-weight: 60
+weight: 250
 url: /sv/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
 
-Representerar slutet av ett bokmärke i ett Word-dokument.
+Representerar slutet på ett bokmärke i ett Word-dokument.
 
 För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
@@ -22,7 +22,7 @@ public class BookmarkEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initierar en ny instans av`BookmarkEnd` class. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initierar en ny instans av`BookmarkEnd` klass. |
 
 ## Egenskaper
 
@@ -30,40 +30,40 @@ public class BookmarkEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returer`sann` om denna nod kan innehålla andra noder. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Hämtar eller ställer in bokmärkets namn. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | ReturnerarBookmarkEnd . |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | ReturerBookmarkEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
 Ett komplett bokmärke i ett Word-dokument består av en[`BookmarkStart`](../bookmarkstart/) och en matchande`BookmarkEnd` med samma bokmärkesnamn.
 
-[`BookmarkStart`](../bookmarkstart/) och`BookmarkEnd` är bara markörer inuti en document som anger var bokmärket börjar och slutar.
+[`BookmarkStart`](../bookmarkstart/) och`BookmarkEnd` är bara markörer inuti ett document som anger var bokmärket börjar och slutar.
 
-Använd[`Bookmark`](../bookmark/) klass som en "fasad" för att arbeta med ett bokmärke som ett enda objekt.
+Använd[`Bookmark`](../bookmark/) klassen som en "fasad" för att fungera med ett bookmark som ett enda objekt.
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -73,7 +73,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -110,7 +110,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -129,7 +129,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

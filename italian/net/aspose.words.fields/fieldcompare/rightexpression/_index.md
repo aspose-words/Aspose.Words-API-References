@@ -3,14 +3,14 @@ title: FieldCompare.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words per .NET
-description: FieldCompare RightExpression proprietà. Ottiene o imposta la parte destra dellespressione di confronto in C#.
+description: Scopri la proprietà RightExpression di FieldCompare per gestire e personalizzare facilmente il lato destro delle tue espressioni di confronto per ottenere prestazioni ottimali.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldcompare/rightexpression/
 ---
 ## FieldCompare.RightExpression property
 
-Ottiene o imposta la parte destra dell'espressione di confronto.
+Ottiene o imposta la parte corretta dell'espressione di confronto.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,7 +18,7 @@ public string RightExpression { get; set; }
 
 ## Esempi
 
-Mostra come confrontare le espressioni utilizzando un campo COMPARE.
+Mostra come confrontare espressioni utilizzando un campo COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Il campo COMPARE visualizza uno "0" o un "1", a seconda della verità della sua affermazione.
-// Il risultato di questa affermazione è falso, quindi questo campo visualizzerà uno "0".
+// Il campo COMPARE visualizza "0" o "1", a seconda che la sua affermazione sia veritiera.
+// Il risultato di questa istruzione è falso, quindi questo campo visualizzerà "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Questo campo visualizza un "1" poiché l'affermazione è vera.
+// Questo campo visualizza "1" poiché l'affermazione è vera.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

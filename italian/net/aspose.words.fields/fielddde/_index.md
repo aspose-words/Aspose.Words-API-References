@@ -3,9 +3,9 @@ title: FieldDde Class
 linktitle: FieldDde
 articleTitle: FieldDde
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldDde classe. Implementa il campo DDE in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldDde per un'implementazione DDE fluida. Migliora l'automazione dei tuoi documenti con potenti funzionalità oggi stesso!
 type: docs
-weight: 1780
+weight: 2190
 url: /it/net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class
@@ -31,39 +31,39 @@ public class FieldDde : Field
 | [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | Ottiene o imposta se aggiornare automaticamente questo campo. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato come bitmap. |
 | [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato come testo in formato HTML. |
 | [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato come immagine. |
-| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato in formato rich-text (RTF). |
+| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato in formato RTF (rich-text). |
 | [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato in formato solo testo. |
 | [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | Ottiene o imposta se inserire l'oggetto collegato come testo Unicode. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati grafici con il documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | Ottiene o imposta se ridurre le dimensioni del file non memorizzando i dati grafici con il documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
 | [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
-| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | Ottiene o imposta il nome e il percorso del file di origine. |
-| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | Ottiene o imposta la parte del file di origine che viene collegata. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
+| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | Ottiene o imposta il nome e la posizione del file sorgente. |
+| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | Ottiene o imposta la parte del file sorgente che viene collegata. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
-Per le informazioni copiate da un'altra applicazione, questo campo collega tali informazioni al file di origine originale utilizzando DDE.
+Per le informazioni copiate da un'altra applicazione, questo campo collega tali informazioni al file sorgente originale utilizzando DDE.
 
 ## Esempi
 
@@ -75,7 +75,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare i contenuti di un documento collegato sotto forma di testo.
+    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare il contenuto di un documento collegato sotto forma di testo.
     // 1 - Un campo LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -85,7 +85,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Campo A DDEAUTO:
+    // 3 - Un campo DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -99,7 +99,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare i contenuti di un documento collegato sotto forma di immagine.
+    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare il contenuto di un documento collegato sotto forma di immagine.
     // 1 - Un campo LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -110,7 +110,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Campo A DDEAUTO:
+    // 3 - Un campo DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -120,7 +120,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo LINK e impostarne le proprietà in base ai parametri.
+/// Utilizzare un generatore di documenti per inserire un campo LINK e impostarne le proprietà in base ai parametri.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -234,12 +234,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // OggettoLinkedAsText
+    // LinkedObjectAsText
     Text,
     Unicode,
     Html,
     Rtf,
-    // Oggetto collegato come immagine
+    // LinkedObjectAsImage
     Picture,
     Bitmap
 }

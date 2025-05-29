@@ -3,14 +3,14 @@ title: ImportFormatOptions.KeepSourceNumbering
 linktitle: KeepSourceNumbering
 articleTitle: KeepSourceNumbering
 second_title: Aspose.Words для .NET
-description: ImportFormatOptions KeepSourceNumbering свойство. Получает или задает логическое значение определяющее как будет импортироваться нумерация если она конфликтует в исходном и целевом документах. Значение по умолчаниюЛОЖЬ  на С#.
+description: Управляйте нумерацией документов с помощью свойства ImportFormatOptions KeepSourceNumbering. Легко управляйте конфликтами для бесшовного импорта. По умолчанию — false.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-Получает или задает логическое значение, определяющее, как будет импортироваться нумерация, если она конфликтует в исходном и целевом документах. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, как будет импортироваться нумерация при ее конфликте в исходном и целевом документах. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }
@@ -18,14 +18,14 @@ public bool KeepSourceNumbering { get; set; }
 
 ## Примеры
 
-Показывает, как разрешить конфликт при импорте документов, имеющих списки с одинаковым идентификатором определения списка.
+Показывает, как устранить конфликт при импорте документов, содержащих списки с одинаковым идентификатором определения списка.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// Установите для свойства KeepSourceNumbering значение «true», чтобы применить другой идентификатор определения списка.
-// к идентичным стилям, поскольку Aspose.Words импортирует их в целевые документы.
+// Установите свойство «KeepSourceNumbering» в значение «true», чтобы применить другой идентификатор определения списка
+// к тем же стилям, которые Aspose.Words импортирует в целевые документы.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -42,10 +42,10 @@ Assert.AreEqual(4, dstDoc.Lists.Count);
 
 ImportFormatOptions options = new ImportFormatOptions();
 
-// Если есть конфликт стилей списка, примените формат списка исходного документа.
-// Установите для свойства KeepSourceNumbering значение «false», чтобы не импортировать номера списка в целевой документ.
-// Установите для свойства KeepSourceNumbering значение «true», импортируйте все конфликтующие
-// нумерация в стиле списка, имеющая тот же вид, что и в исходном документе.
+// Если есть конфликт стилей списка, применяем формат списка исходного документа.
+// Установите свойство «KeepSourceNumbering» в значение «false», чтобы не импортировать какие-либо номера списков в целевой документ.
+// Установите свойство "KeepSourceNumbering" в значение "true", импортируйте все конфликтующие
+// нумерация в стиле списка с тем же внешним видом, что и в исходном документе.
 options.KeepSourceNumbering = isKeepSourceNumbering;
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
@@ -54,20 +54,20 @@ dstDoc.UpdateListLabels();
 Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
 ```
 
-Показывает, как разрешить конфликты нумерации списков в исходных и целевых документах.
+Показывает, как разрешать конфликты нумерации списков в исходных и целевых документах.
 
 ```csharp
-// Откройте документ с пользовательской схемой нумерации списка, а затем клонируйте его.
-// Поскольку оба имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
+// Откройте документ с пользовательской схемой нумерации списков, а затем клонируйте его.
+// Поскольку оба документа имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Когда мы импортируем клон документа в оригинал, а затем добавляем его,
-// тогда два списка одинакового формата объединятся.
-// Если мы установим флаг «KeepSourceNumbering» в значение «false», то список из клона документа
+// тогда два списка с одинаковым форматом списка будут объединены.
+// Если мы установим флаг "KeepSourceNumbering" в значение "false", то список из клона документа
 // который мы добавляем к оригиналу, будет продолжать нумерацию списка, к которому мы его добавляем.
 // Это фактически объединит два списка в один.
-// Если мы установим флаг «KeepSourceNumbering» в значение «true», то клон документа
+// Если мы установим флаг "KeepSourceNumbering" в значение "true", то клон документа
  // список сохранит свою первоначальную нумерацию, благодаря чему два списка будут отображаться как отдельные списки.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;

@@ -3,14 +3,14 @@ title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: FieldCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة FieldCollection GetEnumerator—قم بإرجاع كائن المعداد بكفاءة وقم بتعزيز قدراتك على التعامل مع البيانات.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldcollection/getenumerator/
 ---
 ## FieldCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<Field> GetEnumerator()
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // كرر المجموعة الميدانية واطبع المحتويات واكتبها
-    // لكل حقل باستخدام تطبيق زائر مخصص.
+    // قم بالتكرار على مجموعة الحقول، ثم اطبع المحتويات والنوع
+    // لكل حقل باستخدام تنفيذ زائر مخصص.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// تنفيذ مستند الزائر الذي يطبع معلومات الحقل.
+/// تنفيذ زائر المستند الذي يطبع معلومات الحقل.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

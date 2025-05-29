@@ -3,14 +3,14 @@ title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: ListCollection Count ملكية. الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند في C#.
+description: اكتشف خاصية ListCollection Count لاسترداد عدد القوائم المرقمة والمنقطة في مستندك بسهولة، مما يؤدي إلى تحسين تنظيم المحتوى لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listcollection/count/
 ---
 ## ListCollection.Count property
 
-الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند.
+يحصل على عدد القوائم المرقمة والمنقطة في المستند.
 
 ```csharp
 public int Count { get; }

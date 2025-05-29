@@ -3,7 +3,7 @@ title: CommentRangeStart
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words pour .NET
-description: CommentRangeStart constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Découvrez le constructeur CommentRangeStart. Créez facilement de nouvelles instances de cette classe pour une efficacité de codage accrue et un développement simplifié.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/commentrangestart/commentrangestart/
@@ -25,7 +25,7 @@ public CommentRangeStart(DocumentBase doc, int id)
 
 Quand[`CommentRangeStart`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
-Pour ajouter un[`CommentRangeStart`](../) au document, utilisez InsertAfter ou InsertBefore sur le paragraphe où vous souhaitez insérer le commentaire.
+Pour ajouter un[`CommentRangeStart`](../) dans le document, utilisez InsertAfter ou InsertBefore sur le paragraphe où vous souhaitez insérer le commentaire.
 
 ## Exemples
 
@@ -52,7 +52,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Ajoute deux réponses au commentaire.
+    // Ajoutez deux réponses au commentaire.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -60,21 +60,25 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itérer sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Tout d'abord, visitez le début de la plage de commentaires.
+        // Tout d’abord, visitez le début de la plage de commentaires.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut avoir.
+        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut contenir.
         comment.Accept(commentVisitor);
+        // Visitez uniquement le début du commentaire.
+        comment.AcceptStart(commentVisitor);
+        // Visitez uniquement la fin du commentaire.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -141,7 +145,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Commentaire est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Comment est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -166,9 +170,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

@@ -3,14 +3,14 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words för .NET
-description: Stroke Fill fast egendom. Får fyllningsformatering förStroke  i C#.
+description: Upptäck egenskapen Stroke Fill för förbättrad fyllningsformatering i dina designer. Förbättra dina projekt med exakt linjeanpassning idag!
 type: docs
-weight: 90
+weight: 120
 url: /sv/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
 
-Får fyllningsformatering för[`Stroke`](../) .
+Hämtar fyllningsformatering för[`Stroke`](../) .
 
 ```csharp
 public Fill Fill { get; }
@@ -18,7 +18,7 @@ public Fill Fill { get; }
 
 ## Exempel
 
-Visar hur man ändrar slagegenskaper.
+Visar hur man ändrar penseldragsegenskaper.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Grundformer, som rektangeln, har två synliga delar.
-// 1 - Fyllningen, som gäller området inom konturen av formen:
+// Grundläggande former, som rektangeln, har två synliga delar.
+// 1 - Fyllningen, som gäller området inom formens kontur:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Stroget, som markerar konturen av formen:
-// Ändra olika egenskaper för denna forms streck.
+// 2 - Linjen, som markerar formens konturer:
+// Ändra olika egenskaper för den här formens linje.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

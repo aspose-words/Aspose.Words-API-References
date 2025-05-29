@@ -2,8 +2,8 @@
 title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
-second_title: 用于 .NET 的 Aspose.Words
-description: Cell PreviousCell 财产. 获取上一个Cell节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Cell PreviousCell 属性轻松访问上一个 Cell 节点。增强数据导航并简化编码流程。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.tables/cell/previouscell/
@@ -18,11 +18,11 @@ public Cell PreviousCell { get; }
 
 ## 评论
 
-当您需要对单元格进行键入访问时，可以使用该方法[`Row`](../../row/)。如果a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)节点在一行而不是单元格中找到，它会自动 遍历以获取包含在. 内的单元格
+当您需要对单元格进行类型访问时，可以使用该方法[`Row`](../../row/) 如果 a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)节点位于一行而不是一个单元格中，则会自动遍历以获取其中包含的单元格。
 
 ## 例子
 
-演示如何枚举所有表格单元格。
+展示如何枚举所有表格单元格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

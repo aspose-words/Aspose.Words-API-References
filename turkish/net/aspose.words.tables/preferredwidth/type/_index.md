@@ -2,15 +2,15 @@
 title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: PreferredWidth Type mülk. Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın hassasiyetini ve esnekliğini artıran, tercih edilen genişlik değerleri için ölçüm birimini tanımlayan PreferredWidth Type özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır.
+Bu tercih edilen genişlik değeri için kullanılan ölçü birimini alır.
 
 ```csharp
 public PreferredWidthType Type { get; }
@@ -18,7 +18,7 @@ public PreferredWidthType Type { get; }
 
 ## Örnekler
 
-Bir tablo hücresinin tercih edilen genişlik tipinin ve değerinin nasıl doğrulanacağını gösterir.
+Bir tablo hücresinin tercih edilen genişlik türünün ve değerinin nasıl doğrulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -3,7 +3,7 @@ title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings DataType propriété. Spécifie le type de source de données de publipostage et la méthode daccès aux données. La valeur par défaut estDefault  en C#.
+description: Découvrez la propriété DataType de MailMergeSettings, qui définit le type de source de données et la méthode d'accès à votre publipostage. Optimisez votre flux de travail sans effort !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.settings/mailmergesettings/datatype/
@@ -18,7 +18,7 @@ public MailMergeDataType DataType { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

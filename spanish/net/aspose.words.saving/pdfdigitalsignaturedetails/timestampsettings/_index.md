@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails.TimestampSettings
 linktitle: TimestampSettings
 articleTitle: TimestampSettings
 second_title: Aspose.Words para .NET
-description: PdfDigitalSignatureDetails TimestampSettings propiedad. Obtiene o establece la configuración de la marca de tiempo de la firma digital en C#.
+description: Descubra la propiedad PdfDigitalSignatureDetails TimestampSettings para administrar fácilmente las marcas de tiempo de las firmas digitales para mejorar la seguridad y el cumplimiento de los documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -18,33 +18,33 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ## Observaciones
 
-El valor predeterminado es`nulo` y la firma digital no tendrá marca de tiempo. Cuando esta propiedad se establece en un valor válido[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, entonces la firma digital en el documento PDF tendrá una marca de tiempo.
+El valor predeterminado es`nulo` y la firma digital no tendrá marca de tiempo. Cuando esta propiedad se establece en un valor válido[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) objeto, entonces la firma digital en el documento PDF tendrá una marca de tiempo.
 
 ## Ejemplos
 
-Muestra cómo firmar digitalmente un documento PDF guardado y ponerle una marca de tiempo.
+Muestra cómo firmar digitalmente un documento PDF guardado y marcarlo con una marca de tiempo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Crea una firma digital y asígnala a nuestro objeto SaveOptions para firmar el documento cuando lo guardemos en PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea una marca de tiempo verificada por la autoridad.
+// Crea una marca de tiempo verificada por la autoridad de marca de tiempo.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MiContraseña");
 
 // La vida útil predeterminada de la marca de tiempo es de 100 segundos.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Podemos establecer nuestro período de tiempo de espera mediante el constructor.
+//Podemos establecer nuestro período de tiempo de espera a través del constructor.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mi contraseña", TimeSpan.FromMinutes(30));
 

@@ -3,9 +3,9 @@ title: MathObjectType Enum
 linktitle: MathObjectType
 articleTitle: MathObjectType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Math.MathObjectType uppräkning. Anger typen av ett Office Mathobjekt i C#.
+description: Upptäck Aspose.Words.Math.MathObjectType-enum för att enkelt identifiera och hantera Office Math-objekttyper för förbättrad dokumentbehandling.
 type: docs
-weight: 4110
+weight: 4800
 url: /sv/net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration
@@ -20,40 +20,40 @@ public enum MathObjectType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| OMath | `0` | Förekomst av matematisk text. |
-| OMathPara | `1` | Matematisk stycke, eller visa matematikzon, som innehåller en eller fleraOMath element som är i visningsläge. |
-| Accent | `2` | Accentfunktion, bestående av en bas och ett kombinerat diakritiskt tecken. |
-| Bar | `3` | Bar funktion, bestående av ett basargument och en överstreck eller understreck. |
-| BorderBox | `4` | Border Box-objekt, som består av en ram som ritas runt en instans av matematisk text (som en formel eller ekvation) |
-| Box | `5` | Box-objekt, som används för att gruppera komponenter i en ekvation eller annan instans av matematisk text. |
-| Delimiter | `6` | Avgränsningsobjekt, bestående av öppnande och stängda avgränsare (som parenteser, parenteser, parenteser och vertikala streck) och ett element inuti. |
-| Degree | `7` | Examen i den matematiska radikalen. |
-| Argument | `8` | Argumentobjekt. Omger Office Math-entiteter när de används som argument till andra Office Math-entiteter. |
-| Array | `9` | Arrayobjekt som består av en eller flera ekvationer, uttryck eller annan matematisk text körs som kan justeras vertikalt som en enhet med avseende på omgivande text på raden. |
-| Fraction | `10` | Bråkobjekt, bestående av en täljare och nämnare separerade av en bråkstapel. |
-| Denominator | `11` | Nämnare för ett bråkobjekt. |
+| OMath | `0` | Instans av matematisk text. |
+| OMathPara | `1` | Matematikstycke, eller visningsmattezon, som innehåller en eller fleraOMath element som är i visningsläge. |
+| Accent | `2` | Accentfunktion, bestående av en bas och ett kombinerande diakritiskt tecken. |
+| Bar | `3` | Stapelfunktion, bestående av ett basargument och ett över- eller understreck. |
+| BorderBox | `4` | Border Box-objekt, bestående av en kantlinje ritad runt en förekomst av matematisk text (såsom en formel eller ekvation) |
+| Box | `5` | Boxobjekt, som används för att gruppera komponenter i en ekvation eller annan instans av matematisk text. |
+| Delimiter | `6` | Avgränsningsteckenobjekt, bestående av inledande och avslutande avgränsare (såsom parenteser, klammerparenteser, hakparenteser och vertikala streck), och ett element inuti. |
+| Degree | `7` | Grad i den matematiska radikalen. |
+| Argument | `8` | Argumentobjekt. Omsluter Office Math-entiteter när de används som argument till andra Office Math-entiteter. |
+| Array | `9` | Arrayobjekt, bestående av en eller flera ekvationer, uttryck eller andra matematiska textkörningar som kan justeras vertikalt som en enhet i förhållande till omgivande text på raden. |
+| Fraction | `10` | Bråkobjekt, bestående av en täljare och nämnare separerade med en bråkstreck. |
+| Denominator | `11` | Nämnaren i ett bråkobjekt. |
 | Numerator | `12` | Täljare för bråkobjektet. |
-| Function | `13` | Function-Apply-objekt, som består av ett funktionsnamn och ett argumentelement som åtgärdas. |
-| FunctionName | `14` | Namn på funktionen. Funktionsnamn är till exempel sin och cos. |
-| GroupCharacter | `15` | Grupp-teckenobjekt, som består av ett tecken ritat över eller under text, ofta i syfte att visuellt gruppera objekt |
-| Limit | `16` | Nedre gräns förLowerLimit objekt och den övre gränsen förUpperLimit function. |
-| LowerLimit | `17` | Lower-Limit-objekt, bestående av text på baslinjen och förminskad text omedelbart under det. |
-| UpperLimit | `18` | Upper-Limit-objekt, bestående av text på baslinjen och förminskad text omedelbart ovanför det. |
-| Matrix | `19` | Matrisobjekt, bestående av ett eller flera element utlagda i en eller flera rader och en eller flera kolumner. |
-| MatrixRow | `20` | Enkel rad i matrisen. |
-| NAry | `21` | N-ärt objekt, bestående av ett n-ärt objekt, en bas (eller operand) och valfria övre och nedre gränser. |
+| Function | `13` | Function-Apply-objekt, som består av ett funktionsnamn och ett argumentelement som påverkas. |
+| FunctionName | `14` | Funktionens namn. Till exempel är funktionsnamn sin och cos. |
+| GroupCharacter | `15` | Grupp-Teckenobjekt, bestående av ett tecken ritat ovanför eller under text, ofta i syfte att visuellt gruppera objekt |
+| Limit | `16` | Nedre gräns förLowerLimit objektet och den övre gränsen förUpperLimit funktion. |
+| LowerLimit | `17` | Nedre gränsobjekt, bestående av text på baslinjen och förminskad text omedelbart under den. |
+| UpperLimit | `18` | Övre gränsobjekt, bestående av text på baslinjen och förminskad text omedelbart ovanför den. |
+| Matrix | `19` | Matrisobjekt, bestående av ett eller flera element utplacerade i en eller flera rader och en eller flera kolumner. |
+| MatrixRow | `20` | En rad i matrisen. |
+| NAry | `21` | N-ärt objekt, bestående av ett n-ärt objekt, en bas (eller operand) och valfria övre och undre gränser. |
 | Phantom | `22` | Fantomobjekt. |
-| Radical | `23` | Radikalt objekt, bestående av en radikal, ett baselement och en valfri grad . |
-| SubscriptPart | `24` | Subscript för objektet som kan ha subscript del. |
-| SuperscriptPart | `25` | Upphöjd skrift för objektet upphöjd. |
-| PreSubSuperscript | `26` | Pre-Sub-Superscript-objekt, som består av ett baselement och en subscript och superscript placerad till vänster om basen. |
-| Subscript | `27` | Subscript-objekt, som består av ett baselement och ett förminskat skript placerat under och till höger. |
-| SubSuperscript | `28` | Sub-superscript-objekt, som består av ett baselement, ett reducerat skript placerat under och till höger, och ett reducerat skript placerat ovanför och till höger. |
-| Supercript | `29` | Superscript-objekt, som består av ett baselement och ett skript i förminskad storlek placerat ovanför och till höger. |
+| Radical | `23` | Radikalobjekt, bestående av en radikal, ett baselement och en valfri grad . |
+| SubscriptPart | `24` | Subskript för objektet som kan ha en subskriptdel. |
+| SuperscriptPart | `25` | Upphöjd skrift för det upphöjda objektet. |
+| PreSubSuperscript | `26` | Pre-Sub-Superscript-objekt, som består av ett baselement och ett subscript och ett superscript placerade till vänster om basen. |
+| Subscript | `27` | Subscript-objekt, som består av ett baselement och ett skript i reducerad storlek placerat nedanför och till höger. |
+| SubSuperscript | `28` | Sub-superscript-objekt, som består av ett baselement, ett skript med reducerad storlek placerat nedanför och till höger, och ett skript med reducerad storlek placerat ovanför och till höger. |
+| Supercript | `29` | Superscript-objekt, som består av ett baselement och ett förminskat skript placerat ovanför och till höger. |
 
 ## Exempel
 
-Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje kontorsmatematiknod i ett dokument.
 
 ```csharp
 public void OfficeMathToText()
@@ -62,7 +62,7 @@ public void OfficeMathToText()
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -70,8 +70,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras undernoder.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -82,7 +82,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -90,7 +90,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -112,7 +112,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en OfficeMath-nod har besökts.
+    /// Anropas efter att alla undernoder till en OfficeMath-nod har besökts.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -124,9 +124,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

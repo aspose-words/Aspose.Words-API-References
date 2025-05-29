@@ -2,15 +2,15 @@
 title: DocumentBuilder.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder ParagraphFormat 财产. 返回一个表示当前段落格式属性的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentBuilder 的 ParagraphFormat 属性以访问和自定义基本段落格式功能，从而增强文档样式。
 type: docs
 weight: 170
 url: /zh/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property
 
-返回一个表示当前段落格式属性的对象。
+返回表示当前段落格式属性的对象。
 
 ```csharp
 public ParagraphFormat ParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## 例子
 
-演示如何使用 DocumentBuilder 创建格式化表。
+展示如何使用 DocumentBuilder 创建格式化的表格。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// 设置文本和表格外观的一些格式选项。
+// 为文本和表格外观设置一些格式选项。
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// 为我们即将创建的新行和单元格重新配置构建器的格式化对象。
-// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行脱颖而出。
+// 为我们即将创建的新行和新单元格重新配置构建器的格式化对象。
+// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行突出显示。
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

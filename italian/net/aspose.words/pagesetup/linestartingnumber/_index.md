@@ -3,14 +3,14 @@ title: PageSetup.LineStartingNumber
 linktitle: LineStartingNumber
 articleTitle: LineStartingNumber
 second_title: Aspose.Words per .NET
-description: PageSetup LineStartingNumber proprietà. Ottiene o imposta il numero della riga iniziale in C#.
+description: Scopri come utilizzare la proprietà LineStartingNumber di PageSetup per personalizzare facilmente il numero di riga iniziale del documento e ottenere una formattazione migliorata.
 type: docs
 weight: 250
 url: /it/net/aspose.words/pagesetup/linestartingnumber/
 ---
 ## PageSetup.LineStartingNumber property
 
-Ottiene o imposta il numero della riga iniziale.
+Ottiene o imposta il numero di riga iniziale.
 
 ```csharp
 public int LineStartingNumber { get; set; }
@@ -26,9 +26,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Possiamo utilizzare l'oggetto PageSetup della sezione per visualizzare i numeri a sinistra delle righe di testo della sezione.
 // Questo è lo stesso comportamento di un oggetto List,
-// ma copre l'intera sezione e non modifica in alcun modo il testo.
+// ma copre l'intera sezione e non modifica il testo in alcun modo.
 // La nostra sezione ricomincerà la numerazione su ogni nuova pagina da 1 e visualizzerà il numero,
-// se è un multiplo di 3, a 50pt a sinistra della riga.
+// se è un multiplo di 3, a 50 pt a sinistra della riga.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -38,9 +38,9 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// Il contatore di riga salterà qualsiasi paragrafo con il flag "SuppressLineNumbers" impostato su "true".
+// Il contatore di righe salterà qualsiasi paragrafo il cui flag "SuppressLineNumbers" sia impostato su "true".
 // Questo paragrafo si trova sulla quindicesima riga, che è un multiplo di 3, e quindi normalmente visualizzerebbe un numero di riga.
-// Anche il contatore di riga della sezione ignorerà questa riga, tratterà la riga successiva come la quindicesima,
+// Il contatore di righe della sezione ignorerà anche questa riga, trattando la riga successiva come la quindicesima,
 // e continua il conteggio da quel punto in poi.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 

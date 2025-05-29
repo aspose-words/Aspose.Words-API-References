@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdating
 linktitle: FieldUpdating
 articleTitle: FieldUpdating
 second_title: Aspose.Words para .NET
-description: IFieldUpdatingCallback FieldUpdating método. Un método definido por el usuario que se llama justo antes de que se actualice un campo en C#.
+description: Descubra el método IFieldUpdatingCallback: su solución para actualizaciones de campos personalizados, garantizando precisión y control en la gestión de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
+/// Implemente esta interfaz si desea que sus propios métodos personalizados sean llamados durante una actualización de campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un método definido por el usuario que se llama justo después de actualizar un campo.
+    /// Un método definido por el usuario que se llama justo después de que se actualiza un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

@@ -2,15 +2,15 @@
 title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
-second_title: Aspose.Words for .NET
-description: ChartLegend LegendEntries mülk. Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiğinizdeki tüm seriler ve trend çizgileri için kapsamlı bir gösterge girişleri koleksiyonuna erişmek için ChartLegend LegendEntries özelliğini keşfedin.
 type: docs
-weight: 10
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
 
-Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür.
+Ana grafiğin tüm serileri ve eğilim çizgileri için bir dizi gösterge girişi döndürür.
 
 ```csharp
 public ChartLegendEntryCollection LegendEntries { get; }
@@ -18,7 +18,7 @@ public ChartLegendEntryCollection LegendEntries { get; }
 
 ## Örnekler
 
-Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
+Grafik serileri için bir gösterge girişiyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

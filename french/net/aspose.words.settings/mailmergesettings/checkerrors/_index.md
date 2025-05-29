@@ -3,14 +3,14 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings CheckErrors propriété. Spécifie le type de rapport derreurs qui doit être effectué par Microsoft Word lors de lexécution dun publipostage. La valeur par défaut estDefault  en C#.
+description: Découvrez la propriété MailMergeSettings CheckErrors dans Microsoft Word pour un signalement efficace des erreurs lors des publipostages. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/mailmergesettings/checkerrors/
 ---
 ## MailMergeSettings.CheckErrors property
 
-Spécifie le type de rapport d'erreurs qui doit être effectué par Microsoft Word lors de l'exécution d'un publipostage. La valeur par défaut estDefault .
+Spécifie le type de rapport d'erreur qui doit être effectué par Microsoft Word lors de l'exécution d'un publipostage. La valeur par défaut estDefault .
 
 ```csharp
 public MailMergeCheckErrors CheckErrors { get; set; }
@@ -18,7 +18,7 @@ public MailMergeCheckErrors CheckErrors { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

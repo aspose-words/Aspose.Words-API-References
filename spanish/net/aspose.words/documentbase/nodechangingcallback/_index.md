@@ -3,9 +3,9 @@ title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
 articleTitle: NodeChangingCallback
 second_title: Aspose.Words para .NET
-description: DocumentBase NodeChangingCallback propiedad. Se llama cuando se inserta o elimina un nodo en el documento en C#.
+description: Descubra la propiedad DocumentBase NodeChangingCallback, que se activa al insertar o eliminar nodos, lo que mejora la gestión de documentos y la eficiencia del flujo de trabajo.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Establece la devolución de llamada de cambio de nodo para una implementación personalizada,
-    // luego agrega/elimina nodos para que genere un registro.
+    // Establezca la devolución de llamada de cambio de nodo en una implementación personalizada,
+    // luego agrega/elimina nodos para generar un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Registra la fecha y hora de cada inserción y eliminación de nodos.
-/// Establece un nombre/tamaño de fuente personalizado para el contenido del texto de los nodos Ejecutar.
+/// Registra la fecha y hora de la inserción y eliminación de cada nodo.
+/// Establece un nombre y tamaño de fuente personalizado para el contenido de texto de los nodos Ejecutar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

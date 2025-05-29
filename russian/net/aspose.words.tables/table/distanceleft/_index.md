@@ -3,14 +3,14 @@ title: Table.DistanceLeft
 linktitle: DistanceLeft
 articleTitle: DistanceLeft
 second_title: Aspose.Words для .NET
-description: Table DistanceLeft свойство. Получает или задает расстояние между левой частью таблицы и окружающим текстом в пунктах на С#.
+description: Отрегулируйте свойство Table DistanceLeft, чтобы контролировать расстояние между таблицей и окружающим текстом. Улучшите читаемость и макет ваших документов!
 type: docs
 weight: 130
 url: /ru/net/aspose.words.tables/table/distanceleft/
 ---
 ## Table.DistanceLeft property
 
-Получает или задает расстояние между левой частью таблицы и окружающим текстом в пунктах.
+Возвращает или задает расстояние между левым краем таблицы и окружающим текстом в пунктах.
 
 ```csharp
 public double DistanceLeft { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Устанавливаем расстояние между таблицей и окружающим текстом.
+// Устанавливаем расстояние между таблицей и окружающим текстом.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

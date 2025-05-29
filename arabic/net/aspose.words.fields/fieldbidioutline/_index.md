@@ -3,9 +3,9 @@ title: FieldBidiOutline Class
 linktitle: FieldBidiOutline
 articleTitle: FieldBidiOutline
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldBidiOutline فصل. ينفذ حقل BIDIOUTLINE في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldBidiOutline لتنفيذ حقل BIDIOUTLINE بسلاسة، مما يعزز قدرات معالجة المستندات لديك.
 type: docs
-weight: 1650
+weight: 2060
 url: /ar/net/aspose.words.fields/fieldbidioutline/
 ---
 ## FieldBidiOutline class
@@ -28,31 +28,31 @@ public class FieldBidiOutline : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-هذا الحقل مطابق للحقل AUTONUMLGL، باستثناء الفاصل الذي يحدد كل مستوى من ترقيم الفقرات.
+هذا الحقل مطابق لحقل AUTONUMLGL، باستثناء الفاصل الذي يحدد كل مستوى من ترقيم الفقرات.
 
 ## أمثلة
 
@@ -63,27 +63,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يقوم حقل BIDIOUTLINE بترقيم الفقرات مثل حقول AUTONUM/LISTNUM،
-// ولكنه يكون مرئيًا فقط عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
-// سيعرض الحقل التالي ".1"، وهو ما يعادل رقم القائمة "1." من اليمين إلى اليسار (RTL).
+// ولكن لا يمكن رؤيته إلا عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
+// سيعرض الحقل التالي ".1"، وهو المعادل من RTL لرقم القائمة "1".
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// أضف حقلين آخرين لـ BIDIOUTLINE، حيث سيتم عرض ".2" و".3".
+// أضف حقلين آخرين من BIDIOUTLINE، والذي سيعرض ".2" و".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// اضبط محاذاة النص الأفقي لكل فقرة في المستند على RTL.
+// قم بتعيين محاذاة النص الأفقية لكل فقرة في المستند إلى RTL.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
 // إذا قمنا بتمكين لغة التحرير من اليمين إلى اليسار في Microsoft Word، فستعرض حقولنا أرقامًا.
-// وإلا فسوف يعرضون "###".
+// وإلا، فسوف يتم عرض "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 

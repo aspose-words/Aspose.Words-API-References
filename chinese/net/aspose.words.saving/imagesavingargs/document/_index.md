@@ -2,8 +2,8 @@
 title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSavingArgs Document 财产. 获取当前正在保存的文档对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ImageSavingArgs Document 属性来访问当前正在保存的文档，从而提高您的工作流程效率并节省时间。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/imagesavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## 例子
 
-演示如何在 HTML 转换过程中涉及图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 public void ImageSavingCallback()
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// 在保存过程将每个图像保存到本地文件系统中的图像文件时打印每个图像的属性
-/// 将文档导出为 HTML 期间。
+/// 在保存过程中将每幅图像保存到本地文件系统中的图像文件时，打印其属性
+/// 在将文档导出为 HTML 期间。
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

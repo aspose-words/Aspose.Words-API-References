@@ -3,9 +3,9 @@ title: AxisScaling Class
 linktitle: AxisScaling
 articleTitle: AxisScaling
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.AxisScaling klass. Representerar skalningsalternativen för axeln i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Charts.AxisScaling för anpassningsbara axelskalningsalternativ, vilket enkelt förbättrar dina diagrampresentationer.
 type: docs
-weight: 570
+weight: 820
 url: /sv/net/aspose.words.drawing.charts/axisscaling/
 ---
 ## AxisScaling class
@@ -29,7 +29,7 @@ public class AxisScaling
 | namn | Beskrivning |
 | --- | --- |
 | [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase/) { get; set; } | Hämtar eller ställer in den logaritmiska basen för en logaritmisk axel. |
-| [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum/) { get; set; } | Hämtar eller ställer in maxvärdet för axeln. |
+| [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum/) { get; set; } | Hämtar eller ställer in axelns maximala värde. |
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | Hämtar eller ställer in minimivärdet för axeln. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | Hämtar eller ställer in skalningstyp för axeln. |
 
@@ -48,16 +48,16 @@ Chart chart = chartShape.Chart;
 chart.Series.Clear();
 
 // Infoga en serie med X/Y-koordinater för fem punkter.
-chart.Series.Add("Series 1", 
-    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 },
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
 // Skalningen av X-axeln är linjär som standard,
-// visar jämnt ökande värden som täcker vårt X-värdeområde (0, 1, 2, 3...).
+// visar jämnt ökande värden som täcker vårt X-värdeintervall (0, 1, 2, 3...).
 // En linjär axel är inte idealisk för våra Y-värden
 // eftersom punkterna med de mindre Y-värdena blir svårare att läsa.
 // En logaritmisk skalning med basen 20 (1, 20, 400, 8000...)
-// kommer att sprida de plottade punkterna, vilket gör att vi lättare kan läsa deras värden på diagrammet.
+// kommer att sprida ut de plottade punkterna, vilket gör att vi lättare kan läsa deras värden i diagrammet.
 chart.AxisY.Scaling.Type = AxisScaleType.Logarithmic;
 chart.AxisY.Scaling.LogBase = 20;
 

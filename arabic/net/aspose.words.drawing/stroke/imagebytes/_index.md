@@ -3,9 +3,9 @@ title: Stroke.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words لـ .NET
-description: Stroke ImageBytes ملكية. يحدد الصورة لصورة الحد أو تعبئة النمط في C#.
+description: اكتشف كيفية استخدام خاصية ImageBytes لإنشاء صور حدودية رائعة وأنماط تعبئة فريدة لتصاميمك. حسّن صورك اليوم!
 type: docs
-weight: 110
+weight: 160
 url: /ar/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -18,15 +18,15 @@ public byte[] ImageBytes { get; }
 
 ## أمثلة
 
-يوضح كيفية معالجة ميزات حدود الشكل.
+يوضح كيفية معالجة ميزات شكل السكتة الدماغية.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
-// يمكن أن تحتوي الحدود على لونين، يُستخدمان لإنشاء نمط محدد بواسطة بيانات الصورة ذات اللونين.
-// لا تستخدم الحدود ذات اللون الواحد خاصية Color2.
+// يمكن أن تحتوي الضربات على لونين، يتم استخدامهما لإنشاء نمط محدد بواسطة بيانات صورة ثنائية اللون.
+// لا تستخدم الضربات ذات اللون الواحد خاصية Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

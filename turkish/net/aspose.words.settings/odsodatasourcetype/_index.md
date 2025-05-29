@@ -2,10 +2,10 @@
 title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.OdsoDataSourceType Sıralama. ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak harici veri kaynağının türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Harici veri kaynaklarına kolayca bağlanmak ve belge işleme yeteneklerinizi geliştirmek için Aspose.Words OdsoDataSourceType enum'ını keşfedin.
 type: docs
-weight: 5890
+weight: 6720
 url: /tr/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -22,23 +22,23 @@ public enum OdsoDataSourceType
 | --- | --- | --- |
 | Text | `0` | Belirli bir belgenin bir metin dosyasına bağlandığını belirtir. Muhtemelen wdMergeSubTypeOther. |
 | Database | `1` | Belirli bir belgenin bir veritabanına bağlandığını belirtir. Muhtemelen wdMergeSubTypeAccess. |
-| AddressBook | `2` | Belirli bir belgenin kişilerin adres defterine bağlandığını belirtir. Muhtemelen wdMergeSubTypeOAL. |
+| AddressBook | `2` | Belirli bir belgenin bir kişi adres defterine bağlandığını belirtir. Muhtemelen wdMergeSubTypeOAL. |
 | Document1 | `3` | Belirli bir belgenin, üreten uygulama tarafından desteklenen başka bir belge biçimine bağlandığını belirtir. Muhtemelen wdMergeSubTypeOLEDBWord. |
 | Document2 | `4` | Belirli bir belgenin, üreten uygulama tarafından desteklenen başka bir belge biçimine bağlandığını belirtir. Muhtemelen wdMergeSubTypeWorks. |
 | Native | `5` | Belirli bir belgenin, üreten uygulamaya özgü başka bir belge biçimine bağlandığını belirtir. Muhtemelen wdMergeSubTypeOLEDBText |
 | Email | `6` | Belirli bir belgenin bir e-posta uygulamasına bağlandığını belirtir. Muhtemelen wdMergeSubTypeOutlook. |
-| None | `7` | Harici veri kaynağının türü belirtilmedi. Muhtemelen wdMergeSubTypeWord. |
-| Legacy | `8` | Belirli bir belgenin, üreten uygulama tarafından desteklenen eski bir belge biçimine bağlandığını belirtir Muhtemelen wdMergeSubTypeWord2000. |
-| Master | `9` | Belirli bir belgenin, diğer veri kaynaklarını toplayan bir veri kaynağına bağlandığını belirtir. |
-| Default | `7` | Şuna eşittir:None . |
+| None | `7` | Harici veri kaynağının türü belirtilmemiş. Muhtemelen wdMergeSubTypeWord. |
+| Legacy | `8` | Belirli bir belgenin, üreten uygulama tarafından desteklenen eski bir belge biçimine bağlandığını belirtir. Muhtemelen wdMergeSubTypeWord2000. |
+| Master | `9` | Belirli bir belgenin diğer veri kaynaklarını toplayan bir veri kaynağına bağlandığını belirtir. |
+| Default | `7` | eşittirNone . |
 
 ## Notlar
 
-Bu numaralandırma için OOXML spesifikasyonu oldukça belirsizdir. Sanırım WdMergeSubType numaralandırmasına http://msdn.microsoft.com/en-us/library/bb237801.aspx karşılık gelebilir.
+OOXML belirtimi bu enum için çok belirsiz. Sanırım WdMergeSubType enumeration'ına karşılık gelebilir http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -51,9 +51,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -81,7 +81,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

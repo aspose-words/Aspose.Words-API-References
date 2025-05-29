@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 linktitle: TextColumns
 articleTitle: TextColumns
 second_title: Aspose.Words för .NET
-description: PageSetup TextColumns fast egendom. Returnerar en samling som representerar uppsättningen textkolumner i C#.
+description: Upptäck egenskapen TextColumns i PageSetup och få tillgång till en mångsidig samling textkolumner som enkelt förbättrar layouten och formateringen av ditt dokument.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/pagesetup/textcolumns/

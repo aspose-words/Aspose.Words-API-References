@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words för .NET
-description: NodeRendererBase RenderToSize metod. Gör formen till enGraphics objekt till en angiven storlek i C#.
+description: Upptäck NodeRendererBase RenderToSize-metoden för att effektivt rendera former till grafikobjekt i önskad storlek för förbättrad visuell utdata.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Gör formen till enGraphics objekt till en angiven storlek.
+Återger formen till enGraphics objekt till en angiven storlek.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -18,11 +18,11 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| graphics | Graphics | Objektet där det ska renderas. |
-| x | Single | X-koordinaten (i världsenheter) i det övre vänstra hörnet av den renderade formen. |
-| y | Single | Y-koordinaten (i världsenheter) i det övre vänstra hörnet av den renderade formen. |
-| width | Single | Den maximala bredd (i världsenheter) som kan upptas av den renderade formen. |
-| height | Single | Den maximala höjden (i världsenheter) som kan upptas av den renderade formen. |
+| graphics | Graphics | Objektet dit det ska renderas. |
+| x | Single | X-koordinaten (i världsenheter) för det övre vänstra hörnet av den renderade formen. |
+| y | Single | Y-koordinaten (i världsenheter) för det övre vänstra hörnet av den renderade formen. |
+| width | Single | Den maximala bredden (i världsenheter) som den renderade formen kan uppta. |
+| height | Single | Den maximala höjden (i världsenheter) som den renderade formen kan uppta. |
 
 ### Returvärde
 
@@ -30,7 +30,7 @@ Skalan som automatiskt beräknades för den renderade formen för att passa den 
 
 ## Exempel
 
-Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
+Visar hur man renderar en form med ett grafikobjekt och visar den med hjälp av ett Windows-formulär.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -40,7 +40,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Nedan finns två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett grafikobjekt.
+    // Nedan följer två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett Graphics-objekt.
     // 1 - Skapa en form med ett diagram och rendera den till en specifik skala.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -82,7 +82,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Återger och visar en lista med former.
+/// Renderar och visar en lista med former.
 /// </summary>
 private class ShapeForm : Form
 {

@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words для .NET
-description: DigitalSignature SignatureValue свойство. Получает массив байтов представляющий значение подписи на С#.
+description: Откройте для себя свойство DigitalSignature SignatureValue, которое предоставляет массив байтов для защищенного представления подписи. Повысьте свою цифровую безопасность сегодня!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Получает массив байтов, представляющий значение подписи.
+Получает массив байтов, представляющих значение подписи.
 
 ```csharp
 public byte[] SignatureValue { get; }

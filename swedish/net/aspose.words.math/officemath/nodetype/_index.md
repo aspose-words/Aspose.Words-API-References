@@ -3,14 +3,14 @@ title: OfficeMath.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: OfficeMath NodeType fast egendom. ReturnerarOfficeMath  i C#.
+description: Upptäck OfficeMath NodeType-egenskapen som effektivt returnerar OfficeMath-element och förbättrar ditt dokuments matematiska funktioner.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-ReturnerarOfficeMath .
+ReturerOfficeMath .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,14 +18,14 @@ public override NodeType NodeType { get; }
 
 ## Exempel
 
-Visar hur du ställer in kontorsmattevisningsformatering.
+Visar hur man ställer in formatering för Office-matematikvisning.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// OfficeMath-noder som är barn till andra OfficeMath-noder är alltid inline.
+// OfficeMath-noder som är underordnade till andra OfficeMath-noder är alltid inline.
 // Noden vi arbetar med är basnoden för att ändra dess plats och visningstyp.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);

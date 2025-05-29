@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart Title свойство. Указывает понятное имя связанное с этим тегом структурированного документа. Не может бытьнулевой  на С#.
+description: Откройте для себя свойство StructuredDocumentTagRangeStart Title, чтобы определить понятные имена для структурированных тегов документов, повышая ясность и доступность документа.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Указывает понятное имя, связанное с этим тегом структурированного документа. Не может быть`нулевой` .
+Указывает понятное имя, связанное с этим структурированным тегом документа. Не может быть`нулевой` .
 
 ```csharp
 public string Title { get; set; }

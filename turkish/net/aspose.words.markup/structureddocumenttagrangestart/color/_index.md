@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart Color mülk. Yapılandırılmış belge etiketinin rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirmesi ve iyileştirilmiş görsel çekicilik için StructuredDocumentTagRangeStart'ın renk özelliğinin nasıl özelleştirileceğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/color/

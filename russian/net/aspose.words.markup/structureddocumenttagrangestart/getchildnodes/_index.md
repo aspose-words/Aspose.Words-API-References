@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart GetChildNodes метод. Возвращает живую коллекцию дочерних узлов соответствующих указанным типам на С#.
+description: Откройте для себя метод StructuredDocumentTagRangeStart GetChildNodes, который предоставляет динамическую коллекцию дочерних узлов, соответствующих указанным вами типам.
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method

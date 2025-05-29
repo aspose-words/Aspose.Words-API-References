@@ -3,9 +3,9 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words для .NET
-description: Document Sections свойство. Возвращает коллекцию представляющую все разделы документа на С#.
+description: Изучите свойство «Разделы документа», чтобы получить доступ к полной коллекции всех разделов документа, что улучшит организацию контента и навигацию.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -30,12 +30,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Удаляем первый раздел из документа.
+// Удалить первый раздел из документа.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Добавляем копию того, что теперь является первым разделом, в конец документа.
+// Добавляем копию того, что сейчас является первым разделом, в конец документа.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -52,13 +52,13 @@ builder.Writeln("This text is in section 1.");
 
 // Типы разрывов разделов определяют, как новый раздел отделяется от предыдущего.
 // Ниже приведены пять типов разрывов разделов.
-// 1 - Начинает следующий раздел на новой странице:
+// 1 — Начинает следующий раздел на новой странице:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Начинает следующий раздел на текущей странице:
+// 2 — Начинает следующий раздел на текущей странице:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
@@ -76,7 +76,7 @@ builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 — Начинает следующий раздел с нового столбца:
+// 5 — Начинает следующий раздел в новом столбце:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

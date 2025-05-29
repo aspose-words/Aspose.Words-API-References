@@ -3,7 +3,7 @@ title: FieldMergeBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words per .NET
-description: FieldMergeBarcode SymbolHeight proprietà. Ottiene o imposta laltezza del simbolo. Le unità sono in TWIPS 1/1440 di pollice in C#.
+description: Regola la proprietà FieldMergeBarcode SymbolHeight per personalizzare l'altezza del tuo codice a barre in TWIPS. Migliora la presentazione dei tuoi dati con precisione!
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -24,8 +24,8 @@ Mostra come eseguire una stampa unione sui codici a barre QR.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di un'origine dati di unione in codici QR.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di una sorgente dati di unione in codici QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -43,7 +43,7 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice QR con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");

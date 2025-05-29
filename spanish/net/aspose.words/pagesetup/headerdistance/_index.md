@@ -3,7 +3,7 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words para .NET
-description: PageSetup HeaderDistance propiedad. Devuelve o establece la distancia en puntos entre el encabezado y la parte superior de la página en C#.
+description: Ajuste la propiedad HeaderDistance de PageSetup para personalizar el espaciado del encabezado en puntos, mejorando el diseño de su documento para una mejor legibilidad y presentación.
 type: docs
 weight: 170
 url: /es/net/aspose.words/pagesetup/headerdistance/

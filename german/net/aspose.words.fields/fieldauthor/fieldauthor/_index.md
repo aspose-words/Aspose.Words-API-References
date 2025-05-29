@@ -3,7 +3,7 @@ title: FieldAuthor
 linktitle: FieldAuthor
 articleTitle: FieldAuthor
 second_title: Aspose.Words für .NET
-description: FieldAuthor constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldAuthor-Konstruktor – Ihr Tool für die nahtlose Erstellung und Anpassung von Inhalten. Erschließen Sie sich noch heute neue Möglichkeiten!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldauthor/fieldauthor/

@@ -3,14 +3,14 @@ title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
 second_title: Aspose.Words para .NET
-description: Font ThemeFontBi propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont object en un documento de idioma de derecha a izquierda en C#.
+description: Descubra cómo administrar fácilmente las fuentes del tema en documentos de derecha a izquierda con la propiedad FontBi, mejorando su diseño y legibilidad sin esfuerzo.
 type: docs
-weight: 490
+weight: 500
 url: /es/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con este[`Font`](../) object en un documento de idioma de derecha a izquierda.
+Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con este[`Font`](../) object en un documento en idioma de derecha a izquierda.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con fuentes y colores de temas.
+Muestra cómo trabajar con fuentes y colores del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para los idiomas utilizados de forma predeterminada.
+// Define fuentes para los idiomas que se utilizan por defecto.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
+//Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -54,7 +54,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Hay varias formas de restablecer la fuente y el color.
-// 1 - Configurando ThemeFont.None/ThemeColor.None:
+// 1 - Al configurar ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Configurando nombres de fuentes/colores que no sean temas:
+// 2 - Al configurar nombres de fuentes y colores que no sean del tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

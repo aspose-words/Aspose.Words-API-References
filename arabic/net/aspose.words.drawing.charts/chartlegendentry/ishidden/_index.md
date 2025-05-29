@@ -3,14 +3,14 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words لـ .NET
-description: ChartLegendEntry IsHidden ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان هذا الإدخال مخفيًا في وسيلة إيضاح المخطط. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية ChartLegendEntry IsHidden، وتحكّم في رؤية أسطورة الرسم البياني بسهولة. حسّن عرض بياناتك باستخدام هذه الميزة البسيطة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-الحصول على قيمة أو تعيينها تشير إلى ما إذا كان هذا الإدخال مخفيًا في وسيلة إيضاح المخطط. القيمة الافتراضية هي**خطأ شنيع** .
+يحصل على قيمة أو يعينها للإشارة إلى ما إذا كان هذا الإدخال مخفيًا في أسطورة الرسم البياني. القيمة الافتراضية هي**خطأ شنيع** .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -18,11 +18,11 @@ public bool IsHidden { get; set; }
 
 ## ملاحظات
 
-عندما يتم إخفاء إدخال وسيلة إيضاح المخطط، فإن ذلك لا يؤثر على سلسلة المخطط المقابل أو خط الاتجاه الذي لا يزال معروضًا على المخطط.
+عندما يتم إخفاء إدخال أسطورة الرسم البياني، فإن ذلك لا يؤثر على سلسلة الرسم البياني المقابلة أو خط الاتجاه الذي لا يزال معروضًا على الرسم البياني.
 
 ## أمثلة
 
-يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
+يوضح كيفية العمل مع إدخال الأسطورة لسلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

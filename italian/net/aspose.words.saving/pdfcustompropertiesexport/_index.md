@@ -3,14 +3,14 @@ title: PdfCustomPropertiesExport Enum
 linktitle: PdfCustomPropertiesExport
 articleTitle: PdfCustomPropertiesExport
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.PdfCustomPropertiesExport enum. Specifica il modoCustomDocumentProperties vengono esportati in un file PDF in C#.
+description: Scopri come l'enum Aspose.Words.PdfCustomPropertiesExport migliora le esportazioni PDF personalizzando le proprietà del documento per ottenere risultati ottimali.
 type: docs
-weight: 5420
+weight: 6210
 url: /it/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-Specifica il modo[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) vengono esportati in un file PDF.
+Specifica il modo[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) vengono esportati in file PDF.
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -33,12 +33,12 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.None" da eliminare
-// proprietà personalizzate del documento mentre salviamo il documento in .PDF.
+// Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.None" per scartarla
+// proprietà personalizzate del documento quando salviamo il documento in formato .PDF.
 // Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.Standard"
 // per preservare le proprietà personalizzate all'interno del documento PDF di output.
 // Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.Metadata"

@@ -3,14 +3,14 @@ title: TableStyle.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words für .NET
-description: TableStyle VerticalAlignment eigendom. Gibt die vertikale Ausrichtung für die Zellen an in C#.
+description: Entdecken Sie die TableStyle VerticalAlignment-Eigenschaft, um die Zellenausrichtung in Ihren Tabellen mühelos zu steuern und so die Lesbarkeit und Präsentation zu verbessern.
 type: docs
 weight: 150
 url: /de/net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
 
-Gibt die vertikale Ausrichtung für die Zellen an.
+Gibt die vertikale Ausrichtung der Zellen an.
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert istTop .
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

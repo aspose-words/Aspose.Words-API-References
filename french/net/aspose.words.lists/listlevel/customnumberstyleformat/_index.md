@@ -3,22 +3,43 @@ title: ListLevel.CustomNumberStyleFormat
 linktitle: CustomNumberStyleFormat
 articleTitle: CustomNumberStyleFormat
 second_title: Aspose.Words pour .NET
-description: ListLevel CustomNumberStyleFormat propriété. Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par exemple  a ç ĝ  en C#.
+description: Personnalisez vos niveaux de liste avec la propriété ListLevel CustomNumberStyleFormat. Définissez facilement des formats de nombres uniques pour un style de document amélioré.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par exemple : "a, ç, ĝ, ...".
+Récupère ou définit le format de style de nombre personnalisé pour ce niveau de liste. Par exemple : « a, ç, ĝ, ... ».
 
 ```csharp
-public string CustomNumberStyleFormat { get; }
+public string CustomNumberStyleFormat { get; set; }
 ```
 
 ## Exemples
 
-Montre comment obtenir le format d’une liste avec le style de numéro personnalisé.
+Montre comment définir le format du style du numéro de client.
+
+```csharp
+Document doc = new Document(MyDir + "List with leading zero.docx");
+
+doc.UpdateListLabels();
+
+ParagraphCollection paras = doc.FirstSection.Body.Paragraphs;
+Assert.AreEqual("001.", paras[0].ListLabel.LabelString);
+Assert.AreEqual("0001.", paras[1].ListLabel.LabelString);
+Assert.AreEqual("0002.", paras[2].ListLabel.LabelString);
+
+paras[1].ListFormat.ListLevel.CustomNumberStyleFormat = "001, 002, 003, ...";
+
+doc.UpdateListLabels();
+
+Assert.AreEqual("001.", paras[0].ListLabel.LabelString);
+Assert.AreEqual("001.", paras[1].ListLabel.LabelString);
+Assert.AreEqual("002.", paras[2].ListLabel.LabelString);
+```
+
+Montre comment obtenir le format d'une liste avec le style de numéro personnalisé.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");

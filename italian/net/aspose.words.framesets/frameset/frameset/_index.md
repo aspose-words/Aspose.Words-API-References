@@ -3,7 +3,7 @@ title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words per .NET
-description: Frameset costruttore. Default_Costruttore in C#.
+description: Crea cornici straordinarie senza sforzo con il nostro versatile costruttore di cornici. Goditi una personalizzazione impeccabile e migliora il tuo web design oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.framesets/frameset/frameset/

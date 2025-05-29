@@ -3,7 +3,7 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words pour .NET
-description: List Document propriété. Obtient le document propriétaire en C#.
+description: Découvrez comment répertorier les propriétés de vos documents et accéder facilement aux informations de propriété. Libérez dès aujourd'hui votre potentiel en matière de gestion documentaire !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/list/document/

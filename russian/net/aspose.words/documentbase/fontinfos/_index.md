@@ -3,7 +3,7 @@ title: DocumentBase.FontInfos
 linktitle: FontInfos
 articleTitle: FontInfos
 second_title: Aspose.Words для .NET
-description: DocumentBase FontInfos свойство. Предоставляет доступ к свойствам шрифтов используемых в этом документе на С#.
+description: Получите доступ к подробным свойствам шрифта с помощью функции FontInfos DocumentBase, которая позволит без труда улучшить дизайн и читабельность вашего документа.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/documentbase/fontinfos/
@@ -18,26 +18,11 @@ public FontInfoCollection FontInfos { get; }
 
 ## Примечания
 
-Эта коллекция определений шрифтов загружается в том виде, в каком она есть из документа. В некоторых документах определения шрифтов могут быть необязательными, отсутствовать или быть неполными.
+Эта коллекция определений шрифтов загружается из документа «как есть». Определения шрифтов могут быть необязательными, отсутствующими или неполными в некоторых документах.
 
 Не полагайтесь на эту коллекцию, чтобы убедиться, что в документе используется определенный шрифт. Эту коллекцию следует использовать только для получения информации о шрифтах, которые могут использоваться в документе.
 
 ## Примеры
-
-Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
-
-```csharp
-Document doc = new Document(MyDir + "Embedded font.docx");
-
-FontInfoCollection allFonts = doc.FontInfos;
-// Распечатываем все использованные и неиспользуемые шрифты в документе.
-for (int i = 0; i < allFonts.Count; i++)
-{
-    Console.WriteLine($"Font index #{i}");
-    Console.WriteLine($"\tName: {allFonts[i].Name}");
-    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
-}
-```
 
 Показывает, как сохранить документ со встроенными шрифтами TrueType.
 
@@ -50,11 +35,21 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
+```
 
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
+Показывает, как распечатать подробную информацию о шрифтах, присутствующих в документе.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfoCollection allFonts = doc.FontInfos;
+// Распечатать все используемые и неиспользуемые шрифты в документе.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
 ```
 
 ### Смотрите также

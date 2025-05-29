@@ -2,15 +2,15 @@
 title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat VerticalAlignment 财产. 获取指定帧的垂直对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat VerticalAlignment 属性，轻松管理框架的垂直对齐，毫不费力地增强布局设计。
 type: docs
 weight: 90
 url: /zh/net/aspose.words/frameformat/verticalalignment/
 ---
 ## FrameFormat.VerticalAlignment property
 
-获取指定帧的垂直对齐方式。
+获取指定框架的垂直对齐方式。
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; }
@@ -18,7 +18,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

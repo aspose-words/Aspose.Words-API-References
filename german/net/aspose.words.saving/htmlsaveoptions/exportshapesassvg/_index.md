@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportShapesAsSvg
 linktitle: ExportShapesAsSvg
 articleTitle: ExportShapesAsSvg
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportShapesAsSvg eigendom. Steuert obShapeKnoten werden beim Speichern in HTML MHTML EPUB oder AZW3 in SVGBilder konvertiert. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie, wie Sie mit HtmlSaveOptions ExportShapesAsSvg Shape-Knoten beim Speichern in den Formaten HTML, MHTML, EPUB oder AZW3 in SVG-Bilder konvertieren.
 type: docs
 weight: 250
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -18,7 +18,7 @@ public bool ExportShapesAsSvg { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Option auf eingestellt ist`WAHR` ,[`Shape`](../../../aspose.words.drawing/shape/) Knoten werden als &lt;svg&gt;-Elemente exportiert. Andernfalls werden sie in Bitmaps gerendert und als &lt;img&gt;-Elemente exportiert.
+Wenn diese Option auf`WAHR` ,[`Shape`](../../../aspose.words.drawing/shape/) Knoten werden als &lt;svg&gt;-Elemente exportiert. Andernfalls werden sie in Bitmaps gerendert und als &lt;img&gt;-Elemente exportiert.
 
 ## Beispiele
 
@@ -33,10 +33,10 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
 // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben
-// um zu bestimmen, wie der Speichervorgang Textfeldformen exportiert.
-// Wenn wir das Flag „ExportTextBoxAsSvg“ auf „true“ setzen,
+// um zu bestimmen, wie beim Speichern die Textfeldformen exportiert werden.
+// Wenn wir das Flag "ExportTextBoxAsSvg" auf "true" setzen,
 // Der Speichervorgang konvertiert Formen mit Text in SVG-Objekte.
-// Wenn wir das Flag „ExportTextBoxAsSvg“ auf „false“ setzen,
+// Wenn wir das Flag "ExportTextBoxAsSvg" auf "false" setzen,
 // Der Speichervorgang wandelt Formen mit Text in Bilder um.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportShapesAsSvg = exportShapesAsSvg };
 
@@ -48,7 +48,7 @@ if (exportShapesAsSvg)
 {
     Assert.True(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height= \"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
 }
 else
 {

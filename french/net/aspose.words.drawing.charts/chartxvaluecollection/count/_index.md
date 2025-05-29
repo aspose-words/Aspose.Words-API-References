@@ -3,7 +3,7 @@ title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: ChartXValueCollection Count propriété. Obtient le nombre déléments dans cette collection en C#.
+description: Découvrez la propriété ChartXValueCollection Count pour récupérer facilement le nombre total d'éléments de votre collection de données pour une analyse efficace.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartxvaluecollection/count/

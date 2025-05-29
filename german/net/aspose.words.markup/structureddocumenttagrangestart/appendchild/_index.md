@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart AppendChild methode. Fügt den angegebenen Knoten am Ende des stdContentBereichs hinzu in C#.
+description: Entdecken Sie, wie die AppendChild-Methode „StructuredDocumentTagRangeStart“ Ihre Dokumentbearbeitung verbessert, indem sie Ihrem stdContent-Bereich nahtlos Knoten hinzufügt.
 type: docs
-weight: 200
+weight: 210
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
 ---
 ## StructuredDocumentTagRangeStart.AppendChild method

@@ -3,14 +3,14 @@ title: FontFallbackSettings.LoadMsOfficeFallbackSettings
 linktitle: LoadMsOfficeFallbackSettings
 articleTitle: LoadMsOfficeFallbackSettings
 second_title: Aspose.Words für .NET
-description: FontFallbackSettings LoadMsOfficeFallbackSettings methode. Lädt vordefinierte FallbackEinstellungen die den Microsoft WordFallback imitieren und Microsoft OfficeSchriftarten verwenden in C#.
+description: Entdecken Sie die Methode FontFallbackSettings LoadMsOfficeFallbackSettings, um Microsoft Word-ähnliche Fallback-Einstellungen mit Office-Schriftarten für eine nahtlose Integration einfach zu implementieren.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
 ---
 ## FontFallbackSettings.LoadMsOfficeFallbackSettings method
 
-Lädt vordefinierte Fallback-Einstellungen, die den Microsoft Word-Fallback imitieren und Microsoft Office-Schriftarten verwenden.
+Lädt vordefinierte Fallback-Einstellungen, die den Fallback von Microsoft Word nachahmen und Microsoft Office-Schriftarten verwenden.
 
 ```csharp
 public void LoadMsOfficeFallbackSettings()
@@ -18,7 +18,7 @@ public void LoadMsOfficeFallbackSettings()
 
 ## Beispiele
 
-Zeigt, wie vordefinierte Fallback-Schriftarteinstellungen geladen werden.
+Zeigt, wie vordefinierte Fallback-Schriftarteneinstellungen geladen werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Speichern Sie das Standard-Fallback-Schriftartschema in einem XML-Dokument.
-// Beispielsweise hat eines der Elemente den Wert „0C00-0C7F“ für Range und einen entsprechenden „Vani“-Wert für FallbackFonts.
-// Dies bedeutet, dass, wenn die Schriftart, die ein Text verwendet, keine Symbole für den Unicode-Block 0x0C00-0x0C7F enthält,
-// Das Fallback-Schema verwendet Symbole aus der Schriftart „Vani“.
+// Speichern Sie das standardmäßige Fallback-Schriftschema in einem XML-Dokument.
+// Beispielsweise hat eines der Elemente einen Wert von „0C00-0C7F“ für Range und einen entsprechenden „Vani“-Wert für FallbackFonts.
+// Dies bedeutet, dass, wenn die Schriftart, die für einen Text verwendet wird, keine Symbole für den Unicode-Block 0x0C00-0x0C7F hat,
+// Das Fallback-Schema verwendet Symbole aus dem Schriftartenersatz „Vani“.
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// Nachfolgend finden Sie zwei vordefinierte Schriftart-Fallback-Schemata, aus denen wir wählen können.
-// 1 – Verwenden Sie das Standardschema von Microsoft Office, das mit dem Standardschema identisch ist:
+// Unten sind zwei vordefinierte Schriftart-Fallback-Schemata aufgeführt, aus denen wir auswählen können.
+// 1 - Verwenden Sie das Standardschema von Microsoft Office, das mit dem Standard identisch ist:
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 

@@ -2,8 +2,8 @@
 title: FieldTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: FieldTitle Text mülk. Başlığın metnini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldTitle Text özelliğinizi zahmetsizce yönetin. Uygulamanızda gelişmiş netlik ve kullanıcı deneyimi için başlık metnini kolayca alın veya ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldtitle/text/
@@ -23,7 +23,7 @@ TITLE alanının nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 
- // "Başlık" yerleşik belge özelliği için bir değer belirleyin.
+ // "Başlık" yerleşik belge özelliği için bir değer ayarlayın.
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Bu özelliğin değerini belgede görüntülemek için TITLE alanını kullanabiliriz.
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Alanın Text özelliği için bir değer ayarlıyoruz,
-// ve ardından alanın güncellenmesi, yeni değerin karşılık gelen yerleşik özelliğin üzerine yazılmasına neden olacaktır.
+// Alanın Metin özelliği için bir değer ayarlama,
+// ve ardından alanı güncellemek, yeni değerle ilgili yerleşik özelliğin üzerine yazacaktır.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

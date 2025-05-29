@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
 articleTitle: IsEndOfHeaderFooter
 second_title: Aspose.Words для .NET
-description: Paragraph IsEndOfHeaderFooter свойство. True если этот абзац является последним абзацем вHeaderFooter основной текстовый рассказSection  ложь в противном случае на С#.
+description: Откройте для себя свойство IsEndOfHeaderFooter для абзацев. Легко определите, является ли абзац последним в HeaderFooter, улучшая структуру документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-True, если этот абзац является последним абзацем в[`HeaderFooter`](../../headerfooter/) (основной текстовый рассказ)[`Section`](../../section/) ; ложь в противном случае.
+Истина, если этот абзац является последним абзацем в[`HeaderFooter`](../../headerfooter/) (основной текст рассказа)[`Section`](../../section/) ; в противном случае ложно.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }
@@ -18,13 +18,13 @@ public bool IsEndOfHeaderFooter { get; }
 
 ## Примеры
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -34,7 +34,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

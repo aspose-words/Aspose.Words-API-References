@@ -2,15 +2,15 @@
 title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
-second_title: 用于 .NET 的 Aspose.Words
-description: HyphenationOptions HyphenateCaps 财产. 获取或设置确定全部大写字母书写的单词是否连字符的值 此属性的默认值为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HyphenationOptions 中的 HyphenateCaps 属性。轻松控制全大写单词的连字——默认设置为 true。立即优化您的文本！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-获取或设置确定全部大写字母书写的单词是否连字符的值。 此属性的默认值为`真的`.
+获取或设置确定全部大写字母的单词是否带连字符的值。 此属性的默认值为`真的`.
 
 ```csharp
 public bool HyphenateCaps { get; set; }

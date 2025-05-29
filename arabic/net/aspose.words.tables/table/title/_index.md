@@ -3,14 +3,14 @@ title: Table.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words لـ .NET
-description: Table Title ملكية. الحصول على عنوان هذا الجدول أو تعيينه. يوفر تمثيلاً نصيًا بديلاً للمعلومات الموجودة في الجدول في C#.
+description: اكتشف خاصية عنوان الجدول، وقم بتعيين عنوان الجدول أو تعديله بسهولة لتحسين إمكانية الوصول إليه وتعزيز تمثيل البيانات.
 type: docs
 weight: 320
 url: /ar/net/aspose.words.tables/table/title/
 ---
 ## Table.Title property
 
-الحصول على عنوان هذا الجدول أو تعيينه. يوفر تمثيلاً نصيًا بديلاً للمعلومات الموجودة في الجدول.
+يحصل على عنوان هذا الجدول أو يعينه. يوفر تمثيلًا نصيًا بديلاً للمعلومات الموجودة في الجدول.
 
 ```csharp
 public string Title { get; set; }
@@ -24,18 +24,18 @@ public string Title { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول متداخل دون استخدام أداة إنشاء المستندات.
+يوضح كيفية إنشاء جدول متداخل دون استخدام منشئ المستندات.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // أنشئ الجدول الخارجي بثلاثة صفوف وأربعة أعمدة، ثم أضفه إلى المستند.
+    // قم بإنشاء الجدول الخارجي بثلاثة صفوف وأربعة أعمدة، ثم قم بإضافته إلى المستند.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // أنشئ جدولًا آخر يتكون من صفين وعمودين، ثم أدخله في الخلية الأولى للجدول الأول.
+    // قم بإنشاء جدول آخر يحتوي على صفين وعمودين ثم أدخله في الخلية الأولى للجدول الأول.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -43,7 +43,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// إنشاء جدول جديد في المستند بالأبعاد والنص المحدد في كل خلية.
+/// إنشاء جدول جديد في المستند بالأبعاد والنص المحددين في كل خلية.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -64,10 +64,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // يمكنك استخدام خصائص "العنوان" و"الوصف" لإضافة عنوان ووصف على التوالي إلى الجدول الخاص بك.
+    //يمكنك استخدام خصائص "العنوان" و"الوصف" لإضافة عنوان ووصف على التوالي إلى الجدول الخاص بك.
     // يجب أن يحتوي الجدول على صف واحد على الأقل قبل أن نتمكن من استخدام هذه الخصائص.
-    // هذه الخصائص مفيدة لمستندات .docx المتوافقة مع ISO / IEC 29500 (راجع فئة OoxmlCompliance).
-    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO/IEC 29500، فسيتجاهل Microsoft Word هذه الخصائص.
+    // هذه الخصائص مفيدة للمستندات .docx المتوافقة مع ISO / IEC 29500 (انظر فئة OoxmlCompliance).
+    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO/IEC 29500، فإن Microsoft Word يتجاهل هذه الخصائص.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

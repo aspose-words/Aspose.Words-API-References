@@ -3,7 +3,7 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words per .NET
-description: SaveOptions ExportGeneratorName proprietà. QuandoVERO  fa sì che il nome e la versione di Aspose.Words vengano incorporati nei file prodotti. Il valore predefinito èVERO  in C#.
+description: Migliora i tuoi documenti con la proprietà ExportGeneratorName di SaveOptions. Incorpora il nome e la versione di Aspose.Words per una migliore tracciabilità. Valore predefinito: true.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -23,7 +23,7 @@ Mostra come disabilitare l'aggiunta del nome e della versione di Aspose.Words ne
 ```csharp
 Document doc = new Document();
 
-// Usa https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ per sapere come controllare il risultato.
+// Utilizzare https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ per sapere come controllare il risultato.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { ExportGeneratorName = false };
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);

@@ -3,7 +3,7 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: ResourceSavingArgs Document fast egendom. Hämtar dokumentobjektet som för närvarande sparas i C#.
+description: Upptäck egenskapen ResourceSavingArgs Document för att komma åt det aktuella dokumentobjektet som sparas, vilket förbättrar effektiviteten i ditt arbetsflöde.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/resourcesavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
+Visar hur man använder en återanropsfunktion för att spåra externa resurser som skapats vid konvertering av ett dokument till HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Anropas när Aspose.Words sparar en extern resurs till fixerad HTML eller SVG.
+    /// Anropas när Aspose.Words sparar en extern resurs till en fast sida i HTML eller SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

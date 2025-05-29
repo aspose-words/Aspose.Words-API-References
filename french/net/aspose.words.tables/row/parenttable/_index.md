@@ -3,7 +3,7 @@ title: Row.ParentTable
 linktitle: ParentTable
 articleTitle: ParentTable
 second_title: Aspose.Words pour .NET
-description: Row ParentTable propriété. Renvoie la table parent immédiate de la ligne en C#.
+description: Découvrez la propriété Row ParentTable pour accéder facilement à la table parent immédiate de n'importe quelle ligne, améliorant ainsi votre gestion et votre analyse des données.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.tables/row/parenttable/
@@ -16,13 +16,9 @@ Renvoie la table parent immédiate de la ligne.
 public Table ParentTable { get; }
 ```
 
-## Remarques
-
-Équivalent àFirstNonMarkupParentNode jeté à[`Table`](../../table/).
-
 ## Exemples
 
-Montre comment imprimer la structure des nœuds de chaque table d'un document.
+Montre comment imprimer la structure des nœuds de chaque table dans un document.
 
 ```csharp
 public void TableToText()
@@ -30,8 +26,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -39,8 +35,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
-/// Crée une carte sous la forme d'une chaîne de tous les nœuds Table rencontrés et de leurs enfants.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
+/// Crée une carte sous la forme d'une chaîne de tous les nœuds de table rencontrés et de leurs enfants.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -57,7 +53,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Appelé lorsqu'un nœud Run est rencontré dans le document.
-    /// Les exécutions qui ne se trouvent pas dans les tables ne sont pas enregistrées.
+    /// Les exécutions qui ne sont pas dans les tables ne sont pas enregistrées.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -67,7 +63,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'une table est rencontrée dans le document.
+    /// Appelé lorsqu'un tableau est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -163,7 +159,7 @@ public class TableStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants de la table actuelle.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

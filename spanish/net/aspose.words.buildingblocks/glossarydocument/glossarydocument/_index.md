@@ -3,7 +3,7 @@ title: GlossaryDocument
 linktitle: GlossaryDocument
 articleTitle: GlossaryDocument
 second_title: Aspose.Words para .NET
-description: GlossaryDocument constructor. Constructor predeterminado en C#.
+description: Descubra el constructor GlossaryDocument, su solución ideal para crear documentos sin complicaciones. ¡Desbloquee la eficiencia con nuestro constructor predeterminado hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.buildingblocks/glossarydocument/glossarydocument/

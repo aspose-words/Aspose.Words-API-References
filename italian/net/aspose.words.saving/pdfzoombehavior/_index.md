@@ -3,9 +3,9 @@ title: PdfZoomBehavior Enum
 linktitle: PdfZoomBehavior
 articleTitle: PdfZoomBehavior
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.PdfZoomBehavior enum. Specifica il tipo di zoom applicato a un documento PDF quando viene aperto in un visualizzatore PDF in C#.
+description: Scopri l'enum Aspose.Words.PdfZoomBehavior per personalizzare le impostazioni di zoom dei PDF. Migliora l'esperienza utente con opzioni di visualizzazione personalizzate nei documenti PDF.
 type: docs
-weight: 5540
+weight: 6340
 url: /it/net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration
@@ -20,34 +20,34 @@ public enum PdfZoomBehavior
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Il modo in cui viene visualizzato il documento è lasciato al visualizzatore PDF. Di solito il visualizzatore visualizza il documento adattandolo alla larghezza della pagina. |
+| None | `0` | La modalità di visualizzazione del documento è lasciata al visualizzatore PDF. Di solito, il visualizzatore visualizza il documento in modo che si adatti alla larghezza della pagina. |
 | ZoomFactor | `1` | Visualizza la pagina utilizzando il fattore di zoom specificato. |
-| FitPage | `2` | Visualizza la pagina in modo che sia visibile interamente. |
+| FitPage | `2` | Visualizza la pagina in modo che sia completamente visibile. |
 | FitWidth | `3` | Si adatta alla larghezza della pagina. |
 | FitHeight | `4` | Si adatta all'altezza della pagina. |
-| FitBox | `5` | Si adatta al riquadro di delimitazione (rettangolo contenente tutti gli elementi visibili sulla pagina). |
+| FitBox | `5` | Adatta il riquadro di delimitazione (rettangolo contenente tutti gli elementi visibili sulla pagina). |
 
 ## Esempi
 
-Mostra come impostare lo zoom predefinito applicato da un lettore all'apertura di un documento PDF sottoposto a rendering.
+Mostra come impostare lo zoom predefinito che un lettore applica quando apre un documento PDF renderizzato.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 // Imposta la proprietà "ZoomBehavior" su "PdfZoomBehavior.ZoomFactor" per ottenere un lettore PDF
-// applica un fattore di zoom basato su percentuale quando apriamo il documento con esso.
-// Imposta la proprietà "ZoomFactor" su "25" per assegnare al fattore di zoom un valore del 25%.
+// applichiamo un fattore di zoom percentuale quando apriamo il documento con esso.
+// Impostare la proprietà "ZoomFactor" su "25" per assegnare al fattore di zoom un valore del 25%.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,
     ZoomFactor = 25
 };
 
-// Quando apriamo questo documento utilizzando un lettore come Adobe Acrobat, vedremo il documento ridimensionato a 1/4 della sua dimensione effettiva.
+// Quando apriamo questo documento utilizzando un lettore come Adobe Acrobat, lo vedremo ridimensionato a 1/4 delle sue dimensioni reali.
 doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ```
 

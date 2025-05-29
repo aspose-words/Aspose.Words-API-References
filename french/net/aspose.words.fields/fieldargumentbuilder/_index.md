@@ -3,16 +3,16 @@ title: FieldArgumentBuilder Class
 linktitle: FieldArgumentBuilder
 articleTitle: FieldArgumentBuilder
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldArgumentBuilder classe. Construit un argument de champ complexe composé de champs de nœuds et de texte brut en C#.
+description: Découvrez la classe Aspose.Words.Fields.FieldArgumentBuilder pour créer sans effort des arguments de champ complexes avec des nœuds et du texte pour une automatisation améliorée des documents.
 type: docs
-weight: 1550
+weight: 1960
 url: /fr/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
 
-Construit un argument de champ complexe composé de champs, de nœuds et de texte brut.
+Crée un argument de champ complexe composé de champs, de nœuds et de texte brut.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldArgumentBuilder
@@ -34,14 +34,14 @@ public class FieldArgumentBuilder
 
 ## Exemples
 
-Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
-// 1 - Champ unique :
-// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
+// Vous trouverez ci-dessous trois exemples de construction de champs réalisée à l'aide d'un générateur de champs.
+// 1 - Champ unique :
+// Utilisez un générateur de champs pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -52,7 +52,7 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Champ imbriqué :
-// Utilisez un générateur de champ pour créer un champ de formule utilisé comme champ interne par un autre générateur de champ.
+// Utilisez un générateur de champs pour créer un champ de formule utilisé comme champ interne par un autre générateur de champs.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
@@ -65,13 +65,13 @@ builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
 // Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
+// qui fera que le champ affichera le symbole ® (signe enregistré) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
-// en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
-// qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
+// selon la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
+// qui détermine quelle chaîne le champ IF affiche, le champ IF testera deux expressions numériques pour l'égalité.
 // Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
@@ -83,7 +83,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Ensuite, nous allons construire deux arguments de champ, qui serviront de chaînes de sortie vrai/faux pour le champ IF.
+// Ensuite, nous allons créer deux arguments de champ, qui serviront de chaînes de sortie vrai/faux pour le champ IF.
 // Ces arguments réutiliseront les valeurs de sortie de nos expressions numériques.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -95,7 +95,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

@@ -3,14 +3,14 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words för .NET
-description: IChartDataPoint Explosion fast egendom. Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram i C#.
+description: Upptäck egenskapen IChartDataPoint Explosion för cirkeldiagram. Kontrollera datapunktspositionering med precision – förbättra din visuella databerättelse idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ, negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram.
+Anger hur mycket datapunkten ska flyttas från cirkeldiagrammets mitt. Kan vara negativ, negativ betyder att egenskapen inte är angiven och ingen explosion ska tillämpas. Gäller endast cirkeldiagram.
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## Exempel
 
-Visar hur man flyttar skivorna i ett cirkeldiagram bort från mitten.
+Visar hur man flyttar utdelningssegmenten i ett cirkeldiagram bort från mitten.
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// "Slices" av ett cirkeldiagram kan flyttas bort från mitten ett avstånd via respektive datapunkts Explosion-attribut.
-// Lägg till en datapunkt till den första delen av cirkeldiagrammet och flytta den bort från mitten med 10 punkter.
-// Aspose.Words skapar datapunkter automatiskt om de inte finns.
+// "Skivor" av ett cirkeldiagram kan flyttas bort från mitten med hjälp av respektive datapunkts Explosion-attribut.
+// Lägg till en datapunkt i den första delen av cirkeldiagrammet och flytta den 10 punkter bort från mitten.
+// Aspose.Words skapar datapunkter automatiskt om de inte existerar.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 

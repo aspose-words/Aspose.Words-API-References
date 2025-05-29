@@ -3,7 +3,7 @@ title: FieldRef
 linktitle: FieldRef
 articleTitle: FieldRef
 second_title: Aspose.Words لـ .NET
-description: FieldRef البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldRef، المُنشئ الافتراضي الأساسي لمعالجة البيانات بكفاءة في تطبيقاتك. بسّط برمجة أعمالك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldref/fieldref/

@@ -3,14 +3,14 @@ title: Paragraph.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
 second_title: Aspose.Words для .NET
-description: Paragraph IsDeleteRevision свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений на С#.
+description: Откройте для себя свойство IsDeleteRevision в Microsoft Word. Узнайте, как оно указывает на удаления во время отслеживания изменений для эффективного управления документами.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -18,7 +18,7 @@ public bool IsDeleteRevision { get; }
 
 ## Примеры
 
-Показывает, как работать с абзацами исправлений.
+Показывает, как работать с абзацами пересмотра.
 
 ```csharp
 Document doc = new Document();
@@ -29,15 +29,15 @@ para.AppendChild(new Run(doc, "Paragraph 1. "));
 body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
-// Вышеуказанные абзацы не являются изменениями.
-// Абзацы, которые мы добавляем после запуска отслеживания версий, будут регистрироваться как «Вставить» версии.
+// Вышеприведенные абзацы не являются изменениями.
+// Абзацы, которые мы добавляем после начала отслеживания изменений, будут зарегистрированы как «Вставленные» изменения.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Абзацы, которые мы удаляем после запуска отслеживания версий, будут регистрироваться как «Удалить» версии.
+// Абзацы, которые мы удаляем после начала отслеживания изменений, будут зарегистрированы как «Удаленные» изменения.
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -45,17 +45,17 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Такие абзацы останутся до тех пор, пока мы не примем или не отклоним удаление ревизии.
-// Принятие изменения приведет к удалению абзаца навсегда,
-// и отклонение ревизии оставит ее в документе, как если бы мы ее никогда не удаляли.
+// Такие абзацы останутся до тех пор, пока мы не примем или не отклоним удаление исправлений.
+// Принятие изменения удалит абзац навсегда,
+// и отклонение исправления оставит его в документе, как будто мы его никогда не удаляли.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Принимаем редакцию и затем проверяем, что абзаца больше нет.
+// Примите изменение, а затем убедитесь, что абзац удален.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

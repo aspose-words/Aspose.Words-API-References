@@ -3,16 +3,16 @@ title: FieldEnd Class
 linktitle: FieldEnd
 articleTitle: FieldEnd
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldEnd clase. Representa el final de un campo de Word en un documento en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldEnd, que maneja de manera eficiente las finales de los campos de Word en los documentos, mejorando sus capacidades de procesamiento de documentos.
 type: docs
-weight: 1860
+weight: 2270
 url: /es/net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
 
 Representa el final de un campo de Word en un documento.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldEnd : FieldChar
@@ -22,25 +22,25 @@ public class FieldEnd : FieldChar
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica un identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
-| [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Devuelve el tipo de campo. |
+| [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Devuelve el tipo del campo. |
 | [Font](../../aspose.words/inline/font/) { get; } | Proporciona acceso al formato de fuente de este objeto. |
-| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | Devoluciones`verdadero`si este campo tiene un separador. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
+| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | Devuelve`verdadero` si este campo tiene un separador. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve`verdadero` si este nodo puede contener otros nodos. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas al documento. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras estaba habilitado el seguimiento de cambios. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Obtiene o establece si el campo principal está bloqueado (no debe volver a calcular su resultado). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words.fields/fieldend/nodetype/) { get; } | DevolucionesFieldEnd . |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Obtiene o establece si el campo principal está bloqueado (no debe recalcular su resultado). |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devuelve`verdadero` Si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devuelve`verdadero` Si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo inmediatamente siguiente a este nodo. |
+| override [NodeType](../../aspose.words.fields/fieldend/nodetype/) { get; } | DevuelveFieldEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../../aspose.words/paragraph/) de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/)objeto que representa la porción de un documento que está contenida en este nodo. |
 
 ## Métodos
 
@@ -49,22 +49,22 @@ public class FieldEnd : FieldChar
 | override [Accept](../../aspose.words.fields/fieldend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer ancestro del tipo de objeto especificado. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Devuelve un campo para el campo char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo de recorrido del árbol de preorden. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo en una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo en una cadena utilizando las opciones de guardado especificadas. |
 
 ## Observaciones
 
-`FieldEnd` es un nodo de nivel en línea y representado por el[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) carácter de control en el documento.
+`FieldEnd` es un nodo de nivel en línea y está representado por el[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) carácter de control en el documento.
 
 `FieldEnd` sólo puede ser hijo de[`Paragraph`](../../aspose.words/paragraph/).
 
-Un campo completo en un documento de Microsoft Word es una estructura compleja que consta de un carácter de inicio de campo, un código de campo, un carácter separador de campo, un resultado de campo y un carácter de fin de campo. Algunos campos solo tienen inicio de campo, código de campo y final de campo.
+Un campo completo en un documento de Microsoft Word es una estructura compleja que consta de un carácter de inicio, un código, un separador, un resultado y un final. Algunos campos solo tienen inicio, código y final.
 
 Para insertar fácilmente un nuevo campo en un documento, utilice el[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Método .
 
@@ -90,7 +90,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // Iterar sobre la colección de campos e imprimir el contenido y el tipo
     // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -115,7 +115,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implementación del visitante del documento que imprime la información del campo.
+/// Implementación del documento de visitante que imprime información del campo.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -125,7 +125,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

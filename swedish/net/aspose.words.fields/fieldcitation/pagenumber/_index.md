@@ -3,14 +3,14 @@ title: FieldCitation.PageNumber
 linktitle: PageNumber
 articleTitle: PageNumber
 second_title: Aspose.Words för .NET
-description: FieldCitation PageNumber fast egendom. Hämtar eller ställer in ett sidnummer kopplat till citatet i C#.
+description: Hantera dina citat enkelt med egenskapen FieldCitation PageNumber. Ställ enkelt in eller hämta sidnummer för korrekt referenshantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcitation/pagenumber/
 ---
 ## FieldCitation.PageNumber property
 
-Hämtar eller ställer in ett sidnummer kopplat till citatet.
+Hämtar eller anger ett sidnummer associerat med hänvisningen.
 
 ```csharp
 public string PageNumber { get; set; }
@@ -18,19 +18,19 @@ public string PageNumber { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
+Visar hur man arbetar med fälten CITATION och BIBLIOGRAFI.
 
 ```csharp
 // Öppna ett dokument som innehåller bibliografiska källor som vi kan hitta i
-// Microsoft Word via referenser -> Citat & Bibliografi -> Hantera källor.
+// Microsoft Word via referenser -> Citat och bibliografi -> Hantera källor.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// Skapa ett citat med bara sidnumret och författaren till den refererade boken.
+// Skapa en hänvisning med bara sidnumret och författaren till den refererade boken.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// Vi hänvisar till källor med deras taggnamn.
+// Vi hänvisar till källor med hjälp av deras taggnamn.
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -39,7 +39,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// Skapa ett mer detaljerat citat som citerar två källor.
+// Skapa en mer detaljerad hänvisning som citerar två källor.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -56,12 +56,14 @@ fieldCitation.VolumeNumber = "VII";
 
 Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
 
-// Vi kan använda ett BIBLIOGRAFI-fält för att visa alla källor i dokumentet.
+// Vi kan använda ett fält för BIBLIOGRAFI för att visa alla källor i dokumentet.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
 fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

@@ -3,9 +3,9 @@ title: Style.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: Style Remove метод. Удаляет указанный стиль из документа на С#.
+description: Без усилий удалите нежелательные стили из вашего документа с помощью метода Style Remove. Улучшите внешний вид вашего контента и поддерживайте его согласованность!
 type: docs
-weight: 190
+weight: 230
 url: /ru/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -18,15 +18,15 @@ public void Remove()
 
 ## Примечания
 
-Удаление стиля влияет на модель документа следующим образом:
+Удаление стиля оказывает следующее влияние на модель документа:
 
-* Все ссылки на стиль удалены из соответствующих параграфов, строк и таблиц.
+* Все ссылки на стиль удаляются из соответствующих абзацев, разделов и таблиц.
 * Если базовый стиль удален, его форматирование переносится в дочерние стили.
 * Если удаляемый стиль имеет связанный стиль, то удаляются оба стиля.
 
 ## Примеры
 
-Показывает, как создать и применить собственный стиль.
+Показывает, как создать и применить пользовательский стиль.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Применяем один из стилей документа к абзацу, который создает конструктор документов.
+// Применить один из стилей документа к абзацу, создаваемому конструктором документа.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -48,7 +48,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Удаляем наш собственный стиль из коллекции стилей документа.
+// Удаляем наш пользовательский стиль из коллекции стилей документа.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

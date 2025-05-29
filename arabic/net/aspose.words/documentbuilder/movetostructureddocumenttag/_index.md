@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToStructuredDocumentTag
 linktitle: MoveToStructuredDocumentTag
 articleTitle: MoveToStructuredDocumentTag
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToStructuredDocumentTag طريقة. ينقل المؤشر إلى علامة مستند منظمة في القسم الحالي في C#.
+description: انتقل بسهولة إلى علامات المستندات المنظمة باستخدام طريقة MoveToStructuredDocumentTag في DocumentBuilder، مما يعزز كفاءة تحرير المستندات لديك.
 type: docs
-weight: 580
+weight: 620
 url: /ar/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
 ## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
-ينقل المؤشر إلى علامة مستند منظمة في القسم الحالي.
+يحرك المؤشر إلى علامة مستند منظمة في القسم الحالي.
 
 ```csharp
 public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)
@@ -18,39 +18,39 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| structuredDocumentTagIndex | Int32 | فهرس علامة الوثيقة المنظمة للانتقال إليها. |
-| characterIndex | Int32 | فهرس الحرف الموجود داخل علامة المستند المنظم. تتيح لك القيمة السالبة تحديد موضع من نهاية علامة المستند المنظم. استخدم -1 to للانتقال إلى نهاية علامة المستند المنظمة. إذا كانت علامة المستند المنظم على مستوى الكتلة، وكنت تريد نقل المؤشر إلى نهاية الفقرة الأخيرة، فحدد -2. |
+| structuredDocumentTagIndex | Int32 | فهرس علامة المستند المنظم الذي سيتم الانتقال إليه. |
+| characterIndex | Int32 | فهرس الحرف داخل وسم المستند المنظم. . تتيح لك القيمة السالبة تحديد موضع من نهاية وسم المستند المنظم. استخدم -1 للانتقال إلى نهاية وسم المستند المنظم. إذا كان وسم المستند المنظم على مستوى الكتلة، وكنت ترغب في نقل المؤشر إلى نهاية فقرته الأخيرة، فحدد -2. |
 
 ## ملاحظات
 
-يتم التنقل داخل القصة الحالية للقسم الحالي. أي أنه إذا قمت بنقل المؤشر إلى الرأس الأساسي للقسم الأول، إذن*structuredDocumentTagIndex*حدد فهرس علامة المستند المنظم داخل رأس هذا القسم.
+يتم التنقل داخل القصة الحالية للقسم الحالي. أي، إذا نقلتَ مؤشر x000d_ إلى العنوان الرئيسي للقسم الأول،*structuredDocumentTagIndex* قام بتحديد فهرس علامة المستند المنظم داخل رأس هذا القسم.
 
-متى*structuredDocumentTagIndex* أكبر من أو يساوي 0، فإنه يحدد مؤشر من بداية القسم حيث يكون 0 أول علامة مستند منظمة. متى *structuredDocumentTagIndex* أقل من 0، فقد حددت فهرسًا من نهاية القسم مع كون -1 آخر علامة مستند منظمة.
+متى*structuredDocumentTagIndex* عندما يكون أكبر من أو يساوي 0، فإنه يحدد index من بداية القسم، حيث يكون 0 هو أول علامة مستند منظمة. When *structuredDocumentTagIndex*أقل من 0، فقد حدد فهرسًا من نهاية قسم مع كون -1 هو علامة المستند المنظم الأخيرة.
 
 ## أمثلة
 
-يوضح كيفية تحريك مؤشر DocumentBuilder داخل علامة مستند منظمة.
+يوضح كيفية نقل مؤشر DocumentBuilder داخل علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // هناك عدة طرق لتحريك المؤشر:
-// 1 - انتقل إلى الحرف الأول من علامة المستند المنظم حسب الفهرس.
+// 1 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الفهرس.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - انتقل إلى الحرف الأول من علامة الوثيقة المنظمة حسب الكائن.
+// 2 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الكائن.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - انتقل إلى نهاية علامة المستند المنظمة الثانية.
+// 3 - الانتقال إلى نهاية علامة المستند المنظم الثانية.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// احصل على علامة المستند المنظمة المحددة حاليًا.
+// احصل على علامة المستند المنظم المحددة حاليًا.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 ## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
-يحرك المؤشر إلى علامة الوثيقة المنظمة.
+يحرك المؤشر إلى علامة المستند المنظم.
 
 ```csharp
 public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, 
@@ -75,33 +75,33 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| structuredDocumentTag | StructuredDocumentTag | علامة الوثيقة المنظمة للانتقال إليها. |
-| characterIndex | Int32 | فهرس الحرف الموجود داخل علامة المستند المنظم. تتيح لك القيمة السالبة تحديد موضع من نهاية علامة المستند المنظم. استخدم -1 to للانتقال إلى نهاية علامة المستند المنظمة. إذا كانت علامة المستند المنظم على مستوى الكتلة، وكنت تريد نقل المؤشر إلى نهاية الفقرة الأخيرة، فحدد -2. |
+| structuredDocumentTag | StructuredDocumentTag | علامة المستند المنظم الذي سيتم الانتقال إليه. |
+| characterIndex | Int32 | فهرس الحرف داخل وسم المستند المنظم. . تتيح لك القيمة السالبة تحديد موضع من نهاية وسم المستند المنظم. استخدم -1 للانتقال إلى نهاية وسم المستند المنظم. إذا كان وسم المستند المنظم على مستوى الكتلة، وكنت ترغب في نقل المؤشر إلى نهاية فقرته الأخيرة، فحدد -2. |
 
 ## أمثلة
 
-يوضح كيفية تحريك مؤشر DocumentBuilder داخل علامة مستند منظمة.
+يوضح كيفية نقل مؤشر DocumentBuilder داخل علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // هناك عدة طرق لتحريك المؤشر:
-// 1 - انتقل إلى الحرف الأول من علامة المستند المنظم حسب الفهرس.
+// 1 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الفهرس.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - انتقل إلى الحرف الأول من علامة الوثيقة المنظمة حسب الكائن.
+// 2 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الكائن.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - انتقل إلى نهاية علامة المستند المنظمة الثانية.
+// 3 - الانتقال إلى نهاية علامة المستند المنظم الثانية.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// احصل على علامة المستند المنظمة المحددة حاليًا.
+// احصل على علامة المستند المنظم المحددة حاليًا.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");

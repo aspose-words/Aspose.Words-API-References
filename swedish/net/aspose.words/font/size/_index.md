@@ -3,14 +3,14 @@ title: Font.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words för .NET
-description: Font Size fast egendom. Hämtar eller ställer in teckenstorleken i poäng i C#.
+description: Justera teckenstorleken enkelt med egenskapen Teckenstorlek. Anpassa din text i punkter för förbättrad läsbarhet och designtiltalande effekt.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-Hämtar eller ställer in teckenstorleken i poäng.
+Hämtar eller ställer in teckenstorleken i punkter.
 
 ```csharp
 public double Size { get; set; }
@@ -18,7 +18,7 @@ public double Size { get; set; }
 
 ## Exempel
 
-Visar hur man formaterar en serie text med dess teckensnittsegenskap.
+Visar hur man formaterar en textsekvens med hjälp av dess font-egenskap.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Visar hur man infogar formaterad text med DocumentBuilder.
+Visar hur man infogar formaterad text med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

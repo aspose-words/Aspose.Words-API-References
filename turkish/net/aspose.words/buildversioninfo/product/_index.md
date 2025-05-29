@@ -2,8 +2,8 @@
 title: BuildVersionInfo.Product
 linktitle: Product
 articleTitle: Product
-second_title: Aspose.Words for .NET
-description: BuildVersionInfo Product mülk. Ürünün tam adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamanızın performansını ve kullanıcı deneyimini geliştirmek için tam ürün adını kolayca almak üzere BuildVersionInfo Ürün özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/buildversioninfo/product/
@@ -18,7 +18,7 @@ public static string Product { get; }
 
 ## Örnekler
 
-Aspose.Words'ün kurulu sürümü hakkındaki bilgilerin nasıl görüntüleneceğini gösterir.
+Yüklü Aspose.Words sürümünüz hakkında bilgilerin nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

@@ -3,9 +3,9 @@ title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: FontInfo Name propriété. Obtient le nom de la police en C#.
+description: Découvrez la propriété FontInfo Name pour accéder et utiliser facilement les noms de polices pour une typographie améliorée dans vos projets.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
@@ -18,7 +18,7 @@ public string Name { get; }
 
 ## Remarques
 
-C'est pas possible`nul`. Peut être une chaîne vide.
+Ne peut pas être`nul`. Peut être une chaîne vide.
 
 ## Exemples
 
@@ -28,7 +28,7 @@ Montre comment imprimer les détails des polices présentes dans un document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Imprime toutes les polices utilisées et inutilisées dans le document.
+// Imprimez toutes les polices utilisées et non utilisées dans le document.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

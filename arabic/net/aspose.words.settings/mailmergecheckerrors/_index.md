@@ -3,14 +3,14 @@ title: MailMergeCheckErrors Enum
 linktitle: MailMergeCheckErrors
 articleTitle: MailMergeCheckErrors
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors تعداد. يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء المكتشفة أثناء دمج البريد في C#.
+description: اكتشف كيف يعمل Aspose.Words.MailMergeCheckErrors enum على تعزيز عملية دمج البريد لديك من خلال الإبلاغ بكفاءة عن أخطاء Microsoft Word لإنشاء مستندات سلسة.
 type: docs
-weight: 5810
+weight: 6640
 url: /ar/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء المكتشفة أثناء دمج البريد.
+يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء التي تم اكتشافها أثناء دمج البريد.
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -20,14 +20,14 @@ public enum MailMergeCheckErrors
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Simulate | `1` | محاكاة أخطاء الدمج والإبلاغ في مستند جديد. |
-| PauseOnError | `2` | أكمل الدمج وتوقف مؤقتًا للإبلاغ عن الأخطاء. |
+| Simulate | `1` | محاكاة الدمج والإبلاغ عن الأخطاء في مستند جديد. |
+| PauseOnError | `2` | أكمل الدمج وأوقف مؤقتًا للإبلاغ عن الأخطاء. |
 | CollectErrors | `3` | أكمل عملية الدمج والإبلاغ عن الأخطاء في مستند جديد. |
 | Default | `2` | يساويPauseOnError القيمة. |
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -40,9 +40,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

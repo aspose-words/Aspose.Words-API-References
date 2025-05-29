@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
 second_title: Aspose.Words för .NET
-description: DocumentBuilder CurrentStory fast egendom. Hämtar berättelsen som för närvarande är vald i dennaDocumentBuilder  i C#.
+description: Upptäck DocumentBuilder CurrentStory-egenskapen för att effektivt komma åt och hantera den valda artikeln, vilket förbättrar din dokumentredigeringsupplevelse.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Hämtar berättelsen som för närvarande är vald i denna[`DocumentBuilder`](../) .
+Hämtar berättelsen som för närvarande är vald i detta[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -18,13 +18,13 @@ public Story CurrentStory { get; }
 
 ## Exempel
 
-Visar hur man arbetar med en dokumentbyggares aktuella historia.
+Visar hur man arbetar med en dokumentbyggares aktuella berättelse.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// En berättelse är en typ av nod som har underordnade paragrafnoder, till exempel en Kropp.
+// En berättelse är en typ av nod som har underordnade styckenoder, till exempel en brödtext.
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);

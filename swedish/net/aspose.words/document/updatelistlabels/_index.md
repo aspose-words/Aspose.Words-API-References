@@ -3,9 +3,9 @@ title: Document.UpdateListLabels
 linktitle: UpdateListLabels
 articleTitle: UpdateListLabels
 second_title: Aspose.Words för .NET
-description: Document UpdateListLabels metod. Uppdaterar listetiketter för alla listobjekt i dokumentet i C#.
+description: Uppdatera enkelt alla listobjektsetiketter i ditt dokument med metoden UpdateListLabels, vilket säkerställer konsekvens och tydlighet i ditt innehåll.
 type: docs
-weight: 760
+weight: 820
 url: /sv/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -18,9 +18,9 @@ public void UpdateListLabels()
 
 ## Anmärkningar
 
-Denna metod uppdaterar listetikettegenskaper som t.ex[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) och [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) för varje[`ListLabel`](../../paragraph/listlabel/)objekt i dokumentet.
+Den här metoden uppdaterar listetikettegenskaper som till exempel[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) och [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) för varje[`ListLabel`](../../paragraph/listlabel/) objektet i dokumentet.
 
-Även denna metod kallas ibland implicit när fält i dokumentet uppdateras. Detta är required eftersom vissa fält som kan referera till listnummer (som TOC eller REF) behöver dem vara uppdaterade.
+Dessutom anropas ibland den här metoden implicit när fält i dokumentet uppdateras. Detta är required eftersom vissa fält som kan referera till listnummer (som TOC eller REF) behöver vara uppdaterade.
 
 ## Exempel
 
@@ -32,21 +32,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Hitta om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
+// Se om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
 // som börjar vid tre och slutar vid sex.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Det här är texten vi får när vi matar ut den här noden till textformat.
-     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
+    // Detta är texten vi får när vi skriver ut noden i textformat.
+     // Denna textutdata kommer att utelämna listetiketter. Beskär alla tecken för styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Detta får styckets position på den aktuella nivån i listan. Om vi har en lista med flera nivåer,
-    // detta kommer att berätta vilken position det är på den nivån.
+    // Detta hämtar styckets position på listans aktuella nivå. Om vi har en lista med flera nivåer,
+    // detta kommer att berätta för oss vilken position den är på den nivån.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Kombinera dem för att inkludera listetiketten med texten i utdata.

@@ -3,9 +3,9 @@ title: Document.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words per .NET
-description: Document NodeType proprietà. RestituisceDocument  in C#.
+description: Esplora la proprietà Document NodeType per sbloccare i dettagli essenziali dei documenti e migliorare la gestione dei dati. Scopri i suoi vantaggi oggi stesso!
 type: docs
-weight: 280
+weight: 290
 url: /it/net/aspose.words/document/nodetype/
 ---
 ## Document.NodeType property
@@ -25,15 +25,15 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Qualsiasi nodo che può contenere nodi secondari, come il documento stesso, è composito.
+    // Qualsiasi nodo che può contenere nodi figlio, come il documento stesso, è composito.
     Assert.True(doc.IsComposite);
 
-    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figli di un nodo composito.
+    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figlio di un nodo composito.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Attraversa ricorsivamente un albero di nodi durante la stampa del tipo di ciascun nodo
+/// Attraversa ricorsivamente un albero di nodi mentre stampa il tipo di ciascun nodo
 /// con un rientro che dipende dalla profondità e dal contenuto di tutti i nodi in linea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Ricorsione nel nodo se è un nodo composito. Altrimenti, stampa il suo contenuto se è un nodo in linea.
+        // Ricorsiva nel nodo se è un nodo composito. Altrimenti, ne stampa il contenuto se è un nodo inline.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

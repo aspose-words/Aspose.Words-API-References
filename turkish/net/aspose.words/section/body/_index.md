@@ -2,15 +2,15 @@
 title: Section.Body
 linktitle: Body
 articleTitle: Body
-second_title: Aspose.Words for .NET
-description: Section Body mülk. Şunu döndürürBody bölümün alt düğümü C#'da.
+second_title: .NET için Aspose.Words
+description: Web geliştirmenizi kolaylaştırılmış içerik yönetimiyle geliştirerek, Body alt düğümünü alan Section Body özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-Şunu döndürür:[`Body`](../../body/) bölümün alt düğümü.
+şunu döndürür:[`Body`](../../body/) bölümün alt düğümü.
 
 ```csharp
 public Body Body { get; }
@@ -18,40 +18,40 @@ public Body Body { get; }
 
 ## Notlar
 
-[`Body`](../../body/) bölümün ana metnini içerir.
+[`Body`](../../body/) Bölümün ana metnini içerir.
 
-İadeler`hükümsüz` eğer bölüm yoksa[`Body`](../../body/) çocukları arasındaki düğüm.
+İade`hükümsüz` eğer bölümde yoksa[`Body`](../../body/) Çocukları arasında bir düğüm.
 
 ## Örnekler
 
-Belgedeki tüm bölümlerdeki ana metni, bölümleri bırakarak temizler.
+Belgenin tüm bölümlerindeki ana metni temizler, bölümlerin kendisini bırakır.
 
 ```csharp
 Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bu gövdenin çocuğu yok, dolayısıyla ona henüz çalıştırma ekleyemiyoruz.
+// Bu gövdenin çocuğu yok, bu yüzden henüz ona koşu ekleyemiyoruz.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
  // Bu gövdenin en az bir boş paragraf içerdiğinden emin olmak için "EnsureMinimum"u çağırın.
 body.EnsureMinimum();
 
-// Artık gövdeye çalıştırmalar ekleyebilir ve belgenin bunları görüntülemesini sağlayabiliriz.
+// Şimdi gövdeye çalıştırmalar ekleyebilir ve bunları görüntüleyecek belgeyi alabiliriz.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

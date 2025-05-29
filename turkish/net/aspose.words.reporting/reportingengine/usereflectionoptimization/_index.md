@@ -2,15 +2,15 @@
 title: ReportingEngine.UseReflectionOptimization
 linktitle: UseReflectionOptimization
 articleTitle: UseReflectionOptimization
-second_title: Aspose.Words for .NET
-description: ReportingEngine UseReflectionOptimization mülk. Yansıma APIsi aracılığıyla gerçekleştirilen özel tür üyelerinin çağrılarının dinamik sınıf oluşturma kullanılarak optimize edilip edilmediğini gösteren bir değer alır veya ayarlar. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: ReportingEngine'in UseReflectionOptimization özelliği ile özel tip üye çağrılarını optimize edin. Daha iyi verimlilik için dinamik sınıf oluşturma ile performansı artırın.
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/aspose.words.reporting/reportingengine/usereflectionoptimization/
 ---
 ## ReportingEngine.UseReflectionOptimization property
 
-Yansıma API'si aracılığıyla gerçekleştirilen özel tür üyelerinin çağrılarının dinamik sınıf oluşturma kullanılarak optimize edilip edilmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`doğru` .
+Yansıma API'si aracılığıyla gerçekleştirilen özel tür üyelerinin çağrılarının dinamik sınıf oluşturma kullanılarak optimize edilip edilmediğini belirten bir değer alır veya ayarlar. Varsayılan değer`doğru` .
 
 ```csharp
 public static bool UseReflectionOptimization { get; set; }
@@ -18,7 +18,7 @@ public static bool UseReflectionOptimization { get; set; }
 
 ## Notlar
 
-Bu optimizasyonun devre dışı bırakılmasının tercih edilebileceği bazı senaryolar vardır. Örneğin, her zaman küçük veri öğeleri koleksiyonlarıyla ile uğraşıyorsanız, dinamik sınıf oluşturmanın ek yükü, doğrudan yansıma API çağrılarının ek yükünden daha fazla fark edilebilir. Seçeneğin çalıştırıldığında etkisi yoktur. iOS ve yansıma optimizasyonu kullanılmaz.
+Bu optimizasyonu devre dışı bırakmanın tercih edildiği bazı senaryolar vardır. Örneğin, sürekli olarak küçük veri öğeleri koleksiyonlarıyla uğraşıyorsanız, dinamik sınıf oluşturmanın yükü doğrudan yansıma API çağrılarının yükünden daha belirgin olabilir. Bu seçenek iOS'ta çalıştırıldığında ve yansıma optimizasyonu kullanılmadığında etkili olmaz.
 
 ### Ayrıca bakınız
 

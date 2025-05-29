@@ -2,8 +2,8 @@
 title: WarningInfo.Source
 linktitle: Source
 articleTitle: Source
-second_title: 用于 .NET 的 Aspose.Words
-description: WarningInfo Source 财产. 返回警告的来源 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现揭示警告来源的WarningInfo Source属性，增强应用程序的可靠性和用户体验。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/warninginfo/source/
@@ -14,6 +14,24 @@ url: /zh/net/aspose.words/warninginfo/source/
 
 ```csharp
 public WarningSource Source { get; }
+```
+
+## 例子
+
+展示如何使用警告源。
+
+```csharp
+Document doc = new Document(MyDir + "Emphases markdown warning.docx");
+
+WarningInfoCollection warnings = new WarningInfoCollection();
+doc.WarningCallback = warnings;
+doc.Save(ArtifactsDir + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
+
+foreach (WarningInfo warningInfo in warnings)
+{
+    if (warningInfo.Source == WarningSource.Markdown)
+        Assert.AreEqual("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.Description);
+}
 ```
 
 ### 也可以看看

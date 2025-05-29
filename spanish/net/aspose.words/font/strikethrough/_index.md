@@ -3,14 +3,14 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words para .NET
-description: Font StrikeThrough propiedad. Verdadero si la fuente tiene el formato de texto tachado en C#.
+description: Descubra la propiedad Tachado de fuente. Tache fácilmente el texto para lograr un énfasis visual claro en sus diseños. ¡Mejore la legibilidad hoy mismo!
 type: docs
-weight: 390
+weight: 400
 url: /es/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-Verdadero si la fuente tiene el formato de texto tachado.
+Verdadero si la fuente está formateada como texto tachado.
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## Ejemplos
 
-Muestra cómo agregar una línea tachada al texto.
+Muestra cómo agregar un tachado de línea al texto.
 
 ```csharp
 Document doc = new Document();

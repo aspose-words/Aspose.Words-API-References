@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertHyperlink طريقة. إدراج ارتباط تشعبي في المستند في C#.
+description: قم بتعزيز مستنداتك باستخدام طريقة InsertHyperlink في DocumentBuilder، وقم بإضافة روابط قابلة للنقر بسهولة لتحسين التنقل وإشراك المستخدم.
 type: docs
-weight: 360
+weight: 390
 url: /ar/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -18,21 +18,41 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| displayText | String | نص الرابط الذي سيتم عرضه في الوثيقة. |
-| urlOrBookmark | String | وجهة الارتباط. يمكن أن يكون عنوان url أو اسم إشارة مرجعية داخل المستند. تضيف هذه الطريقة دائمًا الفواصل العليا في بداية ونهاية عنوان url. |
+| displayText | String | نص الرابط الذي سيتم عرضه في المستند. |
+| urlOrBookmark | String | وجهة الرابط. يمكن أن يكون عنوان URL أو اسم إشارة مرجعية داخل المستند. تُضيف هذه الطريقة دائمًا علامات اقتباس في بداية ونهاية عنوان URL. |
 | isBookmark | Boolean | `حقيقي` إذا كانت المعلمة السابقة عبارة عن اسم إشارة مرجعية داخل المستند؛ `خطأ شنيع` المعلمة السابقة هي عنوان URL. |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
+أ[`Field`](../../../aspose.words.fields/field/) الكائن الذي يمثل الحقل المدرج.
 
 ## ملاحظات
 
-لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي صريح باستخدام ملف[`Font`](../font/) ملكية.
+لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي صراحةً باستخدام[`Font`](../font/) ملكية.
 
-هذه الأساليب تدعو داخليا[`InsertField`](../insertfield/) لإدراج حقل MS Word HYPERLINK field في المستند.
+هذه الأساليب تدعو داخليًا[`InsertField`](../insertfield/)لإدراج حقل الارتباط التشعبي MS Word في المستند.
 
 ## أمثلة
+
+يوضح كيفية إدراج حقل ارتباط تشعبي.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("For more information, please visit the ");
+
+//أدرج ارتباطًا تشعبيًا وأبرزه باستخدام التنسيق المخصص.
+// سيكون الرابط التشعبي عبارة عن جزء نصي قابل للنقر والذي سيأخذنا إلى الموقع المحدد في عنوان URL.
+builder.Font.Color = Color.Blue;
+builder.Font.Underline = Underline.Single;
+builder.InsertHyperlink("Google website", "https://www.google.com"، خطأ);
+builder.Font.ClearFormatting();
+builder.Writeln(".");
+
+// الضغط على Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سيأخذنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
+```
 
 يوضح كيفية إدراج ارتباط تشعبي يشير إلى إشارة مرجعية محلية.
 
@@ -45,36 +65,17 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// أدخل حقل الارتباط التشعبي الذي يرتبط بالإشارة المرجعية. يمكننا تمرير مفاتيح المجال
-// إلى أسلوب "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية.
+// أدخل حقل ارتباط تشعبي (HYPERLINK) يربط بالإشارة المرجعية. يمكننا تمرير مفاتيح الحقول
+// إلى طريقة "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
-يوضح كيفية إدراج حقل الارتباط التشعبي.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("For more information, please visit the ");
-
-// أدخل ارتباطًا تشعبيًا وقم بإبرازه بتنسيق مخصص.
-// سيكون الارتباط التشعبي عبارة عن جزء من النص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
-builder.Font.Color = Color.Blue;
-builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com"، خطأ);
-builder.Font.ClearFormatting();
-builder.Writeln(".");
-
-// Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
-```
-
-يوضح كيفية استخدام مكدس التنسيق الخاص بمنشئ المستندات.
+يوضح كيفية استخدام مجموعة التنسيق الخاصة بمنشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -85,10 +86,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// الحفاظ على تكوين التنسيق الحالي لدينا على المكدس.
+//الحفاظ على تكوين التنسيق الحالي على المكدس.
 builder.PushFont();
 
-// قم بتغيير التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
+// تغيير تنسيق المنشئ الحالي من خلال تطبيق نمط جديد.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com"، خطأ);
 

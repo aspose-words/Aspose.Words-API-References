@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToField
 linktitle: MoveToField
 articleTitle: MoveToField
 second_title: Aspose.Words для .NET
-description: DocumentBuilder MoveToField метод. Перемещает курсор в поле документа на С#.
+description: Легко перемещайтесь по документам с помощью метода MoveToField в DocumentBuilder, который позволяет быстро перемещать курсор в любое поле для повышения эффективности редактирования.
 type: docs
-weight: 530
+weight: 570
 url: /ru/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
 
-Перемещает курсор в поле документа.
+Перемещает курсор в поле в документе.
 
 ```csharp
 public void MoveToField(Field field, bool isAfter)
@@ -18,12 +18,12 @@ public void MoveToField(Field field, bool isAfter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| field | Field | Поле, на которое необходимо переместить курсор. |
-| isAfter | Boolean | Когда`истинный` , перемещает курсор после конца поля. Когда`ЛОЖЬ`, перемещает курсор до начала поля. |
+| field | Field | Поле, в которое необходимо переместить курсор. |
+| isAfter | Boolean | Когда`истинный` , перемещает курсор в положение после конца поля. Когда`ЛОЖЬ`, перемещает курсор в положение перед началом поля. |
 
 ## Примеры
 
-Показывает, как переместить курсор точки вставки узла компоновщика документов в определенное поле.
+Показывает, как переместить курсор точки вставки узла конструктора документов в определенное поле.
 
 ```csharp
 Document doc = new Document();
@@ -32,16 +32,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Вставьте поле с помощью DocumentBuilder и добавьте после него текст.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// Курсор конструктора сейчас находится в конце документа.
+// Курсор конструктора в данный момент находится в конце документа.
 Assert.Null(builder.CurrentNode);
 
-// Переместите курсор в поле, указав, следует ли разместить этот курсор до или после поля.
+// Перемещаем курсор в поле, указывая, следует ли поместить курсор до или после поля.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // Обратите внимание, что в обоих случаях курсор находится за пределами поля.
-// Это означает, что мы не можем редактировать поле с помощью построителя таким образом.
-// Чтобы отредактировать поле, мы можем использовать метод компоновщика MoveTo для FieldStart поля.
-// или узел FieldSeparator, чтобы поместить внутрь курсор.
+// Это означает, что мы не можем редактировать поле с помощью конструктора таким образом.
+// Чтобы редактировать поле, мы можем использовать метод MoveTo конструктора для FieldStart поля
+// или узел FieldSeparator для размещения курсора внутри.
 if (moveCursorToAfterTheField)
 {
     Assert.Null(builder.CurrentNode);

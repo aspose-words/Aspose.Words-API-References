@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.SetUncheckedSymbol
 linktitle: SetUncheckedSymbol
 articleTitle: SetUncheckedSymbol
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag SetUncheckedSymbol 方法. 设置用于表示复选框内容控件的未选中状态的符号 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SetUncheckedSymbol 方法如何通过自定义复选框视觉效果来增强您的 StructuredDocumentTag，从而获得更好的用户体验。
 type: docs
-weight: 370
+weight: 390
 url: /zh/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
 
-设置用于表示复选框内容控件的未选中状态的符号。
+设置用于表示复选框内容控件未选中状态的符号。
 
 ```csharp
 public void SetUncheckedSymbol(int characterCode, string fontName)
@@ -19,7 +19,7 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | characterCode | Int32 | 指定符号的字符代码。 |
-| fontName | String | 包含符号的字体名称。 |
+| fontName | String | 包含该符号的字体的名称。 |
 
 ## 评论
 
@@ -36,7 +36,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
 // 我们可以设置用于表示复选框内容控件的选中/未选中状态的符号。
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");

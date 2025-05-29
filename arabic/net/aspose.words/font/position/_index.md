@@ -3,14 +3,14 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words لـ .NET
-description: Font Position ملكية. الحصول على أو تعيين موضع النص بالنقاط بالنسبة إلى السطر الأساسي. الرقم الموجب يرفع النص والرقم السالب يخفضه في C#.
+description: اكتشف خاصية موضع الخط، واضبط محاذاة النص بسهولة في نقاط للتحكم الدقيق في طباعتك. ارتقِ بتصميمك مع مرونة في المواضع!
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.words/font/position/
 ---
 ## Font.Position property
 
-الحصول على أو تعيين موضع النص (بالنقاط) بالنسبة إلى السطر الأساسي. الرقم الموجب يرفع النص، والرقم السالب يخفضه.
+يحصل على موضع النص (بالنقاط) أو يعينه بالنسبة لسطر الأساس. يرفع الرقم الموجب النص، ويخفضه الرقم السالب.
 
 ```csharp
 public double Position { get; set; }
@@ -18,32 +18,32 @@ public double Position { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق النص لتعويض موضعه.
+يوضح كيفية تنسيق النص لإزاحة موضعه.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// ارفع هذا المدى من النص بمقدار 5 نقاط فوق خط الأساس.
+// ارفع هذا النص بمقدار 5 نقاط فوق خط الأساس.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// قم بخفض هذا المدى من النص بمقدار 10 نقاط أسفل خط الأساس.
+// قم بخفض هذا النص بمقدار 10 نقاط أسفل خط الأساس.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
 
-// أضف سلسلة من النص العادي.
+//أضف سلسلة من النص العادي.
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// أضف مجموعة من النص الذي يظهر كخط منخفض.
+//أضف سلسلة من النص تظهر على شكل خط سفلي.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// أضف سلسلة من النص تظهر كخط مرتفع.
+//أضف سلسلة من النص تظهر كنص علوي.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

@@ -3,14 +3,14 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words لـ .NET
-description: Document PackageCustomParts ملكية. الحصول على أو تعيين مجموعة الأجزاء المخصصة محتوى عشوائي المرتبطة بحزمة OOXML باستخدام علاقات غير معروفة في C#.
+description: أدر الأجزاء المخصصة في حزمة OOXML الخاصة بك بسهولة. تمتع بالوصول إلى المحتوى المرتبط وتعديله بسهولة لتحسين مرونة المستندات ووظائفها.
 type: docs
-weight: 310
+weight: 320
 url: /ar/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-الحصول على أو تعيين مجموعة الأجزاء المخصصة (محتوى عشوائي) المرتبطة بحزمة OOXML باستخدام "علاقات غير معروفة".
+يحصل على مجموعة الأجزاء المخصصة (المحتوى التعسفي) المرتبطة بحزمة OOXML باستخدام "علاقات غير معروفة" أو يعينها.
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -18,9 +18,9 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## ملاحظات
 
-لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة، فاستخدم ملف[`CustomXmlParts`](../customxmlparts/) ملكية.
+لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة، فاستخدم [`CustomXmlParts`](../customxmlparts/) ملكية.
 
-تحتوي هذه المجموعة على أجزاء OOXML أصلها هو حزمة OOXML وأهدافها ذات "علاقة غير معروفة". لمزيد من المعلومات راجع[`CustomPart`](../../../aspose.words.markup/custompart/).
+تحتوي هذه المجموعة على أجزاء OOXML التي يكون أصلها عبارة عن حزمة OOXML وتكون أهدافها ذات "علاقة غير معروفة". لمزيد من المعلومات، راجع[`CustomPart`](../../../aspose.words.markup/custompart/).
 
 يقوم Aspose.Words بتحميل الأجزاء المخصصة وحفظها في مستندات OOXML فقط.
 
@@ -28,19 +28,19 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -57,7 +57,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

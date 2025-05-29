@@ -2,8 +2,8 @@
 title: ConvertUtil.PointToInch
 linktitle: PointToInch
 articleTitle: PointToInch
-second_title: 用于 .NET 的 Aspose.Words
-description: ConvertUtil PointToInch 方法. 将点转换为英寸 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ConvertUtil 的 PointToInch 方法轻松将磅转换为英寸。立即简化您的测量并提升设计精度！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/convertutil/pointtoinch/
@@ -26,13 +26,13 @@ public static double PointToInch(double points)
 
 ## 例子
 
-显示如何指定以英寸为单位的页面属性。
+显示如何以英寸为单位指定页面属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 部分的“页面设置”定义页边距的大小（以磅为单位）。
+// 部分“页面设置”定义页边距的大小（以点为单位）。
 // 我们还可以使用“ConvertUtil”类来使用更熟悉的测量单位，
 // 例如定义边界时的英寸。
 PageSetup pageSetup = builder.PageSetup;
@@ -45,7 +45,7 @@ pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// 添加内容以演示新的边距。
+// 添加内容来演示新的边距。
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

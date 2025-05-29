@@ -3,7 +3,7 @@ title: VbaModuleCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: VbaModuleCollection Remove метод. Удаляет указанный модуль из коллекции на С#.
+description: Легко удаляйте определенные модули из VbaModuleCollection с помощью нашего простого в использовании метода Remove. Оптимизируйте свои проекты VBA сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +18,7 @@ public void Remove(VbaModule module)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| module | VbaModule | Модуль, который нужно удалить. |
+| module | VbaModule | Модуль для удаления. |
 
 ## Примеры
 
@@ -33,14 +33,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
+// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

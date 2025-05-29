@@ -2,15 +2,15 @@
 title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
-second_title: Aspose.Words for .NET
-description: RevisionGroup Author mülk. Bu revizyon grubunun yazarını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Her revizyon grubunun yazarını kolayca belirlemek için RevisionGroup Author özelliğini keşfedin ve belge yönetimi verimliliğinizi artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Bu revizyon grubunun yazarını döndürür.
+Bu revizyon grubunun yazarını alır.
 
 ```csharp
 public string Author { get; }
@@ -18,7 +18,7 @@ public string Author { get; }
 
 ## Örnekler
 
-Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubuyla ilgili bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

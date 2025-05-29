@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToMergeField
 linktitle: MoveToMergeField
 articleTitle: MoveToMergeField
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder MoveToMergeField méthode. Déplace le curseur vers une position juste audelà du champ de fusion spécifié et supprime le champ de fusion en C#.
+description: Parcourez votre document sans effort grâce à la méthode MoveToMergeField. Positionnez instantanément le curseur au-delà des champs de fusion pour une édition fluide.
 type: docs
-weight: 550
+weight: 590
 url: /fr/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(*string*) {#movetomergefield}
@@ -18,11 +18,11 @@ public bool MoveToMergeField(string fieldName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldName | String | Le nom du champ de fusion et de publipostage ne respectant pas la casse. |
+| fieldName | String | Le nom insensible à la casse du champ de publipostage. |
 
 ### Return_Value
 
-`vrai` si le champ de fusion a été trouvé et le curseur a été déplacé ;`FAUX` sinon.
+`vrai` si le champ de fusion a été trouvé et que le curseur a été déplacé ;`FAUX` sinon.
 
 ## Remarques
 
@@ -36,7 +36,7 @@ Montre comment remplir les MERGEFIELD avec des données avec un générateur de 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère des MERGEFIELDS, qui acceptent les données des colonnes du même nom dans une source de données lors d'un publipostage,
+// Insérer des MERGEFIELDS, qui acceptent les données des colonnes du même nom dans une source de données lors d'un publipostage,
 // puis remplissez-les manuellement.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
@@ -57,7 +57,7 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
+Montre comment insérer des champs de formulaire à cocher dans MERGEFIELDs en tant que données de fusion lors du publipostage.
 
 ```csharp
 public void InsertCheckBox()
@@ -65,8 +65,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utiliser les MERGEFIELD avec les balises "TableStart"/"TableEnd" pour définir une région de publipostage
-    // qui appartient à une source de données nommée "StudentCourse" et possède un MERGEFIELD qui accepte les données d'une colonne nommée "CourseName".
+    // Utilisez MERGEFIELDs avec les balises « TableStart »/« TableEnd » pour définir une région de publipostage
+    // qui appartient à une source de données nommée « StudentCourse » et possède un MERGEFIELD qui accepte les données d'une colonne nommée « CourseName ».
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -104,7 +104,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur du champ correspondant est "Cours n".
+            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur de champ correspondante est « Cours n ».
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -114,7 +114,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 
     private int mCheckBoxCount;
@@ -156,17 +156,17 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldName | String | Le nom du champ de fusion et de publipostage ne respectant pas la casse. |
-| isAfter | Boolean | Quand`vrai` , déplace le curseur après la fin du champ. Lorsque`FAUX` , déplace le curseur avant le début du champ. |
+| fieldName | String | Le nom insensible à la casse du champ de publipostage. |
+| isAfter | Boolean | Quand`vrai` , déplace le curseur pour qu'il soit après la fin du champ. Lorsque`FAUX` , déplace le curseur avant le début du champ. |
 | isDeleteField | Boolean | Quand`vrai`, supprime le champ de fusion. |
 
 ### Return_Value
 
-`vrai` si le champ de fusion a été trouvé et le curseur a été déplacé ;`FAUX` sinon.
+`vrai` si le champ de fusion a été trouvé et que le curseur a été déplacé ;`FAUX` sinon.
 
 ## Exemples
 
-Montre comment insérer des champs et y déplacer le curseur du générateur de documents.
+Montre comment insérer des champs et déplacer le curseur du générateur de documents vers eux.
 
 ```csharp
 Document doc = new Document();
@@ -177,14 +177,14 @@ builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 // Déplacez le curseur vers le premier MERGEFIELD.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// Notez que le curseur est placé immédiatement après le premier MERGEFIELD, et avant le second.
+// Notez que le curseur est placé immédiatement après le premier MERGEFIELD et avant le second.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Si l'on souhaite éditer le code du champ ou son contenu à l'aide du builder,
+// Si nous souhaitons modifier le code ou le contenu du champ à l'aide du générateur,
 // son curseur devrait être à l'intérieur d'un champ.
-// Pour le placer dans un champ, il faudrait appeler la méthode MoveTo du générateur de documents
-// et passe le nœud de début ou de séparation du champ comme argument.
+// Pour le placer dans un champ, nous devrions appeler la méthode MoveTo du générateur de documents
+// et passez le nœud de début ou de séparation du champ comme argument.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");

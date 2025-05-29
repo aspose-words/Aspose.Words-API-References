@@ -3,14 +3,14 @@ title: FieldIncludeText.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words для .NET
-description: FieldIncludeText TextConverter свойство. Получает или задает имя преобразователя текста для формата включенного файла на С#.
+description: Откройте для себя свойство FieldIncludeText TextConverter, чтобы легко управлять именами текстовых конвертеров для ваших включенных форматов файлов. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldincludetext/textconverter/
 ---
 ## FieldIncludeText.TextConverter property
 
-Получает или задает имя преобразователя текста для формата включенного файла.
+Возвращает или задает имя текстового преобразователя для формата включенного файла.
 
 ```csharp
 public string TextConverter { get; set; }
@@ -18,7 +18,7 @@ public string TextConverter { get; set; }
 
 ## Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены два способа использования полей INCLUDETEXT для отображения содержимого XML-файла в локальной файловой системе.
-    // 1 — выполнить XSL-преобразование XML-документа:
+    // 1 — Выполнить XSL-преобразование XML-документа:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2. Используйте XPath для получения определенных элементов из XML-документа:
+    // 2 — Используйте XPath для извлечения определенных элементов из XML-документа:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле INCLUDETEXT с настраиваемыми свойствами.
+/// Используйте конструктор документов для вставки поля INCLUDETEXT с пользовательскими свойствами.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

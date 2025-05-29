@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words für .NET
-description: XamlFlowSaveOptions ImagesFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein XAMLDokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die ImagesFolderAlias-Eigenschaft von XamlFlowSaveOptions, um Bild-URI-Pfade in XAML-Dokumenten anzupassen. Optimieren Sie Ihre Projekte ganz einfach!
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -18,17 +18,17 @@ public string ImagesFolderAlias { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im XAML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ImagesFolder`](../imagesfolder/) Mit können Sie angeben, wo die Bilder gespeichert werden`ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im XAML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ImagesFolder`](../imagesfolder/) ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und`ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn`ImagesFolderAlias` kein leerer String ist, dann wird der Bild-URI in XAML geschrieben ImagesFolderAlias + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias` ist keine leere Zeichenfolge, dann wird die Bild-URI geschrieben zu XAML wirdImagesFolderAlias + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias`eine leere Zeichenfolge ist, wird der Bild-URI in XAML geschriebenImagesFolder + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias` ist eine leere Zeichenfolge, dann wird die Bild-URI, die in XAML geschrieben wird,ImagesFolder + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias` ist eingestellt auf '.' (Punkt), dann wird der Bilddateiname unabhängig von anderen Optionen ohne Pfad in XAML geschrieben.
+Wenn`ImagesFolderAlias` auf „.“ (Punkt) gesetzt ist, wird der Bilddateiname ohne Pfad in XAML geschrieben, unabhängig von anderen Optionen.
 
 ## Beispiele
 
-Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in Flow-Form .xaml erstellt wurden.
+Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in das Flow-Format .xaml erstellt wurden.
 
 ```csharp
 public void ImageFolder()
@@ -43,7 +43,7 @@ public void ImageFolder()
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Mit der Eigenschaft „ImagesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
+    // Verwenden Sie die Eigenschaft "ImagesFolder", um einen Ordner im lokalen Dateisystem zuzuweisen, in den
     // Aspose.Words speichert alle verknüpften Bilder des Dokuments.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
@@ -64,7 +64,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Zählt und druckt Dateinamen von Bildern, während das übergeordnete Dokument in Flow-Form .xaml konvertiert wird.
+/// Zählt und druckt Dateinamen von Bildern, während ihr übergeordnetes Dokument in das Flow-Format .xaml konvertiert wird.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -78,7 +78,7 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Wenn wir einen Bildordner-Alias angeben würden, würden wir auch Folgendes benötigen
+        // Wenn wir einen Alias für den Bildordner angeben würden, bräuchten wir auch
         // um jeden Stream umzuleiten, um sein Bild im Alias-Ordner abzulegen.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;

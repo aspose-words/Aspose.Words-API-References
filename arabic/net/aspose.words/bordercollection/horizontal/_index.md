@@ -3,14 +3,14 @@ title: BorderCollection.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Horizontal ملكية. يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة في C#.
+description: اكتشف خاصية BorderCollection الأفقية لحدود الخلايا والفقرات المتناسقة. حسّن تصميمك بمحاذاة وأسلوب مثاليين!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة.
+يحصل على الحدود الأفقية المستخدمة بين الخلايا أو الفقرات المتوافقة.
 
 ```csharp
 public Border Horizontal { get; }
@@ -18,36 +18,36 @@ public Border Horizontal { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق الإعدادات على الحدود الأفقية على تنسيق الفقرة.
+يوضح كيفية تطبيق الإعدادات على الحدود الأفقية لتنسيق الفقرة.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء حد أفقي أحمر للفقرة. أي فقرات تم إنشاؤها بعد ذلك سوف ترث إعدادات الحدود هذه.
+// أنشئ حدودًا أفقية حمراء للفقرة. أي فقرات تُنشأ بعد ذلك سترث إعدادات الحدود هذه.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
 // اكتب نصًا في المستند دون إنشاء فقرة جديدة بعد ذلك.
-// نظرًا لعدم وجود فقرة أسفلها، لن يكون الحد الأفقي مرئيًا.
+// نظرًا لعدم وجود فقرة أسفلها، فلن يكون الحد الأفقي مرئيًا.
 builder.Write("Paragraph above horizontal border.");
 
-// بمجرد إضافة فقرة ثانية، ستصبح حدود الفقرة الأولى مرئية.
+// بمجرد أن نضيف فقرة ثانية، ستصبح حدود الفقرة الأولى مرئية.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-يوضح كيفية تطبيق الإعدادات على الحدود الرأسية على تنسيق صف الجدول.
+يوضح كيفية تطبيق الإعدادات على الحدود الرأسية لتنسيق صف الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ جدولًا بحدود داخلية حمراء وزرقاء.
+// قم بإنشاء جدول بحدود داخلية باللونين الأحمر والأزرق.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -60,12 +60,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // اضبط مظهر الحدود التي ستظهر بين الصفوف.
+    //ضبط مظهر الحدود التي ستظهر بين الصفوف.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // اضبط مظهر الحدود التي ستظهر بين الخلايا.
+    //ضبط مظهر الحدود التي ستظهر بين الخلايا.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

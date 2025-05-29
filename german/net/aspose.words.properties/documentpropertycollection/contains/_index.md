@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words für .NET
-description: DocumentPropertyCollection Contains methode. Gibt zurückWAHR wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist in C#.
+description: Ermitteln Sie mit unserer effizienten Contains-Methode, ob eine Eigenschaft in DocumentPropertyCollection vorhanden ist. Vereinfachen Sie noch heute Ihr Datenmanagement!
 type: docs
 weight: 40
 url: /de/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Gibt zurück`WAHR` wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist.
+Rückgaben`WAHR` wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist.
 
 ```csharp
 public bool Contains(string name)
@@ -18,11 +18,11 @@ public bool Contains(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name der Eigenschaft, bei dem die Groß-/Kleinschreibung nicht berücksichtigt wird. |
+| name | String | Der Name der Eigenschaft (ohne Berücksichtigung der Groß-/Kleinschreibung). |
 
 ### Rückgabewert
 
-`WAHR` wenn die Eigenschaft in der Sammlung vorhanden ist;`FALSCH` ansonsten.
+`WAHR` ob die Eigenschaft in der Sammlung vorhanden ist;`FALSCH` ansonsten.
 
 ## Beispiele
 
@@ -52,18 +52,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
+// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
+// Diese benutzerdefinierten Eigenschaften finden wir in Microsoft Word über „Datei“ -> „Eigenschaften“ > „Erweiterte Eigenschaften“ > „Benutzerdefiniert“.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
-// 1 - Nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument aufgeführt.
+// 1 - Entfernen nach Index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -75,7 +75,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 – Die gesamte Sammlung auf einmal leeren:
+// 3 - Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

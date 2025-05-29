@@ -2,10 +2,10 @@
 title: TextFormFieldType Enum
 linktitle: TextFormFieldType
 articleTitle: TextFormFieldType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.TextFormFieldType 枚举. 指定文本表单字段的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.TextFormFieldType 枚举，定义各种文本表单字段类型，以增强文档自动化和定制。
 type: docs
-weight: 2770
+weight: 3180
 url: /zh/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
@@ -24,8 +24,8 @@ public enum TextFormFieldType
 | Number | `1` | 文本表单字段只能包含数字。 |
 | Date | `2` | 文本表单字段只能包含有效的日期值。 |
 | CurrentDate | `3` | 文本表单字段值是字段更新时的当前日期。 |
-| CurrentTime | `4` | 文本表单字段值是该字段更新的当前时间。 |
-| Calculated | `5` | 文本表单字段值是根据 中指定的表达式计算的[`TextInputDefault`](../formfield/textinputdefault/)属性. |
+| CurrentTime | `4` | 文本表单字段值为字段更新的当前时间。 |
+| Calculated | `5` | 文本表单字段值是根据 中指定的表达式计算得出的[`TextInputDefault`](../formfield/textinputdefault/)属性. |
 
 ## 例子
 
@@ -35,7 +35,7 @@ public enum TextFormFieldType
 DocumentBuilder builder = new DocumentBuilder();
 
 // 表单字段是文档中的对象，用户可以通过提示输入值来与之交互。
-// 我们可以使用文档生成器创建它们，下面是两种方法。
+// 我们可以使用文档构建器创建它们，下面是两种方法。
 // 1 - 基本文本输入：
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);

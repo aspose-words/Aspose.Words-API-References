@@ -3,14 +3,14 @@ title: ListLevel.TextPosition
 linktitle: TextPosition
 articleTitle: TextPosition
 second_title: Aspose.Words för .NET
-description: ListLevel TextPosition fast egendom. Returnerar eller ställer in positionen i punkter för den andra radbrytningstexten för listnivån i C#.
+description: Upptäck egenskapen ListLevel TextPosition för att enkelt justera den andra radens position i punkter för förbättrad listformatering och tydlighet.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.lists/listlevel/textposition/
 ---
 ## ListLevel.TextPosition property
 
-Returnerar eller ställer in positionen (i punkter) för den andra radbrytningstexten för listnivån.
+Returnerar eller anger positionen (i punkter) för den andra raden med radbrytande text för listnivån.
 
 ```csharp
 public double TextPosition { get; set; }
@@ -18,20 +18,20 @@ public double TextPosition { get; set; }
 
 ## Anmärkningar
 
-`TextPosition` motsvarar LeftIndent i stycket.
+`TextPosition` motsvarar vänsterindraget i stycket.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

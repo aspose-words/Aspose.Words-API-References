@@ -3,14 +3,14 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words para .NET
-description: List HasSameTemplate método. Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir de la misma plantilla en C#.
+description: Descubra el método HasSameTemplate, verifique fácilmente si dos listas comparten la misma plantilla, asegurando consistencia y eficiencia en la gestión de sus datos.
 type: docs
 weight: 120
 url: /es/net/aspose.words.lists/list/hassametemplate/
 ---
 ## List.HasSameTemplate method
 
-Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir de la misma plantilla.
+Devuelve verdadero si la lista actual y la lista dada se crean a partir de la misma plantilla.
 
 ```csharp
 public bool HasSameTemplate(List other)

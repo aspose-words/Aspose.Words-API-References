@@ -2,15 +2,15 @@
 title: Table.AutoFit
 linktitle: AutoFit
 articleTitle: AutoFit
-second_title: 用于 .NET 的 Aspose.Words
-description: Table AutoFit 方法. 根据指定的自动调整行为调整表格和单元格的大小 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格自动调整方法，轻松调整表格和单元格大小，实现最佳布局。轻松提升文档的呈现效果！
 type: docs
-weight: 360
+weight: 380
 url: /zh/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
 
-根据指定的自动调整行为调整表格和单元格的大小。
+根据指定的自动适应行为调整表格和单元格的大小。
 
 ```csharp
 public void AutoFit(AutoFitBehavior behavior)
@@ -18,15 +18,15 @@ public void AutoFit(AutoFitBehavior behavior)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| behavior | AutoFitBehavior | 指定如何自动调整表格。 |
+| behavior | AutoFitBehavior | 指定如何自动适应表格。 |
 
 ## 评论
 
-此方法模仿 Microsoft Word 中表格的“自动调整”菜单中可用的命令。 可用的命令是“自动调整到内容”、“自动调整到窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 会为您执行相同的操作。
+此方法模拟了 Microsoft Word 中表格“自动调整”菜单中的可用命令。 可用的命令包括“自动调整至内容”、“自动调整至窗口”和“固定列宽”。在 Microsoft Word 中，这些命令会设置相关的表格属性，然后更新表格布局，Aspose.Words 也会为您执行相同的操作。
 
 ## 例子
 
-演示如何在应用样式时构建新表格。
+展示如何在应用样式的同时构建新表。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.InsertCell();
 // 请注意，保存为 .doc 格式时并非所有表格样式都可用。
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// 根据谓词将样式部分应用到表的特征，然后构建表。
+// 根据谓词将样式部分应用于表的特征，然后构建表。
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

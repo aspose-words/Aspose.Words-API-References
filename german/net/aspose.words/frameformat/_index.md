@@ -3,9 +3,9 @@ title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words für .NET
-description: Aspose.Words.FrameFormat klas. Stellt die rahmenbezogene Formatierung für einen Absatz dar in C#.
+description: Entdecken Sie die Aspose.Words.FrameFormat-Klasse für erweiterte Rahmenformatierung in Absätzen. Optimieren Sie Ihr Dokumentdesign durch nahtlose Integration und Flexibilität.
 type: docs
-weight: 3070
+weight: 3500
 url: /de/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -20,24 +20,24 @@ public class FrameFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../aspose.words/frameformat/height/) { get; } | Ruft die Höhe des angegebenen Frames ab. |
-| [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab. |
-| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Ruft die horizontale Ausrichtung des angegebenen Frames ab. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Ermittelt den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkten. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Ruft den horizontalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element ab[`RelativeHorizontalPosition`](./relativehorizontalposition/) Eigenschaft. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Gibt zurück`WAHR` wenn der Absatz ein Frame ist. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Ermittelt die relative horizontale Position eines Frames. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Ermittelt die relative vertikale Position eines Frames. |
-| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Ruft die vertikale Ausrichtung des angegebenen Frames ab. |
+| [Height](../../aspose.words/frameformat/height/) { get; } | Ruft die Höhe des angegebenen Rahmens ab. |
+| [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Ruft die Regel zum Bestimmen der Höhe des angegebenen Rahmens ab. |
+| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Ruft die horizontale Ausrichtung des angegebenen Rahmens ab. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Ruft den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkten ab. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Ermittelt den horizontalen Abstand zwischen der Kante des Rahmens und dem durch den[`RelativeHorizontalPosition`](./relativehorizontalposition/) Eigenschaft. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Rückgaben`WAHR` wenn der Absatz ein Rahmen ist. |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Ruft die relative horizontale Position eines Frames ab. |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Ruft die relative vertikale Position eines Frames ab. |
+| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Ruft die vertikale Ausrichtung des angegebenen Rahmens ab. |
 | [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Gibt den vertikalen Abstand (in Punkten) zwischen einem Rahmen und dem umgebenden Text an. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element ab[`RelativeVerticalPosition`](./relativeverticalposition/) Eigenschaft. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ermittelt den vertikalen Abstand zwischen dem Rand des Rahmens und dem durch den[`RelativeVerticalPosition`](./relativeverticalposition/) Eigenschaft. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Ruft die Breite des angegebenen Rahmens in Punkten ab. |
 
 ## Bemerkungen
 
-Dieses Objekt wird immer erstellt. Wenn es sich bei einem Absatz um einen Rahmen handelt, enthalten alle Eigenschaften entsprechende Werte, andernfalls werden alle Eigenschaften auf ihre Standardwerte gesetzt.
+Dieses Objekt wird immer erstellt. Handelt es sich bei einem Absatz um einen Rahmen, enthalten alle Eigenschaften entsprechende Werte, andernfalls werden alle Eigenschaften auf ihre Standardwerte gesetzt.
 
-Verwenden[`IsFrame`](./isframe/) um zu prüfen, ob der Absatz ein Rahmen ist.
+Verwenden[`IsFrame`](./isframe/)um zu prüfen, ob der Absatz ein Rahmen ist.
 
 ## Beispiele
 

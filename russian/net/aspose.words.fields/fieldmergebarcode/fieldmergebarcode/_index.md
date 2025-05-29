@@ -3,7 +3,7 @@ title: FieldMergeBarcode
 linktitle: FieldMergeBarcode
 articleTitle: FieldMergeBarcode
 second_title: Aspose.Words для .NET
-description: FieldMergeBarcode строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldMergeBarcode для бесшовной интеграции. Разблокируйте мощные функции и улучшите свои проекты без усилий!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/

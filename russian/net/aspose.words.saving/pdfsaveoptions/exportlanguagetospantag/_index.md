@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 linktitle: ExportLanguageToSpanTag
 articleTitle: ExportLanguageToSpanTag
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions ExportLanguageToSpanTag свойство. Получает или задает значение определяющее следует ли создавать тег Span в структуре документа для экспорта текстового языка на С#.
+description: Откройте для себя свойство ExportLanguageToSpanTag в PdfSaveOptions. Управляйте экспортом языка текста с помощью тегов Span для улучшения структуры документа и доступности.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
 
-Получает или задает значение, определяющее, следует ли создавать тег «Span» в структуре документа для экспорта текстового языка.
+Возвращает или задает значение, определяющее, следует ли создавать тег «Span» в структуре документа для экспорта языка текста.
 
 ```csharp
 public bool ExportLanguageToSpanTag { get; set; }
@@ -18,11 +18,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ## Примечания
 
-Значение по умолчанию:`ЛОЖЬ`а атрибут «Lang» прикрепляется к последовательности маркированного контента в потоке контента страницы.
+Значение по умолчанию:`ЛОЖЬ`Атрибут «Lang» прикрепляется к последовательности маркированного содержимого в потоке содержимого страницы.
 
-Когда значение`истинный` Тег «Span» создается для текста с языком не по умолчанию , и к этому тегу прикреплен атрибут «Lang».
+Когда значение равно`истинный` Тег «Span» создается для текста с нестандартным языком language , и к этому тегу присоединяется атрибут «Lang».
 
-Это значение игнорируется, если[`ExportDocumentStructure`](../exportdocumentstructure/) является`ЛОЖЬ` .
+Это значение игнорируется, когда[`ExportDocumentStructure`](../exportdocumentstructure/) является`ЛОЖЬ` .
 
 ## Примеры
 
@@ -37,7 +37,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // Обратите внимание: если «ExportDocumentStructure» имеет значение false, «ExportLanguageToSpanTag» игнорируется.
+    // Обратите внимание: если "ExportDocumentStructure" имеет значение false, "ExportLanguageToSpanTag" игнорируется.
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

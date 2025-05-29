@@ -3,16 +3,16 @@ title: FramesetCollection Class
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Framesets.FramesetCollection clase. Representa una colección de instancias delFrameset clase en C#.
+description: Descubra la clase FramesetCollection de Aspose.Words, su solución ideal para administrar múltiples instancias de Frameset sin esfuerzo en el procesamiento de documentos.
 type: docs
-weight: 3090
+weight: 3520
 url: /es/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
-Representa una colección de instancias del[`Frameset`](../frameset/) clase.
+Representa una colección de instancias de la[`Frameset`](../frameset/) clase.
 
-Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) Artículo de documentación.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>
@@ -28,14 +28,37 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.framesets/framesetcollection/count/) { get; } | Obtiene el número de cuadros o páginas de cuadros contenidos en la colección. |
-| [Item](../../aspose.words.framesets/framesetcollection/item/) { get; } | Obtiene un marco o una página de marcos en el índice especificado. |
+| [Count](../../aspose.words.framesets/framesetcollection/count/) { get; } | Obtiene el número de marcos o páginas de marcos contenidos en la colección. |
+| [Item](../../aspose.words.framesets/framesetcollection/item/) { get; } | Obtiene una página de marco o marcos en el índice especificado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Devuelve un enumerador que recorre en iteración la colección. |
+| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Devuelve un enumerador que itera a través de la colección. |
+
+## Ejemplos
+
+Muestra cómo acceder a los marcos en la página.
+
+```csharp
+//El documento contiene varios marcos con enlaces a otros documentos.
+Document doc = new Document(MyDir + "Frameset.docx");
+
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+//Podemos comprobar la URL predeterminada (la URL de una página web o un documento local) o si el marco es un recurso externo.
+Assert.AreEqual("https://archivo-ejemplos-com.github.io/uploads/2017/02/archivo-muestra_100kB.docx",
+    doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
+Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
+
+Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
+Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
+
+// Cambiar las propiedades de uno de nuestros marcos.
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
+```
 
 ### Ver también
 

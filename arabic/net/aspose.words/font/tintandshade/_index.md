@@ -3,28 +3,35 @@ title: Font.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words لـ .NET
-description: Font TintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه في C#.
+description: اكتشف خاصية Font TintAndShade لتعديل الألوان بسهولة! خفّض أو غمّق درجات الألوان لتصاميم نابضة بالحياة. حسّن مشاريعك بسهولة!
 type: docs
-weight: 520
+weight: 530
 url: /ar/net/aspose.words/font/tintandshade/
 ---
 ## Font.TintAndShade property
 
-الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه.
+يحصل على قيمة مزدوجة لتفتيح اللون أو تعتيمه أو تعيينها.
 
 ```csharp
 public double TintAndShade { get; set; }
 ```
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentOutOfRangeException | قم بالرمي إذا قمت بتعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1. |
+| InvalidOperationException | قم برمي إذا قمت بتعيين هذه الخاصية لـ[`Font`](../) كائن بألوان غير موضوعية. |
+
 ## ملاحظات
 
-تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
+تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية.
 
-تعيين هذه الخاصية ل[`Font`](../) كائن ذو ألوان غير موضوعية يؤدي إلى aInvalidOperationException.
+الصفر (0) محايد.
 
 ## أمثلة
 
-يوضح كيفية إنشاء واستخدام النمط الموضوعي.
+يوضح كيفية إنشاء النمط الموضوعي واستخدامه.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +39,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// قم بإنشاء نمط ما باستخدام خصائص خط السمة.
+// قم بإنشاء بعض الأنماط باستخدام خصائص الخط الخاص بالموضوع.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

@@ -1,7 +1,9 @@
 ---
 title: Section.AcceptStart
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. 
+linktitle: AcceptStart
+articleTitle: AcceptStart
+second_title: Aspose.Words för .NET
+description: Lås upp sömlös integration med AcceptStart-metoden. Förbättra ditt arbetsflöde och öka effektiviteten med våra expertlösningar idag!
 type: docs
 weight: 90
 url: /sv/net/aspose.words/section/acceptstart/
@@ -17,7 +19,5 @@ public override VisitorAction AcceptStart(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

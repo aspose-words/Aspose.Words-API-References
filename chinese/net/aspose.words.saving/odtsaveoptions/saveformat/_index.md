@@ -2,15 +2,15 @@
 title: OdtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: OdtSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 可以Odt或者Ott 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 OdtSaveOptions SaveFormat 属性如何让您轻松地以 Odt 或 Ott 格式保存文档，确保兼容性和灵活性。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words.saving/odtsaveoptions/saveformat/
 ---
 ## OdtSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时保存文档的格式。 可以Odt或者Ott.
+指定如果使用此保存选项对象，文档将以哪种格式保存。 可以是Odt或者Ott.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## 例子
 
-演示如何使用密码加密保存的 ODT/OTT 文档，然后使用 Aspose.Words 加载它。
+展示如何使用密码加密已保存的 ODT/OTT 文档，然后使用 Aspose.Words 加载它。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// 如果我们使用适当的编辑器打开此文档，
+// 如果我们用合适的编辑器打开这个文档，
 // 它将提示我们输入在 SaveOptions 对象中指定的密码。
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
@@ -41,7 +41,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // 如果我们希望使用 Aspose.Words 再次打开或编辑此文档，
-// 我们必须向加载构造函数提供带有正确密码的 LoadOptions 对象。
+// 我们必须向加载构造函数提供具有正确密码的 LoadOptions 对象。
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

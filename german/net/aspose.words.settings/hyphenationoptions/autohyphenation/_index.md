@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words für .NET
-description: HyphenationOptions AutoHyphenation eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die automatische Silbentrennung für das Dokument aktiviert ist. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
+description: Steuern Sie die automatische Silbentrennung mit der Eigenschaft „HyphenationOptions“. Verbessern Sie die Lesbarkeit Ihres Dokuments ganz einfach, indem Sie diese Funktion ein- oder ausschalten.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob die automatische Silbentrennung für das Dokument aktiviert ist. Der Standardwert für diese Eigenschaft ist`FALSCH` .
+Ruft den Wert ab oder legt ihn fest, der bestimmt, ob die automatische Silbentrennung für das Dokument aktiviert ist. Der Standardwert für diese Eigenschaft ist`FALSCH` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

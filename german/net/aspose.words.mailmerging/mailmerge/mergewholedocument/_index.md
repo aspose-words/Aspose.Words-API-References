@@ -3,14 +3,14 @@ title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
 second_title: Aspose.Words für .NET
-description: MailMerge MergeWholeDocument eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Felder im gesamten Dokument beim Ausführen eines Seriendrucks mit Regionen aktualisiert werden in C#.
+description: Entdecken Sie, wie die MailMerge-Eigenschaft „MergeWholeDocument“ alle Felder während eines regionsbasierten Seriendrucks aktualisiert und so die Effizienz und Genauigkeit Ihrer Dokumente verbessert.
 type: docs
 weight: 70
 url: /de/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob Felder im gesamten Dokument beim Ausführen eines Seriendrucks mit Regionen aktualisiert werden.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Felder im gesamten Dokument beim Ausführen eines Seriendrucks mit Regionen aktualisiert werden.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert ist`FALSCH` .
 
 ## Beispiele
 
-Zeigt die Beziehung zwischen Serienbriefen mit Regionen und der Feldaktualisierung.
+Zeigt die Beziehung zwischen Serienbriefen mit Regionen und Feldaktualisierungen.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -30,14 +30,14 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // Wenn wir das Flag „MergeWholeDocument“ auf „true“ setzen,
+    // Wenn wir das Flag "MergeWholeDocument" auf "true" setzen,
     // Der Serienbrief mit Regionen aktualisiert jedes Feld im Dokument.
-    // Wenn wir das Flag „MergeWholeDocument“ auf „false“ setzen, aktualisiert der Serienbrief nur Felder
+    // Wenn wir das Flag "MergeWholeDocument" auf "false" setzen, aktualisiert der Serienbrief nur die Felder
     // innerhalb des Serienbriefbereichs, dessen Name mit dem Namen der Datenquellentabelle übereinstimmt.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Der Seriendruck aktualisiert nur das QUOTE-Feld außerhalb des Seriendruckbereichs
+    // Der Serienbrief aktualisiert nur das Feld QUOTE außerhalb des Serienbriefbereichs
     // wenn wir das Flag „MergeWholeDocument“ auf „true“ setzen.
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
@@ -47,8 +47,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument mit einem Serienbriefbereich, der zu einer Datenquelle namens „MyTable“ gehört.
-/// Fügen Sie ein QUOTE-Feld innerhalb dieser Region und ein weiteres außerhalb dieser Region ein.
+/// Erstellen Sie ein Dokument mit einem Seriendruckbereich, der zu einer Datenquelle mit dem Namen „MyTable“ gehört.
+/// Fügen Sie innerhalb dieses Bereichs ein QUOTE-Feld und außerhalb ein weiteres ein.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -72,7 +72,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Erstellen Sie eine Datentabelle, die in einem Seriendruck verwendet wird.
+/// Erstellen Sie eine Datentabelle, die in einem Serienbrief verwendet wird.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

@@ -3,14 +3,14 @@ title: Stroke.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words für .NET
-description: Stroke Transparency eigendom. Ruft einen Wert zwischen 00 undurchsichtig und 10 klar ab oder legt diesen fest der den Grad der Transparenz des Strichs darstellt in C#.
+description: Passen Sie die Eigenschaft „Strichtransparenz“ an, um die Deckkraft von 0,0 (undurchsichtig) bis 1,0 (transparent) zu steuern und so die visuelle Wirkung Ihres Designs zu verbessern.
 type: docs
-weight: 190
+weight: 240
 url: /de/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-Ruft einen Wert zwischen 0,0 (undurchsichtig) und 1,0 (klar) ab oder legt diesen fest, der den Grad der Transparenz des Strichs darstellt.
+Ruft einen Wert zwischen 0,0 (undurchsichtig) und 1,0 (klar) ab oder legt ihn fest, der den Transparenzgrad des Strichs darstellt.
 
 ```csharp
 public double Transparency { get; set; }

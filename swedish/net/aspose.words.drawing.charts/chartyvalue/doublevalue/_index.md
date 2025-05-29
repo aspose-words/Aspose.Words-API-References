@@ -3,7 +3,7 @@ title: ChartYValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: Aspose.Words för .NET
-description: ChartYValue DoubleValue fast egendom. Hämtar det lagrade numeriska värdet i C#.
+description: Upptäck egenskapen ChartYValue DoubleValue för att enkelt hämta och använda lagrade numeriska värden för förbättrad datavisualisering och analys.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/doublevalue/

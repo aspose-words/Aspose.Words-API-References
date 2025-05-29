@@ -3,7 +3,7 @@ title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
 second_title: Aspose.Words pour .NET
-description: DocSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDoc format en C#.
+description: Découvrez le constructeur DocSaveOptions pour un enregistrement fluide de vos documents au format Doc. Améliorez votre flux de travail grâce à une gestion documentaire simple et efficace.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Définir un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
-// Notez que cela ne crypte en aucun cas le contenu du document.
+// Définissez un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
+// Notez que cela ne crypte en aucune façon le contenu du document.
 options.Password = "MyPassword";
 
-// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en mettant cet indicateur à true.
+// Si le document contient un bordereau d'acheminement, nous pouvons le conserver lors de l'enregistrement en définissant cet indicateur sur true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -77,11 +77,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Définir un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
-// Notez que cela ne crypte en aucun cas le contenu du document.
+// Définissez un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
+// Notez que cela ne crypte en aucune façon le contenu du document.
 options.Password = "MyPassword";
 
-// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en mettant cet indicateur à true.
+// Si le document contient un bordereau d'acheminement, nous pouvons le conserver lors de l'enregistrement en définissant cet indicateur sur true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

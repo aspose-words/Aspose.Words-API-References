@@ -3,14 +3,14 @@ title: FieldIndex.PageNumberSeparator
 linktitle: PageNumberSeparator
 articleTitle: PageNumberSeparator
 second_title: Aspose.Words для .NET
-description: FieldIndex PageNumberSeparator свойство. Получает или задает последовательность символов которая используется для разделения записи указателя и номера ее страницы на С#.
+description: Откройте для себя свойство FieldIndex PageNumberSeparator, легко настройте символ, разделяющий записи индекса от номеров страниц для большей ясности.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldindex/pagenumberseparator/
 ---
 ## FieldIndex.PageNumberSeparator property
 
-Получает или задает последовательность символов, которая используется для разделения записи указателя и номера ее страницы.
+Возвращает или задает последовательность символов, которая используется для разделения записи индекса и ее номера страницы.
 
 ```csharp
 public string PageNumberSeparator { get; set; }
@@ -24,23 +24,23 @@ public string PageNumberSeparator { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
+// Создайте поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
 // Каждая запись будет отображать значение свойства Text поля XE слева,
 // и номер страницы, содержащей поле XE справа.
-// Запись INDEX сгруппирует поля XE с совпадающими значениями в свойстве «Текст».
+// Запись INDEX сгруппирует поля XE с соответствующими значениями в свойстве «Текст»
 // в одну запись, а не вводить запись для каждого поля XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Если в нашем поле ИНДЕКС есть запись для группы полей XE,
-// эта запись будет отображать номер каждой страницы, содержащей поле XE, принадлежащее этой группе.
-// Мы можем установить собственные разделители, чтобы настроить внешний вид номеров страниц.
+// Если наше поле INDEX имеет запись для группы полей XE,
+// эта запись отобразит номер каждой страницы, содержащей поле XE, принадлежащее этой группе.
+// Мы можем установить пользовательские разделители, чтобы настроить внешний вид этих номеров страниц.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
 
 Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
 Assert.True(index.HasPageNumberSeparator);
 
-// После того, как мы вставим эти поля XE, в поле INDEX отобразится «Первая запись, на страницах 2, 3 и 4».
+// После вставки этих полей XE поле ИНДЕКС отобразит «Первая запись на страницах 2, 3 и 4».
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";

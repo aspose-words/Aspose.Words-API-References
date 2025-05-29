@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings ConnectString propriété. Spécifie la chaîne de connexion utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez comment la propriété ConnectString de MailMergeSettings est liée à des sources de données externes. Personnalisez facilement votre connexion pour une intégration fluide des données !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -18,7 +18,7 @@ public string ConnectString { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
+Montre comment exécuter un publipostage tout en se connectant à une source de données externe.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois que nous avons fait cela et enregistré le document,
+// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois cette opération effectuée et le document enregistré,
 // Microsoft Word n'exécutera plus de publipostage lorsque nous l'utiliserons pour charger le document.
 settings.Clear();
 

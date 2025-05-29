@@ -2,15 +2,15 @@
 title: FieldDatabase.Connection
 linktitle: Connection
 articleTitle: Connection
-second_title: Aspose.Words for .NET
-description: FieldDatabase Connection mülk. Verilere bağlantı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldDatabase Bağlantı özelliğiyle verilerinizi zahmetsizce yönetin. Sorunsuz veri entegrasyonu için bağlantıları kolayca alın veya ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddatabase/connection/
 ---
 ## FieldDatabase.Connection property
 
-Verilere bağlantı alır veya ayarlar.
+Verilere bir bağlantı alır veya ayarlar.
 
 ```csharp
 public string Connection { get; set; }
@@ -18,13 +18,13 @@ public string Connection { get; set; }
 
 ## Örnekler
 
-Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
+Bir veritabanından verinin nasıl çıkarılacağını ve bir belgeye alan olarak nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bu DATABASE alanı bir veritabanı üzerinde bir sorgu çalıştıracak ve sonucu bir tabloda görüntüleyecektir.
+// Bu DATABASE alanı bir veritabanında sorgu çalıştıracak ve sonucu bir tabloda gösterecektir.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -32,7 +32,7 @@ field.Query = "SELECT * FROM [Products]";
 
 Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Tüm ürünleri brüt satışlara göre azalan sırada sıralayan daha karmaşık bir sorgu içeren başka bir DATABASE alanı ekleyin.
+// Tüm ürünleri brüt satışlara göre azalan düzende sıralayan daha karmaşık bir sorgu içeren başka bir VERİ TABANI alanı ekleyin.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -43,19 +43,19 @@ field.Query =
     "GROUP BY[Products].ProductName " +
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
-// Bu özellikler LIMIT ve TOP cümleleriyle aynı işleve sahiptir.
-// Bunları, alanın tablosunda sorgu sonucunun yalnızca 1'den 10'a kadar olan satırlarını görüntüleyecek şekilde yapılandırın.
+// Bu özellikler LIMIT ve TOP ifadeleriyle aynı işleve sahiptir.
+// Sorgu sonucunun yalnızca 1 ila 10. satırlarını alanın tablosunda görüntüleyecek şekilde yapılandırın.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Bu özellik tablomuz için kullanmak istediğimiz formatın indeksidir. Tablo formatlarının listesi "Tablo Otomatik Formatı..." menüsündedir
-// Microsoft Word'de bir DATABASE alanı oluşturduğumuzda bu ortaya çıkıyor. Dizin #10 "Renkli 3" formatına karşılık gelir.
+// Bu özellik tablomuz için kullanmak istediğimiz biçimin dizinidir. Tablo biçimlerinin listesi "Tablo Otomatik Biçimlendirme..." menüsündedir
+// Microsoft Word'de bir DATABASE alanı oluşturduğumuzda ortaya çıkar. İndeks #10 "Renkli 3" formatına karşılık gelir.
 field.TableFormat = "10";
 
-// FormatAttribute özelliği, birden çok bayrağı saklayan bir tam sayının dize temsilidir.
-// Bu özellikte farklı flaglar ayarlayarak TableFormat özelliğinin işaret ettiği formatı patrially uygulayabiliriz.
-// Kullandığımız sayı, tablo stilinin farklı yönlerine karşılık gelen değerlerin birleşiminin toplamıdır.
-// 63, 1 (kenarlıklar) + 2 (gölgelendirme) + 4 (yazı tipi) + 8 (renk) + 16 (otomatik sığdırma) + 32 (başlık satırları) anlamına gelir.
+// FormatAttribute özelliği, birden fazla bayrağı depolayan bir tamsayının dize gösterimidir.
+// TableFormat özelliğinin işaret ettiği formatı, bu özelliğe farklı bayraklar ekleyerek patriyal olarak uygulayabiliriz.
+// Kullandığımız sayı, tablo stilinin farklı yönlerine karşılık gelen değerlerin birleşiminden oluşan bir sayıdır.
+// 63, 1 (kenarlıklar) + 2 (gölgelendirme) + 4 (yazı tipi) + 8 (renk) + 16 (otomatik sığdırma) + 32 (başlık satırları) değerini temsil eder.
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;

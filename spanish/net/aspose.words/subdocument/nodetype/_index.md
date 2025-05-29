@@ -3,14 +3,14 @@ title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words para .NET
-description: SubDocument NodeType propiedad. DevolucionesSubDocument  en C#.
+description: Descubra la propiedad SubDocument NodeType que devuelve de manera eficiente datos de SubDocument, mejorando sus capacidades de administración y procesamiento de documentos.
 type: docs
 weight: 10
 url: /es/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-DevolucionesSubDocument .
+DevuelveSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Ejemplos
 
-Muestra cómo acceder al subdocumento de un documento maestro.
+Muestra cómo acceder a un subdocumento de un documento maestro.
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");

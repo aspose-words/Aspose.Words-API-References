@@ -2,15 +2,15 @@
 title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBase WarningCallback 财产. 在检测到可能导致 数据或格式保真度损失的问题时在各种文档处理过程中调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 DocumentBase WarningCallback 属性，该属性通过检测潜在的格式问题对于确保文档处理期间的数据完整性至关重要。
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-在检测到可能导致 数据或格式保真度损失的问题时在各种文档处理过程中调用。
+在各种文档处理过程中，当检测到可能导致数据或格式保真度损失的问题时调用。
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,11 +18,11 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## 评论
 
-文档可能在其存在的任何阶段生成警告，因此尽早设置警告回调 as 以避免警告丢失非常重要。例如这样的属性[`PageCount`](../../document/pagecount/) 实际上构建了稍后用于渲染的文档布局，如果 仅为稍后的渲染调用指定了警告回调，则布局警告可能会丢失。
+文档在其存在的任何阶段都可能生成警告，因此，务必尽早设置警告回调 as ，以避免警告丢失。例如，以下属性[`PageCount`](../../document/pagecount/) 实际上构建了稍后用于渲染的文档布局，如果 警告回调仅为稍后的渲染调用指定，则布局警告可能会丢失。
 
 ## 例子
 
-演示如何使用 IWarningCallback 接口来监视字体替换警告。
+展示如何使用 IWarningCallback 接口监视字体替换警告。
 
 ```csharp
 public void SubstitutionWarning()
@@ -36,15 +36,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // 存储当前字体源集合，这将是每个文档的默认字体源
-    // 我们没有为其指定不同的字体源。
+    // 存储当前的字体源集合，这将是每个文档的默认字体源
+    // 我们没有指定不同的字体源。
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // 出于测试目的，我们将设置 Aspose.Words 仅在不存在的文件夹中查找字体。
+    // 为了测试目的，我们将设置 Aspose.Words 仅在不存在的文件夹中查找字体。
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // 渲染文档时，会找不到“Times New Roman”字体的地方。
-    // 这将导致字体替换警告，我们的回调将检测到该警告。
+    // 在渲染文档时，将没有地方找到“Times New Roman”字体。
+    // 这将导致字体替换警告，我们的回调将会检测到。
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -52,13 +52,13 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -70,12 +70,12 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -107,13 +107,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

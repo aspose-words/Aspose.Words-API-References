@@ -3,9 +3,9 @@ title: Cluster Class
 linktitle: Cluster
 articleTitle: Cluster
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Shaping.Cluster сорт. Инкапсулирует кодовые точки и глифы составляющие графему на С#.
+description: Откройте для себя класс Aspose.Words.Shaping.Cluster, предназначенный для эффективного управления кодовыми точками и глифами для улучшенной визуализации текста в ваших приложениях.
 type: docs
-weight: 6010
+weight: 6840
 url: /ru/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
@@ -26,7 +26,7 @@ public class Cluster
 
 | Имя | Описание |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Получает коды кластера. |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Получает кодовые точки кластера. |
 | [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Получает общее количество кодовых точек в`Cluster` . |
 | [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | Получает глифы кластера. |
 
@@ -35,9 +35,9 @@ public class Cluster
 | Имя | Описание |
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Возвращает глубокий клон этого экземпляра. |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() | СоздаетString используя кодовые точки из этого кластера. |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() | СоздаетString с использованием кодовых точек из этого кластера. |
 | [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | Возвращает ширину кластера. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | СоздаетString используя кодовые точки из указанных кластеров. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | СоздаетString с использованием кодовых точек из указанных кластеров. |
 
 ### Смотрите также
 

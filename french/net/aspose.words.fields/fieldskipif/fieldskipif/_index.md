@@ -3,7 +3,7 @@ title: FieldSkipIf
 linktitle: FieldSkipIf
 articleTitle: FieldSkipIf
 second_title: Aspose.Words pour .NET
-description: FieldSkipIf constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldSkipIf, votre outil indispensable pour une gestion efficace des données. Bénéficiez d'une intégration fluide et optimisez votre expérience de codage dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldskipif/fieldskipif/

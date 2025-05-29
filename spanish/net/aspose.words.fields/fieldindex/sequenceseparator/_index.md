@@ -3,7 +3,7 @@ title: FieldIndex.SequenceSeparator
 linktitle: SequenceSeparator
 articleTitle: SequenceSeparator
 second_title: Aspose.Words para .NET
-description: FieldIndex SequenceSeparator propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar los números de secuencia y los números de página en C#.
+description: Descubra la propiedad FieldIndex SequenceSeparator, administre fácilmente secuencias de caracteres para separar números de secuencia y de página en sus aplicaciones.
 type: docs
 weight: 160
 url: /es/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -18,25 +18,25 @@ public string SequenceSeparator { get; set; }
 
 ## Ejemplos
 
-Muestra cómo dividir un documento en porciones combinando los campos ÍNDICE y SEQ.
+Muestra cómo dividir un documento en partes combinando los campos INDEX y SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE que se encuentra en el documento.
-// Cada entrada mostrará el valor de la propiedad Texto del campo XE en el lado izquierdo,
+// Cree un campo INDEX que mostrará una entrada para cada campo XE encontrado en el documento.
+// Cada entrada mostrará el valor de la propiedad de Texto del campo XE en el lado izquierdo,
 // y el número de la página que contiene el campo XE a la derecha.
 // Si los campos XE tienen el mismo valor en su propiedad "Texto",
-// el campo ÍNDICE los agrupará en una sola entrada.
+//el campo ÍNDICE los agrupará en una entrada.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// En la propiedad SequenceName, nombre una secuencia de campo SEQ. Cada entrada de este campo ÍNDICE ahora también se mostrará
+En la propiedad SequenceName, asigne un nombre a una secuencia de campos SEQ. Cada entrada de este campo INDEX ahora también se mostrará.
 // el número en el que se encuentra el recuento de secuencia en la ubicación del campo XE que creó esta entrada.
 index.SequenceName = "MySequence";
 
-// Establece el texto que rodeará la secuencia y los números de página para explicar su significado al usuario.
-// Una entrada creada con esta configuración mostrará algo como "MiSecuencia en 1 en la página 1" en su número de página.
+// Establezca el texto que rodeará la secuencia y los números de página para explicar su significado al usuario.
+// Una entrada creada con esta configuración mostrará algo como "MySequence en 1 en la página 1" en su número de página.
 // PageNumberSeparator y SequenceSeparator no pueden tener más de 15 caracteres.
 index.PageNumberSeparator = "\tMySequence at ";
 index.SequenceSeparator = " on page ";
@@ -45,36 +45,36 @@ Assert.IsTrue(index.HasSequenceName);
 Assert.AreEqual(" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"", index.GetFieldCode());
 
 // Los campos SEQ muestran un recuento que se incrementa en cada campo SEQ.
-// Estos campos también mantienen recuentos separados para cada secuencia con nombre única
+// Estos campos también mantienen recuentos separados para cada secuencia con nombre único
 // identificado por la propiedad "SequenceIdentifier" del campo SEQ.
 // Inserta un campo SEQ que mueve la secuencia "MySequence" a 1.
-// Este campo no es diferente del texto normal del documento. No aparecerá en la tabla de contenido de un campo ÍNDICE.
+Este campo no difiere del texto normal del documento. No aparecerá en la tabla de contenido de un campo ÍNDICE.
 builder.InsertBreak(BreakType.PageBreak);
 FieldSeq sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", sequenceField.GetFieldCode());
 
-// Inserta un campo XE que creará una entrada en el campo ÍNDICE.
+// Inserte un campo XE que creará una entrada en el campo ÍNDICE.
 // Dado que "MySequence" está en 1 y este campo XE está en la página 2, junto con los separadores personalizados que definimos anteriormente,
-// la entrada ÍNDICE de este campo mostrará "Cat" en el lado izquierdo y "MySequence en 1 en la página 2" en el derecho.
+// La entrada ÍNDICE de este campo mostrará "Cat" en el lado izquierdo y "MySequence en 1 en la página 2" en el lado derecho.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cat";
 
 Assert.AreEqual(" XE  Cat", indexEntry.GetFieldCode());
 
-// Inserta un salto de página y usa los campos SEQ para avanzar "MySequence" a 3.
+// Inserte un salto de página y use los campos SEQ para avanzar "MySequence" a 3.
 builder.InsertBreak(BreakType.PageBreak);
 sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 
-// Inserta un campo XE con la misma propiedad de Texto que el anterior.
-// La entrada ÍNDICE agrupará los campos XE con valores coincidentes en la propiedad "Texto"
-// en una entrada en lugar de hacer una entrada para cada campo XE.
-// Dado que estamos en la página 2 con "MySequence" en 3, ", 3 en la página 3" se agregará a la misma entrada ÍNDICE que la anterior.
-// La parte del número de página de esa entrada ÍNDICE ahora mostrará "MiSecuencia en 1 en la página 2, 3 en la página 3".
+// Inserte un campo XE con la misma propiedad de Texto que el anterior.
+// La entrada INDEX agrupará los campos XE con valores coincidentes en la propiedad "Texto"
+// en una sola entrada en lugar de hacer una entrada para cada campo XE.
+// Dado que estamos en la página 2 con "MySequence" en 3, ", 3 en la página 3" se agregará a la misma entrada INDEX que la anterior.
+// La parte del número de página de esa entrada INDEX ahora mostrará "MySequence en 1 en la página 2, 3 en la página 3".
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cat";
 

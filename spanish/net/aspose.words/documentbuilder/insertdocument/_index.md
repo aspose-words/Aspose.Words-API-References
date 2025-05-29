@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 linktitle: InsertDocument
 articleTitle: InsertDocument
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertDocument método. Inserta un documento en la posición del cursor en C#.
+description: Inserte documentos fácilmente en cualquier posición del cursor con el método InsertDocument de DocumentBuilder. ¡Optimice su flujo de trabajo y mejore su productividad!
 type: docs
 weight: 310
 url: /es/net/aspose.words/documentbuilder/insertdocument/
@@ -19,7 +19,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcDoc | Document | Documento fuente para insertar. |
-| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
+| importFormatMode | ImportFormatMode | Especifica cómo combinar el formato de estilo que entra en conflicto. |
 
 ### Valor_devuelto
 
@@ -27,7 +27,7 @@ Primer nodo del contenido insertado.
 
 ## Observaciones
 
-Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el búfer) dentro de un documento y luego CTRL+'V' (insertar contenido del buffer) dentro de otro documento.
+Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el buffer) dentro de un documento y luego CTRL+'V' (insertar contenido desde el buffer) dentro de otro documento.
 
 ## Ejemplos
 
@@ -69,8 +69,8 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcDoc | Document | Documento fuente para insertar. |
-| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
-| importFormatOptions | ImportFormatOptions | Permite especificar opciones que afectan el formato de un documento de resultados. |
+| importFormatMode | ImportFormatMode | Especifica cómo combinar el formato de estilo que entra en conflicto. |
+| importFormatOptions | ImportFormatOptions | Permite especificar opciones que afectan el formato de un documento de resultado. |
 
 ### Valor_devuelto
 
@@ -78,7 +78,7 @@ Primer nodo del contenido insertado.
 
 ## Observaciones
 
-Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el búfer) dentro de un documento y luego CTRL+'V' (insertar contenido del buffer) dentro de otro documento.
+Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el buffer) dentro de un documento y luego CTRL+'V' (insertar contenido desde el buffer) dentro de otro documento.
 
 ## Ejemplos
 
@@ -96,13 +96,13 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Clona el documento y edita el estilo "MyStyle" del clon, para que tenga un color diferente al del original.
-// Si insertamos el clon en el documento original, los dos estilos con el mismo nombre provocarán un choque.
+// Clona el documento y edita el estilo "MyStyle" del clon, para que sea de un color diferente al del original.
+// Si insertamos el clon en el documento original, los dos estilos con el mismo nombre provocarán un conflicto.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
 // Cuando habilitamos SmartStyleBehavior y usamos el modo de formato de importación KeepSourceFormatting,
-// Aspose.Words resolverá los conflictos de estilos convirtiendo los estilos del documento fuente.
+// Aspose.Words resolverá los conflictos de estilo convirtiendo los estilos del documento fuente.
 // con los mismos nombres que los estilos de destino en atributos de párrafo directo.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

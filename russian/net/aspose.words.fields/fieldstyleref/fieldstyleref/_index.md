@@ -3,7 +3,7 @@ title: FieldStyleRef
 linktitle: FieldStyleRef
 articleTitle: FieldStyleRef
 second_title: Aspose.Words для .NET
-description: FieldStyleRef строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldStyleRef, мощный инструмент для создания собственных стилей полей без усилий. Откройте для себя уникальные возможности дизайна сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldstyleref/fieldstyleref/

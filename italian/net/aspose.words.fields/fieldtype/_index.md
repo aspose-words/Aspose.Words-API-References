@@ -3,9 +3,9 @@ title: FieldType Enum
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldType enum. Specifica i tipi di campo di Microsoft Word in C#.
+description: Scopri l'enum Aspose.Words.Fields.FieldType per gestire in modo efficiente i tipi di campo di Microsoft Word e migliorare l'automazione dei tuoi documenti.
 type: docs
-weight: 2540
+weight: 2950
 url: /it/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -22,7 +22,7 @@ public enum FieldType
 | --- | --- | --- |
 | FieldNone | `0` | Il tipo di campo non è specificato o è sconosciuto. |
 | FieldCannotParse | `1` | Specifica che non è stato possibile analizzare il campo. |
-| FieldAddin | `81` | Specifica il campo AGGIUNTA. |
+| FieldAddin | `81` | Specifica il campo ADDIN. |
 | FieldAddressBlock | `93` | Specifica il campo ADDRESSBLOCK. |
 | FieldAdvance | `84` | Specifica il campo ADVANCE. |
 | FieldAsk | `38` | Specifica il campo ASK. |
@@ -30,7 +30,7 @@ public enum FieldType
 | FieldAutoNum | `54` | Specifica il campo AUTONUM. |
 | FieldAutoNumLegal | `53` | Specifica il campo AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | Specifica il campo AUTONUMOUT. |
-| FieldAutoText | `79` | Specifica il campo TESTO AUTOMATICO. |
+| FieldAutoText | `79` | Specifica il campo AUTOTEXT. |
 | FieldAutoTextList | `89` | Specifica il campo AUTOTEXTLIST. |
 | FieldBarcode | `63` | Specifica il campo BARCODE. |
 | FieldBibliography | `100500` | Specifica il campo BIBLIOGRAFIA. |
@@ -72,7 +72,7 @@ public enum FieldType
 | FieldIndexEntry | `4` | Specifica il campo XE. |
 | FieldInfo | `14` | Specifica il campo INFO. |
 | FieldImport | `55` | Specifica il campo IMPORT. |
-| FieldKeyword | `18` | Specifica il campo KEYWORDS. |
+| FieldKeyword | `18` | Specifica il campo PAROLE CHIAVE. |
 | FieldLastSavedBy | `20` | Specifica il campo LASTSAVEDBY. |
 | FieldLink | `56` | Specifica il campo LINK. |
 | FieldListNum | `90` | Specifica il campo LISTNUM. |
@@ -80,7 +80,7 @@ public enum FieldType
 | FieldMergeField | `59` | Specifica il campo MERGEFIELD. |
 | FieldMergeRec | `44` | Specifica il campo MERGEREC. |
 | FieldMergeSeq | `75` | Specifica il campo MERGESEQ. |
-| FieldNext | `41` | Specifica il campo SUCCESSIVO. |
+| FieldNext | `41` | Specifica il campo NEXT. |
 | FieldNextIf | `42` | Specifica il campo NEXTIF. |
 | FieldNoteRef | `72` | Specifica il campo NOTEREF. |
 | FieldNumChars | `28` | Specifica il campo NUMCHARS. |
@@ -91,7 +91,7 @@ public enum FieldType
 | FieldPageRef | `37` | Specifica il campo PAGEREF. |
 | FieldPrint | `48` | Specifica il campo PRINT. |
 | FieldPrintDate | `23` | Specifica il campo PRINTDATE. |
-| FieldPrivate | `77` | Specifica il campo PRIVATE. |
+| FieldPrivate | `77` | Specifica il campo PRIVATO. |
 | FieldQuote | `35` | Specifica il campo QUOTE. |
 | FieldRef | `3` | Specifica il campo RIF. |
 | FieldRefNoKeyword | `2` | Specifica che il campo rappresenta un campo REF in cui la parola chiave è stata omessa. |
@@ -102,21 +102,21 @@ public enum FieldType
 | FieldSectionPages | `66` | Specifica il campo SECTIONPAGES. |
 | FieldSequence | `12` | Specifica il campo SEQ. |
 | FieldSet | `6` | Specifica il campo SET. |
-| FieldShape | `95` | Specifica il campo FORMA. |
+| FieldShape | `95` | Specifica il campo SHAPE. |
 | FieldSkipIf | `43` | Specifica il campo SKIPIF. |
 | FieldStyleRef | `10` | Specifica il campo STYLEREF. |
-| FieldSubject | `16` | Specifica il campo SUBJECT. |
+| FieldSubject | `16` | Specifica il campo SOGGETTO. |
 | FieldSymbol | `57` | Specifica il campo SIMBOLO. |
 | FieldTemplate | `30` | Specifica il campo TEMPLATE. |
-| FieldTime | `32` | Specifica il campo TIME. |
-| FieldTitle | `15` | Specifica il campo TITOLO. |
+| FieldTime | `32` | Specifica il campo ORA. |
+| FieldTitle | `15` | Specifica il campo TITLE. |
 | FieldTOA | `73` | Specifica il campo TOA. |
 | FieldTOAEntry | `74` | Specifica il campo TA. |
 | FieldTOC | `13` | Specifica il campo TOC. |
 | FieldTOCEntry | `9` | Specifica il campo TC. |
 | FieldUserAddress | `62` | Specifica il campo USERADDRESS. |
 | FieldUserInitials | `61` | Specifica il campo USERINITIALS. |
-| FieldUserName | `60` | Specifica il campo USERNAME. |
+| FieldUserName | `60` | Specifica il campo NOME UTENTE. |
 
 ## Esempi
 
@@ -132,7 +132,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Questo sovraccarico del metodo InsertField aggiorna automaticamente i campi inseriti.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 Mostra come lavorare con un nodo FieldStart.

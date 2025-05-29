@@ -3,14 +3,14 @@ title: DropCapPosition Enum
 linktitle: DropCapPosition
 articleTitle: DropCapPosition
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.DropCapPosition تعداد. يحدد موضع النص الاستهلالي المسقط في C#.
+description: اكتشف Aspose.Words.DropCapPosition enum لتعزيز تصميم مستندك من خلال تحديد مواضع نص فريدة للأحرف الكبيرة المنسدلة للحصول على جاذبية بصرية مؤثرة.
 type: docs
-weight: 1410
+weight: 1820
 url: /ar/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration
 
-يحدد موضع النص الاستهلالي المسقط.
+يحدد موضع النص ذي الأحرف الكبيرة.
 
 ```csharp
 public enum DropCapPosition
@@ -20,19 +20,19 @@ public enum DropCapPosition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا تحتوي الفقرة على حرف كبير. |
-| Normal | `1` | يتم وضع الحرف الاستهلالي داخل هامش النص في فقرة الربط. |
-| Margin | `2` | يتم وضع الحرف الاستهلالي خارج هامش النص في فقرة الربط. |
+| None | `0` | الفقرة لا تحتوي على حرف كبير. |
+| Normal | `1` | يتم وضع الحرف الكبير داخل هامش النص في فقرة المرساة. |
+| Margin | `2` | يتم وضع الحرف الكبير خارج هامش النص في فقرة المرساة. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء غطاء منسدل.
+يوضح كيفية إنشاء حرف كبير.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل فقرة واحدة بحرف كبير يبدأ به النص في الفقرتين الثانية والثالثة.
+// قم بإدراج فقرة واحدة بحرف كبير يبدأ به النص في الفقرتين الثانية والثالثة.
 builder.Font.Size = 54;
 builder.Writeln("L");
 
@@ -42,13 +42,13 @@ builder.Writeln("orem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Writeln("Ut enim ad minim veniam, quis nostrud exercitation " +
                 "ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// حاليًا ستظهر الفقرتان الثانية والثالثة أسفل الفقرة الأولى.
-// يمكننا تحويل الفقرة الأولى كحرف استهلالي للفقرات الأخرى عبر كائن "ParagraphFormat" الخاص بها.
-// قم بتعيين خاصية "DropCapPosition" على "DropCapPosition.Margin" لوضع الحد الأقصى المسقط
+// حاليًا، ستظهر الفقرتان الثانية والثالثة أسفل الفقرة الأولى.
+// يمكننا تحويل الفقرة الأولى إلى حرف كبير منسدل للفقرات الأخرى عبر كائن "ParagraphFormat" الخاص بها.
+// اضبط خاصية "DropCapPosition" على "DropCapPosition.Margin" لوضع الحرف الكبير
 // خارج هامش الصفحة الأيسر إذا كان النص من اليسار إلى اليمين.
-// قم بتعيين خاصية "DropCapPosition" على "DropCapPosition.Normal" لوضع الحرف الاستهلالي المسقط داخل هوامش الصفحة
-// ولالتفاف بقية النص حوله.
-// "DropCapPosition.None" هي الحالة الافتراضية لجميع الفقرات.
+// اضبط خاصية "DropCapPosition" على "DropCapPosition.Normal" لوضع الحرف الكبير داخل هوامش الصفحة
+//ولتغليف بقية النص حوله.
+//"DropCapPosition.None" هي الحالة الافتراضية لجميع الفقرات.
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 format.DropCapPosition = dropCapPosition;
 

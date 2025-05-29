@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Une collection typée desOdsoFieldMapData objets en C#.
+description: Découvrez la classe Aspose.Words OdsoFieldMapDataCollection, une puissante collection typée pour une gestion efficace des objets OdsoFieldMapData.
 type: docs
-weight: 5910
+weight: 6740
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 Une collection typée des[`OdsoFieldMapData`](../odsofieldmapdata/) objets.
 
-Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article de documentation.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -29,7 +29,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | Obtient le nombre d'éléments contenus dans la collection. |
-| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Obtient ou définit un élément de cette collection. |
+| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Obtient ou définit un élément dans cette collection. |
 
 ## Méthodes
 
@@ -48,7 +48,7 @@ Montre comment accéder à la collection de données qui mappe les colonnes de l
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Cette collection définit comment un publipostage mappera les colonnes d'une source de données
-// aux champs prédéfinis MERGEFIELD, ADDRESSBLOCK et GREETINGLINE.
+// aux champs MERGEFIELD, ADDRESSBLOCK et GREETINGLINE prédéfinis.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -66,15 +66,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clonez les éléments de cette collection.
+// Cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode « RemoveAt » individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
+// Utilisez la méthode « Clear » pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

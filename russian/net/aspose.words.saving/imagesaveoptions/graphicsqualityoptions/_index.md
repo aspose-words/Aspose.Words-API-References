@@ -3,7 +3,7 @@ title: ImageSaveOptions.GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
 second_title: Aspose.Words для .NET
-description: ImageSaveOptions GraphicsQualityOptions свойство. Позволяет указать режим и качество рендеринга дляGraphics объект на С#.
+description: Оптимизируйте графику с помощью свойства ImageSaveOptions GraphicsQualityOptions, включающего точные режимы рендеринга и превосходное качество для создания потрясающих визуальных эффектов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
@@ -18,13 +18,13 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 ## Примечания
 
-Используйте это свойство, чтобы переопределить настройки графики, предоставляемые движком Aspose.Words по умолчанию.
+Используйте это свойство для переопределения настроек графики, предоставляемых движком Aspose.Words по умолчанию.
 
-Оно вступит в силу только тогда, когда документ сохраняется в формате изображения.
+Он вступит в силу только при сохранении документа в формате, похожем на изображение.
 
 ## Примеры
 
-Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
+Показывает, как задать параметры качества рендеринга при преобразовании документов в форматы изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

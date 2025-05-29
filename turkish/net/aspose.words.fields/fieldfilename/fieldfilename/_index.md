@@ -2,8 +2,8 @@
 title: FieldFileName
 linktitle: FieldFileName
 articleTitle: FieldFileName
-second_title: Aspose.Words for .NET
-description: FieldFileName inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFileName oluşturucusunu keşfedin—kusursuz dosya işleme için başvuracağınız çözümünüz. Varsayılan oluşturucumuzla verimliliğin kilidini bugün açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldfilename/fieldfilename/

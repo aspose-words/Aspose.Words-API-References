@@ -2,10 +2,10 @@
 title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart GetChildNodes 方法. 返回与指定类型匹配的子节点的实时集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTagRangeStart GetChildNodes 方法，该方法提供了根据您指定的类型定制的子节点的动态集合。
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method
@@ -18,7 +18,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 ## 例子
 
-演示如何获取 StructuredDocumentTagRangeStart 的子节点。
+展示如何获取 StructuredDocumentTagRangeStart 的子节点。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

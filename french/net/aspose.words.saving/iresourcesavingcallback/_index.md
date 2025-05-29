@@ -3,14 +3,14 @@ title: IResourceSavingCallback Interface
 linktitle: IResourceSavingCallback
 articleTitle: IResourceSavingCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.IResourceSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes images polices et CSS lors de lenregistrement dun document sur une page fixe HTML ou SVG en C#.
+description: Contrôlez les économies de ressources d'Aspose.Words grâce à l'interface IResourceSavingCallback. Gérez les images, les polices et le CSS pour des documents HTML ou SVG optimisés.
 type: docs
-weight: 5190
+weight: 5940
 url: /fr/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes (images, polices et CSS) lors de l'enregistrement d'un document sur une page fixe HTML ou SVG.
+Implémentez cette interface si vous souhaitez contrôler la manière dont Aspose.Words enregistre les ressources externes (images, polices et CSS) lors de l'enregistrement d'un document au format HTML ou SVG à page fixe.
 
 ```csharp
 public interface IResourceSavingCallback
@@ -20,11 +20,11 @@ public interface IResourceSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Appelé lorsque Aspose.Words enregistre une ressource externe aux formats HTML ou SVG de page fixe. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Appelé lorsque Aspose.Words enregistre une ressource externe dans des formats HTML ou SVG de page fixe. |
 
 ## Exemples
 
-Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document au format HTML.
+Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document en HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -46,7 +46,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -98,7 +98,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -114,7 +114,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -123,7 +123,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

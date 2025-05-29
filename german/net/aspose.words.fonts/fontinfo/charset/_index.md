@@ -3,14 +3,14 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words für .NET
-description: FontInfo Charset eigendom. Ruft den Zeichensatz für die Schriftart ab oder legt diesen fest in C#.
+description: Entdecken Sie die FontInfo Charset-Eigenschaft, um den Zeichensatz Ihrer Schriftart einfach zu verwalten und anzupassen und so die Designflexibilität und Lesbarkeit zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontinfo/charset/
 ---
 ## FontInfo.Charset property
 
-Ruft den Zeichensatz für die Schriftart ab oder legt diesen fest.
+Ruft den Zeichensatz für die Schriftart ab oder legt ihn fest.
 
 ```csharp
 public int Charset { get; set; }
@@ -18,7 +18,7 @@ public int Charset { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf die Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -3,14 +3,14 @@ title: FieldSkipIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words для .NET
-description: FieldSkipIf RightExpression свойство. Получает или задает правую часть выражения сравнения на С#.
+description: Откройте для себя свойство FieldSkipIf RightExpression, легко управляйте выражениями сравнения для улучшенного контроля данных и оптимизированных операций.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldskipif/rightexpression/
 ---
 ## FieldSkipIf.RightExpression property
 
-Получает или задает правую часть выражения сравнения.
+Возвращает или задает правую часть выражения сравнения.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,36 +18,36 @@ public string RightExpression { get; set; }
 
 ## Примеры
 
-Показывает, как пропускать страницы при слиянии писем с помощью поля SKIPIF.
+Показывает, как пропускать страницы при слиянии почты с помощью поля SKIPIF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле SKIPIF. Если текущая строка операции слияния почты соответствует условию
-// что указывают выражения этого поля, то операция слияния почты прерывает текущую строку,
-// отбрасывает текущий документ слияния, а затем немедленно переходит к следующей строке, чтобы начать следующий документ слияния.
+// Вставьте поле SKIPIF. Если текущая строка операции слияния почты удовлетворяет условию
+// что выражения этого поля указывают, то операция слияния почты прерывает текущую строку,
+// отменяет текущий документ слияния, а затем немедленно переходит к следующей строке, чтобы начать следующий документ слияния.
 FieldSkipIf fieldSkipIf = (FieldSkipIf) builder.InsertField(FieldType.FieldSkipIf, true);
 
-// Переместите построитель к разделителю поля SKIPIF, чтобы мы могли поместить MERGEFIELD внутри поля SKIPIF.
+// Перемещаем конструктор на разделитель поля SKIPIF, чтобы мы могли поместить MERGEFIELD внутрь поля SKIPIF.
 builder.MoveTo(fieldSkipIf.Separator);
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Department";
 
-// MERGEFIELD относится к столбцу «Отдел» в нашей таблице данных. Если строка из этой таблицы
+// MERGEFIELD ссылается на столбец "Department" в нашей таблице данных. Если строка из этой таблицы
 // имеет значение «HR» в столбце «Отдел», то эта строка будет соответствовать условию.
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "HR";
 
-// Добавляем содержимое в наш документ, создаем источник данных и выполняем слияние почты.
+// Добавляем содержимое в наш документ, создаем источник данных и выполняем слияние.
 builder.MoveToDocumentEnd();
 builder.Write("Dear ");
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Name";
 builder.Writeln(", ");
 
- // В этой таблице три строки, и одна из них соответствует условию нашего поля SKIPIF.
-// Слияние почты создаст две страницы.
+ // В этой таблице три строки, и одна из них удовлетворяет условию нашего поля SKIPIF.
+// В результате слияния будут созданы две страницы.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
 table.Columns.Add("Department");
@@ -59,7 +59,7 @@ doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.SKIPIF.docx");
 ```
 
-Показывает, как использовать поля MERGEREC и MERGESEQ для подсчета количества записей слияния в выходных документах слияния.
+Показывает, как использовать поля MERGEREC и MERGESEQ для нумерации и подсчета записей слияния почты в выходных документах слияния почты.
 
 ```csharp
 Document doc = new Document();
@@ -76,15 +76,15 @@ FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 
-// Поле MERGESEQ подсчитывает количество успешных слияний и печатает текущее значение на каждой соответствующей странице.
-// Если слияние почты не пропускает ни одной строки и не вызывает поля SKIP/SKIPIF/NEXT/NEXTIF, то все слияния успешны.
-// Поля MERGESEQ и MERGEREC будут отображать одинаковые результаты, если слияние почты прошло успешно.
+// Поле MERGESEQ подсчитывает количество успешных слияний и выводит текущее значение на каждой соответствующей странице.
+// Если при слиянии почты не пропускается ни одна строка и не вызываются поля SKIP/SKIPIF/NEXT/NEXTIF, то все слияния успешны.
+// Поля MERGESEQ и MERGEREC отобразят одинаковые результаты, если их слияние прошло успешно.
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
 Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
 
-// Вставьте поле SKIPIF, которое пропустит слияние, если имя «Джон Доу».
+// Вставьте поле SKIPIF, которое пропустит объединение, если имя «John Doe».
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
 builder.MoveTo(fieldSkipIf.Separator);
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -92,17 +92,17 @@ fieldMergeField.FieldName = "Name";
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "John Doe";
 
-// Создаем источник данных с тремя строками, в одной из которых в столбце «Имя» указано «Джон Доу».
-// Поскольку поле SKIPIF будет активировано один раз по этому значению, выходные данные нашего слияния будут иметь 2 страницы вместо 3.
-// На странице 1 в полях MERGESEQ и MERGEREC будет отображаться значение «1».
-// На странице 2 в поле MERGEREC будет отображаться «3», а в поле MERGESEQ — «2».
+// Создаем источник данных с 3 строками, одна из которых содержит «John Doe» в качестве значения столбца «Name».
+// Поскольку поле SKIPIF будет активировано этим значением один раз, вывод нашего слияния будет содержать 2 страницы вместо 3.
+// На странице 1 поля MERGESEQ и MERGEREC будут отображать «1».
+// На странице 2 поле MERGEREC отобразит «3», а поле MERGESEQ отобразит «2».
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
-table.Rows.Add(new[] { "Jane Doe" });
-table.Rows.Add(new[] { "John Doe" });
-table.Rows.Add(new[] { "Joe Bloggs" });
+table.Rows.Add("Jane Doe");
+table.Rows.Add("John Doe");
+table.Rows.Add("Joe Bloggs");
 
-doc.MailMerge.Execute(table);            
+doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

@@ -3,9 +3,9 @@ title: FontSubstitutionRule Class
 linktitle: FontSubstitutionRule
 articleTitle: FontSubstitutionRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontSubstitutionRule klas. Dies ist eine abstrakte Basisklasse für die Schriftartersetzungsregel in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.FontSubstitutionRule – Ihren unverzichtbaren Leitfaden für die effektive Schriftartersetzung bei der Dokumentverarbeitung und -gestaltung.
 type: docs
-weight: 3000
+weight: 3430
 url: /de/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class

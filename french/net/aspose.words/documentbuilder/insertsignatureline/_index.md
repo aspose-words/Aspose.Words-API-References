@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder InsertSignatureLine méthode. Insère une ligne de signature à la position actuelle en C#.
+description: Ajoutez facilement des lignes de signature professionnelles à vos documents grâce à la méthode InsertSignatureLine de DocumentBuilder. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
-weight: 440
+weight: 470
 url: /fr/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
@@ -22,7 +22,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ### Return_Value
 
-Le nœud de ligne de signature qui vient d'être inséré.
+Le nœud de ligne de signature qui vient d’être inséré.
 
 ## Exemples
 
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés « IsSigned » et « IsValid » sont toutes deux égales à « true »,
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -98,18 +98,18 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | L'objet qui stocke les paramètres de création de la ligne de signature. |
 | horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à la ligne de signature est mesurée. |
-| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de la ligne de signature. |
-| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à la ligne de signature est mesurée. |
-| top | Double | Distance en points depuis l'origine jusqu'au côté supérieur de la ligne de signature. |
-| wrapType | WrapType | Spécifie comment enrouler le texte autour de la ligne de signature. |
+| left | Double | Distance en points de l'origine au côté gauche de la ligne de signature. |
+| vertPos | RelativeVerticalPosition | Spécifie d'où est mesurée la distance jusqu'à la ligne de signature. |
+| top | Double | Distance en points de l'origine au côté supérieur de la ligne de signature. |
+| wrapType | WrapType | Spécifie comment envelopper le texte autour de la ligne de signature. |
 
 ### Return_Value
 
-Le nœud de ligne de signature qui vient d'être inséré.
+Le nœud de ligne de signature qui vient d’être inséré.
 
 ## Remarques
 
-Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
+Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide de [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
 ## Exemples
 

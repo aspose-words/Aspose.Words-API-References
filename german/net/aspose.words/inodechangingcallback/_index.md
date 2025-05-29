@@ -3,14 +3,14 @@ title: INodeChangingCallback Interface
 linktitle: INodeChangingCallback
 articleTitle: INodeChangingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.INodeChangingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten möchten wenn Knoten in das Dokument eingefügt oder entfernt werden in C#.
+description: Implementieren Sie die Schnittstelle Aspose.Words.INodeChangingCallback, um Echtzeitbenachrichtigungen zu Dokumentknotenänderungen zu erhalten und so Ihr Dokumentverwaltungserlebnis zu verbessern.
 type: docs
-weight: 3200
+weight: 3640
 url: /de/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten möchten, wenn Knoten in das Dokument eingefügt oder entfernt werden.
+Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten möchten, wenn Knoten im Dokument eingefügt oder entfernt werden.
 
 ```csharp
 public interface INodeChangingCallback
@@ -21,13 +21,13 @@ public interface INodeChangingCallback
 | Name | Beschreibung |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt wurde. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, kurz bevor ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt werden soll. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, unmittelbar bevor ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt werden soll. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten aus seinem übergeordneten Element entfernt wurde. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Wird aufgerufen, kurz bevor ein zu diesem Dokument gehörender Knoten aus dem Dokument entfernt werden soll. |
 
 ## Beispiele
 
-Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
+Zeigt, wie Sie Knotenänderungen mit einem Rückruf anpassen.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -36,7 +36,7 @@ public void FontChangeViaCallback()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
-    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
+    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -51,8 +51,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
-/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens eines Knotens.
+/// Legt einen benutzerdefinierten Schriftnamen/eine benutzerdefinierte Schriftgröße für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -63,7 +63,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

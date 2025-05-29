@@ -3,14 +3,14 @@ title: LoadOptions.ConvertShapeToOfficeMath
 linktitle: ConvertShapeToOfficeMath
 articleTitle: ConvertShapeToOfficeMath
 second_title: Aspose.Words для .NET
-description: LoadOptions ConvertShapeToOfficeMath свойство. Получает или задает необходимость преобразования фигур с помощью EquationXML в объекты Office Math на С#.
+description: Преобразуйте фигуры с EquationXML в объекты Office Math без особых усилий, используя свойство ConvertShapeToOfficeMath в LoadOptions для повышения ясности документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 ---
 ## LoadOptions.ConvertShapeToOfficeMath property
 
-Получает или задает необходимость преобразования фигур с помощью EquationXML в объекты Office Math.
+Возвращает или задает, следует ли преобразовывать фигуры с EquationXML в объекты Office Math.
 
 ```csharp
 public bool ConvertShapeToOfficeMath { get; set; }
@@ -18,13 +18,13 @@ public bool ConvertShapeToOfficeMath { get; set; }
 
 ## Примеры
 
-Показывает, как преобразовать фигуры EquationXML в объекты Office Math.
+Показывает, как преобразовывать фигуры EquationXML в объекты Office Math.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 
 // Используйте этот флаг, чтобы указать, следует ли преобразовывать фигуры с атрибутами EquationXML
-// к объектам Office Math и затем загружаем документ.
+// в объекты Office Math, а затем загрузить документ.
 loadOptions.ConvertShapeToOfficeMath = isConvertShapeToOfficeMath;
 
 Document doc = new Document(MyDir + "Math shapes.docx", loadOptions);

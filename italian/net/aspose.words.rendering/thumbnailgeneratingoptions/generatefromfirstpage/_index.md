@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 linktitle: GenerateFromFirstPage
 articleTitle: GenerateFromFirstPage
 second_title: Aspose.Words per .NET
-description: ThumbnailGeneratingOptions GenerateFromFirstPage proprietà. Specifica se generare la miniatura dalla prima pagina del documento o dalla prima immagine in C#.
+description: Scopri come l'opzione GenerateFromFirstPage crea miniature dalla prima pagina o immagine del documento, migliorando i tuoi contenuti visivi senza sforzo.
 type: docs
 weight: 20
 url: /it/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -18,7 +18,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita è`VERO` , il che significa che la miniatura verrà generata dalla prima pagina del documento. Se il valore è`falso` e non c'è immagine nel documento, la miniatura verrà generata dalla prima pagina del documento.
+Il valore predefinito è`VERO` , il che significa che la miniatura verrà generata dalla prima pagina del documento. Se il valore è`falso` e non c'è alcuna immagine nel documento, la miniatura verrà generata dalla prima pagina del documento.
 
 ## Esempi
 
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in formato .epub.
 // 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

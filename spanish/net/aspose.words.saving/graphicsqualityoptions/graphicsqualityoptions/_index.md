@@ -3,7 +3,7 @@ title: GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions constructor. Constructor predeterminado en C#.
+description: Descubre el constructor GraphicsQualityOptions para un rendimiento visual mejorado. Optimiza tu configuración gráfica fácilmente con nuestro constructor predeterminado.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/graphicsqualityoptions/graphicsqualityoptions/

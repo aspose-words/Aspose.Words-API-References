@@ -3,7 +3,7 @@ title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words per .NET
-description: FieldPageRef InsertRelativePosition proprietà. Ottiene o imposta se inserire una posizione relativa del paragrafo con segnalibro in C#.
+description: Scopri come la proprietà InsertRelativePosition di FieldPageRef migliora la navigazione nei documenti gestendo in modo efficace le posizioni dei paragrafi con segnalibro.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -18,24 +18,24 @@ public bool InsertRelativePosition { get; set; }
 
 ## Esempi
 
-Mostra per inserire i campi PAGEREF per visualizzare la posizione relativa dei segnalibri.
+Mostra come inserire campi PAGEREF per visualizzare la posizione relativa dei segnalibri.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Inserisci un campo PAGEREF che visualizza la pagina su cui si trova un segnalibro.
-    // Imposta il flag InsertHyperlink per fare in modo che il campo funzioni anche come collegamento selezionabile al segnalibro.
+    // Inserire un campo PAGEREF che visualizza la pagina in cui si trova un segnalibro.
+    // Imposta il flag InsertHyperlink per fare in modo che il campo funzioni anche come collegamento cliccabile al segnalibro.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
     // Possiamo usare il flag \p per visualizzare il campo PAGEREF
     // la posizione del segnalibro rispetto alla posizione del campo.
-    // Bookmark1 si trova sulla stessa pagina e sopra questo campo, quindi il risultato visualizzato di questo campo sarà "sopra".
+    // Bookmark1 si trova sulla stessa pagina e sopra questo campo, quindi il risultato visualizzato per questo campo sarà "sopra".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
@@ -43,7 +43,7 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 si troverà su una pagina diversa, quindi il campo visualizzerà "a pagina 2".
+    // Bookmark3 sarà su una pagina diversa, quindi il campo visualizzerà "a pagina 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -73,7 +73,7 @@ private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un segnalibro con nome.
+/// Utilizza un generatore di documenti per inserire un segnalibro denominato.
 /// </summary>
 private static void InsertAndNameBookmark(DocumentBuilder builder, string bookmarkName)
 {

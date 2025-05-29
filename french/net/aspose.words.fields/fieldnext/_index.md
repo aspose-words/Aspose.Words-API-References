@@ -3,16 +3,16 @@ title: FieldNext Class
 linktitle: FieldNext
 articleTitle: FieldNext
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldNext classe. Implémente le champ NEXT en C#.
+description: Découvrez la classe Aspose.Words.Fields.FieldNext pour gérer efficacement les champs NEXT dans vos documents. Optimisez l'automatisation de vos documents dès aujourd'hui !
 type: docs
-weight: 2180
+weight: 2590
 url: /fr/net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
 
 Implémente le champ NEXT.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldNext : Field
@@ -30,12 +30,12 @@ public class FieldNext : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/)objet qui fournit un accès typé au formatage du champ. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (obsolète) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Récupère le nœud représentant le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -43,12 +43,12 @@ public class FieldNext : Field
 
 | Nom | La description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code du champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud immédiatement après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
-| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lève une requête si le champ est déjà en cours de mise à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. L'erreur est générée si le champ est déjà en cours de mise à jour. |
 
 ## Remarques
 
@@ -65,7 +65,7 @@ public void FieldNext()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Créez une source de données pour notre publipostage avec 3 lignes.
-    // Un publipostage qui utilise ce tableau créerait normalement un document de 3 pages.
+    // Un publipostage qui utilise cette table créerait normalement un document de 3 pages.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -77,16 +77,16 @@ public void FieldNext()
     InsertMergeFields(builder, "First row: ");
 
     // Si nous avons plusieurs champs de fusion avec le même FieldName,
-    // ils recevront les données de la même ligne de la source de données et afficheront la même valeur après la fusion.
-    // Un champ NEXT indique au publipostage de descendre instantanément d'une ligne,
+    // ils recevront des données de la même ligne de la source de données et afficheront la même valeur après la fusion.
+    // Un champ NEXT indique instantanément au publipostage de descendre d'une ligne,
     // ce qui signifie que tous les MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
     // Assurez-vous de ne jamais essayer de passer à la ligne suivante alors que vous êtes déjà sur la dernière ligne.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Après la fusion, les valeurs de source de données acceptées par ces MERGEFIELD
-     // se retrouvera sur la même page que les MERGEFIELD ci-dessus.
+    // Après la fusion, les valeurs de la source de données que ces MERGEFIELD acceptent
+     // finira sur la même page que les MERGEFIELD ci-dessus.
     InsertMergeFields(builder, "Second row: ");
 
     // Un champ NEXTIF a la même fonction qu'un champ NEXT,
@@ -105,8 +105,8 @@ public void FieldNext()
 
     doc.MailMerge.Execute(table);
 
-     // Notre source de données comporte 3 lignes et nous avons sauté des lignes deux fois.
-    // Notre document de sortie aura 1 page avec les données des 3 lignes.
+     // Notre source de données comporte 3 lignes et nous avons ignoré des lignes deux fois.
+    // Notre document de sortie comportera 1 page avec les données des 3 lignes.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
@@ -122,7 +122,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec les propriétés spécifiées.
+/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec des propriétés spécifiées.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

@@ -3,14 +3,14 @@ title: Table.SetBorder
 linktitle: SetBorder
 articleTitle: SetBorder
 second_title: Aspose.Words для .NET
-description: Table SetBorder метод. Устанавливает указанную границу таблицы с указанным стилем шириной и цветом линии на С#.
+description: Настройте внешний вид вашей таблицы с помощью метода SetBorder — отрегулируйте стиль линии, ширину и цвет для профессионального вида. Улучшите свой дизайн сегодня!
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-Устанавливает указанную границу таблицы с указанным стилем, шириной и цветом линии.
+Устанавливает указанную границу таблицы на указанный стиль линии, ширину и цвет.
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -19,9 +19,9 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| borderType | BorderType | Граница таблицы, которую необходимо изменить. |
+| borderType | BorderType | Граница таблицы, которую нужно изменить. |
 | lineStyle | LineStyle | Применяемый стиль линии. |
-| lineWidth | Double | Толщина линии, которую необходимо установить (в пунктах). |
+| lineWidth | Double | Устанавливаемая ширина линии (в пунктах). |
 | color | Color | Цвет, используемый для границы. |
 | isOverrideCellBorders | Boolean | Когда`истинный`, приводит к удалению всех существующих явных границ ячеек. |
 
@@ -33,20 +33,20 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Выравниваем таблицу по центру страницы.
+// Выровняйте таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистим все существующие границы и затенение таблицы.
+// Удалим все существующие границы и заливку из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
-// Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые границы к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заполняем ячейки светло-зеленым сплошным цветом.
+// Заполните ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

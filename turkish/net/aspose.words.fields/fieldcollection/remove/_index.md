@@ -2,8 +2,8 @@
 title: FieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: FieldCollection Remove yöntem. Belirtilen alanı bu koleksiyondan ve belgeden kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: FieldCollection Remove yöntemi ile belirli alanları belgenizden zahmetsizce kaldırarak veri yönetimi sürecinizi hızlandırın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldcollection/remove/
@@ -22,7 +22,7 @@ public void Remove(Field field)
 
 ## Örnekler
 
-Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
+Bir alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,21 +40,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
-// 1 - Kendini kaldıracak bir alan edinin:
+// Aşağıda bir alan koleksiyonundan alanları kaldırmanın dört yolu bulunmaktadır.
+// 1 - Bir alanın kendisini kaldırmasını sağla:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Kaldırma yöntemine ilettiğimiz bir alanı kaldırmak için koleksiyonu alın:
+// 2 - Kaldırma yöntemine geçirdiğimiz bir alanı kaldırmak için koleksiyonu edinin:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Bir dizindeki koleksiyondan bir alanı kaldırın:
+// 3 - Bir dizindeki bir koleksiyondan bir alanı kaldır:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
+// 4 - Koleksiyondaki tüm alanları aynı anda kaldır:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

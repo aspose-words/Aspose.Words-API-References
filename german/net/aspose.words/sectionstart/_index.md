@@ -3,14 +3,14 @@ title: SectionStart Enum
 linktitle: SectionStart
 articleTitle: SectionStart
 second_title: Aspose.Words für .NET
-description: Aspose.Words.SectionStart opsomming. Die Art der Pause am Anfang des Abschnitts in C#.
+description: Erkunden Sie die Aufzählung Aspose.Words.SectionStart, um Abschnittsumbrüche zu verstehen und die Dokumentformatierung für eine bessere Kontrolle und Präsentation zu verbessern.
 type: docs
-weight: 5760
+weight: 6590
 url: /de/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
 
-Die Art der Pause am Anfang des Abschnitts.
+Die Art des Umbruchs am Anfang des Abschnitts.
 
 ```csharp
 public enum SectionStart
@@ -22,7 +22,7 @@ public enum SectionStart
 | --- | --- | --- |
 | Continuous | `0` | Der neue Abschnitt beginnt auf derselben Seite wie der vorherige Abschnitt. |
 | NewColumn | `1` | Der Abschnitt beginnt mit einer neuen Spalte. |
-| NewPage | `2` | Der Abschnitt beginnt mit einer neuen Seite. |
+| NewPage | `2` | Der Abschnitt beginnt auf einer neuen Seite. |
 | EvenPage | `3` | Der Abschnitt beginnt auf einer neuen geraden Seite. |
 | OddPage | `4` | Der Abschnitt beginnt auf einer neuen ungeraden Seite. |
 
@@ -35,12 +35,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -53,7 +53,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -73,15 +73,15 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-Zeigt, wie Sie angeben, wie sich ein neuer Abschnitt vom vorherigen trennt.
+Zeigt, wie Sie angeben, wie sich ein neuer Abschnitt vom vorherigen abgrenzt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Abschnittswechseltypen bestimmen, wie sich ein neuer Abschnitt vom vorherigen Abschnitt trennt.
-// Nachfolgend finden Sie fünf Arten von Abschnittsumbrüchen.
+// Abschnittsumbruchtypen bestimmen, wie sich ein neuer Abschnitt vom vorherigen Abschnitt abgrenzt.
+// Unten sind fünf Arten von Abschnittsumbrüchen aufgeführt.
 // 1 – Beginnt den nächsten Abschnitt auf einer neuen Seite:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");

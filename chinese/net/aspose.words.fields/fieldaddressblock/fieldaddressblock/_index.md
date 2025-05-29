@@ -2,8 +2,8 @@
 title: FieldAddressBlock
 linktitle: FieldAddressBlock
 articleTitle: FieldAddressBlock
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAddressBlock 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldAddressBlock 构造函数——您简化地址管理的首选解决方案。使用我们高效的默认构造函数简化编码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldaddressblock/fieldaddressblock/

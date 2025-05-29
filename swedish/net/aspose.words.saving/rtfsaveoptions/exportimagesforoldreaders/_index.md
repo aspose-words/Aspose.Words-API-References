@@ -3,14 +3,14 @@ title: RtfSaveOptions.ExportImagesForOldReaders
 linktitle: ExportImagesForOldReaders
 articleTitle: ExportImagesForOldReaders
 second_title: Aspose.Words för .NET
-description: RtfSaveOptions ExportImagesForOldReaders fast egendom. Anger om nyckelorden för gamla läsare skrivs till RTF eller inte. Detta kan avsevärt påverka storleken på RTFdokumentet. Standardvärdet ärSann  i C#.
+description: Optimera dina RTF-dokument med egenskapen ExportImagesForOldReaders. Kontrollera inkludering av nyckelord för äldre läsare, vilket påverkar filstorlek och prestanda.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
 ---
 ## RtfSaveOptions.ExportImagesForOldReaders property
 
-Anger om nyckelorden för "gamla läsare" skrivs till RTF eller inte. Detta kan avsevärt påverka storleken på RTF-dokumentet. Standardvärdet är`Sann` .
+Anger om nyckelorden för "gamla läsare" skrivs till RTF eller inte. Detta kan påverka storleken på RTF-dokumentet avsevärt. Standardvärdet är`sann` .
 
 ```csharp
 public bool ExportImagesForOldReaders { get; set; }
@@ -18,9 +18,9 @@ public bool ExportImagesForOldReaders { get; set; }
 
 ## Anmärkningar
 
-"Gamla läsare" är pre-Microsoft Word 97-program och även WordPad. När detta alternativ är`Sann` Aspose.Words skriver ytterligare RTF-nyckelord. Dessa nyckelord gör att dokumentet kan visas korrekt när det öppnas i en "gammal läsare"-applikation, men kan avsevärt öka storleken på dokumentet.
+"Gamla läsare" är program som är äldre än Microsoft Word 97 och även WordPad. När det här alternativet är aktiverat`sann` Aspose.Words skriver ytterligare RTF-nyckelord. Dessa nyckelord gör att dokumentet visas korrekt när det öppnas i ett "gammalt läsarprogram", men kan öka dokumentets storlek avsevärt.
 
-Om du ställer in det här alternativet till`falsk`, då kommer endast bilder i WMF-, EMF- och BMP-format att visas i "gamla läsare".
+Om du ställer in det här alternativet på`falsk`då kommer endast bilder i WMF-, EMF- och BMP-format att visas i "gamla läsare".
 
 ## Exempel
 
@@ -29,19 +29,19 @@ Visar hur man sparar ett dokument till .rtf med anpassade alternativ.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Skapa ett "RtfSaveOptions"-objekt för att skicka till dokumentets "Save"-metod för att ändra hur vi sparar det till en RTF.
+// Skapa ett "RtfSaveOptions"-objekt som ska skickas till dokumentets "Save"-metod för att ändra hur vi sparar det till en RTF-fil.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// Ställ in egenskapen "ExportCompactSize" till "true" till
-// minska storleken på det sparade dokumentet på bekostnad av höger-till-vänster-textkompatibilitet.
+// Sätt egenskapen "ExportCompactSize" till "true" för att
+// minska storleken på det sparade dokumentet på bekostnad av textkompatibilitet från höger till vänster.
 options.ExportCompactSize = true;
 
-// Ställ in egenskapen "ExportImagesFotOldReaders" till "true" för att använda extra nyckelord för att säkerställa att vårt dokument är
-// kompatibel med pre-Microsoft Word 97 läsare och WordPad.
-// Ställ in egenskapen "ExportImagesFotOldReaders" till "false" för att minska storleken på dokumentet,
-// men hindra gamla läsare från att kunna läsa eventuella icke-metafiler eller BMP-bilder som dokumentet kan innehålla.
+// Sätt egenskapen "ExportImagesFotOldReaders" till "true" för att använda extra nyckelord för att säkerställa att vårt dokument är
+// kompatibel med läsare och WordPad före Microsoft Word 97.
+// Sätt egenskapen "ExportImagesFotOldReaders" till "false" för att minska dokumentets storlek,
+// men förhindra att gamla läsare kan läsa eventuella icke-metafiler eller BMP-bilder som dokumentet kan innehålla.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

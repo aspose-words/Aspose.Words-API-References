@@ -3,14 +3,14 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings Query ملكية. يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة في C#.
+description: اكتشف كيفية الاستفادة من خاصية استعلام MailMergeSettings لاستيراد السجلات بكفاءة من مصادر البيانات الخارجية لإجراء عمليات دمج بريد سلسة.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+يحتوي على سلسلة لغة الاستعلام المنظمة التي يجب تشغيلها على مصدر البيانات الخارجي المحدد لـ إرجاع مجموعة السجلات التي يجب استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string Query { get; set; }
@@ -18,7 +18,7 @@ public string Query { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

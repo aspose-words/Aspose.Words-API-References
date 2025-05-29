@@ -3,14 +3,14 @@ title: MailMerge.MailMergeCallback
 linktitle: MailMergeCallback
 articleTitle: MailMergeCallback
 second_title: Aspose.Words لـ .NET
-description: MailMerge MailMergeCallback ملكية. يسمح بمعالجة أحداث معينة أثناء دمج البريد في C#.
+description: حسّن دمج البريد باستخدام خاصية MailMergeCallback. أدر الأحداث بسهولة لأتمتة مستنداتك بسلاسة وكفاءة أعلى.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
 ---
 ## MailMerge.MailMergeCallback property
 
-يسمح بمعالجة أحداث معينة أثناء دمج البريد.
+يسمح بالتعامل مع أحداث معينة أثناء دمج البريد.
 
 ```csharp
 public IMailMergeCallback MailMergeCallback { get; set; }
@@ -18,7 +18,7 @@ public IMailMergeCallback MailMergeCallback { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
+يوضح كيفية تحديد منطق مخصص للتعامل مع الأحداث أثناء دمج البريد.
 
 ```csharp
 public void Callback()
@@ -26,7 +26,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل علامتي دمج المراسلات تشيران إلى عمودين في مصدر بيانات.
+    // إدراج علامتي دمج بريد تشيران إلى عمودين في مصدر بيانات.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -39,8 +39,8 @@ public void Callback()
     // قم بتكوين دمج البريد الخاص بنا لاستخدام علامات دمج البريد البديلة.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // بعد ذلك، تأكد من أن عملية دمج البريد ستحول العلامات، مثل علامة "LastName" الخاصة بنا،
-    // إلى MERGEFIELDs في مستندات الدمج.
+    // ثم تأكد من أن دمج البريد سيحول العلامات، مثل علامة "LastName" الخاصة بنا،
+    // في MERGEFIELDs في مستندات الدمج.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -51,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// حساب عدد المرات التي يستبدل فيها دمج البريد علامات دمج البريد التي لم يتمكن من تعبئتها بالبيانات باستخدام MERGEFIELDs.
+/// يحسب عدد المرات التي يستبدل فيها دمج البريد علامات دمج البريد التي لا يمكنه ملؤها بالبيانات باستخدام MERGEFIELDs.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

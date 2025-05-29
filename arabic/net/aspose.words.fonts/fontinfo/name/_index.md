@@ -3,14 +3,14 @@ title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: FontInfo Name ملكية. الحصول على اسم الخط في C#.
+description: اكتشف خاصية اسم FontInfo للوصول بسهولة إلى أسماء الخطوط والاستفادة منها لتحسين الطباعة في مشاريعك.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
 
-الحصول على اسم الخط.
+يحصل على اسم الخط.
 
 ```csharp
 public string Name { get; }
@@ -18,7 +18,7 @@ public string Name { get; }
 
 ## ملاحظات
 
-لا يمكن`باطل`. يمكن أن تكون سلسلة فارغة.
+لا يمكن أن يكون`باطل`.يمكن أن تكون سلسلة فارغة.
 
 ## أمثلة
 
@@ -28,7 +28,7 @@ public string Name { get; }
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// اطبع جميع الخطوط المستخدمة وغير المستخدمة في المستند.
+//طباعة جميع الخطوط المستخدمة وغير المستخدمة في المستند.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

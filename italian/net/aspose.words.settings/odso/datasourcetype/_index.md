@@ -3,14 +3,14 @@ title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
 second_title: Aspose.Words per .NET
-description: Odso DataSourceType proprietà. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa stampa unione. Il valore predefinito èDefault  in C#.
+description: Scopri la proprietà DataSourceType di Odso per connessioni di stampa unione senza interruzioni. Specifica facilmente origini dati esterne e migliora l'efficienza del tuo flusso di lavoro.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa stampa unione. Il valore predefinito èDefault .
+Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa unione di stampa. Il valore predefinito èDefault .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -22,7 +22,7 @@ Questa impostazione è puramente un suggerimento del tipo di origine dati utiliz
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

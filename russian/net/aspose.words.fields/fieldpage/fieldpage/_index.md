@@ -3,7 +3,7 @@ title: FieldPage
 linktitle: FieldPage
 articleTitle: FieldPage
 second_title: Aspose.Words для .NET
-description: FieldPage строитель. Конструктор по умолчанию на С#.
+description: Создавайте потрясающие страницы без усилий с помощью интуитивно понятного конструктора FieldPage. Создавайте уникальные макеты за считанные минуты и улучшайте свое присутствие в сети!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldpage/fieldpage/

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 linktitle: ExportOriginalUrlForLinkedImages
 articleTitle: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportOriginalUrlForLinkedImages proprietà. Specifica se lURL originale deve essere utilizzato come URL delle immagini collegate. Il valore predefinito èfalso  in C#.
+description: Scopri la funzione ExportOriginalUrlForLinkedImages di HtmlSaveOptions, che ti consente di utilizzare gli URL originali per le immagini collegate. Migliora l'integrità del tuo documento!
 type: docs
 weight: 200
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -18,13 +18,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ## Osservazioni
 
-Se il valore è impostato su`VERO`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) il valore viene utilizzato poiché l'URL delle immagini collegate e le immagini collegate non vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/).
+Se il valore è impostato su`VERO`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) il valore è usato come URL delle immagini collegate e le immagini collegate non vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/).
 
-Se il valore è impostato su`falso`le immagini collegate vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/) e l'URL di ciascuna immagine collegata viene costruito in base alla cartella del documento,[`ImagesFolder`](../imagesfolder/) e[`ImagesFolderAlias`](../imagesfolderalias/) proprietà.
+Se il valore è impostato su`falso`le immagini collegate vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/) e l'URL di ogni immagine collegata viene costruito in base alla cartella del documento,[`ImagesFolder`](../imagesfolder/) e[`ImagesFolderAlias`](../imagesfolderalias/) proprietà.
 
 ## Esempi
 
-Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà durante il salvataggio di un documento in HTML.
+Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà quando si salva un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -38,7 +38,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://esempio.com/fonts",
+    FontsFolderAlias = "http://esempio.com/font",
     ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true

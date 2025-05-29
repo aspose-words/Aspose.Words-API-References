@@ -3,7 +3,7 @@ title: DigitalSignature.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: Aspose.Words pour .NET
-description: DigitalSignature IsValid propriété. Retoursvrai si cette signature numérique est valide et que le document na pas été falsifié en C#.
+description: Assurez l'intégrité de vos documents grâce à la propriété « DigitalSignature IsValid », qui confirme leur authenticité et les protège contre toute falsification. Faites confiance à vos signatures numériques !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

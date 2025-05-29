@@ -3,7 +3,7 @@ title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words для .NET
-description: FrameFormat VerticalAlignment свойство. Получает вертикальное выравнивание указанного кадра на С#.
+description: Откройте для себя свойство FrameFormat VerticalAlignment, которое позволяет легко управлять вертикальным выравниванием фреймов, без труда улучшая дизайн макета.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/frameformat/verticalalignment/

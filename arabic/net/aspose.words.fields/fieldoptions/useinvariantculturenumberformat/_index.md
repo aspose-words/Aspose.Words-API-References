@@ -3,14 +3,14 @@ title: FieldOptions.UseInvariantCultureNumberFormat
 linktitle: UseInvariantCultureNumberFormat
 articleTitle: UseInvariantCultureNumberFormat
 second_title: Aspose.Words لـ .NET
-description: FieldOptions UseInvariantCultureNumberFormat ملكية. الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not في C#.
+description: اكتشف خاصية FieldOptions UseInvariantCultureNumberFormat لإدارة تنسيق الأرقام بسهولة باستخدام الثقافة الثابتة للتعامل مع البيانات بشكل متسق.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
 
-الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not
+يحصل على القيمة أو يعينها للإشارة إلى أن تنسيق الرقم يتم تحليله باستخدام ثقافة ثابتة أم لا
 
 ```csharp
 public bool UseInvariantCultureNumberFormat { get; set; }
@@ -18,9 +18,9 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ## ملاحظات
 
-عند تعيين هذه الخاصية على`حقيقي` ، تنسيق الأرقام مأخوذ من ثقافة ثابتة.
+عندما يتم تعيين هذه الخاصية على`حقيقي`، يتم أخذ تنسيق الرقم من ثقافة ثابتة.
 
-عند تعيين هذه الخاصية على`خطأ شنيع` تنسيق الرقم مأخوذ من ثقافة الموضوع الحالي.
+عندما يتم تعيين هذه الخاصية على`خطأ شنيع` ، يتم أخذ تنسيق الرقم من ثقافة الخيط الحالي.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
@@ -36,14 +36,14 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
- // في بعض الأحيان، قد لا تقوم الحقول بتنسيق أرقامها بشكل صحيح في ظل ثقافات معينة.
+ // في بعض الأحيان، قد لا تقوم الحقول بتنسيق أرقامها بشكل صحيح في بعض الثقافات.
 Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
-Assert.AreEqual("$1234567,89 .     ", field.Result);
+Assert.AreEqual("$1.234.567,89 ,     ", field.Result);
 
-// لإصلاح ذلك، يمكننا تغيير ثقافة الموضوع بأكمله.
-// هناك طريقة أخرى لإصلاح ذلك وهي تعيين هذه العلامة،
-// الذي يحصل على جميع الحقول لاستخدام الثقافة الثابتة عند تنسيق الأرقام.
-// تتيح لنا هذه الطريقة تجنب تغيير ثقافة الموضوع بأكمله.
+// لإصلاح ذلك، يمكننا تغيير الثقافة للموضوع بأكمله.
+// هناك طريقة أخرى لإصلاح ذلك وهي تعيين هذا العلم،
+// الذي يجعل جميع الحقول تستخدم الثقافة الثابتة عند تنسيق الأرقام.
+// تسمح لنا هذه الطريقة بتجنب تغيير الثقافة للموضوع بأكمله.
 doc.FieldOptions.UseInvariantCultureNumberFormat = true;
 field.Update();
 Assert.AreEqual("$1.234.567,89", field.Result);

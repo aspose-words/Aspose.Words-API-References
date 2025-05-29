@@ -3,14 +3,14 @@ title: ControlChar.Lf
 linktitle: Lf
 articleTitle: Lf
 second_title: Aspose.Words für .NET
-description: ControlChar Lf veld. Zeilenvorschubzeichen x000a oder n. Gleich wieLineFeed  in C#.
+description: Entdecken Sie ControlChar Lf, das unverzichtbare Zeilenvorschubzeichen (x000a) für nahtlose Textformatierung. Steigern Sie noch heute Ihre Programmiereffizienz!
 type: docs
 weight: 110
 url: /de/net/aspose.words/controlchar/lf/
 ---
 ## ControlChar.Lf field
 
-Zeilenvorschubzeichen: „\x000a“ oder „\n“. Gleich wie[`LineFeed`](../linefeed/) .
+Zeilenvorschubzeichen: "\x000a" oder "\n". Dasselbe wie[`LineFeed`](../linefeed/) .
 
 ```csharp
 public static readonly string Lf;
@@ -18,26 +18,26 @@ public static readonly string Lf;
 
 ## Beispiele
 
-Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
+Zeigt, wie einem Dokument verschiedene Steuerzeichen hinzugefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein reguläres Leerzeichen hinzufügen.
+// Fügen Sie ein normales Leerzeichen hinzu.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Fügen Sie ein NBSP hinzu, bei dem es sich um ein geschütztes Leerzeichen handelt.
-// Im Gegensatz zum regulären Leerzeichen kann dieses Leerzeichen an seiner Position keinen automatischen Zeilenumbruch haben.
+// Fügen Sie ein NBSP hinzu, ein geschütztes Leerzeichen.
+// Anders als beim normalen Leerzeichen kann an dieser Stelle kein automatischer Zeilenumbruch erfolgen.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Tabulatorzeichen hinzufügen.
+// Ein Tabulatorzeichen hinzufügen.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Zeilenumbruch hinzufügen.
+// Einen Zeilenumbruch hinzufügen.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Eine neue Zeile hinzufügen und einen neuen Absatz beginnen.
+// Fügt eine neue Zeile hinzu und beginnt einen neuen Absatz.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -45,10 +45,10 @@ Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true)
 // Das Zeilenvorschubzeichen hat zwei Versionen.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
-// Wagenrücklauf und Zeilenvorschub können gemeinsam durch ein Zeichen dargestellt werden.
+// Wagenrückläufe und Zeilenvorschübe können zusammen durch ein Zeichen dargestellt werden.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Einen Absatzumbruch hinzufügen, der einen neuen Absatz beginnt.
+// Fügen Sie einen Absatzumbruch hinzu, der einen neuen Absatz beginnt.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
@@ -60,20 +60,20 @@ Assert.AreEqual(1, doc.Sections.Count);
 // Einen Seitenumbruch hinzufügen.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
-// Ein Seitenumbruch hat denselben Wert wie ein Abschnittsumbruch.
+// Ein Seitenumbruch hat den gleichen Wert wie ein Abschnittsumbruch.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Einen neuen Abschnitt einfügen und dann seine Spaltenanzahl auf zwei setzen.
+// Fügen Sie einen neuen Abschnitt ein und legen Sie dann die Spaltenanzahl auf zwei fest.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// Wir können ein Steuerzeichen verwenden, um den Punkt zu markieren, an dem der Text in die nächste Spalte wechselt.
+// Wir können ein Steuerzeichen verwenden, um den Punkt zu markieren, an dem der Text in die nächste Spalte verschoben wird.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Für die meisten Zeichen gibt es char- und string-Gegenstücke.
+// Für die meisten Zeichen gibt es Char- und String-Gegenstücke.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

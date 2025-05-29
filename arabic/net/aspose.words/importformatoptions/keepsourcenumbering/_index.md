@@ -3,14 +3,14 @@ title: ImportFormatOptions.KeepSourceNumbering
 linktitle: KeepSourceNumbering
 articleTitle: KeepSourceNumbering
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions KeepSourceNumbering ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد كيفية استيراد الترقيم عندما يتعارض مع مستندات المصدر و الوجهة. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تحكم في ترقيم المستندات باستخدام خاصية KeepSourceNumbering في ImportFormatOptions. أدر التعارضات بسهولة لضمان عمليات استيراد سلسة. الافتراضي: خطأ.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-الحصول على قيمة منطقية أو تعيينها والتي تحدد كيفية استيراد الترقيم عندما يتعارض مع مستندات المصدر و الوجهة. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها لتحديد كيفية استيراد الترقيم عندما يتعارض في المستندات المصدر و الوجهة. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }
@@ -24,8 +24,8 @@ public bool KeepSourceNumbering { get; set; }
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// قم بتعيين خاصية "KeepSourceNumbering" على "صحيح" لتطبيق معرف تعريف قائمة مختلف
-// إلى أنماط متطابقة عندما يقوم Aspose.Words باستيرادها إلى المستندات الوجهة.
+// اضبط خاصية "KeepSourceNumbering" على "true" لتطبيق معرف تعريف قائمة مختلف
+// إلى الأنماط المتطابقة مثل Aspose.Words التي يستوردها إلى المستندات الوجهة.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -42,10 +42,10 @@ Assert.AreEqual(4, dstDoc.Lists.Count);
 
 ImportFormatOptions options = new ImportFormatOptions();
 
-// إذا كان هناك تعارض بين أنماط القائمة، فقم بتطبيق تنسيق القائمة الخاص بالمستند المصدر.
-// قم بتعيين خاصية "KeepSourceNumbering" على "خطأ" لعدم استيراد أي أرقام قائمة إلى المستند الوجهة.
-// اضبط خاصية "KeepSourceNumbering" على "صحيح" لاستيراد كل التضارب
-// ترقيم نمط القائمة بنفس المظهر الموجود في المستند المصدر.
+// إذا كان هناك تعارض بين أنماط القائمة، قم بتطبيق تنسيق القائمة الخاص بالمستند المصدر.
+// قم بتعيين خاصية "KeepSourceNumbering" إلى "false" لعدم استيراد أي أرقام قائمة إلى المستند الوجهة.
+// اضبط خاصية "KeepSourceNumbering" على "true" لاستيراد جميع البيانات المتضاربة
+// ترقيم نمط القائمة بنفس المظهر الذي كان عليه في المستند المصدر.
 options.KeepSourceNumbering = isKeepSourceNumbering;
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
@@ -54,21 +54,21 @@ dstDoc.UpdateListLabels();
 Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
 ```
 
-يوضح كيفية حل تضارب ترقيم القائمة في المستندات المصدر والوجهة.
+يوضح كيفية حل تعارضات ترقيم القائمة في المستندات المصدر والوجهة.
 
 ```csharp
-// افتح مستندًا بنظام ترقيم قائمة مخصص، ثم انسخه.
+// افتح مستندًا يحتوي على مخطط ترقيم قائمة مخصص، ثم استنسخه.
 // نظرًا لأن كلاهما لهما نفس تنسيق الترقيم، فسوف تتعارض التنسيقات إذا قمنا باستيراد مستند واحد إلى الآخر.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// عندما نستورد نسخة المستند إلى المستند الأصلي ثم نلحقه،
-// ثم ستنضم القائمتان بنفس تنسيق القائمة.
-// إذا قمنا بتعيين علامة "KeepSourceNumbering" على "خطأ"، فسيتم استنساخ القائمة من المستند
-// الذي نلحقه بالأصل سيستمر في ترقيم القائمة التي نلحقها بها.
-// سيؤدي هذا إلى دمج القائمتين بشكل فعال في قائمة واحدة.
-// إذا قمنا بتعيين علامة "KeepSourceNumbering" على "صحيح"، فسيتم استنساخ المستند
- // ستحتفظ القائمة بترقيمها الأصلي، مما يجعل القائمتين تظهران كقوائم منفصلة.
+// عندما نقوم باستيراد نسخة من المستند إلى المستند الأصلي ثم إضافته،
+// ثم سيتم دمج القائمتين اللتين لهما نفس تنسيق القائمة.
+// إذا قمنا بتعيين علامة "KeepSourceNumbering" إلى "false"، فسيتم استنساخ القائمة من المستند
+// الذي نضيفه إلى الأصل سيحمل ترقيم القائمة التي نضيفه إليها.
+// سيؤدي هذا إلى دمج القائمتين في قائمة واحدة بشكل فعال.
+// إذا قمنا بتعيين علامة "KeepSourceNumbering" إلى "true"، فسيتم استنساخ المستند
+ // ستحافظ القائمة على ترقيمها الأصلي، مما يجعل القائمتين تظهران كقوائم منفصلة.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

@@ -3,14 +3,14 @@ title: ChartSeries.Smooth
 linktitle: Smooth
 articleTitle: Smooth
 second_title: Aspose.Words per .NET
-description: ChartSeries Smooth proprietà. Permette di specificare se la linea che collega i punti sul grafico deve essere smussata utilizzando le spline CatmullRom in C#.
+description: Migliora i tuoi grafici con la proprietà Smooth di ChartSeries. Crea facilmente linee fluide e visivamente accattivanti utilizzando gli spline CatmullRom per una maggiore chiarezza dei dati.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 ## ChartSeries.Smooth property
 
-Permette di specificare se la linea che collega i punti sul grafico deve essere smussata utilizzando le spline Catmull-Rom.
+Consente di specificare se la linea che collega i punti sul grafico deve essere levigata utilizzando gli spline Catmull-Rom.
 
 ```csharp
 public bool Smooth { get; set; }
@@ -18,7 +18,7 @@ public bool Smooth { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare i punti dati su un grafico a linee.
+Mostra come lavorare con i punti dati su un grafico a linee.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,14 +34,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatizza i punti dati del grafico facendoli apparire come forme di diamante.
-    foreach (ChartSeries series in chart.Series) 
+    // Metti in risalto i punti dati del grafico facendoli apparire come rombi.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appianare la linea che rappresenta la prima serie di dati.
+    // Smussa la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
+    // Verificare che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo cancellare il formato singolarmente.
+    dataPoint.ClearFormat();
+
+    // Possiamo anche eliminare un'intera serie di punti dati in una volta sola.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

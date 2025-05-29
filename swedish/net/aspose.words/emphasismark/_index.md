@@ -3,14 +3,14 @@ title: EmphasisMark Enum
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words för .NET
-description: Aspose.Words.EmphasisMark uppräkning. Anger möjliga typer av betoningsmärke i C#.
+description: Upptäck Aspose.Words.EmphasisMark enum, med olika betoningstyper för att förbättra formateringen av ditt dokument. Öka din texts effekt idag!
 type: docs
-weight: 1460
+weight: 1870
 url: /sv/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Anger möjliga typer av betoningsmärke.
+Anger möjliga typer av betoningstecken.
 
 ```csharp
 public enum EmphasisMark
@@ -20,20 +20,20 @@ public enum EmphasisMark
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Ingen betoning. |
-| OverSolidCircle | `1` | Betoningen är en hel svart cirkel som visas ovanför texten. |
-| OverComma | `2` | Betoningen är ett kommatecken som visas ovanför texten. |
-| OverWhiteCircle | `3` | Betoningen är en tom vit cirkel som visas ovanför texten. |
-| UnderSolidCircle | `4` | Betoningen är en hel svart cirkel som visas under texten. |
+| None | `0` | Inget betoningstecken. |
+| OverSolidCircle | `1` | Betoningstecken är en heldragen svart cirkel som visas ovanför texten. |
+| OverComma | `2` | Betoningstecken är ett kommatecken som visas ovanför text. |
+| OverWhiteCircle | `3` | Betoningstecken är en tom vit cirkel som visas ovanför texten. |
+| UnderSolidCircle | `4` | Betoningstecken är en heldragen svart cirkel som visas under texten. |
 
 ## Exempel
 
-Visar hur man lägger till ytterligare tecken renderat ovanför/under tecknet.
+Visar hur man lägger till ytterligare tecken som renderas ovanför/under tecknet.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Möjliga typer av betoningsmärke:
+// Möjliga typer av betoningstecken:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

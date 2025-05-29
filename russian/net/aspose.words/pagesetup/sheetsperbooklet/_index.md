@@ -3,14 +3,14 @@ title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
 second_title: Aspose.Words для .NET
-description: PageSetup SheetsPerBooklet свойство. Возвращает или задает количество страниц которые будут включены в каждый буклет на С#.
+description: Откройте для себя свойство PageSetup SheetsPerBooklet, которое позволяет легко управлять количеством страниц в брошюре, улучшая макет документа и эффективность печати.
 type: docs
 weight: 400
 url: /ru/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Возвращает или задает количество страниц, которые будут включены в каждый буклет.
+Возвращает или задает количество страниц, включаемых в каждую брошюру.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -18,12 +18,12 @@ public int SheetsPerBooklet { get; set; }
 
 ## Примеры
 
-Показывает, как настроить документ, который можно распечатать в виде сгиба книги.
+Показывает, как настроить документ, который можно напечатать в виде книжного сгиба.
 
 ```csharp
 Document doc = new Document();
 
-// Вставляем текст, занимающий 16 страниц.
+// Вставьте текст, занимающий 16 страниц.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -33,13 +33,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Настройте свойство «PageSetup» первого раздела для печати документа в виде сгиба книги.
-// Когда мы печатаем этот документ с обеих сторон, мы можем взять страницы и сложить их друг на друга
-// и складываем их все сразу посередине. Содержимое документа выстроится в книжную складку.
+// Настройте свойство «PageSetup» первого раздела для печати документа в виде книжного сгиба.
+// Когда мы печатаем этот документ с обеих сторон, мы можем взять страницы и сложить их в стопку
+// и сложите их все посередине одновременно. Содержимое документа выстроится в книжный сгиб.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Мы можем указать количество листов только кратное 4.
+// Мы можем указать только количество листов, кратное 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

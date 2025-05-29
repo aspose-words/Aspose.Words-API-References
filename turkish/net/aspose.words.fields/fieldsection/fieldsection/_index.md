@@ -2,8 +2,8 @@
 title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
-second_title: Aspose.Words for .NET
-description: FieldSection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldSection oluşturucusunu keşfedin—kusursuz entegrasyon için başvuracağınız çözüm. Verimli geliştirme için varsayılan işlevlerin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldsection/fieldsection/

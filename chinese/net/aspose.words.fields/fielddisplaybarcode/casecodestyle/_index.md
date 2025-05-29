@@ -2,15 +2,15 @@
 title: FieldDisplayBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDisplayBarcode CaseCodeStyle 财产. 获取或设置条形码类型 ITF14 的 Case Code 样式有效值为 STDEXTADD 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ITF14 条形码的 FieldDisplayBarcode CaseCodeStyle 属性。使用 STDEXTADD 等有效选项轻松自定义 Case Code 样式。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
 ## FieldDisplayBarcode.CaseCodeStyle property
 
-获取或设置条形码类型 ITF14 的 Case Code 样式。有效值为 [STD&#x7C;EXT&#x7C;ADD]
+获取或设置 ITF14 条形码类型的 Case Code 样式。有效值为 [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,7 +18,7 @@ public string CaseCodeStyle { get; set; }
 
 ## 例子
 
-演示如何插入 DISPLAYBARCODE 字段并设置其属性。
+展示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// 下面是 DISPLAYBARCODE 字段可以显示的四种类型的条形码，以各种方式装饰。
-// 1 - 具有自定义颜色的 QR 码：
+// 以下是 DISPLAYBARCODE 字段可以显示的四种以各种方式装饰的条形码。
+// 1 - 自定义颜色的二维码：
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 条形码，具有指定的案例代码：
+// 4 - ITF4 条形码，带有指定的案例代码：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

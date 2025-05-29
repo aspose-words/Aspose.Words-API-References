@@ -3,7 +3,7 @@ title: Stroke.BackColor
 linktitle: BackColor
 articleTitle: BackColor
 second_title: Aspose.Words pour .NET
-description: Stroke BackColor propriété. Obtient ou définit la couleur darrièreplan du trait en C#.
+description: Personnalisez la couleur d'arrière-plan de votre trait avec la propriété Stroke BackColor. Sublimez vos créations avec des couleurs vives et personnalisées pour un look unique.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/stroke/backcolor/
@@ -18,11 +18,11 @@ public Color BackColor { get; set; }
 
 ## Remarques
 
-La valeur par défaut d'un[`Shape`](../../shape/) est White.
+La valeur par défaut pour un[`Shape`](../../shape/) is White .
 
 ## Exemples
 
-Montrez comment définir le formatage des marqueurs.
+Montrez comment définir la mise en forme des marqueurs.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Définit le formatage du marqueur.
+// Définir le formatage du marqueur.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

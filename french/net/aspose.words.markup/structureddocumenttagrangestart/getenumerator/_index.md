@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart GetEnumerator méthode. Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud en C#.
+description: Découvrez la méthode StructuredDocumentTagRangeStart GetEnumerator pour une itération transparente sur les nœuds enfants, améliorant ainsi la structure et l'efficacité de votre document.
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
 ## StructuredDocumentTagRangeStart.GetEnumerator method
 
-Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud.
+Fournit un support pour chaque itération de style sur les nœuds enfants de ce nœud.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

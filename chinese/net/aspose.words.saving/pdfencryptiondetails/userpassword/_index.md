@@ -2,8 +2,8 @@
 title: PdfEncryptionDetails.UserPassword
 linktitle: UserPassword
 articleTitle: UserPassword
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfEncryptionDetails UserPassword 财产. 指定打开加密 PDF 文档所需的用户密码 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 UserPassword 属性如何通过要求访问密码来增强 PDF 安全性，确保您的文档受到保护和保密。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -18,13 +18,13 @@ public string UserPassword { get; set; }
 
 ## 评论
 
-需要用户密码才能打开加密的 PDF 文档进行查看。 中指定的权限[`Permissions`](../permissions/)将由阅读器软件强制执行。
+打开加密的 PDF 文档进行查看时需要用户密码。in 指定的权限[`Permissions`](../permissions/)将由阅读器软件强制执行。
 
-用户密码可以是`无效的`或空字符串，在这种情况下，当 打开 PDF 文档时，用户不需要密码。用户密码不能与所有者密码相同。
+用户密码可以是`无效的`或空字符串，在这种情况下，打开 PDF 文档时无需用户输入密码。用户密码不能与所有者密码相同。
 
 ## 例子
 
-演示如何设置已保存 PDF 文档的权限。
+展示如何设置已保存的 PDF 文档的权限。
 
 ```csharp
 Document doc = new Document();

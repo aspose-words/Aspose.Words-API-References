@@ -2,15 +2,15 @@
 title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
-second_title: Aspose.Words for .NET
-description: DocumentBuilder RowFormat mülk. Geçerli tablo satırı biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge tasarımı ve sunumu için tablo satırı biçimlendirmesine kolayca erişmek ve bunları özelleştirmek amacıyla DocumentBuilder RowFormat özelliğini keşfedin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-Geçerli tablo satırı biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+Geçerli tablo satır biçimlendirme özelliklerini temsil eden bir nesne döndürür.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## Örnekler
 
-Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
+Belge oluşturucuyla satırların nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları aşağıdakilere uygulayacaktır:
-// geçerli satırın yanı sıra daha sonra oluşturacağı yeni satırlar.
+// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları uygulayacaktır
+// mevcut satırı ve sonrasında oluşturduğu yeni satırlar.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// İlk satır dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
+// İlk satır, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -80,7 +80,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -91,7 +91,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -99,7 +99,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -123,8 +123,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -136,7 +136,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

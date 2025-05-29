@@ -2,8 +2,8 @@
 title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
 articleTitle: ScanSubfolders
-second_title: Aspose.Words for .NET
-description: FolderFontSource ScanSubfolders mülk. Alt klasörlerin taranıp taranmayacağını belirler C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş verimlilik için alt klasörleri taramayı seçerek yazı tipi organizasyonunu kolayca yönetmek için FolderFontSource ScanSubfolders özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -18,10 +18,10 @@ public bool ScanSubfolders { get; }
 
 ## Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Font kaynağı olarak fontları içeren yerel bir sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
+// Font dosyalarını içeren bir klasörden bir font kaynağı oluştur.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words pour .NET
-description: Border ThemeColor propriété. Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué associé à cet objet Border en C#.
+description: Découvrez comment utiliser la propriété Border ThemeColor pour personnaliser votre palette de couleurs et améliorer votre conception avec des thèmes dynamiques et personnalisés.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/border/themecolor/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Définit ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
+// Définissez ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

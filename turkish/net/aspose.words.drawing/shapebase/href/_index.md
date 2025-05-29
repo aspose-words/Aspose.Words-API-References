@@ -2,10 +2,10 @@
 title: ShapeBase.HRef
 linktitle: HRef
 articleTitle: HRef
-second_title: Aspose.Words for .NET
-description: ShapeBase HRef mülk. Bir şeklin tam köprü adresini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Şekillerinizin tam köprü adreslerini kolayca yönetmek, tasarımınızın etkileşimini ve işlevselliğini artırmak için ShapeBase HRef özelliğini keşfedin.
 type: docs
-weight: 230
+weight: 250
 url: /tr/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -20,23 +20,23 @@ public string HRef { get; set; }
 
 Varsayılan değer boş bir dizedir.
 
-Aşağıda bu özellik için geçerli değer örnekleri verilmiştir:
+Aşağıda bu özellik için geçerli değerlere dair örnekler verilmiştir:
 
 Tam URI:`https://www.aspose.com/`.
 
-Tam dosya adı:`C:\\Belgelerim\\SalesReport.doc`.
+Tam dosya adı:`C:\\Belgelerim\\SatışRaporu.doc`.
 
-Göreli URI:`../../../resource.txt`
+Bağıl URI:`../../../kaynak.txt`
 
-Göreli dosya adı:`..\\Belgelerim\\SalesReport.doc`.
+Göreceli dosya adı:`..\\Belgelerim\\SatışRaporu.doc`.
 
-Başka bir belgeye yer işareti koyun:`https://www.aspose.com/Products/Default.aspx#Suites`
+Başka bir belge içerisinde yer imi:`https://www.aspose.com/Ürünler/Default.aspx#Suites`
 
-Bu belgedeki yer işareti:`#KitapmakAdı`.
+Bu belge içinde yer imi:`#KitapMakerAdı`.
 
 ## Örnekler
 
-Görüntü içeren ve aynı zamanda köprü olan bir şeklin nasıl ekleneceğini gösterir.
+Bir resim içeren ve aynı zamanda bir köprü metni olan bir şeklin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,8 +47,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + Microsoft Word'deki şekle sol tıklamak yeni bir web tarayıcı penceresi açacaktır
-// ve bizi "HRef" özelliğindeki köprüye götür.
+// Microsoft Word'de şekle Ctrl + sol tıklamak yeni bir web tarayıcısı penceresi açacaktır
+// ve bizi "HRef" özelliğindeki köprü metnine götür.
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

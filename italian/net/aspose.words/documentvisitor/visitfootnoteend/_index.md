@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFootnoteEnd
 linktitle: VisitFootnoteEnd
 articleTitle: VisitFootnoteEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitFootnoteEnd metodo. Chiamato al termine dellenumerazione del testo di una nota a piè di pagina o di chiusura in C#.
+description: Scopri il metodo VisitFootnoteEnd di DocumentVisitor, essenziale per gestire in modo efficiente l'enumerazione del testo delle note a piè di pagina e di chiusura nelle tue applicazioni.
 type: docs
 weight: 210
 url: /it/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Chiamato al termine dell'enumerazione del testo di una nota a piè di pagina o di chiusura.
+Chiamato quando termina l'enumerazione di un testo di nota a piè di pagina o di nota di chiusura.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -34,8 +34,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void FootnoteToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi delle note a piè di pagina incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi Footnote rilevati e dei loro elementi figlio.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Nota a piè di pagina.
+    /// Chiamato quando nel documento viene rilevato un nodo Nota a piè di pagina.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -75,7 +75,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Footnote sono stati visitati.
+    /// Viene chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Nota a piè di pagina.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -87,7 +87,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -97,7 +97,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

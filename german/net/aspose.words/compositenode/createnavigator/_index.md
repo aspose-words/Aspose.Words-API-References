@@ -3,9 +3,9 @@ title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 articleTitle: CreateNavigator
 second_title: Aspose.Words für .NET
-description: CompositeNode CreateNavigator methode. Erstellt einen Navigator der zum Durchlaufen und Lesen von Knoten verwendet werden kann in C#.
+description: Entdecken Sie die CompositeNode CreateNavigator-Methode zum mühelosen Durchlaufen und Lesen von Knoten und verbessern Sie so Ihr Datennavigationserlebnis.
 type: docs
-weight: 70
+weight: 90
 url: /de/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -19,7 +19,7 @@ public XPathNavigator CreateNavigator()
 
 ## Beispiele
 
-Zeigt, wie Sie einen XPathNavigator erstellen und ihn dann zum Durchlaufen und Lesen von Knoten verwenden.
+Zeigt, wie ein XPathNavigator erstellt und anschließend zum Durchlaufen und Lesen von Knoten verwendet wird.
 
 ```csharp
 public void NodeXPathNavigator()
@@ -33,9 +33,9 @@ public void NodeXPathNavigator()
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // Der Dokumentenbaum enthält das Dokument, den ersten Abschnitt,
+        // Der Dokumentbaum enthält das Dokument, den ersten Abschnitt,
         // Hauptteil und erster Absatz als Knoten, wobei jeder ein einziges untergeordnetes Element des vorherigen ist.
-        // Wir können noch ein paar weitere hinzufügen, um dem Baum einige Zweige zu geben, die der Navigator durchqueren kann.
+        // Wir können noch ein paar hinzufügen, um dem Baum einige Zweige zu geben, die der Navigator durchlaufen kann.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -44,7 +44,7 @@ public void NodeXPathNavigator()
         docBuilder.MoveToSection(1);
         docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // Verwenden Sie unseren Navigator, um eine Karte aller Knoten im Dokument auf der Konsole zu drucken.
+        // Verwenden Sie unseren Navigator, um eine Karte aller Knoten im Dokument auf der Konsole auszudrucken.
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
@@ -52,9 +52,9 @@ public void NodeXPathNavigator()
 }
 
 /// <summary>
-/// Durchläuft alle untergeordneten Knoten eines zusammengesetzten Knotens und bildet die Struktur im Stil eines Verzeichnisbaums ab.
-/// Die Größe der Leerzeicheneinrückung gibt die Tiefe relativ zum Anfangsknoten an.
-/// Gibt den Textinhalt des aktuellen Knotens nur aus, wenn es sich um einen Run handelt.
+/// Durchläuft alle untergeordneten Elemente eines zusammengesetzten Knotens und bildet die Struktur im Stil eines Verzeichnisbaums ab.
+/// Die Größe der Leerraumeinrückung gibt die Tiefe im Verhältnis zum Anfangsknoten an.
+/// Druckt den Textinhalt des aktuellen Knotens nur, wenn es sich um einen Run handelt.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

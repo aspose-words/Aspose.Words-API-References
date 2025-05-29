@@ -3,7 +3,7 @@ title: FieldTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: FieldTitle Text eigendom. Ruft den Text des Titels ab oder legt ihn fest in C#.
+description: Verwalten Sie Ihre FieldTitle-Texteigenschaft mühelos. Rufen Sie einfach Titeltext ab oder legen Sie ihn fest, um die Übersichtlichkeit und Benutzerfreundlichkeit Ihrer Anwendung zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtitle/text/
@@ -23,10 +23,10 @@ Zeigt, wie das Feld TITLE verwendet wird.
 ```csharp
 Document doc = new Document();
 
- // Legen Sie einen Wert für die integrierte Dokumenteigenschaft „Titel“ fest.
+    // Legen Sie einen Wert für die integrierte Dokumenteigenschaft „Titel“ fest.
 doc.BuiltInDocumentProperties.Title = "My Title";
 
-// Wir können das TITLE-Feld verwenden, um den Wert dieser Eigenschaft im Dokument anzuzeigen.
+// Wir können das Feld TITLE verwenden, um den Wert dieser Eigenschaft im Dokument anzuzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Einen Wert für die Text-Eigenschaft des Feldes festlegen,
-// und dann das Feld aktualisieren, wird auch die entsprechende integrierte Eigenschaft mit dem neuen Wert überschrieben.
+// Festlegen eines Wertes für die Texteigenschaft des Feldes,
+// und dann wird durch die Aktualisierung des Felds auch die entsprechende integrierte Eigenschaft mit dem neuen Wert überschrieben.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

@@ -3,9 +3,9 @@ title: Font.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words para .NET
-description: Font Style propiedad. Obtiene o establece el estilo de carácter aplicado a este formato en C#.
+description: Descubra cómo utilizar la propiedad Estilo de fuente para personalizar los estilos de caracteres en su formato para mejorar el atractivo y la legibilidad del texto.
 type: docs
-weight: 400
+weight: 410
 url: /es/net/aspose.words/font/style/
 ---
 ## Font.Style property
@@ -18,13 +18,13 @@ public Style Style { get; set; }
 
 ## Ejemplos
 
-Aplica un subrayado doble a todas las ejecuciones de un documento formateadas con estilos de caracteres personalizados.
+Aplica un subrayado doble a todos los caracteres de un documento que estén formateados con estilos de caracteres personalizados.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta un estilo personalizado y aplícalo al texto creado con un generador de documentos.
+// Inserte un estilo personalizado y aplíquelo al texto creado con un generador de documentos.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -32,8 +32,8 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Iterar sobre cada ejecución y agregar un doble subrayado a cada estilo personalizado.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Itera sobre cada ejecución y agrega un subrayado doble a cada estilo personalizado.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     Style charStyle = run.Font.Style;
 

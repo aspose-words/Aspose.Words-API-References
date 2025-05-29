@@ -3,16 +3,16 @@ title: Border Class
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Border فصل. يمثل حدود الكائن في C#.
+description: اكتشف فئة Aspose.Words.Border، الحل الأمثل لتخصيص حدود الكائنات في المستندات. حسّن مشاريعك بدقة وأناقة!
 type: docs
-weight: 80
+weight: 270
 url: /ar/net/aspose.words/border/
 ---
 ## Border class
 
 يمثل حدود الكائن.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class Border : InternableComplexAttr
@@ -22,31 +22,31 @@ public class Border : InternableComplexAttr
 
 | اسم | وصف |
 | --- | --- |
-| [Color](../../aspose.words/border/color/) { get; set; } | الحصول على لون الحدود أو تعيينه. |
-| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | الحصول على أو تعيين مسافة الحد من النص أو من حافة الصفحة بالنقاط. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | إرجاع`حقيقي` إذا[`LineStyle`](./linestyle/) ليسNone . |
-| [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | الحصول على نمط الحدود أو تعيينه. |
-| [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | الحصول على أو تعيين عرض الحدود بالنقاط. |
-| [Shadow](../../aspose.words/border/shadow/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل. |
-| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | الحصول على لون السمة أو تعيينه في نظام الألوان المطبق المرتبط بكائن الحدود هذا. |
-| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه. |
+| [Color](../../aspose.words/border/color/) { get; set; } | يحصل على لون الحدود أو يعينه. |
+| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | يحصل على أو يعين مسافة الحدود من النص أو من حافة الصفحة بالنقاط. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | إرجاع`حقيقي` إذا كان[`LineStyle`](./linestyle/) ليس كذلكNone . |
+| [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | يحصل على نمط الحدود أو يعينه. |
+| [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | يحصل على عرض الحدود بالنقاط أو يعينه. |
+| [Shadow](../../aspose.words/border/shadow/) { get; set; } | يحصل على قيمة أو يعينها للإشارة إلى ما إذا كانت الحدود تحتوي على ظل. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | يحصل على لون السمة أو يعينه في مخطط الألوان المطبق المرتبط بكائن الحدود هذا. |
+| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | يحصل على قيمة مزدوجة لتفتيح اللون أو تعتيمه أو تعيينها. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | إعادة تعيين خصائص الحدود إلى القيم الافتراضية. |
-| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| override [GetHashCode](../../aspose.words/border/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | يحدد ما إذا كانت الحدود المحددة مساوية في القيمة للحد الحالي. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي. |
+| override [GetHashCode](../../aspose.words/border/gethashcode/)() | يعمل كدالة تجزئة لهذا النوع. |
 
 ## ملاحظات
 
-يمكن تطبيق الحدود على عناصر الوثيقة المختلفة بما في ذلك الفقرة، ، تشغيل النص داخل فقرة أو خلية جدول.
+يمكن تطبيق الحدود على عناصر مختلفة في المستند بما في ذلك الفقرة أو سلسلة من النص داخل فقرة أو خلية جدول.
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +61,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-يوضح كيفية إدراج فقرة ذات حد علوي.
+يوضح كيفية إدراج فقرة ذات حدود علوية.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// قم بتعيين ThemeColor فقط عند ضبط LineWidth أو LineStyle.
+// قم بتعيين ThemeColor فقط عند تعيين LineWidth أو LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

@@ -3,14 +3,14 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words для .NET
-description: Document MailMerge свойство. ВозвращаетMailMerge объект представляющий функцию слияния почты для документа на С#.
+description: Разблокируйте бесперебойную автоматизацию документооборота с помощью объекта MailMerge, улучшив свой рабочий процесс за счет легкого упрощения задач слияния почты.
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Возвращает[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) объект, представляющий функцию слияния почты для документа.
+Возвращает[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) объект, представляющий функциональность слияния почты для документа.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -30,14 +30,14 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
     // Ниже приведены два способа использования DataTable в качестве источника данных для слияния почты.
-    // 1 — использовать всю таблицу для слияния почты, чтобы создать один выходной документ слияния почты для каждой строки в таблице:
+    // 1 - Использовать всю таблицу для слияния почты, чтобы создать один выходной документ слияния почты для каждой строки в таблице:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 — использовать одну строку таблицы для создания одного выходного документа слияния почты:
+    // 2 - Используйте одну строку таблицы для создания одного выходного документа слияния:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -46,7 +46,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Создает исходный документ слияния почты.
+/// Создает исходный документ для слияния почты.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

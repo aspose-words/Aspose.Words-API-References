@@ -3,14 +3,14 @@ title: FieldAutoText.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words per .NET
-description: FieldAutoText EntryName proprietà. Ottiene o imposta il nome della voce di glossario in C#.
+description: Scopri la proprietà FieldAutoText EntryName per gestire facilmente i nomi delle voci di testo automatico, migliorando l'automazione e l'efficienza dei tuoi documenti.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldautotext/entryname/
 ---
 ## FieldAutoText.EntryName property
 
-Ottiene o imposta il nome della voce di glossario.
+Ottiene o imposta il nome della voce di testo automatico.
 
 ```csharp
 public string EntryName { get; set; }
@@ -18,12 +18,12 @@ public string EntryName { get; set; }
 
 ## Esempi
 
-Mostra come visualizzare un blocco predefinito con campi TESTO AUTOMATICO e GLOSSARIO.
+Mostra come visualizzare un blocco di costruzione con i campi AUTOTEXT e GLOSSARY.
 
 ```csharp
 Document doc = new Document();
 
-// Crea un documento di glossario e vi aggiunge un blocco predefinito di glossario.
+// Crea un documento di glossario e aggiungigli un blocco di testo automatico.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -33,7 +33,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Crea una fonte e aggiungila come testo al nostro elemento costitutivo.
+// Creiamo una sorgente e aggiungila come testo al nostro blocco di costruzione.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -46,14 +46,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due modi per utilizzare i campi per visualizzare il contenuto del nostro blocco predefinito.
-// 1 - Utilizzando un campo TESTO AUTOMATICO:
+// Di seguito sono riportati due modi per utilizzare i campi per visualizzare il contenuto del nostro blocco di costruzione.
+// 1 - Utilizzo di un campo AUTOTEXT:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Utilizzando un campo GLOSSARIO:
+// 2 - Utilizzo di un campo GLOSSARIO:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

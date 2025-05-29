@@ -3,7 +3,7 @@ title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words per .NET
-description: ImageWatermarkOptions Scale proprietà. Ottiene o imposta il fattore di scala espresso come frazione dellimmagine. Il valore predefinito è 0  auto in C#.
+description: Scopri la proprietà Scala di ImageWatermarkOptions per regolare facilmente il ridimensionamento dell'immagine e ottenere una filigrana ottimale. Valore predefinito: 0 automatico per un'integrazione perfetta.
 type: docs
 weight: 30
 url: /it/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +20,13 @@ public double Scale { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ## Osservazioni
 
 I valori validi vanno da 0 a 65,5 inclusi.
 
-La scala automatica significa che la filigrana verrà ridimensionata alla larghezza massima e all'altezza massima rispetto a i margini della pagina.
+La scala automatica significa che la filigrana verrà ridimensionata alla sua larghezza e altezza massime rispetto ai margini della pagina.
 
 ## Esempi
 
@@ -36,14 +36,19 @@ Mostra come creare una filigrana da un'immagine nel file system locale.
 Document doc = new Document();
 
             // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
-            // quindi lo passa durante la creazione di una filigrana da un file immagine.
+            // quindi passarlo durante la creazione di una filigrana da un file immagine.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Abbiamo diverse opzioni per inserire l'immagine:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

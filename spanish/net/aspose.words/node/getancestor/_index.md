@@ -3,14 +3,14 @@ title: Node.GetAncestor
 linktitle: GetAncestor
 articleTitle: GetAncestor
 second_title: Aspose.Words para .NET
-description: Node GetAncestor método. Obtiene el primer antepasado del tipo de objeto especificado en C#.
+description: Descubra el método Node GetAncestor para recuperar fácilmente el primer ancestro de un tipo de objeto específico, mejorando la eficiencia y precisión de su codificación.
 type: docs
 weight: 110
 url: /es/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(*Type*) {#getancestor_1}
 
-Obtiene el primer antepasado del tipo de objeto especificado.
+Obtiene el primer ancestro del tipo de objeto especificado.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -18,7 +18,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ancestorType | Type | El tipo de objeto del ancestro que se va a recuperar. |
+| ancestorType | Type | El tipo de objeto del ancestro a recuperar. |
 
 ### Valor_devuelto
 
@@ -26,11 +26,11 @@ El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasad
 
 ## Observaciones
 
-El tipo de antepasado coincide si es igual a*ancestorType* o derivado de*ancestorType*.
+El tipo de ancestro coincide si es igual a*ancestorType* o derivado de*ancestorType*.
 
 ## Ejemplos
 
-Muestra cómo saber si una tabla está anidada.
+Muestra cómo averiguar si las tablas están anidadas.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -60,7 +60,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
-/// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
+/// Un entero que indica la profundidad de anidación de la tabla (número de nodos de la tabla principal).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -78,19 +78,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina si una tabla contiene alguna tabla secundaria inmediata dentro de sus celdas.
-/// No recorra recursivamente esas tablas para buscar más tablas.
+/// No recorra recursivamente esas tablas para buscar otras tablas.
 /// </summary>
 /// <returns>
 /// Devuelve verdadero si al menos una celda secundaria contiene una tabla.
-/// Devuelve falso si ninguna celda de la tabla contiene una tabla.
+/// Devuelve falso si ninguna celda en la tabla contiene una tabla.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 
@@ -122,7 +122,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ancestorType | NodeType | El tipo de nodo del ancestro que se va a recuperar. |
+| ancestorType | NodeType | El tipo de nodo del ancestro a recuperar. |
 
 ### Valor_devuelto
 
@@ -130,7 +130,7 @@ El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasad
 
 ## Ejemplos
 
-Muestra cómo saber si una tabla está anidada.
+Muestra cómo averiguar si las tablas están anidadas.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -160,7 +160,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
-/// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
+/// Un entero que indica la profundidad de anidación de la tabla (número de nodos de la tabla principal).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -178,19 +178,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina si una tabla contiene alguna tabla secundaria inmediata dentro de sus celdas.
-/// No recorra recursivamente esas tablas para buscar más tablas.
+/// No recorra recursivamente esas tablas para buscar otras tablas.
 /// </summary>
 /// <returns>
 /// Devuelve verdadero si al menos una celda secundaria contiene una tabla.
-/// Devuelve falso si ninguna celda de la tabla contiene una tabla.
+/// Devuelve falso si ninguna celda en la tabla contiene una tabla.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

@@ -3,14 +3,14 @@ title: Node.GetAncestor
 linktitle: GetAncestor
 articleTitle: GetAncestor
 second_title: Aspose.Words für .NET
-description: Node GetAncestor methode. Ruft den ersten Vorfahren des angegebenen Objekttyps ab in C#.
+description: Entdecken Sie die Node GetAncestor-Methode, um einfach den ersten Vorfahren eines angegebenen Objekttyps abzurufen und so Ihre Codierungseffizienz und -genauigkeit zu verbessern.
 type: docs
 weight: 110
 url: /de/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(*Type*) {#getancestor_1}
 
-Ruft den ersten Vorfahren des angegebenen Objekttyps ab.
+Ruft den ersten Vorgänger des angegebenen Objekttyps ab.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -18,15 +18,15 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ancestorType | Type | Der Objekttyp des abzurufenden Vorgängers. |
+| ancestorType | Type | Der abzurufende Objekttyp des Vorgängers. |
 
 ### Rückgabewert
 
-Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
+Der Vorgänger des angegebenen Typs oder`null` wenn kein Vorgänger dieses Typs gefunden wurde.
 
 ## Bemerkungen
 
-Der Vorfahrentyp stimmt überein, wenn er gleich ist*ancestorType* oder abgeleitet von*ancestorType*.
+Der Vorgängertyp stimmt überein, wenn er gleich ist mit*ancestorType* oder abgeleitet von*ancestorType*.
 
 ## Beispiele
 
@@ -41,7 +41,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -77,20 +77,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 
@@ -114,7 +114,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
-Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../nodetype/) .
+Ruft den ersten Vorfahren des angegebenen[`NodeType`](../../nodetype/) .
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -122,11 +122,11 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ancestorType | NodeType | Der Knotentyp des abzurufenden Vorfahren. |
+| ancestorType | NodeType | Der Knotentyp des abzurufenden Vorgängers. |
 
 ### Rückgabewert
 
-Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
+Der Vorgänger des angegebenen Typs oder`null` wenn kein Vorgänger dieses Typs gefunden wurde.
 
 ## Beispiele
 
@@ -141,7 +141,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -177,20 +177,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

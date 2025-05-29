@@ -3,9 +3,9 @@ title: Shape.ExtrusionEnabled
 linktitle: ExtrusionEnabled
 articleTitle: ExtrusionEnabled
 second_title: Aspose.Words pour .NET
-description: Shape ExtrusionEnabled propriété. Retoursvrai si un effet dextrusion est activé en C#.
+description: Vérifiez si la fonctionnalité d'extrusion de forme est activée. Sublimez facilement vos créations avec de superbes effets 3D pour une touche professionnelle !
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
@@ -18,7 +18,7 @@ public bool ExtrusionEnabled { get; }
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

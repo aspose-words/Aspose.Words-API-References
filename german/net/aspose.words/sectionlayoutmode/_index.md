@@ -3,14 +3,14 @@ title: SectionLayoutMode Enum
 linktitle: SectionLayoutMode
 articleTitle: SectionLayoutMode
 second_title: Aspose.Words für .NET
-description: Aspose.Words.SectionLayoutMode opsomming. Gibt den Layoutmodus für einen Abschnitt an der es ermöglicht das Verhalten des Dokumentrasters zu definieren in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.SectionLayoutMode, um Abschnittslayouts zu optimieren und das Dokumentrasterverhalten für eine verbesserte Formatierungskontrolle zu verbessern.
 type: docs
-weight: 5750
+weight: 6580
 url: /de/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
 
-Gibt den Layoutmodus für einen Abschnitt an, der es ermöglicht, das Verhalten des Dokumentrasters zu definieren.
+Gibt den Layoutmodus für einen Abschnitt an und ermöglicht die Definition des Rasterverhaltens des Dokuments.
 
 ```csharp
 public enum SectionLayoutMode
@@ -20,24 +20,24 @@ public enum SectionLayoutMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt an, dass kein Dokumentraster auf den Inhalt des entsprechenden Abschnitts im Dokument angewendet werden soll. |
-| Grid | `1` | Gibt an, dass im entsprechenden Abschnitt sowohl der zusätzliche Zeilenabstand als auch der Zeichenabstand zu jeder Zeile und jedem darin enthaltenen Zeichen hinzugefügt werden sollen, um eine bestimmte Anzahl Zeilen pro Seite und Zeichen pro Zeile beizubehalten. Zeichen werden nicht automatisch an aktivierten Gitterlinien ausgerichtet tippen. |
-| LineGrid | `2` | Gibt an, dass dem entsprechenden Abschnitt jeder Zeile innerhalb von it ein zusätzlicher Zeilenabstand hinzugefügt werden soll, um die angegebene Anzahl von Zeilen pro Seite beizubehalten. |
-| SnapToChars | `3` | Gibt an, dass im entsprechenden Abschnitt sowohl der zusätzliche Zeilenabstand als auch der Zeichenabstand zu jeder Zeile und jedem darin enthaltenen Zeichen hinzugefügt werden sollen, um eine bestimmte Anzahl von Zeilen pro Seite und Zeichen pro Zeile beizubehalten. Zeichen werden bei der Eingabe automatisch an Gitterlinien ausgerichtet. |
+| Default | `0` | Gibt an, dass auf den Inhalt des entsprechenden Abschnitts im Dokument kein Dokumentraster angewendet werden soll. |
+| Grid | `1` | Gibt an, dass im entsprechenden Abschnitt jeder Zeile und jedem Zeichen der zusätzliche Zeilenabstand und Zeichenabstand hinzugefügt werden soll, um eine bestimmte Anzahl von Zeilen pro Seite und Zeichen pro Zeile einzuhalten. Zeichen werden beim Tippen nicht automatisch an den Gitternetzlinien ausgerichtet. |
+| LineGrid | `2` | Gibt an, dass im entsprechenden Abschnitt zu jeder Zeile ein zusätzlicher Zeilenabstand hinzugefügt werden soll, um die angegebene Zeilenanzahl pro Seite einzuhalten. |
+| SnapToChars | `3` | Gibt an, dass im entsprechenden Abschnitt jeder Zeile und jedem Zeichen der zusätzliche Zeilen- und Zeichenabstand hinzugefügt werden soll, um eine bestimmte Anzahl von Zeilen pro Seite und Zeichen pro Zeile einzuhalten. Zeichen werden beim Tippen automatisch an den Gitternetzlinien ausgerichtet. |
 
 ## Beispiele
 
-Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile enthalten darf.
+Zeigt, wie Sie für die Anzahl der Zeichen angeben, die jede Zeile enthalten darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeichen pro Zeile in diesem Abschnitt festzulegen.
+// Pitching aktivieren und dann damit die Anzahl der Zeichen pro Zeile in diesem Abschnitt festlegen.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Die Anzahl der Zeichen hängt auch von der Größe der Schriftart ab.
+// Die Anzahl der Zeichen hängt auch von der Schriftgröße ab.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -47,14 +47,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
+Zeigt, wie Sie eine Begrenzung für die Zeilenanzahl festlegen, die jede Seite haben darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeilen pro Seite in diesem Abschnitt festzulegen.
-// Eine ausreichend große Schriftgröße verschiebt einige Zeilen nach unten auf die nächste Seite, um überlappende Zeichen zu vermeiden.
+// Pitching aktivieren und dann damit die Zeilenanzahl pro Seite in diesem Abschnitt festlegen.
+// Eine ausreichend große Schriftgröße verschiebt einige Zeilen auf die nächste Seite, um überlappende Zeichen zu vermeiden.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

@@ -3,14 +3,14 @@ title: Font.ComplexScript
 linktitle: ComplexScript
 articleTitle: ComplexScript
 second_title: Aspose.Words pour .NET
-description: Font ComplexScript propriété. Spécifie si le contenu de cette exécution doit être traité comme un texte de script complexe indépendamment de leurs valeurs de caractères Unicode lors de la détermination du formatage de cette exécution en C#.
+description: Découvrez la propriété Font ComplexScript, garantissant que votre texte est formaté en script complexe pour une lisibilité et un style améliorés, quelles que soient les valeurs Unicode.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property
 
-Spécifie si le contenu de cette exécution doit être traité comme un texte de script complexe indépendamment de leurs valeurs de caractères Unicode lors de la détermination du formatage de cette exécution.
+Spécifie si le contenu de cette exécution doit être traité comme un texte de script complexe, quelles que soient ses valeurs de caractères Unicode, lors de la détermination du formatage de cette exécution.
 
 ```csharp
 public bool ComplexScript { get; set; }

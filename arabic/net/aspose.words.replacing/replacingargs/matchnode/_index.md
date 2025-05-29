@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs MatchNode ملكية. الحصول على العقدة التي تحتوي على بداية المباراة في C#.
+description: اكتشف خاصية ReplacingArgs MatchNode للوصول بسهولة إلى العقدة التي تبدأ فيها مطابقتك، مما يعزز كفاءة ودقة الترميز لديك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-الحصول على العقدة التي تحتوي على بداية المباراة.
+يحصل على العقدة التي تحتوي على بداية المطابقة.
 
 ```csharp
 public Node MatchNode { get; }
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## أمثلة
 
-يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
+يوضح كيفية إدراج محتويات مستند بأكمله كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,7 +40,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // أدخل مستندًا بعد الفقرة التي تحتوي على النص المطابق.
+        //أدرج مستندًا بعد الفقرة التي تحتوي على النص المطابق.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -52,7 +52,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
+/// إدراج جميع عقد مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // تخطي العقدة إذا كانت آخر فقرة فارغة في القسم.
+                // تخطي العقدة إذا كانت الفقرة الفارغة الأخيرة في القسم.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

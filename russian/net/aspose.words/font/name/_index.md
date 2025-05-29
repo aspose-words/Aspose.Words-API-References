@@ -3,7 +3,7 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words для .NET
-description: Font Name свойство. Получает или задает имя шрифта на С#.
+description: Откройте для себя свойство «Имя шрифта», чтобы легко настраивать и задавать стили шрифтов, повышая привлекательность и читабельность вашего дизайна.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/font/name/
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Примечания
 
-При получении возвращает[`NameAscii`](../nameascii/).
+При получении, возвращает[`NameAscii`](../nameascii/).
 
-При настройке устанавливается[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) и[`NameOther`](../nameother/) до указанного значения.
+При настройке устанавливает[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) и[`NameOther`](../nameother/) до указанного значения.
 
 ## Примеры
 
-Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
+Показывает, как отформатировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();

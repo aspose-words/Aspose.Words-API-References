@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 linktitle: PageNumberStyle
 articleTitle: PageNumberStyle
 second_title: Aspose.Words para .NET
-description: PageSetup PageNumberStyle propiedad. Obtiene o establece el formato del número de página en C#.
+description: Descubra la propiedad PageNumberStyle de PageSetup para personalizar fácilmente el formato de número de página para mejorar la presentación y claridad del documento.
 type: docs
 weight: 320
 url: /es/net/aspose.words/pagesetup/pagenumberstyle/
@@ -36,7 +36,7 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Mueve el generador de documentos al encabezado principal de la primera sección,
+// Mueva el generador de documentos al encabezado principal de la primera sección,
 // que se mostrará en cada página de esa sección.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -45,14 +45,14 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Configure la sección para que el recuento de páginas que muestran los campos de PÁGINA comience desde 5.
-// Además, configure todos los campos de PÁGINA para mostrar sus números de página usando números romanos en mayúsculas.
+// Configure la sección para que el recuento de páginas que muestran los campos PÁGINA comience desde 5.
+// Además, configure todos los campos PÁGINA para mostrar sus números de página utilizando números romanos en mayúsculas.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Crea otro encabezado principal para la segunda sección, con otro campo PÁGINA.
+// Crea otro encabezado principal para la segunda sección, con otro campo PAGE.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -60,8 +60,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Configure la sección para que el recuento de páginas que muestran los campos de PÁGINA comience desde 10.
-// Además, configure todos los campos de PÁGINA para mostrar sus números de página usando números arábigos.
+// Configure la sección para que el recuento de páginas que muestran los campos PÁGINA comience desde 10.
+// Además, configure todos los campos PÁGINA para mostrar sus números de página utilizando números arábigos.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

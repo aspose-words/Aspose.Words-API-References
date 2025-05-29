@@ -3,7 +3,7 @@ title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
 second_title: Aspose.Words pour .NET
-description: Style AutomaticallyUpdate propriété. Spécifie si ce style est automatiquement redéfini en fonction de la valeur appropriée en C#.
+description: Découvrez comment la propriété AutomaticallyUpdate améliore vos styles en les redéfinissant automatiquement pour une valeur et des performances optimales dans vos projets.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/style/automaticallyupdate/
@@ -18,9 +18,9 @@ public bool AutomaticallyUpdate { get; set; }
 
 ## Remarques
 
-Si la valeur de la propriété est définie sur true, MS Word redéfinit automatiquement le style actuel lorsque le formatage de paragraphe approprié a été modifié.
+Si la valeur de la propriété est définie sur true, MS Word redéfinit automatiquement le style actuel lorsque la mise en forme de paragraphe appropriée a été modifiée.
 
-La propriété AutomaticallyUpdate s’applique uniquement aux styles de paragraphe.
+La propriété AutomaticallyUpdate s'applique uniquement aux styles de paragraphe.
 
 La valeur par défaut est`FAUX`.
 
@@ -35,12 +35,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
-// Redéfinit automatiquement le style.
+// Redéfinir automatiquement le style.
 style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Applique l'un des styles du document au paragraphe créé par le générateur de document.
+// Appliquez l’un des styles du document au paragraphe que le générateur de documents est en train de créer.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -53,7 +53,7 @@ doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Tout texte utilisant un style supprimé revient au formatage par défaut.
+// Tout texte qui utilise un style supprimé revient à la mise en forme par défaut.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

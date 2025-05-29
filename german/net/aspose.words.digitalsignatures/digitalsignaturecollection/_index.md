@@ -3,16 +3,16 @@ title: DigitalSignatureCollection Class
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection klas. Stellt eine schreibgeschützte Sammlung digitaler Signaturen bereit die an ein Dokument angehängt sind in C#.
+description: Entdecken Sie die DigitalSignatureCollection-Klasse von Aspose.Words, die einfachen Zugriff auf eine schreibgeschützte Sammlung digitaler Signaturen für die sichere Dokumentenverwaltung bietet.
 type: docs
-weight: 390
+weight: 590
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-Stellt eine schreibgeschützte Sammlung digitaler Signaturen bereit, die an ein Dokument angehängt sind.
+Bietet eine schreibgeschützte Sammlung digitaler Signaturen, die an ein Dokument angehängt sind.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit digitalen Signaturen](https://docs.aspose.com/words/net/working-with-digital-signatures/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit digitalen Signaturen](https://docs.aspose.com/words/net/working-with-digital-signatures/) Dokumentationsartikel.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
@@ -29,14 +29,14 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Gibt zurück`WAHR` wenn alle digitalen Signaturen in dieser Sammlung gültig sind und das Dokument nicht manipuliert wurde Wird ebenfalls zurückgegeben`WAHR` wenn keine digitalen Signaturen vorhanden sind. Gibt zurück`FALSCH` wenn mindestens eine digitale Signatur ungültig ist. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Rückgaben`WAHR`wenn alle digitalen Signaturen in dieser Sammlung gültig sind und das Dokument nicht manipuliert wurde Gibt außerdem zurück`WAHR` wenn keine digitalen Signaturen vorhanden sind. Gibt zurück`FALSCH` wenn mindestens eine digitale Signatur ungültig ist. |
 | [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Ruft eine Dokumentsignatur am angegebenen Index ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Gibt ein Wörterbuch-Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Gibt ein Wörterbuch-Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 
 ## Bemerkungen
 
@@ -52,7 +52,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -64,16 +64,17 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
 ```csharp
-// Stellen Sie sicher, dass ein Dokument nicht signiert ist.
+// Überprüfen Sie, ob ein Dokument signiert ist.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, das wir zum Signieren des Dokuments verwenden.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Es gibt zwei Möglichkeiten, eine signierte Kopie eines Dokuments im lokalen Dateisystem zu speichern:
-// 1 – Bestimmen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 – Kennzeichnen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
@@ -88,7 +89,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind, und überprüfen Sie deren Details.
+// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind und kontrollieren Sie deren Details.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

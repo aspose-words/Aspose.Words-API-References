@@ -3,14 +3,14 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words für .NET
-description: CssSavingArgs IsExportNeeded eigendom. Ermöglicht die Angabe ob das CSS in eine Datei exportiert und in ein HTMLDokument eingebettet wird. Standard istWAHR . Wenn diese Eigenschaft istFALSCH  die CSSInformationen werden nicht in einer CSSDatei gespeichert und nicht in ein HTMLDokument eingebettet in C#.
+description: Steuern Sie den CSS-Export mit der IsExportNeeded-Eigenschaft von CssSavingArgs. Wählen Sie, ob CSS eingebettet oder in einer Datei gespeichert werden soll, um HTML-Dokumente zu optimieren. Standardmäßig „true“.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/csssavingargs/isexportneeded/
 ---
 ## CssSavingArgs.IsExportNeeded property
 
-Ermöglicht die Angabe, ob das CSS in eine Datei exportiert und in ein HTML-Dokument eingebettet wird. Standard ist`WAHR` . Wenn diese Eigenschaft ist`FALSCH` , die CSS-Informationen werden nicht in einer CSS-Datei gespeichert und nicht in ein HTML-Dokument eingebettet.
+Hier können Sie festlegen, ob das CSS in eine Datei exportiert und in ein HTML-Dokument eingebettet wird. Standardmäßig ist`WAHR` . Wenn diese Eigenschaft`FALSCH` , die CSS-Informationen werden nicht in einer CSS-Datei gespeichert und nicht in ein HTML-Dokument eingebettet.
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -25,15 +25,15 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Setzen Sie die Eigenschaft „CssStylesheetType“ auf „CssStyleSheetType.External“.
-    // ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei ergänzen.
+    // Setzen Sie die Eigenschaft "CssStylesheetType" auf "CssStyleSheetType.External", um
+    // Begleiten Sie ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nachfolgend finden Sie zwei Möglichkeiten, Verzeichnisse und Dateinamen für Ausgabe-CSS-Stylesheets anzugeben.
+    // Unten finden Sie zwei Möglichkeiten zum Angeben von Verzeichnissen und Dateinamen für die Ausgabe von CSS-Stylesheets.
     // 1 – Verwenden Sie die Eigenschaft „CssStyleSheetFileName“, um unserem Stylesheet einen Dateinamen zuzuweisen:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Dokument“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

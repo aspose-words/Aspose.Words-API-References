@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagCollection GetById طريقة. إرجاع علامة المستند المنظمة حسب المعرف في C#.
+description: استرجع علامات المستندات المنظمة بسهولة باستخدام طريقة GetById. تمتع بالوصول السريع إلى بياناتك وحسّن كفاءة إدارة مستنداتك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
 ## StructuredDocumentTagCollection.GetById method
 
-إرجاع علامة المستند المنظمة حسب المعرف.
+يعيد علامة المستند المنظمة حسب المعرف.
 
 ```csharp
 public IStructuredDocumentTag GetById(int id)
@@ -18,25 +18,25 @@ public IStructuredDocumentTag GetById(int id)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| id | Int32 | معرف علامة الوثيقة المنظمة. |
+| id | Int32 | معرف علامة المستند المنظم. |
 
 ## ملاحظات
 
-يُرجع قيمة فارغة إذا تعذر العثور على علامة المستند المنظمة ذات المعرف المحدد.
+يتم إرجاع قيمة null إذا لم يتم العثور على علامة المستند المنظم بالمعرف المحدد.
 
 ## أمثلة
 
-يوضح كيفية الحصول على علامة المستند المنظمة.
+يوضح كيفية الحصول على علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
 // احصل على علامة المستند المنظمة حسب المعرف.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// احصل على علامة المستند المنظمة أو علامة النطاق حسب العنوان.
+// احصل على علامة المستند المنظمة أو العلامة المحددة حسب العنوان.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

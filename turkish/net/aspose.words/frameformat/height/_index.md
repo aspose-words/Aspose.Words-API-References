@@ -2,8 +2,8 @@
 title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
-second_title: Aspose.Words for .NET
-description: FrameFormat Height mülk. Belirtilen çerçevenin yüksekliğini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım esnekliği için belirlediğiniz çerçevenin yüksekliğine kolayca erişmek ve kullanmak amacıyla FrameFormat Height özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/frameformat/height/
@@ -18,7 +18,7 @@ public double Height { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

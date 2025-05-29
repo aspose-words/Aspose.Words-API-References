@@ -3,9 +3,9 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words для .NET
-description: ListCollection GetListByListId метод. Получает список по идентификатору списка на С#.
+description: Получите нужный вам список без усилий с помощью метода GetListByListId. Быстрый доступ к данным с помощью простого идентификатора списка для повышения эффективности.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -22,7 +22,7 @@ public List GetListByListId(int listId)
 
 ### Возвращаемое значение
 
-Возвращает объект списка. Возврат`нулевой` если список с указанным идентификатором не найден.
+Возвращает объект списка. Возвращает`нулевой` если список с указанным идентификатором не найден.
 
 ## Примечания
 
@@ -30,7 +30,7 @@ public List GetListByListId(int listId)
 
 ## Примеры
 
-Показывает, как проверить свойства документов владельцев списков.
+Показывает, как проверить свойства документа владельца списков.
 
 ```csharp
 Document doc = new Document();

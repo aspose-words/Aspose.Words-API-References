@@ -2,17 +2,17 @@
 title: ChartMarker Class
 linktitle: ChartMarker
 articleTitle: ChartMarker
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartMarker sınıf. Bir grafik veri işaretçisini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir işaretçilerle grafik veri görselleştirmenizi geliştirmek için başvuracağınız çözüm olan Aspose.Words.Drawing.Charts.ChartMarker sınıfını keşfedin.
 type: docs
-weight: 750
+weight: 1040
 url: /tr/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Bir grafik veri işaretçisini temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Grafiklerle Çalışma](https://docs.aspose.com/words/net/working-with-charts/) belgeleme makalesi.
 
 ```csharp
 public class ChartMarker
@@ -22,13 +22,13 @@ public class ChartMarker
 
 | İsim | Tanım |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Grafik işaretleyici boyutunu alır veya ayarlar. Varsayılan değer 7. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Bu işaretleyicinin dolgu ve satır biçimlendirmesine erişim sağlar. |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Grafik işaretleyici boyutunu alır veya ayarlar. Varsayılan değer 7'dir. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Grafik işaretleyici sembolünü alır veya ayarlar. |
 
 ## Örnekler
 
-Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
+Bir çizgi grafiğinde veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ChartDataPoint()
@@ -44,14 +44,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
-    foreach (ChartSeries series in chart.Series) 
+    // Grafiğin veri noktalarını elmas şekilleri şeklinde göstererek vurgulayın.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
+    // İlk serinin veri noktalarının, değer negatif olduğunda renklerinin tersine dönmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -60,17 +60,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için formatı tek tek temizleyebiliriz.
+    dataPoint.ClearFormat();
+
+    // Ayrıca bir dizi veri noktasını aynı anda soyabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Bir diziye bir dizi veri noktası uygular.
+/// Bir diziye belirli sayıda veri noktası uygular.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

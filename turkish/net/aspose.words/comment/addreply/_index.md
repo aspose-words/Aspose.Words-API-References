@@ -2,10 +2,10 @@
 title: Comment.AddReply
 linktitle: AddReply
 articleTitle: AddReply
-second_title: Aspose.Words for .NET
-description: Comment AddReply yöntem. Bu yoruma bir yanıt ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Yorum EkleCevap yöntemiyle tartışmalarınızı geliştirin; yorumlara kolayca yanıt ekleyin ve platformunuzdaki etkileşimi artırın!
 type: docs
-weight: 120
+weight: 160
 url: /tr/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -18,22 +18,28 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| author | String | Yanıtın yazarının adı. |
-| initial | String | Yazar yanıtın baş harflerini kullanır. |
-| dateTime | DateTime | Yanıtın tarihi ve saati. |
+| author | String | Cevap için yazar adı. |
+| initial | String | Yazar cevap için paraf atıyor. |
+| dateTime | DateTime | Cevap için tarih ve saat. |
 | text | String | Cevap metni. |
 
 ### Geri dönüş değeri
 
-Yaratılan[`Comment`](../) yanıt için düğüm.
+Yaratılan[`Comment`](../) cevap için düğüm.
+
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| InvalidOperationException | Bu metot mevcut Cevap yorumunda çağrılırsa fırlatılır. |
 
 ## Notlar
 
-Mevcut MS Office sınırlamaları nedeniyle belgede yalnızca 1 düzeyde yanıta izin verilir. Bir tür istisnaInvalidOperationException bu yöntem mevcut Yanıt yorumunda olarak çağrılırsa tetiklenecektir.
+Mevcut MS Office sınırlamaları nedeniyle belgede yalnızca 1 düzeyde yanıta izin verilmektedir.
 
 ## Örnekler
 
-Bir belgeye nasıl yorum ekleneceğini ve ardından ona nasıl yanıt verileceğini gösterir.
+Bir belgeye nasıl yorum ekleneceğini ve ardından buna nasıl yanıt verileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,20 +49,20 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
 // Yorumu belgenin gövdesindeki bir düğüme yerleştirin.
-// Bu yorum paragrafın bulunduğu yerde görünecek,
-// sayfanın sağ kenar boşluğunun dışında ve onu paragrafına bağlayan noktalı bir çizgiyle.
+// Bu yorum, paragrafının bulunduğu yerde gösterilecektir.
+// Sayfanın sağ kenar boşluğunun dışında ve paragrafına noktalı bir çizgiyle bağlanıyor.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Ana yorumun altında görünecek bir yanıt ekleyin.
+// Üst yorumunun altında görünecek bir yanıt ekleyin.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
-// Yorumlar ve yanıtların her ikisi de Yorum düğümleridir.
+// Yorumlar ve yanıtlar her ikisi de Yorum düğümleridir.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Diğer yorumlara cevap vermeyen yorumlar "üst seviye"dir. Ata yorumlarına sahip değiller.
+// Diğer yorumlara yanıt vermeyen yorumlar "en üst düzey"dir. Bunların ata yorumları yoktur.
 Assert.Null(comment.Ancestor);
 
-// Yanıtların üst düzey bir yorumu var.
+// Cevapların üst düzey bir yorumu vardır.
 Assert.AreEqual(comment, comment.Replies[0].Ancestor);
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");

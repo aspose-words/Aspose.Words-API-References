@@ -3,7 +3,7 @@ title: BookmarkCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: BookmarkCollection Clear método. Elimina todos los marcadores de esta colección y del documento en C#.
+description: Borra fácilmente todos los marcadores de tu documento con el método "Borrar Colección de Marcadores". ¡Optimiza tu flujo de trabajo y mejora tu organización hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words/bookmarkcollection/clear/
@@ -35,18 +35,18 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// Esta colección almacena marcadores.
+//Esta colección almacena marcadores.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// Hay varias formas de eliminar marcadores.
-// 1 - Llamar al método Eliminar del marcador:
+//Hay varias formas de eliminar marcadores.
+// 1 - Llamar al método Remove del marcador:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Pasar el marcador al método Remove de la colección:
+// 2 - Pasando el marcador al método Remove de la colección:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -62,11 +62,11 @@ doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// Podemos borrar toda la colección de marcadores.
+//Podemos borrar toda la colección de marcadores.
 bookmarks.Clear();
 
-// El texto que estaba dentro de los marcadores todavía está presente en el documento.
-Assert.That(bookmarks, Is.Empty);
+//El texto que estaba dentro de los marcadores todavía está presente en el documento.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

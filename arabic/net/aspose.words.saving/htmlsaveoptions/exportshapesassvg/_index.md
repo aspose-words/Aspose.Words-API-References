@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportShapesAsSvg
 linktitle: ExportShapesAsSvg
 articleTitle: ExportShapesAsSvg
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportShapesAsSvg ملكية. يتحكم في ما إذا كانShapeيتم تحويل العقد إلى صور SVG عند حفظ إلى HTML أو MHTML أو EPUB أو AZW3. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيفية استخدام HtmlSaveOptions ExportShapesAsSvg لتحويل عقد الشكل إلى صور SVG عند الحفظ بتنسيقات HTML أو MHTML أو EPUB أو AZW3.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-يتحكم في ما إذا كان[`Shape`](../../../aspose.words.drawing/shape/)يتم تحويل العقد إلى صور SVG عند حفظ إلى HTML أو MHTML أو EPUB أو AZW3. القيمة الافتراضية هي`خطأ شنيع` .
+يتحكم فيما إذا كان[`Shape`](../../../aspose.words.drawing/shape/)يتم تحويل العقد إلى صور SVG عند حفظ x000d_ إلى HTML أو MHTML أو EPUB أو AZW3. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -18,11 +18,11 @@ public bool ExportShapesAsSvg { get; set; }
 
 ## ملاحظات
 
-إذا تم ضبط هذا الخيار على`حقيقي` ,[`Shape`](../../../aspose.words.drawing/shape/) يتم تصدير العقد كعناصر &lt;svg&gt;. وبخلاف ذلك، يتم عرضها كصور نقطية ويتم تصديرها كعناصر &lt;img&gt;.
+إذا تم تعيين هذا الخيار على`حقيقي` ،[`Shape`](../../../aspose.words.drawing/shape/) يتم تصدير العقد كعناصر &lt;svg&gt;. وإلا، يتم تقديمها إلى خرائط بتات ويتم تصديرها كعناصر &lt;img&gt;.
 
 ## أمثلة
 
-يوضح كيفية تصدير الشكل كرسومات متجهة قابلة للتطوير.
+يوضح كيفية تصدير الشكل كرسومات متجهية قابلة للتطوير.
 
 ```csharp
 Document doc = new Document();
@@ -32,12 +32,12 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 100.0, 60.0);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
-// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
-// لتحديد كيفية قيام عملية الحفظ بتصدير أشكال مربعات النص.
-// إذا قمنا بتعيين علامة "ExportTextBoxAsSvg" على "صحيح"،
-// ستؤدي عملية الحفظ إلى تحويل الأشكال التي تحتوي على نص إلى كائنات SVG.
-// إذا قمنا بتعيين علامة "ExportTextBoxAsSvg" على "خطأ"،
-// ستؤدي عملية الحفظ إلى تحويل الأشكال التي تحتوي على نص إلى صور.
+// عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد كيفية قيام عملية الحفظ بتصدير أشكال مربع النص.
+// إذا قمنا بتعيين علامة "ExportTextBoxAsSvg" إلى "true"،
+// ستعمل عملية الحفظ على تحويل الأشكال التي تحتوي على نص إلى كائنات SVG.
+// إذا قمنا بتعيين علامة "ExportTextBoxAsSvg" إلى "false"،
+// ستعمل عملية الحفظ على تحويل الأشكال التي تحتوي على نص إلى صور.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportShapesAsSvg = exportShapesAsSvg };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTextBox.html", options);
@@ -48,7 +48,7 @@ if (exportShapesAsSvg)
 {
     Assert.True(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height= \"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
 }
 else
 {

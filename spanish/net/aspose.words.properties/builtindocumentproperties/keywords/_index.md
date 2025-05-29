@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Keywords
 linktitle: Keywords
 articleTitle: Keywords
 second_title: Aspose.Words para .NET
-description: BuiltInDocumentProperties Keywords propiedad. Obtiene o establece las palabras clave del documento en C#.
+description: Mejore sus documentos con BuiltInDocumentProperties. Gestione fácilmente las palabras clave para optimizar la búsqueda y la organización, y así obtener una mayor productividad.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.properties/builtindocumentproperties/keywords/
 ---
 ## BuiltInDocumentProperties.Keywords property
@@ -18,7 +18,7 @@ public string Keywords { get; set; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con propiedades de documentos integradas en la categoría "Descripción".
+Muestra cómo trabajar con propiedades de documento integradas en la categoría "Descripción".
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,11 @@ builder.Write("\"");
 // La propiedad incorporada "Categoría" no tiene un campo que pueda mostrar su valor.
 properties.Category = "My category";
 
-// Podemos establecer varias palabras clave para un documento separando el valor de cadena de la propiedad "Palabras clave" con punto y coma.
+// Podemos establecer múltiples palabras clave para un documento separando el valor de la cadena de la propiedad "Palabras clave" con punto y coma.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Podemos hacer clic derecho en este documento en el Explorador de Windows y encontrar estas propiedades en "Propiedades" -> "Detalles".
-// La propiedad integrada "Autor" está en el grupo "Origen" y las demás están en el grupo "Descripción".
+//Podemos hacer clic derecho en este documento en el Explorador de Windows y encontrar estas propiedades en "Propiedades" -> "Detalles".
+// La propiedad incorporada "Autor" está en el grupo "Origen" y las demás están en el grupo "Descripción".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

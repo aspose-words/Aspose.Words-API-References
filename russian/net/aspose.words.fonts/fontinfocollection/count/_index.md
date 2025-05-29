@@ -3,7 +3,7 @@ title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: FontInfoCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
+description: Откройте для себя свойство FontInfoCollection Count, с легкостью извлеките общее количество элементов в вашей коллекции для бесперебойного управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontinfocollection/count/

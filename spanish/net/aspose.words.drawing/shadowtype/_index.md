@@ -3,9 +3,9 @@ title: ShadowType Enum
 linktitle: ShadowType
 articleTitle: ShadowType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.ShadowType enumeración. Especifica el tipo de sombra de forma en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.ShadowType para mejorar sus formas con tipos de sombras personalizables para lograr imágenes de documentos impactantes.
 type: docs
-weight: 1240
+weight: 1630
 url: /es/net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
@@ -20,7 +20,7 @@ public enum ShadowType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| ShadowMixed | `-2` | Ninguno de los ajustes preestablecidos de sombra predefinidos. |
+| ShadowMixed | `-2` | Ninguno de los ajustes predefinidos de sombras. |
 | Shadow1 | `1` | Primer tipo de sombra. |
 | Shadow10 | `10` | Décimo tipo de sombra. |
 | Shadow11 | `11` | Undécimo tipo de sombra. |
@@ -35,9 +35,9 @@ public enum ShadowType
 | Shadow2 | `2` | Segundo tipo de sombra. |
 | Shadow20 | `20` | Vigésimo tipo de sombra. |
 | Shadow21 | `21` | Vigésimo primer tipo de sombra. |
-| Shadow22 | `22` | Tipo de sombra de veinte segundos. |
+| Shadow22 | `22` | Tipo sombra de veinte segundos. |
 | Shadow23 | `23` | Vigésimo tercer tipo de sombra. |
-| Shadow24 | `24` | Vigésimo cuarto tipo de sombra. |
+| Shadow24 | `24` | Vigésimo cuarto tipo sombra. |
 | Shadow25 | `25` | Vigésimo quinto tipo de sombra. |
 | Shadow26 | `26` | Vigésimo sexto tipo de sombra. |
 | Shadow27 | `27` | Vigésimo séptimo tipo de sombra. |
@@ -46,9 +46,9 @@ public enum ShadowType
 | Shadow3 | `3` | Tercer tipo de sombra. |
 | Shadow30 | `30` | Trigésimo tipo de sombra. |
 | Shadow31 | `31` | Trigésimo primer tipo de sombra. |
-| Shadow32 | `32` | Tipo de sombra de treinta segundos. |
+| Shadow32 | `32` | Tipo sombra de treinta segundos. |
 | Shadow33 | `33` | Trigésimo tercer tipo de sombra. |
-| Shadow34 | `34` | Treinta y cuatro tipo de sombra. |
+| Shadow34 | `34` | Trigésimo cuarto tipo sombra. |
 | Shadow35 | `35` | Trigésimo quinto tipo de sombra. |
 | Shadow36 | `36` | Trigésimo sexto tipo de sombra. |
 | Shadow37 | `37` | Trigésimo séptimo tipo de sombra. |
@@ -56,8 +56,8 @@ public enum ShadowType
 | Shadow39 | `39` | Trigésimo noveno tipo de sombra. |
 | Shadow4 | `4` | Cuarto tipo de sombra. |
 | Shadow40 | `40` | Cuadragésimo tipo de sombra. |
-| Shadow41 | `41` | Cuadragésimo primer tipo de sombra. |
-| Shadow42 | `42` | Tipo de sombra de cuarenta segundos. |
+| Shadow41 | `41` | Cuarenta y uno tipo sombra. |
+| Shadow42 | `42` | Tipo sombra de cuarenta segundos. |
 | Shadow43 | `43` | Cuadragésimo tercer tipo de sombra. |
 | Shadow5 | `5` | Quinto tipo de sombra. |
 | Shadow6 | `6` | Sexto tipo de sombra. |
@@ -67,7 +67,7 @@ public enum ShadowType
 
 ## Observaciones
 
-ShadowType no es un atributo simple, sino un ajuste preestablecido que establece a la vez varios atributos que forman la apariencia de la sombra .
+ShadowType no es un atributo simple, sino un ajuste preestablecido que establece a la vez varios atributos que forman la apariencia de la sombra.
 
 ## Ejemplos
 
@@ -77,10 +77,10 @@ Muestra cómo trabajar con un formato de sombra para la forma.
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

@@ -3,14 +3,14 @@ title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty ToString طريقة. تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية في C#.
+description: اكتشف طريقة DocumentProperty ToString، التي تقوم بتنسيق قيم الخصائص كسلاسل استنادًا إلى الإعدادات المحلية، مما يعزز عرض البيانات وتجربة المستخدم.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية.
+يعيد قيمة الخاصية كسلسلة منسقة وفقًا للإعدادات المحلية الحالية.
 
 ```csharp
 public override string ToString()
@@ -18,7 +18,7 @@ public override string ToString()
 
 ## ملاحظات
 
-تحويل خاصية منطقية إلى "Y" أو "N". تحويل خاصية تاريخ إلى سلسلة تاريخ قصيرة. بالنسبة لجميع الأنواع الأخرى، يتم تحويل خاصية باستخدام Object.ToString().
+تحويل خاصية منطقية إلى "Y" أو "N". تحويل خاصية تاريخ إلى سلسلة تاريخ قصيرة. بالنسبة لجميع الأنواع الأخرى، تحويل خاصية باستخدام Object.ToString().
 
 ## أمثلة
 
@@ -47,8 +47,8 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
- // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
+// تحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، عبارة عن أزواج من القيمة الأساسية.
+ // تحتوي الوثيقة على قائمة ثابتة من الخصائص المضمنة. يُنشئ المستخدم جميع الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

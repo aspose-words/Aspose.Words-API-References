@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words für .NET
-description: ChartDataLabelCollection ShowValue eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie, wie die ShowValue-Eigenschaft in ChartDataLabelCollection Ihre Datenvisualisierung durch die Anzeige von Serienwerten verbessert. Optimieren Sie Ihre Diagramme noch heute!
 type: docs
-weight: 140
+weight: 170
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` .
+Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Reihe angezeigt werden sollen. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -18,7 +18,7 @@ public bool ShowValue { get; set; }
 
 ## Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowValue`](../../chartdatalabel/showvalue/) Eigenschaft.
+Der für diese Eigenschaft definierte Wert kann für ein einzelnes Datenlabel mit dem überschrieben werden.[`ShowValue`](../../chartdatalabel/showvalue/) Eigenschaft.
 
 ## Beispiele
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und deren Häufigkeitstabelle ein.
+// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und ihrer Häufigkeitstabelle ein.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });

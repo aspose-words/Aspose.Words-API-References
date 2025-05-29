@@ -3,14 +3,14 @@ title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
 second_title: Aspose.Words för .NET
-description: ListLevel NumberPosition fast egendom. Returnerar eller ställer in positionen i poäng för siffran eller kulan för listnivån i C#.
+description: Upptäck egenskapen ListLevel NumberPosition för att enkelt justera punkters eller nummerpositionering i punkter för förbättrad listformatering och tydlighet.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.lists/listlevel/numberposition/
 ---
 ## ListLevel.NumberPosition property
 
-Returnerar eller ställer in positionen (i poäng) för siffran eller kulan för listnivån.
+Returnerar eller anger positionen (i punkter) för numret eller punkten för listnivån.
 
 ```csharp
 public double NumberPosition { get; set; }
@@ -18,20 +18,20 @@ public double NumberPosition { get; set; }
 
 ## Anmärkningar
 
-`NumberPosition` motsvarar LeftIndent plus FirstLineIndent i stycket.
+`NumberPosition` motsvarar vänsterindrag plus förstaradsindrag i stycket.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

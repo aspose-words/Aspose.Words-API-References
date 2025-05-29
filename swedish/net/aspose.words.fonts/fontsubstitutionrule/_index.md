@@ -3,9 +3,9 @@ title: FontSubstitutionRule Class
 linktitle: FontSubstitutionRule
 articleTitle: FontSubstitutionRule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontSubstitutionRule klass. Detta är en abstrakt basklass för teckensnittsersättningsregeln i C#.
+description: Upptäck klassen Aspose.Words.Fonts.FontSubstitutionRule – din viktiga guide för effektiv typsnittsersättning i dokumentbehandling och design.
 type: docs
-weight: 3000
+weight: 3430
 url: /sv/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
@@ -36,8 +36,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule-objektet fungerar annorlunda på Windows/icke-Windows-plattformar.
-// På Windows är det inte tillgängligt.
+// FontConfigSubstitutionRule-objektet fungerar olika på Windows- och icke-Windows-plattformar.
+// På Windows är den inte tillgänglig.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -47,7 +47,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// På Linux/Mac kommer vi att ha tillgång till det och kommer att kunna utföra operationer.
+// På Linux/Mac kommer vi att ha tillgång till det och kunna utföra operationer.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

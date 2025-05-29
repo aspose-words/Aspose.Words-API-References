@@ -3,9 +3,9 @@ title: ChartLegend.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words para .NET
-description: ChartLegend Overlay propiedad. Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado esFALSO  en C#.
+description: Los elementos del gráfico de control se superponen con la propiedad ChartLegend Overlay. Mejore la visualización de datos con opciones de leyenda personalizables para obtener información más clara.
 type: docs
-weight: 20
+weight: 40
 url: /es/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
@@ -36,7 +36,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Da más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
+// Dale más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

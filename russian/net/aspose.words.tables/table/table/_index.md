@@ -3,7 +3,7 @@ title: Table
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words для .NET
-description: Table строитель. Инициализирует новый экземплярTable класс на С#.
+description: Создавайте пользовательские таблицы без усилий с помощью нашего интуитивно понятного конструктора таблиц. Создавайте, настраивайте и оптимизируйте отображение данных за считанные минуты!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/table/table/
@@ -24,7 +24,7 @@ public Table(DocumentBase doc)
 
 Когда[`Table`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Table`](../) к использованию документа[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) в журнале, куда вы хотите вставить таблицу.
+Чтобы добавить[`Table`](../) к использованию документа[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) в той статье, куда вы хотите вставить таблицу.
 
 ## Примеры
 
@@ -35,10 +35,10 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Таблицы содержат строки, содержащие ячейки, которые могут иметь абзацы
-// с типичными элементами, такими как прогоны, фигуры и даже другие таблицы.
-// Вызов метода EnsureMinimum для таблицы гарантирует, что
-// в таблице есть хотя бы одна строка, ячейка и абзац.
+// Таблицы содержат строки, которые содержат ячейки, которые могут иметь абзацы
+// с типичными элементами, такими как ряды, фигуры и даже другие таблицы.
+// Вызов метода "EnsureMinimum" для таблицы гарантирует, что
+// таблица имеет как минимум одну строку, ячейку и абзац.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -48,14 +48,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Добавляем текст к первому вызову в первой строке таблицы.
+// Добавляем текст в первую ячейку первой строки таблицы.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Показывает, как построить вложенную таблицу без использования построителя документов.
+Показывает, как построить вложенную таблицу без использования конструктора документов.
 
 ```csharp
 public void CreateNestedTable()
@@ -66,7 +66,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
+    // Создаем еще одну таблицу с двумя строками и двумя столбцами, а затем вставляем ее в первую ячейку первой таблицы.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -74,7 +74,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Создает в документе новую таблицу с заданными размерами и текстом в каждой ячейке.
+/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -95,10 +95,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Вы можете использовать свойства «Название» и «Описание», чтобы добавить в таблицу заголовок и описание соответственно.
-    // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-    // Эти свойства имеют смысл для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-    // Если мы сохраним документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание к вашей таблице соответственно.
+    // Таблица должна иметь хотя бы одну строку, прежде чем мы сможем использовать эти свойства.
+    // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

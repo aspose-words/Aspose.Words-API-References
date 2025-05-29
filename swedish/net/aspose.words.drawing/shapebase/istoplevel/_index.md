@@ -3,14 +3,14 @@ title: ShapeBase.IsTopLevel
 linktitle: IsTopLevel
 articleTitle: IsTopLevel
 second_title: Aspose.Words för .NET
-description: ShapeBase IsTopLevel fast egendom. ReturnerarSannom denna form inte är ett underordnat till en gruppform i C#.
+description: Upptäck ShapeBase IsTopLevel. Kontrollera snabbt om en form står fristående och förbättra ditt designarbetsflöde med effektiv grupphantering.
 type: docs
-weight: 350
+weight: 370
 url: /sv/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Returnerar`Sann`om denna form inte är ett underordnat till en gruppform.
+Returer`sann` om den här formen inte är underordnad en gruppform.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -34,7 +34,7 @@ Assert.True(shape.IsTopLevel);
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
-// När vi har assimilerat en form till en gruppform ändras egenskapen "IsTopLevel" till "false".
+// När vi assimilerar en form till en gruppform ändras egenskapen "IsTopLevel" till "false".
 Assert.False(shape.IsTopLevel);
 ```
 

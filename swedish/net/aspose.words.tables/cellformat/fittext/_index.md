@@ -3,14 +3,14 @@ title: CellFormat.FitText
 linktitle: FitText
 articleTitle: FitText
 second_title: Aspose.Words för .NET
-description: CellFormat FitText fast egendom. OmSann  passar text i cellen komprimerar varje stycke till cellens bredd i C#.
+description: Upptäck egenskapen CellFormat FitText, komprimera enkelt text så att den passar cellens bredd, vilket förbättrar läsbarheten och presentationen i dina kalkylblad.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-Om`Sann` , passar text i cellen, komprimerar varje stycke till cellens bredd.
+Om`sann` , anpassar texten i cellen och komprimerar varje stycke till cellens bredd.
 
 ```csharp
 public bool FitText { get; set; }
@@ -18,7 +18,7 @@ public bool FitText { get; set; }
 
 ## Exempel
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

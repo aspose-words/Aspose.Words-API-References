@@ -3,14 +3,14 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words لـ .NET
-description: IMailMergeDataSource MoveNext طريقة. التقدم إلى السجل التالي في مصدر البيانات في C#.
+description: اكتشف كيف تنتقل طريقة IMailMergeDataSource MoveNext بسلاسة إلى السجل التالي، مما يعزز كفاءة إدارة البيانات لديك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource.MoveNext method
 
-التقدم إلى السجل التالي في مصدر البيانات.
+ينتقل إلى السجل التالي في مصدر البيانات.
 
 ```csharp
 public bool MoveNext()
@@ -18,11 +18,11 @@ public bool MoveNext()
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم نقله إلى السجل التالي بنجاح؛`خطأ شنيع` إذا وصلت إلى نهاية مصدر البيانات.
+`حقيقي` إذا تم نقله إلى السجل التالي بنجاح؛`خطأ شنيع` إذا تم الوصول إلى نهاية مصدر البيانات.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
+يوضح كيفية تنفيذ دمج البريد مع مصدر البيانات في شكل كائن مخصص.
 
 ```csharp
 public void CustomDataSource()
@@ -48,7 +48,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
+/// مثال على فئة "كيان البيانات" في تطبيقك.
 /// </summary>
 public class Customer
 {
@@ -63,8 +63,8 @@ public class Customer
 }
 
 /// <summary>
- /// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح بـ Aspose.Words
-/// لدمج بيانات البريد من كائنات العميل الخاصة بك في مستندات Microsoft Word.
+ /// مصدر بيانات دمج البريد المخصص الذي تقوم بتنفيذه للسماح لـ Aspose.Words
+/// لدمج البيانات من كائنات العميل الخاصة بك في مستندات Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -77,7 +77,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع مناطق قابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -85,7 +85,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// تستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -98,7 +98,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
+                // قم بإرجاع "false" إلى محرك دمج البريد Aspose.Words للإشارة إلى
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -106,7 +106,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// تطبيق قياسي للانتقال إلى السجل التالي في المجموعة.
+    /// تنفيذ قياسي للانتقال إلى السجل التالي في المجموعة.
     /// </summary>
     public bool MoveNext()
     {

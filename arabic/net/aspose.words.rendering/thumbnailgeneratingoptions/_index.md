@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند في C#.
+description: اكتشف فئة Aspose.Words.Rendering.ThumbnailGeneratingOptions لتحسين عملية إنشاء الصور المصغرة للمستندات باستخدام ميزات قابلة للتخصيص وجودة محسنة.
 type: docs
-weight: 4600
+weight: 5330
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند.
+يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة لمستند.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -26,12 +26,12 @@ public class ThumbnailGeneratingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند أو الصورة الأولى. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى من المستند أو الصورة الأولى. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | حجم الصورة المصغرة المُولَّدة بالبكسل. الافتراضي هو 600x900. |
 
 ## ملاحظات
 
-يمكن للمستخدم الاتصال بالطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند.
+يمكن للمستخدم استدعاء الطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) لوثيقة.
 
 ## أمثلة
 
@@ -44,8 +44,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
-// 1 - استخدم الصفحة الأولى للمستند:
+// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند بتنسيق .epub.
+// 1 - استخدم الصفحة الأولى من المستند:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

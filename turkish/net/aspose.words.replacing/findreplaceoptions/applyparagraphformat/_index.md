@@ -2,15 +2,15 @@
 title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
-second_title: Aspose.Words for .NET
-description: FindReplaceOptions ApplyParagraphFormat mülk. Yeni içeriğe paragraf biçimlendirmesi uygulandı C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde kusursuz paragraf biçimlendirmesi için FindReplaceOptions'daki ApplyParagraphFormat özelliğini keşfedin. İçeriğinizi zahmetsizce geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Yeni içeriğe paragraf biçimlendirmesi uygulandı.
+Yeni içeriğe uygulanan paragraf biçimlendirmesi.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -34,14 +34,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+// Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Her paragrafı sağa hizalamak için "Alignment" özelliğini "ParagraphAlignment.Right" olarak ayarlayın
-// bulma ve değiştirme işleminin bulduğu eşleşmeyi içerir.
+// Her paragrafı sağa hizalamak için "Hizalama" özelliğini "ParagraphAlignment.Right" olarak ayarlayın
+// bul ve değiştir işleminin bulduğu eşleşmeyi içeren.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Paragraf sonundan hemen önceki her noktayı ünlem işaretiyle değiştirin.
+// Paragraf sonundan hemen önce gelen tüm noktaları ünlem işaretiyle değiştirin.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

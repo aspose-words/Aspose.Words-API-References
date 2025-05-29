@@ -3,14 +3,14 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: Style Name fast egendom. Hämtar eller ställer in namnet på stilen i C#.
+description: Upptäck egenskapen Stilnamn, hantera och anpassa enkelt dina stilar för förbättrad designflexibilitet och användarupplevelse.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words/style/name/
 ---
 ## Style.Name property
 
-Hämtar eller ställer in namnet på stilen.
+Hämtar eller anger namnet på stilen.
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Anmärkningar
 
-Kan inte vara tom sträng.
+Får inte vara en tom sträng.
 
-Om det redan finns en stil med ett sådant namn i samlingen, kommer denna stil att åsidosätta den. Alla berörda noder kommer att referera till ny stil.
+Om det redan finns en stil med det namnet i samlingen, kommer den stilen att åsidosätta den. Alla berörda noder kommer att referera till den nya stilen.
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Visar hur man klona ett dokuments stil.
+Visar hur man klonar ett dokuments stil.
 
 ```csharp
 Document doc = new Document();
@@ -56,10 +56,10 @@ Document doc = new Document();
 // genererar automatiskt ett nytt namn för stilen, till exempel "Rubrik 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Använd stilens "Name"-egenskap för att ändra stilens identifierande namn.
+// Använd stilens "Namn"-egenskap för att ändra stilens identifierande namn.
 newStyle.Name = "My Heading 1";
 
-// Vårt dokument har nu två identiska stilar med olika namn.
+// Vårt dokument har nu två identiskt utseende stilar med olika namn.
 // Ändring av inställningar för en av stilarna påverkar inte den andra.
 newStyle.Font.Color = Color.Red;
 

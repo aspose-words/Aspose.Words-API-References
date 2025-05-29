@@ -3,7 +3,7 @@ title: MailMergeSettings.AddressFieldName
 linktitle: AddressFieldName
 articleTitle: AddressFieldName
 second_title: Aspose.Words für .NET
-description: MailMergeSettings AddressFieldName eigendom. Gibt die Spalte innerhalb der Datenquelle an die EMailAdressen enthält. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die MailMergeSettings AddressFieldName-Eigenschaft, um Ihre E-Mail-Adressspalte einfach in Datenquellen anzugeben und so nahtlose E-Mail-Zusammenführungen sicherzustellen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/mailmergesettings/addressfieldname/

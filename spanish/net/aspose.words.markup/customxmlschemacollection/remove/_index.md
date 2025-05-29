@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: CustomXmlSchemaCollection Remove método. Elimina el valor especificado de la colección en C#.
+description: Administre sin esfuerzo su CustomXmlSchemaCollection con el método Remove para eliminar valores específicos, mejorando la organización y la eficiencia de los datos.
 type: docs
 weight: 80
 url: /es/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +18,7 @@ public void Remove(string name)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| name | String | El valor que distingue entre mayúsculas y minúsculas para eliminar. |
+| name | String | El valor que distingue entre mayúsculas y minúsculas que se va a eliminar. |
 
 ## Ejemplos
 
@@ -31,11 +31,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Agregar una asociación de esquema XML.
+//Agrega una asociación de esquema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clonar la colección de asociaciones de esquemas XML del elemento XML personalizado,
-// y luego agrega un par de esquemas nuevos al clon.
+// Clonar la colección de asociaciones de esquemas XML de la parte XML personalizada,
+// y luego agregue un par de esquemas nuevos al clon.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -43,21 +43,21 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Enumerar los esquemas e imprimir cada elemento.
+// Enumera los esquemas e imprime cada elemento.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// A continuación se muestran tres formas de eliminar esquemas de la colección.
+A continuación se muestran tres formas de eliminar esquemas de la colección.
 // 1 - Eliminar un esquema por índice:
 schemas.RemoveAt(2);
 
 // 2 - Eliminar un esquema por valor:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Utilice el método "Borrar" para vaciar la colección de una vez.
+// 3 - Utilice el método "Clear" para vaciar la colección de una vez.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

@@ -3,7 +3,7 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words para .NET
-description: FrameFormat RelativeVerticalPosition propiedad. Obtiene la posición vertical relativa de un marco en C#.
+description: Descubra la propiedad FrameFormat RelativeVerticalPosition para determinar fácilmente la alineación vertical de un marco, mejorando el diseño y la disposición de su documento.
 type: docs
 weight: 80
 url: /es/net/aspose.words/frameformat/relativeverticalposition/
@@ -18,7 +18,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

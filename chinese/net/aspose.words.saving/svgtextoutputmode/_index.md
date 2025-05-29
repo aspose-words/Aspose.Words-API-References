@@ -2,15 +2,15 @@
 title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.SvgTextOutputMode 枚举. 允许指定以 SVG 格式保存时文档内的文本应如何呈现  在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Saving.SvgTextOutputMode 枚举以自定义 SVG 格式的文本渲染，增强文档呈现和视觉吸引力。
 type: docs
-weight: 5610
+weight: 6410
 url: /zh/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
 
-允许指定以 SVG 格式保存时文档内的文本应如何呈现 。
+允许指定在以 SVG 格式保存时如何呈现文档内的文本。
 
 ```csharp
 public enum SvgTextOutputMode
@@ -21,12 +21,12 @@ public enum SvgTextOutputMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | UseSvgFonts | `0` | SVG 字体用于渲染文本。请注意，并非所有浏览器都支持 SVG 字体。 |
-| UseTargetMachineFonts | `1` | 目标计算机上安装的字体用于呈现文本。 注意，如果文档中使用的某些字体在目标计算机上不可用，则文档可能会有所不同。 |
-| UsePlacedGlyphs | `2` | 文本使用曲线呈现。请注意，如果使用此选项，文本选择将不起作用。 |
+| UseTargetMachineFonts | `1` | 目标机器上安装的字体用于呈现文本。 请注意，如果文档中使用的某些字体在目标机器上不可用，则文档的外观可能会有所不同。 |
+| UsePlacedGlyphs | `2` | 文本使用曲线渲染。请注意，如果使用此选项，文本选择将不起作用。 |
 
 ## 例子
 
-演示如何在将 .docx 文档转换为 .svg 时模仿图像的属性。
+展示如何在将 .docx 文档转换为 .svg 时模仿图像的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

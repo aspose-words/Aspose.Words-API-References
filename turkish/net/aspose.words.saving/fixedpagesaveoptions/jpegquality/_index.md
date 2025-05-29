@@ -2,15 +2,15 @@
 title: FixedPageSaveOptions.JpegQuality
 linktitle: JpegQuality
 articleTitle: JpegQuality
-second_title: Aspose.Words for .NET
-description: FixedPageSaveOptions JpegQuality mülk. Html belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: HTML belgelerinizdeki JPEG kalitesini FixedPageSaveOptions ile optimize edin. Çarpıcı görüntü netliği için JpegQuality özelliğini kolayca ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 ---
 ## FixedPageSaveOptions.JpegQuality property
 
-Html belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar.
+Html belgesinin içindeki JPEG görüntülerinin kalitesini belirleyen bir değeri alır veya ayarlar.
 
 ```csharp
 public int JpegQuality { get; set; }
@@ -18,9 +18,9 @@ public int JpegQuality { get; set; }
 
 ## Notlar
 
-Yalnızca bir belge JPEG görüntüleri içerdiğinde etkili olur.
+Yalnızca belge JPEG görüntüleri içerdiğinde etkilidir.
 
-Sabit sayfa formatında kaydederken bir belge içindeki görüntülerin kalitesini elde etmek veya ayarlamak için bu özelliği kullanın. Değer 0 ila 100 arasında değişebilir; burada 0, en kötü kalite ancak maksimum sıkıştırma anlamına gelir ve 100 , en iyi kalite ancak minimum sıkıştırma anlamına gelir.
+Sabit sayfa biçiminde kaydederken bir belgenin içindeki resimlerin kalitesini almak veya ayarlamak için bu özelliği kullanın. Değer 0 ile 100 arasında değişebilir; burada 0 en kötü kalite ancak maksimum sıkıştırma anlamına gelir ve 100 en iyi kalite ancak minimum sıkıştırma anlamına gelir.
 
 Varsayılan değer 95'tir.
 
@@ -33,25 +33,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// Belgeyi oluştururken daha güçlü sıkıştırma kullanmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
-// Bu, belgenin dosya boyutunu azaltacaktır ancak görüntü, sıkıştırma kusurlarını daha belirgin bir şekilde görüntüleyecektir.
+// Belgeyi işlerken daha güçlü sıkıştırma kullanmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
+// Bu, belgenin dosya boyutunu küçültecektir, ancak görüntü daha belirgin sıkıştırma eserleri gösterecektir.
 imageOptions.JpegQuality = 10;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
-
-Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
 // Belgeyi işlerken daha zayıf sıkıştırma kullanmak için "JpegQuality" özelliğini "100" olarak ayarlayın.
 // Bu, dosya boyutunun artması pahasına görüntünün kalitesini artıracaktır.
 imageOptions.JpegQuality = 100;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
 ### Ayrıca bakınız

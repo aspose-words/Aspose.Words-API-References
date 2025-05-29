@@ -3,7 +3,7 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: GroupShape Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод GroupShape Accept для беспрепятственного привлечения посетителей и улучшения пользовательского опыта на вашем сайте. Повысьте взаимодействие сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/groupshape/accept/
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
-Звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних фигур этой группы и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) в конце.
+Звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних фигур этой групповой фигуры и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) в конце.
 
 ## Примеры
 
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать «непримитивные» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ВерхниеУглыОдинЗакругленныйОдинОбрезанный, ОдинЗакругленныйУгол, ВерхниеУглыЗакругленные, ДиагональныеУглыЗакругленные
+    // пожалуйста, используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -74,7 +74,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит на консоль содержимое посещенной группы фигур.
+/// Выводит содержимое посещенной группы фигур на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

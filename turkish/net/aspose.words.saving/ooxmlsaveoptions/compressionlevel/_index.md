@@ -2,15 +2,15 @@
 title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
-second_title: Aspose.Words for .NET
-description: OoxmlSaveOptions CompressionLevel mülk. Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayılan değerNormal  C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş performans için özelleştirilebilir sıkıştırma düzeyleriyle belge kaydetmeyi optimize etmek amacıyla OoxmlSaveOptions CompressionLevel özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 ---
 ## OoxmlSaveOptions.CompressionLevel property
 
-Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayılan değer:Normal .
+Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayılan değerNormal .
 
 ```csharp
 public CompressionLevel CompressionLevel { get; set; }
@@ -23,8 +23,8 @@ Bir OOXML belgesini kaydederken kullanılacak sıkıştırma düzeyinin nasıl b
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
+// Belgeyi OOXML biçiminde kaydettiğimizde, bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgenin nasıl kaydedileceğini değiştirmek için bunu belgenin kaydetme yöntemine geçiriyoruz.
 // En güçlü ve en yavaş sıkıştırmayı uygulamak için "CompressionLevel" özelliğini "CompressionLevel.Maximum" olarak ayarlayın.
 // Uygulamak için "CompressionLevel" özelliğini "CompressionLevel.Normal" olarak ayarlayın
 // Aspose.Words'ün OOXML belgelerini kaydederken kullandığı varsayılan sıkıştırma.

@@ -3,14 +3,14 @@ title: IResourceSavingCallback.ResourceSaving
 linktitle: ResourceSaving
 articleTitle: ResourceSaving
 second_title: Aspose.Words per .NET
-description: IResourceSavingCallback ResourceSaving metodo. Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa in C#.
+description: Ottimizza l'elaborazione dei tuoi documenti con il metodo ResourceSaving in Aspose.Words, migliorando la gestione delle risorse esterne per i formati HTML e SVG.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 ---
 ## IResourceSavingCallback.ResourceSaving method
 
-Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa.
+Chiamato quando Aspose.Words salva una risorsa esterna in formati HTML o SVG di pagina fissa.
 
 ```csharp
 public void ResourceSaving(ResourceSavingArgs args)
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -78,7 +78,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -107,8 +107,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -117,7 +117,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

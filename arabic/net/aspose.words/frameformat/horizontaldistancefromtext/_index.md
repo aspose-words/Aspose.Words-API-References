@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
 second_title: Aspose.Words لـ .NET
-description: FrameFormat HorizontalDistanceFromText ملكية. يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط في C#.
+description: اكتشف خاصية FrameFormat HorizontalDistanceFromText لقياس المسافة بين الإطارات والنص بالنقاط، مما يعزز تخطيط المستند الخاص بك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط.
+يحصل على المسافة الأفقية بين الإطار والنص المحيط به، بالنقاط.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -18,7 +18,7 @@ public double HorizontalDistanceFromText { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -3,9 +3,9 @@ title: PdfSaveOptions.ZoomBehavior
 linktitle: ZoomBehavior
 articleTitle: ZoomBehavior
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions ZoomBehavior propriété. Obtient ou définit une valeur déterminant le type de zoom à appliquer lorsquun document est ouvert avec une visionneuse PDF en C#.
+description: Découvrez PdfSaveOptions ZoomBehavior et contrôlez les paramètres de zoom pour un affichage optimal dans les lecteurs PDF. Améliorez l'expérience utilisateur grâce à un affichage personnalisé des documents !
 type: docs
-weight: 320
+weight: 350
 url: /fr/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 ---
 ## PdfSaveOptions.ZoomBehavior property
@@ -29,11 +29,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
-// Définissez la propriété "ZoomBehavior" sur "PdfZoomBehavior.ZoomFactor" pour qu'un lecteur PDF
-// applique un facteur de zoom basé sur un pourcentage lorsque nous ouvrons le document avec.
-// Fixez la propriété "ZoomFactor" à "25" pour donner au facteur de zoom une valeur de 25%.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
+// Définissez la propriété « ZoomBehavior » sur « PdfZoomBehavior.ZoomFactor » pour qu'un lecteur PDF
+// appliquer un facteur de zoom basé sur un pourcentage lorsque nous ouvrons le document avec celui-ci.
+// Définissez la propriété « ZoomFactor » sur « 25 » pour donner au facteur de zoom une valeur de 25 %.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

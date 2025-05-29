@@ -2,17 +2,17 @@
 title: ConvertUtil Class
 linktitle: ConvertUtil
 articleTitle: ConvertUtil
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ConvertUtil sınıf. Çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz birim dönüşümü için Aspose.Words.ConvertUtil sınıfını keşfedin. Belge işlemenizi bugün temel yardımcı işlevlerle geliştirin!
 type: docs
-weight: 360
+weight: 560
 url: /tr/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
-Çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlar.
+Çeşitli ölçüm birimleri arasında dönüşüm yapmak için yardımcı işlevler sağlar.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Ölçü Birimleri Arasında Dönüştürme](https://docs.aspose.com/words/net/convert-between-measurement-units/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Ölçüm Birimleri Arasında Dönüşüm](https://docs.aspose.com/words/net/convert-between-measurement-units/) belgeleme makalesi.
 
 ```csharp
 public static class ConvertUtil
@@ -23,17 +23,17 @@ public static class ConvertUtil
 | İsim | Tanım |
 | --- | --- |
 | static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | İnçleri noktalara dönüştürür. |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | Milimetreyi noktaya dönüştürür. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | Milimetreleri noktalara dönüştürür. |
 | static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | Pikselleri bir çözünürlükten diğerine dönüştürür. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | Pikselleri 96 dpi'de noktalara dönüştürür. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | Belirtilen piksel çözünürlüğünde pikselleri noktalara dönüştürür. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | Noktaları inç'e dönüştürür. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | Noktaları 96 dpi'de piksellere dönüştürür. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | Pikselleri 96 dpi'da noktalara dönüştürür. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | Pikselleri belirtilen piksel çözünürlüğündeki noktalara dönüştürür. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | Noktaları inçlere dönüştürür. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | Noktaları 96 dpi'da piksellere dönüştürür. |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | Noktaları belirtilen piksel çözünürlüğünde piksellere dönüştürür. |
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -59,9 +59,9 @@ Sayfa özelliklerinin inç cinsinden nasıl belirtileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir bölümün "Sayfa Yapısı" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
-// Daha tanıdık bir ölçü birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz,
-// sınırları tanımlarken inç gibi.
+// Bir bölümün "Sayfa Düzeni" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
+// Daha tanıdık bir ölçüm birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz.
+// Sınırları tanımlarken inç gibi.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
 pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
@@ -72,7 +72,7 @@ pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// Yeni kenar boşluklarını gösterecek içerik ekleyin.
+// Yeni kenar boşluklarını gösteren içerik ekleyin.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

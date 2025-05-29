@@ -3,14 +3,14 @@ title: MailMergeCleanupOptions Enum
 linktitle: MailMergeCleanupOptions
 articleTitle: MailMergeCleanupOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions تعداد. تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد في C#.
+description: اكتشف Aspose.Words.MailMergeCleanupOptions لإدارة عملية تنظيف دمج البريد بكفاءة. حسّن مستنداتك بالتحكم في إزالة العناصر بسلاسة.
 type: docs
-weight: 3850
+weight: 4540
 url: /ar/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
 
-تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد.
+يحدد الخيارات التي تحدد العناصر التي سيتم إزالتها أثناء دمج البريد.
 
 ```csharp
 [Flags]
@@ -22,16 +22,42 @@ public enum MailMergeCleanupOptions
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | None | `0` | يحدد قيمة افتراضية. |
-| RemoveEmptyParagraphs | `1` | يحدد ما إذا كان يجب إزالة الفقرات التي تحتوي على حقول دمج البريد بدون بيانات من المستند. عند تعيين هذا الخيار، تتم أيضًا إزالة الفقرات التي تحتوي على حقول دمج البداية والنهاية للمنطقة والتي تكون فارغة . |
+| RemoveEmptyParagraphs | `1` | يحدد ما إذا كان يجب إزالة الفقرات التي تحتوي على حقول دمج البريد بدون بيانات من المستند. عندما يتم تعيين هذا الخيار، تتم أيضًا إزالة الفقرات التي تحتوي على حقول دمج بداية ونهاية المنطقة والتي تكون فارغة بخلاف ذلك . |
 | RemoveUnusedRegions | `2` | يحدد ما إذا كان يجب إزالة مناطق دمج البريد غير المستخدمة من المستند. |
 | RemoveUnusedFields | `4` | يحدد ما إذا كان يجب إزالة حقول الدمج غير المستخدمة من المستند. |
-| RemoveContainingFields | `8` | يحدد ما إذا كان يجب إزالة الحقول التي تحتوي على حقول دمج (على سبيل المثال، IFs) من المستند إذا تمت إزالة حقول الدمج المتداخلة. |
-| RemoveStaticFields | `10` | يحدد ما إذا كان يجب إزالة الحقول الثابتة من المستند. الحقول الثابتة هي حقول تظل نتائجها كما هي عند أي تغيير في المستند. الحقول التي لا تخزن نتائجها في document ويتم حسابها بسرعة (مثلFieldListNumFieldSymbol ، وما إلى ذلك) لا تعتبر ثابتة. |
-| RemoveEmptyTableRows | `20` | تحديد ما إذا كان يجب إزالة الصفوف الفارغة التي تحتوي على مناطق دمج المراسلات من المستند. |
+| RemoveContainingFields | `8` | يحدد ما إذا كان يجب إزالة الحقول التي تحتوي على حقول دمج (على سبيل المثال، IFs) من document إذا تمت إزالة حقول الدمج المتداخلة. |
+| RemoveStaticFields | `10` | يُحدد ما إذا كان يجب إزالة الحقول الثابتة من المستند. الحقول الثابتة هي الحقول التي تبقى نتائجها كما هي عند أي تغيير في المستند. الحقول التي لا تُخزّن نتائجها في document وتُحسب تلقائيًا (مثلFieldListNum ، FieldSymbol ، إلخ) لا تعتبر ثابتة. |
+| RemoveEmptyTableRows | `20` | يحدد ما إذا كان يجب إزالة الصفوف الفارغة التي تحتوي على مناطق دمج البريد من المستند. |
+| RemoveEmptyTables | `40` | يحدد ما إذا كان سيتم الإزالة من جداول المستندات التي تحتوي على مناطق دمج البريد التي تمت إزالتها باستخدام إماRemoveUnusedRegions أو الRemoveEmptyTableRows الخيار. |
 
 ## أمثلة
 
-يوضح كيفية إزالة الفقرات الفارغة التي قد تنشئها عملية دمج البريد من مستند إخراج الدمج.
+يوضح كيفية إزالة الجدول الفارغ بالكامل أثناء دمج البريد.
+
+```csharp
+DataTable tableCustomers = new DataTable("A");
+tableCustomers.Columns.Add("CustomerID");
+tableCustomers.Columns.Add("CustomerName");
+tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
+tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
+
+DataSet ds = new DataSet();
+ds.Tables.Add(tableCustomers);
+
+Document doc = new Document(MyDir + "Mail merge tables.docx");
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+
+doc.MailMerge.MergeDuplicateRegions = false;
+doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
+doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
+
+doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+
+doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.Table, true).Count);
+```
+
+يوضح كيفية إزالة الفقرات الفارغة التي قد ينشئها دمج البريد من مستند إخراج الدمج.
 
 ```csharp
 Document doc = new Document();
@@ -64,14 +90,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-يوضح كيفية إزالة MERGEFIELD التي لا يتم استخدامها أثناء دمج البريد تلقائيًا.
+يوضح كيفية إزالة MERGEFIELDs تلقائيًا والتي لا يتم استخدامها أثناء دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء مستند باستخدام MERGEFIELDs لثلاثة أعمدة من جدول مصدر بيانات دمج المراسلات،
-// ثم قم بإنشاء جدول يحتوي على عمودين فقط تتطابق أسماؤهما مع MERGEFIELDs الخاصة بنا.
+// قم بإنشاء مستند يحتوي على MERGEFIELDs لثلاثة أعمدة من جدول مصدر بيانات دمج البريد،
+// ثم قم بإنشاء جدول يحتوي على عمودين فقط يتطابق اسميهما مع MERGEFIELDs الخاصة بنا.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -84,10 +110,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// يشير MERGEFIELD الثالث إلى عمود "المدينة"، وهو غير موجود في مصدر البيانات لدينا.
-// سوف يترك دمج البريد الحقول مثل هذه سليمة في حالتها السابقة للدمج.
-// سيؤدي تعيين خاصية "CleanupOptions" على "RemoveUnusedFields" إلى إزالة أي MERGEFIELDs
-// التي لا يتم استخدامها أثناء عملية دمج البريد لتنظيف مستندات الدمج.
+// يشير حقل MERGEFIELD الثالث لدينا إلى عمود "المدينة"، والذي لا يوجد في مصدر البيانات الخاص بنا.
+// سيؤدي دمج البريد إلى ترك الحقول مثل هذا سليمة في حالتها قبل الدمج.
+// سيؤدي تعيين خاصية "CleanupOptions" إلى "RemoveUnusedFields" إلى إزالة أي MERGEFIELDs
+// التي لا يتم استخدامها أثناء دمج البريد لتنظيف مستندات الدمج.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

@@ -2,8 +2,8 @@
 title: TextPath.Italic
 linktitle: Italic
 articleTitle: Italic
-second_title: Aspose.Words for .NET
-description: TextPath Italic mülk. Yazı tipi italik olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: TextPath Italic özelliğini keşfedin. Gelişmiş metin tasarımı ve okunabilirlik için yazı tipinizin italik olarak biçimlendirilip biçimlendirilmediğini kolayca kontrol edin. Tipografinizi bugün güçlendirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/textpath/italic/
@@ -22,23 +22,23 @@ Varsayılan değer:`YANLIŞ`.
 
 ## Örnekler
 
-WordArt'la nasıl çalışılacağını gösterir.
+WordArt ile nasıl çalışılacağını gösterir.
 
 ```csharp
 public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // Metni Microsoft Word'de fareyi kullanarak yeniden boyutlandırabileceğimiz ve taşıyabileceğimiz bir şekilde görüntülemek için bir WordArt nesnesi ekleyin.
-    // WordArt'a şekil ayarlamak için bağımsız değişken olarak bir "ShapeType" sağlayın.
-    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
+    // Microsoft Word'de metni fareyi kullanarak yeniden boyutlandırabileceğimiz ve taşıyabileceğimiz bir şekil içerisinde görüntülemek için bir WordArt nesnesi ekleyin.
+    // WordArt için bir şekil belirlemek amacıyla bir "ShapeType" argümanı sağlayın.
+    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.",
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // İlgili özellikleri kullanarak "Kalın" ve "İtalik" biçimlendirme ayarlarını metne uygulayın.
+    // Metne ilgili özellikleri kullanarak "Kalın" ve "İtalik" biçimlendirme ayarlarını uygulayın.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
-    // Aşağıda metin biçimlendirmeyle ilgili diğer çeşitli özellikler bulunmaktadır.
+    // Aşağıda metin biçimlendirmeyle ilgili çeşitli diğer özellikler bulunmaktadır.
     Assert.False(shape.TextPath.Underline);
     Assert.False(shape.TextPath.Shadow);
     Assert.False(shape.TextPath.StrikeThrough);
@@ -58,14 +58,14 @@ public void InsertTextPaths()
     shape = AppendWordArt(doc, "On set to \"false\"", "Calibri", 150, 24, Color.Yellow, Color.Purple, ShapeType.TextPlainText);
     shape.TextPath.On = false;
 
-    // Belirli karakterler arasındaki karakter aralığı aralığını etkinleştirmek/devre dışı bırakmak için "Karakter Aralığı" özelliğini kullanın.
+    // Belirli karakterler arasındaki aralık aralığını etkinleştirmek/devre dışı bırakmak için "Kerning" özelliğini kullanın.
     shape = AppendWordArt(doc, "Kerning: VAV", "Times New Roman", 90, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = true;
 
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // Karakterler arasındaki özel aralığı 0,0 (yok) ila 1,0 (varsayılan) arasında ayarlamak için "Boşluk" özelliğini kullanın.
+    // Karakterler arasındaki özel aralığı 0,0 (hiçbiri) ile 1,0 (varsayılan) arasında bir ölçekte ayarlamak için "Boşluk" özelliğini kullanın.
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
@@ -73,17 +73,17 @@ public void InsertTextPaths()
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // Her karakterin x yüksekliğini büyük harf yüksekliğine eşitlemek için "SameLetterHeights" özelliğini "true" olarak ayarlayın.
+    // Her karakterin x yüksekliğinin büyük harf yüksekliğine eşit olması için "SameLetterHeights" özelliğini "true" olarak ayarlayın.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // Varsayılan olarak metnin boyutu, metin boyutu ayarını geçersiz kılarak her zaman içerdiği şeklin boyutuna uyacak şekilde ölçeklenir.
+    // Varsayılan olarak, metnin boyutu her zaman içeren şeklin boyutuna uyacak şekilde ölçeklenir ve metin boyutu ayarı geçersiz kılınır.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // "FitShape: özelliğini "false" olarak ayarlarsak metin boyutu korunacaktır
-    // şeklin boyutundan bağımsız olarak "Size" özelliğinin belirttiği değer.
+    // "FitShape: özelliğini "false" olarak ayarlarsak, metin boyutunu koruyacaktır
+    // Şeklin boyutundan bağımsız olarak "Boyut" özelliğinin belirttiği değer.
     // Metni şeklin bir kenarına hizalamak için "TextPathAlignment" özelliğini de kullanın.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
@@ -94,14 +94,14 @@ public void InsertTextPaths()
 }
 
 /// <summary>
-/// İçinde WordArt şekli bulunan yeni bir paragraf ekleyin.
+/// İçinde WordArt şekli bulunan yeni bir paragraf ekle.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // WordArt'ımız için kapsayıcı görevi görecek bir satır içi Şekil oluşturun.
-    // Şekil yalnızca ona WordArt tarafından atanmış bir ShapeType atarsak geçerli bir WordArt şekli olabilir.
-    // Bu türlerin açıklamasında "WordArt nesnesi" bulunur,
-    // ve bunların numaralayıcı sabit adlarının tümü "Metin" ile başlayacaktır.
+    // WordArt'ımız için bir kapsayıcı görevi görecek satır içi bir Şekil oluşturun.
+    // Şekle, yalnızca WordArt tarafından belirlenmiş bir Şekil Türü atarsak geçerli bir WordArt şekli olabilir.
+    // Bu türlerin açıklamasında "WordArt nesnesi" bulunacaktır.
+    // ve bunların numaralandırıcı sabit isimlerinin hepsi "Text" ile başlayacaktır.
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

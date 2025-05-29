@@ -3,7 +3,7 @@ title: FieldBibliography
 linktitle: FieldBibliography
 articleTitle: FieldBibliography
 second_title: Aspose.Words pour .NET
-description: FieldBibliography constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldBibliography, votre outil indispensable pour créer des citations en toute simplicité. Simplifiez vos recherches avec notre constructeur par défaut dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldbibliography/fieldbibliography/

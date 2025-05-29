@@ -3,7 +3,7 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words para .NET
-description: ReplacingArgs Replacement propiedad. Obtiene o establece la cadena de reemplazo en C#.
+description: Descubra la propiedad de reemplazo ReplacingArgs para administrar y personalizar fácilmente sus cadenas de reemplazo para una mejor eficiencia de codificación.
 type: docs
 weight: 60
 url: /es/net/aspose.words.replacing/replacingargs/replacement/
@@ -18,7 +18,7 @@ public string Replacement { get; set; }
 
 ## Ejemplos
 
-Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
+Muestra cómo reemplazar todas las ocurrencias de un patrón de expresión regular con otra cadena, mientras se rastrean todos dichos reemplazos.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
+    // Establezca una devolución de llamada que rastree cualquier reemplazo que realizará el método "Reemplazar".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
-/// y anota el valor del texto coincidente original.
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de búsqueda y reemplazo
+/// y anota el valor del texto original coincidente.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {

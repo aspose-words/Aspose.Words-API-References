@@ -2,8 +2,8 @@
 title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageData ImageBytes 财产. 获取或设置存储在形状中的图像的原始字节 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ImageData ImageBytes 属性，轻松管理和操作形状内的原始图像字节，以增强视觉内容。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/imagedata/imagebytes/
@@ -20,11 +20,11 @@ public byte[] ImageBytes { get; set; }
 
 将值设置为`无效的`或者空数组将从形状中删除图像。
 
-退货`无效的`如果图像未存储在文档中（例如，在这种情况下图像可能已链接）。
+返回`无效的`如果图像未存储在文档中（例如，在这种情况下图像可能已链接）。
 
 ## 例子
 
-演示如何从形状的原始图像数据创建图像文件。
+展示如何从形状的原始图像数据创建图像文件。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");

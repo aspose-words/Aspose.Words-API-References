@@ -3,7 +3,7 @@ title: FormFieldCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words pour .NET
-description: FormFieldCollection Clear méthode. Supprime tous les champs de formulaire de cette collection et du document en C#.
+description: Effacez sans effort tous les champs de formulaire de votre document avec la méthode FormFieldCollection Clear, garantissant un espace de travail rationalisé et organisé.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/formfieldcollection/clear/
@@ -65,15 +65,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

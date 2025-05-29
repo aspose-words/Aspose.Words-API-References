@@ -3,9 +3,9 @@ title: MailMergeCheckErrors Enum
 linktitle: MailMergeCheckErrors
 articleTitle: MailMergeCheckErrors
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors énumération. Spécifie comment Microsoft Word signalera les erreurs détectées lors du publipostage en C#.
+description: Découvrez comment l'énumération Aspose.Words.MailMergeCheckErrors améliore votre processus de publipostage en signalant efficacement les erreurs Microsoft Word pour une création de documents transparente.
 type: docs
-weight: 5810
+weight: 6640
 url: /fr/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -27,7 +27,7 @@ public enum MailMergeCheckErrors
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

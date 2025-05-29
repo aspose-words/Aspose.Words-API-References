@@ -2,15 +2,15 @@
 title: DocumentBuilder.InsertHorizontalRule
 linktitle: InsertHorizontalRule
 articleTitle: InsertHorizontalRule
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder InsertHorizontalRule 方法. 将水平标尺形状插入文档中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder InsertHorizontalRule 方法增强您的文档，轻松添加时尚的水平线，以实现更好的组织和视觉吸引力。
 type: docs
-weight: 340
+weight: 370
 url: /zh/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-将水平标尺形状插入文档中。
+在文档中插入水平规则形状。
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -18,11 +18,11 @@ public Shape InsertHorizontalRule()
 
 ### 返回值
 
-水平尺的形状。
+水平线形状。
 
 ## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+展示如何插入水平线形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

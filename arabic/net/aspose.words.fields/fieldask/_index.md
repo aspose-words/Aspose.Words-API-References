@@ -3,9 +3,9 @@ title: FieldAsk Class
 linktitle: FieldAsk
 articleTitle: FieldAsk
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldAsk فصل. ينفذ حقل ASK في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldAsk للتنفيذ السلس لحقل ASK، مما يعزز أتمتة المستندات وكفاءتها.
 type: docs
-weight: 1560
+weight: 1970
 url: /ar/net/aspose.words.fields/fieldask/
 ---
 ## FieldAsk class
@@ -28,35 +28,35 @@ public class FieldAsk : Field
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldask/bookmarkname/) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |
-| [DefaultResponse](../../aspose.words.fields/fieldask/defaultresponse/) { get; set; } | الحصول على استجابة المستخدم الافتراضية أو تعيينها (القيمة الأولية الموجودة في نافذة المطالبة). |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [BookmarkName](../../aspose.words.fields/fieldask/bookmarkname/) { get; set; } | يحصل على اسم الإشارة المرجعية أو يعينه. |
+| [DefaultResponse](../../aspose.words.fields/fieldask/defaultresponse/) { get; set; } | يحصل على استجابة المستخدم الافتراضية (القيمة الأولية الموجودة في نافذة المطالبة) أو يعينها. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldask/promptonceonmailmerge/) { get; set; } | الحصول على أو تعيين ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية دمج البريد. |
-| [PromptText](../../aspose.words.fields/fieldask/prompttext/) { get; set; } | الحصول على نص المطالبة أو تعيينه (عنوان نافذة المطالبة). |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldask/promptonceonmailmerge/) { get; set; } | يحصل على أو يحدد ما إذا كان يجب استلام استجابة المستخدم مرة واحدة لكل عملية دمج بريد. |
+| [PromptText](../../aspose.words.fields/fieldask/prompttext/) { get; set; } | يحصل على نص المطالبة (عنوان نافذة المطالبة) أو يعينه. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-يطالب المستخدم بإدخال المعلومات ويعين إشارة مرجعية لتمثيل استجابة المستخدم.
+يطلب من المستخدم إدخال المعلومات ويخصص إشارة مرجعية لتمثيل استجابة المستخدم.
 
 ## أمثلة
 
@@ -68,14 +68,14 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // ضع حقلاً حيث سيتم وضع الرد على حقل ASK الخاص بنا.
+    // ضع حقلًا حيث سيتم وضع الاستجابة لحقل ASK الخاص بنا.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // أدخل حقل ASK وقم بتحرير خصائصه للإشارة إلى حقل REF الخاص بنا حسب اسم الإشارة المرجعية.
+    // أدخل حقل ASK وقم بتحرير خصائصه للإشارة إلى حقل REF الخاص بنا عن طريق اسم الإشارة المرجعية.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -87,7 +87,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // تقوم حقول ASK بتطبيق الاستجابة الافتراضية على حقول REF الخاصة بها أثناء دمج البريد.
+    // تطبق حقول ASK الاستجابة الافتراضية على حقول REF الخاصة بها أثناء دمج البريد.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -96,7 +96,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // يمكننا تعديل أو تجاوز الاستجابة الافتراضية في حقول ASK الخاصة بنا باستخدام مستجيب سريع مخصص،
+    // يمكننا تعديل أو تجاوز الاستجابة الافتراضية في حقول ASK باستخدام مستجيب مطالبة مخصص،
     // والذي سيحدث أثناء دمج البريد.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -106,7 +106,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// يُلحق النص بالاستجابة الافتراضية لحقل ASK أثناء دمج البريد.
+/// إضافة نص إلى الاستجابة الافتراضية لحقل ASK أثناء دمج البريد.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

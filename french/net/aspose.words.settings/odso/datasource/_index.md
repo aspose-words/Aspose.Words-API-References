@@ -3,7 +3,7 @@ title: Odso.DataSource
 linktitle: DataSource
 articleTitle: DataSource
 second_title: Aspose.Words pour .NET
-description: Odso DataSource propriété. Spécifie lemplacement de la source de données externe à connecter à un document pour effectuer le publipostage. La valeur par défaut est une chaîne vide en C#.
+description: Connectez vos documents facilement avec Odso DataSource. Spécifiez facilement des sources de données externes pour des publipostages fluides. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odso/datasource/
@@ -18,7 +18,7 @@ public string DataSource { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

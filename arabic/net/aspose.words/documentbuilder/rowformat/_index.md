@@ -3,14 +3,14 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder RowFormat ملكية. إرجاع كائن يمثل خصائص تنسيق صف الجدول الحالي في C#.
+description: استكشف خاصية RowFormat في DocumentBuilder للوصول بسهولة إلى تنسيق صفوف الجدول وتخصيصها لتحسين تصميم المستندات وعرضها.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-إرجاع كائن يمثل خصائص تنسيق صف الجدول الحالي.
+يعيد كائنًا يمثل خصائص تنسيق صف الجدول الحالي.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الصفوف باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// ابدأ الصف الثاني، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
+// ابدأ صفًا ثانيًا، ثم اضبط ارتفاعه. سيُطبّق المُنشئ هذه الإعدادات على
 // الصف الحالي، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
 builder.EndRow();
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -99,7 +99,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -124,8 +124,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -136,7 +136,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

@@ -2,8 +2,8 @@
 title: FrameFormat.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat HorizontalPosition 财产. 获取框架边缘与指定项目之间的水平距离RelativeHorizontalPosition属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat HorizontalPosition 属性，轻松测量框架边缘和指定项目之间的距离，以实现精确的布局控制。
 type: docs
 weight: 50
 url: /zh/net/aspose.words/frameformat/horizontalposition/
@@ -18,7 +18,7 @@ public double HorizontalPosition { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

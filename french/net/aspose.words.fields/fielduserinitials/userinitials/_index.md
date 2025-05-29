@@ -3,7 +3,7 @@ title: FieldUserInitials.UserInitials
 linktitle: UserInitials
 articleTitle: UserInitials
 second_title: Aspose.Words pour .NET
-description: FieldUserInitials UserInitials propriété. Obtient ou définit les initiales de lutilisateur actuel en C#.
+description: Accédez et personnalisez la propriété FieldUserInitials pour gérer sans effort les initiales des utilisateurs, améliorant ainsi la personnalisation et l'expérience utilisateur.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -28,7 +28,7 @@ UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Crée un champ USERINITIALS pour afficher les initiales de l'utilisateur actuel,
+// Créez un champ USERINITIALS pour afficher les initiales de l'utilisateur actuel,
 // extrait de l'objet UserInformation que nous avons créé ci-dessus.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);

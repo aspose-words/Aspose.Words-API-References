@@ -3,16 +3,16 @@ title: XmlMapping Class
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Markup.XmlMapping فصل. يحدد المعلومات المستخدمة لتأسيس تعيين بين علامة المستند الهيكليةparent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند في C#.
+description: اكتشف فئة Aspose.Words.Markup.XmlMapping لربط علامات المستندات المنظمة بعناصر XML بسلاسة، مما يعزز تكامل بيانات مستندك.
 type: docs
-weight: 4100
+weight: 4790
 url: /ar/net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class
 
-يحدد المعلومات المستخدمة لتأسيس تعيين بين علامة المستند الهيكليةparent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند.
+يحدد المعلومات المستخدمة لإنشاء تعيين بين علامة المستند المهيكلة parent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند.
 
-لمعرفة المزيد، قم بزيارة[علامات المستندات المنظمة أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[علامات المستند المنظم أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
 
 ```csharp
 public class XmlMapping
@@ -22,18 +22,18 @@ public class XmlMapping
 
 | اسم | وصف |
 | --- | --- |
-| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | إرجاع جزء بيانات XML المخصص الذي تم تعيين علامة المستند المنظمة الأصلية إليه. |
-| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | إرجاع`حقيقي` إذا تم تعيين علامة المستند المنظمة الأصلية بنجاح إلى بيانات XML. |
-| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings/) { get; } | إرجاع تعيينات بادئة مساحة اسم XML لتقييم[`XPath`](./xpath/) . |
-| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](./xpath/) التعبير. |
-| [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | إرجاع تعبير XPath، الذي يتم تقييمه للعثور على عقدة XML المخصصة التي تم تعيينها لعلامة المستند الهيكلي الأصل. |
+| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | يعيد جزء بيانات XML المخصص الذي تم تعيين علامة المستند المنظم الرئيسي إليه. |
+| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | إرجاع`حقيقي` إذا تم تعيين علامة المستند المنظم الرئيسي بنجاح إلى بيانات XML. |
+| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings/) { get; } | يعيد تعيينات بادئة مساحة اسم XML لتقييم[`XPath`](./xpath/) . |
+| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](./xpath/) تعبير. |
+| [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | يعيد تعبير XPath، الذي يتم تقييمه للعثور على node XML المخصصة التي تم تعيينها إلى علامة المستند المنظم الرئيسي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Delete](../../aspose.words.markup/xmlmapping/delete/)() | حذف تعيين المستند المنظم الأصلي إلى بيانات XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | يعين تعيينًا بين علامة المستند الهيكلية الأصلية وعقدة XML لجزء بيانات XML مخصص. |
+| [Delete](../../aspose.words.markup/xmlmapping/delete/)() | يحذف تعيين المستند المنظم الرئيسي لبيانات XML. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | تعيين تعيين بين علامة المستند المنظم الرئيسي وعقدة XML لجزء بيانات XML مخصص. |
 
 ## أمثلة
 
@@ -42,20 +42,20 @@ public class XmlMapping
 ```csharp
 Document doc = new Document();
 
-// أنشئ جزءًا XML يحتوي على نص وأضفه إلى مجموعة CustomXmlPart الخاصة بالمستند.
+// قم بإنشاء جزء XML يحتوي على نص وإضافته إلى مجموعة CustomXmlPart الخاصة بالمستند.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
+Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// أنشئ علامة مستند منظمة تعرض محتويات CustomXmlPart الخاصة بنا.
+// قم بإنشاء علامة مستند منظمة لعرض محتويات CustomXmlPart الخاص بنا.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// قم بتعيين تعيين لعلامة المستند المنظمة الخاصة بنا. سوف يرشدك هذا التعيين
-// علامة المستند المنظمة الخاصة بنا لعرض جزء من محتويات نص جزء XML الذي يشير إليه XPath.
-// في هذه الحالة، ستكون محتويات "<text>" الثاني عنصر "<root>" الأول العنصر: "عنصر النص رقم 2".
+// تعيين تعيين لعلامة مستندنا المهيكلة. سيُعلمك هذا التعيين
+// علامة المستند المنظم لدينا لعرض جزء من محتويات نص جزء XML الذي يشير إليه XPath.
+// في هذه الحالة، سيكون محتوى العنصر الثاني "<text>" للعنصر الأول "<root>": "عنصر النص رقم 2".
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);
@@ -63,7 +63,7 @@ Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
 Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
 Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'"، tag.XmlMapping.PrefixMappings);
 
-// أضف علامة المستند المنظمة إلى المستند لعرض المحتوى من الجزء المخصص لدينا.
+// أضف علامة المستند المنظم إلى المستند لعرض المحتوى من الجزء المخصص لدينا.
 doc.FirstSection.Body.AppendChild(tag);
 doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ```

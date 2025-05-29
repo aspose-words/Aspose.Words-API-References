@@ -2,15 +2,15 @@
 title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
-second_title: 用于 .NET 的 Aspose.Words
-description: FindReplaceOptions ApplyFont 财产. 应用于新内容的文本格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FindReplaceOptions 中的 ApplyFont 属性，实现无缝文本格式设置。轻松使用自定义样式增强您的内容！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-应用于新内容的文本格式。
+文本格式已应用于新内容。
 
 ```csharp
 public Font ApplyFont { get; }
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -33,7 +33,7 @@ public void ConvertNumbersToHexadecimal()
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 将“HighlightColor”属性设置为我们想要应用于操作结果文本的背景颜色。
+    // 将“HighlightColor”属性设置为我们想要应用于操作的结果文本的背景颜色。
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,7 +51,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// 将数字查找和替换匹配替换为其十六进制等效项。
+/// 用十六进制等效值替换数字查找和替换匹配项。
 /// 维护每次替换的日志。
 /// </summary>
 private class NumberHexer : IReplacingCallback

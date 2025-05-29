@@ -3,9 +3,9 @@ title: Underline Enum
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Underline enumeración. Indica el tipo de subrayado aplicado a una fuente en C#.
+description: Descubra la enumeración Aspose.Words.Underline para opciones versátiles de subrayado de fuentes. ¡Mejore el formato de sus documentos con estilos personalizables hoy mismo!
 type: docs
-weight: 6510
+weight: 7360
 url: /es/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -49,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserta un hipervínculo y enfatízalo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

@@ -2,8 +2,8 @@
 title: OdsoFieldMapData
 linktitle: OdsoFieldMapData
 articleTitle: OdsoFieldMapData
-second_title: Aspose.Words for .NET
-description: OdsoFieldMapData inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoFieldMapData oluşturucusunu keşfedin—kusursuz veri yönetimi ve entegrasyonu için olmazsa olmaz aracınız. Projelerinizde verimliliği bugün açığa çıkarın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/odsofieldmapdata/odsofieldmapdata/

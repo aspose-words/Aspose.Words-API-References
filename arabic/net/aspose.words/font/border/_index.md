@@ -3,14 +3,14 @@ title: Font.Border
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words لـ .NET
-description: Font Border ملكية. إرجاع أBorder الكائن الذي يحدد الحدود للخط في C#.
+description: اكتشف خاصية حدود الخط، التي توفر كائن حدود قابل للتخصيص لتعزيز نمط الخط ومرونة التصميم.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-إرجاع أ[`Border`](../../border/) الكائن الذي يحدد الحدود للخط.
+يعيد[`Border`](../../border/) الكائن الذي يحدد حدود الخط.
 
 ```csharp
 public Border Border { get; }
@@ -18,7 +18,7 @@ public Border Border { get; }
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();

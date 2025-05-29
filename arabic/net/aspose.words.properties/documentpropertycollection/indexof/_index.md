@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words لـ .NET
-description: DocumentPropertyCollection IndexOf طريقة. الحصول على فهرس الخاصية بالاسم في C#.
+description: اكتشف دالة DocumentPropertyCollection IndexOf للعثور على فهرس خاصية ما بكفاءة حسب اسمها. حسّن إنتاجيتك في البرمجة اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/documentpropertycollection/indexof/
 ---
 ## DocumentPropertyCollection.IndexOf method
 
-الحصول على فهرس الخاصية بالاسم.
+يحصل على فهرس الخاصية حسب الاسم.
 
 ```csharp
 public int IndexOf(string name)
@@ -22,11 +22,11 @@ public int IndexOf(string name)
 
 ### قيمة الإرجاع
 
-المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
+الفهرس صفري. قيمة سلبية في حال عدم العثور عليه.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
+يوضح كيفية العمل مع خصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document();
@@ -34,32 +34,32 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// خصائص المستند المخصصة هي أزواج ذات قيمة أساسية يمكننا إضافتها إلى المستند.
+// خصائص المستند المخصصة هي أزواج مفتاح-قيمة يمكننا إضافتها إلى المستند.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// تقوم المجموعة بفرز الخصائص المخصصة بالترتيب الأبجدي.
+// تقوم المجموعة بفرز الخصائص المخصصة حسب الترتيب الأبجدي.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// اطبع كل خاصية مخصصة في المستند.
+//طباعة كل خاصية مخصصة في المستند.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// اعرض قيمة الخاصية المخصصة باستخدام حقل DOCPROPERTY.
+// عرض قيمة خاصية مخصصة باستخدام حقل DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// يمكننا العثور على هذه الخصائص المخصصة في Microsoft Word عبر "ملف" -> "الخصائص" > "خصائص متقدمة" > "مخصص".
+// يمكننا العثور على هذه الخصائص المخصصة في Microsoft Word عبر "ملف" -> "خصائص" > "خصائص متقدمة" > "مخصص".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // فيما يلي ثلاث طرق لإزالة الخصائص المخصصة من المستند.
@@ -69,7 +69,7 @@ properties.RemoveAt(1);
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));

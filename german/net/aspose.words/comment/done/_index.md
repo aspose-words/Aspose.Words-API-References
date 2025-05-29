@@ -3,14 +3,14 @@ title: Comment.Done
 linktitle: Done
 articleTitle: Done
 second_title: Aspose.Words für .NET
-description: Comment Done eigendom. Ruft ein Flag ab oder setzt es das angibt dass der Kommentar als erledigt markiert wurde in C#.
+description: Markieren Sie Kommentare mit der Eigenschaft „Erledigt“ als abgeschlossen. Verwalten Sie Ihre Aufgaben ganz einfach und verbessern Sie die Workflow-Effizienz mit dieser einfachen Kennzeichnungsfunktion.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words/comment/done/
 ---
 ## Comment.Done property
 
-Ruft ein Flag ab oder setzt es, das angibt, dass der Kommentar als erledigt markiert wurde.
+Ruft ein Flag ab oder legt es fest, das angibt, dass der Kommentar als erledigt markiert wurde.
 
 ```csharp
 public bool Done { get; set; }
@@ -18,28 +18,28 @@ public bool Done { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen Kommentar als „erledigt“ markiert.
+Zeigt, wie ein Kommentar als „erledigt“ markiert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
- // Einen Kommentar einfügen, um auf einen Fehler hinzuweisen.
+    // Fügen Sie einen Kommentar ein, um auf einen Fehler hinzuweisen.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Kommentare haben ein „Fertig“-Flag, das standardmäßig auf „false“ gesetzt ist.
-// Wenn ein Kommentar darauf hindeutet, dass wir eine Änderung im Dokument vornehmen,
-// Wir können die Änderung übernehmen und anschließend auch das Flag „Fertig“ setzen, um die Korrektur anzuzeigen.
+    // Kommentare haben ein „Erledigt“-Flag, das standardmäßig auf „false“ gesetzt ist.
+// Wenn ein Kommentar vorschlägt, dass wir eine Änderung im Dokument vornehmen,
+// wir können die Änderung anwenden und anschließend auch das Flag „Erledigt“ setzen, um die Korrektur anzuzeigen.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Kommentare, die „erledigt“ sind, differenzieren sich
-// von denen, die mit einer verblassten Textfarbe noch nicht „fertig“ sind.
+// Kommentare, die "fertig" sind, werden sich unterscheiden
+// von denen, die nicht „fertig“ sind, mit einer verblassten Textfarbe.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);
@@ -47,7 +47,7 @@ builder.CurrentParagraph.AppendChild(comment);
 doc.Save(ArtifactsDir + "Comment.Done.docx");
 ```
 
-Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbetrachters gedruckt werden.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -70,7 +70,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Zwei Antworten zum Kommentar hinzufügen.
+    // Fügen Sie dem Kommentar zwei Antworten hinzu.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -78,26 +78,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und druckt seinen Kommentarbereich, Inhalt und seine Antworten.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Durchlaufe alle Kommentare der obersten Ebene. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorgänger.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
+        // Sehen Sie sich dann den Kommentar und alle Antworten an, die er möglicherweise enthält.
         comment.Accept(commentVisitor);
+        // Besuchen Sie nur den Anfang des Kommentars.
+        comment.AcceptStart(commentVisitor);
+        // Besuchen Sie nur das Ende des Kommentars.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -172,7 +176,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -184,7 +188,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

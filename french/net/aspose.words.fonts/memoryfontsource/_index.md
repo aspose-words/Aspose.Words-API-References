@@ -3,16 +3,16 @@ title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.MemoryFontSource classe. Représente le fichier de police TrueType unique stocké en mémoire en C#.
+description: Découvrez la classe Aspose.Words.Fonts.MemoryFontSource, permettant un accès transparent aux polices TrueType stockées en mémoire pour un traitement amélioré des documents.
 type: docs
-weight: 3020
+weight: 3450
 url: /fr/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
 Représente le fichier de police TrueType unique stocké en mémoire.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -22,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Directeur. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Directeur. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Cteur. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Cteur. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Cteur. |
 
 ## Propriétés
 
@@ -32,9 +32,9 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | La clé de cette source dans le cache. |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Données de police binaires. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
-| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Renvoie le type de la source de police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
+| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Renvoie le type de la source de la police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé pendant le traitement de la source de police lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage. |
 
 ## Méthodes
 
@@ -44,7 +44,7 @@ public class MemoryFontSource : FontSourceBase
 
 ## Exemples
 
-Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
+Montre comment utiliser un tableau d'octets avec des données provenant d'un fichier de police comme source de police.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

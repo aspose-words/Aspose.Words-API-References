@@ -2,8 +2,8 @@
 title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
-second_title: Aspose.Words for .NET
-description: Shading Texture mülk. Gölgelendirme dokusunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızı geliştirmek için Gölgeleme Dokusu özelliğini keşfedin. Projelerinizde çarpıcı görsel efektler için dokuları kolayca özelleştirin ve ayarlayın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/shading/texture/
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## Örnekler
 
-Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirme ile nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

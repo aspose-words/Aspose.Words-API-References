@@ -3,7 +3,7 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words für .NET
-description: MemoryFontSource constructeur. Ctor in C#.
+description: Entdecken Sie MemoryFontSource, einen leistungsstarken Konstruktor für nahtloses Schriftmanagement in Ihren Projekten. Verbessern Sie Ihr Design einfach und effizient!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
@@ -18,7 +18,7 @@ public MemoryFontSource(byte[] fontData)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftartdaten. |
+| fontData | Byte[] | Binäre Schriftdaten. |
 
 ## Beispiele
 
@@ -54,8 +54,8 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftartdaten. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| fontData | Byte[] | Binäre Schriftdaten. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ## Beispiele
 
@@ -91,13 +91,13 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftartdaten. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
-| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| fontData | Byte[] | Binäre Schriftdaten. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Siehe[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ## Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
+Zeigt, wie der Initialisierungsprozess des Schriftartcaches beschleunigt werden kann.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
+/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des Objekts „FontSettings“.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

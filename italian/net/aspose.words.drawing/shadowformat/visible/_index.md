@@ -3,9 +3,9 @@ title: ShadowFormat.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words per .NET
-description: ShadowFormat Visible proprietà. RestituisceVERO se la formattazione applicata a questa istanza è visibile in C#.
+description: Scopri la proprietà ShadowFormat Visible. Controlla facilmente se la formattazione è visibile, migliorando l'aspetto e la chiarezza del tuo documento.
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words.drawing/shadowformat/visible/
 ---
 ## ShadowFormat.Visible property
@@ -18,20 +18,20 @@ public bool Visible { get; }
 
 ## Osservazioni
 
-A differenza[`Clear`](../clear/) , assegnando`falso` a Visibile non cancella la formattazione, nasconde solo l'effetto forma.
+A differenza di[`Clear`](../clear/) , assegnando`falso`su Visibile non cancella la formattazione, nasconde solo l'effetto forma.
 
 ## Esempi
 
-Mostra come utilizzare la formattazione dell'ombra per la forma.
+Mostra come lavorare con una formattazione ombra per la forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

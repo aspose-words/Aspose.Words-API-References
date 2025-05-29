@@ -2,15 +2,15 @@
 title: VbaModuleType Enum
 linktitle: VbaModuleType
 articleTitle: VbaModuleType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaModuleType Sıralama. VBA projesindeki modelin türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş otomasyon ve sorunsuz belge yönetimi için VBA projelerinde model türlerini tanımlayan Aspose.Words.Vba.VbaModuleType enum'unu keşfedin.
 type: docs
-weight: 6570
+weight: 7420
 url: /tr/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
 
-VBA projesindeki modelin türünü belirtir.
+Bir VBA projesindeki modelin türünü belirtir.
 
 ```csharp
 public enum VbaModuleType
@@ -20,14 +20,14 @@ public enum VbaModuleType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| DocumentModule | `0` | Bir belgeyle ilişkili gömülü makrolar ve programlı erişim işlemleri için bir modülü belirten bir VBA proje öğesi türü. |
-| ProceduralModule | `1` | Alt rutinler ve işlevlerden oluşan bir koleksiyon. |
-| ClassModule | `2` | Yeni bir nesnenin tanımını içeren modül. Bir sınıfın her örneği yeni bir nesne ( ) oluşturur ve modülde tanımlanan prosedürler, nesnenin özellikleri ve yöntemleri haline gelir. |
+| DocumentModule | `0` | Bir belgeyle ilişkili gömülü makrolar ve programlı erişim işlemleri için bir modül belirten bir VBA proje öğesi türü . |
+| ProceduralModule | `1` | Alt rutinler ve fonksiyonlardan oluşan bir koleksiyon. |
+| ClassModule | `2` | Yeni bir nesnenin tanımını içeren bir modül. Bir sınıfın her örneği yeni bir nesne oluşturur, ve modülde tanımlanan prosedürler nesnenin özellikleri ve yöntemleri haline gelir. |
 | DesignerModule | `3` | Projeye kayıtlı bir ActiveX denetiminin yöntemlerini ve özelliklerini genişleten bir VBA modülü. |
 
 ## Örnekler
 
-Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
+Makrolar kullanılarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Yeni bir modül oluşturun ve bir makro kaynak kodu belirtin.
+// Yeni bir modül oluştur ve bir makro kaynak kodu belirt.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

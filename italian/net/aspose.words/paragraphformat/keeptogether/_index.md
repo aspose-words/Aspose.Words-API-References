@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words per .NET
-description: ParagraphFormat KeepTogether proprietà. Vero se tutte le righe del paragrafo devono rimanere sulla stessa pagina in C#.
+description: Scopri la proprietà KeepTogether di ParagraphFormat, che assicura che tutte le righe rimangano unite su una pagina, migliorando la leggibilità del documento e la presentazione professionale.
 type: docs
 weight: 160
 url: /it/net/aspose.words/paragraphformat/keeptogether/

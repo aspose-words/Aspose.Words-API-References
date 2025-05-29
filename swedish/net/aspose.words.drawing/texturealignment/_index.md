@@ -3,14 +3,14 @@ title: TextureAlignment Enum
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.TextureAlignment uppräkning. Anger justeringen för plattsättningen av texturfyllningen i C#.
+description: Upptäck Aspose.Words.Drawing.TextureAlignment-uppräkningen för exakt texturfyllningsjustering. Förbättra dina dokumentdesigner med sömlösa kakelalternativ!
 type: docs
-weight: 1370
+weight: 1780
 url: /sv/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-Anger justeringen för plattsättningen av texturfyllningen.
+Anger justeringen för texturfyllningens kakelsättning.
 
 ```csharp
 public enum TextureAlignment
@@ -20,20 +20,20 @@ public enum TextureAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| TopLeft | `0` | Texturjustering upptill till vänster. |
-| Top | `1` | Toppstrukturjustering. |
-| TopRight | `2` | Texturjustering upptill till höger. |
+| TopLeft | `0` | Texturjustering övre vänstra. |
+| Top | `1` | Justering av övre textur. |
+| TopRight | `2` | Texturjustering övre högra. |
 | Left | `3` | Vänster texturjustering. |
 | Center | `4` | Centrera texturjustering. |
 | Right | `5` | Höger texturjustering. |
-| BottomLeft | `6` | Texturjustering längst ned till vänster. |
-| Bottom | `7` | Bottenstrukturjustering. |
-| BottomRight | `8` | Texturjustering längst ned till höger. |
+| BottomLeft | `6` | Texturjustering längst ner till vänster. |
+| Bottom | `7` | Justering av bottentextur. |
+| BottomRight | `8` | Texturjustering längst ner till höger. |
 | None | `9` | Ingen texturjustering. |
 
 ## Exempel
 
-Visar hur man fyller och kakelar strukturen inuti formen.
+Visar hur man fyller och kaklar texturen inuti formen.
 
 ```csharp
 Document doc = new Document();
@@ -45,11 +45,17 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Använd efterlevnadsalternativet för att definiera formen med DML om du vill få "TextureAlignment"
+// Använd alternativet compliance för att definiera formen med DML om du vill få "TextureAlignment"
 // egenskap efter att dokumentet har sparats.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Se även

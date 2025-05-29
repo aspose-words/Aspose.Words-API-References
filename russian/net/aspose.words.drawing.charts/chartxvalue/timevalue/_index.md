@@ -3,7 +3,7 @@ title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words для .NET
-description: ChartXValue TimeValue свойство. Получает сохраненное значение времени на С#.
+description: Откройте для себя свойство ChartXValue TimeValue, чтобы легко получать доступ к сохраненным значениям времени и управлять ими для улучшенной визуализации данных.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/timevalue/

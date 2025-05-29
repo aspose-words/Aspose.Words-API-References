@@ -3,14 +3,14 @@ title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 articleTitle: CreateNavigator
 second_title: Aspose.Words para .NET
-description: CompositeNode CreateNavigator método. Crea un navegador que se puede utilizar para atravesar y leer nodos en C#.
+description: Descubra el método CompositeNode CreateNavigator para recorrer y leer nodos sin esfuerzo, mejorando su experiencia de navegación de datos.
 type: docs
-weight: 70
+weight: 90
 url: /es/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Crea un navegador que se puede utilizar para atravesar y leer nodos.
+Crea un navegador que puede utilizarse para recorrer y leer nodos.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -35,7 +35,7 @@ public void NodeXPathNavigator()
 
         // El árbol del documento tiene el documento, primera sección,
         // cuerpo y primer párrafo como nodos, siendo cada uno hijo único del anterior.
-        // Podemos agregar algunas más para darle al árbol algunas ramas para que las recorra el navegador.
+        //Podemos agregar algunos más para darle al árbol algunas ramas para que el navegador las recorra.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -52,9 +52,9 @@ public void NodeXPathNavigator()
 }
 
 /// <summary>
-/// Atraviesa todos los hijos de un nodo compuesto y asigna la estructura al estilo de un árbol de directorios.
+/// Recorre todos los hijos de un nodo compuesto y mapea la estructura en el estilo de un árbol de directorios.
 /// La cantidad de sangría espacial indica la profundidad relativa al nodo inicial.
-/// Imprime el contenido del texto del nodo actual solo si es una Ejecución.
+/// Imprime el contenido de texto del nodo actual solo si es una ejecución.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

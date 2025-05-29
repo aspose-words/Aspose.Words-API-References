@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart Level ملكية. الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات في C#.
+description: اكتشف خاصية StructuredDocumentTagRangeStart Level لتحديد موقعها بسهولة في شجرة المستندات، مما يعزز كفاءة إدارة المستندات لديك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات.
+يحصل على المستوى الذي يبدأ عنده نطاق علامة المستند المنظم هذا في شجرة المستند.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +18,7 @@ public MarkupLevel Level { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

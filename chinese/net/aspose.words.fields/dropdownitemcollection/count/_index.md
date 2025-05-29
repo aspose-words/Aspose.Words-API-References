@@ -2,8 +2,8 @@
 title: DropDownItemCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: DropDownItemCollection Count 财产. 获取集合中包含的元素数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DropDownItemCollection Count 属性，它可以有效地检索集合中的项目总数，从而简化数据管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/dropdownitemcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-演示如何插入组合框字段以及编辑其项目集合中的元素。
+展示如何插入组合框字段，并编辑其项目集合中的元素。
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 插入一个组合框，然后验证其下拉项集合。
 // 在 Microsoft Word 中，用户将单击组合框，
-// 然后选择集合中要显示的文本项之一。
+// 然后选择集合中的一项文本进行显示。
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -36,7 +36,7 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// 有两种方法可以将新项目添加到现有的下拉框项目集合中。
+// 有两种方法可以向现有的下拉框项目集合中添加新项目。
 // 1 - 将一个项目附加到集合的末尾：
 dropDownItems.Add("Four");
 
@@ -45,7 +45,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// 迭代集合并打印每个元素。
+// 遍历集合并打印每个元素。
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);

@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words pour .NET
-description: ResourceSavingArgs ResourceStream propriété. Permet de spécifier le flux dans lequel la ressource sera enregistrée en C#.
+description: Découvrez la propriété ResourceSavingArgs ResourceStream pour définir facilement où vos ressources sont enregistrées, améliorant ainsi l'efficacité et le contrôle de vos projets.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -18,11 +18,11 @@ public Stream ResourceStream { get; set; }
 
 ## Remarques
 
-Cette propriété vous permet d'enregistrer les ressources dans des flux plutôt que dans des fichiers.
+Cette propriété vous permet d'enregistrer des ressources dans des flux plutôt que dans des fichiers.
 
 La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la ressource sera enregistrée dans un fichier spécifié dans le[`ResourceFileName`](../resourcefilename/) propriété.
 
-En utilisant[`IResourceSavingCallback`](../../iresourcesavingcallback/) vous ne pouvez pas remplacer une ressource par une autre. Il est destiné uniquement au contrôle de l'emplacement où économiser les ressources.
+En utilisant[`IResourceSavingCallback`](../../iresourcesavingcallback/) Vous ne pouvez pas remplacer une ressource par une autre. Cette option est uniquement destinée à contrôler l'emplacement où enregistrer les ressources.
 
 ## Exemples
 
@@ -60,7 +60,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -76,7 +76,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

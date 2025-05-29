@@ -2,15 +2,15 @@
 title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
-second_title: Aspose.Words for .NET
-description: DocumentBuilder PageSetup mülk. Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belge biçimlendirmenizi ve düzen verimliliğinizi artırmak için geçerli sayfa ve bölüm ayarlarına erişmek üzere DocumentBuilder PageSetup özelliğini keşfedin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/documentbuilder/pagesetup/
 ---
 ## DocumentBuilder.PageSetup property
 
-Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür.
+Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesne döndürür.
 
 ```csharp
 public PageSetup PageSetup { get; }
@@ -18,25 +18,25 @@ public PageSetup PageSetup { get; }
 
 ## Örnekler
 
-Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
+Bir belgedeki bölümlere sayfa düzeni ayarlarının nasıl uygulanacağını ve geri alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucunun geçerli bölümü için sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
+// Oluşturucunun geçerli bölümünün sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Bir belge oluşturucu kullanarak yeni bir bölüme başlarsak,
-// oluşturucunun mevcut sayfa düzeni özelliklerini devralacaktır.
+// Belge oluşturucuyu kullanarak yeni bir bölüm başlatırsak,
+// Oluşturucunun geçerli sayfa düzeni özelliklerini devralacaktır.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// "ClearFormatting" yöntemini kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
+// "ClearFormatting" metodunu kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

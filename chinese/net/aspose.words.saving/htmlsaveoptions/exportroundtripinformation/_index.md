@@ -2,8 +2,8 @@
 title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ExportRoundtripInformation 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否写入往返信息 默认值为真的对于 HTML 和错误的适用于 MHTML 和 EPUB 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HtmlSaveOptions 的 ExportRoundtripInformation 属性，以控制 HTML、MHTML 和 EPUB 格式的往返数据。立即优化您的导出功能！
 type: docs
 weight: 240
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -18,30 +18,30 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## 评论
 
-保存往返信息可以在 HTML 文档加载回文件期间恢复文档属性，例如制表位、 注释、页眉和页脚。[`Document`](../../../aspose.words/document/)目的。
+保存往返信息允许在将 HTML 文档重新加载到[`Document`](../../../aspose.words/document/)目的。
 
-什么时候`真的`，往返信息导出为相应 HTML 元素的 -aw-* CSS properties 。
+什么时候`真的`，往返信息被导出为相应 HTML 元素的 -aw-* CSS properties 。
 
 什么时候`错误的`，导致没有往返信息输出到生成的文件中。
 
 ## 例子
 
-演示如何在转换为 .html 时保留隐藏元素。
+展示如何在转换为 .html 时保留隐藏元素。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 将文档转换为 .html 时，一些元素如隐藏书签、原始形状位置、
-// 或脚注将被删除或转换为纯文本并有效地丢失。
-// 使用 HtmlSaveOptions 对象并将 ExportRoundtripInformation 设置为 true 进行保存将保留这些元素。
+// 将文档转换为 .html 时，一些元素（例如隐藏的书签、原始形状位置、
+// 或脚注将被删除或转换为纯文本并实际上丢失。
+// 使用将 ExportRoundtripInformation 设置为 true 的 HtmlSaveOptions 对象进行保存将保留这些元素。
 
-// 当我们将文档保存为HTML时，我们可以传递一个SaveOptions对象来确定
-// 保存操作如何导出 HTML 不支持或不使用的文档元素，
-// 例如隐藏书签和原始形状位置。
+// 当我们将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象来确定
+// 保存操作将如何导出 HTML 不支持或不使用的文档元素，
+// 例如隐藏的书签和原始形状位置。
 // 如果我们将“ExportRoundtripInformation”标志设置为“true”，则保存操作将保留这些元素。
 // 如果我们将“ExportRoundTripInformation”标志设置为“false”，则保存操作将丢弃这些元素。
-// 如果我们打算使用 Aspose.Words 加载保存的 HTML，我们将希望保留这些元素，
-// 因为它们可以再次使用。
+// 如果我们打算使用 Aspose.Words 加载已保存的 HTML，我们将需要保留这些元素，
+// 因为它们可以再次发挥作用。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

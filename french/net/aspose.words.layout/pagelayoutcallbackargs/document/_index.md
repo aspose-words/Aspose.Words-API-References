@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words pour .NET
-description: PageLayoutCallbackArgs Document propriété. Obtient le document en C#.
+description: Découvrez la propriété Document PageLayoutCallbackArgs pour accéder et gérer efficacement les données de vos documents. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons un reflow de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

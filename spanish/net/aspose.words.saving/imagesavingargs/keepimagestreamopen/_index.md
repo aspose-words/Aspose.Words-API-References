@@ -3,7 +3,7 @@ title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
 second_title: Aspose.Words para .NET
-description: ImageSavingArgs KeepImageStreamOpen propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una imagen en C#.
+description: Descubra la propiedad KeepImageStreamOpen en ImageSavingArgs para Aspose.Words. Controle el comportamiento del flujo para guardar imágenes de forma eficiente y mejorar el rendimiento.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -18,11 +18,11 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## Observaciones
 
-El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que proporcionó en el[`ImageStream`](../imagestream/) propiedad después de escribir una imagen en ella. Especificar`verdadero` para mantener la corriente abierta.
+El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que usted proporcionó en el[`ImageStream`](../imagestream/) propiedad después de escribir una imagen en ella. Especificar`verdadero` para mantener el arroyo abierto.
 
 ## Ejemplos
 
-Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
+Muestra cómo involucrar una devolución de llamada de guardado de imágenes en un proceso de conversión HTML.
 
 ```csharp
 public void ImageSavingCallback()

@@ -3,7 +3,7 @@ title: Node.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: Node NodeType fast egendom. Hämtar typen av denna nod i C#.
+description: Upptäck egenskapen Node NodeType för att enkelt identifiera nodtyper i din applikation, vilket förbättrar din utvecklingseffektivitet och kodtydlighet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/node/nodetype/
@@ -18,7 +18,7 @@ public abstract NodeType NodeType { get; }
 
 ## Exempel
 
-Visar hur man använder en nods NextSibling-egenskap för att räkna upp sina närmaste barn.
+Visar hur man använder en nods NextSibling-egenskap för att räkna upp dess omedelbara underordnade objekt.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -44,11 +44,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Spara nästa syskonnod som en variabel ifall vi vill flytta till den efter att ha tagit bort denna nod.
+    // Spara nästa syskonnod som en variabel ifall vi vill flytta till den efter att vi tagit bort den här noden.
     Node nextNode = curNode.NextSibling;
 
-    // En sektionskropp kan innehålla paragraf- och tabellnoder.
-    // Om noden är en tabell, ta bort den från den överordnade.
+    // En sektionstext kan innehålla stycke- och tabellnoder.
+    // Om noden är en tabell, ta bort den från föräldern.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 
@@ -58,22 +58,22 @@ while (curNode != null)
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
-Visar hur man korsar en sammansatt nods träd med undernoder.
+Visar hur man går igenom en sammansatt nods träd av undernoder.
 
 ```csharp
 public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Alla noder som kan innehålla underordnade noder, till exempel själva dokumentet, är sammansatta.
+    // Alla noder som kan innehålla undernoder, såsom själva dokumentet, är sammansatta.
     Assert.True(doc.IsComposite);
 
-    // Anropa den rekursiva funktionen som kommer att gå igenom och skriva ut alla undernoder för en sammansatt nod.
+    // Anropa den rekursiva funktionen som går igenom och skriver ut alla undernoder till en sammansatt nod.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Går rekursivt genom ett nodträd medan du skriver ut typen av varje nod
+/// Går rekursivt igenom ett nodträd samtidigt som typen för varje nod skrivs ut
 /// med ett indrag beroende på djup samt innehållet i alla inline-noder.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -82,7 +82,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Gå tillbaka in i noden om det är en sammansatt nod. Annars skriv ut dess innehåll om det är en inline-nod.
+        // Rekursiv in i noden om det är en sammansatt nod. Annars, skriv ut dess innehåll om det är en inline-nod.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

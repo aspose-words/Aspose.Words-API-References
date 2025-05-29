@@ -2,15 +2,15 @@
 title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox TextBoxWrapMode 财产. 确定文本如何在形状内换行 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TextBox WrapMode 属性以增强形状内的文本换行，提高设计的清晰度和视觉吸引力。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property
 
-确定文本如何在形状内换行。
+确定文本在形状内如何换行。
 
 ```csharp
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
@@ -22,7 +22,7 @@ public TextBoxWrapMode TextBoxWrapMode { get; set; }
 
 ## 例子
 
-演示如何设置文本框内容的换行模式。
+展示如何设置文本框内容的换行模式。
 
 ```csharp
 Document doc = new Document();
@@ -32,9 +32,9 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.None”以增加文本框的宽度
-// 为了容纳文本，它是否足够大。
-// 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.Square”即可
-// 将所有文本包裹在文本框中，保留其尺寸。
+// 以容纳文本，它应该足够大。
+// 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.Square”
+// 将所有文本包装在文本框内，并保留其尺寸。
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

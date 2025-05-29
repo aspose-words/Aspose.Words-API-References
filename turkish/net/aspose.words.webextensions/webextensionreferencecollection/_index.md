@@ -2,17 +2,17 @@
 title: WebExtensionReferenceCollection Class
 linktitle: WebExtensionReferenceCollection
 articleTitle: WebExtensionReferenceCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection sınıf. Web uzantısı referanslarının listesini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Web uzantısı referanslarını verimli ve sorunsuz bir şekilde yönetmek için başvuracağınız çözüm olan Aspose.Words.WebExtensionReferenceCollection sınıfını keşfedin.
 type: docs
-weight: 6810
+weight: 7660
 url: /tr/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-Web uzantısı referanslarının listesini belirtir.
+Web uzantısı referanslarının bir listesini belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışma](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışın](https://docs.aspose.com/words/net/work-with-office-add-ins/) belgeleme makalesi.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

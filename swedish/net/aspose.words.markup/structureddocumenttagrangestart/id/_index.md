@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för denna strukturerade dokumenttagg i C#.
+description: Upptäck egenskapen StructuredDocumentTagRangeStart Id – din nyckel till en unik, skrivskyddad numerisk identifierare för effektiv dokumenttaggning.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 ## StructuredDocumentTagRangeStart.Id property
 
-Anger ett unikt skrivskyddat beständigt numeriskt ID för denna strukturerade dokumenttagg.
+Anger ett unikt skrivskyddat, beständigt numeriskt ID för den här strukturerade dokumenttaggen.
 
 ```csharp
 public int Id { get; }
@@ -18,17 +18,17 @@ public int Id { get; }
 
 ## Anmärkningar
 
-Id-attribut ska följa dessa regler:
+Id-attributet ska följa dessa regler:
 
-* Dokumentet ska behålla strukturerade dokumenttaggar-ID endast om hela document klonas[`Clone`](../../../aspose.words/document/clone/).
-* Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om importen inte orsakar konflikter med andra strukturerade dokumenttagg Id i måldokumentet.
-* Om flera strukturerade dokumenttaggnoder anger samma decimaltalsvärde för Id-attributet, ska den första strukturerade dokumenttaggen i dokumentet behålla detta ursprungliga Id, och alla efterföljande strukturerade dokumenttaggnoder ska ha nya identifierare tilldelade när de dokumentet laddas.
-* Under fristående strukturerad dokumenttaggINodeCloningListener)operation nytt unikt ID kommer att genereras för den klonade strukturerade dokumenttaggnoden.
-* Om Id inte anges i källdokumentet, ska noden för strukturerade dokumenttagg ha en ny unik identifierare tilldelad när dokumentet laddas.
+* Dokumentet ska endast behålla strukturerade dokumenttagg-ID:n om hela document klonas.[`Clone`](../../../aspose.words/document/clone/).
+* Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om importen inte orsakar konflikter med andra tagg-ID:n för strukturerade dokument i måldokumentet.
+* Om flera noder för strukturerade dokumenttaggar anger samma decimalvärde för Id-attributet, , ska den första strukturerade dokumenttaggen i dokumentet behålla detta ursprungliga Id, och alla efterföljande noder för strukturerade dokumenttaggar ska tilldelas nya identifierare när dokumentet laddas.
+* Under fristående strukturerad dokumenttaggINodeCloningListener) åtgärdens nya unika ID kommer att be genereras för den klonade noden för strukturerat dokumenttagg.
+* Om Id inte anges i källdokumentet ska noden för det strukturerade dokumentets tagg få en ny unik identifierare tilldelad när dokumentet laddas.
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

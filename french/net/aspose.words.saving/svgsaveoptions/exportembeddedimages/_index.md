@@ -3,14 +3,14 @@ title: SvgSaveOptions.ExportEmbeddedImages
 linktitle: ExportEmbeddedImages
 articleTitle: ExportEmbeddedImages
 second_title: Aspose.Words pour .NET
-description: SvgSaveOptions ExportEmbeddedImages propriété. Spécifié si les images doivent être intégrées dans le document SVG en base64. Remarque  la définition de cet indicateur peut augmenter considérablement la taille du fichier SVG de sortie en C#.
+description: Découvrez comment la propriété SvgSaveOptions ExportEmbeddedImages vous permet d'intégrer des images dans des fichiers SVG au format base64, améliorant ainsi la portabilité tout en gérant la taille du fichier.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 ---
 ## SvgSaveOptions.ExportEmbeddedImages property
 
-Spécifié si les images doivent être intégrées dans le document SVG en base64. Remarque : la définition de cet indicateur peut augmenter considérablement la taille du fichier SVG de sortie.
+Spécifie si les images doivent être incorporées dans le document SVG en base64. Sachez que l'activation de cette option peut entraîner une augmentation significative de la taille du fichier SVG de sortie.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en .svg.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

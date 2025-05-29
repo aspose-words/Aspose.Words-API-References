@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontResources
 linktitle: ExportFontResources
 articleTitle: ExportFontResources
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportFontResources propiedad. Especifica si los recursos de fuentes deben exportarse a HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad HtmlSaveOptions ExportFontResources para controlar la exportación de fuentes para HTML, MHTML o EPUB. ¡Maximice el atractivo visual de su documento!
 type: docs
 weight: 140
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
@@ -18,25 +18,25 @@ public bool ExportFontResources { get; set; }
 
 ## Observaciones
 
-La exportación de recursos de fuentes permite una representación consistente del documento independientemente de las fuentes disponibles en el entorno de un usuario determinado.
+La exportación de recursos de fuentes permite una representación consistente de los documentos independientemente de las fuentes disponibles en el entorno de un usuario determinado.
 
-Si`ExportFontResources` se establece en`verdadero` , el documento HTML principal hará referencia a cada fuente a través de el CSS 3**@Perfil delantero** at-rule y las fuentes se generarán como archivos separados. Al exportar a formatos IDPF EPUB o MHTML , las fuentes se incrustarán en el paquete correspondiente junto con otros archivos subsidiarios.
+Si`ExportFontResources` está configurado para`verdadero` , el documento HTML principal hará referencia a cada fuente a través de el CSS 3**@font-face** La regla at y las fuentes se generarán como archivos separados. Al exportar a formatos IDPF EPUB o MHTML , las fuentes se integrarán en el paquete correspondiente junto con otros archivos secundarios.
 
-Si[`ExportFontsAsBase64`](../exportfontsasbase64/) se establece en`verdadero` las fuentes no se guardarán en archivos separados. En su lugar, se incrustarán en**@Perfil delantero** reglas at en codificación Base64.
+Si[`ExportFontsAsBase64`](../exportfontsasbase64/) está configurado para`verdadero` , las fuentes no se guardarán en archivos separados. En su lugar, se incrustarán en**@font-face** reglas at en codificación Base64.
 
-**¡Importante!** Al exportar recursos de fuentes, se deben considerar cuestiones de licencia de fuentes. Los autores que deseen utilizar fuentes específicas a través de un mecanismo de fuente descargable siempre deben verificar cuidadosamente que el uso previsto esté dentro del alcance de la licencia de fuente. Actualmente, muchas fuentes comerciales no permiten la descarga web de sus fuentes en ningún formato. Los acuerdos de licencia que cubren algunas fuentes señalan específicamente que el uso a través de**@Perfil delantero** Rules en hojas de estilo CSS no está permitido. El subconjunto de fuentes también puede violar los términos de la licencia.
+**¡Importante!**Al exportar recursos de fuentes, se deben considerar las cuestiones de licencias de fuentes. Los autores que deseen usar fuentes específicas mediante un mecanismo de fuentes descargables deben verificar cuidadosamente que el uso previsto esté dentro del alcance de la licencia de la fuente. Actualmente, muchas fuentes comerciales no permiten la descarga web de sus fuentes en ningún formato. Los acuerdos de licencia que cubren algunas fuentes especifican que el uso mediante**@font-face** rules no está permitido en hojas de estilo CSS. La subdivisión de fuentes también puede infringir los términos de la licencia.
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -54,7 +54,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

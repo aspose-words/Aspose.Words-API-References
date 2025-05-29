@@ -3,14 +3,14 @@ title: LayoutEntityType Enum
 linktitle: LayoutEntityType
 articleTitle: LayoutEntityType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Layout.LayoutEntityType uppräkning. Typer av layoutentiteter i C#.
+description: Upptäck Aspose.Words.Layout.LayoutEntityType-enum, med olika layoutentitetstyper för förbättrad dokumentformatering och sömlös integration.
 type: docs
-weight: 3330
+weight: 3780
 url: /sv/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
 
-Typer av layoutentiteter.
+Typer av layoutenheter.
 
 ```csharp
 [Flags]
@@ -23,32 +23,32 @@ public enum LayoutEntityType
 | --- | --- | --- |
 | None | `0` | Standardvärde. |
 | Page | `1` | Representerar sidan i ett dokument. Sidan kan haColumn ,HeaderFooter ochComment underordnade enheter. |
-| Column | `2` | Representerar en textkolumn på en sida. Kolumnen kan ha samma underordnade enheter somCell , plusFootnote ,Endnote ochNoteSeparator enheter. |
-| Row | `8` | Representerar en tabellrad. Rad kan haCell som underordnade enheter. |
-| Cell | `10` | Representerar en tabellcell. Cell kan haLine ochRow underordnade enheter. |
-| Line | `20` | Representerar rad med tecken i text och inline-objekt. Raden kan haSpan underordnade enheter. |
-| Span | `40` | Representerar ett eller flera tecken på en rad. Detta inkluderar specialtecken som fältstart-/slutmarkörer, bokmärken och kommentarer. Span får inte ha underordnade enheter. |
-| Footnote | `100` | Representerar platshållare för fotnotsinnehåll. Fotnot kan haNote underordnade enheter. |
-| Endnote | `200` | Representerar platshållare för slutnotens innehåll. Endnote kan haNote underordnade enheter. |
-| Note | `4000` | Representerar platshållare för anteckningsinnehåll. Note kan haLine ochRow underordnade enheter. |
-| HeaderFooter | `400` | Representerar platshållare för sidhuvud/sidfotsinnehåll på en sida. HeaderFooter kan haLine ochRow underordnade enheter. |
-| TextBox | `800` | Representerar textområde inuti en form. Textbox kan haLine ochRow underordnade enheter. |
-| Comment | `1000` | Representerar platshållare för kommentarsinnehåll. Kommentar kan haLine ochRow underordnade enheter. |
-| NoteSeparator | `2000` | Representerar fotnots-/slutnotsavgränsare. NoteSeparator kan haLine ochRow underordnade enheter. |
+| Column | `2` | Representerar en textkolumn på en sida. Kolumnen kan ha samma underordnade entiteter somCell , plusFootnote ,Endnote ochNoteSeparator enheter. |
+| Row | `8` | Representerar en tabellrad. Raden kan haCell som underordnade enheter. |
+| Cell | `10` | Representerar en tabellcell. Cellen kan haLine ochRow underordnade enheter. |
+| Line | `20` | Representerar en rad med tecken i text och inline-objekt. Raden kan haSpan underordnade enheter. |
+| Span | `40` | Representerar ett eller flera tecken på en rad. Detta inkluderar specialtecken som fältstart-/slutmarkörer, bokmärken och kommentarer. Span får inte ha underordnade entiteter. |
+| Footnote | `100` | Representerar platshållare för fotnotsinnehåll. Fotnoten kan haNote underordnade enheter. |
+| Endnote | `200` | Representerar platshållare för slutnotsinnehåll. Slutnot kan haNote underordnade enheter. |
+| Note | `4000` | Representerar platshållare för anteckningsinnehåll. Anteckningen kan haLine ochRow underordnade enheter. |
+| HeaderFooter | `400` | Representerar platshållare för sidhuvud/sidfot på en sida. Sidhuvud/sidfot kan haLine ochRow underordnade enheter. |
+| TextBox | `800` | Representerar textområdet inuti en form. Textrutan kan haLine ochRow underordnade enheter. |
+| Comment | `1000` | Representerar platshållare för kommentarinnehåll. Kommentaren kan haLine ochRow underordnade enheter. |
+| NoteSeparator | `2000` | Representerar fotnots-/slutnotsavgränsare. Notseparator kan haLine ochRow underordnade enheter. |
 
 ## Exempel
 
-Visar sätt att gå igenom ett dokuments layoutenheter.
+Visar sätt att navigera genom ett dokuments layoutenheter.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Öppna ett dokument som innehåller en mängd olika layoutenheter.
-    // Layoutentiteter är sidor, celler, rader, linjer och andra objekt som ingår i LayoutEntityType enum.
-    // Varje layoutenhet har ett rektangulärt utrymme som det upptar i dokumentets brödtext.
+    // Layoutentiteter är sidor, celler, rader, linjer och andra objekt som ingår i LayoutEntityType-enum.
+    // Varje layoutenhet har ett rektangulärt utrymme som den upptar i dokumentets brödtext.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Skapa en enumerator som kan passera dessa enheter som ett träd.
+    // Skapa en uppräknare som kan tvärförflytta sig mellan dessa entiteter som ett träd.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -58,24 +58,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Vi kan anropa den här metoden för att säkerställa att enumeratorn kommer att vara på den första layoutentiteten.
+    // Vi kan anropa den här metoden för att säkerställa att uppräknaren kommer att finnas vid den första layout-entiteten.
     layoutEnumerator.Reset();
 
-    // Det finns två order som bestämmer hur layoutuppräknaren fortsätter att korsa layoutentiteter
-    // när den stöter på enheter som sträcker sig över flera sidor.
+    // Det finns två ordningar som avgör hur layoutuppräknaren fortsätter att gå igenom layoutenheter
+    // när den stöter på entiteter som sträcker sig över flera sidor.
     // 1 - I visuell ordning:
-    // När du går igenom en enhets underordnade som sträcker sig över flera sidor,
+    // När man bläddrar igenom en entitets underordnade objekt som sträcker sig över flera sidor,
     // sidlayout har företräde, och vi flyttar till andra underordnade element på den här sidan och undviker de på nästa.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Vår enumerator är nu i slutet av samlingen. Vi kan korsa layoutentiteterna bakåt för att gå tillbaka till början.
+    // Vår uppräknare är nu i slutet av samlingen. Vi kan bläddra bakåt i layout-entiteterna för att gå tillbaka till början.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - I logisk ordning:
-    // När du går igenom en enhets underordnade som sträcker sig över flera sidor,
-    // uppräknaren kommer att flytta mellan sidor för att gå igenom alla underordnade enheter.
+    // När man bläddrar igenom en entitets underordnade objekt som sträcker sig över flera sidor,
+    // uppräknaren kommer att flytta mellan sidor för att täcka alla underordnade enheter.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -84,8 +84,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling framifrån till baksida,
-/// på ett djupt-först sätt, och i "Visuell" ordning.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling framifrån och bakifrån,
+/// på ett djupgående sätt och i den "visuella" ordningen.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -102,8 +102,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling bakifrån,
-/// på ett djupt-först sätt, och i "Visuell" ordning.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling bakifrån och fram,
+/// på ett djupgående sätt och i den "visuella" ordningen.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -120,8 +120,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling framifrån till baksida,
-/// på ett djupt-först sätt, och i den "logiska" ordningen.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling framifrån och bakifrån,
+/// på ett djupgående sätt och i den "logiska" ordningen.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -138,8 +138,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling bakifrån,
-/// på ett djupt-först sätt, och i den "logiska" ordningen.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling bakifrån och fram,
+/// på ett djupgående sätt och i den "logiska" ordningen.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -156,9 +156,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Skriv ut information om layoutEnumerators nuvarande enhet till konsolen, samtidigt som texten indrages med tabbtecken
-/// baserat på dess djup i förhållande till rotnoden som vi angav i konstruktorn LayoutEnumerator-instansen.
-/// Rektangeln som vi bearbetar i slutet representerar området och platsen som enheten tar upp i dokumentet.
+/// Skriv ut information om layoutEnumerators aktuella entitet till konsolen, medan texten indenteras med tabbtecken
+/// baserat på dess djup i förhållande till rotnoden som vi angav i konstruktorns LayoutEnumerator-instans.
+/// Rektangeln som vi bearbetar i slutet representerar det område och den plats som entiteten upptar i dokumentet.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {

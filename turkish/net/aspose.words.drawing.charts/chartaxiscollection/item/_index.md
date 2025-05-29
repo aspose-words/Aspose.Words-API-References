@@ -2,8 +2,8 @@
 title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: ChartAxisCollection Item mülk. Belirtilen dizindeki ekseni alır C#'da.
+second_title: .NET için Aspose.Words
+description: ChartAxisCollection Item özelliğiyle ihtiyacınız olan belirli eksene erişin. Eksenleri zahmetsizce alarak veri görselleştirmesini basitleştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartaxiscollection/item/

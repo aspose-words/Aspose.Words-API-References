@@ -2,15 +2,15 @@
 title: Font.ComplexScript
 linktitle: ComplexScript
 articleTitle: ComplexScript
-second_title: 用于 .NET 的 Aspose.Words
-description: Font ComplexScript 财产. 指定在确定此运行的格式时是否应将此运行的内容视为复杂脚本文本而不管 它们的 Unicode 字符值 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现字体 ComplexScript 属性，确保您的文本格式化为复杂脚本，以增强可读性和样式，而不管 Unicode 值如何。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property
 
-指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管 它们的 Unicode 字符值。
+指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。
 
 ```csharp
 public bool ComplexScript { get; set; }
@@ -18,7 +18,7 @@ public bool ComplexScript { get; set; }
 
 ## 例子
 
-演示如何添加始终被视为复杂脚本的文本。
+展示如何添加始终被视为复杂脚本的文本。
 
 ```csharp
 Document doc = new Document();

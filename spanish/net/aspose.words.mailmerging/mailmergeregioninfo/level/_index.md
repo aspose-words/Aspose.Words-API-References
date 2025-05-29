@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words para .NET
-description: MailMergeRegionInfo Level propiedad. Devuelve el nivel de anidamiento de la región en C#.
+description: Descubra la propiedad MailMergeRegionInfo Level que revela el nivel de anidamiento de sus regiones, mejorando la automatización y la eficiencia de sus documentos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -18,15 +18,15 @@ public int Level { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar regiones de combinación de correspondencia.
+Muestra cómo verificar las regiones de combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELD disponibles en el documento.
+// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELDs disponibles en el documento.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obtener las principales regiones del documento.
+// Obtener las regiones principales del documento.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Obtener la lista de campos dentro de la primera región superior.
 IList<Field> fieldList = topRegions[0].Fields;

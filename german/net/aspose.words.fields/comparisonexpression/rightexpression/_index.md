@@ -3,14 +3,14 @@ title: ComparisonExpression.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words für .NET
-description: ComparisonExpression RightExpression eigendom. Erhält den richtigen Ausdruck in C#.
+description: Entdecken Sie die RightExpression-Eigenschaft von ComparisonExpression. Rufen Sie einfach den richtigen Ausdruck für eine verbesserte Datenanalyse und Leistung ab.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/comparisonexpression/rightexpression/
 ---
 ## ComparisonExpression.RightExpression property
 
-Erhält den richtigen Ausdruck.
+Ruft den richtigen Ausdruck ab.
 
 ```csharp
 public string RightExpression { get; }
@@ -18,7 +18,7 @@ public string RightExpression { get; }
 
 ## Beispiele
 
-Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
+Zeigt, wie eine benutzerdefinierte Auswertung für die Felder „WENN“ und „VERGLEICHEN“ implementiert wird.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
-    // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " COMPARE {0} {1} {2} ".
+    // 1. " WENN {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
+    // 2. " VERGLEICHEN SIE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
+    // Wenn „comparisonResult“ nicht definiert ist, erstellen wir „ComparisonEvaluationResult“ mit einem String statt mit einem booleschen Wert.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

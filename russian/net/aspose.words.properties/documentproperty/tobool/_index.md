@@ -3,7 +3,7 @@ title: DocumentProperty.ToBool
 linktitle: ToBool
 articleTitle: ToBool
 second_title: Aspose.Words для .NET
-description: DocumentProperty ToBool метод. Возвращает значение свойства как bool на С#.
+description: Откройте для себя метод DocumentProperty ToBool, который эффективно преобразует значения свойств в логические значения для бесперебойной обработки данных и повышения эффективности кодирования.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.properties/documentproperty/tobool/
@@ -18,11 +18,11 @@ public bool ToBool()
 
 ## Примечания
 
-Выдает исключение, если тип свойства неBoolean.
+Выдает исключение, если тип свойства не являетсяBoolean.
 
 ## Примеры
 
-Показывает различные методы преобразования типов пользовательских свойств документа.
+Демонстрирует различные методы преобразования типов пользовательских свойств документа.
 
 ```csharp
 Document doc = new Document();

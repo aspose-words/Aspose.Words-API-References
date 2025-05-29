@@ -2,15 +2,15 @@
 title: Revision.ParentStyle
 linktitle: ParentStyle
 articleTitle: ParentStyle
-second_title: Aspose.Words for .NET
-description: Revision ParentStyle mülk. Bu revizyonun doğrudan ana stilini sahibini alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi C#'da.
+second_title: .NET için Aspose.Words
+description: StyleDefinitionChange revizyonları için doğrudan üst stil sahibini tanımlayan Revision ParentStyle özelliğini keşfedin. Stil oluşturma sürecinizi optimize edin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-Bu revizyonun doğrudan ana stilini (sahibini) alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi.
+Bu revizyonun doğrudan üst stilini (sahibini) alır. Bu özellik yalnızca şu sürüm için çalışacaktır:StyleDefinitionChange revizyon türü.
 
 ```csharp
 public Style ParentStyle { get; }
@@ -18,21 +18,21 @@ public Style ParentStyle { get; }
 
 ## Notlar
 
-Bu revizyon belge düğümlerindeki değişikliklerle ilgiliyse şunu kullanın:[`ParentNode`](../parentnode/) bunun yerine.
+Bu revizyon belge düğümlerindeki değişikliklerle ilgiliyse, şunu kullanın:[`ParentNode`](../parentnode/) bunun yerine.
 
 ## Örnekler
 
-Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
+Bir belgenin revizyon koleksiyonuyla nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Bu koleksiyonun kendisi revizyon gruplarından oluşan bir koleksiyona sahiptir.
-// Her grup bitişik revizyonların bir dizisidir.
+// Bu koleksiyonun kendisi de bir revizyon grupları koleksiyonuna sahiptir.
+// Her grup, bitişik revizyonların bir dizisidir.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Grup koleksiyonu üzerinde yineleme yapın ve revizyonun ilgili olduğu metni yazdırın.
+// Grup koleksiyonu üzerinde yineleme yap ve revizyonun ilgilendiği metni yazdır.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -42,18 +42,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesini alır.
-// Revizyonların koleksiyonu yukarıda yazdırdığımız özet formdan oldukça daha büyüktür,
-// Microsoft Word düzenleme sırasında belgeyi kaç Çalıştırmaya böldüğümüze bağlı.
+// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesi alır.
+// Revizyonların koleksiyonu yukarıda bastığımız yoğunlaştırılmış formdan önemli ölçüde daha büyüktür,
+// Microsoft Word düzenlemesi sırasında belgeyi kaç Çalıştırmaya böldüğümüze bağlı olarak.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange, belge düğümlerini değil, stilleri kesinlikle etkiler. Bu "Ebeveyn Stili" anlamına gelir
-        // özellik her zaman kullanımda olacak, ParentNode ise her zaman boş olacaktır.
-        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode tam tersi şekilde kullanımda olacak ve ParentStyle null olacaktır.
+        // Bir StyleDefinitionChange kesinlikle stilleri etkiler ve belge düğümlerini etkilemez. Bu, "ParentStyle" anlamına gelir
+        // özellik her zaman kullanımda olacak, ParentNode ise her zaman null olacaktır.
+        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode kullanımda olacak ve ParentStyle boş olacaktır.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -67,7 +67,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Belgeyi orijinal formuna döndürerek koleksiyon aracılığıyla yapılan tüm düzeltmeleri reddedin.
+// Koleksiyon üzerinden yapılan tüm düzeltmeleri reddederek belgeyi orijinal haline geri döndür.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

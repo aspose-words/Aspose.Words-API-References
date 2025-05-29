@@ -2,8 +2,8 @@
 title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection Item 财产. 检索给定索引处的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 NodeCollection Item 属性轻松访问任何节点。通过索引快速检索节点，实现无缝数据管理并增强性能。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodecollection/item/
@@ -22,22 +22,22 @@ public Node this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-演示如何遍历复合节点的子节点集合。
+展示如何遍历复合节点的子节点集合。
 
 ```csharp
 Document doc = new Document();
 
-// 将两个运行和一个形状作为子节点添加到本文档的第一段。
+// 将两个运行和一个形状作为子节点添加到此文档的第一段。
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
@@ -51,8 +51,8 @@ paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// 遍历该段落的直接子级集合，
-// 并打印我们在其中找到的任何运行或形状。
+// 遍历段落的直接子段落集合，
+// 并打印我们在其中发现的任何运行或形状。
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

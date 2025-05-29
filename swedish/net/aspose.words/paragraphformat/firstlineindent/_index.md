@@ -3,16 +3,16 @@ title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
 articleTitle: FirstLineIndent
 second_title: Aspose.Words för .NET
-description: ParagraphFormat FirstLineIndent fast egendom. Hämtar eller ställer in värdet i poäng för en första rad eller hängande indrag i C#.
+description: Upptäck hur du använder egenskapen ParagraphFormat FirstLineIndent för att enkelt anpassa första raden eller hängande indrag i dina dokument för förbättrad läsbarhet.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-Hämtar eller ställer in värdet (i poäng) för en första rad eller hängande indrag.
+Hämtar eller anger värdet (i punkter) för en första rad eller ett hängande indrag.
 
-Använd positiva värden för att ställa in första radens indrag och negativa värden för att ställa in hängande indrag.
+Använd positiva värden för att ange indraget på första raden och negativa värden för att ange det hängande indraget.
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -40,8 +40,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

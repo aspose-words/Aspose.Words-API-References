@@ -3,16 +3,16 @@ title: JsonDataSource Class
 linktitle: JsonDataSource
 articleTitle: JsonDataSource
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Reporting.JsonDataSource klas. Bietet Zugriff auf Daten einer JSONDatei oder eines JSONStreams zur Verwendung in einem Bericht in C#.
+description: Schalten Sie leistungsstarke Berichte mit Aspose.Words.Reporting.JsonDataSource frei. Greifen Sie einfach auf JSON-Daten zu und integrieren Sie diese nahtlos in Ihre Berichte.
 type: docs
-weight: 4690
+weight: 5430
 url: /de/net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
 
 Bietet Zugriff auf Daten einer JSON-Datei oder eines JSON-Streams zur Verwendung in einem Bericht.
 
-Um mehr zu erfahren, besuchen Sie die[LINQ-Reporting-Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[LINQ-Berichtsmodul](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
 
 ```csharp
 public class JsonDataSource
@@ -22,18 +22,18 @@ public class JsonDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
-| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung von Standardoptionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung der Standardoptionen zum Parsen von JSON-Daten. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung der Standardoptionen zum Parsen von JSON-Daten. |
 | [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem JSON-Stream unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
 | [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer JSON-Datei unter Verwendung der angegebenen Optionen zum Parsen von JSON-Daten. |
 
 ## Bemerkungen
 
-Um beim Erstellen eines Berichts auf Daten der entsprechenden Datei oder des entsprechenden Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an eine von[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
+Um beim Generieren eines Berichts auf die Daten der entsprechenden Datei oder des Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an einen der[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
-Wenn in Vorlagendokumenten ein JSON-Element der obersten Ebene ein Array ist, a`JsonDataSource` Die Instanz sollte genauso behandelt werden, als wäre sie eineDataTable Instanz. Wenn ein JSON-Element der obersten Ebene ein Objekt ist, a`JsonDataSource` Die Instanz sollte genauso behandelt werden, als wäre sie aDataRow Instanz. Weitere Informationen finden Sie in der Vorlagensyntaxreferenz (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Wenn in Vorlagendokumenten ein JSON-Element der obersten Ebene ein Array ist,`JsonDataSource` Instanz sollte auf die gleiche Weise behandelt werden, als wäre sie eineDataTable Instanz. Wenn ein JSON-Element der obersten Ebene ein Objekt ist,`JsonDataSource` Instanz sollte genauso behandelt werden, als wäre sie aDataRow -Instanz. Weitere Informationen finden Sie in der Vorlagensyntaxreferenz (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
-In Vorlagendokumenten können Sie mit typisierten Werten von JSON-Elementen arbeiten. Der Einfachheit halber ersetzt die Engine den Satz der einfachen JSON-Typen durch den folgenden:
+In Vorlagendokumenten können Sie mit typisierten Werten von JSON-Elementen arbeiten. Der Einfachheit halber ersetzt die Engine den Satz einfacher JSON-Typen durch den folgenden:
 
 * Nullable
 * Nullable
@@ -41,9 +41,30 @@ In Vorlagendokumenten können Sie mit typisierten Werten von JSON-Elementen arbe
 * Nullable
 * String
 
-Die Engine erkennt automatisch Werte der zusätzlichen Typen anhand ihrer JSON-Darstellungen.
+Die Engine erkennt die Werte der zusätzlichen Typen automatisch anhand ihrer JSON-Darstellungen.
 
-Um das Standardverhalten beim Laden von JSON-Daten zu überschreiben, initialisieren und übergeben Sie a[`JsonDataLoadOptions`](../jsondataloadoptions/) Instanz an einen Konstruktor dieser Klasse.
+Um das Standardverhalten des JSON-Datenladens zu überschreiben, initialisieren und übergeben Sie ein[`JsonDataLoadOptions`](../jsondataloadoptions/) instance zu einem Konstruktor dieser Klasse.
+
+## Beispiele
+
+Zeigt, wie JSON als Datenquelle (Zeichenfolge) verwendet wird.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - JSON data destination.docx");
+
+JsonDataLoadOptions options = new JsonDataLoadOptions
+{
+    ExactDateTimeParseFormats = new List<string> {"MM/dd/yyyy", "MM.d.yy", "MM d yy"},
+    AlwaysGenerateRootObject = true,
+    PreserveSpaces = true,
+    SimpleValueParseMode = JsonSimpleValueParseMode.Loose
+};
+
+JsonDataSource dataSource = new JsonDataSource(MyDir + "List of people.json", options);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.JsonDataString.docx");
+```
 
 ### Siehe auch
 

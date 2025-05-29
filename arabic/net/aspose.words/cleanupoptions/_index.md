@@ -3,14 +3,14 @@ title: CleanupOptions Class
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.CleanupOptions فصل. يسمح بتحديد خيارات تنظيف المستندات في C#.
+description: اكتشف خيارات Aspose.Words.Cleanup لتخصيص تنظيف المستندات. حسّن سير عملك بإعدادات مُخصصة لمستندات أكثر نظافة وكفاءة.
 type: docs
-weight: 210
+weight: 400
 url: /ar/net/aspose.words/cleanupoptions/
 ---
 ## CleanupOptions class
 
-يسمح بتحديد خيارات تنظيف المستندات.
+يسمح بتحديد خيارات لتنظيف المستندات.
 
 لمعرفة المزيد، قم بزيارة[تنظيف مستند](https://docs.aspose.com/words/net/clean-up-a-document/) مقالة توثيقية.
 
@@ -28,14 +28,14 @@ public class CleanupOptions
 
 | اسم | وصف |
 | --- | --- |
-| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | الحصول على/تعيين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هي`خطأ شنيع` . |
-| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | يحدد ما هو غير مستخدم[`BuiltIn`](../style/builtin/) يجب إزالة الأنماط من المستند. |
+| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | يحصل على/يعين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هي`خطأ شنيع` . |
+| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | يحدد أنه غير مستخدم[`BuiltIn`](../style/builtin/) يجب إزالة الأنماط من المستند. |
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | يحدد ما إذا كان يجب إزالة القائمة غير المستخدمة وتعريفات القائمة من المستند. القيمة الافتراضية هي`حقيقي` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | يحدد ما إذا كان يجب إزالة الأنماط غير المستخدمة من المستند. القيمة الافتراضية هي`حقيقي` . |
 
 ## أمثلة
 
-يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
+يوضح كيفية إزالة كافة الأنماط المخصصة غير المستخدمة من مستند.
 
 ```csharp
 Document doc = new Document();
@@ -45,12 +45,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
+// مع دمج الأنماط المضمنة، أصبح لدى المستند الآن ثمانية أنماط.
 // يتم وضع علامة على النمط المخصص على أنه "مستخدم" أثناء وجود أي نص داخل المستند
-// منسق بهذا النمط. وهذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
+// مُنسّق بهذا النمط. هذا يعني أن الأنماط الأربعة التي أضفناها غير مُستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة "مستخدمة" عليها.
+// طبّق نمط حرف مخصص، ثم نمط قائمة مخصص. سيؤدي ذلك إلى تمييزهما بعلامة "مستخدم".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -60,8 +60,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// الآن، يوجد نمط أحرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
-// يمكن لأسلوب Cleanup()، عند تكوينه باستخدام كائن CleanupOptions، استهداف الأنماط غير المستخدمة وإزالتها.
+// الآن، هناك نمط حرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
+// عند تكوين طريقة Cleanup() باستخدام كائن CleanupOptions، يمكنها استهداف الأنماط غير المستخدمة وإزالتها.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -71,7 +71,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى.
+ // يؤدي إزالة كل عقدة تم تطبيق نمط مخصص عليها إلى تمييزها بأنها "غير مستخدمة" مرة أخرى.
 // أعد تشغيل طريقة التنظيف لإزالتها.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

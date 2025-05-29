@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: BookmarksOutlineLevelCollection Add metod. Lägger till ett bokmärke i samlingen i C#.
+description: Upptäck hur du kan förbättra ditt projekt med BookmarksOutlineLevelCollection Add-metoden, och enkelt lägga till bokmärken i din samling för bättre organisering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -18,18 +18,18 @@ public void Add(string name, int outlineLevel)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Det skiftlägesokänsliga namnet på bokmärket som ska läggas till. |
-| outlineLevel | Int32 | Konturnivån för bokmärket. Giltigt intervall är 0 till 9. |
+| name | String | Det skiftlägeskänsliga namnet på bokmärket som ska läggas till. |
+| outlineLevel | Int32 | Bokmärkets dispositionsnivå. Giltigt intervall är 0 till 9. |
 
 ## Exempel
 
-Visar hur du ställer in konturnivåer för bokmärken.
+Visar hur man ställer in konturnivåer för bokmärken.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett bokmärke med ett annat bokmärke kapslat inuti.
+// Infoga ett bokmärke med ett annat bokmärke inbäddat inuti det.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -45,9 +45,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// När du sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
-// Bokmärken kan också ha numeriska värden för konturnivåer,
-// möjliggör för konturposter på lägre nivå att dölja underordnade poster på högre nivå när de komprimeras i läsaren.
+// När man sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
+// Bokmärken kan också ha numeriska värden för dispositionsnivåer,
+// aktiverar dispositionsposter på lägre nivå för att dölja underordnade poster på högre nivå när de är hopfällda i läsaren.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -61,18 +61,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Vi kan ta bort två element så att endast konturnivåbeteckningen för "Bokmärke 1" finns kvar.
+// Vi kan ta bort två element så att endast beteckningen för dispositionsnivå för "Bokmärke 1" finns kvar.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Det finns nio konturnivåer. Deras numrering kommer att optimeras under lagringsoperationen.
-// I det här fallet kommer nivåerna "5" och "9" att bli "2" och "3".
+// Det finns nio dispositionsnivåer. Numreringen av dem optimeras när de sparas.
+// I det här fallet blir nivåerna "5" och "9" "2" och "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Att tömma den här samlingen kommer att bevara bokmärkena och placera dem alla på samma konturnivå.
+// Om du tömmer den här samlingen bevaras bokmärkena och de placeras alla på samma dispositionsnivå.
 outlineLevels.Clear();
 ```
 

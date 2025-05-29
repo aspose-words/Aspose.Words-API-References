@@ -2,8 +2,8 @@
 title: PdfEncryptionDetails.Permissions
 linktitle: Permissions
 articleTitle: Permissions
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfEncryptionDetails Permissions 财产. 指定允许用户对加密 PDF 文档进行的操作 默认值为DisallowAll 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PdfEncryptionDetails 权限属性，该属性定义了用户对加密 PDF 的操作。通过可自定义的访问权限，解锁安全的文档管理！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -18,7 +18,7 @@ public PdfPermissions Permissions { get; set; }
 
 ## 例子
 
-演示如何设置已保存 PDF 文档的权限。
+展示如何设置已保存的 PDF 文档的权限。
 
 ```csharp
 Document doc = new Document();

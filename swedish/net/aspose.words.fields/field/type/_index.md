@@ -3,7 +3,7 @@ title: Field.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: Field Type fast egendom. Hämtar fälttypen Microsoft Word i C#.
+description: Upptäck fälttypen i Microsoft Word med vår Fälttyp-egenskap. Förbättra dina dokument med exakt formatering och dynamiska innehållsfunktioner.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/field/type/
@@ -30,7 +30,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Denna överbelastning av InsertField-metoden uppdaterar automatiskt infogade fält.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Se även

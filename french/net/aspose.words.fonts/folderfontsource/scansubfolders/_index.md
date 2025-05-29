@@ -3,7 +3,7 @@ title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
 articleTitle: ScanSubfolders
 second_title: Aspose.Words pour .NET
-description: FolderFontSource ScanSubfolders propriété. Détermine sil faut ou non analyser les sousdossiers en C#.
+description: Découvrez la propriété FolderFontSource ScanSubfolders pour gérer facilement l'organisation des polices en choisissant d'analyser les sous-dossiers pour une efficacité accrue.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -21,7 +21,7 @@ public bool ScanSubfolders { get; }
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
 ```csharp
-// Crée une source de police à partir d'un dossier contenant des fichiers de police.
+// Créez une source de police à partir d'un dossier contenant des fichiers de police.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

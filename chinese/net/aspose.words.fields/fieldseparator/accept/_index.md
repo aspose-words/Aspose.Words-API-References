@@ -2,8 +2,8 @@
 title: FieldSeparator.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSeparator Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldSeparator Accept 方法如何增强访客参与度并简化应用程序的数据处理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldseparator/accept/
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-**错误的**如果访问者请求停止枚举。
+**错误的**如果访问者要求停止计数。
 
 ## 评论
 
-通话[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/)。
+呼叫[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -95,7 +95,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -107,7 +107,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -117,7 +117,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

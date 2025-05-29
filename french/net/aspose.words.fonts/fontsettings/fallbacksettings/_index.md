@@ -3,7 +3,7 @@ title: FontSettings.FallbackSettings
 linktitle: FallbackSettings
 articleTitle: FallbackSettings
 second_title: Aspose.Words pour .NET
-description: FontSettings FallbackSettings propriété. Paramètres liés au mécanisme de secours des polices en C#.
+description: Découvrez la propriété FontSettings FallbackSettings pour des mécanismes de remplacement optimisés des polices. Améliorez votre design grâce à un rendu de texte fluide !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -27,27 +27,27 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Configurez nos paramètres de police pour sourcer les polices uniquement à partir du dossier "MyFonts".
+// Configurez nos paramètres de police pour obtenir des polices uniquement à partir du dossier « MyFonts ».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// L'appel de la méthode "BuildAutomatic" générera un schéma de secours qui
+// L'appel de la méthode « BuildAutomatic » générera un schéma de secours qui
 // distribue les polices accessibles sur autant de codes de caractères Unicode que possible.
-// Dans notre cas, il n'a accès qu'à la poignée de polices contenues dans le dossier "MyFonts".
+// Dans notre cas, il n'a accès qu'à la poignée de polices présentes dans le dossier « MyFonts ».
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
 // Nous pouvons également charger un schéma de substitution personnalisé à partir d'un fichier comme celui-ci.
-// Ce schéma applique la police "AllegroOpen" sur les blocs Unicode "0000-00ff", la police "AllegroOpen" sur "0100-024f",
-// et la police "M+ 2m" dans toutes les autres plages que les autres polices du schéma ne couvrent pas.
+// Ce schéma applique la police « AllegroOpen » sur les blocs Unicode « 0000-00ff », la police « AllegroOpen » sur « 0100-024f »,
+// et la police « M+ 2m » dans toutes les autres plages que les autres polices du schéma ne couvrent pas.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Créez un générateur de documents et définissez sa police sur une police qui n'existe dans aucune de nos sources.
-// Nos paramètres de police appelleront le schéma de secours pour les caractères que nous tapons en utilisant la police indisponible.
+// Nos paramètres de police invoqueront le schéma de secours pour les caractères que nous tapons à l'aide de la police non disponible.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Utilisez le constructeur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
+// Utilisez le générateur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
 // avec des lignes descriptives divisant les blocs Unicode que nous avons définis dans notre schéma de secours de police personnalisé.
 for (int i = 0x0021; i < 0x0530; i++)
 {

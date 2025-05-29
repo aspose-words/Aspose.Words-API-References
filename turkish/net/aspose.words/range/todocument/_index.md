@@ -2,15 +2,15 @@
 title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
-second_title: Aspose.Words for .NET
-description: Range ToDocument yöntem. Aralığı içeren tam biçimli yeni bir belge oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Range ToDocument yöntemini keşfedin, seçtiğiniz aralıktan zahmetsizce eksiksiz bir belge oluşturun, iş akışınızı ve üretkenliğinizi artırın.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method
 
-Aralığı içeren tam biçimli yeni bir belge oluşturur.
+Aralığı içeren yeni, tam olarak oluşturulmuş bir belge oluşturur.
 
 ```csharp
 public Document ToDocument()

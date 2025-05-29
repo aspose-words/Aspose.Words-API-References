@@ -2,8 +2,8 @@
 title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ExportListLabels 财产. 控制列表标签如何输出为 HTMLMHTML 或 EPUB 默认值为Auto 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 HtmlSaveOptions ExportListLabels 属性如何增强您的 HTML、MHTML 和 EPUB 输出效果。使用“自动”设置轻松优化列表标签！
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -49,11 +49,11 @@ builder.ListFormat.RemoveNumbers();
 // 将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
 // 决定文档将使用哪些 HTML 元素来表示列表。
 // 将“ExportListLabels”属性设置为“ExportListLabels.AsInlineText”
-// 将通过格式化跨度来创建列表。
-// 将“ExportListLabels”属性设置为“ExportListLabels.Auto”将使用 <p>标签
-// 在使用 <ol> 的情况下构建列表<li>和<li>标签可能会导致格式丢失。
+// 将通过格式化跨度创建列表。
+// 将“ExportListLabels”属性设置为“ExportListLabels.Auto”将使用<p>标签
+// 在使用 <ol> 和 <li> 标签的情况下构建列表可能会导致格式丢失。
 // 将“ExportListLabels”属性设置为“ExportListLabels.ByHtmlTags”
-// 将使用 <ol>; <li>和<li>标签来构建所有列表。
+// 将使用 <ol> 和 <li> 标签来构建所有列表。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

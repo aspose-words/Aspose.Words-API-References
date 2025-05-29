@@ -3,16 +3,16 @@ title: ListLevel Class
 linktitle: ListLevel
 articleTitle: ListLevel
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Lists.ListLevel сорт. Определяет форматирование уровня списка на С#.
+description: Откройте для себя класс Aspose.Words.Lists.ListLevel для расширенного форматирования списков. Улучшите структуру вашего документа с помощью мощных, настраиваемых параметров.
 type: docs
-weight: 3500
+weight: 3950
 url: /ru/net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
 
-Определяет форматирование уровня списка.
+Определяет форматирование для уровня списка.
 
-Чтобы узнать больше, посетите[Работа со списками](https://docs.aspose.com/words/net/working-with-lists/) статья документации.
+Чтобы узнать больше, посетите[Работа со списками](https://docs.aspose.com/words/net/working-with-lists/) документальная статья.
 
 ```csharp
 public class ListLevel
@@ -22,49 +22,49 @@ public class ListLevel
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Получает или задает выравнивание фактического номера элемента списка. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Получает пользовательский формат числового стиля для этого уровня списка. Например: «a, ç, ĝ, ...». |
-| [Font](../../aspose.words.lists/listlevel/font/) { get; } | Определяет форматирование символов, используемое для метки списка. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Возвращает или задает выравнивание фактического номера элемента списка. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; set; } | Получает или задает пользовательский формат стиля чисел для этого уровня списка. Например: "a, ç, ĝ, ...". |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | Задает форматирование символов, используемое для метки списка. |
 | [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Возвращает данные изображения формы маркера изображения для текущего уровня списка. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | True, если уровень преобразует все унаследованные числа в арабский, false, если он сохраняет их нумерационный стиль. |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Получает или задает стиль абзаца, связанный с этим уровнем списка. |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Возвращает или устанавливает числовой формат для уровня списка. |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Возвращает или задает позицию (в пунктах) номера или маркера для уровня списка. |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Возвращает или устанавливает стиль номера для этого уровня списка. |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Устанавливает или возвращает уровень списка, который должен появиться перед тем, как указанный уровень списка перезапустит нумерацию. |
-| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Возвращает или устанавливает начальный номер для этого уровня списка. |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Возвращает или устанавливает позицию табуляции (в пунктах) для уровня списка. |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | Возвращает или задает позицию (в пунктах) второй строки переносимого текста для уровня списка. |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | Возвращает или задает символ, вставленный после номера уровня списка. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | True, если уровень преобразует все унаследованные числа в арабские, false, если он сохраняет их числовой стиль. |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Возвращает или задает стиль абзаца, связанный с этим уровнем списка. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Возвращает или задает числовой формат для уровня списка. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Возвращает или задает позицию (в пунктах) числа или маркера для уровня списка. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Возвращает или задает стиль чисел для этого уровня списка. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Устанавливает или возвращает уровень списка, который должен появиться до того, как указанный уровень списка перезапустит нумерацию. |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Возвращает или задает начальный номер для этого уровня списка. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Возвращает или задает позицию табуляции (в пунктах) для уровня списка. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | Возвращает или задает позицию (в пунктах) для второй строки переносимого текста для уровня списка. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | Возвращает или задает символ, вставленный после числа для уровня списка. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Создает форму графического маркера для текущего уровня списка. |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Удаляет графический маркер для текущего уровня списка. |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Создает форму маркера изображения для текущего уровня списка. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Удаляет маркер изображения для текущего уровня списка. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Сравнивает с указанным ListLevel. |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Сообщает строковое представление`ListLevel`объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указано. |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Вычисляет хэш-код для этого объекта. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Сообщает строковое представление`ListLevel`объект для указанного index элемента списка. Параметры указывают[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указано. |
 
 ## Примечания
 
 Вы не создаете объекты этого класса. Объекты уровня списка создаются автоматически при создании списка. Вы получаете доступ`ListLevel` объекты через the [`ListLevelCollection`](../listlevelcollection/) коллекция.
 
-Используйте свойства`ListLevel` чтобы указать форматирование списка для отдельных уровней списка.
+Используйте свойства`ListLevel` для указания форматирования списка для отдельных уровней списка.
 
 ## Примеры
 
-Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
+Показывает, как применять пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+// Список позволяет нам организовывать и украшать наборы абзацев с помощью префиксных символов и отступов.
  // Мы можем создавать вложенные списки, увеличивая уровень отступа.
- // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
-// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Создайте список из шаблона Microsoft Word и настройте первые два уровня его списка.
+ // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов.
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом в списке.
+// Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -90,7 +90,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
+// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

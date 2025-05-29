@@ -3,14 +3,14 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words per .NET
-description: FieldAutoTextList ScreenTip proprietà. Ottiene o imposta il testo della descrizione comando da mostrare in C#.
+description: Scopri la proprietà FieldAutoTextList ScreenTip e personalizza facilmente il testo della tua descrizione schermo per migliorare l'esperienza utente e la chiarezza della tua applicazione.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-Ottiene o imposta il testo della descrizione comando da mostrare.
+Ottiene o imposta il testo della descrizione comandi da visualizzare.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -18,14 +18,14 @@ public string ScreenTip { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
+Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di testo automatico.
 
 ```csharp
 public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Crea un documento di glossario e popolalo con voci di testo automatiche.
+    // Crea un documento di glossario e inserisci al suo interno voci di testo automatiche.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crea un campo AUTOTEXTLIST e imposta il testo che verrà visualizzato nel campo in Microsoft Word.
-    // Imposta il testo per richiedere all'utente di fare clic con il pulsante destro del mouse su questo campo per selezionare un blocco predefinito di glossario,
+    // Crea un campo AUTOTEXTLIST e imposta il testo che il campo visualizzerà in Microsoft Word.
+    // Imposta il testo per richiedere all'utente di fare clic con il pulsante destro del mouse su questo campo per selezionare un blocco di creazione di testo automatico,
     // il cui contenuto verrà visualizzato nel campo.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Crea un blocco predefinito di tipo Glossario e aggiungilo a un documento di glossario.
+/// Creare un blocco di costruzione di tipo AutoText e aggiungerlo a un documento di glossario.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

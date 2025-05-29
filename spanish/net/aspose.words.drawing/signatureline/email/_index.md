@@ -3,14 +3,14 @@ title: SignatureLine.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words para .NET
-description: SignatureLine Email propiedad. Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
+description: Gestione fácilmente las direcciones de correo electrónico de los firmantes sugeridos con la propiedad de correo electrónico SignatureLine. Optimice su flujo de trabajo con funciones personalizables e intuitivas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
+Obtiene o establece la dirección de correo electrónico del firmante sugerido. El valor predeterminado para esta propiedad es**cadena vacía** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
-// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
+// Insertar una forma que contendrá una línea de firma, cuya apariencia definiremos
+// personaliza usando el objeto "SignatureLineOptions" que hemos creado anteriormente.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Necesitaremos proporcionar coordenadas x e y negativas para que la forma sea visible.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica las propiedades de nuestra línea de firma a través de su objeto Shape.
+// Verifique las propiedades de nuestra línea de firma a través de su objeto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -2,15 +2,15 @@
 title: ParagraphFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: Aspose.Words for .NET
-description: ParagraphFormat ClearFormatting yöntem. Varsayılan paragraf formatına sıfırlar C#'da.
+second_title: .NET için Aspose.Words
+description: ClearFormatting yöntemiyle paragraf biçimlendirmenizi zahmetsizce sıfırlayın, belgeleriniz için cilalı ve profesyonel bir görünüm sağlayın.
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat.ClearFormatting method
 
-Varsayılan paragraf formatına sıfırlar.
+Varsayılan paragraf biçimlendirmesine sıfırlar.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Notlar
 
-Varsayılan paragraf formatı Normal stildir, sola hizalanmış, girintisiz, boşluk yok, kenarlık yok ve gölge yok.
+Varsayılan paragraf biçimlendirmesi Normal stil, sola hizalanmış, girinti yok, boşluk yok, kenarlık yok ve gölgelendirme yok.
 
 ## Örnekler
 
@@ -28,23 +28,23 @@ Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Başlıklar için bir taslak listesi oluşturun.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Başlıklar için bir ana hat listesi oluşturun.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Numaralandırılmış bir liste oluşturun.
+// Numaralandırılmış bir liste oluştur.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// Listeyi oluşturan her paragraf bu bayrağa sahip olacaktır.
+// Liste oluşturan her paragraf bu bayrağa sahip olacaktır.
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
@@ -56,12 +56,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Numaralandırılmış listeye geri dönelim.
+// Numaralandırılmış listeye geri dön.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Anahat listesine geri dönelim.
+// Anahat listesine geri dön.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

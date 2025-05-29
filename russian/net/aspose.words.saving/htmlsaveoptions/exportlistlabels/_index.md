@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportListLabels свойство. Управляет выводом меток списка в HTML MHTML или EPUB. Значение по умолчаниюAuto  на С#.
+description: Узнайте, как свойство HtmlSaveOptions ExportListLabels улучшает ваши выходные данные HTML, MHTML и EPUB. Оптимизируйте метки списков без усилий с помощью настроек Auto!
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-Управляет выводом меток списка в HTML, MHTML или EPUB. Значение по умолчанию:Auto .
+Управляет выводом меток списков в HTML, MHTML или EPUB. Значение по умолчанию:Auto .
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }
@@ -47,13 +47,13 @@ builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
 // При сохранении документа в HTML мы можем передать объект SaveOptions
-// чтобы решить, какие HTML-элементы документ будет использовать для представления списков.
-// Установка свойства «ExportListLabels» в «ExportListLabels.AsInlineText»
+// чтобы решить, какие элементы HTML документ будет использовать для представления списков.
+// Установка свойства "ExportListLabels" в значение "ExportListLabels.AsInlineText"
 // создаст списки путем форматирования интервалов.
-// Установка свойства «ExportListLabels» в «ExportListLabels.Auto» будет использовать параметр <p> ярлык
-// для построения списков в случаях использования метода <ol> и <li> теги могут привести к потере форматирования.
-// Установка свойства «ExportListLabels» в «ExportListLabels.ByHtmlTags»
-// будет использовать <ol> и <li> теги для построения всех списков.
+// Установка свойства "ExportListLabels" в "ExportListLabels.Auto" будет использовать тег <p>
+// для построения списков в случаях, когда использование тегов <ol> и <li> может привести к потере форматирования.
+// Установка свойства "ExportListLabels" в "ExportListLabels.ByHtmlTags"
+// будет использовать теги <ol> и <li> для построения всех списков.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

@@ -3,7 +3,7 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words para .NET
-description: Font HighlightColor propiedad. Obtiene o establece el color de resaltado marcador en C#.
+description: Descubre la propiedad Font HighlightColor: personaliza fácilmente el color de resaltado de tu texto para mejorar la legibilidad y el atractivo visual. ¡Mejora tu diseño!
 type: docs
 weight: 150
 url: /es/net/aspose.words/font/highlightcolor/
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Ejemplos
 
-Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
+Muestra cómo formatear una serie de texto utilizando su propiedad de fuente.
 
 ```csharp
 Document doc = new Document();

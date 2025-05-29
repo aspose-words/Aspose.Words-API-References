@@ -3,14 +3,14 @@ title: PdfDigitalSignatureDetails.TimestampSettings
 linktitle: TimestampSettings
 articleTitle: TimestampSettings
 second_title: Aspose.Words для .NET
-description: PdfDigitalSignatureDetails TimestampSettings свойство. Получает или задает настройки отметки времени цифровой подписи на С#.
+description: Откройте для себя свойство PdfDigitalSignatureDetails TimestampSettings, позволяющее легко управлять временными метками цифровых подписей для повышения безопасности документов и соответствия нормативным требованиям.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 ---
 ## PdfDigitalSignatureDetails.TimestampSettings property
 
-Получает или задает настройки отметки времени цифровой подписи.
+Получает или задает параметры временной метки цифровой подписи.
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
@@ -18,30 +18,30 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ## Примечания
 
-Значение по умолчанию:`нулевой` и цифровая подпись не будет иметь отметку времени. Если для этого свойства установлено допустимое значение[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, , то цифровая подпись в PDF-документе будет иметь отметку времени.
+Значение по умолчанию:`нулевой` и цифровая подпись не будет иметь отметку времени. Когда это свойство установлено на допустимое[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, , то цифровая подпись в PDF-документе будет иметь отметку времени.
 
 ## Примеры
 
-Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
+Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем временную метку.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Создайте цифровую подпись и назначьте ее нашему объекту SaveOptions, чтобы подписывать документ при сохранении его в PDF.
+// Создаем цифровую подпись и назначаем ее нашему объекту SaveOptions для подписи документа при сохранении его в формате PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Создаем временную метку, проверенную авторитетным органом.
+// Создать временную метку, проверенную органом власти.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
-// Срок действия метки времени по умолчанию составляет 100 секунд.
+// Срок действия временной метки по умолчанию составляет 100 секунд.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
 // Мы можем установить период ожидания через конструктор.
@@ -53,7 +53,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// В это время метод «Сохранить» применит нашу подпись к выходному документу.
+// Метод «Сохранить» в этот раз применит нашу подпись к выходному документу.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

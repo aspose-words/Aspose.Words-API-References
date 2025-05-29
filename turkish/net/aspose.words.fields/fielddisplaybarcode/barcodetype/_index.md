@@ -2,15 +2,15 @@
 title: FieldDisplayBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
-second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode BarcodeType mülk. Barkod türünü QR vb. alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldDisplayBarcode'un BarcodeType özelliğini keşfedin; gelişmiş veri görüntüleme ve işlevsellik için QR gibi barkod türlerini kolayca yönetin ve özelleştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/barcodetype/
 ---
 ## FieldDisplayBarcode.BarcodeType property
 
-Barkod türünü (QR vb.) alır veya ayarlar.
+Barkod türünü (QR, vb.) alır veya ayarlar
 
 ```csharp
 public string BarcodeType { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Aşağıda DISPLAYBARCODE alanının görüntüleyebileceği, çeşitli şekillerde dekore edilmiş dört tür barkod bulunmaktadır.
+// Aşağıda, DISPLAYBARCODE alanının görüntüleyebileceği, çeşitli şekillerde dekore edilmiş dört tip barkod bulunmaktadır.
 // 1 - Özel renklere sahip QR kodu:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13 barkodu, rakamlar çubukların altında görüntülenir:
+// 2 - EAN13 barkodu, çubukların altında gösterilen rakamlarla:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 barkodu, belirtilen durum koduyla:
+// 4 - Belirtilen kasa koduna sahip ITF4 barkodu:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

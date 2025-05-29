@@ -2,8 +2,8 @@
 title: FindReplaceOptions.Direction
 linktitle: Direction
 articleTitle: Direction
-second_title: 用于 .NET 的 Aspose.Words
-description: FindReplaceOptions Direction 财产. 选择替换方向默认值为Forward 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FindReplaceOptions Direction 属性，自定义替换功能。选择“向前”或“向后”可获得最佳效果。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -18,7 +18,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ## 例子
 
-演示如何确定查找和替换操作遍历文档的方向。
+展示如何确定查找和替换操作遍历文档的方向。
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -26,8 +26,8 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入我们可以使用正则表达式模式搜索的三个运行。
-    // 将其中一个运行放在文本框中。
+    // 插入三个我们可以使用正则表达式模式进行搜索的运行。
+    // 将其中一个运行放在文本框内。
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
@@ -41,8 +41,8 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     options.ReplacingCallback = callback;
 
     // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
-    // 操作从范围末尾开始，并遍历回开头。
-    // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
+    // 操作从范围的末尾开始，然后遍历回开头。
+    // 将“Direction”属性设置为“FindReplaceDirection.Forward”以获取查找和替换
     // 操作从范围的开头开始，遍历到结尾。
     options.Direction = findReplaceDirection;
 
@@ -65,7 +65,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// 按照发生的顺序记录查找和替换操作期间发生的所有匹配项。
+/// 按照发生的顺序记录查找和替换操作期间发生的所有匹配。
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

@@ -3,14 +3,14 @@ title: Fill.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
 second_title: Aspose.Words для .NET
-description: Fill ForeThemeColor свойство. Получает или задает объект ThemeColor который представляет цвет переднего плана для заливки на С#.
+description: Узнайте, как настроить свойство ForeThemeColor, чтобы настроить свой дизайн с помощью ярких цветов заливки. Улучшите визуальную привлекательность вашего проекта без усилий!
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
 
-Получает или задает объект ThemeColor, который представляет цвет переднего плана для заливки.
+Возвращает или задает объект ThemeColor, представляющий цвет переднего плана для заливки.
 
 ```csharp
 public ThemeColor ForeThemeColor { get; set; }

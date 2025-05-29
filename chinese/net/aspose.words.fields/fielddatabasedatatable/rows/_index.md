@@ -2,8 +2,8 @@
 title: FieldDatabaseDataTable.Rows
 linktitle: Rows
 articleTitle: Rows
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDatabaseDataTable Rows 财产. 获取属于此表的行 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldDatabaseDataTable Rows 属性，轻松访问和管理表中的所有行，实现高效的数据处理。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fielddatabasedatatable/rows/

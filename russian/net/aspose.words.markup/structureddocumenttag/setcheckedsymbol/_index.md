@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SetCheckedSymbol
 linktitle: SetCheckedSymbol
 articleTitle: SetCheckedSymbol
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag SetCheckedSymbol метод. Устанавливает символ используемый для обозначения отмеченного состояния элемента управления содержимым флажка на С#.
+description: Узнайте, как использовать метод SetCheckedSymbol в StructuredDocumentTag для настройки визуальных эффектов флажков и улучшения пользовательского опыта.
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
 
-Устанавливает символ, используемый для обозначения отмеченного состояния элемента управления содержимым флажка.
+Устанавливает символ, используемый для представления отмеченного состояния элемента управления содержимым флажка.
 
 ```csharp
 public void SetCheckedSymbol(int characterCode, string fontName)
@@ -19,7 +19,7 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | characterCode | Int32 | Код символа для указанного символа. |
-| fontName | String | Имя шрифта, содержащего символ. |
+| fontName | String | Название шрифта, содержащего символ. |
 
 ## Примечания
 
@@ -36,9 +36,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Мы можем установить символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
+// Мы можем задать символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

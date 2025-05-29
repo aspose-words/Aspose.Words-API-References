@@ -2,8 +2,8 @@
 title: FieldCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCollection Item 财产. 返回指定索引处的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldCollection Item 属性，轻松通过索引访问字段并轻松、精确地增强数据管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcollection/item/
@@ -22,17 +22,17 @@ public Field this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
-演示如何从字段集合中删除字段。
+展示如何从字段集合中删除字段。
 
 ```csharp
 Document doc = new Document();
@@ -50,21 +50,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// 下面是从字段集合中删除字段的四种方法。
-// 1 - 获取一个字段来删除自身：
+// 以下是从字段集合中删除字段的四种方法。
+// 1 - 获取要删除的字段：
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - 获取集合以删除我们传递给其删除方法的字段：
+// 2 - 获取要删除的字段的集合，并将其传递给其删除方法：
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - 从索引处的集合中删除字段：
+// 3 - 从集合中移除索引处的字段：
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - 立即从集合中删除所有字段：
+// 4 - 一次性从集合中删除所有字段：
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

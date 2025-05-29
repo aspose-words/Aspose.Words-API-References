@@ -3,14 +3,14 @@ title: ResourceSavingArgs Class
 linktitle: ResourceSavingArgs
 articleTitle: ResourceSavingArgs
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.ResourceSavingArgs classe. Fornisce i dati per ilResourceSaving evento in C#.
+description: Scopri la classe Aspose.Words.Saving.ResourceSavingArgs, che migliora l'elaborazione dei documenti fornendo dati essenziali per l'evento ResourceSaving.
 type: docs
-weight: 5560
+weight: 6360
 url: /it/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-Fornisce i dati per il[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) evento.
+Fornisce dati per il[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) evento.
 
 Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
@@ -22,21 +22,21 @@ public class ResourceSavingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Ottiene l'oggetto documento attualmente in fase di salvataggio. |
+| [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Ottiene l'oggetto documento che è attualmente in fase di salvataggio. |
 | [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato una risorsa. |
 | [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | Ottiene o imposta il nome del file (senza percorso) in cui verrà salvata la risorsa. |
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Ottiene o imposta l'URI (Uniform Resource Identifier) utilizzato per fare riferimento al file di risorse dal documento. |
-| [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Permette di specificare lo stream in cui verrà salvata la risorsa. |
+| [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Consente di specificare il flusso in cui verrà salvata la risorsa. |
 
 ## Osservazioni
 
-Per impostazione predefinita, quando Aspose.Words salva un documento in HTML o SVG a pagina fissa, salva ogni risorsa in un file separato. Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un nome file univoco per ogni risorsa trovata nel documento.
+Per impostazione predefinita, quando Aspose.Words salva un documento in formato HTML o SVG a pagina fissa, salva ogni risorsa in un file separato . Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un file name univoco per ogni risorsa presente nel documento.
 
-`ResourceSavingArgs` consente di ridefinire il modo in cui vengono generati i nomi dei file di risorse o di eludere completamente il salvataggio delle risorse nei file fornendo i propri oggetti flusso.
+`ResourceSavingArgs` consente di ridefinire il modo in cui vengono generati i nomi dei file di risorse o di aggirare completamente il salvataggio delle risorse nei file fornendo i propri oggetti stream.
 
-Per applicare la tua logica per generare nomi di file di risorse, utilizza [`ResourceFileName`](./resourcefilename/) proprietà.
+Per applicare la tua logica per generare nomi di file di risorse usa [`ResourceFileName`](./resourcefilename/) proprietà.
 
-Per salvare le risorse in flussi anziché in file, utilizzare il file[`ResourceStream`](./resourcestream/) proprietà.
+Per salvare le risorse in flussi anziché in file, utilizzare[`ResourceStream`](./resourcestream/) proprietà.
 
 ## Esempi
 
@@ -62,7 +62,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

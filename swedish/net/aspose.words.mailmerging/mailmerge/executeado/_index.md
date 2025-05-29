@@ -3,14 +3,14 @@ title: MailMerge.ExecuteADO
 linktitle: ExecuteADO
 articleTitle: ExecuteADO
 second_title: Aspose.Words för .NET
-description: MailMerge ExecuteADO metod. Utför epostkoppling från ett ADO Recordsetobjekt till dokumentet i C#.
+description: Effektivisera ditt dokumentskapande med MailMerge ExecuteADO-metoden. Sammanfoga enkelt ADO Recordset-data för effektiv och personlig utskrift.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-Utför e-postkoppling från ett ADO Recordset-objekt till dokumentet.
+Utför dokumentkoppling från ett ADO Recordset-objekt till dokumentet.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -18,15 +18,15 @@ public void ExecuteADO(object recordset)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| recordset | Object | ADO Recordset eller Record-objekt. |
+| recordset | Object | ADO-postuppsättning eller postobjekt. |
 
 ## Anmärkningar
 
-Den här metoden är användbar när du tänker använda Aspose.Words-klasserna as COM-objekt från ohanterad kod, till exempel ett program byggt med ASP eller Visual Basic 6.0.
+Den här metoden är användbar när du tänker använda Aspose.Words-klasser som COM-objekt från ohanterad kod, till exempel ett program som byggts med ASP eller Visual Basic 6.0.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-För mer information se beskrivning av[`Execute`](../execute/).
+För mer information se beskrivningen av[`Execute`](../execute/).
 
 ## Exempel
 
@@ -52,7 +52,7 @@ Doc.MailMerge.ExecuteADO RS
 Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 ```
 
-Visar hur man kör en sammankoppling med data från en ADO-datauppsättning.
+Visar hur man kör en dokumentkoppling med data från en ADO-datauppsättning.
 
 ```csharp
 public void ExecuteADO()
@@ -63,12 +63,12 @@ public void ExecuteADO()
     // som ingår i .NET-distributionen och lagras i "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
-    // Skapa en anslutningssträng som pekar på databasfilen "Northwind".
+    // Skapa en anslutningssträng som pekar till databasfilen "Northwind"
     // i vårt lokala filsystem och öppna en anslutning.
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Fyll i vår datauppsättning genom att köra ett SQL-kommando på vår databas.
+    // Fyll i vår dataset genom att köra ett SQL-kommando i vår databas.
     // Namnen på kolumnerna i resultattabellen måste överensstämma
     // till värdena för MERGEFIELDS som kommer att rymma våra data.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
@@ -76,13 +76,13 @@ public void ExecuteADO()
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Kör sammankopplingen och spara dokumentet.
+    // Kör dokumentkopplingen och spara dokumentet.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }
 
 /// <summary>
-/// Skapa ett tomt dokument och fyll i det med MERGEFIELDS som kommer att acceptera data när en e-postsammanslagning körs.
+/// Skapa ett tomt dokument och fyll det med MERGEFIELDS som accepterar data när en dokumentkoppling körs.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

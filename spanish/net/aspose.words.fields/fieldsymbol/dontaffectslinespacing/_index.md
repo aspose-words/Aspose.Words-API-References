@@ -3,14 +3,14 @@ title: FieldSymbol.DontAffectsLineSpacing
 linktitle: DontAffectsLineSpacing
 articleTitle: DontAffectsLineSpacing
 second_title: Aspose.Words para .NET
-description: FieldSymbol DontAffectsLineSpacing propiedad. Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo en C#.
+description: Descubra cómo la propiedad FieldSymbol DontAffectsLineSpacing controla el impacto de los caracteres en el interlineado de los párrafos. ¡Optimice el formato de sus documentos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 ---
 ## FieldSymbol.DontAffectsLineSpacing property
 
-Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo.
+Obtiene o establece si el carácter recuperado por el campo afecta el espaciado de línea del párrafo.
 
 ```csharp
 public bool DontAffectsLineSpacing { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // A continuación se muestran tres formas de utilizar un campo SÍMBOLO para mostrar un solo carácter.
-// 1 - Agregue un campo SÍMBOLO que muestre el símbolo © (Copyright), especificado por un código de carácter ANSI:
+// 1 - Agrega un campo SÍMBOLO que muestra el símbolo © (Copyright), especificado por un código de carácter ANSI:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // El código de carácter ANSI "U+00A9", o "169" en formato entero, está reservado para el símbolo de copyright.
@@ -36,19 +36,19 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - Agrega un campo SÍMBOLO que muestra el símbolo ∞ (Infinito) y modifica su apariencia:
+// 2 - Agrega un campo SÍMBOLO que muestre el símbolo ∞ (Infinito) y modifica su apariencia:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // En Unicode, el símbolo de infinito ocupa el código "221E".
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Cambia la fuente de nuestro símbolo después de usar el Mapa de Caracteres de Windows
+// Cambiar la fuente de nuestro símbolo después de usar el Mapa de caracteres de Windows
 // para garantizar que la fuente pueda representar ese símbolo.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Podemos configurar esta bandera para símbolos altos para que no empujen hacia abajo el resto del texto en su línea.
+//Podemos configurar esta bandera para símbolos altos para evitar que empujen hacia abajo el resto del texto en su línea.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());

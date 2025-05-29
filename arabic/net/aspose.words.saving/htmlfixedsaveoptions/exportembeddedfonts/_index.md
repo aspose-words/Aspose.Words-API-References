@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 linktitle: ExportEmbeddedFonts
 articleTitle: ExportEmbeddedFonts
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions ExportEmbeddedFonts ملكية. يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ في C#.
+description: تحكّم بتضمين الخطوط في HTML باستخدام خاصية ExportEmbeddedFonts. حسّن جودة المستند مع إدارة حجمه بفعالية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة: يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
+يحدد ما إذا كان يجب تضمين الخطوط في مستند HTML بتنسيق Base64. لاحظ أن تعيين هذا العلم يمكن أن يزيد بشكل كبير من حجم ملف HTML الناتج.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -18,18 +18,18 @@ public bool ExportEmbeddedFonts { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد مكان تخزين الخطوط المضمنة عند تصدير مستند إلى Html.
+يوضح كيفية تحديد مكان تخزين الخطوط المضمنة عند تصدير مستند إلى HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
-// عندما نقوم بتصدير مستند يحتوي على خطوط مضمنة إلى ‎.html،
+// عندما نقوم بتصدير مستند يحتوي على خطوط مضمنة إلى .html،
 // يمكن لـ Aspose.Words وضع الخطوط في موقعين محتملين.
-// سيؤدي تعيين علامة "ExportEmbeddedFonts" على "true" إلى تخزين البيانات الأولية للخطوط المضمنة داخل ورقة أنماط CSS،
-// في خاصية "url" لقاعدة "@font-face". قد يؤدي هذا إلى إنشاء ملف ورقة أنماط CSS ضخم
-// وتقليل عدد الملفات الخارجية التي سينشئها تحويل HTML هذا.
-// سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف لكل خط.
-// سيتم ربط ورقة أنماط CSS بكل ملف خط باستخدام خاصية "url" لقاعدة "@font-face".
+// سيؤدي تعيين علامة "ExportEmbeddedFonts" إلى "true" إلى تخزين البيانات الخام للخطوط المضمنة داخل ورقة أنماط CSS،
+// في خاصية "url" لقاعدة "@font-face". قد يُنشئ هذا ملفًا ضخمًا لجدول أنماط CSS.
+// وتقليل عدد الملفات الخارجية التي سيتم إنشاءها بواسطة تحويل HTML هذا.
+// سيؤدي تعيين هذا العلم إلى "خطأ" إلى إنشاء ملف لكل خط.
+// سوف تقوم ورقة أنماط CSS بالربط بكل ملف خط باستخدام خاصية "url" لقاعدة "@font-face".
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedFonts = exportEmbeddedFonts

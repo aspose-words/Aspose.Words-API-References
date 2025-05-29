@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words para .NET
-description: Shape constructor. Crea un nuevo objeto de forma en C#.
+description: Crea objetos con formas únicas sin esfuerzo con nuestro Constructor de Formas. ¡Diseña formas personalizadas y mejora tus proyectos con facilidad y precisión!
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/shape/shape/
@@ -23,7 +23,7 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 ## Observaciones
 
-Debe especificar las propiedades de forma deseadas después de crear una forma.
+Debes especificar las propiedades de forma deseadas después de crear una forma.
 
 ## Ejemplos
 
@@ -33,8 +33,8 @@ Muestra cómo insertar una forma con una imagen del sistema de archivos local en
 Document doc = new Document();
 
 // El constructor público de la clase "Shape" creará una forma con el tipo de marcado "ShapeMarkupLanguage.Vml".
-// Si necesita crear una forma de tipo no primitivo, como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
+// Si necesita crear una forma de un tipo no primitivo, como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// EsquinasSuperioresUnaRedondeadaUnaRecortada, EsquinaSimpleRedondeada, EsquinasSuperioresRedondeadas o EsquinasDiagonalesRedondeadas
 // utilice DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
@@ -46,7 +46,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-Muestra cómo crear y dar formato a un cuadro de texto.
+Muestra cómo crear y formatear un cuadro de texto.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Establece la alineación horizontal y vertical del texto dentro de la forma.
+// Establezca la alineación horizontal y vertical del texto dentro de la forma.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

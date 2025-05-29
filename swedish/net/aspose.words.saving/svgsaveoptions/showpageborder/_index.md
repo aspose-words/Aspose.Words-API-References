@@ -3,14 +3,14 @@ title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words för .NET
-description: SvgSaveOptions ShowPageBorder fast egendom. Styr om en ram läggs till i konturen av sidan. Standard ärSann  i C#.
+description: Upptäck egenskapen SvgSaveOptions ShowPageBorder för att anpassa din sidkontur. Kontrollera kantlinjer enkelt – standardinställningen är sann för enkel användning!
 type: docs
-weight: 80
+weight: 110
 url: /sv/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-Styr om en ram läggs till i konturen av sidan. Standard är`Sann` .
+Styr om en kantlinje läggs till i sidans kontur. Standard är`sann` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -18,12 +18,12 @@ public bool ShowPageBorder { get; set; }
 
 ## Exempel
 
-Visar hur man efterliknar egenskaperna hos bilder när man konverterar ett .docx-dokument till .svg.
+Visar hur man efterliknar bilders egenskaper när man konverterar ett .docx-dokument till .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurera SvgSaveOptions-objektet för att spara utan sidkanter eller valbar text.
+// Konfigurera SvgSaveOptions-objektet för att spara utan sidkantlinjer eller valbar text.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

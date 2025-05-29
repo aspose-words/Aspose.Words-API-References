@@ -3,14 +3,14 @@ title: Glyph.GlyphIndex
 linktitle: GlyphIndex
 articleTitle: GlyphIndex
 second_title: Aspose.Words für .NET
-description: Glyph GlyphIndex eigendom. Index der Glyphe GID in der physischen Schriftart in C#.
+description: Entdecken Sie die GlyphIndex-Eigenschaft von Glyph, die die GID in Ihrer Schriftart für präzise Typografie und verbesserte Designkontrolle identifiziert.
 type: docs
 weight: 50
 url: /de/net/aspose.words.shaping/glyph/glyphindex/
 ---
 ## Glyph.GlyphIndex property
 
-Index der Glyphe (GID) in der physischen Schriftart.
+Index des Glyphs (GID) in der physischen Schriftart.
 
 ```csharp
 public int GlyphIndex { get; }

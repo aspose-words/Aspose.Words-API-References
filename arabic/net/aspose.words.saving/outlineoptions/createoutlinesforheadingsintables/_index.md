@@ -3,14 +3,14 @@ title: OutlineOptions.CreateOutlinesForHeadingsInTables
 linktitle: CreateOutlinesForHeadingsInTables
 articleTitle: CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words لـ .NET
-description: OutlineOptions CreateOutlinesForHeadingsInTables ملكية. يحدد ما إذا كان سيتم إنشاء مخططات تفصيلية للعناوين الفقرات المنسقة باستخدام أنماط العناوين داخل الجداول أم لا في C#.
+description: اكتشف كيف تعمل خاصية CreateOutlinesForHeadingsInTables على تعزيز تنظيم الجدول من خلال تمكين الخطوط العريضة لأنماط العناوين، مما يحسن وضوح المستند.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
 ---
 ## OutlineOptions.CreateOutlinesForHeadingsInTables property
 
-يحدد ما إذا كان سيتم إنشاء مخططات تفصيلية للعناوين (الفقرات المنسقة باستخدام أنماط العناوين) داخل الجداول أم لا.
+يحدد ما إذا كان سيتم إنشاء مخططات للعناوين (الفقرات المنسقة باستخدام أنماط العناوين) داخل الجداول أم لا.
 
 ```csharp
 public bool CreateOutlinesForHeadingsInTables { get; set; }
@@ -22,14 +22,14 @@ public bool CreateOutlinesForHeadingsInTables { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء إدخالات مخطط تفصيلي لمستند PDF للعناوين داخل الجداول.
+يوضح كيفية إنشاء إدخالات مخطط مستند PDF للعناوين داخل الجداول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بثلاثة صفوف. الصف الأول،
-// الذي سنقوم بتنسيق نصه بنمط نوع العنوان، سيكون بمثابة رأس العمود.
+// أنشئ جدولًا بثلاثة صفوف. الصف الأول،
+// الذي سنقوم بتنسيق النص الخاص به بنمط نوع العنوان، سيكون بمثابة رأس العمود.
 builder.StartTable();
 builder.InsertCell();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -43,20 +43,20 @@ builder.InsertCell();
 builder.Write("Jane Doe");
 builder.EndTable();
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين في نص المستند.
-// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
+// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين الموجودة في نص المستند.
+// النقر على إدخال في هذا المخطط سيأخذنا إلى موقع العنوان الخاص به.
 // اضبط خاصية "HeadingsOutlineLevels" على "1" للحصول على المخطط التفصيلي
-// لتسجيل العناوين التي لا يزيد حجمها عن 1 فقط.
+// لتسجيل العناوين فقط بمستويات عناوين لا يزيد حجمها عن 1.
 pdfSaveOptions.OutlineOptions.HeadingsOutlineLevels = 1;
 
-// قم بتعيين الخاصية "CreateOutlinesForHeadingsInTables" على "خطأ" لاستبعاد كافة العناوين الموجودة داخل الجداول،
+// اضبط خاصية "CreateOutlinesForHeadingsInTables" على "false" لاستبعاد جميع العناوين داخل الجداول،
 // مثل الذي أنشأناه أعلاه من المخطط التفصيلي.
-// قم بتعيين الخاصية "CreateOutlinesForHeadingsInTables" على "صحيح" لتضمين كافة العناوين داخل الجداول
-// في المخطط التفصيلي، بشرط أن يكون لديهم مستوى عنوان لا يزيد عن قيمة خاصية "HeadingsOutlineLevels".
+// اضبط خاصية "CreateOutlinesForHeadingsInTables" على "true" لتضمين جميع العناوين داخل الجداول
+// في المخطط التفصيلي، بشرط أن يكون مستوى العنوان ليس أكبر من قيمة الخاصية "HeadingsOutlineLevels".
 pdfSaveOptions.OutlineOptions.CreateOutlinesForHeadingsInTables = createOutlinesForHeadingsInTables;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOptions);

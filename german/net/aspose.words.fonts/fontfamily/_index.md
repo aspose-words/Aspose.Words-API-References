@@ -3,9 +3,9 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontFamily opsomming. Stellt die Schriftfamilie dar in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Fonts.FontFamily – Ihr Schlüssel zur mühelosen Verwaltung verschiedener Schriftfamilien für eine verbesserte Gestaltung und Formatierung von Dokumenten.
 type: docs
-weight: 2910
+weight: 3340
 url: /de/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -23,17 +23,17 @@ public enum FontFamily
 | Auto | `0` | Gibt einen generischen Familiennamen an. Dieser Name wird verwendet, wenn Informationen zu einer Schriftart nicht vorhanden sind oder keine Rolle spielen. Es wird die Standardschriftart verwendet. |
 | Roman | `1` | Gibt eine proportionale Schriftart mit Serifen an. Ein Beispiel ist Times New Roman. |
 | Swiss | `2` | Gibt eine proportionale Schriftart ohne Serifen an. Ein Beispiel ist Arial. |
-| Modern | `3` | Gibt eine Monospace-Schriftart mit oder ohne Serifen an. Monospace-Schriftarten sind normalerweise modern; Beispiele sind Pica, Elite und Courier New. |
-| Script | `4` | Gibt eine Schriftart an, die wie eine Handschrift aussehen soll. Beispiele hierfür sind Script und Cursive. |
-| Decorative | `5` | Gibt eine neuartige Schriftart an. Ein Beispiel ist Altenglisch. |
+| Modern | `3` | Gibt eine Monospace-Schriftart mit oder ohne Serifen an. Monospace-Schriftarten sind in der Regel modern; Beispiele sind Pica, Elite und Courier New. |
+| Script | `4` | Gibt eine Schriftart an, die wie Handschrift aussehen soll; Beispiele hierfür sind Script und Cursive. |
+| Decorative | `5` | Gibt eine neue Schriftart an. Ein Beispiel ist Old English. |
 
 ## Bemerkungen
 
-Eine Schriftfamilie ist eine Reihe von Schriftarten mit gemeinsamen Strichstärken und Serifeneigenschaften.
+Eine Schriftfamilie ist eine Reihe von Schriftarten mit gemeinsamer Strichstärke und Serifenmerkmalen.
 
 ## Beispiele
 
-Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf die Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

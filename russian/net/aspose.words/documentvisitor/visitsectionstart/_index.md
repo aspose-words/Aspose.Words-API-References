@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSectionStart
 linktitle: VisitSectionStart
 articleTitle: VisitSectionStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitSectionStart метод. Вызывается когда начинается перечисление раздела на С#.
+description: Откройте для себя метод DocumentVisitor VisitSectionStart, необходимый для отслеживания перечисления разделов. Повысьте эффективность кодирования с помощью этого мощного инструмента!
 type: docs
 weight: 380
 url: /ru/net/aspose.words/documentvisitor/visitsectionstart/
 ---
 ## DocumentVisitor.VisitSectionStart method
 
-Вызывается, когда начинается перечисление раздела.
+Вызывается, когда началось перечисление раздела.
 
 ```csharp
 public virtual VisitorAction VisitSectionStart(Section section)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | Section | Объект, который посещается. |
+| section | Section | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 ## Примеры
 
-Показывает, как использовать посетитель документа для печати структуры узла документа.
+Показывает, как использовать посетитель документа для печати структуры узлов документа.
 
 ```csharp
 public void DocStructureToText()
@@ -34,7 +34,7 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -59,7 +59,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при обнаружении узла Document.
+    /// Вызывается при обнаружении узла документа.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -99,7 +99,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Раздела.
+    /// Вызывается после посещения всех дочерних узлов узла Section.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -175,7 +175,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Вызывается, когда в документе встречается узел SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Вызывается, когда в документе встречается узел SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

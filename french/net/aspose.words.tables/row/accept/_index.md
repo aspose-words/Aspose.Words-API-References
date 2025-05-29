@@ -3,7 +3,7 @@ title: Row.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Row Accept méthode. Accepte un visiteur en C#.
+description: Découvrez la méthode Row Accept, conçue pour améliorer l'engagement des visiteurs et rationaliser les interactions des utilisateurs pour le succès de votre site Web.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.tables/row/accept/
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) a arrêté l'opération avant de visiter tous les nœuds.
 
 ## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
-Appels[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de la section et des appels[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) à la fin.
+Appels[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de la section et les appels[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) à la fin.
 
 ## Exemples
 
-Montre comment imprimer la structure des nœuds de chaque table d'un document.
+Montre comment imprimer la structure des nœuds de chaque table dans un document.
 
 ```csharp
 public void TableToText()
@@ -42,8 +42,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
-/// Crée une carte sous la forme d'une chaîne de tous les nœuds Table rencontrés et de leurs enfants.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
+/// Crée une carte sous la forme d'une chaîne de tous les nœuds de table rencontrés et de leurs enfants.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Appelé lorsqu'un nœud Run est rencontré dans le document.
-    /// Les exécutions qui ne se trouvent pas dans les tables ne sont pas enregistrées.
+    /// Les exécutions qui ne sont pas dans les tables ne sont pas enregistrées.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -79,7 +79,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'une table est rencontrée dans le document.
+    /// Appelé lorsqu'un tableau est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -175,7 +175,7 @@ public class TableStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants de la table actuelle.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

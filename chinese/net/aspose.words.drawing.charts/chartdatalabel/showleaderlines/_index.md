@@ -2,15 +2,15 @@
 title: ChartDataLabel.ShowLeaderLines
 linktitle: ShowLeaderLines
 articleTitle: ShowLeaderLines
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabel ShowLeaderLines 财产. 允许指定是否需要显示数据标签引导线 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ChartDataLabel 中的 ShowLeaderLines 属性增强您的图表。轻松显示数据标签引线，实现更清晰的数据可视化。
 type: docs
-weight: 110
+weight: 160
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-允许指定是否需要显示数据标签引导线。 默认值为`错误的`.
+允许指定是否需要显示数据标签引线。 默认值为`错误的`.
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -18,11 +18,11 @@ public bool ShowLeaderLines { get; set; }
 
 ## 评论
 
-仅适用于饼图。 引导线在数据标签与其对应的数据点之间创建视觉连接。
+仅适用于饼图。 引线在数据标签和其对应的数据点之间创建视觉连接。
 
 ## 例子
 
-展示如何将标签应用到折线图中的数据点。
+展示如何将标签应用于折线图中的数据点。
 
 ```csharp
 public void DataLabels()
@@ -56,10 +56,13 @@ public void DataLabels()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
+    dataLabel.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
@@ -70,10 +73,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -82,7 +86,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

@@ -3,14 +3,14 @@ title: FieldToc.PageNumberOmittingLevelRange
 linktitle: PageNumberOmittingLevelRange
 articleTitle: PageNumberOmittingLevelRange
 second_title: Aspose.Words для .NET
-description: FieldToc PageNumberOmittingLevelRange свойство. Получает или задает диапазон уровней записей оглавления из которых можно опустить номера страниц на С#.
+description: Откройте для себя свойство FieldToc PageNumberOmittingLevelRange, чтобы настроить оглавление, исключив номера страниц для определенных уровней ввода.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 ---
 ## FieldToc.PageNumberOmittingLevelRange property
 
-Получает или задает диапазон уровней записей оглавления, из которых можно опустить номера страниц.
+Возвращает или задает диапазон уровней записей оглавления, из которых следует исключить номера страниц.
 
 ```csharp
 public string PageNumberOmittingLevelRange { get; set; }
@@ -28,30 +28,30 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // Вставьте поле оглавления, которое объединит все заголовки в оглавление.
-    // Для каждого заголовка это поле создаст строку с текстом этого стиля заголовка слева,
+    // Вставьте поле TOC, которое объединит все заголовки в оглавление.
+    // Для каждого заголовка это поле создаст строку с текстом в этом стиле заголовка слева,
     // и страница, на которой заголовок отображается справа.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Используйте свойство BookmarkName, чтобы отображать только заголовки
+    // Используйте свойство BookmarkName только для перечисления заголовков
     // которые появляются в пределах закладки с именем «MyBookmark».
     field.BookmarkName = "MyBookmark";
 
-    // Текст со встроенным стилем заголовка, например «Заголовок 1», примененный к нему, будет считаться заголовком.
-    // Мы можем назвать дополнительные стили, которые будут выбраны в качестве заголовков по оглавлению в этом свойстве и их уровням оглавления.
+    // Текст со встроенным стилем заголовка, например «Заголовок 1», примененным к нему, будет считаться заголовком.
+    // В этом свойстве мы можем указать дополнительные стили, которые будут использоваться в качестве заголовков оглавлением, а также их уровни оглавления.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // По умолчанию уровни Styles/TOC разделяются в свойстве CustomStyles запятой,
-    // но мы можем установить в этом свойстве собственный разделитель.
+    // По умолчанию уровни стилей/TOC разделяются в свойстве CustomStyles запятой,
+    // но мы можем установить пользовательский разделитель в этом свойстве.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // Настройте поле, чтобы исключить любые заголовки, содержание содержания которых выходит за пределы этого диапазона.
+    // Настройте поле, чтобы исключить все заголовки, уровни TOC которых выходят за пределы этого диапазона.
     field.HeadingLevelRange = "1-3";
 
-    // Содержание не будет отображать номера страниц заголовков, уровни содержания которых находятся в этом диапазоне.
+    // TOC не будет отображать номера страниц заголовков, уровни TOC которых находятся в этом диапазоне.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // Установите специальную строку, которая будет отделять каждый заголовок от номера страницы.
+     // Задайте пользовательскую строку, которая будет отделять каждый заголовок от номера страницы.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -65,7 +65,7 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // В этих двух заголовках номера страниц будут опущены, поскольку они находятся в диапазоне «2–5».
+    // В этих двух заголовках номера страниц будут опущены, поскольку они находятся в диапазоне «2-5».
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
@@ -86,7 +86,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// Начните новую страницу и вставьте абзац указанного стиля.
+/// Начать новую страницу и вставить абзац указанного стиля.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

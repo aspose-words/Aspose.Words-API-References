@@ -2,15 +2,15 @@
 title: PageSetup.SuppressEndnotes
 linktitle: SuppressEndnotes
 articleTitle: SuppressEndnotes
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup SuppressEndnotes 财产. 如果尾注打印在下一个不抑制尾注的部分的末尾则为 True 抑制的尾注将在该部分中的尾注之前打印 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 PageSetup SuppressEndnotes 属性如何通过控制尾注位置来增强文档布局，从而使各个部分更加清晰、有条理。
 type: docs
 weight: 410
 url: /zh/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-如果尾注打印在下一个不抑制尾注的部分的末尾，则为 True。 抑制的尾注将在该部分中的尾注之前打印。
+如果尾注打印在下一节的末尾，且该节不抑制尾注，则为真。 抑制的尾注将打印在该节的尾注之前。
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -18,7 +18,7 @@ public bool SuppressEndnotes { get; set; }
 
 ## 例子
 
-展示如何在每个部分的末尾存储尾注并修改它们的位置。
+展示如何在每节末尾存储尾注，并修改其位置。
 
 ```csharp
 public void SuppressEndnotes()
@@ -26,20 +26,20 @@ public void SuppressEndnotes()
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-     // 默认情况下，文档在其末尾编译所有尾注。
+     // 默认情况下，文档会在末尾编译所有尾注。
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // 我们使用文档的“EndnoteOptions”对象的“Position”属性
-    // 在每个部分的末尾收集尾注。
+    // 我们使用文档“EndnoteOptions”对象的“Position”属性
+    // 而是在每个部分的末尾收集尾注。
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // 在让节显示各自的尾注时，我们可以设置“SuppressEndnotes”标志
-    // 将某个部分的“PageSetup”对象设置为“true”以恢复默认行为并传递其尾注
-    // 进入下一节。
+    // 在让各部分显示各自的尾注时，我们可以设置“SuppressEndnotes”标志
+    // 将章节的“PageSetup”对象设置为“true”，以恢复默认行为并传递其尾注
+    // 进入下一部分。
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -47,7 +47,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// 将包含文本和尾注的部分附加到文档中。
+/// 将包含文本和尾注的部分附加到文档。
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

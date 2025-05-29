@@ -2,8 +2,8 @@
 title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
-second_title: Aspose.Words for .NET
-description: FieldMergingArgsBase FieldName mülk. Veri kaynağındaki birleştirme alanının adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz entegrasyon için birleştirme alan adını veri kaynağınızdan alan FieldMergingArgsBase'in FieldName özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -18,13 +18,13 @@ public string FieldName { get; }
 
 ## Notlar
 
-Bir belge alanı adından farklı bir veri kaynağı alan adına ( ) eşlemeniz varsa bu, eşlenen alan adıdır.
+Bir belge alan adından farklı bir veri kaynağı alan adına eşlemeniz varsa, bu eşlenen alan adıdır.
 
-Belgede "Resim:AlanAdım" gibi bir alan adı öneki belirttiyseniz, ardından`FieldName` "AlanAdım" öneki olmadan alan adını döndürür.
+Örneğin belgede "Image:MyFieldName" gibi bir alan adı öneki belirttiyseniz, o zaman`FieldName` önek olmadan alan adını, yani "MyFieldName"i döndürür.
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında onay kutusu form alanlarının MERGEFIELD'lere birleştirme verileri olarak nasıl ekleneceğini gösterir.
+Posta birleştirme sırasında MERGEFIELD'lara birleştirme verisi olarak onay kutusu form alanlarının nasıl ekleneceğini gösterir.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,7 +32,7 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Adres-mektup birleştirme bölgesini tanımlamak için MERGEFIELD'leri "TableStart"/"TableEnd" etiketleriyle kullanın
+    // Bir posta birleştirme bölgesini tanımlamak için "TableStart"/"TableEnd" etiketleriyle MERGEFIELD'leri kullanın
     // "StudentCourse" adlı bir veri kaynağına ait olan ve "CourseName" adlı bir sütundan veri kabul eden bir MERGEFIELD'a sahip olan.
     builder.StartTable();
     builder.InsertCell();
@@ -52,12 +52,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Belirli bir ada sahip bir MERGEFIELD ile karşılaşıldığında, birleştirme verileri metni yerine bir onay kutusu form alanı ekler.
+/// Belirli bir ada sahip bir MERGEFIELD ile karşılaşıldığında, birleştirme veri metni yerine bir onay kutusu form alanı ekler.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Bir posta birleştirme işlemi verileri bir MERGEFIELD'a birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -71,7 +71,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // Bu durumda her kayıt indeksi 'n' için karşılık gelen alan değeri "Ders n" olur.
+            // Bu durumda her kayıt indeksi 'n' için karşılık gelen alan değeri "Course n"dir.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -81,14 +81,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// Adres-mektup birleştirme veri kaynağı oluşturur.
+/// Bir posta birleştirme veri kaynağı oluşturur.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

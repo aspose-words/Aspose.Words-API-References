@@ -2,15 +2,15 @@
 title: LayoutEnumerator.MoveNextLogical
 linktitle: MoveNextLogical
 articleTitle: MoveNextLogical
-second_title: 用于 .NET 的 Aspose.Words
-description: LayoutEnumerator MoveNextLogical 方法. 按逻辑顺序移动到下一个同级实体 当迭代跨页的段落行时此方法 将移动到下一行即使它驻留在另一页上 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 LayoutEnumerator MoveNextLogical 方法如何无缝导航同级实体，确保跨页面段落行的平滑迭代。
 type: docs
 weight: 130
 url: /zh/net/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
 ## LayoutEnumerator.MoveNextLogical method
 
-按逻辑顺序移动到下一个同级实体。 当迭代跨页的段落行时，此方法 将移动到下一行，即使它驻留在另一页上。
+按逻辑顺序移动到下一个同级实体。 当迭代跨页的段落行时，此方法 将移动到下一行，即使它位于另一个页面上。
 
 ```csharp
 public bool MoveNextLogical()
@@ -18,7 +18,7 @@ public bool MoveNextLogical()
 
 ## 评论
 
-请注意，所有Span实体链接在一起，因此如果[`Current`](../current/) 实体是跨度的，重复调用此方法将迭代文档的完整故事。
+请注意，所有Span实体链接在一起，因此如果[`Current`](../current/) 实体是跨度重复调用此方法将迭代文档的完整故事。
 
 ## 例子
 
@@ -27,12 +27,12 @@ public bool MoveNextLogical()
 ```csharp
 public void LayoutEnumerator()
 {
-    // 打开包含各种布局实体的文档。
+    // 打开包含多种布局实体的文档。
     // 布局实体是页面、单元格、行、线以及 LayoutEntityType 枚举中包含的其他对象。
-    // 每个布局实体在文档正文中都有一个占据的矩形空间。
+    // 每个布局实体在文档主体中占据一个矩形空间。
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // 创建一个枚举器，可以像树一样遍历这些实体。
+    // 创建一个可以像树一样遍历这些实体的枚举器。
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -45,20 +45,20 @@ public void LayoutEnumerator()
     // 我们可以调用此方法来确保枚举器位于第一个布局实体。
     layoutEnumerator.Reset();
 
-    // 有两个顺序决定布局枚举器如何继续遍历布局实体
-    // 当遇到跨多个页面的实体时。
+    // 有两种顺序决定布局枚举器如何继续遍历布局实体
+    // 当遇到跨越多个页面的实体时。
     // 1 - 按视觉顺序：
-    // 当在跨多个页面的实体子级之间移动时，
-    // 页面布局优先，我们移动到此页面上的其他子元素并避免下一个页面上的子元素。
+    // 当跨多个页面移动实体的子实体时，
+    // 页面布局优先，我们移动到此页面上的其他子元素并避开下一页的子元素。
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // 我们的枚举器现在位于集合的末尾。我们可以向后遍历布局实体以回到开头。
+    // 我们的枚举器现在位于集合的末尾。我们可以反向遍历布局实体，回到集合的开头。
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - 按逻辑顺序：
-    // 当在跨多个页面的实体子级之间移动时，
+    // 当跨多个页面移动实体的子实体时，
     // 枚举器将在页面之间移动以遍历所有子实体。
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -68,8 +68,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从前到后枚举，
-/// 以深度优先的方式，并按照“视觉”顺序。
+/// 从前到后枚举layoutEnumerator的布局实体集合，
+/// 以深度优先的方式，按照“视觉”顺序。
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -86,8 +86,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从后往前枚举，
-/// 以深度优先的方式，并按照“视觉”顺序。
+/// 从后到前遍历layoutEnumerator的布局实体集合，
+/// 以深度优先的方式，按照“视觉”顺序。
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -104,7 +104,7 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从前到后枚举，
+/// 从前到后枚举layoutEnumerator的布局实体集合，
 /// 以深度优先的方式，并按照“逻辑”顺序。
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
@@ -122,7 +122,7 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从后往前枚举，
+/// 从后到前遍历layoutEnumerator的布局实体集合，
 /// 以深度优先的方式，并按照“逻辑”顺序。
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
@@ -140,8 +140,8 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// 将layoutEnumerator当前实体的信息打印到控制台，同时使用制表符缩进文本
-/// 基于其相对于我们在构造函数 LayoutEnumerator 实例中提供的根节点的深度。
+/// 将有关layoutEnumerator当前实体的信息打印到控制台，同时使用制表符缩进文本
+/// 基于我们在构造函数 LayoutEnumerator 实例中提供的相对于根节点的深度。
 /// 我们最后处理的矩形代表实体在文档中占据的区域和位置。
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)

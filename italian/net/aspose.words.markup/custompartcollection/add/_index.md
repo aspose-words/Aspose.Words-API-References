@@ -3,14 +3,14 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: CustomPartCollection Add metodo. Aggiunge un elemento alla raccolta in C#.
+description: Migliora il tuo progetto senza sforzo con il metodo CustomPartCollection Add: aggiungi rapidamente elementi alla tua raccolta per un'integrazione perfetta ed efficiente.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/custompartcollection/add/
 ---
 ## CustomPartCollection.Add method
 
-Aggiunge un elemento alla raccolta.
+Aggiunge un elemento alla collezione.
 
 ```csharp
 public void Add(CustomPart part)
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

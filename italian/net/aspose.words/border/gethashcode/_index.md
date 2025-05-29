@@ -3,7 +3,7 @@ title: Border.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words per .NET
-description: Border GetHashCode metodo. Serve come funzione hash per questo tipo in C#.
+description: Scopri il metodo Border GetHashCode, una potente funzione hash che migliora l'integrità dei dati e le prestazioni delle tue applicazioni. Sfrutta il suo potenziale oggi stesso!
 type: docs
 weight: 110
 url: /it/net/aspose.words/border/gethashcode/
@@ -28,7 +28,7 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Poiché abbiamo utilizzato la stessa configurazione del bordo durante la creazione
-// questi paragrafi, le loro raccolte di bordi condividono gli stessi elementi.
+// in questi paragrafi, le raccolte dei bordi condividono gli stessi elementi.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -42,13 +42,13 @@ foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
 // Dopo aver modificato lo stile della linea dei bordi solo nel secondo paragrafo,
-// le raccolte border non condividono più gli stessi elementi.
+// le raccolte di bordi non condividono più gli stessi elementi.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Cambiare l'aspetto di un bordo vuoto lo rende visibile.
+    // Modificando l'aspetto di un bordo vuoto, lo si rende visibile.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

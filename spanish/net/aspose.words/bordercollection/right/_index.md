@@ -3,7 +3,7 @@ title: BorderCollection.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words para .NET
-description: BorderCollection Right propiedad. Obtiene el borde derecho en C#.
+description: Descubre la propiedad BorderCollection Right para un control preciso de los bordes en tus diseños. ¡Mejora tus diseños con el borde perfecto en todo momento!
 type: docs
 weight: 100
 url: /es/net/aspose.words/bordercollection/right/
@@ -18,13 +18,13 @@ public Border Right { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
+Muestra cómo aplicar colores de borde y sombreado al crear una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicia una tabla y establece un color/grosor predeterminado para sus bordes.
+// Inicia una tabla y establece un color y grosor predeterminado para sus bordes.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -38,7 +38,7 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Restablecer el formato de celda para deshabilitar los colores de fondo
-// establece un grosor de borde personalizado para todas las celdas nuevas creadas por el constructor,
+// Establezca un grosor de borde personalizado para todas las celdas nuevas creadas por el generador,
 // luego construye una segunda fila.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

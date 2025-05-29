@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitShapeEnd yöntem. Bir şeklin numaralandırılması sona erdiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda şekil numaralandırmasını yönetmek için gerekli olan DocumentVisitor VisitShapeEnd yöntemini keşfedin. Kodlama verimliliğinizi bugün artırın!
 type: docs
 weight: 390
 url: /tr/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
-Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve içeriklerinin bir belge ziyaretçisi kullanılarak nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "İlkel Olmayan" şekiller oluşturmanız gerekiyorsa,
     // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
-    // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
+    // Lütfen DocumentBuilder.InsertShape metotlarını kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

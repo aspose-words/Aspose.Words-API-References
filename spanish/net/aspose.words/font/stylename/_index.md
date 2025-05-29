@@ -3,9 +3,9 @@ title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words para .NET
-description: Font StyleName propiedad. Obtiene o establece el nombre del estilo de carácter aplicado a este formato en C#.
+description: Descubra la propiedad Font StyleName, administre fácilmente los estilos de caracteres para mejorar el formato de texto y la flexibilidad de diseño en sus proyectos.
 type: docs
-weight: 420
+weight: 430
 url: /es/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
@@ -24,7 +24,7 @@ Muestra cómo cambiar el estilo del texto existente.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran dos formas de hacer referencia a estilos.
+//A continuación se muestran dos formas de hacer referencia a los estilos.
 // 1 - Usando el nombre del estilo:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
@@ -34,8 +34,8 @@ builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Convertir todos los usos de un estilo a otro,
-// usando los métodos anteriores para hacer referencia a estilos nuevos y antiguos.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// utilizando los métodos anteriores para hacer referencia a estilos antiguos y nuevos.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

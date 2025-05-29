@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFootnoteEnd
 linktitle: VisitFootnoteEnd
 articleTitle: VisitFootnoteEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitFootnoteEnd метод. Вызывается когда перечисление текста сноски или концевой сноски завершено на С#.
+description: Откройте для себя метод DocumentVisitor VisitFootnoteEnd, необходимый для эффективной обработки перечисления текста сносок и концевых сносок в ваших приложениях.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| footnote | Footnote | Объект, который посещается. |
+| footnote | Footnote | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -44,7 +44,7 @@ public void FootnoteToText()
 
 /// <summary>
 /// Обходит недвоичное дерево дочерних узлов узла.
-/// Создает карту в виде строки всех встреченных узлов Footnote и их дочерних элементов.
+/// Создает карту в виде строки всех встреченных узлов сносок и их дочерних элементов.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

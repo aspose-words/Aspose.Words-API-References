@@ -3,14 +3,14 @@ title: BorderCollection.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words för .NET
-description: BorderCollection Horizontal fast egendom. Hämtar den horisontella ram som används mellan celler eller överensstämmande stycken i C#.
+description: Upptäck egenskapen BorderCollection Horisontell för sömlösa cell- och styckekantlinjer. Förbättra din layout med perfekt justering och stil!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-Hämtar den horisontella ram som används mellan celler eller överensstämmande stycken.
+Hämtar den horisontella kantlinjen som används mellan celler eller överensstämmande stycken.
 
 ```csharp
 public Border Horizontal { get; }
@@ -18,30 +18,30 @@ public Border Horizontal { get; }
 
 ## Exempel
 
-Visar hur man tillämpar inställningar på horisontella ramar på ett styckes format.
+Visar hur man tillämpar inställningar på horisontella kantlinjer i ett styckes format.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en röd horisontell ram för stycket. Alla stycken som skapas efteråt kommer att ärva dessa raminställningar.
+// Skapa en röd horisontell ram runt stycket. Alla stycken som skapas efteråt kommer att ärva dessa raminställningar.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
 // Skriv text till dokumentet utan att skapa ett nytt stycke efteråt.
-// Eftersom det inte finns något stycke under, kommer den horisontella gränsen inte att vara synlig.
+// Eftersom det inte finns något stycke under kommer den horisontella ramen inte att synas.
 builder.Write("Paragraph above horizontal border.");
 
-// När vi lägger till ett andra stycke, kommer gränsen för det första stycket att bli synlig.
+// När vi lägger till ett andra stycke kommer ramen för det första stycket att synas.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Visar hur man tillämpar inställningar på vertikala ramar på en tabellrads format.
+Visar hur man tillämpar inställningar på vertikala kantlinjer i en tabellrads format.
 
 ```csharp
 Document doc = new Document();
@@ -60,18 +60,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Justera utseendet på kanter som kommer att visas mellan rader.
+    // Justera utseendet på kantlinjer som ska visas mellan rader.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Justera utseendet på kanter som kommer att visas mellan celler.
+    // Justera utseendet på kantlinjer som ska visas mellan celler.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Ett radformat och en cells inre stycke använder olika raminställningar.
+// Ett radformat och ett cells inre stycke använder olika kantlinjer.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

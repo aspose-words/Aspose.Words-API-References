@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words per .NET
-description: FieldIncludePicture ResizeVertically proprietà. Ottiene o imposta se ridimensionare verticalmente limmagine dallorigine in C#.
+description: Scopri come la proprietà ResizeVertically di FieldIncludePicture migliora la gestione delle immagini consentendo il ridimensionamento verticale per una visualizzazione ottimale.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Ottiene o imposta se ridimensionare verticalmente l'immagine dall'origine.
+Ottiene o imposta se ridimensionare l'immagine verticalmente rispetto alla sorgente.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -24,7 +24,7 @@ Mostra come inserire immagini utilizzando i campi IMPORT e INCLUDEPICTURE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due tipi di campo simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
+// Di seguito sono riportati due tipi di campi simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
 // 1 - Il campo INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

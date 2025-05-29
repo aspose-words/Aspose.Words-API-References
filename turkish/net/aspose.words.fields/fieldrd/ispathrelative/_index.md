@@ -2,15 +2,15 @@
 title: FieldRD.IsPathRelative
 linktitle: IsPathRelative
 articleTitle: IsPathRelative
-second_title: Aspose.Words for .NET
-description: FieldRD IsPathRelative mülk. Yolun geçerli belgeye göre olup olmadığını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yollarını kolayca yönetmek için FieldRD'nin IsPathRelative özelliğini keşfedin. Gelişmiş verimlilik için esnek yol ayarlarıyla kodlamanızı basitleştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldrd/ispathrelative/
 ---
 ## FieldRD.IsPathRelative property
 
-Yolun geçerli belgeye göre olup olmadığını alır veya ayarlar.
+Yolun geçerli belgeye göreli olup olmadığını alır veya ayarlar.
 
 ```csharp
 public bool IsPathRelative { get; set; }
@@ -18,28 +18,28 @@ public bool IsPathRelative { get; set; }
 
 ## Örnekler
 
-Diğer belgelerdeki başlıklardan bir içindekiler tablosu girişleri oluşturmak için RD alanının nasıl kullanılacağını gösterir.
+Diğer belgelerdeki başlıklardan bir içerik tablosu girişi oluşturmak için RD alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // İçindekiler tablosu eklemek için bir belge oluşturucu kullanın,
-// ve ardından sonraki sayfadaki içindekiler tablosu için bir giriş ekleyin.
+// ve ardından bir sonraki sayfadaki içerik tablosuna bir giriş ekleyin.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
 // FileName özelliğinde başka bir yerel dosya sistemi belgesine başvuran bir RD alanı ekleyin.
-// TOC artık başvurulan belgedeki tüm başlıkları kendi tablosuna giriş olarak kabul edecektir.
+// İçindekiler tablosu artık başvurulan belgedeki tüm başlıkları tablosuna giriş olarak kabul edecektir.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
- // RD alanının referans aldığı belgeyi oluşturun ve bir başlık ekleyin.
-// Bu başlık ilk belgemizdeki TOC alanında bir giriş olarak görünecektir.
+ // RD alanının başvurduğu belgeyi oluştur ve bir başlık ekle.
+// Bu başlık ilk belgemizin İçindekiler alanında bir giriş olarak gösterilecektir.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

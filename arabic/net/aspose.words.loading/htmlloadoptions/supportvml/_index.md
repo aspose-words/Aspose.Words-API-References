@@ -3,14 +3,14 @@ title: HtmlLoadOptions.SupportVml
 linktitle: SupportVml
 articleTitle: SupportVml
 second_title: Aspose.Words لـ .NET
-description: HtmlLoadOptions SupportVml ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم دعم صور VML أم لا في C#.
+description: اكتشف كيف تعمل خاصية HtmlLoadOptions SupportVml على تحسين تجربة الويب الخاصة بك من خلال تمكين دعم صورة VML لتحسين جودة الرسومات.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property
 
-الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم دعم صور VML أم لا.
+يحصل على قيمة تشير إلى ما إذا كان سيتم دعم صور VML أم لا أو تعيينها.
 
 ```csharp
 public bool SupportVml { get; set; }
@@ -23,13 +23,13 @@ public bool SupportVml { get; set; }
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// إذا كانت القيمة صحيحة، فسنأخذ رمز VML في الاعتبار أثناء تحليل المستند الذي تم تحميله.
+// إذا كانت القيمة صحيحة، فإننا نأخذ كود VML في الاعتبار أثناء تحليل المستند المحمّل.
 loadOptions.SupportVml = supportVml;
 
-// يحتوي هذا المستند على صورة JPEG داخل "<!--[if gte vml 1]>" العلامات,
-// وصورة PNG مختلفة داخل "<![if !vml]>" العلامات.
-// إذا قمنا بتعيين علامة "SupportVml" على "صحيح"، فسيقوم Aspose.Words بتحميل ملف JPEG.
-// إذا قمنا بتعيين هذه العلامة على "خطأ"، فسيقوم Aspose.Words بتحميل ملف PNG فقط.
+// تحتوي هذه الوثيقة على صورة JPEG ضمن علامات "<!--[if gte vml 1]>"،
+// وصورة PNG مختلفة ضمن علامات "<![if !vml]>".
+// إذا قمنا بتعيين علامة "SupportVml" إلى "true"، فسوف يقوم Aspose.Words بتحميل ملف JPEG.
+// إذا قمنا بتعيين هذا العلم إلى "false"، فسوف يقوم Aspose.Words بتحميل PNG فقط.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)

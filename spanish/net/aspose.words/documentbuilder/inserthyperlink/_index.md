@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertHyperlink método. Inserta un hipervínculo en el documento en C#.
+description: Mejore sus documentos con el método InsertHyperlink de DocumentBuilder, agregando sin esfuerzo enlaces en los que se puede hacer clic para mejorar la navegación y la participación del usuario.
 type: docs
-weight: 360
+weight: 390
 url: /es/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -19,8 +19,8 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | displayText | String | Texto del enlace que se mostrará en el documento. |
-| urlOrBookmark | String | Destino del enlace. Puede ser una URL o el nombre de un marcador dentro del documento. Este método siempre agrega apóstrofos al principio y al final de la URL. |
-| isBookmark | Boolean | `verdadero` si el parámetro anterior es el nombre de un marcador dentro del documento; `FALSO` es el parámetro anterior es una URL. |
+| urlOrBookmark | String | Destino del enlace. Puede ser una URL o el nombre de un marcador dentro del documento. Este método siempre añade apóstrofes al principio y al final de la URL. |
+| isBookmark | Boolean | `verdadero` si el parámetro anterior es un nombre de un marcador dentro del documento; `FALSO` El parámetro anterior es una URL. |
 
 ### Valor_devuelto
 
@@ -28,31 +28,11 @@ A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo i
 
 ## Observaciones
 
-Tenga en cuenta que debe especificar el formato de fuente para el texto mostrado del hipervínculo explícitamente usando el[`Font`](../font/) propiedad.
+Tenga en cuenta que debe especificar el formato de fuente para el texto que se muestra en el hipervínculo explícitamente utilizando el[`Font`](../font/) propiedad.
 
-Este método llama internamente[`InsertField`](../insertfield/) para insertar un HIPERVÍNCULO de MS Word field en el documento.
+Este método llama internamente[`InsertField`](../insertfield/)para insertar un campo HIPERVÍNCULO de MS Word en el documento.
 
 ## Ejemplos
-
-Muestra cómo insertar un hipervínculo que haga referencia a un marcador local.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.StartBookmark("Bookmark1");
-builder.Write("Bookmarked text. ");
-builder.EndBookmark("Bookmark1");
-builder.Writeln("Text outside of the bookmark.");
-
-// Inserta un campo HIPERVÍNCULO que enlace al marcador. Podemos pasar interruptores de campo.
-// al método "InsertHyperlink" como parte del argumento que contiene el nombre del marcador al que se hace referencia.
-builder.Font.Color = Color.Blue;
-builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
-```
 
 Muestra cómo insertar un campo de hipervínculo.
 
@@ -62,7 +42,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserta un hipervínculo y enfatízalo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
@@ -74,7 +54,28 @@ builder.Writeln(".");
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
-Muestra cómo utilizar la pila de formato del generador de documentos.
+Muestra cómo insertar un hipervínculo que hace referencia a un marcador local.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.StartBookmark("Bookmark1");
+builder.Write("Bookmarked text. ");
+builder.EndBookmark("Bookmark1");
+builder.Writeln("Text outside of the bookmark.");
+
+// Insertar un campo HIPERVÍNCULO que enlaza al marcador. Podemos pasar modificadores de campo.
+// al método "InsertHyperlink" como parte del argumento que contiene el nombre del marcador referenciado.
+builder.Font.Color = Color.Blue;
+builder.Font.Underline = Underline.Single;
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+```
+
+Muestra cómo utilizar la pila de formato de un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -85,10 +86,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Preserva nuestra configuración de formato actual en la pila.
+// Conservamos nuestra configuración de formato actual en la pila.
 builder.PushFont();
 
-// Modificar el formato actual del constructor aplicando un nuevo estilo.
+// Modifique el formato actual del constructor aplicando un nuevo estilo.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", falso);
 

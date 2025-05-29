@@ -3,14 +3,14 @@ title: ListLabel.LabelValue
 linktitle: LabelValue
 articleTitle: LabelValue
 second_title: Aspose.Words لـ .NET
-description: ListLabel LabelValue ملكية. الحصول على قيمة رقمية لهذه التسمية في C#.
+description: اكتشف خاصية ListLabel LabelValue لاسترداد القيم الرقمية للعلامات بسهولة، مما يعزز كفاءة إدارة البيانات وإعداد التقارير.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listlabel/labelvalue/
 ---
 ## ListLabel.LabelValue property
 
-الحصول على قيمة رقمية لهذه التسمية.
+يحصل على قيمة عددية لهذه العلامة.
 
 ```csharp
 public int LabelValue { get; }
@@ -22,7 +22,7 @@ public int LabelValue { get; }
 
 ## أمثلة
 
-يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
+يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تعد عناصر قائمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -30,24 +30,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// اكتشف ما إذا كان لدينا قائمة الفقرات. في وثيقتنا، تستخدم قائمتنا أرقامًا عربية بسيطة،
-// والتي تبدأ عند الثالثة وتنتهي عند السادسة.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+// ابحث إن كانت لدينا قائمة الفقرات. في مستندنا، تستخدم قائمتنا أرقامًا عربية بسيطة،
+// والتي تبدأ عند ثلاثة وتنتهي عند ستة.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // هذا هو النص الذي نحصل عليه عند إخراج هذه العقدة إلى تنسيق النص.
-     // سيؤدي إخراج النص هذا إلى حذف تسميات القائمة. قم بقص أي أحرف بتنسيق الفقرة.
+    // هذا هو النص الذي نحصل عليه عندما نخرج هذه العقدة إلى تنسيق نصي.
+     // سيحذف هذا النص تسميات القائمة. قم بقص أي أحرف تنسيق للفقرات.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // يؤدي هذا إلى الحصول على موضع الفقرة في المستوى الحالي من القائمة. إذا كان لدينا قائمة ذات مستويات متعددة،
-    // هذا سيخبرنا عن موقعه على هذا المستوى.
+    // يُحدد هذا موضع الفقرة في المستوى الحالي من القائمة. إذا كانت لدينا قائمة ذات مستويات متعددة،
+    // هذا سيخبرنا ما هو الموضع على هذا المستوى.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // اجمعها معًا لتضمين تسمية القائمة مع النص الموجود في الإخراج.
+    // قم بدمجهما معًا لتضمين تسمية القائمة مع النص في الإخراج.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

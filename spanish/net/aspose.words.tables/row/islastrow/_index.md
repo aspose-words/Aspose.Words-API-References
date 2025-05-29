@@ -3,7 +3,7 @@ title: Row.IsLastRow
 linktitle: IsLastRow
 articleTitle: IsLastRow
 second_title: Aspose.Words para .NET
-description: Row IsLastRow propiedad. Verdadero si esta es la última fila de una tabla falso en caso contrario en C#.
+description: Descubra la propiedad Row IsLastRow. Identifique fácilmente si una fila es la última de una tabla para optimizar la gestión de datos y optimizar la programación.
 type: docs
 weight: 50
 url: /es/net/aspose.words.tables/row/islastrow/
@@ -18,16 +18,16 @@ public bool IsLastRow { get; }
 
 ## Ejemplos
 
-Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
+Muestra cómo preparar una mesa para permanecer juntos en la misma página.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Habilitando KeepWithNext para cada párrafo de la tabla excepto el
-// los últimos en la última fila evitarán que la tabla se divida en varias páginas.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Habilitar KeepWithNext para cada párrafo de la tabla excepto el
+// Los últimos en la última fila evitarán que la tabla se divida en varias páginas.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

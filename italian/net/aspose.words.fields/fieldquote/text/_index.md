@@ -3,7 +3,7 @@ title: FieldQuote.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: FieldQuote Text proprietà. Ottiene o imposta il testo da recuperare in C#.
+description: Proprietà Testo FieldQuote. Recupera o imposta facilmente il testo per una gestione dati avanzata. Semplifica il tuo flusso di lavoro con questa potente funzionalità!
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldquote/text/
@@ -18,21 +18,21 @@ public string Text { get; set; }
 
 ## Esempi
 
-Mostra di utilizzare il campo QUOTE.
+Mostra come utilizzare il campo CITAZIONE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo QUOTE, che visualizzerà il valore della sua proprietà Text.
+// Inserire un campo QUOTE, che visualizzerà il valore della sua proprietà Text.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// Inserisci un campo QUOTE e nidifica un campo DATA al suo interno.
+// Inserire un campo QUOTE e annidare al suo interno un campo DATE.
 // I campi DATA aggiornano il loro valore alla data corrente ogni volta che apriamo il documento utilizzando Microsoft Word.
-// Nidificare il campo DATA all'interno del campo QUOTE in questo modo ne congelerà il valore
+// Annidare il campo DATA all'interno del campo QUOTE in questo modo ne bloccherà il valore
 // alla data in cui abbiamo creato il documento.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);

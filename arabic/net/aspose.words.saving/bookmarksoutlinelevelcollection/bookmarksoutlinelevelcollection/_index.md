@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words لـ .NET
-description: BookmarksOutlineLevelCollection البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ BookmarksOutlineLevelCollection - مفتاحك لإنشاء إشارات مرجعية منظمة بسهولة. حسّن مهاراتك البرمجية مع هذا الحل الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/

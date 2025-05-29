@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words för .NET
-description: PageLayoutCallbackArgs PageIndex fast egendom. Får 0baserat index för sidan i dokumentet som denna händelse relaterar till. Returnerar negativt värde om det inte finns någon associerad sida eller om sidan togs bort under återflöde i C#.
+description: Upptäck PageIndex-egenskapen i PageLayoutCallbackArgs, som tillhandahåller det 0-baserade indexet för den relaterade dokumentsidan. Få noggranna insikter om sidspårning och omflöde!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-Får 0-baserat index för sidan i dokumentet som denna händelse relaterar till. Returnerar negativt värde om det inte finns någon associerad sida, eller om sidan togs bort under återflöde.
+Hämtar ett 0-baserat index för sidan i dokumentet som denna händelse relaterar till. Returnerar ett negativt värde om det inte finns någon associerad sida, eller om sidan togs bort under omflödet.
 
 ```csharp
 public int PageIndex { get; }
@@ -18,7 +18,7 @@ public int PageIndex { get; }
 
 ## Exempel
 
-Visar hur man spårar layoutändringar med en layoutåteruppringning.
+Visar hur man spårar layoutändringar med ett layoutåteranrop.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Meddelar oss när vi sparar dokumentet till ett fast sidformat
-/// och renderar en sida som vi utför ett sidflöde på till en bild i det lokala filsystemet.
+/// och renderar en sida som vi utför en sidflödesomflöde på till en bild i det lokala filsystemet.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

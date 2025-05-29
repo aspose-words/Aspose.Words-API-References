@@ -2,10 +2,10 @@
 title: XamlFlowSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET
-description: XamlFlowSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXamlFlow  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi XamlFlow formatında kolayca kaydetmek için XamlFlowSaveOptions SaveFormat özelliğini keşfedin. Bu temel özellik ile iş akışınızı optimize edin!
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
 ---
 ## XamlFlowSaveOptions.SaveFormat property
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Örnekler
 
-Bir belgeyi akış formu .xaml'e dönüştürürken oluşturulan bağlantılı görüntülerin dosya adlarının nasıl yazdırılacağını gösterir.
+Bir belgenin akış biçimindeki .xaml'e dönüştürülmesi sırasında oluşturulan bağlantılı resimlerin dosya adlarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void ImageFolder()
@@ -27,24 +27,24 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "XamlFlowSaveOptions" nesnesi oluşturun
-    // belgeyi XAML kaydetme biçimine nasıl kaydedeceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "XamlFlowSaveOptions" nesnesi oluşturun
+    // Belgeyi XAML kaydetme biçimine nasıl kaydedeceğimizi değiştirmek için.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Yerel dosya sisteminde içine bir klasör atamak için "ImagesFolder" özelliğini kullanın.
-    // Aspose.Words belgenin tüm bağlantılı görsellerini kaydedecektir.
+    // Yerel dosya sistemindeki bir klasörü atamak için "ImagesFolder" özelliğini kullanın.
+    // Aspose.Words belgenin tüm bağlantılı resimlerini kaydedecektir.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // Bu klasörü kullanmak için "ImagesFolderAlias" özelliğini kullanın
-    // resimler klasörünün adı yerine resim URI'lerini oluştururken.
+    // images klasörünün adı yerine image URI'leri oluşturulurken.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // "ImagesFolderAlias" tarafından belirtilen bir klasörün "ImagesFolder" yerine kaynakları içermesi gerekecektir.
-    // Geri çağrının akışlarının kaynaklarını klasöre koymadan önce klasörün var olduğundan emin olmalıyız.
+    // "ImagesFolderAlias" ile belirtilen bir klasörün "ImagesFolder" yerine kaynakları içermesi gerekecektir.
+    // Geri arama akışlarının kaynaklarını içine koyabilmesi için klasörün var olduğundan emin olmalıyız.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFlowSaveOptions.ImageFolder.xaml", options);
@@ -54,7 +54,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Ana belgeleri flow-form .xaml'e dönüştürülürken görüntülerin dosya adlarını sayar ve yazdırır.
+/// Üst belgeleri akış biçimindeki .xaml'e dönüştürülürken resimlerin dosya adlarını sayar ve yazdırır.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -68,8 +68,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Bir resim klasörü takma adı belirtirsek ayrıca buna da ihtiyacımız olur.
-        // her akışı, görüntüsünü takma ad klasörüne koymak üzere yeniden yönlendirmek için.
+        // Bir resim klasörü takma adı belirtseydik, ayrıca şuna da ihtiyacımız olurdu:
+        // her akışı, görüntüsünü alias klasörüne koyacak şekilde yönlendirmek için.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

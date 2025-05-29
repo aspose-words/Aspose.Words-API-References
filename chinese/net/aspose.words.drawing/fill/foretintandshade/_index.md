@@ -2,10 +2,10 @@
 title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill ForeTintAndShade 财产. 获取或设置使前景色变亮或变暗的双精度值 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 ForeTintAndShade 属性可轻松使前景色变亮或变暗，从而精确且富有创造力地增强您的设计。
 type: docs
-weight: 80
+weight: 90
 url: /zh/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
@@ -16,13 +16,21 @@ url: /zh/net/aspose.words.drawing/fill/foretintandshade/
 public double ForeTintAndShade { get; set; }
 ```
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 如果将此属性设置为小于 -1 或大于 1 的值，则抛出。 |
+
 ## 评论
 
-此属性允许的值在 -1（最暗）到 1（最亮）的范围内。 零 (0) 表示中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
+此属性的允许值范围是从 -1（最暗）到 1（最亮）。
+
+零（0）是中性的。
 
 ## 例子
 
-演示如何管理前景字体颜色的变亮和变暗。
+展示如何管理前景色字体颜色的变亮和变暗。
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

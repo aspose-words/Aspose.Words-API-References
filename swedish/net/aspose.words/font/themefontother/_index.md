@@ -3,9 +3,9 @@ title: Font.ThemeFontOther
 linktitle: ThemeFontOther
 articleTitle: ThemeFontOther
 second_title: Aspose.Words för .NET
-description: Font ThemeFontOther fast egendom. Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
+description: Upptäck hur du anpassar temateckensnittet för tecknen 128–255 i ditt teckensnittsschema och förbättrar din design med unika typografiska alternativ.
 type: docs
-weight: 510
+weight: 520
 url: /sv/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontOther { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

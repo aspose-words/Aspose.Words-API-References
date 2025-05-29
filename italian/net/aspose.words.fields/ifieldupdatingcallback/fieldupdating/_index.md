@@ -3,14 +3,14 @@ title: IFieldUpdatingCallback.FieldUpdating
 linktitle: FieldUpdating
 articleTitle: FieldUpdating
 second_title: Aspose.Words per .NET
-description: IFieldUpdatingCallback FieldUpdating metodo. Un metodo definito dallutente che viene chiamato subito prima dellaggiornamento di un campo in C#.
+description: Scopri il metodo IFieldUpdatingCallback: la soluzione per gli aggiornamenti dei campi personalizzati, che garantisce precisione e controllo nella gestione dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+Un metodo definito dall'utente che viene chiamato subito prima che un campo venga aggiornato.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -18,7 +18,7 @@ public void FieldUpdating(Field field)
 
 ## Esempi
 
-Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+Mostra come utilizzare i metodi di callback durante l'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se vuoi che vengano chiamati metodi personalizzati durante un aggiornamento di campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

@@ -2,15 +2,15 @@
 title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
-second_title: Aspose.Words for .NET
-description: Stroke Visible mülk. Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanımı kolay özelliğimizle vuruş görünürlüğünü kontrol edin. Daha iyi görsel etki için vuruş görünürlüğünü değiştirerek tasarımınızı geliştirin!
 type: docs
-weight: 200
+weight: 250
 url: /tr/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar.
+Vuruşun görünür olup olmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,11 +18,11 @@ public bool Visible { get; set; }
 
 ## Notlar
 
-Bir için varsayılan değer[`Shape`](../../shape/) dır-dir`doğru` .
+Bir değer için varsayılan değer[`Shape`](../../shape/) dır`doğru` .
 
 ## Örnekler
 
-İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
+İşaretçi biçimlendirmesinin nasıl ayarlanacağını göster.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Varsayılan olarak oluşturulan seriyi silin.
+// Varsayılan olarak oluşturulan seriyi sil.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

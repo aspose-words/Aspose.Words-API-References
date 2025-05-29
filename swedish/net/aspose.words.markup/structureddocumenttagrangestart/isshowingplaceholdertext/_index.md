@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText fast egendom. Anger om innehållet i denna strukturerade dokumenttagg ska tolkas till att innehålla platshållartext i motsats till vanligt textinnehåll i den strukturerade dokumenttaggen i C#.
+description: Upptäck egenskapen IsShowingPlaceholderText i StructuredDocumentTagRangeStart. Hantera enkelt platshållare kontra vanlig text i dina strukturerade dokument!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Anger om innehållet i denna strukturerade dokumenttagg ska tolkas till att innehålla platshållartext (i motsats till vanligt textinnehåll i den strukturerade dokumenttaggen).
+Anger om innehållet i den här taggen för strukturerat dokument ska tolkas som att innehålla platshållartext för (i motsats till vanligt textinnehåll i taggen för strukturerat dokument).
 
-om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
+om inställd på`sann` , detta tillstånd ska återupptas (visar platshållartext) när dokumentet öppnas.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

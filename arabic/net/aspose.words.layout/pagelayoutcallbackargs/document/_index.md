@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: PageLayoutCallbackArgs Document ملكية. الحصول على المستند في C#.
+description: اكتشف خاصية PageLayoutCallbackArgs للمستند للوصول إلى بيانات مستندك وإدارتها بكفاءة. حسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 ## PageLayoutCallbackArgs.Document property
 
-الحصول على المستند.
+يحصل على المستند.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط باستخدام استدعاء التخطيط.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
+/// ويقوم بعرض صفحة نقوم بإعادة ترتيب صفحاتها على صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

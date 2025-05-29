@@ -3,14 +3,14 @@ title: Style.NextParagraphStyleName
 linktitle: NextParagraphStyleName
 articleTitle: NextParagraphStyleName
 second_title: Aspose.Words för .NET
-description: Style NextParagraphStyleName fast egendom. Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet i C#.
+description: Upptäck hur du effektivt använder egenskapen NextParagraphStyleName för att automatisera formatering av nya stycken och förbättra formateringen av ditt dokument.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet.
+Hämtar/ställer in namnet på den stil som ska tillämpas automatiskt på ett nytt stycke som infogas efter ett stycke formaterat med den angivna stilen.
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
@@ -18,11 +18,11 @@ public string NextParagraphStyleName { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen används inte av Aspose.Words. Nästa styckestil kommer endast att tillämpas automatiskt när du redigerar dokumentet i MS Word.
+Den här egenskapen används inte av Aspose.Words. Nästa styckeformat kommer endast att tillämpas automatiskt när du redigerar dokumentet i MS Word.
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

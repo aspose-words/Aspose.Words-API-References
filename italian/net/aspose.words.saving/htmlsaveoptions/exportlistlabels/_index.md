@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportListLabels proprietà. Controlla il modo in cui le etichette degli elenchi vengono inviate in HTML MHTML o EPUB. Il valore predefinito èAuto  in C#.
+description: Scopri come la proprietà ExportListLabels di HtmlSaveOptions migliora i tuoi output HTML, MHTML ed EPUB. Ottimizza le etichette degli elenchi senza sforzo con le impostazioni automatiche!
 type: docs
 weight: 190
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-Controlla il modo in cui le etichette degli elenchi vengono inviate in HTML, MHTML o EPUB. Il valore predefinito èAuto .
+Controlla come le etichette degli elenchi vengono emesse in HTML, MHTML o EPUB. Il valore predefinito èAuto .
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }
@@ -18,7 +18,7 @@ public ExportListLabels ExportListLabels { get; set; }
 
 ## Esempi
 
-Mostra come configurare l'esportazione dell'elenco in HTML.
+Mostra come configurare l'esportazione degli elenchi in HTML.
 
 ```csharp
 Document doc = new Document();
@@ -46,14 +46,14 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
-// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere quali elementi HTML il documento utilizzerà per rappresentare le liste.
+// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere quali elementi HTML il documento utilizzerà per rappresentare gli elenchi.
 // Impostazione della proprietà "ExportListLabels" su "ExportListLabels.AsInlineText"
 // creerà elenchi formattando gli intervalli.
-// Impostando la proprietà "ExportListLabels" su "ExportListLabels.Auto" verrà utilizzato il tag <p> etichetta
-// per creare elenchi nei casi in cui si utilizza <ol> e <li> i tag possono causare la perdita di formattazione.
+// Impostando la proprietà "ExportListLabels" su "ExportListLabels.Auto" verrà utilizzato il tag <p>
+// per creare elenchi nei casi in cui l'utilizzo dei tag <ol> e <li> potrebbe causare la perdita di formattazione.
 // Impostazione della proprietà "ExportListLabels" su "ExportListLabels.ByHtmlTags"
-// utilizzerà <ol> e <li> tag per creare tutti gli elenchi.
+// utilizzerà i tag <ol> e <li> per creare tutti gli elenchi.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

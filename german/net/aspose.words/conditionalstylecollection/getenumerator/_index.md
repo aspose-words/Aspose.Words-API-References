@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: ConditionalStyleCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller bedingten Stile in der Sammlung verwendet werden kann in C#.
+description: Entdecken Sie die GetEnumerator-Methode von ConditionalStyleCollection, um problemlos alle bedingten Stile zu durchlaufen und so die Effizienz Ihres Webdesigns zu steigern.
 type: docs
 weight: 160
 url: /de/net/aspose.words/conditionalstylecollection/getenumerator/
 ---
 ## ConditionalStyleCollection.GetEnumerator method
 
-Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller bedingten Stile in der Sammlung verwendet werden kann.
+Gibt ein Enumeratorobjekt zurück, mit dem alle bedingten Stile in der Sammlung durchlaufen werden können.
 
 ```csharp
 public IEnumerator<ConditionalStyle> GetEnumerator()
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

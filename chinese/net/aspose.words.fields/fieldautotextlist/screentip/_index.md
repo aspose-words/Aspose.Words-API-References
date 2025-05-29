@@ -2,8 +2,8 @@
 title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAutoTextList ScreenTip 财产. 获取或设置要显示的屏幕提示文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldAutoTextList ScreenTip 属性，轻松自定义屏幕提示文本，以增强用户体验和应用程序的清晰度。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -18,7 +18,7 @@ public string ScreenTip { get; set; }
 
 ## 例子
 
-演示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
+展示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
 
 ```csharp
 public void FieldAutoTextList()
@@ -34,7 +34,7 @@ public void FieldAutoTextList()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 创建一个 AUTOTEXTLIST 字段并设置该字段将在 Microsoft Word 中显示的文本。
-    // 设置文本以提示用户右键单击该字段以选择自动图文集构建块，
+    // 设置文本以提示用户右键单击此字段以选择自动图文集构建块，
     // 该字段将显示其内容。
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// 创建自动图文集类型构建块并将其添加到术语表文档中。
+/// 创建自动图文集类型的构建块并将其添加到词汇表文档中。
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

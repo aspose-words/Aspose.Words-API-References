@@ -2,8 +2,8 @@
 title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
-second_title: Aspose.Words for .NET
-description: FieldIncludeText XslTransformation mülk. XML verilerini biçimlendirmek için XSL Dönüşümünün konumunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir XSL dönüşümleriyle XML veri biçimlendirmesini kolayca yönetmek için FieldIncludeText XslTransformation özelliğini keşfedin. Veri sunumunuzu geliştirin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

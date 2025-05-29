@@ -3,7 +3,7 @@ title: FieldUserInitials
 linktitle: FieldUserInitials
 articleTitle: FieldUserInitials
 second_title: Aspose.Words لـ .NET
-description: FieldUserInitials البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldUserInitials - الحل الأمثل لتعريف المستخدم بسلاسة. حسّن كفاءة استخدامك مع مُنشئنا الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielduserinitials/fielduserinitials/

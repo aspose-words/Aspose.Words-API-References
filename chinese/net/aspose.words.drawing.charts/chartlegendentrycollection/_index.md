@@ -2,10 +2,10 @@
 title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection 班级. 表示图表图例条目的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ChartLegendEntryCollection 以有效管理图表图例条目并轻松增强文档视觉效果。
 type: docs
-weight: 740
+weight: 1030
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
@@ -22,8 +22,8 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | 返回数量[`ChartLegendEntry`](../chartlegendentry/)在这个集合中. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | 返回[`ChartLegendEntry`](../chartlegendentry/)对于指定的索引. |
+| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | 返回[`ChartLegendEntry`](../chartlegendentry/)在此集合中。 |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | 返回[`ChartLegendEntry`](../chartlegendentry/)对于指定的索引。 |
 
 ## 方法
 
@@ -54,11 +54,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

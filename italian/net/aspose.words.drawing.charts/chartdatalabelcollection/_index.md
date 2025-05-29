@@ -3,9 +3,9 @@ title: ChartDataLabelCollection Class
 linktitle: ChartDataLabelCollection
 articleTitle: ChartDataLabelCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection classe. Rappresenta una raccolta diChartDataLabel  in C#.
+description: Scopri la classe Aspose.Words.ChartDataLabelCollection per gestire in modo efficiente le etichette dei dati dei grafici. Migliora l'aspetto visivo del tuo documento oggi stesso!
 type: docs
-weight: 680
+weight: 940
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
@@ -23,25 +23,28 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Restituisce il numero di[`ChartDataLabel`](../chartdatalabel/) in questa raccolta. |
-| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Fornisce l'accesso alla formattazione dei caratteri delle etichette dati dell'intera serie. |
-| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Fornisce l'accesso al riempimento e alla formattazione della riga delle etichette dati. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Fornisce accesso alla formattazione del carattere delle etichette dati dell'intera serie. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Fornisce accesso al riempimento e alla formattazione delle linee delle etichette dati. |
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Restituisce[`ChartDataLabel`](../chartdatalabel/) per l'indice specificato. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Ottiene un[`ChartNumberFormat`](../chartnumberformat/) istanza che consente di impostare il formato numerico per le etichette dati dell' intera serie. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dell'intera serie. Il valore predefinito è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando invece deve essere utilizzata un'interruzione di riga . |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati dell'intera serie. Si applica solo ai grafici a bolle. Il valore predefinito è`falso` . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Permette di specificare se il nome della categoria deve essere visualizzato per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Permette di specificare se i valori delle etichette dati devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è`falso` . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Permette di specificare se le linee guida dell'etichetta dati devono essere mostrate per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Permette di specificare se la legenda deve essere visualizzata per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Permette di specificare se visualizzare il valore percentuale per le etichette dati dell'intera serie. Il valore predefinito è`falso` . Si applica solo ai grafici a torta. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Restituisce o imposta un valore booleano per indicare il comportamento di visualizzazione del nome della serie per le etichette dati dell'intera serie. `VERO` per mostrare il nome della serie;`falso` nascondere. Per impostazione predefinita`falso` . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Permette di specificare se i valori devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è`falso` . |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Ottiene un[`ChartNumberFormat`](../chartnumberformat/) istanza che consente di impostare il formato numerico per le etichette dati dell'intera serie . |
+| [Orientation](../../aspose.words.drawing.charts/chartdatalabelcollection/orientation/) { get; set; } | Ottiene o imposta l'orientamento del testo delle etichette dati dell'intera serie. |
+| [Position](../../aspose.words.drawing.charts/chartdatalabelcollection/position/) { get; set; } | Ottiene o imposta la posizione delle etichette dati. |
+| [Rotation](../../aspose.words.drawing.charts/chartdatalabelcollection/rotation/) { get; set; } | Ottiene o imposta la rotazione delle etichette dati dell'intera serie in gradi. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dell'intera serie. Il valore predefinito è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, in tal caso deve essere utilizzata un'interruzione di riga . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Consente di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati dell'intera serie. Si applica solo ai grafici a bolle. Il valore predefinito è`falso` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Consente di specificare se il nome della categoria deve essere visualizzato per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Consente di specificare se i valori dell'intervallo delle etichette dati devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è`falso` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Consente di specificare se le linee guida delle etichette dati devono essere visualizzate per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Consente di specificare se la legenda deve essere visualizzata per le etichette dati dell'intera serie. Il valore predefinito è`falso` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Consente di specificare se il valore percentuale deve essere visualizzato per le etichette dati dell'intera serie. Il valore predefinito è`falso` . Si applica solo ai grafici a torta. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Restituisce o imposta un valore booleano per indicare il comportamento di visualizzazione del nome della serie per le etichette dati dell'intera serie. `VERO` per mostrare il nome della serie;`falso` per nascondere. Per impostazione predefinita`falso` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Consente di specificare se i valori devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è`falso` . |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Cancella tutto il formato[`ChartDataLabel`](../chartdatalabel/) in questa raccolta. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Cancella il formato di tutti[`ChartDataLabel`](../chartdatalabel/) in questa raccolta. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 
 ## Esempi
@@ -63,7 +66,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Applica etichette dati a ogni serie nel grafico.
-    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne visualizzeranno il valore.
+    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne mostreranno il valore.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -80,24 +83,28 @@ public void DataLabels()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo rimuovere le etichette dei dati individualmente.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche rimuovere un'intera serie di etichette dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo rimuovere le etichette dei dati singolarmente.
+    dataLabel.ClearFormat();
+
+    // Possiamo anche rimuovere contemporaneamente un'intera serie di etichette dati.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -106,7 +113,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

@@ -3,14 +3,14 @@ title: TextBox.Next
 linktitle: Next
 articleTitle: Next
 second_title: Aspose.Words för .NET
-description: TextBox Next fast egendom. Returnerar eller ställer in enTextBox som representerar nästaTextBox i en sekvens av former i C#.
+description: Upptäck hur egenskapen TextBox Next förbättrar ditt designarbetsflöde genom att länka textrutor sömlöst i dina projekt för förbättrad organisation.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Returnerar eller ställer in en[`TextBox`](../) som representerar nästa[`TextBox`](../) i en sekvens av former.
+Returnerar eller anger en[`TextBox`](../) som representerar nästa[`TextBox`](../) en sekvens av former.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Endast en tom textruta kan ha en länk.
+// Endast en tom textruta får innehålla en länk.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -66,7 +66,6 @@ if (textBox3.Next == null && textBox3.Previous != null)
 
     // Bryt framåtlänken mellan textBox2 och textBox3 och verifiera sedan att de inte längre är länkade.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

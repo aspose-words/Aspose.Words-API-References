@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart WordOpenXML mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format C#'da.
+second_title: .NET için Aspose.Words
+description: WordOpenXML'deki StructuredDocumentTagRangeStart özelliğini keşfedin. Gelişmiş belge yönetimi ve özelleştirme için FlatOpc biçimindeki XML verilerine erişin.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc format.
+Düğümün içinde bulunan XML'i temsil eden bir dize alırFlatOpc biçim.
 
 ```csharp
 public string WordOpenXML { get; }

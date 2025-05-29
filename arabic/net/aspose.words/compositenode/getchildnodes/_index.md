@@ -3,14 +3,14 @@ title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words لـ .NET
-description: CompositeNode GetChildNodes طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد في C#.
+description: اكتشف طريقة CompositeNode GetChildNodes—استرجاع مجموعة حية من العقد الفرعية المصممة خصيصًا لنوعك المحدد لتحسين الأداء.
 type: docs
-weight: 90
+weight: 110
 url: /ar/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
 
-إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد.
+يعيد مجموعة حية من العقد الفرعية التي تطابق النوع المحدد.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -19,7 +19,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | nodeType | NodeType | يحدد نوع العقد المراد تحديدها. |
-| isDeep | Boolean | `حقيقي` للاختيار من بين جميع العقد الفرعية بشكل متكرر؛ `خطأ شنيع`للاختيار فقط بين الأطفال المباشرين. |
+| isDeep | Boolean | `حقيقي` لتحديد من جميع العقد الفرعية بشكل متكرر؛ `خطأ شنيع` للاختيار فقط من بين الأطفال المباشرين. |
 
 ### قيمة الإرجاع
 
@@ -27,21 +27,21 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 ## ملاحظات
 
-مجموعة العقد التي يتم إرجاعها بهذه الطريقة تكون دائمًا حية.
+إن مجموعة العقد التي تم إرجاعها بواسطة هذه الطريقة تكون دائمًا حية.
 
-تكون المجموعة المباشرة متزامنة دائمًا مع المستند. على سبيل المثال، إذا قمت بتحديد كافة الأقسام في مستند وقمت بالتعداد من خلال المجموعة وحذف الأقسام، تتم إزالة القسم من المجموعة فورًا عند إزالته من المستند.
+المجموعة الحية متزامنة دائمًا مع المستند. على سبيل المثال، إذا قمتَ بتحديد جميع أقسام مستند، ثم حذفتَ الأقسام من خلال المجموعة، فسيتم حذف القسم من المجموعة فورًا بعد إزالته من المستند.
 
 ## أمثلة
 
-يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
+يوضح كيفية طباعة كافة تعليقات المستند وردودها.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// إذا لم يكن للتعليق أصل، فهو تعليق "المستوى الأعلى" وليس تعليقًا من نوع الرد.
+// إذا لم يكن للتعليق سلف، فهو تعليق "على مستوى أعلى" وليس تعليق من نوع الرد.
 // اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
@@ -59,8 +59,8 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// احصل على مجموعة الأشكال من المستند،
-// وحفظ بيانات الصورة لكل شكل مع صورة كملف في نظام الملفات المحلي.
+// الحصول على مجموعة الأشكال من المستند،
+// وحفظ بيانات الصورة لكل شكل مع الصورة كملف في نظام الملفات المحلي.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -70,8 +70,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // قد تحتوي بيانات صورة الأشكال على صور للعديد من تنسيقات الصور الممكنة.
-        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، بناءً على تنسيقها.
+         // قد تحتوي بيانات الصورة الخاصة بالأشكال على صور بتنسيقات صور متعددة محتملة.
+        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، استنادًا إلى تنسيقها.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -80,27 +80,27 @@ foreach (Shape shape in shapes.OfType<Shape>())
 }
 ```
 
-يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
+يوضح كيفية التنقل عبر مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
+// أضف تشغيلتين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
+// لاحظ أن 'CustomNodeId' لا يتم حفظه في ملف إخراج ولا يوجد إلا أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
-// وطباعة أي مسارات أو أشكال نجدها داخلها.
+// قم بالتكرار خلال مجموعة الأطفال المباشرين للفقرة،
+// وطباعة أي مسارات أو أشكال نجدها بالداخل.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -125,42 +125,42 @@ foreach (Node child in children)
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ افتراضيًا على فقرة واحدة.
+// تحتوي الوثيقة الفارغة، بشكل افتراضي، على فقرة واحدة.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// العقد المركبة مثل فقرتنا يمكن أن تحتوي على عقد مركبة ومضمنة أخرى كأبناء.
+// يمكن للعقد المركبة مثل فقرتنا أن تحتوي على عقد مركبة ومضمنة أخرى كأبناء.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// أنشئ ثلاث عقد تشغيل أخرى.
+// إنشاء ثلاث عقد تشغيل أخرى.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// لن يعرض نص المستند عمليات التشغيل هذه حتى نقوم بإدراجها في عقدة مركبة
-// الذي يعد في حد ذاته جزءًا من شجرة عقدة المستند، كما فعلنا مع التشغيل الأول.
-// يمكننا تحديد مكان محتويات النص للعقد التي نقوم بإدراجها
+// لن يعرض نص المستند هذه العمليات حتى نقوم بإدخالها في عقدة مركبة
+// وهذا في حد ذاته جزء من شجرة عقدة المستند، كما فعلنا في التشغيل الأول.
+// يمكننا تحديد مكان محتوى النص للعقد التي نقوم بإدراجها
 // يظهر في المستند عن طريق تحديد موقع الإدراج بالنسبة لعقدة أخرى في الفقرة.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// أدخل التشغيل الثاني في الفقرة الموجودة أمام التشغيل الأولي.
+//أدخل التشغيل الثاني في الفقرة الموجودة أمام التشغيل الأولي.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// أدخل الجولة الثالثة بعد التشغيل الأولي.
+//أدخل التشغيل الثالث بعد التشغيل الأولي.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// أدخل التشغيل الأول في بداية مجموعة العقد الفرعية للفقرة.
+// قم بإدراج التشغيل الأول في بداية مجموعة العقد الفرعية للفقرة.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// يمكننا تعديل محتويات التشغيل عن طريق تحرير وحذف العقد الفرعية الموجودة.
+//يمكننا تعديل محتويات التشغيل عن طريق تحرير وحذف العقد الفرعية الموجودة.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

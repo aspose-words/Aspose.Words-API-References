@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words para .NET
-description: NodeRendererBase RenderToScale método. Representa la forma en unGraphics objeto a una escala especificada en C#.
+description: Descubra el método NodeRendererBase RenderToScale: represente formas de manera eficiente en objetos gráficos a cualquier escala para obtener un resultado visual mejorado.
 type: docs
 weight: 70
 url: /es/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Representa la forma en unGraphics objeto a una escala especificada.
+Representa la forma en unaGraphics objeto a una escala especificada.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -21,15 +21,15 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 | graphics | Graphics | El objeto donde renderizar. |
 | x | Single | La coordenada X (en unidades mundiales) de la esquina superior izquierda de la forma renderizada. |
 | y | Single | La coordenada Y (en unidades mundiales) de la esquina superior izquierda de la forma renderizada. |
-| scale | Single | La escala para representar la forma (1,0 es 100%). |
+| scale | Single | La escala para representar la forma (1.0 es 100%). |
 
 ### Valor_devuelto
 
-El ancho y alto (en unidades mundiales) de la forma renderizada.
+El ancho y la altura (en unidades mundiales) de la forma renderizada.
 
 ## Ejemplos
 
-Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
+Muestra cómo representar una forma con un objeto Graphics y visualizarla mediante un formulario Windows Forms.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -40,7 +40,7 @@ public void RenderShapesOnForm()
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
     // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1: crea una forma con un gráfico y renderízala a una escala específica.
+    // 1 - Crea una forma con un gráfico y representalo en una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

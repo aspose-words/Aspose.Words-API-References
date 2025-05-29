@@ -3,14 +3,14 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words для .NET
-description: ParagraphFormat KeepTogether свойство. Истинно если все строки абзаца должны оставаться на одной странице на С#.
+description: Откройте для себя свойство ParagraphFormat KeepTogether, обеспечивающее единое расположение всех строк на одной странице для улучшения читаемости документа и его профессионального представления.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-Истинно, если все строки абзаца должны оставаться на одной странице.
+True, если все строки в абзаце должны оставаться на одной странице.
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -39,7 +39,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Метод Writeln завершает абзац после добавления текста
-// а затем начинается новая строка, добавляющая новый абзац.
+// а затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

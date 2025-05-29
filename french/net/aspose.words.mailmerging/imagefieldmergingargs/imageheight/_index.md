@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageHeight
 linktitle: ImageHeight
 articleTitle: ImageHeight
 second_title: Aspose.Words pour .NET
-description: ImageFieldMergingArgs ImageHeight propriété. Spécifie la hauteur de limage à insérer dans le document en C#.
+description: Définissez ImageHeight dans ImageFieldMergingArgs pour personnaliser la taille de l'image de votre document, améliorant ainsi l'attrait visuel et la clarté.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -18,25 +18,25 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ## Remarques
 
-La valeur de cette propriété provient initialement du code du MERGEFIELD correspondant, contenu dans le document modèle . Pour remplacer la valeur initiale, vous devez attribuer une instance de [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe à cette propriété ou définissez les propriétés de l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété.
+La valeur initiale de cette propriété provient du code du MERGEFIELD correspondant, contenu dans le document modèle . Pour remplacer la valeur initiale, vous devez lui attribuer une instance de .[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe à cette propriété ou définissez les propriétés pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété.
 
-Pour indiquer que la valeur originale de la hauteur de l'image doit être appliquée, vous devez attribuer le`nul` à cette propriété ou définissez la valeur[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) propriété pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété, à une valeur négative.
+Pour indiquer que la valeur d'origine de la hauteur de l'image doit être appliquée, vous devez attribuer le`nul` valeur à cette propriété ou définissez la[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) propriété pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété, à une valeur négative.
 
 ## Exemples
 
-Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Insère un MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utilisez le code de champ pour référencer
-    // une colonne dans la source de données contenant les noms de fichiers du système local des images que nous souhaitons utiliser dans le publipostage.
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La source de données doit avoir une telle colonne nommée "ImageColumn".
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Créez une source de données appropriée.
@@ -55,7 +55,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -81,6 +81,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

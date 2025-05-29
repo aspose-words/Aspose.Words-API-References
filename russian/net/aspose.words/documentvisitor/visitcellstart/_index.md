@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCellStart
 linktitle: VisitCellStart
 articleTitle: VisitCellStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitCellStart метод. Вызывается когда началось перечисление ячейки таблицы на С#.
+description: Откройте для себя метод VisitCellStart в DocumentVisitor, необходимый для эффективного управления перечислением ячеек таблицы. Улучшите свои навыки кодирования сегодня!
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentvisitor/visitcellstart/
 ---
 ## DocumentVisitor.VisitCellStart method
 
-Вызывается, когда началось перечисление ячейки таблицы.
+Вызывается, когда началось перечисление ячеек таблицы.
 
 ```csharp
 public virtual VisitorAction VisitCellStart(Cell cell)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell | Cell | Объект, который посещается. |
+| cell | Cell | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -61,7 +61,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Выполнения, не входящие в таблицы, не записываются.
+    /// Прогоны, не входящие в таблицы, не регистрируются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается таблица.
+    /// Вызывается при обнаружении таблицы в документе.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -92,7 +92,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла таблицы.
+    /// Вызывается после посещения всех дочерних узлов узла Table.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -104,7 +104,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Row.
+    /// Вызывается, когда в документе встречается узел строки.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -164,7 +164,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>

@@ -3,14 +3,14 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words для .NET
-description: Font Underline свойство. Получает или задает тип подчеркивания применяемого к шрифту на С#.
+description: Откройте для себя свойство Font Underline для настройки стилей текста. Легко устанавливайте и изменяйте типы подчеркивания для улучшения типографики в ваших проектах.
 type: docs
-weight: 530
+weight: 540
 url: /ru/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
 
-Получает или задает тип подчеркивания, применяемого к шрифту.
+Возвращает или задает тип подчеркивания, применяемого к шрифту.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -57,15 +57,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
-// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и выделите ее с помощью пользовательского форматирования.
+// Гиперссылка будет представлять собой фрагмент текста, нажав на который, мы перейдем в место, указанное в URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", ложь);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word приведет нас к URL-адресу через новое окно веб-браузера.
+// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word перенаправит нас на URL-адрес через новое окно веб-браузера.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

@@ -3,7 +3,7 @@ title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
 second_title: Aspose.Words для .NET
-description: FieldShape строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldShape — ваше решение для эффективного создания форм. Откройте для себя безупречный дизайн и функциональность сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldshape/fieldshape/

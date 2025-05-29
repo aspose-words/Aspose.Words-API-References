@@ -3,7 +3,7 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words für .NET
-description: ListLabel Font eigendom. Ruft die Schriftart der Listenbeschriftung ab in C#.
+description: Entdecken Sie die ListLabel-Schriftarteigenschaft, um den Schriftstil Ihres Listenetiketts anzupassen und Ihrem Design eine professionelle Note zu verleihen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/listlabel/font/

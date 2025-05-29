@@ -3,7 +3,7 @@ title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words pour .NET
-description: Node ToString méthode. Exporte le contenu du nœud dans une chaîne au format spécifié en C#.
+description: Découvrez la méthode Node ToString : convertissez facilement le contenu d'un nœud en chaînes de caractères aux formats personnalisables pour une gestion optimisée des données. Optimisez votre codage dès aujourd'hui !
 type: docs
 weight: 160
 url: /fr/net/aspose.words/node/tostring/
@@ -18,11 +18,11 @@ public string ToString(SaveFormat saveFormat)
 
 ### Return_Value
 
-Le contenu du nœud au format spécifié.
+Le contenu du nœud dans le format spécifié.
 
 ## Exemples
 
-Montre la différence entre l'appel des méthodes GetText et ToString sur un nœud.
+Affiche la différence entre l’appel des méthodes GetText et ToString sur un nœud.
 
 ```csharp
 Document doc = new Document();
@@ -30,27 +30,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText récupérera le texte visible ainsi que les codes de champs et les caractères spéciaux.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+// GetText récupérera le texte visible ainsi que les codes de champ et les caractères spéciaux.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString nous donnera l'apparence du document s'il est enregistré dans un format de sauvegarde transmis.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// ToString nous donnera l'apparence du document s'il est enregistré dans un format d'enregistrement passé.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-Exporte le contenu d'un nœud vers String au format HTML.
+Exporte le contenu d'un nœud vers une chaîne au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Lorsque nous appelons la méthode ToString en utilisant la surcharge html SaveFormat,
+// Lorsque nous appelons la méthode ToString en utilisant la surcharge HTML SaveFormat,
 // il convertit le contenu du nœud en sa représentation HTML brute.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// On peut également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
+// Nous pouvons également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
@@ -67,21 +67,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Trouve si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples,
-// qui commence à trois heures et se termine à six heures.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+// Vérifiez si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples.
+// qui commencent à trois heures et se terminent à six heures.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Il s'agit du texte que nous obtenons lorsque nous extrayons ce nœud au format texte.
-     // Cette sortie texte omettra les étiquettes de liste. Coupez tous les caractères de formatage de paragraphe.
+    // Il s'agit du texte que nous obtenons lorsque nous exportons ce nœud au format texte.
+     // Ce texte affiché omettra les étiquettes de liste. Supprimez tous les caractères de formatage de paragraphe.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Ceci obtient la position du paragraphe dans le niveau actuel de la liste. Si nous avons une liste à plusieurs niveaux,
-    // cela nous dira quelle est sa position à ce niveau.
+    // Ceci récupère la position du paragraphe dans le niveau actuel de la liste. Si la liste comporte plusieurs niveaux,
+    // cela nous indiquera quelle position il occupe à ce niveau.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Combinez-les ensemble pour inclure l'étiquette de liste avec le texte dans la sortie.
@@ -100,7 +100,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
-Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées.
+Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées.
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -112,24 +112,24 @@ public string ToString(SaveOptions saveOptions)
 
 ### Return_Value
 
-Le contenu du nœud au format spécifié.
+Le contenu du nœud dans le format spécifié.
 
 ## Exemples
 
-Exporte le contenu d'un nœud vers String au format HTML.
+Exporte le contenu d'un nœud vers une chaîne au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Lorsque nous appelons la méthode ToString en utilisant la surcharge html SaveFormat,
+// Lorsque nous appelons la méthode ToString en utilisant la surcharge HTML SaveFormat,
 // il convertit le contenu du nœud en sa représentation HTML brute.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// On peut également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
+// Nous pouvons également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 

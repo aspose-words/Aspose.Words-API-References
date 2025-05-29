@@ -3,14 +3,14 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words لـ .NET
-description: Document MailMerge ملكية. إرجاع أMailMerge الكائن الذي يمثل وظيفة دمج البريد للمستند في C#.
+description: قم بإلغاء قفل أتمتة المستندات بسلاسة باستخدام كائن MailMerge، مما يعزز سير عملك من خلال تبسيط مهام دمج البريد دون عناء.
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-إرجاع أ[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) الكائن الذي يمثل وظيفة دمج البريد للمستند.
+يعيد[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) الكائن الذي يمثل وظيفة دمج البريد للمستند.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -18,7 +18,7 @@ public MailMerge MailMerge { get; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من DataTable.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من جدول البيانات.
 
 ```csharp
 public void ExecuteDataTable()
@@ -29,7 +29,7 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // فيما يلي طريقتان لاستخدام DataTable كمصدر بيانات لدمج البريد.
+    // فيما يلي طريقتان لاستخدام جدول البيانات كمصدر بيانات لدمج البريد.
     // 1 - استخدم الجدول بأكمله لدمج البريد لإنشاء مستند دمج بريدي واحد لكل صف في الجدول:
     Document doc = CreateSourceDocExecuteDataTable();
 
@@ -37,7 +37,7 @@ public void ExecuteDataTable()
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند واحد لدمج البريد:
+    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند دمج بريدي واحد:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);

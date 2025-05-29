@@ -3,14 +3,14 @@ title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
 second_title: Aspose.Words für .NET
-description: Odso RecipientDatas eigendom. Ruft eine Sammlung von Objekten ab oder legt diese fest die den Einschluss/Ausschluss einzelner Datensätze in den Seriendruck festlegen. Dieses Objekt ist niemals vorhandenNull  in C#.
+description: Verwalten Sie Ihren Serienbrief mühelos mit Odso RecipientDatas. Kontrollieren Sie die Einbeziehung/den Ausschluss von Datensätzen mit einer zuverlässigen, stets verfügbaren Sammlung.
 type: docs
 weight: 70
 url: /de/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Ruft eine Sammlung von Objekten ab oder legt diese fest, die den Einschluss/Ausschluss einzelner Datensätze in den Seriendruck festlegen. Dieses Objekt ist niemals vorhanden`Null` .
+Ruft eine Sammlung von Objekten ab oder legt sie fest, die die Einbeziehung/den Ausschluss einzelner Datensätze in den Serienbrief festlegen. Dieses Objekt ist nie`null` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -18,7 +18,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

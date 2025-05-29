@@ -3,14 +3,14 @@ title: Field.GetFieldCode
 linktitle: GetFieldCode
 articleTitle: GetFieldCode
 second_title: Aspose.Words für .NET
-description: Field GetFieldCode methode. Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück oder Feldende wenn kein Trennzeichen vorhanden ist. Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten in C#.
+description: Entdecken Sie die GetFieldCode-Methode, mit der Sie mühelos Text zwischen Feldanfang und Trennzeichen abrufen können, einschließlich der Codes der untergeordneten Felder und der Ergebnisse. Steigern Sie Ihre Codiereffizienz!
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten.
+Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen.
 
 ```csharp
 public string GetFieldCode()
@@ -18,7 +18,7 @@ public string GetFieldCode()
 
 ## Beispiele
 
-Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
+Zeigt, wie Sie mithilfe eines Feldcodes ein Feld in ein Dokument einfügen.
 
 ```csharp
 Document doc = new Document();
@@ -29,26 +29,26 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Diese Überladung der InsertField-Methode aktualisiert automatisch eingefügte Felder.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// Diese Überladung der InsertField-Methode aktualisiert eingefügte Felder automatisch.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
-Zeigt, wie man den Feldcode eines Feldes erhält.
+Zeigt, wie man den Feldcode eines Felds erhält.
 
 ```csharp
-// Öffnen Sie ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
+// Öffnen Sie ein Dokument, das ein MERGEFIELD innerhalb eines IF-Feldes enthält.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes abzurufen:
-// 1 – Die inneren Felder weglassen:
+// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes zu erhalten:
+// 1 – Lassen Sie die inneren Felder weg:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 – Die inneren Felder einschließen:
+// 2 - Schließen Sie die inneren Felder ein:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// Standardmäßig zeigt die GetFieldCode-Methode innere Felder an.
+// Standardmäßig zeigt die Methode GetFieldCode innere Felder an.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 
@@ -70,26 +70,26 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `WAHR` wenn untergeordnete Feldcodes enthalten sein sollen. |
+| includeChildFieldCodes | Boolean | `WAHR` ob untergeordnete Feldcodes einbezogen werden sollen. |
 
 ## Beispiele
 
-Zeigt, wie man den Feldcode eines Feldes erhält.
+Zeigt, wie man den Feldcode eines Felds erhält.
 
 ```csharp
-// Öffnen Sie ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
+// Öffnen Sie ein Dokument, das ein MERGEFIELD innerhalb eines IF-Feldes enthält.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes abzurufen:
-// 1 – Die inneren Felder weglassen:
+// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes zu erhalten:
+// 1 – Lassen Sie die inneren Felder weg:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 – Die inneren Felder einschließen:
+// 2 - Schließen Sie die inneren Felder ein:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// Standardmäßig zeigt die GetFieldCode-Methode innere Felder an.
+// Standardmäßig zeigt die Methode GetFieldCode innere Felder an.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 

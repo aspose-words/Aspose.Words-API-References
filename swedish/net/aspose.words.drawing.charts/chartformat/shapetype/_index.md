@@ -3,14 +3,14 @@ title: ChartFormat.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words för .NET
-description: ChartFormat ShapeType fast egendom. Hämtar eller ställer in formtypen för det överordnade diagramelementet i C#.
+description: Upptäck hur du använder egenskapen ChartFormat ShapeType för att effektivt anpassa dina diagramelement. Förbättra din datavisualisering idag!
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
 
-Hämtar eller ställer in formtypen för det överordnade diagramelementet.
+Hämtar eller anger formtypen för det överordnade diagramelementet.
 
 ```csharp
 public ChartShapeType ShapeType { get; set; }
@@ -22,7 +22,7 @@ För närvarande kan egenskapen endast användas för dataetiketter.
 
 ## Exempel
 
-Visar hur du ställer in fyllnings-, linje- och bildtextformatering för diagramdataetiketter.
+Visar hur man ställer in formatering för fyllning, linje och bildtext för diagramdataetiketter.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 chart.Series.Clear();
 
 // Lägg till ny serie.
@@ -43,14 +43,14 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formatera dataetiketter som bildtexter.
+// Formatera dataetiketter som callouts.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;
 format.Fill.Solid(Color.Green);
 series.DataLabels.Font.Color = Color.Yellow;
 
-// Ändra fyllning och linje för en individuell dataetikett.
+// Ändra fyllning och linje för en enskild dataetikett.
 ChartFormat labelFormat = series.DataLabels[0].Format;
 labelFormat.Stroke.Color = Color.DarkBlue;
 labelFormat.Fill.Solid(Color.Blue);

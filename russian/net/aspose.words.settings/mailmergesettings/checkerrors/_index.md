@@ -3,14 +3,14 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words для .NET
-description: MailMergeSettings CheckErrors свойство. Указывает тип отчета об ошибках который будет формироваться Microsoft Word при выполнении слияния почты. Значение по умолчаниюDefault  на С#.
+description: Откройте для себя свойство MailMergeSettings CheckErrors в Microsoft Word для эффективного сообщения об ошибках во время слияний почты. Оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/mailmergesettings/checkerrors/
 ---
 ## MailMergeSettings.CheckErrors property
 
-Указывает тип отчета об ошибках, который будет формироваться Microsoft Word при выполнении слияния почты. Значение по умолчанию:Default .
+Указывает тип отчета об ошибках, который будет создаваться Microsoft Word при выполнении слияния почты. Значение по умолчанию:Default .
 
 ```csharp
 public MailMergeCheckErrors CheckErrors { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

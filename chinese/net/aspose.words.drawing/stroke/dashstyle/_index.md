@@ -2,15 +2,15 @@
 title: Stroke.DashStyle
 linktitle: DashStyle
 articleTitle: DashStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Stroke DashStyle 财产. 指定笔划的点和划线图案 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Stroke DashStyle 属性，使用独特的点和虚线图案定制您的设计，获得令人惊叹的视觉效果。
 type: docs
-weight: 40
+weight: 70
 url: /zh/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
 
-指定笔划的点和划线图案。
+指定笔触的点和虚线图案。
 
 ```csharp
 public DashStyle DashStyle { get; set; }
@@ -22,14 +22,14 @@ public DashStyle DashStyle { get; set; }
 
 ## 例子
 
-展示创造出各种形状。
+展现出多种多样的造型创造。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 下面是我们可以插入到文档中的四个形状的示例。
+// 1 - 虚线，水平，半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 翻转方向的箭头，填充 Aspose 徽标：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -80,7 +80,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 在获得显示形状之前，将图像翻转到另一个方向以取消此操作。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

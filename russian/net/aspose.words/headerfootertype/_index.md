@@ -3,14 +3,14 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.HeaderFooterType перечисление. Определяет тип верхнего или нижнего колонтитула в файле Word на С#.
+description: Откройте для себя перечисление Aspose.Words.HeaderFooterType для легкой идентификации типов заголовков и нижних колонтитулов в документах Word. Улучшите обработку документов сегодня!
 type: docs
-weight: 3120
+weight: 3550
 url: /ru/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
 
-Определяет тип верхнего или нижнего колонтитула в файле Word.
+Определяет тип верхнего или нижнего колонтитула, найденного в файле Word.
 
 ```csharp
 public enum HeaderFooterType
@@ -21,9 +21,9 @@ public enum HeaderFooterType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | HeaderEven | `0` | Заголовок для четных страниц. |
-| HeaderPrimary | `1` | Основной заголовок, также используется для страниц с нечетными номерами. |
+| HeaderPrimary | `1` | Основной заголовок, также используется для нечетных страниц. |
 | FooterEven | `2` | Нижний колонтитул для четных страниц. |
-| FooterPrimary | `3` | Основной нижний колонтитул, также используется для страниц с нечетными номерами. |
+| FooterPrimary | `3` | Основной нижний колонтитул, также используется для нечетных страниц. |
 | HeaderFirst | `4` | Заголовок первой страницы раздела. |
 | FooterFirst | `5` | Нижний колонтитул первой страницы раздела. |
 
@@ -35,11 +35,11 @@ public enum HeaderFooterType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+// Укажите, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
+// Создаем заголовки, затем добавляем в документ три страницы для отображения каждого типа заголовков.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

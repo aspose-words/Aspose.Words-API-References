@@ -3,7 +3,7 @@ title: PageSetup.PageStartingNumber
 linktitle: PageStartingNumber
 articleTitle: PageStartingNumber
 second_title: Aspose.Words per .NET
-description: PageSetup PageStartingNumber proprietà. Ottiene o imposta il numero di pagina iniziale della sezione in C#.
+description: Scopri la proprietà PageStartingNumber di PageSetup per personalizzare facilmente il numero di pagina iniziale del tuo documento, migliorando l'organizzazione e la chiarezza.
 type: docs
 weight: 330
 url: /it/net/aspose.words/pagesetup/pagestartingnumber/
@@ -18,7 +18,7 @@ public int PageStartingNumber { get; set; }
 
 ## Osservazioni
 
-Il[`RestartPageNumbering`](../restartpagenumbering/)proprietà, se impostata su`falso` , sovrascriverà the `PageStartingNumber` proprietà in modo che la numerazione delle pagine possa continuare dalla sezione precedente.
+Il[`RestartPageNumbering`](../restartpagenumbering/) proprietà, se impostata su`falso` , sovrascriverà the `PageStartingNumber` proprietà in modo che la numerazione delle pagine possa continuare dalla sezione precedente.
 
 ## Esempi
 
@@ -40,17 +40,17 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Sposta il generatore di documenti sull'intestazione principale della prima sezione,
+// Sposta il generatore di documenti nell'intestazione primaria della prima sezione,
 // che verrà visualizzata in ogni pagina di quella sezione.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Inserisci un campo PAGINA, che visualizzerà il numero della pagina corrente.
+// Inserire un campo PAGINA, che visualizzerà il numero della pagina corrente.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Configura la sezione in modo che il conteggio delle pagine visualizzate nei campi PAGE inizi da 5.
-// Inoltre, configura tutti i campi PAGE per visualizzare i relativi numeri di pagina utilizzando numeri romani maiuscoli.
+// Configurare la sezione in modo che il conteggio delle pagine visualizzato nei campi PAGE parta da 5.
+// Inoltre, configura tutti i campi PAGE in modo che visualizzino i numeri di pagina utilizzando numeri romani maiuscoli.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
@@ -64,8 +64,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Configura la sezione in modo che il conteggio delle pagine visualizzate nei campi PAGE inizi da 10.
-// Inoltre, configura tutti i campi PAGE per visualizzare i numeri di pagina utilizzando numeri arabi.
+// Configurare la sezione in modo che il conteggio delle pagine visualizzato nei campi PAGE parta da 10.
+// Inoltre, configura tutti i campi PAGE in modo che visualizzino i numeri di pagina utilizzando numeri arabi.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

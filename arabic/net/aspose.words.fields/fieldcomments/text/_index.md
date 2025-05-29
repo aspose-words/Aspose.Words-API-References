@@ -3,14 +3,14 @@ title: FieldComments.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: FieldComments Text ملكية. الحصول على نص التعليقات أو تعيينه في C#.
+description: قم بإدارة تعليقاتك بسهولة باستخدام خاصية نص FieldComments—احصل على نص التعليق أو قم بتعيينه بسهولة لتحسين تفاعل المستخدم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcomments/text/
 ---
 ## FieldComments.Text property
 
-الحصول على نص التعليقات أو تعيينه.
+يحصل على نص التعليقات أو يعينه.
 
 ```csharp
 public string Text { get; set; }
@@ -24,7 +24,7 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين قيمة لخاصية "التعليقات" المضمنة في المستند.
+// تعيين قيمة لخاصية "التعليقات" المضمنة في المستند.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // قم بإنشاء حقل التعليقات لعرض قيمة تلك الخاصية المضمنة.
@@ -34,9 +34,9 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// إذا أعطينا قيمة خاصية النص لحقل التعليقات وقمنا بتحديثها، فسيقوم الحقل بذلك
-// استبدل القيمة الحالية لخاصية "التعليقات" المضمنة بقيمة خاصية النص الخاصة بها،
-// ثم قم بعرض القيمة الجديدة.
+// إذا قمنا بإعطاء قيمة خاصية النص لحقل التعليقات وقمنا بتحديثها، فسيصبح الحقل
+//استبدل القيمة الحالية للخاصية المضمنة "التعليقات" بقيمة خاصية النص الخاصة بها،
+//ثم عرض القيمة الجديدة.
 field.Text = "My overriding comment.";
 field.Update();
 

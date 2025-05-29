@@ -3,14 +3,14 @@ title: Cluster
 linktitle: Cluster
 articleTitle: Cluster
 second_title: Aspose.Words per .NET
-description: Cluster costruttore. Inizializza la nuova istanza di questa classe in C#.
+description: Crea potenti istanze di cluster senza sforzo con il nostro costruttore. Aumenta l'efficienza e la scalabilità del tuo progetto oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/cluster/cluster/
 ---
 ## Cluster constructor
 
-Inizializza la nuova istanza di questa classe.
+Inizializza una nuova istanza di questa classe.
 
 ```csharp
 public Cluster(int[] codepoints, Glyph[] glyphs)
@@ -19,7 +19,7 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | codepoints | Int32[] | Matrice di punti Unicode che compongono un grafema. |
-| glyphs | Glyph[] | Matrice di[`Glyph`](../../glyph/)&gt;comporre un grafema. |
+| glyphs | Glyph[] | Matrice di[`Glyph`](../../glyph/)&gt; comporre un grafema. |
 
 ### Guarda anche
 

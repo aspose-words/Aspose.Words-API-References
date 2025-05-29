@@ -3,14 +3,14 @@ title: AxisBound
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words för .NET
-description: AxisBound byggare. Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av en ordbehandlingsapplikation  i C#.
+description: Skapa enkelt dynamiska axelgränser med AxisBound-konstruktorn, vilket gör att ditt ordbehandlingsprogram automatiskt kan bestämma optimala layouter för en förbättrad användarupplevelse.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av en ordbehandlingsapplikation .
+Skapar en ny instans som anger att axelgränsen ska bestämmas automatiskt av ett ordbehandlingsprogram.
 
 ```csharp
 public AxisBound()
@@ -30,10 +30,10 @@ Chart chart = chartShape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en serie med två decimaler. Den första matrisen innehåller X-värdena,
+// Lägg till en serie med två decimalmatriser. Den första matrisen innehåller X-värdena,
 // och den andra innehåller motsvarande Y-värden för punkter i punktdiagrammet.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // Som standard tillämpas standardskalning på grafens X- och Y-axlar,
@@ -41,7 +41,7 @@ chart.Series.Add("Series 1",
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
 // Vi kan definiera våra egna axelgränser.
-// I det här fallet kommer vi att få både X- och Y-axellinjalerna att visa ett intervall på 0 till 10.
+// I det här fallet kommer vi att visa ett intervall från 0 till 10 på både X- och Y-axelns linjaler.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -65,7 +65,7 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
 // Vi kan också sätta axelgränser i form av datum, vilket begränsar diagrammet till en period.
-// Om du ställer in intervallet till 1980-1990 utelämnas de två av serievärdena
+// Om intervallet sätts till 1980-1990 utelämnas de två serievärdena
 // som ligger utanför intervallet från grafen.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
@@ -91,7 +91,7 @@ public AxisBound(double value)
 
 ## Exempel
 
-Visar hur man infogar diagram med datum/tidsvärden.
+Visar hur man infogar ett diagram med datum-/tidsvärden.
 
 ```csharp
 Document doc = new Document();
@@ -103,7 +103,7 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie som innehåller datum/tid-värden för X-axeln och respektive decimalvärden för Y-axeln.
+// Lägg till en anpassad serie som innehåller datum-/tidsvärden för X-axeln och respektive decimalvärden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -112,12 +112,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Sätt nedre och övre gränser för X-axeln.
+// Ange nedre och övre gränser för X-axeln.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Ställ in X-axelns huvudenheter till en vecka och de mindre enheterna till en dag.
+// Ställ in de större enheterna på X-axeln till en vecka och de mindre enheterna till en dag.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -128,7 +128,7 @@ xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
@@ -150,7 +150,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(*DateTime*) {#constructor_2}
 
-Skapar en axelgräns representerad som datum och tid värde.
+Skapar en axelgräns representerad som ett datum- och tidsvärde.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -158,7 +158,7 @@ public AxisBound(DateTime datetime)
 
 ## Exempel
 
-Visar hur man infogar diagram med datum/tidsvärden.
+Visar hur man infogar ett diagram med datum-/tidsvärden.
 
 ```csharp
 Document doc = new Document();
@@ -170,7 +170,7 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie som innehåller datum/tid-värden för X-axeln och respektive decimalvärden för Y-axeln.
+// Lägg till en anpassad serie som innehåller datum-/tidsvärden för X-axeln och respektive decimalvärden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -179,12 +179,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Sätt nedre och övre gränser för X-axeln.
+// Ange nedre och övre gränser för X-axeln.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Ställ in X-axelns huvudenheter till en vecka och de mindre enheterna till en dag.
+// Ställ in de större enheterna på X-axeln till en vecka och de mindre enheterna till en dag.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -195,7 +195,7 @@ xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

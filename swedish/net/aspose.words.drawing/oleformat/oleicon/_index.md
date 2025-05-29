@@ -3,14 +3,14 @@ title: OleFormat.OleIcon
 linktitle: OleIcon
 articleTitle: OleIcon
 second_title: Aspose.Words för .NET
-description: OleFormat OleIcon fast egendom. Hämtar ritaspekten för OLEobjektet. NärSann  visas OLEobjektet som en ikon. Whenfalsk  visas OLEobjektet som innehåll i C#.
+description: Upptäck OleFormat OleIcon-egenskapen och styr visningen av OLE-objekt som ikoner eller innehåll för förbättrad användarupplevelse och sömlös integration i dina applikationer.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-Hämtar ritaspekten för OLE-objektet. När`Sann` , visas OLE-objektet som en ikon. When`falsk` , visas OLE-objektet som innehåll.
+Hämtar ritningsaspekten av OLE-objektet. När`sann` visas OLE-objektet som en ikon. När`falsk` , OLE-objektet visas som innehåll.
 
 ```csharp
 public bool OleIcon { get; }
@@ -18,7 +18,7 @@ public bool OleIcon { get; }
 
 ## Anmärkningar
 
-Aspose.Words tillåter inte att ställa in den här egenskapen för att undvika förvirring. Om du kunde ändra ritaspekten i Aspose.Words, skulle Microsoft Word fortfarande visa OLE-objektet i dess original ritaspekt tills du redigerar eller uppdaterar OLE-objektet i Microsoft Word.
+Aspose.Words tillåter inte att den här egenskapen anges för att undvika förvirring. Om du kunde ändra ritningsaspekten i Aspose.Words, skulle Microsoft Word fortfarande visa OLE-objektet i dess ursprungliga ritningsaspekt tills du redigerar eller uppdaterar OLE-objektet i Microsoft Word.
 
 ## Exempel
 
@@ -59,7 +59,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

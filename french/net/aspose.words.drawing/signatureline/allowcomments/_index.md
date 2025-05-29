@@ -3,14 +3,14 @@ title: SignatureLine.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words pour .NET
-description: SignatureLine AllowComments propriété. Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signer. La valeur par défaut de cette propriété estFAUX  en C#.
+description: Découvrez la propriété SignatureLine AllowComments, qui permet aux signataires d'ajouter des commentaires dans la boîte de dialogue Signature pour un retour amélioré. La valeur par défaut est « false ».
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/signatureline/allowcomments/
 ---
 ## SignatureLine.AllowComments property
 
-Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signer. La valeur par défaut de cette propriété est`FAUX` .
+Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signature. La valeur par défaut de cette propriété est`FAUX` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Insère une forme qui contiendra une ligne de signature, dont nous allons
-// personnalisez à l'aide de l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
-// Si on insère une forme dont les coordonnées proviennent du coin inférieur droit de la page,
-// nous devrons fournir des coordonnées x et y négatives pour faire apparaître la forme.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Insérer une forme qui contiendra une ligne de signature, dont nous allons
+// personnaliser en utilisant l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
+// Si nous insérons une forme dont les coordonnées proviennent du coin inférieur droit de la page,
+// nous devrons fournir des coordonnées x et y négatives pour mettre la forme en vue.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Vérifier les propriétés de notre ligne de signature via son objet Shape.
+// Vérifiez les propriétés de notre ligne de signature via son objet Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

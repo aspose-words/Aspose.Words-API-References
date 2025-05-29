@@ -3,14 +3,14 @@ title: ChartXValue.FromMultilevelValue
 linktitle: FromMultilevelValue
 articleTitle: FromMultilevelValue
 second_title: Aspose.Words för .NET
-description: ChartXValue FromMultilevelValue metod. Skapar enChartXValue instans avMultilevel typ i C#.
+description: Upptäck metoden ChartXValue FromMultilevelValue för att enkelt skapa mångsidiga Multilevel ChartXValue-instanser för förbättrad datavisualisering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
 ---
 ## ChartXValue.FromMultilevelValue method
 
-Skapar en[`ChartXValue`](../) instans avMultilevel typ.
+Skapar en[`ChartXValue`](../) exempel påMultilevel typ.
 
 ```csharp
 public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)

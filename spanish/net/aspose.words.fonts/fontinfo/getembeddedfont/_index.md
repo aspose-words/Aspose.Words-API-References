@@ -3,9 +3,9 @@ title: FontInfo.GetEmbeddedFont
 linktitle: GetEmbeddedFont
 articleTitle: GetEmbeddedFont
 second_title: Aspose.Words para .NET
-description: FontInfo GetEmbeddedFont método. Obtiene un archivo de fuente incrustado específico en C#.
+description: Descubra el método GetEmbeddedFont de FontInfo para recuperar fácilmente archivos de fuentes incrustadas específicas y mejorar sus proyectos de diseño con una tipografía perfecta.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
 ## FontInfo.GetEmbeddedFont method
@@ -18,12 +18,12 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| format | EmbeddedFontFormat | Especifica el formato de fuente que se recuperará. |
-| style | EmbeddedFontStyle | Especifica el estilo de fuente que se recuperará. |
+| format | EmbeddedFontFormat | Especifica el formato de fuente a recuperar. |
+| style | EmbeddedFontStyle | Especifica el estilo de fuente a recuperar. |
 
 ### Valor_devuelto
 
-Devoluciones`nulo`si la fuente especificada no está incrustada.
+Devoluciones`nulo` si la fuente especificada no está incrustada.
 
 ## Ejemplos
 
@@ -36,8 +36,8 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
-// Necesitamos saber el formato correcto antes de poder extraer la fuente.
+// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+//Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));

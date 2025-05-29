@@ -3,26 +3,34 @@ title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
 second_title: Aspose.Words für .NET
-description: Fill ForeTintAndShade eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Vordergrundfarbe heller oder dunkler macht in C#.
+description: Passen Sie die Eigenschaft „ForeTintAndShade“ an, um Ihre Vordergrundfarbe einfach aufzuhellen oder abzudunkeln und so Ihr Design mit Präzision und Kreativität zu verbessern.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
 
-Ruft einen Double-Wert ab oder legt diesen fest, der die Vordergrundfarbe heller oder dunkler macht.
+Ruft einen Double-Wert ab oder legt ihn fest, der die Vordergrundfarbe aufhellt oder abdunkelt.
 
 ```csharp
 public double ForeTintAndShade { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentOutOfRangeException | Wird ausgelöst, wenn diese Eigenschaft auf einen Wert kleiner als -1 oder größer als 1 gesetzt wird. |
+
 ## Bemerkungen
 
-Die zulässigen Werte liegen für diese Eigenschaft im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
+Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (dunkelster Wert) bis 1 (hellster Wert).
+
+Null (0) ist neutral.
 
 ## Beispiele
 
-Zeigt, wie man die Aufhellung und Abdunkelung der Vordergrundschriftfarbe verwaltet.
+Zeigt, wie Sie die Vordergrundschriftfarbe aufhellen und abdunkeln.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

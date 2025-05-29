@@ -2,15 +2,15 @@
 title: SaveOptions.PrettyFormat
 linktitle: PrettyFormat
 articleTitle: PrettyFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: SaveOptions PrettyFormat 财产. 当真的在适用的情况下漂亮的格式输出 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 SaveOptions 的 PrettyFormat 属性增强您的输出效果。启用该属性可获得更清晰、结构更合理的结果。默认值为 false。发现不同之处！
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-当`真的`，在适用的情况下漂亮的格式输出。 默认值为`错误的`.
+当`真的` ，在适用的情况下以漂亮的格式输出。 默认值为`错误的`.
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -18,11 +18,11 @@ public bool PrettyFormat { get; set; }
 
 ## 评论
 
-设置`真的`使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出人类可读。 对于测试或调试很有用。
+设置为`真的`使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出易于阅读。 对于测试或调试很有用。
 
 ## 例子
 
-演示如何增强已保存 .html 文档的原始代码的可读性。
+展示如何增强已保存的 .html 文档的原始代码的可读性。
 
 ```csharp
 Document doc = new Document();
@@ -33,29 +33,30 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// 启用漂亮格式可以通过添加制表符和换行符使原始 html 代码更具可读性。
+// 通过启用漂亮的格式，可以通过添加制表符和换行符使原始 html 代码更具可读性。
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
+string newLine = Environment.NewLine;
 
 if (usePrettyFormat)
     Assert.AreEqual(
-        "<html>\r\n" +
-                    "\t<head>\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n" +
-                        "\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\r\n" +
-                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />\r\n" +
-                        "\t\t<title>\r\n" +
-                        "\t\t</title>\r\n" +
-                    "\t</head>\r\n" +
-                    "\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">\r\n" +
-                        "\t\t<div>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span>Hello world!</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                            "\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">\r\n" +
-                                "\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>\r\n" +
-                            "\t\t\t</p>\r\n" +
-                        "\t\t</div>\r\n" +
-                    "\t</body>\r\n</html>", 
+        $"<html>{newLine}" +
+                    $"\t<head>{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />{newLine}" +
+                        $"\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />{newLine}" +
+                        $"\t\t<meta name=\"generator\" content=\"{BuildVersionInfo.Product} {BuildVersionInfo.Version}\" />{newLine}" +
+                        $"\t\t<title>{newLine}" +
+                        $"\t\t</title>{newLine}" +
+                    $"\t</head>{newLine}" +
+                    $"\t<body style=\"font-family:'Times New Roman'; font-size:12pt\">{newLine}" +
+                        $"\t\t<div>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span>Hello world!</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                            $"\t\t\t<p style=\"margin-top:0pt; margin-bottom:0pt\">{newLine}" +
+                                $"\t\t\t\t<span style=\"-aw-import:ignore\">&#xa0;</span>{newLine}" +
+                            $"\t\t\t</p>{newLine}" +
+                        $"\t\t</div>{newLine}" +
+                    $"\t</body>{newLine}</html>", 
         html);
 else
     Assert.AreEqual(

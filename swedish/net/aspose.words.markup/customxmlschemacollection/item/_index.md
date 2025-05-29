@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Item fast egendom. Hämtar eller ställer in elementet vid angivet index i C#.
+description: Upptäck hur du enkelt hanterar CustomXmlSchemaCollection-objekt. Lär dig att hämta eller ange element efter index för effektiviserad XML-datahantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlschemacollection/item/
 ---
 ## CustomXmlSchemaCollection indexer
 
-Hämtar eller ställer in elementet vid angivet index.
+Hämtar eller ställer in elementet vid det angivna indexet.
 
 ```csharp
 public string this[int index] { get; set; }
@@ -39,15 +39,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

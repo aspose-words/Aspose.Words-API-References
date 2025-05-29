@@ -3,14 +3,14 @@ title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
 second_title: Aspose.Words لـ .NET
-description: CustomPart RelationshipType ملكية. الحصول على أو تعيين نوع العلاقة من الجزء الأصلي إلى هذا الجزء المخصص في C#.
+description: اكتشف خاصية CustomPart RelationshipType لإدارة العلاقات وتحديدها بسهولة بين الأجزاء الأصلية والأجزاء المخصصة لتحسين الوظائف.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-الحصول على أو تعيين نوع العلاقة من الجزء الأصلي إلى هذا الجزء المخصص.
+يحصل على نوع العلاقة من الجزء الرئيسي إلى هذا الجزء المخصص أو يعينه.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -18,25 +18,25 @@ public string RelationshipType { get; set; }
 
 ## ملاحظات
 
-يجب أن يكون نوع العلاقة للجزء المخصص "غير معروف"، على سبيل المثال، نوع العلاقة المخصص، وليس أحد أنواع العلاقات المحددة في ISO/IEC 29500.
+يجب أن يكون نوع العلاقة للجزء المخصص "غير معروف"، على سبيل المثال نوع علاقة مخصصة، وليس أحد أنواع العلاقات المحددة ضمن ISO/IEC 29500.
 
-القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
+القيمة الافتراضية هي سلسلة نصية فارغة. يجب أن تكون القيمة الصحيحة سلسلة نصية غير فارغة.
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ListExportMode
 linktitle: ListExportMode
 articleTitle: ListExportMode
-second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ListExportMode mülk. Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsayılan değerMarkdownSyntax  C#'da.
+second_title: .NET için Aspose.Words
+description: MarkdownSaveOptions'ın liste öğelerinin nasıl çıktı alınacağını kontrol eden ListExportMode özelliğini keşfedin. Esnek MarkdownSyntax ile dosyalarınızı optimize edin!
 type: docs
-weight: 60
+weight: 110
 url: /tr/net/aspose.words.saving/markdownsaveoptions/listexportmode/
 ---
 ## MarkdownSaveOptions.ListExportMode property
 
-Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsayılan değer:MarkdownSyntax .
+Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsayılan değerMarkdownSyntax .
 
 ```csharp
 public MarkdownListExportMode ListExportMode { get; set; }
@@ -18,13 +18,13 @@ public MarkdownListExportMode ListExportMode { get; set; }
 
 ## Notlar
 
-Bu özellik olarak ayarlandığındaPlainText tüm liste etiketleri are kullanılarak güncellendi[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)gerçek değerleri ile ihraç edilmektedir. Bu tür listeler , Markdown formatıyla uyumlu olmayabilir ve bu durumda içe aktarma sırasında düz metin olarak tanınacaktır.
+Bu özellik şu şekilde ayarlandığında:PlainText tüm liste etiketleri are kullanılarak güncellendi[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) ve gerçek değerleriyle dışa aktarılır. Bu tür lists Markdown biçimiyle uyumlu olmayabilir ve bu durumda içe aktarıldığında düz metin olarak tanınacaktır.
 
-Bu özellik olarak ayarlandığındaMarkdownSyntax, yazar Markdown tarafından otomatik modda liste öğelerinin numaralandırılmasına izin verecek şekildeexport liste öğelerini aktarmaya çalışır.
+Bu özellik şu şekilde ayarlandığında:MarkdownSyntaxYazar, liste öğelerini Markdown tarafından otomatik modda numaralandırmaya izin verecek şekilde export liste öğelerini denemeye çalışır.
 
 ## Örnekler
 
-Markdown belgesine yazılacak öğelerin nasıl listeleneceğini gösterir.
+Öğelerin listelenmesinin markdown belgesine nasıl yazılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "List item.docx");

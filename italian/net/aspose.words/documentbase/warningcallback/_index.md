@@ -3,14 +3,14 @@ title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words per .NET
-description: DocumentBase WarningCallback proprietà. Chiamato durante varie procedure di elaborazione dei documenti quando viene rilevato un problema che potrebbe causare la perdita di fedeltà dei dati o della formattazione in C#.
+description: Scopri la proprietà WarningCallback di DocumentBase, fondamentale per garantire l'integrità dei dati durante l'elaborazione dei documenti, rilevando potenziali problemi di formattazione.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Chiamato durante varie procedure di elaborazione dei documenti quando viene rilevato un problema che potrebbe causare la perdita di fedeltà dei dati o della formattazione.
+Chiamato durante varie procedure di elaborazione dei documenti quando viene rilevato un problema che potrebbe causare una perdita di fedeltà dei dati o della formattazione.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,11 +18,11 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Osservazioni
 
-Il documento può generare avvisi in qualsiasi fase della sua esistenza, quindi è importante impostare la richiamata degli avvisi il più presto possibile per evitare la perdita di avvisi. Ad esempio, proprietà come[`PageCount`](../../document/pagecount/) crea effettivamente il layout del documento che verrà utilizzato successivamente per il rendering e gli avvisi sul layout potrebbero andare persi se il callback di avviso viene specificato solo per le chiamate di rendering successive.
+Un documento può generare avvisi in qualsiasi fase della sua esistenza, quindi è importante impostare il callback di avviso il prima possibile per evitare la perdita di avvisi. Ad esempio, proprietà come[`PageCount`](../../document/pagecount/) crea effettivamente il layout del documento che verrà utilizzato in seguito per il rendering e gli avvisi di layout potrebbero andare persi se il callback di avviso viene specificato solo per le chiamate di rendering successive.
 
 ## Esempi
 
-Mostra come utilizzare l'interfaccia IWarningCallback per monitorare gli avvisi di sostituzione dei caratteri.
+Mostra come utilizzare l'interfaccia IWarningCallback per monitorare gli avvisi di sostituzione dei font.
 
 ```csharp
 public void SubstitutionWarning()
@@ -36,15 +36,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Memorizza la raccolta corrente di fonti di carattere, che sarà la fonte di carattere predefinita per ogni documento
-    // per il quale non specifichiamo una fonte di carattere diversa.
+    // Memorizza la raccolta corrente di sorgenti di font, che sarà la sorgente di font predefinita per ogni documento
+    // per il quale non specifichiamo una sorgente font diversa.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // A scopo di test, imposteremo Aspose.Words per cercare i caratteri solo in una cartella che non esiste.
+    // A scopo di test, imposteremo Aspose.Words in modo che cerchi i font solo in una cartella che non esiste.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Durante il rendering del documento, non sarà possibile trovare il carattere "Times New Roman".
-    // Ciò causerà un avviso di sostituzione del carattere, che il nostro callback rileverà.
+    // Durante il rendering del documento, non sarà possibile trovare il font "Times New Roman".
+    // Ciò genererà un avviso di sostituzione del font, che verrà rilevato dal nostro callback.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -52,7 +52,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -70,28 +70,28 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un font mancante tra le sorgenti di font disponibili.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
+    // Apre un documento contenente testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
+    // Assegna un callback per gestire gli avvisi di sostituzione dei font.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
+    // Imposta un nome di font predefinito e abilita la sostituzione dei font.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    // Dopo la sostituzione del font, è necessario utilizzare le metriche originali.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
+    // Se salviamo un documento con un font mancante, riceveremo un avviso di sostituzione del font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -107,7 +107,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

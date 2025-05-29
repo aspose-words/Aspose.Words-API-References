@@ -2,8 +2,8 @@
 title: FieldTime
 linktitle: FieldTime
 articleTitle: FieldTime
-second_title: Aspose.Words for .NET
-description: FieldTime inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz proje yönetimi için FieldTime'ın güçlü oluşturucusunu keşfedin. İş akışınızı sezgisel, varsayılan oluşturucumuzla bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldtime/fieldtime/

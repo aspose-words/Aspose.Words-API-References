@@ -3,7 +3,7 @@ title: Table.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words для .NET
-description: Table PreferredWidth свойство. Получает или задает предпочтительную ширину таблицы на С#.
+description: Узнайте, как использовать свойство Table PreferredWidth, чтобы легко настроить и оптимизировать макет таблицы для улучшения дизайна и удобства пользователя.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.tables/table/preferredwidth/
@@ -22,7 +22,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Примеры
 
-Показывает, как настроить автоматическое размещение таблицы на 50 % ширины страницы.
+Показывает, как настроить автоматическое подгонку таблицы под ширину страницы (50%).
 
 ```csharp
 Document doc = new Document();

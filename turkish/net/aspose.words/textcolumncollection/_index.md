@@ -2,17 +2,17 @@
 title: TextColumnCollection Class
 linktitle: TextColumnCollection
 articleTitle: TextColumnCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TextColumnCollection sınıf. Bir koleksiyonTextColumn bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki metin sütunlarını zahmetsizce yönetmek için Aspose.Words.TextColumnCollection'ı keşfedin. Belge biçimlendirmenizi kolaylıkla geliştirin!
 type: docs
-weight: 6400
+weight: 7250
 url: /tr/net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
 
-Bir koleksiyon[`TextColumn`](../textcolumn/) bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler.
+Bir koleksiyon[`TextColumn`](../textcolumn/) bir belgenin bir bölümündeki tüm metin sütunlarını temsil eden nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bölümlerle Çalışmak](https://docs.aspose.com/words/net/working-with-sections/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bölümlerle Çalışma](https://docs.aspose.com/words/net/working-with-sections/) belgeleme makalesi.
 
 ```csharp
 public class TextColumnCollection
@@ -22,32 +22,32 @@ public class TextColumnCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Belgenin bölümündeki sütunların sayısını alır. |
+| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Bir belgenin bölümündeki sütun sayısını alır. |
 | [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur. |
-| [Item](../../aspose.words/textcolumncollection/item/) { get; } | Belirtilen dizindeki bir metin sütununu döndürür. |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | Ne zaman`doğru` sütunların arasına dikey bir çizgi ekler. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | Sütunlar eşit aralıklarla yerleştirildiğinde, her sütun arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar. |
-| [Width](../../aspose.words/textcolumncollection/width/) { get; } | Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini alır. |
+| [Item](../../aspose.words/textcolumncollection/item/) { get; } | Belirtilen dizinde bir metin sütunu döndürür. |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | Ne zaman`doğru` , sütunlar arasına dikey bir çizgi ekler. |
+| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | Sütunlar eşit aralıklı olduğunda, her sütun arasındaki boşluk miktarını noktalar halinde alır veya ayarlar. |
+| [Width](../../aspose.words/textcolumncollection/width/) { get; } | Sütunlar eşit aralıklı olduğunda sütunların genişliğini alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Metni belirtilen sayıda metin sütunu halinde düzenler. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Metni belirtilen sayıda metin sütununa düzenler. |
 
 ## Notlar
 
-Kullanmak[`SetCount`](./setcount/) Metin sütunlarının sayısını ayarlamak için.
+Kullanmak[`SetCount`](./setcount/) metin sütunlarının sayısını ayarlamak için.
 
-Tüm sütunların eşit genişliğe ve eşit aralıklara sahip olmasını sağlamak için[`EvenlySpaced`](./evenlyspaced/) ile`doğru` ve sütunlar arasındaki boşluk miktarını belirtin[`Spacing`](./spacing/). MS Word will sütun genişliklerini otomatik olarak hesaplar.
+Tüm sütunların eşit genişlikte ve eşit aralıklı olmasını sağlamak için şunu ayarlayın:[`EvenlySpaced`](./evenlyspaced/) ile`doğru` ve sütunlar arasındaki boşluk miktarını belirtin[`Spacing`](./spacing/). MS Word sütun genişliklerini otomatik olarak hesaplayacaktır.
 
-eğer varsa[`EvenlySpaced`](./evenlyspaced/) ayarlanır`YANLIŞ` , her sütunu için genişliği ve aralığı ayrı ayrı belirtmeniz gerekir. Bireye erişmek için dizin oluşturucuyu kullanın[`TextColumn`](../textcolumn/) nesneler.
+Eğer varsa[`EvenlySpaced`](./evenlyspaced/) ayarlandı`YANLIŞ` , her sütunu için genişliği ve aralığı ayrı ayrı belirtmeniz gerekir. Ayrı ayrı erişmek için dizinleyiciyi kullanın[`TextColumn`](../textcolumn/) nesneler.
 
-Özel sütun genişlikleri kullanırken, tüm sütun genişliklerinin ve aralarındaki aralıkların (x000d_) toplamının, sayfa genişliği eksi sol ve sağ sayfa kenar boşluklarına eşit olduğundan emin olun.
+Özel sütun genişlikleri kullanırken, tüm sütun genişlikleri ve aralarındaki boşlukların toplamının sayfa genişliğinden sol ve sağ sayfa kenar boşluklarının çıkarılmasıyla elde edilen değere eşit olduğundan emin olun.
 
 ## Örnekler
 
-Bir bölümde birden çok eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
+Bir bölümde birden fazla eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

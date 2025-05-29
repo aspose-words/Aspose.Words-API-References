@@ -3,14 +3,14 @@ title: RowCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: RowCollection Item eigendom. Ruft a abRow am angegebenen Index in C#.
+description: Greifen Sie mit der RowCollection-Elementeigenschaft mühelos auf jede Zeile zu. Rufen Sie Daten schnell am gewünschten Index ab und sorgen Sie so für eine nahtlose Datenverwaltung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/rowcollection/item/
 ---
 ## RowCollection indexer
 
-Ruft a ab[`Row`](../../row/) am angegebenen Index.
+Ruft eine[`Row`](../../row/) am angegebenen Index.
 
 ```csharp
 public Row this[int index] { get; }
@@ -18,21 +18,21 @@ public Row this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index in die Sammlung. |
+| index | Ein Index zur Sammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ auf eine Zeilensammlung anwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ auf eine Zellensammlung anwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

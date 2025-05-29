@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words для .NET
-description: CustomXmlPartCollection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор CustomXmlPartCollection — ваше решение для эффективного управления частями XML. Упростите кодирование с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/customxmlpartcollection/customxmlpartcollection/

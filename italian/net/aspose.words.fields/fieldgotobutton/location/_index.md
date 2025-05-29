@@ -3,14 +3,14 @@ title: FieldGoToButton.Location
 linktitle: Location
 articleTitle: Location
 second_title: Aspose.Words per .NET
-description: FieldGoToButton Location proprietà. Ottiene o imposta il nome di un segnalibro un numero di pagina o qualche altro elemento a cui passare in C#.
+description: Scopri la proprietà Posizione FieldGoToButton, imposta facilmente segnalibri, numeri di pagina o elementi per una navigazione fluida e un'esperienza utente migliorata.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldgotobutton/location/
 ---
 ## FieldGoToButton.Location property
 
-Ottiene o imposta il nome di un segnalibro, un numero di pagina o qualche altro elemento a cui passare.
+Ottiene o imposta il nome di un segnalibro, un numero di pagina o un altro elemento a cui passare.
 
 ```csharp
 public string Location { get; set; }
@@ -18,21 +18,21 @@ public string Location { get; set; }
 
 ## Esempi
 
-Mostra per inserire un campo GOTOBUTTON.
+Mostra come inserire un campo GOTOBUTTON.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiunge un campo GOTOBUTTON. Quando facciamo doppio clic su questo campo in Microsoft Word,
-// porterà il cursore del testo sul segnalibro il cui nome fa riferimento alla proprietà Location.
+// Aggiungi un campo GOTOBUTTON. Facendo doppio clic su questo campo in Microsoft Word,
+// porterà il cursore del testo sul segnalibro il cui nome è indicato dalla proprietà Location.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Inserisci un segnalibro valido per il campo a cui fare riferimento.
+// Inserire un segnalibro valido per il campo a cui fare riferimento.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

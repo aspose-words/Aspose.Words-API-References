@@ -2,10 +2,10 @@
 title: ImageData.ToStream
 linktitle: ToStream
 articleTitle: ToStream
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageData ToStream 方法. 创建并返回包含图像字节的流 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageData ToStream 方法——有效地将图像转换为字节流，以实现无缝数据处理和增强应用程序性能。
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -20,15 +20,15 @@ public Stream ToStream()
 
 如果图像字节存储在形状中，则创建并返回MemoryStream目的。
 
-如果图像已链接并存储在文件中，则打开该文件并返回FileStream目的。
+如果图像链接并存储在文件中，则打开该文件并返回FileStream目的。
 
-如果图像被链接并存储在外部 URL 中，则下载文件并返回MemoryStream目的。
+如果图像链接并存储在外部 URL 中，则下载文件并返回MemoryStream目的。
 
-调用者有责任处置流对象吗？
+处置流对象是调用者的责任吗？
 
 ## 例子
 
-演示如何从形状的原始图像数据创建图像文件。
+展示如何从形状的原始图像数据创建图像文件。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");

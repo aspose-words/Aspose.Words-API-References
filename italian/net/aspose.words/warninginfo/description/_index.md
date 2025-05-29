@@ -3,7 +3,7 @@ title: WarningInfo.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words per .NET
-description: WarningInfo Description proprietà. Restituisce la descrizione dellavviso in C#.
+description: Scopri informazioni dettagliate con la proprietà Descrizione WarningInfo, che fornisce informazioni essenziali sugli avvisi per migliorare il processo decisionale.
 type: docs
 weight: 10
 url: /it/net/aspose.words/warninginfo/description/
@@ -18,28 +18,28 @@ public string Description { get; }
 
 ## Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un font mancante tra le sorgenti di font disponibili.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
+    // Apre un documento contenente testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
+    // Assegna un callback per gestire gli avvisi di sostituzione dei font.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
+    // Imposta un nome di font predefinito e abilita la sostituzione dei font.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    // Dopo la sostituzione del font, è necessario utilizzare le metriche originali.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
+    // Se salviamo un documento con un font mancante, riceveremo un avviso di sostituzione del font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

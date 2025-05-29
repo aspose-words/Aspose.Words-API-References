@@ -2,15 +2,15 @@
 title: EditableRange.EditorGroup
 linktitle: EditorGroup
 articleTitle: EditorGroup
-second_title: 用于 .NET 的 Aspose.Words
-description: EditableRange EditorGroup 财产. 返回或设置别名或编辑组用于确定是否允许当前用户 编辑此可编辑范围 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 EditableRange EditorGroup 属性轻松管理用户权限，允许控制编辑访问以增强协作。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/editablerange/editorgroup/
 ---
 ## EditableRange.EditorGroup property
 
-返回或设置别名（或编辑组），用于确定是否允许当前用户 编辑此可编辑范围。
+返回或设置一个别名（或编辑组），用于确定当前用户是否允许编辑此可编辑范围。
 
 ```csharp
 public EditorType EditorGroup { get; set; }
@@ -18,11 +18,11 @@ public EditorType EditorGroup { get; set; }
 
 ## 评论
 
-对于具体的可编辑范围，单个用户和编辑者组不能同时设置， 如果其中一个设置了，另一个就会被清除。
+单个用户与编辑者组不能同时设置具体的可编辑范围， 如果设置了一个，另一个将被清除。
 
 ## 例子
 
-演示如何创建嵌套的可编辑范围。
+展示如何创建嵌套的可编辑范围。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// 当前，文档生成器的节点插入光标位于多个正在进行的可编辑范围内。
+// 当前，文档构建器的节点插入光标位于多个正在进行的可编辑范围内。
 // 当我们想要在这种情况下结束可编辑范围时，
 // 我们需要通过传递其 EditableRangeStart 节点来指定我们希望结束的范围。
 builder.EndEditableRange(innerEditableRangeStart);
@@ -50,15 +50,15 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// 如果文本区域有两个重叠的可编辑范围且具有指定的组，
-// 被两个组排除的用户组合组将无法编辑它。
+// 如果文本区域有两个具有指定组的重叠可编辑范围，
+// 被两个组排除的用户组合将无法对其进行编辑。
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
 doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 ```
 
-展示如何将可编辑范围的编辑权限限制为特定组/用户。
+展示如何将可编辑范围的编辑权限限制给特定的组/用户。
 
 ```csharp
 public void Visitor()
@@ -71,7 +71,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
+    // 有两种互斥的方法来缩小允许的编辑器列表。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -80,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - 指定允许用户关联的组：
+    // 2 - 指定允许的用户所关联的组：
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 收集字符串中访问过的可编辑范围的属性和内容。
+/// 在字符串中收集已访问的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 EditableRangeStart 节点时调用。
+    /// 当在文档中遇到 EditableRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -138,7 +138,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 EditableRangeEnd 节点时调用。
+    /// 当在文档中遇到 EditableRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -150,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

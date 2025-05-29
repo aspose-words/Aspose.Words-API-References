@@ -3,9 +3,9 @@ title: DmlRenderingMode Enum
 linktitle: DmlRenderingMode
 articleTitle: DmlRenderingMode
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.DmlRenderingMode opsomming. Gibt an wie DrawingMLFormen in feste Seitenformate gerendert werden in C#.
+description: Entdecken Sie, wie Aspose.Words.Saving.DmlRenderingMode die DrawingML-Formwiedergabe für hochwertige feste Seitenformate verbessert. Optimieren Sie die visuelle Darstellung Ihrer Dokumente!
 type: docs
-weight: 4920
+weight: 5670
 url: /de/net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration
@@ -20,43 +20,43 @@ public enum DmlRenderingMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Fallback | `0` | Wenn eine Fallback-Form für DrawingML verfügbar ist, rendert Aspose.Words eine Fallback-Form anstelle von DrawingML. |
+| Fallback | `0` | Wenn eine Ersatzform für DrawingML verfügbar ist, rendert Aspose.Words die Ersatzform anstelle von DrawingML. |
 | DrawingML | `1` | Aspose.Words ignoriert die Fallback-Form von DrawingML und rendert DrawingML selbst. Dies ist der Standardmodus. |
 
 ## Beispiele
 
-Zeigt, wie Fallback-Formen beim Speichern als PDF gerendert werden.
+Zeigt, wie beim Speichern im PDF-Format Fallback-Formen gerendert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Setze die Eigenschaft „DmlRenderingMode“ auf „DmlRenderingMode.Fallback“
+// Setzen Sie die Eigenschaft „DmlRenderingMode“ auf „DmlRenderingMode.Fallback“
 // um DML-Formen durch ihre Fallback-Formen zu ersetzen.
-// Setze die Eigenschaft „DmlRenderingMode“ auf „DmlRenderingMode.DrawingML“
+// Setzen Sie die Eigenschaft „DmlRenderingMode“ auf „DmlRenderingMode.DrawingML“
 // um die DML-Formen selbst zu rendern.
 options.DmlRenderingMode = dmlRenderingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
-Zeigt, wie die Renderqualität von DrawingML-Effekten in einem Dokument konfiguriert wird, während wir es als PDF speichern.
+Zeigt, wie die Rendering-Qualität von DrawingML-Effekten in einem Dokument beim Speichern im PDF-Format konfiguriert wird.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.None“, um alle DrawingML-Effekte zu verwerfen.
 // Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Simplified“
-// um eine vereinfachte Version von DrawingML-Effekten zu rendern.
-// Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Fine“.
-// DrawingML-Effekte mit größerer Genauigkeit und auch mit höherem Verarbeitungsaufwand rendern.
+// um eine vereinfachte Version der DrawingML-Effekte zu rendern.
+// Setzen Sie die Eigenschaft "DmlEffectsRenderingMode" auf "DmlEffectsRenderingMode.Fine" auf
+// DrawingML-Effekte mit höherer Genauigkeit und auch mit höheren Verarbeitungskosten rendern.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

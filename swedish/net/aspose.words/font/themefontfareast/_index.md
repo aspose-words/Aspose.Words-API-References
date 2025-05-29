@@ -3,14 +3,14 @@ title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
 second_title: Aspose.Words för .NET
-description: Font ThemeFontFarEast fast egendom. Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
+description: Upptäck hur du kan anpassa östasiatiska teman i dina designer med Font ThemeFontFarEast. Förbättra dina projekt med unik, skräddarsydd typografi!
 type: docs
-weight: 500
+weight: 510
 url: /sv/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) objekt.
+Hämtar eller ställer in det östasiatiska tematemat i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) objekt.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontFarEast { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words für .NET
-description: IDocumentLoadingCallback Notify methode. Dies wird aufgerufen um über den Ladefortschritt des Dokuments zu informieren in C#.
+description: Verfolgen Sie den Ladevorgang von Dokumenten mühelos mit der IDocumentLoadingCallback-Notify-Methode. Verbessern Sie die Benutzerfreundlichkeit mit Echtzeit-Updates!
 type: docs
 weight: 10
 url: /de/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +18,13 @@ public void Notify(DocumentLoadingArgs args)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| args | DocumentLoadingArgs | Ein Argument der Veranstaltung. |
+| args | DocumentLoadingArgs | Ein Argument des Ereignisses. |
 
 ## Bemerkungen
 
-Der Hauptzweck dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Ladevorgang abzubrechen.
+Die Hauptverwendung dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Ladevorgang abzubrechen.
 
-Vom Fortschrittsrückruf für die Abtreibung sollte eine Ausnahme ausgelöst und im Verbrauchercode abgefangen werden.
+Für den Abbruch sollte vom Fortschrittsrückruf eine Ausnahme ausgelöst und im Verbrauchercode abgefangen werden.
 
 ## Beispiele
 
@@ -45,12 +45,12 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Problem mit der Ladedauer behandeln.
+        // Problem der Ladedauer behandeln.
     }
 }
 
 /// <summary>
-/// Das Laden eines Dokuments nach den „MaxDuration“-Sekunden abbrechen.
+/// Brechen Sie das Laden eines Dokuments nach den „MaxDuration“-Sekunden ab.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
@@ -63,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Callback-Methode, die beim Laden des Dokuments aufgerufen wurde.
+    /// Rückrufmethode, die während des Ladens des Dokuments aufgerufen wird.
     /// </summary>
     /// <param name="args">Argumente werden geladen.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -76,12 +76,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Datum und Uhrzeit, wann das Laden des Dokuments gestartet wird.
+    /// Datum und Uhrzeit des Beginns des Dokumentladevorgangs.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal zulässige Dauer in Sekunden.
+    /// Maximal zulässige Dauer in Sek.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

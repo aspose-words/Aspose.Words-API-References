@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.FontConfigSubstitution
 linktitle: FontConfigSubstitution
 articleTitle: FontConfigSubstitution
 second_title: Aspose.Words für .NET
-description: FontSubstitutionSettings FontConfigSubstitution eigendom. Einstellungen im Zusammenhang mit der Ersetzungsregel für die Schriftartkonfiguration in C#.
+description: Entdecken Sie FontSubstitutionSettings für eine optimierte Schriftkonfiguration. Entdecken Sie, wie Sie die Typografie mit effektiven Substitutionsregeln für ein besseres Design verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Einstellungen im Zusammenhang mit der Ersetzungsregel für die Schriftartkonfiguration.
+Einstellungen im Zusammenhang mit der Schriftarten-Ersetzungsregel.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }

@@ -2,15 +2,15 @@
 title: LayoutOptions.ShowHiddenText
 linktitle: ShowHiddenText
 articleTitle: ShowHiddenText
-second_title: Aspose.Words for .NET
-description: LayoutOptions ShowHiddenText mülk. Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: LayoutOptions ShowHiddenText özelliğini keşfedin, belgelerinizdeki gizli metinlerin işlenmesini kolayca kontrol edin. İçerik görünürlüğünüzü bugün optimize edin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` .
+Belgedeki gizli metnin işlenip işlenmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -18,16 +18,16 @@ public bool ShowHiddenText { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca metni değil tüm gizli içeriği etkiler.
+Bu özellik yalnızca metni değil, tüm gizli içeriği etkiler.
 
 ## Örnekler
 
-İşlenmiş bir çıktı belgesindeki metnin nasıl gizleneceğini gösterir.
+İşlenmiş çıktı belgesinde metnin nasıl gizleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Gizli metni ekleyin, ardından onu işlenmiş bir belgeden çıkarmak isteyip istemediğimizi belirtin.
+// Gizli metin ekleyin, ardından işlenmiş belgeden bunu çıkarmak isteyip istemediğimizi belirtin.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");

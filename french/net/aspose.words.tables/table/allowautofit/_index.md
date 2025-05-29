@@ -3,7 +3,7 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words pour .NET
-description: Table AllowAutoFit propriété. Permet à Microsoft Word et Aspose.Words de redimensionner automatiquement les cellules dun tableau pour les adapter à leur contenu en C#.
+description: Découvrez la propriété Table AllowAutoFit pour redimensionner sans effort les cellules des tableaux Microsoft Word et Aspose.Words, améliorant ainsi la lisibilité et la présentation de votre document.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.tables/table/allowautofit/
@@ -41,10 +41,10 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Définissez la propriété "AllowAutoFit" sur "false" pour que la table conserve les dimensions
-// de toutes ses lignes et cellules, et tronque le contenu s'il devient trop volumineux pour tenir.
-// Définissez la propriété "AllowAutoFit" sur "true" pour permettre au tableau de modifier la largeur et la hauteur de ses cellules
-// pour s'adapter à leur contenu.
+// Définissez la propriété « AllowAutoFit » sur « false » pour que le tableau conserve les dimensions
+// de toutes ses lignes et cellules, et tronque le contenu s'il devient trop grand pour tenir.
+// Définissez la propriété « AllowAutoFit » sur « true » pour permettre au tableau de modifier la largeur et la hauteur de ses cellules
+// pour accueillir leur contenu.
 table.AllowAutoFit = allowAutoFit;
 
 doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");

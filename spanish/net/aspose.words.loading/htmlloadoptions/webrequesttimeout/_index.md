@@ -3,14 +3,14 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words para .NET
-description: HtmlLoadOptions WebRequestTimeout propiedad. La cantidad de milisegundos que se deben esperar antes de que se agote el tiempo de espera de la solicitud web. El valor predeterminado es 100000 milisegundos 100 segundos en C#.
+description: Descubra la propiedad WebRequestTimeout de HtmlLoadOptions, que le permite personalizar la configuración de tiempo de espera para un rendimiento web óptimo. El valor predeterminado es 100 segundos.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-La cantidad de milisegundos que se deben esperar antes de que se agote el tiempo de espera de la solicitud web. El valor predeterminado es 100000 milisegundos (100 segundos).
+El número de milisegundos que se espera antes de que finalice el tiempo de espera de la solicitud web. El valor predeterminado es 100000 milisegundos (100 segundos).
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -18,41 +18,41 @@ public int WebRequestTimeout { get; set; }
 
 ## Observaciones
 
-El número de milisegundos que Aspose.Words espera una respuesta al cargar recursos externos (imágenes, hojas de estilo ) vinculados en documentos HTML y MHTML.
+La cantidad de milisegundos que Aspose.Words espera una respuesta al cargar recursos externos (imágenes, hojas de estilo) vinculados en documentos HTML y MHTML.
 
 ## Ejemplos
 
-Muestra cómo establecer un límite de tiempo para solicitudes web al cargar un documento con recursos externos vinculados por URL.
+Muestra cómo establecer un límite de tiempo para las solicitudes web al cargar un documento con recursos externos vinculados mediante URL.
 
 ```csharp
 public void WebRequestTimeout()
 {
-    // Crea un nuevo objeto HtmlLoadOptions y verifica su umbral de tiempo de espera para una solicitud web.
+    // Cree un nuevo objeto HtmlLoadOptions y verifique su umbral de tiempo de espera para una solicitud web.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // Al cargar un documento HTML con recursos vinculados externamente mediante una dirección web URL,
-    // Aspose.Words cancelará las solicitudes web que no logren recuperar los recursos dentro de este límite de tiempo, en milisegundos.
+    // Al cargar un documento HTML con recursos vinculados externamente mediante una URL de dirección web,
+    // Aspose.Words abortará las solicitudes web que no logren obtener los recursos dentro de este límite de tiempo, en milisegundos.
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
-    // Establece un WarningCallback que registrará todas las advertencias que ocurren durante la carga.
+    // Establezca un WarningCallback que registrará todas las advertencias que ocurran durante la carga.
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
     // Cargue dicho documento y verifique que se haya creado una forma con datos de imagen.
-    // Esta imagen vinculada requerirá una solicitud web para cargarse, que deberá completarse dentro de nuestro límite de tiempo.
+    //Esta imagen vinculada requerirá una solicitud web para cargarse, la cual deberá completarse dentro de nuestro límite de tiempo.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
         </html>
     ";
 
-    // Establece un límite de tiempo de espera excesivo e intenta cargar el documento nuevamente.
+    // Establezca un límite de tiempo de espera irrazonable e intente cargar el documento nuevamente.
     options.WebRequestTimeout = 0;
     Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
-    // Una solicitud web que no logra obtener una imagen dentro del límite de tiempo seguirá produciendo una imagen.
-    // Sin embargo, la imagen será la 'x' roja que comúnmente indica imágenes faltantes.
+    // Una solicitud web que no logra obtener una imagen dentro del límite de tiempo aún producirá una imagen.
+    // Sin embargo, la imagen será la 'x' roja que comúnmente significa que faltan imágenes.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
@@ -69,7 +69,7 @@ public void WebRequestTimeout()
 }
 
 /// <summary>
-/// Almacena todas las advertencias que ocurren durante una operación de carga de documentos en una Lista.
+/// Almacena todas las advertencias que ocurren durante una operación de carga de documento en una lista.
 /// </summary>
 private class ListDocumentWarnings : IWarningCallback
 {

@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: BaseWebExtensionCollection GetEnumerator método. Devuelve un enumerador que puede iterar a través de una colección en C#.
+description: Descubra el método GetEnumerator de BaseWebExtensionCollection para iterar fácilmente a través de colecciones, mejorando la eficiencia de su desarrollo y la gestión del código.
 type: docs
 weight: 50
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime todas las propiedades de la extensión web del documento.
+//Imprimir todas las propiedades de la extensión web del documento.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -36,7 +36,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Elimina la extensión web.
+//Eliminar la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

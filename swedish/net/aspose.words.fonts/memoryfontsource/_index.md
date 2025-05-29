@@ -3,14 +3,14 @@ title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.MemoryFontSource klass. Representerar den enda TrueTypeteckensnittsfilen som är lagrad i minnet i C#.
+description: Upptäck klassen Aspose.Words.Fonts.MemoryFontSource, som möjliggör sömlös åtkomst till TrueType-teckensnitt som lagras i minnet för förbättrad dokumentbehandling.
 type: docs
-weight: 3020
+weight: 3450
 url: /sv/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-Representerar den enda TrueType-teckensnittsfilen som är lagrad i minnet.
+Representerar den enda TrueType-teckensnittsfilen som lagras i minnet.
 
 För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
@@ -22,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | ktor. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | ktor. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | ktor. |
 
 ## Egenskaper
 
@@ -32,15 +32,15 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Nyckeln till denna källa i cachen. |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Binära teckensnittsdata. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittskällans prioritet. |
-| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Returnerar typen av teckensnittskälla. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittets källprioritet. |
+| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Returnerar typen av teckensnittskällan. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskälla när ett problem upptäcks som kan leda till förlust av formateringstillverkning. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via denna källa. |
 
 ## Exempel
 

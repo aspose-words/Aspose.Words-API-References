@@ -3,14 +3,14 @@ title: OleFormat.SuggestedExtension
 linktitle: SuggestedExtension
 articleTitle: SuggestedExtension
 second_title: Aspose.Words för .NET
-description: OleFormat SuggestedExtension fast egendom. Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil i C#.
+description: Upptäck egenskapen OleFormat SuggestedExtension för att enkelt få den perfekta filändelsen för att effektivt spara dina inbäddade objekt.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/oleformat/suggestedextension/
 ---
 ## OleFormat.SuggestedExtension property
 
-Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil.
+Hämtar den föreslagna filändelsen för det aktuella inbäddade objektet om du vill spara det i en fil.
 
 ```csharp
 public string SuggestedExtension { get; }
@@ -29,7 +29,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -37,8 +37,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

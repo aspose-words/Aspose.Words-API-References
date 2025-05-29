@@ -3,14 +3,14 @@ title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: RevisionGroupCollection Item propriété. Renvoie un groupe de révisions à lindex spécifié en C#.
+description: Accédez facilement à des groupes de révision spécifiques grâce à la propriété d'élément RevisionGroupCollection. Améliorez la gestion de vos données grâce à une indexation précise.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Renvoie un groupe de révisions à l'index spécifié.
+Renvoie un groupe de révision à l'index spécifié.
 
 ```csharp
 public RevisionGroup this[int index] { get; }

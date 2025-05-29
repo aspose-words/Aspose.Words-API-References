@@ -3,7 +3,7 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words pour .NET
-description: NodeRendererBase RenderToScale méthode. Rend la forme dans unGraphics objet à une échelle spécifiée en C#.
+description: Découvrez la méthode NodeRendererBase RenderToScale : restituez efficacement des formes en objets graphiques à n'importe quelle échelle pour une sortie visuelle améliorée.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.rendering/noderendererbase/rendertoscale/
@@ -29,7 +29,7 @@ La largeur et la hauteur (en unités mondiales) de la forme rendue.
 
 ## Exemples
 
-Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
+Montre comment restituer une forme avec un objet graphique et l'afficher à l'aide d'un formulaire Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,7 +39,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe « ShapeRenderer » pour restituer une forme dans un objet Graphics.
     // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);

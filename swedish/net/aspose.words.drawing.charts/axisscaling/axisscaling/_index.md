@@ -3,7 +3,7 @@ title: AxisScaling
 linktitle: AxisScaling
 articleTitle: AxisScaling
 second_title: Aspose.Words för .NET
-description: AxisScaling byggare. Default_Constructor i C#.
+description: Upptäck AxisScaling-konstruktorn – din självklara lösning för sömlös skalning i applikationer. Förbättra prestandan med vår effektiva standardkonstruktor!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/axisscaling/axisscaling/

@@ -3,14 +3,14 @@ title: FieldGoToButton.Location
 linktitle: Location
 articleTitle: Location
 second_title: Aspose.Words för .NET
-description: FieldGoToButton Location fast egendom. Hämtar eller ställer in namnet på ett bokmärke ett sidnummer eller något annat objekt att hoppa till i C#.
+description: Upptäck egenskapen FieldGoToButton Location, ställ enkelt in bokmärken, sidnummer eller objekt för sömlös navigering och förbättrad användarupplevelse.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldgotobutton/location/
 ---
 ## FieldGoToButton.Location property
 
-Hämtar eller ställer in namnet på ett bokmärke, ett sidnummer eller något annat objekt att hoppa till.
+Hämtar eller anger namnet på ett bokmärke, ett sidnummer eller något annat objekt att hoppa till.
 
 ```csharp
 public string Location { get; set; }
@@ -18,14 +18,14 @@ public string Location { get; set; }
 
 ## Exempel
 
-Visar för att infoga ett GOTOBUTTON-fält.
+Visar hur man infogar ett GOTOBUTTON-fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Lägg till ett GOTOBUTTON-fält. När vi dubbelklickar på det här fältet i Microsoft Word,
-// det tar textmarkören till bokmärket vars namn platsegenskapen refererar till.
+// den tar textmarkören till bokmärket vars namn egenskapen Location refererar till.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";

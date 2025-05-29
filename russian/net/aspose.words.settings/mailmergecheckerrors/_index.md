@@ -3,9 +3,9 @@ title: MailMergeCheckErrors Enum
 linktitle: MailMergeCheckErrors
 articleTitle: MailMergeCheckErrors
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors перечисление. Указывает как Microsoft Word будет сообщать об ошибках обнаруженных во время слияния почты на С#.
+description: Узнайте, как перечисление Aspose.Words.MailMergeCheckErrors улучшает процесс слияния почты, эффективно сообщая об ошибках Microsoft Word для бесперебойного создания документов.
 type: docs
-weight: 5810
+weight: 6640
 url: /ru/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -21,8 +21,8 @@ public enum MailMergeCheckErrors
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Simulate | `1` | Имитировать слияние и сообщать об ошибках в новом документе. |
-| PauseOnError | `2` | Завершите объединение и приостановите его, чтобы сообщить об ошибках. |
-| CollectErrors | `3` | Завершите объединение и сообщите об ошибках в новом документе. |
+| PauseOnError | `2` | Завершите слияние и остановитесь, чтобы сообщить об ошибках. |
+| CollectErrors | `3` | Завершите слияние и сообщите об ошибках в новом документе. |
 | Default | `2` | РавноPauseOnError значение. |
 
 ## Примеры
@@ -40,9 +40,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -70,7 +70,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

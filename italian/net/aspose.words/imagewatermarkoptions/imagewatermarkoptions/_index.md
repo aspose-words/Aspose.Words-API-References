@@ -3,7 +3,7 @@ title: ImageWatermarkOptions
 linktitle: ImageWatermarkOptions
 articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words per .NET
-description: ImageWatermarkOptions costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore ImageWatermarkOptions per una facile protezione delle immagini. Personalizza le tue filigrane senza sforzo e migliora le tue immagini oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/

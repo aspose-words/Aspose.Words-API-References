@@ -2,8 +2,8 @@
 title: FontSubstitutionSettings.FontInfoSubstitution
 linktitle: FontInfoSubstitution
 articleTitle: FontInfoSubstitution
-second_title: 用于 .NET 的 Aspose.Words
-description: FontSubstitutionSettings FontInfoSubstitution 财产. 与字体信息替换规则相关的设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FontSubstitutionSettings 如何使用可自定义的字体信息规则来增强您的排版，从而改善设计和可读性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -18,12 +18,12 @@ public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

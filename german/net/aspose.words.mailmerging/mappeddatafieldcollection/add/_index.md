@@ -3,7 +3,7 @@ title: MappedDataFieldCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: MappedDataFieldCollection Add methode. Fügt eine neue Feldzuordnung hinzu in C#.
+description: Entdecken Sie, wie Sie mit der Add-Methode „MappedDataFieldCollection“ mühelos neue Feldzuordnungen erstellen und die Effizienz Ihres Datenmanagements steigern können.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,11 +19,11 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | documentFieldName | String | Groß- und Kleinschreibung beachtender Name des Serienbrieffelds im Dokument. |
-| dataSourceFieldName | String | Groß- und Kleinschreibung beachtender Name des Feldes in der Datenquelle. |
+| dataSourceFieldName | String | Groß- und Kleinschreibung beachtender Name des Felds in der Datenquelle. |
 
 ## Beispiele
 
-Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
+Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, sodass die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -32,12 +32,12 @@ public void MappedDataFieldCollection()
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
     // Die Tabelle hat eine Spalte mit dem Namen „Column2“, aber es gibt keine MERGEFIELDs mit diesem Namen.
-    // Außerdem haben wir ein MERGEFIELD namens „Column3“, aber die Datenquelle hat keine Spalte mit diesem Namen.
-    // Wenn Daten aus „Spalte2“ für das MERGEFIELD „Spalte3“ geeignet sind,
-    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel/Wert-Paar „MappedDataFields“ zuordnen.
+    // Außerdem haben wir ein MERGEFIELD mit dem Namen „Column3“, aber die Datenquelle hat keine Spalte mit diesem Namen.
+    // Wenn Daten aus "Column2" für das MERGEFIELD "Column3" geeignet sind,
+    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel-/Wertpaar „MappedDataFields“ zuordnen.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Wir können den Namen einer Datenquellenspalte wie folgt mit einem MERGEFIELD-Namen verknüpfen.
+    // Wir können einen Datenquellenspaltennamen wie folgt mit einem MERGEFIELD-Namen verknüpfen.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
     // Verknüpfen Sie die Datenquellenspalte mit dem Namen „Column2“ mit MERGEFIELDs mit dem Namen „Column3“.
@@ -48,7 +48,7 @@ public void MappedDataFieldCollection()
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Wenn wir nun diesen Serienbrief ausführen, übernehmen die MERGEFIELDs „Spalte3“ Daten aus „Spalte2“ der Tabelle.
+    // Wenn wir jetzt diesen Seriendruck ausführen, übernehmen die MERGEFIELDs „Spalte3“ Daten aus „Spalte2“ der Tabelle.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -73,7 +73,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument mit 2 MERGEFIELDs, von denen eines kein hat
+/// Erstellen Sie ein Dokument mit 2 MERGEFIELDs, von denen eines kein
 /// entsprechende Spalte in der Datentabelle aus der folgenden Methode.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -89,7 +89,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Erstellen Sie eine Datentabelle mit 2 Spalten, von denen eine keine hat
+/// Erstellen Sie eine Datentabelle mit 2 Spalten, von denen eine keine
 /// entsprechendes MERGEFIELD im Quelldokument aus der obigen Methode.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

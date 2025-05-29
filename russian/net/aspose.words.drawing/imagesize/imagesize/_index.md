@@ -3,14 +3,14 @@ title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words для .NET
-description: ImageSize строитель. Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi на С#.
+description: Создавайте точные изображения с помощью конструктора ImageSize, задавая пользовательские ширину, высоту и разрешение 96 точек на дюйм для оптимальной четкости и качества.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi.
+Инициализирует ширину и высоту до указанных значений в пикселях. Инициализирует разрешение до 96 точек на дюйм.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -31,7 +31,7 @@ public ImageSize(int widthPixels, int heightPixels)
 
 ## ImageSize(*int, int, double, double*) {#constructor_1}
 
-Инициализирует ширину, высоту и разрешение заданными значениями.
+Инициализирует ширину, высоту и разрешение указанными значениями.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels, double horizontalResolution, 

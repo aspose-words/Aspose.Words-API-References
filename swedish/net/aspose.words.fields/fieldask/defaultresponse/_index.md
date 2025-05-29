@@ -3,14 +3,14 @@ title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words för .NET
-description: FieldAsk DefaultResponse fast egendom. Hämtar eller ställer in standardanvändarsvar initialvärde i promptfönstret i C#.
+description: Upptäck egenskapen FieldAsk DefaultResponse. Hantera enkelt initiala användarsvar i promptfönster för att förbättra användarinteraktion och effektivisera arbetsflöden.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldask/defaultresponse/
 ---
 ## FieldAsk.DefaultResponse property
 
-Hämtar eller ställer in standardanvändarsvar (initialvärde i promptfönstret).
+Hämtar eller ställer in standardanvändarsvar (initialvärde som finns i promptfönstret).
 
 ```csharp
 public string DefaultResponse { get; set; }
@@ -18,7 +18,7 @@ public string DefaultResponse { get; set; }
 
 ## Exempel
 
-Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
+Visar hur man skapar ett ASK-fält och anger dess egenskaper.
 
 ```csharp
 public void FieldAsk()
@@ -45,7 +45,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en e-postkoppling.
+    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en dokumentkoppling.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -54,8 +54,8 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptsvarare,
-    // som kommer att inträffa under en e-postkoppling.
+    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptresponder,
+    // vilket kommer att inträffa under en dokumentkoppling.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.
+/// Lägger till text före standardsvaret i ett ASK-fält under en dokumentkoppling.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

@@ -3,14 +3,14 @@ title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: CustomPartCollection Item proprietà. Ottiene o imposta un elemento nellindice specificato in C#.
+description: Gestisci senza sforzo la tua CustomPartCollection con la nostra proprietà degli articoli. Ottieni o imposta rapidamente gli articoli a qualsiasi indice per una personalizzazione impeccabile ed efficiente.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/custompartcollection/item/
 ---
 ## CustomPartCollection indexer
 
-Ottiene o imposta un elemento nell'indice specificato.
+Ottiene o imposta un elemento all'indice specificato.
 
 ```csharp
 public CustomPart this[int index] { get; set; }
@@ -18,7 +18,7 @@ public CustomPart this[int index] { get; set; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice in base zero dell'elemento. |
+| index | Indice basato su zero dell'elemento. |
 
 ## Esempi
 
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

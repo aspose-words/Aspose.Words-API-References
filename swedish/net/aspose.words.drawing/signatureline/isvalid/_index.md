@@ -3,14 +3,14 @@ title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: Aspose.Words för .NET
-description: SignatureLine IsValid fast egendom. Indikerar att signaturraden är signerad med digital signatur och att denna digitala signatur är giltig i C#.
+description: Säkerställ att dina dokument är säkra med SignatureLines IsValid-egenskap, som bekräftar giltiga digitala signaturer för äkthet och tillförlitlighet.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-Indikerar att signaturraden är signerad med digital signatur och att denna digitala signatur är giltig.
+Indikerar att signaturraden är signerad med en digital signatur och att denna digitala signatur är giltig.
 
 ```csharp
 public bool IsValid { get; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

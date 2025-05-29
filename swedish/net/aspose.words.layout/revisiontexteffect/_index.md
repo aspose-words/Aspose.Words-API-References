@@ -3,14 +3,14 @@ title: RevisionTextEffect Enum
 linktitle: RevisionTextEffect
 articleTitle: RevisionTextEffect
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Layout.RevisionTextEffect uppräkning. Tillåter att specificera dekorationseffekt för revisioner av dokumenttext i C#.
+description: Upptäck Aspose.Words.Layout.RevisionTextEffect-enum för att förbättra dokumentrevisioner med unika textdekorationseffekter. Förbättra din redigeringsupplevelse!
 type: docs
-weight: 3400
+weight: 3850
 url: /sv/net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
 
-Tillåter att specificera dekorationseffekt för revisioner av dokumenttext.
+Gör det möjligt att ange dekorationseffekt för revideringar av dokumenttext.
 
 ```csharp
 public enum RevisionTextEffect
@@ -20,14 +20,14 @@ public enum RevisionTextEffect
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Reviderat innehåll har inga specialeffekter tillämpade. Detta motsvararNoHighlight . |
-| Color | `1` | Reviderat innehåll markeras endast med färg. |
-| Bold | `2` | Reviderat innehåll görs fet och färgad. |
-| Italic | `3` | Reviderat innehåll är kursivt och färglagt. |
+| None | `0` | Inga specialeffekter har tillämpats på reviderat innehåll. Detta motsvararNoHighlight . |
+| Color | `1` | Reviderat innehåll är endast markerat med färg. |
+| Bold | `2` | Reviderat innehåll är fetstilt och färglagt. |
+| Italic | `3` | Reviderat innehåll är kursiverat och färglagt. |
 | Underline | `4` | Reviderat innehåll är understruket och färglagt. |
-| DoubleUnderline | `5` | Reviderat innehåll är dubbelt understruket och färgat. |
-| StrikeThrough | `6` | Reviderat innehåll stryks igenom och färgläggs. |
-| DoubleStrikeThrough | `7` | Reviderat innehåll är dubbelstruket och färglagt. |
+| DoubleUnderline | `5` | Reviderat innehåll är dubbelt understruket och färglagt. |
+| StrikeThrough | `6` | Reviderat innehåll är genomstrykt och färglagt. |
+| DoubleStrikeThrough | `7` | Reviderat innehåll är dubbelt genomstruket och färglagt. |
 | Hidden | `8` | Reviderat innehåll är dolt. |
 
 ## Exempel
@@ -40,41 +40,41 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Hämta RevisionOptions-objektet som styr utseendet på revisioner.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Gör insättningsrevisioner i grönt och kursivt.
+// Rendera infogningsrevideringar i grönt och kursiv stil.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Gör raderingsrevisioner i rött och fetstil.
+// Rendera borttagna revisioner i rött och fetstil.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Samma text kommer att visas två gånger i en rörelserevision:
-// en gång vid avgångsplatsen och en gång vid ankomstdestinationen.
-// Gör texten vid den flyttade från revisionen gul med dubbel genomstrykning
-// och dubbelt understruket blått vid den flyttade till revisionen.
+// Samma text kommer att förekomma två gånger i en satsrevision:
+// en gång vid avgångspunkten och en gång vid ankomstdestinationen.
+// Gör texten vid den flyttade versionen gul med en dubbel överstrykning
+// och dubbelt understruken blå vid den flyttade versionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Gör formatrevisioner i mörkrött och fetstil.
+// Rendera formatrevideringar i mörkrött och fetstil.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Placera en tjock mörkblå stapel till vänster på sidan bredvid rader som påverkas av ändringar.
+// Placera en tjock mörkblå stapel på vänster sida av sidan bredvid rader som påverkas av revisioner.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Visa revisionsmärken och originaltext.
+// Visa revisionsmarkeringar och originaltext.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Få rörelse, radering, formateringsrevisioner och kommentarer att dyka upp i gröna ballonger
-// till höger på sidan.
+// Få flyttningar, borttagningar, formateringsändringar och kommentarer att visas i gröna ballonger
+// på höger sida av sidan.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Dessa funktioner är endast tillämpliga på format som .pdf eller .jpg.
+// Dessa funktioner gäller endast för format som .pdf eller .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

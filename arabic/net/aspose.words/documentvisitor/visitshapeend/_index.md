@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitShapeEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الشكل في C#.
+description: استكشف طريقة DocumentVisitor VisitShapeEnd، وهي أساسية لإدارة تعداد الأشكال في تطبيقاتك. حسّن كفاءة ترميزك اليوم!
 type: docs
 weight: 390
 url: /ar/net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method
 
-يتم استدعاؤه عند انتهاء تعداد الشكل.
+يتم استدعاؤها عند انتهاء تعداد الشكل.
 
 ```csharp
 public virtual VisitorAction VisitShapeEnd(Shape shape)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| shape | Shape | الكائن الذي تتم زيارته. |
+| shape | Shape | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
+    // إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped وTopCornersSnipped وDiagonalCornersSnipped،
+    // الزوايا العلوية مستديرة واحدة، زوايا علوية مستديرة واحدة، زوايا علوية مستديرة، زوايا قطرية مستديرة
+    // يرجى استخدام طرق DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات مجموعة الأشكال التي تمت زيارتها في وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SetUncheckedSymbol
 linktitle: SetUncheckedSymbol
 articleTitle: SetUncheckedSymbol
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag SetUncheckedSymbol метод. Устанавливает символ используемый для обозначения неотмеченного состояния элемента управления содержимым флажка на С#.
+description: Узнайте, как метод SetUncheckedSymbol улучшает ваш StructuredDocumentTag, настраивая визуальные эффекты флажков для лучшего взаимодействия с пользователем.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
 
-Устанавливает символ, используемый для обозначения неотмеченного состояния элемента управления содержимым флажка.
+Устанавливает символ, используемый для представления неотмеченного состояния элемента управления содержимым флажка.
 
 ```csharp
 public void SetUncheckedSymbol(int characterCode, string fontName)
@@ -19,7 +19,7 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | characterCode | Int32 | Код символа для указанного символа. |
-| fontName | String | Имя шрифта, содержащего символ. |
+| fontName | String | Название шрифта, содержащего символ. |
 
 ## Примечания
 
@@ -36,9 +36,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Мы можем установить символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
+// Мы можем задать символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

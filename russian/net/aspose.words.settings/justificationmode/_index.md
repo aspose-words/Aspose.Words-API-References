@@ -3,14 +3,14 @@ title: JustificationMode Enum
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.JustificationMode перечисление. Указывает настройку межсимвольного интервала для документа. Значение по умолчаниюРасширять  на С#.
+description: Откройте для себя перечисление Aspose.Words JustificationMode для точной настройки интервалов между символами в ваших документах. Улучшите читаемость с помощью настраиваемых параметров!
 type: docs
-weight: 5800
+weight: 6630
 url: /ru/net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration
 
-Указывает настройку межсимвольного интервала для документа. Значение по умолчанию:`Расширять` .
+Задает настройку межсимвольного интервала для документа. Значение по умолчанию:`Расширять` .
 
 ```csharp
 public enum JustificationMode
@@ -20,9 +20,9 @@ public enum JustificationMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Expand | `0` |  |
-| Compress | `1` |  |
-| CompressKana | `2` |  |
+| Expand | `0` | Не сжимать интервал между символами. |
+| Compress | `1` | Сжать интервал между символами. |
+| CompressKana | `2` | Сжать, используя правила слоговой азбуки кана, хираганы и катаканы. |
 
 ## Примеры
 
@@ -32,7 +32,7 @@ public enum JustificationMode
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

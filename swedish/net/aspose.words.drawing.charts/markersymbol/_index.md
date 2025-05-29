@@ -3,14 +3,14 @@ title: MarkerSymbol Enum
 linktitle: MarkerSymbol
 articleTitle: MarkerSymbol
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol uppräkning. Anger markörsymbolstil i C#.
+description: Utforska Aspose.Words.Drawing.Charts.MarkerSymbol-uppräkningen för anpassningsbara markörstilar som förbättrar dina diagram och datapresentationen.
 type: docs
-weight: 920
+weight: 1240
 url: /sv/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-Anger markörsymbolstil.
+Anger markörsymbolens stil.
 
 ```csharp
 public enum MarkerSymbol
@@ -23,11 +23,11 @@ public enum MarkerSymbol
 | Default | `0` | Anger att en standardmarkörsymbol ska ritas vid varje datapunkt. |
 | Circle | `1` | Anger att en cirkel ska ritas vid varje datapunkt. |
 | Dash | `2` | Anger att ett streck ska ritas vid varje datapunkt. |
-| Diamond | `3` | Anger att en diamant ska dras vid varje datapunkt. |
+| Diamond | `3` | Anger att en diamant ska ritas vid varje datapunkt. |
 | Dot | `4` | Anger att en punkt ska ritas vid varje datapunkt. |
 | None | `5` | Anger att ingenting ska ritas vid varje datapunkt. |
 | Picture | `6` | Anger att en bild ska ritas vid varje datapunkt. |
-| Plus | `7` | Anger att ett plus ska dras vid varje datapunkt. |
+| Plus | `7` | Anger att ett plustecken ska ritas vid varje datapunkt. |
 | Square | `8` | Anger att en kvadrat ska ritas vid varje datapunkt. |
 | Star | `9` | Anger att en stjärna ska ritas vid varje datapunkt. |
 | Triangle | `10` | Anger att en triangel ska ritas vid varje datapunkt. |
@@ -35,7 +35,7 @@ public enum MarkerSymbol
 
 ## Exempel
 
-Visar hur man arbetar med datapunkter på ett linjediagram.
+Visar hur man arbetar med datapunkter i ett linjediagram.
 
 ```csharp
 public void ChartDataPoint()
@@ -51,14 +51,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Framhäv diagrammets datapunkter genom att få dem att visas som diamantformer.
-    foreach (ChartSeries series in chart.Series) 
+    // Betona diagrammets datapunkter genom att få dem att visas som diamantformer.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Jämna ut linjen som representerar den första dataserien.
     chart.Series[0].Smooth = true;
 
-    // Kontrollera att datapunkter för den första serien inte kommer att invertera sina färger om värdet är negativt.
+    // Verifiera att datapunkterna för den första serien inte inverterar sina färger om värdet är negativt.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -67,10 +67,13 @@ public void ChartDataPoint()
         }
     }
 
-    // För en renare graf kan vi rensa format individuellt.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie datapunkter på en gång.
+    // För en renare graf kan vi rensa formatet individuellt.
+    dataPoint.ClearFormat();
+
+    // Vi kan också ta bort en hel serie datapunkter samtidigt.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

@@ -3,9 +3,9 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words für .NET
-description: MarkdownSaveOptions ImageSavingCallback eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in gespeichert wird.Markdown format in C#.
+description: Steuern Sie die Bildspeicherung in Markdown mit dem ImageSavingCallback von MarkdownSaveOptions. Verbessern Sie die Dokumentformatierung und optimieren Sie Ihren Workflow mühelos!
 type: docs
-weight: 30
+weight: 70
 url: /de/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie der Bildname beim Speichern im Markdown-Dokument umbenannt wird.
+Zeigt, wie der Bildname beim Speichern in einem Markdown-Dokument umbenannt wird.
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // Wenn wir ein Dokument, das Bilder enthält, in Markdown konvertieren, erhalten wir am Ende eine Markdown-Datei, die auf mehrere Bilder verweist.
     // Jedes Bild liegt in Form einer Datei im lokalen Dateisystem vor.
     // Es gibt auch einen Rückruf, mit dem der Name und der Dateisystemspeicherort jedes Bildes angepasst werden können.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // Die ImageSaving()-Methode unseres Rückrufs wird zu diesem Zeitpunkt ausgeführt.
+    // Zu diesem Zeitpunkt wird die Methode ImageSaving() unseres Rückrufs ausgeführt.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,

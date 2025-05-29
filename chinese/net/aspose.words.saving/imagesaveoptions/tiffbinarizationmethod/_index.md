@@ -2,15 +2,15 @@
 title: ImageSaveOptions.TiffBinarizationMethod
 linktitle: TiffBinarizationMethod
 articleTitle: TiffBinarizationMethod
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSaveOptions TiffBinarizationMethod 财产. 获取或设置将图像转换为 1 bpp 格式 时使用的方法SaveFormat是Tiff和 TiffCompression等于Ccitt3或者Ccitt4 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageSaveOptions 的 TiffBinarizationMethod 属性。轻松使用 Ccitt3 或 Ccitt4 压缩将图像转换为 1 bpp 格式。
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-获取或设置将图像转换为 1 bpp 格式 时使用的方法[`SaveFormat`](../saveformat/)是Tiff和 [`TiffCompression`](../tiffcompression/)等于Ccitt3或者Ccitt4.
+获取或设置将图像转换为 1 bpp 格式时使用的方法 [`SaveFormat`](../saveformat/)是Tiffand [`TiffCompression`](../tiffcompression/)等于Ccitt3或者Ccitt4.
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -22,7 +22,7 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ## 例子
 
-演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
+展示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 
 // 当我们将文档保存为 TIFF 时，我们可以将 SaveOptions 对象传递给
 // 调整 Aspose.Words 在渲染此图像时将应用的抖动。
-// “ThresholdForFloydSteinbergDithering”属性的默认值为 128。
-// 较高的值往往会产生较暗的图像。
+// “ThresholdForFloydSteinbergDithering”属性的默认值为128。
+// 值越高，图像就越暗。
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

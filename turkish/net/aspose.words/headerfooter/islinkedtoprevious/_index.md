@@ -2,15 +2,15 @@
 title: HeaderFooter.IsLinkedToPrevious
 linktitle: IsLinkedToPrevious
 articleTitle: IsLinkedToPrevious
-second_title: Aspose.Words for .NET
-description: HeaderFooter IsLinkedToPrevious mülk. Bu üst bilgi veya alt bilgi önceki bölümde karşılık gelen üst bilgi veya alt bilgiye bağlıysa doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: IsLinkedToPrevious özelliğinin belgenizin üstbilgilerini ve altbilgilerini nasıl geliştirdiğini, bölümler arasında kesintisiz süreklilik sağlayarak daha iyi bir organizasyon sağladığını keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/headerfooter/islinkedtoprevious/
 ---
 ## HeaderFooter.IsLinkedToPrevious property
 
-Bu üst bilgi veya alt bilgi, önceki bölümde karşılık gelen üst bilgi veya alt bilgiye bağlıysa doğrudur.
+Bu başlık veya altbilgi önceki bölümdeki ilgili başlık veya altbilgiye bağlıysa doğrudur.
 
 ```csharp
 public bool IsLinkedToPrevious { get; set; }
@@ -18,13 +18,13 @@ public bool IsLinkedToPrevious { get; set; }
 
 ## Notlar
 
-Varsayılan:`doğru`.
+Varsayılan`doğru`.
 
-Bir üstbilgi veya altbilgiye bağlantı verdiğinizde içeriğinin temizlendiğini unutmayın.
+Dikkat edin, bağlantınız bir üstbilgiye veya altbilgiye olduğunda içeriği temizlenir.
 
 ## Örnekler
 
-Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
+Bölümler arasında üstbilgi ve altbilgilerin nasıl bağlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
 // İlk bölüme geçin ve bir üstbilgi ve altbilgi oluşturun. Varsayılan olarak,
-// üstbilgi ve altbilgi yalnızca onları içeren bölümdeki sayfalarda görünecektir.
+// Başlık ve altbilgi yalnızca bunları içeren bölümdeki sayfalarda görünecektir.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -46,37 +46,37 @@ builder.Write("This is the header, which will be displayed in sections 1 and 2."
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
-// Bir bölümün üstbilgilerini/altbilgilerini önceki bölümün üstbilgilerine/altbilgilerine bağlayabiliriz
-// bağlantı bölümünün bağlantılı bölümün üstbilgilerini/altbilgilerini görüntülemesine izin vermek için.
+// Bir bölümün başlıklarını/altbilgilerini önceki bölümün başlık/altbilgilerine bağlayabiliriz
+// Bağlantılı bölümün, bağlantılı bölümün başlıklarını/altbilgilerini görüntülemesine izin vermek için.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Her bölümün yine kendi üstbilgi/altbilgi nesneleri olacaktır. Bölümleri birbirine bağladığımızda,
-// bağlantı bölümü, kendisine ait olanı korurken, bağlantılı bölümün üstbilgisini/altbilgilerini görüntüleyecektir.
+// Her bölümün hala kendi başlık/altbilgi nesneleri olacak. Bölümleri birbirine bağladığımızda,
+// Bağlantı bölümü, kendi başlık/altbilgilerini koruyarak bağlantılı bölümün başlık/altbilgilerini görüntüler.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Üçüncü bölümün üstbilgilerini/altbilgilerini ikinci bölümün üstbilgilerine/altbilgilerine bağlayın.
-// İkinci bölüm zaten ilk bölümün üstbilgisine/altbilgilerine bağlantı veriyor,
-// yani ikinci bölüme bağlanmak bir bağlantı zinciri oluşturacaktır.
-// Birinci, ikinci ve şimdi de üçüncü bölümlerin tümü, birinci bölümün başlıklarını görüntüleyecektir.
+// Üçüncü bölümün başlıklarını/altbilgilerini ikinci bölümün başlık/altbilgilerine bağlayın.
+// İkinci bölüm zaten birinci bölümün üstbilgi/altbilgilerine bağlantı veriyor,
+// yani ikinci bölüme bağlantı yapıldığında bir bağlantı zinciri oluşacaktır.
+// Birinci, ikinci ve şimdi üçüncü bölümlerin hepsinde birinci bölümün başlıkları görüntülenecektir.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// LinkToPrecious yöntemini çağırırken "false" ileterek önceki bölümün üstbilgi/altbilgilerinin bağlantısını kaldırabiliriz.
+// LinkToPrevious metodunu çağırırken "false" değerini geçirerek önceki bir bölümün başlık/altbilgilerinin bağlantısını kaldırabiliriz.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Bu yöntemi kullanarak bağlantı vermek için yalnızca belirli bir üstbilgi/altbilgi türünü de seçebiliriz.
-// Üçüncü bölüm artık ikinci ve birinci bölümlerle aynı altbilgiye sahip olacak, ancak üstbilgiye sahip olmayacak.
+// Bu yöntemi kullanarak bağlantı verilecek sadece belirli bir başlık/altbilgi türünü de seçebiliriz.
+// Üçüncü bölüm artık ikinci ve birinci bölümlerle aynı alt bilgiye sahip olacak, ancak üst bilgiye sahip olmayacak.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// İlk bölümün üstbilgi/altbilgileri, önceki bölüm olmadığından kendilerini hiçbir şeye bağlayamaz.
+// İlk bölümün üstbilgi/altbilgileri kendilerini hiçbir şeye bağlayamaz çünkü önceki bir bölüm yoktur.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
-// İkinci bölümün tüm üstbilgileri/altbilgileri, ilk bölümün üstbilgileri/altbilgilerine bağlanır.
+// İkinci bölümün tüm üstbilgileri/altbilgileri birinci bölümün üstbilgilerine/altbilgilerine bağlıdır.
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 
-// Üçüncü bölümde, ikinci bölüm aracılığıyla yalnızca alt bilgi birinci bölümün alt bilgisine bağlanır.
+// Üçüncü bölümde sadece altbilgi, ikinci bölüm aracılığıyla birinci bölümün altbilgisine bağlanıyor.
 Assert.AreEqual(6, doc.Sections[2].HeadersFooters.Count);
 Assert.AreEqual(5, doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 Assert.True(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious);

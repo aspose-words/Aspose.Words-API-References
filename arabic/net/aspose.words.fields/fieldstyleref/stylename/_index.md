@@ -3,14 +3,14 @@ title: FieldStyleRef.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words لـ .NET
-description: FieldStyleRef StyleName ملكية. الحصول على أو تعيين اسم النمط الذي يتم من خلاله تنسيق النص المطلوب البحث عنه في C#.
+description: اكتشف خاصية FieldStyleRef StyleName لتخصيص وتنسيق نص البحث بسهولة. حسّن تصميم مشروعك بمرونة ودقة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldstyleref/stylename/
 ---
 ## FieldStyleRef.StyleName property
 
-الحصول على أو تعيين اسم النمط الذي يتم من خلاله تنسيق النص المطلوب البحث عنه.
+يحصل على اسم النمط الذي يتم من خلاله تنسيق النص الذي سيتم البحث عنه أو يعينه.
 
 ```csharp
 public string StyleName { get; set; }
@@ -24,11 +24,11 @@ public string StyleName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ قائمة بناءً على قالب قائمة Microsoft Word.
+// قم بإنشاء قائمة باستخدام قالب قائمة Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// ستعرض هذه القائمة التي تم إنشاؤها "1.a )".
- // المسافة قبل القوس هي حرف غير محدد، ويمكننا حذفه.
+// ستعرض هذه القائمة المولدة "1.a )".
+ // المسافة قبل القوس هي حرف غير فاصل، والذي يمكننا حذفه.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// ضع حقل STYLEREF في الرأس واعرض أول نص بنمط "فقرة القائمة" في المستند.
+// ضع حقل STYLEREF في الرأس واعرض النص الأول المصمم على طراز "فقرة القائمة" في المستند.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام قوائم القوائم.
+// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام القوائم.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

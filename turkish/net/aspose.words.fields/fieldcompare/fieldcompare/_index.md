@@ -2,8 +2,8 @@
 title: FieldCompare
 linktitle: FieldCompare
 articleTitle: FieldCompare
-second_title: Aspose.Words for .NET
-description: FieldCompare inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veri karşılaştırması için FieldCompare varsayılan oluşturucusunu keşfedin. Güçlü, kullanıcı dostu aracımızla kodlama verimliliğinizi artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcompare/fieldcompare/

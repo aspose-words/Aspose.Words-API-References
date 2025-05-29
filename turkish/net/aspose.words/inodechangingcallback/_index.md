@@ -2,10 +2,10 @@
 title: INodeChangingCallback Interface
 linktitle: INodeChangingCallback
 articleTitle: INodeChangingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.INodeChangingCallback arayüz. Belgeye düğümler eklendiğinde veya kaldırıldığında bildirim almak istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Belge düğümü değişiklikleri hakkında gerçek zamanlı bildirimler almak ve belge yönetimi deneyiminizi geliştirmek için Aspose.Words.INodeChangingCallback arayüzünü uygulayın.
 type: docs
-weight: 3200
+weight: 3640
 url: /tr/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -21,13 +21,13 @@ public interface INodeChangingCallback
 | İsim | Tanım |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm başka bir düğüme eklendiğinde çağrılır. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm başka bir düğüme eklenmek üzereyken çağrılır. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm üst düğümünden kaldırıldığında çağrılır. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğümün belgeden kaldırılmak üzere olduğu andan hemen önce çağrılır. |
 
 ## Örnekler
 
-Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
+Geri arama ile düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -35,8 +35,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Düğüm değiştirme geri çağrısını özel uygulamaya ayarlayın,
-    // ardından bir günlük oluşturmasını sağlamak için düğümleri ekleyin/kaldırın.
+    // Düğüm değiştirme geri aramasını özel uygulamaya ayarlayın,
+    // daha sonra bir günlük oluşturması için düğümleri ekleyin/kaldırın.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -51,7 +51,7 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Her düğüm ekleme ve çıkarma işleminin tarihini ve saatini günlüğe kaydeder.
+/// Her düğümün eklenmesi ve kaldırılmasının tarih ve saatini günlüğe kaydeder.
 /// Çalıştırma düğümlerinin metin içerikleri için özel bir yazı tipi adı/boyutu ayarlar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
@@ -63,7 +63,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

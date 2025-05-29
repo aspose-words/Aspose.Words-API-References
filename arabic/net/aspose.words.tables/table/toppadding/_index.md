@@ -3,14 +3,14 @@ title: Table.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words لـ .NET
-description: Table TopPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات الخلايا في C#.
+description: اكتشف خاصية Table TopPadding، واضبط المساحة بسهولة في النقاط الموجودة أعلى محتويات الخلية لتحسين التحكم في التخطيط وتحسين إمكانية القراءة.
 type: docs
 weight: 330
 url: /ar/net/aspose.words.tables/table/toppadding/
 ---
 ## Table.TopPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات الخلايا.
+يحصل على مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات الخلايا أو يعينه.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -18,7 +18,7 @@ public double TopPadding { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين حشوة المحتوى في الجدول.
+يوضح كيفية تكوين تعبئة المحتوى في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
  // لكل خلية في الجدول، قم بتعيين المسافة بين محتوياتها وكل حدودها.
-// سيحافظ هذا الجدول على الحد الأدنى من مسافة الحشو عن طريق التفاف النص.
+// سيحافظ هذا الجدول على الحد الأدنى لمسافة الحشو عن طريق لف النص.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

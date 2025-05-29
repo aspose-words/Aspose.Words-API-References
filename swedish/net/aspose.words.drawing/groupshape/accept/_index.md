@@ -3,14 +3,14 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: GroupShape Accept metod. Accepterar en besökare i C#.
+description: Upptäck GroupShape Accept-metoden för att smidigt engagera besökare och förbättra användarupplevelsen på din webbplats. Öka interaktionen idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
-Samtal[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade former av denna gruppform och anrop[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) i slutet.
+Samtal[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , ringer sedan[`Accept`](../../../aspose.words/node/accept/) för alla underformer till denna gruppform och anrop[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) i slutet.
 
 ## Exempel
 
-Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
+Visar hur man skapar en grupp med former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Om du behöver skapa "NonPrimitive" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // använd DocumentBuilder.InsertShape metoder.
+    // Om du behöver skapa "Icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade, DiagonalaHörnRundade
+    // använd DocumentBuilder.InsertShape-metoderna.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

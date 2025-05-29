@@ -3,14 +3,14 @@ title: FormField.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words för .NET
-description: FormField Result fast egendom. Hämtar eller ställer in en sträng som representerar resultatet av detta formulärfält i C#.
+description: Upptäck egenskapen FormField Result, hantera och anpassa enkelt strängutdata för dina formulärfält för en förbättrad användarupplevelse.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/formfield/result/
 ---
 ## FormField.Result property
 
-Hämtar eller ställer in en sträng som representerar resultatet av detta formulärfält.
+Hämtar eller anger en sträng som representerar resultatet av detta formulärfält.
 
 ```csharp
 public string Result { get; set; }
@@ -18,15 +18,15 @@ public string Result { get; set; }
 
 ## Anmärkningar
 
-För ett textformulärfält blir resultatet den text som finns i fältet.
+För ett textformulärfält är resultatet texten som finns i fältet.
 
-För ett kryssrutaformulär kan resultatet vara "1" eller "0" för att indikera markerat eller avmarkerat.
+För ett kryssruteformulär kan resultatet vara "1" eller "0" för att indikera markerat eller omarkerat.
 
-För ett rullgardinsfält är resultatet den sträng som valts i rullgardinsmenyn.
+För ett rullgardinsmenyfält är resultatet den sträng som valts i rullgardinsmenyn.
 
-Miljö`Result` för ett textformulärsfält gäller inte textformat som anges i[`TextInputFormat`](../textinputformat/) . Om du vill ställa in ett värde och använda formatet , använd[`SetTextInputValue`](../settextinputvalue/) metod.
+Miljö`Result` för ett textformulärfält gäller inte texten format som anges i[`TextInputFormat`](../textinputformat/) Om du vill ange ett värde och använda formatet , använd[`SetTextInputValue`](../settextinputvalue/) metod.
 
-För ett textformulärfält[`TextInputDefault`](../textinputdefault/) värde tillämpas if*value* är`null`.
+För ett textformulärfält[`TextInputDefault`](../textinputdefault/) värdet tillämpas om*value* är`null`.
 
 ## Exempel
 

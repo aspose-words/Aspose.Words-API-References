@@ -3,14 +3,14 @@ title: SignOptions.DecryptionPassword
 linktitle: DecryptionPassword
 articleTitle: DecryptionPassword
 second_title: Aspose.Words für .NET
-description: SignOptions DecryptionPassword eigendom. Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert istleerer String Empty in C#.
+description: Entsperren Sie Ihre Dokumente mühelos mit der DecryptionPassword-Funktion von SignOptions. Entschlüsseln Sie Quelldateien sicher und einfach; der Standardwert ist eine leere Zeichenfolge.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist**leerer String** (Empty).
+Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist**leere Zeichenfolge** (Empty ).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -18,7 +18,7 @@ public string DecryptionPassword { get; set; }
 
 ## Bemerkungen
 
-Wenn das OOXML-Dokument verschlüsselt ist, sollten Sie ein Entschlüsselungskennwort angeben , um das Quelldokument zu entschlüsseln, bevor es signiert wird. Dies ist für Dokumente im binären DOC-Format nicht erforderlich.
+Wenn das OOXML-Dokument verschlüsselt ist, müssen Sie ein Entschlüsselungskennwort angeben, um das Quelldokument zu entschlüsseln, bevor es signiert wird. Dies ist für Dokumente im binären DOC-Format nicht erforderlich.
 
 ## Beispiele
 
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// Legen Sie einen lokalen Systemdateinamen für das unsignierte Eingabedokument und einen Ausgabedateinamen für seine neue digital signierte Kopie fest.
+// Legen Sie einen lokalen Systemdateinamen für das unsignierte Eingabedokument und einen Ausgabedateinamen für die neue digital signierte Kopie fest.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

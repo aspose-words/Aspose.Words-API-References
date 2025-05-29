@@ -3,7 +3,7 @@ title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
 second_title: Aspose.Words para .NET
-description: PageSetup SheetsPerBooklet propiedad. Devuelve o establece el número de páginas que se incluirán en cada folleto en C#.
+description: Descubra la propiedad PageSetup SheetsPerBooklet para administrar fácilmente el número de páginas del folleto, mejorando el diseño de su documento y la eficiencia de impresión.
 type: docs
 weight: 400
 url: /es/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -18,12 +18,12 @@ public int SheetsPerBooklet { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar un documento que se puede imprimir como un pliegue de libro.
+Muestra cómo configurar un documento que se puede imprimir como un libro plegable.
 
 ```csharp
 Document doc = new Document();
 
-// Inserta texto que abarque 16 páginas.
+// Insertar texto que abarca 16 páginas.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -33,13 +33,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Configure la propiedad "PageSetup" de la primera sección para imprimir el documento en forma de libro.
+// Configure la propiedad "PageSetup" de la primera sección para imprimir el documento en forma de libro plegable.
 // Cuando imprimimos este documento por ambas caras, podemos tomar las páginas para apilarlas
-// y dóblalos todos por la mitad a la vez. El contenido del documento se alineará formando un pliegue de libro.
+// y dóblalos todos por la mitad a la vez. El contenido del documento se alineará formando un pliegue.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Sólo podemos especificar el número de hojas en múltiplos de 4.
+//Solo podemos especificar el número de hojas en múltiplos de 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

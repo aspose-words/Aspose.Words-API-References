@@ -2,8 +2,8 @@
 title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
-second_title: Aspose.Words for .NET
-description: ReplacingArgs Replacement mülk. Değiştirme dizesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş kodlama verimliliği için değiştirme dizelerinizi kolayca yönetmek ve özelleştirmek amacıyla ReplacingArgs Değiştirme özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.replacing/replacingargs/replacement/
@@ -18,7 +18,7 @@ public string Replacement { get; set; }
 
 ## Örnekler
 
-Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm değiştirmeleri izlerken, düzenli ifade deseninin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
+    // "Değiştir" yönteminin yapacağı tüm değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
+/// Bir bul-değiştir işlemi tarafından yapılan her metin değişiminin günlüğünü tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

@@ -3,14 +3,14 @@ title: ImageData.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words para .NET
-description: ImageData HasImage propiedad. Devolucionesverdadero si la forma tiene bytes de imagen o vincula una imagen en C#.
+description: Descubra la propiedad ImageData HasImage. Compruebe rápidamente si una forma contiene bytes de imagen o enlaces, optimizando su flujo de trabajo de diseño sin esfuerzo.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Devoluciones`verdadero` si la forma tiene bytes de imagen o vincula una imagen.
+Devuelve`verdadero` si la forma tiene bytes de imagen o vincula una imagen.
 
 ```csharp
 public bool HasImage { get; }
@@ -23,26 +23,16 @@ Muestra cómo guardar todas las imágenes de un documento en el sistema de archi
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Las formas con el conjunto de indicadores "HasImage" almacenan y muestran todas las imágenes del documento.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// Las formas con el indicador "HasImage" establecido almacenan y muestran todas las imágenes del documento.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// Revisa cada forma y guarda su imagen.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+//Recorre cada forma y guarda su imagen.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 

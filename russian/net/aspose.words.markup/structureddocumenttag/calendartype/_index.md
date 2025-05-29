@@ -3,7 +3,7 @@ title: StructuredDocumentTag.CalendarType
 linktitle: CalendarType
 articleTitle: CalendarType
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag CalendarType свойство. Указывает тип календаря для этогоСДТ . По умолчаниюDefault на С#.
+description: Откройте для себя свойство StructuredDocumentTag CalendarType для настройки типа календаря SDT. Улучшите свои документы с помощью индивидуальных параметров календаря!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/structureddocumenttag/calendartype/
@@ -18,28 +18,28 @@ public SdtCalendarType CalendarType { get; set; }
 
 ## Примечания
 
-Доступ к этому ресурсу будет работать только дляDate Тип SDT.
+Доступ к этому свойству будет возможен только дляDate Тип СДТ.
 
 Для всех остальных типов SDT возникнет исключение.
 
 ## Примеры
 
-Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
+Показывает, как предложить пользователю ввести дату с помощью структурированного тега документа.
 
 ```csharp
 Document doc = new Document();
 
-// Вставляем тег структурированного документа, предлагающий пользователю ввести дату.
+// Вставьте структурированный тег документа, который предлагает пользователю ввести дату.
 // В Microsoft Word этот элемент известен как «Элемент управления содержимым выбора даты».
 // Когда мы нажимаем на стрелку в правом конце этого тега в Microsoft Word,
 // мы увидим всплывающее окно в виде кликабельного календаря.
-// Мы можем использовать это всплывающее окно, чтобы выбрать дату, которую будет отображать тег.
+// Мы можем использовать это всплывающее окно для выбора даты, которую будет отображать тег.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Отображение даты в соответствии с локалью арабского языка Саудовской Аравии.
+// Отображает дату в соответствии с региональным арабским языком Саудовской Аравии.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Устанавливаем формат отображения даты.
+// Задайте формат отображения даты.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 

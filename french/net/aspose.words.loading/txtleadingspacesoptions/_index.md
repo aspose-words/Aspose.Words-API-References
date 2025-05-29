@@ -3,14 +3,14 @@ title: TxtLeadingSpacesOptions Enum
 linktitle: TxtLeadingSpacesOptions
 articleTitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions énumération. Spécifie les options disponibles pour la gestion de lespace principal lors de limportation depuisText fichier en C#.
+description: Découvrez l'énumération Aspose.Words TxtLeadingSpacesOptions pour une gestion efficace des espaces de début lors de l'importation de fichiers texte. Optimisez le traitement de vos documents dès aujourd'hui !
 type: docs
-weight: 3720
+weight: 4180
 url: /fr/net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
 
-Spécifie les options disponibles pour la gestion de l'espace principal lors de l'importation depuisText fichier.
+Spécifie les options disponibles pour la gestion des espaces de début lors de l'importation depuisText fichier.
 
 ```csharp
 public enum TxtLeadingSpacesOptions
@@ -20,36 +20,36 @@ public enum TxtLeadingSpacesOptions
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| ConvertToIndent | `0` |  |
-| Trim | `1` |  |
-| Preserve | `2` |  |
+| ConvertToIndent | `0` | Les espaces de début sont supprimés et convertis en retrait à gauche. |
+| Trim | `1` | Les espaces de début sont supprimés |
+| Preserve | `2` | Les espaces de début sont conservés. |
 
 ## Exemples
 
-Montre comment réduire les espaces lors du chargement de documents en texte brut.
+Montre comment couper les espaces blancs lors du chargement de documents en texte brut.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Crée un objet "TxtLoadOptions", que l'on peut transmettre au constructeur d'un document
+// Créer un objet « TxtLoadOptions », que nous pouvons transmettre au constructeur d'un document
 // pour modifier la façon dont nous chargeons un document en texte brut.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.Preserve"
+// Définissez la propriété « LeadingSpacesOptions » sur « TxtLeadingSpacesOptions.Preserve »
 // pour conserver tous les caractères d'espacement au début de chaque ligne.
-// Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.ConvertToIndent"
-// pour supprimer tous les caractères d'espacement au début de chaque ligne,
-// puis appliquez un retrait de première ligne gauche au paragraphe pour simuler l'effet des espaces.
-// Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.Trim"
-// pour supprimer tous les caractères d'espacement au début de chaque ligne.
+// Définissez la propriété « LeadingSpacesOptions » sur « TxtLeadingSpacesOptions.ConvertToIndent »
+// pour supprimer tous les caractères d'espacement du début de chaque ligne,
+// puis appliquez un retrait de première ligne à gauche au paragraphe pour simuler l'effet des espaces.
+// Définissez la propriété « LeadingSpacesOptions » sur « TxtLeadingSpacesOptions.Trim »
+// pour supprimer tous les caractères d'espacement du début de chaque ligne.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
-// Définissez la propriété "TrailingSpacesOptions" sur "TxtTrailingSpacesOptions.Preserve"
+// Définissez la propriété « TrailingSpacesOptions » sur « TxtTrailingSpacesOptions.Preserve »
  // pour conserver tous les caractères d'espacement à la fin de chaque ligne.
- // Définissez la propriété "TrailingSpacesOptions" sur "TxtTrailingSpacesOptions.Trim" pour
-// supprime tous les caractères d'espacement à la fin de chaque ligne.
+ // Définissez la propriété « TrailingSpacesOptions » sur « TxtTrailingSpacesOptions.Trim » pour
+// supprimez tous les caractères d'espacement de la fin de chaque ligne.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

@@ -3,14 +3,14 @@ title: BuildingBlockType Enum
 linktitle: BuildingBlockType
 articleTitle: BuildingBlockType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockType énumération. Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word en C#.
+description: Explorez l'énumération Aspose.Words BuildingBlockType pour améliorer les fonctionnalités des documents dans Microsoft Word. Bénéficiez d'une visibilité et d'un comportement uniques des blocs de construction !
 type: docs
-weight: 170
+weight: 360
 url: /fr/net/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enumeration
 
-Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word.
+Spécifie un type de bloc de construction. Ce type peut affecter la visibilité et le comportement du bloc de construction dans Microsoft Word.
 
 ```csharp
 public enum BuildingBlockType
@@ -21,18 +21,18 @@ public enum BuildingBlockType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | None | `0` | Aucune information de type n'est spécifiée pour le bloc de construction. |
-| AutomaticallyReplaceNameWithContent | `1` | Permet au building block d'être automatiquement inséré dans le document chaque fois que son nom est saisi dans une application. |
-| StructuredDocumentTagPlaceholderText | `2` | Le bloc de construction est un texte d'espace réservé de balise de document structuré. |
-| FormFieldHelpText | `3` | Le bloc de construction est un texte d'aide pour un champ de formulaire. |
+| AutomaticallyReplaceNameWithContent | `1` | Permet au bloc de construction d'être automatiquement inséré dans le document chaque fois que son nom est saisi dans une application. |
+| StructuredDocumentTagPlaceholderText | `2` | Le bloc de construction est un texte d'espace réservé pour une balise de document structuré. |
+| FormFieldHelpText | `3` | Le bloc de construction est un texte d'aide de champ de formulaire. |
 | Normal | `4` | Le bloc de construction est une entrée de document de glossaire normale (c'est-à-dire régulière). |
 | AutoCorrect | `5` | Le bloc de construction est associé aux outils d'orthographe et de grammaire. |
-| AutoText | `6` | Le bloc de construction est une entrée d'insertion automatique. |
+| AutoText | `6` | Le bloc de construction est une entrée de texte automatique. |
 | All | `7` | Le bloc de construction est associé à tous les types. |
 | Default | `0` | Enregistrer sousNone . |
 
 ## Remarques
 
-Correspond au**ST_DocPartType** tapez OOXML.
+Correspond à la**ST_DocPartType** tapez OOXML.
 
 ## Exemples
 
@@ -41,12 +41,12 @@ Montre comment ajouter un bloc de construction personnalisé à un document.
 ```csharp
 public void CreateAndInsert()
 {
-    // Le glossaire d'un document stocke les éléments de base.
+    // Le glossaire d'un document stocke les blocs de construction.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Créez un bloc de construction, nommez-le, puis ajoutez-le au document glossaire.
+    // Créez un bloc de construction, nommez-le, puis ajoutez-le au document de glossaire.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -54,21 +54,22 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Tous les nouveaux GUID de blocs de construction ont la même valeur zéro par défaut et nous pouvons leur attribuer une nouvelle valeur unique.
+    // Tous les nouveaux GUID de blocs de construction ont la même valeur zéro par défaut, et nous pouvons leur donner une nouvelle valeur unique.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Les propriétés suivantes catégorisent les blocs de construction
-    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
+    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insertion" -> "Parties rapides" -> "Organisateur de blocs de construction".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Avant de pouvoir ajouter cette brique à notre document, nous devrons lui donner du contenu,
-    // ce que nous ferons en utilisant un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
+    // Avant de pouvoir ajouter ce bloc de construction à notre document, nous devrons lui donner du contenu,
+    // que nous réaliserons à l'aide d'un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Visitez le début/la fin du BuildingBlock.
     block.Accept(visitor);
 
     // Nous pouvons accéder au bloc que nous venons de créer à partir du document glossaire.
@@ -105,7 +106,7 @@ public class BuildingBlockVisitor : DocumentVisitor
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Ajoute une section avec du texte.
+        // Ajouter une section avec du texte.
         // L'insertion du bloc dans le document ajoutera cette section avec ses nœuds enfants à l'emplacement.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);

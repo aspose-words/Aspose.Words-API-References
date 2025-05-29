@@ -3,14 +3,14 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannHtml format in C#.
+description: Entdecken Sie den HtmlSaveOptions-Konstruktor, um mühelos Dokumente im HTML-Format zu erstellen und zu speichern und so eine optimale Formatierung und einfache Freigabe sicherzustellen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannHtml format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imHtml format.
 
 ```csharp
 public HtmlSaveOptions()
@@ -18,20 +18,20 @@ public HtmlSaveOptions()
 
 ## Beispiele
 
-Zeigt, wie beim Speichern eines Dokuments im .epub-Format eine bestimmte Kodierung verwendet wird.
+Zeigt, wie beim Speichern eines Dokuments im EPUB-Format eine bestimmte Kodierung verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Verwenden Sie ein SaveOptions-Objekt, um die Codierung für ein Dokument anzugeben, das wir speichern möchten.
+// Verwenden Sie ein SaveOptions-Objekt, um die Kodierung für ein Dokument anzugeben, das wir speichern möchten.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Standardmäßig enthält ein .epub-Ausgabedokument seinen gesamten Inhalt in einem HTML-Teil.
+// Standardmäßig enthält ein Ausgabedokument im EPUB-Format seinen gesamten Inhalt in einem HTML-Teil.
 // Ein Split-Kriterium ermöglicht es uns, das Dokument in mehrere HTML-Teile zu segmentieren.
 // Wir legen die Kriterien fest, um das Dokument in Überschriftenabsätze aufzuteilen.
-// Dies ist nützlich für Leser, die keine HTML-Dateien lesen können, die größer als eine bestimmte Größe sind.
+// Dies ist nützlich für Leser, die keine HTML-Dateien lesen können, die eine bestimmte Größe überschreiten.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Geben Sie an, dass wir Dokumenteigenschaften exportieren möchten.
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannHtml ,Mhtml ,Epub , Azw3 oderMobi format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imHtml ,Mhtml ,Epub , Azw3 oderMobi format.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -83,7 +83,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

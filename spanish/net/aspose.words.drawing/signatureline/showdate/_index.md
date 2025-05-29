@@ -3,14 +3,14 @@ title: SignatureLine.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words para .NET
-description: SignatureLine ShowDate propiedad. Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de la firma. El valor predeterminado para esta propiedad esverdadero  en C#.
+description: Descubra la propiedad "ShowDate" de SignatureLine, que habilita o deshabilita la visibilidad de la fecha de firma en su línea de firma para una mayor claridad del documento. El valor predeterminado es "true".
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing/signatureline/showdate/
 ---
 ## SignatureLine.ShowDate property
 
-Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de la firma. El valor predeterminado para esta propiedad es`verdadero` .
+Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de firma. El valor predeterminado para esta propiedad es`verdadero` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
-// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
+// Insertar una forma que contendrá una línea de firma, cuya apariencia definiremos
+// personaliza usando el objeto "SignatureLineOptions" que hemos creado anteriormente.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Necesitaremos proporcionar coordenadas x e y negativas para que la forma sea visible.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica las propiedades de nuestra línea de firma a través de su objeto Shape.
+// Verifique las propiedades de nuestra línea de firma a través de su objeto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

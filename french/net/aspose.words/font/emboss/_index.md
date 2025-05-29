@@ -3,7 +3,7 @@ title: Font.Emboss
 linktitle: Emboss
 articleTitle: Emboss
 second_title: Aspose.Words pour .NET
-description: Font Emboss propriété. Vrai si la police est formatée en relief en C#.
+description: Découvrez la fonction Font Emboss, qui sublime votre texte avec un effet gaufré élégant pour des designs accrocheurs. Sublimez votre typographie dès aujourd'hui !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/font/emboss/
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Vous trouverez ci-dessous deux façons d'utiliser les ombres pour appliquer un effet 3D au texte.
-// 1 - Gravez le texte pour donner l'impression que les lettres sont enfoncées dans la page :
+// Vous trouverez ci-dessous deux manières d’utiliser les ombres pour appliquer un effet 3D au texte.
+// 1 - Graver le texte pour donner l'impression que les lettres sont enfoncées dans la page :
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Embossez le texte pour donner l'impression que les lettres sortent de la page :
+// 2 - Mettez du texte en relief pour donner l'impression que les lettres sortent de la page :
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

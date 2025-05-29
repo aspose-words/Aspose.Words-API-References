@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words для .NET
-description: FrameFormat HorizontalAlignment свойство. Получает горизонтальное выравнивание указанного кадра на С#.
+description: Откройте для себя свойство FrameFormat HorizontalAlignment, которое позволит легко настроить и оптимизировать горизонтальное выравнивание фрейма для лучшего управления дизайном.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/frameformat/horizontalalignment/

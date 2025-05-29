@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words per .NET
-description: PdfEncryptionDetails costruttore. Inizializza unistanza di questa classe in C#.
+description: Scopri il costruttore PdfEncryptionDetails per inizializzare facilmente istanze di crittografia PDF sicure. Migliora la protezione dei tuoi documenti con il nostro potente strumento!
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Estende i permessi per consentire la modifica delle annotazioni.
+// Estendi i permessi per consentire la modifica delle annotazioni.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Abilita la crittografia tramite la proprietà "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Quando apriremo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
+// Quando apriamo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

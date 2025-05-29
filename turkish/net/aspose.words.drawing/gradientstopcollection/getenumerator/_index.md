@@ -2,15 +2,15 @@
 title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: GradientStopCollection GetEnumerator yöntem. Koleksiyonda yinelenen bir numaralandırıcı döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: GradientStopCollection GetEnumerator metodunu keşfederek degrade duraklarınız arasında kolayca gezinin ve kullanıcı arayüzü tasarımınızı kusursuz geçişlerle geliştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-Koleksiyonda yinelenen bir numaralandırıcı döndürür.
+Koleksiyonda yineleme yapan bir numaralandırıcı döndürür.
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

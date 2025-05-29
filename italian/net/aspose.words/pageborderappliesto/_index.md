@@ -3,9 +3,9 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words per .NET
-description: Aspose.Words.PageBorderAppliesTo enum. Specifica su quali pagine viene stampato il bordo della pagina in C#.
+description: Scopri l'enum Aspose.Words.PageBorderAppliesTo per controllare la stampa del bordo di pagina su pagine specifiche per una formattazione avanzata del documento.
 type: docs
-weight: 4340
+weight: 5070
 url: /it/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -20,13 +20,13 @@ public enum PageBorderAppliesTo
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AllPages | `0` | Il bordo della pagina viene mostrato su tutte le pagine della sezione. |
-| FirstPage | `1` | Il bordo della pagina viene mostrato solo sulla prima pagina della sezione. |
+| AllPages | `0` | Il bordo della pagina viene visualizzato su tutte le pagine della sezione. |
+| FirstPage | `1` | Il bordo della pagina viene visualizzato solo sulla prima pagina della sezione. |
 | OtherPages | `2` | Il bordo della pagina viene visualizzato su tutte le pagine tranne la prima pagina della sezione. |
 
 ## Esempi
 
-Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
+Mostra come creare un bordo con una larga fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

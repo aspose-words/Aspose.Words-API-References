@@ -3,7 +3,7 @@ title: Table.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words per .NET
-description: Table CellSpacing proprietà. Ottiene o imposta la quantità di spazio in punti tra le celle in C#.
+description: Scopri la proprietà CellSpacing della tabella per personalizzare facilmente la spaziatura delle celle in punti, migliorando l'aspetto e la leggibilità della tua tabella.
 type: docs
 weight: 100
 url: /it/net/aspose.words.tables/table/cellspacing/
@@ -18,7 +18,7 @@ public double CellSpacing { get; set; }
 
 ## Esempi
 
-Mostra come abilitare la spaziatura tra le singole celle in una tabella.
+Mostra come abilitare la spaziatura tra le singole celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// La regolazione della proprietà "CellSpacing" abiliterà automaticamente la spaziatura delle celle.
+// La modifica della proprietà "CellSpacing" abiliterà automaticamente la spaziatura delle celle.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);

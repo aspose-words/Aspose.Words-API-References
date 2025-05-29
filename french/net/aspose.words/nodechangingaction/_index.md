@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.NodeChangingAction énumération. Spécifie le type de changement de nœud en C#.
+description: Découvrez l'énumération Aspose.Words.NodeChangingAction pour gérer efficacement les modifications de nœuds dans vos documents. Améliorez vos capacités de traitement de documents dès aujourd'hui !
 type: docs
-weight: 4180
+weight: 4870
 url: /fr/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -20,12 +20,12 @@ public enum NodeChangingAction
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Insert | `0` | Un nœud est en cours d'insertion dans l'arborescence. |
-| Remove | `1` | Un nœud est en cours de suppression de l'arborescence. |
+| Insert | `0` | Un nœud est en cours d'insertion dans l'arbre. |
+| Remove | `1` | Un nœud est en cours de suppression de l'arbre. |
 
 ## Exemples
 
-Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous la modifions.
+Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel pendant que nous le modifions.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Imprime chaque insertion/suppression de nœud au fur et à mesure qu'elle a lieu dans le document.
+/// Imprime chaque insertion/suppression de nœud au fur et à mesure qu'elle se produit dans le document.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

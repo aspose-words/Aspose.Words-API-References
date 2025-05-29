@@ -3,14 +3,14 @@ title: CsvDataSource
 linktitle: CsvDataSource
 articleTitle: CsvDataSource
 second_title: Aspose.Words لـ .NET
-description: CsvDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV في C#.
+description: أنشئ مصدر بيانات CSV قويًا بسهولة باستخدام مُنشئ مصدر بيانات CsvDataSource. بسّط تحليل البيانات باستخدام الخيارات الافتراضية لضمان تكامل سلس.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
 ## CsvDataSource(*string*) {#constructor_2}
 
-إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
+ينشئ مصدر بيانات جديد باستخدام البيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(string csvPath)
@@ -30,7 +30,7 @@ public CsvDataSource(string csvPath)
 
 ## CsvDataSource(*string, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_3}
 
-إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
+ينشئ مصدر بيانات جديد باستخدام البيانات من ملف CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
@@ -40,6 +40,25 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | --- | --- | --- |
 | csvPath | String | المسار إلى ملف CSV الذي سيتم استخدامه كمصدر للبيانات. |
 | options | CsvDataLoadOptions | خيارات لتحليل بيانات CSV. |
+
+## أمثلة
+
+يوضح كيفية استخدام CSV كمصدر بيانات (سلسلة).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### أنظر أيضا
 
@@ -52,7 +71,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(*Stream*) {#constructor}
 
-إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
+ينشئ مصدر بيانات جديد باستخدام البيانات من دفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -60,7 +79,7 @@ public CsvDataSource(Stream csvStream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvStream | Stream | دفق بيانات CSV المراد استخدامها كمصدر للبيانات. |
+| csvStream | Stream | تدفق بيانات CSV الذي سيتم استخدامه كمصدر للبيانات. |
 
 ### أنظر أيضا
 
@@ -72,7 +91,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(*Stream, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_1}
 
-إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
+ينشئ مصدر بيانات جديد باستخدام البيانات من مجرى CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
@@ -80,8 +99,28 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvStream | Stream | دفق بيانات CSV المراد استخدامها كمصدر للبيانات. |
+| csvStream | Stream | تدفق بيانات CSV الذي سيتم استخدامه كمصدر للبيانات. |
 | options | CsvDataLoadOptions | خيارات لتحليل بيانات CSV. |
+
+## أمثلة
+
+يوضح كيفية استخدام CSV كمصدر بيانات (دفق).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.csv"))
+{
+    CsvDataSource dataSource = new CsvDataSource(stream, loadOptions);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataStream.docx");
+```
 
 ### أنظر أيضا
 

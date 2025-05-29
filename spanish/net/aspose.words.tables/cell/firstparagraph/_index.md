@@ -3,7 +3,7 @@ title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words para .NET
-description: Cell FirstParagraph propiedad. Obtiene el primer párrafo entre los hijos inmediatos en C#.
+description: Descubra la propiedad Cell FirstParagraph para acceder sin esfuerzo al primer párrafo de los elementos secundarios inmediatos, mejorando así la gestión de su contenido.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/cell/firstparagraph/
@@ -24,14 +24,14 @@ Muestra cómo crear una tabla anidada utilizando un generador de documentos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Construye la tabla exterior.
+// Construye la tabla externa.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Pasar a la primera celda de la tabla exterior y crear otra tabla dentro de la celda.
+// Moverse a la primera celda de la tabla externa, luego construir otra tabla dentro de la celda.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -42,18 +42,18 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
-Muestra cómo crear una tabla anidada sin utilizar un generador de documentos.
+Muestra cómo construir una tabla anidada sin utilizar un generador de documentos.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Cree la tabla exterior con tres filas y cuatro columnas y luego agréguela al documento.
+    // Cree la tabla externa con tres filas y cuatro columnas y luego agréguela al documento.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea otra tabla con dos filas y dos columnas y luego insértala en la primera celda de la primera tabla.
+    // Cree otra tabla con dos filas y dos columnas y luego insértela en la primera celda de la primera tabla.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -82,9 +82,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Puedes usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a tu tabla.
-    // La tabla debe tener al menos una fila antes de que podamos usar estas propiedades.
-    // Estas propiedades son significativas para documentos .docx compatibles con ISO/IEC 29500 (consulte la clase OoxmlCompliance).
+    // Puede utilizar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a su tabla.
+    //La tabla debe tener al menos una fila antes de que podamos usar estas propiedades.
+    // Estas propiedades son significativas para los documentos .docx compatibles con ISO/IEC 29500 (consulte la clase OoxmlCompliance).
     // Si guardamos el documento en formatos anteriores a ISO/IEC 29500, Microsoft Word ignora estas propiedades.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

@@ -3,14 +3,14 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words für .NET
-description: ChartDataLabel Font eigendom. Bietet Zugriff auf die Schriftartformatierung dieser Datenbeschriftung in C#.
+description: Entdecken Sie die Schriftarteigenschaft „ChartDataLabel“, um die Schriftformatierung Ihres Datenlabels einfach anzupassen und so die Optik und Klarheit zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 ## ChartDataLabel.Font property
 
-Bietet Zugriff auf die Schriftartformatierung dieser Datenbeschriftung.
+Bietet Zugriff auf die Schriftformatierung dieses Datenlabels.
 
 ```csharp
 public Font Font { get; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Jeder Blase ein Datenetikett zuweisen, das ihren Durchmesser anzeigt.
+// Wenden Sie auf jede Blase eine Datenbeschriftung an, die ihren Durchmesser anzeigt.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

@@ -3,14 +3,14 @@ title: Font.Kerning
 linktitle: Kerning
 articleTitle: Kerning
 second_title: Aspose.Words för .NET
-description: Font Kerning fast egendom. Hämtar eller ställer in teckenstorleken vid vilken kerning startar i C#.
+description: Upptäck funktionen för teckensnittskärning, kontrollera när kärningen börjar för optimal textskärpa och design. Förbättra din typografi med precision!
 type: docs
 weight: 180
 url: /sv/net/aspose.words/font/kerning/
 ---
 ## Font.Kerning property
 
-Hämtar eller ställer in teckenstorleken vid vilken kerning startar.
+Hämtar eller ställer in teckenstorleken där kerning börjar.
 
 ```csharp
 public double Kerning { get; set; }
@@ -18,23 +18,23 @@ public double Kerning { get; set; }
 
 ## Exempel
 
-Visar hur man anger teckenstorleken vid vilken kerning börjar träda i kraft.
+Visar hur man anger teckenstorleken då kerning börjar gälla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial Black";
 
-// Ställ in byggarens teckensnittsstorlek och minimistorlek vid vilken kerning ska träda i kraft.
-// Teckenstorleken faller under kerning-tröskeln, så körningen nedan kommer inte att ha kerning.
+// Ange teckenstorlek för verktyget och den minsta storleken då kerning ska träda i kraft.
+// Teckenstorleken understiger kerningtröskeln, så körningen nedan kommer inte att ha kerning.
 builder.Font.Size = 18;
 builder.Font.Kerning = 24;
 
 builder.Writeln("TALLY. (Kerning not applied)");
 
-// Ställ in kerning-tröskeln så att byggarens nuvarande teckenstorlek är över den.
-// All text vi lägger till från denna punkt kommer att ha kerning tillämpad. Mellanrummen mellan tecken
-// kommer att justeras, vilket normalt resulterar i en något mer estetiskt tilltalande textkörning.
+// Ställ in kerningtröskeln så att byggerens nuvarande teckenstorlek är över den.
+// All text vi lägger till från denna punkt kommer att få kerning tillämpad. Mellanrummen mellan tecknen
+// kommer att justeras, vilket normalt resulterar i en något mer estetiskt tilltalande textförlopp.
 builder.Font.Kerning = 12;
 
 builder.Writeln("TALLY. (Kerning applied)");

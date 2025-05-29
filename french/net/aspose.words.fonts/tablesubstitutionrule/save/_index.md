@@ -3,14 +3,14 @@ title: TableSubstitutionRule.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words pour .NET
-description: TableSubstitutionRule Save méthode. Enregistre les paramètres de substitution de table actuels dans un fichier en C#.
+description: Enregistrez facilement vos paramètres de substitution de table grâce à la méthode d'enregistrement TableSubstitutionRule. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(*string*) {#save_1}
 
-Enregistre les paramètres de substitution de table actuels dans un fichier.
+Enregistre les paramètres de substitution de table actuels dans le fichier.
 
 ```csharp
 public void Save(string fileName)
@@ -33,16 +33,16 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// Sous Windows, le substitut par défaut de la police "Times New Roman CE" est "Times New Roman".
+// Sous Windows, le substitut par défaut de la police « Times New Roman CE » est « Times New Roman ».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// On peut sauvegarder le tableau sous la forme d'un document XML.
+// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
-// Il existe plusieurs polices de substitution pour "Times New Roman CE".
-// Si le premier substitut, "FreeSerif" est également indisponible,
+// Il existe plusieurs polices de substitution pour « Times New Roman CE ».
+// Si le premier substitut, « FreeSerif », n'est pas non plus disponible,
 // cette règle parcourra les autres dans le tableau jusqu'à ce qu'elle en trouve une disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
@@ -66,7 +66,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(*Stream*) {#save}
 
-Enregistre les paramètres de substitution de table actuels dans stream.
+Enregistre les paramètres de substitution de table actuels dans le flux.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -89,16 +89,16 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// Sous Windows, le substitut par défaut de la police "Times New Roman CE" est "Times New Roman".
+// Sous Windows, le substitut par défaut de la police « Times New Roman CE » est « Times New Roman ».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// On peut sauvegarder le tableau sous la forme d'un document XML.
+// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
-// Il existe plusieurs polices de substitution pour "Times New Roman CE".
-// Si le premier substitut, "FreeSerif" est également indisponible,
+// Il existe plusieurs polices de substitution pour « Times New Roman CE ».
+// Si le premier substitut, « FreeSerif », n'est pas non plus disponible,
 // cette règle parcourra les autres dans le tableau jusqu'à ce qu'elle en trouve une disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},

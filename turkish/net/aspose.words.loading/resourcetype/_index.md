@@ -2,10 +2,10 @@
 title: ResourceType Enum
 linktitle: ResourceType
 articleTitle: ResourceType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.ResourceType Sıralama. Yüklenen kaynağın türü C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli kaynak yönetimi için Aspose.Words.ResourceType enum'unu keşfedin. Çok yönlü yükleme seçenekleriyle belge işlemenizi geliştirin.
 type: docs
-weight: 3700
+weight: 4160
 url: /tr/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -20,13 +20,14 @@ public enum ResourceType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Image | `0` | Resim. |
-| CssStyleSheet | `1` | Css stil sayfası. |
-| Document | `2` | Belge. |
+| Image | `0` | Görüntü. |
+| Font | `1` | Yazı Tipi. |
+| CssStyleSheet | `2` | CSS stil sayfası. |
+| Document | `3` | Belge. |
 
 ## Örnekler
 
-Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
+Harici kaynakların bir belgeye yüklenme sürecinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -36,8 +37,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Görüntüler genellikle bir URI veya bir bayt dizisi kullanılarak eklenir.
-    // Bir kaynak yükünün her örneği, geri çağırmamızın ResourceLoading yöntemini çağıracaktır.
+    // Resimler genellikle bir URI veya bayt dizisi kullanılarak eklenir.
+    // Kaynak yüklemesinin her örneği geri aramamızın ResourceLoading metodunu çağıracaktır.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -48,15 +49,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// URI'lerin aksine, önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize olanak tanır.
+/// URI'lerin aksine, önceden tanımlanmış kısayollar kullanarak bir belgeye resim yüklememize olanak tanır.
 /// Bu, görüntü yükleme mantığını belge yapısının geri kalanından ayıracaktır.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Bu geri arama, bir görüntüyü yüklerken görüntünün kısa yollarından biriyle karşılaşırsa,
-        // tanımlanan her kısayol için, onu bir URI olarak ele almak yerine benzersiz bir mantık uygulayacaktır.
+        // Bu geri çağırma, bir resim yüklenirken resim kısayollarından biriyle karşılaşırsa,
+        // Tanımlanan her kısaltmayı bir URI olarak ele almak yerine, ona özgü bir mantık uygulayacaktır.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

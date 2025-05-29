@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
 linktitle: EmulateRenderingToSizeOnPageResolution
 articleTitle: EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words pour .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution propriété. Obtient ou définit la résolution en pixels par pouce pour lémulation du rendu des métafichiers à la taille de la page en C#.
+description: Découvrez la propriété MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution. Contrôlez la résolution de rendu des métafichiers pour un affichage optimal des pages.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
 ---
 ## MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution property
 
-Obtient ou définit la résolution en pixels par pouce pour l'émulation du rendu des métafichiers à la taille de la page.
+Obtient ou définit la résolution en pixels par pouce pour l'émulation du rendu du métafichier à la taille de la page.
 
 ```csharp
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
@@ -20,7 +20,7 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 
 Cette option est utilisée uniquement lorsque[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) est réglé sur`vrai`.
 
-La valeur par défaut est 96. Il s'agit d'une résolution d'affichage par défaut. C'est-à-dire que le rendu du métafichier émulera l'affichage de le métafichier dans MS Word avec un facteur de zoom de 100 %.
+La valeur par défaut est 96. Il s'agit de la résolution d'affichage par défaut. Autrement dit, le rendu du métafichier simulera l'affichage du métafichier dans MS Word avec un facteur de zoom de 100 %.
 
 ## Exemples
 
@@ -29,13 +29,13 @@ Montre comment afficher le métafichier en fonction de la taille sur la page.
 ```csharp
 Document doc = new Document(MyDir + "WMF with text.docx");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Définit la propriété "EmulateRenderingToSizeOnPage" sur "true"
+// Définissez la propriété « EmulateRenderingToSizeOnPage » sur « true »
 // pour émuler le rendu en fonction de la taille du métafichier sur la page.
-// Définit la propriété "EmulateRenderingToSizeOnPage" sur "false"
+// Définissez la propriété « EmulateRenderingToSizeOnPage » sur « false »
 // pour émuler le rendu du métafichier à sa taille par défaut en pixels.
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPage = renderToSize;
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution = 50;

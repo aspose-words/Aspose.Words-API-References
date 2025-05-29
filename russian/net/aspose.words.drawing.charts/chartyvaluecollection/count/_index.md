@@ -3,7 +3,7 @@ title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: ChartYValueCollection Count свойство. Получает количество элементов в этой коллекции на С#.
+description: Откройте для себя свойство ChartYValueCollection Count, чтобы легко получить доступ к общему количеству элементов в вашей коллекции данных для улучшенного управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/count/

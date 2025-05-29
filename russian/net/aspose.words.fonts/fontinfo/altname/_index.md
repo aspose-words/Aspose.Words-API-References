@@ -3,14 +3,14 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words для .NET
-description: FontInfo AltName свойство. Получает или задает альтернативное имя шрифта на С#.
+description: Откройте для себя свойство FontInfo AltName, с легкостью управляйте альтернативными именами шрифтов, чтобы улучшить типографику и усовершенствовать свои дизайн-проекты.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-Получает или задает альтернативное имя шрифта.
+Получает или задает альтернативное имя для шрифта.
 
 ```csharp
 public string AltName { get; set; }
@@ -22,7 +22,7 @@ public string AltName { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

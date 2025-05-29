@@ -3,7 +3,7 @@ title: LoadOptions
 linktitle: LoadOptions
 articleTitle: LoadOptions
 second_title: Aspose.Words per .NET
-description: LoadOptions costruttore. Inizializza una nuova istanza di questa classe con valori predefiniti in C#.
+description: Scopri il costruttore LoadOptions, progettato per inizializzare senza sforzo una nuova istanza con valori predefiniti per prestazioni ed efficienza ottimali.
 type: docs
 weight: 10
 url: /it/net/aspose.words.loading/loadoptions/loadoptions/
@@ -23,8 +23,8 @@ Mostra come aprire un documento HTML con immagini da un flusso utilizzando un UR
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Passa l'URI della cartella base durante il caricamento
-    // in modo che sia possibile trovare eventuali immagini con relativi URI nel documento HTML.
+    // Passare l'URI della cartella base durante il caricamento
+    // in modo che sia possibile trovare tutte le immagini con URI relativi nel documento HTML.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -58,7 +58,7 @@ public LoadOptions(string password)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| password | String | La password per aprire un documento crittografato. Può essere`nullo` o stringa vuota. |
+| password | String | La password per aprire un documento crittografato. Può essere`null` o stringa vuota. |
 
 ## Esempi
 
@@ -67,16 +67,16 @@ Mostra come caricare un documento Microsoft Word crittografato.
 ```csharp
 Document doc;
 
-// Aspose.Words lancia un'eccezione se proviamo ad aprire un documento crittografato senza la sua password.
+// Aspose.Words genera un'eccezione se proviamo ad aprire un documento crittografato senza la relativa password.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Quando si carica un documento di questo tipo, la password viene passata al costruttore del documento utilizzando un oggetto LoadOptions.
+// Quando si carica un documento di questo tipo, la password viene passata al costruttore del documento tramite un oggetto LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Esistono due modi per caricare un documento crittografato con un oggetto LoadOptions.
 // 1 - Carica il documento dal file system locale in base al nome file:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - Carica il documento da uno stream:
+// 2 - Carica il documento da un flusso:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
@@ -93,7 +93,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
-Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati.
+Una scorciatoia per inizializzare una nuova istanza di questa classe con proprietà impostate sui valori specificati.
 
 ```csharp
 public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -101,38 +101,38 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Il formato del documento da caricare. |
-| password | String | La password per aprire un documento crittografato. Può essere`nullo` o stringa vuota. |
-| baseUri | String | La stringa che verrà utilizzata per risolvere gli URI relativi in assoluti. Può essere`nullo` o stringa vuota. |
+| loadFormat | LoadFormat | Formato del documento da caricare. |
+| password | String | La password per aprire un documento crittografato. Può essere`null` o stringa vuota. |
+| baseUri | String | La stringa che verrà utilizzata per risolvere gli URI relativi in assoluti. Può essere`null` o stringa vuota. |
 
 ## Esempi
 
-Mostra come salvare una pagina Web come file .docx.
+Mostra come salvare una pagina web come file .docx.
 
 ```csharp
-const string url = "https://www.aspose.com/";
+const string url = "https://products.aspose.com/words/";
 
-using (HttpClient client = new HttpClient()) 
+using (WebClient client = new WebClient())
 {
-    var bytes = await client.GetByteArrayAsync(url);
+    var bytes = client.DownloadData(url);
     using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // L'URL viene utilizzato nuovamente come baseUri per garantire che tutti i percorsi relativi alle immagini vengano recuperati correttamente.
+        // L'URL viene utilizzato nuovamente come baseUri per garantire che tutti i percorsi immagine relativi vengano recuperati correttamente.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
-        // Carica il documento HTML dallo stream e passa l'oggetto LoadOptions.
+        // Carica il documento HTML dal flusso e passa l'oggetto LoadOptions.
         Document doc = new Document(stream, options);
 
-        // A questo punto possiamo leggere e modificare il contenuto del documento e quindi salvarlo nel file system locale.
+        // A questo punto possiamo leggere e modificare il contenuto del documento e poi salvarlo nel file system locale.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
 ```
 
-Mostra come specificare un URI di base all'apertura di un documento html.
+Mostra come specificare un URI di base quando si apre un documento HTML.
 
 ```csharp
-// Supponiamo di voler caricare un documento .html che contiene un'immagine collegata da un relativo URI
+// Supponiamo di voler caricare un documento .html che contiene un'immagine collegata da un URI relativo
 // mentre l'immagine si trova in una posizione diversa. In tal caso, dovremo risolvere l'URI relativo in uno assoluto.
  // Possiamo fornire un URI di base utilizzando un oggetto HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);

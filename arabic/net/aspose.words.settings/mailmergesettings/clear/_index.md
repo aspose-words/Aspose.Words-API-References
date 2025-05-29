@@ -3,14 +3,14 @@ title: MailMergeSettings.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings Clear طريقة. مسح إعدادات دمج البريد بحيث أنه عند حفظ المستند لن يتم حفظ أي إعدادات لدمج البريد وسيصبح مستندًا عاديًا في C#.
+description: قم بإعادة تعيين إعدادات دمج البريد الخاصة بك بسهولة باستخدام طريقة Clear في MailMergeSettings، مما يحول مستندك إلى تنسيق قياسي للاستخدام السلس.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-مسح إعدادات دمج البريد بحيث أنه عند حفظ المستند، لن يتم حفظ أي إعدادات لدمج البريد وسيصبح مستندًا عاديًا.
+يقوم بمسح إعدادات دمج البريد بطريقة تجعل لا يتم حفظ أي إعدادات لدمج البريد عند حفظ المستند، وسيصبح مستندًا عاديًا.
 
 ```csharp
 public void Clear()
@@ -18,7 +18,7 @@ public void Clear()
 
 ## أمثلة
 
-يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
+يوضح كيفية تنفيذ دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// يمكننا إعادة ضبط هذه الإعدادات عن طريق مسحها. بمجرد أن نفعل ذلك ونحفظ المستند،
-// لن يقوم Microsoft Word بعد الآن بتنفيذ عملية دمج البريد عندما نستخدمه لتحميل المستند.
+// يمكننا إعادة ضبط هذه الإعدادات بمسحها. بعد ذلك، نحفظ المستند،
+// لن يقوم Microsoft Word بعد الآن بتنفيذ دمج البريد عندما نستخدمه لتحميل المستند.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

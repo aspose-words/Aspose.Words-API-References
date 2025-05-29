@@ -3,14 +3,14 @@ title: TextWatermarkOptions.IsSemitrasparent
 linktitle: IsSemitrasparent
 articleTitle: IsSemitrasparent
 second_title: Aspose.Words لـ .NET
-description: TextWatermarkOptions IsSemitrasparent ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف خاصية TextWatermarkOptions IsSemitransparent - تحكم في شفافية العلامة المائية بسهولة. حسّن تصاميمك بإعدادات شفافية قابلة للتخصيص!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هي`حقيقي` .
+يحصل على قيمة منطقية أو يعينها وهي المسؤولة عن تعتيم العلامة المائية. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -23,10 +23,10 @@ public bool IsSemitrasparent { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

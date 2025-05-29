@@ -3,7 +3,7 @@ title: OutlineOptions.BookmarksOutlineLevels
 linktitle: BookmarksOutlineLevels
 articleTitle: BookmarksOutlineLevels
 second_title: Aspose.Words für .NET
-description: OutlineOptions BookmarksOutlineLevels eigendom. Ermöglicht die Angabe der Gliederungsebene einzelner Lesezeichen in C#.
+description: Entdecken Sie die Eigenschaft „BookmarksOutlineLevels“ in „OutlineOptions“, um die Hierarchie Ihrer Lesezeichen für eine verbesserte Navigation und Benutzererfahrung anzupassen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -18,7 +18,7 @@ public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 
 ## Bemerkungen
 
-Wenn in dieser Sammlung keine Lesezeichenebene angegeben ist, dann[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) Wert verwendet wird.
+Wenn in dieser Sammlung keine Lesezeichenebene angegeben ist, dann[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) Wert wird verwendet.
 
 ## Beispiele
 
@@ -28,7 +28,7 @@ Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Lesezeichen mit einem anderen darin verschachtelten Lesezeichen ein.
+// Fügt ein Lesezeichen ein, in dem ein weiteres Lesezeichen verschachtelt ist.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -64,14 +64,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird während des Speichervorgangs optimiert.
-// In diesem Fall werden die Stufen „5“ und „9“ zu „2“ und „3“.
+// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird beim Speichern optimiert.
+// In diesem Fall werden die Ebenen „5“ und „9“ zu „2“ und „3“.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf derselben Gliederungsebene platziert.
+// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf die gleiche Gliederungsebene gesetzt.
 outlineLevels.Clear();
 ```
 

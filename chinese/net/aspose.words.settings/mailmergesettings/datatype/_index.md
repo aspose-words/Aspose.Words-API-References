@@ -2,8 +2,8 @@
 title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings DataType 财产. 指定邮件合并数据源的类型和数据访问方法 默认值为Default 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MailMergeSettings DataType 属性，定义邮件合并数据源的类型和访问方式。轻松优化您的工作流程！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.settings/mailmergesettings/datatype/
@@ -18,7 +18,7 @@ public MailMergeDataType DataType { get; set; }
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

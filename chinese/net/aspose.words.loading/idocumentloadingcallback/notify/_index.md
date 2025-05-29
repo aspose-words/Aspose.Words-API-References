@@ -2,15 +2,15 @@
 title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
-second_title: 用于 .NET 的 Aspose.Words
-description: IDocumentLoadingCallback Notify 方法. 调用此函数以通知文档加载进度 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IDocumentLoadingCallback 的 Notify 方法轻松追踪文档加载进度。实时更新，提升用户体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-调用此函数以通知文档加载进度。
+这是为了通知文档加载进度。
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -22,13 +22,13 @@ public void Notify(DocumentLoadingArgs args)
 
 ## 评论
 
-该接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
+此接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
 
-应该从中止的进度回调中抛出异常，并且应该在消费者代码中捕获该异常。
+应该从中止的进度回调中抛出一个异常，并且应该在消费者代码中捕获它。
 
 ## 例子
 
-演示如何在文档加载超出预期加载时间时通知用户。
+显示文档加载时间超出预期时如何通知用户。
 
 ```csharp
 public void ProgressCallback()
@@ -55,7 +55,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -63,9 +63,9 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载期间调用的回调方法。
+    /// 在文档加载期间调用的回调方法。
     /// </summary>
-    /// <param name="args">加载参数。</param>
+    /// <param name="args">正在加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -76,12 +76,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载开始的日期和时间。
+    /// 开始文档加载的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// 允许的最大持续时间（以秒为单位）。
+    /// 允许的最大持续时间（秒）。
     /// </summary>
     private const double MaxDuration = 0.5;
 }

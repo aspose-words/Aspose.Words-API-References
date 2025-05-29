@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions ApplyParagraphFormat ملكية. تطبيق تنسيق الفقرة على المحتوى الجديد في C#.
+description: اكتشف خاصية ApplyParagraphFormat في FindReplaceOptions لتنسيق الفقرات بسلاسة في مستنداتك. حسّن محتواك بسهولة!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-تطبيق تنسيق الفقرة على المحتوى الجديد.
+تم تطبيق تنسيق الفقرة على المحتوى الجديد.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية إضافة تنسيق إلى الفقرات التي عثرت فيها عملية البحث والاستبدال على تطابقات.
+يوضح كيفية إضافة التنسيق إلى الفقرات التي عثرت فيها عملية البحث والاستبدال على تطابقات.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+// يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // اضبط خاصية "المحاذاة" على "ParagraphAlignment.Right" لمحاذاة كل فقرة إلى اليمين
-// يحتوي على التطابق الذي وجدته عملية البحث والاستبدال.
+// الذي يحتوي على تطابق وجدته عملية البحث والاستبدال.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// استبدل كل نقطة قبل فاصل الفقرة بعلامة تعجب.
+// استبدل كل نقطة تقع قبل فاصل الفقرة بعلامة تعجب.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

@@ -2,15 +2,15 @@
 title: Font.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
-second_title: 用于 .NET 的 Aspose.Words
-description: Font LineSpacing 财产. 返回此字体的行距以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索字体 LineSpacing 属性，它以点为单位提供精确的行距，增强文本的可读性和设计感。
 type: docs
 weight: 190
 url: /zh/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-返回此字体的行距（以磅为单位）。
+返回此字体的行距（以点为单位）。
 
 ```csharp
 public double LineSpacing { get; }
@@ -18,7 +18,7 @@ public double LineSpacing { get; }
 
 ## 例子
 
-演示如何获取字体的行距（以磅为单位）。
+显示如何获取字体的行距（以点为单位）。
 
 ```csharp
 Document doc = new Document();

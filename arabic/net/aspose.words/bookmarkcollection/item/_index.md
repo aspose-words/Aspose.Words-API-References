@@ -3,14 +3,14 @@ title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: BookmarkCollection Item ملكية. إرجاع إشارة مرجعية في الفهرس المحدد في C#.
+description: اكتشف خاصية BookmarkCollection Item، واسترد الإشارات المرجعية بسهولة حسب الفهرس لتسهيل التنقل وتحسين تجربة المستخدم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bookmarkcollection/item/
 ---
 ## BookmarkCollection indexer (1 of 2)
 
-إرجاع إشارة مرجعية في الفهرس المحدد.
+يعيد إشارة مرجعية عند الفهرس المحدد.
 
 ```csharp
 public Bookmark this[int index] { get; }
@@ -18,17 +18,17 @@ public Bookmark this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس في المجموعة. |
+| index | فهرس للمجموعة. |
 
 ## ملاحظات
 
-المؤشر قائم على الصفر.
+المؤشر يعتمد على الصفر.
 
-الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
+يُسمح بالمؤشرات السلبية وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال، -1 يعني العنصر الأخير، -2 يعني العنصر الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة، فسوف يؤدي هذا إلى إرجاع مرجع فارغ.
 
-إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سلبيًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة، فسيؤدي هذا إلى إرجاع مرجع فارغ.
 
 ## أمثلة
 
@@ -37,12 +37,12 @@ public Bookmark this[int index] { get; }
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
+    // قم بإنشاء مستند يحتوي على ثلاثة إشارات مرجعية، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
+    //يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -51,7 +51,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
+/// إنشاء مستند يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -73,13 +73,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم متكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // احصل على كل إشارة مرجعية في المجموعة لقبول الزائر الذي سيطبع محتوياتها.
+    //اجعل كل إشارة مرجعية في المجموعة تقبل زائرًا سيقوم بطباعة محتوياتها.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -98,7 +98,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {
@@ -127,7 +127,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ## BookmarkCollection indexer (2 of 2)
 
-إرجاع إشارة مرجعية بالاسم.
+يعيد إشارة مرجعية حسب الاسم.
 
 ```csharp
 public Bookmark this[string bookmarkName] { get; }
@@ -139,7 +139,7 @@ public Bookmark this[string bookmarkName] { get; }
 
 ## ملاحظات
 
-عائدات`باطل`إذا تعذر العثور على الإشارة المرجعية بالاسم المحدد.
+الإرجاعات`باطل`إذا لم تتمكن من العثور على الإشارة المرجعية بالاسم المحدد.
 
 ## أمثلة
 
@@ -148,12 +148,12 @@ public Bookmark this[string bookmarkName] { get; }
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
+    // قم بإنشاء مستند يحتوي على ثلاثة إشارات مرجعية، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
+    //يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -162,7 +162,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
+/// إنشاء مستند يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -184,13 +184,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم متكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // احصل على كل إشارة مرجعية في المجموعة لقبول الزائر الذي سيطبع محتوياتها.
+    //اجعل كل إشارة مرجعية في المجموعة تقبل زائرًا سيقوم بطباعة محتوياتها.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -209,7 +209,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

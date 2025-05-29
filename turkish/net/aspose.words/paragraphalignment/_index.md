@@ -2,10 +2,10 @@
 title: ParagraphAlignment Enum
 linktitle: ParagraphAlignment
 articleTitle: ParagraphAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ParagraphAlignment Sıralama. Bir paragraftaki metin hizalamasını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki hassas metin hizalaması için Aspose.Words.ParagraphAlignment enum'unu keşfedin. Okunabilirliği ve biçimlendirmeyi kolaylıkla geliştirin!
 type: docs
-weight: 4400
+weight: 5130
 url: /tr/net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration
@@ -20,16 +20,16 @@ public enum ParagraphAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Left | `0` | Metin sola hizalanır. |
+| Left | `0` | Metin sola hizalanmıştır. |
 | Center | `1` | Metin yatay olarak ortalanır. |
-| Right | `2` | Metin sağa hizalanır. |
-| Justify | `3` | Metin hem sola hem de sağa hizalanır. |
-| Distributed | `4` | Metin eşit olarak dağıtılır. |
-| ArabicMediumKashida | `5` | Yalnızca Arapça. Metin için Kashida uzunluğu, tüketici tarafından belirlenen orta uzunluğa kadar genişletilir. |
-| ArabicHighKashida | `7` | Yalnızca Arapça. Metin için Kashida uzunluğu mümkün olan en geniş uzunluğa genişletildi. |
-| ArabicLowKashida | `8` | Yalnızca Arapça. Metin için Kashida uzunluğu biraz daha uzun olacak şekilde genişletildi. |
-| ThaiDistributed | `9` | Yalnızca Tay dili. Metin Tay dili için bir optimizasyonla iki yana yaslanmıştır. |
-| MathElementCenterAsGroup | `10` | Bir satırdaki 'Grup Olarak Ortalanmış' olarak hizalanan tek Matematik öğesi. |
+| Right | `2` | Metin sağa hizalanmıştır. |
+| Justify | `3` | Metin hem sola hem de sağa hizalanmıştır. |
+| Distributed | `4` | Metin eşit olarak dağıtılmıştır. |
+| ArabicMediumKashida | `5` | Yalnızca Arapça. Metin için Kashida uzunluğu tüketici tarafından belirlenen orta uzunluğa kadar uzatılır. |
+| ArabicHighKashida | `7` | Yalnızca Arapça. Metin için kashidanın uzunluğu mümkün olan en geniş uzunluğa kadar uzatılır. |
+| ArabicLowKashida | `8` | Yalnızca Arapça. Metin için Kashida uzunluğu biraz daha uzun olacak şekilde uzatıldı. |
+| ThaiDistributed | `9` | Yalnızca Tayca. Metin Tayca için bir optimizasyonla hizalanmıştır. |
+| MathElementCenterAsGroup | `10` | Bir satırdaki tek Matematik öğesi, 'Grup Olarak Ortalanmış' olarak hizalanmıştır. |
 
 ## Örnekler
 
@@ -40,25 +40,25 @@ Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
+// Bölüm için bazı sayfa düzeni özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu alt öğe olarak gövdeye ekleyin.
+// Bir paragraf oluştur, bazı biçimlendirme özelliklerini ayarla ve sonra onu gövdeye bir alt paragraf olarak ekle.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -66,8 +66,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
+// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir çalışma oluşturun,
+// Görünümünü ve içeriğini ayarlayın ve ardından paragrafın bir alt öğesi olarak ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

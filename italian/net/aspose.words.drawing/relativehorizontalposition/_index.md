@@ -3,9 +3,9 @@ title: RelativeHorizontalPosition Enum
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifica a cosa è relativa la posizione orizzontale di una forma o di una cornice di testo in C#.
+description: Scopri l'enum Aspose.Words.Drawing.RelativeHorizontalPosition per definire il posizionamento orizzontale preciso di forme e cornici di testo nei tuoi documenti.
 type: docs
-weight: 1190
+weight: 1580
 url: /it/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
@@ -20,14 +20,14 @@ public enum RelativeHorizontalPosition
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Margin | `0` | Specifica che il posizionamento orizzontale sarà relativo ai margini della pagina. |
+| Margin | `0` | Specifica che il posizionamento orizzontale deve essere relativo ai margini della pagina. |
 | Page | `1` | L'oggetto è posizionato rispetto al bordo sinistro della pagina. |
 | Column | `2` | L'oggetto è posizionato rispetto al lato sinistro della colonna. |
 | Character | `3` | L'oggetto è posizionato rispetto al lato sinistro del paragrafo. |
-| LeftMargin | `4` | Specifica che il posizionamento orizzontale sarà relativo al margine sinistro della pagina. |
-| RightMargin | `5` | Specifica che il posizionamento orizzontale sarà relativo al margine destro della pagina. |
-| InsideMargin | `6` | Specifica che il posizionamento orizzontale sarà relativo al margine interno della pagina corrente (il margine sinistro sulle pagine dispari, destro sulle pagine pari). |
-| OutsideMargin | `7` | Specifica che il posizionamento orizzontale sarà relativo al margine esterno della pagina corrente (il margine destro sulle pagine dispari, sinistro sulle pagine pari). |
+| LeftMargin | `4` | Specifica che il posizionamento orizzontale deve essere relativo al margine sinistro della pagina. |
+| RightMargin | `5` | Specifica che il posizionamento orizzontale deve essere relativo al margine destro della pagina. |
+| InsideMargin | `6` | Specifica che il posizionamento orizzontale deve essere relativo al margine interno della pagina corrente (il margine sinistro sulle pagine dispari, quello destro sulle pagine pari). |
+| OutsideMargin | `7` | Specifica che il posizionamento orizzontale deve essere relativo al margine esterno della pagina corrente (il margine destro sulle pagine dispari, quello sinistro sulle pagine pari). |
 | Default | `2` | Il valore predefinito èColumn . |
 
 ## Esempi
@@ -57,9 +57,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci l'immagine nell'intestazione in modo che sia visibile su ogni pagina.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -70,32 +69,6 @@ shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Inserisci l'immagine nell'intestazione in modo che sia visibile su ogni pagina.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Posiziona l'immagine al centro della pagina.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### Guarda anche

@@ -3,14 +3,14 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words لـ .NET
-description: Odso ColumnDelimiter ملكية. يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد في C#.
+description: اكتشف خاصية Odso ColumnDelimiter لتحديد فواصل الأعمدة بسهولة في مصادر البيانات الخارجية. حسّن تنظيم البيانات باستخدام فواصل قابلة للتخصيص!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
+يحدد الحرف الذي يجب تفسيره على أنه فاصل العمود المستخدم لفصل الأعمدة داخل مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني أنه لا يوجد فاصل عمود محدد.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -18,11 +18,11 @@ public char ColumnDelimiter { get; set; }
 
 ## ملاحظات
 
-RK لم أر هذا قيد الاستخدام من قبل.
+RK لم أرى هذا قيد الاستخدام من قبل.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

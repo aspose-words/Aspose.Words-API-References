@@ -3,14 +3,14 @@ title: TableSubstitutionRule.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words för .NET
-description: TableSubstitutionRule Save metod. Sparar de aktuella inställningarna för tabellersättning i filen i C#.
+description: Spara enkelt dina inställningar för tabellersättning med TableSubstitutionRule Save-metoden. Effektivisera din datahantering idag!
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(*string*) {#save_1}
 
-Sparar de aktuella inställningarna för tabellersättning i filen.
+Sparar de aktuella inställningarna för tabellersättning till filen.
 
 ```csharp
 public void Save(string fileName)
@@ -18,11 +18,11 @@ public void Save(string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fileName | String | Utdatafilnamn. |
+| fileName | String | Namn på utdatafil. |
 
 ## Exempel
 
-Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
+Visar hur man får åtkomst till tabeller för teckensnittsersättning för Windows och Linux.
 
 ```csharp
 Document doc = new Document();
@@ -33,22 +33,22 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// I Windows är standardersättningen för "Times New Roman CE"-teckensnittet "Times New Roman".
+// I Windows är standardersättningen för teckensnittet "Times New Roman CE" "Times New Roman".
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // Vi kan spara tabellen i form av ett XML-dokument.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux har sin egen ersättningstabell.
-// Det finns flera ersättningsteckensnitt för "Times New Roman CE".
-// Om den första ersättningen, "FreeSerif" inte heller är tillgänglig,
-// denna regel kommer att cykla genom de andra i arrayen tills den hittar en tillgänglig.
+// Linux har sin egen substitutionstabell.
+// Det finns flera ersättningstypsnitt för "Times New Roman CE".
+// Om den första ersättningen, "FreeSerif", inte heller är tillgänglig,
+// den här regeln kommer att cykla igenom de andra i arrayen tills den hittar en tillgänglig regel.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Spara Linux-ersättningstabellen i form av ett XML-dokument med hjälp av en ström.
+// Spara Linux-substitutionstabellen i form av ett XML-dokument med hjälp av en ström.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -66,7 +66,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(*Stream*) {#save}
 
-Sparar de aktuella inställningarna för tabellersättning för att streama.
+Sparar de aktuella inställningarna för tabellersättning till strömmen.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -78,7 +78,7 @@ public void Save(Stream outputStream)
 
 ## Exempel
 
-Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
+Visar hur man får åtkomst till tabeller för teckensnittsersättning för Windows och Linux.
 
 ```csharp
 Document doc = new Document();
@@ -89,22 +89,22 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// I Windows är standardersättningen för "Times New Roman CE"-teckensnittet "Times New Roman".
+// I Windows är standardersättningen för teckensnittet "Times New Roman CE" "Times New Roman".
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // Vi kan spara tabellen i form av ett XML-dokument.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux har sin egen ersättningstabell.
-// Det finns flera ersättningsteckensnitt för "Times New Roman CE".
-// Om den första ersättningen, "FreeSerif" inte heller är tillgänglig,
-// denna regel kommer att cykla genom de andra i arrayen tills den hittar en tillgänglig.
+// Linux har sin egen substitutionstabell.
+// Det finns flera ersättningstypsnitt för "Times New Roman CE".
+// Om den första ersättningen, "FreeSerif", inte heller är tillgänglig,
+// den här regeln kommer att cykla igenom de andra i arrayen tills den hittar en tillgänglig regel.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Spara Linux-ersättningstabellen i form av ett XML-dokument med hjälp av en ström.
+// Spara Linux-substitutionstabellen i form av ett XML-dokument med hjälp av en ström.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

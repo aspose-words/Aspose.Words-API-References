@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.TextRenderingHint
 linktitle: TextRenderingHint
 articleTitle: TextRenderingHint
-second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions TextRenderingHint mülk. Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiklerinizde optimum metin oluşturma için GraphicsQualityOptions TextRenderingHint özelliğini keşfedin. Görsel kaliteyi ve performansı bugün geliştirin!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar.
+Bu Grafikle ilişkili metin için işleme modunu alır veya ayarlar.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }
@@ -18,7 +18,7 @@ public TextRenderingHint? TextRenderingHint { get; set; }
 
 ## Örnekler
 
-Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken render kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

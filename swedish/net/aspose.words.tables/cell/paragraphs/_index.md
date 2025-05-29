@@ -3,14 +3,14 @@ title: Cell.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
 second_title: Aspose.Words för .NET
-description: Cell Paragraphs fast egendom. Får en samling stycken som är omedelbara barn till cellen i C#.
+description: Upptäck egenskapen Cellstycken för att få åtkomst till en samling direkta understycken, vilket förbättrar dokumentets struktur och läsbarhet.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.tables/cell/paragraphs/
 ---
 ## Cell.Paragraphs property
 
-Får en samling stycken som är omedelbara barn till cellen.
+Hämtar en samling stycken som är direkta underordnade stycken till cellen.
 
 ```csharp
 public ParagraphCollection Paragraphs { get; }
@@ -18,16 +18,16 @@ public ParagraphCollection Paragraphs { get; }
 
 ## Exempel
 
-Visar hur man ställer in ett bord för att hålla ihop på samma sida.
+Visar hur man dukar ett bord så att det står ihop på samma sida.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Aktivera KeepWithNext för varje stycke i tabellen utom för
-// de sista i den sista raden kommer att förhindra att tabellen delas upp på flera sidor.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Aktiverar KeepWithNext för varje stycke i tabellen förutom
+// de sista på den sista raden förhindrar att tabellen delas upp över flera sidor.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

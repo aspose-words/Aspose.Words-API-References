@@ -3,7 +3,7 @@ title: FieldListNum
 linktitle: FieldListNum
 articleTitle: FieldListNum
 second_title: Aspose.Words para .NET
-description: FieldListNum constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldListNum: tu solución ideal para una gestión eficiente de listas en programación. ¡Simplifica tu código con nuestro constructor predeterminado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldlistnum/fieldlistnum/

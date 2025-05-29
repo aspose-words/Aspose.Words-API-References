@@ -2,8 +2,8 @@
 title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
-second_title: Aspose.Words for .NET
-description: PlainTextDocument CustomDocumentProperties mülk. AlırCustomDocumentProperties belgenin C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge yönetimi ve özelleştirmesi için PlainTextDocument'ta CustomDocumentProperties'e nasıl erişeceğinizi keşfedin. Belgenizin potansiyelini açığa çıkarın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## Örnekler
 
-Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin özel özelliklerine nasıl erişileceğini gösterir.
+Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin özel özelliklerine nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

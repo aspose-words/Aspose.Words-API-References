@@ -3,14 +3,14 @@ title: TxtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words pour .NET
-description: TxtSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreText  en C#.
+description: Découvrez comment la propriété SaveFormat de TxtSaveOptions définit les formats d'enregistrement des documents, garantissant que vos fichiers sont toujours au format texte préféré.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
 ## TxtSaveOptions.SaveFormat property
 
-Spécifie le format dans lequel le document sera enregistré si cet objet d'options de sauvegarde est utilisé. Ne peut êtreText .
+Spécifie le format dans lequel le document sera enregistré si cet objet d'options d'enregistrement est utilisé. Ne peut êtreText .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -28,13 +28,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
+// Créez un objet « TxtSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Définissez "ParagraphBreak" sur une valeur personnalisée que nous souhaitons mettre à la fin de chaque paragraphe.
+// Définissez le « ParagraphBreak » sur une valeur personnalisée que nous souhaitons placer à la fin de chaque paragraphe.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

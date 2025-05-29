@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
 second_title: Aspose.Words для .NET
-description: FrameFormat HorizontalDistanceFromText свойство. Получает горизонтальное расстояние между рамкой и окружающим текстом в пунктах на С#.
+description: Откройте для себя свойство FrameFormat HorizontalDistanceFromText, позволяющее измерить расстояние между рамками и текстом в пунктах, что улучшит макет документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/frameformat/horizontaldistancefromtext/

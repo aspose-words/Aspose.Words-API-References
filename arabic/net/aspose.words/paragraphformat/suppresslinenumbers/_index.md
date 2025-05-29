@@ -3,14 +3,14 @@ title: ParagraphFormat.SuppressLineNumbers
 linktitle: SuppressLineNumbers
 articleTitle: SuppressLineNumbers
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat SuppressLineNumbers ملكية. يحدد ما إذا كان ينبغي استثناء أسطر الفقرة الحالية من ترقيم السطر الذي يتم تطبيقه في القسم الأصلي في C#.
+description: اكتشف كيف تتيح لك خاصية ParagraphFormat SuppressLineNumbers تخصيص ترقيم الأسطر للفقرات، مما يعزز وضوح المستند وتنظيمه.
 type: docs
-weight: 380
+weight: 390
 url: /ar/net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
 ## ParagraphFormat.SuppressLineNumbers property
 
-يحدد ما إذا كان ينبغي استثناء أسطر الفقرة الحالية من ترقيم السطر الذي يتم تطبيقه في القسم الأصلي.
+يحدد ما إذا كان يجب إعفاء أسطر الفقرة الحالية من ترقيم الأسطر الذي يتم تطبيقه في القسم الرئيسي.
 
 ```csharp
 public bool SuppressLineNumbers { get; set; }
@@ -24,11 +24,11 @@ public bool SuppressLineNumbers { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يمكننا استخدام كائن PageSetup الخاص بالقسم لعرض الأرقام الموجودة على يسار سطور نص القسم.
+// يمكننا استخدام كائن PageSetup الخاص بالقسم لعرض الأرقام على يسار أسطر نص القسم.
 // هذا هو نفس سلوك كائن القائمة،
 // لكنه يغطي القسم بأكمله ولا يعدل النص بأي شكل من الأشكال.
-// سيقوم قسمنا بإعادة تشغيل الترقيم في كل صفحة جديدة من 1 ويعرض الرقم،
-// إذا كان من مضاعفات الرقم 3، عند مسافة 50 نقطة على يسار السطر.
+// سيقوم قسمنا بإعادة تشغيل الترقيم في كل صفحة جديدة من 1 وعرض الرقم،
+// إذا كان مضاعفًا لـ 3، عند 50 نقطة إلى يسار السطر.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -38,10 +38,10 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// سوف يتخطى عداد السطر أي فقرة مع تعيين علامة "SuppressLineNumbers" على "true".
-// هذه الفقرة موجودة في السطر الخامس عشر، وهو من مضاعفات الرقم 3، وبالتالي يتم عرض رقم السطر عادةً.
-// عداد سطر القسم سيتجاهل هذا السطر أيضًا، ويعامل السطر التالي باعتباره السطر الخامس عشر،
-// ومواصلة العد من تلك النقطة فصاعدا.
+// سوف يتخطى عداد الأسطر أي فقرة يتم فيها تعيين العلم "SuppressLineNumbers" على "true".
+//تقع هذه الفقرة في السطر الخامس عشر، وهو مضاعف للرقم 3، وبالتالي من الطبيعي أن تعرض رقم السطر.
+// سوف يتجاهل عداد أسطر القسم هذا السطر أيضًا، ويعامل السطر التالي على أنه السطر الخامس عشر،
+// واستمر في العد من تلك النقطة فصاعدًا.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 
 doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");

@@ -3,14 +3,14 @@ title: ChartSeriesType Enum
 linktitle: ChartSeriesType
 articleTitle: ChartSeriesType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartSeriesType uppräkning. Anger en typ av en diagramserie i C#.
+description: Upptäck enumerationen Aspose.Words.Drawing.Charts.ChartSeriesType för att förbättra dina diagramserier med olika alternativ för dynamisk datavisualisering.
 type: docs
-weight: 800
+weight: 1110
 url: /sv/net/aspose.words.drawing.charts/chartseriestype/
 ---
 ## ChartSeriesType enumeration
 
-Anger en typ av en diagramserie.
+Anger en typ av diagramserie.
 
 ```csharp
 public enum ChartSeriesType
@@ -20,54 +20,54 @@ public enum ChartSeriesType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Area | `0` | Representerar en områdesdiagramserie. |
-| AreaStacked | `1` | Representerar en stapeldiagramserie. |
-| AreaPercentStacked | `2` | Representerar en diagramserie med 100 % staplade ytor. |
-| Area3D | `3` | Representerar en 3D-områdesdiagramserie. |
-| Area3DStacked | `4` | Representerar en 3D-diagramserie med staplade ytor. |
-| Area3DPercentStacked | `5` | Representerar en 3D-serie med 100 % staplade ytor. |
+| Area | `0` | Representerar en ytdiagramserie. |
+| AreaStacked | `1` | Representerar en diagramserie med staplade ytor. |
+| AreaPercentStacked | `2` | Representerar en diagramserie med 100 % staplad yta. |
+| Area3D | `3` | Representerar en 3D-areadiagramserie. |
+| Area3DStacked | `4` | Representerar en 3D-stapelad areadiagramserie. |
+| Area3DPercentStacked | `5` | Representerar en 3D-diagramserie med 100 % staplad yta. |
 | Bar | `6` | Representerar en stapeldiagramserie. |
 | BarStacked | `7` | Representerar en staplad stapeldiagramserie. |
 | BarPercentStacked | `8` | Representerar en 100 % staplad stapeldiagramserie. |
-| Bar3D | `9` | Representerar en 3D stapeldiagramserie. |
+| Bar3D | `9` | Representerar en 3D-stapeldiagramserie. |
 | Bar3DStacked | `10` | Representerar en 3D-staplad stapeldiagramserie. |
 | Bar3DPercentStacked | `11` | Representerar en 3D 100 % staplad stapeldiagramserie. |
 | Bubble | `12` | Representerar en bubbeldiagramserie. |
-| Bubble3D | `13` | Representerar en 3D-bubblediagramserie. |
-| Column | `14` | Representerar en kolumndiagramserie. |
-| ColumnStacked | `15` | Representerar en diagramserie med staplade kolumner. |
-| ColumnPercentStacked | `16` | Representerar en 100 % staplad kolumndiagramserie. |
-| Column3D | `17` | Representerar en 3D-kolonndiagramserie. |
-| Column3DStacked | `18` | Representerar en diagramserie med staplade kolumner i 3D. |
-| Column3DPercentStacked | `19` | Representerar en 3D-serie med 100 % staplade kolumner. |
-| Column3DClustered | `20` | Representerar en 3D-klustrad kolumndiagramserie. |
-| Doughnut | `21` | Representerar en munkdiagramserie. |
+| Bubble3D | `13` | Representerar en 3D-bubbeldiagramserie. |
+| Column | `14` | Representerar en stapeldiagramserie. |
+| ColumnStacked | `15` | Representerar en staplad kolumndiagramserie. |
+| ColumnPercentStacked | `16` | Representerar en 100 % staplad stapeldiagramserie. |
+| Column3D | `17` | Representerar en 3D-stapeldiagramserie. |
+| Column3DStacked | `18` | Representerar en 3D-staplad kolumndiagramserie. |
+| Column3DPercentStacked | `19` | Representerar en 3D 100 % staplad stapeldiagramserie. |
+| Column3DClustered | `20` | Representerar en 3D-klustrad stapeldiagramserie. |
+| Doughnut | `21` | Representerar en ringdiagramserie. |
 | Line | `22` | Representerar en linjediagramserie. |
-| LineStacked | `23` | Representerar en stapeldiagramserie. |
+| LineStacked | `23` | Representerar en staplad linjediagramserie. |
 | LinePercentStacked | `24` | Representerar en 100 % staplad linjediagramserie. |
 | Line3D | `25` | Representerar en 3D-linjediagramserie. |
 | Pie | `26` | Representerar en cirkeldiagramserie. |
-| Pie3D | `27` | Representerar en 3D-cirkeldiagramserie. |
-| PieOfBar | `28` | Representerar en serie av stapeldiagram. |
+| Pie3D | `27` | Representerar en serie 3D-cirkeldiagram. |
+| PieOfBar | `28` | Representerar en cirkeldiagram- eller stapeldiagramserie. |
 | PieOfPie | `29` | Representerar en cirkeldiagramserie. |
 | Radar | `30` | Representerar en radardiagramserie. |
-| Scatter | `31` | Representerar en scatter-diagramserie. |
+| Scatter | `31` | Representerar en punktdiagramserie. |
 | Stock | `32` | Representerar en aktiediagramserie. |
-| Surface | `33` | Representerar en ytdiagramserie. |
-| Surface3D | `34` | Representerar en 3D Surface-diagramserie. |
-| Treemap | `35` | Representerar en trädkarta-diagramserie. |
+| Surface | `33` | Representerar en serie Surface-diagram. |
+| Surface3D | `34` | Representerar en 3D-ytediagramserie. |
+| Treemap | `35` | Representerar en trädkartserie. |
 | Sunburst | `36` | Representerar en Sunburst-diagramserie. |
 | Histogram | `37` | Representerar en histogramdiagramserie. |
 | Pareto | `38` | Representerar en Pareto-diagramserie. |
 | ParetoLine | `39` | Representerar en Pareto Line-diagramserie. |
-| BoxAndWhisker | `40` | Representerar en box- och morrhårsdiagramserie. |
+| BoxAndWhisker | `40` | Representerar en Box and Whisker-diagramserie. |
 | Waterfall | `41` | Representerar en vattenfallsdiagramserie. |
 | Funnel | `42` | Representerar en trattdiagramserie. |
-| RegionMap | `43` | Representerar en områdeskartserie. |
+| RegionMap | `43` | Representerar en regionskartserie. |
 
 ## Exempel
 
-Visar hur man
+Visar hur man tar bort specifika diagramserier.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");

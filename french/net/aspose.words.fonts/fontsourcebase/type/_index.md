@@ -3,14 +3,14 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words pour .NET
-description: FontSourceBase Type propriété. Renvoie le type de la source de police en C#.
+description: Découvrez la propriété FontSourceBase Type, récupérez facilement les types de sources de polices pour améliorer votre conception Web et optimiser l'expérience utilisateur.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property
 
-Renvoie le type de la source de police.
+Renvoie le type de la source de la police.
 
 ```csharp
 public abstract FontSourceType Type { get; }

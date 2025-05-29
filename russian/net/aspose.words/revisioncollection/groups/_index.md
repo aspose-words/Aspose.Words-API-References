@@ -3,14 +3,14 @@ title: RevisionCollection.Groups
 linktitle: Groups
 articleTitle: Groups
 second_title: Aspose.Words для .NET
-description: RevisionCollection Groups свойство. Коллекция групп редакций на С#.
+description: Откройте для себя RevisionCollection Groups — уникальную коллекцию групп ревизий, призванную улучшить сотрудничество и оптимизировать управление проектами.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisioncollection/groups/
 ---
 ## RevisionCollection.Groups property
 
-Коллекция групп редакций.
+Сбор групп ревизий.
 
 ```csharp
 public RevisionGroupCollection Groups { get; }
@@ -24,11 +24,11 @@ public RevisionGroupCollection Groups { get; }
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Эта коллекция сама содержит набор групп ревизий.
-// Каждая группа представляет собой последовательность соседних ревизий.
+// Эта коллекция сама по себе содержит коллекцию групп ревизий.
+// Каждая группа представляет собой последовательность смежных ревизий.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Перебираем коллекцию групп и печатаем текст, к которому относится редакция.
+// Проходим по коллекции групп и печатаем текст, к которому относится изменение.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -38,18 +38,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Каждый запуск, на который влияет ревизия, получает соответствующий объект ревизии.
-// Коллекция редакций значительно больше, чем в сокращенной форме, которую мы напечатали выше,
-// в зависимости от того, на сколько прогонов мы сегментировали документ во время редактирования Microsoft Word.
+// Каждый запуск, на который влияет ревизия, получает соответствующий объект Revision.
+// Коллекция изменений значительно больше, чем сжатая форма, которую мы напечатали выше,
+// в зависимости от того, на сколько этапов мы сегментировали документ во время редактирования в Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange влияет исключительно на стили, а не на узлы документа. Это означает «Родительский стиль».
-        // Свойство всегда будет использоваться, а ParentNode всегда будет иметь значение null.
-        // Поскольку все остальные изменения затрагивают узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет иметь значение null.
+        // StyleDefinitionChange влияет строго на стили, а не на узлы документа. Это означает, что "ParentStyle"
+        // свойство всегда будет использоваться, в то время как ParentNode всегда будет иметь значение null.
+        // Поскольку все остальные изменения влияют на узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет иметь значение null.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -63,7 +63,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Отклоняем все изменения через коллекцию, возвращая документ в исходную форму.
+// Отклонить все изменения через коллекцию, вернув документ к исходному виду.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

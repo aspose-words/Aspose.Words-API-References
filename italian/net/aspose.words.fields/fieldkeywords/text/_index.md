@@ -3,7 +3,7 @@ title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: FieldKeywords Text proprietà. Ottiene o imposta il testo delle parole chiave in C#.
+description: Gestisci le tue FieldKeywords con facilità! Accedi e personalizza il testo delle parole chiave per prestazioni SEO ottimali e una maggiore visibilità.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldkeywords/text/
@@ -18,23 +18,23 @@ public string Text { get; set; }
 
 ## Esempi
 
-Mostra per inserire un campo KEYWORDS.
+Mostra come inserire un campo PAROLE CHIAVE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi alcune parole chiave, chiamate anche "tag" in Esplora file.
+// Aggiungere alcune parole chiave, chiamate anche "tag" in Esplora file.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
-// Il campo KEYWORDS visualizza il valore di questa proprietà.
+// Il campo PAROLE CHIAVE visualizza il valore di questa proprietà.
 FieldKeywords field = (FieldKeywords)builder.InsertField(FieldType.FieldKeyword, true);
 field.Update();
 
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Impostazione di un valore per la proprietà Text del campo,
+// Impostazione di un valore per la proprietà Testo del campo,
 // e quindi l'aggiornamento del campo sovrascriverà anche la proprietà incorporata corrispondente con il nuovo valore.
 field.Text = "OverridingKeyword";
 field.Update();

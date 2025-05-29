@@ -3,14 +3,14 @@ title: Document.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words para .NET
-description: Document OriginalFileName propiedad. Obtiene el nombre de archivo original del documento en C#.
+description: Recupere fácilmente el nombre de archivo original de su documento con la propiedad Document OriginalFileName. ¡Mejore su flujo de trabajo y organización hoy mismo!
 type: docs
-weight: 290
+weight: 300
 url: /es/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
 
-Obtiene el nombre de archivo original del documento.
+Obtiene el nombre del archivo original del documento.
 
 ```csharp
 public string OriginalFileName { get; }
@@ -18,7 +18,7 @@ public string OriginalFileName { get; }
 
 ## Observaciones
 
-Devoluciones`nulo` si el documento se cargó desde una secuencia o se creó en blanco.
+Devoluciones`nulo` si el documento se cargó desde un flujo de trabajo o se creó en blanco.
 
 ## Ejemplos
 
@@ -43,14 +43,14 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
     // A continuación se muestran dos métodos para convertir un LoadFormat a su SaveFormat correspondiente.
-    // 1 - Obtenga la cadena de extensión del archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
+    // 1 - Obtenga la cadena de extensión de archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertir LoadFormat directamente a su SaveFormat:
+    // 2 - Convierte el LoadFormat directamente a su SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Cargue un documento de la secuencia y luego guárdelo en la extensión de archivo detectada automáticamente.
+    // Cargue un documento desde la secuencia y luego guárdelo en la extensión de archivo detectada automáticamente.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

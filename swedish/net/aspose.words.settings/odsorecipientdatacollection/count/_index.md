@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
+description: Upptäck egenskapen OdsoRecipientDataCollection Count för att enkelt hämta det totala antalet element och förbättra effektiviteten i din datahantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

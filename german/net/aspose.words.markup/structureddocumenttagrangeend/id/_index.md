@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeEnd Id eigendom. Gibt hierfür eine eindeutige schreibgeschützte persistente numerische ID anStructuredDocumentTagRange node. EntsprechendStructuredDocumentTagRangeStart Knoten hat das gleicheId  in C#.
+description: Entdecken Sie die Eigenschaft „StructuredDocumentTagRangeEnd Id“, eine eindeutige, schreibgeschützte Kennung für nahtloses Tagging von Dokumenten. Verbessern Sie noch heute Ihr Dokumentenmanagement!
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Gibt hierfür eine eindeutige, schreibgeschützte, persistente numerische ID an**StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) Knoten hat das gleiche[`Id`](../../structureddocumenttagrangestart/id/) .
+Gibt eine eindeutige, schreibgeschützte, persistente numerische ID für dieses**StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) Knoten hat die gleiche[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -18,7 +18,7 @@ public int Id { get; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

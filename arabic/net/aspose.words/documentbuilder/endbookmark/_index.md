@@ -3,7 +3,7 @@ title: DocumentBuilder.EndBookmark
 linktitle: EndBookmark
 articleTitle: EndBookmark
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder EndBookmark طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية في C#.
+description: قم بوضع علامة على نهاية الإشارة المرجعية في مستندك بسهولة باستخدام طريقة EndBookmark في DocumentBuilder، مما يعمل على تحسين تنظيم مستندك وتنقله.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/documentbuilder/endbookmark/
@@ -26,9 +26,9 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 ## ملاحظات
 
-يمكن أن تتداخل الإشارات المرجعية الموجودة في المستند وتمتد إلى أي نطاق. لإنشاء إشارة مرجعية صالحة تحتاج إلى استدعاء كليهما[`StartBookmark`](../startbookmark/) و`EndBookmark` مع نفس الشيء*bookmarkName* المعلمة.
+يمكن أن تتداخل الإشارات المرجعية في مستند ما وتمتد إلى أي نطاق. لإنشاء إشارة مرجعية صالحة، يجب عليك استدعاء كلٍّ من[`StartBookmark`](../startbookmark/) و`EndBookmark` مع نفس الشيء*bookmarkName* المعلمة .
 
-سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+سيتم تجاهل الإشارات المرجعية ذات التكوين السيئ أو الإشارات المرجعية التي تحتوي على أسماء مكررة عند حفظ المستند.
 
 ## أمثلة
 
@@ -38,8 +38,8 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// الإشارة المرجعية الصالحة تحتاج إلى أن يكون النص الأساسي للمستند محاطًا بها
-// عُقد BookmarkStart وBookmarkEnd التي تم إنشاؤها باستخدام اسم إشارة مرجعية مطابق.
+// يجب أن تحتوي الإشارة المرجعية الصالحة على نص مستند مُحاط بـ
+// تم إنشاء عقد BookmarkStart وBookmarkEnd باسم إشارة مرجعية مطابق.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// أدخل حقل الارتباط التشعبي الذي يرتبط بالإشارة المرجعية. يمكننا تمرير مفاتيح المجال
-// إلى أسلوب "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية.
+// أدخل حقل ارتباط تشعبي (HYPERLINK) يربط بالإشارة المرجعية. يمكننا تمرير مفاتيح الحقول
+// إلى طريقة "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

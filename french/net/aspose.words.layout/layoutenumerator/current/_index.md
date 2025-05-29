@@ -3,14 +3,14 @@ title: LayoutEnumerator.Current
 linktitle: Current
 articleTitle: Current
 second_title: Aspose.Words pour .NET
-description: LayoutEnumerator Current propriété. Obtient ou définit la position actuelle dans le modèle de mise en page actuelle. Cette propriété renvoie un objet opaque qui correspond à lentité de mise en page actuelle en C#.
+description: Découvrez la propriété Current de LayoutEnumerator pour accéder et modifier facilement la position actuelle dans votre modèle de mise en page pour une flexibilité de conception améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/layoutenumerator/current/
 ---
 ## LayoutEnumerator.Current property
 
-Obtient ou définit la position actuelle dans le modèle de mise en page actuelle. Cette propriété renvoie un objet opaque qui correspond à l'entité de mise en page actuelle.
+Obtient ou définit la position actuelle dans le modèle de mise en page. Cette propriété renvoie un objet opaque qui correspond à l'entité de mise en page actuelle.
 
 ```csharp
 public object Current { get; set; }
@@ -18,18 +18,18 @@ public object Current { get; set; }
 
 ## Exemples
 
-Montre comment afficher les plages de pages couvertes par un nœud.
+Montre comment voir les plages de pages qu'un nœud couvre.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Appelez la méthode "GetNumPagesSpanned" pour compter le nombre de pages que couvre le contenu de notre document.
-// Puisque le document est vide, ce nombre de pages est actuellement nul.
+// Appelez la méthode « GetNumPagesSpanned » pour compter le nombre de pages sur lesquelles s'étend le contenu de notre document.
+// Étant donné que le document est vide, ce nombre de pages est actuellement nul.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Remplit le document avec 5 pages de contenu.
+// Remplissez le document avec 5 pages de contenu.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
 // Avant le collecteur de mise en page, nous devons appeler la méthode "UpdatePageLayout" pour nous donner
-// un chiffre précis pour toute métrique liée à la mise en page, telle que le nombre de pages.
+// un chiffre précis pour toute mesure liée à la mise en page, telle que le nombre de pages.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues globales de pages.
+// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues de pages globales.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {

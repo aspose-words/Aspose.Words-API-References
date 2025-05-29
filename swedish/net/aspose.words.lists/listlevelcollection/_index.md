@@ -3,14 +3,14 @@ title: ListLevelCollection Class
 linktitle: ListLevelCollection
 articleTitle: ListLevelCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Lists.ListLevelCollection klass. En samling listformatering för varje nivå i en lista i C#.
+description: Upptäck Aspose.Words.Lists.ListLevelCollection, effektivisera din dokumentformatering med anpassningsbara listnivåer för förbättrad tydlighet och presentation.
 type: docs
-weight: 3520
+weight: 3970
 url: /sv/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
 
-En samling listformatering för varje nivå i en lista.
+En samling listformateringar för varje nivå i en lista.
 
 För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
@@ -23,25 +23,25 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | Hämtar antalet nivåer i den här listan. |
-| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Får en listnivå efter index. |
+| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | Hämtar en listnivå efter index. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Hämtar uppräkningsobjektet som kommer att räkna upp nivåer i den här listan. |
+| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Hämtar uppräknarobjektet som räknar upp nivåerna i den här listan. |
 
 ## Exempel
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -79,7 +79,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");
@@ -89,16 +89,16 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

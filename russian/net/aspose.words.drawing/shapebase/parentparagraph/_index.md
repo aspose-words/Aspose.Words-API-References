@@ -3,9 +3,9 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words для .NET
-description: ShapeBase ParentParagraph свойство. Возвращает непосредственный родительский абзац на С#.
+description: Откройте для себя свойство ShapeBase ParentParagraph — получите эффективный доступ к непосредственному родительскому абзацу для оптимизированного управления содержимым и улучшенной организации.
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -18,11 +18,11 @@ public Paragraph ParentParagraph { get; }
 
 ## Примечания
 
-Для дочерних фигур фигуры группы и дочерних фигур объекта Office Math всегда возвращается`нулевой`.
+Для дочерних фигур групповой фигуры и дочерних фигур объекта Office Math всегда возвращается`нулевой`.
 
 ## Примеры
 
-Показывает, как вставить текстовое поле и установить шрифт его содержимого.
+Показывает, как вставить текстовое поле и задать шрифт его содержимого.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «истина», чтобы скрыть текстовое поле из поля зрения.
+// Установите свойство «Скрытый» объекта «Шрифт» фигуры на «истина», чтобы скрыть текстовое поле из виду
 // и свернуть пространство, которое он обычно занимает.
-// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «false», чтобы текстовое поле оставалось видимым.
+// Установите свойство «Скрытый» объекта «Шрифт» фигуры на «ложь», чтобы оставить текстовое поле видимым.
 shape.Font.Hidden = hideShape;
 
-// Если фигура видна, мы изменим ее внешний вид с помощью объекта шрифта.
+// Если фигура видима, мы изменим ее внешний вид с помощью объекта шрифта.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;

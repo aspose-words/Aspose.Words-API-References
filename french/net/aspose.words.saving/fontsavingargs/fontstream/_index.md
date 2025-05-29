@@ -3,7 +3,7 @@ title: FontSavingArgs.FontStream
 linktitle: FontStream
 articleTitle: FontStream
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs FontStream propriété. Permet de spécifier le flux dans lequel la police sera enregistrée en C#.
+description: Découvrez la propriété FontSavingArgs FontStream, permettant un stockage et une gestion transparents des polices pour des performances d'application et une expérience utilisateur améliorées.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -18,13 +18,13 @@ public Stream FontStream { get; set; }
 
 ## Remarques
 
-Cette propriété vous permet d'enregistrer les polices dans des flux plutôt que dans des fichiers lors de l'exportation HTML.
+Cette propriété vous permet d'enregistrer des polices dans des flux au lieu de fichiers lors de l'exportation HTML.
 
 La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la police sera enregistrée dans un fichier spécifié dans le[`FontFileName`](../fontfilename/) propriété.
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -67,7 +67,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

@@ -3,7 +3,7 @@ title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words för .NET
-description: FieldBarcode byggare. Default_Constructor i C#.
+description: Upptäck FieldBarcode-konstruktorn – din lösning för sömlös streckkodsgenerering. Lås upp effektiviteten med vår intuitiva standardkonstruktor!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldbarcode/fieldbarcode/

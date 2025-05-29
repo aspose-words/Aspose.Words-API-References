@@ -3,14 +3,14 @@ title: Document.DigitalSignatures
 linktitle: DigitalSignatures
 articleTitle: DigitalSignatures
 second_title: Aspose.Words för .NET
-description: Document DigitalSignatures fast egendom. Hämtar insamlingen av digitala signaturer för detta dokument och deras valideringsresultat i C#.
+description: Upptäck egenskapen Digitala signaturer för att enkelt komma åt och validera ett dokuments digitala signaturer. Säkerställ äkthet och säkerhet med lätthet.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-Hämtar insamlingen av digitala signaturer för detta dokument och deras valideringsresultat.
+Hämtar samlingen av digitala signaturer för detta dokument och deras valideringsresultat.
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
@@ -18,9 +18,9 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ## Anmärkningar
 
-Den här samlingen innehåller digitala signaturer som laddades från originaldokumentet. Dessa digitala signaturer kommer inte att sparas när du sparar detta[`Document`](../) object till en fil eller ström eftersom att spara eller konvertera kommer att producera ett dokument som skiljer sig från originalet och de ursprungliga digitala signaturerna kommer inte längre att vara giltiga.
+Den här samlingen innehåller digitala signaturer som laddades från originaldokumentet. Dessa digitala signaturer sparas inte när du sparar detta.[`Document`](../) object till en fil eller ström eftersom att spara eller konvertera kommer att producera ett dokument som skiljer sig från originalet och de ursprungliga digitala signaturerna kommer inte längre att vara giltiga.
 
-Denna samling är aldrig`null`. Om dokumentet inte är signerat kommer det att innehålla noll element.
+Denna samling är aldrig`null`Om dokumentet inte är signerat kommer det att innehålla noll element.
 
 ## Exempel
 
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -44,20 +44,21 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Visar hur man signerar dokument med X.509-certifikat.
 
 ```csharp
-// Kontrollera att ett dokument inte är signerat.
+// Verifiera att ett dokument inte är signerat.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Skapa ett CertificateHolder-objekt från en PKCS12-fil, som vi kommer att använda för att signera dokumentet.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Det finns två sätt att spara en signerad kopia av ett dokument till det lokala filsystemet:
+// Det finns två sätt att spara en signerad kopia av ett dokument i det lokala filsystemet:
 // 1 - Ange ett dokument med ett lokalt systemfilnamn och spara en signerad kopia på en plats som anges med ett annat filnamn.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Ta ett dokument från en stream och spara en signerad kopia till en annan stream.
+// 2 - Ta ett dokument från en ström och spara en signerad kopia till en annan ström.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

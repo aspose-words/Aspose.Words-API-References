@@ -3,14 +3,14 @@ title: PageSetup.CharactersPerLine
 linktitle: CharactersPerLine
 articleTitle: CharactersPerLine
 second_title: Aspose.Words لـ .NET
-description: PageSetup CharactersPerLine ملكية. الحصول على أو تعيين عدد الأحرف لكل سطر في شبكة المستند في C#.
+description: تحكم في تخطيط مستندك باستخدام خاصية PageSetup CharactersPerLine. اضبط بسهولة الأحرف في كل سطر لضمان سهولة القراءة والتصميم الأمثل.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/pagesetup/charactersperline/
 ---
 ## PageSetup.CharactersPerLine property
 
-الحصول على أو تعيين عدد الأحرف لكل سطر في شبكة المستند.
+يحصل على عدد الأحرف لكل سطر في شبكة المستند أو يعينه.
 
 ```csharp
 public int CharactersPerLine { get; set; }
@@ -18,13 +18,13 @@ public int CharactersPerLine { get; set; }
 
 ## ملاحظات
 
-الحد الأدنى لقيمة الخاصية هو 1. وتعتمد القيمة القصوى على عرض الصفحة وحجم الخط للنمط Normal . الحد الأدنى لمسافة الأحرف هو 90 بالمائة من حجم الخط. على سبيل المثال، الحد الأقصى لعدد الأحرف لكل سطر من صفحة الرسالة بهوامش مقاس بوصة واحدة هو 43.
+الحد الأدنى لقيمة الخاصية هو 1. تعتمد القيمة القصوى على عرض الصفحة وحجم الخط في نمط Normal . الحد الأدنى لتباعد الأحرف هو 90% من حجم الخط. على سبيل المثال، الحد الأقصى لعدد الأحرف في كل سطر في صفحة Letter ذات هوامش بوصة واحدة هو 43 حرفًا.
 
-افتراضيًا، تحتوي الخاصية على قيمة، حيث تساوي درجة الأحرف حجم الخط للنمط Normal .
+بشكل افتراضي، تحتوي الخاصية على قيمة، حيث يكون حجم الحرف مساويًا لحجم الخط في النمط Normal .
 
 ## أمثلة
 
-يوضح كيفية تحديد عدد الأحرف التي قد يحتوي عليها كل سطر.
+يوضح كيفية تحديد عدد الأحرف التي يمكن أن يحتوي عليها كل سطر.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// يعتمد عدد الأحرف أيضًا على حجم الخط.
+//يعتمد عدد الأحرف أيضًا على حجم الخط.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);

@@ -3,14 +3,14 @@ title: OleFormat.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words per .NET
-description: OleFormat SourceFullName proprietà. Ottiene o imposta il percorso e il nome del file di origine per loggetto OLE collegato in C#.
+description: Scopri la proprietà SourceFullName di OleFormat e gestisci facilmente il percorso e il nome del file sorgente del tuo oggetto OLE collegato per un'integrazione perfetta.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
 
-Ottiene o imposta il percorso e il nome del file di origine per l'oggetto OLE collegato.
+Ottiene o imposta il percorso e il nome del file sorgente per l'oggetto OLE collegato.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -24,7 +24,7 @@ Se`SourceFullName` non è una stringa vuota, l'oggetto OLE è collegato.
 
 ## Esempi
 
-Mostra come inserire oggetti OLE collegati e scollegati.
+Mostra come inserire oggetti OLE collegati e non collegati.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Incorpora un disegno di Microsoft Visio nel documento come oggetto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserisci un collegamento al file nel file system locale e visualizzalo come un'icona.
+// Inserisce un collegamento al file nel file system locale e lo visualizza come icona.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// L'inserimento di oggetti OLE crea forme che memorizzano questi oggetti.
+// L'inserimento di oggetti OLE crea forme che memorizzano tali oggetti.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Se l'oggetto contiene dati OLE, possiamo accedervi utilizzando uno stream.
+// Se l'oggetto contiene dati OLE, possiamo accedervi tramite un flusso.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

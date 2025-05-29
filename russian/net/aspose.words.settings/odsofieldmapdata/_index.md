@@ -3,16 +3,16 @@ title: OdsoFieldMapData Class
 linktitle: OdsoFieldMapData
 articleTitle: OdsoFieldMapData
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMapData сорт. Указывает как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе на С#.
+description: Откройте для себя класс Aspose.Words.OdsoFieldMapData для бесшовного сопоставления внешних столбцов данных с предопределенными полями слияния документов, что повышает автоматизацию документов.
 type: docs
-weight: 5900
+weight: 6730
 url: /ru/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
 Указывает, как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class OdsoFieldMapData
@@ -28,20 +28,20 @@ public class OdsoFieldMapData
 
 | Имя | Описание |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указанным[`Column`](./column/) свойство в этом сопоставлении полей. Значение по умолчанию — пустая строка. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан в[`Column`](./column/)property. Значение по умолчанию — пустая строка. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Указывает, сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default . |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Указывает индекс столбца во внешнем источнике данных, начинающийся с нуля, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указанным[`Column`](./column/) свойство в этом отображении поля. Значение по умолчанию — пустая строка. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан[`Column`](./column/)свойство. Значение по умолчанию — пустая строка. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Указывает, сопоставлено ли заданное поле слияния со столбцом в заданном внешнем источнике данных. Значение по умолчанию:Default . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Возвращает глубокую копию этого объекта. |
+| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Возвращает глубокий клон этого объекта. |
 
 ## Примечания
 
-Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые можно вставлять в документ как MERGEFIELD или , используя поля ADDRESSBLOCK или GREETINGLINE. Информация, указанная в`OdsoFieldMapData` позволяет сопоставить один столбец во внешнем источнике данных с одним предопределенным полем слияния.
+Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые он позволяет вставлять в документ как MERGEFIELD или , использовать в полях ADDRESSBLOCK или GREETINGLINE. Информация, указанная в`OdsoFieldMapData` позволяет сопоставить один столбец во внешнем источнике данных с одним предопределенным полем слияния.
 
 ## Примеры
 
@@ -72,7 +72,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

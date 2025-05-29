@@ -3,7 +3,7 @@ title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words für .NET
-description: UserInformation Name eigendom. Ruft den Namen des Benutzers ab oder legt ihn fest in C#.
+description: Verwalten Sie Benutzerprofile mühelos mit der Eigenschaft „UserInformation Name“. Rufen Sie Benutzernamen einfach ab oder aktualisieren Sie sie für eine verbesserte Personalisierung.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/userinformation/name/
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
- // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
+// Fügen Sie die Felder USERNAME, USERINITIALS und USERADDRESS ein, die Werte von
+    // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
+// Das Feldoptionenobjekt hat auch einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

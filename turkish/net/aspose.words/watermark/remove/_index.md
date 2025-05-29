@@ -2,8 +2,8 @@
 title: Watermark.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: Watermark Remove yöntem. Filigranı kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Etkili yöntemimizle filigranları zahmetsizce kaldırın. Görüntülerinizi orijinal güzelliklerine kavuşturun ve yaratıcı projelerinizi bugün geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/watermark/remove/
@@ -26,8 +26,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

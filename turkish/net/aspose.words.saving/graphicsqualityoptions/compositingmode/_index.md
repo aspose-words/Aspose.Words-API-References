@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.CompositingMode
 linktitle: CompositingMode
 articleTitle: CompositingMode
-second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions CompositingMode mülk. Birleştirilmiş görüntülerin bu Grafiğe nasıl çizildiğini belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Görüntülerin nasıl işlendiğini en iyi hale getirmek, grafik performansınızı ve kalitenizi artırmak için GraphicsQualityOptions CompositingMode özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
 ## GraphicsQualityOptions.CompositingMode property
 
-Birleştirilmiş görüntülerin bu Grafiğe nasıl çizildiğini belirten bir değer alır veya ayarlar.
+Bileşik görüntülerin bu Grafiklere nasıl çizileceğini belirten bir değeri alır veya ayarlar.
 
 ```csharp
 public CompositingMode? CompositingMode { get; set; }
@@ -18,7 +18,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ## Örnekler
 
-Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken render kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

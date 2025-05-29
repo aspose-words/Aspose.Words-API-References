@@ -3,14 +3,14 @@ title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
 second_title: Aspose.Words per .NET
-description: NodeChangingArgs NewParent proprietà. Ottiene il nodo principale che verrà impostato al termine delloperazione in C#.
+description: Scopri la proprietà NewParent di NodeChangingArgs per accedere in modo efficiente al futuro nodo padre di un nodo al termine delle operazioni. Migliora il tuo codice con facilità!
 type: docs
 weight: 20
 url: /it/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-Ottiene il nodo principale che verrà impostato al termine dell'operazione.
+Ottiene il nodo padre che verrà impostato al termine dell'operazione.
 
 ```csharp
 public Node NewParent { get; }
@@ -18,7 +18,7 @@ public Node NewParent { get; }
 
 ## Esempi
 
-Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
+Mostra come utilizzare un NodeChangingCallback per monitorare in tempo reale le modifiche apportate all'albero del documento durante la modifica.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Stampa ogni inserimento/rimozione di nodi così come avviene nel documento.
+/// Stampa ogni inserimento/rimozione di nodo non appena avviene nel documento.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

@@ -3,9 +3,9 @@ title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaModuleCollection classe. Rappresenta una raccolta diVbaModule oggetti in C#.
+description: Scopri la classe Aspose.Words.Vba.VbaModuleCollection, lo strumento essenziale per gestire in modo efficiente gli oggetti VbaModule nell'automazione dei documenti.
 type: docs
-weight: 6560
+weight: 7410
 url: /it/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
@@ -23,7 +23,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Restituisce il numero di moduli VBA nella raccolta. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Recupera a[`VbaModule`](../vbamodule/) oggetto per indice. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Recupera un[`VbaModule`](../vbamodule/) oggetto per indice. (2 indexers) |
 
 ## Metodi
 
@@ -34,7 +34,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -45,7 +45,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

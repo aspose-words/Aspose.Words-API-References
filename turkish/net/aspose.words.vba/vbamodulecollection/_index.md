@@ -2,17 +2,17 @@
 title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaModuleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaModule nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Belge otomasyonunda VbaModule nesnelerini etkili bir şekilde yönetmek için temel aracınız olan Aspose.Words.Vba.VbaModuleCollection sınıfını keşfedin.
 type: docs
-weight: 6560
+weight: 7410
 url: /tr/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Aşağıdakilerin bir koleksiyonunu temsil eder:[`VbaModule`](../vbamodule/) nesneler.
+Bir koleksiyonu temsil eder[`VbaModule`](../vbamodule/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışma](https://docs.aspose.com/words/net/working-with-vba-macros/) belgeleme makalesi.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -23,7 +23,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Koleksiyondaki VBA modüllerinin sayısını döndürür. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Bir öğeyi alır[`VbaModule`](../vbamodule/) indekse göre nesne. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Birini alır[`VbaModule`](../vbamodule/) nesne index. tarafından (2 indexers) |
 
 ## yöntemler
 
@@ -45,18 +45,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya adına göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Koleksiyondan bir modülü kaldırın.
+// Koleksiyondan bir modülü kaldır.
 vbaModules.Remove(vbaModules[2]);
 ```
 

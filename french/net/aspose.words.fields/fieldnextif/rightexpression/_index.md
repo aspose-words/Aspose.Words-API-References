@@ -3,7 +3,7 @@ title: FieldNextIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words pour .NET
-description: FieldNextIf RightExpression propriété. Obtient ou définit la partie droite de lexpression de comparaison en C#.
+description: Découvrez la propriété FieldNextIf RightExpression pour gérer et personnaliser facilement le côté droit de vos expressions de comparaison pour une gestion améliorée des données.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -27,7 +27,7 @@ public void FieldNext()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Créez une source de données pour notre publipostage avec 3 lignes.
-    // Un publipostage qui utilise ce tableau créerait normalement un document de 3 pages.
+    // Un publipostage qui utilise cette table créerait normalement un document de 3 pages.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -39,16 +39,16 @@ public void FieldNext()
     InsertMergeFields(builder, "First row: ");
 
     // Si nous avons plusieurs champs de fusion avec le même FieldName,
-    // ils recevront les données de la même ligne de la source de données et afficheront la même valeur après la fusion.
-    // Un champ NEXT indique au publipostage de descendre instantanément d'une ligne,
+    // ils recevront des données de la même ligne de la source de données et afficheront la même valeur après la fusion.
+    // Un champ NEXT indique instantanément au publipostage de descendre d'une ligne,
     // ce qui signifie que tous les MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
     // Assurez-vous de ne jamais essayer de passer à la ligne suivante alors que vous êtes déjà sur la dernière ligne.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Après la fusion, les valeurs de source de données acceptées par ces MERGEFIELD
-     // se retrouvera sur la même page que les MERGEFIELD ci-dessus.
+    // Après la fusion, les valeurs de la source de données que ces MERGEFIELD acceptent
+     // finira sur la même page que les MERGEFIELD ci-dessus.
     InsertMergeFields(builder, "Second row: ");
 
     // Un champ NEXTIF a la même fonction qu'un champ NEXT,
@@ -67,8 +67,8 @@ public void FieldNext()
 
     doc.MailMerge.Execute(table);
 
-     // Notre source de données comporte 3 lignes et nous avons sauté des lignes deux fois.
-    // Notre document de sortie aura 1 page avec les données des 3 lignes.
+     // Notre source de données comporte 3 lignes et nous avons ignoré des lignes deux fois.
+    // Notre document de sortie comportera 1 page avec les données des 3 lignes.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
@@ -84,7 +84,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec les propriétés spécifiées.
+/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec des propriétés spécifiées.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

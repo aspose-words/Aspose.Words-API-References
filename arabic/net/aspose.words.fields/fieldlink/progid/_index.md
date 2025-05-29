@@ -3,14 +3,14 @@ title: FieldLink.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words لـ .NET
-description: FieldLink ProgId ملكية. الحصول على أو تعيين نوع التطبيق لمعلومات الارتباط في C#.
+description: اكتشف خاصية FieldLink ProgId لإدارة أنواع التطبيقات بسهولة للحصول على معلومات الارتباط. حسّن سير عملك باستخدام هذه الأداة الأساسية!
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldlink/progid/
 ---
 ## FieldLink.ProgId property
 
-الحصول على أو تعيين نوع التطبيق لمعلومات الارتباط.
+يحصل على نوع التطبيق لمعلومات الرابط أو يعينه.
 
 ```csharp
 public string ProgId { get; set; }
@@ -18,7 +18,7 @@ public string ProgId { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
+يوضح كيفية استخدام أنواع مختلفة من الحقول للارتباط بمستندات أخرى في نظام الملفات المحلي، وعرض محتوياتها.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -26,7 +26,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل نص.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل نص.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -50,7 +50,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل صورة.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل صورة.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل DDE وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل DDE، وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // كائن مرتبط كنص
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // كائن مرتبط كصورة
     Picture,
     Bitmap
 }

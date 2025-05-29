@@ -3,14 +3,14 @@ title: ImageData.ToImage
 linktitle: ToImage
 articleTitle: ToImage
 second_title: Aspose.Words для .NET
-description: ImageData ToImage метод. Получает изображение хранящееся в фигуре в видеImage объект на С#.
+description: Откройте для себя мощь метода ToImage в ImageData, чтобы легко извлекать изображения, хранящиеся в фигурах, как объекты Image. Улучшайте свои проекты без усилий!
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Получает изображение, хранящееся в фигуре в видеImage объект.
+Получает изображение, сохраненное в форме какImage объект.
 
 ```csharp
 public Image ToImage()
@@ -18,37 +18,27 @@ public Image ToImage()
 
 ## Примечания
 
-новыйImage объект создается каждый раз при вызове этого метода.
+НовыйImage объект создается каждый раз при вызове этого метода.
 
-Ответственность за удаление объекта изображения лежит на вызывающем объекте.
+Ответственность за утилизацию объекта изображения лежит на вызывающем объекте.
 
 ## Примеры
 
-Показывает, как сохранить все изображения из документа в файловую систему.
+Показывает, как сохранить все изображения из документа в файловой системе.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Фигуры с установленным флагом HasImage хранят и отображают все изображения документа.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// Фигуры с установленным флагом «HasImage» хранят и отображают все изображения документа.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// Проходим каждую фигуру и сохраняем ее изображение.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+// Пройдитесь по каждой фигуре и сохраните ее изображение.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 

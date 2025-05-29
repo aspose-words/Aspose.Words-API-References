@@ -2,8 +2,8 @@
 title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldPageRef InsertRelativePosition 财产. 获取或设置是否插入书签段落的相对位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldPageRef 的 InsertRelativePosition 属性如何通过有效管理书签段落位置来增强文档导航。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -24,22 +24,22 @@ public bool InsertRelativePosition { get; set; }
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
     // 插入一个 PAGEREF 字段，显示书签所在的页面。
-    // 设置 InsertHyperlink 标志以使该字段也充当书签的可点击链接。
+    // 设置 InsertHyperlink 标志，使该字段也可用作书签的可点击链接。
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // 我们可以使用 \p 标志来获取要显示的 PAGEREF 字段
+    // 我们可以使用 \p 标志来显示 PAGEREF 字段
     // 书签相对于字段位置的位置。
-    // Bookmark1 位于同一页且位于该字段上方，因此该字段的显示结果将为“上方”。
+    // Bookmark1 在同一页，且在该字段的上方，所以该字段的显示结果为“上方”。
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 将位于同一页并位于该字段下方，因此该字段的显示结果将为“下方”。
+    // Bookmark2 将在同一页面上且位于该字段下方，因此该字段的显示结果将为“下方”。
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 

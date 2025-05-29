@@ -2,15 +2,15 @@
 title: ShapeBase.WidthRelative
 linktitle: WidthRelative
 articleTitle: WidthRelative
-second_title: Aspose.Words for .NET
-description: ShapeBase WidthRelative mülk. Şeklin göreceli genişliğinin yüzdesini temsil eden değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Şekil genişliklerini yüzde olarak kolayca ayarlamak, tasarım esnekliğinizi ve hassasiyetinizi artırmak için ShapeBase WidthRelative özelliğini keşfedin.
 type: docs
-weight: 580
+weight: 620
 url: /tr/net/aspose.words.drawing/shapebase/widthrelative/
 ---
 ## ShapeBase.WidthRelative property
 
-Şeklin göreceli genişliğinin yüzdesini temsil eden değeri alır veya ayarlar.
+Şeklin göreli genişliğinin yüzdesini temsil eden değeri alır veya ayarlar.
 
 ```csharp
 public float WidthRelative { get; set; }
@@ -18,50 +18,50 @@ public float WidthRelative { get; set; }
 
 ## Örnekler
 
-Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
+Göreceli boyut ve konumun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mutlak boyut ve konuma sahip basit bir şekil ekleme.
+// Mutlak boyut ve konuma sahip basit bir şekil ekleniyor.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
 // Satır içi şekiller otomatik olarak mutlak birimlere dönüştürüldüğünden WrapType'ı WrapType.None olarak ayarlayın.
 shape.WrapType = WrapType.None;
 
-// Göreceli yatay boyutun kontrol edilmesi ve ayarlanması.
+// Göreceli yatay boyutu kontrol edip ayarlıyoruz.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Kenar boşluğuna yatay boyut bağlamayı ayarlama.
+    // Yatay boyut bağlamasını Margin'e ayarlama.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Genişliği Marj genişliğinin %50'sine ayarlıyoruz.
+    // Genişliği Margin genişliğinin %50'sine ayarlıyorum.
     shape.WidthRelative = 50;
 }
 
-// Göreceli dikey boyutun kontrol edilmesi ve ayarlanması.
+// Göreceli dikey boyutu kontrol edip ayarlıyoruz.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Dikey boyut ciltlemesini Kenar Boşluğuna ayarlama.
+    // Dikey boyut bağlamasını Margin'e ayarlama.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Yüksekliği Marj yüksekliğinin %30'una ayarlıyoruz.
+    // Yükseklik, Margin yüksekliğinin %30'una ayarlanıyor.
     shape.HeightRelative = 30;
 }
 
-// Göreceli dikey konumun kontrol edilmesi ve ayarlanması.
+// Göreceli dikey konumun kontrolü ve ayarlanması.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // TopMargin'e konum bağlamayı ayarlıyoruz.
+    // TopMargin'e pozisyon bağlamayı ayarlıyoruz.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // TopMargin pozisyonunun göreceli Top'unu %30'a ayarlama.
+    // Göreceli Üst Marj pozisyonunun %30'una ayarlanıyor.
     shape.TopRelative = 30;
 }
 
-// Göreceli yatay konumun kontrol edilmesi ve ayarlanması.
+// Göreceli yatay konumun kontrolü ve ayarlanması.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
     // RightMargin'e konum bağlamayı ayarlama.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // Konumun göreli değeri negatif olabilir.
+    // Pozisyona göre değer negatif olabilir.
     shape.LeftRelative = -260;
 }
 

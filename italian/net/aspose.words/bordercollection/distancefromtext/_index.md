@@ -3,7 +3,7 @@ title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words per .NET
-description: BorderCollection DistanceFromText proprietà. Ottiene o imposta la distanza del bordo dal testo in punti in C#.
+description: Scopri la proprietà BorderCollection DistanceFromText per personalizzare facilmente la spaziatura dei bordi rispetto al testo nei tuoi progetti. Ottimizza il tuo layout senza sforzo!
 type: docs
 weight: 40
 url: /it/net/aspose.words/bordercollection/distancefromtext/
@@ -20,13 +20,13 @@ public double DistanceFromText { get; set; }
 
 Ottiene la distanza dal testo per il primo bordo.
 
-Imposta la distanza dal testo per tutti i bordi della raccolta esclusi i bordi diagonali.
+Imposta la distanza dal testo per tutti i bordi della raccolta, esclusi i bordi diagonali.
 
-Non ha alcun effetto e verrà automaticamente reimpostato su zero per i bordi delle celle della tabella.
+Non ha alcun effetto e verrà automaticamente reimpostato a zero per i bordi delle celle della tabella.
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words für .NET
-description: MailMergeSettings CheckErrors eigendom. Gibt die Art der Fehlerberichterstattung an die von Microsoft Word beim Durchführen eines Seriendrucks durchgeführt werden soll. Der Standardwert istDefault  in C#.
+description: Entdecken Sie die CheckErrors-Eigenschaft von MailMergeSettings in Microsoft Word für eine effektive Fehlerberichterstattung bei Serienbriefen. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/mailmergesettings/checkerrors/
 ---
 ## MailMergeSettings.CheckErrors property
 
-Gibt die Art der Fehlerberichterstattung an, die von Microsoft Word beim Durchführen eines Seriendrucks durchgeführt werden soll. Der Standardwert istDefault .
+Gibt die Art der Fehlerberichterstattung an, die Microsoft Word bei der Serienbrieferstellung durchführen soll. Der Standardwert istDefault .
 
 ```csharp
 public MailMergeCheckErrors CheckErrors { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

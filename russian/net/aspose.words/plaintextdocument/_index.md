@@ -3,16 +3,16 @@ title: PlainTextDocument Class
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
 second_title: Aspose.Words для .NET
-description: Aspose.Words.PlainTextDocument сорт. Позволяет извлекать текстовое представление содержимого документа на С#.
+description: Откройте для себя класс Aspose.Words.PlainTextDocument, который позволит вам легко извлекать и использовать открытый текст из ваших документов для улучшения их читаемости и обработки.
 type: docs
-weight: 4440
+weight: 5170
 url: /ru/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
-Позволяет извлекать текстовое представление содержимого документа.
+Позволяет извлечь текстовое представление содержимого документа.
 
-Чтобы узнать больше, посетите[Работа с текстовым документом](https://docs.aspose.com/words/net/working-with-text-document/) статья документации.
+Чтобы узнать больше, посетите[Работа с текстовым документом](https://docs.aspose.com/words/net/working-with-text-document/) документальная статья.
 
 ```csharp
 public class PlainTextDocument
@@ -37,7 +37,7 @@ public class PlainTextDocument
 
 ## Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
 
 ```csharp
 Document doc = new Document(); 

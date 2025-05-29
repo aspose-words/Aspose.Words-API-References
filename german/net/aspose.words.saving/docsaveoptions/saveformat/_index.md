@@ -3,9 +3,9 @@ title: DocSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words für .NET
-description: DocSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann seinDoc oderDot  in C#.
+description: Entdecken Sie die SaveFormat-Eigenschaft von DocSaveOptions, um einfach zwischen den Formaten Doc und Dot für nahtloses Speichern von Dokumenten zu wählen. Optimieren Sie Ihren Workflow noch heute!
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.saving/docsaveoptions/saveformat/
 ---
 ## DocSaveOptions.SaveFormat property
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Legen Sie ein Passwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
-// Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
+// Legen Sie ein Kennwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
+// Beachten Sie, dass der Inhalt des Dokuments dadurch in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf „true“ setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

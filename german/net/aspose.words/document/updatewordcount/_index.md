@@ -3,9 +3,9 @@ title: Document.UpdateWordCount
 linktitle: UpdateWordCount
 articleTitle: UpdateWordCount
 second_title: Aspose.Words für .NET
-description: Document UpdateWordCount methode. Aktualisiert die Wortanzahleigenschaften des Dokuments in C#.
+description: Verbessern Sie die Effizienz Ihres Dokuments mit der Methode UpdateWordCount und stellen Sie genaue Wortanzahleigenschaften für eine bessere Bearbeitung und Überprüfung sicher.
 type: docs
-weight: 790
+weight: 850
 url: /de/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -18,15 +18,15 @@ public void UpdateWordCount()
 
 ## Bemerkungen
 
-`UpdateWordCount` Berechnet die Eigenschaften „Zeichen“, „Wörter“ und „Absätze“ neu und aktualisiert sie[`BuiltInDocumentProperties`](../builtindocumentproperties/) Sammlung der[`Document`](../).
+`UpdateWordCount` berechnet und aktualisiert die Eigenschaften „Characters“, „Words“ und „Paradix“ in der[`BuiltInDocumentProperties`](../builtindocumentproperties/) Sammlung der[`Document`](../).
 
-Beachten Sie, dass`UpdateWordCount`aktualisiert die Zeilenanzahl- und Seiteneigenschaften nicht. Verwenden Sie die`UpdateWordCount` Überlastung und Pass`WAHR` Wert als Parameter, um dies zu tun.
+Beachten Sie, dass`UpdateWordCount` aktualisiert die Eigenschaften für Zeilenanzahl und Seiten nicht. Verwenden Sie die`UpdateWordCount` Überlastung und Pass`WAHR` Wert als Parameter, um dies zu tun.
 
-Wenn Sie eine Testversion verwenden, wird das Testwasserzeichen auch in die Wortanzahl einbezogen .
+Wenn Sie eine Testversion verwenden, wird das Testwasserzeichen ebenfalls in die Wortanzahl einbezogen .
 
 ## Beispiele
 
-Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
+Zeigt, wie alle Listenbeschriftungen in einem Dokument aktualisiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -68,7 +68,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(*bool*) {#updatewordcount_1}
 
-Aktualisiert die Wortanzahleigenschaften des Dokuments, optional aktualisiert[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) Eigenschaft.
+Aktualisiert die Wortanzahleigenschaften des Dokuments, aktualisiert optional[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) Eigenschaft.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -76,7 +76,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| updateLinesCount | Boolean | `WAHR` ob die Anzahl der Zeilen im Dokument berechnet werden soll. |
+| updateLinesCount | Boolean | `WAHR` wenn die Zeilenanzahl im Dokument berechnet werden soll. |
 
 ## Bemerkungen
 
@@ -84,7 +84,7 @@ Diese Methode erstellt das Seitenlayout des Dokuments neu.
 
 ## Beispiele
 
-Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
+Zeigt, wie alle Listenbeschriftungen in einem Dokument aktualisiert werden.
 
 ```csharp
 Document doc = new Document();

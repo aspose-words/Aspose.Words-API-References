@@ -3,7 +3,7 @@ title: FieldGlossary
 linktitle: FieldGlossary
 articleTitle: FieldGlossary
 second_title: Aspose.Words för .NET
-description: FieldGlossary byggare. Default_Constructor i C#.
+description: Upptäck FieldGlossary-konstruktorn – ditt självklara verktyg för att enkelt skapa anpassade ordlistor. Förbättra dina projekt enkelt och effektivt!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldglossary/fieldglossary/

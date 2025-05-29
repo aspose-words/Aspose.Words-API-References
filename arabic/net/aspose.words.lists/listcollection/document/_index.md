@@ -3,14 +3,14 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: ListCollection Document ملكية. الحصول على مستند المالك في C#.
+description: اكتشف خاصية ListCollection Document للوصول بسهولة إلى مستند المالك وتبسيط إدارة بياناتك. حقق أقصى استفادة من الكفاءة اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listcollection/document/
 ---
 ## ListCollection.Document property
 
-الحصول على مستند المالك.
+يحصل على مستند المالك.
 
 ```csharp
 public DocumentBase Document { get; }

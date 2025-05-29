@@ -2,15 +2,15 @@
 title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
-second_title: Aspose.Words for .NET
-description: ParagraphFormat WordWrap mülk. Bu özellik iseYANLIŞ  Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat WordWrap özelliğinin Word'de metin kaydırmayı nasıl etkilediğini keşfedin. Gelişmiş belge okunabilirliği için Latince metin akışını kontrol etmeyi öğrenin.
 type: docs
-weight: 410
+weight: 420
 url: /tr/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Bu özellik ise`YANLIŞ` , Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
+Bu özellik ise`YANLIŞ` , Bir kelimenin ortasındaki Latin metni, geçerli paragraf için sarılabilir. Aksi takdirde Latin metni tüm kelimeler tarafından sarılır.
 
 ```csharp
 public bool WordWrap { get; set; }

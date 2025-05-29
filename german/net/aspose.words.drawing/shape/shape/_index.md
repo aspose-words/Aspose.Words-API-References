@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words für .NET
-description: Shape constructeur. Erstellt ein neues Formobjekt in C#.
+description: Erstellen Sie mühelos einzigartige Formobjekte mit unserem Shape Constructor. Gestalten Sie individuelle Formulare und optimieren Sie Ihre Projekte mit Leichtigkeit und Präzision!
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/shape/shape/
@@ -27,7 +27,7 @@ Sie sollten die gewünschten Formeigenschaften angeben, nachdem Sie eine Form er
 
 ## Beispiele
 
-Zeigt, wie man eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügt.
+Zeigt, wie eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Document doc = new Document();
 // Der öffentliche Konstruktor der Klasse „Shape“ erstellt eine Form mit dem Markup-Typ „ShapeMarkupLanguage.Vml“.
 // Wenn Sie eine Form eines nicht-primitiven Typs erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded oder DiagonalCornersRounded,
-// Bitte verwenden Sie DocumentBuilder.InsertShape.
+// bitte verwenden Sie DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -51,17 +51,17 @@ Zeigt, wie ein Textfeld erstellt und formatiert wird.
 ```csharp
 Document doc = new Document();
 
-// Erstelle ein schwebendes Textfeld.
+// Erstellen Sie ein schwebendes Textfeld.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Legen Sie die horizontale und vertikale Ausrichtung des Texts innerhalb der Form fest.
+// Legen Sie die horizontale und vertikale Ausrichtung des Textes innerhalb der Form fest.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Fügen Sie dem Textfeld einen Absatz hinzu und fügen Sie eine Textzeile hinzu, die im Textfeld angezeigt wird.
+// Fügen Sie dem Textfeld einen Absatz und einen Textlauf hinzu, der im Textfeld angezeigt wird.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

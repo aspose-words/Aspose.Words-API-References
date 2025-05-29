@@ -3,16 +3,16 @@ title: OfficeMathRenderer Class
 linktitle: OfficeMathRenderer
 articleTitle: OfficeMathRenderer
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Rendering.OfficeMathRenderer сорт. Предоставляет методы для визуализации человекаOfficeMath в растровое или векторное изображение или в графический объект на С#.
+description: Откройте для себя класс Aspose.Words.Rendering.OfficeMathRenderer, который позволит вам легко преобразовать OfficeMath в великолепные растровые или векторные изображения для ваших проектов.
 type: docs
-weight: 4560
+weight: 5290
 url: /ru/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Предоставляет методы для визуализации человека[`OfficeMath`](../../aspose.words.math/officemath/) в растровое или векторное изображение или в графический объект.
+Предоставляет методы для визуализации отдельного[`OfficeMath`](../../aspose.words.math/officemath/) в растровое или векторное изображение или в графический объект.
 
-Чтобы узнать больше, посетите[Работа с OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) статья документации.
+Чтобы узнать больше, посетите[Работа с OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) документальная статья.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -42,10 +42,12 @@ public class OfficeMathRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Преобразует фигуру вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Преобразует фигуру вGraphics объект указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Преобразует фигуру в изображение и сохраняет в поток. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Отображает форму вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Отображает форму вGraphics объект указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Визуализирует форму в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Отображает форму в виде изображения SVG и сохраняет в потоке. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Преобразует форму в изображение и сохраняет в файл. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Визуализирует фигуру в изображение SVG и сохраняет в файл. |
 
 ## Примеры
 
@@ -58,37 +60,37 @@ OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
 // Проверяем размер изображения, которое объект OfficeMath создаст при его рендеринге.
-Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
-Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
+Assert.AreEqual(122.0f, renderer.SizeInPoints.Width, 0.25f);
+Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.15f);
 
-Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
-Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
+Assert.AreEqual(122.0f, renderer.BoundsInPoints.Width, 0.25f);
+Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.15f);
 
-// Фигуры с прозрачными частями могут содержать разные значения в свойствах OpaqueBoundsInPoints.
-Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
+// Фигуры с прозрачными частями могут содержать разные значения в свойствах «OpaqueBoundsInPoints».
+Assert.AreEqual(122.0f, renderer.OpaqueBoundsInPoints.Width, 0.25f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Получаем размер фигуры в пикселях с линейным масштабированием до определенного разрешения.
+// Получить размер фигуры в пикселях с линейным масштабированием до определенного DPI.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
-Assert.AreEqual(159, bounds.Width);
+Assert.AreEqual(163, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Получаем размер фигуры в пикселях, но с разным DPI для горизонтального и вертикального размеров.
+// Получить размер фигуры в пикселях, но с разным DPI для горизонтальных и вертикальных размеров.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(28, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(27, bounds.Height);
 
-// Здесь также непрозрачные границы могут различаться.
+// Непрозрачные границы здесь также могут различаться.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(18, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(19, bounds.Height);
 
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
 
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(30, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(29, bounds.Height);
 ```
 
 ### Смотрите также

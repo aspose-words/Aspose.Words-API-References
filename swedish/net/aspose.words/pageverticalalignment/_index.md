@@ -3,9 +3,9 @@ title: PageVerticalAlignment Enum
 linktitle: PageVerticalAlignment
 articleTitle: PageVerticalAlignment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.PageVerticalAlignment uppräkning. Anger vertikal justering av text på varje sida i C#.
+description: Upptäck Aspose.Words.PageVerticalAlignment-enum för optimal textjustering på sidor. Förbättra ditt dokuments layout med exakt vertikal justering!
 type: docs
-weight: 4370
+weight: 5100
 url: /sv/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
@@ -20,32 +20,32 @@ public enum PageVerticalAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Bottom | `3` | Texten är justerad längst ned på sidan. |
-| Center | `1` | Texten är justerad i mitten av sidan. |
-| Justify | `2` | Text sprids för att fylla sidan. |
-| Top | `0` | Texten är justerad överst på sidan. |
+| Bottom | `3` | Texten justeras längst ner på sidan. |
+| Center | `1` | Texten är justerad mitt på sidan. |
+| Justify | `2` | Texten sprids ut för att fylla sidan. |
+| Top | `0` | Texten är justerad högst upp på sidan. |
 
 ## Exempel
 
-Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
+Visar hur man tillämpar och återställer inställningar för sidinställningar för avsnitt i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ändra sidinställningarna för byggarens nuvarande avsnitt och lägg till text.
+// Ändra sidinställningarna för den aktuella sektionen i skaparen och lägg till text.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Om vi startar ett nytt avsnitt med hjälp av en dokumentbyggare,
-// det kommer att ärva byggarens nuvarande sidinställningar.
+// den kommer att ärva skaparens nuvarande sidinställningar.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Vi kan återställa dess sidinställningar till deras standardvärden med "ClearFormatting"-metoden.
+// Vi kan återställa dess sidinställningar till standardvärdena med hjälp av metoden "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

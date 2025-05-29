@@ -3,14 +3,14 @@ title: ChartXValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: Aspose.Words لـ .NET
-description: ChartXValue DoubleValue ملكية. الحصول على القيمة الرقمية المخزنة في C#.
+description: اكتشف خاصية ChartXValue DoubleValue لاسترداد القيم الرقمية المخزنة والاستفادة منها بسهولة لتحسين تصور البيانات وتحليلها.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/doublevalue/
 ---
 ## ChartXValue.DoubleValue property
 
-الحصول على القيمة الرقمية المخزنة.
+يحصل على القيمة الرقمية المخزنة.
 
 ```csharp
 public double DoubleValue { get; }

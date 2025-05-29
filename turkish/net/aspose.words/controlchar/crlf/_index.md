@@ -2,15 +2,15 @@
 title: ControlChar.CrLf
 linktitle: CrLf
 articleTitle: CrLf
-second_title: Aspose.Words for .NET
-description: ControlChar CrLf alan. Satır başı ve ardından satır besleme karakteri x000dx000a veya rn. Microsoft Word belgelerinde bu şekilde kullanılmaz ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli metin biçimlendirmenin anahtarı olan ControlChar CrLf'yi keşfedin. Satırbaşı ve satır beslemenin metin dosyalarındaki paragraf sonlarını nasıl geliştirdiğini öğrenin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/controlchar/crlf/
 ---
 ## ControlChar.CrLf field
 
-Satır başı ve ardından satır besleme karakteri: "\x000d\x000a" veya "\r\n". Microsoft Word belgelerinde bu şekilde kullanılmaz, ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır.
+Satır başı ve ardından satır besleme karakteri: "\x000d\x000a" veya "\r\n". Microsoft Word belgelerinde olduğu gibi kullanılmaz, ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır.
 
 ```csharp
 public static readonly string CrLf;
@@ -24,20 +24,20 @@ Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Normal bir boşluk ekleyin.
+// Normal bir boşluk ekle.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Bölünemeyen bir alan olan bir NBSP ekleyin.
-// Normal alanın aksine, bu alanın konumunda otomatik satır sonu bulunamaz.
+// Bölünemez bir boşluk olan NBSP ekleyin.
+// Normal boşluktan farklı olarak, bu boşluğun bulunduğu konumda otomatik satır sonu olamaz.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Bir sekme karakteri ekleyin.
+// Bir sekme karakteri ekle.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Satır sonu ekleyin.
+// Satır sonu ekle.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Yeni bir satır ekleyin ve yeni bir paragraf başlatın.
+// Yeni bir satır ekler ve yeni bir paragraf başlatır.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -45,22 +45,22 @@ Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true)
 // Satır besleme karakterinin iki versiyonu vardır.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
-// Satırbaşları ve satır beslemeleri bir karakterle birlikte temsil edilebilir.
+// Satır sonları ve satır beslemeleri birlikte tek bir karakterle temsil edilebilir.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
 // Yeni bir paragraf başlatacak bir paragraf sonu ekleyin.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Bölüm sonu ekleyin. Bu yeni bir bölüm veya paragraf oluşturmaz.
+// Bölüm sonu ekle. Bu yeni bir bölüm veya paragraf oluşturmaz.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-//Sayfa sonu ekleyin.
+// Sayfa sonu ekle.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
-// Sayfa sonu, bölüm sonuyla aynı değerdedir.
+// Sayfa sonu, bölüm sonu ile aynı değere sahiptir.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
 // Yeni bir bölüm ekleyin ve ardından sütun sayısını ikiye ayarlayın.

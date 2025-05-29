@@ -3,14 +3,14 @@ title: LayoutOptions.ShowHiddenText
 linktitle: ShowHiddenText
 articleTitle: ShowHiddenText
 second_title: Aspose.Words для .NET
-description: LayoutOptions ShowHiddenText свойство. Получает или задает индикатор того отображается ли скрытый текст в документе. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство LayoutOptions ShowHiddenText, легко управляйте отображением скрытого текста в ваших документах. Оптимизируйте видимость вашего контента сегодня!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Получает или задает индикатор того, отображается ли скрытый текст в документе. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает признак того, отображается ли скрытый текст в документе. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }

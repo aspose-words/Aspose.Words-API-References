@@ -3,7 +3,7 @@ title: ChartSeries.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
 second_title: Aspose.Words para .NET
-description: ChartSeries SeriesType propiedad. Obtiene el tipo de esta serie de gráficos en C#.
+description: Descubra la propiedad ChartSeries SeriesType para identificar fácilmente el tipo de serie de su gráfico y optimizar la visualización de datos. ¡Descubra información valiosa hoy mismo!
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -18,13 +18,13 @@ public ChartSeriesType SeriesType { get; }
 
 ## Ejemplos
 
-Muestra cómo
+Muestra cómo eliminar una serie de gráficos específica.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
 Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-// Elimina todas las series del tipo Columna.
+//Eliminar todas las series del tipo Columna.
 for (int i = chart.Series.Count - 1; i >= 0; i--)
 {
     if (chart.Series[i].SeriesType == ChartSeriesType.Column)

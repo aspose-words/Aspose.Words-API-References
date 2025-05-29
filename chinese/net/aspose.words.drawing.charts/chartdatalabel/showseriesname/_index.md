@@ -2,15 +2,15 @@
 title: ChartDataLabel.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabel ShowSeriesName 财产. 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataLabel 的 ShowSeriesName 属性，轻松控制图表上系列名称的可见性。只需简单的布尔设置即可增强数据清晰度！
 type: docs
-weight: 140
+weight: 190
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 `真的`显示系列名称；`错误的`隐藏。默认情况下`错误的`.
+返回或设置一个布尔值来指示图表上数据标签的系列名称显示行为。 `真的`显示系列名称；`错误的`隐藏。默认情况下`错误的`.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowSeriesName { get; set; }
 
 ## 例子
 
-展示如何将标签应用到折线图中的数据点。
+展示如何将标签应用于折线图中的数据点。
 
 ```csharp
 public void DataLabels()
@@ -52,10 +52,13 @@ public void DataLabels()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
+    dataLabel.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
@@ -66,10 +69,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

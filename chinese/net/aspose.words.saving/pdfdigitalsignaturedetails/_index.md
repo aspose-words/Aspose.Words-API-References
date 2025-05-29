@@ -2,10 +2,10 @@
 title: PdfDigitalSignatureDetails Class
 linktitle: PdfDigitalSignatureDetails
 articleTitle: PdfDigitalSignatureDetails
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails 班级. 包含使用数字签名签署 PDF 文档的详细信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.PdfDigitalSignatureDetails 类，实现无缝 PDF 数字签名。轻松集成，功能强大，增强文档安全性。
 type: docs
-weight: 5430
+weight: 6220
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -20,8 +20,8 @@ public class PdfDigitalSignatureDetails
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | 初始化此类的实例。 |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | 初始化此类的实例。 |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | 初始化此类的一个实例。 |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | 初始化此类的一个实例。 |
 
 ## 特性
 
@@ -36,15 +36,15 @@ public class PdfDigitalSignatureDetails
 
 ## 评论
 
-目前，数字签名 PDF 文档仅适用于 .NET 2.0 或更高版本。
+目前，仅在 .NET 3.5 或更高版本上才可以对 PDF 文档进行数字签名。
 
-要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效`PdfDigitalSignatureDetails`对象，然后将文档保存为 PDF 格式，传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数传入[`Save`](../../aspose.words/document/save/)方法。
+要在 Aspose.Words 创建的 PDF 文档中进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效`PdfDigitalSignatureDetails`对象，然后将文档保存为 PDF 格式，并传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数[`Save`](../../aspose.words/document/save/)方法。
 
 Aspose.Words 在整个 PDF 文档上创建 PKCS#7 签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和 “adbe.pkcs7.sha1”子过滤器。
 
 ## 例子
 
-演示如何签署生成的 PDF 文档。
+展示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
+// 当我们使用“保存”方法呈现文档时对其进行数字签名。
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -67,6 +67,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

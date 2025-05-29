@@ -3,7 +3,7 @@ title: FileFormatUtil.ExtensionToSaveFormat
 linktitle: ExtensionToSaveFormat
 articleTitle: ExtensionToSaveFormat
 second_title: Aspose.Words для .NET
-description: FileFormatUtil ExtensionToSaveFormat метод. Преобразует расширение имени файла вSaveFormat значение на С#.
+description: Легко преобразуйте расширения имен файлов в значения SaveFormat с помощью метода FileFormatUtil ExtensionToSaveFormat. Упростите управление файлами уже сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -18,24 +18,24 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| extension | String | Расширение файла. Может быть с точкой в начале или без нее. Без учета регистра. |
+| extension | String | Расширение файла. Может быть с точкой в начале или без нее. Нечувствительно к регистру. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выдает, если параметр`нулевой`. |
+| ArgumentNullException | Выдает, если параметр равен`нулевой`. |
 
 ## Примечания
 
-Если расширение не может быть распознано, возвращаетсяUnknown.
+Если расширение не может быть распознано, возвращаетUnknown.
 
 ## Примеры
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
 ```csharp
-// Загрузите документ из файла, у которого отсутствует расширение файла, а затем определите его формат файла.
+// Загрузить документ из файла, у которого отсутствует расширение, а затем определить формат файла.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -43,15 +43,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Ниже приведены два метода преобразования LoadFormat в соответствующий SaveFormat.
-    // 1 — Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
+    // Ниже приведены два метода преобразования LoadFormat в соответствующий ему SaveFormat.
+    // 1 - Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 — преобразовать LoadFormat непосредственно в его SaveFormat:
+    // 2 - Преобразовать LoadFormat непосредственно в его SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Загрузите документ из потока, а затем сохраните его с автоматически определенным расширением файла.
+    // Загружаем документ из потока, а затем сохраняем его в автоматически обнаруженном расширении файла.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

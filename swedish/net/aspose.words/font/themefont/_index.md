@@ -3,9 +3,9 @@ title: Font.ThemeFont
 linktitle: ThemeFont
 articleTitle: ThemeFont
 second_title: Aspose.Words för .NET
-description: Font ThemeFont fast egendom. Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
+description: Upptäck hur du enkelt hanterar temafonter med egenskapen Font ThemeFont. Förbättra din design med anpassningsbara teckensnittsscheman för ett elegant utseende!
 type: docs
-weight: 470
+weight: 480
 url: /sv/net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
@@ -18,7 +18,7 @@ public ThemeFont ThemeFont { get; set; }
 
 ## Exempel
 
-Visar hur man skapar och använder stil med teman.
+Visar hur man skapar och använder temainriktad stil.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Skapa lite stil med egenskaper för tematypsnitt.
+// Skapa lite stil med temats teckensnittsegenskaper.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -36,12 +36,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -94,7 +94,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

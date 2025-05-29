@@ -2,15 +2,15 @@
 title: ShapeBase.MarkupLanguage
 linktitle: MarkupLanguage
 articleTitle: MarkupLanguage
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase MarkupLanguage 财产. 获取用于此图形对象的 MarkupLanguage 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase MarkupLanguage 属性，增强图形对象管理。立即解锁无缝集成，提升设计效率！
 type: docs
-weight: 390
+weight: 410
 url: /zh/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
 
-获取用于此图形对象的 MarkupLanguage。
+获取此图形对象使用的标记语言。
 
 ```csharp
 public ShapeMarkupLanguage MarkupLanguage { get; }
@@ -18,7 +18,7 @@ public ShapeMarkupLanguage MarkupLanguage { get; }
 
 ## 例子
 
-演示如何验证形状的大小和标记语言。
+展示如何验证形状的大小和标记语言。
 
 ```csharp
 Document doc = new Document();

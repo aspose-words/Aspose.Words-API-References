@@ -2,15 +2,15 @@
 title: CustomXmlPart.DataChecksum
 linktitle: DataChecksum
 articleTitle: DataChecksum
-second_title: Aspose.Words for .NET
-description: CustomXmlPart DataChecksum mülk. Döngüsel artıklık denetimi CRC sağlama toplamını belirtir.Data içerik C#'da.
+second_title: .NET için Aspose.Words
+description: XML içeriğiniz için güvenilir bir CRC kontrol toplamıyla veri bütünlüğünü garanti altına alan CustomXmlPart DataChecksum özelliğini keşfedin. Verilerinizin güvenilirliğini artırın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Döngüsel artıklık denetimi (CRC) sağlama toplamını belirtir.[`Data`](../data/) içerik.
+Döngüsel yedeklilik denetimi (CRC) toplamını belirtir[`Data`](../data/) içerik.
 
 ```csharp
 public long DataChecksum { get; }
@@ -18,7 +18,7 @@ public long DataChecksum { get; }
 
 ## Örnekler
 
-Bir çalışma zamanında sağlama toplamının nasıl hesaplandığını gösterir.
+Çalışma zamanında sağlama toplamının nasıl hesaplandığını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ Document doc = new Document();
 StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(richText);
 
-// Sağlama toplamı salt okunurdur ve karşılık gelen özel XML veri bölümünün verileri kullanılarak hesaplanır.
+// Kontrol toplamı salt okunurdur ve ilgili özel XML veri bölümünün verileri kullanılarak hesaplanır.
 richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
     "<root><text>ContentControl</text></root>"), "/root/text", "");
 

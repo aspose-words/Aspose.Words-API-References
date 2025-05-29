@@ -2,8 +2,8 @@
 title: TxtSaveOptions
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TxtSaveOptions 构造函数，实现无缝文件保存。利用默认构造函数实现高效的数据管理并提升性能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/

@@ -3,14 +3,14 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words för .NET
-description: DocumentBuilder RowFormat fast egendom. Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskaper i C#.
+description: Utforska egenskapen RowFormat i DocumentBuilder för att enkelt komma åt och anpassa tabellradsformatering för förbättrad dokumentdesign och presentation.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskaper.
+Returnerar ett objekt som representerar formateringsegenskaper för aktuell tabellrad.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Starta en andra rad och konfigurera sedan dess höjd. Byggaren kommer att tillämpa dessa inställningar på
-// dess nuvarande rad, såväl som alla nya rader som den skapar efteråt.
+// dess nuvarande rad, såväl som alla nya rader som skapas efteråt.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// Den första raden påverkades inte av utfyllnadsomställningen och har fortfarande standardvärdena.
+// Den första raden påverkades inte av omkonfigureringen av utfyllnaden och har fortfarande standardvärdena.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -64,8 +64,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -80,7 +80,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -91,7 +91,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -123,9 +123,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -136,7 +136,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

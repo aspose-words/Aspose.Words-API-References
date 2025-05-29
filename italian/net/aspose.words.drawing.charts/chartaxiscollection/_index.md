@@ -3,9 +3,9 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection classe. Rappresenta una raccolta di assi del grafico in C#.
+description: Scopri la classe Aspose.Words.ChartAxisCollection, la soluzione ideale per gestire in modo efficiente gli assi dei grafici e migliorare la visualizzazione dei dati nei tuoi documenti.
 type: docs
-weight: 640
+weight: 900
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
@@ -31,14 +31,14 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 
 ## Esempi
 
-Mostra come lavorare con la raccolta degli assi.
+Mostra come lavorare con la raccolta di assi.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
 // Nasconde le linee principali della griglia sugli assi Y primario e secondario.
 foreach (ChartAxis axis in chart.Axes)

@@ -3,9 +3,9 @@ title: Document.TrackRevisions
 linktitle: TrackRevisions
 articleTitle: TrackRevisions
 second_title: Aspose.Words لـ .NET
-description: Document TrackRevisions ملكية. صحيح إذا تم تعقب التغييرات عند تحرير هذا المستند في Microsoft Word في C#.
+description: قم بتمكين Document TrackRevisions لتتبع التحريرات تلقائيًا في Microsoft Word، مما يضمن التعاون السلس والتحكم الدقيق في الإصدارات.
 type: docs
-weight: 430
+weight: 450
 url: /ar/net/aspose.words/document/trackrevisions/
 ---
 ## Document.TrackRevisions property
@@ -18,24 +18,24 @@ public bool TrackRevisions { get; set; }
 
 ## ملاحظات
 
-يؤدي تعيين هذا الخيار إلى توجيه Microsoft Word فقط إلى ما إذا كان المسار Change قيد التشغيل أو الإيقاف. ليس لهذه الخاصية أي تأثير على التغييرات التي يتم إجراؤها على المستند الذي تجريه برمجيًا عبر Aspose.Words.
+يؤدي ضبط هذا الخيار إلى إعلام Microsoft Word فقط بتفعيل أو إيقاف خاصية تتبع التغييرات . لا تؤثر هذه الخاصية على التغييرات التي تُجريها على المستند برمجيًا عبر Aspose.Words.
 
-إذا كنت تريد تتبع التغييرات تلقائيًا كما تم إجراؤها برمجيًا بواسطة Aspose.Words على هذا المستند، فاستخدم[`StartTrackRevisions`](../starttrackrevisions/) طريقة.
+إذا كنت تريد تتبع التغييرات تلقائيًا أثناء إجرائها برمجيًا بواسطة Aspose.Words على هذا المستند، فاستخدم[`StartTrackRevisions`](../starttrackrevisions/) طريقة.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع المراجعات في المستند.
+يوضح كيفية العمل مع المراجعات في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// لا يعتبر التحرير العادي للمستند بمثابة مراجعة.
+//التحرير العادي للمستند لا يعتبر مراجعة.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// لتسجيل تعديلاتنا كمراجعات، نحتاج إلى الإعلان عن المؤلف، ثم البدء في تتبعها.
+// لتسجيل تعديلاتنا كمراجعات، نحتاج إلى إعلان المؤلف، ثم البدء في تعقبها.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -43,13 +43,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// هذه العلامة تتوافق مع "المراجعة" -> "التتبع" -> خيار "تتبع التغييرات" في Microsoft Word.
+// يتوافق هذا العلم مع خيار "المراجعة" -> "التتبع" -> "تعقب التغييرات" في Microsoft Word.
 // لا تؤثر طريقة "StartTrackRevisions" على قيمتها،
-// والمستند يتتبع المراجعات برمجيًا على الرغم من أن قيمتها "خطأ".
-// إذا فتحنا هذا المستند باستخدام Microsoft Word، فلن يتم تتبع المراجعات.
+// والمستند يتتبع المراجعات برمجيًا على الرغم من وجود قيمة "false".
+// إذا فتحنا هذا المستند باستخدام Microsoft Word، فلن يتمكن من تتبع المراجعات.
 Assert.IsFalse(doc.TrackRevisions);
 
-// لقد أضفنا نصًا باستخدام أداة إنشاء المستندات، لذا فإن المراجعة الأولى هي مراجعة من نوع الإدراج.
+// لقد أضفنا نصًا باستخدام منشئ المستندات، لذا فإن المراجعة الأولى هي مراجعة من نوع الإدراج.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -57,20 +57,20 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// قم بإزالة التشغيل لإنشاء مراجعة من نوع الحذف.
+// قم بإزالة تشغيل لإنشاء مراجعة من نوع الحذف.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// إضافة مراجعة جديدة تضعها في بداية مجموعة المراجعة.
+// إضافة مراجعة جديدة يضعها في بداية مجموعة المراجعات.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// تظهر المراجعات المُدرجة في نص المستند حتى قبل قبول/رفض المراجعة.
-// سيؤدي رفض المراجعة إلى إزالة عقدها من النص. وعلى العكس من ذلك، فإن العقد التي تشكل المراجعات تحذف
-// انتظر أيضًا في المستند حتى نقبل المراجعة.
+// تظهر المراجعات المدرجة في نص المستند حتى قبل أن نقبل/نرفض المراجعة.
+// سيؤدي رفض المراجعة إلى إزالة عقدها من النص. على العكس، فإن العقد التي تُشكل المراجعات تحذفها.
+//أيضًا، نستمر في المستند حتى نقبل المراجعة.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
 // سيؤدي قبول مراجعة الحذف إلى إزالة العقدة الأصلية من نص الفقرة
-// ثم قم بإزالة مراجعة المجموعة نفسها.
+// ثم قم بإزالة النسخة المعدلة للمجموعة نفسها.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);
@@ -79,7 +79,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// الآن انقل العقدة لإنشاء نوع مراجعة متحرك.
+// الآن قم بنقل العقدة لإنشاء نوع مراجعة متحرك.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];
@@ -95,7 +95,7 @@ Assert.AreEqual(RevisionType.Moving, doc.Revisions[0].RevisionType);
 Assert.AreEqual(8, doc.Revisions.Count);
 Assert.AreEqual("This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc.GetText().Trim());
 
-// المراجعة المتحركة موجودة الآن في الفهرس 1. ارفض المراجعة لتجاهل محتوياتها.
+// أصبحت النسخة المتحركة الآن في الفهرس 1. ارفض النسخة المتحركة للتخلص من محتوياتها.
 doc.Revisions[1].Reject();
 
 Assert.AreEqual(6, doc.Revisions.Count);

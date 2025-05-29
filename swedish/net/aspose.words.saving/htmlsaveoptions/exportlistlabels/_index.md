@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportListLabels fast egendom. Styr hur listetiketter matas ut till HTML MHTML eller EPUB. Standardvärdet ärAuto  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportListLabels förbättrar dina HTML-, MHTML- och EPUB-utdata. Optimera listetiketter enkelt med Auto-inställningar!
 type: docs
 weight: 190
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -18,7 +18,7 @@ public ExportListLabels ExportListLabels { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar listexport till HTML.
+Visar hur man konfigurerar export av listor till HTML.
 
 ```csharp
 Document doc = new Document();
@@ -48,12 +48,12 @@ builder.ListFormat.RemoveNumbers();
 
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt
 // för att bestämma vilka HTML-element dokumentet ska använda för att representera listor.
-// Ställ in egenskapen "ExportListLabels" till "ExportListLabels.AsInlineText"
-// kommer att skapa listor genom att formatera spann.
-// Om du ställer in egenskapen "ExportListLabels" till "ExportListLabels.Auto" kommer <p> märka
-// för att bygga listor i fall då du använder <ol> och <li> taggar kan orsaka förlust av formatering.
+// Ställer in egenskapen "ExportListLabels" till "ExportListLabels.AsInlineText"
+// skapar listor genom att formatera spann.
+// Om egenskapen "ExportListLabels" ställs in på "ExportListLabels.Auto" används taggen <p>
+// att bygga listor i de fall då användning av taggarna <ol> och <li> kan orsaka formateringsförlust.
 // Ställer in egenskapen "ExportListLabels" till "ExportListLabels.ByHtmlTags"
-// kommer att använda <ol> och <li> taggar för att bygga alla listor.
+// kommer att använda taggarna <ol> och <li> för att bygga alla listor.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

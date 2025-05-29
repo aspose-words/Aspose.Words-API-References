@@ -3,14 +3,14 @@ title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words för .NET
-description: Font EmphasisMark fast egendom. Hämtar eller ställer in betoningen som appliceras på denna formatering i C#.
+description: Upptäck hur du använder egenskapen Teckensnittsmarkering för att förbättra din textformatering. Lär dig att ställa in och anpassa betoningstecken för bättre läsbarhet.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-Hämtar eller ställer in betoningen som appliceras på denna formatering.
+Hämtar eller ställer in betoningstecknet som tillämpas på denna formatering.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -18,12 +18,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ## Exempel
 
-Visar hur man lägger till ytterligare tecken renderat ovanför/under tecknet.
+Visar hur man lägger till ytterligare tecken som renderas ovanför/under tecknet.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Möjliga typer av betoningsmärke:
+// Möjliga typer av betoningstecken:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

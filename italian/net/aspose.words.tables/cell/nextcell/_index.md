@@ -3,14 +3,14 @@ title: Cell.NextCell
 linktitle: NextCell
 articleTitle: NextCell
 second_title: Aspose.Words per .NET
-description: Cell NextCell proprietà. Ottiene il successivoCell nodo in C#.
+description: Scopri la proprietà NextCell per accedere facilmente al nodo Cell successivo, migliorando la gestione dei dati e semplificando il flusso di lavoro.
 type: docs
 weight: 70
 url: /it/net/aspose.words.tables/cell/nextcell/
 ---
 ## Cell.NextCell property
 
-Ottiene il successivo[`Cell`](../) nodo.
+Ottiene il prossimo[`Cell`](../) nodo.
 
 ```csharp
 public Cell NextCell { get; }
@@ -18,7 +18,7 @@ public Cell NextCell { get; }
 
 ## Osservazioni
 
-Il metodo può essere utilizzato quando è necessario avere accesso digitato alle celle di a[`Row`](../../row/) . Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) un nodo viene trovato in una riga invece che in una cella, viene automaticamente attraversato per ottenere una cella contenuta all'interno.
+Il metodo può essere utilizzato quando è necessario disporre di accesso tipizzato alle celle di un[`Row`](../../row/) Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) il nodo si trova in una riga invece che in una cella, viene automaticamente attraversato per ottenere una cella contenuta al suo interno.
 
 ## Esempi
 

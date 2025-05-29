@@ -3,16 +3,16 @@ title: UnsupportedFileFormatException Class
 linktitle: UnsupportedFileFormatException
 articleTitle: UnsupportedFileFormatException
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.UnsupportedFileFormatException فصل. تم طرحه أثناء تحميل المستند عندما لا يتم التعرف على تنسيق المستند أو أنه غير مدعوم بواسطة Aspose.Words في C#.
+description: اكتشف فئة Aspose.Words.UnsupportedFileFormatException، وهي أساسية للتعامل مع تنسيقات المستندات غير المدعومة في Aspose.Words. تمتع بمعالجة سلسة للمستندات!
 type: docs
-weight: 6520
+weight: 7370
 url: /ar/net/aspose.words/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-تم طرحه أثناء تحميل المستند، عندما لا يتم التعرف على تنسيق المستند أو أنه غير مدعوم بواسطة Aspose.Words.
+يتم طرحه أثناء تحميل المستند، عندما لا يتم التعرف على تنسيق المستند أو لا يدعمه Aspose.Words.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class UnsupportedFileFormatException : Exception

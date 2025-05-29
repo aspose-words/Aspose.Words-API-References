@@ -3,14 +3,14 @@ title: PhoneticGuide Class
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
 second_title: Aspose.Words für .NET
-description: Aspose.Words.PhoneticGuide klas. Stellt den phonetischen Leitfaden dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.PhoneticGuide zur Verbesserung der Textlesbarkeit mit phonetischen Hilfslinien. Verbessern Sie mühelos Benutzerfreundlichkeit und Zugänglichkeit!
 type: docs
-weight: 4430
+weight: 5160
 url: /de/net/aspose.words/phoneticguide/
 ---
 ## PhoneticGuide class
 
-Stellt den phonetischen Leitfaden dar.
+Steht für Phonetic Guide.
 
 ```csharp
 public class PhoneticGuide
@@ -20,8 +20,24 @@ public class PhoneticGuide
 
 | Name | Beschreibung |
 | --- | --- |
-| [BaseText](../../aspose.words/phoneticguide/basetext/) { get; } | Ruft den Basistext des phonetischen Leitfadens ab. |
-| [RubyText](../../aspose.words/phoneticguide/rubytext/) { get; } | Ruft Ruby-Text des phonetischen Leitfadens ab. |
+| [BaseText](../../aspose.words/phoneticguide/basetext/) { get; } | Ruft den Basistext des Phonetikleitfadens ab. |
+| [RubyText](../../aspose.words/phoneticguide/rubytext/) { get; } | Ruft den Ruby-Text des Phonetikführers ab. |
+
+## Beispiele
+
+Zeigt, wie man Eigenschaften des Phonetikleitfadens erhält.
+
+```csharp
+Document doc = new Document(MyDir + "Phonetic guide.docx");
+
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
+// Verwenden Sie im asiatischen Text die Phonetikanleitung.
+Assert.AreEqual(true, runs[0].IsPhoneticGuide);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
+```
 
 ### Siehe auch
 

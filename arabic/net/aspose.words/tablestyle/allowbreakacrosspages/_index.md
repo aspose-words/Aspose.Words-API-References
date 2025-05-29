@@ -3,14 +3,14 @@ title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words لـ .NET
-description: TableStyle AllowBreakAcrossPages ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان النص الموجود في صف الجدول مسموحًا بتقسيمه عبر فاصل الصفحات في C#.
+description: اكتشف خاصية TableStyle AllowBreakAcrossPages، وتحكم في تدفق النص في الجداول وعزز قابلية قراءة مستندك عبر الصفحات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان النص الموجود في صف الجدول مسموحًا بتقسيمه عبر فاصل الصفحات.
+يحصل على علم أو يعينه للإشارة إلى ما إذا كان يُسمح للنص في صف الجدول بالانقسام عبر فاصل الصفحة.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,14 +3,14 @@ title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Rendering.ShapeRenderer classe. Fornisce metodi per eseguire il rendering di un individuoShape OGroupShape in unimmagine raster o vettoriale o in un oggetto grafico in C#.
+description: Scopri Aspose.Words.Rendering.ShapeRenderer per convertire senza sforzo Shapes e GroupShapes in immagini raster o vettoriali di alta qualità per i tuoi progetti.
 type: docs
-weight: 4590
+weight: 5320
 url: /it/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Fornisce metodi per eseguire il rendering di un individuo[`Shape`](../../aspose.words.drawing/shape/) O[`GroupShape`](../../aspose.words.drawing/groupshape/) in un'immagine raster o vettoriale o in un oggetto grafico.
+Fornisce metodi per il rendering di un individuo[`Shape`](../../aspose.words.drawing/shape/) O[`GroupShape`](../../aspose.words.drawing/groupshape/) a un'immagine raster o vettoriale o a un oggetto grafico.
 
 Per saperne di più, visita il[Lavorare con le forme](https://docs.aspose.com/words/net/working-with-shapes/) articolo di documentazione.
 
@@ -42,10 +42,12 @@ public class ShapeRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Calcola i limiti opachi della forma in pixel per un fattore di zoom e una risoluzione specificati. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Rende la forma in aGraphics oggetto su una scala specificata. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Rende la forma in aGraphics oggetto a una dimensione specificata. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rende la forma in un'immagine e la salva in uno stream. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rende la forma in un'immagine e la salva in un file. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Rende la forma in unGraphics oggetto a una scala specificata. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Rende la forma in unGraphics oggetto a una dimensione specificata. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Trasforma la forma in un'immagine e la salva in un flusso. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Trasforma la forma in un'immagine SVG e la salva in un flusso. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Trasforma la forma in un'immagine e la salva in un file. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Trasforma la forma in un'immagine SVG e la salva in un file. |
 
 ## Esempi
 
@@ -59,8 +61,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e visualizzala in una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -71,7 +73,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Crea un gruppo di forme e rendilo a una dimensione specifica.
+    // 2 - Crea un gruppo di forme e rendilo di una dimensione specifica.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -101,7 +103,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Renderizza e visualizza un elenco di forme.
+/// Esegue il rendering e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {

@@ -3,16 +3,16 @@ title: CellFormat Class
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Tables.CellFormat clase. Representa todo el formato de una celda de la tabla en C#.
+description: Descubra la clase Aspose.Words.Tables.CellFormat para un formato completo de celdas de tabla. ¡Mejore el estilo de sus documentos con funciones fáciles de usar!
 type: docs
-weight: 6260
+weight: 7110
 url: /es/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
 
-Representa todo el formato de una celda de la tabla.
+Representa todo el formato de una celda de tabla.
 
-Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) Artículo de documentación.
 
 ```csharp
 public class CellFormat
@@ -23,30 +23,31 @@ public class CellFormat
 | Nombre | Descripción |
 | --- | --- |
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Obtiene la colección de bordes de la celda. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) para agregar debajo del contenido de la celda. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | si`verdadero` , ajusta el texto en la celda, comprimiendo cada párrafo al ancho de la celda. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) que se agregará debajo del contenido de la celda. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Si`verdadero` , ajusta el texto en la celda, comprimiendo cada párrafo al ancho de la celda. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } | Devuelve o establece la visibilidad de la marca de celda. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Especifica cómo se fusiona la celda horizontalmente con otras celdas en la fila. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) que se agregará a la izquierda del contenido de la celda. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Devuelve o establece la orientación del texto en una celda de la tabla. |
 | [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Devuelve o establece el ancho preferido de la celda. |
 | [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) que se agregará a la derecha del contenido de la celda. |
 | [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Devuelve un[`Shading`](../../aspose.words/shading/) objeto que hace referencia al formato de sombreado de la celda. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) para agregar encima del contenido de la celda. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Devuelve o establece la cantidad de espacio (en puntos) que se agregará sobre el contenido de la celda. |
 | [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Devuelve o establece la alineación vertical del texto en la celda. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Especifica cómo se fusiona la celda con otras celdas verticalmente. |
 | [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Obtiene el ancho de la celda en puntos. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | si`verdadero` , ajusta el texto de la celda. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Si`verdadero` , ajustar el texto de la celda. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Restablece el formato de celda predeterminado. No cambia el ancho de la celda. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Restablece el formato de celda predeterminado. No modifica el ancho de la celda. |
 | [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Establece la cantidad de espacio (en puntos) que se agregará a la izquierda/arriba/derecha/abajo del contenido de la celda. |
 
 ## Ejemplos
 
-Muestra cómo modificar el formato de una celda de una tabla.
+Muestra cómo modificar el formato de una celda de tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -79,7 +80,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la propiedad "RowFormat" de la primera fila para modificar el formato
+// Utilice la propiedad "RowFormat" de la primera fila para modificar el formato
 // del contenido de todas las celdas de esta fila.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
@@ -101,8 +102,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -125,9 +126,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

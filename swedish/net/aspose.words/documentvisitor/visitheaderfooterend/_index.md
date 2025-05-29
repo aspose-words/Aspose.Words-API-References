@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitHeaderFooterEnd metod. Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats i C#.
+description: Upptäck DocumentVisitor VisitHeaderFooterEnd-metoden, viktig för att effektivt hantera uppräkning av sidhuvud och sidfot i dina dokument.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats.
+Anropas när uppräkningen av ett sidhuvud eller en sidfot i ett avsnitt har avslutats.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur du skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
 
 ```csharp
 public void HeaderFooterToText()
@@ -35,20 +35,20 @@ public void HeaderFooterToText()
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Ett alternativt sätt att komma åt ett dokuments sidhuvud/sidfötter sektion för sektion är genom att komma åt samlingen.
+    // Ett alternativt sätt att komma åt ett dokuments sidhuvud/sidfot sektion för sektion är genom att öppna samlingen.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade HeaderFooter-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade HeaderFooter-noder och deras undernoder.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -86,7 +86,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en HeaderFooter-nod har besökts.
+    /// Anropas efter att alla undernoder till en HeaderFooter-nod har besökts.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -98,9 +98,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

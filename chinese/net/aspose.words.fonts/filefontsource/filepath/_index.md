@@ -2,8 +2,8 @@
 title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
-second_title: 用于 .NET 的 Aspose.Words
-description: FileFontSource FilePath 财产. 字体文件的路径 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FileFontSource 的 FilePath 属性，轻松访问您的字体文件。使用这款必备工具，简化您的设计流程！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/filefontsource/filepath/
@@ -18,7 +18,7 @@ public string FilePath { get; }
 
 ## 例子
 
-演示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

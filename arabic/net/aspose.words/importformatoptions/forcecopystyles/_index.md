@@ -3,14 +3,14 @@ title: ImportFormatOptions.ForceCopyStyles
 linktitle: ForceCopyStyles
 articleTitle: ForceCopyStyles
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions ForceCopyStyles ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية ImportFormatOptions ForceCopyStyles، وتحكم بسهولة في نسخ الأنماط في وضع KeepSourceFormatting. القيمة الافتراضية هي "خطأ" للحصول على أفضل النتائج.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى نسخ الأنماط المتضاربة فيKeepSourceFormatting mode. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -18,18 +18,18 @@ public bool ForceCopyStyles { get; set; }
 
 ## ملاحظات
 
-افتراضيًا، إذا كان النمط المطابق موجودًا بالفعل في المستند الوجهة، فسيتم توسيع تنسيق النمط المصدر formatting إلى سمات العقدة المباشرة ويتم إعادة تعيين نمط هذه العقدة إلى الوضع الافتراضي.
+بشكل افتراضي، إذا كان هناك نمط مطابق موجود بالفعل في مستند الوجهة، يتم توسيع نمط المصدر formatting إلى سمات العقدة المباشرة ويتم إعادة تعيين نمط هذه العقدة إلى الوضع الافتراضي.
 
-عندما يتم ضبط هذا الخيار على`حقيقي`، سيتم نسخ النمط المصدر بالقوة إلى مستند الوجهة باسم فريد وتطبيقه على العقدة المستوردة.
+عندما يتم تعيين هذا الخيار على`حقيقي`سيتم نسخ نمط المصدر قسراً إلى المستند الوجهة باسم فريد وتطبيقه على العقدة المستوردة.
 
-لاحظ أنه في هذه الحالة ليس من المضمون الحفاظ على تنسيق العقدة المستوردة في الوجهة document .
+لاحظ أنه في هذه الحالة لا يتم ضمان الحفاظ على تنسيق العقدة المستوردة في المستند الوجهة .
 
 ## أمثلة
 
-يوضح كيفية نسخ أنماط المصدر بأسماء فريدة قسرا.
+يوضح كيفية نسخ أنماط المصدر ذات الأسماء الفريدة قسراً.
 
 ```csharp
-// يحتوي كلا المستندين على MyStyle1 وMyStyle2، MyStyle3 موجود فقط في المستند المصدر.
+// تحتوي كلتا الوثيقتين على MyStyle1 وMyStyle2، MyStyle3 موجود فقط في مستند المصدر.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

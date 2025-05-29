@@ -3,7 +3,7 @@ title: NodeList.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: NodeList Count proprietà. Ottiene il numero di nodi nellelenco in C#.
+description: Scopri la proprietà NodeList Count per recuperare facilmente il numero totale di nodi nel tuo elenco, migliorando l'efficienza dello sviluppo web.
 type: docs
 weight: 10
 url: /it/net/aspose.words/nodelist/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Esempi
 
-Mostra come utilizzare XPath per navigare in un NodeList.
+Mostra come utilizzare gli XPath per navigare in un NodeList.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci alcuni nodi con un DocumentBuilder.
+// Inserire alcuni nodi con un DocumentBuilder.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -34,14 +34,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Il nostro documento contiene tre nodi Esegui.
+// Il nostro documento contiene tre nodi Run.
 NodeList nodeList = doc.SelectNodes("//Correre");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -50,15 +45,15 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Utilizzare una doppia barra per selezionare tutti i nodi Esegui
-// che sono discendenti indiretti di un nodo Tabella, che sarebbero le sequenze all'interno delle due celle che abbiamo inserito.
+// che sono discendenti indiretti di un nodo Tabella, che sarebbero le esecuzioni all'interno delle due celle che abbiamo inserito.
 nodeList = doc.SelectNodes("//Table//Correre");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Le singole barre specificano le relazioni discendenti dirette,
-// che abbiamo saltato quando abbiamo usato le doppie barre.
+// Le barre singole specificano relazioni dirette discendenti,
+// che abbiamo saltato quando abbiamo utilizzato le doppie barre.
 Assert.AreEqual(doc.SelectNodes(" //Tabella//Esegui"),
     doc.SelectNodes("//Tabella/Riga/Cella/Paragrafo/Esegui"));
 

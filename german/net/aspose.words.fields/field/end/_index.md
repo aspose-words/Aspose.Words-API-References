@@ -3,7 +3,7 @@ title: Field.End
 linktitle: End
 articleTitle: End
 second_title: Aspose.Words für .NET
-description: Field End eigendom. Ruft den Knoten ab der das Feldende darstellt in C#.
+description: Entdecken Sie die Eigenschaft „Feldende“. Greifen Sie einfach auf den Knoten zu, der das Feldende darstellt, für nahtloses Datenmanagement und verbesserte Leistung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/field/end/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

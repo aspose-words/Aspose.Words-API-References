@@ -3,14 +3,14 @@ title: TabStopCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words för .NET
-description: TabStopCollection Clear metod. Tar bort alla tabbstopppositioner i C#.
+description: Rensa enkelt alla tabbstoppspositioner med metoden TabStopCollection Clear. Effektivisera din layout för ett renare och mer organiserat gränssnitt.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/tabstopcollection/clear/
 ---
 ## TabStopCollection.Clear method
 
-Tar bort alla tabbstopppositioner.
+Tar bort alla tabbstoppspositioner.
 
 ```csharp
 public void Clear()
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -45,7 +45,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

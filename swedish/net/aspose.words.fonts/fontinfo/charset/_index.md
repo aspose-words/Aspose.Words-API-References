@@ -3,14 +3,14 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words för .NET
-description: FontInfo Charset fast egendom. Hämtar eller ställer in teckenuppsättningen för teckensnittet i C#.
+description: Upptäck egenskapen FontInfo Charset för att enkelt hantera och anpassa ditt typsnitts teckenuppsättning för ökad designflexibilitet och läsbarhet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontinfo/charset/
 ---
 ## FontInfo.Charset property
 
-Hämtar eller ställer in teckenuppsättningen för teckensnittet.
+Hämtar eller anger teckenuppsättningen för typsnittet.
 
 ```csharp
 public int Charset { get; set; }
@@ -18,7 +18,7 @@ public int Charset { get; set; }
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -2,8 +2,8 @@
 title: FieldKeywords
 linktitle: FieldKeywords
 articleTitle: FieldKeywords
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldKeywords 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldKeywords 构造函数，高效管理和优化关键词的首选解决方案。立即释放您内容的潜力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldkeywords/fieldkeywords/

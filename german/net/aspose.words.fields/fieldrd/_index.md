@@ -3,9 +3,9 @@ title: FieldRD Class
 linktitle: FieldRD
 articleTitle: FieldRD
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldRD klas. Implementiert das RDFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldRD – implementieren Sie RD-Felder effizient für eine verbesserte Dokumentenverarbeitung und Automatisierung in Ihren Projekten.
 type: docs
-weight: 2320
+weight: 2730
 url: /de/net/aspose.words.fields/fieldrd/
 ---
 ## FieldRD class
@@ -30,14 +30,14 @@ public class FieldRD : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [FileName](../../aspose.words.fields/fieldrd/filename/) { get; set; } | Ruft den Namen der Datei ab, die beim Generieren eines Inhaltsverzeichnisses, Autoritätsverzeichnisses oder Index einbezogen werden soll, oder legt diesen fest. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [FileName](../../aspose.words.fields/fieldrd/filename/) { get; set; } | Ruft den Namen der Datei ab, die beim Generieren eines Inhaltsverzeichnisses, Rechtsgrundlagenverzeichnisses oder Indexes einbezogen werden soll, oder legt diesen fest. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [IsPathRelative](../../aspose.words.fields/fieldrd/ispathrelative/) { get; set; } | Ruft ab oder legt fest, ob der Pfad relativ zum aktuellen Dokument ist. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
@@ -45,41 +45,41 @@ public class FieldRD : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ## Bemerkungen
 
-Identifiziert eine Datei, die beim Erstellen eines Inhaltsverzeichnisses, eines Rechtsgrundlagenverzeichnisses oder eines Index mit dem TOC-, TOA- oder INDEX-Feld einbezogen werden soll.
+Identifiziert eine Datei, die beim Erstellen eines Inhaltsverzeichnisses, eines Rechtsgrundlagenverzeichnisses oder eines Indexes mit dem Feld TOC, TOA oder INDEX einbezogen werden soll.
 
 ## Beispiele
 
-Zeigt die Verwendung des RD-Felds zum Erstellen eines Inhaltsverzeichniseintrags aus Überschriften in anderen Dokumenten an.
+Zeigt, wie Sie das RD-Feld verwenden, um aus Überschriften in anderen Dokumenten ein Inhaltsverzeichnis zu erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen Document Builder verwenden, um ein Inhaltsverzeichnis einzufügen,
+// Verwenden Sie einen Dokumentgenerator, um ein Inhaltsverzeichnis einzufügen.
 // und fügen Sie dann einen Eintrag für das Inhaltsverzeichnis auf der folgenden Seite hinzu.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Ein RD-Feld einfügen, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
+// Fügen Sie ein RD-Feld ein, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
 // Das Inhaltsverzeichnis akzeptiert jetzt auch alle Überschriften aus dem referenzierten Dokument als Einträge für seine Tabelle.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
- // Erstellen Sie das Dokument, auf das das RD-Feld verweist, und fügen Sie eine Überschrift ein.
-// Diese Überschrift wird als Eintrag im TOC-Feld in unserem ersten Dokument angezeigt.
+    // Erstellen Sie das Dokument, auf das das RD-Feld verweist, und fügen Sie eine Überschrift ein.
+// Diese Überschrift wird als Eintrag im Inhaltsverzeichnisfeld unseres ersten Dokuments angezeigt.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

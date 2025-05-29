@@ -3,14 +3,14 @@ title: ShapeBase.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
 second_title: Aspose.Words för .NET
-description: ShapeBase SizeInPoints fast egendom. Får formens storlek i poäng i C#.
+description: Upptäck ShapeBase SizeInPoints-egenskapen för att enkelt hämta och hantera formmätningar i punkter för exakt designkontroll.
 type: docs
-weight: 510
+weight: 540
 url: /sv/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-Får formens storlek i poäng.
+Hämtar formens storlek i punkter.
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -18,7 +18,7 @@ public SizeF SizeInPoints { get; }
 
 ## Exempel
 
-Visar hur du verifierar en forms storlek och märkningsspråk.
+Visar hur man verifierar en forms storlek och markupspråk.
 
 ```csharp
 Document doc = new Document();

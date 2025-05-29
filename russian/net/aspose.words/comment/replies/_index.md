@@ -3,14 +3,14 @@ title: Comment.Replies
 linktitle: Replies
 articleTitle: Replies
 second_title: Aspose.Words для .NET
-description: Comment Replies свойство. Возвращает коллекциюComment объекты которые являются непосредственными дочерними элементами указанного комментария на С#.
+description: Откройте для себя ответы на комментарии. Получите доступ к коллекции объектов комментариев, которые являются прямыми ответами на указанный вами комментарий, повышая вовлеченность и взаимодействие пользователей.
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-Возвращает коллекцию[`Comment`](../) объекты, которые являются непосредственными дочерними элементами указанного комментария.
+Возвращает коллекцию[`Comment`](../) объекты, которые являются непосредственными потомками указанного комментария.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -24,9 +24,9 @@ public CommentCollection Replies { get; }
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Если комментарий не имеет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
-// Распечатываем все комментарии верхнего уровня вместе со всеми ответами, которые они могут иметь.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Если у комментария нет предка, то это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Вывести все комментарии верхнего уровня вместе с возможными ответами на них.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

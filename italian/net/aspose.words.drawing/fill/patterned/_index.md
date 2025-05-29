@@ -3,9 +3,9 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words per .NET
-description: Fill Patterned metodo. Imposta il riempimento specificato su un motivo in C#.
+description: Scopri il metodo Fill Patterned per applicare senza sforzo motivi unici ai tuoi progetti, migliorando la creatività e l'attrattiva visiva dei tuoi progetti.
 type: docs
-weight: 220
+weight: 230
 url: /it/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
@@ -22,7 +22,7 @@ public void Patterned(PatternType patternType)
 
 ## Esempi
 
-Mostra come impostare il modello per una forma.
+Mostra come impostare un pattern per una forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -36,7 +36,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - Applica il motivo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Applica il motivo con i colori di primo piano e di sfondo al riempimento della forma:
+// 2 - Applica il motivo con colori di primo piano e di sfondo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -62,12 +62,12 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
-| foreColor | Color | Il colore del riempimento in primo piano. |
-| backColor | Color | Il colore del riempimento dello sfondo. |
+| foreColor | Color | Colore di riempimento in primo piano. |
+| backColor | Color | Colore di riempimento dello sfondo. |
 
 ## Esempi
 
-Mostra come impostare il modello per una forma.
+Mostra come impostare un pattern per una forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -81,7 +81,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - Applica il motivo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Applica il motivo con i colori di primo piano e di sfondo al riempimento della forma:
+// 2 - Applica il motivo con colori di primo piano e di sfondo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

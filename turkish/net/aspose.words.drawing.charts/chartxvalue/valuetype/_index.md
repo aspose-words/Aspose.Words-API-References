@@ -2,15 +2,15 @@
 title: ChartXValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
-second_title: Aspose.Words for .NET
-description: ChartXValue ValueType mülk. Nesnede saklanan X değerinin türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Veri görselleştirme projelerinizde X değer türüne kolayca erişmek ve kullanmak için ChartXValue ValueType özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/valuetype/
 ---
 ## ChartXValue.ValueType property
 
-Nesnede saklanan X değerinin türünü alır.
+Nesnede depolanan X değerinin türünü alır.
 
 ```csharp
 public ChartXValueType ValueType { get; }

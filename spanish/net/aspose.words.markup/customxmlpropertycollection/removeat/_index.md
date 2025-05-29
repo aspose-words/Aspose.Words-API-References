@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words para .NET
-description: CustomXmlPropertyCollection RemoveAt método. Elimina una propiedad en el índice especificado en C#.
+description: Administre sin esfuerzo su CustomXmlPropertyCollection con el método RemoveAt: elimine rápidamente propiedades por índice para un manejo optimizado de los datos.
 type: docs
 weight: 90
 url: /es/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice de base cero. |
+| index | Int32 | El índice basado en cero. |
 
 ## Ejemplos
 
@@ -27,11 +27,11 @@ Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener in
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+// Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+// como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
 // En Word 2003, podemos habilitar etiquetas inteligentes a través de "Herramientas" -> "Opciones de Autocorrección..." -> "Etiquetas inteligentes".
 // En nuestro documento de entrada, hay tres objetos que Microsoft Word registró como etiquetas inteligentes.
-// Las etiquetas inteligentes pueden estar anidadas, por lo que esta colección contiene más.
+// Las etiquetas inteligentes se pueden anidar, por lo que esta colección contiene más.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
@@ -51,13 +51,13 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// También podemos acceder a las propiedades de varias formas, como por ejemplo mediante un par clave-valor.
+// También podemos acceder a las propiedades de varias maneras, como un par clave-valor.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
+A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
 // 1 - Eliminar por índice:
 properties.RemoveAt(3);
 
@@ -68,7 +68,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

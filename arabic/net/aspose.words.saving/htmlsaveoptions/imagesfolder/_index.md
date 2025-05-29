@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ImagesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق HTML. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف خاصية HtmlSaveOptions ImagesFolder. حدّد بسهولة مجلد حفظ الصور عند تصدير المستندات إلى HTML. بسّط سير عملك اليوم!
 type: docs
 weight: 360
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property
 
-يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق HTML. الافتراضي هو سلسلة فارغة.
+يحدد المجلد الفعلي الذي يتم حفظ الصور فيه عند تصدير مستند إلى تنسيق HTML. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -18,15 +18,15 @@ public string ImagesFolder { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق HTML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.`ImagesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ImagesFolderAlias`](../imagesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) في تنسيق HTML، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ImagesFolder` يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و[`ImagesFolderAlias`](../imagesfolderalias/) يسمح لك بتحديد كيفية إنشاء عناوين URI للصور.
 
-إذا قمت بحفظ مستند في ملف وقمت بتوفير اسم ملف، فسيقوم Aspose.Words، افتراضيًا، بحفظ الصور في نفس المجلد حيث تم حفظ ملف المستند. يستخدم`ImagesFolder` لتجاوز هذا السلوك.
+إذا حفظت مستندًا في ملف وأدخلت اسمًا للملف، فسيحفظ Aspose.Words افتراضيًا صور x000d_ في نفس المجلد الذي حُفظ فيه ملف المستند. استخدم`ImagesFolder` لتجاوز هذا السلوك.
 
-إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه في ملف`ImagesFolder` الملكية أو تقديم تدفقات مخصصة عبر the[`ImageSavingCallback`](../imagesavingcallback/) معالج الحدث.
+إذا حفظت مستندًا في مسار، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ، ولكنه سيحتاج إلى حفظ الصور في مكان ما. في هذه الحالة، ستحتاج إلى تحديد مجلد يسهل الوصول إليه في`ImagesFolder` الخاصية أو توفير تدفقات مخصصة عبر [`ImageSavingCallback`](../imagesavingcallback/) معالج الحدث.
 
-إذا كان المجلد المحدد بواسطة`ImagesFolder` غير موجود، سيتم إنشاؤه تلقائيًا.
+إذا تم تحديد المجلد بواسطة`ImagesFolder` إذا لم يكن موجودًا، فسيتم إنشاؤه تلقائيًا.
 
-[`ResourceFolder`](../resourcefolder/) هي طريقة أخرى لتحديد المجلد الذي يجب حفظ الصور فيه.
+[`ResourceFolder`](../resourcefolder/) هناك طريقة أخرى لتحديد المجلد الذي يجب حفظ الصور فيه.
 
 ## أمثلة
 
@@ -42,7 +42,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// قم بتعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
+// تعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

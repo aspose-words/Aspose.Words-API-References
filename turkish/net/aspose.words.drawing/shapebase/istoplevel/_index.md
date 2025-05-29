@@ -2,15 +2,15 @@
 title: ShapeBase.IsTopLevel
 linktitle: IsTopLevel
 articleTitle: IsTopLevel
-second_title: Aspose.Words for .NET
-description: ShapeBase IsTopLevel mülk. İadelerdoğrubu şekil bir grup şeklinin alt öğesi değilse C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase IsTopLevel'ı keşfedin. Bir şeklin tek başına durup durmadığını hızla doğrulayın ve verimli grup yönetimiyle tasarım iş akışınızı geliştirin.
 type: docs
-weight: 350
+weight: 370
 url: /tr/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-İadeler`doğru`bu şekil bir grup şeklinin alt öğesi değilse.
+Geri Döndürür`doğru` eğer bu şekil bir grup şeklinin çocuğu değilse.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -18,7 +18,7 @@ public bool IsTopLevel { get; }
 
 ## Örnekler
 
-Bir şeklin grup şeklinin parçası olup olmadığının nasıl anlaşılacağını gösterir.
+Bir şeklin bir grup şeklinin parçası olup olmadığının nasıl anlaşılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

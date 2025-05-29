@@ -3,14 +3,14 @@ title: PdfEncryptionDetails.Permissions
 linktitle: Permissions
 articleTitle: Permissions
 second_title: Aspose.Words для .NET
-description: PdfEncryptionDetails Permissions свойство. Указывает операции которые разрешены пользователю с зашифрованным PDFдокументом. Значение по умолчаниюDisallowAll  на С#.
+description: Откройте для себя свойство PdfEncryptionDetails Permissions, которое определяет операции пользователя с зашифрованными PDF-файлами. Разблокируйте безопасное управление документами с настраиваемым доступом!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-Указывает операции, которые разрешены пользователю с зашифрованным PDF-документом. Значение по умолчанию:DisallowAll .
+Указывает операции, разрешенные пользователю для зашифрованного PDF-документа. Значение по умолчанию:DisallowAll .
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
@@ -26,17 +26,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Расширяем разрешения, чтобы разрешить редактирование аннотаций.
+// Расширить разрешения, чтобы разрешить редактирование аннотаций.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-// Включаем шифрование через свойство EncryptionDetails.
+// Включить шифрование через свойство «EncryptionDetails».
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Когда мы откроем этот документ, нам нужно будет ввести пароль, прежде чем получить доступ к его содержимому.
+// Когда мы откроем этот документ, нам нужно будет указать пароль, прежде чем получить доступ к его содержимому.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

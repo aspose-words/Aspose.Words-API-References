@@ -3,16 +3,16 @@ title: LayoutCollector Class
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Layout.LayoutCollector klass. Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder i C#.
+description: Upptäck klassen Aspose.Words.Layout.LayoutCollector för att effektivt beräkna sidnummer i dokumentnoder och förbättra din dokumenthanteringsupplevelse.
 type: docs
-weight: 3320
+weight: 3770
 url: /sv/net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
 
-Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder.
+Den här klassen låter dig beräkna sidnummer för dokumentnoder.
 
-För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
+För att lära dig mer, besök[Konvertera till fast sidformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class LayoutCollector
@@ -28,35 +28,35 @@ public class LayoutCollector
 
 | namn | Beskrivning |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Hämtar eller ställer in dokumentet som denna samlarinstans är bifogad till. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Hämtar eller ställer in dokumentet som denna insamlingsinstans är kopplad till. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Rensar alla insamlade layoutdata. Anrop den här metoden efter att dokumentet har uppdaterats manuellt eller efter att layouten byggts om. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar 1-baserat index på sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Returnerar en ogenomskinlig position för[`LayoutEnumerator`](../layoutenumerator/) som motsvarar den angivna noden. Du kan använda returnerat värde som ett argument till[`Current`](../layoutenumerator/current/) givet att dokumentet som räknas upp och dokumentet för noden är desamma. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är inom en enda sida. Detta är samma sak som[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar 1-baserat index på sidan där noden börjar. Returnerar 0 om noden inte kan mappas till en sida. |
+| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Rensar all insamlad layoutdata. Anropar den här metoden efter att dokumentet har uppdaterats manuellt eller layouten har byggts om. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar ett 1-baserat index för sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Returnerar en ogenomskinlig position för[`LayoutEnumerator`](../layoutenumerator/) vilket motsvarar den angivna noden. Du kan använda returnerat värde som argument för att[`Current`](../layoutenumerator/current/) givet att dokumentet som räknas upp och nodens dokument är desamma. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Hämtar antalet sidor som den angivna noden sträcker sig över. 0 om noden finns inom en enda sida. Detta är samma sak som[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar ett 1-baserat index för sidan där noden börjar. Returnerar 0 om noden inte kan mappas till en sida. |
 
 ## Anmärkningar
 
-När du skapar en`LayoutCollector` och ange a[`Document`](../../aspose.words/document/) dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
+När du skapar en`LayoutCollector` och ange en[`Document`](../../aspose.words/document/)dokumentobjekt att bifoga till, samlaren kommer att registrera mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
 
-Du kommer att kunna ta reda på vilken sida en viss dokumentnod (t.ex. körning, stycke eller tabellcell) finns genom att använda[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) och[`GetNumPagesSpanned`](./getnumpagesspanned/)metoder. Dessa metoder bygger automatiskt en sidlayoutmodell av dokumentet och uppdaterar fält om det behövs.
+Du kommer att kunna ta reda på på vilken sida en viss dokumentnod (t.ex. körning, stycke eller tabellcell) finns genom att använda[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) och[`GetNumPagesSpanned`](./getnumpagesspanned/) metoder. Dessa metoder bygger automatiskt en sidlayoutmodell för dokumentet och uppdaterar fält vid behov.
 
 När du inte längre behöver samla in layoutinformation är det bäst att ställa in[`Document`](./document/) egendom till`null` för att undvika onödig insamling av fler layoutmappningar.
 
 ## Exempel
 
-Visar hur man kan se sidorna som en nod sträcker sig över.
+Visar hur man ser sidintervallen som en nod sträcker sig över.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Kalla metoden "GetNumPagesSpanned" för att räkna hur många sidor innehållet i vårt dokument sträcker sig.
+// Anropa metoden "GetNumPagesSpanned" för att räkna hur många sidor innehållet i vårt dokument sträcker sig över.
 // Eftersom dokumentet är tomt är antalet sidor för närvarande noll.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
@@ -71,8 +71,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Innan layoutsamlaren måste vi anropa metoden "UpdatePageLayout" för att ge oss
-// en korrekt siffra för alla layoutrelaterade mätvärden, till exempel sidantal.
+// Innan layoutinsamlaren anropar vi metoden "UpdatePageLayout" för att ge oss
+// en korrekt siffra för alla layoutrelaterade mätvärden, såsom sidantal.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -80,7 +80,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Vi kan se numren på start- och slutsidorna för alla noder och deras övergripande sidspann.
+// Vi kan se numren på start- och slutsidorna för valfri nod och deras totala sidlängd.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -90,13 +90,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Vi kan iterera över layoutentiteterna med hjälp av en LayoutEnumerator.
+// Vi kan iterera över layout-entiteterna med hjälp av en LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumeratorn kan gå igenom samlingen av layoutentiteter som ett träd.
-// Vi kan också tillämpa det på valfri nods motsvarande layoutentitet.
+// LayoutEnumeratorn kan gå igenom samlingen av layout-entiteter som ett träd.
+// Vi kan också tillämpa den på vilken nods motsvarande layout-entitet som helst.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

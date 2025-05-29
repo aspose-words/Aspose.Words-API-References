@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreInserted
 linktitle: IgnoreInserted
 articleTitle: IgnoreInserted
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions IgnoreInserted proprietà. Ottiene o imposta un valore booleano che indica di ignorare il testo allinterno delle revisioni di inserimento. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà IgnoreInserted di FindReplaceOptions e controlla la gestione del testo nelle revisioni di inserimento con questa semplice impostazione booleana. Il valore predefinito è "false".
 type: docs
 weight: 100
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Inizia a tenere traccia delle revisioni e inserisce un paragrafo. Quel paragrafo sarà una revisione inserita.
+// Inizia a monitorare le revisioni e inserisci un paragrafo. Quel paragrafo sarà una revisione inserita.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("Hello again!");
 doc.StopTrackRevisions();
@@ -36,10 +36,10 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
 // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "IgnoreInserted" su "true" per ottenere la ricerca e sostituzione
-// operazione per ignorare i paragrafi che contengono revisioni inserite.
-// Imposta il flag "IgnoreInserted" su "false" per ottenere la ricerca e sostituzione
-//operazione per cercare anche il testo all'interno delle revisioni di inserimento.
+// Imposta il flag "IgnoreInserted" su "true" per ottenere la funzione di ricerca e sostituzione
+// operazione per ignorare i paragrafi che sono revisioni inserite.
+// Imposta il flag "IgnoreInserted" su "false" per ottenere la funzione di ricerca e sostituzione
+// operazione per cercare anche il testo all'interno delle revisioni inserite.
 options.IgnoreInserted = ignoreTextInsideInsertRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

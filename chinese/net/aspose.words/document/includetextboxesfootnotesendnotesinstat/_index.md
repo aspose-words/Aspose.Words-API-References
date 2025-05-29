@@ -2,15 +2,15 @@
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
 linktitle: IncludeTextboxesFootnotesEndnotesInStat
 articleTitle: IncludeTextboxesFootnotesEndnotesInStat
-second_title: 用于 .NET 的 Aspose.Words
-description: Document IncludeTextboxesFootnotesEndnotesInStat 财产. 指定字数统计中是否包括文本框脚注和尾注 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IncludeTextboxesFootnotesEndnotesInStat 属性优化文档的字数统计。轻松控制文本框、脚注和尾注！
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
 ## Document.IncludeTextboxesFootnotesEndnotesInStat property
 
-指定字数统计中是否包括文本框、脚注和尾注。
+指定是否在字数统计中包含文本框、脚注和尾注。
 
 ```csharp
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
@@ -26,14 +26,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Lorem ipsum");
 builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 
-// 默认情况下选项设置为“false”。
+// 默认选项设置为“false”。
 doc.UpdateWordCount();
-// 不计文本框、脚注和尾注的字数。
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);            
+// 字数计算不包括文本框、脚注和尾注。
+Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();
-// 文本框、脚注和尾注的字数统计。
+// 使用文本框、脚注和尾注来计算字数。
 Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ```
 

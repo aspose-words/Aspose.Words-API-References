@@ -3,7 +3,7 @@ title: DigitalSignatureCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: DigitalSignatureCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
+description: Entdecken Sie die Eigenschaft „DigitalSignatureCollection Count“, rufen Sie effizient die Gesamtzahl der Elemente ab und verbessern Sie so Ihr digitales Signaturmanagement.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -21,16 +21,17 @@ public int Count { get; }
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
 ```csharp
-// Stellen Sie sicher, dass ein Dokument nicht signiert ist.
+// Überprüfen Sie, ob ein Dokument signiert ist.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, das wir zum Signieren des Dokuments verwenden.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Es gibt zwei Möglichkeiten, eine signierte Kopie eines Dokuments im lokalen Dateisystem zu speichern:
-// 1 – Bestimmen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 – Kennzeichnen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
@@ -45,7 +46,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind, und überprüfen Sie deren Details.
+// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind und kontrollieren Sie deren Details.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

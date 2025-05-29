@@ -3,16 +3,16 @@ title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSourceBase classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier diverses sources de polices en C#.
+description: Découvrez Aspose.Words.Fonts.FontSourceBase, la classe abstraite essentielle pour définir diverses sources de polices dans vos applications. Améliorez la mise en forme de vos documents !
 type: docs
-weight: 2980
+weight: 3410
 url: /fr/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
 Il s'agit d'une classe de base abstraite pour les classes qui permettent à l'utilisateur de spécifier diverses sources de polices.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public abstract class FontSourceBase
@@ -22,9 +22,9 @@ public abstract class FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Renvoie le type de la source de police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Renvoie le type de la source de la police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé pendant le traitement de la source de police lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage. |
 
 ## Méthodes
 

@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: BookmarksOutlineLevelCollection RemoveAt metodo. Rimuove un segnalibro allindice specificato in C#.
+description: Gestisci facilmente i tuoi segnalibri con il metodo RemoveAt. Rimuovi rapidamente i segnalibri per indice per un'esperienza semplificata nella tua applicazione!
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice a base zero. |
+| index | Int32 | L'indice basato sullo zero. |
 
 ## Esempi
 
@@ -28,7 +28,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisce un segnalibro con un altro segnalibro annidato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -44,9 +44,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
+// Salvando in formato .pdf, i segnalibri sono accessibili tramite un menu a discesa e possono essere utilizzati come punti di riferimento dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci figlio di livello superiore quando compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -71,7 +71,7 @@ outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Lo svuotamento di questa raccolta conserverà i segnalibri e li metterà tutti sullo stesso livello di struttura.
+// Svuotando questa raccolta i segnalibri verranno conservati e tutti verranno inseriti nello stesso livello di struttura.
 outlineLevels.Clear();
 ```
 

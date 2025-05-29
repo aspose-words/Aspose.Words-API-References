@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words für .NET
-description: FieldMergingArgsBase FieldName eigendom. Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab in C#.
+description: Entdecken Sie die FieldName-Eigenschaft von FieldMergingArgsBase, die den Seriendruckfeldnamen aus Ihrer Datenquelle abruft, um eine nahtlose Integration zu gewährleisten.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
 ---
 ## FieldMergingArgsBase.FieldName property
 
-Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab.
+Ruft den Namen des Seriendruckfelds in der Datenquelle ab.
 
 ```csharp
 public string FieldName { get; }
@@ -20,11 +20,11 @@ public string FieldName { get; }
 
 Wenn Sie eine Zuordnung von einem Dokumentfeldnamen zu einem anderen Datenquellenfeldnamen haben, , dann ist dies der zugeordnete Feldname.
 
-Wenn Sie im Dokument ein Feldnamenpräfix angegeben haben, zum Beispiel „Image:MyFieldName“, dann`FieldName` gibt den Feldnamen ohne Präfix zurück, also „MyFieldName“.
+Wenn Sie im Dokument ein Feldnamenpräfix angegeben haben, beispielsweise „Image:MyFieldName“, dann `FieldName` gibt den Feldnamen ohne Präfix zurück, also „MyFieldName“.
 
 ## Beispiele
 
-Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
+Zeigt, wie Kontrollkästchen-Formularfelder als Seriendruckdaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,8 +32,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie MERGEFIELDs mit den Tags „TableStart“/„TableEnd“, um einen Seriendruckbereich zu definieren
-    // das zu einer Datenquelle namens „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte namens „CourseName“ akzeptiert.
+    // Verwenden Sie MERGEFIELDs mit den Tags "TableStart"/"TableEnd", um einen Serienbriefbereich zu definieren
+    // das zu einer Datenquelle mit dem Namen „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte mit dem Namen „CourseName“ akzeptiert.
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -52,12 +52,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Zusammenführungsdatentextes ein Kontrollkästchen-Formularfeld eingefügt.
+/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Seriendruckdatentexts ein Kontrollkästchen-Formularfeld eingefügt.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {

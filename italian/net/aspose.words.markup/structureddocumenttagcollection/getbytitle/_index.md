@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetByTitle
 linktitle: GetByTitle
 articleTitle: GetByTitle
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagCollection GetByTitle metodo. Restituisce il primo tag di documento strutturato riscontrato nella raccolta con il titolo specificato in C#.
+description: Scopri il metodo GetByTitle in StructuredDocumentTagCollection, che recupera in modo efficiente il primo tag del documento in base al titolo, per una gestione semplificata dei dati.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| title | String | Il titolo del tag del documento strutturato. |
+| title | String | Il tag del titolo del documento strutturato. |
 
 ## Osservazioni
 
@@ -31,12 +31,12 @@ Mostra come ottenere il tag del documento strutturato.
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Ottieni il tag del documento strutturato in base all'ID.
+// Ottieni il tag del documento strutturato tramite Id.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// Ottieni il tag del documento strutturato o il tag con intervalli in base al titolo.
+// Ottieni il tag del documento strutturato o il tag con intervallo in base al titolo.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

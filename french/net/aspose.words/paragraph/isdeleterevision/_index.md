@@ -3,7 +3,7 @@ title: Paragraph.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
 second_title: Aspose.Words pour .NET
-description: Paragraph IsDeleteRevision propriété. Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé en C#.
+description: Découvrez la propriété IsDeleteRevision dans Microsoft Word. Découvrez comment elle indique les suppressions lors du suivi des modifications pour une gestion efficace des documents.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/paragraph/isdeleterevision/
@@ -18,7 +18,7 @@ public bool IsDeleteRevision { get; }
 
 ## Exemples
 
-Montre comment travailler avec des paragraphes de révision.
+Montre comment travailler avec les paragraphes de révision.
 
 ```csharp
 Document doc = new Document();
@@ -30,14 +30,14 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Les paragraphes ci-dessus ne sont pas des révisions.
-// Les paragraphes que nous ajoutons après avoir démarré le suivi des révisions seront enregistrés comme révisions "Insérer".
+// Les paragraphes que nous ajoutons après le démarrage du suivi des révisions seront enregistrés comme des révisions « Insérer ».
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Les paragraphes que nous supprimons après avoir démarré le suivi des révisions seront enregistrés comme révisions "Supprimer".
+// Les paragraphes que nous supprimons après le démarrage du suivi des révisions seront enregistrés comme des révisions « Supprimer ».
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -45,8 +45,8 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Ces paragraphes resteront jusqu'à ce que nous acceptions ou rejetions la révision supprimée.
-// Accepter la révision supprimera définitivement le paragraphe,
+// Ces paragraphes resteront en place jusqu'à ce que nous acceptions ou rejetions la révision de suppression.
+// L'acceptation de la révision supprimera définitivement le paragraphe,
 // et rejeter la révision la laissera dans le document comme si nous ne l'avions jamais supprimée.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
@@ -55,7 +55,7 @@ Assert.True(para.IsDeleteRevision);
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

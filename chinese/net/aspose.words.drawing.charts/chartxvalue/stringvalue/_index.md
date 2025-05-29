@@ -2,8 +2,8 @@
 title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue StringValue 财产. 获取存储的字符串值 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartXValue StringValue 属性，该属性可有效检索和管理存储的字符串值，从而增强数据可视化。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/stringvalue/

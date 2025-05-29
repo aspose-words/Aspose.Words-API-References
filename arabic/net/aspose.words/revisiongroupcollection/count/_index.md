@@ -3,14 +3,14 @@ title: RevisionGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: RevisionGroupCollection Count ملكية. إرجاع عدد مجموعات المراجعة في المجموعة في C#.
+description: اكتشف خاصية "العدد" في RevisionGroupCollection. استرجاع العدد الإجمالي لمجموعات المراجعة بسهولة، مما يُحسّن كفاءة إدارة بياناتك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-إرجاع عدد مجموعات المراجعة في المجموعة.
+يعيد عدد مجموعات المراجعة في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
+يوضح كيفية طباعة المعلومات حول مجموعة من المراجعات في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

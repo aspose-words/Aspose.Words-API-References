@@ -3,14 +3,14 @@ title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: BubbleSizeCollection Count ملكية. الحصول على عدد العناصر في هذه المجموعة في C#.
+description: اكتشف خاصية BubbleSizeCollection Count لتتبع عدد العناصر في مجموعتك بسهولة. حسّن إدارة بياناتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/bubblesizecollection/count/
 ---
 ## BubbleSizeCollection.Count property
 
-الحصول على عدد العناصر في هذه المجموعة.
+يحصل على عدد العناصر في هذه المجموعة.
 
 ```csharp
 public int Count { get; }

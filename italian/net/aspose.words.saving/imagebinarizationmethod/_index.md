@@ -3,9 +3,9 @@ title: ImageBinarizationMethod Enum
 linktitle: ImageBinarizationMethod
 articleTitle: ImageBinarizationMethod
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod enum. Specifica il metodo utilizzato per binarizzare limmagine in C#.
+description: Scopri l'enum Aspose.Words.ImageBinarizationMethod per un'efficace binarizzazione delle immagini. Ottimizza l'elaborazione dei tuoi documenti con tecniche avanzate.
 type: docs
-weight: 5200
+weight: 5950
 url: /it/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -20,12 +20,12 @@ public enum ImageBinarizationMethod
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Threshold | `0` | Specifica il metodo della soglia. |
+| Threshold | `0` | Specifica il metodo di soglia. |
 | FloydSteinbergDithering | `1` | Specifica il dithering utilizzando il metodo di diffusione degli errori Floyd-Steinberg. |
 
 ## Esempi
 
-Mostra come impostare la soglia di errore di binarizzazione TIFF quando si utilizza il metodo Floyd-Steinberg per eseguire il rendering di un'immagine TIFF.
+Mostra come impostare la soglia di errore di binarizzazione TIFF quando si utilizza il metodo Floyd-Steinberg per il rendering di un'immagine TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // Quando salviamo il documento come TIFF, possiamo passare un oggetto SaveOptions a
 // regola il dithering che Aspose.Words applicherà durante il rendering di questa immagine.
 // Il valore predefinito della proprietà "ThresholdForFloydSteinbergDithering" è 128.
-// Valori più alti tendono a produrre immagini più scure.
+// I valori più alti tendono a produrre immagini più scure.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

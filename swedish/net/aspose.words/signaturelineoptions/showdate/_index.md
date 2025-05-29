@@ -3,14 +3,14 @@ title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words för .NET
-description: SignatureLineOptions ShowDate fast egendom. Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen ärSann  i C#.
+description: Upptäck hur egenskapen ShowDate i SignatureLineOptions förbättrar ditt dokuments professionalism genom att visa signeringsdatumet på signaturrader.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen är`Sann` .
+Hämtar eller ställer in ett värde som anger att signeringsdatum visas på signaturraden. Standardvärdet för den här egenskapen är`sann` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

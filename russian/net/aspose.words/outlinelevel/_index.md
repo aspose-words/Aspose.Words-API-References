@@ -3,14 +3,14 @@ title: OutlineLevel Enum
 linktitle: OutlineLevel
 articleTitle: OutlineLevel
 second_title: Aspose.Words для .NET
-description: Aspose.Words.OutlineLevel перечисление. Определяет уровень структуры абзаца в документе на С#.
+description: Откройте для себя перечисление Aspose.Words.OutlineLevel, которое поможет вам легко управлять уровнями структуры абзацев в документах для лучшей организации и ясности.
 type: docs
-weight: 4330
+weight: 5060
 url: /ru/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration
 
-Определяет уровень структуры абзаца в документе.
+Указывает уровень структуры абзаца в документе.
 
 ```csharp
 public enum OutlineLevel
@@ -30,6 +30,38 @@ public enum OutlineLevel
 | Level8 | `7` | Абзац находится на уровне структуры 8. |
 | Level9 | `8` | Абзац находится на уровне структуры 9. |
 | BodyText | `9` | Абзац находится на уровне основного текста. |
+
+## Примеры
+
+Показывает, как настроить уровни структуры абзаца для создания сворачиваемого текста.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Каждый абзац имеет OutlineLevel, который может быть любым числом от 1 до 9 или иметь значение по умолчанию «BodyText».
+// Установка свойства в одно из пронумерованных значений отобразит стрелку влево
+// начала абзаца.
+builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level1;
+builder.Writeln("Paragraph outline level 1.");
+
+// Уровень 1 — самый верхний уровень. Если есть абзац с более низким уровнем под абзацем с более высоким уровнем,
+// сворачивание абзаца более высокого уровня приведет к сворачиванию абзаца более низкого уровня.
+builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level2;
+builder.Writeln("Paragraph outline level 2.");
+
+// Два абзаца одного уровня не будут сворачивать друг друга,
+// и стрелки не сворачивают абзацы, на которые они указывают.
+builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level3;
+builder.Writeln("Paragraph outline level 3.");
+builder.Writeln("Paragraph outline level 3.");
+
+// Значение "BodyText" по умолчанию — наименьшее, при котором абзац любого уровня может свернуться.
+builder.ParagraphFormat.OutlineLevel = OutlineLevel.BodyText;
+builder.Writeln("Paragraph at main text level.");
+
+doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
+```
 
 ### Смотрите также
 

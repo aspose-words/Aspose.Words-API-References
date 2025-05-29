@@ -3,14 +3,14 @@ title: NumberStyle Enum
 linktitle: NumberStyle
 articleTitle: NumberStyle
 second_title: Aspose.Words per .NET
-description: Aspose.Words.NumberStyle enum. Specifica lo stile dei numeri per un elenco note a piè di pagina e note di chiusura numeri di pagina in C#.
+description: Scopri l'enum Aspose.Words.NumberStyle per personalizzare i numeri di pagina delle note a piè di pagina e delle note di chiusura, migliorando senza sforzo la formattazione del tuo documento.
 type: docs
-weight: 4310
+weight: 5040
 url: /it/net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration
 
-Specifica lo stile dei numeri per un elenco, note a piè di pagina e note di chiusura, numeri di pagina.
+Specifica lo stile numerico per un elenco, note a piè di pagina e note di chiusura, numeri di pagina.
 
 ```csharp
 public enum NumberStyle
@@ -21,16 +21,16 @@ public enum NumberStyle
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Arabic | `0` | Numerazione araba (1, 2, 3, ...) |
-| UppercaseRoman | `1` | Maiuscolo Romano (I, II, III, ...) |
-| LowercaseRoman | `2` | Minuscolo romano (i, ii, iii, ...) |
+| UppercaseRoman | `1` | Romano maiuscolo (I, II, III, ...) |
+| LowercaseRoman | `2` | Romano minuscolo (i, ii, iii, ...) |
 | UppercaseLetter | `3` | Lettera maiuscola (A, B, C, ...) |
 | LowercaseLetter | `4` | Lettera minuscola (a, b, c, ...) |
 | Ordinal | `5` | Ordinale (1°, 2°, 3°, ...) |
 | Number | `6` | Numerato (Uno, Due, Tre, ...) |
 | OrdinalText | `7` | Ordinale (testo) (Primo, Secondo, Terzo, ...) |
 | Hex | `8` | Esadecimale: 8, 9, A, B, C, D, E, F, 10, 11, 12 |
-| ChicagoManual | `9` | Manuale dello stile di Chicago: *, †, † |
-| Kanji | `10` | Ideografo-digitale |
+| ChicagoManual | `9` | Manuale di stile di Chicago: *, †, † |
+| Kanji | `10` | Ideogramma-digitale |
 | KanjiDigit | `11` | Conteggio giapponese |
 | AiueoHalfWidth | `12` | Aiueo |
 | IrohaHalfWidth | `13` | Iroha |
@@ -39,62 +39,62 @@ public enum NumberStyle
 | KanjiTraditional | `16` | Legale giapponese |
 | KanjiTraditional2 | `17` | Diecimila digitali giapponesi |
 | NumberInCircle | `18` | Cerchi chiusi |
-| DecimalFullWidth | `19` | Larghezza intera decimale: 1, 2, 3, 4 |
+| DecimalFullWidth | `19` | Larghezza decimale intera: 1, 2, 3, 4 |
 | Aiueo | `20` | Aiueo a tutta larghezza |
 | Iroha | `21` | Iroha a tutta larghezza |
 | LeadingZero | `22` | Zero iniziale (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
-| Bullet | `23` | Punto elenco (controlla il codice carattere nel testo) |
+| Bullet | `23` | Punto elenco (controlla il codice del carattere nel testo) |
 | Ganada | `24` | Ganada coreano |
 | Chosung | `25` | Corea Chosung |
 | GB1 | `26` | Punto chiuso |
-| GB2 | `27` | Parentesi chiusa |
-| GB3 | `28` | Cerchio chiuso Cinese |
+| GB2 | `27` | Parentesi racchiusa |
+| GB3 | `28` | Cerchio chiuso cinese |
 | GB4 | `29` | Ideogramma cerchio racchiuso |
 | Zodiac1 | `30` | Ideogramma tradizionale |
 | Zodiac2 | `31` | Ideogramma Zodiaco |
 | Zodiac3 | `32` | Ideogramma Zodiaco tradizionale |
 | TradChinNum1 | `33` | Conteggio taiwanese |
 | TradChinNum2 | `34` | Ideogramma legale tradizionale |
-| TradChinNum3 | `35` | I taiwanesi contano mille |
-| TradChinNum4 | `36` | Digitale taiwanese |
+| TradChinNum3 | `35` | Taiwanese che conta migliaia |
+| TradChinNum4 | `36` | digitale taiwanese |
 | SimpChinNum1 | `37` | Conteggio cinese |
-| SimpChinNum2 | `38` | Legale cinese semplificato |
-| SimpChinNum3 | `39` | I cinesi contano mille |
+| SimpChinNum2 | `38` | Cinese legale semplificato |
+| SimpChinNum3 | `39` | conteggio cinese mille |
 | SimpChinNum4 | `40` | Cinese (non implementato) |
 | HanjaRead | `41` | digitale coreano |
-| HanjaReadDigit | `42` | Conteggio coreano |
-| Hangul | `43` | Legale in Corea |
+| HanjaReadDigit | `42` | conteggio coreano |
+| Hangul | `43` | Legalità in Corea |
 | Hanja | `44` | Corea digitale2 |
 | Hebrew1 | `45` | Ebraico-1 |
-| Arabic1 | `46` | Alfabeto arabo |
+| Arabic1 | `46` | Arabo alfa |
 | Hebrew2 | `47` | Ebraico-2 |
 | Arabic2 | `48` | Arabo abjad |
 | HindiLetter1 | `49` | Vocali hindi |
 | HindiLetter2 | `50` | Consonanti hindi |
 | HindiArabic | `51` | Numeri hindi |
-| HindiCardinalText | `52` | Hindi descrittivo (cardinali) |
+| HindiCardinalText | `52` | Descrittivo hindi (cardinali) |
 | ThaiLetter | `53` | Lettere tailandesi |
 | ThaiArabic | `54` | Numeri tailandesi |
 | ThaiCardinalText | `55` | Descrittivo tailandese (cardinali) |
 | VietCardinalText | `56` | Descrittivo vietnamita (cardinali) |
-| NumberInDash | `57` | Formato numero pagina: - 1 -, - 2 -, - 3 -, - 4 - |
+| NumberInDash | `57` | Formato del numero di pagina: - 1 -, - 2 -, - 3 -, - 4 - |
 | LowercaseRussian | `58` | Alfabeto russo minuscolo |
 | UppercaseRussian | `59` | Alfabeto russo maiuscolo |
 | None | `255` | Nessun punto elenco o numero. |
-| Custom | `65280` | Formato numero personalizzato. È supportato solo dal formato DOCX. |
+| Custom | `65280` | Formato numerico personalizzato. È supportato solo dal formato DOCX. |
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

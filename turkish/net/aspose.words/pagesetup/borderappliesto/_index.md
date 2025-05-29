@@ -2,8 +2,8 @@
 title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
-second_title: Aspose.Words for .NET
-description: PageSetup BorderAppliesTo mülk. Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: PageSetup BorderAppliesTo özelliğinin, sayfa kenarlığı yazdırmayı kontrol ederek belge düzeninizi nasıl geliştirdiğini ve cilalı, profesyonel bir görünüm sağladığını keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/pagesetup/borderappliesto/
@@ -18,7 +18,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ## Örnekler
 
-İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
+İlk sayfanın üst kısmına geniş mavi bantlı bir kenarlığın nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

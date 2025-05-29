@@ -3,14 +3,14 @@ title: VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words för .NET
-description: VbaProject byggare. Skapar en tomVbaProject  i C#.
+description: Skapa enkelt ett nytt Vba-projekt med vårt konstruktörsverktyg. Börja din programmeringsresa med ett tomt projekt och släpp lös din kreativitet!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Skapar en tom[`VbaProject`](../) .
+Skapar ett tomrum[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()

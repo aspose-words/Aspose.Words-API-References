@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitGlossaryDocumentEnd
 linktitle: VisitGlossaryDocumentEnd
 articleTitle: VisitGlossaryDocumentEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitGlossaryDocumentEnd 方法. 术语表文档枚举结束时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor 中的 VisitGlossaryDocumentEnd 方法。了解它如何增强词汇表文档枚举功能，从而实现高效的数据管理。
 type: docs
 weight: 240
 url: /zh/net/aspose.words/documentvisitor/visitglossarydocumentend/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentEnd method
 
-术语表文档枚举结束时调用。
+当词汇表文档枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
@@ -22,15 +22,15 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 评论
 
-注意：当您在 a Visitor 上执行 a Visitor 时，不会访问词汇表文档节点及其子节点。[`Document`](../../document/) 。如果你想对a 词汇表文档执行Visitor，你需要调用[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/).
+注意：在执行 a Visitor 时，不会访问词汇表文档节点及其子节点[`Document`](../../document/)。如果您想对 a 词汇表文档执行访问者，您需要调用[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/).
 
 ## 例子
 
-显示访问术语表文档中的构建块的方法。
+展示访问词汇表文档中的构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -38,17 +38,22 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 访问构建块的方式有多种。
+    // 有多种访问构建块的方法。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -61,18 +66,23 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // 我们将使用自定义访问者来做到这一点，
+    // 我们将使用自定义访问者来实现这一点，
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // 访问词汇表文档的开始/结束。
     glossaryDoc.Accept(visitor);
+    // 仅访问词汇表文档的开头。
+    glossaryDoc.AcceptStart(visitor);
+    // 仅访问词汇表文档的末尾。
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”->“快速部件”->“构建块管理器”访问构建块。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

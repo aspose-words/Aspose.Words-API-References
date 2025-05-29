@@ -3,14 +3,14 @@ title: Document.HasMacros
 linktitle: HasMacros
 articleTitle: HasMacros
 second_title: Aspose.Words für .NET
-description: Document HasMacros eigendom. Gibt zurückWAHR wenn das Dokument ein VBAProjekt Makros hat in C#.
+description: Finden Sie mit der HasMacros-Eigenschaft heraus, ob Ihr Dokument VBA-Projektmakros enthält. Steigern Sie noch heute die Automatisierung und Effizienz Ihrer Workflows!
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Gibt zurück`WAHR` wenn das Dokument ein VBA-Projekt (Makros) hat.
+Rückgaben`WAHR` wenn das Dokument ein VBA-Projekt (Makros) enthält.
 
 ```csharp
 public bool HasMacros { get; }
@@ -18,7 +18,7 @@ public bool HasMacros { get; }
 
 ## Beispiele
 
-Zeigt, wie wir MACROBUTTON-Felder verwenden, um die Makros eines Dokuments durch Klicken auszuführen.
+Zeigt, wie MACROBUTTON-Felder verwendet werden, um Makros eines Dokuments durch Klicken auszuführen.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -26,15 +26,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// Ein MACROBUTTON-Feld einfügen und in der MacroName-Eigenschaft namentlich auf eines der Makros des Dokuments verweisen.
+// Fügen Sie ein MACROBUTTON-Feld ein und verweisen Sie in der MacroName-Eigenschaft mit dem Namen auf eines der Makros des Dokuments.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// Verwenden Sie die Eigenschaft, um auf „ViewZoom200“ zu verweisen, ein Makro, das im Lieferumfang von Microsoft Word enthalten ist.
-// Alle anderen Makros finden wir über View -> Makros (Dropdown) -> Makros anzeigen.
+// Verwenden Sie die Eigenschaft, um auf „ViewZoom200“ zu verweisen, ein Makro, das mit Microsoft Word geliefert wird.
+// Alle weiteren Makros finden wir über Ansicht -> Makros (Dropdown) -> Makros anzeigen.
 // Wählen Sie in diesem Menü „Word-Befehle“ aus der Dropdown-Liste „Makros in:“ aus.
 // Wenn unser Dokument ein benutzerdefiniertes Makro mit demselben Namen wie ein Standardmakro enthält,
 // Unser Makro wird dasjenige sein, das das MACROBUTTON-Feld ausführt.
@@ -45,7 +45,7 @@ field.DisplayText = "Run " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  ViewZoom200 Run ViewZoom200", field.GetFieldCode());
 
-// Speichern Sie das Dokument als makrofähigen Dokumenttyp.
+// Speichern Sie das Dokument als Dokumenttyp mit Makros.
 doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ```
 

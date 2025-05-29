@@ -3,14 +3,14 @@ title: Odso.DataSource
 linktitle: DataSource
 articleTitle: DataSource
 second_title: Aspose.Words لـ .NET
-description: Odso DataSource ملكية. يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة في C#.
+description: اربط مستنداتك بسهولة مع Odso DataSource. حدد بسهولة مصادر البيانات الخارجية لدمج البريد بسلاسة. ابدأ بتحسين سير عملك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odso/datasource/
 ---
 ## Odso.DataSource property
 
-يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+يحدد موقع مصدر البيانات الخارجي الذي سيتم توصيله بالمستند لأداء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string DataSource { get; set; }
@@ -18,7 +18,7 @@ public string DataSource { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

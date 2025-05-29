@@ -3,14 +3,14 @@ title: LineStyle Enum
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words для .NET
-description: Aspose.Words.LineStyle перечисление. Определяет стиль линииBorder  на С#.
+description: Откройте для себя перечисление Aspose.Words.LineStyle для настраиваемых стилей границ, которые сделают дизайн вашего документа более гибким и точным.
 type: docs
-weight: 3450
+weight: 3900
 url: /ru/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-Определяет стиль линии[`Border`](../border/) .
+Задает стиль линии[`Border`](../border/) .
 
 ```csharp
 public enum LineStyle

@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.Image
 linktitle: Image
 articleTitle: Image
 second_title: Aspose.Words لـ .NET
-description: ImageFieldMergingArgs Image ملكية. تحديد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند في C#.
+description: اكتشف كيفية استخدام ImageFieldMergingArgs لإدراج الصور بسلاسة في مستنداتك للحصول على تجربة دمج بريد مصقولة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 ---
 ## ImageFieldMergingArgs.Image property
 
-تحديد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند.
+يحدد الصورة التي يجب على محرك دمج البريد إدراجها في المستند.
 
 ```csharp
 public Image Image { get; set; }
@@ -18,14 +18,14 @@ public Image Image { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام رد الاتصال لتخصيص منطق دمج الصور.
+يوضح كيفية استخدام معاودة الاتصال لتخصيص منطق دمج الصور.
 
 ```csharp
 public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // أدخل MERGEFIELD الذي سيقبل الصور من المصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
+    // أدخل حقل دمج يقبل الصور من مصدر أثناء دمج البريد. استخدم رمز الحقل للإشارة إليه.
     // عمود في مصدر البيانات يحتوي على أسماء ملفات النظام المحلي للصور التي نرغب في استخدامها في دمج البريد.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -34,15 +34,15 @@ public void MergeFieldImages()
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // يمكن أن تكون أسماء الملفات طويلة، وإذا تمكنا من إيجاد طريقة لتجنب تخزينها في مصدر البيانات،
-    // قد نقوم بتقليل حجمه بشكل كبير.
-    // قم بإنشاء مصدر بيانات يشير إلى الصور باستخدام الأسماء المختصرة.
+    //قد نتمكن من تقليص حجمها بشكل كبير.
+    // إنشاء مصدر بيانات يشير إلى الصور باستخدام أسماء قصيرة.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // قم بتعيين رد اتصال مدمج يحتوي على كل المنطق الذي يعالج تلك الأسماء،
-     // ثم قم بتنفيذ عملية دمج البريد.
+    // تعيين استدعاء دمج يحتوي على كل المنطق الذي يعالج تلك الأسماء،
+     //ثم قم بتنفيذ دمج البريد.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
@@ -50,9 +50,9 @@ public void MergeFieldImages()
 }
 
 /// <summary>
-/// يحتوي على قاموس يقوم بتعيين أسماء الصور إلى أسماء ملفات النظام المحلي التي تحتوي على هذه الصور.
-/// إذا كان مصدر بيانات دمج المراسلات يستخدم أحد أسماء القاموس للإشارة إلى صورة،
-/// سوف يقوم رد الاتصال هذا بتمرير اسم الملف المعني إلى وجهة الدمج.
+/// يحتوي على قاموس يربط أسماء الصور بأسماء ملفات النظام المحلي التي تحتوي على هذه الصور.
+/// إذا كان مصدر بيانات دمج البريد يستخدم أحد أسماء القاموس للإشارة إلى صورة،
+/// ستمرر هذه الدالة الراجعة اسم الملف المعني إلى وجهة الدمج.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback
 {
@@ -72,7 +72,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
     {
         if (mImageFilenames.ContainsKey(args.FieldValue.ToString()))
         {
-            #if NET48 || JAVA
+            #if NET461_OR_GREATER || JAVA
             args.Image = Image.FromFile(mImageFilenames[args.FieldValue.ToString()]);
             #elif NET5_0_OR_GREATER
             args.Image = SKBitmap.Decode(mImageFilenames[args.FieldValue.ToString()]);

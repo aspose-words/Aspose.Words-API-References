@@ -3,14 +3,14 @@ title: CellFormat.SetPaddings
 linktitle: SetPaddings
 articleTitle: SetPaddings
 second_title: Aspose.Words per .NET
-description: CellFormat SetPaddings metodo. Imposta la quantità di spazio in punti da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella in C#.
+description: Scopri il metodo CellFormat SetPaddings per personalizzare la spaziatura delle celle in punti, ottimizzando il layout per una migliore leggibilità e un design migliore.
 type: docs
-weight: 160
+weight: 170
 url: /it/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Imposta la quantità di spazio (in punti) da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella.
+Imposta la quantità di spazio (in punti) da aggiungere a sinistra/in alto/a destra/in basso al contenuto della cella.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -19,14 +19,14 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 
 ## Esempi
 
-Mostra come riempire il contenuto di una cella con spazi bianchi.
+Mostra come aggiungere spazi vuoti al contenuto di una cella.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Imposta una distanza di riempimento (in punti) tra il bordo e il contenuto del testo
- // di ogni cella della tabella creata con il generatore di documenti.
+ // di ogni cella della tabella che creiamo con il generatore di documenti.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
 // Crea una tabella con una cella il cui contenuto avrà spazi vuoti.

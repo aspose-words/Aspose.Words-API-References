@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.Security
 linktitle: Security
 articleTitle: Security
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties Security mülk. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties Güvenlik özelliğini keşfedin, belgenizin güvenlik seviyesini hassas bir şekilde tanımlayın. Belge korumanızı bugün geliştirin!
 type: docs
-weight: 250
+weight: 270
 url: /tr/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
@@ -18,9 +18,9 @@ public DocumentSecurity Security { get; set; }
 
 ## Notlar
 
-Bu özelliği yalnızca bilgilendirme amacıyla kullanın, çünkü Microsoft Word bu özelliği her zaman ayarlamaz. Bu özellik yalnızca DOC ve OOXML belgelerinde mevcuttur.
+Bu özelliği yalnızca bilgilendirme amaçlı kullanın çünkü Microsoft Word bu özelliği her zaman ayarlamaz. Bu özellik yalnızca DOC ve OOXML belgelerinde kullanılabilir.
 
-Bir belgeyi korumak veya korumayı kaldırmak için the kullanın[`Protect`](../../../aspose.words/document/protect/) Ve[`Unprotect`](../../../aspose.words/document/unprotect/) yöntemler.
+Bir belgeyi korumak veya korumasını kaldırmak için the kullanın[`Protect`](../../../aspose.words/document/protect/) Ve[`Unprotect`](../../../aspose.words/document/unprotect/) Yöntemler.
 
 Aspose.Words, bir belgeyi kaydetmeden önce bu özelliği doğru bir değere günceller.
 
@@ -33,7 +33,7 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Bir belgeyi salt okunur olacak şekilde yapılandırırsak, "Güvenlik" yerleşik özelliğini kullanarak bu durumu gösterecektir.
+// Bir belgeyi salt okunur olarak yapılandırırsak, bu durumu "Güvenlik" yerleşik özelliğini kullanarak görüntüler.
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// "Güvenlik" açıklayıcı bir özelliktir. Değerini manuel olarak düzenleyebiliriz.
+// "Güvenlik" tanımlayıcı bir özelliktir. Değerini manuel olarak düzenleyebiliriz.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

@@ -3,14 +3,14 @@ title: SectionStart Enum
 linktitle: SectionStart
 articleTitle: SectionStart
 second_title: Aspose.Words för .NET
-description: Aspose.Words.SectionStart uppräkning. Typen av avbrott i början av avsnittet i C#.
+description: Utforska Aspose.Words.SectionStart enum för att förstå avsnittsbrytningar och förbättra dokumentformatering för bättre kontroll och presentation.
 type: docs
-weight: 5760
+weight: 6590
 url: /sv/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
 
-Typen av avbrott i början av avsnittet.
+Typen av brytning i början av avsnittet.
 
 ```csharp
 public enum SectionStart
@@ -35,20 +35,20 @@ Document doc = new Document();
 
 // Ett tomt dokument innehåller ett avsnitt, en brödtext och ett stycke.
 // Anropa metoden "RemoveAllChildren" för att ta bort alla dessa noder,
-// och slutar med en dokumentnod utan underordnade.
+// och slutar med en dokumentnod utan barn.
 doc.RemoveAllChildren();
 
-// Det här dokumentet har nu inga sammansatta underordnade noder som vi kan lägga till innehåll till.
-// Om vi vill redigera den måste vi fylla på dess nodsamling.
-// Skapa först ett nytt avsnitt och lägg sedan till det som ett underordnat dokument i rotdokumentnoden.
+// Det här dokumentet har nu inga sammansatta undernoder som vi kan lägga till innehåll till.
+// Om vi vill redigera den måste vi fylla i dess nodsamling igen.
+// Skapa först en ny sektion och lägg sedan till den som ett underordnat avsnitt till rotdokumentnoden.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Ställ in några sidinställningar för avsnittet.
+// Ange vissa sidinställningar för avsnittet.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// En sektion behöver en kropp som kommer att innehålla och visa allt dess innehåll
+// En sektion behöver en brödtext, som innehåller och visar allt dess innehåll
 // på sidan mellan avsnittets sidhuvud och sidfot.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en löprunda,
-// ställ in dess utseende och innehåll och lägg sedan till det som ett barn till stycket.
+// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en körning,
+// ange dess utseende och innehåll och lägg sedan till det som ett underordnat stycke.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -73,16 +73,16 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-Visar hur man anger hur ett nytt avsnitt skiljer sig från det tidigare.
+Visar hur man anger hur ett nytt avsnitt skiljer sig från det föregående.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Avsnittsbrytningstyper avgör hur ett nytt avsnitt skiljer sig från föregående avsnitt.
-// Nedan finns fem typer av avsnittsbrytningar.
-// 1 - Startar nästa avsnitt på en ny sida:
+// Avsnittsbrytningstyper avgör hur ett nytt avsnitt separerar sig från föregående avsnitt.
+// Nedan följer fem typer av avsnittsbrytningar.
+// 1 - Börjar nästa avsnitt på en ny sida:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
@@ -94,19 +94,19 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Startar nästa avsnitt på en ny jämn sida:
+// 3 - Börjar nästa avsnitt på en ny jämn sida:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Startar nästa avsnitt på en ny udda sida:
+// 4 - Börjar nästa avsnitt på en ny udda sida:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Startar nästa avsnitt i en ny kolumn:
+// 5 - Börjar nästa avsnitt i en ny kolumn:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

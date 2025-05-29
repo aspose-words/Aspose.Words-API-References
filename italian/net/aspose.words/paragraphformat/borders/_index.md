@@ -3,7 +3,7 @@ title: ParagraphFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words per .NET
-description: ParagraphFormat Borders proprietà. Ottiene la raccolta dei bordi del paragrafo in C#.
+description: Scopri la proprietà Bordi ParagraphFormat per gestire e personalizzare facilmente i bordi dei paragrafi, migliorando l'estetica e la leggibilità del documento.
 type: docs
 weight: 60
 url: /it/net/aspose.words/paragraphformat/borders/

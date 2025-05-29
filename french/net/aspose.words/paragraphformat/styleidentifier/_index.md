@@ -3,9 +3,9 @@ title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat StyleIdentifier propriété. Obtient ou définit lidentifiant de style indépendant des paramètres régionaux du style de paragraphe appliqué à cette mise en forme en C#.
+description: Découvrez la propriété ParagraphFormat StyleIdentifier pour gérer et personnaliser facilement les styles de paragraphe, améliorant ainsi la mise en forme et la lisibilité de votre document.
 type: docs
-weight: 350
+weight: 360
 url: /fr/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
@@ -24,15 +24,15 @@ Montre comment insérer une table des matières (TOC) dans un document en utilis
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une table des matières pour la première page du document.
+// Insérer une table des matières pour la première page du document.
 // Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// Définissez également ses entrées comme des hyperliens qui nous amèneront
-// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
+// Définissez également ses entrées comme des hyperliens qui nous mèneront
+// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
+// Remplissez la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chaque titre de ce type avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

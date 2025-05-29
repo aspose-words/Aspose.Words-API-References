@@ -2,8 +2,8 @@
 title: NodeCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: Aspose.Words for .NET
-description: NodeCollection Add yöntem. Koleksiyonun sonuna bir düğüm ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuza düğümleri zahmetsizce eklemek için NodeCollection Add yöntemini keşfedin, böylece veri yönetiminizi kolay ve verimli bir şekilde geliştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/nodecollection/add/
@@ -24,33 +24,33 @@ public void Add(Node node)
 
 | istisna | şart |
 | --- | --- |
-| NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
+| NotSupportedException | The[`NodeCollection`](../) "derin" bir koleksiyondur. |
 
 ## Notlar
 
-Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
+Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine bir çocuk olarak eklenir.
 
-Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
+Eklenen düğüm başka bir belgeden oluşturulduysa, kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. Daha sonra içe aktarılan düğüm geçerli belgeye eklenebilir.
 
 ## Örnekler
 
-Düzenleme için yeni bir bölüm düğümünün nasıl hazırlanacağını gösterir.
+Yeni bir bölüm düğümünün düzenlemeye nasıl hazırlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge, bir gövdeye sahip olan ve bunun da bir paragrafa sahip olduğu bir bölümle birlikte gelir.
-// Bu paragrafa metin dizileri, şekiller veya tablolar gibi öğeler ekleyerek bu belgeye içerik ekleyebiliriz.
+// Boş bir belge, bir gövdeye sahip bir bölüm ve gövdenin de bir paragrafı ile birlikte gelir.
+// Bu paragrafa metin bölümleri, şekiller veya tablolar gibi öğeler ekleyerek belgeye içerik ekleyebiliriz.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Bunun gibi yeni bir bölüm eklersek ne gövdesi ne de başka bir alt düğümü olmayacak.
+// Eğer bu şekilde yeni bir bölüm eklersek, bir gövdesi veya başka herhangi bir alt düğümü olmayacaktır.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Düzenlemeye başlamak için bu bölüme bir gövde ve paragraf eklemek üzere "EnsureMinimum" yöntemini çalıştırın.
+// Bu bölümü düzenlemeye başlamak için "EnsureMinimum" metodunu çalıştırarak bir gövde ve bir paragraf ekleyin.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

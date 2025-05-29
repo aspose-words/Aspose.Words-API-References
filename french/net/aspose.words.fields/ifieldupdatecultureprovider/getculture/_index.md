@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
 second_title: Aspose.Words pour .NET
-description: IFieldUpdateCultureProvider GetCulture méthode. Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ en C#.
+description: Découvrez la méthode GetCulture de IFieldUpdateCultureProvider, qui renvoie efficacement un objet CultureInfo pour des mises à jour de champ transparentes.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ.
+Renvoie unCultureInfo objet à utiliser lors de la mise à jour du champ.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -27,7 +27,7 @@ L'objet de culture qui doit être utilisé pour la mise à jour du champ.
 
 ## Exemples
 
-Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
+Montre comment spécifier une culture qui analyse le formatage de date/heure pour chaque champ.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -39,7 +39,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
+    // Définissez un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

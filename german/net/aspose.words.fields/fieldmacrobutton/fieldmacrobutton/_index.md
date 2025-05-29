@@ -3,7 +3,7 @@ title: FieldMacroButton
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
 second_title: Aspose.Words für .NET
-description: FieldMacroButton constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldMacroButton-Konstruktor – Ihre Lösung für die einfache und effiziente Erstellung anpassbarer Makro-Schaltflächen. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/

@@ -3,14 +3,14 @@ title: CellFormat.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words per .NET
-description: CellFormat TopPadding proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere sopra il contenuto di cell in C#.
+description: Scopri la proprietà CellFormat TopPadding per personalizzare la spaziatura sopra il contenuto delle celle in punti, migliorando così il layout e la leggibilità del tuo foglio di calcolo.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
 
-Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto di cell.
+Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto della cella.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inserisci una seconda cella, quindi configura le opzioni di riempimento del testo della cella.
-// Il builder applicherà queste impostazioni alla cella corrente e successivamente creerà eventuali nuove celle.
+// Inserire una seconda cella, quindi configurare le opzioni di riempimento del testo della cella.
+// Il builder applicherà queste impostazioni alla cella corrente e a tutte le nuove celle create in seguito.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e conserva ancora i valori predefiniti.
+// La prima cella non è stata interessata dalla riconfigurazione del padding e conserva ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La prima cella continuerà a crescere nel documento di output per corrispondere alla dimensione della cella vicina.
+// La prima cella continuerà a crescere nel documento di output per adattarsi alle dimensioni della cella adiacente.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

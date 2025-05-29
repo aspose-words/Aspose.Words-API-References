@@ -3,14 +3,14 @@ title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
 second_title: Aspose.Words pour .NET
-description: Shape HasChart propriété. Retoursvrai si ceShape a unChart  en C#.
+description: Découvrez si votre forme comporte un graphique avec la propriété HasChart. Améliorez la visualisation de vos données sans effort !
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Retours`vrai` si ce[`Shape`](../) a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Retours`vrai` si cela[`Shape`](../) a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -18,7 +18,7 @@ public bool HasChart { get; }
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

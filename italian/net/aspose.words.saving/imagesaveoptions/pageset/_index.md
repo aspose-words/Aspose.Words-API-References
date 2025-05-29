@@ -3,14 +3,14 @@ title: ImageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words per .NET
-description: ImageSaveOptions PageSet proprietà. Ottiene o imposta le pagine da visualizzare. Limpostazione predefinita è tutte le pagine nel documento in C#.
+description: Scopri la proprietà PageSet di ImageSaveOptions per personalizzare il rendering dei tuoi documenti. Controlla quali pagine salvare per un output ottimizzato. Scoprilo subito!
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/imagesaveoptions/pageset/
 ---
 ## ImageSaveOptions.PageSet property
 
-Ottiene o imposta le pagine da visualizzare. L'impostazione predefinita è tutte le pagine nel documento.
+Ottiene o imposta le pagine da visualizzare. L'impostazione predefinita è tutte le pagine del documento.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -18,7 +18,7 @@ public PageSet PageSet { get; set; }
 
 ## Osservazioni
 
-Questa proprietà ha effetto solo durante il rendering delle pagine del documento. Questa proprietà viene ignorata durante il rendering delle forme nelle immagini.
+Questa proprietà ha effetto solo durante il rendering delle pagine del documento. Viene ignorata durante il rendering delle forme nelle immagini.
 
 ## Esempi
 
@@ -35,7 +35,7 @@ imageOptions.PageSet = pageSet;
 doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-Mostra come specificare la pagina di un documento da sottoporre a rendering come immagine.
+Mostra come specificare quale pagina di un documento visualizzare come immagine.
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,10 @@ builder.Writeln("This is page 3.");
 
 Assert.AreEqual(3, doc.PageCount);
 
-// Quando salviamo il documento come immagine, Aspose.Words esegue il rendering solo della prima pagina per impostazione predefinita.
+// Quando salviamo il documento come immagine, per impostazione predefinita Aspose.Words esegue il rendering solo della prima pagina.
 // Possiamo passare un oggetto SaveOptions per specificare una pagina diversa da visualizzare.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
-
-// Visualizza ogni pagina del documento in un file immagine separato.
+// Esegue il rendering di ogni pagina del documento in un file immagine separato.
 for (int i = 1; i <= doc.PageCount; i++)
 {
     saveOptions.PageSet = new PageSet(1);
@@ -63,7 +62,7 @@ for (int i = 1; i <= doc.PageCount; i++)
 }
 ```
 
-Mostra come eseguire il rendering di ogni pagina di un documento in un'immagine TIFF separata.
+Mostra come convertire ogni pagina di un documento in un'immagine TIFF separata.
 
 ```csharp
 Document doc = new Document();
@@ -76,8 +75,8 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo trasforma il documento in un'immagine.
+// Creiamo un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo trasforma il documento in un'immagine.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
@@ -93,7 +92,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-Mostra come eseguire il rendering di una pagina da un documento a un'immagine JPEG.
+Mostra come convertire una pagina di un documento in un'immagine JPEG.
 
 ```csharp
 Document doc = new Document();
@@ -106,17 +105,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo trasforma il documento in un'immagine.
+// Creiamo un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo trasforma il documento in un'immagine.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // Imposta "PageSet" su "1" per selezionare la seconda pagina tramite
-// l'indice in base zero da cui iniziare il rendering del documento.
+// l'indice a partire da zero da cui iniziare il rendering del documento.
 options.PageSet = new PageSet(1);
 
-// Quando salviamo il documento nel formato JPEG, Aspose.Words esegue il rendering di solo una pagina.
-// Questa immagine conterrà una pagina a partire dalla pagina due,
-// che sarà solo la seconda pagina del documento originale.
+// Quando salviamo il documento nel formato JPEG, Aspose.Words esegue il rendering di una sola pagina.
+// Questa immagine conterrà una pagina a partire da pagina due,
+// che sarà semplicemente la seconda pagina del documento originale.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 

@@ -3,7 +3,7 @@ title: TxtSaveOptions
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
 second_title: Aspose.Words для .NET
-description: TxtSaveOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор TxtSaveOptions для бесшовного сохранения файлов. Используйте конструктор по умолчанию для эффективного управления данными и повышения производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/

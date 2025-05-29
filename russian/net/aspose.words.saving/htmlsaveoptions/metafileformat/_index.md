@@ -3,14 +3,14 @@ title: HtmlSaveOptions.MetafileFormat
 linktitle: MetafileFormat
 articleTitle: MetafileFormat
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions MetafileFormat свойство. Указывает в каком формате метафайлы сохраняются при экспорте в HTML MHTML или EPUB. Значение по умолчаниюPng  что означает что метафайлы преобразуются в растровые изображения PNG на С#.
+description: Откройте для себя свойство HtmlSaveOptions MetafileFormat для экспорта в HTML, MHTML или EPUB. Сохраняйте метафайлы как высококачественные изображения PNG по умолчанию!
 type: docs
 weight: 380
 url: /ru/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 ---
 ## HtmlSaveOptions.MetafileFormat property
 
-Указывает, в каком формате метафайлы сохраняются при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:Png , что означает, что метафайлы преобразуются в растровые изображения PNG.
+Указывает, в каком формате сохраняются метафайлы при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:Png , что означает, что метафайлы преобразуются в растровые изображения PNG.
 
 ```csharp
 public HtmlMetafileFormat MetafileFormat { get; set; }
@@ -18,13 +18,13 @@ public HtmlMetafileFormat MetafileFormat { get; set; }
 
 ## Примечания
 
-Метафайлы не отображаются в HTML-браузерах изначально. По умолчанию Aspose.Words преобразует изображения WMF и EMF в файлы PNG при экспорте в HTML. Другие варианты — преобразовать метафайлы в изображения SVG или экспортировать их в исходное состояние без преобразования.
+Метафайлы изначально не отображаются HTML-браузерами. По умолчанию Aspose.Words преобразует изображения WMF и EMF в файлы PNG при экспорте в HTML. Другие варианты — преобразовать метафайлы в изображения SVG или export их как есть без преобразования.
 
-Некоторые преобразования изображений, в частности обрезка изображений, не будут применяться к изображениям метафайлов, если они экспортируются в HTML без преобразования.
+Некоторые преобразования изображений, в частности обрезка изображений, не будут применяться к изображениям метафайла, если они экспортируются в HTML без преобразования.
 
 ## Примеры
 
-Показывает, как конвертировать объекты SVG в другой формат при сохранении HTML-документов.
+Показывает, как преобразовать объекты SVG в другой формат при сохранении HTML-документов.
 
 ```csharp
 string html = 
@@ -34,20 +34,20 @@ string html =
         </svg>
     </html>";
 
-// Используйте «ConvertSvgToEmf», чтобы вернуть прежнее поведение
-// где все изображения SVG, загруженные из документа HTML, были преобразованы в EMF.
-// Теперь изображения SVG загружаются без конвертации
+// Используйте 'ConvertSvgToEmf', чтобы вернуть старое поведение
+// где все изображения SVG, загруженные из HTML-документа, были преобразованы в EMF.
+// Теперь SVG-изображения загружаются без конвертации
 // если версия MS Word, указанная в параметрах загрузки, изначально поддерживает изображения SVG.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// Этот документ содержит файл <svg> элемент в виде текста.
+// Этот документ содержит элемент <svg> в виде текста.
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions
 // чтобы определить, как операция сохранения обрабатывает этот объект.
-// Установка свойства «MetafileFormat» в «HtmlMetafileFormat.Png», чтобы преобразовать его в изображение PNG.
-// Установка для свойства «MetafileFormat» значения «HtmlMetafileFormat.Svg» сохраняет его как объект SVG.
-// Установка свойства «MetafileFormat» в «HtmlMetafileFormat.EmfOrWmf», чтобы преобразовать его в метафайл.
+// Устанавливаем свойство "MetafileFormat" на "HtmlMetafileFormat.Png", чтобы преобразовать его в изображение PNG.
+// Установка свойства "MetafileFormat" в "HtmlMetafileFormat.Svg" сохранит его как объект SVG.
+// Устанавливаем свойство "MetafileFormat" в значение "HtmlMetafileFormat.EmfOrWmf", чтобы преобразовать его в метафайл.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);
@@ -66,7 +66,7 @@ switch (htmlMetafileFormat)
     case HtmlMetafileFormat.Svg:
         Assert.True(outDocContents.Contains(
             "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height= \"40\">"));
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" версия=\"1.1\" ширина=\"499\" высота=\"40\">"));
         break;
     case HtmlMetafileFormat.EmfOrWmf:
         Assert.True(outDocContents.Contains(

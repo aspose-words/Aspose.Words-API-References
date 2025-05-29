@@ -3,14 +3,14 @@ title: Cell
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words لـ .NET
-description: Cell البناء. تهيئة مثيل جديد لـCell فئة في C#.
+description: اكتشف مُنشئ الخلية لإنشاء مثيلات جديدة لفئة الخلية بسهولة. بسّط عملية البرمجة لديك وحسّن كفاءة التطوير لديك!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-تهيئة مثيل جديد لـ[`Cell`](../) فئة.
+يقوم بتهيئة مثيل جديد لـ[`Cell`](../) الصف.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -22,24 +22,24 @@ public Cell(DocumentBase doc)
 
 ## ملاحظات
 
-متى[`Cell`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
+متى[`Cell`](../) يتم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس جزءًا من المستند بعد[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Cell`](../) لاستخدام الوثيقة[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) في الصف الذي تريد إدراج الخلية فيه.
+لإضافة[`Cell`](../) لاستخدام المستند[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) في الصف الذي تريد إدراج الخلية فيه.
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول متداخل دون استخدام أداة إنشاء المستندات.
+يوضح كيفية إنشاء جدول متداخل دون استخدام منشئ المستندات.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // أنشئ الجدول الخارجي بثلاثة صفوف وأربعة أعمدة، ثم أضفه إلى المستند.
+    // قم بإنشاء الجدول الخارجي بثلاثة صفوف وأربعة أعمدة، ثم قم بإضافته إلى المستند.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // أنشئ جدولًا آخر يتكون من صفين وعمودين، ثم أدخله في الخلية الأولى للجدول الأول.
+    // قم بإنشاء جدول آخر يحتوي على صفين وعمودين ثم أدخله في الخلية الأولى للجدول الأول.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -47,7 +47,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// إنشاء جدول جديد في المستند بالأبعاد والنص المحدد في كل خلية.
+/// إنشاء جدول جديد في المستند بالأبعاد والنص المحددين في كل خلية.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -68,10 +68,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // يمكنك استخدام خصائص "العنوان" و"الوصف" لإضافة عنوان ووصف على التوالي إلى الجدول الخاص بك.
+    //يمكنك استخدام خصائص "العنوان" و"الوصف" لإضافة عنوان ووصف على التوالي إلى الجدول الخاص بك.
     // يجب أن يحتوي الجدول على صف واحد على الأقل قبل أن نتمكن من استخدام هذه الخصائص.
-    // هذه الخصائص مفيدة لمستندات .docx المتوافقة مع ISO / IEC 29500 (راجع فئة OoxmlCompliance).
-    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO/IEC 29500، فسيتجاهل Microsoft Word هذه الخصائص.
+    // هذه الخصائص مفيدة للمستندات .docx المتوافقة مع ISO / IEC 29500 (انظر فئة OoxmlCompliance).
+    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO/IEC 29500، فإن Microsoft Word يتجاهل هذه الخصائص.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

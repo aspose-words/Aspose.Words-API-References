@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words per .NET
-description: OdsoFieldMapData Column proprietà. Specifica lindice in base zero della colonna allinterno di unorigine dati esterna che deve essere mappata al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0 in C#.
+description: Scopri come utilizzare la proprietà Colonna OdsoFieldMapData per mappare senza problemi origini dati esterne ai campi MERGEFIELD. Ottimizza l'integrazione dei tuoi dati oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odsofieldmapdata/column/
 ---
 ## OdsoFieldMapData.Column property
 
-Specifica l'indice in base zero della colonna all'interno di un'origine dati esterna che deve essere mappata al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0.
+Specifica l'indice basato su zero della colonna all'interno di un'origine dati esterna che deve essere mappato al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0.
 
 ```csharp
 public int Column { get; set; }
@@ -18,13 +18,13 @@ public int Column { get; set; }
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
+Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati ai campi di unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
+// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
+// ai campi predefiniti MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -45,12 +45,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
+// Utilizzare gli elementi del metodo "RemoveAt" singolarmente in base all'indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
+// Utilizzare il metodo "Clear" per cancellare l'intera raccolta in una sola volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

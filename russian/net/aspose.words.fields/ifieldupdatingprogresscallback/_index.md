@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback Interface
 linktitle: IFieldUpdatingProgressCallback
 articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback интерфейс. Внедрите этот интерфейс если хотите отслеживать ход обновления полей на С#.
+description: Отслеживайте ход обновления полей плавно с помощью интерфейса Aspose.Words.Fields.IFieldUpdatingProgressCallback. Улучшите управление документами сегодня!
 type: docs
-weight: 2730
+weight: 3140
 url: /ru/net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
 
-Внедрите этот интерфейс, если хотите отслеживать ход обновления полей.
+Реализуйте этот интерфейс, если вы хотите отслеживать ход обновления полей.
 
 ```csharp
 public interface IFieldUpdatingProgressCallback
@@ -20,7 +20,7 @@ public interface IFieldUpdatingProgressCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Определенный пользователем метод, который вызывается при изменении хода обновления. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Изменен определенный пользователем метод, который вызывается при обновлении прогресса. |
 
 ## Примеры
 
@@ -48,7 +48,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+/// Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -58,7 +58,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
+    /// Пользовательский метод, который вызывается непосредственно перед обновлением поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -70,7 +70,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
+    /// Пользовательский метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

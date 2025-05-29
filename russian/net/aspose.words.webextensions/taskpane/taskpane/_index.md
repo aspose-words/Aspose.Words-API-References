@@ -3,7 +3,7 @@ title: TaskPane
 linktitle: TaskPane
 articleTitle: TaskPane
 second_title: Aspose.Words для .NET
-description: TaskPane строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор TaskPane, ваше решение для создания динамических, настраиваемых панелей с легкостью. Улучшите свой пользовательский опыт сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/taskpane/taskpane/

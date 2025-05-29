@@ -2,15 +2,15 @@
 title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase VerticalAlignment 财产. 指定形状如何垂直定位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase VerticalAlignment 属性以优化形状的垂直定位，从而增强设计精度和视觉吸引力。
 type: docs
-weight: 560
+weight: 600
 url: /zh/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
 
-指定形状如何垂直定位。
+指定形状的垂直定位方式。
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; set; }
@@ -20,17 +20,17 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 默认值为None。
 
-仅对顶级浮动形状有效。
+仅对顶层浮动形状有效。
 
 ## 例子
 
-演示如何将浮动图像插入到页面中央。
+展示如何将浮动图像插入到页面的中心。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个浮动图像，该图像将出现在重叠文本后面并将其与页面中心对齐。
+// 插入一个浮动图像，该图像将出现在重叠文本后面，并将其与页面的中心对齐。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -3,7 +3,7 @@ title: OleFormat.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words för .NET
-description: OleFormat IsLocked fast egendom. Anger om länken till OLEobjektet är låst från uppdateringar i C#.
+description: Upptäck egenskapen OleFormat IsLocked, kontrollera OLE-objektlänkar och förbättra dataintegriteten genom att förhindra oönskade uppdateringar. Läs mer nu!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/oleformat/islocked/
@@ -33,7 +33,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -41,8 +41,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

@@ -3,14 +3,14 @@ title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
 second_title: Aspose.Words für .NET
-description: MailMerge PreserveUnusedTags eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob die nicht verwendeten MustacheTags beibehalten werden sollen in C#.
+description: Entdecken Sie die MailMerge-Eigenschaft „PreserveUnusedTags“, um nicht verwendete Mustache-Tags effektiv zu verwalten und so Ihren Dokumentautomatisierungsprozess zu verbessern.
 type: docs
 weight: 80
 url: /de/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob die nicht verwendeten „Mustache“-Tags beibehalten werden sollen.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die nicht verwendeten „Mustache“-Tags beibehalten werden sollen.
 
 ```csharp
 public bool PreserveUnusedTags { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert ist`FALSCH` .
 
 ## Beispiele
 
-Zeigt, wie das Erscheinungsbild alternativer Seriendruck-Tags erhalten bleibt, die während eines Seriendrucks nicht verwendet werden.
+Zeigt, wie das Erscheinungsbild alternativer Serienbrief-Tags beibehalten wird, die während eines Serienbriefs nicht verwendet werden.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,19 +30,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // Standardmäßig platziert ein Serienbrief Daten aus jeder Zeile einer Tabelle in MERGEFIELDs, die Spalten in dieser Tabelle benennen.
-    // Unser Dokument hat keine solchen Felder, aber Klartext-Tags, die in geschweifte Klammern eingeschlossen sind.
-    // Wenn wir das Flag „PreserveUnusedTags“ auf „true“ setzen, könnten wir diese Tags als MERGEFIELDs behandeln
-    // damit unser Serienbrief an diesen Tags Daten aus der Datenquelle einfügen kann.
-    // Wenn wir das Flag „PreserveUnusedTags“ auf „false“ setzen,
-    // Der Seriendruck wandelt diese Tags in MERGEFIELDs um und lässt sie leer.
+        // Standardmäßig platziert ein Serienbrief Daten aus jeder Zeile einer Tabelle in MERGEFIELDs, die Spalten in dieser Tabelle benennen.
+    // Unser Dokument hat keine solchen Felder, aber es hat Klartext-Tags, die in geschweifte Klammern eingeschlossen sind.
+    // Wenn wir das Flag "PreserveUnusedTags" auf "true" setzen, könnten wir diese Tags als MERGEFIELDs behandeln
+    // um unserem Serienbrief zu ermöglichen, an diesen Tags Daten aus der Datenquelle einzufügen.
+    // Wenn wir das Flag "PreserveUnusedTags" auf "false" setzen,
+    // Der Serienbrief konvertiert diese Tags in MERGEFIELDs und lässt sie leer.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Unser Dokument hat ein Tag für eine Spalte namens „Column2“, die in der Tabelle nicht vorhanden ist.
-    // Wenn wir das Flag „PreserveUnusedTags“ auf „false“ setzen, then the mail merge will convert this tag into a MERGEFIELD.
+    // Unser Dokument hat ein Tag für eine Spalte mit dem Namen „Column2“, die in der Tabelle nicht vorhanden ist.
+    // Wenn wir das Flag „PreserveUnusedTags“ auf „false“ setzen, dann konvertiert der Serienbrief dieses Tag in ein MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -52,7 +52,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument und fügen Sie zwei Klartext-Tags hinzu, die während eines Seriendrucks als MERGEFIELDs fungieren können.
+/// Erstellen Sie ein Dokument und fügen Sie zwei Klartext-Tags hinzu, die während eines Serienbriefs als MERGEFIELDs fungieren können.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {

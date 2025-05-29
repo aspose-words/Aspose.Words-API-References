@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBookmarkStart
 linktitle: VisitBookmarkStart
 articleTitle: VisitBookmarkStart
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitBookmarkStart méthode. Appelé lorsquun début de signet est rencontré dans le document en C#.
+description: Découvrez la méthode DocumentVisitor VisitBookmarkStart, déclenchée au début des signets de votre document. Améliorez votre efficacité de codage dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
@@ -45,7 +45,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -73,7 +73,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,7 +3,7 @@ title: ShapeBase.FlipOrientation
 linktitle: FlipOrientation
 articleTitle: FlipOrientation
 second_title: Aspose.Words pour .NET
-description: ShapeBase FlipOrientation propriété. Change lorientation dune forme en C#.
+description: Découvrez la propriété ShapeBase FlipOrientation pour changer sans effort l'orientation de votre forme, améliorant ainsi vos conceptions avec facilité et créativité.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.drawing/shapebase/fliporientation/
@@ -28,7 +28,7 @@ Montre comment retourner une forme sur un axe.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une forme d'image et laisse son orientation dans son état par défaut.
+// Insérez une forme d'image et laissez son orientation dans son état par défaut.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -39,24 +39,24 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Définissez la propriété "FlipOrientation" sur "FlipOrientation.Horizontal" pour retourner la deuxième forme sur l'axe y,
-// en faisant une image miroir horizontale de la première forme.
+// Définissez la propriété « FlipOrientation » sur « FlipOrientation.Horizontal » pour retourner la deuxième forme sur l'axe des y,
+// en le transformant en une image miroir horizontale de la première forme.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Définissez la propriété "FlipOrientation" sur "FlipOrientation.Horizontal" pour retourner la troisième forme sur l'axe des x,
-// en faisant une image miroir verticale de la première forme.
+// Définissez la propriété « FlipOrientation » sur « FlipOrientation.Horizontal » pour retourner la troisième forme sur l'axe des x,
+// en le transformant en une image miroir verticale de la première forme.
 shape.FlipOrientation = FlipOrientation.Vertical;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Définissez la propriété "FlipOrientation" sur "FlipOrientation.Horizontal" pour retourner la quatrième forme sur les axes x et y,
-// en faisant une image miroir horizontale et verticale de la première forme.
+// Définissez la propriété « FlipOrientation » sur « FlipOrientation.Horizontal » pour retourner la quatrième forme sur les axes x et y,
+// en le transformant en une image miroir horizontale et verticale de la première forme.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

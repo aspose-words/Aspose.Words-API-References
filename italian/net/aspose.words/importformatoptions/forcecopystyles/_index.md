@@ -3,14 +3,14 @@ title: ImportFormatOptions.ForceCopyStyles
 linktitle: ForceCopyStyles
 articleTitle: ForceCopyStyles
 second_title: Aspose.Words per .NET
-description: ImportFormatOptions ForceCopyStyles proprietà. Ottiene o imposta un valore booleano che indica di copiare stili in conflitto inKeepSourceFormatting mode. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà ForceCopyStyles di ImportFormatOptions e controlla facilmente la copia degli stili in modalità KeepSourceFormatting. Il valore predefinito è "false" per risultati ottimali.
 type: docs
 weight: 30
 url: /it/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Ottiene o imposta un valore booleano che indica di copiare stili in conflitto inKeepSourceFormatting mode. Il valore predefinito è`falso` .
+Ottiene o imposta un valore booleano che indica di copiare gli stili in conflitto inKeepSourceFormatting mode. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -22,11 +22,11 @@ Per impostazione predefinita, se uno stile corrispondente esiste già in un docu
 
 Quando questa opzione è impostata su`VERO`, lo stile di origine verrà copiato forzatamente nel documento di destinazione con un nome univoco e applicato al nodo importato.
 
-Tieni presente che in questo caso non è garantito che la formattazione del nodo importato nel documento di destinazione venga preservata.
+Nota che in questo caso non è garantito che la formattazione del nodo importato nel documento di destinazione verrà preservata.
 
 ## Esempi
 
-Mostra come copiare forzatamente gli stili di origine con nomi univoci.
+Mostra come copiare forzatamente gli stili sorgente con nomi univoci.
 
 ```csharp
 // Entrambi i documenti contengono MyStyle1 e MyStyle2, MyStyle3 esiste solo in un documento sorgente.

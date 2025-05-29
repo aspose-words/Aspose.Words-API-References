@@ -3,7 +3,7 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions ApplyFont proprietà. Formattazione del testo applicata al nuovo contenuto in C#.
+description: Scopri la proprietà ApplyFont in FindReplaceOptions per una formattazione del testo impeccabile. Migliora i tuoi contenuti con stili personalizzati senza sforzo!
 type: docs
 weight: 20
 url: /it/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## Esempi
 
-Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
+Mostra come applicare un font diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -33,7 +33,7 @@ public void ConvertNumbersToHexadecimal()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
+    // Imposta la proprietà "HighlightColor" sul colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sostituisce le corrispondenze numeriche di ricerca e sostituzione con i loro equivalenti esadecimali.
-/// Mantiene un registro di ogni sostituzione.
+/// Sostituisce le corrispondenze numeriche tramite ricerca e sostituzione con i loro equivalenti esadecimali.
+/// Tiene un registro di ogni sostituzione.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,14 +3,14 @@ title: CellFormat.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words für .NET
-description: CellFormat RightPadding eigendom. Gibt den Abstand in Punkten zurück der rechts vom Inhalt der Zelle hinzugefügt werden soll oder legt ihn fest in C#.
+description: Entdecken Sie die Eigenschaft „CellFormat RightPadding“, um den Abstand in Ihren Zellen einfach anzupassen. Verbessern Sie das Layout Ihrer Tabelle mit präziser Punktkontrolle!
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
 
-Gibt den Abstand (in Punkten) zurück, der rechts vom Inhalt der Zelle hinzugefügt werden soll, oder legt ihn fest.
+Gibt den Abstand (in Punkten) zurück, der rechts vom Zelleninhalt hinzugefügt werden soll, oder legt ihn fest.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -18,7 +18,7 @@ public double RightPadding { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Zellen mit einem Document Builder formatiert werden.
+Zeigt, wie Zellen mit einem Dokumentgenerator formatiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Fügen Sie eine zweite Zelle ein und konfigurieren Sie dann die Optionen zum Auffüllen des Zellentexts.
-// Der Builder wendet diese Einstellungen auf die aktuelle Zelle an und erstellt anschließend alle neuen Zellen.
+// Fügen Sie eine zweite Zelle ein und konfigurieren Sie dann die Textauffüllungsoptionen für die Zelle.
+// Der Builder wendet diese Einstellungen auf seine aktuelle Zelle und alle danach erstellten neuen Zellen an.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Die erste Zelle war von der Neukonfiguration der Auffüllung nicht betroffen und enthält weiterhin die Standardwerte.
+// Die erste Zelle war von der Neukonfiguration der Auffüllung nicht betroffen und enthält noch immer die Standardwerte.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Die erste Zelle wird im Ausgabedokument weiterhin vergrößert, um der Größe der benachbarten Zelle zu entsprechen.
+// Die erste Zelle wird im Ausgabedokument weiterhin wachsen, um der Größe der benachbarten Zelle zu entsprechen.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

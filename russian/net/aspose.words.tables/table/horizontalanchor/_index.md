@@ -3,14 +3,14 @@ title: Table.HorizontalAnchor
 linktitle: HorizontalAnchor
 articleTitle: HorizontalAnchor
 second_title: Aspose.Words для .NET
-description: Table HorizontalAnchor свойство. Получает базовый объект на основе которого должно рассчитываться горизонтальное положение плавающей таблицы. Значение по умолчаниюColumn  на С#.
+description: Откройте для себя свойство Table HorizontalAnchor для оптимизации позиционирования плавающей таблицы. Легко настраивайте горизонтальное выравнивание для улучшенного управления макетом.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-Получает базовый объект, на основе которого должно рассчитываться горизонтальное положение плавающей таблицы. Значение по умолчанию:Column .
+Получает базовый объект, на основе которого следует рассчитать горизонтальное положение плавающей таблицы. Значение по умолчанию:Column .
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // В RelativeHorizontalPosition для установки HorizontalAnchor доступны только поля, страницы и столбцы.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика HorizontalAnchor в RelativeHorizontalPosition доступны только Margin, Page, Column.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Только поле, страница и абзац доступны в RelativeVerticalPosition для средства установки вертикальной привязки.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика VerticalAnchor в RelativeVerticalPosition доступны только Margin, Page, Paragraph.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

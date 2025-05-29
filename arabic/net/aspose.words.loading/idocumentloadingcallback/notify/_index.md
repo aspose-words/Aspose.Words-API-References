@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words لـ .NET
-description: IDocumentLoadingCallback Notify طريقة. يتم استدعاؤه للإخطار بتقدم تحميل المستند في C#.
+description: تتبع عملية تحميل المستندات بسهولة باستخدام طريقة IDocumentLoadingCallback Notify. حسّن تجربة المستخدم بتحديثات آنية!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-يتم استدعاؤه للإخطار بتقدم تحميل المستند.
+يتم استدعاء هذا لإعلامك بتقدم تحميل المستند.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -22,13 +22,13 @@ public void Notify(DocumentLoadingArgs args)
 
 ## ملاحظات
 
-الاستخدامات الأساسية لهذه الواجهة هي السماح لرمز التطبيق بالحصول على حالة التقدم وإلغاء عملية التحميل.
+الاستخدامات الأساسية لهذه الواجهة هي السماح لكود التطبيق بالحصول على حالة التقدم وإلغاء عملية التحميل.
 
-يجب طرح استثناء من رد اتصال التقدم للإجهاض ويجب اكتشافه في كود المستهلك.
+يجب أن يتم طرح استثناء من استدعاء التقدم للإجهاض ويجب التقاطه في كود المستهلك.
 
 ## أمثلة
 
-يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
+يوضح كيفية إخطار المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
 ```csharp
 public void ProgressCallback()
@@ -50,12 +50,12 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// قم بإلغاء تحميل مستند بعد ثواني "MaxDuration".
+/// إلغاء تحميل المستند بعد مرور "MaxDuration" ثانية.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// نسبة مئوية.
+    /// مركز.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -63,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء تحميل المستند.
+    /// طريقة الاتصال الرجعي التي يتم استدعاؤها أثناء تحميل المستند.
     /// </summary>
     /// <param name="args">جاري تحميل الوسائط.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -76,7 +76,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// التاريخ والوقت الذي يبدأ فيه تحميل المستند.
+    /// التاريخ والوقت الذي بدأ فيه تحميل المستند.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

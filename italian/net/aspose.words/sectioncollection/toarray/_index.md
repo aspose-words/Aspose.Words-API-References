@@ -3,7 +3,7 @@ title: SectionCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words per .NET
-description: SectionCollection ToArray metodo. Copia tutte le sezioni dalla raccolta in un nuovo array di sezioni in C#.
+description: Scopri il metodo SectionCollection ToArray, copia senza sforzo tutte le sezioni in un nuovo array, migliorando la gestione dei dati e l'efficienza della codifica.
 type: docs
 weight: 20
 url: /it/net/aspose.words/sectioncollection/toarray/

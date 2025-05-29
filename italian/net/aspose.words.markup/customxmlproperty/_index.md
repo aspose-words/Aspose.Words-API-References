@@ -3,16 +3,16 @@ title: CustomXmlProperty Class
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Markup.CustomXmlProperty classe. Rappresenta un singolo attributo XML personalizzato o una proprietà smart tag in C#.
+description: Scopri la classe Aspose.Words.Markup.CustomXmlProperty, progettata per semplificare la gestione degli attributi XML personalizzati e delle proprietà degli smart tag per un controllo avanzato dei documenti.
 type: docs
-weight: 3940
+weight: 4630
 url: /it/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
-Rappresenta un singolo attributo XML personalizzato o una proprietà smart tag.
+Rappresenta un singolo attributo XML personalizzato o una proprietà di tag intelligente.
 
-Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
+Per saperne di più, visita il[Tag di documenti strutturati o controllo dei contenuti](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomXmlProperty
@@ -28,36 +28,36 @@ public class CustomXmlProperty
 
 | Nome | Descrizione |
 | --- | --- |
-| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Specifica il nome dell'attributo XML personalizzato o della proprietà smart tag. |
-| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Ottiene o imposta l'URI dello spazio dei nomi dell'attributo XML personalizzato o della proprietà smart tag. |
-| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Ottiene o imposta il valore dell'attributo XML personalizzato o della proprietà smart tag. |
+| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Specifica il nome dell'attributo XML personalizzato o della proprietà dello smart tag. |
+| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Ottiene o imposta l'URI dello spazio dei nomi dell'attributo XML personalizzato o della proprietà dello smart tag. |
+| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Ottiene o imposta il valore dell'attributo XML personalizzato o della proprietà dello smart tag. |
 
 ## Osservazioni
 
-Utilizzato come oggetto di a[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) collezione.
+Utilizzato come elemento di un[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) collezione.
 
 ## Esempi
 
-Mostra come creare smart tag.
+Mostra come creare tag intelligenti.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
-    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
+    // Un tag intelligente appare in un documento con Microsoft Word che riconosce una parte del suo testo come una qualche forma di dati,
+    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che presenta una sottolineatura tratteggiata viola.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Gli smart tag sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
-    // Aggiunge manualmente i contenuti a questo smart tag.
+    // I tag intelligenti sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
+    // Aggiungere manualmente i contenuti a questo smart tag.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word potrebbe riconoscere i contenuti di cui sopra come una data.
-    // Gli smart tag utilizzano la proprietà "Elemento" per riflettere il tipo di dati che contengono.
+    // Microsoft Word potrebbe riconoscere il contenuto sopra riportato come una data.
+    // I tag intelligenti utilizzano la proprietà "Element" per riflettere il tipo di dati che contengono.
     smartTag.Element = "date";
 
-    // Alcuni tipi di smart tag elaborano ulteriormente i propri contenuti in proprietà XML personalizzate.
+    // Alcuni tipi di smart tag elaborano ulteriormente il loro contenuto trasformandolo in proprietà XML personalizzate.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -68,7 +68,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea un altro smart tag per un titolo azionario.
+    // Crea un altro tag intelligente per un ticker azionario.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -81,10 +81,10 @@ public void Create()
     // Stampa tutti gli smart tag nel nostro documento utilizzando un visitatore del documento.
     doc.Accept(new SmartTagPrinter());
 
-    // Le versioni precedenti di Microsoft Word supportano gli smart tag.
+    // Le versioni precedenti di Microsoft Word supportano i tag intelligenti.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilizza il metodo "RemoveSmartTags" per rimuovere tutti gli smart tag da un documento.
+    // Utilizzare il metodo "RemoveSmartTags" per rimuovere tutti i tag intelligenti da un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -93,7 +93,7 @@ public void Create()
 }
 
 /// <summary>
-/// Stampa gli smart tag visitati e i relativi contenuti.
+/// Stampa gli smart tag visitati e il loro contenuto.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -107,7 +107,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato al termine della visita di un nodo SmartTag.
+    /// Chiamato quando termina la visita a un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

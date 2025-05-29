@@ -3,14 +3,14 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words för .NET
-description: Table Rows fast egendom. Ger maskinskriven åtkomst till raderna i tabellen i C#.
+description: Få enkel åtkomst till tabellrader med vår typed-egenskap, vilket säkerställer sömlös datahantering och förbättrad organisation för dina projekt.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Ger maskinskriven åtkomst till raderna i tabellen.
+Ger åtkomst till tabellens rader med maskinskriven kod.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -18,29 +18,29 @@ public RowCollection Rows { get; }
 
 ## Exempel
 
-Visar hur man kombinerar raderna från två tabeller till en.
+Visar hur man kombinerar rader från två tabeller till en.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Nedan finns två sätt att hämta en tabell från ett dokument.
-// 1 - Från samlingen "Tables" för en Body-nod:
+// Nedan följer två sätt att hämta en tabell från ett dokument.
+// 1 - Från samlingen "Tabeller" i en Body-nod:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Med "GetChild"-metoden:
+// 2 - Använda metoden "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Lägg till alla rader från den aktuella tabellen till nästa.
+// Lägger till alla rader från den aktuella tabellen till nästa.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Ta bort den tomma bordsbehållaren.
+// Ta bort den tomma tabellbehållaren.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
+Visar hur man itererar igenom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Vi kan använda "ToArray"-metoden på en radsamling för att klona den till en array.
+    // Vi kan använda metoden "ToArray" på en radsamling för att klona den till en array.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Vi kan använda "ToArray"-metoden på en cellsamling för att klona den till en array.
+        // Vi kan använda metoden "ToArray" på en cellsamling för att klona den till en array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

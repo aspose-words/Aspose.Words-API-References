@@ -2,8 +2,8 @@
 title: Forms2OleControlCollection
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
-second_title: Aspose.Words for .NET
-description: Forms2OleControlCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarda kusursuz form yönetimi için başvuracağınız çözüm olan Forms2OleControlCollection oluşturucusunu keşfedin. Bugün geliştirmenizi basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/forms2olecontrolcollection/

@@ -3,7 +3,7 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: DocumentProperty Name proprietà. Restituisce il nome della proprietà in C#.
+description: Scopri la funzionalità DocumentProperty Name che recupera senza sforzo i nomi delle proprietà, migliorando la gestione dei documenti e l'efficienza del flusso di lavoro.
 type: docs
 weight: 30
 url: /it/net/aspose.words.properties/documentproperty/name/
@@ -18,11 +18,11 @@ public string Name { get; }
 
 ## Osservazioni
 
-Non può essere`nullo` e non può essere una stringa vuota.
+Non può essere`null` e non può essere una stringa vuota.
 
 ## Esempi
 
-Mostra come lavorare con le proprietà del documento integrate.
+Mostra come lavorare con le proprietà integrate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");

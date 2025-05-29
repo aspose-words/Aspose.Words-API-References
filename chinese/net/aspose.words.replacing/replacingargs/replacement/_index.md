@@ -2,8 +2,8 @@
 title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
-second_title: 用于 .NET 的 Aspose.Words
-description: ReplacingArgs Replacement 财产. 获取或设置替换字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ReplacingArgs Replacement 属性，轻松管理和自定义替换字符串，从而提高编码效率。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.replacing/replacingargs/replacement/
@@ -18,7 +18,7 @@ public string Replacement { get; set; }
 
 ## 例子
 
-演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
+展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
 
 ```csharp
 public void ReplaceWithCallback()

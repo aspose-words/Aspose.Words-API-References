@@ -2,8 +2,8 @@
 title: FieldListNum
 linktitle: FieldListNum
 articleTitle: FieldListNum
-second_title: Aspose.Words for .NET
-description: FieldListNum inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldListNum oluşturucusunu keşfedin—programlamada etkili liste yönetimi için başvuracağınız çözüm. Varsayılan oluşturucumuzla kodunuzu basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldlistnum/fieldlistnum/

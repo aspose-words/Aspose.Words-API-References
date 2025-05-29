@@ -3,14 +3,14 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words pour .NET
-description: FieldFormat GeneralFormats propriété. Obtient une collection de formats généraux appliqués à un résultat numérique texte ou tout autre champ. Correspond aux commutateurs  en C#.
+description: Découvrez la propriété FieldFormat GeneralFormats, offrant une collection polyvalente de formats de texte numérique pour améliorer la présentation de vos données et vos résultats.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Obtient une collection de formats généraux appliqués à un résultat numérique, texte ou tout autre champ. Correspond aux commutateurs \*.
+Obtient une collection de formats généraux qui sont appliqués à un résultat numérique, texte ou à tout autre champ. Correspond aux commutateurs \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -24,7 +24,7 @@ Montre comment formater les résultats des champs.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -32,7 +32,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
+// Nous pouvons supprimer nos formats pour ramener le résultat du champ à sa forme d'origine.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

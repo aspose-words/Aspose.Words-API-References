@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertParagraph metodo. Inserisce uninterruzione di paragrafo nel documento in C#.
+description: Migliora i tuoi documenti senza sforzo con il metodo InsertParagraph di DocumentBuilder, che consente interruzioni di paragrafo senza interruzioni per una migliore leggibilità.
 type: docs
-weight: 420
+weight: 450
 url: /it/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -22,9 +22,9 @@ Il nodo del paragrafo appena inserito. È lo stesso nodo di[`CurrentParagraph`](
 
 ## Osservazioni
 
-Formattazione del paragrafo corrente specificata da[`ParagraphFormat`](../paragraphformat/) la proprietà viene utilizzata.
+Formattazione del paragrafo corrente specificata da[`ParagraphFormat`](../paragraphformat/) viene utilizzata la proprietà.
 
-Spezza il paragrafo corrente in due. Dopo aver inserito il paragrafo, il cursore viene posizionato all'inizio del nuovo paragrafo.
+Divide il paragrafo corrente in due. Dopo aver inserito il paragrafo, il cursore si posiziona all'inizio del nuovo paragrafo.
 
 Viene generata un'eccezione se non è possibile inserire un'interruzione di paragrafo nella posizione corrente del cursore.
 

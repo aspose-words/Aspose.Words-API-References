@@ -3,14 +3,14 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words per .NET
-description: Odso ColumnDelimiter proprietà. Specifica il carattere che deve essere interpretato come delimitatore di colonna utilizzato per separare le colonne allinterno di origini dati esterne. Il valore predefinito è 0 il che significa che non è definito alcun delimitatore di colonna in C#.
+description: Scopri la proprietà ColumnDelimiter di Odso per definire facilmente i separatori di colonna nelle origini dati esterne. Migliora l'organizzazione dei dati con delimitatori personalizzabili!
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-Specifica il carattere che deve essere interpretato come delimitatore di colonna utilizzato per separare le colonne all'interno di origini dati esterne. Il valore predefinito è 0, il che significa che non è definito alcun delimitatore di colonna.
+Specifica il carattere che deve essere interpretato come delimitatore di colonna utilizzato per separare le colonne all'interno di origini dati esterne. Il valore predefinito è 0, il che significa che non è stato definito alcun delimitatore di colonna.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -22,7 +22,7 @@ RK Non l'ho mai visto in uso.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

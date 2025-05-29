@@ -3,14 +3,14 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words para .NET
-description: Table Rows propiedad. Proporciona acceso escrito a las filas de la tabla en C#.
+description: Acceda a las filas de la tabla sin esfuerzo con nuestra propiedad escrita, lo que garantiza una gestión de datos perfecta y una mejor organización para sus proyectos.
 type: docs
 weight: 260
 url: /es/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Proporciona acceso escrito a las filas de la tabla.
+Proporciona acceso tipificado a las filas de la tabla.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -23,7 +23,7 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación se muestran dos formas de obtener una tabla de un documento.
+A continuación se muestran dos formas de obtener una tabla de un documento.
 // 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
@@ -34,13 +34,13 @@ Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Elimina el contenedor de la tabla vacía.
+//Eliminar el contenedor de tabla vacío.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

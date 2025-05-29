@@ -3,14 +3,14 @@ title: MailMerge.CleanupParagraphsWithPunctuationMarks
 linktitle: CleanupParagraphsWithPunctuationMarks
 articleTitle: CleanupParagraphsWithPunctuationMarks
 second_title: Aspose.Words لـ .NET
-description: MailMerge CleanupParagraphsWithPunctuationMarks ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانتRemoveEmptyParagraphs تم تحديد الخيار في C#.
+description: حسّن دمج البريد باستخدام خاصية CleanupParagraphsWithPunctuationMarks. تحكّم في إزالة الفقرات الفارغة لمستندات أكثر دقةً واحترافية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانتRemoveEmptyParagraphs تم تحديد الخيار.
+يحصل على قيمة أو يعينها تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذاRemoveEmptyParagraphs تم تحديد الخيار.
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
@@ -23,13 +23,13 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 فيما يلي القائمة الكاملة لعلامات الترقيم القابلة للتنظيف:
 
 * !
-* ,
+* ،
 * .
 * :
-* ;
+* ؛
 * ؟
 * ¡
-* ¿
+* ؟
 
 ## أمثلة
 
@@ -47,14 +47,14 @@ builder.Write(punctuationMark);
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.InsertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.FieldName = "Option_2";
 
-// قم بتكوين خاصية "CleanupOptions" لإزالة أية فقرات فارغة قد يؤدي دمج المراسلات إلى إنشائها.
+// قم بتكوين خاصية "CleanupOptions" لإزالة أي فقرات فارغة قد ينشئها دمج البريد هذا.
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
-// تعيين الخاصية "CleanupParagraphsWithPcientationMarks" على "صحيح" سيؤدي أيضًا إلى حساب الفقرات
-// مع وجود علامات ترقيم فارغة وستحصل على عملية دمج البريد لإزالتها أيضًا.
-// ضبط الخاصية "CleanupParagraphsWithPcientationMarks" على "خطأ"
-// سوف يزيل الفقرات الفارغة، ولكن ليس الفقرات التي تحتوي على علامات الترقيم.
-// هذه قائمة بعلامات الترقيم التي تتعلق بهذه الخاصية: "!"، "،"، "."، ": "، ";"، "؟"، "¡"، "¿".
+// سيؤدي تعيين الخاصية "CleanupParagraphsWithPunctuationMarks" إلى "true" إلى حساب الفقرات أيضًا
+// مع علامات الترقيم فارغة وسوف يتم تنفيذ عملية دمج البريد لإزالتها أيضًا.
+// تعيين الخاصية "CleanupParagraphsWithPunctuationMarks" إلى "false"
+// سوف يقوم بإزالة الفقرات الفارغة، ولكن ليس الفقرات التي تحتوي على علامات الترقيم.
+// هذه قائمة علامات الترقيم التي تخص هذه الخاصية: "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });

@@ -3,7 +3,7 @@ title: FieldIncludeText.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText TextConverter propriété. Obtient ou définit le nom du convertisseur de texte pour le format du fichier inclus en C#.
+description: Découvrez la propriété TextConverter de FieldIncludeText pour gérer facilement les noms des convertisseurs de texte pour vos formats de fichiers inclus. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldincludetext/textconverter/
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

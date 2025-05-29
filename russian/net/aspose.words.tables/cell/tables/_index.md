@@ -3,7 +3,7 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words для .NET
-description: Cell Tables свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами ячейки на С#.
+description: Откройте для себя таблицы ячеек. Легко получайте доступ к коллекции таблиц прямо в вашей ячейке для упрощения организации и улучшенного управления данными.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.tables/cell/tables/
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## Примеры
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -29,7 +29,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -65,20 +65,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

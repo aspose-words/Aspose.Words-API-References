@@ -3,9 +3,9 @@ title: ShapeBase.WidthRelative
 linktitle: WidthRelative
 articleTitle: WidthRelative
 second_title: Aspose.Words para .NET
-description: ShapeBase WidthRelative propiedad. Obtiene o establece el valor que representa el porcentaje del ancho relativo de la forma en C#.
+description: Descubra la propiedad ShapeBase WidthRelative para ajustar fácilmente el ancho de las formas como un porcentaje, mejorando la flexibilidad y precisión de su diseño.
 type: docs
-weight: 580
+weight: 620
 url: /es/net/aspose.words.drawing/shapebase/widthrelative/
 ---
 ## ShapeBase.WidthRelative property
@@ -26,42 +26,42 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Agregar una forma simple con tamaño y posición absolutos.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// Establezca WrapType en WrapType.None ya que las formas en línea se convierten automáticamente a unidades absolutas.
+// Establezca WrapType en WrapType.None ya que las formas en línea se convierten automáticamente en unidades absolutas.
 shape.WrapType = WrapType.None;
 
-// Comprobando y configurando el tamaño horizontal relativo.
+// Comprobación y configuración del tamaño horizontal relativo.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Establecer el enlace de tamaño horizontal en Margen.
+    // Establecer el tamaño de encuadernación horizontal en Margen.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Estableciendo el ancho al 50% del ancho del margen.
+    // Establecer el ancho al 50% del ancho del margen.
     shape.WidthRelative = 50;
 }
 
-// Comprobando y configurando el tamaño vertical relativo.
+// Comprobación y configuración del tamaño vertical relativo.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Establecer el enlace de tamaño vertical en Margen.
+    // Establecer el tamaño de encuadernación vertical en Margen.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Estableciendo la altura al 30% de la altura del margen.
+    // Establecer la altura al 30% de la altura del margen.
     shape.HeightRelative = 30;
 }
 
-// Comprobando y configurando la posición vertical relativa.
+// Comprobación y configuración de la posición vertical relativa.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // configurando la posición vinculante a TopMargin.
+    // estableciendo la vinculación de posición a TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Estableciendo el Top relativo al 30% de la posición TopMargin.
+    // Establecer el Top relativo al 30% de la posición TopMargin.
     shape.TopRelative = 30;
 }
 
-// Comprobando y configurando la posición horizontal relativa.
+// Comprobación y ajuste de la posición horizontal relativa.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // Estableciendo la posición vinculante a RightMargin.
+    // Establecer la vinculación de posición a RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // El valor relativo de la posición puede ser negativo.
+    //El valor relativo de la posición puede ser negativo.
     shape.LeftRelative = -260;
 }
 

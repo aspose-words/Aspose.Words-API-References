@@ -3,14 +3,14 @@ title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
 second_title: Aspose.Words для .NET
-description: FontInfoCollection SaveSubsetFonts свойство. Указывает следует ли сохранять подмножество встроенных шрифтов TrueType вместе с документом. Значение по умолчанию для этого свойстваЛОЖЬ на С#.
+description: Откройте для себя свойство FontInfoCollection SaveSubsetFonts, управляйте встроенными подмножествами шрифтов TrueType в ваших документах для оптимизации размера файла и производительности.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Указывает, следует ли сохранять подмножество встроенных шрифтов TrueType вместе с документом. Значение по умолчанию для этого свойства:`ЛОЖЬ`.
+Указывает, следует ли сохранять подмножество встроенных шрифтов TrueType вместе с документом. Значение этого свойства по умолчанию:`ЛОЖЬ`.
 
 Эта опция работает только тогда, когда[`EmbedTrueTypeFonts`](../embedtruetypefonts/) свойство установлено на`истинный`.
 
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Смотрите также

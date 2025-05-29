@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode SymbolHeight proprietà. Ottiene o imposta laltezza del simbolo. Le unità sono in TWIPS 1/1440 di pollice in C#.
+description: Regola la proprietà SymbolHeight di FieldDisplayBarcode per personalizzare l'altezza del codice a barre in TWIPS. Migliora la visualizzazione del tuo codice a barre con precisione!
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/fielddisplaybarcode/symbolheight/

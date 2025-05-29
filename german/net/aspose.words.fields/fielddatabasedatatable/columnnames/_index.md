@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.ColumnNames
 linktitle: ColumnNames
 articleTitle: ColumnNames
 second_title: Aspose.Words für .NET
-description: FieldDatabaseDataTable ColumnNames eigendom. Ruft Spalten ab die zu dieser Tabelle gehören in C#.
+description: Entdecken Sie die ColumnNames-Eigenschaft von FieldDatabaseDataTable, um einfach auf Tabellenspalten zuzugreifen und diese zu verwalten und so die Datenorganisation und -analyse zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddatabasedatatable/columnnames/

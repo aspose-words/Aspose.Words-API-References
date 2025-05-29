@@ -3,14 +3,14 @@ title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words pour .NET
-description: Document ExpandTableStylesToDirectFormatting méthode. Convertit le formatage spécifié dans les styles de tableau en formatage direct sur les tableaux du document en C#.
+description: Transformez les styles de tableau en formatage direct avec la méthode ExpandTableStylesToDirectFormatting, améliorant ainsi l'apparence de votre document sans effort.
 type: docs
-weight: 590
+weight: 630
 url: /fr/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
 
-Convertit le formatage spécifié dans les styles de tableau en formatage direct sur les tableaux du document.
+Convertit la mise en forme spécifiée dans les styles de tableau en mise en forme directe sur les tableaux du document.
 
 ```csharp
 public void ExpandTableStylesToDirectFormatting()
@@ -18,17 +18,17 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## Remarques
 
-Cette méthode existe car cette version d'Aspose.Words ne fournit qu'une prise en charge limitée des styles de table (voir ci-dessous). Cette méthode peut être utile lorsque vous chargez un document DOCX ou WordprocessingML contenant des tableaux formatés avec des styles de tableau et que vous devez interroger le formatage des tableaux, cellules, paragraphes ou texte .
+Cette méthode existe car cette version d'Aspose.Words n'offre qu'une prise en charge limitée des styles de tableau (voir ci-dessous). Elle peut être utile lorsque vous chargez un document DOCX ou WordprocessingML contenant des tableaux formatés avec des styles de tableau et que vous devez interroger la mise en forme de tableaux, de cellules, de paragraphes ou de texte.
 
-Cette version d'Aspose.Words offre une prise en charge limitée des styles de tableau comme suit :
+Cette version d'Aspose.Words fournit une prise en charge limitée des styles de tableau comme suit :
 
-* Les styles de tableau définis dans les documents DOCX ou WordprocessingML sont conservés en tant que tableaux styles lors de l'enregistrement du document au format DOCX ou WordprocessingML.
+* Les styles de tableau définis dans les documents DOCX ou WordprocessingML sont conservés sous forme de styles de tableau lors de l'enregistrement du document au format DOCX ou WordprocessingML.
 * Les styles de tableau définis dans les documents DOCX ou WordprocessingML sont automatiquement convertis en formatage direct sur les tableaux lors de l'enregistrement du document dans tout autre format, rendu ou impression.
-* Les styles de tableau définis dans les documents DOC sont conservés en tant que styles de tableau lorsque enregistre le document au format DOC uniquement.
+* Les styles de tableau définis dans les documents DOC sont conservés en tant que styles de tableau lorsque le document est enregistré uniquement au format DOC.
 
 ## Exemples
 
-Montre comment appliquer les propriétés du style d’un tableau directement aux éléments du tableau.
+Montre comment appliquer les propriétés du style d'un tableau directement aux éléments du tableau.
 
 ```csharp
 Document doc = new Document();

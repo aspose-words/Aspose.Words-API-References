@@ -3,14 +3,14 @@ title: FontSettings.ResetFontSources
 linktitle: ResetFontSources
 articleTitle: ResetFontSources
 second_title: Aspose.Words для .NET
-description: FontSettings ResetFontSources метод. Сбрасывает источники шрифтов к системным значениям по умолчанию на С#.
+description: Восстановите источники шрифтов по умолчанию без усилий с помощью метода FontSettings ResetFontSources. Улучшите согласованность дизайна и улучшите пользовательский опыт.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/fontsettings/resetfontsources/
 ---
 ## FontSettings.ResetFontSources method
 
-Сбрасывает источники шрифтов к системным значениям по умолчанию.
+Сбрасывает источники шрифтов до системных значений по умолчанию.
 
 ```csharp
 public void ResetFontSources()
@@ -18,7 +18,7 @@ public void ResetFontSources()
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -67,6 +67,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

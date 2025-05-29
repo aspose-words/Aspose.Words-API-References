@@ -2,15 +2,15 @@
 title: Table.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: 用于 .NET 的 Aspose.Words
-description: Table LeftIndent 财产. 获取或设置表示表格左缩进的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格 LeftIndent 属性，轻松自定义表格左缩进。精准控制，打造更佳布局，提升设计体验！
 type: docs
 weight: 190
 url: /zh/net/aspose.words.tables/table/leftindent/
 ---
 ## Table.LeftIndent property
 
-获取或设置表示表格左缩进的值。
+获取或设置代表表格左缩进的值。
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,7 +18,7 @@ public double LeftIndent { get; set; }
 
 ## 例子
 
-演示如何使用 DocumentBuilder 创建格式化表。
+展示如何使用 DocumentBuilder 创建格式化的表格。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// 设置文本和表格外观的一些格式选项。
+// 为文本和表格外观设置一些格式选项。
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// 为我们即将创建的新行和单元格重新配置构建器的格式化对象。
-// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行脱颖而出。
+// 为我们即将创建的新行和新单元格重新配置构建器的格式化对象。
+// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行突出显示。
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

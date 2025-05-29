@@ -2,8 +2,8 @@
 title: Odso
 linktitle: Odso
 articleTitle: Odso
-second_title: Aspose.Words for .NET
-description: Odso inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Programlamada verimli varsayılan yapılandırma için başvuracağınız çözüm olan Odso oluşturucusunu keşfedin. Kodunuzu basitleştirin ve performansı bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/odso/odso/

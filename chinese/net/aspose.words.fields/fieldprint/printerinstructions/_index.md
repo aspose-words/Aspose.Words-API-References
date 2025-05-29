@@ -2,8 +2,8 @@
 title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldPrint PrinterInstructions 财产. 获取或设置打印机特定的控制代码字符或 PostScript 指令 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 FieldPrint PrinterInstructions 管理打印机特定的控制代码和 PostScript 指令，以优化打印解决方案。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -30,11 +30,11 @@ builder.Write("My paragraph");
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // 设置打印机执行指令的区域。
-// 在本例中，它将是包含 PRINT 字段的段落。
+// 在这种情况下，它将是包含我们的 PRINT 字段的段落。
 field.PostScriptGroup = "para";
 
-// 当我们使用支持PostScript的打印机来打印我们的文档时，
-// 该命令会将我们在“field.PostScriptGroup”中指定的整个区域变成白色。
+// 当我们使用支持 PostScript 的打印机打印文档时，
+// 此命令将把我们在“field.PostScriptGroup”中指定的整个区域变成白色。
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

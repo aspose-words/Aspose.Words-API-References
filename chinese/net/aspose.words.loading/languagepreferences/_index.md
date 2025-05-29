@@ -2,15 +2,15 @@
 title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Loading.LanguagePreferences 班级. 允许设置语言首选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.LanguagePreferences 类，轻松定制和管理语言设置，增强文档处理能力。
 type: docs
-weight: 3650
+weight: 4100
 url: /zh/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
-允许设置语言首选项。
+允许设置语言偏好设置。
 
 要了解更多信息，请访问[指定加载选项](https://docs.aspose.com/words/net/specify-load-options/)文档文章。
 
@@ -43,7 +43,7 @@ public class LanguagePreferences
 
 ## 例子
 
-演示如何在加载文档时应用语言首选项。
+展示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

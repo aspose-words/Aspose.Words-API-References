@@ -2,15 +2,15 @@
 title: TextBox.InternalMarginLeft
 linktitle: InternalMarginLeft
 articleTitle: InternalMarginLeft
-second_title: Aspose.Words for .NET
-description: TextBox InternalMarginLeft mülk. Şeklin iç sol kenar boşluğunu nokta cinsinden belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Şeklinizin iç sol kenar boşluğunu noktalar halinde özelleştirerek gelişmiş tasarım esnekliği elde etmek için TextBox InternalMarginLeft özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-Şeklin iç sol kenar boşluğunu nokta cinsinden belirtir.
+Bir şekil için iç sol kenar boşluğunu noktalarla belirtir.
 
 ```csharp
 public double InternalMarginLeft { get; set; }
@@ -28,7 +28,7 @@ Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını göst
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belirli kenar boşluklarına sahip başka bir metin kutusu ekleyin.
+// Belirli kenar boşluklarına sahip başka bir metin kutusu ekle.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

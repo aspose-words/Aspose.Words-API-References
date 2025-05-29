@@ -3,14 +3,14 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words per .NET
-description: TabStopCollection GetPositionByIndex metodo. Ottiene la posizione in punti del punto di tabulazione in corrispondenza dellindice specificato in C#.
+description: Scopri il metodo GetPositionByIndex di TabStopCollection per trovare facilmente le posizioni delle tabulazioni in base all'indice. Ottimizza il tuo layout senza sforzo!
 type: docs
 weight: 100
 url: /it/net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
 ## TabStopCollection.GetPositionByIndex method
 
-Ottiene la posizione (in punti) del punto di tabulazione in corrispondenza dell'indice specificato.
+Ottiene la posizione (in punti) della tabulazione all'indice specificato.
 
 ```csharp
 public double GetPositionByIndex(int index)
@@ -18,7 +18,7 @@ public double GetPositionByIndex(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | Un indice nella raccolta di tabulazioni. |
+| index | Int32 | Un indice nella raccolta delle tabulazioni. |
 
 ### Valore di ritorno
 

@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCommentStart
 linktitle: VisitCommentStart
 articleTitle: VisitCommentStart
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitCommentStart methode. Wird aufgerufen wenn die Aufzählung eines Kommentartextes gestartet wurde in C#.
+description: Entdecken Sie die DocumentVisitor VisitCommentStart-Methode – Ihren Schlüssel zur effizienten Verwaltung der Kommentartextaufzählung in Ihren Projekten.
 type: docs
 weight: 130
 url: /de/net/aspose.words/documentvisitor/visitcommentstart/
 ---
 ## DocumentVisitor.VisitCommentStart method
 
-Wird aufgerufen, wenn die Aufzählung eines Kommentartextes gestartet wurde.
+Wird aufgerufen, wenn mit der Aufzählung eines Kommentartextes begonnen wurde.
 
 ```csharp
 public virtual VisitorAction VisitCommentStart(Comment comment)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Ein Run wird nur aufgezeichnet, wenn er ein untergeordnetes Element eines Comment- oder CommentRange-Knotens ist.
+    /// Ein Lauf wird nur aufgezeichnet, wenn er ein untergeordnetes Element eines Kommentar- oder CommentRange-Knotens ist.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -120,7 +120,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie diese ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten eines Kommentars/Kommentarbereichs.
     /// </summary>
     /// <param name="text"></param>
@@ -148,8 +148,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können.
+    // Dadurch kann es den akzeptierenden Knoten besuchen und dann seine untergeordneten Knoten in einer Tiefensuche durchlaufen.
     // 1 - Absatzknoten:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -214,7 +214,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -280,10 +280,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -291,16 +293,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
-        // und es gäbe keine untergeordneten Knoten mehr.
-        // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
+        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles entfernt.
+        // und es wären keine untergeordneten Knoten übrig.
+        // Daher können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
         // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
-        // was dieser Besucher nicht entfernen wird.
+        // die dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -308,7 +310,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -319,7 +321,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

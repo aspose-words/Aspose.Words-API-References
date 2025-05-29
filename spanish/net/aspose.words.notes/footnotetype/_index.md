@@ -3,14 +3,14 @@ title: FootnoteType Enum
 linktitle: FootnoteType
 articleTitle: FootnoteType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Notes.FootnoteType enumeración. Especifica si se trata de una nota al pie o una nota al final en C#.
+description: Descubra la enumeración Aspose.Words.FootnoteType. Distinga fácilmente entre notas al pie y notas finales para mejorar el formato y la claridad del documento.
 type: docs
-weight: 4300
+weight: 5020
 url: /es/net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration
 
-Especifica si se trata de una nota al pie o una nota al final.
+Especifica si se trata de una nota al pie o una nota final.
 
 ```csharp
 public enum FootnoteType
@@ -21,32 +21,32 @@ public enum FootnoteType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Footnote | `0` | El objeto es una nota al pie. |
-| Endnote | `1` | El objeto es una nota al final. |
+| Endnote | `1` | El objeto es una nota final. |
 
 ## Observaciones
 
-Tanto las notas a pie de página como las notas al final están representadas por objetos mediante elFootnote clase. Usar[`FootnoteType`](../footnote/footnotetype/) para distinguir entre notas al pie y notas al final.
+Tanto las notas a pie de página como las notas finales están representadas por objetos mediante elFootnote Clase . Uso[`FootnoteType`](../footnote/footnotetype/) para distinguir entre notas a pie de página y notas finales.
 
 ## Ejemplos
 
-Muestra cómo hacer referencia al texto con una nota al pie y una nota al final.
+Muestra cómo referenciar texto con una nota al pie y una nota final.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta algo de texto y márcalo con una nota al pie con la propiedad IsAuto establecida en "verdadero" de forma predeterminada,
-// por lo que el marcador que se ve en el cuerpo del texto se numerará automáticamente en "1",
-// y la nota al pie aparecerá al final de la página.
+// Inserte algún texto y márquelo con una nota al pie con la propiedad IsAuto establecida en "verdadero" de forma predeterminada,
+// entonces el marcador visto en el cuerpo del texto se numerará automáticamente en "1",
+// y la nota al pie aparecerá en la parte inferior de la página.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// Inserta más texto y márcalo con una nota al final con una marca de referencia personalizada,
+// Inserte más texto y márquelo con una nota final con una marca de referencia personalizada,
 // que se utilizará en lugar del número "2" y establecerá "IsAuto" en falso.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// Las notas a pie de página siempre aparecen al final del texto al que se hace referencia,
+// Las notas a pie de página siempre aparecen al final del texto al que hacen referencia.
 // por lo que este salto de página no afectará a la nota al pie.
 // Por otro lado, las notas finales siempre están al final del documento.
 // para que este salto de página empuje la nota final a la página siguiente.
@@ -61,8 +61,8 @@ Muestra cómo insertar y personalizar notas al pie.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agrega texto y haz referencia a él con una nota al pie. Esta nota al pie colocará una pequeña referencia en superíndice.
-// marque después del texto al que hace referencia y cree una entrada debajo del texto del cuerpo principal en la parte inferior de la página.
+// Agregue texto y referencialo con una nota al pie. Esta nota al pie colocará una pequeña referencia en superíndice.
+// marca después del texto al que hace referencia y crea una entrada debajo del texto del cuerpo principal en la parte inferior de la página.
 // Esta entrada contendrá la marca de referencia de la nota al pie y el texto de referencia,
 // que pasaremos al método "InsertFootnote" del generador de documentos.
 builder.Write("Main body text.");
@@ -70,10 +70,10 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 
 // Si esta propiedad se establece en "verdadero", entonces la marca de referencia de nuestra nota al pie
 // será su índice entre todas las notas a pie de página de la sección.
-// Esta es la primera nota a pie de página, por lo que la marca de referencia será "1".
+//Esta es la primera nota a pie de página, por lo que la marca de referencia será "1".
 Assert.True(footnote.IsAuto);
 
- // Podemos mover el generador de documentos dentro de la nota al pie para editar su texto de referencia.
+ //Podemos mover el generador de documentos dentro de la nota al pie para editar su texto de referencia.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -83,12 +83,12 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Podemos establecer una marca de referencia personalizada que usará la nota al pie en lugar de su número de índice.
+//Podemos establecer una marca de referencia personalizada que la nota al pie utilizará en lugar de su número de índice.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Un marcador con el indicador "IsAuto" establecido en verdadero seguirá mostrando su índice real
+// Un marcador con el indicador "IsAuto" establecido como verdadero seguirá mostrando su índice real
 // incluso si los marcadores anteriores muestran marcas de referencia personalizadas, la marca de referencia de este marcador será un "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");

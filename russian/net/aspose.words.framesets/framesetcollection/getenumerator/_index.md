@@ -3,14 +3,14 @@ title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: FramesetCollection GetEnumerator метод. Возвращает перечислитель который перебирает коллекцию на С#.
+description: Откройте для себя метод FramesetCollection GetEnumerator, который эффективно выполняет итерацию по вашей коллекции, улучшая управление данными и доступность.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

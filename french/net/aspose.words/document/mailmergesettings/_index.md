@@ -3,9 +3,9 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words pour .NET
-description: Document MailMergeSettings propriété. Obtient ou définit lobjet qui contient toutes les informations de publipostage pour un document en C#.
+description: Découvrez comment utiliser la propriété MailMergeSettings pour gérer efficacement toutes les données de publipostage de votre document et améliorer votre flux de travail.
 type: docs
-weight: 270
+weight: 280
 url: /fr/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
@@ -18,13 +18,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Remarques
 
-Vous pouvez utiliser cet objet pour spécifier une source de données de publipostage pour un document et ces informations (ainsi que les champs de données disponibles) apparaîtront dans Microsoft Word lorsque l'utilisateur ouvrira ce document. Ou vous pouvez utiliser cet objet pour interroger les paramètres de fusion et de publipostage. que l'utilisateur a spécifié dans Microsoft Word pour ce document.
+Vous pouvez utiliser cet objet pour spécifier une source de données de publipostage pour un document et ces informations (ainsi que les champs de données disponibles) apparaîtront dans Microsoft Word lorsque l'utilisateur ouvrira ce document. Ou vous pouvez utiliser cet objet pour interroger les paramètres de publipostage que l'utilisateur a spécifiés dans Microsoft Word pour ce document.
 
 Cet objet n'est jamais`nul`.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

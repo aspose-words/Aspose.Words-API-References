@@ -3,14 +3,14 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words لـ .NET
-description: Table AllowAutoFit ملكية. يسمح لـ Microsoft Word وAspose.Words بتغيير حجم الخلايا تلقائيًا في الجدول لتناسب محتوياتها في C#.
+description: اكتشف خاصية Table AllowAutoFit لتغيير حجم خلايا جدول Microsoft Word و Aspose.Words بسهولة، مما يعزز قابلية قراءة مستندك وعرضه.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/table/allowautofit/
 ---
 ## Table.AllowAutoFit property
 
-يسمح لـ Microsoft Word وAspose.Words بتغيير حجم الخلايا تلقائيًا في الجدول لتناسب محتوياتها.
+يسمح لبرنامج Microsoft Word وAspose.Words بتغيير حجم الخلايا في الجدول تلقائيًا لتناسب محتوياتها.
 
 ```csharp
 public bool AllowAutoFit { get; set; }
@@ -22,7 +22,7 @@ public bool AllowAutoFit { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تمكين/تعطيل تغيير الحجم التلقائي لخلية الجدول.
+يوضح كيفية تمكين/تعطيل تغيير حجم خلايا الجدول تلقائيًا.
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,9 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// اضبط خاصية "AllowAutoFit" على "خطأ" للحصول على جدول يحافظ على الأبعاد
-// لجميع صفوفه وخلاياه، واقتطاع المحتويات إذا أصبحت كبيرة جدًا بحيث لا يمكن احتواؤها.
-// اضبط الخاصية "AllowAutoFit" على "صحيح" للسماح للجدول بتغيير عرض الخلايا وارتفاعها
+// اضبط خاصية "AllowAutoFit" على "false" لجعل الجدول يحافظ على الأبعاد
+// لجميع صفوفها وخلاياها، وقم بتقليص المحتويات إذا أصبحت كبيرة جدًا بحيث لا تتناسب مع المساحة.
+// اضبط خاصية "AllowAutoFit" على "true" للسماح للجدول بتغيير عرض وارتفاع خلاياه
 // لاستيعاب محتوياتها.
 table.AllowAutoFit = allowAutoFit;
 

@@ -3,9 +3,9 @@ title: ResourceLoadingArgs Class
 linktitle: ResourceLoadingArgs
 articleTitle: ResourceLoadingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Loading.ResourceLoadingArgs فصل. يوفر بيانات لـResourceLoading الطريقة في C#.
+description: اكتشف فئة Aspose.Words.Loading.ResourceLoadingArgs، المصممة لتحسين كفاءة تحميل الموارد في تطبيقاتك. تكامل سلس اليوم!
 type: docs
-weight: 3690
+weight: 4150
 url: /ar/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -22,13 +22,13 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | عنوان URI الأصلي للمورد كما هو محدد في المستند المستورد. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | نوع المورد. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI للمورد الذي يتم استخدامه لـ download if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI للمورد المستخدم لتنزيل إذا[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودDefault. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | يعين البيانات المقدمة من المستخدم للمورد الذي يستخدم if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | يحدد البيانات المقدمة من المستخدم للمورد الذي يتم استخدامه إذا[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودUserProvided . |
 
 ## أمثلة
 
@@ -42,8 +42,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادة ما يتم إدراج الصور باستخدام URI، أو مصفوفة بايت.
-    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة برد الاتصال الخاص بنا.
+    // عادةً ما يتم إدراج الصور باستخدام URI أو مجموعة بايتات.
+    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة بإرجاعنا.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -54,15 +54,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// يسمح لنا بتحميل الصور في مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
-/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية إنشاء المستند.
+/// يسمح لنا بتحميل الصور إلى مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
+/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية بناء المستند.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // إذا واجه رد الاتصال هذا أحد اختصارات الصورة أثناء تحميل الصورة،
-        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من معاملته كعنوان URI.
+        // إذا واجهت هذه الاستدعاءات أحد اختصارات الصورة أثناء تحميل صورة،
+        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من التعامل معه باعتباره URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

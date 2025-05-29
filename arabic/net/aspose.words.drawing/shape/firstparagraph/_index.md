@@ -3,14 +3,14 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words لـ .NET
-description: Shape FirstParagraph ملكية. الحصول على الفقرة الأولى في الشكل في C#.
+description: استرجاع الفقرة الأولى من أي شكل بسهولة. حسّن تصميم مستندك باستخدام ميزة "الشكل في الفقرة الأولى" سهلة الاستخدام.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-الحصول على الفقرة الأولى في الشكل.
+يحصل على الفقرة الأولى في الشكل.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -29,11 +29,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
+// تعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
+//أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

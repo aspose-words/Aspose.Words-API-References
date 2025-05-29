@@ -2,15 +2,15 @@
 title: FieldMergingArgsBase.TableName
 linktitle: TableName
 articleTitle: TableName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergingArgsBase TableName 财产. 获取当前合并操作的数据表的名称如果名称不可用则获取空字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldMergingArgsBase TableName 属性，轻松访问合并操作的数据表名称，或了解何时不可用。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
 ## FieldMergingArgsBase.TableName property
 
-获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。
+获取当前合并操作的数据表名称，如果名称不可用，则获取空字符串。
 
 ```csharp
 public string TableName { get; }
@@ -18,7 +18,7 @@ public string TableName { get; }
 
 ## 例子
 
-演示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
+显示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
 
 ```csharp
 public void InsertCheckBox()
@@ -26,8 +26,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 使用带有“TableStart”/“TableEnd”标记的 MERGEFIELD 来定义邮件合并区域
-    // 它属于名为“StudentCourse”的数据源，并且有一个 MERGEFIELD，它接受来自名为“CourseName”的列的数据。
+    // 使用带有“TableStart”/“TableEnd”标签的 MERGEFIELD 来定义邮件合并区域
+    // 它属于名为“StudentCourse”的数据源，并且具有一个 MERGEFIELD，该字段接受来自名为“CourseName”的列的数据。
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -65,7 +65,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // 在这种情况下，对于每个记录索引'n'，对应的字段值为“课程n”。
+            // 在这种情况下，对于每个记录索引“n”，相应的字段值为“Course n”。
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -75,7 +75,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 
     private int mCheckBoxCount;

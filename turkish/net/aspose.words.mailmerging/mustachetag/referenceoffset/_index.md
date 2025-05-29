@@ -2,15 +2,15 @@
 title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
-second_title: Aspose.Words for .NET
-description: MustacheTag ReferenceOffset mülk. Etiketin başlangıcından itibaren sıfır tabanlı başlangıç konumunu alır.ReferenceRun  C#'da.
+second_title: .NET için Aspose.Words
+description: ReferenceRun'ınızdaki etiketlerin sıfır tabanlı başlangıç konumunu ortaya çıkaran MustacheTag ReferenceOffset özelliğini keşfedin ve böylece hassas veri yönetimi sağlayın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 ---
 ## MustacheTag.ReferenceOffset property
 
-Etiketin başlangıcından itibaren sıfır tabanlı başlangıç konumunu alır.[`ReferenceRun`](../referencerun/) .
+Etiketin sıfır tabanlı başlangıç konumunu, etiketin başlangıcından itibaren alır.[`ReferenceRun`](../referencerun/) .
 
 ```csharp
 public int ReferenceOffset { get; }
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## Örnekler
 
-Bıyık etiketleriyle nasıl çalışılacağını gösterir.
+Bıyık etiketlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

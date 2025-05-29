@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: OdsoRecipientDataCollection Add methode. Fügt ein Objekt am Ende dieser Sammlung hinzu in C#.
+description: Verbessern Sie mühelos Ihr Datenmanagement mit der OdsoRecipientDataCollection-Add-Methode – fügen Sie schnell Objekte hinzu, um Ihren Erfassungsprozess zu optimieren.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/add/
 ---
 ## OdsoRecipientDataCollection.Add method
 
-Fügt ein Objekt am Ende dieser Sammlung hinzu.
+Fügt am Ende dieser Sammlung ein Objekt hinzu.
 
 ```csharp
 public int Add(OdsoRecipientData value)
@@ -18,11 +18,11 @@ public int Add(OdsoRecipientData value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | OdsoRecipientData | Das hinzuzufügende Objekt. Kann nicht sein`Null`. |
+| value | OdsoRecipientData | Das hinzuzufügende Objekt. Kann nicht`null`. |
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

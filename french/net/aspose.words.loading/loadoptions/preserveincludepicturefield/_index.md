@@ -3,7 +3,7 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words pour .NET
-description: LoadOptions PreserveIncludePictureField propriété. Obtient ou définit sil faut conserver le champ INCLUDEPICTURE lors de la lecture des formats Microsoft Word. La valeur par défaut estFAUX  en C#.
+description: Contrôlez le champ INCLUDEPICTURE dans les formats Microsoft Word avec LoadOptions PreserveIncludePictureField. Gérez facilement la mise en forme de vos documents pour des résultats optimaux.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -18,13 +18,13 @@ public bool PreserveIncludePictureField { get; set; }
 
 ## Remarques
 
-Par défaut, le champ INCLUDEPICTURE est converti en objet forme. Vous pouvez remplacer cela si vous avez besoin que le champ soit préservé, par exemple, si vous souhaitez le mettre à jour par programme. Notez cependant que l'approche this n'est pas courante pour Aspose.Words. Utilisez-le à vos propres risques.
+Par défaut, le champ INCLUDEPICTURE est converti en objet forme. Vous pouvez contourner ce paramètre si vous souhaitez conserver le champ, par exemple pour le mettre à jour par programmation. Notez cependant que cette approche n'est pas courante pour Aspose.Words. Utilisez-la à vos risques et périls.
 
-L'un des cas d'utilisation possibles peut consister à utiliser un MERGEFIELD comme champ enfant pour modifier dynamiquement le chemin source de l'image. Dans ce cas, vous devez conserver INCLUDEPICTURE dans le modèle.
+L'un des cas d'utilisation possibles consiste à utiliser un champ MERGEFIELD comme champ enfant pour modifier dynamiquement le chemin source de l'image. Dans ce cas, l'élément INCLUDEPICTURE doit être conservé dans le modèle.
 
 ## Exemples
 
-Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d’un document.
+Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider s'il faut convertir tous les champs INCLUDEPICTURE
+    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider de convertir ou non tous les champs INCLUDEPICTURE
     // dans les formes d'image lors du chargement d'un document qui les contient.
     LoadOptions loadOptions = new LoadOptions
     {

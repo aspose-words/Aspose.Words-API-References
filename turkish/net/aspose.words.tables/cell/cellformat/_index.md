@@ -2,8 +2,8 @@
 title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
-second_title: Aspose.Words for .NET
-description: Cell CellFormat mülk. Hücrenin biçimlendirme özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda gelişmiş veri sunumu için hücre biçimlendirme seçeneklerine kolayca erişmek ve bunları özelleştirmek amacıyla Cell CellFormat özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/cell/cellformat/
@@ -18,14 +18,14 @@ public CellFormat CellFormat { get; }
 
 ## Örnekler
 
-Bir tablo hücresinin formatının nasıl değiştirileceğini gösterir.
+Bir tablo hücresinin biçimlendirmesinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Bir hücrenin görünümünü değiştiren biçimlendirmeyi ayarlamak için hücrenin "CellFormat" özelliğini kullanın.
+// Bir hücrenin görünümünü değiştiren biçimlendirmeyi ayarlamak için o hücrenin "CellFormat" özelliğini kullanın.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -38,24 +38,24 @@ doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Aşağıda bir belgeden tablo almanın iki yolu verilmiştir.
-// 1 - Bir Gövde düğümünün "Tablolar" koleksiyonundan:
+// Aşağıda bir belgeden tablo almanın iki yolu bulunmaktadır.
+// 1 - Bir Body düğümünün "Tablolar" koleksiyonundan:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - "GetChild" yöntemini kullanarak:
+// 2 - "GetChild" metodunu kullanarak:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Geçerli tablodaki tüm satırları sonrakine ekle.
+// Mevcut tablodaki tüm satırları bir sonrakine ekle.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Boş masa kabını çıkarın.
+// Boş tablo kabını kaldır.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satır ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -74,12 +74,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Biçimlendirmeyi değiştirmek için ilk satırın "RowFormat" özelliğini kullanın
-// bu satırdaki tüm hücrelerin içeriği.
+// Bu satırdaki tüm hücrelerin içerikleri.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Son satırdaki ilk hücrenin "CellFormat" özelliğini kullanarak o hücrenin içeriğinin biçimlendirmesini değiştirin.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

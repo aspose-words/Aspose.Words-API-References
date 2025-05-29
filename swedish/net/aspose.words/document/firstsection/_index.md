@@ -3,9 +3,9 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words för .NET
-description: Document FirstSection fast egendom. Hämtar det första avsnittet i dokumentet i C#.
+description: Hämta den första delen av ditt dokument utan problem. Förbättra ditt arbetsflöde med vår egenskap DokumentförstaSektion för effektiv organisation.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
@@ -18,7 +18,7 @@ public Section FirstSection { get; }
 
 ## Anmärkningar
 
-Returnerar`null` om det inte finns några avsnitt.
+Returer`null`om det inte finns några sektioner.
 
 ## Exempel
 
@@ -42,12 +42,12 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Visar hur man skapar en ny sektion med en dokumentbyggare.
+Visar hur man skapar ett nytt avsnitt med en dokumentbyggare.
 
 ```csharp
 Document doc = new Document();
 
-// Ett tomt dokument innehåller en sektion som standard,
+// Ett tomt dokument innehåller som standard en sektion,
 // som innehåller underordnade noder som vi kan redigera.
 Assert.AreEqual(1, doc.Sections.Count);
 
@@ -55,14 +55,14 @@ Assert.AreEqual(1, doc.Sections.Count);
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Skapa en andra sektion genom att infoga en sektionsbrytning.
+// Skapa ett andra avsnitt genom att infoga en avsnittsbrytning.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Varje avsnitt har sina egna sidinställningar.
+// Varje sektion har sina egna inställningar för sidinställningar.
 // Vi kan dela upp texten i det andra avsnittet i två kolumner.
-// Detta kommer inte att påverka texten i det första avsnittet.
+// Detta påverkar inte texten i det första avsnittet.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);
@@ -74,7 +74,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-Visar hur man itererar genom barnen i en sammansatt nod.
+Visar hur man itererar igenom barnen till en sammansatt nod.
 
 ```csharp
 Document doc = new Document();
@@ -88,8 +88,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// En sektion är en sammansatt nod och kan innehålla underordnade noder,
-// men bara om de underordnade noderna är av nodtypen "Body" eller "HeaderFooter".
+// En sektion är en sammansatt nod och kan innehålla undernoder,
+// men bara om dessa undernoder är av nodtypen "Body" eller "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

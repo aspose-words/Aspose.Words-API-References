@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SetCheckedSymbol
 linktitle: SetCheckedSymbol
 articleTitle: SetCheckedSymbol
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag SetCheckedSymbol طريقة. يعين الرمز المستخدم لتمثيل الحالة المحددة لعنصر تحكم محتوى خانة الاختيار في C#.
+description: اكتشف كيفية استخدام طريقة SetCheckedSymbol في StructuredDocumentTag لتخصيص عناصر مربع الاختيار المرئية وتحسين تجربة المستخدم.
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
 
-يعين الرمز المستخدم لتمثيل الحالة المحددة لعنصر تحكم محتوى خانة الاختيار.
+يحدد الرمز المستخدم لتمثيل حالة تحديد عنصر التحكم في محتوى مربع الاختيار.
 
 ```csharp
 public void SetCheckedSymbol(int characterCode, string fontName)
@@ -23,22 +23,22 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 
 ## ملاحظات
 
-الوصول إلى هذه الطريقة لن يعمل إلا من أجلCheckbox أنواع المعاملة الخاصة والتفضيلية.
+الوصول إلى هذه الطريقة سيعمل فقط لـCheckbox أنواع SDT.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
 ## أمثلة
 
-أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
+إظهار كيفية إنشاء علامة مستند منظمة في شكل مربع اختيار.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// يمكننا تعيين الرموز المستخدمة لتمثيل الحالة المحددة/غير المحددة لعنصر التحكم في محتوى مربع الاختيار.
+// يمكننا تعيين الرموز المستخدمة لتمثيل حالة التحديد/عدم التحديد لمحتوى مربع الاختيار.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

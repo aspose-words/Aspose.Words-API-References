@@ -3,7 +3,7 @@ title: FieldFormDropDown
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
 second_title: Aspose.Words لـ .NET
-description: FieldFormDropDown البناء. Default_Constructor في C#.
+description: أنشئ نماذج ديناميكية بسهولة باستخدام مُنشئ FieldFormDropDown. بسّط إنشاء القوائم المنسدلة وحسّن تجربة المستخدم اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/

@@ -2,8 +2,8 @@
 title: Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: Document inşaatçı. Boş bir Word belgesi oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanıcı dostu belge oluşturucumuzla boş Word belgelerini zahmetsizce oluşturun. Yazma sürecinizi bugün hızlandırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/document/document/
@@ -18,13 +18,17 @@ public Document()
 
 ## Notlar
 
-Belge kağıt boyutu varsayılan olarak Letter'dır. Sayfa düzenini değiştirmek istiyorsanız kullanın[`PageSetup`](../../section/pagesetup/).
+Kaynaklardan boş bir belge alınır ve varsayılan olarak, ortaya çıkan belge daha çok şu şekilde oluşturulur:Word2007. Bu boş belge varsayılan yazı tipleri tablosunu, minimum varsayılan stilleri ve gizli stilleri içerir.
 
-Oluşturduktan sonra kullanabilirsiniz[`DocumentBuilder`](../../documentbuilder/) belge içeriğini kolayca eklemek için.
+[`OptimizeFor`](../../../aspose.words.settings/compatibilityoptions/optimizefor/) Bu yöntem, belirli bir MS Word sürümüne göre belge içeriklerini ve Aspose.Words'ün varsayılan davranışını iyileştirmek için kullanılabilir.
+
+Belge kağıt boyutu varsayılan olarak Letter'dır. Sayfa düzenini değiştirmek istiyorsanız, use [`PageSetup`](../../section/pagesetup/).
+
+Oluşturulduktan sonra kullanabilirsiniz[`DocumentBuilder`](../../documentbuilder/) Belge içeriğini kolayca eklemek için.
 
 ## Örnekler
 
-Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
+Bir metin dizisinin font özelliğini kullanarak nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,25 +43,38 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
+Basit bir belgenin nasıl oluşturulacağını gösterir.
+
+```csharp
+Document doc = new Document();
+
+// Yeni Belge nesneleri varsayılan olarak en az düğüm kümesiyle birlikte gelir
+// metin ve şekiller gibi içerik eklemeye başlamak için gereklidir: Bir Bölüm, Bir Gövde ve Bir Paragraf.
+doc.AppendChild(new Section(doc))
+    .AppendChild(new Body(doc))
+    .AppendChild(new Paragraph(doc))
+    .AppendChild(new Run(doc, "Hello world!"));
+```
+
 Belgelerin nasıl oluşturulacağını ve yükleneceğini gösterir.
 
 ```csharp
-// Aspose.Words kullanarak Document nesnesi oluşturmanın iki yolu vardır.
+// Aspose.Words kullanarak Belge nesnesi oluşturmanın iki yolu vardır.
 // 1 - Boş bir belge oluşturun:
 Document doc = new Document();
 
-// Yeni Belge nesneleri varsayılan olarak minimum düğüm kümesiyle birlikte gelir
-// metin ve şekil gibi içerikleri eklemeye başlamak için gereklidir: Bölüm, Gövde ve Paragraf.
+// Yeni Belge nesneleri varsayılan olarak en az düğüm kümesiyle birlikte gelir
+// metin ve şekiller gibi içerik eklemeye başlamak için gereklidir: Bir Bölüm, Bir Gövde ve Bir Paragraf.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - Yerel dosya sisteminde bulunan bir belgeyi yükleyin:
 doc = new Document(MyDir + "Document.docx");
 
-// Yüklenen belgelerde erişebileceğimiz ve düzenleyebileceğimiz içerikler bulunacaktır.
+// Yüklenen dokümanlar erişebileceğimiz ve düzenleyebileceğimiz içeriklere sahip olacak.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Bir belgenin şifresini çözmek için şifre kullanmak gibi yükleme sırasında gerçekleşmesi gereken bazı işlemler,
-// belge yüklenirken LoadOptions nesnesinin iletilmesiyle yapılabilir.
+// Bir belgeyi şifresini çözmek için parola kullanmak gibi yükleme sırasında gerçekleşmesi gereken bazı işlemler,
+// Belge yüklenirken LoadOptions nesnesi geçirilerek yapılabilir.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -87,16 +104,16 @@ public Document(string fileName)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
-| IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
-| ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
+| Exception | Belgede bir sorun var ve bu durum Aspose.Words geliştiricilerine bildirilmelidir. |
+| IOException | Giriş/Çıkış istisnası var. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açmak için bir parola gerekiyor, ancak yanlış bir parola girdiniz. |
+| ArgumentException | Dosyanın adı null veya boş dize olamaz. |
 
 ## Örnekler
 
-Bir belgenin nasıl açılacağını ve .PDF'ye nasıl dönüştürüleceğini gösterir.
+Bir belgenin nasıl açılacağını ve .PDF'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -104,7 +121,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-PDF'nin .docx'e nasıl dönüştürüleceğini gösterir.
+PDF'in .docx'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -114,29 +131,29 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// Az önce kaydettiğimiz PDF belgesini yükleyin ve .docx'e dönüştürün.
+// Az önce kaydettiğimiz PDF belgesini yükleyelim ve .docx formatına dönüştürelim.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 ```
 
-PDF'nin nasıl yükleneceğini gösterir.
+PDF'in nasıl yükleneceğini gösterir.
 
 ```csharp
-Aspose.Words.Document doc = new Aspose.Words.Document();
+Document doc = new Aspose.Words.Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
-// Aşağıda Aspose ürünlerini kullanarak PDF belgelerini yüklemenin iki yolu verilmiştir.
+// Aşağıda Aspose ürünlerini kullanarak PDF belgelerini yüklemenin iki yolu bulunmaktadır.
 // 1 - Aspose.Words belgesi olarak yükle:
-Aspose.Words.Document asposeWordsDoc = new Aspose.Words.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
+Document asposeWordsDoc = new Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 Assert.AreEqual("Hello world!", asposeWordsDoc.GetText().Trim());
 
-// 2 - Aspose.Pdf belgesi olarak yükleyin:
+// 2 - Aspose.Pdf belgesi olarak yükle:
 Aspose.Pdf.Document asposePdfDoc = new Aspose.Pdf.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber();
@@ -155,7 +172,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
-Bir dosyadan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
+Bir dosyadan mevcut bir belgeyi açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine olanak tanır.
 
 ```csharp
 public Document(string fileName, LoadOptions loadOptions)
@@ -164,18 +181,18 @@ public Document(string fileName, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Açılacak belgenin dosya adı. |
-| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Olabilir`hükümsüz`. |
+| loadOptions | LoadOptions | Bir belgeyi yüklerken kullanılacak ek seçenekler.`hükümsüz`. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
-| IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
-| ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
+| Exception | Belgede bir sorun var ve bu durum Aspose.Words geliştiricilerine bildirilmelidir. |
+| IOException | Giriş/Çıkış istisnası var. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açmak için bir parola gerekiyor, ancak yanlış bir parola girdiniz. |
+| ArgumentException | Dosyanın adı null veya boş dize olamaz. |
 
 ## Örnekler
 
@@ -184,14 +201,14 @@ public Document(string fileName, LoadOptions loadOptions)
 ```csharp
 Document doc;
 
-// Aspose.Words, şifrelenmiş bir belgeyi şifresi olmadan açmaya çalışırsak bir istisna atar.
+// Şifreli bir belgeyi şifresi olmadan açmaya çalıştığımızda Aspose.Words bir istisna fırlatır.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Böyle bir belge yüklenirken parola, LoadOptions nesnesi kullanılarak belgenin yapıcısına iletilir.
+// Böyle bir belge yüklenirken parola, LoadOptions nesnesi kullanılarak belgenin oluşturucusuna geçirilir.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Şifrelenmiş bir belgeyi LoadOptions nesnesiyle yüklemenin iki yolu vardır.
-// 1 - Belgeyi yerel dosya sisteminden dosya adına göre yükleyin:
+// 1 - Belgeyi yerel dosya sisteminden dosya adına göre yükle:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Belgeyi bir akıştan yükleyin:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
@@ -203,22 +220,22 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 Belgelerin nasıl oluşturulacağını ve yükleneceğini gösterir.
 
 ```csharp
-// Aspose.Words kullanarak Document nesnesi oluşturmanın iki yolu vardır.
+// Aspose.Words kullanarak Belge nesnesi oluşturmanın iki yolu vardır.
 // 1 - Boş bir belge oluşturun:
 Document doc = new Document();
 
-// Yeni Belge nesneleri varsayılan olarak minimum düğüm kümesiyle birlikte gelir
-// metin ve şekil gibi içerikleri eklemeye başlamak için gereklidir: Bölüm, Gövde ve Paragraf.
+// Yeni Belge nesneleri varsayılan olarak en az düğüm kümesiyle birlikte gelir
+// metin ve şekiller gibi içerik eklemeye başlamak için gereklidir: Bir Bölüm, Bir Gövde ve Bir Paragraf.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - Yerel dosya sisteminde bulunan bir belgeyi yükleyin:
 doc = new Document(MyDir + "Document.docx");
 
-// Yüklenen belgelerde erişebileceğimiz ve düzenleyebileceğimiz içerikler bulunacaktır.
+// Yüklenen dokümanlar erişebileceğimiz ve düzenleyebileceğimiz içeriklere sahip olacak.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Bir belgenin şifresini çözmek için şifre kullanmak gibi yükleme sırasında gerçekleşmesi gereken bazı işlemler,
-// belge yüklenirken LoadOptions nesnesinin iletilmesiyle yapılabilir.
+// Bir belgeyi şifresini çözmek için parola kullanmak gibi yükleme sırasında gerçekleşmesi gereken bazı işlemler,
+// Belge yüklenirken LoadOptions nesnesi geçirilerek yapılabilir.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -243,28 +260,28 @@ public Document(Stream stream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Belgenin nereden yükleneceğini aktarın. |
+| stream | Stream | Belgenin nereden yükleneceğini akışa alın. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
-| IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
+| Exception | Belgede bir sorun var ve bu durum Aspose.Words geliştiricilerine bildirilmelidir. |
+| IOException | Giriş/Çıkış istisnası var. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açmak için bir parola gerekiyor, ancak yanlış bir parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
-| NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
-| ObjectDisposedException | Akış, atılmış bir nesnedir. |
+| NotSupportedException | Akış okumayı veya aramayı desteklemiyor. |
+| ObjectDisposedException | Akarsu, elden çıkarılmış bir nesnedir. |
 
 ## Notlar
 
-Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
+Belge akışın başlangıcında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
 ## Örnekler
 
-Akış kullanarak bir belgenin nasıl yükleneceğini gösterir.
+Bir belgenin akış kullanılarak nasıl yükleneceğini gösterir.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
@@ -275,16 +292,16 @@ using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
 }
 ```
 
-Bir URL'den belgenin nasıl yükleneceğini gösterir.
+Bir belgenin URL'den nasıl yükleneceğini gösterir.
 
 ```csharp
 // Microsoft Word belgesine işaret eden bir URL oluşturun.
-const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
+const string url = "https://dosyaörnekleri.com/örnekler/belge/docx/örnek3.docx";
 
 // Belgeyi bir bayt dizisine indirin, ardından bu diziyi bir bellek akışı kullanarak bir belgeye yükleyin.
-using (HttpClient webClient = new HttpClient())
+using (WebClient webClient = new WebClient())
 {
-    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
+    byte[] dataBytes = webClient.DownloadData(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
@@ -292,8 +309,8 @@ using (HttpClient webClient = new HttpClient())
 
         // Bu aşamada belgenin içeriğini okuyup düzenleyebilir ve ardından yerel dosya sistemine kaydedebiliriz.
         Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
-            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
-            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+                        "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+                        "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",
             doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
@@ -311,7 +328,7 @@ using (HttpClient webClient = new HttpClient())
 
 ## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
-Bir akıştan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
+Bir akıştan mevcut bir belgeyi açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine olanak tanır.
 
 ```csharp
 public Document(Stream stream, LoadOptions loadOptions)
@@ -319,35 +336,35 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Belgenin nereden yükleneceği akışı. |
-| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Olabilir`hükümsüz`. |
+| stream | Stream | Belgenin nereden yükleneceğini gösteren akış. |
+| loadOptions | LoadOptions | Bir belgeyi yüklerken kullanılacak ek seçenekler.`hükümsüz`. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
-| IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
+| Exception | Belgede bir sorun var ve bu durum Aspose.Words geliştiricilerine bildirilmelidir. |
+| IOException | Giriş/Çıkış istisnası var. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açmak için bir parola gerekiyor, ancak yanlış bir parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
-| NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
-| ObjectDisposedException | Akış, atılmış bir nesnedir. |
+| NotSupportedException | Akış okumayı veya aramayı desteklemiyor. |
+| ObjectDisposedException | Akarsu, elden çıkarılmış bir nesnedir. |
 
 ## Notlar
 
-Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
+Belge akışın başlangıcında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
 ## Örnekler
 
-Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nasıl açılacağını gösterir.
+Bir akıştan gelen görselleri içeren bir HTML belgesinin temel URI kullanılarak nasıl açılacağını gösterir.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Temel klasörü yüklerken URI'yi iletin
-    // böylece HTML belgesindeki ilgili URI'lere sahip tüm görseller bulunabilir.
+    // Yükleme sırasında temel klasörün URI'sini geçirin
+    // böylece HTML belgesinde bağıl URI'leri olan tüm resimler bulunabilir.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -363,20 +380,20 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-Bir web sayfasının .docx dosyası olarak nasıl kaydedildiğini gösterir.
+Bir web sayfasının .docx dosyası olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
-const string url = "https://www.aspose.com/";
+const string url = "https://ürünler.aspose.com/kelimeler/";
 
-using (HttpClient client = new HttpClient()) 
+using (WebClient client = new WebClient())
 {
-    var bytes = await client.GetByteArrayAsync(url);
+    var bytes = client.DownloadData(url);
     using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // URL, ilgili görüntü yollarının doğru şekilde alındığından emin olmak için tekrar baseUri olarak kullanılır.
+        // Herhangi bir bağıl görüntü yolunun doğru şekilde alındığından emin olmak için URL tekrar bir baseUri olarak kullanılır.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
-        // HTML belgesini akıştan yükleyin ve LoadOptions nesnesini iletin.
+        // HTML belgesini akıştan yükleyin ve LoadOptions nesnesini geçirin.
         Document doc = new Document(stream, options);
 
         // Bu aşamada belgenin içeriğini okuyup düzenleyebilir ve ardından yerel dosya sistemine kaydedebiliriz.
@@ -390,14 +407,14 @@ using (HttpClient client = new HttpClient())
 ```csharp
 Document doc;
 
-// Aspose.Words, şifrelenmiş bir belgeyi şifresi olmadan açmaya çalışırsak bir istisna atar.
+// Şifreli bir belgeyi şifresi olmadan açmaya çalıştığımızda Aspose.Words bir istisna fırlatır.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Böyle bir belge yüklenirken parola, LoadOptions nesnesi kullanılarak belgenin yapıcısına iletilir.
+// Böyle bir belge yüklenirken parola, LoadOptions nesnesi kullanılarak belgenin oluşturucusuna geçirilir.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Şifrelenmiş bir belgeyi LoadOptions nesnesiyle yüklemenin iki yolu vardır.
-// 1 - Belgeyi yerel dosya sisteminden dosya adına göre yükleyin:
+// 1 - Belgeyi yerel dosya sisteminden dosya adına göre yükle:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Belgeyi bir akıştan yükleyin:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))

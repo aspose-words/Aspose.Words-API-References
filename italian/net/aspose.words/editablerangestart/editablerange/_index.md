@@ -3,14 +3,14 @@ title: EditableRangeStart.EditableRange
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words per .NET
-description: EditableRangeStart EditableRange proprietà. Ottiene loggetto facciata che incapsula questo intervallo modificabile di inizio e fine in C#.
+description: Scopri la proprietà EditableRangeStart, la chiave per gestire gli intervalli modificabili senza sforzo. Accedi e controlla i tuoi contenuti con facilità!
 type: docs
 weight: 10
 url: /it/net/aspose.words/editablerangestart/editablerange/
 ---
 ## EditableRangeStart.EditableRange property
 
-Ottiene l'oggetto facciata che incapsula questo intervallo modificabile di inizio e fine.
+Ottiene l'oggetto facciata che incapsula l'inizio e la fine di questo intervallo modificabile.
 
 ```csharp
 public EditableRange EditableRange { get; }
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Gli intervalli modificabili ci consentono di lasciare parti di documenti protetti aperte per la modifica.
+// Gli intervalli modificabili consentono di lasciare aperte parti di documenti protetti per la modifica.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -40,14 +40,14 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Parti diverse dell'intervallo modificabile si collegano tra loro.
+// Le diverse parti dell'intervallo modificabile sono collegate tra loro.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile in sé non è un nodo,
-// ma un'entità che consiste in un inizio, una fine e il contenuto racchiuso.
+// Possiamo accedere ai tipi di nodo di ogni parte in questo modo. L'intervallo modificabile in sé non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e i relativi contenuti racchiusi.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Rimuove un intervallo modificabile. Tutti i nodi che erano all'interno dell'intervallo rimarranno intatti.
+// Rimuovi un intervallo modificabile. Tutti i nodi che si trovavano all'interno dell'intervallo rimarranno intatti.
 editableRange.Remove();
 ```
 

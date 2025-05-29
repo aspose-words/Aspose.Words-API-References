@@ -3,14 +3,14 @@ title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words für .NET
-description: Document VbaProject eigendom. Ruft a ab oder legt es festVbaProject  in C#.
+description: Erfahren Sie, wie Sie VbaProject-Eigenschaften effektiv verwalten. Erfahren Sie, wie Sie VbaProject für verbesserte Automatisierung und optimierte Arbeitsabläufe abrufen oder festlegen.
 type: docs
-weight: 450
+weight: 470
 url: /de/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-Ruft a ab oder legt es fest`VbaProject` .
+Ruft ab oder setzt einen`VbaProject` .
 
 ```csharp
 public VbaProject VbaProject { get; set; }
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -40,7 +40,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

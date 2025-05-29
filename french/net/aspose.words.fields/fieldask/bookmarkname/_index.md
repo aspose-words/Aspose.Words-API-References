@@ -3,7 +3,7 @@ title: FieldAsk.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words pour .NET
-description: FieldAsk BookmarkName propriété. Obtient ou définit le nom du signet en C#.
+description: Découvrez la propriété FieldAsk BookmarkName pour gérer et personnaliser facilement vos favoris. Améliorez votre expérience utilisateur grâce à une navigation fluide !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldask/bookmarkname/
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où sera placée la réponse à notre champ ASK.
+    // Placez un champ où la réponse à notre champ ASK sera placée.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur personnalisé,
+    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur d'invite personnalisé,
     // qui se produira lors d'un publipostage.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

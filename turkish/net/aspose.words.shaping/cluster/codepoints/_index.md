@@ -2,8 +2,8 @@
 title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
-second_title: Aspose.Words for .NET
-description: Cluster Codepoints mülk. Kümenin kod noktalarını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Küme kod noktalarını verimli bir şekilde almak ve veri yönetimi yeteneklerinizi geliştirmek için Küme Kod Noktaları özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.shaping/cluster/codepoints/

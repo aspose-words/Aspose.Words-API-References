@@ -2,15 +2,15 @@
 title: DocumentSecurity Enum
 linktitle: DocumentSecurity
 articleTitle: DocumentSecurity
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Properties.DocumentSecurity Sıralama. Değer olarak kullanılırSecurity özellik. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin güvenliğini artırmak için Aspose.Words.DocumentSecurity enum'unu keşfedin. En iyi koruma için güvenlik seviyelerini kolayca belirtin ve yönetin.
 type: docs
-weight: 4490
+weight: 5220
 url: /tr/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
 
-Değer olarak kullanılır[`Security`](../builtindocumentproperties/security/) özellik. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir.
+Bir değer olarak kullanılır[`Security`](../builtindocumentproperties/security/) property. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir.
 
 ```csharp
 [Flags]
@@ -21,11 +21,11 @@ public enum DocumentSecurity
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Özellik tarafından belirtilen güvenlik durumu yok. |
-| PasswordProtected | `1` | Belge şifre korumalıdır. (Not şu ana kadar hiçbir belgede görülmedi). |
-| ReadOnlyRecommended | `2` | Mümkünse salt okunur olarak açılacak belge ancak ayar geçersiz kılınabilir. |
+| None | `0` | Özellik tarafından belirtilen herhangi bir güvenlik durumu yok. |
+| PasswordProtected | `1` | Belge parola korumalıdır. (Not şimdiye kadar hiçbir belgede görülmemiştir). |
+| ReadOnlyRecommended | `2` | Mümkünse salt okunur olarak açılacak belge, ancak ayar geçersiz kılınabilir. |
 | ReadOnlyEnforced | `4` | Her zaman salt okunur olarak açılacak belge. |
-| ReadOnlyExceptAnnotations | `8` | Ek açıklamalar dışında her zaman salt okunur olarak açılacak belge. |
+| ReadOnlyExceptAnnotations | `8` | Açıklamalar hariç her zaman salt okunur olarak açılacak belge. |
 
 ## Örnekler
 
@@ -36,7 +36,7 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Bir belgeyi salt okunur olacak şekilde yapılandırırsak, "Güvenlik" yerleşik özelliğini kullanarak bu durumu gösterecektir.
+// Bir belgeyi salt okunur olarak yapılandırırsak, bu durumu "Güvenlik" yerleşik özelliğini kullanarak görüntüler.
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// "Güvenlik" açıklayıcı bir özelliktir. Değerini manuel olarak düzenleyebiliriz.
+// "Güvenlik" tanımlayıcı bir özelliktir. Değerini manuel olarak düzenleyebiliriz.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

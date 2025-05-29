@@ -3,7 +3,7 @@ title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words für .NET
-description: DocumentBuilder PageSetup eigendom. Gibt ein Objekt zurück das die aktuellen Seiteneinstellungen und Abschnittseigenschaften darstellt in C#.
+description: Erkunden Sie die DocumentBuilder PageSetup-Eigenschaft, um auf die aktuellen Seiten- und Abschnittseinstellungen zuzugreifen und so die Formatierung und Layouteffizienz Ihres Dokuments zu verbessern.
 type: docs
 weight: 160
 url: /de/net/aspose.words/documentbuilder/pagesetup/
@@ -18,7 +18,7 @@ public PageSetup PageSetup { get; }
 
 ## Beispiele
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
+Zeigt, wie Sie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument anwenden und zurücksetzen.
 
 ```csharp
 Document doc = new Document();
@@ -29,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
-// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Dokumentgenerator beginnen,
+// Es werden die aktuellen Seiteneinrichtungseigenschaften des Builders übernommen.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
+// Wir können die Seiteneinrichtungseigenschaften mit der Methode „ClearFormatting“ auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

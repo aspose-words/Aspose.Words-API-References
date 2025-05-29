@@ -3,14 +3,14 @@ title: Shape.Stroked
 linktitle: Stroked
 articleTitle: Stroked
 second_title: Aspose.Words för .NET
-description: Shape Stroked fast egendom. Definierar om sökvägen ska streckas i C#.
+description: Upptäck egenskapen Formlinje för att förbättra dina designer! Kontrollera banstilen med precision för fantastiska visuella effekter. Öka din kreativitet!
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Definierar om sökvägen ska streckas.
+Definierar om banan ska vara linjerad.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -18,9 +18,9 @@ public bool Stroked { get; set; }
 
 ## Anmärkningar
 
-Detta är en genväg till[`On`](../../stroke/on/) fast egendom.
+Detta är en genväg till[`On`](../../stroke/on/) egendom.
 
-Standardvärdet är`Sann`.
+Standardvärdet är`sann`.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -103,7 +102,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

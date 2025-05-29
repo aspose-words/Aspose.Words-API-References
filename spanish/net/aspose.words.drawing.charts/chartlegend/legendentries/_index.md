@@ -3,9 +3,9 @@ title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
 second_title: Aspose.Words para .NET
-description: ChartLegend LegendEntries propiedad. Devuelve una colección de entradas de leyenda para todas las series y líneas de tendencia del gráfico principal en C#.
+description: Explore la propiedad LegendEntries de ChartLegend para acceder a una colección completa de entradas de leyenda para todas las series y líneas de tendencia en su gráfico.
 type: docs
-weight: 10
+weight: 30
 url: /es/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

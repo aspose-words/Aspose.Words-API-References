@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportPageMargins proprietà. Specifica se i margini della pagina vengono esportati in HTML MHTML o EPUB. Limpostazione predefinita èfalso  in C#.
+description: Scopri come la proprietà ExportPageMargins di HtmlSaveOptions migliora le tue esportazioni HTML, MHTML ed EPUB controllando i margini di pagina per una presentazione impeccabile.
 type: docs
 weight: 210
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-Specifica se i margini della pagina vengono esportati in HTML, MHTML o EPUB. L'impostazione predefinita è`falso` .
+Specifica se i margini della pagina vengono esportati in HTML, MHTML o EPUB. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -18,32 +18,32 @@ public bool ExportPageMargins { get; set; }
 
 ## Osservazioni
 
-Aspose.Words non mostra l'area dei margini della pagina per impostazione predefinita. Se qualche elemento è completamente o parzialmente tagliato dal bordo del documento, l'area visualizzata può essere estesa con questa opzione.
+Per impostazione predefinita, Aspose.Words non mostra l'area dei margini della pagina. Se uno qualsiasi degli elementi viene tagliato completamente o parzialmente dal bordo del documento, l'area visualizzata può essere estesa con questa opzione.
 
 ## Esempi
 
-Mostra come mostrare oggetti fuori limite nei documenti HTML di output.
+Mostra come visualizzare oggetti fuori dai limiti nei documenti HTML di output.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizza un generatore per inserire una forma senza avvolgimento.
+// Utilizzare un builder per inserire una forma senza avvolgimento.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// Valori di posizione della forma negativi possono posizionare la forma fuori dai limiti della pagina.
-// Se lo esportiamo in HTML, la forma apparirà troncata.
+// I valori negativi per la posizione della forma potrebbero posizionare la forma al di fuori dei limiti della pagina.
+// Se esportiamo questo in HTML, la forma apparirà troncata.
 shape.Left = -150;
 
-// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere se modificare la pagina per visualizzare completamente gli oggetti fuori limite.
+// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere se adattare la pagina in modo da visualizzare completamente gli oggetti fuori dai limiti.
 // Se impostiamo il flag "ExportPageMargins" su "true", la forma sarà completamente visibile nell'HTML di output.
 // Se impostiamo il flag "ExportPageMargins" su "false",
-// il nostro documento visualizzerà la forma troncata come la vedremmo in Microsoft Word.
+// il nostro documento visualizzerà la forma troncata, così come la vedremmo in Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

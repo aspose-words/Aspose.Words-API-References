@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToHeaderFooter
 linktitle: MoveToHeaderFooter
 articleTitle: MoveToHeaderFooter
 second_title: Aspose.Words für .NET
-description: DocumentBuilder MoveToHeaderFooter methode. Bewegt den Cursor an den Anfang einer Kopf oder Fußzeile im aktuellen Abschnitt in C#.
+description: Navigieren Sie mit der DocumentBuilder MoveToHeaderFooter-Methode mühelos zu Kopf- und Fußzeilen und steigern Sie so die Effizienz Ihrer Dokumentbearbeitung.
 type: docs
-weight: 540
+weight: 580
 url: /de/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,30 +18,29 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | Gibt die Kopf- oder Fußzeile an, zu der verschoben werden soll. |
+| headerFooterType | HeaderFooterType | Gibt die Kopf- oder Fußzeile an, zu der gewechselt werden soll. |
 
 ## Bemerkungen
 
-Nachdem Sie den Cursor in eine Kopf- oder Fußzeile bewegt haben, können Sie den Rest verwenden[`DocumentBuilder`](../) -Methoden zum Ändern des Inhalts der Kopf- oder Fußzeile.
+Nachdem Sie den Cursor in eine Kopf- oder Fußzeile bewegt haben, können Sie den Rest[`DocumentBuilder`](../) -Methoden zum Ändern des Inhalts der Kopf- oder Fußzeile.
 
-Wenn Sie für die erste Seite unterschiedliche Kopf- und Fußzeilen erstellen möchten, müssen Sie festlegen[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+Wenn Sie Kopf- und Fußzeilen für die erste Seite unterschiedlich gestalten möchten, müssen Sie festlegen[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Wenn Sie Kopf- und Fußzeilen für gerade und ungerade Seiten unterschiedlich erstellen möchten, müssen Sie festlegen[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Wenn Sie Kopf- und Fußzeilen für gerade und ungerade Seiten unterschiedlich gestalten möchten, müssen Sie festlegen[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Verwenden[`MoveToSection`](../movetosection/) um aus der Kopfzeile in den Haupttext zu gelangen.
+Verwenden[`MoveToSection`](../movetosection/) aus der Kopfzeile in den Haupttext zu gelangen.
 
 ## Beispiele
 
-Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
+Zeigt, wie Sie ein Bild einfügen und als Wasserzeichen verwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fügen Sie das Bild in die Kopfzeile ein, damit es auf jeder Seite sichtbar ist.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -54,43 +53,17 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet (.NetStandard 2.0).
+Zeigt, wie Sie mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie das Bild in die Kopfzeile ein, damit es auf jeder Seite sichtbar ist.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Platzieren Sie das Bild in der Mitte der Seite.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
-```
-
-Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Geben Sie an, dass wir unterschiedliche Kopf- und Fußzeilen für die erste, gerade und ungerade Seite wünschen.
+// Geben Sie an, dass wir für die erste, die gerade und die ungerade Seite unterschiedliche Kopf- und Fußzeilen wünschen.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dem Dokument dann drei Seiten hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

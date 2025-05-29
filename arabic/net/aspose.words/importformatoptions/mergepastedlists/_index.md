@@ -3,14 +3,14 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions MergePastedLists ملكية. الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: دمج قوائم التحكم باستخدام خاصية ImportFormatOptions MergePastedLists. إدارة القوائم الملصقة بسهولة لتحسين تنسيق المستندات. الافتراضي: خطأ.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية تحدد ما إذا كانت القوائم الملصقة سيتم دمجها مع القوائم المحيطة أم لا. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool MergePastedLists { get; set; }
@@ -26,7 +26,7 @@ Document dstDoc = new Document(MyDir + "List destination.docx");
 
 ImportFormatOptions options = new ImportFormatOptions { MergePastedLists = true };
 
-// قم بتعيين خاصية "MergePastedLists" على "صحيح"، وسيتم دمج القوائم الملصقة مع القوائم المحيطة.
+// قم بتعيين الخاصية "MergePastedLists" إلى "true"، سيتم دمج القوائم الملصقة مع القوائم المحيطة.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 
 dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");

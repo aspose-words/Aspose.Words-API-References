@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument
 linktitle: AsposeWordsPrintDocument
 articleTitle: AsposeWordsPrintDocument
 second_title: Aspose.Words per .NET
-description: AsposeWordsPrintDocument costruttore. Inizializza una nuova istanza di questa classe in C#.
+description: Scopri il costruttore PrintDocument di Aspose.Words per creare e gestire facilmente la stampa di documenti nelle tue applicazioni. Aumenta la produttività con un'integrazione perfetta!
 type: docs
 weight: 10
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -22,17 +22,17 @@ public AsposeWordsPrintDocument(Document document)
 
 ## Esempi
 
-Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento e quindi visualizzare un'anteprima di stampa.
+Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento, per poi visualizzare un'anteprima di stampa.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Chiama il metodo "Mostra" per visualizzare in alto il modulo di anteprima di stampa.
+// Chiama il metodo "Show" per visualizzare in primo piano il modulo di anteprima di stampa.
 previewDlg.Show();
 
-// Inizializza la finestra di dialogo di stampa con il numero di pagine nel documento.
+// Inizializza la finestra di dialogo Stampa con il numero di pagine del documento.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -51,18 +51,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // Specifica la nuova modalità di stampa a colori.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Utilizza il metodo "CachePrinterSettings" per ridurre i tempi della prima chiamata del metodo "Print".
+// Utilizzare il metodo "CachePrinterSettings" per ridurre il tempo della prima chiamata del metodo "Print".
 awPrintDoc.CachePrinterSettings();
 
-// Chiama il metodo "Hide", quindi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in alto.
+// Chiamare il metodo "Hide" e poi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in primo piano.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Passa il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
+// Passare il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

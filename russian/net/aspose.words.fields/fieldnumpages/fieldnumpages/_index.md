@@ -3,7 +3,7 @@ title: FieldNumPages
 linktitle: FieldNumPages
 articleTitle: FieldNumPages
 second_title: Aspose.Words для .NET
-description: FieldNumPages строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldNumPages, необходимый инструмент для бесперебойного управления страницами в ваших проектах. Раскройте эффективность и улучшите свой опыт кодирования!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnumpages/fieldnumpages/

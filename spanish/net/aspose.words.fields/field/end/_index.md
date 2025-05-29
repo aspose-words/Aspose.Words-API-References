@@ -3,7 +3,7 @@ title: Field.End
 linktitle: End
 articleTitle: End
 second_title: Aspose.Words para .NET
-description: Field End propiedad. Obtiene el nodo que representa el final del campo en C#.
+description: Descubra la propiedad Fin de campo. Acceda fácilmente al nodo que representa el fin del campo para una gestión de datos fluida y un rendimiento mejorado.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/field/end/
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // Iterar sobre la colección de campos e imprimir el contenido y el tipo
     // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implementación del visitante del documento que imprime la información del campo.
+/// Implementación del documento de visitante que imprime información del campo.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

@@ -3,14 +3,14 @@ title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
 second_title: Aspose.Words per .NET
-description: ChartXValue DateTimeValue proprietà. Ottiene il valore data/ora memorizzato in C#.
+description: Scopri la proprietà ChartXValue DateTimeValue per recuperare e gestire facilmente i valori datetime memorizzati per una migliore visualizzazione dei dati.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/
 ---
 ## ChartXValue.DateTimeValue property
 
-Ottiene il valore data/ora memorizzato.
+Ottiene il valore datetime memorizzato.
 
 ```csharp
 public DateTime DateTimeValue { get; }

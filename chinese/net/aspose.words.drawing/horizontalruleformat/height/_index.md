@@ -2,15 +2,15 @@
 title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
-second_title: 用于 .NET 的 Aspose.Words
-description: HorizontalRuleFormat Height 财产. 获取或设置水平线的高度 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松调整水平线的高度。探索高度属性，为您的网页项目提供可定制的设计。立即优化您的布局！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-获取或设置水平线的高度。
+获取或设置水平规则的高度。
 
 ```csharp
 public double Height { get; set; }
@@ -24,15 +24,15 @@ public double Height { get; set; }
 
 ## 评论
 
-这是一个快捷方式[`Height`](../../shapebase/height/)财产。
+这是[`Height`](../../shapebase/height/)财产。
 
-有效值范围从 0 到 1584（含）。
+有效值范围为 0 至 1584（含）。
 
 默认值为 1.5。
 
 ## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+展示如何插入水平线形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

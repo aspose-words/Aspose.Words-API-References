@@ -3,7 +3,7 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: PreferredWidth Type свойство. Получает единицу измерения используемую для этого предпочтительного значения ширины на С#.
+description: Откройте для себя свойство PreferredWidth Type, которое определяет единицу измерения для предпочтительных значений ширины, повышая точность и гибкость вашего дизайна.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/preferredwidth/type/

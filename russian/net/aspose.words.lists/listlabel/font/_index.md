@@ -3,7 +3,7 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words для .NET
-description: ListLabel Font свойство. Получает шрифт метки списка на С#.
+description: Откройте для себя свойство шрифта ListLabel, чтобы настроить стиль шрифта метки списка и улучшить дизайн, придав ему профессиональный вид.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listlabel/font/

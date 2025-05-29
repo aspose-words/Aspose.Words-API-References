@@ -3,9 +3,9 @@ title: OdtSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words för .NET
-description: OdtSaveOptions Password fast egendom. Hämtar eller ställer in ett lösenord för att kryptera dokument i C#.
+description: Skydda dina dokument med OdtSaveOptions lösenordsegenskap. Ställ enkelt in eller hämta ett lösenord för robust kryptering och förbättrat dataskydd.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.saving/odtsaveoptions/password/
 ---
 ## OdtSaveOptions.Password property
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Anmärkningar
 
-För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
+För att spara dokument utan kryptering bör den här egenskapen vara`null` eller tom sträng.
 
 ## Exempel
 
@@ -29,15 +29,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Skapa ett nytt OdtSaveOptions och skicka antingen "SaveFormat.Odt",
+// Skapa en ny OdtSaveOptions och skicka antingen "SaveFormat.Odt",
  // eller "SaveFormat.Ott" som formatet att spara dokumentet i.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Om vi öppnar det här dokumentet med en lämplig redigerare,
-// det kommer att fråga oss om lösenordet vi angav i SaveOptions-objektet.
+// Om vi öppnar detta dokument med en lämplig editor,
+// den kommer att be oss ange lösenordet vi angav i SaveOptions-objektet.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
@@ -45,7 +45,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Om vi vill öppna eller redigera detta dokument igen med Aspose.Words,
-// vi måste tillhandahålla ett LoadOptions-objekt med rätt lösenord till laddningskonstruktorn.
+// vi måste ange ett LoadOptions-objekt med rätt lösenord till laddningskonstruktorn.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

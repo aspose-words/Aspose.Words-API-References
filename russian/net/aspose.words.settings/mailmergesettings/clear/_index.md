@@ -3,14 +3,14 @@ title: MailMergeSettings.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words для .NET
-description: MailMergeSettings Clear метод. Очищает настройки слияния почты таким образом что при сохранении документа никакие настройки слияния почты не сохраняются и он становится обычным документом на С#.
+description: С легкостью сбросьте настройки слияния почты с помощью метода MailMergeSettings Clear, преобразуя ваш документ в стандартный формат для удобного использования.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Очищает настройки слияния почты таким образом, что при сохранении документа никакие настройки слияния почты не сохраняются и он становится обычным документом.
+Очищает настройки слияния почты таким образом, что при сохранении документа настройки слияния почты не сохраняются и он становится обычным документом.
 
 ```csharp
 public void Clear()

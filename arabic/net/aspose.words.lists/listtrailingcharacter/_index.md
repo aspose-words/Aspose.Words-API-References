@@ -3,9 +3,9 @@ title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Lists.ListTrailingCharacter تعداد. يحدد الحرف الذي يفصل تسمية القائمة عن نص الفقرة في C#.
+description: اكتشف Aspose.Words.Lists.ListTrailingCharacter لتخصيص تسميات القائمة وتحسين تنسيق الفقرات للحصول على عرض مستند مصقول.
 type: docs
-weight: 3540
+weight: 3990
 url: /ar/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -20,13 +20,13 @@ public enum ListTrailingCharacter
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Tab | `0` | يتم وضع حرف جدولة بين تسمية القائمة ونص الفقرة. |
-| Space | `1` | يتم وضع مسافة بين عنوان القائمة ونص الفقرة. |
+| Tab | `0` | يتم وضع علامة التبويب بين تسمية القائمة ونص الفقرة. |
+| Space | `1` | يتم وضع مسافة بين تسمية القائمة ونص الفقرة. |
 | Nothing | `2` | لا يوجد حرف فاصل بين تسمية القائمة ونص الفقرة. |
 
 ## ملاحظات
 
-تستخدم كقيمة ل[`TrailingCharacter`](../listlevel/trailingcharacter/) ملكية.
+تستخدم كقيمة لـ[`TrailingCharacter`](../listlevel/trailingcharacter/) ملكية.
 
 ## أمثلة
 
@@ -35,11 +35,11 @@ public enum ListTrailingCharacter
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// أنشئ قائمة من قالب Microsoft Word، وقم بتخصيص المستويين الأولين من قائمتها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستويين الأولين من القائمة.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -60,12 +60,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// ستعمل قيمة NumberFormat هذه على إنشاء رموز قائمة نقطية على شكل نجمة.
+// ستقوم قيمة NumberFormat هذه بإنشاء رموز قائمة نقطية على شكل نجمة.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// قم بإنشاء فقرات وتطبيق كلا مستويي القائمة بتنسيق القائمة المخصص لدينا عليها.
+// قم بإنشاء فقرات ثم قم بتطبيق مستويي القائمة لتنسيق القائمة المخصصة عليها.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

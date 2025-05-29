@@ -3,7 +3,7 @@ title: FieldMergeRec
 linktitle: FieldMergeRec
 articleTitle: FieldMergeRec
 second_title: Aspose.Words per .NET
-description: FieldMergeRec costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FieldMergeRec: il tuo strumento essenziale per unire i dati in modo fluido. Ottieni l'efficienza con il nostro costruttore predefinito oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldmergerec/fieldmergerec/

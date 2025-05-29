@@ -3,7 +3,7 @@ title: Comment.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words für .NET
-description: Comment Author eigendom. Gibt den Autorennamen für einen Kommentar zurück oder legt ihn fest in C#.
+description: Verwalten Sie Kommentarautoren mühelos mit der Eigenschaft „Kommentarautor“. Geben Sie Autorennamen einfach zurück oder legen Sie sie fest, um die Benutzerinteraktion und die Inhaltsübersicht zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words/comment/author/
@@ -18,7 +18,7 @@ public string Author { get; set; }
 
 ## Bemerkungen
 
-Kann nicht sein`Null`.
+Kann nicht sein`null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
@@ -30,9 +30,9 @@ Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen „Top-Level“-Kommentar und nicht um einen Antworttyp-Kommentar.
-// Alle Kommentare der obersten Ebene zusammen mit etwaigen Antworten drucken.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Wenn ein Kommentar keinen Vorgänger hat, handelt es sich um einen Kommentar der obersten Ebene und nicht um einen Kommentar vom Typ „Antwort“.
+// Alle Kommentare der obersten Ebene zusammen mit allen möglichen Antworten ausdrucken.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

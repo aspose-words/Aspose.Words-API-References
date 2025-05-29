@@ -2,15 +2,15 @@
 title: FieldAsk.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAsk PromptOnceOnMailMerge 财产. 获取或设置每次邮件合并操作是否应接收一次用户响应 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldAsk PromptOnceOnMailMerge 优化您的邮件合并。高效控制用户回复，提升数据准确性并简化流程。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
 ## FieldAsk.PromptOnceOnMailMerge property
 
-获取或设置每次邮件合并操作是否应接收一次用户响应。
+获取或设置是否应在每次邮件合并操作中接收一次用户响应。
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -18,7 +18,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ## 例子
 
-演示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 public void FieldAsk()
@@ -45,7 +45,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
+    // 邮件合并期间，ASK 字段将默认响应应用于其各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

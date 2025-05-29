@@ -2,8 +2,8 @@
 title: NodeCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
-second_title: Aspose.Words for .NET
-description: NodeCollection ToArray yöntem. Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar C#'da.
+second_title: .NET için Aspose.Words
+description: NodeCollection ToArray metodunu keşfedin, düğüm koleksiyonunuzu zahmetsizce yeni bir diziye dönüştürün, veri yönetimini ve erişilebilirliğini geliştirin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/nodecollection/toarray/
@@ -22,13 +22,13 @@ Bir dizi düğüm.
 
 ## Notlar
 
-Yineleyiciyi geçersiz kıldığından ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız.
+düğümden oluşan bir koleksiyon üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız çünkü bu yineleyiciyi geçersiz kılar ve canlı koleksiyonlar için yenilemeler gerektirir.
 
-Yineleme sırasında düğümleri ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak ve ardından dizi üzerinde yineleme yapmak için bu yöntemi kullanın.
+Yineleme sırasında düğümleri ekleyip kaldırabilmek için, bu yöntemi kullanarak düğümü sabit boyutlu bir diziye kopyalayın ve ardından dizi üzerinde yineleyin.
 
 ## Örnekler
 
-Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
+Tüm metin kutusu şekillerinin resim şekilleriyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

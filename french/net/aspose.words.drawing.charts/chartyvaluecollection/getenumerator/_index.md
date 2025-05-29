@@ -3,9 +3,9 @@ title: ChartYValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: ChartYValueCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode ChartYValueCollection GetEnumerator : parcourez efficacement les données en toute simplicité et améliorez vos capacités de traitement des données.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
 ---
 ## ChartYValueCollection.GetEnumerator method

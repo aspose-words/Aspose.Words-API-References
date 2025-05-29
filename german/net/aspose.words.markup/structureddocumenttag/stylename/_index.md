@@ -3,14 +3,14 @@ title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag StyleName eigendom. Ruft den Namen des Stils ab der auf das strukturierte DokumentTag angewendet wird oder legt diesen fest in C#.
+description: Entdecken Sie die StyleName-Eigenschaft von StructuredDocumentTag. Verwalten und passen Sie Stile für Ihre Dokumente einfach an, um Ordnung und Übersichtlichkeit zu verbessern.
 type: docs
 weight: 270
 url: /de/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-Ruft den Namen des Stils ab, der auf das strukturierte Dokument-Tag angewendet wird, oder legt diesen fest.
+Ruft den Namen des Stils ab, der auf das strukturierte Dokument-Tag angewendet wird, oder legt ihn fest.
 
 ```csharp
 public string StyleName { get; set; }
@@ -24,13 +24,13 @@ Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
-// 1 – Ein Stilobjekt aus der Stilsammlung des Dokuments anwenden:
+// Unten finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
+// 1 – Wenden Sie ein Stilobjekt aus der Stilsammlung des Dokuments an:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 – Einen Stil im Dokument namentlich referenzieren:
+// 2 - Verweisen Sie im Dokument anhand des Namens auf einen Stil:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

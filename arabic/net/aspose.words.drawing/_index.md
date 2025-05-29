@@ -3,65 +3,71 @@ title: Aspose.Words.Drawing
 linktitle: Aspose.Words.Drawing
 articleTitle: Aspose.Words.Drawing
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.Drawing توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها في C#.
+description: اكتشف مساحة اسم Aspose.Words.Drawing لإنشاء كائنات رسم مذهلة وتعديلها بسهولة، مما يعزز الجاذبية البصرية لمستندك.
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/aspose.words.drawing/
 ---
-ال**Aspose.Words.Drawing** توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها.
+ال**افترض.كلمات.رسم** توفر مساحة الاسم فئات تسمح بإنشاء كائنات الرسم وتعديلها.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [Fill](./fill/) | يمثل تنسيق التعبئة للكائن. |
-| [GradientStop](./gradientstop/) | يمثل نقطة تدرج واحدة. |
-| [GradientStopCollection](./gradientstopcollection/) | يحتوي على مجموعة من[`GradientStop`](../aspose.words.drawing/gradientstop/) الكائنات. |
-| [GroupShape](./groupshape/) | يمثل مجموعة من الأشكال في المستند. |
-| [HorizontalRuleFormat](./horizontalruleformat/) | يمثل تنسيق القاعدة الأفقي. |
+| [Adjustment](./adjustment/) | يمثل قيم التعديل المطبقة على الشكل المحدد. |
+| [AdjustmentCollection](./adjustmentcollection/) | يمثل مجموعة للقراءة فقط من[`Adjustment`](../aspose.words.drawing/adjustment/) ضبط القيم المطبقة على الشكل المحدد. |
+| [Fill](./fill/) | يمثل تنسيق التعبئة لكائن. |
+| [GlowFormat](./glowformat/) | يمثل تنسيق التوهج لكائن. |
+| [GradientStop](./gradientstop/) | يمثل نقطة توقف واحدة للتدرج. |
+| [GradientStopCollection](./gradientstopcollection/) | يحتوي على مجموعة من[`GradientStop`](../aspose.words.drawing/gradientstop/) الأشياء. |
+| [GroupShape](./groupshape/) | يمثل مجموعة من الأشكال في مستند. |
+| [HorizontalRuleFormat](./horizontalruleformat/) | يمثل تنسيق القاعدة الأفقية. |
 | [ImageData](./imagedata/) | يحدد صورة للشكل. |
 | [ImageSize](./imagesize/) | يحتوي على معلومات حول حجم الصورة ودقتها. |
 | [OleFormat](./oleformat/) | يوفر الوصول إلى بيانات كائن OLE أو عنصر تحكم ActiveX. |
 | [OlePackage](./olepackage/) | يسمح بالوصول إلى خصائص حزمة OLE. |
-| [ShadowFormat](./shadowformat/) | يمثل تنسيق الظل للكائن. |
+| [ReflectionFormat](./reflectionformat/) | يمثل تنسيق الانعكاس لكائن. |
+| [ShadowFormat](./shadowformat/) | يمثل تنسيق الظل لكائن. |
 | [Shape](./shape/) | يمثل كائنًا في طبقة الرسم، مثل الشكل التلقائي، أو مربع النص، أو الشكل الحر، أو كائن OLE، أو عنصر تحكم ActiveX، أو الصورة. |
-| [ShapeBase](./shapebase/) | الفئة الأساسية للكائنات الموجودة في طبقة الرسم، مثل الشكل التلقائي أو الشكل الحر أو كائن OLE أو عنصر تحكم ActiveX أو الصورة. |
+| [ShapeBase](./shapebase/) | الفئة الأساسية للأشياء الموجودة في طبقة الرسم، مثل الشكل التلقائي، أو الشكل الحر، أو كائن OLE، أو عنصر تحكم ActiveX، أو الصورة. |
 | [SignatureLine](./signatureline/) | يوفر الوصول إلى خصائص سطر التوقيع. |
-| [Stroke](./stroke/) | يحدد حد الشكل. |
+| [SoftEdgeFormat](./softedgeformat/) | يمثل تنسيق الحافة الناعمة لكائن ما. |
+| [Stroke](./stroke/) | يحدد خطًا للشكل. |
 | [TextBox](./textbox/) | يحدد السمات التي تحدد كيفية عرض النص داخل الشكل. |
-| [TextPath](./textpath/) | تحديد النص وتنسيق مسار النص (لكائن WordArt). |
+| [TextPath](./textpath/) | يحدد النص وتنسيق مسار النص (لكائن WordArt). |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [ArrowLength](./arrowlength/) | طول السهم في نهاية السطر. |
-| [ArrowType](./arrowtype/) | يحدد نوع السهم في نهاية السطر. |
-| [ArrowWidth](./arrowwidth/) | عرض السهم في نهاية السطر. |
+| [ArrowLength](./arrowlength/) | طول السهم في نهاية الخط. |
+| [ArrowType](./arrowtype/) | يحدد نوع السهم في نهاية الخط. |
+| [ArrowWidth](./arrowwidth/) | عرض السهم في نهاية الخط. |
 | [DashStyle](./dashstyle/) | نمط الخط المتقطع. |
-| [EndCap](./endcap/) | يحدد نمط الحروف الكبيرة. |
-| [FillType](./filltype/) | يحدد نوع التعبئة للكائن القابل للتعبئة. |
-| [FlipOrientation](./fliporientation/) | القيم المحتملة لاتجاه الشكل. |
-| [GradientStyle](./gradientstyle/) | يحدد نمط التعبئة المتدرجة. |
-| [GradientVariant](./gradientvariant/) | يحدد المتغير للتعبئة المتدرجة. |
+| [EndCap](./endcap/) | يحدد نمط غطاء السطر. |
+| [FillType](./filltype/) | يحدد نوع التعبئة لكائن قابل للتعبئة. |
+| [FlipOrientation](./fliporientation/) | القيم الممكنة لاتجاه الشكل. |
+| [GradientStyle](./gradientstyle/) | يحدد النمط لتعبئة التدرج. |
+| [GradientVariant](./gradientvariant/) | يحدد المتغير لملء التدرج. |
 | [HorizontalAlignment](./horizontalalignment/) | يحدد المحاذاة الأفقية لشكل عائم أو إطار نص أو جدول عائم. |
-| [HorizontalRuleAlignment](./horizontalrulealignment/) | يمثل المحاذاة للقاعدة الأفقية المحددة. |
+| [HorizontalRuleAlignment](./horizontalrulealignment/) | يمثل محاذاة القاعدة الأفقية المحددة. |
 | [ImageType](./imagetype/) | يحدد نوع (تنسيق) الصورة في مستند Microsoft Word. |
 | [JoinStyle](./joinstyle/) | نمط ربط الخط. |
 | [LayoutFlow](./layoutflow/) | يحدد تدفق تخطيط النص في مربع النص. |
 | [PatternType](./patterntype/) | يحدد نمط التعبئة الذي سيتم استخدامه لملء الشكل. |
-| [PresetTexture](./presettexture/) | يحدد المادة التي سيتم استخدامها لملء الشكل. |
-| [RelativeHorizontalPosition](./relativehorizontalposition/) | يحدد الموضع الأفقي للشكل أو إطار النص النسبي. |
-| [RelativeHorizontalSize](./relativehorizontalsize/) | يحدد نسبيًا ما يتم حساب عرض الشكل أو إطار النص أفقيًا. |
-| [RelativeVerticalPosition](./relativeverticalposition/) | يحدد الموضع الرأسي للشكل أو إطار النص النسبي. |
-| [RelativeVerticalSize](./relativeverticalsize/) | يحدد نسبيًا ارتفاع الشكل أو إطار النص الذي يتم حسابه عموديًا. |
+| [PresetTexture](./presettexture/) | يحدد الملمس الذي سيتم استخدامه لملء الشكل. |
+| [RelativeHorizontalPosition](./relativehorizontalposition/) | يحدد ما هو الموضع الأفقي لإطار الشكل أو النص بالنسبة إليه. |
+| [RelativeHorizontalSize](./relativehorizontalsize/) | يحدد بشكل نسبي ما يتم حسابه أفقيًا لعرض الشكل أو إطار النص. |
+| [RelativeVerticalPosition](./relativeverticalposition/) | يحدد ما هو الموضع الرأسي لإطار الشكل أو النص بالنسبة إليه. |
+| [RelativeVerticalSize](./relativeverticalsize/) | يحدد بشكل نسبي ما يتم حسابه من ارتفاع الشكل أو إطار النص عموديًا. |
 | [ShadowType](./shadowtype/) | يحدد نوع ظل الشكل. |
-| [ShapeLineStyle](./shapelinestyle/) | يحدد نمط الخط المركب لـ a[`Shape`](../aspose.words.drawing/shape/) . |
-| [ShapeMarkupLanguage](./shapemarkuplanguage/) | تحديد لغة الترميز المستخدمة للشكل. |
+| [ShapeLineStyle](./shapelinestyle/) | يحدد نمط الخط المركب لـ[`Shape`](../aspose.words.drawing/shape/) . |
+| [ShapeMarkupLanguage](./shapemarkuplanguage/) | يحدد لغة الترميز المستخدمة للشكل. |
+| [ShapeTextOrientation](./shapetextorientation/) | يحدد اتجاه النص في الأشكال. |
 | [ShapeType](./shapetype/) | يحدد نوع الشكل في مستند Microsoft Word. |
-| [TextBoxAnchor](./textboxanchor/) | يحدد القيم المستخدمة للمحاذاة العمودية لنص الشكل. |
+| [TextBoxAnchor](./textboxanchor/) | يحدد القيم المستخدمة لمحاذاة نص الشكل عموديًا. |
 | [TextBoxWrapMode](./textboxwrapmode/) | يحدد كيفية التفاف النص داخل الشكل. |
 | [TextPathAlignment](./textpathalignment/) | محاذاة WordArt. |
-| [TextureAlignment](./texturealignment/) | يحدد المحاذاة لتبليط تعبئة النسيج. |
+| [TextureAlignment](./texturealignment/) | يحدد محاذاة بلاط تعبئة الملمس. |
 | [VerticalAlignment](./verticalalignment/) | يحدد المحاذاة الرأسية لشكل عائم أو إطار نص أو جدول عائم. |
-| [WrapSide](./wrapside/) | يحدد الجانب (الجوانب) من الشكل أو الصورة الذي يلتف النص حوله. |
-| [WrapType](./wraptype/) | يحدد كيفية التفاف النص حول الشكل أو الصورة. |
+| [WrapSide](./wrapside/) | يحدد أي جانب من الشكل أو الصورة يلتف حوله النص. |
+| [WrapType](./wraptype/) | يحدد كيفية لف النص حول الشكل أو الصورة. |

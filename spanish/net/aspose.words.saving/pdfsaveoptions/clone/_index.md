@@ -3,9 +3,9 @@ title: PdfSaveOptions.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words para .NET
-description: PdfSaveOptions Clone método. Crea un clon profundo de este objeto en C#.
+description: Descubra el método Clonar PdfSaveOptions para crear sin esfuerzo un clon profundo de sus objetos, mejorando sus capacidades de gestión de PDF.
 type: docs
-weight: 340
+weight: 370
 url: /es/net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method
@@ -24,8 +24,8 @@ Muestra cómo actualizar todos los campos de un documento inmediatamente antes d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar texto con campos PÁGINA y NUMPAGES. Estos campos no muestran el valor correcto en tiempo real.
-// Necesitaremos actualizarlos manualmente usando métodos de actualización como "Field.Update()" y "Document.UpdateFields()"
+Insertar texto con los campos PAGE y NUMPAGES. Estos campos no muestran el valor correcto en tiempo real.
+// Necesitaremos actualizarlos manualmente utilizando métodos de actualización como "Field.Update()" y "Document.UpdateFields()"
 // cada vez que necesitamos que muestren valores precisos.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
@@ -34,18 +34,18 @@ builder.InsertField("NUMPAGES", "");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Hello World!");
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establece la propiedad "UpdateFields" en "false" para no actualizar todos los campos de un documento justo antes de guardar.
+// Establezca la propiedad "UpdateFields" en "falso" para no actualizar todos los campos de un documento justo antes de una operación de guardado.
 // Esta es la opción preferible si sabemos que todos nuestros campos estarán actualizados antes de guardar.
-// Establece la propiedad "UpdateFields" en "true" para recorrer todo el documento
-// campos y actualícelos antes de guardarlo como PDF. Esto asegurará que se muestren todos los campos.
+// Establezca la propiedad "UpdateFields" en "verdadero" para iterar a través de todo el documento
+// campos y actualizarlos antes de guardarlo como PDF. Esto garantizará que se muestren todos los campos.
 // los valores más precisos en el PDF.
 options.UpdateFields = updateFields;
 
-// Podemos clonar objetos PdfSaveOptions.
+//Podemos clonar objetos PdfSaveOptions.
 Assert.AreNotSame(options, options.Clone());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);

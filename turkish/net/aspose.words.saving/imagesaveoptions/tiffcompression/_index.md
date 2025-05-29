@@ -2,15 +2,15 @@
 title: ImageSaveOptions.TiffCompression
 linktitle: TiffCompression
 articleTitle: TiffCompression
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions TiffCompression mülk. Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: TIFF resimlerinizi ImageSaveOptions TiffCompression özelliğiyle optimize ederek kaliteli sonuçlar için en iyi sıkıştırma yöntemini seçebilirsiniz.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
+Oluşturulan görüntüleri TIFF biçimine kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -18,7 +18,7 @@ public TiffCompression TiffCompression { get; set; }
 
 ## Notlar
 
-Yalnızca TIFF'e kaydederken etkili olur.
+Sadece TIFF'e kaydederken etkilidir.
 
 Varsayılan değer:Lzw.
 
@@ -28,46 +28,22 @@ TIFF görüntüsüne dönüştürdüğümüz bir belgeye uygulanacak sıkıştı
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-            // bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
-            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Kaydederken sıkıştırma yapmamak için "TiffCompression" özelliğini "TiffCompression.None" olarak ayarlayın.
+// bu da çok büyük bir çıktı dosyasıyla sonuçlanabilir.
+// RLE sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Rle" olarak ayarlayın
+// LZW sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Lzw" olarak ayarlayın.
+// CCITT3 sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Ccitt3" olarak ayarlayın.
+// CCITT4 sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Ccitt4" olarak ayarlayın.
+options.TiffCompression = tiffCompression;
 
-            // Kaydetme sırasında sıkıştırma uygulamamak için "TiffCompression" özelliğini "TiffCompression.None" olarak ayarlayın,
-            // bu çok büyük bir çıktı dosyasıyla sonuçlanabilir.
-            // RLE sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Rle" olarak ayarlayın
-            // LZW sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Lzw" olarak ayarlayın.
-            // CCITT3 sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Ccitt3" olarak ayarlayın.
-            // CCITT4 sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Ccitt4" olarak ayarlayın.
-            options.TiffCompression = tiffCompression;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
-
-            switch (tiffCompression)
-            {
-                case TiffCompression.None:
-                    Assert.That(3000000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Rle:
-#if NET5_0_OR_GREATER
-                    Assert.That(6000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#else
-                    Assert.That(600000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#endif
-                    break;
-                case TiffCompression.Lzw:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt3:
-                    Assert.That(90000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt4:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-            }
+doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
 ```
 
 ### Ayrıca bakınız

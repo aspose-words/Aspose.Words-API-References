@@ -2,15 +2,15 @@
 title: MailMerge.TrimWhitespaces
 linktitle: TrimWhitespaces
 articleTitle: TrimWhitespaces
-second_title: Aspose.Words for .NET
-description: MailMerge TrimWhitespaces mülk. Adresmektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırpılıp kırpılmadığını belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: TrimWhitespaces özelliğiyle posta birleştirme işleminizi optimize edin; doğru sonuçlar için baştaki ve sondaki boşlukları kaldırarak temiz veriler sağlayın.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-Adres-mektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırpılıp kırpılmadığını belirten bir değer alır veya ayarlar.
+Posta birleştirme değerlerinden son ve öndeki boşlukların kesilip kesilmeyeceğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool TrimWhitespaces { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`doğru` .
 
 ## Örnekler
 
-Adres-mektup birleştirme yürütülürken bir veri kaynağının değerlerindeki boşlukların nasıl kırpılacağını gösterir.
+Bir posta birleştirme işlemi yürütülürken bir veri kaynağının değerlerinden boşlukların nasıl kırpılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

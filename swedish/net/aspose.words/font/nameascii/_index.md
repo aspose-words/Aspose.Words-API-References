@@ -3,14 +3,14 @@ title: Font.NameAscii
 linktitle: NameAscii
 articleTitle: NameAscii
 second_title: Aspose.Words för .NET
-description: Font NameAscii fast egendom. Returnerar eller ställer in teckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127 i C#.
+description: Upptäck egenskapen Font NameAscii för att anpassa latinska textteckensnitt och förbättra din design med teckenkoder 0–127 för förbättrad läsbarhet.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/font/nameascii/
 ---
 ## Font.NameAscii property
 
-Returnerar eller ställer in teckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127).
+Returnerar eller anger teckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127).
 
 ```csharp
 public string NameAscii { get; set; }
@@ -18,26 +18,26 @@ public string NameAscii { get; set; }
 
 ## Exempel
 
-Visar hur Microsoft Word kan kombinera två olika typsnitt i en körning.
+Visar hur Microsoft Word kan kombinera två olika teckensnitt i en omgång.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Antag en körning som vi använder byggaren för att infoga när vi använder den här teckensnittskonfigurationen
-// innehåller tecken inom ASCII-teckens intervall. Isåfall,
-// det kommer att visa dessa tecken med detta teckensnitt.
+// Antag en körning som vi använder byggaren för att infoga när vi använder denna typsnittskonfiguration
+// innehåller tecken inom ASCII-tecknens intervall. I så fall,
+// den kommer att visa de tecken som använder det här teckensnittet.
 builder.Font.NameAscii = "Calibri";
 
-// Utan något annat teckensnitt specificerat kommer byggaren också att tillämpa detta teckensnitt på alla tecken som den infogar.
+// Om inget annat teckensnitt anges kommer verktyget även att använda detta teckensnitt på alla tecken som infogas.
 Assert.AreEqual("Calibri", builder.Font.Name);
 
-// Ange ett teckensnitt som ska användas för alla tecken utanför ASCII-intervallet.
-// Helst bör detta teckensnitt ha en glyf för varje obligatorisk icke-ASCII-teckenkod.
+// Ange ett teckensnitt som ska användas för alla tecken utanför ASCII-området.
+// Helst bör detta typsnitt ha en glyf för varje obligatorisk icke-ASCII-teckenkod.
 builder.Font.NameOther = "Courier New";
 
-// Infoga en körning med ett ord som består av ASCII-tecken och ett ord med alla tecken utanför det intervallet.
-// Varje tecken kommer att visas med något av teckensnitten, beroende på.
+// Infoga en sekvens med ett ord som består av ASCII-tecken och ett ord med alla tecken utanför det intervallet.
+// Varje tecken visas med något av teckensnitten, beroende på.
 builder.Writeln("Hello, Привет");
 
 doc.Save(ArtifactsDir + "Font.NameAscii.docx");

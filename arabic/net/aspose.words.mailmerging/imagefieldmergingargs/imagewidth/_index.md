@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageWidth
 linktitle: ImageWidth
 articleTitle: ImageWidth
 second_title: Aspose.Words لـ .NET
-description: ImageFieldMergingArgs ImageWidth ملكية. يحدد عرض الصورة المراد إدراجها في المستند في C#.
+description: قم بضبط ImageWidth في ImageFieldMergingArgs لإدراج الصور بسلاسة في مستنداتك، مما يعزز الجاذبية البصرية والتخطيط.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/
 ---
 ## ImageFieldMergingArgs.ImageWidth property
 
-يحدد عرض الصورة المراد إدراجها في المستند.
+يحدد عرض الصورة التي سيتم إدراجها في المستند.
 
 ```csharp
 public MergeFieldImageDimension ImageWidth { get; set; }
@@ -18,9 +18,9 @@ public MergeFieldImageDimension ImageWidth { get; set; }
 
 ## ملاحظات
 
-تأتي قيمة هذه الخاصية في البداية من كود MERGEFIELD المطابق، الموجود في مستند قالب . لتجاوز القيمة الأولية، يجب عليك تعيين مثيل of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) فئة لهذه الخاصية أو قم بتعيين خصائص المثيل of[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) فئة تم إرجاعها بواسطة هذه الخاصية.
+تأتي قيمة هذه الخاصية مبدئيًا من كود MERGEFIELD المقابل، الموجود في مستند القالب . لتجاوز القيمة الأولية، يجب عليك تعيين مثيل لـ [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) الفئة لهذه الخاصية أو تعيين الخصائص لـ instance من[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) الفئة التي تم إرجاعها بواسطة هذه الخاصية.
 
-للإشارة إلى ضرورة تطبيق القيمة الأصلية لعرض الصورة، يجب عليك تعيين`باطل` قيمة لهذه الخاصية أو قم بتعيين القيمة[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) خاصية المثيل of[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) الفئة التي تم إرجاعها بواسطة هذه الخاصية إلى قيمة سالبة.
+للإشارة إلى أنه يجب تطبيق القيمة الأصلية لعرض الصورة، يجب عليك تعيين`باطل` القيمة لهذه الخاصية أو تعيين[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) خاصية لـ instance من[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) الفئة التي تم إرجاعها بواسطة هذه الخاصية إلى قيمة سلبية.
 
 ## أمثلة
 
@@ -31,7 +31,7 @@ public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // أدخل MERGEFIELD الذي سيقبل الصور من المصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
+    // أدخل حقل دمج يقبل الصور من مصدر أثناء دمج البريد. استخدم رمز الحقل للإشارة إليه.
     // عمود في مصدر البيانات يحتوي على أسماء ملفات النظام المحلي للصور التي نرغب في استخدامها في دمج البريد.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -39,14 +39,14 @@ public void MergeFieldImageDimension()
     // يجب أن يحتوي مصدر البيانات على عمود يسمى "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // قم بإنشاء مصدر بيانات مناسب.
+    // إنشاء مصدر بيانات مناسب.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // قم بتكوين رد اتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ عملية دمج البريد.
+    // قم بتكوين معاودة الاتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ دمج البريد.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -55,7 +55,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// يضبط حجم جميع الصور المدمجة بالبريد على عرض وارتفاع محددين.
+/// تعيين حجم جميع الصور المدمجة بالبريد إلى عرض وارتفاع محددين.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -81,6 +81,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

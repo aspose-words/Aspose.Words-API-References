@@ -2,17 +2,17 @@
 title: FontSubstitutionRule Class
 linktitle: FontSubstitutionRule
 articleTitle: FontSubstitutionRule
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontSubstitutionRule sınıf. Bu yazı tipi değiştirme kuralı için soyut bir temel sınıftır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işleme ve tasarımında etkili font değişimi için temel kılavuzunuz olan Aspose.Words.Fonts.FontSubstitutionRule sınıfını keşfedin.
 type: docs
-weight: 3000
+weight: 3430
 url: /tr/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
 Bu, yazı tipi değiştirme kuralı için soyut bir temel sınıftır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -26,7 +26,7 @@ public abstract class FontSubstitutionRule
 
 ## Örnekler
 
-İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
+İşletim sistemine bağlı font yapılandırması değişimini gösterir.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -36,7 +36,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule nesnesi Windows/Windows dışı platformlarda farklı çalışır.
+// FontConfigSubstitutionRule nesnesi Windows/Windows olmayan platformlarda farklı çalışır.
 // Windows'ta kullanılamaz.
 if (isWindows)
 {
@@ -47,7 +47,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Linux/Mac'te buna erişimimiz olacak ve işlemleri gerçekleştirebileceğiz.
+// Linux/Mac'te buna erişebileceğiz ve işlemler yapabileceğiz.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

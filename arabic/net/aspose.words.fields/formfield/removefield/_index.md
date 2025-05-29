@@ -3,14 +3,14 @@ title: FormField.RemoveField
 linktitle: RemoveField
 articleTitle: RemoveField
 second_title: Aspose.Words لـ .NET
-description: FormField RemoveField طريقة. إزالة حقل النموذج بالكامل وليس فقط الحرف الخاص لحقل النموذج في C#.
+description: قم بإزالة حقول النموذج بالكامل بسهولة باستخدام طريقة FormField RemoveField، مما يعزز وضوح مستندك وتنظيمه.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.fields/formfield/removefield/
 ---
 ## FormField.RemoveField method
 
-إزالة حقل النموذج بالكامل، وليس فقط الحرف الخاص لحقل النموذج.
+يزيل حقل النموذج بالكامل، وليس فقط الحرف الخاص بحقل النموذج.
 
 ```csharp
 public void RemoveField()

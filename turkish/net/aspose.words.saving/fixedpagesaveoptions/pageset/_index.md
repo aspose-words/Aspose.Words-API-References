@@ -2,15 +2,15 @@
 title: FixedPageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: Aspose.Words for .NET
-description: FixedPageSaveOptions PageSet mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır C#'da.
+second_title: .NET için Aspose.Words
+description: FixedPageSaveOptions PageSet ile belgenizin işlenmesini kontrol edin. Belirli sayfaları kolayca seçin veya sorunsuz çıktı için hepsini seçin. İş akışınızı optimize edin!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/pageset/
 ---
 ## FixedPageSaveOptions.PageSet property
 
-Oluşturulacak sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfalardır.
+İşlenecek sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfalardır.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -18,31 +18,31 @@ public PageSet PageSet { get; set; }
 
 ## Örnekler
 
-Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
+Sayfaların kesin sayfa indekslerine göre nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgeye beş sayfa ekleyin.
+// Belgeye beş sayfa ekle.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .XPS'e dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .XPS'e nasıl dönüştüreceğini değiştirmek için.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// XPS çıktısı olarak kaydedilecek belge sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
-// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfayı seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
+// Çıkış XPS'e kaydedilecek belgenin sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
+// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfa seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
-Bir belgedeki sayfaların yalnızca bazılarının PDF'ye nasıl dönüştürüleceğini gösterir.
+Bir belgedeki sayfaların yalnızca bir kısmının PDF'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -56,19 +56,19 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Belgenin ikinci sayfadan başlayarak bir kısmını oluşturmak için "PageIndex"i "1" olarak ayarlayın.
+    // Belgenin ikinci sayfadan başlayarak bir kısmını işlemek için "PageIndex" değerini "1" olarak ayarlayın.
     options.PageSet = new PageSet(1);
 
-    // Bu belge ikinci sayfadan başlayarak yalnızca ikinci sayfayı içerecek bir sayfa içerecektir.
+    // Bu belge, ikinci sayfadan başlayarak tek bir sayfadan oluşacak ve ikinci sayfada yalnızca ikinci sayfa yer alacaktır.
     doc.Save(stream, options);
 }
 ```
 
-Tek sayfaların belgeden nasıl dışa aktarılacağını gösterir.
+Belgeden Tek sayfaların nasıl dışa aktarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -81,18 +81,18 @@ for (int i = 0; i < 5; i++)
         builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Aşağıda, bir grup sayfayı filtrelemek için kullanabileceğimiz üç PageSet özelliği bulunmaktadır.
-// belgemizi sayfa numaralarının denkliğine göre çıktı PDF belgesine kaydedeceğiz.
-// 1 - Yalnızca çift sayılı sayfaları kaydedin:
+// Aşağıda, bir sayfa kümesini filtrelemek için kullanabileceğimiz üç PageSet özelliği bulunmaktadır
+// sayfa numaralarının eşitliğine göre çıktı PDF belgesinde kaydetmek üzere belgemiz.
+// 1 - Yalnızca çift sayılı sayfaları kaydet:
 options.PageSet = PageSet.Even;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
 
-// 2 - Yalnızca tek sayılı sayfaları kaydedin:
+// 2 - Yalnızca tek numaralı sayfaları kaydet:
 options.PageSet = PageSet.Odd;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);

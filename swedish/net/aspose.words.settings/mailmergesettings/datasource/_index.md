@@ -3,14 +3,14 @@ title: MailMergeSettings.DataSource
 linktitle: DataSource
 articleTitle: DataSource
 second_title: Aspose.Words för .NET
-description: MailMergeSettings DataSource fast egendom. Anger sökvägen till kopplingsdatakällan. Standardvärdet är en tom sträng i C#.
+description: Upptäck hur du ställer in egenskapen MailMergeSettings DataSource för sömlös integrering av dokumentkoppling. Ange enkelt din datakällas sökväg för optimala resultat!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/mailmergesettings/datasource/
 ---
 ## MailMergeSettings.DataSource property
 
-Anger sökvägen till kopplingsdatakällan. Standardvärdet är en tom sträng.
+Anger sökvägen till datakällan för dokumentkopplingen. Standardvärdet är en tom sträng.
 
 ```csharp
 public string DataSource { get; set; }
@@ -18,10 +18,10 @@ public string DataSource { get; set; }
 
 ## Exempel
 
-Visar hur man konstruerar en datakälla för en sammanslagning från en rubrikkälla och en datakälla.
+Visar hur man konstruerar en datakälla för en dokumentkoppling från en rubrikkälla och en datakälla.
 
 ```csharp
-// Skapa en sammanslagningshuvudfil för adressetikett, som kommer att bestå av en tabell med en rad.
+// Skapa en headerfil för sammanslagning av adressetiketter, som kommer att bestå av en tabell med en rad.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -34,8 +34,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Skapa en adressetikettssammanslagningsdatafil som består av en tabell med en rad
- // och samma antal kolumner som rubrikdokumentets tabell.
+// Skapa en datafil för sammanslagning av adressetiketter som består av en tabell med en rad
+ // och samma antal kolumner som headerdokumentets tabell.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -48,8 +48,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Skapa ett sammanslagningsdestinationsdokument med MERGEFIELDS med namn som
-// matcha kolumnnamnen i sammanslagningshuvudfiltabellen.
+// Skapa ett sammanslagningsdokument med MERGEFIELDS med namn som
+// matcha kolumnnamnen i tabellen för merge header-filen.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -60,15 +60,15 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Konstruera en datakälla för vår sammanslagning genom att ange två dokumentfilnamn.
-// Rubrikkällan kommer att namnge kolumnerna i datakälltabellen.
+// Skapa en datakälla för vår dokumentkoppling genom att ange två dokumentfilnamn.
+// Rubrikkällan namnger kolumnerna i datakällstabellen.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// Datakällan kommer att tillhandahålla rader med data för alla kolumner i rubrikdokumenttabellen.
+// Datakällan kommer att tillhandahålla datarader för alla kolumner i huvuddokumenttabellen.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Konfigurera en sammanslagning av adressetiketttyp, som Microsoft Word kommer att köra
-// så snart vi använder det för att ladda utdatadokumentet.
+// Konfigurera en koppling av adressetiketter, som Microsoft Word kommer att köra
+// så snart vi använder den för att ladda utdatadokumentet.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;
 settings.DataType = MailMergeDataType.TextFile;

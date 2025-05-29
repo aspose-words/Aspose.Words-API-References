@@ -3,14 +3,14 @@ title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: CustomPartCollection Item fast egendom. Hämtar eller ställer in ett objekt på angivet index i C#.
+description: Hantera enkelt din CustomPartCollection med vår item-egenskap. Hämta eller ställ snabbt in objekt i valfritt index för sömlös anpassning och effektivitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/custompartcollection/item/
 ---
 ## CustomPartCollection indexer
 
-Hämtar eller ställer in ett objekt på angivet index.
+Hämtar eller ställer in ett objekt vid det angivna indexet.
 
 ```csharp
 public CustomPart this[int index] { get; set; }
@@ -22,7 +22,7 @@ public CustomPart this[int index] { get; set; }
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

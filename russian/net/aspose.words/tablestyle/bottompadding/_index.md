@@ -3,14 +3,14 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words для .NET
-description: TableStyle BottomPadding свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек таблицы на С#.
+description: Откройте для себя свойство TableStyle BottomPadding, настройте интервал ячеек таблицы для улучшения макета и читаемости. Оптимизируйте свой дизайн без усилий!
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-Получает или задает объем пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
+Возвращает или задает размер пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
 
 ```csharp
 public double BottomPadding { get; set; }

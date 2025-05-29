@@ -2,8 +2,8 @@
 title: CsvDataSource
 linktitle: CsvDataSource
 articleTitle: CsvDataSource
-second_title: Aspose.Words for .NET
-description: CsvDataSource inşaatçı. CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: CsvDataSource oluşturucumuzla zahmetsizce güçlü bir CSV veri kaynağı oluşturun. Sorunsuz entegrasyon için varsayılan seçeneklerle veri ayrıştırmayı basitleştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/csvdatasource/csvdatasource/
@@ -41,6 +41,25 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | csvPath | String | Veri kaynağı olarak kullanılacak CSV dosyasının yolu. |
 | options | CsvDataLoadOptions | CSV verilerini ayrıştırma seçenekleri. |
 
+## Örnekler
+
+CSV'nin veri kaynağı (dize) olarak nasıl kullanılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
+
 ### Ayrıca bakınız
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
@@ -52,7 +71,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(*Stream*) {#constructor}
 
-CSV verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak CSV akışındaki verilerle yeni bir veri kaynağı oluşturur.
+CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -60,7 +79,7 @@ public CsvDataSource(Stream csvStream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verileri akışı. |
+| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV veri akışı. |
 
 ### Ayrıca bakınız
 
@@ -80,8 +99,28 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verileri akışı. |
+| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV veri akışı. |
 | options | CsvDataLoadOptions | CSV verilerini ayrıştırma seçenekleri. |
+
+## Örnekler
+
+CSV'nin veri kaynağı (akış) olarak nasıl kullanılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.csv"))
+{
+    CsvDataSource dataSource = new CsvDataSource(stream, loadOptions);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataStream.docx");
+```
 
 ### Ayrıca bakınız
 

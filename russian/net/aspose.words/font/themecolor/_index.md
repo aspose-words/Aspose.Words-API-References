@@ -3,14 +3,14 @@ title: Font.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words для .NET
-description: Font ThemeColor свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этимFont объект на С#.
+description: Узнайте, как использовать свойство Font ThemeColor для улучшения ваших дизайнов с помощью настраиваемых цветов темы в вашей цветовой схеме.
 type: docs
-weight: 460
+weight: 470
 url: /ru/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Получает или задает цвет темы в примененной цветовой схеме, связанной с этим[`Font`](../) объект.
+Получает или задает цвет темы в примененной цветовой схеме, которая связана с этим[`Font`](../) объект.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Создайте стиль с помощью свойств шрифта темы.
+// Создайте стиль с использованием свойств шрифта темы.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -71,8 +71,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов сбросить шрифт и цвет.
-// 1 — установив ThemeFont.None/ThemeColor.None:
+// Существует несколько способов сбросить шрифт и цвет.
+// 1 - Устанавливая ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -94,7 +94,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
+// 2 - Задавая не относящиеся к теме названия шрифтов/цветов:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

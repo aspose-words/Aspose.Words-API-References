@@ -3,14 +3,14 @@ title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
 second_title: Aspose.Words per .NET
-description: Style IsQuickStyle proprietà. Specifica se questo stile viene mostrato nella raccolta Stile veloce allinterno dellinterfaccia utente di MS Word in C#.
+description: Scopri come la proprietà IsQuickStyle migliora la tua esperienza con MS Word mostrando gli stili nella galleria Stili rapidi per un facile accesso e un flusso di lavoro migliorato.
 type: docs
 weight: 80
 url: /it/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
 
-Specifica se questo stile viene mostrato nella raccolta Stile veloce all'interno dell'interfaccia utente di MS Word.
+Specifica se questo stile viene visualizzato nella raccolta Stili rapidi all'interno dell'interfaccia utente di MS Word.
 
 ```csharp
 public bool IsQuickStyle { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

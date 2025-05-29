@@ -2,8 +2,8 @@
 title: FieldSymbol
 linktitle: FieldSymbol
 articleTitle: FieldSymbol
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSymbol 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSymbol 构造函数——轻松创建动态符号的首选解决方案。使用我们的默认构造函数解锁强大功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldsymbol/fieldsymbol/

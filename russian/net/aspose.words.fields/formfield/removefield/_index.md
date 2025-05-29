@@ -3,7 +3,7 @@ title: FormField.RemoveField
 linktitle: RemoveField
 articleTitle: RemoveField
 second_title: Aspose.Words для .NET
-description: FormField RemoveField метод. Удаляет все поле формы а не только специальный символ поля формы на С#.
+description: С легкостью удаляйте целые поля форм с помощью метода FormField RemoveField, повышая ясность и организованность вашего документа.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.fields/formfield/removefield/
@@ -18,7 +18,7 @@ public void RemoveField()
 
 ## Примечания
 
-Если с полем формы связана закладка, она не удаляется.
+Если с полем формы связана закладка, то закладка не удаляется.
 
 ## Примеры
 

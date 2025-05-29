@@ -3,22 +3,47 @@ title: RevisionOptions.RevisionBarsPosition
 linktitle: RevisionBarsPosition
 articleTitle: RevisionBarsPosition
 second_title: Aspose.Words för .NET
-description: RevisionOptions RevisionBarsPosition fast egendom. Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside  i C#.
+description: Upptäck hur du anpassar egenskapen RevisionBarsPosition i RevisionOptions för att förbättra dokumentets utseende. Standardinställningen är Utanför.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
 ## RevisionOptions.RevisionBarsPosition property
 
-Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside .
+Hämtar eller ställer in renderingspositionen för revisionsstaplarna. Standardvärdet ärOutside .
 
 ```csharp
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-## Anmärkningar
+### Undantag
 
-Värden avCenter ochInside är inte tillåtna och kommer att orsakaArgumentOutOfRangeException.
+| undantag | skick |
+| --- | --- |
+| ArgumentOutOfRangeException | Värden avCenter ochInside är inte tillåtna. |
+
+## Exempel
+
+Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Infoga en revision och ändra sedan färgen på alla revisioner till grön.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Ta bort fältet som visas till vänster om varje reviderad rad.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
+
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
+```
 
 ### Se även
 

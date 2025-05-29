@@ -2,8 +2,8 @@
 title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldChar IsLocked 财产. 获取或设置父字段是否被锁定不应重新计算其结果 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldChar IsLocked 属性，轻松控制字段重新计算。立即提升文档的准确性和效率！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldchar/islocked/
@@ -34,7 +34,7 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// 检索代表文档中字段的外观对象。
+// 检索代表文档中的字段的外观对象。
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);

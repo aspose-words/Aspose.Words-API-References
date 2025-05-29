@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.Timeout
 linktitle: Timeout
 articleTitle: Timeout
 second_title: Aspose.Words für .NET
-description: PdfDigitalSignatureTimestampSettings Timeout eigendom. TimeoutWert für den Zugriff auf den Zeitstempelserver in C#.
+description: Optimieren Sie Ihre digitale PDF-Signatur mit anpassbaren Timeout-Einstellungen für den nahtlosen Zugriff auf Zeitstempelserver. Steigern Sie noch heute Sicherheit und Effizienz!
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
@@ -37,23 +37,23 @@ PdfSaveOptions options = new PdfSaveOptions();
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Einen von der Behörde überprüften Zeitstempel erstellen.
+// Erstellen Sie einen von einer Zeitstempelbehörde verifizierten Zeitstempel.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", „JohnDoe“, „MyPassword“);
 
 // Die Standardlebensdauer des Zeitstempels beträgt 100 Sekunden.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Wir können unseren Timeout-Zeitraum über den Konstruktor festlegen.
+// Wir können unsere Timeout-Periode über den Konstruktor festlegen.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", „JohnDoe“, „MyPassword“, TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
+Assert.AreEqual("https://freetsa.org/tsr", Optionen.DigitalSignatureDetails.TimestampSettings.ServerUrl);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// Die Methode „Speichern“ wendet zu diesem Zeitpunkt unsere Signatur auf das Ausgabedokument an.
+// Die Methode „Speichern“ wendet unsere Signatur jetzt auf das Ausgabedokument an.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

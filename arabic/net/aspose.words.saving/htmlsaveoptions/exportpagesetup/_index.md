@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportPageSetup ملكية. يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف كيف تعمل خاصية HtmlSaveOptions ExportPageSetup على تعزيز صادرات HTML أو MHTML أو EPUB من خلال السماح بإعدادات صفحة قابلة للتخصيص للحصول على إخراج أفضل.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هو`خطأ شنيع` .
+يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## ملاحظات
 
-كل[`Section`](../../../aspose.words/section/) في نموذج مستند Aspose.Words يوفر معلومات إعداد الصفحة عبر[`PageSetup`](../../../aspose.words/pagesetup/) فصل. عندما تقوم بتصدير مستند إلى تنسيق HTML، قد تحتاج إلى الاحتفاظ بهذه المعلومات لمزيد من الاستخدام. على وجه الخصوص، قد يكون إعداد الصفحة مهمًا للعرض على الوسائط المقسمة إلى صفحات (الطباعة) أو التحويل اللاحق إلى تنسيقات ملفات Microsoft Word الأصلية (DOCX، DOC، RTF، WML).
+كل[`Section`](../../../aspose.words/section/) في نموذج مستند Aspose.Words يوفر معلومات إعداد الصفحة عبر[`PageSetup`](../../../aspose.words/pagesetup/) عند تصدير مستند بتنسيق HTML، قد تحتاج إلى الاحتفاظ بهذه المعلومات لاستخدامها لاحقًا. على وجه الخصوص، قد يكون إعداد الصفحة مهمًا لعرضها على وسائط مقسمة إلى صفحات (طباعة) أو التحويل اللاحق إلى تنسيقات ملفات Microsoft Word الأصلية (DOCX، DOC، RTF، WML).
 
-في معظم الحالات، يكون HTML مخصصًا للعرض في المتصفحات التي لا يتم فيها تنفيذ ترقيم الصفحات. لذا فإن feature غير نشط بشكل افتراضي.
+في أغلب الأحيان، يُقصد بـ HTML عرض الصفحات في المتصفحات التي لا تُطبّق الترقيم. لذا، تكون هذه الخاصية غير نشطة افتراضيًا.
 
 ## أمثلة
 
-يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بمعلومات إعداد بنية القسم/الصفحة عند الحفظ في HTML.
+يوضح كيفية تحديد ما إذا كان سيتم الحفاظ على معلومات هيكل القسم/إعداد الصفحة عند الحفظ في HTML.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,11 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
-// لتحديد ما إذا كنت تريد الاحتفاظ بإعدادات الصفحة أم تجاهلها.
-// إذا قمنا بتعيين علامة "ExportPageSetup" على "صحيح"، فسيحتوي مستند HTML الناتج على تكوين إعداد الصفحة الخاص بنا.
-// إذا قمنا بتعيين علامة "ExportPageSetup" على "خطأ"، فستتجاهل عملية الحفظ إعدادات إعداد الصفحة لدينا
-// للقسم الأول، وسيبدو كلا القسمين متطابقين.
+// عند حفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد ما إذا كان سيتم الحفاظ على إعدادات إعداد الصفحة أو تجاهلها.
+// إذا قمنا بتعيين علامة "ExportPageSetup" إلى "true"، فسوف تحتوي وثيقة HTML الناتجة على تكوين إعداد الصفحة الخاص بنا.
+// إذا قمنا بتعيين علامة "ExportPageSetup" إلى "false"، فإن عملية الحفظ ستتجاهل إعدادات إعداد الصفحة الخاصة بنا
+// بالنسبة للقسم الأول، وسوف يبدو كلا القسمين متطابقين.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageSetup.html", options);

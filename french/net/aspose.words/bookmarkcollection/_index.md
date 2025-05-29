@@ -3,16 +3,16 @@ title: BookmarkCollection Class
 linktitle: BookmarkCollection
 articleTitle: BookmarkCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.BookmarkCollection classe. Une collection deBookmark objets qui représentent les signets dans la plage spécifiée en C#.
+description: Découvrez la classe Aspose.Words.BookmarkCollection, un outil puissant pour gérer les signets dans vos documents, améliorant l'organisation et la navigation.
 type: docs
-weight: 50
+weight: 240
 url: /fr/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 Une collection de[`Bookmark`](../bookmark/) objets qui représentent les signets dans la plage spécifiée.
 
-Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article de documentation.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -32,7 +32,7 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Supprime tous les signets de cette collection et du document. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Renvoie un objet énumérateur. |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Supprime le signet spécifié du document. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Supprime un signet avec le nom spécifié. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Supprime un signet portant le nom spécifié. |
 | [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Supprime un signet à l'index spécifié. |
 
 ## Exemples
@@ -56,7 +56,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -84,7 +84,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

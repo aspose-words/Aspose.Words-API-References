@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreStructuredDocumentTags
 linktitle: IgnoreStructuredDocumentTags
 articleTitle: IgnoreStructuredDocumentTags
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions IgnoreStructuredDocumentTags proprietà. Ottiene o imposta un valore booleano che indica di ignorare il contenuto diStructuredDocumentTag . Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà FindReplaceOptions IgnoreStructuredDocumentTags. Controlla se il contenuto di StructuredDocumentTag viene ignorato con questa impostazione booleana di facile utilizzo.
 type: docs
 weight: 120
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -18,9 +18,9 @@ public bool IgnoreStructuredDocumentTags { get; set; }
 
 ## Osservazioni
 
-Quando questa opzione è impostata su`VERO` , il contenuto di[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà trattato come un semplice testo.
+Quando questa opzione è impostata su`VERO` , il contenuto di[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà trattato come un testo semplice.
 
-Altrimenti,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà elaborato come Story autonomo e il modello sostitutivo verrà cercato separatamente per ciascuno[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), in modo che se il modello attraversa a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , la sostituzione non verrà eseguita per tale modello.
+Altrimenti,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà elaborato come Story autonomo e il modello sostitutivo verrà cercato separatamente per ciascuno[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , in modo che se il modello attraversa un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , quindi la sostituzione non verrà eseguita per tale modello.
 
 ## Esempi
 

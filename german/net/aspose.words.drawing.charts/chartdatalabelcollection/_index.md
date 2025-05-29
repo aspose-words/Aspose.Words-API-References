@@ -3,14 +3,14 @@ title: ChartDataLabelCollection Class
 linktitle: ChartDataLabelCollection
 articleTitle: ChartDataLabelCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection klas. Stellt eine Sammlung von darChartDataLabel  in C#.
+description: Entdecken Sie die Klasse Aspose.Words.ChartDataLabelCollection zur effizienten Verwaltung von Diagrammdatenbeschriftungen. Verbessern Sie noch heute die visuelle Attraktivität Ihres Dokuments!
 type: docs
-weight: 680
+weight: 940
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-Stellt eine Sammlung von dar[`ChartDataLabel`](../chartdatalabel/) .
+Stellt eine Sammlung von[`ChartDataLabel`](../chartdatalabel/) .
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
@@ -22,31 +22,34 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Gibt die Anzahl zurück[`ChartDataLabel`](../chartdatalabel/) in dieser Sammlung. |
-| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung der Datenbeschriftungen der gesamten Serie. |
-| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Bietet Zugriff auf die Füll- und Zeilenformatierung der Datenbeschriftungen. |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Gibt zurück[`ChartDataLabel`](../chartdatalabel/) für den angegebenen Index. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Ruft eine ab[`ChartNumberFormat`](../chartnumberformat/) Instanz, die es ermöglicht, das Zahlenformat für die Datenbeschriftungen der gesamten Serie festzulegen. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Ruft das für die Datenbeschriftungen der gesamten Serie verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma, außer bei Kreisdiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen, bei denen stattdessen ein Zeilenumbruch verwendet werden soll. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert ist`FALSCH` . |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Gibt die Anzahl der[`ChartDataLabel`](../chartdatalabel/) in dieser Sammlung. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Bietet Zugriff auf die Schriftformatierung der Datenbeschriftungen der gesamten Serie. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Bietet Zugriff auf die Füll- und Linienformatierung der Datenbeschriftungen. |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Rückgaben[`ChartDataLabel`](../chartdatalabel/) für den angegebenen Index. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Erhält eine[`ChartNumberFormat`](../chartnumberformat/) Instanz, die das Festlegen des Zahlenformats für die Datenbeschriftungen der gesamten Serie ermöglicht. |
+| [Orientation](../../aspose.words.drawing.charts/chartdatalabelcollection/orientation/) { get; set; } | Ruft die Textausrichtung der Datenbeschriftungen der gesamten Reihe ab oder legt sie fest. |
+| [Position](../../aspose.words.drawing.charts/chartdatalabelcollection/position/) { get; set; } | Ruft die Position der Datenbeschriftungen ab oder legt sie fest. |
+| [Rotation](../../aspose.words.drawing.charts/chartdatalabelcollection/rotation/) { get; set; } | Ruft die Drehung der Datenbeschriftungen der gesamten Reihe in Grad ab oder legt sie fest. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Ruft das für die Datenbeschriftungen der gesamten Reihe verwendete Zeichenfolgentrennzeichen ab oder legt es fest. Der Standardwert ist ein Komma, außer bei Kreisdiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen, bei denen stattdessen ein Zeilenumbruch verwendet werden soll. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen der gesamten Reihe angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert ist`FALSCH` . |
 | [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Ermöglicht die Angabe, ob der Kategoriename für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert ist`FALSCH` . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Ermöglicht die Angabe, ob Werte aus dem Datenbeschriftungsbereich in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Ermöglicht die Angabe, ob Führungslinien für Datenbeschriftungen für die Datenbeschriftungen der gesamten Serie angezeigt werden müssen. Der Standardwert ist`FALSCH` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Ermöglicht die Angabe, ob Werte aus dem Datenbeschriftungsbereich in den Datenbeschriftungen der gesamten Reihe angezeigt werden sollen. Der Standardwert ist`FALSCH` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Ermöglicht die Angabe, ob Führungslinien für die Datenbeschriftungen der gesamten Reihe angezeigt werden sollen. Der Standardwert ist`FALSCH` . |
 | [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Ermöglicht die Angabe, ob der Legendenschlüssel für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert ist`FALSCH` . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` . Gilt nur für Kreisdiagramme. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Gibt einen booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. `WAHR` um den Seriennamen anzuzeigen;`FALSCH` verstecken. Standardmäßig`FALSCH` . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Ermöglicht die Angabe, ob der Prozentwert für die Datenbeschriftungen der gesamten Reihe angezeigt werden soll. Der Standardwert ist`FALSCH` . Gilt nur für Kreisdiagramme. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Gibt einen Booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. `WAHR` um den Seriennamen anzuzeigen;`FALSCH` zu verbergen. Standardmäßig`FALSCH` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Reihe angezeigt werden sollen. Der Standardwert ist`FALSCH` . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Löscht das gesamte Format[`ChartDataLabel`](../chartdatalabel/) in dieser Sammlung. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Löscht das Format aller[`ChartDataLabel`](../chartdatalabel/) in dieser Sammlung. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
 ## Beispiele
 
-Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
+Zeigt, wie Datenpunkten in einem Liniendiagramm Beschriftungen zugewiesen werden.
 
 ```csharp
 public void DataLabels()
@@ -62,8 +65,8 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Anwenden von Datenbeschriftungen auf jede Reihe im Diagramm.
-    // Diese Beschriftungen werden neben jedem Datenpunkt im Diagramm angezeigt und zeigen seinen Wert an.
+    // Datenbeschriftungen auf jede Reihe im Diagramm anwenden.
+    // Diese Beschriftungen werden neben jedem Datenpunkt im Diagramm angezeigt und zeigen dessen Wert an.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -80,8 +83,11 @@ public void DataLabels()
         }
     }
 
-    // Für ein übersichtlicheres Diagramm können wir Datenbeschriftungen einzeln entfernen.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
+    // Für ein übersichtlicheres Diagramm können wir die Datenbeschriftungen einzeln entfernen.
+    dataLabel.ClearFormat();
 
     // Wir können auch eine ganze Reihe ihrer Datenbeschriftungen auf einmal entfernen.
     chart.Series[2].DataLabels.ClearFormat();
@@ -90,14 +96,15 @@ public void DataLabels()
 }
 
 /// <summary>
-/// Datenbeschriftungen mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe anwenden.
+/// Wenden Sie Datenbeschriftungen mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe an.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -106,7 +113,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

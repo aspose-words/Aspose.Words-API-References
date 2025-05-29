@@ -3,14 +3,14 @@ title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions IgnoreTextBoxes ملكية. الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف كيف تُحسّن خاصية ImportFormatOptions IgnoreTextBoxes تنسيق مستندك من خلال التحكم في محتوى مربع النص. حسّنه بسهولة اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هي`حقيقي` .
+يحصل على قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص أو يعينها. يتم تجاهل إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -18,16 +18,16 @@ public bool IgnoreTextBoxes { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدارة تنسيق مربع النص أثناء إلحاق مستند.
+يوضح كيفية إدارة تنسيق مربع النص أثناء إضافة مستند.
 
 ```csharp
-// قم بإنشاء مستند سيتم إدراج عقد من مستند آخر فيه.
+// قم بإنشاء مستند سيحتوي على عقد من مستند آخر مدرجة فيه.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
 builder.Writeln("Hello world!");
 
-// أنشئ مستندًا آخر يحتوي على مربع نص، وسنقوم باستيراده إلى المستند الأول.
+// قم بإنشاء مستند آخر يحتوي على مربع نص، والذي سنقوم باستيراده إلى المستند الأول.
 Document srcDoc = new Document();
 builder = new DocumentBuilder(srcDoc);
 
@@ -37,13 +37,13 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// قم بتعيين علامة لتحديد ما إذا كنت تريد مسح تنسيق مربع النص أو الحفاظ عليه
-// أثناء استيرادها إلى مستندات أخرى.
+// تعيين علامة لتحديد ما إذا كان سيتم مسح تنسيق مربع النص أو الحفاظ عليه
+//أثناء استيرادها إلى مستندات أخرى.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
-// قم باستيراد مربع النص من المستند المصدر إلى المستند الوجهة،
-// ثم تحقق مما إذا كنا قد حافظنا على تصميم محتويات النص الخاص به.
+// استيراد مربع النص من المستند المصدر إلى المستند الوجهة،
+// ثم تأكد ما إذا كنا قد حافظنا على تنسيق محتويات النص.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

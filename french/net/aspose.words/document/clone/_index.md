@@ -3,14 +3,14 @@ title: Document.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words pour .NET
-description: Document Clone méthode. Effectue une copie complète duDocument  en C#.
+description: Dupliquez facilement vos documents grâce à notre méthode de clonage de documents. Réalisez des copies précises et détaillées pour une édition fluide et un flux de travail efficace.
 type: docs
-weight: 550
+weight: 590
 url: /fr/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Effectue une copie complète du[`Document`](../) .
+Effectue une copie en profondeur du[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -34,7 +34,7 @@ builder.Write("Hello world!");
 // mais avec une copie unique de chacun des nœuds du document original.
 Document clone = doc.Clone();
 
-Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 
+Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].Text);
 Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode());

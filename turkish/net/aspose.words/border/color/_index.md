@@ -2,15 +2,15 @@
 title: Border.Color
 linktitle: Color
 articleTitle: Color
-second_title: Aspose.Words for .NET
-description: Border Color mülk. Kenarlık rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Çarpıcı bir görsel etki için kenarlık renklerini ayarlamanıza ve değiştirmenize olanak tanıyan Kenarlık Rengi özelliğiyle tasarımlarınızı zahmetsizce özelleştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/border/color/
 ---
 ## Border.Color property
 
-Kenarlık rengini alır veya ayarlar.
+Sınır rengini alır veya ayarlar.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

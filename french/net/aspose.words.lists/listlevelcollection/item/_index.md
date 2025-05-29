@@ -3,7 +3,7 @@ title: ListLevelCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ListLevelCollection Item propriété. Obtient un niveau de liste par index en C#.
+description: Accédez facilement aux niveaux de liste grâce à la propriété Item ListLevelCollection. Récupérez n'importe quel niveau par index pour une mise en forme fluide des documents.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listlevelcollection/item/
@@ -18,14 +18,14 @@ public ListLevel this[int index] { get; set; }
 
 ## Exemples
 
-Montre comment créer un style de liste et l’utiliser dans un document.
+Montre comment créer un style de liste et l'utiliser dans un document.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 // Nous pouvons contenir un objet List entier dans un style.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -37,7 +37,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Change l'apparence de tous les niveaux de liste dans notre liste.
+// Modifiez l'apparence de tous les niveaux de liste dans notre liste.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -49,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Crée une autre liste à partir d'une liste dans un style.
+// Créer une autre liste à partir d'une liste dans un style.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -64,7 +64,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Crée et applique une autre liste basée sur le style de liste.
+// Créez et appliquez une autre liste basée sur le style de liste.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");
@@ -74,16 +74,16 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

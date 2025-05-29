@@ -3,14 +3,14 @@ title: ReplacingArgs Class
 linktitle: ReplacingArgs
 articleTitle: ReplacingArgs
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Replacing.ReplacingArgs classe. Fornisce i dati per unoperazione di sostituzione personalizzata in C#.
+description: Scopri la classe Aspose.Words.Replacing.ReplacingArgs per una sostituzione efficiente del testo personalizzato nei tuoi documenti. Migliora il tuo flusso di lavoro oggi stesso!
 type: docs
-weight: 4650
+weight: 5390
 url: /it/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
-Fornisce i dati per un'operazione di sostituzione personalizzata.
+Fornisce dati per un'operazione di sostituzione personalizzata.
 
 Per saperne di più, visita il[Trova e sostituisci](https://docs.aspose.com/words/net/find-and-replace/) articolo di documentazione.
 
@@ -22,16 +22,16 @@ public class ReplacingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifica, per indice, un gruppo catturato nel file[`Match`](./match/) che va sostituito con il[`Replacement`](./replacement/) stringa. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifica, per nome, un gruppo catturato nel file[`Match`](./match/) che va sostituito con il[`Replacement`](./replacement/) stringa. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | IlMatch risultante da una singola corrispondenza di espressione regolari durante a**Sostituire** . |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifica, tramite indice, un gruppo catturato nel[`Match`](./match/) che deve essere sostituito con il[`Replacement`](./replacement/) stringa. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifica, per nome, un gruppo catturato nel[`Match`](./match/) che deve essere sostituito con il[`Replacement`](./replacement/) stringa. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | IlMatch risultante da una singola corrispondenza di espressione regular durante un**Sostituire** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Ottiene il nodo che contiene l'inizio della corrispondenza. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ottiene la posizione iniziale in base zero della corrispondenza dall'inizio di il nodo che contiene l'inizio della corrispondenza. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ottiene la posizione iniziale a partire da zero della corrispondenza dall'inizio di il nodo che contiene l'inizio della corrispondenza. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Ottiene o imposta la stringa sostitutiva. |
 
 ## Esempi
 
-Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
+Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte le sostituzioni.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -45,7 +45,7 @@ public void ReplaceWithCallback()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta un callback che tenga traccia di eventuali sostituzioni effettuate dal metodo "Replace".
+    // Imposta un callback che tiene traccia di tutte le sostituzioni effettuate dal metodo "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -59,8 +59,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Mantiene un registro di ogni sostituzione di testo eseguita da un'operazione di ricerca e sostituzione
-/// e prende nota del valore del testo corrispondente originale.
+/// Mantiene un registro di ogni sostituzione di testo effettuata tramite un'operazione di ricerca e sostituzione
+/// e annota il valore del testo originale corrispondente.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -108,7 +108,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuove il paragrafo con il testo corrispondente.
+        // Rimuovi il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

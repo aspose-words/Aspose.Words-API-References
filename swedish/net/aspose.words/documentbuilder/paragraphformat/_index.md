@@ -3,7 +3,7 @@ title: DocumentBuilder.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words för .NET
-description: DocumentBuilder ParagraphFormat fast egendom. Returnerar ett objekt som representerar aktuella styckeformateringsegenskaper i C#.
+description: Utforska DocumentBuilders ParagraphFormat-egenskap för att komma åt och anpassa viktiga styckeformateringsfunktioner för förbättrad dokumentformatering.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/documentbuilder/paragraphformat/
@@ -18,7 +18,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## Exempel
 
-Visar hur man skapar en formaterad tabell med DocumentBuilder.
+Visar hur man skapar en formaterad tabell med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Ställ in några formateringsalternativ för text och tabellutseende.
+// Ange några formateringsalternativ för text och tabellutseende.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -38,9 +38,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Konfigurering av formateringsalternativen i en dokumentbyggare kommer att tillämpa dem
-// till den aktuella cellen/raden dess markör är i,
-// samt eventuella nya celler och rader skapade med hjälp av den byggaren.
+// Att konfigurera formateringsalternativen i en dokumentbyggare kommer att tillämpa dem
+// till den aktuella cellen/raden där markören befinner sig,
+// såväl som alla nya celler och rader som skapats med den verktygsbyggaren.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Konfigurera om byggarens formateringsobjekt för nya rader och celler som vi håller på att göra.
-// Byggaren kommer inte att tillämpa dessa på den första raden som redan skapats så att den kommer att sticka ut som en rubrikrad.
+// Konfigurera om formateringsobjekten i verktyget för nya rader och celler som vi ska skapa.
+// Skaparen kommer inte att tillämpa dessa på den första raden som redan skapats så att den kommer att synas som en rubrikrad.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

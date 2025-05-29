@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts ملكية. تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة علىحقيقي FontFormat وExportEmbeddedFonts الخصائص ليس لها تأثير أيضًاResourceSavingCallback لم يتم تشغيله للخطوط. الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية UseTargetMachineFonts في HtmlFixedSaveOptions عرض المستندات باستخدام خطوط الآلة المستهدفة. حسّن إدارة خطوطك اليوم!
 type: docs
-weight: 190
+weight: 210
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة على`حقيقي` ,[`FontFormat`](../fontformat/) و[`ExportEmbeddedFonts`](../exportembeddedfonts/) الخصائص ليس لها تأثير، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback/) لم يتم تشغيله للخطوط. الافتراضي هو`خطأ شنيع` .
+يشير العلم إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذا العلم على`حقيقي` ،[`FontFormat`](../fontformat/) و[`ExportEmbeddedFonts`](../exportembeddedfonts/) الخصائص ليس لها تأثير، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback/) لا يتم تشغيله للخطوط. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }

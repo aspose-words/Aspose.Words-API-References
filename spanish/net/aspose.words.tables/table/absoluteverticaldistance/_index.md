@@ -3,14 +3,14 @@ title: Table.AbsoluteVerticalDistance
 linktitle: AbsoluteVerticalDistance
 articleTitle: AbsoluteVerticalDistance
 second_title: Aspose.Words para .NET
-description: Table AbsoluteVerticalDistance propiedad. Obtiene o establece la posición absoluta de la tabla flotante vertical especificada por las propiedades de la tabla en puntos. El valor predeterminado es 0 en C#.
+description: Descubra la propiedad AbsoluteVerticalDistance para tablas: controle la posición vertical en puntos para un diseño preciso. El valor predeterminado es 0. ¡Optimice su diseño!
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/table/absoluteverticaldistance/
 ---
 ## Table.AbsoluteVerticalDistance property
 
-Obtiene o establece la posición absoluta de la tabla flotante vertical especificada por las propiedades de la tabla, en puntos. El valor predeterminado es 0.
+Obtiene o establece la posición de tabla flotante vertical absoluta especificada por las propiedades de la tabla, en puntos. El valor predeterminado es 0.
 
 ```csharp
 public double AbsoluteVerticalDistance { get; set; }
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Establece la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
+// Establezca la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 

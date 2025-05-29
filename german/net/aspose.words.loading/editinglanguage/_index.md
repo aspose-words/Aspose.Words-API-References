@@ -3,9 +3,9 @@ title: EditingLanguage Enum
 linktitle: EditingLanguage
 articleTitle: EditingLanguage
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Loading.EditingLanguage opsomming. Gibt die Bearbeitungssprache an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Loading.EditingLanguage, um Ihr Dokumentbearbeitungserlebnis mit anpassbaren Sprachoptionen zu definieren und zu verbessern.
 type: docs
-weight: 3600
+weight: 4050
 url: /de/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration
@@ -20,233 +20,233 @@ public enum EditingLanguage
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Afrikaans | `1078` |  |
-| Albanian | `1052` |  |
-| Alsatian | `1156` |  |
-| Amharic | `1118` |  |
-| ArabicAlgeria | `5121` |  |
-| ArabicBahrain | `15361` |  |
-| ArabicEgypt | `3073` |  |
-| ArabicIraq | `2049` |  |
-| ArabicJordan | `11265` |  |
-| ArabicKuwait | `13313` |  |
-| ArabicLebanon | `12289` |  |
-| ArabicLibya | `4097` |  |
-| ArabicMorocco | `6145` |  |
-| ArabicOman | `8193` |  |
-| ArabicQatar | `16385` |  |
-| ArabicSaudiArabia | `1025` |  |
-| ArabicSyria | `10241` |  |
-| ArabicTunisia | `7169` |  |
-| ArabicUAE | `14337` |  |
-| ArabicYemen | `9217` |  |
-| Armenian | `1067` |  |
-| Assamese | `1101` |  |
-| AzerbaijaniCyrillic | `2092` |  |
-| AzerbaijaniLatin | `1068` |  |
-| BanglaBangladesh | `2117` |  |
-| BanglaIndia | `1093` |  |
-| Bashkir | `1133` |  |
-| Basque | `1069` |  |
-| Belarusian | `1059` |  |
-| BosnianCyrillic | `8218` |  |
-| BosnianLatin | `5146` |  |
-| Breton | `1150` |  |
-| Bulgarian | `1026` |  |
-| Burmese | `1109` |  |
-| Catalan | `1027` |  |
-| CentralKurdishIraq | `1170` |  |
-| Cherokee | `1116` |  |
-| ChineseHongKong | `3076` |  |
-| ChineseMacao | `5124` |  |
-| ChinesePRC | `2052` |  |
-| ChineseSingapore | `4100` |  |
-| ChineseTaiwan | `1028` |  |
-| Corsican | `1155` |  |
-| CroatianBozniaAndHerzegovina | `4122` |  |
-| Croatian | `1050` |  |
-| Czech | `1029` |  |
-| Danish | `1030` |  |
-| Divehi | `1125` |  |
-| DutchBelgium | `2067` |  |
-| DutchNetherlands | `1043` |  |
-| Edo | `1126` |  |
-| EnglishAustralia | `3081` |  |
-| EnglishBelize | `10249` |  |
-| EnglishCanada | `4105` |  |
-| EnglishCaribbean | `9225` |  |
-| EnglishHongKong | `15369` |  |
-| EnglishIndia | `16393` |  |
-| EnglishIndonesia | `14345` |  |
-| EnglishIreland | `6153` |  |
-| EnglishJamaica | `8201` |  |
-| EnglishMalaysia | `17417` |  |
-| EnglishNewZealand | `5129` |  |
-| EnglishPhilippines | `13321` |  |
-| EnglishSingapore | `18441` |  |
-| EnglishSouthAfrica | `7177` |  |
-| EnglishTrinidadAndTobago | `11273` |  |
-| EnglishUK | `2057` |  |
-| EnglishUS | `1033` |  |
-| EnglishZimbabwe | `12297` |  |
-| Estonian | `1061` |  |
-| Faeroese | `1080` |  |
-| Filipino | `1124` |  |
-| Finnish | `1035` |  |
-| FrenchBelgium | `2060` |  |
-| FrenchCanada | `3084` |  |
-| FrenchFrance | `1036` |  |
-| FrenchLuxembourg | `5132` |  |
-| FrenchMonaco | `6156` |  |
-| FrenchSwitzerland | `4108` |  |
-| Frisian | `1122` |  |
-| FulahLatinSenegal | `2151` |  |
-| FulahNigeria | `1127` |  |
-| Galician | `1110` |  |
-| Georgian | `1079` |  |
-| GermanAustria | `3079` |  |
-| GermanGermany | `1031` |  |
-| GermanLiechtenstein | `5127` |  |
-| GermanLuxembourg | `4103` |  |
-| GermanSwitzerland | `2055` |  |
-| Greek | `1032` |  |
-| Greenlandic | `1135` |  |
-| Guarani | `1140` |  |
-| Gujarati | `1095` |  |
-| Hausa | `1128` |  |
-| Hawaiian | `1141` |  |
-| Hebrew | `1037` |  |
-| Hindi | `1081` |  |
-| Hungarian | `1038` |  |
-| Icelandic | `1039` |  |
-| Igbo | `1136` |  |
-| InariSamiFinland | `9275` |  |
-| Indonesian | `1057` |  |
-| InuktitutLatin | `31837` |  |
-| InuktitutSyllabics | `30813` |  |
-| Irish | `2108` |  |
-| IsiXhosa | `1076` |  |
-| IsiZulu | `1077` |  |
-| ItalianItaly | `1040` |  |
-| ItalianSwitzerland | `2064` |  |
-| Japanese | `1041` |  |
-| Kannada | `1099` |  |
-| Kanuri | `1137` |  |
-| Kashmiri | `2144` |  |
-| KashmiriArabic | `1120` |  |
-| Kazakh | `1087` |  |
-| Khmer | `1107` |  |
-| Kiche | `31878` |  |
-| Kinyarwanda | `1159` |  |
-| Kiswahili | `1089` |  |
-| Konkani | `1111` |  |
-| Korean | `1042` |  |
-| Kyrgyz | `1088` |  |
-| Lao | `1108` |  |
-| Latin | `1142` |  |
-| Latvian | `1062` |  |
-| Lithuanian | `1063` |  |
-| LowerSorbian | `31790` |  |
-| LuleSamiNorway | `4155` |  |
-| LuleSamiSweden | `5179` |  |
-| Luxembougish | `1134` |  |
-| Macedonian | `1071` |  |
-| MalayMalaysia | `1086` |  |
-| MalayBruneiDarussalam | `2110` |  |
-| Malayalam | `1100` |  |
-| Maltese | `1082` |  |
-| Manipuri | `1112` |  |
-| Maori | `1153` |  |
-| MapudungunChile | `1146` |  |
-| Marathi | `1102` |  |
-| Mohawk | `1148` |  |
-| MongolianCyrillic | `1104` |  |
-| MongolianMongolian | `2128` |  |
-| Nepali | `1121` |  |
-| NorthernSamiFinland | `3131` |  |
-| NorthernSamiNorway | `1083` |  |
-| NorthernSamiSweden | `2107` |  |
-| NorwegianBokmal | `1044` |  |
-| NorwegianNynorsk | `2068` |  |
-| Oriya | `1096` |  |
-| Oromo | `1138` |  |
-| Papiamentu | `1145` |  |
-| Pashto | `1123` |  |
-| Persian | `1065` |  |
-| Polish | `1045` |  |
-| PortugueseBrazil | `1046` |  |
-| PortuguesePortugal | `2070` |  |
-| PunjabiIndia | `1094` |  |
-| PunjabiPakistan | `2118` |  |
-| QuechuaBolivia | `1131` |  |
-| QuechuaEcuador | `2155` |  |
-| QuechuaPeru | `3179` |  |
-| Romanian | `1048` |  |
-| Romansh | `1047` |  |
-| Russian | `1049` |  |
-| Sakha | `1157` |  |
-| Sanskrit | `1103` |  |
-| ScottishGaelic | `1169` |  |
-| SerbianCyrillicBosniaAndHerzegovina | `7194` |  |
-| SerbianCyrillicSerbiaAndMontenegro | `3098` |  |
-| SerbianLatinBosniaAndHerzegovina | `6170` |  |
-| SerbianLatinSerbiaAndMontenegro | `2074` |  |
-| Sindhi | `2137` |  |
-| SindhiDevanagaric | `1113` |  |
-| Sinhalese | `1115` |  |
-| Slovak | `1051` |  |
-| Slovenian | `1060` |  |
-| Somali | `1143` |  |
-| Sorbian | `1070` |  |
-| SpanishArgentina | `11274` |  |
-| SpanishBolivia | `16394` |  |
-| SpanishChile | `13322` |  |
-| SpanishColombia | `9226` |  |
-| SpanishCostaRica | `5130` |  |
-| SpanishDominicanRepublic | `7178` |  |
-| SpanishEcuador | `12298` |  |
-| SpanishElSalvador | `17418` |  |
-| SpanishGuatemala | `4106` |  |
-| SpanishHonduras | `18442` |  |
-| SpanishMexico | `2058` |  |
-| SpanishNicaragua | `19466` |  |
-| SpanishPanama | `6154` |  |
-| SpanishParaguay | `15370` |  |
-| SpanishPeru | `10250` |  |
-| SpanishPuertoRico | `20490` |  |
-| SpanishSpainModernSort | `3082` |  |
-| SpanishSpainTraditionalSort | `1034` |  |
-| SpanishUruguay | `14346` |  |
-| SpanishVenezuela | `8202` |  |
-| Sutu | `1072` |  |
-| SwedishFinland | `2077` |  |
-| SwedishSweden | `1053` |  |
-| Syriac | `1114` |  |
-| Tajik | `1064` |  |
-| Tamazight | `1119` |  |
-| TamazightLatin | `2143` |  |
-| Tamil | `1097` |  |
-| Tatar | `1092` |  |
-| Telugu | `1098` |  |
-| Thai | `1054` |  |
-| TibetanButan | `2129` |  |
-| TibetanChina | `1105` |  |
-| TigrignaEritrea | `2163` |  |
-| TigrignaEthiopia | `1139` |  |
-| Tsonga | `1073` |  |
-| Tswana | `1074` |  |
-| Turkish | `1055` |  |
-| Turkmen | `1090` |  |
-| Ukrainian | `1058` |  |
-| Urdu | `1056` |  |
-| UzbekCyrillic | `2115` |  |
-| UzbekLatin | `1091` |  |
-| Venda | `1075` |  |
-| Vietnamese | `1066` |  |
-| Welsh | `1106` |  |
-| Yi | `1144` |  |
-| Yiddish | `1085` |  |
-| Yoruba | `1130` |  |
+| Afrikaans | `1078` | Sprache: Afrikaans |
+| Albanian | `1052` | Sprache: Albanisch |
+| Alsatian | `1156` | Sprache: Elsässisch |
+| Amharic | `1118` | Sprache: Amharisch |
+| ArabicAlgeria | `5121` | Sprache: Arabisch (Algerien) |
+| ArabicBahrain | `15361` | Sprache: Arabisch (Bahrain) |
+| ArabicEgypt | `3073` | Sprache: Arabisch (Ägypten) |
+| ArabicIraq | `2049` | Sprache: Arabisch (Irak) |
+| ArabicJordan | `11265` | Sprache: Arabisch (Jordanien) |
+| ArabicKuwait | `13313` | Sprache: Arabisch (Kuwait) |
+| ArabicLebanon | `12289` | Sprache: Arabisch (Libanon) |
+| ArabicLibya | `4097` | Sprache: Arabisch (Libyen) |
+| ArabicMorocco | `6145` | Sprache: Arabisch (Marokko) |
+| ArabicOman | `8193` | Sprache: Arabisch (Oman) |
+| ArabicQatar | `16385` | Sprache: Arabisch (Katar) |
+| ArabicSaudiArabia | `1025` | Sprache: Arabisch (Saudi-Arabien) |
+| ArabicSyria | `10241` | Sprache: Arabisch (Syrien) |
+| ArabicTunisia | `7169` | Sprache: Arabisch (Tunesien) |
+| ArabicUAE | `14337` | Sprache: Arabisch (Vereinigte Arabische Emirate) |
+| ArabicYemen | `9217` | Sprache: Arabisch (Jemen) |
+| Armenian | `1067` | Sprache: Armenisch |
+| Assamese | `1101` | Sprache: Assamesisch |
+| AzerbaijaniCyrillic | `2092` | Sprache: Aserbaidschanisch (Kyrillisch) |
+| AzerbaijaniLatin | `1068` | Sprache: Aserbaidschanisch (Latein) |
+| BanglaBangladesh | `2117` | Sprache: Bangla (Bangladesch) |
+| BanglaIndia | `1093` | Sprache: Bangla (Indien) |
+| Bashkir | `1133` | Sprache: Baschkirisch |
+| Basque | `1069` | Sprache: Baskisch |
+| Belarusian | `1059` | Sprache: Weißrussisch |
+| BosnianCyrillic | `8218` | Sprache: Bosnisch (Kyrillisch) |
+| BosnianLatin | `5146` | Sprache: Bosnisch (Latein) |
+| Breton | `1150` | Sprache: Bretonisch |
+| Bulgarian | `1026` | Sprache: Bulgarisch |
+| Burmese | `1109` | Sprache: Burmesisch |
+| Catalan | `1027` | Sprache: Katalanisch |
+| CentralKurdishIraq | `1170` | Sprache: Zentralkurdisch (Irak) |
+| Cherokee | `1116` | Sprache: Cherokee |
+| ChineseHongKong | `3076` | Sprache: Chinesisch (Hongkong) |
+| ChineseMacao | `5124` | Sprache: Chinesisch (Macao) |
+| ChinesePRC | `2052` | Sprache: Chinesisch (VR China) |
+| ChineseSingapore | `4100` | Sprache: Chinesisch (Singapur) |
+| ChineseTaiwan | `1028` | Sprache: Chinesisch (Taiwan) |
+| Corsican | `1155` | Sprache: Korsisch |
+| CroatianBozniaAndHerzegovina | `4122` | Sprache: Kroatisch (Bosnien und Herzegowina) |
+| Croatian | `1050` | Sprache: Kroatisch |
+| Czech | `1029` | Sprache: Tschechisch |
+| Danish | `1030` | Sprache: Dänisch |
+| Divehi | `1125` | Sprache: Divehi |
+| DutchBelgium | `2067` | Sprache: Niederländisch (Belgien) |
+| DutchNetherlands | `1043` | Sprache: Niederländisch (Niederlande) |
+| Edo | `1126` | Sprache: Edo |
+| EnglishAustralia | `3081` | Sprache: Englisch (Australien) |
+| EnglishBelize | `10249` | Sprache: Englisch (Belize) |
+| EnglishCanada | `4105` | Sprache: Englisch (Kanada) |
+| EnglishCaribbean | `9225` | Sprache: Englisch (Karibik) |
+| EnglishHongKong | `15369` | Sprache: Englisch (Hongkong) |
+| EnglishIndia | `16393` | Sprache: Englisch (Indien) |
+| EnglishIndonesia | `14345` | Sprache: Englisch (Indonesien) |
+| EnglishIreland | `6153` | Sprache: Englisch (Irland) |
+| EnglishJamaica | `8201` | Sprache: Englisch (Jamaika) |
+| EnglishMalaysia | `17417` | Sprache: Englisch (Malaysia) |
+| EnglishNewZealand | `5129` | Sprache: Englisch (Neuseeland) |
+| EnglishPhilippines | `13321` | Sprache: Englisch (Philippinen) |
+| EnglishSingapore | `18441` | Sprache: Englisch (Singapur) |
+| EnglishSouthAfrica | `7177` | Sprache: Englisch (Südafrika) |
+| EnglishTrinidadAndTobago | `11273` | Sprache: Englisch (Trinidad und Tobago) |
+| EnglishUK | `2057` | Sprache: Englisch (UK) |
+| EnglishUS | `1033` | Sprache: Englisch (US) |
+| EnglishZimbabwe | `12297` | Sprache: Englisch (Simbabwe) |
+| Estonian | `1061` | Sprache: Estnisch |
+| Faeroese | `1080` | Sprache: Färöisch |
+| Filipino | `1124` | Sprache: Filipino |
+| Finnish | `1035` | Sprache: Finnisch |
+| FrenchBelgium | `2060` | Sprache: Französisch (Belgien) |
+| FrenchCanada | `3084` | Sprache: Französisch (Kanada) |
+| FrenchFrance | `1036` | Sprache: Französisch (Frankreich) |
+| FrenchLuxembourg | `5132` | Sprache: Französisch (Luxemburg) |
+| FrenchMonaco | `6156` | Sprache: Französisch (Monaco) |
+| FrenchSwitzerland | `4108` | Sprache: Französisch (Schweiz) |
+| Frisian | `1122` | Sprache: Friesisch |
+| FulahLatinSenegal | `2151` | Sprache: Fulah (Latein, Senegal) |
+| FulahNigeria | `1127` | Sprache: Fulah (Nigeria) |
+| Galician | `1110` | Sprache: Galizisch |
+| Georgian | `1079` | Sprache: Georgisch |
+| GermanAustria | `3079` | Sprache: Deutsch (Österreich) |
+| GermanGermany | `1031` | Sprache: Deutsch (Deutschland) |
+| GermanLiechtenstein | `5127` | Sprache: Deutsch (Liechtenstein) |
+| GermanLuxembourg | `4103` | Sprache: Deutsch (Luxemburg) |
+| GermanSwitzerland | `2055` | Sprache: Deutsch (Schweiz) |
+| Greek | `1032` | Sprache: Griechisch |
+| Greenlandic | `1135` | Sprache: Grönländisch |
+| Guarani | `1140` | Sprache: Guarani |
+| Gujarati | `1095` | Sprache: Gujarati |
+| Hausa | `1128` | Sprache: Hausa |
+| Hawaiian | `1141` | Sprache: Hawaiisch |
+| Hebrew | `1037` | Sprache: Hebräisch |
+| Hindi | `1081` | Sprache: Hindi |
+| Hungarian | `1038` | Sprache: Ungarisch |
+| Icelandic | `1039` | Sprache: Isländisch |
+| Igbo | `1136` | Sprache: Igbo |
+| InariSamiFinland | `9275` | Sprache: Inari-Samisch (Finnland) |
+| Indonesian | `1057` | Sprache: Indonesisch |
+| InuktitutLatin | `31837` | Sprache: Inuktitut (Latein) |
+| InuktitutSyllabics | `30813` | Sprache: Inuktitut (Silbenschrift) |
+| Irish | `2108` | Sprache: Irisch |
+| IsiXhosa | `1076` | Sprache: IsiXhosa |
+| IsiZulu | `1077` | Sprache: IsiZulu |
+| ItalianItaly | `1040` | Sprache: Italienisch (Italien) |
+| ItalianSwitzerland | `2064` | Sprache: Italienisch (Schweiz) |
+| Japanese | `1041` | Sprache: Japanisch |
+| Kannada | `1099` | Sprache: Kannada |
+| Kanuri | `1137` | Sprache: Kanuri |
+| Kashmiri | `2144` | Sprache: Kaschmirisch |
+| KashmiriArabic | `1120` | Sprache: Kaschmirisch (Arabisch) |
+| Kazakh | `1087` | Sprache: Kasachisch |
+| Khmer | `1107` | Sprache: Khmer |
+| Kiche | `31878` | Sprache: Kiche |
+| Kinyarwanda | `1159` | Sprache: Kinyarwanda |
+| Kiswahili | `1089` | Sprache: Kiswahili |
+| Konkani | `1111` | Sprache: Konkani |
+| Korean | `1042` | Sprache: Koreanisch |
+| Kyrgyz | `1088` | Sprache: Kirgisisch |
+| Lao | `1108` | Sprache: Laotisch |
+| Latin | `1142` | Sprache: Latein |
+| Latvian | `1062` | Sprache: Lettisch |
+| Lithuanian | `1063` | Sprache: Litauisch |
+| LowerSorbian | `31790` | Sprache: Niedersorbisch |
+| LuleSamiNorway | `4155` | Sprache: Lule Sami (Norwegen) |
+| LuleSamiSweden | `5179` | Sprache: Lule Sami (Schweden) |
+| Luxembougish | `1134` | Sprache: Luxemburgisch |
+| Macedonian | `1071` | Sprache: Mazedonisch |
+| MalayMalaysia | `1086` | Sprache: Malaiisch (Malaysia) |
+| MalayBruneiDarussalam | `2110` | Sprache: Malaiisch (Brunei Darussalam) |
+| Malayalam | `1100` | Sprache: Malayalam |
+| Maltese | `1082` | Sprache: Maltesisch |
+| Manipuri | `1112` | Sprache: Manipuri |
+| Maori | `1153` | Sprache: Maori |
+| MapudungunChile | `1146` | Sprache: Mapudungun (Chile) |
+| Marathi | `1102` | Sprache: Marathi |
+| Mohawk | `1148` | Sprache: Mohawk |
+| MongolianCyrillic | `1104` | Sprache: Mongolisch (Kyrillisch) |
+| MongolianMongolian | `2128` | Sprache: Mongolisch (Mongolisch) |
+| Nepali | `1121` | Sprache: Nepali |
+| NorthernSamiFinland | `3131` | Sprache: Nordsamisch (Finnland) |
+| NorthernSamiNorway | `1083` | Sprache: Nordsamisch (Norwegen) |
+| NorthernSamiSweden | `2107` | Sprache: Nordsamisch (Schweden) |
+| NorwegianBokmal | `1044` | Sprache: Norwegisch Bokmal |
+| NorwegianNynorsk | `2068` | Sprache: Norwegisch Nynorsk |
+| Oriya | `1096` | Sprache: Oriya |
+| Oromo | `1138` | Sprache: Oromo |
+| Papiamentu | `1145` | Sprache: Papiamentu |
+| Pashto | `1123` | Sprache: Paschtu |
+| Persian | `1065` | Sprache: Persisch |
+| Polish | `1045` | Sprache: Polnisch |
+| PortugueseBrazil | `1046` | Sprache: Portugiesisch (Brasilien) |
+| PortuguesePortugal | `2070` | Sprache: Portugiesisch (Portugal) |
+| PunjabiIndia | `1094` | Sprache: Punjabi (Indien) |
+| PunjabiPakistan | `2118` | Sprache: Punjabi (Pakistan) |
+| QuechuaBolivia | `1131` | Sprache: Quechua (Bolivien) |
+| QuechuaEcuador | `2155` | Sprache: Quechua (Ecuador) |
+| QuechuaPeru | `3179` | Sprache: Quechua (Peru) |
+| Romanian | `1048` | Sprache: Rumänisch |
+| Romansh | `1047` | Sprache: Rätoromanisch |
+| Russian | `1049` | Sprache: Russisch |
+| Sakha | `1157` | Sprache: Sakha |
+| Sanskrit | `1103` | Sprache: Sanskrit |
+| ScottishGaelic | `1169` | Sprache: Schottisch-Gälisch |
+| SerbianCyrillicBosniaAndHerzegovina | `7194` | Sprache: Serbisch (Kyrillisch, Bosnien und Herzegowina) |
+| SerbianCyrillicSerbiaAndMontenegro | `3098` | Sprache: Serbisch (Kyrillisch, Serbien und Montenegro) |
+| SerbianLatinBosniaAndHerzegovina | `6170` | Sprache: Serbisch (Latein, Bosnien und Herzegowina) |
+| SerbianLatinSerbiaAndMontenegro | `2074` | Sprache: Serbisch (Latein, Serbien und Montenegro) |
+| Sindhi | `2137` | Sprache: Sindhi |
+| SindhiDevanagaric | `1113` | Sprache: Sindhi (Devanagari) |
+| Sinhalese | `1115` | Sprache: Singhalesisch |
+| Slovak | `1051` | Sprache: Slowakisch |
+| Slovenian | `1060` | Sprache: Slowenisch |
+| Somali | `1143` | Sprache: Somali |
+| Sorbian | `1070` | Sprache: Sorbisch |
+| SpanishArgentina | `11274` | Sprache: Spanisch (Argentinien) |
+| SpanishBolivia | `16394` | Sprache: Spanisch (Bolivien) |
+| SpanishChile | `13322` | Sprache: Spanisch (Chile) |
+| SpanishColombia | `9226` | Sprache: Spanisch (Kolumbien) |
+| SpanishCostaRica | `5130` | Sprache: Spanisch (Costa Rica) |
+| SpanishDominicanRepublic | `7178` | Sprache: Spanisch (Dominikanische Republik) |
+| SpanishEcuador | `12298` | Sprache: Spanisch (Ecuador) |
+| SpanishElSalvador | `17418` | Sprache: Spanisch (El Salvador) |
+| SpanishGuatemala | `4106` | Sprache: Spanisch (Guatemala) |
+| SpanishHonduras | `18442` | Sprache: Spanisch (Honduras) |
+| SpanishMexico | `2058` | Sprache: Spanisch (Mexiko) |
+| SpanishNicaragua | `19466` | Sprache: Spanisch (Nicaragua) |
+| SpanishPanama | `6154` | Sprache: Spanisch (Panama) |
+| SpanishParaguay | `15370` | Sprache: Spanisch (Paraguay) |
+| SpanishPeru | `10250` | Sprache: Spanisch (Peru) |
+| SpanishPuertoRico | `20490` | Sprache: Spanisch (Puerto Rico) |
+| SpanishSpainModernSort | `3082` | Sprache: Spanisch (Spanien, moderne Sortierung) |
+| SpanishSpainTraditionalSort | `1034` | Sprache: Spanisch (Spanien, traditionelle Sortierung) |
+| SpanishUruguay | `14346` | Sprache: Spanisch (Uruguay) |
+| SpanishVenezuela | `8202` | Sprache: Spanisch (Venezuela) |
+| Sutu | `1072` | Sprache: Sutu |
+| SwedishFinland | `2077` | Sprache: Schwedisch (Finnland) |
+| SwedishSweden | `1053` | Sprache: Schwedisch (Schweden) |
+| Syriac | `1114` | Sprache: Syrisch |
+| Tajik | `1064` | Sprache: Tadschikisch |
+| Tamazight | `1119` | Sprache: Tamazight |
+| TamazightLatin | `2143` | Sprache: Tamazight (Latein) |
+| Tamil | `1097` | Sprache: Tamil |
+| Tatar | `1092` | Sprache: Tatarisch |
+| Telugu | `1098` | Sprache: Telugu |
+| Thai | `1054` | Sprache: Thai |
+| TibetanButan | `2129` | Sprache: Tibetisch (Bhutan) |
+| TibetanChina | `1105` | Sprache: Tibetisch (China) |
+| TigrignaEritrea | `2163` | Sprache: Tigrigna (Eritrea) |
+| TigrignaEthiopia | `1139` | Sprache: Tigrigna (Äthiopien) |
+| Tsonga | `1073` | Sprache: Tsonga |
+| Tswana | `1074` | Sprache: Tswana |
+| Turkish | `1055` | Sprache: Türkisch |
+| Turkmen | `1090` | Sprache: Turkmenisch |
+| Ukrainian | `1058` | Sprache: Ukrainisch |
+| Urdu | `1056` | Sprache: Urdu |
+| UzbekCyrillic | `2115` | Sprache: Usbekisch (Kyrillisch) |
+| UzbekLatin | `1091` | Sprache: Usbekisch (Latein) |
+| Venda | `1075` | Sprache: Venda |
+| Vietnamese | `1066` | Sprache: Vietnamesisch |
+| Welsh | `1106` | Sprache: Walisisch |
+| Yi | `1144` | Sprache: Yi |
+| Yiddish | `1085` | Sprache: Jiddisch |
+| Yoruba | `1130` | Sprache: Yoruba |
 
 ## Beispiele
 

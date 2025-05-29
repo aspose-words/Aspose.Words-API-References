@@ -3,9 +3,9 @@ title: Row.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words för .NET
-description: Row EnsureMinimum metod. OmRow har inga celler skapar och lägger till enCell  i C#.
+description: Upptäck Row EnsureMinimum-metoden, skapa och lägg enkelt till en cell när ingen finns, vilket förbättrar din datastrukturhantering.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -18,7 +18,7 @@ public void EnsureMinimum()
 
 ## Exempel
 
-Visar hur man säkerställer att en radnod innehåller de noder vi behöver för att börja lägga till innehåll till den.
+Visar hur man säkerställer att en radnod innehåller de noder vi behöver för att börja lägga till innehåll i den.
 
 ```csharp
 Document doc = new Document();
@@ -27,11 +27,11 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Rader innehåller celler som innehåller stycken med typiska element som körningar, former och till och med andra tabeller.
-// Vår nya rad har inga av dessa noder, och vi kan inte lägga till innehåll till den förrän den gör det.
+// Rader innehåller celler som innehåller stycken med typiska element som sekvenser, former och även andra tabeller.
+// Vår nya rad har ingen av dessa noder, och vi kan inte lägga till innehåll i den förrän den har det.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Att anropa metoden "EnsureMinimum" på en tabell säkerställer det
+// Att anropa metoden "EnsureMinimum" på en tabell säkerställer att
 // tabellen har minst en cell med ett tomt stycke.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

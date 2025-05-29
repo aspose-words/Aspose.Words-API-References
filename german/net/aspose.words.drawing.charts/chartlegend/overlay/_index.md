@@ -3,9 +3,9 @@ title: ChartLegend.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words für .NET
-description: ChartLegend Overlay eigendom. Legt fest ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert istFALSCH  in C#.
+description: Steuern Sie die Überlappung von Diagrammelementen mit der ChartLegend-Overlay-Eigenschaft. Verbessern Sie Ihre Datenvisualisierung mit anpassbaren Legendeneinstellungen für klarere Einblicke.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Die Legende des Diagramms in die obere rechte Ecke verschieben.
+// Verschieben Sie die Legende des Diagramms in die obere rechte Ecke.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Geben Sie anderen Diagrammelementen, z. B. dem Diagramm, mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
+// Geben Sie anderen Diagrammelementen, beispielsweise dem Graphen, mehr Platz, indem Sie zulassen, dass sie die Legende überlappen.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

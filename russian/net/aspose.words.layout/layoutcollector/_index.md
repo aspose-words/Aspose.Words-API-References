@@ -3,16 +3,16 @@ title: LayoutCollector Class
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Layout.LayoutCollector сорт. Этот класс позволяет вычислять номера страниц узлов документа на С#.
+description: Откройте для себя класс Aspose.Words.Layout.LayoutCollector для эффективного вычисления номеров страниц узлов документа, что улучшит ваш опыт управления документами.
 type: docs
-weight: 3320
+weight: 3770
 url: /ru/net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
 
 Этот класс позволяет вычислять номера страниц узлов документа.
 
-Чтобы узнать больше, посетите[Преобразование в формат фиксированной страницы](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) статья документации.
+Чтобы узнать больше, посетите[Преобразование в формат с фиксированным размером страницы](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) документальная статья.
 
 ```csharp
 public class LayoutCollector
@@ -28,25 +28,25 @@ public class LayoutCollector
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Получает или задает документ, к которому прикреплен этот экземпляр сборщика. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Возвращает или задает документ, к которому прикреплен этот экземпляр коллектора. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестройки макета. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, отсчитываемый от 1, на которой заканчивается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator/) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента[`Current`](../layoutenumerator/current/) учитывая, что документ, являющийся , и документ узла одинаковы. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Получает количество страниц, охватываемых указанным узлом. 0, если узел находится на одной странице. Это то же самое, что[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, отсчитываемый от 1, где начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Очищает все собранные данные макета. Вызывайте этот метод после того, как документ был вручную обновлен или макет был перестроен. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, на которой заканчивается узел, начиная с 1. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator/) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента для[`Current`](../layoutenumerator/current/) учитывая, что документ being перечислен и документ узла одинаковы. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Получает количество страниц, которые охватывает указанный узел. 0, если узел находится на одной странице. Это то же самое, что[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, начинающейся с 1, где начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
 
 ## Примечания
 
-Когда вы создаете`LayoutCollector` и укажите[`Document`](../../aspose.words/document/) объект документа, к которому нужно прикрепить, сборщик запишет сопоставление узлов документа с объектами макета, когда документ форматируется на страницы.
+Когда вы создаете`LayoutCollector` и укажите[`Document`](../../aspose.words/document/)объект документа для присоединения, сборщик запишет сопоставление узлов документа с объектами макета, когда документ форматируется на страницы.
 
-Вы сможете узнать, на какой странице находится конкретный узел документа (например, прогон, абзац или ячейка таблицы) с помощью[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) и[`GetNumPagesSpanned`](./getnumpagesspanned/)методы. Эти методы автоматически создают модель макета страницы документа и при необходимости обновляют поля.
+Вы сможете узнать, на какой странице находится определенный узел документа (например, блок, абзац или ячейка таблицы) с помощью[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) и[`GetNumPagesSpanned`](./getnumpagesspanned/) методы. Эти методы автоматически строят модель макета страницы документа и обновляют поля при необходимости.
 
-Если вам больше не нужно собирать информацию о макете, лучше всего установить[`Document`](./document/) собственность`нулевой` , чтобы избежать ненужного сбора дополнительных сопоставлений макета.
+Когда вам больше не нужно собирать информацию о макете, лучше всего установить[`Document`](./document/) собственность`нулевой` , чтобы избежать ненужного сбора дополнительных сопоставлений макетов.
 
 ## Примеры
 
@@ -56,12 +56,12 @@ public class LayoutCollector
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Вызовите метод GetNumPagesSpanned, чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
-// Поскольку документ пуст, то количество страниц в данный момент равно нулю.
+// Вызываем метод «GetNumPagesSpanned», чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
+// Поскольку документ пуст, количество страниц в данный момент равно нулю.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Заполняем документ 5 страницами контента.
+// Заполните документ 5 страницами контента.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -71,8 +71,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Перед сборщиком макетов нам нужно вызвать метод «UpdatePageLayout», чтобы получить
-// точная цифра для любого показателя, связанного с макетом, например количества страниц.
+// Перед сборщиком макетов нам нужно вызвать метод "UpdatePageLayout", чтобы получить
+// точная цифра для любой метрики, связанной с макетом, например, количество страниц.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -80,7 +80,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Мы можем видеть номера начальной и конечной страниц любого узла и их общие диапазоны страниц.
+// Мы можем видеть номера начальной и конечной страниц любого узла и их общее количество страниц.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -90,13 +90,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Мы можем перебирать объекты макета, используя LayoutEnumerator.
+// Мы можем перебирать сущности макета, используя LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator может перемещаться по коллекции объектов макета, как по дереву.
-// Мы также можем применить его к соответствующему объекту макета любого узла.
+// LayoutEnumerator может обходить коллекцию сущностей макета как дерево.
+// Мы также можем применить его к соответствующей сущности макета любого узла.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

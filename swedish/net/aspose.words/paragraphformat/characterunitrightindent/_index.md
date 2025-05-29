@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitRightIndent
 linktitle: CharacterUnitRightIndent
 articleTitle: CharacterUnitRightIndent
 second_title: Aspose.Words för .NET
-description: ParagraphFormat CharacterUnitRightIndent fast egendom. Hämtar eller ställer in rätt indragsvärde i tecken för de angivna styckena i C#.
+description: Upptäck egenskapen ParagraphFormat CharacterUnitRightIndent för att enkelt justera värden för högerindrag i tecken för dina stycken, vilket förbättrar dokumentets layout.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/paragraphformat/characterunitrightindent/
 ---
 ## ParagraphFormat.CharacterUnitRightIndent property
 
-Hämtar eller ställer in rätt indragsvärde (i tecken) för de angivna styckena.
+Hämtar eller anger rätt indragningsvärde (i tecken) för de angivna styckena.
 
 ```csharp
 public double CharacterUnitRightIndent { get; set; }
@@ -18,14 +18,14 @@ public double CharacterUnitRightIndent { get; set; }
 
 ## Exempel
 
-Visar hur du ändrar styckeavstånd och indrag.
+Visar hur man ändrar styckeavstånd och indrag.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nedan finns fem olika mellanrumsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
+// Nedan följer fem olika avståndsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
 // 1 - Vänster indrag:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

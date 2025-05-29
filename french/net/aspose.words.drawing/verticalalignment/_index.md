@@ -3,9 +3,9 @@ title: VerticalAlignment Enum
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.VerticalAlignment énumération. Spécifie lalignement vertical dune forme flottante dun cadre de texte ou dun tableau flottant en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.VerticalAlignment pour un alignement vertical précis des blocs de texte et des tableaux dans vos documents. Améliorez le contrôle de la mise en page !
 type: docs
-weight: 1380
+weight: 1790
 url: /fr/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -20,24 +20,24 @@ public enum VerticalAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | L'objet est positionné explicitement, généralement à l'aide de son**Haut** propriété. |
+| None | `0` | L'objet est explicitement positionné, généralement en utilisant son**Haut** propriété. |
 | Top | `1` | Spécifie que l'objet doit être en haut de la base d'alignement vertical. |
 | Center | `2` | Spécifie que l'objet doit être centré par rapport à la base d'alignement vertical. |
 | Bottom | `3` | Spécifie que l'objet doit être au bas de la base d'alignement vertical. |
 | Inside | `4` | Spécifie que l'objet doit être à l'intérieur de la base d'alignement horizontal. |
 | Outside | `5` | Spécifie que l'objet doit être en dehors de la base d'alignement vertical. |
-| Inline | `-1` | Non documenté. Cela semble être une valeur possible pour les paragraphes et les tableaux flottants. |
+| Inline | `-1` | Non documenté. Semble être une valeur possible pour les paragraphes et tableaux flottants. |
 | Default | `0` | Identique àNone . |
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

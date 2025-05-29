@@ -3,14 +3,14 @@ title: FieldFormat.DateTimeFormat
 linktitle: DateTimeFormat
 articleTitle: DateTimeFormat
 second_title: Aspose.Words per .NET
-description: FieldFormat DateTimeFormat proprietà. Ottiene o imposta una formattazione applicata al risultato di un campo di data e ora. Corrisponde allo switch  in C#.
+description: Scopri la proprietà FieldFormat DateTimeFormat per personalizzare facilmente i risultati dei campi data e ora, per una presentazione dei dati più chiara e dettagliata.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldformat/datetimeformat/
 ---
 ## FieldFormat.DateTimeFormat property
 
-Ottiene o imposta una formattazione applicata al risultato di un campo di data e ora. Corrisponde allo switch \@.
+Ottiene o imposta una formattazione applicata al risultato di un campo data e ora. Corrisponde all'opzione \@.
 
 ```csharp
 public string DateTimeFormat { get; set; }
@@ -24,7 +24,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

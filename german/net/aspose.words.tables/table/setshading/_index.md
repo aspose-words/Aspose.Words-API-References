@@ -3,14 +3,14 @@ title: Table.SetShading
 linktitle: SetShading
 articleTitle: SetShading
 second_title: Aspose.Words für .NET
-description: Table SetShading methode. Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle in C#.
+description: Verbessern Sie das Erscheinungsbild Ihrer Tabelle mit der SetShading-Methode, indem Sie benutzerdefinierte Schattierungswerte anwenden und so ein elegantes, professionelles Erscheinungsbild erzielen.
 type: docs
-weight: 430
+weight: 450
 url: /de/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
 
-Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle.
+Legt die Schattierung für die gesamte Tabelle auf die angegebenen Werte fest.
 
 ```csharp
 public void SetShading(TextureIndex texture, Color foregroundColor, Color backgroundColor)
@@ -24,20 +24,20 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 
 ## Beispiele
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

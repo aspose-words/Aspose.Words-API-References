@@ -3,14 +3,14 @@ title: ListFormat.List
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words für .NET
-description: ListFormat List eigendom. Ruft die Liste ab zu der dieser Absatz gehört oder legt sie fest in C#.
+description: Verwalten Sie die Struktur Ihres Dokuments mit ListFormat. Erstellen oder definieren Sie ganz einfach Listen für jeden Absatz und verbessern Sie so die Übersichtlichkeit und Lesbarkeit.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listformat/list/
 ---
 ## ListFormat.List property
 
-Ruft die Liste ab, zu der dieser Absatz gehört, oder legt sie fest.
+Ruft die Liste ab oder legt sie fest, zu der dieser Absatz gehört.
 
 ```csharp
 public List List { get; set; }
@@ -18,11 +18,11 @@ public List List { get; set; }
 
 ## Bemerkungen
 
-Die Liste, die dieser Eigenschaft zugewiesen wird, muss zum aktuellen Dokument gehören.
+Die Liste, der diese Eigenschaft zugewiesen wird, muss zum aktuellen Dokument gehören.
 
 Die Liste, die dieser Eigenschaft zugewiesen wird, darf keine Listenstildefinition sein.
 
-Diese Eigenschaft festlegen auf`Null` Entfernt Aufzählungszeichen und Nummerierungen aus „paragraph “ und setzt die Nummer der Listenebene auf Null. Diese Eigenschaft festlegen auf`Null` entspricht dem Aufruf[`RemoveNumbers`](../removenumbers/).
+Wenn Sie diese Eigenschaft auf`null` entfernt Aufzählungszeichen und Nummerierung aus dem Absatz und setzt die Listenebenennummer auf Null. Wenn Sie diese Eigenschaft auf`null` ist gleichbedeutend mit dem Aufruf[`RemoveNumbers`](../removenumbers/).
 
 ## Beispiele
 
@@ -32,17 +32,17 @@ Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Eine Übersichtsliste für die Überschriften erstellen.
+// Erstellen Sie eine Gliederungsliste für die Überschriften.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Erstelle eine nummerierte Liste.
+// Erstellen Sie eine nummerierte Liste.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
@@ -52,7 +52,7 @@ builder.Writeln("Numbered list item 1.");
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// Eine Liste mit Aufzählungszeichen erstellen.
+// Erstellen Sie eine Aufzählungsliste.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;
@@ -83,30 +83,30 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Nachfolgend finden Sie zwei Arten von Listen, die wir mit einem Document Builder erstellen können.
-// 1 – Eine nummerierte Liste:
-// Nummerierte Listen erstellen eine logische Reihenfolge für ihre Absätze, indem sie jedes Element nummerieren.
+// Unten sind zwei Arten von Listen, die wir mit einem Dokumentgenerator erstellen können.
+// 1 - Eine nummerierte Liste:
+// Nummerierte Listen erstellen eine logische Reihenfolge ihrer Absätze, indem sie jedes Element nummerieren.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Durch Setzen der Eigenschaft „ListLevelNumber“ können wir die Listenebene erhöhen
-// um eine eigenständige Unterliste beim aktuellen Listenelement zu beginnen.
-// Die Microsoft Word-Listenvorlage namens „NumberDefault“ verwendet Zahlen, um Listenebenen für die erste Listenebene zu erstellen.
- // Tiefere Listenebenen verwenden Buchstaben und römische Kleinbuchstaben.
+// um eine in sich geschlossene Unterliste beim aktuellen Listenelement zu beginnen.
+// Die Microsoft Word-Listenvorlage mit dem Namen „NumberDefault“ verwendet Zahlen, um Listenebenen für die erste Listenebene zu erstellen.
+    // Tiefere Listenebenen verwenden Buchstaben und römische Ziffern in Kleinbuchstaben.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 – Eine Liste mit Aufzählungszeichen:
-// Diese Liste fügt vor jedem Absatz einen Einzug und ein Aufzählungszeichen („•“) ein.
-// Auf tieferen Ebenen dieser Liste werden andere Symbole verwendet, z. B. „■“ und „○“.
+// 2 - Eine Aufzählungsliste:
+// Diese Liste wendet vor jedem Absatz einen Einzug und ein Aufzählungszeichen („•“) an.
+// Tiefere Ebenen dieser Liste verwenden andere Symbole, wie „■“ und „○“.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)

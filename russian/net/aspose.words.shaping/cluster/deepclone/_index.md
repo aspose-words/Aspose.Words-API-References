@@ -3,7 +3,7 @@ title: Cluster.DeepClone
 linktitle: DeepClone
 articleTitle: DeepClone
 second_title: Aspose.Words для .NET
-description: Cluster DeepClone метод. Возвращает глубокий клон этого экземпляра на С#.
+description: Откройте для себя метод Cluster DeepClone, позволяющий без труда создать полную копию вашего экземпляра, гарантируя целостность данных и бесперебойную работу.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.shaping/cluster/deepclone/

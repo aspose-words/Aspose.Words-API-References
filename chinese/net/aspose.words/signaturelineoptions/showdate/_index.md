@@ -2,15 +2,15 @@
 title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
-second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLineOptions ShowDate 财产. 获取或设置一个值该值指示签名日期显示在签名行中 此属性的默认值为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SignatureLineOptions ShowDate 属性如何通过在签名行上显示签名日期来增强文档的专业性。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-获取或设置一个值，该值指示签名日期显示在签名行中。 此属性的默认值为`真的`.
+获取或设置一个值，指示签名行中显示签名日期。 此属性的默认值为`真的`.
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -18,7 +18,7 @@ public bool ShowDate { get; set; }
 
 ## 例子
 
-演示如何使用个人证书和签名行签署文档。
+展示如何使用个人证书和签名行签署文件。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性是否都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

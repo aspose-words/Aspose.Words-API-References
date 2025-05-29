@@ -2,15 +2,15 @@
 title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
-second_title: Aspose.Words for .NET
-description: VbaReference LibId mülk. Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır C#'da.
+second_title: .NET için Aspose.Words
+description: Geliştiriciler için bu temel kılavuzla VBA LibId özelliğini keşfedin, Otomasyon türü kitaplık tanımlayıcısını zahmetsizce alın. Kodlama becerilerinizi geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property
 
-Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır.
+Bir Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır.
 
 ```csharp
 public abstract string LibId { get; }
@@ -18,10 +18,10 @@ public abstract string LibId { get; }
 
 ## Notlar
 
-Referans türüne bağlı olarak bu özelliğin değeri şu şekilde olabilir:
+Referans türüne bağlı olarak, bu özelliğin değeri şu şekilde olabilir:
 
-* 2.1.1.8 [MS-OVBA] LibidReferansında belirtilen bir LibidReferansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* [MS-OVBA]'nın 2.1.1.12 Proje Referansı'nda belirtilen bir Proje Referansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* 2.1.1.8'de belirtilen bir LibidReference [MS-OVBA]: LibidReference https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* 2.1.1.12'de belirtilen bir ProjectReference [MS-OVBA]: ProjectReference https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ## Örnekler
 

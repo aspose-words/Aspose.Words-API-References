@@ -2,8 +2,8 @@
 title: ListFormat.List
 linktitle: List
 articleTitle: List
-second_title: 用于 .NET 的 Aspose.Words
-description: ListFormat List 财产. 获取或设置此段落所属的列表 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ListFormat 管理文档结构。轻松获取或设置任意段落的列表，增强文档的组织性和可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listformat/list/
@@ -18,15 +18,15 @@ public List List { get; set; }
 
 ## 评论
 
-分配给该属性的列表必须属于当前文档。
+分配给此属性的列表必须属于当前文档。
 
-分配给此属性的列表不得是列表样式定义。
+分配给此属性的列表不能是列表样式定义。
 
-将此属性设置为`无效的`从paragraph 中删除项目符号和编号并将列表级别编号设置为零。将此属性设置为`无效的`相当于 调用[`RemoveNumbers`](../removenumbers/)。
+将此属性设置为`无效的`删除段落 中的项目符号和编号，并将列表级别编号设置为零。将此属性设置为`无效的`相当于 调用[`RemoveNumbers`](../removenumbers/)。
 
 ## 例子
 
-演示如何将一个列表嵌套在另一个列表中。
+展示如何将一个列表嵌套在另一个列表中。
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 创建标题的大纲列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 为标题创建大纲列表。
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -48,7 +48,7 @@ builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// 组成列表的每个段落都会有这个标志。
+// 组成列表的每个段落都会有此标志。
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
@@ -86,8 +86,8 @@ Assert.False(builder.ListFormat.IsListItem);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档生成器创建的两种类型的列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 以下是我们可以使用文档构建器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -105,8 +105,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
-// 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+// 此列表将在每个段落前应用缩进和项目符号（“•”）。
+// 此列表的更深级别将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -115,7 +115,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“列表”标志来禁用列表格式，以免将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

@@ -3,7 +3,7 @@ title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
 second_title: Aspose.Words para .NET
-description: FontSettings SaveSearchCache método. Guarda el caché de búsqueda de fuentes en la secuencia en C#.
+description: Descubra cómo el método SaveSearchCache de FontSettings guarda de manera eficiente su caché de búsqueda de fuentes en una secuencia, mejorando el rendimiento y la experiencia del usuario.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -22,7 +22,7 @@ public void SaveSearchCache(Stream outputStream)
 
 ## Observaciones
 
-Ver[`SetFontsSources`](../setfontssources/) descripción del método para más información.
+Ver[`SetFontsSources`](../setfontssources/) Descripción del método para más información.
 
 ## Ejemplos
 
@@ -47,7 +47,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -56,7 +56,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

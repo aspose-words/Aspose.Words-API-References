@@ -2,8 +2,8 @@
 title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
-second_title: Aspose.Words for .NET
-description: Table StyleName mülk. Bu tabloya uygulanan tablo stilinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun görünümünü kolayca özelleştirmek için Table StyleName özelliğini keşfedin. Tasarımınızı bugün benzersiz tablo stili seçenekleriyle geliştirin!
 type: docs
 weight: 290
 url: /tr/net/aspose.words.tables/table/stylename/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

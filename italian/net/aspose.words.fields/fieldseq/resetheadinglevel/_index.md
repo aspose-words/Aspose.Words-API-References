@@ -3,14 +3,14 @@ title: FieldSeq.ResetHeadingLevel
 linktitle: ResetHeadingLevel
 articleTitle: ResetHeadingLevel
 second_title: Aspose.Words per .NET
-description: FieldSeq ResetHeadingLevel proprietà. Ottiene o imposta un numero intero che rappresenta un livello di intestazione su cui reimpostare il numero di sequenza. Restituisce 1 se il numero è assente in C#.
+description: Scopri la proprietà ResetHeadingLevel di FieldSeq e gestisci facilmente i livelli di intestazione reimpostando i numeri di sequenza. Semplifica la formattazione dei tuoi documenti oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldseq/resetheadinglevel/
 ---
 ## FieldSeq.ResetHeadingLevel property
 
-Ottiene o imposta un numero intero che rappresenta un livello di intestazione su cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente.
+Ottiene o imposta un numero intero che rappresenta un livello di intestazione a cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente.
 
 ```csharp
 public string ResetHeadingLevel { get; set; }
@@ -18,17 +18,17 @@ public string ResetHeadingLevel { get; set; }
 
 ## Esempi
 
-Mostra la creazione della numerazione utilizzando i campi SEQ.
+Mostra come creare una numerazione utilizzando i campi SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
-// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
+// I campi SEQ visualizzano un conteggio che aumenta in ogni campo SEQ.
+// Questi campi mantengono anche conteggi separati per ogni sequenza denominata univoca
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Inserisci un campo SEQ che visualizzerà il valore di conteggio corrente di "MySequence",
-// dopo aver utilizzato la proprietà "ResetNumber" per impostarlo su 100.
+// Inserisci un campo SEQ che visualizzerà il valore del conteggio corrente di "MySequence",
+// dopo aver utilizzato la proprietà "ResetNumber" per impostarla su 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -46,20 +46,20 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Inserisci un'intestazione di livello 1.
+// Inserire un'intestazione di livello 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserisci un altro campo SEQ dalla stessa sequenza e configuralo per reimpostare il conteggio ad ogni intestazione con 1.
+// Inserire un altro campo SEQ dalla stessa sequenza e configurarlo per reimpostare il conteggio a ogni intestazione con 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato su 1.
+// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato a 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 

@@ -3,14 +3,14 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words för .NET
-description: FieldAutoTextList ScreenTip fast egendom. Hämtar eller ställer in texten i skärmtipset att visa i C#.
+description: Upptäck skärmtipsegenskapen FieldAutoTextList och anpassa enkelt din skärmtipstext för förbättrad användarupplevelse och tydlighet i din applikation.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-Hämtar eller ställer in texten i skärmtipset att visa.
+Hämtar eller ställer in texten i skärmtipset som ska visas.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -25,7 +25,7 @@ public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Skapa ett ordlistadokument och fyll i det med automatiska textinmatningar.
+    // Skapa ett ordlistadokument och fyll det med automatiska textinmatningar.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Skapa ett AUTOTEXTLIST-fält och ställ in texten som fältet ska visa i Microsoft Word.
-    // Ställ in texten så att användaren uppmanas att högerklicka på det här fältet för att välja ett byggblock för AutoText,
+    // Skapa ett AUTOTEXTLIST-fält och ange texten som fältet ska visa i Microsoft Word.
+    // Ställ in texten så att användaren högerklickar på det här fältet för att välja ett AutoText-byggblock,
     // vars innehåll fältet kommer att visa.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";

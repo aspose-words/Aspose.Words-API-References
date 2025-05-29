@@ -3,14 +3,14 @@ title: Fill.RotateWithObject
 linktitle: RotateWithObject
 articleTitle: RotateWithObject
 second_title: Aspose.Words для .NET
-description: Fill RotateWithObject свойство. Получает или задает вращается ли заливка вместе с указанным объектом на С#.
+description: Управляйте свойством RotateWithObject, чтобы контролировать, вращается ли заливка вместе с вашим объектом. Улучшите гибкость и точность вашего дизайна без усилий!
 type: docs
-weight: 170
+weight: 180
 url: /ru/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
 
-Получает или задает, вращается ли заливка вместе с указанным объектом.
+Возвращает или задает, вращается ли заливка вместе с указанным объектом.
 
 ```csharp
 public bool RotateWithObject { get; set; }

@@ -3,7 +3,7 @@ title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
 second_title: Aspose.Words für .NET
-description: FieldPrint PostScriptGroup eigendom. Ruft das Zeichenrechteck ab auf das die PostScriptAnweisungen angewendet werden oder legt dieses fest in C#.
+description: Entdecken Sie die FieldPrint PostScriptGroup-Eigenschaft, um Ihr Zeichenrechteck für eine effiziente Verarbeitung von PostScript-Anweisungen einfach zu verwalten.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -18,7 +18,7 @@ public string PostScriptGroup { get; set; }
 
 ## Beispiele
 
-Zeigt an, wie ein PRINT-Feld eingefügt werden soll.
+Zeigt das Einfügen eines PRINT-Felds.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Das PRINT-Feld kann Anweisungen an den Drucker senden.
+// Das Feld PRINT kann Anweisungen an den Drucker senden.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // Legen Sie den Bereich fest, in dem der Drucker Anweisungen ausführen soll.

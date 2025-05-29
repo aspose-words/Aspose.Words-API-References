@@ -2,10 +2,10 @@
 title: ExportListLabels Enum
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.ExportListLabels 枚举. 指定如何将列表标签导出为 HTMLMHTML 和 EPUB 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Aspose.Words.Saving.ExportListLabels 枚举如何通过可自定义的列表标签选项增强您的 HTML、MHTML 和 EPUB 导出。
 type: docs
-weight: 5010
+weight: 5760
 url: /zh/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
@@ -20,8 +20,8 @@ public enum ExportListLabels
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 在自动模式下输出列表标签。尽可能使用 HTML 原生元素。 |
-| AsInlineText | `1` | 将所有列表标签输出为内嵌文本。 |
+| Auto | `0` | 以自动模式输出列表标签。尽可能使用 HTML 原生元素。 |
+| AsInlineText | `1` | 将所有列表标签输出为内联文本。 |
 | ByHtmlTags | `2` | 将所有列表标签输出为 HTML 原生元素。 |
 
 ## 例子
@@ -57,11 +57,11 @@ builder.ListFormat.RemoveNumbers();
 // 将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
 // 决定文档将使用哪些 HTML 元素来表示列表。
 // 将“ExportListLabels”属性设置为“ExportListLabels.AsInlineText”
-// 将通过格式化跨度来创建列表。
-// 将“ExportListLabels”属性设置为“ExportListLabels.Auto”将使用 <p>标签
-// 在使用 <ol> 的情况下构建列表<li>和<li>标签可能会导致格式丢失。
+// 将通过格式化跨度创建列表。
+// 将“ExportListLabels”属性设置为“ExportListLabels.Auto”将使用<p>标签
+// 在使用 <ol> 和 <li> 标签的情况下构建列表可能会导致格式丢失。
 // 将“ExportListLabels”属性设置为“ExportListLabels.ByHtmlTags”
-// 将使用 <ol>; <li>和<li>标签来构建所有列表。
+// 将使用 <ol> 和 <li> 标签来构建所有列表。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

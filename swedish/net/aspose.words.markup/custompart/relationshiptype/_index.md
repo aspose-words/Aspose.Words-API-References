@@ -3,14 +3,14 @@ title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
 second_title: Aspose.Words för .NET
-description: CustomPart RelationshipType fast egendom. Hämtar eller ställer in relationstypen från den överordnade delen till den här anpassade delen i C#.
+description: Upptäck egenskapen CustomPart RelationshipType för att enkelt hantera och definiera relationer mellan överordnade och anpassade delar för förbättrad funktionalitet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Hämtar eller ställer in relationstypen från den överordnade delen till den här anpassade delen.
+Hämtar eller anger relationstypen från förälderdelen till denna anpassade del.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -18,13 +18,13 @@ public string RelationshipType { get; set; }
 
 ## Anmärkningar
 
-Relationstypen för en anpassad del måste vara "okänd", t.ex. en anpassad relationstyp, inte en av relationstyperna definierade inom ISO/IEC 29500.
+Relationstypen för en anpassad del måste vara "okänd", t.ex. en anpassad relationstyp, är inte en av de relationstyper som definieras i ISO/IEC 29500.
 
-Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
+Standardvärdet är en tom sträng. Ett giltigt värde måste vara en sträng som inte är tom.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

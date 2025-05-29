@@ -3,14 +3,14 @@ title: Hyphenation.RegisterDictionary
 linktitle: RegisterDictionary
 articleTitle: RegisterDictionary
 second_title: Aspose.Words para .NET
-description: Hyphenation RegisterDictionary método. Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido en C#.
+description: Mejore el procesamiento de texto sin esfuerzo con el método de Registro de Guionización. Cargue diccionarios de guionización específicos del idioma sin problemas para obtener resultados óptimos.
 type: docs
 weight: 40
 url: /es/net/aspose.words/hyphenation/registerdictionary/
 ---
 ## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
-Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido.
+Registra y carga un diccionario de separación de palabras para el idioma especificado desde un flujo. Se lanza una excepción si el diccionario no se puede leer o tiene un formato no válido.
 
 ```csharp
 public static void RegisterDictionary(string language, Stream stream)
@@ -18,7 +18,7 @@ public static void RegisterDictionary(string language, Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
+| language | String | Un nombre de idioma, p. ej., "en-US". Consulte la documentación de .NET para obtener información sobre el nombre de la cultura y el RFC 4646 para obtener más información. |
 | stream | Stream | Una secuencia para el archivo de diccionario en formato OpenOffice. |
 
 ## Ejemplos
@@ -32,20 +32,20 @@ public void RegisterDictionary()
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
+    // Registrar un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional que Microsoft Word no pueda separar en una máquina que use inglés, como por ejemplo alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
+    // Para separar palabras de ese documento al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
+    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -54,6 +54,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
@@ -104,9 +105,9 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
-Registra y carga un diccionario de separación de palabras para el idioma especificado desde el archivo. Se lanza si el diccionario no se puede leer o tiene un formato no válido.
+Registra y carga un diccionario de separación de palabras para el idioma especificado desde un archivo. Se genera una excepción si el diccionario no se puede leer o tiene un formato no válido.
 
-Este método también se puede utilizar para registrar un diccionario nulo para evitar[`Callback`](../callback/) de ser llamado repetidamente para el mismo idioma.
+Este método también se puede utilizar para registrar un diccionario nulo para evitar[`Callback`](../callback/) de ser llamado repetidamente por el mismo idioma.
 
 ```csharp
 public static void RegisterDictionary(string language, string fileName)
@@ -114,7 +115,7 @@ public static void RegisterDictionary(string language, string fileName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
+| language | String | Un nombre de idioma, p. ej., "en-US". Consulte la documentación de .NET para obtener información sobre el nombre de la cultura y el RFC 4646 para obtener más información. |
 | fileName | String | Una ruta al archivo de diccionario en formato Open Office. |
 
 ## Ejemplos
@@ -124,16 +125,16 @@ Muestra cómo registrar un diccionario de separación de palabras.
 ```csharp
 // Un diccionario de separación de palabras contiene una lista de cadenas que definen reglas de separación de palabras para el idioma del diccionario.
 // Cuando un documento contiene líneas de texto en las que una palabra podría dividirse y continuar en la siguiente línea,
-// la separación de palabras buscará en la lista de cadenas del diccionario las subcadenas de esa palabra.
+// la separación silábica buscará en la lista de cadenas del diccionario las subcadenas de esa palabra.
 // Si el diccionario contiene una subcadena, la separación de palabras dividirá la palabra en dos líneas
 // por la subcadena y agrega un guión a la primera mitad.
-// Registre un archivo de diccionario del sistema de archivos local en la configuración regional "de-CH".
+// Registra un archivo de diccionario del sistema de archivos local en la configuración regional "de-CH".
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Abre un documento que contiene texto con una configuración regional que coincida con la de nuestro diccionario,
-// y guárdelo en un formato de guardado de página fija. El texto de ese documento estará dividido con guiones.
+// Abra un documento que contenga texto con una configuración regional que coincida con la de nuestro diccionario,
+// y guárdelo en un formato de página fija. El texto de ese documento se separará con guiones.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -141,8 +142,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// Vuelve a cargar el documento después de cancelar el registro del diccionario,
-// y guárdelo en otro PDF, que no tendrá texto con guiones.
+// Vuelva a cargar el documento después de anular el registro del diccionario,
+// y guárdelo en otro PDF, que no tendrá texto con guion.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));
@@ -160,20 +161,20 @@ public void RegisterDictionary()
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
+    // Registrar un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional que Microsoft Word no pueda separar en una máquina que use inglés, como por ejemplo alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
+    // Para separar palabras de ese documento al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
+    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -182,6 +183,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

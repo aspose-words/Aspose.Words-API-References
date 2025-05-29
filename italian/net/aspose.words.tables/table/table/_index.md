@@ -3,7 +3,7 @@ title: Table
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words per .NET
-description: Table costruttore. Inizializza una nuova istanza diTable classe in C#.
+description: Crea tabelle personalizzate senza sforzo con il nostro intuitivo Costruttore di Tabelle. Crea, personalizza e ottimizza la visualizzazione dei tuoi dati in pochi minuti!
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/table/table/
@@ -22,7 +22,7 @@ public Table(DocumentBase doc)
 
 ## Osservazioni
 
-Quando[`Table`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo`.
+Quando[`Table`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`null`.
 
 Per aggiungere[`Table`](../) all'uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sulla storia in cui vuoi inserire la tabella.
 
@@ -36,8 +36,8 @@ Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
 // Le tabelle contengono righe, che contengono celle, che possono avere paragrafi
-// con elementi tipici come percorsi, forme e persino altre tabelle.
-// La chiamata al metodo "EnsureMinimum" su una tabella lo garantirà
+// con elementi tipici quali sequenze, forme e persino altre tabelle.
+// La chiamata al metodo "EnsureMinimum" su una tabella garantirà che
 // la tabella ha almeno una riga, una cella e un paragrafo.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -48,7 +48,7 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Aggiunge testo alla prima chiamata nella prima riga della tabella.
+// Aggiunge testo alla prima cella della prima riga della tabella.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
@@ -66,7 +66,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -74,7 +74,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni specificate e il testo in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -97,7 +97,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
-    // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
+    // Queste proprietà sono significative per i documenti .docx conformi allo standard ISO/IEC 29500 (vedere la classe OoxmlCompliance).
     // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

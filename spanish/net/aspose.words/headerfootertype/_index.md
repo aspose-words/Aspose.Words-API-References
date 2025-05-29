@@ -3,9 +3,9 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.HeaderFooterType enumeración. Identifica el tipo de encabezado o pie de página que se encuentra en un archivo de Word en C#.
+description: Descubra la enumeración Aspose.Words.HeaderFooterType para identificar fácilmente los tipos de encabezado y pie de página en documentos de Word. ¡Mejore su gestión de documentos hoy mismo!
 type: docs
-weight: 3120
+weight: 3550
 url: /es/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -21,25 +21,25 @@ public enum HeaderFooterType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | HeaderEven | `0` | Encabezado para páginas pares. |
-| HeaderPrimary | `1` | Encabezado principal, también utilizado para páginas impares. |
+| HeaderPrimary | `1` | Encabezado principal, también se utiliza para páginas impares. |
 | FooterEven | `2` | Pie de página para páginas pares. |
-| FooterPrimary | `3` | Pie de página principal, también utilizado para páginas impares. |
-| HeaderFirst | `4` | Encabezado de la primera página de la sección. |
-| FooterFirst | `5` | Pie de página de la primera página de la sección. |
+| FooterPrimary | `3` | Pie de página principal, también se utiliza para páginas impares. |
+| HeaderFirst | `4` | Encabezado para la primera página de la sección. |
+| FooterFirst | `5` | Pie de página para la primera página de la sección. |
 
 ## Ejemplos
 
-Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
+Muestra cómo crear encabezados y pies de página en un documento utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especificamos que queremos encabezados y pies de página diferentes para la primera página, páginas pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Cree los encabezados, luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
+// Cree los encabezados y luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

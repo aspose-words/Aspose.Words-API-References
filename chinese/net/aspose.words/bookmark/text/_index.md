@@ -2,8 +2,8 @@
 title: Bookmark.Text
 linktitle: Text
 articleTitle: Text
-second_title: 用于 .NET 的 Aspose.Words
-description: Bookmark Text 财产. 获取或设置书签中包含的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松管理你的书签！获取或设置书签中的文本，轻松整理并快速访问重要笔记。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/bookmark/text/
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

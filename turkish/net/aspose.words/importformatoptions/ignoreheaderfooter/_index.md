@@ -2,15 +2,15 @@
 title: ImportFormatOptions.IgnoreHeaderFooter
 linktitle: IgnoreHeaderFooter
 articleTitle: IgnoreHeaderFooter
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions IgnoreHeaderFooter mülk. Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: ImportFormatOptions IgnoreHeaderFooter özelliğini keşfedin, KeepSourceFormatting modunda başlık/altbilgi biçimlendirmesini kontrol edin. Belge içe aktarımlarınızı bugün basitleştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değer:`doğru` .
+Başlık/altbilgi içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir Boole değeri alır veya ayarlar eğerKeepSourceFormatting mod kullanılır. Varsayılan değer`doğru` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }
@@ -18,12 +18,16 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ## Örnekler
 
-Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin yoksayılıp yok sayılacağının nasıl belirleneceğini gösterir.
+Başlık/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edilip edilmeyeceğinin nasıl belirtileceğini gösterir.
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");
 Document srcDoc = new Document(MyDir + "Header and footer types.docx");
 
+// 'IgnoreHeaderFooter' yanlışsa, başlık/altbilgi içeriği için orijinal biçimlendirme
+// "Header and footer types.docx" kullanılacaktır.
+// 'IgnoreHeaderFooter' doğruysa, başlık/altbilgi içeriğinin biçimlendirmesi
+// "Document.docx" kullanılacaktır.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreHeaderFooter = false;
 

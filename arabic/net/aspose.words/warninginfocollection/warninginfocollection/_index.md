@@ -3,7 +3,7 @@ title: WarningInfoCollection
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words لـ .NET
-description: WarningInfoCollection البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ WarningInfoCollection، الحل الأمثل لمعالجة أخطاء التطبيقات بكفاءة. بسّط البرمجة باستخدام مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/warninginfocollection/warninginfocollection/

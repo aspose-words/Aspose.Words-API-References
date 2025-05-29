@@ -3,14 +3,14 @@ title: CellFormat.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words för .NET
-description: CellFormat Orientation fast egendom. Returnerar eller ställer in orienteringen för text i en tabellcell i C#.
+description: Upptäck hur du använder egenskapen CellFormat Orientation för att justera textriktningen i tabellceller, vilket förbättrar läsbarheten och designen i dina dokument.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
 
-Returnerar eller ställer in orienteringen för text i en tabellcell.
+Returnerar eller anger orienteringen för text i en tabellcell.
 
 ```csharp
 public TextOrientation Orientation { get; set; }
@@ -32,8 +32,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -48,7 +48,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -59,7 +59,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -91,9 +91,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -104,7 +104,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

@@ -3,7 +3,7 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: TableCollection Item fast egendom. Hämtar enTable vid det givna indexet i C#.
+description: Få enkelt åtkomst till TableCollection-objekt genom att hämta tabeller vid specifika index. Förenkla din datahantering med vår intuitiva egenskapsfunktion!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/tablecollection/item/
@@ -18,21 +18,21 @@ public Table this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Ett index i samlingen. |
+| index | Ett index till samlingen. |
 
 ## Anmärkningar
 
 Indexet är nollbaserat.
 
-Negativa index är tillåtna och indikerar åtkomst från baksidan av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder näst före sist och så vidare.
+Negativa index är tillåtna och indikerar åtkomst från slutet av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder det näst före sista och så vidare.
 
-Om index är större än eller lika med antalet objekt i listan, returnerar detta en nollreferens.
+Om index är större än eller lika med antalet objekt i listan returnerar detta en nullreferens.
 
-Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
+Om index är negativt och dess absoluta värde är större än antalet objekt i listan returnerar detta en null-referens.
 
 ## Exempel
 
-Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
+Visar hur man itererar igenom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Vi kan använda "ToArray"-metoden på en radsamling för att klona den till en array.
+    // Vi kan använda metoden "ToArray" på en radsamling för att klona den till en array.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Vi kan använda "ToArray"-metoden på en cellsamling för att klona den till en array.
+        // Vi kan använda metoden "ToArray" på en cellsamling för att klona den till en array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

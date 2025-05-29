@@ -3,14 +3,14 @@ title: ListLevel.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words för .NET
-description: ListLevel Alignment fast egendom. Hämtar eller ställer in motiveringen för det faktiska numret för listobjektet i C#.
+description: Upptäck egenskapen ListLevel Alignment för att enkelt anpassa justeringen av listobjekt. Förbättra ditt dokuments tydlighet och visuella attraktionskraft idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listlevel/alignment/
 ---
 ## ListLevel.Alignment property
 
-Hämtar eller ställer in motiveringen för det faktiska numret för listobjektet.
+Hämtar eller ställer in justeringen av det faktiska numret på listobjektet.
 
 ```csharp
 public ListLevelAlignment Alignment { get; set; }
@@ -18,20 +18,20 @@ public ListLevelAlignment Alignment { get; set; }
 
 ## Anmärkningar
 
-Listetiketten är motiverad i förhållande till[`NumberPosition`](../numberposition/) fast egendom.
+Listetiketten är justerad i förhållande till[`NumberPosition`](../numberposition/) egendom.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

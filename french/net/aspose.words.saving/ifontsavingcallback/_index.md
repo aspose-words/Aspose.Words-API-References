@@ -3,9 +3,9 @@ title: IFontSavingCallback Interface
 linktitle: IFontSavingCallback
 articleTitle: IFontSavingCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.IFontSavingCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications et contrôler comment Aspose.Words enregistre les polices lors de lexportation dun document au format HTML en C#.
+description: Contrôlez l'enregistrement des polices dans Aspose.Words grâce à l'interface IFontSavingCallback. Recevez des notifications et personnalisez les exportations HTML pour une qualité de document optimale.
 type: docs
-weight: 5160
+weight: 5910
 url: /fr/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
@@ -20,11 +20,11 @@ public interface IFontSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Appelé lorsqu'Aspose.Words est sur le point d'enregistrer une ressource de police. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Appelé lorsque Aspose.Words est sur le point d'enregistrer une ressource de police. |
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -67,7 +67,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

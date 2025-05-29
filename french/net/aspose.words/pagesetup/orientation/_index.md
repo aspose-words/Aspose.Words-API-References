@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words pour .NET
-description: PageSetup Orientation propriété. Renvoie ou définit lorientation de la page en C#.
+description: Découvrez la propriété Orientation de la mise en page pour ajuster facilement la mise en page de votre document. Optimisez vos impressions grâce à des paramètres d'orientation personnalisables !
 type: docs
 weight: 290
 url: /fr/net/aspose.words/pagesetup/orientation/
@@ -18,11 +18,11 @@ public Orientation Orientation { get; set; }
 
 ## Remarques
 
-En changeant`Orientation` échanges[`PageWidth`](../pagewidth/) et[`PageHeight`](../pageheight/).
+Changement`Orientation` échanges[`PageWidth`](../pagewidth/) et[`PageHeight`](../pageheight/).
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -42,25 +42,25 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
+// Modifiez les propriétés de configuration de la page pour la section actuelle du générateur et ajoutez du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si on démarre une nouvelle section en utilisant un générateur de documents,
-// il héritera des propriétés de mise en page actuelles du constructeur.
+// Si nous commençons une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de configuration de page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Nous pouvons rétablir ses propriétés de mise en page à leurs valeurs par défaut en utilisant la méthode "ClearFormatting".
+// Nous pouvons rétablir ses propriétés de configuration de page à leurs valeurs par défaut en utilisant la méthode « ClearFormatting ».
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

@@ -3,14 +3,14 @@ title: MarkdownLinkExportMode Enum
 linktitle: MarkdownLinkExportMode
 articleTitle: MarkdownLinkExportMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.MarkdownLinkExportMode تعداد. طريقة تصدير الروابط إلى مستند مستهدف في C#.
+description: اكتشف كيف يعمل Aspose.Words MarkdownLinkExportMode enum على تعزيز تصدير الروابط في Markdown، مما يعمل على تحسين عملية تحويل المستندات لديك بسهولة.
 type: docs
-weight: 5260
+weight: 6030
 url: /ar/net/aspose.words.saving/markdownlinkexportmode/
 ---
 ## MarkdownLinkExportMode enumeration
 
-طريقة تصدير الروابط إلى مستند مستهدف.
+يحدد كيفية تصدير الروابط إلى Markdown.
 
 ```csharp
 public enum MarkdownLinkExportMode
@@ -20,9 +20,32 @@ public enum MarkdownLinkExportMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | يتم تصدير الارتباط ككتلة مرجعية إذا كان يحتوي على معلومات ذهابًا وإيابًا أو تم ذكره أكثر من مرة في المستند. وفي جميع الحالات الأخرى، يتم تصدير الرابط ككتلة مضمّنة. |
-| Inline | `1` | يتم تصدير الروابط ككتل مضمنة. |
-| Reference | `2` | يتم تصدير الروابط ككتل مرجعية. |
+| Auto | `0` | الكشف تلقائيًا عن وضع التصدير لكل رابط. |
+| Inline | `1` | تصدير جميع الروابط ككتل مضمنة. |
+| Reference | `2` | تصدير جميع الروابط ككتل مرجعية. |
+
+## أمثلة
+
+يوضح كيفية كتابة الروابط إلى ملف .md.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertShape(ShapeType.Balloon, 100, 100);
+
+// سيتم كتابة الصورة كمرجع:
+// ![ref1]
+//
+// [ref1]: aw_ref.001.png
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Reference;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+// سيتم كتابة الصورة على هيئة مضمنة:
+// ![](aw_inline.001.png)
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Inline;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+```
 
 ### أنظر أيضا
 

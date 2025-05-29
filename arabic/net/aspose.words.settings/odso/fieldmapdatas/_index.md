@@ -3,14 +3,14 @@ title: Odso.FieldMapDatas
 linktitle: FieldMapDatas
 articleTitle: FieldMapDatas
 second_title: Aspose.Words لـ .NET
-description: Odso FieldMapDatas ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد كيفية تعيين الأعمدة من مصدر البيانات الخارجي إلى أسماء حقول الدمج المحددة مسبقًا في المستند. لا يتم استخدام هذا الكائن أبدًاباطل  في C#.
+description: اكتشف Odso FieldMapDatas، وقم بسهولة بربط أعمدة البيانات الخارجية بحقول الدمج المحددة مسبقًا، مما يضمن تكامل المستندات بسلاسة ودقة البيانات المحسنة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-الحصول على أو تعيين مجموعة من الكائنات التي تحدد كيفية تعيين الأعمدة من مصدر البيانات الخارجي إلى أسماء حقول الدمج المحددة مسبقًا في المستند. لا يتم استخدام هذا الكائن أبدًا`باطل` .
+يحصل على مجموعة من الكائنات أو يعينها، والتي تحدد كيفية تعيين الأعمدة من مصدر البيانات الخارجي إلى أسماء حقول الدمج المحددة مسبقًا في المستند. لا يتم حفظ هذا الكائن أبدًا`باطل` .
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
@@ -18,13 +18,13 @@ public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات إلى حقول الدمج.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
-// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية قيام دمج البريد بتعيين الأعمدة من مصدر البيانات
+// إلى الحقول المحددة مسبقًا MERGEFIELD وADDRESSBLOCK وGREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر الموجودة في هذه المجموعة.
+//استنساخ العناصر في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
+// استخدم عناصر طريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
+//استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

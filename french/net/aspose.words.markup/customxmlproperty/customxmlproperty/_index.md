@@ -3,7 +3,7 @@ title: CustomXmlProperty
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words pour .NET
-description: CustomXmlProperty constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Découvrez le constructeur CustomXmlProperty. Créez et initialisez facilement de nouvelles instances pour une gestion fluide des propriétés XML dans vos projets.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -18,9 +18,9 @@ public CustomXmlProperty(string name, string uri, string value)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Le nom de la propriété. C'est pas possible`nul`. |
-| uri | String | L’URI de l’espace de noms de la propriété. C'est pas possible`nul`. |
-| value | String | La valeur de la propriété. C'est pas possible`nul`. |
+| name | String | Le nom de la propriété. Ne peut pas être`nul`. |
+| uri | String | L'URI de l'espace de noms de la propriété. Impossible`nul`. |
+| value | String | La valeur de la propriété. Ne peut être`nul`. |
 
 ## Exemples
 
@@ -32,29 +32,29 @@ public void Create()
     Document doc = new Document();
 
     // Une balise active apparaît dans un document avec Microsoft Word qui reconnaît une partie de son texte comme une forme de données,
-    // tel qu'un nom, une date ou une adresse, et le convertit en un lien hypertexte affichant un soulignement en pointillés violets.
+    // comme un nom, une date ou une adresse, et le convertit en un lien hypertexte qui affiche un soulignement en pointillé violet.
     SmartTag smartTag = new SmartTag(doc);
 
     // Les balises intelligentes sont des nœuds composites qui contiennent leur texte reconnu dans son intégralité.
-    // Ajoutez manuellement du contenu à cette balise active.
+    // Ajoutez manuellement du contenu à cette balise intelligente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word peut reconnaître le contenu ci-dessus comme étant une date.
-    // Les balises intelligentes utilisent la propriété "Element" pour refléter le type de données qu'elles contiennent.
+    // Les balises intelligentes utilisent la propriété « Élément » pour refléter le type de données qu'elles contiennent.
     smartTag.Element = "date";
 
-    // Certains types de balises actives traitent davantage leur contenu dans des propriétés XML personnalisées.
+    // Certains types de balises intelligentes traitent ensuite leur contenu dans des propriétés XML personnalisées.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Définit l'URI de la balise intelligente sur la valeur par défaut.
+    // Définissez l'URI de la balise intelligente sur la valeur par défaut.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Créez une autre balise intelligente pour un téléscripteur boursier.
+    // Créez une autre balise intelligente pour un symbole boursier.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -64,13 +64,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
+    // Imprimez toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
     doc.Accept(new SmartTagPrinter());
 
-    // Les anciennes versions de Microsoft Word prennent en charge les balises actives.
+    // Les anciennes versions de Microsoft Word prennent en charge les balises intelligentes.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilisez la méthode "RemoveSmartTags" pour supprimer toutes les balises intelligentes d'un document.
+    // Utilisez la méthode « RemoveSmartTags » pour supprimer toutes les balises intelligentes d'un document.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();

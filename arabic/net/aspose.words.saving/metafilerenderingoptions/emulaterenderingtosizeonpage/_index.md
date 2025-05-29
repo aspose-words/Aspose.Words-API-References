@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
 linktitle: EmulateRenderingToSizeOnPage
 articleTitle: EmulateRenderingToSizeOnPage
 second_title: Aspose.Words لـ .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPage ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان عرض ملف التعريف يحاكي عرض ملف التعريف وفقًا للحجم الموجود على page أو عرض ملف التعريف بحجمه الافتراضي في C#.
+description: اكتشف كيف تعمل خاصية EmulateRenderingToSizeOnPage على تعزيز عرض الملف التعريفي، مما يضمن أحجام عرض دقيقة للحصول على نتائج مرئية مثالية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
 ---
 ## MetafileRenderingOptions.EmulateRenderingToSizeOnPage property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان عرض ملف التعريف يحاكي عرض ملف التعريف وفقًا للحجم الموجود على page أو عرض ملف التعريف بحجمه الافتراضي.
+يحصل على قيمة أو يعينها لتحديد ما إذا كان عرض الملف التعريفي يحاكي عرض الملف التعريفي وفقًا للحجم على page أو عرض الملف التعريفي بحجمه الافتراضي.
 
 ```csharp
 public bool EmulateRenderingToSizeOnPage { get; set; }
@@ -18,31 +18,31 @@ public bool EmulateRenderingToSizeOnPage { get; set; }
 
 ## ملاحظات
 
-عندما يتم عرض ملفات التعريف في برنامج MS Word، قد يتم تغيير حجم بعض الرسومات وفقًا لحجم ملف التعريف الفعلي بالبكسل. أي أن التكبير/التصغير قد يؤثر على عرض ملف التعريف.
+عند عرض ملفات التعريف في MS Word، قد يتم تغيير حجم بعض الرسومات وفقًا لحجم ملف التعريف الفعلي بالبكسل. أي أن التكبير/التصغير قد يؤثر على عرض ملف التعريف.
 
-عندما يتم ضبط هذه القيمة على`حقيقي`، يحاكي Aspose.Words العرض وفقًا لحجم ملف التعريف في الصفحة. يتم حساب الحجم بالبكسل من حجم ملف التعريف في الصفحة والمحدد[`EmulateRenderingToSizeOnPageResolution`](../emulaterenderingtosizeonpageresolution/).
+عندما يتم تعيين هذه القيمة على`حقيقي`يحاكي Aspose.Words عملية العرض وفقًا لحجم الملف التعريفي على الصفحة. يتم حساب الحجم بالبكسل من حجم الملف التعريفي على الصفحة والحجم المحدد[`EmulateRenderingToSizeOnPageResolution`](../emulaterenderingtosizeonpageresolution/).
 
-عندما يتم ضبط هذه القيمة على`خطأ شنيع`، Aspose.Words يحاكي عرض ملف التعريف إلى حجمه الافتراضي بالبكسل.
+عندما يتم تعيين هذه القيمة على`خطأ شنيع`يقوم Aspose.Words بمحاكاة عرض الملف التعريفي إلى حجمه الافتراضي بالبكسل.
 
-يتم استخدام هذا الخيار فقط عندما يتم عرض ملف التعريف كرسومات متجهة.
+يتم استخدام هذا الخيار فقط عندما يتم عرض الملف التعريفي كرسومات متجهة.
 
 القيمة الافتراضية هي`حقيقي`.
 
 ## أمثلة
 
-يوضح كيفية عرض ملف التعريف وفقًا لحجم الصفحة.
+يوضح كيفية عرض الملف التعريفي وفقًا للحجم على الصفحة.
 
 ```csharp
 Document doc = new Document(MyDir + "WMF with text.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// قم بتعيين خاصية "EmulateRenderingToSizeOnPage" على "صحيح"
-// لمحاكاة العرض وفقًا لحجم ملف التعريف الموجود على الصفحة.
-// قم بتعيين خاصية "EmulateRenderingToSizeOnPage" على "خطأ"
-// لمحاكاة عرض ملف التعريف إلى حجمه الافتراضي بالبكسل.
+// اضبط خاصية "EmulateRenderingToSizeOnPage" على "true"
+// لمحاكاة العرض وفقًا لحجم الملف التعريفي الموجود على الصفحة.
+// اضبط خاصية "EmulateRenderingToSizeOnPage" على "false"
+// لمحاكاة عرض الملف التعريفي إلى حجمه الافتراضي بالبكسل.
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPage = renderToSize;
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution = 50;
 

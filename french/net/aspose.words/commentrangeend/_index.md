@@ -3,16 +3,16 @@ title: CommentRangeEnd Class
 linktitle: CommentRangeEnd
 articleTitle: CommentRangeEnd
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.CommentRangeEnd classe. Désigne la fin dune zone de texte à laquelle est associé un commentaire en C#.
+description: Découvrez la classe Aspose.Words.CommentRangeEnd, qui marque la fin des zones de texte associées aux commentaires. Améliorez la gestion de vos documents grâce à des commentaires précis !
 type: docs
-weight: 250
+weight: 440
 url: /fr/net/aspose.words/commentrangeend/
 ---
 ## CommentRangeEnd class
 
-Désigne la fin d'une zone de texte à laquelle est associé un commentaire.
+Indique la fin d'une région de texte à laquelle est associé un commentaire.
 
-Pour en savoir plus, visitez le[Travailler avec des commentaires](https://docs.aspose.com/words/net/working-with-comments/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les commentaires](https://docs.aspose.com/words/net/working-with-comments/) article de documentation.
 
 ```csharp
 public sealed class CommentRangeEnd : Node
@@ -36,26 +36,26 @@ public sealed class CommentRangeEnd : Node
 | override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | RetoursCommentRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
-Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créez[`CommentRangeStart`](../commentrangestart/) et`CommentRangeEnd`et définissez leurs identifiants sur le même[`Id`](../comment/id/) valeur.
+Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) et puis créez[`CommentRangeStart`](../commentrangestart/) et`CommentRangeEnd` et définissez leurs identifiants sur le même[`Id`](../comment/id/) valeur.
 
 `CommentRangeEnd` est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
@@ -84,7 +84,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Ajoute deux réponses au commentaire.
+    // Ajoutez deux réponses au commentaire.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -92,21 +92,25 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itérer sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Tout d'abord, visitez le début de la plage de commentaires.
+        // Tout d’abord, visitez le début de la plage de commentaires.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut avoir.
+        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut contenir.
         comment.Accept(commentVisitor);
+        // Visitez uniquement le début du commentaire.
+        comment.AcceptStart(commentVisitor);
+        // Visitez uniquement la fin du commentaire.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -173,7 +177,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Commentaire est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Comment est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -198,9 +202,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

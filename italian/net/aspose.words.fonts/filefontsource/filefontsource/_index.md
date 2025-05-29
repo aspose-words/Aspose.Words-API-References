@@ -3,7 +3,7 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words per .NET
-description: FileFontSource costruttore. Ctor in C#.
+description: Scopri il costruttore FileFontSource per un'integrazione perfetta dei font nei tuoi progetti. Migliora il tuo design con soluzioni di programmazione facili da usare!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/filefontsource/filefontsource/
@@ -18,11 +18,11 @@ public FileFontSource(string filePath)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file del carattere. |
+| filePath | String | Percorso al file del font. |
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -54,12 +54,12 @@ public FileFontSource(string filePath, int priority)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file del carattere. |
-| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
+| filePath | String | Percorso al file del font. |
+| priority | Int32 | Priorità della sorgente del font. Vedi[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per maggiori informazioni. |
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -91,13 +91,13 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file del carattere. |
-| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
-| cacheKey | String | La chiave di questa origine nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della proprietà per ulteriori informazioni. |
+| filePath | String | Percorso al file del font. |
+| priority | Int32 | Priorità della sorgente del font. Vedi[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per maggiori informazioni. |
+| cacheKey | String | La chiave di questa fonte nella cache. Vedi[`CacheKey`](../cachekey/) descrizione della proprietà per maggiori informazioni. |
 
 ## Esempi
 
-Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei font.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,7 +127,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
+/// Carica i dati del font solo quando necessario invece di memorizzarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

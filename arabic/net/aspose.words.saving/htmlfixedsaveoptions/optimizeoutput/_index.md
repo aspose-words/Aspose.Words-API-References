@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.OptimizeOutput
 linktitle: OptimizeOutput
 articleTitle: OptimizeOutput
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions OptimizeOutput ملكية. تشير العلامة إلى ما إذا كان مطلوبًا تحسين الإخراج. إذا تم تعيين هذه العلامة للوحات القماشية المتداخلة الزائدة وتمت إزالة اللوحات الفارغة يتم أيضًا ربط الحروف الرسومية المجاورة بنفس التنسيق. ملاحظة قد تتأثر دقة عرض المحتوى إذا تم تعيين هذه الخاصية علىحقيقي . الافتراضي هوحقيقي  في C#.
+description: حسّن مخرجات HTML باستخدام خاصية HtmlFixedSaveOptions. حسّن الأداء بإزالة اللوحات المكررة ودمج الرموز المتشابهة. الافتراضي: صحيح.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-تشير العلامة إلى ما إذا كان مطلوبًا تحسين الإخراج. إذا تم تعيين هذه العلامة للوحات القماشية المتداخلة الزائدة وتمت إزالة اللوحات الفارغة، يتم أيضًا ربط الحروف الرسومية المجاورة بنفس التنسيق. ملاحظة: قد تتأثر دقة عرض المحتوى إذا تم تعيين هذه الخاصية على`حقيقي` . الافتراضي هو`حقيقي` .
+يشير العلم إلى ما إذا كان مطلوبًا لتحسين الإخراج. إذا تم تعيين هذا العلم، تتم إزالة اللوحات المتداخلة الزائدة واللوحات الفارغة، يتم أيضًا ربط الحروف المجاورة بنفس التنسيق. ملاحظة: قد تتأثر دقة عرض المحتوى إذا تم تعيين هذه الخاصية على`حقيقي` . الافتراضي هو`حقيقي` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -18,7 +18,7 @@ public override bool OptimizeOutput { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تبسيط مستند عند حفظه بتنسيق HTML عن طريق إزالة العديد من الكائنات الزائدة عن الحاجة.
+يوضح كيفية تبسيط المستند عند حفظه بتنسيق HTML عن طريق إزالة العديد من الكائنات الزائدة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -27,8 +27,8 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
-// يبلغ حجم النسخة المحسنة من المستند ما يقرب من ثلث حجم المستند غير المحسن.
-Assert.AreEqual(optimizeOutput ? 62521 : 191770,
+// حجم النسخة المحسنة من المستند هو ما يقرب من ثلث حجم المستند غير المحسن.
+Assert.AreEqual(optimizeOutput ? 60385 : 191000,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```
 

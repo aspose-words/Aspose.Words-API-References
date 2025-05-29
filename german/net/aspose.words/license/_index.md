@@ -3,14 +3,14 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words für .NET
-description: Aspose.Words.License klas. Stellt Methoden zur Lizenzierung der Komponente bereit in C#.
+description: Entfesseln Sie das volle Potenzial von Aspose.Words mit unserer Lizenzklasse. Verwalten Sie Lizenzen ganz einfach für eine reibungslose Dokumentenverarbeitung und erweiterte Funktionalität.
 type: docs
-weight: 3420
+weight: 3870
 url: /de/net/aspose.words/license/
 ---
 ## License class
 
-Stellt Methoden zur Lizenzierung der Komponente bereit.
+Bietet Methoden zum Lizenzieren der Komponente.
 
 Um mehr zu erfahren, besuchen Sie die[Lizenzierung und Abonnement](https://docs.aspose.com/words/net/licensing/) Dokumentationsartikel.
 
@@ -36,7 +36,7 @@ public class License
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
 ```csharp
-// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
+// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen einer gültigen Lizenzdatei im lokalen Dateisystem übergeben.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();

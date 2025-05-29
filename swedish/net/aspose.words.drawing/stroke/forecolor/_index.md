@@ -3,14 +3,14 @@ title: Stroke.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words för .NET
-description: Stroke ForeColor fast egendom. Hämtar eller ställer in linjens förgrundsfärg i C#.
+description: Upptäck egenskapen Stroke ForeColor för att enkelt anpassa din linjes förgrundsfärg för ökad designflexibilitet och visuell tilltalning.
 type: docs
-weight: 100
+weight: 130
 url: /sv/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
 
-Hämtar eller ställer in linjens förgrundsfärg.
+Hämtar eller ställer in förgrundsfärgen för linjen.
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -18,11 +18,11 @@ public Color ForeColor { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet för a[`Shape`](../../shape/) är Black.
+Standardvärdet för en[`Shape`](../../shape/) är Black .
 
 ## Exempel
 
-Visa hur du ställer in markörformatering.
+Visa hur man ställer in markörformatering.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Ställ in markörformatering.
+// Ange markörformatering.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

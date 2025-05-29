@@ -3,9 +3,9 @@ title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
 second_title: Aspose.Words для .NET
-description: Document UpdateThumbnail метод. ОбновленияThumbnail документа согласно указанным параметрам на С#.
+description: Легко обновите миниатюру вашего документа с помощью наших настраиваемых опций. Улучшите визуальные эффекты и презентацию документа сегодня!
 type: docs
-weight: 780
+weight: 840
 url: /ru/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
@@ -18,11 +18,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ThumbnailGeneratingOptions | Варианты генерации, которые можно использовать. |
+| options | ThumbnailGeneratingOptions | Параметры генерации для использования. |
 
 ## Примечания
 
-[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) позволяет указать источник миниатюры, размер и другие параметры. Если попытка создания миниатюры не удалась, она не меняется.
+[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) позволяет указать источник миниатюры, размер и другие параметры. Если попытка создания миниатюры не удалась, не изменяет ее.
 
 ## Примеры
 
@@ -36,7 +36,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Существует два способа установки миниатюры изображения при сохранении документа в формате .epub.
-// 1 - Использовать первую страницу документа:
+// 1 — Использовать первую страницу документа:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
@@ -78,7 +78,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Существует два способа установки миниатюры изображения при сохранении документа в формате .epub.
-// 1 - Использовать первую страницу документа:
+// 1 — Использовать первую страницу документа:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

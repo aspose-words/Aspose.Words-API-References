@@ -2,15 +2,15 @@
 title: FieldTC.TypeIdentifier
 linktitle: TypeIdentifier
 articleTitle: TypeIdentifier
-second_title: Aspose.Words for .NET
-description: FieldTC TypeIdentifier mülk. Bu alan için bir tür tanımlayıcısı alır veya ayarlar bu genellikle bir harftir C#'da.
+second_title: .NET için Aspose.Words
+description: FieldTC TypeIdentifier özelliğini keşfedin. Bu çok yönlü özellik ile alan türü tanımlayıcılarını kolayca yönetin, veri organizasyonunuzu ve verimliliğinizi artırın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldtc/typeidentifier/
 ---
 ## FieldTC.TypeIdentifier property
 
-Bu alan için bir tür tanımlayıcısı alır veya ayarlar (bu genellikle bir harftir).
+Bu alan için bir tür tanımlayıcısı alır veya ayarlar (genellikle bir harftir).
 
 ```csharp
 public string TypeIdentifier { get; set; }
@@ -18,7 +18,7 @@ public string TypeIdentifier { get; set; }
 
 ## Örnekler
 
-TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
+İçindekiler alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağının nasıl filtreleneceğini gösterir.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Tüm TC alanlarını bir içindekiler tablosunda derleyecek bir TOC alanı ekleyin.
+    // İçindekiler tablosuna tüm TC alanlarını derleyecek bir İçindekiler alanı ekleyin.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Alanı yalnızca "A" tipindeki TC girişlerini ve 1 ile 3 arasındaki giriş seviyesini alacak şekilde yapılandırın.
+    // Alanı yalnızca "A" türündeki TC girişlerini ve 1 ile 3 arasındaki giriş düzeyini alacak şekilde yapılandırın.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,10 +42,10 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Bu girdi "A"dan farklı bir türe sahip olduğundan tablodan çıkarılacaktır.
+    // Bu girdi "A"dan farklı bir türe sahip olduğundan tablodan çıkarılacak.
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Bu giriş, 1-3 aralığının dışında bir giriş düzeyine sahip olduğundan tablodan çıkarılacaktır.
+    // Bu girdi, 1-3 aralığının dışında bir giriş seviyesine sahip olduğundan tablodan çıkarılacaktır.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();

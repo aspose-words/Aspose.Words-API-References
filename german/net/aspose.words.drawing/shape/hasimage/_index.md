@@ -3,14 +3,14 @@ title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words für .NET
-description: Shape HasImage eigendom. Gibt zurückWAHR wenn die Form Bildbytes hat oder ein Bild verknüpft in C#.
+description: Finden Sie mit der HasImage-Eigenschaft heraus, ob eine Form Bilddaten enthält oder auf ein Bild verweist. Optimieren Sie Ihre Designs mühelos!
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Gibt zurück`WAHR` wenn die Form Bildbytes hat oder ein Bild verknüpft.
+Rückgaben`WAHR` wenn die Form Bildbytes enthält oder ein Bild verlinkt.
 
 ```csharp
 public bool HasImage { get; }
@@ -33,13 +33,13 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Zeigt, wie man Bilder aus einem Dokument extrahiert und sie als einzelne Dateien im lokalen Dateisystem speichert.
+Zeigt, wie Bilder aus einem Dokument extrahiert und als einzelne Dateien im lokalen Dateisystem gespeichert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Holen Sie sich die Formensammlung aus dem Dokument,
-// und die Bilddaten jeder Form mit einem Bild als Datei im lokalen Dateisystem speichern.
+// Holen Sie sich die Sammlung von Formen aus dem Dokument,
+// und speichere die Bilddaten jeder Form mit einem Bild als Datei im lokalen Dateisystem.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -49,8 +49,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten.
-        // Wir können für jedes Bild automatisch eine Dateierweiterung anhand seines Formats ermitteln.
+            // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten.
+        // Wir können für jedes Bild automatisch eine Dateierweiterung basierend auf seinem Format bestimmen.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

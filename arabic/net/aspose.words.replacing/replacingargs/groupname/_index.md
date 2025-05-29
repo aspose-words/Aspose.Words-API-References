@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs GroupName ملكية. يحدد بالاسم المجموعة التي تم التقاطها فيMatch الذي سيتم استبداله بـReplacement سلسلة في C#.
+description: اكتشف كيفية استخدام خاصية GroupName بفعالية لاستبدال المجموعات المُلتقطة في مبارياتك بسلاسل نصية مخصصة. حسّن مهاراتك في التعامل مع السلاسل النصية!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-يحدد، بالاسم، المجموعة التي تم التقاطها في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
+يحدد، من خلال الاسم، المجموعة الملتقطة في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
 
 ```csharp
 public string GroupName { get; set; }
@@ -18,13 +18,13 @@ public string GroupName { get; set; }
 
 ## ملاحظات
 
-عندما يكون اسم المجموعة`باطل` ,[`GroupIndex`](../groupindex/) يتم استخدامه لتحديد المجموعة.
+عندما يكون اسم المجموعة هو`باطل` ،[`GroupIndex`](../groupindex/) يتم استخدامه لتحديد المجموعة.
 
 الافتراضي هو`باطل`.
 
 ## أمثلة
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

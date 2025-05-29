@@ -3,9 +3,9 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words för .NET
-description: DocumentBuilder Writeln metod. Infogar en sträng och en styckebrytning i dokumentet i C#.
+description: Förbättra dina dokument enkelt med DocumentBuilders Writeln-metod – infoga text och styckebrytningar sömlöst för förbättrad läsbarhet.
 type: docs
-weight: 660
+weight: 700
 url: /sv/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -89,13 +89,13 @@ Samtal[`InsertParagraph`](../insertparagraph/).
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

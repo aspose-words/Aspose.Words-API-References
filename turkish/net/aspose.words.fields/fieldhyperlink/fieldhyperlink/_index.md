@@ -2,8 +2,8 @@
 title: FieldHyperlink
 linktitle: FieldHyperlink
 articleTitle: FieldHyperlink
-second_title: Aspose.Words for .NET
-description: FieldHyperlink inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde kusursuz entegrasyon ve gelişmiş işlevsellik için temel varsayılan oluşturucu olan FieldHyperlink oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/

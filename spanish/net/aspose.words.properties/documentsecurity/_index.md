@@ -3,9 +3,9 @@ title: DocumentSecurity Enum
 linktitle: DocumentSecurity
 articleTitle: DocumentSecurity
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Properties.DocumentSecurity enumeración. Se utiliza como valor para elSecurity propiedad. Especifica el nivel de seguridad de un documento como un valor numérico en C#.
+description: Descubra la enumeración Aspose.Words.DocumentSecurity para mejorar la seguridad de sus documentos. Especifique y administre fácilmente los niveles de seguridad para una protección óptima.
 type: docs
-weight: 4490
+weight: 5220
 url: /es/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
@@ -22,10 +22,10 @@ public enum DocumentSecurity
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | No hay estados de seguridad especificados por la propiedad. |
-| PasswordProtected | `1` | El documento está protegido con contraseña. (La nota nunca se ha visto en un documento hasta ahora). |
-| ReadOnlyRecommended | `2` | El documento se abrirá como de solo lectura si es posible, pero la configuración se puede anular. |
-| ReadOnlyEnforced | `4` | El documento que siempre se abrirá como solo lectura. |
-| ReadOnlyExceptAnnotations | `8` | El documento siempre se abrirá como solo lectura, excepto para las anotaciones. |
+| PasswordProtected | `1` | El documento está protegido con contraseña. (Esta nota nunca se ha visto en ningún documento hasta ahora). |
+| ReadOnlyRecommended | `2` | El documento se abrirá en modo de solo lectura si es posible, pero la configuración se puede anular. |
+| ReadOnlyEnforced | `4` | El documento siempre se abrirá en modo de solo lectura. |
+| ReadOnlyExceptAnnotations | `8` | El documento siempre se abrirá en modo de solo lectura, excepto para las anotaciones. |
 
 ## Ejemplos
 
@@ -36,7 +36,7 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Si configuramos un documento para que sea de solo lectura, mostrará este estado usando la propiedad incorporada "Seguridad".
+// Si configuramos un documento para que sea de sólo lectura, mostrará este estado utilizando la propiedad incorporada "Seguridad".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

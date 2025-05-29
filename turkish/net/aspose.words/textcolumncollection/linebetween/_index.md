@@ -2,15 +2,15 @@
 title: TextColumnCollection.LineBetween
 linktitle: LineBetween
 articleTitle: LineBetween
-second_title: Aspose.Words for .NET
-description: TextColumnCollection LineBetween mülk. Ne zamandoğru sütunların arasına dikey bir çizgi ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Düzeninizi TextColumnCollection LineBetween özelliğiyle geliştirin. Cilalı, düzenli bir görünüm için sütunlar arasında dikey çizgileri etkinleştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-Ne zaman`doğru` sütunların arasına dikey bir çizgi ekler.
+Ne zaman`doğru` , sütunlar arasına dikey bir çizgi ekler.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -18,13 +18,13 @@ public bool LineBetween { get; set; }
 
 ## Örnekler
 
-Sütunların dikey çizgiyle nasıl ayrılacağını gösterir.
+Sütunların dikey çizgi ile nasıl ayrılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Metni birkaç sütuna bölmek için geçerli bölümün PageSetup nesnesini yapılandırın.
+// Metni birkaç sütuna bölecek şekilde geçerli bölümün PageSetup nesnesini yapılandırın.
 // Sütunlar arasına ayırıcı çizgi koymak için "LineBetween" özelliğini "true" olarak ayarlayın.
 // Sütunlar arasındaki boşluğu boş bırakmak için "LineBetween" özelliğini "false" olarak ayarlayın.
 TextColumnCollection columns = builder.PageSetup.TextColumns;

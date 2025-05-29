@@ -3,14 +3,14 @@ title: PageSetup.EndnoteOptions
 linktitle: EndnoteOptions
 articleTitle: EndnoteOptions
 second_title: Aspose.Words для .NET
-description: PageSetup EndnoteOptions свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом разделе на С#.
+description: Откройте для себя свойство PageSetup EndnoteOptions, позволяющее легко настраивать нумерацию и расположение концевых сносок для улучшенного форматирования и ясности документа.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/pagesetup/endnoteoptions/
 ---
 ## PageSetup.EndnoteOptions property
 
-Предоставляет параметры, управляющие нумерацией и расположением сносок в этом разделе.
+Предоставляет параметры, управляющие нумерацией и расположением концевых сносок в этом разделе.
 
 ```csharp
 public EndnoteOptions EndnoteOptions { get; }
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// Настраиваем все сноски в первом разделе, чтобы перезапустить нумерацию с 1
+// Настройте все сноски в первом разделе, чтобы начать нумерацию заново с 1
 // на каждой новой странице и отображаются непосредственно под текстом на каждой странице.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
@@ -37,8 +37,8 @@ footnoteOptions.StartNumber = 1;
 builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
-// Настройте все концевые сноски в первом разделе, чтобы обеспечить непрерывный подсчет по всему разделу,
-// начиная с 1. Кроме того, настройте их все так, чтобы они отображались собранными в конце документа.
+// Настройте все концевые сноски в первом разделе, чтобы поддерживать непрерывный подсчет по всему разделу,
+// начиная с 1. Также установите, чтобы все они отображались собранными в конце документа.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

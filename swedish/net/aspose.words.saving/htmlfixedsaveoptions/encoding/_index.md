@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions Encoding fast egendom. Anger kodningen som ska användas vid export till HTML. Standardvärdet ärny UTF8Encodingtrue UTF8 med BOM i C#.
+description: Upptäck kodningsegenskapen HtmlFixedSaveOptions för sömlös HTML-export. Ställ enkelt in UTF-8-kodning med BOM för optimal dataintegritet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-Anger kodningen som ska användas vid export till HTML. Standardvärdet är`ny UTF8Encoding(true)` (UTF-8 med BOM).
+Anger vilken kodning som ska användas vid export till HTML. Standardvärdet är`ny UTF8-kodning(sant)` (UTF-8 med BOM).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in vilken kodning som ska användas när ett dokument exporteras till HTML.
+Visar hur man ställer in vilken kodning som ska användas vid export av ett dokument till HTML.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.Writeln("Hello World!");
 // vi kan använda ett SaveOptions-objekt för att ställa in en specifik kodning.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
-    Encoding = Encoding.GetEncoding("ASCII")
+    Encoding = Encoding.ASCII
 };
 
 Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);

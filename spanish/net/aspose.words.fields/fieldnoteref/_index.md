@@ -3,16 +3,16 @@ title: FieldNoteRef Class
 linktitle: FieldNoteRef
 articleTitle: FieldNoteRef
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldNoteRef clase. Implementa el campo NOTAREF en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldNoteRef para una integración perfecta de los campos NOTEREF, mejorando la gestión y referencia de documentos.
 type: docs
-weight: 2200
+weight: 2610
 url: /es/net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class
 
-Implementa el campo NOTAREF.
+Implementa el campo NOTEREF.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldNoteRef : Field
@@ -31,15 +31,15 @@ public class FieldNoteRef : Field
 | [BookmarkName](../../aspose.words.fields/fieldnoteref/bookmarkname/) { get; set; } | Obtiene o establece el nombre del marcador. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/)objeto que proporciona acceso tipificado al formato del campo. |
 | [InsertHyperlink](../../aspose.words.fields/fieldnoteref/inserthyperlink/) { get; set; } | Obtiene o establece si se debe insertar un hipervínculo al párrafo marcado. |
-| [InsertReferenceMark](../../aspose.words.fields/fieldnoteref/insertreferencemark/) { get; set; } | Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final. |
+| [InsertReferenceMark](../../aspose.words.fields/fieldnoteref/insertreferencemark/) { get; set; } | Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final |
 | [InsertRelativePosition](../../aspose.words.fields/fieldnoteref/insertrelativeposition/) { get; set; } | Obtiene o establece si se debe insertar una posición relativa del párrafo marcado. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas al documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que está entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campo. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -47,20 +47,20 @@ public class FieldNoteRef : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo padre, devuelve su párrafo padre. Si el campo ya se ha eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza una excepción si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se lanza una excepción si el campo ya se está actualizando. |
 
 ## Observaciones
 
-Inserta la marca de la nota al pie o nota al final marcada por el marcador especificado.
+Inserta la marca de la nota al pie o nota final que está marcada por el marcador especificado.
 
 ## Ejemplos
 
-Muestra cómo hacer referencias cruzadas de notas a pie de página con el campo NOTAREF.
+Muestra cómo realizar referencias cruzadas de notas al pie con el campo NOTEREF.
 
 ```csharp
 Document doc = new Document();
@@ -79,15 +79,15 @@ builder.StartBookmark("CrossRefBookmark");
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
 builder.EndBookmark("CrossRefBookmark");
-builder.Writeln();            
+builder.Writeln();
 
-doc.UpdateFields();           
+doc.UpdateFields();
 
-// Este campo sólo funciona en versiones anteriores de Microsoft Word.
+//Este campo sólo funciona en versiones anteriores de Microsoft Word.
 doc.Save(ArtifactsDir + "Field.NOTEREF.doc");
 ```
 
-Muestra para insertar campos NOTAREF y modificar su apariencia.
+Muestra cómo insertar campos NOTEREF y modificar su apariencia.
 
 ```csharp
 public void FieldNoteRef()
@@ -95,15 +95,15 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Cree un marcador con una nota a pie de página a la que hará referencia el campo NOTAREF.
+    // Crea un marcador con una nota al pie a la que hará referencia el campo NOTEREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Este campo NOTAREF mostrará el número de la nota al pie dentro del marcador al que se hace referencia.
-    // Configurar la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + clic en el campo en Microsoft Word.
+    // Este campo NOTEREF mostrará el número de la nota al pie dentro del marcador referenciado.
+    // Establecer la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + clic en el campo en Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // Cuando se utiliza la marca \p, después del número de la nota al pie, el campo también muestra la posición del marcador en relación con el campo.
+    // Cuando se utiliza el indicador \p, después del número de nota al pie, el campo también muestra la posición del marcador en relación con el campo.
     // Bookmark1 está encima de este campo y contiene la nota al pie número 1, por lo que el resultado será "1 arriba" en la actualización.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
@@ -122,7 +122,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// Utiliza un generador de documentos para insertar un campo NOTAREF con propiedades específicas.
+/// Utiliza un generador de documentos para insertar un campo NOTEREF con propiedades especificadas.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {

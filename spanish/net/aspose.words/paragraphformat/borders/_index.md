@@ -3,7 +3,7 @@ title: ParagraphFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words para .NET
-description: ParagraphFormat Borders propiedad. Obtiene la colección de bordes del párrafo en C#.
+description: Descubra la propiedad Bordes de ParagraphFormat para administrar y personalizar fácilmente los bordes de sus párrafos, mejorando la estética y la legibilidad del documento.
 type: docs
 weight: 60
 url: /es/net/aspose.words/paragraphformat/borders/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Establece ThemeColor solo cuando LineWidth o LineStyle están configurados.
+// Establezca ThemeColor solo cuando se configure LineWidth o LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

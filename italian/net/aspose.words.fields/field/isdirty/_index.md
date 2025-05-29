@@ -3,7 +3,7 @@ title: Field.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words per .NET
-description: Field IsDirty proprietà. Ottiene o imposta se il risultato corrente del campo non è più corretto obsoleto a causa di altre modifiche apportate al documento in C#.
+description: Gestisci la proprietà IsDirty per garantire che i dati dei tuoi campi siano sempre accurati e aggiornati, migliorando l'integrità e le prestazioni dei documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/field/isdirty/
@@ -18,20 +18,20 @@ public bool IsDirty { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare la proprietà speciale per aggiornare il risultato del campo.
+Mostra come utilizzare una proprietà speciale per aggiornare il risultato del campo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Assegna il valore della proprietà "Autore" incorporata al documento, quindi visualizzalo con un campo.
+// Assegna il valore alla proprietà "Autore" incorporata nel documento, quindi visualizzala con un campo.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Aggiorna la proprietà. Il campo visualizza ancora il vecchio valore.
+// Aggiorna la proprietà. Il campo mostra ancora il vecchio valore.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
@@ -56,7 +56,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // L'aggiornamento di campi sporchi come questo imposta automaticamente il loro flag "IsDirty" su false.
+    // L'aggiornamento dei campi dirty in questo modo imposta automaticamente il loro flag "IsDirty" su false.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

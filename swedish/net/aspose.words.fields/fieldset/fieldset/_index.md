@@ -3,7 +3,7 @@ title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
 second_title: Aspose.Words för .NET
-description: FieldSet byggare. Default_Constructor i C#.
+description: Upptäck FieldSet-konstruktorn, det viktiga verktyget för att enkelt skapa dynamiska formulär. Lås upp sömlösa användarupplevelser idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldset/fieldset/

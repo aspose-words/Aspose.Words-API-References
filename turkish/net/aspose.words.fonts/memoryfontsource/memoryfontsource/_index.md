@@ -2,15 +2,15 @@
 title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
-second_title: Aspose.Words for .NET
-description: MemoryFontSource inşaatçı. Ctor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde kusursuz font yönetimi için güçlü bir oluşturucu olan MemoryFontSource'u keşfedin. Tasarımınızı kolaylıkla ve verimli bir şekilde geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## Örnekler
 
-Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
+Bir font dosyasındaki verilerle bir bayt dizisinin font kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,11 +55,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fontData | Byte[] | İkili yazı tipi verileri. |
-| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
+| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için mülk açıklamasına bakın. |
 
 ## Örnekler
 
-Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
+Bir font dosyasındaki verilerle bir bayt dizisinin font kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fontData | Byte[] | İkili yazı tipi verileri. |
-| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
-| cacheKey | String | Bu kaynağın anahtarı önbellektedir. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
+| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için mülk açıklamasına bakın. |
+| cacheKey | String | Bu kaynağın anahtarı önbellekte. Bkz.[`CacheKey`](../cachekey/) Daha fazla bilgi için mülk açıklamasına bakın. |
 
 ## Örnekler
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm ömrü boyunca.
+/// Font verilerini hafızada saklamak yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm yaşam süresi boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertCell метод. Вставляет ячейку таблицы в документ на С#.
+description: Легко улучшайте свои документы с помощью метода InsertCell в DocumentBuilder — быстро добавляйте настраиваемые ячейки таблиц для лучшей организации и ясности.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/documentbuilder/insertcell/
@@ -22,17 +22,17 @@ public Cell InsertCell()
 
 ## Примечания
 
-Чтобы начать стол, просто позвоните`InsertCell` . После этого любой контент, который вы добавляете с помощью других методов[`DocumentBuilder`](../) класс будет добавлен в текущую ячейку.
+Чтобы начать игру за столом, просто позвоните`InsertCell` . После этого любой контент, который вы добавляете с помощью других методов[`DocumentBuilder`](../) класс будет добавлен в текущую ячейку.
 
 Чтобы начать новую ячейку в той же строке, вызовите`InsertCell` снова.
 
 Чтобы завершить вызов строки таблицы[`EndRow`](../endrow/).
 
-Использовать[`CellFormat`](../cellformat/)свойство, позволяющее указать форматирование ячейки.
+Используйте[`CellFormat`](../cellformat/) свойство для указания форматирования ячеек.
 
 ## Примеры
 
-Показывает, как использовать построитель документов для создания таблицы.
+Показывает, как использовать конструктор документов для создания таблицы.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Вызов метода построителя «EndRow», чтобы начать новую строку.
+// Вызываем метод «EndRow» конструктора, чтобы начать новую строку.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -56,7 +56,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -88,8 +88,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -101,7 +101,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

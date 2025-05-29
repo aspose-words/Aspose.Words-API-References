@@ -3,9 +3,9 @@ title: PaperSize Enum
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.PaperSize énumération. Spécifie le format du papier en C#.
+description: Découvrez l'énumération Aspose.Words.PaperSize pour définir des formats de papier personnalisés dans vos documents. Améliorez facilement la mise en forme de vos documents !
 type: docs
-weight: 4380
+weight: 5110
 url: /fr/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -37,11 +37,13 @@ public enum PaperSize
 | Paper10x14 | `14` | 10 x 14 pouces. |
 | Paper11x17 | `15` | 11 x 17 pouces. |
 | Number10Envelope | `16` | 4,125 x 9,5 pouces. |
-| Custom | `17` | Format de papier personnalisé. |
+| JisB4 | `17` | 257 x 364 mm. |
+| JisB5 | `18` | 182 x 257 mm. |
+| Custom | `19` | Format de papier personnalisé. |
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -67,8 +69,8 @@ Montre comment définir les tailles de page.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nous pouvons changer la taille de la page actuelle en une taille prédéfinie
-// en utilisant la propriété "PaperSize" de l'objet PageSetup de cette section.
+// Nous pouvons modifier la taille de la page actuelle à une taille prédéfinie
+// en utilisant la propriété « PaperSize » de l'objet PageSetup de cette section.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -76,7 +78,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Chaque section possède son propre objet PageSetup. Lorsque nous utilisons un générateur de documents pour créer une nouvelle section,
+// Chaque section possède son propre objet PageSetup. Lorsqu'on utilise un générateur de documents pour créer une nouvelle section,
 // l'objet PageSetup de cette section hérite de toutes les valeurs de l'objet PageSetup de la section précédente.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -90,7 +92,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Définit une taille personnalisée pour les pages de cette section.
+// Définissez une taille personnalisée pour les pages de cette section.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -101,23 +103,23 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Montre comment construire manuellement un document Aspose.Words.
+Montre comment construire un document Aspose.Words à la main.
 
 ```csharp
 Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
-// Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et on se retrouve avec un nœud de document sans enfants.
+// Appelez la méthode « RemoveAllChildren » pour supprimer tous ces nœuds,
+// et se retrouver avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
 // Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
 // Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
-// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
+// Tout d’abord, créez une nouvelle section, puis ajoutez-la en tant qu’enfant au nœud racine du document.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Définissez certaines propriétés de mise en page pour la section.
+// Définissez certaines propriétés de configuration de page pour la section.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -126,7 +128,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Créez un paragraphe, définissez certaines propriétés de mise en forme, puis ajoutez-le en tant qu'enfant au corps.
+// Créez un paragraphe, définissez certaines propriétés de formatage, puis ajoutez-le en tant qu'enfant au corps.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -134,8 +136,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Enfin, ajoutez du contenu pour faire le document. Créez une course,
-// définit son apparence et son contenu, puis l'ajoute en tant qu'enfant au paragraphe.
+// Enfin, ajoutez du contenu pour compléter le document. Créez une exécution,
+// définissez son apparence et son contenu, puis ajoutez-le en tant qu'enfant au paragraphe.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

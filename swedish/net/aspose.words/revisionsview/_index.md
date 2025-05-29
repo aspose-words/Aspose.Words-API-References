@@ -3,14 +3,14 @@ title: RevisionsView Enum
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words för .NET
-description: Aspose.Words.RevisionsView uppräkning. Låter dig ange om du vill arbeta med den ursprungliga eller reviderade versionen av ett dokument i C#.
+description: Upptäck Aspose.Words.RevisionsView enum för att enkelt välja mellan original- och reviderade dokumentversioner för effektiv redigering och samarbete.
 type: docs
-weight: 4810
+weight: 5550
 url: /sv/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-Låter dig ange om du vill arbeta med den ursprungliga eller reviderade versionen av ett dokument.
+Gör det möjligt att ange om man ska arbeta med originalversionen eller den reviderade versionen av ett dokument.
 
 ```csharp
 public enum RevisionsView
@@ -25,7 +25,7 @@ public enum RevisionsView
 
 ## Exempel
 
-Visar hur du växlar mellan den reviderade och den ursprungliga vyn av ett dokument.
+Visar hur man växlar mellan den reviderade och ursprungliga vyn av ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

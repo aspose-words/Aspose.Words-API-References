@@ -3,14 +3,14 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words для .NET
-description: Font Position свойство. Получает или задает положение текста в пунктах относительно базовой линии. Положительное число поднимает текст а отрицательное число опускает его на С#.
+description: Откройте для себя свойство Font Position, легко настройте выравнивание текста в пунктах для точного контроля над типографикой. Поднимите свой дизайн с помощью гибкого позиционирования!
 type: docs
-weight: 300
+weight: 310
 url: /ru/net/aspose.words/font/position/
 ---
 ## Font.Position property
 
-Получает или задает положение текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, а отрицательное число опускает его.
+Возвращает или задает положение текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, а отрицательное число опускает его.
 
 ```csharp
 public double Position { get; set; }
@@ -34,16 +34,16 @@ run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
 
-// Добавляем ряд обычного текста.
+// Добавить строку обычного текста.
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается в виде нижнего индекса.
+// Добавьте фрагмент текста, который отображается как нижний индекс.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как надстрочный индекс.
+// Добавьте фрагмент текста, который отображается как верхний индекс.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

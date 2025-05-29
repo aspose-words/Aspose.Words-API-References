@@ -3,14 +3,14 @@ title: PageSetup.FirstPageTray
 linktitle: FirstPageTray
 articleTitle: FirstPageTray
 second_title: Aspose.Words für .NET
-description: PageSetup FirstPageTray eigendom. Ruft das Papierfach Fach ab das für die erste Seite eines Abschnitts verwendet werden soll oder legt dieses fest. Der Wert ist spezifisch für die Implementierung Drucker in C#.
+description: Entdecken Sie, wie Sie das erste Seitenfach mit der Eigenschaft „PageSetup FirstPageTray“ für optimalen Druck anpassen. Passen Sie Ihre Druckeinstellungen für mehr Effizienz an!
 type: docs
 weight: 130
 url: /de/net/aspose.words/pagesetup/firstpagetray/
 ---
 ## PageSetup.FirstPageTray property
 
-Ruft das Papierfach (Fach) ab, das für die erste Seite eines Abschnitts verwendet werden soll, oder legt dieses fest. Der Wert ist spezifisch für die Implementierung (Drucker).
+Ruft das für die erste Seite eines Abschnitts zu verwendende Papierfach ab oder legt es fest. Der Wert ist implementierungsspezifisch (druckerspezifisch).
 
 ```csharp
 public int FirstPageTray { get; set; }
@@ -18,18 +18,18 @@ public int FirstPageTray { get; set; }
 
 ## Beispiele
 
-Zeigt, wie alle Abschnitte in einem Dokument dazu gebracht werden, das Standardpapierfach des ausgewählten Druckers zu verwenden.
+Zeigt, wie Sie dafür sorgen, dass alle Abschnitte eines Dokuments das Standardpapierfach des ausgewählten Druckers verwenden.
 
 ```csharp
 Document doc = new Document();
 
-// Finden Sie den Standarddrucker, den wir zum Drucken dieses Dokuments verwenden werden.
+// Suchen Sie den Standarddrucker, den wir zum Drucken dieses Dokuments verwenden werden.
 // Sie können einen bestimmten Drucker mithilfe der Eigenschaft „PrinterName“ des PrinterSettings-Objekts definieren.
 PrinterSettings settings = new PrinterSettings();
 
 // Der in Dokumenten gespeicherte Papierfachwert ist druckerspezifisch.
 // Dies bedeutet, dass der folgende Code alle Seitenfachwerte zurücksetzt, um das aktuelle Standardfach des Druckers zu verwenden.
-// Sie können PrinterSettings.PaperSources auflisten, um die anderen gültigen Papierfachwerte des ausgewählten Druckers zu finden.
+// Sie können PrinterSettings.PaperSources aufzählen, um die anderen gültigen Papierfachwerte des ausgewählten Druckers zu finden.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     section.PageSetup.FirstPageTray = settings.DefaultPageSettings.PaperSource.RawKind;
@@ -37,23 +37,23 @@ foreach (Section section in doc.Sections.OfType<Section>())
 }
 ```
 
-Zeigt, wie das Drucken mit verschiedenen Druckerfächern für unterschiedliche Papierformate eingerichtet wird.
+Zeigt, wie der Druckvorgang mit unterschiedlichen Druckerfächern für unterschiedliche Papiergrößen eingerichtet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Finden Sie den Standarddrucker, den wir zum Drucken dieses Dokuments verwenden werden.
+// Suchen Sie den Standarddrucker, den wir zum Drucken dieses Dokuments verwenden werden.
 // Sie können einen bestimmten Drucker mithilfe der Eigenschaft „PrinterName“ des PrinterSettings-Objekts definieren.
 PrinterSettings settings = new PrinterSettings();
 
-// Dies ist das Fach, das wir für Seiten im Papierformat „A4“ verwenden.
+// Dies ist das Fach, das wir für Seiten im Papierformat „A4“ verwenden werden.
 int printerTrayForA4 = settings.PaperSources[0].RawKind;
 
-// Dies ist das Fach, das wir für Seiten im Papierformat „Letter“ verwenden.
+// Dies ist das Fach, das wir für Seiten im Papierformat „Letter“ verwenden werden.
 int printerTrayForLetter = settings.PaperSources[1].RawKind;
 
 // Ändern Sie das PageSettings-Objekt dieses Abschnitts, damit Microsoft Word den Drucker anweist
-// um je nach Papierformat dieses Abschnitts eines der oben identifizierten Fächer zu verwenden.
+// um je nach Papiergröße dieses Abschnitts eines der oben angegebenen Fächer zu verwenden.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)

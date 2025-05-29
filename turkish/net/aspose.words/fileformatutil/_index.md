@@ -2,17 +2,17 @@
 title: FileFormatUtil Class
 linktitle: FileFormatUtil
 articleTitle: FileFormatUtil
-second_title: Aspose.Words for .NET
-description: Aspose.Words.FileFormatUtil sınıf. Dosya formatlarıyla çalışmak için dosya formatını algılamak veya dosya uzantılarını dosya formatı numaralandırmalarına/dosya formatlarından dönüştürmek gibi yardımcı yöntemler sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.FileFormatUtil ile dosya formatlarını zahmetsizce yönetin. Gelişmiş üretkenlik için formatları algılayın ve uzantıları sorunsuz bir şekilde dönüştürün.
 type: docs
-weight: 2820
+weight: 3230
 url: /tr/net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class
 
-Dosya formatlarıyla çalışmak için, dosya formatını algılamak veya dosya uzantılarını dosya formatı numaralandırmalarına/dosya formatlarından dönüştürmek gibi yardımcı yöntemler sağlar.
+Dosya biçimleriyle çalışmak için yardımcı yöntemler sağlar, örneğin dosya biçimini algılamak veya dosya uzantılarını dosya biçimi sayımlarına dönüştürmek/dosya biçimi sayımlarından dönüştürmek.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dosya Formatını Algıla ve Format Uyumluluğunu Kontrol Et](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Dosya Biçimini Algıla ve Biçim Uyumluluğunu Kontrol Et](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) belgeleme makalesi.
 
 ```csharp
 public static class FileFormatUtil
@@ -22,20 +22,20 @@ public static class FileFormatUtil
 
 | İsim | Tanım |
 | --- | --- |
-| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | IANA içerik türünü, yükleme biçiminde numaralandırılmış bir değere dönüştürür. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | IANA içerik türünü, kaydetme biçiminde numaralandırılmış bir değere dönüştürür. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Bir akışta saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Disk dosyasında saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Dosya adı uzantısını bir dosya adı uzantısına dönüştürür[`SaveFormat`](../saveformat/) değer. |
-| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | Aspose.Words görüntü türü numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Yükleme biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Bir'i dönüştürür[`LoadFormat`](../loadformat/) bir değer[`SaveFormat`](../saveformat/) mümkünse değer. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Kayıt biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Bir'i dönüştürür[`SaveFormat`](../saveformat/) bir değer[`LoadFormat`](../loadformat/) mümkünse değer. |
+| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | IANA içerik türünü yükleme biçiminde numaralandırılmış bir değere dönüştürür. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | IANA içerik türünü, numaralandırılmış bir kaydetme biçimi değerine dönüştürür. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Bir akışta depolanan bir belgenin biçimi hakkında bilgi algılar ve döndürür. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Bir disk dosyasında saklanan bir belgenin biçimi hakkında bilgi algılar ve döndürür. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Bir dosya adı uzantısını bir[`SaveFormat`](../saveformat/) değer. |
+| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | Aspose.Words görüntü türünde numaralandırılmış bir değeri dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Yükleme biçiminde numaralandırılmış bir değeri dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Birini dönüştürür[`LoadFormat`](../loadformat/) bir değere[`SaveFormat`](../saveformat/) mümkünse değer. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Kayıtlı formatta numaralandırılmış bir değeri dosya uzantısına dönüştürür. Döndürülen uzantı, başında nokta bulunan küçük harfli bir dizedir. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Birini dönüştürür[`SaveFormat`](../saveformat/) bir değere[`LoadFormat`](../loadformat/) mümkünse değer. |
 
 ## Örnekler
 
-Bir html dosyasındaki kodlamanın nasıl algılanacağını gösterir.
+Bir html dosyasındaki kodlamanın nasıl tespit edileceğini gösterir.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");

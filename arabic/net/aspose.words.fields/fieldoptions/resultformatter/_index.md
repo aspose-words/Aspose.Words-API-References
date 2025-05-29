@@ -3,7 +3,7 @@ title: FieldOptions.ResultFormatter
 linktitle: ResultFormatter
 articleTitle: ResultFormatter
 second_title: Aspose.Words لـ .NET
-description: FieldOptions ResultFormatter ملكية. يسمح بالتحكم في كيفية تنسيق نتيجة الحقل في C#.
+description: اكتشف كيف تعمل خاصية ResultFormatter في FieldOptions على تعزيز عرض البيانات لديك من خلال تخصيص تنسيقات نتائج الحقل لتحقيق الوضوح والتأثير.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -18,7 +18,7 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
 
 ```csharp
 public void FieldResultFormatting()
@@ -28,9 +28,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
-    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
-    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // يقوم منسق نتيجة الحقل الخاص بنا بتطبيق تنسيق مخصص على الحقول التي تم إنشاؤها حديثًا بثلاثة أنواع من التنسيقات.
+    // تطبق منسقات نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField هذه.
     // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -53,8 +53,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
+/// عند تحديث الحقول ذات التنسيق، سيتجاوز هذا المُنسِّق تنسيقها
+/// بتنسيق مخصص، مع تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -109,12 +109,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

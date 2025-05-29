@@ -3,9 +3,9 @@ title: Document.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
 articleTitle: NormalizeFieldTypes
 second_title: Aspose.Words för .NET
-description: Document NormalizeFieldTypes metod. Ändrar fälttypvärdenFieldType avFieldStart FieldSeparator FieldEnd i hela dokumentet så att de motsvarar fälttyperna som finns i fältkoderna i C#.
+description: Optimera ditt dokument med metoden NormalizeFieldTypes, vilket säkerställer att alla fälttypvärden överensstämmer med fältkoder för förbättrad konsekvens och noggrannhet.
 type: docs
-weight: 630
+weight: 670
 url: /sv/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -20,11 +20,11 @@ public void NormalizeFieldTypes()
 
 Använd den här metoden efter dokumentändringar som påverkar fälttyper.
 
-För att ändra fälttypvärden i en specifik del av dokumentet använd[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
+För att ändra fälttypvärden i en specifik del av dokumentet, använd[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
 ## Exempel
 
-Visar hur du håller ett fälts typ uppdaterad med dess fältkod.
+Visar hur man håller ett fälts typ uppdaterad med dess fältkod.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE", null);
 
-// Aspose.Words upptäcker automatiskt fälttyper baserat på fältkoder.
+// Aspose.Words detekterar automatiskt fälttyper baserat på fältkoder.
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 
-// Ändra fältets råtext manuellt, vilket bestämmer fältkoden.
+// Ändra manuellt fältets råtext, vilket avgör fältkoden.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
 fieldText.Text = "PAGE";
 
@@ -52,7 +52,7 @@ doc.NormalizeFieldTypes();
 
 Assert.AreEqual(FieldType.FieldPage, field.Type);
 Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType); 
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ```
 

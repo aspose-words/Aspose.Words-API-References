@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitOfficeMathStart
 linktitle: VisitOfficeMathStart
 articleTitle: VisitOfficeMathStart
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitOfficeMathStart methode. Wird aufgerufen wenn die Aufzählung eines Office MathObjekts gestartet wurde in C#.
+description: Entdecken Sie die DocumentVisitor VisitOfficeMathStart-Methode, die für die Einleitung der Office Math-Objektaufzählung unerlässlich ist. Steigern Sie noch heute Ihre Programmiereffizienz!
 type: docs
 weight: 310
 url: /de/net/aspose.words/documentvisitor/visitofficemathstart/
 ---
 ## DocumentVisitor.VisitOfficeMathStart method
 
-Wird aufgerufen, wenn die Aufzählung eines Office Math-Objekts gestartet wurde.
+Wird aufgerufen, wenn die Enumeration eines Office Math-Objekts begonnen hat.
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
-Zeigt, wie die Knotenstruktur jedes Office-Mathe-Knotens in einem Dokument gedruckt wird.
+Zeigt, wie die Knotenstruktur jedes Office-Mathematikknotens in einem Dokument gedruckt wird.
 
 ```csharp
 public void OfficeMathToText()
@@ -34,8 +34,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -97,7 +97,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

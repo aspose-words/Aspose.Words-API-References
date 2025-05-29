@@ -2,17 +2,17 @@
 title: FieldIncludeText Class
 linktitle: FieldIncludeText
 articleTitle: FieldIncludeText
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldIncludeText sınıf. INCLUDETEXT alanını uygular C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz belge entegrasyonu için Aspose.Words.Fields.FieldIncludeText sınıfını keşfedin. Verimli INCLUDETEXT alan uygulamasıyla iş akışınızı geliştirin.
 type: docs
-weight: 2050
+weight: 2460
 url: /tr/net/aspose.words.fields/fieldincludetext/
 ---
 ## FieldIncludeText class
 
 INCLUDETEXT alanını uygular.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldIncludeText : Field
@@ -28,40 +28,40 @@ public class FieldIncludeText : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname/) { get; set; } | Belgeye eklenecek yer işaretinin adını alır veya ayarlar. |
+| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname/) { get; set; } | Belgedeki yer iminin adını alır veya ayarlar. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
-| [Encoding](../../aspose.words.fields/fieldincludetext/encoding/) { get; set; } | Başvurulan dosya içindeki verilere uygulanan kodlamayı alır veya ayarlar. |
+| [Encoding](../../aspose.words.fields/fieldincludetext/encoding/) { get; set; } | Başvurulan dosyadaki verilere uygulanan kodlamayı alır veya ayarlar. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir tane alır[`FieldFormat`](../fieldformat/)alanın biçimlendirmesine yazılmış erişim sağlayan nesne. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
 | [LockFields](../../aspose.words.fields/fieldincludetext/lockfields/) { get; set; } | Dahil edilen belgedeki alanların güncellenmesinin engellenip engellenmeyeceğini alır veya ayarlar. |
 | [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | Başvurulan dosyanın MIME türünü alır veya ayarlar. |
 | [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | XPath sorguları için ad alanı eşlemelerini alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
-| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | Bir IRI kullanarak belgenin konumunu alır veya ayarlar. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcısı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcısını temsil eden düğümü alır.`hükümsüz` . |
+| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | IRI kullanarak belgenin konumunu alır veya ayarlar. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | Dahil edilen dosyanın biçimi için metin dönüştürücünün adını alır veya ayarlar. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
-| [XPath](../../aspose.words.fields/fieldincludetext/xpath/) { get; set; } | XML dosyasının istenilen kısmı için XPath'ı alır veya ayarlar. |
+| [XPath](../../aspose.words.fields/fieldincludetext/xpath/) { get; set; } | XML dosyasının istenen kısmı için XPath'yi alır veya ayarlar. |
 | [XslTransformation](../../aspose.words.fields/fieldincludetext/xsltransformation/) { get; set; } | XML verilerini biçimlendirmek için XSL Dönüşümünün konumunu alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
-| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Hem alan kodu hem de alt alanların alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son alt 'siyse, üst paragrafını döndürür. Alan zaten kaldırılmışsa, şunu döndürür`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alan bağlantısını kaldırma işlemini gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
 
 ## Notlar
 
-Başka bir belgede bulunan metin ve grafiklerin tamamını veya bir kısmını ekler.
+Başka bir belgede bulunan metnin ve grafiklerin tamamını veya bir kısmını ekler.
 
 ## Örnekler
 
@@ -73,7 +73,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

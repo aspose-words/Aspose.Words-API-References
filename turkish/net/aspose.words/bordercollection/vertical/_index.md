@@ -2,8 +2,8 @@
 title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
-second_title: Aspose.Words for .NET
-description: BorderCollection Vertical mülk. Hücreler arasında kullanılan dikey kenarlığı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz hücre sınırları için BorderCollection Vertical özelliğini keşfedin. Cilalı bir görünüm için tasarımınızı özelleştirilebilir dikey sınırlarla geliştirin!
 type: docs
 weight: 130
 url: /tr/net/aspose.words/bordercollection/vertical/
@@ -18,13 +18,13 @@ public Border Vertical { get; }
 
 ## Örnekler
 
-Ayarların dikey kenarlıklara bir tablo satırı biçimine nasıl uygulanacağını gösterir.
+Tablo satırının biçimine dikey kenarlık ayarlarının nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kırmızı ve mavi iç kenarlıklara sahip bir tablo oluşturun.
+// Kırmızı ve mavi iç kenarlıkları olan bir tablo oluşturun.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -48,7 +48,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Bir satır biçimi ve hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
+// Bir satır biçimi ve bir hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

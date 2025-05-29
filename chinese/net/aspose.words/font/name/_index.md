@@ -2,15 +2,15 @@
 title: Font.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: Font Name 财产. 获取或设置字体名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现字体名称属性，轻松自定义和设置字体样式，增强设计的吸引力和可读性。
 type: docs
 weight: 230
 url: /zh/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-获取或设置字体名称。
+获取或设置字体的名称。
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## 评论
 
-获取时，返回[`NameAscii`](../nameascii/)。
+获取时返回[`NameAscii`](../nameascii/)。
 
-设置时，设置[`NameAscii`](../nameascii/),[`NameBi`](../namebi/),[`NameFarEast`](../namefareast/) 和[`NameOther`](../nameother/)到指定值。
+设置时，设置[`NameAscii`](../nameascii/)，[`NameBi`](../namebi/)，[`NameFarEast`](../namefareast/) 和[`NameOther`](../nameother/)到指定值。
 
 ## 例子
 
-演示如何使用其字体属性设置文本串的格式。
+展示如何使用字体属性来格式化文本。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-演示如何使用 DocumentBuilder 插入格式化文本。
+展示如何使用 DocumentBuilder 插入格式化文本。
 
 ```csharp
 Document doc = new Document();

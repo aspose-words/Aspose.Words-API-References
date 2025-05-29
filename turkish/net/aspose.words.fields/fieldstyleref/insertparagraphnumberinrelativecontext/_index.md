@@ -2,15 +2,15 @@
 title: FieldStyleRef.InsertParagraphNumberInRelativeContext
 linktitle: InsertParagraphNumberInRelativeContext
 articleTitle: InsertParagraphNumberInRelativeContext
-second_title: Aspose.Words for .NET
-description: FieldStyleRef InsertParagraphNumberInRelativeContext mülk. Başvurulan paragrafın paragraf numarasının göreceli bağlama eklenip eklenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki paragraf numaralandırmasını daha kolay yönetmek ve daha anlaşılır hale getirmek için FieldStyleRef InsertParagraphNumberInRelativeContext özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInRelativeContext property
 
-Başvurulan paragrafın paragraf numarasının göreceli bağlama eklenip eklenmeyeceğini alır veya ayarlar.
+Başvurulan paragrafın paragraf numarasının bağıl bağlamda eklenip eklenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool InsertParagraphNumberInRelativeContext { get; set; }
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Microsoft Word liste şablonunu kullanarak bir liste oluşturun.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Oluşturulan bu listede "1.a )" görüntülenecektir.
+// Oluşturulan bu listede "1.a )" gösterilecektir.
  // Parantezden önceki boşluk, sınırlayıcı olmayan bir karakterdir ve bunu bastırabiliriz.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Metin ekleyin ve STYLEREF alanlarının referans alacağı paragraf stillerini uygulayın.
+// STYLEREF alanlarının başvuracağı metni ekleyin ve paragraf stilleri uygulayın.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Başlığa bir STYLEREF alanı yerleştirin ve belgedeki ilk "Paragraf Listele" stilindeki metni görüntüleyin.
+// Başlığa bir STYLEREF alanı yerleştirin ve belgedeki ilk "Liste Paragrafı" stilindeki metni görüntüleyin.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";

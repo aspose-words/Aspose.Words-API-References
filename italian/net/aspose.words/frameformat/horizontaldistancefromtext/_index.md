@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
 second_title: Aspose.Words per .NET
-description: FrameFormat HorizontalDistanceFromText proprietà. Ottiene la distanza orizzontale tra una cornice e il testo circostante in punti in C#.
+description: Scopri la proprietà FrameFormat HorizontalDistanceFromText per misurare lo spazio tra i frame e il testo in punti, migliorando così il layout del tuo documento.
 type: docs
 weight: 40
 url: /it/net/aspose.words/frameformat/horizontaldistancefromtext/

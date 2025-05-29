@@ -3,14 +3,14 @@ title: TextureAlignment Enum
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextureAlignment перечисление. Определяет выравнивание мозаики заливки текстуры на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.TextureAlignment для точного выравнивания заливки текстур. Улучшите дизайн документов с помощью бесшовных вариантов плитки!
 type: docs
-weight: 1370
+weight: 1780
 url: /ru/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-Определяет выравнивание мозаики заливки текстуры.
+Задает выравнивание для мозаичного размещения текстурной заливки.
 
 ```csharp
 public enum TextureAlignment
@@ -20,20 +20,20 @@ public enum TextureAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| TopLeft | `0` | Выравнивание текстуры вверху слева. |
-| Top | `1` | Выравнивание текстуры сверху. |
-| TopRight | `2` | Выравнивание текстуры вверху справа. |
+| TopLeft | `0` | Верхнее левое выравнивание текстуры. |
+| Top | `1` | Верхнее выравнивание текстуры. |
+| TopRight | `2` | Верхнее правое выравнивание текстуры. |
 | Left | `3` | Выравнивание текстуры по левому краю. |
 | Center | `4` | Выравнивание текстуры по центру. |
-| Right | `5` | Выравнивание текстуры справа. |
-| BottomLeft | `6` | Выравнивание текстуры слева внизу. |
+| Right | `5` | Правое выравнивание текстуры. |
+| BottomLeft | `6` | Нижнее левое выравнивание текстуры. |
 | Bottom | `7` | Выравнивание нижней текстуры. |
-| BottomRight | `8` | Выравнивание текстуры справа внизу. |
-| None | `9` | Нет выравнивания текстур. |
+| BottomRight | `8` | Нижнее правое выравнивание текстуры. |
+| None | `9` | Нет выравнивания текстуры. |
 
 ## Примеры
 
-Показывает, как заполнить и расположить текстуру внутри фигуры.
+Показывает, как заполнять и размещать текстуру внутри фигуры.
 
 ```csharp
 Document doc = new Document();
@@ -41,15 +41,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 
-// Применяем выравнивание текстуры к заливке фигуры.
+// Применить выравнивание текстуры к заливке фигуры.
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Используйте опцию соответствия, чтобы определить форму с помощью DML, если вы хотите получить «TextureAlignment»
+// Используйте параметр соответствия, чтобы определить форму с помощью DML, если вы хотите получить "TextureAlignment"
 // свойство после сохранения документа.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Смотрите также

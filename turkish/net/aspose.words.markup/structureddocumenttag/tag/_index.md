@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.Tag
 linktitle: Tag
 articleTitle: Tag
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Tag mülk. Geçerli SDT düğümüyle ilişkili bir etiketi belirtir. Yapılamazhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: SDT düğümleri için temel etiketleri tanımlayan ve verimli belge yönetimi ve organizasyonunu garantileyen StructuredDocumentTag özelliğini keşfedin.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.markup/structureddocumenttag/tag/
 ---
 ## StructuredDocumentTag.Tag property
 
-Geçerli SDT düğümüyle ilişkili bir etiketi belirtir. Yapılamaz`hükümsüz` .
+Geçerli SDT düğümüyle ilişkili bir etiketi belirtir. Şu şekilde olamaz:`hükümsüz` .
 
 ```csharp
 public string Tag { get; set; }
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## Notlar
 
-Etiket, uygulamaların görünür bir kolay ad sağlamadan onu tanımlamak için SDT ile ilişkilendirebileceği rastgele bir dizedir.
+Etiket, uygulamaların SDT ile ilişkilendirebileceği ve onu görünür bir kullanıcı adı sağlamadan tanımlayabileceği keyfi bir dizedir.
 
 ## Örnekler
 
-Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
+Düz metin kutusunda yapılandırılmış bir belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,30 +30,30 @@ Document doc = new Document();
 // Düz metin içerecek yapılandırılmış bir belge etiketi oluşturun.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Microsoft Word'de yapılandırılmış belge etiketinin üzerine fareyi getirdiğinizde görünen çerçevenin başlığını ve rengini ayarlayın.
+// Microsoft Word'de yapılandırılmış belge etiketinin üzerine geldiğinizde görünen çerçevenin başlığını ve rengini ayarlayın.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// Bu yapılandırılmış belge etiketi için elde edilebilecek bir etiket ayarlayın
-// "tag" adında bir XML öğesi olarak, aşağıdaki dize "@val" özelliğinde.
+// Bu yapılandırılmış belge etiketi için elde edilebilir bir etiket ayarlayın
+// "etiket" adında bir XML öğesi olarak, "@val" özniteliğinde aşağıdaki dize ile.
 tag.Tag = "MyPlainTextSDT";
 
-// Her yapılandırılmış belge etiketinin rastgele benzersiz bir kimliği vardır.
-Assert.That(tag.Id, Is.Positive);
+// Her yapılandırılmış belge etiketinin rastgele ve benzersiz bir kimliği vardır.
+Assert.IsTrue(tag.Id > 0);
 
-// Yapılandırılmış belge etiketinin içindeki metnin yazı tipini ayarlayın.
+// Yapılandırılmış belge etiketi içindeki metnin yazı tipini ayarlayın.
 tag.ContentsFont.Name = "Arial";
 
 // Yapılandırılmış belge etiketinin sonundaki metnin yazı tipini ayarlayın.
-// Ok tuşlarıyla etiketin dışına çıktıktan sonra belge gövdesine yazdığımız herhangi bir metin bu yazı tipini kullanacaktır.
+// Etiketten ok tuşlarıyla çıktıktan sonra belge gövdesine yazdığımız her metin bu fontu kullanacaktır.
 tag.EndCharacterFont.Name = "Arial Black";
 
-// Varsayılan olarak bu yanlıştır ve yapılandırılmış bir belge etiketinin içindeyken enter tuşuna basmak hiçbir şey yapmaz.
-// True olarak ayarlandığında yapılandırılmış belge etiketimiz birden fazla satıra sahip olabilir.
+// Varsayılan olarak bu yanlıştır ve yapılandırılmış bir belge etiketi içindeyken enter'a basmak hiçbir şey yapmaz.
+// True olarak ayarlandığında, yapılandırılmış belge etiketimiz birden fazla satıra sahip olabilir.
 
-// Yalnızca içeriğe izin vermek için "Multiline" özelliğini "false" olarak ayarlayın
-// bu yapılandırılmış belge etiketinin tek bir satıra yayılması.
-// Etiketin birden fazla satır içerik içermesine izin vermek için "Multiline" özelliğini "true" olarak ayarlayın.
+// Yalnızca içeriklere izin vermek için "Çok satırlı" özelliğini "false" olarak ayarlayın
+// Bu yapılandırılmış belge etiketinin tek bir satıra yayılması.
+// Etiketin birden fazla satır içerik içermesine izin vermek için "Çok Satırlı" özelliğini "true" olarak ayarlayın.
 tag.Multiline = true;
 
 // İçeriğin etrafındaki etiketleri göstermek için "Görünüm" özelliğini "SdtAppearance.Tags" olarak ayarlayın.
@@ -63,12 +63,12 @@ tag.Appearance = SdtAppearance.Tags;
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(tag);
 
-// Yapılandırılmış belge etiketimizin bir kopyasını yeni bir paragrafa ekleyin.
+// Yapılandırılmış belge etiketimizin bir klonunu yeni bir paragrafa ekleyin.
 StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Yapılandırılmış bir belge etiketini kaldırmak ve içeriğini belgede tutmak için "RemoveSelfOnly" yöntemini kullanın.
+// İçeriğini belgede tutarak yapılandırılmış bir belge etiketini kaldırmak için "RemoveSelfOnly" yöntemini kullanın.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

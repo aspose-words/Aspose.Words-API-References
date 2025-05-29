@@ -3,9 +3,9 @@ title: DocumentBuilder.StartColumnBookmark
 linktitle: StartColumnBookmark
 articleTitle: StartColumnBookmark
 second_title: Aspose.Words per .NET
-description: DocumentBuilder StartColumnBookmark metodo. Contrassegna la posizione corrente nel documento come inizio di un segnalibro di colonna. La posizione deve essere in una cella della tabella in C#.
+description: Utilizza il metodo StartColumnBookmark di DocumentBuilder per contrassegnare facilmente le posizioni delle celle della tabella come segnalibri di colonna, migliorando così la navigazione e l'organizzazione del documento.
 type: docs
-weight: 620
+weight: 660
 url: /it/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -22,15 +22,15 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 ### Valore di ritorno
 
-Il nodo iniziale del segnalibro appena creato.
+Il nodo di avvio del segnalibro appena creato.
 
 ## Osservazioni
 
-Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido devi chiamarli entrambi`StartColumnBookmark` E[`EndColumnBookmark`](../endcolumnbookmark/) con lo stesso *bookmarkName*parametro.
+Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido, è necessario chiamare entrambi`StartColumnBookmark` E[`EndColumnBookmark`](../endcolumnbookmark/) con lo stesso *bookmarkName* parametro.
 
-I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+I segnalibri mal formattati o con nomi duplicati verranno ignorati quando il documento verrà salvato.
 
-La posizione effettiva dell'inserito[`BookmarkStart`](../../bookmarkstart/) il nodo potrebbe differire dalla posizione corrente del document builder.
+La posizione effettiva dell'inserito[`BookmarkStart`](../../bookmarkstart/) il nodo potrebbe differire dalla posizione corrente del builder document .
 
 ## Esempi
 
@@ -43,9 +43,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Le celle 1,2,4,5 verranno aggiunte ai segnalibri.
+// Le celle 1, 2, 4, 5 verranno aggiunte ai segnalibri.
 builder.StartColumnBookmark("MyBookmark_1");
-// I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+// I segnalibri mal formattati o con nomi duplicati verranno ignorati quando il documento verrà salvato.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

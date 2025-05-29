@@ -3,9 +3,9 @@ title: Document.Unprotect
 linktitle: Unprotect
 articleTitle: Unprotect
 second_title: Aspose.Words для .NET
-description: Document Unprotect метод. Снимает защиту с документа независимо от пароля на С#.
+description: С легкостью разблокируйте свои документы с помощью нашего метода снятия защиты с документов, сняв любую защиту паролем для легкого доступа и редактирования.
 type: docs
-weight: 740
+weight: 790
 url: /ru/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -18,9 +18,9 @@ public void Unprotect()
 
 ## Примечания
 
-Этот метод снимает защиту с документа, даже если у него есть пароль защиты.
+Этот метод снимает защиту с документа, даже если на нем установлен пароль.
 
-Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/).
+Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи указывается с помощью[`WriteProtection`](../writeprotection/).
 
 ## Примеры
 
@@ -32,19 +32,19 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Если мы откроем этот документ в Microsoft Word, намереваясь его отредактировать,
-// нам нужно будет применить пароль, чтобы пройти защиту.
+// Если мы откроем этот документ в Microsoft Word, намереваясь его редактировать,
+// нам нужно будет применить пароль, чтобы обойти защиту.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Обратите внимание, что защита распространяется только на пользователей Microsoft Word, открывающих наш документ.
-// Мы никак не зашифровали документ, и для его программного открытия и редактирования пароль нам не нужен.
+// Мы никак не зашифровали документ, и нам не нужен пароль для его программного открытия и редактирования.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// Есть два способа снять защиту с документа.
+// Существует два способа снятия защиты с документа.
 // 1 - Без пароля:
 doc.Unprotect();
 
@@ -82,17 +82,17 @@ public bool Unprotect(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Пароль для снятия защиты с документа. |
+| password | String | Пароль для снятия защиты документа. |
 
 ### Возвращаемое значение
 
-`истинный` если был указан правильный пароль и документ был незащищен.
+`истинный`если был указан правильный пароль и документ оказался незащищенным.
 
 ## Примечания
 
 Этот метод снимает защиту документа только в том случае, если указан правильный пароль.
 
-Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/).
+Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи указывается с помощью[`WriteProtection`](../writeprotection/).
 
 ## Примеры
 
@@ -104,19 +104,19 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Если мы откроем этот документ в Microsoft Word, намереваясь его отредактировать,
-// нам нужно будет применить пароль, чтобы пройти защиту.
+// Если мы откроем этот документ в Microsoft Word, намереваясь его редактировать,
+// нам нужно будет применить пароль, чтобы обойти защиту.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Обратите внимание, что защита распространяется только на пользователей Microsoft Word, открывающих наш документ.
-// Мы никак не зашифровали документ, и для его программного открытия и редактирования пароль нам не нужен.
+// Мы никак не зашифровали документ, и нам не нужен пароль для его программного открытия и редактирования.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// Есть два способа снять защиту с документа.
+// Существует два способа снятия защиты с документа.
 // 1 - Без пароля:
 doc.Unprotect();
 

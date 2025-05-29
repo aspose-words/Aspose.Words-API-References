@@ -2,8 +2,8 @@
 title: StructuredDocumentTagCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagCollection Remove 方法. 删除具有指定标识符的结构化文档标签 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 StructuredDocumentTagCollection Remove 方法轻松删除特定的结构化文档标签，从而简化文档管理。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -22,7 +22,7 @@ public void Remove(int id)
 
 ## 例子
 
-演示如何删除结构化文档标签。
+展示如何删除结构化文档标签。
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// 通过Id删除结构化文档标签。
+// 通过 Id 删除结构化文档标签。
 structuredDocumentTags.Remove(1691867797);
-// 删除位置0处的结构化文档标签。
+// 删除位置 0 处的结构化文档标签。
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

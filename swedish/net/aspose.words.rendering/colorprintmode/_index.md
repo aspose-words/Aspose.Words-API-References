@@ -3,14 +3,14 @@ title: ColorPrintMode Enum
 linktitle: ColorPrintMode
 articleTitle: ColorPrintMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Rendering.ColorPrintMode uppräkning. Anger hur ickefärgade sidor skrivs ut om enheten stöder färgutskrift i C#.
+description: Upptäck enumerationen Aspose.Words.Rendering.ColorPrintMode för optimerad färgutskrift. Kontrollera hur sidor utan färg skrivs ut för förbättrad dokumentkvalitet.
 type: docs
-weight: 4540
+weight: 5270
 url: /sv/net/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enumeration
 
-Anger hur icke-färgade sidor skrivs ut om enheten stöder färgutskrift.
+Anger hur sidor utan färg skrivs ut om enheten stöder färgutskrift.
 
 ```csharp
 public enum ColorPrintMode
@@ -21,18 +21,18 @@ public enum ColorPrintMode
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Normal | `0` | Alla sidor skrivs ut enligt skrivarens kapacitet och inställningar. |
-| GrayscaleAuto | `1` | Icke-färgade sidor om de upptäcks skrivs ut i gråskala. |
+| GrayscaleAuto | `1` | Om ofärgade sidor upptäcks skrivs de ut i gråskala. |
 
 ## Exempel
 
-Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
+Visar hur man väljer ett sidintervall och en skrivare att skriva ut dokumentet med, och sedan visar en förhandsgranskning.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Anropa "Visa"-metoden för att få förhandsgranskningsformuläret att visas överst.
+// Anropa metoden "Visa" för att få förhandsgranskningsformuläret att visas överst.
 previewDlg.Show();
 
 // Initiera utskriftsdialogrutan med antalet sidor i dokumentet.
@@ -46,7 +46,7 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Skapa "Aspose.Words"-implementeringen av .NET-skrivdokumentet,
+// Skapa implementeringen "Aspose.Words" av .NET-utskriftsdokumentet,
 // och skicka sedan skrivarinställningarna från dialogrutan.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
@@ -54,18 +54,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // Ange det nya färgutskriftsläget.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Använd metoden "CachePrinterSettings" för att minska tiden för det första anropet av metoden "Skriv ut".
+// Använd metoden "CachePrinterSettings" för att minska tiden för det första anropet av metoden "Print".
 awPrintDoc.CachePrinterSettings();
 
-// Anropa "Hide" och sedan "InvalidatePreview"-metoderna för att få förhandsgranskningen att visas överst.
+// Anropa metoderna "Dölj" och sedan "InvalidatePreview" för att få förhandsgranskningen att visas överst.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Skicka "Aspose.Words" utskriftsdokumentet till .NET Print Preview-dialogrutan.
+// Skicka utskriftsdokumentet "Aspose.Words" till dialogrutan för förhandsgranskning i .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

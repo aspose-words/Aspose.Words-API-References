@@ -2,8 +2,8 @@
 title: Table.TextWrapping
 linktitle: TextWrapping
 articleTitle: TextWrapping
-second_title: 用于 .NET 的 Aspose.Words
-description: Table TextWrapping 财产. 获取或设置TextWrapping对于表 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格文本换行属性，轻松管理表格中的文本流向。灵活的文本选项提升可读性和设计感！
 type: docs
 weight: 310
 url: /zh/net/aspose.words.tables/table/textwrapping/
@@ -35,8 +35,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// 将“TextWrapping”属性设置为“TextWrapping.Around”以使表格将文本环绕在其周围，
-// 并通过设置位置将其推入下面的段落。
+// 将“TextWrapping”属性设置为“TextWrapping.Around”以使表格在其周围环绕文本，
+//并通过设置位置将其推入下面的段落中。
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

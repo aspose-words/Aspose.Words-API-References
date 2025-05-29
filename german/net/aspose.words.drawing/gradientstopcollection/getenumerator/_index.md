@@ -3,7 +3,7 @@ title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: GradientStopCollection GetEnumerator methode. Gibt einen Enumerator zurück der die Sammlung durchläuft in C#.
+description: Entdecken Sie die GetEnumerator-Methode „GradientStopCollection“, um Ihre Gradientenstopps einfach zu durchlaufen und Ihr UI-Design mit nahtlosen Übergängen zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/gradientstopcollection/getenumerator/

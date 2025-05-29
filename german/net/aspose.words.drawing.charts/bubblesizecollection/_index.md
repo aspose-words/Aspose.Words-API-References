@@ -3,14 +3,14 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection klas. Stellt eine Sammlung von Blasengrößen für eine Diagrammserie dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.BubbleSizeCollection, Ihre Lösung für die effektive Verwaltung von Blasengrößen in Diagrammreihen.
 type: docs
-weight: 610
+weight: 870
 url: /de/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
 
-Stellt eine Sammlung von Blasengrößen für eine Diagrammserie dar.
+Stellt eine Sammlung von Blasengrößen für eine Diagrammreihe dar.
 
 ```csharp
 public class BubbleSizeCollection : IEnumerable<double>
@@ -21,7 +21,8 @@ public class BubbleSizeCollection : IEnumerable<double>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Ruft die Anzahl der Elemente in dieser Sammlung ab. |
-| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Ruft den Blasengrößenwert am angegebenen Index ab oder legt diesen fest. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Ruft den auf die Blasengrößen angewendeten Formatcode ab oder legt ihn fest. |
+| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Ruft den Blasengrößenwert am angegebenen Index ab oder legt ihn fest. |
 
 ## Methoden
 
@@ -31,9 +32,9 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 ## Bemerkungen
 
-Die Sammlung erlaubt nur die Änderung der Blasengröße. Um einer Diagrammreihe neue Werte hinzuzufügen oder einzufügen oder Werte zu entfernen, müssen die entsprechenden Methoden der verwendet werden[`ChartSeries`](../chartseries/) Klasse verwendet werden kann.
+Die Sammlung erlaubt nur das Ändern der Blasengröße. Um einer Diagrammreihe neue Werte hinzuzufügen oder einzufügen oder um x000d-Werte zu entfernen, verwenden Sie die entsprechenden Methoden der[`ChartSeries`](../chartseries/) Klasse kann verwendet werden.
 
-Werte für die Größe leerer Blasen werden dargestellt als:NaN.
+Die Werte für die Größe leerer Blasen werden wie folgt dargestellt:NaN.
 
 ### Siehe auch
 

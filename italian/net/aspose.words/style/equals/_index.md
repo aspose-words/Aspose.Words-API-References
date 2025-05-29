@@ -3,14 +3,14 @@ title: Style.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words per .NET
-description: Style Equals metodo. Confronta con lo stile specificato. Gli stili Istd vengono confrontati solo per gli stili incorporati. Gli stili predefiniti non sono inclusi nel confronto. Lo stile di base lo stile collegato e lo stile del paragrafo successivo vengono confrontati ricorsivamente in C#.
+description: Scopri il metodo Style Equals per confrontare gli stili predefiniti. Impara a conoscere gli stili dei paragrafi collegati e successivi per una formattazione e un design più efficienti.
 type: docs
-weight: 180
+weight: 220
 url: /it/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-Confronta con lo stile specificato. Gli stili Istd vengono confrontati solo per gli stili incorporati. Gli stili predefiniti non sono inclusi nel confronto. Lo stile di base, lo stile collegato e lo stile del paragrafo successivo vengono confrontati ricorsivamente.
+Esegue il confronto con lo stile specificato. Gli stili Istd vengono confrontati solo per gli stili incorporati. Gli stili predefiniti non sono inclusi nel confronto. Lo stile base, lo stile collegato e lo stile del paragrafo successivo vengono confrontati ricorsivamente.
 
 ```csharp
 public bool Equals(Style style)
@@ -30,7 +30,7 @@ Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Possiamo fare riferimento a uno stile utilizzando il suo alias e il suo nome.
+// Possiamo fare riferimento a uno stile utilizzando il suo alias e anche il suo nome.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

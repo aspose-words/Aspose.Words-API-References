@@ -3,14 +3,14 @@ title: SaveOptions.DefaultTemplate
 linktitle: DefaultTemplate
 articleTitle: DefaultTemplate
 second_title: Aspose.Words для .NET
-description: SaveOptions DefaultTemplate свойство. Получает или задает путь к шаблону по умолчанию включая имя файла. Значение по умолчанию для этого свойствапустая строка Empty на С#.
+description: Управляйте своими SaveOptions с легкостью! Установите или получите путь шаблона и имя файла по умолчанию для упрощенной обработки документов. Оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty).
+Возвращает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty ).
 
 ```csharp
 public string DefaultTemplate { get; set; }
@@ -18,7 +18,7 @@ public string DefaultTemplate { get; set; }
 
 ## Примечания
 
-Если указано, этот путь используется для загрузки шаблона при[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) является`истинный` , но[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) пусто.
+Если указан, этот путь используется для загрузки шаблона, когда[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) является`истинный` , но[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) пусто.
 
 ## Примеры
 
@@ -27,14 +27,14 @@ public string DefaultTemplate { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
+// Включить автоматическое обновление стилей, но не прикреплять шаблон документа.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
+// Поскольку шаблон документа отсутствует, документу негде отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если в документе, который мы сохраняем, его нет.
+// если документ, который мы сохраняем, не имеет такового.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

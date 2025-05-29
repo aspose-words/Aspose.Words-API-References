@@ -3,7 +3,7 @@ title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words para .NET
-description: FieldAddressBlock GetFieldNames método. Devuelve una colección de nombres de campos de combinación de correspondencia utilizados por el campo en C#.
+description: Descubra el método GetFieldNames en FieldAddressBlock. Recupere fácilmente los nombres de los campos de combinación de correspondencia para optimizar su proceso de automatización de documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## Ejemplos
 
-Muestra cómo obtener los nombres de los campos de combinación de correspondencia utilizados por un campo.
+Muestra cómo obtener los nombres de campos de combinación de correspondencia utilizados por un campo.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

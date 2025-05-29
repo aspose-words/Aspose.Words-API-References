@@ -3,7 +3,7 @@ title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words pour .NET
-description: IMailMergeDataSource TableName propriété. Renvoie le nom de la source de données en C#.
+description: Découvrez la propriété IMailMergeDataSource TableName pour accéder facilement au nom de votre source de données et améliorer votre processus d'automatisation de documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +18,13 @@ public string TableName { get; }
 
 ### Return_Value
 
-Le nom de la source de données. Chaîne vide si la source de données n'a pas de nom.
+Nom de la source de données. Chaîne vide si la source de données n'a pas de nom.
 
 ## Remarques
 
-Si vous mettez en œuvre[`IMailMergeDataSource`](../), renvoie le nom de la source data de cette propriété.
+Si vous mettez en œuvre[`IMailMergeDataSource`](../), renvoie le nom de la source data à partir de cette propriété.
 
-Aspose.Words utilise ce nom pour correspondre au nom de région de publipostage spécifié dans le document modèle. La comparaison entre le nom de la source de données et le nom de la région de publipostage n'est pas sensible à la casse.
+Aspose.Words utilise ce nom pour établir une correspondance avec le nom de la zone de publipostage spécifié dans le modèle de document. La comparaison entre le nom de la source de données et le nom de la zone de publipostage n'est pas sensible à la casse.
 
 ## Exemples
 
@@ -54,7 +54,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" dans votre application.
+/// Un exemple de classe « entité de données » dans votre application.
 /// </summary>
 public class Customer
 {
@@ -83,7 +83,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
+    /// Nom de la source de données. Utilisé par Aspose.Words uniquement lors d'un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -104,15 +104,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Renvoie "false" au moteur de publipostage Aspose.Words pour signifier
-                // que nous n'avons pas trouvé de champ portant ce nom.
+                // Renvoyer « false » au moteur de publipostage Aspose.Words pour signifier
+                // que nous n'avons pas pu trouver de champ avec ce nom.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Une implémentation standard pour passer à un enregistrement suivant dans une collection.
+    /// Une implémentation standard pour passer à l'enregistrement suivant dans une collection.
     /// </summary>
     public bool MoveNext()
     {

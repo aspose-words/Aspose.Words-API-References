@@ -3,9 +3,9 @@ title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WatermarkType تعداد. يحدد نوع العلامة المائية في C#.
+description: اكتشف مجموعة Aspose.Words.WatermarkType لتخصيص العلامات المائية بسهولة في المستندات. حسّن مشاريعك بخيارات علامات مائية متعددة الاستخدامات!
 type: docs
-weight: 6690
+weight: 7540
 url: /ar/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -20,7 +20,7 @@ public enum WatermarkType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Text | `0` | يشير إلى أنه سيتم استخدام النص كعلامة مائية. |
+| Text | `0` | يشير إلى أن النص سيتم استخدامه كعلامة مائية. |
 | Image | `1` | يشير إلى أنه سيتم استخدام الصورة كعلامة مائية. |
 | None | `2` | يشير إلى عدم تعيين العلامة المائية. |
 
@@ -31,10 +31,10 @@ public enum WatermarkType
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -47,7 +47,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

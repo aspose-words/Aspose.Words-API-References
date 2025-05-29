@@ -2,8 +2,8 @@
 title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag SdtType mülk. Bunun türünü alırYapılandırılmış belge etiketi  C#'da.
+second_title: .NET için Aspose.Words
+description: Etiket türlerini kolayca belirlemek, belge yönetiminizi ve organizasyonunuzu geliştirmek için StructuredDocumentTag'in SdtType özelliğini keşfedin.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.markup/structureddocumenttag/sdttype/
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## Örnekler
 
-Yapılandırılmış belge etiketi türünün nasıl alınacağını gösterir.
+Yapılandırılmış bir belge etiketinin türünün nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

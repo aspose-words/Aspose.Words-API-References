@@ -2,15 +2,15 @@
 title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
-second_title: Aspose.Words for .NET
-description: ViewOptions FormsDesign mülk. Belgenin form tasarımı modunda olup olmadığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: ViewOptions FormsDesign'ın, sorunsuz düzenleme ve özelleştirme için form tasarım modunu değiştirerek belge deneyiminizi nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/viewoptions/formsdesign/
 ---
 ## ViewOptions.FormsDesign property
 
-Belgenin form tasarımı modunda olup olmadığını belirtir.
+Belgenin form tasarım modunda olup olmadığını belirtir.
 
 ```csharp
 public bool FormsDesign { get; set; }
@@ -18,7 +18,7 @@ public bool FormsDesign { get; set; }
 
 ## Notlar
 
-Şu anda yalnızca WordML biçimindeki belgeler için çalışmaktadır.
+Şimdilik sadece WordML formatındaki belgeler için çalışmaktadır.
 
 ## Örnekler
 

@@ -3,7 +3,7 @@ title: ChartFormat.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words für .NET
-description: ChartFormat Fill eigendom. Ruft die Füllformatierung für das übergeordnete Diagrammelement ab in C#.
+description: Entdecken Sie die ChartFormat-Füllungseigenschaft für verbesserte Diagrammdarstellungen. Schalten Sie noch heute einzigartige Füllformatierungsoptionen für Ihre übergeordneten Diagrammelemente frei!
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartformat/fill/

@@ -3,14 +3,14 @@ title: DocSaveOptions.SavePictureBullet
 linktitle: SavePictureBullet
 articleTitle: SavePictureBullet
 second_title: Aspose.Words لـ .NET
-description: DocSaveOptions SavePictureBullet ملكية. متىخطأ شنيع  لا يتم حفظ بيانات PictureBullet في مستند الإخراج. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف كيف تُحسّن خاصية DocSaveOptions SavePictureBullet إخراج مستندك. تحكّم بسهولة في حفظ بيانات PictureBullet لتحقيق أفضل النتائج.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-متى`خطأ شنيع` ، لا يتم حفظ بيانات PictureBullet في مستند الإخراج. القيمة الافتراضية هي`حقيقي` .
+عندما`خطأ شنيع` لا يتم حفظ بيانات PictureBullet في مستند الإخراج. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -18,7 +18,7 @@ public bool SavePictureBullet { get; set; }
 
 ## ملاحظات
 
-يتم توفير هذا الخيار لـ Word 97، والذي لا يمكنه العمل بشكل صحيح مع بيانات PictureBullet. لإزالة بيانات PictureBullet، اضبط الخيار على "خطأ".
+تم توفير هذا الخيار لبرنامج Word 97، والذي لا يمكنه العمل بشكل صحيح مع بيانات PictureBullet. لإزالة بيانات PictureBullet، اضبط الخيار على "false".
 
 ## أمثلة
 
@@ -26,9 +26,9 @@ public bool SavePictureBullet { get; set; }
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-// بعض معالجات النصوص، مثل Microsoft Word 97، غير متوافقة مع بيانات PictureBullet.
-// عن طريق تعيين علامة في كائن SaveOptions،
-// يمكننا تحويل جميع نقاط الصورة إلى نقاط نقطية عادية أثناء الحفظ.
+// بعض معالجات الكلمات، مثل Microsoft Word 97، غير متوافقة مع بيانات PictureBullet.
+// عن طريق تعيين علم في كائن SaveOptions،
+// يمكننا تحويل جميع نقاط الصورة إلى نقاط عادية أثناء الحفظ.
 DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
 saveOptions.SavePictureBullet = false;
 

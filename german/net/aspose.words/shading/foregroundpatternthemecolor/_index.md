@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternThemeColor
 linktitle: ForegroundPatternThemeColor
 articleTitle: ForegroundPatternThemeColor
 second_title: Aspose.Words für .NET
-description: Shading ForegroundPatternThemeColor eigendom. Ruft die VordergrundmusterDesignfarbe im angewendeten Farbschema ab das diesem zugeordnet ist oder legt diese festShading Objekt in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „Shading ForegroundPatternThemeColor“ anpassen, um das Farbschema Ihres Designs zu verbessern und seine visuelle Attraktivität zu steigern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/shading/foregroundpatternthemecolor/
 ---
 ## Shading.ForegroundPatternThemeColor property
 
-Ruft die Vordergrundmuster-Designfarbe im angewendeten Farbschema ab, das diesem zugeordnet ist, oder legt diese fest[`Shading`](../) Objekt.
+Ruft die Vordergrundmuster-Designfarbe im angewendeten Farbschema ab oder legt sie fest, die mit diesem verknüpft ist.[`Shading`](../) Objekt.
 
 ```csharp
 public ThemeColor ForegroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ForegroundPatternThemeColor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man Vordergrund- und Hintergrundfarben für die Schattierungstextur festlegt.
+Zeigt, wie Vordergrund- und Hintergrundfarben für die Schattierungstextur festgelegt werden.
 
 ```csharp
 Document doc = new Document();

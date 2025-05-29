@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitRowStart
 linktitle: VisitRowStart
 articleTitle: VisitRowStart
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitRowStart méthode. Appelé lorsque lénumération dune ligne du tableau a commencé en C#.
+description: Découvrez la méthode VisitRowStart de DocumentVisitor. Améliorez l'énumération des lignes de votre tableau grâce à un traitement efficace et rationalisé pour des performances optimales.
 type: docs
 weight: 350
 url: /fr/net/aspose.words/documentvisitor/visitrowstart/
 ---
 ## DocumentVisitor.VisitRowStart method
 
-Appelé lorsque l'énumération d'une ligne du tableau a commencé.
+Appelé lorsque l'énumération d'une ligne de table a commencé.
 
 ```csharp
 public virtual VisitorAction VisitRowStart(Row row)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
-Montre comment imprimer la structure des nœuds de chaque table d'un document.
+Montre comment imprimer la structure des nœuds de chaque table dans un document.
 
 ```csharp
 public void TableToText()
@@ -34,8 +34,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
-/// Crée une carte sous la forme d'une chaîne de tous les nœuds Table rencontrés et de leurs enfants.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
+/// Crée une carte sous la forme d'une chaîne de tous les nœuds de table rencontrés et de leurs enfants.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Appelé lorsqu'un nœud Run est rencontré dans le document.
-    /// Les exécutions qui ne se trouvent pas dans les tables ne sont pas enregistrées.
+    /// Les exécutions qui ne sont pas dans les tables ne sont pas enregistrées.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'une table est rencontrée dans le document.
+    /// Appelé lorsqu'un tableau est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -167,7 +167,7 @@ public class TableStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants de la table actuelle.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

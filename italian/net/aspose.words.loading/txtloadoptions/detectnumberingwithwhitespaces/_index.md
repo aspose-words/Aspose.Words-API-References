@@ -3,14 +3,14 @@ title: TxtLoadOptions.DetectNumberingWithWhitespaces
 linktitle: DetectNumberingWithWhitespaces
 articleTitle: DetectNumberingWithWhitespaces
 second_title: Aspose.Words per .NET
-description: TxtLoadOptions DetectNumberingWithWhitespaces proprietà. Permette di specificare come vengono riconosciuti gli elementi dellelenco numerato quando il documento viene importato dal formato testo normale. Il valore predefinito èVERO in C#.
+description: Ottimizza l'importazione dei tuoi documenti con la funzionalità DetectNumberingWithWhitespaces di TxtLoadOptions, garantendo il riconoscimento accurato degli elenchi numerati dal testo normale.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Permette di specificare come vengono riconosciuti gli elementi dell'elenco numerato quando il documento viene importato dal formato testo normale. Il valore predefinito è`VERO`.
+Consente di specificare come vengono riconosciuti gli elementi dell'elenco numerato quando il documento viene importato dal formato di testo normale. Il valore predefinito è`VERO`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -18,18 +18,18 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ## Osservazioni
 
-Se questa opzione è impostata su`falso`, l'algoritmo di riconoscimento degli elenchi rileva i paragrafi dell'elenco, quando i numeri dell'elenco terminano con punto, parentesi destra o simboli di punto elenco (come "•", "*", "-" o "o").
+Se questa opzione è impostata su`falso`, l'algoritmo di riconoscimento degli elenchi rileva i paragrafi degli elenchi quando i numeri degli elenchi terminano con , ovvero con un punto, una parentesi quadra chiusa o un simbolo di elenco puntato (come "•", "*", "-" o "o").
 
-Se questa opzione è impostata su`VERO`gli spazi vengono utilizzati anche come delimitatori dei numeri dell'elenco: l'algoritmo di riconoscimento dell'elenco per la numerazione in stile arabo (1., 1.1.2.) utilizza sia gli spazi bianchi che i simboli punto (".").
+Se questa opzione è impostata su`VERO`, gli spazi vuoti vengono utilizzati anche come delimitatori dei numeri di elenco: l'algoritmo di riconoscimento degli elenchi per la numerazione in stile arabo (1., 1.1.2.) utilizza sia gli spazi vuoti sia i simboli punto (".").
 
 ## Esempi
 
-Mostra come rilevare gli elenchi durante il caricamento di documenti in testo normale.
+Mostra come rilevare gli elenchi durante il caricamento di documenti in chiaro.
 
 ```csharp
-// Crea un documento di testo in chiaro in una stringa con quattro parti separate che possiamo interpretare come elenchi,
-// con delimitatori diversi. Dopo aver caricato il documento di testo in chiaro in un oggetto "Documento",
-// Aspose.Words rileverà sempre i primi tre elenchi e aggiungerà un oggetto "Lista".
+// Crea un documento di testo normale in una stringa con quattro parti separate che possiamo interpretare come elenchi,
+// con delimitatori diversi. Dopo aver caricato il documento in chiaro in un oggetto "Documento",
+// Aspose.Words rileverà sempre i primi tre elenchi e aggiungerà un oggetto "List"
 // per ciascuno alla proprietà "Liste" del documento.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
@@ -48,15 +48,15 @@ const string textDoc = "Full stop delimiters:\n" +
                        "2 Fourth list item 2\n" +
                        "3 Fourth list item 3";
 
-// Crea un oggetto "TxtLoadOptions", che possiamo passare al costruttore di un documento
+// Creiamo un oggetto "TxtLoadOptions", che possiamo passare al costruttore di un documento
 // per modificare il modo in cui carichiamo un documento di testo normale.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // Imposta la proprietà "DetectNumberingWithWhitespaces" su "true" per rilevare gli elementi numerati
-// con delimitatori di spazi bianchi, come il quarto elenco nel nostro documento, come elenchi.
-// Ciò potrebbe anche rilevare erroneamente i paragrafi che iniziano con numeri come elenchi.
+// con delimitatori di spazi vuoti, come il quarto elenco nel nostro documento, come elenchi.
+// Questo potrebbe anche rilevare erroneamente come elenchi i paragrafi che iniziano con numeri.
 // Imposta la proprietà "DetectNumberingWithWhitespaces" su "false"
-// per non creare elenchi di elementi numerati con delimitatori di spazi bianchi.
+// per non creare elenchi da elementi numerati con delimitatori di spazi.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

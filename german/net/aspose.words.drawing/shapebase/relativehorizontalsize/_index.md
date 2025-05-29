@@ -3,14 +3,14 @@ title: ShapeBase.RelativeHorizontalSize
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words für .NET
-description: ShapeBase RelativeHorizontalSize eigendom. Ruft den Wert der relativen Größe der Form in horizontaler Richtung ab oder legt diesen fest in C#.
+description: Entdecken Sie die ShapeBase RelativeHorizontalSize-Eigenschaft, um die Formgrößen einfach horizontal anzupassen und so die Designflexibilität und -präzision zu verbessern.
 type: docs
-weight: 430
+weight: 460
 url: /de/net/aspose.words.drawing/shapebase/relativehorizontalsize/
 ---
 ## ShapeBase.RelativeHorizontalSize property
 
-Ruft den Wert der relativen Größe der Form in horizontaler Richtung ab oder legt diesen fest.
+Ruft den Wert der relativen Größe der Form in horizontaler Richtung ab oder legt ihn fest.
 
 ```csharp
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
@@ -20,7 +20,7 @@ public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 
 Der Standardwert ist[`RelativeHorizontalSize`](../../relativehorizontalsize/).
 
-Hat nur Wirkung, wenn[`WidthRelative`](../widthrelative/) eingestellt ist.
+Wirkt nur, wenn[`WidthRelative`](../widthrelative/) ist eingestellt.
 
 ## Beispiele
 
@@ -30,44 +30,44 @@ Zeigt, wie die relative Größe und Position festgelegt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine einfache Form mit absoluter Größe und Position hinzufügen.
+// Hinzufügen einer einfachen Form mit absoluter Größe und Position.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
 // WrapType auf WrapType.None setzen, da Inline-Formen automatisch in absolute Einheiten konvertiert werden.
 shape.WrapType = WrapType.None;
 
-// Überprüfen und Einstellen der relativen horizontalen Größe.
+// Überprüfen und Festlegen der relativen horizontalen Größe.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Die horizontale Größenbindung auf Margin setzen.
+    // Festlegen der horizontalen Größenbindung an den Rand.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Breite auf 50 % der Randbreite setzen.
+    // Einstellen der Breite auf 50 % der Randbreite.
     shape.WidthRelative = 50;
 }
 
-// Überprüfen und Einstellen der relativen vertikalen Größe.
+// Überprüfen und Festlegen der relativen vertikalen Größe.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Die vertikale Größenbindung auf Margin setzen.
+    // Festlegen der vertikalen Größenbindung an den Rand.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Höhe auf 30 % der Randhöhe einstellen.
+    // Einstellen der Höhe auf 30 % der Randhöhe.
     shape.HeightRelative = 30;
 }
 
-// Überprüfen und Einstellen der relativen vertikalen Position.
+// Überprüfen und Festlegen der relativen vertikalen Position.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
     // Festlegen der Positionsbindung an TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Relatives Top auf 30 % der TopMargin-Position setzen.
+    // Relatives Top auf 30 % der TopMargin-Position festlegen.
     shape.TopRelative = 30;
 }
 
-// Überprüfen und Einstellen der relativen horizontalen Position.
+// Überprüfen und Festlegen der relativen horizontalen Position.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // Positionsbindung auf RightMargin setzen.
+    // Festlegen der Positionsbindung auf RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // Der Positionsrelativwert kann negativ sein.
+    // Der relative Positionswert kann negativ sein.
     shape.LeftRelative = -260;
 }
 

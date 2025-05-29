@@ -3,14 +3,14 @@ title: FieldGoToButton.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words para .NET
-description: FieldGoToButton DisplayText propiedad. Obtiene o establece el texto del botón que aparece en el documento de forma que se pueda seleccionar para activar el salto en C#.
+description: Personaliza la propiedad DisplayText de tu FieldGoToButton para mejorar la experiencia del usuario. Configura fácilmente el texto del botón para una navegación fluida y un acceso rápido al documento.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldgotobutton/displaytext/
 ---
 ## FieldGoToButton.DisplayText property
 
-Obtiene o establece el texto del "botón" que aparece en el documento, de forma que se pueda seleccionar para activar el salto.
+Obtiene o establece el texto del "botón" que aparece en el documento, de forma que pueda seleccionarse para activar el salto.
 
 ```csharp
 public string DisplayText { get; set; }
@@ -24,15 +24,15 @@ Muestra cómo insertar un campo GOTOBUTTON.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agrega un campo GOTOBUTTON. Cuando hacemos doble clic en este campo en Microsoft Word,
-// llevará el cursor de texto al marcador a cuyo nombre hace referencia la propiedad Ubicación.
+// Agregar un campo GOTOBUTTON. Al hacer doble clic en este campo en Microsoft Word,
+// llevará el cursor de texto al marcador cuyo nombre hace referencia la propiedad Ubicación.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Inserta un marcador válido para el campo al que hacer referencia.
+// Inserte un marcador válido para el campo a referenciar.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

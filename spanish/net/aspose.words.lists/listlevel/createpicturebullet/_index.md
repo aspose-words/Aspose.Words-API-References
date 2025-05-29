@@ -3,7 +3,7 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: Aspose.Words para .NET
-description: ListLevel CreatePictureBullet método. Crea una forma de viñeta de imagen para el nivel de lista actual en C#.
+description: Descubra el método ListLevel CreatePictureBullet para mejorar sin esfuerzo sus listas con viñetas de imágenes personalizadas, agregando atractivo visual y claridad.
 type: docs
 weight: 150
 url: /es/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -18,11 +18,11 @@ public void CreatePictureBullet()
 
 ## Observaciones
 
-Tenga en cuenta,[`NumberStyle`](../numberstyle/) se establecerá enBullet y [`NumberFormat`](../numberformat/) a "\xF0B7" para mostrar correctamente la imagen con viñetas. La imagen de la cruz roja se establecerá como imagen con viñetas al crearla. Para cambiarla, utilice[`ImageData`](../imagedata/).
+Tenga en cuenta,[`NumberStyle`](../numberstyle/) se establecerá enBullet y [`NumberFormat`](../numberformat/) a "\xF0B7" para mostrar correctamente la viñeta de imagen. La imagen de la cruz roja se establecerá como imagen de viñeta de imagen al crearla. Para cambiarla, utilice[`ImageData`](../imagedata/).
 
 ## Ejemplos
 
-Muestra cómo configurar un ícono de imagen personalizado para las etiquetas de elementos de la lista.
+Muestra cómo establecer un ícono de imagen personalizado para las etiquetas de elementos de la lista.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crea una viñeta de imagen para el nivel de lista actual y establece una imagen desde un sistema de archivos local
-// como el icono que mostrarán las viñetas de este nivel de lista.
+// como el ícono que mostrarán las viñetas para este nivel de lista.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

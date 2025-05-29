@@ -3,16 +3,16 @@ title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.NodeCollection сорт. Представляет коллекцию узлов определенного типа на С#.
+description: Откройте для себя класс Aspose.Words.NodeCollection, ваше решение для эффективного управления различными типами узлов при обработке документов. Улучшите свой рабочий процесс сегодня!
 type: docs
-weight: 4200
+weight: 4890
 url: /ru/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-Представляет коллекцию узлов определенного типа.
+Представляет собой набор узлов определенного типа.
 
-Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) документальная статья.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -23,7 +23,7 @@ public class NodeCollection : IEnumerable<Node>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words/nodecollection/item/) { get; } | Извлекает узел по заданному индексу. |
+| [Item](../../aspose.words/nodecollection/item/) { get; } | Извлекает узел по указанному индексу. |
 
 ## Методы
 
@@ -32,24 +32,24 @@ public class NodeCollection : IEnumerable<Node>
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле «foreach» по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, отсчитываемый от нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел с указанным индексом из коллекции и из документа. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
 ## Примечания
 
-`NodeCollection` не владеет узлами, которые он содержит, а представляет собой просто выбор узлов указанного типа, но узлы хранятся в дереве под соответствующими родительскими узлами.
+`NodeCollection` не владеет узлами, которые он содержит, а представляет собой просто выборку nodes указанного типа, но узлы хранятся в дереве под соответствующими родительскими узлами.
 
-`NodeCollection`поддерживает индексированный доступ, итерацию и предоставляет методы добавления и удаления.
+`NodeCollection` поддерживает индексированный доступ, итерацию и предоставляет методы добавления и удаления.
 
-`NodeCollection` коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в узлах, возвращаемых функцией`NodeCollection` свойства и методы.
+The`NodeCollection` Коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в узлах, возвращаемых функцией`NodeCollection` свойства и методы.
 
-`NodeCollection` возвращается[`GetChildNodes`](../compositenode/getchildnodes/) , а также служит базовым классом для коллекций типизированных узлов, таких как[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) и т. д.
+`NodeCollection` возвращается[`GetChildNodes`](../compositenode/getchildnodes/) , а также служит базовым классом для типизированных коллекций узлов, таких как[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) и т. д.
 
-`NodeCollection` может быть «плоским» и содержать только непосредственных дочерних элементов узла, из которого он был создан, или он может быть «глубоким» и содержать всех дочерних элементов.
+`NodeCollection`может быть «плоским» и содержать только непосредственные дочерние элементы узла, из которого он был создан , или он может быть «глубоким» и содержать всех дочерних элементов.
 
 ## Примеры
 

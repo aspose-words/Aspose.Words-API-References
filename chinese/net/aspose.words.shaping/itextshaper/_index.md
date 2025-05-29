@@ -2,10 +2,10 @@
 title: ITextShaper Interface
 linktitle: ITextShaper
 articleTitle: ITextShaper
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Shaping.ITextShaper 界面. 提供文本整形方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Shaping.ITextShaper 接口，实现高级文本整形方法。轻松精准地增强您的文档格式！
 type: docs
-weight: 6050
+weight: 6880
 url: /zh/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
@@ -20,7 +20,7 @@ public interface ITextShaper : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), params FontFeature[]*) | 返回[`Cluster`](../cluster/)从一系列文本片段生成的对象。 返回数组的长度等于*runs*. 如果在索引处运行具有相应的簇，则同一索引处的结果将记录它们。 |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), FontFeature[], VariationAxisCoordinate[]*) | 返回[`Cluster`](../cluster/)从文本片段序列生成的对象。 返回数组的长度等于*runs*. 如果在索引处运行有相应的集群，则在同一索引处的结果将会记录它们。 |
 
 ### 也可以看看
 

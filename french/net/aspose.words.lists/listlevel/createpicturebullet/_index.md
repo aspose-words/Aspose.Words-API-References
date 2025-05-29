@@ -3,7 +3,7 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: Aspose.Words pour .NET
-description: ListLevel CreatePictureBullet méthode. Crée une forme de puce dimage pour le niveau de liste actuel en C#.
+description: Découvrez la méthode ListLevel CreatePictureBullet pour améliorer sans effort vos listes avec des puces d'images personnalisées, ajoutant un attrait visuel et de la clarté.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -18,18 +18,18 @@ public void CreatePictureBullet()
 
 ## Remarques
 
-Veuillez noter,[`NumberStyle`](../numberstyle/) sera réglé surBullet et [`NumberFormat`](../numberformat/) sur "\xF0B7" pour afficher correctement la puce d'image. L'image de la croix rouge sera définie comme image de puce lors de la création. Pour la modifier, veuillez utiliser[`ImageData`](../imagedata/).
+Veuillez noter,[`NumberStyle`](../numberstyle/) sera réglé surBullet et [`NumberFormat`](../numberformat/) à "\xF0B7" pour afficher correctement la puce d'image. L'image de la croix rouge sera définie comme image de puce d'image lors de la création. Pour la modifier, veuillez utiliser[`ImageData`](../imagedata/).
 
 ## Exemples
 
-Montre comment définir une icône d’image personnalisée pour les étiquettes des éléments de liste.
+Montre comment définir une icône d'image personnalisée pour les étiquettes des éléments de liste.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Crée une puce d'image pour le niveau de liste actuel et définit une image à partir d'un système de fichiers local
+// Créer une puce d'image pour le niveau de liste actuel et définir une image à partir d'un système de fichiers local
 // comme icône que les puces de ce niveau de liste afficheront.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");

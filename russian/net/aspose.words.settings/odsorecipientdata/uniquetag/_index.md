@@ -3,14 +3,14 @@ title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
 second_title: Aspose.Words для .NET
-description: OdsoRecipientData UniqueTag свойство. Указывает содержимое данной записи в столбце содержащем уникальные данные. Значение по умолчаниюнулевой  на С#.
+description: Откройте для себя свойство OdsoRecipientData UniqueTag, определяющее уникальное содержимое записи. Оптимизируйте управление данными с помощью этой важной функции.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsorecipientdata/uniquetag/
 ---
 ## OdsoRecipientData.UniqueTag property
 
-Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию:`нулевой` .
+Указывает содержимое заданной записи в столбце, содержащем уникальные данные. Значение по умолчанию:`нулевой` .
 
 ```csharp
 public byte[] UniqueTag { get; set; }
@@ -18,7 +18,7 @@ public byte[] UniqueTag { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

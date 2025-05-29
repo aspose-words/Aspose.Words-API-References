@@ -3,9 +3,9 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.BreakType تعداد. يحدد نوع الفاصل داخل المستند في C#.
+description: اكتشف Aspose.Words.BreakType enum لتحسين تنسيق مستندك باستخدام أنواع فواصل دقيقة لتحسين قابلية القراءة والتحكم في التخطيط.
 type: docs
-weight: 110
+weight: 300
 url: /ar/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
@@ -20,15 +20,15 @@ public enum BreakType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| ParagraphBreak | `0` | الفاصل بين الفقرات. |
-| PageBreak | `1` | فاصل صفحات صريح. |
-| ColumnBreak | `2` | فاصل أعمدة صريح. |
-| SectionBreakContinuous | `3` | يحدد بداية القسم الجديد في نفس الصفحة مثل القسم السابق. |
+| ParagraphBreak | `0` | فاصل بين الفقرات. |
+| PageBreak | `1` | فاصل صفحة صريح. |
+| ColumnBreak | `2` | كسر عمود صريح. |
+| SectionBreakContinuous | `3` | يحدد بداية القسم الجديد على نفس الصفحة مثل القسم السابق. |
 | SectionBreakNewColumn | `4` | يحدد بداية القسم الجديد في العمود الجديد. |
-| SectionBreakNewPage | `5` | يحدد بداية القسم الجديد في صفحة جديدة. |
-| SectionBreakEvenPage | `6` | يحدد بداية قسم جديد في صفحة زوجية جديدة. |
-| SectionBreakOddPage | `7` | يحدد بداية القسم الجديد في صفحة فردية. |
-| LineBreak | `8` | فاصل أسطر صريح. |
+| SectionBreakNewPage | `5` | يحدد بداية قسم جديد على صفحة جديدة. |
+| SectionBreakEvenPage | `6` | يحدد بداية القسم الجديد على صفحة زوجية جديدة. |
+| SectionBreakOddPage | `7` | يحدد بداية قسم جديد على صفحة فردية. |
+| LineBreak | `8` | كسر سطر صريح. |
 
 ## أمثلة
 
@@ -42,7 +42,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -60,7 +60,7 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -71,14 +71,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -89,21 +89,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
+يوضح كيفية إدراج جدول المحتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل جدول محتويات للصفحة الأولى من المستند.
-// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
-// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
+//إدراج جدول المحتويات للصفحة الأولى من المستند.
+// قم بتكوين الجدول لالتقاط الفقرات التي تحتوي على عناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاتها لتكون روابط تشعبية تأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
-// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات ذات أنماط عناوين.
+// كل عنوان من هذا القبيل بمستوى بين 1 و3 سوف ينشئ إدخالاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -131,7 +131,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من نوع يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

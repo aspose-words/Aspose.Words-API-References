@@ -3,7 +3,7 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words pour .NET
-description: ResourceSavingArgs KeepResourceStreamOpen propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une ressource en C#.
+description: Découvrez comment la propriété KeepResourceStreamOpen dans ResourceSavingArgs améliore Aspose.Words en gérant l'efficacité du flux lors de l'économie de ressources.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -18,7 +18,7 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`ResourceStream`](../resourcestream/) propriété après y avoir écrit une ressource. Spécifiez`vrai` pour garder le flux ouvert.
+La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`ResourceStream`](../resourcestream/) propriété après avoir écrit une ressource dedans. Spécifier`vrai` pour garder le ruisseau ouvert.
 
 ## Exemples
 
@@ -56,7 +56,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -72,7 +72,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -81,7 +81,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -3,14 +3,14 @@ title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
 second_title: Aspose.Words per .NET
-description: VbaReference LibId proprietà. Ottiene un valore stringa contenente lidentificatore di una libreria dei tipi di automazione in C#.
+description: Scopri la proprietà LibId di VBA e recupera facilmente l'identificatore della libreria di tipi di automazione con questa guida essenziale per gli sviluppatori. Migliora le tue competenze di programmazione!
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property
 
-Ottiene un valore stringa contenente l'identificatore di una libreria dei tipi di automazione.
+Ottiene un valore stringa contenente l'identificatore di una libreria di tipi di automazione.
 
 ```csharp
 public abstract string LibId { get; }
@@ -53,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
+ /// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -71,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -86,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

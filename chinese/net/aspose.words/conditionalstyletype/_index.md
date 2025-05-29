@@ -2,15 +2,15 @@
 title: ConditionalStyleType Enum
 linktitle: ConditionalStyleType
 articleTitle: ConditionalStyleType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.ConditionalStyleType 枚举. 表示可以在表格样式中定义条件格式的可能表格区域 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ConditionalStyleType 枚举，用于定义动态表格格式。使用灵活的条件选项增强您的文档样式！
 type: docs
-weight: 330
+weight: 530
 url: /zh/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
 
-表示可以在表格样式中定义条件格式的可能表格区域。
+表示可以在表格样式中定义条件格式的可能的表格区域。
 
 ```csharp
 public enum ConditionalStyleType
@@ -23,7 +23,7 @@ public enum ConditionalStyleType
 | FirstRow | `0` | 指定表格第一行的格式。 |
 | FirstColumn | `1` | 指定表格第一列的格式。 |
 | LastRow | `2` | 指定表格最后一行的格式。 |
-| LastColumn | `3` | 指定表最后一列的格式。 |
+| LastColumn | `3` | 指定表格最后一列的格式。 |
 | OddRowBanding | `4` | 指定奇数行条纹的格式。 |
 | OddColumnBanding | `5` | 指定奇数列条纹的格式。 |
 | EvenRowBanding | `6` | 指定偶数行条纹的格式。 |
@@ -56,9 +56,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是仅影响部分表格单元格的格式更改
+// 基于谓词，例如单元格位于最后一行。
+// 以下是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -87,7 +87,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// 将包含所有条件样式的自定义样式应用于表格。
+// 将包含所有条件样式的自定义样式应用到表格。
 table.Style = tableStyle;
 
 // 我们的样式默认应用一些条件样式。

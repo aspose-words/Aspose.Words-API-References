@@ -3,7 +3,7 @@ title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: RevisionGroup Text eigendom. Gibt eingefügten/gelöschten/verschobenen Text oder eine Beschreibung der Formatänderung zurück in C#.
+description: Erkunden Sie die Texteigenschaft „RevisionGroup“, um auf eingefügten, gelöschten oder verschobenen Text zuzugreifen und so die Formatierungserkenntnisse und die Bearbeitungseffizienz Ihres Dokuments zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words/revisiongroup/text/

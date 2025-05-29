@@ -3,7 +3,7 @@ title: CustomXmlPart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words per .NET
-description: CustomXmlPart Id proprietà. Ottiene o imposta la stringa che identifica questa parte XML personalizzata allinterno di un documento OOXML in C#.
+description: Scopri come gestire la proprietà CustomXmlPart Id per identificare e personalizzare facilmente le parti XML nei tuoi documenti OOXML per una gestione avanzata dei documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/customxmlpart/id/
@@ -18,11 +18,11 @@ public string Id { get; set; }
 
 ## Osservazioni
 
-ISO/IEC 29500 specifica che questo valore è un GUID, ma le vecchie versioni di Microsoft Word consentivano qualsiasi stringa qui. Aspose.Words fa lo stesso per il formato ECMA-376. Tieni presente, tuttavia, che Microsoft Word Online non riesce ad aprire un documento creato con un valore non GUID. Pertanto, un GUID è il valore preferito per questa proprietà.
+Lo standard ISO/IEC 29500 specifica che questo valore è un GUID, ma le vecchie versioni di Microsoft Word consentivano la stringa any . Aspose.Words fa lo stesso per il formato ECMA-376. Si noti tuttavia che Microsoft Word Online non riesce ad aprire un documento creato con un valore non GUID. Pertanto, il GUID è il valore preferibile per questa proprietà.
 
 Un valore valido deve essere un identificatore univoco tra tutte le parti di dati XML personalizzate in questo documento.
 
-Il valore predefinito è una stringa vuota. Il valore non può essere`nullo`.
+Il valore predefinito è una stringa vuota. Il valore non può essere`null`.
 
 ## Esempi
 
@@ -31,9 +31,9 @@ Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 ```csharp
 Document doc = new Document();
 
-// Costruisce una parte XML che contiene dati e la aggiunge alla raccolta del documento.
+// Costruisci una parte XML che contiene dati e aggiungila alla raccolta del documento.
 // Se abilitiamo la scheda "Sviluppatore" in Microsoft Word,
-// possiamo trovare gli elementi di questa raccolta nel "riquadro di mappatura XML", insieme ad alcuni elementi predefiniti.
+// possiamo trovare gli elementi di questa raccolta nel "XML Mapping Pane", insieme ad alcuni elementi predefiniti.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -48,17 +48,17 @@ Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 // 2 - Per GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Aggiunge un'associazione allo schema XML.
+// Aggiungere un'associazione di schema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clona una parte, quindi inseriscila nella raccolta.
+// Clona una parte e poi inseriscila nella raccolta.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Scorrere la raccolta e stampare il contenuto di ciascuna parte.
+// Esegue l'iterazione nella raccolta e stampa il contenuto di ogni parte.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -70,16 +70,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Utilizza il metodo "RemoveAt" per rimuovere la parte clonata per indice.
+// Utilizzare il metodo "RemoveAt" per rimuovere la parte clonata in base all'indice.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Clona la raccolta di parti XML, quindi utilizza il metodo "Clear" per rimuovere tutti i suoi elementi contemporaneamente.
+// Clonare la raccolta di parti XML, quindi utilizzare il metodo "Clear" per rimuovere tutti i suoi elementi in una volta.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Crea un tag di documento strutturato che visualizzerà il contenuto della nostra parte e lo inserirà nel corpo del documento.
+// Creiamo un tag di documento strutturato che visualizzerà il contenuto della nostra parte e lo inserirà nel corpo del documento.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

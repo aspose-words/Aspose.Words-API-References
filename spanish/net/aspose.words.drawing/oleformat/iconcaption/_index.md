@@ -3,7 +3,7 @@ title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
 second_title: Aspose.Words para .NET
-description: OleFormat IconCaption propiedad. Obtiene el título del icono del objeto OLE en C#.
+description: Descubra la propiedad OleFormat IconCaption para recuperar y personalizar fácilmente los títulos de los iconos de objetos OLE para mejorar la presentación del documento.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/oleformat/iconcaption/
@@ -12,7 +12,7 @@ url: /es/net/aspose.words.drawing/oleformat/iconcaption/
 
 Obtiene el título del icono del objeto OLE.
 
-En caso de que el objeto OLE no esté incrustado como icono o no se pueda recuperar el título, devuelve una cadena vacía.
+En caso de que el objeto OLE no tenga un ícono o no se pueda recuperar un título, devuelve una cadena empty .
 
 ```csharp
 public string IconCaption { get; }
@@ -26,20 +26,20 @@ Muestra cómo insertar objetos OLE vinculados y no vinculados.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Incrustar un dibujo de Microsoft Visio en el documento como un objeto OLE.
+// Incruste un dibujo de Microsoft Visio en el documento como un objeto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserte un enlace al archivo en el sistema de archivos local y muéstrelo como un icono.
+// Inserta un enlace al archivo en el sistema de archivos local y lo muestra como un ícono.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// La inserción de objetos OLE crea formas que almacenan estos objetos.
+// Al insertar objetos OLE se crean formas que almacenan estos objetos.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
 // Si una forma contiene un objeto OLE, tendrá una propiedad "OleFormat" válida,
-// que podemos usar para verificar algunos aspectos de la forma.
+// que podemos utilizar para verificar algunos aspectos de la forma.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si el objeto contiene datos OLE, podemos acceder a él mediante una secuencia.
+// Si el objeto contiene datos OLE, podemos acceder a él mediante un flujo de datos.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

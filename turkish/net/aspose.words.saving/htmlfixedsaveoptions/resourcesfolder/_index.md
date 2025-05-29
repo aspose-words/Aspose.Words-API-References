@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions ResourcesFolder mülk. Bir belgeyi Html biçiminde dışa aktarırken kaynakların resimler yazı tipleri css kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlFixedSaveOptions ResourcesFolder özelliğinin HTML dışa aktarmaları sırasında resimlerin, yazı tiplerinin ve CSS'nin nerede depolandığını nasıl tanımladığını keşfedin. Belge iş akışınızı optimize edin!
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolder property
 
-Bir belgeyi Html biçiminde dışa aktarırken kaynakların (resimler, yazı tipleri, css) kaydedildiği fiziksel klasörü belirtir. Varsayılan:`hükümsüz` .
+Bir belgeyi Html biçimine aktarırken kaynakların (resimler, yazı tipleri, css) kaydedildiği fiziksel klasörü belirtir. Varsayılan`hükümsüz` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -20,15 +20,15 @@ public string ResourcesFolder { get; set; }
 
 Yalnızca şu durumlarda etkilidir:[`ExportEmbeddedImages`](../exportembeddedimages/) mülkiyet`YANLIŞ`.
 
-Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) Html formatında Aspose.Words'ün belgeye gömülü all görüntülerini bağımsız dosyalar olarak kaydetmesi gerekir.`ResourcesFolder` görüntülerin nereye kaydedileceğini belirtmenize ve[`ResourcesFolderAlias`](../resourcesfolderalias/) , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
+Birini kaydettiğinizde[`Document`](../../../aspose.words/document/) Html formatında, Aspose.Words'ün belgeye gömülü tüm resimleri bağımsız dosyalar olarak kaydetmesi gerekir.`ResourcesFolder` görüntülerin nereye kaydedileceğini belirtmenize olanak tanır ve[`ResourcesFolderAlias`](../resourcesfolderalias/) görüntü URI'lerinin nasıl oluşturulacağını belirtmeye izin verir.
 
-Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Words varsayılan olarak görüntülerini belge dosyasının kaydedildiği klasöre kaydeder. Kullanmak`ResourcesFolder` Bu davranışı geçersiz kılmak için .
+Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Words varsayılan olarak, resimlerini belge dosyasının kaydedildiği klasöre kaydeder.`ResourcesFolder` Bu davranışı geçersiz kılmak için kullanın.
 
-Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ResourcesFolder` mülk
+Bir belgeyi bir akışa kaydederseniz, Aspose.Words'ün görüntüleri kaydedeceği bir klasörü yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, şu şekilde erişilebilir bir klasör belirtmeniz gerekir: `ResourcesFolder` mülk
 
 ## Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'e dönüştürürken oluşturulan harici kaynakların URI'lerini yazdırmak için bir geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -47,8 +47,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias tarafından belirtilen bir klasör ResourcesFolder yerine kaynakları içerecektir.
-    // Akışların kaynaklarını klasöre koymadan önce klasörün var olduğundan emin olmalıyız.
+    // ResourcesFolderAlias tarafından belirtilen klasör ResourcesFolder yerine kaynakları içerecektir.
+    // Akışların kaynaklarını koyabilmeleri için klasörün var olduğundan emin olmalıyız.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -62,13 +62,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Sabit HTML'ye dönüştürülürken içerdiği kaynakların URI'lerini sayar ve yazdırır.
+/// Sabit HTML'ye dönüştürüldükçe, içerdiği kaynakların URI'lerini sayar ve yazdırır.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // SaveOptions nesnesinde bir klasör takma adı belirlersek, onu buradan yazdırabileceğiz.
+        // SaveOptions nesnesinde bir klasör takma adı belirlersek buradan yazdırabileceğiz.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -77,8 +77,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Varsayılan olarak 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
-                // Diğer platformlardaki sorunları önlemek için yazı tiplerinin yolunu açıkça belirtmelisiniz.
+                // Varsayılan olarak, 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
+                // Diğer platformlarda sorun yaşamamak için fontların yolunu açıkça belirtmeniz gerekir.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -87,7 +87,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // "ResourcesFolderAlias" özelliğinde bir klasör belirttiysek,
-        // kaynağını o klasöre koymak için her akışı yeniden yönlendirmemiz gerekecek.
+        // ayrıca her akışı, kaynağını o klasöre koyacak şekilde yönlendirmemiz gerekecek.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

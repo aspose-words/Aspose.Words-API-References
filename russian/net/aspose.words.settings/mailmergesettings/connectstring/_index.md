@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words для .NET
-description: MailMergeSettings ConnectString свойство. Указывает строку подключения используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка на С#.
+description: Узнайте, как свойство ConnectString MailMergeSettings связывается с внешними источниками данных. Легко настройте свое соединение для бесшовной интеграции данных!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/mailmergesettings/connectstring/

@@ -2,15 +2,15 @@
 title: TxtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Text 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TxtSaveOptions SaveFormat 属性如何定义文档保存格式，确保您的文件始终采用首选文本格式。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
 ## TxtSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时保存文档的格式。 只能是Text.
+指定如果使用此保存选项对象，文档将以哪种格式保存。 只能是Text.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## 例子
 
-演示如何使用自定义分段符保存 .txt 文档。
+展示如何使用自定义段落分隔符保存 .txt 文档。
 
 ```csharp
 Document doc = new Document();

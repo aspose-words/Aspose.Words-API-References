@@ -2,17 +2,17 @@
 title: WriteProtection Class
 linktitle: WriteProtection
 articleTitle: WriteProtection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.WriteProtection sınıf. Bir belgenin yazma koruması ayarlarını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yazma koruması ayarlarını kolayca yönetmek ve belge güvenliğinizi artırmak için Aspose.Words.Settings.WriteProtection sınıfını keşfedin.
 type: docs
-weight: 5970
+weight: 6800
 url: /tr/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
 
-Bir belgenin yazma koruması ayarlarını belirtir.
+Bir belge için yazma koruması ayarlarını belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Koruyun veya Şifreleyin](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Koruyun veya Şifreleyin](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) belgeleme makalesi.
 
 ```csharp
 public class WriteProtection
@@ -22,40 +22,40 @@ public class WriteProtection
 
 | İsim | Tanım |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | İadeler`doğru` yazma koruması şifresi ayarlandığında. |
-| [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğini belirtir. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Geri Döndürür`doğru` yazma koruması parolası ayarlandığında. |
+| [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Belge yazarının belgenin salt okunur olarak açılmasını tavsiye edip etmediğini belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Belgenin yazma koruması parolasını ayarlar. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | İadeler`doğru` belirtilen parola belgenin korunduğu yazma koruma parolasıyla aynıysa. Belge parolayla yazmaya karşı korumalı değilse o zaman şunu döndürür:`YANLIŞ` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Belge için yazma koruması parolasını ayarlar. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Geri Döndürür`doğru` belirtilen parola, belgenin korunduğu yazma koruması parolasıyla aynıysa. Belge parola ile yazmaya karşı korumalı değilse, şunu döndürür:`YANLIŞ` . |
 
 ## Notlar
 
-Yazma koruması, yazarın belgesinin salt okunur olarak açılmasını ve/veya bir belgeyi değiştirmek için parola gerektirmesini önerip önermediğini belirtir.
+Yazma koruması, yazarın belgenin salt okunur olarak açılmasını ve/veya belgeyi değiştirmek için parola gerektirilmesini önerdiğini belirtir.
 
-Yazma koruması belge korumasından farklıdır. Yazma koruması, Farklı Kaydet iletişim kutusunun seçeneklerinde Microsoft Word'de belirtilmiştir.
+Yazma koruması, belge korumasından farklıdır. Yazma koruması, Microsoft Word'de Farklı Kaydet iletişim kutusunun seçeneklerinde belirtilir.
 
-Bu sınıfın örneklerini doğrudan oluşturmazsınız. Belge koruma ayarlarına üzerinden erişebilirsiniz.[`WriteProtection`](../../aspose.words/document/writeprotection/) mülk.
+Bu sınıfın örneklerini doğrudan oluşturmazsınız. Belge koruma ayarlarına şu şekilde erişirsiniz:[`WriteProtection`](../../aspose.words/document/writeprotection/) mülk.
 
 ## Örnekler
 
-Bir belgenin parolayla nasıl korunacağını gösterir.
+Bir belgenin parola ile nasıl korunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// En fazla 15 karakter uzunluğunda bir şifre girin ve ardından belgenin koruma durumunu doğrulayın.
+// En fazla 15 karakter uzunluğunda bir parola girin ve ardından belgenin koruma durumunu doğrulayın.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Koruma, belgenin programlı olarak düzenlenmesini engellemez veya içeriği şifrelemez.
+// Koruma, belgenin programlı olarak düzenlenmesini engellemez veya içeriğini şifrelemez.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

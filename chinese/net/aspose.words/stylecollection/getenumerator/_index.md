@@ -2,15 +2,15 @@
 title: StyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: StyleCollection GetEnumerator 方法. 获取一个枚举器对象该对象将按名称的字母顺序枚举样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StyleCollection 的 GetEnumerator 方法，轻松按名称字母顺序列出样式。立即提升您的编码效率！
 type: docs
 weight: 90
 url: /zh/net/aspose.words/stylecollection/getenumerator/
 ---
 ## StyleCollection.GetEnumerator method
 
-获取一个枚举器对象，该对象将按名称的字母顺序枚举样式。
+获取一个枚举器对象，该对象将按照名称的字母顺序枚举样式。
 
 ```csharp
 public IEnumerator<Style> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<Style> GetEnumerator()
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

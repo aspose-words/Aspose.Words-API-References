@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 linktitle: ExportOriginalUrlForLinkedImages
 articleTitle: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportOriginalUrlForLinkedImages свойство. Указывает следует ли использовать исходный URLадрес в качестве URLадреса связанных изображений. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя функцию ExportOriginalUrlForLinkedImages от HtmlSaveOptions, позволяющую использовать оригинальные URL-адреса для связанных изображений. Повысьте целостность вашего документа!
 type: docs
 weight: 200
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -18,13 +18,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ## Примечания
 
-Если установлено значение`истинный`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) используется значение , поскольку URL-адрес связанных изображений и связанные изображения не загружаются в папку документа или[`ImagesFolder`](../imagesfolder/).
+Если установлено значение`истинный`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) значение используется как URL-адрес связанных изображений, а связанные изображения не загружаются в папку документа или[`ImagesFolder`](../imagesfolder/).
 
-Если установлено значение`ЛОЖЬ`связанные изображения загружаются в папкуfolder документа или[`ImagesFolder`](../imagesfolder/) и URL-адрес каждого связанного изображения создается в зависимости от папки документа,[`ImagesFolder`](../imagesfolder/) и[`ImagesFolderAlias`](../imagesfolderalias/) характеристики.
+Если установлено значение`ЛОЖЬ`связанные изображения загружаются в папку документа или[`ImagesFolder`](../imagesfolder/) и URL каждого связанного изображения формируется в зависимости от папки документа,[`ImagesFolder`](../imagesfolder/) и[`ImagesFolderAlias`](../imagesfolderalias/) характеристики.
 
 ## Примеры
 
-Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
+Показывает, как задать папки и псевдонимы папок для внешних сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,14 +3,14 @@ title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words für .NET
-description: FrameFormat VerticalAlignment eigendom. Ruft die vertikale Ausrichtung des angegebenen Frames ab in C#.
+description: Entdecken Sie die FrameFormat VerticalAlignment-Eigenschaft, um die vertikale Ausrichtung für Rahmen einfach zu verwalten und Ihr Layoutdesign mühelos zu verbessern.
 type: docs
 weight: 90
 url: /de/net/aspose.words/frameformat/verticalalignment/
 ---
 ## FrameFormat.VerticalAlignment property
 
-Ruft die vertikale Ausrichtung des angegebenen Frames ab.
+Ruft die vertikale Ausrichtung des angegebenen Rahmens ab.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; }

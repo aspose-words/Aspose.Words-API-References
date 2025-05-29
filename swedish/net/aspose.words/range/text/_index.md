@@ -3,14 +3,14 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: Range Text fast egendom. Hämtar intervallets text i C#.
+description: Upptäck egenskapen Textintervall för att enkelt hämta och manipulera text inom ett angivet intervall för förbättrad innehållshantering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/range/text/
 ---
 ## Range.Text property
 
-Hämtar intervallets text.
+Hämtar texten i intervallet.
 
 ```csharp
 public string Text { get; }
@@ -18,11 +18,11 @@ public string Text { get; }
 
 ## Anmärkningar
 
-Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
+Den returnerade strängen innehåller alla kontroll- och specialtecken enligt beskrivningen i[`ControlChar`](../../controlchar/).
 
 ## Exempel
 
-Visar hur man får fram textinnehållet för alla noder som ett intervall täcker.
+Visar hur man hämtar textinnehållet för alla noder som ett område täcker.
 
 ```csharp
 Document doc = new Document();

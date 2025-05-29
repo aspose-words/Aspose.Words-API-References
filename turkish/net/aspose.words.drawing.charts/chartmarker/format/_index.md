@@ -2,15 +2,15 @@
 title: ChartMarker.Format
 linktitle: Format
 articleTitle: Format
-second_title: Aspose.Words for .NET
-description: ChartMarker Format mülk. Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir dolgu ve çizgi stillerine kolay erişim için ChartMarker Format özelliğini keşfedin ve benzersiz işaretçilerle veri görselleştirmenizi geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar.
+Bu işaretleyicinin dolgu ve satır biçimlendirmesine erişim sağlar.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Örnekler
 
-İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
+İşaretçi biçimlendirmesinin nasıl ayarlanacağını göster.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Varsayılan olarak oluşturulan seriyi silin.
+// Varsayılan olarak oluşturulan seriyi sil.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

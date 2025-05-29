@@ -3,7 +3,7 @@ title: FieldIndex
 linktitle: FieldIndex
 articleTitle: FieldIndex
 second_title: Aspose.Words لـ .NET
-description: FieldIndex البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldIndex، المُنشئ الافتراضي الأساسي لفهرسة البيانات بكفاءة. بسّط برمجة بياناتك مع هذه الأداة الفعّالة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldindex/fieldindex/

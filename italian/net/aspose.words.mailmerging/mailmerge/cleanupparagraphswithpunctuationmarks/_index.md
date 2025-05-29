@@ -3,14 +3,14 @@ title: MailMerge.CleanupParagraphsWithPunctuationMarks
 linktitle: CleanupParagraphsWithPunctuationMarks
 articleTitle: CleanupParagraphsWithPunctuationMarks
 second_title: Aspose.Words per .NET
-description: MailMerge CleanupParagraphsWithPunctuationMarks proprietà. Ottiene o imposta un valore che indica se i paragrafi con segni di punteggiatura sono considerati vuoti e devono essere rimossi seRemoveEmptyParagraphs lopzione è specificata in C#.
+description: Ottimizza la tua Stampa Unione con la proprietà CleanupParagraphsWithPunctuationMarks. Controlla la rimozione dei paragrafi vuoti per documenti più puliti e professionali.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-Ottiene o imposta un valore che indica se i paragrafi con segni di punteggiatura sono considerati vuoti e devono essere rimossi seRemoveEmptyParagraphs l'opzione è specificata.
+Ottiene o imposta un valore che indica se i paragrafi con segni di punteggiatura sono considerati vuoti e dovrebbero essere rimossi seRemoveEmptyParagraphs l'opzione è specificata.
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
@@ -47,14 +47,14 @@ builder.Write(punctuationMark);
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.InsertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.FieldName = "Option_2";
 
-// Configura la proprietà "CleanupOptions" per rimuovere eventuali paragrafi vuoti che questa stampa unione creerebbe.
+// Configurare la proprietà "CleanupOptions" per rimuovere tutti i paragrafi vuoti che questa stampa unione creerebbe.
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
 // Impostando la proprietà "CleanupParagraphsWithPunctuationMarks" su "true" verranno conteggiati anche i paragrafi
-// con i segni di punteggiatura vuoti e l'operazione di stampa unione rimuoverà anche questi.
+// con i segni di punteggiatura vuoti e l'operazione di stampa unione li rimuoverà anch'essi.
 // Impostazione della proprietà "CleanupParagraphsWithPunctuationMarks" su "false"
 // rimuoverà i paragrafi vuoti, ma non quelli con segni di punteggiatura.
-// Questo è un elenco di segni di punteggiatura che riguardano questa proprietà: "!", ",", ".", ":", ";", "?", "¡", "¿".
+// Questo è un elenco di segni di punteggiatura a cui si riferisce questa proprietà: "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });

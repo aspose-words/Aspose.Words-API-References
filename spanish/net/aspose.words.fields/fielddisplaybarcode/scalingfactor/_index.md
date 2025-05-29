@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words para .NET
-description: FieldDisplayBarcode ScalingFactor propiedad. Obtiene o establece un factor de escala para el símbolo. El valor está en puntos porcentuales enteros y los valores válidos son 10 1000 en C#.
+description: Descubra la propiedad FieldDisplayBarcode ScalingFactor para ajustar fácilmente el tamaño de los símbolos en porcentajes completos, del 10 % al 1000 %. ¡Optimice la visualización de sus códigos de barras!
 type: docs
 weight: 120
 url: /es/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Obtiene o establece un factor de escala para el símbolo. El valor está en puntos porcentuales enteros y los valores válidos son [10, 1000]
+Obtiene o establece un factor de escala para el símbolo. El valor se expresa en puntos porcentuales enteros y los valores válidos son [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -18,7 +18,7 @@ public string ScalingFactor { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
+Muestra cómo insertar un campo DISPLAYBARCODE y configurar sus propiedades.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas maneras, que el campo DISPLAYBARCODE puede mostrar.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - código de barras CODE39:
+// 3 - Código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

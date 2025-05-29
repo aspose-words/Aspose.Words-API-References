@@ -3,14 +3,14 @@ title: VbaModule.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words لـ .NET
-description: VbaModule Clone طريقة. ينفذ نسخة منVbaModule  في C#.
+description: انسخ وحدة VbaModule بسهولة باستخدام طريقة الاستنساخ. بسّط عملية البرمجة لديك وحسّن إنتاجيتك مع هذه الميزة الفعّالة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.vba/vbamodule/clone/
 ---
 ## VbaModule.Clone method
 
-ينفذ نسخة من[`VbaModule`](../) .
+يقوم بإجراء نسخة من[`VbaModule`](../) .
 
 ```csharp
 public VbaModule Clone()
@@ -22,7 +22,7 @@ public VbaModule Clone()
 
 ## أمثلة
 
-يوضح كيفية الاستنساخ العميق لمشروع ووحدة VBA.
+يوضح كيفية استنساخ مشروع ووحدة VBA بشكل عميق.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -32,7 +32,7 @@ VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
 // في المستند الوجهة، لدينا بالفعل وحدة تسمى "Module1"
-// لأننا قمنا باستنساخه مع المشروع. سنحتاج إلى إزالة الوحدة.
+// لأننا استنسخناها مع المشروع. سنحتاج إلى إزالة الوحدة.
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Remove(oldVbaModule);

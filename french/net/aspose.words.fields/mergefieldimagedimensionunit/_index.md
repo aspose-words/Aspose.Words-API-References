@@ -3,9 +3,9 @@ title: MergeFieldImageDimensionUnit Enum
 linktitle: MergeFieldImageDimensionUnit
 articleTitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit énumération. Spécifie une unité de dimension dimage cestàdire la largeur ou la hauteur utilisée dans un processus de publipostage en C#.
+description: Découvrez l'énumération Aspose.Words.Fields.MergeFieldImageDimensionUnit pour un contrôle précis des dimensions des images lors des publipostages. Optimisez l'automatisation de vos documents dès aujourd'hui !
 type: docs
-weight: 2760
+weight: 3170
 url: /fr/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
@@ -20,24 +20,24 @@ public enum MergeFieldImageDimensionUnit
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Point | `0` | La pointe (soit 1/72 de pouce). |
-| Percent | `1` | Pourcentage de la valeur de dimension de l'image d'origine. |
+| Point | `0` | Le point (c'est-à-dire 1/72 pouce). |
+| Percent | `1` | Le pourcentage de la valeur de dimension de l'image d'origine. |
 
 ## Exemples
 
-Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Insère un MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utilisez le code de champ pour référencer
-    // une colonne dans la source de données contenant les noms de fichiers du système local des images que nous souhaitons utiliser dans le publipostage.
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La source de données doit avoir une telle colonne nommée "ImageColumn".
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Créez une source de données appropriée.
@@ -56,7 +56,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -82,6 +82,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

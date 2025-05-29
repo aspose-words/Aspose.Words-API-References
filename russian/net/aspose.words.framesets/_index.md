@@ -3,16 +3,16 @@ title: Aspose.Words.Framesets
 linktitle: Aspose.Words.Framesets
 articleTitle: Aspose.Words.Framesets
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Framesets пространство имен предоставляет классы и перечисления которые представляют страницу кадров или отдельный кадр на странице кадров на С#.
+description: Изучите пространство имен Aspose.Words.Framesets для поиска мощных классов и перечислений, которые упрощают управление фреймами и страницами фреймов в ваших документах.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words.framesets/
 ---
-**Aspose.Words.Framesets** пространство имен предоставляет классы и перечисления, которые представляют страницу кадров или отдельный кадр на странице кадров.
+The**Aspose.Words.Framesets**Пространство имен предоставляет классы и перечисления, которые представляют страницу фреймов или отдельный фрейм на странице фреймов.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [Frameset](./frameset/) | Представляет страницу кадров или отдельный кадр на странице кадров. |
+| [Frameset](./frameset/) | Представляет страницу фреймов или один фрейм на странице фреймов. |
 | [FramesetCollection](./framesetcollection/) | Представляет коллекцию экземпляров[`Frameset`](../aspose.words.framesets/frameset/) класс. |

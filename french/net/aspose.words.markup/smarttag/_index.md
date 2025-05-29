@@ -3,16 +3,16 @@ title: SmartTag Class
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Markup.SmartTag classe. Cet élément spécifie la présence dune balise intelligente autour dune ou plusieurs structures en ligne exécutions images champs etc. au sein dun paragraphe en C#.
+description: Découvrez la classe Aspose.Words.Markup.SmartTag, qui améliore l'édition de documents en identifiant les balises intelligentes autour des éléments en ligne tels que les images et les champs.
 type: docs
-weight: 4050
+weight: 4740
 url: /fr/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
-Cet élément spécifie la présence d'une balise intelligente autour d'une ou plusieurs structures en ligne (exécutions, images, champs, etc.) au sein d'un paragraphe.
+Cet élément spécifie la présence d'une balise intelligente autour d'une ou plusieurs structures en ligne (exécutions, images, champs, etc.) dans un paragraphe.
 
-Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article documentaire.
+Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article de documentation.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -40,8 +40,8 @@ public class SmartTag : CompositeNode
 | override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | RetoursSmartTag . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Une collection des propriétés de la balise intelligente. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Une collection de propriétés de balises intelligentes. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 | [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Spécifie l'URI de l'espace de noms de la balise active. |
 
 ## Méthodes
@@ -49,37 +49,39 @@ public class SmartTag : CompositeNode
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words.markup/smarttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds. |
+| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur pour avoir visité la fin du SmartTag. |
+| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur pour visiter le début du SmartTag. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire les nœuds. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit un support pour chaque itération de style sur les nœuds enfants de ce nœud. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Supprime le nœud enfant spécifié. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout`SmartTag`nœuds descendants du nœud actuel. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Supprime le nœud enfant spécifié. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout`SmartTag` nœuds descendants du nœud actuel. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Sélectionne le premier[`Node`](../../aspose.words/node/) qui correspond à l'expression XPath. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
-Les balises intelligentes sont une sorte de balisage XML personnalisé. Les balises intelligentes offrent une possibilité d'intégrer la sémantique définie par le client dans le document via la possibilité de fournir un espace de noms/nom de base pour une exécution ou un ensemble d'exécutions dans un document.
+Les balises intelligentes sont un type de balisage XML personnalisé. Elles permettent d'intégrer une sémantique définie par le client dans le document grâce à la possibilité de fournir un espace de noms de base/nom pour une exécution ou un ensemble d'exécutions au sein d'un document.
 
-`SmartTag` peut être l'enfant d'un[`Paragraph`](../../aspose.words/paragraph/) ou un autre`SmartTag` nœud.
+`SmartTag` peut être un enfant d'un[`Paragraph`](../../aspose.words/paragraph/) ou un autre`SmartTag` nœud.
 
-La liste complète des nœuds enfants pouvant apparaître à l'intérieur d'une balise active comprend [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
+La liste complète des nœuds enfants qui peuvent apparaître à l'intérieur d'une balise intelligente se compose de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ## Exemples
 
@@ -91,29 +93,29 @@ public void Create()
     Document doc = new Document();
 
     // Une balise active apparaît dans un document avec Microsoft Word qui reconnaît une partie de son texte comme une forme de données,
-    // tel qu'un nom, une date ou une adresse, et le convertit en un lien hypertexte affichant un soulignement en pointillés violets.
+    // comme un nom, une date ou une adresse, et le convertit en un lien hypertexte qui affiche un soulignement en pointillé violet.
     SmartTag smartTag = new SmartTag(doc);
 
     // Les balises intelligentes sont des nœuds composites qui contiennent leur texte reconnu dans son intégralité.
-    // Ajoutez manuellement du contenu à cette balise active.
+    // Ajoutez manuellement du contenu à cette balise intelligente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word peut reconnaître le contenu ci-dessus comme étant une date.
-    // Les balises intelligentes utilisent la propriété "Element" pour refléter le type de données qu'elles contiennent.
+    // Les balises intelligentes utilisent la propriété « Élément » pour refléter le type de données qu'elles contiennent.
     smartTag.Element = "date";
 
-    // Certains types de balises actives traitent davantage leur contenu dans des propriétés XML personnalisées.
+    // Certains types de balises intelligentes traitent ensuite leur contenu dans des propriétés XML personnalisées.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Définit l'URI de la balise intelligente sur la valeur par défaut.
+    // Définissez l'URI de la balise intelligente sur la valeur par défaut.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Créez une autre balise intelligente pour un téléscripteur boursier.
+    // Créez une autre balise intelligente pour un symbole boursier.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -123,13 +125,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
+    // Imprimez toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
     doc.Accept(new SmartTagPrinter());
 
-    // Les anciennes versions de Microsoft Word prennent en charge les balises actives.
+    // Les anciennes versions de Microsoft Word prennent en charge les balises intelligentes.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilisez la méthode "RemoveSmartTags" pour supprimer toutes les balises intelligentes d'un document.
+    // Utilisez la méthode « RemoveSmartTags » pour supprimer toutes les balises intelligentes d'un document.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();

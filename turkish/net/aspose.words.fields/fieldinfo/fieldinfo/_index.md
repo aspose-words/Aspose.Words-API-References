@@ -2,8 +2,8 @@
 title: FieldInfo
 linktitle: FieldInfo
 articleTitle: FieldInfo
-second_title: Aspose.Words for .NET
-description: FieldInfo inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Programlamada verimli veri işleme için başvuracağınız çözüm olan FieldInfo oluşturucusunu keşfedin. Varsayılan oluşturucumuzla kodunuzu basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldinfo/fieldinfo/

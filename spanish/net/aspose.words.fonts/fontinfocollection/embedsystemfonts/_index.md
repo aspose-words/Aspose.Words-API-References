@@ -3,16 +3,16 @@ title: FontInfoCollection.EmbedSystemFonts
 linktitle: EmbedSystemFonts
 articleTitle: EmbedSystemFonts
 second_title: Aspose.Words para .NET
-description: FontInfoCollection EmbedSystemFonts propiedad. Especifica si se incrustan o no fuentes del sistema en el documento. El valor predeterminado para esta propiedad esFALSO en C#.
+description: Descubra cómo la propiedad FontInfoCollection EmbedSystemFonts mejora sus documentos al incrustar fuentes del sistema. ¡Conozca su valor predeterminado y sus ventajas!
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Especifica si se incrustan o no fuentes del sistema en el documento. El valor predeterminado para esta propiedad es`FALSO`.
+Especifica si se deben incrustar o no fuentes del sistema en el documento. El valor predeterminado para esta propiedad es`FALSO`.
 
-Esta opción funciona sólo cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) La opción está configurada en`verdadero`.
+Esta opción sólo funciona cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) La opción está establecida en`verdadero`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -20,9 +20,9 @@ public bool EmbedSystemFonts { get; set; }
 
 ## Observaciones
 
-Establecer esta propiedad en`verdadero`es útil si el usuario está en un sistema del este de Asia y desea crear un documento que sea legible por otras personas que no tienen fuentes para ese idioma en su sistema. Por ejemplo, un usuario de un sistema japonés podría optar por incrustar las fuentes en un documento para que el documento japonés sea legible en todos los sistemas.
+Establecer esta propiedad en`verdadero` Es útil si el usuario utiliza un sistema de Asia Oriental y desea crear un documento legible para quienes no tienen fuentes para ese idioma en su sistema. Por ejemplo, un usuario de un sistema japonés podría optar por incrustar las fuentes en un documento para que este sea legible en todos los sistemas.
 
-Esta opción sólo funciona con formatos DOC, DOCX y RTF.
+Esta opción funciona solo para formatos DOC, DOCX y RTF.
 
 ## Ejemplos
 
@@ -37,11 +37,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Ver también

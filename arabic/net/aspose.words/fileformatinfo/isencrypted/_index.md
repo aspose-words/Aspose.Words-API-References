@@ -3,14 +3,14 @@ title: FileFormatInfo.IsEncrypted
 linktitle: IsEncrypted
 articleTitle: IsEncrypted
 second_title: Aspose.Words لـ .NET
-description: FileFormatInfo IsEncrypted ملكية. إرجاعحقيقي إذا كان المستند مشفرًا ويتطلب كلمة مرور لفتحه في C#.
+description: اكتشف ما إذا كانت مستندك آمنة باستخدام خاصية FileFormatInfo IsEncrypted—ترجع القيمة true للملفات المشفرة التي تحتاج إلى كلمة مرور للوصول إليها.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-إرجاع`حقيقي` إذا كان المستند مشفرًا ويتطلب كلمة مرور لفتحه.
+إرجاع`حقيقي` إذا تم تشفير المستند ويتطلب كلمة مرور لفتحه.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -18,23 +18,23 @@ public bool IsEncrypted { get; }
 
 ## ملاحظات
 
-توجد هذه الخاصية لمساعدتك في فرز المستندات المشفرة عن تلك غير المشفرة. إذا حاولت تحميل مستند مشفر باستخدام Aspose.Words دون توفير كلمة مرور، فسيتم طرح استثناء . يمكنك استخدام هذه الخاصية لاكتشاف ما إذا كان المستند يتطلب كلمة مرور واتخاذ بعض الإجراءات قبل تحميل مستند، على سبيل المثال، مطالبة المستخدم بإدخال كلمة مرور.
+هذه الخاصية موجودة لمساعدتك على فرز المستندات المشفرة عن غير المشفرة. إذا حاولت تحميل مستند مشفر باستخدام Aspose.Words دون إدخال كلمة مرور، فسيتم طرح استثناء . يمكنك استخدام هذه الخاصية لمعرفة ما إذا كان المستند يتطلب كلمة مرور واتخاذ إجراء قبل تحميله، على سبيل المثال، مطالبة المستخدم بإدخال كلمة مرور.
 
 ## أمثلة
 
-يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
+يوضح كيفية استخدام فئة FileFormatUtil لاكتشاف تنسيق المستند والتشفير.
 
 ```csharp
 Document doc = new Document();
 
-// قم بتكوين كائن SaveOptions لتشفير المستند
-// بكلمة مرور عندما نحفظها، ثم نحفظ المستند.
+// تكوين كائن SaveOptions لتشفير المستند
+// بكلمة مرور عندما نحفظه، ثم نحفظ المستند.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// تحقق من نوع ملف وثيقتنا وحالة التشفير الخاصة به.
+// التحقق من نوع الملف الخاص بمستندنا وحالة تشفيره.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));

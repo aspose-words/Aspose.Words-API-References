@@ -3,16 +3,16 @@ title: LayoutOptions Class
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutOptions clase. Contiene las opciones que permiten controlar el proceso de diseño del documento en C#.
+description: Descubra Aspose.Words.Layout.LayoutOptions para optimizar el control del diseño del documento y mejorar su experiencia de procesamiento de textos con opciones de personalización flexibles.
 type: docs
-weight: 3350
+weight: 3800
 url: /es/net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
 
 Contiene las opciones que permiten controlar el proceso de diseño del documento.
 
-Para obtener más información, visite el[Conversión a formato de página fija](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) artículo de documentación.
+Para obtener más información, visite el[Conversión a formato de página fija](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) Artículo de documentación.
 
 ```csharp
 public class LayoutOptions
@@ -28,21 +28,21 @@ public class LayoutOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Obtiene o establece[`IPageLayoutCallback`](../ipagelayoutcallback/) implementación utilizada por el modelo de diseño de página. |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Obtiene o establece[`IPageLayoutCallback`](../ipagelayoutcallback/) Implementación utilizada por el modelo de diseño de página. |
 | [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Obtiene o establece la forma en que se representan los comentarios. El valor predeterminado esShowInBalloons . |
 | [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Obtiene o establece el modo de comportamiento para calcular los números de página cuando una sección continua reinicia la numeración de páginas. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Obtiene o establece una indicación de si se ignora la opción de compatibilidad "Usar métricas de impresora para diseñar el documento". El valor predeterminado es`verdadero` . |
-| [KeepOriginalFontMetrics](../../aspose.words.layout/layoutoptions/keeporiginalfontmetrics/) { get; set; } | Obtiene o establece una indicación de si las métricas de fuente originales deben usarse después de la sustitución de fuentes. El valor predeterminado es`verdadero` . |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Obtiene o establece la indicación de si se ignora la opción de compatibilidad "Usar métricas de impresora para diseñar el documento". El valor predeterminado es`verdadero` . |
+| [KeepOriginalFontMetrics](../../aspose.words.layout/layoutoptions/keeporiginalfontmetrics/) { get; set; } | Obtiene o establece una indicación de si se deben utilizar las métricas de fuente originales después de la sustitución de la fuente. El valor predeterminado es`verdadero` . |
 | [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Obtiene opciones de revisión. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Obtiene o establece una indicación de si se representa el texto oculto en el documento. El valor predeterminado es`FALSO` . |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Obtiene o establece una indicación de si se representan las marcas de párrafo. El valor predeterminado es`FALSO` . |
-| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Obtiene o establece[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementación utilizada para funciones de representación de tipografía avanzada. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Obtiene o establece la indicación de si se representa el texto oculto en el documento. El valor predeterminado es`FALSO` . |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Obtiene o establece la indicación de si se representan las marcas de párrafo. El valor predeterminado es`FALSO` . |
+| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Obtiene o establece[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) Implementación utilizada para funciones de representación de tipografía avanzada. |
 
 ## Observaciones
 
-No crea instancias de esta clase directamente. Utilizar el[`LayoutOptions`](../../aspose.words/document/layoutoptions/) propiedad para acceder a las opciones de diseño de este documento.
+No se crean instancias de esta clase directamente. Utilice el[`LayoutOptions`](../../aspose.words/document/layoutoptions/) propiedad para acceder a las opciones de diseño para este documento.
 
-Tenga en cuenta que después de cambiar cualquiera de las opciones presentes en esta clase,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Se debe llamar a método para que las opciones modificadas se apliquen al diseño.
+Tenga en cuenta que después de cambiar cualquiera de las opciones presentes en esta clase,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Se debe llamar al método para que las opciones modificadas se apliquen al diseño.
 
 ## Ejemplos
 
@@ -51,7 +51,7 @@ Muestra cómo ocultar texto en un documento de salida renderizado.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Inserta texto oculto, luego especifica si deseamos omitirlo en un documento renderizado.
+// Inserte texto oculto y luego especifique si deseamos omitirlo del documento renderizado.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");
@@ -66,7 +66,7 @@ Muestra cómo mostrar marcas de párrafo en un documento de salida renderizado.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Agrega algunos párrafos, luego habilita las marcas de párrafo para mostrar los finales de los párrafos
+// Agregue algunos párrafos y luego habilite las marcas de párrafo para mostrar los finales de los párrafos
 // con un símbolo pilcrow (¶) cuando renderizamos el documento.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
@@ -82,18 +82,19 @@ Muestra cómo alterar la apariencia de las revisiones en un documento de salida 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una revisión, luego cambia el color de todas las revisiones a verde.
+// Inserte una revisión, luego cambie el color de todas las revisiones a verde.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Elimina la barra que aparece a la izquierda de cada línea revisada.
+//Elimina la barra que aparece a la izquierda de cada línea revisada.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Ver también

@@ -3,9 +3,9 @@ title: CompositeNode.GetChild
 linktitle: GetChild
 articleTitle: GetChild
 second_title: Aspose.Words für .NET
-description: CompositeNode GetChild methode. Gibt einen Nten untergeordneten Knoten zurück der dem angegebenen Typ entspricht in C#.
+description: Entdecken Sie die CompositeNode GetChild-Methode, um einfach den N-ten untergeordneten Knoten eines bestimmten Typs abzurufen und so die Effizienz Ihrer Datenverwaltung zu steigern.
 type: docs
-weight: 80
+weight: 100
 url: /de/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -19,22 +19,22 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | nodeType | NodeType | Gibt den Typ des untergeordneten Knotens an. |
-| index | Int32 | Nullbasierter Index des auszuwählenden untergeordneten Knotens. Negative Indizes sind ebenfalls zulässig und zeigen den Zugriff vom Ende an. , d. h. -1 bedeutet den letzten Knoten. |
-| isDeep | Boolean | `WAHR` um rekursiv aus allen untergeordneten Knoten auszuwählen; `FALSCH`nur unter unmittelbaren Kindern auszuwählen. Weitere Informationen finden Sie in den Anmerkungen. |
+| index | Int32 | Nullbasierter Index des auszuwählenden untergeordneten Knotens. Negative Indizes sind ebenfalls zulässig und zeigen den Zugriff vom Ende an, d. h. -1 bedeutet den letzten Knoten. |
+| isDeep | Boolean | `WAHR` um rekursiv aus allen untergeordneten Knoten auszuwählen; `FALSCH` um nur unter unmittelbaren Kindern auszuwählen. Weitere Informationen finden Sie in den Anmerkungen. |
 
 ### Rückgabewert
 
-Der untergeordnete Knoten, der den Kriterien entspricht oder`Null` wenn kein passender Knoten gefunden wird.
+Der untergeordnete Knoten, der den Kriterien entspricht oder`null` wenn kein passender Knoten gefunden wird.
 
 ## Bemerkungen
 
-Wenn der Index außerhalb des Bereichs liegt, a`Null` ist zurück gekommen.
+Wenn der Index außerhalb des Bereichs liegt,`null` wird zurückgegeben.
 
-Beachten Sie, dass Markup-Knoten (StructuredDocumentTag UndSmartTag ) werden auch dann durchlaufen, wenn*isDeep* =`FALSCH` Und`GetChild` wird für Nicht-Markup-Knotentypen aufgerufen. Wenn beispielsweise der erste Lauf in einem para in einen eingeschlossen ist[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , es wird trotzdem von zurückgegeben`GetChild`(Run , 0,`FALSCH`).
+Beachten Sie, dass Markup-Knoten (StructuredDocumentTag UndSmartTag ) werden durchlaufen, auch wenn*isDeep* =`FALSCH` Und`GetChild` wird für Nicht-Markup-Knotentypen aufgerufen. Wenn beispielsweise der erste Lauf in einem para in einen[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , es wird immer noch zurückgegeben durch`GetChild`(Run , 0,`FALSCH`).
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften eines Tabellenstils direkt auf die Elemente der Tabelle angewendet werden.
+Zeigt, wie die Eigenschaften des Stils einer Tabelle direkt auf die Elemente der Tabelle angewendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -72,15 +72,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
+// Durchlaufen Sie die Sammlung der unmittelbar untergeordneten Elemente des Absatzes.
+// und drucke alle Läufe oder Formen aus, die wir darin finden.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

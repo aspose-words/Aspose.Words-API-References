@@ -3,7 +3,7 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words para .NET
-description: Chart Axes propiedad. Obtiene una colección de todos los ejes de este gráfico en C#.
+description: Descubra la propiedad Ejes del gráfico para acceder fácilmente a todos los ejes. Mejore la visualización de datos con una gestión integral de ejes.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chart/axes/
@@ -25,9 +25,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Ocultar las líneas principales de la cuadrícula en los ejes Y primario y secundario.
+// Ocultar las líneas de cuadrícula principales en los ejes Y primario y secundario.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

@@ -2,15 +2,15 @@
 title: PdfEncryptionDetails Class
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.PdfEncryptionDetails 班级. 包含 PDF 文档的加密和访问权限的详细信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.PdfEncryptionDetails 以实现安全的 PDF 加密和可自定义的访问权限，确保您的文档受到保护。
 type: docs
-weight: 5460
+weight: 6250
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
-包含 PDF 文档的加密和访问权限的详细信息。
+包含 PDF 文档加密和访问权限的详细信息。
 
 要了解更多信息，请访问[保护或加密文档](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/)文档文章。
 
@@ -22,8 +22,8 @@ public class PdfEncryptionDetails
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | 初始化此类的实例。 |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | 初始化此类的实例。 |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | 初始化此类的一个实例。 |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | 初始化此类的一个实例。 |
 
 ## 特性
 
@@ -35,7 +35,7 @@ public class PdfEncryptionDetails
 
 ## 例子
 
-演示如何设置已保存 PDF 文档的权限。
+展示如何设置已保存的 PDF 文档的权限。
 
 ```csharp
 Document doc = new Document();

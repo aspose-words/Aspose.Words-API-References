@@ -3,14 +3,14 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words لـ .NET
-description: Shading Texture ملكية. الحصول على نسيج التظليل أو تعيينه في C#.
+description: اكتشف خاصية "نسيج التظليل" لتحسين تصميماتك. خصّص وعيّن القوام بسهولة للحصول على تأثيرات بصرية مذهلة في مشاريعك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
 
-الحصول على نسيج التظليل أو تعيينه.
+يحصل على نسيج التظليل أو يعينه.
 
 ```csharp
 public TextureIndex Texture { get; set; }
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();

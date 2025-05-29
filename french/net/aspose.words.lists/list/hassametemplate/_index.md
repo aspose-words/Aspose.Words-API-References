@@ -3,7 +3,7 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words pour .NET
-description: List HasSameTemplate méthode. Renvoie vrai si la liste actuelle et la liste donnée sont créées à partir du même modèle en C#.
+description: Découvrez la méthode HasSameTemplate, vérifiez facilement si deux listes partagent le même modèle, garantissant cohérence et efficacité dans votre gestion des données.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.lists/list/hassametemplate/

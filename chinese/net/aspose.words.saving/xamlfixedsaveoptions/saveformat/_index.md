@@ -2,15 +2,15 @@
 title: XamlFixedSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: XamlFixedSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是XamlFixed 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 XamlFixedSaveOptions SaveFormat 属性，轻松以 XamlFixed 格式保存文档，确保最佳质量和兼容性。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
 ---
 ## XamlFixedSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时保存文档的格式。 只能是XamlFixed.
+指定如果使用此保存选项对象，文档将以哪种格式保存。 只能是XamlFixed.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## 例子
 
-演示如何打印在将文档转换为固定格式 .xaml 时创建的链接资源的 URI。
+展示如何打印在将文档转换为固定格式的 .xaml 时创建的链接资源的 URI。
 
 ```csharp
 public void ResourceFolder()
@@ -32,17 +32,17 @@ public void ResourceFolder()
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
-    // 使用“ResourcesFolder”属性在本地文件系统中分配一个文件夹
-    // Aspose.Words 将保存所有文档的链接资源，例如图像和字体。
+    // 使用“ResourcesFolder”属性在本地文件系统中分配一个文件夹，
+    // Aspose.Words 将保存文档的所有链接资源，例如图像和字体。
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
     // 使用“ResourcesFolderAlias”属性来使用此文件夹
-    // 当构造图像 URI 而不是资源文件夹的名称时。
+    // 构建图像 URI 而不是资源文件夹的名称时。
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
-    // 由“ResourcesFolderAlias”指定的文件夹需要包含资源，而不是“ResourcesFolder”。
+    // 由“ResourcesFolderAlias”指定的文件夹将需要包含资源，而不是“ResourcesFolder”。
     // 我们必须确保该文件夹存在，然后回调的流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -53,7 +53,7 @@ public void ResourceFolder()
 }
 
 /// <summary>
-/// 计算并打印转换为固定 .xaml 期间创建的资源的 URI。
+/// 计算并打印在转换为固定 .xaml 期间创建的资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

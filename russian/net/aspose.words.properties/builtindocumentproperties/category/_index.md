@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Category
 linktitle: Category
 articleTitle: Category
 second_title: Aspose.Words для .NET
-description: BuiltInDocumentProperties Category свойство. Получает или задает категорию документа на С#.
+description: Управляйте категорией документа без усилий с BuiltInDocumentProperties. Легко настраивайте и улучшайте организацию документа для улучшения рабочего процесса.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.properties/builtindocumentproperties/category/
 ---
 ## BuiltInDocumentProperties.Category property
 
-Получает или задает категорию документа.
+Возвращает или задает категорию документа.
 
 ```csharp
 public string Category { get; set; }
@@ -25,36 +25,36 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Ниже приведены четыре встроенных свойства документа, у которых есть поля, которые могут отображать свои значения в теле документа.
-// 1 - свойство "Автор", которое мы можем отобразить с помощью поля AUTHOR:
+// Ниже приведены четыре встроенных свойства документа, имеющие поля, значения которых могут отображаться в теле документа.
+// 1 - свойство «Автор», которое мы можем отобразить с помощью поля AUTHOR:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - свойство "Название", которое мы можем отобразить с помощью поля TITLE:
+// 2 - Свойство "Title", которое мы можем отобразить с помощью поля TITLE:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - свойство «Тема», которое мы можем отобразить с помощью поля ТЕМА:
+// 3 - Свойство «Тема», которое мы можем отобразить с помощью поля SUBJECT:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 - свойство "Комментарии", которое мы можем отобразить с помощью поля КОММЕНТАРИИ:
+// 4 - Свойство "Комментарии", которое мы можем отобразить с помощью поля КОММЕНТАРИИ:
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// Встроенное свойство «Категория» не имеет поля, в котором можно отображать его значение.
+// Встроенное свойство «Категория» не имеет поля, в котором можно отобразить его значение.
 properties.Category = "My category";
 
-// Мы можем установить несколько ключевых слов для документа, разделив строковое значение свойства «Ключевые слова» точкой с запятой.
+// Мы можем задать несколько ключевых слов для документа, разделив строковое значение свойства «Ключевые слова» точками с запятой.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти эти свойства в «Свойствах» -> gt; "Подробности".
-// Встроенное свойство «Автор» находится в группе «Происхождение», остальные — в группе «Описание».
+// Мы можем щелкнуть правой кнопкой мыши по этому документу в проводнике Windows и найти эти свойства в разделе «Свойства» -> «Подробности».
+// Встроенное свойство «Автор» находится в группе «Происхождение», а остальные — в группе «Описание».
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

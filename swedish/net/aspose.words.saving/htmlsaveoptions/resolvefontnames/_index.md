@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResolveFontNames
 linktitle: ResolveFontNames
 articleTitle: ResolveFontNames
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ResolveFontNames fast egendom. Anger om teckensnittsfamiljnamn som används i dokumentet löses och ersätts enligt FontSettings när de skrivs i HTMLbaserade format i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ResolveFontNames förbättrar dokumentformatering genom att säkerställa korrekta teckensnittsersättningar i HTML-utdata.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Anger om teckensnittsfamiljnamn som används i dokumentet löses och ersätts enligt [`FontSettings`](../../../aspose.words/document/fontsettings/) när de skrivs i HTML-baserade format.
+Anger om teckensnittsfamiljenamn som används i dokumentet är upplösta och ersatta enligt [`FontSettings`](../../../aspose.words/document/fontsettings/) när det skrivs till HTML-baserade format.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -18,22 +18,22 @@ public bool ResolveFontNames { get; set; }
 
 ## Anmärkningar
 
-Som standard är det här alternativet inställt på`falsk` och teckensnittsfamiljnamn skrivs till HTML som specificerat i källdokument. Det är,[`FontSettings`](../../../aspose.words/document/fontsettings/) ignoreras och ingen upplösning eller substitution av teckensnittsfamiljenamn utförs.
+Som standard är det här alternativet inställt på`falsk` och teckensnittsfamiljenamn skrivs till HTML enligt specifikationerna i källdokumenten. Det vill säga,[`FontSettings`](../../../aspose.words/document/fontsettings/) ignoreras och ingen upplösning eller substitution av teckensnittsfamiljenamn utförs.
 
-Om det här alternativet är inställt på`Sann` , Aspose.Words använder[`FontSettings`](../../../aspose.words/document/fontsettings/) att lösa varje teckensnittsfamiljsnamn som anges i ett källdokument till namnet på en tillgänglig teckensnittsfamilj, genom att utföra teckensnittsersättning efter behov.
+Om det här alternativet är inställt på`sann` , Aspose.Words använder[`FontSettings`](../../../aspose.words/document/fontsettings/) för att omvandla varje teckensnittsfamiljnamn som anges i ett källdokument till namnet på en tillgänglig teckensnittsfamilj, och utföra teckensnittsersättning efter behov.
 
 ## Exempel
 
-Visar hur du löser alla teckensnittsnamn innan du skriver dem till HTML.
+Visar hur man löser alla typsnittsnamn innan man skriver dem till HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Missing font.docx");
 
-// Det här dokumentet innehåller text som namnger ett teckensnitt som vi inte har.
+// Det här dokumentet innehåller text som namnger ett typsnitt som vi inte har.
 Assert.NotNull(doc.FontInfos["28 Days Later"]);
 
-// Om vi inte har något sätt att få det här typsnittet, och vi vill kunna visa all text
-// i det här dokumentet i en utdata-HTML kan vi ersätta det med ett annat typsnitt.
+// Om vi inte har något sätt att få tag på det här teckensnittet, och vi vill kunna visa all text
+// i det här dokumentet i en utdata-HTML kan vi ersätta det med ett annat teckensnitt.
 FontSettings fontSettings = new FontSettings
 {
     SubstitutionSettings =
@@ -50,7 +50,7 @@ doc.FontSettings = fontSettings;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 {
-    // Som standard är det här alternativet inställt på 'False' och Aspose.Words skriver teckensnittsnamn som anges i källdokumentet
+    // Som standard är det här alternativet inställt på 'False' och Aspose.Words skriver teckensnittsnamn som anges i källdokumentet.
     ResolveFontNames = resolveFontNames
 };
 

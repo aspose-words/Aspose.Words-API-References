@@ -2,10 +2,10 @@
 title: Chart.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: 用于 .NET 的 Aspose.Words
-description: Chart SourceFullName 财产. 获取此图表链接到的 xls/xlsx 文件的路径和名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Chart SourceFullName 属性，轻松访问链接的 XLS/XLSX 文件的路径和名称，以增强数据可视化。
 type: docs
-weight: 70
+weight: 100
 url: /zh/net/aspose.words.drawing.charts/chart/sourcefullname/
 ---
 ## Chart.SourceFullName property
@@ -18,7 +18,7 @@ public string SourceFullName { get; set; }
 
 ## 例子
 
-显示如何获取/设置外部 xls/xlsx 文档的全名（如果图表已链接）。
+显示如何在图表链接的情况下获取/设置外部 xls/xlsx 文档的全名。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
@@ -27,9 +27,6 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 var sourceFullName = shape.Chart.SourceFullName;
 Assert.True(sourceFullName.Contains("Examples\\Data\\Spreadsheet.xlsx"));
-
-sourceFullName = "D:\\Documents\\ChartData.xlsx";
-Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringComparison.Ordinal));
 ```
 
 ### 也可以看看

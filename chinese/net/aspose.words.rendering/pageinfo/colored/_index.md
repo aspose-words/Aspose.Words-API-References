@@ -2,8 +2,8 @@
 title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
-second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo Colored 财产. 返回真的如果页面包含彩色内容 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 PageInfo Colored 属性，探索您的页面是否包含鲜艳的彩色内容。增强用户参与度并提升视觉吸引力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/pageinfo/colored/
@@ -18,12 +18,12 @@ public bool Colored { get; }
 
 ## 例子
 
-演示如何检查页面是否为彩色。
+显示如何检查页面是否为彩色。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// 检查文档的第一页是否未着色。
+// 检查文档的第一页是否没有彩色。
 Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ```
 

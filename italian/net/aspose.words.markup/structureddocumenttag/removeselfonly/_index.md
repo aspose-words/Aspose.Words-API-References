@@ -3,14 +3,14 @@ title: StructuredDocumentTag.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTag RemoveSelfOnly metodo. Rimuove solo questo nodo SDT stesso ma ne mantiene il contenuto allinterno dellalbero del documento in C#.
+description: Scopri il metodo RemoveSelfOnly di StructuredDocumentTag per eliminare facilmente un nodo SDT preservandone il contenuto nel documento. Migliora la tua efficienza di editing!
 type: docs
-weight: 350
+weight: 370
 url: /it/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
 
-Rimuove solo questo nodo SDT stesso, ma ne mantiene il contenuto all'interno dell'albero del documento.
+Rimuove solo questo nodo SDT, ma ne mantiene il contenuto all'interno dell'albero del documento.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -18,53 +18,53 @@ public void RemoveSelfOnly()
 
 ## Esempi
 
-Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
+Mostra come creare un tag di documento strutturato in una casella di testo normale e modificarne l'aspetto.
 
 ```csharp
 Document doc = new Document();
 
-// Crea un tag di documento strutturato che conterrà testo semplice.
+// Crea un tag di documento strutturato che conterrà testo normale.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Imposta il titolo e il colore della cornice che appare quando passi il mouse sul tag del documento strutturato in Microsoft Word.
+// Imposta il titolo e il colore della cornice che appare quando passi il mouse sopra il tag del documento strutturato in Microsoft Word.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// Imposta un tag per questo tag di documento strutturato, che è ottenibile
-// come elemento XML denominato "tag", con la stringa seguente nel suo attributo "@val".
+// Imposta un tag per questo tag del documento strutturato, che è ottenibile
+// come un elemento XML denominato "tag", con la stringa sottostante nel suo attributo "@val".
 tag.Tag = "MyPlainTextSDT";
 
 // Ogni tag di documento strutturato ha un ID univoco casuale.
-Assert.That(tag.Id, Is.Positive);
+Assert.IsTrue(tag.Id > 0);
 
-// Imposta il carattere per il testo all'interno del tag del documento strutturato.
+// Imposta il font per il testo all'interno del tag del documento strutturato.
 tag.ContentsFont.Name = "Arial";
 
-// Imposta il carattere per il testo alla fine del tag del documento strutturato.
-// Qualsiasi testo digitato nel corpo del documento dopo essere usciti dal tag con i tasti freccia utilizzerà questo carattere.
+// Imposta il font per il testo alla fine del tag del documento strutturato.
+// Qualsiasi testo digitato nel corpo del documento dopo essere usciti dal tag con i tasti freccia utilizzerà questo font.
 tag.EndCharacterFont.Name = "Arial Black";
 
-// Per impostazione predefinita, questo è falso e premere Invio all'interno di un tag di documento strutturato non fa nulla.
-// Se impostato su true, il tag del nostro documento strutturato può avere più righe.
+// Per impostazione predefinita, questo valore è falso e premendo Invio mentre ci si trova all'interno di un tag di documento strutturato non accade nulla.
+// Se impostato su true, il tag del documento strutturato può contenere più righe.
 
 // Imposta la proprietà "Multiline" su "false" per consentire solo il contenuto
-// di questo tag di documento strutturato su una singola riga.
-// Imposta la proprietà "Multiline" su "true" per consentire al tag di contenere più righe di contenuto.
+// di questo tag di documento strutturato in modo che si estenda su una singola riga.
+// Impostare la proprietà "Multiline" su "true" per consentire al tag di contenere più righe di contenuto.
 tag.Multiline = true;
 
-// Imposta la proprietà "Appearance" su "SdtAppearance.Tags" per mostrare i tag attorno al contenuto.
+// Imposta la proprietà "Aspetto" su "SdtAppearance.Tags" per mostrare i tag attorno al contenuto.
  // Per impostazione predefinita, il tag del documento strutturato viene visualizzato come BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(tag);
 
-// Inserisci un clone del nostro tag di documento strutturato in un nuovo paragrafo.
+// Inseriamo un clone del nostro tag documento strutturato in un nuovo paragrafo.
 StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Utilizza il metodo "RemoveSelfOnly" per rimuovere un tag di documento strutturato, mantenendone il contenuto nel documento.
+// Utilizzare il metodo "RemoveSelfOnly" per rimuovere un tag di documento strutturato, mantenendone il contenuto nel documento.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

@@ -3,14 +3,14 @@ title: BarcodeParameters.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words لـ .NET
-description: BarcodeParameters SymbolHeight ملكية. ارتفاع صورة الرمز الشريطي بمرتين  1/1440 بوصة في C#.
+description: اكتشف خاصية BarcodeParameters SymbolHeight لضبط ارتفاع صورة الباركود بسهولة بالتويب (1/1440 بوصة) للحصول على أداء مسح ضوئي مثالي.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/barcodeparameters/symbolheight/
 ---
 ## BarcodeParameters.SymbolHeight property
 
-ارتفاع صورة الرمز الشريطي (بمرتين - 1/1440 بوصة)
+ارتفاع صورة الرمز الشريطي (بالتويب - 1/1440 بوصة)
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -23,12 +23,12 @@ public string SymbolHeight { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// يمكننا استخدام تطبيق IBarcodeGenerator مخصص لإنشاء الرموز الشريطية،
-// ثم قم بإدراجها في المستند كصور.
+// يمكننا استخدام تنفيذ IBarcodeGenerator مخصص لتوليد الرموز الشريطية،
+//ثم قم بإدراجها في المستند كصور.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// فيما يلي أربعة أمثلة لأنواع مختلفة من الباركود التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
-// لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
+// فيما يلي أربعة أمثلة لأنواع مختلفة من الرموز الشريطية التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
+// بالنسبة لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
 // بعد ذلك، يمكننا إدراج الصورة في المستند، أو حفظها في نظام الملفات المحلي.
 // 1 - رمز الاستجابة السريعة:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -44,11 +44,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - الرمز الشريطي EAN13:
+// 2 - رمز الباركود EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - الرمز الشريطي CODE39:
@@ -71,10 +84,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - الباركود ITF14:
+// 4 - رمز الباركود ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

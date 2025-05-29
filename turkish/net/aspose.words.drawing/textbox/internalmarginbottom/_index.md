@@ -2,15 +2,15 @@
 title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
-second_title: Aspose.Words for .NET
-description: TextBox InternalMarginBottom mülk. Şeklin iç alt kenar boşluğunu nokta cinsinden belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım hassasiyeti için şeklinizin iç alt kenar boşluğunu noktalarla özelleştirmek üzere TextBox InternalMarginBottom özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-Şeklin iç alt kenar boşluğunu nokta cinsinden belirtir.
+Bir şekil için iç alt kenar boşluğunu noktalarla belirtir.
 
 ```csharp
 public double InternalMarginBottom { get; set; }
@@ -28,7 +28,7 @@ Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını göst
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belirli kenar boşluklarına sahip başka bir metin kutusu ekleyin.
+// Belirli kenar boşluklarına sahip başka bir metin kutusu ekle.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words لـ .NET
-description: HorizontalRuleFormat Height ملكية. الحصول على أو تحديد ارتفاع القاعدة الأفقية في C#.
+description: اضبط ارتفاع مسطرتك الأفقية بسهولة. استكشف خاصية الارتفاع لتصميم قابل للتخصيص في مشاريع الويب الخاصة بك. حسّن تصميمك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-الحصول على أو تحديد ارتفاع القاعدة الأفقية.
+يحصل على ارتفاع المسطرة الأفقية أو يعينه.
 
 ```csharp
 public double Height { get; set; }
@@ -20,19 +20,19 @@ public double Height { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الحجة خارج نطاق القيم الصالحة. |
 
 ## ملاحظات
 
-هذا اختصار لل[`Height`](../../shapebase/height/) ملكية.
+هذا اختصار لـ[`Height`](../../shapebase/height/) ملكية.
 
-تتراوح القيم الصالحة من 0 إلى 1584 ضمناً.
+تتراوح القيم الصالحة من 0 إلى 1584 شاملة.
 
 القيمة الافتراضية هي 1.5.
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

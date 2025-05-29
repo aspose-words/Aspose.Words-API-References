@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions ApplyFont ملكية. تطبيق تنسيق النص على المحتوى الجديد في C#.
+description: اكتشف خاصية ApplyFont في FindReplaceOptions لتنسيق نص سلس. حسّن محتواك بأنماط مُخصصة بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-تطبيق تنسيق النص على المحتوى الجديد.
+تم تطبيق تنسيق النص على المحتوى الجديد.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,9 +3,9 @@ title: ShapeBase.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words pour .NET
-description: ShapeBase Left propriété. Obtient ou définit la position du bord gauche du bloc contenant la forme en C#.
+description: Découvrez la propriété ShapeBase Left pour ajuster facilement la position du bord gauche de votre forme dans son conteneur. Améliorez la précision de vos créations dès aujourd'hui !
 type: docs
-weight: 370
+weight: 390
 url: /fr/net/aspose.words.drawing/shapebase/left/
 ---
 ## ShapeBase.Left property
@@ -18,9 +18,9 @@ public double Left { get; set; }
 
 ## Remarques
 
-Pour une forme de niveau supérieur, la valeur est en points et par rapport à l'ancre de la forme.
+Pour une forme de niveau supérieur, la valeur est en points et relative à l'ancre de forme.
 
-Pour les formes d'un groupe, la valeur se trouve dans l'espace de coordonnées et les unités du groupe parent.
+Pour les formes d'un groupe, la valeur est dans l'espace de coordonnées et les unités du groupe parent.
 
 La valeur par défaut est 0.
 
@@ -37,23 +37,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Configure la propriété "RelativeHorizontalPosition" de la forme pour traiter la valeur de la propriété "Left"
- // comme distance horizontale de la forme, en points, depuis le côté gauche de la page.
+// Configurez la propriété « RelativeHorizontalPosition » de la forme pour traiter la valeur de la propriété « Left »
+ // comme la distance horizontale de la forme, en points, à partir du côté gauche de la page.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Définit la distance horizontale de la forme depuis le côté gauche de la page sur 100.
+// Définissez la distance horizontale de la forme par rapport au côté gauche de la page sur 100.
 shape.Left = 100;
 
-// Utilisez la propriété "RelativeVerticalPosition" de la même manière pour positionner la forme 80 pt en dessous du haut de la page.
+// Utilisez la propriété « RelativeVerticalPosition » de manière similaire pour positionner la forme 80 pt sous le haut de la page.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Définit la hauteur de la forme, qui mettra automatiquement à l'échelle la largeur pour préserver les dimensions.
+// Définissez la hauteur de la forme, ce qui mettra automatiquement à l'échelle la largeur pour préserver les dimensions.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Les propriétés "Bottom" et "Right" contiennent les bords inférieur et droit de l'image.
+// Les propriétés « Bottom » et « Right » contiennent les bords inférieur et droit de l'image.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

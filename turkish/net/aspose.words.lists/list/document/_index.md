@@ -2,8 +2,8 @@
 title: List.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: List Document mülk. Sahip belgesini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge özelliklerini nasıl listeleyeceğinizi ve mülkiyet ayrıntılarına zahmetsizce nasıl erişeceğinizi keşfedin. Belge yönetimi potansiyelinizi bugün açığa çıkarın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/list/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Notlar
 
-Bir listenin her zaman bir ana belgesi vardır ve yalnızca o belgenin bağlamında geçerlidir.
+Bir listenin her zaman bir üst belgesi vardır ve yalnızca o belgenin bağlamında geçerlidir.
 
 ## Örnekler
 

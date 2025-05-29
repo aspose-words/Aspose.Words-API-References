@@ -3,7 +3,7 @@ title: Bookmark.BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words pour .NET
-description: Bookmark BookmarkStart propriété. Obtient le nœud qui représente le début du signet en C#.
+description: Découvrez la propriété BookmarkStart pour accéder facilement au nœud marquant le début de votre signet, améliorant ainsi la navigation et l'efficacité de votre projet.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmark/bookmarkstart/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,16 +3,16 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.BorderType перечисление. Определяет стороны границы на С#.
+description: Откройте для себя перечисление Aspose.Words.BorderType для настраиваемых параметров границ. Улучшите свои документы с помощью точного управления границами и стиля!
 type: docs
-weight: 100
+weight: 290
 url: /ru/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
-Определяет стороны границы.
+Указывает стороны границы.
 
-Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) документальная статья.
 
 ```csharp
 public enum BorderType
@@ -27,10 +27,10 @@ public enum BorderType
 | Left | `1` | Указывает левую границу абзаца или ячейки таблицы. |
 | Right | `2` | Указывает правую границу абзаца или ячейки таблицы. |
 | Top | `3` | Указывает верхнюю границу абзаца или ячейки таблицы. |
-| Horizontal | `4` | Указывает горизонтальную границу между ячейками таблицы или между соответствующими абзацами. |
-| Vertical | `5` | Определяет вертикальную границу между ячейками таблицы. |
-| DiagonalDown | `6` | Определяет диагональную границу ячейки таблицы. |
-| DiagonalUp | `7` | Определяет диагональную границу ячейки таблицы. |
+| Horizontal | `4` | Задает горизонтальную границу между ячейками в таблице или между соответствующими абзацами. |
+| Vertical | `5` | Задает вертикальную границу между ячейками в таблице. |
+| DiagonalDown | `6` | Задает диагональную границу в ячейке таблицы. |
+| DiagonalUp | `7` | Задает диагональную границу в ячейке таблицы. |
 
 ## Примеры
 
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Устанавливаем ThemeColor только в том случае, если установлены LineWidth или LineStyle.
+// Устанавливайте ThemeColor только при установке LineWidth или LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

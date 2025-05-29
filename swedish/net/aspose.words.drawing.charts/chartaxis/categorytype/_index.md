@@ -3,14 +3,14 @@ title: ChartAxis.CategoryType
 linktitle: CategoryType
 articleTitle: CategoryType
 second_title: Aspose.Words för .NET
-description: ChartAxis CategoryType fast egendom. Hämtar eller ställer in typ av kategoriaxel i C#.
+description: Upptäck egenskapen ChartAxis CategoryType för att enkelt anpassa din kategoriaxel för förbättrad datavisualisering och förbättrad diagramtydlighet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartaxis/categorytype/
 ---
 ## ChartAxis.CategoryType property
 
-Hämtar eller ställer in typ av kategoriaxel.
+Hämtar eller anger typ för kategoriaxeln.
 
 ```csharp
 public AxisCategoryType CategoryType { get; set; }
@@ -18,7 +18,7 @@ public AxisCategoryType CategoryType { get; set; }
 
 ## Anmärkningar
 
-Endast textkategorier (Category ) är tillåtna i MS Office 2016 nya diagram.
+Endast textkategorier (Category är tillåtna i MS Office 2016 nya diagram.
 
 ## Exempel
 
@@ -39,8 +39,8 @@ chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Diagramaxlar har olika alternativ som kan ändra utseende,
-// som t.ex. deras riktning, större/mindre enhetsmarkeringar och bockmarkeringar.
+// Diagramaxlar har olika alternativ som kan ändra deras utseende,
+// såsom deras riktning, större/mindre enhets tick och skalmtecken.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -49,10 +49,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -62,7 +64,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Kolumndiagram har ingen Z-axel.
 Assert.Null(chart.AxisZ);

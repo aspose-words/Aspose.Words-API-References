@@ -3,7 +3,7 @@ title: FieldTC
 linktitle: FieldTC
 articleTitle: FieldTC
 second_title: Aspose.Words för .NET
-description: FieldTC byggare. Default_Constructor i C#.
+description: Upptäck FieldTC-konstruktorn – din självklara lösning för sömlös integration och effektiv projektledning. Lås upp kraftfulla funktioner idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldtc/fieldtc/

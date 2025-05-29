@@ -3,16 +3,16 @@ title: EditableRange Class
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words för .NET
-description: Aspose.Words.EditableRange klass. Representerar ett enda redigerbart område i C#.
+description: Upptäck klassen Aspose.Words.EditableRange, din lösning för att enkelt hantera redigerbara textområden. Förbättra dokumentredigering med lätthet!
 type: docs
-weight: 1420
+weight: 1830
 url: /sv/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Representerar ett enda redigerbart område.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class EditableRange
@@ -22,9 +22,9 @@ public class EditableRange
 
 | namn | Beskrivning |
 | --- | --- |
-| [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend/) { get; } | Hämtar noden som representerar slutet av det redigerbara intervallet. |
+| [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend/) { get; } | Hämtar noden som representerar slutet av det redigerbara området. |
 | [EditableRangeStart](../../aspose.words/editablerange/editablerangestart/) { get; } | Hämtar noden som representerar början av det redigerbara området. |
-| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Returnerar eller ställer in ett alias (eller redigeringsgrupp) som ska användas för att avgöra om den aktuella användaren ska tillåtas redigera detta redigerbara intervall. |
+| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Returnerar eller anger ett alias (eller en redigeringsgrupp) som ska användas för att avgöra om den aktuella användaren ska ha tillstånd att redigera detta redigerbara område. |
 | [Id](../../aspose.words/editablerange/id/) { get; } | Hämtar den redigerbara intervallidentifieraren. |
 | [SingleUser](../../aspose.words/editablerange/singleuser/) { get; set; } | Returnerar eller ställer in den enskilda användaren för redigerbart område. |
 
@@ -32,11 +32,11 @@ public class EditableRange
 
 | namn | Beskrivning |
 | --- | --- |
-| [Remove](../../aspose.words/editablerange/remove/)() | Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara intervallet. |
+| [Remove](../../aspose.words/editablerange/remove/)() | Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara området. |
 
 ## Anmärkningar
 
-`EditableRange` är ett "fasad"-objekt som kapslar in två noder[`EditableRangeStart`](./editablerangestart/) och[`EditableRangeEnd`](./editablerangeend/) i ett dokumentträd och gör det möjligt att arbeta med ett redigerbart område som ett enda objekt.
+`EditableRange` är ett "fasadobjekt" som inkapslar två noder[`EditableRangeStart`](./editablerangestart/) och[`EditableRangeEnd`](./editablerangeend/) i ett dokumentträd och tillåter att arbeta med ett redigerbart område som ett enda objekt.
 
 ## Exempel
 
@@ -50,7 +50,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Redigerbara intervall tillåter oss att lämna delar av skyddade dokument öppna för redigering.
+// Redigerbara områden låter oss lämna delar av skyddade dokument öppna för redigering.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -62,7 +62,7 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Olika delar av det redigerbara intervallet länkar till varandra.
+// Olika delar av det redigerbara området länkar till varandra.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
@@ -77,11 +77,11 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Ta bort ett redigerbart område. Alla noder som fanns inom intervallet kommer att förbli intakta.
+// Ta bort ett redigerbart område. Alla noder som fanns inom området kommer att förbli intakta.
 editableRange.Remove();
 ```
 
-Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
+Visar hur man begränsar redigeringsrättigheterna för redigerbara områden till en specifik grupp/användare.
 
 ```csharp
 public void Visitor()
@@ -93,7 +93,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // När vi skrivskyddar dokument tillåter redigerbara intervall oss att välja specifika områden som användare kan redigera.
+    // När vi skrivskyddar dokument tillåter redigerbara områden oss att välja specifika områden som användare kan redigera.
     // Det finns två ömsesidigt uteslutande sätt att begränsa listan över tillåtna redigerare.
     // 1 - Ange en användare:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -113,7 +113,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Skriv ut detaljer och innehåll för varje redigerbart område i dokumentet.
+    // Skriv ut detaljer och innehåll för alla redigerbara områden i dokumentet.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Samlar egenskaper och innehåll för besökta redigerbara intervall i en sträng.
+/// Samlar in egenskaper och innehåll från besökta redigerbara områden i en sträng.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -173,7 +173,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet. Den här besökaren registrerar bara körningar som ligger inom redigerbara intervall.
+    /// Anropas när en Run-nod påträffas i dokumentet. Den här besökaren registrerar endast körningar som ligger inom redigerbara intervall.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHtml
 linktitle: InsertHtml
 articleTitle: InsertHtml
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertHtml método. Inserta una cadena HTML en el documento en C#.
+description: Mejore sin esfuerzo sus documentos con el método InsertHtml de DocumentBuilder: inserte sin problemas cadenas HTML para una integración de contenido dinámico.
 type: docs
-weight: 350
+weight: 380
 url: /es/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(*string*) {#inserthtml}
@@ -26,7 +26,7 @@ Puede utilizar este método para insertar un fragmento HTML o un documento HTML 
 
 ## Ejemplos
 
-Muestra cómo utilizar un generador de documentos para insertar contenido html en un documento.
+Muestra cómo utilizar un generador de documentos para insertar contenido HTML en un documento.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// Al insertar código HTML se analiza el formato de cada elemento en un formato de texto de documento equivalente.
+// Al insertar código HTML se analiza el formato de cada elemento en el formato de texto del documento equivalente.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -92,12 +92,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -109,14 +109,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```
@@ -146,19 +146,19 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 Puede utilizar este método para insertar un fragmento HTML o un documento HTML completo.
 
-cuando*useBuilderFormatting* es`FALSO` , [`DocumentBuilder`](../)el formato se ignora y el formato del text insertado se basa en el formato HTML predeterminado. Como resultado, el texto se ve tal como se representa en los navegadores.
+Cuando*useBuilderFormatting* es`FALSO` , [`DocumentBuilder`](../) Se ignora el formato y el texto insertado se formatea según el formato HTML predeterminado. Como resultado, el texto se ve tal como se muestra en los navegadores.
 
-cuando*useBuilderFormatting* es`verdadero` , el formato del texto insertado se basa en[`DocumentBuilder`](../) formatting, y el texto parece como si hubiera sido insertado con[`Write`](../write/) .
+Cuando*useBuilderFormatting* es`verdadero` El formato , del texto insertado se basa en[`DocumentBuilder`](../) formato, y el texto parece como si se hubiera insertado con[`Write`](../write/) .
 
 ## Ejemplos
 
-Muestra cómo aplicar el formato de un creador de documentos al insertar contenido HTML.
+Muestra cómo aplicar el formato de un generador de documentos al insertar contenido HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establece una alineación de texto para el constructor, inserta un párrafo HTML con una alineación especificada y otro sin ella.
+// Establezca una alineación de texto para el constructor, inserte un párrafo HTML con una alineación especificada y uno sin ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -166,12 +166,12 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// El primer párrafo tiene una alineación especificada. Cuando InsertHtml analiza el código HTML,
-// el valor de alineación de párrafo que se encuentra en el código HTML siempre reemplaza el valor del generador de documentos.
+El primer párrafo tiene una alineación especificada. Cuando InsertHtml analiza el código HTML,
+// El valor de alineación del párrafo que se encuentra en el código HTML siempre reemplaza el valor del generador de documentos.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// El segundo párrafo no tiene ninguna alineación especificada. Puede tener su valor de alineación completado
+El segundo párrafo no tiene alineación especificada. Se puede completar su valor de alineación.
 // por el valor del constructor dependiendo de la bandera que pasamos al método InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
@@ -207,7 +207,7 @@ Puede utilizar este método para insertar un fragmento HTML o un documento HTML 
 
 ## Ejemplos
 
-Muestra cómo utilizar las opciones al insertar html.
+Muestra cómo utilizar opciones al insertar HTML.
 
 ```csharp
 Document doc = new Document();
@@ -219,9 +219,9 @@ builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
 // De forma predeterminada, "DocumentBuilder.InsertHtml" inserta un fragmento HTML que termina con un elemento HTML a nivel de bloque,
-// normalmente cierra ese elemento a nivel de bloque e inserta un salto de párrafo.
+// Normalmente cierra ese elemento de nivel de bloque e inserta un salto de párrafo.
 // Como resultado, aparece un nuevo párrafo vacío después del documento insertado.
-// Si especificamos "HtmlInsertOptions.RemoveLastEmptyParagraph", esos párrafos vacíos adicionales se eliminarán.
+// Si especificamos "HtmlInsertOptions.RemoveLastEmptyParagraph", se eliminarán esos párrafos vacíos adicionales.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

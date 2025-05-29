@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words для .NET
-description: OdsoRecipientDataCollection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор OdsoRecipientDataCollection — ваше решение для эффективной обработки данных. Упростите кодирование с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/odsorecipientdatacollection/

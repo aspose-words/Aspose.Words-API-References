@@ -3,7 +3,7 @@ title: OleFormat.GetOleEntry
 linktitle: GetOleEntry
 articleTitle: GetOleEntry
 second_title: Aspose.Words для .NET
-description: OleFormat GetOleEntry метод. Получает запись данных объекта OLE на С#.
+description: Откройте для себя метод OleFormat GetOleEntry для эффективного извлечения записей данных объектов OLE для улучшенного управления данными и бесшовной интеграции.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/oleformat/getoleentry/
@@ -18,7 +18,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oleEntryName | String | Имя потока данных OLE, чувствительное к регистру. |
+| oleEntryName | String | Имя потока данных OLE с учетом регистра. |
 
 ### Возвращаемое значение
 
@@ -32,19 +32,19 @@ public MemoryStream GetOleEntry(string oleEntryName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Внедрить рисунок Microsoft Visio в документ как объект OLE.
+// Внедряем рисунок Microsoft Visio в документ как объект OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Вставляем ссылку на файл в локальную файловую систему и отображаем ее в виде значка.
+// Вставляем ссылку на файл в локальной файловой системе и отображаем ее в виде значка.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// Вставка объектов OLE создает фигуры, в которых хранятся эти объекты.
+// Вставка объектов OLE создает фигуры, хранящие эти объекты.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Если фигура содержит объект OLE, она будет иметь допустимое свойство «OleFormat»,
+// Если фигура содержит объект OLE, у нее будет допустимое свойство "OleFormat",
 // который мы можем использовать для проверки некоторых аспектов формы.
 OleFormat oleFormat = shapes[0].OleFormat;
 
@@ -63,7 +63,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Если объект содержит данные OLE, мы можем получить к ним доступ с помощью потока.
+// Если объект содержит данные OLE, мы можем получить к нему доступ с помощью потока.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

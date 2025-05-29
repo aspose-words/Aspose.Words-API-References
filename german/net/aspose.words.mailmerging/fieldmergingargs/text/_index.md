@@ -3,14 +3,14 @@ title: FieldMergingArgs.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: FieldMergingArgs Text eigendom. Ruft den Text ab der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird oder legt diesen fest in C#.
+description: Verwalten Sie die Seriendruckfelder Ihres Dokuments mühelos mit FieldMergingArgs. Legen Sie Text einfach fest oder rufen Sie ihn ab, um eine nahtlose Dokumentintegration zu gewährleisten.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/fieldmergingargs/text/
 ---
 ## FieldMergingArgs.Text property
 
-Ruft den Text ab, der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird, oder legt diesen fest.
+Ruft den Text ab oder legt ihn fest, der für das aktuelle Seriendruckfeld in das Dokument eingefügt wird.
 
 ```csharp
 public string Text { get; set; }
@@ -18,15 +18,15 @@ public string Text { get; set; }
 
 ## Bemerkungen
 
-Wenn Ihr Event-Handler aufgerufen wird, wird diese Eigenschaft auf gesetzt`Null`.
+Wenn Ihr Eventhandler aufgerufen wird, wird diese Eigenschaft auf`null`.
 
-Wenn Sie Text als belassen`Null` , wird die Mail-Merge-Engine einfügen[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) anstelle des Zusammenführungsfelds.
+Wenn Sie Text als`null` , fügt das Serienbriefmodul Folgendes ein[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) anstelle des Seriendruckfelds.
 
-Wenn Sie Text auf eine beliebige Zeichenfolge (auch leer) festlegen, wird die Zeichenfolge anstelle des Serienbrieffelds in das Dokument eingefügt.
+Wenn Sie „Text“ auf eine beliebige Zeichenfolge (auch leer) setzen, wird die Zeichenfolge anstelle des Seriendruckfelds in das Dokument eingefügt.
 
 ## Beispiele
 
-Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Serienbriefdaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
 public void MergeHtml()
@@ -59,25 +59,25 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
-/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
+/// Wenn der Serienbrief auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis zum Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Geparste HTML-Daten zum Hauptteil des Dokuments hinzufügen.
+            // Fügen Sie dem Hauptteil des Dokuments analysierte HTML-Daten hinzu.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
+            // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }

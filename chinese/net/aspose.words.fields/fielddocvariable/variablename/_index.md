@@ -2,8 +2,8 @@
 title: FieldDocVariable.VariableName
 linktitle: VariableName
 articleTitle: VariableName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDocVariable VariableName 财产. 获取或设置要检索的文档变量的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDocVariable VariableName 属性，轻松管理文档变量。立即简化检索并增强您的文档管理！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielddocvariable/variablename/
@@ -18,13 +18,13 @@ public string VariableName { get; set; }
 
 ## 例子
 
-演示如何使用 DOCPROPERTY 字段来显示文档属性和变量。
+展示如何使用 DOCPROPERTY 字段显示文档属性和变量。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是使用 DOCPROPERTY 字段的两种方法。
+// 以下是使用 DOCPROPERTY 字段的两种方法。
 // 1 - 显示内置属性：
 // 为“Category”内置属性设置自定义值，然后插入引用它的 DOCPROPERTY 字段。
 doc.BuiltInDocumentProperties.Category = "My category";
@@ -39,7 +39,7 @@ builder.InsertParagraph();
 
 // 2 - 显示自定义文档变量：
 // 定义一个自定义变量，然后使用 DOCPROPERTY 字段引用该变量。
-Assert.That(doc.Variables, Is.Empty);
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

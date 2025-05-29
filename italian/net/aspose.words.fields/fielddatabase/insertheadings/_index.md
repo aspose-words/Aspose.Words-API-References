@@ -3,7 +3,7 @@ title: FieldDatabase.InsertHeadings
 linktitle: InsertHeadings
 articleTitle: InsertHeadings
 second_title: Aspose.Words per .NET
-description: FieldDatabase InsertHeadings proprietà. Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna nella tabella risultante in C#.
+description: Gestisci il tuo database in modo efficiente con la proprietà FieldDatabase InsertHeadings. Personalizza facilmente le intestazioni di colonna per una presentazione dei dati più chiara.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -18,7 +18,7 @@ public bool InsertHeadings { get; set; }
 
 ## Esempi
 
-Mostra come estrarre i dati da un database e inserirli come campo in un documento.
+Mostra come estrarre dati da un database e inserirli come campo in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ field.Query = "SELECT * FROM [Products]";
 
 Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Inserisci un altro campo DATABASE con una query più complessa che ordina tutti i prodotti in ordine decrescente in base alle vendite lorde.
+// Inserire un altro campo DATABASE con una query più complessa che ordina tutti i prodotti in ordine decrescente in base alle vendite lorde.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -44,16 +44,16 @@ field.Query =
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
 // Queste proprietà hanno la stessa funzione delle clausole LIMIT e TOP.
-// Configurali per visualizzare solo le righe da 1 a 10 del risultato della query nella tabella del campo.
+// Configurarli per visualizzare solo le righe da 1 a 10 del risultato della query nella tabella del campo.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Questa proprietà è l'indice del formato che vogliamo utilizzare per la nostra tabella. L'elenco dei formati tabella si trova nel menu "Formattazione automatica tabella...".
-// che viene visualizzato quando creiamo un campo DATABASE in Microsoft Word. L'indice n. 10 corrisponde al formato "Colorato 3".
+// Questa proprietà è l'indice del formato che vogliamo utilizzare per la nostra tabella. L'elenco dei formati di tabella si trova nel menu "Formattazione automatica tabella..."
+// che viene visualizzato quando creiamo un campo DATABASE in Microsoft Word. L'indice n. 10 corrisponde al formato "Colorful 3".
 field.TableFormat = "10";
 
-// La proprietà FormatAttribute è una rappresentazione di stringa di un numero intero che memorizza più flag.
-// Possiamo applicare patriarcale il formato a cui punta la proprietà TableFormat impostando flag diversi in questa proprietà.
+// La proprietà FormatAttribute è una rappresentazione stringa di un numero intero che memorizza più flag.
+// Possiamo applicare patrimonialmente il formato a cui punta la proprietà TableFormat impostando flag diversi in questa proprietà.
 // Il numero che utilizziamo è la somma di una combinazione di valori corrispondenti a diversi aspetti dello stile della tabella.
 // 63 rappresenta 1 (bordi) + 2 (ombreggiatura) + 4 (carattere) + 8 (colore) + 16 (adattamento automatico) + 32 (righe di intestazione).
 field.FormatAttributes = "63";

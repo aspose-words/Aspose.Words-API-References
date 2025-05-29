@@ -3,9 +3,9 @@ title: ChartDataPointCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: ChartDataPointCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück in C#.
+description: Entdecken Sie die GetEnumerator-Methode von ChartDataPointCollection für einfachen Datenzugriff. Optimieren Sie Ihre Datenverwaltung mit diesem effizienten Enumerator!
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -34,14 +34,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
-    foreach (ChartSeries series in chart.Series) 
+    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen darstellen.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
+    // Überprüfen Sie, ob die Datenpunkte der ersten Reihe ihre Farben nicht invertieren, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -50,8 +50,11 @@ public void ChartDataPoint()
         }
     }
 
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
     // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    dataPoint.ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.
     chart.Series[2].DataPoints.ClearFormat();
@@ -60,7 +63,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// Wendet eine Reihe von Datenpunkten auf eine Reihe an.
+/// Wendet eine Anzahl Datenpunkte auf eine Reihe an.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

@@ -3,9 +3,9 @@ title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoDataSourceType énumération. Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO en C#.
+description: Découvrez l'énumération Aspose.Words OdsoDataSourceType pour vous connecter facilement à des sources de données externes, améliorant ainsi vos capacités de traitement de documents.
 type: docs
-weight: 5890
+weight: 6720
 url: /fr/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -20,25 +20,25 @@ public enum OdsoDataSourceType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Text | `0` | Spécifie qu'un document donné a été connecté à un fichier texte. Peut-être wdMergeSubTypeOther. |
+| Text | `0` | Spécifie qu'un document donné a été connecté à un fichier texte. Éventuellement wdMergeSubTypeOther. |
 | Database | `1` | Spécifie qu'un document donné a été connecté à une base de données. Éventuellement wdMergeSubTypeAccess. |
 | AddressBook | `2` | Spécifie qu'un document donné a été connecté à un carnet d'adresses de contacts. Éventuellement wdMergeSubTypeOAL. |
 | Document1 | `3` | Spécifie qu'un document donné a été connecté à un autre format de document pris en charge par l'application productrice. Éventuellement wdMergeSubTypeOLEDBWord. |
 | Document2 | `4` | Spécifie qu'un document donné a été connecté à un autre format de document pris en charge par l'application productrice. Éventuellement wdMergeSubTypeWorks. |
 | Native | `5` | Spécifie qu'un document donné a été connecté à un autre format de document natif de l'application productrice. Éventuellement wdMergeSubTypeOLEDBText |
 | Email | `6` | Spécifie qu'un document donné a été connecté à une application de messagerie. Éventuellement wdMergeSubTypeOutlook. |
-| None | `7` | Le type de source de données externe n'est pas spécifié. Peut-être wdMergeSubTypeWord. |
+| None | `7` | Le type de la source de données externe n'est pas spécifié. Éventuellement wdMergeSubTypeWord. |
 | Legacy | `8` | Spécifie qu'un document donné a été connecté à un format de document hérité pris en charge par l'application productrice Éventuellement wdMergeSubTypeWord2000. |
 | Master | `9` | Spécifie qu'un document donné a été connecté à une source de données qui regroupe d'autres sources de données. |
 | Default | `7` | Égal àNone . |
 
 ## Remarques
 
-La spécification OOXML est très vague pour cette énumération. Je suppose que cela pourrait correspondre à l'énumération WdMergeSubType http://msdn.microsoft.com/en-us/library/bb237801.aspx.
+La spécification OOXML est très vague pour cette énumération. Je suppose qu'elle correspond à l'énumération WdMergeSubType http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -51,8 +51,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

@@ -3,7 +3,7 @@ title: FrameFormat.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words per .NET
-description: FrameFormat RelativeHorizontalPosition proprietà. Ottiene la posizione orizzontale relativa di un frame in C#.
+description: Scopri la proprietà FrameFormat RelativeHorizontalPosition per determinare facilmente il posizionamento orizzontale di un frame per un controllo migliorato del layout.
 type: docs
 weight: 70
 url: /it/net/aspose.words/frameformat/relativehorizontalposition/

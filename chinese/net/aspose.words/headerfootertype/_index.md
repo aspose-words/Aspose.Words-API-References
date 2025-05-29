@@ -2,15 +2,15 @@
 title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.HeaderFooterType 枚举. 标识 Word 文件中找到的页眉或页脚的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.HeaderFooterType 枚举，轻松识别 Word 文档中的页眉和页脚类型。立即增强您的文档处理能力！
 type: docs
-weight: 3120
+weight: 3550
 url: /zh/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
 
-标识 Word 文件中找到的页眉或页脚的类型。
+标识 Word 文件中的页眉或页脚类型。
 
 ```csharp
 public enum HeaderFooterType
@@ -21,7 +21,7 @@ public enum HeaderFooterType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | HeaderEven | `0` | 偶数页的页眉。 |
-| HeaderPrimary | `1` | 主标头，也用于奇数页。 |
+| HeaderPrimary | `1` | 主页眉，也用于奇数页。 |
 | FooterEven | `2` | 偶数页的页脚。 |
 | FooterPrimary | `3` | 主页脚，也用于奇数页。 |
 | HeaderFirst | `4` | 该部分第一页的标题。 |
@@ -29,17 +29,17 @@ public enum HeaderFooterType
 
 ## 例子
 
-演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
+展示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 指定我们希望首页、偶数页和奇数页使用不同的页眉和页脚。
+// 指定我们希望第一页、偶数页和奇数页使用不同的页眉和页脚。
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// 创建标题，然后向文档添加三个页面以显示每种标题类型。
+// 创建页眉，然后向文档添加三页以显示每种页眉类型。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

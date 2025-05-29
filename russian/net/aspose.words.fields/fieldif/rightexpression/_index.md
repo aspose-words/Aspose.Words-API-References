@@ -3,14 +3,14 @@ title: FieldIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words для .NET
-description: FieldIf RightExpression свойство. Получает или задает правую часть выражения сравнения на С#.
+description: Откройте для себя свойство FieldIf RightExpression, легко управляйте нужным сегментом выражений сравнения для повышения точности и эффективности данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldif/rightexpression/
 ---
 ## FieldIf.RightExpression property
 
-Получает или задает правую часть выражения сравнения.
+Возвращает или задает правую часть выражения сравнения.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,7 +18,7 @@ public string RightExpression { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

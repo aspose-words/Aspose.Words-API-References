@@ -3,9 +3,9 @@ title: ChartYValueType Enum
 linktitle: ChartYValueType
 articleTitle: ChartYValueType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueType énumération. Permet de spécifier le type dune valeur Y dune série de graphiques en C#.
+description: Découvrez l'énumération Aspose.Words.ChartYValueType pour définir facilement les types de valeurs Y pour votre série de graphiques, améliorant ainsi vos capacités de visualisation de données.
 type: docs
-weight: 890
+weight: 1210
 url: /fr/net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 ## ChartYValueType enumeration

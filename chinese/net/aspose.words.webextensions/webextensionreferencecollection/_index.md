@@ -2,10 +2,10 @@
 title: WebExtensionReferenceCollection Class
 linktitle: WebExtensionReferenceCollection
 articleTitle: WebExtensionReferenceCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection 班级. 指定 Web 扩展引用列表 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.WebExtensionReferenceCollection 类，这是您高效无缝地管理 Web 扩展引用的首选解决方案。
 type: docs
-weight: 6810
+weight: 7660
 url: /zh/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class

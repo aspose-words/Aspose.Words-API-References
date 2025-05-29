@@ -3,7 +3,7 @@ title: Fill.BackColor
 linktitle: BackColor
 articleTitle: BackColor
 second_title: Aspose.Words per .NET
-description: Fill BackColor proprietà. Ottiene o imposta un oggetto Color che rappresenta il colore di sfondo per il riempimento in C#.
+description: Personalizza facilmente il colore di sfondo del tuo riempimento con la proprietà BackColor. Imposta o ottieni facilmente un oggetto Color per un design vibrante.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/fill/backcolor/
@@ -14,6 +14,44 @@ Ottiene o imposta un oggetto Color che rappresenta il colore di sfondo per il ri
 
 ```csharp
 public Color BackColor { get; set; }
+```
+
+## Esempi
+
+Mostra come riempire una forma con sfumature.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// Applica un riempimento sfumato a un colore alla forma con ForeColor del riempimento sfumato.
+shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
+
+Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
+Assert.AreEqual(GradientStyle.Horizontal, shape.Fill.GradientStyle);
+Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
+Assert.AreEqual(270, shape.Fill.GradientAngle);
+
+shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// Applica un riempimento sfumato a due colori alla forma.
+shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
+// Cambia il colore di sfondo del riempimento sfumato.
+shape.Fill.BackColor = Color.Yellow;
+// Nota che cambia "GradientAngle" per "GradientStyle.FromCorner/GradientStyle.FromCenter"
+// il riempimento sfumato non ha alcun effetto, funzionerà solo con gradienti lineari.
+shape.Fill.GradientAngle = 15;
+
+Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
+Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
+Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
+Assert.AreEqual(0, shape.Fill.GradientAngle);
+
+// Utilizzare l'opzione di conformità per definire la forma utilizzando DML se si desidera ottenere "GradientStyle",
+// Proprietà "GradientVariant" e "GradientAngle" dopo il salvataggio del documento.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ```
 
 ### Guarda anche

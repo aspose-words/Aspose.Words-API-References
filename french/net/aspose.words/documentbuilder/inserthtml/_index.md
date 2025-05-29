@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHtml
 linktitle: InsertHtml
 articleTitle: InsertHtml
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder InsertHtml méthode. Insère une chaîne HTML dans le document en C#.
+description: Améliorez sans effort vos documents avec la méthode InsertHtml de DocumentBuilder : insérez de manière transparente des chaînes HTML pour une intégration de contenu dynamique.
 type: docs
-weight: 350
+weight: 380
 url: /fr/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(*string*) {#inserthtml}
@@ -39,7 +39,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// L'insertion de code HTML analyse le formatage de chaque élément dans un formatage de texte de document équivalent.
+// L'insertion de code HTML analyse la mise en forme de chaque élément dans une mise en forme de texte de document équivalente.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -91,8 +91,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe "html_",
-/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document du MERGEFIELD.
+/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe « html_ »,
+/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -103,20 +103,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ajoute des données HTML analysées au corps du document.
+            // Ajoutez les données HTML analysées au corps du document.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
+            // Puisque nous avons déjà inséré le contenu fusionné manuellement,
+            // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 }
 ```
@@ -146,7 +146,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un document HTML entier.
 
-Quand*useBuilderFormatting* est`FAUX` , [`DocumentBuilder`](../)le formatage est ignoré et le formatage du text inséré est basé sur le formatage HTML par défaut. En conséquence, le texte apparaît tel qu'il est affiché dans les navigateurs.
+Quand*useBuilderFormatting* est`FAUX` , [`DocumentBuilder`](../) Le formatage est ignoré et le texte inséré est basé sur le formatage HTML par défaut. Par conséquent, le texte s'affiche tel qu'il apparaît dans les navigateurs.
 
 Quand*useBuilderFormatting* est`vrai` , le formatage du texte inséré est basé sur[`DocumentBuilder`](../) formatage, et le texte semble avoir été inséré avec[`Write`](../write/) .
 
@@ -158,7 +158,7 @@ Montre comment appliquer la mise en forme d'un générateur de documents lors de
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définit un alignement de texte pour le générateur, insère un paragraphe HTML avec un alignement spécifié et un sans.
+// Définissez un alignement de texte pour le générateur, insérez un paragraphe HTML avec un alignement spécifié et un sans.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -166,13 +166,13 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Le premier paragraphe a un alignement spécifié. Lorsque InsertHtml analyse le code HTML,
-// la valeur d'alignement de paragraphe trouvée dans le code HTML remplace toujours la valeur du générateur de document.
+// Le premier paragraphe possède un alignement spécifié. Lorsque InsertHtml analyse le code HTML,
+// la valeur d'alignement de paragraphe trouvée dans le code HTML remplace toujours la valeur du générateur de documents.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// Le deuxième paragraphe n'a aucun alignement spécifié. Sa valeur d'alignement peut être renseignée
-// par la valeur du constructeur en fonction du flag que nous avons passé à la méthode InsertHtml.
+// Le deuxième paragraphe n'a pas d'alignement spécifié. Sa valeur d'alignement peut être renseignée.
+// par la valeur du constructeur en fonction de l'indicateur que nous avons passé à la méthode InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -199,7 +199,7 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | html | String | Une chaîne HTML à insérer dans le document. |
-| options | HtmlInsertOptions | Options utilisées lors de l'insertion d'une chaîne HTML. |
+| options | HtmlInsertOptions | Options utilisées lorsque la chaîne HTML est insérée. |
 
 ## Remarques
 
@@ -218,10 +218,10 @@ builder.InsertParagraph();
 builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
-// Par défaut "DocumentBuilder.InsertHtml" insère un fragment HTML qui se termine par un élément HTML de niveau bloc,
+// Par défaut, "DocumentBuilder.InsertHtml" insère un fragment HTML qui se termine par un élément HTML de niveau bloc,
 // il ferme normalement cet élément de niveau bloc et insère un saut de paragraphe.
-// En conséquence, un nouveau paragraphe vide apparaît après le document inséré.
-// Si nous spécifions "HtmlInsertOptions.RemoveLastEmptyParagraph", ces paragraphes vides supplémentaires seront supprimés.
+// En conséquence, un nouveau paragraphe vide apparaît après l'insertion du document.
+// Si nous spécifions « HtmlInsertOptions.RemoveLastEmptyParagraph », ces paragraphes vides supplémentaires seront supprimés.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

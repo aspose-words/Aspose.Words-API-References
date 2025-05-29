@@ -3,9 +3,9 @@ title: Stroke.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words per .NET
-description: Stroke LineStyle proprietà. Definisce lo stile della linea del tratto in C#.
+description: Scopri la proprietà Stroke LineStyle per personalizzare il tuo design con stili di linea unici per i tratti, migliorando l'aspetto visivo del tuo progetto.
 type: docs
-weight: 130
+weight: 180
 url: /it/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property

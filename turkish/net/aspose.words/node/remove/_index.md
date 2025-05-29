@@ -2,15 +2,15 @@
 title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: Node Remove yöntem. Kendini üst öğeden kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Düğümleri ana düğümlerinden zahmetsizce ayırmak, kodunuzun verimliliğini ve yapısını artırmak için Node Remove yöntemini keşfedin.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/node/remove/
 ---
 ## Node.Remove method
 
-Kendini üst öğeden kaldırır.
+Kendini ana öğeden kaldırır.
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 ## Örnekler
 
-Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
+Bir belgeden resimli tüm şekillerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -44,11 +44,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Bu düğümü sildikten sonra ona geçmek istersek diye bir sonraki kardeş düğümü değişken olarak kaydedin.
+    // Bu düğümü sildikten sonra ona geçmek istersek, bir sonraki kardeş düğümü bir değişken olarak kaydet.
     Node nextNode = curNode.NextSibling;
 
-    // Bir bölüm gövdesi Paragraf ve Tablo düğümleri içerebilir.
-    // Düğüm bir Tablo ise onu ebeveynden kaldırın.
+    // Bir bölüm gövdesi Paragraf ve Tablo düğümlerini içerebilir.
+    // Eğer düğüm bir Tablo ise, onu ana düğümden kaldır.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

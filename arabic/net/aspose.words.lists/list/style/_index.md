@@ -3,14 +3,14 @@ title: List.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words لـ .NET
-description: List Style ملكية. الحصول على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده في C#.
+description: اكتشف خاصية نمط القائمة لتحديد قوائمك وتخصيصها بفعالية. حسّن تصميم موقعك الإلكتروني بخيارات تنسيق فريدة!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.lists/list/style/
 ---
 ## List.Style property
 
-الحصول على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده.
+يحصل على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده.
 
 ```csharp
 public Style Style { get; }
@@ -18,24 +18,24 @@ public Style Style { get; }
 
 ## ملاحظات
 
-إذا لم تكن هذه القائمة مرتبطة بنمط القائمة، فستعود الخاصية`باطل`.
+إذا لم تكن هذه القائمة مرتبطة بنمط القائمة، فسوف ترجع الخاصية`باطل`.
 
-يمكن أن تكون القائمة مرجعًا لنمط القائمة، في هذه الحالة[`IsListStyleReference`](../isliststylereference/) سيكون`حقيقي`.
+يمكن أن تكون القائمة بمثابة مرجع لنمط القائمة، في هذه الحالة[`IsListStyleReference`](../isliststylereference/) سيكون`حقيقي`.
 
-يمكن أن تكون القائمة تعريفًا لنمط القائمة، في هذه الحالة[`IsListStyleDefinition`](../isliststyledefinition/) سيكون`حقيقي`. لا يمكن تطبيق هذه القائمة على الفقرات الموجودة في المستند مباشرة.
+يمكن أن تكون القائمة تعريفًا لنمط القائمة، في هذه الحالة[`IsListStyleDefinition`](../isliststyledefinition/) سيكون`حقيقي`لا يمكن تطبيق مثل هذه القائمة على الفقرات الموجودة في المستند بشكل مباشر.
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -57,14 +57,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

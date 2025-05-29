@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words per .NET
-description: ImageFieldMergingArgs ImageStream proprietà. Specifica il flusso da cui il motore di stampa unione legge unimmagine in C#.
+description: Scopri come la proprietà ImageStream di ImageFieldMergingArgs migliora la tua stampa unione integrando perfettamente le immagini per risultati professionali.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Specifica il flusso da cui il motore di stampa unione legge un'immagine.
+Specifica il flusso da cui il motore di stampa unione deve leggere un'immagine.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -18,11 +18,11 @@ public Stream ImageStream { get; set; }
 
 ## Osservazioni
 
-Aspose.Words chiude questo flusso dopo aver unito l'immagine nel documento.
+Aspose.Words chiude questo flusso dopo aver unito l'immagine al documento.
 
 ## Esempi
 
-Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
+Mostra come inserire in un report le immagini memorizzate in un campo BLOB del database.
 
 ```csharp
 public void ImageFromBlob()
@@ -38,7 +38,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Apre il lettore dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
+        // Aprire il lettore dati, che deve essere in una modalità che legge tutti i record contemporaneamente.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,11 +52,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 
     /// <summary>
-    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Immagine:" nel suo nome.
+    /// Questa funzione viene chiamata quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Image:" nel nome.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

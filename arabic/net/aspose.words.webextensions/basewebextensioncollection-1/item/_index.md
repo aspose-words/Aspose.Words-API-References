@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: BaseWebExtensionCollection Item ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد في C#.
+description: اكتشف خاصية BaseWebExtensionCollection لإدارة العناصر بسهولة حسب الفهرس. بسّط تطويرك مع معالجة بيانات فعّالة اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/item/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; indexer
 
-الحصول على عنصر أو تعيينه في الفهرس المحدد.
+يحصل على عنصر أو يعينه في الفهرس المحدد.
 
 ```csharp
 public T this[int index] { get; set; }
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس الصفري للعنصر. |
+| index | مؤشر يعتمد على الصفر للعنصر. |
 
 ## أمثلة
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// اطبع كافة خصائص ملحق الويب الخاص بالمستند.
+// طباعة كافة خصائص ملحق الويب الخاص بالمستند.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// قم بإزالة ملحق الويب.
+// إزالة ملحق الويب.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

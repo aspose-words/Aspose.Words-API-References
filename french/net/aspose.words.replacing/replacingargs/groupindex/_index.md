@@ -3,7 +3,7 @@ title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
 second_title: Aspose.Words pour .NET
-description: ReplacingArgs GroupIndex propriété. Identifie par index un groupe capturé dans leMatch qui doit être remplacé par leReplacement chaîne en C#.
+description: Découvrez comment utiliser la propriété GroupIndex dans ReplacingArgs pour identifier et remplacer facilement les groupes capturés dans les correspondances avec vos chaînes personnalisées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.replacing/replacingargs/groupindex/
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## Remarques
 
-`GroupIndex`n'a d'effet que lorsque[`GroupName`](../groupname/) est`nul`.
+`GroupIndex` n'a d'effet que lorsque[`GroupName`](../groupname/) est`nul`.
 
 La valeur par défaut est zéro.
 
 ## Exemples
 
-Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
+    // Définissez la propriété « HighlightColor » sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -58,7 +58,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Tient un journal de chaque remplacement.
+/// Conserve un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

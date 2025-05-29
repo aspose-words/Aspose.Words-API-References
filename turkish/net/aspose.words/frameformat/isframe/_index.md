@@ -2,15 +2,15 @@
 title: FrameFormat.IsFrame
 linktitle: IsFrame
 articleTitle: IsFrame
-second_title: Aspose.Words for .NET
-description: FrameFormat IsFrame mülk. İadelerdoğru paragraf bir çerçeve ise C#'da.
+second_title: .NET için Aspose.Words
+description: FrameFormat IsFrame özelliğini keşfedin. Paragrafınızın bir çerçeve olup olmadığını kolayca belirleyerek belgenizin düzenini ve tasarımını geliştirin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-İadeler`doğru` paragraf bir çerçeve ise.
+Geri Döndürür`doğru` eğer paragraf bir çerçeve ise.
 
 ```csharp
 public bool IsFrame { get; }
@@ -18,7 +18,7 @@ public bool IsFrame { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

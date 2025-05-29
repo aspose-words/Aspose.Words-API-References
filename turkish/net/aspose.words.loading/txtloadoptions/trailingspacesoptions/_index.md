@@ -2,15 +2,15 @@
 title: TxtLoadOptions.TrailingSpacesOptions
 linktitle: TrailingSpacesOptions
 articleTitle: TrailingSpacesOptions
-second_title: Aspose.Words for .NET
-description: TxtLoadOptions TrailingSpacesOptions mülk. Sondaki boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerTrim  C#'da.
+second_title: .NET için Aspose.Words
+description: Sondaki boşlukları kolayca yönetmek için TxtLoadOptions' TrailingSpacesOptions özelliğini keşfedin. En iyi sonuçlar için varsayılan Trim seçeneğiyle işlemeyi özelleştirin.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
 
-Sondaki boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değer:Trim .
+Son boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerTrim .
 
 ```csharp
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
@@ -18,30 +18,30 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 
 ## Örnekler
 
-Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
+Düz metin belgeleri yüklenirken boşlukların nasıl kırpılacağını gösterir.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Bir belgenin yapıcısına iletebileceğimiz bir "TxtLoadOptions" nesnesi oluşturun
-// düz metin belgesini yükleme şeklimizi değiştirmek için.
+// Bir belgenin oluşturucusuna geçirebileceğimiz bir "TxtLoadOptions" nesnesi oluşturun
+// düz metin belgenin nasıl yükleneceğini değiştirmek için.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.Preserve" olarak ayarlayın
 // her satırın başındaki tüm boşluk karakterlerini korumak için.
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.ConvertToIndent" olarak ayarlayın
-// her satırın başlangıcındaki tüm boşluk karakterlerini kaldırmak için,
-// ve ardından boşlukların etkisini simüle etmek için paragrafa sol ilk satır girintisini uygulayın.
+// her satırın başlangıcından tüm boşluk karakterlerini kaldırmak için,
+// ve sonra paragrafın ilk satırına sol girinti uygulayarak boşlukların etkisini simüle edin.
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.Trim" olarak ayarlayın
-// her satırın başlangıcındaki tüm boşluk karakterlerini kaldırmak için.
+// her satırın başlangıcından tüm boşluk karakterlerini kaldırmak için.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Preserve" olarak ayarlayın
  // her satırın sonundaki tüm boşluk karakterlerini korumak için.
- // "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Trim" olarak ayarlayarak
-// her satırın sonundaki tüm boşluk karakterlerini kaldırın.
+ // "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Trim" olarak ayarlayın
+// her satırın sonundaki tüm boşluk karakterlerini kaldır.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

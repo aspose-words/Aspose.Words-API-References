@@ -3,7 +3,7 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: ResourceSavingArgs Document свойство. Получает объект документа который в данный момент сохраняется на С#.
+description: Откройте для себя свойство ResourceSavingArgs Document для доступа к текущему сохраняемому объекту документа, что повысит эффективность вашего рабочего процесса.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/resourcesavingargs/document/
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс в HTML или SVG фиксированной страницы.
+    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс в формате HTML или SVG фиксированной страницы.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

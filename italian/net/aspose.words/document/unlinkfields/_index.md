@@ -3,14 +3,14 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words per .NET
-description: Document UnlinkFields metodo. Scollega i campi dellintero documento in C#.
+description: Scopri come utilizzare il metodo UnlinkFields per scollegare in modo efficiente i campi nell'intero documento, migliorando il flusso di lavoro di modifica.
 type: docs
-weight: 730
+weight: 780
 url: /it/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Scollega i campi dell'intero documento.
+Scollega i campi nell'intero documento.
 
 ```csharp
 public void UnlinkFields()

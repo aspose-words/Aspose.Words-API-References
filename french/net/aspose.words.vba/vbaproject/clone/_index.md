@@ -3,9 +3,9 @@ title: VbaProject.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words pour .NET
-description: VbaProject Clone méthode. Effectue une copie duVbaProject  en C#.
+description: Dupliquez facilement votre projet VBA grâce à la méthode Clone. Améliorez votre flux de travail et simplifiez la gestion de vos projets dès aujourd'hui !
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.vba/vbaproject/clone/
 ---
 ## VbaProject.Clone method
@@ -31,8 +31,8 @@ Document destDoc = new Document();
 VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
-// Dans le document de destination, nous avons déjà un module nommé "Module1"
-// parce que nous l'avons cloné avec le projet. Nous devrons supprimer le module.
+// Dans le document de destination, nous avons déjà un module nommé « Module1 »
+// car nous l'avons cloné avec le projet. Nous devrons supprimer le module.
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Remove(oldVbaModule);

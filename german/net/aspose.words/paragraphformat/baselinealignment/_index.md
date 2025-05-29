@@ -3,14 +3,14 @@ title: ParagraphFormat.BaselineAlignment
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words für .NET
-description: ParagraphFormat BaselineAlignment eigendom. Ruft die vertikale Position von Schriftarten in einer Zeile ab oder legt diese fest in C#.
+description: Optimieren Sie Ihr Textlayout mit der Eigenschaft „ParagraphFormat BaselineAlignment“, die eine präzise Kontrolle über die vertikale Positionierung der Schriftart für eine verbesserte Lesbarkeit ermöglicht.
 type: docs
 weight: 40
 url: /de/net/aspose.words/paragraphformat/baselinealignment/
 ---
 ## ParagraphFormat.BaselineAlignment property
 
-Ruft die vertikale Position von Schriftarten in einer Zeile ab oder legt diese fest.
+Ruft die vertikale Position der Schriftart in einer Zeile ab oder legt sie fest.
 
 ```csharp
 public BaselineAlignment BaselineAlignment { get; set; }
@@ -18,7 +18,7 @@ public BaselineAlignment BaselineAlignment { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die vertikale Position von Schriftarten in einer Zeile festgelegt wird.
+Zeigt, wie die vertikale Position von Schriftarten auf einer Zeile festgelegt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

@@ -3,7 +3,7 @@ title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ChartLegendEntry Font propiedad. Proporciona acceso al formato de fuente de esta entrada de leyenda en C#.
+description: Descubra la propiedad de fuente ChartLegendEntry para acceder fácilmente al formato de fuente personalizable y mejorar sus entradas de leyenda para un mejor atractivo visual.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -18,34 +18,22 @@ public Font Font { get; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con una entrada de leyenda para series de gráficos.
+Muestra cómo trabajar con una fuente de leyenda.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
+Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+ChartLegend chartLegend = chart.Legend;
+// Establecer el tamaño de fuente predeterminado para todas las entradas de leyenda.
+chartLegend.Font.Size = 14;
+// Cambiar la fuente para una entrada de leyenda específica.
+chartLegend.LegendEntries[1].Font.Italic = true;
+chartLegend.LegendEntries[1].Font.Size = 12;
+// Obtener la entrada de leyenda para la serie de gráficos.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
-Chart chart = shape.Chart;
-ChartSeriesCollection series = chart.Series;
-series.Clear();
-
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
-series.Add("Series 2", categories, new double[] { 3, 4 });
-series.Add("Series 3", categories, new double[] { 5, 6 });
-series.Add("Series 4", categories, new double[] { 0, 0 });
-
-ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
-legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
-
-doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```
 
 ### Ver también

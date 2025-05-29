@@ -3,14 +3,14 @@ title: Border.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: Border ClearFormatting метод. Сбрасывает свойства границы к значениям по умолчанию на С#.
+description: Сбросьте свойства границ до значений по умолчанию с помощью метода Border ClearFormatting. Упростите процесс проектирования и улучшите внешний вид вашего проекта!
 type: docs
 weight: 90
 url: /ru/net/aspose.words/border/clearformatting/
 ---
 ## Border.ClearFormatting method
 
-Сбрасывает свойства границы к значениям по умолчанию.
+Сбрасывает свойства границы до значений по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -36,8 +36,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
- // Мы можем сразу удалить границу, запустив метод ClearFormatting.
-// Запуск этого метода на каждой границе абзаца удалит все его границы.
+ // Мы можем удалить границу сразу, запустив метод ClearFormatting.
+// Выполнение этого метода для каждой границы абзаца удалит все его границы.
 foreach (Border border in borders)
     border.ClearFormatting();
 

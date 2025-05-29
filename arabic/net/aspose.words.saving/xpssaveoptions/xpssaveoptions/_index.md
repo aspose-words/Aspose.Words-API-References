@@ -3,14 +3,14 @@ title: XpsSaveOptions
 linktitle: XpsSaveOptions
 articleTitle: XpsSaveOptions
 second_title: Aspose.Words لـ .NET
-description: XpsSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق في C#.
+description: اكتشف منشئ XpsSaveOptions لإنشاء حالات لحفظ المستندات بتنسيق XPS بسهولة، مما يعزز كفاءة إدارة المستندات لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions() {#constructor}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ document فيXps تنسيق.
 
 ```csharp
 public XpsSaveOptions()
@@ -18,7 +18,7 @@ public XpsSaveOptions()
 
 ## أمثلة
 
-يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند XPS المحفوظ.
+يوضح كيفية تحديد مستوى العناوين التي ستظهر في مخطط مستند XPS المحفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -41,16 +41,16 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذا الأسلوب للمستند إلى .XPS.
+// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// سيحتوي مستند XPS الناتج على مخطط تفصيلي، وجدول محتويات يسرد العناوين في نص المستند.
-// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
-// قم بتعيين خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
-// لن يظهر العنوانان الأخيران اللذان أدخلناهما أعلاه.
+// سيحتوي مستند XPS الناتج على مخطط تفصيلي، وهو جدول محتويات يسرد العناوين الموجودة في نص المستند.
+// النقر على إدخال في هذا المخطط سيأخذنا إلى موقع العنوان الخاص به.
+// قم بضبط خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
+// لن يظهر آخر عنوانين قمنا بإدخالهما أعلاه.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ document فيXps أوOpenXps تنسيق.
 
 ```csharp
 public XpsSaveOptions(SaveFormat saveFormat)
@@ -74,21 +74,21 @@ public XpsSaveOptions(SaveFormat saveFormat)
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق XPS على شكل طية كتاب.
+يوضح كيفية حفظ مستند بتنسيق XPS في شكل كتاب مطوي.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذا الأسلوب للمستند إلى .XPS.
+// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions(SaveFormat.Xps);
 
-// اضبط خاصية "UseBookFoldPrintingSettings" على "صحيح" لترتيب المحتويات
-// في مخرجات XPS بطريقة تساعدنا على استخدامها لعمل كتيب.
-// قم بتعيين خاصية "UseBookFoldPrintingSettings" على "خطأ" لعرض XPS بشكل طبيعي.
+// اضبط خاصية "UseBookFoldPrintingSettings" على "true" لترتيب المحتويات
+// في إخراج XPS بطريقة تساعدنا على استخدامه لإنشاء كتيب.
+// قم بضبط خاصية "UseBookFoldPrintingSettings" على "false" لعرض XPS بشكل طبيعي.
 xpsOptions.UseBookFoldPrintingSettings = renderTextAsBookFold;
 
-// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "الصفحات المتعددة"
+// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "صفحات متعددة"
 // خصائص كائنات إعداد الصفحة لجميع الأقسام إلى "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookFold)
     foreach (Section s in doc.Sections)
@@ -97,7 +97,7 @@ if (renderTextAsBookFold)
     }
 
 // بمجرد طباعة هذه الوثيقة، يمكننا تحويلها إلى كتيب عن طريق تكديس الصفحات
-// للخروج من الطابعة والطي في المنتصف.
+// للخروج من الطابعة وطيها من المنتصف.
 doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 

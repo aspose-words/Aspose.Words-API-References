@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportRoundtripInformation свойство. Указывает следует ли записывать двустороннюю информацию при сохранении в HTML MHTML или EPUB. Значение по умолчаниюистинный для HTML иЛОЖЬ для MHTML и EPUB на С#.
+description: Откройте для себя свойство ExportRoundtripInformation HtmlSaveOptions для управления данными о круговой передаче в форматах HTML, MHTML и EPUB. Оптимизируйте свой экспорт сегодня!
 type: docs
 weight: 240
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-Указывает, следует ли записывать двустороннюю информацию при сохранении в HTML, MHTML или EPUB. Значение по умолчанию:`истинный` для HTML и`ЛОЖЬ` для MHTML и EPUB.
+Указывает, следует ли записывать информацию о цикле передачи при сохранении в формате HTML, MHTML или EPUB. Значение по умолчанию:`истинный` для HTML и`ЛОЖЬ` для MHTML и EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -18,30 +18,30 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## Примечания
 
-Сохранение информации о возврате позволяет восстановить свойства документа, такие как позиции табуляции, комментарии , верхние и нижние колонтитулы во время загрузки HTML-документов обратно в файл.[`Document`](../../../aspose.words/document/) объект.
+Сохранение информации о цикле позволяет восстанавливать свойства документа, такие как позиции табуляции, комментарии , верхние и нижние колонтитулы во время загрузки HTML-документов обратно в[`Document`](../../../aspose.words/document/) объект.
 
-Когда`истинный`, информация туда и обратно экспортируется как -aw-* CSS Properties соответствующих элементов HTML.
+Когда`истинный`, информация о круговом пути экспортируется как -aw-* CSS properties соответствующих HTML-элементов.
 
-Когда`ЛОЖЬ`, не приводит к выводу информации о обратном пути в создаваемые файлы.
+Когда`ЛОЖЬ`, приводит к тому, что в создаваемые файлы не выводится информация о круговом пути.
 
 ## Примеры
 
-Показывает, как сохранить скрытые элементы при преобразовании в .html.
+Показывает, как сохранить скрытые элементы при конвертации в .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// При преобразовании документа в .html некоторые элементы, такие как скрытые закладки, исходные положения фигур,
+// При конвертации документа в .html некоторые элементы, такие как скрытые закладки, исходные положения фигур,
 // или сноски будут либо удалены, либо преобразованы в обычный текст и фактически потеряны.
-// Сохранение с помощью объекта HtmlSaveOptions с параметром ExportRoundtripInformation, установленным в true, сохранит эти элементы.
+// Сохранение с помощью объекта HtmlSaveOptions, для которого ExportRoundtripInformation установлено значение true, сохранит эти элементы.
 
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions, чтобы определить
 // как операция сохранения будет экспортировать элементы документа, которые HTML не поддерживает или не использует,
-// такие как скрытые закладки и исходные позиции фигур.
-// Если мы установим флаг «ExportRoundtripInformation» в значение «true», операция сохранения сохранит эти элементы.
-// Если мы установим флаг «ExportRoundTripInformation» в значение «false», операция сохранения отменит эти элементы.
-// Нам нужно сохранить такие элементы, если мы собираемся загрузить сохраненный HTML с помощью Aspose.Words,
-// так как они могут еще раз пригодиться.
+// например, скрытые закладки и исходные положения фигур.
+// Если установить флаг «ExportRoundtripInformation» в значение «true», операция сохранения сохранит эти элементы.
+// Если установить флаг «ExportRoundTripInformation» в значение «false», операция сохранения отбросит эти элементы.
+// Мы захотим сохранить такие элементы, если собираемся загрузить сохраненный HTML с помощью Aspose.Words,
+// так как они могут снова пригодиться.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

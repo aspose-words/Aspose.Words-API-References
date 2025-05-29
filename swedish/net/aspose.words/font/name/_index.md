@@ -3,14 +3,14 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: Font Name fast egendom. Hämtar eller ställer in namnet på teckensnittet i C#.
+description: Upptäck egenskapen Teckensnittsnamn för att enkelt anpassa och ställa in dina teckensnittsstilar, vilket förbättrar din designs attraktionskraft och läsbarhet.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-Hämtar eller ställer in namnet på teckensnittet.
+Hämtar eller anger namnet på teckensnittet.
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Anmärkningar
 
-När man får, återkommer[`NameAscii`](../nameascii/).
+När man får returer[`NameAscii`](../nameascii/).
 
-Vid inställning, ställer in[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) och[`NameOther`](../nameother/) till det angivna värdet.
+Vid inställning, sätter[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) och[`NameOther`](../nameother/) till det angivna värdet.
 
 ## Exempel
 
-Visar hur man formaterar en serie text med dess teckensnittsegenskap.
+Visar hur man formaterar en textsekvens med hjälp av dess font-egenskap.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Visar hur man infogar formaterad text med DocumentBuilder.
+Visar hur man infogar formaterad text med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

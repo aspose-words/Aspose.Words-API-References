@@ -3,14 +3,14 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words för .NET
-description: Font Underline fast egendom. Hämtar eller ställer in typen av understrykning som appliceras på teckensnittet i C#.
+description: Upptäck egenskapen Understrykning för att anpassa textstilar. Ställ enkelt in och modifiera understrykningstyper för förbättrad typografi i dina designer.
 type: docs
-weight: 530
+weight: 540
 url: /sv/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
 
-Hämtar eller ställer in typen av understrykning som appliceras på teckensnittet.
+Hämtar eller anger vilken typ av understrykning som tillämpas på teckensnittet.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar stilen och färgen på en textunderstrykning.
+Visar hur man konfigurerar stil och färg för en understrykning av text.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Writeln("Underlined text.");
 doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ```
 
-Visar hur man infogar formaterad text med DocumentBuilder.
+Visar hur man infogar formaterad text med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -57,11 +57,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Infoga en hyperlänk och framhäva den med anpassad formatering.
-// Hyperlänken kommer att vara ett klickbart stycke text som tar oss till den plats som anges i URL:en.
+// Infoga en hyperlänk och framhäv den med anpassad formatering.
+// Hyperlänken kommer att vara en klickbar textbit som tar oss till den plats som anges i URL:en.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falskt);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

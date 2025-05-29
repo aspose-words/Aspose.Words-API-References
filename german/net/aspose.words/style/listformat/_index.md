@@ -3,7 +3,7 @@ title: Style.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words für .NET
-description: Style ListFormat eigendom. Bietet Zugriff auf die Listenformatierungseigenschaften eines Absatzstils in C#.
+description: Entdecken Sie, wie Sie die ListFormat-Eigenschaft für Absatzstile anpassen und so die Organisation und visuelle Attraktivität Ihres Dokuments verbessern.
 type: docs
 weight: 110
 url: /de/net/aspose.words/style/listformat/
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## Bemerkungen
 
-Diese Eigenschaft ist nur für Absatzstile gültig. Für andere Stiltypen gibt diese Eigenschaft zurück`Null`.
+Diese Eigenschaft ist nur für Absatzformate gültig. Für andere Formattypen gibt diese Eigenschaft zurück`null`.
 
 ## Beispiele
 
@@ -38,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
+// Wenden Sie den Absatzstil auf den aktuellen Absatz des Dokumentgenerators an und fügen Sie dann etwas Text hinzu.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Dokument-Generators in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

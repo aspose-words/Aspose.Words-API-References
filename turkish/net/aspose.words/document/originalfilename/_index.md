@@ -2,10 +2,10 @@
 title: Document.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
-second_title: Aspose.Words for .NET
-description: Document OriginalFileName mülk. Belgenin orijinal dosya adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin orijinal dosya adını Document OriginalFileName özelliğiyle zahmetsizce alın. İş akışınızı ve organizasyonunuzu bugün geliştirin!
 type: docs
-weight: 290
+weight: 300
 url: /tr/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
@@ -18,7 +18,7 @@ public string OriginalFileName { get; }
 
 ## Notlar
 
-İadeler`hükümsüz` belgenin bir akıştan yüklenip yüklenmediği veya boş olarak oluşturulmuş olup olmadığı.
+İade`hükümsüz` Belge bir akıştan yüklendiyse veya boş oluşturulduysa.
 
 ## Örnekler
 
@@ -34,7 +34,7 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
-// Dosya uzantısı eksik olan bir dosyadan belge yükleyin ve ardından dosya biçimini tespit edin.
+// Dosya uzantısı eksik olan bir dosyadan bir belge yükleyin ve ardından dosya biçimini algılayın.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -42,15 +42,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi verilmiştir.
-    // 1 - LoadFormat için dosya uzantısı dizesini alın, ardından bu dizeden karşılık gelen SaveFormat'ı alın:
+    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi bulunmaktadır.
+    // 1 - LoadFormat için dosya uzantısı dizesini al, ardından bu dizeden karşılık gelen SaveFormat'ı al:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştürün:
+    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştür:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Akıştan bir belge yükleyin ve ardından onu otomatik olarak algılanan dosya uzantısına kaydedin.
+    // Akıştan bir belge yükleyin ve ardından otomatik olarak algılanan dosya uzantısıyla kaydedin.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

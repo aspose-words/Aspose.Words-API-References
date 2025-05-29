@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportPageSetup mülk. Sayfa düzeninin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportPageSetup özelliğinin, daha iyi çıktı için özelleştirilebilir sayfa kurulumlarına izin vererek HTML, MHTML veya EPUB dışa aktarma işlemlerinizi nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-Sayfa düzeninin HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılacağını belirtir. Varsayılan:`YANLIŞ` .
+Sayfa düzeninin HTML, MHTML veya EPUB'a aktarılıp aktarılmayacağını belirtir. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## Notlar
 
-Her biri[`Section`](../../../aspose.words/section/) Aspose.Words belge modelinde sayfa düzeni bilgileri aracılığıyla sağlanır[`PageSetup`](../../../aspose.words/pagesetup/) sınıf. Bir belgeyi HTML formatına aktardığınızda, bu information bilgisini daha sonra kullanmak üzere saklamanız gerekebilir. Özellikle, sayfa düzeni, sayfalanmış ortama (yazdırma) veya daha sonra yerel Microsoft Word dosya biçimlerine (DOCX, DOC, RTF, WML) dönüştürme için önemli olabilir.
+Her biri[`Section`](../../../aspose.words/section/) Aspose.Words belge modelinde sayfa kurulumu bilgisi yoluyla sağlanır[`PageSetup`](../../../aspose.words/pagesetup/) sınıf. Bir belgeyi HTML biçimine aktardığınızda bu bilgiyi daha sonraki kullanımlar için saklamanız gerekebilir . Özellikle, sayfa düzeni sayfalı medyaya işleme (yazdırma) veya daha sonra yerel Microsoft Word dosya biçimlerine (DOCX, DOC, RTF, WML) dönüştürme için önemli olabilir.
 
-Çoğu durumda HTML, sayfalandırmanın yapılmadığı tarayıcılarda görüntülenmek üzere tasarlanmıştır. Dolayısıyla bu feature varsayılan olarak etkin değildir.
+Çoğu durumda HTML, sayfalamanın gerçekleştirilmediği tarayıcılarda görüntülenmek üzere tasarlanmıştır. Bu nedenle bu feature varsayılan olarak etkin değildir.
 
 ## Örnekler
 
-HTML'ye kaydederken bölüm yapısı/sayfa düzeni bilgilerinin korunup korunmayacağına nasıl karar verileceğini gösterir.
+HTML'e kaydederken bölüm yapısının/sayfa kurulum bilgilerinin korunup korunmayacağına nasıl karar verileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,11 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// Belgeyi HTML'ye kaydederken bir SaveOptions nesnesi iletebiliriz
-// sayfa düzeni ayarlarının korunacağına veya atılacağına karar vermek için.
-// "ExportPageSetup" bayrağını "true" olarak ayarlarsak, çıktı HTML belgesi sayfa yapısı yapılandırmamızı içerecektir.
-// "ExportPageSetup" bayrağını "false" olarak ayarlarsak, kaydetme işlemi sayfa yapısı ayarlarımızı iptal edecektir
-// ilk bölüm için, her iki bölüm de aynı görünecektir.
+// Belgeyi HTML'e kaydederken SaveOptions nesnesini geçirebiliriz
+// sayfa düzeni ayarlarının korunup korunmayacağına karar vermek için.
+// "ExportPageSetup" bayrağını "true" olarak ayarlarsak, çıktı HTML belgesi sayfa kurulum yapılandırmamızı içerecektir.
+// "ExportPageSetup" bayrağını "false" olarak ayarlarsak, kaydetme işlemi sayfa düzeni ayarlarımızı atacaktır
+// ilk bölüm için ve her iki bölüm de aynı görünecektir.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageSetup.html", options);

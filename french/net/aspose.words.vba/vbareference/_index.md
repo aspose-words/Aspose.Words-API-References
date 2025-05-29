@@ -3,16 +3,16 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Vba.VbaReference classe. Implémente une référence à une bibliothèque de types Automation ou à un projet VBA en C#.
+description: Découvrez la classe Aspose.Words.Vba.VbaReference pour une intégration fluide avec les bibliothèques de types Automation et les projets VBA. Optimisez l'automatisation de vos documents dès aujourd'hui !
 type: docs
-weight: 6590
+weight: 7440
 url: /fr/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
 Implémente une référence à une bibliothèque de types Automation ou à un projet VBA.
 
-Pour en savoir plus, visitez le[Travailler avec des macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article de documentation.
 
 ```csharp
 public abstract class VbaReference
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

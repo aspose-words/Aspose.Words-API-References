@@ -3,7 +3,7 @@ title: ChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words für .NET
-description: ChartDataPoint Bubble3D eigendom. Gibt an ob auf die Blasen im Blasendiagramm ein 3DEffekt angewendet werden soll in C#.
+description: Verbessern Sie Ihr Blasendiagramm mit der Bubble3D-Eigenschaft von ChartDataPoint und fügen Sie Ihrer Datenvisualisierung beeindruckende 3D-Effekte hinzu, um wirkungsvolle Erkenntnisse zu gewinnen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/

@@ -3,7 +3,7 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words pour .NET
-description: TableStyle Borders propriété. Obtient la collection de bordures de cellules par défaut pour le style en C#.
+description: Découvrez la propriété Bordures de TableStyle pour accéder aux bordures de cellule par défaut pour vos styles, améliorant ainsi votre conception avec des options transparentes et personnalisables.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/tablestyle/borders/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -2,15 +2,15 @@
 title: PageSetup.DifferentFirstPageHeaderFooter
 linktitle: DifferentFirstPageHeaderFooter
 articleTitle: DifferentFirstPageHeaderFooter
-second_title: Aspose.Words for .NET
-description: PageSetup DifferentFirstPageHeaderFooter mülk. İlk sayfada farklı bir üst bilgi veya alt bilgi kullanılmışsa doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin ilk sayfasını profesyonel bir dokunuş için benzersiz üstbilgiler ve altbilgilerle özelleştirmek üzere PageSetup DifferentFirstPageHeaderFooter özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-İlk sayfada farklı bir üst bilgi veya alt bilgi kullanılmışsa doğrudur.
+İlk sayfada farklı bir üstbilgi veya altbilgi kullanılıyorsa doğrudur.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -18,7 +18,7 @@ public bool DifferentFirstPageHeaderFooter { get; set; }
 
 ## Örnekler
 
-DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
+DocumentBuilder kullanılarak bir belgede üstbilgi ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -52,8 +52,8 @@ Birincil üstbilgilerin/altbilgilerin nasıl etkinleştirileceğini veya devre d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda iki tür üstbilgi/altbilgi bulunmaktadır.
-// 1 - Bölümün ilk sayfasında görünen "İlk" üstbilgi/altbilgi.
+// Aşağıda iki tip başlık/altbilgi bulunmaktadır.
+// 1 - Bölümün ilk sayfasında görünen "İlk" başlık/altbilgi.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
@@ -61,7 +61,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
 // 2 - Bölümün her sayfasında görünen "Birincil" üstbilgi/altbilgi.
- // Birincil üstbilgi/altbilgiyi bir ilk ve çift sayfa üstbilgisi/altbilgisi ile geçersiz kılabiliriz.
+// Birincil üstbilgi/altbilgiyi birinci ve çift sayfa üstbilgi/altbilgisiyle geçersiz kılabiliriz.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -75,64 +75,57 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Her bölümde sayfa görünümüyle ilgili özellikleri belirten bir "PageSetup" nesnesi bulunur
-// yönlendirme, boyut ve kenarlıklar gibi.
+// Her bölümün, sayfa görünümüyle ilgili özellikleri belirten bir "PageSetup" nesnesi vardır
+// Yönlendirme, boyut ve kenarlıklar gibi.
 // İlk üstbilgi/altbilgiyi ilk sayfaya uygulamak için "DifferentFirstPageHeaderFooter" özelliğini "true" olarak ayarlayın.
 // "DifferentFirstPageHeaderFooter" özelliğini "false" olarak ayarlayın
-// ilk sayfanın birincil üstbilgi/altbilgiyi göstermesini sağlamak için.
+// ilk sayfanın birincil üstbilgi/altbilgiyi görüntülemesini sağlamak için.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-Bir metin değiştirme işleminin düğümlerden geçtiği sıranın nasıl izleneceğini gösterir.
+Bir metin değiştirme işleminin düğümleri hangi sırayla geçtiğinin nasıl izleneceğini gösterir.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
 
-            Section firstPageSection = doc.FirstSection;
+    Section firstPageSection = doc.FirstSection;
 
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
 
-            // İlk sayfa için farklı bir üstbilgi/altbilgi kullanılması arama sırasını etkileyecektir.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
+    // İlk sayfa için farklı bir üstbilgi/altbilgi kullanılması arama sırasını etkileyecektir.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
 
-        /// <summary>
-        /// Bul ve değiştir işlemi sırasında, işlemin 'bulduğu' metni içeren her düğümün içeriğini kaydeder,
-        /// değiştirme gerçekleşmeden önceki durumu.
-        /// Bu, metin değiştirme işleminin düğümlerden geçtiği sırayı görüntüler.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
+/// <summary>
+/// Bir bul-değiştir işlemi sırasında, işlemin 'bulduğu' metni içeren her düğümün içeriğini kaydeder,
+/// değiştirme gerçekleşmeden önceki hali.
+/// Bu, metin değiştirme işleminin düğümleri hangi sırayla dolaşacağını görüntüler.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
 
-            internal string Text => mTextBuilder.ToString();
+    internal string Text => mTextBuilder.ToString();
 
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
 ```
 
 ### Ayrıca bakınız

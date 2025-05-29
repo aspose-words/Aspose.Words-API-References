@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagCollection RemoveAt метод. Удаляет тег структурированного документа по указанному индексу на С#.
+description: Легко управляйте структурированными тегами документов с помощью метода RemoveAt. Быстро удаляйте теги по индексу для упрощенного редактирования документов.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/removeat/
 ---
 ## StructuredDocumentTagCollection.RemoveAt method
 
-Удаляет тег структурированного документа по указанному индексу.
+Удаляет структурированный тег документа по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции. |
+| index | Int32 | Указатель коллекции. |
 
 ## Примеры
 
-Показывает, как удалить тег структурированного документа.
+Показывает, как удалить структурированный тег документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Удаляем тег структурированного документа по идентификатору.
+// Удалить структурированный тег документа по идентификатору.
 structuredDocumentTags.Remove(1691867797);
-// Удаляем тег структурированного документа в позиции 0.
+// Удалить структурированный тег документа в позиции 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

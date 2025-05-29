@@ -3,7 +3,7 @@ title: FieldComments
 linktitle: FieldComments
 articleTitle: FieldComments
 second_title: Aspose.Words für .NET
-description: FieldComments constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldComments-Konstruktor – Ihre Lösung für nahtlose Integration und erweiterte Funktionalität in Ihren Projekten. Vereinfachen Sie die Entwicklung noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldcomments/fieldcomments/

@@ -3,7 +3,7 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: Aspose.Words för .NET
-description: PageSetup LayoutMode fast egendom. Hämtar eller ställer in layoutläget för detta avsnitt i C#.
+description: Upptäck egenskapen PageSetup LayoutMode för att enkelt anpassa dokumentets layout. Förbättra din design med flexibla sektionsalternativ!
 type: docs
 weight: 190
 url: /sv/net/aspose.words/pagesetup/layoutmode/
@@ -18,17 +18,17 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Exempel
 
-Visar hur man anger a för antalet tecken som varje rad kan ha.
+Visar hur man anger ett för antalet tecken som varje rad får innehålla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aktivera pitching och använd den sedan för att ställa in antalet tecken per rad i det här avsnittet.
+// Aktivera radbreddning och använd den sedan för att ange antalet tecken per rad i det här avsnittet.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Antalet tecken beror också på storleken på teckensnittet.
+// Antalet tecken beror också på teckenstorleken.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -38,7 +38,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Visar hur man anger en gräns för antalet rader som varje sida kan ha.
+Visar hur man anger en gräns för antalet rader som varje sida får ha.
 
 ```csharp
 Document doc = new Document();

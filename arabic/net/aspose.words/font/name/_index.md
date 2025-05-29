@@ -3,14 +3,14 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: Font Name ملكية. الحصول على اسم الخط أو تعيينه في C#.
+description: اكتشف خاصية اسم الخط لتخصيص أنماط الخطوط الخاصة بك وتعيينها بسهولة، مما يعزز جاذبية تصميمك وقابليته للقراءة.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-الحصول على اسم الخط أو تعيينه.
+يحصل على اسم الخط أو يعينه.
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## ملاحظات
 
-عند الحصول، يعود[`NameAscii`](../nameascii/).
+عند الحصول عليها، يعود[`NameAscii`](../nameascii/).
 
-عند الإعداد، مجموعات[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) و[`NameOther`](../nameother/) إلى القيمة المحددة.
+عند الضبط، يتم ضبط[`NameAscii`](../nameascii/) ،[`NameBi`](../namebi/) ،[`NameFarEast`](../namefareast/) و[`NameOther`](../nameother/) إلى القيمة المحددة.
 
 ## أمثلة
 
-يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
+يوضح كيفية تنسيق سلسلة من النص باستخدام خاصية الخط الخاصة به.
 
 ```csharp
 Document doc = new Document();

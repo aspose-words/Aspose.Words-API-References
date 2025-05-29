@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.WidthPercent
 linktitle: WidthPercent
 articleTitle: WidthPercent
 second_title: Aspose.Words لـ .NET
-description: HorizontalRuleFormat WidthPercent ملكية. الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة في C#.
+description: اكتشف خاصية HorizontalRuleFormat WidthPercent لتخصيص طول القاعدة الأفقية بسهولة كنسبة مئوية من عرض النافذة للتحكم في التصميم بشكل أفضل.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة.
+يحصل على طول القاعدة الأفقية المحددة أو يعينه معبرًا عنها كنسبة مئوية من عرض النافذة.
 
 ```csharp
 public double WidthPercent { get; set; }
@@ -20,17 +20,17 @@ public double WidthPercent { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الحجة خارج نطاق القيم الصالحة. |
 
 ## ملاحظات
 
-تتراوح القيم الصالحة من 1 إلى 100 ضمناً.
+تتراوح القيم الصالحة من 1 إلى 100 شاملة.
 
 القيمة الافتراضية هي 100.
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

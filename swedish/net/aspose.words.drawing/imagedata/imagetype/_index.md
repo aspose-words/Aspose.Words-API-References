@@ -3,14 +3,14 @@ title: ImageData.ImageType
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words för .NET
-description: ImageData ImageType fast egendom. Hämtar typen av bild i C#.
+description: Upptäck ImageData ImageType-egenskapen för att enkelt identifiera bildtyper och förbättra dina bildhanteringsmöjligheter. Öka din utvecklingseffektivitet idag!
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/imagedata/imagetype/
 ---
 ## ImageData.ImageType property
 
-Hämtar typen av bild.
+Hämtar bildens typ.
 
 ```csharp
 public ImageType ImageType { get; }
@@ -34,8 +34,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

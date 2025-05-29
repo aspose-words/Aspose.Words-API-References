@@ -3,16 +3,16 @@ title: RevisionGroupCollection Class
 linktitle: RevisionGroupCollection
 articleTitle: RevisionGroupCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.RevisionGroupCollection classe. Une collection deRevisionGroup objets qui représentent les groupes de révision dans le document en C#.
+description: Découvrez la classe Aspose.Words.RevisionGroupCollection, offrant une gestion efficace des groupes de révision de documents pour une édition et une collaboration améliorées.
 type: docs
-weight: 4790
+weight: 5530
 url: /fr/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Une collection de[`RevisionGroup`](../revisiongroup/) objets qui représentent les groupes de révision dans le document.
+Une collection de[`RevisionGroup`](../revisiongroup/)objets qui représentent des groupes de révision dans le document.
 
-Pour en savoir plus, visitez le[Suivre les modifications dans un document](https://docs.aspose.com/words/net/track-changes-in-a-document/) article documentaire.
+Pour en savoir plus, visitez le[Suivre les modifications dans un document](https://docs.aspose.com/words/net/track-changes-in-a-document/) article de documentation.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -22,8 +22,8 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Renvoie le nombre de groupes de révisions dans la collection. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Renvoie un groupe de révisions à l'index spécifié. |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Renvoie le nombre de groupes de révision dans la collection. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Renvoie un groupe de révision à l'index spécifié. |
 
 ## Méthodes
 
@@ -33,7 +33,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ## Remarques
 
-Vous ne créez pas directement des instances de cette classe. Utilisez le[`Groups`](../revisioncollection/groups/) Propriété pour obtenir les groupes de révision présents dans un document.
+Vous ne créez pas d'instances de cette classe directement. Utilisez le[`Groups`](../revisioncollection/groups/) Propriété pour obtenir les groupes de révision présents dans un document.
 
 ## Exemples
 

@@ -3,16 +3,16 @@ title: FieldCompare Class
 linktitle: FieldCompare
 articleTitle: FieldCompare
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldCompare klass. Implementerar fältet COMPARE i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldCompare för enkel dokumentjämförelse. Förbättra ditt arbetsflöde med kraftfulla och exakta fältfunktioner.
 type: docs
-weight: 1710
+weight: 2120
 url: /sv/net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class
 
-Implementerar fältet COMPARE.
+Implementerar COMPARE-fältet.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldCompare : Field
@@ -30,14 +30,14 @@ public class FieldCompare : Field
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/fieldcompare/comparisonoperator/) { get; set; } | Hämtar eller ställer in jämförelseoperatorn. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LeftExpression](../../aspose.words.fields/fieldcompare/leftexpression/) { get; set; } | Hämtar eller ställer in den vänstra delen av jämförelseuttrycket. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [RightExpression](../../aspose.words.fields/fieldcompare/rightexpression/) { get; set; } | Hämtar eller ställer in den högra delen av jämförelseuttrycket. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältets slut. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/)objekt som ger typad åtkomst till fältets formatering. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller anger om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller anger om fältet är låst (resultatet ska inte beräknas om). |
+| [LeftExpression](../../aspose.words.fields/fieldcompare/leftexpression/) { get; set; } | Hämtar eller anger den vänstra delen av jämförelseuttrycket. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in fältets LCID. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller anger text som är mellan fältavgränsaren och fältslutet. |
+| [RightExpression](../../aspose.words.fields/fieldcompare/rightexpression/) { get; set; } | Hämtar eller anger den högra delen av jämförelseuttrycket. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -46,20 +46,20 @@ public class FieldCompare : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underfält inkluderas. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista undernoden till dess överordnade nod, returneras dess överordnade stycke. Om fältet redan är borttaget returneras`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavkopplingen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Körs om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Körs om fältet redan uppdateras. |
 
 ## Anmärkningar
 
-Jämför värdena som anges av uttrycken[`LeftExpression`](./leftexpression/) och[`RightExpression`](./rightexpression/) i jämförelse med den operatör som anges av[`ComparisonOperator`](./comparisonoperator/) .
+Jämför värdena som anges av uttrycken[`LeftExpression`](./leftexpression/) och[`RightExpression`](./rightexpression/) i jämförelse med hjälp av operatorn som anges av[`ComparisonOperator`](./comparisonoperator/) .
 
 ## Exempel
 
-Visar hur man jämför uttryck med ett COMPARE-fält.
+Visar hur man jämför uttryck med hjälp av ett JÄMFÖR-fält.
 
 ```csharp
 Document doc = new Document();
@@ -71,8 +71,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// COMPARE-fältet visar en "0" eller en "1", beroende på påståendets sanning.
-// Resultatet av detta påstående är falskt så att detta fält kommer att visa en "0".
+// JÄMFÖR-fältet visar en "0" eller en "1", beroende på hur sant dess påstående är.
+// Resultatet av denna sats är falskt så att detta fält kommer att visa en "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -84,7 +84,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Detta fält visar en "1" eftersom påståendet är sant.
+// Det här fältet visar en "1" eftersom påståendet är sant.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

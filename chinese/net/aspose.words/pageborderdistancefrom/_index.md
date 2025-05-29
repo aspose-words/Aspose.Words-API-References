@@ -2,10 +2,10 @@
 title: PageBorderDistanceFrom Enum
 linktitle: PageBorderDistanceFrom
 articleTitle: PageBorderDistanceFrom
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.PageBorderDistanceFrom 枚举. 指定页面边框相对于页边距的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.PageBorderDistanceFrom 枚举，实现精确的页面边框定位。通过优化页边距定位，增强文档格式。
 type: docs
-weight: 4350
+weight: 5080
 url: /zh/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
@@ -20,12 +20,12 @@ public enum PageBorderDistanceFrom
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 边框位置是从页边距开始测量的。 |
-| PageEdge | `1` | 边框位置是从页面边缘开始测量的。 |
+| Text | `0` | 边框位置从页边距开始测量。 |
+| PageEdge | `1` | 边框位置从页面边缘测量。 |
 
 ## 例子
 
-演示如何在第一页顶部创建宽蓝色带边框。
+展示如何在首页顶部创建宽蓝色带状边框。
 
 ```csharp
 Document doc = new Document();

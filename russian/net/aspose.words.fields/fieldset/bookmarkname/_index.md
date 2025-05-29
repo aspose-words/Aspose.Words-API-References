@@ -3,7 +3,7 @@ title: FieldSet.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words для .NET
-description: FieldSet BookmarkName свойство. Получает или задает имя закладки на С#.
+description: Откройте для себя свойство FieldSet BookmarkName, чтобы легко управлять и настраивать ваши закладки. Улучшите навигацию вашего приложения с помощью этой ключевой функции!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldset/bookmarkname/
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## Примеры
 
-Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
+Показывает, как создать текст с закладками с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Назовите текст закладки с помощью поля SET.
-// Это поле относится к «закладке», а не к структуре закладки, которая появляется в тексте, а к именованной переменной.
+ // Назовите заложенный текст с помощью поля SET.
+// Это поле ссылается на «закладку», а не на структуру закладки, которая отображается в тексте, а на именованную переменную.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Обращаемся к закладке по имени в поле REF и отображаем ее содержимое.
+// Ссылка на закладку по имени в поле REF и отображение ее содержимого.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

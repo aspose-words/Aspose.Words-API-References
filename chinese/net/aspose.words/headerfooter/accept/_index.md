@@ -2,8 +2,8 @@
 title: HeaderFooter.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: HeaderFooter Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HeaderFooter Accept 方法，轻松增强访客参与度并简化网站上的互动。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/headerfooter/accept/
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为 True；如果访问了所有节点，则为 false[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
+枚举此节点及其所有子节点。每个节点都会调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
-通话[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/)，然后调用[`Accept`](../../node/accept/)对于section 的所有子节点并调用[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/)最后.
+呼叫[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/)，然后调用[`Accept`](../../node/accept/)对于 section 的所有子节点并调用[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/)在最后。
 
 ## 例子
 
-演示如何打印文档中每个页眉和页脚的节点结构。
+展示如何打印文档中每个页眉和页脚的节点结构。
 
 ```csharp
 public void HeaderFooterToText()
@@ -42,21 +42,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
     // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // 逐节访问文档页眉/页脚的另一种方法是访问集合。
+    // 逐节访问文档的页眉/页脚的另一种方法是通过访问集合。
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的 HeaderFooter 节点及其子节点的映射。
+/// 遍历节点的子节点非二叉树。
+/// 以字符串的形式创建所有遇到的 HeaderFooter 节点及其子节点的映射。
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -82,7 +82,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 HeaderFooter 节点时调用。
+    /// 当在文档中遇到 HeaderFooter 节点时调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 HeaderFooter 节点的所有子节点后调用。
+    /// 在访问完 HeaderFooter 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -106,9 +106,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 向 StringBuilder 添加一行，并根据访问者在文档树中的深度来缩进。
+    /// 向 StringBuilder 附加一行，并根据访问者在文档树中的深度进行缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words per .NET
-description: FieldMergeBarcode ScalingFactor proprietà. Ottiene o imposta un fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000 in C#.
+description: Scopri la proprietà FieldMergeBarcode ScalingFactor per regolare facilmente le dimensioni del tuo codice a barre in punti percentuali interi (10-1000) per una visibilità ottimale.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
@@ -24,8 +24,8 @@ Mostra come eseguire una stampa unione sui codici a barre QR.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di un'origine dati di unione in codici QR.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di una sorgente dati di unione in codici QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -43,7 +43,7 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice QR con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");

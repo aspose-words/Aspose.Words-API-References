@@ -3,7 +3,7 @@ title: FieldEQ
 linktitle: FieldEQ
 articleTitle: FieldEQ
 second_title: Aspose.Words لـ .NET
-description: FieldEQ البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldEQ الافتراضي القوي لتكامل سلس وأداء مُحسّن. ارتقِ بمشاريعك مع حلولنا المُبتكرة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldeq/fieldeq/

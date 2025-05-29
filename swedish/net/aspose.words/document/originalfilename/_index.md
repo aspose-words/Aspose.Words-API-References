@@ -3,14 +3,14 @@ title: Document.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words för .NET
-description: Document OriginalFileName fast egendom. Hämtar originalfilnamnet för dokumentet i C#.
+description: Hämta det ursprungliga filnamnet på ditt dokument enkelt med egenskapen Dokumentets ursprungliga filnamn. Förbättra ditt arbetsflöde och din organisation idag!
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
 
-Hämtar originalfilnamnet för dokumentet.
+Hämtar dokumentets ursprungliga filnamn.
 
 ```csharp
 public string OriginalFileName { get; }
@@ -18,11 +18,11 @@ public string OriginalFileName { get; }
 
 ## Anmärkningar
 
-Returnerar`null` om dokumentet laddades från en ström eller skapades tomt.
+Returer`null` om dokumentet laddades från en ström eller skapades tomt.
 
 ## Exempel
 
-Visar hur man hämtar information om ett dokuments laddningsoperation.
+Visar hur man hämtar information om ett dokuments inläsningsoperation.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,10 +31,10 @@ Assert.AreEqual(MyDir + "Document.docx", doc.OriginalFileName);
 Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 ```
 
-Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
+Visar hur man använder FileFormatUtil-metoderna för att identifiera ett dokuments format.
 
 ```csharp
-// Ladda ett dokument från en fil som saknar filtillägg, och identifiera sedan dess filformat.
+// Ladda ett dokument från en fil som saknar filändelse och identifiera sedan dess filformat.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -42,15 +42,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Nedan finns två metoder för att konvertera ett LoadFormat till dess motsvarande SaveFormat.
-    // 1 - Hämta filtilläggssträngen för LoadFormat och hämta sedan motsvarande SaveFormat från den strängen:
+    // Nedan följer två metoder för att konvertera ett LoadFormat till motsvarande SaveFormat.
+    // 1 - Hämta filändelsen för LoadFormat och hämta sedan motsvarande SaveFormat från den strängen:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - Konvertera LoadFormat direkt till dess SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Ladda ett dokument från strömmen och spara det sedan i det automatiskt upptäckta filtillägget.
+    // Ladda ett dokument från strömmen och spara det sedan till den automatiskt upptäckta filändelsen.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

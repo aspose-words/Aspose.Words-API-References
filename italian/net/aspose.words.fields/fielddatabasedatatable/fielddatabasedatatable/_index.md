@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words per .NET
-description: FieldDatabaseDataTable costruttore. Inizializza una nuova istanza diFieldDatabaseDataTable classe in C#.
+description: Scopri il costruttore FieldDatabaseDataTable, la chiave per inizializzare in modo efficiente le tabelle dati, per una gestione fluida del database e prestazioni migliorate.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/

@@ -3,14 +3,14 @@ title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words för .NET
-description: FrameFormat VerticalAlignment fast egendom. Får vertikal justering av den angivna ramen i C#.
+description: Upptäck egenskapen FrameFormat VerticalAlignment för att enkelt hantera vertikal justering för ramar och förbättra din layoutdesign utan ansträngning.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/frameformat/verticalalignment/
 ---
 ## FrameFormat.VerticalAlignment property
 
-Får vertikal justering av den angivna ramen.
+Hämtar vertikal justering av den angivna ramen.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; }

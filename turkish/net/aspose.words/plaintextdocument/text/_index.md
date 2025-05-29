@@ -2,15 +2,15 @@
 title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: PlainTextDocument Text mülk. Belgenin metin içeriğini bir dize olarak birleştirir C#'da.
+second_title: .NET için Aspose.Words
+description: Veri işleme ve analizinizi geliştirmek için, PlainTextDocument'in text özelliğine erişerek belgenin içeriğini tek bir dize olarak alın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Belgenin metin içeriğini bir dize olarak birleştirir.
+Belgenin metinsel içeriğini bir dize olarak birleştirilmiş olarak alır.
 
 ```csharp
 public string Text { get; }
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Örnekler
 
-Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
+Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(); 

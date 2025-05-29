@@ -3,7 +3,7 @@ title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words pour .NET
-description: Cell FirstParagraph propriété. Obtient le premier paragraphe parmi les enfants immédiats en C#.
+description: Découvrez la propriété Cell FirstParagraph pour accéder sans effort au premier paragraphe des enfants immédiats, améliorant ainsi votre gestion de contenu.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/cell/firstparagraph/
@@ -18,20 +18,20 @@ public Paragraph FirstParagraph { get; }
 
 ## Exemples
 
-Montre comment créer un tableau imbriqué à l’aide d’un générateur de documents.
+Montre comment créer un tableau imbriqué à l'aide d'un générateur de documents.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Construisez la table externe.
+// Construire la table externe.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Déplacez-vous vers la première cellule du tableau externe, puis construisez un autre tableau à l'intérieur de la cellule.
+// Déplacez-vous vers la première cellule du tableau externe, puis créez un autre tableau à l'intérieur de la cellule.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -53,7 +53,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Créez un autre tableau avec deux lignes et deux colonnes puis insérez-le dans la première cellule du premier tableau.
+    // Créez un autre tableau avec deux lignes et deux colonnes, puis insérez-le dans la première cellule du premier tableau.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -82,10 +82,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Vous pouvez utiliser les propriétés "Titre" et "Description" pour ajouter respectivement un titre et une description à votre tableau.
-    // Le tableau doit avoir au moins une ligne avant de pouvoir utiliser ces propriétés.
-    // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO/IEC 29500 (voir la classe OoxmlCompliance).
-    // Si nous enregistrons le document aux formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
+    // Vous pouvez utiliser les propriétés « Titre » et « Description » pour ajouter respectivement un titre et une description à votre tableau.
+    // La table doit avoir au moins une ligne avant que nous puissions utiliser ces propriétés.
+    // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO / IEC 29500 (voir la classe OoxmlCompliance).
+    // Si nous enregistrons le document dans des formats antérieurs à ISO/IEC 29500, Microsoft Word ignore ces propriétés.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

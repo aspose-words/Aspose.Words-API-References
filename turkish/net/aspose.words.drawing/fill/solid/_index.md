@@ -2,15 +2,15 @@
 title: Fill.Solid
 linktitle: Solid
 articleTitle: Solid
-second_title: Aspose.Words for .NET
-description: Fill Solid yöntem. Dolguyu tek tip bir renge ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın görsel çekiciliğini ve tekdüzeliğini zahmetsizce artırarak tutarlı bir renk dolgusu elde etmek için Fill Solid yöntemini keşfedin.
 type: docs
-weight: 250
+weight: 260
 url: /tr/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
 
-Dolguyu tek tip bir renge ayarlar.
+Dolguyu tekdüze bir renge ayarlar.
 
 ```csharp
 public void Solid()
@@ -18,7 +18,32 @@ public void Solid()
 
 ## Notlar
 
-Dolgulardan herhangi birini tekrar katı dolguya dönüştürmek için bu yöntemi kullanın.
+Dolgulardan herhangi birini katı dolguya geri dönüştürmek için bu yöntemi kullanın.
+
+## Örnekler
+
+Herhangi bir dolgunun nasıl tekrar katı dolguya dönüştürüleceğini gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Two color gradient.docx");
+
+// İlk Çalıştırmanın Fontu için Fill nesnesini al.
+Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
+
+// Fontun Fill özelliklerini kontrol et.
+Console.WriteLine("The type of the fill is: {0}", fill.FillType);
+Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
+Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
+
+// Dolgu tipini düz yeşil renkte olacak şekilde değiştiriyoruz.
+fill.Solid();
+Console.WriteLine("\nThe fill is changed:");
+Console.WriteLine("The type of the fill is: {0}", fill.FillType);
+Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
+Console.WriteLine("The fill transparency is {0}%", fill.Transparency * 100);
+
+doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
+```
 
 ### Ayrıca bakınız
 
@@ -30,7 +55,7 @@ Dolgulardan herhangi birini tekrar katı dolguya dönüştürmek için bu yönte
 
 ## Solid(*Color*) {#solid_1}
 
-Dolguyu belirtilen tekdüze renge ayarlar.
+Dolguyu belirtilen tekdüze bir renge ayarlar.
 
 ```csharp
 public void Solid(Color color)
@@ -38,31 +63,45 @@ public void Solid(Color color)
 
 ## Notlar
 
-Dolgulardan herhangi birini tekrar katı dolguya dönüştürmek için bu yöntemi kullanın.
+Dolgulardan herhangi birini katı dolguya geri dönüştürmek için bu yöntemi kullanın.
 
 ## Örnekler
 
-Herhangi bir dolgunun tekrar katı dolguya nasıl dönüştürüleceğini gösterir.
+Grafik biçimlendirmenin nasıl kullanılacağını gösterir.
 
 ```csharp
-Document doc = new Document(MyDir + "Two color gradient.docx");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İlk Çalıştırmanın Yazı Tipi için Dolgu nesnesini alın.
-Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
 
-// Yazı Tipinin Dolgu özelliklerini kontrol edin.
-Console.WriteLine("The type of the fill is: {0}", fill.FillType);
-Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
-Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
+// Varsayılan olarak oluşturulan seriyi sil.
+ChartSeriesCollection series = chart.Series;
+series.Clear();
 
-// Dolgunun türünü tek tip yeşil renkte Katı olarak değiştirin.
-fill.Solid(Color.Green);
-Console.WriteLine("\nThe fill is changed:");
-Console.WriteLine("The type of the fill is: {0}", fill.FillType);
-Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
-Console.WriteLine("The fill transparency is {0}%", fill.Transparency * 100);
+string[] categories = new string[] { "Category 1", "Category 2" };
+series.Add("Series 1", categories, new double[] { 1, 2 });
+series.Add("Series 2", categories, new double[] { 3, 4 });
 
-doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
+// Grafik arka planını biçimlendir.
+chart.Format.Fill.Solid(Color.DarkSlateGray);
+
+// Eksen işareti etiketlerini gizle.
+chart.AxisX.TickLabels.Position = AxisTickLabelPosition.None;
+chart.AxisY.TickLabels.Position = AxisTickLabelPosition.None;
+
+// Grafik başlığını biçimlendir.
+chart.Title.Format.Fill.Solid(Color.LightGoldenrodYellow);
+
+// Eksen başlığını biçimlendir.
+chart.AxisX.Title.Show = true;
+chart.AxisX.Title.Format.Fill.Solid(Color.LightGoldenrodYellow);
+
+// Efsaneyi biçimlendir.
+chart.Legend.Format.Fill.Solid(Color.LightGoldenrodYellow);
+
+doc.Save(ArtifactsDir + "Charts.ChartFormat.docx");
 ```
 
 ### Ayrıca bakınız

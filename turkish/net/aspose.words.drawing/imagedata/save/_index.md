@@ -2,10 +2,10 @@
 title: ImageData.Save
 linktitle: Save
 articleTitle: Save
-second_title: Aspose.Words for .NET
-description: ImageData Save yöntem. Görüntüyü belirtilen akışa kaydeder C#'da.
+second_title: .NET için Aspose.Words
+description: ImageData Save yöntemiyle görüntüleri zahmetsizce kaydedin. Görüntüleri doğrudan seçtiğiniz akışa kolayca depolayarak iş akışınızı kolaylaştırın.
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
@@ -18,39 +18,29 @@ public void Save(Stream stream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Görüntünün kaydedileceği akış. |
+| stream | Stream | Resmin kaydedileceği akış. |
 
 ## Notlar
 
-Akış nesnesini elden çıkarmak arayanın sorumluluğunda mıdır?
+Akış nesnesini elden çıkarmak çağıranın sorumluluğunda mıdır?
 
 ## Örnekler
 
-Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini gösterir.
+Bir belgedeki tüm resimlerin dosya sistemine nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// "HasImage" bayrak setine sahip şekiller belgenin tüm resimlerini saklar ve görüntüler.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// "HasImage" bayrağı ayarlanmış şekiller belgenin tüm resimlerini saklar ve görüntüler.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// Her şeklin üzerinden geçin ve görüntüsünü kaydedin.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+// Her şeklin üzerinden geçin ve resmini kaydedin.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -72,17 +62,17 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Görüntünün kaydedileceği dosya adı. |
+| fileName | String | Resmin kaydedileceği dosya adı. |
 
 ## Örnekler
 
-Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
+Bir belgeden resimlerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgedeki şekillerin koleksiyonunu alın,
-// ve resim içeren her şeklin resim verilerini dosya olarak yerel dosya sistemine kaydedin.
+// Şekil koleksiyonunu belgeden al,
+// ve her şeklin görüntü verisini, görüntü içeren bir dosya olarak yerel dosya sistemine kaydeder.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -93,7 +83,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Şekillerin görüntü verileri birçok olası görüntü formatındaki görüntüleri içerebilir.
-        // Her görsel için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
+        // Her bir resim için, formatına bağlı olarak otomatik olarak bir dosya uzantısı belirleyebiliriz.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

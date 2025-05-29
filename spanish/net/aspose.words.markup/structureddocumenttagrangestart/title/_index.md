@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart Title propiedad. Especifica el nombre descriptivo asociado con esta etiqueta de documento estructurado. No se puedenulo  en C#.
+description: Descubra la propiedad Title StructuredDocumentTagRangeStart para definir nombres descriptivos para etiquetas de documentos estructurados, mejorando así la claridad y la accesibilidad del documento.
 type: docs
 weight: 160
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 ## Ejemplos
 
-Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

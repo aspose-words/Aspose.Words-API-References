@@ -3,9 +3,9 @@ title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
 second_title: Aspose.Words för .NET
-description: Document LastSection fast egendom. Hämtar det sista avsnittet i dokumentet i C#.
+description: Upptäck egenskapen LastSection för att enkelt komma åt den sista delen av ditt dokument, vilket förbättrar navigering och effektivitet i innehållshantering.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -18,16 +18,16 @@ public Section LastSection { get; }
 
 ## Anmärkningar
 
-Returnerar`null` om det inte finns några avsnitt.
+Returer`null`om det inte finns några sektioner.
 
 ## Exempel
 
-Visar hur man skapar en ny sektion med en dokumentbyggare.
+Visar hur man skapar ett nytt avsnitt med en dokumentbyggare.
 
 ```csharp
 Document doc = new Document();
 
-// Ett tomt dokument innehåller en sektion som standard,
+// Ett tomt dokument innehåller som standard en sektion,
 // som innehåller underordnade noder som vi kan redigera.
 Assert.AreEqual(1, doc.Sections.Count);
 
@@ -35,14 +35,14 @@ Assert.AreEqual(1, doc.Sections.Count);
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Skapa en andra sektion genom att infoga en sektionsbrytning.
+// Skapa ett andra avsnitt genom att infoga en avsnittsbrytning.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Varje avsnitt har sina egna sidinställningar.
+// Varje sektion har sina egna inställningar för sidinställningar.
 // Vi kan dela upp texten i det andra avsnittet i två kolumner.
-// Detta kommer inte att påverka texten i det första avsnittet.
+// Detta påverkar inte texten i det första avsnittet.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);

@@ -3,14 +3,14 @@ title: CompositeNode.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words per .NET
-description: CompositeNode IndexOf metodo. Restituisce lindice del nodo figlio specificato nellarray di nodi figlio in C#.
+description: Scopri come il metodo CompositeNode IndexOf individua in modo efficiente l'indice di un nodo figlio specificato nell'array, migliorando la tua esperienza di codifica.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
 
-Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio.
+Restituisce l'indice del nodo figlio specificato nell'array dei nodi figlio.
 
 ```csharp
 public int IndexOf(Node child)
@@ -22,7 +22,7 @@ Restituisce -1 se il nodo non viene trovato nei nodi figlio.
 
 ## Esempi
 
-Mostra come ottenere l'indice di un dato nodo figlio dal suo genitore.
+Mostra come ottenere l'indice di un dato nodo figlio dal suo padre.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

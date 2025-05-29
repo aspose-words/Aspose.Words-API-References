@@ -3,9 +3,9 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words für .NET
-description: Document FirstSection eigendom. Ruft den ersten Abschnitt im Dokument ab in C#.
+description: Rufen Sie mühelos den ersten Abschnitt Ihres Dokuments ab. Verbessern Sie Ihren Workflow mit unserer Document FirstSection-Funktion für eine optimierte Organisation.
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
@@ -18,7 +18,7 @@ public Section FirstSection { get; }
 
 ## Bemerkungen
 
-Gibt zurück`Null` wenn keine Abschnitte vorhanden sind.
+Rückgaben`null`wenn keine Abschnitte vorhanden sind.
 
 ## Beispiele
 
@@ -42,16 +42,16 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Zeigt, wie man mit einem Document Builder einen neuen Abschnitt erstellt.
+Zeigt, wie mit einem Dokumentgenerator ein neuer Abschnitt erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
 // Ein leeres Dokument enthält standardmäßig einen Abschnitt,
-// das untergeordnete Knoten enthält, die wir bearbeiten können.
+// die untergeordnete Knoten enthalten, die wir bearbeiten können.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Verwenden Sie einen Dokumentersteller, um Text zum ersten Abschnitt hinzuzufügen.
+// Verwenden Sie einen Dokumentgenerator, um dem ersten Abschnitt Text hinzuzufügen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 

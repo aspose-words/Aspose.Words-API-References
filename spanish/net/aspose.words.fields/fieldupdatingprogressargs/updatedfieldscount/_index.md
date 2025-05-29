@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words para .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount propiedad. Obtiene el número de campos actualizados en C#.
+description: Descubra la propiedad UpdatedFieldsCount de FieldUpdatingProgressArgs para rastrear fácilmente la cantidad de campos actualizados en su aplicación.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
+/// Implemente esta interfaz si desea que sus propios métodos personalizados sean llamados durante una actualización de campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un método definido por el usuario que se llama justo después de actualizar un campo.
+    /// Un método definido por el usuario que se llama justo después de que se actualiza un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

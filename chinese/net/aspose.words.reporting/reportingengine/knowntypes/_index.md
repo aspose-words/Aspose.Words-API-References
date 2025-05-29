@@ -2,15 +2,15 @@
 title: ReportingEngine.KnownTypes
 linktitle: KnownTypes
 articleTitle: KnownTypes
-second_title: 用于 .NET 的 Aspose.Words
-description: ReportingEngine KnownTypes 财产. 获取一个无序集合即唯一项的集合其中包含Type对象 其完全或部分限定名称可以在此engine 实例处理的报告模板中使用以调用相应类型的静态成员执行类型转换等 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ReportingEngine KnownTypes 属性，这是 Type 对象的独特集合，用于无缝报告模板集成和高效的类型转换。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.reporting/reportingengine/knowntypes/
 ---
 ## ReportingEngine.KnownTypes property
 
-获取一个无序集合（即唯一项的集合），其中包含Type对象 ，其完全或部分限定名称可以在此engine 实例处理的报告模板中使用，以调用相应类型的静态成员、执行类型转换等。
+获取包含以下项的无序集合（即唯一项的集合）Type对象 的完全或部分限定名称可在由此引擎 实例处理的报告模板中使用，以调用相应类型的静态成员、执行类型转换等。
 
 ```csharp
 public KnownTypeSet KnownTypes { get; }

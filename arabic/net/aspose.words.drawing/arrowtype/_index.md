@@ -3,14 +3,14 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.ArrowType تعداد. يحدد نوع السهم في نهاية السطر في C#.
+description: اكتشف Aspose.Words.Drawing.ArrowType enum لتخصيص أنماط الأسهم لنهايات الخطوط، مما يعزز الجاذبية البصرية والدقة لمستندك.
 type: docs
-weight: 490
+weight: 730
 url: /ar/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-يحدد نوع السهم في نهاية السطر.
+يحدد نوع السهم في نهاية الخط.
 
 ```csharp
 public enum ArrowType
@@ -20,17 +20,17 @@ public enum ArrowType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا يحتوي السطر على سهم في نهايته. |
-| Arrow | `1` | السهم مثلث مصمت. |
+| None | `0` | لا يوجد سهم في نهاية الخط. |
+| Arrow | `1` | السهم عبارة عن مثلث متصل. |
 | Stealth | `2` | السهم هو سهم "خفي". |
-| Diamond | `3` | نهاية الخط عبارة عن ماس صلب. |
-| Oval | `4` | نهاية السطر بيضاوية مصمتة. |
-| Open | `5` | السهم سهم مفتوح. |
-| Default | `0` | نفسNone . |
+| Diamond | `3` | نهاية الخط عبارة عن ماسة صلبة. |
+| Oval | `4` | نهاية الخط عبارة عن شكل بيضاوي صلب. |
+| Open | `5` | السهم هو سهم مفتوح. |
+| Default | `0` | نفس الشيءNone . |
 
 ## أمثلة
 
-يظهر لإنشاء مجموعة متنوعة من الأشكال.
+يظهر كيفية إنشاء مجموعة متنوعة من الأشكال.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي أربعة أمثلة للأشكال التي يمكننا إدراجها في مستنداتنا.
 // 1 - خط أحمر منقط، أفقي، نصف شفاف
-// مع وجود سهم على الطرف الأيسر وماسة على الطرف الأيمن:
+// مع سهم على الطرف الأيسر ومعين على الطرف الأيمن:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -55,7 +55,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - خط قطري سميك أسود ذو أطراف مستديرة:
+// 2 - خط قطري أسود سميك ذو أطراف مستديرة:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -65,7 +65,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - سهم ذو تعبئة خضراء:
+// 3 - سهم مع تعبئة خضراء:
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -75,7 +75,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - سهم ذو اتجاه معكوس مملوء بشعار Aspose:
+// 4 - سهم ذو اتجاه مقلوب مملوء بشعار Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -87,8 +87,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // عندما نقلب اتجاه سهمنا، فإننا نقلب أيضًا الصورة التي يحتوي عليها السهم.
-    // اقلب الصورة في الاتجاه الآخر لإلغاء ذلك قبل الحصول على الشكل لعرضه.
+    // عندما نقوم بتغيير اتجاه السهم، فإننا نقوم أيضًا بتغيير الصورة التي يحتويها السهم.
+    // قم بقلب الصورة إلى الاتجاه الآخر لإلغاء هذا قبل عرض الشكل.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

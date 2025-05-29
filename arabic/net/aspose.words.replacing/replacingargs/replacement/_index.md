@@ -3,14 +3,14 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs Replacement ملكية. الحصول على سلسلة الاستبدال أو تعيينها في C#.
+description: اكتشف خاصية الاستبدال ReplacingArgs لإدارة سلاسل الاستبدال وتخصيصها بسهولة لتحسين كفاءة الترميز.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.replacing/replacingargs/replacement/
 ---
 ## ReplacingArgs.Replacement property
 
-الحصول على سلسلة الاستبدال أو تعيينها.
+يحصل على سلسلة الاستبدال أو يعينها.
 
 ```csharp
 public string Replacement { get; set; }
@@ -18,7 +18,7 @@ public string Replacement { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال جميع حالات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
+    // قم بتعيين معاودة الاتصال لتتبع أي عمليات استبدال ستقوم بها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
+/// يحتفظ بسجل لكل استبدال نص تم إجراؤه بواسطة عملية البحث والاستبدال
 /// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

@@ -3,7 +3,7 @@ title: FieldSectionPages
 linktitle: FieldSectionPages
 articleTitle: FieldSectionPages
 second_title: Aspose.Words لـ .NET
-description: FieldSectionPages البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldSectionPages، الحل الأمثل لإدارة صفحاتك بكفاءة. تكامل سلس وحسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/

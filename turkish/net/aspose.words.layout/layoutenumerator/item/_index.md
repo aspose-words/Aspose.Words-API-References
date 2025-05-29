@@ -2,8 +2,8 @@
 title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: LayoutEnumerator Item mülk. Varlığın adlandırılmış bir özelliğini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Adlandırılmış varlık özelliklerine kolayca erişmek için LayoutEnumerator Öğe özelliğini keşfedin, böylece veri yönetiminizi ve iş akışı verimliliğinizi artırın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.layout/layoutenumerator/item/
@@ -22,11 +22,11 @@ public object this[string key] { get; }
 
 ### Geri dönüş değeri
 
-Özellik mevcut değilse boş, aksi takdirde mülkün değeri.
+Eğer mülk mevcut değilse null, aksi takdirde mülkün değeri.
 
 ## Notlar
 
-Bu şu anda aralıkların yazı tipi özelliklerini almak için kullanılıyor. Bkz.[`Font`](../../../aspose.words/font/) olası özellik adları için sınıf. Tüm özellikler desteklenmez.
+Bu şu anda spans. yazı tipi özelliklerini almak için kullanılır. Bkz.[`Font`](../../../aspose.words/font/) olası özellik adları için sınıf. Tüm özellikler desteklenmiyor.
 
 ### Ayrıca bakınız
 

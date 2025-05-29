@@ -3,7 +3,7 @@ title: FramesetCollection
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
 second_title: Aspose.Words لـ .NET
-description: FramesetCollection البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FramesetCollection، الحل الأمثل لإدارة الإطارات بكفاءة في تطوير الويب. بسّط برمجة أعمالك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.framesets/framesetcollection/framesetcollection/

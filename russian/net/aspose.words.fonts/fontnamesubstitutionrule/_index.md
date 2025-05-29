@@ -3,16 +3,16 @@ title: FontNameSubstitutionRule Class
 linktitle: FontNameSubstitutionRule
 articleTitle: FontNameSubstitutionRule
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule сорт. Правило подстановки шрифта для обработки имени шрифта на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.FontNameSubstitutionRule для эффективной обработки имен шрифтов и бесшовного форматирования документов. Улучшите рендеринг текста!
 type: docs
-weight: 2950
+weight: 3380
 url: /ru/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
 Правило подстановки шрифта для обработки имени шрифта.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule

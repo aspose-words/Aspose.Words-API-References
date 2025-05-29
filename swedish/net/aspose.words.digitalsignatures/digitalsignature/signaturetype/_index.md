@@ -3,7 +3,7 @@ title: DigitalSignature.SignatureType
 linktitle: SignatureType
 articleTitle: SignatureType
 second_title: Aspose.Words för .NET
-description: DigitalSignature SignatureType fast egendom. Hämtar typen av digital signatur i C#.
+description: Upptäck egenskapen DigitalSignature SignatureType för att enkelt identifiera din digitala signaturtyp och förbättra din dokumentsäkerhet idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

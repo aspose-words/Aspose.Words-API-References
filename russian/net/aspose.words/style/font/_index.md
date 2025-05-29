@@ -3,7 +3,7 @@ title: Style.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words для .NET
-description: Style Font свойство. Получает форматирование символов стиля на С#.
+description: Откройте для себя свойство Style Font, чтобы без труда улучшить форматирование символов. Разблокируйте уникальные параметры стиля для изысканного вида!
 type: docs
 weight: 60
 url: /ru/net/aspose.words/style/font/
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Примечания
 
-Для стилей списков это свойство возвращает`нулевой`.
+Для стилей списка это свойство возвращает`нулевой`.
 
 ## Примеры
 
@@ -28,7 +28,7 @@ public Font Font { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем собственный стиль абзаца.
+// Создать пользовательский стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -38,18 +38,18 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
+// Применяем стиль абзаца к текущему абзацу конструктора документа, а затем добавляем текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль конструктора документов на такой, который не имеет форматирования списка, и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
 builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 ```
 
-Показывает, как создать и применить собственный стиль.
+Показывает, как создать и применить пользовательский стиль.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +63,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Применяем один из стилей документа к абзацу, который создает конструктор документов.
+// Применить один из стилей документа к абзацу, создаваемому конструктором документа.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -71,7 +71,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Удаляем наш собственный стиль из коллекции стилей документа.
+// Удаляем наш пользовательский стиль из коллекции стилей документа.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

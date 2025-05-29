@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words для .NET
-description: Document HyphenationOptions свойство. Предоставляет доступ к параметрам расстановки переносов в документе на С#.
+description: Изучите свойство Document HyphenationOptions, чтобы настроить параметры переносов, повысить читабельность и улучшить представление документа.
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Предоставляет доступ к параметрам расстановки переносов в документе.
+Предоставляет доступ к параметрам переноса в документе.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

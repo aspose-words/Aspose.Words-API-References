@@ -3,7 +3,7 @@ title: Revision.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words для .NET
-description: Revision RevisionType свойство. Получает тип этой ревизии на С#.
+description: Откройте для себя свойство RevisionType, чтобы легко получить доступ и понять тип каждой ревизии, что улучшит ваш рабочий процесс и эффективность управления проектами.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/revision/revisiontype/
@@ -24,12 +24,12 @@ public RevisionType RevisionType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Обычное редактирование документа не считается ревизией.
+// Обычное редактирование документа не считается исправлением.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Чтобы зарегистрировать наши правки как версии, нам нужно объявить автора, а затем начать их отслеживать.
+// Чтобы зарегистрировать наши правки как ревизии, нам нужно объявить автора, а затем начать отслеживать их.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -37,13 +37,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Этот флаг соответствует «Обзору» -> «Отслеживание» -> Опция «Отслеживать изменения» в Microsoft Word.
+// Этот флаг соответствует параметру «Рецензирование» -> «Отслеживание» -> «Отслеживать изменения» в Microsoft Word.
 // Метод "StartTrackRevisions" не влияет на его значение,
-// и документ отслеживает изменения программно, несмотря на то, что он имеет значение «false».
+// и документ отслеживает изменения программно, несмотря на то, что имеет значение «false».
 // Если мы откроем этот документ с помощью Microsoft Word, он не будет отслеживать изменения.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Мы добавили текст с помощью построителя документов, поэтому первая редакция является ревизией типа вставки.
+// Мы добавили текст с помощью конструктора документов, поэтому первая редакция — это редакция вставного типа.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -51,19 +51,19 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Удалить прогон, чтобы создать ревизию типа удаления.
+// Удалить запуск для создания ревизии типа удаления.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
 // Добавление новой ревизии помещает ее в начало коллекции ревизий.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Вставленные версии отображаются в теле документа еще до того, как мы примем/отклоним редакцию.
-// Отклонение ревизии приведет к удалению ее узлов из тела. И наоборот, узлы, составляющие ревизию, удаляют.
-// также задерживаемся в документе, пока не примем редакцию.
+// Вставленные изменения отображаются в тексте документа еще до того, как мы принимаем/отклоняем изменение.
+// Отклонение ревизии удалит ее узлы из тела. И наоборот, узлы, составляющие ревизии, удаляют
+// также задерживаются в документе, пока мы не примем исправление.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Принятие удаления ревизии приведет к удалению родительского узла из текста абзаца
+// Принятие удаления ревизии удалит ее родительский узел из текста абзаца
 // а затем удалить саму ревизию коллекции.
 doc.Revisions[0].Accept();
 
@@ -73,7 +73,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// Теперь переместим узел, чтобы создать движущийся тип ревизии.
+// Теперь переместите узел, чтобы создать тип перемещаемой ревизии.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];

@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentNode
 linktitle: CurrentNode
 articleTitle: CurrentNode
 second_title: Aspose.Words för .NET
-description: DocumentBuilder CurrentNode fast egendom. Hämtar noden som för närvarande är vald i denna DocumentBuilder i C#.
+description: Upptäck egenskapen CurrentNode i DocumentBuilder för att enkelt komma åt den valda noden, vilket förbättrar effektiviteten och arbetsflödet vid dokumentredigering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/documentbuilder/currentnode/
@@ -18,19 +18,19 @@ public Node CurrentNode { get; }
 
 ## Anmärkningar
 
-`CurrentNode` är en markör för[`DocumentBuilder`](../) och pekar på en[`Node`](../../node/) som är en direkt underordnad av en[`Paragraph`](../../paragraph/) . Alla infogningsoperationer du utför med [`DocumentBuilder`](../) kommer att infoga före`CurrentNode`.
+`CurrentNode` är en markör av[`DocumentBuilder`](../) och pekar på en[`Node`](../../node/) som är ett direkt barn till en[`Paragraph`](../../paragraph/) Alla infogningsoperationer du utför med [`DocumentBuilder`](../) kommer att läggas in före`CurrentNode`.
 
-När det aktuella stycket är tomt eller markören är placerad precis före slutet av ett stycke eller en strukturerad dokumenttagg,`CurrentNode` returnerar`null`.
+När det aktuella stycket är tomt eller markören är placerad precis före slutet av ett stycke eller en tagg för ett strukturerat dokument,`CurrentNode` returer`null`.
 
 ## Exempel
 
-Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
+Visar hur man flyttar markören i ett dokumentbyggare till olika noder i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
+// Skapa ett giltigt bokmärke, en entitet som består av noder omgivna av en bokmärkesstartnod,
  // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -44,16 +44,16 @@ Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
 // Dokumentbyggarens markör är alltid före den nod som vi senast lade till med den.
-// Om byggarens markör är i slutet av dokumentet kommer dess nuvarande nod att vara null.
+// Om byggarens markör är i slutet av dokumentet, kommer dess nuvarande nod att vara null.
 // Den föregående noden är bokmärkets slutnod som vi senast lade till.
-// Lägga till nya noder med byggaren kommer att lägga till dem till den sista noden.
+// Om du lägger till nya noder med byggaren läggs de till i den sista noden.
 Assert.Null(builder.CurrentNode);
 
-// Om vi vill redigera en annan del av dokumentet med byggaren,
-// vi måste föra dess markör till den nod vi vill redigera.
+// Om vi vill redigera en annan del av dokumentet med verktyget,
+// vi måste flytta markören till noden vi vill redigera.
 builder.MoveToBookmark("MyBookmark");
 
-// Om du flyttar den till ett bokmärke flyttas den till den första noden inom bokmärkets start- och slutnod, den bifogade körningen.
+// Att flytta den till ett bokmärke flyttar den till den första noden inom bokmärkets start- och slutnoder, den bifogade körningen.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // Vi kan också flytta markören till en enskild nod så här.
@@ -63,7 +63,7 @@ Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Vi kan använda specifika metoder för att flytta till början/slutet av ett dokument.
+// Vi kan använda specifika metoder för att gå till början/slutet av ett dokument.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

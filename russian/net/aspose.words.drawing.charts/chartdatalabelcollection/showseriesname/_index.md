@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowSeriesName свойство. Возвращает или задает логическое значение указывающее поведение отображения имени серии для меток данных всей серии. истинный показать название серииЛОЖЬ прятаться. По умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство ChartDataLabelCollection ShowSeriesName, легко управляйте видимостью имен серий в ваших метках данных. Улучшите свои диаграммы сегодня!
 type: docs
-weight: 130
+weight: 160
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-Возвращает или задает логическое значение, указывающее поведение отображения имени серии для меток данных всей серии. `истинный` показать название серии;`ЛОЖЬ` прятаться. По умолчанию`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее поведение отображения имени серии для меток данных всей серии. `истинный` показать название серии;`ЛОЖЬ` скрыть. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowSeriesName { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowSeriesName`](../../chartdatalabel/showseriesname/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowSeriesName`](../../chartdatalabel/showseriesname/) свойство.
 
 ## Примеры
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем пользовательскую серию с координатами X/Y и диаметром каждого пузырька.
+ // Добавьте пользовательскую серию с координатами X/Y и диаметром каждого из пузырьков.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

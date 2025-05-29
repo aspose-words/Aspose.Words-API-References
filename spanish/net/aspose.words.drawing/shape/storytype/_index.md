@@ -3,14 +3,14 @@ title: Shape.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words para .NET
-description: Shape StoryType propiedad. DevolucionesTextbox  en C#.
+description: Transforma tu propiedad StoryType fácilmente con nuestra intuitiva función de cuadro de texto. ¡Mejora la experiencia del usuario y optimiza la creación de contenido hoy mismo!
 type: docs
-weight: 170
+weight: 180
 url: /es/net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property
 
-DevolucionesTextbox .
+DevuelveTextbox .
 
 ```csharp
 public StoryType StoryType { get; }
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

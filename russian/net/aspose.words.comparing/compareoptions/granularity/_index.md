@@ -3,22 +3,26 @@ title: CompareOptions.Granularity
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words для .NET
-description: CompareOptions Granularity свойство. Указывает отслеживаются ли изменения посимвольно или пословно. Значение по умолчаниюWordLevel  на С#.
+description: Откройте для себя свойство CompareOptions Granularity, отслеживайте изменения по символам или словам для точного редактирования текста. Улучшите контроль над документами сегодня!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-Указывает, отслеживаются ли изменения посимвольно или пословно. Значение по умолчанию:WordLevel .
+Указывает, отслеживаются ли изменения по символам или по словам.
 
 ```csharp
 public Granularity Granularity { get; set; }
 ```
 
+## Примечания
+
+Значение по умолчанию:WordLevel .
+
 ## Примеры
 
-Показывает, чтобы указать степень детализации при сравнении документов.
+Позволяет указать степень детализации при сравнении документов.
 
 ```csharp
 Document docA = new Document();
@@ -30,13 +34,13 @@ DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
 // Укажите, отслеживаются ли изменения
-// по символу («Granularity.CharLevel») или по слову («Granularity.WordLevel»).
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+// по символу ('Granularity.CharLevel') или по слову ('Granularity.WordLevel').
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// Коллекция групп редакций первого документа содержит все различия между документами.
+// Коллекция групп ревизий первого документа содержит все различия между документами.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

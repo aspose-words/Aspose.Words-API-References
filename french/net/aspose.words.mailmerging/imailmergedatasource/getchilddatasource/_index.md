@@ -3,14 +3,14 @@ title: IMailMergeDataSource.GetChildDataSource
 linktitle: GetChildDataSource
 articleTitle: GetChildDataSource
 second_title: Aspose.Words pour .NET
-description: IMailMergeDataSource GetChildDataSource méthode. Le moteur de publipostage Aspose.Words appelle cette méthode lorsquil rencontre le début dune région de publipostage imbriquée en C#.
+description: Découvrez comment la méthode IMailMergeDataSource GetChildDataSource améliore le publipostage Aspose.Words en gérant les régions imbriquées de manière transparente.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-Le moteur de publipostage Aspose.Words appelle cette méthode lorsqu'il rencontre le début d'une région de publipostage imbriquée.
+Le moteur de publipostage Aspose.Words invoque cette méthode lorsqu'il rencontre le début d'une région de publipostage imbriquée.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -18,23 +18,23 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tableName | String | Nom de la région de publipostage tel que spécifié dans le document modèle. Insensible à la casse. |
+| tableName | String | Nom de la zone de publipostage tel que spécifié dans le modèle de document. Non sensible à la casse. |
 
 ### Return_Value
 
-Un objet source de données qui donnera accès aux enregistrements de données de la table spécifiée.
+Un objet source de données qui fournira l’accès aux enregistrements de données de la table spécifiée.
 
 ## Remarques
 
-Lorsque les moteurs de publipostage Aspose.Words remplissent une région de publipostage avec des données et rencontrent le début d'une région de publipostage imbriquée sous la forme de MERGEFIELD TableStart:TableName, il invoque`GetChildDataSource` sur l'objet source de données current . Votre implémentation doit renvoyer un nouvel objet source de données qui donnera accès aux enregistrements child de l'enregistrement parent actuel. Aspose.Words utilisera la source de données renvoyée pour remplir la région de publipostage imbriquée.
+Lorsque les moteurs de publipostage Aspose.Words remplissent une région de publipostage avec des données et rencontrent le début d'une région de publipostage imbriquée sous la forme MERGEFIELD TableStart:TableName, ils appellent`GetChildDataSource` Sur l'objet source de données current . Votre implémentation doit renvoyer un nouvel objet source de données donnant accès aux enregistrements child de l'enregistrement parent actuel. Aspose.Words utilisera la source de données renvoyée pour remplir la zone de publipostage imbriquée.
 
-Vous trouverez ci-dessous les règles que la mise en œuvre de`GetChildDataSource` doit suivre.
+Vous trouverez ci-dessous les règles qui régissent la mise en œuvre de`GetChildDataSource` doit suivre.
 
-Si la table représentée par cet objet source de données a une table enfant (détail) associée avec le nom spécifié, alors votre implémentation doit renvoyer un nouveau[`IMailMergeDataSource`](../)objet qui fournira access aux enregistrements enfants de l'enregistrement actuel. Un exemple de ceci est la relation Orders / OrderDetails. Supposons que le courant[`IMailMergeDataSource`](../) object représente la table Commandes et possède un enregistrement de commande actuel. Ensuite, Aspose.Words rencontre "MERGEFIELD TableStart:OrderDetails" dans le document et invoque`GetChildDataSource` . Vous devez créer et renvoyer un[`IMailMergeDataSource`](../) Objet qui permettra à Aspose.Words d'accéder à l'enregistrement OrderDetails pour la commande en cours.
+Si la table représentée par cet objet source de données possède une table enfant (détail) associée portant le nom spécifié, , votre implémentation doit alors renvoyer une nouvelle[`IMailMergeDataSource`](../) Objet qui fournira l'accès aux enregistrements enfants de l'enregistrement actuel. Exemple : la relation Commandes / Détails de la commande. Supposons que l'enregistrement actuel[`IMailMergeDataSource`](../) object représente la table Commandes et contient un enregistrement de commande actuel. Ensuite, Aspose.Words détecte « MERGEFIELD TableStart:OrderDetails » dans le document et appelle`GetChildDataSource` . Vous devez créer et renvoyer un[`IMailMergeDataSource`](../) Objet qui permettra à Aspose.Words d'accéder à l'enregistrement OrderDetails pour la commande en cours.
 
-Si cet objet source de données n'a pas de relation avec la table portant le nom spécifié, vous devez alors renvoyer un[`IMailMergeDataSource`](../) objet qui donnera accès à tous les enregistrements de la table spécifiée.
+Si cet objet source de données n'a pas de relation avec la table portant le nom spécifié, vous devez renvoyer a[`IMailMergeDataSource`](../)objet qui donnera accès à tous les enregistrements de la table spécifiée.
 
-Si une table portant le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
+Si une table avec le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
 
 ## Exemples
 
@@ -64,7 +64,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" dans votre application.
+/// Un exemple de classe « entité de données » dans votre application.
 /// </summary>
 public class Customer
 {
@@ -93,7 +93,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
+    /// Nom de la source de données. Utilisé par Aspose.Words uniquement lors d'un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -114,15 +114,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Renvoie "false" au moteur de publipostage Aspose.Words pour signifier
-                // que nous n'avons pas trouvé de champ portant ce nom.
+                // Renvoyer « false » au moteur de publipostage Aspose.Words pour signifier
+                // que nous n'avons pas pu trouver de champ avec ce nom.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Une implémentation standard pour passer à un enregistrement suivant dans une collection.
+    /// Une implémentation standard pour passer à l'enregistrement suivant dans une collection.
     /// </summary>
     public bool MoveNext()
     {

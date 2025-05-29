@@ -3,7 +3,7 @@ title: DocumentPartSavingArgs.DocumentPartStream
 linktitle: DocumentPartStream
 articleTitle: DocumentPartStream
 second_title: Aspose.Words für .NET
-description: DocumentPartSavingArgs DocumentPartStream eigendom. Ermöglicht die Angabe des Streams in dem der Dokumentteil gespeichert wird in C#.
+description: Entdecken Sie, wie Sie mit der DocumentPartStream-Eigenschaft in DocumentPartSavingArgs ganz einfach angeben können, wo Ihre Dokumentteile gespeichert werden sollen, um eine nahtlose Verwaltung zu gewährleisten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -18,17 +18,17 @@ public Stream DocumentPartStream { get; set; }
 
 ## Bemerkungen
 
-Mit dieser Eigenschaft können Sie Dokumentteile während des HTML-Exports in Streams statt in Dateien speichern.
+Mit dieser Eigenschaft können Sie beim HTML-Export Dokumentteile in Streams statt in Dateien speichern.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird der Dokumentteil in einer im angegebenen Datei gespeichert[`DocumentPartFileName`](../documentpartfilename/) Eigentum.
+Der Standardwert ist`null` Wenn diese Eigenschaft`null` wird der Dokumentteil in einer Datei gespeichert, die in der[`DocumentPartFileName`](../documentpartfilename/) Eigentum.
 
-Beim Speichern in einem Stream wird im HTML-Format angefordert[`Save`](../../../aspose.words/document/save/) oder[`Save`](../../../aspose.words/document/save/) und der erste Teil des Dokuments wird gerade gespeichert. Aspose.Words schlägt hier den Hauptausgabestrom vor, der ursprünglich vom Aufrufer übergeben wurde.
+Beim Speichern in einen Stream im HTML-Format wird angefordert von[`Save`](../../../aspose.words/document/save/) oder[`Save`](../../../aspose.words/document/save/) und der erste Dokumentteil soll gespeichert werden. Aspose.Words schlägt hier den Hauptausgabestream vor, der ursprünglich vom Anrufer übergeben wurde.
 
 Beim Speichern im EPUB-Format, einem auf HTML basierenden Containerformat,`DocumentPartStream` kann nicht angegeben werden, da alle untergeordneten Teile in einem einzigen Ausgabepaket gekapselt werden.
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
+Zeigt, wie ein Dokument in Teile aufgeteilt und gespeichert wird.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -36,13 +36,13 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Wenn wir das Dokument normal speichern, gibt es ein Ausgabe-HTML
+    // Wenn wir das Dokument normal speichern, gibt es eine Ausgabe-HTML
     // Dokument mit dem gesamten Inhalt des Quelldokuments.
-    // Setzen Sie die Eigenschaft „DocumentSplitCriteria“ auf „DocumentSplitCriteria.SectionBreak“.
+    // Setzen Sie die Eigenschaft "DocumentSplitCriteria" auf "DocumentSplitCriteria.SectionBreak" auf
     // unser Dokument in mehreren HTML-Dateien speichern: eine für jeden Abschnitt.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
@@ -58,7 +58,7 @@ public void DocumentPartsFileNames()
 }
 
 /// <summary>
-/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die der Speichervorgang ein Dokument aufteilt.
+/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die beim Speichern ein Dokument aufgeteilt wird.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -70,7 +70,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Dokument“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -93,7 +93,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabeteildatei fest:
         args.DocumentPartFileName = partFileName;
 
@@ -123,7 +123,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabebilddatei fest:
         args.ImageFileName = imageFileName;
 

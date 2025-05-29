@@ -3,7 +3,7 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words für .NET
-description: Table Rows eigendom. Bietet typisierten Zugriff auf die Zeilen der Tabelle in C#.
+description: Greifen Sie mit unserer typisierten Eigenschaft mühelos auf Tabellenzeilen zu und gewährleisten Sie so eine nahtlose Datenverwaltung und verbesserte Organisation Ihrer Projekte.
 type: docs
 weight: 260
 url: /de/net/aspose.words.tables/table/rows/
@@ -23,24 +23,24 @@ Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument abzurufen.
-// 1 – Aus der „Tables“-Sammlung eines Body-Knotens:
+// Unten sind zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
+// 1 – Aus der „Tabellen“-Sammlung eines Body-Knotens:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Verwendung der Methode „GetChild“:
+// 2 - Verwenden der Methode „GetChild“:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Alle Zeilen der aktuellen Tabelle an die nächste anhängen.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Den leeren Tabellencontainer entfernen.
+// Entfernen Sie den leeren Tabellencontainer.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ auf eine Zeilensammlung anwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ auf eine Zellensammlung anwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

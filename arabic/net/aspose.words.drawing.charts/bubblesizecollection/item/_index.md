@@ -3,14 +3,14 @@ title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: BubbleSizeCollection Item ملكية. الحصول على قيمة حجم الفقاعة أو تعيينها في الفهرس المحدد في C#.
+description: اكتشف خاصية BubbleSizeCollection Item لإدارة أحجام الفقاعات بسهولة عند مؤشرات محددة، مما يعزز تصور البيانات لديك بدقة.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/bubblesizecollection/item/
 ---
 ## BubbleSizeCollection indexer
 
-الحصول على قيمة حجم الفقاعة أو تعيينها في الفهرس المحدد.
+يحصل على قيمة حجم الفقاعة أو يعينها عند الفهرس المحدد.
 
 ```csharp
 public double this[int index] { get; set; }

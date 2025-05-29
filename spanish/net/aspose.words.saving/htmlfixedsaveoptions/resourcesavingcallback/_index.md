@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
 second_title: Aspose.Words para .NET
-description: HtmlFixedSaveOptions ResourceSavingCallback propiedad. Permite controlar cómo se guardan los recursos imágenes fuentes y css cuando se exporta un documento a formato HTML de página fija en C#.
+description: Optimice la exportación de sus documentos con la función ResourceSavingCallback de HtmlFixedSaveOptions. Controle el guardado de imágenes, fuentes y CSS para una mejor salida HTML.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property
 
-Permite controlar cómo se guardan los recursos (imágenes, fuentes y css) cuando se exporta un documento a formato HTML de página fija.
+Permite controlar cómo se guardan los recursos (imágenes, fuentes y css) cuando se exporta un documento al formato HTML de página fija.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IResourceSavingCallback ResourceSavingCallback { get; set; }
 
 ## Ejemplos
 
-Muestra cómo utilizar una devolución de llamada para imprimir los URI de recursos externos creados al convertir un documento a HTML.
+Muestra cómo utilizar una devolución de llamada para imprimir las URI de recursos externos creados al convertir un documento a HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -38,7 +38,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una carpeta especificada por ResourcesFolderAlias contendrá los recursos en lugar de ResourcesFolder.
-    // Debemos asegurarnos de que la carpeta exista antes de que las transmisiones puedan poner sus recursos en ella.
+    //Debemos asegurarnos de que la carpeta exista antes de que los flujos puedan poner sus recursos en ella.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -52,13 +52,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime los URI de los recursos contenidos en a medida que se convierten a HTML fijo.
+/// Cuenta e imprime las URI de los recursos contenidos en él a medida que se convierten a HTML fijo.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Si configuramos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
+        // Si establecemos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -67,7 +67,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // De forma predeterminada, 'ResourceFileUri' usa la carpeta del sistema para las fuentes.
+                // De forma predeterminada, 'ResourceFileUri' utiliza la carpeta del sistema para las fuentes.
                 // Para evitar problemas en otras plataformas debes especificar explícitamente la ruta de las fuentes.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -77,7 +77,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si hemos especificado una carpeta en la propiedad "ResourcesFolderAlias",
-        // también necesitaremos redirigir cada secuencia para colocar su recurso en esa carpeta.
+        // También necesitaremos redirigir cada flujo para colocar su recurso en esa carpeta.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

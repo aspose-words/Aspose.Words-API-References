@@ -3,14 +3,14 @@ title: FieldHyperlink.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words für .NET
-description: FieldHyperlink Address eigendom. Ruft eine Position ab an die dieser Hyperlink springt oder legt diese fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldHyperlink Address“. Verwalten Sie Hyperlink-Ziele ganz einfach für eine nahtlose Navigation in Ihren Anwendungen. Verbessern Sie noch heute das Benutzererlebnis!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldhyperlink/address/
 ---
 ## FieldHyperlink.Address property
 
-Ruft eine Position ab, an die dieser Hyperlink springt, oder legt diese fest.
+Ruft eine Position ab, zu der dieser Hyperlink springt, oder legt diese fest.
 
 ```csharp
 public string Address { get; set; }

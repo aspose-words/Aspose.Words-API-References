@@ -2,8 +2,8 @@
 title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: StyleCollection Document 财产. 获取所有者文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 StyleCollection 轻松访问所有者文档。立即体验无缝文档管理，提升您的工作流程！
 type: docs
 weight: 40
 url: /zh/net/aspose.words/stylecollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

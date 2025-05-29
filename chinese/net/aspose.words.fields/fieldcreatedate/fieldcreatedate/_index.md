@@ -2,8 +2,8 @@
 title: FieldCreateDate
 linktitle: FieldCreateDate
 articleTitle: FieldCreateDate
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCreateDate 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldCreateDate 构造函数——轻松管理编码日期的首选解决方案。使用我们的默认构造函数，简化您的项目！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldcreatedate/fieldcreatedate/

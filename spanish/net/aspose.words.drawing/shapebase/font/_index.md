@@ -3,7 +3,7 @@ title: ShapeBase.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ShapeBase Font propiedad. Proporciona acceso al formato de fuente de este objeto en C#.
+description: Descubra la propiedad Fuente ShapeBase para acceder fácilmente al formato de fuente. Mejore sus diseños con estilos de texto personalizables y opciones tipográficas únicas.
 type: docs
 weight: 190
 url: /es/net/aspose.words.drawing/shapebase/font/
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Ejemplos
 
-Muestra cómo insertar un cuadro de texto y configurar la fuente de su contenido.
+Muestra cómo insertar un cuadro de texto y establecer la fuente de su contenido.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Establece la propiedad "Oculta" del objeto "Fuente" de la forma en "verdadero" para ocultar el cuadro de texto a la vista
+// Establezca la propiedad "Oculto" del objeto "Fuente" de la forma en "verdadero" para ocultar el cuadro de texto de la vista
 // y colapsar el espacio que normalmente ocuparía.
-// Establece la propiedad "Oculta" del objeto "Fuente" de la forma en "falso" para dejar el cuadro de texto visible.
+// Establezca la propiedad "Oculto" del objeto "Fuente" de la forma en "falso" para dejar el cuadro de texto visible.
 shape.Font.Hidden = hideShape;
 
-// Si la forma es visible, modificaremos su apariencia mediante el objeto de fuente.
+// Si la forma es visible, modificaremos su apariencia a través del objeto de fuente.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -43,7 +43,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Saca el constructor del cuadro de texto y vuelve al documento principal.
+// Mueva el generador fuera del cuadro de texto y devuélvalo al documento principal.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

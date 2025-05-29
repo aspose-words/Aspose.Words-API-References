@@ -3,7 +3,7 @@ title: HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words для .NET
-description: HyphenationOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор HyphenationOptions — ваше идеальное решение для эффективной расстановки переносов в тексте с настраиваемыми параметрами для достижения оптимальных результатов.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenationoptions/

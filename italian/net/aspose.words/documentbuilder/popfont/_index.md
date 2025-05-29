@@ -3,9 +3,9 @@ title: DocumentBuilder.PopFont
 linktitle: PopFont
 articleTitle: PopFont
 second_title: Aspose.Words per .NET
-description: DocumentBuilder PopFont metodo. Recupera la formattazione dei caratteri precedentemente salvata nello stack in C#.
+description: Scopri il metodo PopFont di DocumentBuilder per ripristinare senza sforzo la formattazione dei caratteri dallo stack, migliorando il processo di creazione dei tuoi documenti.
 type: docs
-weight: 590
+weight: 630
 url: /it/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -24,22 +24,22 @@ Mostra come utilizzare lo stack di formattazione di un generatore di documenti.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta la formattazione dei caratteri, quindi scrive il testo che precede il collegamento ipertestuale.
+// Imposta la formattazione del carattere, quindi scrivi il testo che precede il collegamento ipertestuale.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Preserva la nostra attuale configurazione di formattazione nello stack.
+// Manteniamo la nostra attuale configurazione di formattazione sullo stack.
 builder.PushFont();
 
 // Modifica la formattazione corrente del builder applicando un nuovo stile.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", falso);
+builder.InsertHyperlink("here", "http://www.google.com", false);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Ripristina la formattazione del carattere salvata in precedenza e rimuove l'elemento dallo stack.
+// Ripristina la formattazione del font salvata in precedenza e rimuove l'elemento dallo stack.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

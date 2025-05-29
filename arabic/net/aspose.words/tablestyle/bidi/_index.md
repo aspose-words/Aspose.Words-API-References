@@ -3,14 +3,14 @@ title: TableStyle.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words لـ .NET
-description: TableStyle Bidi ملكية. الحصول على أو تعيين ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار في C#.
+description: اكتشف خاصية TableStyle Bidi لإدارة أنماط الجدول من اليمين إلى اليسار بسهولة، مما يعزز تخطيطك لتحسين قابلية القراءة وتجربة المستخدم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
 
-الحصول على أو تعيين ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار.
+يحصل على أو يحدد ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## ملاحظات
 
-متى`حقيقي`، يتم وضع الخلايا الموجودة في الصفوف من اليمين إلى اليسار.
+متى`حقيقي`يتم ترتيب الخلايا في الصفوف من اليمين إلى اليسار.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
@@ -55,7 +55,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

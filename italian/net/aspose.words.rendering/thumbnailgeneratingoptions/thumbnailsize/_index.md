@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions.ThumbnailSize
 linktitle: ThumbnailSize
 articleTitle: ThumbnailSize
 second_title: Aspose.Words per .NET
-description: ThumbnailGeneratingOptions ThumbnailSize proprietà. Dimensione della miniatura generata in pixel. Limpostazione predefinita è 600x900 in C#.
+description: Scopri le opzioni personalizzabili per le miniature con la nostra proprietà ThumbnailSize. Genera miniature perfette in pixel, con risoluzione predefinita di 600x900 per una visualizzazione ottimale!
 type: docs
 weight: 30
 url: /it/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-Dimensione della miniatura generata in pixel. L'impostazione predefinita è 600x900.
+Dimensione della miniatura generata in pixel. Il valore predefinito è 600x900.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in formato .epub.
 // 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

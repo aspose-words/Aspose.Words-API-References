@@ -3,14 +3,14 @@ title: Document.JustificationMode
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words для .NET
-description: Document JustificationMode свойство. Получает или задает настройку межсимвольного интервала в документе на С#.
+description: Узнайте, как оптимизировать интервал между символами в документе с помощью свойства JustificationMode. Улучшите читаемость и улучшите презентацию без усилий!
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.words/document/justificationmode/
 ---
 ## Document.JustificationMode property
 
-Получает или задает настройку межсимвольного интервала в документе.
+Возвращает или задает настройку межсимвольного интервала документа.
 
 ```csharp
 public JustificationMode JustificationMode { get; set; }
@@ -24,7 +24,7 @@ public JustificationMode JustificationMode { get; set; }
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

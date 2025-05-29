@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words per .NET
-description: MailMergeRegionInfo StartMustacheTag proprietà. Restituisce un tag iniziale baffi per la regione in C#.
+description: Scopri la proprietà StartMustacheTag di MailMergeRegionInfo, che fornisce un tag di inizio essenziale per le aree di documenti senza soluzione di continuità nei tuoi progetti.
 type: docs
 weight: 100
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/

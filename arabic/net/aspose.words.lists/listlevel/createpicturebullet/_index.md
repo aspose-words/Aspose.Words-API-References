@@ -3,14 +3,14 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: Aspose.Words لـ .NET
-description: ListLevel CreatePictureBullet طريقة. إنشاء شكل نقطي للصورة لمستوى القائمة الحالي في C#.
+description: اكتشف طريقة ListLevel CreatePictureBullet لتحسين قوائمك بسهولة باستخدام نقاط الصور المخصصة، مما يضيف جاذبية بصرية ووضوحًا.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method
 
-إنشاء شكل نقطي للصورة لمستوى القائمة الحالي.
+ينشئ شكل نقطي للصورة لمستوى القائمة الحالي.
 
 ```csharp
 public void CreatePictureBullet()
@@ -18,19 +18,19 @@ public void CreatePictureBullet()
 
 ## ملاحظات
 
-يرجى الملاحظة،[`NumberStyle`](../numberstyle/) سيتم تعيين لBullet و [`NumberFormat`](../numberformat/) إلى "\xF0B7" لعرض الصورة بشكل صحيح. سيتم تعيين صورة الصليب الأحمر كصورة نقطية عند الإنشاء. لتغييرها، يرجى استخدام[`ImageData`](../imagedata/).
+يرجى الملاحظة،[`NumberStyle`](../numberstyle/) سيتم ضبطه علىBullet و [`NumberFormat`](../numberformat/) إلى "\xF0B7" لعرض صورة نقطية بشكل صحيح. سيتم تعيين صورة الصليب الأحمر كصورة نقطية عند إنشائها. لتغييرها، يرجى استخدام[`ImageData`](../imagedata/).
 
 ## أمثلة
 
-يوضح كيفية تعيين رمز صورة مخصص لتسميات عناصر القائمة.
+يوضح كيفية تعيين أيقونة صورة مخصصة لعناوين عناصر القائمة.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// قم بإنشاء رمز نقطي لمستوى القائمة الحالي، وقم بتعيين صورة من نظام الملفات المحلي
-// كأيقونة ستعرضها التعداد النقطي لمستوى القائمة هذا.
+// قم بإنشاء صورة نقطية لمستوى القائمة الحالي، وقم بتعيين صورة من نظام ملفات محلي
+// كالأيقونة التي ستظهر بها النقاط الخاصة بمستوى القائمة هذا.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

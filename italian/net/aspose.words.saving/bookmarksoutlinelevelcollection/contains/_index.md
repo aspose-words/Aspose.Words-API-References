@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words per .NET
-description: BookmarksOutlineLevelCollection Contains metodo. Determina se la raccolta contiene un segnalibro con il nome specificato in C#.
+description: Scopri se esiste un segnalibro in BookmarksOutlineLevelCollection. Gestisci facilmente i tuoi segnalibri con questo metodo essenziale per un'organizzazione efficiente.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -18,11 +18,11 @@ public bool Contains(string name)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Nome del segnalibro da individuare senza distinzione tra maiuscole e minuscole. |
+| name | String | Nome del segnalibro da individuare, senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-`VERO` se l'articolo si trova nella raccolta; Altrimenti,`falso`.
+`VERO`se l'elemento viene trovato nella raccolta; in caso contrario,`falso`.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisce un segnalibro con un altro segnalibro annidato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -48,9 +48,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
+// Salvando in formato .pdf, i segnalibri sono accessibili tramite un menu a discesa e possono essere utilizzati come punti di riferimento dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci figlio di livello superiore quando compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -75,7 +75,7 @@ outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Lo svuotamento di questa raccolta conserverà i segnalibri e li metterà tutti sullo stesso livello di struttura.
+// Svuotando questa raccolta i segnalibri verranno conservati e tutti verranno inseriti nello stesso livello di struttura.
 outlineLevels.Clear();
 ```
 

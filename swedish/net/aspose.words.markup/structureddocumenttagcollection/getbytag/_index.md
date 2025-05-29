@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetByTag
 linktitle: GetByTag
 articleTitle: GetByTag
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagCollection GetByTag metod. Returnerar den första strukturerade dokumenttaggen som påträffades i samlingen med den angivna taggen i C#.
+description: Upptäck GetByTag-metoden i StructuredDocumentTagCollection. Hämta effektivt den första taggen för det strukturerade dokumentet med önskad tagg för sömlös dokumenthantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
 ---
 ## StructuredDocumentTagCollection.GetByTag method
 
-Returnerar den första strukturerade dokumenttaggen som påträffades i samlingen med den angivna taggen.
+Returnerar den första taggen för strukturerat dokument som påträffas i samlingen med den angivna taggen.
 
 ```csharp
 public IStructuredDocumentTag GetByTag(string tag)

@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeEnd Class
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd klas. Stellt ein Ende von darreichte Strukturiertes DokumentTag das Inhalte mit mehreren Abschnitten akzeptiert. Siehe auchStructuredDocumentTagRangeStart node in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Markup.StructuredDocumentTagRangeEnd, die für die nahtlose Verwaltung mehrteiliger Inhalte in strukturierten Dokumenten entwickelt wurde.
 type: docs
-weight: 4080
+weight: 4770
 url: /de/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Stellt ein Ende von dar**reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. Siehe auch[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) node.
+Stellt ein Ende von**reichte** strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. Siehe auch[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) Knoten.
 
-Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltskontrolle](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltssteuerung](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -22,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Initialisiert eine neue Instanz von**Ende des Tag-Bereichs des strukturierten Dokuments** Klasse. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Initialisiert eine neue Instanz des**Ende des Tagbereichs eines strukturierten Dokuments** Klasse. |
 
 ## Eigenschaften
 
@@ -30,28 +30,28 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Gibt hierfür eine eindeutige, schreibgeschützte, persistente numerische ID an**StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) Knoten hat das gleiche[`Id`](../structureddocumenttagrangestart/id/) . |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Gibt eine eindeutige, schreibgeschützte, persistente numerische ID für dieses**StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) Knoten hat die gleiche[`Id`](../structureddocumenttagrangestart/id/) . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Rückgaben`WAHR` wenn dieser Knoten andere Knoten enthalten kann. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | Gibt zurückStructuredDocumentTagRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../../aspose.words/range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | RückgabenStructuredDocumentTagRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorausgeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt einen[`Range`](../../aspose.words/range/)Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Nimmt einen Besucher auf. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorgänger des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in eine Zeichenfolge im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in eine Zeichenfolge. |
 
 ## Bemerkungen
 
@@ -59,7 +59,7 @@ Kann unmittelbares Kind von sein[`Body`](../../aspose.words/body/) Knoten**nur**
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

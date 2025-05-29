@@ -3,14 +3,14 @@ title: ChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words para .NET
-description: ChartDataPoint Bubble3D propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D en C#.
+description: Mejore su gráfico de burbujas con la propiedad Bubble3D de ChartDataPoint, agregando impresionantes efectos 3D a su visualización de datos para obtener información impactante.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/
 ---
 ## ChartDataPoint.Bubble3D property
 
-Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D.
+Especifica si se debe aplicar un efecto 3D a las burbujas del gráfico de burbujas.
 
 ```csharp
 public bool Bubble3D { get; set; }

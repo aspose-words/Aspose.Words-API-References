@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
 second_title: Aspose.Words pour .NET
-description: IFieldUserPromptRespondent Respond méthode. Une fois implémenté renvoie une réponse de lutilisateur à linvite. Votre implémentation devrait renvoyernul pour indiquer que lutilisateur na pas répondu à linvite cestàdire que lutilisateur a appuyé sur le bouton Annuler dans la fenêtre dinvite en C#.
+description: Découvrez la méthode IFieldUserPromptRespondent Respond pour recueillir efficacement les réponses des utilisateurs. Apprenez à gérer les annulations en toute simplicité !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Une fois implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation devrait renvoyer`nul` pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite).
+Une fois implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation doit renvoyer`nul` pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,12 +18,12 @@ public string Respond(string promptText, string defaultResponse)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| promptText | String | Texte d'invite (c'est-à-dire titre de la fenêtre d'invite). |
-| defaultResponse | String | Réponse utilisateur par défaut (c'est-à-dire valeur initiale contenue dans la fenêtre d'invite). |
+| promptText | String | Texte d'invite (c'est-à-dire le titre de la fenêtre d'invite). |
+| defaultResponse | String | Réponse utilisateur par défaut (c'est-à-dire la valeur initiale contenue dans la fenêtre d'invite). |
 
 ### Return_Value
 
-Réponse de l'utilisateur (c'est-à-dire valeur confirmée contenue dans la fenêtre d'invite).
+Réponse de l'utilisateur (c'est-à-dire la valeur confirmée contenue dans la fenêtre d'invite).
 
 ## Exemples
 
@@ -35,7 +35,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où sera placée la réponse à notre champ ASK.
+    // Placez un champ où la réponse à notre champ ASK sera placée.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -63,7 +63,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur personnalisé,
+    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur d'invite personnalisé,
     // qui se produira lors d'un publipostage.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

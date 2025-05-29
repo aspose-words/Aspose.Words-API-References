@@ -3,16 +3,16 @@ title: FolderFontSource Class
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.FolderFontSource classe. Rappresenta la cartella che contiene i file dei caratteri TrueType in C#.
+description: Scopri la classe Aspose.Words.Fonts.FolderFontSource, la soluzione ideale per gestire in modo efficiente i font TrueType. Migliora la tipografia dei tuoi documenti oggi stesso!
 type: docs
-weight: 2880
+weight: 3290
 url: /it/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
-Rappresenta la cartella che contiene i file dei caratteri TrueType.
+Rappresenta la cartella che contiene i file dei font TrueType.
 
-Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i font](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class FolderFontSource : FontSourceBase
@@ -30,23 +30,23 @@ public class FolderFontSource : FontSourceBase
 | Nome | Descrizione |
 | --- | --- |
 | [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Percorso della cartella. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
-| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Determina se scansionare o meno le sottocartelle. |
-| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Restituisce il tipo di fonte del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della sorgente del font. |
+| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Determina se eseguire o meno la scansione delle sottocartelle. |
+| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Restituisce il tipo di origine del font. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione della sorgente del font quando viene rilevato un problema che potrebbe causare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei font disponibili tramite questa sorgente. |
 
 ## Esempi
 
-Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
+Mostra come utilizzare una cartella di sistema locale contenente i font come origine dei font.
 
 ```csharp
-// Crea un'origine carattere da una cartella che contiene file di caratteri.
+// Crea una sorgente font da una cartella che contiene file font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

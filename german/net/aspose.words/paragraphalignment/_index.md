@@ -3,9 +3,9 @@ title: ParagraphAlignment Enum
 linktitle: ParagraphAlignment
 articleTitle: ParagraphAlignment
 second_title: Aspose.Words für .NET
-description: Aspose.Words.ParagraphAlignment opsomming. Gibt die Textausrichtung in einem Absatz an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.ParagraphAlignment für eine präzise Textausrichtung in Ihren Dokumenten. Verbessern Sie mühelos Lesbarkeit und Formatierung!
 type: docs
-weight: 4400
+weight: 5130
 url: /de/net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration
@@ -20,16 +20,16 @@ public enum ParagraphAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Left | `0` | Text wird linksbündig ausgerichtet. |
-| Center | `1` | Text wird horizontal zentriert. |
-| Right | `2` | Text wird rechtsbündig ausgerichtet. |
-| Justify | `3` | Text wird sowohl links als auch rechts ausgerichtet. |
-| Distributed | `4` | Text wird gleichmäßig verteilt. |
-| ArabicMediumKashida | `5` | Nur Arabisch. Die Kashida-Länge für Text wird auf eine vom Verbraucher festgelegte mittlere Länge erweitert. |
+| Left | `0` | Der Text ist linksbündig ausgerichtet. |
+| Center | `1` | Der Text wird horizontal zentriert. |
+| Right | `2` | Der Text ist rechtsbündig ausgerichtet. |
+| Justify | `3` | Der Text wird sowohl links- als auch rechtsbündig ausgerichtet. |
+| Distributed | `4` | Der Text ist gleichmäßig verteilt. |
+| ArabicMediumKashida | `5` | Nur Arabisch. Die Kashida-Länge für Text wird auf eine vom Benutzer festgelegte mittlere Länge erweitert. |
 | ArabicHighKashida | `7` | Nur Arabisch. Die Kashida-Länge für Text wird auf die größtmögliche Länge erweitert. |
-| ArabicLowKashida | `8` | Nur Arabisch. Die Kashida-Länge für Text wurde auf eine etwas längere Länge erweitert. |
-| ThaiDistributed | `9` | Nur Thailändisch. Text wird mit einer Optimierung für Thailändisch ausgerichtet. |
-| MathElementCenterAsGroup | `10` | Das einzige Math-Element in einer Zeile, ausgerichtet als „Zentriert als Gruppe“. |
+| ArabicLowKashida | `8` | Nur Arabisch. Die Kashida-Länge für Text wird auf eine etwas längere Länge erweitert. |
+| ThaiDistributed | `9` | Nur Thai. Der Text wird mit einer Optimierung für Thai ausgerichtet. |
+| MathElementCenterAsGroup | `10` | Das einzige mathematische Element in einer Zeile, ausgerichtet als „Zentriert als Gruppe“. |
 
 ## Beispiele
 
@@ -40,12 +40,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -58,7 +58,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -66,8 +66,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

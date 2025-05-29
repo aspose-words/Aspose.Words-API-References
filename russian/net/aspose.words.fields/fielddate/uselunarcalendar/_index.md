@@ -3,14 +3,14 @@ title: FieldDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words для .NET
-description: FieldDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
+description: Оптимизируйте управление датами с помощью свойства UseLunarCalendar в FieldDate. Легко переключайтесь между календарями Хиджры и еврейского лунного календаря для улучшения функциональности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddate/uselunarcalendar/
 ---
 ## FieldDate.UseLunarCalendar property
 
-Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+Возвращает или задает, использовать ли лунный календарь Хиджры или еврейский лунный календарь.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseLunarCalendar { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными видами календарей.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
-// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
+// Вставьте поле ДАТА и установите его тип календаря на последний, использовавшийся хост-приложением.
+// В Microsoft Word тип будет последним использованным в диалоговом окне Вставка -> Текст -> Дата и время.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

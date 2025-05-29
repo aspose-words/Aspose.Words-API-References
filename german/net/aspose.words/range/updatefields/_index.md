@@ -3,14 +3,14 @@ title: Range.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words für .NET
-description: Range UpdateFields methode. Aktualisiert die Werte von Dokumentfeldern in diesem Bereich in C#.
+description: Verbessern Sie Ihre Dokumente mühelos mit der Methode „Range UpdateFields“, indem Sie Feldwerte schnell und effizient aktualisieren und so die Genauigkeit verbessern.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words/range/updatefields/
 ---
 ## Range.UpdateFields method
 
-Aktualisiert die Werte von Dokumentfeldern in diesem Bereich.
+Aktualisiert die Werte der Dokumentfelder in diesem Bereich.
 
 ```csharp
 public void UpdateFields()
@@ -18,13 +18,13 @@ public void UpdateFields()
 
 ## Bemerkungen
 
-Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern behält sie intakt. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und dies sicherstellen möchten Die richtigen (berechneten) Feldwerte werden im gespeicherten Dokument angezeigt.
+Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern lässt sie unverändert. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und sicherstellen möchten, dass die richtigen (berechneten) Feldwerte im gespeicherten Dokument angezeigt werden.
 
-Es besteht keine Notwendigkeit, Felder nach der Ausführung eines Serienbriefs zu aktualisieren, da der Serienbrief eine Art Feldaktualisierung ist und automatisch alle Felder im Dokument aktualisiert.
+Es besteht keine Notwendigkeit, Felder nach der Ausführung eines Serienbriefs zu aktualisieren, da der Serienbrief eine Art Feldaktualisierung ist und alle Felder im Dokument automatisch aktualisiert.
 
 Diese Methode aktualisiert nicht alle Feldtypen. Eine detaillierte Liste der unterstützten Feldtypen finden Sie im Programmierhandbuch.
 
-Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithmen beziehen (z. B. PAGE, PAGES, PAGEREF). Die seitenlayoutbezogenen Felder werden aktualisiert, wenn Sie ein Dokument oder einen Aufruf rendern[`UpdatePageLayout`](../../document/updatepagelayout/).
+Diese Methode aktualisiert keine Felder, die mit den Seitenlayout-Algorithmen in Zusammenhang stehen (z. B. PAGE, PAGES, PAGEREF). Die mit dem Seitenlayout in Zusammenhang stehenden Felder werden aktualisiert, wenn Sie ein Dokument rendern oder aufrufen[`UpdatePageLayout`](../../document/updatepagelayout/).
 
 Um Felder im gesamten Dokument zu aktualisieren, verwenden Sie[`UpdateFields`](../../document/updatefields/).
 
@@ -47,7 +47,7 @@ doc.BuiltInDocumentProperties.Category = "MyCategory";
 Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
 Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-// Alle Felder aktualisieren, die im Bereich des ersten Abschnitts liegen.
+// Aktualisieren Sie alle Felder, die im Bereich des ersten Abschnitts liegen.
 doc.FirstSection.Range.UpdateFields();
 
 Assert.AreEqual("MyCategory", doc.Range.Fields[0].Result);

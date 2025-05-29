@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart XmlMapping eigendom. Ruft ein Objekt ab das die Zuordnung dieses strukturierten DokumentTagBereichs zu XMLDaten in einem benutzerdefinierten XMLTeil des aktuellen Dokuments darstellt in C#.
+description: Entdecken Sie, wie die XmlMapping-Eigenschaft „StructuredDocumentTagRangeStart“ den Tag-Bereich Ihres Dokuments mit benutzerdefinierten XML-Daten verbindet und so die Dokumentintegration verbessert.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart.XmlMapping property
@@ -18,11 +18,11 @@ public XmlMapping XmlMapping { get; }
 
 ## Bemerkungen
 
-Sie können das verwenden[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses -Objekts zum Zuordnen eines strukturierten Dokument-Tag-Bereichs zu XML-Daten.
+Sie können die[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses -Objekts, um einen strukturierten Dokument-Tag-Bereich XML-Daten zuzuordnen.
 
 ## Beispiele
 
-Zeigt, wie XML-Zuordnungen für den Bereichsanfang eines strukturierten Dokument-Tags festgelegt werden.
+Zeigt, wie XML-Zuordnungen für den Bereichsanfang eines strukturierten Dokumenttags festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
@@ -39,8 +39,8 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
 // Wenn wir eine Zuordnung für unser strukturiertes Dokument-Tag festlegen,
-// Es wird nur ein Teil des CustomXmlPart angezeigt, auf den der XPath verweist.
-// Dieser XPath zeigt auf den zweiten Inhalt von „<text>“ Element des ersten „<root>“ Element unseres CustomXmlPart.
+// es wird nur ein Teil des CustomXmlPart angezeigt, auf den der XPath verweist.
+// Dieser XPath zeigt auf den Inhalt des zweiten „<text>“-Elements des ersten „<root>“-Elements unseres CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

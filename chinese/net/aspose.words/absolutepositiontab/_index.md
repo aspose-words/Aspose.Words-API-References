@@ -2,17 +2,17 @@
 title: AbsolutePositionTab Class
 linktitle: AbsolutePositionTab
 articleTitle: AbsolutePositionTab
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.AbsolutePositionTab 班级. 绝对位置制表符是一个字符用于在显示此 WordprocessingML 内容时推进 当前文本行上的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.AbsolutePositionTab 类，可在 WordprocessingML 中实现精确的文本定位，从而增强文档格式和控制。
 type: docs
-weight: 10
+weight: 120
 url: /zh/net/aspose.words/absolutepositiontab/
 ---
 ## AbsolutePositionTab class
 
-绝对位置制表符是一个字符，用于在显示此 WordprocessingML 内容时推进 当前文本行上的位置。
+绝对位置制表符是用于在显示此 WordprocessingML 内容时推进当前文本行上的位置的字符。
 
-要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
+要了解更多信息，请访问[Aspose.Words 文档对象模型（DOM）](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public class AbsolutePositionTab : SpecialChar
@@ -23,20 +23,20 @@ public class AbsolutePositionTab : SpecialChar
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
-| virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
+| virtual [Document](../../aspose.words/node/document/) { get; } | 获取此节点所属的文档。 |
 | [Font](../../aspose.words/inline/font/) { get; } | 提供对此对象的字体格式的访问。 |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式，则返回 true。 |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中，则返回 true。 |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果启用更改跟踪时在 Microsoft Word 中移动（删除）此对象。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果此节点可以包含其他节点。 |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则返回 true。 |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | 如果在启用更改跟踪的情况下 Microsoft Word 中的对象格式发生更改，则返回 true。 |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | 如果在启用更改跟踪的情况下将此对象插入 Microsoft Word，则返回 true。 |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（删除）此对象。 |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | 返回`真的`如果在启用更改跟踪的情况下在 Microsoft Word 中移动（插入）此对象。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随此节点之后的节点。 |
 | override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | 返回SpecialChar. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../paragraph/)此节点的. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | 检索父级[`Paragraph`](../paragraph/)此节点的。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取此节点前一个节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -46,27 +46,32 @@ public class AbsolutePositionTab : SpecialChar
 | [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | 获取此节点代表的特殊字符。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中移除。 |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点内容导出为字符串。 |
 
 ## 例子
 
-演示如何使用文档访问者处理绝对位置制表符。
+展示如何使用文档访问器处理绝对位置制表符。
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // 通过接受此自定义文档访问者来提取文档的文本内容。
+    // 通过接受这个自定义文档访问者来提取我们文档的文本内容。
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // 仅访问文档主体的开头。
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // 仅访问文档主体的末尾。
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // 绝对位置制表符在字符串形式中没有等效项，已被显式转换为制表符。
+    // 绝对位置制表符，在字符串形式中没有等效项，已明确转换为制表符。
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
@@ -98,7 +103,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 AbsolutePositionTab 节点时调用。
+    /// 当在文档中遇到 AbsolutePositionTab 节点时调用。
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -107,7 +112,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将文本添加到当前输出。尊重启用/禁用输出标志。
+    /// 将文本添加到当前输出。遵守启用/禁用输出标志。
     /// </summary>
     private void AppendText(string text)
     {

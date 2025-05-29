@@ -3,14 +3,14 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words para .NET
-description: Row Cells propiedad. Proporciona acceso escrito alCell nodos secundarios de la fila en C#.
+description: Acceda a las celdas de fila sin esfuerzo con controles escritos para una administración perfecta de los nodos secundarios, mejorando su experiencia de manipulación de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Proporciona acceso escrito al[`Cell`](../../cell/) nodos secundarios de la fila.
+Proporciona acceso tipificado a la[`Cell`](../../cell/) nodos secundarios de la fila.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## Ejemplos
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

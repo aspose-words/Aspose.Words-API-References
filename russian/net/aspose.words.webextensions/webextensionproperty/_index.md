@@ -3,16 +3,16 @@ title: WebExtensionProperty Class
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionProperty сорт. Указывает пользовательское свойство вебрасширения на С#.
+description: Откройте для себя класс Aspose.Words.WebExtensionProperty для определения пользовательских свойств веб-расширения. Улучшите управление документами с легкостью!
 type: docs
-weight: 6780
+weight: 7630
 url: /ru/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
 Указывает пользовательское свойство веб-расширения.
 
-Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) документальная статья.
 
 ```csharp
 public class WebExtensionProperty

@@ -3,14 +3,14 @@ title: PageSetup.RestartPageNumbering
 linktitle: RestartPageNumbering
 articleTitle: RestartPageNumbering
 second_title: Aspose.Words для .NET
-description: PageSetup RestartPageNumbering свойство. Истинно если нумерация страниц возобновляется в начале раздела на С#.
+description: Узнайте, как свойство RestartPageNumbering улучшает форматирование документа, позволяя нумеровать страницы по разделам. Оптимизируйте свой макет без усилий!
 type: docs
 weight: 360
 url: /ru/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-Истинно, если нумерация страниц возобновляется в начале раздела.
+Истина, если нумерация страниц начинается заново с начала раздела.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -40,23 +40,23 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Переместите конструктор документов в основной заголовок первого раздела,
+// Перемещаем конструктор документа в основной заголовок первого раздела,
 // который будет отображаться на каждой странице этого раздела.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Вставляем поле СТРАНИЦА, в котором будет отображаться номер текущей страницы.
+// Вставьте поле СТРАНИЦА, в котором будет отображаться номер текущей страницы.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
 // Настройте раздел так, чтобы количество страниц, отображаемых в полях PAGE, начиналось с 5.
-// Кроме того, настройте все поля PAGE для отображения номеров страниц с использованием римских цифр в верхнем регистре.
+// Также настройте все поля PAGE для отображения номеров страниц с использованием заглавных римских цифр.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Создайте еще один основной заголовок для второго раздела с другим полем PAGE.
+// Создаем еще один основной заголовок для второго раздела с другим полем PAGE.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;

@@ -3,7 +3,7 @@ title: FieldUserName
 linktitle: FieldUserName
 articleTitle: FieldUserName
 second_title: Aspose.Words для .NET
-description: FieldUserName строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldUserName, ваше решение для бесперебойного управления пользователями в приложениях. Оптимизируйте производительность с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldusername/fieldusername/

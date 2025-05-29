@@ -3,14 +3,14 @@ title: DocumentProperty.LinkSource
 linktitle: LinkSource
 articleTitle: LinkSource
 second_title: Aspose.Words för .NET
-description: DocumentProperty LinkSource fast egendom. Hämtar källan till en länkad anpassad dokumentegenskap i C#.
+description: Upptäck egenskapen LinkSource för DocumentProperty och få enkel åtkomst till källan för dina länkade anpassade dokumentegenskaper för förbättrad dokumenthantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property
 
-Hämtar källan till en länkad anpassad dokumentegenskap.
+Hämtar källan för en länkad anpassad dokumentegenskap.
 
 ```csharp
 public string LinkSource { get; }
@@ -28,8 +28,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Länka en ny anpassad egenskap till ett bokmärke. Värdet på denna fastighet
-// kommer att vara innehållet i bokmärket som det refererar till i "LinkSource"-medlemmen.
+// Länka en ny anpassad egenskap till ett bokmärke. Värdet för denna egenskap
+// kommer att vara innehållet i bokmärket som den refererar till i "LinkSource"-medlemmen.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

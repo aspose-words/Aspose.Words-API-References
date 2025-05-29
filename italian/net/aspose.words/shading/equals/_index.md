@@ -3,14 +3,14 @@ title: Shading.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words per .NET
-description: Shading Equals metodo. Determina se specificatoShading ha lo stesso valore della correnteShading  in C#.
+description: Scopri il metodo Shading Equals per confrontare facilmente i valori di Shading, garantendo risultati accurati nei tuoi progetti. Semplifica la tua programmazione oggi stesso!
 type: docs
 weight: 90
 url: /it/net/aspose.words/shading/equals/
 ---
 ## Equals(*[Shading](../)*) {#equals}
 
-Determina se specificato[`Shading`](../) ha lo stesso valore della corrente[`Shading`](../) .
+Determina se il valore specificato[`Shading`](../) ha un valore uguale a quello attuale[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)

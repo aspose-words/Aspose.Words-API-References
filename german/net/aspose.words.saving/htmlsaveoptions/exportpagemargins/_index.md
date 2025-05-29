@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportPageMargins eigendom. Gibt an ob Seitenränder nach HTML MHTML oder EPUB exportiert werden. Die Standardeinstellung istFALSCH  in C#.
+description: Entdecken Sie, wie die Eigenschaft „HtmlSaveOptions ExportPageMargins“ Ihre HTML-, MHTML- und EPUB-Exporte verbessert, indem sie die Seitenränder für eine ansprechende Präsentation steuert.
 type: docs
 weight: 210
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-Gibt an, ob Seitenränder nach HTML, MHTML oder EPUB exportiert werden. Die Standardeinstellung ist`FALSCH` .
+Gibt an, ob Seitenränder in HTML, MHTML oder EPUB exportiert werden. Standard ist`FALSCH` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -18,11 +18,11 @@ public bool ExportPageMargins { get; set; }
 
 ## Bemerkungen
 
-Aspose.Words zeigt standardmäßig keinen Bereich der Seitenränder an. Wenn Elemente ganz oder teilweise durch die Dokumentkante abgeschnitten werden, kann der angezeigte Bereich mit dieser Option erweitert werden.
+Aspose.Words zeigt standardmäßig keinen Bereich der Seitenränder an. Wenn Elemente vollständig oder teilweise durch die Dokumentkante abgeschnitten werden, kann der angezeigte Bereich mit dieser Option erweitert werden.
 
 ## Beispiele
 
-Zeigt, wie außerhalb der Grenzen befindliche Objekte in ausgegebenen HTML-Dokumenten angezeigt werden.
+Zeigt, wie Objekte außerhalb des zulässigen Bereichs in HTML-Ausgabedokumenten angezeigt werden.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
 // Negative Formpositionswerte können dazu führen, dass die Form außerhalb der Seitengrenzen liegt.
-// Wenn wir dies nach HTML exportieren, wird die Form abgeschnitten angezeigt.
+// Wenn wir dies in HTML exportieren, wird die Form abgeschnitten angezeigt.
 shape.Left = -150;
 
-// Beim Speichern des Dokuments in HTML können wir ein SaveOptions-Objekt übergeben
-// um zu entscheiden, ob die Seite so angepasst werden soll, dass Objekte außerhalb der Grenzen vollständig angezeigt werden.
+// Beim Speichern des Dokuments im HTML-Format können wir ein SaveOptions-Objekt übergeben
+// um zu entscheiden, ob die Seite angepasst werden soll, um Objekte außerhalb des Rahmens vollständig anzuzeigen.
 // Wenn wir das Flag „ExportPageMargins“ auf „true“ setzen, ist die Form im Ausgabe-HTML vollständig sichtbar.
-// Wenn wir das Flag „ExportPageMargins“ auf „false“ setzen,
-// Unser Dokument zeigt die Form abgeschnitten an, wie wir sie in Microsoft Word sehen würden.
+// Wenn wir das Flag "ExportPageMargins" auf "false" setzen,
+// Unser Dokument zeigt die abgeschnittene Form an, so wie wir sie in Microsoft Word sehen würden.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

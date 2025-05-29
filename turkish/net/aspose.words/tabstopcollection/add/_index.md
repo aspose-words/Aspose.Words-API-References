@@ -2,15 +2,15 @@
 title: TabStopCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: Aspose.Words for .NET
-description: TabStopCollection Add yöntem. Koleksiyona bir sekme durağı ekler veya değiştirir C#'da.
+second_title: .NET için Aspose.Words
+description: TabStopCollection Add yönteminin sekme duraklarını nasıl etkili bir şekilde eklediğini veya güncellediğini, belgenizin düzenini ve biçimlendirmesini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tabstopcollection/add/
 ---
 ## Add(*[TabStop](../../tabstop/)*) {#add}
 
-Koleksiyona bir sekme durağı ekler veya değiştirir.
+Koleksiyonda bir sekme durağı ekler veya değiştirir.
 
 ```csharp
 public void Add(TabStop tabStop)
@@ -18,11 +18,11 @@ public void Add(TabStop tabStop)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| tabStop | TabStop | Eklenecek bir sekme durağı nesnesi. |
+| tabStop | TabStop | Eklenecek bir sekme durdurma nesnesi. |
 
 ## Notlar
 
-Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
+Belirtilen konumda bir sekme durağı zaten varsa, değiştirilir.
 
 ## Örnekler
 
@@ -32,12 +32,12 @@ Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu verilmiştir.
+// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu bulunmaktadır.
 // 1 - Bir "TabStop" nesnesi oluşturun ve ardından onu koleksiyona ekleyin:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Yeni bir sekme durağının özelliklerine ilişkin değerleri "Ekle" yöntemine iletin:
+// 2 - Yeni bir sekme durağının özelliklerinin değerlerini "Ekle" metoduna geçirin:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 ## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
-Koleksiyona bir sekme durağı ekler veya değiştirir.
+Koleksiyonda bir sekme durağı ekler veya değiştirir.
 
 ```csharp
 public void Add(double position, TabAlignment alignment, TabLeader leader)
@@ -75,12 +75,12 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | position | Double | Sekme durağının ekleneceği konum (nokta cinsinden). |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri, sekme durağındaki metnin hizalamasını belirtir. |
-| leader | TabLeader | A[`TabLeader`](../../tableader/) değer that sekme karakterinin altında görüntülenen lider çizgisinin türünü belirtir. |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri sekme durağında metnin hizalanmasını belirtir. |
+| leader | TabLeader | A[`TabLeader`](../../tableader/)that değeri sekme karakterinin altında görüntülenen öncü çizginin türünü belirtir. |
 
 ## Notlar
 
-Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
+Belirtilen konumda bir sekme durağı zaten varsa, değiştirilir.
 
 ## Örnekler
 
@@ -90,12 +90,12 @@ Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu verilmiştir.
+// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu bulunmaktadır.
 // 1 - Bir "TabStop" nesnesi oluşturun ve ardından onu koleksiyona ekleyin:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Yeni bir sekme durağının özelliklerine ilişkin değerleri "Ekle" yöntemine iletin:
+// 2 - Yeni bir sekme durağının özelliklerinin değerlerini "Ekle" metoduna geçirin:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 

@@ -2,15 +2,15 @@
 title: Glyph.GlyphIndex
 linktitle: GlyphIndex
 articleTitle: GlyphIndex
-second_title: Aspose.Words for .NET
-description: Glyph GlyphIndex mülk. Fiziksel yazı tipindeki glifin GID dizini C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipinizdeki GID'yi tanımlayan ve hassas tipografi ve gelişmiş tasarım kontrolü sağlayan Glyph'in GlyphIndex özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.shaping/glyph/glyphindex/
 ---
 ## Glyph.GlyphIndex property
 
-Fiziksel yazı tipindeki glifin (GID) dizini.
+Fiziksel yazı tipindeki glif (GID) dizini.
 
 ```csharp
 public int GlyphIndex { get; }

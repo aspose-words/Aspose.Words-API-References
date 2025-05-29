@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: CustomXmlPropertyCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
+description: قم بمسح CustomXmlPropertyCollection الخاص بك بسهولة باستخدام طريقة Clear، مما يؤدي إلى إزالة جميع العناصر لإدارة البيانات بشكل مبسط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/clear/
 ---
 ## CustomXmlPropertyCollection.Clear method
 
-إزالة كافة العناصر من المجموعة.
+يزيل جميع العناصر من المجموعة.
 
 ```csharp
 public void Clear()
@@ -18,22 +18,22 @@ public void Clear()
 
 ## أمثلة
 
-يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
+يوضح كيفية العمل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
-// في Word 2003، يمكننا تمكين العلامات الذكية عبر "الأدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
-// في مستند الإدخال لدينا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
-// قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد.
+// تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
+// في Word 2003، يمكننا تمكين العلامات الذكية عبر "أدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
+// في مستند الإدخال الخاص بنا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
+//قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد منها.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// يحتوي عضو "الخصائص" في العلامة الذكية على بيانات التعريف الخاصة به، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
-// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم الخاص بها.
+// يحتوي عنصر "الخصائص" في العلامة الذكية على بياناتها الوصفية، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
+// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -47,7 +47,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
+//يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -59,7 +59,7 @@ properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);

@@ -3,7 +3,7 @@ title: Row.NextRow
 linktitle: NextRow
 articleTitle: NextRow
 second_title: Aspose.Words för .NET
-description: Row NextRow fast egendom. Får nästaRow nod i C#.
+description: Upptäck NextRow-egenskapen för att enkelt komma åt följande radnod, vilket förbättrar din datanavigering och hanteringsupplevelse.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.tables/row/nextrow/
@@ -18,17 +18,17 @@ public Row NextRow { get; }
 
 ## Anmärkningar
 
-Metoden kan användas när du behöver ha maskinskriven åtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)noden hittas i en tabell istället för en rad, den korsas automatiskt för att få en rad som finns inom.
+Metoden kan användas när du behöver ha skrivåtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) noden finns i en tabell istället för en rad, den genomsöks automatiskt för att hämta en rad som finns inuti.
 
 ## Exempel
 
-Visar hur man räknar upp alla tabellceller.
+Visar hur man räknar igenom alla tabellceller.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Räkna upp genom alla celler i tabellen.
+// Räkna igenom alla celler i tabellen.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

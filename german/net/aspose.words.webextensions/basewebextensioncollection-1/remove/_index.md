@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: BaseWebExtensionCollection Remove methode. Entfernt das Element am angegebenen Index aus der Sammlung in C#.
+description: Entfernen Sie mühelos Elemente aus Ihrer BaseWebExtensionCollection mit unserer intuitiven Remove-Methode. Optimieren Sie noch heute Ihr Datenmanagement!
 type: docs
 weight: 60
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Web-Erweiterung entfernen.
+// Entfernen Sie die Weberweiterung.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

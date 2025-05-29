@@ -3,14 +3,14 @@ title: FontSettings Class
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontSettings فصل. تحديد إعدادات الخط للمستند في C#.
+description: اكتشف فئة Aspose.Words.Fonts.FontSettings لتخصيص إعدادات خط المستند بسهولة لتحسين قابلية القراءة والعرض الاحترافي.
 type: docs
-weight: 2970
+weight: 3400
 url: /ar/net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
 
-تحديد إعدادات الخط للمستند.
+يحدد إعدادات الخط للمستند.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
@@ -29,32 +29,32 @@ public class FontSettings
 | اسم | وصف |
 | --- | --- |
 | static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | إعدادات الخط الافتراضية الثابتة. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | الإعدادات المتعلقة بآلية الرجوع للخط. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | الإعدادات المتعلقة بآلية استبدال الخطوط. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | الإعدادات المتعلقة بآلية الرجوع إلى الخط. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | الإعدادات المتعلقة بآلية استبدال الخط. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | الحصول على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | إعادة ضبط مصادر الخطوط إلى الوضع الافتراضي للنظام. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | يحفظ ذاكرة التخزين المؤقت للبحث عن الخطوط في الدفق. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | يعين المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـ[`SetFontsFolders`](./setfontsfolders/) لتعيين دليل خط واحد فقط. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | يقوم بتعيين المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType ويقوم بالإضافة إلى ذلك بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | يحصل على نسخة من المصفوفة التي تحتوي على قائمة المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | إعادة تعيين مصادر الخطوط إلى الإعدادات الافتراضية للنظام. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | يحفظ ذاكرة التخزين المؤقت لبحث الخط في التدفق. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | يحدد المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـ[`SetFontsFolders`](./setfontsfolders/) لتعيين دليل خط واحد فقط. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | يحدد المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | يحدد المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | يحدد المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType ويقوم أيضًا بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا . |
 
 ## ملاحظات
 
-يستخدم Aspose.Words إعدادات الخط لتحليل الخطوط الموجودة في المستند. يتم حل الخطوط في الغالب عند إنشاء تخطيط مستند أو عرضه على تنسيقات صفحات ثابتة. ولكن عند تحميل بعض التنسيقات، قد يتطلب Aspose.Words أيضًا حل الخطوط. على سبيل المثال، عند تحميل مستندات HTML قد يقوم Aspose.Words بتحليل الخطوط لتنفيذ خط احتياطي. لذا يوصى بضبط إعدادات الخط in [`LoadOptions`](../../aspose.words.loading/loadoptions/) عند تحميل المستند. أو على الأقل قبل إنشاء التخطيط أو عرض المستند إلى تنسيق الصفحة الثابتة.
+يستخدم Aspose.Words إعدادات الخطوط لتحليل الخطوط في المستند. يتم تحليل الخطوط غالبًا عند إنشاء layout للمستند أو عرضه بتنسيقات صفحات ثابتة. ولكن عند تحميل بعض التنسيقات، قد يتطلب Aspose.Words أيضًا تحليل الخطوط. على سبيل المثال، عند تحميل مستندات HTML عند x000d_، قد يقوم Aspose.Words بتحليل الخطوط لإجراء عملية الرجوع إلى الوضع الطبيعي. لذلك، يُنصح بضبط إعدادات الخطوط في in .[`LoadOptions`](../../aspose.words.loading/loadoptions/) عند تحميل المستند، أو على الأقل قبل إنشاء التخطيط أو عرض المستند بتنسيق الصفحة الثابتة.
 
-افتراضيًا، تستخدم جميع المستندات مثيلًا واحدًا لإعدادات الخط الثابت. يمكن الوصول إليه بواسطة [`DefaultInstance`](./defaultinstance/) ملكية.
+افتراضيًا، تستخدم جميع المستندات نموذجًا واحدًا لإعدادات الخط الثابت. يمكن الوصول إليه بواسطة [`DefaultInstance`](./defaultinstance/) ملكية.
 
-يعد تغيير إعدادات الخط آمنًا في أي وقت ومن أي موضوع. ولكن يوصى بعدم تغيير إعدادات الخط أثناء معالجة بعض المستندات التي تستخدم هذه الإعدادات. يمكن أن يؤدي هذا إلى حقيقة أنه سيتم حل نفس الخط بشكل مختلف في أجزاء مختلفة من المستند.
+تغيير إعدادات الخط آمن في أي وقت ومن أي موضوع. ولكن يُنصح بعدم تغيير إعدادات الخط أثناء معالجة بعض المستندات التي تستخدم هذه الإعدادات. قد يؤدي هذا إلى اختلاف دقة الخط نفسه في أجزاء مختلفة من المستند.
 
 ## أمثلة
 
-يوضح كيفية إضافة مصدر خط إلى مصادر الخطوط الموجودة لدينا.
+يوضح كيفية إضافة مصدر الخط إلى مصادر الخطوط الموجودة لدينا.
 
 ```csharp
 Document doc = new Document();
@@ -73,19 +73,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// مصدر الخط الافتراضي يفتقد اثنين من الخطوط التي نستخدمها في وثيقتنا.
-// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط الاحتياطية على كل النص المنسق بخطوط لا يمكن الوصول إليها.
+//يفتقد مصدر الخط الافتراضي اثنين من الخطوط التي نستخدمها في مستندنا.
+// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط البديلة على كل النص المنسق بخطوط غير قابلة للوصول.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// قم بإنشاء مصدر خط من مجلد يحتوي على الخطوط.
+// قم بإنشاء مصدر الخط من مجلد يحتوي على الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // قم بتطبيق مجموعة جديدة من مصادر الخطوط التي تحتوي على مصادر الخطوط الأصلية، بالإضافة إلى الخطوط المخصصة لدينا.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// تحقق من أن Aspose.Words لديه حق الوصول إلى جميع الخطوط المطلوبة قبل تحويل المستند إلى PDF.
+// تأكد من أن Aspose.Words لديه إمكانية الوصول إلى جميع الخطوط المطلوبة قبل تقديم المستند إلى PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -94,7 +94,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// استعادة مصادر الخط الأصلي.
+//استعادة مصادر الخط الأصلية.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -109,23 +109,23 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذا المستند.
+//لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذه الوثيقة.
 // إذا استخدمنا إعدادات الخط هذه أثناء عرض هذا المستند،
-// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد موقعه.
+// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يستطيع Aspose.Words تحديد موقعه.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// مصادر الخطوط الافتراضية تفتقد الخطين اللذين نستخدمهما في هذا المستند.
+// مصادر الخطوط الافتراضية تفتقر إلى الخطين اللذين نستخدمهما في هذه الوثيقة.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// استخدم طريقة "SetFontsFolder" لتعيين دليل سيكون بمثابة مصدر خط جديد.
-// قم بتمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدليل
-// أننا نقوم بتمرير الوسيطة الأولى، ولكن لا نقوم بتضمين أي خطوط في أي من المجلدات الفرعية لهذا الدليل.
-// قم بتمرير "صحيح" كوسيطة "متكررة" لتضمين جميع ملفات الخطوط في الدليل الذي نمرره
-// في الوسيطة الأولى، وكذلك جميع الخطوط الموجودة في أدلةها الفرعية.
+//استخدم طريقة "SetFontsFolder" لتعيين الدليل الذي سيعمل كمصدر خط جديد.
+// قم بتمرير "false" كحجة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدليل
+// أننا نمرر الحجة الأولى، ولكن لا نقوم بتضمين أي خطوط في أي من المجلدات الفرعية لهذا الدليل.
+// قم بتمرير "true" كحجة "متكررة" لتضمين جميع ملفات الخطوط في الدليل الذي نمرره
+// في الحجة الأولى، وكذلك جميع الخطوط الموجودة في الدلائل الفرعية الخاصة بها.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
@@ -134,7 +134,7 @@ Assert.AreEqual(1, newFontSources.Length);
 Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// الخط "Amethysta" موجود في مجلد فرعي لدليل الخطوط.
+// الخط "Amethysta" موجود في مجلد فرعي من دليل الخطوط.
 if (recursive)
 {
     Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
@@ -148,11 +148,11 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
 
-// استعادة مصادر الخط الأصلي.
+//استعادة مصادر الخط الأصلية.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
-يوضح كيفية تعيين أدلة مصدر خطوط متعددة.
+يوضح كيفية تعيين أدلة مصدر الخطوط المتعددة.
 
 ```csharp
 Document doc = new Document();
@@ -163,23 +163,23 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذا المستند.
+//لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذه الوثيقة.
 // إذا استخدمنا إعدادات الخط هذه أثناء عرض هذا المستند،
-// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد موقعه.
+// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يستطيع Aspose.Words تحديد موقعه.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// مصادر الخطوط الافتراضية تفتقد الخطين اللذين نستخدمهما في هذا المستند.
+// مصادر الخطوط الافتراضية تفتقر إلى الخطين اللذين نستخدمهما في هذه الوثيقة.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// استخدم طريقة "SetFontsFolders" لإنشاء مصدر خط من كل دليل خطوط نمرره كوسيطة أولى.
-// قم بتمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدلائل
-// أننا نمرر الوسيطة الأولى، ولكن لا نضمن أي خطوط من أي من المجلدات الفرعية للمجلدات.
-// قم بتمرير "صحيح" كوسيطة "متكررة" لتضمين جميع ملفات الخطوط في الأدلة التي نمررها
-// في الوسيطة الأولى، وكذلك جميع الخطوط الموجودة في أدلةها الفرعية.
+// استخدم طريقة "SetFontsFolders" لإنشاء مصدر خط من كل دليل خط نمرره كحجة أولى.
+// قم بتمرير "false" كحجة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدلائل
+// أننا نمرر الحجة الأولى، ولكن لا نقوم بتضمين أي خطوط من أي من المجلدات الفرعية للمجلدات.
+// قم بتمرير "true" كحجة "متكررة" لتضمين جميع ملفات الخطوط في الدلائل التي نمررها
+// في الحجة الأولى، وكذلك جميع الخطوط الموجودة في الدلائل الفرعية الخاصة بها.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
 
@@ -190,7 +190,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// لا يحتوي المجلد "Junction" نفسه على ملفات خطوط، ولكنه يحتوي على مجلدات فرعية تقوم بذلك.
+// لا يحتوي مجلد "Junction" نفسه على ملفات خطوط، ولكنه يحتوي على مجلدات فرعية تحتوي على ملفات خطوط.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);
@@ -203,7 +203,7 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolders.pdf");
 
-// استعادة مصادر الخط الأصلي.
+//استعادة مصادر الخط الأصلية.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

@@ -3,16 +3,16 @@ title: FieldDde Class
 linktitle: FieldDde
 articleTitle: FieldDde
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldDde klass. Implementerar DDEfältet i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldDde för sömlös implementering av DDE-fält. Förbättra din dokumentautomation med kraftfulla funktioner idag!
 type: docs
-weight: 1780
+weight: 2190
 url: /sv/net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class
 
 Implementerar DDE-fältet.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldDde : Field
@@ -28,25 +28,25 @@ public class FieldDde : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | Hämtar eller ställer in om det här fältet ska uppdateras automatiskt. |
+| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | Hämtar eller anger om det här fältet ska uppdateras automatiskt. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas som en bitmapp. |
-| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas som HTML-formattext. |
-| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas som en bild. |
-| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas i rich-text-format (RTF). |
-| [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas i endast textformat. |
-| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | Hämtar eller ställer in om det länkade objektet ska infogas som Unicode-text. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | Hämtar eller ställer in applikationstypen för länkinformationen. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältets slut. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/)objekt som ger typad åtkomst till fältets formatering. |
+| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas som en bitmapp. |
+| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas som text i HTML-format. |
+| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas som en bild. |
+| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas i RTF-format (rich text). |
+| [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas i endast textformat. |
+| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | Hämtar eller anger om det länkade objektet ska infogas som Unicode-text. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller anger om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | Hämtar eller anger om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller anger om fältet är låst (resultatet ska inte beräknas om). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in fältets LCID. |
+| [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | Hämtar eller anger applikationstypen för länkinformationen. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller anger text som är mellan fältavgränsaren och fältslutet. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
-| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | Hämtar eller ställer in namnet och platsen för källfilen. |
-| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | Hämtar eller ställer in den del av källfilen som länkas. |
+| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | Hämtar eller anger namn och plats för källfilen. |
+| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | Hämtar eller anger den del av källfilen som länkas. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -54,16 +54,16 @@ public class FieldDde : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underfält inkluderas. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista undernoden till dess överordnade nod, returneras dess överordnade stycke. Om fältet redan är borttaget returneras`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavkopplingen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Körs om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Körs om fältet redan uppdateras. |
 
 ## Anmärkningar
 
-För information kopierad från ett annat program länkar detta fält den informationen till dess ursprungliga källfil med DDE.
+För information som kopierats från ett annat program länkar det här fältet informationen till dess ursprungliga källfil med hjälp av DDE.
 
 ## Exempel
 
@@ -75,8 +75,8 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nedan finns tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av text.
-    // 1 - A LINK-fält:
+    // Nedan följer tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av text.
+    // 1 - Ett LINK-fält:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -85,7 +85,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - A DDEAUTO-fält:
+    // 3 - Ett DDEAUTO-fält:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -99,8 +99,8 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nedan finns tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av en bild.
-    // 1 - A LINK-fält:
+    // Nedan följer tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av en bild.
+    // 1 - Ett LINK-fält:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -110,7 +110,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - A DDEAUTO-fält:
+    // 3 - Ett DDEAUTO-fält:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -120,7 +120,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett LÄNK-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett LINK-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -158,7 +158,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett DDE-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett DDE-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -197,7 +197,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett DDEAUTO-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett DDEAUTO-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -234,12 +234,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // LänkatObjektSomText
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // LänkatObjektSomBild
     Picture,
     Bitmap
 }

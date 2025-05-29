@@ -3,7 +3,7 @@ title: Bookmark.BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words für .NET
-description: Bookmark BookmarkStart eigendom. Ruft den Knoten ab der den Anfang des Lesezeichens darstellt in C#.
+description: Entdecken Sie die BookmarkStart-Eigenschaft, um einfach auf den Knoten zuzugreifen, der den Anfang Ihres Lesezeichens markiert, und so die Navigation und Effizienz in Ihrem Projekt zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words/bookmark/bookmarkstart/
@@ -18,12 +18,12 @@ public BookmarkStart BookmarkStart { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
+Zeigt, wie Lesezeichen hinzugefügt und deren Inhalte aktualisiert werden.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalte zu drucken.
+    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalt zu drucken.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Alle Lesezeichen erneut drucken, um aktualisierte Werte anzuzeigen.
+    // Drucken Sie alle Lesezeichen erneut, um die aktualisierten Werte anzuzeigen.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Jedes Lesezeichen in der Sammlung dazu bringen, einen Besucher zu akzeptieren, der seinen Inhalt druckt.
+    // Sorgen Sie dafür, dass jedes Lesezeichen in der Sammlung einen Besucher akzeptiert, der seinen Inhalt druckt.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -84,7 +84,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Gibt den Inhalt jedes besuchten Lesezeichens an die Konsole aus.
+/// Druckt den Inhalt jedes besuchten Lesezeichens auf der Konsole.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

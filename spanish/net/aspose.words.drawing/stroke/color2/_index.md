@@ -3,9 +3,9 @@ title: Stroke.Color2
 linktitle: Color2
 articleTitle: Color2
 second_title: Aspose.Words para .NET
-description: Stroke Color2 propiedad. Define un segundo color para un trazo en C#.
+description: Descubra la propiedad Stroke Color2: mejore sus diseños con un segundo color de trazo personalizable para lograr imágenes vibrantes y llamativas.
 type: docs
-weight: 30
+weight: 60
 url: /es/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -18,7 +18,7 @@ public Color Color2 { get; set; }
 
 ## Observaciones
 
-El valor predeterminado para un[`Shape`](../../shape/) es White.
+El valor predeterminado para un[`Shape`](../../shape/) es White .
 
 ## Ejemplos
 
@@ -30,7 +30,7 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
 // Los trazos pueden tener dos colores, que se utilizan para crear un patrón definido por datos de imagen de dos tonos.
-// Los trazos de un solo color no utilizan la propiedad Color2.
+//Los trazos con un solo color no utilizan la propiedad Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

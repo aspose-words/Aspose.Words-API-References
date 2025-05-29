@@ -3,14 +3,14 @@ title: TextWatermarkOptions.FontFamily
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words für .NET
-description: TextWatermarkOptions FontFamily eigendom. Ruft den Namen der Schriftartfamilie ab oder legt diesen fest. Der Standardwert ist Calibri in C#.
+description: Passen Sie Ihre TextWatermarkOptions mit der FontFamily-Eigenschaft an, um Ihre Designs zu verbessern. Standardmäßig ist Calibri eingestellt. Wählen Sie einen Stil, der zu Ihrer Marke passt!
 type: docs
 weight: 30
 url: /de/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-Ruft den Namen der Schriftartfamilie ab oder legt diesen fest. Der Standardwert ist „Calibri“.
+Ruft den Namen der Schriftfamilie ab oder legt ihn fest. Der Standardwert ist "Calibri".
 
 ```csharp
 public string FontFamily { get; set; }
@@ -18,16 +18,16 @@ public string FontFamily { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein Textwasserzeichen erstellt.
+Zeigt, wie ein Textwasserzeichen erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein reines Textwasserzeichen hinzufügen.
+// Fügen Sie ein Wasserzeichen im Klartext hinzu.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
-// Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+// Wenn wir die Textformatierung bearbeiten und sie als Wasserzeichen verwenden möchten,
+// Dies können wir tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

@@ -3,14 +3,14 @@ title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words för .NET
-description: RevisionGroup RevisionType fast egendom. Hämtar typen av revisioner som ingår i denna grupp i C#.
+description: Upptäck egenskapen RevisionGroup RevisionType för att enkelt identifiera och hantera typerna av revisioner i ditt projekt. Effektivisera ditt arbetsflöde idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Hämtar typen av revisioner som ingår i denna grupp.
+Hämtar typen av revisioner som ingår i den här gruppen.
 
 ```csharp
 public RevisionType RevisionType { get; }

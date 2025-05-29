@@ -3,9 +3,9 @@ title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words för .NET
-description: Document BuiltInDocumentProperties fast egendom. Returnerar en samling som representerar alla inbyggda dokumentegenskaper i dokumentet i C#.
+description: Utforska egenskapen BuiltInDocumentProperties för att få åtkomst till viktiga dokumentegenskaper, vilket förbättrar din dokumenthantering och effektivitet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
@@ -23,7 +23,7 @@ Visar hur man arbetar med inbyggda dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Dokument"-objektet innehåller en del av dess metadata i sina medlemmar.
+// Objektet "Dokument" innehåller en del av dess metadata i sina medlemmar.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Dokumentet lagrar även metadata i sina inbyggda egenskaper.

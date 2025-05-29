@@ -3,14 +3,14 @@ title: Font.Subscript
 linktitle: Subscript
 articleTitle: Subscript
 second_title: Aspose.Words per .NET
-description: Font Subscript proprietà. Vero se il carattere è formattato come pedice in C#.
+description: Scopri la proprietà Font Subscript. Formatta facilmente il testo come subscript per migliorare la leggibilità e lo stile dei tuoi documenti. Migliora il tuo design oggi stesso!
 type: docs
-weight: 430
+weight: 440
 url: /it/net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property
 
-Vero se il carattere è formattato come pedice.
+Vero se il font è formattato come pedice.
 
 ```csharp
 public bool Subscript { get; set; }
@@ -24,12 +24,12 @@ Mostra come formattare il testo per spostarne la posizione.
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Alza questa sequenza di testo 5 punti sopra la linea di base.
+// Solleva questa sequenza di testo di 5 punti rispetto alla linea di base.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Abbassa questa sequenza di testo di 10 punti sotto la linea di base.
+// Abbassa questa sequenza di testo di 10 punti rispetto alla linea di base.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);

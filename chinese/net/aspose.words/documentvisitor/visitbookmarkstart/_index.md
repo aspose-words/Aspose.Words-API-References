@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitBookmarkStart
 linktitle: VisitBookmarkStart
 articleTitle: VisitBookmarkStart
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitBookmarkStart 方法. 在文档中遇到书签的开头时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor 的 VisitBookmarkStart 方法，该方法在文档的书签开头触发。立即提升您的编码效率！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/documentvisitor/visitbookmarkstart/
 ---
 ## DocumentVisitor.VisitBookmarkStart method
 
-在文档中遇到书签的开头时调用。
+当在文档中遇到书签的开头时调用。
 
 ```csharp
 public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
@@ -40,7 +40,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

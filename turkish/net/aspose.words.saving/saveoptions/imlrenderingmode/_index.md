@@ -2,15 +2,15 @@
 title: SaveOptions.ImlRenderingMode
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
-second_title: Aspose.Words for .NET
-description: SaveOptions ImlRenderingMode mülk. Mürekkep InkML nesnelerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions ImlRenderingMode özelliğinin InkML nesne işlemeyi nasıl geliştirdiğini keşfedin. Daha iyi görsel sonuçlar için mürekkep işlemenizi optimize edin!
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property
 
-Mürekkep (InkML) nesnelerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+Mürekkep (InkML) nesnelerinin nasıl işleneceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public ImlRenderingMode ImlRenderingMode { get; set; }
@@ -20,18 +20,18 @@ public ImlRenderingMode ImlRenderingMode { get; set; }
 
 Varsayılan değer:InkML .
 
-Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
+Bu özellik, belge sabit sayfa biçimlerine aktarıldığında kullanılır.
 
 ## Örnekler
 
-Mürekkep nesnesinin nasıl oluşturulacağını gösterir.
+Ink nesnesinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// 'ImlRenderingMode.InkML'yi ayarla, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini oluşturur.
+// 'ImlRenderingMode.InkML' ayarı, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini işler.
 // Eğer render sonucu tatmin edici değilse,
-// önceki sürümlere benzer bir sonuç elde etmek için lütfen 'ImlRenderingMode.Fallback'i kullanın.
+// Önceki versiyonlara benzer bir sonuç almak için lütfen 'ImlRenderingMode.Fallback' kullanın.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)
 {
     ImlRenderingMode = ImlRenderingMode.InkML

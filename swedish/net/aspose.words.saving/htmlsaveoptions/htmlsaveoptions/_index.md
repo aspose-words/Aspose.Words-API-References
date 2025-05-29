@@ -3,14 +3,14 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml format i C#.
+description: Upptäck HtmlSaveOptions-konstruktorn för att enkelt skapa och spara dokument i HTML-format, vilket säkerställer optimal formatering och enkel delning.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iHtml format.
 
 ```csharp
 public HtmlSaveOptions()
@@ -18,7 +18,7 @@ public HtmlSaveOptions()
 
 ## Exempel
 
-Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
+Visar hur man använder en specifik kodning när man sparar ett dokument till .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,9 +28,9 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Som standard kommer ett utdata .epub-dokument att ha allt innehåll i en HTML-del.
-// Ett delat kriterium tillåter oss att segmentera dokumentet i flera HTML-delar.
-// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubriker.
+// Som standard kommer ett .epub-dokument att ha allt innehåll i en HTML-del.
+// Ett delningskriterium låter oss segmentera dokumentet i flera HTML-delar.
+// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubrikstycken.
 // Detta är användbart för läsare som inte kan läsa HTML-filer som är större än en viss storlek.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ,Epub , Azw3 ellerMobi format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iHtml ,Mhtml ,Epub , Azw3 ellerMobi format.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -83,7 +83,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

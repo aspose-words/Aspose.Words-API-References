@@ -3,9 +3,9 @@ title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: BubbleSizeCollection Item propriété. Obtient ou définit la valeur de la taille de la bulle à lindex spécifié en C#.
+description: Découvrez la propriété d'élément BubbleSizeCollection pour gérer facilement les tailles de bulles à des indices spécifiques, améliorant ainsi la visualisation de vos données avec précision.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.drawing.charts/bubblesizecollection/item/
 ---
 ## BubbleSizeCollection indexer

@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
 linktitle: ExportParagraphGraphicsToArtifact
 articleTitle: ExportParagraphGraphicsToArtifact
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions ExportParagraphGraphicsToArtifact fast egendom. Hämtar eller ställer in ett värde som avgör om en styckegrafik ska markeras som en artefakt i C#.
+description: Upptäck egenskapen PdfSaveOptions ExportParagraphGraphicsToArtifact för att styra styckegrafik som artefakter, vilket förbättrar dokumentets visuella tydlighet.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
 ---
 ## PdfSaveOptions.ExportParagraphGraphicsToArtifact property
 
-Hämtar eller ställer in ett värde som avgör om en styckegrafik ska markeras som en artefakt.
+Hämtar eller anger ett värde som avgör om en styckegrafik ska markeras som en artefakt.
 
 ```csharp
 public bool ExportParagraphGraphicsToArtifact { get; set; }
@@ -18,15 +18,15 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`falsk` och styckegrafik (understrykningar, betoning av text, etc.) kommer att markeras som "Span" i dokumentets logiska struktur.
+Standardvärdet är`falsk` och styckegrafik (understrykningar, textbetoning etc.) kommer att markeras som "Spännvidd" i dokumentets logiska struktur.
 
-När värdet är`Sann` styckegrafiken kommer att markeras som "Artefakt".
+När värdet är`sann` Styckegrafiken kommer att markeras som "Artefakt".
 
 Detta värde ignoreras när[`ExportDocumentStructure`](../exportdocumentstructure/) är`falsk` .
 
 ## Exempel
 
-Visar hur man exporterar styckegrafik som artefakt (understrykningar, betoning av text, etc.).
+Visar hur man exporterar styckegrafik som artefakt (understrykningar, textbetoning etc.).
 
 ```csharp
 Document doc = new Document(MyDir + "PDF artifacts.docx");

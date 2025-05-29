@@ -3,14 +3,14 @@ title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
 second_title: Aspose.Words لـ .NET
-description: CleanupOptions DuplicateStyle ملكية. الحصول على/تعيين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: حسّن مستنداتك باستخدام خاصية DuplicateStyle في CleanupOptions - أزل الأنماط المكررة بسهولة لتنسيق أنظف وأكثر كفاءة. القيمة الافتراضية هي "خطأ".
 type: docs
 weight: 20
 url: /ar/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-الحصول على/تعيين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على/يعين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -24,7 +24,7 @@ public bool DuplicateStyle { get; set; }
 Document doc = new Document();
 
 // أضف نمطين إلى المستند بخصائص متطابقة،
-// ولكن أسماء مختلفة. ويعتبر النمط الثاني نسخة مكررة من الأول.
+// لكن بأسماء مختلفة. يُعتبر النمط الثاني نسخة مكررة من الأول.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -37,7 +37,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// قم بتطبيق كلا النمطين على فقرات مختلفة داخل المستند.
+// تطبيق كلا الأسلوبين على فقرات مختلفة داخل المستند.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
@@ -50,8 +50,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
-// قم بتكوين كائن CleanOptions، ثم قم باستدعاء طريقة التنظيف لاستبدال كافة الأنماط المكررة
-// مع النسخة الأصلية وإزالة التكرارات من المستند.
+// قم بتكوين كائن CleanOptions، ثم اتصل بطريقة Cleanup لاستبدال جميع الأنماط المكررة
+// مع الأصل وإزالة النسخ المكررة من المستند.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

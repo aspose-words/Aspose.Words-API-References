@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportRoundtripInformation fast egendom. Anger om informationen tur och retur ska skrivas när du sparar till HTML MHTML eller EPUB. Standardvärdet ärSann för HTML ochfalsk för MHTML och EPUB i C#.
+description: Upptäck HtmlSaveOptions egenskap ExportRoundtripInformation för att kontrollera tur-och-retur-data i HTML-, MHTML- och EPUB-format. Optimera dina exporter idag!
 type: docs
 weight: 240
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-Anger om informationen tur och retur ska skrivas när du sparar till HTML, MHTML eller EPUB. Standardvärdet är`Sann` för HTML och`falsk` för MHTML och EPUB.
+Anger om returinformationen ska skrivas när man sparar till HTML, MHTML eller EPUB. Standardvärdet är`sann` för HTML och`falsk` för MHTML och EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -18,11 +18,11 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## Anmärkningar
 
-Genom att spara informationen tur och retur kan du återställa dokumentegenskaper som tabbstopp, kommentarer, sidhuvuden och sidfötter när HTML-dokumenten laddas tillbaka till en[`Document`](../../../aspose.words/document/) objekt.
+Genom att spara returinformationen kan dokumentegenskaper som tabbstopp, kommentarer, sidhuvuden och sidfot återställas medan HTML-dokumenten laddas tillbaka till en[`Document`](../../../aspose.words/document/) objekt.
 
-När`Sann`, exporteras informationen tur och retur som -aw-* CSS properties för motsvarande HTML-element.
+När`sann`, exporteras tur- och returinformationen som -aw-* CSS properties för motsvarande HTML-element.
 
-När`falsk`, gör att ingen information tur och retur matas ut till producerade filer.
+När`falsk`, orsakar att ingen tur- och returinformation matas ut i producerade filer.
 
 ## Exempel
 
@@ -31,16 +31,16 @@ Visar hur man bevarar dolda element vid konvertering till .html.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// När du konverterar ett dokument till .html, vissa element som dolda bokmärken, ursprungliga formpositioner,
-// eller fotnoter kommer antingen att tas bort eller konverteras till vanlig text och försvinner i praktiken.
-// Att spara med ett HtmlSaveOptions-objekt med ExportRoundtripInformation satt till true kommer att bevara dessa element.
+// När man konverterar ett dokument till .html, vissa element som dolda bokmärken, ursprungliga formpositioner,
+// eller fotnoter kommer antingen att tas bort eller konverteras till vanlig text och i praktiken gå förlorade.
+// Om du sparar med ett HtmlSaveOptions-objekt och ExportRoundtripInformation är satt till true, bevaras dessa element.
 
-// När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att fastställa
-// hur sparoperationen kommer att exportera dokumentelement som HTML inte stöder eller använder,
-// som dolda bokmärken och ursprungliga formpositioner.
-// Om vi ställer in "ExportRoundtripInformation"-flaggan till "true", kommer spara-operationen att bevara dessa element.
-// Om vi ställer in "ExportRoundTripInformation"-flaggan till "false", kommer spara-operationen att förkasta dessa element.
-// Vi kommer att vilja bevara sådana element om vi tänker ladda den sparade HTML-koden med Aspose.Words,
+// När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att avgöra
+// hur sparoperationen exporterar dokumentelement som HTML inte stöder eller använder,
+// såsom dolda bokmärken och ursprungliga formars positioner.
+// Om vi ställer in flaggan "ExportRoundtripInformation" till "true" kommer sparåtgärden att bevara dessa element.
+// Om vi ställer in flaggan "ExportRoundTripInformation" till "false" kommer dessa element att ignoreras när du sparar.
+// Vi vill bevara sådana element om vi tänker ladda den sparade HTML-koden med Aspose.Words,
 // eftersom de skulle kunna vara till nytta igen.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 

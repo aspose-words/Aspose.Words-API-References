@@ -3,7 +3,7 @@ title: Style.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words für .NET
-description: Style Font eigendom. Ruft die Zeichenformatierung des Stils ab in C#.
+description: Entdecken Sie die Style Font-Eigenschaft, um Ihre Zeichenformatierung mühelos zu verbessern. Schalten Sie einzigartige Gestaltungsoptionen für einen eleganten Look frei!
 type: docs
 weight: 60
 url: /de/net/aspose.words/style/font/
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Bemerkungen
 
-Für Listenstile gibt diese Eigenschaft zurück`Null`.
+Für Listenstile gibt diese Eigenschaft zurück`null`.
 
 ## Beispiele
 
@@ -38,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
+// Wenden Sie den Absatzstil auf den aktuellen Absatz des Dokumentgenerators an und fügen Sie dann etwas Text hinzu.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Dokument-Generators in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -63,7 +63,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen der Stile aus dem Dokument auf den Absatz anwenden, den der Dokumentersteller erstellt.
+// Wenden Sie einen der Stile aus dem Dokument auf den Absatz an, den der Dokumentgenerator erstellt.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

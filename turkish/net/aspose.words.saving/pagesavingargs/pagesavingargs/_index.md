@@ -2,8 +2,8 @@
 title: PageSavingArgs
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
-second_title: Aspose.Words for .NET
-description: PageSavingArgs inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: PageSavingArgs oluşturucusunu keşfedin—verimli veri yönetimi için olmazsa olmaz aracınız. Bu varsayılan oluşturucuyla kodlamanızı bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pagesavingargs/pagesavingargs/

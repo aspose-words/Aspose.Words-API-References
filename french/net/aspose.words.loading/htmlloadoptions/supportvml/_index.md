@@ -3,9 +3,9 @@ title: HtmlLoadOptions.SupportVml
 linktitle: SupportVml
 articleTitle: SupportVml
 second_title: Aspose.Words pour .NET
-description: HtmlLoadOptions SupportVml propriété. Obtient ou définit une valeur indiquant sil faut prendre en charge les images VML en C#.
+description: Découvrez comment la propriété HtmlLoadOptions SupportVml améliore votre expérience Web en activant la prise en charge des images VML pour une qualité graphique améliorée.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property
@@ -18,18 +18,18 @@ public bool SupportVml { get; set; }
 
 ## Exemples
 
-Montre comment prendre en charge les commentaires conditionnels lors du chargement d’un document HTML.
+Montre comment prendre en charge les commentaires conditionnels lors du chargement d'un document HTML.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Si la valeur est vraie, alors nous prenons en compte le code VML lors de l'analyse du document chargé.
+// Si la valeur est vraie, nous prenons en compte le code VML lors de l'analyse du document chargé.
 loadOptions.SupportVml = supportVml;
 
-// Ce document contient une image JPEG dans "<!--[if gte vml 1]>" Mots clés,
-// et une image PNG différente dans "<![if !vml]>" Mots clés.
-// Si nous définissons l'indicateur "SupportVml" sur "true", alors Aspose.Words chargera le JPEG.
-// Si nous définissons cet indicateur sur "false", alors Aspose.Words ne chargera que le PNG.
+// Ce document contient une image JPEG dans les balises « <!--[if gte vml 1]> »,
+// et une image PNG différente dans les balises "<![if !vml]>".
+// Si nous définissons l'indicateur « SupportVml » sur « true », alors Aspose.Words chargera le JPEG.
+// Si nous définissons cet indicateur sur « false », alors Aspose.Words chargera uniquement le PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)

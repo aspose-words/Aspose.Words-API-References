@@ -3,14 +3,14 @@ title: FontSourceBase.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words لـ .NET
-description: FontSourceBase Priority ملكية. يُرجع أولوية مصدر الخط في C#.
+description: اكتشف خاصية أولوية FontSourceBase لتحسين عملية البحث عن الخطوط. حسّن الأداء وتجربة المستخدم بسهولة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-يُرجع أولوية مصدر الخط.
+يعيد أولوية مصدر الخط.
 
 ```csharp
 public int Priority { get; }
@@ -18,7 +18,7 @@ public int Priority { get; }
 
 ## ملاحظات
 
-يتم استخدام هذه القيمة عندما تكون هناك خطوط لها نفس اسم العائلة والنمط في مصادر خطوط مختلفة. في هذه الحالة يقوم Aspose.Words بتحديد الخط من المصدر ذي القيمة ذات الأولوية الأعلى.
+يتم استخدام هذه القيمة عندما تكون هناك خطوط تحمل نفس اسم العائلة والأسلوب في مصادر خطوط مختلفة. في هذه الحالة، يقوم Aspose.Words بتحديد الخط من المصدر ذي قيمة الأولوية الأعلى.
 
 القيمة الافتراضية هي 0.
 

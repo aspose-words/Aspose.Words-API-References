@@ -3,7 +3,7 @@ title: Range.FormFields
 linktitle: FormFields
 articleTitle: FormFields
 second_title: Aspose.Words pour .NET
-description: Range FormFields propriété. Renvoie unFormFields collection qui représente tous les champs de formulaire de la plage en C#.
+description: Découvrez la propriété Range FormFields, accédez à une collection complète de FormFields pour gérer efficacement tous les champs de formulaire dans votre plage spécifiée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/range/formfields/
@@ -65,15 +65,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

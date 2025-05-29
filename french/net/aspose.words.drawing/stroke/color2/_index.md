@@ -3,9 +3,9 @@ title: Stroke.Color2
 linktitle: Color2
 articleTitle: Color2
 second_title: Aspose.Words pour .NET
-description: Stroke Color2 propriété. Définit une deuxième couleur pour un trait en C#.
+description: Découvrez la propriété Stroke Color2 : améliorez vos créations avec une deuxième couleur de trait personnalisable pour des visuels dynamiques et accrocheurs.
 type: docs
-weight: 30
+weight: 60
 url: /fr/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -18,11 +18,11 @@ public Color Color2 { get; set; }
 
 ## Remarques
 
-La valeur par défaut d'un[`Shape`](../../shape/) est White.
+La valeur par défaut pour un[`Shape`](../../shape/) is White .
 
 ## Exemples
 
-Montre comment traiter les caractéristiques de trait de forme.
+Montre comment traiter les fonctions de trait de forme.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

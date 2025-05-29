@@ -3,14 +3,14 @@ title: Granularity Enum
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Comparing.Granularity enumeración. Especifica la granularidad de los cambios que se deben rastrear al comparar dos documentos en C#.
+description: Descubra la enumeración Aspose.Words.Comparing.Granularity para rastrear fácilmente los cambios en los documentos con precisión. ¡Mejore su comparación de documentos hoy mismo!
 type: docs
-weight: 290
+weight: 490
 url: /es/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
 
-Especifica la granularidad de los cambios que se deben rastrear al comparar dos documentos.
+Especifica la granularidad de los cambios a seguir al comparar dos documentos.
 
 ```csharp
 public enum Granularity
@@ -20,12 +20,12 @@ public enum Granularity
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| CharLevel | `0` |  |
-| WordLevel | `1` |  |
+| CharLevel | `0` | Especifica cambios a nivel de personaje. |
+| WordLevel | `1` | Especifica cambios a nivel de palabra. |
 
 ## Ejemplos
 
-Muestra para especificar una granularidad al comparar documentos.
+Muestra cómo especificar una granularidad al comparar documentos.
 
 ```csharp
 Document docA = new Document();
@@ -36,14 +36,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Especifica si los cambios son de seguimiento
-// por carácter ('Granularity.CharLevel') o por palabra ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+// Especifique si se están realizando seguimientos de los cambios
+// por carácter ('Granularity.CharLevel'), o por palabra ('Granularity.WordLevel').
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// La colección de grupos de revisión del primer documento contiene todas las diferencias entre documentos.
+// La colección de grupos de revisión del primer documento contiene todas las diferencias entre los documentos.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

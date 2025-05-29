@@ -3,14 +3,14 @@ title: PageSetup.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words لـ .NET
-description: PageSetup ClearFormatting طريقة. إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي في C#.
+description: أعد ضبط إعدادات صفحات مستندك بسهولة باستخدام طريقة ClearFormatting. استعد الهوامش الافتراضية وحجم الورق والاتجاه لمظهر أنيق.
 type: docs
 weight: 460
 url: /ar/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method
 
-إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي.
+إعادة تعيين إعدادات الصفحة إلى حجم الورق والهوامش والاتجاه الافتراضي.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -29,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

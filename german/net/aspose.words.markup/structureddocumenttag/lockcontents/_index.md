@@ -3,14 +3,14 @@ title: StructuredDocumentTag.LockContents
 linktitle: LockContents
 articleTitle: LockContents
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag LockContents eigendom. Wenn eingestellt aufWAHR  verhindert diese Eigenschaft dass ein Benutzer den Inhalt dieser Datei bearbeitetSDT  in C#.
+description: Entdecken Sie die StructuredDocumentTag LockContents-Eigenschaft. Wenn sie auf „true“ gesetzt ist, verhindert sie, dass Benutzer SDT-Inhalte bearbeiten, und gewährleistet so die Dokumentintegrität und -sicherheit.
 type: docs
 weight: 200
 url: /de/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Wenn eingestellt auf`WAHR` , verhindert diese Eigenschaft, dass ein Benutzer den Inhalt dieser Datei bearbeitet**SDT** .
+Wenn eingestellt auf`WAHR` , verhindert diese Eigenschaft, dass ein Benutzer den Inhalt dieser**SDT** .
 
 ```csharp
 public bool LockContents { get; set; }
@@ -24,18 +24,18 @@ Zeigt, wie Bearbeitungsbeschränkungen auf strukturierte Dokument-Tags angewende
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein strukturiertes Nur-Text-Dokument-Tag ein, das als Textfeld fungiert, das den Benutzer zum Ausfüllen auffordert.
+// Fügen Sie einen strukturierten Dokument-Tag im Klartext ein, der als Textfeld fungiert und den Benutzer zum Ausfüllen auffordert.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Setzen Sie die Eigenschaft „LockContents“ auf „true“, um zu verhindern, dass der Benutzer den Inhalt dieses Textfelds bearbeitet.
+// Setzen Sie die Eigenschaft „LockContents“ auf „true“, um dem Benutzer das Bearbeiten des Inhalts dieses Textfelds zu verbieten.
 tag.LockContents = true;
 builder.Write("The contents of this structured document tag cannot be edited: ");
 builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Setzen Sie die Eigenschaft „LockContentControl“ auf „true“, um dem Benutzer dies zu verbieten
-// Dieses strukturierte Dokument-Tag manuell in Microsoft Word löschen.
+// Setzen Sie die Eigenschaft "LockContentControl" auf "true", um dem Benutzer zu verbieten,
+// dieses strukturierte Dokument-Tag manuell in Microsoft Word löschen.
 tag.LockContentControl = true;
 
 builder.InsertParagraph();

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart Color свойство. Получает или задает цвет тега структурированного документа на С#.
+description: Узнайте, как настроить свойство цвета StructuredDocumentTagRangeStart для улучшенного форматирования документа и повышения его визуальной привлекательности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 ## StructuredDocumentTagRangeStart.Color property
 
-Получает или задает цвет тега структурированного документа.
+Получает или задает цвет структурированного тега документа.
 
 ```csharp
 public Color Color { get; set; }

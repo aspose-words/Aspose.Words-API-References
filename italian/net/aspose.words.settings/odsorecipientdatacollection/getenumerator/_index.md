@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: OdsoRecipientDataCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
+description: Scopri il metodo OdsoRecipientDataCollection GetEnumerator: scorri in modo efficiente e semplice gli elementi della raccolta e migliora le tue capacità di gestione dei dati.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<OdsoRecipientData> GetEnumerator()
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

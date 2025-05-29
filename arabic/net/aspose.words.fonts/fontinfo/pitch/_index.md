@@ -3,14 +3,14 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words لـ .NET
-description: FontInfo Pitch ملكية. تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي في C#.
+description: اكتشف خاصية FontInfo Pitch. تعرّف على كيفية تحديدها للتباعد الثابت مقابل التباعد النسبي، مما يُحسّن أسلوب طباعتك ويزيد من وضوح تصميمك.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي.
+يشير النغمة إلى ما إذا كان الخط ذو نغمة ثابتة، أو متباعدًا بشكل متناسب، أو يعتمد على إعداد افتراضي.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

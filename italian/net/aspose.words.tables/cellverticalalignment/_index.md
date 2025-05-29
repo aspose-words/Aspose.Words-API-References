@@ -3,9 +3,9 @@ title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.CellVerticalAlignment enum. Specifica la giustificazione verticale del testo allinterno di una cella di tabella in C#.
+description: Scopri l'enum Aspose.Words.Tables.CellVerticalAlignment per un allineamento ottimale del testo nelle celle delle tabelle. Migliora il layout del tuo documento senza sforzo!
 type: docs
-weight: 6280
+weight: 7130
 url: /it/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -22,11 +22,11 @@ public enum CellVerticalAlignment
 | --- | --- | --- |
 | Top | `0` | Il testo è allineato nella parte superiore di una cella. |
 | Center | `1` | Il testo è allineato al centro di una cella. |
-| Bottom | `2` | Il testo è allineato in fondo alla cella. |
+| Bottom | `2` | Il testo è allineato nella parte inferiore della cella. |
 
 ## Esempi
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

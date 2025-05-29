@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.CompositingQuality
 linktitle: CompositingQuality
 articleTitle: CompositingQuality
 second_title: Aspose.Words för .NET
-description: GraphicsQualityOptions CompositingQuality fast egendom. Hämtar eller ställer in renderingskvaliteten för sammansatta bilder som ritas till denna grafik i C#.
+description: Upptäck egenskapen GraphicsQualityOptions CompositingQuality för att förbättra din bildrendering. Optimera sammansatta bilder för enastående visuell kvalitet!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Hämtar eller ställer in renderingskvaliteten för sammansatta bilder som ritas till denna grafik.
+Hämtar eller ställer in renderingskvaliteten för sammansatta bilder som ritats till denna grafik.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -18,7 +18,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
+Visar hur man ställer in alternativ för renderingskvalitet vid konvertering av dokument till bildformat.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

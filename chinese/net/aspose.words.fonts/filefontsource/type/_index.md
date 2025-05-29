@@ -2,8 +2,8 @@
 title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
-second_title: 用于 .NET 的 Aspose.Words
-description: FileFontSource Type 财产. 返回字体源的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FileFontSource Type 属性以轻松识别字体源类型，并通过精确的排版解决方案增强您的设计项目。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/filefontsource/type/
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## 例子
 
-演示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

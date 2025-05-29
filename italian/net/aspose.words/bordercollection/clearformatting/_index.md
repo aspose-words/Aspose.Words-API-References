@@ -3,7 +3,7 @@ title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words per .NET
-description: BorderCollection ClearFormatting metodo. Rimuove tutti i bordi di un oggetto in C#.
+description: Scopri come il metodo BorderCollection ClearFormatting rimuove senza sforzo tutti i bordi degli oggetti, migliorando il tuo design con immagini pulite e nitide.
 type: docs
 weight: 140
 url: /it/net/aspose.words/bordercollection/clearformatting/
@@ -18,19 +18,19 @@ public void ClearFormatting()
 
 ## Esempi
 
-Mostra come rimuovere tutti i bordi da tutti i paragrafi in un documento.
+Mostra come rimuovere tutti i bordi da tutti i paragrafi di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Il primo paragrafo di questo documento ha bordi visibili con queste impostazioni.
+// Con queste impostazioni, il primo paragrafo di questo documento presenta bordi visibili.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Usa il metodo "ClearFormatting" su ogni paragrafo per rimuovere tutti i bordi.
+// Utilizzare il metodo "ClearFormatting" su ogni paragrafo per rimuovere tutti i bordi.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

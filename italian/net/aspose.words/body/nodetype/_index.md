@@ -3,7 +3,7 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words per .NET
-description: Body NodeType proprietà. RestituisceBody  in C#.
+description: Scopri la proprietà Body NodeType che restituisce in modo efficiente il contenuto del corpo, migliorando la tua esperienza di sviluppo web e semplificando i tuoi progetti.
 type: docs
 weight: 20
 url: /it/net/aspose.words/body/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Esempi
 
-Mostra come scorrere i figli di un nodo composito.
+Mostra come scorrere gli elementi figlio di un nodo composito.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una sezione è un nodo composito e può contenere nodi figli,
-// ma solo se i nodi secondari sono di tipo "Body" o "HeaderFooter".
+// Una sezione è un nodo composito e può contenere nodi figlio,
+// ma solo se tali nodi figlio sono di tipo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

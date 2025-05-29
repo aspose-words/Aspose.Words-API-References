@@ -3,14 +3,14 @@ title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
 second_title: Aspose.Words für .NET
-description: FontSettings SaveSearchCache methode. Speichert den Cache für die Schriftartensuche im Stream in C#.
+description: Entdecken Sie, wie die SaveSearchCache-Methode von FontSettings Ihren Schriftartsuchcache effizient in einem Stream speichert und so die Leistung und das Benutzererlebnis verbessert.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings.SaveSearchCache method
 
-Speichert den Cache für die Schriftartensuche im Stream.
+Speichert den Schriftartsuchcache im Stream.
 
 ```csharp
 public void SaveSearchCache(Stream outputStream)
@@ -18,7 +18,7 @@ public void SaveSearchCache(Stream outputStream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| outputStream | Stream | Ausgabestrom. |
+| outputStream | Stream | Ausgabestream. |
 
 ## Bemerkungen
 
@@ -26,7 +26,7 @@ Sehen[`SetFontsSources`](../setfontssources/) Methodenbeschreibung für weitere 
 
 ## Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
+Zeigt, wie der Initialisierungsprozess des Schriftartcaches beschleunigt werden kann.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -47,7 +47,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -56,8 +56,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
+/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des Objekts „FontSettings“.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

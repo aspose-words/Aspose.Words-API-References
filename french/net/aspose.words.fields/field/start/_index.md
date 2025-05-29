@@ -3,7 +3,7 @@ title: Field.Start
 linktitle: Start
 articleTitle: Start
 second_title: Aspose.Words pour .NET
-description: Field Start propriété. Obtient le nœud qui représente le début du champ en C#.
+description: Découvrez la propriété Field Start pour accéder facilement au nœud de départ de votre champ, améliorant ainsi votre gestion des données et rationalisant les flux de travail.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/field/start/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {

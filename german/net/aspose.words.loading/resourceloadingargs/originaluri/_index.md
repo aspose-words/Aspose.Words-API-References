@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.OriginalUri
 linktitle: OriginalUri
 articleTitle: OriginalUri
 second_title: Aspose.Words für .NET
-description: ResourceLoadingArgs OriginalUri eigendom. Ursprünglicher URI der Ressource wie im importierten Dokument angegeben in C#.
+description: Entdecken Sie die ResourceLoadingArgs OriginalUri-Eigenschaft – greifen Sie auf die ursprüngliche URI von Ressourcen aus importierten Dokumenten zu, um die Datenverwaltung zu optimieren.
 type: docs
 weight: 10
 url: /de/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -18,7 +18,7 @@ public string OriginalUri { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie den Prozess des Ladens externer Ressourcen in ein Dokument anpassen.
+Zeigt, wie der Prozess des Ladens externer Ressourcen in ein Dokument angepasst wird.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -28,8 +28,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder werden normalerweise über einen URI oder ein Byte-Array eingefügt.
-    // Jede Instanz einer Ressourcenlast ruft die ResourceLoading-Methode unseres Rückrufs auf.
+    // Bilder werden normalerweise mithilfe einer URI oder eines Byte-Arrays eingefügt.
+    // Jede Instanz einer Ressourcenladung ruft die ResourceLoading-Methode unseres Rückrufs auf.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Ermöglicht das Laden von Bildern in ein Dokument mithilfe vordefinierter Abkürzungen im Gegensatz zu URIs.
+/// Ermöglicht uns, Bilder mithilfe vordefinierter Abkürzungen statt URIs in ein Dokument zu laden.
 /// Dadurch wird die Bildladelogik vom Rest der Dokumentkonstruktion getrennt.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
@@ -48,7 +48,7 @@ private class ImageNameHandler : IResourceLoadingCallback
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
         // Wenn dieser Rückruf beim Laden eines Bildes auf eine der Bildkürzel stößt,
-        // Es wird eine eindeutige Logik für jede definierte Abkürzung angewendet, anstatt sie als URI zu behandeln.
+        // Es wird für jede definierte Abkürzung eine eindeutige Logik angewendet, anstatt sie als URI zu behandeln.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

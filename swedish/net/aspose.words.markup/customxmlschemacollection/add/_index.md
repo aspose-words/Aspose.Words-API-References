@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Add metod. Lägger till ett föremål i samlingen i C#.
+description: Upptäck hur CustomXmlSchemaCollection Add-metoden förbättrar din XML-hantering genom att sömlöst lägga till objekt i din samling för optimal prestanda.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlschemacollection/add/
 ---
 ## CustomXmlSchemaCollection.Add method
 
-Lägger till ett föremål i samlingen.
+Lägger till ett objekt i samlingen.
 
 ```csharp
 public void Add(string value)
@@ -18,7 +18,7 @@ public void Add(string value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | String | Objektet att lägga till. |
+| value | String | Objektet som ska läggas till. |
 
 ## Exempel
 
@@ -43,15 +43,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

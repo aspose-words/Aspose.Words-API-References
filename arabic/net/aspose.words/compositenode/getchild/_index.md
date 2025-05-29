@@ -3,14 +3,14 @@ title: CompositeNode.GetChild
 linktitle: GetChild
 articleTitle: GetChild
 second_title: Aspose.Words لـ .NET
-description: CompositeNode GetChild طريقة. إرجاع العقدة الفرعية N التي تطابق النوع المحدد في C#.
+description: اكتشف طريقة CompositeNode GetChild لاسترداد عقدة الطفل Nth من نوع معين بسهولة، مما يعزز كفاءة إدارة البيانات لديك.
 type: docs
-weight: 80
+weight: 100
 url: /ar/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
 
-إرجاع العقدة الفرعية N التي تطابق النوع المحدد.
+يعيد عقدة فرعية رقم N تطابق النوع المحدد.
 
 ```csharp
 public Node GetChild(NodeType nodeType, int index, bool isDeep)
@@ -19,8 +19,8 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | nodeType | NodeType | يحدد نوع العقدة الفرعية. |
-| index | Int32 | الفهرس الصفري للعقدة الفرعية المراد تحديده. يُسمح أيضًا بالفهارس السالبة وتشير إلى الوصول من النهاية، الذي يعني -1 العقدة الأخيرة. |
-| isDeep | Boolean | `حقيقي` للاختيار من بين جميع العقد الفرعية بشكل متكرر؛ `خطأ شنيع`للاختيار فقط بين الأطفال المباشرين. انظر الملاحظات لمزيد من المعلومات. |
+| index | Int32 | مؤشر يعتمد على الصفر للعقدة الفرعية التي يجب تحديدها. يُسمح أيضًا بالمؤشرات السلبية وتشير إلى الوصول من النهاية، أي -1 تعني العقدة الأخيرة. |
+| isDeep | Boolean | `حقيقي` لتحديد من جميع العقد الفرعية بشكل متكرر؛ `خطأ شنيع` للاختيار فقط من بين الأبناء المباشرين. راجع الملاحظات لمزيد من المعلومات. |
 
 ### قيمة الإرجاع
 
@@ -28,9 +28,9 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 ## ملاحظات
 
-إذا كان الفهرس خارج النطاق، أ`باطل` يتم إرجاع.
+إذا كان المؤشر خارج النطاق،`باطل` تم إرجاعه.
 
-لاحظ أن العقد الترميزية (StructuredDocumentTag وSmartTag ) يتم اجتيازها حتى عندما*isDeep* =`خطأ شنيع` و`GetChild` يتم استدعاؤه لنوع العقدة غير الترميزية. على سبيل المثال، إذا تم تغليف التشغيل الأول في para بملف a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، سيتم إعادته بواسطة`GetChild`(Run , 0,`خطأ شنيع`).
+لاحظ أن عقد العلامات (StructuredDocumentTag وSmartTag ) يتم اجتيازها حتى عندما*isDeep* =`خطأ شنيع` و`GetChild` يتم استدعاؤه لنوع العقدة غير الترميزية. على سبيل المثال، إذا تم تغليف التشغيل الأول في para بـ[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، سيتم إرجاعه مرة أخرى`GetChild`(Run ، 0،`خطأ شنيع`).
 
 ## أمثلة
 
@@ -54,33 +54,33 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// تتعلق هذه الطريقة بخصائص نمط الجدول مثل تلك التي حددناها أعلاه.
+//تتعلق هذه الطريقة بخصائص نمط الجدول مثل تلك التي قمنا بتعيينها أعلاه.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
+يوضح كيفية التنقل عبر مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
+// أضف تشغيلتين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
+// لاحظ أن 'CustomNodeId' لا يتم حفظه في ملف إخراج ولا يوجد إلا أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
-// وطباعة أي مسارات أو أشكال نجدها داخلها.
+// قم بالتكرار خلال مجموعة الأطفال المباشرين للفقرة،
+// وطباعة أي مسارات أو أشكال نجدها بالداخل.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

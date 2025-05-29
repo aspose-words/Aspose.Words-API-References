@@ -3,14 +3,14 @@ title: VbaReferenceCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words per .NET
-description: VbaReferenceCollection Remove metodo. Rimuove la prima occorrenza di un valore specificatoVbaReference elemento della collezione in C#.
+description: Rimuovi senza sforzo il primo elemento VbaReference dalla tua collezione con il metodo Remove. Semplifica i tuoi progetti VBA per prestazioni ottimali!
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../../vbareference/) elemento della collezione.
+Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../../vbareference/) elemento dalla collezione.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -46,7 +46,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
+ /// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

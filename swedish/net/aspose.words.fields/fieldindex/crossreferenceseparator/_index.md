@@ -3,14 +3,14 @@ title: FieldIndex.CrossReferenceSeparator
 linktitle: CrossReferenceSeparator
 articleTitle: CrossReferenceSeparator
 second_title: Aspose.Words för .NET
-description: FieldIndex CrossReferenceSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera korsreferenser och andra poster i C#.
+description: Upptäck egenskapen FieldIndex CrossReferenceSeparator för att enkelt hantera teckensekvenser för att effektivt separera korsreferenser och poster.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 ---
 ## FieldIndex.CrossReferenceSeparator property
 
-Hämtar eller ställer in teckensekvensen som används för att separera korsreferenser och andra poster.
+Hämtar eller anger teckensekvensen som används för att separera korsreferenser och andra poster.
 
 ```csharp
 public string CrossReferenceSeparator { get; set; }
@@ -25,21 +25,21 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett INDEX-fält som visar en post för varje XE-fält som finns i dokumentet.
-// Varje post kommer att visa XE-fältets textegenskapsvärde på vänster sida,
+// Varje post visar XE-fältets egenskapsvärde för Text på vänster sida,
 // och numret på sidan som innehåller XE-fältet till höger.
-// INDEX-posten samlar alla XE-fält med matchande värden i egenskapen "Text"
-// i en post i motsats till att göra en post för varje XE-fält.
+// INDEX-posten samlar in alla XE-fält med matchande värden i egenskapen "Text"
+// till en post istället för att skapa en post för varje XE-fält.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Vi kan konfigurera ett XE-fält för att få dess INDEX-post att visa en sträng istället för ett sidnummer.
+// Vi kan konfigurera ett XE-fält så att dess INDEX-post visar en sträng istället för ett sidnummer.
 // Först, för poster som ersätter ett sidnummer med en sträng,
-// ange en anpassad avgränsare mellan XE-fältets textegenskapsvärde och strängen.
+// ange en anpassad avgränsare mellan XE-fältets egenskapsvärde Text och strängen.
 index.CrossReferenceSeparator = ", see: ";
 
 Assert.AreEqual(" INDEX  \\k \", see: \"", index.GetFieldCode());
 
-// Infoga ett XE-fält, vilket skapar en vanlig INDEX-post som visar detta fälts sidnummer,
-// och anropar inte värdet CrossReferenceSeparator.
+// Infoga ett XE-fält, vilket skapar en vanlig INDEX-post som visar fältets sidnummer,
+// och anropar inte CrossReferenceSeparator-värdet.
 // Posten för detta XE-fält kommer att visa "Apple, 2".
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
@@ -48,9 +48,9 @@ indexEntry.Text = "Apple";
 Assert.AreEqual(" XE  Apple", indexEntry.GetFieldCode());
 
 // Infoga ett annat XE-fält på sidan 3 och ange ett värde för egenskapen PageNumberReplacement.
-// Detta värde visas istället för numret på sidan som detta fält är på,
-// och INDEX-fältets CrossReferenceSeparator-värde visas framför det.
-// Posten för detta XE-fält kommer att visa "Banan, se: Tropisk frukt".
+// Detta värde kommer att visas istället för numret på den sida som fältet finns på,
+// och INDEX-fältets CrossReferenceSeparator-värde kommer att visas framför det.
+// Posten för detta XE-fält visar "Banan, se: Tropisk frukt".
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";

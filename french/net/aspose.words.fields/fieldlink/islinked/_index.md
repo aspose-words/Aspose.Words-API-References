@@ -3,14 +3,14 @@ title: FieldLink.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words pour .NET
-description: FieldLink IsLinked propriété. Obtient ou définit sil faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document en C#.
+description: Optimisez vos documents avec la propriété IsLinked de FieldLink pour réduire la taille des fichiers en excluant les données graphiques. Gagnez en efficacité et économisez de l'espace de stockage !
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldlink/islinked/
 ---
 ## FieldLink.IsLinked property
 
-Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document.
+Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas de données graphiques avec le document.
 
 ```csharp
 public bool IsLinked { get; set; }
@@ -18,7 +18,7 @@ public bool IsLinked { get; set; }
 
 ## Exemples
 
-Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
+Montre comment utiliser différents types de champs pour créer des liens vers d'autres documents dans le système de fichiers local et afficher leur contenu.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -71,7 +71,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ LINK et définir ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ LINK et définir ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ DDE et définissez ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDE et définissez ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -148,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ DDEAUTO et définir ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDEAUTO et définir ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // ObjetLienCommeTexte
+    // Objet lié en tant que texte
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // Objet lié comme image
     Picture,
     Bitmap
 }

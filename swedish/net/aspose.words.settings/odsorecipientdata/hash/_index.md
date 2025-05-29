@@ -3,14 +3,14 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words för .NET
-description: OdsoRecipientData Hash fast egendom. Representerar hashkoden för denna post. Ibland använder Microsoft WordHash av en hel skiva istället för enUniqueTag value. Standardvärdet är 0 i C#.
+description: Upptäck egenskapen OdsoRecipientData Hash, som tillhandahåller en unik hashkod för poster, vilket förbättrar dataintegriteten i Microsoft Word. Standardvärde, 0.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Representerar hashkoden för denna post. Ibland använder Microsoft Word`Hash` av en hel skiva istället för en[`UniqueTag`](../uniquetag/) value. Standardvärdet är 0.
+Representerar hashkoden för den här posten. Ibland använder Microsoft Word`Hash` av en hel skiva istället för en[`UniqueTag`](../uniquetag/) värde. Standardvärdet är 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -18,7 +18,7 @@ public int Hash { get; set; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

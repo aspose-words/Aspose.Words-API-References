@@ -3,14 +3,14 @@ title: PdfSaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
 articleTitle: DmlEffectsRenderingMode
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions DmlEffectsRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML في C#.
+description: اكتشف خاصية PdfSaveOptions DmlEffectsRenderingMode للتحكم في عرض تأثيرات DrawingML لتحسين جودة إخراج PDF.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions.DmlEffectsRenderingMode property
 
-الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML.
+يحصل على قيمة تحدد كيفية عرض تأثيرات DrawingML أو يعينها.
 
 ```csharp
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
@@ -20,26 +20,26 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 القيمة الافتراضية هيSimplified .
 
-يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات صفحات ثابتة.
+يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات الصفحات الثابتة.
 
-لو[`Compliance`](../compliance/) تم ضبطه علىPdfA1a أوPdfA1b ،_خاصية تعود دائمًاNone.
+لو[`Compliance`](../compliance/) تم ضبطه علىPdfA1a أوPdfA1b , الخاصية ترجع دائمًاNone.
 
 ## أمثلة
 
-يوضح كيفية تكوين جودة العرض لتأثيرات DrawML في المستند أثناء حفظه في ملف PDF.
+يوضح كيفية تكوين جودة عرض تأثيرات DrawingML في مستند أثناء حفظه في PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// قم بتعيين خاصية "DmlEffectsRenderingMode" على "DmlEffectsRenderingMode.None" لتجاهل كافة تأثيرات DrawML.
-// قم بتعيين خاصية "DmlEffectsRenderingMode" على "DmlEffectsRenderingMode.Simplified"
-// لتقديم نسخة مبسطة من تأثيرات DrawML.
-// قم بتعيين خاصية "DmlEffectsRenderingMode" على "DmlEffectsRenderingMode.Fine" إلى
-// تقديم تأثيرات DrawML بدقة أكبر وبتكلفة معالجة أكبر أيضًا.
+// قم بتعيين خاصية "DmlEffectsRenderingMode" إلى "DmlEffectsRenderingMode.None" لتجاهل جميع تأثيرات DrawingML.
+// اضبط خاصية "DmlEffectsRenderingMode" إلى "DmlEffectsRenderingMode.Simplified"
+// لتقديم نسخة مبسطة من تأثيرات DrawingML.
+// اضبط خاصية "DmlEffectsRenderingMode" إلى "DmlEffectsRenderingMode.Fine" إلى
+// تقديم تأثيرات DrawingML بدقة أكبر وبتكلفة معالجة أكبر.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

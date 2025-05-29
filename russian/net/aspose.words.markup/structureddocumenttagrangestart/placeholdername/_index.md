@@ -3,20 +3,24 @@ title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart PlaceholderName свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель на С#.
+description: Узнайте, как управлять свойством PlaceholderName для StructuredDocumentTagRangeStart, повышая эффективность строительных блоков вашего документа.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Получает или задает Имя[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) содержащий текст-заполнитель.
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) с этим именем[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) должен присутствовать в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) иначеInvalidOperationException произойдет.
+Получает или задает имя[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) содержащий текст-заполнитель.
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| InvalidOperationException | Выдать, если BuildingBlock с таким именем[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) отсутствует в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
 
 ## Примеры
 

@@ -2,15 +2,15 @@
 title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: BorderCollection Item mülk. Bir öğeyi alırBorder kenarlık türüne göre nesne C#'da.
+second_title: .NET için Aspose.Words
+description: BorderCollection Item özelliğini keşfedin ve Border nesnelerine türlerine göre kolayca erişin. Verimli border yönetimiyle tasarımınızı kolaylaştırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Bir öğeyi alır[`Border`](../../border/) kenarlık türüne göre nesne.
+Birini alır[`Border`](../../border/) sınır türüne göre nesne.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -18,15 +18,15 @@ public Border this[BorderType borderType] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| borderType | A[`BorderType`](../../bordertype/) Alınacak kenarlığın türünü belirten değer . |
+| borderType | A[`BorderType`](../../bordertype/) Alınacak sınırın türünü belirten value . |
 
 ## Notlar
 
-Farklı belge öğeleri için tüm kenarlıkların mevcut olmadığını unutmayın. Geçerli nesneye uygulanamayan bir kenarlık talep ederseniz bu yöntem bir istisna atar.
+Tüm kenarlıkların farklı belge öğeleri için mevcut olmadığını unutmayın. Bu yöntem, geçerli nesneye uygulanamayan bir kenarlık isteğinde bulunursanız bir istisna fırlatır.
 
 ## Örnekler
 
-Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirme ile nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Bir öğeyi alır[`Border`](../../border/) indekse göre nesne.
+Birini alır[`Border`](../../border/) nesne index. tarafından
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,11 +68,11 @@ public Border this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Alınacak sınırın sıfır tabanlı dizini. |
+| index | Alınacak sınırın sıfır tabanlı indeksi. |
 
 ## Örnekler
 
-Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
+Sınır koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Oluştururken aynı border konfigürasyonunu kullandığımız için
-// bu paragraflar, kenar koleksiyonları aynı unsurları paylaşıyor.
+// Oluştururken aynı sınır yapılandırmasını kullandığımızdan
+// Bu paragrafların kenarlık koleksiyonları aynı öğeleri paylaşır.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -95,14 +95,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Sadece ikinci paragrafta kenarlıkların çizgi stilini değiştirdikten sonra,
-// kenarlık koleksiyonları artık aynı öğeleri paylaşmıyor.
+// Sadece ikinci paragraftaki sınırların çizgi stilini değiştirdikten sonra,
+// sınır koleksiyonları artık aynı öğeleri paylaşmıyor.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Boş bir kenarlığın görünümünü değiştirmek onu görünür kılar.
+    // Boş bir kenarlığın görünümünü değiştirmek onu görünür hale getirir.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

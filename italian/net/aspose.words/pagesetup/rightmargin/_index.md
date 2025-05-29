@@ -3,7 +3,7 @@ title: PageSetup.RightMargin
 linktitle: RightMargin
 articleTitle: RightMargin
 second_title: Aspose.Words per .NET
-description: PageSetup RightMargin proprietà. Restituisce o imposta la distanza in punti tra il bordo destro della pagina e il limite destro del corpo del testo in C#.
+description: Scopri la proprietà RightMargin di PageSetup e regola facilmente il margine destro in punti per un layout di testo ottimale e una presentazione migliore del documento.
 type: docs
 weight: 370
 url: /it/net/aspose.words/pagesetup/rightmargin/

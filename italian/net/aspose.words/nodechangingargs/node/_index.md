@@ -3,14 +3,14 @@ title: NodeChangingArgs.Node
 linktitle: Node
 articleTitle: Node
 second_title: Aspose.Words per .NET
-description: NodeChangingArgs Node proprietà. Ottiene il fileNode che viene aggiunto o rimosso in C#.
+description: Scopri la proprietà NodeChangingArgs per gestire facilmente l'aggiunta o la rimozione di nodi nella tua applicazione. Semplifica il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-Ottiene il file`Node` che viene aggiunto o rimosso.
+Ottiene il`Node` che viene aggiunto o rimosso.
 
 ```csharp
 public Node Node { get; }
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Imposta il callback che modifica il nodo sull'implementazione personalizzata,
-    // quindi aggiungi/rimuovi nodi per far sì che generi un registro.
+    // Imposta il callback di modifica del nodo su implementazione personalizzata,
+    // quindi aggiungi/rimuovi nodi per generare un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Registra la data e l'ora di ogni inserimento e rimozione di nodo.
-/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Esegui.
+/// Registra la data e l'ora di ogni inserimento e rimozione del nodo.
+/// Imposta un nome/dimensione del font personalizzato per il contenuto di testo dei nodi Esegui.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

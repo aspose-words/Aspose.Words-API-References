@@ -2,15 +2,15 @@
 title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
-second_title: Aspose.Words for .NET
-description: DocSaveOptions inşaatçı. Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc format C#'da.
+second_title: .NET için Aspose.Words
+description: Doc formatında sorunsuz belge kaydetme için DocSaveOptions oluşturucusunu keşfedin. Kolay ve etkili belge yönetimiyle iş akışınızı geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc format.
+Bu sınıfın, bir belgeyi kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Doc biçim.
 
 ```csharp
 public DocSaveOptions()
@@ -18,7 +18,7 @@ public DocSaveOptions()
 
 ## Örnekler
 
-Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+Eski Microsoft Word biçimleri için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,16 +27,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Belgenin Microsoft Word veya Aspose.Words tarafından yüklenmesini koruyacak bir şifre belirleyin.
-// Bunun belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
+// Microsoft Word veya Aspose.Words ile belgenin yüklenmesini koruyacak bir parola belirleyin.
+// Bu işlemin belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
 options.Password = "MyPassword";
 
-// Doküman bir yönlendirme fişi içeriyorsa bu bayrağı true yaparak kaydederken onu koruyabiliriz.
+// Belgede yönlendirme fişi varsa, bu bayrağı true olarak ayarlayarak kaydederken bunu koruyabiliriz.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Dokümanı yükleyebilmek için,
+// Belgeyi yükleyebilmek için,
 // DocSaveOptions nesnesinde belirttiğimiz şifreyi bir LoadOptions nesnesine uygulamamız gerekecek.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
@@ -56,7 +56,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc veya Dot format.
+Bu sınıfın, bir belgeyi kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Doc veya Dot biçim.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -68,7 +68,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 ## Örnekler
 
-Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+Eski Microsoft Word biçimleri için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -77,16 +77,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Belgenin Microsoft Word veya Aspose.Words tarafından yüklenmesini koruyacak bir şifre belirleyin.
-// Bunun belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
+// Microsoft Word veya Aspose.Words ile belgenin yüklenmesini koruyacak bir parola belirleyin.
+// Bu işlemin belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
 options.Password = "MyPassword";
 
-// Doküman bir yönlendirme fişi içeriyorsa bu bayrağı true yaparak kaydederken onu koruyabiliriz.
+// Belgede yönlendirme fişi varsa, bu bayrağı true olarak ayarlayarak kaydederken bunu koruyabiliriz.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Dokümanı yükleyebilmek için,
+// Belgeyi yükleyebilmek için,
 // DocSaveOptions nesnesinde belirttiğimiz şifreyi bir LoadOptions nesnesine uygulamamız gerekecek.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 

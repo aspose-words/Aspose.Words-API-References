@@ -3,7 +3,7 @@ title: CompositeNode.FirstChild
 linktitle: FirstChild
 articleTitle: FirstChild
 second_title: Aspose.Words per .NET
-description: CompositeNode FirstChild proprietà. Ottiene il primo figlio del nodo in C#.
+description: Scopri la proprietà CompositeNode FirstChild per accedere facilmente al primo nodo figlio, migliorando l'efficienza della codifica e semplificando la gestione dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words/compositenode/firstchild/
@@ -18,11 +18,11 @@ public Node FirstChild { get; }
 
 ## Osservazioni
 
-Se non è presente alcun primo nodo figlio, a`nullo` viene restituito.
+Se non c'è un primo nodo figlio, un`null` viene restituito.
 
 ## Esempi
 
-Mostra come utilizzare la proprietà NextSibling di un nodo per enumerare i relativi figli immediati.
+Mostra come utilizzare la proprietà NextSibling di un nodo per enumerare i suoi figli immediati.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -44,15 +44,15 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Qualsiasi nodo che può contenere nodi secondari, come il documento stesso, è composito.
+    // Qualsiasi nodo che può contenere nodi figlio, come il documento stesso, è composito.
     Assert.True(doc.IsComposite);
 
-    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figli di un nodo composito.
+    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figlio di un nodo composito.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Attraversa ricorsivamente un albero di nodi durante la stampa del tipo di ciascun nodo
+/// Attraversa ricorsivamente un albero di nodi mentre stampa il tipo di ciascun nodo
 /// con un rientro che dipende dalla profondità e dal contenuto di tutti i nodi in linea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -61,7 +61,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Ricorsione nel nodo se è un nodo composito. Altrimenti, stampa il suo contenuto se è un nodo in linea.
+        // Ricorsiva nel nodo se è un nodo composito. Altrimenti, ne stampa il contenuto se è un nodo inline.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

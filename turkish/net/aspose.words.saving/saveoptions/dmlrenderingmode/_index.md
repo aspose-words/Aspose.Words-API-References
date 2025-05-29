@@ -2,15 +2,15 @@
 title: SaveOptions.DmlRenderingMode
 linktitle: DmlRenderingMode
 articleTitle: DmlRenderingMode
-second_title: Aspose.Words for .NET
-description: SaveOptions DmlRenderingMode mülk. DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions DmlRenderingMode özelliğinin DrawingML şekil oluşturmanızı nasıl geliştirdiğini keşfedin. Belge görsellerinizi zahmetsizce optimize edin!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 ---
 ## SaveOptions.DmlRenderingMode property
 
-DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+DrawingML şekillerinin nasıl işleneceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public DmlRenderingMode DmlRenderingMode { get; set; }
@@ -20,42 +20,42 @@ public DmlRenderingMode DmlRenderingMode { get; set; }
 
 Varsayılan değer:Fallback .
 
-Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
+Bu özellik, belge sabit sayfa biçimlerine aktarıldığında kullanılır.
 
 ## Örnekler
 
-PDF'ye kaydederken geri dönüş şekillerinin nasıl oluşturulacağını gösterir.
+PDF'e kaydederken yedek şekillerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "DmlRenderingMode" özelliğini "DmlRenderingMode.Fallback" olarak ayarlayın
-// DML şekillerini geri dönüş şekilleriyle değiştirmek için.
+// DML şekillerini yedek şekilleriyle değiştirmek için.
 // "DmlRenderingMode" özelliğini "DmlRenderingMode.DrawingML" olarak ayarlayın
-// DML şekillerini kendileri oluşturmak için.
+// DML şekillerinin kendilerini oluşturmak için.
 options.DmlRenderingMode = dmlRenderingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
-Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin görüntü oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
+Bir belgeyi PDF olarak kaydederken DrawingML efektlerinin işleme kalitesinin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Tüm DrawingML efektlerini atmak için "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.None" olarak ayarlayın.
 // "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Simplified" olarak ayarlayın
 // DrawingML efektlerinin basitleştirilmiş bir versiyonunu oluşturmak için.
 // "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Fine" olarak ayarlayın
-// DrawingML efektlerini daha doğru ve aynı zamanda daha fazla işlem maliyetiyle işleyin.
+// DrawingML efektlerini daha yüksek doğrulukla ve daha yüksek işlem maliyetiyle işleyin.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

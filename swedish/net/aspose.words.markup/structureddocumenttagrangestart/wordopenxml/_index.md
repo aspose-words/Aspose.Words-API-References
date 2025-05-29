@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart WordOpenXML fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format i C#.
+description: Upptäck egenskapen StructuredDocumentTagRangeStart i WordOpenXML. Få åtkomst till XML-data i FlatOpc-format för förbättrad dokumenthantering och anpassning.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Får en sträng som representerar XML som finns i noden iFlatOpc format.
+Hämtar en sträng som representerar XML-koden som finns i noden iFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -18,7 +18,7 @@ public string WordOpenXML { get; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

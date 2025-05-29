@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagCollection Remove methode. Entfernt das strukturierte DokumentTag mit der angegebenen Kennung in C#.
+description: Entfernen Sie mühelos bestimmte strukturierte Dokument-Tags mit der Methode „StructuredDocumentTagCollection Remove“ für eine optimierte Dokumentenverwaltung.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,11 +18,11 @@ public void Remove(int id)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| id | Int32 | Die Tag-ID des strukturierten Dokuments. |
+| id | Int32 | Die strukturierte Dokument-Tag-Kennung. |
 
 ## Beispiele
 
-Zeigt, wie man strukturierte Dokument-Tags entfernt.
+Zeigt, wie strukturierte Dokument-Tags entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
@@ -39,7 +39,7 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Entfernen Sie das strukturierte Dokument-Tag nach Id.
+// Entfernen Sie das strukturierte Dokument-Tag anhand der ID.
 structuredDocumentTags.Remove(1691867797);
 // Entfernen Sie das strukturierte Dokument-Tag an Position 0.
 structuredDocumentTags.RemoveAt(0);

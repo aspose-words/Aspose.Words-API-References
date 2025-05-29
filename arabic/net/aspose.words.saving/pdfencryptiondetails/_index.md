@@ -3,14 +3,14 @@ title: PdfEncryptionDetails Class
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails فصل. يحتوي على تفاصيل التشفير وأذونات الوصول لمستند PDF في C#.
+description: اكتشف Aspose.Words.PdfEncryptionDetails للحصول على تشفير آمن لملفات PDF وأذونات وصول قابلة للتخصيص، مما يضمن حماية مستنداتك.
 type: docs
-weight: 5460
+weight: 6250
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
-يحتوي على تفاصيل التشفير وأذونات الوصول لمستند PDF.
+يحتوي على تفاصيل حول تشفير وأذونات الوصول لمستند PDF.
 
 لمعرفة المزيد، قم بزيارة[حماية أو تشفير مستند](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) مقالة توثيقية.
 
@@ -22,8 +22,8 @@ public class PdfEncryptionDetails
 
 | اسم | وصف |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | تهيئة مثيل لهذه الفئة. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | تهيئة مثيل لهذه الفئة. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | يقوم بتهيئة مثيل لهذه الفئة. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | يقوم بتهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
@@ -35,7 +35,7 @@ public class PdfEncryptionDetails
 
 ## أمثلة
 
-يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
+يوضح كيفية تعيين الأذونات على مستند PDF المحفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -43,17 +43,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// توسيع الأذونات للسماح بتحرير التعليقات التوضيحية.
+// تمديد الأذونات للسماح بتحرير التعليقات التوضيحية.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // تمكين التشفير عبر خاصية "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// عندما نفتح هذا المستند، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
+// عندما نفتح هذا المستند، سوف نحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

@@ -2,15 +2,15 @@
 title: PdfSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions DigitalSignatureDetails mülk. Çıktı PDF belgesinin imzalanmasıyla ilgili ayrıntıları alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: PDF imzalama ayrıntılarını kolayca yönetmek, güvenli ve etkili belge çıktısı sağlamak için PdfSaveOptions DigitalSignatureDetails'ı keşfedin.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property
 
-Çıktı PDF belgesinin imzalanmasıyla ilgili ayrıntıları alır veya ayarlar.
+Çıktı PDF belgesinin imzalanması için ayrıntıları alır veya ayarlar.
 
 ```csharp
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
@@ -18,7 +18,7 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ## Notlar
 
-Varsayılan değer:`hükümsüz`ve çıktı belgesi imzalanmayacaktır. Bu özellik geçerli bir değere ayarlandığında[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, sonra çıktı PDF belgesi dijital olarak imzalanacaktır.
+Varsayılan değer:`hükümsüz` ve çıktı belgesi imzalanmayacaktır. Bu özellik geçerli bir değere ayarlandığında[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) nesne, ise çıktı PDF belgesi dijital olarak imzalanacaktır.
 
 ## Örnekler
 
@@ -31,12 +31,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "SaveOptions" nesnesinin "DigitalSignatureDetails" nesnesini yapılandırın
-// belgeyi "Kaydet" yöntemiyle oluştururken dijital olarak imzalayın.
+// "Kaydet" metoduyla oluşturduğumuz belgeyi dijital olarak imzalıyoruz.
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

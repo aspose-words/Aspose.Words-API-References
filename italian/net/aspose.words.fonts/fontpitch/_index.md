@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.FontPitch enum. Rappresenta la spaziatura del carattere in C#.
+description: Scopri l'enum Aspose.Words.Fonts.FontPitch, un potente strumento per gestire gli stili dei font e migliorare la formattazione dei documenti nelle tue applicazioni.
 type: docs
-weight: 2960
+weight: 3390
 url: /it/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Rappresenta la spaziatura del carattere.
+Rappresenta il passo del carattere.
 
 ```csharp
 public enum FontPitch
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica che non sono disponibili informazioni sulla spaziatura di un font. |
-| Fixed | `1` | Specifica che si tratta di un font a larghezza fissa. |
-| Variable | `2` | Specifica che si tratta di un carattere a larghezza proporzionale. |
+| Default | `0` | Specifica che non sono disponibili informazioni sul passo di un font. |
+| Fixed | `1` | Specifica che questo è un font a larghezza fissa. |
+| Variable | `2` | Specifica che questo è un font a larghezza proporzionale. |
 
 ## Osservazioni
 
-Il passo indica se il carattere ha passo fisso, spaziatura proporzionale o si basa su un'impostazione predefinita.
+Il passo indica se il font è a passo fisso, proporzionalmente spaziato o si basa su un'impostazione predefinita.
 
 ## Esempi
 
-Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
+Mostra come accedere e stampare i dettagli di ciascun font in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi sono generalmente vuoti.
+        // I nomi alt sono solitamente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

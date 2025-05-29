@@ -3,14 +3,14 @@ title: ChartDataPointCollection Class
 linktitle: ChartDataPointCollection
 articleTitle: ChartDataPointCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection classe. Rappresenta la raccolta di aChartDataPoint  in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.ChartDataPointCollection, la chiave per gestire senza sforzo le raccolte ChartDataPoint per una visualizzazione avanzata dei dati.
 type: docs
-weight: 700
+weight: 980
 url: /it/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Rappresenta la raccolta di a[`ChartDataPoint`](../chartdatapoint/) .
+Rappresenta la raccolta di un[`ChartDataPoint`](../chartdatapoint/) .
 
 Per saperne di più, visita il[Lavorare con i grafici](https://docs.aspose.com/words/net/working-with-charts/) articolo di documentazione.
 
@@ -29,12 +29,14 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Cancella tutto il formato[`ChartDataPoint`](../chartdatapoint/) in questa raccolta. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Cancella il formato di tutti[`ChartDataPoint`](../chartdatapoint/) in questa raccolta. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | Copia il formato dal punto dati di origine al punto dati di destinazione. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | Ottiene un flag che indica se il punto dati all'indice specificato ha un formato predefinito. |
 
 ## Esempi
 
-Mostra come utilizzare i punti dati su un grafico a linee.
+Mostra come lavorare con i punti dati su un grafico a linee.
 
 ```csharp
 public void ChartDataPoint()
@@ -50,14 +52,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatizza i punti dati del grafico facendoli apparire come forme di diamante.
-    foreach (ChartSeries series in chart.Series) 
+    // Metti in risalto i punti dati del grafico facendoli apparire come rombi.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appianare la linea che rappresenta la prima serie di dati.
+    // Smussa la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
+    // Verificare che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,10 +68,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo cancellare il formato singolarmente.
+    dataPoint.ClearFormat();
+
+    // Possiamo anche eliminare un'intera serie di punti dati in una volta sola.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

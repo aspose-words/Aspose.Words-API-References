@@ -3,7 +3,7 @@ title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
 second_title: Aspose.Words per .NET
-description: EditableRange SingleUser proprietà. Restituisce o imposta il singolo utente per lintervallo modificabile in C#.
+description: Scopri la proprietà EditableRange SingleUser per gestire in modo efficiente gli intervalli modificabili, garantendo una collaborazione fluida e un controllo degli accessi specifico per utente.
 type: docs
 weight: 50
 url: /it/net/aspose.words/editablerange/singleuser/
@@ -18,15 +18,15 @@ public string SingleUser { get; set; }
 
 ## Osservazioni
 
-Questo editor può essere memorizzato in uno dei seguenti moduli:
+Questo editor può essere memorizzato in uno dei seguenti formati:
 
-DOMINIO\Nomeutente - per gli utenti il cui accesso dovrà essere autenticato utilizzando le credenziali di dominio dell'utente corrente.
+DOMINIO\Nome utente: per gli utenti il cui accesso deve essere autenticato utilizzando le credenziali di dominio dell'utente corrente.
 
-utente@dominio.com - per gli utenti il cui accesso dovrà essere autenticato utilizzando come credenziali l'indirizzo e-mail dell'utente.
+utente@dominio.com - per gli utenti il cui accesso deve essere autenticato utilizzando l'indirizzo e-mail dell'utente come credenziali.
 
 utente - per gli utenti il cui accesso deve essere autenticato utilizzando le credenziali della macchina dell'utente corrente.
 
-Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico, se uno è impostato, l'altro sarà cancellato.
+Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico; se uno è impostato, l'altro sarà cancellato.
 
 ## Esempi
 
@@ -42,9 +42,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
-    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
-    // 1 - Specifica un utente:
+    // Quando proteggiamo i documenti da scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
+    // Esistono due metodi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
+    // 1 - Specificare un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Raccoglie le proprietà e il contenuto degli intervalli modificabili visitati in una stringa.
+/// Raccoglie le proprietà e i contenuti degli intervalli modificabili visitati in una stringa.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
+    /// Chiamato quando viene rilevato un nodo Esegui nel documento. Questo visitatore registra solo le esecuzioni che rientrano in intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

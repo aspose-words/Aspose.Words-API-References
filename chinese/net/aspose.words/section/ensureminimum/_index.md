@@ -2,15 +2,15 @@
 title: Section.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
-second_title: 用于 .NET 的 Aspose.Words
-description: Section EnsureMinimum 方法. 确保该部分具有Body与一个Paragraph 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 EnsureMinimum 方法优化您的内容，确保每个部分都包含一个带有段落的正文，以增强清晰度和结构。
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-确保该部分具有[`Body`](../body/)与一个[`Paragraph`](../../paragraph/).
+确保该部分具有[`Body`](../body/)有一个[`Paragraph`](../../paragraph/).
 
 ```csharp
 public void EnsureMinimum()
@@ -18,18 +18,18 @@ public void EnsureMinimum()
 
 ## 例子
 
-演示如何准备新的截面节点以进行编辑。
+展示如何准备新的部分节点以供编辑。
 
 ```csharp
 Document doc = new Document();
 
-// 空白文档有一个部分，该部分有一个正文，而正文又有一个段落。
+// 空白文档带有一个部分，该部分有一个正文，该正文又有一个段落。
 // 我们可以通过向该段落添加文本、形状或表格等元素来向该文档添加内容。
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// 如果我们像这样添加一个新部分，它将没有主体或任何其他子节点。
+// 如果我们添加这样的新部分，它将没有主体或任何其他子节点。
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);

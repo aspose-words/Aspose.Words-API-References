@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart GetChildNodes méthode. Renvoie une collection active de nœuds enfants qui correspondent aux types spécifiés en C#.
+description: Découvrez la méthode StructuredDocumentTagRangeStart GetChildNodes, qui fournit une collection dynamique de nœuds enfants adaptés à vos types spécifiés.
 type: docs
-weight: 210
+weight: 220
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method
@@ -18,7 +18,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 ## Exemples
 
-Montre comment obtenir des nœuds enfants de StructuredDocumentTagRangeStart.
+Montre comment obtenir les nœuds enfants de StructuredDocumentTagRangeStart.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

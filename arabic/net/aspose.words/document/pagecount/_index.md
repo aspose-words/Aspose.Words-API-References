@@ -3,14 +3,14 @@ title: Document.PageCount
 linktitle: PageCount
 articleTitle: PageCount
 second_title: Aspose.Words لـ .NET
-description: Document PageCount ملكية. الحصول على عدد الصفحات في المستند كما تم حسابه بواسطة عملية تخطيط الصفحة الأخيرة في C#.
+description: اكتشف خاصية Document PageCount، التي تكشف عن إجمالي عدد الصفحات استنادًا إلى أحدث تخطيط، مما يضمن إدارة المستندات والرؤى الدقيقة.
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-الحصول على عدد الصفحات في المستند كما تم حسابه بواسطة عملية تخطيط الصفحة الأخيرة.
+يحصل على عدد الصفحات في المستند كما تم حسابه بواسطة عملية تخطيط الصفحة الأخيرة.
 
 ```csharp
 public int PageCount { get; }
@@ -30,12 +30,12 @@ builder.Write("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Write("Page 3");
 
-// التحقق من عدد الصفحات المتوقع للمستند.
+//التحقق من عدد الصفحات المتوقعة للمستند.
 Assert.AreEqual(3, doc.PageCount);
 
-// يؤدي الحصول على خاصية PageCount إلى استدعاء تخطيط صفحة المستند لحساب القيمة.
-// لن يلزم إعادة تنفيذ هذه العملية عند عرض المستند بتنسيق حفظ صفحة ثابت،
-// مثل .pdf. لذا يمكنك توفير بعض الوقت، خاصة مع المستندات الأكثر تعقيدًا.
+// الحصول على خاصية PageCount استدعى تخطيط صفحة المستند لحساب القيمة.
+// لن تكون هناك حاجة إلى إعادة تنفيذ هذه العملية عند عرض المستند بتنسيق حفظ الصفحة الثابتة،
+// مثل .pdf. هذا يوفر عليك الوقت، خاصةً مع المستندات الأكثر تعقيدًا.
 doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 ```
 

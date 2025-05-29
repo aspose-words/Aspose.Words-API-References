@@ -2,8 +2,8 @@
 title: FieldCreateDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
-second_title: Aspose.Words for .NET
-description: FieldCreateDate UseLunarCalendar mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldCreateDate UseLunarCalendar özelliğiyle tarih biçimlerini zahmetsizce yönetin. Kesin zamanlama için Hicri ve İbrani Ay takvimleri arasında seçim yapın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
@@ -28,14 +28,14 @@ builder.Writeln(" Date this document was created:");
 
 // Belgenin oluşturulma tarihini ve saatini görüntülemek için CREATEDATE alanını kullanabiliriz.
 // Aşağıda CREATEDATE alanının tarih/saati görüntüleyebileceği üç farklı takvim türü bulunmaktadır.
-// 1 - İslami Ay Takvimi:
+// 1 - Hicri Takvim:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - Ümmü'l-Kura takvimi:
+// 2 - Ümmü'l-Kurâ takvimi:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

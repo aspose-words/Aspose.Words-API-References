@@ -2,15 +2,15 @@
 title: GeneralFormatCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: GeneralFormatCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Veri toplamanıza verimli ve hassas bir şekilde erişmek ve yinelemek için GeneralFormatCollection GetEnumerator yöntemini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/generalformatcollection/getenumerator/
 ---
 ## GeneralFormatCollection.GetEnumerator method
 
-Bir numaralandırıcı nesnesini döndürür.
+Bir numaralandırıcı nesnesi döndürür.
 
 ```csharp
 public IEnumerator<GeneralFormat> GetEnumerator()
@@ -24,15 +24,15 @@ Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hiçbir format uygulanmadan sonucu görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
+// Biçim uygulanmadan bir sonuç görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Alanın özelliklerini kullanarak alanın sonucuna bir format uygulayabiliriz.
+// Bir alanın sonucuna, alanın özelliklerini kullanarak bir format uygulayabiliriz.
 // Aşağıda bir alanın sonucuna uygulayabileceğimiz üç tür format bulunmaktadır.
-// 1 - Sayısal format:
+// 1 - Sayısal biçim:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Tarih/saat formatı:
+// 2 - Tarih/saat biçimi:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Alanın sonucunu orijinal formuna döndürmek için formatlarımızı kaldırabiliriz.
+// Alanın sonucunu orijinal haline döndürmek için formatlarımızı kaldırabiliriz.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

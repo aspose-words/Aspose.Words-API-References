@@ -3,14 +3,14 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty ToInt طريقة. إرجاع قيمة الخاصية كعدد صحيح في C#.
+description: حوّل قيم DocumentProperty إلى أعداد صحيحة بسهولة باستخدام طريقة ToInt. حسّن معالجة البيانات في تطبيقاتك!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-إرجاع قيمة الخاصية كعدد صحيح.
+يعيد قيمة الخاصية كعدد صحيح.
 
 ```csharp
 public int ToInt()
@@ -18,7 +18,7 @@ public int ToInt()
 
 ## ملاحظات
 
-يطرح استثناءً إذا لم يكن نوع الخاصية كذلكNumber .
+يطرح استثناءً إذا لم يكن نوع الخاصيةNumber .
 
 ## أمثلة
 

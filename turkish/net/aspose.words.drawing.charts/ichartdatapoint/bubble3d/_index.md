@@ -2,15 +2,15 @@
 title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
-second_title: Aspose.Words for .NET
-description: IChartDataPoint Bubble3D mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Daha ilgi çekici veri görselleştirmesi için Bubble grafiklerinizi çarpıcı 3B efektlerle geliştirmek üzere IChartDataPoint Bubble3D özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 ---
 ## IChartDataPoint.Bubble3D property
 
-Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir.
+Kabarcık grafiğindeki kabarcıklara 3 boyutlu efekt uygulanıp uygulanmayacağını belirtir.
 
 ```csharp
 public bool Bubble3D { get; set; }
@@ -18,7 +18,7 @@ public bool Bubble3D { get; set; }
 
 ## Örnekler
 
-Kabarcık grafikleriyle 3B efektlerin nasıl kullanılacağını gösterir.
+3D efektlerin balon grafikleriyle nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Çapını gösteren her baloncuğa bir veri etiketi uygulayın.
+// Her baloncuğa çapını gösteren bir veri etiketi uygulayın.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

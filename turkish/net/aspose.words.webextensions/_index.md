@@ -2,32 +2,32 @@
 title: Aspose.Words.WebExtensions
 linktitle: Aspose.Words.WebExtensions
 articleTitle: Aspose.Words.WebExtensions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensionsad alanı to nin Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmesine olanak tanıyan sınıflar sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir XML öğeleri ve öznitelikleriyle Office Eklentilerini geliştirmek için Aspose.Words.WebExtensions ad alanını keşfedin. Belge otomasyonunuzu bugün yükseltin!
 type: docs
-weight: 290
+weight: 310
 url: /tr/net/aspose.words.webextensions/
 ---
-**Aspose.Words.WebExtensions**ad alanı, to 'nin Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmesine olanak tanıyan sınıflar sağlar.
+The**Aspose.Words.WebUzantıları**namespace, Office Eklentilerini temsil etmek için XML sözlüğünü genişleten öğeleri ve öznitelikleri özelleştirmeye izin veren sınıflar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
 | [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection-1/) | Temel sınıf[`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/) ,[`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) Ve[`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) koleksiyonlar. |
-| [TaskPane](./taskpane/) | Eklenti görev bölmesi nesnesini temsil eder. |
-| [TaskPaneCollection](./taskpanecollection/) | Kalıcı görev bölmesi nesnelerinin listesini belirtir. |
+| [TaskPane](./taskpane/) | Bir eklenti görev bölmesi nesnesini temsil eder. |
+| [TaskPaneCollection](./taskpanecollection/) | Kalıcı görev bölmesi nesnelerinin bir listesini belirtir. |
 | [WebExtension](./webextension/) | Bir web uzantısı nesnesini temsil eder. |
-| [WebExtensionBinding](./webextensionbinding/) | Bir web uzantısı ile belgedeki veriler arasındaki bağlayıcı ilişkiyi belirtir. |
-| [WebExtensionBindingCollection](./webextensionbindingcollection/) | Web uzantısı bağlamalarının listesini belirtir. |
+| [WebExtensionBinding](./webextensionbinding/) | Bir web uzantısı ile belgedeki veriler arasında bağlayıcı bir ilişki belirtir. |
+| [WebExtensionBindingCollection](./webextensionbindingcollection/) | Web uzantısı bağlamalarının bir listesini belirtir. |
 | [WebExtensionProperty](./webextensionproperty/) | Bir web uzantısı özel özelliğini belirtir. |
 | [WebExtensionPropertyCollection](./webextensionpropertycollection/) | Bir dizi web uzantısı özel özelliğini belirtir. |
-| [WebExtensionReference](./webextensionreference/) | Bir web uzantısına yapılan başvuruyu temsil eder. Referans, the extension. sağlayıcı konumunu ve sürümünü tanımlamak için kullanılır. |
-| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | Web uzantısı referanslarının listesini belirtir. |
+| [WebExtensionReference](./webextensionreference/) | Bir web uzantısına referansı temsil eder. Referans, uzantısının sağlayıcı konumunu ve sürümünü tanımlamak için kullanılır. |
+| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | Web uzantısı referanslarının bir listesini belirtir. |
 ## numaralandırma
 
 | numaralandırma | Tanım |
 | --- | --- |
-| [TaskPaneDockState](./taskpanedockstate/) | Görev bölmesi nesnesinin kullanılabilir konumlarını numaralandırır. |
-| [WebExtensionBindingType](./webextensionbindingtype/) | Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar. |
-| [WebExtensionStoreType](./webextensionstoretype/) | Web uzantısı deposunun kullanılabilir türlerini numaralandırır. |
+| [TaskPaneDockState](./taskpanedockstate/) | Görev bölmesi nesnesinin kullanılabilir konumlarını sıralar. |
+| [WebExtensionBindingType](./webextensionbindingtype/) | Bir web uzantısı ile belgedeki veriler arasındaki kullanılabilir bağlama türlerini sıralar. |
+| [WebExtensionStoreType](./webextensionstoretype/) | Bir web uzantısı deposunun kullanılabilir türlerini sıralar. |

@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitOfficeMathEnd
 linktitle: VisitOfficeMathEnd
 articleTitle: VisitOfficeMathEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitOfficeMathEnd metodo. Chiamato al termine dellenumerazione di un oggetto Office Math in C#.
+description: Scopri il metodo VisitOfficeMathEnd di DocumentVisitor, progettato per migliorare l'enumerazione degli oggetti di Office Math. Ottimizza l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
 weight: 300
 url: /it/net/aspose.words/documentvisitor/visitofficemathend/
 ---
 ## DocumentVisitor.VisitOfficeMathEnd method
 
-Chiamato al termine dell'enumerazione di un oggetto Office Math.
+Chiamato quando l'enumerazione di un oggetto Office Math è terminata.
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
@@ -26,7 +26,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ## Esempi
 
-Mostra come stampare la struttura dei nodi di ogni nodo matematico di Office in un documento.
+Mostra come stampare la struttura di ogni nodo matematico d'ufficio in un documento.
 
 ```csharp
 public void OfficeMathToText()
@@ -34,8 +34,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void OfficeMathToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi OfficeMath incontrati e dei relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi OfficeMath rilevati e dei relativi elementi figlio.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -85,7 +85,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi secondari di un nodo OfficeMath sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -97,7 +97,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

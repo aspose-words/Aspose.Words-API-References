@@ -3,7 +3,7 @@ title: PageSetup.SuppressEndnotes
 linktitle: SuppressEndnotes
 articleTitle: SuppressEndnotes
 second_title: Aspose.Words pour .NET
-description: PageSetup SuppressEndnotes propriété. Vrai si les notes de fin sont imprimées à la fin de la section suivante qui ne supprime pas les notes de fin. Les notes de fin supprimées sont imprimées avant les notes de fin de cette section en C#.
+description: Découvrez comment la propriété PageSetup SuppressEndnotes améliore la mise en page de votre document en contrôlant le placement des notes de fin pour des sections plus claires et organisées.
 type: docs
 weight: 410
 url: /fr/net/aspose.words/pagesetup/suppressendnotes/
@@ -29,17 +29,17 @@ public void SuppressEndnotes()
      // Par défaut, un document compile toutes les notes de fin à sa fin.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // On utilise la propriété "Position" de l'objet "EndnoteOptions" du document
-     // pour collecter les notes de fin à la fin de chaque section.
+    // Nous utilisons la propriété « Position » de l'objet « EndnoteOptions » du document
+     // pour collecter les notes de fin à la fin de chaque section à la place.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Tout en faisant en sorte que les sections affichent leurs notes de fin respectives, nous pouvons définir l'indicateur "SuppressEndnotes"
-    // de l'objet "PageSetup" d'une section sur "true" pour revenir au comportement par défaut et transmettre ses notes de fin
-    // sur la section suivante.
+    // Lors de l'affichage des notes de fin respectives dans les sections, nous pouvons définir l'indicateur « SuppressEndnotes »
+    // de l'objet « PageSetup » d'une section sur « true » pour revenir au comportement par défaut et transmettre ses notes de fin
+    // passons à la section suivante.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 

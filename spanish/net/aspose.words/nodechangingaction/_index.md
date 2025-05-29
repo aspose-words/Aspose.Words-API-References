@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words para .NET
-description: Aspose.Words.NodeChangingAction enumeración. Especifica el tipo de cambio de nodo en C#.
+description: Descubra la enumeración Aspose.Words.NodeChangingAction para gestionar eficientemente los cambios de nodos en sus documentos. ¡Mejore sus capacidades de procesamiento de documentos hoy mismo!
 type: docs
-weight: 4180
+weight: 4870
 url: /es/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -25,7 +25,7 @@ public enum NodeChangingAction
 
 ## Ejemplos
 
-Muestra cómo utilizar NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real a medida que lo editamos.
+Muestra cómo utilizar un NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real mientras lo editamos.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,12 +42,7 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }

@@ -2,15 +2,15 @@
 title: IDocumentSavingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
-second_title: Aspose.Words for .NET
-description: IDocumentSavingCallback Notify yöntem. Bu belge kaydetme işleminin ilerlemesini bildirmek için çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: iDocumentSavingCallback Notify yöntemi ile belge kaydetme ilerlemesini takip edin. Uygulamanızın verimliliğini ve kullanıcı deneyimini bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Bu, belge kaydetme işleminin ilerlemesini bildirmek için çağrılır.
+Bu, belge kaydetme ilerlemesini bildirmek için çağrılır.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -22,20 +22,20 @@ public void Notify(DocumentSavingArgs args)
 
 ## Notlar
 
-Bu arayüzün birincil kullanımları, uygulama kodunun ilerleme durumunu elde etmesine ve kaydetme işlemini iptal etmesine izin vermektir.
+Bu arayüzün birincil kullanım amacı, uygulama kodunun ilerleme durumunu elde etmesini ve kaydetme işlemini iptal etmesini sağlamaktır.
 
-Kürtaj için Progress geri çağrısından bir istisna atılmalı ve tüketici koduna yakalanmalıdır.
+Kürtaj için ilerleme geri çağrısından bir istisna atılmalı ve tüketici kodunda yakalanmalıdır.
 
 ## Örnekler
 
-Bir belgeyi html'ye kaydederken nasıl yönetileceğini gösterir.
+Bir belgeyi HTML'e kaydederken nasıl yöneteceğinizi gösterir.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Aşağıdaki formatlar desteklenir: Html, Mhtml, Epub.
+    // Aşağıdaki formatlar desteklenmektedir: Html, Mhtml, Epub.
     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -47,12 +47,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// İlerleme geri çağrısı kaydediliyor. "MaxDuration" saniyesinden sonra belge kaydetme işlemini iptal edin.
+/// İlerleme kaydetme geri araması. "MaxDuration" saniyesinden sonra belge kaydetmeyi iptal et.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Kontrol Noktası
+    /// Merkez
     /// </summary>
     public SavingProgressCallback()
     {
@@ -60,7 +60,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydedilirken çağrılan geri arama yöntemi.
+    /// Belge kaydedilirken çağrılan geri çağırma yöntemi.
     /// </summary>
     /// <param name="args">Argümanlar kaydediliyor.</param>
     public void Notify(DocumentSavingArgs args)
@@ -72,7 +72,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydetmenin başlatıldığı tarih ve saat.
+    /// Belgenin kaydedilmeye başlandığı tarih ve saat.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -83,14 +83,14 @@ public class SavingProgressCallback : IDocumentSavingCallback
 }
 ```
 
-Docx'e kaydederken bir belgenin nasıl yönetileceğini gösterir.
+Bir belgeyi docx olarak kaydederken nasıl yöneteceğinizi gösterir.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Şu formatlar desteklenir: Docx, FlatOpc, Docm, Dotm, Dotx.
+    // Aşağıdaki formatlar desteklenmektedir: Docx, FlatOpc, Docm, Dotm, Dotx.
     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -102,12 +102,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// İlerleme geri çağrısı kaydediliyor. "MaxDuration" saniyesinden sonra belge kaydetme işlemini iptal edin.
+/// İlerleme kaydetme geri araması. "MaxDuration" saniyesinden sonra belge kaydetmeyi iptal et.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Kontrol Noktası
+    /// Merkez
     /// </summary>
     public SavingProgressCallback()
     {
@@ -115,7 +115,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydedilirken çağrılan geri arama yöntemi.
+    /// Belge kaydedilirken çağrılan geri çağırma yöntemi.
     /// </summary>
     /// <param name="args">Argümanlar kaydediliyor.</param>
     public void Notify(DocumentSavingArgs args)
@@ -127,7 +127,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydetmenin başlatıldığı tarih ve saat.
+    /// Belgenin kaydedilmeye başlandığı tarih ve saat.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -145,7 +145,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Şu formatlar desteklenir: XamlFlow, XamlFlowPack.
+    // Aşağıdaki formatlar desteklenmektedir: XamlFlow, XamlFlowPack.
     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -157,12 +157,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// İlerleme geri çağrısı kaydediliyor. "MaxDuration" saniyesinden sonra belge kaydetme işlemini iptal edin.
+/// İlerleme kaydetme geri araması. "MaxDuration" saniyesinden sonra belge kaydetmeyi iptal et.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Kontrol Noktası
+    /// Merkez
     /// </summary>
     public SavingProgressCallback()
     {
@@ -170,7 +170,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydedilirken çağrılan geri arama yöntemi.
+    /// Belge kaydedilirken çağrılan geri çağırma yöntemi.
     /// </summary>
     /// <param name="args">Argümanlar kaydediliyor.</param>
     public void Notify(DocumentSavingArgs args)
@@ -182,7 +182,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Belge kaydetmenin başlatıldığı tarih ve saat.
+    /// Belgenin kaydedilmeye başlandığı tarih ve saat.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 

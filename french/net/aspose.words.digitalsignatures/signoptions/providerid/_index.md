@@ -3,14 +3,14 @@ title: SignOptions.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words pour .NET
-description: SignOptions ProviderId propriété. Spécifie lID de classe du fournisseur de signature. La valeur par défaut estGuide vide tous les zéros  en C#.
+description: Découvrez la propriété ProviderId de SignOptions, qui définit l'ID de classe de votre fournisseur de signature. Personnalisez-la facilement avec un GUID unique pour des performances optimales.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Spécifie l'ID de classe du fournisseur de signature. La valeur par défaut est**Guide vide (tous les zéros)** .
+Spécifie l'ID de classe du fournisseur de signature. La valeur par défaut est**Guid vide (tous les zéros)** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,11 +18,11 @@ public Guid ProviderId { get; set; }
 
 ## Remarques
 
-Le fournisseur de services cryptographiques (CSP) est un module logiciel indépendant qui exécute réellement des algorithmes de cryptographie pour l'authentification, le codage et le cryptage. MS Office réserve la valeur de {00000000-0000-0000-0000-000000000000} pour son fournisseur de signature par défaut.
+Le fournisseur de services cryptographiques (CSP) est un module logiciel indépendant qui exécute des algorithmes de cryptographie pour l'authentification, le codage et le chiffrement. MS Office réserve la valeur de {00000000-0000-0000-0000-000000000000} à son fournisseur de signature par défaut.
 
-Le GUID du fournisseur supplémentaire installé doit être obtenu à partir de la documentation livrée avec le fournisseur.
+Le GUID du fournisseur supplémentaire installé doit être obtenu à partir de la documentation fournie avec le fournisseur.
 
-De plus, tous les fournisseurs cryptographiques installés sont répertoriés dans le registre Windows. On le trouve dans le chemin suivant : HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Il existe un nom de clé « CP Service UUID » qui correspond à un GUID du fournisseur de signature.
+De plus, tous les fournisseurs cryptographiques installés sont énumérés dans le registre Windows. Il peut être trouvé dans le chemin suivant : HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Il existe un nom de clé « CP Service UUID » qui correspond à un GUID du fournisseur de signature.
 
 ## Exemples
 
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés « IsSigned » et « IsValid » sont toutes deux égales à « true »,
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

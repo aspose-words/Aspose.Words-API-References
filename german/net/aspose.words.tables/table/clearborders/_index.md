@@ -3,9 +3,9 @@ title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
 second_title: Aspose.Words für .NET
-description: Table ClearBorders methode. Entfernt alle Tabellen und Zellenränder dieser Tabelle in C#.
+description: Entdecken Sie die Table ClearBorders-Methode, um mühelos alle Tabellen- und Zellenränder zu entfernen und so die Klarheit und Attraktivität Ihres Designs zu verbessern.
 type: docs
-weight: 370
+weight: 390
 url: /de/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -18,20 +18,20 @@ public void ClearBorders()
 
 ## Beispiele
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
@@ -43,7 +43,7 @@ table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-Zeigt, wie alle Ränder aus einer Tabelle entfernt werden.
+Zeigt, wie alle Rahmen aus einer Tabelle entfernt werden.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.InsertCell();
 builder.Write("Hello world!");
 builder.EndTable();
 
-// Farbe und Dicke des oberen Rands ändern.
+// Ändern Sie die Farbe und Dicke des oberen Rahmens.
 Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
 
@@ -66,7 +66,7 @@ Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// Überprüfen Sie die Werte der Tabelleneigenschaften nach dem erneuten Öffnen des Dokuments.
+// Überprüfen Sie die Werte der Tabelleneigenschaften, nachdem Sie das Dokument erneut geöffnet haben.
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];

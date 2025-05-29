@@ -2,8 +2,8 @@
 title: FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
-second_title: Aspose.Words for .NET
-description: FontSettings inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Font özelliklerinin kolayca özelleştirilmesi için FontSettings oluşturucusunu keşfedin. Varsayılan kurulumumuzla uygulamanızın metin görüntüsünü geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontsettings/fontsettings/

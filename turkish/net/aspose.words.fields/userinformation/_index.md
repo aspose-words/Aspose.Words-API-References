@@ -2,17 +2,17 @@
 title: UserInformation Class
 linktitle: UserInformation
 articleTitle: UserInformation
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.UserInformation sınıf. Kullanıcı hakkındaki bilgileri belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda kullanıcı ayrıntılarını etkili bir şekilde yönetmek ve belge işlemeyi geliştirmek için Aspose.Words.Fields.UserInformation sınıfını keşfedin.
 type: docs
-weight: 2790
+weight: 3200
 url: /tr/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
-Kullanıcı hakkındaki bilgileri belirtir.
+Kullanıcı hakkında bilgi belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class UserInformation
@@ -35,7 +35,7 @@ public class UserInformation
 
 ## Örnekler
 
-Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
+Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanlar kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -50,13 +50,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// değerlerini görüntüleyen USERNAME, USERINITIALS ve USERAADDRESS alanlarını ekleyin
- // yukarıda oluşturduğumuz UserInformation nesnesinin ilgili özellikleri.
+// Kullanıcı adı, kullanıcı adı ve kullanıcı adresi değerlerini görüntüleyen kullanıcı adı alanlarını ekleyin
+ // Yukarıda oluşturduğumuz UserInformation nesnesinin ilgili özellikleri.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Alan seçenekleri nesnesi aynı zamanda tüm belgelerdeki alanların başvurabileceği statik bir varsayılan kullanıcıya da sahiptir.
+// Alan seçenekleri nesnesinin ayrıca tüm belgelerdeki alanların başvurabileceği statik bir varsayılan kullanıcısı vardır.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag SdtType eigendom. Ruft den Typ davon abStrukturiertes DokumentTag  in C#.
+description: Entdecken Sie die SdtType-Eigenschaft von StructuredDocumentTag, um Tag-Typen einfach zu identifizieren und so Ihre Dokumentenverwaltung und -organisation zu verbessern.
 type: docs
 weight: 250
 url: /de/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Ruft den Typ davon ab**Strukturiertes Dokument-Tag** .
+Ruft den Typ dieses**Strukturiertes Dokument-Tag** .
 
 ```csharp
 public SdtType SdtType { get; }
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## Beispiele
 
-Zeigt, wie man den Typ eines strukturierten Dokument-Tags erhält.
+Zeigt, wie der Typ eines strukturierten Dokument-Tags abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

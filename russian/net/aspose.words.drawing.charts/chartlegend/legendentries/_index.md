@@ -3,14 +3,14 @@ title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
 second_title: Aspose.Words для .NET
-description: ChartLegend LegendEntries свойство. Возвращает коллекцию записей легенды для всех рядов и линий тренда родительской диаграммы на С#.
+description: Изучите свойство ChartLegend LegendEntries, чтобы получить доступ к полной коллекции записей легенд для всех рядов и линий тренда на вашей диаграмме.
 type: docs
-weight: 10
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
 
-Возвращает коллекцию записей легенды для всех рядов и линий тренда родительской диаграммы.
+Возвращает коллекцию записей легенды для всех серий и линий тренда родительской диаграммы.
 
 ```csharp
 public ChartLegendEntryCollection LegendEntries { get; }
@@ -18,7 +18,7 @@ public ChartLegendEntryCollection LegendEntries { get; }
 
 ## Примеры
 
-Показывает, как работать с записью легенды для серий диаграмм.
+Показывает, как работать с записью легенды для серии диаграмм.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

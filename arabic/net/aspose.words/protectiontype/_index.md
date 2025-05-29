@@ -3,9 +3,9 @@ title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.ProtectionType تعداد. نوع الحماية للمستند في C#.
+description: اكتشف Aspose.Words.ProtectionType enum لضمان أمان مستندات قوي. حسّن مستنداتك بخيارات حماية قابلة للتخصيص اليوم!
 type: docs
-weight: 4510
+weight: 5240
 url: /ar/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -20,10 +20,10 @@ public enum ProtectionType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| AllowOnlyComments | `1` | يمكن للمستخدم تعديل التعليقات الموجودة في المستند فقط. |
-| AllowOnlyFormFields | `2` | يمكن للمستخدم إدخال البيانات فقط في حقول النموذج في المستند. |
+| AllowOnlyComments | `1` | يمكن للمستخدم تعديل التعليقات في المستند فقط. |
+| AllowOnlyFormFields | `2` | يمكن للمستخدم إدخال البيانات فقط في حقول النموذج الموجودة في المستند. |
 | AllowOnlyRevisions | `0` | يمكن للمستخدم فقط إضافة علامات المراجعة إلى المستند. |
-| ReadOnly | `3` | لا يسمح بإجراء أي تغييرات على المستند. متوفر منذ Microsoft Word 2003. |
+| ReadOnly | `3` | لا يُسمح بإجراء أي تعديلات على المستند. متوفر منذ إصدار Microsoft Word 2003. |
 | NoProtection | `-1` | المستند غير محمي. |
 
 ## أمثلة
@@ -47,8 +47,8 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 // قم بإيقاف تشغيل الحماية ضد الكتابة للقسم الأول.
 doc.Sections[0].ProtectedForForms = false;
 
-// في مستند الإخراج هذا، سنكون قادرين على تحرير القسم الأول بحرية،
-// ولن نتمكن من تعديل محتويات حقل النموذج إلا في القسم الثاني.
+// في وثيقة الإخراج هذه، سنكون قادرين على تحرير القسم الأول بحرية،
+// ولن نتمكن من تحرير محتويات حقل النموذج إلا في القسم الثاني.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

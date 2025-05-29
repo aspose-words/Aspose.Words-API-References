@@ -3,7 +3,7 @@ title: FieldPrivate
 linktitle: FieldPrivate
 articleTitle: FieldPrivate
 second_title: Aspose.Words لـ .NET
-description: FieldPrivate البناء. Default_Constructor في C#.
+description: اكتشف منشئ FieldPrivate، المنشئ الافتراضي الأساسي لترميز مبسط وتحسين الأداء في مشاريعك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldprivate/fieldprivate/

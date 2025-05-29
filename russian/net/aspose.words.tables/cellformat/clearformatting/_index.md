@@ -3,14 +3,14 @@ title: CellFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: CellFormat ClearFormatting метод. Сбрасывает формат ячейки по умолчанию. Не меняет ширину ячейки на С#.
+description: Откройте для себя метод CellFormat ClearFormatting, чтобы без усилий сбросить стили ячеек до значений по умолчанию без изменения ширины ячеек. Повысьте эффективность работы с электронными таблицами!
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-Сбрасывает формат ячейки по умолчанию. Не меняет ширину ячейки.
+Сбрасывает форматирование ячейки на значение по умолчанию. Не изменяет ширину ячейки.
 
 ```csharp
 public void ClearFormatting()
@@ -24,13 +24,13 @@ public void ClearFormatting()
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
-// 1 — Из коллекции «Таблицы» узла Body:
+// 1 - Из коллекции "Таблицы" узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Использование метода "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Добавляем все строки из текущей таблицы в следующую.
+// Добавить все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

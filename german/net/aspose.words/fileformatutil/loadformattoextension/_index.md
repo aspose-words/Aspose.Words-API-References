@@ -3,14 +3,14 @@ title: FileFormatUtil.LoadFormatToExtension
 linktitle: LoadFormatToExtension
 articleTitle: LoadFormatToExtension
 second_title: Aspose.Words für .NET
-description: FileFormatUtil LoadFormatToExtension methode. Konvertiert einen Aufzählungswert im Ladeformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt in C#.
+description: Mit der Methode LoadFormatToExtension von FileFormatUtil können Sie Ladeformatwerte mühelos in Dateierweiterungen umwandeln. So erhalten Sie mühelos präzise, kleingeschriebene Erweiterungen!
 type: docs
 weight: 60
 url: /de/net/aspose.words/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil.LoadFormatToExtension method
 
-Konvertiert einen Aufzählungswert im Ladeformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt.
+Konvertiert einen im Ladeformat aufgezählten Wert in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt.
 
 ```csharp
 public static string LoadFormatToExtension(LoadFormat loadFormat)
@@ -28,7 +28,7 @@ DerWordML Der Wert wird in „.wml“ konvertiert.
 
 ## Beispiele
 
-Zeigt, wie die FileFormatUtil-Methoden verwendet werden, um das Format eines Dokuments zu erkennen.
+Zeigt, wie die FileFormatUtil-Methoden zum Erkennen des Formats eines Dokuments verwendet werden.
 
 ```csharp
 // Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und ermitteln Sie dann das Dateiformat.
@@ -39,12 +39,12 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Nachfolgend finden Sie zwei Methoden zum Konvertieren eines LoadFormats in das entsprechende SaveFormat.
+    // Unten sind zwei Methoden zum Konvertieren eines LoadFormats in das entsprechende SaveFormat.
     // 1 – Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat und dann das entsprechende SaveFormat aus dieser Zeichenfolge:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 – Konvertieren Sie das LoadFormat direkt in sein SaveFormat:
+    // 2 - Konvertieren Sie das LoadFormat direkt in sein SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
     // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann mit der automatisch erkannten Dateierweiterung.

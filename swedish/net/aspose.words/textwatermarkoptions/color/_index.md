@@ -3,14 +3,14 @@ title: TextWatermarkOptions.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words för .NET
-description: TextWatermarkOptions Color fast egendom. Hämtar eller ställer in teckensnittsfärg. Standardvärdet ärSilver  i C#.
+description: Anpassa dina TextWatermarkOptions med egenskapen Color för att förbättra synligheten. Ställ in önskad teckenfärg för en personlig touch. Standard, Silver.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Hämtar eller ställer in teckensnittsfärg. Standardvärdet ärSilver .
+Hämtar eller ställer in teckenfärg. Standardvärdet ärSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -23,11 +23,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

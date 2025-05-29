@@ -3,14 +3,14 @@ title: TableStyle.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words für .NET
-description: TableStyle Bidi eigendom. Ruft ab oder legt fest ob es sich um einen Stil für eine Tabelle mit der Schreibrichtung von rechts nach links handelt in C#.
+description: Entdecken Sie die TableStyle Bidi-Eigenschaft, um Tabellenstile von rechts nach links einfach zu verwalten und so Ihr Layout für bessere Lesbarkeit und Benutzerfreundlichkeit zu optimieren.
 type: docs
 weight: 30
 url: /de/net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
 
-Ruft ab oder legt fest, ob es sich um einen Stil für eine Tabelle mit der Schreibrichtung von rechts nach links handelt.
+Ruft ab oder legt fest, ob dies ein Stil für eine von rechts nach links verlaufende Tabelle ist.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,13 +18,13 @@ public bool Bidi { get; set; }
 
 ## Bemerkungen
 
-Wann`WAHR`, werden die Zellen in den Zeilen von rechts nach links angeordnet.
+Wann`WAHR`, die Zellen in den Zeilen werden von rechts nach links angeordnet.
 
 Der Standardwert ist`FALSCH`.
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

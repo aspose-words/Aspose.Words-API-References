@@ -2,10 +2,10 @@
 title: IFieldUpdatingCallback Interface
 linktitle: IFieldUpdatingCallback
 articleTitle: IFieldUpdatingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldUpdatingCallback arayüz. Bir alan güncellemesi sırasında kendi özel yöntemlerinizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: IFieldUpdatingCallback arayüzü ile Aspose.Words'deki alan güncellemelerini özelleştirin. Özelleştirilmiş belge işleme için kendi yöntemlerinizle işlevselliği artırın.
 type: docs
-weight: 2720
+weight: 3130
 url: /tr/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -20,12 +20,12 @@ public interface IFieldUpdatingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | Bir alan güncellendikten hemen sonra çağrılan, kullanıcı tanımlı bir yöntem. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | Bir alan güncellenmeden hemen önce çağrılan, kullanıcı tanımlı bir yöntem. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | Bir alan güncellendikten hemen sonra çağrılan kullanıcı tanımlı bir yöntem. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | Bir alan güncellenmeden hemen önce çağrılan kullanıcı tanımlı bir yöntem. |
 
 ## Örnekler
 
-Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
+Bir alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

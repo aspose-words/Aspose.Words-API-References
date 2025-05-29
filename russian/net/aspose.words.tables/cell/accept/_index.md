@@ -3,7 +3,7 @@ title: Cell.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: Cell Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод Cell Accept — улучшите вовлеченность посетителей и оптимизируйте взаимодействие для бесперебойного опыта. Раскройте потенциал вашего сайта сегодня!
 type: docs
 weight: 130
 url: /ru/net/aspose.words.tables/cell/accept/
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
-Звонки[`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узловsection и вызовов[`VisitCellEnd`](../../../aspose.words/documentvisitor/visitcellend/) в конце.
+Звонки[`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов section и вызовов[`VisitCellEnd`](../../../aspose.words/documentvisitor/visitcellend/) в конце.
 
 ## Примеры
 
@@ -42,7 +42,7 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Выполнения, не входящие в таблицы, не записываются.
+    /// Прогоны, не входящие в таблицы, не регистрируются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -79,7 +79,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается таблица.
+    /// Вызывается при обнаружении таблицы в документе.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -100,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла таблицы.
+    /// Вызывается после посещения всех дочерних узлов узла Table.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -112,7 +112,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Row.
+    /// Вызывается, когда в документе встречается узел строки.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -172,7 +172,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>

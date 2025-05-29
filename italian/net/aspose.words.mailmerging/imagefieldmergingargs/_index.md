@@ -3,16 +3,16 @@ title: ImageFieldMergingArgs Class
 linktitle: ImageFieldMergingArgs
 articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words per .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fornisce i dati per ilImageFieldMerging evento in C#.
+description: Scopri la classe Aspose.Words.MailMerging.ImageFieldMergingArgs, progettata per migliorare l'unione delle immagini nei documenti, garantendo flussi di lavoro fluidi ed efficienti.
 type: docs
-weight: 3830
+weight: 4520
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Fornisce i dati per il[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) evento.
+Fornisce dati per il[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) evento.
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -22,7 +22,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](../fieldmergingargsbase/document/) oggetto per cui viene eseguita la stampa unione. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](../fieldmergingargsbase/document/)oggetto per cui viene eseguita la stampa unione. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ottiene il nome del campo di unione come specificato nel documento. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ottiene l'oggetto che rappresenta il campo di unione corrente. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ottiene il nome del campo di unione nell'origine dati. |
@@ -30,23 +30,23 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Specifica l'immagine che il motore di stampa unione deve inserire nel documento. |
 | [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Imposta il nome del file dell'immagine che il motore di stampa unione deve inserire nel documento. |
 | [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Specifica l'altezza dell'immagine da inserire nel documento. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Specifica il flusso da cui il motore di stampa unione legge un'immagine. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Specifica il flusso da cui il motore di stampa unione deve leggere un'immagine. |
 | [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Specifica la larghezza dell'immagine da inserire nel documento. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record da unire. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice basato su zero del record che viene unito. |
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Specifica la forma che il motore di stampa unione deve inserire nel documento. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 
 ## Osservazioni
 
-Questo evento si verifica durante la stampa unione quando nel documento viene rilevato un campo immagine mail merge . Puoi rispondere a questo evento per restituire un nome file, uno stream o un file Image oggetto al motore mail merge in modo che venga inserito nel documento.
+Questo evento si verifica durante la stampa unione quando nel documento viene rilevato un campo immagine merge . È possibile rispondere a questo evento per restituire un nome file, un flusso o unImage oggetto al motore di stampa merge in modo che venga inserito nel documento.
 
-Ci sono tre immobili disponibili[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) E[`Image`](./image/) per specificare da dove deve essere presa l'immagine. Imposta solo una di queste proprietà.
+Sono disponibili tre proprietà[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) E[`Image`](./image/) per specificare da dove deve essere presa l'immagine. Imposta solo una di queste proprietà.
 
-Per inserire un campo di stampa unione immagine in un documento in Word, seleziona il comando Inserisci/Campo, quindi seleziona UnisciCampo e digita Immagine:IlMioNomeCampo.
+Per inserire un campo di unione immagini in un documento in Word, selezionare il comando Inserisci/Campo, quindi selezionare MergeField e digitare Image:MyFieldName.
 
 ## Esempi
 
-Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
+Mostra come inserire in un report le immagini memorizzate in un campo BLOB del database.
 
 ```csharp
 public void ImageFromBlob()
@@ -62,7 +62,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Apre il lettore dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
+        // Aprire il lettore dati, che deve essere in una modalità che legge tutti i record contemporaneamente.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -76,11 +76,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 
     /// <summary>
-    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Immagine:" nel suo nome.
+    /// Questa funzione viene chiamata quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Image:" nel nome.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -90,29 +90,29 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
+Mostra come impostare le dimensioni delle immagini così come vengono accettate da MERGEFIELDS durante una stampa unione.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Inserisci un MERGEFIELD che accetterà le immagini da una fonte durante una stampa unione. Utilizzare il codice di campo come riferimento
-    // una colonna nell'origine dati contenente i nomi dei file di sistema locale delle immagini che desideriamo utilizzare nella stampa unione.
+    // Inserisci un MERGEFIELD che accetterà immagini da una sorgente durante una stampa unione. Utilizza il codice di campo per fare riferimento
+    // una colonna nell'origine dati contenente i nomi dei file di sistema locali delle immagini che desideriamo utilizzare nella stampa unione.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // L'origine dati dovrebbe avere una colonna denominata "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crea un'origine dati adatta.
+    // Creare una fonte dati adatta.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configura una richiamata per modificare le dimensioni delle immagini al momento dell'unione, quindi esegue la stampa unione.
+    // Configura un callback per modificare le dimensioni delle immagini al momento dell'unione, quindi esegui la stampa unione.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -121,7 +121,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Imposta la dimensione di tutte le immagini unite tramite posta su una larghezza e un'altezza definite.
+/// Imposta la dimensione di tutte le immagini unite su una larghezza e un'altezza definite.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

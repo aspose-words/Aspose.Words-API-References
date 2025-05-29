@@ -3,7 +3,7 @@ title: FieldDatabase
 linktitle: FieldDatabase
 articleTitle: FieldDatabase
 second_title: Aspose.Words для .NET
-description: FieldDatabase строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldDatabase, ваше решение для бесперебойного управления данными с удобной настройкой по умолчанию. Оптимизируйте свои проекты сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddatabase/fielddatabase/

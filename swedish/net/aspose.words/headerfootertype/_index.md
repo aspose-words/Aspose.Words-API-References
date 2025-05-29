@@ -3,9 +3,9 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.HeaderFooterType uppräkning. Identifierar typen av sidhuvud eller sidfot som finns i en Wordfil i C#.
+description: Upptäck Aspose.Words.HeaderFooterType-enum för enkel identifiering av sidhuvud- och sidfotstyper i Word-dokument. Förbättra din dokumenthantering idag!
 type: docs
-weight: 3120
+weight: 3550
 url: /sv/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -21,21 +21,21 @@ public enum HeaderFooterType
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | HeaderEven | `0` | Rubrik för jämna sidor. |
-| HeaderPrimary | `1` | Primär rubrik, används även för udda sidor. |
+| HeaderPrimary | `1` | Primär rubrik, används även för udda sidnumrering. |
 | FooterEven | `2` | Sidfot för jämna sidor. |
-| FooterPrimary | `3` | Primär sidfot, används även för udda sidor. |
-| HeaderFirst | `4` | Rubrik för den första sidan i avsnittet. |
-| FooterFirst | `5` | Sidfot för den första sidan i avsnittet. |
+| FooterPrimary | `3` | Primär sidfot, används även för udda sidnumrering. |
+| HeaderFirst | `4` | Rubrik för avsnittets första sida. |
+| FooterFirst | `5` | Sidfot för avsnittets första sida. |
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

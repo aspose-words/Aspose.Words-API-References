@@ -3,7 +3,7 @@ title: ComparisonExpression.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words für .NET
-description: ComparisonExpression ComparisonOperator eigendom. Ruft den Vergleichsoperator ab in C#.
+description: Erkunden Sie die ComparisonExpression ComparisonOperator-Eigenschaft, um ihren Vergleichsoperator zu verstehen und Ihre Codierungseffizienz zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; }
 
 ## Beispiele
 
-Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
+Zeigt, wie eine benutzerdefinierte Auswertung für die Felder „WENN“ und „VERGLEICHEN“ implementiert wird.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
-    // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " COMPARE {0} {1} {2} ".
+    // 1. " WENN {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
+    // 2. " VERGLEICHEN SIE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
+    // Wenn „comparisonResult“ nicht definiert ist, erstellen wir „ComparisonEvaluationResult“ mit einem String statt mit einem booleschen Wert.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

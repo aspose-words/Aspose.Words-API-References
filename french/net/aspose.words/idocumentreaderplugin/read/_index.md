@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
 second_title: Aspose.Words pour .NET
-description: IDocumentReaderPlugin Read méthode. Lit les données du flux spécifié dans leDocument instance en C#.
+description: Lisez facilement les données de votre instance de document grâce à la méthode Read du plugin IDocumentReader. Optimisez le traitement de vos documents dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words/idocumentreaderplugin/read/
@@ -20,7 +20,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | Le flux source à partir duquel lire le document. |
 | loadOptions | LoadOptions | Une option de chargement supplémentaire pour charger le document. |
-| document | Document | L'exemple du[`Document`](../../document/) classe dans laquelle lire les données. Si l'instance contient du contenu, il sera remplacé par les données du flux source |
+| document | Document | L'instance de la[`Document`](../../document/) classe dans laquelle lire les données. Si l'instance contient du contenu, il sera remplacé par les données du flux source |
 
 ### Voir également
 

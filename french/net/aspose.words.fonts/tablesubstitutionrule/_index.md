@@ -3,16 +3,16 @@ title: TableSubstitutionRule Class
 linktitle: TableSubstitutionRule
 articleTitle: TableSubstitutionRule
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule classe. Règle de substitution de police de table en C#.
+description: Découvrez la classe Aspose.Words.Fonts.TableSubstitutionRule pour une gestion efficace des polices et une mise en forme transparente du texte dans vos documents.
 type: docs
-weight: 3060
+weight: 3490
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
-Règle de substitution de police de table.
+Règle de substitution de police de tableau.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -28,20 +28,20 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Nom | La description |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Ajoute des noms de police de remplacement pour le nom de police d'origine donné. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Renvoie un tableau contenant des noms de police de remplacement pour le nom de police d'origine spécifié. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Ajoute des noms de police de substitution pour le nom de police d'origine donné. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Renvoie un tableau contenant des noms de police de substitution pour le nom de police d'origine spécifié. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Charge les paramètres de substitution de table à partir du flux XML. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Charge les paramètres de substitution de table à partir du fichier XML. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plateforme Android. |
-| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plateforme Linux. |
-| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plateforme Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Enregistre les paramètres de substitution de table actuels dans stream. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Enregistre les paramètres de substitution de table actuels dans un fichier. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Remplacer les noms de police de remplacement par le nom de police d'origine donné. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plate-forme Android. |
+| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plate-forme Linux. |
+| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Charge les paramètres de substitution de table prédéfinis pour la plate-forme Windows. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Enregistre les paramètres de substitution de table actuels dans le flux. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Enregistre les paramètres de substitution de table actuels dans le fichier. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Remplacer les noms de police de substitution par le nom de police d'origine donné. |
 
 ## Remarques
 
-Cette règle définit la liste des noms de polices de remplacement à utiliser si la police d'origine n'est pas disponible. Les substituts seront vérifiés pour le nom de police et le[`AltName`](../fontinfo/altname/) (le cas échéant).
+Cette règle définit la liste des noms de polices de substitution à utiliser si la police d'origine n'est pas disponible. Les substituts seront vérifiés pour le nom de la police et le[`AltName`](../fontinfo/altname/) (le cas échéant).
 
 ## Exemples
 
@@ -56,16 +56,16 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// Sous Windows, le substitut par défaut de la police "Times New Roman CE" est "Times New Roman".
+// Sous Windows, le substitut par défaut de la police « Times New Roman CE » est « Times New Roman ».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// On peut sauvegarder le tableau sous la forme d'un document XML.
+// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
-// Il existe plusieurs polices de substitution pour "Times New Roman CE".
-// Si le premier substitut, "FreeSerif" est également indisponible,
+// Il existe plusieurs polices de substitution pour « Times New Roman CE ».
+// Si le premier substitut, « FreeSerif », n'est pas non plus disponible,
 // cette règle parcourra les autres dans le tableau jusqu'à ce qu'elle en trouve une disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},

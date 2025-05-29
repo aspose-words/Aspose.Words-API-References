@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection Class
 linktitle: CustomXmlPropertyCollection
 articleTitle: CustomXmlPropertyCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Markup.CustomXmlPropertyCollection klass. Representerar en samling anpassade XMLattribut eller egenskaper för smarta taggar i C#.
+description: Upptäck Aspose.Words.Markup.CustomXmlPropertyCollection, ett kraftfullt verktyg för att effektivt hantera anpassade XML-attribut och smarta taggar.
 type: docs
-weight: 3950
+weight: 4640
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
 
-Representerar en samling anpassade XML-attribut eller egenskaper för smarta taggar.
+Representerar en samling anpassade XML-attribut eller smarta taggegenskaper.
 
 För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
@@ -23,7 +23,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.markup/customxmlpropertycollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words.markup/customxmlpropertycollection/item/) { get; } | Får en egenskap med det angivna namnet. (2 indexers) |
+| [Item](../../aspose.words.markup/customxmlpropertycollection/item/) { get; } | Hämtar en egenskap med det angivna namnet. (2 indexers) |
 
 ## Metoder
 
@@ -31,34 +31,34 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | --- | --- |
 | [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Lägger till en egenskap i samlingen. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Bestämmer om samlingen innehåller en egenskap med det angivna namnet. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Avgör om samlingen innehåller en egenskap med det angivna namnet. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen. |
 | [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Tar bort en egenskap med det angivna namnet från samlingen. |
 | [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Tar bort en egenskap vid det angivna indexet. |
 
 ## Anmärkningar
 
-Objekt är[`CustomXmlProperty`](../customxmlproperty/) föremål.
+Föremålen är[`CustomXmlProperty`](../customxmlproperty/) föremål.
 
 ## Exempel
 
-Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
+Visar hur man arbetar med egenskaper för smarta taggar för att få djupgående information om smarta taggar.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// En smart tagg visas i ett dokument med Microsoft Word känner igen en del av sin text som någon form av data,
-// som ett namn, datum eller adress, och konverterar det till en hyperlänk som visar en lila prickad underlinje.
-// I Word 2003 kan vi aktivera smarta taggar via "Verktyg" -> "Autokorrigeringsalternativ..." -> "SmartTags".
-// I vårt indatadokument finns det tre objekt som Microsoft Word registrerade som smarta taggar.
+// En smart tagg visas i ett dokument där Microsoft Word känner igen en del av texten som någon form av data,
+// såsom ett namn, datum eller adress, och konverterar den till en hyperlänk som visar en lila prickad understrykning.
+// I Word 2003 kan vi aktivera smarta taggar via "Verktyg" -> "Alternativ för autokorrigering..." -> "Smarta taggar".
+// I vårt indatadokument finns tre objekt som Microsoft Word registrerat som smarta taggar.
 // Smarta taggar kan vara kapslade, så den här samlingen innehåller fler.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// "Properties"-medlemmen i en smart tagg innehåller dess metadata, som kommer att vara olika för varje typ av smart tagg.
-// Egenskaperna för en smart tagg av "datum"-typ innehåller dess år, månad och dag.
+// Medlemmen "Egenskaper" i en smarttagg innehåller dess metadata, som kommer att vara olika för varje typ av smarttagg.
+// Egenskaperna för en smarttagg av typen "datum" innehåller dess år, månad och dag.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -72,14 +72,14 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Vi kan också komma åt egenskaperna på olika sätt, till exempel ett nyckel-värdepar.
+// Vi kan också komma åt egenskaperna på olika sätt, till exempel med ett nyckel-värde-par.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// Nedan finns tre sätt att ta bort element från egenskapssamlingen.
-// 1 - Ta bort efter index:
+// Nedan följer tre sätt att ta bort element från egenskapssamlingen.
+// 1 - Ta bort via index:
 properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);

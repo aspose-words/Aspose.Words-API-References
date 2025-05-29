@@ -3,9 +3,9 @@ title: IDocumentMergerPlugin Interface
 linktitle: IDocumentMergerPlugin
 articleTitle: IDocumentMergerPlugin
 second_title: Aspose.Words для .NET
-description: Aspose.Words.IDocumentMergerPlugin интерфейс. Определяет интерфейс для внешнего плагина слияния который может объединять документы PDF на С#.
+description: Откройте для себя интерфейс Aspose.Words.IDocumentMergerPlugin для бесшовного слияния PDF-документов. Улучшите свой рабочий процесс с помощью мощных внешних возможностей слияния!
 type: docs
-weight: 3170
+weight: 3600
 url: /ru/net/aspose.words/idocumentmergerplugin/
 ---
 ## IDocumentMergerPlugin interface
@@ -20,7 +20,7 @@ public interface IDocumentMergerPlugin
 
 | Имя | Описание |
 | --- | --- |
-| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, params Stream[]*) | Объединяет заданные входные PDF-документы в один выходной PDF-документ, используя указанные входные и выходные потоки. |
+| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, Stream[], LoadOptions[]*) | Объединяет указанные входные PDF-документы в один выходной PDF-документ, используя указанные входные и выходные потоки. |
 
 ### Смотрите также
 

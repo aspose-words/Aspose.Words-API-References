@@ -3,14 +3,14 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words para .NET
-description: ResourceSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando actualmente en C#.
+description: Descubra la propiedad de documento ResourceSavingArgs para acceder al objeto de documento actual que se está guardando, mejorando así la eficiencia de su flujo de trabajo.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/resourcesavingargs/document/
 ---
 ## ResourceSavingArgs.Document property
 
-Obtiene el objeto del documento que se está guardando actualmente.
+Obtiene el objeto de documento que se está guardando actualmente.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar una devolución de llamada para realizar un seguimiento de los recursos externos creados al convertir un documento a HTML.
+Muestra cómo utilizar una devolución de llamada para rastrear recursos externos creados al convertir un documento a HTML.
 
 ```csharp
 public void ResourceSavingCallback()

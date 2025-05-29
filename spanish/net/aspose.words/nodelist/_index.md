@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words para .NET
-description: Aspose.Words.NodeList clase. Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando elSelectNodes método en C#.
+description: Explore la clase Aspose.Words.NodeList, su solución ideal para administrar de manera eficiente los resultados de consultas XPath y mejorar las capacidades de procesamiento de documentos.
 type: docs
-weight: 4220
+weight: 4910
 url: /es/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
 Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando el[`SelectNodes`](../compositenode/selectnodes/) método.
 
-Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Artículo de documentación.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -29,16 +29,16 @@ public class NodeList : IEnumerable<Node>
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [ToArray](../../aspose.words/nodelist/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Proporciona una iteración simple al estilo "foreach" sobre la colección de nodos. |
+| [ToArray](../../aspose.words/nodelist/toarray/)() | Copia todos los nodos de la colección a una nueva matriz de nodos. |
 
 ## Observaciones
 
 `NodeList` es devuelto por[`SelectNodes`](../compositenode/selectnodes/) y contiene una colección de nodos que coinciden con la consulta XPath.
 
-`NodeList` admite acceso indexado e iteración.
+`NodeList` Admite acceso indexado e iteración.
 
-Tratar el`NodeList` colección como una colección "instantánea".`NodeList`comienza como una colección "activa" porque los nodos en realidad no se recuperan cuando se ejecuta la consulta XPath. Los nodos sólo se recuperan al acceder y en este momento el nodo y todos los nodos que lo preceden se almacenan en caché formando una colección "instantánea".
+Tratar el`NodeList` colección como una colección "instantánea".`NodeList` starts como una colección "en vivo" porque los nodos no se recuperan realmente cuando se ejecuta la consulta XPath. Los nodos solo se recuperan al acceder y en este momento el nodo y todos los nodos que lo preceden se almacenan en caché formando una colección de "instantánea".
 
 ## Ejemplos
 
@@ -61,9 +61,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Los hipervínculos en documentos de Word son campos. Para comenzar a buscar hipervínculos, primero debemos encontrar todos los campos.
-            // Utilice el método "SelectNodes" para buscar todos los campos del documento mediante un XPath.
-            NodeList fieldStarts = doc.SelectNodes("//Inicio de campo");
+            Los hipervínculos en un documento de Word son campos. Para buscar hipervínculos, primero debemos encontrar todos los campos.
+            // Utilice el método "SelectNodes" para encontrar todos los campos del documento a través de un XPath.
+            NodeList fieldStarts = doc.SelectNodes("//CampoInicio");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,11 +71,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // Los hipervínculos que enlazan con marcadores no tienen URL.
+                    // Los hipervínculos que enlazan a marcadores no tienen URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Asigne a cada hipervínculo URL una nueva URL y nombre.
+                    // Dale a cada hipervínculo URL una nueva URL y un nombre.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -90,10 +90,10 @@ namespace ApiExamples
 
      ///<summary>
       ///Los campos HIPERVÍNCULO contienen y muestran hipervínculos en el cuerpo del documento. Un campo en Aspose.Words
-      ///consta de varios nodos y puede resultar difícil trabajar con todos esos nodos directamente.
-     ///Esta implementación funcionará solo si el código del hipervínculo y el nombre constan cada uno de un solo nodo Ejecutar.
+      ///consta de varios nodos y podría resultar difícil trabajar con todos esos nodos directamente.
+     ///Esta implementación funcionará solo si el código y el nombre del hipervínculo constan cada uno de un solo nodo Ejecutar.
     ///
-     ///La estructura de nodos para los campos es la siguiente:
+     ///La estructura del nodo para los campos es la siguiente:
      ///
      ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
      ///
@@ -114,18 +114,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Encuentra el nodo separador de campos.
+            // Encuentra el nodo separador de campo.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
              // Normalmente, siempre podemos encontrar el nodo final del campo, pero el documento de ejemplo
              // contiene un salto de párrafo dentro de un hipervínculo, que coloca el campo al final
-            // en el siguiente párrafo. Será mucho más complicado manejar campos que abarquen varios
-            // párrafos correctamente. En este caso, basta con permitir que el final del campo sea nulo.
+             // en el siguiente párrafo. Será mucho más complicado manejar campos que abarcan varios
+            // Los párrafos se escriben correctamente. En este caso, basta con que el campo final sea nulo.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // El código de campo se parece a "HIPERVÍNCULO "http:\\www.myurl.com"", pero puede constar de varias ejecuciones.
+            // El código de campo se parece a algo como "HIPERVÍNCULO "http:\\www.myurl.com"", pero puede constar de varias ejecuciones.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -139,7 +139,10 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
                  // El nombre para mostrar del hipervínculo se almacena en el resultado del campo, que es una ejecución
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,7 +189,7 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // El código de campo de un campo está en un nodo Ejecutar entre el nodo de inicio del campo y el separador de campo.
+            // El código de campo de un campo está en un nodo de ejecución entre el nodo de inicio del campo y el separador de campo.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
@@ -242,12 +251,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Uno o más HIPERVÍNCULOS sin espacios u otra palabra en otros idiomas.
-            "\\s+" + // Uno o más espacios.
-            "(?:\"\"\\s+)?" + // Opcional "" sin captura y uno o más espacios.
-            "(\\\\l\\s+)?" + // Indicador \l opcional seguido de uno o más espacios.
+            "\\S+" + // Uno o más HIPERVÍNCULO que no sean espacios u otra palabra en otros idiomas.
+            "\\s+" + //Uno o más espacios.
+            "(?:\"\"\\s+)?" + // No se captura "" opcional y uno o más espacios.
+            "(\\\\l\\s+)?" + // Bandera opcional \l seguida de uno o más espacios.
             "\"" +  // Un apóstrofe.
-            "([^\"]+)" + // Uno o más caracteres, excluyendo el apóstrofe (destino del hipervínculo).
+            "([^\"]+)" + // Uno o más caracteres, excluyendo el apóstrofe (objetivo del hipervínculo).
             "\"" // Un apóstrofe de cierre.
         );
     }

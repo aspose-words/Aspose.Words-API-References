@@ -3,7 +3,7 @@ title: FieldAutoTextList.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words para .NET
-description: FieldAutoTextList EntryName propiedad. Obtiene o establece el nombre de la entrada de Autotexto en C#.
+description: Descubra cómo administrar entradas de Autotexto con la propiedad EntryName de FieldAutoTextList: configure o recupere nombres fácilmente para una edición optimizada de documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -18,14 +18,14 @@ public string EntryName { get; set; }
 
 ## Ejemplos
 
-Muestra cómo utilizar un campo AUTOTEXTLIST para seleccionar de una lista de entradas de Autotexto.
+Muestra cómo utilizar un campo LISTAAUTOTEXTO para seleccionar de una lista de entradas de Autotexto.
 
 ```csharp
 public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Crea un documento de glosario y complétalo con entradas de texto automático.
+    // Cree un documento de glosario y rellénelo con entradas de texto automáticas.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,9 +33,9 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Cree un campo AUTOTEXTLIST y establezca el texto que mostrará el campo en Microsoft Word.
-    // Establece el texto para solicitar al usuario que haga clic con el botón derecho en este campo para seleccionar un bloque de creación de Autotexto,
-    // cuyo contenido mostrará el campo.
+    // Cree un campo LISTAAUTOTEXTO y configure el texto que el campo mostrará en Microsoft Word.
+    // Establezca el texto que debe solicitar al usuario que haga clic derecho en este campo para seleccionar un bloque de creación de Autotexto.
+    //cuyo contenido mostrará el campo.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";

@@ -2,10 +2,10 @@
 title: CssStyleSheetType Enum
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.CssStyleSheetType 枚举. 指定如何将 CSS层叠样式表样式导出为 HTML 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Aspose.Words.CssStyleSheetType 如何通过优化 CSS 样式来增强 HTML 导出，从而实现更好的网页呈现和性能。
 type: docs
-weight: 4890
+weight: 5630
 url: /zh/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -20,13 +20,13 @@ public enum CssStyleSheetType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Inline | `0` | CSS 样式是内联编写的（作为**风格**每个元素上的属性）. |
-| Embedded | `1` | CSS 样式与 HTML 文件中嵌入的样式表内容分开编写。 |
-| External | `2` | CSS 样式与外部文件中样式表的内容分开编写。 HTML 文件链接样式表。 |
+| Inline | `0` | CSS 样式以内联形式编写（作为**风格**属性）。 |
+| Embedded | `1` | CSS 样式与 HTML 文件中嵌入的样式表中的内容分开编写。 |
+| External | `2` | CSS 样式与外部文件中的样式表内容分开编写。 HTML 文件链接样式表。 |
 
 ## 例子
 
-演示如何使用 HTML 转换创建的 CSS 样式表。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
@@ -37,12 +37,12 @@ public void ExternalCssFilenames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
-    // 保存的 HTML 文档附带外部 CSS 样式表文件。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”
+    // 将已保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
+    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

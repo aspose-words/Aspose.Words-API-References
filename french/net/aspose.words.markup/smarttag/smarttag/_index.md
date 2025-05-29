@@ -3,7 +3,7 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words pour .NET
-description: SmartTag constructeur. Initialise une nouvelle instance duSmartTag classe en C#.
+description: Créez facilement des SmartTags dynamiques grâce à notre outil de création. Optimisez vos projets grâce à des fonctionnalités personnalisables et une intégration fluide pour des performances optimales.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/smarttag/smarttag/
@@ -22,9 +22,9 @@ public SmartTag(DocumentBase doc)
 
 ## Remarques
 
-Lorsque vous créez un nouveau nœud, vous devez spécifier un document auquel appartient le nœud. Un nœud ne peut pas exister sans document car il dépend des structures à l'échelle du document telles que les listes et les styles. Bien qu'un nœud appartienne toujours à un document, un nœud peut ou non faire partie de l'arborescence du document.
+Lors de la création d'un nœud, vous devez spécifier le document auquel il appartient. Un nœud ne peut exister sans document, car il dépend des structures du document, telles que les listes et les styles. Bien qu'un nœud appartienne toujours à un document, il peut faire partie de l'arborescence du document ou non.
 
-Lorsqu'un nœud est créé, il appartient à un document, mais ne fait pas encore partie du document tree et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul` . Pour insérer un nœud dans le document, utilisez the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) METHODS sur le nœud parent.
+Lorsqu'un nœud est créé, il appartient à un document, mais ne fait pas encore partie de l'arborescence du document et[`ParentNode`](../../../aspose.words/node/parentnode/) est nul. Pour insérer un nœud dans le document, utilisez the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)méthodes sur le nœud parent.
 
 ## Exemples
 
@@ -36,29 +36,29 @@ public void Create()
     Document doc = new Document();
 
     // Une balise active apparaît dans un document avec Microsoft Word qui reconnaît une partie de son texte comme une forme de données,
-    // tel qu'un nom, une date ou une adresse, et le convertit en un lien hypertexte affichant un soulignement en pointillés violets.
+    // comme un nom, une date ou une adresse, et le convertit en un lien hypertexte qui affiche un soulignement en pointillé violet.
     SmartTag smartTag = new SmartTag(doc);
 
     // Les balises intelligentes sont des nœuds composites qui contiennent leur texte reconnu dans son intégralité.
-    // Ajoutez manuellement du contenu à cette balise active.
+    // Ajoutez manuellement du contenu à cette balise intelligente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word peut reconnaître le contenu ci-dessus comme étant une date.
-    // Les balises intelligentes utilisent la propriété "Element" pour refléter le type de données qu'elles contiennent.
+    // Les balises intelligentes utilisent la propriété « Élément » pour refléter le type de données qu'elles contiennent.
     smartTag.Element = "date";
 
-    // Certains types de balises actives traitent davantage leur contenu dans des propriétés XML personnalisées.
+    // Certains types de balises intelligentes traitent ensuite leur contenu dans des propriétés XML personnalisées.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Définit l'URI de la balise intelligente sur la valeur par défaut.
+    // Définissez l'URI de la balise intelligente sur la valeur par défaut.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Créez une autre balise intelligente pour un téléscripteur boursier.
+    // Créez une autre balise intelligente pour un symbole boursier.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -68,13 +68,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprime toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
+    // Imprimez toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
     doc.Accept(new SmartTagPrinter());
 
-    // Les anciennes versions de Microsoft Word prennent en charge les balises actives.
+    // Les anciennes versions de Microsoft Word prennent en charge les balises intelligentes.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilisez la méthode "RemoveSmartTags" pour supprimer toutes les balises intelligentes d'un document.
+    // Utilisez la méthode « RemoveSmartTags » pour supprimer toutes les balises intelligentes d'un document.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();

@@ -3,9 +3,9 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words para .NET
-description: Paragraph AppendField método. Agrega un campo a este párrafo en C#.
+description: Mejore su documento con el método Paragraph AppendField, agregando sin problemas campos personalizados a los párrafos para mejorar la organización y la claridad.
 type: docs
-weight: 240
+weight: 260
 url: /es/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -18,12 +18,12 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldType | FieldType | El tipo de campo que se va a anexar. |
+| fieldType | FieldType | El tipo de campo a agregar. |
 | updateField | Boolean | Especifica si se debe actualizar el campo inmediatamente. |
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo añadido.
 
 ## Ejemplos
 
@@ -34,13 +34,13 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // A continuación se muestran tres formas de agregar un campo al final de un párrafo.
-// 1 - Agrega un campo FECHA usando un tipo de campo y luego actualízalo:
+// 1 - Agregue un campo FECHA usando un tipo de campo y luego actualícelo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Agrega un campo HORA usando un código de campo:
+ // 2 - Agrega un campo TIME usando un código de campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Agrega un campo QUOTE usando un código de campo y haz que muestre un valor de marcador de posición:
+// 3 - Agregue un campo QUOTE usando un código de campo y haga que muestre un valor de marcador de posición:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -77,7 +77,7 @@ public Field AppendField(string fieldCode)
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo añadido.
 
 ## Ejemplos
 
@@ -88,13 +88,13 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // A continuación se muestran tres formas de agregar un campo al final de un párrafo.
-// 1 - Agrega un campo FECHA usando un tipo de campo y luego actualízalo:
+// 1 - Agregue un campo FECHA usando un tipo de campo y luego actualícelo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Agrega un campo HORA usando un código de campo:
+ // 2 - Agrega un campo TIME usando un código de campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Agrega un campo QUOTE usando un código de campo y haz que muestre un valor de marcador de posición:
+// 3 - Agregue un campo QUOTE usando un código de campo y haga que muestre un valor de marcador de posición:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -127,11 +127,11 @@ public Field AppendField(string fieldCode, string fieldValue)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fieldCode | String | El código de campo a agregar (sin llaves). |
-| fieldValue | String | El valor del campo que se va a anexar. Aprobar`nulo` para campos que no tienen valor. |
+| fieldValue | String | El valor del campo que se va a añadir. Pasar`nulo` para campos que no tienen un valor. |
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo añadido.
 
 ## Ejemplos
 
@@ -142,13 +142,13 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // A continuación se muestran tres formas de agregar un campo al final de un párrafo.
-// 1 - Agrega un campo FECHA usando un tipo de campo y luego actualízalo:
+// 1 - Agregue un campo FECHA usando un tipo de campo y luego actualícelo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Agrega un campo HORA usando un código de campo:
+ // 2 - Agrega un campo TIME usando un código de campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Agrega un campo QUOTE usando un código de campo y haz que muestre un valor de marcador de posición:
+// 3 - Agregue un campo QUOTE usando un código de campo y haga que muestre un valor de marcador de posición:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);

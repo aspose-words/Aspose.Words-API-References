@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words per .NET
-description: ReplacingArgs GroupName proprietà. Identifica per nome un gruppo catturato nel fileMatch che va sostituito con ilReplacement stringa in C#.
+description: Scopri come utilizzare efficacemente la proprietà GroupName per sostituire i gruppi acquisiti nelle tue corrispondenze con stringhe personalizzate. Migliora le tue capacità di manipolazione delle stringhe!
 type: docs
 weight: 20
 url: /it/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Identifica, per nome, un gruppo catturato nel file[`Match`](../match/) che va sostituito con il[`Replacement`](../replacement/) stringa.
+Identifica, per nome, un gruppo catturato nel[`Match`](../match/) che deve essere sostituito con il[`Replacement`](../replacement/) stringa.
 
 ```csharp
 public string GroupName { get; set; }
@@ -18,13 +18,13 @@ public string GroupName { get; set; }
 
 ## Osservazioni
 
-Quando il nome del gruppo è`nullo` ,[`GroupIndex`](../groupindex/) viene utilizzato per identificare il gruppo.
+Quando il nome del gruppo è`null` ,[`GroupIndex`](../groupindex/) viene utilizzato per identificare il gruppo.
 
-L'impostazione predefinita è`nullo`.
+Il valore predefinito è`null`.
 
 ## Esempi
 
-Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
+Mostra come applicare un font diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -39,7 +39,7 @@ public void ConvertNumbersToHexadecimal()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
+    // Imposta la proprietà "HighlightColor" sul colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sostituisce le corrispondenze numeriche di ricerca e sostituzione con i loro equivalenti esadecimali.
-/// Mantiene un registro di ogni sostituzione.
+/// Sostituisce le corrispondenze numeriche tramite ricerca e sostituzione con i loro equivalenti esadecimali.
+/// Tiene un registro di ogni sostituzione.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

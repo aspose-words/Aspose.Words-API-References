@@ -3,14 +3,14 @@ title: ImportFormatOptions.ForceCopyStyles
 linktitle: ForceCopyStyles
 articleTitle: ForceCopyStyles
 second_title: Aspose.Words pour .NET
-description: ImportFormatOptions ForceCopyStyles propriété. Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété ForceCopyStyles d'ImportFormatOptions pour contrôler facilement la copie des styles en mode KeepSourceFormatting. La valeur par défaut est « false » pour des résultats optimaux.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut est`FAUX` .
+Obtient ou définit une valeur booléenne indiquant de copier les styles conflictuels dansKeepSourceFormatting mode. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -18,18 +18,18 @@ public bool ForceCopyStyles { get; set; }
 
 ## Remarques
 
-Par défaut, si un style correspondant existe déjà dans un document de destination, le style source formatting est développé en attributs de nœud direct et le style de ce nœud est réinitialisé par défaut.
+Par défaut, si un style correspondant existe déjà dans un document de destination, le style source formatting est développé en attributs de nœud directs et le style de ce nœud est réinitialisé à une valeur par défaut.
 
 Lorsque cette option est définie sur`vrai`, le style source sera copié de force dans le document de destination avec un nom unique et appliqué au nœud importé.
 
-Notez que dans ce cas, il n'est pas garanti que le formatage du nœud importé dans la destination document sera préservé.
+Attention, dans ce cas, il n'est pas garanti que le formatage du nœud importé dans le document de destination soit conservé.
 
 ## Exemples
 
-Montre comment copier de force des styles source avec des noms uniques.
+Montre comment copier de force des styles sources avec des noms uniques.
 
 ```csharp
-// Les deux documents contiennent MyStyle1 et MyStyle2, MyStyle3 n'existe que dans un document source.
+// Les deux documents contiennent MyStyle1 et MyStyle2, MyStyle3 existe uniquement dans un document source.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

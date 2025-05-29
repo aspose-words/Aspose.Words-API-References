@@ -3,14 +3,14 @@ title: MetafileRenderingOptions Class
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.MetafileRenderingOptions klass. Tillåter att ange ytterligare alternativ för metafilrendering i C#.
+description: Upptäck Aspose.Words.Saving.MetafileRenderingOptions för förbättrad kontroll och anpassning av metafilers rendering i dina dokument. Optimera ditt arbetsflöde idag!
 type: docs
-weight: 5300
+weight: 6080
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-Tillåter att ange ytterligare alternativ för metafilrendering.
+Gör det möjligt att ange ytterligare renderingsalternativ för metafiler.
 
 För att lära dig mer, besök[Hantera Windows-metafiler](https://docs.aspose.com/words/net/handling-windows-metafiles/) dokumentationsartikel.
 
@@ -28,17 +28,17 @@ public class MetafileRenderingOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur EMF+ Dual-metafiler ska renderas. |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Hämtar eller ställer in ett värde som avgör om rasteroperationerna ska emuleras eller inte. |
-| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Hämtar eller ställer in ett värde som avgör om metafil-rendering emulerar visningen av metafilen enligt storleken på page eller visningen av metafilen i dess standardstorlek. |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som avgör hur EMF+ Dual-metafiler ska renderas. |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Hämtar eller anger ett värde som avgör om rasteroperationerna ska emuleras eller inte. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Hämtar eller anger ett värde som avgör om metafilrendering emulerar visningen av metafilen enligt storleken på sidan eller visningen av metafilen i dess standardstorlek. |
 | [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metafilrendering till storleken på sidan. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur metafilbilder ska renderas. |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur WMF-metafiler med inbäddade EMF-metafiler ska renderas. |
-| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Hämtar eller ställer in ett värde som avgör om GDI+ ska användas eller inte för emulering av rasteroperationer. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Hämtar eller ställer in ett värde som avgör hur metafilbilder ska renderas. |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Hämtar eller ställer in ett värde som avgör hur WMF-metafiler med inbäddade EMF-metafiler ska renderas. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Hämtar eller ställer in ett värde som avgör om GDI+ ska användas för rasteroperationsemulering. |
 
 ## Exempel
 
-Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
+Program har lagt till en reservfunktion för bitmappsrendering och ändrat typen av varningar om metafilposter som inte stöds.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -47,16 +47,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Ställ in egenskapen "EmulateRasterOperations" till "false" för att falla tillbaka till bitmapp när
-    // den stöter på en metafil, som kräver rasteroperationer för att rendera i utdata-PDF.
+    // Sätt egenskapen "EmulateRasterOperations" till "false" för att återgå till bitmapp när
+    // den stöter på en metafil, vilket kräver rasteroperationer för att renderas i utdata-PDF:en.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Ställ in egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
+    // Sätt egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur den metoden konverterar dokumentet till .PDF och tillämpar konfigurationen
-    // i vårt MetafileRenderingOptions-objekt mot sparoperationen.
+    // i vårt MetafileRenderingOptions-objekt till sparoperationen.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -71,7 +71,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Skriver ut och samlar in formateringsförlustrelaterade varningar som uppstår när ett dokument sparas.
+/// Skriver ut och samlar in varningar om formateringsförlust som uppstår när ett dokument sparas.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

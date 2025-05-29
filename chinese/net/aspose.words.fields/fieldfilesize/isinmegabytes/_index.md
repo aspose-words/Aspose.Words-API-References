@@ -2,15 +2,15 @@
 title: FieldFileSize.IsInMegabytes
 linktitle: IsInMegabytes
 articleTitle: IsInMegabytes
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFileSize IsInMegabytes 财产. 获取或设置是否以兆字节为单位显示文件大小 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldFileSize 的 IsInMegabytes 属性控制文件大小的显示。轻松在字节和兆字节之间切换，以获得更清晰的显示效果和更好的用户体验。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 ---
 ## FieldFileSize.IsInMegabytes property
 
-获取或设置是否以兆字节为单位显示文件大小。
+获取或设置是否以兆字节显示文件大小。
 
 ```csharp
 public bool IsInMegabytes { get; set; }
@@ -18,7 +18,7 @@ public bool IsInMegabytes { get; set; }
 
 ## 例子
 
-演示如何使用 FILESIZE 字段显示文档的文件大小。
+展示如何使用 FILESIZE 字段显示文档的文件大小。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// 下面是三种不同的测量单位
-// FILESIZE 字段可以显示文档的文件大小。
+// 以下是三种不同的计量单位
+// 使用FILESIZE字段可以显示文档的文件大小。
 // 1 - 字节：
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -57,7 +57,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // 要在 Microsoft Word 中编辑时更新这些字段的值，
-// 我们必须首先保存更改，然后手动更新这些字段。
+// 我们必须先保存更改，然后手动更新这些字段。
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

@@ -3,7 +3,7 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions ApplyFont propriété. Mise en forme du texte appliquée au nouveau contenu en C#.
+description: Découvrez la propriété ApplyFont dans FindReplaceOptions pour une mise en forme fluide du texte. Améliorez votre contenu avec des styles personnalisés en toute simplicité !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## Exemples
 
-Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
+    // Définissez la propriété « HighlightColor » sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -52,7 +52,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Tient un journal de chaque remplacement.
+/// Conserve un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

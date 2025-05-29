@@ -3,9 +3,9 @@ title: LayoutEntityType Enum
 linktitle: LayoutEntityType
 articleTitle: LayoutEntityType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Layout.LayoutEntityType opsomming. Typen der LayoutEntitäten in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Layout.LayoutEntityType mit verschiedenen Layout-Entitätstypen für eine verbesserte Dokumentformatierung und nahtlose Integration.
 type: docs
-weight: 3330
+weight: 3780
 url: /de/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
@@ -22,33 +22,33 @@ public enum LayoutEntityType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Standardwert. |
-| Page | `1` | Stellt die Seite eines Dokuments dar. Seite kann habenColumn ,HeaderFooter UndComment Untergeordnete Entitäten. |
-| Column | `2` | Stellt eine Textspalte auf einer Seite dar. Die Spalte kann dieselben untergeordneten Entitäten haben wieCell , PlusFootnote ,Endnote UndNoteSeparator Entitäten. |
+| Page | `1` | Stellt eine Seite eines Dokuments dar. Die Seite kannColumn ,HeaderFooter UndComment untergeordnete Entitäten. |
+| Column | `2` | Stellt eine Textspalte auf einer Seite dar. Spalte kann die gleichen untergeordneten Entitäten haben wieCell , plusFootnote ,Endnote UndNoteSeparator Entitäten. |
 | Row | `8` | Stellt eine Tabellenzeile dar. Zeile kann habenCell als untergeordnete Entitäten. |
-| Cell | `10` | Stellt eine Tabellenzelle dar. Zelle kann habenLine UndRow Untergeordnete Entitäten. |
-| Line | `20` | Stellt eine Zeichenzeile aus Text und Inline-Objekten dar. Zeile kann Folgendes habenSpan Untergeordnete Entitäten. |
-| Span | `40` | Stellt ein oder mehrere Zeichen in einer Zeile dar. Dazu gehören Sonderzeichen wie Feldanfangs-/Endmarkierungen, Lesezeichen und Kommentare. Span darf keine untergeordneten Entitäten haben. |
-| Footnote | `100` | Stellt einen Platzhalter für den Fußnoteninhalt dar. Fußnote kann Folgendes enthaltenNote Untergeordnete Entitäten. |
-| Endnote | `200` | Stellt einen Platzhalter für den Endnoteninhalt dar. Endnote kann Folgendes habenNote Untergeordnete Entitäten. |
-| Note | `4000` | Stellt einen Platzhalter für den Notizinhalt dar. Notiz kann vorhanden seinLine UndRow Untergeordnete Entitäten. |
-| HeaderFooter | `400` | Stellt einen Platzhalter für Kopf-/Fußzeileninhalte auf einer Seite dar. HeaderFooter kann Folgendes habenLine UndRow Untergeordnete Entitäten. |
-| TextBox | `800` | Stellt den Textbereich innerhalb einer Form dar. Textfeld kann habenLine UndRow Untergeordnete Entitäten. |
-| Comment | `1000` | Stellt einen Platzhalter für den Kommentarinhalt dar. Kommentar kann vorhanden seinLine UndRow Untergeordnete Entitäten. |
-| NoteSeparator | `2000` | Stellt das Fußnoten-/Endnotentrennzeichen dar. NoteSeparator kann vorhanden seinLine UndRow Untergeordnete Entitäten. |
+| Cell | `10` | Stellt eine Tabellenzelle dar. Zelle kann habenLine UndRow untergeordnete Entitäten. |
+| Line | `20` | Stellt eine Zeile mit Textzeichen und Inline-Objekten dar. Die Zeile kannSpan untergeordnete Entitäten. |
+| Span | `40` | Stellt ein oder mehrere Zeichen in einer Zeile dar. Dazu gehören Sonderzeichen wie Feldstart-/Endmarkierungen, Lesezeichen und Kommentare. Span darf keine untergeordneten Entitäten haben. |
+| Footnote | `100` | Stellt einen Platzhalter für den Inhalt einer Fußnote dar. Fußnote kannNote untergeordnete Entitäten. |
+| Endnote | `200` | Stellt einen Platzhalter für Endnoteninhalte dar. Endnote kannNote untergeordnete Entitäten. |
+| Note | `4000` | Stellt einen Platzhalter für den Inhalt einer Notiz dar. Die Notiz kannLine UndRow untergeordnete Entitäten. |
+| HeaderFooter | `400` | Stellt Platzhalter für Kopf-/Fußzeileninhalte auf einer Seite dar. HeaderFooter kannLine UndRow untergeordnete Entitäten. |
+| TextBox | `800` | Stellt einen Textbereich innerhalb einer Form dar. Textfeld kann habenLine UndRow untergeordnete Entitäten. |
+| Comment | `1000` | Stellt einen Platzhalter für den Kommentarinhalt dar. Der Kommentar kannLine UndRow untergeordnete Entitäten. |
+| NoteSeparator | `2000` | Stellt Fußnoten-/Endnotentrennzeichen dar. NoteSeparator kannLine UndRow untergeordnete Entitäten. |
 
 ## Beispiele
 
-Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
+Zeigt Möglichkeiten zum Durchlaufen der Layout-Entitäten eines Dokuments.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Öffnen Sie ein Dokument, das verschiedene Layout-Entitäten enthält.
-    // Layout-Entitäten sind Seiten, Zellen, Zeilen, Linien und andere Objekte, die in der LayoutEntityType-Enumeration enthalten sind.
-    // Jede Layout-Entität hat einen rechteckigen Raum, den sie im Dokumentkörper einnimmt.
+    // Layout-Entitäten sind Seiten, Zellen, Zeilen, Linien und andere Objekte, die in der LayoutEntityType-Aufzählung enthalten sind.
+    // Jede Layout-Entität hat einen rechteckigen Platz, den sie im Dokumentkörper einnimmt.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Erstelle einen Enumerator, der diese Entitäten wie einen Baum durchlaufen kann.
+    // Erstellen Sie einen Enumerator, der diese Entitäten wie einen Baum durchlaufen kann.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -61,20 +61,20 @@ public void LayoutEnumerator()
     // Wir können diese Methode aufrufen, um sicherzustellen, dass sich der Enumerator bei der ersten Layout-Entität befindet.
     layoutEnumerator.Reset();
 
-    // Es gibt zwei Reihenfolgen, die bestimmen, wie der Layout-Enumerator weiterhin Layout-Entitäten durchläuft
-    // wenn es auf Entitäten trifft, die sich über mehrere Seiten erstrecken.
+    // Es gibt zwei Reihenfolgen, die bestimmen, wie der Layout-Enumerator die Layout-Entitäten weiter durchläuft
+    // wenn es auf Entitäten stößt, die sich über mehrere Seiten erstrecken.
     // 1 – In visueller Reihenfolge:
-    // Beim Durchlaufen der untergeordneten Elemente einer Entität, die sich über mehrere Seiten erstrecken,
-    // Das Seitenlayout hat Vorrang, und wir wechseln zu anderen untergeordneten Elementen auf dieser Seite und vermeiden diejenigen auf der nächsten.
+    // Wenn Sie sich durch die untergeordneten Elemente einer Entität bewegen, die sich über mehrere Seiten erstrecken,
+    // Das Seitenlayout hat Vorrang und wir wechseln zu anderen untergeordneten Elementen auf dieser Seite und vermeiden die auf der nächsten.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Unser Enumerator ist jetzt am Ende der Sammlung. Wir können die Layout-Entitäten rückwärts durchlaufen, um zum Anfang zurückzukehren.
+    // Unser Enumerator befindet sich nun am Ende der Sammlung. Wir können die Layout-Entitäten rückwärts durchlaufen, um zum Anfang zurückzukehren.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - In logischer Reihenfolge:
-    // Beim Durchlaufen der untergeordneten Elemente einer Entität, die sich über mehrere Seiten erstrecken,
+    // Wenn Sie sich durch die untergeordneten Elemente einer Entität bewegen, die sich über mehrere Seiten erstrecken,
     // Der Enumerator bewegt sich zwischen den Seiten, um alle untergeordneten Entitäten zu durchlaufen.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -84,8 +84,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von vorne nach hinten aufzählen,
-/// in einer Tiefenrichtung und in der „visuellen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von vorne nach hinten.
+/// in einer Tiefensuche und in der Reihenfolge „Visuell“.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -102,8 +102,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von hinten nach vorne aufzählen,
-/// in einer Tiefenrichtung und in der „visuellen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von hinten nach vorne,
+/// in einer Tiefensuche und in der Reihenfolge „Visuell“.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -120,8 +120,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von vorne nach hinten aufzählen,
-/// in einer Tiefen-zuerst-Methode und in der „logischen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von vorne nach hinten.
+/// in einer Tiefensuche und in der „logischen“ Reihenfolge.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -138,8 +138,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von hinten nach vorne aufzählen,
-/// in einer Tiefen-zuerst-Methode und in der „logischen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von hinten nach vorne,
+/// in einer Tiefensuche und in der „logischen“ Reihenfolge.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -156,9 +156,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Informationen über die aktuelle Entität von layoutEnumerator an die Konsole ausgeben und dabei den Text mit Tabulatorzeichen einrücken
-/// basierend auf seiner Tiefe relativ zum Stammknoten, den wir in der Konstruktor-LayoutEnumerator-Instanz bereitgestellt haben.
-/// Das Rechteck, das wir am Ende verarbeiten, stellt die Fläche und Position dar, die die Entität im Dokument einnimmt.
+/// Informationen zur aktuellen Entität des LayoutEnumerators auf der Konsole ausgeben und dabei den Text mit Tabulatorzeichen einrücken
+/// basierend auf seiner Tiefe relativ zum Stammknoten, den wir in der Konstruktor-Instanz LayoutEnumerator bereitgestellt haben.
+/// Das Rechteck, das wir am Ende verarbeiten, stellt den Bereich und die Position dar, die die Entität im Dokument einnimmt.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {

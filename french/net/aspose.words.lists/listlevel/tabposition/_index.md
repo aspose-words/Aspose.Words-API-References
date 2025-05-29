@@ -3,7 +3,7 @@ title: ListLevel.TabPosition
 linktitle: TabPosition
 articleTitle: TabPosition
 second_title: Aspose.Words pour .NET
-description: ListLevel TabPosition propriété. Renvoie ou définit la position de tabulation en points pour le niveau de liste en C#.
+description: Découvrez la propriété ListLevel TabPosition pour ajuster facilement les positions des tabulations en points pour vos niveaux de liste, améliorant ainsi la mise en forme de votre document.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.lists/listlevel/tabposition/
@@ -22,16 +22,16 @@ N'a d'effet que lorsque[`TrailingCharacter`](../trailingcharacter/) est un ongle
 
 ## Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

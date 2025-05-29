@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words per .NET
-description: ChartDataLabelCollection ShowBubbleSize proprietà. Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati dellintera serie. Si applica solo ai grafici a bolle. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ShowBubbleSize in ChartDataLabelCollection migliora i tuoi grafici a bolle controllando la visibilità delle etichette dati. Migliora la presentazione dei tuoi dati!
 type: docs
-weight: 70
+weight: 100
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati dell'intera serie. Si applica solo ai grafici a bolle. Il valore predefinito è`falso` .
+Consente di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati dell'intera serie. Si applica solo ai grafici a bolle. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -22,7 +22,7 @@ Il valore definito per questa proprietà può essere sovrascritto per una singol
 
 ## Esempi
 
-Mostra come utilizzare le etichette dati di un grafico a bolle.
+Mostra come lavorare con le etichette dati di un grafico a bolle.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
+// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Aggiungi una serie personalizzata con le coordinate X/Y e il diametro di ciascuna bolla.
+ // Aggiungi una serie personalizzata con coordinate X/Y e diametro di ciascuna delle bolle.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
     new[] { 9.0, 4.5, 2.5, 8.0, 5.0 });
 
-// Abilita le etichette dati e quindi modifica il loro aspetto.
+// Abilita le etichette dati e quindi modificane l'aspetto.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowBubbleSize = true;

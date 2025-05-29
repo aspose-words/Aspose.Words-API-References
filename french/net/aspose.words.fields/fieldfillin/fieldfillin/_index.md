@@ -3,7 +3,7 @@ title: FieldFillIn
 linktitle: FieldFillIn
 articleTitle: FieldFillIn
 second_title: Aspose.Words pour .NET
-description: FieldFillIn constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldFillIn : votre solution idéale pour une gestion fluide des données. Gagnez en efficacité et en simplicité dans vos projets de codage !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldfillin/fieldfillin/

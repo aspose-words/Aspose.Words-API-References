@@ -3,14 +3,14 @@ title: FieldAdvance.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words pour .NET
-description: FieldAdvance VerticalPosition propriété. Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé verticalement à partir du bord supérieur de la page en C#.
+description: Découvrez la propriété FieldAdvance VerticalPosition pour ajuster facilement le positionnement du texte sur votre page, améliorant ainsi le contrôle de la mise en page et la lisibilité.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldadvance/verticalposition/
 ---
 ## FieldAdvance.VerticalPosition property
 
-Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé verticalement à partir du bord supérieur de la page.
+Obtient ou définit le nombre de points par lesquels le texte qui suit le champ doit être déplacé verticalement à partir du bord supérieur de la page.
 
 ```csharp
 public string VerticalPosition { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Vous trouverez ci-dessous deux manières d'utiliser le champ ADVANCE pour ajuster la position du texte qui le suit.
-// Les effets d'un champ ADVANCE continuent à s'appliquer jusqu'à la fin du paragraphe,
+// Vous trouverez ci-dessous deux manières d'utiliser le champ AVANCE pour ajuster la position du texte qui le suit.
+// Les effets d'un champ AVANCE continuent d'être appliqués jusqu'à la fin du paragraphe,
 // ou un autre champ ADVANCE met à jour les valeurs de décalage/coordonnées.
 // 1 - Spécifiez un décalage directionnel :
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Déplacer le texte vers une position spécifiée par les coordonnées :
+// 2 - Déplacer le texte vers une position spécifiée par des coordonnées :
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

@@ -3,14 +3,14 @@ title: PdfSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPdf  في C#.
+description: اكتشف خاصية SaveFormat في PdfSaveOptions لحفظ المستندات بسهولة بتنسيق PDF. بسّط إدارة ملفاتك مع خيارات حفظ فعّالة.
 type: docs
-weight: 280
+weight: 300
 url: /ar/net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPdf .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. لا يمكن أن يكون إلاPdf .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند PDF محفوظ.
+يوضح كيفية تحديد مستوى العناوين التي ستظهر في مخطط مستند PDF المحفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -41,15 +41,15 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Pdf;
 
-// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين في نص المستند.
-// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
-// قم بتعيين خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
-// لن يظهر العنوانان الأخيران اللذان أدخلناهما أعلاه.
+// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين الموجودة في نص المستند.
+// النقر على إدخال في هذا المخطط سيأخذنا إلى موقع العنوان الخاص به.
+// قم بضبط خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
+// لن يظهر آخر عنوانين قمنا بإدخالهما أعلاه.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);

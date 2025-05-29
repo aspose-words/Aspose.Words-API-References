@@ -3,9 +3,9 @@ title: DocSaveOptions.SavePictureBullet
 linktitle: SavePictureBullet
 articleTitle: SavePictureBullet
 second_title: Aspose.Words für .NET
-description: DocSaveOptions SavePictureBullet eigendom. WannFALSCH  PictureBulletDaten werden nicht im Ausgabedokument gespeichert. Der Standardwert istWAHR  in C#.
+description: Entdecken Sie, wie die SavePictureBullet-Eigenschaft von DocSaveOptions Ihre Dokumentausgabe verbessert. Steuern Sie die PictureBullet-Datenspeicherung mühelos für optimale Ergebnisse.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
@@ -18,7 +18,7 @@ public bool SavePictureBullet { get; set; }
 
 ## Bemerkungen
 
-Diese Option ist für Word 97 verfügbar, das mit PictureBullet-Daten nicht ordnungsgemäß funktionieren kann. Um PictureBullet-Daten zu entfernen, setzen Sie die Option auf „false“.
+Diese Option ist für Word 97 vorgesehen, das mit PictureBullet-Daten nicht richtig arbeiten kann. Um PictureBullet-Daten zu entfernen, setzen Sie die Option auf „false“.
 
 ## Beispiele
 
@@ -26,9 +26,9 @@ Zeigt, wie PictureBullet-Daten beim Speichern aus dem Dokument weggelassen werde
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-// Einige Textverarbeitungsprogramme wie Microsoft Word 97 sind nicht mit PictureBullet-Daten kompatibel.
+// Einige Textverarbeitungsprogramme, wie beispielsweise Microsoft Word 97, sind mit PictureBullet-Daten nicht kompatibel.
 // Durch Setzen eines Flags im SaveOptions-Objekt,
-// Wir können beim Speichern alle Bildaufzählungspunkte in normale Aufzählungspunkte umwandeln.
+// Wir können alle Aufzählungspunkte des Bildes beim Speichern in normale Aufzählungspunkte umwandeln.
 DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
 saveOptions.SavePictureBullet = false;
 

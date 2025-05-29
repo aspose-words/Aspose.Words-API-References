@@ -3,9 +3,9 @@ title: Section.ClearContent
 linktitle: ClearContent
 articleTitle: ClearContent
 second_title: Aspose.Words per .NET
-description: Section ClearContent metodo. Cancella la sezione in C#.
+description: Sezioni chiare senza sforzo con il metodo ClearContent. Ottimizza il tuo flusso di lavoro e migliora l'efficienza della gestione dei contenuti oggi stesso!
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -36,7 +36,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
 // L'esecuzione del metodo "ClearContent" rimuoverà tutto il contenuto della sezione
-// ma lascia un paragrafo vuoto per aggiungere nuovamente contenuto.
+// ma lascia un paragrafo vuoto per aggiungere altro contenuto.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

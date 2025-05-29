@@ -3,14 +3,14 @@ title: FieldIndex.UseYomi
 linktitle: UseYomi
 articleTitle: UseYomi
 second_title: Aspose.Words لـ .NET
-description: FieldIndex UseYomi ملكية. الحصول على أو تعيين ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس في C#.
+description: حسّن فهرستك باستخدام خاصية "FieldIndex" من "Yomi". فعّل نص "Yomi" بسهولة لتحسين ظهور نتائج البحث وتجربة المستخدم.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/fieldindex/useyomi/
 ---
 ## FieldIndex.UseYomi property
 
-الحصول على أو تعيين ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس.
+يحصل على أو يحدد ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس.
 
 ```csharp
 public bool UseYomi { get; set; }
@@ -24,11 +24,11 @@ public bool UseYomi { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء حقل INDEX الذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
-// سيعرض كل إدخال قيمة خاصية النص لحقل XE على الجانب الأيسر،
+// قم بإنشاء حقل INDEX والذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
+// سيعرض كل إدخال قيمة خاصية النص الخاصة بحقل XE على الجانب الأيسر،
 // ورقم الصفحة التي تحتوي على حقل XE على اليمين.
-// سيقوم إدخال INDEX بجمع كافة حقول XE ذات القيم المطابقة في خاصية "النص".
-// في إدخال واحد بدلاً من عمل إدخال لكل حقل XE.
+// سوف يقوم إدخال INDEX بجمع جميع حقول XE ذات القيم المطابقة في خاصية "النص"
+// في إدخال واحد بدلاً من إنشاء إدخال لكل حقل XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // يقوم جدول INDEX تلقائيًا بفرز إدخالاته حسب قيم خصائص النص الخاصة بها بالترتيب الأبجدي.
@@ -40,11 +40,11 @@ if (sortEntriesUsingYomi)
 else
     Assert.AreEqual(" INDEX ", index.GetFieldCode());
 
-// أدخل 4 حقول XE، والتي ستظهر كمدخلات في جدول محتويات حقل INDEX.
-// قد تحتوي خاصية "النص" على تهجئة الكلمة باللغة الكانجي، والتي قد يكون نطقها غامضًا،
-// في حين أن نسخة "Yomi" من الكلمة سوف توضح بالضبط كيفية نطقها باستخدام هيراغانا.
+// أدخل 4 حقول XE، والتي ستظهر كإدخالات في جدول محتويات حقل INDEX.
+// قد تحتوي خاصية "النص" على تهجئة كلمة في كانجي، وقد يكون نطقها غامضًا،
+// في حين أن نسخة "Yomi" من الكلمة ستكتب بالضبط كما يتم نطقها باستخدام الهيراجانا.
 // إذا قمنا بتعيين حقل INDEX الخاص بنا لاستخدام Yomi، فسوف يقوم بفرز هذه الإدخالات
-// بقيمة خصائص Yomi الخاصة بها، بدلاً من قيمها النصية.
+// حسب قيمة خصائص Yomi الخاصة بهم، بدلاً من قيم Text الخاصة بهم.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛子";

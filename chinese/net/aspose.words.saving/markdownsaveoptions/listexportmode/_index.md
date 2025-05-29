@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ListExportMode
 linktitle: ListExportMode
 articleTitle: ListExportMode
-second_title: 用于 .NET 的 Aspose.Words
-description: MarkdownSaveOptions ListExportMode 财产. 指定如何将列表项写入输出文件 默认值为MarkdownSyntax 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MarkdownSaveOptions 的 ListExportMode 属性，它控制列表项的输出方式。使用灵活的 MarkdownSyntax 优化你的文件！
 type: docs
-weight: 60
+weight: 110
 url: /zh/net/aspose.words.saving/markdownsaveoptions/listexportmode/
 ---
 ## MarkdownSaveOptions.ListExportMode property
 
-指定如何将列表项写入输出文件。 默认值为MarkdownSyntax.
+指定列表项如何写入输出文件。 默认值为MarkdownSyntax.
 
 ```csharp
 public MarkdownListExportMode ListExportMode { get; set; }
@@ -18,13 +18,13 @@ public MarkdownListExportMode ListExportMode { get; set; }
 
 ## 评论
 
-当该属性设置为PlainText所有列表标签均 使用更新[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)并以其实际值导出。此类lists 可能与Markdown格式不兼容，在这种情况下导入时将被识别为纯文本。
+当此属性设置为PlainText所有列表标签均 使用更新[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)并导出其实际值。此类lists 可能与Markdown格式不兼容，在这种情况下导入时将被识别为纯文本。
 
-当该属性设置为MarkdownSyntax，作者尝试以允许通过 Markdown 在自动模式下计算列表项的方式导出 列表项。
+当此属性设置为MarkdownSyntax，作者尝试以允许通过 Markdown 在自动模式下对列表项进行编号的方式导出 列表项。
 
 ## 例子
 
-展示如何将列表项写入 Markdown 文档。
+展示如何列出将写入 markdown 文档的项目。
 
 ```csharp
 Document doc = new Document(MyDir + "List item.docx");

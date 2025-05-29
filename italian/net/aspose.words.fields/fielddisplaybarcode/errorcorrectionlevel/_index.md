@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 articleTitle: ErrorCorrectionLevel
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode ErrorCorrectionLevel proprietà. Ottiene o imposta un livello di correzione degli errori del codice QR. I valori validi sono 0 3 in C#.
+description: Scopri la proprietà FieldDisplayBarcode ErrorCorrectionLevel per i codici QR. Gestisci facilmente i livelli di correzione degli errori con opzioni valide da 0 a 3.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/

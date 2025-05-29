@@ -2,8 +2,8 @@
 title: ChartNumberFormat.IsLinkedToSource
 linktitle: IsLinkedToSource
 articleTitle: IsLinkedToSource
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartNumberFormat IsLinkedToSource 财产. 指定格式代码是否链接到源单元格 默认值为 true 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ChartNumberFormat IsLinkedToSource 属性如何通过将格式代码链接到源单元格来增强数据可视化。立即了解更多！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -18,11 +18,11 @@ public bool IsLinkedToSource { get; set; }
 
 ## 评论
 
-如果格式代码链接到源，则 NumberFormat 将重置为常规。
+如果格式代码链接到源，则 NumberFormat 将被重置为常规。
 
 ## 例子
 
-展示如何设置图表值的格式。
+显示如何设置图表值的格式。
 
 ```csharp
 Document doc = new Document();
@@ -34,16 +34,16 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 将自定义系列添加到图表中，其中 X 轴为类别，
- // 和 Y 轴各自较大的数值。
+// 向图表中添加自定义系列，其中包含 X 轴的类别，
+ // 以及 Y 轴的相应较大数值。
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // 将 Y 轴刻度标签的数字格式设置为不使用逗号对数字进行分组。
+ // 设置 Y 轴刻度标签的数字格式，不使用逗号对数字进行分组。
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// 该标志可以覆盖上面的值并从源单元格中绘制数字格式。
+// 此标志可以覆盖上述值并从源单元格绘制数字格式。
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

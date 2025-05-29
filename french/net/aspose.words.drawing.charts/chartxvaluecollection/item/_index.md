@@ -3,9 +3,9 @@ title: ChartXValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ChartXValueCollection Item propriété. Obtient ou définit la valeur X à lindex spécifié en C#.
+description: Découvrez la propriété d'élément ChartXValueCollection pour accéder ou modifier facilement les valeurs X à n'importe quel index, améliorant ainsi votre expérience de visualisation des données.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartxvaluecollection/item/
 ---
 ## ChartXValueCollection indexer

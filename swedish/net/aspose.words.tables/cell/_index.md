@@ -3,9 +3,9 @@ title: Cell Class
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.Cell klass. Representerar en tabellcell i C#.
+description: Upptäck klassen Aspose.Words.Tables.Cell – din lösning för effektiv hantering av tabellceller i dokumentbehandling. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 6240
+weight: 7090
 url: /sv/net/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -22,64 +22,66 @@ public class Cell : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [Cell](cell/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initierar en ny instans av`Cell` class. |
+| [Cell](cell/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initierar en ny instans av`Cell` klass. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CellFormat](../../aspose.words.tables/cell/cellformat/) { get; } | Ger tillgång till cellens formateringsegenskaper. |
+| [CellFormat](../../aspose.words.tables/cell/cellformat/) { get; } | Ger åtkomst till cellens formateringsegenskaper. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
-| [FirstParagraph](../../aspose.words.tables/cell/firstparagraph/) { get; } | Får första stycket bland de närmaste barnen. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
-| [IsFirstCell](../../aspose.words.tables/cell/isfirstcell/) { get; } | Sant om detta är den första cellen i en rad; falskt annars. |
-| [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | Sant om detta är den sista cellen i en rad; falskt annars. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
-| [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Får det sista stycket bland de närmaste barnen. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Hämtar nodens första barn. |
+| [FirstParagraph](../../aspose.words.tables/cell/firstparagraph/) { get; } | Hämtar det första stycket bland de omedelbara underordnade. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returer`sann` om den här noden har några undernoder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returer`sann` eftersom denna nod kan ha underordnade noder. |
+| [IsFirstCell](../../aspose.words.tables/cell/isfirstcell/) { get; } | Sant om detta är den första cellen i en rad; annars falskt. |
+| [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | Sant om detta är den sista cellen i en rad; annars falskt. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista barn. |
+| [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Hämtar det sista stycket bland de omedelbara underordnade. |
 | [NextCell](../../aspose.words.tables/cell/nextcell/) { get; } | Får nästa`Cell` nod. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | ReturnerarCell . |
-| [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Får en samling stycken som är omedelbara barn till cellen. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | ReturerCell . |
+| [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Hämtar en samling stycken som är direkta underordnade stycken till cellen. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentRow](../../aspose.words.tables/cell/parentrow/) { get; } | Returnerar cellens överordnade rad. |
 | [PreviousCell](../../aspose.words.tables/cell/previouscell/) { get; } | Hämtar föregående`Cell` nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
-| [Tables](../../aspose.words.tables/cell/tables/) { get; } | Hämtar en samling tabeller som är omedelbart underordnade cellen. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/)objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Tables](../../aspose.words.tables/cell/tables/) { get; } | Hämtar en samling tabeller som är direkta underordnade tabeller till cellen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/cell/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
-| [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum/)() | Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt stycke. |
+| override [Accept](../../aspose.words.tables/cell/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Tar emot en besökare. |
+| override [AcceptEnd](../../aspose.words.tables/cell/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare för att besöka slutet av cellen. |
+| override [AcceptStart](../../aspose.words.tables/cell/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare för att besöka början av cellen. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar en navigator som kan användas för att korsa och läsa noder. |
+| [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum/)() | Om det sista underordnade stycket inte är ett stycke skapas och läggs till ett tomt stycke. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returnerar en live-samling av underordnade noder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Ger stöd för iterationen för varje stil över de underordnade noderna till denna nod. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returnerar indexet för den angivna undernoden i undernodsmatrisen. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Tar bort den angivna undernoden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underordnade noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
@@ -98,9 +100,9 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Tabeller innehåller rader, som innehåller celler, som kan ha stycken
-// med typiska element som körningar, former och till och med andra tabeller.
-// Att anropa metoden "EnsureMinimum" på en tabell säkerställer det
+// Tabeller innehåller rader, som innehåller celler, vilka kan innehålla stycken
+// med typiska element som körningar, former och även andra tabeller.
+// Att anropa metoden "EnsureMinimum" på en tabell säkerställer att
 // tabellen har minst en rad, cell och stycke.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -111,14 +113,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Lägg till text till det första anropet i den första raden i tabellen.
+// Lägg till text i den första cellen på den första raden i tabellen.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
+Visar hur man itererar igenom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -132,7 +134,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Vi kan använda "ToArray"-metoden på en radsamling för att klona den till en array.
+    // Vi kan använda metoden "ToArray" på en radsamling för att klona den till en array.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -142,7 +144,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Vi kan använda "ToArray"-metoden på en cellsamling för att klona den till en array.
+        // Vi kan använda metoden "ToArray" på en cellsamling för att klona den till en array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -159,7 +161,7 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-Visar hur man bygger en kapslad tabell utan att använda ett dokumentbyggare.
+Visar hur man bygger en kapslad tabell utan att använda en dokumentbyggare.
 
 ```csharp
 public void CreateNestedTable()
@@ -170,7 +172,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Skapa ytterligare en tabell med två rader och två kolumner och infoga den sedan i den första tabellens första cell.
+    // Skapa en annan tabell med två rader och två kolumner och infoga den sedan i den första tabellens första cell.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -178,7 +180,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Skapar en ny tabell i dokumentet med givna dimensioner och text i varje cell.
+/// Skapar en ny tabell i dokumentet med de angivna dimensionerna och texten i varje cell.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -199,10 +201,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Du kan använda egenskaperna "Titel" och "Beskrivning" för att lägga till en titel respektive en beskrivning till din tabell.
+    // Du kan använda egenskaperna "Titel" och "Beskrivning" för att lägga till en titel respektive beskrivning till din tabell.
     // Tabellen måste ha minst en rad innan vi kan använda dessa egenskaper.
-    // Dessa egenskaper är meningsfulla för ISO / IEC 29500-kompatibla .docx-dokument (se klassen OoxmlCompliance).
-    // Om vi sparar dokumentet i pre-ISO/IEC 29500-format ignorerar Microsoft Word dessa egenskaper.
+    // Dessa egenskaper är betydelsefulla för ISO/IEC 29500-kompatibla .docx-dokument (se OoxmlCompliance-klassen).
+    // Om vi sparar dokumentet i format före ISO/IEC 29500 ignorerar Microsoft Word dessa egenskaper.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

@@ -3,14 +3,14 @@ title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words für .NET
-description: BorderCollection DistanceFromText eigendom. Ermittelt oder legt den Abstand des Rahmens vom Text in Punkten fest in C#.
+description: Entdecken Sie die BorderCollection DistanceFromText-Eigenschaft, um den Rahmenabstand von Text in Ihren Designs einfach anzupassen. Optimieren Sie Ihr Layout mühelos!
 type: docs
 weight: 40
 url: /de/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-Ermittelt oder legt den Abstand des Rahmens vom Text in Punkten fest.
+Ruft den Abstand des Rahmens vom Text in Punkten ab oder legt ihn fest.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -20,13 +20,13 @@ public double DistanceFromText { get; set; }
 
 Ruft den Abstand vom Text für den ersten Rahmen ab.
 
-Legt den Abstand vom Text für alle Rahmen in der Sammlung mit Ausnahme diagonaler Ränder fest.
+Legt den Abstand vom Text für alle Rahmen in der Sammlung fest, mit Ausnahme diagonaler Rahmen.
 
 Hat keine Auswirkung und wird für die Ränder von Tabellenzellen automatisch auf Null zurückgesetzt.
 
 ## Beispiele
 
-Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
+Zeigt, wie man einen grünen, gewellten Seitenrand mit Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

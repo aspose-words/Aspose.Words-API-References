@@ -3,7 +3,7 @@ title: FieldFileSize.IsInKilobytes
 linktitle: IsInKilobytes
 articleTitle: IsInKilobytes
 second_title: Aspose.Words per .NET
-description: FieldFileSize IsInKilobytes proprietà. Ottiene o imposta se visualizzare la dimensione del file in kilobyte in C#.
+description: Controlla la visualizzazione delle dimensioni dei file con FieldFileSize IsInKilobytes. Attiva e disattiva facilmente la visibilità delle dimensioni in kilobyte per una migliore gestione dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -30,7 +30,7 @@ builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
 // Di seguito sono riportate tre diverse unità di misura
-// con quali campi FILESIZE possono visualizzare la dimensione del file del documento.
+// con cui i campi FILESIZE possono visualizzare la dimensione del file del documento.
 // 1 - Byte:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();

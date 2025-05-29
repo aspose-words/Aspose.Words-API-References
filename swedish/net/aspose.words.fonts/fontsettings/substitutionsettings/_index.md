@@ -3,14 +3,14 @@ title: FontSettings.SubstitutionSettings
 linktitle: SubstitutionSettings
 articleTitle: SubstitutionSettings
 second_title: Aspose.Words för .NET
-description: FontSettings SubstitutionSettings fast egendom. Inställningar relaterade till teckensnittsersättningsmekanism i C#.
+description: Utforska egenskapen FontSettings SubstitutionSettings för att optimera din teckensnittsersättningsprocess och förbättra textvisningskvaliteten utan ansträngning.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-Inställningar relaterade till teckensnittsersättningsmekanism.
+Inställningar relaterade till mekanism för teckensnittsersättning.
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }
@@ -18,7 +18,7 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
+Visar hur man kommer åt ett dokuments systemfontkälla och ställer in fontersättningar.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ett substitut för ett som inte gör det.
+// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ersättning för ett som inte finns.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -55,18 +55,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativt kan vi lägga till en mappfontkälla där motsvarande mapp innehåller typsnittet.
+// Alternativt kan vi lägga till en mapp för teckensnittskälla där motsvarande mapp innehåller teckensnittet.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Att återställa teckensnittskällorna lämnar oss fortfarande kvar med systemteckensnittskällan såväl som våra substitut.
+// Om vi återställer teckensnittskällorna har vi fortfarande kvar systemets teckensnittskälla samt våra ersättningar.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Se även

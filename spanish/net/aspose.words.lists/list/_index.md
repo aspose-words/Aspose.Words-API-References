@@ -3,16 +3,16 @@ title: List Class
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Lists.List clase. Representa el formato de una lista en C#.
+description: Descubra la clase Aspose.Words.Lists.List para un formato de listas potente. Mejore sus documentos con una organización impecable y una presentación profesional.
 type: docs
-weight: 3460
+weight: 3910
 url: /es/net/aspose.words.lists/list/
 ---
 ## List class
 
 Representa el formato de una lista.
 
-Para obtener más información, visite el[Trabajar con listas](https://docs.aspose.com/words/net/working-with-lists/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con listas](https://docs.aspose.com/words/net/working-with-lists/) Artículo de documentación.
 
 ```csharp
 public class List : IComparable<List>
@@ -23,13 +23,13 @@ public class List : IComparable<List>
 | Nombre | Descripción |
 | --- | --- |
 | [Document](../../aspose.words.lists/list/document/) { get; } | Obtiene el documento del propietario. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Devoluciones`verdadero` si esta lista es una definición de un estilo de lista. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Devoluciones`verdadero` si esta lista es una referencia a un estilo de lista. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Devoluciones`verdadero` cuando la lista contiene 9 niveles;`FALSO` cuando 1 nivel. |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Devuelve`verdadero` si esta lista es una definición de un estilo de lista. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Devuelve`verdadero` si esta lista es una referencia a un estilo de lista. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Devuelve`verdadero` cuando la lista contiene 9 niveles;`FALSO` cuando 1 nivel. |
 | [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es`FALSO` . |
 | [ListId](../../aspose.words.lists/list/listid/) { get; } | Obtiene el identificador único de la lista. |
 | [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Obtiene la colección de niveles de lista para esta lista. |
-| [Style](../../aspose.words.lists/list/style/) { get; } | Obtiene el estilo de lista al que hace referencia o define esta lista. |
+| [Style](../../aspose.words.lists/list/style/) { get; } | Obtiene el estilo de lista al que esta lista hace referencia o define. |
 
 ## Métodos
 
@@ -37,14 +37,14 @@ public class List : IComparable<List>
 | --- | --- |
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Compara la lista especificada con la lista actual. |
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Compara el objeto especificado con el objeto actual. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Se compara con la lista especificada. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Compara con la lista especificada. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Determina si el objeto especificado es igual en valor al objeto actual. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calcula el código hash para este objeto de lista. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir de la misma plantilla. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Devuelve verdadero si la lista actual y la lista dada se crean a partir de la misma plantilla. |
 
 ## Observaciones
 
-Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. Cada lista puede tener hasta 9 niveles y las propiedades de formato, como estilo de número, valor inicial, sangría , posición de tabulación, etc., se definen por separado para cada nivel.
+Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. Cada lista puede tener hasta 9 niveles y las propiedades de formato, como el estilo de número, el valor inicial, la sangría, la posición de tabulación, etc., se definen por separado para cada nivel.
 
 A`List` El objeto siempre pertenece al[`ListCollection`](../listcollection/) recopilación.
 
@@ -62,15 +62,15 @@ Muestra cómo reiniciar la numeración en una lista copiando una lista.
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
 // Cree una lista a partir de una plantilla de Microsoft Word y personalice su primer nivel de lista.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Aplicar nuestra lista a algunos párrafos.
+//Aplica nuestra lista a algunos párrafos.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -79,13 +79,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Podemos agregar una copia de una lista existente a la colección de listas del documento
+//Podemos agregar una copia de una lista existente a la colección de listas del documento
 // para crear una lista similar sin realizar cambios en la original.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Aplicar la segunda lista a nuevos párrafos.
+// Aplicar la segunda lista a los nuevos párrafos.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -95,16 +95,16 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
+Muestra cómo aplicar formato de lista personalizado a los párrafos cuando se utiliza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de su lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de lista.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -158,10 +158,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+//A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
 // 1 - Una lista numerada:
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -169,8 +169,8 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 Assert.True(builder.ListFormat.IsListItem);
 
 // Al establecer la propiedad "ListLevelNumber", podemos aumentar el nivel de la lista
-// para comenzar una sublista autónoma en el elemento de la lista actual.
-// La plantilla de lista de Microsoft Word llamada "NumberDefault" usa números para crear niveles de lista para el primer nivel de lista.
+// para comenzar una sublista autónoma en el elemento de lista actual.
+// La plantilla de lista de Microsoft Word llamada "NumberDefault" utiliza números para crear niveles de lista para el primer nivel de lista.
  // Los niveles de lista más profundos utilizan letras y números romanos en minúscula.
 for (int i = 0; i < 9; i++)
 {
@@ -179,8 +179,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Una lista con viñetas:
-// Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
-// Los niveles más profundos de esta lista utilizarán diferentes símbolos, como "■" y "○".
+//Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
+// Los niveles más profundos de esta lista utilizarán símbolos diferentes, como "■" y "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -189,7 +189,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Podemos deshabilitar el formato de la lista para no formatear ningún párrafo posterior como lista al desactivar el indicador "Lista".
+// Podemos deshabilitar el formato de lista para no formatear los párrafos subsiguientes como listas desmarcando la marca "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

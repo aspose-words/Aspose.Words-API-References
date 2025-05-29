@@ -3,14 +3,14 @@ title: PdfZoomBehavior Enum
 linktitle: PdfZoomBehavior
 articleTitle: PdfZoomBehavior
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.PdfZoomBehavior تعداد. يحدد نوع التكبير/التصغير المطبق على مستند PDF عند فتحه في عارض PDF في C#.
+description: اكتشف خاصية Aspose.Words.PdfZoomBehavior لإعدادات تكبير/تصغير قابلة للتخصيص في ملفات PDF. حسّن تجربة المستخدم مع خيارات عرض مُخصصة في مستندات PDF.
 type: docs
-weight: 5540
+weight: 6340
 url: /ar/net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration
 
-يحدد نوع التكبير/التصغير المطبق على مستند PDF عند فتحه في عارض PDF.
+يحدد نوع التكبير المطبق على مستند PDF عند فتحه في عارض PDF.
 
 ```csharp
 public enum PdfZoomBehavior
@@ -20,27 +20,27 @@ public enum PdfZoomBehavior
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | كيفية عرض الوثيقة متروكة لعارض PDF. عادةً ما يقوم العارض بعرض المستند ليناسب عرض الصفحة. |
-| ZoomFactor | `1` | يعرض الصفحة باستخدام عامل التكبير/التصغير المحدد. |
-| FitPage | `2` | عرض الصفحة بحيث تكون مرئية بالكامل. |
-| FitWidth | `3` | يناسب عرض الصفحة. |
-| FitHeight | `4` | يناسب ارتفاع الصفحة. |
-| FitBox | `5` | يناسب المربع المحيط (المستطيل الذي يحتوي على كافة العناصر المرئية في الصفحة). |
+| None | `0` | يُترك لعارض PDF تحديد كيفية عرض المستند. عادةً ما يعرض العارض المستند بما يتناسب مع عرض الصفحة. |
+| ZoomFactor | `1` | يعرض الصفحة باستخدام عامل التكبير المحدد. |
+| FitPage | `2` | يعرض الصفحة بحيث تكون مرئية بالكامل. |
+| FitWidth | `3` | يتناسب مع عرض الصفحة. |
+| FitHeight | `4` | يتناسب مع ارتفاع الصفحة. |
+| FitBox | `5` | يتناسب مع المربع المحدد (المستطيل الذي يحتوي على جميع العناصر المرئية في الصفحة). |
 
 ## أمثلة
 
-يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
+يوضح كيفية تعيين التكبير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 // اضبط خاصية "ZoomBehavior" على "PdfZoomBehavior.ZoomFactor" للحصول على قارئ PDF
-// قم بتطبيق عامل التكبير على أساس النسبة المئوية عندما نفتح المستند به.
-// اضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
+// تطبيق عامل تكبير يعتمد على النسبة المئوية عند فتح المستند به.
+// قم بضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

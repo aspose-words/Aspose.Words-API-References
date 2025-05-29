@@ -3,14 +3,14 @@ title: FontFallbackSettings.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words för .NET
-description: FontFallbackSettings Load metod. Läser in alternativa teckensnittsinställningar från XMLfil i C#.
+description: Ladda och hantera enkelt alternativa teckensnittsinställningar från XML-filer med FontFallbackSettings Load-metoden för sömlös typografisk integration.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## Load(*string*) {#load_1}
 
-Läser in alternativa teckensnittsinställningar från XML-fil.
+Laddar alternativa teckensnittsinställningar från XML-filen.
 
 ```csharp
 public void Load(string fileName)
@@ -18,23 +18,23 @@ public void Load(string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fileName | String | Inmatat filnamn. |
+| fileName | String | Inmatningsfilnamn. |
 
 ## Exempel
 
-Visar hur man läser in och sparar typsnittsalternativ till/från ett XML-dokument i det lokala filsystemet.
+Visar hur man laddar och sparar alternativa teckensnittsinställningar till/från ett XML-dokument i det lokala filsystemet.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Ladda ett XML-dokument som definierar en uppsättning alternativa teckensnittsinställningar.
+// Laddar ett XML-dokument som definierar en uppsättning alternativa teckensnittsinställningar.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Spara vårt dokuments nuvarande reservinställningar för typsnitt som ett XML-dokument.
+// Spara vårt dokuments nuvarande inställningar för teckensnittsreserv som ett XML-dokument.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -48,7 +48,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ## Load(*Stream*) {#load}
 
-Laddar reservinställningar från XML-ström.
+Läser in reservinställningar från XML-strömmen.
 
 ```csharp
 public void Load(Stream stream)
@@ -60,12 +60,12 @@ public void Load(Stream stream)
 
 ## Exempel
 
-Visar hur man läser in och sparar reservinställningar för teckensnitt till/från en stream.
+Visar hur man laddar och sparar alternativa teckensnittsinställningar till/från en ström.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Ladda ett XML-dokument som definierar en uppsättning alternativa teckensnittsinställningar.
+// Laddar ett XML-dokument som definierar en uppsättning alternativa teckensnittsinställningar.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -76,7 +76,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Använd en ström för att spara vårt dokuments aktuella typsnittsinställningar som ett XML-dokument.
+// Använd en ström för att spara vårt dokuments nuvarande teckensnittsinställningar som ett XML-dokument.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

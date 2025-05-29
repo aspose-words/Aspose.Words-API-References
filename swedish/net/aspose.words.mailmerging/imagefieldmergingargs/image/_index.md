@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.Image
 linktitle: Image
 articleTitle: Image
 second_title: Aspose.Words för .NET
-description: ImageFieldMergingArgs Image fast egendom. Anger bilden som kopplingsmotorn måste infoga i dokumentet i C#.
+description: Upptäck hur du använder ImageFieldMergingArgs för att sömlöst infoga bilder i dina dokument för en elegant dokumentkopplingsupplevelse.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 ---
 ## ImageFieldMergingArgs.Image property
 
-Anger bilden som kopplingsmotorn måste infoga i dokumentet.
+Anger bilden som kopplad dokument måste infoga i dokumentet.
 
 ```csharp
 public Image Image { get; set; }
@@ -18,19 +18,19 @@ public Image Image { get; set; }
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att anpassa bildsammanslagningslogik.
+Visar hur man använder en återanropsfunktion för att anpassa logik för bildsammanslagning.
 
 ```csharp
 public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // Infoga ett MERGEFIELD som kommer att acceptera bilder från en källa under en e-postkoppling. Använd fältkoden för att referera
-    // en kolumn i datakällan som innehåller lokala systemfilnamn på bilder som vi vill använda i kopplingen.
+    // Infoga ett MERGEFIELD som accepterar bilder från en källa under en dokumentkoppling. Använd fältkoden för att referera
+    // en kolumn i datakällan som innehåller lokala systemfilnamn för bilder som vi vill använda i dokumentkopplingen.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // I det här fallet förväntar fältet att datakällan har en sådan kolumn med namnet "ImageColumn".
+    // I det här fallet förväntar sig fältet att datakällan ska ha en sådan kolumn med namnet "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Filnamn kan vara långa, och om vi kan hitta ett sätt att undvika att lagra dem i datakällan,
@@ -41,8 +41,8 @@ public void MergeFieldImages()
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // Tilldela en sammanslagningsåteruppringning som innehåller all logik som behandlar dessa namn,
-     // och kör sedan sammanslagningen.
+    // Tilldela en sammanslagningsåteruppringning som innehåller all logik som bearbetar dessa namn,
+     // och sedan köra dokumentkopplingen.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
@@ -51,8 +51,8 @@ public void MergeFieldImages()
 
 /// <summary>
 /// Innehåller en ordbok som mappar namn på bilder till lokala systemfilnamn som innehåller dessa bilder.
-/// Om en kopplingsdatakälla använder ett av ordbokens namn för att referera till en bild,
-/// denna återuppringning kommer att skicka respektive filnamn till sammanslagningsdestinationen.
+/// Om en datakälla för dokumentkoppling använder ett av ordbokens namn för att referera till en bild,
+/// denna återanropning skickar respektive filnamn till sammanslagningsdestinationen.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback
 {
@@ -72,7 +72,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
     {
         if (mImageFilenames.ContainsKey(args.FieldValue.ToString()))
         {
-            #if NET48 || JAVA
+            #if NET461_OR_GREATER || JAVA
             args.Image = Image.FromFile(mImageFilenames[args.FieldValue.ToString()]);
             #elif NET5_0_OR_GREATER
             args.Image = SKBitmap.Decode(mImageFilenames[args.FieldValue.ToString()]);

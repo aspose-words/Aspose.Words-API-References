@@ -3,9 +3,9 @@ title: ChartDataLabelCollection.ShowCategoryName
 linktitle: ShowCategoryName
 articleTitle: ShowCategoryName
 second_title: Aspose.Words för .NET
-description: ChartDataLabelCollection ShowCategoryName fast egendom. Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen ShowCategoryName i ChartDataLabelCollection. Kontrollera dataetiketternas synlighet för dina serier och förbättra diagrammets tydlighet!
 type: docs
-weight: 80
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
 ---
 ## ChartDataLabelCollection.ShowCategoryName property
@@ -18,7 +18,7 @@ public bool ShowCategoryName { get; set; }
 
 ## Anmärkningar
 
-Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) egenskap.
+Värde definierat för den här egenskapen kan åsidosättas för en enskild dataetikett med hjälp av [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) egendom.
 
 ## Exempel
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
+ // Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

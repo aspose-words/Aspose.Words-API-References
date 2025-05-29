@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertFootnote
 linktitle: InsertFootnote
 articleTitle: InsertFootnote
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertFootnote طريقة. إدراج حاشية سفلية أو تعليق ختامي في المستند في C#.
+description: قم بتعزيز مستنداتك بسهولة باستخدام طريقة InsertFootnote في DocumentBuilder - قم بإضافة الحواشي السفلية أو النهائية بسهولة لتحقيق وضوح واحترافية أفضل.
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
-إدراج حاشية سفلية أو تعليق ختامي في المستند.
+يقوم بإدراج حاشية سفلية أو تعليق ختامي في المستند.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
@@ -18,7 +18,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| footnoteType | FootnoteType | يحدد ما إذا كان سيتم إدراج حاشية سفلية أو تعليق ختامي. |
+| footnoteType | FootnoteType | يحدد ما إذا كان سيتم إدراج حاشية سفلية أو حاشية نهائية. |
 | footnoteText | String | يحدد نص الحاشية السفلية. |
 
 ### قيمة الإرجاع
@@ -27,27 +27,27 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 ## أمثلة
 
-يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
+يوضح كيفية الإشارة إلى النص باستخدام الحاشية السفلية والحاشية الختامية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج بعض النص ووضع علامة عليه باستخدام حاشية سفلية مع تعيين الخاصية IsAuto على "صحيح" افتراضيًا،
-// لذلك سيتم ترقيم العلامة الموجودة في النص الأساسي تلقائيًا عند "1"،
-// وستظهر الحاشية السفلية في أسفل الصفحة.
+// أدخل بعض النص وقم بتمييزه بحاشية سفلية مع تعيين الخاصية IsAuto على "true" بشكل افتراضي،
+// لذلك سيتم ترقيم العلامة الظاهرة في نص الموضوع تلقائيًا عند "1"،
+//وسوف تظهر الحاشية السفلية في أسفل الصفحة.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// قم بإدراج المزيد من النص ووضع علامة عليه بتعليق ختامي بعلامة مرجعية مخصصة،
-// والذي سيتم استخدامه بدلاً من الرقم "2" وضبط "IsAuto" على "خطأ".
+// أدخل المزيد من النص وقم بتمييزه بملاحظة ختامية باستخدام علامة مرجعية مخصصة،
+// والتي سيتم استخدامها بدلاً من الرقم "2" وتعيين "IsAuto" إلى false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// تظهر الحواشي السفلية دائمًا أسفل النص المشار إليه،
-// لذلك لن يؤثر فاصل الصفحات هذا على الحاشية السفلية.
-// ومن ناحية أخرى، تكون التعليقات الختامية دائمًا في نهاية المستند
-// بحيث يؤدي فاصل الصفحة هذا إلى دفع التعليق الختامي إلى الصفحة التالية.
+// تظهر الحواشي دائمًا في أسفل النص المرجعي الخاص بها،
+// لذا فإن كسر هذه الصفحة لن يؤثر على الحاشية السفلية.
+// من ناحية أخرى، تكون الحواشي الختامية دائمًا في نهاية المستند
+// بحيث يؤدي كسر هذه الصفحة إلى دفع الحاشية السفلية إلى الصفحة التالية.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 
 ## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
-إدراج حاشية سفلية أو تعليق ختامي في المستند.
+يقوم بإدراج حاشية سفلية أو تعليق ختامي في المستند.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, string referenceMark)
@@ -73,9 +73,9 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| footnoteType | FootnoteType | يحدد ما إذا كان سيتم إدراج حاشية سفلية أو تعليق ختامي. |
+| footnoteType | FootnoteType | يحدد ما إذا كان سيتم إدراج حاشية سفلية أو حاشية نهائية. |
 | footnoteText | String | يحدد نص الحاشية السفلية. |
-| referenceMark | String | يحدد العلامة المرجعية المخصصة للحاشية السفلية. |
+| referenceMark | String | يحدد علامة المرجع المخصصة للحاشية السفلية. |
 
 ### قيمة الإرجاع
 
@@ -83,27 +83,27 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 ## أمثلة
 
-يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
+يوضح كيفية الإشارة إلى النص باستخدام الحاشية السفلية والحاشية الختامية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج بعض النص ووضع علامة عليه باستخدام حاشية سفلية مع تعيين الخاصية IsAuto على "صحيح" افتراضيًا،
-// لذلك سيتم ترقيم العلامة الموجودة في النص الأساسي تلقائيًا عند "1"،
-// وستظهر الحاشية السفلية في أسفل الصفحة.
+// أدخل بعض النص وقم بتمييزه بحاشية سفلية مع تعيين الخاصية IsAuto على "true" بشكل افتراضي،
+// لذلك سيتم ترقيم العلامة الظاهرة في نص الموضوع تلقائيًا عند "1"،
+//وسوف تظهر الحاشية السفلية في أسفل الصفحة.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// قم بإدراج المزيد من النص ووضع علامة عليه بتعليق ختامي بعلامة مرجعية مخصصة،
-// والذي سيتم استخدامه بدلاً من الرقم "2" وضبط "IsAuto" على "خطأ".
+// أدخل المزيد من النص وقم بتمييزه بملاحظة ختامية باستخدام علامة مرجعية مخصصة،
+// والتي سيتم استخدامها بدلاً من الرقم "2" وتعيين "IsAuto" إلى false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// تظهر الحواشي السفلية دائمًا أسفل النص المشار إليه،
-// لذلك لن يؤثر فاصل الصفحات هذا على الحاشية السفلية.
-// ومن ناحية أخرى، تكون التعليقات الختامية دائمًا في نهاية المستند
-// بحيث يؤدي فاصل الصفحة هذا إلى دفع التعليق الختامي إلى الصفحة التالية.
+// تظهر الحواشي دائمًا في أسفل النص المرجعي الخاص بها،
+// لذا فإن كسر هذه الصفحة لن يؤثر على الحاشية السفلية.
+// من ناحية أخرى، تكون الحواشي الختامية دائمًا في نهاية المستند
+// بحيث يؤدي كسر هذه الصفحة إلى دفع الحاشية السفلية إلى الصفحة التالية.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");

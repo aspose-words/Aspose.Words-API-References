@@ -2,15 +2,15 @@
 title: BorderCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: BorderCollection GetEnumerator yöntem. Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Tüm sınırlar arasında kolayca yineleme yapmak, kodlama verimliliğinizi ve koleksiyon yönetiminizi artırmak için BorderCollection GetEnumerator metodunu keşfedin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+Koleksiyondaki tüm sınırlar üzerinde yineleme yapmak için kullanılabilecek bir numaratör nesnesi döndürür.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -18,13 +18,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ## Örnekler
 
-Bir paragraf formatı nesnesindeki tüm kenarlıkların nasıl yineleneceğini ve düzenleneceğini gösterir.
+Bir paragraf biçim nesnesindeki tüm kenarlıklar üzerinde nasıl yineleme yapılacağını ve bunların nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Her tarafta yeşil dalga kenarlığı oluşturmak için oluşturucunun paragraf formatı ayarlarını yapılandırın.
+// Oluşturucunun paragraf biçimi ayarlarını, her tarafta yeşil dalgalı bir kenarlık oluşturacak şekilde yapılandırın.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())

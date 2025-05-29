@@ -3,14 +3,14 @@ title: ParagraphFormat.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
 second_title: Aspose.Words för .NET
-description: ParagraphFormat SpaceAfter fast egendom. Hämtar eller ställer in mängden mellanrum i poäng efter stycket i C#.
+description: Styr styckeavståndet med egenskapen SpaceAfter. Justera enkelt avståndet i punkter för att förbättra dokumentets läsbarhet och presentation.
 type: docs
-weight: 300
+weight: 310
 url: /sv/net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
 
-Hämtar eller ställer in mängden mellanrum (i poäng) efter stycket.
+Hämtar eller anger avståndet (i punkter) efter stycket.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -20,13 +20,13 @@ public double SpaceAfter { get; set; }
 
 | undantag | skick |
 | --- | --- |
-| ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
+| ArgumentOutOfRangeException | Kasta ett värde när argumentet låg utanför intervallet för giltiga värden. |
 
 ## Anmärkningar
 
-Har ingen effekt när[`SpaceAfterAuto`](../spaceafterauto/) är`Sann`.
+Har ingen effekt när[`SpaceAfterAuto`](../spaceafterauto/) är`sann`.
 
-Giltiga värden sträcker sig från 0 till 1584 inklusive.
+Giltiga värden sträcker sig från 0 till 1584.
 
 ## Exempel
 
@@ -36,37 +36,37 @@ Visar hur man ställer in automatiskt styckeavstånd.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en stor mängd mellanrum före och efter stycken som den här byggaren kommer att skapa.
+// Använd en stor mängd avstånd före och efter stycken som den här verktygsbyggaren kommer att skapa.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Ställ in dessa flaggor på "true" för att tillämpa automatiskt mellanrum,
-// ignorerar effektivt avståndet i egenskaperna vi ställt in ovan.
-// Lämna dem som "false" kommer att tillämpa vårt anpassade styckeavstånd.
+// Sätt dessa flaggor till "true" för att tillämpa automatiskt avstånd,
+// ignorerar effektivt avståndet i egenskaperna vi angav ovan.
+// Om du lämnar dem som "falskt" tillämpas vårt anpassade styckeavstånd.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Infoga två stycken som kommer att ha mellanrum ovanför och under dem och spara dokumentet.
+// Infoga två stycken med mellanrum ovanför och nedanför och spara dokumentet.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Visar hur man inte använder mellanrum mellan stycken med samma stil.
+Visar hur man använder avståndsfria stycken med samma stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en stor mängd mellanrum före och efter stycken som den här byggaren kommer att skapa.
+// Använd en stor mängd avstånd före och efter stycken som den här verktygsbyggaren kommer att skapa.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Ställ in "NoSpaceBetweenParagraphsOfSameStyle"-flaggan till "true" för att tillämpa
-// inget mellanrum mellan stycken med samma stil, vilket kommer att gruppera liknande stycken.
+// Sätt flaggan "NoSpaceBetweenParagraphsOfSameStyle" till "true" för att tillämpa
+// inget mellanrum mellan stycken med samma stil, vilket grupperar liknande stycken.
 // Lämna flaggan "NoSpaceBetweenParagraphsOfSameStyle" som "false"
-// för att jämnt tillämpa mellanrum på varje stycke.
+// för att tillämpa jämnt avstånd i varje stycke.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

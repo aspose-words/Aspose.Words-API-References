@@ -3,14 +3,14 @@ title: ParagraphFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للفقرة في C#.
+description: اكتشف خاصية التظليل في ParagraphFormat لتحسين تنسيق النص. استخدم خاصية التظليل لتحسين مظهر فقرتك بصريًا بسهولة.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-إرجاع أ[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل للفقرة.
+يعيد[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل للفقرة.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();

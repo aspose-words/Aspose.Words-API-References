@@ -3,7 +3,7 @@ title: RevisionGroupCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: RevisionGroupCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück in C#.
+description: Entdecken Sie die GetEnumerator-Methode von RevisionGroupCollection – rufen Sie Enumerator-Objekte effizient ab, um die Datenverwaltung zu optimieren und die Leistung zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words/revisiongroupcollection/getenumerator/
@@ -24,11 +24,11 @@ Zeigt, wie mit der Revisionssammlung eines Dokuments gearbeitet wird.
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Diese Sammlung selbst verfügt über eine Sammlung von Revisionsgruppen.
+// Diese Sammlung selbst enthält eine Sammlung von Revisionsgruppen.
 // Jede Gruppe ist eine Folge benachbarter Revisionen.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Durchlaufen Sie die Sammlung von Gruppen und geben Sie den Text aus, den die Überarbeitung betrifft.
+// Durchlaufen Sie die Sammlung von Gruppen und drucken Sie den Text, der von der Revision betroffen ist.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -38,18 +38,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Jeder Lauf, auf den sich eine Revision auswirkt, erhält ein entsprechendes Revisionsobjekt.
-// Die Sammlung der Revisionen ist erheblich größer als die oben gedruckte komprimierte Form.
-// abhängig davon, in wie viele Durchläufe wir das Dokument während der Microsoft Word-Bearbeitung segmentiert haben.
+// Jeder Lauf, der von einer Revision betroffen ist, erhält ein entsprechendes Revisionsobjekt.
+// Die Sammlung der Revisionen ist erheblich umfangreicher als die oben abgedruckte Kurzfassung.
+// abhängig davon, in wie viele Läufe wir das Dokument während der Bearbeitung in Microsoft Word segmentiert haben.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // Ein StyleDefinitionChange wirkt sich ausschließlich auf Stile und nicht auf Dokumentknoten aus. Dies bedeutet den „ParentStyle“
-        //-Eigenschaft wird immer verwendet, während der ParentNode immer null ist.
-        // Da sich alle anderen Änderungen auf Knoten auswirken, wird umgekehrt ParentNode verwendet und ParentStyle ist null.
+        // Ein StyleDefinitionChange betrifft ausschließlich Stile und nicht Dokumentknoten. Dies bedeutet, dass der "ParentStyle"
+        // Die Eigenschaft wird immer verwendet, während ParentNode immer null ist.
+        // Da alle anderen Änderungen Knoten betreffen, wird ParentNode umgekehrt verwendet und ParentStyle ist null.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -63,7 +63,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Alle Überarbeitungen über die Sammlung ablehnen und das Dokument in seine ursprüngliche Form zurückversetzen.
+// Alle Revisionen über die Sammlung ablehnen und das Dokument in seine ursprüngliche Form zurückversetzen.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

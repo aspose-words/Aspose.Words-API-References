@@ -3,7 +3,7 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words для .NET
-description: BorderCollection LineStyle свойство. Получает или задает стиль границы на С#.
+description: Откройте для себя свойство BorderCollection LineStyle, чтобы настроить свой дизайн с помощью гибких стилей границ. Улучшите визуальную привлекательность вашего проекта без усилий!
 type: docs
 weight: 80
 url: /ru/net/aspose.words/bordercollection/linestyle/

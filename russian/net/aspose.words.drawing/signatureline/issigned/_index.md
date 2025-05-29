@@ -3,7 +3,7 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words для .NET
-description: SignatureLine IsSigned свойство. Указывает что строка подписи подписана цифровой подписью на С#.
+description: Узнайте, как свойство SignatureLine IsSigned подтверждает подлинность цифровой подписи, обеспечивая безопасные и надежные транзакции. Повысьте целостность вашего документа!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/signatureline/issigned/
@@ -18,7 +18,7 @@ public bool IsSigned { get; }
 
 ## Примеры
 
-Показывает, как подписать документ личным удостоверением и строкой подписи.
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
 
 ```csharp
 Document doc = new Document();
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указываем, что строка подписи содержит подпись.
+// Повторно откройте наш сохраненный документ и убедитесь, что свойства «IsSigned» и «IsValid» равны «true»,
+// указывая, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

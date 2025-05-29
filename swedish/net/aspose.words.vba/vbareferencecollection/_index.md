@@ -3,9 +3,9 @@ title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Vba.VbaReferenceCollection klass. Representerar en samling avVbaReference objekt i C#.
+description: Utforska klassen Aspose.Words.Vba.VbaReferenceCollection, ett kraftfullt verktyg för att effektivt hantera VbaReference-objekt i dina projekt.
 type: docs
-weight: 6600
+weight: 7450
 url: /sv/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
@@ -23,13 +23,13 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | Returnerar antalet VBA-referenser i samlingen. |
-| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | Blir[`VbaReference`](../vbareference/) objekt vid angivet index. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | Får[`VbaReference`](../vbareference/) objekt vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Tar bort den första förekomsten av en angiven[`VbaReference`](../vbareference/) föremål från samlingen. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Tar bort den första förekomsten av en specifik[`VbaReference`](../vbareference/) föremål från samlingen. |
 | [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Tar bort[`VbaReference`](../vbareference/) element vid det angivna indexet för samlingen. |
 
 ## Exempel
@@ -62,7 +62,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
+ /// Returnerar strängen som representerar LibId-sökvägen för en specificerad referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -80,7 +80,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -95,7 +95,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

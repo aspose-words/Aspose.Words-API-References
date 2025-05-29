@@ -3,9 +3,9 @@ title: StructuredDocumentTag.SetCheckedSymbol
 linktitle: SetCheckedSymbol
 articleTitle: SetCheckedSymbol
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTag SetCheckedSymbol méthode. Définit le symbole utilisé pour représenter létat coché dun contrôle de contenu de case à cocher en C#.
+description: Découvrez comment utiliser la méthode SetCheckedSymbol dans StructuredDocumentTag pour personnaliser les visuels des cases à cocher et améliorer l'expérience utilisateur.
 type: docs
-weight: 360
+weight: 380
 url: /fr/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
@@ -19,26 +19,26 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | characterCode | Int32 | Le code de caractère pour le symbole spécifié. |
-| fontName | String | Nom de la police qui contient le symbole. |
+| fontName | String | Le nom de la police qui contient le symbole. |
 
 ## Remarques
 
-L'accès à cette méthode ne fonctionnera que pourCheckbox Types SDT.
+L'accès à cette méthode ne fonctionnera que pourCheckbox Types de SDT.
 
 Pour tous les autres types de SDT, une exception se produira.
 
 ## Exemples
 
-Montrez comment créer une balise de document structuré sous la forme d'une case à cocher.
+Montrez comment créer une balise de document structurée sous la forme d'une case à cocher.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Nous pouvons définir les symboles utilisés pour représenter l'état coché/non coché d'un contrôle de contenu de case à cocher.
+// Nous pouvons définir les symboles utilisés pour représenter l'état coché/décoché d'un contrôle de contenu de case à cocher.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

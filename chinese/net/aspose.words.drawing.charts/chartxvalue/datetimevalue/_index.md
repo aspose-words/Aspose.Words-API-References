@@ -2,8 +2,8 @@
 title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue DateTimeValue 财产. 获取存储的日期时间值 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartXValue DateTimeValue 属性，轻松检索和管理存储的日期时间值，以增强数据可视化。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/

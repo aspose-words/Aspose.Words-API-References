@@ -3,14 +3,14 @@ title: IFieldUpdatingCallback.FieldUpdating
 linktitle: FieldUpdating
 articleTitle: FieldUpdating
 second_title: Aspose.Words لـ .NET
-description: IFieldUpdatingCallback FieldUpdating طريقة. طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة في C#.
+description: اكتشف طريقة IFieldUpdatingCallback—الحل الخاص بك لتحديثات الحقول المخصصة، مما يضمن الدقة والتحكم في إدارة البيانات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة.
+طريقة محددة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -18,7 +18,7 @@ public void FieldUpdating(Field field)
 
 ## أمثلة
 
-يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
+يوضح كيفية استخدام طرق الاتصال الرجعي أثناء تحديث الحقل.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
+/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طرقك المخصصة أثناء تحديث الحقل.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

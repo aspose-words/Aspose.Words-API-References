@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words för .NET
-description: DocumentPropertyCollection IndexOf metod. Hämtar indexet för en egenskap efter namn i C#.
+description: Upptäck DocumentPropertyCollection IndexOf-metoden för att effektivt hitta indexet för en egenskap med hjälp av dess namn. Öka din kodningsproduktivitet idag!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(string name)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Egendomens namn som inte är skiftlägeskänsligt. |
+| name | String | Egenskapens namn som inte är skiftlägeskänsligt. |
 
 ### Returvärde
 
@@ -34,7 +34,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Anpassade dokumentegenskaper är nyckel-värdepar som vi kan lägga till i dokumentet.
+// Anpassade dokumentegenskaper är nyckel-värde-par som vi kan lägga till i dokumentet.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -52,18 +52,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Visa värdet för en anpassad egenskap med ett DOCPROPERTY-fält.
+// Visa värdet för en anpassad egenskap med hjälp av ett DOCPROPERTY-fält.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Vi kan hitta dessa anpassade egenskaper i Microsoft Word via "File" -> "Egenskaper" > "Avancerade egenskaper" > "Beställnings".
+// Vi hittar dessa anpassade egenskaper i Microsoft Word via "Arkiv" -> "Egenskaper" > "Avancerade egenskaper" > "Anpassad".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nedan finns tre sätt att ta bort anpassade egenskaper från ett dokument.
-// 1 - Ta bort efter index:
+// Nedan följer tre sätt att ta bort anpassade egenskaper från ett dokument.
+// 1 - Ta bort via index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));

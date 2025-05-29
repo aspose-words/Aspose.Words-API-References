@@ -2,8 +2,8 @@
 title: NodeChangingArgs.Node
 linktitle: Node
 articleTitle: Node
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeChangingArgs Node 财产. 获取Node正在添加或删除 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 NodeChangingArgs 属性，轻松管理应用程序中节点的添加或删除。立即简化您的工作流程！
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodechangingargs/node/
@@ -18,7 +18,7 @@ public Node Node { get; }
 
 ## 例子
 
-展示如何通过回调自定义节点更改。
+展示如何使用回调自定义节点变化。
 
 ```csharp
 public void FontChangeViaCallback()
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

@@ -3,7 +3,7 @@ title: Metered
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words för .NET
-description: Metered byggare. Initierar en ny instans av den här klassen i C#.
+description: Upptäck vår mätkonstruktor för effektiv instansinitiering. Effektivisera din kodningsprocess med optimerad prestanda och förbättrad funktionalitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/metered/metered/
@@ -18,13 +18,15 @@ public Metered()
 
 ## Exempel
 
-Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
+Visar hur man aktiverar en mätt licens och spårar kredit/förbrukning.
 
 ```csharp
-// Skapa en ny Metered-licens och skriv sedan ut dess användningsstatistik.
+// Skapa en ny mätt licens och skriv sedan ut dess användningsstatistik.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -33,7 +35,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
 // Aspose Metered Licensing-mekanism skickar inte användningsdata till köpservern varje gång,
-// du måste använda väntande.
+// du måste använda väntan.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

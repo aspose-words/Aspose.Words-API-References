@@ -3,14 +3,14 @@ title: PageSetup.LineNumberRestartMode
 linktitle: LineNumberRestartMode
 articleTitle: LineNumberRestartMode
 second_title: Aspose.Words für .NET
-description: PageSetup LineNumberRestartMode eigendom. Ruft ab oder legt fest wie die Zeilennummerierung ausgeführt wird d. h. ob sie am Anfang einer neuen Seite oder eines neuen Abschnitts neu beginnt oder fortlaufend ausgeführt wird in C#.
+description: Entdecken Sie die Eigenschaft „PageSetup LineNumberRestartMode“ zur Steuerung der Zeilennummerierung – wählen Sie zwischen Neustart auf neuen Seiten oder fortlaufender Nummerierung für nahtlose Dokumente.
 type: docs
 weight: 230
 url: /de/net/aspose.words/pagesetup/linenumberrestartmode/
 ---
 ## PageSetup.LineNumberRestartMode property
 
-Ruft ab oder legt fest, wie die Zeilennummerierung ausgeführt wird, d. h. ob sie am Anfang einer neuen Seite oder eines neuen Abschnitts neu beginnt oder fortlaufend ausgeführt wird.
+Ruft die Art und Weise ab, in der die Zeilennummerierung ausgeführt wird, d. h., ob sie am Anfang einer neuen Seite oder eines neuen Abschnitts neu beginnt oder kontinuierlich ausgeführt wird.
 
 ```csharp
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
@@ -25,10 +25,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wir können das PageSetup-Objekt des Abschnitts verwenden, um Zahlen links von den Textzeilen des Abschnitts anzuzeigen.
-// Dies ist das gleiche Verhalten wie bei einem Listenobjekt.
-// aber es deckt den gesamten Abschnitt ab und verändert den Text in keiner Weise.
-// Unser Abschnitt startet die Nummerierung auf jeder neuen Seite von 1 an und zeigt die Nummer an,
-// wenn es ein Vielfaches von 3 ist, bei 50pt links von der Linie.
+// Dies ist das gleiche Verhalten wie bei einem List-Objekt.
+// aber es deckt den gesamten Abschnitt ab und ändert den Text in keiner Weise.
+// Unser Abschnitt beginnt die Nummerierung auf jeder neuen Seite wieder bei 1 und zeigt die Nummer an,
+// wenn es ein Vielfaches von 3 ist, 50pt links von der Zeile.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -38,10 +38,10 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// Der Zeilenzähler überspringt jeden Absatz, bei dem das Flag „SuppressLineNumbers“ auf „true“ gesetzt ist.
-// Dieser Absatz befindet sich in der 15. Zeile, was ein Vielfaches von 3 ist, und würde daher normalerweise eine Zeilennummer anzeigen.
-// Der Zeilenzähler des Abschnitts ignoriert diese Zeile ebenfalls und behandelt die nächste Zeile als 15.
-// und die Zählung von diesem Punkt an fortsetzen.
+// Der Zeilenzähler überspringt alle Absätze, bei denen das Flag „SuppressLineNumbers“ auf „true“ gesetzt ist.
+// Dieser Absatz steht in der 15. Zeile, die ein Vielfaches von 3 ist, und würde daher normalerweise eine Zeilennummer anzeigen.
+// Der Zeilenzähler des Abschnitts ignoriert diese Zeile ebenfalls und behandelt die nächste Zeile als die 15.
+// und von diesem Punkt an weiter zählen.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 
 doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");

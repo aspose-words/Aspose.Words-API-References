@@ -3,14 +3,14 @@ title: XpsSaveOptions
 linktitle: XpsSaveOptions
 articleTitle: XpsSaveOptions
 second_title: Aspose.Words для .NET
-description: XpsSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вXps формат на С#.
+description: Откройте для себя конструктор XpsSaveOptions, который позволит легко создавать экземпляры для сохранения документов в формате XPS, повышая эффективность управления документами.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вXps формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXps формат.
 
 ```csharp
 public XpsSaveOptions()
@@ -24,7 +24,7 @@ public XpsSaveOptions()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем заголовки, которые могут служить записями оглавления уровней 1, 2, а затем 3.
+// Вставьте заголовки, которые могут служить записями оглавления уровней 1, 2 и 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -41,15 +41,15 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// Создаем объект «XpsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в документ .XPS.
+// Создаем объект "XpsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// Выходной документ XPS будет содержать структуру, оглавление, в котором перечислены заголовки в теле документа.
-// Нажатие на запись в этом контуре приведет нас к местоположению соответствующего заголовка.
-// Установите для свойства «HeadingsOutlineLevels» значение «2», чтобы исключить из структуры все заголовки, уровни которых выше 2.
+// Выходной документ XPS будет содержать структуру, оглавление, в котором перечислены заголовки в тексте документа.
+// Нажатие на запись в этой схеме перенесет нас к местоположению соответствующего заголовка.
+// Установите свойство "HeadingsOutlineLevels" на "2", чтобы исключить из структуры все заголовки, уровни которых выше 2.
 // Последние два заголовка, которые мы вставили выше, не появятся.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вXps илиOpenXps формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXps илиOpenXps формат.
 
 ```csharp
 public XpsSaveOptions(SaveFormat saveFormat)
@@ -74,30 +74,30 @@ public XpsSaveOptions(SaveFormat saveFormat)
 
 ## Примеры
 
-Показывает, как сохранить документ в формате XPS в виде сгиба книги.
+Показывает, как сохранить документ в формате XPS в виде книжного сгиба.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Создаем объект «XpsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в документ .XPS.
+// Создаем объект "XpsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions(SaveFormat.Xps);
 
-// Установите для свойства UseBookFoldPrintingSettings значение «true», чтобы упорядочить содержимое
-// в выходном файле XPS таким образом, чтобы его можно было использовать для создания буклета.
-// Установите для свойства UseBookFoldPrintingSettings значение «false», чтобы нормально отображать XPS.
+// Установите свойство "UseBookFoldPrintingSettings" в значение "true", чтобы упорядочить содержимое
+// в выходном XPS-файле таким образом, чтобы его можно было использовать для создания буклета.
+// Установите свойство «UseBookFoldPrintingSettings» в значение «false» для обычной визуализации XPS.
 xpsOptions.UseBookFoldPrintingSettings = renderTextAsBookFold;
 
-// Если мы отображаем документ как буклет, мы должны установить «MultiplePages»
-// свойства объектов настройки страницы всех разделов равны "MultiplePagesType.BookFoldPrinting".
+// Если мы визуализируем документ как брошюру, мы должны установить "MultiplePages"
+// свойства объектов настройки страницы всех разделов на "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookFold)
     foreach (Section s in doc.Sections)
     {
         s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
     }
 
-// Распечатав этот документ, мы можем превратить его в буклет, сложив страницы стопкой
-// выйти из принтера и сложить посередине.
+// После того, как мы распечатаем этот документ, мы можем превратить его в брошюру, сложив страницы
+// чтобы вынуть из принтера и сложить пополам.
 doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 

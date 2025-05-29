@@ -3,9 +3,9 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontFamily enumeración. Representa la familia de fuentes en C#.
+description: Descubra la enumeración Aspose.Words.Fonts.FontFamily: su clave para administrar diversas familias de fuentes sin esfuerzo para mejorar el estilo y el formato de los documentos.
 type: docs
-weight: 2910
+weight: 3340
 url: /es/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -20,16 +20,16 @@ public enum FontFamily
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Auto | `0` | Especifica un apellido genérico. Este nombre se utiliza cuando la información sobre una fuente no existe o no importa. Se utiliza la fuente predeterminada. |
+| Auto | `0` | Especifica un nombre de familia genérico. Este nombre se utiliza cuando la información sobre una fuente no existe o no es relevante. Se utiliza la fuente predeterminada. |
 | Roman | `1` | Especifica una fuente proporcional con serifas. Un ejemplo es Times New Roman. |
 | Swiss | `2` | Especifica una fuente proporcional sin serifas. Un ejemplo es Arial. |
-| Modern | `3` | Especifica una fuente monoespaciada con o sin serifas. Las fuentes monoespaciadas suelen ser modernas; los ejemplos incluyen Pica, Elite y Courier New. |
-| Script | `4` | Especifica una fuente diseñada para parecerse a escritura a mano; los ejemplos incluyen escritura y cursiva. |
-| Decorative | `5` | Especifica una fuente novedosa. Un ejemplo es el inglés antiguo. |
+| Modern | `3` | Especifica una fuente monoespaciada con o sin serifas. Las fuentes monoespaciadas suelen ser modernas; por ejemplo, Pica, Elite y Courier New. |
+| Script | `4` | Especifica una fuente diseñada para parecerse a una escritura a mano; algunos ejemplos incluyen Script y Cursive. |
+| Decorative | `5` | Especifica una fuente novedosa. Un ejemplo es inglés antiguo. |
 
 ## Observaciones
 
-Una familia de fuentes es un conjunto de fuentes que tienen características serif y ancho de trazo comunes.
+Una familia de fuentes es un conjunto de fuentes que tienen un ancho de trazo y características serif comunes.
 
 ## Ejemplos
 
@@ -46,7 +46,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Los nombres alternativos suelen estar en blanco.
+        // Los nombres Alt normalmente están en blanco.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

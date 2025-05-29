@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 articleTitle: ErrorCorrectionLevel
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode ErrorCorrectionLevel propiedad. Obtiene o establece un nivel de corrección de errores del código QR. Los valores válidos son 0 3 en C#.
+description: Descubra la propiedad FieldMergeBarcode ErrorCorrectionLevel para optimizar la fiabilidad de su código QR. Configure valores de 0 a 3 para una mejor corrección de errores.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 ---
 ## FieldMergeBarcode.ErrorCorrectionLevel property
 
-Obtiene o establece un nivel de corrección de errores del código QR. Los valores válidos son [0, 3].
+Obtiene o establece el nivel de corrección de errores del código QR. Los valores válidos son [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -30,7 +30,7 @@ FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.Field
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Aplicar colores y escalas personalizados.
+// Aplicar colores y escala personalizados.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -43,8 +43,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código QR con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

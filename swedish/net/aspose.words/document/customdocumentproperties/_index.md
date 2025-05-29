@@ -3,9 +3,9 @@ title: Document.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words för .NET
-description: Document CustomDocumentProperties fast egendom. Returnerar en samling som representerar alla anpassade dokumentegenskaper för dokumentet i C#.
+description: Utforska egenskapen CustomDocumentProperties för att komma åt och hantera alla anpassade dokumentegenskaper effektivt, vilket förbättrar dokumentets funktionalitet.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
@@ -23,7 +23,7 @@ Visar hur man arbetar med inbyggda dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Dokument"-objektet innehåller en del av dess metadata i sina medlemmar.
+// Objektet "Dokument" innehåller en del av dess metadata i sina medlemmar.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Dokumentet lagrar även metadata i sina inbyggda egenskaper.

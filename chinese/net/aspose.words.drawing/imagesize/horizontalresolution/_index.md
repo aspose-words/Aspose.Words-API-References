@@ -2,15 +2,15 @@
 title: ImageSize.HorizontalResolution
 linktitle: HorizontalResolution
 articleTitle: HorizontalResolution
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSize HorizontalResolution 财产. 获取水平分辨率以 DPI 为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageSize HorizontalResolution 属性，轻松获取图像的 DPI，提高项目的质量和精度。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/imagesize/horizontalresolution/
 ---
 ## ImageSize.HorizontalResolution property
 
-获取水平分辨率（以 DPI 为单位）。
+获取 DPI 中的水平分辨率。
 
 ```csharp
 public double HorizontalResolution { get; }
@@ -18,18 +18,18 @@ public double HorizontalResolution { get; }
 
 ## 例子
 
-演示如何读取形状中图像的属性。
+展示如何读取形状中图像的属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将一个形状插入到文档中，其中包含从本地文件系统获取的图像。
+// 将包含从我们的本地文件系统获取的图像的形状插入到文档中。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// 如果形状包含图像，则其 ImageData 属性将有效，
+// 如果形状包含图像，其 ImageData 属性将有效，
 // 它将包含一个 ImageSize 对象。
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // ImageSize 对象包含有关形状内图像的只读信息。
 Assert.AreEqual(400, imageSize.HeightPixels);

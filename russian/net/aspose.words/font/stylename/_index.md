@@ -3,14 +3,14 @@ title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words для .NET
-description: Font StyleName свойство. Получает или задает имя стиля символов примененного к этому форматированию на С#.
+description: Откройте для себя свойство Font StyleName, легко управляйте стилями символов для улучшенного форматирования текста и гибкости дизайна в ваших проектах.
 type: docs
-weight: 420
+weight: 430
 url: /ru/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
 
-Получает или задает имя стиля символов, примененного к этому форматированию.
+Возвращает или задает имя стиля символа, примененного к данному форматированию.
 
 ```csharp
 public string StyleName { get; set; }
@@ -33,9 +33,9 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Преобразуем все варианты использования одного стиля в другой,
-// использование вышеуказанных методов для ссылки на старые и новые стили.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Преобразовать все использования одного стиля в другой,
+// используем вышеуказанные методы для ссылки на старые и новые стили.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

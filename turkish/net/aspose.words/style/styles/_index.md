@@ -2,15 +2,15 @@
 title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
-second_title: Aspose.Words for .NET
-description: Style Styles mülk. Bu stilin ait olduğu stillerin koleksiyonunu getirir C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızı benzersiz ve tutarlı bir estetikle zenginleştirerek özenle seçilmiş bir stil koleksiyonuna erişmek için Stil Stilleri özelliğini keşfedin.
 type: docs
-weight: 160
+weight: 190
 url: /tr/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-Bu stilin ait olduğu stillerin koleksiyonunu getirir.
+Bu stilin ait olduğu stil koleksiyonunu alır.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

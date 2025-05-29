@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToStructuredDocumentTag
 linktitle: MoveToStructuredDocumentTag
 articleTitle: MoveToStructuredDocumentTag
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder MoveToStructuredDocumentTag méthode. Déplace le curseur vers une balise de document structuré dans la section actuelle en C#.
+description: Naviguez sans effort vers les balises de documents structurés avec la méthode MoveToStructuredDocumentTag de DocumentBuilder, améliorant ainsi l'efficacité de l'édition de vos documents.
 type: docs
-weight: 580
+weight: 620
 url: /fr/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
 ## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
@@ -18,39 +18,39 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| structuredDocumentTagIndex | Int32 | L'index de la balise du document structuré vers laquelle se déplacer. |
-| characterIndex | Int32 | L'index du caractère à l'intérieur de la balise du document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise du document structuré. Utilisez -1 pour déplacer vers la fin de la balise du document structuré. Si la balise du document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, précisez -2. |
+| structuredDocumentTagIndex | Int32 | L'index de la balise de document structuré vers laquelle se déplacer. |
+| characterIndex | Int32 | Index du caractère à l'intérieur de la balise de document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise de document structuré. Utilisez -1 pour vous déplacer à la fin de la balise de document structuré. Si la balise de document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, spécifiez -2. |
 
 ## Remarques
 
-La navigation s'effectue à l'intérieur de l'histoire en cours de la section en cours. Autrement dit, si vous avez déplacé le curseur vers l'en-tête principal de la première section, alors*structuredDocumentTagIndex* a spécifié l'index de la balise du document structuré à l'intérieur de cet en-tête de cette section.
+La navigation s'effectue à l'intérieur de l'article courant de la section courante. Autrement dit, si vous déplacez le curseur sur l'en-tête principal de la première section,*structuredDocumentTagIndex* a spécifié l'index de la balise de document structuré à l'intérieur de cet en-tête de cette section.
 
-Quand*structuredDocumentTagIndex* est supérieur ou égal à 0, il spécifie un index dès le début de la section, 0 étant la première balise du document structuré. Quand *structuredDocumentTagIndex* est inférieur à 0, il a spécifié un index à partir de la fin de la section , -1 étant la dernière balise du document structuré.
+Quand*structuredDocumentTagIndex* Si la valeur est supérieure ou égale à 0, elle spécifie un index à partir du début de la section, 0 étant la première balise de document structuré.*structuredDocumentTagIndex*est inférieur à 0, il a spécifié un index à partir de la fin de la section avec -1 étant la dernière balise de document structuré.
 
 ## Exemples
 
-Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
+Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structurée.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Il existe plusieurs manières de déplacer le curseur :
-// 1 - Passer au premier caractère de la balise du document structuré par index.
+// Il existe plusieurs façons de déplacer le curseur :
+// 1 - Déplacer vers le premier caractère de la balise de document structuré par index.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Passer au premier caractère de la balise du document structuré par objet.
+// 2 - Déplacer vers le premier caractère de la balise de document structuré par objet.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Passer à la fin de la deuxième balise du document structuré.
+// 3 - Déplacer vers la fin de la deuxième balise de document structuré.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// Récupère la balise du document structuré actuellement sélectionné.
+// Obtenir la balise de document structuré actuellement sélectionnée.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
@@ -75,33 +75,33 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| structuredDocumentTag | StructuredDocumentTag | Balise du document structuré vers laquelle se déplacer. |
-| characterIndex | Int32 | L'index du caractère à l'intérieur de la balise du document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise du document structuré. Utilisez -1 pour déplacer vers la fin de la balise du document structuré. Si la balise du document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, précisez -2. |
+| structuredDocumentTag | StructuredDocumentTag | La balise de document structuré vers laquelle se déplacer. |
+| characterIndex | Int32 | Index du caractère à l'intérieur de la balise de document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise de document structuré. Utilisez -1 pour vous déplacer à la fin de la balise de document structuré. Si la balise de document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, spécifiez -2. |
 
 ## Exemples
 
-Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
+Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structurée.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Il existe plusieurs manières de déplacer le curseur :
-// 1 - Passer au premier caractère de la balise du document structuré par index.
+// Il existe plusieurs façons de déplacer le curseur :
+// 1 - Déplacer vers le premier caractère de la balise de document structuré par index.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Passer au premier caractère de la balise du document structuré par objet.
+// 2 - Déplacer vers le premier caractère de la balise de document structuré par objet.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Passer à la fin de la deuxième balise du document structuré.
+// 3 - Déplacer vers la fin de la deuxième balise de document structuré.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// Récupère la balise du document structuré actuellement sélectionné.
+// Obtenir la balise de document structuré actuellement sélectionnée.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");

@@ -3,14 +3,14 @@ title: FieldIndex.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words для .NET
-description: FieldIndex LanguageId свойство. Получает или задает идентификатор языка используемый для создания индекса на С#.
+description: Откройте для себя свойство FieldIndex LanguageId, чтобы легко управлять идентификаторами языков для оптимизированной индексации. Расширьте свои возможности поиска сегодня!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldindex/languageid/
 ---
 ## FieldIndex.LanguageId property
 
-Получает или задает идентификатор языка, используемый для создания индекса.
+Возвращает или задает идентификатор языка, используемый для генерации индекса.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -24,10 +24,10 @@ public string LanguageId { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
+// Создайте поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
 // Каждая запись будет отображать значение свойства Text поля XE слева,
 // и номер страницы, содержащей поле XE справа.
-// Если поля XE имеют одинаковое значение в свойстве «Текст»,
+// Если поля XE имеют одинаковое значение в свойстве "Текст",
 // поле ИНДЕКС сгруппирует их в одну запись.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
@@ -36,16 +36,16 @@ index.LanguageId = "1033";
 // и поместите эту букву в верхнем регистре над каждой группой.
 index.Heading = "A";
 
-// Установите таблицу, созданную полем ИНДЕКС, на два столбца.
+// Задаем таблицу, созданную по полю INDEX, так, чтобы она охватывала 2 столбца.
 index.NumberOfColumns = "2";
 
-// Установить любые записи с начальными буквами за пределами диапазона символов «ac», которые будут опущены.
+// Устанавливает, что все записи, начинающиеся с букв, выходящих за пределы диапазона символов «ac», должны быть пропущены.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
 // Следующие два поля XE будут отображаться под заголовком «A»,
-// с соответствующими стилями текста, которые также применяются к номерам страниц.
+// с соответствующими стилями текста, также примененными к номерам страниц.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -60,7 +60,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Оба следующих двух поля XE будут находиться под заголовками «B» и «C» в таблице содержания полей INDEX.
+// Следующие два поля XE будут находиться под заголовками «B» и «C» в таблице содержания полей INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -74,8 +74,8 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Эта запись не появится, поскольку она начинается с буквы «D»,
-// который находится за пределами диапазона символов "ac", который определяет свойство LetterRange поля INDEX.
+// Эта запись не будет отображаться, так как она начинается с буквы «D»,
+// который находится за пределами диапазона символов «ac», определяемого свойством LetterRange поля INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

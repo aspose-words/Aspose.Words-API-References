@@ -3,7 +3,7 @@ title: SdtListItemCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words para .NET
-description: SdtListItemCollection RemoveAt método. Elimina un elemento de la lista en el índice especificado en C#.
+description: Elimine fácilmente un elemento de lista por índice con el método SdtListItemCollection RemoveAt. ¡Optimice la gestión de sus datos hoy mismo!
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,26 +18,26 @@ public void RemoveAt(int index)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice de base cero del elemento que se va a eliminar. |
+| index | Int32 | El índice basado en cero del elemento a eliminar. |
 
 ## Ejemplos
 
-Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
+Muestra cómo trabajar con etiquetas de documentos estructurados con listas desplegables.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Una etiqueta de documento estructurada con lista desplegable es un formulario que permite al usuario
+// Una etiqueta de documento estructurado de lista desplegable es un formulario que permite al usuario
 // seleccione una opción de una lista haciendo clic izquierdo y abriendo el formulario en Microsoft Word.
-// La propiedad "ListItems" contiene todos los elementos de la lista y cada elemento de la lista es un "SdtListItem".
+// La propiedad "ListItems" contiene todos los elementos de la lista, y cada elemento de la lista es un "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Agrega 3 elementos más a la lista. Inicialice estos elementos utilizando un constructor diferente al del primer elemento
+// Agregue 3 elementos más a la lista. Inicialice estos elementos con un constructor diferente al del primer elemento.
 // para mostrar cadenas que son diferentes de sus valores.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -45,12 +45,12 @@ listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// La lista desplegable muestra el primer elemento. Asigne un elemento de lista diferente al "SelectedValue" para mostrarlo.
+La lista desplegable muestra el primer elemento. Asigne un elemento diferente a "SelectedValue" para mostrarlo.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// Enumerar la colección e imprimir cada elemento.
+// Enumera la colección e imprime cada elemento.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -58,12 +58,12 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
- // Elimina el último elemento de la lista.
+ //Eliminar el último elemento de la lista.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Dado que nuestro control desplegable está configurado para mostrar el elemento eliminado de forma predeterminada, proporciónele un elemento para mostrar que exista.
+// Dado que nuestro control desplegable está configurado para mostrar el elemento eliminado de manera predeterminada, asígnele un elemento para mostrar que exista.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");

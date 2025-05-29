@@ -3,9 +3,9 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words für .NET
-description: DocumentBuilder Writeln methode. Fügt eine Zeichenfolge und einen Absatzumbruch in das Dokument ein in C#.
+description: Verbessern Sie Ihre Dokumente mühelos mit der Writeln-Methode von DocumentBuilder – fügen Sie nahtlos Text- und Absatzumbrüche ein, um die Lesbarkeit zu verbessern.
 type: docs
-weight: 660
+weight: 700
 url: /de/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
@@ -18,11 +18,11 @@ public void Writeln(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Die Zeichenfolge, die in das Dokument eingefügt werden soll. |
+| text | String | Die in das Dokument einzufügende Zeichenfolge. |
 
 ## Bemerkungen
 
-Aktuelle Schriftart und Absatzformatierung, die durch angegeben wird[`Font`](../font/) Und[`ParagraphFormat`](../paragraphformat/) Eigenschaften werden verwendet.
+Aktuelle Schriftart und Absatzformatierung, angegeben durch[`Font`](../font/) Und[`ParagraphFormat`](../paragraphformat/) Eigenschaften werden verwendet.
 
 ## Beispiele
 
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
+// Beim Erstellen der Tabelle wendet der Dokumentgenerator seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, sobald diese erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
+// Zuvor hinzugefügte Zeilen und Zellen werden durch Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -89,17 +89,17 @@ Anrufe[`InsertParagraph`](../insertparagraph/).
 
 ## Beispiele
 
-Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
+Zeigt, wie Sie mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geben Sie an, dass wir unterschiedliche Kopf- und Fußzeilen für die erste, gerade und ungerade Seite wünschen.
+// Geben Sie an, dass wir für die erste, die gerade und die ungerade Seite unterschiedliche Kopf- und Fußzeilen wünschen.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dem Dokument dann drei Seiten hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

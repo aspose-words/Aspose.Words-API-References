@@ -3,7 +3,7 @@ title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words pour .NET
-description: Table StyleIdentifier propriété. Obtient ou définit lidentifiant de style indépendant des paramètres régionaux du style de table appliqué à cette table en C#.
+description: Découvrez la propriété Table StyleIdentifier pour gérer facilement les styles de tableau indépendants des paramètres régionaux, améliorant ainsi la présentation de vos données sans effort.
 type: docs
 weight: 280
 url: /fr/net/aspose.words.tables/table/styleidentifier/
@@ -28,11 +28,11 @@ Table table = builder.StartTable();
 // Nous devons insérer au moins une ligne avant de définir un formatage de tableau.
 builder.InsertCell();
 
-// Définit le style de tableau utilisé en fonction de l'identifiant de style.
+// Définissez le style de tableau utilisé en fonction de l'identifiant de style.
 // Notez que tous les styles de tableau ne sont pas disponibles lors de l'enregistrement au format .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applique partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construit la table.
+// Appliquez partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis créez la table.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

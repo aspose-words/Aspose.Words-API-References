@@ -3,14 +3,14 @@ title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat HangingPunctuation ملكية. الحصول على علامة تشير إلى ما إذا كانت علامات الترقيم المعلقة ممكّنة للفقرة الحالية أو تعيينها في C#.
+description: اكتشف كيفية تحسين تصميم نصك باستخدام خاصية علامات الترقيم المعلقة في ParagraphFormat. حسّن سهولة القراءة والأسلوب بسهولة!
 type: docs
 weight: 130
 url: /ar/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-الحصول على علامة تشير إلى ما إذا كانت علامات الترقيم المعلقة ممكّنة للفقرة الحالية أو تعيينها.
+يحصل على علم أو يعينه للإشارة إلى ما إذا كان تم تمكين علامات الترقيم المعلقة للفقرة الحالية.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

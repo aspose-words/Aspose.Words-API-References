@@ -2,8 +2,8 @@
 title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: ImageSavingArgs Document mülk. Şu anda kaydedilmekte olan belge nesnesini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Kaydedilen geçerli belgeye erişmek için ImageSavingArgs Belge özelliğini keşfedin, böylece iş akışınızın verimliliğini artırın ve zamandan tasarruf edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/imagesavingargs/document/
@@ -18,15 +18,15 @@ public Document Document { get; }
 
 ## Örnekler
 
-Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
+Bir HTML dönüştürme işleminde görüntü kaydetme geri aramasının nasıl dahil edileceğini gösterir.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
-    // görüntü kaydetme işlemini özelleştirmek için.
+    // Belgeyi HTML'e kaydettiğimizde, bir geri arama belirtmek için bir SaveOptions nesnesi geçirebiliriz
+    // Görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Kaydetme işlemi yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
-/// bir belgenin HTML'ye aktarılması sırasında.
+/// Kaydetme işlemi görüntüyü yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
+/// Bir belgenin HTML'e aktarılması sırasında.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

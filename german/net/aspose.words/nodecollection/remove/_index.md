@@ -3,7 +3,7 @@ title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: NodeCollection Remove methode. Entfernt den Knoten aus der Sammlung und aus dem Dokument in C#.
+description: Entfernen Sie mühelos Knoten aus Ihrem Dokument mit der Methode „NodeCollection Remove“, wodurch Ihre Datenverwaltung optimiert und die Leistung verbessert wird.
 type: docs
 weight: 90
 url: /de/net/aspose.words/nodecollection/remove/
@@ -28,24 +28,24 @@ Zeigt, wie mit einer NodeCollection gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie dem Dokument Text hinzu, indem Sie Runs mit einem DocumentBuilder einfügen.
+// Fügen Sie dem Dokument Text hinzu, indem Sie mithilfe eines DocumentBuilder Runs einfügen.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Jeder Aufruf der Methode „Write“ erstellt einen neuen Run,
+// Jeder Aufruf der Methode "Write" erzeugt einen neuen Run,
 // die dann in der RunCollection des übergeordneten Absatzes erscheint.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Wir können einen Knoten auch manuell in die RunCollection einfügen.
+// Wir können auch manuell einen Knoten in die RunCollection einfügen.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Auf einzelne Läufe zugreifen und sie entfernen, um ihren Text aus dem Dokument zu entfernen.
+// Greifen Sie auf einzelne Läufe zu und entfernen Sie sie, um ihren Text aus dem Dokument zu entfernen.
 Run run = runs[1];
 runs.Remove(run);
 

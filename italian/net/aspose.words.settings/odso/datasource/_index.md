@@ -3,14 +3,14 @@ title: Odso.DataSource
 linktitle: DataSource
 articleTitle: DataSource
 second_title: Aspose.Words per .NET
-description: Odso DataSource proprietà. Specifica il percorso dellorigine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota in C#.
+description: Collega i tuoi documenti senza sforzo con Odso DataSource. Specifica facilmente fonti dati esterne per una stampa unione fluida. Inizia a ottimizzare il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odso/datasource/
 ---
 ## Odso.DataSource property
 
-Specifica il percorso dell'origine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota.
+Specifica la posizione dell'origine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string DataSource { get; set; }
@@ -18,7 +18,7 @@ public string DataSource { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

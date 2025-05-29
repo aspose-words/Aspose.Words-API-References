@@ -3,31 +3,33 @@ title: Aspose.Words.Shaping
 linktitle: Aspose.Words.Shaping
 articleTitle: Aspose.Words.Shaping
 second_title: Aspose.Words für .NET
-description: DieAspose.Words.Shaping Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenTypeFunktionen mithilfe externer TextformungsEngines in C#.
+description: Entdecken Sie Aspose.Words.Shaping für nahtlose OpenType-Unterstützung. Verbessern Sie Ihre Textdarstellung mit leistungsstarken externen Shaping-Engines für höchste Dokumentqualität.
 type: docs
-weight: 250
+weight: 270
 url: /de/net/aspose.words.shaping/
 ---
-Die**Aspose.Words.Shaping** Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenType-Funktionen mithilfe externer Textformungs-Engines.
+Die**Aspose.Wörter.Formen** Der Namespace enthält Klassen, die Unterstützung für OpenType-Funktionen mithilfe externer Textgestaltungs-Engines bieten.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [BasicTextShaperCache](./basictextshapercache/) | Implementiert den Basis-Cache für[`ITextShaper`](../aspose.words.shaping/itextshaper/) Instanzen. Diese Klasse ist threadsicher. |
-| [Cluster](./cluster/) | Kapselt Codepunkte und Glyphen, die ein Graphem bilden. |
+| [BasicTextShaperCache](./basictextshapercache/) | Implementiert Basis-Cache für[`ITextShaper`](../aspose.words.shaping/itextshaper/) Instanzen. Diese Klasse ist threadsicher. |
+| [Cluster](./cluster/) | Kapselt Codepunkte und Glyphen ein, die ein Graphem bilden. |
 | [Glyph](./glyph/) | Stellt eine Glyphe dar |
+| [VariationAxisCoordinate](./variationaxiscoordinate/) | Stellt eine Achsenkoordinate dar. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [ITextShaper](./itextshaper/) | Stellt Methoden zur Textgestaltung bereit. |
-| [ITextShaperFactory](./itextshaperfactory/) | Eine Schnittstelle einer Fabrik zum Konstruieren[`ITextShaper`](../aspose.words.shaping/itextshaper/) Implementierungen. |
+| [ITextShaper](./itextshaper/) | Bietet Methoden zur Textgestaltung. |
+| [ITextShaperFactory](./itextshaperfactory/) | Eine Schnittstelle einer Fabrik zum Bau[`ITextShaper`](../aspose.words.shaping/itextshaper/) Implementierungen. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
 | [Direction](./direction/) | Textrichtung. |
-| [FontFeature](./fontfeature/) | Funktionen bieten Informationen darüber, wie Glyphen in einer Schriftart zum Rendern eines Skripts verwendet werden. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
-| [ScriptShapingLevel](./scriptshapinglevel/) | Beschreibt die für ein Skript erforderlichen Formungsebenen. |
-| [UnicodeScript](./unicodescript/) | Eigenschaft der Unicode-Zeichendatenbank: Script (sc). |
+| [FontFeature](./fontfeature/) | Funktionen liefern Informationen darüber, wie Glyphen in einer Schriftart verwendet werden, um ein Skript darzustellen. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
+| [ScriptShapingLevel](./scriptshapinglevel/) | Beschreibt die von einem Skript benötigten Gestaltungsebenen. |
+| [UnicodeScript](./unicodescript/) | Unicode-Zeichendatenbankeigenschaft: Script (sc). |
+| [VariationAxis](./variationaxis/) | Steht für das OpenType Design-Variation Axis-Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |

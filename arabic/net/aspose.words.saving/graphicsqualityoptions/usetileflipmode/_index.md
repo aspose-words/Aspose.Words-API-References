@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words لـ .NET
-description: GraphicsQualityOptions UseTileFlipMode ملكية. الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها في C#.
+description: اكتشف خاصية GraphicsQualityOptions UseTileFlipMode للتحكم في إعدادات WrapMode لتحسين جودة الصورة في تطبيقاتك.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها.
+يحصل على علم يشير إلى ما إذا كان WrapMode هو TileFlipXY أو يعينه.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -18,11 +18,11 @@ public bool UseTileFlipMode { get; set; }
 
 ## ملاحظات
 
-الWrapMode يحدد كيفية تجانب المادة أو التدرج عندما يكون أصغر من المساحة التي يتم ملؤها.
+الWrapMode يحدد كيفية تبليط الملمس أو التدرج عندما يكون أصغر من المنطقة التي يتم ملؤها بمقدار x000d.
 
-حسب الاستخدامات الافتراضيةTile (يحدد التبليط دون التقليب). يؤدي هذا إلى عرض غير دقيق للصورة التي تم تغيير حجمها (بدقة عالية).
+يستخدم بشكل افتراضيTile (يحدد التبليط دون التقليب). يؤدي هذا إلى عرض غير دقيق للصورة المقاسة (بدقة عالية).
 
-تسمح هذه الخاصية بتبديل WrapMode إلىTileFlipXY (يحدد أنه يتم قلب المربعات أفقيًا أثناء تحركك على طول الصف وقلبها رأسيًا أثناء تحركك على طول عمود).
+تسمح هذه الخاصية بالتبديل إلى WrapModeTileFlipXY (يحدد أن البلاط يتم قلبه أفقيًا أثناء التحرك على طول الصف ويتم قلبه رأسيًا أثناء التحرك على طول العمود).
 
 ## أمثلة
 

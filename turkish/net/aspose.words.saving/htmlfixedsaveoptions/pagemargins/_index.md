@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions PageMargins mülk. Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur C#'da.
+second_title: .NET için Aspose.Words
+description: HTML belgenizin kenar boşluklarını özelleştirmek için HtmlFixedSaveOptions PageMargins özelliğini keşfedin. Hassas düzen kontrolü için değerleri noktalar halinde ayarlayın.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0'a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur.
+Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşluğu değeri puan olarak ölçülür ve 0'a eşit veya büyük olmalıdır. Varsayılan değer 10 puandır.
 
 ```csharp
 public double PageMargins { get; set; }
@@ -18,15 +18,15 @@ public double PageMargins { get; set; }
 
 ## Notlar
 
-Değerine bağlıdır[`PageHorizontalAlignment`](../pagehorizontalalignment/) mülk:
+Değerine bağlı[`PageHorizontalAlignment`](../pagehorizontalalignment/) mülk:
 
-* Değer şu şekildeyse üst, alt ve sol sayfa kenar boşluklarını tanımlar:Left .
-* Değer şu şekildeyse üst, alt ve sağ sayfa kenar boşluklarını tanımlarRight .
-* Değer şu şekildeyse üst ve alt sayfa kenar boşluklarını tanımlar:Center .
+* Değer şuysa üst, alt ve sol sayfa kenar boşluklarını tanımlar:Left .
+* Değer şuysa sayfanın üst, alt ve sağ kenar boşluklarını tanımlar:Right .
+* Değer şuysa üst ve alt sayfa kenar boşluklarını tanımlar:Center .
 
 ## Örnekler
 
-Bir belgeyi HTML'ye kaydederken sayfa kenar boşluklarının nasıl ayarlanacağını gösterir.
+Bir belgeyi HTML olarak kaydederken sayfa kenar boşluklarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

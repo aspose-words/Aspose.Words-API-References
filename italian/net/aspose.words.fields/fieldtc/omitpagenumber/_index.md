@@ -3,7 +3,7 @@ title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
 second_title: Aspose.Words per .NET
-description: FieldTC OmitPageNumber proprietà. Ottiene o imposta se il numero di pagina nel sommario deve essere omesso per questo campo in C#.
+description: Scopri la proprietà OmitPageNumber di FieldTC: controlla la visibilità del numero di pagina del sommario per una maggiore chiarezza e professionalità del documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## Esempi
 
-Mostra come inserire un campo TOC e filtrare quali campi TC finiscono come voci.
+Mostra come inserire un campo TOC e filtrare quali campi TC vengono visualizzati come voci.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci un campo TOC, che compilerà tutti i campi TC in un sommario.
+    // Inserire un campo TOC, che compilerà tutti i campi TC in un indice.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configura il campo solo per raccogliere le voci TC del tipo "A" e un livello di ingresso compreso tra 1 e 3.
+    // Configurare il campo solo per raccogliere voci TC di tipo "A" e un livello di voce compreso tra 1 e 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,10 +42,10 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Questa voce verrà omessa dalla tabella perché è di tipo diverso da "A".
+    // Questa voce verrà omessa dalla tabella perché ha un tipo diverso da "A".
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Questa voce verrà omessa dalla tabella perché ha un livello di voce esterno all'intervallo 1-3.
+    // Questa voce verrà omessa dalla tabella perché ha un livello di ingresso esterno all'intervallo 1-3.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();
@@ -53,7 +53,7 @@ public void FieldTocEntryIdentifier()
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo TC.
+/// Utilizzare un generatore di documenti per inserire un campo TC.
 /// </summary>
 public void InsertTocEntry(DocumentBuilder builder, string text, string typeIdentifier, string entryLevel)
 {

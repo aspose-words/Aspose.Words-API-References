@@ -3,7 +3,7 @@ title: DocumentProperty.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words para .NET
-description: DocumentProperty Type propiedad. Obtiene el tipo de datos de la propiedad en C#.
+description: Descubra el tipo DocumentProperty para recuperar y utilizar de manera eficiente tipos de datos de propiedad para una mejor gestión y automatización de documentos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.properties/documentproperty/type/
@@ -18,7 +18,7 @@ public PropertyType Type { get; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con propiedades de documentos integradas.
+Muestra cómo trabajar con propiedades de documento integradas.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
@@ -26,8 +26,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 // El objeto "Documento" contiene algunos de sus metadatos en sus miembros.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// El documento también almacena metadatos en sus propiedades integradas.
-// Cada propiedad integrada es miembro del objeto "BuiltInDocumentProperties" del documento.
+//El documento también almacena metadatos en sus propiedades integradas.
+// Cada propiedad incorporada es un miembro del objeto "BuiltInDocumentProperties" del documento.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
@@ -55,18 +55,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -80,10 +80,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 

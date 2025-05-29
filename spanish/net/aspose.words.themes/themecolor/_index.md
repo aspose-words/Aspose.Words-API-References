@@ -3,16 +3,16 @@ title: ThemeColor Enum
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Themes.ThemeColor enumeración. Especifica los colores del tema para los temas del documento en C#.
+description: Descubra la enumeración ThemeColor de Aspose.Words para personalizar los temas de los documentos con colores vibrantes, mejorando el atractivo visual y el profesionalismo de su documento.
 type: docs
-weight: 6470
+weight: 7320
 url: /es/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
 Especifica los colores del tema para los temas del documento.
 
-Para obtener más información, visite el[Trabajar con estilos y temas](https://docs.aspose.com/words/net/working-with-styles-and-themes/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con estilos y temas](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Artículo de documentación.
 
 ```csharp
 public enum ThemeColor
@@ -42,7 +42,7 @@ public enum ThemeColor
 
 ## Observaciones
 
-El color del tema especificado es una referencia a uno de los colores del tema predefinidos, ubicado en la parte Tema del documento , que permite establecer la información de color de forma centralizada en el documento.
+El color de tema especificado es una referencia a uno de los colores de tema predefinidos, ubicado en la parte Tema del documento, que permite que la información de color se configure de forma centralizada en el documento.
 
 ## Ejemplos
 
@@ -54,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea algún estilo con las propiedades de fuente del tema.
+// Crea algo de estilo con las propiedades de fuente del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -64,12 +64,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Muestra cómo trabajar con fuentes y colores de temas.
+Muestra cómo trabajar con fuentes y colores del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para los idiomas utilizados de forma predeterminada.
+// Define fuentes para los idiomas que se utilizan por defecto.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -77,7 +77,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
+//Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -100,7 +100,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Hay varias formas de restablecer la fuente y el color.
-// 1 - Configurando ThemeFont.None/ThemeColor.None:
+// 1 - Al configurar ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -122,7 +122,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Configurando nombres de fuentes/colores que no sean temas:
+// 2 - Al configurar nombres de fuentes y colores que no sean del tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

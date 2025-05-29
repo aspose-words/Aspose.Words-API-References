@@ -3,14 +3,14 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words für .NET
-description: ParagraphFormat KeepTogether eigendom. True wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen in C#.
+description: Entdecken Sie die Eigenschaft „ParagraphFormat KeepTogether“, um sicherzustellen, dass alle Zeilen auf einer Seite zusammenbleiben, um die Lesbarkeit des Dokuments zu verbessern und eine professionelle Präsentation zu gewährleisten.
 type: docs
 weight: 160
 url: /de/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-True, wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
+Wahr, wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -38,7 +38,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
+// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

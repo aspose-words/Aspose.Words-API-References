@@ -2,8 +2,8 @@
 title: FieldOcx
 linktitle: FieldOcx
 articleTitle: FieldOcx
-second_title: Aspose.Words for .NET
-description: FieldOcx inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon ve özelleştirme için başvuracağınız çözüm olan FieldOcx oluşturucusunu keşfedin. En iyi performans için güçlü özelliklerin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldocx/fieldocx/

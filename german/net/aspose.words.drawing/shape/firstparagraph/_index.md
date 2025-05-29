@@ -3,9 +3,9 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words für .NET
-description: Shape FirstParagraph eigendom. Ruft den ersten Absatz in der Form ab in C#.
+description: Rufen Sie mühelos den ersten Absatz einer Form ab. Optimieren Sie das Layout Ihres Dokuments mit unserer benutzerfreundlichen Funktion „Form – Erster Absatz“.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
@@ -23,17 +23,17 @@ Zeigt, wie ein Textfeld erstellt und formatiert wird.
 ```csharp
 Document doc = new Document();
 
-// Erstelle ein schwebendes Textfeld.
+// Erstellen Sie ein schwebendes Textfeld.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Legen Sie die horizontale und vertikale Ausrichtung des Texts innerhalb der Form fest.
+// Legen Sie die horizontale und vertikale Ausrichtung des Textes innerhalb der Form fest.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Fügen Sie dem Textfeld einen Absatz hinzu und fügen Sie eine Textzeile hinzu, die im Textfeld angezeigt wird.
+// Fügen Sie dem Textfeld einen Absatz und einen Textlauf hinzu, der im Textfeld angezeigt wird.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

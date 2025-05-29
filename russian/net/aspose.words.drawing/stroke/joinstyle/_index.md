@@ -3,9 +3,9 @@ title: Stroke.JoinStyle
 linktitle: JoinStyle
 articleTitle: JoinStyle
 second_title: Aspose.Words для .NET
-description: Stroke JoinStyle свойство. Определяет стиль соединения полилинии на С#.
+description: Откройте для себя свойство Stroke JoinStyle, чтобы улучшить ваши полилинии с помощью настраиваемых стилей соединения для более плавной графики и повышения гибкости дизайна.
 type: docs
-weight: 120
+weight: 170
 url: /ru/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -22,7 +22,7 @@ public JoinStyle JoinStyle { get; set; }
 
 ## Примеры
 
-Показывает, как изменить свойства обводки.
+Показывает, как изменить свойства штриха.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Базовые фигуры, такие как прямоугольник, состоят из двух видимых частей.
-// 1 - Заливка, которая применяется к области внутри контура фигуры:
+// 1 — Заливка, которая применяется к области внутри контура фигуры:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Обводка, обозначающая контур фигуры:
+// 2 - Штрих, обозначающий контур фигуры:
 // Измените различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

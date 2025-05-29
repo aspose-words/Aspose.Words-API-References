@@ -3,14 +3,14 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words لـ .NET
-description: ParagraphCollection ToArray طريقة. نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات في C#.
+description: قم بتحويل ParagraphCollection إلى مصفوفة بسهولة باستخدام طريقة ToArray، مما يؤدي إلى تبسيط إدارة البيانات وتحسين معالجة المستندات لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection.ToArray method
 
-نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات.
+نسخ جميع الفقرات من المجموعة إلى مجموعة جديدة من الفقرات.
 
 ```csharp
 public Paragraph[] ToArray()
@@ -22,7 +22,7 @@ public Paragraph[] ToArray()
 
 ## أمثلة
 
-يوضح كيفية إنشاء مصفوفة من NodeCollection.
+يوضح كيفية إنشاء مجموعة من NodeCollection.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -32,7 +32,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-يوضح كيفية استخدام "الإزالة السريعة" لإزالة العقدة أثناء التعداد.
+يوضح كيفية استخدام "الإزالة الساخنة" لإزالة عقدة أثناء التعداد.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.Writeln("The second paragraph");
 builder.Writeln("The third paragraph");
 builder.Writeln("The fourth paragraph");
 
-// قم بإزالة عقدة من المجموعة الموجودة في منتصف التعداد.
+// قم بإزالة عقدة من المجموعة في منتصف التعداد.
 foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();

@@ -2,15 +2,15 @@
 title: PdfSaveOptions.JpegQuality
 linktitle: JpegQuality
 articleTitle: JpegQuality
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions JpegQuality mülk. PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: PDF resimlerinizi PdfSaveOptions'ın JpegQuality özelliğiyle optimize edin; böylece çarpıcı belge görselleri için JPEG kalitesini kontrol edebilirsiniz.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.saving/pdfsaveoptions/jpegquality/
 ---
 ## PdfSaveOptions.JpegQuality property
 
-PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar.
+PDF belgesinin içindeki JPEG görüntülerinin kalitesini belirleyen bir değeri alır veya ayarlar.
 
 ```csharp
 public int JpegQuality { get; set; }
@@ -20,15 +20,15 @@ public int JpegQuality { get; set; }
 
 Varsayılan değer 100'dür.
 
-Bu özellik aşağıdakilerle birlikte kullanılır:[`ImageCompression`](../imagecompression/) seçenek.
+Bu özellik, aşağıdakilerle birlikte kullanılır:[`ImageCompression`](../imagecompression/) seçenek.
 
-Yalnızca bir belge JPEG görüntüleri içerdiğinde etkili olur.
+Yalnızca belge JPEG görüntüleri içerdiğinde etkilidir.
 
-PDF formatında kaydederken belge içindeki görüntülerin kalitesini almak veya ayarlamak için bu özelliği kullanın. Değer 0 ila 100 arasında değişebilir; burada 0 en kötü kalite ancak maksimum sıkıştırma anlamına gelir ve 100 en iyi kalite ancak minimum sıkıştırma anlamına gelir. Kalite ise 100'dür ve kaynak görüntü JPEG'dir, bu sıkıştırma olmadığı anlamına gelir - orijinal baytlar kaydedilecektir.
+PDF formatında kaydederken bir belgenin içindeki resimlerin kalitesini almak veya ayarlamak için bu özelliği kullanın. Değer 0 ile 100 arasında değişebilir; burada 0 en kötü kalite ancak maksimum sıkıştırma, 100 ise en iyi kalite ancak minimum sıkıştırma anlamına gelir. Kalite 100 ve kaynak resim JPEG ise, sıkıştırma yok demektir - orijinal baytlar kaydedilecektir.
 
 ## Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
+PDF'ye dönüştürdüğümüz bir belgedeki tüm resimler için bir sıkıştırma türünün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -40,17 +40,15 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-// "ImageCompression" özelliğini kullanmak için "PdfImageCompression.Auto" olarak ayarlayın.
-// Çıktı PDF'sinde yer alan Jpeg görüntülerinin kalitesini kontrol etmek için "ImageCompression" özelliği.
-// "ImageCompression" özelliğini kullanmak için "PdfImageCompression.Jpeg" olarak ayarlayın.
-// Çıktı PDF'sinde yer alan tüm görüntülerin kalitesini kontrol etmek için "ImageCompression" özelliği.
+// "ImageCompression" özelliğini "PdfImageCompression.Auto" olarak ayarlayın
+// Çıktı PDF'inde yer alan Jpeg görüntülerinin kalitesini kontrol etmek için "ImageCompression" özelliği.
+// "ImageCompression" özelliğini "PdfImageCompression.Jpeg" olarak ayarlayın
+// Çıktı PDF'inde yer alan tüm görsellerin kalitesini kontrol etmek için "ImageCompression" özelliği.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
-// Görüntü kalitesinden ödün vererek sıkıştırmayı güçlendirmek için "JpegQuality" özelliğini "10" olarak ayarlayın.
+// Görüntü kalitesinden ödün vererek sıkıştırmayı artırmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

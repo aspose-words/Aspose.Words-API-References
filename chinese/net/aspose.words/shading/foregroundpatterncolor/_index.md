@@ -2,8 +2,8 @@
 title: Shading.ForegroundPatternColor
 linktitle: ForegroundPatternColor
 articleTitle: ForegroundPatternColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading ForegroundPatternColor 财产. 获取或设置应用于前景的颜色Shading对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Shading ForegroundPatternColor 属性来自定义 Shading 对象的前景色，以增强设计和视觉吸引力。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/shading/foregroundpatterncolor/
@@ -18,7 +18,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ## 例子
 
-展示如何用边框和底纹装饰文本。
+展示如何使用边框和阴影装饰文本。
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words для .NET
-description: TextColumnCollection Spacing свойство. Если столбцы расположены равномерно получает или задает расстояние между каждым столбцом в пунктах на С#.
+description: Откройте для себя свойство TextColumnCollection Spacing, легко управляйте интервалом между столбцами в пунктах для создания безупречного, профессионального макета. Улучшите свой дизайн сегодня!
 type: docs
 weight: 50
 url: /ru/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-Если столбцы расположены равномерно, получает или задает расстояние между каждым столбцом в пунктах.
+Когда столбцы расположены равномерно, возвращает или задает величину пространства между каждым столбцом в пунктах.
 
 ```csharp
 public double Spacing { get; set; }
@@ -18,11 +18,11 @@ public double Spacing { get; set; }
 
 ## Примечания
 
-Действует только тогда, когда[`EvenlySpaced`](../evenlyspaced/) установлено на`истинный` .
+Действует только тогда, когда[`EvenlySpaced`](../evenlyspaced/) установлен на`истинный` .
 
 ## Примеры
 
-Показывает, как создать в разделе несколько равномерно расположенных столбцов.
+Показывает, как создать несколько равномерно распределенных столбцов в разделе.
 
 ```csharp
 Document doc = new Document();

@@ -2,8 +2,8 @@
 title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
-second_title: Aspose.Words for .NET
-description: Story Tables mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Hikayenize doğrudan bağlı tablolardan oluşan, özenle seçilmiş bir koleksiyon olan Hikaye Tablolarını keşfedin; organizasyonu ve etkileşimi zahmetsizce artırın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/story/tables/

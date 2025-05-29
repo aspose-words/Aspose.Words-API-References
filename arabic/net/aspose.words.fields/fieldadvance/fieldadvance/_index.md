@@ -3,7 +3,7 @@ title: FieldAdvance
 linktitle: FieldAdvance
 articleTitle: FieldAdvance
 second_title: Aspose.Words لـ .NET
-description: FieldAdvance البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldAdvance - الحل الأمثل لإدارة مشاريع سلسة وسير عمل بناء فعّال. عزز إنتاجيتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldadvance/fieldadvance/

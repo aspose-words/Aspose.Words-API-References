@@ -3,14 +3,14 @@ title: ShapeBase.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words для .NET
-description: ShapeBase RelativeHorizontalPosition свойство. Указывает относительно того как фигура расположена по горизонтали на С#.
+description: Откройте для себя свойство ShapeBase RelativeHorizontalPosition, чтобы освоить горизонтальное позиционирование фигур. Оптимизируйте свой дизайн с точностью и контролем!
 type: docs
-weight: 420
+weight: 450
 url: /ru/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-Указывает относительно того, как фигура расположена по горизонтали.
+Указывает, относительно чего фигура расположена горизонтально.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -20,7 +20,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 Значение по умолчанию:Column.
 
-Имеет эффект только для плавающих фигур верхнего уровня.
+Действует только для плавающих фигур верхнего уровня.
 
 ## Примеры
 
@@ -30,7 +30,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

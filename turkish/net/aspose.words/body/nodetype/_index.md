@@ -2,15 +2,15 @@
 title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET
-description: Body NodeType mülk. İadelerBody  C#'da.
+second_title: .NET için Aspose.Words
+description: Web geliştirme deneyiminizi geliştiren ve projelerinizi hızlandıran, gövde içeriğini verimli bir şekilde döndüren Body NodeType özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-İadelerBody .
+Geri DöndürürBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Örnekler
 
-Bileşik bir düğümün çocukları arasında nasıl yineleme yapılacağını gösterir.
+Bir bileşik düğümün alt düğümleri arasında nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Bölüm bileşik bir düğümdür ve alt düğümler içerebilir,
-// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm tipindeyse.
+// Bir Bölüm, bileşik bir düğümdür ve alt düğümler içerebilir,
+// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm türündeyse.
 foreach (Node node in section)
 {
     switch (node.NodeType)

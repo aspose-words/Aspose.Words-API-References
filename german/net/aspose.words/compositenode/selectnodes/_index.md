@@ -3,9 +3,9 @@ title: CompositeNode.SelectNodes
 linktitle: SelectNodes
 articleTitle: SelectNodes
 second_title: Aspose.Words für .NET
-description: CompositeNode SelectNodes methode. Wählt eine Liste von Knoten aus die dem XPathAusdruck entsprechen in C#.
+description: Rufen Sie mit der CompositeNode SelectNodes-Methode mühelos Knoten ab, indem Sie XPath-Ausdrücke für eine verbesserte Datenmanipulation und optimierte Codierung verwenden.
 type: docs
-weight: 190
+weight: 210
 url: /de/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -26,22 +26,22 @@ Eine Liste von Knoten, die der XPath-Abfrage entsprechen.
 
 ## Bemerkungen
 
-Derzeit werden nur Ausdrücke mit Elementnamen unterstützt. Expressions , die Attributnamen verwenden, werden nicht unterstützt.
+Derzeit werden nur Ausdrücke mit Elementnamen unterstützt. Ausdrücke , die Attributnamen verwenden, werden nicht unterstützt.
 
 ## Beispiele
 
-Zeigt, wie Sie mit einem XPath-Ausdruck testen, ob sich ein Knoten in einem Feld befindet.
+Zeigt, wie Sie mithilfe eines XPath-Ausdrucks testen, ob sich ein Knoten innerhalb eines Felds befindet.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
 
 // Die aus diesem XPath-Ausdruck resultierende NodeList enthält alle Knoten, die wir in einem Feld finden.
-// FieldStart- und FieldEnd-Knoten können jedoch in der Liste enthalten sein, wenn der Pfad verschachtelte Felder enthält.
-// Findet derzeit keine seltenen Felder, in denen sich FieldCode oder FieldResult über mehrere Absätze erstreckt.
+// Allerdings können FieldStart- und FieldEnd-Knoten in der Liste enthalten sein, wenn der Pfad verschachtelte Felder enthält.
+// Findet derzeit keine seltenen Felder, bei denen sich der FieldCode oder das FieldResult über mehrere Absätze erstreckt.
 NodeList resultList =
-    doc.SelectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+    doc.SelectNodes("//FeldStart/folgendes Geschwister::Knoten()[folgendes Geschwister::FeldEnde]");
 
-// Prüfen, ob der angegebene Lauf einer der Knoten ist, die sich innerhalb des Feldes befinden.
+// Überprüfen Sie, ob der angegebene Lauf einer der Knoten ist, die sich innerhalb des Feldes befinden.
 Console.WriteLine($"Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
 ```
 
@@ -54,7 +54,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 // die Nachkommen eines beliebigen Tabellenknotens im Dokument sind.
 NodeList nodeList = doc.SelectNodes("//Tabelle//Absatz");
 
-// Mit einem Enumerator die Liste durchlaufen und den Inhalt jedes Absatzes in jeder Zelle der Tabelle ausgeben.
+// Mit einem Enumerator durch die Liste iterieren und den Inhalt jedes Absatzes in jeder Zelle der Tabelle drucken.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
@@ -62,13 +62,13 @@ using (IEnumerator<Node> e = nodeList.GetEnumerator())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
 // Dieser Ausdruck wählt alle Absätze aus, die direkte untergeordnete Elemente eines beliebigen Body-Knotens im Dokument sind.
-nodeList = doc.SelectNodes("//Körperabschnitt");
+nodeList = doc.SelectNodes("//Textkörper/Absatz");
 
 // Wir können die Liste als Array behandeln.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
 // Verwenden Sie SelectSingleNode, um das erste Ergebnis desselben Ausdrucks wie oben auszuwählen.
-Node node = doc.SelectSingleNode("//Körperabschnitt");
+Node node = doc.SelectSingleNode("//Textkörper/Absatz");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());
 ```

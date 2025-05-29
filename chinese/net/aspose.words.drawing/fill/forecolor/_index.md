@@ -2,15 +2,15 @@
 title: Fill.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill ForeColor 财产. 获取或设置一个 Color 对象该对象表示填充的前景色 在 C#.
+second_title: Aspose.Words for .NET
+description: 设置 ForeColor 属性以使用 Color 对象自定义填充的前景色，增强视觉吸引力和设计灵活性。
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
 
-获取或设置一个 Color 对象，该对象表示填充的前景色。
+获取或设置代表填充前景色的 Color 对象。
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -18,18 +18,18 @@ public Color ForeColor { get; set; }
 
 ## 评论
 
-该属性重置 alpha 分量Color与完全不透明的颜色不同[`Color`](../color/)财产，从而保护它。
+此属性重置Color 为完全不透明的颜色，不同于[`Color`](../color/)属性，它保存了它。
 
 ## 例子
 
-展示创造出各种形状。
+展现出多种多样的造型创造。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 下面是我们可以插入到文档中的四个形状的示例。
+// 1 - 虚线，水平，半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 翻转方向的箭头，填充 Aspose 徽标：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -80,7 +80,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 在获得显示形状之前，将图像翻转到另一个方向以取消此操作。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

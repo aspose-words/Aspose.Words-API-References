@@ -3,9 +3,9 @@ title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words para .NET
-description: DocumentBase WarningCallback propiedad. Se llama durante varios procedimientos de procesamiento de documentos cuando se detecta un problema que podría resultar en pérdida de fidelidad de datos o formato en C#.
+description: Descubra la propiedad DocumentBase WarningCallback, vital para garantizar la integridad de los datos durante el procesamiento de documentos al detectar posibles problemas de formato.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Observaciones
 
-El documento puede generar advertencias en cualquier etapa de su existencia, por lo que es importante configurar la devolución de llamada de advertencia lo lo antes posible para evitar la pérdida de advertencias. Por ejemplo, propiedades como[`PageCount`](../../document/pagecount/) en realidad crea el diseño del documento que se usa más adelante para la representación, y las advertencias de diseño pueden perderse si la devolución de llamada de advertencia se especifica solo para las llamadas de representación posteriores.
+El documento puede generar advertencias en cualquier etapa de su existencia, por lo que es importante configurar la devolución de llamada de advertencia lo antes posible para evitar la pérdida de advertencias. Por ejemplo, propiedades como[`PageCount`](../../document/pagecount/) en realidad crea el diseño del documento que se usa más adelante para la representación, y las advertencias de diseño se pueden perder si se especifica la devolución de llamada de advertencia solo para las llamadas de representación posteriores.
 
 ## Ejemplos
 
@@ -36,15 +36,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Almacena la colección actual de fuentes de fuentes, que será la fuente de fuentes predeterminada para cada documento
-    // para el cual no especificamos una fuente de fuente diferente.
+    // Almacena la colección actual de fuentes, que será la fuente de fuente predeterminada para cada documento
+    // para el cual no especificamos una fuente diferente.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
     // Para fines de prueba, configuraremos Aspose.Words para que busque fuentes solo en una carpeta que no existe.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
-    // Esto generará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
+    //Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
+    // Esto provocará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -52,7 +52,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -78,20 +78,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -107,7 +107,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

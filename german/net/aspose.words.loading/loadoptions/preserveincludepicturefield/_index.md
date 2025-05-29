@@ -3,14 +3,14 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words für .NET
-description: LoadOptions PreserveIncludePictureField eigendom. Ruft ab oder legt fest ob das INCLUDEPICTUREFeld beim Lesen von Microsoft WordFormaten beibehalten werden soll. Der Standardwert istFALSCH  in C#.
+description: Steuern Sie das Feld INCLUDEPICTURE in Microsoft Word-Formaten mit LoadOptions PreserveIncludePictureField. Verwalten Sie die Dokumentformatierung ganz einfach für optimale Ergebnisse.
 type: docs
 weight: 120
 url: /de/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Ruft ab oder legt fest, ob das INCLUDEPICTURE-Feld beim Lesen von Microsoft Word-Formaten beibehalten werden soll. Der Standardwert ist`FALSCH` .
+Ruft ab oder legt fest, ob das Feld INCLUDEPICTURE beim Lesen von Microsoft Word-Formaten beibehalten werden soll. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -18,9 +18,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ## Bemerkungen
 
-Standardmäßig wird das INCLUDEPICTURE-Feld in ein Formobjekt konvertiert. Sie können dies überschreiben, wenn das Feld erhalten bleiben soll, beispielsweise wenn Sie es programmgesteuert aktualisieren möchten. Beachten Sie jedoch, dass dieser -Ansatz für Aspose.Words nicht üblich ist. Die Nutzung erfolgt auf eigene Gefahr.
+Standardmäßig wird das Feld INCLUDEPICTURE in ein Shape-Objekt konvertiert. Sie können dies überschreiben, wenn das Feld erhalten bleiben soll, z. B. wenn Sie es programmgesteuert aktualisieren möchten. Beachten Sie jedoch, dass dieser Ansatz für Aspose.Words nicht üblich ist. Verwenden Sie ihn auf eigene Gefahr.
 
-Einer der möglichen Anwendungsfälle könnte die Verwendung eines MERGEFIELD als untergeordnetes Feld sein, um den Quellpfad des Bildes dynamisch zu ändern. In diesem Fall muss das INCLUDEPICTURE im Modell erhalten bleiben.
+Ein möglicher Anwendungsfall könnte die Verwendung eines MERGEFIELD als untergeordnetes Feld sein, um den Quellpfad des Bildes dynamisch zu ändern. In diesem Fall muss INCLUDEPICTURE im Modell erhalten bleiben.
 
 ## Beispiele
 
@@ -38,8 +38,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Wir können in einem LoadOptions-Objekt ein Flag setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
-    // in Bildformen konvertieren, wenn ein Dokument geladen wird, das diese enthält.
+    // Wir können ein Flag in einem LoadOptions-Objekt setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
+    // in Bildformen, wenn ein Dokument geladen wird, das diese enthält.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

@@ -3,14 +3,14 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: Range Text propriété. Récupère le texte de la plage en C#.
+description: Découvrez la propriété Plage de texte pour récupérer et manipuler facilement du texte dans une plage spécifiée pour une gestion de contenu améliorée.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/range/text/
 ---
 ## Range.Text property
 
-Récupère le texte de la plage.
+Obtient le texte de la plage.
 
 ```csharp
 public string Text { get; }

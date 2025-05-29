@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Una raccolta digitata diOdsoFieldMapData oggetti in C#.
+description: Scopri la classe Aspose.Words OdsoFieldMapDataCollection, una potente raccolta tipizzata per la gestione efficiente degli oggetti OdsoFieldMapData.
 type: docs
-weight: 5910
+weight: 6740
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-Una raccolta digitata di[`OdsoFieldMapData`](../odsofieldmapdata/) oggetti.
+Una raccolta tipizzata di[`OdsoFieldMapData`](../odsofieldmapdata/) oggetti.
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -37,18 +37,18 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Aggiunge un oggetto alla fine di questa raccolta. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Rimuove tutti gli elementi da questa raccolta. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Rimuove l'elemento all'indice specificato. |
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
+Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati ai campi di unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
+// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
+// ai campi predefiniti MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -69,12 +69,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
+// Utilizzare gli elementi del metodo "RemoveAt" singolarmente in base all'indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
+// Utilizzare il metodo "Clear" per cancellare l'intera raccolta in una sola volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

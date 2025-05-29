@@ -3,7 +3,7 @@ title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
 second_title: Aspose.Words pour .NET
-description: PageInfo GetDotNetPaperSize méthode. Obtient lePaperSize objet adapté à limpression la page représentée par ceciPageInfo  en C#.
+description: Découvrez la méthode GetDotNetPaperSize dans PageInfo, conçue pour récupérer sans effort l'objet PaperSize idéal pour une impression de page transparente.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
@@ -22,11 +22,11 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### Return_Value
 
-Objet que vous pouvez utiliser dans le framework d'impression .NET pour spécifier le format du papier.
+Un objet que vous pouvez utiliser dans le framework d’impression .NET pour spécifier le format du papier.
 
 ## Exemples
 
-Montre comment personnaliser l’impression des documents Aspose.Words.
+Montre comment personnaliser l'impression des documents Aspose.Words.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -78,30 +78,30 @@ public class MyPrintDocument : PrintDocument
     {
         base.OnQueryPageSettings(e);
 
-         // Un seul document Microsoft Word peut comporter plusieurs sections qui spécifient des pages de tailles différentes,
+         // Un seul document Microsoft Word peut avoir plusieurs sections qui spécifient des pages de tailles différentes,
          // orientations et bacs à papier. Le framework d'impression .NET appelle ce code avant
-        // chaque page est imprimée, ce qui nous donne la possibilité de spécifier comment imprimer la page en cours.
+        // chaque page est imprimée, ce qui nous donne la possibilité de spécifier comment imprimer la page actuelle.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word stocke la source de papier (bac de l'imprimante) pour chaque section en tant que valeur spécifique à l'imprimante.
-        // Pour obtenir la valeur correcte du bac, vous devrez utiliser la propriété "RawKind", que votre imprimante doit renvoyer.
+        // Microsoft Word stocke la source de papier (bac d'imprimante) pour chaque section sous la forme d'une valeur spécifique à l'imprimante.
+        // Pour obtenir la valeur de bac correcte, vous devrez utiliser la propriété « RawKind », que votre imprimante doit renvoyer.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Appelé pour chaque page afin de la restituer pour l'impression.
+     /// Appelé pour chaque page pour la restituer pour l'impression.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
         // Le moteur de rendu Aspose.Words crée une page dessinée à partir de l'origine (x = 0, y = 0) du papier.
-        // Il y aura une marge dure dans l'imprimante, qui rendra chaque page. Nous devons compenser par cette marge solide.
+        // L'imprimante disposera d'une marge fixe pour le rendu de chaque page. Nous devons la décaler de cette marge fixe.
         float hardOffsetX, hardOffsetY;
 
-        // Vous trouverez ci-dessous deux manières de définir une marge ferme.
+        // Vous trouverez ci-dessous deux manières de définir une marge fixe.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 - Via la propriété "PageSettings".
@@ -110,7 +110,7 @@ public class MyPrintDocument : PrintDocument
         }
         else
         {
-            // 2 - Utiliser nos propres valeurs, si la propriété "PageSettings" n'est pas disponible.
+            // 2 - Utilisation de nos propres valeurs, si la propriété « PageSettings » n'est pas disponible.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

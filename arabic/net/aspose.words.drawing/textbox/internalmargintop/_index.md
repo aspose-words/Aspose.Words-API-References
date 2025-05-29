@@ -3,7 +3,7 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words لـ .NET
-description: TextBox InternalMarginTop ملكية. يحدد الهامش العلوي الداخلي بالنقاط للشكل في C#.
+description: اكتشف خاصية InternalMarginTop في TextBox—تحكم في الهامش العلوي لشكلتك بالنقاط للحصول على تخطيط دقيق ومرونة تصميم محسنة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/textbox/internalmargintop/
@@ -28,7 +28,7 @@ public double InternalMarginTop { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مربع نص آخر بهوامش محددة.
+//إدراج مربع نص آخر بهوامش محددة.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

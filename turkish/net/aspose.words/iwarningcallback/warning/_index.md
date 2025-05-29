@@ -2,15 +2,15 @@
 title: IWarningCallback.Warning
 linktitle: Warning
 articleTitle: Warning
-second_title: Aspose.Words for .NET
-description: IWarningCallback Warning yöntem. Aspose.Words belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words'deki IWarningCallback metodunu keşfedin. Belge yükleme ve kaydetme sorunlarını sorunsuz bir şekilde halledin, biçimlendirmeyi ve veri bütünlüğünü koruyun.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Aspose.Words, belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır.
+Aspose.Words, belge yükleme veya kaydetme sırasında biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -23,23 +23,23 @@ Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşme
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belgeyi açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
+    // Yazı tipi değiştirme uyarılarını işlemek için bir geri çağırma atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değişimini etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    // Font değişiminden sonra orijinal font ölçütleri kullanılmalıdır.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
+    // Eksik font içeren bir belgeyi kaydedersek font değiştirme uyarısı alırız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -47,7 +47,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
+    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

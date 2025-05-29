@@ -3,16 +3,14 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Metered classe. Fournit des méthodes pour définir une clé mesurée en C#.
+description: Exploitez la puissance de la classe Aspose.Words.Metered ! Gérez facilement votre clé mesurée grâce à des méthodes efficaces pour un traitement fluide des documents.
 type: docs
-weight: 4160
+weight: 4850
 url: /fr/net/aspose.words/metered/
 ---
 ## Metered class
 
-Fournit des méthodes pour définir une clé mesurée.
-
-Pour en savoir plus, visitez le[Licence et abonnement](https://docs.aspose.com/words/net/licensing/) article documentaire.
+Fournit des méthodes pour définir la clé mesurée.
 
 ```csharp
 public class Metered
@@ -28,13 +26,15 @@ public class Metered
 
 | Nom | La description |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Définit les clés publiques et privées mesurées. Si vous achetez une licence limitée, au démarrage de l'application, cette API doit être appelée, normalement, cela suffit. Cependant, si vous ne parvenez toujours pas à télécharger les données de consommation et dépassez 24 heures, la licence sera définie sur le statut d'évaluation, pour éviter un tel cas, vous devez vérifier régulièrement l'état de la licence, s'il s'agit du statut d'évaluation, appelez à nouveau cette API. |
+| [GetProductName](../../aspose.words/metered/getproductname/)() | Retourne Nom du produit |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Définit les clés publiques et privées mesurées. Si vous achetez une licence mesurée, au démarrage de l'application, cette API doit être appelée, normalement, cela suffit. Cependant, si le téléchargement des données de consommation échoue systématiquement et dépasse 24 heures, la licence sera définie sur le statut d'évaluation. Pour éviter ce problème, vous devez vérifier régulièrement le statut de la licence. Si c'est le statut d'évaluation, appelez à nouveau cette API. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Obtient un crédit de consommation |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Obtient la taille du fichier de consommation |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | Vérifiez si le compteur est sous licence |
 
 ## Exemples
 
-Dans cet exemple, une tentative sera faite pour définir des clés publiques et privées mesurées
+Dans cet exemple, une tentative sera faite pour définir une clé publique et privée mesurée
 
 ```csharp
 [C#]
@@ -49,21 +49,23 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-Montre comment activer une licence avec compteur et suivre le crédit/la consommation.
+Montre comment activer une licence mesurée et suivre le crédit/la consommation.
 
 ```csharp
-// Créez une nouvelle licence limitée, puis imprimez ses statistiques d'utilisation.
+// Créez une nouvelle licence mesurée, puis imprimez ses statistiques d'utilisation.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Fonctionne en utilisant Aspose.Words, puis imprime à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
+// Fonctionnez en utilisant Aspose.Words, puis imprimez à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// Le mécanisme Aspose Metered Licensing n'envoie pas les données d'utilisation au serveur d'achat à chaque fois,
+// Le mécanisme de licence mesurée d'Aspose n'envoie pas les données d'utilisation au serveur d'achat à chaque fois,
 // vous devez utiliser l'attente.
 System.Threading.Thread.Sleep(10000);
 

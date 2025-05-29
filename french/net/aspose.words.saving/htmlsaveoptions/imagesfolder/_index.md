@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ImagesFolder propriété. Spécifie le dossier physique dans lequel les images sont enregistrées lors de lexportation dun document au format HTML. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez la propriété ImagesFolder de HtmlSaveOptions. Définissez facilement le dossier d'enregistrement des images lors de l'exportation de documents au format HTML. Simplifiez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 360
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -18,11 +18,11 @@ public string ImagesFolder { get; set; }
 
 ## Remarques
 
-Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.`ImagesFolder` permet de préciser où les images seront enregistrées et[`ImagesFolderAlias`](../imagesfolderalias/) permet de spécifier comment les URI des images seront construites.
+Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document sous forme de fichiers autonomes.`ImagesFolder` vous permet de spécifier où les images seront enregistrées et[`ImagesFolderAlias`](../imagesfolderalias/) permet de spécifier comment les URI des images seront construits.
 
-Si vous enregistrez un document dans un fichier et fournissez un nom de fichier, Aspose.Words, par défaut, enregistre les images dans le même dossier où le fichier du document est enregistré. Utiliser`ImagesFolder` pour remplacer ce comportement.
+Si vous enregistrez un document dans un fichier et fournissez un nom de fichier, Aspose.Words, par défaut, enregistre les images dans le même dossier où le fichier du document est enregistré.`ImagesFolder` pour remplacer ce comportement.
 
-Si vous enregistrez un document dans un flux, Aspose.Words n'a pas de dossier dans lequel enregistrer les images, mais doit quand même enregistrer les images quelque part. Dans ce cas, vous devez spécifier un dossier accessible dans le`ImagesFolder` propriété ou fournissez des flux personnalisés via le[`ImageSavingCallback`](../imagesavingcallback/) gestionnaire d'événements.
+Si vous enregistrez un document dans un flux, Aspose.Words ne dispose pas de dossier pour enregistrer les images, mais doit tout de même les enregistrer quelque part. Dans ce cas, vous devez spécifier un dossier accessible dans le fichier`ImagesFolder` propriété ou fournir des flux personnalisés via le[`ImageSavingCallback`](../imagesavingcallback/) gestionnaire d'événements.
 
 Si le dossier spécifié par`ImagesFolder` n'existe pas, il sera créé automatiquement.
 
@@ -30,7 +30,7 @@ Si le dossier spécifié par`ImagesFolder` n'existe pas, il sera créé automati
 
 ## Exemples
 
-Montre comment spécifier le dossier dans lequel stocker les images liées après leur enregistrement au format .html.
+Montre comment spécifier le dossier pour stocker les images liées après l'enregistrement au format .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

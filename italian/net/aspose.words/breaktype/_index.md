@@ -3,9 +3,9 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.BreakType enum. Specifica il tipo di interruzione allinterno di un documento in C#.
+description: Scopri l'enum Aspose.Words.BreakType per migliorare la formattazione del tuo documento con tipi di interruzione precisi, per una migliore leggibilità e un migliore controllo del layout.
 type: docs
-weight: 110
+weight: 300
 url: /it/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
@@ -20,10 +20,10 @@ public enum BreakType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| ParagraphBreak | `0` | Interruzione tra paragrafi. |
+| ParagraphBreak | `0` | Interruzione tra i paragrafi. |
 | PageBreak | `1` | Interruzione di pagina esplicita. |
 | ColumnBreak | `2` | Interruzione di colonna esplicita. |
-| SectionBreakContinuous | `3` | Specifica l'inizio di una nuova sezione sulla stessa pagina della sezione precedente. |
+| SectionBreakContinuous | `3` | Specifica l'inizio della nuova sezione sulla stessa pagina della sezione precedente. |
 | SectionBreakNewColumn | `4` | Specifica l'inizio della nuova sezione nella nuova colonna. |
 | SectionBreakNewPage | `5` | Specifica l'inizio di una nuova sezione su una nuova pagina. |
 | SectionBreakEvenPage | `6` | Specifica l'inizio di una nuova sezione su una nuova pagina pari. |
@@ -38,7 +38,7 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
+// Specificare che si vogliono intestazioni e piè di pagina diversi per la prima pagina, le pagine pari e quelle dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -60,13 +60,13 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Mostra come applicare e ripristinare le impostazioni di impostazione della pagina nelle sezioni di un documento.
+Mostra come applicare e ripristinare le impostazioni di impostazione della pagina alle sezioni di un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiunge testo.
+// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiungi del testo.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
@@ -78,7 +78,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Possiamo ripristinare le proprietà di impostazione della pagina ai valori predefiniti utilizzando il metodo "ClearFormatting".
+// Possiamo ripristinare i valori predefiniti delle proprietà di impostazione della pagina utilizzando il metodo "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -89,21 +89,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-Mostra come inserire un sommario (TOC) in un documento utilizzando gli stili di titolo come voci.
+Mostra come inserire un indice (TOC) in un documento utilizzando gli stili di intestazione come voci.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un sommario per la prima pagina del documento.
-// Configura la tabella per raccogliere paragrafi con titoli di livello da 1 a 3.
+// Inserire un indice per la prima pagina del documento.
+// Configura la tabella in modo che selezioni i paragrafi con titoli di livello da 1 a 3.
 // Inoltre, imposta le sue voci come collegamenti ipertestuali che ci porteranno
 // alla posizione dell'intestazione quando si fa clic con il pulsante sinistro del mouse in Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Compila il sommario aggiungendo paragrafi con stili di intestazione.
-// Ciascuna di queste intestazioni con un livello compreso tra 1 e 3 creerà una voce nella tabella.
+// Popola il sommario aggiungendo paragrafi con stili di intestazione.
+// Ciascuna intestazione con un livello compreso tra 1 e 3 creerà una voce nella tabella.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -131,7 +131,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Un sommario è un campo di tipo che deve essere aggiornato per mostrare un risultato aggiornato.
+// Un indice è un campo di un tipo che deve essere aggiornato per mostrare un risultato aggiornato.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

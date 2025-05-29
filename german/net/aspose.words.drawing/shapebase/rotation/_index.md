@@ -3,14 +3,14 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words für .NET
-description: ShapeBase Rotation eigendom. Definiert den Winkel in Grad um den eine Form gedreht wird. Positiver Wert entspricht dem Drehwinkel im Uhrzeigersinn in C#.
+description: Entdecken Sie die ShapeBase-Rotationseigenschaft, definieren und passen Sie Rotationswinkel für Ihre Formen einfach an und verbessern Sie so die Präzision und Kreativität Ihres Designs.
 type: docs
-weight: 470
+weight: 500
 url: /de/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Definiert den Winkel (in Grad), um den eine Form gedreht wird. Positiver Wert entspricht dem Drehwinkel im Uhrzeigersinn.
+Definiert den Winkel (in Grad), um den eine Form gedreht wird. Ein positiver Wert entspricht einem Drehwinkel im Uhrzeigersinn.
 
 ```csharp
 public double Rotation { get; set; }
@@ -28,12 +28,12 @@ Zeigt, wie man ein Bild einfügt und dreht.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Form mit einem Bild einfügen.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+// Fügen Sie eine Form mit einem Bild ein.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Das Bild um 45 Grad im Uhrzeigersinn drehen.
+// Drehen Sie das Bild um 45 Grad im Uhrzeigersinn.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

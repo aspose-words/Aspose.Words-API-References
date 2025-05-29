@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: BaseWebExtensionCollection Remove méthode. Supprime lélément à lindex spécifié de la collection en C#.
+description: Supprimez facilement des éléments de votre BaseWebExtensionCollection grâce à notre méthode intuitive. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,18 +18,18 @@ public void Remove(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro de l'élément de collection. |
+| index | Int32 | L'index de base zéro de l'élément de collection. |
 
 ## Exemples
 
-Montre comment utiliser la collection d’extensions Web d’un document.
+Montre comment travailler avec la collection d'extensions Web d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime toutes les propriétés de l'extension Web du document.
+// Imprimez toutes les propriétés de l'extension Web du document.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Supprime l'extension Web.
+// Supprimez l'extension Web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

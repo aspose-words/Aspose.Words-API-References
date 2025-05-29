@@ -3,14 +3,14 @@ title: Table.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words för .NET
-description: Table BottomPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i celler i C#.
+description: Upptäck egenskapen Table BottomPadding, justera enkelt avståndet under cellinnehållet för förbättrad layoutkontroll och förbättrad visuell tilltalning.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.tables/table/bottompadding/
 ---
 ## Table.BottomPadding property
 
-Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i celler.
+Hämtar eller anger mängden utrymme (i punkter) som ska läggas till under innehållet i cellerna.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // För varje cell i tabellen, ställ in avståndet mellan dess innehåll och var och en av dess kanter.
-// Den här tabellen kommer att bibehålla det minsta utfyllnadsavståndet genom att slå in text.
+ // För varje cell i tabellen, ange avståndet mellan dess innehåll och var och en av dess ramar.
+// Den här tabellen bibehåller det minsta utfyllnadsavståndet genom att radbryta text.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

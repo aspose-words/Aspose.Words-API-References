@@ -2,8 +2,8 @@
 title: Font.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET
-description: Font Name mülk. Yazı tipinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın çekiciliğini ve okunabilirliğini artırmak için yazı tipi stillerini kolayca özelleştirmek ve ayarlamak üzere Yazı Tipi Adı özelliğini keşfedin.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/font/name/
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Notlar
 
-Alırken geri döner[`NameAscii`](../nameascii/).
+Alırken, iade ederken[`NameAscii`](../nameascii/).
 
-Ayar yaparken ayarlar[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) ve[`NameOther`](../nameother/) belirtilen değere.
+Ayarlarken, ayarlar[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) ve[`NameOther`](../nameother/) belirtilen değere.
 
 ## Örnekler
 
-Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
+Bir metin dizisinin font özelliğini kullanarak nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi formatını belirtin, ardından metin ekleyin.
+// Yazı tipi biçimlendirmesini belirtin, ardından metni ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -3,9 +3,9 @@ title: SaveOptions.UpdateLastPrintedProperty
 linktitle: UpdateLastPrintedProperty
 articleTitle: UpdateLastPrintedProperty
 second_title: Aspose.Words pour .NET
-description: SaveOptions UpdateLastPrintedProperty propriété. Obtient ou définit une valeur déterminant si leLastPrinted la propriété est mise à jour avant lenregistrement en C#.
+description: Optimisez la gestion de vos documents avec SaveOptions UpdateLastPrintedProperty. Contrôlez les mises à jour de LastPrinted pour une sauvegarde efficace et un flux de travail optimisé.
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
@@ -18,34 +18,16 @@ public bool UpdateLastPrintedProperty { get; set; }
 
 ## Exemples
 
-Montre comment mettre à jour la propriété « CreatedTime » d’un document lors de l’enregistrement.
+Montre comment mettre à jour la propriété « Dernière impression » d'un document lors de l'enregistrement.
 
 ```csharp
 Document doc = new Document();
-doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
 
-// Cet indicateur détermine si l'heure créée, qui est une propriété intégrée, est mise à jour.
-// Si oui, alors la date de l'opération de sauvegarde la plus récente du document
-// avec cet objet SaveOptions passé en paramètre est utilisé comme heure de création.
-DocSaveOptions saveOptions = new DocSaveOptions();
-saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
-
-doc.Save(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
-
-// Ouvrez le document enregistré, puis vérifiez la valeur de la propriété.
-doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx");
-
-Assert.AreNotEqual(isUpdateCreatedTimeProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.CreatedTime);
-```
-
-Montre comment mettre à jour la propriété « Dernière impression » d’un document lors de l’enregistrement.
-
-```csharp
-Document doc = new Document();
-doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
+DateTime lastPrinted = new DateTime(2019, 12, 20);
+doc.BuiltInDocumentProperties.LastPrinted = lastPrinted;
 
 // Cet indicateur détermine si la dernière date imprimée, qui est une propriété intégrée, est mise à jour.
-// Si oui, alors la date de l'opération de sauvegarde la plus récente du document
+// Si tel est le cas, alors la date de la dernière opération de sauvegarde du document
 // avec cet objet SaveOptions passé en paramètre est utilisé comme date d'impression.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
@@ -57,7 +39,10 @@ doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOpti
 // Ouvrez le document enregistré, puis vérifiez la valeur de la propriété.
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
-Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.LastPrinted);
+if (isUpdateLastPrintedProperty)
+    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+else
+    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
 ```
 
 ### Voir également

@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider Interface
 linktitle: IFieldUpdateCultureProvider
 articleTitle: IFieldUpdateCultureProvider
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider koppel. Bietet bei Implementierung aCultureInfo Objekt das während der Aktualisierung eines bestimmten Felds verwendet werden soll in C#.
+description: Entdecken Sie die Aspose.Words.Fields.IFieldUpdateCultureProvider-Schnittstelle. Verbessern Sie Feldaktualisierungen mit einem anpassbaren CultureInfo-Objekt für präzise Lokalisierung.
 type: docs
-weight: 2710
+weight: 3120
 url: /de/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-Bietet bei Implementierung aCultureInfo Objekt, das während der Aktualisierung eines bestimmten Felds verwendet werden soll.
+Bietet bei Implementierung eineCultureInfo Objekt, das während der Aktualisierung eines bestimmten Felds verwendet werden soll.
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -20,11 +20,11 @@ public interface IFieldUpdateCultureProvider
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Gibt a zurückCultureInfoObjekt, das während der Feldaktualisierung verwendet werden soll. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Gibt einenCultureInfo Objekt, das während der Aktualisierung des Felds verwendet werden soll. |
 
 ## Beispiele
 
-Zeigt, wie man eine Kultur angibt, die die Datums-/Uhrzeitformatierung für jedes Feld analysiert.
+Zeigt, wie eine Kultur angegeben wird, die die Datums-/Uhrzeitformatierung für jedes Feld analysiert.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Legen Sie einen Anbieter fest, der ein für jedes Feld spezifisches Kulturobjekt zurückgibt.
+    // Legen Sie einen Anbieter fest, der für jedes Feld ein spezifisches Kulturobjekt zurückgibt.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -52,7 +52,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Gibt ein CultureInfo-Objekt zurück, das während der Aktualisierung des Felds verwendet wird.
+    /// Gibt ein CultureInfo-Objekt zurück, das während der Aktualisierung des Felds verwendet werden soll.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

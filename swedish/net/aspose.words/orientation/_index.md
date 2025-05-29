@@ -3,9 +3,9 @@ title: Orientation Enum
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Orientation uppräkning. Anger sidorientering i C#.
+description: Upptäck Aspose.Words.Orientation-enum för sömlös kontroll över sidorientering. Förbättra din dokumentformatering med enkelhet och precision!
 type: docs
-weight: 4320
+weight: 5050
 url: /sv/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -20,30 +20,30 @@ public enum Orientation
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Portrait | `1` | Stående sidorientering (smal och lång). |
+| Portrait | `1` | Stående sidorientering (smal och hög). |
 | Landscape | `2` | Liggande sidorientering (bred och kort). |
 
 ## Exempel
 
-Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
+Visar hur man tillämpar och återställer inställningar för sidinställningar för avsnitt i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ändra sidinställningarna för byggarens nuvarande avsnitt och lägg till text.
+// Ändra sidinställningarna för den aktuella sektionen i skaparen och lägg till text.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Om vi startar ett nytt avsnitt med hjälp av en dokumentbyggare,
-// det kommer att ärva byggarens nuvarande sidinställningar.
+// den kommer att ärva skaparens nuvarande sidinställningar.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Vi kan återställa dess sidinställningar till deras standardvärden med "ClearFormatting"-metoden.
+// Vi kan återställa dess sidinställningar till standardvärdena med hjälp av metoden "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

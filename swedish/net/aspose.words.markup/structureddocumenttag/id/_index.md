@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för dettaSDT i C#.
+description: Upptäck egenskapen StructuredDocumentTag Id, en unik, skrivskyddad numerisk identifierare för effektiv SDT-hantering och förbättrad dokumentorganisation.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Anger ett unikt skrivskyddat beständigt numeriskt ID för detta**SDT**.
+Anger ett unikt skrivskyddat, beständigt numeriskt ID för detta**SDT**.
 
 ```csharp
 public int Id { get; }
@@ -18,13 +18,13 @@ public int Id { get; }
 
 ## Anmärkningar
 
-Id-attribut ska följa dessa regler:
+Id-attributet ska följa dessa regler:
 
-* Dokumentet ska endast behålla SDT-ID om hela dokumentet är klonat[`Clone`](../../../aspose.words/document/clone/).
-* Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om import inte orsakar konflikter med andra SDT Id i måldokumentet.
-* Om flera SDT-noder anger samma decimaltalsvärde för Id-attributet, så ska den första SDT i dokumentet behålla detta ursprungliga Id, och alla efterföljande SDT-noder ska ha nya identifierare tilldelade när dokumentet laddas.
-* Under fristående SDTINodeCloningListener) operation nytt unikt ID kommer att genereras för den klonade SDT-noden.
-* Om Id inte anges i källdokumentet ska SDT-noden ha en ny unik identifierare tilldelad när dokumentet laddas.
+* Dokumentet ska endast behålla SDT-ID:n om hela dokumentet klonas.[`Clone`](../../../aspose.words/document/clone/).
+* Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om importen inte orsakar konflikter med andra SDT-ID:n i måldokumentet.
+* Om flera SDT-noder anger samma decimaltalvärde för Id-attributet, , ska den första SDT:n i dokumentet behålla detta ursprungliga Id, och alla efterföljande SDT-noder ska få nya identifierare tilldelade när dokumentet laddas.
+* Under fristående SDTINodeCloningListener) operationen ett nytt unikt ID kommer att genereras för den klonade SDT-noden.
+* Om Id inte anges i källdokumentet ska SDT-noden få en ny unik identifierare tilldelad när dokumentet laddas.
 
 ## Exempel
 
@@ -33,48 +33,48 @@ Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändr
 ```csharp
 Document doc = new Document();
 
-// Skapa en strukturerad dokumenttagg som kommer att innehålla vanlig text.
+// Skapa en strukturerad dokumenttagg som innehåller vanlig text.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Ställ in titeln och färgen på ramen som visas när du för musen över den strukturerade dokumenttaggen i Microsoft Word.
+// Ange titel och färg på ramen som visas när du för muspekaren över taggen för det strukturerade dokumentet i Microsoft Word.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// Ställ in en tagg för denna strukturerade dokumenttagg, som är tillgänglig
+// Ange en tagg för denna strukturerade dokumenttagg, som är tillgänglig
 // som ett XML-element med namnet "tag", med strängen nedan i dess "@val"-attribut.
 tag.Tag = "MyPlainTextSDT";
 
-// Varje strukturerad dokumenttagg har ett slumpmässigt unikt ID.
-Assert.That(tag.Id, Is.Positive);
+// Varje tagg för ett strukturerat dokument har ett slumpmässigt unikt ID.
+Assert.IsTrue(tag.Id > 0);
 
-// Ställ in typsnittet för texten inuti den strukturerade dokumenttaggen.
+// Ange teckensnittet för texten inuti den strukturerade dokumenttaggen.
 tag.ContentsFont.Name = "Arial";
 
-// Ställ in typsnittet för texten i slutet av den strukturerade dokumenttaggen.
-// All text som vi skriver i dokumentets brödtext efter att ha flyttat ut ur taggen med piltangenterna kommer att använda detta teckensnitt.
+// Ange teckensnittet för texten i slutet av den strukturerade dokumenttaggen.
+// All text som vi skriver i dokumentets brödtext efter att ha flyttat oss ut ur taggen med piltangenterna kommer att använda detta teckensnitt.
 tag.EndCharacterFont.Name = "Arial Black";
 
-// Som standard är detta falskt och att trycka på enter när du är inne i en strukturerad dokumenttagg gör ingenting.
-// När satt till true kan vår strukturerade dokumenttagg ha flera rader.
+// Som standard är detta falskt och att trycka på Enter inuti en strukturerad dokumenttagg gör ingenting.
+// När den är satt till sant kan vår strukturerade dokumenttagg ha flera rader.
 
-// Ställ in egenskapen "Multiline" till "false" för att bara tillåta innehållet
-// av denna strukturerade dokumenttagg för att spänna över en enda rad.
-// Ställ in egenskapen "Multiline" till "true" för att tillåta taggen att innehålla flera rader med innehåll.
+// Sätt egenskapen "Multiline" till "false" för att endast tillåta innehållet
+// av denna strukturerade dokumenttagg för att sträcka sig över en enda rad.
+// Sätt egenskapen "Multiline" till "true" för att tillåta att taggen innehåller flera rader med innehåll.
 tag.Multiline = true;
 
 // Ställ in egenskapen "Appearance" till "SdtAppearance.Tags" för att visa taggar runt innehåll.
- // Som standard visas strukturerad dokumenttagg som BoundingBox.
+ // Som standard visas taggen för strukturerat dokument som BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(tag);
 
-// Infoga en klon av vår strukturerade dokumenttagg i ett nytt stycke.
+// Infoga en klon av vår tagg för strukturerat dokument i ett nytt stycke.
 StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Använd metoden "RemoveSelfOnly" för att ta bort en strukturerad dokumenttagg, samtidigt som dess innehåll behålls i dokumentet.
+// Använd metoden "RemoveSelfOnly" för att ta bort en strukturerad dokumenttagg, samtidigt som innehållet behålls i dokumentet.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

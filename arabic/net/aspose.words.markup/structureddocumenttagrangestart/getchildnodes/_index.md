@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart GetChildNodes طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق الأنواع المحددة في C#.
+description: اكتشف طريقة StructuredDocumentTagRangeStart GetChildNodes، التي توفر مجموعة ديناميكية من العقد الفرعية المخصصة للأنواع المحددة لديك.
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method
 
-إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق الأنواع المحددة.
+يعيد مجموعة حية من العقد الفرعية التي تطابق الأنواع المحددة.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)

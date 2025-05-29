@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.FontConfigSubstitution
 linktitle: FontConfigSubstitution
 articleTitle: FontConfigSubstitution
 second_title: Aspose.Words para .NET
-description: FontSubstitutionSettings FontConfigSubstitution propiedad. Configuraciones relacionadas con la regla de sustitución de configuración de fuentes en C#.
+description: Explora FontSubstitutionSettings para optimizar la configuración de fuentes. Descubre cómo optimizar la tipografía con reglas de sustitución efectivas para un mejor diseño.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Configuraciones relacionadas con la regla de sustitución de configuración de fuentes.
+Configuraciones relacionadas con la regla de sustitución de configuración de fuente.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// El objeto FontConfigSubstitutionRule funciona de forma diferente en plataformas Windows o no Windows.
+// El objeto FontConfigSubstitutionRule funciona de manera diferente en plataformas Windows y no Windows.
 // En Windows, no está disponible.
 if (isWindows)
 {

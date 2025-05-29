@@ -2,15 +2,15 @@
 title: CssSavingArgs.CssStream
 linktitle: CssStream
 articleTitle: CssStream
-second_title: Aspose.Words for .NET
-description: CssSavingArgs CssStream mülk. CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: CSSSavingArgs CssStream özelliğiyle CSS depolamanızı optimize ederek CSS verilerinizin tercih ettiğiniz akışa sorunsuz bir şekilde kaydedilmesini sağlayın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/csssavingargs/cssstream/
 ---
 ## CssSavingArgs.CssStream property
 
-CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir.
+CSS bilgilerinin kaydedileceği akışı belirtmenize olanak tanır.
 
 ```csharp
 public Stream CssStream { get; set; }
@@ -20,28 +20,28 @@ public Stream CssStream { get; set; }
 
 Bu özellik CSS bilgilerini bir akışa kaydetmenize olanak tanır.
 
-Varsayılan değer:`hükümsüz` . Bu özellik, CSS bilgilerinin bir dosyaya kaydedilmesini veya HTML belgesine gömülmesini engellemez. CSS'nin dışa aktarılmasını engellemek için şunu kullanın:[`IsExportNeeded`](../isexportneeded/) mülk.
+Varsayılan değer:`hükümsüz` Bu özellik, CSS bilgilerinin bir dosyaya kaydedilmesini veya HTML belgesine gömülmesini engellemez. CSS'nin dışa aktarılmasını engellemek için şunu kullanın:[`IsExportNeeded`](../isexportneeded/) mülk.
 
-Kullanma[`ICssSavingCallback`](../../icsssavingcallback/) CSS'yi başka bir ile değiştiremezsiniz. Yalnızca CSS'yi bir akışa kaydetmek için tasarlanmıştır.
+Kullanarak[`ICssSavingCallback`](../../icsssavingcallback/) CSS'yi ile değiştiremezsiniz. Bu yalnızca CSS'yi bir akışa kaydetmek için tasarlanmıştır.
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -53,7 +53,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -66,7 +66,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

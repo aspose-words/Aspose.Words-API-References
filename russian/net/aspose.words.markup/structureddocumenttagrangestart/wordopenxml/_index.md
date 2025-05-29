@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart WordOpenXML свойство. Получает строку представляющую XML содержащийся в узле вFlatOpc формат на С#.
+description: Откройте для себя свойство StructuredDocumentTagRangeStart в WordOpenXML. Получите доступ к данным XML в формате FlatOpc для улучшенного управления документами и их настройки.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/

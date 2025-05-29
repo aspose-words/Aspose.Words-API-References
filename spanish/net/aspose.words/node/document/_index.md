@@ -3,7 +3,7 @@ title: Node.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words para .NET
-description: Node Document propiedad. Obtiene el documento al que pertenece este nodo en C#.
+description: Descubra la propiedad Documento de nodo, acceda sin esfuerzo al documento vinculado a su nodo para una gestión de datos fluida y una productividad mejorada.
 type: docs
 weight: 20
 url: /es/net/aspose.words/node/document/
@@ -18,24 +18,24 @@ public virtual DocumentBase Document { get; }
 
 ## Observaciones
 
-El nodo siempre pertenece a un documento incluso si acaba de crearse y aún no se ha agregado al árbol, o si se ha eliminado del árbol.
+El nodo siempre pertenece a un documento incluso si acaba de ser creado y aún no se ha agregado al árbol, o si se ha eliminado del árbol.
 
 ## Ejemplos
 
-Muestra cómo crear un nodo y configurar su documento propietario.
+Muestra cómo crear un nodo y establecer su documento propietario.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Todavía no hemos agregado este párrafo como hijo a ningún nodo compuesto.
+// Aún no hemos añadido este párrafo como hijo a ningún nodo compuesto.
 Assert.IsNull(para.ParentNode);
 
 // Si un nodo es un tipo de nodo secundario apropiado de otro nodo compuesto,
-// podemos adjuntarlo como hijo solo si ambos nodos tienen el mismo documento de propietario.
-// El documento propietario es el documento que pasamos al constructor del nodo.
-// No hemos adjuntado este párrafo al documento, por lo que el documento no contiene su texto.
+//podemos adjuntarlo como hijo solo si ambos nodos tienen el mismo documento propietario.
+//El documento propietario es el documento que pasamos al constructor del nodo.
+//No hemos adjuntado este párrafo al documento, por lo que el documento no contiene su texto.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 

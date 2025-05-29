@@ -2,8 +2,8 @@
 title: DocumentPartSavingArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: DocumentPartSavingArgs Document mülk. Kaydedilen belge nesnesini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Kaydetme işlemi sırasında belge nesnesine erişmek ve onu yönetmek için DocumentPartSavingArgs özelliğini keşfedin; böylece iş akışınızın verimliliğini artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/documentpartsavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Örnekler
 
-Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
+Bir belgenin parçalara nasıl bölüneceğini ve kaydedileceğini gösterir.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -26,29 +26,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Belgeyi normal şekilde kaydedersek tek bir çıktı HTML'si olacaktır
+    // Belgeyi normal şekilde kaydedersek, bir HTML çıktısı olacaktır
     // kaynak belgenin tüm içeriğini içeren belge.
     // "DocumentSplitCriteria" özelliğini "DocumentSplitCriteria.SectionBreak" olarak ayarlayın
-    // belgemizi birden fazla HTML dosyasına kaydedin: her bölüm için bir tane.
+    // Belgemizi birden fazla HTML dosyasına kaydedelim: her bölüm için bir tane.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Belge bölümü kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri çağırma atayın.
+    // Belge parçası kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri arama atayın.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Eğer görseller içeren bir belgeyi html'ye dönüştürürsek, birden fazla görsele bağlantı veren bir html dosyası elde ederiz.
-    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
+    // Resim içeren bir belgeyi html'e dönüştürürsek, birden fazla resme bağlantı veren tek bir html dosyası elde ederiz.
+    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacak.
+    // Ayrıca her bir görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adlarını ayarlar.
+/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adları ayarlar.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -60,7 +60,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -83,7 +83,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
+        // Aşağıda Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
         // 1 - Çıktı parçası dosyası için bir dosya adı belirleyin:
         args.DocumentPartFileName = partFileName;
 
@@ -100,7 +100,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// HTML dönüştürmesinin oluşturduğu görüntü dosyaları için özel dosya adlarını ayarlar.
+/// HTML dönüşümünün oluşturduğu resim dosyaları için özel dosya adları ayarlar.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -113,8 +113,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
-        // 1 - Çıktı görüntü dosyası için bir dosya adı belirleyin:
+        // Aşağıda Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
+        // 1 - Çıkış görüntü dosyası için bir dosya adı belirleyin:
         args.ImageFileName = imageFileName;
 
         // 2 - Çıktı görüntü dosyası için özel bir akış oluşturun:

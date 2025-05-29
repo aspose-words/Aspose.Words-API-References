@@ -3,14 +3,14 @@ title: FieldDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words для .NET
-description: FieldDate UseSakaEraCalendar свойство. Получает или задает следует ли использовать календарь эпохи Сака на С#.
+description: Узнайте, как FieldDate улучшает ваши проекты с поддержкой календаря эпохи Сака. Легко устанавливайте или корректируйте форматы дат для бесшовной интеграции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fielddate/usesakaeracalendar/
 ---
 ## FieldDate.UseSakaEraCalendar property
 
-Получает или задает, следует ли использовать календарь эпохи Сака.
+Возвращает или задает, использовать ли календарь эпохи Сака.
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseSakaEraCalendar { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными видами календарей.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
-// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
+// Вставьте поле ДАТА и установите его тип календаря на последний, использовавшийся хост-приложением.
+// В Microsoft Word тип будет последним использованным в диалоговом окне Вставка -> Текст -> Дата и время.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

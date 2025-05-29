@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldEnd
 linktitle: VisitFieldEnd
 articleTitle: VisitFieldEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitFieldEnd طريقة. يتم استدعاؤه عندما ينتهي الحقل في المستند في C#.
+description: اكتشف طريقة DocumentVisitor VisitFieldEnd، وهي أساسية لمعالجة إنهاء الحقول في المستندات. حسّن كفاءة ترميزك اليوم!
 type: docs
 weight: 180
 url: /ar/net/aspose.words/documentvisitor/visitfieldend/
 ---
 ## DocumentVisitor.VisitFieldEnd method
 
-يتم استدعاؤه عندما ينتهي الحقل في المستند.
+يتم استدعاؤها عندما ينتهي حقل في المستند.
 
 ```csharp
 public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
@@ -18,11 +18,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldEnd | FieldEnd | الكائن الذي تتم زيارته. |
+| fieldEnd | FieldEnd | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## ملاحظات
 
@@ -38,17 +38,17 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة من جميع العقد الميدانية التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الحقل التي تم مواجهتها وأطفالها.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -74,7 +74,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -86,7 +86,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -98,7 +98,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -108,10 +108,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة للحقل.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة الحقل الخاصة بالعقد الفرعية.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

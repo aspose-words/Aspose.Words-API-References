@@ -3,7 +3,7 @@ title: FileFormatUtil.SaveFormatToLoadFormat
 linktitle: SaveFormatToLoadFormat
 articleTitle: SaveFormatToLoadFormat
 second_title: Aspose.Words pour .NET
-description: FileFormatUtil SaveFormatToLoadFormat méthode. Convertit unSaveFormat valeur à unLoadFormat valeur si possible en C#.
+description: Convertissez facilement SaveFormat en LoadFormat grâce à la méthode FileFormatUtil. Simplifiez la gestion de vos fichiers et améliorez la compatibilité dès aujourd'hui !
 type: docs
 weight: 90
 url: /fr/net/aspose.words/fileformatutil/saveformattoloadformat/
@@ -20,7 +20,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lance quand on ne peut pas convertir. |
+| ArgumentException | Lancer quand on ne peut pas convertir. |
 
 ## Exemples
 
@@ -29,7 +29,7 @@ Montre comment convertir un format de sauvegarde en son format de chargement cor
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Certains types de fichiers peuvent contenir des documents enregistrés, mais non chargés à l'aide d'Aspose.Words.
+// Certains types de fichiers peuvent contenir des documents enregistrés, mais pas chargés à partir d'Aspose.Words.
 // Si nous tentons de convertir un format de sauvegarde d'un tel type en un format de chargement, une exception sera levée.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```

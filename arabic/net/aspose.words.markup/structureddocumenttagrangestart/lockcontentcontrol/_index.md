@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart LockContentControl ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من حذف علامة المستند المنظمة هذه في C#.
+description: اكتشف كيف تعمل خاصية LockContentControl في StructuredDocumentTagRangeStart على تعزيز أمان المستند من خلال منع عمليات الحذف غير المرغوب فيها للعلامات الأساسية.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-عند الضبط على`حقيقي` ، ستمنع هذه الخاصية المستخدم من حذف علامة المستند المنظمة هذه.
+عند ضبطه على`حقيقي` ، ستمنع هذه الخاصية المستخدم من حذف علامة المستند المنظم هذه.
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -18,7 +18,7 @@ public bool LockContentControl { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -2,10 +2,10 @@
 title: Fill.OneColorGradient
 linktitle: OneColorGradient
 articleTitle: OneColorGradient
-second_title: Aspose.Words for .NET
-description: Fill OneColorGradient yöntem. Belirtilen dolguyu tek renkli bir degradeye ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınız için çarpıcı tek renkli degradeler oluşturmak üzere OneColorGradient yöntemini nasıl kullanacağınızı keşfedin. Projelerinizi zahmetsizce geliştirin!
 type: docs
-weight: 210
+weight: 220
 url: /tr/net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
@@ -18,9 +18,9 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| style | GradientStyle | Degrade stili[`GradientStyle`](../../gradientstyle/) |
-| variant | GradientVariant | Degrade varyantı[`GradientVariant`](../../gradientvariant/) |
-| degree | Double | Gradyan derecesi. 0,0 (koyu) ila 1,0 (açık) arasında bir değer olabilir. |
+| style | GradientStyle | Gradyan stili[`GradientStyle`](../../gradientstyle/) |
+| variant | GradientVariant | Gradyan varyantı[`GradientVariant`](../../gradientvariant/) |
+| degree | Double | Gradyan derecesi. 0.0 (koyu) ile 1.0 (açık) arasında bir değer olabilir. |
 
 ## Örnekler
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Degrade dolgunun ForeColor'unu kullanarak şekle Tek renkli degrade dolgu uygulayın.
+// ForeColor'ı degrade dolgu olarak kullanarak şekle tek renkli degrade dolgu uygulayın.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -40,12 +40,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Şekle iki renkli degrade dolgu uygulayın.
+// Şekle iki renkli degrade dolgusu uygula.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Degrade dolgunun BackColor'ını değiştirin.
+// Degrade dolgusunun BackColor'ını değiştir.
 shape.Fill.BackColor = Color.Yellow;
-// "GradientStyle.FromCorner/GradientStyle.FromCenter" için "GradientAngle"ın değiştiğini unutmayın
-// degrade dolgusu herhangi bir etki yaratmaz, yalnızca doğrusal degrade için çalışır.
+// "GradientStyle.FromCorner/GradientStyle.FromCenter" için "GradientAngle" değişikliklerine dikkat edin
+// degrade dolgunun herhangi bir etkisi olmaz, sadece doğrusal degrade için çalışır.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -53,7 +53,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// "GradientStyle" elde etmek istiyorsanız şekli DML kullanarak tanımlamak için uyumluluk seçeneğini kullanın,
+// "GradientStyle" elde etmek istiyorsanız, DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın.
 // Belge kaydedildikten sonra "GradientVariant" ve "GradientAngle" özellikleri.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
-Belirtilen rengi kullanarak, belirtilen dolguyu tek renkli bir degradeye ayarlar.
+Belirtilen dolguyu belirtilen rengi kullanarak tek renkli bir degradeye ayarlar.
 
 ```csharp
 public void OneColorGradient(Color color, GradientStyle style, GradientVariant variant, 
@@ -82,9 +82,9 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | color | Color | Degradeyi oluşturacak renk. |
-| style | GradientStyle | Degrade stili[`GradientStyle`](../../gradientstyle/) |
-| variant | GradientVariant | Degrade varyantı[`GradientVariant`](../../gradientvariant/) |
-| degree | Double | Gradyan derecesi. 0,0 (koyu) ila 1,0 (açık) arasında bir değer olabilir. |
+| style | GradientStyle | Gradyan stili[`GradientStyle`](../../gradientstyle/) |
+| variant | GradientVariant | Gradyan varyantı[`GradientVariant`](../../gradientvariant/) |
+| degree | Double | Gradyan derecesi. 0.0 (koyu) ile 1.0 (açık) arasında bir değer olabilir. |
 
 ## Örnekler
 
@@ -95,7 +95,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Degrade dolgunun ForeColor'unu kullanarak şekle Tek renkli degrade dolgu uygulayın.
+// ForeColor'ı degrade dolgu olarak kullanarak şekle tek renkli degrade dolgu uygulayın.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -104,12 +104,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Şekle iki renkli degrade dolgu uygulayın.
+// Şekle iki renkli degrade dolgusu uygula.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Degrade dolgunun BackColor'ını değiştirin.
+// Degrade dolgusunun BackColor'ını değiştir.
 shape.Fill.BackColor = Color.Yellow;
-// "GradientStyle.FromCorner/GradientStyle.FromCenter" için "GradientAngle"ın değiştiğini unutmayın
-// degrade dolgusu herhangi bir etki yaratmaz, yalnızca doğrusal degrade için çalışır.
+// "GradientStyle.FromCorner/GradientStyle.FromCenter" için "GradientAngle" değişikliklerine dikkat edin
+// degrade dolgunun herhangi bir etkisi olmaz, sadece doğrusal degrade için çalışır.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -117,7 +117,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// "GradientStyle" elde etmek istiyorsanız şekli DML kullanarak tanımlamak için uyumluluk seçeneğini kullanın,
+// "GradientStyle" elde etmek istiyorsanız, DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın.
 // Belge kaydedildikten sonra "GradientVariant" ve "GradientAngle" özellikleri.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

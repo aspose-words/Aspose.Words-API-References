@@ -2,15 +2,15 @@
 title: OfficeMath.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: OfficeMath Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz ziyaretçi yönetimi için OfficeMath Accept yöntemini keşfedin. Kolay entegrasyon ve gelişmiş verimlilikle iş akışınızı geliştirin!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.math/officemath/accept/
 ---
 ## OfficeMath.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) Office Math'ın all alt düğümleri ve çağrıları için[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) sonunda.
+Çağrılar[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/) Office Math ve çağrılarının all alt düğümleri için[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) sonunda.
 
 ## Örnekler
 
@@ -42,8 +42,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm OfficeMath düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm OfficeMath düğümlerinin ve bunların alt öğelerinin bir dize biçiminde bir haritasını oluşturur.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -105,7 +105,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

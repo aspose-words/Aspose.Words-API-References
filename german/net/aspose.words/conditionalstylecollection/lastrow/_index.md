@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words für .NET
-description: ConditionalStyleCollection LastRow eigendom. Ruft den Stil der letzten Zeile ab in C#.
+description: Entdecken Sie die LastRow-Eigenschaft von ConditionalStyleCollection, um den Stil der letzten Zeile einfach anzupassen und so die visuelle Attraktivität Ihrer Anwendung zu steigern.
 type: docs
 weight: 100
 url: /de/net/aspose.words/conditionalstylecollection/lastrow/
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

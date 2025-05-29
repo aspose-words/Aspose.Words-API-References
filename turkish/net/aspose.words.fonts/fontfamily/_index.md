@@ -2,10 +2,10 @@
 title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontFamily Sıralama. Yazı tipi ailesini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge stili ve biçimlendirmesi için çeşitli yazı tipi ailelerini zahmetsizce yönetmenin anahtarı olan Aspose.Words.Fonts.FontFamily enum'unu keşfedin.
 type: docs
-weight: 2910
+weight: 3340
 url: /tr/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -20,20 +20,20 @@ public enum FontFamily
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Auto | `0` | Genel bir aile adını belirtir. Bu ad, yazı tipi hakkında bilgi bulunmadığında veya önemli olmadığında kullanılır. Varsayılan yazı tipi kullanılır. |
-| Roman | `1` | Serifli orantılı bir yazı tipini belirtir. Bir örnek Times New Roman'dır. |
-| Swiss | `2` | Serifsiz orantılı bir yazı tipini belirtir. Bir örnek Arial. 'dir |
-| Modern | `3` | Serifli veya serifsiz tek aralıklı bir yazı tipini belirtir. Tek aralıklı yazı tipleri genellikle moderndir; örnekler arasında Pica, Elite ve Courier New yer alır. |
-| Script | `4` | El yazısına benzeyecek şekilde tasarlanmış bir yazı tipini belirtir; örnekler arasında Komut Dosyası ve El Yazısı bulunur. |
-| Decorative | `5` | Yenilikçi bir yazı tipini belirtir. Bir örnek Eski İngilizcedir. |
+| Auto | `0` | Genel bir aile adı belirtir. Bu ad, yazı tipi hakkında bilgi bulunmadığında veya önemli olmadığında kullanılır. Varsayılan yazı tipi kullanılır. |
+| Roman | `1` | Serifli orantılı bir yazı tipi belirtir. Bir örnek Times New Roman'dır. |
+| Swiss | `2` | Serifsiz orantılı bir yazı tipi belirtir. Bir örnek Arial'dır. |
+| Modern | `3` | Serifli veya serifsiz bir monospace yazı tipi belirtir. Monospace yazı tipleri genellikle moderndir; örnekler arasında Pica, Elite ve Courier New bulunur. |
+| Script | `4` | El yazısına benzeyecek şekilde tasarlanmış bir yazı tipi belirtir; örnekler arasında Script ve Cursive bulunur. |
+| Decorative | `5` | Yeni bir yazı tipi belirtir. Bir örnek Eski İngilizce'dir. |
 
 ## Notlar
 
-Yazı tipi ailesi, ortak çizgi genişliğine ve serif özelliklerine sahip bir yazı tipi kümesidir.
+Bir yazı tipi ailesi, ortak çizgi genişliği ve serif özelliklerine sahip yazı tiplerinin kümesidir.
 
 ## Örnekler
 
-Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
+Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve bunların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -46,7 +46,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alternatif adlar genellikle boştur.
+        // Alt adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

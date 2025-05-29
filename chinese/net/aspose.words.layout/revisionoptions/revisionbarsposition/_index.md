@@ -2,10 +2,10 @@
 title: RevisionOptions.RevisionBarsPosition
 linktitle: RevisionBarsPosition
 articleTitle: RevisionBarsPosition
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionOptions RevisionBarsPosition 财产. 获取或设置修订栏的渲染位置 默认值为Outside 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何自定义 RevisionOptions 中的 RevisionBarsPosition 属性，以增强文档的外观。默认设置为“Outside”。
 type: docs
-weight: 140
+weight: 160
 url: /zh/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
 ## RevisionOptions.RevisionBarsPosition property
@@ -16,9 +16,34 @@ url: /zh/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-## 评论
+### 例外
 
-的价值观Center和Inside 是不允许的，会导致ArgumentOutOfRangeException。
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | 价值观Center和Inside不允许使用 。 |
+
+## 例子
+
+展示如何改变渲染输出文档中修订版本的外观。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// 插入修订，然后将所有修订的颜色更改为绿色。
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// 删除出现在每个修订行左侧的栏。
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
+
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
+```
 
 ### 也可以看看
 

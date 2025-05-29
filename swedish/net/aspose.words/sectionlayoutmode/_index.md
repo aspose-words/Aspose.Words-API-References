@@ -3,14 +3,14 @@ title: SectionLayoutMode Enum
 linktitle: SectionLayoutMode
 articleTitle: SectionLayoutMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.SectionLayoutMode uppräkning. Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende i C#.
+description: Upptäck enumerationen Aspose.Words.SectionLayoutMode för att optimera avsnittslayouter och förbättra dokumentrutnätets beteende för förbättrad formateringskontroll.
 type: docs
-weight: 5750
+weight: 6580
 url: /sv/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
 
-Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende.
+Anger layoutläget för ett avsnitt, vilket gör det möjligt att definiera dokumentrutnätets beteende.
 
 ```csharp
 public enum SectionLayoutMode
@@ -21,23 +21,23 @@ public enum SectionLayoutMode
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Default | `0` | Anger att inget dokumentrutnät ska tillämpas på innehållet i motsvarande avsnitt i dokumentet. |
-| Grid | `1` | Anger att motsvarande sektion ska ha både den extra radstigningen och teckenpitch lagt till varje rad och tecken inom sig för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer inte att justeras automatiskt med rutnät på skriva. |
-| LineGrid | `2` | Anger att motsvarande sektion ska ha ytterligare radbredd lagt till varje rad inom it för att behålla det angivna antalet rader per sida. |
-| SnapToChars | `3` | Anger att motsvarande sektion ska ha både den extra radstigningen och tecknet pitch till varje rad och tecken i den för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer automatiskt att justeras med rutnät när du skriver. |
+| Grid | `1` | Anger att motsvarande avsnitt ska ha både den extra radavståndet och teckenavståndet tillagt för varje rad och tecken i det för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken justeras inte automatiskt med rutnät vid inmatning. |
+| LineGrid | `2` | Anger att motsvarande avsnitt ska ha ytterligare radavstånd tillagt för varje rad inom det. för att bibehålla det angivna antalet rader per sida. |
+| SnapToChars | `3` | Anger att motsvarande avsnitt ska ha både extra radavstånd och teckenavstånd tillagt för varje rad och tecken i det för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken justeras automatiskt med rutnätet vid inmatning. |
 
 ## Exempel
 
-Visar hur man anger a för antalet tecken som varje rad kan ha.
+Visar hur man anger ett för antalet tecken som varje rad får innehålla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aktivera pitching och använd den sedan för att ställa in antalet tecken per rad i det här avsnittet.
+// Aktivera radbreddning och använd den sedan för att ange antalet tecken per rad i det här avsnittet.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Antalet tecken beror också på storleken på teckensnittet.
+// Antalet tecken beror också på teckenstorleken.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -47,7 +47,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Visar hur man anger en gräns för antalet rader som varje sida kan ha.
+Visar hur man anger en gräns för antalet rader som varje sida får ha.
 
 ```csharp
 Document doc = new Document();

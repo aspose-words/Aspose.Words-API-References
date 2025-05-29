@@ -3,14 +3,14 @@ title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
 second_title: Aspose.Words für .NET
-description: PageInfo GetDotNetPaperSize methode. Ruft die abPaperSize Objekt das zum Drucken der dadurch dargestellten Seite geeignet istPageInfo  in C#.
+description: Entdecken Sie die Methode GetDotNetPaperSize in PageInfo, mit der Sie mühelos das ideale PaperSize-Objekt für den nahtlosen Seitendruck abrufen können.
 type: docs
 weight: 80
 url: /de/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-Ruft die abPaperSize Objekt, das zum Drucken der dadurch dargestellten Seite geeignet ist[`PageInfo`](../) .
+Ruft diePaperSize Objekt geeignet zum Drucken die Seite, die durch dieses[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -22,7 +22,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### Rückgabewert
 
-Ein Objekt, das Sie im .NET-Druckframework verwenden können, um das Papierformat anzugeben.
+Ein Objekt, das Sie im .NET-Druckframework verwenden können, um die Papiergröße festzulegen.
 
 ## Beispiele
 
@@ -72,15 +72,15 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// Wird aufgerufen, bevor jede Seite gedruckt wird.
+        /// Wird vor dem Drucken jeder Seite aufgerufen.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-         // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte haben, die Seiten mit unterschiedlichen Größen angeben.
-         // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code zuvor auf
-        // jede Seite wird gedruckt, was uns die Möglichkeit gibt anzugeben, wie die aktuelle Seite gedruckt werden soll.
+            // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte enthalten, die Seiten mit unterschiedlichen Größen angeben,
+            // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code auf, bevor
+        // Jede Seite wird gedruckt, was uns die Möglichkeit gibt, anzugeben, wie die aktuelle Seite gedruckt werden soll.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
@@ -91,17 +91,17 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// Wird für jede Seite aufgerufen, um sie zum Drucken zu rendern.
+        /// Wird für jede Seite aufgerufen, um sie für den Druck zu rendern.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Die Aspose.Words-Rendering-Engine erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers gezeichnet wird.
-        // Im Drucker wird ein harter Rand vorhanden sein, der jede Seite rendert. Wir müssen diesen harten Spielraum ausgleichen.
+        // Die Rendering-Engine von Aspose.Words erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers aus gezeichnet wird.
+        // Der Drucker verfügt über einen festen Rand, der jede Seite rendert. Wir benötigen diesen Abstand.
         float hardOffsetX, hardOffsetY;
 
-        // Unten finden Sie zwei Möglichkeiten, einen harten Rand festzulegen.
+        // Unten sind zwei Möglichkeiten zum Festlegen eines festen Rands aufgeführt.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 – Über die Eigenschaft „PageSettings“.
@@ -110,7 +110,7 @@ public class MyPrintDocument : PrintDocument
         }
         else
         {
-            // 2 – Verwendung unserer eigenen Werte, wenn die Eigenschaft „PageSettings“ nicht verfügbar ist.
+            // 2 – Verwenden unserer eigenen Werte, wenn die Eigenschaft „PageSettings“ nicht verfügbar ist.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

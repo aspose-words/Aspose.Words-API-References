@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection Add metod. Lägger till ett objekt i slutet av den här samlingen i C#.
+description: Förbättra enkelt din datahantering med OdsoRecipientDataCollections tilläggsmetod – lägg snabbt till objekt för att effektivisera din insamlingsprocess.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,11 +18,11 @@ public int Add(OdsoRecipientData value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | OdsoRecipientData | Objektet att lägga till. Kan inte vara`null`. |
+| value | OdsoRecipientData | Objektet som ska läggas till. Kan inte vara`null`. |
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

@@ -3,14 +3,14 @@ title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
 second_title: Aspose.Words per .NET
-description: FieldIncludeText XslTransformation proprietà. Ottiene o imposta il percorso della trasformazione XSL per formattare i dati XML in C#.
+description: Scopri la proprietà FieldIncludeText XslTransformation per gestire facilmente la formattazione dei dati XML con trasformazioni XSL personalizzabili. Migliora la presentazione dei tuoi dati!
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldincludetext/xsltransformation/
 ---
 ## FieldIncludeText.XslTransformation property
 
-Ottiene o imposta il percorso della trasformazione XSL per formattare i dati XML.
+Ottiene o imposta la posizione della trasformazione XSL per formattare i dati XML.
 
 ```csharp
 public string XslTransformation { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Di seguito sono riportati due modi per utilizzare i campi INCLUDETEXT per visualizzare il contenuto di un file XML nel file system locale.
-    // 1 - Esegue una trasformazione XSL su un documento XML:
+    // 1 - Esegui una trasformazione XSL su un documento XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utilizza un XPath per prendere elementi specifici da un documento XML:
+    // 2 - Utilizzare un XPath per acquisire elementi specifici da un documento XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo INCLUDETEXT con proprietà personalizzate.
+/// Utilizzare un generatore di documenti per inserire un campo INCLUDETEXT con proprietà personalizzate.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

@@ -2,15 +2,15 @@
 title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
-second_title: Aspose.Words for .NET
-description: PageSetup BorderDistanceFrom mülk. Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleyen metinden mi ölçüldüğünü belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Hassas belge biçimlendirmesi için sayfa kenarlığı ölçülerini kontrol etmek üzere PageSetup BorderDistanceFrom özelliğini keşfedin. Düzeninizi bugün geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleyen metinden mi ölçüldüğünü belirten bir değer alır veya ayarlar.
+Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleyen metinden mi ölçüldüğünü gösteren bir değer alır veya ayarlar.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -18,7 +18,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ## Örnekler
 
-İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
+İlk sayfanın üst kısmına geniş mavi bantlı bir kenarlığın nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

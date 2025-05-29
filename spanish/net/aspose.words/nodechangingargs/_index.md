@@ -3,16 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: Aspose.Words para .NET
-description: Aspose.Words.NodeChangingArgs clase. Proporciona datos para los métodos delINodeChangingCallback interfaz en C#.
+description: Descubra la clase Aspose.Words.NodeChangingArgs, diseñada para optimizar el procesamiento de documentos con una integración fluida con INodeChangingCallback. ¡Optimice su flujo de trabajo hoy mismo!
 type: docs
-weight: 4190
+weight: 4880
 url: /es/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-Proporciona datos para los métodos del[`INodeChangingCallback`](../inodechangingcallback/) interfaz.
+Proporciona datos para los métodos de la[`INodeChangingCallback`](../inodechangingcallback/) interfaz.
 
-Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Artículo de documentación.
 
 ```csharp
 public class NodeChangingArgs
@@ -37,8 +37,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Establece la devolución de llamada de cambio de nodo para una implementación personalizada,
-    // luego agrega/elimina nodos para que genere un registro.
+    // Establezca la devolución de llamada de cambio de nodo en una implementación personalizada,
+    // luego agrega/elimina nodos para generar un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -53,8 +53,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Registra la fecha y hora de cada inserción y eliminación de nodos.
-/// Establece un nombre/tamaño de fuente personalizado para el contenido del texto de los nodos Ejecutar.
+/// Registra la fecha y hora de la inserción y eliminación de cada nodo.
+/// Establece un nombre y tamaño de fuente personalizado para el contenido de texto de los nodos Ejecutar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

@@ -3,9 +3,9 @@ title: Shape.HasSmartArt
 linktitle: HasSmartArt
 articleTitle: HasSmartArt
 second_title: Aspose.Words per .NET
-description: Shape HasSmartArt proprietà. RestituisceVERO se questoShape ha un oggetto SmartArt in C#.
+description: Scopri se la tua forma include un oggetto SmartArt con la proprietà HasSmartArt. Sblocca nuove possibilità di design creativo per i tuoi progetti!
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property

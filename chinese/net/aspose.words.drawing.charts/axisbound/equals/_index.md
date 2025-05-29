@@ -2,8 +2,8 @@
 title: AxisBound.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: AxisBound Equals 方法. 确定指定对象的值是否等于当前对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 AxisBound Equals 方法，轻松检查对象的值是否与当前值匹配，提高编码效率和准确性。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/axisbound/equals/

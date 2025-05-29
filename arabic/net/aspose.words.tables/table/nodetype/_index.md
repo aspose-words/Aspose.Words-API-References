@@ -3,7 +3,7 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: Table NodeType ملكية. إرجاعTable  في C#.
+description: اكتشف خاصية Table NodeType التي تقوم بإرجاع بيانات الجدول بكفاءة، مما يعزز إدارة البيانات وتنظيمها لتحقيق تكامل سلس.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.tables/table/nodetype/
@@ -18,22 +18,22 @@ public override NodeType NodeType { get; }
 
 ## أمثلة
 
-يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
+يوضح كيفية التنقل عبر شجرة العقد المركبة من العقد الفرعية.
 
 ```csharp
 public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // أي عقدة يمكن أن تحتوي على عقد فرعية، مثل المستند نفسه، تكون مركبة.
+    // أي عقدة يمكنها أن تحتوي على عقد فرعية، مثل المستند نفسه، هي عقدة مركبة.
     Assert.True(doc.IsComposite);
 
-    // استدعاء الوظيفة العودية التي ستمر عبر جميع العقد الفرعية للعقدة المركبة وتطبعها.
+    // استدعاء الدالة التكرارية التي ستقوم بالمرور وطباعة جميع العقد الفرعية للعقدة المركبة.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// يجتاز شجرة العقدة بشكل متكرر أثناء طباعة نوع كل عقدة
+/// يتنقل بشكل متكرر عبر شجرة العقد أثناء طباعة نوع كل عقدة
 /// مع مسافة بادئة تعتمد على العمق بالإضافة إلى محتويات جميع العقد المضمنة.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // العودة إلى العقدة إذا كانت عقدة مركبة. بخلاف ذلك، قم بطباعة محتوياتها إذا كانت عقدة مضمنة.
+        // كرر العملية في العقدة إذا كانت عقدة مركبة. وإلا، فاطبع محتوياتها إذا كانت عقدة مضمنة.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -71,11 +71,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كأطفال.
+        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كخلايا فرعية.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فما هو العمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -87,10 +87,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
+/// يحسب مستوى الجدول المتداخل داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
-/// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
+/// عدد صحيح يشير إلى عمق التعشيش للجدول (عدد عقد الجدول الرئيسي).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -107,20 +107,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
-/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
+/// يحدد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالمرور بشكل متكرر عبر هذه الجداول للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
-/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يعود صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يتم إرجاع القيمة false إذا لم تحتوي أي خلايا في الجدول على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

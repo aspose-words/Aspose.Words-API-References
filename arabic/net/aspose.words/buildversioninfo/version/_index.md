@@ -3,14 +3,14 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words لـ .NET
-description: BuildVersionInfo Version ملكية. الحصول على إصدار المنتج في C#.
+description: اكتشف خاصية BuildVersionInfo Version للوصول بسهولة إلى إصدار المنتج وإدارته لتحسين أداء البرنامج وموثوقيته.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/buildversioninfo/version/
 ---
 ## BuildVersionInfo.Version property
 
-الحصول على إصدار المنتج.
+يحصل على إصدار المنتج.
 
 ```csharp
 public static string Version { get; }
@@ -18,11 +18,11 @@ public static string Version { get; }
 
 ## ملاحظات
 
-إصدار المنتج بالتنسيق "Major.Minor.Hotfix.0".
+إصدار المنتج يأتي بالتنسيق "Major.Minor.Hotfix.0".
 
 ## أمثلة
 
-يوضح كيفية عرض معلومات حول الإصدار المثبت لديك من Aspose.Words.
+يوضح لك كيفية عرض المعلومات حول إصدار Aspose.Words المثبت لديك.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

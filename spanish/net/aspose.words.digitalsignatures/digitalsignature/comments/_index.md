@@ -3,7 +3,7 @@ title: DigitalSignature.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words para .NET
-description: DigitalSignature Comments propiedad. Obtiene el comentario del propósito de la firma en C#.
+description: Descubra la propiedad Comentarios de Firma Digital para optimizar su proceso de firma con comentarios claros sobre el propósito. ¡Mejore la eficiencia y la claridad de sus documentos!
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

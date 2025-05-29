@@ -3,14 +3,14 @@ title: IResourceLoadingCallback Interface
 linktitle: IResourceLoadingCallback
 articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback interfaccia. Implementa questa interfaccia se desideri controllare il modo in cui Aspose.Words carica le risorse esterne quando importi un documento e inserisci immagini utilizzandoDocumentBuilder  in C#.
+description: Controlla il caricamento di risorse esterne in Aspose.Words con l'interfaccia IResourceLoadingCallback. Migliora l'importazione di documenti e l'inserimento di immagini in modo fluido.
 type: docs
-weight: 3640
+weight: 4090
 url: /it/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-Implementa questa interfaccia se desideri controllare il modo in cui Aspose.Words carica le risorse esterne quando importi un documento e inserisci immagini utilizzando[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+Implementa questa interfaccia se vuoi controllare come Aspose.Words carica risorse esterne quando importi un documento e inserisci immagini utilizzando[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -24,7 +24,7 @@ public interface IResourceLoadingCallback
 
 ## Esempi
 
-Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
+Mostra come personalizzare il processo di caricamento di risorse esterne in un documento.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -34,7 +34,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Le immagini solitamente vengono inserite utilizzando un URI o un array di byte.
+    // Le immagini vengono solitamente inserite tramite un URI o un array di byte.
     // Ogni istanza di caricamento di una risorsa chiamerà il metodo ResourceLoading del nostro callback.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -46,14 +46,14 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
-/// Ciò separerà la logica di caricamento dell'immagine dal resto della costruzione del documento.
+/// Consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
+/// In questo modo la logica di caricamento delle immagini verrà separata dal resto della costruzione del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Se questo callback incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
+        // Se questo callback incontra una delle abbreviazioni dell'immagine durante il caricamento di un'immagine,
         // applicherà una logica univoca per ogni abbreviazione definita invece di trattarla come un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

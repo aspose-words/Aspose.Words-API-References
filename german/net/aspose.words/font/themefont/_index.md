@@ -3,14 +3,14 @@ title: Font.ThemeFont
 linktitle: ThemeFont
 articleTitle: ThemeFont
 second_title: Aspose.Words für .NET
-description: Font ThemeFont eigendom. Ruft die Designschriftart im angewendeten Schriftartenschema ab das damit verknüpft ist oder legt diese festFont Objekt in C#.
+description: Entdecken Sie, wie Sie Designschriften mühelos mit der Font ThemeFont-Eigenschaft verwalten. Verschönern Sie Ihr Design mit anpassbaren Schriftarten für einen eleganten Look!
 type: docs
-weight: 470
+weight: 480
 url: /de/net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
 
-Ruft die Designschriftart im angewendeten Schriftartenschema ab, das damit verknüpft ist, oder legt diese fest[`Font`](../) Objekt.
+Ruft die Designschriftart im angewendeten Schriftartschema ab oder legt sie fest, die mit diesem verknüpft ist.[`Font`](../) Objekt.
 
 ```csharp
 public ThemeFont ThemeFont { get; set; }
@@ -18,7 +18,7 @@ public ThemeFont ThemeFont { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Themenstil erstellt und verwendet wird.
+Zeigt, wie man einen Themenstil erstellt und verwendet.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Erstellen Sie einen Stil mit den Schriftarteigenschaften des Themas.
+// Erstellen Sie einen Stil mit den Schrifteigenschaften des Designs.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -41,7 +41,7 @@ Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 ```csharp
 Document doc = new Document();
 
-// Schriftarten für standardmäßig verwendete Sprachen definieren.
+// Definieren Sie Schriftarten für die standardmäßig verwendeten Sprachen.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -49,7 +49,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Wir können Schriftart und Farbe des Themas anstelle von Standardwerten verwenden.
+// Wir können die Schriftart und Farbe des Designs anstelle der Standardwerte verwenden.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -72,7 +72,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Es gibt mehrere Möglichkeiten, Schriftart und Farbe zurückzusetzen.
-// 1 - Durch Festlegen von ThemeFont.None/ThemeColor.None:
+// 1 – Durch Festlegen von ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -94,7 +94,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 – Durch Festlegen von Schriftarten/Farbnamen, die nicht zum Thema gehören:
+// 2 – Durch Festlegen von Schriftart-/Farbnamen, die nicht zum Design gehören:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

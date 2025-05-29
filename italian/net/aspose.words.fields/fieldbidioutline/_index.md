@@ -3,9 +3,9 @@ title: FieldBidiOutline Class
 linktitle: FieldBidiOutline
 articleTitle: FieldBidiOutline
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldBidiOutline classe. Implementa il campo BIDIOUTLINE in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldBidiOutline per un'implementazione fluida del campo BIDIOUTLINE, migliorando le capacità di elaborazione dei documenti.
 type: docs
-weight: 1650
+weight: 2060
 url: /it/net/aspose.words.fields/fieldbidioutline/
 ---
 ## FieldBidiOutline class
@@ -30,25 +30,25 @@ public class FieldBidiOutline : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
@@ -56,7 +56,7 @@ Questo campo è identico al campo AUTONUMLGL, ad eccezione del separatore che de
 
 ## Esempi
 
-Mostra come creare elenchi compatibili con la lingua da destra a sinistra con i campi BIDIOUTLINE.
+Mostra come creare elenchi compatibili con le lingue con scrittura da destra a sinistra con campi BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// Aggiungi altri due campi BIDIOUTLINE, che visualizzeranno ".2" e ".3".
+// Aggiungere altri due campi BIDIOUTLINE, che visualizzeranno ".2" e ".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
@@ -83,7 +83,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 
 // Se abilitiamo una lingua di modifica da destra a sinistra in Microsoft Word, i nostri campi visualizzeranno numeri.
-// Altrimenti, verrà visualizzato "###".
+// Altrimenti verrà visualizzato "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 

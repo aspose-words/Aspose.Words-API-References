@@ -2,15 +2,15 @@
 title: FieldFileName.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
-second_title: Aspose.Words for .NET
-description: FieldFileName IncludeFullPath mülk. Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFileName IncludeFullPath özelliğini keşfedin, gelişmiş dosya işleme ve organizasyonu için özelleştirilebilir ayarlarla dosya yollarını kolayca yönetin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldfilename/includefullpath/
 ---
 ## FieldFileName.IncludeFullPath property
 
-Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar.
+Tam dosya yolu adının eklenip eklenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeFullPath { get; set; }
 
 ## Örnekler
 
-FILENAME alanının varsayılan değerini geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
+FILENAME alanı için varsayılan değeri geçersiz kılmak üzere FieldOptions'ın nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -36,7 +36,7 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// Varsayılan olarak, DOSYA ADI alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
+// Varsayılan olarak, FILENAME alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
 // Tam dosya yolunu göstermesi için bir bayrak ayarlayabiliriz.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
@@ -44,8 +44,8 @@ field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Bu özelliğe ayrıca bir değer de atayabiliriz.
-// DOSYA ADI alanında görüntülenen değeri geçersiz kılın.
+// Bu özellik için bir değer de ayarlayabiliriz
+// FILENAME alanının gösterdiği değeri geçersiz kıl.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 

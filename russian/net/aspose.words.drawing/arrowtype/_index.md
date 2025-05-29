@@ -3,14 +3,14 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.ArrowType перечисление. Указывает тип стрелки в конце строки на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.ArrowType, чтобы настроить стили стрелок для концов линий, повысив визуальную привлекательность и точность вашего документа.
 type: docs
-weight: 490
+weight: 730
 url: /ru/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-Указывает тип стрелки в конце строки.
+Указывает тип стрелки на конце линии.
 
 ```csharp
 public enum ArrowType
@@ -20,24 +20,24 @@ public enum ArrowType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | В конце линии нет стрелки. |
+| None | `0` | Линия не имеет стрелки на конце. |
 | Arrow | `1` | Стрелка представляет собой сплошной треугольник. |
 | Stealth | `2` | Стрела является «скрытой» стрелой. |
-| Diamond | `3` | Конец линии представляет собой сплошной ромб. |
-| Oval | `4` | Конец линии представляет собой сплошной овал. |
-| Open | `5` | Стрелка представляет собой открытую стрелку. |
+| Diamond | `3` | Конец линии — сплошной ромб. |
+| Oval | `4` | Конец линии — сплошной овал. |
+| Open | `5` | Стрелка открытая. |
 | Default | `0` | То же, что иNone . |
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -87,8 +87,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

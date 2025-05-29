@@ -3,9 +3,9 @@ title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.FrameFormat clase. Representa el formato relacionado con el marco para un párrafo en C#.
+description: Descubra la clase Aspose.Words.FrameFormat para el formato avanzado de marcos en párrafos. Mejore el diseño de sus documentos con una integración y flexibilidad perfectas.
 type: docs
-weight: 3070
+weight: 3500
 url: /es/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -25,7 +25,7 @@ public class FrameFormat
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Obtiene la alineación horizontal del marco especificado. |
 | [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Obtiene la distancia horizontal entre un marco y el texto circundante, en puntos. |
 | [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Obtiene la distancia horizontal entre el borde del marco y el elemento especificado por el[`RelativeHorizontalPosition`](./relativehorizontalposition/) propiedad. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Devoluciones`verdadero` si el párrafo es un marco. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Devuelve`verdadero` si el párrafo es un marco. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Obtiene la posición horizontal relativa de un marco. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Obtiene la posición vertical relativa de un marco. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Obtiene la alineación vertical del marco especificado. |
@@ -35,13 +35,13 @@ public class FrameFormat
 
 ## Observaciones
 
-Este objeto siempre se crea. Si un párrafo es un marco, todas las propiedades contendrán los valores respectivos; de lo contrario, todas las propiedades se establecen en sus valores predeterminados.
+Este objeto se crea siempre. Si un párrafo es un marco, todas las propiedades contendrán sus valores respectivos; de lo contrario, todas las propiedades se establecen con sus valores predeterminados.
 
-Usar[`IsFrame`](./isframe/) para comprobar si el párrafo es un marco.
+Usar[`IsFrame`](./isframe/)para comprobar si el párrafo es un marco.
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

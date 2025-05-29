@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.ExportEmbeddedCss
 linktitle: ExportEmbeddedCss
 articleTitle: ExportEmbeddedCss
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions ExportEmbeddedCss propriété. Spécifie si le CSS Cascading Style Sheet doit être intégré dans le document HTML en C#.
+description: Découvrez comment la propriété ExportEmbeddedCss de HtmlFixedSaveOptions améliore vos documents HTML en intégrant du CSS pour un style fluide. Optimisez vos pages web dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -18,16 +18,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ## Exemples
 
-Montre comment déterminer où stocker les feuilles de style CSS lors de l’exportation d’un document au format HTML.
+Montre comment déterminer où stocker les feuilles de style CSS lors de l'exportation d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Lorsque nous exportons un document au format HTML, Aspose.Words créera également une feuille de style CSS pour formater le document.
-// Définition du flag "ExportEmbeddedCss" sur "true" enregistre la feuille de style CSS dans un fichier .css,
-// et créez un lien vers le fichier à partir du document HTML à l'aide d'un <link> élément.
-// Définir l'indicateur sur "false" intégrera la feuille de style CSS dans le document HTML,
-// qui ne créera qu'un seul fichier au lieu de deux.
+// En définissant l'indicateur « ExportEmbeddedCss » sur « true », enregistrez la feuille de style CSS dans un fichier .css,
+// et créez un lien vers le fichier à partir du document HTML à l'aide d'un élément <link>.
+// Définir l'indicateur sur « false » intégrera la feuille de style CSS dans le document HTML,
+// qui créera un seul fichier au lieu de deux.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

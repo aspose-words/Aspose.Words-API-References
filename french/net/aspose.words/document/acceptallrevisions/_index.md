@@ -3,9 +3,9 @@ title: Document.AcceptAllRevisions
 linktitle: AcceptAllRevisions
 articleTitle: AcceptAllRevisions
 second_title: Aspose.Words pour .NET
-description: Document AcceptAllRevisions méthode. Accepte toutes les modifications suivies dans le document en C#.
+description: Optimisez votre processus d'édition avec la méthode AcceptAllRevisions, en acceptant sans effort toutes les modifications suivies dans votre document pour une version finale soignée.
 type: docs
-weight: 520
+weight: 540
 url: /fr/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method
@@ -31,13 +31,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Modifiez le document tout en suivant les modifications pour créer quelques révisions.
 doc.StartTrackRevisions("John Doe");
 builder.Write("Hello world! ");
-builder.Write("Hello again! "); 
+builder.Write("Hello again! ");
 builder.Write("This is another revision.");
 doc.StopTrackRevisions();
 
 Assert.AreEqual(3, doc.Revisions.Count);
 
-// Nous pouvons parcourir chaque révision et l'accepter/rejeter dans le cadre de notre document.
+// Nous pouvons parcourir chaque révision et l'accepter/la rejeter comme faisant partie de notre document.
 // Si nous savons que nous souhaitons accepter chaque révision, nous pouvons le faire plus simplement en appelant cette méthode.
 doc.AcceptAllRevisions();
 

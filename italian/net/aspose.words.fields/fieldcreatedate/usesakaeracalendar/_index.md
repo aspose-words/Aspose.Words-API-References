@@ -3,7 +3,7 @@ title: FieldCreateDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words per .NET
-description: FieldCreateDate UseSakaEraCalendar proprietà. Ottiene o imposta se utilizzare il calendario dellera Saka in C#.
+description: Scopri la proprietà FieldCreateDate UseSakaEraCalendar per gestire facilmente le impostazioni del calendario Saka Era nelle tue applicazioni per una migliore gestione delle date.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/

@@ -2,15 +2,15 @@
 title: ColorPrintMode Enum
 linktitle: ColorPrintMode
 articleTitle: ColorPrintMode
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Rendering.ColorPrintMode 枚举. 指定如果设备支持彩色打印如何打印非彩色页面 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Rendering.ColorPrintMode 枚举，优化彩色打印。控制非彩色页面的打印方式，提升文档质量。
 type: docs
-weight: 4540
+weight: 5270
 url: /zh/net/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enumeration
 
-指定如果设备支持彩色打印，如何打印非彩色页面。
+如果设备支持彩色打印，则指定如何打印非彩色页面。
 
 ```csharp
 public enum ColorPrintMode
@@ -25,14 +25,14 @@ public enum ColorPrintMode
 
 ## 例子
 
-演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
+显示如何选择页面范围和打印机来打印文档，然后调出打印预览。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// 调用“Show”方法使打印预览表单显示在顶部。
+// 调用“Show”方法让打印预览表单显示在顶部。
 previewDlg.Show();
 
 // 使用文档中的页数初始化打印对话框。
@@ -46,7 +46,7 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// 创建 .NET 打印文档的“Aspose.Words”实现，
+// 创建.NET打印文档的“Aspose.Words”实现，
 // 然后从对话框中传递打印机设置。
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
@@ -65,7 +65,7 @@ previewDlg.PrintPreviewControl.InvalidatePreview();
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

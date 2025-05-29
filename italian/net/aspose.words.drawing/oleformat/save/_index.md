@@ -3,14 +3,14 @@ title: OleFormat.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words per .NET
-description: OleFormat Save metodo. Salva i dati delloggetto incorporato nello stream specificato in C#.
+description: Scopri il metodo OleFormat Save per archiviare in modo efficiente i dati degli oggetti incorporati nel flusso che preferisci. Migliora la gestione dei dati con facilità!
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/oleformat/save/
 ---
 ## Save(*Stream*) {#save}
 
-Salva i dati dell'oggetto incorporato nello stream specificato.
+Salva i dati dell'oggetto incorporato nel flusso specificato.
 
 ```csharp
 public void Save(Stream stream)
@@ -24,7 +24,7 @@ public void Save(Stream stream)
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Genera un'eccezione se tenti di salvare un oggetto collegato. |
+| InvalidOperationException | Viene generato se si tenta di salvare un oggetto collegato. |
 
 ## Osservazioni
 
@@ -38,7 +38,7 @@ Mostra come estrarre oggetti OLE incorporati nei file.
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -48,11 +48,11 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
+// possiamo usare la proprietà "SuggestedExtension" per determinare quale estensione file applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.
-// 1 - Salvalo tramite uno stream:
+// Di seguito sono riportati due metodi per salvare un oggetto OLE in un file nel file system locale.
+// 1 - Salvalo tramite un flusso:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
@@ -86,7 +86,7 @@ public void Save(string fileName)
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Genera un'eccezione se tenti di salvare un oggetto collegato. |
+| InvalidOperationException | Viene generato se si tenta di salvare un oggetto collegato. |
 
 ## Esempi
 
@@ -96,7 +96,7 @@ Mostra come estrarre oggetti OLE incorporati nei file.
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -106,11 +106,11 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
+// possiamo usare la proprietà "SuggestedExtension" per determinare quale estensione file applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.
-// 1 - Salvalo tramite uno stream:
+// Di seguito sono riportati due metodi per salvare un oggetto OLE in un file nel file system locale.
+// 1 - Salvalo tramite un flusso:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

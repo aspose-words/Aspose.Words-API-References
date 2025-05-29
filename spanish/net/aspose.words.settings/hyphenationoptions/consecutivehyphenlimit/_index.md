@@ -3,7 +3,7 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words para .NET
-description: HyphenationOptions ConsecutiveHyphenLimit propiedad. Obtiene o establece el número máximo de líneas consecutivas que pueden terminar con guiones. El valor predeterminado para esta propiedad es 0 en C#.
+description: Descubra la propiedad ConsecutiveHyphenLimit en HyphenationOptions. Controle el uso de guiones en su texto para mejorar la legibilidad y el formato. Valor predeterminado: 0.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/

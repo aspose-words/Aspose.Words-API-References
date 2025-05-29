@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeEnd Id proprietà. Specifica un ID numerico persistente univoco di sola lettura per questoIntervallo tag documento strutturato nodo. CorrispondenteStructuredDocumentTagRangeStart il nodo ha lo stessoId  in C#.
+description: Scopri la proprietà StructuredDocumentTagRangeEnd Id, un identificatore univoco e di sola lettura per un tagging dei documenti fluido. Migliora la tua gestione dei documenti oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Specifica un ID numerico persistente univoco di sola lettura per questo**Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
+Specifica un ID numerico persistente di sola lettura univoco per questo**Intervallo di tag di documenti strutturati** node. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -18,7 +18,7 @@ public int Id { get; }
 
 ## Esempi
 
-Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
+Mostra come ottenere le proprietà dei tag dei documenti strutturati multisezione.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

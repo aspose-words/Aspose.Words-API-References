@@ -3,14 +3,14 @@ title: DropDownItemCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words för .NET
-description: DropDownItemCollection Contains metod. Bestämmer om samlingen innehåller det angivna värdet i C#.
+description: Upptäck om en DropDownItemCollection innehåller ditt angivna värde med vår effektiva Contains-metod. Förbättra din datahantering utan ansträngning!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/dropdownitemcollection/contains/
 ---
 ## DropDownItemCollection.Contains method
 
-Bestämmer om samlingen innehåller det angivna värdet.
+Avgör om samlingen innehåller det angivna värdet.
 
 ```csharp
 public bool Contains(string value)
@@ -18,23 +18,23 @@ public bool Contains(string value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | String | Skiftlägeskänsligt värde att lokalisera. |
+| value | String | Skiftlägeskänsligt värde att hitta. |
 
 ### Returvärde
 
-`Sann` om föremålet finns i samlingen; annat,`falsk`.
+`sann`om föremålet finns i samlingen; annars,`falsk`.
 
 ## Exempel
 
-Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
+Visar hur man infogar ett kombinationsrutefält och redigerar elementen i dess objektsamling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en kombinationsruta och verifiera sedan dess samling av listruta.
+// Infoga en kombinationsruta och verifiera sedan dess samling av listrutealternativ.
 // I Microsoft Word klickar användaren på kombinationsrutan,
-// och välj sedan ett av textobjekten i samlingen att visa.
+// och välj sedan ett av textelementen i samlingen som ska visas.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -44,11 +44,11 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Det finns två sätt att lägga till ett nytt objekt till en befintlig samling av rullgardinsobjekt.
-// 1 - Lägg till ett föremål i slutet av samlingen:
+// Det finns två sätt att lägga till ett nytt objekt i en befintlig samling av listruteobjekt.
+// 1 - Lägg till ett objekt i slutet av samlingen:
 dropDownItems.Add("Four");
 
-// 2 - Infoga ett objekt före ett annat objekt vid ett specificerat index:
+// 2 - Infoga ett objekt före ett annat objekt vid ett angivet index:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
@@ -58,8 +58,8 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
-// Det finns två sätt att ta bort element från en samling rullgardinsobjekt.
-// 1 - Ta bort ett objekt med innehåll lika med den skickade strängen:
+// Det finns två sätt att ta bort element från en samling av listrutor.
+// 1 - Ta bort ett objekt med innehåll som är lika med den skickade strängen:
 dropDownItems.Remove("Four");
 
 // 2 - Ta bort ett objekt i ett index:
@@ -71,7 +71,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Töm hela samlingen av rullgardinsobjekt.
+// Töm hela samlingen av listruteobjekt.
 dropDownItems.Clear();
 ```
 

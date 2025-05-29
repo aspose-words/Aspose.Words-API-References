@@ -2,15 +2,15 @@
 title: ShapeBase.MarkupLanguage
 linktitle: MarkupLanguage
 articleTitle: MarkupLanguage
-second_title: Aspose.Words for .NET
-description: ShapeBase MarkupLanguage mülk. Bu grafik nesnesi için kullanılan MarkupLanguageı döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş grafik nesne yönetimi için ShapeBase MarkupLanguage özelliğini keşfedin. Bugün kusursuz entegrasyonun ve gelişmiş tasarım verimliliğinin kilidini açın!
 type: docs
-weight: 390
+weight: 410
 url: /tr/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
 
-Bu grafik nesnesi için kullanılan MarkupLanguage'ı döndürür.
+Bu grafik nesnesi için kullanılan MarkupLanguage'ı alır.
 
 ```csharp
 public ShapeMarkupLanguage MarkupLanguage { get; }

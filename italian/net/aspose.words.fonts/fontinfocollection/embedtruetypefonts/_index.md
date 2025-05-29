@@ -3,14 +3,14 @@ title: FontInfoCollection.EmbedTrueTypeFonts
 linktitle: EmbedTrueTypeFonts
 articleTitle: EmbedTrueTypeFonts
 second_title: Aspose.Words per .NET
-description: FontInfoCollection EmbedTrueTypeFonts proprietà. Specifica se incorporare o meno i caratteri TrueType in un documento quando viene salvato. Il valore predefinito per questa proprietà èfalso  in C#.
+description: Scopri come la proprietà EmbedTrueTypeFonts in FontInfoCollection migliora la qualità del documento consentendo l'incorporamento dei font TrueType. Il valore predefinito è false.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 ---
 ## FontInfoCollection.EmbedTrueTypeFonts property
 
-Specifica se incorporare o meno i caratteri TrueType in un documento quando viene salvato. Il valore predefinito per questa proprietà è`falso` .
+Specifica se incorporare o meno i font TrueType in un documento quando viene salvato. Il valore predefinito per questa proprietà è`falso` .
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }
@@ -18,13 +18,13 @@ public bool EmbedTrueTypeFonts { get; set; }
 
 ## Osservazioni
 
-L'incorporamento dei caratteri TrueType consente ad altri di visualizzare il documento con gli stessi caratteri utilizzati per crearlo, ma può aumentare sostanzialmente le dimensioni del documento.
+L'incorporamento di font TrueType consente ad altri di visualizzare il documento con gli stessi font utilizzati per crearlo, ma potrebbe aumentare notevolmente le dimensioni del documento.
 
 Questa opzione funziona solo per i formati DOC, DOCX e RTF.
 
 ## Esempi
 
-Mostra come salvare un documento con caratteri TrueType incorporati.
+Mostra come salvare un documento con i font TrueType incorporati.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Guarda anche

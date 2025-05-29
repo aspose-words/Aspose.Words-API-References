@@ -3,9 +3,9 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words per .NET
-description: DocumentBase Styles proprietà. Restituisce una raccolta di stili definiti nel documento in C#.
+description: Esplora la proprietà Stili DocumentBase per accedere a una vasta raccolta di stili personalizzabili, migliorando l'aspetto visivo e la coerenza del tuo documento.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -57,15 +57,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzino questo elenco.
+// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzeranno questo elenco.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiunge del testo.
+// Applica lo stile paragrafo al paragrafo corrente del generatore di documenti, quindi aggiungi del testo.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambia lo stile del generatore di documenti in uno che non abbia formattazione di elenco e scrivi un altro paragrafo.
+// Modificare lo stile del generatore di documenti scegliendone uno che non abbia formattazione di elenco e scrivere un altro paragrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

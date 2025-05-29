@@ -3,7 +3,7 @@ title: ReportingEngine
 linktitle: ReportingEngine
 articleTitle: ReportingEngine
 second_title: Aspose.Words per .NET
-description: ReportingEngine costruttore. Inizializza una nuova istanza di questa classe in C#.
+description: Crea report efficaci senza sforzo con ReportingEngine. Inizializza le tue soluzioni di reporting in modo fluido per ottenere informazioni approfondite sui dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.reporting/reportingengine/reportingengine/

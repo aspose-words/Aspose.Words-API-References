@@ -3,16 +3,16 @@ title: ChartDataPoint Class
 linktitle: ChartDataPoint
 articleTitle: ChartDataPoint
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint classe. Permet de spécifier le formatage dun seul point de données sur le graphique en C#.
+description: Découvrez la classe Aspose.Words.Drawing.Charts.ChartDataPoint pour formater facilement des points de données de graphique individuels, améliorant ainsi la visualisation de vos données avec précision.
 type: docs
-weight: 690
+weight: 970
 url: /fr/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Permet de spécifier le formatage d'un seul point de données sur le graphique.
+Permet de spécifier la mise en forme d'un seul point de données sur le graphique.
 
-Pour en savoir plus, visitez le[Travailler avec des graphiques](https://docs.aspose.com/words/net/working-with-charts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des graphiques](https://docs.aspose.com/words/net/working-with-charts/) article de documentation.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -23,9 +23,9 @@ public class ChartDataPoint : IChartDataPoint
 | Nom | La description |
 | --- | --- |
 | [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Spécifie si les bulles du graphique à bulles doivent avoir un effet 3D appliqué. |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif, négatif signifie que la propriété n'est pas définie et qu'aucune explosion ne doit être appliquée. S'applique uniquement aux diagrammes circulaires. |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Donne accès au formatage de remplissage et de ligne de ce point de données. |
-| [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index du point de données auquel cet objet applique le formatage. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Spécifie la quantité de déplacement du point de données par rapport au centre du graphique à secteurs. Peut être négatif, ce qui signifie que la propriété n'est pas définie et qu'aucune explosion ne doit être appliquée. S'applique uniquement aux graphiques à secteurs. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Fournit l'accès au remplissage et au formatage des lignes de ce point de données. |
+| [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index du point de données auquel cet objet applique la mise en forme. |
 | [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Spécifie si l'élément parent doit inverser ses couleurs si la valeur est négative. |
 | [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Spécifie le marqueur de données du graphique. |
 
@@ -33,15 +33,15 @@ public class ChartDataPoint : IChartDataPoint
 
 | Nom | La description |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Efface le format de ce point de données. Les propriétés sont définies sur les valeurs par défaut définies dans la série parent. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Efface le format de ce point de données. Les propriétés sont définies sur les valeurs par défaut définies dans la série parente. |
 
 ## Remarques
 
-Sur une série, le`ChartDataPoint` l'objet est membre du[`ChartDataPointCollection`](../chartdatapointcollection/) . Le[`ChartDataPointCollection`](../chartdatapointcollection/) contient un`ChartDataPoint` objet pour chaque point.
+Sur une série, le`ChartDataPoint` l'objet est un membre du[`ChartDataPointCollection`](../chartdatapointcollection/) . Le[`ChartDataPointCollection`](../chartdatapointcollection/) contient un`ChartDataPoint` objet pour chaque point.
 
 ## Exemples
 
-Montre comment utiliser des points de données sur un graphique linéaire.
+Montre comment travailler avec des points de données sur un graphique linéaire.
 
 ```csharp
 public void ChartDataPoint()
@@ -57,11 +57,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Accentue les points de données du graphique en les faisant apparaître sous forme de losange.
-    foreach (ChartSeries series in chart.Series) 
+    // Mettez en valeur les points de données du graphique en les faisant apparaître sous forme de losanges.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Lisse la ligne qui représente la première série de données.
+    // Lissez la ligne qui représente la première série de données.
     chart.Series[0].Smooth = true;
 
     // Vérifiez que les points de données de la première série n'inverseront pas leurs couleurs si la valeur est négative.
@@ -73,10 +73,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Pour un graphique plus propre, nous pouvons effacer le format individuellement.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Nous pouvons également supprimer toute une série de points de données à la fois.
+    // Pour un graphique plus propre, nous pouvons effacer le format individuellement.
+    dataPoint.ClearFormat();
+
+    // Nous pouvons également supprimer une série entière de points de données à la fois.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

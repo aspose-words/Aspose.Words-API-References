@@ -2,8 +2,8 @@
 title: CssSavingArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: CssSavingArgs Document 财产. 获取当前正在保存的文档对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 CssSavingArgs Document 属性来访问正在保存的当前文档，从而提高您的工作流程效率和文档管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/csssavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## 例子
 
-演示如何使用 HTML 转换创建的 CSS 样式表。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
@@ -29,12 +29,12 @@ public void ExternalCssFilenames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
-    // 保存的 HTML 文档附带外部 CSS 样式表文件。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”
+    // 将已保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
+    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

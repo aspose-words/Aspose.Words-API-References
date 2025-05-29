@@ -3,7 +3,7 @@ title: Table.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: Table Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод Table Accept для бесперебойного управления посетителями. Улучшите пользовательский опыт и оптимизируйте взаимодействие без усилий!
 type: docs
 weight: 350
 url: /ru/net/aspose.words.tables/table/accept/
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
-Звонки[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узловsection и вызовов[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) в конце.
+Звонки[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов section и вызовов[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) в конце.
 
 ## Примеры
 
@@ -42,8 +42,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетитель документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
+    // Ниже приведены три типа полей, которые могут принять посетителя документа,
+    // что позволит ему посетить принимающий узел, а затем обойти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -59,7 +59,7 @@ public void RemoveHiddenContentFromDocument()
 }
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
+/// Удаляет все посещенные узлы, отмеченные как «скрытое содержимое».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -141,7 +141,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается форма.
+    /// Вызывается при обнаружении фигуры в документе.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -178,6 +178,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -185,13 +187,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе завершается посещение узла Таблицы.
+    /// Вызывается, когда посещение узла таблицы в документе завершено.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и дочерних узлов не останется.
+        // Содержимое ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
+        // Если бы в этой таблице не было ничего, кроме скрытого контента, этот посетитель удалил бы его весь,
+        // и не останется ни одного дочернего узла.
         // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
@@ -202,7 +204,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
+    /// Вызывается, когда посещение узла ячейки в документе завершено.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -213,7 +215,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе заканчивается посещение узла Row.
+    /// Вызывается, когда посещение узла строки в документе завершено.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

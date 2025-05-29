@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
 second_title: Aspose.Words لـ .NET
-description: Paragraph IsEndOfDocument ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في القسم الأخير من المستند في C#.
+description: اكتشف خاصية IsEndOfDocument للفقرات. تعلّم كيفية تحديد الفقرة الأخيرة في القسم الأخير من مستندك لضمان تنسيق فعّال.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/paragraph/isendofdocument/
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إضافة النص
+// ثم يبدأ سطرًا جديدًا، ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

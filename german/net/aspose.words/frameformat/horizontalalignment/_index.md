@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words für .NET
-description: FrameFormat HorizontalAlignment eigendom. Ruft die horizontale Ausrichtung des angegebenen Frames ab in C#.
+description: Entdecken Sie die FrameFormat HorizontalAlignment-Eigenschaft, um die horizontale Ausrichtung Ihres Rahmens einfach anzupassen und zu optimieren und so eine bessere Designkontrolle zu erzielen.
 type: docs
 weight: 30
 url: /de/net/aspose.words/frameformat/horizontalalignment/
 ---
 ## FrameFormat.HorizontalAlignment property
 
-Ruft die horizontale Ausrichtung des angegebenen Frames ab.
+Ruft die horizontale Ausrichtung des angegebenen Rahmens ab.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; }

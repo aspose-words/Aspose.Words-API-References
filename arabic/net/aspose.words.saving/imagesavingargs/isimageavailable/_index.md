@@ -3,7 +3,7 @@ title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
 second_title: Aspose.Words لـ .NET
-description: ImageSavingArgs IsImageAvailable ملكية. إرجاعحقيقي إذا كانت الصورة الحالية متاحة للتصدير في C#.
+description: تحقق من جاهزية الصورة للتصدير باستخدام خاصية IsImageAvailable في ImageSavingArgs. تمتع بإدارة سلسة وفعّالة للصور!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -18,20 +18,20 @@ public bool IsImageAvailable { get; }
 
 ## ملاحظات
 
-يمكن أن تكون بعض الصور في المستند غير متاحة، على سبيل المثال، لأن الصورة مرتبطة ولا يمكن الوصول إلى الرابط أو لا يشير إلى صورة صالحة. في هذه الحالة يقوم Aspose.Words بتصدير رمز بعلامة الصليب الأحمر. تُرجع هذه الخاصية `حقيقي` إذا كانت الصورة الأصلية متوفرة؛ عائدات`خطأ شنيع`إذا كانت الصورة الأصلية غير متوفرة وسيتم عرض أيقونة "بدون صورة" للحفظ.
+قد لا تتوفر بعض الصور في المستند، على سبيل المثال، لأن image مرتبط، والرابط غير قابل للوصول أو لا يشير إلى صورة صالحة. في هذه الحالة، تُصدّر Aspose.Words رمزًا عليه علامة صليب حمراء. تُرجع هذه الخاصية `حقيقي` إذا كانت الصورة الأصلية متاحة؛ يتم إرجاعها`خطأ شنيع`إذا لم تكن الصورة الأصلية متاحة، فسيتم تقديم أيقونة "لا توجد صورة" للحفظ.
 
 عند حفظ شكل مجموعة أو شكل لا يتطلب أي صورة، تكون هذه الخاصية دائمًا`حقيقي`.
 
 ## أمثلة
 
-يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
+يوضح كيفية إشراك استدعاء حفظ الصورة في عملية تحويل HTML.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions لتعيين معاودة الاتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -40,8 +40,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
-/// أثناء تصدير مستند إلى HTML.
+/// طباعة خصائص كل صورة أثناء عملية الحفظ التي تحفظها في ملف صورة في نظام الملفات المحلي
+/// أثناء تصدير المستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

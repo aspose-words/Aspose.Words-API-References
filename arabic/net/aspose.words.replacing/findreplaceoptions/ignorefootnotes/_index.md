@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFootnotes
 linktitle: IgnoreFootnotes
 articleTitle: IgnoreFootnotes
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions IgnoreFootnotes ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل الحواشي السفلية. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية FindReplaceOptions IgnoreFootnotes لإدارة الحواشي السفلية في مستنداتك بسهولة. حسّن كفاءة التحرير باستخدام هذا التبديل البسيط!
 type: docs
 weight: 90
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل الحواشي السفلية. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى تجاهل الحواشي السفلية. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -32,9 +32,9 @@ builder.InsertParagraph();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder.InsertFootnote(FootnoteType.Endnote, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
-// اضبط علامة "IgnoreFootnotes" على "صحيح" للحصول على ميزة البحث والاستبدال
-// عملية لتجاهل النص داخل الحواشي السفلية.
-// اضبط علامة "IgnoreFootnotes" على "خطأ" للحصول على ميزة البحث والاستبدال
+// اضبط علامة "IgnoreFootnotes" على "true" للحصول على خاصية البحث والاستبدال
+// عملية لتجاهل النص الموجود داخل الحواشي السفلية.
+// اضبط علامة "IgnoreFootnotes" على "false" للحصول على البحث والاستبدال
 // عملية للبحث أيضًا عن نص داخل الحواشي السفلية.
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFootnotes = isIgnoreFootnotes };
 doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);

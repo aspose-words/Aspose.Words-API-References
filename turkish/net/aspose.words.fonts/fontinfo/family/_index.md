@@ -2,10 +2,10 @@
 title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
-second_title: Aspose.Words for .NET
-description: FontInfo Family mülk. Bu yazı tipinin ait olduğu yazı tipi ailesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım esnekliği ve stili için font ailesi ayarlarınızı kolayca yönetmek ve özelleştirmek amacıyla FontInfo Family özelliğini keşfedin.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## Örnekler
 
-Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
+Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve bunların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alternatif adlar genellikle boştur.
+        // Alt adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

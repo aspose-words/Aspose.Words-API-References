@@ -3,7 +3,7 @@ title: RowFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words para .NET
-description: RowFormat ClearFormatting método. Restablece el formato de fila predeterminado en C#.
+description: Descubra cómo el método RowFormat ClearFormatting restaura sin esfuerzo sus datos a su estilo predeterminado, mejorando la claridad y la presentación.
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/rowformat/clearformatting/
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

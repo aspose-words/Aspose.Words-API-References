@@ -2,8 +2,8 @@
 title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
-second_title: Aspose.Words for .NET
-description: PageSetup LeftMargin mülk. Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin düzenini ve okunabilirliğini artırmak için sol kenar boşluğunu noktalar halinde kolayca ayarlamak üzere PageSetup LeftMargin özelliğini keşfedin.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/pagesetup/leftmargin/
@@ -18,7 +18,7 @@ public double LeftMargin { get; set; }
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

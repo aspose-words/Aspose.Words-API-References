@@ -2,17 +2,17 @@
 title: DigitalSignatureUtil.RemoveAllSignatures
 linktitle: RemoveAllSignatures
 articleTitle: RemoveAllSignatures
-second_title: Aspose.Words for .NET
-description: DigitalSignatureUtil RemoveAllSignatures yöntem. Kaynak dosyadaki tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar C#'da.
+second_title: .NET için Aspose.Words
+description: DigitalSignatureUtil'in RemoveAllSignatures metoduyla tüm dijital imzaları zahmetsizce kaldırın. İmzalı dosyalarınızı kolayca temiz, imzasız versiyonlara dönüştürün!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
 ## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
-Kaynak dosyadaki tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar.
+Kaynak dosyadan tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar.
 
-Aşağıdaki formatlar dijital imza kaldırma için uyumludur: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+Dijital imza kaldırma için aşağıdaki formatlar uyumludur: Doc , Dot , Docx , Dotx , Docm , Dotm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
@@ -20,16 +20,16 @@ public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 
 ## Örnekler
 
-Dijital imzalı bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
+Dijital olarak imzalanmış bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
 
 ```csharp
 // Dijital imzaları kaldırmak için DigitalSignatureUtil sınıfını kullanmanın iki yolu vardır
-// imzalı bir belgenin imzasız bir kopyasını yerel dosya sisteminde başka bir yere kaydederek.
-// 1 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya adı dizelerine göre belirleyin:
+// imzalanmış bir belgenin imzasız bir kopyasını yerel dosya sisteminin başka bir yerine kaydederek.
+// 1 - Dosya adı dizelerine göre hem imzalı belgenin hem de imzasız kopyanın yerlerini belirle:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya akışlarına göre belirleyin:
+// 2 - Dosya akışları ile hem imzalı belgenin hem de imzasız kopyanın yerlerini belirle:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -38,9 +38,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// Her iki çıktı belgemizin de dijital imzası olmadığını doğrulayın.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// Her iki çıktı belgemizin de dijital imzaya sahip olmadığını doğrulayın.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### Ayrıca bakınız
@@ -53,11 +53,11 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
-Kaynak akışındaki belgedeki tüm dijital imzaları kaldırır ve imzasız belgeyi hedef akışa yazar.
+Kaynak akışındaki belgeden tüm dijital imzaları kaldırır ve imzasız belgeyi hedef akışına yazar.
 
-**Çıktı akışın başlangıcına yazılacak ve akış boyutu içerik uzunluğuyla güncellenecektir.**
+**Çıktı, akışın başlangıcına yazılacak ve akış boyutu içerik uzunluğuna göre güncellenecektir.**
 
-Aşağıdaki formatlar dijital imza kaldırma için uyumludur: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+Dijital imza kaldırma için aşağıdaki formatlar uyumludur: Doc , Dot , Docx , Dotx , Docm , Dotm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
@@ -65,16 +65,16 @@ public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 
 ## Örnekler
 
-Dijital imzalı bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
+Dijital olarak imzalanmış bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
 
 ```csharp
 // Dijital imzaları kaldırmak için DigitalSignatureUtil sınıfını kullanmanın iki yolu vardır
-// imzalı bir belgenin imzasız bir kopyasını yerel dosya sisteminde başka bir yere kaydederek.
-// 1 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya adı dizelerine göre belirleyin:
+// imzalanmış bir belgenin imzasız bir kopyasını yerel dosya sisteminin başka bir yerine kaydederek.
+// 1 - Dosya adı dizelerine göre hem imzalı belgenin hem de imzasız kopyanın yerlerini belirle:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya akışlarına göre belirleyin:
+// 2 - Dosya akışları ile hem imzalı belgenin hem de imzasız kopyanın yerlerini belirle:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -83,9 +83,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// Her iki çıktı belgemizin de dijital imzası olmadığını doğrulayın.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// Her iki çıktı belgemizin de dijital imzaya sahip olmadığını doğrulayın.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### Ayrıca bakınız

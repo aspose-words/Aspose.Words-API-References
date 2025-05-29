@@ -2,15 +2,15 @@
 title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
-second_title: 用于 .NET 的 Aspose.Words
-description: Section ProtectedForForms 财产. 如果该部分受表单保护则为真当某个部分受到表单保护时 用户只能选择和修改 Microsoft Word 中表单字段中的文本 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Microsoft Word 中的 ProtectedForForms 属性如何增强文档安全性，让用户能够轻松地仅编辑指定的表单字段。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-如果该部分受表单保护，则为真。当某个部分受到表单保护时， 用户只能选择和修改 Microsoft Word 中表单字段中的文本。
+如果该部分受表单保护，则为 True。当某个部分受表单保护时， 用户只能在 Microsoft Word 中选择和修改表单域中的文本。
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -18,7 +18,7 @@ public bool ProtectedForForms { get; set; }
 
 ## 例子
 
-展示如何关闭某个部分的保护。
+显示如何关闭某个部分的保护。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // 在此输出文档中，我们将能够自由编辑第一部分，
-// 我们只能编辑第二部分中表单字段的内容。
+// 并且我们只能编辑第二部分中的表单字段的内容。
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

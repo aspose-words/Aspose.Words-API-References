@@ -2,17 +2,17 @@
 title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaReference sınıf. Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular C#'da.
+second_title: .NET için Aspose.Words
+description: Otomasyon türü kitaplıkları ve VBA projeleriyle kusursuz entegrasyon için Aspose.Words.Vba.VbaReference sınıfını keşfedin. Belge otomasyonunuzu bugün geliştirin!
 type: docs
-weight: 6590
+weight: 7440
 url: /tr/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular.
+Bir Otomasyon türü kitaplığına veya VBA projesine bir referans uygular.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışma](https://docs.aspose.com/words/net/working-with-vba-macros/) belgeleme makalesi.
 
 ```csharp
 public abstract class VbaReference
@@ -22,8 +22,8 @@ public abstract class VbaReference
 
 | İsim | Tanım |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Alır[`VbaReferenceType`](../vbareferencetype/) referansın türünü belirten nesne`VbaReference` nesne temsil eder. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Bir Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Alır[`VbaReferenceType`](../vbareferencetype/) bir referansın türünü belirten nesne`VbaReference` nesne temsil eder. |
 
 ## Örnekler
 

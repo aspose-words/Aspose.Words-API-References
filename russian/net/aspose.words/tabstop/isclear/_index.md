@@ -3,14 +3,14 @@ title: TabStop.IsClear
 linktitle: IsClear
 articleTitle: IsClear
 second_title: Aspose.Words для .NET
-description: TabStop IsClear свойство. Возвращаетистинный если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции на С#.
+description: Узнайте, как свойство TabStop IsClear улучшает ваш пользовательский интерфейс, обеспечивая бесперебойное управление вкладками и очищая существующие остановки для более удобной работы пользователя.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Возвращает`истинный` если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
+Возврат`истинный` если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
 
 ```csharp
 public bool IsClear { get; }
@@ -18,7 +18,7 @@ public bool IsClear { get; }
 
 ## Примеры
 
-Показывает, как работать с коллекцией табуляции документа.
+Показывает, как работать с набором позиций табуляции в документе.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Каждый символ табуляции переносит курсор компоновщика в место следующей позиции табуляции.
+// Каждый символ «табуляции» перемещает курсор конструктора в положение следующей позиции табуляции.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
@@ -45,11 +45,11 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Коллекция табуляции может указывать нам на TabStops до и после определенных позиций.
+// Коллекция позиций табуляции может указать нам на позиции TabStop до и после определенных позиций.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Мы можем очистить коллекцию табуляции абзаца, чтобы вернуться к поведению табуляции по умолчанию.
+// Мы можем очистить коллекцию позиций табуляции абзаца, чтобы вернуться к поведению табуляции по умолчанию.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

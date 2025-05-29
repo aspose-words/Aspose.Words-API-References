@@ -2,15 +2,15 @@
 title: MailMerge.UseNonMergeFields
 linktitle: UseNonMergeFields
 articleTitle: UseNonMergeFields
-second_title: Aspose.Words for .NET
-description: MailMerge UseNonMergeFields mülk. Ne zamandoğru MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde ve ayrıca fieldName etiketlerinde adresmektup birleştirme işleminin gerçekleştirildiğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge'in gücünü açığa çıkarın! Belgelerinizi çeşitli alan türlerine sorunsuz bir şekilde birleştirerek geliştirmek için UseNonMergeFields özelliğini kullanın.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
 ## MailMerge.UseNonMergeFields property
 
-Ne zaman`doğru` MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde ve ayrıca "{{fieldName}}" etiketlerinde adres-mektup birleştirme işleminin gerçekleştirildiğini belirtir.
+Ne zaman`doğru` , MERGEFIELD alanlarına ek olarak, bazı diğer alan türlerinde ve ayrıca "{{fieldName}}" etiketlerinde posta birleştirmenin gerçekleştirildiğini belirtir.
 
 ```csharp
 public bool UseNonMergeFields { get; set; }
@@ -18,21 +18,21 @@ public bool UseNonMergeFields { get; set; }
 
 ## Notlar
 
-Normalde, adres-mektup birleştirme yalnızca MERGEFIELD alanlarında gerçekleştirilir, ancak bazı müşterilerin kendi report 'leri diğer alanları kullanarak oluşturulmuş ve birçok belge bu şekilde oluşturulmuştur. Geçişi basitleştirmek için (ve this yaklaşımı birçok müşteri tarafından bağımsız olarak kullanıldığından) diğer alanlara adres-mektup birleştirme özelliği getirildi.
+Normalde, posta birleştirme yalnızca MERGEFIELD alanlarına yapılır, ancak birkaç müşterinin reporting 'si diğer alanları kullanarak oluşturulmuştu ve birçok belge bu şekilde oluşturulmuştu. Göçü basitleştirmek için (ve this yaklaşımı birkaç müşteri tarafından bağımsız olarak kullanıldığı için) diğer alanlara posta birleştirme yeteneği tanıtıldı.
 
-Ne zaman`UseNonMergeFields` ayarlandı`doğru`Aspose.Words aşağıdaki alanlarda adres-mektup birleştirme işlemini gerçekleştirecektir:
+Ne zaman`UseNonMergeFields` ayarlandı`doğru`, Aspose.Words aşağıdaki alanlarda posta birleştirme işlemini gerçekleştirecektir:
 
 MERGEFIELD AlanAdı
 
-MACROBUTTON NOMACRO AlanAdı
+MAKRO DÜĞME NOMACRO AlanAdı
 
-IF 0 = 0 "{FieldName}" ""
+EĞER 0 = 0 "{AlanAdı}" ""
 
-Ayrıca ne zaman`UseNonMergeFields` ayarlandı`doğru`Aspose.Words, tags "{{fieldName}}" metnine adres-mektup birleştirme işlemini gerçekleştirecektir. Bunlar alanlar değil, yalnızca metin etiketleridir.
+Ayrıca, ne zaman`UseNonMergeFields` ayarlandı`doğru`, Aspose.Words, tags "{{fieldName}}" metnine posta birleştirme işlemi yapacaktır. Bunlar alan değil, sadece metin etiketleridir.
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında kullanılmayan alternatif adres-mektup birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
+Bir posta birleştirme sırasında kullanılmayan alternatif posta birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -40,19 +40,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // Adres-mektup birleştirme, varsayılan olarak bir tablonun her satırındaki verileri, o tablodaki sütunları adlandıran MERGEFIELD'lere yerleştirir.
-    // Belgemizde bu tür alanlar yok ancak küme parantezleri içine alınmış düz metin etiketleri var.
-    // "PreserveUnusedTags" bayrağını "true" olarak ayarlarsak, bu etiketleri MERGEFIELD'ler olarak değerlendirebiliriz
-    // adres-mektup birleştirmemizin bu etiketlere veri kaynağından veri eklemesine izin vermek için.
-    // "PreserveUnusedTags" flagını "false" olarak ayarlarsak,
-    // adres-mektup birleştirme bu etiketleri MERGEFIELD'lere dönüştürecek ve doldurulmamış bırakacaktır.
+     // Varsayılan olarak, bir posta birleştirme işlemi bir tablonun her satırındaki verileri, o tablodaki sütunları adlandıran MERGEFIELD'lara yerleştirir.
+    // Belgemizde böyle alanlar yok, ancak süslü parantezlerle çevrili düz metin etiketleri var.
+    // "PreserveUnusedTags" bayrağını "true" olarak ayarlarsak, bu etiketleri MERGEFIELD'ler olarak ele alabiliriz
+    // birleştirme işlemimizin veri kaynağındaki verileri bu etiketlere eklemesine izin vermek için.
+    // "PreserveUnusedTags" bayrağını "false" olarak ayarlarsak,
+    // posta birleştirme bu etiketleri MERGEFIELD'lara dönüştürecek ve doldurulmamış bırakacaktır.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Belgemizde tabloda bulunmayan "Column2" adlı bir sütun için etiket bulunmaktadır.
-    // "PreserveUnusedTags" flagını "false" olarak ayarlarsak, then the mail merge will convert this tag into a MERGEFIELD.
+    // Belgemizde tabloda bulunmayan "Column2" isimli bir sütuna ait etiket var.
+    // "PreserveUnusedTags" bayrağını "false" olarak ayarlarsak, then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -62,7 +62,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// Bir belge oluşturun ve adres-mektup birleştirme sırasında MERGEFIELD işlevi görebilecek iki düz metin etiketi ekleyin.
+/// Bir belge oluşturun ve posta birleştirme sırasında MERGEFIELD işlevi görebilecek iki düz metin etiketi ekleyin.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {
@@ -72,7 +72,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Etiketlerimiz, yalnızca bunu true olarak ayarlarsak, adres-mektup birleştirme verileri için hedef olarak kaydedilecektir.
+    // Etiketlerimiz yalnızca bunu true olarak ayarlarsak posta birleştirme verileri için hedef olarak kaydedilecektir.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

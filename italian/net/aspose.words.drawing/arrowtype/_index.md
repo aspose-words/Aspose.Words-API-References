@@ -3,14 +3,14 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.ArrowType enum. Specifica il tipo di freccia allestremità di una riga in C#.
+description: Scopri l'enum Aspose.Words.Drawing.ArrowType per personalizzare gli stili delle frecce per le estremità delle linee, migliorando l'aspetto visivo e la precisione del tuo documento.
 type: docs
-weight: 490
+weight: 730
 url: /it/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-Specifica il tipo di freccia all'estremità di una riga.
+Specifica il tipo di freccia alla fine di una linea.
 
 ```csharp
 public enum ArrowType
@@ -21,16 +21,16 @@ public enum ArrowType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | La riga non ha una freccia alla fine. |
-| Arrow | `1` | La freccia è un triangolo solido. |
-| Stealth | `2` | La freccia è una freccia "invisibile". |
-| Diamond | `3` | L'estremità della linea è un diamante solido. |
-| Oval | `4` | L'estremità della linea è un ovale solido. |
+| Arrow | `1` | La freccia è un triangolo pieno. |
+| Stealth | `2` | La freccia è una freccia "stealth". |
+| Diamond | `3` | La fine della linea è un diamante pieno. |
+| Oval | `4` | La fine della linea è un ovale pieno. |
 | Open | `5` | La freccia è una freccia aperta. |
-| Default | `0` | Uguale aNone . |
+| Default | `0` | Lo stesso diNone . |
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +55,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -75,7 +75,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -87,8 +87,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

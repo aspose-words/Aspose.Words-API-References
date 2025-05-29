@@ -3,9 +3,9 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words pour .NET
-description: FontInfo Family propriété. Obtient ou définit la famille de polices à laquelle appartient cette police en C#.
+description: Découvrez la propriété FontInfo Family pour gérer et personnaliser facilement les paramètres de votre famille de polices pour une flexibilité de conception et un style améliorés.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property

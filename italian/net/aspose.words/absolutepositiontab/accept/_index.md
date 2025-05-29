@@ -3,7 +3,7 @@ title: AbsolutePositionTab.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: AbsolutePositionTab Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo AbsolutePositionTab Accept per un coinvolgimento fluido dei visitatori. Migliora l'interattività del tuo sito e aumenta la soddisfazione degli utenti oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words/absolutepositiontab/accept/
@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
 
 ### Valore di ritorno
 
@@ -26,27 +26,32 @@ public override bool Accept(DocumentVisitor visitor)
 
 ## Osservazioni
 
-Chiamate[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
+chiamate[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
 ## Esempi
 
-Mostra come elaborare i caratteri di tabulazione della posizione assoluta con un visitatore del documento.
+Mostra come elaborare i caratteri di tabulazione in posizione assoluta con un visitatore del documento.
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Estrai il contenuto testuale del nostro documento accettando questo visitatore del documento personalizzato.
+    // Estrarre il contenuto di testo del nostro documento accettando questo visitatore del documento personalizzato.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Visita solo l'inizio del corpo del documento.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Visita solo la fine del corpo del documento.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // Il tab della posizione assoluta, che non ha equivalenti sotto forma di stringa, è stato convertito esplicitamente in un carattere di tabulazione.
+    // La posizione assoluta tab, che non ha equivalenti in formato stringa, è stata convertita esplicitamente in un carattere di tabulazione.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Un AbsolutePositionTab può accettare anche un DocumentVisitor da solo.
+    // Anche un AbsolutePositionTab può accettare autonomamente un DocumentVisitor.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -56,7 +61,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Raccoglie il contenuto testuale di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni ordinarie.
+/// Raccoglie il contenuto testuale di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni normali.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -66,7 +71,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -75,7 +80,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo AbsolutePositionTab.
+    /// Chiamato quando nel documento viene rilevato un nodo AbsolutePositionTab.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -84,7 +89,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge testo all'output corrente. Rispetta il flag di uscita abilitato/disabilitato.
+    /// Aggiunge testo all'output corrente. Rispetta il flag di output abilitato/disabilitato.
     /// </summary>
     private void AppendText(string text)
     {
@@ -92,7 +97,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Testo semplice del documento accumulato dal visitatore.
+    /// Testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

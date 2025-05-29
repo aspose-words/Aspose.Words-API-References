@@ -3,14 +3,14 @@ title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
 second_title: Aspose.Words для .NET
-description: ReplacingArgs Match свойство. Match в результате одного совпадения выражения Regular во времяЗаменять  на С#.
+description: Откройте для себя свойство ReplacingArgs Match для бесшовных замен регулярных выражений. Повысьте эффективность кодирования с помощью точных результатов соответствия!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match в результате одного совпадения выражения Regular во время**Заменять** .
+Match в результате одного совпадения выражения regular во время**Заменять** .
 
 ```csharp
 public Match Match { get; }
@@ -18,11 +18,11 @@ public Match Match { get; }
 
 ## Примечания
 
-**Матч.Индекс"** получает отсчитываемую от нуля позицию start совпадения от начала диапазона поиска и замены.
+**"Совпадение.Индекс"** получает начальную позицию совпадения starting (начиная с нуля) от начала диапазона поиска и замены.
 
 ## Примеры
 
-Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
+Показывает, как применить другой шрифт к новому контенту с помощью FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -37,7 +37,7 @@ public void ConvertNumbersToHexadecimal()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
+    // Задайте свойству "HighlightColor" цвет фона, который мы хотим применить к результирующему тексту операции.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,8 +55,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведёт журнал каждой замены.
+/// Заменяет числовые совпадения поиска и замены на их шестнадцатеричные эквиваленты.
+/// Ведет журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

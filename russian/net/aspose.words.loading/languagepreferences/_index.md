@@ -3,16 +3,16 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Loading.LanguagePreferences сорт. Позволяет настроить языковые настройки на С#.
+description: Откройте для себя класс Aspose.Words.LanguagePreferences, чтобы легко настраивать и управлять языковыми параметрами для улучшенной обработки документов.
 type: docs
-weight: 3650
+weight: 4100
 url: /ru/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Позволяет настроить языковые настройки.
 
-Чтобы узнать больше, посетите[Укажите параметры загрузки](https://docs.aspose.com/words/net/specify-load-options/) статья документации.
+Чтобы узнать больше, посетите[Укажите параметры загрузки](https://docs.aspose.com/words/net/specify-load-options/) документальная статья.
 
 ```csharp
 public class LanguagePreferences
@@ -43,7 +43,7 @@ public class LanguagePreferences
 
 ## Примеры
 
-Показывает, как применить языковые настройки при загрузке документа.
+Показывает, как применять языковые настройки при загрузке документа.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

@@ -3,14 +3,14 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words für .NET
-description: ParagraphCollection ToArray methode. Kopiert alle Absätze aus der Sammlung in ein neues Array von Absätzen in C#.
+description: Konvertieren Sie Ihre ParagraphCollection mühelos mit der ToArray-Methode in ein Array, optimieren Sie so die Datenverwaltung und verbessern Sie Ihre Dokumentverarbeitung.
 type: docs
 weight: 20
 url: /de/net/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection.ToArray method
 
-Kopiert alle Absätze aus der Sammlung in ein neues Array von Absätzen.
+Kopiert alle Absätze aus der Sammlung in ein neues Absatz-Array.
 
 ```csharp
 public Paragraph[] ToArray()
@@ -18,7 +18,7 @@ public Paragraph[] ToArray()
 
 ### Rückgabewert
 
-Eine Reihe von Absätzen.
+Ein Array von Absätzen.
 
 ## Beispiele
 
@@ -32,7 +32,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-Zeigt, wie Sie mit „Hot Remove“ einen Knoten während der Aufzählung entfernen.
+Zeigt, wie man mit „Hot Remove“ einen Knoten während der Enumeration entfernt.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.Writeln("The second paragraph");
 builder.Writeln("The third paragraph");
 builder.Writeln("The fourth paragraph");
 
-// Einen Knoten mitten in einer Aufzählung aus der Sammlung entfernen.
+// Entfernen Sie mitten in einer Aufzählung einen Knoten aus der Sammlung.
 foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();

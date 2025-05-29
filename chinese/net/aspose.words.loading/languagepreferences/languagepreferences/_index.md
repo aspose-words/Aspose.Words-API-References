@@ -2,8 +2,8 @@
 title: LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
-second_title: 用于 .NET 的 Aspose.Words
-description: LanguagePreferences 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 LanguagePreferences 构造函数，实现无缝语言管理。使用我们直观的默认设置提升用户体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/languagepreferences/languagepreferences/

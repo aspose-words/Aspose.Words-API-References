@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeEnd NodeType mülk. İadelerStructuredDocumentTagRangeEnd  C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz belge yönetimi için StructuredDocumentTagRangeEnd'i verimli bir şekilde döndüren StructuredDocumentTagRangeEnd NodeType özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
 ---
 ## StructuredDocumentTagRangeEnd.NodeType property
 
-İadelerStructuredDocumentTagRangeEnd .
+Geri DöndürürStructuredDocumentTagRangeEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

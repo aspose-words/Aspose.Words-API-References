@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: DocumentPropertyCollection RemoveAt metodo. Rimuove una proprietà allindice specificato in C#.
+description: Gestisci senza sforzo la tua DocumentPropertyCollection utilizzando il metodo RemoveAt per eliminare le proprietà a qualsiasi indice. Semplifica la gestione dei tuoi documenti oggi stesso!
 type: docs
 weight: 80
 url: /it/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice a base zero. |
+| index | Int32 | L'indice basato sullo zero. |
 
 ## Esempi
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -55,7 +55,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -71,7 +71,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

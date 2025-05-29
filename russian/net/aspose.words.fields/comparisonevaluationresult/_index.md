@@ -3,16 +3,16 @@ title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult сорт. Результат сравнения на С#.
+description: Откройте для себя класс Aspose.Words.Fields.ComparisonEvaluationResult для эффективного анализа сравнения документов. Откройте для себя идеи и улучшите свой рабочий процесс!
 type: docs
-weight: 1480
+weight: 1890
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-Результат сравнения.
+Результат сравнительной оценки.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -22,15 +22,15 @@ public sealed class ComparisonEvaluationResult
 
 | Имя | Описание |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Создает результат сравнения. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Создает результат сравнительной оценки. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Создает результат оценки неудачного сравнения с соответствующим сообщением об ошибке. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Получает сообщение об ошибке результата неудачной оценки сравнения. |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Получает результат сравнения. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Получает сообщение об ошибке результата оценки неудачного сравнения. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Получает результат оценки сравнения. |
 
 ## Примеры
 
@@ -47,11 +47,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Коды полей, которые мы используем в этом примере:
-    // 1. " ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
-    // 2. " СРАВНИТЬ {0} {1} {2} ".
+    // 1. "ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
+    // 2. "СРАВНИТЬ {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Если «comparisonResult» не определен, мы создаем «ComparisonEvaluationResult» со строкой вместо bool.
+    // Если "comparisonResult" не определен, мы создаем "ComparisonEvaluationResult" со строкой, а не с логическим значением.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -73,6 +73,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

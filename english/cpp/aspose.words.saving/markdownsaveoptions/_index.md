@@ -28,6 +28,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_Dml3DEffectsRenderingMode](../saveoptions/get_dml3deffectsrenderingmode/)() const | Gets a value determining how 3D effects are rendered. |
 | virtual [get_DmlEffectsRenderingMode](../saveoptions/get_dmleffectsrenderingmode/)() | Gets or sets a value determining how DrawingML effects are rendered. |
 | [get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/)() const | Gets or sets a value determining how DrawingML shapes are rendered. |
+| [get_EmptyParagraphExportMode](./get_emptyparagraphexportmode/)() const | Specifies how to export empty paragraphs to Markdown. Default value is [EmptyLine](../markdownemptyparagraphexportmode/). |
 | [get_Encoding](../txtsaveoptionsbase/get_encoding/)() const | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [get_ExportAsHtml](./get_exportashtml/)() const | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [None](../markdownexportashtml/). |
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
@@ -66,6 +67,7 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [set_Dml3DEffectsRenderingMode](../saveoptions/set_dml3deffectsrenderingmode/)(Aspose::Words::Saving::Dml3DEffectsRenderingMode) | Sets a value determining how 3D effects are rendered. |
 | virtual [set_DmlEffectsRenderingMode](../saveoptions/set_dmleffectsrenderingmode/)(Aspose::Words::Saving::DmlEffectsRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode](../saveoptions/get_dmleffectsrenderingmode/). |
 | [set_DmlRenderingMode](../saveoptions/set_dmlrenderingmode/)(Aspose::Words::Saving::DmlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/). |
+| [set_EmptyParagraphExportMode](./set_emptyparagraphexportmode/)(Aspose::Words::Saving::MarkdownEmptyParagraphExportMode) | Specifies how to export empty paragraphs to Markdown. Default value is [EmptyLine](../markdownemptyparagraphexportmode/). |
 | [set_Encoding](../txtsaveoptionsbase/set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [set_ExportAsHtml](./set_exportashtml/)(Aspose::Words::Saving::MarkdownExportAsHtml) | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [None](../markdownexportashtml/). |
 | [set_ExportGeneratorName](../saveoptions/set_exportgeneratorname/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/). |

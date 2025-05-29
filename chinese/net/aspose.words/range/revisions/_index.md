@@ -2,15 +2,15 @@
 title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
-second_title: 用于 .NET 的 Aspose.Words
-description: Range Revisions 财产. 获取此范围内存在的修订跟踪更改的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索范围修订。我们全面的修订集合，助您轻松追踪和管理物业变更，提升项目透明度。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/range/revisions/
 ---
 ## Range.Revisions property
 
-获取此范围内存在的修订（跟踪更改）的集合。
+获取此范围内存在的修订（跟踪的更改）的集合。
 
 ```csharp
 public RevisionCollection Revisions { get; }
@@ -18,11 +18,11 @@ public RevisionCollection Revisions { get; }
 
 ## 评论
 
-返回的集合是“实时”集合，这意味着如果您删除文档中包含 修订版本的部分，则删除的修订版本将自动从此集合中消失。
+返回的集合是一个“实时”集合，这意味着如果您删除包含 修订的文档部分，则已删除的修订将自动从该集合中消失。
 
 ## 例子
 
-展示如何使用范围内的修订。
+展示如何处理范围内的修订。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -34,7 +34,7 @@ foreach (Revision revision in paragraph.Range.Revisions)
         revision.Accept();
 }
 
-// 拒绝第一部分的修改。
+// 拒绝第一部分的修订。
 doc.FirstSection.Range.Revisions.RejectAll();
 ```
 

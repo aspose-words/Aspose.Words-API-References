@@ -3,18 +3,18 @@ title: ITextShaper.ShapeText
 linktitle: ShapeText
 articleTitle: ShapeText
 second_title: Aspose.Words für .NET
-description: ITextShaper ShapeText methode. Gibt zurückClusterObjekte die aus einer Folge von Textfragmenten generiert werden. Die Länge des zurückgegebenen Arrays ist gleich der Länge vonruns . Wenn die Ausführung mit einem Index entsprechende Cluster aufweist werden diese beim Ergebnis mit demselben Index aufgezeichnet in C#.
+description: Entdecken Sie die ShapeText-Methode von iTextShaper, die effizient Cluster-Objekte aus Textfragmenten generiert und so eine präzise Textformatierung und -ausrichtung gewährleistet.
 type: docs
 weight: 10
 url: /de/net/aspose.words.shaping/itextshaper/shapetext/
 ---
 ## ITextShaper.ShapeText method
 
-Gibt zurück[`Cluster`](../../cluster/)Objekte, die aus einer Folge von Textfragmenten generiert werden. Die Länge des zurückgegebenen Arrays ist gleich der Länge von*runs* . Wenn die Ausführung mit einem Index entsprechende Cluster aufweist, werden diese beim Ergebnis mit demselben Index aufgezeichnet.
+Rückgaben[`Cluster`](../../cluster/)Objekte, die aus einer Folge von Textfragmenten generiert werden. Die Länge des zurückgegebenen Arrays entspricht der Länge von*runs* . Wenn ein Lauf an einem Index entsprechende Cluster hat, werden diese im Ergebnis am gleichen Index aufgezeichnet.
 
 ```csharp
 public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript script, 
-    params FontFeature[] fontFeatures)
+    FontFeature[] enabledFontFeatures, VariationAxisCoordinate[] variations)
 ```
 
 | Parameter | Typ | Beschreibung |
@@ -22,7 +22,8 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 | runs | String[] | Eine Folge von Textfragmenten |
 | direction | Direction | Eine Textrichtung |
 | script | UnicodeScript | Ein Skript |
-| fontFeatures | FontFeature[] | Eine Reihe von Funktionen, die es zu berücksichtigen gilt |
+| enabledFontFeatures | FontFeature[] | Eine Reihe explizit aktivierter OpenType-Funktionen, die berücksichtigt werden sollten |
+| variations | VariationAxisCoordinate[] | Werte der Variationsachse der Schriftart |
 
 ### Siehe auch
 
@@ -30,6 +31,7 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [Direction](../../direction/)
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
+* class [VariationAxisCoordinate](../../variationaxiscoordinate/)
 * interface [ITextShaper](../)
 * namensraum [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Montage [Aspose.Words](../../../)

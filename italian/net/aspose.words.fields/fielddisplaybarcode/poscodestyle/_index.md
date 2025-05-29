@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode PosCodeStyle proprietà. Ottiene o imposta lo stile di un codice a barre del punto vendita tipi di codice a barre UPCAUPCEEAN13EAN8. I valori validi senza distinzione tra maiuscole e minuscole sono STDSUP2SUP5CASE in C#.
+description: Scopri la proprietà FieldDisplayBarcode PosCodeStyle per personalizzare i codici a barre dei punti vendita. Supporta UPCA, EAN13 e altri formati per un'efficienza ottimale.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/

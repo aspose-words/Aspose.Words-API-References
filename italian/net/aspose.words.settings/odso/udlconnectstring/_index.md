@@ -3,7 +3,7 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words per .NET
-description: Odso UdlConnectString proprietà. Specifica la stringa di connessione Universal Data Link UDL utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
+description: Scopri la proprietà UdlConnectString di Odso per connessioni fluide a fonti dati esterne tramite UDL. Sblocca l'integrazione dei dati con facilità ed efficienza!
 type: docs
 weight: 90
 url: /it/net/aspose.words.settings/odso/udlconnectstring/
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto questo e salvato il documento,
 // Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 

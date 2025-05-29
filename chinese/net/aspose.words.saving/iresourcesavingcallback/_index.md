@@ -2,15 +2,15 @@
 title: IResourceSavingCallback Interface
 linktitle: IResourceSavingCallback
 articleTitle: IResourceSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.IResourceSavingCallback 界面. 如果您想在 将文档保存到固定页面 HTML 或 SVG 时控制 Aspose.Words 如何保存外部资源图像字体和 css请实现此接口 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IResourceSavingCallback 接口控制 Aspose.Words 资源保存。管理图像、字体和 CSS，以优化 HTML 或 SVG 文档。
 type: docs
-weight: 5190
+weight: 5940
 url: /zh/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-如果您想在 将文档保存到固定页面 HTML 或 SVG 时控制 Aspose.Words 如何保存外部资源（图像、字体和 css），请实现此接口。
+如果您想控制 Aspose.Words 在将文档保存为固定页面 HTML 或 SVG 时如何保存外部资源（图像、字体和 css），请实现此接口。
 
 ```csharp
 public interface IResourceSavingCallback
@@ -24,7 +24,7 @@ public interface IResourceSavingCallback
 
 ## 例子
 
-演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
+展示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
 ```csharp
 public void ResourceSavingCallback()
@@ -46,7 +46,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// 当 Aspose.Words 将外部资源保存到固定页面 HTML 或 SVG 时调用。
+    /// 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 时调用。
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -64,7 +64,7 @@ private class FontSavingCallback : IResourceSavingCallback
 }
 ```
 
-演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
+展示如何使用回调来打印将文档转换为 HTML 时创建的外部资源的 URI。
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -83,8 +83,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // 由 ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
-    // 我们必须确保该文件夹存在，然后流才能将其资源放入其中。
+    // ResourcesFolderAlias 指定的文件夹将包含资源，而不是 ResourcesFolder。
+    // 我们必须确保文件夹存在，然后流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -98,7 +98,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// 计算并打印 包含的资源的 URI，因为它们被转换为固定的 HTML。
+/// 计算并打印所包含资源的 URI，因为它们被转换为固定的 HTML。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -114,7 +114,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // 默认情况下，“ResourceFileUri”使用系统文件夹来存储字体。
-                // 为了避免在其他平台上出现问题，您必须显式指定字体的路径。
+                // 为避免在其他平台上出现问题，您必须明确指定字体的路径。
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }

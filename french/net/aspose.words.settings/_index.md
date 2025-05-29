@@ -3,21 +3,21 @@ title: Aspose.Words.Settings
 linktitle: Aspose.Words.Settings
 articleTitle: Aspose.Words.Settings
 second_title: Aspose.Words pour .NET
-description: LeAspose.Words.Paramètres Lespace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il sagit du publipostage de la protection en écriture de la compatibilité et dautres paramètres en C#.
+description: Découvrez l'espace de noms Aspose.Words.Settings pour une personnalisation puissante de vos documents. Gérez le publipostage, la protection en écriture et bien plus encore pour un contrôle optimal de vos documents.
 type: docs
-weight: 240
+weight: 260
 url: /fr/net/aspose.words.settings/
 ---
-Le**Aspose.Words.Paramètres** L'espace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il s'agit du publipostage, de la protection en écriture, de la compatibilité et d'autres paramètres.
+Le**Aspose.Words.Settings**L'espace de noms contient des classes et des énumérations qui sont utilisées lors de la spécification de divers paramètres et options stockés dans un document. Il s'agit de paramètres de fusion et de protection en écriture, de compatibilité et autres.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Contient les options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le**Compatibilité** Onglet du**Possibilités** boîte de dialogue dans Microsoft Word). |
-| [HyphenationOptions](./hyphenationoptions/) | Permet de configurer les options de césure du document. |
+| [CompatibilityOptions](./compatibilityoptions/) | Contient des options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le**Compatibilité** onglet du**Options** dialogue dans Microsoft Word). |
+| [HyphenationOptions](./hyphenationoptions/) | Permet de configurer les options de césure des documents. |
 | [MailMergeSettings](./mailmergesettings/) | Spécifie toutes les informations de publipostage pour un document. |
-| [Odso](./odso/) | Spécifie les paramètres ODSO (Office Data Source Object) pour une source de données de publipostage. |
+| [Odso](./odso/) | Spécifie les paramètres de l'objet source de données Office (ODSO) pour une source de données de publipostage. |
 | [OdsoFieldMapData](./odsofieldmapdata/) | Spécifie comment une colonne de la source de données externe doit être mappée aux champs de fusion prédéfinis dans le document. |
 | [OdsoFieldMapDataCollection](./odsofieldmapdatacollection/) | Une collection typée des[`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata/) objets. |
 | [OdsoRecipientData](./odsorecipientdata/) | Représente des informations sur un seul enregistrement dans une source de données externe qui doit être exclu du publipostage. |
@@ -34,7 +34,7 @@ Le**Aspose.Words.Paramètres** L'espace de noms contient des classes et des enum
 | [MailMergeDataType](./mailmergedatatype/) | Spécifie le type d'une source de données de publipostage externe. |
 | [MailMergeDestination](./mailmergedestination/) | Spécifie les résultats possibles qui peuvent être générés lorsqu'un publipostage est effectué sur un document. |
 | [MailMergeMainDocumentType](./mailmergemaindocumenttype/) | Spécifie les types possibles pour un document source de publipostage. |
-| [MsWordVersion](./mswordversion/) | Permet à Aspose.Wods d'imiter le comportement de l'application spécifique à la version de MS Word. |
+| [MsWordVersion](./mswordversion/) | Permet à Aspose.Wods d'imiter le comportement d'une application spécifique à la version MS Word. |
 | [MultiplePagesType](./multiplepagestype/) | Spécifie comment le document est imprimé. |
 | [OdsoDataSourceType](./odsodatasourcetype/) | Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO. |
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Spécifie les types possibles utilisés pour indiquer si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée. |

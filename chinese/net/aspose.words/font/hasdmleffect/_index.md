@@ -2,10 +2,10 @@
 title: Font.HasDmlEffect
 linktitle: HasDmlEffect
 articleTitle: HasDmlEffect
-second_title: 用于 .NET 的 Aspose.Words
-description: Font HasDmlEffect 方法. 检查是否应用了特定的 DrawingML 文本效果 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Font HasDmlEffect 方法检测特定的 DrawingML 文本效果是否已应用。轻松提升文档的视觉吸引力！
 type: docs
-weight: 560
+weight: 570
 url: /zh/net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method
@@ -22,11 +22,11 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### 返回值
 
-`真的`如果应用特定的 DrawingML 文本效果。
+`真的`如果应用了特定的 DrawingML 文本效果。
 
 ## 例子
 
-演示如何检查运行是否显示 DrawingML 文本效果。
+展示如何检查运行是否显示 DrawingML 文本效果。
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML text effects.docx");

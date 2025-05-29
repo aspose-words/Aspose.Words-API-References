@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportLanguageInformation
 linktitle: ExportLanguageInformation
 articleTitle: ExportLanguageInformation
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportLanguageInformation свойство. Указывает экспортируется ли языковая информация в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ  на С#.
+description: Управляйте экспортом языка в HTML, MHTML или EPUB с помощью HtmlSaveOptions. Улучшите доступность документа и охватите более широкую аудиторию без усилий.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -18,17 +18,17 @@ public bool ExportLanguageInformation { get; set; }
 
 ## Примечания
 
-Когда для этого свойства установлено значение`истинный` Выходы Aspose.Words**язык** Атрибут HTML в элементах document , определяющих язык. Это может быть необходимо для сохранения семантики, связанной с языком.
+Когда это свойство установлено в`истинный` Aspose.Words выводит**язык**Атрибут HTML в элементах document , которые определяют язык. Это может быть необходимо для сохранения семантики, связанной с языком.
 
 ## Примеры
 
-Показывает, как сохранить информацию о языке при сохранении в .html.
+Показывает, как сохранить языковую информацию при сохранении в формате .html.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор для написания текста, форматируя его в разных локалях.
+// Используйте конструктор для написания текста и его форматирования в разных локалях.
 builder.Font.LocaleId = new CultureInfo("en-US").LCID;
 builder.Writeln("Hello world!");
 
@@ -39,11 +39,11 @@ builder.Font.LocaleId = new CultureInfo("ru-RU").LCID;
 builder.Write("Привет, мир!");
 
 // При сохранении документа в HTML мы можем передать объект SaveOptions
-// чтобы сохранить или удалить локаль каждого форматированного текста.
-// Если мы установим флаг «ExportLanguageInformation» в значение «true»,
-// выходной HTML-документ будет содержать локали в атрибутах "lang" <span> теги.
-// Если мы установим флаг «ExportLanguageInformation» в значение «false»,
-// текст выходного HTML-документа не будет содержать никакой информации о локали.
+// чтобы сохранить или отменить локаль каждого форматированного текста.
+// Если мы установим флаг "ExportLanguageInformation" на "true",
+// выходной HTML-документ будет содержать локали в атрибутах "lang" тегов <span>.
+// Если мы установим флаг "ExportLanguageInformation" на "false",
+// текст в выходном HTML-документе не будет содержать никакой информации о локали.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     ExportLanguageInformation = exportLanguageInformation,

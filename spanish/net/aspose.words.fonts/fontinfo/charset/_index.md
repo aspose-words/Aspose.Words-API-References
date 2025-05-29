@@ -3,14 +3,14 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words para .NET
-description: FontInfo Charset propiedad. Obtiene o establece el juego de caracteres para la fuente en C#.
+description: Descubra la propiedad Charset de FontInfo para administrar y personalizar fácilmente el conjunto de caracteres de su fuente para una mayor flexibilidad y legibilidad del diseño.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontinfo/charset/
 ---
 ## FontInfo.Charset property
 
-Obtiene o establece el juego de caracteres para la fuente.
+Obtiene o establece el conjunto de caracteres para la fuente.
 
 ```csharp
 public int Charset { get; set; }
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Los nombres alternativos suelen estar en blanco.
+        // Los nombres Alt normalmente están en blanco.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

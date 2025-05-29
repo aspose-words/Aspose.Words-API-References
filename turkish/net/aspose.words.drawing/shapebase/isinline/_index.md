@@ -2,15 +2,15 @@
 title: ShapeBase.IsInline
 linktitle: IsInline
 articleTitle: IsInline
-second_title: Aspose.Words for .NET
-description: ShapeBase IsInline mülk. Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu C#'da.
+second_title: .NET için Aspose.Words
+description: Şeklinizin metinle hizalanıp hizalanmadığını kolayca kontrol etmek, tasarımınızı geliştirmek ve düzen verimliliğini artırmak için ShapeBase IsInline özelliğini keşfedin.
 type: docs
-weight: 290
+weight: 310
 url: /tr/net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property
 
-Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu.
+Bu şeklin metinle aynı hizada konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu.
 
 ```csharp
 public bool IsInline { get; }
@@ -18,40 +18,40 @@ public bool IsInline { get; }
 
 ## Notlar
 
-Yalnızca üst düzey şekiller için etkilidir.
+Sadece en üst seviye şekiller için etkilidir.
 
 ## Örnekler
 
-Bir şeklin satır içi mi yoksa kayan mı olduğunun nasıl belirleneceğini gösterir.
+Bir şeklin satır içi mi yoksa yüzen mi olduğunun nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda şekillerin sahip olabileceği iki sarma türü verilmiştir.
+// Aşağıda şekillerin sahip olabileceği iki sarma türü bulunmaktadır.
 // 1 - Satır içi:
 builder.Write("Hello world! ");
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 100);
 shape.FillColor = Color.LightBlue;
 builder.Write(" Hello again.");
 
-// Satır içi şekil, paragrafın içinde, metin dizileri gibi diğer paragraf öğelerinin arasında yer alır.
-// Microsoft Word'de şekle tıklayıp herhangi bir paragrafa sanki bir karaktermiş gibi sürükleyebiliriz.
-// Şeklin büyük olması dikey paragraf aralığını etkileyecektir.
-// Bu şekli paragrafsız bir yere taşıyamayız.
+// Satır içi şekil, metin parçaları gibi diğer paragraf öğelerinin arasında bir paragrafın içinde yer alır.
+// Microsoft Word'de şekli bir karaktermiş gibi tıklayıp istediğimiz paragrafa sürükleyebiliriz.
+// Şekil büyükse dikey paragraf aralığı etkilenir.
+// Bu şekli paragraf olmayan bir yere taşıyamayız.
 Assert.AreEqual(WrapType.Inline, shape.WrapType);
 Assert.True(shape.IsInline);
 
-// 2 - Kayan:
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin ,200, 
-    RelativeVerticalPosition.TopMargin ,200, 100, 100, WrapType.None);
+// 2 - Yüzen:
+shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 200,
+    RelativeVerticalPosition.TopMargin, 200, 100, 100, WrapType.None);
 shape.FillColor = Color.Orange;
 
-// Kayan bir şekil onu eklediğimiz paragrafa aittir,
-// bunu şekle tıkladığımızda beliren bağlantı sembolüyle belirleyebiliriz.
+// Yüzen bir şekil, onu eklediğimiz paragrafa aittir,
+// Şeklin üzerine tıkladığımızda çıkan bir bağlantı sembolünden bunu belirleyebiliriz.
 // Şeklin solunda görünür bir bağlantı sembolü yoksa,
-// "Seçenekler" aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek -> "Ekran" -> "Nesne Bağlantıları".
-// Microsoft Word'de bu şekle sol tıklayıp serbestçe herhangi bir yere sürükleyebiliriz.
+// "Seçenekler" -> "Görüntüle" -> "Nesne Bağlantı Noktaları" yoluyla görünür bağlantıları etkinleştirmemiz gerekecek.
+// Microsoft Word'de bu şeklin üzerine sol tıklayıp istediğimiz yere sürükleyebiliriz.
 Assert.AreEqual(WrapType.None, shape.WrapType);
 Assert.False(shape.IsInline);
 

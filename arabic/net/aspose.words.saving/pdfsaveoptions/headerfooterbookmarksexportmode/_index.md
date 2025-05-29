@@ -3,7 +3,7 @@ title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 linktitle: HeaderFooterBookmarksExportMode
 articleTitle: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions HeaderFooterBookmarksExportMode ملكية. يحدد كيفية تصدير الإشارات المرجعية في الرؤوس/التذييلات في C#.
+description: اكتشف كيف تعمل خاصية PdfSaveOptions HeaderFooterBookmarksExportMode على تحسين تصدير الإشارات المرجعية في الرؤوس والتذييلات لتحسين وظائف PDF.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -24,28 +24,28 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 ## أمثلة
 
-يظهر لمعالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نعرضه إلى PDF.
+يوضح كيفية معالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نقوم بتحويله إلى PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// قم بتعيين خاصية "PageMode" على "PdfPageMode.UseOutlines" لعرض جزء التنقل التفصيلي في ملف PDF الناتج.
+// قم بتعيين خاصية "PageMode" إلى "PdfPageMode.UseOutlines" لعرض جزء التنقل المخطط التفصيلي في ملف PDF الناتج.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// قم بتعيين خاصية "DefaultBookmarksOutlineLevel" على "1" لعرض الكل
-// الإشارات المرجعية في المستوى الأول من المخطط التفصيلي في ملف PDF الناتج.
+// اضبط خاصية "DefaultBookmarksOutlineLevel" على "1" لعرض جميع
+// إشارات مرجعية في المستوى الأول من المخطط التفصيلي في ملف PDF الناتج.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// قم بتعيين خاصية "HeaderFooterBookmarksExportMode" على "HeaderFooterBookmarksExportMode.None" إلى
-// عدم تصدير أي إشارات مرجعية موجودة داخل الرؤوس/التذييلات.
-// قم بتعيين خاصية "HeaderFooterBookmarksExportMode" على "HeaderFooterBookmarksExportMode.First" إلى
-// تصدير الإشارات المرجعية فقط في رأس/تذييلات القسم الأول.
-// قم بتعيين خاصية "HeaderFooterBookmarksExportMode" على "HeaderFooterBookmarksExportMode.All" إلى
-// تصدير الإشارات المرجعية الموجودة في جميع الرؤوس والتذييلات.
+// اضبط خاصية "HeaderFooterBookmarksExportMode" إلى "HeaderFooterBookmarksExportMode.None"
+// لا يتم تصدير أي إشارات مرجعية موجودة داخل الرؤوس/التذييلات.
+// اضبط خاصية "HeaderFooterBookmarksExportMode" إلى "HeaderFooterBookmarksExportMode.First" إلى
+// تصدير الإشارات المرجعية فقط في رأس/تذييل القسم الأول.
+// اضبط خاصية "HeaderFooterBookmarksExportMode" إلى "HeaderFooterBookmarksExportMode.All" إلى
+// تصدير الإشارات المرجعية الموجودة في كافة الرؤوس والتذييلات.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

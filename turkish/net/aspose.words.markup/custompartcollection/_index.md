@@ -2,17 +2,17 @@
 title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.CustomPartCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederCustomPart nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: CustomPart nesnelerini verimli bir şekilde yönetmek için Aspose.Words.Markup.CustomPartCollection sınıfını keşfedin. Belge işleme yeteneklerinizi bugün geliştirin!
 type: docs
-weight: 3910
+weight: 4600
 url: /tr/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
-Aşağıdakilerin bir koleksiyonunu temsil eder:[`CustomPart`](../custompart/) nesneler.
+Bir koleksiyonu temsil eder[`CustomPart`](../custompart/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Denetimi](https://docs.aspose.com/words/net/working-with-content-control-sdt/) belgeleme makalesi.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -28,7 +28,7 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.markup/custompartcollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [Count](../../aspose.words.markup/custompartcollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
 | [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Belirtilen dizindeki bir öğeyi alır veya ayarlar. |
 
 ## yöntemler
@@ -37,29 +37,29 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | --- | --- |
 | [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Koleksiyona bir öğe ekler. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur. |
-| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
+| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Bu koleksiyonun ve öğelerinin derin bir kopyasını oluşturur. |
+| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Belirtilen dizindeki bir öğeyi kaldırır. |
 
 ## Notlar
 
-Normalde bu sınıfın örneklerini oluşturmanıza gerek yoktur. OOXML paketiyle ilgili özel bölümlerine şu adresten erişebilirsiniz:[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) mülk.
+Normalde bu sınıfın örneklerini oluşturmanız gerekmez. OOXML paketiyle ilgili özel parçalara şu şekilde erişirsiniz:[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) mülk.
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -76,7 +76,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

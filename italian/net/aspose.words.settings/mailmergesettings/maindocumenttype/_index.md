@@ -3,14 +3,14 @@ title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
 second_title: Aspose.Words per .NET
-description: MailMergeSettings MainDocumentType proprietà. Specifica il tipo di documento principale di stampa unione. Il valore predefinito èDefault  in C#.
+description: Scopri come la proprietà MainDocumentType di MailMergeSettings definisce i tuoi documenti di stampa unione. Sblocca la creazione di documenti senza interruzioni con impostazioni ottimali!
 type: docs
 weight: 140
 url: /it/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Specifica il tipo di documento principale di stampa unione. Il valore predefinito èDefault .
+Specifica il tipo di documento principale della stampa unione. Il valore predefinito èDefault .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -18,11 +18,11 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ## Osservazioni
 
-Il documento principale è il documento che contiene informazioni identiche per ciascuna versione del documento unito.
+Il documento principale è il documento che contiene le stesse informazioni per ogni versione del documento unito.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

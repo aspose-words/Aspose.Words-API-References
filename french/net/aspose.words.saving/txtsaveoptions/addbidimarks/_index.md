@@ -3,14 +3,14 @@ title: TxtSaveOptions.AddBidiMarks
 linktitle: AddBidiMarks
 articleTitle: AddBidiMarks
 second_title: Aspose.Words pour .NET
-description: TxtSaveOptions AddBidiMarks propriété. Spécifie sil faut ajouter des marques bidirectionnelles avant chaque exécution de BiDi lors de lexportation au format texte brut en C#.
+description: Découvrez comment la propriété TxtSaveOptions AddBidiMarks améliore les exportations de texte brut en ajoutant des marques bidirectionnelles pour une meilleure lisibilité et un meilleur formatage.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/txtsaveoptions/addbidimarks/
 ---
 ## TxtSaveOptions.AddBidiMarks property
 
-Spécifie s'il faut ajouter des marques bidirectionnelles avant chaque exécution de BiDi lors de l'exportation au format texte brut.
+Spécifie s'il faut ajouter des marques bidirectionnelles avant chaque exécution BiDi lors de l'exportation au format texte brut.
 
 La valeur par défaut est`FAUX`.
 
@@ -31,14 +31,14 @@ builder.ParagraphFormat.Bidi = true;
 builder.Writeln("שלום עולם!");
 builder.Writeln("مرحبا بالعالم!");
 
-// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
+// Créez un objet « TxtSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions saveOptions = new TxtSaveOptions { Encoding = System.Text.Encoding.Unicode};
 
-// Définissez la propriété "AddBidiMarks" sur "true" pour ajouter des marques avant les exécutions
-// avec un texte de droite à gauche pour indiquer le fait.
-// Définissez la propriété "AddBidiMarks" sur "false" pour écrire tout de gauche à droite
-// et de droite à gauche s'exécutent de la même manière sans rien pour indiquer lequel est lequel.
+// Définissez la propriété « AddBidiMarks » sur « true » pour ajouter des marques avant les exécutions
+// avec du texte de droite à gauche pour indiquer le fait.
+// Définissez la propriété « AddBidiMarks » sur « false » pour tout écrire de gauche à droite
+// et de droite à gauche fonctionnent de manière égale sans rien pour indiquer lequel est lequel.
 saveOptions.AddBidiMarks = addBidiMarks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.AddBidiMarks.txt", saveOptions);

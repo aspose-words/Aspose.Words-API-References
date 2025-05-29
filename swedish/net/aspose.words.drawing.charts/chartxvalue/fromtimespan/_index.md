@@ -3,14 +3,14 @@ title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words för .NET
-description: ChartXValue FromTimeSpan metod. Skapar enChartXValue instans avTime typ i C#.
+description: Upptäck ChartXValue FromTimeSpan-metoden för att enkelt skapa tidstypinstanser och förbättra din datavisualiseringsupplevelse.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/
 ---
 ## ChartXValue.FromTimeSpan method
 
-Skapar en[`ChartXValue`](../) instans avTime typ.
+Skapar en[`ChartXValue`](../) exempel påTime typ.
 
 ```csharp
 public static ChartXValue FromTimeSpan(TimeSpan value)

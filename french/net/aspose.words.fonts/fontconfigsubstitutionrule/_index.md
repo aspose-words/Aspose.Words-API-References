@@ -3,16 +3,16 @@ title: FontConfigSubstitutionRule Class
 linktitle: FontConfigSubstitutionRule
 articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule classe. Règle de substitution de configuration de police en C#.
+description: Découvrez la classe Aspose.Words.Fonts.FontConfigSubstitutionRule pour une gestion et une personnalisation fluides des polices dans vos documents. Améliorez le style de votre texte dès aujourd'hui !
 type: docs
-weight: 2890
+weight: 3300
 url: /fr/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 Règle de substitution de configuration de police.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -49,7 +49,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plateformes Windows/non Windows.
+// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plates-formes Windows/non Windows.
 // Sous Windows, il n'est pas disponible.
 if (isWindows)
 {

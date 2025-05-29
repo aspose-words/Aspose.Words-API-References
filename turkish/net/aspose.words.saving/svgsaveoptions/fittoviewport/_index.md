@@ -2,15 +2,15 @@
 title: SvgSaveOptions.FitToViewPort
 linktitle: FitToViewPort
 articleTitle: FitToViewPort
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions FitToViewPort mülk. Çıkış SVGsinin mevcut görünüm alanını tarayıcı penceresi veya kapsayıcı doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığındadoğru SVG çıkışının genişliği ve yüksekliği 100 olarak ayarlandı C#'da.
+second_title: .NET için Aspose.Words
+description: SvgSaveOptions FitToViewPort özelliğinin, SVG çıktınızı herhangi bir tarayıcı penceresini veya kapsayıcısını mükemmel şekilde dolduracak şekilde nasıl optimize ettiğini ve çarpıcı görseller sunduğunu keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Çıkış SVG'sinin mevcut görünüm alanını (tarayıcı penceresi veya kapsayıcı) doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığında`doğru` SVG çıkışının genişliği ve yüksekliği %100 olarak ayarlandı.
+Çıktı SVG'sinin kullanılabilir görüntüleme alanını (tarayıcı penceresi veya kapsayıcı) doldurup doldurmayacağını belirtir. olarak ayarlandığında`doğru`çıktı SVG'sinin genişliği ve yüksekliği %100 olarak ayarlandı.
 
 Varsayılan değer:`YANLIŞ`.
 
@@ -20,12 +20,12 @@ public bool FitToViewPort { get; set; }
 
 ## Örnekler
 
-Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
+.docx belgesini .svg'ye dönüştürürken görsellerin özelliklerinin nasıl taklit edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// SvgSaveOptions nesnesini, sayfa kenarlıkları veya seçilebilir metin olmadan kaydedilecek şekilde yapılandırın.
+// SvgSaveOptions nesnesini sayfa kenarlıkları veya seçilebilir metin olmadan kaydedecek şekilde yapılandırın.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

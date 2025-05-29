@@ -3,7 +3,7 @@ title: FieldDatabase
 linktitle: FieldDatabase
 articleTitle: FieldDatabase
 second_title: Aspose.Words pour .NET
-description: FieldDatabase constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldDatabase, votre solution idéale pour une gestion fluide des données grâce à une configuration par défaut intuitive. Optimisez vos projets dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddatabase/fielddatabase/

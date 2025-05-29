@@ -3,14 +3,14 @@ title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: FieldKeywords Text fast egendom. Hämtar eller ställer in texten för sökorden i C#.
+description: Hantera dina FieldKeywords enkelt! Få åtkomst till och anpassa nyckelordstexten för optimal SEO-prestanda och förbättrad synlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldkeywords/text/
 ---
 ## FieldKeywords.Text property
 
-Hämtar eller ställer in texten för sökorden.
+Hämtar eller ställer in texten för nyckelorden.
 
 ```csharp
 public string Text { get; set; }
@@ -18,24 +18,24 @@ public string Text { get; set; }
 
 ## Exempel
 
-Visar för att infoga ett KEYWORDS-fält.
+Visar för att infoga ett NYCKELORD-fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till några nyckelord, även kallade "taggar" i File Explorer.
+// Lägg till några nyckelord, även kallade "taggar" i Utforskaren.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
-// KEYWORDS-fältet visar värdet för den här egenskapen.
+// Fältet NYCKELORD visar värdet för den här egenskapen.
 FieldKeywords field = (FieldKeywords)builder.InsertField(FieldType.FieldKeyword, true);
 field.Update();
 
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Ange ett värde för fältets textegenskap,
-// och sedan uppdatera fältet kommer också att skriva över motsvarande inbyggda egenskap med det nya värdet.
+// Anger ett värde för fältets Text-egenskap,
+// och att sedan uppdatera fältet kommer även att skriva över motsvarande inbyggda egenskap med det nya värdet.
 field.Text = "OverridingKeyword";
 field.Update();
 

@@ -3,14 +3,14 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words pour .NET
-description: FileFontSource Type propriété. Renvoie le type de la source de police en C#.
+description: Découvrez la propriété Type FileFontSource pour identifier facilement les types de sources de polices, améliorant ainsi vos projets de conception avec des solutions typographiques précises.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/filefontsource/type/
 ---
 ## FileFontSource.Type property
 
-Renvoie le type de la source de police.
+Renvoie le type de la source de la police.
 
 ```csharp
 public override FontSourceType Type { get; }

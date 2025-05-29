@@ -3,14 +3,14 @@ title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
 second_title: Aspose.Words per .NET
-description: XmlDataLoadOptions costruttore. Inizializza una nuova istanza di questa classe con le opzioni predefinite in C#.
+description: Scopri il costruttore XmlDataLoadOptions, progettato per inizializzare senza sforzo il caricamento dei dati con impostazioni predefinite per prestazioni ottimali.
 type: docs
 weight: 10
 url: /it/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions constructor
 
-Inizializza una nuova istanza di questa classe con le opzioni predefinite.
+Inizializza una nuova istanza di questa classe con opzioni predefinite.
 
 ```csharp
 public XmlDataLoadOptions()

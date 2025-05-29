@@ -3,14 +3,14 @@ title: CompositeNode.FirstChild
 linktitle: FirstChild
 articleTitle: FirstChild
 second_title: Aspose.Words для .NET
-description: CompositeNode FirstChild свойство. Получает первого дочернего элемента узла на С#.
+description: Откройте для себя свойство CompositeNode FirstChild для легкого доступа к первому дочернему узлу, что повысит эффективность кодирования и упростит управление данными.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/compositenode/firstchild/
 ---
 ## CompositeNode.FirstChild property
 
-Получает первого дочернего элемента узла.
+Получает первый дочерний элемент узла.
 
 ```csharp
 public Node FirstChild { get; }
@@ -37,7 +37,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-Показывает, как перемещаться по дереву дочерних узлов составного узла.
+Показывает, как обойти дерево дочерних узлов составного узла.
 
 ```csharp
 public void RecurseChildren()
@@ -47,13 +47,13 @@ public void RecurseChildren()
     // Любой узел, который может содержать дочерние узлы, например сам документ, является составным.
     Assert.True(doc.IsComposite);
 
-    // Вызов рекурсивной функции, которая пройдёт и распечатает все дочерние узлы составного узла.
+    // Вызываем рекурсивную функцию, которая пройдет и выведет все дочерние узлы составного узла.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Рекурсивно обходит дерево узлов, печатая тип каждого узла
-/// с отступом в зависимости от глубины, а также содержимого всех строчных узлов.
+/// Рекурсивно обходит дерево узлов, выводя тип каждого узла
+/// с отступом, зависящим от глубины, а также от содержимого всех встроенных узлов.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -61,7 +61,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Рекурсия к узлу, если это составной узел. В противном случае выведите его содержимое, если это встроенный узел.
+        // Рекурсия в узел, если это составной узел. В противном случае, выводим его содержимое, если это встроенный узел.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

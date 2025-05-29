@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
 articleTitle: ExportDropDownFormFieldAsText
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportDropDownFormFieldAsText свойство. Управляет сохранением полей раскрывающейся формы в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство HtmlSaveOptions ExportDropDownFormFieldAsText улучшает экспорт HTML/MHTML, управляя форматами раскрывающихся полей. Оптимизируйте свои документы!
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Управляет сохранением полей раскрывающейся формы в формате HTML или MHTML. Значение по умолчанию:`ЛОЖЬ` .
+Управляет сохранением полей раскрывающихся форм в HTML или MHTML. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -18,26 +18,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ## Примечания
 
-Если установлено значение`истинный` , экспортирует поля раскрывающейся формы как обычный текст. Когда`ЛОЖЬ`, экспортирует поля раскрывающейся формы как элемент SELECT в HTML.
+При установке на`истинный` , экспортирует раскрывающиеся поля формы как обычный текст. Когда`ЛОЖЬ`, экспортирует раскрывающиеся поля формы как элемент SELECT в HTML.
 
-При экспорте в EPUB текстовые поля формы раскрывающегося списка всегда сохраняются как текст в соответствии с требованиями этого формата .
+При экспорте в EPUB текстовые поля раскрывающихся форм всегда сохраняются как text due в соответствии с требованиями этого формата.
 
 ## Примеры
 
-Показывает, как заставить поля формы раскрывающегося поля со списком сливаться с текстом абзаца при сохранении в HTML.
+Показывает, как сделать так, чтобы поля раскрывающегося списка в форме сливались с текстом абзаца при сохранении в HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле со списком с выбранным значением «Два».
+// Используйте конструктор документов для вставки поля со списком, в котором выбрано значение «Два».
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
-// Флаг «ExportDropDownFormFieldAsText» этого объекта SaveOptions позволяет нам
-// контролировать, как при сохранении документа в HTML обрабатываются раскрывающиеся списки.
+// Флаг "ExportDropDownFormFieldAsText" этого объекта SaveOptions позволяет нам
+// управление тем, как сохранение документа в формате HTML обрабатывает раскрывающиеся списки.
 // Установка значения «true» преобразует каждое поле со списком в простой текст
 // который отображает текущее выбранное значение поля со списком, фактически замораживая его.
-// Установка значения «false» сохранит функциональность поля со списком с помощью <select> и <опция> теги.
+// Установка значения «false» сохранит функциональность поля со списком с использованием тегов <select> и <option>.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

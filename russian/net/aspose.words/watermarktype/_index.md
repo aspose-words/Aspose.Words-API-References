@@ -3,9 +3,9 @@ title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WatermarkType перечисление. Указывает тип водяного знака на С#.
+description: Откройте для себя перечисление Aspose.Words.WatermarkType для легкой настройки водяных знаков в документах. Улучшите свои проекты с помощью универсальных опций водяных знаков!
 type: docs
-weight: 6690
+weight: 7540
 url: /ru/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -31,10 +31,10 @@ public enum WatermarkType
 ```csharp
 Document doc = new Document();
 
-// Добавляем простой текстовый водяной знак.
+// Добавить простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
+// Если мы хотим изменить форматирование текста, используя его как водяной знак,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -47,7 +47,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из документа вот так.
+// Мы можем удалить водяной знак из документа следующим образом.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

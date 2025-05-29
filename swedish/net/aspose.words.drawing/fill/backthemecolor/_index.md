@@ -3,7 +3,7 @@ title: Fill.BackThemeColor
 linktitle: BackThemeColor
 articleTitle: BackThemeColor
 second_title: Aspose.Words för .NET
-description: Fill BackThemeColor fast egendom. Hämtar eller ställer in ett ThemeColorobjekt som representerar bakgrundsfärgen för fyllningen i C#.
+description: Anpassa din design med egenskapen BackThemeColor. Ställ enkelt in ett ThemeColor-objekt för att förbättra din bakgrundsfyllning och höja användarupplevelsen.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/fill/backthemecolor/
@@ -18,7 +18,7 @@ public ThemeColor BackThemeColor { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in temafärg för förgrunds-/bakgrundsformfärg.
+Visar hur man ställer in temafärg för förgrunds-/bakgrundsformfärg.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Obs: använd inte "BackThemeColor" och "BackTintAndShade" för teckensnittsfyllning.
+// Obs: använd inte "BackThemeColor" och "BackTintAndShade" för typsnittsfyllning.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

@@ -3,7 +3,7 @@ title: ListFormat.ApplyNumberDefault
 linktitle: ApplyNumberDefault
 articleTitle: ApplyNumberDefault
 second_title: Aspose.Words per .NET
-description: ListFormat ApplyNumberDefault metodo. Avvia un nuovo elenco numerato predefinito e lo applica al paragrafo in C#.
+description: Scopri come il metodo ApplyNumberDefault crea un elenco numerato predefinito per i tuoi paragrafi, migliorando l'organizzazione e la chiarezza nei tuoi documenti.
 type: docs
 weight: 60
 url: /it/net/aspose.words.lists/listformat/applynumberdefault/
@@ -18,7 +18,7 @@ public void ApplyNumberDefault()
 
 ## Osservazioni
 
-Questo è un metodo di scelta rapida che crea un nuovo elenco utilizzando il modello numerato predefinito, lo applica al paragrafo e seleziona il primo livello dell'elenco.
+Si tratta di un metodo rapido che crea un nuovo elenco utilizzando il modello predefinito numbered , lo applica al paragrafo e seleziona il 1° livello di elenco.
 
 ## Esempi
 
@@ -30,10 +30,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Aspose.Words main advantages are:");
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Di seguito sono riportati due tipi di elenchi che possiamo creare con un generatore di documenti.
 // 1 - Un elenco puntato:
 // Questo elenco applicherà un rientro e un simbolo di punto elenco ("•") prima di ogni paragrafo.
@@ -51,22 +51,22 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 builder.Writeln("Aspose.Words allows:");
 
 // 2 - Un elenco numerato:
-// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ciascun elemento.
+// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ogni elemento.
 builder.ListFormat.ApplyNumberDefault();
 
-// Questo paragrafo è il primo elemento. Il primo elemento di un elenco numerato avrà un "1". come simbolo della voce di elenco.
+// Questo paragrafo è il primo elemento. Il primo elemento di un elenco numerato avrà un "1" come simbolo di elemento dell'elenco.
 builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
 // Chiama il metodo "ListIndent" per aumentare il livello dell'elenco corrente,
-// che inizierà un nuovo elenco autonomo, con un rientro più profondo, in corrispondenza dell'elemento corrente del primo livello dell'elenco.
+// che avvierà un nuovo elenco autonomo, con un rientro più profondo, all'elemento corrente del primo livello dell'elenco.
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
 // Questi sono i primi tre elementi dell'elenco del secondo livello dell'elenco, che manterranno un conteggio
-// indipendente dal conteggio del primo livello dell'elenco. Secondo l'attuale formato dell'elenco,
+// indipendente dal conteggio del primo livello dell'elenco. In base al formato dell'elenco corrente,
 // avranno i simboli "a.", "b." e "c.".
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -92,7 +92,7 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
-// Riduci nuovamente il livello dell'elenco.
+// Riduci nuovamente il rientro del livello dell'elenco.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 

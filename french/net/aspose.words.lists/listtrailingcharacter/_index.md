@@ -3,9 +3,9 @@ title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListTrailingCharacter énumération. Spécifie le caractère qui sépare létiquette de la liste du texte du paragraphe en C#.
+description: Découvrez l'énumération Aspose.Words.Lists.ListTrailingCharacter pour personnaliser les étiquettes de liste et améliorer la mise en forme des paragraphes pour une présentation de document soignée.
 type: docs
-weight: 3540
+weight: 3990
 url: /fr/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -20,9 +20,9 @@ public enum ListTrailingCharacter
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Tab | `0` | Un caractère de tabulation est placé entre le libellé de la liste et le texte du paragraphe. |
-| Space | `1` | Un caractère espace est placé entre le libellé de la liste et le texte du paragraphe. |
-| Nothing | `2` | Il n'y a pas de caractère séparateur entre le libellé de la liste et le texte du paragraphe. |
+| Tab | `0` | Un caractère de tabulation est placé entre l'étiquette de la liste et le texte du paragraphe. |
+| Space | `1` | Un caractère espace est placé entre l'étiquette de la liste et le texte du paragraphe. |
+| Nothing | `2` | Il n'y a pas de caractère séparateur entre l'étiquette de la liste et le texte du paragraphe. |
 
 ## Remarques
 
@@ -30,16 +30,16 @@ Utilisé comme valeur pour le[`TrailingCharacter`](../listlevel/trailingcharacte
 
 ## Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

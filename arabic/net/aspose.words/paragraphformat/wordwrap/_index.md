@@ -3,14 +3,14 @@ title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat WordWrap ملكية. إذا كانت هذه الخاصيةخطأ شنيع  يمكن تغليف النص اللاتيني الموجود في منتصف الكلمة بـ الفقرة الحالية. وإلا فسيتم تغليف النص اللاتيني بكلمات كاملة في C#.
+description: اكتشف كيف تؤثر خاصية ParagraphFormat WordWrap على التفاف النص في Word. تعلم كيفية التحكم في تدفق النص اللاتيني لتحسين قابلية قراءة المستند.
 type: docs
-weight: 410
+weight: 420
 url: /ar/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-إذا كانت هذه الخاصية`خطأ شنيع` ، يمكن تغليف النص اللاتيني الموجود في منتصف الكلمة بـ الفقرة الحالية. وإلا فسيتم تغليف النص اللاتيني بكلمات كاملة.
+إذا كانت هذه الخاصية`خطأ شنيع` يمكن تغليف النص اللاتيني في منتصف الكلمة بالكلمات الكاملة.
 
 ```csharp
 public bool WordWrap { get; set; }

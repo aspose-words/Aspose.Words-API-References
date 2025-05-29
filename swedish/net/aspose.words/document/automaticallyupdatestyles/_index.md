@@ -3,14 +3,14 @@ title: Document.AutomaticallyUpdateStyles
 linktitle: AutomaticallyUpdateStyles
 articleTitle: AutomaticallyUpdateStyles
 second_title: Aspose.Words för .NET
-description: Document AutomaticallyUpdateStyles fast egendom. Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdateras för att matcha stilarna i den bifogade mallen varje gång dokumentet öppnas i MS Word i C#.
+description: Upptäck hur egenskapen AutomaticallyUpdateStyles i MS Word säkerställer att dokumentets format synkroniseras med mallen varje gång du öppnar det, vilket förbättrar konsekvensen.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property
 
-Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdateras för att matcha stilarna i den bifogade mallen varje gång dokumentet öppnas i MS Word.
+Hämtar eller anger en flagga som anger om formaten i dokumentet uppdateras för att matcha formaten i den bifogade mallen varje gång dokumentet öppnas i MS Word.
 
 ```csharp
 public bool AutomaticallyUpdateStyles { get; set; }
@@ -27,8 +27,8 @@ Document doc = new Document();
 // Det finns ingen standardmall för tomma Aspose.Words-dokument.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Bifoga en mall och ställ sedan in flaggan för att tillämpa stiländringar
-// i mallen till stilar i vårt dokument.
+// Bifoga en mall och sätt sedan flaggan för att tillämpa stiländringar
+// inom mallen till stilar i vårt dokument.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
 
@@ -45,7 +45,7 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Eftersom det inte finns något malldokument hade dokumentet ingenstans att spåra stiländringar.
+// Eftersom det inte finns något malldokument fanns det ingenstans i dokumentet att spåra stiländringar.
 // Använd ett SaveOptions-objekt för att automatiskt ställa in en mall
 // om ett dokument som vi sparar inte har ett.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");

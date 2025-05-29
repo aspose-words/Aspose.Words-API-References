@@ -3,7 +3,7 @@ title: DocumentProperty.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: DocumentProperty Type eigendom. Ruft den Datentyp der Eigenschaft ab in C#.
+description: Entdecken Sie den DocumentProperty-Typ, um Eigenschaftsdatentypen effizient abzurufen und zu nutzen und so die Dokumentenverwaltung und -automatisierung zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.properties/documentproperty/type/
@@ -23,11 +23,11 @@ Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Das Objekt „Document“ enthält einige seiner Metadaten in seinen Mitgliedern.
+// Das Objekt „Dokument“ enthält einige seiner Metadaten in seinen Mitgliedern.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Das Dokument speichert auch Metadaten in seinen integrierten Eigenschaften.
-// Jede integrierte Eigenschaft ist Mitglied des „BuiltInDocumentProperties“-Objekts des Dokuments.
+// Jede integrierte Eigenschaft ist ein Mitglied des Objekts „BuiltInDocumentProperties“ des Dokuments.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
@@ -73,18 +73,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
+// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
+// Diese benutzerdefinierten Eigenschaften finden wir in Microsoft Word über „Datei“ -> „Eigenschaften“ > „Erweiterte Eigenschaften“ > „Benutzerdefiniert“.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
-// 1 - Nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument aufgeführt.
+// 1 - Entfernen nach Index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -96,7 +96,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 – Die gesamte Sammlung auf einmal leeren:
+// 3 - Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

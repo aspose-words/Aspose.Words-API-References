@@ -3,7 +3,7 @@ title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words para .NET
-description: DocumentProperty ToString método. Devuelve el valor de la propiedad como una cadena formateada según la configuración regional actual en C#.
+description: Descubra el método DocumentProperty ToString, que formatea los valores de propiedad como cadenas según la configuración regional, lo que mejora la presentación de los datos y la experiencia del usuario.
 type: docs
 weight: 110
 url: /es/net/aspose.words.properties/documentproperty/tostring/
@@ -18,7 +18,7 @@ public override string ToString()
 
 ## Observaciones
 
-Convierte una propiedad booleana en "Y" o "N". Convierte una propiedad de fecha en una cadena de fecha corta. Para todos los demás tipos, convierte una propiedad usando Object.ToString().
+Convierte una propiedad booleana en "Y" o "N". Convierte una propiedad de fecha en una cadena de fecha corta. Para todos los demás tipos, convierte una propiedad utilizando Object.ToString().
 
 ## Ejemplos
 
@@ -42,13 +42,13 @@ Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
 Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
-Muestra cómo trabajar con propiedades de documentos personalizados.
+Muestra cómo trabajar con propiedades de documentos personalizadas.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Cada documento contiene una colección de propiedades personalizadas que, al igual que las propiedades integradas, son pares clave-valor.
- // El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
+ El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

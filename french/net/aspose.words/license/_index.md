@@ -3,16 +3,16 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.License classe. Fournit des méthodes pour obtenir une licence pour le composant en C#.
+description: Exploitez tout le potentiel d'Aspose.Words grâce à notre classe de licences. Gérez facilement vos licences pour un traitement fluide des documents et des fonctionnalités améliorées.
 type: docs
-weight: 3420
+weight: 3870
 url: /fr/net/aspose.words/license/
 ---
 ## License class
 
 Fournit des méthodes pour obtenir une licence pour le composant.
 
-Pour en savoir plus, visitez le[Licence et abonnement](https://docs.aspose.com/words/net/licensing/) article documentaire.
+Pour en savoir plus, visitez le[Licences et abonnements](https://docs.aspose.com/words/net/licensing/) article de documentation.
 
 ```csharp
 public class License
@@ -28,12 +28,12 @@ public class License
 
 | Nom | La description |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Licence pour le composant. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Licence pour le composant. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Licence le composant. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Licence le composant. |
 
 ## Exemples
 
-Montre comment initialiser une licence pour Aspose.Words à l’aide d’un fichier de licence dans le système de fichiers local.
+Montre comment initialiser une licence pour Aspose.Words à l'aide d'un fichier de licence dans le système de fichiers local.
 
 ```csharp
 // Définissez la licence de notre produit Aspose.Words en transmettant le nom de fichier du système de fichiers local d'un fichier de licence valide.
@@ -46,9 +46,9 @@ license.SetLicense(licenseFileName);
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Si on passe le nom d'un fichier sans chemin,
-// SetLicense recherchera ce fichier dans plusieurs emplacements du système de fichiers local.
-// L'un de ces emplacements sera le dossier "bin", qui contient une copie de notre fichier de licence.
+// Si nous passons le nom d'un fichier sans chemin,
+// SetLicense recherchera plusieurs emplacements du système de fichiers local pour ce fichier.
+// L’un de ces emplacements sera le dossier « bin », qui contient une copie de notre fichier de licence.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

@@ -2,15 +2,15 @@
 title: RevisionCollection.RejectAll
 linktitle: RejectAll
 articleTitle: RejectAll
-second_title: Aspose.Words for .NET
-description: RevisionCollection RejectAll yöntem. Bu koleksiyondaki tüm düzeltmeleri reddeder C#'da.
+second_title: .NET için Aspose.Words
+description: Tüm revizyonları zahmetsizce atmak, iş akışınızı kolaylaştırmak ve belge yönetimini geliştirmek için RevisionCollection RejectAll yöntemini keşfedin.
 type: docs
-weight: 60
+weight: 80
 url: /tr/net/aspose.words/revisioncollection/rejectall/
 ---
 ## RevisionCollection.RejectAll method
 
-Bu koleksiyondaki tüm düzeltmeleri reddeder.
+Bu koleksiyondaki tüm revizyonları reddeder.
 
 ```csharp
 public void RejectAll()
@@ -18,17 +18,17 @@ public void RejectAll()
 
 ## Örnekler
 
-Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
+Bir belgenin revizyon koleksiyonuyla nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Bu koleksiyonun kendisi revizyon gruplarından oluşan bir koleksiyona sahiptir.
-// Her grup bitişik revizyonların bir dizisidir.
+// Bu koleksiyonun kendisi de bir revizyon grupları koleksiyonuna sahiptir.
+// Her grup, bitişik revizyonların bir dizisidir.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Grup koleksiyonu üzerinde yineleme yapın ve revizyonun ilgili olduğu metni yazdırın.
+// Grup koleksiyonu üzerinde yineleme yap ve revizyonun ilgilendiği metni yazdır.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -38,18 +38,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesini alır.
-// Revizyonların koleksiyonu yukarıda yazdırdığımız özet formdan oldukça daha büyüktür,
-// Microsoft Word düzenleme sırasında belgeyi kaç Çalıştırmaya böldüğümüze bağlı.
+// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesi alır.
+// Revizyonların koleksiyonu yukarıda bastığımız yoğunlaştırılmış formdan önemli ölçüde daha büyüktür,
+// Microsoft Word düzenlemesi sırasında belgeyi kaç Çalıştırmaya böldüğümüze bağlı olarak.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange, belge düğümlerini değil, stilleri kesinlikle etkiler. Bu "Ebeveyn Stili" anlamına gelir
-        // özellik her zaman kullanımda olacak, ParentNode ise her zaman boş olacaktır.
-        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode tam tersi şekilde kullanımda olacak ve ParentStyle null olacaktır.
+        // Bir StyleDefinitionChange kesinlikle stilleri etkiler ve belge düğümlerini etkilemez. Bu, "ParentStyle" anlamına gelir
+        // özellik her zaman kullanımda olacak, ParentNode ise her zaman null olacaktır.
+        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode kullanımda olacak ve ParentStyle boş olacaktır.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -63,7 +63,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Belgeyi orijinal formuna döndürerek koleksiyon aracılığıyla yapılan tüm düzeltmeleri reddedin.
+// Koleksiyon üzerinden yapılan tüm düzeltmeleri reddederek belgeyi orijinal haline geri döndür.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

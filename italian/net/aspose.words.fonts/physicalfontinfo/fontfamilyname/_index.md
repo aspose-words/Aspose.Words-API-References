@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words per .NET
-description: PhysicalFontInfo FontFamilyName proprietà. Cognome del carattere in C#.
+description: Scopri la proprietà FontFamilyName di PhysicalFontInfo, la chiave per identificare e utilizzare in modo efficace le famiglie di font nei tuoi progetti.
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-Cognome del carattere.
+Nome della famiglia del font.
 
 ```csharp
 public string FontFamilyName { get; }
@@ -18,10 +18,10 @@ public string FontFamilyName { get; }
 
 ## Esempi
 
-Mostra come elencare i caratteri disponibili.
+Mostra come elencare i font disponibili.
 
 ```csharp
-// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
+// Configurare Aspose.Words per ottenere i font da una cartella personalizzata e quindi stampare tutti i font disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

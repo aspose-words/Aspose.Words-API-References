@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts mülk. Bayrak belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak olarak ayarlanırsadoğru FontFormat VeExportEmbeddedFonts özelliklerin etkisi yoktur ayrıcaResourceSavingCallback yazı tipleri için tetiklenmez. VarsayılanYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlFixedSaveOptions'daki UseTargetMachineFonts özelliğinin hedef makine yazı tiplerini kullanarak belge görüntülemesini nasıl geliştirdiğini keşfedin. Yazı tipi yönetiminizi bugün optimize edin!
 type: docs
-weight: 190
+weight: 210
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Bayrak, belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak, olarak ayarlanırsa`doğru` ,[`FontFormat`](../fontformat/) Ve[`ExportEmbeddedFonts`](../exportembeddedfonts/) özelliklerin etkisi yoktur, ayrıca[`ResourceSavingCallback`](../resourcesavingcallback/) yazı tipleri için tetiklenmez. Varsayılan:`YANLIŞ` .
+Bayrağı, hedef makinedeki yazı tiplerinin belgeyi görüntülemek için kullanılıp kullanılmayacağını belirtir. Bu bayrak,`doğru` ,[`FontFormat`](../fontformat/) Ve[`ExportEmbeddedFonts`](../exportembeddedfonts/) özelliklerin etkisi yoktur, ayrıca[`ResourceSavingCallback`](../resourcesavingcallback/) fontlar için ateşlenmez. Varsayılan`YANLIŞ` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -18,7 +18,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ## Örnekler
 
-Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'e kaydederken yalnızca hedef makinedeki yazı tiplerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

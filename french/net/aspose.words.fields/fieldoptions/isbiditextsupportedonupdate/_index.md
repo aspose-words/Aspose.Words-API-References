@@ -3,7 +3,7 @@ title: FieldOptions.IsBidiTextSupportedOnUpdate
 linktitle: IsBidiTextSupportedOnUpdate
 articleTitle: IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words pour .NET
-description: FieldOptions IsBidiTextSupportedOnUpdate propriété. Obtient ou définit la valeur indiquant si le texte bidirectionnel est entièrement pris en charge lors de la mise à jour du champ ou non en C#.
+description: Vérifiez si la prise en charge du texte bidirectionnel est activée dans FieldOptions. Gérez facilement les mises à jour de texte pour une fonctionnalité multilingue améliorée.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -32,7 +32,7 @@ Montre comment utiliser FieldOptions pour garantir que la mise à jour des champ
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Assurez-vous que toute opération de champ impliquant du texte de droite à gauche s'effectue comme prévu.
+ // Assurez-vous que toute opération de champ impliquant du texte de droite à gauche s'exécute comme prévu.
 doc.FieldOptions.IsBidiTextSupportedOnUpdate = true;
 
 // Utilisez un générateur de documents pour insérer un champ contenant le texte de droite à gauche.

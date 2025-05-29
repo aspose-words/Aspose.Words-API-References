@@ -3,7 +3,7 @@ title: FieldStart.FieldData
 linktitle: FieldData
 articleTitle: FieldData
 second_title: Aspose.Words لـ .NET
-description: FieldStart FieldData ملكية. يحصل على بيانات الحقل المخصصة المرتبطة بالحقل في C#.
+description: قم بإلغاء قفل بيانات الحقل المخصصة باستخدام خاصية FieldData في FieldStart، مما يعمل على تحسين إدارة البيانات لديك وتعزيز الإنتاجية بسهولة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldstart/fielddata/
@@ -24,7 +24,7 @@ public byte[] FieldData { get; }
 Document doc = new Document(MyDir + "Field sample - Field with data.docx");
 
 Field field = doc.Range.Fields[2];
-Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
+Console.WriteLine(Encoding.UTF8.GetString(field.Start.FieldData));
 ```
 
 ### أنظر أيضا

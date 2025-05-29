@@ -2,15 +2,15 @@
 title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
-second_title: Aspose.Words for .NET
-description: ShapeBase WrapType mülk. Şeklin satır içi mi yoksa kayan mı olduğunu tanımlar. Kayan şekiller için şeklin etrafındaki metin için kaydırma modunu tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase WrapType özelliğini keşfedin, satır içi veya kayan şekilleri kontrol edin ve gelişmiş düzen esnekliği için metin kaydırmayı özelleştirin.
 type: docs
-weight: 600
+weight: 640
 url: /tr/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Şeklin satır içi mi yoksa kayan mı olduğunu tanımlar. Kayan şekiller için, şeklin etrafındaki metin için kaydırma modunu tanımlar.
+Şeklin satır içi mi yoksa yüzen mi olduğunu tanımlar. Yüzen şekiller için şeklin etrafındaki metnin sarma modunu tanımlar.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -20,17 +20,17 @@ public WrapType WrapType { get; set; }
 
 Varsayılan değer:None.
 
-Yalnızca üst düzey şekiller için etkilidir.
+Sadece en üst seviye şekiller için etkilidir.
 
 ## Örnekler
 
-Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir resmin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Üst üste gelen metnin arkasında görünecek yüzen bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -42,12 +42,12 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
+Bir metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Kayan bir metin kutusu oluşturun.
+// Yüzen bir metin kutusu oluşturun.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -57,7 +57,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Metin kutusuna bir paragraf ekleyin ve metin kutusunun görüntüleyeceği bir metin dizisi ekleyin.
+// Metin kutusuna bir paragraf ekleyin ve metin kutusunun göstereceği bir metin parçası ekleyin.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

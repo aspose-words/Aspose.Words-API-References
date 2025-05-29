@@ -3,14 +3,14 @@ title: SignatureLine.SignerTitle
 linktitle: SignerTitle
 articleTitle: SignerTitle
 second_title: Aspose.Words für .NET
-description: SignatureLine SignerTitle eigendom. Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest z. B. Manager. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
+description: Passen Sie den SignerTitle in SignatureLine an, um Ihren Dokumenten-Workflow zu verbessern. Legen Sie vorgeschlagene Titel wie „Manager“ fest, um das Signieren zu optimieren.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest (z. B. Manager). Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
+Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest (z. B. Manager). Der Standardwert für diese Eigenschaft ist**leere Zeichenfolge** (Empty ).
 
 ```csharp
 public string SignerTitle { get; set; }
@@ -18,7 +18,7 @@ public string SignerTitle { get; set; }
 
 ## Beispiele
 
-Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
+Zeigt, wie Sie eine Zeile für eine Signatur erstellen und in ein Dokument einfügen.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Fügen Sie eine Form ein, die eine Signaturlinie enthält, deren Aussehen wir festlegen
-// Anpassen mit dem „SignatureLineOptions“-Objekt, das wir oben erstellt haben.
-// Wenn wir eine Form einfügen, deren Koordinaten aus der unteren rechten Ecke der Seite stammen,
-// Wir müssen negative X- und Y-Koordinaten angeben, um die Form sichtbar zu machen.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Fügen Sie eine Form ein, die eine Signaturzeile enthält, deren Aussehen wir
+// Anpassen mithilfe des Objekts „SignatureLineOptions“, das wir oben erstellt haben.
+// Wenn wir eine Form einfügen, deren Koordinaten in der unteren rechten Ecke der Seite beginnen,
+// Wir müssen negative x- und y-Koordinaten angeben, um die Form sichtbar zu machen.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Überprüfen Sie die Eigenschaften unserer Signaturlinie über ihr Shape-Objekt.
+// Überprüfen Sie die Eigenschaften unserer Signaturzeile über ihr Shape-Objekt.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertTextInput
 linktitle: InsertTextInput
 articleTitle: InsertTextInput
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertTextInput methode. Fügt ein Textformularfeld an der aktuellen Position ein in C#.
+description: Fügen Sie mühelos Textformularfelder mit der InsertTextInput-Methode von DocumentBuilder hinzu. Verbessern Sie noch heute die Interaktivität und Benutzerfreundlichkeit Ihres Dokuments!
 type: docs
-weight: 470
+weight: 510
 url: /de/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
 
-Fügt ein Textformularfeld an der aktuellen Position ein.
+Fügt an der aktuellen Position ein Textformularfeld ein.
 
 ```csharp
 public FormField InsertTextInput(string name, TextFormFieldType type, string format, 
@@ -41,7 +41,7 @@ Zeigt, wie ein Texteingabeformularfeld in ein Dokument eingefügt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein Formular einfügen, das den Benutzer zur Texteingabe auffordert.
+// Fügen Sie ein Formular ein, das den Benutzer zur Eingabe von Text auffordert.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
@@ -55,8 +55,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// Ein Texteingabefeld einfügen, das es dem Benutzer ermöglicht, darauf zu klicken und Text einzugeben.
-// Weisen Sie einen Platzhaltertext zu, den der Benutzer überschreiben und übergeben kann
+// Fügen Sie ein Texteingabefeld ein, in das der Benutzer klicken und Text eingeben kann.
+// Weisen Sie einen Platzhaltertext zu, den der Benutzer überschreiben und weitergeben kann
 // eine maximale Textlänge von 0, um keine Begrenzung für den Inhalt des Formularfelds anzuwenden.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
@@ -70,12 +70,12 @@ Zeigt, wie Formularfelder erstellt werden.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Formularfelder sind Objekte im Dokument, mit denen der Benutzer interagieren kann, indem er zur Eingabe von Werten aufgefordert wird.
-// Wir können sie mit einem Document Builder erstellen. Im Folgenden finden Sie zwei Möglichkeiten, dies zu tun.
-// 1 - Grundlegende Texteingabe:
+// Wir können sie mit einem Dokumentgenerator erstellen. Im Folgenden finden Sie zwei Möglichkeiten dazu.
+// 1 - Einfache Texteingabe:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 – Kombinationsfeld mit Eingabeaufforderungstext und einem Bereich möglicher Werte:
+// 2 - Kombinationsfeld mit Eingabeaufforderungstext und einem Bereich möglicher Werte:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

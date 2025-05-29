@@ -3,14 +3,14 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words لـ .NET
-description: FontInfo Charset ملكية. الحصول على مجموعة الأحرف للخط أو تعيينها في C#.
+description: اكتشف خاصية FontInfo Charset لإدارة وتخصيص مجموعة أحرف الخط الخاص بك بسهولة لتحسين مرونة التصميم وسهولة القراءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontinfo/charset/
 ---
 ## FontInfo.Charset property
 
-الحصول على مجموعة الأحرف للخط أو تعيينها.
+يحصل على مجموعة الأحرف للخط أو يعينها.
 
 ```csharp
 public int Charset { get; set; }
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

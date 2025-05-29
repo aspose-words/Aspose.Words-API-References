@@ -3,14 +3,14 @@ title: FontSavingArgs.KeepFontStreamOpen
 linktitle: KeepFontStreamOpen
 articleTitle: KeepFontStreamOpen
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs KeepFontStreamOpen propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une police en C#.
+description: Découvrez comment la propriété KeepFontStreamOpen dans FontSavingArgs permet à Aspose.Words de gérer efficacement les flux de polices, améliorant ainsi votre expérience de traitement de documents.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 ---
 ## FontSavingArgs.KeepFontStreamOpen property
 
-Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une police.
+Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après l'enregistrement d'une police.
 
 ```csharp
 public bool KeepFontStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepFontStreamOpen { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`FontStream`](../fontstream/) propriété après y avoir écrit une police. Spécifiez`vrai` pour garder le flux ouvert.
+La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`FontStream`](../fontstream/) propriété après avoir écrit une police dedans. Spécifier`vrai` pour garder le ruisseau ouvert.
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

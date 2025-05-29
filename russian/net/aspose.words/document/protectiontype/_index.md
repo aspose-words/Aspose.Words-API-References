@@ -3,9 +3,9 @@ title: Document.ProtectionType
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words для .NET
-description: Document ProtectionType свойство. Получает текущий активный тип защиты документа на С#.
+description: Откройте для себя тип активной защиты документов для повышения безопасности и целостности данных. Защитите свои файлы без усилий с помощью наших расширенных функций.
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
@@ -18,11 +18,11 @@ public ProtectionType ProtectionType { get; }
 
 ## Примечания
 
-Это свойство позволяет получить текущий установленный тип защиты документа. Для изменения типа защиты документа используйте команду[`Protect`](../protect/) и[`Unprotect`](../unprotect/) методы.
+Это свойство позволяет получить текущий установленный тип защиты документа. Чтобы изменить тип защиты документа, используйте[`Protect`](../protect/) и[`Unprotect`](../unprotect/) методы.
 
-Когда документ защищен, пользователь может вносить лишь ограниченные изменения, , такие как добавление аннотаций, внесение изменений или заполнение формы.
+Если документ защищен, пользователь может вносить только ограниченные изменения, например, добавлять аннотации, вносить исправления или заполнять формы.
 
-Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/)
+Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи указывается с помощью[`WriteProtection`](../writeprotection/)
 
 ## Примеры
 
@@ -34,19 +34,19 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Если мы откроем этот документ в Microsoft Word, намереваясь его отредактировать,
-// нам нужно будет применить пароль, чтобы пройти защиту.
+// Если мы откроем этот документ в Microsoft Word, намереваясь его редактировать,
+// нам нужно будет применить пароль, чтобы обойти защиту.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Обратите внимание, что защита распространяется только на пользователей Microsoft Word, открывающих наш документ.
-// Мы никак не зашифровали документ, и для его программного открытия и редактирования пароль нам не нужен.
+// Мы никак не зашифровали документ, и нам не нужен пароль для его программного открытия и редактирования.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// Есть два способа снять защиту с документа.
+// Существует два способа снятия защиты с документа.
 // 1 - Без пароля:
 doc.Unprotect();
 

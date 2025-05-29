@@ -3,14 +3,14 @@ title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: RevisionGroup Text fast egendom. Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring i C#.
+description: Utforska egenskapen RevisionGroup Text för att komma åt infogat, borttaget eller flyttat text, vilket förbättrar dokumentets formateringsinsikter och redigeringseffektivitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/revisiongroup/text/
 ---
 ## RevisionGroup.Text property
 
-Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring.
+Returnerar infogad/borttagen/flyttad text eller beskrivning av formatändring.
 
 ```csharp
 public string Text { get; }

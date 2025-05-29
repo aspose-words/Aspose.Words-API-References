@@ -3,14 +3,14 @@ title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words для .NET
-description: ShapeBase Target свойство. Получает или задает целевой кадр для гиперссылки фигуры на С#.
+description: Откройте для себя свойство ShapeBase Target, чтобы легко устанавливать или извлекать целевые рамки гиперссылок для ваших фигур, улучшая навигацию и взаимодействие с пользователем.
 type: docs
-weight: 520
+weight: 560
 url: /ru/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
 
-Получает или задает целевой кадр для гиперссылки фигуры.
+Получает или задает целевой фрейм для гиперссылки формы.
 
 ```csharp
 public string Target { get; set; }
@@ -22,7 +22,7 @@ public string Target { get; set; }
 
 ## Примеры
 
-Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
+Показывает, как вставить фигуру, содержащую изображение, а также являющуюся гиперссылкой.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + щелчок левой кнопкой мыши по фигуре в Microsoft Word откроет новое окно веб-браузера
-// и приведет нас к гиперссылке в свойстве "HRef".
+// и перенаправляем нас к гиперссылке в свойстве "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

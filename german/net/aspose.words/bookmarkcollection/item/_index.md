@@ -3,7 +3,7 @@ title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: BookmarkCollection Item eigendom. Gibt ein Lesezeichen am angegebenen Index zurück in C#.
+description: Entdecken Sie die BookmarkCollection-Elementeigenschaft und rufen Sie mühelos Lesezeichen nach Index ab, um die Navigation zu optimieren und das Benutzererlebnis zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words/bookmarkcollection/item/
@@ -18,26 +18,26 @@ public Bookmark this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index in die Sammlung. |
+| index | Ein Index zur Sammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
-Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
+Zeigt, wie Lesezeichen hinzugefügt und deren Inhalte aktualisiert werden.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalte zu drucken.
+    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalt zu drucken.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
@@ -46,7 +46,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Alle Lesezeichen erneut drucken, um aktualisierte Werte anzuzeigen.
+    // Drucken Sie alle Lesezeichen erneut, um die aktualisierten Werte anzuzeigen.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -79,7 +79,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Jedes Lesezeichen in der Sammlung dazu bringen, einen Besucher zu akzeptieren, der seinen Inhalt druckt.
+    // Sorgen Sie dafür, dass jedes Lesezeichen in der Sammlung einen Besucher akzeptiert, der seinen Inhalt druckt.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -98,7 +98,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Gibt den Inhalt jedes besuchten Lesezeichens an die Konsole aus.
+/// Druckt den Inhalt jedes besuchten Lesezeichens auf der Konsole.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {
@@ -135,20 +135,20 @@ public Bookmark this[string bookmarkName] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| bookmarkName | Der Name des Lesezeichens ohne Berücksichtigung der Groß- und Kleinschreibung. |
+| bookmarkName | Name des Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
 ## Bemerkungen
 
-Kehrt zurück`Null`wenn das Lesezeichen mit dem angegebenen Namen nicht gefunden werden kann.
+Rückgaben`null`wenn das Lesezeichen mit dem angegebenen Namen nicht gefunden werden kann.
 
 ## Beispiele
 
-Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
+Zeigt, wie Lesezeichen hinzugefügt und deren Inhalte aktualisiert werden.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalte zu drucken.
+    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalt zu drucken.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
@@ -157,7 +157,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Alle Lesezeichen erneut drucken, um aktualisierte Werte anzuzeigen.
+    // Drucken Sie alle Lesezeichen erneut, um die aktualisierten Werte anzuzeigen.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -190,7 +190,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Jedes Lesezeichen in der Sammlung dazu bringen, einen Besucher zu akzeptieren, der seinen Inhalt druckt.
+    // Sorgen Sie dafür, dass jedes Lesezeichen in der Sammlung einen Besucher akzeptiert, der seinen Inhalt druckt.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -209,7 +209,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Gibt den Inhalt jedes besuchten Lesezeichens an die Konsole aus.
+/// Druckt den Inhalt jedes besuchten Lesezeichens auf der Konsole.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

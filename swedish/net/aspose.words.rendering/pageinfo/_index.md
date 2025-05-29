@@ -3,9 +3,9 @@ title: PageInfo Class
 linktitle: PageInfo
 articleTitle: PageInfo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Rendering.PageInfo klass. Representerar information om en viss dokumentsida i C#.
+description: Upptäck klassen Aspose.Words.Rendering.PageInfo, som ger viktig information om varje dokumentsida och förbättrar din dokumentrenderingsupplevelse.
 type: docs
-weight: 4570
+weight: 5300
 url: /sv/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -22,36 +22,36 @@ public class PageInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Returnerar`Sann` om sidan innehåller färgat innehåll. |
-| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Får sidans höjd i poäng. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returnerar`Sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande. |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Returer`sann` om sidan innehåller färgat innehåll. |
+| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Hämtar sidans höjd i punkter. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returer`sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Hämtar pappersstorleken som uppräkning. |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Hämtar pappersfacket (fack) för den här sidan som specificerats i dokumentet. Värdet är implementerings(skrivar)specifikt. |
-| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Får sidstorleken i poäng. |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Hämtar pappersfacket (facket) för den här sidan enligt specifikationen i dokumentet. Värdet är implementeringsspecifikt (skrivarspecifikt). |
+| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Hämtar sidstorleken i punkter. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Hämtar sidans bredd i punkter. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | HämtarPaperSize objekt lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | HämtarPaperSource objekt lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
 
 ## Anmärkningar
 
-Sidans bredd och höjd som returneras av detta objekt representerar den "slutliga" storleken på sidan, t.ex. är de redan roterade till korrekt orientering.
+Sidbredden och -höjden som returneras av detta objekt representerar sidans "slutliga" storlek, t.ex. de är redan roterade till rätt orientering.
 
 ## Exempel
 
-Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
+Visar hur man skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Det första avsnittet har 2 sidor. Vi kommer att tilldela ett annat skrivarpappersfack till var och en,
-// vars nummer kommer att matcha en sorts papperskälla. Dessa källor och deras slag kommer att variera
+// Det första avsnittet har två sidor. Vi kommer att tilldela ett annat pappersfack till varje sida,
+// vars nummer matchar en typ av papperskälla. Dessa källor och deras typer kommer att variera
 // beroende på den installerade skrivardrivrutinen.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -75,7 +75,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Skriv ut information om källfacket.
+    // Skriv ut informationen om källfacket.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

@@ -3,9 +3,9 @@ title: ITextShaper Interface
 linktitle: ITextShaper
 articleTitle: ITextShaper
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Shaping.ITextShaper gränssnitt. Tillhandahåller metoder för textformning i C#.
+description: Upptäck Aspose.Words.Shaping.ITextShaper-gränssnittet för avancerade textformningsmetoder. Förbättra din dokumentformatering med precision och enkelhet!
 type: docs
-weight: 6050
+weight: 6880
 url: /sv/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
@@ -20,7 +20,7 @@ public interface ITextShaper : IDisposable
 
 | namn | Beskrivning |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), params FontFeature[]*) | Returnerar[`Cluster`](../cluster/)objekt genererade från en sekvens av textfragment. Längden på den returnerade arrayen är lika med längden på*runs* . Om körning på ett index har motsvarande kluster kommer resultatet på samma index att registreras. |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), FontFeature[], VariationAxisCoordinate[]*) | Returer[`Cluster`](../cluster/)objekt genererade från en sekvens av textfragment. Längden på den returnerade arrayen är lika med längden på*runs* . Om körning vid ett index har motsvarande kluster, kommer resultatet vid samma index att få dem registrerade. |
 
 ### Se även
 

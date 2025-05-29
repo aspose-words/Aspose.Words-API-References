@@ -3,14 +3,14 @@ title: NodeCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: NodeCollection Add methode. Fügt einen Knoten am Ende der Sammlung hinzu in C#.
+description: Entdecken Sie die Methode „NodeCollection Add“, um Ihrer Sammlung mühelos Knoten hinzuzufügen und so Ihr Datenmanagement einfach und effizient zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words/nodecollection/add/
 ---
 ## NodeCollection.Add method
 
-Fügt einen Knoten am Ende der Sammlung hinzu.
+Fügt am Ende der Sammlung einen Knoten hinzu.
 
 ```csharp
 public void Add(Node node)
@@ -39,7 +39,7 @@ Zeigt, wie ein neuer Abschnittsknoten für die Bearbeitung vorbereitet wird.
 ```csharp
 Document doc = new Document();
 
-// Ein leeres Dokument besteht aus einem Abschnitt, der einen Hauptteil hat, der wiederum einen Absatz enthält.
+// Ein leeres Dokument besteht aus einem Abschnitt mit einem Hauptteil, der wiederum einen Absatz enthält.
 // Wir können diesem Dokument Inhalte hinzufügen, indem wir diesem Absatz Elemente wie Textläufe, Formen oder Tabellen hinzufügen.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
@@ -50,7 +50,7 @@ doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Führen Sie die Methode „EnsureMinimum“ aus, um diesem Abschnitt einen Hauptteil und einen Absatz hinzuzufügen und mit der Bearbeitung zu beginnen.
+// Führen Sie die Methode „EnsureMinimum“ aus, um diesem Abschnitt einen Textkörper und einen Absatz hinzuzufügen und mit der Bearbeitung zu beginnen.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

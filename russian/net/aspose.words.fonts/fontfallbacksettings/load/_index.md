@@ -3,7 +3,7 @@ title: FontFallbackSettings.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words для .NET
-description: FontFallbackSettings Load метод. Загружает настройки резервного шрифта из XMLфайла на С#.
+description: Простая загрузка и управление настройками резервных шрифтов из XML-файлов с помощью метода FontFallbackSettings Load для бесшовной интеграции типографики.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/load/
@@ -22,12 +22,12 @@ public void Load(string fileName)
 
 ## Примеры
 
-Показывает, как загрузить и сохранить настройки резервного шрифта в XML-документе в локальной файловой системе или из него.
+Показывает, как загружать и сохранять настройки резервного шрифта в/из XML-документа в локальной файловой системе.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
+// Загрузить XML-документ, определяющий набор настроек резервного шрифта.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
@@ -60,12 +60,12 @@ public void Load(Stream stream)
 
 ## Примеры
 
-Показывает, как загрузить и сохранить настройки резервного шрифта в поток или из него.
+Показывает, как загружать и сохранять настройки резервного шрифта в/из потока.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
+// Загрузить XML-документ, определяющий набор настроек резервного шрифта.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -76,7 +76,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Используйте поток, чтобы сохранить текущие настройки резервного шрифта нашего документа в виде XML-документа.
+// Используем поток для сохранения текущих настроек резервного шрифта нашего документа в виде XML-документа.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

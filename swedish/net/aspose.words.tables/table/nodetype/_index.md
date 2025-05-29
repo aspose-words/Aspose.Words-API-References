@@ -3,14 +3,14 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: Table NodeType fast egendom. ReturnerarTable  i C#.
+description: Upptäck egenskapen Table NodeType som effektivt returnerar tabelldata, vilket förbättrar din datahantering och organisation för sömlös integration.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-ReturnerarTable .
+ReturerTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,22 +18,22 @@ public override NodeType NodeType { get; }
 
 ## Exempel
 
-Visar hur man korsar en sammansatt nods träd med undernoder.
+Visar hur man går igenom en sammansatt nods träd av undernoder.
 
 ```csharp
 public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Alla noder som kan innehålla underordnade noder, till exempel själva dokumentet, är sammansatta.
+    // Alla noder som kan innehålla undernoder, såsom själva dokumentet, är sammansatta.
     Assert.True(doc.IsComposite);
 
-    // Anropa den rekursiva funktionen som kommer att gå igenom och skriva ut alla undernoder för en sammansatt nod.
+    // Anropa den rekursiva funktionen som går igenom och skriver ut alla undernoder till en sammansatt nod.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Går rekursivt genom ett nodträd medan du skriver ut typen av varje nod
+/// Går rekursivt igenom ett nodträd samtidigt som typen för varje nod skrivs ut
 /// med ett indrag beroende på djup samt innehållet i alla inline-noder.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Gå tillbaka in i noden om det är en sammansatt nod. Annars skriv ut dess innehåll om det är en inline-nod.
+        // Rekursiv in i noden om det är en sammansatt nod. Annars, skriv ut dess innehåll om det är en inline-nod.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -75,7 +75,7 @@ public void CalculateDepthOfNestedTables()
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Ta reda på om tabellen är kapslad i en annan tabell, och i så fall på vilket djup.
+        // Ta reda på om tabellen är kapslad inuti en annan tabell, och i så fall på vilket djup.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -87,10 +87,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Beräknar vilken nivå en tabell är kapslad i andra tabeller.
+/// Beräknar vilken nivå en tabell är kapslad inuti andra tabeller.
 /// </summary>
 /// <returns>
-/// Ett heltal som anger tabellens kapsningsdjup (antal överordnade tabellnoder).
+/// Ett heltal som anger tabellens kapslingsdjup (antal noder i överordnade tabeller).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -107,20 +107,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestämmer om en tabell innehåller någon omedelbar underordnad tabell i sina celler.
-/// Gå inte rekursivt genom dessa tabeller för att leta efter ytterligare tabeller.
+/// Avgör om en tabell innehåller någon direkt underordnad tabell i sina celler.
+/// Gå inte rekursivt igenom dessa tabeller för att söka efter ytterligare tabeller.
 /// </summary>
 /// <returns>
-/// Returnerar sant om minst en underordnad cell innehåller en tabell.
-/// Returnerar false om inga celler i tabellen innehåller en tabell.
+/// Returnerar sant om minst en undercell innehåller en tabell.
+/// Returnerar falskt om inga celler i tabellen innehåller en tabell.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

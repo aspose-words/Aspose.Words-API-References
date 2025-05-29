@@ -3,9 +3,9 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words pour .NET
-description: ListCollection GetListByListId méthode. Obtient une liste par un identifiant de liste en C#.
+description: Récupérez facilement la liste souhaitée grâce à la méthode GetListByListId. Accédez rapidement aux données grâce à un identifiant de liste simple pour une efficacité accrue.
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -22,11 +22,11 @@ public List GetListByListId(int listId)
 
 ### Return_Value
 
-Renvoie l'objet liste. Retour`nul` si une liste avec l'identifiant spécifié n'a pas été trouvée.
+Renvoie l'objet liste.`nul` si aucune liste avec l'identifiant spécifié n'a été trouvée.
 
 ## Remarques
 
-Vous n’avez normalement pas besoin d’utiliser cette méthode. La plupart du temps, vous appliquez le formatage de liste aux paragraphes simplement en définissant le[`List`](../../listformat/list/) property du[`ListFormat`](../../listformat/) objet.
+Vous n'avez généralement pas besoin d'utiliser cette méthode. La plupart du temps, vous appliquez le formatage de liste aux paragraphes simplement en définissant le[`List`](../../listformat/list/) propriété du[`ListFormat`](../../listformat/) objet.
 
 ## Exemples
 

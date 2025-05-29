@@ -3,7 +3,7 @@ title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: NodeCollection Remove metod. Tar bort noden från samlingen och från dokumentet i C#.
+description: Ta enkelt bort noder från ditt dokument med NodeCollection Remove-metoden, vilket effektiviserar din datahantering och förbättrar prestandan.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/nodecollection/remove/
@@ -18,7 +18,7 @@ public void Remove(Node node)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| node | Node | Noden att ta bort. |
+| node | Node | Noden som ska tas bort. |
 
 ## Exempel
 
@@ -32,8 +32,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Varje anrop av "Write"-metoden skapar en ny körning,
-// som sedan visas i den överordnade Paragraphs RunCollection.
+// Varje anrop av metoden "Write" skapar en ny Run,
+// som sedan visas i det överordnade styckets RunCollection.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
@@ -45,7 +45,7 @@ runs.Insert(3, newRun);
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Gå till enskilda körningar och ta bort dem för att ta bort deras text från dokumentet.
+// Få åtkomst till enskilda körningar och ta bort dem för att ta bort deras text från dokumentet.
 Run run = runs[1];
 runs.Remove(run);
 

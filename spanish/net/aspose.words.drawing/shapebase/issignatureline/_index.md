@@ -3,9 +3,9 @@ title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 articleTitle: IsSignatureLine
 second_title: Aspose.Words para .NET
-description: ShapeBase IsSignatureLine propiedad. Indica que la forma es unaSignatureLine  en C#.
+description: Descubra la propiedad IsSignatureLine de ShapeBase, que define formas como SignatureLines, mejorando la integridad del documento y la presentación profesional.
 type: docs
-weight: 340
+weight: 360
 url: /es/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
-// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
+// Insertar una forma que contendrá una línea de firma, cuya apariencia definiremos
+// personaliza usando el objeto "SignatureLineOptions" que hemos creado anteriormente.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Necesitaremos proporcionar coordenadas x e y negativas para que la forma sea visible.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica las propiedades de nuestra línea de firma a través de su objeto Shape.
+// Verifique las propiedades de nuestra línea de firma a través de su objeto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

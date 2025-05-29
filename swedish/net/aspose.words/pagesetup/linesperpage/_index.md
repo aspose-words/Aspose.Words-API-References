@@ -3,14 +3,14 @@ title: PageSetup.LinesPerPage
 linktitle: LinesPerPage
 articleTitle: LinesPerPage
 second_title: Aspose.Words för .NET
-description: PageSetup LinesPerPage fast egendom. Hämtar eller ställer in antalet rader per sida i dokumentrutnätet i C#.
+description: Styr din dokumentlayout med egenskapen PageSetup LinesPerPage. Justera enkelt rader per sida för optimal läsbarhet och organisation.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/pagesetup/linesperpage/
 ---
 ## PageSetup.LinesPerPage property
 
-Hämtar eller ställer in antalet rader per sida i dokumentrutnätet.
+Hämtar eller anger antalet rader per sida i dokumentrutnätet.
 
 ```csharp
 public int LinesPerPage { get; set; }
@@ -18,13 +18,13 @@ public int LinesPerPage { get; set; }
 
 ## Anmärkningar
 
-Minsta värde för egenskapen är 1. Maximalt värde beror på sidhöjden och teckenstorleken för stilen Normal . Minsta radbredd är 136 procent av teckenstorleken. Till exempel är det maximala antalet rader per sida av en Letter-sida med en tums marginaler 39.
+Minsta värde för egenskapen är 1. Maximalt värde beror på sidhöjd och teckenstorlek för stilen Normal . Minsta radavstånd är 136 procent av teckenstorleken. Till exempel är maximalt antal rader per sida på en Letter-sida med en-tums marginaler 39.
 
-Som standard har egenskapen ett värde där linjebredden är 1,5 gånger större än teckenstorleken på stilen Normal.
+Som standard har egenskapen ett värde där radavståndet är 1,5 gånger större än teckenstorleken för i Normal-stilen.
 
 ## Exempel
 
-Visar hur man anger en gräns för antalet rader som varje sida kan ha.
+Visar hur man anger en gräns för antalet rader som varje sida får ha.
 
 ```csharp
 Document doc = new Document();

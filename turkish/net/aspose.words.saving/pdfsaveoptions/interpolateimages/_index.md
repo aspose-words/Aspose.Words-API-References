@@ -2,15 +2,15 @@
 title: PdfSaveOptions.InterpolateImages
 linktitle: InterpolateImages
 articleTitle: InterpolateImages
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions InterpolateImages mülk. Görüntü enterpolasyonunun uyumlu bir okuyucu tarafından gerçekleştirilip gerçekleştirilmeyeceğini belirten bayrak. Ne zamanYANLIŞ belirtildiğinde çıkış belgesine bayrak yazılmaz ve bunun yerine okuyucunun varsayılan davranışı kullanılır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki görüntü kalitesini artıran önemli bir özellik olan PdfSaveOptions' InterpolateImages özelliğini keşfedin. PDF'lerinizi zahmetsizce optimize edin!
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
 ---
 ## PdfSaveOptions.InterpolateImages property
 
-Görüntü enterpolasyonunun uyumlu bir okuyucu tarafından gerçekleştirilip gerçekleştirilmeyeceğini belirten bayrak. Ne zaman`YANLIŞ` belirtildiğinde, çıkış belgesine bayrak yazılmaz ve bunun yerine okuyucunun varsayılan davranışı kullanılır.
+Görüntü enterpolasyonunun uygun bir okuyucu tarafından yapılıp yapılmayacağını belirten bir bayrak. Ne zaman`YANLIŞ` belirtildiğinde, bayrak çıktı belgesine yazılmaz ve bunun yerine okuyucunun varsayılan davranışı kullanılır.
 
 ```csharp
 public bool InterpolateImages { get; set; }
@@ -18,60 +18,35 @@ public bool InterpolateImages { get; set; }
 
 ## Notlar
 
-Bir kaynak görüntünün çözünürlüğü çıkış cihazının çözünürlüğünden önemli ölçüde düşük olduğunda, her kaynak örneği birçok cihaz pikselini kapsar. Sonuç olarak, görüntüler pürüzlü veya bloklu görünebilir. Bu görsel yapaylıklar, oluşturma sırasında bir görüntü enterpolasyon algoritması uygulanarak azaltılabilir. Bir kaynak örneğinin kapsadığı tüm pikselleri aynı renkle boyamak yerine, görüntü enterpolasyonu düzgün bir görüntü oluşturmaya çalışır. bitişik örnek değerler arasında geçiş.
+Bir kaynak görüntünün çözünürlüğü çıktı aygıtının çözünürlüğünden önemli ölçüde düşük olduğunda, her kaynak örneği birçok aygıt pikselini kapsar. Sonuç olarak, görüntüler engebeli veya bloklu görünebilir. Bu görsel eserler, işleme sırasında bir görüntü enterpolasyon algoritması uygulanarak azaltılabilir. Bir kaynak örneğinin kapsadığı tüm pikselleri aynı renkle boyamak yerine, görüntü enterpolasyonu bitişik örnek değerleri arasında yumuşak bir geçiş üretmeye çalışır.
 
 Uyumlu bir Okuyucu, PDF'nin bu özelliğini uygulamamayı seçebilir, veya istediği herhangi bir özel enterpolasyon uygulamasını kullanabilir.
 
 Varsayılan değer:`YANLIŞ`.
 
-Enterpolasyon bayrağı PDF/A uyumluluğu nedeniyle yasaklanmıştır.`YANLIŞ` PDF/A'ya kaydederken otomatik olarak değeri kullanılacaktır.
+PDF/A uyumluluğu gereği enterpolasyon bayrağı yasaktır.`YANLIŞ` PDF/A'ya kaydederken değer otomatik olarak kullanılacaktır .
 
 ## Örnekler
 
-Bir belgeyi PDF'ye kaydederken görüntüler üzerinde enterpolasyonun nasıl gerçekleştirileceğini gösterir.
+Bir belgeyi PDF'e kaydederken görüntüler üzerinde enterpolasyonun nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
-builder.InsertImage(img);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Bu belgeyi açan okuyucunun görselleri enterpolasyona tabi tutmasını sağlamak için "InterpulateImages" özelliğini "true" olarak ayarlayın.
-// Çözünürlükleri, belgeyi görüntüleyen cihazın çözünürlüğünden daha düşük olmalıdır.
-// Okuyucunun herhangi bir enterpolasyon uygulamamasını sağlamak için "InterpulateImages" özelliğini "false" olarak ayarlayın.
+// Bu belgeyi açan okuyucunun resimleri interpole etmesini sağlamak için "InterpolateImages" özelliğini "true" olarak ayarlayın.
+// Çözünürlükleri, belgeyi görüntüleyen aygıtın çözünürlüğünden daha düşük olmalıdır.
+// Okuyucunun herhangi bir enterpolasyon uygulamaması için "InterpolateImages" özelliğini "false" olarak ayarlayın.
 saveOptions.InterpolateImages = interpolateImages;
 
-// Bu belgeyi Adobe Acrobat gibi bir okuyucu ile açtığımızda görseli yakınlaştırmamız gerekecek
-// belgeyi etkin olarak kaydettiysek enterpolasyon efektini görmek için.
+// Bu belgeyi Adobe Acrobat gibi bir okuyucuyla açtığımızda, görüntüyü yakınlaştırmamız gerekecek
+// Belgeyi enterpolasyon etkinken kaydedersek enterpolasyon etkisini görmek için.
 doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImages.pdf", saveOptions);
-```
-
-İşlenen belgelerdeki görüntünün kalitesinin nasıl iyileştirileceğini gösterir (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
-    builder.InsertImage(image);
-
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
-PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Bu belgeyi açan okuyucunun görselleri enterpolasyona tabi tutmasını sağlamak için "InterpulateImages" özelliğini "true" olarak ayarlayın.
-// Çözünürlükleri, belgeyi görüntüleyen cihazın çözünürlüğünden daha düşük olmalıdır.
-// Okuyucunun herhangi bir enterpolasyon uygulamamasını sağlamak için "InterpulateImages" özelliğini "false" olarak ayarlayın.
-saveOptions.InterpolateImages = interpolateImages;
-
-// Bu belgeyi Adobe Acrobat gibi bir okuyucu ile açtığımızda görseli yakınlaştırmamız gerekecek
-// belgeyi etkin olarak kaydettiysek enterpolasyon efektini görmek için.
-doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", saveOptions);
 ```
 
 ### Ayrıca bakınız

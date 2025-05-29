@@ -3,7 +3,7 @@ title: FieldIncludeText.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText Encoding propriété. Obtient ou définit lencodage appliqué aux données dans le fichier référencé en C#.
+description: Découvrez la propriété d'encodage FieldIncludeText pour gérer facilement l'encodage des données dans vos fichiers. Optimisez la gestion de vos données grâce à cette fonctionnalité essentielle !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldincludetext/encoding/
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

@@ -3,9 +3,9 @@ title: OdsoFieldMappingType Enum
 linktitle: OdsoFieldMappingType
 articleTitle: OdsoFieldMappingType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType énumération. Spécifie les types possibles utilisés pour indiquer si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée en C#.
+description: Découvrez l'énumération Aspose.Words.OdsoFieldMappingType pour un mappage efficace des champs de publipostage vers des sources de données externes. Optimisez l'automatisation de vos documents dès aujourd'hui !
 type: docs
-weight: 5920
+weight: 6750
 url: /fr/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -20,8 +20,8 @@ public enum OdsoFieldMappingType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Column | `0` | Spécifie que le champ de fusion et publipostage a été mappé à une colonne dans la source de données externe donnée. |
-| Null | `1` | Spécifie que le champ de fusion et publipostage n'a pas été mappé à une colonne dans la source de données externe donnée. |
+| Column | `0` | Spécifie que le champ de publipostage a été mappé à une colonne dans la source de données externe donnée. |
+| Null | `1` | Spécifie que le champ de publipostage n'a pas été mappé à une colonne dans la source de données externe donnée. |
 | Default | `1` | Égal àNull . |
 
 ## Exemples
@@ -32,7 +32,7 @@ Montre comment accéder à la collection de données qui mappe les colonnes de l
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Cette collection définit comment un publipostage mappera les colonnes d'une source de données
-// aux champs prédéfinis MERGEFIELD, ADDRESSBLOCK et GREETINGLINE.
+// aux champs MERGEFIELD, ADDRESSBLOCK et GREETINGLINE prédéfinis.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -50,15 +50,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clonez les éléments de cette collection.
+// Cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode « RemoveAt » individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
+// Utilisez la méthode « Clear » pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

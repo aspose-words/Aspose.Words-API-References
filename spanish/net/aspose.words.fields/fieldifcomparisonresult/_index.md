@@ -3,9 +3,9 @@ title: FieldIfComparisonResult Enum
 linktitle: FieldIfComparisonResult
 articleTitle: FieldIfComparisonResult
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult enumeración. Especifica el resultado de la evaluación de la condición del campo IF en C#.
+description: Descubra la enumeración Aspose.Words.Fields.FieldIfComparisonResult, que define los resultados de las evaluaciones del campo SI, mejorando sus capacidades de automatización de documentos.
 type: docs
-weight: 2010
+weight: 2420
 url: /es/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -26,7 +26,7 @@ public enum FieldIfComparisonResult
 
 ## Ejemplos
 
-Muestra cómo insertar un campo IF.
+Muestra cómo insertar un campo SI.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// El campo IF mostrará una cadena de su propiedad "TrueText",
+// El campo SI mostrará una cadena de su propiedad "TrueText",
 // o su propiedad "FalseText", dependiendo de la verdad de la declaración que hemos construido.
 field.TrueText = "True";
 field.FalseText = "False";
@@ -58,7 +58,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Esta vez la declaración es correcta, por lo que el resultado mostrado será "Verdadero".
+// Esta vez la afirmación es correcta, por lo que el resultado mostrado será "Verdadero".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

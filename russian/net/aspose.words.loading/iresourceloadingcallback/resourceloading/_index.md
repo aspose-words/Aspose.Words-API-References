@@ -3,7 +3,7 @@ title: IResourceLoadingCallback.ResourceLoading
 linktitle: ResourceLoading
 articleTitle: ResourceLoading
 second_title: Aspose.Words для .NET
-description: IResourceLoadingCallback ResourceLoading метод. Вызывается когда Aspose.Words загружает любой внешний ресурс на С#.
+description: Узнайте, как IResourceLoadingCallback улучшает Aspose.Words, эффективно управляя загрузкой внешних ресурсов для бесперебойной обработки документов.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -28,7 +28,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Изображения обычно вставляются с использованием URI или массива байтов.
+    // Изображения обычно вставляются с помощью URI или байтового массива.
     // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,8 +40,8 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
+/// Позволяет загружать изображения в документ, используя предопределенные сокращения, а не URI.
+/// Это отделит логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

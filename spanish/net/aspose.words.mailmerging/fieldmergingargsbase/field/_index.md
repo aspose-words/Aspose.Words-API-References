@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.Field
 linktitle: Field
 articleTitle: Field
 second_title: Aspose.Words para .NET
-description: FieldMergingArgsBase Field propiedad. Obtiene el objeto que representa el campo de combinación actual en C#.
+description: Descubra la propiedad FieldMergingArgsBase para acceder fácilmente al objeto de campo de combinación actual. ¡Mejore la eficiencia de su combinación de datos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -52,12 +52,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -69,14 +69,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```

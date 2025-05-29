@@ -2,15 +2,15 @@
 title: RtfSaveOptions.ExportCompactSize
 linktitle: ExportCompactSize
 articleTitle: ExportCompactSize
-second_title: Aspose.Words for .NET
-description: RtfSaveOptions ExportCompactSize mülk. Çıkış RTF belgelerinin boyutunun küçültülmesine izin verir ancak RTL sağdan sola metin içeriyorsa doğru şekilde görüntülenmez. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ExportCompactSize özelliğiyle RTF belge boyutunu optimize edin. RTL içerikle bile metin bütünlüğünü korurken verimli depolama sağlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 ---
 ## RtfSaveOptions.ExportCompactSize property
 
-Çıkış RTF belgelerinin boyutunun küçültülmesine izin verir, ancak RTL (sağdan sola) metin içeriyorsa doğru şekilde görüntülenmez. Varsayılan değer:`YANLIŞ` .
+Çıktı RTF belgelerinin boyutunu küçültmeye izin verir, ancak RTL (sağdan sola) metin içeriyorlarsa doğru şekilde görüntülenmezler. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ExportCompactSize { get; set; }
@@ -18,28 +18,28 @@ public bool ExportCompactSize { get; set; }
 
 ## Notlar
 
-Aspose.Words kullanarak RTF'ye dönüştürmek istediğiniz belge Arapça gibi dillerde sağdan sola metni içermiyorsa bu seçeneği şu şekilde ayarlayabilirsiniz:`doğru` Ortaya çıkan RTF'nin boyutunu azaltmak için .
+Aspose.Words kullanarak RTF'ye dönüştürmek istediğiniz belge Arapça gibi dillerde sağdan sola metin içermiyorsa, bu seçeneği şu şekilde ayarlayabilirsiniz:`doğru` Ortaya çıkan RTF'nin boyutunu küçültmek için .
 
 ## Örnekler
 
-Özel seçeneklerle bir belgenin .rtf'ye nasıl kaydedileceğini gösterir.
+Bir belgenin özel seçeneklerle .rtf formatına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgeyi bir RTF'ye kaydetme şeklimizi değiştirmek için belgenin "Kaydet" yöntemine iletilecek bir "RtfSaveOptions" nesnesi oluşturun.
+// Belgenin "Kaydet" yöntemine, belgeyi RTF'ye nasıl kaydedeceğimizi değiştirmek için geçirilecek bir "RtfSaveOptions" nesnesi oluşturun.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
 // "ExportCompactSize" özelliğini "true" olarak ayarlayın
-// sağdan sola metin uyumluluğu pahasına kaydedilen belgenin boyutunu azaltın.
+// Sağdan sola metin uyumluluğu pahasına kaydedilen belgenin boyutunu küçült.
 options.ExportCompactSize = true;
 
-// Belgemizin olduğundan emin olmak amacıyla fazladan anahtar kelimeler kullanmak için "ExportImagesFotOldReaders" özelliğini "true" olarak ayarlayın
+// Belgemizin doğru olduğundan emin olmak için ek anahtar sözcükler kullanmak üzere "ExportImagesFotOldReaders" özelliğini "true" olarak ayarlayın.
 // Microsoft Word 97 öncesi okuyucular ve WordPad ile uyumludur.
 // Belgenin boyutunu küçültmek için "ExportImagesFotOldReaders" özelliğini "false" olarak ayarlayın,
-// ancak eski okuyucuların belgenin içerebileceği meta dosyası olmayan veya BMP görüntülerini okuyabilmesini önleyin.
+// ancak eski okuyucuların belgenin içerebileceği meta dosyası veya BMP dışındaki görüntüleri okumasını engeller.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

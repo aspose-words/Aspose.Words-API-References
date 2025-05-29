@@ -3,7 +3,7 @@ title: CompareOptions
 linktitle: CompareOptions
 articleTitle: CompareOptions
 second_title: Aspose.Words لـ .NET
-description: CompareOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ CompareOptions، أداتك الأساسية لتكوين سلس. أطلق العنان لقوة الإعدادات المثالية لمشاريعك!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.comparing/compareoptions/compareoptions/

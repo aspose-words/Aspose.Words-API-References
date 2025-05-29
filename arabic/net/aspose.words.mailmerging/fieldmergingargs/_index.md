@@ -3,14 +3,14 @@ title: FieldMergingArgs Class
 linktitle: FieldMergingArgs
 articleTitle: FieldMergingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs فصل. يوفر بيانات لـمجال مدمج حدث في C#.
+description: اكتشف فئة Aspose.Words.MailMerging.FieldMergingArgs للتعامل بسلاسة مع البيانات في أحداث MergeField، مما يعزز تجربة معالجة المستندات لديك.
 type: docs
-weight: 3770
+weight: 4460
 url: /ar/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-يوفر بيانات لـ**مجال مدمج** حدث.
+يوفر بيانات لـ**حقل الدمج** الحدث.
 
 لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
@@ -22,22 +22,22 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | إرجاع[`Document`](../fieldmergingargsbase/document/) الكائن الذي يتم تنفيذ دمج البريد له. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | يحصل على اسم حقل الدمج كما هو محدد في الوثيقة. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | الحصول على الكائن الذي يمثل حقل الدمج الحالي. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | الحصول على اسم حقل الدمج في مصدر البيانات. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | الحصول على قيمة الحقل أو تعيينها من مصدر البيانات. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | الحصول على الفهرس الصفري للسجل الذي يتم دمجه. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح. |
-| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | يعيد[`Document`](../fieldmergingargsbase/document/)الكائن الذي يتم تنفيذ عملية دمج البريد له. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | يحصل على اسم حقل الدمج كما هو محدد في المستند. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | يحصل على الكائن الذي يمثل حقل الدمج الحالي. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | يحصل على اسم حقل الدمج في مصدر البيانات. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | يحصل على قيمة الحقل من مصدر البيانات أو يعينها. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | يحصل على الفهرس الصفري للسجل الذي يتم دمجه. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا لم يكن الاسم متاحًا. |
+| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | يحصل على النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي أو يعينه. |
 
 ## ملاحظات
 
-ال**مجال مدمج** يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل merge بسيط للبريد في المستند. يمكنك الرد على هذا الحدث بإرسال نص return لمحرك دمج المراسلات لإدراجه في المستند.
+ال**حقل الدمج** يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل دمج بريد بسيط (x000d_) في المستند. يمكنك الاستجابة لهذا الحدث بإرجاع النص (x000d_) ليُدرجه محرك دمج البريد في المستند.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
+يوضح كيفية تنفيذ دمج البريد باستخدام معاودة الاتصال المخصصة التي تتعامل مع بيانات الدمج في شكل مستندات HTML.
 
 ```csharp
 public void MergeHtml()
@@ -71,31 +71,31 @@ public void MergeHtml()
 
 /// <summary>
 /// إذا واجه دمج البريد MERGEFIELD الذي يبدأ اسمه بالبادئة "html_"،
-/// يقوم رد الاتصال هذا بتحليل بيانات الدمج الخاصة به كمحتوى HTML وإضافة النتيجة إلى موقع مستند MERGEFIELD.
+/// تقوم وظيفة الارتداد هذه بتحليل بيانات الدمج الخاصة بها كمحتوى HTML وتضيف النتيجة إلى موقع المستند الخاص بـ MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // أضف بيانات HTML التي تم تحليلها إلى نص المستند.
+            // أضف بيانات HTML المحللة إلى نص المستند.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // نظرًا لأننا قمنا بالفعل بإدراج المحتوى المدمج يدويًا،
-             // لن نحتاج إلى الرد على هذا الحدث من خلال إعادة المحتوى عبر خاصية "النص".
+            // لن نحتاج إلى الاستجابة لهذا الحدث عن طريق إرجاع المحتوى عبر خاصية "النص".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 }
 ```

@@ -3,16 +3,16 @@ title: FieldMergingArgs Class
 linktitle: FieldMergingArgs
 articleTitle: FieldMergingArgs
 second_title: Aspose.Words для .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs сорт. Предоставляет данные дляОбъединить поле событие на С#.
+description: Откройте для себя класс Aspose.Words.MailMerging.FieldMergingArgs для бесшовной обработки данных в событиях MergeField, расширяя возможности обработки документов.
 type: docs
-weight: 3770
+weight: 4460
 url: /ru/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Предоставляет данные для**Объединить поле** событие.
+Предоставляет данные для**MergeField** событие.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -22,22 +22,22 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document/) объект, для которого выполняется слияние почты. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Получает имя поля слияния, указанное в документе. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document/)объект, для которого выполняется слияние почты. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Получает имя поля слияния, как указано в документе. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Получает объект, представляющий текущее поле слияния. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Получает имя поля слияния в источнике данных. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Получает или задает значение поля из источника данных. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает индекс объединяемой записи, начинающийся с нуля. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает индекс записи, которая объединяется, начиная с нуля. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
-| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Получает или задает текст, который будет вставлен в документ для текущего поля слияния. |
+| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Возвращает или задает текст, который будет вставлен в документ для текущего поля слияния. |
 
 ## Примечания
 
-**Объединить поле** Событие происходит во время слияния почты, когда в документе встречается простое поле mail merge . Вы можете ответить на это событие текстом return , который механизм слияния почты вставит в документ.
+The**MergeField** событие происходит во время слияния почты, когда в документе встречается простое поле слияния почты . Вы можете ответить на это событие, чтобы вернуть текст return для механизма слияния почты, который будет вставлен в документ.
 
 ## Примеры
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
+Показывает, как выполнить слияние почты с помощью настраиваемого обратного вызова, который обрабатывает данные слияния в форме HTML-документов.
 
 ```csharp
 public void MergeHtml()
@@ -70,7 +70,7 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// Если при слиянии почты обнаруживается MERGEFIELD, имя которого начинается с префикса "html_",
 /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
@@ -82,13 +82,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные данные HTML в тело документа.
+            // Добавить проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Поскольку мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
+            // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство "Текст".
             args.Text = string.Empty;
         }
     }

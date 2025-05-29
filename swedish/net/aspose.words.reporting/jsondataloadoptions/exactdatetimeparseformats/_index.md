@@ -3,14 +3,14 @@ title: JsonDataLoadOptions.ExactDateTimeParseFormats
 linktitle: ExactDateTimeParseFormats
 articleTitle: ExactDateTimeParseFormats
 second_title: Aspose.Words för .NET
-description: JsonDataLoadOptions ExactDateTimeParseFormats fast egendom. Hämtar eller ställer in exakta format för att analysera JSONdatumtidvärden när JSON laddas. Standard ärnull  i C#.
+description: Upptäck JsonDataLoadOptions ExactDateTimeParseFormats för exakt JSON-datum- och tidsanalys. Anpassa format enkelt för sömlös datainläsning!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
 ---
 ## JsonDataLoadOptions.ExactDateTimeParseFormats property
 
-Hämtar eller ställer in exakta format för att analysera JSON-datum-tid-värden när JSON laddas. Standard är`null` .
+Hämtar eller ställer in exakta format för att analysera JSON-datum-tidsvärden vid laddning av JSON. Standardinställningen är`null` .
 
 ```csharp
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
@@ -18,11 +18,32 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 
 ## Anmärkningar
 
-Strängar som är kodade med Microsoft® JSON datum-tid-format (till exempel "/Date(1224043200000)/") känns alltid igen som datum-tid-värden oavsett ett värde för den här egenskapen. Egenskapen definierar ytterligare -format som ska användas vid analys av datum-tid-värden från strängar på följande sätt:
+Strängar kodade med Microsoft® JSON datum- och tidsformat (till exempel "/Date(1224043200000)/") känns alltid igen som datum- och tidsvärden oavsett ett värde för den här egenskapen. Egenskapen definierar ytterligare format som ska användas vid parsning av datum- och tidsvärden från strängar på följande sätt:
 
-* När`ExactDateTimeParseFormats` är`null` ISO-8601-formatet och alla datum-tid-format som stöds för den nuvarande, engelska USA och engelska Nya Zeelands kulturer används dessutom i nämnda ordning.
-* När`ExactDateTimeParseFormats` innehåller strängar, de används som ytterligare datum-tid -format med den nuvarande kulturen.
-* När`ExactDateTimeParseFormats` är tom, inga ytterligare datum-tid-format används.
+* När`ExactDateTimeParseFormats` är`null` , ISO-8601-formatet och alla datum- och tidsformat som stöds för nuvarande, engelsk amerikansk och engelsk nyzeeländsk kultur används dessutom i nämnda ordning.
+* När`ExactDateTimeParseFormats`innehåller strängar, används de som ytterligare date-time -format med hjälp av den aktuella kulturen.
+* När`ExactDateTimeParseFormats` är tomt, inga ytterligare datum- och tidsformat används.
+
+## Exempel
+
+Visar hur man använder JSON som datakälla (sträng).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - JSON data destination.docx");
+
+JsonDataLoadOptions options = new JsonDataLoadOptions
+{
+    ExactDateTimeParseFormats = new List<string> {"MM/dd/yyyy", "MM.d.yy", "MM d yy"},
+    AlwaysGenerateRootObject = true,
+    PreserveSpaces = true,
+    SimpleValueParseMode = JsonSimpleValueParseMode.Loose
+};
+
+JsonDataSource dataSource = new JsonDataSource(MyDir + "List of people.json", options);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.JsonDataString.docx");
+```
 
 ### Se även
 

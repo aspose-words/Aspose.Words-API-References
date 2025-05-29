@@ -2,10 +2,10 @@
 title: OdtSaveOptions.Password
 linktitle: Password
 articleTitle: Password
-second_title: Aspose.Words for .NET
-description: OdtSaveOptions Password mülk. Belgeyi şifrelemek için bir parola alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi OdtSaveOptions Password özelliğiyle güvenceye alın. Güçlü şifreleme ve gelişmiş veri koruması için kolayca bir parola ayarlayın veya alın.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.saving/odtsaveoptions/password/
 ---
 ## OdtSaveOptions.Password property
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Notlar
 
-Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
+Belgeyi şifrelemeden kaydetmek için bu özellik olmalıdır`hükümsüz` veya boş dize.
 
 ## Örnekler
 
@@ -29,15 +29,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Yeni bir OdtSaveOptions oluşturun ve "SaveFormat.Odt"u iletin,
- // veya belgenin kaydedileceği format olarak "SaveFormat.Ott".
+// Yeni bir OdtSaveOptions oluşturun ve "SaveFormat.Odt" veya "OdtSaveFormat" iletin.
+ // veya belgenin kaydedileceği biçim olarak "SaveFormat.Ott".
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Bu belgeyi uygun bir editörle açarsak,
-// SaveOptions nesnesinde belirttiğimiz şifreyi bizden isteyecek.
+// SaveOptions nesnesinde belirttiğimiz şifreyi bize soracaktır.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
@@ -45,7 +45,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Bu belgeyi Aspose.Words kullanarak tekrar açmak veya düzenlemek istersek,
-// yükleme yapıcısına doğru parolayı içeren bir LoadOptions nesnesi sağlamamız gerekecek.
+// Yükleme oluşturucusuna doğru parolayı içeren bir LoadOptions nesnesi sağlamamız gerekecek.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

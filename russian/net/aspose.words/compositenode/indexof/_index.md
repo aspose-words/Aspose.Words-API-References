@@ -3,9 +3,9 @@ title: CompositeNode.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words для .NET
-description: CompositeNode IndexOf метод. Возвращает индекс указанного дочернего узла в массиве дочерних узлов на С#.
+description: Узнайте, как метод CompositeNode IndexOf эффективно находит индекс указанного дочернего узла в массиве, улучшая ваш опыт кодирования.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -22,14 +22,14 @@ public int IndexOf(Node child)
 
 ## Примеры
 
-Показывает, как получить индекс данного дочернего узла от его родительского узла.
+Показывает, как получить индекс заданного дочернего узла из его родительского узла.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 Body body = doc.FirstSection.Body;
 
-// Получаем индекс последнего абзаца тела первого раздела.
+// Извлекаем индекс последнего абзаца в теле первого раздела.
 Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 

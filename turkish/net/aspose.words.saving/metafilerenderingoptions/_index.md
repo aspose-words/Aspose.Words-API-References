@@ -2,17 +2,17 @@
 title: MetafileRenderingOptions Class
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MetafileRenderingOptions sınıf. Ek meta dosyası oluşturma seçeneklerini belirlemeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde gelişmiş meta dosyası işleme denetimi ve özelleştirmesi için Aspose.Words.Saving.MetafileRenderingOptions'ı keşfedin. İş akışınızı bugün optimize edin!
 type: docs
-weight: 5300
+weight: 6080
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-Ek meta dosyası oluşturma seçeneklerini belirlemeye izin verir.
+Ek meta dosyası oluşturma seçeneklerinin belirtilmesine olanak tanır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Windows Meta Dosyalarını İşleme](https://docs.aspose.com/words/net/handling-windows-metafiles/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Windows Meta Dosyalarını İşleme](https://docs.aspose.com/words/net/handling-windows-metafiles/) belgeleme makalesi.
 
 ```csharp
 public class MetafileRenderingOptions
@@ -28,17 +28,17 @@ public class MetafileRenderingOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | EMF+ Dual meta dosyalarının nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar. |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır veya ayarlar. |
-| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Meta dosyası oluşturmanın meta dosya görüntüsünü sayfa boyutuna göre mi yoksa meta dosyanın varsayılan boyutunda görüntüsüne mi benzettiğini belirleyen bir değer alır veya ayarlar. |
-| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Meta dosyası oluşturmanın sayfadaki boyuta emülasyonu için çözünürlüğü inç başına piksel cinsinden alır veya ayarlar. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar. |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işlenmesi gerektiğini belirleyen bir değer alır veya ayarlar. |
-| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Tarama işlemleri emülasyonu için GDI+'nın kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar. |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | EMF+ Dual meta dosyalarının nasıl işleneceğini belirleyen bir değer alır veya ayarlar. |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Raster işlemlerinin öykünülüp öykünülmeyeceğini belirleyen bir değer alır veya ayarlar. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Meta dosyası oluşturma işleminin meta dosyasının page üzerindeki boyuta göre görüntülenmesini mi yoksa meta dosyasının varsayılan boyutunda görüntülenmesini mi taklit edeceğini belirleyen bir değer alır veya ayarlar. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Sayfadaki boyuta meta dosya oluşturma emülasyonu için piksel/inç cinsinden çözünürlüğü alır veya ayarlar. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Meta dosyası görüntülerinin nasıl işleneceğini belirleyen bir değer alır veya ayarlar. |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işleneceğini belirleyen bir değer alır veya ayarlar. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | GDI+'ın raster işlemleri emülasyonu için kullanılıp kullanılmayacağını belirleyen bir değeri alır veya ayarlar. |
 
 ## Örnekler
 
-Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
+Desteklenmeyen meta dosyası kayıtları hakkında bitmap oluşturma ve uyarı türlerini değiştirmeye yönelik bir geri dönüş eklendi.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -48,14 +48,14 @@ public void HandleBinaryRasterWarnings()
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın
-    // çıktı PDF'sinde görüntü oluşturmak için tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
+    // Çıktı PDF'inde işlenmesi için raster işlemlerinin gerekeceği bir meta dosyasıyla karşılaşır.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Her meta dosyasını vektör grafikleri kullanarak oluşturmayı denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
+    // Her meta dosyasını vektör grafikleri kullanarak işlemeyi denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme ve yapılandırmayı uygulama biçimini değiştirmek için
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye nasıl dönüştüreceğini ve yapılandırmayı nasıl uygulayacağını değiştirmek için
     // MetafileRenderingOptions nesnemizde kaydetme işlemine.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -71,7 +71,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Bir belge kaydedildiğinde oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
+/// Bir belgeyi kaydederken oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

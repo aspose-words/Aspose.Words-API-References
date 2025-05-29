@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: BaseWebExtensionCollection Remove metod. Tar bort objektet vid det angivna indexet från samlingen i C#.
+description: Ta enkelt bort objekt från din BaseWebExtensionCollection med vår intuitiva borttagningsmetod. Effektivisera din datahantering idag!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/remove/

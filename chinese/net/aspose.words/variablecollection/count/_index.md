@@ -2,8 +2,8 @@
 title: VariableCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: VariableCollection Count 财产. 获取集合中包含的元素数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 VariableCollection Count 属性，轻松检索集合中的元素总数，提高数据管理效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/variablecollection/count/
@@ -39,7 +39,7 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// 为现有键分配值将更新它们。
+// 为现有键分配值将会更新它们。
 variables.Add("Home address", "456 Queen St.");
 
 // 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
@@ -53,17 +53,20 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// 变量集合自动按名称字母顺序对变量进行排序。
+// 变量集合自动按名称的字母顺序对变量进行排序。
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
+
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
 
 // 枚举变量集合。
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// 下面是从集合中删除文档变量的三种方法。
+// 以下是从集合中删除文档变量的三种方法。
 // 1 - 按名称：
 variables.Remove("City");
 
@@ -74,10 +77,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - 立即清除整个集合：
+// 3 - 一次清除整个集合：
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### 也可以看看

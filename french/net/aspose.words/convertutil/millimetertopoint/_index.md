@@ -3,7 +3,7 @@ title: ConvertUtil.MillimeterToPoint
 linktitle: MillimeterToPoint
 articleTitle: MillimeterToPoint
 second_title: Aspose.Words pour .NET
-description: ConvertUtil MillimeterToPoint méthode. Convertit les millimètres en points en C#.
+description: Convertissez facilement des millimètres en points grâce à la méthode MillimeterToPoint de ConvertUtil. Simplifiez vos calculs de conception dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/convertutil/millimetertopoint/
@@ -32,8 +32,8 @@ Montre comment spécifier les propriétés de la page en millimètres.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// La « Mise en page » d'une section définit la taille des marges de la page en points.
+// Nous pouvons également utiliser la classe « ConvertUtil » pour utiliser une unité de mesure plus familière,
 // comme les millimètres lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
@@ -41,7 +41,7 @@ pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
 pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
-// Un centimètre équivaut à environ 28,3 points.
+// Un centimètre vaut environ 28,3 points.
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
 // Ajoutez du contenu pour démontrer les nouvelles marges.

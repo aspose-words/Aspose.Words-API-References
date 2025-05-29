@@ -2,15 +2,15 @@
 title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
-second_title: Aspose.Words for .NET
-description: DocumentBuilder Underline mülk. Geçerli yazı tipinin alt çizgi türünü alır/ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipi stillerini kolayca özelleştirmek için DocumentBuilder'ın Alt Çizgi özelliğini keşfedin. Profesyonel bir görünüm için çok yönlü alt çizgi seçenekleriyle belgelerinizi geliştirin.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property
 
-Geçerli yazı tipinin alt çizgi türünü alır/ayarlar.
+Geçerli yazı tipi için alt çizgi türünü alır/ayarlar.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Örnekler
 
-Belge oluşturucu tarafından eklenen metnin nasıl biçimlendirileceğini gösterir.
+Bir belge oluşturucu tarafından eklenen metnin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Oluşturucu, biçimlendirmeyi mevcut paragrafına ve daha sonra eklediği yeni metne uygular.
+// Oluşturucu biçimlendirmeyi geçerli paragrafına ve sonrasında eklediği yeni metne uygular.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

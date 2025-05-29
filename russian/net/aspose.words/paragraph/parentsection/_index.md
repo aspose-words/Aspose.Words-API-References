@@ -3,14 +3,14 @@ title: Paragraph.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words для .NET
-description: Paragraph ParentSection свойство. Получает родительский элементSection абзаца на С#.
+description: Откройте для себя свойство Paragraph ParentSection, чтобы легко получить доступ к родительскому разделу любого абзаца, улучшая структуру и организацию документа.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-Получает родительский элемент[`Section`](../../section/) абзаца.
+Возвращает родителя[`Section`](../../section/) абзаца.
 
 ```csharp
 public Section ParentSection { get; }
@@ -18,13 +18,13 @@ public Section ParentSection { get; }
 
 ## Примеры
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -34,7 +34,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

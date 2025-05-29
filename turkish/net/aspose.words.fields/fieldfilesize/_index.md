@@ -2,17 +2,17 @@
 title: FieldFileSize Class
 linktitle: FieldFileSize
 articleTitle: FieldFileSize
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldFileSize sınıf. FILESIZE alanını uygular C#'da.
+second_title: .NET için Aspose.Words
+description: FILESIZE alanını zahmetsizce uygulamak ve belge yönetimini kolaylıkla geliştirmek için Aspose.Words.Fields.FieldFileSize sınıfını keşfedin.
 type: docs
-weight: 1880
+weight: 2290
 url: /tr/net/aspose.words.fields/fieldfilesize/
 ---
 ## FieldFileSize class
 
 FILESIZE alanını uygular.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldFileSize : Field
@@ -30,14 +30,14 @@ public class FieldFileSize : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir tane alır[`FieldFormat`](../fieldformat/)alanın biçimlendirmesine yazılmış erişim sağlayan nesne. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsInKilobytes](../../aspose.words.fields/fieldfilesize/isinkilobytes/) { get; set; } | Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar. |
-| [IsInMegabytes](../../aspose.words.fields/fieldfilesize/isinmegabytes/) { get; set; } | Dosya boyutunun megabayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
+| [IsInKilobytes](../../aspose.words.fields/fieldfilesize/isinkilobytes/) { get; set; } | Dosya boyutunun kilobayt olarak gösterilip gösterilmeyeceğini alır veya ayarlar. |
+| [IsInMegabytes](../../aspose.words.fields/fieldfilesize/isinmegabytes/) { get; set; } | Dosya boyutunun megabayt olarak gösterilip gösterilmeyeceğini alır veya ayarlar. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcısı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcısını temsil eden düğümü alır.`hükümsüz` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
 
@@ -45,18 +45,18 @@ public class FieldFileSize : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
-| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Hem alan kodu hem de alt alanların alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son alt 'siyse, üst paragrafını döndürür. Alan zaten kaldırılmışsa, şunu döndürür`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alan bağlantısını kaldırma işlemini gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
 
 ## Notlar
 
-Geçerli belgenin dosyasının boyutunu veya boyut belirlenemiyorsa 0'ı alır.
+Geçerli belgenin dosyasının boyutunu veya boyut belirlenemiyorsa 0 değerini alır.
 
-Mevcut uygulamada,[`OriginalFileName`](../../aspose.words/document/originalfilename/) get dosya boyutunu belirlemek için kullanılan dosya adını kullanma özelliği.
+Mevcut uygulamada, şunu kullanır:[`OriginalFileName`](../../aspose.words/document/originalfilename/) retrieve dosya boyutunu belirlemek için kullanılan dosya adı özelliği.
 
 ## Örnekler
 
@@ -71,8 +71,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Aşağıda üç farklı ölçü birimi verilmiştir
-// hangi FILESIZE alanlarının belgenin dosya boyutunu görüntüleyebileceği.
+// Aşağıda üç farklı ölçü birimi bulunmaktadır
+// FILESIZE alanlarının belgenin dosya boyutunu gösterebileceği alan.
 // 1 - Bayt:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -99,7 +99,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Microsoft Word'de düzenleme yaparken bu alanların değerlerini güncellemek için,
-// önce değişiklikleri kaydetmemiz, ardından bu alanları manuel olarak güncellememiz gerekiyor.
+// Öncelikle değişiklikleri kaydetmeli ve daha sonra bu alanları manuel olarak güncellemeliyiz.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

@@ -3,7 +3,7 @@ title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
 articleTitle: ScanSubfolders
 second_title: Aspose.Words für .NET
-description: FolderFontSource ScanSubfolders eigendom. Legt fest ob die Unterordner gescannt werden sollen oder nicht in C#.
+description: Entdecken Sie die Eigenschaft „FolderFontSource ScanSubfolders“, um die Schriftartenorganisation einfach zu verwalten, indem Sie zur Verbesserung der Effizienz das Scannen von Unterordnern auswählen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -21,7 +21,7 @@ public bool ScanSubfolders { get; }
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Table.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
 second_title: Aspose.Words для .NET
-description: Table DistanceRight свойство. Получает или задает расстояние между правой частью таблицы и окружающим текстом в пунктах на С#.
+description: Настройте свойство Table DistanceRight, чтобы контролировать расстояние между таблицей и окружающим текстом в пунктах, улучшая компоновку и читабельность.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.tables/table/distanceright/
 ---
 ## Table.DistanceRight property
 
-Получает или задает расстояние между правой частью таблицы и окружающим текстом в пунктах.
+Возвращает или задает расстояние между правым краем таблицы и окружающим текстом в пунктах.
 
 ```csharp
 public double DistanceRight { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Устанавливаем расстояние между таблицей и окружающим текстом.
+// Устанавливаем расстояние между таблицей и окружающим текстом.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

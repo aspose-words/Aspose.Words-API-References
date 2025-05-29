@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: CustomXmlPropertyCollection Item ملكية. الحصول على خاصية بالاسم المحدد في C#.
+description: الوصول إلى خصائص محددة بسهولة باستخدام CustomXmlPropertyCollection. استرجع العناصر بالاسم لإدارة بيانات مبسطة وإنتاجية أفضل.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/item/
 ---
 ## CustomXmlPropertyCollection indexer (1 of 2)
 
-الحصول على خاصية بالاسم المحدد.
+يحصل على خاصية بالاسم المحدد.
 
 ```csharp
 public CustomXmlProperty this[string name] { get; }
@@ -18,26 +18,26 @@ public CustomXmlProperty this[string name] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| name | اسم حساس لحالة الأحرف للخاصية المراد تحديد موقعها. |
+| name | اسم الخاصية المراد تحديد موقعها حساس لحالة الأحرف. |
 
 ## أمثلة
 
-يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
+يوضح كيفية العمل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
-// في Word 2003، يمكننا تمكين العلامات الذكية عبر "الأدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
-// في مستند الإدخال لدينا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
-// قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد.
+// تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
+// في Word 2003، يمكننا تمكين العلامات الذكية عبر "أدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
+// في مستند الإدخال الخاص بنا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
+//قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد منها.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// يحتوي عضو "الخصائص" في العلامة الذكية على بيانات التعريف الخاصة به، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
-// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم الخاص بها.
+// يحتوي عنصر "الخصائص" في العلامة الذكية على بياناتها الوصفية، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
+// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -51,7 +51,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
+//يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -63,7 +63,7 @@ properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
@@ -85,7 +85,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## CustomXmlPropertyCollection indexer (2 of 2)
 
-الحصول على خاصية في الفهرس المحدد.
+يحصل على خاصية في الفهرس المحدد.
 
 ```csharp
 public CustomXmlProperty this[int index] { get; }
@@ -93,26 +93,26 @@ public CustomXmlProperty this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | مؤشر صفري للممتلكات. |
+| index | مؤشر العقار على أساس الصفر. |
 
 ## أمثلة
 
-يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
+يوضح كيفية العمل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
-// في Word 2003، يمكننا تمكين العلامات الذكية عبر "الأدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
-// في مستند الإدخال لدينا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
-// قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد.
+// تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
+// في Word 2003، يمكننا تمكين العلامات الذكية عبر "أدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
+// في مستند الإدخال الخاص بنا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
+//قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد منها.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// يحتوي عضو "الخصائص" في العلامة الذكية على بيانات التعريف الخاصة به، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
-// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم الخاص بها.
+// يحتوي عنصر "الخصائص" في العلامة الذكية على بياناتها الوصفية، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
+// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -126,7 +126,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
+//يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -138,7 +138,7 @@ properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);

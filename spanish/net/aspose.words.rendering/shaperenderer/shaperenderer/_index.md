@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words para .NET
-description: ShapeRenderer constructor. Inicializa una nueva instancia de esta clase en C#.
+description: Descubra el constructor ShapeRenderer para crear y personalizar fácilmente formas en sus proyectos, mejorando el atractivo visual y la funcionalidad.
 type: docs
 weight: 10
 url: /es/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -22,7 +22,7 @@ public ShapeRenderer(ShapeBase shape)
 
 ## Ejemplos
 
-Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
+Muestra cómo representar una forma con un objeto Graphics y visualizarla mediante un formulario Windows Forms.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -33,7 +33,7 @@ public void RenderShapesOnForm()
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
     // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1: crea una forma con un gráfico y renderízala a una escala específica.
+    // 1 - Crea una forma con un gráfico y representalo en una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

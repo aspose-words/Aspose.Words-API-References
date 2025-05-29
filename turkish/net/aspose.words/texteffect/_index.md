@@ -2,15 +2,15 @@
 title: TextEffect Enum
 linktitle: TextEffect
 articleTitle: TextEffect
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TextEffect Sıralama. Metin çalıştırmaları için animasyon efekti C#'da.
+second_title: .NET için Aspose.Words
+description: Dinamik metin animasyonları için Aspose.Words.TextEffect enum'unu keşfedin. Etkileyici bir kullanıcı deneyimi için belgelerinizi ilgi çekici efektlerle geliştirin.
 type: docs
-weight: 6420
+weight: 7270
 url: /tr/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
 
-Metin çalıştırmaları için animasyon efekti.
+Metin çalışmaları için animasyon efekti.
 
 ```csharp
 public enum TextEffect
@@ -27,6 +27,23 @@ public enum TextEffect
 | MarchingBlackAnts | `4` |  |
 | MarchingRedAnts | `5` |  |
 | Shimmer | `6` |  |
+
+## Örnekler
+
+Koşuya görsel efektin nasıl uygulanacağını gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Size = 36;
+builder.Font.TextEffect = TextEffect.SparkleText;
+
+builder.Writeln("Text with a sparkle effect.");
+
+// Microsoft Word'ün eski sürümleri yalnızca yazı tipi animasyon efektlerini destekler.
+doc.Save(ArtifactsDir + "Font.SparklingText.doc");
+```
 
 ### Ayrıca bakınız
 

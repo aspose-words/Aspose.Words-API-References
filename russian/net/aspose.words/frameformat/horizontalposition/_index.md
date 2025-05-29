@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: Aspose.Words для .NET
-description: FrameFormat HorizontalPosition свойство. Получает горизонтальное расстояние между краем кадра и элементом указаннымRelativeHorizontalPosition свойство на С#.
+description: Откройте для себя свойство FrameFormat HorizontalPosition, чтобы легко измерить расстояние между краем рамки и указанным элементом для точного управления макетом.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Получает горизонтальное расстояние между краем кадра и элементом, указанным[`RelativeHorizontalPosition`](../relativehorizontalposition/) свойство.
+Получает горизонтальное расстояние между краем рамки и элементом, указанным параметром[`RelativeHorizontalPosition`](../relativehorizontalposition/) свойство.
 
 ```csharp
 public double HorizontalPosition { get; }

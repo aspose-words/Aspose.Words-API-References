@@ -2,15 +2,15 @@
 title: ConditionalStyleCollection.EvenRowBanding
 linktitle: EvenRowBanding
 articleTitle: EvenRowBanding
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyleCollection EvenRowBanding 财产. 获取偶数行条带样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ConditionalStyleCollection 中的 EvenRowBanding 属性，通过时尚的交替行颜色增强可读性。提升您的数据呈现效果！
 type: docs
 weight: 50
 url: /zh/net/aspose.words/conditionalstylecollection/evenrowbanding/
 ---
 ## ConditionalStyleCollection.EvenRowBanding property
 
-获取偶数行条带样式。
+获取偶数行带状样式。
 
 ```csharp
 public ConditionalStyle EvenRowBanding { get; }
@@ -39,9 +39,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是仅影响部分表格单元格的格式更改
+// 基于谓词，例如单元格位于最后一行。
+// 以下是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -70,7 +70,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// 将包含所有条件样式的自定义样式应用于表格。
+// 将包含所有条件样式的自定义样式应用到表格。
 table.Style = tableStyle;
 
 // 我们的样式默认应用一些条件样式。

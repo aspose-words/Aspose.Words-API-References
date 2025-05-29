@@ -3,14 +3,14 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: CustomPartCollection Add metod. Lägger till ett föremål i samlingen i C#.
+description: Förbättra ditt projekt enkelt med CustomPartCollection Add-metoden – lägg snabbt till objekt i din samling för sömlös integration och effektivitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/custompartcollection/add/
 ---
 ## CustomPartCollection.Add method
 
-Lägger till ett föremål i samlingen.
+Lägger till ett objekt i samlingen.
 
 ```csharp
 public void Add(CustomPart part)
@@ -18,11 +18,11 @@ public void Add(CustomPart part)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| part | CustomPart | Objektet att lägga till. |
+| part | CustomPart | Objektet som ska läggas till. |
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

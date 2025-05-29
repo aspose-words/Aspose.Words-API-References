@@ -2,8 +2,8 @@
 title: KnownTypeSet.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: KnownTypeSet Count mülk. Kümedeki öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Kümenizde bulunan toplam öğe sayısını kolayca almak için KnownTypeSet Count özelliğini keşfedin ve veri yönetimi verimliliğinizi artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/knowntypeset/count/

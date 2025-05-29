@@ -3,14 +3,14 @@ title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: DigitalSignatureCollection GetEnumerator метод. Возвращает объект перечислителя словаря который можно использовать для перебора всех элементов коллекции на С#.
+description: Изучите метод GetEnumerator класса DigitalSignatureCollection, чтобы легко перебирать все элементы коллекции с помощью удобного перечислителя словаря.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
 ---
 ## DigitalSignatureCollection.GetEnumerator method
 
-Возвращает объект перечислителя словаря, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-перечислитель словаря, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<DigitalSignature> GetEnumerator()

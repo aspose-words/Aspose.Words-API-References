@@ -2,8 +2,8 @@
 title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
-second_title: Aspose.Words for .NET
-description: Row Cells mülk. Yazılı erişim sağlarCell satırın alt düğümleri C#'da.
+second_title: .NET için Aspose.Words
+description: Çocuk düğümlerinin sorunsuz yönetimi için yazılan denetimlerle Satır Hücrelerine zahmetsizce erişin ve veri işleme deneyiminizi geliştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/row/cells/
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## Örnekler
 
-Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
+Belgedeki tüm tablolarda nasıl gezinileceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu diziye kopyalamak için "ToArray" metodunu kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

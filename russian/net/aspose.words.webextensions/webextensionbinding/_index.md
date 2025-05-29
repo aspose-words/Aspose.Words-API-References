@@ -3,16 +3,16 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding сорт. Указывает связь привязки между вебрасширением и данными в документе на С#.
+description: Откройте для себя класс Aspose.Words.WebExtensionBinding для бесшовной интеграции веб-расширений с данными вашего документа. Улучшайте функциональность без усилий!
 type: docs
-weight: 6750
+weight: 7600
 url: /ru/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Указывает связь привязки между веб-расширением и данными в документе.
+Указывает связь между веб-расширением и данными в документе.
 
-Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) документальная статья.
 
 ```csharp
 public class WebExtensionBinding

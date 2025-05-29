@@ -3,14 +3,14 @@ title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words для .NET
-description: ShapeBase VerticalAlignment свойство. Указывает как фигура располагается вертикально на С#.
+description: Откройте для себя свойство ShapeBase VerticalAlignment, которое оптимизирует вертикальное расположение вашей фигуры для повышения точности дизайна и визуальной привлекательности.
 type: docs
-weight: 560
+weight: 600
 url: /ru/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
 
-Указывает, как фигура располагается вертикально.
+Указывает, как фигура располагается по вертикали.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; set; }
@@ -20,7 +20,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 Значение по умолчанию:None.
 
-Имеет эффект только для плавающих фигур верхнего уровня.
+Действует только для плавающих фигур верхнего уровня.
 
 ## Примеры
 
@@ -30,7 +30,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -3,14 +3,14 @@ title: EmbeddedFontFormat Enum
 linktitle: EmbeddedFontFormat
 articleTitle: EmbeddedFontFormat
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.EmbeddedFontFormat énumération. Spécifie le format dune police incorporée particulière à lintérieurFontInfo objet en C#.
+description: Découvrez l'énumération Aspose.Words.EmbeddedFontFormat, qui définit les formats des polices intégrées dans l'objet FontInfo pour un style de document amélioré.
 type: docs
-weight: 2850
+weight: 3260
 url: /fr/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
 
-Spécifie le format d'une police incorporée particulière à l'intérieur[`FontInfo`](../fontinfo/) objet.
+Spécifie le format d'une police intégrée particulière à l'intérieur[`FontInfo`](../fontinfo/) objet.
 
 Lors de l'enregistrement d'un document dans un fichier, seules les polices intégrées du format correspondant sont écrites.
 
@@ -27,7 +27,7 @@ public enum EmbeddedFontFormat
 
 ## Exemples
 
-Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
+Montre comment extraire une police intégrée d'un document et l'enregistrer sur le système de fichiers local.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -36,7 +36,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Les formats de polices intégrées peuvent être différents dans d'autres formats tels que .doc.
+// Les formats de police intégrés peuvent être différents dans d'autres formats tels que .doc.
 // Nous devons connaître le format correct avant de pouvoir extraire la police.
 doc = new Document(MyDir + "Embedded font.doc");
 

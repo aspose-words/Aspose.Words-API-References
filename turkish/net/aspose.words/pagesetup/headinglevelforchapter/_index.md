@@ -2,8 +2,8 @@
 title: PageSetup.HeadingLevelForChapter
 linktitle: HeadingLevelForChapter
 articleTitle: HeadingLevelForChapter
-second_title: Aspose.Words for .NET
-description: PageSetup HeadingLevelForChapter mülk. Belgedeki bölüm başlıklarına uygulanan başlık düzeyi stilini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki bölüm başlık stillerini daha kolay özelleştirmek ve okunabilirliği ve profesyonelliği artırmak için PageSetup HeadingLevelForChapter özelliğini keşfedin.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -18,9 +18,9 @@ public int HeadingLevelForChapter { get; set; }
 
 ## Notlar
 
-0'dan 9'a kadar bir sayı olabilir. 0, sayfa numarasına uygulandığında bölüm numarası olmadığı anlamına gelir.
+0 ile 9 arasında bir sayı olabilir. 0, sayfa numarasına uygulandığında bölüm numarası olmadığı anlamına gelir.
 
-Bölüm numaralarını içeren sayfa numaralarını oluşturabilmeniz için, belge başlıklarına numaralı anahat biçiminin uygulanması gerekir.
+Bölüm numaralarını içeren sayfa numaraları oluşturabilmeniz için, belge başlıklarına numaralandırılmış bir anahat biçiminin uygulanması gerekir.
 
 ## Örnekler
 

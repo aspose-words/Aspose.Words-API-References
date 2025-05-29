@@ -3,14 +3,14 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words für .NET
-description: FieldInfo NewValue eigendom. Ruft einen optionalen Wert ab der die Eigenschaft aktualisiert oder legt diesen fest in C#.
+description: Entdecken Sie die FieldInfo NewValue-Eigenschaft, verwalten Sie optionale Werte einfach, um Ihre Datenaktualisierungen zu verbessern und Ihr Codierungserlebnis zu optimieren.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-Ruft einen optionalen Wert ab, der die Eigenschaft aktualisiert, oder legt diesen fest.
+Ruft einen optionalen Wert ab oder legt ihn fest, der die Eigenschaft aktualisiert.
 
 ```csharp
 public string NewValue { get; set; }
@@ -35,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Einen Wert für die NewValue-Eigenschaft des Felds festlegen und aktualisieren
+// Festlegen eines Wertes für die NewValue-Eigenschaft des Felds und Aktualisieren
 // Das Feld überschreibt auch die entsprechende integrierte Eigenschaft mit dem neuen Wert.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

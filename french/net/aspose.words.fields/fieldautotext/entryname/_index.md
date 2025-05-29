@@ -3,14 +3,14 @@ title: FieldAutoText.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words pour .NET
-description: FieldAutoText EntryName propriété. Obtient ou définit le nom de lentrée dinsertion automatique en C#.
+description: Découvrez la propriété FieldAutoText EntryName pour gérer facilement les noms d'entrées de texte automatique, améliorant ainsi l'automatisation et l'efficacité de votre document.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldautotext/entryname/
 ---
 ## FieldAutoText.EntryName property
 
-Obtient ou définit le nom de l'entrée d'insertion automatique.
+Obtient ou définit le nom de l'entrée de texte automatique.
 
 ```csharp
 public string EntryName { get; set; }
@@ -18,12 +18,12 @@ public string EntryName { get; set; }
 
 ## Exemples
 
-Montre comment afficher un bloc de construction avec des champs AUTOTEXTE et GLOSSAIRE.
+Montre comment afficher un bloc de construction avec les champs AUTOTEXT et GLOSSAIRE.
 
 ```csharp
 Document doc = new Document();
 
-// Créez un document glossaire et ajoutez-y un bloc de construction AutoTexte.
+// Créez un document de glossaire et ajoutez-y un bloc de construction AutoText.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -41,13 +41,13 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Définit un fichier qui contient des parties que notre document ou son modèle joint ne peut pas contenir.
+// Définissez un fichier qui contient des parties que notre document ou son modèle joint ne peuvent pas contenir.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux façons d'utiliser les champs pour afficher le contenu de notre bloc de construction.
-// 1 - Utilisation d'un champ AUTOTEXTE :
+// Vous trouverez ci-dessous deux manières d'utiliser des champs pour afficher le contenu de notre bloc de construction.
+// 1 - Utilisation d'un champ AUTOTEXT :
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 

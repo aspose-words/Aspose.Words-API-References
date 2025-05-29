@@ -2,8 +2,8 @@
 title: ChartXValue.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue Equals 方法. 获取一个标志指示指定对象是否等于当前 X 值对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ChartXValue Equals 方法如何确定对象之间的相等性，从而精确、轻松地增强您的数据比较能力。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/equals/

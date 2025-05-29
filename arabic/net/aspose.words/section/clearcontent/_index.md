@@ -3,14 +3,14 @@ title: Section.ClearContent
 linktitle: ClearContent
 articleTitle: ClearContent
 second_title: Aspose.Words لـ .NET
-description: Section ClearContent طريقة. مسح القسم في C#.
+description: نظّف الأقسام بسهولة باستخدام طريقة ClearContent. حسّن سير عملك وحسّن كفاءة إدارة المحتوى اليوم!
 type: docs
-weight: 90
+weight: 110
 url: /ar/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
 
-مسح القسم.
+يمسح القسم.
 
 ```csharp
 public void ClearContent()
@@ -18,9 +18,9 @@ public void ClearContent()
 
 ## ملاحظات
 
-نص[`Body`](../body/) تم مسحه، ولم يتبق سوى فقرة واحدة فارغة تمثل الفاصل المقطعي.
+نص[`Body`](../body/) إذا تم مسحها، تبقى فقرة فارغة واحدة فقط تمثل فاصل القسم.
 
-يتم مسح نص كافة الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الكائنات نفسها.
+تم مسح نص جميع الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الأشياء نفسها.
 
 ## أمثلة
 
@@ -35,8 +35,8 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// سيؤدي تشغيل طريقة "ClearContent" إلى إزالة كافة محتويات القسم
-// لكن اترك فقرة فارغة لإضافة محتوى مرة أخرى.
+// سيؤدي تشغيل طريقة "ClearContent" إلى إزالة جميع محتويات القسم
+// ولكن اترك فقرة فارغة لإضافة المحتوى مرة أخرى.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

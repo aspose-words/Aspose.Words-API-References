@@ -2,15 +2,15 @@
 title: BasicTextShaperCache
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
-second_title: Aspose.Words for .NET
-description: BasicTextShaperCache inşaatçı. Sararlarfactory ve önbelleklerGetTextShaper sonuçlar C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda daha hızlı ve verimli performans için sonuçları önbelleğe alarak metin şekillendirmeyi optimize etmek üzere tasarlanmış BasicTextShaperCache oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/basictextshapercache/basictextshapercache/
 ---
 ## BasicTextShaperCache constructor
 
-Sararlar*factory* ve önbellekler[`GetTextShaper`](../../itextshaperfactory/gettextshaper/) sonuçlar.
+Sarmalar*factory* ve önbellekler[`GetTextShaper`](../../itextshaperfactory/gettextshaper/) sonuçlar.
 
 ```csharp
 public BasicTextShaperCache(ITextShaperFactory factory)

@@ -2,10 +2,10 @@
 title: ChartDataPointCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataPointCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataPointCollection 的 GetEnumerator 方法，轻松访问数据点。使用这个高效的枚举器，简化您的数据处理！
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -18,7 +18,7 @@ public IEnumerator<ChartDataPoint> GetEnumerator()
 
 ## 例子
 
-展示如何使用折线图上的数据点。
+展示如何处理折线图上的数据点。
 
 ```csharp
 public void ChartDataPoint()
@@ -35,13 +35,13 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 通过使图表的数据点显示为菱形来强调它们。
-    foreach (ChartSeries series in chart.Series) 
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // 平滑表示第一个数据系列的线。
+    // 平滑代表第一个数据系列的线。
     chart.Series[0].Smooth = true;
 
-    // 验证如果值为负数，第一个系列的数据点不会反转其颜色。
+    // 验证当值为负时第一个系列的数据点不会反转其颜色。
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独清除格式。
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据点。
+    // 为了使图表看起来更清晰，我们可以单独清除格式。
+    dataPoint.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据点。
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

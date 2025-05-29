@@ -3,14 +3,14 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words för .NET
-description: CustomPart ContentType fast egendom. Anger innehållstypen för den här anpassade delen i C#.
+description: Upptäck hur egenskapen CustomPart ContentType definierar din anpassade dels innehållstyp, vilket förbättrar funktionalitet och användarupplevelse.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-Anger innehållstypen för den här anpassade delen.
+Anger innehållstypen för denna anpassade del.
 
 ```csharp
 public string ContentType { get; set; }
@@ -18,13 +18,13 @@ public string ContentType { get; set; }
 
 ## Anmärkningar
 
-Denna egenskap är endast tillämplig när[`IsExternal`](../isexternal/) är`falsk`.
+Denna egenskap gäller endast när[`IsExternal`](../isexternal/) är`falsk`.
 
-Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
+Standardvärdet är en tom sträng. Ett giltigt värde måste vara en sträng som inte är tom.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

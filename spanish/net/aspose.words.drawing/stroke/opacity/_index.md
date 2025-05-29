@@ -3,14 +3,14 @@ title: Stroke.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words para .NET
-description: Stroke Opacity propiedad. Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1 en C#.
+description: Descubre la propiedad Opacidad del Trazo y controla la transparencia del trazo de 0 a 1 para lograr efectos visuales impactantes en tus diseños. ¡Potencia tu creatividad hoy mismo!
 type: docs
-weight: 150
+weight: 200
 url: /es/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
 
-Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1.
+Define el grado de transparencia de un trazo. El rango válido es de 0 a 1.
 
 ```csharp
 public double Opacity { get; set; }
@@ -22,13 +22,13 @@ El valor predeterminado es 1.
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

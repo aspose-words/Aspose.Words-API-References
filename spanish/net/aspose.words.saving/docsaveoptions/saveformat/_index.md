@@ -3,9 +3,9 @@ title: DocSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words para .NET
-description: DocSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Puede serDoc oDot  en C#.
+description: Descubra la propiedad DocSaveOptions SaveFormat para elegir fácilmente entre los formatos Doc o Dot y guardar documentos sin problemas. ¡Optimice su flujo de trabajo hoy mismo!
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.saving/docsaveoptions/saveformat/
 ---
 ## DocSaveOptions.SaveFormat property
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
+Muestra cómo configurar las opciones de guardado para formatos más antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -27,16 +27,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
-// Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
+// Establezca una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Tenga en cuenta que esto no encripta el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
+// Si el documento contiene un comprobante de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Para poder cargar el documento,
+//Para poder cargar el documento,
 // necesitaremos aplicar la contraseña que especificamos en el objeto DocSaveOptions en un objeto LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 

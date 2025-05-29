@@ -3,14 +3,14 @@ title: PdfSaveOptions.DownsampleOptions
 linktitle: DownsampleOptions
 articleTitle: DownsampleOptions
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions DownsampleOptions fast egendom. Gör det möjligt att ange alternativ för nedsampling i C#.
+description: Upptäck PdfSaveOptions DownsampleOptions-egenskap för att anpassa PDF-kvaliteten och optimera filstorleken för bättre prestanda och tydlighet.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 ---
 ## PdfSaveOptions.DownsampleOptions property
 
-Gör det möjligt att ange alternativ för nedsampling.
+Gör det möjligt att ange nedprovningsalternativ.
 
 ```csharp
 public DownsampleOptions DownsampleOptions { get; set; }
@@ -18,12 +18,12 @@ public DownsampleOptions DownsampleOptions { get; set; }
 
 ## Exempel
 
-Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
+Visar hur man ändrar upplösningen på bilder i PDF-dokumentet.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
@@ -34,10 +34,10 @@ Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
 
-// Ställ in egenskapen "Resolution" till "36" för att nedsampla alla bilder till 36 ppi.
+// Sätt egenskapen "Upplösning" till "36" för att nedsampla alla bilder till 36 ppi.
 options.DownsampleOptions.Resolution = 36;
 
-// Ställ in egenskapen "ResolutionThreshold" för att endast tillämpa nedsamplingen på
+// Ställ in egenskapen "ResolutionThreshold" för att endast tillämpa nedsampling på
 // bilder med en upplösning som är över 128 ppi.
 options.DownsampleOptions.ResolutionThreshold = 128;
 

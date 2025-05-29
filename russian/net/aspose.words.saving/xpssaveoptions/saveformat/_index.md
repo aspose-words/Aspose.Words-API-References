@@ -3,14 +3,14 @@ title: XpsSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words для .NET
-description: XpsSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXps  на С#.
+description: Откройте для себя свойство XpsSaveOptions SaveFormat, которое определяет, как сохраняется ваш документ. Обеспечьте оптимальный формат XPS для бесперебойной обработки документов!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.saving/xpssaveoptions/saveformat/
 ---
 ## XpsSaveOptions.SaveFormat property
 
-Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может быть толькоXps .
+Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоXps .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -24,7 +24,7 @@ public override SaveFormat SaveFormat { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем заголовки, которые могут служить записями оглавления уровней 1, 2, а затем 3.
+// Вставьте заголовки, которые могут служить записями оглавления уровней 1, 2 и 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -41,15 +41,15 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// Создаем объект «XpsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в документ .XPS.
+// Создаем объект "XpsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// Выходной документ XPS будет содержать структуру, оглавление, в котором перечислены заголовки в теле документа.
-// Нажатие на запись в этом контуре приведет нас к местоположению соответствующего заголовка.
-// Установите для свойства «HeadingsOutlineLevels» значение «2», чтобы исключить из структуры все заголовки, уровни которых выше 2.
+// Выходной документ XPS будет содержать структуру, оглавление, в котором перечислены заголовки в тексте документа.
+// Нажатие на запись в этой схеме перенесет нас к местоположению соответствующего заголовка.
+// Установите свойство "HeadingsOutlineLevels" на "2", чтобы исключить из структуры все заголовки, уровни которых выше 2.
 // Последние два заголовка, которые мы вставили выше, не появятся.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 

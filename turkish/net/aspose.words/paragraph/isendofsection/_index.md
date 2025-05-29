@@ -2,15 +2,15 @@
 title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
-second_title: Aspose.Words for .NET
-description: Paragraph IsEndOfSection mülk. Bu paragraf paragraftaki son paragrafsa doğruBody ana metin hikayesi birSection  aksi halde yanlış C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraph IsEndOfSection özelliğini keşfedin, gelişmiş belge yapısı ve netlik için bir paragrafın bir bölümün ana metnindeki son paragraf olup olmadığını belirleyin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Bu paragraf paragraftaki son paragrafsa doğru[`Body`](../../body/) (ana metin hikayesi) bir[`Section`](../../section/) ; aksi halde yanlış.
+Bu paragraf, paragrafın son paragrafıysa doğrudur.[`Body`](../../body/) (ana metin hikayesi)[`Section`](../../section/) ; aksi takdirde yanlış.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -45,7 +45,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belgenin içeriğini belirtilen düğümden sonra ekler.
+/// Belirtilen düğümden sonra belgenin içeriğini ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -56,8 +56,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü kur,
+        // daha sonra bölümün son boş paragrafı olmayan her düğümü klonla ve ekle.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

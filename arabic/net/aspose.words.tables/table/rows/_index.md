@@ -3,7 +3,7 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words لـ .NET
-description: Table Rows ملكية. يوفر الوصول المكتوب إلى صفوف الجدول في C#.
+description: يمكنك الوصول إلى صفوف الجدول بسهولة باستخدام خصائصنا المكتوبة، مما يضمن إدارة سلسة للبيانات وتنظيمًا محسنًا لمشاريعك.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.tables/table/rows/
@@ -24,13 +24,13 @@ public RowCollection Rows { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" للعقدة الأساسية:
+// 1 - من مجموعة "الجداول" لعقدة الجسم:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
+//إضافة كافة الصفوف من الجدول الحالي إلى الجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
@@ -40,7 +40,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

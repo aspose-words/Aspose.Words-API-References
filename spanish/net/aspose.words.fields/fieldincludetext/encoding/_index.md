@@ -3,14 +3,14 @@ title: FieldIncludeText.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words para .NET
-description: FieldIncludeText Encoding propiedad. Obtiene o establece la codificación aplicada a los datos dentro del archivo al que se hace referencia en C#.
+description: Descubra la propiedad FieldIncludeText Encoding para gestionar fácilmente la codificación de datos en sus archivos. ¡Mejore la gestión de datos con esta función esencial!
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldincludetext/encoding/
 ---
 ## FieldIncludeText.Encoding property
 
-Obtiene o establece la codificación aplicada a los datos dentro del archivo al que se hace referencia.
+Obtiene o establece la codificación aplicada a los datos dentro del archivo referenciado.
 
 ```csharp
 public string Encoding { get; set; }
@@ -18,7 +18,7 @@ public string Encoding { get; set; }
 
 ## Ejemplos
 
-Muestra cómo crear un campo INCLUDETEXT y establecer sus propiedades.
+Muestra cómo crear un campo INCLUDETEXT y configurar sus propiedades.
 
 ```csharp
 public void FieldIncludeText()
@@ -26,14 +26,14 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // A continuación se muestran dos formas de utilizar los campos INCLUDETEXT para mostrar el contenido de un archivo XML en el sistema de archivos local.
+    A continuación se muestran dos formas de utilizar los campos INCLUDETEXT para mostrar el contenido de un archivo XML en el sistema de archivos local.
     // 1 - Realizar una transformación XSL en un documento XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Usa un XPath para tomar elementos específicos de un documento XML:
+    // 2 - Utilice un XPath para tomar elementos específicos de un documento XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

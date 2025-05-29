@@ -3,14 +3,14 @@ title: FileFormatInfo.HasDigitalSignature
 linktitle: HasDigitalSignature
 articleTitle: HasDigitalSignature
 second_title: Aspose.Words для .NET
-description: FileFormatInfo HasDigitalSignature свойство. Возвращаетистинныйесли этот документ содержит цифровую подпись. Это свойство просто сообщает что в документе присутствует цифровая подпись  но не указывает действительна ли подпись или нет на С#.
+description: Откройте для себя свойство FileFormatInfo HasDigitalSignature — быстро проверьте, содержит ли ваш документ цифровую подпись, что повышает безопасность и подлинность.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-Возвращает`истинный`если этот документ содержит цифровую подпись. Это свойство просто сообщает, что в документе присутствует цифровая подпись, , но не указывает, действительна ли подпись или нет.
+Возврат`истинный`если этот документ содержит цифровую подпись. Это свойство просто информирует о наличии цифровой подписи в документе, , но не указывает, действительна ли подпись или нет.
 
 ```csharp
 public bool HasDigitalSignature { get; }
@@ -18,22 +18,23 @@ public bool HasDigitalSignature { get; }
 
 ## Примечания
 
-Это свойство существует, чтобы помочь вам сортировать документы, имеющие цифровую подпись, от тех, которые не имеют цифровой подписи. Если вы используете Aspose.Words для изменения и сохранения документа, имеющего цифровую подпись, цифровая подпись будет потеряна. Это сделано специально, поскольку существует цифровая подпись для защиты подлинности документа. Используя это свойство, вы можете обнаружить документы с цифровой подписью перед их обработкой так же, как и обычные документы , и предпринять некоторые действия, чтобы избежать потери цифровой подписи, например уведомить пользователя.
+Это свойство существует, чтобы помочь вам отсортировать документы с цифровой подписью от документов без нее. Если вы используете Aspose.Words для изменения и сохранения документа с цифровой подписью, то цифровая подпись будет утеряна. Это сделано намеренно, поскольку цифровая подпись существует для защиты подлинности документа. Используя это свойство, вы можете обнаружить документы с цифровой подписью перед их обработкой так же, как и обычные документы, и предпринять некоторые действия, чтобы избежать потери цифровой подписи, например, уведомить пользователя.
 
 ## Примеры
 
 Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
 
 ```csharp
-// Используйте экземпляр FileFormatInfo, чтобы убедиться, что документ не имеет цифровой подписи.
+// Используйте экземпляр FileFormatInfo, чтобы проверить, что документ не имеет цифровой подписи.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Используйте новый FileFormatInstance, чтобы подтвердить, что он подписан.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");

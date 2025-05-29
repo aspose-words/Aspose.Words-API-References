@@ -3,16 +3,16 @@ title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.RevisionGroup فصل. يمثل مجموعة متسلسلةRevision الكائنات في C#.
+description: اكتشف فئة Aspose.Words.RevisionGroup، المصممة لإدارة وتنظيم كائنات المراجعة المتسلسلة بكفاءة لتحرير المستندات بشكل مبسط.
 type: docs
-weight: 4780
+weight: 5520
 url: /ar/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-يمثل مجموعة متسلسلة[`Revision`](../revision/) الكائنات.
+يمثل مجموعة من المتتاليات[`Revision`](../revision/) الأشياء.
 
-لمعرفة المزيد، قم بزيارة[تتبع التغييرات في مستند](https://docs.aspose.com/words/net/track-changes-in-a-document/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[تعقب التغييرات في المستند](https://docs.aspose.com/words/net/track-changes-in-a-document/) مقالة توثيقية.
 
 ```csharp
 public class RevisionGroup
@@ -22,13 +22,13 @@ public class RevisionGroup
 
 | اسم | وصف |
 | --- | --- |
-| [Author](../../aspose.words/revisiongroup/author/) { get; } | الحصول على مؤلف مجموعة المراجعة هذه. |
-| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | الحصول على نوع المراجعات المضمنة في هذه المجموعة. |
+| [Author](../../aspose.words/revisiongroup/author/) { get; } | يحصل على مؤلف مجموعة المراجعة هذه. |
+| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | يحصل على نوع المراجعات المضمنة في هذه المجموعة. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق. |
 
 ## أمثلة
 
-يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
+يوضح كيفية طباعة المعلومات حول مجموعة من المراجعات في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

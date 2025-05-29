@@ -3,14 +3,14 @@ title: MailMergeSettings.Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words per .NET
-description: MailMergeSettings Odso proprietà. Ottiene o imposta loggetto che specifica le impostazioni ODSO Office Data Source Object in C#.
+description: Scopri come gestire facilmente le impostazioni di MailMerge con le proprietà ODSO. Semplifica l'automazione dei tuoi documenti e migliora l'efficienza del tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 150
 url: /it/net/aspose.words.settings/mailmergesettings/odso/
 ---
 ## MailMergeSettings.Odso property
 
-Ottiene o imposta l'oggetto che specifica le impostazioni ODSO (Office Data Source Object).
+Ottiene o imposta l'oggetto che specifica le impostazioni dell'Office Data Source Object (ODSO).
 
 ```csharp
 public Odso Odso { get; set; }
@@ -18,11 +18,11 @@ public Odso Odso { get; set; }
 
 ## Osservazioni
 
-Questo oggetto non lo è mai`nullo`.
+Questo oggetto non è mai`null`.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

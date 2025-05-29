@@ -2,10 +2,10 @@
 title: Document.Save
 linktitle: Save
 articleTitle: Save
-second_title: Aspose.Words for .NET
-description: Document Save yöntem. Belgeyi bir dosyaya kaydeder. Uzantıdan kaydetme biçimini otomatik olarak belirler C#'da.
+second_title: .NET için Aspose.Words
+description: Akıllı kaydetme yöntemimizle belgelerinizi zahmetsizce kaydedin; sorunsuz depolama için dosya uzantısına göre doğru formatı otomatik olarak seçin.
 type: docs
-weight: 700
+weight: 750
 url: /tr/net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
@@ -18,7 +18,7 @@ public SaveOutputParameters Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Belgenin adı. the belirtilen dosya adına sahip bir belge zaten mevcutsa, mevcut belgenin üzerine yazılır. |
+| fileName | String | Belgenin adı. belirtilen dosya adına sahip bir belge zaten varsa, var olan belgenin üzerine yazılır. |
 
 ### Geri dönüş değeri
 
@@ -26,7 +26,7 @@ public SaveOutputParameters Save(string fileName)
 
 ## Örnekler
 
-Bir belgenin nasıl açılacağını ve .PDF'ye nasıl dönüştürüleceğini gösterir.
+Bir belgenin nasıl açılacağını ve .PDF'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-PDF'nin .docx'e nasıl dönüştürüleceğini gösterir.
+PDF'in .docx'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// Az önce kaydettiğimiz PDF belgesini yükleyin ve .docx'e dönüştürün.
+// Az önce kaydettiğimiz PDF belgesini yükleyelim ve .docx formatına dönüştürelim.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -61,7 +61,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
-Belgeyi belirtilen formatta bir dosyaya kaydeder.
+Belgeyi belirtilen biçimde bir dosyaya kaydeder.
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
@@ -69,8 +69,8 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Belgenin adı. the belirtilen dosya adına sahip bir belge zaten mevcutsa, mevcut belgenin üzerine yazılır. |
-| saveFormat | SaveFormat | Belgenin kaydedileceği format. |
+| fileName | String | Belgenin adı. belirtilen dosya adına sahip bir belge zaten varsa, var olan belgenin üzerine yazılır. |
+| saveFormat | SaveFormat | Belgenin kaydedileceği biçim. |
 
 ### Geri dönüş değeri
 
@@ -78,7 +78,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 ## Örnekler
 
-DOCX'ten HTML biçimine nasıl dönüştürüleceğini gösterir.
+DOCX'ten HTML formatına nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -106,8 +106,8 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Belgenin adı. the belirtilen dosya adına sahip bir belge zaten mevcutsa, mevcut belgenin üzerine yazılır. |
-| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini denetleyen seçenekleri belirtir. Olabilir`hükümsüz`. |
+| fileName | String | Belgenin adı. belirtilen dosya adına sahip bir belge zaten varsa, var olan belgenin üzerine yazılır. |
+| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini kontrol eden seçenekleri belirtir.`hükümsüz`. |
 
 ### Geri dönüş değeri
 
@@ -115,7 +115,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 ## Örnekler
 
-İşlenen bir belgenin kalitesinin SaveOptions ile nasıl iyileştirileceğini gösterir.
+SaveOptions ile işlenmiş bir belgenin kalitesinin nasıl iyileştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -133,7 +133,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-PDF'nin .docx'e nasıl dönüştürüleceğini ve SaveOptions nesnesiyle kaydetme işleminin nasıl özelleştirileceğini gösterir.
+Bir PDF'in .docx formatına nasıl dönüştürüleceğini ve SaveOptions nesnesiyle kaydetme işleminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -143,7 +143,7 @@ builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
-// Az önce kaydettiğimiz PDF belgesini yükleyin ve .docx'e dönüştürün.
+// Az önce kaydettiğimiz PDF belgesini yükleyelim ve .docx formatına dönüştürelim.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
@@ -167,16 +167,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
     // "PageSet" özelliğini ilk sayfanın numarasına ayarlayın
-    // belgenin görüntülenmeye nereden başlayacağı.
+    // belgenin hangisinden oluşturulmaya başlanacağı.
     options.PageSet = new PageSet(i);
-    // Sayfayı 2325x5325 piksel ve 600 dpi çözünürlükte dışa aktarın.
+    // Sayfayı 2325x5325 piksel ve 600 dpi olarak dışa aktar.
     options.Resolution = 600;
     options.ImageSize = new Size(2325, 5325);
 
@@ -184,7 +184,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-Bir belgedeki bir sayfanın JPEG görüntüsüne nasıl dönüştürüleceğini gösterir.
+Bir belgenin bir sayfasının JPEG görüntüsüne nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -197,17 +197,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // İkinci sayfayı seçmek için "PageSet"i "1" olarak ayarlayın
-// belgenin görüntülenmeye başlanacağı sıfır tabanlı dizin.
+// belgenin oluşturulmaya başlanacağı sıfır tabanlı dizin.
 options.PageSet = new PageSet(1);
 
 // Belgeyi JPEG formatında kaydettiğimizde Aspose.Words yalnızca bir sayfa oluşturur.
-// Bu görüntü ikinci sayfadan başlayarak bir sayfa içerecektir,
-// bu sadece orijinal belgenin ikinci sayfası olacaktır.
+// Bu resim ikinci sayfadan başlayarak tek bir sayfa içerecektir,
+// bu sadece orijinal belgenin ikinci sayfası olacak.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
@@ -218,34 +217,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// Belgeyi oluştururken daha güçlü sıkıştırma kullanmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
-// Bu, belgenin dosya boyutunu azaltacaktır ancak görüntü, sıkıştırma kusurlarını daha belirgin bir şekilde görüntüleyecektir.
+// Belgeyi işlerken daha güçlü sıkıştırma kullanmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
+// Bu, belgenin dosya boyutunu küçültecektir, ancak görüntü daha belirgin sıkıştırma eserleri gösterecektir.
 imageOptions.JpegQuality = 10;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
-
-Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
 // Belgeyi işlerken daha zayıf sıkıştırma kullanmak için "JpegQuality" özelliğini "100" olarak ayarlayın.
 // Bu, dosya boyutunun artması pahasına görüntünün kalitesini artıracaktır.
 imageOptions.JpegQuality = 100;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
-Belgenin ana hatlarında üç düzeyde bir belgenin tamamının PDF'ye nasıl dönüştürüleceğini gösterir.
+Belgenin tamamının üç düzeyde PDF'ye nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 1'den 5'e kadar olan düzeylerin başlıklarını ekleyin.
+// 1'den 5'e kadar olan seviyelerin başlıklarını ekleyin.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -272,22 +264,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Çıktı PDF belgesi, belge gövdesindeki başlıkları listeleyen bir içindekiler tablosu olan bir taslak içerecektir.
-// Bu taslaktaki bir girişe tıklamak bizi ilgili başlığın konumuna götürecektir.
-// Seviyeleri 4'ün üzerinde olan tüm başlıkları anahattan hariç tutmak için "HeadingsOutlineLevels" özelliğini "4" olarak ayarlayın.
+// Çıktı PDF belgesi, belge gövdesindeki başlıkları listeleyen bir içerik tablosu olan bir ana hat içerecektir.
+// Bu taslaktaki bir girdiye tıkladığımızda ilgili başlığın bulunduğu yere gideceğiz.
+// Anahattan 4'ün üstündeki tüm başlıkları hariç tutmak için "HeadingsOutlineLevels" özelliğini "4" olarak ayarlayın.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Bir anahat girişinin kendisi ile aynı veya daha düşük seviyedeki bir sonraki giriş arasında daha yüksek seviyedeki sonraki girişleri varsa,
-// girişin solunda bir ok görünecektir. Bu giriş, bu tür birçok "alt girişin" "sahibidir".
-// Belgemizde 5. başlık seviyesindeki taslak girişleri, ikinci 4. seviye taslak girişinin alt girişleridir,
-// 4. ve 5. başlık seviyesi girişleri, ikinci 3. seviye girişinin alt girişleridir, vb.
-// Ana hatlarıyla, tüm alt girişlerini daraltmak/genişletmek için "sahip" girişinin okuna tıklayabiliriz.
-// Tüm başlık düzeyi 2'yi ve alt anahat girişlerini otomatik olarak genişletmek için "ExpandedOutlineLevels" özelliğini "2" olarak ayarlayın
-// ve belgeyi açtığımızda tüm seviye ve 3 ve üzeri girişleri daraltıyoruz.
+// Bir ana hat girişinin kendisi ile aynı veya daha düşük seviyedeki bir sonraki giriş arasında daha yüksek seviyede müteakip girişler varsa,
+// girişin solunda bir ok belirecektir. Bu giriş, bu tür birkaç "alt girişin" "sahibi"dir.
+// Belgemizde, 5. başlık seviyesindeki ana hat girişleri, ikinci 4. seviye ana hat girişinin alt girişleridir.
+// 4. ve 5. başlık seviyesi girişleri, 2. 3. seviye girişin alt girişleridir, vb.
+// Anahatta, "sahip" girişinin okuna tıklayarak tüm alt girişlerini daraltabilir/genişletebiliriz.
+// Tüm başlık düzeyi 2 ve alt anahat girişlerini otomatik olarak genişletmek için "ExpandedOutlineLevels" özelliğini "2" olarak ayarlayın
+// ve belgeyi açtığımızda tüm seviye ve 3 ve üzeri girdileri daraltırız.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -305,7 +297,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
-Belirtilen formatı kullanarak belgeyi bir akışa kaydeder.
+Belgeyi belirtilen biçimi kullanarak bir akışa kaydeder.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
@@ -313,8 +305,8 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Belgenin nereye kaydedileceğini aktarın. |
-| saveFormat | SaveFormat | Belgenin kaydedileceği format. |
+| stream | Stream | Belgenin nereye kaydedileceğini akıtın. |
+| saveFormat | SaveFormat | Belgenin kaydedileceği biçim. |
 
 ### Geri dönüş değeri
 
@@ -348,14 +340,14 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
 
                 stream.Position = 0;
 
-                // Akışı bir görüntüye geri okuyun.
+                // Akışı bir görüntüye geri oku.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -363,7 +355,7 @@ Document doc = new Document();
                     Assert.AreEqual(1056, image.Height);
                 }
             }
-#elif NET5_0_OR_GREATER || __MOBILE__
+#elif NET5_0_OR_GREATER
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -371,7 +363,6 @@ Document doc = new Document();
                 stream.Position = 0;
 
                 SKCodec codec = SKCodec.Create(stream);
-
                 Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
 
                 stream.Position = 0;
@@ -405,8 +396,8 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Belgenin nereye kaydedileceğini aktarın. |
-| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini denetleyen seçenekleri belirtir. Olabilir`hükümsüz` . Eğer bu ise`hükümsüz`, belge ikili DOC biçiminde kaydedilecektir. |
+| stream | Stream | Belgenin nereye kaydedileceğini akıtın. |
+| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini kontrol eden seçenekleri belirtir.`hükümsüz` . Eğer bu ise`hükümsüz`, belge ikili DOC formatında kaydedilecektir. |
 
 ### Geri dönüş değeri
 
@@ -414,7 +405,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 ## Örnekler
 
-Bir belgedeki sayfaların yalnızca bazılarının PDF'ye nasıl dönüştürüleceğini gösterir.
+Bir belgedeki sayfaların yalnızca bir kısmının PDF'e nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -428,14 +419,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Belgenin ikinci sayfadan başlayarak bir kısmını oluşturmak için "PageIndex"i "1" olarak ayarlayın.
+    // Belgenin ikinci sayfadan başlayarak bir kısmını işlemek için "PageIndex" değerini "1" olarak ayarlayın.
     options.PageSet = new PageSet(1);
 
-    // Bu belge ikinci sayfadan başlayarak yalnızca ikinci sayfayı içerecek bir sayfa içerecektir.
+    // Bu belge, ikinci sayfadan başlayarak tek bir sayfadan oluşacak ve ikinci sayfada yalnızca ikinci sayfa yer alacaktır.
     doc.Save(stream, options);
 }
 ```
@@ -463,8 +454,8 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | --- | --- | --- |
 | response | HttpResponse | Belgenin kaydedileceği yanıt nesnesi. |
 | fileName | String | İstemci tarayıcısında görünecek belgenin adı. Ad, yol içermemelidir. |
-| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/)that değeri belgenin istemci tarayıcısında nasıl sunulacağını belirtir. |
-| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini denetleyen seçenekleri belirtir. Olabilir`hükümsüz`. |
+| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/) that değeri, belgenin istemci tarayıcısında nasıl sunulacağını belirtir. |
+| saveOptions | SaveOptions | Belgenin nasıl kaydedileceğini kontrol eden seçenekleri belirtir.`hükümsüz`. |
 
 ### Geri dönüş değeri
 
@@ -472,11 +463,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 ## Notlar
 
-Dahili olarak bu yöntem önce bir bellek akışına kaydeder ve ardından yanıt akışı aramayı desteklemediğinden yanıt akışı 'ye kopyalar.
+Dahili olarak, bu yöntem önce bir bellek akışına kaydeder ve ardından yanıt akışı aramayı desteklemediğinden yanıt akışına kopyalar.
 
 ## Örnekler
 
-Adres-mektup birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
+Posta birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -493,12 +484,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Belgeyi istemci tarayıcısına gönderin.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //HttpResponse testte null olduğundan atıldı.
+// Belgeyi istemci tarayıcısına gönder.
+//Testte HttpResponse boş olduğu için atıldı.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Kaydettikten sonra belgeye gereksiz içerik eklemediğimizden emin olmak için bu yanıtı manuel olarak kapatmamız gerekecek.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Kaydedildikten sonra belgeye gereksiz içerik eklememek için bu yanıtı manuel olarak kapatmamız gerekecek.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Ayrıca bakınız

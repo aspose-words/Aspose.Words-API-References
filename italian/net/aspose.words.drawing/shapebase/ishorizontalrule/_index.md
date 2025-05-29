@@ -3,14 +3,14 @@ title: ShapeBase.IsHorizontalRule
 linktitle: IsHorizontalRule
 articleTitle: IsHorizontalRule
 second_title: Aspose.Words per .NET
-description: ShapeBase IsHorizontalRule proprietà. RestituisceVERO se questa forma è una riga orizzontale in C#.
+description: Scopri la proprietà IsHorizontalRule di ShapeBase e identifica facilmente le regole orizzontali nei tuoi progetti per migliorare l'efficienza di layout e stile.
 type: docs
-weight: 270
+weight: 290
 url: /it/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Restituisce`VERO` se questa forma è una riga orizzontale.
+Restituisce`VERO` se questa forma è una regola orizzontale.
 
 ```csharp
 public bool IsHorizontalRule { get; }
@@ -18,7 +18,7 @@ public bool IsHorizontalRule { get; }
 
 ## Esempi
 
-Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
+Mostra come inserire una forma di regola orizzontale e personalizzarne la formattazione.
 
 ```csharp
 Document doc = new Document();

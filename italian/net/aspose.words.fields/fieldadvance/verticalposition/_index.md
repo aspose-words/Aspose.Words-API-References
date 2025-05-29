@@ -3,7 +3,7 @@ title: FieldAdvance.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words per .NET
-description: FieldAdvance VerticalPosition proprietà. Ottiene o imposta il numero di punti di cui il testo che segue il campo deve essere spostato verticalmente dal bordo superiore della pagina in C#.
+description: Scopri la proprietà FieldAdvance VerticalPosition per regolare facilmente il posizionamento del testo sulla pagina, migliorando il controllo del layout e la leggibilità.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldadvance/verticalposition/
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Di seguito sono riportati due modi di utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
+// Di seguito sono riportati due modi per utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
 // Gli effetti di un campo ADVANCE continuano ad essere applicati fino alla fine del paragrafo,
-// o un altro campo ADVANCE aggiorna i valori di offset/coordinate.
-// 1 - Specifica un offset direzionale:
+// oppure un altro campo ADVANCE aggiorna i valori di offset/coordinate.
+// 1 - Specificare uno scostamento direzionale:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

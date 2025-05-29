@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportShapesAsSvg
 linktitle: ExportShapesAsSvg
 articleTitle: ExportShapesAsSvg
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ExportShapesAsSvg propriété. Contrôle siShapeles nœuds sont convertis en images SVG lors de la sauvegarde de au format HTML MHTML EPUB ou AZW3. La valeur par défaut estFAUX  en C#.
+description: Découvrez comment utiliser HtmlSaveOptions ExportShapesAsSvg pour convertir des nœuds de forme en images SVG lors de l'enregistrement aux formats HTML, MHTML, EPUB ou AZW3.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-Contrôle si[`Shape`](../../../aspose.words.drawing/shape/)les nœuds sont convertis en images SVG lors de la sauvegarde de au format HTML, MHTML, EPUB ou AZW3. La valeur par défaut est`FAUX` .
+Contrôle si[`Shape`](../../../aspose.words.drawing/shape/)les nœuds sont convertis en images SVG lors de l'enregistrement au format HTML, MHTML, EPUB ou AZW3. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -18,7 +18,7 @@ public bool ExportShapesAsSvg { get; set; }
 
 ## Remarques
 
-Si cette option est définie sur`vrai` ,[`Shape`](../../../aspose.words.drawing/shape/) les nœuds sont exportés sous forme d'éléments &lt;svg&gt;. Sinon, ils sont rendus en bitmaps et exportés sous forme d'éléments &lt;img&gt;.
+Si cette option est définie sur`vrai` ,[`Shape`](../../../aspose.words.drawing/shape/) les nœuds sont exportés sous forme d'éléments &lt;svg&gt;. Sinon, ils sont rendus en bitmaps et sont exportés sous forme d'éléments &lt;img&gt;.
 
 ## Exemples
 
@@ -33,10 +33,10 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
 // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions
-// pour déterminer comment l'opération de sauvegarde exportera les formes de zone de texte.
-// Si on met le flag "ExportTextBoxAsSvg" à "true",
+// pour déterminer comment l'opération d'enregistrement exportera les formes de zone de texte.
+// Si nous définissons l'indicateur "ExportTextBoxAsSvg" sur "true",
 // l'opération de sauvegarde convertira les formes avec du texte en objets SVG.
-// Si on met le flag "ExportTextBoxAsSvg" à "false",
+// Si nous définissons l'indicateur "ExportTextBoxAsSvg" sur "false",
 // l'opération de sauvegarde convertira les formes avec du texte en images.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportShapesAsSvg = exportShapesAsSvg };
 
@@ -48,7 +48,7 @@ if (exportShapesAsSvg)
 {
     Assert.True(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height= \"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
 }
 else
 {

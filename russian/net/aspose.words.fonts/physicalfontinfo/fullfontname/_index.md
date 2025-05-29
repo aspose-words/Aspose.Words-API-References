@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FullFontName
 linktitle: FullFontName
 articleTitle: FullFontName
 second_title: Aspose.Words для .NET
-description: PhysicalFontInfo FullFontName свойство. Полное название шрифта на С#.
+description: Откройте для себя свойство FullFontName PhysicalFontInfo для легкого доступа к названиям шрифтов. Улучшите свою типографику с помощью точной идентификации шрифтов!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property

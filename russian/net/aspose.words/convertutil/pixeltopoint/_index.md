@@ -3,7 +3,7 @@ title: ConvertUtil.PixelToPoint
 linktitle: PixelToPoint
 articleTitle: PixelToPoint
 second_title: Aspose.Words для .NET
-description: ConvertUtil PixelToPoint метод. Преобразует пиксели в точки с разрешением 96 точек на дюйм на С#.
+description: Легко конвертируйте пиксели в точки с разрешением 96 точек на дюйм с помощью метода PixelToPoint от ConvertUtil. Повысьте точность своего дизайна сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words/convertutil/pixeltopoint/
@@ -22,7 +22,7 @@ public static double PixelToPoint(double pixels)
 
 ## Примечания
 
-1 дюйм равен 72 баллам.
+1 дюйм равен 72 точкам.
 
 ## Примеры
 
@@ -32,23 +32,23 @@ public static double PixelToPoint(double pixels)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
-// Мы также можем использовать класс ConvertUtil для использования другой единицы измерения,
-// например, пиксели при определении границ.
+// «Параметры страницы» раздела определяют размер полей страницы в пунктах.
+// Мы также можем использовать класс "ConvertUtil" для использования другой единицы измерения,
+// например пиксели при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// Пиксель — это 0,75 пункта.
+// Пиксель равен 0,75 пункта.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
-// Используемое значение DPI по умолчанию — 96.
+// Значение DPI по умолчанию — 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Добавляем контент, чтобы продемонстрировать новые поля.
+// Добавьте контент для демонстрации новых полей.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
-Преобразует пиксели в точки с указанным разрешением в пикселях.
+Преобразует пиксели в точки с указанным разрешением пикселей.
 
 ```csharp
 public static double PixelToPoint(double pixels, double resolution)
@@ -80,7 +80,7 @@ public static double PixelToPoint(double pixels, double resolution)
 
 ## Примечания
 
-1 дюйм равен 72 баллам.
+1 дюйм равен 72 точкам.
 
 ## Примеры
 
@@ -90,7 +90,7 @@ public static double PixelToPoint(double pixels, double resolution)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Определите размер верхнего поля этого раздела в пикселях в соответствии с пользовательским разрешением.
+// Определите размер верхнего поля этого раздела в пикселях в соответствии с пользовательским DPI.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -98,7 +98,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// При разрешении по умолчанию, равном 96, пиксель составляет 0,75 пункта.
+// При значении DPI по умолчанию 96 пиксель равен 0,75 пункта.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

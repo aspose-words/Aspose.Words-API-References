@@ -2,15 +2,15 @@
 title: BookmarkCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: BookmarkCollection RemoveAt yöntem. Belirtilen dizindeki yer imini kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Yer imlerinizi RemoveAt yöntemi ile zahmetsizce yönetin; herhangi bir yer imini dizinine göre hızla silerek akıcı bir koleksiyon oluşturun!
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmarkcollection/removeat/
 ---
 ## BookmarkCollection.RemoveAt method
 
-Belirtilen dizindeki yer imini kaldırır.
+Belirtilen dizindeki bir yer işaretini kaldırır.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,17 +18,17 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Kaldırılacak yer işaretinin sıfır tabanlı dizini. |
+| index | Int32 | Kaldırılacak yer iminin sıfır tabanlı dizini. |
 
 ## Örnekler
 
-Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
+Bir belgeden yer imlerinin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sınırları içinde metin bulunan beş yer imi ekleyin.
+// Sınırları içerisinde metin bulunan beş yer imi ekleyin.
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -39,38 +39,38 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// Bu koleksiyon yer imlerini saklar.
+// Bu koleksiyon yer imlerini depolar.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
 // Yer imlerini kaldırmanın birkaç yolu vardır.
-// 1 - Yer iminin Kaldır yöntemini çağırmak:
+// 1 - Yer iminin Remove metodunun çağrılması:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Yer işaretini koleksiyonun Remove yöntemine geçirme:
+// 2 - Yer imini koleksiyonun Remove metoduna geçirmek:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Koleksiyondan bir yer imini ada göre kaldırmak:
+// 3 - Koleksiyondan ismine göre yer imini kaldırma:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - Yer imi koleksiyonundaki bir dizindeki yer işaretini kaldırma:
+// 4 - Yer imi koleksiyonundaki bir dizindeki yer imini kaldırma:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// Yer imi koleksiyonunun tamamını temizleyebiliriz.
+// Tüm yer imi koleksiyonunu temizleyebiliriz.
 bookmarks.Clear();
 
-// Yer imlerinin içindeki metin hâlâ belgede mevcut.
-Assert.That(bookmarks, Is.Empty);
+// Yer imlerinin içindeki metin hala belgede mevcuttur.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

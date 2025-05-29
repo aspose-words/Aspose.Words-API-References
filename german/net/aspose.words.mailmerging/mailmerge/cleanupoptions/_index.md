@@ -3,14 +3,14 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words für .NET
-description: MailMerge CleanupOptions eigendom. Ruft eine Reihe von Flags ab die angeben welche Elemente beim Seriendruck entfernt werden sollen oder legt diese fest in C#.
+description: Optimieren Sie Ihren Serienbrief mit der CleanupOptions-Eigenschaft – verwalten Sie einfach, welche Elemente entfernt werden sollen, um einen nahtlosen, effizienten Prozess zu gewährleisten.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
 ## MailMerge.CleanupOptions property
 
-Ruft eine Reihe von Flags ab, die angeben, welche Elemente beim Seriendruck entfernt werden sollen, oder legt diese fest.
+Ruft eine Reihe von Flags ab oder legt diese fest, die angeben, welche Elemente während der Seriendruckfunktion entfernt werden sollen.
 
 ```csharp
 public MailMergeCleanupOptions CleanupOptions { get; set; }
@@ -18,7 +18,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ## Beispiele
 
-Zeigt, wie leere Absätze, die bei einem Seriendruck entstehen könnten, aus dem Seriendruck-Ausgabedokument entfernt werden.
+Zeigt, wie leere Absätze, die bei einer Seriendruckverarbeitung entstehen können, aus dem Seriendruck-Ausgabedokument entfernt werden.
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +51,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Zeigt, wie MERGEFIELDs, die beim Seriendruck nicht verwendet werden, automatisch entfernt werden.
+Zeigt, wie MERGEFIELDs, die während der Serienbrieferstellung nicht verwendet werden, automatisch entfernt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie ein Dokument mit MERGEFIELDs für drei Spalten einer Serienbrief-Datenquellentabelle.
-// und dann eine Tabelle mit nur zwei Spalten erstellen, deren Namen mit unseren MERGEFIELDs übereinstimmen.
+// Erstellen Sie ein Dokument mit MERGEFIELDs für drei Spalten einer Serienbrief-Datenquellentabelle,
+// und erstellen Sie dann eine Tabelle mit nur zwei Spalten, deren Namen mit unseren MERGEFIELDs übereinstimmen.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -72,9 +72,9 @@ dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
 // Unser drittes MERGEFIELD verweist auf eine Spalte „Stadt“, die in unserer Datenquelle nicht vorhanden ist.
-// Beim Seriendruck bleiben Felder wie dieses in ihrem Zustand vor dem Seriendruck erhalten.
+// Der Seriendruck lässt Felder wie dieses in ihrem Zustand vor dem Seriendruck unverändert.
 // Wenn Sie die Eigenschaft „CleanupOptions“ auf „RemoveUnusedFields“ setzen, werden alle MERGEFIELDs entfernt
-// die während eines Seriendrucks nicht verwendet werden, um die Seriendokumente zu bereinigen.
+// die während eines Seriendrucks nicht verwendet werden, um die Seriendruckdokumente zu bereinigen.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

@@ -3,14 +3,14 @@ title: PageSetup.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words لـ .NET
-description: PageSetup Orientation ملكية. إرجاع أو تعيين اتجاه الصفحة في C#.
+description: اكتشف خاصية "اتجاه إعداد الصفحة" لتعديل تخطيط صفحة مستندك بسهولة. حسّن طباعتك بإعدادات اتجاه قابلة للتخصيص!
 type: docs
 weight: 290
 url: /ar/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
 
-إرجاع أو تعيين اتجاه الصفحة.
+يعيد أو يضبط اتجاه الصفحة.
 
 ```csharp
 public Orientation Orientation { get; set; }
@@ -18,11 +18,11 @@ public Orientation Orientation { get; set; }
 
 ## ملاحظات
 
-تغيير`Orientation` مقايضات[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/).
+تغيير`Orientation` المبادلات[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/).
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -53,14 +53,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

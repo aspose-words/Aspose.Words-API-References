@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection сорт. Типизированная коллекцияOdsoFieldMapData объекты на С#.
+description: Откройте для себя класс Aspose.Words OdsoFieldMapDataCollection — мощную типизированную коллекцию для эффективного управления объектами OdsoFieldMapData.
 type: docs
-weight: 5910
+weight: 6740
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 Типизированная коллекция[`OdsoFieldMapData`](../odsofieldmapdata/) объекты.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -37,7 +37,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
 ## Примеры
@@ -69,7 +69,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

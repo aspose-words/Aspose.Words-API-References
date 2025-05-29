@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words для .NET
-description: DocumentBuilder MoveToSection метод. Перемещает курсор в начало тела указанного раздела на С#.
+description: Откройте для себя метод DocumentBuilder MoveToSection, который позволяет легко перейти к началу любого раздела текста и повысить эффективность редактирования документа.
 type: docs
-weight: 570
+weight: 610
 url: /ru/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Перемещает курсор в начало тела указанного раздела.
+Перемещает курсор в начало тела в указанном разделе.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -18,11 +18,11 @@ public void MoveToSection(int sectionIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sectionIndex | Int32 | Индекс раздела, в который нужно перейти. |
+| sectionIndex | Int32 | Индекс раздела, к которому необходимо перейти. |
 
 ## Примечания
 
-Когда*sectionIndex* больше или равно 0, он указывает индекс from начала документа, где 0 соответствует первому разделу. Когда*sectionIndex* меньше 0, указывается индекс с конца документа, где -1 соответствует последнему разделу.
+Когда*sectionIndex*больше или равно 0, он указывает индекс from начала документа, где 0 — первый раздел. Когда*sectionIndex* меньше 0, , то указан индекс с конца документа, где -1 соответствует последнему разделу.
 
 Курсор перемещается на первый абзац в[`Body`](../../body/) указанного раздела.
 
@@ -34,11 +34,11 @@ public void MoveToSection(int sectionIndex)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+// Укажите, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
+// Создаем заголовки, затем добавляем в документ три страницы для отображения каждого типа заголовков.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

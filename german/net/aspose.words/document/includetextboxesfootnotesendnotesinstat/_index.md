@@ -3,14 +3,14 @@ title: Document.IncludeTextboxesFootnotesEndnotesInStat
 linktitle: IncludeTextboxesFootnotesEndnotesInStat
 articleTitle: IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words für .NET
-description: Document IncludeTextboxesFootnotesEndnotesInStat eigendom. Gibt an ob Textfelder Fußnoten und Endnoten in die Wortzahlstatistik einbezogen werden sollen in C#.
+description: Optimieren Sie die Wortanzahl Ihres Dokuments mit der Eigenschaft „IncludeTextboxesFootnotesEndnotesInStat“. Steuern Sie Textfelder, Fußnoten und Endnoten mühelos!
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
 ## Document.IncludeTextboxesFootnotesEndnotesInStat property
 
-Gibt an, ob Textfelder, Fußnoten und Endnoten in die Wortzahlstatistik einbezogen werden sollen.
+Gibt an, ob Textfelder, Fußnoten und Endnoten in die Wortzählstatistik einbezogen werden sollen.
 
 ```csharp
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Textfelder, Fußnoten und Endnoten in die Wortzahlstatistik einbezogen oder ausgeschlossen werden.
+Zeigt, wie Textfelder, Fußnoten und Endnoten in die Wortzählstatistik einbezogen oder davon ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 // Standardmäßig ist die Option auf „false“ gesetzt.
 doc.UpdateWordCount();
 // Wörter zählen ohne Textfelder, Fußnoten und Endnoten.
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);            
+Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();
-// Wörter zählen mit Textfeldern, Fußnoten und Endnoten.
+// Wörter werden mit Textfeldern, Fußnoten und Endnoten gezählt.
 Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ```
 

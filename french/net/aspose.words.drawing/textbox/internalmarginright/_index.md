@@ -3,7 +3,7 @@ title: TextBox.InternalMarginRight
 linktitle: InternalMarginRight
 articleTitle: InternalMarginRight
 second_title: Aspose.Words pour .NET
-description: TextBox InternalMarginRight propriété. Spécifie la marge intérieure droite en points pour une forme en C#.
+description: Découvrez la propriété TextBox InternalMarginRight pour personnaliser vos formes avec des marges droites précises en points pour une flexibilité de conception améliorée.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/textbox/internalmarginright/
@@ -18,17 +18,17 @@ public double InternalMarginRight { get; set; }
 
 ## Remarques
 
-La valeur par défaut est 1/10 de pouce.
+La valeur par défaut est 1/10 pouce.
 
 ## Exemples
 
-Montre comment définir les marges internes d’une zone de texte.
+Montre comment définir des marges internes pour une zone de texte.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une autre zone de texte avec des marges spécifiques.
+// Insérer une autre zone de texte avec des marges spécifiques.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

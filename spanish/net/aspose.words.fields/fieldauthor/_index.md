@@ -3,16 +3,16 @@ title: FieldAuthor Class
 linktitle: FieldAuthor
 articleTitle: FieldAuthor
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldAuthor clase. Implementa el campo AUTOR en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldAuthor, diseñada para implementar sin esfuerzo el campo AUTOR para una mejor gestión y automatización de documentos.
 type: docs
-weight: 1570
+weight: 1980
 url: /es/net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
 
 Implementa el campo AUTOR.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldAuthor : Field
@@ -31,12 +31,12 @@ public class FieldAuthor : Field
 | [AuthorName](../../aspose.words.fields/fieldauthor/authorname/) { get; set; } | Obtiene o establece el nombre del autor del documento. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/)objeto que proporciona acceso tipificado al formato del campo. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas al documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que está entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campo. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -44,16 +44,16 @@ public class FieldAuthor : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo padre, devuelve su párrafo padre. Si el campo ya se ha eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza una excepción si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se lanza una excepción si el campo ya se está actualizando. |
 
 ## Observaciones
 
-Recupera y, opcionalmente, establece el nombre del autor del documento, tal como está registrado en el**Autor** propiedad de las propiedades del documento incorporado.
+Recupera y, opcionalmente, establece el nombre del autor del documento, tal como está registrado en el**Autor** propiedad de las propiedades integradas del documento.
 
 ## Ejemplos
 
@@ -63,14 +63,14 @@ Muestra cómo utilizar un campo AUTOR para mostrar el nombre del creador de un d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Los campos AUTOR obtienen sus resultados de la propiedad incorporada del documento llamada "Autor".
+// Los campos AUTOR obtienen sus resultados de la propiedad de documento incorporada llamada "Autor".
 // Si creamos y guardamos un documento en Microsoft Word,
-// tendrá nuestro nombre de usuario en esa propiedad.
-// Sin embargo, si creamos un documento mediante programación usando Aspose.Words,
+//Tendrá nuestro nombre de usuario en esa propiedad.
+// Sin embargo, si creamos un documento programáticamente usando Aspose.Words,
 // la propiedad "Autor", por defecto, será una cadena vacía.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// Establece un nombre de autor de copia de seguridad para que se utilicen los campos AUTOR
+// Establezca un nombre de autor de respaldo para los campos AUTOR a utilizar
 // si la propiedad "Autor" contiene una cadena vacía.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
@@ -81,12 +81,12 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Actualizando un campo AUTOR que contiene un valor
+// Actualizar un campo AUTOR que contiene un valor
 // aplicará ese valor a la propiedad incorporada "Autor".
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // Cambiar esta propiedad y luego actualizar el campo AUTOR aplicará este valor al campo.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

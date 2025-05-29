@@ -3,14 +3,14 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words för .NET
-description: NodeChangingArgs OldParent fast egendom. Hämtar nodens förälder innan operationen började i C#.
+description: Upptäck egenskapen NodeChangingArgs OldParent, som hämtar den överordnade noden före ändringar, vilket säkerställer sömlösa operationer och förbättrad datahantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/nodechangingargs/oldparent/
 ---
 ## NodeChangingArgs.OldParent property
 
-Hämtar nodens förälder innan operationen började.
+Hämtar nodens förälder innan operationen påbörjades.
 
 ```csharp
 public Node OldParent { get; }
@@ -18,7 +18,7 @@ public Node OldParent { get; }
 
 ## Exempel
 
-Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
+Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid medan vi redigerar det.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Skriver ut varje insättning/borttagning av nod som sker i dokumentet.
+/// Skriver ut varje nodinsättning/borttagning allt eftersom den sker i dokumentet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

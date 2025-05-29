@@ -3,14 +3,14 @@ title: PclSaveOptions.AddPrinterFont
 linktitle: AddPrinterFont
 articleTitle: AddPrinterFont
 second_title: Aspose.Words für .NET
-description: PclSaveOptions AddPrinterFont methode. Fügt Informationen über die Schriftart hinzu die vom Hersteller auf den Drucker hochgeladen wird in C#.
+description: Entdecken Sie die AddPrinterFont-Methode von PclSaveOptions zum effizienten Hochladen und Verwalten von Druckerschriftarten von Herstellern für eine verbesserte Druckleistung.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
 ## PclSaveOptions.AddPrinterFont method
 
-Fügt Informationen über die Schriftart hinzu, die vom Hersteller auf den Drucker hochgeladen wird.
+Fügt Informationen zur Schriftart hinzu, die vom Hersteller auf den Drucker hochgeladen werden.
 
 ```csharp
 public void AddPrinterFont(string fontFullName, string fontPclName)
@@ -23,11 +23,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 ## Bemerkungen
 
-Es gibt 52 Schriftarten, die in jedem Drucker gemäß der PCL-Spezifikation erstellt werden müssen. Allerdings können Hersteller ihren Geräten einige andere Schriftarten hinzufügen.
+Es gibt 52 Schriftarten, die gemäß PCL-Spezifikation in jeden Drucker integriert werden müssen. Hersteller können ihren Geräten jedoch einige andere Schriftarten hinzufügen.
 
 ## Beispiele
 
-Zeigt, wie man einen Drucker dazu bringt, alle Instanzen einer bestimmten Schriftart durch eine andere Schriftart zu ersetzen.
+Zeigt, wie Sie einen Drucker dazu bringen, alle Vorkommen einer bestimmten Schriftart durch eine andere Schriftart zu ersetzen.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// Beim Drucken dieses Dokuments verwendet der Drucker die Schriftart „Courier New“.
+// Beim Drucken dieses Dokuments verwendet der Drucker die Schriftart „Courier New“
 // um auf Stellen zuzugreifen, an denen in unserem Dokument die Schriftart „Courier“ verwendet wurde.
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```

@@ -3,14 +3,14 @@ title: Hyphenation.Callback
 linktitle: Callback
 articleTitle: Callback
 second_title: Aspose.Words для .NET
-description: Hyphenation Callback свойство. Получает или задает интерфейс обратного вызова используемый для запроса словарей при построении макета страницы документа. Это позволяет задерживать загрузку словарей что может быть полезно при обработке документов на многих языках на С#.
+description: Оптимизируйте макет документа с помощью свойства Hyphenation Callback. Эффективно загружайте словари для многоязычной обработки и улучшайте пользовательский опыт.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/hyphenation/callback/
 ---
 ## Hyphenation.Callback property
 
-Получает или задает интерфейс обратного вызова, используемый для запроса словарей при построении макета страницы документа. Это позволяет задерживать загрузку словарей, что может быть полезно при обработке документов на многих языках.
+Возвращает или задает интерфейс обратного вызова, используемый для запроса словарей при построении макета страницы документа. Это позволяет отложить загрузку словарей, что может быть полезно при обработке документов на многих языках.
 
 ```csharp
 public static IHyphenationCallback Callback { get; set; }
@@ -23,24 +23,24 @@ public static IHyphenationCallback Callback { get; set; }
 ```csharp
 public void RegisterDictionary()
 {
-    // Настраиваем обратный вызов, который отслеживает предупреждения, возникающие во время регистрации словаря расстановки переносов.
+    // Настройте обратный вызов, который отслеживает предупреждения, возникающие во время регистрации словаря переносов.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Регистрируем английский (США) словарь расстановки переносов по потоку.
+    // Регистрация английского (США) словаря переносов по потоку.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Откройте документ с языковым стандартом, в котором Microsoft Word не может расставлять переносы на английской машине, например, на немецком.
+    // Откройте документ с локалью, в которой Microsoft Word может не расставлять переносы на англоязычном компьютере, например, на немецком.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Чтобы расставить переносы в этом документе при сохранении, нам нужен словарь расстановки переносов для кода языка "de-CH".
-    // Этот обратный вызов будет обрабатывать автоматический запрос этого словаря.
+    // Чтобы расставить переносы в этом документе при сохранении, нам нужен словарь переносов для кода языка "de-CH".
+    // Этот обратный вызов обработает автоматический запрос для этого словаря.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Когда мы сохраним документ, вступят в силу немецкие переносы.
+    // При сохранении документа вступят в силу немецкие переносы.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Этот словарь содержит два одинаковых шаблона, которые вызовут предупреждение.
@@ -49,10 +49,11 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Связывает языковые коды ISO с именами локальных системных файлов для файлов словаря расстановки переносов.
+/// Связывает языковые коды ISO с именами файлов локальной системы для файлов словаря переносов.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

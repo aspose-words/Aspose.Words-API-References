@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
 second_title: Aspose.Words для .NET
-description: FieldMergingArgsBase FieldValue свойство. Получает или задает значение поля из источника данных на С#.
+description: Откройте для себя свойство FieldValue FieldMergingArgsBase. Легко получайте доступ и изменяйте значения полей из вашего источника данных для улучшенного управления данными.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -18,11 +18,11 @@ public object FieldValue { get; set; }
 
 ## Примечания
 
-Это свойство содержит значение, которое только что было выбрано из вашего источника данных для этого поля механизмом слияния почты. Вы также можете заменить значение, установив свойство.
+Это свойство содержит значение, которое только что было выбрано из вашего источника данных для этого поля движком слияния почты. Вы также можете заменить значение, установив свойство.
 
 ## Примеры
 
-Показывает, как редактировать значения, которые поля MERGEFIELD получают при слиянии почты.
+Показывает, как редактировать значения, которые MERGEFIELD получает при слиянии почты.
 
 ```csharp
 public void FieldFormats()
@@ -30,7 +30,7 @@ public void FieldFormats()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставьте несколько полей MERGEFIELD с переключателями формата, которые будут редактировать значения, которые они получат во время слияния почты.
+    // Вставьте несколько полей MERGEFIELD с переключателями формата, которые будут редактировать значения, полученные во время слияния почты.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -47,8 +47,8 @@ public void FieldFormats()
 }
 
 /// <summary>
-/// Редактирует значения, которые поля MERGEFIELD получают во время слияния почты.
-/// Имя MERGEFIELD должно иметь префикс, чтобы этот обратный вызов подействовал на его значение.
+/// Редактирует значения, которые MERGEFIELD получает во время слияния почты.
+/// Имя MERGEFIELD должно иметь префикс, чтобы этот обратный вызов вступил в силу для его значения.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {

@@ -3,7 +3,7 @@ title: Field.Unlink
 linktitle: Unlink
 articleTitle: Unlink
 second_title: Aspose.Words لـ .NET
-description: Field Unlink طريقة. يقوم بإلغاء ربط الحقل في C#.
+description: اكتشف طريقة إلغاء ربط الحقول لإلغاء ربط الحقول بسهولة، مما يعزز إدارة البيانات لديك ويبسط سير عملك للحصول على أفضل النتائج.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/field/unlink/
@@ -22,7 +22,7 @@ public bool Unlink()
 
 ## ملاحظات
 
-يستبدل الحقل بنتيجةه الأحدث.
+يستبدل الحقل بالنتيجة الأحدث.
 
 لا يمكن إلغاء ربط بعض الحقول، مثل حقول XE (إدخال الفهرس) وحقول SEQ (التسلسل).
 

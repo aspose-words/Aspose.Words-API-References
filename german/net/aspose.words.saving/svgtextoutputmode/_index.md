@@ -3,14 +3,14 @@ title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.SvgTextOutputMode opsomming. Ermöglicht die Angabe wie Text in einem Dokument gerendert werden soll beim Speichern im SVGFormat in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Saving.SvgTextOutputMode, um die Textdarstellung im SVG-Format anzupassen und so die Präsentation und visuelle Attraktivität des Dokuments zu verbessern.
 type: docs
-weight: 5610
+weight: 6410
 url: /de/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
 
-Ermöglicht die Angabe, wie Text in einem Dokument gerendert werden soll beim Speichern im SVG-Format.
+Ermöglicht die Angabe, wie Text in einem Dokument gerendert werden soll , wenn es im SVG-Format gespeichert wird.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -20,18 +20,18 @@ public enum SvgTextOutputMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| UseSvgFonts | `0` | SVG-Schriftarten werden zum Rendern von Text verwendet. Beachten Sie, dass nicht alle Browser SVG-Schriftarten unterstützen. |
-| UseTargetMachineFonts | `1` | Auf dem Zielcomputer installierte Schriftarten werden zum Rendern von Text verwendet. Hinweis: Wenn einige der im Dokument verwendeten Schriftarten auf dem Zielcomputer nicht verfügbar sind, kann das Dokument anders aussehen. |
-| UsePlacedGlyphs | `2` | Text wird mithilfe von Kurven gerendert. Beachten Sie, dass die Textauswahl nicht funktioniert, wenn Sie diese Option verwenden. |
+| UseSvgFonts | `0` | SVG-Schriftarten werden zur Textdarstellung verwendet. Beachten Sie, dass nicht alle Browser SVG-Schriftarten unterstützen. |
+| UseTargetMachineFonts | `1` | Zum Rendern von Text werden die auf dem Zielcomputer installierten Schriftarten verwendet. Beachten Sie: Wenn einige der im Dokument verwendeten Schriftarten auf dem Zielcomputer nicht verfügbar sind, kann das Dokument anders aussehen. |
+| UsePlacedGlyphs | `2` | Der Text wird mithilfe von Kurven dargestellt. Beachten Sie, dass die Textauswahl bei Verwendung dieser Option nicht funktioniert. |
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments in .svg nachgeahmt werden.
+Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines DOCX-Dokuments in SVG nachgeahmt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurieren Sie das SVGSaveOptions-Objekt zum Speichern ohne Seitenränder oder auswählbaren Text.
+// Konfigurieren Sie das SvgSaveOptions-Objekt so, dass ohne Seitenränder oder auswählbaren Text gespeichert wird.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

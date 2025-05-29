@@ -3,14 +3,14 @@ title: OfficeMath.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words para .NET
-description: OfficeMath NodeType propiedad. DevolucionesOfficeMath  en C#.
+description: Descubra la propiedad OfficeMath NodeType que devuelve de manera eficiente elementos OfficeMath, mejorando las capacidades matemáticas de su documento.
 type: docs
 weight: 40
 url: /es/net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-DevolucionesOfficeMath .
+DevuelveOfficeMath .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,20 +18,20 @@ public override NodeType NodeType { get; }
 
 ## Ejemplos
 
-Muestra cómo configurar el formato de visualización de matemáticas de Office.
+Muestra cómo configurar el formato de visualización de matemáticas de oficina.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Los nodos de OfficeMath que son hijos de otros nodos de OfficeMath siempre están en línea.
-// El nodo con el que estamos trabajando es el nodo base para cambiar su ubicación y tipo de visualización.
+// Los nodos OfficeMath que son hijos de otros nodos OfficeMath siempre están en línea.
+//El nodo con el que estamos trabajando es el nodo base para cambiar su ubicación y tipo de visualización.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Cambiar la ubicación y el tipo de visualización del nodo OfficeMath.
+// Cambia la ubicación y el tipo de visualización del nodo OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

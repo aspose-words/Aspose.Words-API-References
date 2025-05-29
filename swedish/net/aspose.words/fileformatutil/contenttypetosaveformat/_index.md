@@ -3,14 +3,14 @@ title: FileFormatUtil.ContentTypeToSaveFormat
 linktitle: ContentTypeToSaveFormat
 articleTitle: ContentTypeToSaveFormat
 second_title: Aspose.Words för .NET
-description: FileFormatUtil ContentTypeToSaveFormat metod. Konverterar IANAinnehållstyp till ett sparat format uppräknat värde i C#.
+description: Konvertera IANA-innehållstyper för att enkelt spara formatvärden med metoden FileFormatUtil ContentTypeToSaveFormat. Effektivisera din filhantering idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/fileformatutil/contenttypetosaveformat/
 ---
 ## FileFormatUtil.ContentTypeToSaveFormat method
 
-Konverterar IANA-innehållstyp till ett sparat format uppräknat värde.
+Konverterar IANA-innehållstypen till ett uppräknat värde i sparformat.
 
 ```csharp
 public static SaveFormat ContentTypeToSaveFormat(string contentType)
@@ -24,16 +24,16 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 
 ## Exempel
 
-Visar hur man hittar motsvarande Aspose-laddnings-/sparaformat från varje mediatypsträng.
+Visar hur man hittar motsvarande Aspose-laddnings-/sparaformat från varje medietypssträng.
 
 ```csharp
- // ContentTypeToSaveFormat/ContentTypeToLoadFormat-metoderna accepterar endast officiella IANA-mediatypnamn, även kända som MIME-typer.
-// Alla giltiga mediatyper listas här: https://www.iana.org/assignments/media-types/media-types.xhtml.
+ // Metoderna ContentTypeToSaveFormat/ContentTypeToLoadFormat accepterar endast officiella IANA-medietypnamn, även kända som MIME-typer.
+// Alla giltiga medietyper listas här: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Att försöka associera ett SaveFormat med en partiell mediatypsträng kommer inte att fungera.
+// Att försöka associera ett SaveFormat med en partiell medietypssträng kommer inte att fungera.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// Om Aspose.Words inte har ett motsvarande spara/ladda format för en innehållstyp, kommer ett undantag också att kastas.
+// Om Aspose.Words inte har ett motsvarande spara-/laddningsformat för en innehållstyp, kommer också ett undantag att utlösas.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
 // Filer av de typer som anges nedan kan sparas, men inte laddas med Aspose.Words.
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// För filtyper som kan sparas och laddas kan vi matcha en mediatyp med både ett laddningsformat och ett sparaformat.
+// För filtyper som kan sparas och läsas in kan vi matcha en medietyp till både ett laddningsformat och ett sparformat.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

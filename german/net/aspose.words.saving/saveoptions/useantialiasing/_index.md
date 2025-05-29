@@ -3,14 +3,14 @@ title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 articleTitle: UseAntiAliasing
 second_title: Aspose.Words für .NET
-description: SaveOptions UseAntiAliasing eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob AntiAliasing für das Rendering verwendet werden soll oder nicht in C#.
+description: Entdecken Sie die SaveOptions UseAntiAliasing-Eigenschaft, um Ihre Rendering-Qualität zu verbessern. Steuern Sie Antialiasing für eine flüssigere Darstellung und verbesserte Leistung.
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
 
-Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob Anti-Aliasing für das Rendering verwendet werden soll oder nicht.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, ob Anti-Aliasing zum Rendern verwendet werden soll oder nicht.
 
 ```csharp
 public bool UseAntiAliasing { get; set; }
@@ -18,13 +18,13 @@ public bool UseAntiAliasing { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert ist`FALSCH` . Wenn dieser Wert auf eingestellt ist`WAHR` Anti-Aliasing wird für das Rendering verwendet.
+Der Standardwert ist`FALSCH` Wenn dieser Wert auf`WAHR` Anti-Aliasing wird zum Rendern verwendet.
 
-Diese Eigenschaft wird verwendet, wenn das Dokument in die folgenden Formate exportiert wird: Tiff ,Png ,Bmp , Jpeg ,Emf . Wenn das Dokument nach the exportiert wirdHtml ,Mhtml , Epub ,Azw3 oderMobi Formate Diese Option wird für Rasterbilder verwendet.
+Diese Eigenschaft wird verwendet, wenn das Dokument in die folgenden Formate exportiert wird: Tiff ,Png ,Bmp , Jpeg ,Emf . Wenn das Dokument in das exportiert wirdHtml ,Mhtml , Epub ,Azw3 oderMobiFormate: Diese Option wird für Rasterbilder verwendet.
 
 ## Beispiele
 
-Zeigt, wie Sie die Qualität eines gerenderten Dokuments mit SaveOptions verbessern können.
+Zeigt, wie die Qualität eines gerenderten Dokuments mit SaveOptions verbessert werden kann.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

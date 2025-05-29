@@ -3,7 +3,7 @@ title: BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words для .NET
-description: BookmarkStart строитель. Инициализирует новый экземплярBookmarkStart класс на С#.
+description: Откройте для себя конструктор BookmarkStart! Легко инициализируйте новые экземпляры BookmarkStart для эффективного создания закладок в ваших приложениях. Повысьте свою производительность сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -28,21 +28,21 @@ public BookmarkStart(DocumentBase doc, string name)
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Создайте документ с тремя закладками, затем используйте специальную реализацию посетителя документа для печати его содержимого.
+    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно осуществлять по индексу или имени, а их имена можно обновлять.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Распечатываем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Распечатайте все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Создаем документ с заданным количеством закладок.
+/// Создать документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -64,13 +64,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Используйте итератор и посетитель для вывода информации о каждой закладке в коллекции.
+/// Используйте итератор и посетителя для вывода информации о каждой закладке в коллекции.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Получить каждую закладку в коллекции, чтобы принять посетителя, который распечатает ее содержимое.
+    // Заставить каждую закладку в коллекции принять посетителя, который распечатает ее содержимое.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Выводит на консоль содержимое каждой посещенной закладки.
+/// Выводит содержимое каждой посещенной закладки на консоль.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

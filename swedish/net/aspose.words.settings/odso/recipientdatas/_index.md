@@ -3,14 +3,14 @@ title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
 second_title: Aspose.Words för .NET
-description: Odso RecipientDatas fast egendom. Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrignull  i C#.
+description: Hantera din koppling av dokument enkelt med Odso RecipientDatas. Kontrollera inkludering/exkludering av poster med en pålitlig och alltid tillgänglig samling.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrig`null` .
+Hämtar eller anger en samling objekt som anger inkludering/exkludering av enskilda poster i dokumentkopplingen. Detta objekt är aldrig`null` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -18,7 +18,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

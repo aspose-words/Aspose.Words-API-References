@@ -3,16 +3,16 @@ title: PrinterSettingsContainer Class
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer сорт. Представляет собой хранилище для некоторых параметровPrinterSettings объект на С#.
+description: Изучите класс Aspose.Words.Rendering.PrinterSettingsContainer для эффективного управления параметрами PrinterSettings, улучшая процесс рендеринга документов.
 type: docs
-weight: 4580
+weight: 5310
 url: /ru/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-Представляет собой хранилище для некоторых параметровPrinterSettings объект.
+Представляет хранилище для некоторых параметровPrinterSettings объект.
 
-Чтобы узнать больше, посетите[Печать документа программно или с использованием диалоговых окон](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) статья документации.
+Чтобы узнать больше, посетите[Печать документа программным способом или с использованием диалогов](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) документальная статья.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -28,20 +28,20 @@ public class PrinterSettingsContainer
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | См.PaperSource изDefaultPageSettings . |
-| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | См.PaperSizes . |
-| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | См.PaperSources . |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | СмотретьPaperSource изDefaultPageSettings . |
+| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | СмотретьPaperSizes . |
+| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | СмотретьPaperSources . |
 
 ## Примечания
 
-Доступ к даннымPrinterSettings занимает много времени. `PrinterSettingsContainer` кэширует параметры изPrinterSettings , , чтобы печать работала быстрее.
+Доступ к даннымPrinterSettings занимает много времени. `PrinterSettingsContainer` кэширует параметры изPrinterSettings , поэтому печать работает быстрее.
 
 ## Примеры
 
-Показывает, как получить доступ к источникам и форматам бумаги вашего принтера и составить их список.
+Показывает, как получить доступ и просмотреть список источников и размеров бумаги вашего принтера.
 
 ```csharp
-// Контейнер PrinterSettingsContainer содержит объект PrinterSettings,
+// "PrinterSettingsContainer" содержит объект "PrinterSettings",
 // который содержит уникальные данные для разных драйверов принтера.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
@@ -53,12 +53,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Свойство PaperSizes содержит список размеров бумаги, которые принтер должен использовать.
-// И PrinterSource, и PrinterSize содержат свойство RawKind,
+// Свойство «PaperSizes» содержит список размеров бумаги, которые следует использовать принтеру.
+// PrinterSource и PrinterSize содержат свойство "RawKind",
 // что соответствует типу бумаги, указанному в перечислении PaperSourceKind.
-// Если существует источник бумаги с тем же значением "RawKind", что и у печатаемой страницы,
-// принтер напечатает страницу, используя указанный источник и размер бумаги.
-// В противном случае принтер по умолчанию будет использовать источник, указанный в свойстве «DefaultPageSettingsPaperSource».
+// Если есть источник бумаги с тем же значением «RawKind», что и у печатной страницы,
+// принтер напечатает страницу, используя указанный источник бумаги и размер.
+// В противном случае принтер по умолчанию будет использовать источник, указанный свойством «DefaultPageSettingsPaperSource».
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

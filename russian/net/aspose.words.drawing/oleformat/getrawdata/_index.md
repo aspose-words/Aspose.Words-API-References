@@ -3,7 +3,7 @@ title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
 second_title: Aspose.Words для .NET
-description: OleFormat GetRawData метод. Получает необработанные данные объекта OLE на С#.
+description: Откройте для себя метод GetRawData в OleFormat, позволяющий легко извлекать необработанные данные объектов OLE, расширяя возможности управления данными и их интеграции.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/oleformat/getrawdata/
@@ -18,7 +18,7 @@ public byte[] GetRawData()
 
 ## Примеры
 
-Показывает, как получить доступ к необработанным данным встроенного объекта OLE.
+Показывает, как получить доступ к необработанным данным встроенного OLE-объекта.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

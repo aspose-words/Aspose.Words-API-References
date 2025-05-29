@@ -2,10 +2,10 @@
 title: ParagraphFormat.SpaceBefore
 linktitle: SpaceBefore
 articleTitle: SpaceBefore
-second_title: Aspose.Words for .NET
-description: ParagraphFormat SpaceBefore mülk. Paragraftan önceki boşluk miktarını nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin okunabilirliğini ve stilini geliştirmek için paragraf aralıklarını noktalar halinde kolayca ayarlamak üzere ParagraphFormat SpaceBefore özelliğini keşfedin.
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/aspose.words/paragraphformat/spacebefore/
 ---
 ## ParagraphFormat.SpaceBefore property
@@ -20,13 +20,13 @@ public double SpaceBefore { get; set; }
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
+| ArgumentOutOfRangeException | Argüman geçerli değerler aralığının dışında olduğunda fırlatılır. |
 
 ## Notlar
 
-Hiçbir etkisi yoktur[`SpaceBeforeAuto`](../spacebeforeauto/) dır-dir`doğru`.
+Hiçbir etkisi yoktur[`SpaceBeforeAuto`](../spacebeforeauto/) dır`doğru`.
 
-Geçerli değerler 0 ila 1584 (dahil) arasındadır.
+Geçerli değerler 0 ile 1584 (dahil) arasındadır.
 
 ## Örnekler
 
@@ -40,20 +40,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Otomatik aralık uygulamak için bu bayrakları "true" olarak ayarlayın,
-// yukarıda belirlediğimiz özelliklerdeki boşlukları etkili bir şekilde yok sayıyoruz.
-// Bunları "yanlış" olarak bırakın, özel paragraf aralığımız uygulanacaktır.
+// Otomatik aralık uygulamak için bu bayrakları "true" olarak ayarlayın.
+// yukarıda ayarladığımız özelliklerde boşlukları etkili bir şekilde görmezden geliyoruz.
+// Bunları "false" olarak bırakmak özel paragraf aralığımızı uygulayacaktır.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Altlarında ve üstlerinde boşluk olacak iki paragraf ekleyin ve belgeyi kaydedin.
+// Üst ve altlarında boşluk olacak şekilde iki paragraf ekleyin ve belgeyi kaydedin.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Aynı stile sahip paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
+Aynı stildeki paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +64,7 @@ builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // Uygulamak için "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "true" olarak ayarlayın
-// benzer paragrafları gruplandıracak aynı stildeki paragraflar arasında boşluk yok.
+// aynı stildeki paragraflar arasında boşluk bırakılmayacak, böylece benzer paragraflar gruplanacak.
 // "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "false" olarak bırakın
 // her paragrafa eşit aralık uygulamak için.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;

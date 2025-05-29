@@ -3,14 +3,14 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words für .NET
-description: BorderCollection Equals methode. Vergleicht Sammlungen von Rahmen in C#.
+description: Entdecken Sie die BorderCollection Equals-Methode, um Rahmensammlungen effizient zu vergleichen und Ihre Programmierproduktivität zu steigern. Optimieren Sie Ihre Projekte noch heute!
 type: docs
 weight: 150
 url: /de/net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method
 
-Vergleicht Sammlungen von Rahmen.
+Vergleicht Sammlungen von Grenzen.
 
 ```csharp
 public bool Equals(BorderCollection brColl)
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
+// Da wir beim Erstellen die gleiche Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen weisen dieselben Elemente auf.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -41,8 +41,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
-// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
+// Nachdem ich den Linienstil der Rahmen nur im zweiten Absatz geändert habe,
+// Die Randsammlungen weisen nicht mehr dieselben Elemente auf.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

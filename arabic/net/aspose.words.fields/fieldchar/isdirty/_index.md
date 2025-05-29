@@ -3,14 +3,14 @@ title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words لـ .NET
-description: FieldChar IsDirty ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند في C#.
+description: اكتشف كيف تساعد خاصية FieldChar IsDirty في الحفاظ على دقة المستند من خلال تتبع التغييرات، مما يضمن أن تعكس حقولك دائمًا أحدث التحديثات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property
 
-الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند.
+يحصل على أو يعين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند.
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// استرداد كائن الواجهة الذي يمثل الحقل الموجود في المستند.
+// استرداد كائن الواجهة الذي يمثل الحقل في المستند.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// قم بتحديث الحقل لإظهار التاريخ الحالي.
+//تحديث الحقل لإظهار التاريخ الحالي.
 field.Update();
 ```
 

@@ -3,7 +3,7 @@ title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words para .NET
-description: TableStyle RightPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la derecha del contenido de las celdas de la tabla en C#.
+description: Descubra la propiedad TableStyle RightPadding, personalice el diseño de las celdas de su tabla con un espaciado correcto y preciso para una mejor legibilidad y presentación.
 type: docs
 weight: 110
 url: /es/net/aspose.words/tablestyle/rightpadding/

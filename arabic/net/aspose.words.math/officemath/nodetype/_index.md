@@ -3,7 +3,7 @@ title: OfficeMath.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: OfficeMath NodeType ملكية. إرجاعOfficeMath  في C#.
+description: اكتشف خاصية OfficeMath NodeType التي تقوم بإرجاع عناصر OfficeMath بكفاءة، مما يعزز القدرات الرياضية للمستند الخاص بك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.math/officemath/nodetype/
@@ -18,20 +18,20 @@ public override NodeType NodeType { get; }
 
 ## أمثلة
 
-يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
+يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// عقد OfficeMath التي تعد أبناء لعقد OfficeMath الأخرى تكون دائمًا مضمنة.
 // العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// تغيير الموقع ونوع العرض لعقدة OfficeMath.
+// تغيير موقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

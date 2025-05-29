@@ -3,14 +3,14 @@ title: WarningInfo Class
 linktitle: WarningInfo
 articleTitle: WarningInfo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.WarningInfo klass. Innehåller information om en varning som Aspose.Words utfärdade när dokument laddades eller sparades i C#.
+description: Upptäck klassen Aspose.Words.WarningInfo, som ger viktiga insikter om varningar vid inläsning eller sparning av dokument, vilket förbättrar effektiviteten i ditt arbetsflöde.
 type: docs
-weight: 6630
+weight: 7480
 url: /sv/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
-Innehåller information om en varning som Aspose.Words utfärdade när dokument laddades eller sparades.
+Innehåller information om en varning som Aspose.Words utfärdade vid inläsning eller sparning av dokument.
 
 För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
@@ -24,15 +24,15 @@ public class WarningInfo
 | --- | --- |
 | [Description](../../aspose.words/warninginfo/description/) { get; } | Returnerar beskrivningen av varningen. |
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Returnerar källan till varningen. |
-| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Returnerar typen av varning. |
+| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Returnerar varningens typ. |
 
 ## Anmärkningar
 
-Du skapar inte instanser av den här klassen. Objekt i denna klass skapas och skickas av Aspose.Words till[`Warning`](../iwarningcallback/warning/) metod.
+Du skapar inte instanser av den här klassen. Objekt i den här klassen created och skickas av Aspose.Words till[`Warning`](../iwarningcallback/warning/) metod.
 
 ## Exempel
 
-Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
+Visar hur man ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från de tillgängliga teckensnittskällorna.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -40,20 +40,20 @@ public void EnableFontSubstitution()
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Tilldela en återuppringning för hantering av varningar för teckensnittsersättning.
+    // Tilldela en återanropning för att hantera varningar om teckensnittsersättning.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Ange ett standardtypsnittsnamn och aktivera teckensnittsersättning.
+    // Ange ett standardnamn för teckensnitt och aktivera teckensnittsersättning.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    // Ursprungliga teckensnittsmått bör användas efter teckensnittsersättning.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
+    // Vi får en varning om teckensnittsersättning om vi sparar ett dokument med ett saknat teckensnitt.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -69,13 +69,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {

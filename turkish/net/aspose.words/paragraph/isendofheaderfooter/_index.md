@@ -2,15 +2,15 @@
 title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
 articleTitle: IsEndOfHeaderFooter
-second_title: Aspose.Words for .NET
-description: Paragraph IsEndOfHeaderFooter mülk. Bu paragraf paragraftaki son paragrafsa doğruHeaderFooter ana metin hikayesi birSection  aksi halde yanlış C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraflar için IsEndOfHeaderFooter özelliğini keşfedin. Bir paragrafın HeaderFooter'daki son paragraf olup olmadığını kolayca belirleyerek belge yapısını geliştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-Bu paragraf paragraftaki son paragrafsa doğru[`HeaderFooter`](../../headerfooter/) (ana metin hikayesi) bir[`Section`](../../section/) ; aksi halde yanlış.
+Bu paragraf, paragrafın son paragrafıysa doğrudur.[`HeaderFooter`](../../headerfooter/) (ana metin hikayesi)[`Section`](../../section/) ; aksi takdirde yanlış.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }
@@ -23,8 +23,8 @@ public bool IsEndOfHeaderFooter { get; }
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

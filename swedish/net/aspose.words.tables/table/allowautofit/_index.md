@@ -3,7 +3,7 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words för .NET
-description: Table AllowAutoFit fast egendom. Tillåter Microsoft Word och Aspose.Words att automatiskt ändra storlek på celler i en tabell så att de passar deras innehåll i C#.
+description: Upptäck egenskapen Table AllowAutoFit för att enkelt ändra storlek på tabellceller i Microsoft Word och Aspose.Words, vilket förbättrar dokumentets läsbarhet och presentation.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.tables/table/allowautofit/
@@ -18,7 +18,7 @@ public bool AllowAutoFit { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`Sann`.
+Standardvärdet är`sann`.
 
 ## Exempel
 
@@ -41,10 +41,10 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Ställ in egenskapen "AllowAutoFit" till "false" för att få tabellen att behålla dimensionerna
-// av alla dess rader och celler, och trunkera innehållet om de blir för stora för att passa.
-// Ställ in egenskapen "AllowAutoFit" till "true" för att tillåta tabellen att ändra cellernas bredd och höjd
-// för att tillgodose deras innehåll.
+// Sätt egenskapen "AllowAutoFit" till "false" för att tabellen ska bibehålla måtten
+// av alla dess rader och celler, och avkorta innehållet om det blir för stort för att få plats.
+// Sätt egenskapen "AllowAutoFit" till "true" för att tillåta att tabellen ändrar cellernas bredd och höjd
+// för att rymma deras innehåll.
 table.AllowAutoFit = allowAutoFit;
 
 doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");

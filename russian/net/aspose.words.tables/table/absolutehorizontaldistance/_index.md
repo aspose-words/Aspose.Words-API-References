@@ -3,14 +3,14 @@ title: Table.AbsoluteHorizontalDistance
 linktitle: AbsoluteHorizontalDistance
 articleTitle: AbsoluteHorizontalDistance
 second_title: Aspose.Words для .NET
-description: Table AbsoluteHorizontalDistance свойство. Получает или задает абсолютное горизонтальное плавающее положение таблицы указанное в свойствах таблицы в точках. Значение по умолчанию  0 на С#.
+description: Откройте для себя свойство Table AbsoluteHorizontalDistance, чтобы легко настроить горизонтальное положение таблицы в точках. Оптимизируйте макет со значением по умолчанию 0!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/table/absolutehorizontaldistance/
 ---
 ## Table.AbsoluteHorizontalDistance property
 
-Получает или задает абсолютное горизонтальное плавающее положение таблицы, указанное в свойствах таблицы, в точках. Значение по умолчанию — 0.
+Возвращает или задает абсолютное горизонтальное положение плавающей таблицы, указанное свойствами таблицы, в пунктах. Значение по умолчанию — 0.
 
 ```csharp
 public double AbsoluteHorizontalDistance { get; set; }
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Установите местоположение таблицы в нужном месте на странице, например, в данном случае в правом нижнем углу.
+// Задайте местоположение таблицы на странице, например, в данном случае в правом нижнем углу.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Мы также можем установить горизонтальное и вертикальное смещение в пунктах от места абзаца, куда мы вставили таблицу.
+ // Мы также можем задать горизонтальное и вертикальное смещение в пунктах от местоположения абзаца, куда мы вставили таблицу.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

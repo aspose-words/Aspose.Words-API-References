@@ -3,7 +3,7 @@ title: ToaCategories.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: ToaCategories Item propiedad. Obtiene o establece el encabezado de categoría por número de categoría en C#.
+description: Gestiona tus elementos de ToaCategories fácilmente. Define y recupera fácilmente los encabezados de categoría por número para una organización optimizada y eficiente.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/toacategories/item/
@@ -18,37 +18,37 @@ public string this[int number] { get; set; }
 
 ## Ejemplos
 
-Muestra cómo especificar un conjunto de categorías para campos TOA.
+Muestra cómo especificar un conjunto de categorías para los campos TOA.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Los campos TOA pueden filtrar sus entradas por categorías definidas en esta colección.
+//Los campos TOA pueden filtrar sus entradas por categorías definidas en esta colección.
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// Esta colección de categorías viene con valores predeterminados, que podemos sobrescribir con valores personalizados.
+//Esta colección de categorías viene con valores predeterminados, que podemos sobrescribir con valores personalizados.
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
 toaCategories[1] = "My Category 1";
 toaCategories[2] = "My Category 2";
 
-// Siempre podemos acceder a los valores predeterminados a través de esta colección.
+//Siempre podemos acceder a los valores predeterminados a través de esta colección.
 Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
-// Inserta 2 campos TOA. Los campos TOA crean una entrada para cada campo TA en el documento.
+// Insertar 2 campos TOA. Los campos TOA crean una entrada para cada campo TA en el documento.
 // Utilice el interruptor "\c" para seleccionar el índice de una categoría de nuestra colección.
 // Con este cambio, un campo TOA solo recogerá entradas de campos TA que
-// también tenemos un modificador "\c" con un índice de categoría coincidente. Cada campo TOA también mostrará
-// el nombre de la categoría a la que apunta su modificador "\c".
+// También se incluye un modificador "\c" con un índice de categoría coincidente. Cada campo TOA también mostrará
+// el nombre de la categoría a la que apunta su interruptor "\c".
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Inserta entradas TOA en 2 categorías. Nuestro primer campo TOA recibirá una entrada,
+// Insertar entradas TOA en 2 categorías. Nuestro primer campo TOA recibirá una entrada.
 // del segundo campo TA cuyo modificador "\c" también apunta a la primera categoría.
 // El segundo campo TOA tendrá dos entradas de los otros dos campos TA.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");

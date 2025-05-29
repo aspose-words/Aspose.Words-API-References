@@ -3,14 +3,14 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words для .NET
-description: TableStyle TopPadding свойство. Получает или задает объем пространства в пунктах добавляемого над содержимым ячеек таблицы на С#.
+description: Откройте для себя свойство TableStyle TopPadding, позволяющее легко настраивать интервал над содержимым ячеек таблицы, улучшая ее читаемость и дизайн.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-Получает или задает объем пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
+Возвращает или задает размер пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
 ```csharp
 public double TopPadding { get; set; }

@@ -3,14 +3,14 @@ title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
 second_title: Aspose.Words für .NET
-description: OleFormat GetRawData methode. Ruft OLEObjektRohdaten ab in C#.
+description: Entdecken Sie die GetRawData-Methode von OleFormat zum einfachen Abrufen von Rohdaten von OLE-Objekten und verbessern Sie so Ihre Datenverwaltungs- und Integrationsfunktionen.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing/oleformat/getrawdata/
 ---
 ## OleFormat.GetRawData method
 
-Ruft OLE-Objekt-Rohdaten ab.
+Ruft Rohdaten des OLE-Objekts ab.
 
 ```csharp
 public byte[] GetRawData()

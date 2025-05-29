@@ -3,14 +3,14 @@ title: RtfSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words لـ .NET
-description: RtfSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطRtf  في C#.
+description: اكتشف خاصية SaveFormat في RtfSaveOptions لحفظ مستنداتك بسهولة بتنسيق RTF، مما يضمن التوافق والمشاركة السهلة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/rtfsaveoptions/saveformat/
 ---
 ## RtfSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطRtf .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. لا يمكن أن يكون إلاRtf .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند إلى .rtf مع خيارات مخصصة.
+يوضح كيفية حفظ مستند بتنسيق .rtf باستخدام خيارات مخصصة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,14 +28,14 @@ RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// قم بتعيين خاصية "ExportCompactSize" على "صحيح" to
+// اضبط خاصية "ExportCompactSize" على "true" لـ
 // تقليل حجم المستند المحفوظ على حساب توافق النص من اليمين إلى اليسار.
 options.ExportCompactSize = true;
 
-// قم بتعيين خاصية "ExportImagesFotOldReaders" على "true" لاستخدام كلمات رئيسية إضافية للتأكد من أن وثيقتنا صحيحة
-// متوافق مع قارئات ما قبل Microsoft Word 97 وWordPad.
-// اضبط الخاصية "ExportImagesFotOldReaders" على "خطأ" لتقليل حجم المستند،
-// ولكن يمنع القراء القدامى من قراءة أي صور غير ملف تعريف أو BMP قد يحتوي عليها المستند.
+// اضبط خاصية "ExportImagesFotOldReaders" على "true" لاستخدام كلمات رئيسية إضافية لضمان أن مستندنا
+// متوافق مع برامج قراءة ما قبل Microsoft Word 97 وWordPad.
+// اضبط خاصية "ExportImagesFotOldReaders" على "false" لتقليل حجم المستند،
+// ولكن منع القراء القدامى من القدرة على قراءة أي صور غير ملف تعريفي أو صور BMP قد يحتوي عليها المستند.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

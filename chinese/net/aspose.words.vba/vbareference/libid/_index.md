@@ -2,8 +2,8 @@
 title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaReference LibId 财产. 获取包含自动化类型库标识符的字符串值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 VBA LibId 属性，轻松检索自动化类型库标识符，本指南面向开发人员，助您提升编程技能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbareference/libid/
@@ -20,12 +20,12 @@ public abstract string LibId { get; }
 
 根据引用类型，此属性的值可以是：
 
-* 在 [MS-OVBA] 的 2.1.1.8 LibidReference 中指定的 LibidReference: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* 在 2.1.1.12 [MS-OVBA] 的 ProjectReference 中指定的 ProjectReference: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* [MS-OVBA]: 的 2.1.1.8 LibidReference 中指定的 LibidReference https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* 在 [MS-OVBA]: 的 2.1.1.12 ProjectReference 中指定的 ProjectReference https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+展示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
 public void RemoveVbaReference()

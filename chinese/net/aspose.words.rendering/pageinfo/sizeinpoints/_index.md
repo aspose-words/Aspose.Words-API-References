@@ -2,15 +2,15 @@
 title: PageInfo.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
-second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo SizeInPoints 财产. 获取页面大小以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageInfo SizeInPoints 属性，轻松访问页面大小（以点为单位），实现精确的布局控制和增强的设计效率。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.rendering/pageinfo/sizeinpoints/
 ---
 ## PageInfo.SizeInPoints property
 
-获取页面大小（以磅为单位）。
+获取页面大小（以点为单位）。
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -18,13 +18,13 @@ public SizeF SizeInPoints { get; }
 
 ## 例子
 
-演示如何打印 Word 文档中每个页面的页面大小和方向信息。
+展示如何打印 Word 文档中每一页的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
-// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
+// 第一部分有两页。我们将为每页分配不同的打印机纸盘，
+// 其编号将与一种纸张来源匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,7 +38,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // 每个页面都有一个 PageInfo 对象，其索引是相应页面的编号。
+    // 每个页面都有一个PageInfo对象，其索引是相应页面的编号。
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // 打印页面的方向和尺寸。

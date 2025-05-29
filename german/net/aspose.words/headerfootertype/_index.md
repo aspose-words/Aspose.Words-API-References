@@ -3,9 +3,9 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.HeaderFooterType opsomming. Identifiziert den Typ der Kopf oder Fußzeile in einer WordDatei in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.HeaderFooterType zur einfachen Identifizierung von Kopf- und Fußzeilentypen in Word-Dokumenten. Optimieren Sie Ihre Dokumentenverarbeitung noch heute!
 type: docs
-weight: 3120
+weight: 3550
 url: /de/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -20,26 +20,26 @@ public enum HeaderFooterType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| HeaderEven | `0` | Kopfzeile für gerade nummerierte Seiten. |
-| HeaderPrimary | `1` | Primärer Header, wird auch für Seiten mit ungeraden Seitenzahlen verwendet. |
-| FooterEven | `2` | Fußzeile für gerade nummerierte Seiten. |
-| FooterPrimary | `3` | Primäre Fußzeile, wird auch für Seiten mit ungeraden Seitenzahlen verwendet. |
+| HeaderEven | `0` | Kopfzeile für gerade Seitenzahlen. |
+| HeaderPrimary | `1` | Primäre Kopfzeile, wird auch für Seiten mit ungeraden Nummern verwendet. |
+| FooterEven | `2` | Fußzeile für gerade Seitenzahlen. |
+| FooterPrimary | `3` | Primäre Fußzeile, wird auch für Seiten mit ungeraden Nummern verwendet. |
 | HeaderFirst | `4` | Kopfzeile für die erste Seite des Abschnitts. |
 | FooterFirst | `5` | Fußzeile für die erste Seite des Abschnitts. |
 
 ## Beispiele
 
-Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
+Zeigt, wie Sie mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geben Sie an, dass wir unterschiedliche Kopf- und Fußzeilen für die erste, gerade und ungerade Seite wünschen.
+// Geben Sie an, dass wir für die erste, die gerade und die ungerade Seite unterschiedliche Kopf- und Fußzeilen wünschen.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dem Dokument dann drei Seiten hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

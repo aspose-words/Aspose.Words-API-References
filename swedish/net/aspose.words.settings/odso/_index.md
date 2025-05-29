@@ -3,16 +3,16 @@ title: Odso Class
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.Odso klass. Anger ODSOinställningarna Office Data Source Object för en kopplingsdatakälla i C#.
+description: Upptäck klassen Aspose.Words.Settings.Odso för sömlös integrering av dokumentkopplingar. Optimera dina ODSO-inställningar för effektiv hantering av datakällor.
 type: docs
-weight: 5880
+weight: 6710
 url: /sv/net/aspose.words.settings/odso/
 ---
 ## Odso class
 
-Anger ODSO-inställningarna (Office Data Source Object) för en kopplingsdatakälla.
+Anger ODSO-inställningarna (Office Data Source Object) för en datakälla för dokumentkoppling.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class Odso
@@ -28,14 +28,14 @@ public class Odso
 
 | namn | Beskrivning |
 | --- | --- |
-| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Anger tecknet som ska tolkas som kolumnavgränsaren som används för att separera kolumner inom externa datakällor. Standardvärdet är 0 vilket betyder att det inte finns någon kolumnavgränsare definierad. |
-| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Anger platsen för den externa datakällan som ska anslutas till ett dokument för att utföra kopplingen. Standardvärdet är en tom sträng. |
-| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Anger typen av den externa datakällan som ska anslutas till som en del av ODSO-anslutningsinformationen för denna koppling. Standardvärdet ärDefault . |
-| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrig`null` . |
-| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Anger att en värdapplikation ska behandla den första raden med data i den angivna externa data -källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet är`falsk` . |
-| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrig`null` . |
-| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Anger den särskilda uppsättning data som en källa ska anslutas till inom en extern datakälla. Standardvärdet är en tom sträng. |
-| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Anger anslutningssträngen Universal Data Link (UDL) som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng. |
+| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Anger det tecken som ska tolkas som kolumnavgränsare som används för att separera kolumner inom externa datakällor. Standardvärdet är 0 vilket innebär att ingen kolumnavgränsare har definierats. |
+| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Anger platsen för den externa datakälla som ska anslutas till ett dokument för att utföra dokumentkopplingen. Standardvärdet är en tom sträng. |
+| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Anger typen av extern datakälla som ska anslutas till som en del av ODSO-anslutningsinformationen för den här dokumentkopplingen. Standardvärdet ärDefault . |
+| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Hämtar eller anger en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade kopplingsfältnamnen i dokumentet. Detta objekt mappas aldrig`null` . |
+| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Anger att ett värdprogram ska behandla den första dataraden i den angivna externa data -källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet är`falsk` . |
+| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Hämtar eller anger en samling objekt som anger inkludering/exkludering av enskilda poster i dokumentkopplingen. Detta objekt är aldrig`null` . |
+| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Anger den specifika datamängd som en källa ska vara kopplad till inom en extern datakälla. Standardvärdet är en tom sträng. |
+| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Anger den UDL-anslutningssträng (Universal Data Link) som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng. |
 
 ## Metoder
 
@@ -45,15 +45,15 @@ public class Odso
 
 ## Anmärkningar
 
-ODSO verkar vara det "nya" sättet som de nyare Microsoft Word-versionerna föredrar att använda när de specificerar vissa -typer av datakällor för ett kopplingsdokument. ODSO dök förmodligen först upp i Microsoft Word 2000.
+ODSO verkar vara det "nya" sättet som de nyare Microsoft Word-versionerna föredrar att använda när man anger vissa typer av datakällor för ett dokument för koppling av dokument. ODSO dök förmodligen först upp i Microsoft Word 2000.
 
-Användningen av ODSO är dåligt dokumenterad och det bästa sättet att lära sig hur man använder egenskaperna för detta objekt är att skapa ett dokument med en önskad datakälla manuellt i Microsoft Word och sedan öppna det dokumentet med Aspose.Words och undersöka egenskaperna av[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och [`Odso`](../mailmergesettings/odso/)föremål. Det här är ett bra tillvägagångssätt om du vill lära dig hur du programmatiskt konfigurerar en datakälla, till exempel.
+Användningen av ODSO är dåligt dokumenterad och det bästa sättet att lära sig använda egenskaperna för detta objekt är att manuellt skapa ett dokument med en önskad datakälla i Microsoft Word och sedan öppna det dokumentet med Aspose.Words och undersöka egenskaperna för[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och [`Odso`](../mailmergesettings/odso/)objekt. Detta är en bra metod att använda om du till exempel vill lära dig hur man programmatiskt konfigurerar en datakälla.
 
-Du behöver normalt inte skapa objekt av denna klass direkt eftersom ODSO settings alltid är tillgängliga via[`Odso`](../mailmergesettings/odso/) fast egendom.
+Du behöver normalt inte skapa objekt av den här klassen direkt eftersom ODSO settings alltid är tillgängliga via[`Odso`](../mailmergesettings/odso/) egendom.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -66,9 +66,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -96,7 +96,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

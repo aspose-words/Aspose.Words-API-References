@@ -3,14 +3,14 @@ title: FindReplaceOptions.LegacyMode
 linktitle: LegacyMode
 articleTitle: LegacyMode
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions LegacyMode fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ersätt algoritm används i C#.
+description: Upptäck egenskapen FindReplaceOptions LegacyMode för att enkelt växla mellan den klassiska sök/ersätt-algoritmen för förbättrad funktionalitet och en smidig användarupplevelse.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property
 
-Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ersätt algoritm används.
+Hämtar eller ställer in ett booleskt värde som indikerar att den gamla sök/ersätt-algoritmen används.
 
 ```csharp
 public bool LegacyMode { get; set; }
@@ -18,11 +18,11 @@ public bool LegacyMode { get; set; }
 
 ## Anmärkningar
 
-Använd denna flagga om du behöver exakt samma beteende som innan den avancerade sök/ersätt-funktionen introducerades. Observera att den gamla algoritmen inte stöder avancerade funktioner som att ersätta med pauser, tillämpa formatering och så vidare.
+Använd den här flaggan om du behöver exakt samma beteende som innan den avancerade sök-/ersätt-funktionen introducerades. Observera att den gamla algoritmen inte stöder avancerade funktioner som att ersätta med brytningar, tillämpa formatering och så vidare.
 
 ## Exempel
 
-Visar hur man känner igen och använder ersättningar inom ersättningsmönster.
+Visar hur man känner igen och använder substitutioner inom ersättningsmönster.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// Att använda äldre läge stöder inte många avancerade funktioner, så vi måste ställa in det på "false".
+// Att använda äldre läge har inte stöd för många avancerade funktioner, så vi måste ställa in det på 'false'.
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);

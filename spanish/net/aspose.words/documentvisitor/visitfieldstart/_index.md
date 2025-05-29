@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitFieldStart método. Se llama cuando comienza un campo en el documento en C#.
+description: Descubra el método DocumentVisitor VisitFieldStart, que se activa al comienzo de un campo en su documento, mejorando su eficiencia de codificación y su flujo de trabajo.
 type: docs
 weight: 200
 url: /es/net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
 
-Se llama cuando comienza un campo en el documento.
+Se llama cuando un campo comienza en el documento.
 
 ```csharp
 public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
@@ -32,13 +32,13 @@ Por ejemplo, un campo que muestra un número de página se puede representar de 
 
 [Inicio de campo]PÁGINA[Separador de campo]98[Fin de campo]
 
-El separador de campos separa el código de campo del valor del campo en el documento. Tenga en cuenta que algunos campos solo tienen código de campo y no tienen separador de campo ni valor de campo.
+El separador de campo separa el código del valor del campo en el documento. Tenga en cuenta que algunos campos solo tienen código de campo y no tienen separador ni valor de campo.
 
 Los campos se pueden anidar.
 
 ## Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada campo en un documento.
+Muestra cómo imprimir la estructura de nodos de cada campo de un documento.
 
 ```csharp
 public void FieldToText()
@@ -46,16 +46,16 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos de campo encontrados y sus hijos.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
@@ -116,10 +116,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
     /// en el árbol de nodos secundarios del campo.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

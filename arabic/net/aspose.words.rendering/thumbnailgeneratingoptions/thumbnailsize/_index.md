@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions.ThumbnailSize
 linktitle: ThumbnailSize
 articleTitle: ThumbnailSize
 second_title: Aspose.Words لـ .NET
-description: ThumbnailGeneratingOptions ThumbnailSize ملكية. حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900 في C#.
+description: اكتشف خيارات الصور المصغرة القابلة للتخصيص مع خاصية ThumbnailSize. أنشئ صورًا مصغرة مثالية بحجم بكسل، مع ضبطها افتراضيًا على 600×900 لعرض مثالي!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900.
+حجم الصورة المصغرة المُولَّدة بالبكسل. الافتراضي هو 600x900.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
-// 1 - استخدم الصفحة الأولى للمستند:
+// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند بتنسيق .epub.
+// 1 - استخدم الصفحة الأولى من المستند:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

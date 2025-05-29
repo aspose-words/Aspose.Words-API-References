@@ -3,7 +3,7 @@ title: ControlChar.NonBreakingHyphenChar
 linktitle: NonBreakingHyphenChar
 articleTitle: NonBreakingHyphenChar
 second_title: Aspose.Words для .NET
-description: ControlChar NonBreakingHyphenChar поле. Неразрывный дефис в Microsoft Word  char30 на С#.
+description: Откройте для себя NonBreaking HyphenChar в Microsoft Word. Улучшите свои документы с помощью плавного потока текста, используя char30 для профессиональных результатов.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -18,7 +18,7 @@ public const char NonBreakingHyphenChar;
 
 ## Примечания
 
-Неразрывный дефис в Microsoft Word не соответствует символу Юникода неразрывному дефису U+2011, а вместо этого представляет внутреннюю информацию , которая сообщает Microsoft Word отображать дефис, а не разрывать строку.
+Неразрывный дефис в Microsoft Word не соответствует символу Unicode U+2011 неразрывного дефиса x000d_, а вместо этого представляет внутреннюю информацию x000d_, которая сообщает Microsoft Word о необходимости отображать дефис и не переносить строку.
 
 Полезная информация: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
@@ -30,20 +30,20 @@ public const char NonBreakingHyphenChar;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавляем обычный пробел.
+// Добавьте обычный пробел.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
 // Добавьте NBSP, который является неразрывным пробелом.
-// В отличие от обычного пробела, в этом пробеле не может быть автоматического переноса строки.
+// В отличие от обычного пробела, этот пробел не может иметь автоматический перенос строки в своей позиции.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Добавляем символ табуляции.
+// Добавьте символ табуляции.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Добавляем разрыв строки.
+// Добавить перенос строки.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Добавляем новую строку и начинаем новый абзац.
+// Добавить новую строку и начать новый абзац.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -54,27 +54,27 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // Возврат каретки и перевод строки могут быть представлены вместе одним символом.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Добавляем разрыв абзаца, который начнет новый абзац.
+// Добавить разрыв абзаца, который начнет новый абзац.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Добавляем разрыв раздела. При этом не создается новый раздел или абзац.
+// Добавить разрыв раздела. Это не создает новый раздел или абзац.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Добавляем разрыв страницы.
+// Добавить разрыв страницы.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
 // Разрыв страницы имеет то же значение, что и разрыв раздела.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Вставляем новый раздел, а затем устанавливаем количество столбцов равным двум.
+// Вставьте новый раздел, а затем установите количество столбцов равным двум.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// Мы можем использовать управляющий символ, чтобы отметить точку перехода текста к следующему столбцу.
+// Мы можем использовать управляющий символ, чтобы отметить точку, в которой текст переходит в следующий столбец.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");

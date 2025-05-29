@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: OdsoRecipientDataCollection Item свойство. Получает или задает элемент в этой коллекции на С#.
+description: Легко управляйте OdsoRecipientDataCollection с помощью нашего свойства Item. Легко извлекайте или обновляйте элементы для бесперебойной обработки данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -18,7 +18,7 @@ public OdsoRecipientData this[int index] { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

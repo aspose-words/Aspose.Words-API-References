@@ -3,14 +3,14 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words для .NET
-description: HtmlLoadOptions WebRequestTimeout свойство. Число миллисекунд ожидания до истечения времени ожидания вебзапроса. Значение по умолчанию  100000 миллисекунд 100 секунд.  на С#.
+description: Откройте для себя свойство WebRequestTimeout HtmlLoadOptions, позволяющее настраивать параметры тайм-аута для оптимальной производительности веб-сайта. По умолчанию 100 секунд.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-Число миллисекунд ожидания до истечения времени ожидания веб-запроса. Значение по умолчанию — 100000 миллисекунд (100 секунд). .
+Количество миллисекунд ожидания до тайм-аута веб-запроса. Значение по умолчанию — 100000 миллисекунд (100 секунд).
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -18,7 +18,7 @@ public int WebRequestTimeout { get; set; }
 
 ## Примечания
 
-Количество миллисекунд, в течение которых Aspose.Words ожидает ответа при загрузке внешних ресурсов (изображений, листов style ), связанных в документах HTML и MHTML.
+Количество миллисекунд, в течение которых Aspose.Words ожидает ответа при загрузке внешних ресурсов (изображений, таблиц style ), связанных в документах HTML и MHTML.
 
 ## Примеры
 
@@ -30,16 +30,16 @@ public void WebRequestTimeout()
     // Создайте новый объект HtmlLoadOptions и проверьте его пороговое значение времени ожидания для веб-запроса.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // При загрузке HTML-документа с ресурсами, внешними ссылками по URL-адресу веб-адреса,
-    // Aspose.Words прервет веб-запросы, которым не удалось получить ресурсы в течение этого срока (в миллисекундах).
+    // При загрузке HTML-документа с ресурсами, связанными извне с помощью URL-адреса веб-адреса,
+    // Aspose.Words прервет веб-запросы, которые не смогут получить ресурсы в течение этого срока (в миллисекундах).
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
-    // Установите alertCallback, который будет записывать все предупреждения, возникающие во время загрузки.
+    // Устанавливаем WarningCallback, который будет записывать все предупреждения, возникающие во время загрузки.
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
-    // Загрузите такой документ и убедитесь, что создана фигура с данными изображения.
-    // Для загрузки этого связанного изображения потребуется веб-запрос, который должен быть выполнен в течение установленного нами срока.
+    // Загрузите такой документ и убедитесь, что создана форма с данными изображения.
+    // Для загрузки этого связанного изображения потребуется веб-запрос, который должен быть выполнен в течение нашего лимита времени.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
@@ -51,12 +51,12 @@ public void WebRequestTimeout()
     Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
-    // Веб-запрос, которому не удалось получить изображение в течение установленного срока, все равно создаст изображение.
-    // Однако на изображении будет красный крестик, который обычно означает отсутствие изображения.
+    // Веб-запрос, который не смог получить изображение в течение отведенного времени, все равно создаст изображение.
+    // Однако изображение будет помечено красным значком «x», который обычно обозначает отсутствующие изображения.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
-    // Мы также можем настроить собственный обратный вызов для получения любых предупреждений от веб-запросов с истекшим временем ожидания.
+    // Мы также можем настроить пользовательский обратный вызов для сбора любых предупреждений об истекших времени ожидания веб-запросов.
     Assert.AreEqual(WarningSource.Html, warningCallback.Warnings()[0].Source);
     Assert.AreEqual(WarningType.DataLoss, warningCallback.Warnings()[0].WarningType);
     Assert.AreEqual($"Couldn't load a resource from \'{ImageUrl}\'.", warningCallback.Warnings()[0].Description);

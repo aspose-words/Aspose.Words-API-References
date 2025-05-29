@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternThemeColor
 linktitle: ForegroundPatternThemeColor
 articleTitle: ForegroundPatternThemeColor
 second_title: Aspose.Words لـ .NET
-description: Shading ForegroundPatternThemeColor ملكية. الحصول على أو تعيين لون سمة النمط الأمامي في نظام الألوان المطبق المرتبط بهذاShading الكائن في C#.
+description: اكتشف كيفية تخصيص خاصية Shading ForegroundPatternThemeColor لتحسين مخطط الألوان في تصميمك ورفع جاذبيته البصرية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/shading/foregroundpatternthemecolor/
 ---
 ## Shading.ForegroundPatternThemeColor property
 
-الحصول على أو تعيين لون سمة النمط الأمامي في نظام الألوان المطبق المرتبط بهذا[`Shading`](../) الكائن.
+يحصل على لون سمة نمط المقدمة أو يعينه في مخطط الألوان المطبق المرتبط بهذا[`Shading`](../) الكائن.
 
 ```csharp
 public ThemeColor ForegroundPatternThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ForegroundPatternThemeColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين الألوان الأمامية والخلفية لتظليل الملمس.
+يوضح كيفية تعيين ألوان المقدمة والخلفية لملمس التظليل.
 
 ```csharp
 Document doc = new Document();

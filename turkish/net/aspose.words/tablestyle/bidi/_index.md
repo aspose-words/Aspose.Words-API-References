@@ -2,15 +2,15 @@
 title: TableStyle.Bidi
 linktitle: Bidi
 articleTitle: Bidi
-second_title: Aspose.Words for .NET
-description: TableStyle Bidi mülk. Bunun sağdan sola tabloya yönelik bir stil olup olmadığını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sağdan sola tablo stillerini kolayca yönetmek, daha iyi okunabilirlik ve kullanıcı deneyimi için düzeninizi geliştirmek amacıyla TableStyle Bidi özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
 
-Bunun sağdan sola tabloya yönelik bir stil olup olmadığını alır veya ayarlar.
+Bunun sağdan sola bir tablo için bir stil olup olmadığını alır veya ayarlar.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Notlar
 
-Ne zaman`doğru`, satırlardaki hücreler sağdan sola doğru düzenlenir.
+Ne zaman`doğru`, satırlardaki hücreler sağdan sola doğru yerleştirilir.
 
 Varsayılan değer:`YANLIŞ`.
 
@@ -55,7 +55,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,14 +3,14 @@ title: ShapeBase.BehindText
 linktitle: BehindText
 articleTitle: BehindText
 second_title: Aspose.Words för .NET
-description: ShapeBase BehindText fast egendom. Anger om formen är under eller över text i C#.
+description: Upptäck ShapeBase BehindText-egenskapen för att styra formlager i dina designer, vilket enkelt förbättrar textens synlighet och layoutens precision.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Anger om formen är under eller över text.
+Anger om formen är under eller ovanför texten.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -18,7 +18,7 @@ public bool BehindText { get; set; }
 
 ## Anmärkningar
 
-Har effekt endast för former på högsta nivå.
+Har endast effekt för former på översta nivån.
 
 Standardvärdet är`falsk`.
 
@@ -30,7 +30,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

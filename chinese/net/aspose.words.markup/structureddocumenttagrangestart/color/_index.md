@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart Color 财产. 获取或设置结构化文档标签的颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何自定义 StructuredDocumentTagRangeStart 的颜色属性，以增强文档格式并提高视觉吸引力。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.BuildingBlockGallery
 linktitle: BuildingBlockGallery
 articleTitle: BuildingBlockGallery
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTag BuildingBlockGallery propriété. Spécifie le type de bloc de construction pour celaTSD . Ne peut pas êtrenul  en C#.
+description: Découvrez la propriété StructuredDocumentTag BuildingBlockGallery, qui définit le type de bloc de construction de votre SDT. Personnalisez vos documents en toute simplicité !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Spécifie le type de bloc de construction pour cela**TSD** . Ne peut pas être`nul` .
+Spécifie le type de bloc de construction pour cela**SDT** . Ne peut pas être`nul` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockGallery { get; set; }
 
 ## Remarques
 
-L'accès à cette propriété ne fonctionnera que pourBuildingBlockGallery et DocPartObj Types SDT. Il est en lecture seule pour**TSD** du type de partie de document.
+L'accès à cette propriété ne fonctionnera que pourBuildingBlockGallery et DocPartObj Types SDT. Il est en lecture seule pour**SDT** du type de partie de document.
 
 Pour tous les autres types de SDT, une exception se produira.
 
 ## Exemples
 
-Montre comment insérer une balise de document structuré en tant que bloc de construction et définir sa catégorie et sa galerie.
+Montre comment insérer une balise de document structurée en tant que bloc de construction et définir sa catégorie et sa galerie.
 
 ```csharp
 Document doc = new Document();

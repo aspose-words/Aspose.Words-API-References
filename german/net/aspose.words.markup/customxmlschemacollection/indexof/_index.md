@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words für .NET
-description: CustomXmlSchemaCollection IndexOf methode. Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück in C#.
+description: Entdecken Sie die IndexOf-Methode von CustomXmlSchemaCollection, die effizient den nullbasierten Index eines beliebigen angegebenen Werts in Ihrer XML-Sammlung findet.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/customxmlschemacollection/indexof/
 ---
 ## CustomXmlSchemaCollection.IndexOf method
 
-Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück.
+Gibt den nullbasierten Index des angegebenen Werts in der Auflistung zurück.
 
 ```csharp
 public int IndexOf(string value)
@@ -18,11 +18,11 @@ public int IndexOf(string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | String | Der zu suchende Wert, bei dem die Groß-/Kleinschreibung beachtet werden soll. |
+| value | String | Der zu suchende Wert unter Beachtung der Groß- und Kleinschreibung. |
 
 ### Rückgabewert
 
-Der auf Null basierende Index. Negativer Wert, wenn nicht gefunden.
+Der nullbasierte Index. Negativer Wert, wenn nicht gefunden.
 
 ## Beispiele
 
@@ -35,11 +35,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Eine XML-Schema-Zuordnung hinzufügen.
+// Eine XML-Schemazuordnung hinzufügen.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Klonen Sie die XML-Schema-Zuordnungssammlung des benutzerdefinierten XML-Teils.
-// und dann ein paar neue Schemata zum Klon hinzufügen.
+// Klonen Sie die XML-Schema-Assoziationssammlung des benutzerdefinierten XML-Teils.
+// und fügen Sie dem Klon dann ein paar neue Schemata hinzu.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -47,21 +47,21 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Zählen Sie die Schemata auf und drucken Sie jedes Element aus.
+// Schemata aufzählen und jedes Element drucken.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nachfolgend finden Sie drei Möglichkeiten, Schemata aus der Sammlung zu entfernen.
-// 1 – Ein Schema nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen von Schemas aus der Sammlung aufgeführt.
+// 1 – Entfernen Sie ein Schema nach Index:
 schemas.RemoveAt(2);
 
-// 2 – Ein Schema nach Wert entfernen:
+// 2 – Entfernen Sie ein Schema nach Wert:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 – Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
+// 3 - Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

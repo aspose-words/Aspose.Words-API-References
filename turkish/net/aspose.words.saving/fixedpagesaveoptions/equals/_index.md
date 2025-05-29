@@ -2,15 +2,15 @@
 title: FixedPageSaveOptions.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: FixedPageSaveOptions Equals yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler C#'da.
+second_title: .NET için Aspose.Words
+description: FixedPageSaveOptions Equals yönteminin, uygulamalarınızda doğru veri işlemeyi garantilemek için değerlerinizin geçerli nesnenizle eşit olup olmadığını nasıl denetlediğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/equals/
 ---
 ## FixedPageSaveOptions.Equals method
 
-Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+Belirtilen nesnenin geçerli nesneye eşit değerde olup olmadığını belirler.
 
 ```csharp
 public override bool Equals(object obj)

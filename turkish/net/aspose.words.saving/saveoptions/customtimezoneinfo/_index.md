@@ -2,8 +2,8 @@
 title: SaveOptions.CustomTimeZoneInfo
 linktitle: CustomTimeZoneInfo
 articleTitle: CustomTimeZoneInfo
-second_title: Aspose.Words for .NET
-description: SaveOptions CustomTimeZoneInfo mülk. Tarih/saat alanları için kullanılan özel yerel saat dilimini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions CustomTimeZoneInfo ile tarih/saat alanlarını zahmetsizce yönetin. Gelişmiş doğruluk ve esneklik için benzersiz yerel saat diliminizi ayarlayın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/saveoptions/customtimezoneinfo/
@@ -18,9 +18,9 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 
 ## Notlar
 
-Bu seçenek, 3.5 sürümünden itibaren .Net çerçevesinde veya .Net Standard'ta mevcuttur.
+Bu seçenek .Net Framework 3.5 versiyonundan itibaren veya .Net Standard'da mevcuttur.
 
-Aspose.Words varsayılan olarak tarih/saat alanlarını yazarken sistemin yerel saat dilimini kullanır; bu seçenek özel değerin ayarlanmasına olanak tanır.
+Varsayılan olarak Aspose.Words tarih/saat alanlarını yazarken sistem yerel saat dilimini kullanır, bu seçenek özel değer ayarlamanıza olanak tanır.
 
 ### Ayrıca bakınız
 

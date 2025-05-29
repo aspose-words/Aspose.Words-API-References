@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag Clear metod. Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare om den är definierad i C#.
+description: Rensa enkelt innehållet i din strukturerade dokumenttagg med metoden Rensa och visa en definierad platshållare för förbättrad dokumenthantering.
 type: docs
-weight: 340
+weight: 360
 url: /sv/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
 
-Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare om den är definierad.
+Rensar innehållet i den här strukturerade dokumenttaggen och visar en platshållare om den är definierad.
 
 ```csharp
 public void Clear()
@@ -20,20 +20,20 @@ public void Clear()
 
 Det är inte möjligt att rensa innehållet i en strukturerad dokumenttagg om den har revideringar.
 
-Om denna strukturerade dokumenttagg är mappad till anpassad XML (med hjälp av[`XmlMapping`](../xmlmapping/) egenskapen), rensas den refererade XML-noden.
+Om den här strukturerade dokumenttaggen mappas till anpassad XML (med hjälp av[`XmlMapping`](../xmlmapping/)(egenskapen ) rensas den refererade XML-noden.
 
 ## Exempel
 
-Visar hur man tar bort innehållet i strukturerade dokumenttaggelement.
+Visar hur man tar bort innehållet i taggelement i strukturerade dokument.
 
 ```csharp
 Document doc = new Document();
 
-// Skapa en textstrukturerad dokumenttagg och lägg sedan till den i dokumentet.
+// Skapa en strukturerad dokumenttagg i vanlig text och lägg sedan till den i dokumentet.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Den här strukturerade dokumenttaggen, som är i form av en textruta, visar redan platshållartext.
+// Denna strukturerade dokumenttagg, som är i form av en textruta, visar redan platshållartext.
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
@@ -46,8 +46,8 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// Ställ in den strukturerade dokumenttaggens "PlaceholderName"-egenskap till vårt byggblocks namn för att få
-// den strukturerade dokumenttaggen för att visa innehållet i byggblocket istället för den ursprungliga standardtexten.
+// Ange egenskapen "PlaceholderName" för den strukturerade dokumenttaggen till namnet på vårt byggblock för att få
+// taggen för det strukturerade dokumentet för att visa innehållet i byggblocket istället för den ursprungliga standardtexten.
 tag.PlaceholderName = "My placeholder";
 
 Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
@@ -60,7 +60,7 @@ tag.IsShowingPlaceholderText = false;
 
 Assert.AreEqual("New text.", tag.GetText().Trim());
 
-// Använd metoden "Rensa" för att rensa innehållet i denna strukturerade dokumenttagg och visa platshållaren igen.
+// Använd metoden "Rensa" för att rensa innehållet i den här strukturerade dokumenttaggen och visa platshållaren igen.
 tag.Clear();
 
 Assert.True(tag.IsShowingPlaceholderText);

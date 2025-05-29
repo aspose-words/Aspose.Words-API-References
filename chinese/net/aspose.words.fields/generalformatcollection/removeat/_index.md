@@ -2,15 +2,15 @@
 title: GeneralFormatCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: GeneralFormatCollection RemoveAt 方法. 删除指定索引处出现的通用格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveAt 方法轻松从 GeneralFormatCollection 中移除特定事件。立即简化您的数据管理！
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/generalformatcollection/removeat/
 ---
 ## GeneralFormatCollection.RemoveAt method
 
-删除指定索引处出现的通用格式。
+删除指定索引处的通用格式。
 
 ```csharp
 public void RemoveAt(int index)
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

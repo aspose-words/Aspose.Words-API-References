@@ -3,9 +3,9 @@ title: FieldInfo Class
 linktitle: FieldInfo
 articleTitle: FieldInfo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldInfo فصل. ينفذ حقل INFO في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldInfo، الحل الأمثل لتطبيق حقل INFO بكفاءة في معالجة المستندات. اكتشف ميزاتها الفعّالة اليوم!
 type: docs
-weight: 2080
+weight: 2490
 url: /ar/net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class
@@ -28,43 +28,43 @@ public class FieldInfo : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [InfoType](../../aspose.words.fields/fieldinfo/infotype/) { get; set; } | الحصول على أو تعيين نوع خاصية المستند المراد إدراجه. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [NewValue](../../aspose.words.fields/fieldinfo/newvalue/) { get; set; } | الحصول على قيمة اختيارية أو تعيينها لتحديث الخاصية. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [InfoType](../../aspose.words.fields/fieldinfo/infotype/) { get; set; } | يحصل على نوع خاصية المستند المراد إدراجها أو يعينه. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [NewValue](../../aspose.words.fields/fieldinfo/newvalue/) { get; set; } | يحصل على قيمة اختيارية لتحديث الخاصية أو يعينها. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-إدراج معلومات حول إحدى خصائص المستند.
+يقوم بإدراج معلومات حول خاصية المستند.
 
 ## أمثلة
 
-يوضح كيفية العمل مع حقول INFO.
+يوضح كيفية العمل مع حقول المعلومات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين قيمة للخاصية المضمنة "التعليقات"، ثم قم بإدراج حقل INFO لعرض قيمة تلك الخاصية.
+// قم بتعيين قيمة لخاصية "التعليقات" المضمنة ثم أدخل حقل INFO لعرض قيمة تلك الخاصية.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -76,7 +76,7 @@ Assert.AreEqual("My comment", field.Result);
 builder.Writeln();
 
 // تعيين قيمة لخاصية NewValue للحقل وتحديثها
-// سيقوم الحقل أيضًا باستبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
+// سوف يقوم الحقل أيضًا باستبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

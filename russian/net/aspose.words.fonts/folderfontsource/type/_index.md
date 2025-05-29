@@ -3,7 +3,7 @@ title: FolderFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: FolderFontSource Type свойство. Возвращает тип источника шрифта на С#.
+description: Откройте для себя свойство FolderFontSource Type. Легко определяйте типы источников шрифтов, чтобы улучшить свои дизайн-проекты и оптимизировать рабочий процесс.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/folderfontsource/type/
@@ -21,7 +21,7 @@ public override FontSourceType Type { get; }
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
 ```csharp
-// Создать источник шрифта из папки, содержащей файлы шрифтов.
+// Создаем источник шрифтов из папки, содержащей файлы шрифтов.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

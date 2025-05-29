@@ -3,7 +3,7 @@ title: FieldSet.BookmarkText
 linktitle: BookmarkText
 articleTitle: BookmarkText
 second_title: Aspose.Words für .NET
-description: FieldSet BookmarkText eigendom. Ruft den neuen Text des Lesezeichens ab oder legt ihn fest in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „FieldSet BookmarkText“ einfach verwalten können, um Ihre Lesezeichen anzupassen und zu verbessern und so eine bessere Organisation und Zugänglichkeit zu erreichen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldset/bookmarktext/
@@ -18,13 +18,13 @@ public string BookmarkText { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie mit einem SET-Feld markierten Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
+Zeigt, wie Sie mit einem SET-Feld mit Lesezeichen versehenen Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Mit einem Lesezeichen versehenen Text mit einem SET-Feld benennen.
+    // Benennen Sie mit einem SET-Feld markierten Text.
 // Dieses Feld bezieht sich auf das „Lesezeichen“, nicht auf eine Lesezeichenstruktur, die im Text erscheint, sondern auf eine benannte Variable.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// In einem REF-Feld namentlich auf das Lesezeichen verweisen und seinen Inhalt anzeigen.
+// Verweisen Sie in einem REF-Feld per Namen auf das Lesezeichen und zeigen Sie seinen Inhalt an.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

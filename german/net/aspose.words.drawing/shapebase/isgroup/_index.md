@@ -3,14 +3,14 @@ title: ShapeBase.IsGroup
 linktitle: IsGroup
 articleTitle: IsGroup
 second_title: Aspose.Words für .NET
-description: ShapeBase IsGroup eigendom. Gibt zurückWAHR wenn es sich um eine Gruppenform handelt in C#.
+description: Entdecken Sie ShapeBase IsGroup. Erkennen Sie ganz einfach, ob eine Form eine Gruppe ist. Verbessern Sie Ihren Design-Workflow mit dieser wichtigen Eigenschaft für eine bessere Organisation.
 type: docs
-weight: 260
+weight: 280
 url: /de/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Gibt zurück`WAHR` wenn es sich um eine Gruppenform handelt.
+Rückgaben`WAHR` wenn dies eine Gruppenform ist.
 
 ```csharp
 public bool IsGroup { get; }
@@ -18,7 +18,7 @@ public bool IsGroup { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -58,7 +58,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

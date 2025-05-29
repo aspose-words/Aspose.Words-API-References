@@ -3,14 +3,14 @@ title: PdfSaveOptions.UseCoreFonts
 linktitle: UseCoreFonts
 articleTitle: UseCoreFonts
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions UseCoreFonts fast egendom. Hämtar eller ställer in ett värde som avgör om TrueTypeteckensnitten Arial Times New Roman Courier New och Symbol ska ersättas med kärnPDF Type 1teckensnitt i C#.
+description: Optimera dina PDF-filer med PdfSaveOptions! Kontrollera teckensnittsersättning för TrueType-teckensnitt som Arial och Times New Roman för att förbättra dokumentkvaliteten.
 type: docs
-weight: 310
+weight: 330
 url: /sv/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-Hämtar eller ställer in ett värde som avgör om TrueType-teckensnitten Arial, Times New Roman, Courier New och Symbol ska ersättas med kärn-PDF Type 1-teckensnitt.
+Hämtar eller anger ett värde som avgör om TrueType-teckensnitten Arial, Times New Roman, Courier New och Symbol ska ersättas med kärn-PDF Type 1-teckensnitt.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -18,21 +18,21 @@ public bool UseCoreFonts { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`falsk` . När detta värde är satt till`Sann` Teckensnitten Arial, Times New Roman, Courier New och Symbol ersätts i PDF-dokument med motsvarande typsnitt typ 1.
+Standardvärdet är`falsk` När detta värde är inställt på`sann` Typsnitten Arial, Times New Roman, Courier New och Symbol ersätts i PDF-dokumentet med motsvarande kärntypsnitt av typ 1.
 
-Grundläggande PDF-teckensnitt, eller deras teckensnittsmått och lämpliga ersättningsteckensnitt, måste vara tillgängliga för any PDF-visningsprogram.
+Kärnteckensnitt i PDF-format, eller deras teckensnittsvärden och lämpliga ersättningsteckensnitt, måste vara tillgängliga för alla PDF-visningsprogram.
 
-Den här inställningen fungerar endast för text i ANSI-kodning (Windows-1252). Icke-ANSI-text kommer att skrivas med inbäddat TrueType-teckensnitt oavsett denna inställning.
+Den här inställningen fungerar endast för text i ANSI-kodning (Windows-1252). Text som inte är ANSI kommer att skrivas med inbäddat TrueType-teckensnitt oavsett den här inställningen.
 
-PDF/A- och PDF/UA-kompatibilitet kräver att alla teckensnitt är inbäddade.`falsk` värde kommer att användas automatiskt när du sparar till PDF/A och PDF/UA.
+PDF/A- och PDF/UA-efterlevnad kräver att alla teckensnitt är inbäddade.`falsk` Värdet kommer att användas automatiskt när man sparar till PDF/A och PDF/UA.
 
-Kärnteckensnitt stöds inte när du sparar till PDF 2.0-format.`falsk` värde kommer att användas automatiskt när du sparar till PDF 2.0.
+Kärnteckensnitt stöds inte när man sparar i PDF 2.0-format.`falsk` Värdet kommer att användas automatiskt när du sparar till PDF 2.0.
 
-Detta alternativ har högre prioritet då[`FontEmbeddingMode`](../fontembeddingmode/) alternativ.
+Det här alternativet har högre prioritet än[`FontEmbeddingMode`](../fontembeddingmode/) alternativ.
 
 ## Exempel
 
-Visar hur du aktiverar/inaktiverar PDF Typ 1-teckensnittsersättning.
+Visar hur man aktiverar/inaktiverar PDF Type 1-teckensnittsersättning.
 
 ```csharp
 Document doc = new Document();
@@ -43,21 +43,15 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
-// Ställ in egenskapen "UseCoreFonts" till "true" för att ersätta vissa teckensnitt,
-// inklusive de två typsnitten i vårt dokument, med deras PDF Type 1-ekvivalenter.
-// Ställ in egenskapen "UseCoreFonts" på "false" för att inte tillämpa PDF Typ 1-teckensnitt.
+// Sätt egenskapen "UseCoreFonts" till "true" för att ersätta vissa teckensnitt,
+// inklusive de två teckensnitten i vårt dokument, med deras PDF Typ 1-motsvarigheter.
+// Sätt egenskapen "UseCoreFonts" till "false" för att inte tillämpa PDF Type 1-teckensnitt.
 options.UseCoreFonts = useCoreFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);
-
-if (useCoreFonts)
-    Assert.That(3000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
-else
-    Assert.That(30000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
 ```
 
 ### Se även

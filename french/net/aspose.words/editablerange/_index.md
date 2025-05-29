@@ -3,16 +3,16 @@ title: EditableRange Class
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.EditableRange classe. Représente une seule plage modifiable en C#.
+description: Découvrez la classe Aspose.Words.EditableRange, votre solution pour gérer facilement les zones de texte modifiables. Améliorez l'édition de vos documents en toute simplicité !
 type: docs
-weight: 1420
+weight: 1830
 url: /fr/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Représente une seule plage modifiable.
 
-Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
+Pour en savoir plus, visitez le[Modèle d'objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article de documentation.
 
 ```csharp
 public class EditableRange
@@ -32,11 +32,11 @@ public class EditableRange
 
 | Nom | La description |
 | --- | --- |
-| [Remove](../../aspose.words/editablerange/remove/)() | Supprime la plage modifiable du document. Ne supprime pas le contenu à l'intérieur de la plage modifiable. |
+| [Remove](../../aspose.words/editablerange/remove/)() | Supprime la plage modifiable du document. Ne supprime pas le contenu de cette plage. |
 
 ## Remarques
 
-`EditableRange` est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un objet unique.
+`EditableRange` est un objet « façade » qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un seul objet.
 
 ## Exemples
 
@@ -50,13 +50,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour l'édition.
+// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour modification.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// Une plage modifiable bien formée a un nœud de début et un nœud de fin.
-// Ces nœuds ont des ID correspondants et englobent des nœuds modifiables.
+// Une plage modifiable bien formée possède un nœud de départ et un nœud de fin.
+// Ces nœuds ont des identifiants correspondants et englobent des nœuds modifiables.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -68,8 +68,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Nous pouvons accéder aux types de nœuds de chaque partie comme ceci. La plage modifiable elle-même n'est pas un nœud,
-// mais une entité composée d'un début, d'une fin et de leur contenu inclus.
+// Nous pouvons accéder aux types de nœuds de chaque partie de cette manière. La plage modifiable elle-même n'est pas un nœud.
+// mais une entité qui se compose d'un début, d'une fin et de leur contenu inclus.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -77,7 +77,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Supprime une plage modifiable. Tous les nœuds qui se trouvaient à l'intérieur de la plage resteront intacts.
+// Supprimer une plage modifiable. Tous les nœuds contenus dans la plage resteront intacts.
 editableRange.Remove();
 ```
 
@@ -113,7 +113,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprimer les détails et le contenu de chaque plage modifiable du document.
+    // Imprimez les détails et le contenu de chaque plage modifiable dans le document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -173,7 +173,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions comprises dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -3,14 +3,14 @@ title: ImageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions MetafileRenderingOptions fast egendom. Tillåter att ange hur metafiler behandlas i den renderade utdata i C#.
+description: Upptäck egenskapen ImageSaveOptions MetafileRenderingOptions för att styra metafilhanteringen i din renderade utdata för förbättrad bildkvalitet.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 ---
 ## ImageSaveOptions.MetafileRenderingOptions property
 
-Tillåter att ange hur metafiler behandlas i den renderade utdata.
+Gör det möjligt att ange hur metafiler behandlas i den renderade utdatan.
 
 ```csharp
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
@@ -18,29 +18,29 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 ## Anmärkningar
 
-NärVector anges, renderar Aspose.Words metafil till vektorgrafik med sin egen metafil-renderingsmotor först och renderar sedan vektor -grafik till bilden.
+NärVector är specificerat, renderar Aspose.Words först metafil till vektorgrafik med hjälp av sin egen renderingsmotor för metafiler och render sedan vector -grafik till bilden.
 
-NärBitmap anges, renderar Aspose.Words metafil direkt till bilden med hjälp av GDI+ metafil renderingsmotor.
+NärBitmap är specificerat, renderar Aspose.Words metafilen direkt till bilden med hjälp av GDI+-renderingsmotorn för metafil.
 
-GDI+-metafilrenderingsmotorn fungerar snabbare, stöder nästan alla metafilfunktioner men på low upplösningar kan det ge inkonsekventa resultat jämfört med resten av vektorgrafik (särskilt för text) på sidan. Aspose.Words-metafilrenderingsmotorn kommer att ge mer konsekventa resultat even på låga upplösningar men fungerar långsammare och kan rendera komplexa metafiler felaktigt.
+GDI+ metafilrenderingsmotorn fungerar snabbare, stöder nästan alla metafilfunktioner, men vid låga upplösningar kan den ge inkonsekventa resultat jämfört med resten av vektorgrafiken (särskilt för text) på sidan. Aspose.Words metafilrenderingsmotor ger ett mer konsekvent resultat även vid låga upplösningar, men den fungerar långsammare och kan rendera komplexa metafiler felaktigt.
 
 Standardvärdet för[`MetafileRenderingMode`](../../metafilerenderingmode/) ärBitmap.
 
 ## Exempel
 
-Visar hur du ställer in renderingsläget när du sparar dokument med Windows Metafile-bilder till andra bildformat.
+Visar hur man ställer in renderingsläget när man sparar dokument med Windows Metafile-bilder till andra bildformat.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(Image.FromFile(ImageDir + "Windows MetaFile.wmf"));
+builder.InsertImage(ImageDir + "Windows MetaFile.wmf");
 
 // När vi sparar dokumentet som en bild kan vi skicka ett SaveOptions-objekt till
-// bestäm hur sparoperationen kommer att bearbeta Windows-metafiler i dokumentet.
+// bestäm hur sparoperationen ska bearbeta Windows-metafiler i dokumentet.
 // Om vi ställer in egenskapen "RenderingMode" till "MetafileRenderingMode.Vector",
-// eller "MetafileRenderingMode.VectorWithFallback", vi kommer att rendera alla metafiler som vektorgrafik.
-// Om vi ställer in egenskapen "RenderingMode" till "MetafileRenderingMode.Bitmap", renderar vi alla metafiler som bitmappar.
+// eller "MetafileRenderingMode.VectorWithFallback", kommer vi att rendera alla metafiler som vektorgrafik.
+// Om vi ställer in egenskapen "RenderingMode" till "MetafileRenderingMode.Bitmap" kommer vi att rendera alla metafiler som bitmappar.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.MetafileRenderingOptions.RenderingMode = metafileRenderingMode;
 // Aspose.Words använder GDI+ för emulering av rasteroperationer, när värdet är satt till sant.

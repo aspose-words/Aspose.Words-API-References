@@ -2,8 +2,8 @@
 title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Font HighlightColor 财产. 获取或设置突出显示标记颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索字体高亮颜色属性——轻松自定义文本高亮颜色，提升可读性和视觉吸引力。提升您的设计！
 type: docs
 weight: 150
 url: /zh/net/aspose.words/font/highlightcolor/
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## 例子
 
-演示如何使用其字体属性设置文本串的格式。
+展示如何使用字体属性来格式化文本。
 
 ```csharp
 Document doc = new Document();

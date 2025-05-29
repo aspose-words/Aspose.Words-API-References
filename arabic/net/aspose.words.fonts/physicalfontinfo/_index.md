@@ -3,14 +3,14 @@ title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo فصل. يحدد معلومات حول الخط الفعلي المتاح لمحرك الخطوط Aspose.Words في C#.
+description: اكتشف فئة Aspose.Words.Fonts.PhysicalFontInfo، التي توفر تفاصيل أساسية حول الخطوط المادية لتحسين معالجة المستندات وتصميمها.
 type: docs
-weight: 3030
+weight: 3460
 url: /ar/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-يحدد معلومات حول الخط الفعلي المتاح لمحرك الخطوط Aspose.Words.
+يحدد معلومات حول الخط المادي المتوفر لمحرك الخطوط Aspose.Words.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
@@ -22,17 +22,18 @@ public class PhysicalFontInfo
 
 | اسم | وصف |
 | --- | --- |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | تضمين حقوق الترخيص للخط. |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | المسار إلى ملف الخط إن وجد. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | اسم عائلة الخط. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | اسم الخط بالكامل. |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | الاسم الكامل للخط. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | سلسلة إصدار الخط. |
 
 ## أمثلة
 
-يوضح كيفية سرد الخطوط المتاحة.
+يوضح كيفية إدراج الخطوط المتوفرة.
 
 ```csharp
-// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
+// قم بتكوين Aspose.Words للحصول على الخطوط من مجلد مخصص، ثم قم بطباعة كل الخطوط المتوفرة.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

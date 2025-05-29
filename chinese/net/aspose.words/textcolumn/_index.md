@@ -2,15 +2,15 @@
 title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.TextColumn 班级. 表示单个文本列TextColumn是的成员TextColumnCollection集合. TextColumn集合包含文档某个部分中的所有列 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.TextColumn 类，用于管理文档中的文本列。轻松访问和自定义文本部分的每一列。
 type: docs
-weight: 6390
+weight: 7240
 url: /zh/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-表示单个文本列。`TextColumn`是的成员[`TextColumnCollection`](../textcolumncollection/)集合. `TextColumn`集合包含文档某个部分中的所有列。
+代表单个文本列。`TextColumn`是[`TextColumnCollection`](../textcolumncollection/)collection. 该`TextColumn`集合包括文档某一部分的所有列。
 
 要了解更多信息，请访问[使用部分](https://docs.aspose.com/words/net/working-with-sections/)文档文章。
 
@@ -29,11 +29,11 @@ public class TextColumn
 
 `TextColumn`对象仅用于指定具有自定义宽度和间距的列。如果您希望文档中的列宽度相等，请设置 TextColumns。[`EvenlySpaced`](../textcolumncollection/evenlyspaced/)到`真的`。
 
-当一个新的`TextColumn`创建后，其宽度和间距设置为零。
+当一个新的`TextColumn`创建后其宽度和间距设置为零。
 
 ## 例子
 
-展示如何创建间隔不均匀的列。
+展示如何创建间距不均匀的列。
 
 ```csharp
 Document doc = new Document();
@@ -44,17 +44,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// 确定可用于排列列的空间量。
+// 确定我们可用于排列列的空间量。
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// 将第一列设置为窄。
+// 将第一列设置为窄列。
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// 设置第二列以占用页面边距内的剩余可用空间。
+// 设置第二列以占据页面边缘内剩余的可用空间。
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

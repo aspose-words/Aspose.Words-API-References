@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFootnotes
 linktitle: IgnoreFootnotes
 articleTitle: IgnoreFootnotes
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions IgnoreFootnotes свойство. Получает или задает логическое значение указывающее следует ли игнорировать сноски. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство FindReplaceOptions IgnoreFootnotes, чтобы легко управлять сносками в документах. Повысьте эффективность редактирования с помощью этого простого переключателя!
 type: docs
 weight: 90
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать сноски. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли игнорировать сноски. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -32,10 +32,10 @@ builder.InsertParagraph();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder.InsertFootnote(FootnoteType.Endnote, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
-// Установите флаг «IgnoreFootnotes» в значение «true», чтобы получить возможность поиска и замены
+// Установите флаг "IgnoreFootnotes" на "true", чтобы получить функцию поиска и замены
 // операция игнорирования текста внутри сносок.
-// Установите флаг «IgnoreFootnotes» в значение «false», чтобы получить возможность поиска и замены
-// операция для поиска текста внутри сносок.
+// Установите флаг "IgnoreFootnotes" на "false", чтобы получить функцию поиска и замены
+// операция также для поиска текста внутри сносок.
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFootnotes = isIgnoreFootnotes };
 doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ```

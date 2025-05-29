@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldSeparator
 linktitle: VisitFieldSeparator
 articleTitle: VisitFieldSeparator
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitFieldSeparator метод. Вызывается когда в документе встречается разделитель полей на С#.
+description: Откройте для себя метод VisitFieldSeparator в DocumentVisitor. Эффективно обрабатывайте разделители полей в документах для упрощения обработки.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldSeparator | FieldSeparator | Объект, который посещается. |
+| fieldSeparator | FieldSeparator | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -26,13 +26,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 ## Примечания
 
-Разделитель полей отделяет код поля от значения поля в документе. Обратите внимание, что некоторые поля содержат только код поля и не имеют разделителя полей и значения поля.
+Разделитель полей отделяет код поля от значения поля в документе. Обратите внимание, что некоторые поля имеют только код поля и не имеют разделителя полей и значения поля.
 
 Для получения дополнительной информации см.[`VisitFieldStart`](../visitfieldstart/)
 
 ## Примеры
 
-Показывает, как распечатать структуру узла каждого поля в документе.
+Показывает, как распечатать структуру узлов каждого поля в документе.
 
 ```csharp
 public void FieldToText()
@@ -40,7 +40,7 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -50,7 +50,7 @@ public void FieldToText()
 
 /// <summary>
 /// Обходит недвоичное дерево дочерних узлов узла.
-/// Создает карту в виде строки всех встреченных узлов Field и их дочерних элементов.
+/// Создает карту в виде строки всех встреченных узлов полей и их дочерних элементов.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -110,7 +110,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов поля.
     /// </summary>
     /// <param name="text"></param>

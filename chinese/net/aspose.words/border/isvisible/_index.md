@@ -2,8 +2,8 @@
 title: Border.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
-second_title: 用于 .NET 的 Aspose.Words
-description: Border IsVisible 财产. 返回真的如果LineStyle不是None 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Border IsVisible 属性如何在应用 LineStyle 时返回 true，从而增强您的设计。使用此关键功能优化您的 UI！
 type: docs
 weight: 30
 url: /zh/net/aspose.words/border/isvisible/
@@ -18,13 +18,13 @@ public bool IsVisible { get; }
 
 ## 例子
 
-演示如何删除段落边框。
+展示如何删除段落的边框。
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
 // 每个段落都有一组单独的边框。
-// 我们可以通过段落格式对象访问这些边框外观的设置。
+// 我们可以通过段落格式对象访问这些边框的外观设置。
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());

@@ -3,9 +3,9 @@ title: CellFormat Class
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.CellFormat فصل. يمثل كافة التنسيقات لخلية الجدول في C#.
+description: اكتشف فئة Aspose.Words.Tables.CellFormat لتنسيق شامل لخلايا الجدول. حسّن تنسيق مستنداتك بميزات سهلة الاستخدام!
 type: docs
-weight: 6260
+weight: 7110
 url: /ar/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
@@ -22,27 +22,28 @@ public class CellFormat
 
 | اسم | وصف |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | الحصول على مجموعة حدود الخلية. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات الخلية. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | إذا`حقيقي` ، لاحتواء النص في الخلية، وضغط كل فقرة على عرض الخلية. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | يحصل على مجموعة من حدود الخلية. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) التي يجب إضافتها أسفل محتويات الخلية. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | إذا`حقيقي` ، يلائم النص في الخلية، ويضغط كل فقرة على عرض الخلية. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } | يعيد أو يحدد إمكانية رؤية علامة الخلية. |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات الخلية. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | إرجاع أو تعيين اتجاه النص في خلية جدول. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | إرجاع أو تعيين العرض المفضل للخلية. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات الخلية. |
-| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | إرجاع أ[`Shading`](../../aspose.words/shading/) الكائن الذي يشير إلى تنسيق التظليل للخلية. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها فوق محتويات الخلية. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | إرجاع أو تعيين المحاذاة الرأسية للنص في الخلية. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يسار محتويات الخلية. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | إرجاع أو تعيين اتجاه النص في خلية الجدول. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | يعيد أو يعين العرض المفضل للخلية. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يمين محتويات الخلية. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | يعيد[`Shading`](../../aspose.words/shading/) الكائن الذي يشير إلى تنسيق التظليل للخلية. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات الخلية. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | يعيد أو يضبط المحاذاة الرأسية للنص في الخلية. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | يحدد كيفية دمج الخلية مع الخلايا الأخرى عموديًا. |
-| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | الحصول على عرض الخلية بالنقاط. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | إذا`حقيقي` ، التفاف النص للخلية. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | يحصل على عرض الخلية بالنقاط. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | إذا`حقيقي` , التفاف النص للخلية. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | يضبط مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار/أعلى/يمين/أسفل محتويات الخلية. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | يُعيد ضبط تنسيق الخلية الافتراضي. لا يُغيّر عرض الخلية. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | يحدد مقدار المساحة (بالنقاط) التي يجب إضافتها إلى اليسار/الأعلى/اليمين/الأسفل من محتويات الخلية. |
 
 ## أمثلة
 
@@ -61,7 +62,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -79,13 +80,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// محتويات جميع الخلايا في هذا الصف.
+// استخدم خاصية "RowFormat" في الصف الأول لتعديل التنسيق
+// من محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// استخدم خاصية "CellFormat" للخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
+//استخدم خاصية "CellFormat" الخاصة بالخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -101,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -126,8 +127,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -138,7 +139,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

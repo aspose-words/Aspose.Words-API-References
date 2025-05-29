@@ -2,10 +2,10 @@
 title: AxisScaling Class
 linktitle: AxisScaling
 articleTitle: AxisScaling
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.AxisScaling 班级. 表示轴的缩放选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.AxisScaling 类以获得可自定义的轴缩放选项，轻松增强图表演示。
 type: docs
-weight: 570
+weight: 820
 url: /zh/net/aspose.words.drawing.charts/axisscaling/
 ---
 ## AxisScaling class
@@ -28,7 +28,7 @@ public class AxisScaling
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase/) { get; set; } | 获取或设置对数轴的对数底。 |
+| [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase/) { get; set; } | 获取或设置对数轴的对数底数。 |
 | [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum/) { get; set; } | 获取或设置轴的最大值。 |
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | 获取或设置轴的最小值。 |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | 获取或设置轴的缩放类型。 |
@@ -48,15 +48,15 @@ Chart chart = chartShape.Chart;
 chart.Series.Clear();
 
 // 插入五个点的 X/Y 坐标系列。
-chart.Series.Add("Series 1", 
-    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 },
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
-// X轴的缩放默认是线性的，
-// 显示覆盖 X 值范围（0、1、2、3...）的均匀递增值。
+// X 轴的缩放默认是线性的，
+// 显示覆盖我们的 X 值范围（0、1、2、3……）的均匀递增值。
 // 线性轴对于我们的 Y 值来说并不理想
 // 因为 Y 值较小的点将更难读取。
-// 以 20 为底的对数缩放 (1, 20, 400, 8000...)
+// 以 20 为底的对数缩放（1、20、400、8000……）
 // 将分散绘制的点，使我们能够更轻松地在图表上读取它们的值。
 chart.AxisY.Scaling.Type = AxisScaleType.Logarithmic;
 chart.AxisY.Scaling.LogBase = 20;

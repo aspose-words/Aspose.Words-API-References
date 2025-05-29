@@ -3,14 +3,14 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words для .NET
-description: TableStyle Shading свойство. ПолучаетShading объект который относится к форматированию затенения ячеек таблицы на С#.
+description: Откройте для себя свойство TableStyle Shading, чтобы улучшить ячейки таблицы с помощью настраиваемого форматирования заливки для придания ей изысканного, профессионального вида.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Получает[`Shading`](../../shading/) объект, который относится к форматированию затенения ячеек таблицы.
+Получает[`Shading`](../../shading/) объект, который ссылается на форматирование затенения ячеек таблицы.
 
 ```csharp
 public Shading Shading { get; }

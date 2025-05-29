@@ -3,7 +3,7 @@ title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
 second_title: Aspose.Words per .NET
-description: ImportFormatOptions IgnoreTextBoxes proprietà. Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto delle caselle di testo viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO  in C#.
+description: Scopri come la proprietà IgnoreTextBoxes di ImportFormatOptions migliora la formattazione dei tuoi documenti controllando il contenuto delle caselle di testo. Ottimizza con facilità oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -21,13 +21,13 @@ public bool IgnoreTextBoxes { get; set; }
 Mostra come gestire la formattazione della casella di testo durante l'aggiunta di un documento.
 
 ```csharp
-// Crea un documento in cui saranno inseriti i nodi di un altro documento.
+// Crea un documento in cui verranno inseriti nodi provenienti da un altro documento.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
 builder.Writeln("Hello world!");
 
-// Crea un altro documento con una casella di testo, che importeremo nel primo documento.
+// Creiamo un altro documento con una casella di testo, che importeremo nel primo documento.
 Document srcDoc = new Document();
 builder = new DocumentBuilder(srcDoc);
 
@@ -43,7 +43,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
 // Importa la casella di testo dal documento di origine al documento di destinazione,
-// e poi verifichiamo se abbiamo preservato lo stile dei suoi contenuti testuali.
+// e quindi verificare se abbiamo mantenuto lo stile del contenuto del testo.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

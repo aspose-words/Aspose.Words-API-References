@@ -2,15 +2,15 @@
 title: ShapeBase.IsHorizontalRule
 linktitle: IsHorizontalRule
 articleTitle: IsHorizontalRule
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase IsHorizontalRule 财产. 返回真的如果这个形状是水平尺 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ShapeBase IsHorizontalRule 属性，轻松识别设计中的水平规则，以提高布局和样式效率。
 type: docs
-weight: 270
+weight: 290
 url: /zh/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-返回`真的`如果这个形状是水平尺.
+返回`真的`如果此形状是水平规则。
 
 ```csharp
 public bool IsHorizontalRule { get; }
@@ -18,7 +18,7 @@ public bool IsHorizontalRule { get; }
 
 ## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+展示如何插入水平线形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

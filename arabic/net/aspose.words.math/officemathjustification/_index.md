@@ -3,9 +3,9 @@ title: OfficeMathJustification Enum
 linktitle: OfficeMathJustification
 articleTitle: OfficeMathJustification
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Math.OfficeMathJustification تعداد. يحدد مبرر المعادلة في C#.
+description: اكتشف خاصية Aspose.Words.Math.OfficeMathJustification enum لمحاذاة المعادلات بدقة. حسّن وضوح مستندك مع خيارات المحاذاة المثالية.
 type: docs
-weight: 4140
+weight: 4830
 url: /ar/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -20,29 +20,29 @@ public enum OfficeMathJustification
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| CenterGroup | `1` | ضبط مثيلات النص الرياضي على اليسار بالنسبة لبعضها البعض، وتوسيط مجموعة النص الرياضي (فقرة الرياضيات) بالنسبة للصفحة. |
-| Center | `2` | يقوم بتوسيط كل مثيل للنص الرياضي بشكل فردي فيما يتعلق بالهوامش. |
-| Left | `3` | التبرير الأيسر للفقرة الرياضية. |
-| Right | `4` | التبرير الصحيح للفقرة الرياضية. |
-| Inline | `7` | الموضع المضمّن للرياضيات. |
+| CenterGroup | `1` | يحدد أماكن مثيلات النص الرياضي إلى اليسار بالنسبة لبعضها البعض، ويركز مجموعة النص الرياضي (فقرة الرياضيات) بالنسبة للصفحة. |
+| Center | `2` | يقوم بمركز كل مثيل للنص الرياضي بشكل فردي فيما يتعلق بالهوامش. |
+| Left | `3` | محاذاة إلى اليسار للفقرة الرياضية. |
+| Right | `4` | تبرير صحيح للفقرة الرياضية. |
+| Inline | `7` | الموضع المضمن لـ Math. |
 | Default | `1` | القيمة الافتراضيةCenterGroup . |
 
 ## أمثلة
 
-يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
+يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// عقد OfficeMath التي تعد أبناء لعقد OfficeMath الأخرى تكون دائمًا مضمنة.
 // العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// تغيير الموقع ونوع العرض لعقدة OfficeMath.
+// تغيير موقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

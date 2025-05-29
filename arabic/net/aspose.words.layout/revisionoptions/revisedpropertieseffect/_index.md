@@ -3,22 +3,24 @@ title: RevisionOptions.RevisedPropertiesEffect
 linktitle: RevisedPropertiesEffect
 articleTitle: RevisedPropertiesEffect
 second_title: Aspose.Words لـ .NET
-description: RevisionOptions RevisedPropertiesEffect ملكية. يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNone في C#.
+description: اكتشف كيف يُحسّن تأثير RevisedPropertiesEffect في RevisionOptions تنسيق محتواك. خصّص التغييرات بسهولة باستخدام ميزة FormatChange.
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
 ## RevisionOptions.RevisedPropertiesEffect property
 
-يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNone
+يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات خصائص التنسيقFormatChange القيمة الافتراضية هيNone
 
 ```csharp
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-## ملاحظات
+### استثناءات
 
-Hiddenغير مسموح به وسوف يسببArgumentOutOfRangeException.
+| استثناء | حالة |
+| --- | --- |
+| ArgumentOutOfRangeException | Hidden غير مسموح به. |
 
 ## أمثلة
 
@@ -34,37 +36,37 @@ RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// عرض مراجعات الحذف باللون الأحمر والغامق.
+// عرض مراجعات الحذف باللون الأحمر والخط العريض.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// سيظهر النص نفسه مرتين في مراجعة الحركة:
-// مرة عند نقطة المغادرة ومرة عند نقطة الوصول.
-// اجعل النص عند النسخة المنقول منها باللون الأصفر بضربة مزدوجة
-// ووضع خط تحته خط مزدوج باللون الأزرق عند المراجعة التي تم نقلها.
+// سوف يظهر نفس النص مرتين في مراجعة الحركة:
+// مرة واحدة عند نقطة المغادرة ومرة واحدة عند وجهة الوصول.
+// قم بإظهار النص في النسخة المنقولة باللون الأصفر مع خط مزدوج
+// وتم وضع خط مزدوج باللون الأزرق في المراجعة المنقولة إليها.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// عرض مراجعات التنسيق باللون الأحمر الداكن والغامق.
+// تقديم مراجعات التنسيق باللون الأحمر الداكن والخط العريض.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// ضع شريطًا سميكًا باللون الأزرق الداكن على الجانب الأيسر من الصفحة بجوار الأسطر المتأثرة بالمراجعات.
+// ضع شريطًا أزرق داكنًا سميكًا على الجانب الأيسر من الصفحة بجوار الأسطر المتأثرة بالمراجعة.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// إظهار علامات المراجعة والنص الأصلي.
+//إظهار علامات المراجعة والنص الأصلي.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// احصل على الحركة والحذف ومراجعات التنسيق والتعليقات لتظهر في بالونات خضراء
-// على الجانب الأيمن من الصفحة.
+// احصل على الحركة والحذف ومراجعة التنسيق والتعليقات لتظهر في البالونات الخضراء
+//على الجانب الأيمن من الصفحة.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// تنطبق هذه الميزات فقط على تنسيقات مثل ‎.pdf أو ‎.jpg.
+// تنطبق هذه الميزات فقط على التنسيقات مثل .pdf أو .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

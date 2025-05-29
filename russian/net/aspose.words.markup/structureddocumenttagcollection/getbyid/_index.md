@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagCollection GetById метод. Возвращает тег структурированного документа по идентификатору на С#.
+description: Извлекайте структурированные теги документов без усилий с помощью метода GetById. Получайте быстрый доступ к данным и повышайте эффективность управления документами.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
 ## StructuredDocumentTagCollection.GetById method
 
-Возвращает тег структурированного документа по идентификатору.
+Возвращает структурированный тег документа по идентификатору.
 
 ```csharp
 public IStructuredDocumentTag GetById(int id)
@@ -18,11 +18,11 @@ public IStructuredDocumentTag GetById(int id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | Идентификатор тега структурированного документа. |
+| id | Int32 | Идентификатор структурированного тега документа. |
 
 ## Примечания
 
-Возвращает значение NULL, если тег структурированного документа с указанным идентификатором не найден.
+Возвращает null, если структурированный тег документа с указанным идентификатором не найден.
 
 ## Примеры
 
@@ -31,12 +31,12 @@ public IStructuredDocumentTag GetById(int id)
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Получаем тег структурированного документа по идентификатору.
+// Получить структурированный тег документа по идентификатору.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// Получаем тег структурированного документа или тег с ранжированием по заголовку.
+// Получить структурированный тег документа или ранжированный тег по заголовку.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

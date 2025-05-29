@@ -3,16 +3,16 @@ title: CompatibilityOptions.OptimizeFor
 linktitle: OptimizeFor
 articleTitle: OptimizeFor
 second_title: Aspose.Words para .NET
-description: CompatibilityOptions OptimizeFor método. Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word en C#.
+description: Mejore sus documentos con el método OptimizeFor en Opciones de compatibilidad. Adapte el comportamiento de Aspose.Words a versiones específicas de MS Word para obtener resultados óptimos.
 type: docs
 weight: 720
 url: /es/net/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions.OptimizeFor method
 
-Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word.
+Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word.
 
-Utilice este método para evitar que MS Word muestre la cinta "Modo de compatibilidad" al cargar el documento. (Tenga en cuenta que es posible que también deba configurar el[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) propiedad a Iso29500_2008_Transitional o superior.)
+Utilice este método para evitar que MS Word muestre la cinta "Modo de compatibilidad" al cargar el documento. (Tenga en cuenta que es posible que también deba configurar el modo de compatibilidad).[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) propiedad to Iso29500_2008_Transitional o superior.)
 
 ```csharp
 public void OptimizeFor(MsWordVersion version)
@@ -28,12 +28,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
 // alinea el texto en este cuadro de texto con el lado superior de la forma.
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
-// alinea el texto en este cuadro de texto con el centro de la forma.
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
-// alinea el texto de este cuadro de texto con la parte inferior de la forma.
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
+// alinea el texto en este cuadro de texto al centro de la forma.
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
+// alinea el texto en este cuadro de texto con la parte inferior de la forma.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
@@ -44,22 +44,22 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```
 
-Muestra cómo establecer una especificación de cumplimiento de OOXML para que se adhiera a un documento guardado.
+Muestra cómo establecer una especificación de cumplimiento de OOXML para que la respete un documento guardado.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si configuramos opciones de compatibilidad para cumplir con Microsoft Word 2003,
-// insertar una imagen definirá su forma usando VML.
+// Si configuramos las opciones de compatibilidad para cumplir con Microsoft Word 2003,
+// Insertar una imagen definirá su forma usando VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // El estándar OOXML "ISO/IEC 29500:2008" no admite formas VML.
-// Si configuramos la propiedad "Cumplimiento" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
- // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
+// Si establecemos la propiedad "Compliance" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
+ // cualquier documento que guardemos mientras pasamos este objeto tendrá que seguir ese estándar.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -68,7 +68,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Nuestro documento guardado define la forma usando DML para cumplir con el estándar OOXML "ISO/IEC 29500:2008".
+//Nuestro documento guardado define la forma usando DML para cumplir con el estándar OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -81,18 +81,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Este objeto contiene una lista extensa de indicadores únicos para cada documento
+    // Este objeto contiene una lista extensa de indicadores exclusivos de cada documento.
     // que nos permiten facilitar la compatibilidad con versiones anteriores de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Imprime la configuración predeterminada para un documento en blanco.
+    // Imprima la configuración predeterminada para un documento en blanco.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
+    //Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzadas" -> "Opciones de compatibilidad para...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
+    //Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -103,28 +103,97 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Agrupa todas las banderas en el objeto de opciones de compatibilidad de un documento por estado, luego imprime cada grupo.
+/// Agrupa todas las banderas en el objeto de opciones de compatibilidad de un documento por estado y luego imprime cada grupo.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {
-    for (int i = 1; i >= 0; i--)
-    {
-        Console.WriteLine(Convert.ToBoolean(i) ? "\tEnabled options:" : "\tDisabled options:");
-        SortedSet<string> optionNames = new SortedSet<string>();
+    IList<string> enabledOptions = new List<string>();
+    IList<string> disabledOptions = new List<string>();
+    AddOptionName(options.AdjustLineHeightInTable, "AdjustLineHeightInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.AlignTablesRowByRow, "AlignTablesRowByRow", enabledOptions, disabledOptions);
+    AddOptionName(options.AllowSpaceOfSameStyleInTable, "AllowSpaceOfSameStyleInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.ApplyBreakingRules, "ApplyBreakingRules", enabledOptions, disabledOptions);
+    AddOptionName(options.AutoSpaceLikeWord95, "AutoSpaceLikeWord95", enabledOptions, disabledOptions);
+    AddOptionName(options.AutofitToFirstFixedWidthCell, "AutofitToFirstFixedWidthCell", enabledOptions, disabledOptions);
+    AddOptionName(options.BalanceSingleByteDoubleByteWidth, "BalanceSingleByteDoubleByteWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.CachedColBalance, "CachedColBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.ConvMailMergeEsc, "ConvMailMergeEsc", enabledOptions, disabledOptions);
+    AddOptionName(options.DisableOpenTypeFontFormattingFeatures, "DisableOpenTypeFontFormattingFeatures", enabledOptions, disabledOptions);
+    AddOptionName(options.DisplayHangulFixedWidth, "DisplayHangulFixedWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotAutofitConstrainedTables, "DoNotAutofitConstrainedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakConstrainedForcedTable, "DoNotBreakConstrainedForcedTable", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakWrappedTables, "DoNotBreakWrappedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotExpandShiftReturn, "DoNotExpandShiftReturn", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotLeaveBackslashAlone, "DoNotLeaveBackslashAlone", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSnapToGridInCell, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressIndentation, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressParagraphBorders, "DoNotSuppressParagraphBorders", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseEastAsianBreakRules, "DoNotUseEastAsianBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseHTMLParagraphAutoSpacing, "DoNotUseHTMLParagraphAutoSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseIndentAsNumberingTabStop, "DoNotUseIndentAsNumberingTabStop", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignCellWithSp, "DoNotVertAlignCellWithSp", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignInTxbx, "DoNotVertAlignInTxbx", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotWrapTextWithPunct, "DoNotWrapTextWithPunct", enabledOptions, disabledOptions);
+    AddOptionName(options.FootnoteLayoutLikeWW8, "FootnoteLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ForgetLastTabAlignment, "ForgetLastTabAlignment", enabledOptions, disabledOptions);
+    AddOptionName(options.GrowAutofit, "GrowAutofit", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutRawTableWidth, "LayoutRawTableWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutTableRowsApart, "LayoutTableRowsApart", enabledOptions, disabledOptions);
+    AddOptionName(options.LineWrapLikeWord6, "LineWrapLikeWord6", enabledOptions, disabledOptions);
+    AddOptionName(options.MWSmallCaps, "MWSmallCaps", enabledOptions, disabledOptions);
+    AddOptionName(options.NoColumnBalance, "NoColumnBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.NoExtraLineSpacing, "NoExtraLineSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.NoLeading, "NoLeading", enabledOptions, disabledOptions);
+    AddOptionName(options.NoSpaceRaiseLower, "NoSpaceRaiseLower", enabledOptions, disabledOptions);
+    AddOptionName(options.NoTabHangInd, "NoTabHangInd", enabledOptions, disabledOptions);
+    AddOptionName(options.OverrideTableStyleFontSizeAndJustification, "OverrideTableStyleFontSizeAndJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintBodyTextBeforeHeader, "PrintBodyTextBeforeHeader", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintColBlack, "PrintColBlack", enabledOptions, disabledOptions);
+    AddOptionName(options.SelectFldWithFirstOrLastChar, "SelectFldWithFirstOrLastChar", enabledOptions, disabledOptions);
+    AddOptionName(options.ShapeLayoutLikeWW8, "ShapeLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ShowBreaksInFrames, "ShowBreaksInFrames", enabledOptions, disabledOptions);
+    AddOptionName(options.SpaceForUL, "SpaceForUL", enabledOptions, disabledOptions);
+    AddOptionName(options.SpacingInWholePoints, "SpacingInWholePoints", enabledOptions, disabledOptions);
+    AddOptionName(options.SplitPgBreakAndParaMark, "SplitPgBreakAndParaMark", enabledOptions, disabledOptions);
+    AddOptionName(options.SubFontBySize, "SubFontBySize", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressBottomSpacing, "SuppressBottomSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpBfAfterPgBrk, "SuppressSpBfAfterPgBrk", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpacingAtTopOfPage, "SuppressSpacingAtTopOfPage", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacing, "SuppressTopSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacingWP, "SuppressTopSpacingWP", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapBordersFacingPgs, "SwapBordersFacingPgs", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning, "SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning", enabledOptions, disabledOptions);
+    AddOptionName(options.TransparentMetafiles, "TransparentMetafiles", enabledOptions, disabledOptions);
+    AddOptionName(options.TruncateFontHeightsLikeWP6, "TruncateFontHeightsLikeWP6", enabledOptions, disabledOptions);
+    AddOptionName(options.UICompat97To2003, "UICompat97To2003", enabledOptions, disabledOptions);
+    AddOptionName(options.UlTrailSpace, "UlTrailSpace", enabledOptions, disabledOptions);
+    AddOptionName(options.UnderlineTabInNumList, "UnderlineTabInNumList", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAltKinsokuLineBreakRules, "UseAltKinsokuLineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAnsiKerningPairs, "UseAnsiKerningPairs", enabledOptions, disabledOptions);
+    AddOptionName(options.UseFELayout, "UseFELayout", enabledOptions, disabledOptions);
+    AddOptionName(options.UseNormalStyleForList, "UseNormalStyleForList", enabledOptions, disabledOptions);
+    AddOptionName(options.UsePrinterMetrics, "UsePrinterMetrics", enabledOptions, disabledOptions);
+    AddOptionName(options.UseSingleBorderforContiguousCells, "UseSingleBorderforContiguousCells", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2002TableStyleRules, "UseWord2002TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2010TableStyleRules, "UseWord2010TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord97LineBreakRules, "UseWord97LineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.WPJustification, "WPJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.WPSpaceWidth, "WPSpaceWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.WrapTrailSpaces, "WrapTrailSpaces", enabledOptions, disabledOptions);
+    Console.WriteLine("\tEnabled options:");
+    foreach (string optionName in enabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+    Console.WriteLine("\tDisabled options:");
+    foreach (string optionName in disabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+}
 
-        foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(options))
-        {
-            if (descriptor.PropertyType == Type.GetType("System.Boolean") && i == Convert.ToInt32(descriptor.GetValue(options)))
-            {
-                optionNames.Add(descriptor.Name);
-            }
-        }
-
-        foreach (string s in optionNames)
-        {
-            Console.WriteLine($"\t\t{s}");
-        }
-    }
+private static void AddOptionName(Boolean option, String optionName, IList<string> enabledOptions, IList<string> disabledOptions)
+{
+    if (option)
+        enabledOptions.Add(optionName);
+    else
+        disabledOptions.Add(optionName);
 }
 ```
 

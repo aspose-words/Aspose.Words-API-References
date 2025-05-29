@@ -2,17 +2,17 @@
 title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WarningInfoCollection sınıf. Yazılı bir koleksiyonu temsil ederWarningInfo nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: WarningInfo nesnelerini yönetmek, belge işlemeyi ve hata işlemeyi geliştirmek için güçlü bir sınıf olan Aspose.Words.WarningInfoCollection'ı keşfedin.
 type: docs
-weight: 6640
+weight: 7490
 url: /tr/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Yazılı bir koleksiyonu temsil eder[`WarningInfo`](../warninginfo/) nesneler.
+Türlü bir koleksiyonu temsil eder[`WarningInfo`](../warninginfo/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) belgeleme makalesi.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -28,7 +28,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/warninginfocollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [Count](../../aspose.words/warninginfocollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
 | [Item](../../aspose.words/warninginfocollection/item/) { get; } | Belirtilen dizindeki bir öğeyi alır. |
 
 ## yöntemler
@@ -36,12 +36,12 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | İsim | Tanım |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Uygular[`IWarningCallback`](../iwarningcallback/) arayüz. Bu koleksiyona bir uyarı ekler. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Şunu uygular:[`IWarningCallback`](../iwarningcallback/) arayüz. Bu koleksiyona bir uyarı ekler. |
 
 ## Notlar
 
-Bu koleksiyon nesnesini en basit biçimi olarak kullanabilirsiniz.[`IWarningCallback`](../iwarningcallback/) Aspose.Words'ün yükleme veya kaydetme işlemi sırasında ürettiği tüm uyarıları toplamak için uygulama. Bu sınıfın bir örneğini oluşturun ve onu olarak atayın.[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) veya[`WarningCallback`](../documentbase/warningcallback/) mülk.
+Bu koleksiyon nesnesini en basit haliyle kullanabilirsiniz[`IWarningCallback`](../iwarningcallback/) Aspose.Words'ün bir yükleme veya kaydetme işlemi sırasında ürettiği tüm uyarıları toplamak için uygulaması. Bu sınıfın bir örneğini oluşturun ve bunu 'ye atayın[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) veya[`WarningCallback`](../documentbase/warningcallback/) mülk.
 
 ## Örnekler
 
@@ -50,23 +50,23 @@ Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşme
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belgeyi açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
+    // Yazı tipi değiştirme uyarılarını işlemek için bir geri çağırma atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değişimini etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    // Font değişiminden sonra orijinal font ölçütleri kullanılmalıdır.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
+    // Eksik font içeren bir belgeyi kaydedersek font değiştirme uyarısı alırız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -74,7 +74,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
+    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -82,13 +82,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Yükleme/kaydetme sırasında her uyarı oluştuğunda çağrılır.
+    /// Yükleme/kaydetme sırasında bir uyarı oluştuğunda her seferinde çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

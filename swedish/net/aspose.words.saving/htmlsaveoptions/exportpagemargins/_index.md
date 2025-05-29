@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportPageMargins fast egendom. Anger om sidmarginaler exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportPageMargins förbättrar dina HTML-, MHTML- och EPUB-exporter genom att styra sidmarginalerna för en elegant presentation.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -18,32 +18,32 @@ public bool ExportPageMargins { get; set; }
 
 ## Anmärkningar
 
-Aspose.Words visar inte område med sidmarginaler som standard. Om några element är helt eller delvis klippta av dokumentkanten kan det visade området utökas med detta alternativ.
+Aspose.Words visar inte sidmarginalerna som standard. Om några element är helt eller delvis klippta av dokumentkanten kan det visade området utökas med det här alternativet.
 
 ## Exempel
 
-Visar hur man visar out-of-bounds-objekt i utgående HTML-dokument.
+Visar hur man visar objekt utanför gränserna i HTML-utdatadokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en builder för att infoga en form utan omslag.
+// Använd en verktygsbyggare för att infoga en form utan radbrytning.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// Negativa formpositionsvärden kan placera formen utanför sidgränserna.
-// Om vi exporterar detta till HTML kommer formen att se trunkerad ut.
+// Negativa värden för formpositionering kan placera formen utanför sidans gränser.
+// Om vi exporterar detta till HTML kommer formen att se avkortad ut.
 shape.Left = -150;
 
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt
-// för att bestämma om sidan ska justeras för att visa out-of-bound-objekt helt.
-// Om vi ställer in "ExportPageMargins"-flaggan till "true", kommer formen att vara helt synlig i utdata-HTML.
+// för att bestämma om sidan ska justeras för att visa objekt utanför gränserna helt.
+// Om vi ställer in flaggan "ExportPageMargins" till "true" kommer formen att synas helt i HTML-utdata.
 // Om vi ställer in flaggan "ExportPageMargins" till "false",
-// vårt dokument kommer att visa formen trunkerad som vi skulle se den i Microsoft Word.
+// vårt dokument kommer att visa formen avkortad som vi skulle se den i Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

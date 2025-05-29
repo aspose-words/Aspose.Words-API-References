@@ -3,14 +3,14 @@ title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions ReplacingCallback eigendom. Die benutzerdefinierte Methode die vor jedem Ersetzen aufgerufen wird in C#.
+description: Entdecken Sie die Eigenschaft „FindReplaceOptions ReplacingCallback“, eine anpassbare Methode, die Ihre Ersetzungsfunktionalität mit Präzision und Kontrolle verbessert.
 type: docs
-weight: 150
+weight: 160
 url: /de/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-Die benutzerdefinierte Methode, die vor jedem Ersetzen aufgerufen wird.
+Die benutzerdefinierte Methode, die vor jedem Ersetzungsvorgang aufgerufen wird.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -18,7 +18,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
+Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden und dabei alle derartigen Ersetzungen nachverfolgt werden.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Replace“ vornimmt.
+    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Ersetzen“ vornimmt.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Verwaltet ein Protokoll aller Textersetzungen, die durch einen Such- und Ersetzungsvorgang durchgeführt werden
-/// und notiert den Wert des ursprünglich übereinstimmenden Texts.
+/// Führt ein Protokoll über jeden Textaustausch durch eine Suchen-und-Ersetzen-Operation
+/// und notiert den Wert des ursprünglichen übereinstimmenden Textes.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
+Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neuen Inhalt anwenden.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -81,10 +81,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Setzen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe, die wir auf den resultierenden Text der Operation anwenden möchten.
+    // Legen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe fest, die wir auf den resultierenden Text der Operation anwenden möchten.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -103,7 +103,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Ersetzt numerische Such- und Ersetzungsübereinstimmungen durch ihre hexadezimalen Entsprechungen.
-/// Führt ein Protokoll über jede Ersetzung.
+/// Führt ein Protokoll über jeden Austausch.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,7 +3,7 @@ title: Row.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words für .NET
-description: Row RowFormat eigendom. Bietet Zugriff auf die Formatierungseigenschaften der Zeile in C#.
+description: Entdecken Sie die RowFormat-Eigenschaft für den einfachen Zugriff auf anpassbare Zeilenformatierungsoptionen und verbessern Sie so mühelos Ihre Datenpräsentation.
 type: docs
 weight: 110
 url: /de/net/aspose.words.tables/row/rowformat/
@@ -51,7 +51,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft "RowFormat" der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;

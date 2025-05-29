@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words для .NET
-description: ImageFieldMergingArgs ImageStream свойство. Указывает поток из которого механизм слияния почты читает изображение на С#.
+description: Узнайте, как свойство ImageFieldMergingArgs ImageStream улучшает процесс слияния писем за счет бесшовной интеграции изображений для получения профессиональных результатов.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Указывает поток, из которого механизм слияния почты читает изображение.
+Указывает поток, из которого механизм слияния почты будет считывать изображение.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -38,7 +38,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
+        // Откройте средство чтения данных, которое должно находиться в режиме, позволяющем считывать все записи одновременно.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -56,7 +56,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
+    /// Вызывается, когда при слиянии почты в документе обнаруживается MERGEFIELD с тегом «Image:» в имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

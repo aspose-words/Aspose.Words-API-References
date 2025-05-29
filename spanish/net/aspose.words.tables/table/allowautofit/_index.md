@@ -3,7 +3,7 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words para .NET
-description: Table AllowAutoFit propiedad. Permite que Microsoft Word y Aspose.Words cambien automáticamente el tamaño de las celdas de una tabla para que se ajusten a su contenido en C#.
+description: Descubra la propiedad Table AllowAutoFit para cambiar sin esfuerzo el tamaño de las celdas de las tablas de Microsoft Word y Aspose.Words, mejorando la legibilidad y la presentación de su documento.
 type: docs
 weight: 50
 url: /es/net/aspose.words.tables/table/allowautofit/
@@ -22,7 +22,7 @@ El valor predeterminado es`verdadero`.
 
 ## Ejemplos
 
-Muestra cómo habilitar/deshabilitar el cambio de tamaño automático de celdas de una tabla.
+Muestra cómo habilitar o deshabilitar el cambio de tamaño automático de las celdas de la tabla.
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,9 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Establece la propiedad "AllowAutoFit" en "false" para que la tabla mantenga las dimensiones
-// de todas sus filas y celdas, y trunca el contenido si es demasiado grande para caber.
-// Establece la propiedad "AllowAutoFit" en "true" para permitir que la tabla cambie el ancho y alto de sus celdas
+// Establezca la propiedad "AllowAutoFit" en "falso" para que la tabla mantenga las dimensiones
+// de todas sus filas y celdas, y truncar el contenido si es demasiado grande para caber.
+// Establezca la propiedad "AllowAutoFit" en "true" para permitir que la tabla cambie el ancho y la altura de sus celdas
 // para acomodar su contenido.
 table.AllowAutoFit = allowAutoFit;
 

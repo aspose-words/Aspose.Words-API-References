@@ -2,8 +2,8 @@
 title: TxtListIndentation
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
-second_title: Aspose.Words for .NET
-description: TxtListIndentation inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz liste biçimlendirme için TxtListIndentation oluşturucusunu keşfedin. Sezgisel varsayılan oluşturucu çözümümüzle kodlama verimliliğinizi artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/txtlistindentation/txtlistindentation/

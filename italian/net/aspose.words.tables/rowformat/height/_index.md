@@ -3,7 +3,7 @@ title: RowFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words per .NET
-description: RowFormat Height proprietà. Ottiene o imposta laltezza della riga della tabella in punti in C#.
+description: Scopri la proprietà RowFormat Height per regolare facilmente l'altezza delle righe della tabella in punti, migliorando il layout e la leggibilità del tuo documento.
 type: docs
 weight: 40
 url: /it/net/aspose.words.tables/rowformat/height/
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inizia una seconda riga e quindi configura la sua altezza. Il builder applicherà queste impostazioni a
-// la riga corrente, nonché le eventuali nuove righe create in seguito.
+// Avvia una seconda riga e quindi configurane l'altezza. Il builder applicherà queste impostazioni a
+// la sua riga corrente, nonché tutte le nuove righe che crea in seguito.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La prima riga non è stata influenzata dalla riconfigurazione del riempimento e mantiene ancora i valori predefiniti.
+// La prima riga non è stata interessata dalla riconfigurazione del padding e mantiene ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -72,7 +72,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
+// nonché tutte le nuove celle e righe create utilizzando quel generatore.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Riconfigura gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
-// Il builder non li applicherà alla prima riga già creata in modo che risalti come riga di intestazione.
+// Riconfiguriamo gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
+// Il builder non applicherà queste modifiche alla prima riga già creata, in modo che questa risalti come riga di intestazione.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

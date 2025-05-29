@@ -3,14 +3,14 @@ title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
 second_title: Aspose.Words für .NET
-description: Shape HasChart eigendom. Gibt zurückWAHR wenn dasShape hat einChart  in C#.
+description: Finden Sie heraus, ob Ihre Form ein Diagramm mit der HasChart-Eigenschaft enthält. Verbessern Sie Ihre Datenvisualisierung mühelos!
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Gibt zurück`WAHR` wenn das[`Shape`](../) hat ein[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Rückgaben`WAHR` wenn dies[`Shape`](../) hat eine[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

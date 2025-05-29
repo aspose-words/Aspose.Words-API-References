@@ -3,14 +3,14 @@ title: Footnote
 linktitle: Footnote
 articleTitle: Footnote
 second_title: Aspose.Words för .NET
-description: Footnote byggare. Initierar en instans avFootnote class i C#.
+description: Skapa engagerande fotnoter enkelt med vår fotnotskonstruktör. Förbättra ditt innehålls tydlighet och professionalism med bara några få klick!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote constructor
 
-Initierar en instans av[`Footnote`](../) class.
+Initierar en instans av[`Footnote`](../) klass.
 
 ```csharp
 public Footnote(DocumentBase doc, FootnoteType footnoteType)
@@ -19,11 +19,11 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
-| footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) värde som anger om detta är en fotnot eller slutnot. |
+| footnoteType | FootnoteType | En[`FootnoteType`](../footnotetype/) värde som anger om detta är en fotnot eller slutnot. |
 
 ## Anmärkningar
 
-När[`Footnote`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
+När[`Footnote`](../) skapas, tillhör den det angivna dokumentet, men är ännu inte en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
 Att lägga till[`Footnote`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på stycket där du vill infoga fotnoten.
 
@@ -35,16 +35,16 @@ Visar hur man infogar och anpassar fotnoter.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till text och referera till den med en fotnot. Denna fotnot kommer att placera en liten upphöjd referens
+// Lägg till text och referera till den med en fotnot. Denna fotnot placerar en liten upphöjd referens
 // markera efter texten som den refererar till och skapa en post under huvudtexten längst ner på sidan.
 // Denna post kommer att innehålla fotnotens referensmärke och referenstexten,
-// som vi kommer att skicka till dokumentbyggarens "InsertFootnote"-metod.
+// som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Om den här egenskapen är inställd på "true", är vår fotnots referensmärke
+// Om den här egenskapen är satt till "sant", så är vår fotnots referensmarkering
 // kommer att vara dess index bland alla avsnittets fotnoter.
-// Detta är den första fotnoten, så referensmärket blir "1".
+// Detta är den första fotnoten, så referenstecknet blir "1".
 Assert.True(footnote.IsAuto);
 
  // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
@@ -57,13 +57,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Vi kan ställa in ett anpassat referensmärke som fotnoten kommer att använda istället för dess indexnummer.
+// Vi kan ange ett anpassat referensmärke som fotnoten kommer att använda istället för sitt indexnummer.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Ett bokmärke med flaggan "IsAuto" inställd på sant kommer fortfarande att visa sitt verkliga index
-// även om tidigare bokmärken visar anpassade referensmärken, så kommer detta bokmärkes referensmärke att vara en "3".
+// Ett bokmärke med flaggan "IsAuto" satt till sant kommer fortfarande att visa sitt verkliga index
+// även om tidigare bokmärken visar anpassade referensmarkeringar, så kommer detta bokmärkes referensmarkering att vara en "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

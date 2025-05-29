@@ -3,14 +3,14 @@ title: Document.Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words für .NET
-description: Document Frameset eigendom. Gibt a zurückFramesetBeispiel wenn dieses Dokument eine FramesSeite darstellt in C#.
+description: Entdecken Sie die Frameset-Eigenschaft für Dokumente. Holen Sie sich eine Frameset-Instanz für die nahtlose Integration von Frame-Seiten. Verbessern Sie Ihr Web-Erlebnis noch heute!
 type: docs
-weight: 160
+weight: 170
 url: /de/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Gibt a zurück`Frameset`Beispiel, wenn dieses Dokument eine Frames-Seite darstellt.
+Gibt einen`Frameset` Instanz, wenn dieses Dokument eine Frames-Seite darstellt.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -18,17 +18,18 @@ public Frameset Frameset { get; }
 
 ## Bemerkungen
 
-Wenn das Dokument nicht gerahmt ist, hat die Eigenschaft das`Null` value.
+Wenn das Dokument nicht gerahmt ist, hat die Eigenschaft die`null` Wert.
 
 ## Beispiele
 
-Zeigt, wie man auf Frames auf der Seite zugreift.
+Zeigt, wie auf Frames auf der Seite zugegriffen wird.
 
 ```csharp
-// Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
+// Das Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// Wir können die Standard-URL (die URL einer Webseite oder eines lokalen Dokuments) überprüfen oder ob es sich bei dem Frame um eine externe Ressource handelt.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

@@ -3,14 +3,14 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words لـ .NET
-description: Font TextEffect ملكية. الحصول على تأثير الخط المتحرك أو تعيينه في C#.
+description: اكتشف خاصية Font TextEffect لتخصيص رسوم متحركة للخطوط بسهولة، وتعزيز تصميماتك بتأثيرات نصية ديناميكية للحصول على تجربة مستخدم جذابة.
 type: docs
-weight: 450
+weight: 460
 url: /ar/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
 
-الحصول على تأثير الخط المتحرك أو تعيينه.
+يحصل على تأثير الرسوم المتحركة للخط أو يعينه.
 
 ```csharp
 public TextEffect TextEffect { get; set; }
@@ -29,7 +29,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// الإصدارات الأقدم من Microsoft Word تدعم فقط تأثيرات الرسوم المتحركة للخطوط.
+// تدعم الإصدارات الأقدم من Microsoft Word تأثيرات الرسوم المتحركة للخطوط فقط.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

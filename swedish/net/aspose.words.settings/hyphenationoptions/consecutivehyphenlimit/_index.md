@@ -3,14 +3,14 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words för .NET
-description: HyphenationOptions ConsecutiveHyphenLimit fast egendom. Hämtar eller ställer in det maximala antalet rader i följd som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0 i C#.
+description: Upptäck egenskapen ConsecutiveHyphenLimit i HyphenationOptions. Kontrollera användningen av bindestreck i din text för förbättrad läsbarhet och formatering. Standardvärde, 0.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-Hämtar eller ställer in det maximala antalet rader i följd som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0.
+Hämtar eller anger det maximala antalet på varandra följande rader som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0.
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -18,13 +18,13 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 ## Anmärkningar
 
-Om värdet för den här egenskapen är inställt på 0, kan valfritt antal rader i följd sluta med bindestreck.
+Om värdet för den här egenskapen är satt till 0 kan valfritt antal rader i följd avslutas med bindestreck.
 
-Egenskapen har ingen effekt när du sparar till fasta sidformat t.ex. PDF.
+Egenskapen har ingen effekt när man sparar till fasta sidformat, t.ex. PDF.
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

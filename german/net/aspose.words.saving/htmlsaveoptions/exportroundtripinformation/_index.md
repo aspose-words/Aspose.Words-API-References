@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportRoundtripInformation eigendom. Gibt an ob die RoundtripInformationen beim Speichern in HTML MHTML oder EPUB geschrieben werden sollen. Der Standardwert istWAHR für HTML undFALSCH für MHTML und EPUB in C#.
+description: Entdecken Sie die ExportRoundtripInformation-Eigenschaft von HtmlSaveOptions zur Steuerung von Roundtrip-Daten in den Formaten HTML, MHTML und EPUB. Optimieren Sie Ihre Exporte noch heute!
 type: docs
 weight: 240
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -18,11 +18,11 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## Bemerkungen
 
-Durch das Speichern der Roundtrip-Informationen können Dokumenteigenschaften wie Tabstopps, Kommentare, Kopf- und Fußzeilen wiederhergestellt werden, während die HTML-Dokumente wieder in ein geladen werden[`Document`](../../../aspose.words/document/) Objekt.
+Das Speichern der Roundtrip-Informationen ermöglicht die Wiederherstellung von Dokumenteigenschaften wie Tabstopps, Kommentare, Kopf- und Fußzeilen beim Laden der HTML-Dokumente in ein[`Document`](../../../aspose.words/document/) Objekt.
 
 Wann`WAHR`, werden die Roundtrip-Informationen als -aw-* CSS-Eigenschaften der entsprechenden HTML-Elemente exportiert.
 
-Wann`FALSCH`, bewirkt, dass keine Roundtrip-Informationen in erzeugten Dateien ausgegeben werden.
+Wann`FALSCH`, bewirkt, dass keine Roundtrip-Informationen in die erstellten Dateien ausgegeben werden.
 
 ## Beispiele
 
@@ -32,15 +32,15 @@ Zeigt, wie versteckte Elemente beim Konvertieren in .html erhalten bleiben.
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Beim Konvertieren eines Dokuments in .html werden einige Elemente wie versteckte Lesezeichen, ursprüngliche Formpositionen,
-// oder Fußnoten werden entweder entfernt oder in einfachen Text umgewandelt und gehen praktisch verloren.
-// Beim Speichern mit einem HtmlSaveOptions-Objekt, wobei ExportRoundtripInformation auf true gesetzt ist, bleiben diese Elemente erhalten.
+// oder Fußnoten werden entweder entfernt oder in einfachen Text umgewandelt und gehen effektiv verloren.
+// Beim Speichern mit einem HtmlSaveOptions-Objekt mit auf „true“ gesetztem ExportRoundtripInformation bleiben diese Elemente erhalten.
 
-// Wenn wir das Dokument in HTML speichern, können wir zur Bestimmung ein SaveOptions-Objekt übergeben
+// Wenn wir das Dokument als HTML speichern, können wir ein SaveOptions-Objekt übergeben, um zu bestimmen
 // wie der Speichervorgang Dokumentelemente exportiert, die HTML nicht unterstützt oder verwendet,
 // wie versteckte Lesezeichen und ursprüngliche Formpositionen.
 // Wenn wir das Flag „ExportRoundtripInformation“ auf „true“ setzen, bleiben diese Elemente beim Speichervorgang erhalten.
-// Wenn wir das Flag „ExportRoundTripInformation“ auf „false“ setzen, verwirft der Speichervorgang diese Elemente.
-// Wir möchten solche Elemente beibehalten, wenn wir beabsichtigen, den gespeicherten HTML-Code mit Aspose.Words zu laden.
+// Wenn wir das Flag „ExportRoundTripInformation“ auf „false“ setzen, werden diese Elemente beim Speichervorgang verworfen.
+// Wir möchten solche Elemente beibehalten, wenn wir das gespeicherte HTML mit Aspose.Words laden möchten.
 // da sie noch einmal von Nutzen sein könnten.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 

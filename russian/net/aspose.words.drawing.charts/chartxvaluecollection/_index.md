@@ -3,9 +3,9 @@ title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection сорт. Представляет коллекцию значений X для серии диаграмм на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Charts.ChartXValueCollection — решение для эффективного управления коллекциями значений X в сериях диаграмм.
 type: docs
-weight: 850
+weight: 1170
 url: /ru/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
@@ -21,7 +21,8 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Получает количество элементов в этой коллекции. |
-| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Получает или задает значение X по указанному индексу. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | Возвращает или задает код формата, применяемый к значениям X. |
+| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Возвращает или задает значение X по указанному индексу. |
 
 ## Методы
 
@@ -31,9 +32,9 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 ## Примечания
 
-Все предметы коллекции, кроме**нулевой** должно быть то же самое[`ValueType`](../chartxvalue/valuetype/).
+Все предметы коллекции, кроме**нулевой** должны иметь то же самое[`ValueType`](../chartxvalue/valuetype/).
 
-Коллекция позволяет изменять только значения X. Чтобы добавить или вставить новые значения в серию диаграмм или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс можно использовать.
+Коллекция позволяет изменять только значения X. Чтобы добавить или вставить новые значения в ряд диаграммы или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс может быть использован.
 
 ## Примеры
 
@@ -55,10 +56,10 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Очистить индивидуальный формат всех точек данных.
-    // Точки данных и значения данных в столбчатых диаграммах взаимно однозначны.
+    // Точки данных и значения данных в столбчатых диаграммах соответствуют друг другу.
     series.DataPoints[i].ClearFormat();
 
-    // Получаем значение Y.
+    // Получить значение Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Изменяем цвета максимального и минимального значений.
+// Изменить цвета максимальных и минимальных значений.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

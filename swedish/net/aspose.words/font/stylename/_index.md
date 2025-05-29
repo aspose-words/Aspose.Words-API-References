@@ -3,14 +3,14 @@ title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words för .NET
-description: Font StyleName fast egendom. Hämtar eller ställer in namnet på teckenstilen som tillämpas på denna formatering i C#.
+description: Upptäck egenskapen Font StyleName och hantera enkelt teckenformat för förbättrad textformatering och designflexibilitet i dina projekt.
 type: docs
-weight: 420
+weight: 430
 url: /sv/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
 
-Hämtar eller ställer in namnet på teckenstilen som tillämpas på denna formatering.
+Hämtar eller anger namnet på teckenformatet som tillämpas på denna formatering.
 
 ```csharp
 public string StyleName { get; set; }
@@ -24,8 +24,8 @@ Visar hur man ändrar stilen på befintlig text.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att referera till stilar.
-// 1 - Använd stilnamnet:
+// Nedan följer två sätt att referera till stilar.
+// 1 - Använda stilnamnet:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
@@ -35,7 +35,7 @@ builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Konvertera all användning av en stil till en annan,
 // använder ovanstående metoder för att referera till gamla och nya stilar.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

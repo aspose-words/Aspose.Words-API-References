@@ -3,14 +3,14 @@ title: BuildingBlock.Category
 linktitle: Category
 articleTitle: Category
 second_title: Aspose.Words para .NET
-description: BuildingBlock Category propiedad. Especifica la categorización de segundo nivel para el bloque de creación en C#.
+description: Descubra nuestras propiedades de categoría BuildingBlock para una categorización mejorada de segundo nivel, agilizando sus proyectos y aumentando la eficiencia de la organización.
 type: docs
 weight: 30
 url: /es/net/aspose.words.buildingblocks/buildingblock/category/
 ---
 ## BuildingBlock.Category property
 
-Especifica la categorización de segundo nivel para el bloque de creación.
+Especifica la categorización de segundo nivel para el bloque de construcción.
 
 ```csharp
 public string Category { get; set; }
@@ -18,7 +18,7 @@ public string Category { get; set; }
 
 ## Observaciones
 
-Los bloques de construcción en la interfaz de usuario de Microsoft Word están organizados en Galerías. Cada[`Gallery`](../gallery/) puede tener varias categorías. Cada bloque dentro de a`Category` tiene un[`Name`](../name/).
+Los bloques de construcción en la interfaz de usuario de Microsoft Word se organizan en galerías. Cada uno[`Gallery`](../gallery/) Puede tener varias categorías. Cada bloque dentro de a`Category` tiene una[`Name`](../name/).
 
 No puede ser`nulo` y no puede ser una cadena vacía.
 
@@ -26,7 +26,7 @@ Corresponde a la**docPartPr.categoría.nombre** elemento en OOXML.
 
 ## Ejemplos
 
-Muestra cómo agregar un bloque de creación personalizado a un documento.
+Muestra cómo agregar un bloque de construcción personalizado a un documento.
 
 ```csharp
 public void CreateAndInsert()
@@ -36,7 +36,7 @@ public void CreateAndInsert()
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Cree un bloque de construcción, asígnele un nombre y luego agréguelo al documento del glosario.
+    // Cree un bloque de construcción, asígnele un nombre y luego agréguelo al documento de glosario.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -44,39 +44,40 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Todos los GUID de bloques de construcción nuevos tienen el mismo valor cero de forma predeterminada y podemos darles un nuevo valor único.
+    // Todos los GUID de bloques de construcción nuevos tienen el mismo valor cero de manera predeterminada, y podemos darles un nuevo valor único.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Las siguientes propiedades clasifican los bloques de construcción
-    // en el menú podemos acceder en Microsoft Word mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
+    // Las siguientes propiedades categorizan los bloques de construcción
+    // en el menú podemos acceder en Microsoft Word a través de “Insertar” -> “Elementos rápidos” -> “Organizador de bloques de construcción”.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
     // Antes de que podamos agregar este bloque de construcción a nuestro documento, necesitaremos darle algunos contenidos,
-    // lo cual haremos usando un visitante de documentos. Este visitante también establecerá una categoría, galería y comportamiento.
+    // Lo haremos usando un visitante de documento. Este visitante también definirá una categoría, una galería y un comportamiento.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Visita el inicio/fin del BuildingBlock.
     block.Accept(visitor);
 
-    //Podemos acceder al bloque que acabamos de realizar desde el documento del glosario.
+    //Podemos acceder al bloque que acabamos de crear desde el documento de glosario.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-    // El bloque en sí es una sección que contiene el texto.
+    //El bloque en sí es una sección que contiene el texto.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-    // Ahora podemos insertarlo en el documento como una nueva sección.
+    //Ahora podemos insertarlo en el documento como una nueva sección.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // También podemos encontrarlo en el Organizador de bloques de construcción de Microsoft Word y colocarlo manualmente.
+    //También podemos encontrarlo en el Organizador de bloques de construcción de Microsoft Word y colocarlo manualmente.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Configura un bloque de construcción visitado para insertarlo en el documento como parte rápida y agrega texto a su contenido.
+/// Configura un bloque de construcción visitado para insertarlo en el documento como una parte rápida y agrega texto a su contenido.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -88,15 +89,15 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Configure el bloque de creación como una parte rápida y agregue las propiedades utilizadas por el Organizador de bloques de creación.
+        // Configure el bloque de construcción como una parte rápida y agregue propiedades utilizadas por Building Blocks Organizer.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Agrega una sección con texto.
-        // Al insertar el bloque en el documento se agregará esta sección con sus nodos secundarios en la ubicación.
+        //Agrega una sección con texto.
+        // Insertar el bloque en el documento agregará esta sección con sus nodos secundarios en la ubicación.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

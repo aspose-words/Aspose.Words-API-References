@@ -2,8 +2,8 @@
 title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: Aspose.Words for .NET
-description: TableStyle LeftIndent mülk. Bir tablonun sol girintisini temsil eden değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş düzen kontrolü ve görsel çekicilik için tablonuzun sol girintisini kolayca özelleştirmek üzere TableStyle LeftIndent özelliğini keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/tablestyle/leftindent/
@@ -24,14 +24,14 @@ Bir tablonun konumunun nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda bir tabloyu yatay olarak hizalamanın iki yolu verilmiştir.
-// 1 - Sayfanın merkezi gibi bir konuma hizalamak için "Hizalama" özelliğini kullanın:
+// Aşağıda bir tabloyu yatay olarak hizalamanın iki yolu bulunmaktadır.
+// 1 - Sayfanın ortasına gibi bir konuma hizalamak için "Hizalama" özelliğini kullanın:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// Bir tablo ekleyin ve oluşturduğumuz stili ona uygulayın.
+// Bir tablo ekleyelim ve oluşturduğumuz stili ona uygulayalım.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 - Sayfanın sol kenar boşluğundan bir girinti belirtmek için "LeftIndent" seçeneğini kullanın:
+// 2 - Sayfanın sol kenarından girintiyi belirtmek için "LeftIndent"i kullanın:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

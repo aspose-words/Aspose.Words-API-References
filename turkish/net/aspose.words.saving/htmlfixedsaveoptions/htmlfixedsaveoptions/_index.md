@@ -2,8 +2,8 @@
 title: HtmlFixedSaveOptions
 linktitle: HtmlFixedSaveOptions
 articleTitle: HtmlFixedSaveOptions
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi performans için özelleştirilebilir özelliklerle verimli belge kaydetme için başvuracağınız çözümünüz olan HtmlFixedSaveOptions oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/

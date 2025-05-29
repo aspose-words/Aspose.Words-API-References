@@ -2,15 +2,15 @@
 title: IPageLayoutCallback.Notify
 linktitle: Notify
 articleTitle: Notify
-second_title: 用于 .NET 的 Aspose.Words
-description: IPageLayoutCallback Notify 方法. 调用此函数以通知布局构建和渲染进度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 iPageLayoutCallback Notify 方法，提升布局构建和渲染效率。立即优化您的应用性能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-调用此函数以通知布局构建和渲染进度。
+调用此函数来通知布局构建和渲染进度。
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -26,7 +26,7 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ## 例子
 
-展示如何使用布局回调跟踪布局更改。
+展示如何使用布局回调来跟踪布局变化。
 
 ```csharp
 public void PageLayoutCallback()
@@ -45,7 +45,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// 当我们将文档保存为固定页面格式时通知我们
-/// 并渲染一个页面，我们将其执行页面回流到本地文件系统中的图像。
+/// 并呈现一个页面，我们对该页面执行页面重排以将其呈现到本地文件系统中的图像上。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

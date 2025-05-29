@@ -3,14 +3,14 @@ title: ChapterPageSeparator Enum
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words für .NET
-description: Aspose.Words.ChapterPageSeparator opsomming. Definiert das Trennzeichen das zwischen Kapitel und Seitenzahl erscheint in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.ChapterPageSeparator, um Kapitel- und Seitenzahlentrennzeichen für eine verbesserte Dokumentformatierung und -übersichtlichkeit anzupassen.
 type: docs
-weight: 200
+weight: 390
 url: /de/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
 
-Definiert das Trennzeichen, das zwischen Kapitel und Seitenzahl erscheint.
+Definiert das Trennzeichen, das zwischen der Kapitel- und der Seitenzahl erscheint.
 
 ```csharp
 public enum ChapterPageSeparator
@@ -23,8 +23,8 @@ public enum ChapterPageSeparator
 | Hyphen | `0` | Ein Doppelpunkt. |
 | Period | `1` | Ein Punkt. |
 | Colon | `2` | Ein Doppelpunkt. |
-| EmDash | `3` | Ein betonter Strich. |
-| EnDash | `4` | Ein Standard-Armaturenbrett. |
+| EmDash | `3` | Ein hervorgehobener Gedankenstrich. |
+| EnDash | `4` | Ein Standardstrich. |
 
 ## Beispiele
 

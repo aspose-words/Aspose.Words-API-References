@@ -3,9 +3,9 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words для .NET
-description: Section DeleteHeaderFooterShapes метод. Удаляет все фигуры объекты рисования из верхних и нижних колонтитулов этого раздела на С#.
+description: С легкостью удаляйте все фигуры из верхних и нижних колонтитулов разделов с помощью метода DeleteHeaderFooterShapes для более четкого представления документа.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -18,7 +18,7 @@ public void DeleteHeaderFooterShapes()
 
 ## Примеры
 
-Показывает, как удалить все фигуры из всех верхних и нижних колонтитулов раздела.
+Показывает, как удалить все фигуры из всех верхних и нижних колонтитулов в разделе.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
 // Создаем основной нижний колонтитул с изображением.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// Удаляем все фигуры из верхних и нижних колонтитулов в первом разделе.
+// Удалить все фигуры из верхних и нижних колонтитулов в первом разделе.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

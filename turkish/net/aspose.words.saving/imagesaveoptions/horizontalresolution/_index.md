@@ -2,8 +2,8 @@
 title: ImageSaveOptions.HorizontalResolution
 linktitle: HorizontalResolution
 articleTitle: HorizontalResolution
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions HorizontalResolution mülk. Oluşturulan görüntülerin yatay çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde optimum netlik ve ayrıntı için görüntü kalitesini DPI cinsinden kolayca ayarlamak üzere ImageSaveOptions YatayÇözünürlük özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -18,13 +18,13 @@ public float HorizontalResolution { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir ve piksel cinsinden çıktı boyutunu etkiler.
+Bu özellik yalnızca raster görüntü biçimlerine kaydederken etkilidir ve çıktı boyutunu piksel cinsinden etkiler.
 
 Varsayılan değer 96'dır.
 
 ## Örnekler
 
-Aspose.Words bir belgeyi belgeye dönüştürürken görüntünün nasıl düzenleneceğini gösterir.
+Aspose.Words'ün bir belgeyi bir belgeye dönüştürmesini sağlarken görüntünün nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
-// kaydetme işlemi onu oluştururken görüntüyü düzenleyin.
+// Belgeyi bir resim olarak kaydettiğimizde, SaveOptions nesnesini görüntüye geçirebiliriz.
+// Kaydetme işlemi sırasında görüntüyü düzenle.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Görüntünün parlaklığını ve kontrastını değiştirmek için bu özellikleri ayarlayabiliriz.
@@ -43,14 +43,14 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 
-    // Bu özelliklerle yatay ve dikey çözünürlüğü ayarlayabiliriz.
-    // Bu görüntünün boyutlarını etkileyecektir.
-    // Bu özelliklerin varsayılan değeri 96 dpi çözünürlük için 96,0'dır.
+    // Bu özellikler ile yatay ve dikey çözünürlüğü ayarlayabiliriz.
+    // Bu, görüntünün boyutlarını etkileyecektir.
+    // Bu özelliklerin varsayılan değeri 96 dpi çözünürlük için 96.0'dır.
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Bu özelliği kullanarak görüntüyü ölçeklendirebiliriz. %100 ölçeklendirme için varsayılan değer 1,0'dır.
-    // Bu özelliği, çözünürlük değişikliğinin görüntü boyutlarında neden olacağı değişiklikleri engellemek için kullanabiliriz.
+    // Bu özelliği kullanarak görüntüyü ölçekleyebiliriz. Varsayılan değer %100 ölçekleme için 1.0'dır.
+    // Bu özelliği, çözünürlüğü değiştirmenin görüntü boyutlarında neden olacağı değişiklikleri ortadan kaldırmak için kullanabiliriz.
     Scale = 96f / 72f
 };
 

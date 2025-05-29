@@ -3,7 +3,7 @@ title: ListFormat.ListLevelNumber
 linktitle: ListLevelNumber
 articleTitle: ListLevelNumber
 second_title: Aspose.Words para .NET
-description: ListFormat ListLevelNumber propiedad. Obtiene o establece el número de nivel de lista 0 a 8 para el párrafo en C#.
+description: Descubra la propiedad ListFormat ListLevelNumber, administre fácilmente los niveles de lista de párrafos del 0 al 8 para una mejor organización y claridad del documento.
 type: docs
 weight: 40
 url: /es/net/aspose.words.lists/listformat/listlevelnumber/
@@ -33,10 +33,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+//A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
 // 1 - Una lista numerada:
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -44,8 +44,8 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 Assert.True(builder.ListFormat.IsListItem);
 
 // Al establecer la propiedad "ListLevelNumber", podemos aumentar el nivel de la lista
-// para comenzar una sublista autónoma en el elemento de la lista actual.
-// La plantilla de lista de Microsoft Word llamada "NumberDefault" usa números para crear niveles de lista para el primer nivel de lista.
+// para comenzar una sublista autónoma en el elemento de lista actual.
+// La plantilla de lista de Microsoft Word llamada "NumberDefault" utiliza números para crear niveles de lista para el primer nivel de lista.
  // Los niveles de lista más profundos utilizan letras y números romanos en minúscula.
 for (int i = 0; i < 9; i++)
 {
@@ -54,8 +54,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Una lista con viñetas:
-// Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
-// Los niveles más profundos de esta lista utilizarán diferentes símbolos, como "■" y "○".
+//Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
+// Los niveles más profundos de esta lista utilizarán símbolos diferentes, como "■" y "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -64,7 +64,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Podemos deshabilitar el formato de la lista para no formatear ningún párrafo posterior como lista al desactivar el indicador "Lista".
+// Podemos deshabilitar el formato de lista para no formatear los párrafos subsiguientes como listas desmarcando la marca "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -81,12 +81,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Aspose.Words main advantages are:");
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación se muestran dos tipos de listas que podemos crear con un generador de documentos.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+//A continuación se muestran dos tipos de listas que podemos crear con un generador de documentos.
 // 1 - Una lista con viñetas:
-// Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
+//Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Great performance");
 builder.Writeln("High reliability");
@@ -94,7 +94,7 @@ builder.Writeln("Quality code and working");
 builder.Writeln("Wide variety of features");
 builder.Writeln("Easy to understand API");
 
-// Finaliza la lista con viñetas.
+//Fin de la lista con viñetas.
 builder.ListFormat.RemoveNumbers();
 
 builder.InsertBreak(BreakType.ParagraphBreak);
@@ -104,37 +104,37 @@ builder.Writeln("Aspose.Words allows:");
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.ApplyNumberDefault();
 
-// Este párrafo es el primer elemento. El primer elemento de una lista numerada tendrá un "1". como símbolo de elemento de lista.
+Este párrafo es el primer elemento. El primer elemento de una lista numerada tendrá un "1." como símbolo.
 builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// Llame al método "ListIndent" para aumentar el nivel de la lista actual,
+// Llama al método "ListIndent" para aumentar el nivel de lista actual,
 // que iniciará una nueva lista autónoma, con una sangría más profunda, en el elemento actual del primer nivel de lista.
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
-// Estos son los primeros tres elementos de la lista del segundo nivel de lista, que mantendrán un recuento
+// Estos son los primeros tres elementos de la lista del segundo nivel de lista, que mantendrá un recuento
 // independiente del recuento del primer nivel de lista. Según el formato de lista actual,
-// tendrán los símbolos de "a.", "b." y "c".
+// tendrán los símbolos "a.", "b." y "c."
 builder.Writeln("DOC");
 builder.Writeln("PDF");
 builder.Writeln("HTML");
 
-// Llame al método "ListOutdent" para volver al nivel de lista anterior.
+// Llame al método "ListOutdent" para regresar al nivel de lista anterior.
 builder.ListFormat.ListOutdent();
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// Estos dos párrafos continuarán el recuento del primer nivel de lista.
-// Estos elementos tendrán los símbolos "2." y "3".
+//Estos dos párrafos continuarán el recuento del primer nivel de lista.
+// Estos elementos tendrán los símbolos "2." y "3."
 builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
-// Si aumentamos el nivel de la lista a un nivel al que hemos agregado elementos anteriormente,
- // la lista anidada será separada de la anterior, y su numeración comenzará desde el principio.
-// Estos elementos de la lista tendrán los símbolos "a.", "b.", "c.", "d." y "e".
+// Si aumentamos el nivel de la lista a un nivel al que hemos agregado elementos previamente,
+ //la lista anidada estará separada de la anterior y su numeración comenzará desde el principio.
+// Estos elementos de lista tendrán los símbolos "a.", "b.", "c.", "d." y "e".
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -142,11 +142,11 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
-// Vuelve a eliminar la sangría del nivel de la lista.
+// Vuelve a anular la sangría del nivel de lista.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 
-// Finaliza la lista numerada.
+//Fin de la lista numerada.
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");

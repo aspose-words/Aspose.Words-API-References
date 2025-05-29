@@ -2,15 +2,15 @@
 title: List Class
 linktitle: List
 articleTitle: List
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Lists.List 班级. 表示列表的格式化 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Lists.List 类，实现强大的列表格式化功能。通过无缝组织和专业呈现，增强您的文档。
 type: docs
-weight: 3460
+weight: 3910
 url: /zh/net/aspose.words.lists/list/
 ---
 ## List class
 
-表示列表的格式化。
+表示列表的格式。
 
 要了解更多信息，请访问[使用列表](https://docs.aspose.com/words/net/working-with-lists/)文档文章。
 
@@ -25,8 +25,8 @@ public class List : IComparable<List>
 | [Document](../../aspose.words.lists/list/document/) { get; } | 获取所有者文档。 |
 | [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | 返回`真的`如果此列表是列表样式的定义。 |
 | [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | 返回`真的`如果此列表是对列表样式的引用。 |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | 返回`真的`当列表包含 9 级时；`错误的`当 1 级时. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | 指定是否应在每个部分重新启动列表。 默认值为`错误的`. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | 返回`真的`当列表包含9个级别时；`错误的`当 1 级时。 |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | 指定列表是否应在每个部分重新启动。 默认值为`错误的`. |
 | [ListId](../../aspose.words.lists/list/listid/) { get; } | 获取列表的唯一标识符。 |
 | [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | 获取此列表的列表级别的集合。 |
 | [Style](../../aspose.words.lists/list/style/) { get; } | 获取此列表引用或定义的列表样式。 |
@@ -44,9 +44,9 @@ public class List : IComparable<List>
 
 ## 评论
 
-Microsoft Word 文档中的列表是一组列表格式属性。 每个列表最多可以有 9 个级别，并且为每个级别单独定义格式属性，例如数字样式、起始值、 缩进、制表符位置等。
+Microsoft Word 文档中的列表是一组列表格式属性。每个列表最多可以有 9 个级别，并且每个级别单独定义格式属性，例如数字样式、起始值、缩进、制表符位置等。
 
-A`List`对象总是属于[`ListCollection`](../listcollection/)收藏。
+一个`List`对象始终属于[`ListCollection`](../listcollection/)收藏。
 
 要创建新列表，请使用[`ListCollection`](../listcollection/)收藏。
 
@@ -56,7 +56,7 @@ A`List`对象总是属于[`ListCollection`](../listcollection/)收藏。
 
 ## 例子
 
-演示如何通过复制列表来重新开始列表中的编号。
+展示如何通过复制列表重新开始列表中的编号。
 
 ```csharp
 Document doc = new Document();
@@ -64,13 +64,13 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其第一列表级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其第一个列表级别。
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// 将我们的列表应用于某些段落。
+// 将我们的列表应用到一些段落。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -80,7 +80,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
 // 我们可以将现有列表的副本添加到文档的列表集合中
-// 创建一个类似的列表而不对原始列表进行更改。
+// 创建类似的列表而不更改原始列表。
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
@@ -95,7 +95,7 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+展示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
@@ -103,8 +103,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其列表的前两个级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其列表级别的前两个。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -130,7 +130,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// 创建段落并将自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将我们的自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;
@@ -160,8 +160,8 @@ Assert.False(builder.ListFormat.IsListItem);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档生成器创建的两种类型的列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 以下是我们可以使用文档构建器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -179,8 +179,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
-// 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+// 此列表将在每个段落前应用缩进和项目符号（“•”）。
+// 此列表的更深级别将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -189,7 +189,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“列表”标志来禁用列表格式，以免将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

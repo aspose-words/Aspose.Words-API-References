@@ -3,14 +3,14 @@ title: XpsSaveOptions.UseBookFoldPrintingSettings
 linktitle: UseBookFoldPrintingSettings
 articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words لـ .NET
-description: XpsSaveOptions UseBookFoldPrintingSettings ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات إذا تم تحديده عبرMultiplePages  في C#.
+description: قم بتحسين تخطيط مستندك باستخدام خاصية XpsSaveOptions UseBookFoldPrintingSettings، مما يتيح لك طباعة كتيبات سلسة لتقديم عرض محسّن.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
 ---
 ## XpsSaveOptions.UseBookFoldPrintingSettings property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات، إذا تم تحديده عبر[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات، إذا تم تحديد ذلك عبر[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -22,21 +22,21 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق XPS على شكل طية كتاب.
+يوضح كيفية حفظ مستند بتنسيق XPS في شكل كتاب مطوي.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذا الأسلوب للمستند إلى .XPS.
+// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions(SaveFormat.Xps);
 
-// اضبط خاصية "UseBookFoldPrintingSettings" على "صحيح" لترتيب المحتويات
-// في مخرجات XPS بطريقة تساعدنا على استخدامها لعمل كتيب.
-// قم بتعيين خاصية "UseBookFoldPrintingSettings" على "خطأ" لعرض XPS بشكل طبيعي.
+// اضبط خاصية "UseBookFoldPrintingSettings" على "true" لترتيب المحتويات
+// في إخراج XPS بطريقة تساعدنا على استخدامه لإنشاء كتيب.
+// قم بضبط خاصية "UseBookFoldPrintingSettings" على "false" لعرض XPS بشكل طبيعي.
 xpsOptions.UseBookFoldPrintingSettings = renderTextAsBookFold;
 
-// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "الصفحات المتعددة"
+// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "صفحات متعددة"
 // خصائص كائنات إعداد الصفحة لجميع الأقسام إلى "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookFold)
     foreach (Section s in doc.Sections)
@@ -45,7 +45,7 @@ if (renderTextAsBookFold)
     }
 
 // بمجرد طباعة هذه الوثيقة، يمكننا تحويلها إلى كتيب عن طريق تكديس الصفحات
-// للخروج من الطابعة والطي في المنتصف.
+// للخروج من الطابعة وطيها من المنتصف.
 doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 

@@ -3,14 +3,14 @@ title: ParagraphFormat.WidowControl
 linktitle: WidowControl
 articleTitle: WidowControl
 second_title: Aspose.Words för .NET
-description: ParagraphFormat WidowControl fast egendom. Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket i C#.
+description: Upptäck hur egenskapen ParagraphFormat WidowControl säkerställer att textens första och sista rader förblir tillsammans på samma sida för bättre läsbarhet.
 type: docs
-weight: 400
+weight: 410
 url: /sv/net/aspose.words/paragraphformat/widowcontrol/
 ---
 ## ParagraphFormat.WidowControl property
 
-Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket.
+Sant om den första och sista raden i stycket ska förbli på samma sida som resten av stycket.
 
 ```csharp
 public bool WidowControl { get; set; }
@@ -18,24 +18,24 @@ public bool WidowControl { get; set; }
 
 ## Exempel
 
-Visar hur man aktiverar änka/föräldralös kontroll för ett stycke.
+Visar hur man aktiverar kontrollen över änkor/överflödiga inställningar för ett stycke.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// När vi skriver texten som inte får plats på en sida kan en rad spilla över på nästa sida.
-// Den enstaka raden som hamnar på nästa sida kallas för "Orphan",
-// och föregående rad där den föräldralösa bröt av kallas "Änka".
-// Vi kan fixa föräldralösa barn och änkor genom att ordna om text via teckenstorlek, mellanrum eller sidmarginaler.
-// Om vi vill bevara vårt dokuments dimensioner kan vi ställa in denna flagga på "true"
- // för att trycka in änkor på samma sida som deras respektive föräldralösa barn.
-// Lämna denna flagga som "false" kommer att lämna änka/föräldralösa par i text.
-// Varje stycke har denna inställning tillgänglig i Microsoft Word via Hem -> Stycke -> Styckeinställningar
-// (knappen i det nedre högra hörnet av "Paragraph"-fliken) -> "Änka/föräldralös kontroll".
+// När vi skriver text som inte får plats på en sida kan en rad spillas över till nästa sida.
+// Den enda raden som hamnar på nästa sida kallas en "Orphan",
+// och den föregående raden där det föräldralösa barnet avbröts kallas en "Änka".
+// Vi kan åtgärda föräldralösa barn och änkor genom att ordna om texten via teckenstorlek, avstånd eller sidmarginaler.
+// Om vi vill behålla dokumentets dimensioner kan vi ställa in denna flagga på "sant"
+// att få änkor att samarbeta med sina respektive föräldralösa barn.
+// Om denna flagga lämnas som "falsk" lämnas änka/föräldralösa par kvar i texten.
+// Varje stycke har den här inställningen tillgänglig i Microsoft Word via Hem -> Stycke -> Styckeinställningar
+// (knapp längst ner till höger på fliken "Stycke") -> "Kontroll för änka/föräldralös".
 builder.ParagraphFormat.WidowControl = widowControl; 
 
-// Infoga text som ger ett föräldralöst barn och en änka.
+// Infoga text som producerar en föräldralös och en änka.
 builder.Font.Size = 68;
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");

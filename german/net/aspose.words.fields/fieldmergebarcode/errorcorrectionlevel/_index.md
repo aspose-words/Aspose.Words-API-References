@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 articleTitle: ErrorCorrectionLevel
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode ErrorCorrectionLevel eigendom. Ruft eine Fehlerkorrekturstufe des QRCodes ab oder legt diese fest. Gültige Werte sind 0 3 in C#.
+description: Entdecken Sie die Eigenschaft FieldMergeBarcode ErrorCorrectionLevel, um die Zuverlässigkeit Ihres QR-Codes zu optimieren. Legen Sie Werte zwischen 0 und 3 für eine verbesserte Fehlerkorrektur fest.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 ---
 ## FieldMergeBarcode.ErrorCorrectionLevel property
 
-Ruft eine Fehlerkorrekturstufe des QR-Codes ab oder legt diese fest. Gültige Werte sind [0, 3].
+Ruft die Fehlerkorrekturstufe des QR-Codes ab oder legt sie fest. Gültige Werte sind [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -18,14 +18,14 @@ public string ErrorCorrectionLevel { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
+Zeigt, wie ein Serienbrief mit QR-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer Zusammenführungsdatenquelle in QR-Codes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer zusammengeführten Datenquelle in QR-Codes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -45,7 +45,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein QR-Code mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein QR-Code mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

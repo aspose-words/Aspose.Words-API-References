@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words لـ .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount ملكية. الحصول على عدد الحقول المحدثة في C#.
+description: اكتشف خاصية UpdatedFieldsCount في FieldUpdatingProgressArgs لتتبع عدد الحقول المحدثة في تطبيقك بسهولة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
 ---
 ## FieldUpdatingProgressArgs.UpdatedFieldsCount property
 
-الحصول على عدد الحقول المحدثة.
+يحصل على عدد الحقول المحدثة.
 
 ```csharp
 public int UpdatedFieldsCount { get; }
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
+يوضح كيفية استخدام طرق الاتصال الرجعي أثناء تحديث الحقل.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
+/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طرقك المخصصة أثناء تحديث الحقل.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

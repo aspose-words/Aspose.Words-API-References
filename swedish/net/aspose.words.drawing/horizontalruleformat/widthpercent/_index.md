@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.WidthPercent
 linktitle: WidthPercent
 articleTitle: WidthPercent
 second_title: Aspose.Words för .NET
-description: HorizontalRuleFormat WidthPercent fast egendom. Hämtar eller ställer in längden på den angivna horisontella regeln uttryckt i procent av fönstrets bredd i C#.
+description: Upptäck egenskapen HorizontalRuleFormat WidthPercent för att enkelt anpassa din horisontella regels längd som en procentandel av fönsterbredden för bättre designkontroll.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-Hämtar eller ställer in längden på den angivna horisontella regeln uttryckt i procent av fönstrets bredd.
+Hämtar eller ställer in längden på den angivna horisontella linjen uttryckt som en procentandel av fönsterbredden.
 
 ```csharp
 public double WidthPercent { get; set; }
@@ -20,17 +20,17 @@ public double WidthPercent { get; set; }
 
 | undantag | skick |
 | --- | --- |
-| ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
+| ArgumentOutOfRangeException | Kasta ett värde när argumentet låg utanför intervallet för giltiga värden. |
 
 ## Anmärkningar
 
-Giltiga värden sträcker sig från 1 till 100 inklusive.
+Giltiga värden sträcker sig från 1 till 100.
 
 Standardvärdet är 100.
 
 ## Exempel
 
-Visar hur man infogar en horisontell regelform och anpassar dess formatering.
+Visar hur man infogar en horisontell linjeform och anpassar dess formatering.
 
 ```csharp
 Document doc = new Document();

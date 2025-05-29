@@ -2,15 +2,15 @@
 title: ImageFieldMergingArgs.ImageHeight
 linktitle: ImageHeight
 articleTitle: ImageHeight
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageFieldMergingArgs ImageHeight 财产. 指定要插入到文档中的图像的图像高度 在 C#.
+second_title: Aspose.Words for .NET
+description: 设置 ImageFieldMergingArgs 中的 ImageHeight 来自定义文档的图像大小，增强视觉吸引力和清晰度。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 ---
 ## ImageFieldMergingArgs.ImageHeight property
 
-指定要插入到文档中的图像的图像高度。
+指定插入文档的图像高度。
 
 ```csharp
 public MergeFieldImageDimension ImageHeight { get; set; }
@@ -18,21 +18,21 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ## 评论
 
-该属性的值最初来自相应的 MERGEFIELD 代码，包含在 模板文档中。要覆盖初始值，您应该分配一个实例 of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类为此属性或设置实例 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类，由此属性返回。
+此属性的初始值来自 模板文档中相应的 MERGEFIELD 代码。要覆盖初始值，您应该分配一个 实例[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类到此属性或设置instance 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类，由此属性返回。
 
-要指示应应用图像高度的原始值，您应该分配`无效的` 值为此属性或设置[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/)的instance 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)该属性返回的类为负值。
+为指示应应用图像高度的原始值，应分配`无效的` 值添加到此属性或设置[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/)的实例 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类，由此属性返回，为负值。
 
 ## 例子
 
-展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
+展示如何在邮件合并期间设置 MERGEFIELDS 接受的图像尺寸。
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
-    // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
+    // 插入一个合并字段，用于在邮件合并期间接收来自源的图片。使用字段代码来引用
+    // 数据源中的一列包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
@@ -81,6 +81,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

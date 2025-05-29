@@ -3,9 +3,9 @@ title: Shape.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words pour .NET
-description: Shape StoryType propriété. RetoursTextbox  en C#.
+description: Transformez votre propriété StoryType en toute simplicité grâce à notre fonctionnalité intuitive de zone de texte. Améliorez l'expérience utilisateur et optimisez votre création de contenu dès aujourd'hui !
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property
@@ -18,7 +18,7 @@ public StoryType StoryType { get; }
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

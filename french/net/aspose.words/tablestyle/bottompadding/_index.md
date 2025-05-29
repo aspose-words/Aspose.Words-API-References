@@ -3,7 +3,7 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words pour .NET
-description: TableStyle BottomPadding propriété. Obtient ou définit la quantité despace en points à ajouter sous le contenu des cellules du tableau en C#.
+description: Découvrez la propriété TableStyle BottomPadding et personnalisez l'espacement des cellules de votre tableau pour une mise en page et une lisibilité améliorées. Optimisez votre design sans effort !
 type: docs
 weight: 50
 url: /fr/net/aspose.words/tablestyle/bottompadding/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

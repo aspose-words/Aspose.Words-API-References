@@ -3,14 +3,14 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words für .NET
-description: Document MailMerge eigendom. Gibt a zurückMailMerge Objekt das die Serienbrieffunktion für das Dokument darstellt in C#.
+description: Schalten Sie mit dem MailMerge-Objekt eine nahtlose Dokumentenautomatisierung frei und verbessern Sie Ihren Arbeitsablauf, indem Sie Serienbriefaufgaben mühelos vereinfachen.
 type: docs
-weight: 260
+weight: 270
 url: /de/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Gibt a zurück[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) Objekt, das die Serienbrieffunktion für das Dokument darstellt.
+Gibt einen[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) Objekt, das die Serienbrieffunktion für das Dokument darstellt.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -30,14 +30,14 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
     // Nachfolgend finden Sie zwei Möglichkeiten, eine DataTable als Datenquelle für einen Serienbrief zu verwenden.
-    // 1 – Verwenden Sie die gesamte Tabelle für den Serienbrief, um für jede Zeile in der Tabelle ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 1 - Verwenden Sie die gesamte Tabelle für den Seriendruck, um für jede Zeile in der Tabelle ein Ausgabe-Seriendruckdokument zu erstellen:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 – Verwenden Sie eine Zeile der Tabelle, um ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 2 - Verwenden Sie eine Zeile der Tabelle, um ein Serienbrief-Ausgabedokument zu erstellen:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);

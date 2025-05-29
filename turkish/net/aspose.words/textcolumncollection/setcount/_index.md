@@ -2,15 +2,15 @@
 title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
-second_title: Aspose.Words for .NET
-description: TextColumnCollection SetCount yöntem. Metni belirtilen sayıda metin sütunu halinde düzenler C#'da.
+second_title: .NET için Aspose.Words
+description: TextColumnCollection SetCount yöntemiyle düzeninizi optimize edin; metni istediğiniz sütun sayısına zahmetsizce yerleştirerek okunabilirliği artırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-Metni belirtilen sayıda metin sütunu halinde düzenler.
+Metni belirtilen sayıda metin sütununa düzenler.
 
 ```csharp
 public void SetCount(int newCount)
@@ -18,15 +18,15 @@ public void SetCount(int newCount)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| newCount | Int32 | Metnin düzenleneceği sütun sayısı. |
+| newCount | Int32 | Metnin kaç sütuna yerleştirileceği. |
 
 ## Notlar
 
-Ne zaman[`EvenlySpaced`](../evenlyspaced/) dır-dir`YANLIŞ` ve sütun sayısını artırırsınız, new[`TextColumn`](../../textcolumn/) nesneler sıfır genişlik ve aralıkla oluşturulur. Yeni sütunlar için genişlik ve aralık ayarlamanız gerekir.
+Ne zaman[`EvenlySpaced`](../evenlyspaced/) dır`YANLIŞ` ve sütun sayısını artırırsanız, yeni[`TextColumn`](../../textcolumn/) nesneler sıfır genişlik ve aralıkla oluşturulur. Yeni sütunlar için genişlik ve aralık ayarlamanız gerekir.
 
 ## Örnekler
 
-Bir bölümde birden çok eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
+Bir bölümde birden fazla eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

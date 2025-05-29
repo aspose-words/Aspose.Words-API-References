@@ -3,14 +3,14 @@ title: NodeCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words für .NET
-description: NodeCollection ToArray methode. Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten in C#.
+description: Entdecken Sie die Methode „NodeCollection ToArray“, konvertieren Sie Ihre Knotensammlung mühelos in ein neues Array und verbessern Sie so die Datenverwaltung und Zugänglichkeit.
 type: docs
 weight: 110
 url: /de/net/aspose.words/nodecollection/toarray/
 ---
 ## NodeCollection.ToArray method
 
-Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten.
+Kopiert alle Knoten aus der Sammlung in ein neues Knoten-Array.
 
 ```csharp
 public Node[] ToArray()
@@ -22,9 +22,9 @@ Ein Array von Knoten.
 
 ## Bemerkungen
 
-Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erfordert.
+Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erforderlich macht.
 
-Um Knoten während der Iteration hinzufügen/entfernen zu können, verwenden Sie diese Methode, um -Knoten in ein Array fester Größe zu kopieren und dann über das Array zu iterieren.
+Um während der Iteration Knoten hinzufügen/entfernen zu können, verwenden Sie diese Methode, um -Knoten in ein Array mit fester Größe zu kopieren und dann über das Array zu iterieren.
 
 ## Beispiele
 

@@ -3,7 +3,7 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words für .NET
-description: Shading Texture eigendom. Ruft die Schattierungstextur ab oder legt sie fest in C#.
+description: Entdecken Sie die Schattierungstextur-Eigenschaft, um Ihre Designs zu verbessern. Passen Sie Texturen einfach an und legen Sie sie fest, um beeindruckende visuelle Effekte in Ihren Projekten zu erzielen.
 type: docs
 weight: 70
 url: /de/net/aspose.words/shading/texture/
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
+Zeigt, wie Sie Text mit Rahmen und Schattierungen verzieren.
 
 ```csharp
 Document doc = new Document();

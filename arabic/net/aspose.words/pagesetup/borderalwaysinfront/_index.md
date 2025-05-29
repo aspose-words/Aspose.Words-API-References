@@ -3,7 +3,7 @@ title: PageSetup.BorderAlwaysInFront
 linktitle: BorderAlwaysInFront
 articleTitle: BorderAlwaysInFront
 second_title: Aspose.Words لـ .NET
-description: PageSetup BorderAlwaysInFront ملكية. يحدد مكان وضع حدود الصفحة بالنسبة للنصوص والكائنات المتقاطعة في C#.
+description: اكتشف خاصية PageSetup BorderAlwaysInFront لتحسين حدود الصفحة وتعزيز التخطيط والرؤية للنصوص والكائنات المتقاطعة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/pagesetup/borderalwaysinfront/
@@ -18,7 +18,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حدود ذات شريط أزرق عريض في الجزء العلوي من الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

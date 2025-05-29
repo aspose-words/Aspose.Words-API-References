@@ -3,9 +3,9 @@ title: FieldIndexFormat Enum
 linktitle: FieldIndexFormat
 articleTitle: FieldIndexFormat
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldIndexFormat énumération. Spécifie le formatage duFieldIndex champs dans un document en C#.
+description: Découvrez l'énumération Aspose.Words.FieldIndexFormat pour personnaliser le formatage FieldIndex de vos documents. Améliorez la structure de vos documents sans effort !
 type: docs
-weight: 2070
+weight: 2480
 url: /fr/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration
@@ -24,9 +24,29 @@ public enum FieldIndexFormat
 | Classic | `1` | Classique. |
 | Fancy | `2` | Fantaisie. |
 | Modern | `3` | Moderne. |
-| Bulleted | `4` | À puce. |
+| Bulleted | `4` | Puces. |
 | Formal | `5` | Officiel. |
 | Simple | `6` | Simple. |
+
+## Exemples
+
+Montre comment formater les champs FieldIndex.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("A");
+builder.InsertBreak(BreakType.LineBreak);
+builder.InsertField("XE \"A\"");
+builder.Write("B");
+
+builder.InsertField(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", null);
+
+doc.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
+```
 
 ### Voir également
 

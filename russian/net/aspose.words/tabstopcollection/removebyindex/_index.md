@@ -3,7 +3,7 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words для .NET
-description: TabStopCollection RemoveByIndex метод. Удаляет позицию табуляции по указанному индексу из коллекции на С#.
+description: Легко управляйте своими табуляторами с помощью метода RemoveByIndex. Быстро удаляйте любые табуляторы из своей коллекции для упрощения дизайна.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,7 +18,7 @@ public void RemoveByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции позиций табуляции. |
+| index | Int32 | Индекс коллекции позиций табуляции. |
 
 ## Примеры
 

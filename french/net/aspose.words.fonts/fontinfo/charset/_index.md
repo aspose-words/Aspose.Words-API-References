@@ -3,7 +3,7 @@ title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
 second_title: Aspose.Words pour .NET
-description: FontInfo Charset propriété. Obtient ou définit le jeu de caractères pour la police en C#.
+description: Découvrez la propriété FontInfo Charset pour gérer et personnaliser facilement le jeu de caractères de votre police pour une flexibilité de conception et une lisibilité améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontinfo/charset/

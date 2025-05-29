@@ -3,14 +3,14 @@ title: FieldAutoTextList.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words для .NET
-description: FieldAutoTextList EntryName свойство. Получает или задает имя записи автотекста на С#.
+description: Узнайте, как управлять записями автотекста с помощью свойства FieldAutoTextList EntryName — легко задавайте или извлекайте имена для упрощенного редактирования документов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautotextlist/entryname/
 ---
 ## FieldAutoTextList.EntryName property
 
-Получает или задает имя записи автотекста.
+Возвращает или задает имя записи автотекста.
 
 ```csharp
 public string EntryName { get; set; }
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Создайте поле АВТОТЕКСТЛИСТ и задайте текст, который будет отображаться в этом поле в Microsoft Word.
-    // Установите текст, предлагающий пользователю щелкнуть это поле правой кнопкой мыши, чтобы выбрать стандартный блок автотекста,
+    // Создайте поле AUTOTEXTLIST и задайте текст, который будет отображаться в поле в Microsoft Word.
+    // Задайте текст, который предложит пользователю щелкнуть правой кнопкой мыши по этому полю, чтобы выбрать блок AutoText,
     // содержимое которого будет отображаться в поле.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Создайте стандартный блок типа Автотекст и добавьте его в документ глоссария.
+/// Создайте строительный блок типа AutoText и добавьте его в документ глоссария.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

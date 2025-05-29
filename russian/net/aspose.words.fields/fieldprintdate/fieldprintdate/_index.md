@@ -3,7 +3,7 @@ title: FieldPrintDate
 linktitle: FieldPrintDate
 articleTitle: FieldPrintDate
 second_title: Aspose.Words для .NET
-description: FieldPrintDate строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldPrintDate — ваше решение для бесперебойного управления датами в приложениях. Упростите кодирование с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldprintdate/fieldprintdate/

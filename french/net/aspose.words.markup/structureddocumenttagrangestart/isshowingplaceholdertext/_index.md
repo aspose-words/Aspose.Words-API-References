@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText propriété. Spécifie si le contenu de cette balise de document structuré doit être interprété comme contenant du texte despace réservé par opposition au contenu de texte normal dans la balise de document structuré en C#.
+description: Découvrez la propriété IsShowingPlaceholderText de StructuredDocumentTagRangeStart. Gérez facilement les espaces réservés et le texte standard dans vos documents structurés !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -12,7 +12,7 @@ url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 
 Spécifie si le contenu de cette balise de document structuré doit être interprété comme contenant du texte d'espace réservé (par opposition au contenu de texte normal dans la balise de document structuré).
 
-si défini sur`vrai` , cet état doit être repris (affichant le texte d'espace réservé) à l'ouverture de ce document.
+si défini sur`vrai` , cet état sera repris (en affichant le texte d'espace réservé) à l'ouverture de ce document.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: OdsoFieldMapDataCollection Clear methode. Entfernt alle Elemente aus dieser Sammlung in C#.
+description: Löschen Sie Ihre OdsoFieldMapDataCollection mühelos mit unserer Clear-Methode und sorgen Sie durch schnelles und effizientes Entfernen aller Elemente für einen Neustart.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -18,13 +18,13 @@ public void Clear()
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Seriendruckfeldern zuordnet.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle zuordnet
-// zu den vordefinierten Feldern MERGEFIELD, ADDRESSBLOCK und GREETINGLINE.
+// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle abbildet
+// zu vordefinierten MERGEFIELD-, ADDRESSBLOCK- und GREETINGLINE-Feldern.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klonen Sie die Elemente in dieser Sammlung.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Die Elemente der Methode „RemoveAt“ einzeln nach Index verwenden.
+// Verwenden Sie die Elemente der Methode „RemoveAt“ einzeln nach Index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

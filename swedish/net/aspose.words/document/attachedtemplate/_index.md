@@ -3,14 +3,14 @@ title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
 second_title: Aspose.Words för .NET
-description: Document AttachedTemplate fast egendom. Hämtar eller ställer in hela sökvägen för mallen som är bifogad till dokumentet i C#.
+description: Upptäck hur du effektivt hanterar din Document AttachedTemplate-egenskap. Ställ enkelt in eller hämta hela sökvägen till din dokumentmall för sömlös integration.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/document/attachedtemplate/
 ---
 ## Document.AttachedTemplate property
 
-Hämtar eller ställer in hela sökvägen för mallen som är bifogad till dokumentet.
+Hämtar eller anger den fullständiga sökvägen till mallen som är bifogad till dokumentet.
 
 ```csharp
 public string AttachedTemplate { get; set; }
@@ -20,11 +20,11 @@ public string AttachedTemplate { get; set; }
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar om du försöker ställa in till a`null` värde. |
+| ArgumentNullException | Kastar om du försöker ställa in på en`null` värde. |
 
 ## Anmärkningar
 
-Tom sträng betyder att dokumentet är bifogat till mallen Normal.
+Tom sträng betyder att dokumentet är kopplat till Normal-mallen.
 
 ## Exempel
 
@@ -38,7 +38,7 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Eftersom det inte finns något malldokument hade dokumentet ingenstans att spåra stiländringar.
+// Eftersom det inte finns något malldokument fanns det ingenstans i dokumentet att spåra stiländringar.
 // Använd ett SaveOptions-objekt för att automatiskt ställa in en mall
 // om ett dokument som vi sparar inte har ett.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");

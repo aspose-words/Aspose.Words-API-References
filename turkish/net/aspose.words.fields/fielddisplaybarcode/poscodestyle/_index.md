@@ -2,15 +2,15 @@
 title: FieldDisplayBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
-second_title: Aspose.Words for .NET
-description: FieldDisplayBarcode PosCodeStyle mülk. Satış Noktası barkodunun stilini alır veya ayarlar barkod türleri UPCAUPCEEAN13EAN8. Geçerli değerler büyük/küçük harfe duyarlı değil şunlardır STDSUP2SUP5CASE C#'da.
+second_title: .NET için Aspose.Words
+description: Satış Noktası barkodlarını özelleştirmek için FieldDisplayBarcode PosCodeStyle özelliğini keşfedin. En iyi verimlilik için UPCA, EAN13 ve daha fazlasını destekler.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-Satış Noktası barkodunun stilini alır veya ayarlar (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değil) şunlardır: [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Bir Satış Noktası barkodunun stilini alır veya ayarlar (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değildir) [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Aşağıda DISPLAYBARCODE alanının görüntüleyebileceği, çeşitli şekillerde dekore edilmiş dört tür barkod bulunmaktadır.
+// Aşağıda, DISPLAYBARCODE alanının görüntüleyebileceği, çeşitli şekillerde dekore edilmiş dört tip barkod bulunmaktadır.
 // 1 - Özel renklere sahip QR kodu:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13 barkodu, rakamlar çubukların altında görüntülenir:
+// 2 - EAN13 barkodu, çubukların altında gösterilen rakamlarla:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 barkodu, belirtilen durum koduyla:
+// 4 - Belirtilen kasa koduna sahip ITF4 barkodu:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

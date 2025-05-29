@@ -3,14 +3,14 @@ title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
 second_title: Aspose.Words для .NET
-description: FieldPrint PrinterInstructions свойство. Получает или задает символы управляющего кода принтера или инструкции PostScript на С#.
+description: Узнайте, как управлять управляющими кодами принтера и инструкциями PostScript с помощью FieldPrint PrinterInstructions для оптимизированных решений печати.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Получает или задает символы управляющего кода принтера или инструкции PostScript.
+Возвращает или задает символы управляющего кода принтера или инструкции PostScript.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -18,7 +18,7 @@ public string PrinterInstructions { get; set; }
 
 ## Примеры
 
-Показывает, что нужно вставить поле ПЕЧАТЬ.
+Показывает, как вставить поле ПЕЧАТЬ.
 
 ```csharp
 Document doc = new Document();
@@ -26,15 +26,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Поле ПЕЧАТЬ может отправлять инструкции на принтер.
+// Поле PRINT может отправлять инструкции на принтер.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Установите область, в которой принтер будет выполнять инструкции.
-// В данном случае это будет абзац, содержащий наше поле PRINT.
+// Задайте область, в которой принтер будет выполнять инструкции.
+// В этом случае это будет абзац, содержащий наше поле PRINT.
 field.PostScriptGroup = "para";
 
 // Когда мы используем принтер, поддерживающий PostScript, для печати нашего документа,
-// эта команда превратит всю область, указанную в «field.PostScriptGroup», в белую.
+// эта команда сделает всю область, указанную нами в "field.PostScriptGroup", белой.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

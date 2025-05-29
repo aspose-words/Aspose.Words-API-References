@@ -2,15 +2,15 @@
 title: TextBoxWrapMode Enum
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode Sıralama. Metnin şeklin içinde nasıl kaydırılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Şekillerdeki metin kaydırmayı kontrol etmek, belge düzenlerini ve tasarım esnekliğini geliştirmek için Aspose.Words.Drawing.TextBoxWrapMode enum'unu keşfedin.
 type: docs
-weight: 1340
+weight: 1750
 url: /tr/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
 
-Metnin şeklin içinde nasıl kaydırılacağını belirtir.
+Metnin bir şeklin içinde nasıl sarılacağını belirtir.
 
 ```csharp
 public enum TextBoxWrapMode
@@ -21,11 +21,11 @@ public enum TextBoxWrapMode
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Square | `0` | Metin bir şeklin içine sarılır. |
-| None | `2` | Metin şeklin içine sarılmıyor. |
+| None | `2` | Metin bir şeklin içine sarılmıyor. |
 
 ## Örnekler
 
-Metin kutusunun içeriği için sarma modunun nasıl ayarlanacağını gösterir.
+Bir metin kutusunun içeriği için kaydırma modunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Metin kutusunun genişliğini artırmak için "TextBoxWrapMode" özelliğini "TextBoxWrapMode.None" olarak ayarlayın
-// yeterince büyük olması durumunda metni yerleştirmek için.
+// metni barındıracak kadar büyük olmalıdır.
 // "TextBoxWrapMode" özelliğini "TextBoxWrapMode.Square" olarak ayarlayın
-// tüm metni boyutlarını koruyarak metin kutusunun içine sarın.
+// metin kutusunun içindeki tüm metni, boyutlarını koruyarak sar.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

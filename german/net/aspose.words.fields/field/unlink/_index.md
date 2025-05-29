@@ -3,14 +3,14 @@ title: Field.Unlink
 linktitle: Unlink
 articleTitle: Unlink
 second_title: Aspose.Words für .NET
-description: Field Unlink methode. Führt das Feld unlink aus in C#.
+description: Entdecken Sie die Methode „Feldverknüpfung aufheben“, um mühelos die Verknüpfung von Feldern aufzuheben, Ihr Datenmanagement zu verbessern und Ihren Arbeitsablauf für optimale Ergebnisse zu optimieren.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/field/unlink/
 ---
 ## Field.Unlink method
 
-Führt das Feld unlink aus.
+Führt die Feldverknüpfung aus.
 
 ```csharp
 public bool Unlink()
@@ -24,7 +24,7 @@ public bool Unlink()
 
 Ersetzt das Feld durch das aktuellste Ergebnis.
 
-Die Verknüpfung einiger Felder, wie etwa XE-Felder (Indexeintrag) und SEQ-Felder (Sequenz), kann nicht aufgehoben werden.
+Die Verknüpfung mancher Felder, wie etwa XE-Felder (Indexeintrag) und SEQ-Felder (Sequenz), kann nicht aufgehoben werden.
 
 ## Beispiele
 

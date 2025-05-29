@@ -3,14 +3,14 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words för .NET
-description: Row Cells fast egendom. Ger maskinskriven åtkomst tillCell underordnade noder för raden i C#.
+description: Få enkel åtkomst till radceller med maskinskrivna kontroller för sömlös hantering av underordnade noder, vilket förbättrar din datahanteringsupplevelse.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Ger maskinskriven åtkomst till[`Cell`](../../cell/) underordnade noder för raden.
+Ger maskinskriven åtkomst till[`Cell`](../../cell/) underordnade noder till raden.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## Exempel
 
-Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
+Visar hur man itererar igenom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Vi kan använda "ToArray"-metoden på en radsamling för att klona den till en array.
+    // Vi kan använda metoden "ToArray" på en radsamling för att klona den till en array.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Vi kan använda "ToArray"-metoden på en cellsamling för att klona den till en array.
+        // Vi kan använda metoden "ToArray" på en cellsamling för att klona den till en array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

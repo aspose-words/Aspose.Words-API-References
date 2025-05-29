@@ -2,15 +2,15 @@
 title: PageSetup.ChapterPageSeparator
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup ChapterPageSeparator 财产. 获取或设置出现在章节号和页码之间的分隔符 在 C#.
+second_title: Aspose.Words for .NET
+description: 在 PageSetup 中探索 ChapterPageSeparator 属性。轻松自定义章节和页码之间的分隔符，打造更美观的外观。
 type: docs
 weight: 90
 url: /zh/net/aspose.words/pagesetup/chapterpageseparator/
 ---
 ## PageSetup.ChapterPageSeparator property
 
-获取或设置出现在章节号和页码之间的分隔符。
+获取或设置章节号和页码之间的分隔符。
 
 ```csharp
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
@@ -18,11 +18,11 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 ## 评论
 
-在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
+在创建包含章节号的页码之前，文档标题必须应用编号大纲格式。
 
 ## 例子
 
-展示如何使用页面章节。
+展示如何处理页面章节。
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

@@ -3,7 +3,7 @@ title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: CustomPartCollection RemoveAt metodo. Rimuove un elemento allindice specificato in C#.
+description: Gestisci senza sforzo la tua CustomPartCollection con il metodo RemoveAt: rimuovi rapidamente gli elementi in base all'indice per una gestione semplificata dei dati.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice a base zero. |
+| index | Int32 | L'indice basato sullo zero. |
 
 ## Esempi
 
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

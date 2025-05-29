@@ -3,9 +3,9 @@ title: IFieldResultFormatter Interface
 linktitle: IFieldResultFormatter
 articleTitle: IFieldResultFormatter
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.IFieldResultFormatter koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie das Feldergebnis formatiert wird in C#.
+description: Entdecken Sie die Aspose.Words.Fields.IFieldResultFormatter-Schnittstelle, um die Feldergebnisformatierung für Ihre Dokumente mühelos anzupassen und zu verbessern.
 type: docs
-weight: 2700
+weight: 3110
 url: /de/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -20,14 +20,14 @@ public interface IFieldResultFormatter
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, z. B. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel anwendet, z. B. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Wird aufgerufen, wenn Aspose.Words einen Datums-/Uhrzeitformatwechsel anwendet, z. B. \@ „dd.MM.yyyy“. |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Wird aufgerufen, wenn Aspose.Words einen numerischen Formatwechsel anwendet, z. B. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Wird aufgerufen, wenn Aspose.Words einen Zahlenformatschalter anwendet, z. B. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel anwendet, z. B. \* Groß. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Wird aufgerufen, wenn Aspose.Words einen Datums-/Uhrzeitformatwechsel anwendet, z. B. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Wird aufgerufen, wenn Aspose.Words einen numerischen Formatschalter anwendet, z. B. \# "#.##". |
 
 ## Beispiele
 
-Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
+Zeigt, wie beim Aktualisieren der Felder automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird.
 
 ```csharp
 public void FieldResultFormatting()
@@ -39,7 +39,7 @@ public void FieldResultFormatting()
 
     // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder mit drei Formattypen an.
     // Feldergebnisformatierer wenden neue Formatierungen auf Felder an, wenn diese aktualisiert werden.
-    // was passiert, sobald wir sie mit dieser InsertField-Methodenüberladung erstellen.
+    // was passiert, sobald wir sie mit dieser Überladung der InsertField-Methode erstellen.
     // 1 - Numerisch:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -52,7 +52,7 @@ public void FieldResultFormatting()
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Allgemein:
+    // 3 - Allgemeines:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -118,12 +118,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

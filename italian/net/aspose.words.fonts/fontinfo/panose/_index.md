@@ -3,14 +3,14 @@ title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
 second_title: Aspose.Words per .NET
-description: FontInfo Panose proprietà. Ottiene o imposta il numero di classificazione del carattere tipografico PANOSE in C#.
+description: Scopri la proprietà PANOSE di FontInfo, ottieni o imposta facilmente il numero di classificazione del carattere per una migliore gestione dei font e una maggiore precisione nel design.
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
 
-Ottiene o imposta il numero di classificazione del carattere tipografico PANOSE.
+Ottiene o imposta il numero di classificazione del carattere PANOSE.
 
 ```csharp
 public byte[] Panose { get; set; }
@@ -18,13 +18,13 @@ public byte[] Panose { get; set; }
 
 ## Osservazioni
 
-PANOSE è una descrizione compatta di 10 byte delle caratteristiche visive critiche di un font, come contrasto, peso e stile serif. Le cifre rappresentano il tipo di famiglia, lo stile serif, il peso , la proporzione, il contrasto, la variazione del tratto, lo stile del braccio, la forma delle lettere, la linea mediana e l'altezza X.
+PANOSE è una descrizione compatta di 10 byte delle caratteristiche visive critiche di un font, come contrasto, spessore e stile serif. Le cifre rappresentano il tipo di famiglia, lo stile serif, lo spessore, le proporzioni, il contrasto, la variazione del tratto, lo stile del braccio, la forma delle lettere, la linea mediana e l'altezza della X.
 
-Può essere`nullo`.
+Può essere`null`.
 
 ## Esempi
 
-Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
+Mostra come accedere e stampare i dettagli di ciascun font in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -37,7 +37,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi sono generalmente vuoti.
+        // I nomi alt sono solitamente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

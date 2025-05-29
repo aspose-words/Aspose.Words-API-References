@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.FontFormat
 linktitle: FontFormat
 articleTitle: FontFormat
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions FontFormat свойство. Получает или устанавливаетExportFontFormat используется для экспорта шрифтов. Значение по умолчаниюWoff  на С#.
+description: Откройте для себя свойство HtmlFixedSaveOptions FontFormat для настройки экспорта шрифтов. Легко установите и оптимизируйте свой формат по умолчанию на Woff для лучшей производительности.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -18,7 +18,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ## Примеры
 
-Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

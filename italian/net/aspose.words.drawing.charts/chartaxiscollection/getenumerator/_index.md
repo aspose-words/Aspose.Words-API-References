@@ -3,7 +3,7 @@ title: ChartAxisCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: ChartAxisCollection GetEnumerator metodo. Restituisce un oggetto enumeratore in C#.
+description: Scopri il metodo GetEnumerator di ChartAxisCollection, recupera senza sforzo gli oggetti enumeratori per migliorare la visualizzazione dei tuoi dati e semplificare la tua codifica!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/

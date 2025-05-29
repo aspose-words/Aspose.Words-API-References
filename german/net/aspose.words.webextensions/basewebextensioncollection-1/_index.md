@@ -3,16 +3,16 @@ title: BaseWebExtensionCollectionT Class
 linktitle: BaseWebExtensionCollectionT
 articleTitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klas. Basisklasse fürTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection UndWebExtensionReferenceCollection Sammlungen in C#.
+description: Entdecken Sie die Klasse Aspose.Words.WebExtensions.BaseWebExtensionCollection1T, Ihr unverzichtbares Tool für die effiziente Verwaltung von TaskPane- und WebExtension-Sammlungen.
 type: docs
-weight: 6700
+weight: 7550
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
 Basisklasse für[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) Und[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) Sammlungen.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -34,7 +34,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Fügt das angegebene Element zur Sammlung hinzu. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Fügt der Sammlung das angegebene Element hinzu. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Gibt einen Enumerator zurück, der eine Sammlung durchlaufen kann. |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Entfernt das Element am angegebenen Index aus der Sammlung. |
@@ -59,7 +59,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Web-Erweiterung entfernen.
+// Entfernen Sie die Weberweiterung.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

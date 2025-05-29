@@ -2,8 +2,8 @@
 title: Font.Color
 linktitle: Color
 articleTitle: Color
-second_title: 用于 .NET 的 Aspose.Words
-description: Font Color 财产. 获取或设置字体的颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“字体颜色”属性，轻松自定义设计中的文本颜色。使用鲜艳夺目的色调，提升可读性和美观度！
 type: docs
 weight: 70
 url: /zh/net/aspose.words/font/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## 例子
 
-演示如何使用 DocumentBuilder 插入格式化文本。
+展示如何使用 DocumentBuilder 插入格式化文本。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-演示如何插入超链接字段。
+显示如何插入超链接字段。
 
 ```csharp
 Document doc = new Document();
@@ -51,7 +51,7 @@ builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + 左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口转到 URL。
+// 按住 Ctrl 键并左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口带我们进入 URL。
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

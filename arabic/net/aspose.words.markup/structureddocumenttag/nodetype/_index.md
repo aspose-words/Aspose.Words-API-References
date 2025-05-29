@@ -3,7 +3,7 @@ title: StructuredDocumentTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag NodeType ملكية. إرجاعStructuredDocumentTag  في C#.
+description: استكشف خاصية StructuredDocumentTag NodeType لإدارة مستندات فعّالة. تمتع بإمكانية الوصول السلس إلى البيانات المنظمة في مشاريعك.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

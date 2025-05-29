@@ -3,9 +3,9 @@ title: CompositeNode.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words para .NET
-description: CompositeNode GetText método. Obtiene el texto de este nodo y de todos sus hijos en C#.
+description: Descubra el método CompositeNode GetText para recuperar texto de manera eficiente de los nodos y sus hijos, mejorando sus capacidades de procesamiento de datos.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -30,11 +30,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText recuperará el texto visible así como códigos de campo y caracteres especiales.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+// GetText recuperará el texto visible, así como los códigos de campo y caracteres especiales.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
 // ToString nos dará la apariencia del documento si se guarda en un formato de guardado aprobado.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
 Muestra cómo generar todos los párrafos de un documento que son elementos de lista.
@@ -57,7 +57,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

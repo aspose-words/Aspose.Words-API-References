@@ -3,7 +3,7 @@ title: TextBox.BreakForwardLink
 linktitle: BreakForwardLink
 articleTitle: BreakForwardLink
 second_title: Aspose.Words per .NET
-description: TextBox BreakForwardLink metodo. Interrompe il collegamento al successivoTextBox  in C#.
+description: Scopri il metodo TextBox BreakForwardLink per scollegare senza problemi le tue caselle di testo, migliorando l'esperienza utente e la navigazione dei form. Ottimizza la tua interfaccia utente oggi stesso!
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -18,7 +18,7 @@ public void BreakForwardLink()
 
 ## Osservazioni
 
-`BreakForwardLink`non interrompe tutti gli altri collegamenti nella sequenza corrente di forme. Ad esempio: sequenza 1-2-3-4 e`BreakForwardLink` nella seconda casella di testo verranno create due sequenze 1-2, 3-4.
+`BreakForwardLink` non interrompe tutti gli altri collegamenti nella sequenza corrente di forme. Ad esempio: sequenza 1-2-3-4 e`BreakForwardLink` nella seconda casella di testo verranno create due sequenze 1-2, 3-4.
 
 ## Esempi
 
@@ -50,7 +50,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Solo una casella di testo vuota può avere un collegamento.
+// Solo una casella di testo vuota può contenere un collegamento.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -68,9 +68,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Interrompe il collegamento in avanti tra textBox2 e textBox3, quindi verifica che non siano più collegati.
+    // Interrompere il collegamento in avanti tra textBox2 e textBox3, quindi verificare che non siano più collegati.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

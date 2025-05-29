@@ -2,15 +2,15 @@
 title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
-second_title: Aspose.Words for .NET
-description: FrameFormat Width mülk. Belirtilen çerçevenin genişliğini nokta cinsinden alır C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçevenin genişliğini noktalar halinde kolayca alabilmek için FrameFormat Width özelliğini keşfedin, böylece tasarım hassasiyetinizi ve verimliliğinizi artırın.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/frameformat/width/
 ---
 ## FrameFormat.Width property
 
-Belirtilen çerçevenin genişliğini nokta cinsinden alır.
+Belirtilen çerçevenin genişliğini noktalar halinde alır.
 
 ```csharp
 public double Width { get; }
@@ -18,7 +18,7 @@ public double Width { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

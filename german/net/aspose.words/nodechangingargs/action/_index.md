@@ -3,7 +3,7 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words für .NET
-description: NodeChangingArgs Action eigendom. Ruft einen Wert ab der angibt welche Art von Knotenänderungsereignis auftritt in C#.
+description: Entdecken Sie die Aktionseigenschaft NodeChangingArgs, um Knotenänderungsereignisse mühelos zu identifizieren. Steigern Sie Ihre Programmiereffizienz mit dieser wichtigen Funktion!
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodechangingargs/action/
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum während der Bearbeitung in Echtzeit zu überwachen.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

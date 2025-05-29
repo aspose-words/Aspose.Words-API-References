@@ -3,14 +3,14 @@ title: FontSourceBase.GetAvailableFonts
 linktitle: GetAvailableFonts
 articleTitle: GetAvailableFonts
 second_title: Aspose.Words per .NET
-description: FontSourceBase GetAvailableFonts metodo. Restituisce lelenco dei caratteri disponibili tramite questa origine in C#.
+description: Scopri i font disponibili con il metodo GetAvailableFonts di FontSourceBase. Arricchisci i tuoi progetti con un'ampia selezione di caratteri di alta qualità!
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase.GetAvailableFonts method
 
-Restituisce l'elenco dei caratteri disponibili tramite questa origine.
+Restituisce l'elenco dei font disponibili tramite questa sorgente.
 
 ```csharp
 public IList<PhysicalFontInfo> GetAvailableFonts()
@@ -18,10 +18,10 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 
 ## Esempi
 
-Mostra come elencare i caratteri disponibili.
+Mostra come elencare i font disponibili.
 
 ```csharp
-// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
+// Configurare Aspose.Words per ottenere i font da una cartella personalizzata e quindi stampare tutti i font disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

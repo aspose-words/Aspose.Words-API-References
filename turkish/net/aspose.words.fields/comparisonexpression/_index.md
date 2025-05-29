@@ -2,17 +2,17 @@
 title: ComparisonExpression Class
 linktitle: ComparisonExpression
 articleTitle: ComparisonExpression
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.ComparisonExpression sınıf. Karşılaştırma ifadesi C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge karşılaştırması için Aspose.Words.Fields.ComparisonExpression sınıfını keşfedin. Güçlü ifade yetenekleriyle iş akışınızı geliştirin!
 type: docs
-weight: 1490
+weight: 1900
 url: /tr/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
 Karşılaştırma ifadesi.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public sealed class ComparisonExpression
@@ -23,7 +23,7 @@ public sealed class ComparisonExpression
 | İsim | Tanım |
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | Karşılaştırma operatörünü alır. |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Soldaki ifadeyi alır. |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Sol ifadeyi alır. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Doğru ifadeyi alır. |
 
 ## Örnekler
@@ -41,11 +41,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Bu örnekte kullandığımız alan kodları:
-    // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
+    // 1. " EĞER {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
+    // 2. " {0} {1} {2}'yi KARŞILAŞTIR ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
+    // Eğer "comparisonResult" tanımsızsa, "ComparisonEvaluationResult"u bool yerine string ile oluşturuyoruz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -67,6 +67,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

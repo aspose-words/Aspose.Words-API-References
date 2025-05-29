@@ -3,7 +3,7 @@ title: FieldToa.UseHeading
 linktitle: UseHeading
 articleTitle: UseHeading
 second_title: Aspose.Words para .NET
-description: FieldToa UseHeading propiedad. Obtiene o establece si se debe incluir el encabezado de categoría para las entradas en una tabla de autoridades en C#.
+description: Descubra cómo la propiedad UseHeading de FieldToa mejora su tabla de autoridades al agregar encabezados de categoría para una mejor organización y claridad.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/fieldtoa/useheading/
@@ -18,7 +18,7 @@ public bool UseHeading { get; set; }
 
 ## Ejemplos
 
-Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
+Muestra cómo construir y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
 ```csharp
 public void FieldTOA()
@@ -26,41 +26,41 @@ public void FieldTOA()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserta un campo TOA, que creará una entrada para cada campo TA en el documento,
+    // Inserte un campo TOA, que creará una entrada para cada campo TA en el documento,
     // mostrando citas largas y números de página para cada entrada.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
-    // Establece la categoría de entrada para nuestra tabla. Este TOA ahora solo incluirá campos TA
-    // que tienen un valor coincidente en su propiedad EntryCategory.
+    // Establezca la categoría de entrada para nuestra tabla. Esta TOA ahora solo incluirá campos TA.
+    // que tengan un valor coincidente en su propiedad EntryCategory.
     fieldToa.EntryCategory = "1";
 
-    // Además, la categoría de la Tabla de autoridades en el índice 1 es "Casos",
-    // que aparecerá como título de nuestra tabla si configuramos esta variable en verdadero.
+    // Además, la categoría de la Tabla de Autoridades en el índice 1 es "Casos",
+    // que se mostrará como título de nuestra tabla si establecemos esta variable como verdadera.
     fieldToa.UseHeading = true;
 
     // Podemos filtrar aún más los campos TA nombrando un marcador que deberá estar dentro de los límites de TOA.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // De forma predeterminada, aparece una pestaña con una línea de puntos en toda la página entre la cita del campo TA
+    // De manera predeterminada, aparece una pestaña de línea punteada en todo el ancho de la página entre la cita del campo TA
     // y su número de página. Podemos reemplazarlo con cualquier texto que pongamos en esta propiedad.
-    // Al insertar un carácter de tabulación se conservará la tabulación original.
+    // Insertar un carácter de tabulación conservará la tabulación original.
     fieldToa.EntrySeparator = " \t p.";
 
     // Si tenemos varias entradas de TA que comparten la misma cita larga,
-    // todos sus respectivos números de página aparecerán en una fila.
-    // Podemos usar esta propiedad para especificar una cadena que separará sus números de página.
+    //Todos sus respectivos números de página se mostrarán en una fila.
+    //Podemos usar esta propiedad para especificar una cadena que separará sus números de página.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // Podemos establecer esto en verdadero para que nuestra tabla muestre la palabra "passim"
+    // Podemos establecer esto como verdadero para que nuestra tabla muestre la palabra "passim"
     // si hay cinco o más números de página en una fila.
     fieldToa.UsePassim = true;
 
     // Un campo TA puede hacer referencia a un rango de páginas.
-    // Podemos especificar aquí una cadena que aparecerá entre los números de página inicial y final para dichos rangos.
+    // Podemos especificar aquí una cadena para que aparezca entre los números de página inicial y final para dichos rangos.
     fieldToa.PageRangeSeparator = " to ";
 
-    // El formato de los campos TA se trasladará a nuestra tabla.
-    // Podemos desactivar esto configurando el indicador RemoveEntryFormatting.
+    //El formato de los campos TA se trasladará a nuestra tabla.
+    //Podemos deshabilitar esto configurando el indicador RemoveEntryFormatting.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -75,29 +75,29 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
-    // Este campo TA está dentro del marcador,
+    //Este campo TA está dentro del marcador,
     // pero la categoría de entrada no coincide con la de la tabla, por lo que el campo TA no la incluirá.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
 
-    // Esta entrada aparecerá en la tabla.
+    //Esta entrada aparecerá en la tabla.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
-    // Una tabla TOA no muestra citas breves,
-    // pero podemos usarlos como abreviatura para referirnos a nombres de fuentes voluminosos a los que hacen referencia múltiples campos TA.
+    // Una tabla TOA no muestra citas cortas,
+    // pero podemos usarlos como una abreviatura para referirnos a nombres de fuentes voluminosos a los que hacen referencia varios campos TA.
     fieldTA.ShortCitation = "S.3";
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
-    // Podemos formatear el número de página para ponerlo en negrita/cursiva usando las siguientes propiedades.
-    // Seguiremos viendo estos efectos si configuramos nuestra tabla para que ignore el formato.
+    //Podemos formatear el número de página para ponerlo en negrita/cursiva usando las siguientes propiedades.
+    // Aún veremos estos efectos si configuramos nuestra tabla para ignorar el formato.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // Podemos configurar campos TA para que sus entradas TOA hagan referencia a un rango de páginas que abarca un marcador.
+    //Podemos configurar los campos TA para que sus entradas TOA hagan referencia a un rango de páginas que abarca un marcador.
     // Tenga en cuenta que esta entrada hace referencia a la misma fuente que la anterior para compartir una fila en nuestra tabla.
     // Esta fila tendrá el número de página de la entrada anterior y el rango de páginas de esta entrada,
     // con la lista de páginas de la tabla y los separadores de rango de números de página entre los números de página.

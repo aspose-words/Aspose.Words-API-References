@@ -2,15 +2,15 @@
 title: WatermarkLayout Enum
 linktitle: WatermarkLayout
 articleTitle: WatermarkLayout
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WatermarkLayout Sıralama. Filigranın düzenini filigran merkezine göre tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi filigran konumlandırması için Aspose.Words.WatermarkLayout enumunu keşfedin. Hassas düzen kontrolü ve özelleştirmeyle belge tasarımınızı geliştirin.
 type: docs
-weight: 6680
+weight: 7530
 url: /tr/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
 
-Filigranın düzenini filigran merkezine göre tanımlar.
+Filigranın, filigran merkezine göre düzenini tanımlar.
 
 ```csharp
 public enum WatermarkLayout
@@ -33,8 +33,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin formatını filigran olarak kullanarak düzenlemek istersek,
-// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
+// Eğer metin biçimlendirmesini filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken TextWatermarkOptions nesnesini geçirerek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -46,7 +46,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Bunun gibi bir belgeden filigranı kaldırabiliriz.
+// Bir belgeden filigranı şu şekilde kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -3,14 +3,14 @@ title: Font.Border
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words per .NET
-description: Font Border proprietà. Restituisce aBorder oggetto che specifica il bordo per il font in C#.
+description: Scopri la proprietà Font Border, che fornisce un oggetto Border personalizzabile per migliorare lo stile del tuo font e la flessibilità del design.
 type: docs
 weight: 60
 url: /it/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Restituisce a[`Border`](../../border/) oggetto che specifica il bordo per il font.
+Restituisce un[`Border`](../../border/) oggetto che specifica il bordo per il font.
 
 ```csharp
 public Border Border { get; }

@@ -3,14 +3,14 @@ title: OdtSaveOptions
 linktitle: OdtSaveOptions
 articleTitle: OdtSaveOptions
 second_title: Aspose.Words per .NET
-description: OdtSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt formato in C#.
+description: Scopri il costruttore OdtSaveOptions per salvare facilmente i documenti in formato ODT. Semplifica il tuo flusso di lavoro con questo potente strumento!
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelOdt formato.
 
 ```csharp
 public OdtSaveOptions()
@@ -42,7 +42,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(*string*) {#constructor_2}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt format crittografato con una password.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelOdt formato crittografato con una password.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -58,7 +58,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt oppure Ott formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelOdt oppure Ott formato.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -78,14 +78,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un nuovo OdtSaveOptions e passa "SaveFormat.Odt",
- // o "SaveFormat.Ott" come formato in cui salvare il documento.
+ // oppure "SaveFormat.Ott" come formato in cui salvare il documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Se apriamo questo documento con un editor appropriato,
-// ci chiederà la password che abbiamo specificato nell'oggetto SaveOptions.
+// ci verrà richiesta la password specificata nell'oggetto SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

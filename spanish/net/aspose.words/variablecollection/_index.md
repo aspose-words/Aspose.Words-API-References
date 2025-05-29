@@ -3,16 +3,16 @@ title: VariableCollection Class
 linktitle: VariableCollection
 articleTitle: VariableCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.VariableCollection clase. Una colección de variables de documento en C#.
+description: Descubra Aspose.Words.VariableCollection, administre y personalice de manera eficiente las variables de los documentos para lograr una mayor automatización y flexibilidad.
 type: docs
-weight: 6530
+weight: 7380
 url: /es/net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
 
 Una colección de variables de documento.
 
-Para obtener más información, visite el[Trabajar con propiedades de documento](https://docs.aspose.com/words/net/work-with-document-properties/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con propiedades del documento](https://docs.aspose.com/words/net/work-with-document-properties/) Artículo de documentación.
 
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
@@ -23,7 +23,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Obtiene o establece una variable de documento con un nombre que no distingue entre mayúsculas y minúsculas. `nulo` Los valores no están permitidos en el lado derecho de la asignación y serán reemplazados por una cadena vacía. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Obtiene o establece una variable de documento por el nombre que no distingue entre mayúsculas y minúsculas. `nulo`No se permiten valores como lado derecho de la asignación y serán reemplazados por una cadena vacía. (2 indexers) |
 
 ## Métodos
 
@@ -31,9 +31,9 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | --- | --- |
 | [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Agrega una variable de documento a la colección. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Elimina todos los elementos de la colección. |
-| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Determina si la colección contiene una variable de documento con el nombre indicado. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Determina si la colección contiene una variable de documento con el nombre especificado. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Devuelve el índice de base cero de la variable de documento especificada en la colección. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Devuelve el índice basado en cero de la variable de documento especificada en la colección. |
 | [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Elimina una variable de documento con el nombre especificado de la colección. |
 | [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Elimina una variable de documento en el índice especificado. |
 
@@ -51,14 +51,14 @@ Muestra cómo trabajar con la colección de variables de un documento.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Cada documento tiene una colección de variables de par clave/valor, a las que podemos agregar elementos.
+// Cada documento tiene una colección de variables de pares clave/valor, a las que podemos agregar elementos.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// Podemos mostrar los valores de las variables en el cuerpo del documento usando campos DOCVARIABLE.
+// Podemos mostrar los valores de las variables en el cuerpo del documento utilizando campos DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -66,10 +66,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// La asignación de valores a las claves existentes las actualizará.
+// Asignar valores a claves existentes las actualizará.
 variables.Add("Home address", "456 Queen St.");
 
-// Luego tendremos que actualizar los campos DOCVARIABLE para asegurarnos de que muestren un valor actualizado.
+Luego tendremos que actualizar los campos DOCVARIABLE para asegurarnos de que muestren un valor actualizado.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -85,12 +85,15 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar la colección de variables.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// Enumerar sobre la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documento de una colección.
+A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 
@@ -101,10 +104,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Ver también

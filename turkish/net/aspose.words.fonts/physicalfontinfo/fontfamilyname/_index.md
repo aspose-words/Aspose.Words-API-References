@@ -2,10 +2,10 @@
 title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
-second_title: Aspose.Words for .NET
-description: PhysicalFontInfo FontFamilyName mülk. Yazı tipinin aile adı C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde font ailelerini etkili bir şekilde tanımlamanın ve kullanmanın anahtarı olan PhysicalFontInfo FontFamilyName özelliğini keşfedin.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
@@ -18,10 +18,10 @@ public string FontFamilyName { get; }
 
 ## Örnekler
 
-Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
+Mevcut yazı tiplerinin nasıl listeleneceğini gösterir.
 
 ```csharp
-// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından mevcut tüm yazı tiplerini yazdırın.
+// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından kullanılabilir tüm yazı tiplerini yazdırın.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

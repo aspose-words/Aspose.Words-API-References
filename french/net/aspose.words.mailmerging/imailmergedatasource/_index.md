@@ -3,14 +3,14 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interface. Implémentez cette interface pour autoriser le publipostage à partir dune source de données personnalisée telle quune liste dobjets. Les données maîtredétails sont également prises en charge en C#.
+description: Bénéficiez d'une puissante fonction de publipostage avec Aspose.Words.MailMerging.IMailMergeDataSource. Connectez facilement des sources de données personnalisées pour une automatisation transparente des documents.
 type: docs
-weight: 3810
+weight: 4500
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Implémentez cette interface pour autoriser le publipostage à partir d'une source de données personnalisée, telle qu'une liste d'objets. Les données maître-détails sont également prises en charge.
+Implémentez cette interface pour permettre le publipostage à partir d'une source de données personnalisée, telle qu'une liste d'objets. Les données maître-détail sont également prises en charge.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -26,13 +26,13 @@ public interface IMailMergeDataSource
 
 | Nom | La description |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Le moteur de publipostage Aspose.Words appelle cette méthode lorsqu'il rencontre le début d'une région de publipostage imbriquée. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Le moteur de publipostage Aspose.Words invoque cette méthode lorsqu'il rencontre le début d'une région de publipostage imbriquée. |
 | [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Renvoie une valeur pour le nom de champ spécifié ou`FAUX` si le champ n'est pas trouvé. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Passe à l'enregistrement suivant dans la source de données. |
 
 ## Remarques
 
-Lorsqu'une source de données est créée, elle doit être initialisée pour pointer vers BOF (avant le premier enregistrement). Le moteur de publipostage Aspose.Words invoquera[`MoveNext`](./movenext/) pour passer à l'enregistrement suivant and puis invoquer[`GetValue`](./getvalue/) pour chaque champ de fusion rencontré dans le document ou dans la région de publipostage actuelle.
+Lorsqu'une source de données est créée, elle doit être initialisée pour pointer vers BOF (avant le premier enregistrement). Le moteur de publipostage Aspose.Words invoquera[`MoveNext`](./movenext/) pour passer à l'enregistrement suivant et puis invoquer[`GetValue`](./getvalue/) pour chaque champ de fusion qu'il rencontre dans le document ou dans la région de publipostage actuelle.
 
 ## Exemples
 
@@ -62,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" dans votre application.
+/// Un exemple de classe « entité de données » dans votre application.
 /// </summary>
 public class Customer
 {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
+    /// Nom de la source de données. Utilisé par Aspose.Words uniquement lors d'un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -112,15 +112,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Renvoie "false" au moteur de publipostage Aspose.Words pour signifier
-                // que nous n'avons pas trouvé de champ portant ce nom.
+                // Renvoyer « false » au moteur de publipostage Aspose.Words pour signifier
+                // que nous n'avons pas pu trouver de champ avec ce nom.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Une implémentation standard pour passer à un enregistrement suivant dans une collection.
+    /// Une implémentation standard pour passer à l'enregistrement suivant dans une collection.
     /// </summary>
     public bool MoveNext()
     {

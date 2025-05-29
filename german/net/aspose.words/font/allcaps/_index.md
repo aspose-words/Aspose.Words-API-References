@@ -3,14 +3,14 @@ title: Font.AllCaps
 linktitle: AllCaps
 articleTitle: AllCaps
 second_title: Aspose.Words für .NET
-description: Font AllCaps eigendom. True wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist in C#.
+description: Entdecken Sie die Font AllCaps-Funktion. Formatieren Sie Text ganz einfach in Großbuchstaben für bessere Lesbarkeit und ein wirkungsvolles Design Ihrer Projekte.
 type: docs
 weight: 10
 url: /de/net/aspose.words/font/allcaps/
 ---
 ## Font.AllCaps property
 
-True, wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist.
+Wahr, wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist.
 
 ```csharp
 public bool AllCaps { get; set; }
@@ -32,9 +32,9 @@ para.AppendChild(run);
 
 para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
 
-// 2 – Setzen Sie das SmallCaps-Flag, um alle Zeichen in Kleinbuchstaben anzuzeigen:
+// 2 - Setzen Sie das SmallCaps-Flag, um alle Zeichen in Kapitälchen anzuzeigen:
 // Wenn ein Zeichen klein geschrieben ist, wird es in Großbuchstaben angezeigt
-// hat aber die gleiche Höhe wie der Kleinbuchstabe (die x-Höhe der Schriftart).
+// hat aber die gleiche Höhe wie die Kleinbuchstaben (die x-Höhe der Schriftart).
 // Zeichen, die ursprünglich in Großbuchstaben geschrieben waren, sehen gleich aus.
 run = new Run(doc, "Small Capitals");
 run.Font.SmallCaps = true;

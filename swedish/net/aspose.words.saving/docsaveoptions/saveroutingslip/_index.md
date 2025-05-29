@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words för .NET
-description: DocSaveOptions SaveRoutingSlip fast egendom. Närfalsk  RoutingSlipdata sparas inte i utdatadokumentet. Standardvärdet ärSann  i C#.
+description: Upptäck egenskapen SaveRoutingSlip i DocSaveOptions. Kontrollera sparandet av RoutingSlip-data för dina dokument. Förbättra anpassningen av utdata enkelt!
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-När`falsk` , RoutingSlip-data sparas inte i utdatadokumentet. Standardvärdet är`Sann` .
+När`falsk` , RoutingSlip-data sparas inte i utdatadokumentet. Standardvärdet är`sann` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -18,7 +18,7 @@ public bool SaveRoutingSlip { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in sparalternativ för äldre Microsoft Word-format.
+Visar hur man ställer in sparalternativ för äldre Microsoft Word-format.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Ställ in ett lösenord som skyddar laddningen av dokumentet med Microsoft Word eller Aspose.Words.
-// Observera att detta inte krypterar innehållet i dokumentet på något sätt.
+// Ange ett lösenord som skyddar inläsningen av dokumentet med Microsoft Word eller Aspose.Words.
+// Observera att detta inte krypterar dokumentets innehåll på något sätt.
 options.Password = "MyPassword";
 
-// Om dokumentet innehåller en routingsedel kan vi bevara den medan vi sparar genom att sätta denna flagga till true.
+// Om dokumentet innehåller en rutningsbekräftelse kan vi bevara den medan vi sparar genom att sätta denna flagga till true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 // För att kunna ladda dokumentet,
-// vi kommer att behöva använda lösenordet vi angav i DocSaveOptions-objektet i ett LoadOptions-objekt.
+// vi måste använda lösenordet som vi angav i DocSaveOptions-objektet i ett LoadOptions-objekt.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

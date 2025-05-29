@@ -2,8 +2,8 @@
 title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldTC OmitPageNumber 财产. 获取或设置此字段是否应省略目录中的页码 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldTC OmitPageNumber 属性——控制目录页码可见性，以增强文档的清晰度和专业性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## 例子
 
-展示如何插入 TOC 字段，以及过滤哪些 TC 字段最终作为条目。
+显示如何插入 TOC 字段，并过滤最终作为条目的 TC 字段。
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入一个TOC字段，这会将所有TC字段编译成目录。
+    // 插入一个 TOC 字段，它将把所有 TC 字段编译成一个目录。
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // 配置该字段仅拾取“A”类型的 TC 条目，以及 1 到 3 之间的条目级别。
+    // 配置该字段仅选取“A”类型且条目级别在 1 到 3 之间的 TC 条目。
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 

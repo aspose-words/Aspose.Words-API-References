@@ -3,14 +3,14 @@ title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: StyleCollection Document ملكية. الحصول على مستند المالك في C#.
+description: تمتع بالوصول إلى مستند المالك بسهولة مع StyleCollection. اكتشف إدارة مستندات سلسة وحسّن سير عملك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words/stylecollection/document/
 ---
 ## StyleCollection.Document property
 
-الحصول على مستند المالك.
+يحصل على مستند المالك.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

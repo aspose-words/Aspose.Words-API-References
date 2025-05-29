@@ -3,9 +3,9 @@ title: ShapeBase.IsDecorative
 linktitle: IsDecorative
 articleTitle: IsDecorative
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsDecorative propriété. Obtient ou définit lindicateur qui spécifie si la forme est décorative dans le document en C#.
+description: Découvrez ShapeBase. Gérez facilement les propriétés décoratives de vos documents. Améliorez l'attrait visuel en définissant des indicateurs pour des formes uniques.
 type: docs
-weight: 240
+weight: 260
 url: /fr/net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property
@@ -27,18 +27,18 @@ Montre comment définir que la forme est décorative.
 ```csharp
 Document doc = new Document(MyDir + "Decorative shapes.docx");
 
-Shape shape = (Shape) doc.GetChildNodes(NodeType.Shape, true)[0];
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(shape.IsDecorative);
 
-// Si "AlternativeText" n'est pas vide, la forme ne peut pas être décorative.
-// C'est pourquoi notre valeur est devenue « false ».
+// Si « AlternativeText » n'est pas vide, la forme ne peut pas être décorative.
+// C'est pourquoi notre valeur est passée à « false ».
 shape.AlternativeText = "Alternative text.";
 Assert.False(shape.IsDecorative);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.MoveToDocumentEnd();
-// Crée une nouvelle forme décorative.
+// Créez une nouvelle forme décorative.
 shape = builder.InsertShape(ShapeType.Rectangle, 100, 100);
 shape.IsDecorative = true;
 

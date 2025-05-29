@@ -3,9 +3,9 @@ title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
 second_title: Aspose.Words para .NET
-description: Aspose.Words.HtmlInsertOptions enumeración. Especifica opciones para elInsertHtml método en C#.
+description: Explore la enumeración Aspose.Words.HtmlInsertOptions para personalizar la inserción de HTML con el método InsertHtml, mejorando la eficiencia del procesamiento de documentos.
 type: docs
-weight: 3140
+weight: 3570
 url: /es/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
@@ -22,13 +22,13 @@ public enum HtmlInsertOptions
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Utilice las opciones predeterminadas al insertar HTML. |
-| UseBuilderFormatting | `1` | Utilice el formato de fuente y párrafo especificado en[`DocumentBuilder`](../documentbuilder/) como formato base para text insertado desde HTML. |
-| RemoveLastEmptyParagraph | `2` | Elimina el párrafo vacío que normalmente se inserta después del HTML y que termina con un elemento a nivel de bloque. |
-| PreserveBlocks | `4` | Preservar las propiedades de los elementos a nivel de bloque. |
+| UseBuilderFormatting | `1` | Utilice la fuente y el formato de párrafo especificados en[`DocumentBuilder`](../documentbuilder/) como formato base para el texto insertado desde HTML. |
+| RemoveLastEmptyParagraph | `2` | Elimina el párrafo vacío que normalmente se inserta después del HTML que termina con un elemento de nivel de bloque. |
+| PreserveBlocks | `4` | Conservar las propiedades de los elementos a nivel de bloque. |
 
 ## Ejemplos
 
-Muestra cómo permite preservar mejor los bordes y márgenes vistos.
+Muestra cómo se pueden conservar mejor los bordes y márgenes visibles.
 
 ```csharp
 const string html = @"
@@ -41,7 +41,7 @@ const string html = @"
         </div>
     </html>";
 
-// Establece el nuevo modo de importar elementos HTML a nivel de bloque.
+// Establezca el nuevo modo de importación de elementos a nivel de bloque HTML.
 HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
 
 DocumentBuilder builder = new DocumentBuilder();

@@ -2,15 +2,15 @@
 title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: FindReplaceOptions ApplyParagraphFormat 财产. 段落格式应用于新内容 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FindReplaceOptions 中的 ApplyParagraphFormat 属性，轻松实现文档段落格式的无缝衔接。轻松提升您的内容！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-段落格式应用于新内容。
+段落格式已应用于新内容。
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ## 例子
 
-演示如何向查找和替换操作找到匹配项的段落添加格式设置。
+展示如何向查找和替换操作找到匹配项的段落添加格式。
 
 ```csharp
 Document doc = new Document();

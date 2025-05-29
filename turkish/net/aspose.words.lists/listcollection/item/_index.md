@@ -2,15 +2,15 @@
 title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: ListCollection Item mülk. Dizine göre bir liste alır C#'da.
+second_title: .NET için Aspose.Words
+description: Dizin yoluyla ListCollection öğelerine zahmetsizce erişin. Bu güçlü özellik ile veri yönetiminizi basitleştirin ve kodlama verimliliğinizi artırın!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listcollection/item/
 ---
 ## ListCollection indexer
 
-Dizine göre bir liste alır.
+Dizin numarasına göre bir liste alır.
 
 ```csharp
 public List this[int index] { get; }
@@ -35,7 +35,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Mevcut bir listenin liste formatının bir paragraf koleksiyonuna nasıl uygulanacağını gösterir.
+Mevcut bir listenin liste biçimlendirmesinin bir paragraf koleksiyonuna nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,18 +47,18 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 ### Ayrıca bakınız

@@ -3,14 +3,14 @@ title: FieldFormat Class
 linktitle: FieldFormat
 articleTitle: FieldFormat
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldFormat classe. Fornisce laccesso digitato ai valori numerici alla data e allora del campo e alla formattazione generale in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldFormat per accedere facilmente ai campi numerici, di data e di ora. Migliora la formattazione dei documenti con potenti funzionalità!
 type: docs
-weight: 1940
+weight: 2350
 url: /it/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Fornisce l'accesso digitato ai valori numerici, alla data e all'ora del campo e alla formattazione generale.
+Fornisce accesso tipizzato alla formattazione numerica, di data e ora e generale del campo.
 
 Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
@@ -22,8 +22,8 @@ public class FieldFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Ottiene o imposta una formattazione applicata al risultato di un campo di data e ora. Corrisponde allo switch \@. |
-| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Ottiene una raccolta di formati generali applicati a un risultato numerico, di testo o di qualsiasi campo. Corrisponde alle opzioni \*. |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Ottiene o imposta una formattazione applicata al risultato di un campo data e ora. Corrisponde all'opzione \@. |
+| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Ottiene una raccolta di formati generali applicati a un risultato numerico, di testo o di qualsiasi campo. Corrisponde agli switch \*. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde all'opzione \#. |
 
 ## Esempi
@@ -34,7 +34,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -76,7 +76,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

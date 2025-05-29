@@ -3,9 +3,9 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.PreferredWidthType تعداد. يحدد وحدة القياس للعرض المفضل للجدول أو الخلية في C#.
+description: اكتشف Aspose.Words.Tables.PreferredWidthType enum. حدّد بسهولة قياسات عرض الجدول والخليّة لتنسيق المستندات بدقة.
 type: docs
-weight: 6300
+weight: 7150
 url: /ar/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
@@ -20,13 +20,13 @@ public enum PreferredWidthType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `1` | لم يتم تحديد العرض المفضل. يتم تحديد العرض الفعلي للجدول أو الخلية باستخدام العرض الصريح أو سيتم تحديد تلقائيًا بواسطة خوارزمية تخطيط الجدول عند عرض الجدول، اعتمادًا على إعداد الاحتواء التلقائي للجدول. |
-| Percent | `2` | قياس عرض العنصر الحالي باستخدام نسبة مئوية محددة. |
-| Points | `3` | قياس عرض العنصر الحالي باستخدام عدد محدد من النقاط (1/72 بوصة). |
+| Auto | `1` | لم يتم تحديد العرض المُفضّل. يُحدَّد العرض الفعلي للجدول أو الخلية إما باستخدام العرض الصريح، أو سيتم تحديده تلقائيًا بواسطة خوارزمية تخطيط الجدول عند عرضه، وذلك وفقًا لإعداد الملاءمة التلقائية للجدول. |
+| Percent | `2` | قم بقياس عرض العنصر الحالي باستخدام نسبة مئوية محددة. |
+| Points | `3` | قم بقياس عرض العنصر الحالي باستخدام عدد محدد من النقاط (1/72 بوصة). |
 
 ## أمثلة
 
-يوضح كيفية التحقق من نوع العرض المفضل وقيمة خلية الجدول.
+يوضح كيفية التحقق من نوع العرض وقيمة خلية الجدول المفضلة.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

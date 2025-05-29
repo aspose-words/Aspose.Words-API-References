@@ -3,14 +3,14 @@ title: HtmlSaveOptions.FontsFolderAlias
 linktitle: FontsFolderAlias
 articleTitle: FontsFolderAlias
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions FontsFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للخط المكتوب في مستند HTML. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف خاصية HtmlSaveOptions FontsFolderAlias لتخصيص عناوين URI للخطوط في مستندات HTML. حسّن تصميم موقعك الإلكتروني بسهولة!
 type: docs
 weight: 320
 url: /ar/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property
 
-يحدد اسم المجلد المستخدم لإنشاء معرفات URI للخط المكتوب في مستند HTML. الافتراضي هو سلسلة فارغة.
+يحدد اسم المجلد المستخدم لإنشاء عناوين URI للخطوط المكتوبة في مستند HTML. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string FontsFolderAlias { get; set; }
@@ -18,19 +18,19 @@ public string FontsFolderAlias { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق HTML و[`ExportFontResources`](../exportfontresources/) تم ضبط على`حقيقي` ، يحتاج Aspose.Words إلى حفظ الخطوط المستخدمة في المستند كملفات مستقلة. [`FontsFolder`](../fontsfolder/) يسمح لك بتحديد مكان حفظ الخطوط و `FontsFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للخط.
+عندما تحفظ[`Document`](../../../aspose.words/document/) بتنسيق HTML و[`ExportFontResources`](../exportfontresources/) تم تعيين على`حقيقي` ، يحتاج Aspose.Words إلى حفظ الخطوط المستخدمة في المستند كملفات مستقلة. [`FontsFolder`](../fontsfolder/) يسمح لك بتحديد المكان الذي سيتم حفظ الخطوط فيه و `FontsFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للخطوط.
 
-لو`FontsFolderAlias` ليست سلسلة فارغة، فإن الخط URI المكتوب إلى HTML سيكونFontsFolderAlias + &lt;اسم ملف الخط&gt;.
+لو`FontsFolderAlias` إذا لم تكن سلسلة فارغة، فسيكون عنوان الخط URI المكتوب إلى HTMLFontsFolderAlias + &lt;اسم ملف الخط&gt;.
 
-لو`FontsFolderAlias` عبارة عن سلسلة فارغة، فسيكون عنوان URI للخط المكتوب إلى HTMLFontsFolder + &lt;اسم ملف الخط&gt;.
+لو`FontsFolderAlias` إذا كانت السلسلة فارغة، فسيكون عنوان الخط URI المكتوب إلى HTML هومجلد الخطوط + &lt;اسم ملف الخط&gt;.
 
-لو`FontsFolderAlias`تم ضبطه على "." (نقطة)، فسيتم كتابة اسم ملف الخط إلى HTML بدون مسار بغض النظر عن الخيارات الأخرى.
+لو`FontsFolderAlias`إذا تم تعيينه على '.' (نقطة)، فسيتم كتابة ملف الخط name إلى HTML بدون مسار بغض النظر عن الخيارات الأخرى.
 
-طريقة بديلة لتحديد اسم المجلد لإنشاء الخط URIs هي الاستخدام[`ResourceFolderAlias`](../resourcefolderalias/).
+الطريقة البديلة لتحديد اسم المجلد لإنشاء الخط URIs هي استخدام[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات وأسماء المجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

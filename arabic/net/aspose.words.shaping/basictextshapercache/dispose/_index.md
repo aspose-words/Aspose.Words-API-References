@@ -3,14 +3,14 @@ title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 articleTitle: Dispose
 second_title: Aspose.Words لـ .NET
-description: BasicTextShaperCache Dispose طريقة. يتخلص من ذاكرة التخزين المؤقتITextShaper الحالات في C#.
+description: قم بإدارة الذاكرة بكفاءة باستخدام طريقة Dispose BasicTextShaperCache، والتي تقوم بمسح مثيلات ITextShaper المخزنة مؤقتًا للحصول على الأداء الأمثل.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
 
-يتخلص من ذاكرة التخزين المؤقت[`ITextShaper`](../../itextshaper/) الحالات.
+يتخلص من البيانات المخزنة مؤقتًا[`ITextShaper`](../../itextshaper/) الحالات.
 
 ```csharp
 public void Dispose()

@@ -2,15 +2,15 @@
 title: Table.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
-second_title: 用于 .NET 的 Aspose.Words
-description: Table CellSpacing 财产. 获取或设置单元格之间的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格 CellSpacing 属性，轻松自定义单元格间距（以点为单位），增强表格的外观和可读性。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/table/cellspacing/
 ---
 ## Table.CellSpacing property
 
-获取或设置单元格之间的空间量（以磅为单位）。
+获取或设置单元格之间的空间量（以点为单位）。
 
 ```csharp
 public double CellSpacing { get; set; }
@@ -18,7 +18,7 @@ public double CellSpacing { get; set; }
 
 ## 例子
 
-演示如何启用表格中各个单元格之间的间距。
+展示如何在表格中启用各个单元格之间的间距。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ builder.EndTable();
 table.CellSpacing = 3;
 
 // 将“AllowCellSpacing”属性设置为“true”以启用单元格之间的间距
-// 其大小等于“CellSpacing”属性的值（以磅为单位）。
+// 其大小等于“CellSpacing”属性的值，以点为单位。
 // 将“AllowCellSpacing”属性设置为“false”以禁用单元格间距
 // 并忽略“CellSpacing”属性的值。
 table.AllowCellSpacing = allowCellSpacing;
@@ -52,7 +52,7 @@ table.CellSpacing = 5;
 Assert.True(table.AllowCellSpacing);
 ```
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

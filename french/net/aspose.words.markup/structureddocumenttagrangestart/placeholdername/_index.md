@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart PlaceholderName propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé en C#.
+description: Découvrez comment gérer la propriété PlaceholderName pour StructuredDocumentTagRangeStart, améliorant ainsi l'efficacité des blocs de construction de votre document.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -12,15 +12,19 @@ url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 
 Obtient ou définit le nom du[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenant du texte d'espace réservé.
 
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) doit être présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sinonInvalidOperationException arrivera.
-
 ```csharp
 public string PlaceholderName { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Lancer si BuildingBlock avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) n'est pas présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
+
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

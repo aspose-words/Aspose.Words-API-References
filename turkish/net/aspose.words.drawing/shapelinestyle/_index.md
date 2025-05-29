@@ -2,15 +2,15 @@
 title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ShapeLineStyle Sıralama. Bir öğenin bileşik çizgi stilini belirtir.Shape  C#'da.
+second_title: .NET için Aspose.Words
+description: Şekiller için özelleştirilebilir bileşik çizgi stilleriyle belge tasarımınızı geliştirmek için Aspose.Words.Drawing.ShapeLineStyle enum'unu keşfedin.
 type: docs
-weight: 1270
+weight: 1660
 url: /tr/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Bir öğenin bileşik çizgi stilini belirtir.[`Shape`](../shape/) .
+Bir satırın bileşik satır stilini belirtir[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -21,15 +21,15 @@ public enum ShapeLineStyle
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Single | `0` | Tek satır. |
-| Double | `1` | Eşit genişlikte çift çizgi. |
-| ThickThin | `2` | Çift çizgi, biri kalın, biri ince. |
-| ThinThick | `3` | Çift çizgi, biri ince, biri kalın. |
+| Double | `1` | Eşit genişlikte çift çizgiler. |
+| ThickThin | `2` | Çift çizgiler, biri kalın, biri ince. |
+| ThinThick | `3` | Çift çizgiler, biri ince, biri kalın. |
 | Triple | `4` | Üç çizgi, ince, kalın, ince. |
-| Default | `0` | Varsayılan değer:Single . |
+| Default | `0` | Varsayılan değerSingle . |
 
 ## Örnekler
 
-Kontur özelliklerinin nasıl değiştirildiğini gösterir.
+Vuruş özelliklerinin nasıl değiştiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
-// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
+// 1 - Şeklin dış hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını işaretleyen kontur:
+// 2 - Şeklin ana hatlarını belirleyen çizgi:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words pour .NET
-description: GraphicsQualityOptions UseTileFlipMode propriété. Obtient ou définit un indicateur indiquant si WrapMode est TileFlipXY en C#.
+description: Découvrez la propriété GraphicsQualityOptions UseTileFlipMode pour contrôler les paramètres WrapMode pour une qualité visuelle améliorée dans vos applications.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -20,13 +20,13 @@ public bool UseTileFlipMode { get; set; }
 
 LeWrapMode spécifie comment une texture ou un dégradé est carrelé lorsqu'il est plus petit que la zone à remplir.
 
-Par défaut utiliseTile (spécifie le carrelage sans retournement). Cela provoque un rendu inexact de l'image mise à l'échelle (avec une haute résolution).
+Par défaut, utiliseTile (spécifie le carrelage sans retournement). Cela provoque un rendu inexact de l'image mise à l'échelle (avec une haute résolution).
 
 Cette propriété permet de passer WrapMode àTileFlipXY (spécifie que les tuiles sont retournées horizontalement lorsque vous vous déplacez le long d'une ligne et retournées verticalement lorsque vous vous déplacez le long d'une colonne).
 
 ## Exemples
 
-Montre comment éviter l'apparition d'une ligne blanche lors d'un rendu avec une haute résolution.
+Montre comment empêcher l'apparition de la ligne blanche lors du rendu avec une haute résolution.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words per .NET
-description: Field Update metodo. Esegue laggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento in C#.
+description: Aggiorna i campi in modo efficiente con il nostro metodo di aggiornamento campi. Previene i conflitti assicurando che i campi non siano già in uso. Semplifica la gestione dei tuoi dati oggi stesso!
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
+Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento.
 
 ```csharp
 public void Update()
@@ -24,8 +24,8 @@ Mostra come inserire un campo in un documento utilizzando FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce due campi passando un flag che determina se aggiornarli man mano che il builder li inserisce.
-// In alcuni casi, l'aggiornamento dei campi potrebbe essere costoso dal punto di vista computazionale e potrebbe essere una buona idea posticipare l'aggiornamento.
+// Inserisce due campi passando un flag che determina se aggiornarli quando il builder li inserisce.
+// In alcuni casi, l'aggiornamento dei campi potrebbe risultare dispendioso in termini di risorse computazionali e potrebbe essere una buona idea posticipare l'aggiornamento.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -64,7 +64,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
+Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,11 +135,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Se`VERO` quindi la formattazione diretta dei risultati del campo viene abbandonata, indipendentemente dall'opzione MERGEFORMAT, altrimenti viene eseguito il normale aggiornamento. |
+| ignoreMergeFormat | Boolean | Se`VERO` quindi la formattazione del risultato del campo diretto viene abbandonata, indipendentemente dall'opzione MERGEFORMAT, altrimenti viene eseguito l'aggiornamento normale. |
 
 ## Esempi
 
-Mostra come preservare o eliminare i campi INCLUDEPICTURE durante il caricamento di un documento.
+Mostra come conservare o eliminare i campi INCLUDEPICTURE durante il caricamento di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -154,7 +154,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // Possiamo impostare un flag in un oggetto LoadOptions per decidere se convertire tutti i campi INCLUDEPICTURE
-    // nelle forme dell'immagine quando si carica un documento che le contiene.
+    // in forme di immagini quando si carica un documento che le contiene.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

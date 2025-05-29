@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words pour .NET
-description: PageLayoutCallbackArgs PageIndex propriété. Obtient lindex de base 0 de la page dans le document auquel cet événement se rapporte. Renvoie une valeur négative sil ny a pas de page associée ou si la page a été supprimée lors de la redistribution en C#.
+description: Découvrez la propriété PageIndex de PageLayoutCallbackArgs, qui fournit l'index de base 0 de la page du document concerné. Obtenez un suivi précis des pages et des informations sur la redistribution !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-Obtient l'index de base 0 de la page dans le document auquel cet événement se rapporte. Renvoie une valeur négative s'il n'y a pas de page associée ou si la page a été supprimée lors de la redistribution.
+Obtient l'index de base 0 de la page du document auquel cet événement se rapporte. Renvoie une valeur négative s'il n'y a pas de page associée ou si la page a été supprimée pendant la redistribution.
 
 ```csharp
 public int PageIndex { get; }
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons un reflow de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

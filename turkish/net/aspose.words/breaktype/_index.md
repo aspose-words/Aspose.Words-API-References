@@ -2,15 +2,15 @@
 title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.BreakType Sıralama. Belge içindeki kopuşun türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Daha iyi okunabilirlik ve düzen kontrolü için hassas kesme türleriyle belge biçimlendirmenizi geliştirmek üzere Aspose.Words.BreakType enum'unu keşfedin.
 type: docs
-weight: 110
+weight: 300
 url: /tr/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
 
-Belge içindeki kopuşun türünü belirtir.
+Bir belgenin içindeki bir kesmenin türünü belirtir.
 
 ```csharp
 public enum BreakType
@@ -20,19 +20,19 @@ public enum BreakType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| ParagraphBreak | `0` | Paragraflar arası ara. |
+| ParagraphBreak | `0` | Paragraflar arasında boşluk. |
 | PageBreak | `1` | Açık sayfa sonu. |
 | ColumnBreak | `2` | Açık sütun sonu. |
-| SectionBreakContinuous | `3` | Önceki bölümle aynı sayfada yeni bölümün başlangıcını belirtir. |
-| SectionBreakNewColumn | `4` | Yeni sütundaki yeni bölümün başlangıcını belirtir. |
-| SectionBreakNewPage | `5` | Yeni sayfada yeni bölümün başlangıcını belirtir. |
-| SectionBreakEvenPage | `6` | Yeni çift sayılı sayfada yeni bölümün başlangıcını belirtir. |
-| SectionBreakOddPage | `7` | Tek sayfada yeni bölümün başlangıcını belirtir. |
+| SectionBreakContinuous | `3` | Yeni bölümün başlangıcını önceki bölümle aynı sayfada belirtir. |
+| SectionBreakNewColumn | `4` | Yeni sütunda yeni bölümün başlangıcını belirtir. |
+| SectionBreakNewPage | `5` | Yeni bir sayfada yeni bölümün başlangıcını belirtir. |
+| SectionBreakEvenPage | `6` | Yeni bir çift sayfada yeni bölümün başlangıcını belirtir. |
+| SectionBreakOddPage | `7` | Tek bir sayfada yeni bölümün başlangıcını belirtir. |
 | LineBreak | `8` | Açık satır sonu. |
 
 ## Örnekler
 
-DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
+DocumentBuilder kullanılarak bir belgede üstbilgi ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,25 +60,25 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
+Bir belgedeki bölümlere sayfa düzeni ayarlarının nasıl uygulanacağını ve geri alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucunun geçerli bölümü için sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
+// Oluşturucunun geçerli bölümünün sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Bir belge oluşturucu kullanarak yeni bir bölüme başlarsak,
-// oluşturucunun mevcut sayfa düzeni özelliklerini devralacaktır.
+// Belge oluşturucuyu kullanarak yeni bir bölüm başlatırsak,
+// Oluşturucunun geçerli sayfa düzeni özelliklerini devralacaktır.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// "ClearFormatting" yöntemini kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
+// "ClearFormatting" metodunu kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -89,21 +89,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
+Başlık stillerini girdi olarak kullanarak bir belgeye İçindekiler Tablosu'nun (TOC) nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin ilk sayfasına bir içindekiler tablosu ekleyin.
-// Tabloyu, 1'den 3'e kadar düzeylerdeki başlıklara sahip paragrafları alacak şekilde yapılandırın.
-// Ayrıca girişlerini bizi götürecek köprüler olacak şekilde ayarlayın
-// Microsoft Word'de sol tıklandığında başlığın konumuna.
+// Belgenin ilk sayfasına bir içerik tablosu ekleyin.
+// Tabloyu 1 ila 3 düzey başlıklarına sahip paragrafları alacak şekilde yapılandırın.
+// Ayrıca, girişlerini bizi götürecek köprü metinleri olarak ayarlayın
+// Microsoft Word'de sol tıklandığında başlığın bulunduğu yere.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Başlık stillerine sahip paragraflar ekleyerek içindekiler tablosunu doldurun.
-// Seviyesi 1 ile 3 arasında olan bu tür başlıkların her biri tabloda bir giriş oluşturacaktır.
+// Başlık stilleri içeren paragraflar ekleyerek içindekiler tablosunu doldurun.
+// 1 ile 3 arasında bir seviyeye sahip her başlık tabloda bir girdi oluşturacaktır.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -131,7 +131,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// İçindekiler tablosu, güncel bir sonucu göstermek için güncellenmesi gereken türden bir alandır.
+// İçindekiler tablosu, güncel bir sonuç göstermek için güncellenmesi gereken bir tür alandır.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -3,7 +3,7 @@ title: Glyph.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words для .NET
-description: Glyph Clone метод. Возвращает клон этого экземпляра на С#.
+description: Откройте для себя метод Glyph Clone, чтобы без усилий создать дубликат вашего экземпляра. Повысьте эффективность кодирования с помощью этого мощного инструмента!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.shaping/glyph/clone/

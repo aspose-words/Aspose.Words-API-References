@@ -3,14 +3,14 @@ title: PreferredWidth.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words per .NET
-description: PreferredWidth ToString metodo. Restituisce una stringa intuitiva che visualizza il valore di questo oggetto in C#.
+description: Scopri il metodo PreferredWidth ToString, che genera una stringa intuitiva che mostra il valore del tuo oggetto per maggiore chiarezza e usabilità.
 type: docs
 weight: 80
 url: /it/net/aspose.words.tables/preferredwidth/tostring/
 ---
 ## PreferredWidth.ToString method
 
-Restituisce una stringa intuitiva che visualizza il valore di questo oggetto.
+Restituisce una stringa di facile utilizzo che visualizza il valore di questo oggetto.
 
 ```csharp
 public override string ToString()
@@ -18,7 +18,7 @@ public override string ToString()
 
 ## Esempi
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

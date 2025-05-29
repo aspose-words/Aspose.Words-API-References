@@ -3,14 +3,14 @@ title: LayoutOptions.CommentDisplayMode
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words für .NET
-description: LayoutOptions CommentDisplayMode eigendom. Ruft ab oder legt fest wie Kommentare gerendert werden. Der Standardwert istShowInBalloons  in C#.
+description: Entdecken Sie die Eigenschaft „LayoutOptions CommentDisplayMode“, um die Kommentardarstellung anzupassen. Passen Sie sie einfach an, um die Benutzerfreundlichkeit mit Optionen wie „ShowInBalloons“ zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-Ruft ab oder legt fest, wie Kommentare gerendert werden. Der Standardwert istShowInBalloons .
+Ruft die Art und Weise ab, wie Kommentare gerendert werden. Der Standardwert istShowInBalloons .
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -18,11 +18,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ## Bemerkungen
 
-Beachten Sie, dass Revisionen nicht in Sprechblasen gerendert werdenShowInAnnotations .
+Beachten Sie, dass Revisionen nicht in Sprechblasen dargestellt werden fürShowInAnnotations .
 
 ## Beispiele
 
-Zeigt, wie Kommentare angezeigt werden, wenn ein Dokument in einem gerenderten Format gespeichert wird.
+Zeigt, wie Kommentare beim Speichern eines Dokuments in einem gerenderten Format angezeigt werden.
 
 ```csharp
 Document doc = new Document();
@@ -35,12 +35,12 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations ist nur in den Formaten Pdf1.7 und Pdf1.5 verfügbar.
-// In anderen Formaten funktioniert es ähnlich wie „Hide“.
+// In anderen Formaten funktioniert es ähnlich wie „Ausblenden“.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Beachten Sie, dass das Seitenlayout des Dokuments neu erstellt werden muss (über die Methode Document.UpdatePageLayout())
+// Beachten Sie, dass das Seitenlayout des Dokuments neu erstellt werden muss (über die Methode Document.UpdatePageLayout()).
 // nach dem Ändern der Document.LayoutOptions-Werte.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

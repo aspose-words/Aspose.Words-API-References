@@ -2,15 +2,15 @@
 title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
-second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection LineWidth 财产. 获取或设置边框宽度以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BorderCollection LineWidth 属性，轻松调整边框宽度（以点为单位），增强设计的精确度和视觉吸引力。
 type: docs
 weight: 90
 url: /zh/net/aspose.words/bordercollection/linewidth/
 ---
 ## BorderCollection.LineWidth property
 
-获取或设置边框宽度（以磅为单位）。
+获取或设置边框宽度（以点为单位）。
 
 ```csharp
 public double LineWidth { get; set; }
@@ -24,7 +24,7 @@ public double LineWidth { get; set; }
 
 ## 例子
 
-演示如何创建带阴影的绿色波浪页面边框。
+展示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

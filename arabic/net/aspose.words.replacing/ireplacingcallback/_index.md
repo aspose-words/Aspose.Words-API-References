@@ -3,14 +3,14 @@ title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Replacing.IReplacingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال في C#.
+description: حسّن معالجة مستنداتك باستخدام واجهة IReplacingCallback في Aspose.Words. أنشئ طرق بحث واستبدال مخصصة للحصول على نتائج مُخصصة.
 type: docs
-weight: 4630
+weight: 5360
 url: /ar/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال.
+قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء عملية البحث والاستبدال.
 
 ```csharp
 public interface IReplacingCallback
@@ -20,11 +20,54 @@ public interface IReplacingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | طريقة محددة من قبل المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق يتم العثور عليه قبل إجراء الاستبدال. |
 
 ## أمثلة
 
-يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
+يوضح كيفية تتبع الترتيب الذي تمر به عملية استبدال النص عبر العقد.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // استخدام رأس/تذييل مختلف للصفحة الأولى سيؤثر على ترتيب البحث.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// أثناء عملية البحث والاستبدال، يتم تسجيل محتويات كل عقدة تحتوي على نص "تجده" العملية،
+/// في الحالة التي كانت عليها قبل أن يتم الاستبدال.
+/// سيؤدي هذا إلى عرض الترتيب الذي تمر به عملية استبدال النص عبر العقد.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
+
+يوضح كيفية استبدال جميع حالات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -35,10 +78,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
+    // قم بتعيين معاودة الاتصال لتتبع أي عمليات استبدال ستقوم بها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,7 +95,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
+/// يحتفظ بسجل لكل استبدال نص تم إجراؤه بواسطة عملية البحث والاستبدال
 /// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -75,64 +118,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-يوضح كيفية تتبع الترتيب الذي تعبر به عملية استبدال النص العقد.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // سيؤثر استخدام رأس/تذييل مختلف للصفحة الأولى على ترتيب البحث.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// أثناء عملية البحث والاستبدال، يتم تسجيل محتويات كل عقدة تحتوي على نص "تجده" العملية،
-        /// في الحالة التي كان عليها قبل حدوث الاستبدال.
-        /// سيعرض هذا الترتيب الذي تعبر به عملية استبدال النص العقد.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
-```
-
-يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
+يوضح كيفية إدراج محتويات مستند بأكمله كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -147,7 +140,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // أدخل مستندًا بعد الفقرة التي تحتوي على النص المطابق.
+        //أدرج مستندًا بعد الفقرة التي تحتوي على النص المطابق.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -159,7 +152,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
+/// إدراج جميع عقد مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -173,7 +166,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // تخطي العقدة إذا كانت آخر فقرة فارغة في القسم.
+                // تخطي العقدة إذا كانت الفقرة الفارغة الأخيرة في القسم.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

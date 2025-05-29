@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.FontInfoSubstitution
 linktitle: FontInfoSubstitution
 articleTitle: FontInfoSubstitution
 second_title: Aspose.Words для .NET
-description: FontSubstitutionSettings FontInfoSubstitution свойство. Настройки связанные с правилом замены информации о шрифте на С#.
+description: Узнайте, как FontSubstitutionSettings улучшает типографику с помощью настраиваемых правил информации о шрифтах для улучшения дизайна и читабельности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
 ---
 ## FontSubstitutionSettings.FontInfoSubstitution property
 
-Настройки, связанные с правилом замены информации о шрифте.
+Настройки, связанные с правилом подстановки информации о шрифте.
 
 ```csharp
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
@@ -18,25 +18,25 @@ public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

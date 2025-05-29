@@ -2,8 +2,8 @@
 title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: Style IsQuickStyle 财产. 指定此样式是否显示在 MS Word UI 内的快速样式库中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 IsQuickStyle 属性如何通过在快速样式库中展示样式来增强您的 MS Word 体验，以便于访问和改进工作流程。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/style/isquickstyle/
@@ -18,7 +18,7 @@ public bool IsQuickStyle { get; set; }
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

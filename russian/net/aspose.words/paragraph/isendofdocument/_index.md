@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
 second_title: Aspose.Words для .NET
-description: Paragraph IsEndOfDocument свойство. True если этот абзац является последним абзацем в последнем разделе документа на С#.
+description: Откройте для себя свойство IsEndOfDocument для абзацев. Узнайте, как определить последний абзац в заключительном разделе документа для эффективного форматирования.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-True, если этот абзац является последним абзацем в последнем разделе документа.
+Истина, если этот абзац является последним абзацем в последнем разделе документа.
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -39,7 +39,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Метод Writeln завершает абзац после добавления текста
-// а затем начинается новая строка, добавляющая новый абзац.
+// а затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

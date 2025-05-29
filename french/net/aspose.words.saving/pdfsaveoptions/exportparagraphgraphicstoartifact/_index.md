@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
 linktitle: ExportParagraphGraphicsToArtifact
 articleTitle: ExportParagraphGraphicsToArtifact
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions ExportParagraphGraphicsToArtifact propriété. Obtient ou définit une valeur déterminant si un graphique de paragraphe doit être marqué comme artefact en C#.
+description: Découvrez la propriété PdfSaveOptions ExportParagraphGraphicsToArtifact pour contrôler les graphiques de paragraphe en tant qu'artefacts, améliorant ainsi la clarté visuelle de votre document.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
 ---
 ## PdfSaveOptions.ExportParagraphGraphicsToArtifact property
 
-Obtient ou définit une valeur déterminant si un graphique de paragraphe doit être marqué comme artefact.
+Obtient ou définit une valeur déterminant si un graphique de paragraphe doit être marqué comme un artefact.
 
 ```csharp
 public bool ExportParagraphGraphicsToArtifact { get; set; }
@@ -18,15 +18,15 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`FAUX` et les graphiques de paragraphe (soulignés, accentuation du texte, etc.) seront marqués comme « Span » dans la structure logique du document.
+La valeur par défaut est`FAUX` et les graphiques de paragraphe (soulignements, emphase du texte, etc.) seront marqués comme « Span » dans la structure logique du document.
 
-Lorsque la valeur est`vrai` les graphiques du paragraphe seront marqués comme « Artefact ».
+Lorsque la valeur est`vrai` les graphiques de paragraphe seront marqués comme « Artefact ».
 
 Cette valeur est ignorée lorsque[`ExportDocumentStructure`](../exportdocumentstructure/) est`FAUX` .
 
 ## Exemples
 
-Montre comment exporter des graphiques de paragraphe sous forme d'artefacts (soulignés, accentuation du texte, etc.).
+Montre comment exporter des graphiques de paragraphe sous forme d'artefact (soulignements, emphase de texte, etc.).
 
 ```csharp
 Document doc = new Document(MyDir + "PDF artifacts.docx");

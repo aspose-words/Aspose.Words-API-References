@@ -2,10 +2,10 @@
 title: Fill.RotateWithObject
 linktitle: RotateWithObject
 articleTitle: RotateWithObject
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill RotateWithObject 财产. 获取或设置填充是否随指定对象旋转 在 C#.
+second_title: Aspose.Words for .NET
+description: 管理 RotateWithObject 属性，控制填充是否随对象旋转。轻松提升设计灵活性和精确度！
 type: docs
-weight: 170
+weight: 180
 url: /zh/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property

@@ -3,14 +3,14 @@ title: Paragraph.BreakIsStyleSeparator
 linktitle: BreakIsStyleSeparator
 articleTitle: BreakIsStyleSeparator
 second_title: Aspose.Words لـ .NET
-description: Paragraph BreakIsStyleSeparator ملكية. صحيح إذا كان فاصل الفقرة هذا عبارة عن فاصل نمط. يسمح فاصل الأنماط بأن تتكون فقرة one من أجزاء لها أنماط فقرات مختلفة في C#.
+description: اكتشف كيف تعمل خاصية Paragraph Break IsStyleSeparator على تحسين تنسيق المستند من خلال السماح بأنماط فقرة مختلطة لتحقيق مرونة أكبر في التصميم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraph/breakisstyleseparator/
 ---
 ## Paragraph.BreakIsStyleSeparator property
 
-صحيح إذا كان فاصل الفقرة هذا عبارة عن فاصل نمط. يسمح فاصل الأنماط بأن تتكون فقرة one من أجزاء لها أنماط فقرات مختلفة.
+صحيح إذا كان فاصل الفقرة هذا فاصل أنماط. يسمح فاصل الأنماط للفقرة الواحدة بأن تتكون من أجزاء ذات أنماط فقرات مختلفة.
 
 ```csharp
 public bool BreakIsStyleSeparator { get; }
@@ -27,16 +27,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertTableOfContents("\\o \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// أدخل فقرة بنمط سيختاره جدول المحتويات كمدخل.
+// قم بإدراج فقرة بأسلوب سوف يلتقطه جدول المحتويات كإدخال.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-// كلا السلسلتين موجودتان في نفس الفقرة وبالتالي ستظهران في نفس إدخال جدول المحتويات.
+// توجد كلتا السلسلتين في نفس الفقرة وبالتالي ستظهران في نفس إدخال جدول المحتويات.
 builder.Write("Heading 1. ");
 builder.Write("Will appear in the TOC. ");
 
-// إذا قمنا بإدراج فاصل نمط، فيمكننا كتابة المزيد من النص في نفس الفقرة
-// واستخدم نمطًا مختلفًا دون الظهور في جدول المحتويات.
-// إذا استخدمنا نمط نوع العنوان بعد الفاصل، فيمكننا رسم إدخالات جدول المحتويات المتعددة من سطر نص مستند واحد.
+// إذا قمنا بإدراج فاصل نمط، يمكننا كتابة المزيد من النص في نفس الفقرة
+// واستخدم أسلوبًا مختلفًا دون أن يظهر في جدول المحتويات.
+// إذا استخدمنا نمط نوع العنوان بعد الفاصل، فيمكننا رسم إدخالات جدول محتويات متعددة من سطر نص مستند واحد.
 builder.InsertStyleSeparator();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Quote;
 builder.Write("Won't appear in the TOC. ");

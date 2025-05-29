@@ -2,15 +2,15 @@
 title: ChartXValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
-second_title: Aspose.Words for .NET
-description: ChartXValue FromDateTime yöntem. Bir oluştururChartXValue örneğiDateTime type C#'da.
+second_title: .NET için Aspose.Words
+description: Veri görselleştirmenizi kolaylıkla ve hassasiyetle geliştirmek için DateTime grafik örneklerini zahmetsizce oluşturmak üzere ChartXValue FromDateTime yöntemini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/fromdatetime/
 ---
 ## ChartXValue.FromDateTime method
 
-Bir oluşturur[`ChartXValue`](../) örneğiDateTime type.
+Bir tane oluşturur[`ChartXValue`](../) örneğiDateTime tür.
 
 ```csharp
 public static ChartXValue FromDateTime(DateTime value)

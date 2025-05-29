@@ -3,14 +3,14 @@ title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 articleTitle: Dispose
 second_title: Aspose.Words per .NET
-description: BasicTextShaperCache Dispose metodo. Elimina la cacheITextShaper istanze in C#.
+description: Gestisci in modo efficiente la memoria con il metodo BasicTextShaperCache Dispose, che cancella le istanze di ITextShaper memorizzate nella cache per prestazioni ottimali.
 type: docs
 weight: 20
 url: /it/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
 
-Elimina la cache[`ITextShaper`](../../itextshaper/) istanze.
+Elimina i dati memorizzati nella cache[`ITextShaper`](../../itextshaper/) istanze.
 
 ```csharp
 public void Dispose()

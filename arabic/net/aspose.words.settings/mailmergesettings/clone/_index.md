@@ -3,14 +3,14 @@ title: MailMergeSettings.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
+description: اكتشف طريقة MailMergeSettings Clone، وقم بإنشاء نسخة عميقة من إعداداتك بسهولة لتحقيق أتمتة مستندات سلسة وكفاءة محسنة.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.settings/mailmergesettings/clone/
 ---
 ## MailMergeSettings.Clone method
 
-يُرجع نسخة عميقة من هذا الكائن.
+يعيد نسخة طبق الأصل من هذا الكائن.
 
 ```csharp
 public MailMergeSettings Clone()
@@ -18,7 +18,7 @@ public MailMergeSettings Clone()
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

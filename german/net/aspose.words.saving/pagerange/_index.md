@@ -3,9 +3,9 @@ title: PageRange Class
 linktitle: PageRange
 articleTitle: PageRange
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.PageRange klas. Stellt einen fortlaufenden Seitenbereich dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Saving.PageRange zum einfachen Definieren fortlaufender Seitenbereiche. Verbessern Sie Ihre Dokumentenverarbeitung mit Präzision und Effizienz.
 type: docs
-weight: 5370
+weight: 6150
 url: /de/net/aspose.words.saving/pagerange/
 ---
 ## PageRange class
@@ -23,6 +23,21 @@ public sealed class PageRange
 | Name | Beschreibung |
 | --- | --- |
 | [PageRange](pagerange/)(*int, int*) | Erstellt ein neues Seitenbereichsobjekt. |
+
+## Beispiele
+
+Zeigt, wie Seiten basierend auf genauen Seitenbereichen extrahiert werden.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Tiff);
+PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3),
+    new PageRange(2, 4), new PageRange(1, 1));
+
+imageOptions.PageSet = pageSet;
+doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+```
 
 ### Siehe auch
 

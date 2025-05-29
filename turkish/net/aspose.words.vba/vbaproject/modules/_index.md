@@ -2,15 +2,15 @@
 title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
-second_title: Aspose.Words for .NET
-description: VbaProject Modules mülk. VBA proje modüllerinin koleksiyonunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: VbaProject Modülleri özelliğini keşfedin, gelişmiş otomasyon ve verimlilik için VBA proje modüllerinize zahmetsizce erişin ve yönetin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
 
-VBA proje modüllerinin koleksiyonunu döndürür.
+VBA proje modülleri koleksiyonunu döndürür.
 
 ```csharp
 public VbaModuleCollection Modules { get; }
@@ -29,18 +29,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya adına göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Koleksiyondan bir modülü kaldırın.
+// Koleksiyondan bir modülü kaldır.
 vbaModules.Remove(vbaModules[2]);
 ```
 

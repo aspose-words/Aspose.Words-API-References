@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertParagraphNumberInFullContext
 linktitle: InsertParagraphNumberInFullContext
 articleTitle: InsertParagraphNumberInFullContext
 second_title: Aspose.Words para .NET
-description: FieldStyleRef InsertParagraphNumberInFullContext propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo en C#.
+description: Administre la numeración de párrafos con la propiedad FieldStyleRef InsertParagraphNumberInFullContext. Controle fácilmente el contexto para una mayor claridad del documento.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInFullContext property
 
-Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
+Obtiene o establece si se debe insertar el número de párrafo del párrafo referenciado en el contexto completo.
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }
@@ -24,10 +24,10 @@ Muestra cómo utilizar los campos STYLEREF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea una lista basada en una plantilla de lista de Microsoft Word.
+// Cree una lista basada en una plantilla de lista de Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Esta lista generada mostrará "1.a)".
+//Esta lista generada mostrará "1.a )".
  // El espacio antes del corchete es un carácter no delimitador, que podemos suprimir.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// También podemos usar campos STYLEREF para hacer referencia a los números de lista de listas.
+// También podemos utilizar los campos STYLEREF para hacer referencia a los números de lista de las listas.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

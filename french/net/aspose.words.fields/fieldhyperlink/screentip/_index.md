@@ -3,14 +3,14 @@ title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words pour .NET
-description: FieldHyperlink ScreenTip propriété. Obtient ou définit le texte dinfobulle du lien hypertexte en C#.
+description: Découvrez la propriété « FieldHyperlink ScreenTip » pour personnaliser le texte de vos liens hypertexte et améliorer l'expérience utilisateur et l'engagement. Optimisez vos liens dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldhyperlink/screentip/
 ---
 ## FieldHyperlink.ScreenTip property
 
-Obtient ou définit le texte d'info-bulle du lien hypertexte.
+Obtient ou définit le texte de l'info-bulle pour le lien hypertexte.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié puis placera le curseur sur le signet spécifié.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -34,7 +34,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié et défilera automatiquement jusqu'à l'iframe spécifié.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

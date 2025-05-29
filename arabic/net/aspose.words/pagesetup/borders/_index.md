@@ -3,14 +3,14 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words لـ .NET
-description: PageSetup Borders ملكية. الحصول على مجموعة من حدود الصفحة في C#.
+description: اكتشف خاصية PageSetup Borders للوصول بسهولة إلى حدود صفحتك وتخصيصها للحصول على مظهر أنيق واحترافي في مستنداتك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/pagesetup/borders/
 ---
 ## PageSetup.Borders property
 
-الحصول على مجموعة من حدود الصفحة.
+يحصل على مجموعة من حدود الصفحة.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
+يوضح كيفية إنشاء حدود صفحة متموجة باللون الأخضر مع ظل.
 
 ```csharp
 Document doc = new Document();

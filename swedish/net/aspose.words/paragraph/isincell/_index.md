@@ -3,14 +3,14 @@ title: Paragraph.IsInCell
 linktitle: IsInCell
 articleTitle: IsInCell
 second_title: Aspose.Words för .NET
-description: Paragraph IsInCell fast egendom. Sant om det här stycket är ett omedelbart barn tillCell  falskt annars i C#.
+description: Upptäck egenskapen Paragraph IsInCell. Avgör enkelt om ett stycke är ett direkt underordnat stycke till en cell, vilket förbättrar dokumentstrukturen och formateringen.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/paragraph/isincell/
 ---
 ## Paragraph.IsInCell property
 
-Sant om det här stycket är ett omedelbart barn till[`Cell`](../../../aspose.words.tables/cell/) ; falskt annars.
+Sant om detta stycke är ett direkt underordnat stycke till[`Cell`](../../../aspose.words.tables/cell/) ; falskt annars.
 
 ```csharp
 public bool IsInCell { get; }
@@ -18,16 +18,16 @@ public bool IsInCell { get; }
 
 ## Exempel
 
-Visar hur man ställer in ett bord för att hålla ihop på samma sida.
+Visar hur man dukar ett bord så att det står ihop på samma sida.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Aktivera KeepWithNext för varje stycke i tabellen utom för
-// de sista i den sista raden kommer att förhindra att tabellen delas upp på flera sidor.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Aktiverar KeepWithNext för varje stycke i tabellen förutom
+// de sista på den sista raden förhindrar att tabellen delas upp över flera sidor.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,16 +3,16 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldCollection clase. Una colección deField objetos que representan los campos en el rango especificado en C#.
+description: Descubra Aspose.Words.FieldCollection, una poderosa clase para administrar objetos Field dentro de rangos de documentos específicos, mejorando la automatización de sus documentos.
 type: docs
-weight: 1690
+weight: 2100
 url: /es/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Una colección de[`Field`](../field/) objetos que representan los campos en el rango especificado.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -22,7 +22,7 @@ public class FieldCollection : IEnumerable<Field>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Devuelve el número de campos de la colección. |
+| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Devuelve el número de campos en la colección. |
 | [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | Devuelve un campo en el índice especificado. |
 
 ## Métodos
@@ -36,11 +36,11 @@ public class FieldCollection : IEnumerable<Field>
 
 ## Observaciones
 
-Una instancia de esta colección itera campos que comienzan dentro del rango especificado.
+Una instancia de esta colección itera campos que comienzan a caer dentro del rango especificado.
 
-El`FieldCollection` La colección no es propietaria de los campos que contiene, sino que es solo una selección de campos.
+El`FieldCollection` La colección no posee los campos que contiene, sino que es solo una selección de campos.
 
-El`FieldCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los campos devueltos por el`FieldCollection` propiedades y métodos.
+El`FieldCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los campos devueltos por la colección.`FieldCollection` Propiedades y métodos de .
 
 ## Ejemplos
 
@@ -62,7 +62,7 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
+A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
 // 1 - Obtener un campo para eliminarse a sí mismo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
@@ -76,7 +76,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Elimina todos los campos de la colección a la vez:
+// 4 - Eliminar todos los campos de la colección a la vez:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -101,7 +101,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // Iterar sobre la colección de campos e imprimir el contenido y el tipo
     // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implementación del visitante del documento que imprime la información del campo.
+/// Implementación del documento de visitante que imprime información del campo.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

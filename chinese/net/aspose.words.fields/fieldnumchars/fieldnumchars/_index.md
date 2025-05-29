@@ -2,8 +2,8 @@
 title: FieldNumChars
 linktitle: FieldNumChars
 articleTitle: FieldNumChars
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldNumChars 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldNumChars 构造函数——一款功能强大的工具，可帮助您在应用程序中高效管理字符。立即解锁无缝编码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldnumchars/fieldnumchars/

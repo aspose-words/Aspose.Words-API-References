@@ -3,7 +3,7 @@ title: AxisScaling.Maximum
 linktitle: Maximum
 articleTitle: Maximum
 second_title: Aspose.Words pour .NET
-description: AxisScaling Maximum propriété. Obtient ou définit la valeur maximale de laxe en C#.
+description: Découvrez la propriété Maximum d'AxisScaling pour définir ou récupérer facilement la valeur maximale de l'axe, améliorant ainsi la visualisation de vos données avec précision.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -18,7 +18,7 @@ public AxisBound Maximum { get; set; }
 
 ## Remarques
 
-La valeur par défaut est "auto".
+La valeur par défaut est « auto ».
 
 ## Exemples
 
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Effacez la série de données de démonstration du graphique pour démarrer avec un graphique propre.
 chart.Series.Clear();
 
 // Ajoutez une série personnalisée contenant des valeurs de date/heure pour l'axe X et des valeurs décimales respectives pour l'axe Y.
@@ -43,12 +43,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Définit les limites inférieure et supérieure de l'axe X.
+// Définissez les limites inférieures et supérieures de l'axe X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Définit les unités principales de l'axe X sur une semaine et les unités mineures sur un jour.
+// Définissez les unités principales de l'axe X sur une semaine et les unités mineures sur un jour.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -59,7 +59,7 @@ xAxis.HasMinorGridlines = true;
 
 // Définir les propriétés de l'axe Y pour les valeurs décimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

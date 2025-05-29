@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
 articleTitle: IsEndOfHeaderFooter
 second_title: Aspose.Words لـ .NET
-description: Paragraph IsEndOfHeaderFooter ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيHeaderFooter قصة النص الرئيسي من أSection  كاذبة خلاف ذلك في C#.
+description: اكتشف خاصية IsEndOfHeaderFooter للفقرات. حدّد بسهولة ما إذا كانت الفقرة الأخيرة في HeaderFooter، مما يُحسّن بنية المستند.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`HeaderFooter`](../../headerfooter/) (قصة النص الرئيسي) من أ[`Section`](../../section/) ; كاذبة خلاف ذلك.
+صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`HeaderFooter`](../../headerfooter/) (قصة النص الرئيسي) لـ[`Section`](../../section/) ؛ وإلا فسيكون خاطئًا.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }
@@ -23,8 +23,8 @@ public bool IsEndOfHeaderFooter { get; }
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
-// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
+// أنشئ رأسًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أعلى كل صفحة من هذا القسم، فوق النص الرئيسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
+// أنشئ تذييلًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

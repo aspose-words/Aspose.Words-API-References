@@ -3,14 +3,14 @@ title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
 articleTitle: NodeChangingCallback
 second_title: Aspose.Words لـ .NET
-description: DocumentBase NodeChangingCallback ملكية. يتم استدعاؤه عند إدراج عقدة أو إزالتها في المستند في C#.
+description: اكتشف خاصية DocumentBase NodeChangingCallback، التي يتم تشغيلها عند إدخال العقد أو إزالتها، مما يعزز إدارة المستندات وكفاءة سير العمل.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
 
-يتم استدعاؤه عند إدراج عقدة أو إزالتها في المستند.
+يتم استدعاؤها عند إدراج عقدة أو إزالتها في المستند.
 
 ```csharp
 public INodeChangingCallback NodeChangingCallback { get; set; }
@@ -18,7 +18,7 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة باستخدام معاودة الاتصال.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
-    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
+    // تعيين معاودة الاتصال لتغيير العقدة إلى التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد حتى تتمكن من إنشاء سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
-/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
+/// يسجل التاريخ والوقت لكل إدخال وإزالة للعقدة.
+/// تعيين اسم/حجم خط مخصص لمحتويات النص الخاصة بعقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

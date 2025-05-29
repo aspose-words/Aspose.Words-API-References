@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words für .NET
-description: ReplacingArgs MatchNode eigendom. Ruft den Knoten ab der den Anfang des Matches enthält in C#.
+description: Entdecken Sie die MatchNode-Eigenschaft von ReplacingArgs, um einfach auf den Knoten zuzugreifen, an dem Ihre Übereinstimmung beginnt, und so Ihre Codierungseffizienz und -genauigkeit zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-Ruft den Knoten ab, der den Anfang des Matches enthält.
+Ruft den Knoten ab, der den Anfang der Übereinstimmung enthält.
 
 ```csharp
 public Node MatchNode { get; }
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## Beispiele
 
-Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
+Zeigt, wie der gesamte Inhalt eines Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Ein Dokument nach dem Absatz einfügen, der den übereinstimmenden Text enthält.
+        // Fügen Sie nach dem Absatz, der den übereinstimmenden Text enthält, ein Dokument ein.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Den Absatz mit dem übereinstimmenden Text entfernen.
+        // Entfernen Sie den Absatz mit dem übereinstimmenden Text.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -52,7 +52,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Fügt alle Knoten eines anderen Dokuments nach einem Absatz oder einer Tabelle ein.
+/// Fügt nach einem Absatz oder einer Tabelle alle Knoten eines anderen Dokuments ein.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Den Knoten überspringen, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
+                // Überspringe den Knoten, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

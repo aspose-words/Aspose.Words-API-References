@@ -2,15 +2,15 @@
 title: DigitalSignature.SignTime
 linktitle: SignTime
 articleTitle: SignTime
-second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignature SignTime 财产. 获取文档的签名时间 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DigitalSignature SignTime。追踪文档签署的准确时间，增强安全性并提高记录保存效率。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-获取文档的签名时间。
+获取文件签署的时间。
 
 ```csharp
 public DateTime SignTime { get; }
@@ -18,7 +18,7 @@ public DateTime SignTime { get; }
 
 ## 例子
 
-演示如何验证和显示有关文档中每个签名的信息。
+展示如何验证和显示文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

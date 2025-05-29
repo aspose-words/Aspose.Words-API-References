@@ -3,7 +3,7 @@ title: Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: Document constructeur. Erstellt ein leeres WordDokument in C#.
+description: Erstellen Sie mühelos leere Word-Dokumente mit unserem benutzerfreundlichen Dokumentkonfigurator. Optimieren Sie Ihren Schreibprozess noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words/document/document/
@@ -18,13 +18,17 @@ public Document()
 
 ## Bemerkungen
 
+Ein leeres Dokument wird aus Ressourcen abgerufen, und standardmäßig sieht das resultierende Dokument eher aus wie erstellt vonWord2007. Dieses leere Dokument enthält eine Tabelle mit Standardschriftarten, minimale Standardstile und latente Stile.
+
+[`OptimizeFor`](../../../aspose.words.settings/compatibilityoptions/optimizefor/) Die Methode kann verwendet werden, um den Dokumentinhalt sowie das Standardverhalten von Aspose.Words für eine bestimmte Version von MS Word zu optimieren.
+
 Das Dokumentpapierformat ist standardmäßig Letter. Wenn Sie die Seiteneinrichtung ändern möchten, verwenden Sie [`PageSetup`](../../section/pagesetup/).
 
-Nach der Erstellung können Sie es verwenden[`DocumentBuilder`](../../documentbuilder/) um Dokumentinhalte einfach hinzuzufügen.
+Nach der Erstellung können Sie[`DocumentBuilder`](../../documentbuilder/) um Dokumentinhalte einfach hinzuzufügen.
 
 ## Beispiele
 
-Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
+Zeigt, wie ein Textlauf mithilfe seiner Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -39,25 +43,38 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
+Zeigt, wie man ein einfaches Dokument erstellt.
+
+```csharp
+Document doc = new Document();
+
+// Neue Dokumentobjekte werden standardmäßig mit dem minimalen Satz an Knoten geliefert
+// erforderlich, um mit dem Hinzufügen von Inhalten wie Text und Formen zu beginnen: ein Abschnitt, ein Textkörper und ein Absatz.
+doc.AppendChild(new Section(doc))
+    .AppendChild(new Body(doc))
+    .AppendChild(new Paragraph(doc))
+    .AppendChild(new Run(doc, "Hello world!"));
+```
+
 Zeigt, wie Dokumente erstellt und geladen werden.
 
 ```csharp
-// Es gibt zwei Möglichkeiten, ein Document-Objekt mit Aspose.Words zu erstellen.
+// Es gibt zwei Möglichkeiten, mit Aspose.Words ein Dokumentobjekt zu erstellen.
 // 1 - Erstellen Sie ein leeres Dokument:
 Document doc = new Document();
 
-// Neue Dokumentobjekte verfügen standardmäßig über die minimale Menge an Knoten
-// erforderlich, um mit dem Hinzufügen von Inhalten wie Text und Formen zu beginnen: ein Abschnitt, ein Hauptteil und ein Absatz.
+// Neue Dokumentobjekte werden standardmäßig mit dem minimalen Satz an Knoten geliefert
+// erforderlich, um mit dem Hinzufügen von Inhalten wie Text und Formen zu beginnen: ein Abschnitt, ein Textkörper und ein Absatz.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
-// 2 – Laden Sie ein Dokument, das im lokalen Dateisystem vorhanden ist:
+// 2 - Laden Sie ein Dokument, das im lokalen Dateisystem vorhanden ist:
 doc = new Document(MyDir + "Document.docx");
 
 // Geladene Dokumente haben Inhalte, auf die wir zugreifen und die wir bearbeiten können.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
 // Einige Vorgänge, die während des Ladens ausgeführt werden müssen, z. B. die Verwendung eines Kennworts zum Entschlüsseln eines Dokuments,
-// kann durch Übergabe eines LoadOptions-Objekts beim Laden des Dokuments erfolgen.
+// kann durch Übergeben eines LoadOptions-Objekts beim Laden des Dokuments erfolgen.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -73,7 +90,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ## Document(*string*) {#constructor_3}
 
-Öffnet ein vorhandenes Dokument aus einer Datei. Erkennt automatisch das Dateiformat.
+Öffnet ein vorhandenes Dokument aus einer Datei. Das Dateiformat wird automatisch erkannt.
 
 ```csharp
 public Document(string fileName)
@@ -89,14 +106,14 @@ public Document(string fileName)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
 | [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
-| Exception | Es liegt ein Problem mit dem Dokument vor und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
-| IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
+| Exception | Es liegt ein Problem mit dem Dokument vor und sollte den Entwicklern von Aspose.Words gemeldet werden. |
+| IOException | Es liegt eine Eingabe-/Ausgabeausnahme vor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Kennwort, Sie haben jedoch ein falsches Kennwort eingegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument öffnet und in .PDF konvertiert.
+Zeigt, wie man ein Dokument öffnet und in das PDF-Format konvertiert.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -120,10 +137,10 @@ Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 ```
 
-Zeigt, wie ein PDF geladen wird.
+Zeigt, wie eine PDF-Datei geladen wird.
 
 ```csharp
-Aspose.Words.Document doc = new Aspose.Words.Document();
+Document doc = new Aspose.Words.Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
@@ -132,7 +149,7 @@ doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 // Nachfolgend finden Sie zwei Möglichkeiten zum Laden von PDF-Dokumenten mit Aspose-Produkten.
 // 1 – Als Aspose.Words-Dokument laden:
-Aspose.Words.Document asposeWordsDoc = new Aspose.Words.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
+Document asposeWordsDoc = new Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 Assert.AreEqual("Hello world!", asposeWordsDoc.GetText().Trim());
 
@@ -164,7 +181,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname des zu öffnenden Dokuments. |
-| loadOptions | LoadOptions | Zusätzliche Optionen zum Laden eines Dokuments. Kann sein`Null`. |
+| loadOptions | LoadOptions | Zusätzliche Optionen beim Laden eines Dokuments. Kann sein`null`. |
 
 ### Ausnahmen
 
@@ -172,9 +189,9 @@ public Document(string fileName, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
 | [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
-| Exception | Es liegt ein Problem mit dem Dokument vor und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
-| IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
+| Exception | Es liegt ein Problem mit dem Dokument vor und sollte den Entwicklern von Aspose.Words gemeldet werden. |
+| IOException | Es liegt eine Eingabe-/Ausgabeausnahme vor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Kennwort, Sie haben jedoch ein falsches Kennwort eingegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
 ## Beispiele
@@ -184,16 +201,16 @@ Zeigt, wie ein verschlüsseltes Microsoft Word-Dokument geladen wird.
 ```csharp
 Document doc;
 
-// Aspose.Words löst eine Ausnahme aus, wenn wir versuchen, ein verschlüsseltes Dokument ohne sein Passwort zu öffnen.
+// Aspose.Words löst eine Ausnahme aus, wenn wir versuchen, ein verschlüsseltes Dokument ohne dessen Kennwort zu öffnen.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Beim Laden eines solchen Dokuments wird das Passwort mithilfe eines LoadOptions-Objekts an den Konstruktor des Dokuments übergeben.
+// Beim Laden eines solchen Dokuments wird das Kennwort mithilfe eines LoadOptions-Objekts an den Konstruktor des Dokuments übergeben.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Es gibt zwei Möglichkeiten, ein verschlüsseltes Dokument mit einem LoadOptions-Objekt zu laden.
-// 1 – Laden Sie das Dokument anhand des Dateinamens aus dem lokalen Dateisystem:
+// 1 - Laden Sie das Dokument aus dem lokalen Dateisystem nach Dateinamen:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 – Laden Sie das Dokument aus einem Stream:
+// 2 - Laden Sie das Dokument aus einem Stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
@@ -203,22 +220,22 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 Zeigt, wie Dokumente erstellt und geladen werden.
 
 ```csharp
-// Es gibt zwei Möglichkeiten, ein Document-Objekt mit Aspose.Words zu erstellen.
+// Es gibt zwei Möglichkeiten, mit Aspose.Words ein Dokumentobjekt zu erstellen.
 // 1 - Erstellen Sie ein leeres Dokument:
 Document doc = new Document();
 
-// Neue Dokumentobjekte verfügen standardmäßig über die minimale Menge an Knoten
-// erforderlich, um mit dem Hinzufügen von Inhalten wie Text und Formen zu beginnen: ein Abschnitt, ein Hauptteil und ein Absatz.
+// Neue Dokumentobjekte werden standardmäßig mit dem minimalen Satz an Knoten geliefert
+// erforderlich, um mit dem Hinzufügen von Inhalten wie Text und Formen zu beginnen: ein Abschnitt, ein Textkörper und ein Absatz.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
-// 2 – Laden Sie ein Dokument, das im lokalen Dateisystem vorhanden ist:
+// 2 - Laden Sie ein Dokument, das im lokalen Dateisystem vorhanden ist:
 doc = new Document(MyDir + "Document.docx");
 
 // Geladene Dokumente haben Inhalte, auf die wir zugreifen und die wir bearbeiten können.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
 // Einige Vorgänge, die während des Ladens ausgeführt werden müssen, z. B. die Verwendung eines Kennworts zum Entschlüsseln eines Dokuments,
-// kann durch Übergabe eines LoadOptions-Objekts beim Laden des Dokuments erfolgen.
+// kann durch Übergeben eines LoadOptions-Objekts beim Laden des Dokuments erfolgen.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -235,7 +252,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ## Document(*Stream*) {#constructor_1}
 
-Öffnet ein vorhandenes Dokument aus einem Stream. Erkennt automatisch das Dateiformat.
+Öffnet ein vorhandenes Dokument aus einem Stream. Das Dateiformat wird automatisch erkannt.
 
 ```csharp
 public Document(Stream stream)
@@ -251,12 +268,12 @@ public Document(Stream stream)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
 | [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
-| Exception | Es liegt ein Problem mit dem Dokument vor und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
-| IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
+| Exception | Es liegt ein Problem mit dem Dokument vor und sollte den Entwicklern von Aspose.Words gemeldet werden. |
+| IOException | Es liegt eine Eingabe-/Ausgabeausnahme vor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Kennwort, Sie haben jedoch ein falsches Kennwort eingegeben. |
 | ArgumentNullException | Der Stream darf nicht null sein. |
 | NotSupportedException | Der Stream unterstützt weder Lesen noch Suchen. |
-| ObjectDisposedException | Der Stream ist ein entsorgtes Objekt. |
+| ObjectDisposedException | Der Stream ist ein verworfenes Objekt. |
 
 ## Bemerkungen
 
@@ -282,9 +299,9 @@ Zeigt, wie ein Dokument von einer URL geladen wird.
 const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
 // Laden Sie das Dokument in ein Byte-Array herunter und laden Sie dieses Array dann mithilfe eines Speicherstreams in ein Dokument.
-using (HttpClient webClient = new HttpClient())
+using (WebClient webClient = new WebClient())
 {
-    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
+    byte[] dataBytes = webClient.DownloadData(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
@@ -292,8 +309,8 @@ using (HttpClient webClient = new HttpClient())
 
         // In dieser Phase können wir den Inhalt des Dokuments lesen und bearbeiten und es dann im lokalen Dateisystem speichern.
         Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
-            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
-            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+                        "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+                        "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",
             doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
@@ -311,7 +328,7 @@ using (HttpClient webClient = new HttpClient())
 
 ## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
-Öffnet ein vorhandenes Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts.
+Öffnet ein vorhandenes Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen, wie z. B. eines Verschlüsselungskennworts.
 
 ```csharp
 public Document(Stream stream, LoadOptions loadOptions)
@@ -320,7 +337,7 @@ public Document(Stream stream, LoadOptions loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Der Stream, aus dem das Dokument geladen werden soll. |
-| loadOptions | LoadOptions | Zusätzliche Optionen zum Laden eines Dokuments. Kann sein`Null`. |
+| loadOptions | LoadOptions | Zusätzliche Optionen beim Laden eines Dokuments. Kann sein`null`. |
 
 ### Ausnahmen
 
@@ -328,12 +345,12 @@ public Document(Stream stream, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
 | [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
-| Exception | Es liegt ein Problem mit dem Dokument vor und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
-| IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
+| Exception | Es liegt ein Problem mit dem Dokument vor und sollte den Entwicklern von Aspose.Words gemeldet werden. |
+| IOException | Es liegt eine Eingabe-/Ausgabeausnahme vor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Kennwort, Sie haben jedoch ein falsches Kennwort eingegeben. |
 | ArgumentNullException | Der Stream darf nicht null sein. |
 | NotSupportedException | Der Stream unterstützt weder Lesen noch Suchen. |
-| ObjectDisposedException | Der Stream ist ein entsorgtes Objekt. |
+| ObjectDisposedException | Der Stream ist ein verworfenes Objekt. |
 
 ## Bemerkungen
 
@@ -341,12 +358,12 @@ Das Dokument muss am Anfang des Streams gespeichert werden. Der Stream muss eine
 
 ## Beispiele
 
-Zeigt, wie man mithilfe eines Basis-URI ein HTML-Dokument mit Bildern aus einem Stream öffnet.
+Zeigt, wie ein HTML-Dokument mit Bildern aus einem Stream unter Verwendung einer Basis-URI geöffnet wird.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Beim Laden den URI des Basisordners übergeben
+    // Übergeben Sie die URI des Basisordners beim Laden
     // damit alle Bilder mit relativen URIs im HTML-Dokument gefunden werden können.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
@@ -363,17 +380,17 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-Zeigt, wie eine Webseite als .docx-Datei gespeichert wird.
+Zeigt, wie eine Webseite als DOCX-Datei gespeichert wird.
 
 ```csharp
-const string url = "https://www.aspose.com/";
+const string url = "https://products.aspose.com/words/";
 
-using (HttpClient client = new HttpClient()) 
+using (WebClient client = new WebClient())
 {
-    var bytes = await client.GetByteArrayAsync(url);
+    var bytes = client.DownloadData(url);
     using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // Die URL wird erneut als BaseUri verwendet, um sicherzustellen, dass alle relativen Bildpfade korrekt abgerufen werden.
+        // Die URL wird erneut als Basis-Uri verwendet, um sicherzustellen, dass alle relativen Bildpfade korrekt abgerufen werden.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
         // Laden Sie das HTML-Dokument aus dem Stream und übergeben Sie das LoadOptions-Objekt.
@@ -390,16 +407,16 @@ Zeigt, wie ein verschlüsseltes Microsoft Word-Dokument geladen wird.
 ```csharp
 Document doc;
 
-// Aspose.Words löst eine Ausnahme aus, wenn wir versuchen, ein verschlüsseltes Dokument ohne sein Passwort zu öffnen.
+// Aspose.Words löst eine Ausnahme aus, wenn wir versuchen, ein verschlüsseltes Dokument ohne dessen Kennwort zu öffnen.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Beim Laden eines solchen Dokuments wird das Passwort mithilfe eines LoadOptions-Objekts an den Konstruktor des Dokuments übergeben.
+// Beim Laden eines solchen Dokuments wird das Kennwort mithilfe eines LoadOptions-Objekts an den Konstruktor des Dokuments übergeben.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Es gibt zwei Möglichkeiten, ein verschlüsseltes Dokument mit einem LoadOptions-Objekt zu laden.
-// 1 – Laden Sie das Dokument anhand des Dateinamens aus dem lokalen Dateisystem:
+// 1 - Laden Sie das Dokument aus dem lokalen Dateisystem nach Dateinamen:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 – Laden Sie das Dokument aus einem Stream:
+// 2 - Laden Sie das Dokument aus einem Stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);

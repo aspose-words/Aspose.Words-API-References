@@ -3,14 +3,14 @@ title: IResourceLoadingCallback.ResourceLoading
 linktitle: ResourceLoading
 articleTitle: ResourceLoading
 second_title: Aspose.Words لـ .NET
-description: IResourceLoadingCallback ResourceLoading طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتحميل أي مورد خارجي في C#.
+description: اكتشف كيف يعمل IResourceLoadingCallback على تعزيز Aspose.Words من خلال إدارة تحميل الموارد الخارجية بكفاءة لمعالجة المستندات بسلاسة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
 ---
 ## IResourceLoadingCallback.ResourceLoading method
 
-يتم استدعاؤه عندما يقوم Aspose.Words بتحميل أي مورد خارجي.
+يتم استدعاؤها عندما يقوم Aspose.Words بتحميل أي مورد خارجي.
 
 ```csharp
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
@@ -28,8 +28,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادة ما يتم إدراج الصور باستخدام URI، أو مصفوفة بايت.
-    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة برد الاتصال الخاص بنا.
+    // عادةً ما يتم إدراج الصور باستخدام URI أو مجموعة بايتات.
+    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة بإرجاعنا.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,15 +40,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// يسمح لنا بتحميل الصور في مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
-/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية إنشاء المستند.
+/// يسمح لنا بتحميل الصور إلى مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
+/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية بناء المستند.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // إذا واجه رد الاتصال هذا أحد اختصارات الصورة أثناء تحميل الصورة،
-        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من معاملته كعنوان URI.
+        // إذا واجهت هذه الاستدعاءات أحد اختصارات الصورة أثناء تحميل صورة،
+        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من التعامل معه باعتباره URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

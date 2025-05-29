@@ -3,7 +3,7 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: FontSourceBase Type свойство. Возвращает тип источника шрифта на С#.
+description: Откройте для себя свойство FontSourceBase Type, легко извлекайте исходные типы шрифтов для улучшения вашего веб-дизайна и оптимизации пользовательского опыта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontsourcebase/type/

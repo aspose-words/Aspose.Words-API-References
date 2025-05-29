@@ -3,7 +3,7 @@ title: NodeList.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: NodeList Count propiedad. Obtiene el número de nodos en la lista en C#.
+description: Descubra la propiedad NodeList Count para recuperar fácilmente el número total de nodos en su lista, mejorando la eficiencia de su desarrollo web.
 type: docs
 weight: 10
 url: /es/net/aspose.words/nodelist/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar XPaths para navegar en una NodeList.
+Muestra cómo utilizar XPaths para navegar por una lista de nodos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta algunos nodos con un DocumentBuilder.
+// Inserte algunos nodos con un DocumentBuilder.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -34,14 +34,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Nuestro documento contiene tres nodos Ejecutar.
+//Nuestro documento contiene tres nodos de ejecución.
 NodeList nodeList = doc.SelectNodes("//Correr");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -49,7 +44,7 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Utilice una doble barra diagonal para seleccionar todos los nodos de ejecución
+// Utilice una barra diagonal doble para seleccionar todos los nodos de ejecución
 // que son descendientes indirectos de un nodo Tabla, que serían las ejecuciones dentro de las dos celdas que insertamos.
 nodeList = doc.SelectNodes("//Table//Correr");
 
@@ -57,12 +52,12 @@ Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Las barras diagonales simples especifican relaciones descendientes directas,
+// Las barras diagonales simples especifican relaciones de descendientes directos,
 // que omitimos cuando usamos barras dobles.
 Assert.AreEqual(doc.SelectNodes(" //Tabla//Ejecutar"),
     doc.SelectNodes("//Tabla/Fila/Celda/Párrafo/Ejecutar"));
 
-// Accede a la forma que contiene la imagen que insertamos.
+// Accedemos a la forma que contiene la imagen que insertamos.
 nodeList = doc.SelectNodes("//Forma");
 
 Assert.AreEqual(1, nodeList.Count);

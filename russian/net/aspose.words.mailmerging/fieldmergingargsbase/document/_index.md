@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: FieldMergingArgsBase Document свойство. ВозвращаетDocument объект для которого выполняется слияние почты на С#.
+description: Откройте для себя свойство FieldMergingArgsBase Document, которое предоставляет объект Document для бесшовных операций слияния почты. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-Возвращает`Document` объект, для которого выполняется слияние почты.
+Возвращает`Document`объект, для которого выполняется слияние почты.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Примеры
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
+Показывает, как выполнить слияние почты с помощью настраиваемого обратного вызова, который обрабатывает данные слияния в форме HTML-документов.
 
 ```csharp
 public void MergeHtml()
@@ -51,7 +51,7 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// Если при слиянии почты обнаруживается MERGEFIELD, имя которого начинается с префикса "html_",
 /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
@@ -63,13 +63,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные данные HTML в тело документа.
+            // Добавить проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Поскольку мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
+            // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство "Текст".
             args.Text = string.Empty;
         }
     }

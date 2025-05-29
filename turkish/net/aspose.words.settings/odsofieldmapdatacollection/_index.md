@@ -2,17 +2,17 @@
 title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection sınıf. Yazılı bir koleksiyonOdsoFieldMapData nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoFieldMapData nesnelerinin etkili yönetimi için güçlü bir türlendirilmiş koleksiyon olan Aspose.Words OdsoFieldMapDataCollection sınıfını keşfedin.
 type: docs
-weight: 5910
+weight: 6740
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-Yazılı bir koleksiyon[`OdsoFieldMapData`](../odsofieldmapdata/) nesneler.
+Bir tür koleksiyonu[`OdsoFieldMapData`](../odsofieldmapdata/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Posta Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) belgeleme makalesi.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -28,7 +28,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
 | [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Bu koleksiyondaki bir öğeyi alır veya ayarlar. |
 
 ## yöntemler
@@ -37,17 +37,17 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Bu koleksiyonun sonuna bir nesne ekler. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Bu koleksiyondaki tüm öğeleri kaldırır. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Belirtilen dizindeki öğeyi kaldırır. |
 
 ## Örnekler
 
-Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarına eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// Bu koleksiyon, bir posta birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
 // önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
@@ -66,15 +66,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Bu koleksiyondaki öğeleri klonlayın.
+// Bu koleksiyondaki öğeleri klonla.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
+// "RemoveAt" metodu elemanlarını indekse göre tek tek kullan.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
+// Tüm koleksiyonu bir kerede temizlemek için "Clear" metodunu kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

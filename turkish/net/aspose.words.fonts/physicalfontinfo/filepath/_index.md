@@ -2,10 +2,10 @@
 title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
-second_title: Aspose.Words for .NET
-description: PhysicalFontInfo FilePath mülk. Varsa yazı tipi dosyasının yolu C#'da.
+second_title: .NET için Aspose.Words
+description: PhysicalFontInfo FilePath özelliğini keşfedin, projelerinizde kusursuz tasarım entegrasyonu ve gelişmiş tipografi için yazı tipi dosyalarınızı kolayca bulun.
 type: docs
-weight: 10
+weight: 20
 url: /tr/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
@@ -18,10 +18,10 @@ public string FilePath { get; }
 
 ## Örnekler
 
-Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
+Mevcut yazı tiplerinin nasıl listeleneceğini gösterir.
 
 ```csharp
-// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından mevcut tüm yazı tiplerini yazdırın.
+// Aspose.Words'ü yazı tiplerini özel bir klasörden kaynaklayacak şekilde yapılandırın ve ardından kullanılabilir tüm yazı tiplerini yazdırın.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

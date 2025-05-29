@@ -3,7 +3,7 @@ title: Glyph.Advance
 linktitle: Advance
 articleTitle: Advance
 second_title: Aspose.Words pour .NET
-description: Glyph Advance propriété. Largeur avancée indiquant lemplacement du glyphe suivant en C#.
+description: Découvrez les propriétés de Glyph Advance, optimisez la mise en page du texte avec des indicateurs de largeur précis pour un placement transparent des glyphes et une lisibilité améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.shaping/glyph/advance/

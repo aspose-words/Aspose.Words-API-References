@@ -3,14 +3,14 @@ title: MailMerge.TrimWhitespaces
 linktitle: TrimWhitespaces
 articleTitle: TrimWhitespaces
 second_title: Aspose.Words för .NET
-description: MailMerge TrimWhitespaces fast egendom. Hämtar eller ställer in ett värde som anger om efterföljande och inledande blanksteg beskärs från sammanslagningsvärden i C#.
+description: Optimera din dokumentkopplingsprocess med egenskapen TrimWhitespaces, vilket säkerställer rena data genom att ta bort inledande och efterföljande mellanslag för korrekta resultat.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-Hämtar eller ställer in ett värde som anger om efterföljande och inledande blanksteg beskärs från sammanslagningsvärden.
+Hämtar eller anger ett värde som anger om efterföljande och inledande blanksteg ska tas bort från värden för koppling av dokument.
 
 ```csharp
 public bool TrimWhitespaces { get; set; }
@@ -18,11 +18,11 @@ public bool TrimWhitespaces { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`Sann` .
+Standardvärdet är`sann` .
 
 ## Exempel
 
-Visar hur man trimmar blanksteg från värden för en datakälla medan en e-postsammanslagning körs.
+Visar hur man tar bort blanksteg från värden i en datakälla när man kör en dokumentkoppling.
 
 ```csharp
 Document doc = new Document();

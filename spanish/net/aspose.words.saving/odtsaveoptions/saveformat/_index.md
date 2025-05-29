@@ -3,9 +3,9 @@ title: OdtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words para .NET
-description: OdtSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Puede serOdt oOtt  en C#.
+description: Descubra cómo la propiedad SaveFormat de OdtSaveOptions le permite guardar fácilmente documentos en formatos Odt u Ott, garantizando compatibilidad y flexibilidad.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.saving/odtsaveoptions/saveformat/
 ---
 ## OdtSaveOptions.SaveFormat property
@@ -25,15 +25,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crea un nuevo OdtSaveOptions y pasa "SaveFormat.Odt",
- // o "SaveFormat.Ott" como formato para guardar el documento.
+// Cree un nuevo OdtSaveOptions y pase "SaveFormat.Odt",
+ // o "SaveFormat.Ott" como el formato en el que guardar el documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Si abrimos este documento con un editor apropiado,
-// nos solicitará la contraseña que especificamos en el objeto SaveOptions.
+// Nos solicitará la contraseña que especificamos en el objeto SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
@@ -41,7 +41,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Si deseamos abrir o editar este documento nuevamente usando Aspose.Words,
-// tendremos que proporcionar un objeto LoadOptions con la contraseña correcta al constructor de carga.
+// Tendremos que proporcionar un objeto LoadOptions con la contraseña correcta al constructor de carga.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

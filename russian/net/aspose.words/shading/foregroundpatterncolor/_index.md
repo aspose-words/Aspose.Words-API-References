@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternColor
 linktitle: ForegroundPatternColor
 articleTitle: ForegroundPatternColor
 second_title: Aspose.Words для .NET
-description: Shading ForegroundPatternColor свойство. Получает или задает цвет применяемый к переднему плануShading объект на С#.
+description: Откройте для себя свойство Shading ForegroundPatternColor, чтобы настроить цвет переднего плана объекта Shading для улучшения дизайна и визуальной привлекательности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Получает или задает цвет, применяемый к переднему плану[`Shading`](../) объект.
+Возвращает или задает цвет, применяемый к переднему плану[`Shading`](../) объект.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ## Примеры
 
-Показывает, как украшать текст границами и заливкой.
+Показывает, как оформить текст с помощью границ и заливки.
 
 ```csharp
 Document doc = new Document();

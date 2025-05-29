@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 linktitle: HtmlLoadOptions
 articleTitle: HtmlLoadOptions
 second_title: Aspose.Words für .NET
-description: HtmlLoadOptions constructeur. Initialisiert eine neue Instanz dieser Klasse mit Standardwerten in C#.
+description: Entdecken Sie den HtmlLoadOptions-Konstruktor, der für die mühelose Initialisierung von Instanzen mit Standardeinstellungen für eine nahtlose Webentwicklung entwickelt wurde.
 type: docs
 weight: 10
 url: /de/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -23,11 +23,11 @@ Zeigt, wie bedingte Kommentare beim Laden eines HTML-Dokuments unterstützt werd
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Wenn der Wert wahr ist, berücksichtigen wir den VML-Code beim Parsen des geladenen Dokuments.
+// Wenn der Wert wahr ist, berücksichtigen wir beim Parsen des geladenen Dokuments den VML-Code.
 loadOptions.SupportVml = supportVml;
 
-// Dieses Dokument enthält ein JPEG-Bild innerhalb von „<!--[if gte vml 1]>“ Stichworte,
-// und ein anderes PNG-Bild innerhalb von „<![if !vml]>“ Stichworte.
+// Dieses Dokument enthält ein JPEG-Bild innerhalb der Tags "<!--[if gte vml 1]>",
+// und ein anderes PNG-Bild innerhalb der Tags "<![if !vml]>".
 // Wenn wir das Flag „SupportVml“ auf „true“ setzen, lädt Aspose.Words das JPEG.
 // Wenn wir dieses Flag auf „false“ setzen, lädt Aspose.Words nur das PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
@@ -48,7 +48,7 @@ else
 
 ## HtmlLoadOptions(*string*) {#constructor_2}
 
-Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden.
+Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort zum Laden eines verschlüsselten Dokuments.
 
 ```csharp
 public HtmlLoadOptions(string password)
@@ -56,11 +56,11 @@ public HtmlLoadOptions(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`Null` oder leere Zeichenfolge. |
+| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`null` oder eine leere Zeichenfolge. |
 
 ## Beispiele
 
-Zeigt, wie man ein HTML-Dokument verschlüsselt und es dann mit einem Passwort öffnet.
+Zeigt, wie man ein HTML-Dokument verschlüsselt und es dann mit einem Kennwort öffnet.
 
 ```csharp
 // Erstellen und signieren Sie ein verschlüsseltes HTML-Dokument aus einer verschlüsselten .docx-Datei.
@@ -77,7 +77,7 @@ string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "HtmlLoadOptions.EncryptedHtml.html";
 DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
-// Um dieses Dokument zu laden und zu lesen, müssen wir es entschlüsseln
+// Um dieses Dokument zu laden und zu lesen, müssen wir seine Entschlüsselung bestehen
 // Passwort mithilfe eines HtmlLoadOptions-Objekts.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
 
@@ -98,7 +98,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
-Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind.
+Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte gesetzt sind.
 
 ```csharp
 public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -107,24 +107,24 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | loadFormat | LoadFormat | Das Format des zu ladenden Dokuments. |
-| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`Null` oder leere Zeichenfolge. |
-| baseUri | String | Die Zeichenfolge, die zum Auflösen relativer URIs in absolute verwendet wird. Kann sein`Null` oder leere Zeichenfolge. |
+| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`null` oder eine leere Zeichenfolge. |
+| baseUri | String | Die Zeichenfolge, die zum Auflösen relativer URIs in absolute verwendet wird. Kann sein`null` oder eine leere Zeichenfolge. |
 
 ## Beispiele
 
-Zeigt, wie man beim Öffnen eines HTML-Dokuments einen Basis-URI angibt.
+Zeigt, wie beim Öffnen eines HTML-Dokuments eine Basis-URI angegeben wird.
 
 ```csharp
-// Angenommen, wir möchten ein HTML-Dokument laden, das ein durch einen relativen URI verknüpftes Bild enthält
-// während sich das Bild an einem anderen Ort befindet. In diesem Fall müssen wir den relativen URI in einen absoluten auflösen.
- // Wir können einen Basis-URI mithilfe eines HtmlLoadOptions-Objekts bereitstellen.
+// Angenommen, wir möchten ein HTML-Dokument laden, das ein Bild enthält, das über eine relative URI verknüpft ist
+// während sich das Bild an einem anderen Ort befindet. In diesem Fall müssen wir die relative URI in eine absolute auflösen.
+    // Wir können eine Basis-URI mithilfe eines HtmlLoadOptions-Objekts bereitstellen.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Während das Bild in der Eingabe-HTML-Datei defekt war, half uns unser benutzerdefinierter Basis-URI, den Link zu reparieren.
+// Obwohl das Bild in der Eingabe-HTML beschädigt war, half uns unsere benutzerdefinierte Basis-URI, den Link zu reparieren.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 

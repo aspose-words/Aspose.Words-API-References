@@ -2,15 +2,15 @@
 title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Document Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belge Kabul yöntemimizle ziyaretçi yönetiminizi kolaylaştırın. Sorunsuz bir deneyim için güvenliği ve verimliliği artırın.
 type: docs
-weight: 510
+weight: 530
 url: /tr/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , ardından arar[`Accept`](../../node/accept/) document ve çağrıların tüm alt düğümleri için[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) sonunda.
+Çağrılar[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , sonra arar[`Accept`](../../node/accept/) document ve çağrıların tüm alt düğümleri için[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) sonunda.
 
 ## Örnekler
 
@@ -42,8 +42,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void DocStructureToText()
 }
 
 /// <summary>
-/// Bir düğümün alt düğüm ağacını geçer.
-/// Bu ağacın haritasını dize biçiminde oluşturur.
+/// Bir düğümün alt düğümlerinin ağacını dolaşır.
+/// Bu ağacın bir haritasını dize biçiminde oluşturur.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -92,11 +92,11 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Bölüm düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir Section düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // Doküman içerisindeki bölümümüzün indeksini alın.
+        // Belge içerisindeki bölümümüzün dizinini al.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -107,7 +107,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir Bölüm düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Section düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -118,7 +118,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Gövde düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir Body düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -183,7 +183,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// Belgede bir Alt Belge düğümüyle karşılaşıldığında çağrılır.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Belgede bir Alt Belge düğümüyle karşılaşıldığında çağrılır.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

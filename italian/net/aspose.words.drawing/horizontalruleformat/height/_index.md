@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words per .NET
-description: HorizontalRuleFormat Height proprietà. Ottiene o imposta laltezza del filetto orizzontale in C#.
+description: Regola facilmente l'altezza della tua riga orizzontale. Esplora la proprietà Altezza per personalizzare il design dei tuoi progetti web. Migliora il tuo layout oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-Ottiene o imposta l'altezza del filetto orizzontale.
+Ottiene o imposta l'altezza della regola orizzontale.
 
 ```csharp
 public double Height { get; set; }
@@ -20,7 +20,7 @@ public double Height { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ## Osservazioni
 
@@ -32,7 +32,7 @@ Il valore predefinito è 1,5.
 
 ## Esempi
 
-Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
+Mostra come inserire una forma di regola orizzontale e personalizzarne la formattazione.
 
 ```csharp
 Document doc = new Document();

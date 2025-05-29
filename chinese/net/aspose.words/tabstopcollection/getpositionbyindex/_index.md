@@ -2,15 +2,15 @@
 title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
-second_title: 用于 .NET 的 Aspose.Words
-description: TabStopCollection GetPositionByIndex 方法. 获取指定索引处制表位的位置以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TabStopCollection 的 GetPositionByIndex 方法，轻松按索引点查找制表位位置。轻松优化您的布局！
 type: docs
 weight: 100
 url: /zh/net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
 ## TabStopCollection.GetPositionByIndex method
 
-获取指定索引处制表位的位置（以磅为单位）。
+获取指定索引处的制表位的位置（以点为单位）。
 
 ```csharp
 public double GetPositionByIndex(int index)
@@ -26,7 +26,7 @@ public double GetPositionByIndex(int index)
 
 ## 例子
 
-演示如何查找选项卡、按其索引停止并验证其位置。
+展示如何找到一个标签，按其索引停止并验证其位置。
 
 ```csharp
 Document doc = new Document();

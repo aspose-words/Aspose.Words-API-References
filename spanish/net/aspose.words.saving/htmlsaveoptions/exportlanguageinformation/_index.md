@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportLanguageInformation
 linktitle: ExportLanguageInformation
 articleTitle: ExportLanguageInformation
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportLanguageInformation propiedad. Especifica si la información del idioma se exporta a HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
+description: Controle la exportación de idiomas en HTML, MHTML o EPUB con HtmlSaveOptions. Mejore la accesibilidad de los documentos y llegue a un público más amplio sin esfuerzo.
 type: docs
 weight: 180
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -18,7 +18,7 @@ public bool ExportLanguageInformation { get; set; }
 
 ## Observaciones
 
-Cuando esta propiedad se establece en`verdadero` Salidas de Aspose.Words**idioma** Atributo HTML en los elementos document que especifican el idioma. Esto puede ser necesario para preservar la semántica relacionada con el lenguaje.
+Cuando esta propiedad se establece en`verdadero` Salidas de Aspose.Words**idioma**Atributo HTML en los elementos document que especifican el idioma. Esto puede ser necesario para preservar la semántica relacionada con el idioma.
 
 ## Ejemplos
 
@@ -39,11 +39,11 @@ builder.Font.LocaleId = new CultureInfo("ru-RU").LCID;
 builder.Write("Привет, мир!");
 
 // Al guardar el documento en HTML, podemos pasar un objeto SaveOptions
-// para preservar o descartar la configuración regional de cada texto formateado.
-// Si configuramos el indicador "ExportLanguageInformation" en "verdadero",
-// el documento HTML de salida contendrá las configuraciones regionales en los atributos "lang" de <span> etiquetas.
-// Si configuramos el indicador "ExportLanguageInformation" en "falso",
-// el texto del documento HTML de salida no contendrá ninguna información local.
+// para conservar o descartar la configuración regional de cada texto formateado.
+// Si establecemos el indicador "ExportLanguageInformation" en "verdadero",
+// el documento HTML de salida contendrá las configuraciones regionales en los atributos "lang" de las etiquetas <span>.
+// Si establecemos el indicador "ExportLanguageInformation" en "falso",
+// el texto en el documento HTML de salida no contendrá ninguna información regional.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     ExportLanguageInformation = exportLanguageInformation,

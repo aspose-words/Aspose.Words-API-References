@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words för .NET
-description: SvgSaveOptions ResourcesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett SVGdokument. Standard ärnull  i C#.
+description: Upptäck egenskapen SvgSaveOptions ResourcesFolderAlias för att anpassa bild-URI:er i SVG-dokument. Förbättra din SVG-utdata med flexibel mappnamngivning!
 type: docs
-weight: 60
+weight: 90
 url: /sv/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i ett SVG-dokument. Standard är`null` .
+Anger namnet på mappen som används för att konstruera bild-URI:er som skrivs in i ett SVG-dokument. Standard är`null` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -18,11 +18,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ## Anmärkningar
 
-När du sparar en[`Document`](../../../aspose.words/document/) i SVG-format måste Aspose.Words spara all bilder som är inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
+När du sparar en[`Document`](../../../aspose.words/document/) I SVG-format behöver Aspose.Words spara alla bilder som är inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` låter dig ange hur bildens URI:er ska konstrueras.
 
 ## Exempel
 
-Visar hur man manipulerar och skriver ut URI:erna för länkade resurser som skapas när ett dokument konverteras till .svg.
+Visar hur man manipulerar och skriver ut URI:er för länkade resurser som skapats vid konvertering av ett dokument till .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -46,7 +46,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Räknar och skriver ut URI:er för resurser som finns i när de konverteras till .svg.
+/// Räknar och skriver ut URI:er för resurser som finns i formatet allt eftersom de konverteras till .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

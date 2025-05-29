@@ -3,7 +3,7 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words pour .NET
-description: HyphenationOptions AutoHyphenation propriété. Obtient ou définit la valeur déterminant si la césure automatique est activée pour le document. La valeur par défaut de cette propriété estFAUX  en C#.
+description: Contrôlez la césure automatique avec la propriété HyphenationOptions. Améliorez facilement la lisibilité de votre document en activant ou désactivant cette fonctionnalité.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/hyphenationoptions/autohyphenation/

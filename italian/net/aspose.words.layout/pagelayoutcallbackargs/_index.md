@@ -3,16 +3,16 @@ title: PageLayoutCallbackArgs Class
 linktitle: PageLayoutCallbackArgs
 articleTitle: PageLayoutCallbackArgs
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Layout.PageLayoutCallbackArgs classe. Un argomento passatoNotify in C#.
+description: Scopri la classe Aspose.Words.Layout.PageLayoutCallbackArgs per una gestione efficiente del layout dei documenti. Migliora il tuo flusso di lavoro con potenti funzionalità di notifica.
 type: docs
-weight: 3360
+weight: 3810
 url: /it/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
-Un argomento passato[`Notify`](../ipagelayoutcallback/notify/)
+Un argomento passato in[`Notify`](../ipagelayoutcallback/notify/)
 
-Per saperne di più, visita il[Conversione nel formato a pagina fissa](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) articolo di documentazione.
+Per saperne di più, visita il[Conversione in formato a pagina fissa](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) articolo di documentazione.
 
 ```csharp
 public class PageLayoutCallbackArgs
@@ -24,7 +24,70 @@ public class PageLayoutCallbackArgs
 | --- | --- |
 | [Document](../../aspose.words.layout/pagelayoutcallbackargs/document/) { get; } | Ottiene il documento. |
 | [Event](../../aspose.words.layout/pagelayoutcallbackargs/event/) { get; } | Ottiene l'evento. |
-| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | Ottiene l'indice su base 0 della pagina nel documento a cui si riferisce questo evento. Restituisce un valore negativo se non è presente una pagina associata o se la pagina è stata rimossa durante la ridisposizione. |
+| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | Ottiene l'indice basato su 0 della pagina nel documento a cui si riferisce questo evento. Restituisce un valore negativo se non è presente alcuna pagina associata o se la pagina è stata rimossa durante il riflusso. |
+
+## Esempi
+
+Mostra come tenere traccia delle modifiche al layout con un callback di layout.
+
+```csharp
+public void PageLayoutCallback()
+{
+    Document doc = new Document();
+    doc.BuiltInDocumentProperties.Title = "My Document";
+
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.Writeln("Hello world!");
+
+    doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
+    doc.UpdatePageLayout();
+
+    doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
+}
+
+/// <summary>
+/// Ci avvisa quando salviamo il documento in un formato di pagina fisso
+/// e visualizza una pagina su cui eseguiamo un reflow di pagina in un'immagine nel file system locale.
+/// </summary>
+private class RenderPageLayoutCallback : IPageLayoutCallback
+{
+    public void Notify(PageLayoutCallbackArgs a)
+    {
+        switch (a.Event)
+        {
+            case PageLayoutEvent.PartReflowFinished:
+                NotifyPartFinished(a);
+                break;
+            case PageLayoutEvent.ConversionFinished:
+                NotifyConversionFinished(a);
+                break;
+        }
+    }
+
+    private void NotifyPartFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Part at page {a.PageIndex + 1} reflow.");
+        RenderPage(a, a.PageIndex);
+    }
+
+    private void NotifyConversionFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Document \"{a.Document.BuiltInDocumentProperties.Title}\" converted to page format.");
+    }
+
+    private void RenderPage(PageLayoutCallbackArgs a, int pageIndex)
+    {
+        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png) { PageSet = new PageSet(pageIndex) };
+
+        using (FileStream stream =
+            new FileStream(ArtifactsDir + $@"PageLayoutCallback.page-{pageIndex + 1} {++mNum}.png",
+                FileMode.Create))
+            a.Document.Save(stream, saveOptions);
+    }
+
+    private int mNum;
+}
+```
 
 ### Guarda anche
 

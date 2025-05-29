@@ -3,9 +3,9 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words per .NET
-description: Document Sections proprietà. Restituisce una raccolta che rappresenta tutte le sezioni del documento in C#.
+description: Esplora la proprietà Sezioni documento per accedere a una raccolta completa di tutte le sezioni del documento, migliorando l'organizzazione e la navigazione dei contenuti.
 type: docs
-weight: 370
+weight: 390
 url: /it/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -35,7 +35,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Aggiunge una copia di quella che ora è la prima sezione alla fine del documento.
+// Aggiungere una copia di quella che ora è la prima sezione alla fine del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -43,14 +43,14 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-Mostra come specificare il modo in cui una nuova sezione si separa dalla precedente.
+Mostra come specificare in che modo una nuova sezione si separa dalla precedente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// I tipi di interruzione di sezione determinano il modo in cui una nuova sezione si separa dalla sezione precedente.
+// I tipi di interruzione di sezione determinano il modo in cui una nuova sezione si separa da quella precedente.
 // Di seguito sono riportati cinque tipi di interruzioni di sezione.
 // 1 - Inizia la sezione successiva su una nuova pagina:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -76,7 +76,7 @@ builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Inizia la sezione successiva su una nuova colonna:
+// 5 - Avvia la sezione successiva su una nuova colonna:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

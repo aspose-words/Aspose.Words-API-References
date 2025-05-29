@@ -2,15 +2,15 @@
 title: Comment.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Comment Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi katılımını artırmak ve sitenizde anlamlı etkileşimler yaratmak için Yorum Kabul Etme yöntemini keşfedin. Bugün çevrimiçi topluluğunuzu güçlendirin!
 type: docs
-weight: 110
+weight: 130
 url: /tr/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , ardından arar[`Accept`](../../node/accept/) yorumun ve çağrıların all alt düğümleri için[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) sonunda.
+Çağrılar[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , sonra arar[`Accept`](../../node/accept/)yorum ve çağrıların all alt düğümleri için[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) sonunda.
 
 ## Örnekler
 
-Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
+Bir belge ziyaretçisi kullanarak tüm yorumların içeriklerinin ve yorum aralıklarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -50,7 +50,7 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Belgeye metin ekleyin, onu bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
+    // Belgeye metin ekleyin, metni bir yorum aralığında bükün ve ardından yorumunuzu ekleyin.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
@@ -65,26 +65,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Her üst düzey yorumu yineler ve yorum aralığını, içeriğini ve yanıtlarını yazdırır.
+/// Her üst düzey yorum üzerinde yineleme yapar ve yorum aralığını, içeriklerini ve yanıtlarını yazdırır.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Tüm üst düzey yorumları yineleyin. Yanıt türü yorumların aksine, üst düzey yorumların kökeni yoktur.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Tüm üst düzey yorumlar üzerinde yineleme yap. Cevap türü yorumların aksine, üst düzey yorumların bir atası yoktur.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // İlk olarak yorum aralığının başlangıcını ziyaret edin.
+        // Öncelikle yorum aralığının başlangıcını ziyaret edin.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ardından yorumu ve alabileceği yanıtları ziyaret edin.
+        // Daha sonra yorumu ve varsa yorumdaki yanıtları ziyaret edin.
         comment.Accept(commentVisitor);
+        // Sadece yorumun başlangıcını ziyaret et.
+        comment.AcceptStart(commentVisitor);
+        // Sadece yorumun sonunu ziyaret edin.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Son olarak yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
+        // Son olarak yorum aralığının sonuna gidin ve ardından ziyaretçinin metin içeriğini yazdırın.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -93,7 +97,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriğini yazdırır.
+/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriklerini yazdırır.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -104,7 +108,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -122,7 +126,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -134,7 +138,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -159,7 +163,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorum düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Yorum düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -171,7 +175,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

@@ -2,15 +2,15 @@
 title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
-second_title: Aspose.Words for .NET
-description: IFieldUserPromptRespondent Respond yöntem. Uygulandığında istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidirhükümsüz kullanıcının istem ye yanıt vermediğini belirtmek için yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanıcı yanıtlarını etkili bir şekilde yakalamak için IFieldUserPromptRespondent Respond yöntemini keşfedin. İptalleri sorunsuz bir şekilde nasıl yöneteceğinizi öğrenin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Uygulandığında, istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir`hükümsüz` kullanıcının istem 'ye yanıt vermediğini belirtmek için (yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır).
+Uygulandığında, kullanıcıdan istemde bulunulduğunda bir yanıt döndürür. Uygulamanız şunu döndürmelidir:`hükümsüz` kullanıcının istem 'ye yanıt vermediğini belirtmek için (yani kullanıcı istem penceresinde İptal düğmesine basmıştır).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,12 +18,12 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| promptText | String | Bilgi istemi metni (yani bilgi istemi penceresinin başlığı). |
-| defaultResponse | String | Varsayılan kullanıcı yanıtı (yani bilgi istemi penceresinde yer alan başlangıç değeri). |
+| promptText | String | İstem metni (yani istem penceresinin başlığı). |
+| defaultResponse | String | Varsayılan kullanıcı yanıtı (yani istem penceresinde bulunan başlangıç değeri). |
 
 ### Geri dönüş değeri
 
-Kullanıcı yanıtı (yani bilgi istemi penceresinde yer alan onaylanmış değer).
+Kullanıcı yanıtı (yani istem penceresinde bulunan onaylanmış değer).
 
 ## Örnekler
 
@@ -35,14 +35,14 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // ASK alanımıza verilecek yanıtın yerleştirileceği alanı yerleştirin.
+    // ASK alanımıza verilecek cevabın yer alacağı bir alan yerleştiriyoruz.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // ASK alanını ekleyin ve REF alanımıza yer işareti adıyla referans verecek şekilde özelliklerini düzenleyin.
+    // ASK alanını ekleyin ve özelliklerini düzenleyerek yer imi adına göre REF alanımıza başvuralım.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -54,7 +54,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK alanları, adres-mektup birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
+    // ASK alanları, bir posta birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,8 +63,8 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Özel bir istem yanıtlayıcı ile ASK alanlarımızdaki varsayılan yanıtı değiştirebilir veya geçersiz kılabiliriz,
-    // adres-mektup birleştirme sırasında gerçekleşecek.
+    // ASK alanlarımızdaki varsayılan yanıtı özel bir istem yanıtlayıcısıyla değiştirebilir veya geçersiz kılabiliriz.
+    // posta birleştirme sırasında gerçekleşecektir.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -73,7 +73,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme sırasında ASK alanının varsayılan yanıtının başına metin ekler.
+/// Bir posta birleştirme sırasında ASK alanının varsayılan yanıtına metin ekler.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

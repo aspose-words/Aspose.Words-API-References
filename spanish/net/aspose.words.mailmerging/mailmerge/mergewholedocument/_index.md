@@ -3,14 +3,14 @@ title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
 second_title: Aspose.Words para .NET
-description: MailMerge MergeWholeDocument propiedad. Obtiene o establece un valor que indica si los campos de todo el documento se actualizan durante la ejecución de una combinación de correspondencia con regiones en C#.
+description: Descubra cómo la propiedad MailMerge MergeWholeDocument actualiza todos los campos durante una combinación de correspondencia basada en regiones, mejorando la eficiencia y la precisión de sus documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Obtiene o establece un valor que indica si los campos de todo el documento se actualizan durante la ejecución de una combinación de correspondencia con regiones.
+Obtiene o establece un valor que indica si los campos de todo el documento se actualizan mientras se ejecuta una combinación de correspondencia con regiones.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -22,7 +22,7 @@ El valor predeterminado es`FALSO` .
 
 ## Ejemplos
 
-Muestra la relación entre la combinación de correspondencia con las regiones y la actualización de campos.
+Muestra la relación entre las fusiones de correspondencia con regiones y la actualización de campos.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -30,15 +30,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // Si configuramos el indicador "MergeWholeDocument" en "verdadero",
-    // la combinación de correspondencia con regiones actualizará todos los campos del documento.
-    // Si configuramos el indicador "MergeWholeDocument" en "falso", la combinación de correspondencia solo actualizará los campos
+    // Si establecemos el indicador "MergeWholeDocument" en "verdadero",
+    // La combinación de correspondencia con regiones actualizará todos los campos del documento.
+    // Si establecemos el indicador "MergeWholeDocument" en "falso", la combinación de correspondencia solo actualizará los campos
     // dentro de la región de combinación de correspondencia cuyo nombre coincide con el nombre de la tabla de origen de datos.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     // La combinación de correspondencia solo actualizará el campo QUOTE fuera de la región de combinación de correspondencia
-    // si configuramos el indicador "MergeWholeDocument" en "true".
+    // si establecemos el indicador "MergeWholeDocument" en "verdadero".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -47,7 +47,7 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Crea un documento con una región de combinación de correspondencia que pertenece a una fuente de datos denominada "MyTable".
+/// Cree un documento con una región de combinación de correspondencia que pertenezca a una fuente de datos denominada "MiTabla".
 /// Inserta un campo QUOTE dentro de esta región y uno más fuera de ella.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
@@ -72,7 +72,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Crea una tabla de datos que se utilizará en una combinación de correspondencia.
+/// Cree una tabla de datos que se utilizará en una combinación de correspondencia.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

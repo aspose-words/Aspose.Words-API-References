@@ -3,9 +3,9 @@ title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: ChartYValueCollection Item свойство. Получает или задает значение Y по указанному индексу на С#.
+description: Откройте для себя свойство ChartYValueCollection Item, чтобы легко получать доступ к значениям Y или изменять их по любому индексу, расширяя возможности визуализации данных.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer

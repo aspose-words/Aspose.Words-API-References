@@ -3,16 +3,16 @@ title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
 second_title: Aspose.Words för .NET
-description: OleFormat IconCaption fast egendom. Får ikontext för OLEobjekt i C#.
+description: Upptäck egenskapen OleFormat IconCaption för att enkelt hämta och anpassa bildtexter till OLE-objektikoner för förbättrad dokumentpresentation.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/oleformat/iconcaption/
 ---
 ## OleFormat.IconCaption property
 
-Får ikontext för OLE-objekt.
+Hämtar ikontext för OLE-objekt.
 
-Om OLE-objekt inte är inbäddat eftersom ikon eller bildtext inte kunde hämtas returnerar tom sträng.
+Om OLE-objektet inte har någon ikon eller om en bildtext inte kan hämtas, returneras en tom -sträng.
 
 ```csharp
 public string IconCaption { get; }
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

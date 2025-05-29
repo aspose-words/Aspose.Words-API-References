@@ -3,14 +3,14 @@ title: FieldCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words per .NET
-description: FieldCollection Clear metodo. Rimuove tutti i campi di questa raccolta dal documento e da questa raccolta stessa in C#.
+description: Cancella senza sforzo tutti i campi dalla tua FieldCollection con il nostro metodo Clear. Semplifica la gestione dei documenti e migliora l'efficienza oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldcollection/clear/
 ---
 ## FieldCollection.Clear method
 
-Rimuove tutti i campi di questa raccolta dal documento e da questa raccolta stessa.
+Rimuove tutti i campi di questa raccolta dal documento e dalla raccolta stessa.
 
 ```csharp
 public void Clear()
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Esempi
 
-Mostra come rimuovere i campi da una raccolta di campi.
+Mostra come rimuovere campi da una raccolta di campi.
 
 ```csharp
 Document doc = new Document();
@@ -36,21 +36,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo per rimuoversi:
+// Di seguito sono riportati quattro modi per rimuovere campi da una raccolta di campi.
+// 1 - Ottenere che un campo si rimuova da solo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Ottieni la raccolta per rimuovere un campo che passiamo al suo metodo di rimozione:
+// 2 - Ottenere dalla raccolta la rimozione di un campo che passiamo al suo metodo di rimozione:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Rimuove un campo da una raccolta in un indice:
+// 3 - Rimuovi un campo da una raccolta in corrispondenza di un indice:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
+// 4 - Rimuovi tutti i campi dalla raccolta in una volta sola:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

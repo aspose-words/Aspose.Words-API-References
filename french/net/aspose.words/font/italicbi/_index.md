@@ -3,14 +3,14 @@ title: Font.ItalicBi
 linktitle: ItalicBi
 articleTitle: ItalicBi
 second_title: Aspose.Words pour .NET
-description: Font ItalicBi propriété. True si le texte de droite à gauche est formaté en italique en C#.
+description: Découvrez la propriété ItalicBi pour les polices, améliorez la mise en forme du texte de droite à gauche avec des styles italiques pour une meilleure lisibilité et un attrait visuel amélioré.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/font/italicbi/
 ---
 ## Font.ItalicBi property
 
-True si le texte de droite à gauche est formaté en italique.
+Vrai si le texte de droite à gauche est formaté en italique.
 
 ```csharp
 public bool ItalicBi { get; set; }
@@ -38,13 +38,13 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Nous pouvons utiliser le drapeau Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
-// avec le générateur de documents, c'est de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur défini sur true,
+// Nous pouvons utiliser l'indicateur Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
+// avec le générateur de documents, l'écriture s'effectue de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur à « vrai »,
 // il sera formaté en utilisant l'ensemble de paramètres de police de droite à gauche.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Définissez l'indicateur sur false, puis ajoutez du texte de gauche à droite.
+// Définissez l'indicateur sur faux, puis ajoutez du texte de gauche à droite.
 // Le générateur de documents les formatera en utilisant l'ensemble de paramètres de police de gauche à droite.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");

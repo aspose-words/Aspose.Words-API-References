@@ -2,8 +2,8 @@
 title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
-second_title: Aspose.Words for .NET
-description: LanguagePreferences DefaultEditingLanguage mülk. Varsayılan düzenleme dilini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Düzenleme deneyiminizi LanguagePreferences DefaultEditingLanguage özelliğiyle yönetin. Varsayılan düzenleme dilinizi kolayca ayarlayın ve özelleştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
@@ -20,7 +20,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ## Örnekler
 
-Bir belgeyi yüklerken varsayılan dilin nasıl ayarlanacağını gösterir.
+Bir belge yüklenirken varsayılan dilin nasıl ayarlanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

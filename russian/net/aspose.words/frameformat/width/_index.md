@@ -3,14 +3,14 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words для .NET
-description: FrameFormat Width свойство. Получает ширину указанного кадра в пунктах на С#.
+description: Откройте для себя свойство FrameFormat Width, которое позволяет легко получить ширину рамки в пунктах, повышая точность и эффективность вашего дизайна.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/frameformat/width/
 ---
 ## FrameFormat.Width property
 
-Получает ширину указанного кадра в пунктах.
+Получает ширину указанного кадра в точках.
 
 ```csharp
 public double Width { get; }

@@ -3,16 +3,16 @@ title: SdtListItemCollection Class
 linktitle: SdtListItemCollection
 articleTitle: SdtListItemCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Markup.SdtListItemCollection فصل. يوفر الوصول إلىSdtListItem عناصر علامة المستند المنظمة في C#.
+description: استكشف فئة Aspose.Words.Markup.SdtListItemCollection للوصول بسلاسة إلى عناصر SdtListItem، مما يعزز إدارة المستندات المنظمة بسهولة.
 type: docs
-weight: 4030
+weight: 4720
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-يوفر الوصول إلى[`SdtListItem`](../sdtlistitem/) عناصر علامة المستند المنظمة.
+يوفر الوصول إلى[`SdtListItem`](../sdtlistitem/) عناصر علامة المستند المنظم.
 
-لمعرفة المزيد، قم بزيارة[علامات المستندات المنظمة أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[علامات المستند المنظم أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -22,50 +22,50 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | إرجاع أ[`SdtListItem`](../sdtlistitem/) كائن بالنظر إلى فهرسه الصفري في المجموعة. |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | يحدد القيمة المحددة حاليًا في هذه القائمة. القيمة الخالية مسموحة، مما يعني أنه لا يوجد إدخال محدد حاليًا مرتبط بمجموعة عناصر القائمة هذه. |
+| [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | يحصل على عدد العناصر في المجموعة. |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | يعيد[`SdtListItem`](../sdtlistitem/) الكائن المعطى له فهرسه الذي يعتمد على الصفر في المجموعة. |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | يحدد القيمة المحددة حاليًا في هذه القائمة. القيمة الفارغة مسموح بها، مما يعني أنه لا يوجد إدخال محدد حاليًا مرتبط بمجموعة عناصر القائمة هذه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | إضافة عنصر إلى هذه المجموعة. |
-| [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | مسح كافة العناصر من هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | إزالة عنصر قائمة في الفهرس المحدد. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | يضيف عنصرًا إلى هذه المجموعة. |
+| [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | مسح جميع العناصر من هذه المجموعة. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | يزيل عنصر القائمة عند الفهرس المحدد. |
 
 ## أمثلة
 
-يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
+يوضح كيفية العمل مع علامات المستند المنظمة في القائمة المنسدلة.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// علامة المستند المنظمة للقائمة المنسدلة هي نموذج يسمح للمستخدم بذلك
-// حدد خيارًا من القائمة بالنقر بزر الماوس الأيسر وفتح النموذج في Microsoft Word.
-// تحتوي الخاصية "ListItems" على كافة عناصر القائمة، وكل عنصر في القائمة هو "SdtListItem".
+// علامة المستند المنظمة القائمة المنسدلة هي نموذج يسمح للمستخدم بـ
+// حدد خيارًا من القائمة عن طريق النقر بزر الماوس الأيسر وفتح النموذج في Microsoft Word.
+// تحتوي خاصية "ListItems" على جميع عناصر القائمة، وكل عنصر قائمة هو "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// أضف 3 عناصر أخرى إلى القائمة. قم بتهيئة هذه العناصر باستخدام مُنشئ مختلف للعنصر الأول
-// لعرض سلاسل مختلفة عن قيمها.
+// أضف ثلاثة عناصر إضافية إلى القائمة. هجّر هذه العناصر باستخدام مُنشئ مختلف عن العنصر الأول.
+// لعرض السلاسل التي تختلف عن قيمها.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// تعرض القائمة المنسدلة العنصر الأول. قم بتعيين عنصر قائمة مختلف إلى "SelectedValue" لعرضه.
+// تعرض القائمة المنسدلة العنصر الأول. عيّن عنصرًا آخر إلى "القيمة المحددة" لعرضه.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// تعداد المجموعة وطباعة كل عنصر.
+// قم بإحصاء المجموعة وطباعة كل عنصر.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -73,17 +73,17 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
- // إزالة عنصر القائمة الأخير.
+ // قم بإزالة العنصر الأخير من القائمة.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// بما أن عنصر التحكم المنسدل الخاص بنا تم ضبطه لعرض العنصر المحذوف افتراضيًا، فامنحه عنصرًا موجودًا لعرضه.
+// بما أن عنصر التحكم في القائمة المنسدلة لدينا مضبوط لعرض العنصر الذي تمت إزالته بشكل افتراضي، فامنحه عنصرًا موجودًا لعرضه.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// استخدم طريقة "مسح" لإفراغ مجموعة العناصر المنسدلة بالكامل مرة واحدة.
+//استخدم طريقة "المسح" لتفريغ مجموعة العناصر المنسدلة بالكامل مرة واحدة.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

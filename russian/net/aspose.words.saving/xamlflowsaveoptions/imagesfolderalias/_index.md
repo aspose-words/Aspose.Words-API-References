@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words для .NET
-description: XamlFlowSaveOptions ImagesFolderAlias свойство. Указывает имя папки используемой для создания URI изображений записанных в документ XAML. По умолчанию  пустая строка на С#.
+description: Откройте для себя свойство XamlFlowSaveOptions' ImagesFolderAlias для настройки путей URI изображений в документах XAML. Улучшайте свои проекты с легкостью!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -18,17 +18,17 @@ public string ImagesFolderAlias { get; set; }
 
 ## Примечания
 
-Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате XAML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.[`ImagesFolder`](../imagesfolder/) позволяет указать, где будут сохраняться изображения и`ImagesFolderAlias` позволяет указать, как будут создаваться URI изображения.
+Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате XAML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.[`ImagesFolder`](../imagesfolder/) позволяет указать, где будут сохранены изображения и`ImagesFolderAlias` позволяет указать, как будут формироваться URI изображений.
 
-Если`ImagesFolderAlias` не пустая строка, то URI изображения, записанный в XAML, будет иметь видImagesFolderAlias + &lt;имя файла изображения&gt;.
+Если`ImagesFolderAlias` не пустая строка, то URI изображенияwritten в XAML будетImagesFolderAlias + &lt;имя файла изображения&gt;.
 
-Если`ImagesFolderAlias`является пустой строкой, то URI изображения, записанный в XAML, будет иметь видImagesFolder + &lt;имя файла изображения&gt;.
+Если`ImagesFolderAlias` пустая строка, то URI изображения, записанный как в XAML, будетImagesFolder + &lt;имя файла изображения&gt;.
 
-Если`ImagesFolderAlias` установлено значение '.' (точка), то имя файла изображения будет записано в XAML без пути независимо от других параметров.
+Если`ImagesFolderAlias` установлено значение «.» (точка), то имя файла изображения будет записано в XAML без пути независимо от других параметров.
 
 ## Примеры
 
-Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
+Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в формат .xaml с потоковой формой.
 
 ```csharp
 public void ImageFolder()
@@ -37,23 +37,23 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Создаем объект «XamlFlowSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ сохранения документа в формате сохранения XAML.
+    // Создаем объект "XamlFlowSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ сохранения документа в формате XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Используйте свойство «ImagesFolder», чтобы назначить папку в локальной файловой системе, в которую
+    // Используйте свойство "ImagesFolder", чтобы назначить папку в локальной файловой системе, в которую
     // Aspose.Words сохранит все связанные изображения документа.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Используйте свойство «ImagesFolderAlias» для использования этой папки
-    // при создании URI изображений вместо имени папки изображений.
+    // Используйте свойство "ImagesFolderAlias" для использования этой папки
+    // при построении URI изображений вместо имени папки с изображениями.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // Папка, указанная в «ImagesFolderAlias», должна будет содержать ресурсы вместо «ImagesFolder».
+    // Папка, указанная в «ImagesFolderAlias», должна содержать ресурсы вместо «ImagesFolder».
     // Мы должны убедиться, что папка существует, прежде чем потоки обратного вызова смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -64,7 +64,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковую форму .xaml.
+/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковый формат .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -78,8 +78,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Если бы мы указали псевдоним папки с изображениями, нам также потребовалось бы
-        // чтобы перенаправить каждый поток, чтобы поместить его изображение в папку псевдонимов.
+        // Если бы мы указали псевдоним папки с изображениями, нам также понадобилось бы
+        // для перенаправления каждого потока для помещения его изображения в папку псевдонима.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

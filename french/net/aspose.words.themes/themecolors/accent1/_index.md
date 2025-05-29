@@ -3,14 +3,14 @@ title: ThemeColors.Accent1
 linktitle: Accent1
 articleTitle: Accent1
 second_title: Aspose.Words pour .NET
-description: ThemeColors Accent1 propriété. Spécifie la couleur Accent 1 en C#.
+description: Découvrez la propriété ThemeColors Accent1 pour personnaliser votre design avec les couleurs vibrantes Accent 1. Améliorez l'attrait visuel de votre projet sans effort !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.themes/themecolors/accent1/
 ---
 ## ThemeColors.Accent1 property
 
-Spécifie la couleur Accent 1.
+Spécifie l'accent de couleur 1.
 
 ```csharp
 public Color Accent1 { get; set; }
@@ -23,10 +23,10 @@ Montre comment définir des couleurs et des polices personnalisées pour les th�
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// L'objet "Theme" nous donne accès au thème du document, source de polices et de couleurs par défaut.
+// L'objet "Thème" nous donne accès au thème du document, une source de polices et de couleurs par défaut.
 Theme theme = doc.Theme;
 
-// Certains styles, tels que "Titre 1" et "Sous-titre", hériteront de ces polices.
+// Certains styles, tels que « Titre 1 » et « Sous-titre », hériteront de ces polices.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
@@ -36,11 +36,11 @@ Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// La propriété "Couleurs" contient la palette de couleurs de Microsoft Word,
+// La propriété « Couleurs » contient la palette de couleurs de Microsoft Word,
 // qui apparaît lors du changement d'ombrage ou de couleur de police.
-// Applique des couleurs personnalisées à la palette de couleurs afin d'y accéder facilement dans Microsoft Word
-// quand on change par exemple la couleur de la police via "Accueil" -> "Police" -> "Couleur de la police",
-// ou insérez une forme, puis définissez-lui une couleur via "Format de forme" -> "Styles de forme".
+// Appliquez des couleurs personnalisées à la palette de couleurs afin que nous puissions y accéder facilement dans Microsoft Word
+// lorsque nous changeons, par exemple, la couleur de la police via "Accueil" -> "Police" -> "Couleur de la police",
+// ou insérez une forme, puis définissez une couleur pour celle-ci via « Format de forme » -> « Styles de forme ».
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -54,7 +54,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Applique des couleurs personnalisées aux hyperliens dans leurs états cliqués et non cliqués.
+// Appliquer des couleurs personnalisées aux hyperliens dans leurs états cliqués et non cliqués.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

@@ -3,14 +3,14 @@ title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words für .NET
-description: FieldAsk DefaultResponse eigendom. Ruft die Standardbenutzerantwort ab oder legt diese fest Anfangswert im Eingabeaufforderungsfenster enthalten in C#.
+description: Entdecken Sie die FieldAsk DefaultResponse-Eigenschaft. Verwalten Sie erste Benutzerantworten einfach in Eingabeaufforderungsfenstern, um die Benutzerinteraktion zu verbessern und Arbeitsabläufe zu optimieren.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldask/defaultresponse/
 ---
 ## FieldAsk.DefaultResponse property
 
-Ruft die Standardbenutzerantwort ab oder legt diese fest (Anfangswert im Eingabeaufforderungsfenster enthalten).
+Ruft die Standardbenutzerantwort ab oder legt sie fest (Anfangswert im Eingabeaufforderungsfenster).
 
 ```csharp
 public string DefaultResponse { get; set; }
@@ -33,7 +33,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um über den Lesezeichennamen auf unser REF-Feld zu verweisen.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -55,7 +55,7 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
-    // was während eines Seriendrucks auftreten wird.
+    // was während eines Serienbriefs geschieht.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt während einer Serienbrieffunktion der Standardantwort eines ASK-Felds Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

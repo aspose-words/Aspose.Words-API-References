@@ -3,14 +3,14 @@ title: HorizontalRuleFormat Class
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat فصل. يمثل تنسيق القاعدة الأفقي في C#.
+description: اكتشف فئة Aspose.Words.Drawing.HorizontalRuleFormat لتنسيق الخطوط الأفقية المتقدمة. حسّن تصميم مستندك بسهولة!
 type: docs
-weight: 1050
+weight: 1380
 url: /ar/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-يمثل تنسيق القاعدة الأفقي.
+يمثل تنسيق القاعدة الأفقية.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الأشكال](https://docs.aspose.com/words/net/working-with-shapes/) مقالة توثيقية.
 
@@ -22,15 +22,15 @@ public class HorizontalRuleFormat
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | الحصول على أو تعيين محاذاة القاعدة الأفقية. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية. |
-| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | الحصول على أو تحديد ارتفاع القاعدة الأفقية. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية. إذا`حقيقي`، ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب. |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة. |
+| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | يحصل على محاذاة القاعدة الأفقية أو يعينها. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | يحصل على لون الفرشاة التي تملأ الخط الأفقي أو يعينه. |
+| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | يحصل على ارتفاع المسطرة الأفقية أو يعينه. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للمسطرة الأفقية. إذا`حقيقي` ، ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | يحصل على طول القاعدة الأفقية المحددة أو يعينه معبرًا عنها كنسبة مئوية من عرض النافذة. |
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

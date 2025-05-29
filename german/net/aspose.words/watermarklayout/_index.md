@@ -3,9 +3,9 @@ title: WatermarkLayout Enum
 linktitle: WatermarkLayout
 articleTitle: WatermarkLayout
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WatermarkLayout opsomming. Definiert das Layout des Wasserzeichens relativ zur Wasserzeichenmitte in C#.
+description: Entdecken Sie die Aspose.Words.WatermarkLayout-Aufzählung für optimale Wasserzeichenpositionierung. Verbessern Sie Ihr Dokumentdesign mit präziser Layoutsteuerung und -anpassung.
 type: docs
-weight: 6680
+weight: 7530
 url: /de/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -21,20 +21,20 @@ public enum WatermarkLayout
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Horizontal | `0` | Horizontales Wasserzeichenlayout. Entspricht 0 Grad Drehung. |
-| Diagonal | `315` | Diagonales Wasserzeichen-Layout. Entspricht 315 Grad Drehung. |
+| Diagonal | `315` | Diagonales Wasserzeichenlayout. Entspricht einer Drehung von 315 Grad. |
 
 ## Beispiele
 
-Zeigt, wie man ein Textwasserzeichen erstellt.
+Zeigt, wie ein Textwasserzeichen erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein reines Textwasserzeichen hinzufügen.
+// Fügen Sie ein Wasserzeichen im Klartext hinzu.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
-// Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+// Wenn wir die Textformatierung bearbeiten und sie als Wasserzeichen verwenden möchten,
+// Dies können wir tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

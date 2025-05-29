@@ -3,14 +3,14 @@ title: FontSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words für .NET
-description: FontSavingArgs IsExportNeeded eigendom. Ermöglicht die Angabe ob die aktuelle Schriftart als Schriftartressource exportiert wird. Standard istWAHR  in C#.
+description: Entdecken Sie die Eigenschaft „FontSavingArgs IsExportNeeded“ zur Steuerung des Exports von Schriftressourcen. Maximieren Sie die Effizienz mit anpassbaren Einstellungen für Ihre Projekte!
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/fontsavingargs/isexportneeded/
 ---
 ## FontSavingArgs.IsExportNeeded property
 
-Ermöglicht die Angabe, ob die aktuelle Schriftart als Schriftartressource exportiert wird. Standard ist`WAHR` .
+Ermöglicht die Angabe, ob die aktuelle Schriftart als Schriftartressource exportiert wird. Standardmäßig ist`WAHR` .
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -18,7 +18,7 @@ public bool IsExportNeeded { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,7 +26,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

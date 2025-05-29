@@ -2,15 +2,15 @@
 title: FootnoteOptions.StartNumber
 linktitle: StartNumber
 articleTitle: StartNumber
-second_title: Aspose.Words for .NET
-description: FootnoteOptions StartNumber mülk. Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını veya karakterini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Dipnot numaralandırmanızı özelleştirmek, belge netliğini ve organizasyonunu zahmetsizce artırmak için FootnoteOptions StartNumber özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.notes/footnoteoptions/startnumber/
 ---
 ## FootnoteOptions.StartNumber property
 
-Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını veya karakterini belirtir.
+İlk otomatik olarak numaralandırılan dipnotlar için başlangıç numarasını veya karakteri belirtir.
 
 ```csharp
 public int StartNumber { get; set; }
@@ -18,25 +18,25 @@ public int StartNumber { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca şu durumlarda etkilidir:[`RestartRule`](../restartrule/) olarak ayarlandıContinuous.
+Bu özellik yalnızca şu durumlarda etkilidir:[`RestartRule`](../restartrule/)x000d_ olarak ayarlandıContinuous.
 
 ## Örnekler
 
-Belgenin dipnot/sonnot sayımına başlayacağı sayının nasıl ayarlanacağını gösterir.
+Belgenin dipnot/sonnot sayımının başlayacağı sayının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dipnotlar ve son notlar metne referans veya yan yorum eklemenin bir yoludur
- // bu, ana gövde metninin akışına müdahale etmez.
+// Dipnotlar ve son notlar metne bir referans veya yan yorum eklemenin bir yoludur
+ // ana gövde metninin akışını engellemeyen.
 // Dipnot/sonnot eklemek küçük bir üst simge referans sembolü ekler
-// dipnot/son notu eklediğimiz ana gövde metninde.
+// Dipnot/Sonnotu eklediğimiz ana metin gövdesinde.
 // Her dipnot/sonnot ayrıca bir sembolden oluşan bir giriş oluşturur
 // ana gövde metnindeki referans sembolüyle eşleşen.
-// Belge oluşturucunun "InsertEndnote" yöntemine ilettiğimiz referans metni.
-// Dipnot girişleri varsayılan olarak aşağıdakileri içeren her sayfanın altında görünür:
-// referans sembolleri ve son notları belgenin sonunda görünür.
+// Belge oluşturucunun "InsertEndnote" metoduna geçirdiğimiz referans metni.
+// Dipnot girişleri, varsayılan olarak, aşağıdaki bilgileri içeren her sayfanın altında gösterilir:
+// referans sembolleri ve dipnotlar belgenin sonunda gösterilir.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -53,14 +53,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
-// Varsayılan olarak her dipnot ve son notun referans sembolü onun indeksidir
-// belgenin tüm dipnotları/son notları arasında. Her belge ayrı sayımları tutar
-// her ikisi de 1'den başlayan dipnotlar ve sonnotlar için.
+// Varsayılan olarak, her dipnot ve sonnot için referans sembolü onun dizinidir
+// belgenin tüm dipnotları/sonnotları arasında. Her belge ayrı sayımları korur
+// dipnotlar ve sonnotlar için, her ikisi de 1'den başlar.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
-// Belgeyi almak için "BaşlangıçNumber" özelliğini kullanabiliriz
-// dipnot veya sonnot sayımına farklı bir numaradan başlayın.
+// Belgeyi almak için "StartNumber" özelliğini kullanabiliriz
+// Dipnot veya sonnot sayımını farklı bir numaradan başlat.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 

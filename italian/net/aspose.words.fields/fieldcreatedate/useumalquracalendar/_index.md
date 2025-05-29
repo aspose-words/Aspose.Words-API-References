@@ -3,7 +3,7 @@ title: FieldCreateDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words per .NET
-description: FieldCreateDate UseUmAlQuraCalendar proprietà. Ottiene o imposta se utilizzare il calendario UmalQura in C#.
+description: Gestisci i formati delle date senza sforzo con la proprietà FieldCreateDate UseUmAlQuraCalendar. Passa al calendario UmAlQura per una gestione precisa delle date.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/

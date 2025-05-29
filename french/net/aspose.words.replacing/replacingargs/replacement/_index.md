@@ -3,7 +3,7 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words pour .NET
-description: ReplacingArgs Replacement propriété. Obtient ou définit la chaîne de remplacement en C#.
+description: Découvrez la propriété de remplacement ReplacingArgs pour gérer et personnaliser facilement vos chaînes de remplacement pour une efficacité de codage améliorée.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.replacing/replacingargs/replacement/
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
+    // Définissez un rappel qui suit tous les remplacements que la méthode « Remplacer » effectuera.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte original correspondant.
+/// Conserve un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte correspondant d'origine.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {

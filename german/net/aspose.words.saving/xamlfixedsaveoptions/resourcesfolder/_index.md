@@ -3,14 +3,14 @@ title: XamlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words für .NET
-description: XamlFixedSaveOptions ResourcesFolder eigendom. Gibt den physischen Ordner an in dem Ressourcen Bilder und Schriftarten gespeichert werden wenn ein Dokument in das feste SeitenXAMLFormat exportiert wird. Standard istNull  in C#.
+description: Entdecken Sie, wie die XamlFixedSaveOptions ResourcesFolder-Eigenschaft den Dokumentexport verbessert, indem sie definiert, wo Bilder und Schriftarten im XAML-Format gespeichert werden.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
 ---
 ## XamlFixedSaveOptions.ResourcesFolder property
 
-Gibt den physischen Ordner an, in dem Ressourcen (Bilder und Schriftarten) gespeichert werden, wenn ein Dokument in das feste Seiten-XAML-Format exportiert wird. Standard ist`Null` .
+Gibt den physischen Ordner an, in dem Ressourcen (Bilder und Schriftarten) gespeichert werden, wenn ein Dokument in das XAML-Format mit festen Seiten exportiert wird. Der Standardwert ist`null` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -18,15 +18,15 @@ public string ResourcesFolder { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im XAML-Format mit fester Seite muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ResourcesFolder` Mit können Sie angeben, wo die Bilder gespeichert werden[`ResourcesFolderAlias`](../resourcesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im XAML-Format mit festen Seiten muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ResourcesFolder` ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und[`ResourcesFolderAlias`](../resourcesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words standardmäßig die -Bilder im selben Ordner, in dem die Dokumentdatei gespeichert ist. Verwenden`ResourcesFolder` , um dieses Verhalten zu überschreiben.
+Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words die -Bilder standardmäßig im selben Ordner wie die Dokumentdatei. Verwenden Sie`ResourcesFolder` , um dieses Verhalten zu überschreiben.
 
-Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner zum Speichern der Bilder, , muss die Bilder aber trotzdem irgendwo speichern. In diesem Fall müssen Sie mithilfe von einen zugänglichen Ordner angeben`ResourcesFolder` Eigentum
+Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner, in dem die Bilder gespeichert werden können, , muss die Bilder aber trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner angeben, indem Sie die`ResourcesFolder` Eigentum
 
 ## Beispiele
 
-Zeigt, wie die URIs verknüpfter Ressourcen gedruckt werden, die beim Konvertieren eines Dokuments in eine .xaml-Festform erstellt wurden.
+Zeigt, wie die URIs verknüpfter Ressourcen gedruckt werden, die beim Konvertieren eines Dokuments in eine XAML-Datei mit fester Form erstellt wurden.
 
 ```csharp
 public void ResourceFolder()
@@ -34,13 +34,13 @@ public void ResourceFolder()
     Document doc = new Document(MyDir + "Rendering.docx");
     ResourceUriPrinter callback = new ResourceUriPrinter();
 
-    // Erstellen Sie ein „XamlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "XamlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument im XAML-Speicherformat speichern.
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
-    // Mit der Eigenschaft „ResourcesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
+    // Über die Eigenschaft „ResourcesFolder“ wird ein Ordner im lokalen Dateisystem zugewiesen, in den
     // Aspose.Words speichert alle verknüpften Ressourcen des Dokuments, wie Bilder und Schriftarten.
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
@@ -61,7 +61,7 @@ public void ResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die während der Konvertierung in feste .xaml erstellt wurden.
+/// Zählt und druckt URIs von Ressourcen, die während der Konvertierung in festes .xaml erstellt wurden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -74,7 +74,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
     {
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
-        // Wenn wir einen Ressourcenordner-Alias angeben würden, würden wir auch Folgendes benötigen
+        // Wenn wir einen Ressourcenordner-Alias angeben würden, bräuchten wir auch
         // um jeden Stream umzuleiten, um seine Ressource im Alias-Ordner abzulegen.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;

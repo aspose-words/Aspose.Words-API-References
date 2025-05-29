@@ -1,0 +1,100 @@
+---
+title: Watermarker.Create
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words لـ .NET
+description: قم بإنشاء معالج جديد للعلامات المائية باستخدام طريقتنا المبتكرة لتحسين صورك وحماية المحتوى الخاص بك دون عناء.
+type: docs
+weight: 10
+url: /ar/net/aspose.words.lowcode/watermarker/create/
+---
+## Watermarker.Create method
+
+ينشئ مثيلًا جديدًا لمعالج العلامة المائية.
+
+```csharp
+public static Watermarker Create(WatermarkerContext context)
+```
+
+## أمثلة
+
+يوضح كيفية إدراج نص العلامة المائية في المستند باستخدام السياق.
+
+```csharp
+string doc = MyDir + "Big document.docx";
+string watermarkText = "This is a watermark";
+
+WatermarkerContext watermarkerContext = new WatermarkerContext();
+watermarkerContext.TextWatermark = watermarkText;
+
+watermarkerContext.TextWatermarkOptions.Color = Color.Red;
+
+Watermarker.Create(watermarkerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.WatermarkContextText.docx")
+    .Execute();
+```
+
+يوضح كيفية إدراج صورة العلامة المائية في المستند باستخدام السياق.
+
+```csharp
+string doc = MyDir + "Document.docx";
+string watermarkImage = ImageDir + "Logo.jpg";
+
+WatermarkerContext watermarkerContext = new WatermarkerContext();
+watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
+
+watermarkerContext.ImageWatermarkOptions.Scale = 50;
+
+Watermarker.Create(watermarkerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.WatermarkContextImage.docx")
+    .Execute();
+```
+
+يوضح كيفية إدراج نص العلامة المائية في المستند من التدفق باستخدام السياق.
+
+```csharp
+string watermarkText = "This is a watermark";
+
+using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open, FileAccess.Read))
+{
+    WatermarkerContext watermarkerContext = new WatermarkerContext();
+    watermarkerContext.TextWatermark = watermarkText;
+
+    watermarkerContext.TextWatermarkOptions.Color = Color.Red;
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.WatermarkContextTextStream.docx", FileMode.Create, FileAccess.ReadWrite))
+        Watermarker.Create(watermarkerContext)
+            .From(streamIn)
+            .To(streamOut, SaveFormat.Docx)
+            .Execute();
+}
+```
+
+يوضح كيفية إدراج صورة العلامة المائية في المستند من مجرى باستخدام السياق.
+
+```csharp
+string watermarkImage = ImageDir + "Logo.jpg";
+
+using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open, FileAccess.Read))
+{
+    WatermarkerContext watermarkerContext = new WatermarkerContext();
+    watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
+
+    watermarkerContext.ImageWatermarkOptions.Scale = 50;
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.WatermarkContextImageStream.docx", FileMode.Create, FileAccess.ReadWrite))
+        Watermarker.Create(watermarkerContext)
+            .From(streamIn)
+            .To(streamOut, SaveFormat.Docx)
+            .Execute();
+}
+```
+
+### أنظر أيضا
+
+* class [WatermarkerContext](../../watermarkercontext/)
+* class [Watermarker](../)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* المجسم [Aspose.Words](../../../)

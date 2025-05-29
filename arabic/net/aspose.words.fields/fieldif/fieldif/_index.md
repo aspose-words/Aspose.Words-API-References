@@ -3,7 +3,7 @@ title: FieldIf
 linktitle: FieldIf
 articleTitle: FieldIf
 second_title: Aspose.Words لـ .NET
-description: FieldIf البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldIf، الحل الأمثل للتكامل السلس والبرمجة الفعّالة. طوّر ميزات قوية لمشاريعك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldif/fieldif/

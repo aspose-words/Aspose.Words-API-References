@@ -3,14 +3,14 @@ title: PageSet
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words pour .NET
-description: PageSet constructeur. Crée un ensemble dune page basé sur lindex exact de la page en C#.
+description: Créez sans effort un ensemble de pages personnalisé avec le constructeur PageSet, conçu pour une indexation de page précise et une expérience utilisateur transparente.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet(*int*) {#constructor_1}
 
-Crée un ensemble d'une page basé sur l'index exact de la page.
+Crée un ensemble d'une page basé sur l'index de page exact.
 
 ```csharp
 public PageSet(int page)
@@ -22,7 +22,35 @@ public PageSet(int page)
 
 ## Remarques
 
-Si une page rencontrée ne figure pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
+Si une page est rencontrée qui n'est pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
+
+## Exemples
+
+Montre comment restituer une page d'un document en une image JPEG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+// Créez un objet « ImageSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode rend le document en image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+// Définissez le « PageSet » sur « 1 » pour sélectionner la deuxième page via
+// l'index de base zéro à partir duquel démarrer le rendu du document.
+options.PageSet = new PageSet(1);
+
+// Lorsque nous enregistrons le document au format JPEG, Aspose.Words ne rend qu'une seule page.
+// Cette image contiendra une page à partir de la page deux,
+// qui sera simplement la deuxième page du document original.
+doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
+```
 
 ### Voir également
 
@@ -34,7 +62,7 @@ Si une page rencontrée ne figure pas dans le document, une exception sera levé
 
 ## PageSet(*params int[]*) {#constructor_2}
 
-Crée un ensemble de pages basé sur des index de page exacts.
+Crée un ensemble de pages basé sur des indices de page exacts.
 
 ```csharp
 public PageSet(params int[] pages)
@@ -42,11 +70,11 @@ public PageSet(params int[] pages)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| pages | Int32[] | Index des pages de base zéro. |
+| pages | Int32[] | Index de pages à partir de zéro. |
 
 ## Remarques
 
-Si une page rencontrée ne figure pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
+Si une page est rencontrée qui n'est pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
 
 ## Exemples
 
@@ -56,18 +84,18 @@ Montre comment extraire des pages en fonction d'index de page exacts.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoute cinq pages au document.
+// Ajoutez cinq pages au document.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Crée un objet "XpsSaveOptions", que l'on peut passer à la méthode "Save" du document
+// Créez un objet « XpsSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
 // pour modifier la façon dont cette méthode convertit le document en .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// Utilisez la propriété "PageSet" pour sélectionner un ensemble de pages du document à enregistrer dans la sortie XPS.
+// Utilisez la propriété « PageSet » pour sélectionner un ensemble de pages du document à enregistrer dans la sortie XPS.
 // Dans ce cas, nous choisirons, via un index de base zéro, seulement trois pages : page 1, page 2 et page 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
@@ -96,7 +124,7 @@ public PageSet(params PageRange[] ranges)
 
 ## Remarques
 
-Si une plage commence après la dernière page du document, une exception sera levée lors du rendu. Toutes les plages qui se terminent après la dernière page sont tronquées pour tenir dans le document.
+Si une plage est rencontrée qui commence après la dernière page du document, une exception sera levée lors du rendu. Toutes les plages qui se terminent après la dernière page sont tronquées pour tenir dans le document.
 
 ## Exemples
 

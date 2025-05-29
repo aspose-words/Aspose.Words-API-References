@@ -3,7 +3,7 @@ title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words für .NET
-description: DocumentProperty ToByteArray methode. Gibt den Eigenschaftswert als ByteArray zurück in C#.
+description: Konvertieren Sie DocumentProperty mühelos in ein Byte-Array mit der ToByteArray-Methode. Optimieren Sie die Datenverarbeitung und steigern Sie Ihre Programmiereffizienz!
 type: docs
 weight: 70
 url: /de/net/aspose.words.properties/documentproperty/tobytearray/
@@ -18,18 +18,18 @@ public byte[] ToByteArray()
 
 ## Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istByteArray.
+Löst eine Ausnahme aus, wenn der Eigenschaftstyp nichtByteArray.
 
 ## Beispiele
 
-Zeigt, wie man einem Dokument, das wir als Epub speichern, eine Miniaturansicht hinzufügt.
+Zeigt, wie einem Dokument, das wir als Epub speichern, eine Miniaturansicht hinzugefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Wenn wir ein Dokument, dessen „Thumbnail“-Eigenschaft Bilddaten enthält, die wir hinzugefügt haben, als Epub speichern,
+// Wenn wir ein Dokument, dessen Eigenschaft „Thumbnail“ Bilddaten enthält, die wir hinzugefügt haben, als Epub speichern,
 // Ein Reader, der dieses Dokument öffnet, zeigt das Bild möglicherweise vor der ersten Seite an.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

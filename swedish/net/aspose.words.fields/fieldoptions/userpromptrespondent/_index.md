@@ -3,14 +3,14 @@ title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
 second_title: Aspose.Words för .NET
-description: FieldOptions UserPromptRespondent fast egendom. Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering i C#.
+description: Upptäck hur egenskapen FieldOptions UserPromptRespondent förbättrar användarupplevelsen genom att hantera respondentinteraktioner under fältuppdateringar.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering.
+Hämtar eller ställer in respondenten på användarfrågor under fältuppdatering.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,13 +18,13 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## Anmärkningar
 
-Om värdet för den här egenskapen är satt till`null` , de fält som kräver användarsvar på prompting (som[`FieldAsk`](../../fieldask/) eller[`FieldFillIn`](../../fieldfillin/)) uppdateras inte.
+Om värdet för den här egenskapen är satt till`null` , de fält som kräver användarsvar vid prompting (t.ex.[`FieldAsk`](../../fieldask/) eller[`FieldFillIn`](../../fieldfillin/)) är inte uppdaterade.
 
 Standardvärdet är`null`.
 
 ## Exempel
 
-Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
+Visar hur man skapar ett ASK-fält och anger dess egenskaper.
 
 ```csharp
 public void FieldAsk()
@@ -51,7 +51,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en e-postkoppling.
+    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en dokumentkoppling.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -60,8 +60,8 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptsvarare,
-    // som kommer att inträffa under en e-postkoppling.
+    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptresponder,
+    // vilket kommer att inträffa under en dokumentkoppling.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -70,7 +70,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.
+/// Lägger till text före standardsvaret i ett ASK-fält under en dokumentkoppling.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

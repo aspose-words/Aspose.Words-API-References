@@ -3,9 +3,9 @@ title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontSourceType перечисление. Указывает тип источника шрифта на С#.
+description: Откройте для себя перечисление Aspose.Words.Fonts.FontSourceType для эффективного управления исходным шрифтом. Оптимизируйте обработку документов с помощью гибких параметров шрифта.
 type: docs
-weight: 2990
+weight: 3420
 url: /ru/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration

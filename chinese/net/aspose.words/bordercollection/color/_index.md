@@ -2,8 +2,8 @@
 title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
-second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection Color 财产. 获取或设置边框颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BorderCollection Color 属性，轻松自定义和管理设计中的边框颜色。使用丰富的选项增强您的 UI 界面！
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bordercollection/color/
@@ -24,7 +24,7 @@ public Color Color { get; set; }
 
 ## 例子
 
-演示如何创建带阴影的绿色波浪页面边框。
+展示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

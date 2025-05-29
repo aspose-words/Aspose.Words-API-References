@@ -3,7 +3,7 @@ title: GeneralFormatCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: GeneralFormatCollection RemoveAt метод. Удаляет вхождение общего формата по указанному индексу на С#.
+description: Легко удалите определенное вхождение из GeneralFormatCollection с помощью метода RemoveAt. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/generalformatcollection/removeat/
@@ -28,7 +28,7 @@ public void RemoveAt(int index)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения формата.
+// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения форматирования.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -70,7 +70,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Мы можем удалить наши форматы, чтобы вернуть результат поля в исходную форму.
+// Мы можем удалить наши форматы, чтобы вернуть результат поля к исходному виду.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

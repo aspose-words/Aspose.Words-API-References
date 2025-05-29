@@ -3,7 +3,7 @@ title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words لـ .NET
-description: HeaderFooter HeaderFooterType ملكية. يحصل على نوع هذا الرأس/التذييل في C#.
+description: اكتشف خاصية HeaderFooterType للوصول بسهولة إلى أنواع الرأس والتذييل في مستندك وإدارتها لتحسين التحكم في التنسيق.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/headerfooter/headerfootertype/
@@ -23,8 +23,8 @@ public HeaderFooterType HeaderFooterType { get; }
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
-// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
+// أنشئ رأسًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أعلى كل صفحة من هذا القسم، فوق النص الرئيسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
+// أنشئ تذييلًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

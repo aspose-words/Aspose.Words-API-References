@@ -3,7 +3,7 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words för .NET
-description: BuildVersionInfo Version fast egendom. Hämtar produktversionen i C#.
+description: Upptäck egenskapen BuildVersionInfo Version för att enkelt komma åt och hantera din produktversion för förbättrad programvaruprestanda och tillförlitlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/buildversioninfo/version/

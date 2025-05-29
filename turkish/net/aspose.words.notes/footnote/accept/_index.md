@@ -2,15 +2,15 @@
 title: Footnote.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Footnote Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi etkileşimini artırmak ve web sitenizin kullanıcı deneyimini optimize etmek için Dipnot Kabul yöntemini keşfedin. Dönüşümleri bugün artırın!
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.notes/footnote/accept/
 ---
 ## Footnote.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,11 +22,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
@@ -42,8 +42,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void FootnoteToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm Dipnot düğümleri ve bunların alt öğelerinden oluşan bir dizi biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm Dipnot düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -83,7 +83,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Dipnot düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Dipnot düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -105,7 +105,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

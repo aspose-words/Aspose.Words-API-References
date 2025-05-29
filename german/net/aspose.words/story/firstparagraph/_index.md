@@ -3,14 +3,14 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words für .NET
-description: Story FirstParagraph eigendom. Ruft den ersten Absatz in der Geschichte ab in C#.
+description: Entdecken Sie die Story FirstParagraph-Eigenschaft, um ganz einfach den ersten Absatz einer Story zu extrahieren und so Ihren Inhalt und die Benutzerinteraktion zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-Ruft den ersten Absatz in der Geschichte ab.
+Ruft den ersten Absatz der Geschichte ab.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
+Zeigt, wie ein Textlauf mithilfe seiner Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -38,17 +38,17 @@ Zeigt, wie ein Textfeld erstellt und formatiert wird.
 ```csharp
 Document doc = new Document();
 
-// Erstelle ein schwebendes Textfeld.
+// Erstellen Sie ein schwebendes Textfeld.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Legen Sie die horizontale und vertikale Ausrichtung des Texts innerhalb der Form fest.
+// Legen Sie die horizontale und vertikale Ausrichtung des Textes innerhalb der Form fest.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Fügen Sie dem Textfeld einen Absatz hinzu und fügen Sie eine Textzeile hinzu, die im Textfeld angezeigt wird.
+// Fügen Sie dem Textfeld einen Absatz und einen Textlauf hinzu, der im Textfeld angezeigt wird.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

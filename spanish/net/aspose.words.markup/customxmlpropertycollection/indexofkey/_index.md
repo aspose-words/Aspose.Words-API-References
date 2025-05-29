@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words para .NET
-description: CustomXmlPropertyCollection IndexOfKey método. Devuelve el índice de base cero de la propiedad especificada en la colección en C#.
+description: Descubra el método IndexOfKey de CustomXmlPropertyCollection para encontrar fácilmente el índice de base cero de cualquier propiedad de su colección. ¡Mejore su eficiencia de codificación!
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
 ---
 ## CustomXmlPropertyCollection.IndexOfKey method
 
-Devuelve el índice de base cero de la propiedad especificada en la colección.
+Devuelve el índice basado en cero de la propiedad especificada en la colección.
 
 ```csharp
 public int IndexOfKey(string name)
@@ -22,7 +22,7 @@ public int IndexOfKey(string name)
 
 ### Valor_devuelto
 
-El índice de base cero. Valor negativo si no se encuentra.
+Índice basado en cero. Valor negativo si no se encuentra.
 
 ## Ejemplos
 
@@ -31,11 +31,11 @@ Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener in
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
-// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
+// Una etiqueta inteligente aparece en un documento con Microsoft Word y reconoce una parte de su texto como algún tipo de datos,
+// como un nombre, una fecha o una dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
 // En Word 2003, podemos habilitar etiquetas inteligentes a través de "Herramientas" -> "Opciones de Autocorrección..." -> "Etiquetas inteligentes".
 // En nuestro documento de entrada, hay tres objetos que Microsoft Word registró como etiquetas inteligentes.
-// Las etiquetas inteligentes pueden estar anidadas, por lo que esta colección contiene más.
+// Las etiquetas inteligentes se pueden anidar, por lo que esta colección contiene más.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
@@ -55,13 +55,13 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// También podemos acceder a las propiedades de varias formas, como por ejemplo mediante un par clave-valor.
+// También podemos acceder a las propiedades de varias maneras, como un par clave-valor.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
+A continuación se muestran tres formas de eliminar elementos de la colección de propiedades.
 // 1 - Eliminar por índice:
 properties.RemoveAt(3);
 
@@ -72,7 +72,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

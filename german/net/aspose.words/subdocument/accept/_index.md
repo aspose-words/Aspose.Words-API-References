@@ -3,14 +3,14 @@ title: SubDocument.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: SubDocument Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die SubDocument Accept-Methode, um die Besucherinteraktion zu verbessern und die Interaktionen auf Ihrer Plattform zu optimieren. Verbessern Sie noch heute Ihr Benutzererlebnis!
 type: docs
 weight: 20
 url: /de/net/aspose.words/subdocument/accept/
 ---
 ## SubDocument.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,21 +18,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
-Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
+Zeigt, wie Sie mit einem Dokumentbesucher die Knotenstruktur eines Dokuments drucken.
 
 ```csharp
 public void DocStructureToText()
@@ -40,8 +40,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -65,7 +65,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn ein Document-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn ein Dokumentknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -139,7 +139,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -181,7 +181,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

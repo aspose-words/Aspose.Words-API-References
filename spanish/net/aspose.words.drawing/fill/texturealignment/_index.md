@@ -3,9 +3,9 @@ title: Fill.TextureAlignment
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
 second_title: Aspose.Words para .NET
-description: Fill TextureAlignment propiedad. Obtiene o establece la alineación para el relleno de textura de mosaico en C#.
+description: Establezca la propiedad TextureAlignment para optimizar el relleno de textura de los mosaicos. Personalice fácilmente la alineación para mejorar el atractivo visual y la precisión del diseño.
 type: docs
-weight: 180
+weight: 190
 url: /es/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -35,6 +35,12 @@ shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Ver también

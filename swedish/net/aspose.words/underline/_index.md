@@ -3,14 +3,14 @@ title: Underline Enum
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Underline uppräkning. Indikerar typen av understrykning som appliceras på ett teckensnitt i C#.
+description: Upptäck Aspose.Words.Underline enum för mångsidiga alternativ för understrykning av teckensnitt. Förbättra din dokumentformatering med anpassningsbara stilar idag!
 type: docs
-weight: 6510
+weight: 7360
 url: /sv/net/aspose.words/underline/
 ---
 ## Underline enumeration
 
-Indikerar typen av understrykning som appliceras på ett teckensnitt.
+Anger typen av understrykning som tillämpas på ett teckensnitt.
 
 ```csharp
 public enum Underline
@@ -49,11 +49,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Infoga en hyperlänk och framhäva den med anpassad formatering.
-// Hyperlänken kommer att vara ett klickbart stycke text som tar oss till den plats som anges i URL:en.
+// Infoga en hyperlänk och framhäv den med anpassad formatering.
+// Hyperlänken kommer att vara en klickbar textbit som tar oss till den plats som anges i URL:en.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falskt);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

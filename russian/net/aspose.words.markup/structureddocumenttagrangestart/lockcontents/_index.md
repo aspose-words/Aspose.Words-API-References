@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.LockContents
 linktitle: LockContents
 articleTitle: LockContents
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart LockContents свойство. Если установлено значениеистинный  это свойство запретит пользователю редактировать содержимое этого тега структурированного документа на С#.
+description: Откройте для себя свойство LockContents StructuredDocumentTagRangeStart. Включите ограничения редактирования для улучшения целостности документа и контроля пользователя.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-Если установлено значение`истинный` , это свойство запретит пользователю редактировать содержимое этого тега структурированного документа.
+При установке на`истинный` , это свойство запретит пользователю редактировать содержимое этого структурированного тега документа.
 
 ```csharp
 public bool LockContents { get; set; }

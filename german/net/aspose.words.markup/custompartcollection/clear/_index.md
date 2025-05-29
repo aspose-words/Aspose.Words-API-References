@@ -3,7 +3,7 @@ title: CustomPartCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: CustomPartCollection Clear methode. Entfernt alle Elemente aus der Sammlung in C#.
+description: Bereinigen Sie Ihre CustomPartCollection mühelos mit unserer effizienten Clear-Methode und entfernen Sie alle Elemente für eine nahtlose Verwaltung und verbesserte Leistung.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/custompartcollection/clear/
@@ -25,12 +25,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

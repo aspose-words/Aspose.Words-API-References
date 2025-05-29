@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words para .NET
-description: TxtSaveOptionsBase Encoding propiedad. Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado esCodificación.UTF8  en C#.
+description: Descubra cómo optimizar las exportaciones de texto con la propiedad Encoding de TxtSaveOptionsBase. Configure fácilmente las opciones de codificación para un formato de texto UTF-8 uniforme.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/encoding/
@@ -24,14 +24,14 @@ Muestra cómo configurar la codificación para un documento de salida .txt.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue texto con caracteres fuera del conjunto de caracteres ASCII.
+// Agregue algo de texto con caracteres fuera del conjunto de caracteres ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
-// para modificar cómo guardamos el documento en texto plano.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
+// para modificar la forma en que guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Verificamos que la propiedad "Codificación" contenga la codificación adecuada para el contenido de nuestro documento.
+// Verifique que la propiedad "Codificación" contenga la codificación adecuada para el contenido de nuestro documento.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

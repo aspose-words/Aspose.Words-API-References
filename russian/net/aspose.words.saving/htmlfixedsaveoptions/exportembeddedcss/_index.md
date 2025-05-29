@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedCss
 linktitle: ExportEmbeddedCss
 articleTitle: ExportEmbeddedCss
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions ExportEmbeddedCss свойство. Указывает следует ли внедрять CSS каскадную таблицу стилей в HTMLдокумент на С#.
+description: Узнайте, как свойство ExportEmbeddedCss HtmlFixedSaveOptions улучшает ваши HTML-документы путем внедрения CSS для бесшовного оформления. Оптимизируйте свои веб-страницы сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-Указывает, следует ли внедрять CSS (каскадную таблицу стилей) в HTML-документ.
+Указывает, следует ли встраивать CSS (каскадную таблицу стилей) в HTML-документ.
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -18,15 +18,15 @@ public bool ExportEmbeddedCss { get; set; }
 
 ## Примеры
 
-Показывает, как определить, где хранить таблицы стилей CSS при экспорте документа в Html.
+Показывает, как определить, где хранить таблицы стилей CSS при экспорте документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Когда мы экспортируем документ в HTML, Aspose.Words также создаст таблицу стилей CSS для форматирования документа.
-// Установка флага «ExportEmbeddedCss» в значение «true» сохраняет таблицу стилей CSS в файл .css,
-// и ссылка на файл из html-документа с помощью <link> элемент.
-// Установка флага в значение «false» встроит таблицу стилей CSS в документ Html,
+// Установка флага «ExportEmbeddedCss» в значение «true» сохраняет таблицу стилей CSS в файле .css,
+// и ссылка на файл из html-документа с помощью элемента <link>.
+// Установка флага в значение «false» встроит таблицу стилей CSS в HTML-документ,
 // который создаст только один файл вместо двух.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

@@ -3,9 +3,9 @@ title: FieldToc Class
 linktitle: FieldToc
 articleTitle: FieldToc
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldToc فصل. ينفذ حقل جدول المحتويات في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldToc لإنشاء جدول محتويات سلس في المستندات. حسّن سير عملك بميزات فعّالة!
 type: docs
-weight: 2530
+weight: 2940
 url: /ar/net/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -28,52 +28,52 @@ public class FieldToc : Field
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول. |
-| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | الحصول على أو تعيين اسم معرف التسلسل المستخدم عند إنشاء جدول من الأشكال التي لا تتضمن التسمية التوضيحية والرقم. |
-| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | الحصول على أو تعيين قائمة من الأنماط بخلاف أنماط العناوين المضمنة لتضمينها في جدول المحتويات. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | يحصل على اسم الإشارة المرجعية التي تحدد الجزء من المستند المستخدم لبناء الجدول أو يعينه. |
+| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | يحصل على اسم معرف التسلسل المستخدم عند إنشاء جدول الأشكال الذي لا يتضمن تسمية ورقم التسمية التوضيحية أو يعينه. |
+| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | يحصل على قائمة أنماط أخرى غير أنماط العناوين المضمنة لتضمينها في جدول المحتويات أو يعينها. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | الحصول على أو تعيين سلسلة يجب أن تتطابق مع معرفات النوع لحقول TC المضمنة. |
-| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | الحصول على أو تعيين سلسلة من الأحرف التي تفصل بين الإدخال ورقم الصفحة الخاصة به. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | الحصول على أو تعيين نطاق من مستويات العناوين المراد تضمينها. |
-| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إخفاء بادئة علامة التبويب وأرقام الصفحات في عرض تخطيط الويب. |
-| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباطات تشعبية لمدخلات جدول المحتويات. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات التي سيتم حذف أرقام الصفحات منها. |
-| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | الحصول على أو تعيين معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال. |
-| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بأحرف السطر الجديد ضمن إدخالات الجدول. |
-| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب ضمن إدخالات الجدول. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
+| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | يحصل على أو يعين سلسلة يجب أن تتطابق مع معرفات النوع لحقول TC المضمنة. |
+| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | يحصل على نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها أو يعينه. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | يحصل على أو يعين تسلسلًا من الأحرف التي تفصل بين الإدخال ورقم الصفحة. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | يحصل على نطاق من مستويات العنوان المراد تضمينها أو يعينه. |
+| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إخفاء علامة التبويب وأرقام الصفحات في عرض تخطيط الويب. |
+| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم جعل إدخالات جدول المحتويات روابط تشعبية. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | يحصل على نطاق من مستويات إدخالات جدول المحتويات أو يعينه لحذف أرقام الصفحات منه. |
+| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | يحصل على معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال أو يعينه. |
+| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم الاحتفاظ بأحرف السطر الجديد داخل إدخالات الجدول. |
+| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب داخل إدخالات الجدول. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | يحصل على أو يعين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | الحصول على أو تعيين اسم معرف التسلسل المستخدم عند إنشاء جدول الأشكال. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
-| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق. |
+| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | يحصل على اسم معرف التسلسل المستخدم عند إنشاء جدول الأشكال أو يعينه. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
+| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | يقوم بتحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | تحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا. |
 
 ## ملاحظات
 
-إنشاء جدول محتويات (والذي يمكن أن يكون أيضًا جدول أشكال) باستخدام الإدخالات المحددة بواسطة حقول TC، مستويات العناوين الخاصة بها، والأنماط المحددة، وإدراج هذا الجدول في هذا المكان في المستند.
+يقوم بإنشاء جدول محتويات (يمكن أن يكون أيضًا جدول أشكال) باستخدام الإدخالات المحددة بواسطة حقول TC، و ومستويات عناوينها، والأنماط المحددة، ثم يقوم بإدراج هذا الجدول في هذا المكان في المستند.
 
 ## أمثلة
 
-يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
+يوضح كيفية إدراج جدول المحتويات، وملئه بالإدخالات استنادًا إلى أنماط العنوان.
 
 ```csharp
 public void FieldToc()
@@ -83,30 +83,30 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // أدخل حقل جدول المحتويات، الذي سيجمع كل العناوين في جدول المحتويات.
-    // لكل عنوان، سينشئ هذا الحقل سطرًا يحتوي على النص بنمط العنوان هذا على اليسار،
+    // أدخل حقل جدول المحتويات، والذي سيقوم بتجميع كافة العناوين في جدول المحتويات.
+    // لكل عنوان، سيقوم هذا الحقل بإنشاء سطر يحتوي على النص الموجود في نمط العنوان هذا على اليسار،
     // والصفحة التي يظهر فيها العنوان على اليمين.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // استخدم خاصية BookmarkName لسرد العناوين فقط
+    // استخدم خاصية BookmarkName لإدراج العناوين فقط
     // التي تظهر ضمن حدود الإشارة المرجعية باسم "MyBookmark".
     field.BookmarkName = "MyBookmark";
 
-    // سيتم احتساب النص الذي يحتوي على نمط عنوان مدمج، مثل "العنوان 1"، المطبق عليه كعنوان.
+    // سيتم احتساب النص الذي يحتوي على نمط عنوان مدمج، مثل "العنوان 1"، كعنوان.
     // يمكننا تسمية الأنماط الإضافية التي سيتم التقاطها كعناوين بواسطة جدول المحتويات في هذه الخاصية ومستويات جدول المحتويات الخاصة بها.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // افتراضيًا، يتم فصل مستويات الأنماط/جدول المحتويات في خاصية CustomStyles بفاصلة،
-    // ولكن يمكننا تعيين محدد مخصص في هذه الخاصية.
+    // بشكل افتراضي، يتم فصل مستويات الأنماط/جدول المحتويات في خاصية CustomStyles بفاصلة،
+    // ولكن يمكننا تعيين فاصل مخصص في هذه الخاصية.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
     // قم بتكوين الحقل لاستبعاد أي عناوين تحتوي على مستويات جدول المحتويات خارج هذا النطاق.
     field.HeadingLevelRange = "1-3";
 
-    // لن يعرض جدول المحتويات أرقام صفحات العناوين التي تقع مستويات جدول المحتويات الخاصة بها ضمن هذا النطاق.
+    // لن يعرض جدول المحتويات أرقام الصفحات للعناوين التي تقع مستويات جدول المحتويات الخاصة بها ضمن هذا النطاق.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // قم بتعيين سلسلة مخصصة تفصل كل عنوان عن رقم الصفحة الخاص به.
+     // تعيين سلسلة مخصصة لفصل كل عنوان عن رقم الصفحة.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -120,11 +120,11 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // سيتم حذف أرقام الصفحات في هذين العنوانين لأنها تقع ضمن النطاق "2-5".
+    // سيتم حذف أرقام الصفحات لهذين العنوانين لأنهما ضمن النطاق "2-5".
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // لا يظهر هذا الإدخال لأن "العنوان 4" يقع خارج النطاق "1-3" الذي قمنا بتعيينه مسبقًا.
+    // لا يظهر هذا الإدخال لأن "العنوان 4" خارج النطاق "1-3" الذي حددناه سابقًا.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
@@ -141,7 +141,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// ابدأ صفحة جديدة وأدخل فقرة بنمط محدد.
+/// ابدأ صفحة جديدة وأدرج فقرة ذات نمط محدد.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {
@@ -159,59 +159,59 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يمكن لحقل جدول المحتويات إنشاء إدخال في جدول محتوياته لكل حقل تسلسلي موجود في المستند.
-// يحتوي كل إدخال على الفقرة التي تتضمن حقل التسلسل ورقم الصفحة التي يظهر عليها الحقل.
+// يمكن لحقل جدول المحتويات إنشاء إدخال في جدول المحتويات الخاص به لكل حقل تسلسل موجود في المستند.
+// يحتوي كل إدخال على الفقرة التي تتضمن حقل SEQ ورقم الصفحة التي يظهر فيها الحقل.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
-// تحتفظ هذه الحقول أيضًا بأعداد منفصلة لكل تسلسل مسمى فريد
-// تم تحديده بواسطة خاصية "SequenceIdentifier" الخاصة بحقل SEQ.
-// استخدم خاصية "TableOfFigersLabel" لتسمية التسلسل الرئيسي لجدول المحتويات.
-// الآن، سيقوم جدول المحتويات هذا فقط بإنشاء إدخالات من حقول SEQ مع تعيين "SequenceIdentifier" الخاص بها على "MySequence".
+// تعرض حقول SEQ عددًا يتزايد عند كل حقل SEQ.
+// تحتفظ هذه الحقول أيضًا بعدد منفصل لكل تسلسل مسمى فريد
+// تم تحديده بواسطة خاصية "SequenceIdentifier" في حقل SEQ.
+// استخدم خاصية "TableOfFiguresLabel" لتسمية التسلسل الرئيسي لجدول المحتويات.
+// الآن، سيقوم جدول المحتويات هذا بإنشاء إدخالات فقط من حقول التسلسل مع تعيين "SequenceIdentifier" الخاصة بها على "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // يمكننا تسمية تسلسل حقل SEQ آخر في خاصية "PrefixedSequenceIdentifier".
- لن تقوم حقول SEQ من تسلسل البادئة هذا بإنشاء إدخالات جدول المحتويات.
-// كل إدخال جدول محتويات تم إنشاؤه من حقل SEQ للتسلسل الرئيسي سيعرض الآن أيضًا العدد الذي
-// تسلسل البادئة قيد التشغيل حاليًا في حقل SEQ للتسلسل الأساسي الذي قام بالإدخال.
+ // لن تقوم حقول SEQ من تسلسل البادئة هذا بإنشاء إدخالات TOC.
+// كل إدخال جدول المحتويات الذي تم إنشاؤه من حقل التسلسل الرئيسي سيعرض الآن أيضًا العدد الذي
+// تسلسل البادئة موجود حاليًا في حقل تسلسل SEQ الأساسي الذي أجرى الإدخال.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 
 // سيعرض كل إدخال في جدول المحتويات عدد تسلسل البادئة على الفور إلى اليسار
-// رقم الصفحة التي يظهر عليها حقل التسلسل الرئيسي.
-// يمكننا تحديد فاصل مخصص سيظهر بين هذين الرقمين.
+// رقم الصفحة التي يظهر فيها حقل التسلسل الرئيسي.
+//يمكننا تحديد فاصل مخصص سيظهر بين هذين الرقمين.
 fieldToc.SequenceSeparator = ">";
 
 Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// هناك طريقتان لاستخدام حقول التسلسل لملء جدول المحتويات هذا.
-// 1 - إدراج حقل SEQ ينتمي إلى تسلسل بادئة جدول المحتويات:
+// هناك طريقتان لاستخدام حقول SEQ لملء جدول المحتويات هذا.
+// 1 - إدراج حقل SEQ الذي ينتمي إلى تسلسل بادئة جدول المحتويات:
 // سيؤدي هذا الحقل إلى زيادة عدد تسلسل SEQ لـ "PrefixSequence" بمقدار 1.
-// نظرًا لأن هذا الحقل لا ينتمي إلى التسلسل الرئيسي المحدد
-// بواسطة خاصية "TableOfFigersLabel" لجدول المحتويات، لن يظهر كإدخال.
+// بما أن هذا الحقل لا ينتمي إلى التسلسل الرئيسي المحدد
+// بواسطة خاصية "TableOfFiguresLabel" في جدول المحتويات، فلن يظهر كإدخال.
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
 Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
 
-// 2 - إدراج حقل SEQ ينتمي إلى التسلسل الرئيسي لجدول المحتويات:
-// سيقوم حقل SEQ هذا بإنشاء إدخال في جدول المحتويات.
-// سيحتوي إدخال جدول المحتويات على الفقرة التي يوجد بها حقل التسلسل ورقم الصفحة التي يظهر عليها.
-// سيعرض هذا الإدخال أيضًا العدد الذي يوجد به تسلسل البادئة حاليًا،
-// مفصولة عن رقم الصفحة بالقيمة الموجودة في خاصية SeqenceSeparator الخاصة بجدول المحتويات.
-// عدد "PrefixSequence" هو 1، هذا الحقل SEQ للتسلسل الرئيسي موجود في الصفحة 2،
-// والفاصل هو ">"، لذلك سيعرض الإدخال "1>2".
+// 2 - إدراج حقل SEQ الذي ينتمي إلى التسلسل الرئيسي لجدول المحتويات:
+// سيؤدي حقل SEQ هذا إلى إنشاء إدخال في جدول المحتويات.
+// سيحتوي إدخال جدول المحتويات على الفقرة التي يوجد بها حقل التسلسل ورقم الصفحة التي يظهر فيها.
+// سيعرض هذا الإدخال أيضًا العدد الذي يوجد عنده تسلسل البادئة حاليًا،
+// مفصولة عن رقم الصفحة بالقيمة الموجودة في خاصية SeqenceSeparator في جدول المحتويات.
+// عدد "PrefixSequence" هو 1، حقل SEQ التسلسل الرئيسي هذا موجود في الصفحة 2،
+// والفاصل هو ">"، لذلك سيتم عرض الإدخال "1>2".
 builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
 
-// أدخل صفحة، وقم بتقديم تسلسل البادئة بمقدار 2، وأدخل حقل SEQ لإنشاء إدخال جدول المحتويات بعد ذلك.
-// تسلسل البادئة الآن عند 2، وحقل التسلسل الرئيسي SEQ موجود في الصفحة 3،
-// لذلك سيعرض إدخال جدول المحتويات "2>3" في عدد الصفحات الخاص به.
+// قم بإدراج صفحة، ثم قم بتقديم تسلسل البادئة بمقدار 2، ثم أدخل حقل SEQ لإنشاء إدخال جدول المحتويات بعد ذلك.
+// تسلسل البادئة موجود الآن عند 2، وحقل تسلسل SEQ الرئيسي موجود في الصفحة 3،
+// لذلك سيتم عرض إدخال جدول المحتويات "2>3" في عدد الصفحات.
 builder.InsertBreak(BreakType.PageBreak);
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";

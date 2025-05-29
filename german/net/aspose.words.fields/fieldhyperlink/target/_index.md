@@ -3,14 +3,14 @@ title: FieldHyperlink.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words für .NET
-description: FieldHyperlink Target eigendom. Ruft das Ziel ab zu dem der Link umgeleitet werden soll oder legt dieses fest in C#.
+description: Entdecken Sie die FieldHyperlink-Zieleigenschaft und konfigurieren Sie ganz einfach die Linkumleitung für eine verbesserte Benutzernavigation und nahtlose Web-Erlebnisse.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldhyperlink/target/
 ---
 ## FieldHyperlink.Target property
 
-Ruft das Ziel ab, zu dem der Link umgeleitet werden soll, oder legt dieses fest.
+Ruft das Ziel ab oder legt es fest, zu dem der Link umgeleitet werden soll.
 
 ```csharp
 public string Target { get; set; }

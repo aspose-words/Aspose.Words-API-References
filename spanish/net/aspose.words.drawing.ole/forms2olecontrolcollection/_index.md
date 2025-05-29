@@ -3,16 +3,16 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection clase. Representa la colección deForms2OleControl objetos en C#.
+description: Descubra la clase Aspose.Words.Drawing.Ole.Forms2OleControlCollection, su solución para administrar objetos Forms2OleControl de manera eficiente en el procesamiento de documentos.
 type: docs
-weight: 1120
+weight: 1470
 url: /es/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
 Representa la colección de[`Forms2OleControl`](../forms2olecontrol/) objetos.
 
-Para obtener más información, visite el[Trabajar con objetos antiguos](https://docs.aspose.com/words/net/working-with-ole-objects/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con objetos Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) Artículo de documentación.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -28,7 +28,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Obtiene el recuento de objetos de la colección. |
+| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Obtiene el recuento de objetos en la colección. |
 | [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Obtiene[`Forms2OleControl`](../forms2olecontrol/) objeto en un índice especificado. |
 
 ## Métodos

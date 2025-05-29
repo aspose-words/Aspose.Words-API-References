@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words لـ .NET
-description: CustomXmlPropertyCollection IndexOfKey طريقة. إرجاع الفهرس الصفري للخاصية المحددة في المجموعة في C#.
+description: اكتشف دالة CustomXmlPropertyCollection IndexOfKey للعثور بسهولة على الفهرس الصفري لأي خاصية في مجموعتك. حسّن كفاءة ترميزك!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
 ---
 ## CustomXmlPropertyCollection.IndexOfKey method
 
-إرجاع الفهرس الصفري للخاصية المحددة في المجموعة.
+يعيد الفهرس المبني على الصفر للخاصية المحددة في المجموعة.
 
 ```csharp
 public int IndexOfKey(string name)
@@ -22,26 +22,26 @@ public int IndexOfKey(string name)
 
 ### قيمة الإرجاع
 
-المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
+الفهرس صفري. قيمة سلبية في حال عدم العثور عليه.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
+يوضح كيفية العمل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
-// في Word 2003، يمكننا تمكين العلامات الذكية عبر "الأدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
-// في مستند الإدخال لدينا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
-// قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد.
+// تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
+// في Word 2003، يمكننا تمكين العلامات الذكية عبر "أدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
+// في مستند الإدخال الخاص بنا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
+//قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد منها.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// يحتوي عضو "الخصائص" في العلامة الذكية على بيانات التعريف الخاصة به، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
-// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم الخاص بها.
+// يحتوي عنصر "الخصائص" في العلامة الذكية على بياناتها الوصفية، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
+// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -55,7 +55,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
+//يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -67,7 +67,7 @@ properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);

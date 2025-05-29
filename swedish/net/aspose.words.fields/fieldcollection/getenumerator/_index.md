@@ -3,14 +3,14 @@ title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: FieldCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck FieldCollection GetEnumerator-metoden – returnera effektivt ett enumerator-objekt och förbättra dina datahanteringsfunktioner.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcollection/getenumerator/
 ---
 ## FieldCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<Field> GetEnumerator()
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

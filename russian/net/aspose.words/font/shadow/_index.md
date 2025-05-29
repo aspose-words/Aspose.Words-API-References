@@ -3,9 +3,9 @@ title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words для .NET
-description: Font Shadow свойство. True если шрифт отформатирован как затененный на С#.
+description: Откройте для себя свойство Font Shadow, улучшите свой текст с помощью стильных эффектов тени, чтобы придать вашим проектам поразительную визуальную привлекательность.
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
@@ -18,14 +18,14 @@ public bool Shadow { get; set; }
 
 ## Примеры
 
-Показывает, как создать фрагмент текста, отформатированный с помощью тени.
+Показывает, как создать фрагмент текста, отформатированный с тенью.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите флаг Shadow, чтобы применить эффект смещения тени,
-// создаем впечатление, будто буквы плавают над страницей.
+// Установите флаг «Тень», чтобы применить эффект смещения тени,
+// создавая впечатление, что буквы парят над страницей.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

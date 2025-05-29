@@ -3,14 +3,14 @@ title: FontSourceBase.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words per .NET
-description: FontSourceBase Priority proprietà. Restituisce la priorità della fonte del carattere in C#.
+description: Scopri la proprietà FontSourceBase Priority per ottimizzare il sourcing dei tuoi font. Migliora le prestazioni e l'esperienza utente senza sforzo!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-Restituisce la priorità della fonte del carattere.
+Restituisce la priorità della sorgente del font.
 
 ```csharp
 public int Priority { get; }
@@ -18,13 +18,13 @@ public int Priority { get; }
 
 ## Osservazioni
 
-Questo valore viene utilizzato quando sono presenti caratteri con lo stesso nome di famiglia e stile in diverse origini di caratteri. In questo caso Aspose.Words seleziona il carattere dall'origine con il valore di priorità più alto.
+Questo valore viene utilizzato quando sono presenti font con lo stesso nome di famiglia e stile in diverse origini font. In questo caso Aspose.Words seleziona il font dall'origine con il valore di priorità più alto.
 
 Il valore predefinito è 0.
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

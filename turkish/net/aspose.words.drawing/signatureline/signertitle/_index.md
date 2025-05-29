@@ -2,15 +2,15 @@
 title: SignatureLine.SignerTitle
 linktitle: SignerTitle
 articleTitle: SignerTitle
-second_title: Aspose.Words for .NET
-description: SignatureLine SignerTitle mülk. Önerilen imzalayanın unvanını alır veya ayarlar örneğin Yönetici. Bu özellik için varsayılan değerboş dize Empty C#'da.
+second_title: .NET için Aspose.Words
+description: Belge iş akışınızı geliştirmek için SignatureLine'daki SignerTitle'ı özelleştirin. Sorunsuz imzalama deneyimleri için 'Yönetici' gibi önerilen başlıkları ayarlayın.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer:**boş dize** (Empty).
+Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer**boş dize** (Empty ).
 
 ```csharp
 public string SignerTitle { get; set; }
@@ -18,7 +18,7 @@ public string SignerTitle { get; set; }
 
 ## Örnekler
 
-İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
+İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
-// Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Görünümünü belirleyeceğimiz bir imza satırı içerecek bir şekil ekleyin.
+// Yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştiriyoruz.
+// Sayfanın sağ alt köşesinden koordinatları çıkan bir şekil eklersek,
+// Şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayın.
+// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayalım.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -3,9 +3,9 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words para .NET
-description: Aspose.Words.PageBorderAppliesTo enumeración. Especifica en qué páginas se imprime el borde de la página en C#.
+description: Descubra la enumeración Aspose.Words.PageBorderAppliesTo para controlar la impresión del borde de página en páginas específicas para mejorar el formato del documento.
 type: docs
-weight: 4340
+weight: 5070
 url: /es/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -20,9 +20,9 @@ public enum PageBorderAppliesTo
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AllPages | `0` | El borde de la página se muestra en todas las páginas de la sección. |
+| AllPages | `0` | El borde de página se muestra en todas las páginas de la sección. |
 | FirstPage | `1` | El borde de la página se muestra solo en la primera página de la sección. |
-| OtherPages | `2` | El borde de la página se muestra en todas las páginas excepto en la primera página de la sección. |
+| OtherPages | `2` | El borde de página se muestra en todas las páginas excepto en la primera página de la sección. |
 
 ## Ejemplos
 

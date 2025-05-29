@@ -3,14 +3,14 @@ title: SvgSaveOptions.FitToViewPort
 linktitle: FitToViewPort
 articleTitle: FitToViewPort
 second_title: Aspose.Words für .NET
-description: SvgSaveOptions FitToViewPort eigendom. Gibt an ob die AusgabeSVG den verfügbaren Ansichtsfensterbereich Browserfenster oder Container ausfüllen soll. Wenn auf gesetztWAHR Breite und Höhe der AusgabeSVG werden auf 100  gesetzt in C#.
+description: Entdecken Sie, wie die FitToViewPort-Eigenschaft von SvgSaveOptions Ihre SVG-Ausgabe optimiert, um jedes Browserfenster oder jeden Container perfekt auszufüllen und beeindruckende visuelle Darstellungen zu erzielen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Gibt an, ob die Ausgabe-SVG den verfügbaren Ansichtsfensterbereich (Browserfenster oder Container) ausfüllen soll. Wenn auf gesetzt`WAHR` Breite und Höhe der Ausgabe-SVG werden auf 100 % gesetzt.
+Gibt an, ob das Ausgabe-SVG den verfügbaren Ansichtsbereich (Browserfenster oder Container) ausfüllen soll. Wenn auf`WAHR`Breite und Höhe des Ausgabe-SVG sind auf 100 % eingestellt.
 
 Der Standardwert ist`FALSCH`.
 
@@ -20,12 +20,12 @@ public bool FitToViewPort { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments in .svg nachgeahmt werden.
+Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines DOCX-Dokuments in SVG nachgeahmt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurieren Sie das SVGSaveOptions-Objekt zum Speichern ohne Seitenränder oder auswählbaren Text.
+// Konfigurieren Sie das SvgSaveOptions-Objekt so, dass ohne Seitenränder oder auswählbaren Text gespeichert wird.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

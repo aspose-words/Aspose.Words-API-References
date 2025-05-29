@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGlossaryDocumentEnd
 linktitle: VisitGlossaryDocumentEnd
 articleTitle: VisitGlossaryDocumentEnd
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitGlossaryDocumentEnd metod. Anropas när uppräkningen av ett ordlistadokument har avslutats i C#.
+description: Utforska VisitGlossaryDocumentEnd-metoden i DocumentVisitor. Lär dig hur den förbättrar uppräkningen av ordlistadokument för effektiv datahantering.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/documentvisitor/visitglossarydocumentend/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentEnd method
 
-Anropas när uppräkningen av ett ordlistadokument har avslutats.
+Anropas när uppräkningen av ett ordlistadokument är avslutad.
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Anmärkningar
 
-Obs: En ordlista dokumentnod och dess underordnade besöks inte när du kör en besökare över en[`Document`](../../document/) . Om du vill köra ett Besökare över ett ordlistadokument måste du ringa[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Obs! En nod i ett ordlistadokument och dess underordnade noder besöks inte när du kör en Visitor över en[`Document`](../../document/) Om du vill köra en Visitor över ett ordlistadokument med måste du anropa[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ## Exempel
 
@@ -38,42 +38,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Det finns olika sätt att komma åt byggstenar.
-    // 1 - Få de första/sista byggstenarna i samlingen:
+    // 1 - Hämta de första/sista byggstenarna i samlingen:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Få en byggsten efter index:
+    // 2 - Hämta en byggsten via index:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Få den första byggstenen som matchar ett galleri, namn och kategori:
+    // 3 - Hämta den första byggstenen som matchar ett galleri, namn och kategori:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Vi kommer att göra det med en anpassad besökare,
-    // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
+    // Vi gör det med hjälp av en anpassad besökare,
+    // vilket ger varje BuildingBlock i GlossaryDocument ett unikt GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Besök början/slutet av ordlistadokumentet.
     glossaryDoc.Accept(visitor);
+    // Besök endast början av ordlistadokumentet.
+    glossaryDoc.AcceptStart(visitor);
+    // Besök endast slutet av ordlistadokumentet.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".
+    // I Microsoft Word kan vi komma åt byggstenarna via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Ger varje byggsten i ett besökt ordlistadokument en unik GUID.
-/// Lagrar GUID-byggblocksparen i en ordbok.
+/// Ger varje byggsten i ett besökt ordlistadokument ett unikt GUID.
+/// Lagrar GUID-byggstensparen i en ordbok.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

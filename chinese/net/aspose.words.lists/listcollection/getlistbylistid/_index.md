@@ -2,10 +2,10 @@
 title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
-second_title: 用于 .NET 的 Aspose.Words
-description: ListCollection GetListByListId 方法. 通过列表标识符获取列表 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 GetListByListId 方法轻松检索所需列表。使用简单的列表标识符快速访问数据，提高效率。
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -22,15 +22,15 @@ public List GetListByListId(int listId)
 
 ### 返回值
 
-返回列表对象。退货`无效的`如果未找到具有指定标识符的列表。
+返回列表对象。返回`无效的`如果未找到具有指定标识符的列表。
 
 ## 评论
 
-您通常不需要使用此方法。大多数时候，您只需通过设置将列表格式化 应用于段落[`List`](../../listformat/list/)的 property [`ListFormat`](../../listformat/)目的。
+通常情况下，你不需要使用此方法。大多数情况下，你只需设置[`List`](../../listformat/list/)property 的[`ListFormat`](../../listformat/)目的。
 
 ## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();

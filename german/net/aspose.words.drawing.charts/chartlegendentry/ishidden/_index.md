@@ -3,14 +3,14 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words für .NET
-description: ChartLegendEntry IsHidden eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die IsHidden-Eigenschaft von ChartLegendEntry und steuern Sie mühelos die Sichtbarkeit der Diagrammlegende. Verbessern Sie Ihre Datenpräsentation mit dieser einfachen Umschaltfunktion!
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist**FALSCH** .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist**FALSCH** .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -18,7 +18,7 @@ public bool IsHidden { get; set; }
 
 ## Bemerkungen
 
-Wenn ein Diagrammlegendeneintrag ausgeblendet ist, hat dies keine Auswirkungen auf die entsprechende Diagrammreihe oder Trendlinie, die weiterhin im Diagramm angezeigt wird.
+Wenn ein Eintrag in der Diagrammlegende ausgeblendet wird, hat dies keine Auswirkungen auf die entsprechende Diagrammreihe oder Trendlinie, die weiterhin im Diagramm angezeigt wird.
 
 ## Beispiele
 
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

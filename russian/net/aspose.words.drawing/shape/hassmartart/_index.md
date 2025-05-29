@@ -3,14 +3,14 @@ title: Shape.HasSmartArt
 linktitle: HasSmartArt
 articleTitle: HasSmartArt
 second_title: Aspose.Words для .NET
-description: Shape HasSmartArt свойство. Возвращаетистинный если этоShape имеет объект SmartArt на С#.
+description: Узнайте, содержит ли ваша форма объект SmartArt со свойством HasSmartArt. Откройте для себя творческие возможности дизайна для ваших проектов!
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Возвращает`истинный` если это[`Shape`](../) имеет объект SmartArt.
+Возврат`истинный` если это[`Shape`](../) имеет объект SmartArt.
 
 ```csharp
 public bool HasSmartArt { get; }

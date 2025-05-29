@@ -3,14 +3,14 @@ title: FieldCompare.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words für .NET
-description: FieldCompare RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
+description: Entdecken Sie die RightExpression-Eigenschaft von FieldCompare, um die rechte Seite Ihrer Vergleichsausdrücke für optimale Leistung einfach zu verwalten und anzupassen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcompare/rightexpression/
 ---
 ## FieldCompare.RightExpression property
 
-Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+Ruft den rechten Teil des Vergleichsausdrucks ab oder legt ihn fest.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -30,7 +30,7 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Das COMPARE-Feld zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
+// Das Feld COMPARE zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
 // Das Ergebnis dieser Anweisung ist falsch, sodass in diesem Feld eine „0“ angezeigt wird.
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);

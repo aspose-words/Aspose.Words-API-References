@@ -2,8 +2,8 @@
 title: NodeList.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: NodeList Count mülk. Listedeki düğüm sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Listenizdeki düğümlerin toplam sayısını kolayca almak için NodeList Count özelliğini keşfedin ve web geliştirme verimliliğinizi artırın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodelist/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Örnekler
 
-Bir NodeList'te gezinmek için XPath'ların nasıl kullanılacağını gösterir.
+Bir NodeList'te gezinmek için XPath'lerin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder ile bazı düğümleri ekleyin.
+// DocumentBuilder ile birkaç düğüm ekle.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -34,14 +34,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgemiz üç Run düğümü içeriyor.
+// Belgemizde üç adet Run düğümü bulunmaktadır.
 NodeList nodeList = doc.SelectNodes("//Koşmak");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -50,19 +45,19 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Tüm Çalıştırma düğümlerini seçmek için çift eğik çizgi kullanın
-// bunlar, eklediğimiz iki hücrenin içindeki işlemler olacak bir Tablo düğümünün dolaylı alt öğeleridir.
+// bunlar, eklediğimiz iki hücrenin içindeki çalışmalar olacak olan Tablo düğümünün dolaylı alt öğeleridir.
 nodeList = doc.SelectNodes("//Table//Koşmak");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Tek eğik çizgiler doğrudan alt köken ilişkilerini belirtir,
+// Tek eğik çizgiler doğrudan alt ilişkileri belirtir,
 // çift eğik çizgi kullandığımızda bunu atladık.
 Assert.AreEqual(doc.SelectNodes(" //Tablo//Çalıştır"),
     doc.SelectNodes("//Tablo/Satır/Hücre/Paragraf/Çalıştır"));
 
-// Eklediğimiz görseli içeren şekle erişiyoruz.
+// Eklediğimiz görseli içeren şekle eriş.
 nodeList = doc.SelectNodes("//Şekil");
 
 Assert.AreEqual(1, nodeList.Count);

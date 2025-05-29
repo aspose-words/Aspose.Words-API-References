@@ -3,9 +3,9 @@ title: ChartAxisTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: ChartAxisTitle Text propiedad. Obtiene o establece el texto del título del eje. Sinulo o se especifica un valor vacío se mostrará el título generado automáticamente en C#.
+description: Descubra la propiedad ChartAxisTitle Text para personalizar fácilmente los títulos de sus ejes. Configure u obtenga títulos dinámicos para una mejor visualización de datos.
 type: docs
-weight: 30
+weight: 50
 url: /es/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## Observaciones
 
-Usar[`Show`](../show/) opción si necesita mostrar el título.
+Usar[`Show`](../show/)Opción si necesita mostrar el título.
 
 ## Ejemplos
 
-Muestra cómo configurar el título del eje del gráfico.
+Muestra cómo establecer el título del eje del gráfico.
 
 ```csharp
 Document doc = new Document();
@@ -32,17 +32,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Eliminar la serie generada por defecto.
+//Eliminar serie generada por defecto.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Establecer título del eje.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

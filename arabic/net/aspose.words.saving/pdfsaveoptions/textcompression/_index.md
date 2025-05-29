@@ -3,14 +3,14 @@ title: PdfSaveOptions.TextCompression
 linktitle: TextCompression
 articleTitle: TextCompression
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions TextCompression ملكية. يحدد نوع الضغط الذي سيتم استخدامه لكل المحتوى النصي في المستند في C#.
+description: اكتشف خاصية ضغط النص في PdfSaveOptions لتحسين مستنداتك. اختر نوع الضغط الأنسب لتخزين نصوص فعّال وتحميل أسرع.
 type: docs
-weight: 290
+weight: 310
 url: /ar/net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
 
-يحدد نوع الضغط الذي سيتم استخدامه لكل المحتوى النصي في المستند.
+يحدد نوع الضغط الذي سيتم استخدامه لجميع النصوص في المستند.
 
 ```csharp
 public PdfTextCompression TextCompression { get; set; }
@@ -20,11 +20,11 @@ public PdfTextCompression TextCompression { get; set; }
 
 الافتراضي هوFlate.
 
-يزيد حجم الإخراج بشكل ملحوظ عند حفظ مستند دون ضغط.
+يزيد حجم الإخراج بشكل كبير عند حفظ مستند بدون ضغط.
 
 ## أمثلة
 
-يوضح كيفية تطبيق ضغط النص عند حفظ مستند إلى PDF.
+يوضح كيفية تطبيق ضغط النص عند حفظ مستند بتنسيق PDF.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// اضبط خاصية "ضغط النص" على "PdfTextCompression.None" حتى لا يتم تطبيق أي منها
-// الضغط على النص عندما نحفظ المستند بصيغة PDF.
+// اضبط خاصية "TextCompression" على "PdfTextCompression.None" لعدم تطبيق أي
+// ضغط النص عندما نحفظ المستند بصيغة PDF.
 // اضبط خاصية "TextCompression" على "PdfTextCompression.Flate" لتطبيق ضغط ZIP
-// إلى النص عندما نحفظ المستند إلى PDF. كلما كانت الوثيقة أكبر، كلما كان التأثير أكبر.
+// إلى نص عند حفظ المستند بصيغة PDF. كلما كان حجم المستند أكبر، كان تأثير ذلك أكبر.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

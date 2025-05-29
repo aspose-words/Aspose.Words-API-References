@@ -3,9 +3,9 @@ title: IFieldUpdatingCallback Interface
 linktitle: IFieldUpdatingCallback
 articleTitle: IFieldUpdatingCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldUpdatingCallback interface. Implémentez cette interface si vous souhaitez que vos propres méthodes personnalisées soient appelées lors dune mise à jour de champ en C#.
+description: Personnalisez les mises à jour de champs dans Aspose.Words avec l'interface IFieldUpdatingCallback. Améliorez les fonctionnalités avec vos propres méthodes pour un traitement de documents sur mesure.
 type: docs
-weight: 2720
+weight: 3130
 url: /fr/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -25,7 +25,7 @@ public interface IFieldUpdatingCallback
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

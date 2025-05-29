@@ -2,17 +2,17 @@
 title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaProject sınıf. VBA proje bilgilerine erişim sağlar. Belge içindeki bir VBA projesi VBA modüllerinin bir koleksiyonu olarak tanımlanır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki VBA proje bilgilerini ve modüllerini zahmetsizce yönetmek için Aspose.Words.Vba.VbaProject sınıfının gücünü açığa çıkarın. Otomasyonunuzu bugün geliştirin!
 type: docs
-weight: 6580
+weight: 7430
 url: /tr/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-VBA proje bilgilerine erişim sağlar. Belge içindeki bir VBA projesi, VBA modüllerinin bir koleksiyonu olarak tanımlanır.
+VBA proje bilgilerine erişim sağlar. Belge içindeki bir VBA projesi, VBA modülleri koleksiyonu olarak tanımlanır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışma](https://docs.aspose.com/words/net/working-with-vba-macros/) belgeleme makalesi.
 
 ```csharp
 public class VbaProject
@@ -22,15 +22,16 @@ public class VbaProject
 
 | İsim | Tanım |
 | --- | --- |
-| [VbaProject](vbaproject/)() | Bir boşluk oluşturur`VbaProject` . |
+| [VbaProject](vbaproject/)() | Boş bir sayfa oluşturur`VbaProject` . |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
 | [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | VBA projesinin kod sayfasını alır veya ayarlar. |
-| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Şunun olup olmadığını gösterir:`VbaProject` imzalanmış veya imzalanmamış. |
-| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | VBA proje modüllerinin koleksiyonunu döndürür. |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | Aşağıdakilerin olup olmadığını gösterir:`VbaProject` şifre korumalıdır. |
+| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Aşağıdakilerin olup olmadığını gösterir:`VbaProject` imzalanmış mı değil mi? |
+| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | VBA proje modülleri koleksiyonunu döndürür. |
 | [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | VBA proje adını alır veya ayarlar. |
 | [References](../../aspose.words.vba/vbaproject/references/) { get; } | VBA proje referanslarının bir koleksiyonunu alır. |
 
@@ -53,18 +54,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya adına göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Koleksiyondan bir modülü kaldırın.
+// Koleksiyondan bir modülü kaldır.
 vbaModules.Remove(vbaModules[2]);
 ```
 

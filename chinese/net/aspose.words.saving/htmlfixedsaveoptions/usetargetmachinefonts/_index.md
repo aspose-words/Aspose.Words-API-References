@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlFixedSaveOptions UseTargetMachineFonts 财产. 标志指示是否必须使用来自目标计算机的字体来显示文档 如果此标志设置为真的FontFormat和ExportEmbeddedFonts属性没有效果 也ResourceSavingCallback不会针对字体触发 默认为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 HtmlFixedSaveOptions 中的 UseTargetMachineFonts 属性如何利用目标机器字体增强文档显示效果。立即优化您的字体管理！
 type: docs
-weight: 190
+weight: 210
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-标志指示是否必须使用来自目标计算机的字体来显示文档。 如果此标志设置为`真的`,[`FontFormat`](../fontformat/)和[`ExportEmbeddedFonts`](../exportembeddedfonts/)属性没有效果， 也[`ResourceSavingCallback`](../resourcesavingcallback/)不会针对字体触发。 默认为`错误的`.
+标志指示是否必须使用目标机器的字体来显示文档。 如果将此标志设置为`真的`，[`FontFormat`](../fontformat/)和[`ExportEmbeddedFonts`](../exportembeddedfonts/)属性不起作用， 也不起作用[`ResourceSavingCallback`](../resourcesavingcallback/)不会因字体而触发。 默认为`错误的`.
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -18,7 +18,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ## 例子
 
-显示将文档保存为 HTML 时如何仅使用目标计算机的字体。
+展示如何将文档保存为 HTML 时仅使用目标机器的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

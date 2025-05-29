@@ -3,7 +3,7 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words für .NET
-description: Field Update methode. Führt die Feldaktualisierung durch. Wird ausgelöst wenn das Feld bereits aktualisiert wird in C#.
+description: Aktualisieren Sie Felder effizient mit unserer Feldaktualisierungsmethode. Verhindert Konflikte, indem sichergestellt wird, dass Felder nicht bereits verwendet werden. Optimieren Sie noch heute Ihr Datenmanagement!
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/field/update/
@@ -18,14 +18,14 @@ public void Update()
 
 ## Beispiele
 
-Zeigt, wie man mithilfe von FieldType ein Feld in ein Dokument einfügt.
+Zeigt, wie mit FieldType ein Feld in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Zwei Felder einfügen und dabei ein Flag übergeben, das bestimmt, ob sie aktualisiert werden, wenn der Builder sie einfügt.
-// In manchen Fällen kann das Aktualisieren von Feldern rechenintensiv sein, und es kann eine gute Idee sein, die Aktualisierung zu verschieben.
+// Fügen Sie zwei Felder ein und übergeben Sie dabei ein Flag, das bestimmt, ob sie beim Einfügen durch den Builder aktualisiert werden sollen.
+// In einigen Fällen kann das Aktualisieren von Feldern rechenintensiv sein und es kann eine gute Idee sein, das Update zu verschieben.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Wir müssen diese Felder mithilfe der Aktualisierungsmethoden manuell aktualisieren.
+    // Wir müssen diese Felder manuell mit den Aktualisierungsmethoden aktualisieren.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -64,14 +64,14 @@ Zeigt, wie Feldergebnisse formatiert werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Dokument-Builder, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
+// Verwenden Sie einen Dokumentgenerator, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Wir können mithilfe der Eigenschaften des Felds ein Format auf das Ergebnis eines Felds anwenden.
-// Nachfolgend sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
+// Wir können mithilfe der Feldeigenschaften ein Format auf das Ergebnis eines Felds anwenden.
+// Unten sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
 // 1 - Numerisches Format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -80,7 +80,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datums-/Uhrzeitformat:
+// 2 - Datums-/Zeitformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Wir können unsere Formate entfernen, um das Ergebnis des Feldes in seine ursprüngliche Form zurückzusetzen.
+// Wir können unsere Formate entfernen, um das Ergebnis des Felds in seine ursprüngliche Form zurückzusetzen.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Wenn`WAHR` dann wird die Formatierung der direkten Feldergebnisse unabhängig vom MERGEFORMAT-Schalter aufgegeben, andernfalls wird eine normale Aktualisierung durchgeführt. |
+| ignoreMergeFormat | Boolean | Wenn`WAHR` dann wird die direkte Feldergebnisformatierung unabhängig vom MERGEFORMAT-Schalter abgebrochen, andernfalls wird eine normale Aktualisierung durchgeführt. |
 
 ## Beispiele
 
@@ -153,8 +153,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Wir können in einem LoadOptions-Objekt ein Flag setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
-    // in Bildformen konvertieren, wenn ein Dokument geladen wird, das diese enthält.
+    // Wir können ein Flag in einem LoadOptions-Objekt setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
+    // in Bildformen, wenn ein Dokument geladen wird, das diese enthält.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

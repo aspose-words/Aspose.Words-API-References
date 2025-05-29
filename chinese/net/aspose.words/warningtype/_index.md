@@ -2,15 +2,15 @@
 title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.WarningType 枚举. 指定在文档加载或保存期间 Aspose.Words 发出的警告类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.WarningType 枚举，它对文档加载或保存期间的警告进行分类，增强您的文档管理体验。
 type: docs
-weight: 6660
+weight: 7510
 url: /zh/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
 
-指定在文档加载或保存期间 Aspose.Words 发出的警告类型。
+指定在文档加载或保存期间由 Aspose.Words 发出的警告类型。
 
 ```csharp
 [Flags]
@@ -21,26 +21,26 @@ public enum WarningType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DataLossCategory | `FF` | 加载后的文档树、 或保存后创建的文档中将会丢失一些文本/字符/图像或其他数据。 |
-| DataLoss | `1` | 一般数据丢失，无特定代码。 |
-| MajorFormattingLossCategory | `FF00` | 与原始文档相比，生成的文档或其中的特定位置可能看起来有很大不同 。 |
+| DataLossCategory | `FF` | 加载后文档树中或保存后创建的文档中将会缺少某些文本/字符/图像或其他数据。 |
+| DataLoss | `1` | 一般数据丢失，没有特定代码。 |
+| MajorFormattingLossCategory | `FF00` | 生成的文档或其中的特定位置可能与原始文档有很大不同。 |
 | MajorFormattingLoss | `100` | 通用主要格式丢失，没有特定代码。 |
-| MinorFormattingLossCategory | `FF0000` | 与原始文档相比， 生成的文档或其中的特定位置可能看起来有些不同。 |
-| MinorFormattingLoss | `10000` | 一般轻微格式丢失，无特定代码。 |
+| MinorFormattingLossCategory | `FF0000` | 与原始文档相比，生成的文档或其中的特定位置可能看起来略有不同。 |
+| MinorFormattingLoss | `10000` | 通用轻微格式损失，无具体代码。 |
 | FontSubstitution | `20000` | 字体已被替换。 |
-| FontEmbedding | `40000` | 文档保存期间丢失嵌入字体信息。 |
-| UnexpectedContentCategory | `F000000` | 源文档中的某些内容无法识别（即不受支持），这可能会也可能不会 导致问题或导致数据/格式丢失。 |
-| UnexpectedContent | `1000000` | 通用意外内容，没有特定代码。 |
-| Hint | `10000000` | 对潜在问题提出建议或提出改进建议。 |
+| FontEmbedding | `40000` | 保存文档时丢失嵌入的字体信息。 |
+| UnexpectedContentCategory | `F000000` | 源文档中的某些内容无法识别（即不受支持），这可能会或可能不会 导致问题或造成数据/格式丢失。 |
+| UnexpectedContent | `1000000` | 一般意外内容，没有特定代码。 |
+| Hint | `10000000` | 指出潜在问题或提出改进建议。 |
 
 ## 例子
 
-演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+展示如何设置属性以从可用的字体源中查找与缺失字体最接近的匹配项。
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开包含使用我们任何字体源中都不存在的字体格式化的文本的文档。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -72,13 +72,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 每次加载/保存期间出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

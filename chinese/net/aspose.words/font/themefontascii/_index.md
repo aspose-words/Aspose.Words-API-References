@@ -2,15 +2,15 @@
 title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
-second_title: 用于 .NET 的 Aspose.Words
-description: Font ThemeFontAscii 财产. 获取或设置与此关联的应用字体方案中用于拉丁文本的主题字体字符代码从 0零到 127 的字符 Font对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Font ThemeFontAscii 属性，轻松自定义设计中的拉丁文本（代码 0-127）的主题字体，增强视觉吸引力。
 type: docs
-weight: 480
+weight: 490
 url: /zh/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-获取或设置与此关联的应用字体方案中用于拉丁文本的主题字体（字符代码从 0（零）到 127 的字符） [`Font`](../)对象.
+获取或设置与此关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体 [`Font`](../)对象.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// 我们可以使用主题字体和颜色来代替默认值。
+// 我们可以使用主题字体和颜色代替默认值。
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有多种方法可以重置它们的字体和颜色。
-// 1 - 通过设置 ThemeFont.None/ThemeColor.None:
+// 有几种方法可以重置字体和颜色。
+// 1 - 通过设置 ThemeFont.None/ThemeColor.None：
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

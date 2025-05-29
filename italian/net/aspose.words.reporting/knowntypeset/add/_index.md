@@ -3,26 +3,14 @@ title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: KnownTypeSet Add metodo. Aggiunge quanto specificatoType oggetto dellinsieme. LanciaArgumentException in i seguenti casi in C#.
+description: Scopri il metodo KnownTypeSet Add per includere senza sforzo oggetti Type nel tuo set, migliorando la gestione dei dati e la funzionalità.
 type: docs
 weight: 20
 url: /it/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Aggiunge quanto specificatoType oggetto dell'insieme. LanciaArgumentException in i seguenti casi:
-
--*type* È`nullo`.
-
--*type* rappresenta un tipo vuoto.
-
--*type* rappresenta un tipo invisibile, ovvero un tipo non pubblico o un tipo annidato pubblico che ha un tipo esterno non pubblico.
-
--*type* rappresenta un tipo generico.
-
--*type* rappresenta un tipo di array.
-
--*type* è già stato aggiunto al set.
+Aggiunge lo specificatoType oggetto all'insieme.
 
 ```csharp
 public void Add(Type type)
@@ -31,6 +19,12 @@ public void Add(Type type)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | type | Type | UNType oggetto da aggiungere. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentException | Genera nei seguenti casi: |
 
 ### Guarda anche
 

@@ -3,9 +3,9 @@ title: ThemeColor Enum
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Themes.ThemeColor uppräkning. Anger temafärgerna för dokumentteman i C#.
+description: Upptäck Aspose.Words ThemeColor-enum för att anpassa dokumentteman med livfulla färger, vilket förbättrar dokumentets visuella attraktionskraft och professionalism.
 type: docs
-weight: 6470
+weight: 7320
 url: /sv/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
@@ -33,8 +33,8 @@ public enum ThemeColor
 | Accent4 | `7` | Accentfärg 4. |
 | Accent5 | `8` | Accentfärg 5. |
 | Accent6 | `9` | Accentfärg 6. |
-| Hyperlink | `10` | Hyperlänksfärg. |
-| FollowedHyperlink | `11` | Följde hyperlänksfärg. |
+| Hyperlink | `10` | Hyperlänkfärg. |
+| FollowedHyperlink | `11` | Färg på följd hyperlänk. |
 | Text1 | `12` | Textfärg 1. |
 | Text2 | `13` | Textfärg 2. |
 | Background1 | `14` | Bakgrundsfärg 1. |
@@ -42,11 +42,11 @@ public enum ThemeColor
 
 ## Anmärkningar
 
-Den angivna temafärgen är en referens till en av de fördefinierade temafärgerna, som finns i dokumentets temadel, vilket gör att färginformation kan ställas in centralt i dokumentet.
+Den angivna temafärgen är en referens till en av de fördefinierade temafärgerna, som finns i -dokumentets temadel, vilket gör att färginformation kan ställas in centralt i dokumentet.
 
 ## Exempel
 
-Visar hur man skapar och använder stil med teman.
+Visar hur man skapar och använder temainriktad stil.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Skapa lite stil med egenskaper för tematypsnitt.
+// Skapa lite stil med temats teckensnittsegenskaper.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -64,12 +64,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -122,7 +122,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

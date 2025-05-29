@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResolveFontNames
 linktitle: ResolveFontNames
 articleTitle: ResolveFontNames
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ResolveFontNames свойство. Указывает разрешаются ли и заменяются ли имена семейств шрифтов используемые в документе в соответствии с .FontSettings при записи в форматы на основе HTML на С#.
+description: Узнайте, как свойство HtmlSaveOptions ResolveFontNames улучшает форматирование документа, обеспечивая точную замену шрифтов в выходных данных HTML.
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Указывает, разрешаются ли и заменяются ли имена семейств шрифтов, используемые в документе, в соответствии с .[`FontSettings`](../../../aspose.words/document/fontsettings/) при записи в форматы на основе HTML.
+Указывает, разрешаются ли и заменяются ли имена семейств шрифтов, используемые в документе, в соответствии с [`FontSettings`](../../../aspose.words/document/fontsettings/) при записи в форматы на основе HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -18,22 +18,22 @@ public bool ResolveFontNames { get; set; }
 
 ## Примечания
 
-По умолчанию для этой опции установлено значение`ЛОЖЬ` а имена семейств шрифтов записываются в HTML как указано в исходных документах. То есть,[`FontSettings`](../../../aspose.words/document/fontsettings/) игнорируются, и никакое разрешение или замена имен семейств шрифтов не выполняется.
+По умолчанию эта опция установлена на`ЛОЖЬ` и имена семейств шрифтов записываются в HTML как указано в исходных документах. То есть,[`FontSettings`](../../../aspose.words/document/fontsettings/) игнорируются и не выполняется разрешение или замена имен семейств шрифтов.
 
-Если для этой опции установлено значение`истинный` , Aspose.Words использует[`FontSettings`](../../../aspose.words/document/fontsettings/) разрешить каждое имя семейства шрифтов, указанное в исходном документе, в имя доступного семейства шрифтов, выполняя при необходимости замену шрифта .
+Если эта опция установлена на`истинный` , Aspose.Words использует[`FontSettings`](../../../aspose.words/document/fontsettings/) для преобразования каждого имени семейства шрифтов, указанного в исходном документе, в имя доступного семейства шрифтов, выполняя замену шрифта по мере необходимости.
 
 ## Примеры
 
-Показывает, как разрешить все имена шрифтов перед их записью в HTML.
+Показывает, как разрешить все имена шрифтов перед записью их в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Missing font.docx");
 
-// Этот документ содержит текст с именем шрифта, которого у нас нет.
+// Этот документ содержит текст, в котором упоминается шрифт, которого у нас нет.
 Assert.NotNull(doc.FontInfos["28 Days Later"]);
 
-// Если у нас нет возможности получить этот шрифт, и мы хотим иметь возможность отображать весь текст
-// в этом документе в выходном HTML мы можем заменить его другим шрифтом.
+// Если у нас нет возможности получить этот шрифт, а мы хотим иметь возможность отобразить весь текст
+// в этом документе в выходном HTML-коде мы можем заменить его другим шрифтом.
 FontSettings fontSettings = new FontSettings
 {
     SubstitutionSettings =
@@ -50,7 +50,7 @@ doc.FontSettings = fontSettings;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 {
-    // По умолчанию для этой опции установлено значение «False», и Aspose.Words записывает имена шрифтов, указанные в исходном документе.
+    // По умолчанию этот параметр имеет значение «False», и Aspose.Words записывает имена шрифтов, как указано в исходном документе.
     ResolveFontNames = resolveFontNames
 };
 

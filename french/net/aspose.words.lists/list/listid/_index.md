@@ -3,14 +3,14 @@ title: List.ListId
 linktitle: ListId
 articleTitle: ListId
 second_title: Aspose.Words pour .NET
-description: List ListId propriété. Récupère lidentifiant unique de la liste en C#.
+description: Découvrez la propriété unique ListId pour accéder et gérer facilement vos listes. Simplifiez votre flux de travail grâce à cet identifiant essentiel.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.lists/list/listid/
 ---
 ## List.ListId property
 
-Récupère l'identifiant unique de la liste.
+Obtient l'identifiant unique de la liste.
 
 ```csharp
 public int ListId { get; }
@@ -18,7 +18,7 @@ public int ListId { get; }
 
 ## Remarques
 
-Vous n'avez normalement pas besoin d'utiliser cette propriété. Mais si vous l'utilisez, vous le faites normalement so en conjonction avec le[`GetListByListId`](../../listcollection/getlistbylistid/) méthode pour trouver une liste a par son identifiant.
+Vous n'avez généralement pas besoin d'utiliser cette propriété. Cependant, si vous l'utilisez, vous le faites généralement en conjonction avec la propriété so .[`GetListByListId`](../../listcollection/getlistbylistid/) méthode pour trouver une liste a par son identifiant.
 
 ## Exemples
 
@@ -39,7 +39,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Montre comment afficher tous les paragraphes d’un document qui sont des éléments de liste.
+Montre comment générer tous les paragraphes d'un document qui sont des éléments de liste.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

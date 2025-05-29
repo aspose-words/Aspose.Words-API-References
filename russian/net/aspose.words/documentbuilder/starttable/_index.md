@@ -3,9 +3,9 @@ title: DocumentBuilder.StartTable
 linktitle: StartTable
 articleTitle: StartTable
 second_title: Aspose.Words для .NET
-description: DocumentBuilder StartTable метод. Начинает таблицу в документе на С#.
+description: Создавайте профессиональные таблицы в документах без усилий с помощью метода StartTable в DocumentBuilder. Улучшайте форматирование с легкостью!
 type: docs
-weight: 640
+weight: 680
 url: /ru/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -22,13 +22,13 @@ public Table StartTable()
 
 ## Примечания
 
-Следующий метод для вызова:[`InsertCell`](../insertcell/).
+Следующий метод для вызова —[`InsertCell`](../insertcell/).
 
 Этот метод запускает вложенную таблицу при вызове внутри ячейки.
 
 ## Примеры
 
-Показывает, как форматировать ячейки с помощью построителя документов.
+Показывает, как форматировать ячейки с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Вставляем вторую ячейку, а затем настраиваем параметры заполнения текста ячейки.
-// Построитель применит эти настройки к своей текущей ячейке, а затем создаст все новые ячейки.
+// Вставьте вторую ячейку, а затем настройте параметры заполнения текста ячейки.
+// Конструктор применит эти настройки к текущей ячейке и ко всем новым ячейкам, которые он создаст впоследствии.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -53,7 +53,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// На первую ячейку не повлияла реконфигурация заполнения, и она по-прежнему содержит значения по умолчанию.
+// Первая ячейка не была затронута реконфигурацией заполнения и по-прежнему содержит значения по умолчанию.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -66,11 +66,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Первая ячейка в выходном документе по-прежнему будет расти, чтобы соответствовать размеру соседней ячейки.
+// Первая ячейка в выходном документе все равно увеличится до размера соседней ячейки.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Показывает, как построить форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы конструктор документов применит текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и ко всем новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
+// Изменения в форматировании конструктора не влияют на ранее добавленные строки и ячейки.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -111,7 +111,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -119,8 +119,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -143,8 +143,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -156,7 +156,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

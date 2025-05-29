@@ -3,7 +3,7 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words för .NET
-description: FolderFontSource FolderPath fast egendom. Sökväg till mappen i C#.
+description: Upptäck egenskapen FolderFontSource FolderPath för enkel åtkomst till din typsnittsmapp. Effektivisera ditt designarbetsflöde idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/folderfontsource/folderpath/

@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
-second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ExportImagesAsBase64 mülk. Görüntülerin çıktı dosyasına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: MarkdownSaveOptions ExportImagesAsBase64 özelliğinin, görüntü kaydetmeyi Base64 biçiminde sağlayarak çıktı dosyalarınızı nasıl geliştirdiğini keşfedin. Varsayılan, false.
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-Görüntülerin çıktı dosyasına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. Varsayılan değer:`YANLIŞ` .
+Görüntülerin çıktı dosyasına Base64 biçiminde kaydedilip kaydedilmeyeceğini belirtir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## Notlar
 
-Bu özellik olarak ayarlandığında`doğru` görüntü verileri doğrudan x000d_'ye aktarılır**img** öğeler ve ayrı dosyalar oluşturulmaz.
+Bu özellik şu şekilde ayarlandığında:`doğru` görüntü verileri doğrudan olarak dışa aktarılır**resim** öğeler ve ayrı dosyalar oluşturulmaz.
 
 ## Örnekler
 
-İçinde gömülü resimler bulunan bir .md belgesinin nasıl kaydedileceğini gösterir.
+İçerisine resimler yerleştirilmiş bir .md belgesinin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

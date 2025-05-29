@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertNode
 linktitle: InsertNode
 articleTitle: InsertNode
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertNode metod. Infogar en nod före markören i C#.
+description: Förbättra ditt dokumentskapande med DocumentBuilder InsertNode-metoden. Infoga enkelt noder före markören för sömlös redigering!
 type: docs
-weight: 380
+weight: 410
 url: /sv/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Nedan finns två sätt att applicera en bild på en form så att den kan visa den.
-// 1 - Ställ in formen så att den innehåller bilden.
+// Nedan följer två sätt att tillämpa en bild på en form så att den kan visas.
+// 1 - Ange formen så att den innehåller bilden.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -41,7 +41,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Ställ in formen för att länka till en bildfil i det lokala filsystemet.
+// 2 - Ange formen för att länka till en bildfil i det lokala filsystemet.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

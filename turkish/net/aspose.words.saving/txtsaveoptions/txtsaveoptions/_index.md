@@ -2,8 +2,8 @@
 title: TxtSaveOptions
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
-second_title: Aspose.Words for .NET
-description: TxtSaveOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz dosya kaydetme için TxtSaveOptions oluşturucusunu keşfedin. Verimli veri yönetimi ve gelişmiş performans için varsayılan oluşturucuyu kullanın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/

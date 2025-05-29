@@ -3,9 +3,9 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection classe. Représente une collection daxes de graphique en C#.
+description: Découvrez la classe Aspose.Words.ChartAxisCollection, votre solution de référence pour gérer efficacement les axes des graphiques et améliorer la visualisation des données de votre document.
 type: docs
-weight: 640
+weight: 900
 url: /fr/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Masquer les lignes principales du quadrillage sur les axes Y primaire et secondaire.
+// Masquer les principales lignes de la grille sur les axes Y primaire et secondaire.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

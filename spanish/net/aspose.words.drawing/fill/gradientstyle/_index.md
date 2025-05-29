@@ -3,9 +3,9 @@ title: Fill.GradientStyle
 linktitle: GradientStyle
 articleTitle: GradientStyle
 second_title: Aspose.Words para .NET
-description: Fill GradientStyle propiedad. Obtiene el estilo de degradadoGradientStyle para el relleno en C#.
+description: Descubre cómo mejorar tus diseños con la propiedad GradientStyle para obtener efectos de relleno espectaculares. ¡Dale un toque especial a tus proyectos con degradados vibrantes!
 type: docs
-weight: 110
+weight: 120
 url: /es/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -39,7 +39,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());

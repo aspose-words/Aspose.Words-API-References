@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words para .NET
-description: Paragraph IsEndOfSection propiedad. Verdadero si este párrafo es el último párrafo delBody historia del texto principal de unSection  falso en caso contrario en C#.
+description: Descubra la propiedad IsEndOfSection de párrafo, identifique si un párrafo es el último en el texto principal de una sección para mejorar la estructura y la claridad del documento.
 type: docs
 weight: 80
 url: /es/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Verdadero si este párrafo es el último párrafo del[`Body`](../../body/) (historia del texto principal) de un[`Section`](../../section/) ; falso en caso contrario.
+Verdadero si este párrafo es el último párrafo del[`Body`](../../body/) (historia del texto principal) de una[`Section`](../../section/) ; falso en caso contrario.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -56,7 +56,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // recorre todos los nodos a nivel de bloque en el cuerpo de la sección,
+        // Recorre todos los nodos de nivel de bloque en el cuerpo de la sección,
         // luego clona e inserta cada nodo que no sea el último párrafo vacío de una sección.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)

@@ -2,8 +2,8 @@
 title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaReferenceCollection RemoveAt 方法. 删除VbaReference集合中指定索引处的元素 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 RemoveAt 方法轻松管理您的 VbaReferenceCollection，通过索引删除元素，提高您的 VBA 编码效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 ## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+展示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
 public void RemoveVbaReference()

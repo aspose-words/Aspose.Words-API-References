@@ -3,7 +3,7 @@ title: SignatureLine.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words para .NET
-description: SignatureLine AllowComments propiedad. Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esFALSO  en C#.
+description: Descubra la propiedad "AllowComments" de SignatureLine, que permite a los firmantes añadir comentarios en el cuadro de diálogo Firmar para obtener una mejor respuesta. El valor predeterminado es "false".
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/signatureline/allowcomments/
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
-// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
+// Insertar una forma que contendrá una línea de firma, cuya apariencia definiremos
+// personaliza usando el objeto "SignatureLineOptions" que hemos creado anteriormente.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Necesitaremos proporcionar coordenadas x e y negativas para que la forma sea visible.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica las propiedades de nuestra línea de firma a través de su objeto Shape.
+// Verifique las propiedades de nuestra línea de firma a través de su objeto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -3,9 +3,9 @@ title: OdtSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words per .NET
-description: OdtSaveOptions Password proprietà. Ottiene o imposta una password per crittografare il documento in C#.
+description: Proteggi i tuoi documenti con la proprietà Password di OdtSaveOptions. Imposta o recupera facilmente una password per una crittografia avanzata e una protezione dei dati avanzata.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.saving/odtsaveoptions/password/
 ---
 ## OdtSaveOptions.Password property
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Osservazioni
 
-Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
+Per salvare il documento senza crittografia questa proprietà dovrebbe essere`null` o stringa vuota.
 
 ## Esempi
 
@@ -30,14 +30,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un nuovo OdtSaveOptions e passa "SaveFormat.Odt",
- // o "SaveFormat.Ott" come formato in cui salvare il documento.
+ // oppure "SaveFormat.Ott" come formato in cui salvare il documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Se apriamo questo documento con un editor appropriato,
-// ci chiederà la password che abbiamo specificato nell'oggetto SaveOptions.
+// ci verrà richiesta la password specificata nell'oggetto SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart Tag свойство. Указывает тег связанный с текущим узлом тега структурированного документа. Не может бытьнулевой  на С#.
+description: Откройте для себя свойство StructuredDocumentTagRangeStart для улучшенной маркировки документов. Легко связывайте теги с узлами, чтобы оптимизировать рабочий процесс!
 type: docs
 weight: 150
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -18,7 +18,7 @@ public string Tag { get; set; }
 
 ## Примечания
 
-Тег — это произвольная строка, которую приложения могут связать со структурированным тегом document , чтобы идентифицировать его без указания видимого понятного имени.
+Тег — это произвольная строка, которую приложения могут связать со структурированным тегом документа , чтобы идентифицировать его без предоставления видимого понятного имени.
 
 ## Примеры
 

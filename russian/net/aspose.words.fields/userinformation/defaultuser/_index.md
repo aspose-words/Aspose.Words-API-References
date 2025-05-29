@@ -3,7 +3,7 @@ title: UserInformation.DefaultUser
 linktitle: DefaultUser
 articleTitle: DefaultUser
 second_title: Aspose.Words для .NET
-description: UserInformation DefaultUser свойство. Информация о пользователе по умолчанию на С#.
+description: Откройте для себя свойство DefaultUser для бесшовного управления пользовательской информацией. Повысьте эффективность своего приложения с помощью наших простых в использовании функций!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/userinformation/defaultuser/
@@ -22,7 +22,7 @@ public static UserInformation DefaultUser { get; }
 
 ## Примеры
 
-Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать данные пользователя и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
+// Вставьте поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
  // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

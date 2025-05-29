@@ -2,8 +2,8 @@
 title: GraphicsQualityOptions.CompositingMode
 linktitle: CompositingMode
 articleTitle: CompositingMode
-second_title: 用于 .NET 的 Aspose.Words
-description: GraphicsQualityOptions CompositingMode 财产. 获取或设置一个值该值指定如何将合成图像绘制到此 Graphics 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GraphicsQualityOptions CompositingMode 属性来优化图像的渲染方式，增强图形性能和质量。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -18,7 +18,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ## 例子
 
-演示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

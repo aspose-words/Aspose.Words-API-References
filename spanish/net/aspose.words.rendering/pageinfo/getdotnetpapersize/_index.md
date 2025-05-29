@@ -3,7 +3,7 @@ title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
 second_title: Aspose.Words para .NET
-description: PageInfo GetDotNetPaperSize método. Obtiene elPaperSize objeto adecuado para imprimir la página representada por estePageInfo  en C#.
+description: Descubra el método GetDotNetPaperSize en PageInfo, diseñado para recuperar sin esfuerzo el objeto PaperSize ideal para una impresión de página perfecta.
 type: docs
 weight: 80
 url: /es/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
@@ -26,7 +26,7 @@ Un objeto que puede utilizar en el marco de impresión .NET para especificar el 
 
 ## Ejemplos
 
-Muestra cómo personalizar la impresión de documentos de Aspose.Words.
+Muestra cómo personalizar la impresión de documentos Aspose.Words.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -40,7 +40,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Selecciona el tamaño de papel, la orientación y la bandeja de papel adecuados al imprimir.
+/// Selecciona un tamaño de papel, una orientación y una bandeja de papel adecuados al imprimir.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -72,33 +72,33 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// Llamado antes de imprimir cada página.
+     /// Se llama antes de imprimir cada página.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-         // Un único documento de Microsoft Word puede tener varias secciones que especifican páginas con diferentes tamaños,
-         // orientaciones y bandejas de papel. El marco de impresión .NET llama a este código antes
-        // se imprime cada página, lo que nos da la oportunidad de especificar cómo imprimir la página actual.
+         // Un solo documento de Microsoft Word puede tener varias secciones que especifican páginas con diferentes tamaños,
+         Orientaciones y bandejas de papel. El marco de impresión .NET llama a este código antes.
+        //Se imprime cada página, lo que nos da la posibilidad de especificar cómo imprimir la página actual.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word almacena el origen del papel (bandeja de la impresora) para cada sección como un valor específico de la impresora.
+        // Microsoft Word almacena la fuente de papel (bandeja de impresora) para cada sección como un valor específico de la impresora.
         // Para obtener el valor de bandeja correcto, deberá utilizar la propiedad "RawKind", que debería devolver su impresora.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Llamado para que cada página se muestre para su impresión.
+     /// Se llama a cada página para renderizarla para su impresión.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // El motor de renderizado Aspose.Words crea una página extraída del origen (x = 0, y = 0) del documento.
-        // Habrá un margen estricto en la impresora, que representará cada página. Necesitamos compensar con ese duro margen.
+        // El motor de renderizado Aspose.Words crea una página dibujada desde el origen (x = 0, y = 0) del papel.
+        Habrá un margen fijo en la impresora, que renderizará cada página. Necesitamos compensarlo con ese margen fijo.
         float hardOffsetX, hardOffsetY;
 
         // A continuación se muestran dos formas de establecer un margen estricto.

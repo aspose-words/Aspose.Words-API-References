@@ -3,14 +3,14 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: Aspose.Words для .NET
-description: CellFormat WrapText свойство. Еслиистинный  перенесите текст ячейки на С#.
+description: Откройте для себя свойство CellFormat WrapText, которое улучшит читаемость вашей электронной таблицы за счет автоматического переноса текста в ячейках для более четкого вида.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Если`истинный` , перенесите текст ячейки.
+Если`истинный` , перенос текста для ячейки.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -18,7 +18,7 @@ public bool WrapText { get; set; }
 
 ## Примеры
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,8 +50,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

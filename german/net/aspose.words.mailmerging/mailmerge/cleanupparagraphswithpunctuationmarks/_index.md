@@ -3,14 +3,14 @@ title: MailMerge.CleanupParagraphsWithPunctuationMarks
 linktitle: CleanupParagraphsWithPunctuationMarks
 articleTitle: CleanupParagraphsWithPunctuationMarks
 second_title: Aspose.Words für .NET
-description: MailMerge CleanupParagraphsWithPunctuationMarks eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Absätze mit Satzzeichen als leer betrachtet werden und entfernt werden sollten wenn dieRemoveEmptyParagraphs Option ist angegeben in C#.
+description: Optimieren Sie Ihren Serienbrief mit der Eigenschaft „CleanupParagraphsWithPunctuationMarks“. Kontrollieren Sie die Entfernung leerer Absätze für sauberere, professionelle Dokumente.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob Absätze mit Satzzeichen als leer betrachtet werden und entfernt werden sollten, wenn dieRemoveEmptyParagraphs Option ist angegeben.
+Ruft einen Wert ab oder legt ihn fest, der angibt, ob Absätze mit Satzzeichen als leer betrachtet werden und entfernt werden sollen, wenn dieRemoveEmptyParagraphs Option angegeben ist.
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
@@ -33,7 +33,7 @@ Hier ist die vollständige Liste der löschbaren Satzzeichen:
 
 ## Beispiele
 
-Zeigt, wie Absätze mit Satzzeichen nach einem Serienbriefvorgang entfernt werden.
+Zeigt, wie Absätze mit Satzzeichen nach einem Seriendruckvorgang entfernt werden.
 
 ```csharp
 Document doc = new Document();
@@ -51,10 +51,10 @@ mergeFieldOption2.FieldName = "Option_2";
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
 // Wenn Sie die Eigenschaft „CleanupParagraphsWithPunctuationMarks“ auf „true“ setzen, werden auch Absätze gezählt
-// mit leeren Satzzeichen und erhält den Seriendruckvorgang, um diese ebenfalls zu entfernen.
-// Die Eigenschaft „CleanupParagraphsWithPunctuationMarks“ auf „false“ setzen
-// entfernt leere Absätze, jedoch keine mit Satzzeichen.
-// Dies ist eine Liste von Satzzeichen, die diese Eigenschaft betrifft: „!“, „“, „.“, „:“, „;“, „?“, „¡“, „¿“.
+// mit Satzzeichen als leer und wird durch die Serienbriefoperation dazu gebracht, diese ebenfalls zu entfernen.
+// Setzen der Eigenschaft „CleanupParagraphsWithPunctuationMarks“ auf „false“
+// entfernt leere Absätze, aber keine mit Satzzeichen.
+// Dies ist eine Liste von Satzzeichen, die diese Eigenschaft betrifft: "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });

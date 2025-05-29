@@ -3,14 +3,14 @@ title: ArrowType Enum
 linktitle: ArrowType
 articleTitle: ArrowType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.ArrowType uppräkning. Anger typen av en pil vid en linjeände i C#.
+description: Upptäck Aspose.Words.Drawing.ArrowType-enum för att anpassa pilstilar för radslut, vilket förbättrar dokumentets visuella attraktionskraft och precision.
 type: docs
-weight: 490
+weight: 730
 url: /sv/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-Anger typen av en pil vid en linjeände.
+Anger typen av pil i slutet av en linje.
 
 ```csharp
 public enum ArrowType
@@ -22,23 +22,23 @@ public enum ArrowType
 | --- | --- | --- |
 | None | `0` | Linjen har ingen pil i slutet. |
 | Arrow | `1` | Pilen är en heldragen triangel. |
-| Stealth | `2` | Pilen är en "stealth"-pil. |
+| Stealth | `2` | Pilen är en "smygande" pil. |
 | Diamond | `3` | Linjeänden är en solid diamant. |
-| Oval | `4` | Linjeänden är en solid oval. |
+| Oval | `4` | Linjens slut är en heldragen oval. |
 | Open | `5` | Pilen är en öppen pil. |
 | Default | `0` | Samma somNone . |
 
 ## Exempel
 
-Visar för att skapa en mängd olika former.
+Visar hur man skapar en mängd olika former.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns fyra exempel på former som vi kan infoga i våra dokument.
+// Nedan följer fyra exempel på former som vi kan infoga i våra dokument.
 // 1 - Prickad, horisontell, halvtransparent röd linje
-// med en pil till vänster och en romb till höger:
+// med en pil i vänster ände och en diamant i höger ände:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -75,7 +75,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pil med en vänd orientering fylld i med Aspose-logotypen:
+// 4 - Pil med en omvänd orientering fylld med Aspose-logotypen:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -87,8 +87,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // När vi vänder på riktningen på vår pil vänder vi också bilden som pilen innehåller.
-    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen att visa den.
+    // När vi vänder orienteringen på vår pil, vänder vi också bilden som pilen innehåller.
+    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen för att visa den.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

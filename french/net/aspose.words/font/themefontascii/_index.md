@@ -3,14 +3,14 @@ title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
 second_title: Aspose.Words pour .NET
-description: Font ThemeFontAscii propriété. Obtient ou définit la police de thème utilisée pour le texte latin caractères avec des codes de caractères compris entre 0 zéro et 127 dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
+description: Découvrez la propriété Font ThemeFontAscii pour personnaliser facilement les polices de thème pour le texte latin (codes 0-127) dans votre conception, améliorant ainsi l'attrait visuel.
 type: docs
-weight: 480
+weight: 490
 url: /fr/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Obtient ou définit la police de thème utilisée pour le texte latin (caractères avec des codes de caractères compris entre 0 (zéro) et 127) dans le jeu de polices appliqué associé à ce thème.[`Font`](../) objet.
+Obtient ou définit la police de thème utilisée pour le texte latin (caractères avec des codes de caractère de 0 (zéro) à 127) dans le schéma de police appliqué qui est associé à cela[`Font`](../) objet.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -18,7 +18,7 @@ public ThemeFont ThemeFontAscii { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

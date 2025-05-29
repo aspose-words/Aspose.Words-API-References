@@ -2,8 +2,8 @@
 title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValueCollection Count 财产. 获取此集合中的项目数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValueCollection Count 属性，轻松访问数据集合中的项目总数，从而增强数据管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartyvaluecollection/count/

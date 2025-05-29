@@ -3,7 +3,7 @@ title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words для .NET
-description: BorderCollection LineWidth свойство. Получает или задает ширину границы в пунктах на С#.
+description: Откройте для себя свойство BorderCollection LineWidth, позволяющее легко настроить ширину границы в пунктах, повысив точность и визуальную привлекательность вашего дизайна.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/bordercollection/linewidth/
@@ -20,7 +20,7 @@ public double LineWidth { get; set; }
 
 Возвращает ширину первой границы в коллекции.
 
-Устанавливает ширину всех границ в коллекции, исключая диагональные границы.
+Задает ширину всех границ в коллекции, за исключением диагональных границ.
 
 ## Примеры
 

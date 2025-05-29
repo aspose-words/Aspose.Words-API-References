@@ -3,14 +3,14 @@ title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words för .NET
-description: Shape LastParagraph fast egendom. Får det sista stycket i formen i C#.
+description: Använd egenskapen LastParagraph för att enkelt hämta det sista stycket i din form, vilket förbättrar dokumentets layout och läsbarhet.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
 
-Får det sista stycket i formen.
+Hämtar det sista stycket i formen.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph LastParagraph { get; }
 
 ## Exempel
 
-Visar hur man ställer in orienteringen för text inuti en textruta.
+Visar hur man ställer in textens orientering inuti en textruta.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Flytta dokumentbyggaren till inuti TextBox och lägg till text.
+// Flytta dokumentbyggaren till textrutan och lägg till text.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Ställ in egenskapen "LayoutFlow" för att ställa in en orientering för textinnehållet i denna textruta.
+// Ställ in egenskapen "LayoutFlow" för att ange en orientering för textinnehållet i den här textrutan.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

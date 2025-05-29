@@ -3,14 +3,14 @@ title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
 second_title: Aspose.Words لـ .NET
-description: ShapeBase AnchorLocked ملكية. يحدد ما إذا كان رابط الشكل مقفلاً أم لا في C#.
+description: اكتشف خاصية ShapeBase AnchorLocked للتحكم في قفل المرساة للأشكال، مما يعزز استقرار التصميم ومرونته في مشاريعك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/shapebase/anchorlocked/
 ---
 ## ShapeBase.AnchorLocked property
 
-يحدد ما إذا كان رابط الشكل مقفلاً أم لا.
+يحدد ما إذا كان مرساة الشكل مقفلة.
 
 ```csharp
 public bool AnchorLocked { get; set; }
@@ -20,13 +20,13 @@ public bool AnchorLocked { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-له تأثير فقط على أشكال المستوى الأعلى.
+له تأثير فقط على الأشكال ذات المستوى الأعلى.
 
-تؤثر هذه الخاصية على سلوك نقطة ارتساء الشكل في Microsoft Word. عندما لا يتم تأمين نقطة الارتساء، يمكن أن يؤدي نقل الشكل في Microsoft Word إلى نقل نقطة ارتساء الشكل أيضًا.
+تؤثر هذه الخاصية على سلوك مرساة الشكل في Microsoft Word. عندما لا يتم قفل المرساة، فإن تحريك الشكل في Microsoft Word يمكن أن يؤدي إلى تحريك مرساة الشكل أيضًا.
 
 ## أمثلة
 
-يوضح كيفية قفل أو إلغاء قفل رابط فقرة الشكل.
+يوضح كيفية قفل أو إلغاء قفل مرساة الفقرة الخاصة بالشكل.
 
 ```csharp
 Document doc = new Document();
@@ -41,14 +41,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// اضبط الخاصية "AnchorLocked" على "true" لمنع ربط الشكل
+// اضبط خاصية "AnchorLocked" على "true" لمنع تثبيت الشكل
 // من التحرك عند تحريك الشكل في Microsoft Word.
-// اضبط خاصية "AnchorLocked" على "خطأ" للسماح بأي حركة للشكل
-// لتحريك نقطة الارتساء أيضًا إلى أي فقرة أخرى ينتهي الشكل بالقرب منها.
+// اضبط خاصية "AnchorLocked" على "false" للسماح بأي حركة للشكل
+// لتحريك مرساة أيضًا إلى أي فقرة أخرى ينتهي الشكل بالقرب منها.
 shape.AnchorLocked = anchorLocked;
 
-// إذا لم يكن الشكل يحتوي على رمز ربط مرئي على يساره،
-// سنحتاج إلى تمكين نقاط الارتساء المرئية عبر "الخيارات" -> "العرض" -> "مراسي الكائنات".
+// إذا لم يكن للشكل رمز مرساة مرئي على يساره،
+// سوف نحتاج إلى تمكين المراسي المرئية عبر "الخيارات" -> "العرض" -> "مراسي الكائنات".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

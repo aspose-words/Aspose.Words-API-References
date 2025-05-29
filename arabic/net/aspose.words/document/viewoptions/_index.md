@@ -3,9 +3,9 @@ title: Document.ViewOptions
 linktitle: ViewOptions
 articleTitle: ViewOptions
 second_title: Aspose.Words لـ .NET
-description: Document ViewOptions ملكية. يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word في C#.
+description: اكتشف خاصية Document ViewOptions لتخصيص إعدادات عرض Microsoft Word للحصول على تجربة عرض مخصصة.
 type: docs
-weight: 470
+weight: 490
 url: /ar/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
@@ -18,7 +18,7 @@ public ViewOptions ViewOptions { get; }
 
 ## أمثلة
 
-يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
+يوضح كيفية تعيين عامل تكبير مخصص، والذي ستطبقه الإصدارات القديمة من Microsoft Word على المستند عند تحميله.
 
 ```csharp
 Document doc = new Document();
@@ -34,19 +34,19 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-يوضح كيفية تعيين نوع تكبير/تصغير مخصص، والإصدارات الأقدم من Microsoft Word التي سيتم تطبيقها على المستند عند التحميل.
+يوضح كيفية تعيين نوع تكبير مخصص، والذي ستطبقه الإصدارات القديمة من Microsoft Word على المستند عند تحميله.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بتعيين خاصية "ZoomType" على "ZoomType.PageWidth" للحصول على Microsoft Word
-// لتكبير المستند تلقائيًا ليناسب عرض الصفحة.
-// قم بتعيين خاصية "ZoomType" على "ZoomType.FullPage" للحصول على Microsoft Word
-// لتكبير المستند تلقائيًا لجعل الصفحة الأولى بأكملها مرئية.
-// قم بتعيين خاصية "ZoomType" على "ZoomType.TextFit" للحصول على Microsoft Word
-// لتكبير المستند تلقائيًا ليناسب هوامش النص الداخلي للصفحة الأولى.
+// اضبط خاصية "ZoomType" على "ZoomType.PageWidth" للحصول على Microsoft Word
+//لتكبير المستند تلقائيًا ليتناسب مع عرض الصفحة.
+// اضبط خاصية "ZoomType" على "ZoomType.FullPage" للحصول على Microsoft Word
+//لتكبير المستند تلقائيًا لجعل الصفحة الأولى بأكملها مرئية.
+// اضبط خاصية "ZoomType" على "ZoomType.TextFit" للحصول على Microsoft Word
+//لتكبير المستند تلقائيًا ليتناسب مع هوامش النص الداخلية للصفحة الأولى.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

@@ -3,14 +3,14 @@ title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.AutoFitBehavior enum. Determina il modo in cui Aspose.Words ridimensiona la tabella quando si richiama ilAutoFit metodo in C#.
+description: Scopri l'enum Aspose.Words.Tables.AutoFitBehavior per ottimizzare il ridimensionamento delle tabelle con il metodo AutoFit, migliorando il layout e la presentazione del documento.
 type: docs
-weight: 6230
+weight: 7080
 url: /it/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Determina il modo in cui Aspose.Words ridimensiona la tabella quando si richiama il[`AutoFit`](../table/autofit/) metodo.
+Determina come Aspose.Words ridimensiona la tabella quando si richiama il[`AutoFit`](../table/autofit/) metodo.
 
 ```csharp
 public enum AutoFitBehavior
@@ -20,13 +20,13 @@ public enum AutoFitBehavior
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AutoFitToContents | `0` | Aspose.Words abilita l'opzione Adattamento automatico, rimuove la larghezza preferita dalla tabella e da tutte le celle e quindi aggiorna il layout della tabella. |
-| AutoFitToWindow | `1` | Quando si utilizza questo valore, Aspose.Words abilita l'opzione Adattamento automatico, imposta la larghezza preferita per la tabella al 100%, rimuove le larghezze preferite da tutte le celle e quindi aggiorna il layout della tabella. |
-| FixedColumnWidths | `2` | Aspose.Words disabilita l'opzione AutoFit e rimuove il preferito dalla tabella. |
+| AutoFitToContents | `0` | Aspose.Words abilita l'opzione Adatta automaticamente, rimuove la larghezza preferita dalla tabella e da tutte le celle e quindi aggiorna il layout della tabella. |
+| AutoFitToWindow | `1` | Quando si utilizza questo valore, Aspose.Words abilita l'opzione Adatta automaticamente, imposta la larghezza preferita per la tabella al 100%, rimuove le larghezze preferite da tutte le celle e quindi aggiorna il layout della tabella. |
+| FixedColumnWidths | `2` | Aspose.Words disabilita l'opzione Adatta automaticamente e rimuove il valore preferito dalla tabella. |
 
 ## Esempi
 
-Mostra come creare una nuova tabella durante l'applicazione di uno stile.
+Mostra come creare una nuova tabella applicando uno stile.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ Table table = builder.StartTable();
 // Dobbiamo inserire almeno una riga prima di impostare qualsiasi formattazione della tabella.
 builder.InsertCell();
 
-// Imposta lo stile della tabella utilizzato in base all'identificatore dello stile.
-// Tieni presente che non tutti gli stili di tabella sono disponibili quando si salva nel formato .doc.
+// Imposta lo stile della tabella utilizzato in base all'identificatore di stile.
+// Nota che non tutti gli stili di tabella sono disponibili quando si salva in formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applica parzialmente lo stile alle funzionalità della tabella in base ai predicati, quindi crea la tabella.
+// Applica parzialmente lo stile alle caratteristiche della tabella in base ai predicati, quindi crea la tabella.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -72,7 +72,7 @@ builder.EndRow();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -102,7 +102,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

@@ -3,7 +3,7 @@ title: Row.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: Row Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Row Accept, progettato per migliorare il coinvolgimento dei visitatori e semplificare le interazioni degli utenti per il successo del tuo sito web.
 type: docs
 weight: 120
 url: /it/net/aspose.words.tables/row/accept/
@@ -26,11 +26,11 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) alla fine.
+Chiamate[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) alla fine.
 
 ## Esempi
 
@@ -42,8 +42,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -52,7 +52,7 @@ public void TableToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi della tabella incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi della tabella rilevati e dei loro elementi figlio.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -68,8 +68,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
-    /// Le esecuzioni che non si trovano all'interno delle tabelle non vengono registrate.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
+    /// Le esecuzioni che non sono presenti nelle tabelle non vengono registrate.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -79,7 +79,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una tabella nel documento.
+    /// Chiamato quando nel documento viene rilevata una tabella.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -100,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Tabella sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Tabella.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -112,7 +112,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Riga nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo Row.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -132,7 +132,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Row sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Riga.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -143,7 +143,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Cella.
+    /// Chiamato quando nel documento viene rilevato un nodo Cell.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Cella sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figlio di un nodo Cell sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -172,8 +172,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
-    /// nell'albero dei nodi secondari della tabella corrente.
+    /// Aggiungi una riga allo StringBuilder e rientrala a seconda della profondità del visitatore
+    /// nell'albero dei nodi figlio della tabella corrente.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,16 +3,16 @@ title: CellCollection Class
 linktitle: CellCollection
 articleTitle: CellCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Tables.CellCollection clase. Proporciona acceso escrito a una colección deCell nodos en C#.
+description: Descubra la clase Aspose.Words.Tables.CellCollection para un acceso fácil y tipificado a los nodos Cell, mejorando la manipulación y la eficiencia de los documentos.
 type: docs
-weight: 6250
+weight: 7100
 url: /es/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
-Proporciona acceso escrito a una colección de[`Cell`](../cell/) nodos.
+Proporciona acceso tipificado a una colección de[`Cell`](../cell/) nodos.
 
-Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) Artículo de documentación.
 
 ```csharp
 public class CellCollection : NodeCollection
@@ -22,8 +22,8 @@ public class CellCollection : NodeCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Recupera un[`Cell`](../cell/) en el índice dado. (2 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos en la colección. |
+| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Recupera una[`Cell`](../cell/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -32,16 +32,16 @@ public class CellCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Determina si un nodo está en la colección. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración simple al estilo "foreach" sobre la colección de nodos. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice basado en cero del nodo especificado. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Copia todas las celdas de la colección en una nueva matriz de celdas. (2 methods) |
+| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Copia todas las celdas de la colección a una nueva matriz de celdas. (2 methods) |
 
 ## Ejemplos
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

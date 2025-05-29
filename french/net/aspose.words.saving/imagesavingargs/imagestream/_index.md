@@ -3,7 +3,7 @@ title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words pour .NET
-description: ImageSavingArgs ImageStream propriété. Permet de spécifier le flux dans lequel limage sera enregistrée en C#.
+description: Découvrez la propriété ImageStream dans ImageSavingArgs pour spécifier facilement où enregistrer vos images, améliorant ainsi votre flux de travail et votre efficacité.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -18,15 +18,15 @@ public Stream ImageStream { get; set; }
 
 ## Remarques
 
-Cette propriété vous permet d'enregistrer des images dans des flux plutôt que dans des fichiers HTML.
+Cette propriété vous permet d'enregistrer des images dans des flux au lieu de fichiers pendant le HTML.
 
 La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , l'image sera enregistrée dans un fichier spécifié dans le[`ImageFileName`](../imagefilename/) propriété.
 
-En utilisant[`IImageSavingCallback`](../../iimagesavingcallback/) vous ne pouvez pas remplacer une image par une autre. Il est destiné uniquement au contrôle de l'emplacement où enregistrer les images.
+En utilisant[`IImageSavingCallback`](../../iimagesavingcallback/) Vous ne pouvez pas remplacer une image par une autre. Cette option est uniquement destinée à contrôler l'emplacement d'enregistrement des images.
 
 ## Exemples
 
-Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
+Montre comment impliquer un rappel d'enregistrement d'image dans un processus de conversion HTML.
 
 ```csharp
 public void ImageSavingCallback()
@@ -34,7 +34,7 @@ public void ImageSavingCallback()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour désigner un rappel
-    // pour personnaliser le processus de sauvegarde de l'image.
+    // pour personnaliser le processus d'enregistrement de l'image.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -42,8 +42,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Imprime les propriétés de chaque image au fur et à mesure que le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
-/// lors de l'export d'un document au format HTML.
+/// Imprime les propriétés de chaque image lorsque le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
+/// lors de l'exportation d'un document au format HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

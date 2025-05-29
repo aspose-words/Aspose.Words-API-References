@@ -3,14 +3,14 @@ title: ResourceLoadingArgs.SetData
 linktitle: SetData
 articleTitle: SetData
 second_title: Aspose.Words för .NET
-description: ResourceLoadingArgs SetData metod. Anger data från användaren för resursen som används omResourceLoading returnerarUserProvided  i C#.
+description: Upptäck hur metoden ResourceLoadingArgs SetData förbättrar användarupplevelsen genom att effektivt hantera resursdata för optimal prestanda.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method
 
-Anger data från användaren för resursen som används om[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) returnerarUserProvided .
+Ställer in användardefinierade data för resursen som används om[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) returnerarUserProvided .
 
 ```csharp
 public void SetData(byte[] data)
@@ -28,8 +28,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder infogas vanligtvis med en URI eller en byte-array.
-    // Varje instans av en resursladdning kommer att anropa vår callbacks ResourceLoading-metod.
+    // Bilder infogas vanligtvis med hjälp av en URI, eller en byte-array.
+    // Varje instans av en resursbelastning anropar vår återanropsmetod ResourceLoading.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,15 +40,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.
-/// Detta kommer att separera logik för bildladdning från resten av dokumentkonstruktionen.
+/// Låter oss ladda bilder i ett dokument med hjälp av fördefinierade förkortningar, till skillnad från URI:er.
+/// Detta kommer att separera bildinläsningslogiken från resten av dokumentkonstruktionen.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Om denna återuppringning stöter på en av bildens förkortningar när en bild laddas,
-        // det kommer att tillämpa unik logik för varje definierad stenografi istället för att behandla den som en URI.
+        // Om denna återanropning stöter på en av bildförkortningarna när en bild laddas,
+        // den kommer att tillämpa unik logik för varje definierad förkortning istället för att behandla den som en URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

@@ -3,7 +3,7 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words per .NET
-description: BorderCollection Color proprietà. Ottiene o imposta il colore del bordo in C#.
+description: Scopri la proprietà BorderCollection Color per personalizzare e gestire facilmente i colori dei bordi dei tuoi design. Migliora la tua interfaccia utente con opzioni vivaci!
 type: docs
 weight: 20
 url: /it/net/aspose.words/bordercollection/color/
@@ -20,11 +20,11 @@ public Color Color { get; set; }
 
 Restituisce il colore del primo bordo della raccolta.
 
-Imposta il colore di tutti i bordi della raccolta esclusi i bordi diagonali.
+Imposta il colore di tutti i bordi della raccolta, esclusi i bordi diagonali.
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

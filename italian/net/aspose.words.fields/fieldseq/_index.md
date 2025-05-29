@@ -3,9 +3,9 @@ title: FieldSeq Class
 linktitle: FieldSeq
 articleTitle: FieldSeq
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldSeq classe. Implementa il campo SEQ in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldSeq per un'implementazione fluida dei campi SEQ. Migliora l'automazione dei tuoi documenti con potenti funzionalità e flessibilità.
 type: docs
-weight: 2390
+weight: 2800
 url: /it/net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class
@@ -28,32 +28,32 @@ public class FieldSeq : Field
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldseq/bookmarkname/) { get; set; } | Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente. |
+| [BookmarkName](../../aspose.words.fields/fieldseq/bookmarkname/) { get; set; } | Ottiene o imposta un nome di segnalibro che fa riferimento a un elemento in un'altra posizione del documento anziché nella posizione corrente. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [InsertNextNumber](../../aspose.words.fields/fieldseq/insertnextnumber/) { get; set; } | Ottiene o imposta se inserire il numero di sequenza successivo per l'elemento specificato. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
-| [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel/) { get; set; } | Ottiene o imposta un numero intero che rappresenta un livello di intestazione su cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente. |
-| [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber/) { get; set; } | Ottiene o imposta un numero intero su cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente. |
+| [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel/) { get; set; } | Ottiene o imposta un numero intero che rappresenta un livello di intestazione a cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente. |
+| [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber/) { get; set; } | Ottiene o imposta un numero intero a cui reimpostare il numero di sequenza. Restituisce -1 se il numero è assente. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
 | [SequenceIdentifier](../../aspose.words.fields/fieldseq/sequenceidentifier/) { get; set; } | Ottiene o imposta il nome assegnato alla serie di elementi da numerare. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
@@ -61,17 +61,17 @@ Numera in sequenza capitoli, tabelle, figure e altri elenchi di elementi definit
 
 ## Esempi
 
-Mostra la creazione della numerazione utilizzando i campi SEQ.
+Mostra come creare una numerazione utilizzando i campi SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
-// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
+// I campi SEQ visualizzano un conteggio che aumenta in ogni campo SEQ.
+// Questi campi mantengono anche conteggi separati per ogni sequenza denominata univoca
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Inserisci un campo SEQ che visualizzerà il valore di conteggio corrente di "MySequence",
-// dopo aver utilizzato la proprietà "ResetNumber" per impostarlo su 100.
+// Inserisci un campo SEQ che visualizzerà il valore del conteggio corrente di "MySequence",
+// dopo aver utilizzato la proprietà "ResetNumber" per impostarla su 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -89,20 +89,20 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Inserisci un'intestazione di livello 1.
+// Inserire un'intestazione di livello 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserisci un altro campo SEQ dalla stessa sequenza e configuralo per reimpostare il conteggio ad ogni intestazione con 1.
+// Inserire un altro campo SEQ dalla stessa sequenza e configurarlo per reimpostare il conteggio a ogni intestazione con 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato su 1.
+// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato a 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
@@ -120,31 +120,31 @@ doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ```
 
-Mostra come combinare il sommario e i campi sequenza.
+Mostra come combinare i campi indice e sequenza.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un campo TOC può creare una voce nel suo sommario per ogni campo SEQ trovato nel documento.
+// Un campo TOC può creare una voce nel suo indice per ogni campo SEQ trovato nel documento.
 // Ogni voce contiene il paragrafo che contiene il campo SEQ,
 // e il numero della pagina in cui appare il campo.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-// Configura questo campo TOC per avere una proprietà SequenceIdentifier con un valore "MySequence".
+// Configurare questo campo TOC in modo che abbia una proprietà SequenceIdentifier con il valore "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
-// Configura questo campo TOC per raccogliere solo i campi SEQ che si trovano entro i limiti di un segnalibro
+// Configura questo campo TOC per selezionare solo i campi SEQ che rientrano nei limiti di un segnalibro
 // denominato "TOCBookmark".
 fieldToc.BookmarkName = "TOCBookmark";
 builder.InsertBreak(BreakType.PageBreak);
 
 Assert.AreEqual(" TOC  \\c MySequence \\b TOCBookmark", fieldToc.GetFieldCode());
 
-// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
-// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
+// I campi SEQ visualizzano un conteggio che aumenta in ogni campo SEQ.
+// Questi campi mantengono anche conteggi separati per ogni sequenza denominata univoca
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Inserisci un campo SEQ che abbia un identificatore di sequenza che corrisponde al sommario
+// Inserire un campo SEQ che abbia un identificatore di sequenza che corrisponda al TOC
 // Proprietà TableOfFiguresLabel. Questo campo non creerà una voce nel sommario poiché è esterno
 // i limiti del segnalibro designati da "BookmarkName".
 builder.Write("MySequence #");
@@ -154,29 +154,29 @@ builder.Writeln(", will not show up in the TOC because it is outside of the book
 
 builder.StartBookmark("TOCBookmark");
 
-// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario e rientra nei limiti del segnalibro.
-// Il paragrafo che contiene questo campo verrà visualizzato nel sommario come voce.
+// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del TOC ed è compresa nei limiti del segnalibro.
+// Il paragrafo che contiene questo campo verrà visualizzato nell'indice come voce.
 builder.Write("MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 builder.Writeln(", will show up in the TOC next to the entry for the above caption.");
 
-// La sequenza di questo campo SEQ non corrisponde alla proprietà "TableOfFiguresLabel" del sommario,
-// ed è entro i limiti del segnalibro. Il relativo paragrafo non verrà visualizzato nel sommario come voce.
+// La sequenza di questo campo SEQ non corrisponde alla proprietà "TableOfFiguresLabel" del TOC,
+// e rientra nei limiti del segnalibro. Il relativo paragrafo non verrà visualizzato nell'indice come voce.
 builder.Write("MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "OtherSequence";
 builder.Writeln(", will not show up in the TOC because it's from a different sequence identifier.");
 
-// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario e rientra nei limiti del segnalibro.
-// Questo campo fa riferimento anche a un altro segnalibro. Il contenuto di quel segnalibro verrà visualizzato nella voce TOC per questo campo SEQ.
+// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del TOC ed è compresa nei limiti del segnalibro.
+// Questo campo fa riferimento anche a un altro segnalibro. Il contenuto di quel segnalibro apparirà nella voce dell'indice di questo campo SEQ.
 // Il campo SEQ stesso non visualizzerà il contenuto di quel segnalibro.
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.BookmarkName = "SEQBookmark";
 Assert.AreEqual(" SEQ  MySequence SEQBookmark", fieldSeq.GetFieldCode());
 
-// Crea un segnalibro con contenuti che verranno visualizzati nella voce TOC poiché il campo SEQ sopra fa riferimento ad esso.
+// Crea un segnalibro con contenuti che verranno visualizzati nella voce TOC grazie al campo SEQ soprastante che vi fa riferimento.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("SEQBookmark");
 builder.Write("MySequence #");
@@ -197,25 +197,25 @@ Mostra come popolare un campo TOC con voci utilizzando i campi SEQ.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un campo TOC può creare una voce nel suo sommario per ogni campo SEQ trovato nel documento.
-// Ogni voce contiene il paragrafo che include il campo SEQ e il numero della pagina in cui appare il campo.
+// Un campo TOC può creare una voce nel suo indice per ogni campo SEQ trovato nel documento.
+// Ogni voce contiene il paragrafo che include il campo SEQ e il numero di pagina in cui appare il campo.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
-// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
+// I campi SEQ visualizzano un conteggio che aumenta in ogni campo SEQ.
+// Questi campi mantengono anche conteggi separati per ogni sequenza denominata univoca
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Utilizza la proprietà "TableOfFiguresLabel" per denominare una sequenza principale per il sommario.
-// Ora, questo sommario creerà solo voci dai campi SEQ con il loro "SequenceIdentifier" impostato su "MySequence".
+// Utilizzare la proprietà "TableOfFiguresLabel" per assegnare un nome alla sequenza principale per l'indice.
+// Ora, questo TOC creerà voci solo dai campi SEQ con il loro "SequenceIdentifier" impostato su "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Possiamo nominare un'altra sequenza di campi SEQ nella proprietà "PrefixedSequenceIdentifier".
  // I campi SEQ di questa sequenza di prefissi non creeranno voci TOC.
-// Ogni voce TOC creata da un campo SEQ della sequenza principale ora visualizzerà anche il conteggio
-// la sequenza del prefisso è attualmente attiva nel campo SEQ della sequenza primaria che ha effettuato l'immissione.
+// Ogni voce TOC creata da un campo SEQ della sequenza principale ora visualizzerà anche il conteggio che
+// la sequenza del prefisso è attualmente attiva nel campo SEQ della sequenza primaria che ha creato la voce.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 
-// Ciascuna voce del sommario visualizzerà il conteggio della sequenza del prefisso immediatamente a sinistra
-// del numero di pagina su cui appare il campo SEQ della sequenza principale.
+// Ogni voce del TOC visualizzerà il conteggio della sequenza del prefisso immediatamente a sinistra
+// del numero di pagina in cui appare il campo SEQ della sequenza principale.
 // Possiamo specificare un separatore personalizzato che apparirà tra questi due numeri.
 fieldToc.SequenceSeparator = ">";
 
@@ -223,23 +223,23 @@ Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFie
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// Esistono due modi per utilizzare i campi SEQ per popolare questo sommario.
-// 1 - Inserimento di un campo SEQ che appartiene alla sequenza del prefisso del TOC:
-// Questo campo incrementerà di 1 il conteggio della sequenza SEQ per "PrefixSequence".
+// Esistono due modi per utilizzare i campi SEQ per popolare questo indice.
+// 1 - Inserimento di un campo SEQ appartenente alla sequenza di prefissi del TOC:
+// Questo campo incrementerà di 1 il conteggio delle sequenze SEQ per "PrefixSequence".
 // Poiché questo campo non appartiene alla sequenza principale identificata
-// dalla proprietà "TableOfFiguresLabel" del sommario, non verrà visualizzato come voce.
+// tramite la proprietà "TableOfFiguresLabel" del TOC, non verrà visualizzato come voce.
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
 Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
 
-// 2 - Inserimento di un campo SEQ che appartiene alla sequenza principale del TOC:
+// 2 - Inserimento di un campo SEQ appartenente alla sequenza principale del TOC:
 // Questo campo SEQ creerà una voce nel sommario.
 // La voce TOC conterrà il paragrafo in cui si trova il campo SEQ e il numero della pagina in cui appare.
-// Questa voce mostrerà anche il conteggio a cui si trova attualmente la sequenza del prefisso,
-// separato dal numero di pagina dal valore nella proprietà SeqenceSeparator del TOC.
-// Il conteggio "PrefixSequence" è pari a 1, questo campo SEQ della sequenza principale è a pagina 2,
+// Questa voce mostrerà anche il conteggio attuale della sequenza di prefissi,
+// separato dal numero di pagina dal valore della proprietà SeqenceSeparator del TOC.
+// Il conteggio "PrefixSequence" è a 1, questo campo SEQ della sequenza principale si trova a pagina 2,
 // e il separatore è ">", quindi la voce visualizzerà "1>2".
 builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -247,9 +247,9 @@ fieldSeq.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
 
-// Inserisci una pagina, fai avanzare la sequenza del prefisso di 2 e inserisci un campo SEQ per creare successivamente una voce TOC.
+// Inserisce una pagina, fa avanzare di 2 la sequenza del prefisso e inserisce un campo SEQ per creare in seguito una voce di sommario.
 // La sequenza del prefisso è ora a 2 e il campo SEQ della sequenza principale è a pagina 3,
-// quindi la voce del sommario visualizzerà "2>3" al conteggio delle pagine.
+// quindi la voce TOC visualizzerà "2>3" al suo conteggio di pagine.
 builder.InsertBreak(BreakType.PageBreak);
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";

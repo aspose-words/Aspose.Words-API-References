@@ -3,14 +3,14 @@ title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words für .NET
-description: Document RevisionsView eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob mit der Originalversion oder der überarbeiteten Version eines Dokuments gearbeitet werden soll in C#.
+description: Verwalten Sie Dokumentrevisionen mühelos! Wählen Sie zwischen Original- und aktualisierten Versionen für eine reibungslose Zusammenarbeit und gesteigerte Produktivität.
 type: docs
-weight: 360
+weight: 380
 url: /de/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob mit der Originalversion oder der überarbeiteten Version eines Dokuments gearbeitet werden soll.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob mit der Originalversion oder der überarbeiteten Version eines Dokuments gearbeitet werden soll.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert ist .
 
 ## Beispiele
 
-Zeigt, wie zwischen der überarbeiteten und der Originalansicht eines Dokuments gewechselt wird.
+Zeigt, wie Sie zwischen der überarbeiteten und der Originalansicht eines Dokuments wechseln.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -33,7 +33,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Das Dokumentobjekt so anzeigen, als ob alle Revisionen akzeptiert würden. Unterstützt derzeit Listenbezeichnungen.
+// Dokumentobjekt so anzeigen, als ob alle Revisionen akzeptiert wären. Unterstützt derzeit Listenbeschriftungen.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

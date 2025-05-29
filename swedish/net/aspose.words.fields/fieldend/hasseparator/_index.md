@@ -3,14 +3,14 @@ title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
 second_title: Aspose.Words för .NET
-description: FieldEnd HasSeparator fast egendom. ReturnerarSannom det här fältet har en separator i C#.
+description: Upptäck egenskapen FieldEnd HasSeparator och kontrollera enkelt om ditt fält innehåller en avgränsare för förbättrad dataorganisation och tydlighet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Returnerar`Sann`om det här fältet har en separator.
+Returer`sann` om det här fältet har en avgränsare.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

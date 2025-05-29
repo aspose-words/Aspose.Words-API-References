@@ -2,15 +2,15 @@
 title: PageSetup.FooterDistance
 linktitle: FooterDistance
 articleTitle: FooterDistance
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup FooterDistance 财产. 返回或设置页脚与页面底部之间的距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 FooterDistance 属性来控制页脚与底部之间的距离。轻松优化您的文档布局！
 type: docs
 weight: 140
 url: /zh/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-返回或设置页脚与页面底部之间的距离（以磅为单位）。
+返回或设置页脚和页面底部之间的距离（以磅为单位）。
 
 ```csharp
 public double FooterDistance { get; set; }

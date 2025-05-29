@@ -3,16 +3,16 @@ title: TabStop Class
 linktitle: TabStop
 articleTitle: TabStop
 second_title: Aspose.Words für .NET
-description: Aspose.Words.TabStop klas. Stellt einen einzelnen benutzerdefinierten Tabstopp dar. DerTabStopObjekt ist Mitglied von the TabStopCollection Sammlung in C#.
+description: Entdecken Sie die Klasse Aspose.Words.TabStop, Ihre Lösung für benutzerdefinierte Tabstopps in der Dokumentformatierung. Optimieren Sie Ihre Dokumente präzise und einfach!
 type: docs
-weight: 6200
+weight: 7050
 url: /de/net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Stellt einen einzelnen benutzerdefinierten Tabstopp dar. Der`TabStop`Objekt ist Mitglied von the [`TabStopCollection`](../tabstopcollection/) Sammlung.
+Stellt einen einzelnen benutzerdefinierten Tabstopp dar. Der`TabStop` Objekt ist ein Mitglied von the [`TabStopCollection`](../tabstopcollection/) Sammlung.
 
-Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public sealed class TabStop
@@ -29,21 +29,21 @@ public sealed class TabStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Ruft die Textausrichtung an diesem Tabstopp ab oder legt diese fest. |
-| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Gibt zurück`WAHR` wenn dieser Tabstopp alle vorhandenen Tabstopps an dieser Position löscht. |
-| [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Ruft den Typ der Führungslinie ab, die unter dem Tabulatorzeichen angezeigt wird, oder legt diesen fest. |
-| [Position](../../aspose.words/tabstop/position/) { get; } | Ermittelt die Position des Tabstopps in Punkten. |
+| [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Ruft die Textausrichtung an diesem Tabstopp ab oder legt sie fest. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Rückgaben`WAHR` wenn dieser Tabstopp alle vorhandenen Tabstopps an dieser Position löscht. |
+| [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Ruft den Typ der unter dem Tabulatorzeichen angezeigten Führungslinie ab oder legt ihn fest. |
+| [Position](../../aspose.words/tabstop/position/) { get; } | Ruft die Position des Tabulatorstopps in Punkten ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Vergleicht mit dem angegebenen`TabStop` . |
-| override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Berechnet den Hash-Code für dieses Objekt. |
+| override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Berechnet den Hashcode für dieses Objekt. |
 
 ## Bemerkungen
 
-Normalerweise gibt ein Tabstopp eine Position an, an der ein Tabstopp vorhanden ist. Da Tabstopps jedoch von übergeordneten Stilen geerbt werden können, muss das untergeordnete Objekt möglicherweise explizit definieren, dass an einer bestimmten Position kein Tabstopp vorhanden ist. Um einen geerbten Tabstopp an einer bestimmten Position zu löschen, erstellen Sie einen`TabStop` Objekt und set [`Alignment`](./alignment/) ZuClear.
+Normalerweise gibt ein Tabstopp die Position an, an der ein Tabstopp vorhanden ist. Da Tabstopps jedoch von übergeordneten Stilen übernommen werden können, muss das untergeordnete Objekt möglicherweise explizit angeben, dass an einer bestimmten Position kein Tabstopp vorhanden ist. Um einen übernommenen Tabstopp an einer bestimmten Position zu löschen, erstellen Sie ein`TabStop` Objekt und set [`Alignment`](./alignment/) ZuClear.
 
 Weitere Informationen finden Sie unter[`TabStopCollection`](../tabstopcollection/).
 
@@ -54,12 +54,12 @@ Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Ab
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Alle Absätze mit TOC-ergebnisbasierten Stilen durchlaufen; Dies ist jeder Stil zwischen TOC und TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Durchlaufe alle Absätze mit auf dem Inhaltsverzeichnisergebnis basierenden Stilen. Dies ist jeder Stil zwischen Inhaltsverzeichnis und Inhaltsverzeichnis9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Holen Sie sich den ersten Tab, der in diesem Absatz verwendet wird. Dies sollte der Tab sein, der zum Ausrichten der Seitenzahlen verwendet wird.
+        // Holen Sie sich den ersten Tabulator, der in diesem Absatz verwendet wird. Dies sollte der Tabulator sein, der zum Ausrichten der Seitenzahlen verwendet wird.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
         // Ersetzen Sie den ersten Standard-Tabstopp durch einen benutzerdefinierten Tabstopp.

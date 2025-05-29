@@ -3,14 +3,14 @@ title: FieldXE.IsBold
 linktitle: IsBold
 articleTitle: IsBold
 second_title: Aspose.Words para .NET
-description: FieldXE IsBold propiedad. Obtiene o establece si se aplica formato en negrita al número de página de la entrada en C#.
+description: ¡Mejora tu experiencia en FieldXE! Controla fácilmente el formato de negrita para los números de página de entrada con la propiedad IsBold. ¡Mejora la legibilidad y el estilo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldxe/isbold/
 ---
 ## FieldXE.IsBold property
 
-Obtiene o establece si se aplica formato en negrita al número de página de la entrada.
+Obtiene o establece si se debe aplicar formato en negrita al número de página de la entrada.
 
 ```csharp
 public bool IsBold { get; set; }
@@ -18,17 +18,17 @@ public bool IsBold { get; set; }
 
 ## Ejemplos
 
-Muestra cómo completar un campo ÍNDICE con entradas utilizando campos XE y también modificar su apariencia.
+Muestra cómo rellenar un campo ÍNDICE con entradas utilizando campos XE y también modificar su apariencia.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE que se encuentra en el documento.
-// Cada entrada mostrará el valor de la propiedad Texto del campo XE en el lado izquierdo,
+// Cree un campo INDEX que mostrará una entrada para cada campo XE encontrado en el documento.
+// Cada entrada mostrará el valor de la propiedad de Texto del campo XE en el lado izquierdo,
 // y el número de la página que contiene el campo XE a la derecha.
 // Si los campos XE tienen el mismo valor en su propiedad "Texto",
-// el campo ÍNDICE los agrupará en una sola entrada.
+//el campo ÍNDICE los agrupará en una entrada.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
@@ -36,16 +36,16 @@ index.LanguageId = "1033";
 // y coloca esa letra en mayúscula encima de cada grupo.
 index.Heading = "A";
 
-// Establece la tabla creada por el campo ÍNDICE para que abarque 2 columnas.
+// Establezca la tabla creada por el campo INDEX para que abarque 2 columnas.
 index.NumberOfColumns = "2";
 
-// Establece que se omitirán todas las entradas con letras iniciales fuera del rango de caracteres "ac".
+// Establezca cualquier entrada con letras iniciales fuera del rango de caracteres "ac" para que se omita.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
-// Estos dos campos XE siguientes aparecerán bajo el encabezado "A",
-// con sus respectivos estilos de texto también aplicados a sus números de página.
+// Estos próximos dos campos XE aparecerán bajo el encabezado "A",
+// con sus respectivos estilos de texto aplicados también a sus números de página.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -60,7 +60,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Los dos siguientes campos XE estarán bajo los encabezados "B" y "C" en la tabla de contenido de los campos ÍNDICE.
+// Los siguientes dos campos XE estarán bajo un encabezado "B" y "C" en la tabla de contenido de los campos ÍNDICE.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -74,7 +74,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Esta entrada no aparecerá porque comienza con la letra "D",
+//Esta entrada no aparecerá porque empieza con la letra "D",
 // que está fuera del rango de caracteres "ac" que define la propiedad LetterRange del campo INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

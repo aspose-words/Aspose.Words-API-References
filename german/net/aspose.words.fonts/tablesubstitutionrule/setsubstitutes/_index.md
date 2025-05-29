@@ -3,14 +3,14 @@ title: TableSubstitutionRule.SetSubstitutes
 linktitle: SetSubstitutes
 articleTitle: SetSubstitutes
 second_title: Aspose.Words für .NET
-description: TableSubstitutionRule SetSubstitutes methode. Ersetzen Sie die Namen der Ersatzschriftarten für den angegebenen Originalschriftnamen in C#.
+description: Entdecken Sie, wie Sie Schriftnamen mit der TableSubstitutionRule SetSubstitutes-Methode anpassen. Verbessern Sie Ihr Design mit maßgeschneiderten Typografie-Lösungen!
 type: docs
 weight: 80
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
 ---
 ## TableSubstitutionRule.SetSubstitutes method
 
-Ersetzen Sie die Namen der Ersatzschriftarten für den angegebenen Originalschriftnamen.
+Ersetzen Sie die Ersatzschriftartennamen durch den angegebenen ursprünglichen Schriftnamen.
 
 ```csharp
 public void SetSubstitutes(string originalFontName, params string[] substituteFontNames)
@@ -18,12 +18,12 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| originalFontName | String | Ursprünglicher Schriftartname. |
-| substituteFontNames | String[] | Liste alternativer Schriftartnamen. |
+| originalFontName | String | Ursprünglicher Schriftname. |
+| substituteFontNames | String[] | Liste alternativer Schriftnamen. |
 
 ## Beispiele
 
-Zeigt, wie Schriftartersetzungsregeln festgelegt werden.
+Zeigt, wie Regeln zum Ersetzen von Schriftarten festgelegt werden.
 
 ```csharp
 Document doc = new Document();
@@ -36,28 +36,28 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// Die Standardschriftquellen enthalten die erste Schriftart, die das Dokument verwendet.
+// Die Standardschriftartenquellen enthalten die erste Schriftart, die das Dokument verwendet.
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Die zweite Schriftart, „Amethysta“, ist nicht verfügbar.
+// Die zweite Schriftart „Amethysta“ ist nicht verfügbar.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Wir können eine Schriftart-Ersetzungstabelle konfigurieren, die bestimmt
-// welche Schriftarten Aspose.Words als Ersatz für nicht verfügbare Schriftarten verwendet.
-// Zwei Ersatzschriftarten für „Amethysta“ festlegen: „Arvo“ und „Courier New“.
+// Wir können eine Schriftarten-Ersetzungstabelle konfigurieren, die bestimmt
+// welche Schriftarten Aspose.Words als Ersatz für nicht verfügbare Schriftarten verwenden wird.
+// Legen Sie zwei Ersatzschriftarten für „Amethysta“ fest: „Arvo“ und „Courier New“.
 // Wenn der erste Ersatz nicht verfügbar ist, versucht Aspose.Words, den zweiten Ersatz zu verwenden, und so weiter.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // „Amethysta“ ist nicht verfügbar und die Ersetzungsregel besagt, dass die erste Schriftart, die als Ersatz verwendet wird, „Arvo“ ist.
+    // „Amethysta“ ist nicht verfügbar und die Ersetzungsregel besagt, dass die erste als Ersatz zu verwendende Schriftart „Arvo“ ist.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
- // „Arvo“ ist ebenfalls nicht verfügbar, „Courier New“ jedoch schon.
+    // „Arvo“ ist ebenfalls nicht verfügbar, „Courier New“ jedoch schon.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Das Ausgabedokument zeigt den Text an, der die Schriftart „Amethysta“ verwendet und mit „Courier New“ formatiert ist.
+// Das Ausgabedokument zeigt den Text in der Schriftart „Amethysta“ im Format „Courier New“ an.
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 
@@ -68,16 +68,16 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die Standard-Windows-Schriftartenersetzungstabelle.
+// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die standardmäßige Windows-Schriftartenersetzungstabelle.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
 // Wenn wir Schriftarten ausschließlich aus unserem Ordner auswählen, benötigen wir eine benutzerdefinierte Ersetzungstabelle.
-// Wir werden keinen Zugriff mehr auf die Microsoft Windows-Schriftarten haben,
-// wie „Arial“ oder „Times New Roman“, da sie in unserem neuen Schriftartenordner nicht vorhanden sind.
+// Wir haben keinen Zugriff mehr auf die Microsoft Windows-Schriftarten,
+// wie „Arial“ oder „Times New Roman“, da diese in unserem neuen Schriftartenordner nicht vorhanden sind.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Nachfolgend finden Sie zwei Möglichkeiten, eine Ersetzungstabelle aus einer Datei im lokalen Dateisystem zu laden.
+// Unten sind zwei Möglichkeiten zum Laden einer Substitutionstabelle aus einer Datei im lokalen Dateisystem aufgeführt.
 // 1 - Aus einem Stream:
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
@@ -87,11 +87,11 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Direkt aus einer Datei:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Da wir keinen Zugriff mehr auf „Arial“ haben, wird unsere Schriftartentabelle zunächst versuchen, sie durch „Nicht vorhandene Schriftart“ zu ersetzen.
-// Wir haben diese Schriftart nicht, sodass sie auf die nächste Ersatzschrift „Kreon“ im Ordner „MyFonts“ verschoben wird.
+// Da wir keinen Zugriff mehr auf „Arial“ haben, versucht unsere Schriftartentabelle zunächst, es durch „Nicht vorhandene Schriftart“ zu ersetzen.
+// Wir haben diese Schriftart nicht, daher wechseln wir zum nächsten Ersatz, „Kreon“, der sich im Ordner „MyFonts“ befindet.
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Wir können diese Tabelle programmgesteuert erweitern. Wir werden einen Eintrag hinzufügen, der „Times New Roman“ durch „Arvo“ ersetzt.
+// Wir können diese Tabelle programmgesteuert erweitern. Wir fügen einen Eintrag hinzu, der "Times New Roman" durch "Arvo" ersetzt.
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
@@ -101,12 +101,12 @@ Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New 
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes() kann eine neue Liste von Ersatzschriftarten für eine Schriftart festlegen.
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+// SetSubstitutes() kann eine neue Liste mit Ersatzschriftarten für eine Schriftart festlegen.
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Wenn Sie Text in Schriftarten schreiben, auf die wir keinen Zugriff haben, werden unsere Ersetzungsregeln aufgerufen.
+// Wenn wir Text in Schriftarten schreiben, auf die wir keinen Zugriff haben, werden unsere Ersetzungsregeln aufgerufen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

@@ -2,8 +2,8 @@
 title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Style mülk. Yapılandırılmış belge etiketinin Stilini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin biçimlendirmesini geliştirmek ve okunabilirliği zahmetsizce artırmak için StructuredDocumentTags'in Stil özelliğini nasıl yöneteceğinizi keşfedin.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.markup/structureddocumenttag/style/
@@ -18,23 +18,23 @@ public Style Style { get; set; }
 
 ## Notlar
 
-Yalnızca Character stil veyaParagraph bağlantılı karakter stiline sahip stil ayarlanabilir.
+Sadece Character stil veyaParagraph bağlantılı karakter stili ile stil ayarlanabilir.
 
 ## Örnekler
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

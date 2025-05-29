@@ -2,10 +2,10 @@
 title: CssStyleSheetType Enum
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.CssStyleSheetType Sıralama. CSS Basamaklı Stil Sayfası stillerinin HTMLye nasıl aktarılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.CssStyleSheetType'ın daha iyi web sunumu ve performansı için CSS stillerini optimize ederek HTML dışa aktarımını nasıl geliştirdiğini keşfedin.
 type: docs
-weight: 4890
+weight: 5630
 url: /tr/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -20,28 +20,28 @@ public enum CssStyleSheetType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Inline | `0` | CSS stilleri satır içi olarak yazılır (**stil** her öğedeki özellik). |
+| Inline | `0` | CSS stilleri satır içi olarak yazılır (bir değer olarak)**stil** her öğedeki öznitelik). |
 | Embedded | `1` | CSS stilleri, HTML dosyasına gömülü bir stil sayfasında içerikten ayrı olarak yazılır. |
-| External | `2` | CSS stilleri, harici bir dosyadaki stil sayfasındaki içerikten ayrı olarak yazılır. HTML dosyası stil sayfasına bağlanır. |
+| External | `2` | CSS stilleri, harici bir dosyadaki stil sayfasındaki içerikten ayrı olarak yazılır. HTML dosyası, stil sayfasına bağlanır. |
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -53,7 +53,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -66,7 +66,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

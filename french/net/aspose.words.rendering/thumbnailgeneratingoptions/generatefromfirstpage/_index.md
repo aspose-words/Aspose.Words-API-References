@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 linktitle: GenerateFromFirstPage
 articleTitle: GenerateFromFirstPage
 second_title: Aspose.Words pour .NET
-description: ThumbnailGeneratingOptions GenerateFromFirstPage propriété. Spécifie sil faut générer une vignette à partir de la première page du document ou de la première image en C#.
+description: Découvrez comment l'option GenerateFromFirstPage crée des vignettes à partir de la première page ou de l'image du document, améliorant ainsi votre contenu visuel sans effort.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions.GenerateFromFirstPage property
 
-Spécifie s'il faut générer une vignette à partir de la première page du document ou de la première image.
+Spécifie s'il faut générer la miniature à partir de la première page du document ou de la première image.
 
 ```csharp
 public bool GenerateFromFirstPage { get; set; }
@@ -18,7 +18,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`vrai` , ce qui signifie que la vignette sera générée à partir de la première page du document. Si la valeur est`FAUX` et il n'y a pas d'image dans le document, la vignette sera générée à partir de la première page du document.
+La valeur par défaut est`vrai` , ce qui signifie que la vignette sera générée à partir de la première page du document. Si la valeur est`FAUX` et il n'y a pas d'image dans le document, la miniature sera générée à partir de la première page du document.
 
 ## Exemples
 
@@ -36,7 +36,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

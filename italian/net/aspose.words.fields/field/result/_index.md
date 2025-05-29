@@ -3,7 +3,7 @@ title: Field.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words per .NET
-description: Field Result proprietà. Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo in C#.
+description: Gestisci le proprietà dei risultati dei campi senza sforzo. Accedi o modifica il testo tra i separatori di campo per una gestione semplificata dei dati e una maggiore efficienza.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/field/result/
@@ -30,7 +30,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Questo sovraccarico del metodo InsertField aggiorna automaticamente i campi inseriti.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Guarda anche

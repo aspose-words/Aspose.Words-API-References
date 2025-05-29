@@ -2,15 +2,15 @@
 title: Run.PhoneticGuide
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
-second_title: Aspose.Words for .NET
-description: Run PhoneticGuide mülk. Bir alırPhoneticGuide nesne C#'da.
+second_title: .NET için Aspose.Words
+description: PhoneticGuide ile kusursuz telaffuzun kilidini açın. Kişiselleştirilmiş fonetik içgörülere erişerek dil becerilerinizi ve iletişiminizi geliştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/run/phoneticguide/
 ---
 ## Run.PhoneticGuide property
 
-Bir alır`PhoneticGuide` nesne.
+Bir tane alır`PhoneticGuide` nesne.
 
 ```csharp
 public PhoneticGuide PhoneticGuide { get; }
@@ -18,16 +18,18 @@ public PhoneticGuide PhoneticGuide { get; }
 
 ## Örnekler
 
-Fonetik kılavuzun özelliklerinin nasıl alınacağını gösterir.
+Fonetik rehberin özelliklerinin nasıl alınacağını gösterir.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-// Asya metninde fonetik kılavuzu kullanın.
+// Asya metinlerinde fonetik kılavuzu kullanın.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Ayrıca bakınız

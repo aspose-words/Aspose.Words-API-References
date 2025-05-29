@@ -3,14 +3,14 @@ title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words pour .NET
-description: Font Italic propriété. True si la police est au format italique en C#.
+description: Découvrez la propriété Font Italic ! Formatez facilement votre texte en italique pour améliorer la lisibilité et le style de vos créations. Optimisez votre typographie dès aujourd'hui !
 type: docs
 weight: 160
 url: /fr/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-True si la police est au format italique.
+Vrai si la police est formatée en italique.
 
 ```csharp
 public bool Italic { get; set; }
@@ -18,7 +18,7 @@ public bool Italic { get; set; }
 
 ## Exemples
 
-Montre comment écrire du texte en italique à l’aide d’un générateur de documents.
+Montre comment écrire du texte en italique à l'aide d'un générateur de documents.
 
 ```csharp
 Document doc = new Document();

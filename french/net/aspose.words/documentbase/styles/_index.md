@@ -3,9 +3,9 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words pour .NET
-description: DocumentBase Styles propriété. Renvoie une collection de styles définis dans le document en C#.
+description: Explorez la propriété Styles DocumentBase pour accéder à une riche collection de styles personnalisables, améliorant l'attrait visuel et la cohérence de votre document.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
@@ -18,18 +18,18 @@ public StyleCollection Styles { get; }
 
 ## Remarques
 
-Pour plus d'informations, voir la description du[`StyleCollection`](../../stylecollection/) classe.
+Pour plus d'informations, consultez la description du[`StyleCollection`](../../stylecollection/) classe.
 
 ## Exemples
 
-Montre comment accéder à la collection de styles d’un document.
+Montre comment accéder à la collection de styles d'un document.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Énumère et répertorie tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
+// Énumérer et lister tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -45,13 +45,13 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Montre comment créer et utiliser un style de paragraphe avec une mise en forme de liste.
+Montre comment créer et utiliser un style de paragraphe avec formatage de liste.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un style de paragraphe personnalisé.
+// Créez un style de paragraphe personnalisé.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -61,11 +61,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
+// Appliquez le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoutez du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
+// Modifiez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

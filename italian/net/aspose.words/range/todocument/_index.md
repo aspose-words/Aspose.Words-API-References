@@ -3,14 +3,14 @@ title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
 second_title: Aspose.Words per .NET
-description: Range ToDocument metodo. Costruisce un nuovo documento completamente formato che contiene lintervallo in C#.
+description: Scopri il metodo Range ToDocument e crea senza sforzo un documento completo dall'intervallo selezionato, migliorando il flusso di lavoro e la produttività.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method
 
-Costruisce un nuovo documento completamente formato che contiene l'intervallo.
+Crea un nuovo documento completamente formato che contiene l'intervallo.
 
 ```csharp
 public Document ToDocument()

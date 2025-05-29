@@ -3,14 +3,14 @@ title: NodeList.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: NodeList Item ملكية. يسترد عقدة في الفهرس المحدد في C#.
+description: الوصول إلى عُقد مُحددة بسهولة باستخدام خاصية NodeList Item. استرجع العُقد حسب الفهرس لمعالجة البيانات بشكل مُبسط وترميز فعّال.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodelist/item/
 ---
 ## NodeList indexer
 
-يسترد عقدة في الفهرس المحدد.
+يسترجع عقدة عند الفهرس المحدد.
 
 ```csharp
 public Node this[int index] { get; }
@@ -18,17 +18,17 @@ public Node this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس في قائمة العقد. |
+| index | فهرس لقائمة العقد. |
 
 ## ملاحظات
 
-المؤشر قائم على الصفر.
+المؤشر يعتمد على الصفر.
 
-الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
+يُسمح بالمؤشرات السلبية وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال، -1 يعني العنصر الأخير، -2 يعني العنصر الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة، فسوف يؤدي هذا إلى إرجاع مرجع فارغ.
 
-إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سلبيًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة، فسيؤدي هذا إلى إرجاع مرجع فارغ.
 
 ## أمثلة
 
@@ -48,14 +48,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// تحتوي وثيقتنا على ثلاث عقد تشغيل.
+// تحتوي مستندنا على ثلاث عقد تشغيل.
 NodeList nodeList = doc.SelectNodes("//يجري");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -63,20 +58,20 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// استخدم شرطة مائلة مزدوجة لتحديد جميع عقد التشغيل
-// التي هي أحفاد غير مباشرة لعقدة الجدول، والتي ستكون بمثابة عمليات التشغيل داخل الخليتين اللتين أدخلناهما.
+// استخدم شرطة مائلة مزدوجة للأمام لتحديد جميع عقد التشغيل
+// التي هي أحفاد غير مباشرين لعقدة الجدول، والتي ستكون عبارة عن عمليات تشغيل داخل الخليتين اللتين أدخلناهما.
 nodeList = doc.SelectNodes("//Table//يجري");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// تحدد الخطوط المائلة الأمامية المفردة العلاقات السليلة المباشرة،
-// والتي قمنا بتخطيها عندما استخدمنا الشرطة المائلة المزدوجة.
-Assert.AreEqual(doc.SelectNodes(" //الجدول//تشغيل")،
-    doc.SelectNodes("//جدول/صف/خلية/فقرة/تشغيل"));
+// تشير الخطوط المائلة للأمام الفردية إلى علاقات النسل المباشرة،
+// والتي تخطيناها عندما استخدمنا الشرطات المزدوجة.
+Assert.AreEqual(doc.SelectNodes(" //الجدول//تشغيل"),
+    doc.SelectNodes("//الجدول/الصف/الخلية/الفقرة/التشغيل"));
 
-// الوصول إلى الشكل الذي يحتوي على الصورة التي قمنا بإدراجها.
+//الوصول إلى الشكل الذي يحتوي على الصورة التي أدخلناها.
 nodeList = doc.SelectNodes("//شكل");
 
 Assert.AreEqual(1, nodeList.Count);

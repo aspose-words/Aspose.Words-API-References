@@ -3,7 +3,7 @@ title: Table.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
 second_title: Aspose.Words para .NET
-description: Table DistanceBottom propiedad. Obtiene o establece la distancia entre la parte inferior de la tabla y el texto circundante en puntos en C#.
+description: Ajuste la propiedad DistanciaBottom de la tabla para controlar el espaciado entre la parte inferior de la tabla y el texto circundante, mejorando el diseño y la legibilidad.
 type: docs
 weight: 120
 url: /es/net/aspose.words.tables/table/distancebottom/
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Establece la distancia entre la tabla y el texto circundante.
+// Establezca la distancia entre la tabla y el texto circundante.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

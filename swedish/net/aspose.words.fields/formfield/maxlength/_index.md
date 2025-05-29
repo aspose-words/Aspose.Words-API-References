@@ -3,7 +3,7 @@ title: FormField.MaxLength
 linktitle: MaxLength
 articleTitle: MaxLength
 second_title: Aspose.Words för .NET
-description: FormField MaxLength fast egendom. Maximal längd för textfältet. Noll när längden inte är begränsad i C#.
+description: Upptäck egenskapen FormField MaxLength för att ställa in gränser för textfält. Förbättra användarupplevelsen med anpassningsbara längdinställningar för optimal datainmatning.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/formfield/maxlength/
@@ -50,7 +50,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Använd en dokumentbyggare för att infoga textinmatningsformulärfält.
+    // Använd en dokumentbyggare för att infoga textinmatningsfält i formuläret.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -61,19 +61,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Den här samlingen innehåller alla våra formulärfält.
+    // Denna samling innehåller alla våra formulärfält.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Fält visar våra formulärfält. Vi kan se deras fältkoder genom att öppna detta dokument
-    // i Microsoft och tryck på Alt + F9. Dessa fält har inga omkopplare,
-    // och medlemmar av FormField-objektet styr helt deras formulärfälts innehåll.
+    // Fält visar våra formulärfält. Vi kan se deras fältkoder genom att öppna det här dokumentet
+    // i Microsoft och trycker på Alt + F9. Dessa fält har inga växlar,
+    // och medlemmar i FormField-objektet styr helt innehållet i deras formulärfält.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Tillåt varje formulärfält att acceptera en dokumentbesökare.
+    // Tillåt att varje formulärfält accepterar en dokumentbesökare.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -87,7 +87,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
+ /// Besökarimplementering som skriver ut information om formulärfält som besöks.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -123,12 +123,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Låt besökaren fortsätta att besöka andra noder.
+        // Låt besökaren fortsätta besöka andra noder.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Lägger till nyrads teckenavslutad text till den aktuella utgången.
+    /// Lägger till nyradsavslutad text till aktuell utdata.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -136,7 +136,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

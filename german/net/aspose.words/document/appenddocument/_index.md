@@ -3,14 +3,14 @@ title: Document.AppendDocument
 linktitle: AppendDocument
 articleTitle: AppendDocument
 second_title: Aspose.Words für .NET
-description: Document AppendDocument methode. Hängt das angegebene Dokument an das Ende dieses Dokuments an in C#.
+description: Mit unserer Methode „Dokument anhängen“ können Sie mühelos Dokumente anhängen. Verbessern Sie Ihren Workflow durch die nahtlose Integration von Inhalten in Ihre vorhandenen Dateien.
 type: docs
-weight: 530
+weight: 570
 url: /de/net/aspose.words/document/appenddocument/
 ---
 ## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
-Hängt das angegebene Dokument an das Ende dieses Dokuments an.
+Fügt das angegebene Dokument an das Ende dieses Dokuments an.
 
 ```csharp
 public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
@@ -32,8 +32,8 @@ srcDoc.FirstSection.Body.AppendParagraph("Source document text. ");
 Document dstDoc = new Document();
 dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
 
-// Das Quelldokument an das Zieldokument anhängen und dabei dessen Formatierung beibehalten.
-// dann das Quelldokument im lokalen Dateisystem speichern.
+// Das Quelldokument unter Beibehaltung der Formatierung an das Zieldokument anhängen,
+// Speichern Sie dann das Quelldokument im lokalen Dateisystem.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
 ```
@@ -75,7 +75,7 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 ## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
-Hängt das angegebene Dokument an das Ende dieses Dokuments an.
+Fügt das angegebene Dokument an das Ende dieses Dokuments an.
 
 ```csharp
 public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, 
@@ -86,20 +86,20 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | --- | --- | --- |
 | srcDoc | Document | Das anzuhängende Dokument. |
 | importFormatMode | ImportFormatMode | Gibt an, wie kollidierende Stilformatierungen zusammengeführt werden. |
-| importFormatOptions | ImportFormatOptions | Ermöglicht die Angabe von Optionen, die sich auf die Formatierung eines Ergebnisdokuments auswirken. |
+| importFormatOptions | ImportFormatOptions | Ermöglicht die Angabe von Optionen, die die Formatierung eines Ergebnisdokuments beeinflussen. |
 
 ## Beispiele
 
-Zeigt, wie Konflikte im Listenstil beim Anhängen eines Klons eines Dokuments an sich selbst verwaltet werden.
+Zeigt, wie Konflikte im Listenstil beim Anhängen eines Klons eines Dokuments an sich selbst behoben werden.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");
 Document dstDoc = new Document(MyDir + "List item.docx");
 
-// Wenn Listenstile kollidieren, wenden Sie das Listenformat des Quelldokuments an.
+// Wenn es zu einem Konflikt zwischen Listenstilen kommt, wenden Sie das Listenformat des Quelldokuments an.
 // Setzen Sie die Eigenschaft „KeepSourceNumbering“ auf „false“, um keine Listennummern in das Zieldokument zu importieren.
-// Die Eigenschaft „KeepSourceNumbering“ auf „true“ setzen und alle Konflikte importieren
-// Stilnummerierung mit dem gleichen Erscheinungsbild wie im Quelldokument auflisten.
+// Setzen Sie die Eigenschaft "KeepSourceNumbering" auf "true" und importieren Sie alle
+// Nummerierung im Listenstil mit demselben Erscheinungsbild wie im Quelldokument.
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.MoveToDocumentEnd();
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -111,7 +111,7 @@ builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 dstDoc.UpdateListLabels();
 ```
 
-Zeigt, wie Konflikte im Listenstil beim Einfügen eines Dokuments verwaltet werden.
+Zeigt, wie Konflikte im Listenstil beim Einfügen eines Dokuments behoben werden.
 
 ```csharp
 Document dstDoc = new Document();
@@ -128,10 +128,10 @@ for (int i = 1; i <= 15; i++)
 
 Document attachDoc = (Document)dstDoc.Clone(true);
 
-// Wenn Listenstile kollidieren, wenden Sie das Listenformat des Quelldokuments an.
+// Wenn es zu einem Konflikt zwischen Listenstilen kommt, wenden Sie das Listenformat des Quelldokuments an.
 // Setzen Sie die Eigenschaft „KeepSourceNumbering“ auf „false“, um keine Listennummern in das Zieldokument zu importieren.
-// Die Eigenschaft „KeepSourceNumbering“ auf „true“ setzen und alle Konflikte importieren
-// Stilnummerierung mit dem gleichen Erscheinungsbild wie im Quelldokument auflisten.
+// Setzen Sie die Eigenschaft "KeepSourceNumbering" auf "true" und importieren Sie alle
+// Nummerierung im Listenstil mit demselben Erscheinungsbild wie im Quelldokument.
 ImportFormatOptions importOptions = new ImportFormatOptions();
 importOptions.KeepSourceNumbering = keepSourceNumbering;
 
@@ -141,21 +141,21 @@ builder.InsertDocument(attachDoc, ImportFormatMode.KeepSourceFormatting, importO
 dstDoc.Save(ArtifactsDir + "DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
 
-Zeigt, wie Konflikte im Listenstil beim Anhängen eines Dokuments verwaltet werden.
+Zeigt, wie Konflikte im Listenstil beim Anhängen eines Dokuments behoben werden.
 
 ```csharp
 // Laden Sie ein Dokument mit Text in einem benutzerdefinierten Stil und klonen Sie es.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Wir haben jetzt zwei Dokumente mit jeweils einem identischen Stil namens „CustomStyle“.
+// Wir haben jetzt zwei Dokumente, jedes mit einem identischen Stil namens „CustomStyle“.
 // Ändern Sie die Textfarbe für einen der Stile, um ihn vom anderen abzuheben.
 dstDoc.Styles["CustomStyle"].Font.Color = Color.DarkRed;
 
-// Wenn Listenstile kollidieren, wenden Sie das Listenformat des Quelldokuments an.
+// Wenn es zu einem Konflikt zwischen Listenstilen kommt, wenden Sie das Listenformat des Quelldokuments an.
 // Setzen Sie die Eigenschaft „KeepSourceNumbering“ auf „false“, um keine Listennummern in das Zieldokument zu importieren.
-// Die Eigenschaft „KeepSourceNumbering“ auf „true“ setzen und alle Konflikte importieren
-// Stilnummerierung mit dem gleichen Erscheinungsbild wie im Quelldokument auflisten.
+// Setzen Sie die Eigenschaft "KeepSourceNumbering" auf "true" und importieren Sie alle
+// Nummerierung im Listenstil mit demselben Erscheinungsbild wie im Quelldokument.
 ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = keepSourceNumbering;
 

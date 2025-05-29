@@ -3,14 +3,14 @@ title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words لـ .NET
-description: ImageData ToByteArray طريقة. إرجاع بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة في C#.
+description: حوّل أي صورة إلى مصفوفة بايتات بسهولة باستخدام طريقة ImageData ToByteArray. تمكّن من الوصول إلى بايتات الصور من المصادر المخزنة أو المرتبطة بسهولة!
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-إرجاع بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
+يعيد بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
 
 ```csharp
 public byte[] ToByteArray()
@@ -18,11 +18,11 @@ public byte[] ToByteArray()
 
 ## ملاحظات
 
-إذا كانت الصورة مرتبطة، فسيتم تنزيل الصورة في كل مرة يتم استدعاؤها.
+إذا تم ربط الصورة، فسيتم تنزيل الصورة في كل مرة يتم استدعاؤها.
 
 ## أمثلة
 
-يوضح كيفية إنشاء ملف صورة من بيانات الصورة الأولية للشكل.
+يوضح كيفية إنشاء ملف صورة من بيانات الصورة الخام للشكل.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -30,7 +30,7 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray () يُرجع المصفوفة المخزنة في خاصية ImageBytes.
+// تقوم ToByteArray() بإرجاع المصفوفة المخزنة في خاصية ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // احفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.

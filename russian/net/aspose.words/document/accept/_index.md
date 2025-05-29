@@ -3,9 +3,9 @@ title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: Document Accept метод. Принимает посетителя на С#.
+description: Оптимизируйте управление посетителями с помощью нашего метода Document Accept. Повысьте безопасность и эффективность для бесперебойного взаимодействия.
 type: docs
-weight: 510
+weight: 530
 url: /ru/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 Звонки[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узлов document и вызовов[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) в конце.
 
 ## Примеры
 
-Показывает, как использовать посетитель документа для печати структуры узла документа.
+Показывает, как использовать посетитель документа для печати структуры узлов документа.
 
 ```csharp
 public void DocStructureToText()
@@ -42,7 +42,7 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -67,7 +67,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при обнаружении узла Document.
+    /// Вызывается при обнаружении узла документа.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -107,7 +107,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Раздела.
+    /// Вызывается после посещения всех дочерних узлов узла Section.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -183,7 +183,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Вызывается, когда в документе встречается узел SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Вызывается, когда в документе встречается узел SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

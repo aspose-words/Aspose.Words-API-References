@@ -3,7 +3,7 @@ title: FieldFormDropDown
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
 second_title: Aspose.Words для .NET
-description: FieldFormDropDown строитель. Конструктор по умолчанию на С#.
+description: Создавайте динамические формы без усилий с помощью конструктора FieldFormDropDown. Упростите создание раскрывающихся списков и улучшите пользовательский опыт уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/

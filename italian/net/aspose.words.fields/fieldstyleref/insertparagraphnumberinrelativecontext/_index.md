@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertParagraphNumberInRelativeContext
 linktitle: InsertParagraphNumberInRelativeContext
 articleTitle: InsertParagraphNumberInRelativeContext
 second_title: Aspose.Words per .NET
-description: FieldStyleRef InsertParagraphNumberInRelativeContext proprietà. Ottiene o imposta se inserire il numero del paragrafo di riferimento nel contesto relativo in C#.
+description: Scopri la proprietà FieldStyleRef InsertParagraphNumberInRelativeContext per gestire facilmente la numerazione dei paragrafi nei tuoi documenti per una maggiore chiarezza.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInRelativeContext property
 
-Ottiene o imposta se inserire il numero del paragrafo di riferimento nel contesto relativo.
+Ottiene o imposta se inserire il numero del paragrafo a cui si fa riferimento nel contesto relativo.
 
 ```csharp
 public bool InsertParagraphNumberInRelativeContext { get; set; }
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Crea un elenco basato su un modello di elenco di Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Questo elenco generato visualizzerà "1.a )".
- // Lo spazio prima della parentesi è un carattere non delimitatore, che possiamo eliminare.
+// L'elenco generato visualizzerà "1.a )".
+ // Lo spazio prima della parentesi è un carattere non delimitatore che possiamo sopprimere.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Aggiunge testo e applica stili di paragrafo a cui faranno riferimento i campi STYLEREF.
+// Aggiungere testo e applicare stili di paragrafo a cui faranno riferimento i campi STYLEREF.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,12 +44,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Posiziona un campo STYLEREF nell'intestazione e visualizza il primo testo in stile "Paragrafo elenco" nel documento.
+// Inserisce un campo STYLEREF nell'intestazione e visualizza il primo testo in stile "Paragrafo elenco" nel documento.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Posiziona un campo STYLEREF nel piè di pagina e visualizza l'ultimo testo.
+// Inserire un campo STYLEREF nel piè di pagina e visualizzare l'ultimo testo.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";

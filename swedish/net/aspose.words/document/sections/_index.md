@@ -3,9 +3,9 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words för .NET
-description: Document Sections fast egendom. Returnerar en samling som representerar alla avsnitt i dokumentet i C#.
+description: Utforska egenskapen Dokumentavsnitt för att få tillgång till en komplett samling av alla dokumentavsnitt, vilket förbättrar din innehållsorganisation och navigering.
 type: docs
-weight: 370
+weight: 390
 url: /sv/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -43,16 +43,16 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-Visar hur man anger hur ett nytt avsnitt skiljer sig från det tidigare.
+Visar hur man anger hur ett nytt avsnitt skiljer sig från det föregående.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Avsnittsbrytningstyper avgör hur ett nytt avsnitt skiljer sig från föregående avsnitt.
-// Nedan finns fem typer av avsnittsbrytningar.
-// 1 - Startar nästa avsnitt på en ny sida:
+// Avsnittsbrytningstyper avgör hur ett nytt avsnitt separerar sig från föregående avsnitt.
+// Nedan följer fem typer av avsnittsbrytningar.
+// 1 - Börjar nästa avsnitt på en ny sida:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
@@ -64,19 +64,19 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Startar nästa avsnitt på en ny jämn sida:
+// 3 - Börjar nästa avsnitt på en ny jämn sida:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Startar nästa avsnitt på en ny udda sida:
+// 4 - Börjar nästa avsnitt på en ny udda sida:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Startar nästa avsnitt i en ny kolumn:
+// 5 - Börjar nästa avsnitt i en ny kolumn:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

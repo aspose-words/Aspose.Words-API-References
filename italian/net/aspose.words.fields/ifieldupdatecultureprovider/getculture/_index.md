@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
 second_title: Aspose.Words per .NET
-description: IFieldUpdateCultureProvider GetCulture metodo. Restituisce aCultureInfooggetto da utilizzare durante laggiornamento del campo in C#.
+description: Scopri il metodo GetCulture di IFieldUpdateCultureProvider, che restituisce in modo efficiente un oggetto CultureInfo per aggiornamenti di campo senza interruzioni.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Restituisce aCultureInfooggetto da utilizzare durante l'aggiornamento del campo.
+Restituisce unCultureInfo oggetto da utilizzare durante l'aggiornamento del campo.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -18,16 +18,16 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| culture | String | Il nome della lingua richiesta per il campo in fase di aggiornamento. |
-| field | Field | Il campo è in fase di aggiornamento. |
+| culture | String | Nome della cultura richiesta per il campo da aggiornare. |
+| field | Field | Campo in fase di aggiornamento. |
 
 ### Valore di ritorno
 
-L'oggetto cultura che deve essere utilizzato per l'aggiornamento del campo.
+L'oggetto cultura che dovrebbe essere utilizzato per l'aggiornamento del campo.
 
 ## Esempi
 
-Mostra come specificare una lingua che analizza la formattazione di data/ora per ogni campo.
+Mostra come specificare una cultura che analizza la formattazione di data/ora per ogni campo.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -50,7 +50,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Fornisce un oggetto CultureInfo che deve essere utilizzato durante l'aggiornamento di un campo.
+/// Fornisce un oggetto CultureInfo che dovrebbe essere utilizzato durante l'aggiornamento di un campo.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

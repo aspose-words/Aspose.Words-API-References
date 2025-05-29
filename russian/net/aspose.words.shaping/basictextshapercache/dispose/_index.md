@@ -3,14 +3,14 @@ title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 articleTitle: Dispose
 second_title: Aspose.Words для .NET
-description: BasicTextShaperCache Dispose метод. Удаляет кэшированные данные.ITextShaper экземпляры на С#.
+description: Эффективно управляйте памятью с помощью метода BasicTextShaperCache Dispose, который очищает кэшированные экземпляры ITextShaper для оптимальной производительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
 
-Удаляет кэшированные данные.[`ITextShaper`](../../itextshaper/) экземпляры.
+Удаляет кэшированные[`ITextShaper`](../../itextshaper/) экземпляры.
 
 ```csharp
 public void Dispose()

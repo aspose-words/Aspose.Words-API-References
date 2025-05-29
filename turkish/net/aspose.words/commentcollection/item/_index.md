@@ -2,15 +2,15 @@
 title: CommentCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: CommentCollection Item mülk. Bir öğeyi alırComment verilen dizinde C#'da.
+second_title: .NET için Aspose.Words
+description: CommentCollection Item özelliğiyle belirli yorumlara zahmetsizce erişin. Kolaylaştırılmış içerik yönetimi için yorumları dizine göre alın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Bir öğeyi alır[`Comment`](../../comment/) verilen dizinde.
+Birini alır[`Comment`](../../comment/) verilen indekste.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -18,17 +18,17 @@ public Comment this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Koleksiyona bir dizin. |
+| index | Koleksiyonun indeksi. |
 
 ## Notlar
 
 Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
+Negatif indekslere izin verilir ve koleksiyonun sonundan erişimi belirtir. Örneğin -1 son öğeyi, -2 sondan bir önceki öğeyi vb. ifade eder.
 
-Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
+Eğer indeks listedeki öğe sayısından büyük veya eşitse, bu boş bir referans döndürür.
 
-Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
+Eğer indeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu durum boş bir referans döndürür.
 
 ## Örnekler
 
@@ -45,18 +45,18 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
-Assert.AreEqual(2, comment.Replies.Count()); 
+Assert.AreEqual(2, comment.Replies.Count); 
 
-// Aşağıda bir yorumdan yanıtları kaldırmanın iki yolu verilmiştir.
-// 1 - Bir yorumdaki yanıtları tek tek kaldırmak için "RemoveReply" yöntemini kullanın:
+// Aşağıda bir yorumdan yanıtları kaldırmanın iki yolu bulunmaktadır.
+// 1 - Bir yorumdan gelen yanıtları tek tek kaldırmak için "RemoveReply" yöntemini kullanın:
 comment.RemoveReply(comment.Replies[0]);
 
-Assert.AreEqual(1, comment.Replies.Count());
+Assert.AreEqual(1, comment.Replies.Count);
 
-// 2 - Bir yorumdaki tüm yanıtları tek seferde kaldırmak için "RemoveAllReplies" yöntemini kullanın:
+// 2 - Bir yorumdan tüm yanıtları tek seferde kaldırmak için "RemoveAllReplies" yöntemini kullanın:
 comment.RemoveAllReplies();
 
-Assert.AreEqual(0, comment.Replies.Count());
+Assert.AreEqual(0, comment.Replies.Count);
 ```
 
 ### Ayrıca bakınız

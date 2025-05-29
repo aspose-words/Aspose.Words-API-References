@@ -3,7 +3,7 @@ title: Bookmark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: Bookmark Remove méthode. Supprime le signet du document. Ne supprime pas le texte à lintérieur du signet en C#.
+description: Supprimez facilement les signets de votre document tout en préservant le texte. Simplifiez votre processus d'édition grâce à notre méthode efficace de suppression des signets !
 type: docs
 weight: 80
 url: /fr/net/aspose.words/bookmark/remove/
@@ -18,13 +18,13 @@ public void Remove()
 
 ## Exemples
 
-Montre comment supprimer des signets d’un document.
+Montre comment supprimer les signets d'un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère cinq signets avec du texte à l'intérieur de leurs limites.
+// Insérer cinq signets avec du texte à l'intérieur de leurs limites.
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -41,12 +41,12 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Il existe plusieurs façons de supprimer des signets.
-// 1 - Appel de la méthode Remove du favori :
+// 1 - Appel de la méthode Remove du signet :
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Passage du signet à la méthode Remove de la collection :
+// 2 - Passage du signet à la méthode Remove de la collection :
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -57,7 +57,7 @@ doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - Suppression d'un signet à un index de la collection de signets :
+// 4 - Suppression d'un signet à un index dans la collection de signets :
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
@@ -66,7 +66,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 bookmarks.Clear();
 
 // Le texte qui se trouvait à l'intérieur des signets est toujours présent dans le document.
-Assert.That(bookmarks, Is.Empty);
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

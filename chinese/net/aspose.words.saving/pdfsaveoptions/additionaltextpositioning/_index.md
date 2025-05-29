@@ -2,8 +2,8 @@
 title: PdfSaveOptions.AdditionalTextPositioning
 linktitle: AdditionalTextPositioning
 articleTitle: AdditionalTextPositioning
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfSaveOptions AdditionalTextPositioning 财产. 指定是否写入附加文本定位运算符的标志 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PdfSaveOptions 的“AdditionalTextPositioning”属性，控制 PDF 中的文本位置。轻松优化文档布局！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -18,7 +18,7 @@ public bool AdditionalTextPositioning { get; set; }
 
 ## 评论
 
-如果`真的` ，附加文本定位运算符将写入输出 PDF。这可能有助于克服某些打印机文本定位不准确的 问题。缺点是 PDF 文档大小增加。
+如果`真的` ，额外的文本定位运算符会被写入输出 PDF。这可能有助于克服某些打印机上文本定位不准确的问题。缺点是会增加 PDF 文档的大小。
 
 默认值为`错误的`。
 
@@ -35,8 +35,8 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // 将“AdditionalTextPositioning”属性设置为“true”以尝试修复不正确的情况
-    // 输出 PDF 中的元素定位（如果有的话），但代价是文件大小增加。
+    // 将“AdditionalTextPositioning”属性设置为“true”以尝试修复不正确的
+    // 输出 PDF 中的元素定位（如果有的话）会增加文件大小。
     // 将“AdditionalTextPositioning”属性设置为“false”以照常呈现文档。
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };

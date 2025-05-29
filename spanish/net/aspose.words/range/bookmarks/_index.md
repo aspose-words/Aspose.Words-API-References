@@ -3,14 +3,14 @@ title: Range.Bookmarks
 linktitle: Bookmarks
 articleTitle: Bookmarks
 second_title: Aspose.Words para .NET
-description: Range Bookmarks propiedad. Devuelve unBookmarks colección que representa todos los marcadores del rango en C#.
+description: Descubra la propiedad Marcadores de rango para acceder a una colección completa de marcadores, mejorando la navegación y la organización de sus documentos sin esfuerzo.
 type: docs
 weight: 10
 url: /es/net/aspose.words/range/bookmarks/
 ---
 ## Range.Bookmarks property
 
-Devuelve un`Bookmarks` colección que representa todos los marcadores del rango.
+Devuelve un`Bookmarks` colección que representa todos los marcadores en el rango.
 
 ```csharp
 public BookmarkCollection Bookmarks { get; }
@@ -23,16 +23,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

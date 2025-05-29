@@ -3,7 +3,7 @@ title: Table.TextWrapping
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words pour .NET
-description: Table TextWrapping propriété. Obtient ou définitTextWrapping pour la table en C#.
+description: Découvrez la propriété « Table TextWrapping » pour gérer facilement l'enchaînement du texte dans vos tableaux. Améliorez la lisibilité et la conception grâce à des options de texte flexibles !
 type: docs
 weight: 310
 url: /fr/net/aspose.words.tables/table/textwrapping/
@@ -18,7 +18,7 @@ public TextWrapping TextWrapping { get; set; }
 
 ## Exemples
 
-Montre comment utiliser l'habillage du texte d'un tableau.
+Montre comment travailler avec l'habillage du texte du tableau.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Définissez la propriété "TextWrapping" sur "TextWrapping.Around" pour que le tableau enroule le texte autour de lui,
+// Définissez la propriété « TextWrapping » sur « TextWrapping.Around » pour que le tableau enveloppe le texte autour d'elle,
 // et poussez-le vers le bas dans le paragraphe ci-dessous en définissant la position.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;

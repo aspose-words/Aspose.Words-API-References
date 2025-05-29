@@ -3,14 +3,14 @@ title: Font.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words لـ .NET
-description: Font Size ملكية. الحصول على حجم الخط أو تعيينه بالنقاط في C#.
+description: اضبط حجم الخط بسهولة باستخدام خاصية "حجم الخط". خصّص نصك بالنقاط لتحسين سهولة القراءة وجاذبية التصميم.
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-الحصول على حجم الخط أو تعيينه بالنقاط.
+يحصل على حجم الخط بالنقاط أو يعينه.
 
 ```csharp
 public double Size { get; set; }
@@ -18,7 +18,7 @@ public double Size { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
+يوضح كيفية تنسيق سلسلة من النص باستخدام خاصية الخط الخاصة به.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Node.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words для .NET
-description: Node Clone метод. Создает дубликат узла на С#.
+description: Легко дублируйте узлы с помощью метода Node Clone. Улучшите свой процесс разработки и оптимизируйте эффективность проекта уже сегодня!
 type: docs
 weight: 100
 url: /ru/net/aspose.words/node/clone/
@@ -18,7 +18,7 @@ public Node Clone(bool isCloneChildren)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isCloneChildren | Boolean | Значение true для рекурсивного клонирования поддерева в указанном узле; false, чтобы клонировать только сам узел. |
+| isCloneChildren | Boolean | True для рекурсивного клонирования поддерева под указанным узлом; false для клонирования только самого узла. |
 
 ### Возвращаемое значение
 
@@ -26,9 +26,9 @@ public Node Clone(bool isCloneChildren)
 
 ## Примечания
 
-Этот метод служит конструктором копирования узлов. Клонированный узел не имеет родительского узла, но принадлежит тому же документу, что и исходный узел.
+Этот метод служит конструктором копирования для узлов. Клонированный узел не имеет родителя, но принадлежит тому же документу, что и исходный узел.
 
-Этот метод всегда выполняет глубокую копию узла.*isCloneChildren* Параметр указывает, следует ли также копировать все дочерние узлы.
+Этот метод всегда выполняет глубокое копирование узла.*isCloneChildren* параметр указывает, следует ли также выполнять копирование всех дочерних узлов.
 
 ## Примеры
 
@@ -46,7 +46,7 @@ Node cloneWithChildren = para.Clone(true);
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
 Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-// 2 — Создать клон узла без дочерних элементов.
+// 2 - Создать клон узла без каких-либо дочерних узлов.
 Node cloneWithoutChildren = para.Clone(false);
 
 Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);

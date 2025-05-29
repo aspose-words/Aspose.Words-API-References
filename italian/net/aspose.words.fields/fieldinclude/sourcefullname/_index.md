@@ -3,7 +3,7 @@ title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words per .NET
-description: FieldInclude SourceFullName proprietà. Ottiene o imposta la posizione del documento in C#.
+description: Scopri come utilizzare la proprietà FieldInclude SourceFullName per gestire in modo efficiente le posizioni dei documenti. Migliora il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldinclude/sourcefullname/

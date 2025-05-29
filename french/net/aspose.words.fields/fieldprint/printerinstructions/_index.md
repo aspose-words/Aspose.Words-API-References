@@ -3,14 +3,14 @@ title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
 second_title: Aspose.Words pour .NET
-description: FieldPrint PrinterInstructions propriété. Obtient ou définit les caractères du code de contrôle ou les instructions PostScript spécifiques à limprimante en C#.
+description: Découvrez comment gérer les codes de contrôle spécifiques à l'imprimante et les instructions PostScript avec FieldPrint PrinterInstructions pour des solutions d'impression optimisées.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Obtient ou définit les caractères du code de contrôle ou les instructions PostScript spécifiques à l'imprimante.
+Obtient ou définit les caractères du code de contrôle spécifique à l'imprimante ou les instructions PostScript.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -18,7 +18,7 @@ public string PrinterInstructions { get; set; }
 
 ## Exemples
 
-Montre pour insérer un champ PRINT.
+Affiche l'insertion d'un champ IMPRIMER.
 
 ```csharp
 Document doc = new Document();
@@ -26,15 +26,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Le champ PRINT peut envoyer des instructions à l'imprimante.
+// Le champ IMPRIMER peut envoyer des instructions à l'imprimante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Définit la zone sur laquelle l'imprimante doit exécuter les instructions.
-// Dans ce cas, ce sera le paragraphe qui contient notre champ PRINT.
+// Définissez la zone sur laquelle l'imprimante doit exécuter les instructions.
+// Dans ce cas, ce sera le paragraphe qui contiendra notre champ PRINT.
 field.PostScriptGroup = "para";
 
 // Lorsque nous utilisons une imprimante prenant en charge PostScript pour imprimer notre document,
-// cette commande rendra toute la zone que nous avons spécifiée dans "field.PostScriptGroup" blanche.
+// cette commande rendra blanche toute la zone que nous avons spécifiée dans "field.PostScriptGroup".
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

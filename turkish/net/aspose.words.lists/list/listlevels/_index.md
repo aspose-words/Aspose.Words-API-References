@@ -2,8 +2,8 @@
 title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
-second_title: Aspose.Words for .NET
-description: List ListLevels mülk. Bu liste için liste düzeylerinin koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Liste düzeylerinize zahmetsizce erişmek ve bunları yönetmek için ListLevels özelliğini keşfedin; böylece belgelerinizdeki düzeni ve netliği artırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.lists/list/listlevels/
@@ -18,20 +18,20 @@ public ListLevelCollection ListLevels { get; }
 
 ## Notlar
 
-Listenin her düzeyindeki biçimlendirmeye erişmek ve bunları değiştirmek için bu özelliği kullanın.
+Listenin her düzeyine ait biçimlendirmeye erişmek ve bunları değiştirmek için bu özelliği kullanın.
 
 ## Örnekler
 
-DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -52,7 +52,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şeklinde madde işaretli liste sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

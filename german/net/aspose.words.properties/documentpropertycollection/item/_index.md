@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: DocumentPropertyCollection Item eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft in C#.
+description: Greifen Sie mit unserem DocumentPropertyCollection-Element mühelos auf DocumentProperty-Objekte zu. Rufen Sie Eigenschaften nach Namen ab, um ein nahtloses Dokumentenmanagement zu ermöglichen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt mit dem Namen der Eigenschaft.
+Gibt einen[`DocumentProperty`](../../documentproperty/) Objekt durch den Namen der Eigenschaft.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -18,11 +18,11 @@ public virtual DocumentProperty this[string name] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| name | Der Name der abzurufenden Eigenschaft ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| name | Der Name der abzurufenden Eigenschaft (ohne Berücksichtigung der Groß-/Kleinschreibung). |
 
 ## Bemerkungen
 
-Kehrt zurück`Null` wenn eine Eigenschaft mit dem angegebenen Namen nicht gefunden wird.
+Rückgaben`null` wenn eine Eigenschaft mit dem angegebenen Namen nicht gefunden wird.
 
 ## Beispiele
 
@@ -32,8 +32,8 @@ Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft erstellt wird, die ein Da
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### Siehe auch
@@ -47,7 +47,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt nach index.
+Gibt einen[`DocumentProperty`](../../documentproperty/) Objekt nach Index.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -55,7 +55,7 @@ public DocumentProperty this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Nullbasierter Index des[`DocumentProperty`](../../documentproperty/) abrufen. |
+| index | Nullbasierter Index des[`DocumentProperty`](../../documentproperty/) abzurufen. |
 
 ## Beispiele
 
@@ -65,7 +65,7 @@ Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Jedes Dokument enthält eine Sammlung benutzerdefinierter Eigenschaften, die wie die integrierten Eigenschaften Schlüssel-Wert-Paare sind.
- // Das Dokument verfügt über eine feste Liste integrierter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften.
+    // Das Dokument verfügt über eine feste Liste integrierter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

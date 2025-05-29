@@ -3,9 +3,9 @@ title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Lists.ListTrailingCharacter enum. Specifica il carattere che separa letichetta dellelenco dal testo del paragrafo in C#.
+description: Scopri l'enum Aspose.Words.Lists.ListTrailingCharacter per personalizzare le etichette degli elenchi e migliorare la formattazione dei paragrafi per una presentazione del documento impeccabile.
 type: docs
-weight: 3540
+weight: 3990
 url: /it/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -21,8 +21,8 @@ public enum ListTrailingCharacter
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Tab | `0` | Un carattere di tabulazione viene inserito tra l'etichetta dell'elenco e il testo del paragrafo. |
-| Space | `1` | Viene inserito uno spazio tra l'etichetta dell'elenco e il testo del paragrafo. |
-| Nothing | `2` | Non è presente alcun carattere separatore tra l'etichetta dell'elenco e il testo del paragrafo. |
+| Space | `1` | Tra l'etichetta dell'elenco e il testo del paragrafo viene inserito uno spazio. |
+| Nothing | `2` | Non c'è alcun carattere separatore tra l'etichetta dell'elenco e il testo del paragrafo. |
 
 ## Osservazioni
 
@@ -30,16 +30,16 @@ Utilizzato come valore per il[`TrailingCharacter`](../listlevel/trailingcharacte
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

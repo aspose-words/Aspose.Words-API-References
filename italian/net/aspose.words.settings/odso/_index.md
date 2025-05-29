@@ -3,16 +3,16 @@ title: Odso Class
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.Odso classe. Specifica le impostazioni ODSO Office Data Source Object per unorigine dati di stampa unione in C#.
+description: Scopri la classe Aspose.Words.Settings.Odso per un'integrazione perfetta con la stampa unione. Ottimizza le impostazioni ODSO per una gestione efficiente delle fonti dati.
 type: docs
-weight: 5880
+weight: 6710
 url: /it/net/aspose.words.settings/odso/
 ---
 ## Odso class
 
 Specifica le impostazioni ODSO (Office Data Source Object) per un'origine dati di stampa unione.
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class Odso
@@ -28,13 +28,13 @@ public class Odso
 
 | Nome | Descrizione |
 | --- | --- |
-| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Specifica il carattere che deve essere interpretato come delimitatore di colonna utilizzato per separare le colonne all'interno di origini dati esterne. Il valore predefinito è 0, il che significa che non è definito alcun delimitatore di colonna. |
-| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Specifica il percorso dell'origine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota. |
-| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa stampa unione. Il valore predefinito èDefault . |
-| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Ottiene o imposta una raccolta di oggetti che specificano il modo in cui le colonne dell'origine dati esterna vengono mappate ai nomi dei campi di unione predefiniti nel documento. Questo oggetto non viene mai`nullo` . |
-| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Specifica che un'applicazione hosting tratterà la prima riga di dati nell'origine dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nell'origine dati. Il valore predefinito è`falso` . |
-| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Ottiene o imposta una raccolta di oggetti che specificano l'inclusione/esclusione di singoli record nella stampa unione. Questo oggetto non viene mai`nullo` . |
-| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Specifica il particolare set di dati a cui deve essere connessa un'origine all'interno di un'origine dati esterna. Il valore predefinito è una stringa vuota. |
+| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Specifica il carattere che deve essere interpretato come delimitatore di colonna utilizzato per separare le colonne all'interno di origini dati esterne. Il valore predefinito è 0, il che significa che non è stato definito alcun delimitatore di colonna. |
+| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Specifica la posizione dell'origine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota. |
+| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa unione di stampa. Il valore predefinito èDefault . |
+| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Ottiene o imposta una raccolta di oggetti che specificano come le colonne dell'origine dati esterna vengono mappate ai nomi dei campi di unione predefiniti nel documento. Questo oggetto non è mai`null` . |
+| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Specifica che un'applicazione di hosting deve trattare la prima riga di dati nella sorgente dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nella sorgente dati. Il valore predefinito è`falso` . |
+| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Ottiene o imposta una raccolta di oggetti che specificano l'inclusione/esclusione di singoli record nella stampa unione. Questo oggetto non è mai`null` . |
+| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Specifica il set di dati specifico a cui un'origine deve essere connessa all'interno di un'origine dati esterna. Il valore predefinito è una stringa vuota. |
 | [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Specifica la stringa di connessione Universal Data Link (UDL) utilizzata per connettersi a un'origine dati esterna. Il valore predefinito è una stringa vuota. |
 
 ## Metodi
@@ -45,15 +45,15 @@ public class Odso
 
 ## Osservazioni
 
-ODSO sembra essere il "nuovo" modo in cui le versioni più recenti di Microsoft Word preferiscono utilizzare quando specificano determinati tipi di origini dati per un documento di stampa unione. ODSO probabilmente è apparso per la prima volta in Microsoft Word 2000.
+ODSO sembra essere il "nuovo" metodo che le versioni più recenti di Microsoft Word preferiscono utilizzare quando specificano determinati tipi di origini dati per un documento di stampa unione. ODSO è probabilmente apparso per la prima volta in Microsoft Word 2000.
 
-L'uso di ODSO è scarsamente documentato e il modo migliore per imparare a utilizzare le proprietà di questo oggetto è creare manualmente un documento con l'origine dati desiderata in Microsoft Word e quindi aprire quel documento utilizzando Aspose.Words ed esaminare le proprietà del[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) e [`Odso`](../mailmergesettings/odso/)oggetti. Questo è un buon approccio da adottare se vuoi imparare come configurare a livello di codice un'origine dati, ad esempio.
+L'uso di ODSO è scarsamente documentato e il modo migliore per imparare a usare le proprietà di questo oggetto è creare manualmente un documento con una fonte dati desiderata in Microsoft Word e quindi aprire quel documento usando Aspose.Words ed esaminare le proprietà del[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) e [`Odso`](../mailmergesettings/odso/)oggetti. Questo è un buon approccio da adottare se si desidera imparare come configurare a livello di codice una sorgente dati, ad esempio.
 
-Normalmente non è necessario creare direttamente gli oggetti di questa classe poiché le impostazioni ODSO sono sempre disponibili tramite[`Odso`](../mailmergesettings/odso/) proprietà.
+Normalmente non è necessario creare oggetti di questa classe direttamente perché le impostazioni ODSO sono sempre disponibili tramite[`Odso`](../mailmergesettings/odso/) proprietà.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +66,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

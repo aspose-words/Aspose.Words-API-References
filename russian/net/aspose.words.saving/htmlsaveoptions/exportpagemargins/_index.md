@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportPageMargins свойство. Указывает экспортируются ли поля страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство HtmlSaveOptions ExportPageMargins улучшает экспорт HTML, MHTML и EPUB, управляя полями страницы для безупречного представления.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -22,28 +22,28 @@ Aspose.Words по умолчанию не отображает область п
 
 ## Примеры
 
-Показывает, как отображать объекты, находящиеся за пределами границ, в выходных HTML-документах.
+Показывает, как отображать выходящие за пределы области объекты в выходных HTML-документах.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор, чтобы вставить фигуру без переноса.
+// Используйте конструктор для вставки фигуры без обтекания.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// Отрицательные значения положения фигуры могут привести к тому, что фигура окажется за пределами границ страницы.
-// Если мы экспортируем это в HTML, фигура будет выглядеть усеченной.
+// Отрицательные значения положения фигуры могут поместить фигуру за пределы границ страницы.
+// Если мы экспортируем это в HTML, форма будет выглядеть обрезанной.
 shape.Left = -150;
 
 // При сохранении документа в HTML мы можем передать объект SaveOptions
-// чтобы решить, нужно ли настроить страницу для полного отображения объектов, находящихся за пределами границ.
-// Если мы установим для флага «ExportPageMargins» значение «true», фигура будет полностью видна в выходном HTML.
-// Если мы установим флаг «ExportPageMargins» в значение «false»,
-// наш документ будет отображать усеченную форму, как мы видим ее в Microsoft Word.
+// чтобы решить, следует ли настроить страницу для полного отображения объектов, выходящих за пределы экрана.
+// Если установить флаг «ExportPageMargins» в значение «true», фигура будет полностью видна в выходном HTML.
+// Если мы установим флаг "ExportPageMargins" на "false",
+// наш документ будет отображать обрезанную форму, как мы видим ее в Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

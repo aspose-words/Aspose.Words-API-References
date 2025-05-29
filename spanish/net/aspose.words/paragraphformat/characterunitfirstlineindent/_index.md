@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words para .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent propiedad. Obtiene o establece el valor en caracteres para la primera línea o sangría francesa en C#.
+description: Descubra la propiedad ParagraphFormat CharacterUnitFirstLineIndent para personalizar fácilmente la primera línea o la sangría francesa de su documento para lograr una apariencia elegante.
 type: docs
 weight: 70
 url: /es/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Obtiene o establece el valor (en caracteres) para la primera línea o sangría francesa.
+Obtiene o establece el valor (en caracteres) para la sangría de primera línea o francesa.
 
 Utilice valores positivos para establecer la sangría de primera línea y valores negativos para establecer la sangría francesa.
 
@@ -20,14 +20,14 @@ public double CharacterUnitFirstLineIndent { get; set; }
 
 ## Ejemplos
 
-Muestra cómo cambiar el espaciado y la sangría de los párrafos.
+Muestra cómo cambiar el espaciado y las sangrías de los párrafos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// A continuación se muestran cinco opciones de espaciado diferentes, junto con las propiedades a las que afecta indirectamente su configuración.
+// A continuación se muestran cinco opciones de espaciado diferentes, junto con las propiedades que su configuración afecta indirectamente.
 // 1 - Sangría izquierda:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -49,14 +49,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - Interlineado antes de párrafos:
+// 4 - Interlineado antes de los párrafos:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Interlineado después de párrafos:
+// 5 - Interlineado después de los párrafos:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

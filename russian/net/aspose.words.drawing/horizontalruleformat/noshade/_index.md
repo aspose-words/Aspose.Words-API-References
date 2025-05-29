@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.NoShade
 linktitle: NoShade
 articleTitle: NoShade
 second_title: Aspose.Words для .NET
-description: HorizontalRuleFormat NoShade свойство. Указывает наличие 3Dзатенения для горизонтальной линейки. Еслиистинный то горизонтальная линейка без 3Dзатенения и используется сплошной цвет на С#.
+description: Откройте для себя свойство HorizontalRuleFormat NoShade, управляйте 3D-затенением для горизонтальных линий. Получите гладкий, сплошной цветовой дизайн без усилий!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Указывает наличие 3D-затенения для горизонтальной линейки. Если`истинный` то горизонтальная линейка без 3D-затенения и используется сплошной цвет.
+Указывает на наличие 3D-затенения для горизонтальной линии. Если`истинный` , то горизонтальная линия не имеет 3D-затенения и используется сплошной цвет.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -22,7 +22,7 @@ public bool NoShade { get; set; }
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

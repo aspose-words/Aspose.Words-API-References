@@ -3,14 +3,14 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words para .NET
-description: FileFontSource constructor. Director en C#.
+description: Descubre el constructor FileFontSource para una integración fluida de fuentes en tus proyectos. ¡Mejora tu diseño con soluciones de programación fáciles de usar!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(*string*) {#constructor}
 
-Director.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -46,7 +46,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int*) {#constructor_1}
 
-Director.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -55,7 +55,7 @@ public FileFontSource(string filePath, int priority)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | filePath | String | Ruta al archivo de fuente. |
-| priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
+| priority | Int32 | Prioridad de la fuente. Ver la[`Priority`](../../fontsourcebase/priority/) Descripción de la propiedad para más información. |
 
 ## Ejemplos
 
@@ -83,7 +83,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int, string*) {#constructor_2}
 
-Director.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | filePath | String | Ruta al archivo de fuente. |
-| priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
-| cacheKey | String | La clave de esta fuente en el caché. Ver[`CacheKey`](../cachekey/) descripción de la propiedad para más información. |
+| priority | Int32 | Prioridad de la fuente. Ver la[`Priority`](../../fontsourcebase/priority/) Descripción de la propiedad para más información. |
+| cacheKey | String | La clave de esta fuente en la caché. Ver[`CacheKey`](../cachekey/) Descripción de la propiedad para más información. |
 
 ## Ejemplos
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,7 +127,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

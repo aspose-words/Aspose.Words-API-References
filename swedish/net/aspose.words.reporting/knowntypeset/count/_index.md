@@ -3,7 +3,7 @@ title: KnownTypeSet.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: KnownTypeSet Count fast egendom. Hämtar antalet objekt i uppsättningen i C#.
+description: Upptäck egenskapen KnownTypeSet Count för att enkelt hämta det totala antalet objekt i din uppsättning, vilket förbättrar effektiviteten i din datahantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/knowntypeset/count/

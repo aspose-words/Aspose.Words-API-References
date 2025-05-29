@@ -3,9 +3,9 @@ title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
 second_title: Aspose.Words für .NET
-description: Document OriginalLoadFormat eigendom. Ruft das Format des Originaldokuments ab das in dieses Objekt geladen wurde in C#.
+description: Entdecken Sie die Eigenschaft OriginalLoadFormat, um einfach auf das Format des in Ihr Objekt geladenen Originaldokuments zuzugreifen und so die Dokumentenverwaltung zu verbessern.
 type: docs
-weight: 300
+weight: 310
 url: /de/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -18,7 +18,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ## Bemerkungen
 
-Wenn Sie ein neues leeres Dokument erstellt haben, wird Folgendes zurückgegeben:Doc Wert.
+Wenn Sie ein neues leeres Dokument erstellt haben, gibt dasDoc Wert.
 
 ## Beispiele
 

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertImage
 linktitle: InsertImage
 articleTitle: InsertImage
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertImage metodo. Inserisce unimmagine da un .NETImage nel documento. Limmagine viene inserita in linea e in scala 100 in C#.
+description: Migliora senza sforzo i tuoi documenti con il metodo InsertImage di DocumentBuilder, che consente l'inserimento fluido di immagini .NET a grandezza naturale per effetti visivi straordinari.
 type: docs
-weight: 370
+weight: 400
 url: /it/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(*Image*) {#insertimage_3}
 
-Inserisce un'immagine da un .NETImage nel documento. L'immagine viene inserita in linea e in scala 100%.
+Inserisce un'immagine da un file .NETImage Oggetto nel documento. L'immagine viene inserita in linea e in scala al 100%.
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -26,7 +26,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -36,21 +36,21 @@ Mostra come inserire un'immagine da un oggetto in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza dell'oggetto Image.
+// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza di un oggetto Immagine.
 // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - Forma in linea con dimensioni personalizzate:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - Forma fluttuante con dimensioni personalizzate:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ## InsertImage(*string*) {#insertimage_9}
 
-Inserisce un'immagine da un file o un URL nel documento. L'immagine viene inserita in linea e in scala 100%.
+Inserisce un'immagine da un file o da un URL nel documento. L'immagine viene inserita in linea e in scala al 100%.
 
 ```csharp
 public Shape InsertImage(string fileName)
@@ -75,7 +75,7 @@ public Shape InsertImage(string fileName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Il file con l'immagine. Può essere qualsiasi URI locale o remoto valido. |
+| fileName | String | Il file con l'immagine. Può essere qualsiasi URI valido, locale o remoto. |
 
 ### Valore di ritorno
 
@@ -83,18 +83,29 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Questo sovraccarico scaricherà automaticamente l'immagine prima di inserirla in document se specifichi un URI remoto.
+Questo sovraccarico scaricherà automaticamente l'immagine prima di inserirla nel documento document se si specifica un URI remoto.
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
-Mostra come inserire un'immagine GIF nel documento.
+Mostra come inserire un'immagine WebP.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertImage(ImageDir + "WebP image.webp");
+
+doc.Save(ArtifactsDir + "Image.InsertWebpImage.docx");
+```
+
+Mostra come inserire un'immagine gif nel documento.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Possiamo inserire un'immagine gif utilizzando il percorso o l'array di byte.
+// Possiamo inserire un'immagine gif utilizzando un percorso o un array di byte.
 // Funziona solo se DocumentBuilder è ottimizzato per Word versione 2010 o successiva.
 // Nota che l'accesso ai byte dell'immagine provoca la conversione da Gif a Png.
 Shape gifImage = builder.InsertImage(ImageDir + "Graphics Interchange Format.gif");
@@ -110,9 +121,9 @@ Mostra come inserire una forma con un'immagine in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportate due posizioni in cui si trova il metodo "InsertShape" del generatore di documenti
-// può generare l'immagine che verrà visualizzata dalla forma.
-// 1 - Passa il nome file del file system locale di un file immagine:
+// Di seguito sono riportate due posizioni in cui è presente il metodo "InsertShape" del generatore di documenti
+// può ricavare l'immagine che verrà visualizzata dalla forma.
+// 1 - Passare il nome file del file system locale di un file immagine:
 builder.Write("Image from local file: ");
 builder.InsertImage(ImageDir + "Logo.jpg");
 builder.Writeln();
@@ -152,15 +163,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 
 // Aspose.Words inserisce l'immagine SVG nel documento come PNG con estensione svgBlip
-// che contiene la rappresentazione dell'immagine SVG vettoriale originale.
+// che contiene la rappresentazione dell'immagine vettoriale SVG originale.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
-// Aspose.Words inserisce l'immagine SVG nel documento come PNG, proprio come fa Microsoft Word per il vecchio formato.
+// Aspose.Words inserisce l'immagine SVG nel documento come PNG, proprio come fa Microsoft Word per i vecchi formati.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 
-// Aspose.Words inserisce l'immagine SVG nel documento come metafile EMF per mantenere l'immagine nella rappresentazione vettoriale.
+// Aspose.Words inserisce l'immagine SVG nel documento come metafile EMF per mantenere l'immagine in rappresentazione vettoriale.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
@@ -200,7 +211,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream*) {#insertimage_6}
 
-Inserisce un'immagine da uno stream nel documento. L'immagine viene inserita in linea e in scala 100%.
+Inserisce un'immagine da un flusso nel documento. L'immagine viene inserita in linea e in scala al 100%.
 
 ```csharp
 public Shape InsertImage(Stream stream)
@@ -208,7 +219,7 @@ public Shape InsertImage(Stream stream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Lo stream che contiene l'immagine. |
+| stream | Stream | Il flusso che contiene l'immagine. |
 
 ### Valore di ritorno
 
@@ -216,7 +227,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -235,7 +246,7 @@ using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
-Mostra come inserire un'immagine da uno stream in un documento.
+Mostra come inserire un'immagine da un flusso in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -243,7 +254,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Di seguito sono riportati tre modi per inserire un'immagine da uno stream.
+    // Di seguito sono riportati tre modi per inserire un'immagine da un flusso.
     // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
     builder.InsertImage(stream);
 
@@ -273,7 +284,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(*byte[]*) {#insertimage}
 
-Inserisce un'immagine da un array di byte nel documento. L'immagine viene inserita in linea e in scala 100%.
+Inserisce un'immagine da un array di byte nel documento. L'immagine viene inserita in linea e in scala al 100%.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes)
@@ -281,7 +292,7 @@ public Shape InsertImage(byte[] imageBytes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matrice di byte che contiene l'immagine. |
+| imageBytes | Byte[] | L'array di byte che contiene l'immagine. |
 
 ### Valore di ritorno
 
@@ -289,7 +300,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -299,66 +310,24 @@ Mostra come inserire un'immagine da un array di byte in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
+// 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
+builder.InsertImage(imageByteArray);
 
-    // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-    // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - Forma in linea con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - Forma in linea con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Forma fluttuante con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - Forma fluttuante con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Mostra come inserire un'immagine da un array di byte in un documento (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// La decodifica dell'immagine la convertirà nel formato .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-            // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - Forma in linea con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - Forma fluttuante con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### Guarda anche
@@ -372,7 +341,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(*Image, double, double*) {#insertimage_5}
 
-Inserisce un'immagine in linea da un .NETImage nel documento e lo ridimensiona alla dimensione specificata.
+Inserisce un'immagine in linea da un file .NETImage oggetto nel documento e lo ridimensiona alla dimensione specificata.
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -381,8 +350,8 @@ public Shape InsertImage(Image image, double width, double height)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | image | Image | L'immagine da inserire nel documento. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 
 ### Valore di ritorno
 
@@ -390,7 +359,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -400,52 +369,24 @@ Mostra come inserire un'immagine da un oggetto in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza dell'oggetto Image.
+// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza di un oggetto Immagine.
 // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - Forma in linea con dimensioni personalizzate:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - Forma fluttuante con dimensioni personalizzate:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-Mostra come inserire un'immagine da un oggetto in un documento (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// La decodifica dell'immagine la convertirà nel formato .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Di seguito sono riportati tre modi per inserire un'immagine da un'istanza dell'oggetto Image.
-    // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 - Forma in linea con dimensioni personalizzate:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Forma fluttuante con dimensioni personalizzate:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### Guarda anche
@@ -459,7 +400,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(*string, double, double*) {#insertimage_11}
 
-Inserisce un'immagine in linea da un file o un URL nel documento e la ridimensiona alla dimensione specificata.
+Inserisce un'immagine in linea da un file o URL nel documento e la ridimensiona alla dimensione specificata.
 
 ```csharp
 public Shape InsertImage(string fileName, double width, double height)
@@ -468,8 +409,8 @@ public Shape InsertImage(string fileName, double width, double height)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | Il file che contiene l'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 
 ### Valore di ritorno
 
@@ -477,7 +418,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -517,7 +458,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream, double, double*) {#insertimage_8}
 
-Inserisce un'immagine in linea da uno stream nel documento e la ridimensiona alla dimensione specificata.
+Inserisce un'immagine in linea da un flusso nel documento e la ridimensiona alla dimensione specificata.
 
 ```csharp
 public Shape InsertImage(Stream stream, double width, double height)
@@ -526,8 +467,8 @@ public Shape InsertImage(Stream stream, double width, double height)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stream | Stream | Il flusso che contiene l'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 
 ### Valore di ritorno
 
@@ -535,11 +476,11 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
-Mostra come inserire un'immagine da uno stream in un documento.
+Mostra come inserire un'immagine da un flusso in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -547,7 +488,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Di seguito sono riportati tre modi per inserire un'immagine da uno stream.
+    // Di seguito sono riportati tre modi per inserire un'immagine da un flusso.
     // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
     builder.InsertImage(stream);
 
@@ -585,9 +526,9 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matrice di byte che contiene l'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| imageBytes | Byte[] | L'array di byte che contiene l'immagine. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 
 ### Valore di ritorno
 
@@ -595,7 +536,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -605,66 +546,24 @@ Mostra come inserire un'immagine da un array di byte in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
+// 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
+builder.InsertImage(imageByteArray);
 
-    // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-    // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - Forma in linea con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - Forma in linea con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Forma fluttuante con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - Forma fluttuante con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Mostra come inserire un'immagine da un array di byte in un documento (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// La decodifica dell'immagine la convertirà nel formato .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-            // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - Forma in linea con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - Forma fluttuante con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### Guarda anche
@@ -678,7 +577,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
-Inserisce un'immagine da un .NETImageOggetto nella posizione e dimensione specificate.
+Inserisce un'immagine da un file .NETImage oggetto nella posizione e dimensione specificate.
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
@@ -691,9 +590,9 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
 | left | Double | Distanza in punti dall'origine al lato sinistro dell'immagine. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
-| top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| top | Double | Distanza in punti dall'origine alla parte superiore dell'immagine. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
@@ -702,7 +601,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -712,52 +611,24 @@ Mostra come inserire un'immagine da un oggetto in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+string imageFile = ImageDir + "Logo.jpg";
 
-// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza dell'oggetto Image.
+// Di seguito sono riportati tre modi per inserire un'immagine da un'istanza di un oggetto Immagine.
 // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-builder.InsertImage(image);
+builder.InsertImage(imageFile);
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 2 - Forma in linea con dimensioni personalizzate:
-builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertImage(imageFile, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
 // 3 - Forma fluttuante con dimensioni personalizzate:
-builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+builder.InsertImage(imageFile, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-Mostra come inserire un'immagine da un oggetto in un documento (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// La decodifica dell'immagine la convertirà nel formato .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Di seguito sono riportati tre modi per inserire un'immagine da un'istanza dell'oggetto Image.
-    // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-    builder.InsertImage(bitmap);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 - Forma in linea con dimensioni personalizzate:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Forma fluttuante con dimensioni personalizzate:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### Guarda anche
@@ -774,7 +645,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
-Inserisce un'immagine da un file o da un URL nella posizione e dimensione specificate.
+Inserisce un'immagine da un file o URL nella posizione e dimensione specificate.
 
 ```csharp
 public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, double left, 
@@ -787,9 +658,9 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
 | left | Double | Distanza in punti dall'origine al lato sinistro dell'immagine. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
-| top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| top | Double | Distanza in punti dall'origine alla parte superiore dell'immagine. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
@@ -798,7 +669,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -808,7 +679,7 @@ Mostra come inserire un'immagine.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Esistono due modi per utilizzare un generatore di documenti per generare un'immagine e quindi inserirla come forma mobile.
+// Esistono due modi per utilizzare un generatore di documenti per reperire un'immagine e poi inserirla come forma mobile.
 // 1 - Da un file nel file system locale:
 builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
@@ -820,7 +691,7 @@ builder.InsertImage(ImageUrl, RelativeHorizontalPosition.Margin, 100,
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFloatingImage.docx");
 ```
 
-Mostra come inserire un'immagine dal file system locale in un documento preservandone le dimensioni.
+Mostra come inserire un'immagine dal file system locale in un documento mantenendone le dimensioni.
 
 ```csharp
 Document doc = new Document();
@@ -831,7 +702,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
     RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
-// Il passaggio di valori negativi come dimensioni previste verrà definito automaticamente
+// Il passaggio di valori negativi come dimensioni previste definirà automaticamente
 // le dimensioni della forma in base alle dimensioni della sua immagine.
 Assert.AreEqual(300.0d, imageShape.Width);
 Assert.AreEqual(300.0d, imageShape.Height);
@@ -878,7 +749,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
-Inserisce un'immagine da uno stream nella posizione e dimensione specificate.
+Inserisce un'immagine da un flusso nella posizione e dimensione specificate.
 
 ```csharp
 public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, double left, 
@@ -891,9 +762,9 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
 | left | Double | Distanza in punti dall'origine al lato sinistro dell'immagine. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
-| top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| top | Double | Distanza in punti dall'origine alla parte superiore dell'immagine. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
@@ -902,11 +773,11 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
-Mostra come inserire un'immagine da uno stream in un documento.
+Mostra come inserire un'immagine da un flusso in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -914,7 +785,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Di seguito sono riportati tre modi per inserire un'immagine da uno stream.
+    // Di seguito sono riportati tre modi per inserire un'immagine da un flusso.
     // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
     builder.InsertImage(stream);
 
@@ -956,13 +827,13 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matrice di byte che contiene l'immagine. |
+| imageBytes | Byte[] | L'array di byte che contiene l'immagine. |
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
 | left | Double | Distanza in punti dall'origine al lato sinistro dell'immagine. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dall'immagine. |
-| top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
-| width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| top | Double | Distanza in punti dall'origine alla parte superiore dell'immagine. |
+| width | Double | Larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
+| height | Double | Altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
@@ -971,7 +842,7 @@ Il nodo immagine appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
@@ -981,66 +852,24 @@ Mostra come inserire un'immagine da un array di byte in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
+byte[] imageByteArray = TestUtil.ImageToByteArray(ImageDir + "Logo.jpg");
 
-using (MemoryStream ms = new MemoryStream())
-{
-    image.Save(ms, ImageFormat.Png);
-    byte[] imageByteArray = ms.ToArray();
+// Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
+// 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
+builder.InsertImage(imageByteArray);
 
-    // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-    // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-    builder.InsertImage(imageByteArray);
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - Forma in linea con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 2 - Forma in linea con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Forma fluttuante con dimensioni personalizzate:
-    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
-    100, 200, 100, WrapType.Square);
-}
+// 3 - Forma fluttuante con dimensioni personalizzate:
+builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
-```
-
-Mostra come inserire un'immagine da un array di byte in un documento (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// La decodifica dell'immagine la convertirà nel formato .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
-
-            // Di seguito sono riportati tre modi per inserire un'immagine da un array di byte.
-            // 1 - Forma in linea con una dimensione predefinita basata sulle dimensioni originali dell'immagine:
-            builder.InsertImage(imageByteArray);
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 2 - Forma in linea con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-            builder.InsertBreak(BreakType.PageBreak);
-
-            // 3 - Forma fluttuante con dimensioni personalizzate:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
 ```
 
 ### Guarda anche

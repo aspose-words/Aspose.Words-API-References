@@ -3,14 +3,14 @@ title: SaveOutputParameters.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words per .NET
-description: SaveOutputParameters ContentType proprietà. Restituisce la stringa ContentType Internet Media Type che identifica il tipo del documento salvato in C#.
+description: Scopri la proprietà ContentType di SaveOutputParameters, che fornisce il tipo di supporto Internet per i documenti salvati, garantendo un'identificazione precisa dei file.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/saveoutputparameters/contenttype/
 ---
 ## SaveOutputParameters.ContentType property
 
-Restituisce la stringa Content-Type (Internet Media Type) che identifica il tipo del documento salvato.
+Restituisce la stringa Content-Type (Internet Media Type) che identifica il tipo di documento salvato.
 
 ```csharp
 public string ContentType { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Dopo aver salvato un documento, possiamo accedere all'Internet Media Type (tipo MIME) del documento di output appena creato.
+// Dopo aver salvato un documento, possiamo accedere al tipo MIME (Internet Media Type) del documento di output appena creato.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);

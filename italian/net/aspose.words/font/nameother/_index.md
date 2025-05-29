@@ -3,14 +3,14 @@ title: Font.NameOther
 linktitle: NameOther
 articleTitle: NameOther
 second_title: Aspose.Words per .NET
-description: Font NameOther proprietà. Restituisce o imposta il carattere utilizzato per i caratteri con codici carattere da 128 a 255 in C#.
+description: Scopri Font NameOther. Personalizza facilmente i font per i codici carattere 128-255, migliorando lo stile e la leggibilità del tuo testo. Migliora il tuo design oggi stesso!
 type: docs
 weight: 270
 url: /it/net/aspose.words/font/nameother/
 ---
 ## Font.NameOther property
 
-Restituisce o imposta il carattere utilizzato per i caratteri con codici carattere da 128 a 255.
+Restituisce o imposta il font utilizzato per i caratteri con codici carattere da 128 a 255.
 
 ```csharp
 public string NameOther { get; set; }
@@ -18,26 +18,26 @@ public string NameOther { get; set; }
 
 ## Esempi
 
-Mostra come Microsoft Word può combinare due caratteri diversi in un'unica esecuzione.
+Mostra come Microsoft Word può combinare due diversi tipi di carattere in un'unica esecuzione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Supponiamo che venga inserita un'esecuzione che utilizziamo il builder durante l'utilizzo di questa configurazione di carattere
-// contiene caratteri compresi nell'intervallo dei caratteri ASCII. In quel caso,
-// visualizzerà quei caratteri utilizzando questo carattere.
+// Supponiamo di eseguire un'operazione per la quale utilizziamo il builder per inserire durante l'utilizzo di questa configurazione del font
+// contiene caratteri compresi nell'intervallo dei caratteri ASCII. In tal caso,
+// visualizzerà quei caratteri utilizzando questo font.
 builder.Font.NameAscii = "Calibri";
 
-// Senza nessun altro carattere specificato, il builder applicherà questo carattere anche a tutti i caratteri che inserisce.
+// Se non viene specificato nessun altro font, il builder applicherà questo font a tutti i caratteri che inserirà.
 Assert.AreEqual("Calibri", builder.Font.Name);
 
-// Specifica un carattere da utilizzare per tutti i caratteri al di fuori dell'intervallo ASCII.
-// Idealmente, questo carattere dovrebbe avere un glifo per ogni codice di carattere non ASCII richiesto.
+// Specifica un font da utilizzare per tutti i caratteri esterni all'intervallo ASCII.
+// Idealmente, questo font dovrebbe avere un glifo per ogni codice di carattere non ASCII richiesto.
 builder.Font.NameOther = "Courier New";
 
-// Inserisce una sequenza con una parola composta da caratteri ASCII e una parola con tutti i caratteri esterni a tale intervallo.
-// Ogni carattere verrà visualizzato utilizzando uno dei caratteri, a seconda.
+// Inserisce una sequenza con una parola composta da caratteri ASCII e una parola con tutti i caratteri al di fuori di tale intervallo.
+// Ogni carattere verrà visualizzato utilizzando uno dei due font, a seconda.
 builder.Writeln("Hello, Привет");
 
 doc.Save(ArtifactsDir + "Font.NameAscii.docx");

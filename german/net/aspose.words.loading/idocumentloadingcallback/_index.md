@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback Interface
 linktitle: IDocumentLoadingCallback
 articleTitle: IDocumentLoadingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Loading.IDocumentLoadingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass beim Laden eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird in C#.
+description: Passen Sie das Laden von Dokumenten mit Aspose.Words.IDocumentLoadingCallback an. Implementieren Sie Ihre eigene Methode für mehr Kontrolle und Flexibilität im Dokumentenmanagement.
 type: docs
-weight: 3630
+weight: 4080
 url: /de/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass beim Laden eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird.
+Implementieren Sie diese Schnittstelle, wenn Sie beim Laden eines Dokuments Ihre eigene benutzerdefinierte Methode aufrufen möchten.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -41,12 +41,12 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Problem mit der Ladedauer behandeln.
+        // Problem der Ladedauer behandeln.
     }
 }
 
 /// <summary>
-/// Das Laden eines Dokuments nach den „MaxDuration“-Sekunden abbrechen.
+/// Brechen Sie das Laden eines Dokuments nach den „MaxDuration“-Sekunden ab.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
@@ -59,7 +59,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Callback-Methode, die beim Laden des Dokuments aufgerufen wurde.
+    /// Rückrufmethode, die während des Ladens des Dokuments aufgerufen wird.
     /// </summary>
     /// <param name="args">Argumente werden geladen.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -72,12 +72,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Datum und Uhrzeit, wann das Laden des Dokuments gestartet wird.
+    /// Datum und Uhrzeit des Beginns des Dokumentladevorgangs.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal zulässige Dauer in Sekunden.
+    /// Maximal zulässige Dauer in Sek.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

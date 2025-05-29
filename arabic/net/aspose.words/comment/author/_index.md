@@ -3,14 +3,14 @@ title: Comment.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words لـ .NET
-description: Comment Author ملكية. إرجاع أو تعيين اسم المؤلف للتعليق في C#.
+description: إدارة مؤلفي التعليقات بسهولة باستخدام خاصية "مؤلف التعليق". يمكنك بسهولة إرجاع أسماء المؤلفين أو تعيينها لتعزيز تفاعل المستخدمين ووضوح المحتوى.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/comment/author/
 ---
 ## Comment.Author property
 
-إرجاع أو تعيين اسم المؤلف للتعليق.
+يعيد أو يعين اسم المؤلف للتعليق.
 
 ```csharp
 public string Author { get; set; }
@@ -18,21 +18,21 @@ public string Author { get; set; }
 
 ## ملاحظات
 
-لا يمكن`باطل`.
+لا يمكن أن يكون`باطل`.
 
-الافتراضي هو سلسلة فارغة.
+افتراضيًا، السلسلة فارغة.
 
 ## أمثلة
 
-يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
+يوضح كيفية طباعة كافة تعليقات المستند وردودها.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// إذا لم يكن للتعليق أصل، فهو تعليق "المستوى الأعلى" وليس تعليقًا من نوع الرد.
+// إذا لم يكن للتعليق سلف، فهو تعليق "على مستوى أعلى" وليس تعليق من نوع الرد.
 // اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

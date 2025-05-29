@@ -3,14 +3,14 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words para .NET
-description: MemoryFontSource constructor. Director en C#.
+description: Descubre MemoryFontSource, un potente constructor para una gestión de fuentes fluida en tus proyectos. ¡Mejora tu diseño con facilidad y eficiencia!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-Director.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## Ejemplos
 
-Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
+Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-Director.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,11 +55,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fontData | Byte[] | Datos de fuente binaria. |
-| priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
+| priority | Int32 | Prioridad de la fuente. Ver la[`Priority`](../../fontsourcebase/priority/) Descripción de la propiedad para más información. |
 
 ## Ejemplos
 
-Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
+Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-Director.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fontData | Byte[] | Datos de fuente binaria. |
-| priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
-| cacheKey | String | La clave de esta fuente en el caché. Ver[`CacheKey`](../cachekey/) descripción de la propiedad para más información. |
+| priority | Int32 | Prioridad de la fuente. Ver la[`Priority`](../../fontsourcebase/priority/) Descripción de la propiedad para más información. |
+| cacheKey | String | La clave de esta fuente en la caché. Ver[`CacheKey`](../cachekey/) Descripción de la propiedad para más información. |
 
 ## Ejemplos
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,7 +127,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

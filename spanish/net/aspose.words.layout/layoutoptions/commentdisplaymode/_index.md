@@ -3,7 +3,7 @@ title: LayoutOptions.CommentDisplayMode
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words para .NET
-description: LayoutOptions CommentDisplayMode propiedad. Obtiene o establece la forma en que se representan los comentarios. El valor predeterminado esShowInBalloons  en C#.
+description: Descubre la propiedad LayoutOptions CommentDisplayMode para personalizar la representación de los comentarios. Configúrala fácilmente para mejorar la experiencia del usuario con opciones como ShowInBalloons.
 type: docs
 weight: 30
 url: /es/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -18,7 +18,7 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ## Observaciones
 
-Tenga en cuenta que las revisiones no se representan en globos paraShowInAnnotations .
+Tenga en cuenta que las revisiones no se muestran en globos paraShowInAnnotations .
 
 ## Ejemplos
 
@@ -40,7 +40,7 @@ doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (mediante el método Document.UpdatePageLayout())
+// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (a través del método Document.UpdatePageLayout())
 // después de cambiar los valores de Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

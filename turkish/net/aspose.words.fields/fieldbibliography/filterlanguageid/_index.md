@@ -2,18 +2,71 @@
 title: FieldBibliography.FilterLanguageId
 linktitle: FilterLanguageId
 articleTitle: FilterLanguageId
-second_title: Aspose.Words for .NET
-description: FieldBibliography FilterLanguageId mülk. Bibliyografik verileri yalnızca belgedeki o dili kullanan kaynaklara göre filtrelemek için kullanılan dil kimliğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldBibliography FilterLanguageId özelliğinin, kaynakları dile göre filtreleyerek kesin sonuçlar elde etmenizi sağlayarak bibliyografik veri yönetiminizi nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldbibliography/filterlanguageid/
 ---
 ## FieldBibliography.FilterLanguageId property
 
-Bibliyografik verileri yalnızca belgedeki o dili kullanan kaynaklara göre filtrelemek için kullanılan dil kimliğini alır veya ayarlar.
+Bibliyografik verileri yalnızca belgedeki bu dili kullanan kaynaklara filtrelemek için kullanılan dil kimliğini alır veya ayarlar.
 
 ```csharp
 public string FilterLanguageId { get; set; }
+```
+
+## Örnekler
+
+CITATION ve BIBLIYOGRAFYA alanlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+// İçinde bibliyografik kaynaklar bulunan bir belgeyi aç
+// Microsoft Word aracılığıyla Referanslar -> Alıntılar ve Kaynakça -> Kaynakları Yönet.
+Document doc = new Document(MyDir + "Bibliography.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Text to be cited with one source.");
+
+// Sadece sayfa numarası ve atıfta bulunulan kitabın yazarı ile bir atıf oluşturun.
+FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+
+// Kaynaklara etiket adlarını kullanarak atıfta bulunuyoruz.
+fieldCitation.SourceTag = "Book1";
+fieldCitation.PageNumber = "85";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = true;
+fieldCitation.SuppressYear = true;
+
+Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
+
+// İki kaynağı da gösteren daha detaylı bir alıntı oluşturun.
+builder.InsertParagraph();
+builder.Write("Text to be cited with two sources.");
+fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+fieldCitation.SourceTag = "Book1";
+fieldCitation.AnotherSourceTag = "Book2";
+fieldCitation.FormatLanguageId = "en-US";
+fieldCitation.PageNumber = "19";
+fieldCitation.Prefix = "Prefix ";
+fieldCitation.Suffix = " Suffix";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = false;
+fieldCitation.SuppressYear = false;
+fieldCitation.VolumeNumber = "VII";
+
+Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
+
+// Belgedeki tüm kaynakları görüntülemek için BIBLIOGRAPHY alanını kullanabiliriz.
+builder.InsertBreak(BreakType.PageBreak);
+FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
+fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
+
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ```
 
 ### Ayrıca bakınız

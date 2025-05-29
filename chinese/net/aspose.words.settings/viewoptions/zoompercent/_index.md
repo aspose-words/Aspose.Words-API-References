@@ -2,15 +2,15 @@
 title: ViewOptions.ZoomPercent
 linktitle: ZoomPercent
 articleTitle: ZoomPercent
-second_title: 用于 .NET 的 Aspose.Words
-description: ViewOptions ZoomPercent 财产. 获取或设置您想要查看文档的百分比10 到 500 之间 在 C#.
+second_title: Aspose.Words for .NET
+description: 调整 ViewOptions 的 ZoomPercent 属性，将文档的缩放级别设置为 10-500%。增强可读性并优化您的观看体验！
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/viewoptions/zoompercent/
 ---
 ## ViewOptions.ZoomPercent property
 
-获取或设置您想要查看文档的百分比（10 到 500 之间）。
+获取或设置您想要查看文档的百分比。
 
 ```csharp
 public int ZoomPercent { get; set; }
@@ -18,13 +18,11 @@ public int ZoomPercent { get; set; }
 
 ## 评论
 
-如果值为 0，则此属性使用 100，否则如果值小于 10 或大于 大于 500，则此属性将抛出异常。
-
 尽管 Aspose.Words 能够读取和写入此选项，但其用法是特定于应用程序的。 例如，MS Word 2013 不尊重此选项的值。
 
 ## 例子
 
-演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
+展示如何设置自定义缩放比例，旧版本的 Microsoft Word 将在加载时将该比例应用于文档。
 
 ```csharp
 Document doc = new Document();

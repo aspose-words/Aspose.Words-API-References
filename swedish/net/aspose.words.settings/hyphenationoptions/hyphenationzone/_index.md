@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
 second_title: Aspose.Words för .NET
-description: HyphenationOptions HyphenationZone fast egendom. Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 025 tum i C#.
+description: Optimera textlayouten med egenskapen HyphenationZone. Kontrollera avståndet mellan bindestreck och högermarginalen för renare, professionella dokument.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 (0,25 tum).
+Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilket du inte vill att ord ska bindestreckas. Standardvärdet för den här egenskapen är 360 (0,25 tum).
 
 ```csharp
 public int HyphenationZone { get; set; }
@@ -18,7 +18,7 @@ public int HyphenationZone { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

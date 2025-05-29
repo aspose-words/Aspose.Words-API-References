@@ -3,22 +3,24 @@ title: RevisionOptions.RevisedPropertiesEffect
 linktitle: RevisedPropertiesEffect
 articleTitle: RevisedPropertiesEffect
 second_title: Aspose.Words para .NET
-description: RevisionOptions RevisedPropertiesEffect propiedad. Permite especificar el efecto para áreas de contenido con cambios de propiedades de formato.FormatChange El valor predeterminado esNone en C#.
+description: Descubra cómo el efecto RevisedPropertiesEffect de RevisionOptions mejora el formato de su contenido. Personalice fácilmente los cambios con la función FormatChange.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
 ## RevisionOptions.RevisedPropertiesEffect property
 
-Permite especificar el efecto para áreas de contenido con cambios de propiedades de formato.FormatChange El valor predeterminado esNone
+Permite especificar el efecto para las áreas de contenido con cambios en las propiedades de formatoFormatChange El valor predeterminado esNone
 
 ```csharp
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-## Observaciones
+### Excepciones
 
-Hiddenno está permitido y causaráArgumentOutOfRangeException.
+| excepción | condición |
+| --- | --- |
+| ArgumentOutOfRangeException | Hidden No está permitido. |
 
 ## Ejemplos
 
@@ -27,25 +29,25 @@ Muestra cómo modificar la apariencia de las revisiones.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Obtiene el objeto RevisionOptions que controla la apariencia de las revisiones.
+// Obtenga el objeto RevisionOptions que controla la apariencia de las revisiones.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Representar revisiones de inserción en verde y cursiva.
+// Representar las revisiones de inserción en verde y cursiva.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Representar las revisiones eliminadas en rojo y negrita.
+// Representar las revisiones de eliminación en rojo y negrita.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// El mismo texto aparecerá dos veces en una revisión de movimiento:
-// una vez en el punto de partida y otra en el destino de llegada.
-// Representa el texto en la revisión de origen en amarillo con un doble tachado
-// y azul con doble subrayado en la revisión a la que se trasladó.
+//El mismo texto aparecerá dos veces en una revisión de movimiento:
+// una vez en el punto de partida y otra vez en el destino de llegada.
+// Representar el texto en la revisión movida en amarillo con un doble tachado
+// y doble subrayado azul en la revisión trasladada.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Representar las revisiones de formato en rojo oscuro y negrita.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
@@ -59,7 +61,7 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Obtener movimientos, eliminaciones, revisiones de formato y comentarios para que aparezcan en globos verdes
+// Haga que el movimiento, la eliminación, las revisiones de formato y los comentarios aparezcan en globos verdes
 // en el lado derecho de la página.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

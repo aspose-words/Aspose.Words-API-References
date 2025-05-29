@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentSection
 linktitle: CurrentSection
 articleTitle: CurrentSection
 second_title: Aspose.Words per .NET
-description: DocumentBuilder CurrentSection proprietà. Ottiene la sezione attualmente selezionata in thisDocumentBuilder  in C#.
+description: Scopri la proprietà CurrentSection di DocumentBuilder per accedere e gestire facilmente la sezione selezionata nel tuo documento, migliorando la tua esperienza di modifica.
 type: docs
 weight: 60
 url: /it/net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Ottiene la sezione attualmente selezionata in this[`DocumentBuilder`](../) .
+Ottiene la sezione attualmente selezionata in questo[`DocumentBuilder`](../) .
 
 ```csharp
 public Section CurrentSection { get; }
@@ -28,13 +28,13 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configura la proprietà "RelativeHorizontalPosition" della forma per trattare il valore della proprietà "Left"
- // come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+ // come distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Imposta la distanza orizzontale della forma dal lato sinistro della pagina su 100.
 shape.Left = 100;
 
-// Utilizza la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+// Utilizzare la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80 pt sotto la parte superiore della pagina.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 

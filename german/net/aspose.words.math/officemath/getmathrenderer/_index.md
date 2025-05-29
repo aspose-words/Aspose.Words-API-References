@@ -3,14 +3,14 @@ title: OfficeMath.GetMathRenderer
 linktitle: GetMathRenderer
 articleTitle: GetMathRenderer
 second_title: Aspose.Words für .NET
-description: OfficeMath GetMathRenderer methode. Erstellt ein Objekt und gibt es zurück das zum Rendern dieser Gleichung in ein Bild verwendet werden kann in C#.
+description: Entdecken Sie die GetMathRenderer-Methode von OfficeMath, um Gleichungen mühelos in Bilder umzuwandeln und Ihre Dokumente mit klaren, professionellen Grafiken aufzuwerten.
 type: docs
-weight: 70
+weight: 90
 url: /de/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
 
-Erstellt ein Objekt und gibt es zurück, das zum Rendern dieser Gleichung in ein Bild verwendet werden kann.
+Erstellt und gibt ein Objekt zurück, mit dem diese Gleichung in ein Bild umgewandelt werden kann.
 
 ```csharp
 public OfficeMathRenderer GetMathRenderer()
@@ -18,11 +18,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 ### Rückgabewert
 
-Das Renderer-Objekt für diese Gleichung.
+Das Rendererobjekt für diese Gleichung.
 
 ## Bemerkungen
 
-Diese Methode ruft lediglich die auf[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) Konstruktor und übergibt dieses Objekt als Parameter.
+Diese Methode ruft lediglich die[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) Konstruktor und übergibt dieses Objekt als Parameter.
 
 ## Beispiele
 
@@ -33,11 +33,11 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Erstellen Sie ein „ImageSaveOptions“-Objekt, um es zur Änderung an die „Save“-Methode des Knotenrenderers zu übergeben
-// wie der OfficeMath-Knoten in ein Bild gerendert wird.
+// Erstellen Sie ein "ImageSaveOptions"-Objekt, das Sie an die "Save"-Methode des Knoten-Renderers übergeben, um es zu ändern
+// wie es den OfficeMath-Knoten in ein Bild rendert.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Setzen Sie die Eigenschaft „Scale“ auf 5, um das Objekt auf das Fünffache seiner ursprünglichen Größe darzustellen.
+// Setzen Sie die Eigenschaft „Scale“ auf 5, um das Objekt auf das Fünffache seiner Originalgröße zu rendern.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);

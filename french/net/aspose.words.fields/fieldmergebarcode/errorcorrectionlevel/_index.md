@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 articleTitle: ErrorCorrectionLevel
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode ErrorCorrectionLevel propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3 en C#.
+description: Découvrez la propriété FieldMergeBarcode ErrorCorrectionLevel pour optimiser la fiabilité de votre code QR. Définissez des valeurs de 0 à 3 pour une correction d'erreur améliorée.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 ---
 ## FieldMergeBarcode.ErrorCorrectionLevel property
 
-Obtient ou définit un niveau de correction d'erreur du code QR. Les valeurs valides sont [0, 3].
+Obtient ou définit le niveau de correction d'erreur du code QR. Les valeurs valides sont [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -24,13 +24,13 @@ Montre comment effectuer un publipostage sur des codes-barres QR.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyQRCode" d'une source de données de fusion en codes QR.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyQRCode » d'une source de données de fusion en codes QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Applique des couleurs et une mise à l'échelle personnalisées.
+// Appliquer des couleurs et une mise à l'échelle personnalisées.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -43,8 +43,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code QR avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

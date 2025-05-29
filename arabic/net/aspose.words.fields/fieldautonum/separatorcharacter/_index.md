@@ -3,14 +3,14 @@ title: FieldAutoNum.SeparatorCharacter
 linktitle: SeparatorCharacter
 articleTitle: SeparatorCharacter
 second_title: Aspose.Words لـ .NET
-description: FieldAutoNum SeparatorCharacter ملكية. الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه في C#.
+description: اكتشف خاصية FieldAutoNum SeparatorCharacter، وقم بتخصيص حرف الفاصل الخاص بك بسهولة لتحسين تنسيق البيانات وتحسين إمكانية الاستخدام.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautonum/separatorcharacter/
 ---
 ## FieldAutoNum.SeparatorCharacter property
 
-الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه.
+يحصل على حرف الفاصل الذي سيتم استخدامه أو يعينه.
 
 ```csharp
 public string SeparatorCharacter { get; set; }
@@ -18,15 +18,15 @@ public string SeparatorCharacter { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ترقيم الفقرات باستخدام الحقول التلقائية.
+يوضح كيفية ترقيم الفقرات باستخدام حقول الترقيم التلقائي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يعرض كل حقل AUTONUM القيمة الحالية للعدد الجاري لحقول AUTONUM،
-// السماح لنا بترقيم العناصر تلقائيًا مثل قائمة مرقمة.
-// سيعرض هذا الحقل الرقم "1.".
+// يعرض كل حقل AUTONUM القيمة الحالية لعدد تشغيلي لحقول AUTONUM،
+// مما يسمح لنا بترقيم العناصر تلقائيًا مثل القائمة المرقمة.
+//سيعرض هذا الحقل الرقم "1".
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
@@ -35,11 +35,11 @@ Assert.AreEqual(" AUTONUM ", field.GetFieldCode());
 field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
-// الحرف الفاصل، الذي يظهر في نتيجة الحقل مباشرة بعد الرقم، هو نقطة بشكل افتراضي.
-// إذا تركنا هذه الخاصية فارغة، فسيعرض الحقل التلقائي الثاني لدينا "2." في الوثيقة.
+// حرف الفاصل، الذي يظهر في نتيجة الحقل مباشرة بعد الرقم، هو نقطة افتراضيًا.
+// إذا تركنا هذه الخاصية فارغة، فسوف يعرض حقل AUTONUM الثاني الرقم "2." في المستند.
 Assert.IsNull(field.SeparatorCharacter);
 
-// يمكننا ضبط هذه الخاصية لتطبيق الحرف الأول من السلسلة الخاصة بها كحرف فاصل جديد.
+// يمكننا تعيين هذه الخاصية لتطبيق الحرف الأول من السلسلة كحرف فاصل جديد.
 // في هذه الحالة، سيعرض حقل AUTONUM الخاص بنا الآن "2:".
 field.SeparatorCharacter = ":";
 

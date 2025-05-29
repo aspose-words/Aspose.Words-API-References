@@ -3,7 +3,7 @@ title: RowFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words för .NET
-description: RowFormat Borders fast egendom. Hämtar samlingen av standardcellkanter för raden i C#.
+description: Upptäck egenskapen RowFormat Borders för att få åtkomst till standardcellkanter för dina rader och förbättra din datapresentation med stil och tydlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/rowformat/borders/
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## Exempel
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

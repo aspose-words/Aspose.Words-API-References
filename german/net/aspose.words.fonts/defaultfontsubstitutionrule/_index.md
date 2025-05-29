@@ -3,14 +3,14 @@ title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klas. Standardregel zum Ersetzen von Schriftarten in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.DefaultFontSubstitutionRule für nahtloses Schriftmanagement und verbesserte Dokumentformatierung. Optimieren Sie Ihren Workflow noch heute!
 type: docs
-weight: 2840
+weight: 3250
 url: /de/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
-Standardregel zum Ersetzen von Schriftarten.
+Standardregel zur Schriftartersetzung.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -27,29 +27,29 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ## Bemerkungen
 
-Diese Regel definiert einen einzelnen Standardschriftartnamen, der als Ersatz verwendet wird, wenn die Originalschriftart nicht verfügbar ist.
+Diese Regel definiert einen einzelnen Standardschriftnamen, der als Ersatz verwendet wird, wenn die Originalschrift nicht verfügbar ist.
 
 ## Beispiele
 
-Zeigt, wie die Standardregel zum Ersetzen von Schriftarten festgelegt wird.
+Zeigt, wie die Standardregel zur Schriftartersetzung festgelegt wird.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Die Standardersetzungsregel in FontSettings abrufen.
+// Holen Sie sich die Standard-Ersetzungsregel innerhalb von FontSettings.
 // Diese Regel ersetzt alle fehlenden Schriftarten durch „Times New Roman“.
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Setzen Sie den Standardschriftersatz auf „Courier New“.
+// Legen Sie den Standardschriftersatz auf „Courier New“ fest.
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Fügen Sie mithilfe eines Dokumenterstellungsprogramms Text in einer Schriftart hinzu, die wir nicht benötigen, damit die Ersetzung stattfindet.
-// und dann das Ergebnis in einem PDF rendern.
+// Fügen Sie mithilfe eines Dokumentgenerators Text in einer Schriftart hinzu, die wir nicht benötigen, damit die Ersetzung sichtbar wird.
+// und rendern Sie dann das Ergebnis in einem PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

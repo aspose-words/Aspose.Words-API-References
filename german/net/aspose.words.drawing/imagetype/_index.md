@@ -3,14 +3,14 @@ title: ImageType Enum
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.ImageType opsomming. Gibt den Typ Format eines Bildes in einem Microsoft WordDokument an in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Drawing.ImageType zur einfachen Verwaltung von Bildformaten in Microsoft Word-Dokumenten. Verbessern Sie die visuelle Attraktivität Ihres Dokuments!
 type: docs
-weight: 1080
+weight: 1410
 url: /de/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
 
-Gibt den Typ (Format) eines Bildes in einem Microsoft Word-Dokument an.
+Gibt den Typ (das Format) eines Bildes in einem Microsoft Word-Dokument an.
 
 ```csharp
 public enum ImageType
@@ -20,17 +20,28 @@ public enum ImageType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NoImage | `0` | Es liegen keine Bilddaten vor. |
-| Unknown | `1` | Ein unbekannter Bildtyp oder Bildtyp, der nicht direkt in einem Microsoft Word-Dokument gespeichert werden kann. |
-| Emf | `2` | Windows Enhanced Metafile. |
+| NoImage | `0` | Es sind keine Bilddaten vorhanden. |
+| Unknown | `1` | Ein unbekannter Bildtyp oder ein Bildtyp, der nicht direkt in einem Microsoft Word-Dokument gespeichert werden kann. |
+| Emf | `2` | Erweiterte Windows-Metadatei. |
 | Wmf | `3` | Windows-Metadatei. |
-| Pict | `4` | Macintosh BILD. Ein vorhandenes Bild bleibt in einem Dokument erhalten, das Einfügen neuer PICT-Bilder in ein Dokument wird jedoch nicht unterstützt. |
+| Pict | `4` | Macintosh PICT. Ein vorhandenes Bild bleibt in einem Dokument erhalten, das Einfügen neuer PICT-Bilder in ein Dokument wird jedoch nicht unterstützt. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Tragbare Netzwerkgrafiken. |
-| Bmp | `7` | Windows-Bitmap. |
-| Eps | `8` | Encapsulated PostScript. |
+| Bmp | `7` | Windows Bitmap. |
+| Eps | `8` | Gekapseltes PostScript. |
+| WebP | `9` | WebP. |
+| Gif | `10` | GIF |
 
 ## Beispiele
+
+Zeigt, wie WebP-Bilder gelesen werden.
+
+```csharp
+Document doc = new Document(MyDir + "Document with WebP image.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.AreEqual(ImageType.WebP, shape.ImageData.ImageType);
+```
 
 Zeigt, wie man einer Form ein Bild hinzufügt und seinen Typ überprüft.
 
@@ -38,16 +49,8 @@ Zeigt, wie man einer Form ein Bild hinzufügt und seinen Typ überprüft.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
-
-using (MemoryStream stream = new MemoryStream(imageBytes))
-{
-    Image image = Image.FromStream(stream);
-
-    // Das Bild in der URL ist ein .gif. Wenn Sie es in ein Dokument einfügen, wird es in eine PNG-Datei konvertiert.
-    Shape imgShape = builder.InsertImage(image);
-    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
-}
+Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
+Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 ```
 
 ### Siehe auch

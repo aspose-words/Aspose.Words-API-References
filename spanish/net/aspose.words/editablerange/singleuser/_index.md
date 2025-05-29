@@ -3,7 +3,7 @@ title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
 second_title: Aspose.Words para .NET
-description: EditableRange SingleUser propiedad. Devuelve o establece el usuario único para el rango editable en C#.
+description: Descubra la propiedad EditableRange SingleUser para administrar de manera eficiente rangos editables, garantizando una colaboración fluida y un control de acceso específico para cada usuario.
 type: docs
 weight: 50
 url: /es/net/aspose.words/editablerange/singleuser/
@@ -20,13 +20,13 @@ public string SingleUser { get; set; }
 
 Este editor se puede almacenar en una de las siguientes formas:
 
-DOMINIO\Nombre de usuario: para usuarios cuyo acceso deberá autenticarse utilizando las credenciales de dominio del usuario actual.
+DOMINIO\Nombre de usuario: para usuarios cuyo acceso se autenticará utilizando las credenciales de dominio del usuario actual.
 
-usuario@dominio.com: para usuarios cuyo acceso deberá autenticarse utilizando la dirección de correo electrónico del usuario como credencial.
+usuario@dominio.com - para usuarios cuyo acceso se autenticará utilizando la dirección de correo electrónico del usuario como credencial.
 
 usuario: para usuarios cuyo acceso se autenticará utilizando las credenciales de la máquina del usuario actual.
 
-No se puede configurar un usuario único y un grupo de editor simultáneamente para el rango editable específico, si uno está configurado, el otro estará claro.
+No es posible configurar un solo usuario y un grupo de editores simultáneamente para el rango editable específico, si se configura uno, el otro quedará claro.
 
 ## Ejemplos
 
@@ -42,8 +42,8 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Cuando protegemos documentos contra escritura, los rangos editables nos permiten elegir áreas específicas que los usuarios pueden editar.
-    // Hay dos formas mutuamente excluyentes de reducir la lista de editores permitidos.
+    // Cuando protegemos contra escritura documentos, los rangos editables nos permiten elegir áreas específicas que los usuarios pueden editar.
+    // Hay dos formas mutuamente excluyentes de limitar la lista de editores permitidos.
     // 1 - Especifica un usuario:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Especifica un grupo al que se le permite asociar a los usuarios:
+    // 2 - Especifique un grupo al que se asocien los usuarios permitidos:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprime detalles y contenidos de cada rango editable en el documento.
+    // Imprima detalles y contenidos de cada rango editable en el documento.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Recopila propiedades y contenidos de rangos editables visitados en una cadena.
+/// Recopila propiedades y contenidos de los rangos editables visitados en una cadena.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Ejecutar en el documento. Este visitante solo registra ejecuciones que se encuentran dentro de rangos editables.
+    Se llama cuando se encuentra un nodo de ejecución en el documento. Este visitante solo registra las ejecuciones dentro de los rangos editables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

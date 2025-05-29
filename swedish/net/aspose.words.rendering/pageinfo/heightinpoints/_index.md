@@ -3,14 +3,14 @@ title: PageInfo.HeightInPoints
 linktitle: HeightInPoints
 articleTitle: HeightInPoints
 second_title: Aspose.Words för .NET
-description: PageInfo HeightInPoints fast egendom. Får sidans höjd i poäng i C#.
+description: Upptäck egenskapen HeightInPoints i PageInfo för att enkelt komma åt sidhöjden i punkter. Förbättra din dokumentlayout med exakta mått!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
 ## PageInfo.HeightInPoints property
 
-Får sidans höjd i poäng.
+Hämtar sidans höjd i punkter.
 
 ```csharp
 public float HeightInPoints { get; }
@@ -18,13 +18,13 @@ public float HeightInPoints { get; }
 
 ## Exempel
 
-Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
+Visar hur man skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Det första avsnittet har 2 sidor. Vi kommer att tilldela ett annat skrivarpappersfack till var och en,
-// vars nummer kommer att matcha en sorts papperskälla. Dessa källor och deras slag kommer att variera
+// Det första avsnittet har två sidor. Vi kommer att tilldela ett annat pappersfack till varje sida,
+// vars nummer matchar en typ av papperskälla. Dessa källor och deras typer kommer att variera
 // beroende på den installerade skrivardrivrutinen.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -48,7 +48,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Skriv ut information om källfacket.
+    // Skriv ut informationen om källfacket.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

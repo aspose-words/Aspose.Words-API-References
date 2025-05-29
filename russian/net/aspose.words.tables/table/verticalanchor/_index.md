@@ -3,14 +3,14 @@ title: Table.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words для .NET
-description: Table VerticalAnchor свойство. Получает базовый объект на основе которого должно рассчитываться вертикальное положение плавающей таблицы. Значение по умолчаниюMargin  на С#.
+description: Откройте для себя свойство Table VerticalAnchor для оптимизации позиционирования плавающей таблицы. Узнайте, как улучшить управление макетом с помощью значения Margin по умолчанию.
 type: docs
 weight: 340
 url: /ru/net/aspose.words.tables/table/verticalanchor/
 ---
 ## Table.VerticalAnchor property
 
-Получает базовый объект, на основе которого должно рассчитываться вертикальное положение плавающей таблицы. Значение по умолчанию:Margin .
+Получает базовый объект, на основе которого следует рассчитать вертикальное положение плавающей таблицы. Значение по умолчанию:Margin .
 
 ```csharp
 public RelativeVerticalPosition VerticalAnchor { get; set; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // В RelativeHorizontalPosition для установки HorizontalAnchor доступны только поля, страницы и столбцы.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика HorizontalAnchor в RelativeHorizontalPosition доступны только Margin, Page, Column.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Только поле, страница и абзац доступны в RelativeVerticalPosition для средства установки вертикальной привязки.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика VerticalAnchor в RelativeVerticalPosition доступны только Margin, Page, Paragraph.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

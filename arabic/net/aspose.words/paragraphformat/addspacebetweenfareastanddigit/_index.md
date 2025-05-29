@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من الأرقام ومناطق نص شرق آسيا في الفقرة الحالية في C#.
+description: قم بتحسين تخطيط مستندك باستخدام الخاصية AddSpaceBetweenFarEastAndDigit، مما يعزز قابلية القراءة من خلال ضبط المسافة بين النص والأرقام في شرق آسيا.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من الأرقام ومناطق نص شرق آسيا في الفقرة الحالية.
+يحصل على أو يعين علمًا يشير إلى ما إذا كان يتم تعديل المسافة بين الأحرف تلقائيًا بين مناطق من الأرقام ومناطق النص في شرق آسيا في الفقرة الحالية.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إضافة النص
+// ثم يبدأ سطرًا جديدًا، ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

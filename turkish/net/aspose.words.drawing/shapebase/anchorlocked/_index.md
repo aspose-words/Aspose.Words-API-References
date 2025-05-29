@@ -2,8 +2,8 @@
 title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
-second_title: Aspose.Words for .NET
-description: ShapeBase AnchorLocked mülk. Şeklin bağlantısının kilitli olup olmadığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Şekiller için çapa kilitlemeyi kontrol etmek, projelerinizde tasarım kararlılığını ve esnekliği artırmak için ShapeBase AnchorLocked özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -20,13 +20,13 @@ public bool AnchorLocked { get; set; }
 
 Varsayılan değer:`YANLIŞ`.
 
-Yalnızca üst düzey şekiller için etkilidir.
+Sadece en üst seviye şekiller için etkilidir.
 
-Bu özellik, şeklin bağlantısının Microsoft Word'deki davranışını etkiler. Bağlantı kilitli olmadığında, şeklin Microsoft Word'de taşınması, şeklin bağlantısının da taşınması olabilir.
+Bu özellik, Microsoft Word'deki şeklin çapa davranışını etkiler. Çapa kilitli olmadığında, Microsoft Word'de şekli hareket ettirmek, şeklin çapasını da hareket ettirebilir.
 
 ## Örnekler
 
-Bir şeklin paragraf bağlantısının nasıl kilitleneceğini veya kilidinin açılacağını gösterir.
+Bir şeklin paragraf bağlantısının nasıl kilitleneceğini veya kilidinin nasıl açılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,14 +41,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Şeklin çapalanmasını önlemek için "AnchorLocked" özelliğini "true" olarak ayarlayın
-// Microsoft Word'de şekli taşırken hareket etmekten.
+// Şeklin çapa atmasını önlemek için "AnchorLocked" özelliğini "true" olarak ayarlayın
+// Microsoft Word'de şekli hareket ettirirken hareket etmesini engellemek.
 // Şeklin herhangi bir hareketine izin vermek için "AnchorLocked" özelliğini "false" olarak ayarlayın
-// ayrıca çapasını şeklin yakın olduğu herhangi bir paragrafa taşımak için.
+// şeklin yakınına geldiği herhangi bir paragrafa da bağlantısını taşımak için.
 shape.AnchorLocked = anchorLocked;
 
 // Şeklin solunda görünür bir bağlantı sembolü yoksa,
-// "Seçenekler" aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek -> "Ekran" -> "Nesne Bağlantıları".
+// "Seçenekler" -> "Görüntüle" -> "Nesne Bağlantı Noktaları" yoluyla görünür bağlantıları etkinleştirmemiz gerekecek.
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

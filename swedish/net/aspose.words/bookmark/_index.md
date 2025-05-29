@@ -3,9 +3,9 @@ title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Bookmark klass. Representerar ett enda bokmärke i C#.
+description: Upptäck klassen Aspose.Words.Bookmark, din lösning för att effektivt hantera bokmärken i dokument. Förbättra din dokumentredigeringsupplevelse idag!
 type: docs
-weight: 40
+weight: 230
 url: /sv/net/aspose.words/bookmark/
 ---
 ## Bookmark class
@@ -25,10 +25,10 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Hämtar noden som representerar slutet av bokmärket. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Hämtar noden som representerar början av bokmärket. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Hämtar det nollbaserade indexet för den första kolumnen i tabellkolumnintervallet som är associerat med bokmärket. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returnerar`Sann` om detta bokmärke är ett tabellkolumnbokmärke. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returer`sann` om detta bokmärke är ett bokmärke för tabellkolumner. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Hämtar det nollbaserade indexet för den sista kolumnen i tabellkolumnintervallet som är associerat med bokmärket. |
-| [Name](../../aspose.words/bookmark/name/) { get; set; } | Hämtar eller ställer in namnet på bokmärket. |
-| [Text](../../aspose.words/bookmark/text/) { get; set; } | Hämtar eller ställer in texten innesluten i bokmärket. |
+| [Name](../../aspose.words/bookmark/name/) { get; set; } | Hämtar eller anger namnet på bokmärket. |
+| [Text](../../aspose.words/bookmark/text/) { get; set; } | Hämtar eller ställer in texten som omges av bokmärket. |
 
 ## Metoder
 
@@ -38,11 +38,11 @@ public class Bookmark
 
 ## Anmärkningar
 
-`Bookmark` är ett "fasad"-objekt som kapslar in två noder[`BookmarkStart`](./bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) i ett dokumentträd och gör det möjligt att arbeta med ett bokmärke som ett enda objekt.
+`Bookmark` är ett "fasadobjekt" som inkapslar två noder[`BookmarkStart`](./bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) i ett dokumentträd och tillåter att arbeta med ett bokmärke som ett enda objekt.
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -52,7 +52,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -108,7 +108,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

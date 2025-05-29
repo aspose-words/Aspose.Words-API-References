@@ -3,7 +3,7 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: LayoutEnumerator Item proprietà. Ottiene una proprietà denominata dellentità in C#.
+description: Scopri la proprietà LayoutEnumerator Item per accedere facilmente alle proprietà delle entità denominate, migliorando la gestione dei dati e l'efficienza del flusso di lavoro.
 type: docs
 weight: 40
 url: /it/net/aspose.words.layout/layoutenumerator/item/
@@ -18,15 +18,15 @@ public object this[string key] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| key | Un nome della proprietà (con distinzione tra maiuscole e minuscole). |
+| key | Nome della proprietà (con distinzione tra maiuscole e minuscole). |
 
 ### Valore di ritorno
 
-Null se l'immobile non è disponibile, altrimenti valore dell'immobile.
+Null se la proprietà non è disponibile, altrimenti valore della proprietà.
 
 ## Osservazioni
 
-Questo è attualmente utilizzato per ottenere le proprietà dei caratteri di spans. Vedi[`Font`](../../../aspose.words/font/) classe per possibili nomi di proprietà. Non tutte le proprietà sono supportate.
+Questo è attualmente utilizzato per ottenere le proprietà del font degli span. Vedi[`Font`](../../../aspose.words/font/) classe per possibili nomi di proprietà. Non tutte le proprietà sono supportate.
 
 ### Guarda anche
 

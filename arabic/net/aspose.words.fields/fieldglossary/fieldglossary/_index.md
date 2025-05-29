@@ -3,7 +3,7 @@ title: FieldGlossary
 linktitle: FieldGlossary
 articleTitle: FieldGlossary
 second_title: Aspose.Words لـ .NET
-description: FieldGlossary البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldGlossary، أداتك المُثلى لإنشاء مسارد مُخصصة بسهولة. حسّن مشاريعك بسهولة وكفاءة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldglossary/fieldglossary/

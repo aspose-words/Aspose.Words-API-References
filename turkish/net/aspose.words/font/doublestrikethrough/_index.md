@@ -2,8 +2,8 @@
 title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
-second_title: Aspose.Words for .NET
-description: Font DoubleStrikeThrough mülk. Yazı tipi çift üstü çizili metin olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Font DoubleStrikeThrough özelliğini keşfedin. Belgelerinizde gelişmiş netlik ve stil için metni çift üstü çizili olarak kolayca biçimlendirin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/font/doublestrikethrough/
@@ -18,7 +18,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ## Örnekler
 
-Metne üstü çizili çizginin nasıl ekleneceğini gösterir.
+Metne çizgi üstü çizmenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

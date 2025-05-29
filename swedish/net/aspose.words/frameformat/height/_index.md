@@ -3,7 +3,7 @@ title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words för .NET
-description: FrameFormat Height fast egendom. Hämtar höjden på den angivna ramen i C#.
+description: Upptäck egenskapen FrameFormat Height för att enkelt komma åt och använda höjden på din angivna ram för ökad designflexibilitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/frameformat/height/

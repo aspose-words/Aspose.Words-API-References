@@ -3,9 +3,9 @@ title: Stroke.EndArrowLength
 linktitle: EndArrowLength
 articleTitle: EndArrowLength
 second_title: Aspose.Words para .NET
-description: Stroke EndArrowLength propiedad. Define la longitud de la punta de flecha para el final de un trazo en C#.
+description: Descubra la propiedad Stroke EndArrowLength para personalizar su diseño con longitudes de punta de flecha precisas, mejorando la claridad visual y el estilo.
 type: docs
-weight: 50
+weight: 80
 url: /es/net/aspose.words.drawing/stroke/endarrowlength/
 ---
 ## Stroke.EndArrowLength property
@@ -22,13 +22,13 @@ El valor predeterminado esMedium.
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

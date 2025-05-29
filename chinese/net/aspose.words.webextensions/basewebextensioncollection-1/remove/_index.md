@@ -2,8 +2,8 @@
 title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: 用于 .NET 的 Aspose.Words
-description: BaseWebExtensionCollection Remove 方法. 从集合中删除指定索引处的项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们直观的 Remove 方法，轻松从 BaseWebExtensionCollection 中移除项目。立即简化您的数据管理！
 type: docs
 weight: 60
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// 打印文档 Web 扩展的所有属性。
+// 打印文档的 Web 扩展的所有属性。
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

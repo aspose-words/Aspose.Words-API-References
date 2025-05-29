@@ -3,7 +3,7 @@ title: Node.CustomNodeId
 linktitle: CustomNodeId
 articleTitle: CustomNodeId
 second_title: Aspose.Words pour .NET
-description: Node CustomNodeId propriété. Spécifie lidentifiant de nœud personnalisé en C#.
+description: Découvrez la propriété Node CustomNodeId pour une identification efficace des nœuds personnalisés. Optimisez votre projet avec des identifiants uniques pour une meilleure organisation !
 type: docs
 weight: 10
 url: /fr/net/aspose.words/node/customnodeid/
@@ -20,25 +20,25 @@ public int CustomNodeId { get; set; }
 
 La valeur par défaut est zéro.
 
-Cet identifiant peut être défini et utilisé arbitrairement. Par exemple, comme clé pour obtenir des données externes.
+Cet identifiant peut être défini et utilisé arbitrairement, par exemple comme clé pour accéder à des données externes.
 
-Remarque importante : la valeur spécifiée n'est pas enregistrée dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
+Remarque importante : la valeur spécifiée n’est pas enregistrée dans un fichier de sortie et n’existe que pendant la durée de vie du nœud.
 
 ## Exemples
 
-Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
+Montre comment parcourir la collection de nœuds enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
 
-// Ajoutez deux tracés et une forme en tant que nœuds enfants au premier paragraphe de ce document.
+// Ajoutez deux exécutions et une forme en tant que nœuds enfants au premier paragraphe de ce document.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Notez que le 'CustomNodeId' n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
+// Notez que le « CustomNodeId » n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -46,7 +46,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Parcourir la collection d'enfants immédiats du paragraphe,
-// et imprimons toutes les courses ou formes que nous trouvons à l'intérieur.
+// et imprimez toutes les séquences ou formes que nous trouvons à l'intérieur.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

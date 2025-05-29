@@ -2,8 +2,8 @@
 title: FieldRef
 linktitle: FieldRef
 articleTitle: FieldRef
-second_title: Aspose.Words for .NET
-description: FieldRef inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda verimli veri işleme için temel varsayılan oluşturucu olan FieldRef oluşturucusunu keşfedin. Kodlamanızı bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldref/fieldref/

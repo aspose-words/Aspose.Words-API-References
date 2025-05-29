@@ -3,9 +3,9 @@ title: TextBoxWrapMode Enum
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode uppräkning. Anger hur text radbryts inuti en form i C#.
+description: Upptäck Aspose.Words.Drawing.TextBoxWrapMode-enum för att styra textbrytning i former, vilket förbättrar dokumentlayouter och designflexibilitet.
 type: docs
-weight: 1340
+weight: 1750
 url: /sv/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -20,8 +20,8 @@ public enum TextBoxWrapMode
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Square | `0` | Text slås in i en form. |
-| None | `2` | Text lindas inte in i en form. |
+| Square | `0` | Text radbryts inuti en form. |
+| None | `2` | Text radbryts inte inuti en form. |
 
 ## Exempel
 
@@ -36,8 +36,8 @@ TextBox textBox = textBoxShape.TextBox;
 
 // Ställ in egenskapen "TextBoxWrapMode" till "TextBoxWrapMode.None" för att öka textrutans bredd
 // för att rymma text, om den är tillräckligt stor.
-// Ställ in egenskapen "TextBoxWrapMode" till "TextBoxWrapMode.Square" till
-// linda all text inuti textrutan, bevara dess dimensioner.
+// Ställ in egenskapen "TextBoxWrapMode" till "TextBoxWrapMode.Square" för att
+// radbryter all text inuti textrutan och bevarar dess dimensioner.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

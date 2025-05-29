@@ -2,15 +2,15 @@
 title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
-second_title: 用于 .NET 的 Aspose.Words
-description: HorizontalRuleFormat Alignment 财产. 获取或设置水平线的对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HorizontalRuleFormat Alignment 属性，轻松自定义水平规则的对齐方式，增强设计灵活性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
 ## HorizontalRuleFormat.Alignment property
 
-获取或设置水平线的对齐方式。
+获取或设置水平规则的对齐方式。
 
 ```csharp
 public HorizontalRuleAlignment Alignment { get; set; }
@@ -22,7 +22,7 @@ public HorizontalRuleAlignment Alignment { get; set; }
 
 ## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+展示如何插入水平线形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

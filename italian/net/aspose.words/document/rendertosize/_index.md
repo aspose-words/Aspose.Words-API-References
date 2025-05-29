@@ -3,14 +3,14 @@ title: Document.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words per .NET
-description: Document RenderToSize metodo. Rende una pagina del documento in un fileGraphics oggetto a una dimensione specificata in C#.
+description: Scopri il metodo RenderToSize per convertire in modo efficiente le pagine dei documenti in oggetti grafici delle dimensioni desiderate. Migliora il tuo processo di rendering oggi stesso!
 type: docs
-weight: 690
+weight: 740
 url: /it/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
 
-Rende una pagina del documento in un fileGraphics oggetto a una dimensione specificata.
+Rende una pagina del documento in unGraphics oggetto a una dimensione specificata.
 
 ```csharp
 public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, float width, 
@@ -19,20 +19,20 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageIndex | Int32 | L'indice di pagina in base 0. |
-| graphics | Graphics | L'oggetto su cui eseguire il rendering. |
-| x | Single | La coordinata X (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
-| y | Single | La coordinata Y (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
-| width | Single | La larghezza massima (in unità mondiali) che può essere occupata dalla pagina sottoposta a rendering. |
+| pageIndex | Int32 | Indice di pagina basato su 0. |
+| graphics | Graphics | L'oggetto su cui effettuare il rendering. |
+| x | Single | Coordinata X (in unità mondiali) dell'angolo in alto a sinistra della pagina visualizzata. |
+| y | Single | Coordinata Y (in unità mondiali) dell'angolo in alto a sinistra della pagina visualizzata. |
+| width | Single | Larghezza massima (in unità mondiali) che può essere occupata dalla pagina renderizzata. |
 | height | Single | L'altezza massima (in unità mondiali) che può essere occupata dalla pagina renderizzata. |
 
 ### Valore di ritorno
 
-La scala calcolata automaticamente affinché la pagina sottoposta a rendering si adatti alla dimensione specificata.
+La scala calcolata automaticamente per adattare la pagina renderizzata alle dimensioni specificate.
 
 ## Esempi
 
-Mostra come eseguire il rendering del documento come bitmap in una posizione e dimensione specificate (.NetStandard 2.0).
+Mostra come rendere il documento come bitmap in una posizione e dimensione specificate (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -41,10 +41,10 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Applica un fattore di scala del 70% alla pagina che renderemo utilizzando questa tela.
+        // Applichiamo un fattore di scala del 70% alla pagina che verrà renderizzata utilizzando questa tela.
         canvas.Scale(70);
 
-        // Sposta la pagina di 0,5" dai bordi superiore e sinistro della pagina.
+        // Spostare la pagina di 0,5" dai bordi superiore e sinistro della pagina.
         canvas.Translate(0.5f, 0.5f);
 
         // Ruota la pagina renderizzata di 10 gradi.
@@ -59,13 +59,13 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
             StrokeWidth = 3f / 72f
         });
 
-        // Rende la prima pagina del documento alla stessa dimensione del rettangolo sopra.
+        // Rendi la prima pagina del documento della stessa dimensione del rettangolo soprastante.
         // Il rettangolo incornicerà questa pagina.
         float returnedScale = doc.RenderToSize(0, canvas, 0f, 0f, 3f, 3f);
 
         Console.WriteLine("The image was rendered at {0:P0} zoom.", returnedScale);
 
-        // Reimposta la matrice, quindi applica una nuova serie di ridimensionamenti e traslazioni.
+        // Reimposta la matrice, quindi applica un nuovo set di ridimensionamento e traslazioni.
         canvas.ResetMatrix();
         canvas.Scale(5);
         canvas.Translate(10, 10);
@@ -80,7 +80,7 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
             StrokeWidth = 1
         });
 
-        // Visualizza nuovamente la prima pagina all'interno del rettangolo appena creato.
+        // Esegui nuovamente il rendering della prima pagina all'interno del rettangolo appena creato.
         doc.RenderToSize(0, canvas, 90, 10, 50, 100);
 
         using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "Rendering.RenderToSizeNetStandard2.png"))
@@ -91,7 +91,7 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 }
 ```
 
-Mostra come eseguire il rendering di un documento in una bitmap in una posizione e dimensione specificate.
+Mostra come trasformare un documento in un'immagine bitmap in una posizione e con dimensioni specifiche.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -102,11 +102,11 @@ using (Bitmap bmp = new Bitmap(700, 700))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Imposta la proprietà "PageUnit" su "GraphicsUnit.Inch" per utilizzare i pollici come file
-        // unità di misura per eventuali trasformazioni e dimensioni che definiremo.
+        // Imposta la proprietà "PageUnit" su "GraphicsUnit.Inch" per utilizzare i pollici come
+        // unità di misura per tutte le trasformazioni e le dimensioni che definiremo.
         gr.PageUnit = GraphicsUnit.Inch;
 
-        // Sposta l'output a 0,5" dal bordo.
+        // Sposta l'output di 0,5" dal bordo.
         gr.TranslateTransform(0.5f, 0.5f);
 
         // Ruota l'output di 10 gradi.
@@ -119,17 +119,17 @@ using (Bitmap bmp = new Bitmap(700, 700))
         // Il rettangolo incornicerà la prima pagina.
         float returnedScale = doc.RenderToSize(0, gr, 0f, 0f, 3f, 3f);
 
-        // Questo è il fattore di scala che il metodo RenderToSize ha applicato alla prima pagina per adattarla alla dimensione specificata.
+        // Questo è il fattore di scala applicato dal metodo RenderToSize alla prima pagina per adattarla alle dimensioni specificate.
         Assert.AreEqual(0.2566f, returnedScale, 0.0001f);
 
         // Imposta la proprietà "PageUnit" su "GraphicsUnit.Millimeter" per utilizzare i millimetri come
-        // unità di misura per eventuali trasformazioni e dimensioni che definiremo.
+        // unità di misura per tutte le trasformazioni e le dimensioni che definiremo.
         gr.PageUnit = GraphicsUnit.Millimeter;
 
-        // Reimposta le trasformazioni che abbiamo utilizzato dal rendering precedente.
+        // Reimposta le trasformazioni utilizzate nel rendering precedente.
         gr.ResetTransform();
 
-        // Applica un'altra serie di trasformazioni.
+         // Applica un altro set di trasformazioni.
         gr.TranslateTransform(10, 10);
         gr.ScaleTransform(0.5f, 0.5f);
         gr.PageScale = 2f;

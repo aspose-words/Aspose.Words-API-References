@@ -3,14 +3,14 @@ title: FieldIndex.UseYomi
 linktitle: UseYomi
 articleTitle: UseYomi
 second_title: Aspose.Words för .NET
-description: FieldIndex UseYomi fast egendom. Hämtar eller ställer in om användningen av yomitext ska aktiveras för indexposter i C#.
+description: Förbättra din indexering med FieldIndex UseYomi-egenskapen. Aktivera enkelt yomi-text för förbättrad söksynlighet och bättre användarupplevelse.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/fieldindex/useyomi/
 ---
 ## FieldIndex.UseYomi property
 
-Hämtar eller ställer in om användningen av yomi-text ska aktiveras för indexposter.
+Hämtar eller anger om användning av yomi-text för indexposter ska aktiveras.
 
 ```csharp
 public bool UseYomi { get; set; }
@@ -25,13 +25,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett INDEX-fält som visar en post för varje XE-fält som finns i dokumentet.
-// Varje post kommer att visa XE-fältets textegenskapsvärde på vänster sida,
+// Varje post visar XE-fältets egenskapsvärde för Text på vänster sida,
 // och numret på sidan som innehåller XE-fältet till höger.
-// INDEX-posten samlar alla XE-fält med matchande värden i egenskapen "Text"
-// i en post i motsats till att göra en post för varje XE-fält.
+// INDEX-posten samlar in alla XE-fält med matchande värden i egenskapen "Text"
+// till en post istället för att skapa en post för varje XE-fält.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// INDEX-tabellen sorterar automatiskt sina poster efter värdena för deras textegenskaper i alfabetisk ordning.
+// INDEX-tabellen sorterar automatiskt sina poster efter värdena för deras Text-egenskaper i alfabetisk ordning.
 // Ställ in INDEX-tabellen för att sortera poster fonetiskt med Hiragana istället.
 index.UseYomi = sortEntriesUsingYomi;
 
@@ -40,11 +40,11 @@ if (sortEntriesUsingYomi)
 else
     Assert.AreEqual(" INDEX ", index.GetFieldCode());
 
-// Infoga 4 XE-fält, som skulle dyka upp som poster i INDEX-fältets innehållsförteckning.
+// Infoga 4 XE-fält, som skulle visas som poster i INDEX-fältets innehållsförteckning.
 // Egenskapen "Text" kan innehålla ett ords stavning i Kanji, vars uttal kan vara tvetydigt,
-// medan "Yomi"-versionen av ordet stavar exakt hur det uttalas med Hiragana.
-// Om vi ställer in vårt INDEX-fält för att använda Yomi, kommer det att sortera dessa poster
-// av värdet på deras Yomi-egenskaper istället för deras textvärden.
+// medan "Yomi"-versionen av ordet stavas exakt som det uttalas med hiragana.
+// Om vi ställer in vårt INDEX-fält att använda Yomi, kommer det att sortera dessa poster
+// med värdet på deras Yomi-egenskaper, istället för deras Text-värden.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛子";

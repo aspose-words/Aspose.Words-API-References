@@ -3,14 +3,14 @@ title: PageSetup.PageNumberStyle
 linktitle: PageNumberStyle
 articleTitle: PageNumberStyle
 second_title: Aspose.Words لـ .NET
-description: PageSetup PageNumberStyle ملكية. الحصول على تنسيق رقم الصفحة أو تعيينه في C#.
+description: اكتشف خاصية PageNumberStyle في PageSetup لتخصيص تنسيق رقم الصفحة بسهولة لتحسين عرض المستند ووضوحه.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property
 
-الحصول على تنسيق رقم الصفحة أو تعيينه.
+يحصل على تنسيق رقم الصفحة أو يعينه.
 
 ```csharp
 public NumberStyle PageNumberStyle { get; set; }
@@ -18,7 +18,7 @@ public NumberStyle PageNumberStyle { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إعداد ترقيم الصفحات في القسم.
+يوضح كيفية إعداد ترقيم الصفحات في قسم.
 
 ```csharp
 Document doc = new Document();
@@ -36,23 +36,23 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// انقل أداة إنشاء المستندات إلى الرأس الأساسي للقسم الأول،
-// الذي ستعرضه كل صفحة في هذا القسم.
+// نقل منشئ المستند إلى العنوان الأساسي للقسم الأول،
+// والتي سيتم عرضها في كل صفحة في هذا القسم.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// أدخل حقل الصفحة، والذي سيعرض رقم الصفحة الحالية.
+// أدخل حقل PAGE، والذي سيعرض رقم الصفحة الحالية.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول PAGE من 5.
-// أيضًا، قم بتكوين كافة حقول PAGE لعرض أرقام الصفحات الخاصة بها باستخدام الأرقام الرومانية الكبيرة.
+// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول الصفحة من 5.
+// قم أيضًا بتكوين جميع حقول الصفحة لعرض أرقام صفحاتها باستخدام الأرقام الرومانية الكبيرة.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// أنشئ رأسًا أساسيًا آخر للقسم الثاني، مع حقل PAGE آخر.
+// قم بإنشاء رأس أساسي آخر للقسم الثاني، مع حقل PAGE آخر.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -60,8 +60,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول PAGE من 10.
-// أيضًا، قم بتكوين جميع حقول PAGE لعرض أرقام صفحاتها باستخدام الأرقام العربية.
+// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول الصفحة من 10.
+// قم أيضًا بتكوين جميع حقول الصفحة لعرض أرقام صفحاتها باستخدام الأرقام العربية.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

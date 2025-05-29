@@ -2,17 +2,17 @@
 title: RowFormat Class
 linktitle: RowFormat
 articleTitle: RowFormat
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Tables.RowFormat sınıf. Bir tablo satırının tüm biçimlendirmesini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Kapsamlı tablo satır biçimlendirmesi için Aspose.Words.Tables.RowFormat sınıfını keşfedin. Belge tasarımınızı güçlü, esnek özellikler ile geliştirin.
 type: docs
-weight: 6330
+weight: 7180
 url: /tr/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
-Bir tablo satırının tüm biçimlendirmesini temsil eder.
+Bir tablo satırı için tüm biçimlendirmeyi temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Tablolarla Çalışma](https://docs.aspose.com/words/net/working-with-tables/) belgeleme makalesi.
 
 ```csharp
 public class RowFormat
@@ -22,21 +22,21 @@ public class RowFormat
 
 | İsim | Tanım |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin veriliyorsa doğrudur. |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | Bir tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin veriliyorsa doğrudur. |
 | [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Satır için varsayılan hücre kenarlıklarının koleksiyonunu alır. |
 | [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur. |
-| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar. |
-| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Tablo satırının yüksekliğini belirlemek için kuralı alır veya ayarlar. |
+| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Tablo satırının yüksekliğini noktalar halinde alır veya ayarlar. |
+| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Tablo satırının yüksekliğini belirleme kuralını alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Varsayılan satır formatına sıfırlar. |
+| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Varsayılan satır biçimlendirmesine sıfırlar. |
 
 ## Örnekler
 
-Bir tablo satırının formatının nasıl değiştirileceğini gösterir.
+Bir tablo satırının biçimlendirmesinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -51,7 +51,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satır ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -70,12 +70,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Biçimlendirmeyi değiştirmek için ilk satırın "RowFormat" özelliğini kullanın
-// bu satırdaki tüm hücrelerin içeriği.
+// Bu satırdaki tüm hücrelerin içerikleri.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Son satırdaki ilk hücrenin "CellFormat" özelliğini kullanarak o hücrenin içeriğinin biçimlendirmesini değiştirin.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -83,7 +83,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -91,7 +91,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -115,8 +115,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -128,7 +128,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

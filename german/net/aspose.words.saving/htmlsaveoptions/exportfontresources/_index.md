@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportFontResources
 linktitle: ExportFontResources
 articleTitle: ExportFontResources
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportFontResources eigendom. Gibt an ob Schriftartressourcen nach HTML MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung istFALSCH  in C#.
+description: Entdecken Sie die HtmlSaveOptions ExportFontResources-Eigenschaft, um den Export von Schriftressourcen für HTML, MHTML oder EPUB zu steuern. Maximieren Sie die visuelle Attraktivität Ihres Dokuments!
 type: docs
 weight: 140
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
 ---
 ## HtmlSaveOptions.ExportFontResources property
 
-Gibt an, ob Schriftartressourcen nach HTML, MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung ist`FALSCH` .
+Gibt an, ob Schriftressourcen in HTML, MHTML oder EPUB exportiert werden sollen. Standard ist`FALSCH` .
 
 ```csharp
 public bool ExportFontResources { get; set; }
@@ -18,17 +18,17 @@ public bool ExportFontResources { get; set; }
 
 ## Bemerkungen
 
-Das Exportieren von Schriftartressourcen ermöglicht eine konsistente Dokumentwiedergabe unabhängig von den verfügbaren Schriftarten in der Umgebung eines bestimmten Benutzers.
+Durch das Exportieren von Schriftartressourcen ist eine konsistente Dokumentwiedergabe unabhängig von den in der Umgebung eines bestimmten Benutzers verfügbaren Schriftarten möglich.
 
-Wenn`ExportFontResources` ist eingestellt auf`WAHR` Das Haupt-HTML-Dokument verweist über CSS 3 auf jede Schriftart**@Schriftart** at-rule und Schriftarten werden als separate Dateien ausgegeben. Beim Exportieren in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen Tochterdateien in das entsprechende Paket eingebettet.
+Wenn`ExportFontResources` ist eingestellt auf`WAHR` , Haupt-HTML-Dokument wird auf jede Schriftart über die CSS 3 verweisen**@Schriftart** at-rule und Schriftarten werden als separate Dateien ausgegeben. Beim Export in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen Zusatzdateien in das entsprechende Paket eingebettet.
 
-Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`WAHR` Schriftarten werden nicht in separaten Dateien gespeichert. Stattdessen werden sie eingebettet**@Schriftart** at-Regeln in Base64-Kodierung.
+Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`WAHR` , werden Schriftarten nicht in separaten Dateien gespeichert. Stattdessen werden sie eingebettet in**@Schriftart** at-Regeln in Base64-Kodierung.
 
-**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt**@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
+**Wichtig!**Beim Exportieren von Schriftressourcen sollten Sie die Lizenzierung von Schriften berücksichtigen. Autoren, die bestimmte Schriften über einen Download-Mechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob die beabsichtigte Verwendung im Rahmen der Lizenz liegt. Viele kommerzielle Schriften erlauben derzeit keinen Download über das Internet. Lizenzvereinbarungen für bestimmte Schriften weisen ausdrücklich darauf hin, dass die Verwendung über**@Schriftart** Regeln in CSS-Stylesheets sind nicht zulässig. Font-Subsetting kann auch gegen Lizenzbedingungen verstoßen.
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -36,7 +36,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -54,7 +54,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -75,7 +75,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

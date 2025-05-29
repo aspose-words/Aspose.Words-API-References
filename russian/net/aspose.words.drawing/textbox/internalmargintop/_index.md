@@ -3,14 +3,14 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words для .NET
-description: TextBox InternalMarginTop свойство. Определяет внутреннее верхнее поле фигуры в пунктах на С#.
+description: Откройте для себя свойство TextBox InternalMarginTop — управляйте верхним полем фигуры в пунктах для точной компоновки и повышения гибкости дизайна.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-Определяет внутреннее верхнее поле фигуры в пунктах.
+Указывает внутреннее верхнее поле в пунктах для фигуры.
 
 ```csharp
 public double InternalMarginTop { get; set; }
@@ -28,7 +28,7 @@ public double InternalMarginTop { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем еще одно текстовое поле с определенными полями.
+// Вставьте еще одно текстовое поле с определенными полями.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

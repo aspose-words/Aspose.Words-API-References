@@ -3,14 +3,14 @@ title: DocumentBuilder.PushFont
 linktitle: PushFont
 articleTitle: PushFont
 second_title: Aspose.Words para .NET
-description: DocumentBuilder PushFont método. Guarda el formato de caracteres actual en la pila en C#.
+description: Descubra cómo el método PushFont de DocumentBuilder mejora el formato de su documento al guardar estilos de caracteres para una fácil recuperación y un diseño consistente.
 type: docs
-weight: 600
+weight: 640
 url: /es/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
 
-Guarda el formato de caracteres actual en la pila.
+Guarda el formato de carácter actual en la pila.
 
 ```csharp
 public void PushFont()
@@ -18,7 +18,7 @@ public void PushFont()
 
 ## Ejemplos
 
-Muestra cómo utilizar la pila de formato del generador de documentos.
+Muestra cómo utilizar la pila de formato de un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -29,10 +29,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Preserva nuestra configuración de formato actual en la pila.
+// Conservamos nuestra configuración de formato actual en la pila.
 builder.PushFont();
 
-// Modificar el formato actual del constructor aplicando un nuevo estilo.
+// Modifique el formato actual del constructor aplicando un nuevo estilo.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", falso);
 

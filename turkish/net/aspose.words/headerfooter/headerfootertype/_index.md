@@ -2,15 +2,15 @@
 title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
-second_title: Aspose.Words for .NET
-description: HeaderFooter HeaderFooterType mülk. Bu üstbilgi/altbilginin türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş biçimlendirme denetimi için belgenizin üstbilgi ve altbilgi türlerine kolayca erişmek ve bunları yönetmek amacıyla HeaderFooterType özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/headerfooter/headerfootertype/
 ---
 ## HeaderFooter.HeaderFooterType property
 
-Bu üstbilgi/altbilginin türünü alır.
+Bu başlık/altbilginin türünü alır.
 
 ```csharp
 public HeaderFooterType HeaderFooterType { get; }
@@ -23,8 +23,8 @@ public HeaderFooterType HeaderFooterType { get; }
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

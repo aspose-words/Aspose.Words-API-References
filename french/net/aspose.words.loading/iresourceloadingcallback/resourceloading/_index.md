@@ -3,7 +3,7 @@ title: IResourceLoadingCallback.ResourceLoading
 linktitle: ResourceLoading
 articleTitle: ResourceLoading
 second_title: Aspose.Words pour .NET
-description: IResourceLoadingCallback ResourceLoading méthode. Appelé lorsque Aspose.Words charge une ressource externe en C#.
+description: Découvrez comment IResourceLoadingCallback améliore Aspose.Words en gérant efficacement le chargement des ressources externes pour un traitement transparent des documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

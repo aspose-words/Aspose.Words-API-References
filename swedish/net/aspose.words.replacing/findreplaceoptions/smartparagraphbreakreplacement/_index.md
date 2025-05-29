@@ -3,14 +3,14 @@ title: FindReplaceOptions.SmartParagraphBreakReplacement
 linktitle: SmartParagraphBreakReplacement
 articleTitle: SmartParagraphBreakReplacement
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions SmartParagraphBreakReplacement fast egendom. Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke i C#.
+description: Upptäck egenskapen SmartParagraphBreakReplacement i FindReplaceOptions. Kontrollera styckebrytningar enkelt för sömlös textformatering.
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke.
+Hämtar eller anger ett booleskt värde som anger att det är tillåtet att ersätta stycket break när det inte finns något nästa systerparagraf.
 
 Standardvärdet är`falsk`.
 
@@ -20,17 +20,17 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ## Anmärkningar
 
-Det här alternativet gör det möjligt att ersätta styckebrytning när det inte finns något nästa syskonstycke dit alla child -noder kan flyttas, genom att hitta valfritt (inte nödvändigtvis syskon) nästa stycke efter stycket som ersätts.
+Det här alternativet gör det möjligt att ersätta styckebrytning när det inte finns något nästa syskonstycke som alla underordnade -noder kan flyttas till, genom att hitta vilket (inte nödvändigtvis syskonstycke) nästa stycke efter det stycke som ersätts.
 
 ## Exempel
 
-Visar hur man tar bort stycke från en tabellcell med en kapslad tabell.
+Visar hur man tar bort ett stycke från en tabellcell med en kapslad tabell.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa tabell med stycke och inre tabell i första cellen.
+// Skapa tabell med stycke och en inre tabell i första cellen.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT1");
@@ -41,9 +41,9 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
-// När följande alternativ är satt till "true", kommer Aspose.Words att ta bort stycketexten
-// helt med sitt styckemärke. Annars kommer Aspose.Words att efterlikna Word och ta bort
-// endast styckets text och lämnar styckemärket intakt (när en tabell följer texten).
+// När följande alternativ är satt till 'true', kommer Aspose.Words att ta bort styckets text
+// helt med sitt stycketecken. Annars kommer Aspose.Words att härma Word och ta bort
+// endast styckets text och lämnar stycketecknet intakt (när en tabell följer texten).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
 

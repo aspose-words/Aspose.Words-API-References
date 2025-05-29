@@ -3,7 +3,7 @@ title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
 second_title: Aspose.Words für .NET
-description: List ListLevels eigendom. Ruft die Auflistung der Listenebenen für diese Liste ab in C#.
+description: Entdecken Sie die ListLevels-Eigenschaft, um mühelos auf Ihre Listenebenen zuzugreifen und sie zu verwalten und so die Organisation und Übersichtlichkeit Ihrer Dokumente zu verbessern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.lists/list/listlevels/
@@ -18,7 +18,7 @@ public ListLevelCollection ListLevels { get; }
 
 ## Bemerkungen
 
-Verwenden Sie diese Eigenschaft, um auf die Formatierung jeder Ebene der Liste zuzugreifen und diese individuell zu ändern.
+Verwenden Sie diese Eigenschaft, um auf die Formatierung jeder Ebene der Liste zuzugreifen und sie individuell zu ändern.
 
 ## Beispiele
 
@@ -27,9 +27,9 @@ Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listen
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
 // Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die ersten beiden Listenebenen an.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -52,12 +52,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Dieser NumberFormat-Wert erstellt sternförmige Aufzählungssymbole.
+// Dieser NumberFormat-Wert erstellt sternförmige Aufzählungslistensymbole.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Absätze erstellen und beide Listenebenen unserer benutzerdefinierten Listenformatierung darauf anwenden.
+// Erstellen Sie Absätze und wenden Sie beide Listenebenen unserer benutzerdefinierten Listenformatierung darauf an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

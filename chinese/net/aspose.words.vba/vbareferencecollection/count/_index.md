@@ -2,15 +2,15 @@
 title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaReferenceCollection Count 财产. 返回集合中 VBA 引用的数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 VBA 引用集合计数属性，轻松检索和管理 VBA 引用的总数，从而实现高效编码。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbareferencecollection/count/
 ---
 ## VbaReferenceCollection.Count property
 
-返回集合中 VBA 引用的数量。
+返回集合中的 VBA 引用数。
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+展示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
 public void RemoveVbaReference()

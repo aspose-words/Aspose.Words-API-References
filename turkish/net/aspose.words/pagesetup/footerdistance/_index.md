@@ -2,15 +2,15 @@
 title: PageSetup.FooterDistance
 linktitle: FooterDistance
 articleTitle: FooterDistance
-second_title: Aspose.Words for .NET
-description: PageSetup FooterDistance mülk. Alt bilgi ile sayfanın altı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfanızın altbilgisi ile alt kısmı arasındaki boşluğu kontrol etmek için FooterDistance özelliğini ayarlayın. Belge düzeninizi zahmetsizce geliştirin!
 type: docs
 weight: 140
 url: /tr/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-Alt bilgi ile sayfanın altı arasındaki mesafeyi (nokta cinsinden) döndürür veya ayarlar.
+Sayfanın alt kısmı ile alt bilgi arasındaki mesafeyi (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double FooterDistance { get; set; }
@@ -18,7 +18,7 @@ public double FooterDistance { get; set; }
 
 ## Örnekler
 
-Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönlendirmenin, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

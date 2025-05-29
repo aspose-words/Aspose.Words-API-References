@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Placeholder
 linktitle: Placeholder
 articleTitle: Placeholder
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag Placeholder ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر هوحقيقي  في C#.
+description: اكتشف كيف تعمل خاصية العنصر النائب StructuredDocumentTag على تعزيز مستنداتك من خلال عرض نص العنصر النائب الأساسي عندما يكون المحتوى مفقودًا.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة، عنصر XML المعين المرتبط فارغ كما هو محدد عبر[`XmlMapping`](../xmlmapping/) element أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر هو`حقيقي` .
+يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) يحتوي على نص نائب يجب عرضه عندما تكون محتويات تشغيل SDT هذه فارغة، يكون عنصر XML المرتبط فارغًا كما هو محدد عبر[`XmlMapping`](../xmlmapping/) element أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر هو`حقيقي` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -18,21 +18,21 @@ public BuildingBlock Placeholder { get; }
 
 ## ملاحظات
 
-يمكن ان يكون`باطل`، وهذا يعني أن العنصر النائب لا ينطبق على هذه المعاملة الخاصة والتفضيلية.
+يمكن أن يكون`باطل`، مما يعني أن العنصر النائب غير قابل للتطبيق على هذا Sdt.
 
 ## أمثلة
 
-يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظمة.
+يوضح كيفية استخدام محتويات كتلة البناء كنص مخصص لعلامة مستند منظمة.
 
 ```csharp
 Document doc = new Document();
 
-// قم بإدراج علامة مستند منظمة لنص عادي من النوع "PlainText"، والتي ستعمل كمربع نص.
-// المحتويات التي سيتم عرضها بشكل افتراضي هي "انقر هنا لإدخال النص." اِسْتَدْعَى.
+// قم بإدراج علامة مستند منظمة نصية عادية من نوع "PlainText"، والتي ستعمل كمربع نص.
+// المحتوى الذي سيتم عرضه بشكل افتراضي هو عبارة عن مطالبة "انقر هنا لإدخال النص".
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// يمكننا جعل العلامة تعرض محتويات الكتلة البرمجية الإنشائية بدلاً من النص الافتراضي.
-// أولاً، أضف كتلة إنشاء تحتوي على محتويات إلى مستند المسرد.
+// يمكننا جعل العلامة تعرض محتويات كتلة البناء بدلاً من النص الافتراضي.
+// أولاً، أضف كتلة بناء تحتوي على محتويات إلى مستند المصطلحات.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -43,19 +43,19 @@ substituteBlock.FirstSection.Body.AppendParagraph("Custom placeholder text.");
 
 glossaryDoc.AppendChild(substituteBlock);
 
-// بعد ذلك، استخدم خاصية "PlaceholderName" الخاصة بعلامة المستند المنظم للإشارة إلى الكتلة البرمجية الإنشائية تلك بالاسم.
+// ثم استخدم خاصية "PlaceholderName" الموجودة في علامة المستند المنظم للإشارة إلى كتلة البناء هذه بالاسم.
 tag.PlaceholderName = "Custom Placeholder";
 
-// إذا كان "PlaceholderName" يشير إلى كتلة موجودة في مستند المصطلحات الخاص بالمستند الأصلي،
-// سنكون قادرين على التحقق من الكتلة البرمجية الإنشائية عبر خاصية "العنصر النائب".
+// إذا كان "PlaceholderName" يشير إلى كتلة موجودة في مستند المصطلحات الخاص بالمستند الرئيسي،
+// سوف نكون قادرين على التحقق من كتلة البناء من خلال خاصية "Placeholder".
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// قم بتعيين خاصية "IsShowingPlaceholderText" على "صحيح" للتعامل مع
-// المحتويات الحالية لعلامة المستند المنظمة كنص نائب.
-// هذا يعني أن النقر فوق مربع النص في Microsoft Word سيؤدي فورًا إلى تمييز جميع محتويات العلامة.
-// قم بتعيين خاصية "IsShowingPlaceholderText" على "خطأ" للحصول على القيمة "خطأ".
-// علامة مستند منظمة للتعامل مع محتوياتها كنص أدخله المستخدم بالفعل.
-// سيؤدي النقر فوق هذا النص في Microsoft Word إلى وضع المؤشر الوامض في الموقع الذي تم النقر عليه.
+// اضبط خاصية "IsShowingPlaceholderText" على "true" لمعالجة
+// المحتويات الحالية لعلامة المستند المنظم كنص بديل.
+// وهذا يعني أن النقر فوق مربع النص في Microsoft Word سيؤدي على الفور إلى تسليط الضوء على كافة محتويات العلامة.
+// اضبط خاصية "IsShowingPlaceholderText" على "false" للحصول على
+// علامة مستند منظمة لمعاملة محتوياتها كنص أدخله المستخدم بالفعل.
+// النقر فوق هذا النص في Microsoft Word سيضع المؤشر الوامض في الموقع الذي تم النقر فوقه.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

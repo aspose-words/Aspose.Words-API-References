@@ -3,7 +3,7 @@ title: CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words لـ .NET
-description: CleanupOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ CleanupOptions لإدارة بيانات فعّالة. بسّط عملياتك باستخدام مُنشئنا الافتراضي لتحقيق أداء مثالي.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/cleanupoptions/cleanupoptions/

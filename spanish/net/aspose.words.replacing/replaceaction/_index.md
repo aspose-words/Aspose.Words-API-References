@@ -3,9 +3,9 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Replacing.ReplaceAction enumeración. Permite al usuario especificar qué sucede con la coincidencia actual durante una operación de reemplazo en C#.
+description: Descubra la enumeración Aspose.Words.ReplaceAction para controlar los resultados de las coincidencias en sus operaciones de reemplazo, mejorando la eficiencia y la precisión de la edición de documentos.
 type: docs
-weight: 4640
+weight: 5370
 url: /es/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -21,19 +21,19 @@ public enum ReplaceAction
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Replace | `0` | Reemplazar la coincidencia actual. |
-| Skip | `1` | Saltar la partida actual. |
-| Stop | `2` | Finalice la operación de reemplazo. |
+| Skip | `1` | Omitir la coincidencia actual. |
+| Stop | `2` | Terminar la operación de reemplazo. |
 
 ## Ejemplos
 
-Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de búsqueda y reemplazo.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -48,11 +48,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Inserta un documento después del párrafo que contiene el texto coincidente.
+        // Insertar un documento después del párrafo que contiene el texto coincidente.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Elimina el párrafo con el texto coincidente.
+        //Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;

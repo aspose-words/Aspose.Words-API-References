@@ -3,14 +3,14 @@ title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
 second_title: Aspose.Words per .NET
-description: TextBox NoTextRotation proprietà. Ottiene o imposta un valore booleano che indica che il testo del TextBox non deve ruotare quando viene ruotata la forma in C#.
+description: Controlla la rotazione del testo nella tua TextBox con la proprietà NoTextRotation. Garantisci un testo chiaro e leggibile anche quando le forme vengono ruotate. Migliora il tuo design!
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/textbox/notextrotation/
 ---
 ## TextBox.NoTextRotation property
 
-Ottiene o imposta un valore booleano che indica che il testo del TextBox non deve ruotare quando viene ruotata la forma.
+Ottiene o imposta un valore booleano che indica che il testo della TextBox non deve ruotare quando la forma viene ruotata.
 
 ```csharp
 public bool NoTextRotation { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito è`falso`
 
 ## Esempi
 
-Mostra come disabilitare la rotazione del testo quando la forma viene ruotata.
+Mostra come disattivare la rotazione del testo quando la forma viene ruotata.
 
 ```csharp
 Document doc = new Document();

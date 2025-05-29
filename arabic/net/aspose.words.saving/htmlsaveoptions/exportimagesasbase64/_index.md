@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportImagesAsBase64 ملكية. يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 إلى مخرجات HTML أو MHTML أو EPUB. الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف خاصية HtmlSaveOptions ExportImagesAsBase64 لحفظ الصور بتنسيق Base64 لتحسين جودة إخراجها بصيغ HTML أو MHTML أو EPUB. حسّن جودة مستندك!
 type: docs
 weight: 170
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 إلى مخرجات HTML أو MHTML أو EPUB. الافتراضي هو`خطأ شنيع` .
+يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 في الإخراج HTML أو MHTML أو EPUB. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## ملاحظات
 
-عندما يتم تعيين هذه الخاصية إلى`حقيقي` يتم تصدير بيانات الصور مباشرة إلى ملف**img** لا يتم إنشاء العناصر والملفات المنفصلة.
+عندما يتم تعيين هذه الخاصية على`حقيقي` يتم تصدير بيانات الصور مباشرة إلى**صورة** لا يتم إنشاء عناصر وملفات منفصلة.
 
 ## أمثلة
 
-يوضح كيفية تضمين الخطوط داخل مستند HTML محفوظ.
+يوضح كيفية تضمين الخطوط داخل مستند HTML المحفوظ.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

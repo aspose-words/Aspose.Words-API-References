@@ -3,7 +3,7 @@ title: ChartXValue.MultilevelValue
 linktitle: MultilevelValue
 articleTitle: MultilevelValue
 second_title: Aspose.Words para .NET
-description: ChartXValue MultilevelValue propiedad. Obtiene el valor multinivel almacenado en C#.
+description: Descubra la propiedad MultilevelValue de ChartXValue para acceder fácilmente a los datos multinivel almacenados. ¡Descubra información valiosa y mejore su análisis de datos hoy mismo!
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/

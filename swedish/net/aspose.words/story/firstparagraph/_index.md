@@ -3,14 +3,14 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words för .NET
-description: Story FirstParagraph fast egendom. Får första stycket i berättelsen i C#.
+description: Upptäck egenskapen Story FirstParagraph för att enkelt extrahera det första stycket i valfri artikel, vilket förbättrar ditt innehåll och användarengagemang.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-Får första stycket i berättelsen.
+Hämtar det första stycket i berättelsen.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Exempel
 
-Visar hur man formaterar en serie text med dess teckensnittsegenskap.
+Visar hur man formaterar en textsekvens med hjälp av dess font-egenskap.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Lägg till ett stycke i textrutan och lägg till en serie text som textrutan kommer att visa.
+// Lägg till ett stycke i textrutan och lägg till en textsekvens som textrutan ska visa.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

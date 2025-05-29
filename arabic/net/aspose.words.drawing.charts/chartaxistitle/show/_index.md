@@ -3,14 +3,14 @@ title: ChartAxisTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words لـ .NET
-description: ChartAxisTitle Show ملكية. تحديد ما إذا كان سيتم عرض العنوان للمحور أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية "عرض عنوان محور الرسم البياني" للتحكم في رؤية عناوين المحاور. حسّن مخططاتك بعناوين واضحة وغنية بالمعلومات للحصول على رؤى أفضل للبيانات.
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
 
-تحديد ما إذا كان سيتم عرض العنوان للمحور أم لا. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد ما إذا كان سيتم عرض العنوان للمحور. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool Show { get; set; }
@@ -18,7 +18,7 @@ public bool Show { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين عنوان محور المخطط.
+يوضح كيفية تعيين عنوان محور الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -28,17 +28,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// حذف السلسلة الافتراضية التي تم إنشاؤها.
+//حذف السلسلة المولدة افتراضيًا.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// تعيين عنوان المحور.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

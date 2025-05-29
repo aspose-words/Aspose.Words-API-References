@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words för .NET
-description: CompositeNode RemoveChild metod. Tar bort den angivna underordnade noden i C#.
+description: Hantera enkelt din CompositeNode med RemoveChild-metoden, utformad för att effektivisera borttagning av nod för förbättrad prestanda och effektivitet.
 type: docs
-weight: 170
+weight: 190
 url: /sv/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
-Tar bort den angivna underordnade noden.
+Tar bort den angivna undernoden.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| oldChild | Node | Noden att ta bort. |
+| oldChild | T | Noden som ska tas bort. |
 
 ### Returvärde
 
@@ -26,11 +27,11 @@ Den borttagna noden.
 
 ## Anmärkningar
 
-Föräldern till*oldChild* är satt till`null` efter att noden har tagits bort.
+Föräldern till*oldChild* är inställd på`null` efter att noden har tagits bort.
 
 ## Exempel
 
-Visar hur man använder metoderna för Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
+Visar hur man använder metoderna Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +45,7 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Ta bort ett avsnitt baserat på dess syskonförhållande med ett annat avsnitt.
+// Ta bort en sektion baserat på dess syskonrelation med en annan sektion.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

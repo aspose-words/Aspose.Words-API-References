@@ -3,14 +3,14 @@ title: FieldOptions.CurrentUser
 linktitle: CurrentUser
 articleTitle: CurrentUser
 second_title: Aspose.Words für .NET
-description: FieldOptions CurrentUser eigendom. Ruft die aktuellen Benutzerinformationen ab oder legt diese fest in C#.
+description: Entdecken Sie die FieldOptions CurrentUser-Eigenschaft, um Benutzerinformationen mühelos zu verwalten und anzupassen und so die Funktionalität Ihrer Anwendungen zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property
 
-Ruft die aktuellen Benutzerinformationen ab oder legt diese fest.
+Ruft die aktuellen Benutzerinformationen ab oder legt sie fest.
 
 ```csharp
 public UserInformation CurrentUser { get; set; }
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
- // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
+// Fügen Sie die Felder USERNAME, USERINITIALS und USERADDRESS ein, die Werte von
+    // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
+// Das Feldoptionenobjekt hat auch einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

@@ -3,7 +3,7 @@ title: ImageSaveOptions.HorizontalResolution
 linktitle: HorizontalResolution
 articleTitle: HorizontalResolution
 second_title: Aspose.Words pour .NET
-description: ImageSaveOptions HorizontalResolution propriété. Obtient ou définit la résolution horizontale des images générées en points par pouce en C#.
+description: Découvrez la propriété ImageSaveOptions HorizontalResolution pour ajuster facilement la qualité de l'image en DPI pour une clarté et des détails optimaux dans vos projets.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -18,7 +18,7 @@ public float HorizontalResolution { get; set; }
 
 ## Remarques
 
-Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster et affecte la taille de sortie en pixels.
+Cette propriété n'a d'effet que lors de l'enregistrement dans des formats d'image raster et affecte la taille de sortie en pixels.
 
 La valeur par défaut est 96.
 
@@ -35,7 +35,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
-// édite l'image pendant que l'opération de sauvegarde la restitue.
+// modifier l'image pendant que l'opération de sauvegarde la rend.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Nous pouvons ajuster ces propriétés pour modifier la luminosité et le contraste de l'image.
@@ -49,8 +49,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Nous pouvons redimensionner l'image en utilisant cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
-    // Nous pouvons utiliser cette propriété pour annuler toute modification des dimensions de l'image que la modification de la résolution entraînerait.
+    // Nous pouvons redimensionner l'image grâce à cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
+    // Nous pouvons utiliser cette propriété pour annuler tout changement dans les dimensions de l'image que provoquerait un changement de résolution.
     Scale = 96f / 72f
 };
 

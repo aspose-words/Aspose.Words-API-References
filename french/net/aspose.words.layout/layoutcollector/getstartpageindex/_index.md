@@ -3,14 +3,14 @@ title: LayoutCollector.GetStartPageIndex
 linktitle: GetStartPageIndex
 articleTitle: GetStartPageIndex
 second_title: Aspose.Words pour .NET
-description: LayoutCollector GetStartPageIndex méthode. Obtient lindex de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page en C#.
+description: Découvrez la méthode GetStartPageIndex de LayoutCollector pour trouver facilement l'index de base 1 de la page de démarrage d'un nœud. Simplifiez votre processus de mappage dès aujourd'hui !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.layout/layoutcollector/getstartpageindex/
 ---
 ## LayoutCollector.GetStartPageIndex method
 
-Obtient l'index de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page.
+Obtient l'index de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut être mappé à une page.
 
 ```csharp
 public int GetStartPageIndex(Node node)
@@ -18,18 +18,18 @@ public int GetStartPageIndex(Node node)
 
 ## Exemples
 
-Montre comment afficher les plages de pages couvertes par un nœud.
+Montre comment voir les plages de pages qu'un nœud couvre.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Appelez la méthode "GetNumPagesSpanned" pour compter le nombre de pages que couvre le contenu de notre document.
-// Puisque le document est vide, ce nombre de pages est actuellement nul.
+// Appelez la méthode « GetNumPagesSpanned » pour compter le nombre de pages sur lesquelles s'étend le contenu de notre document.
+// Étant donné que le document est vide, ce nombre de pages est actuellement nul.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Remplit le document avec 5 pages de contenu.
+// Remplissez le document avec 5 pages de contenu.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
 // Avant le collecteur de mise en page, nous devons appeler la méthode "UpdatePageLayout" pour nous donner
-// un chiffre précis pour toute métrique liée à la mise en page, telle que le nombre de pages.
+// un chiffre précis pour toute mesure liée à la mise en page, telle que le nombre de pages.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues globales de pages.
+// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues de pages globales.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {

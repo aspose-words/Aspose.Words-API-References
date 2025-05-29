@@ -2,15 +2,15 @@
 title: FieldSymbol.DontAffectsLineSpacing
 linktitle: DontAffectsLineSpacing
 articleTitle: DontAffectsLineSpacing
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSymbol DontAffectsLineSpacing 财产. 获取或设置字段检索的字符是否影响段落的行距 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldSymbol 的 DontAffectsLineSpacing 属性如何控制字符对段落行距的影响。立即优化您的文档格式！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 ---
 ## FieldSymbol.DontAffectsLineSpacing property
 
-获取或设置字段检索的字符是否影响段落的行距。
+获取或设置字段检索到的字符是否影响段落的行距。
 
 ```csharp
 public bool DontAffectsLineSpacing { get; set; }
@@ -18,17 +18,17 @@ public bool DontAffectsLineSpacing { get; set; }
 
 ## 例子
 
-显示如何使用 SYMBOL 字段。
+展示如何使用 SYMBOL 字段。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是使用 SYMBOL 字段显示单个字符的三种方法。
-// 1 - 添加一个 SYMBOL 字段，用于显示由 ANSI 字符代码指定的 ©（版权）符号：
+// 以下是使用 SYMBOL 字段显示单个字符的三种方法。
+// 1 - 添加一个 SYMBOL 字段，显示 ©（版权）符号，由 ANSI 字符代码指定：
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// ANSI 字符代码“U+00A9”，或整数形式的“169”，是为版权符号保留的。
+// ANSI 字符代码“U+00A9”，即整数形式的“169”，保留用于版权符号。
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -36,19 +36,19 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - 添加一个显示 Infinity 符号的 SYMBOL 字段，并修改其外观：
+// 2 - 添加一个显示 ∞（无穷大）符号的 SYMBOL 字段，并修改其外观：
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// 在Unicode中，无穷大符号占据“221E”代码。
+// 在 Unicode 中，无穷大符号占据“221E”代码。
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
 // 使用 Windows 字符映射表后更改符号的字体
-// 确保字体可以代表该符号。
+// 以确保字体可以表示该符号。
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// 我们可以为高符号设置此标志，以使它们不会向下推其行上的其余文本。
+// 我们可以为高符号设置此标志，以使它们不会将行上的其余文本向下推。
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
@@ -56,7 +56,7 @@ Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode()
 builder.Writeln("Line 2");
 
 // 3 - 添加一个显示 あ 字符的 SYMBOL 字段，
-// 使用支持 Shift-JIS (Windows-932) 代码页的字体：
+// 使用支持 Shift-JIS（Windows-932）代码页的字体：
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();

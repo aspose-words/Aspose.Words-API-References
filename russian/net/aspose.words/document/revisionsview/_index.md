@@ -3,14 +3,14 @@ title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words для .NET
-description: Document RevisionsView свойство. Получает или задает значение указывающее следует ли работать с исходной или исправленной версией документа на С#.
+description: Легко управляйте изменениями документов! Выбирайте между исходными или обновленными версиями для бесперебойной совместной работы и повышения производительности.
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Получает или задает значение, указывающее, следует ли работать с исходной или исправленной версией документа.
+Возвращает или задает значение, указывающее, следует ли работать с исходной или измененной версией документа.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -33,7 +33,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Просматриваем объект документа так, как будто все изменения приняты. В настоящее время поддерживаются метки списков.
+// Просмотр объекта документа, как будто все изменения приняты. В настоящее время поддерживает списочные метки.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

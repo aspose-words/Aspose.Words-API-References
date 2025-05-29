@@ -2,8 +2,8 @@
 title: FieldFootnoteRef
 linktitle: FieldFootnoteRef
 articleTitle: FieldFootnoteRef
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFootnoteRef 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldFootnoteRef 构造函数——实现项目无缝集成和增强功能的首选解决方案。立即提升您的编码能力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldfootnoteref/fieldfootnoteref/

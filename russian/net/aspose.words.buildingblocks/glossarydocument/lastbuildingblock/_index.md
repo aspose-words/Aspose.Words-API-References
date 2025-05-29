@@ -3,14 +3,14 @@ title: GlossaryDocument.LastBuildingBlock
 linktitle: LastBuildingBlock
 articleTitle: LastBuildingBlock
 second_title: Aspose.Words для .NET
-description: GlossaryDocument LastBuildingBlock свойство. Получает последний стандартный блок в документе глоссария на С#.
+description: Откройте для себя свойство LastBuildingBlock в GlossaryDocument, обеспечивающее легкий доступ к последнему строительному блоку для улучшенного управления документами.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
 ---
 ## GlossaryDocument.LastBuildingBlock property
 
-Получает последний стандартный блок в документе глоссария.
+Получает последний строительный блок в документе глоссария.
 
 ```csharp
 public BuildingBlock LastBuildingBlock { get; }
@@ -18,7 +18,7 @@ public BuildingBlock LastBuildingBlock { get; }
 
 ## Примечания
 
-Возвращает`нулевой` если нет доступных строительных блоков.
+Возврат`нулевой` если нет доступных строительных блоков.
 
 ## Примеры
 
@@ -30,42 +30,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Существуют различные способы доступа к строительным блокам.
-    // 1 — Получить первый/последний стандартный блок в коллекции:
+    // 1 — Получить первый/последний строительный блок в коллекции:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 — Получить строительный блок по индексу:
+    // 2 - Получить строительный блок по индексу:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 — Получить первый строительный блок, соответствующий галерее, имени и категории:
+    // 3 — Получить первый строительный блок, соответствующий галерее, названию и категории:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Мы сделаем это с помощью специального посетителя,
-    // который придаст каждому BuildingBlock в GlossaryDocument уникальный GUID
+    // Мы сделаем это с помощью пользовательского посетителя,
+    // который присвоит каждому BuildingBlock в GlossaryDocument уникальный GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Перейти к началу/концу документа Глоссария.
     glossaryDoc.Accept(visitor);
+    // Посетить только начало документа Глоссарий.
+    glossaryDoc.AcceptStart(visitor);
+    // Посетите только конец документа Глоссарий.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
+    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые элементы» -> «Организатор строительных блоков».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Дает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
-/// Сохраняет пары блоков построения GUID в словаре.
+/// Присваивает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
+/// Сохраняет пары GUID-строительный блок в словаре.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

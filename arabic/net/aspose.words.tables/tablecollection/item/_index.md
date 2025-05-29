@@ -3,14 +3,14 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: TableCollection Item ملكية. يسترد أTable في الفهرس المحدد في C#.
+description: يمكنك الوصول بسهولة إلى عناصر TableCollection من خلال استرجاع الجداول من فهارس محددة. سهّل إدارة بياناتك مع ميزة الخصائص البديهية لدينا!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-يسترد أ[`Table`](../../table/) في الفهرس المحدد.
+يسترجع[`Table`](../../table/) عند الفهرس المعطى.
 
 ```csharp
 public Table this[int index] { get; }
@@ -18,21 +18,21 @@ public Table this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس في المجموعة. |
+| index | فهرس للمجموعة. |
 
 ## ملاحظات
 
-المؤشر قائم على الصفر.
+المؤشر يعتمد على الصفر.
 
-الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
+يُسمح بالمؤشرات السلبية وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال، -1 يعني العنصر الأخير، -2 يعني العنصر الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة، فسوف يؤدي هذا إلى إرجاع مرجع فارغ.
 
-إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سلبيًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة، فسيؤدي هذا إلى إرجاع مرجع فارغ.
 
 ## أمثلة
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

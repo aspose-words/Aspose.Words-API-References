@@ -3,14 +3,14 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words für .NET
-description: Node PreviousSibling eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar vorangeht in C#.
+description: Entdecken Sie die Node PreviousSibling-Eigenschaft, um einfach auf den Knoten zuzugreifen, der vor Ihrem aktuellen Knoten liegt, und verbessern Sie so Ihre Fähigkeiten zur DOM-Manipulation.
 type: docs
 weight: 70
 url: /de/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht.
+Ruft den Knoten ab, der diesem Knoten unmittelbar vorausgeht.
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -18,11 +18,11 @@ public Node PreviousSibling { get; }
 
 ## Bemerkungen
 
-Wenn kein vorhergehender Knoten vorhanden ist, a`Null` wird zurückgegeben.
+Wenn es keinen vorhergehenden Knoten gibt,`null` wird zurückgegeben.
 
 ## Beispiele
 
-Zeigt, wie die Methoden von Node und CompositeNode verwendet werden, um einen Abschnitt vor dem letzten Abschnitt im Dokument zu entfernen.
+Zeigt, wie man mit den Methoden von Node und CompositeNode einen Abschnitt vor dem letzten Abschnitt im Dokument entfernt.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt entfernen.
+// Entfernen Sie einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Der Abschnitt, den wir entfernt haben, war der erste, so dass nur noch der zweite im Dokument übrig blieb.
+// Wir haben den ersten Abschnitt entfernt, sodass im Dokument nur der zweite übrig blieb.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

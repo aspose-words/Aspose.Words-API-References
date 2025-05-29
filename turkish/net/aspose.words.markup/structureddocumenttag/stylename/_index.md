@@ -2,8 +2,8 @@
 title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag StyleName mülk. Yapılandırılmış belge etiketine uygulanan stilin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTag'in StyleName özelliğini keşfedin. Belgelerinizin organizasyonunu ve netliğini geliştirmek için stilleri kolayca yönetin ve özelleştirin.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -18,19 +18,19 @@ public string StyleName { get; set; }
 
 ## Örnekler
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

@@ -3,17 +3,31 @@ title: XlsxSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words pour .NET
-description: XlsxSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreXlsx  en C#.
+description: Découvrez la propriété SaveFormat de XlsxSaveOptions pour enregistrer sans effort des documents au format Xlsx, garantissant ainsi la compatibilité et la qualité de vos fichiers.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.saving/xlsxsaveoptions/saveformat/
 ---
 ## XlsxSaveOptions.SaveFormat property
 
-Spécifie le format dans lequel le document sera enregistré si cet objet d'options de sauvegarde est utilisé. Ne peut êtreXlsx .
+Spécifie le format dans lequel le document sera enregistré si cet objet d'options d'enregistrement est utilisé. Ne peut êtreXlsx .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
+```
+
+## Exemples
+
+Montre comment compresser un document XLSX.
+
+```csharp
+Document doc = new Document(MyDir + "Shape with linked chart.docx");
+
+XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum;
+xlsxSaveOptions.SaveFormat = SaveFormat.Xlsx;
+
+doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```
 
 ### Voir également

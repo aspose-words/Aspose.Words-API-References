@@ -3,14 +3,14 @@ title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words لـ .NET
-description: Document RevisionsView ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند في C#.
+description: أدر مراجعات المستندات بسهولة! اختر بين الإصدارات الأصلية أو المُحدّثة لتعاون سلس وإنتاجية مُحسّنة.
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
+يحصل على قيمة أو يعينها للإشارة إلى ما إذا كان سيتم العمل مع الإصدار الأصلي أو المنقح للمستند.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -22,7 +22,7 @@ public RevisionsView RevisionsView { get; set; }
 
 ## أمثلة
 
-يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
+يوضح كيفية التبديل بين العرض المنقح والعرض الأصلي للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -33,7 +33,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// اعرض كائن المستند كما لو تم قبول جميع المراجعات. يدعم حاليا تسميات القائمة.
+// عرض كائن المستند كما لو أن جميع المراجعات مقبولة. يدعم حاليًا تسميات القوائم.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

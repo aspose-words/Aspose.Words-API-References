@@ -2,15 +2,15 @@
 title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
-second_title: Aspose.Words for .NET
-description: ParagraphFormat StyleIdentifier mülk. Bu biçimlendirmeye uygulanan paragraf stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin biçimlendirmesini ve okunabilirliğini artırarak paragraf stillerini kolayca yönetmek ve özelleştirmek için ParagraphFormat StyleIdentifier özelliğini keşfedin.
 type: docs
-weight: 350
+weight: 360
 url: /tr/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Bu biçimlendirmeye uygulanan paragraf stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar.
+Bu biçimlendirmeye uygulanan paragraf stilinin yerel bağımsız stil tanımlayıcısını alır veya ayarlar.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Örnekler
 
-Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
+Başlık stillerini girdi olarak kullanarak bir belgeye İçindekiler Tablosu'nun (TOC) nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin ilk sayfasına bir içindekiler tablosu ekleyin.
-// Tabloyu, 1'den 3'e kadar düzeylerdeki başlıklara sahip paragrafları alacak şekilde yapılandırın.
-// Ayrıca girişlerini bizi götürecek köprüler olacak şekilde ayarlayın
-// Microsoft Word'de sol tıklandığında başlığın konumuna.
+// Belgenin ilk sayfasına bir içerik tablosu ekleyin.
+// Tabloyu 1 ila 3 düzey başlıklarına sahip paragrafları alacak şekilde yapılandırın.
+// Ayrıca, girişlerini bizi götürecek köprü metinleri olarak ayarlayın
+// Microsoft Word'de sol tıklandığında başlığın bulunduğu yere.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Başlık stillerine sahip paragraflar ekleyerek içindekiler tablosunu doldurun.
-// Seviyesi 1 ile 3 arasında olan bu tür başlıkların her biri tabloda bir giriş oluşturacaktır.
+// Başlık stilleri içeren paragraflar ekleyerek içindekiler tablosunu doldurun.
+// 1 ile 3 arasında bir seviyeye sahip her başlık tabloda bir girdi oluşturacaktır.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -60,7 +60,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// İçindekiler tablosu, güncel bir sonucu göstermek için güncellenmesi gereken türden bir alandır.
+// İçindekiler tablosu, güncel bir sonuç göstermek için güncellenmesi gereken bir tür alandır.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -3,14 +3,14 @@ title: RelativeHorizontalPosition Enum
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.RelativeHorizontalPosition énumération. Spécifie à quoi est relative la position horizontale dune forme ou dun cadre de texte en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.RelativeHorizontalPosition pour définir un positionnement horizontal précis des formes et des cadres de texte dans vos documents.
 type: docs
-weight: 1190
+weight: 1580
 url: /fr/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
 
-Spécifie à quoi est relative la position horizontale d'une forme ou d'un cadre de texte.
+Spécifie à quoi la position horizontale d'une forme ou d'un cadre de texte est relative.
 
 ```csharp
 public enum RelativeHorizontalPosition
@@ -26,19 +26,19 @@ public enum RelativeHorizontalPosition
 | Character | `3` | L'objet est positionné par rapport au côté gauche du paragraphe. |
 | LeftMargin | `4` | Spécifie que le positionnement horizontal doit être relatif à la marge gauche de la page. |
 | RightMargin | `5` | Spécifie que le positionnement horizontal doit être relatif à la marge droite de la page. |
-| InsideMargin | `6` | Spécifie que le positionnement horizontal doit être relatif à la marge intérieure de la page actuelle (la marge gauche sur les pages impaires, droite sur les pages paires). |
-| OutsideMargin | `7` | Spécifie que le positionnement horizontal doit être relatif à la marge extérieure de la page actuelle (la marge droite sur les pages impaires, gauche sur les pages paires). |
+| InsideMargin | `6` | Spécifie que le positionnement horizontal doit être relatif à la marge intérieure de la page actuelle (la marge de gauche sur les pages impaires, la droite sur les pages paires). |
+| OutsideMargin | `7` | Spécifie que le positionnement horizontal doit être relatif à la marge extérieure de la page actuelle (la marge de droite sur les pages impaires, de gauche sur les pages paires). |
 | Default | `2` | La valeur par défaut estColumn . |
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -56,46 +56,19 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// Place l'image au centre de la page.
+// Placez l'image au centre de la page.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Place l'image au centre de la page.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### Voir également

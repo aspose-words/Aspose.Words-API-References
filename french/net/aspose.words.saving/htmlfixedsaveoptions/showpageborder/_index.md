@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions ShowPageBorder propriété. Spécifie si la bordure autour des pages doit être affichée. La valeur par défaut estvrai  en C#.
+description: Découvrez la propriété HtmlFixedSaveOptions ShowPageBorder pour contrôler facilement les bordures de page. Améliorez l'apparence de votre document grâce à des paramètres personnalisables.
 type: docs
-weight: 180
+weight: 200
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 ---
 ## HtmlFixedSaveOptions.ShowPageBorder property
@@ -52,7 +52,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -68,7 +68,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -77,7 +77,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

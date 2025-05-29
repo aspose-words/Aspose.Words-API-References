@@ -3,7 +3,7 @@ title: ConditionalStyle.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words para .NET
-description: ConditionalStyle ParagraphFormat propiedad. Obtiene el formato de párrafo del estilo condicional en C#.
+description: Descubra la propiedad ConditionalStyle ParagraphFormat para acceder y administrar fácilmente el formato de párrafo en sus estilos para una mejor presentación del documento.
 type: docs
 weight: 50
 url: /es/net/aspose.words/conditionalstyle/paragraphformat/
@@ -39,8 +39,8 @@ builder.EndTable();
 // Crea un estilo de tabla personalizado.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Los estilos condicionales son cambios de formato que afectan sólo a algunas de las celdas de la tabla.
-// basado en un predicado, como que las celdas estén en la última fila.
+// Los estilos condicionales son cambios de formato que afectan solo a algunas de las celdas de la tabla
+// basado en un predicado, como por ejemplo que las celdas estén en la última fila.
 // A continuación se muestran tres formas de acceder a los estilos condicionales de un estilo de tabla desde la colección "ConditionalStyles".
 // 1 - Por tipo de estilo:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
@@ -60,7 +60,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Enumere todas las condiciones de estilo posibles.
+// Enumere todas las posibles condiciones de estilo.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -73,7 +73,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Aplicar el estilo personalizado, que contiene todos los estilos condicionales, a la tabla.
 table.Style = tableStyle;
 
-// Nuestro estilo aplica algunos estilos condicionales de forma predeterminada.
+//Nuestro estilo aplica algunos estilos condicionales por defecto.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

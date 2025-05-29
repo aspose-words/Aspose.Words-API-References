@@ -2,10 +2,10 @@
 title: DocumentBuilder.InsertShape
 linktitle: InsertShape
 articleTitle: InsertShape
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertShape yöntem. Belirtilen tür ve boyutta satır içi şekil ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder'ın InsertShape yöntemi ile özel satır içi şekilleri zahmetsizce ekleyin. Etkili sunumlar için belgelerinizi özel görsellerle geliştirin!
 type: docs
-weight: 430
+weight: 460
 url: /tr/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
@@ -19,7 +19,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | shapeType | ShapeType | Belgeye eklenecek şekil türü. |
-| width | Double | Nokta cinsinden şeklin genişliği. |
+| width | Double | Şeklin nokta cinsinden genişliği. |
 | height | Double | Şeklin nokta cinsinden yüksekliği. |
 
 ### Geri dönüş değeri
@@ -34,17 +34,17 @@ DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda şekillerin sahip olabileceği iki sarma türü verilmiştir.
-// 1 - Kayan:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+// Aşağıda şekillerin sahip olabileceği iki sarma türü bulunmaktadır.
+// 1 - Yüzen:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - Satır içi:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
 // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "ilkel olmayan" şekiller oluşturmanız gerekiyorsa,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded veya DiagonalCornersRounded,
-// daha sonra belgeyi, şeklin DML olarak kaydedilmesine olanak tanıyan "Katı" veya "Geçişli" uyumlulukla kaydedin.
+// ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak veya ÇaprazKöşelerYuvarlak,
+// daha sonra belgeyi "Sıkı" veya "Geçiş" uyumluluğuyla kaydedin, bu da şeklin DML olarak kaydedilmesine olanak tanır.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
-Belirtilen konuma, boyuta ve metin sarma türüne sahip serbest kayan şekil ekler.
+Belirtilen konum, boyut ve metin kaydırma türüyle serbest yüzen şekil ekler.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, 
@@ -74,11 +74,11 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | --- | --- | --- |
 | shapeType | ShapeType | Belgeye eklenecek şekil türü |
 | horzPos | RelativeHorizontalPosition | Şekle olan yatay mesafenin nereden ölçüleceğini belirtir. |
-| left | Double | Nokta cinsinden başlangıç noktasından şeklin sol tarafına olan uzaklık. |
+| left | Double | Şeklin başlangıç noktasından sol tarafına kadar olan mesafe. |
 | vertPos | RelativeVerticalPosition | Şekle olan dikey mesafenin nereden ölçüleceğini belirtir. |
-| top | Double | Başlangıç noktasından şeklin üst kısmına kadar olan nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden şeklin genişliği. |
-| height | Double | Nokta cinsinden şeklin genişliği. |
+| top | Double | Şeklin başlangıç noktasından üst kenarına kadar olan mesafenin nokta cinsinden ifadesi. |
+| width | Double | Şeklin nokta cinsinden genişliği. |
+| height | Double | Şeklin nokta cinsinden yüksekliği. |
 | wrapType | WrapType | Metnin şeklin etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
@@ -93,17 +93,17 @@ DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda şekillerin sahip olabileceği iki sarma türü verilmiştir.
-// 1 - Kayan:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+// Aşağıda şekillerin sahip olabileceği iki sarma türü bulunmaktadır.
+// 1 - Yüzen:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - Satır içi:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
 // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "ilkel olmayan" şekiller oluşturmanız gerekiyorsa,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded veya DiagonalCornersRounded,
-// daha sonra belgeyi, şeklin DML olarak kaydedilmesine olanak tanıyan "Katı" veya "Geçişli" uyumlulukla kaydedin.
+// ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak veya ÇaprazKöşelerYuvarlak,
+// daha sonra belgeyi "Sıkı" veya "Geçiş" uyumluluğuyla kaydedin, bu da şeklin DML olarak kaydedilmesine olanak tanır.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 

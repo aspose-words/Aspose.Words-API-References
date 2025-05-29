@@ -3,16 +3,16 @@ title: ChartMarker Class
 linktitle: ChartMarker
 articleTitle: ChartMarker
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartMarker clase. Representa un marcador de datos del gráfico en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.ChartMarker, su solución ideal para mejorar la visualización de datos de gráficos con marcadores personalizables.
 type: docs
-weight: 750
+weight: 1040
 url: /es/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Representa un marcador de datos del gráfico.
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public class ChartMarker
@@ -22,9 +22,9 @@ public class ChartMarker
 
 | Nombre | Descripción |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Proporciona acceso al formato de relleno y línea de este marcador. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Proporciona acceso al relleno y formato de línea de este marcador. |
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Obtiene o establece el tamaño del marcador del gráfico. El valor predeterminado es 7. |
-| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Obtiene o establece el símbolo de marcador del gráfico. |
+| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Obtiene o establece el símbolo de marcador de gráfico. |
 
 ## Ejemplos
 
@@ -44,8 +44,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
-    foreach (ChartSeries series in chart.Series) 
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Suaviza la línea que representa la primera serie de datos.
@@ -60,10 +60,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de puntos de datos a la vez.
+    // Para un gráfico más limpio, podemos borrar el formato individualmente.
+    dataPoint.ClearFormat();
+
+    // También podemos eliminar una serie entera de puntos de datos a la vez.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

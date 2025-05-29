@@ -3,14 +3,14 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words für .NET
-description: Field IsLocked eigendom. Ruft ab oder legt fest ob das Feld gesperrt ist sollte sein Ergebnis nicht neu berechnen in C#.
+description: Entdecken Sie die IsLocked-Eigenschaft für Felder – steuern Sie Neuberechnungen und verbessern Sie die Datenintegrität. Profitieren Sie noch heute von einer effizienten Verwaltung Ihrer Datenergebnisse!
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen).
+Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Das Fassadenobjekt abrufen, das das Feld im Dokument darstellt.
+// Ruft das Fassadenobjekt ab, das das Feld im Dokument darstellt.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Feld aktualisieren, um das aktuelle Datum anzuzeigen.
+// Aktualisieren Sie das Feld, um das aktuelle Datum anzuzeigen.
 field.Update();
 ```
 

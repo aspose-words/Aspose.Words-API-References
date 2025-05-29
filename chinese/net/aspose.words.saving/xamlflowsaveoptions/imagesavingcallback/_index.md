@@ -2,15 +2,15 @@
 title: XamlFlowSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: XamlFlowSaveOptions ImageSavingCallback 财产. 允许控制将文档保存到 XAML 时图像的保存方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 XamlFlow 的 ImageSavingCallback 属性，轻松管理将文档导出为 XAML 时的图像保存选项。立即优化您的工作流程！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
 ---
 ## XamlFlowSaveOptions.ImageSavingCallback property
 
-允许控制将文档保存到 XAML 时图像的保存方式。
+允许控制将文档保存为 XAML 时如何保存图像。
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## 例子
 
-演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+展示如何打印将文档转换为流式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 public void ImageFolder()
@@ -33,17 +33,17 @@ public void ImageFolder()
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // 使用“ImagesFolder”属性在本地文件系统中分配一个文件夹
+    // 使用“ImagesFolder”属性在本地文件系统中分配一个文件夹，
     // Aspose.Words 将保存文档的所有链接图像。
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // 使用“ImagesFolderAlias”属性来使用此文件夹
-    // 当构造图像 URI 而不是图像文件夹的名称时。
+    // 构建图像 URI 时，而不是图像文件夹的名称。
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // 由“ImagesFolderAlias”指定的文件夹需要包含资源，而不是“ImagesFolder”。
+    // 由“ImagesFolderAlias”指定的文件夹将需要包含资源，而不是“ImagesFolder”。
     // 我们必须确保该文件夹存在，然后回调的流才能将其资源放入其中。
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -54,7 +54,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// 在父文档转换为流格式 .xaml 时计算并打印图像的文件名。
+/// 在将图像的父文档转换为流形式 .xaml 时，计算并打印图像的文件名。
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {

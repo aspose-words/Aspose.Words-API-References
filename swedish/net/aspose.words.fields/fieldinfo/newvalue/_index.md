@@ -3,14 +3,14 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words för .NET
-description: FieldInfo NewValue fast egendom. Hämtar eller ställer in ett valfritt värde som uppdaterar egenskapen i C#.
+description: Upptäck egenskapen FieldInfo NewValue, hantera enkelt valfria värden för att förbättra dina datauppdateringar och effektivisera din kodningsupplevelse.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-Hämtar eller ställer in ett valfritt värde som uppdaterar egenskapen.
+Hämtar eller anger ett valfritt värde som uppdaterar egenskapen.
 
 ```csharp
 public string NewValue { get; set; }
@@ -24,7 +24,7 @@ Visar hur man arbetar med INFO-fält.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in ett värde för den inbyggda egenskapen "Kommentarer" och infoga sedan ett INFO-fält för att visa egenskapens värde.
+// Ange ett värde för den inbyggda egenskapen "Kommentarer" och infoga sedan ett INFO-fält för att visa egenskapens värde.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -35,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Ange ett värde för fältets NewValue-egenskap och uppdatering
+// Ange ett värde för fältets NewValue-egenskap och uppdatera
 // fältet kommer också att skriva över motsvarande inbyggda egenskap med det nya värdet.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

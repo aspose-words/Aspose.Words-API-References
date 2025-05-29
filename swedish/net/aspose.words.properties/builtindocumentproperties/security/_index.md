@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Security
 linktitle: Security
 articleTitle: Security
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties Security fast egendom. Anger säkerhetsnivån för ett dokument som ett numeriskt värde i C#.
+description: Upptäck säkerhetsfunktionen BuiltInDocumentProperties, som definierar ditt dokuments säkerhetsnivå med precision. Förbättra ditt dokumentskydd idag!
 type: docs
-weight: 250
+weight: 270
 url: /sv/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
@@ -18,22 +18,22 @@ public DocumentSecurity Security { get; set; }
 
 ## Anmärkningar
 
-Använd den här egenskapen endast i informationssyfte eftersom Microsoft Word inte alltid anger den här egenskapen. Den här egenskapen är endast tillgänglig i DOC- och OOXML-dokument.
+Använd den här egenskapen endast i informationssyfte eftersom Microsoft Word inte alltid ställer in den här egenskapen. Den här egenskapen är endast tillgänglig i DOC- och OOXML-dokument.
 
-För att skydda eller avskydda ett dokument använd the [`Protect`](../../../aspose.words/document/protect/) och[`Unprotect`](../../../aspose.words/document/unprotect/) metoder.
+För att skydda eller avskydda ett dokument, använd [`Protect`](../../../aspose.words/document/protect/) och[`Unprotect`](../../../aspose.words/document/unprotect/) metoder.
 
 Aspose.Words uppdaterar den här egenskapen till ett korrekt värde innan ett dokument sparas.
 
 ## Exempel
 
-Visar hur du använder dokumentegenskaper för att visa säkerhetsnivån för ett dokument.
+Visar hur man använder dokumentegenskaper för att visa ett dokuments säkerhetsnivå.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Om vi konfigurerar ett dokument att vara skrivskyddat kommer det att visa denna status med den inbyggda "Security"-egenskapen.
+// Om vi konfigurerar ett dokument som skrivskyddat, kommer det att visa denna status med hjälp av den inbyggda egenskapen "Säkerhet".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

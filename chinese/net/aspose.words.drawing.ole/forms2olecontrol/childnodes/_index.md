@@ -2,10 +2,10 @@
 title: Forms2OleControl.ChildNodes
 linktitle: ChildNodes
 articleTitle: ChildNodes
-second_title: 用于 .NET 的 Aspose.Words
-description: Forms2OleControl ChildNodes 财产. 获取直接子控件的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Forms2OleControl ChildNodes 属性，轻松访问和管理直接子控件，从而增强功能。
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
 ## Forms2OleControl.ChildNodes property
@@ -18,24 +18,24 @@ public virtual Forms2OleControlCollection ChildNodes { get; }
 
 ## 评论
 
-退货`无效的`如果这样控制就不能生孩子。
+返回`无效的`如果这个控件不能生孩子。
 
 ## 例子
 
-演示如何验证 ActiveX 控件的属性。
+展示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

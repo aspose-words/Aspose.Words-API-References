@@ -3,7 +3,7 @@ title: VbaExecutableAttribute
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words для .NET
-description: VbaExecutableAttribute строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор VbaExecutableAttribute! Разблокируйте бесперебойное выполнение проектов VBA с помощью этого важного конструктора по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/

@@ -3,7 +3,7 @@ title: BookmarkCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: BookmarkCollection Remove metod. Tar bort det angivna bokmärket från dokumentet i C#.
+description: Ta enkelt bort bokmärken från dina dokument med metoden Bokmärkessamling Ta bort. Förbättra din dokumenthantering idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bookmarkcollection/remove/
@@ -18,7 +18,7 @@ public void Remove(Bookmark bookmark)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| bookmark | Bookmark | Bokmärket att ta bort. |
+| bookmark | Bookmark | Bokmärket som ska tas bort. |
 
 ## Exempel
 
@@ -45,12 +45,12 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Det finns flera sätt att ta bort bokmärken.
-// 1 - Anropar bokmärkets borttagningsmetod:
+// 1 - Anrop av bokmärkets metod Ta bort:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Skicka bokmärket till samlingens borttagningsmetod:
+// 2 - Skicka bokmärket till samlingens Remove-metod:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -69,8 +69,8 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 // Vi kan rensa hela bokmärkessamlingen.
 bookmarks.Clear();
 
-// Texten som fanns i bokmärkena finns fortfarande kvar i dokumentet.
-Assert.That(bookmarks, Is.Empty);
+// Texten som fanns inuti bokmärkena finns fortfarande kvar i dokumentet.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +
@@ -97,7 +97,7 @@ public void Remove(string bookmarkName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| bookmarkName | String | Det skiftlägesokänsliga namnet på bokmärket som ska tas bort. |
+| bookmarkName | String | Det skiftlägeskänsliga namnet på bokmärket som ska tas bort. |
 
 ## Exempel
 
@@ -124,12 +124,12 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Det finns flera sätt att ta bort bokmärken.
-// 1 - Anropar bokmärkets borttagningsmetod:
+// 1 - Anrop av bokmärkets metod Ta bort:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Skicka bokmärket till samlingens borttagningsmetod:
+// 2 - Skicka bokmärket till samlingens Remove-metod:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -148,8 +148,8 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 // Vi kan rensa hela bokmärkessamlingen.
 bookmarks.Clear();
 
-// Texten som fanns i bokmärkena finns fortfarande kvar i dokumentet.
-Assert.That(bookmarks, Is.Empty);
+// Texten som fanns inuti bokmärkena finns fortfarande kvar i dokumentet.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

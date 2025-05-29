@@ -3,14 +3,14 @@ title: Document.DefaultTabStop
 linktitle: DefaultTabStop
 articleTitle: DefaultTabStop
 second_title: Aspose.Words für .NET
-description: Document DefaultTabStop eigendom. Ruft das Intervall in Punkt zwischen den Standardtabstopps ab oder legt es fest in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „DefaultTabStop“ anpassen, um präzise Tabulatorintervalle in Punkten festzulegen und so die Formatierung und das Layout Ihres Dokuments zu verbessern.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/document/defaulttabstop/
 ---
 ## Document.DefaultTabStop property
 
-Ruft das Intervall (in Punkt) zwischen den Standardtabstopps ab oder legt es fest.
+Ruft das Intervall (in Punkten) zwischen den Standard-Tabstopps ab oder legt es fest.
 
 ```csharp
 public double DefaultTabStop { get; set; }
@@ -24,10 +24,10 @@ Zeigt, wie ein benutzerdefiniertes Intervall für Tabstopppositionen festgelegt 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tabstopps so festlegen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
+// Tabstopps so einstellen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
 builder.Document.DefaultTabStop = 72;
 
-// Mit jedem Tabulatorzeichen wird der darauffolgende Text an der nächstgelegenen Tabstoppposition ausgerichtet.
+// Jedes Tabulatorzeichen rastet den Text dahinter an die nächstgelegene Tabulatorposition ein.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

@@ -2,15 +2,15 @@
 title: Table.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
-second_title: Aspose.Words for .NET
-description: Table BottomPadding mülk. Hücre içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Table BottomPadding özelliğini keşfedin, gelişmiş düzen kontrolü ve iyileştirilmiş görsel çekicilik için hücre içeriklerinin altındaki boşlukları kolayca ayarlayın.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.tables/table/bottompadding/
 ---
 ## Table.BottomPadding property
 
-Hücre içeriğinin altına eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
+Hücrelerin içeriklerinin altına eklenecek boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Tablodaki her hücre için, içeriği ile kenarlıkları arasındaki mesafeyi ayarlayın.
-// Bu tablo, metni kaydırarak minimum dolgu mesafesini koruyacaktır.
+ // Tablodaki her hücre için, hücre içeriği ile her bir kenarlık arasındaki mesafeyi ayarlayın.
+// Bu tablo metni sararak minimum dolgu mesafesini koruyacaktır.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

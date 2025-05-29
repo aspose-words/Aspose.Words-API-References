@@ -2,8 +2,8 @@
 title: Table.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
-second_title: 用于 .NET 的 Aspose.Words
-description: Table PreferredWidth 财产. 获取或设置表格首选宽度 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用表格 PreferredWidth 属性轻松设置和优化表格布局，以增强设计和用户体验。
 type: docs
 weight: 220
 url: /zh/net/aspose.words.tables/table/preferredwidth/
@@ -22,7 +22,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## 例子
 
-演示如何将表格设置为自动适合页面宽度的 50%。
+展示如何设置表格以自动适应页面宽度的 50%。
 
 ```csharp
 Document doc = new Document();

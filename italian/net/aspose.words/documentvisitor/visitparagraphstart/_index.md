@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitParagraphStart
 linktitle: VisitParagraphStart
 articleTitle: VisitParagraphStart
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitParagraphStart metodo. Chiamato quando è iniziata lenumerazione di un paragrafo in C#.
+description: Scopri il metodo VisitParagraphStart di DocumentVisitor, essenziale per gestire in modo efficiente l'enumerazione dei paragrafi nelle tue applicazioni. Migliora le tue competenze di programmazione!
 type: docs
 weight: 330
 url: /it/net/aspose.words/documentvisitor/visitparagraphstart/
@@ -26,7 +26,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ## Esempi
 
-Mostra come utilizzare un visitatore di documento per stampare la struttura del nodo di un documento.
+Mostra come utilizzare un visitatore di documenti per stampare la struttura dei nodi di un documento.
 
 ```csharp
 public void DocStructureToText()
@@ -34,8 +34,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -43,7 +43,7 @@ public void DocStructureToText()
 }
 
 /// <summary>
-/// Attraversa l'albero dei nodi figli di un nodo.
+/// Attraversa l'albero dei nodi figlio di un nodo.
 /// Crea una mappa di questo albero sotto forma di stringa.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -59,7 +59,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Documento.
+    /// Chiamato quando viene rilevato un nodo Documento.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -73,7 +73,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Documento sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Documento.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -84,7 +84,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sezione.
+    /// Chiamato quando nel documento viene rilevato un nodo Sezione.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -99,7 +99,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Sezione sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Sezione.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -110,7 +110,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Body.
+    /// Chiamato quando nel documento viene rilevato un nodo Body.
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -122,7 +122,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Body sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Body.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -133,7 +133,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -144,7 +144,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Paragrafo sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -155,7 +155,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -165,7 +165,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sottodocumento.
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -175,7 +175,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
@@ -199,7 +219,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Di seguito sono riportati tre tipi di campi che possono accettare un visitatore del documento,
-    // che gli consentirà di visitare il nodo accettante e quindi di attraversare i suoi nodi figli in modo approfondito.
+    // che gli consentirà di visitare il nodo accettante e quindi attraversare i suoi nodi figlio in modalità depth-first.
     // 1 - Nodo paragrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -220,7 +240,7 @@ public void RemoveHiddenContentFromDocument()
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -231,7 +251,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -242,7 +262,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -253,7 +273,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -264,7 +284,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -275,7 +295,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un FormField nel documento.
+    /// Chiamato quando nel documento viene rilevato un FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -297,7 +317,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una forma nel documento.
+    /// Chiamato quando nel documento viene rilevata una forma.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -308,7 +328,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un commento nel documento.
+    /// Chiamato quando nel documento viene rilevato un commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -330,10 +350,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato uno SpecialCharacter.
+    /// Chiamato quando nel documento viene rilevato uno SpecialCharacter.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -341,13 +363,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Tabella viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Tabella nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Il contenuto all'interno delle celle della tabella può avere il flag di contenuto nascosto, ma le tabelle stesse no.
-        // Se questa tabella non avesse altro che contenuto nascosto, questo visitatore lo avrebbe rimosso tutto,
-        // e non rimarrebbero nodi figli.
+        // Il contenuto all'interno delle celle della tabella potrebbe avere il flag di contenuto nascosto, ma le tabelle stesse no.
+        // Se questa tabella non avesse altro che contenuti nascosti, questo visitatore li avrebbe rimossi tutti,
+        // e non rimarrebbero nodi figlio.
         // Pertanto, possiamo anche trattare la tabella stessa come contenuto nascosto e rimuoverla.
         // Le tabelle vuote ma senza contenuto nascosto avranno celle con paragrafi vuoti all'interno,
         // che questo visitatore non rimuoverà.
@@ -358,7 +380,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Cella termina nel documento.
+    /// Chiamato quando la visita di un nodo Cella è terminata nel documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -369,7 +391,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Riga viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Riga nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

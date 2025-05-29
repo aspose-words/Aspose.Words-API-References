@@ -3,7 +3,7 @@ title: FieldTemplate
 linktitle: FieldTemplate
 articleTitle: FieldTemplate
 second_title: Aspose.Words لـ .NET
-description: FieldTemplate البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldTemplate - الحل الأمثل لإنشاء قوالب ديناميكية بسهولة. تمتع بتكامل سلس وأداء مُحسّن!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtemplate/fieldtemplate/

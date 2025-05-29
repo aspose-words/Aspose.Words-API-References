@@ -3,14 +3,14 @@ title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
 second_title: Aspose.Words för .NET
-description: TextBox NoTextRotation fast egendom. Hämtar eller ställer in ett booleskt värde som anger att någon av texterna i TextBox inte ska rotera när formen roteras i C#.
+description: Styr textrotationen i din textruta med egenskapen NoTextRotation. Säkerställ tydlig och läsbar text även när former roteras. Förbättra din design!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/textbox/notextrotation/
 ---
 ## TextBox.NoTextRotation property
 
-Hämtar eller ställer in ett booleskt värde som anger att någon av texterna i TextBox inte ska rotera när formen roteras.
+Hämtar eller ställer in ett booleskt värde som anger att någon av texterna i textrutan inte ska rotera när formen roteras.
 
 ```csharp
 public bool NoTextRotation { get; set; }

@@ -3,14 +3,14 @@ title: FormField.TextInputDefault
 linktitle: TextInputDefault
 articleTitle: TextInputDefault
 second_title: Aspose.Words для .NET
-description: FormField TextInputDefault свойство. Получает или задает строку по умолчанию или выражение вычисления поля текстовой формы на С#.
+description: Откройте для себя свойство TextInputDefault объекта FormField, легко задайте текст или вычисления по умолчанию для ваших форм, улучшив пользовательский интерфейс и точность данных.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.fields/formfield/textinputdefault/
 ---
 ## FormField.TextInputDefault property
 
-Получает или задает строку по умолчанию или выражение вычисления поля текстовой формы.
+Возвращает или задает строку по умолчанию или выражение расчета для поля текстовой формы.
 
 ```csharp
 public string TextInputDefault { get; set; }
@@ -20,15 +20,15 @@ public string TextInputDefault { get; set; }
 
 Значение этого свойства зависит от значения[`TextInputType`](../textinputtype/) свойство.
 
-Когда[`TextInputType`](../textinputtype/) являетсяRegular или Number, эта строка определяет строку по умолчанию для текстового поля формы. Эта строка представляет собой содержимое, которое Microsoft Word будет отображать в документе, когда поле формы пусто.
+Когда[`TextInputType`](../textinputtype/) являетсяRegular или Numberэта строка указывает строку по умолчанию для текстового поля формы. Эта строка представляет собой содержимое, которое Microsoft Word отобразит в документе, когда поле формы пустое.
 
-Когда[`TextInputType`](../textinputtype/) являетсяCalculated, то эта строка содержит выражение, которое необходимо вычислить. Выражение должно представлять собой формулу, действительную в соответствии с требованиями формулы Microsoft Word field . Когда вы устанавливаете новое выражение, используя это свойство, Aspose.Words автоматически вычисляет формулу result и вставляет ее в поле формы.
+Когда[`TextInputType`](../textinputtype/) являетсяCalculated, то эта строка содержит выражение для вычисления. Выражение должно быть формулой, допустимой в соответствии с требованиями Microsoft Word formula field . Когда вы задаете новое выражение с помощью этого свойства, Aspose.Words автоматически вычисляет формулу result и вставляет ее в поле формы.
 
 Microsoft Word допускает строки длиной не более 255 символов.
 
 ## Примеры
 
-Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
+Показывает, как вставлять различные виды полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
 
 ```csharp
 public void Visitor()
@@ -36,7 +36,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов для вставки поля со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -46,7 +46,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов для вставки флажка.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -75,7 +75,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ.
+    // Поля отображают наши поля формы. Мы можем увидеть их коды полей, открыв этот документ
     // в Microsoft и нажав Alt + F9. Эти поля не имеют переключателей,
     // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -97,7 +97,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Реализация посетителя, которая печатает подробную информацию о полях формы, которые он посещает.
+ /// Реализация посетителя, которая печатает сведения о полях формы, которые он посещает.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -138,7 +138,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст, заканчивающийся символом новой строки, в текущий вывод.
+    /// Добавляет текст, завершающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -146,7 +146,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

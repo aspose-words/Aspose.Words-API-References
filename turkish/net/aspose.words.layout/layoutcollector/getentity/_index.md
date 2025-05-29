@@ -2,15 +2,15 @@
 title: LayoutCollector.GetEntity
 linktitle: GetEntity
 articleTitle: GetEntity
-second_title: Aspose.Words for .NET
-description: LayoutCollector GetEntity yöntem. Nesnenin opak konumunu döndürürLayoutEnumerator belirtilen düğüme karşılık gelir. Döndürülen değeri argüman olarak kullanabilirsiniz.Current belgenin numaralandırıldığı ve düğümün belgesinin aynı olduğu göz önüne alındığında C#'da.
+second_title: .NET için Aspose.Words
+description: LayoutCollector GetEntity metodunu keşfedin, sorunsuz belge gezintisi ve gelişmiş üretkenlik için LayoutEnumerator'ın konumunu zahmetsizce alın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.layout/layoutcollector/getentity/
 ---
 ## LayoutCollector.GetEntity method
 
-Nesnenin opak konumunu döndürür[`LayoutEnumerator`](../../layoutenumerator/) belirtilen düğüme karşılık gelir. Döndürülen değeri argüman olarak kullanabilirsiniz.[`Current`](../../layoutenumerator/current/) belgenin numaralandırıldığı ve düğümün belgesinin aynı olduğu göz önüne alındığında.
+Opak bir konumu döndürür[`LayoutEnumerator`](../../layoutenumerator/) belirtilen düğüme karşılık gelen. Döndürülen değeri bir argüman olarak kullanabilirsiniz[`Current`](../../layoutenumerator/current/) verilen belge numaralandırılmıştır ve düğümün belgesi aynıdır.
 
 ```csharp
 public object GetEntity(Node node)
@@ -18,28 +18,28 @@ public object GetEntity(Node node)
 
 ## Notlar
 
-Bu yöntem yalnızca[`Paragraph`](../../../aspose.words/paragraph/) düğümlerin yanı sıra bölünemez satır içi düğümler, örneğin[`BookmarkStart`](../../../aspose.words/bookmarkstart/) veya[`Shape`](../../../aspose.words.drawing/shape/) . için işe yaramıyor[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) veya[`Table`](../../../aspose.words.tables/table/) düğümler ve üstbilgi/altbilgi içindeki düğümler.
+Bu yöntem yalnızca şu amaçlar için işe yarar:[`Paragraph`](../../../aspose.words/paragraph/) düğümler, bölünemez satır içi düğümler gibi, örneğin[`BookmarkStart`](../../../aspose.words/bookmarkstart/) veya[`Shape`](../../../aspose.words.drawing/shape/) . için işe yaramıyor[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) veya[`Table`](../../../aspose.words.tables/table/) düğümler ve başlık/altbilgi içindeki düğümler.
 
-Kuruluşun bir süreliğine geri döndüğünü unutmayın.[`Paragraph`](../../../aspose.words/paragraph/) düğüm bir paragraf sonu aralığıdır. Ana satıra çıkmak için uygun yöntemi kullanın
+Bir varlık için döndürülen varlığın[`Paragraph`](../../../aspose.words/paragraph/)düğüm bir paragraf sonu aralığıdır. Üst satıra çıkmak için uygun yöntemi kullanın
 
-Bir yere gitmeniz gerekiyorsa[`Run`](../../../aspose.words/run/) metnini seçerseniz it 'den hemen önce yer imini ekleyebilir ve ardından bunun yerine yer imine gidebilirsiniz.
+Eğer bir yere gitmeniz gerekiyorsa[`Run`](../../../aspose.words/run/) metnin hemen öncesine yer imi ekleyebilir ve ardından yer imine gidebilirsiniz.
 
-Bir yere gitmeniz gerekiyorsa[`Cell`](../../../aspose.words.tables/cell/) düğüm o zaman bir yere geçebilirsiniz[`Paragraph`](../../../aspose.words/paragraph/)Bu hücredeki düğümünü kullanın ve ardından bir üst varlığa yükselin. Aynı yaklaşım aşağıdakiler için de kullanılabilir:[`Row`](../../../aspose.words.tables/row/) ve[`Table`](../../../aspose.words.tables/table/) düğümler.
+Eğer bir yere gitmeniz gerekiyorsa[`Cell`](../../../aspose.words.tables/cell/) düğümden sonra başka bir düğüme geçebilirsiniz[`Paragraph`](../../../aspose.words/paragraph/) Bu hücrede düğümü ve ardından bir üst varlığa yükselin. Aynı yaklaşım şu şekilde de kullanılabilir:[`Row`](../../../aspose.words.tables/row/) ve[`Table`](../../../aspose.words.tables/table/) düğümler.
 
 ## Örnekler
 
-Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
+Bir düğümün yayıldığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Belgemizin içeriğinin kaç sayfaya yayıldığını saymak için "GetNumPagesSpanned" yöntemini çağırın.
-// Belge boş olduğundan bu sayfa sayısı şu anda sıfırdır.
+// Belgemizin içeriğinin kaç sayfayı kapladığını saymak için "GetNumPagesSpanned" metodunu çağıralım.
+// Belge boş olduğundan, sayfa sayısı şu anda sıfırdır.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Belgeyi 5 sayfalık içerikle doldurun.
+// Belgeyi 5 sayfalık içerikle doldur.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -49,8 +49,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Düzen toplayıcıdan önce, bize bilgi vermesi için "UpdatePageLayout" yöntemini çağırmamız gerekiyor
-// sayfa sayısı gibi düzen ile ilgili herhangi bir ölçüm için doğru bir rakam.
+// Düzen toplayıcısından önce, bize bir düzen sağlamak için "UpdatePageLayout" yöntemini çağırmamız gerekir.
+// sayfa sayısı gibi düzenle ilgili herhangi bir metriğe ilişkin doğru bir rakam.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -58,7 +58,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Herhangi bir düğümün başlangıç ve bitiş sayfalarının sayısını ve genel sayfa aralıklarını görebiliriz.
+// Herhangi bir node'un başlangıç ve bitiş sayfa numaralarını ve bunların toplam sayfa genişliklerini görebiliriz.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -73,7 +73,7 @@ LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator, düzen varlıkları koleksiyonunu bir ağaç gibi geçebilir.
+// LayoutEnumerator, bir ağaç gibi düzen varlıklarının koleksiyonunu dolaşabilir.
 // Bunu herhangi bir düğümün karşılık gelen düzen varlığına da uygulayabiliriz.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 

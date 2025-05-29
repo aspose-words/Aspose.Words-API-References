@@ -2,8 +2,8 @@
 title: FontFallbackSettings.LoadNotoFallbackSettings
 linktitle: LoadNotoFallbackSettings
 articleTitle: LoadNotoFallbackSettings
-second_title: 用于 .NET 的 Aspose.Words
-description: FontFallbackSettings LoadNotoFallbackSettings 方法. 加载使用 Google Noto 字体的预定义后备设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 FontFallbackSettings LoadNotoFallbackSettings 方法增强您的排版，并使用 Google Noto 字体实现无缝文本显示。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -18,7 +18,7 @@ public void LoadNotoFallbackSettings()
 
 ## 例子
 
-演示如何为 Google Noto 字体添加预定义字体后备设置。
+展示如何为 Google Noto 字体添加预定义字体后备设置。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -28,9 +28,9 @@ FontSettings fontSettings = new FontSettings();
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
- // 请注意，预定义设置仅使用具有常规粗细的 Sans 样式 Noto 字体。
+ // 请注意，预定义设置仅使用常规粗细的 Sans 风格 Noto 字体。
 // 一些 Noto 字体使用高级排版功能。
-// 具有高级排版功能的字体可能无法正确呈现，因为 Aspose.Words 目前不支持它们。
+// 由于 Aspose.Words 目前不支持高级排版字体，因此可能无法正确呈现它们。
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Noto Sans";
@@ -49,12 +49,12 @@ doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
 // 将默认后备字体方案保存到 XML 文档。
-// 例如，其中一个元素的 Range 值为“0C00-0C7F”，FallbackFonts 的相应值为“Vani”。
+// 例如，其中一个元素的 Range 值为“0C00-0C7F”，FallbackFonts 值为相应的“Vani”。
 // 这意味着如果某些文本使用的字体没有 0x0C00-0x0C7F Unicode 块的符号，
-// 后备方案将使用“Vani”字体替代品中的符号。
+// 后备方案将使用“Vani”字体替代中的符号。
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// 下面是我们可以选择的两种预定义字体后备方案。
+// 下面是两个预定义的字体后备方案供我们选择。
 // 1 - 使用默认的 Microsoft Office 方案，与默认方案相同：
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");

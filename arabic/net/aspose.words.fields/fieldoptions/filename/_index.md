@@ -3,14 +3,14 @@ title: FieldOptions.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words لـ .NET
-description: FieldOptions FileName ملكية. الحصول على اسم ملف المستند أو تعيينه في C#.
+description: اكتشف خاصية FieldOptions FileName لإدارة اسم ملف المستند وتخصيصه بسهولة لتحسين التنظيم والكفاءة.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fieldoptions/filename/
 ---
 ## FieldOptions.FileName property
 
-الحصول على اسم ملف المستند أو تعيينه.
+يحصل على اسم ملف المستند أو يعينه.
 
 ```csharp
 public string FileName { get; set; }
@@ -18,7 +18,7 @@ public string FileName { get; set; }
 
 ## ملاحظات
 
-يتم استخدام هذه الخاصية من قبل[`FieldFileName`](../../fieldfilename/) الحقل ذو أولوية أعلى من[`OriginalFileName`](../../../aspose.words/document/originalfilename/) ملكية.
+يتم استخدام هذه الخاصية بواسطة[`FieldFileName`](../../fieldfilename/) الحقل ذو الأولوية الأعلى من[`OriginalFileName`](../../../aspose.words/document/originalfilename/) ملكية.
 
 ## أمثلة
 
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
 
-// سيعرض حقل اسم الملف هذا اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
+// سيعرض حقل FILENAME اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
@@ -40,15 +40,15 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// افتراضيًا، يُظهر الحقل FILENAME اسم الملف، ولكن ليس مسار نظام الملفات المحلي الكامل الخاص به.
-// يمكننا تعيين علامة لجعلها تظهر مسار الملف بالكامل.
+// بشكل افتراضي، يعرض حقل FILENAME اسم الملف، ولكن ليس مسار نظام الملفات المحلي الكامل.
+//يمكننا تعيين علم لإظهار مسار الملف الكامل.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// يمكننا أيضًا تعيين قيمة لهذه الخاصية
+// يمكننا أيضًا تعيين قيمة لهذه الخاصية إلى
 // تجاوز القيمة التي يعرضها حقل اسم الملف.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();

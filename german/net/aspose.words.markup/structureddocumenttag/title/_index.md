@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag Title eigendom. Gibt den damit verbundenen Anzeigenamen anSDT . Kann nicht seinNull  in C#.
+description: Entdecken Sie die Eigenschaft „StructuredDocumentTag Title“, die einen benutzerfreundlichen Namen für Ihr SDT definiert und so die Übersichtlichkeit und Benutzerfreundlichkeit des Dokuments verbessert.
 type: docs
 weight: 290
 url: /de/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Gibt den damit verbundenen Anzeigenamen an**SDT** . Kann nicht sein`Null` .
+Gibt den Anzeigenamen an, der mit diesem**SDT** . Kann nicht sein`null` .
 
 ```csharp
 public string Title { get; set; }
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
+Zeigt, wie Sie in einem einfachen Textfeld ein strukturiertes Dokument-Tag erstellen und dessen Erscheinungsbild ändern.
 
 ```csharp
 Document doc = new Document();
@@ -26,45 +26,45 @@ Document doc = new Document();
 // Erstellen Sie ein strukturiertes Dokument-Tag, das einfachen Text enthält.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Legen Sie den Titel und die Farbe des Rahmens fest, der angezeigt wird, wenn Sie mit der Maus über das strukturierte Dokument-Tag in Microsoft Word fahren.
+// Legen Sie den Titel und die Farbe des Rahmens fest, der angezeigt wird, wenn Sie in Microsoft Word mit der Maus über das strukturierte Dokument-Tag fahren.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// Legen Sie ein Tag für dieses strukturierte Dokument-Tag fest, das verfügbar ist
-// als XML-Element mit dem Namen „tag“, mit der folgenden Zeichenfolge in seinem „@val“-Attribut.
+// Setzen Sie ein Tag für dieses strukturierte Dokument-Tag, das erhältlich ist
+// als XML-Element mit dem Namen „tag“, mit der folgenden Zeichenfolge im Attribut „@val“.
 tag.Tag = "MyPlainTextSDT";
 
 // Jedes strukturierte Dokument-Tag hat eine zufällige eindeutige ID.
-Assert.That(tag.Id, Is.Positive);
+Assert.IsTrue(tag.Id > 0);
 
 // Legen Sie die Schriftart für den Text innerhalb des strukturierten Dokument-Tags fest.
 tag.ContentsFont.Name = "Arial";
 
 // Legen Sie die Schriftart für den Text am Ende des strukturierten Dokument-Tags fest.
-// Jeder Text, den wir in den Dokumentkörper eingeben, nachdem wir ihn mit den Pfeiltasten aus dem Tag herausbewegt haben, verwendet diese Schriftart.
+// Jeder Text, den wir in den Dokumenttext eingeben, nachdem wir das Tag mit den Pfeiltasten verlassen haben, verwendet diese Schriftart.
 tag.EndCharacterFont.Name = "Arial Black";
 
-// Standardmäßig ist dies falsch und das Drücken der Eingabetaste innerhalb eines strukturierten Dokument-Tags führt zu nichts.
-// Wenn es auf „true“ gesetzt ist, kann unser strukturiertes Dokument-Tag mehrere Zeilen haben.
+// Standardmäßig ist dies „false“ und das Drücken der Eingabetaste innerhalb eines strukturierten Dokument-Tags bewirkt nichts.
+// Wenn auf „true“ gesetzt, kann unser strukturiertes Dokument-Tag mehrere Zeilen haben.
 
-// Setzen Sie die Eigenschaft „Multiline“ auf „false“, um nur den Inhalt zuzulassen
+// Setzen Sie die Eigenschaft "Multiline" auf "false", um nur den Inhalt zuzulassen
 // dieses strukturierten Dokument-Tags, um eine einzelne Zeile zu umfassen.
-// Setzen Sie die Eigenschaft „Multiline“ auf „true“, damit das Tag mehrere Zeilen Inhalt enthalten kann.
+// Setzen Sie die Eigenschaft „Multiline“ auf „true“, damit das Tag mehrere Inhaltszeilen enthalten kann.
 tag.Multiline = true;
 
-// Setzen Sie die Eigenschaft „Appearance“ auf „SdtAppearance.Tags“, um Tags rund um den Inhalt anzuzeigen.
- // Standardmäßig wird das strukturierte Dokument-Tag als BoundingBox angezeigt.
+// Setzen Sie die Eigenschaft „Darstellung“ auf „SdtAppearance.Tags“, um Tags um den Inhalt herum anzuzeigen.
+    // Standardmäßig wird das strukturierte Dokument-Tag als BoundingBox angezeigt.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(tag);
 
-// Einen Klon unseres strukturierten Dokument-Tags in einen neuen Absatz einfügen.
+// Fügen Sie einen Klon unseres strukturierten Dokument-Tags in einen neuen Absatz ein.
 StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Verwenden Sie die Methode „RemoveSelfOnly“, um ein strukturiertes Dokument-Tag zu entfernen und gleichzeitig seinen Inhalt im Dokument zu behalten.
+// Verwenden Sie die Methode „RemoveSelfOnly“, um ein strukturiertes Dokument-Tag zu entfernen und gleichzeitig seinen Inhalt im Dokument beizubehalten.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

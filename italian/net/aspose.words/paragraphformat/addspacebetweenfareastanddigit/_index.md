@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words per .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit proprietà. Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni dei numeri e le regioni del testo dellAsia orientale nel paragrafo corrente in C#.
+description: Ottimizza il layout del tuo documento con la proprietà AddSpaceBetweenFarEastAndDigit, migliorando la leggibilità tramite la regolazione della spaziatura tra il testo e i numeri dell'Asia orientale.
 type: docs
 weight: 20
 url: /it/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni dei numeri e le regioni del testo dell'Asia orientale nel paragrafo corrente.
+Ottiene o imposta un flag che indica se la spaziatura tra i caratteri viene regolata automaticamente tra le regioni dei numeri e le regioni del testo dell'Asia orientale nel paragrafo corrente.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }

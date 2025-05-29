@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 linktitle: ExportFontsAsBase64
 articleTitle: ExportFontsAsBase64
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportFontsAsBase64 ملكية. يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية HtmlSaveOptions ExportFontsAsBase64 لغة HTML لديك من خلال تضمين الخطوط بترميز Base64 لتحسين الأداء. افتراضيًا، خطأ.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هو`خطأ شنيع` .
+يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML بترميز Base64. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ## ملاحظات
 
-بشكل افتراضي، تتم كتابة الخطوط لملفات منفصلة. إذا تم ضبط هذا الخيار على`حقيقي`سيتم تضمين الخطوط في ملف CSS الخاص بالمستند بتشفير Base64.
+افتراضيًا، تُكتب الخطوط في ملفات منفصلة. إذا تم ضبط هذا الخيار على`حقيقي`سيتم تضمين الخطوط في CSS الخاص بالمستند باستخدام ترميز Base64.
 
 ## أمثلة
 
-يوضح كيفية تضمين الخطوط داخل مستند HTML محفوظ.
+يوضح كيفية تضمين الخطوط داخل مستند HTML المحفوظ.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,14 +3,14 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words لـ .NET
-description: FileFontSource البناء. الممثل في C#.
+description: اكتشف مُنشئ FileFontSource لدمج الخطوط بسلاسة في مشاريعك. حسّن تصميمك بحلول برمجة سهلة الاستخدام!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(*string*) {#constructor}
 
-الممثل.
+المولد.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -46,7 +46,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int*) {#constructor_1}
 
-الممثل.
+المولد.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -83,7 +83,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int, string*) {#constructor_2}
 
-الممثل.
+المولد.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -93,7 +93,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | --- | --- | --- |
 | filePath | String | المسار إلى ملف الخط. |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
-| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
+| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. انظر[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
 ## أمثلة
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }

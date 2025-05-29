@@ -3,14 +3,14 @@ title: TxtSaveOptions.MaxCharactersPerLine
 linktitle: MaxCharactersPerLine
 articleTitle: MaxCharactersPerLine
 second_title: Aspose.Words per .NET
-description: TxtSaveOptions MaxCharactersPerLine proprietà. Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0 ciò significa nessun limite in C#.
+description: Scopri TxtSaveOptions MaxCharactersPerLine, imposta facilmente limiti di caratteri per riga per una migliore formattazione del testo. Il valore predefinito è 0 per caratteri illimitati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
 ---
 ## TxtSaveOptions.MaxCharactersPerLine property
 
-Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0, ciò significa nessun limite.
+Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0, ovvero nessun limite.
 
 ```csharp
 public int MaxCharactersPerLine { get; set; }
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
               "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Imposta 30 caratteri come massimo consentito per una riga.
+// Imposta 30 caratteri come massimo consentito per riga.
 TxtSaveOptions saveOptions = new TxtSaveOptions { MaxCharactersPerLine = 30 };
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);

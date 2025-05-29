@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.CssClassNamesPrefix
 linktitle: CssClassNamesPrefix
 articleTitle: CssClassNamesPrefix
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions CssClassNamesPrefix fast egendom. Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet äråh  i C#.
+description: Upptäck hur egenskapen HtmlFixedSaveOptions CssClassNamesPrefix förbättrar din stil genom att lägga till ett anpassningsbart prefix till alla klassnamn i din style.css.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet är`"åh"` .
+Anger prefix som läggs till alla klassnamn i style.css-filen. Standardvärdet är`"åh"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }

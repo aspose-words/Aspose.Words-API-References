@@ -3,7 +3,7 @@ title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
 second_title: Aspose.Words para .NET
-description: ShapeBase AnchorLocked propiedad. Especifica si el ancla de la forma está bloqueada en C#.
+description: Descubra la propiedad ShapeBase AnchorLocked para controlar el bloqueo de anclajes para formas, mejorando la estabilidad del diseño y la flexibilidad en sus proyectos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -22,11 +22,11 @@ El valor predeterminado es`FALSO`.
 
 Tiene efecto sólo para formas de nivel superior.
 
-Esta propiedad afecta el comportamiento del ancla de la forma en Microsoft Word. Cuando el ancla no está bloqueada, mover la forma en Microsoft Word también puede mover el ancla de la forma.
+Esta propiedad afecta el comportamiento del ancla de la forma en Microsoft Word. Cuando el ancla no está bloqueado, al mover la forma en Microsoft Word también se puede mover el ancla de la forma.
 
 ## Ejemplos
 
-Muestra cómo bloquear o desbloquear el anclaje de párrafo de una forma.
+Muestra cómo bloquear o desbloquear el ancla de párrafo de una forma.
 
 ```csharp
 Document doc = new Document();
@@ -41,14 +41,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Establece la propiedad "AnchorLocked" en "true" para evitar el anclaje de la forma
+// Establezca la propiedad "AnchorLocked" en "verdadero" para evitar el anclaje de la forma
 // de moverse al mover la forma en Microsoft Word.
-// Establece la propiedad "AnchorLocked" en "false" para permitir cualquier movimiento de la forma
-// para mover también su ancla a cualquier otro párrafo al que la forma termine cerca.
+// Establezca la propiedad "AnchorLocked" en "falso" para permitir cualquier movimiento de la forma
+// para mover también su ancla a cualquier otro párrafo cerca del cual la forma termine.
 shape.AnchorLocked = anchorLocked;
 
 // Si la forma no tiene un símbolo de ancla visible a su izquierda,
-// necesitaremos habilitar anclajes visibles a través de "Opciones" -> "Pantalla" -> "Anclajes de objetos".
+// necesitaremos habilitar los anclajes visibles a través de "Opciones" -> "Mostrar" -> "Anclajes de objeto".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

@@ -2,8 +2,8 @@
 title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSection 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSection 构造函数——无缝集成的首选解决方案。解锁默认功能，高效开发！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldsection/fieldsection/

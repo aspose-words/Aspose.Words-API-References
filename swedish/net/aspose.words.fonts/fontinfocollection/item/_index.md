@@ -3,14 +3,14 @@ title: FontInfoCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: FontInfoCollection Item fast egendom. Får ett teckensnitt med det angivna namnet i C#.
+description: Upptäck egenskapen FontInfoCollection Item för att enkelt hämta teckensnitt efter namn och förbättra dina designprojekt med precision och stil.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontinfocollection/item/
 ---
 ## FontInfoCollection indexer (1 of 2)
 
-Får ett teckensnitt med det angivna namnet.
+Hämtar ett teckensnitt med det angivna namnet.
 
 ```csharp
 public FontInfo this[string name] { get; }
@@ -18,7 +18,7 @@ public FontInfo this[string name] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| name | Skiftlägesokänsligt namn på teckensnittet som ska hittas. |
+| name | Skiftlägeskänsligt namn på teckensnittet som ska hittas. |
 
 ## Exempel
 
@@ -31,14 +31,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Inbäddade teckensnittsformat kan vara annorlunda i andra format som .doc.
-// Vi behöver veta det korrekta formatet innan vi kan extrahera teckensnittet.
+// Inbäddade teckensnittsformat kan skilja sig i andra format som .doc.
+// Vi behöver veta rätt format innan vi kan extrahera teckensnittet.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Dessutom kan vi konvertera inbäddat OpenType-format, som kommer från .doc-dokument, till OpenType.
+// Vi kan också konvertera inbäddat OpenType-format, som kommer från .doc-dokument, till OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
@@ -55,7 +55,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 ## FontInfoCollection indexer (2 of 2)
 
-Får ett teckensnitt vid angivet index.
+Hämtar ett teckensnitt vid det angivna indexet.
 
 ```csharp
 public FontInfo this[int index] { get; }
@@ -76,14 +76,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Inbäddade teckensnittsformat kan vara annorlunda i andra format som .doc.
-// Vi behöver veta det korrekta formatet innan vi kan extrahera teckensnittet.
+// Inbäddade teckensnittsformat kan skilja sig i andra format som .doc.
+// Vi behöver veta rätt format innan vi kan extrahera teckensnittet.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Dessutom kan vi konvertera inbäddat OpenType-format, som kommer från .doc-dokument, till OpenType.
+// Vi kan också konvertera inbäddat OpenType-format, som kommer från .doc-dokument, till OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

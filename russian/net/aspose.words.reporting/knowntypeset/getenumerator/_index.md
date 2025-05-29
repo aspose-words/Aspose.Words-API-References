@@ -3,14 +3,14 @@ title: KnownTypeSet.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: KnownTypeSet GetEnumerator метод. ВозвращаетIEnumerator объект для перебора элементов набора на С#.
+description: Откройте для себя метод KnownTypeSet GetEnumerator для легкой итерации по элементам набора с эффективным объектом IEnumerator. Улучшите свой опыт кодирования сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-ВозвращаетIEnumerator объект для перебора элементов набора.
+ВозвращаетIEnumerator объект для итерации по элементам набора.
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Возвращаемое значение
 
-АнIEnumerator объект для перебора элементов набора.
+АнIEnumerator объект для итерации по элементам набора.
 
 ### Смотрите также
 

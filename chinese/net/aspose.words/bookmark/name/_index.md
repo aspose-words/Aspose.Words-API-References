@@ -2,8 +2,8 @@
 title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: Bookmark Name 财产. 获取或设置书签的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用“书签名称”轻松管理您的书签。轻松设置或更新您的书签名称，以便更好地组织和快速访问。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmark/name/
@@ -18,25 +18,25 @@ public string Name { get; set; }
 
 ## 评论
 
-请注意，如果将书签的名称更改为文档中已存在的名称， 保存文档时不会给出错误，并且只会存储第一个书签。
+请注意，如果将书签的名称更改为文档中已存在的名称， 则不会出现任何错误，并且保存文档时只会存储第一个书签。
 
 ## 例子
 
-展示如何插入书签。
+显示如何插入书签。
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 有效的书签具有名称、BookmarkStart 和 BookmarkEnd 节点。
-// 如果我们用 Microsoft Word 打开保存的文档，书签名称中的任何空格都将转换为下划线。
-// 如果我们通过 Insert -> 在 Microsoft Word 中突出显示书签的名称友情链接->添加书签，然后按“转到”，
-// 光标将跳转到 BookmarkStart 和 BookmarkEnd 节点之间包含的文本。
+// 有效的书签有一个名称、一个 BookmarkStart 和一个 BookmarkEnd 节点。
+// 如果我们使用 Microsoft Word 打开保存的文档，书签名称中的任何空格都将转换为下划线。
+// 如果我们在 Microsoft Word 中通过“插入”->“链接”->“书签”突出显示书签的名称，然后按“转到”，
+// 光标将跳转到 BookmarkStart 和 BookmarkEnd 节点之间的文本。
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// 书签存储在该集合中。
+// 书签存储在此集合中。
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
@@ -56,7 +56,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

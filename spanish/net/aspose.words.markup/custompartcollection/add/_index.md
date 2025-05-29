@@ -3,7 +3,7 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: CustomPartCollection Add método. Agrega un elemento a la colección en C#.
+description: Mejore sin esfuerzo su proyecto con el método Add de CustomPartCollection: agregue rápidamente elementos a su colección para lograr una integración y eficiencia perfectas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/custompartcollection/add/
@@ -22,7 +22,7 @@ public void Add(CustomPart part)
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

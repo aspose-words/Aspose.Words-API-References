@@ -2,15 +2,15 @@
 title: ChartSeries.Format
 linktitle: Format
 articleTitle: Format
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries Format 财产. 提供对系列的填充和线条格式的访问 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartSeries 格式属性，轻松访问可自定义的填充和线条样式，增强您的数据可视化体验。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property
 
-提供对系列的填充和线条格式的访问。
+提供对系列填充和线条格式的访问。
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## 例子
 
-母猪如何设置系列颜色。
+播种如何设置系列颜色。
 
 ```csharp
 Document doc = new Document();

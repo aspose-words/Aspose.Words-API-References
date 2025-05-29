@@ -3,34 +3,34 @@ title: Aspose.Words.MailMerging
 linktitle: Aspose.Words.MailMerging
 articleTitle: Aspose.Words.MailMerging
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.MailMergingتحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات الأصلي  في C#.
+description: اكتشف مساحة اسم Aspose.Words.MailMerging القوية لإعداد تقارير دمج بريدية فعّالة. عزّز أتمتة مستنداتك بميزات متقدمة اليوم!
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.words.mailmerging/
 ---
-ال**Aspose.Words.MailMerging**تحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات "الأصلي" .
+ال**دمج الكلمات البريدية** تحتوي مساحة الاسم على فئات من محرك إعداد التقارير الخاصة بدمج البريد "الأصلي" .
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | يوفر بيانات لـ**مجال مدمج** حدث. |
+| [FieldMergingArgs](./fieldmergingargs/) | يوفر بيانات لـ**حقل الدمج** الحدث. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | الفئة الأساسية لـ[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) و[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
-| [ImageFieldMergingArgs](./imagefieldmergingargs/) | يوفر بيانات لـ[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) حدث. |
+| [ImageFieldMergingArgs](./imagefieldmergingargs/) | يوفر بيانات لـ[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) الحدث. |
 | [MailMerge](./mailmerge/) | يمثل وظيفة دمج البريد. |
 | [MailMergeRegionInfo](./mailmergeregioninfo/) | يحتوي على معلومات حول منطقة دمج البريد. |
-| [MappedDataFieldCollection](./mappeddatafieldcollection/) | يسمح بالتعيين تلقائيًا بين أسماء الحقول في مصدر بياناتك وأسماء حقول دمج البريد في المستند. |
+| [MappedDataFieldCollection](./mappeddatafieldcollection/) | يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات الخاص بك وأسماء حقول دمج البريد في المستند. |
 | [MustacheTag](./mustachetag/) | يمثل علامة "الشارب". |
 ## واجهات
 
 | واجهه المستخدم | وصف |
 | --- | --- |
 | [IFieldMergingCallback](./ifieldmergingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية إدراج البيانات في حقول الدمج أثناء عملية دمج البريد. |
-| [IMailMergeCallback](./imailmergecallback/) | قم بتطبيق هذه الواجهة إذا كنت تريد تلقي إشعارات أثناء إجراء دمج البريد. |
-| [IMailMergeDataSource](./imailmergedatasource/) | قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص، مثل قائمة الكائنات. يتم أيضًا دعم البيانات الرئيسية والتفصيلية. |
-| [IMailMergeDataSourceRoot](./imailmergedatasourceroot/) | قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مع البيانات الرئيسية التفصيلية. |
+| [IMailMergeCallback](./imailmergecallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات أثناء تنفيذ دمج البريد. |
+| [IMailMergeDataSource](./imailmergedatasource/) | نفّذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص، مثل قائمة كائنات. كما تدعم البيانات الرئيسية والتفصيلية. |
+| [IMailMergeDataSourceRoot](./imailmergedatasourceroot/) | قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مع بيانات رئيسية وتفصيلية. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [MailMergeCleanupOptions](./mailmergecleanupoptions/) | تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد. |
+| [MailMergeCleanupOptions](./mailmergecleanupoptions/) | يحدد الخيارات التي تحدد العناصر التي سيتم إزالتها أثناء دمج البريد. |

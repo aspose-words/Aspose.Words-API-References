@@ -3,14 +3,14 @@ title: INodeChangingCallback.NodeRemoved
 linktitle: NodeRemoved
 articleTitle: NodeRemoved
 second_title: Aspose.Words für .NET
-description: INodeChangingCallback NodeRemoved methode. Wird aufgerufen wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde in C#.
+description: Entdecken Sie die Methode „INodeChangingCallback NodeRemoved“, die ausgelöst wird, wenn ein Dokumentknoten entfernt wird, und so Ihre Codierungseffizienz und Ihr Dokumentenmanagement verbessert.
 type: docs
 weight: 30
 url: /de/net/aspose.words/inodechangingcallback/noderemoved/
 ---
 ## INodeChangingCallback.NodeRemoved method
 
-Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde.
+Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten aus seinem übergeordneten Element entfernt wurde.
 
 ```csharp
 public void NodeRemoved(NodeChangingArgs args)
@@ -18,7 +18,7 @@ public void NodeRemoved(NodeChangingArgs args)
 
 ## Beispiele
 
-Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
+Zeigt, wie Sie Knotenänderungen mit einem Rückruf anpassen.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -27,7 +27,7 @@ public void FontChangeViaCallback()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
-    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
+    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
-/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens eines Knotens.
+/// Legt einen benutzerdefinierten Schriftnamen/eine benutzerdefinierte Schriftgröße für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

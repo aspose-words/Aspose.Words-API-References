@@ -3,16 +3,16 @@ title: ViewOptions Class
 linktitle: ViewOptions
 articleTitle: ViewOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.ViewOptions сорт. Предоставляет различные параметры управляющие отображением документа в Microsoft Word на С#.
+description: Откройте для себя класс Aspose.Words.Settings.ViewOptions для настройки отображения документов в Microsoft Word, что улучшит ваши возможности редактирования и производительность.
 type: docs
-weight: 5950
+weight: 6780
 url: /ru/net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class
 
-Предоставляет различные параметры, управляющие отображением документа в Microsoft Word.
+Предоставляет различные параметры, которые управляют тем, как документ отображается в Microsoft Word.
 
-Чтобы узнать больше, посетите[Работа с параметрами и внешним видом документов Word](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) статья документации.
+Чтобы узнать больше, посетите[Работа с параметрами и внешним видом документов Word](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) документальная статья.
 
 ```csharp
 public class ViewOptions
@@ -22,16 +22,16 @@ public class ViewOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Управляет отображением формы фона в виде макета печати. |
-| [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries/) { get; set; } | Отключает отображение пространства между верхней частью текста и верхним краем страницы. |
+| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Управляет отображением фоновой формы в режиме макета печати. |
+| [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries/) { get; set; } | Отключает отображение пространства между верхом текста и верхним краем страницы. |
 | [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign/) { get; set; } | Указывает, находится ли документ в режиме разработки форм. |
 | [ViewType](../../aspose.words.settings/viewoptions/viewtype/) { get; set; } | Управляет режимом просмотра в Microsoft Word. |
-| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Получает или задает процент (от 10 до 500), с которым вы хотите просмотреть документ. |
-| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Получает или задает значение масштабирования в зависимости от размера окна. |
+| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Возвращает или задает процент, с которым вы хотите просматривать документ. |
+| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Получает или задает значение масштабирования на основе размера окна. |
 
 ## Примеры
 
-Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
+Показывает, как задать пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
 ```csharp
 Document doc = new Document();
@@ -47,19 +47,19 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Показывает, как установить пользовательский тип масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
+Показывает, как задать пользовательский тип масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Установите для свойства «ZoomType» значение «ZoomType.PageWidth», чтобы получить Microsoft Word
+// Установите свойство "ZoomType" на "ZoomType.PageWidth", чтобы получить Microsoft Word
 // для автоматического масштабирования документа по ширине страницы.
-// Установите для свойства «ZoomType» значение «ZoomType.FullPage», чтобы получить Microsoft Word
+// Установите свойство "ZoomType" на "ZoomType.FullPage", чтобы получить Microsoft Word
 // для автоматического масштабирования документа, чтобы сделать видимой всю первую страницу.
-// Установите для свойства «ZoomType» значение «ZoomType.TextFit», чтобы получить Microsoft Word
-// для автоматического масштабирования документа по размеру внутренних полей текста первой страницы.
+// Установите свойство "ZoomType" на "ZoomType.TextFit", чтобы получить Microsoft Word
+// для автоматического масштабирования документа в соответствии с внутренними текстовыми полями первой страницы.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

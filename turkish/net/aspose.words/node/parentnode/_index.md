@@ -2,15 +2,15 @@
 title: Node.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
-second_title: Aspose.Words for .NET
-description: Node ParentNode mülk. Bu düğümün doğrudan ebeveynini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir düğümün doğrudan üst düğümüne kolayca erişmek için Node ParentNode özelliğini keşfedin, böylece web geliştirme verimliliğinizi ve kod netliğinizi artırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/node/parentnode/
 ---
 ## Node.ParentNode property
 
-Bu düğümün doğrudan ebeveynini alır.
+Bu düğümün en yakın üst düğümünü alır.
 
 ```csharp
 public CompositeNode ParentNode { get; }
@@ -18,7 +18,7 @@ public CompositeNode ParentNode { get; }
 
 ## Notlar
 
-Bir düğüm yeni oluşturulmuş ve ağaca henüz eklenmemişse, veya ağaçtan kaldırılmışsa ebeveyn düğümdür.`hükümsüz`.
+Bir düğüm yeni oluşturulmuşsa ve henüz ağaca eklenmemişse, veya ağaçtan kaldırılmışsa, üst düğüm`hükümsüz`.
 
 ## Örnekler
 
@@ -28,11 +28,11 @@ Bir düğümün üst düğümüne nasıl erişileceğini gösterir.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Belgenin ilk paragrafına bir alt Çalıştır düğümü ekleyin.
+// Belgenin ilk paragrafına bir alt Çalıştırma düğümü ekle.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// Paragraf, çalıştırma düğümünün üst düğümüdür. Bu soyun izini sürebiliriz
+// Paragraf, çalıştırma düğümünün ana düğümüdür. Bu soyağacını izleyebiliriz
 // belgenin düğüm ağacının kökü olan belge düğümüne kadar.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
@@ -40,24 +40,24 @@ Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
 Assert.AreEqual(doc, doc.FirstSection.ParentNode);
 ```
 
-Bir düğümün nasıl oluşturulacağını ve sahiplik belgesinin nasıl ayarlanacağını gösterir.
+Bir düğümün nasıl oluşturulacağını ve ona ait belgenin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Bu paragrafı henüz alt öğe olarak herhangi bir bileşik düğüme eklemedik.
+// Bu paragrafı henüz herhangi bir bileşik düğüme alt öğe olarak eklemedik.
 Assert.IsNull(para.ParentNode);
 
-// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm tipi ise,
-// ancak her iki düğümün de aynı sahip belgesine sahip olması durumunda onu çocuk olarak ekleyebiliriz.
-// Sahip belgesi, düğümün yapıcısına ilettiğimiz belgedir.
-// Bu paragrafı belgeye eklemedik, dolayısıyla belge metnini içermiyor.
+// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm türüyse,
+// yalnızca her iki düğümün de aynı sahip belgesi varsa bunu bir çocuk olarak ekleyebiliriz.
+// Sahip belgesi, düğümün kurucusuna geçirdiğimiz belgedir.
+// Bu paragrafı belgeye eklemediğimiz için belgede metni bulunmuyor.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Belge bu paragrafın sahibi olduğundan, onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
+// Belge bu paragrafın sahibi olduğundan, paragrafın içeriğine onun stillerinden birini uygulayabiliriz.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Bu düğümü belgeye ekleyin ve ardından içeriğini doğrulayın.

@@ -2,8 +2,8 @@
 title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldInfo NewValue 财产. 获取或设置更新属性的可选值 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldInfo NewValue 属性，轻松管理可选值以增强数据更新并简化编码体验。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldinfo/newvalue/
@@ -24,7 +24,7 @@ public string NewValue { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 为“Comments”内置属性设置一个值，然后插入一个 INFO 字段以显示该属性的值。
+// 为“评论”内置属性设置一个值，然后插入一个 INFO 字段来显示该属性的值。
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -35,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// 为字段的 NewValue 属性设置值并更新
+// 为字段的 NewValue 属性设置一个值并更新
 // 该字段还将用新值覆盖相应的内置属性。
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

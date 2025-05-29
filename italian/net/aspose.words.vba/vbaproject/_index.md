@@ -3,14 +3,14 @@ title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaProject classe. Fornisce laccesso alle informazioni sul progetto VBA. Un progetto VBA allinterno del documento è definito come una raccolta di moduli VBA in C#.
+description: Sfrutta la potenza della classe Aspose.Words.Vba.VbaProject per gestire facilmente le informazioni e i moduli dei progetti VBA all'interno dei tuoi documenti. Migliora la tua automazione oggi stesso!
 type: docs
-weight: 6580
+weight: 7430
 url: /it/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-Fornisce l'accesso alle informazioni sul progetto VBA. Un progetto VBA all'interno del documento è definito come una raccolta di moduli VBA.
+Fornisce accesso alle informazioni del progetto VBA. Un progetto VBA all'interno del documento è definito come una raccolta di moduli VBA.
 
 Per saperne di più, visita il[Lavorare con le macro VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) articolo di documentazione.
 
@@ -29,8 +29,9 @@ public class VbaProject
 | Nome | Descrizione |
 | --- | --- |
 | [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Ottiene o imposta la code page del progetto VBA. |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | Mostra se il`VbaProject` è protetto da password. |
 | [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Mostra se il`VbaProject` è firmato o no. |
-| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | Restituisce la raccolta di moduli di progetto VBA. |
+| [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | Restituisce una raccolta di moduli di progetto VBA. |
 | [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | Ottiene o imposta il nome del progetto VBA. |
 | [References](../../aspose.words.vba/vbaproject/references/) { get; } | Ottiene una raccolta di riferimenti al progetto VBA. |
 
@@ -38,11 +39,11 @@ public class VbaProject
 
 | Nome | Descrizione |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Esegue una copia del file`VbaProject` . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Esegue una copia del`VbaProject` . |
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -53,7 +54,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

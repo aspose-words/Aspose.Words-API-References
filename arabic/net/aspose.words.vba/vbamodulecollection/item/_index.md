@@ -3,14 +3,14 @@ title: VbaModuleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: VbaModuleCollection Item ملكية. يسترد أVbaModule كائن حسب الفهرس في C#.
+description: تمتع بالوصول إلى كائنات VbaModule بسهولة باستخدام خاصية VbaModuleCollection Item. حسّن مشاريع VBA الخاصة بك بفهرسة سهلة وإدارة مُحسّنة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-يسترد أ[`VbaModule`](../../vbamodule/) كائن حسب الفهرس.
+يسترجع[`VbaModule`](../../vbamodule/) الكائن حسب index.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -18,29 +18,29 @@ public VbaModule this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس الصفري للوحدة المطلوب استردادها. |
+| index | فهرس يعتمد على الصفر للوحدة التي سيتم استرجاعها. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
@@ -59,7 +59,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-يسترد أ[`VbaModule`](../../vbamodule/) كائن بالاسم، أو Null إذا لم يتم العثور عليه.
+يسترجع[`VbaModule`](../../vbamodule/) الكائن حسب الاسم، أو Null إذا لم يتم العثور عليه.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -67,25 +67,25 @@ public VbaModule this[string name] { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

@@ -3,7 +3,7 @@ title: FontSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words para .NET
-description: FontSavingArgs IsExportNeeded propiedad. Permite especificar si la fuente actual se exportará como recurso de fuente. El valor predeterminado esverdadero  en C#.
+description: Descubre la propiedad FontSavingArgs IsExportNeeded para controlar la exportación de fuentes. ¡Maximiza la eficiencia con configuraciones personalizables para tus proyectos!
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -18,15 +18,15 @@ public bool IsExportNeeded { get; set; }
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

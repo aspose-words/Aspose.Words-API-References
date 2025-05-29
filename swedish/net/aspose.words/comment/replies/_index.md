@@ -3,14 +3,14 @@ title: Comment.Replies
 linktitle: Replies
 articleTitle: Replies
 second_title: Aspose.Words för .NET
-description: Comment Replies fast egendom. Returnerar en samling avComment objekt som är omedelbara underordnade av den angivna kommentaren i C#.
+description: Upptäck kommentarsvar. Få tillgång till en samling kommentarobjekt som är direkta svar på din angivna kommentar, vilket förbättrar användarengagemang och interaktion.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-Returnerar en samling av[`Comment`](../) objekt som är omedelbara underordnade av den angivna kommentaren.
+Returnerar en samling av[`Comment`](../) objekt som är omedelbara underordnade till den angivna kommentaren.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -18,15 +18,15 @@ public CommentCollection Replies { get; }
 
 ## Exempel
 
-Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
+Visar hur man skriver ut alla kommentarer och svar i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
-// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Om en kommentar inte har någon överordnad kommentar är det en kommentar på "toppnivå" i motsats till en kommentar av svarstyp.
+// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

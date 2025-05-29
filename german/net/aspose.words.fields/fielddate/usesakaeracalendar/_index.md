@@ -3,7 +3,7 @@ title: FieldDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words für .NET
-description: FieldDate UseSakaEraCalendar eigendom. Ruft ab oder legt fest ob der SakaÄraKalender verwendet werden soll in C#.
+description: Entdecken Sie, wie FieldDate Ihre Projekte mit der Saka Era-Kalenderunterstützung verbessert. Legen Sie Ihre Datumsformate einfach fest oder passen Sie sie für eine nahtlose Integration an.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fielddate/usesakaeracalendar/
@@ -18,14 +18,14 @@ public bool UseSakaEraCalendar { get; set; }
 
 ## Beispiele
 
-Zeigt, wie DATE-Felder verwendet werden, um Daten gemäß verschiedenen Kalenderarten anzuzeigen.
+Zeigt, wie DATE-Felder verwendet werden, um Daten entsprechend unterschiedlicher Kalendertypen anzuzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn wir möchten, dass der Text im Dokument immer das richtige Datum anzeigt, können wir ein DATE-Feld verwenden.
-// Unten sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld zur Anzeige eines Datums verwenden kann.
+// Unten sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld zum Anzeigen eines Datums verwenden kann.
 // 1 - Islamischer Mondkalender:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Ein DATE-Feld einfügen und seinen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten festlegen.
-// In Microsoft Word ist der Typ der zuletzt im Einfügen -> verwendete Typ. Text -> Dialogfeld „Datum und Uhrzeit“.
+// Fügen Sie ein DATE-Feld ein und legen Sie dessen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten fest.
+// In Microsoft Word ist der Typ der zuletzt im Dialogfeld Einfügen -> Text -> Datum und Uhrzeit verwendete.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

@@ -3,14 +3,14 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words لـ .NET
-description: SignatureLine IsSigned ملكية. يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي في C#.
+description: اكتشف كيف تُؤكد خاصية IsSigned من SignatureLine صحة التوقيع الرقمي، مما يضمن معاملات آمنة وموثوقة. عزّز سلامة مستنداتك!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي.
+يشير إلى أن سطر التوقيع موقّع بالتوقيع الرقمي.
 
 ```csharp
 public bool IsSigned { get; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

@@ -3,14 +3,14 @@ title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
 second_title: Aspose.Words لـ .NET
-description: FileFormatUtil ContentTypeToLoadFormat طريقة. تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل في C#.
+description: حوّل أنواع محتوى IANA إلى قيم تنسيق التحميل بسهولة باستخدام طريقة FileFormatUtil ContentTypeToLoadFormat. بسّط تعاملك مع الملفات اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل.
+يحول نوع محتوى IANA إلى قيمة معدودة بتنسيق التحميل.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -20,23 +20,23 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentException | يرمي عندما لا يمكن تحويل. |
+| ArgumentException | يرمي عندما لا يمكن التحويل. |
 
 ## أمثلة
 
-يوضح كيفية العثور على تنسيق Aspose التحميل/الحفظ المطابق من كل سلسلة من أنواع الوسائط.
+يوضح كيفية العثور على تنسيق التحميل/الحفظ Aspose المقابل من كل سلسلة نوع وسائط.
 
 ```csharp
- // تقبل أساليب ContentTypeToSaveFormat/ContentTypeToLoadFormat فقط أسماء أنواع وسائط IANA الرسمية، والمعروفة أيضًا بأنواع MIME.
-// جميع أنواع الوسائط الصالحة مدرجة هنا: https://www.iana.org/signments/media-types/media-types.xhtml.
+ // تقبل طرق ContentTypeToSaveFormat/ContentTypeToLoadFormat فقط أسماء أنواع الوسائط IANA الرسمية، والمعروفة أيضًا بأنواع MIME.
+// تم إدراج جميع أنواع الوسائط الصالحة هنا: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// لن تنجح محاولة ربط SaveFormat بسلسلة من نوع الوسائط الجزئية.
+// لن تنجح محاولة ربط SaveFormat بسلسلة جزئية من نوع الوسائط.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// إذا لم يكن لدى Aspose.Words تنسيق حفظ/تحميل مطابق لنوع المحتوى، فسيتم طرح استثناء أيضًا.
+// إذا لم يكن لدى Aspose.Words تنسيق حفظ/تحميل مطابق لنوع المحتوى، فسيتم أيضًا طرح استثناء.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
-// يمكن حفظ الملفات من الأنواع المذكورة أدناه، ولكن لا يمكن تحميلها باستخدام Aspose.Words.
+//يمكن حفظ الملفات من الأنواع المدرجة أدناه، ولكن لا يمكن تحميلها باستخدام Aspose.Words.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
 Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// بالنسبة لأنواع الملفات التي يمكن حفظها وتحميلها، يمكننا مطابقة نوع الوسائط مع كل من تنسيق التحميل وتنسيق الحفظ.
+// بالنسبة لأنواع الملفات التي يمكن حفظها وتحميلها، يمكننا مطابقة نوع الوسائط مع تنسيق التحميل وتنسيق الحفظ.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

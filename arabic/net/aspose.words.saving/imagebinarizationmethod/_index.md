@@ -3,14 +3,14 @@ title: ImageBinarizationMethod Enum
 linktitle: ImageBinarizationMethod
 articleTitle: ImageBinarizationMethod
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod تعداد. يحدد الطريقة المستخدمة لتحويل الصورة إلى ثنائي في C#.
+description: اكتشف طريقة Aspose.Words.ImageBinarizationMethod لثنائية الصور الفعالة. حسّن معالجة مستنداتك باستخدام تقنيات متقدمة.
 type: docs
-weight: 5200
+weight: 5950
 url: /ar/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
 
-يحدد الطريقة المستخدمة لتحويل الصورة إلى ثنائي.
+يحدد الطريقة المستخدمة لتحويل الصورة إلى صورة ثنائية.
 
 ```csharp
 public enum ImageBinarizationMethod
@@ -21,11 +21,11 @@ public enum ImageBinarizationMethod
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Threshold | `0` | يحدد طريقة العتبة. |
-| FloydSteinbergDithering | `1` | يحدد ثبات الألوان باستخدام طريقة Floyd-Steinberg لتوزيع الأخطاء. |
+| FloydSteinbergDithering | `1` | يحدد التمويه باستخدام طريقة انتشار خطأ Floyd-Steinberg. |
 
 ## أمثلة
 
-يوضح كيفية تعيين حد خطأ التنسيق الثنائي TIFF عند استخدام طريقة Floyd-Steinberg لعرض صورة TIFF.
+يوضح كيفية تعيين عتبة خطأ تحويل TIFF إلى ثنائي عند استخدام طريقة Floyd-Steinberg لعرض صورة TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -35,10 +35,10 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// عندما نحفظ المستند كملف TIFF، يمكننا تمرير كائن SaveOptions إليه
-// اضبط التردد الذي سيطبقه Aspose.Words عند عرض هذه الصورة.
+// عندما نحفظ المستند بتنسيق TIFF، يمكننا تمرير كائن SaveOptions إلى
+// اضبط التمويه الذي سيطبقه Aspose.Words عند عرض هذه الصورة.
 // القيمة الافتراضية لخاصية "ThresholdForFloydSteinbergDithering" هي 128.
-// تميل القيم الأعلى إلى إنتاج صور أكثر قتامة.
+// تميل القيم الأعلى إلى إنتاج صور أغمق.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

@@ -3,14 +3,14 @@ title: FieldGreetingLine.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words für .NET
-description: FieldGreetingLine LanguageId eigendom. Ruft die SprachID ab die zum Formatieren des Namens verwendet wird oder legt diese fest in C#.
+description: Entdecken Sie die LanguageId-Eigenschaft von FieldGreetingLine, um die Namensformatierung mit anpassbaren Spracheinstellungen für ein verbessertes Benutzererlebnis einfach zu verwalten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldgreetingline/languageid/
 ---
 ## FieldGreetingLine.LanguageId property
 
-Ruft die Sprach-ID ab, die zum Formatieren des Namens verwendet wird, oder legt diese fest.
+Ruft die Sprach-ID ab oder legt sie fest, die zum Formatieren des Namens verwendet wird.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -24,14 +24,14 @@ Zeigt, wie ein GREETINGLINE-Feld eingefügt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie eine generische Begrüßung mit einem GREETINGLINE-Feld und etwas Text danach.
+// Erstellen Sie eine allgemeine Begrüßung mit einem GREETINGLINE-Feld und etwas Text dahinter.
 FieldGreetingLine field = (FieldGreetingLine)builder.InsertField(FieldType.FieldGreetingLine, true);
 builder.Writeln("\n\n\tThis is your custom greeting, created programmatically using Aspose Words!");
 
 // Ein GREETINGLINE-Feld akzeptiert während eines Seriendrucks Werte aus einer Datenquelle, wie ein MERGEFIELD.
 // Es kann auch formatieren, wie die Daten der Quelle an ihre Stelle geschrieben werden, sobald der Seriendruck abgeschlossen ist.
 // Die Feldnamensammlung entspricht den Spalten aus der Datenquelle
-// aus dem das Feld Werte annimmt.
+// aus der das Feld Werte übernimmt.
 Assert.AreEqual(0, field.GetFieldNames().Length);
 
 // Um dieses Array zu füllen, müssen wir ein Format für unsere Begrüßungszeile angeben.
@@ -43,7 +43,7 @@ Assert.AreEqual("Last Name", field.GetFieldNames()[1]);
 Assert.AreEqual(2, field.GetFieldNames().Length);
 
 // Diese Zeichenfolge deckt alle Fälle ab, in denen die Daten der Datentabelle ungültig sind
-// durch Ersetzen des fehlerhaften Namens durch eine Zeichenfolge.
+// indem der fehlerhafte Name durch eine Zeichenfolge ersetzt wird.
 field.AlternateText = "Sir or Madam";
 
 // Legen Sie ein Gebietsschema fest, um das Ergebnis zu formatieren.
@@ -61,12 +61,12 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Diese Zeile hat einen ungültigen Wert in der Spalte „Mit freundlicher Genehmigung des Titels“, sodass unsere Begrüßung standardmäßig den alternativen Text verwendet.
+// Diese Zeile hat einen ungültigen Wert in der Spalte „Höflichkeitstitel“, daher wird für unsere Begrüßung standardmäßig der alternative Text verwendet.
 table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);
 
-Assert.That(doc.Range.Fields, Is.Empty);
+Assert.AreEqual(0, doc.Range.Fields.Count);
 Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Mrs. Cardholder,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Sir or Madam,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!",

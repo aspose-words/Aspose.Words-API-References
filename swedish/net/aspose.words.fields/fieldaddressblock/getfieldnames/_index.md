@@ -3,14 +3,14 @@ title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words för .NET
-description: FieldAddressBlock GetFieldNames metod. Returnerar en samling av kopplingsfältnamn som används av fältet i C#.
+description: Upptäck GetFieldNames-metoden i FieldAddressBlock. Hämta enkelt fältnamn för kopplingar för att förbättra din dokumentautomatiseringsprocess.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
 ## FieldAddressBlock.GetFieldNames method
 
-Returnerar en samling av kopplingsfältnamn som används av fältet.
+Returnerar en samling namn på fält för kopplingsmeddelanden som används av fältet.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## Exempel
 
-Visar hur man får kopplingsfältnamn som används av ett fält.
+Visar hur man hämtar fältnamn för dokumentkoppling som används av ett fält.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

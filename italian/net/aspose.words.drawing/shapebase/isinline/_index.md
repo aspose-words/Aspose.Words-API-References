@@ -3,9 +3,9 @@ title: ShapeBase.IsInline
 linktitle: IsInline
 articleTitle: IsInline
 second_title: Aspose.Words per .NET
-description: ShapeBase IsInline proprietà. Un modo rapido per determinare se questa forma è posizionata in linea con il testo in C#.
+description: Scopri la proprietà IsInline di ShapeBase per verificare facilmente se la tua forma è allineata con il testo, migliorando il tuo design e l'efficienza del layout.
 type: docs
-weight: 290
+weight: 310
 url: /it/net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property
@@ -18,7 +18,7 @@ public bool IsInline { get; }
 
 ## Osservazioni
 
-Ha effetto solo per le forme di livello superiore.
+Ha effetto solo sulle forme di livello superiore.
 
 ## Esempi
 
@@ -35,23 +35,23 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 100);
 shape.FillColor = Color.LightBlue;
 builder.Write(" Hello again.");
 
-// Una forma in linea si trova all'interno di un paragrafo tra gli altri elementi del paragrafo, come le sequenze di testo.
+// Una forma in linea si trova all'interno di un paragrafo, tra altri elementi del paragrafo, come ad esempio sequenze di testo.
 // In Microsoft Word, possiamo fare clic e trascinare la forma su qualsiasi paragrafo come se fosse un carattere.
-// Se la forma è grande, influenzerà la spaziatura verticale del paragrafo.
-// Non possiamo spostare questa forma in un posto senza paragrafo.
+// Se la forma è grande, influirà sulla spaziatura verticale dei paragrafi.
+// Non possiamo spostare questa forma in una posizione senza paragrafo.
 Assert.AreEqual(WrapType.Inline, shape.WrapType);
 Assert.True(shape.IsInline);
 
 // 2 - Galleggiante:
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin ,200, 
-    RelativeVerticalPosition.TopMargin ,200, 100, 100, WrapType.None);
+shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 200,
+    RelativeVerticalPosition.TopMargin, 200, 100, 100, WrapType.None);
 shape.FillColor = Color.Orange;
 
 // Una forma fluttuante appartiene al paragrafo in cui la inseriamo,
-// che possiamo determinare da un simbolo di ancoraggio che appare quando facciamo clic sulla forma.
+// che possiamo determinare tramite un simbolo di ancoraggio che appare quando clicchiamo sulla forma.
 // Se la forma non ha un simbolo di ancoraggio visibile alla sua sinistra,
-// dovremo abilitare gli ancoraggi visibili tramite "Opzioni" -> "Visualizza" -> "Ancore di oggetti".
-// In Microsoft Word, possiamo fare clic con il tasto sinistro e trascinare questa forma liberamente in qualsiasi posizione.
+// dovremo abilitare le ancore visibili tramite "Opzioni" -> "Visualizzazione" -> "Ancore oggetto".
+// In Microsoft Word, possiamo cliccare con il tasto sinistro del mouse e trascinare liberamente questa forma in qualsiasi posizione.
 Assert.AreEqual(WrapType.None, shape.WrapType);
 Assert.False(shape.IsInline);
 

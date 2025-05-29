@@ -3,9 +3,9 @@ title: ChartAxisTitle.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words per .NET
-description: ChartAxisTitle Overlay proprietà. Determina se altri elementi del grafico possono sovrapporsi al titolo. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà ChartAxisTitle Overlay, controlla la sovrapposizione degli elementi del grafico per una visualizzazione più chiara. Migliora la presentazione dei tuoi dati senza sforzo!
 type: docs
-weight: 10
+weight: 30
 url: /it/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -28,17 +28,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Elimina le serie generate predefinite.
+// Elimina la serie generata di default.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Imposta il titolo dell'asse.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

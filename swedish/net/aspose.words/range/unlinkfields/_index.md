@@ -3,14 +3,14 @@ title: Range.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words för .NET
-description: Range UnlinkFields metod. Tar bort länkar till fält i det här intervallet i C#.
+description: Upptäck metoden Range UnlinkFields för att enkelt koppla bort länkar från fält i ditt dokumentintervall, vilket förbättrar ditt arbetsflöde och din dokumenthantering.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
 
-Tar bort länkar till fält i det här intervallet.
+Avlänkar fält i detta intervall.
 
 ```csharp
 public void UnlinkFields()
@@ -18,13 +18,13 @@ public void UnlinkFields()
 
 ## Anmärkningar
 
-Ersätter alla fält i det här intervallet med deras senaste resultat.
+Ersätter alla fält i detta intervall med deras senaste resultat.
 
-För att ta bort länkar till fält i hela dokumentet använd`UnlinkFields`.
+För att koppla bort länkar från fält i hela dokumentet, använd`UnlinkFields`.
 
 ## Exempel
 
-Visar hur man tar bort länken till alla fält i ett intervall.
+Visar hur man tar bort länkar från alla fält i ett område.
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

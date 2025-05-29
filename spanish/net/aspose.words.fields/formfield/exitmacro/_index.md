@@ -3,14 +3,14 @@ title: FormField.ExitMacro
 linktitle: ExitMacro
 articleTitle: ExitMacro
 second_title: Aspose.Words para .NET
-description: FormField ExitMacro propiedad. Devuelve o establece un nombre de macro de salida para el campo del formulario en C#.
+description: Descubra la propiedad FormField ExitMacro para gestionar fácilmente las macros de salida de sus formularios. ¡Mejore la experiencia del usuario y agilice la entrada de datos hoy mismo!
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/formfield/exitmacro/
 ---
 ## FormField.ExitMacro property
 
-Devuelve o establece un nombre de macro de salida para el campo del formulario.
+Devuelve o establece un nombre de macro de salida para el campo de formulario.
 
 ```csharp
 public string ExitMacro { get; set; }
@@ -18,13 +18,13 @@ public string ExitMacro { get; set; }
 
 ## Observaciones
 
-La macro de salida se ejecuta cuando el campo del formulario pierde el foco en Microsoft Word.
+La macro de salida se ejecuta cuando el campo de formulario pierde el foco en Microsoft Word.
 
 Microsoft Word permite cadenas con un máximo de 32 caracteres.
 
 ## Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
+Muestra cómo insertar distintos tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -67,19 +67,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Esta colección contiene todos nuestros campos de formulario.
+    //Esta colección contiene todos nuestros campos de formulario.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
-    // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
+    // Campos muestra los campos de nuestro formulario. Podemos ver sus códigos de campo abriendo este documento.
+    // en Microsoft y presionando Alt + F9. Estos campos no tienen modificadores.
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo del formulario acepte un visitante del documento.
+    // Permitir que cada campo de formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
+ /// Implementación de visitante que imprime detalles de los campos de formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -129,12 +129,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Permitir que el visitante continúe visitando otros nodos.
+        //Deja que el visitante continúe visitando otros nodos.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Agrega texto terminado en caracteres de nueva línea a la salida actual.
+    /// Agrega texto terminado en carácter de nueva línea a la salida actual.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

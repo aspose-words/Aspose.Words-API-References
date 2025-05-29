@@ -3,14 +3,14 @@ title: FindReplaceOptions.Direction
 linktitle: Direction
 articleTitle: Direction
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions Direction ملكية. تحديد اتجاه الاستبدال. القيمة الافتراضية هيForward  في C#.
+description: اكتشف خاصية اتجاه FindReplaceOptions لتخصيص وظيفة الاستبدال. اختر بين الأمام والخلف للحصول على أفضل النتائج.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-تحديد اتجاه الاستبدال. القيمة الافتراضية هيForward .
+يحدد اتجاه الاستبدال. القيمة الافتراضية هيForward .
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -18,7 +18,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد الاتجاه الذي تعبر فيه عملية البحث والاستبدال المستند.
+يوضح كيفية تحديد الاتجاه الذي تتحرك فيه عملية البحث والاستبدال في المستند.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -26,24 +26,24 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل ثلاثة مسارات يمكننا البحث عنها باستخدام نمط التعبير العادي.
-    // ضع أحد هذه العمليات داخل مربع نص.
+    // أدخل ثلاث عمليات تشغيل يمكننا البحث عنها باستخدام نمط التعبيرات العادية.
+    // ضع أحد هذه العمليات داخل مربع النص.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
     builder.Writeln("Match 4.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين رد اتصال مخصص للخاصية "ReplacingCallback".
+    // تعيين استدعاء مخصص لخاصية "ReplacingCallback".
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // قم بتعيين خاصية "الاتجاه" على "FindReplaceDirection.Backward" للحصول على ميزة البحث والاستبدال
-    // تبدأ العملية من نهاية النطاق وتعود إلى البداية.
-    // قم بتعيين خاصية "الاتجاه" على "FindReplaceDirection.Backward" للحصول على ميزة البحث والاستبدال
-    // تبدأ العملية من بداية النطاق وتجتازه حتى النهاية.
+    // اضبط خاصية "الاتجاه" على "FindReplaceDirection.Backward" للحصول على خاصية البحث والاستبدال
+    // عملية البدء من نهاية النطاق، والعودة إلى البداية.
+    // اضبط خاصية "الاتجاه" على "FindReplaceDirection.Forward" للحصول على خاصية البحث والاستبدال
+    // عملية البدء من بداية النطاق والانتقال إلى النهاية.
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
@@ -65,7 +65,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// يسجل جميع التطابقات التي تحدث أثناء عملية البحث والاستبدال بالترتيب الذي تحدث به.
+/// يسجل جميع المطابقات التي تحدث أثناء عملية البحث والاستبدال بالترتيب الذي تحدث به.
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

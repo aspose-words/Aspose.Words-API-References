@@ -3,14 +3,14 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: NodeCollection Count ملكية. الحصول على عدد العقد في المجموعة في C#.
+description: اكتشف خاصية NodeCollection Count للوصول بسهولة إلى العدد الإجمالي للعقد في مجموعتك، مما يعزز إدارة البيانات وكفاءتها.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodecollection/count/
 ---
 ## NodeCollection.Count property
 
-الحصول على عدد العقد في المجموعة.
+يحصل على عدد العقد في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -18,27 +18,27 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
+يوضح كيفية التنقل عبر مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
+// أضف تشغيلتين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
+// لاحظ أن 'CustomNodeId' لا يتم حفظه في ملف إخراج ولا يوجد إلا أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
-// وطباعة أي مسارات أو أشكال نجدها داخلها.
+// قم بالتكرار خلال مجموعة الأطفال المباشرين للفقرة،
+// وطباعة أي مسارات أو أشكال نجدها بالداخل.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -69,11 +69,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كأطفال.
+        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كخلايا فرعية.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فما هو العمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,10 +85,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
+/// يحسب مستوى الجدول المتداخل داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
-/// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
+/// عدد صحيح يشير إلى عمق التعشيش للجدول (عدد عقد الجدول الرئيسي).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
-/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
+/// يحدد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالمرور بشكل متكرر عبر هذه الجداول للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
-/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يعود صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يتم إرجاع القيمة false إذا لم تحتوي أي خلايا في الجدول على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

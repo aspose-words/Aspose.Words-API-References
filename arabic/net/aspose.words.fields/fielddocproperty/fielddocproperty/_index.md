@@ -3,7 +3,7 @@ title: FieldDocProperty
 linktitle: FieldDocProperty
 articleTitle: FieldDocProperty
 second_title: Aspose.Words لـ .NET
-description: FieldDocProperty البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldDocProperty، مفتاحك للتكامل السلس وإدارة البيانات بكفاءة في تطبيقاتك. تمتع بميزاته الافتراضية اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddocproperty/fielddocproperty/

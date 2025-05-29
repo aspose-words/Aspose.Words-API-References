@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 linktitle: HtmlLoadOptions
 articleTitle: HtmlLoadOptions
 second_title: Aspose.Words para .NET
-description: HtmlLoadOptions constructor. Inicializa una nueva instancia de esta clase con valores predeterminados en C#.
+description: Descubra el constructor HtmlLoadOptions, diseñado para inicializar sin esfuerzo instancias con configuraciones predeterminadas para un desarrollo web perfecto.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -26,10 +26,10 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 // Si el valor es verdadero, tomamos en cuenta el código VML al analizar el documento cargado.
 loadOptions.SupportVml = supportVml;
 
-// Este documento contiene una imagen JPEG dentro de "<!--[if gte vml 1]>" etiquetas,
-// y una imagen PNG diferente dentro de "<![if !vml]>" etiquetas.
-// Si configuramos el indicador "SupportVml" en "true", Aspose.Words cargará el JPEG.
-// Si configuramos este indicador en "falso", entonces Aspose.Words solo cargará el PNG.
+// Este documento contiene una imagen JPEG dentro de las etiquetas "<!--[if gte vml 1]>",
+// y una imagen PNG diferente dentro de las etiquetas "<![if !vml]>".
+// Si establecemos el indicador "SupportVml" en "verdadero", entonces Aspose.Words cargará el JPEG.
+// Si establecemos esta bandera como "falso", entonces Aspose.Words solo cargará el PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)
@@ -63,7 +63,7 @@ public HtmlLoadOptions(string password)
 Muestra cómo cifrar un documento HTML y luego abrirlo usando una contraseña.
 
 ```csharp
-// Crea y firma un documento HTML cifrado a partir de un .docx cifrado.
+// Cree y firme un documento HTML cifrado a partir de un .docx cifrado.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 SignOptions signOptions = new SignOptions
@@ -78,7 +78,7 @@ string outputFileName = ArtifactsDir + "HtmlLoadOptions.EncryptedHtml.html";
 DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
 // Para cargar y leer este documento, necesitaremos pasar su descifrado
-// contraseña usando un objeto HtmlLoadOptions.
+// contraseña utilizando un objeto HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
 
 Assert.AreEqual(signOptions.DecryptionPassword, loadOptions.Password);
@@ -108,27 +108,27 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | --- | --- | --- |
 | loadFormat | LoadFormat | El formato del documento que se va a cargar. |
 | password | String | La contraseña para abrir un documento cifrado. Puede ser`nulo` o cadena vacía. |
-| baseUri | String | La cadena que se utilizará para resolver los URI relativos a absolutos. Puede ser`nulo` o cadena vacía. |
+| baseUri | String | La cadena que se usará para convertir las URI relativas en absolutas. Puede ser`nulo` o cadena vacía. |
 
 ## Ejemplos
 
-Muestra cómo especificar un URI base al abrir un documento html.
+Muestra cómo especificar una URI base al abrir un documento html.
 
 ```csharp
-// Supongamos que queremos cargar un documento .html que contiene una imagen vinculada por un URI relativo
-// mientras la imagen está en una ubicación diferente. En ese caso, necesitaremos resolver el URI relativo en uno absoluto.
- // Podemos proporcionar un URI base usando un objeto HtmlLoadOptions.
+// Supongamos que queremos cargar un documento .html que contiene una imagen vinculada por una URI relativa
+// mientras la imagen esté en una ubicación diferente. En ese caso, necesitaremos convertir la URI relativa en una absoluta.
+ // Podemos proporcionar una URI base utilizando un objeto HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Si bien la imagen estaba rota en el .html de entrada, nuestro URI base personalizado nos ayudó a reparar el enlace.
+// Aunque la imagen estaba rota en el .html de entrada, nuestra URI base personalizada nos ayudó a reparar el enlace.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Este documento de salida mostrará la imagen que faltaba.
+//Este documento de salida mostrará la imagen que faltaba.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

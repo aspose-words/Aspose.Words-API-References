@@ -3,7 +3,7 @@ title: Cluster.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
 second_title: Aspose.Words för .NET
-description: Cluster GetWidth metod. Returnerar klustrets bredd i C#.
+description: Upptäck Cluster GetWidth-metoden för att enkelt hämta klustrets bredd, vilket förbättrar dina dataanalys- och visualiseringsmöjligheter.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.shaping/cluster/getwidth/

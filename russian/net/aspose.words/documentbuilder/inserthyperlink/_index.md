@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertHyperlink метод. Вставляет гиперссылку в документ на С#.
+description: Улучшайте свои документы с помощью метода InsertHyperlink в DocumentBuilder, легко добавляя кликабельные ссылки для улучшения навигации и взаимодействия с пользователем.
 type: docs
-weight: 360
+weight: 390
 url: /ru/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -18,9 +18,9 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| displayText | String | Текст ссылки, которая будет отображаться в документе. |
+| displayText | String | Текст ссылки, который будет отображаться в документе. |
 | urlOrBookmark | String | Назначение ссылки. Может быть URL-адресом или именем закладки внутри документа. Этот метод всегда добавляет апострофы в начале и конце URL-адреса. |
-| isBookmark | Boolean | `истинный` если предыдущий параметр — это имя закладки внутри документа; `ЛОЖЬ` предыдущий параметр является URL-адресом. |
+| isBookmark | Boolean | `истинный` если предыдущий параметр — имя закладки внутри документа; `ЛОЖЬ` предыдущий параметр — это URL. |
 
 ### Возвращаемое значение
 
@@ -28,13 +28,33 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 ## Примечания
 
-Обратите внимание, что вам необходимо указать форматирование шрифта для отображаемого текста гиперссылки явно с помощью[`Font`](../font/) свойство.
+Обратите внимание, что вам необходимо указать форматирование шрифта для отображаемого текста гиперссылки explicitly с помощью[`Font`](../font/) свойство.
 
-Этот метод внутренне вызывает[`InsertField`](../insertfield/) чтобы вставить поле MS Word HYPERLINK field в документ.
+Этот метод внутренне вызывает[`InsertField`](../insertfield/)для вставки ГИПЕРССЫЛКИ MS Word field в документ.
 
 ## Примеры
 
-Показывает, как вставить гиперссылку, которая ссылается на локальную закладку.
+Показывает, как вставить поле гиперссылки.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("For more information, please visit the ");
+
+// Вставьте гиперссылку и выделите ее с помощью пользовательского форматирования.
+// Гиперссылка будет представлять собой фрагмент текста, нажав на который, мы перейдем в место, указанное в URL.
+builder.Font.Color = Color.Blue;
+builder.Font.Underline = Underline.Single;
+builder.InsertHyperlink("Google website", "https://www.google.com", ложь);
+builder.Font.ClearFormatting();
+builder.Writeln(".");
+
+// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word перенаправит нас на URL-адрес через новое окно веб-браузера.
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
+```
+
+Показывает, как вставить гиперссылку, ссылающуюся на локальную закладку.
 
 ```csharp
 Document doc = new Document();
@@ -45,42 +65,23 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Вставляем поле ГИПЕРССЫЛКИ, которое ссылается на закладку. Мы можем передать переключатели полей
-// методу "InsertHyperlink" как часть аргумента, содержащего имя указанной закладки.
+// Вставьте поле HYPERLINK, которое ссылается на закладку. Мы можем передавать переключатели полей
+// в метод "InsertHyperlink" как часть аргумента, содержащего имя указанной закладки.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
-Показывает, как вставить поле гиперссылки.
+Показывает, как использовать стек форматирования конструктора документов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.Write("For more information, please visit the ");
-
-// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
-// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
-builder.Font.Color = Color.Blue;
-builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
-builder.Font.ClearFormatting();
-builder.Writeln(".");
-
-// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word приведет нас к URL-адресу через новое окно веб-браузера.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
-```
-
-Показывает, как использовать стек форматирования построителя документов.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Настройте форматирование шрифта, затем напишите текст перед гиперссылкой.
+// Настройте форматирование шрифта, затем напишите текст, который будет перед гиперссылкой.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
@@ -88,9 +89,9 @@ builder.Write("To visit Google, hold Ctrl and click ");
 // Сохраняем текущую конфигурацию форматирования в стеке.
 builder.PushFont();
 
-// Измените текущее форматирование компоновщика, применив новый стиль.
+// Измените текущее форматирование конструктора, применив новый стиль.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", false);
+builder.InsertHyperlink("here", "http://www.google.com", ложь);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);

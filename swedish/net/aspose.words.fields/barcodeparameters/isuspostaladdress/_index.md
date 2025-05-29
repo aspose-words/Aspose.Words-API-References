@@ -3,14 +3,14 @@ title: BarcodeParameters.IsUSPostalAddress
 linktitle: IsUSPostalAddress
 articleTitle: IsUSPostalAddress
 second_title: Aspose.Words för .NET
-description: BarcodeParameters IsUSPostalAddress fast egendom. OmPostalAddress är en amerikansk postadress i C#.
+description: Upptäck BarcodeParameters funktion IsUSPostalAddress för att enkelt verifiera om en adress är en giltig amerikansk postadress. Förbättra din datanoggrannhet idag!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
 ---
 ## BarcodeParameters.IsUSPostalAddress property
 
-Om[`PostalAddress`](../postaladdress/) är en amerikansk postadress.
+Huruvida[`PostalAddress`](../postaladdress/) är en amerikansk postadress.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -24,10 +24,10 @@ Visar hur man använder en streckkodsgenerator.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
-// och infoga dem sedan i dokumentet som bilder.
+// och sedan infoga dem i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Nedan finns fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
+// Nedan följer fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
 // För varje streckkod anger vi en ny uppsättning streckkodsparametrar och genererar sedan bilden.
 // Efteråt kan vi infoga bilden i dokumentet, eller spara den i det lokala filsystemet.
 // 1 - QR-kod:
@@ -44,11 +44,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - EAN13 streckkod:
+// 2 - EAN13-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 streckkod:
@@ -71,10 +84,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - ITF14 streckkod:
+// 4 - ITF14-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

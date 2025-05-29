@@ -3,14 +3,14 @@ title: SystemFontSource
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
 second_title: Aspose.Words para .NET
-description: SystemFontSource constructor. Director en C#.
+description: Descubra el constructor SystemFontSource para una gestión eficiente de fuentes. ¡Mejore su diseño web con soluciones tipográficas optimizadas hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-Director.
+Ctor.
 
 ```csharp
 public SystemFontSource()
@@ -18,13 +18,13 @@ public SystemFontSource()
 
 ## Ejemplos
 
-Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
+Muestra cómo acceder a la fuente de fuente del sistema de un documento y establecer sustitutos de fuentes.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// De forma predeterminada, un documento en blanco siempre contiene una fuente de fuente del sistema.
+//De forma predeterminada, un documento en blanco siempre contiene una fuente del sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Establece una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
+// Establezca una fuente que exista en el directorio de fuentes de Windows como sustituto de una que no exista.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -55,18 +55,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativamente, podríamos agregar una carpeta de fuente de fuente en la que la carpeta correspondiente contenga la fuente.
+// Alternativamente, podríamos agregar una carpeta de origen de fuente en la que la carpeta correspondiente contenga la fuente.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Restablecer las fuentes de fuentes aún nos deja con la fuente de fuentes del sistema, así como con nuestros sustitutos.
+// Al restablecer las fuentes de fuentes aún nos queda la fuente de fuente del sistema y nuestros sustitutos.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Ver también
@@ -79,7 +80,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(*int*) {#constructor_1}
 
-Director.
+Ctor.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -87,17 +88,17 @@ public SystemFontSource(int priority)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
+| priority | Int32 | Prioridad de la fuente. Ver la[`Priority`](../../fontsourcebase/priority/) Descripción de la propiedad para más información. |
 
 ## Ejemplos
 
-Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
+Muestra cómo acceder a la fuente de fuente del sistema de un documento y establecer sustitutos de fuentes.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// De forma predeterminada, un documento en blanco siempre contiene una fuente de fuente del sistema.
+//De forma predeterminada, un documento en blanco siempre contiene una fuente del sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -119,7 +120,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Establece una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
+// Establezca una fuente que exista en el directorio de fuentes de Windows como sustituto de una que no exista.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -128,18 +129,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativamente, podríamos agregar una carpeta de fuente de fuente en la que la carpeta correspondiente contenga la fuente.
+// Alternativamente, podríamos agregar una carpeta de origen de fuente en la que la carpeta correspondiente contenga la fuente.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Restablecer las fuentes de fuentes aún nos deja con la fuente de fuentes del sistema, así como con nuestros sustitutos.
+// Al restablecer las fuentes de fuentes aún nos queda la fuente de fuente del sistema y nuestros sustitutos.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Ver también

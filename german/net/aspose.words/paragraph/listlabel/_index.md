@@ -3,14 +3,14 @@ title: Paragraph.ListLabel
 linktitle: ListLabel
 articleTitle: ListLabel
 second_title: Aspose.Words für .NET
-description: Paragraph ListLabel eigendom. Ruft a abListLabelObjekt das Zugriff auf den Listennummerierungswert und die Formatierung für diesen Absatz bietet in C#.
+description: Greifen Sie auf die Listennummerierung zu und formatieren Sie sie mit der Eigenschaft „Paragraph ListLabel“. Verbessern Sie mühelos die Organisation und Übersichtlichkeit Ihres Dokuments!
 type: docs
 weight: 160
 url: /de/net/aspose.words/paragraph/listlabel/
 ---
 ## Paragraph.ListLabel property
 
-Ruft a ab`ListLabel`Objekt, das Zugriff auf den Listennummerierungswert und die Formatierung für diesen Absatz bietet.
+Erhält eine`ListLabel`Objekt, das Zugriff auf den Listennummerierungswert und die Formatierung für diesen Absatz bietet.
 
 ```csharp
 public ListLabel ListLabel { get; }
@@ -26,24 +26,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Finden Sie heraus, ob wir die Absatzliste haben. In unserem Dokument verwendet unsere Liste einfache arabische Zahlen,
+// Prüfen, ob die Absatzliste vorliegt. In unserem Dokument werden einfache arabische Zahlen verwendet.
 // die um drei beginnen und um sechs enden.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Dies ist der Text, den wir erhalten, wenn wir diesen Knoten im Textformat ausgeben.
-     // Bei dieser Textausgabe werden Listenbeschriftungen weggelassen. Schneiden Sie alle Absatzformatierungszeichen ab.
+        // In dieser Textausgabe werden Listenbeschriftungen weggelassen. Entfernen Sie alle Absatzformatierungszeichen.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Dadurch wird die Position des Absatzes in der aktuellen Ebene der Liste ermittelt. Wenn wir eine Liste mit mehreren Ebenen haben,
-    // das wird uns sagen, welche Position es auf dieser Ebene hat.
+    // Hiermit wird die Position des Absatzes in der aktuellen Ebene der Liste ermittelt. Bei einer Liste mit mehreren Ebenen:
+    // Dadurch erfahren wir, welche Position es auf dieser Ebene hat.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Kombinieren Sie sie, um die Listenbeschriftung mit dem Text in die Ausgabe einzuschließen.
+    // Kombinieren Sie sie, um die Listenbezeichnung mit dem Text in die Ausgabe einzuschließen.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

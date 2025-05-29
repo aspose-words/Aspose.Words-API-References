@@ -3,14 +3,14 @@ title: PageSetup.OddAndEvenPagesHeaderFooter
 linktitle: OddAndEvenPagesHeaderFooter
 articleTitle: OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words per .NET
-description: PageSetup OddAndEvenPagesHeaderFooter proprietà. Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari in C#.
+description: Scopri la proprietà PageSetup OddAndEvenPagesHeaderFooter per intestazioni e piè di pagina univoci sulle pagine pari e dispari, migliorando la presentazione del tuo documento.
 type: docs
 weight: 280
 url: /it/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari.
+Vero se il documento ha intestazioni e piè di pagina diversi per le pagine dispari e pari.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -28,7 +28,7 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
+// Specificare che si vogliono intestazioni e piè di pagina diversi per la prima pagina, le pagine pari e quelle dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -50,15 +50,15 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Mostra come abilitare o disabilitare anche le intestazioni/piè di pagina.
+Mostra come abilitare o disabilitare anche le intestazioni e i piè di pagina delle pagine.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati due tipi di intestazione/piè di pagina.
-// 1 - L'intestazione/piè di pagina "Principale", che appare su ogni pagina della sezione.
- // Possiamo sovrascrivere l'intestazione/piè di pagina principale con un'intestazione/piè di pagina pari e la prima.
+// 1 - Intestazione/piè di pagina "Principale", che appare in ogni pagina della sezione.
+// Possiamo sostituire l'intestazione/piè di pagina principale con un'intestazione/piè di pagina iniziale e una di pagina pari.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -82,7 +82,7 @@ builder.Writeln("Page 3.");
 // Ogni sezione ha un oggetto "PageSetup" che specifica le proprietà relative all'aspetto della pagina
 // come orientamento, dimensione e bordi.
 // Imposta la proprietà "OddAndEvenPagesHeaderFooter" su "true"
-// per visualizzare l'intestazione/piè di pagina pari sulle pagine pari.
+// per visualizzare l'intestazione/piè di pagina delle pagine pari.
 // Imposta la proprietà "OddAndEvenPagesHeaderFooter" su "false"
 // per visualizzare l'intestazione/piè di pagina principale sulle pagine pari.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;

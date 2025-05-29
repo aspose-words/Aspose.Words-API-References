@@ -2,10 +2,10 @@
 title: FieldLink Class
 linktitle: FieldLink
 articleTitle: FieldLink
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldLink 班级. 实现 LINK 字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldLink 类，实现无缝 LINK 字段。立即使用强大的功能增强您的文档处理能力！
 type: docs
-weight: 2110
+weight: 2520
 url: /zh/net/aspose.words.fields/fieldlink/
 ---
 ## FieldLink class
@@ -28,24 +28,24 @@ public class FieldLink : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | 获取或设置是否自动更新该字段。 |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | 获取或设置是否自动更新此字段。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段结束的节点。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式进行类型化访问的对象。 |
 | [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype/) { get; set; } | 获取或设置链接对象更新其格式的方式。 |
 | [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap/) { get; set; } | 获取或设置是否将链接对象作为位图插入。 |
-| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | 获取或设置是否以 HTML 格式文本插入链接对象。 |
+| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | 获取或设置是否将链接对象插入为 HTML 格式的文本。 |
 | [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture/) { get; set; } | 获取或设置是否将链接对象作为图片插入。 |
 | [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf/) { get; set; } | 获取或设置是否以富文本格式 (RTF) 插入链接对象。 |
 | [InsertAsText](../../aspose.words.fields/fieldlink/insertastext/) { get; set; } | 获取或设置是否以纯文本格式插入链接对象。 |
-| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | 获取或设置是否将链接对象作为 Unicode 文本插入。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确（陈旧）。 |
-| [IsLinked](../../aspose.words.fields/fieldlink/islinked/) { get; set; } | 获取或设置是否通过不随文档存储图形数据来减小文件大小。 |
+| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | 获取或设置是否将链接对象插入为 Unicode 文本。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（陈旧）。 |
+| [IsLinked](../../aspose.words.fields/fieldlink/islinked/) { get; set; } | 获取或设置是否通过不将图形数据与文档一起存储来减小文件大小。 |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的 LCID。 |
 | [ProgId](../../aspose.words.fields/fieldlink/progid/) { get; set; } | 获取或设置链接信息的应用类型。 |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以是`无效的`. |
 | [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname/) { get; set; } | 获取或设置源文件的名称和位置。 |
 | [SourceItem](../../aspose.words.fields/fieldlink/sourceitem/) { get; set; } | 获取或设置正在链接的源文件部分。 |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
@@ -57,18 +57,18 @@ public class FieldLink : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中移除该字段。返回紧接该字段之后的节点。如果该字段的末尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被移除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果字段已在更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果字段已在更新，则抛出异常。 |
 
 ## 评论
 
-对于从另一个应用程序复制的信息，此字段将该信息链接到其原始 源文件。
+对于从其他应用程序复制的信息，此字段将该信息链接到其原始 源文件。
 
 ## 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -76,8 +76,8 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是三种类型的字段，我们可以使用它们以文本形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 以下是我们可以用来以文本形式显示链接文档内容的三种类型的字段。
+    // 1 - LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -100,8 +100,8 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是三种类型的字段，我们可以使用它们以图像的形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 以下是我们可以用来以图像形式显示链接文档内容的三种类型的字段。
+    // 1 - LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -159,7 +159,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// 使用文档构建器插入DDE字段，并根据参数设置其属性。
+/// 使用文档生成器插入 DDE 字段，并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)

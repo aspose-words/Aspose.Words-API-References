@@ -3,7 +3,7 @@ title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
 second_title: Aspose.Words لـ .NET
-description: TextBox TextBoxWrapMode ملكية. يحدد كيفية التفاف النص داخل الشكل في C#.
+description: اكتشف خاصية TextBox WrapMode لتحسين التفاف النص داخل الأشكال، مما يؤدي إلى تحسين وضوح تصميمك وجاذبيته البصرية.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// قم بتعيين خاصية "TextBoxWrapMode" على "TextBoxWrapMode.None" لزيادة عرض مربع النص
+// اضبط خاصية "TextBoxWrapMode" على "TextBoxWrapMode.None" لزيادة عرض مربع النص
 // لاستيعاب النص، إذا كان كبيرًا بدرجة كافية.
-// قم بتعيين خاصية "TextBoxWrapMode" على "TextBoxWrapMode.Square" إلى
-// لف النص بالكامل داخل مربع النص، مع الحفاظ على أبعاده.
+// اضبط خاصية "TextBoxWrapMode" إلى "TextBoxWrapMode.Square"
+// لف كل النص داخل مربع النص، مع الحفاظ على أبعاده.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

@@ -3,14 +3,14 @@ title: FieldInclude.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words لـ .NET
-description: FieldInclude TextConverter ملكية. الحصول على أو تعيين اسم محول النص لتنسيق الملف المضمن في C#.
+description: اكتشف خاصية FieldInclude TextConverter—يمكنك بسهولة إدارة تحويلات تنسيقات الملفات باستخدام أسماء محولات النصوص القابلة للتخصيص لتحسين كفاءة سير العمل.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldinclude/textconverter/
 ---
 ## FieldInclude.TextConverter property
 
-الحصول على أو تعيين اسم محول النص لتنسيق الملف المضمن.
+يحصل على اسم محول النص لتنسيق الملف المضمن أو يعينه.
 
 ```csharp
 public string TextConverter { get; set; }

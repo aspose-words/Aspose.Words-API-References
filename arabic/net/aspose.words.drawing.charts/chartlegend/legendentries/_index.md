@@ -3,14 +3,14 @@ title: ChartLegend.LegendEntries
 linktitle: LegendEntries
 articleTitle: LegendEntries
 second_title: Aspose.Words لـ .NET
-description: ChartLegend LegendEntries ملكية. إرجاع مجموعة من إدخالات وسيلة الإيضاح لجميع السلاسل وخطوط الاتجاه للمخطط الأصلي في C#.
+description: استكشف خاصية LegendEntries في ChartLegend للوصول إلى مجموعة شاملة من إدخالات الأسطورة لجميع السلاسل وخطوط الاتجاه في الرسم البياني الخاص بك.
 type: docs
-weight: 10
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
 ## ChartLegend.LegendEntries property
 
-إرجاع مجموعة من إدخالات وسيلة الإيضاح لجميع السلاسل وخطوط الاتجاه للمخطط الأصلي.
+يقوم بإرجاع مجموعة من إدخالات الأسطورة لجميع السلاسل وخطوط الاتجاه للرسم البياني الرئيسي.
 
 ```csharp
 public ChartLegendEntryCollection LegendEntries { get; }
@@ -18,7 +18,7 @@ public ChartLegendEntryCollection LegendEntries { get; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
+يوضح كيفية العمل مع إدخال الأسطورة لسلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

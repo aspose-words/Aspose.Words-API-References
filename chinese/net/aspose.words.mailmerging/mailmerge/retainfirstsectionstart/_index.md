@@ -2,15 +2,15 @@
 title: MailMerge.RetainFirstSectionStart
 linktitle: RetainFirstSectionStart
 articleTitle: RetainFirstSectionStart
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge RetainFirstSectionStart 财产. 获取或设置一个值指示是否SectionStart第一个文档部分及其后续数据源行的副本 在邮件合并期间保留或根据 MS Word 行为进行更新 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 MailMerge RetainFirstSectionStart 属性如何增强您的文档自定义，确保邮件合并期间的一致部分开始。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
 ---
 ## MailMerge.RetainFirstSectionStart property
 
-获取或设置一个值，指示是否[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/)第一个文档部分及其后续数据源行的副本 在邮件合并期间保留或根据 MS Word 行为进行更新。
+获取或设置一个值，指示[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/)第一个文档部分及其后续数据源行的副本 在邮件合并期间保留或根据 MS Word 行为进行更新。
 
 ```csharp
 public bool RetainFirstSectionStart { get; set; }

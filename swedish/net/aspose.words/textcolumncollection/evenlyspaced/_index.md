@@ -3,14 +3,14 @@ title: TextColumnCollection.EvenlySpaced
 linktitle: EvenlySpaced
 articleTitle: EvenlySpaced
 second_title: Aspose.Words för .NET
-description: TextColumnCollection EvenlySpaced fast egendom. Sant om textkolumner är lika breda och jämnt fördelade i C#.
+description: Upptäck EvenlySpaced-egenskapen i TextColumnCollection, som säkerställer lika breda textkolumner för en ren och organiserad layout. Förbättra din design utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-Sant om textkolumner är lika breda och jämnt fördelade.
+Sant om textkolumner har samma bredd och är jämnt fördelade.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestäm mängden utrymme som vi har tillgängligt för att arrangera kolumner.
+// Bestäm hur mycket utrymme vi har tillgängligt för att arrangera kolumner.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Ange att den första kolumnen ska vara smal.
+// Sätt den första kolumnen till att vara smal.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Ställ in den andra kolumnen för att ta resten av det tillgängliga utrymmet inom sidans marginaler.
+// Ställ in den andra kolumnen så att den tar upp resten av det tillgängliga utrymmet inom sidans marginaler.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

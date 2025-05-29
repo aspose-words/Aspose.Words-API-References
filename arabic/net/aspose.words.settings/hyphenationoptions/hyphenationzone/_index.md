@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
 second_title: Aspose.Words لـ .NET
-description: HyphenationOptions HyphenationZone ملكية. الحصول على أو تعيين المسافة بـ 1/20 نقطة من الهامش الأيمن الذي لا تريد وصل الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 0.25 بوصة في C#.
+description: حسّن تخطيط النص باستخدام خاصية HyphenationZone. تحكّم في مسافة الواصلة من الهامش الأيمن لمستندات أكثر دقةً واحترافية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-الحصول على أو تعيين المسافة بـ 1/20 نقطة من الهامش الأيمن الذي لا تريد وصل الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة).
+يحصل على أو يضبط المسافة بمقدار 1/20 من نقطة من الهامش الأيمن الذي لا تريد أن تقوم بوضع علامة وصل بين الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة).
 
 ```csharp
 public int HyphenationZone { get; set; }
@@ -18,7 +18,7 @@ public int HyphenationZone { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

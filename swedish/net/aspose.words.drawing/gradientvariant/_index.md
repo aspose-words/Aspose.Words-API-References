@@ -3,9 +3,9 @@ title: GradientVariant Enum
 linktitle: GradientVariant
 articleTitle: GradientVariant
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.GradientVariant uppräkning. Anger varianten för en gradientfyllning i C#.
+description: Upptäck Aspose.Words.Drawing.GradientVariant-uppräkningen för anpassningsbara gradientfyllningar och förbättra dina dokumentdesigner med livfulla stilar.
 type: docs
-weight: 1010
+weight: 1340
 url: /sv/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration
@@ -28,7 +28,7 @@ public enum GradientVariant
 
 ## Anmärkningar
 
-Motsvarar de fyra varianterna på fliken Gradient i dialogrutan Fyllningseffekter i Word.
+Motsvarar de fyra varianterna på fliken Övertoning i dialogrutan Fyllningseffekter i Word.
 
 ## Exempel
 
@@ -39,7 +39,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applicera enfärgad övertoningsfyllning på formen med ForeColor av övertoningsfyllning.
+// Applicera enfärgad gradientfyllning på formen med ForeColor av gradientfyllningen.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -48,11 +48,11 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applicera tvåfärgsgradientfyllning på formen.
+// Använd tvåfärgad gradientfyllning på formen.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Ändra BackColor för gradientfyllning.
+// Ändra bakfärg för gradientfyllning.
 shape.Fill.BackColor = Color.Yellow;
-// Observera att "GradientAngle" ändras för "GradientStyle.FromCorner/GradientStyle.FromCenter"
+// Observera att ändringarna i "GradientAngle" sker mot "GradientStyle.FromCorner/GradientStyle.FromCenter"
 // gradientfyllning får ingen effekt, det fungerar bara för linjär gradient.
 shape.Fill.GradientAngle = 15;
 
@@ -61,7 +61,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Använd efterlevnadsalternativet för att definiera formen med DML om du vill få "GradientStyle",
+// Använd alternativet compliance för att definiera formen med DML om du vill få "GradientStyle",
 // Egenskaperna "GradientVariant" och "GradientAngle" efter att dokumentet har sparats.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

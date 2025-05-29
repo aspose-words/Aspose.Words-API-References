@@ -3,14 +3,14 @@ title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words per .NET
-description: Table StyleName proprietà. Ottiene o imposta il nome dello stile di tabella applicato a questa tabella in C#.
+description: Scopri la proprietà Table StyleName per personalizzare facilmente l'aspetto della tua tabella. Migliora il tuo design con opzioni di stile tabella uniche oggi stesso!
 type: docs
 weight: 290
 url: /it/net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property
 
-Ottiene o imposta il nome dello stile di tabella applicato a questa tabella.
+Ottiene o imposta il nome dello stile tabella applicato a questa tabella.
 
 ```csharp
 public string StyleName { get; set; }

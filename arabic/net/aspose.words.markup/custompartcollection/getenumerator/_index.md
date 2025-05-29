@@ -3,14 +3,14 @@ title: CustomPartCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: CustomPartCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
+description: استكشف طريقة CustomPartCollection GetEnumerator لتكرار جميع عناصر مجموعتك بسهولة. بسّط إدارة بياناتك اليوم!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -18,19 +18,19 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

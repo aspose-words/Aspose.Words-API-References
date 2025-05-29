@@ -3,14 +3,14 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words för .NET
-description: ChartLegendEntry IsHidden fast egendom. Hämtar eller ställer in ett värde som anger om denna post är dold i diagramförklaringen. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen ChartLegendEntry IsHidden och kontrollera diagramförklaringens synlighet utan ansträngning. Förbättra din datapresentation med den här enkla växlingsfunktionen!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Hämtar eller ställer in ett värde som anger om denna post är dold i diagramförklaringen. Standardvärdet är**falsk** .
+Hämtar eller ställer in ett värde som anger om den här posten är dold i diagramförklaringen. Standardvärdet är**falsk** .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -18,7 +18,7 @@ public bool IsHidden { get; set; }
 
 ## Anmärkningar
 
-När en diagramförklaringspost är dold påverkar den inte motsvarande diagramserie eller trendlinje som fortfarande visas på diagrammet.
+När en diagramförklaringspost är dold påverkar det inte motsvarande diagramserie eller trendlinje att fortfarande visas på diagrammet.
 
 ## Exempel
 
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

@@ -3,9 +3,9 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words pour .NET
-description: Document Sections propriété. Renvoie une collection qui représente toutes les sections du document en C#.
+description: Explorez la propriété Sections du document pour accéder à une collection complète de toutes les sections du document, améliorant ainsi l'organisation et la navigation de votre contenu.
 type: docs
-weight: 370
+weight: 390
 url: /fr/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -30,12 +30,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Supprime la première section du document.
+// Supprimez la première section du document.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Ajoute une copie de ce qui est maintenant la première section à la fin du document.
+// Ajoutez une copie de ce qui est maintenant la première section à la fin du document.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -64,7 +64,7 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Commence la section suivante sur une nouvelle page paire :
+// 3 - Démarre la section suivante sur une nouvelle page paire :
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 

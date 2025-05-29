@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 linktitle: ExportLanguageToSpanTag
 articleTitle: ExportLanguageToSpanTag
 second_title: Aspose.Words für .NET
-description: PdfSaveOptions ExportLanguageToSpanTag eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob ein SpanTag in der Dokumentstruktur erstellt werden soll um die Textsprache zu exportieren in C#.
+description: Entdecken Sie die ExportLanguageToSpanTag-Eigenschaft von PdfSaveOptions. Steuern Sie den Textsprachenexport mit Span-Tags für eine verbesserte Dokumentstruktur und Zugänglichkeit.
 type: docs
 weight: 150
 url: /de/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
 
-Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob ein „Span“-Tag in der Dokumentstruktur erstellt werden soll, um die Textsprache zu exportieren.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, ob zum Exportieren der Textsprache ein „Span“-Tag in der Dokumentstruktur erstellt werden soll oder nicht.
 
 ```csharp
 public bool ExportLanguageToSpanTag { get; set; }
@@ -18,9 +18,9 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert ist`FALSCH`und das Attribut „Lang“ wird an eine markierte Inhaltssequenz in einem Seiteninhaltsstrom angehängt.
+Der Standardwert ist`FALSCH`und das Attribut „Lang“ wird an eine markierte Inhaltssequenz in einem Seiteninhaltsstream angehängt.
 
-Wenn der Wert ist`WAHR` Das Tag „Span“ wird für den Text mit der nicht standardmäßigen Sprache erstellt und das Attribut „Lang“ wird an dieses Tag angehängt.
+Wenn der Wert`WAHR` Für den Text mit der nicht standardmäßigen Sprache wird das Tag „Span“ erstellt und das Attribut „Lang“ wird an dieses Tag angehängt.
 
 Dieser Wert wird ignoriert, wenn[`ExportDocumentStructure`](../exportdocumentstructure/) Ist`FALSCH` .
 
@@ -37,7 +37,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // Hinweis: Wenn „ExportDocumentStructure“ false ist, wird „ExportLanguageToSpanTag“ ignoriert.
+    // Beachten Sie: Wenn „ExportDocumentStructure“ falsch ist, wird „ExportLanguageToSpanTag“ ignoriert.
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

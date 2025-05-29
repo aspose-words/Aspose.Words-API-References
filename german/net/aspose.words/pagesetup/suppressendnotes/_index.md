@@ -3,14 +3,14 @@ title: PageSetup.SuppressEndnotes
 linktitle: SuppressEndnotes
 articleTitle: SuppressEndnotes
 second_title: Aspose.Words für .NET
-description: PageSetup SuppressEndnotes eigendom. True wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden der keine Endnoten unterdrückt. Unterdrückte Endnoten werden vor den Endnoten in diesem Abschnitt gedruckt in C#.
+description: Entdecken Sie, wie die Eigenschaft „PageSetup SuppressEndnotes“ Ihr Dokumentlayout verbessert, indem sie die Platzierung der Endnoten für klarere, organisiertere Abschnitte steuert.
 type: docs
 weight: 410
 url: /de/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-True, wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden, der keine Endnoten unterdrückt. Unterdrückte Endnoten werden vor den Endnoten in diesem Abschnitt gedruckt.
+Wahr, wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden, der Endnoten nicht unterdrückt. Unterdrückte Endnoten werden vor den Endnoten in diesem Abschnitt gedruckt.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -26,20 +26,20 @@ public void SuppressEndnotes()
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-     // Standardmäßig kompiliert ein Dokument alle Endnoten am Ende.
+        // Standardmäßig kompiliert ein Dokument alle Endnoten an seinem Ende.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // Wir verwenden die Eigenschaft „Position“ des Objekts „EndnoteOptions“ des Dokuments
-     // um stattdessen Endnoten am Ende jedes Abschnitts zu sammeln.
+    // Wir verwenden die Eigenschaft "Position" des Objekts "EndnoteOptions" des Dokuments
+        // stattdessen am Ende jedes Abschnitts Endnoten zu sammeln.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Während Abschnitte ihre jeweiligen Endnoten anzeigen, können wir das Flag „SuppressEndnotes“ setzen
-    // des „PageSetup“-Objekts eines Abschnitts auf „true“, um zum Standardverhalten zurückzukehren und seine Endnoten zu übergeben
-    // zum nächsten Abschnitt.
+    // Während wir Abschnitte dazu bringen, ihre jeweiligen Endnoten anzuzeigen, können wir das Flag "SuppressEndnotes" setzen
+    // des "PageSetup"-Objekts eines Abschnitts auf "true", um zum Standardverhalten zurückzukehren und seine Endnoten zu übergeben
+    // weiter zum nächsten Abschnitt.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -47,7 +47,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// Einen Abschnitt mit Text und einer Endnote an ein Dokument anhängen.
+/// Fügen Sie einem Dokument einen Abschnitt mit Text und einer Endnote hinzu.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

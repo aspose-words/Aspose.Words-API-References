@@ -3,14 +3,14 @@ title: SaveOptions.UpdateLastPrintedProperty
 linktitle: UpdateLastPrintedProperty
 articleTitle: UpdateLastPrintedProperty
 second_title: Aspose.Words för .NET
-description: SaveOptions UpdateLastPrintedProperty fast egendom. Hämtar eller ställer in ett värde som avgör omLastPrinted egenskapen uppdateras innan du sparar i C#.
+description: Optimera dokumenthanteringen med SaveOptions UpdateLastPrintedProperty. Kontrollera LastPrinted-uppdateringar för effektiv sparning och förbättrat arbetsflöde.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
 
-Hämtar eller ställer in ett värde som avgör om[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) egenskapen uppdateras innan du sparar.
+Hämtar eller ställer in ett värde som avgör om[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) egenskapen uppdateras innan den sparas.
 
 ```csharp
 public bool UpdateLastPrintedProperty { get; set; }
@@ -18,46 +18,31 @@ public bool UpdateLastPrintedProperty { get; set; }
 
 ## Exempel
 
-Visar hur du uppdaterar ett dokuments "CreatedTime"-egenskap när du sparar.
+Visar hur man uppdaterar egenskapen "Senast utskriven" i ett dokument när det sparas.
 
 ```csharp
 Document doc = new Document();
-doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
 
-// Denna flagga avgör om den skapade tiden, som är en inbyggd egenskap, uppdateras.
-// Om så är fallet, då datumet för dokumentets senaste lagringsåtgärd
-// med detta SaveOptions-objekt som skickas som en parameter används som skapad tid.
-DocSaveOptions saveOptions = new DocSaveOptions();
-saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
+DateTime lastPrinted = new DateTime(2019, 12, 20);
+doc.BuiltInDocumentProperties.LastPrinted = lastPrinted;
 
-doc.Save(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
-
-// Öppna det sparade dokumentet och verifiera sedan värdet på egenskapen.
-doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx");
-
-Assert.AreNotEqual(isUpdateCreatedTimeProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.CreatedTime);
-```
-
-Visar hur du uppdaterar ett dokuments "Senast utskrivna"-egenskap när du sparar.
-
-```csharp
-Document doc = new Document();
-doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
-
-// Denna flagga avgör om det senast utskrivna datumet, som är en inbyggd egenskap, uppdateras.
-// Om så är fallet, då datumet för dokumentets senaste lagringsåtgärd
-// med detta SaveOptions-objekt som skickas som en parameter används som utskriftsdatum.
+// Denna flagga avgör om det senast utskrivna datumet, vilket är en inbyggd egenskap, uppdateras.
+// Om så är fallet, då datumet för dokumentets senaste sparningsåtgärd
+// med detta SaveOptions-objekt skickat som en parameter används det som utskriftsdatum.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
 
-// I Microsoft Word 2003 kan den här egenskapen hittas via Arkiv -> Egenskaper -> Statistik -> Tryckt.
+// I Microsoft Word 2003 kan den här egenskapen hittas via Arkiv -> Egenskaper -> Statistik -> Utskrivet.
 // Det kan också visas i dokumentets brödtext genom att använda ett PRINTDATE-fält.
 doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
 
-// Öppna det sparade dokumentet och verifiera sedan värdet på egenskapen.
+// Öppna det sparade dokumentet och verifiera sedan egenskapens värde.
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
-Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.LastPrinted);
+if (isUpdateLastPrintedProperty)
+    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+else
+    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
 ```
 
 ### Se även

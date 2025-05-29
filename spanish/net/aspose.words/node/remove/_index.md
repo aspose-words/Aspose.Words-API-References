@@ -3,14 +3,14 @@ title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: Node Remove método. Se elimina del padre en C#.
+description: Descubra el método Node Remove para separar sin esfuerzo los nodos de su padre, mejorando la eficiencia y la estructura de su código.
 type: docs
 weight: 150
 url: /es/net/aspose.words/node/remove/
 ---
 ## Node.Remove method
 
-Se elimina del padre.
+Se elimina a sí mismo del padre.
 
 ```csharp
 public void Remove()
@@ -44,10 +44,10 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Guarda el siguiente nodo hermano como una variable en caso de que queramos pasar a él después de eliminar este nodo.
+    // Guarda el siguiente nodo hermano como una variable en caso de que queramos movernos a él después de eliminar este nodo.
     Node nextNode = curNode.NextSibling;
 
-    // El cuerpo de una sección puede contener nodos de párrafo y tabla.
+    //El cuerpo de una sección puede contener nodos de párrafo y tabla.
     // Si el nodo es una tabla, elimínelo del padre.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();

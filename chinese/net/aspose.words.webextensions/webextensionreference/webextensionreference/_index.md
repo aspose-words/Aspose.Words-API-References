@@ -2,8 +2,8 @@
 title: WebExtensionReference
 linktitle: WebExtensionReference
 articleTitle: WebExtensionReference
-second_title: 用于 .NET 的 Aspose.Words
-description: WebExtensionReference 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 WebExtensionReference 构造函数——轻松创建强大扩展程序的入门指南。立即解锁独特功能并增强功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/webextensionreference/webextensionreference/

@@ -3,14 +3,14 @@ title: Table.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words för .NET
-description: Table LeftIndent fast egendom. Hämtar eller ställer in värdet som representerar den vänstra indraget i tabellen i C#.
+description: Upptäck egenskapen Tabell vänsterindrag för att enkelt anpassa din tabells vänstra indrag. Förbättra din design med exakt kontroll för bättre layouter!
 type: docs
 weight: 190
 url: /sv/net/aspose.words.tables/table/leftindent/
 ---
 ## Table.LeftIndent property
 
-Hämtar eller ställer in värdet som representerar den vänstra indraget i tabellen.
+Hämtar eller anger värdet som representerar tabellens vänstra indrag.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,7 +18,7 @@ public double LeftIndent { get; set; }
 
 ## Exempel
 
-Visar hur man skapar en formaterad tabell med DocumentBuilder.
+Visar hur man skapar en formaterad tabell med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Ställ in några formateringsalternativ för text och tabellutseende.
+// Ange några formateringsalternativ för text och tabellutseende.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -38,9 +38,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Konfigurering av formateringsalternativen i en dokumentbyggare kommer att tillämpa dem
-// till den aktuella cellen/raden dess markör är i,
-// samt eventuella nya celler och rader skapade med hjälp av den byggaren.
+// Att konfigurera formateringsalternativen i en dokumentbyggare kommer att tillämpa dem
+// till den aktuella cellen/raden där markören befinner sig,
+// såväl som alla nya celler och rader som skapats med den verktygsbyggaren.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Konfigurera om byggarens formateringsobjekt för nya rader och celler som vi håller på att göra.
-// Byggaren kommer inte att tillämpa dessa på den första raden som redan skapats så att den kommer att sticka ut som en rubrikrad.
+// Konfigurera om formateringsobjekten i verktyget för nya rader och celler som vi ska skapa.
+// Skaparen kommer inte att tillämpa dessa på den första raden som redan skapats så att den kommer att synas som en rubrikrad.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

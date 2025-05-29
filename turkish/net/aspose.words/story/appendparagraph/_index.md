@@ -2,15 +2,15 @@
 title: Story.AppendParagraph
 linktitle: AppendParagraph
 articleTitle: AppendParagraph
-second_title: Aspose.Words for .NET
-description: Story AppendParagraph yöntem. Oluşturan bir kısayol yöntemiParagraph isteğe bağlı metin içeren nesneyi seçer ve onu bu nesnenin sonuna ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Story AppendParagraph yöntemini keşfedin, kusursuz belge geliştirme için özelleştirilebilir metinle bir Paragraf nesnesini zahmetsizce oluşturun ve ekleyin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Oluşturan bir kısayol yöntemi[`Paragraph`](../../paragraph/) isteğe bağlı metin içeren nesneyi seçer ve onu bu nesnenin sonuna ekler.
+Bir kısayol yöntemi oluşturan[`Paragraph`](../../paragraph/) isteğe bağlı metin içeren nesne ve bu nesnenin sonuna ekler.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -18,7 +18,7 @@ public Paragraph AppendParagraph(string text)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| text | String | Paragrafın metni. Olabilir`hükümsüz` veya boş dize. |
+| text | String | Paragraf için metin. Olabilir`hükümsüz` veya boş dize. |
 
 ### Geri dönüş değeri
 
@@ -31,8 +31,8 @@ Yeni oluşturulan ve eklenen paragraf.
 ```csharp
 Document doc = new Document();
 
-// Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
+// Bir başlık oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// bu bölümün her sayfasının en üstünde, ana gövde metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -41,8 +41,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. Bu paragraftaki metin
+// Bu bölümün her sayfasının en altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

@@ -2,15 +2,15 @@
 title: Shape.Stroked
 linktitle: Stroked
 articleTitle: Stroked
-second_title: Aspose.Words for .NET
-description: Shape Stroked mülk. Yolun vuruşlu olup olmayacağını tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızı geliştirmek için Shape Stroked özelliğini keşfedin! Çarpıcı görsel efektler için yol stilini hassasiyetle kontrol edin. Yaratıcılığınızı artırın!
 type: docs
-weight: 200
+weight: 210
 url: /tr/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Yolun vuruşlu olup olmayacağını tanımlar.
+Yolun çizilip çizilmeyeceğini tanımlar.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -18,13 +18,13 @@ public bool Stroked { get; set; }
 
 ## Notlar
 
-Bu, kısayol[`On`](../../stroke/on/) mülk.
+Bu, şuna giden bir kısayoldur:[`On`](../../stroke/on/) mülk.
 
 Varsayılan değer:`doğru`.
 
 ## Örnekler
 
-Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
+Bir belgedeki tüm şekiller üzerinde nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 public void VisitShapes()
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
+    /// Her girinti düzeyi için bir sekme karakterinin önüne eklendiği bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
+    /// StringBuilder'ın biriktirdiği tüm metni döndür.
     /// </summary>
     public string GetText()
     {
@@ -67,7 +67,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi bir Shape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir Şekil düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

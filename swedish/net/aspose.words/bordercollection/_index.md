@@ -3,9 +3,9 @@ title: BorderCollection Class
 linktitle: BorderCollection
 articleTitle: BorderCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BorderCollection klass. En samling avBorder objekt i C#.
+description: Utforska Aspose.Words.BorderCollection, din lösning för att enkelt hantera och anpassa kantobjekt för förbättrad dokumentformatering.
 type: docs
-weight: 90
+weight: 280
 url: /sv/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
@@ -22,19 +22,19 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | Får den nedre kanten. |
+| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | Hämtar den nedre kanten. |
 | [Color](../../aspose.words/bordercollection/color/) { get; set; } | Hämtar eller ställer in kantfärgen. |
 | [Count](../../aspose.words/bordercollection/count/) { get; } | Hämtar antalet ramar i samlingen. |
-| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Hämtar eller ställer in avståndet mellan gränsen från text i punkter. |
-| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Hämtar den horisontella ram som används mellan celler eller överensstämmande stycken. |
+| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Hämtar eller ställer in avståndet mellan kantlinjen och texten i punkter. |
+| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Hämtar den horisontella kantlinjen som används mellan celler eller överensstämmande stycken. |
 | [Item](../../aspose.words/bordercollection/item/) { get; } | Hämtar en[`Border`](../border/) objekt efter kanttyp. (2 indexers) |
-| [Left](../../aspose.words/bordercollection/left/) { get; } | Får den vänstra kanten. |
+| [Left](../../aspose.words/bordercollection/left/) { get; } | Hämtar den vänstra kanten. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Hämtar eller ställer in kantstilen. |
 | [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Hämtar eller ställer in kantbredden i punkter. |
-| [Right](../../aspose.words/bordercollection/right/) { get; } | Får rätt kant. |
-| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Hämtar eller ställer in ett värde som anger om gränsen har en skugga. |
-| [Top](../../aspose.words/bordercollection/top/) { get; } | Får den övre kanten. |
-| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Hämtar den vertikala gränsen som används mellan celler. |
+| [Right](../../aspose.words/bordercollection/right/) { get; } | Hämtar rätt kantlinje. |
+| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Hämtar eller anger ett värde som anger om kanten har en skugga. |
+| [Top](../../aspose.words/bordercollection/top/) { get; } | Hämtar den övre kanten. |
+| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Hämtar den vertikala kantlinjen som används mellan celler. |
 
 ## Metoder
 
@@ -42,15 +42,15 @@ public sealed class BorderCollection : IEnumerable<Border>
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Tar bort alla kanter för ett objekt. |
 | [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Jämför samlingar av ramar. |
-| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen. |
+| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla gränser i samlingen. |
 
 ## Anmärkningar
 
-Olika dokumentelement har olika ramar. Till exempel,[`ParagraphFormat`](../paragraphformat/)har[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) och[`Top`](./top/) borders. Du kan ange olika formatering för varje kant oberoende av varandra eller räkna upp genom alla kanter och tillämpa samma formatering.
+Olika dokumentelement har olika ramar. Till exempel,[`ParagraphFormat`](../paragraphformat/) har[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) och[`Top`](./top/) borders. Du kan ange olika formateringar för varje kant oberoende av varandra eller räkna upp alla kantlinjer och tillämpa samma formatering.
 
 ## Exempel
 
-Visar hur man infogar ett stycke med en övre kant.
+Visar hur man infogar ett stycke med en övre kantlinje.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Ställ in ThemeColor endast när LineWidth eller LineStyle är inställda.
+// Ställ endast in ThemeColor när LineWidth eller LineStyle är inställda.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

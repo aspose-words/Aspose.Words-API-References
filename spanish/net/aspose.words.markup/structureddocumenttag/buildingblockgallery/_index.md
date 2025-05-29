@@ -3,14 +3,14 @@ title: StructuredDocumentTag.BuildingBlockGallery
 linktitle: BuildingBlockGallery
 articleTitle: BuildingBlockGallery
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag BuildingBlockGallery propiedad. Especifica el tipo de bloque de creación para esteTED . No puede sernulo  en C#.
+description: Descubra la propiedad StructuredDocumentTag BuildingBlockGallery, que define el tipo de bloque de construcción de su SDT. ¡Asegure una personalización fluida de sus documentos!
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Especifica el tipo de bloque de creación para este**TED** . No puede ser`nulo` .
+Especifica el tipo de bloque de construcción para este**TED** . No puede ser`nulo` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockGallery { get; set; }
 
 ## Observaciones
 
-Acceder a esta propiedad sólo funcionará paraBuildingBlockGallery y DocPartObj Tipos de TDS. Es de sólo lectura para**TED** del tipo de parte del documento.
+El acceso a esta propiedad sólo funcionará paraBuildingBlockGallery y DocPartObj Tipos SDT. Es de solo lectura para**TED** del tipo de parte del documento.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
 ## Ejemplos
 
-Muestra cómo insertar una etiqueta de documento estructurado como bloque de construcción y configurar su categoría y galería.
+Muestra cómo insertar una etiqueta de documento estructurado como un bloque de construcción y establecer su categoría y galería.
 
 ```csharp
 Document doc = new Document();

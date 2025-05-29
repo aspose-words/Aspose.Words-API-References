@@ -3,9 +3,9 @@ title: Comment.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words para .NET
-description: Comment SetText método. Este es un método conveniente que permite configurar fácilmente el texto del comentario en C#.
+description: Descubra el método SetText, una herramienta fácil de usar que simplifica la adición de comentarios, mejora su flujo de trabajo y aumenta la productividad sin esfuerzo.
 type: docs
-weight: 150
+weight: 190
 url: /es/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -22,7 +22,7 @@ public void SetText(string text)
 
 ## Observaciones
 
-Este método permite configurar rápidamente el texto de un comentario a partir de una cadena. La cadena puede contener saltos de párrafo, esto creará párrafos de texto en el comentario en consecuencia. Si desea insertar elementos más complejos en el comentario, por ejemplo bookmarks o tablas o aplicar formato enriquecido, entonces necesita usar las clases de nodo apropiadas para construir el texto del comentario.
+Este método permite establecer rápidamente el texto de un comentario a partir de una cadena. La cadena puede contener saltos de párrafo, lo que creará los párrafos de texto correspondientes en el comentario. Si desea insertar elementos más complejos en el comentario, como marcadores o tablas, o aplicar formato enriquecido, debe usar las clases de nodo adecuadas para crear el texto del comentario.
 
 ## Ejemplos
 
@@ -35,21 +35,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
-// Coloca el comentario en un nodo del cuerpo del documento.
-// Este comentario aparecerá en la ubicación de su párrafo,
-// fuera del margen derecho de la página y con una línea de puntos que la conecta con su párrafo.
+// Coloque el comentario en un nodo en el cuerpo del documento.
+// Este comentario se mostrará en la ubicación de su párrafo,
+// fuera del margen derecho de la página, y con una línea punteada que lo conecta a su párrafo.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Agrega una respuesta, que aparecerá debajo del comentario principal.
+// Agregue una respuesta, que aparecerá debajo del comentario principal.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
-// Los comentarios y las respuestas son ambos nodos de comentarios.
+// Tanto los comentarios como las respuestas son nodos de comentarios.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Los comentarios que no responden a otros comentarios son de "nivel superior". No tienen comentarios de antepasados.
+Los comentarios que no responden a otros comentarios son de "nivel superior". No tienen comentarios antecesores.
 Assert.Null(comment.Ancestor);
 
-// Las respuestas tienen un comentario de nivel superior antecesor.
+// Las respuestas tienen un comentario de nivel superior anterior.
 Assert.AreEqual(comment, comment.Replies[0].Ancestor);
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");

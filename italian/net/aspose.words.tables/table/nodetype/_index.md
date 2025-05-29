@@ -3,7 +3,7 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words per .NET
-description: Table NodeType proprietà. RestituisceTable  in C#.
+description: Scopri la proprietà Table NodeType che restituisce in modo efficiente i dati della tabella, migliorando la gestione e l'organizzazione dei dati per un'integrazione perfetta.
 type: docs
 weight: 210
 url: /it/net/aspose.words.tables/table/nodetype/
@@ -25,15 +25,15 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Qualsiasi nodo che può contenere nodi secondari, come il documento stesso, è composito.
+    // Qualsiasi nodo che può contenere nodi figlio, come il documento stesso, è composito.
     Assert.True(doc.IsComposite);
 
-    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figli di un nodo composito.
+    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figlio di un nodo composito.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Attraversa ricorsivamente un albero di nodi durante la stampa del tipo di ciascun nodo
+/// Attraversa ricorsivamente un albero di nodi mentre stampa il tipo di ciascun nodo
 /// con un rientro che dipende dalla profondità e dal contenuto di tutti i nodi in linea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Ricorsione nel nodo se è un nodo composito. Altrimenti, stampa il suo contenuto se è un nodo in linea.
+        // Ricorsiva nel nodo se è un nodo composito. Altrimenti, ne stampa il contenuto se è un nodo inline.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -60,7 +60,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 }
 ```
 
-Mostra come scoprire se le tabelle sono nidificate.
+Mostra come scoprire se le tabelle sono annidate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -71,7 +71,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
+        // Scopri se ci sono celle nella tabella che hanno altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -87,7 +87,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcola a quale livello è nidificata una tabella all'interno di altre tabelle.
+/// Calcola a quale livello una tabella è annidata all'interno di altre tabelle.
 /// </summary>
 /// <returns>
 /// Un numero intero che indica la profondità di annidamento della tabella (numero di nodi della tabella padre).
@@ -108,19 +108,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
-/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
+/// Non attraversare ricorsivamente queste tabelle per controllare altre tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce vero se almeno una cella figlia contiene una tabella.
+/// Restituisce true se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

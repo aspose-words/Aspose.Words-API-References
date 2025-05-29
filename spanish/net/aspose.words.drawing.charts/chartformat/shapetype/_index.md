@@ -3,9 +3,9 @@ title: ChartFormat.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words para .NET
-description: ChartFormat ShapeType propiedad. Obtiene o establece el tipo de forma del elemento del gráfico principal en C#.
+description: Descubra cómo usar la propiedad ShapeType de ChartFormat para personalizar eficazmente los elementos de su gráfico. ¡Mejore su visualización de datos hoy mismo!
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -18,11 +18,11 @@ public ChartShapeType ShapeType { get; set; }
 
 ## Observaciones
 
-Actualmente, la propiedad solo se puede utilizar para etiquetas de datos.
+Actualmente, la propiedad sólo se puede utilizar para etiquetas de datos.
 
 ## Ejemplos
 
-Muestra cómo configurar el formato de relleno, trazo y llamada para las etiquetas de datos del gráfico.
+Muestra cómo establecer el formato de relleno, trazo y llamada para las etiquetas de datos de gráficos.
 
 ```csharp
 Document doc = new Document();
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Eliminar la serie generada por defecto.
+//Eliminar serie generada por defecto.
 chart.Series.Clear();
 
-// Agregar nueva serie.
+//Añadir nueva serie.
 ChartSeries series = chart.Series.Add("AW Series 1",
     new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" },
     new double[] { 100, 200, 300, 400 });
@@ -43,7 +43,7 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formatear etiquetas de datos como llamadas.
+// Formatear las etiquetas de datos como llamadas.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;

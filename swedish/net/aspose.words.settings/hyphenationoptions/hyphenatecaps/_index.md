@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words för .NET
-description: HyphenationOptions HyphenateCaps fast egendom. Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen ärSann  i C#.
+description: Upptäck egenskapen HyphenateCaps i HyphenationOptions. Kontrollera enkelt avstavning för ord med versaler – standardinställningen är sant. Optimera din text idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen är`Sann` .
+Hämtar eller anger värde som avgör om ord skrivna med enbart versaler ska vara avstängda. Standardvärdet för den här egenskapen är`sann` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }
@@ -18,7 +18,7 @@ public bool HyphenateCaps { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

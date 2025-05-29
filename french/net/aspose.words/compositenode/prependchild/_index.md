@@ -3,36 +3,37 @@ title: CompositeNode.PrependChild
 linktitle: PrependChild
 articleTitle: PrependChild
 second_title: Aspose.Words pour .NET
-description: CompositeNode PrependChild méthode. Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud en C#.
+description: Découvrez comment la méthode CompositeNode PrependChild améliore votre structure de données en ajoutant efficacement des nœuds au début de votre liste de nœuds enfants.
 type: docs
-weight: 150
+weight: 170
 url: /fr/net/aspose.words/compositenode/prependchild/
 ---
-## CompositeNode.PrependChild method
+## CompositeNode.PrependChild&lt;T&gt; method
 
 Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud.
 
 ```csharp
-public Node PrependChild(Node newChild)
+public T PrependChild<T>(T newChild)
+    where T : Node
 ```
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| newChild | Node | Le nœud à ajouter. |
+| newChild | T | Le nœud à ajouter. |
 
 ### Return_Value
 
-Le nœud ajouté.
+Le nœud a été ajouté.
 
 ## Remarques
 
-Si la*newChild* est déjà dans l'arborescence, il est d'abord supprimé.
+Si le*newChild* est déjà dans l'arbre, il est d'abord supprimé.
 
-Si le nœud en cours d'insertion a été créé à partir d'un autre document, vous devez utiliser [`ImportNode`](../../documentbase/importnode/) pour importer le nœud dans le document actuel. Le nœud importé peut ensuite être inséré dans le document actuel.
+Si le nœud inséré a été créé à partir d'un autre document, vous devez utiliser [`ImportNode`](../../documentbase/importnode/) pour importer le nœud dans le document actuel. Le nœud importé peut ensuite être inséré dans le document actuel.
 
 ## Exemples
 
-Montre comment ajouter, mettre à jour et supprimer des nœuds enfants dans la collection d’enfants d’un CompositeNode.
+Montre comment ajouter, mettre à jour et supprimer des nœuds enfants dans la collection d'enfants d'un CompositeNode.
 
 ```csharp
 Document doc = new Document();
@@ -51,28 +52,28 @@ Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
 // Le corps du document n'affichera pas ces exécutions tant que nous ne les aurons pas insérées dans un nœud composite
-// qui lui-même fait partie de l'arborescence des nœuds du document, comme nous l'avons fait lors de la première exécution.
+// qui fait lui-même partie de l'arborescence des nœuds du document, comme nous l'avons fait lors de la première exécution.
 // Nous pouvons déterminer où se trouve le contenu textuel des nœuds que nous insérons
 // apparaît dans le document en spécifiant un emplacement d'insertion par rapport à un autre nœud du paragraphe.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Insère la deuxième exécution dans le paragraphe précédant l'exécution initiale.
+// Insérer la deuxième exécution dans le paragraphe devant l'exécution initiale.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Insère la troisième exécution après l'exécution initiale.
+// Insérer la troisième exécution après l'exécution initiale.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Insère la première exécution au début de la collection de nœuds enfants du paragraphe.
+// Insérer la première exécution au début de la collection de nœuds enfants du paragraphe.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Nous pouvons modifier le contenu de l'exécution en éditant et en supprimant les nœuds enfants existants.
+// Nous pouvons modifier le contenu de l'exécution en modifiant et en supprimant les nœuds enfants existants.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

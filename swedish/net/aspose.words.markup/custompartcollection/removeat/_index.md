@@ -3,14 +3,14 @@ title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words för .NET
-description: CustomPartCollection RemoveAt metod. Tar bort ett objekt vid angivet index i C#.
+description: Hantera enkelt din CustomPartCollection med RemoveAt-metoden – ta snabbt bort objekt efter index för effektiv datahantering.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/custompartcollection/removeat/
 ---
 ## CustomPartCollection.RemoveAt method
 
-Tar bort ett objekt vid angivet index.
+Tar bort ett objekt vid det angivna indexet.
 
 ```csharp
 public void RemoveAt(int index)
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

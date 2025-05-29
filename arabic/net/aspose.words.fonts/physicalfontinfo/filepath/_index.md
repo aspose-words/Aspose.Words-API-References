@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words لـ .NET
-description: PhysicalFontInfo FilePath ملكية. المسار إلى ملف الخط إن وجد في C#.
+description: اكتشف خاصية PhysicalFontInfo FilePath، وحدد موقع ملفات الخطوط الخاصة بك بسهولة لتحقيق تكامل سلس في التصميم وتحسين الطباعة في مشاريعك.
 type: docs
-weight: 10
+weight: 20
 url: /ar/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
@@ -18,10 +18,10 @@ public string FilePath { get; }
 
 ## أمثلة
 
-يوضح كيفية سرد الخطوط المتاحة.
+يوضح كيفية إدراج الخطوط المتوفرة.
 
 ```csharp
-// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
+// قم بتكوين Aspose.Words للحصول على الخطوط من مجلد مخصص، ثم قم بطباعة كل الخطوط المتوفرة.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

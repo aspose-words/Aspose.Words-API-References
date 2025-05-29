@@ -2,8 +2,8 @@
 title: MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeSettings 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MailMergeSettings 构造函数，实现无缝文档自动化。使用我们的默认构造函数轻松设置，提升效率！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.settings/mailmergesettings/mailmergesettings/

@@ -3,14 +3,14 @@ title: FieldPrintDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words для .NET
-description: FieldPrintDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
+description: Управляйте своими датами без усилий с помощью функции UseUmAlQuraCalendar от FieldPrintDate. Легко переключайте календарь UmalQura для бесперебойной обработки дат.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 ---
 ## FieldPrintDate.UseUmAlQuraCalendar property
 
-Получает или задает необходимость использования календаря Ум-аль-Кура.
+Возвращает или задает, использовать ли календарь Ум-аль-Кура.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }
@@ -23,9 +23,9 @@ public bool UseUmAlQuraCalendar { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Когда документ распечатывается на принтере или печатается в формате PDF (но не экспортируется в PDF),
+// Когда документ распечатывается на принтере или распечатывается как PDF (но не экспортируется в PDF),
 // Поля PRINTDATE будут отображать дату/время операции печати.
-// Если печать не выполнялась, в этих полях будет отображаться «0/0/0000».
+// Если печать не производилась, в этих полях будет отображаться «0/0/0000».
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);

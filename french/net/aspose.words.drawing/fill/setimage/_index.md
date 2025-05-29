@@ -3,9 +3,9 @@ title: Fill.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words pour .NET
-description: Fill SetImage méthode. Modifie le type de remplissage en image unique en C#.
+description: Améliorez votre design avec la méthode SetImage. Passez facilement à un type de remplissage d'image unique pour des visuels époustouflants et une intégration fluide.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(*string*) {#setimage_2}
@@ -18,7 +18,7 @@ public void SetImage(string fileName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Le chemin d'accès au fichier image. |
+| fileName | String | Le chemin vers le fichier image. |
 
 ## Exemples
 
@@ -34,11 +34,11 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - Charge un fichier dans un tableau d'octets :
+// 2 - Charger un fichier dans un tableau d'octets :
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - Depuis un flux :
+// 3 - À partir d'un flux :
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -64,6 +64,30 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Le flux qui contient les octets de l'image. |
 
+## Exemples
+
+Montre comment définir le type de remplissage de forme comme image.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Il existe plusieurs façons de définir une image.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Utilisation d'un nom de fichier système local :
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Charger un fichier dans un tableau d'octets :
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - À partir d'un flux :
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
+
 ### Voir également
 
 * class [Fill](../)
@@ -82,7 +106,31 @@ public void SetImage(byte[] imageBytes)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| imageBytes | Byte[] | Le tableau d’octets de l’image. |
+| imageBytes | Byte[] | Le tableau d'octets de l'image. |
+
+## Exemples
+
+Montre comment définir le type de remplissage de forme comme image.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Il existe plusieurs façons de définir une image.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Utilisation d'un nom de fichier système local :
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Charger un fichier dans un tableau d'octets :
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - À partir d'un flux :
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### Voir également
 

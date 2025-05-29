@@ -3,16 +3,16 @@ title: ResourceLoadingAction Enum
 linktitle: ResourceLoadingAction
 articleTitle: ResourceLoadingAction
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Loading.ResourceLoadingAction énumération. Spécifie le mode de chargement des ressources en C#.
+description: Découvrez l'énumération Aspose.Words.ResourceLoadingAction pour des modes de chargement de ressources efficaces. Optimisez le traitement de vos documents grâce à des performances optimisées !
 type: docs
-weight: 3680
+weight: 4140
 url: /fr/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
 Spécifie le mode de chargement des ressources.
 
-Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article documentaire.
+Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article de documentation.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -24,7 +24,7 @@ public enum ResourceLoadingAction
 | --- | --- | --- |
 | Default | `0` | Aspose.Words chargera cette ressource comme d'habitude. |
 | Skip | `1` | Aspose.Words ignorera le chargement de cette ressource. Seul le lien sans données sera stocké pour une image, la feuille de style CSS sera ignorée pour le format HTML. |
-| UserProvided | `2` | Aspose.Words utilisera le tableau d'octets fourni par l'utilisateur dans[`SetData`](../resourceloadingargs/setdata/) comme données de ressources. |
+| UserProvided | `2` | Aspose.Words utilisera le tableau d'octets fourni par l'utilisateur dans[`SetData`](../resourceloadingargs/setdata/) en tant que données de ressources. |
 
 ## Exemples
 
@@ -50,7 +50,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

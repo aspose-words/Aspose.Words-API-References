@@ -3,14 +3,14 @@ title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words для .NET
-description: TableStyle LeftIndent свойство. Получает или задает значение представляющее левый отступ таблицы на С#.
+description: Откройте для себя свойство TableStyle LeftIndent, которое позволит легко настроить левый отступ таблицы для улучшенного управления макетом и повышения визуальной привлекательности.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-Получает или задает значение, представляющее левый отступ таблицы.
+Возвращает или задает значение, представляющее левый отступ таблицы.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,14 +18,14 @@ public double LeftIndent { get; set; }
 
 ## Примеры
 
-Показывает, как установить положение стола.
+Показывает, как задать положение таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два способа выравнивания таблицы по горизонтали.
-// 1 — используйте свойство «Выравнивание», чтобы выровнять его по месту на странице, например по центру:
+// 1 - Используйте свойство "Alignment", чтобы выровнять его по месту на странице, например по центру:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 — используйте «LeftIndent», чтобы указать отступ от левого поля страницы:
+// 2 - Используйте «LeftIndent», чтобы указать отступ от левого поля страницы:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

@@ -2,15 +2,15 @@
 title: FieldImport.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
-second_title: Aspose.Words for .NET
-description: FieldImport GraphicFilter mülk. Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik biçimli filtreleri kolayca ayarlamak veya almak ve içerik ekleme sürecinizi geliştirmek için FieldImport GraphicFilter özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldimport/graphicfilter/
 ---
 ## FieldImport.GraphicFilter property
 
-Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar.
+Eklenecek grafiğin biçimi için filtrenin adını alır veya ayarlar.
 
 ```csharp
 public string GraphicFilter { get; set; }
@@ -18,7 +18,7 @@ public string GraphicFilter { get; set; }
 
 ## Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak resim eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - İTHALAT alanı:
+// 2 - IMPORT alanı:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

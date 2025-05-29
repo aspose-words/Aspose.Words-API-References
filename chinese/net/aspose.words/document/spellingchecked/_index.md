@@ -2,10 +2,10 @@
 title: Document.SpellingChecked
 linktitle: SpellingChecked
 articleTitle: SpellingChecked
-second_title: 用于 .NET 的 Aspose.Words
-description: Document SpellingChecked 财产. 返回真的如果文档已经过拼写检查 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 SpellingChecked 属性确保您的文档没有错误。了解您的内容是否经过彻底的拼写检查，确保专业性。
 type: docs
-weight: 410
+weight: 430
 url: /zh/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
@@ -22,7 +22,7 @@ public bool SpellingChecked { get; set; }
 
 ## 例子
 
-演示如何设置拼写或语法验证。
+显示如何设置拼写或语法验证。
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Document doc = new Document();
 // 有拼写错误的字符串。
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // 如果我们将属性设置为 false，则开始进行拼写/语法检查。
-// 我们可以通过 Review -> 查看 Microsoft Word 中的所有错误拼写和语法。
-// 请注意，Microsoft Word 不会自动对 DOC 和 RTF 文档格式启动语法/拼写检查。
+// 如果我们将属性设置为 false，则开始拼写/语法检查。
+// 我们可以通过“审阅”->“拼写和语法”查看 Microsoft Word 中的所有错误。
+// 请注意，Microsoft Word 不会自动启动 DOC 和 RTF 文档格式的语法/拼写检查。
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertParagraphNumber
 linktitle: InsertParagraphNumber
 articleTitle: InsertParagraphNumber
 second_title: Aspose.Words para .NET
-description: FieldStyleRef InsertParagraphNumber propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia exactamente como aparece en el documento en C#.
+description: Descubra la propiedad FieldStyleRef InsertParagraphNumber para administrar fácilmente la numeración de párrafos en sus documentos, garantizando referencias precisas y un formato mejorado.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 ---
 ## FieldStyleRef.InsertParagraphNumber property
 
-Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia exactamente como aparece en el documento.
+Obtiene o establece si se debe insertar el número de párrafo del párrafo referenciado exactamente como aparece en el documento.
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }
@@ -24,10 +24,10 @@ Muestra cómo utilizar los campos STYLEREF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea una lista basada en una plantilla de lista de Microsoft Word.
+// Cree una lista basada en una plantilla de lista de Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Esta lista generada mostrará "1.a)".
+//Esta lista generada mostrará "1.a )".
  // El espacio antes del corchete es un carácter no delimitador, que podemos suprimir.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// También podemos usar campos STYLEREF para hacer referencia a los números de lista de listas.
+// También podemos utilizar los campos STYLEREF para hacer referencia a los números de lista de las listas.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

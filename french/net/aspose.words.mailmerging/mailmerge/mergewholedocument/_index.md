@@ -3,7 +3,7 @@ title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
 second_title: Aspose.Words pour .NET
-description: MailMerge MergeWholeDocument propriété. Obtient ou définit une valeur indiquant si les champs de lensemble du document sont mis à jour lors de lexécution dun publipostage avec des régions en C#.
+description: Découvrez comment la propriété MailMerge MergeWholeDocument met à jour tous les champs lors d'un publipostage basé sur une région, améliorant ainsi l'efficacité et la précision de vos documents.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -22,7 +22,7 @@ La valeur par défaut est`FAUX` .
 
 ## Exemples
 
-Affiche la relation entre les publipostages avec les régions et la mise à jour des champs.
+Affiche la relation entre les fusions de courrier avec les régions et la mise à jour des champs.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -30,15 +30,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // Si on met le flag "MergeWholeDocument" à "true",
-    // le publipostage avec les régions mettra à jour tous les champs du document.
-    // Si nous mettons le flag "MergeWholeDocument" à "false", le publipostage ne mettra à jour que les champs
+    // Si nous définissons l'indicateur « MergeWholeDocument » sur « true »,
+    // le publipostage avec les régions mettra à jour chaque champ du document.
+    // Si nous définissons l'indicateur « MergeWholeDocument » sur « false », le publipostage mettra uniquement à jour les champs
     // dans la région de publipostage dont le nom correspond au nom de la table source de données.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Le publipostage mettra uniquement à jour le champ QUOTE en dehors de la région de publipostage
-    // si nous définissons le flag "MergeWholeDocument" sur "true".
+    // Le publipostage mettra à jour uniquement le champ QUOTE en dehors de la zone de publipostage
+    // si nous définissons l'indicateur "MergeWholeDocument" sur "true".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -47,7 +47,7 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Créez un document avec une région de publipostage appartenant à une source de données nommée "MaTable".
+/// Créez un document avec une région de publipostage appartenant à une source de données nommée « MyTable ».
 /// Insérez un champ QUOTE à l'intérieur de cette région et un autre à l'extérieur.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()

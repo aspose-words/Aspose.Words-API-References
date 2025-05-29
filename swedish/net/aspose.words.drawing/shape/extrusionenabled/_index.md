@@ -3,14 +3,14 @@ title: Shape.ExtrusionEnabled
 linktitle: ExtrusionEnabled
 articleTitle: ExtrusionEnabled
 second_title: Aspose.Words för .NET
-description: Shape ExtrusionEnabled fast egendom. ReturnerarSann om en extruderingseffekt är aktiverad i C#.
+description: Ta reda på om funktionen Formextrudering är aktiv. Förbättra enkelt dina designer med fantastiska 3D-effekter för en professionell touch!
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Returnerar`Sann` om en extruderingseffekt är aktiverad.
+Returer`sann` om en extruderingseffekt är aktiverad.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -97,7 +96,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

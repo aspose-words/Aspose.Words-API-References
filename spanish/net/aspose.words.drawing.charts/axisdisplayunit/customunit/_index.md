@@ -3,7 +3,7 @@ title: AxisDisplayUnit.CustomUnit
 linktitle: CustomUnit
 articleTitle: CustomUnit
 second_title: Aspose.Words para .NET
-description: AxisDisplayUnit CustomUnit propiedad. Obtiene o establece un divisor definido por el usuario para escalar las unidades de visualización en el eje de valores en C#.
+description: Descubra la propiedad CustomUnit AxisDisplayUnit para personalizar fácilmente las unidades de visualización del eje de valores con escala definida por el usuario para una mayor claridad de los datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -18,13 +18,13 @@ public double CustomUnit { get; set; }
 
 ## Observaciones
 
-La propiedad no es compatible con los nuevos gráficos de MS Office 2016. El valor predeterminado es 1.
+Esta propiedad no es compatible con los nuevos gráficos de MS Office 2016. El valor predeterminado es 1.
 
-Establecer esta propiedad establece el[`Unit`](../unit/) propiedad a Custom.
+Al establecer esta propiedad se establece el[`Unit`](../unit/) propiedad to Custom.
 
 ## Ejemplos
 
-Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
+Muestra cómo manipular las marcas de graduación y los valores mostrados de un eje de gráfico.
 
 ```csharp
 Document doc = new Document();
@@ -36,43 +36,44 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Establece las marcas menores del eje Y para que apunten en dirección opuesta al área de trazado,
-// y las marcas principales para cruzar el eje.
+// Establezca las marcas de graduación menores del eje Y para que apunten lejos del área de trazado,
+// y las marcas de graduación principales cruzan el eje.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Configure el eje Y para mostrar un tick mayor cada 10 unidades y un tick menor cada 1 unidad.
+// Establezca el eje Y para mostrar una marca principal cada 10 unidades y una marca secundaria cada 1 unidad.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Establece los límites del eje Y en -10 y 20.
-// Este eje Y ahora mostrará 4 marcas de graduación principales y 27 marcas de graduación menores.
+// Establezca los límites del eje Y en -10 y 20.
+// Este eje Y ahora mostrará 4 marcas de graduación principales y 27 marcas de graduación secundarias.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// Para el eje X, establezca las marcas principales cada 10 unidades,
-// cada marca menor en 2,5 unidades.
+// Para el eje X, establezca las marcas de graduación principales cada 10 unidades,
+//cada marca de verificación menor en 2,5 unidades.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Configure ambos tipos de marcas para que aparezcan dentro del área de trazado del gráfico.
+// Configure ambos tipos de marcas de graduación para que aparezcan dentro del área de trazado del gráfico.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Establezca los límites del eje X de modo que el eje X abarque 5 marcas de graduación principales y 12 marcas de graduación menores.
+// Establezca los límites del eje X de modo que éste abarque 5 marcas de graduación principales y 12 marcas de graduación secundarias.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabelSpacing);
+Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
-// Establece las etiquetas de marca para mostrar su valor en millones.
+// Establezca las etiquetas de verificación para mostrar su valor en millones.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Podemos establecer un valor más específico mediante el cual las etiquetas de marca mostrarán sus valores.
-// Esta declaración es equivalente a la anterior.
+//Podemos establecer un valor más específico mediante el cual las etiquetas de marca mostrarán sus valores.
+//Esta declaración es equivalente a la anterior.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```

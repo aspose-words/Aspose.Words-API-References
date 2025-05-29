@@ -3,7 +3,7 @@ title: CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words para .NET
-description: CleanupOptions constructor. Constructor predeterminado en C#.
+description: Descubra el constructor CleanupOptions para una gestión eficiente de datos. Optimice sus procesos con nuestro constructor predeterminado para un rendimiento óptimo.
 type: docs
 weight: 10
 url: /es/net/aspose.words/cleanupoptions/cleanupoptions/

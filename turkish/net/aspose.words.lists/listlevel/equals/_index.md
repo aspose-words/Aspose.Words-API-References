@@ -2,15 +2,15 @@
 title: ListLevel.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: ListLevel Equals yöntem. Belirtilen ListLevel. ile karşılaştırır C#'da.
+second_title: .NET için Aspose.Words
+description: ListLevel'ları etkili bir şekilde karşılaştırmak, kodlama verimliliğinizi ve veri yönetimindeki hassasiyetinizi artırmak için ListLevel Equals yöntemini keşfedin.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.lists/listlevel/equals/
 ---
 ## ListLevel.Equals method
 
-Belirtilen ListLevel. ile karşılaştırır
+Belirtilen ListLevel ile karşılaştırır.
 
 ```csharp
 public bool Equals(ListLevel level)

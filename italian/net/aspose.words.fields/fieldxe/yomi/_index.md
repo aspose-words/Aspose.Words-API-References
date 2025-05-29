@@ -3,14 +3,14 @@ title: FieldXE.Yomi
 linktitle: Yomi
 articleTitle: Yomi
 second_title: Aspose.Words per .NET
-description: FieldXE Yomi proprietà. Ottiene o imposta lo yomi primo carattere fonetico per lordinamento degli indici per la voce dellindice in C#.
+description: Ottimizza le voci dell'indice con la proprietà FieldXE Yomi, consentendo un ordinamento efficiente utilizzando il primo carattere fonetico per una migliore organizzazione dei dati.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fieldxe/yomi/
 ---
 ## FieldXE.Yomi property
 
-Ottiene o imposta lo yomi (primo carattere fonetico per l'ordinamento degli indici) per la voce dell'indice
+Ottiene o imposta lo yomi (primo carattere fonetico per l'ordinamento degli indici) per la voce di indice
 
 ```csharp
 public string Yomi { get; set; }
@@ -25,14 +25,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Crea un campo INDICE che visualizzerà una voce per ogni campo XE trovato nel documento.
-// Ogni voce visualizzerà il valore della proprietà Text del campo XE sul lato sinistro,
-// e il numero della pagina che contiene il campo XE a destra.
-// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Text".
-// in una voce invece di creare una voce per ciascun campo XE.
+// Ogni voce visualizzerà il valore della proprietà Testo del campo XE sul lato sinistro,
+// e il numero della pagina che contiene il campo XE sulla destra.
+// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Testo"
+// in una voce anziché creare una voce per ogni campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// La tabella INDEX ordina automaticamente le sue voci in base ai valori delle relative proprietà Text in ordine alfabetico.
-// Imposta invece la tabella INDEX per ordinare le voci foneticamente utilizzando Hiragana.
+// La tabella INDEX ordina automaticamente le sue voci in base ai valori delle loro proprietà Text in ordine alfabetico.
+// Imposta la tabella INDEX per ordinare le voci foneticamente utilizzando l'Hiragana.
 index.UseYomi = sortEntriesUsingYomi;
 
 if (sortEntriesUsingYomi)
@@ -40,11 +40,11 @@ if (sortEntriesUsingYomi)
 else
     Assert.AreEqual(" INDEX ", index.GetFieldCode());
 
-// Inserisci 4 campi XE, che verranno visualizzati come voci nel sommario del campo INDICE.
-// La proprietà "Text" può contenere l'ortografia di una parola in Kanji, la cui pronuncia può essere ambigua,
-// mentre la versione "Yomi" della parola si scriverà esattamente come viene pronunciata usando Hiragana.
-// Se impostiamo il nostro campo INDEX per utilizzare Yomi, ordinerà queste voci
-// in base al valore delle loro proprietà Yomi, anziché ai valori di testo.
+// Inserire 4 campi XE, che verranno visualizzati come voci nella tabella dei contenuti del campo INDICE.
+// La proprietà "Testo" può contenere l'ortografia di una parola in Kanji, la cui pronuncia può essere ambigua,
+// mentre la versione "Yomi" della parola verrà scritta esattamente come viene pronunciata usando l'Hiragana.
+// Se impostiamo il nostro campo INDICE per utilizzare Yomi, ordinerà queste voci
+// in base al valore delle loro proprietà Yomi, anziché ai loro valori di testo.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛子";

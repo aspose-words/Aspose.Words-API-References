@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertSignatureLine método. Inserta una línea de firma en la posición actual en C#.
+description: Añade fácilmente líneas de firma profesionales a tus documentos con el método InsertSignatureLine de DocumentBuilder. ¡Mejora tu flujo de trabajo hoy mismo!
 type: docs
-weight: 440
+weight: 470
 url: /es/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
@@ -18,11 +18,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | El objeto que almacena los parámetros de creación de la línea de firma. |
+| signatureLineOptions | SignatureLineOptions | El objeto que almacena los parámetros de la creación de la línea de firma. |
 
 ### Valor_devuelto
 
-El nodo de línea de firma que se acaba de insertar.
+El nodo de la línea de firma que se acaba de insertar.
 
 ## Ejemplos
 
@@ -64,8 +64,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;
@@ -96,20 +96,20 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | El objeto que almacena los parámetros de creación de la línea de firma. |
-| horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la línea de firma. |
-| left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la línea de firma. |
-| vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia hasta la línea de firma. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la línea de firma. |
+| signatureLineOptions | SignatureLineOptions | El objeto que almacena los parámetros de la creación de la línea de firma. |
+| horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la línea de la firma. |
+| left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la línea de la firma. |
+| vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la línea de firma. |
+| top | Double | Distancia en puntos desde el origen hasta el lado superior de la línea de la firma. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la línea de firma. |
 
 ### Valor_devuelto
 
-El nodo de línea de firma que se acaba de insertar.
+El nodo de la línea de firma que se acaba de insertar.
 
 ## Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones utilizando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ## Ejemplos
 
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// La línea de firma se puede firmar en Microsoft Word haciendo doble clic en ella.
+//La línea de firma se puede firmar en Microsoft Word haciendo doble clic en ella.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

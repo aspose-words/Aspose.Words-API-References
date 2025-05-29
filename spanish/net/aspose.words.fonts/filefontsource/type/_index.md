@@ -3,14 +3,14 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words para .NET
-description: FileFontSource Type propiedad. Devuelve el tipo de fuente fuente en C#.
+description: Descubra la propiedad Tipo FileFontSource para identificar fácilmente los tipos de fuentes y mejorar sus proyectos de diseño con soluciones tipográficas precisas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/filefontsource/type/
 ---
 ## FileFontSource.Type property
 
-Devuelve el tipo de fuente fuente.
+Devuelve el tipo de la fuente de origen.
 
 ```csharp
 public override FontSourceType Type { get; }

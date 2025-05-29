@@ -2,15 +2,15 @@
 title: StyleCollection Class
 linktitle: StyleCollection
 articleTitle: StyleCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.StyleCollection 班级. 的集合Style表示文档中内置样式和用户定义样式的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.StyleCollection 类，它具有丰富的内置和自定义样式对象，可增强文档的格式和设计。
 type: docs
-weight: 6140
+weight: 6990
 url: /zh/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-的集合[`Style`](../style/)表示文档中内置样式和用户定义样式的对象。
+的集合[`Style`](../style/)代表文档中的内置样式和用户定义样式的对象。
 
 要了解更多信息，请访问[使用样式和主题](https://docs.aspose.com/words/net/working-with-styles-and-themes/)文档文章。
 
@@ -35,11 +35,11 @@ public class StyleCollection : IEnumerable<Style>
 | [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | 创建新的用户定义样式并将其添加到集合中。 |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | 将样式复制到此集合中。 |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | 从快速样式库面板中删除所有样式。 |
-| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | 获取一个枚举器对象，该对象将按名称的字母顺序枚举样式。 |
+| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | 获取一个枚举器对象，该对象将按照名称的字母顺序枚举样式。 |
 
 ## 例子
 
-演示如何创建和使用具有列表格式的段落样式。
+展示如何创建和使用具有列表格式的段落样式。
 
 ```csharp
 Document doc = new Document();
@@ -55,11 +55,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// 将段落样式应用到文档生成器的当前段落，然后添加一些文本。
+// 将段落样式应用到文档构建器的当前段落，然后添加一些文本。
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// 将文档生成器的样式更改为没有列表格式的样式并编写另一段。
+// 将文档构建器的样式更改为没有列表格式的样式并编写另一个段落。
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

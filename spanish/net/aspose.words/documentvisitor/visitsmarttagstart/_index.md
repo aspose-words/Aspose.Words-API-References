@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
 articleTitle: VisitSmartTagStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitSmartTagStart método. Se llama cuando ha comenzado la enumeración de una etiqueta inteligente en C#.
+description: Descubra el método VisitSmartTagStart de DocumentVisitor, su clave para gestionar de manera eficiente la enumeración de etiquetas inteligentes y mejorar el procesamiento de documentos.
 type: docs
 weight: 420
 url: /es/net/aspose.words/documentvisitor/visitsmarttagstart/
 ---
 ## DocumentVisitor.VisitSmartTagStart method
 
-Se llama cuando ha comenzado la enumeración de una etiqueta inteligente.
+Se llama cuando se inicia la enumeración de una etiqueta inteligente.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
@@ -26,7 +26,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada etiqueta inteligente en un documento.
+Muestra cómo imprimir la estructura de nodo de cada etiqueta inteligente en un documento.
 
 ```csharp
 public void SmartTagToText()
@@ -34,16 +34,16 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos SmartTag encontrados y sus hijos.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -97,9 +97,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -3,14 +3,14 @@ title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words pour .NET
-description: ChartLegendEntry Font propriété. Donne accès au formatage de la police de cette entrée de légende en C#.
+description: Découvrez la propriété de police ChartLegendEntry pour un accès facile au formatage de police personnalisable, améliorant vos entrées de légende pour un meilleur attrait visuel.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartlegendentry/font/
 ---
 ## ChartLegendEntry.Font property
 
-Donne accès au formatage de la police de cette entrée de légende.
+Donne accès à la mise en forme de la police de cette entrée de légende.
 
 ```csharp
 public Font Font { get; }
@@ -18,34 +18,22 @@ public Font Font { get; }
 
 ## Exemples
 
-Montre comment utiliser une entrée de légende pour les séries de graphiques.
+Montre comment travailler avec une police de légende.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
+Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+ChartLegend chartLegend = chart.Legend;
+// Définir la taille de police par défaut pour toutes les entrées de légende.
+chartLegend.Font.Size = 14;
+// Modifier la police pour une entrée de légende spécifique.
+chartLegend.LegendEntries[1].Font.Italic = true;
+chartLegend.LegendEntries[1].Font.Size = 12;
+// Obtenir l'entrée de légende pour la série de graphiques.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
-Chart chart = shape.Chart;
-ChartSeriesCollection series = chart.Series;
-series.Clear();
-
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
-series.Add("Series 2", categories, new double[] { 3, 4 });
-series.Add("Series 3", categories, new double[] { 5, 6 });
-series.Add("Series 4", categories, new double[] { 0, 0 });
-
-ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
-legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
-
-doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```
 
 ### Voir également

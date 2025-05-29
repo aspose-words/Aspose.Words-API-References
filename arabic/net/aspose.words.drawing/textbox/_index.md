@@ -3,9 +3,9 @@ title: TextBox Class
 linktitle: TextBox
 articleTitle: TextBox
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.TextBox فصل. يحدد السمات التي تحدد كيفية عرض النص داخل الشكل في C#.
+description: اكتشف فئة Aspose.Words.Drawing.TextBox لتخصيص عرض النص بسهولة داخل الأشكال، مما يعزز الجاذبية البصرية والوظائف للمستند الخاص بك.
 type: docs
-weight: 1320
+weight: 1730
 url: /ar/net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
@@ -24,14 +24,14 @@ public class TextBox
 | --- | --- |
 | [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | يحدد ما إذا كان Microsoft Word سيقوم بتكبير الشكل ليناسب النص. |
 | [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | يحدد الهامش السفلي الداخلي بالنقاط للشكل. |
-| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | يحدد الهامش الأيسر الداخلي بالنقاط للشكل. |
-| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | يحدد الهامش الأيمن الداخلي بالنقاط للشكل. |
+| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | يحدد الهامش الداخلي الأيسر بالنقاط للشكل. |
+| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | يحدد الهامش الداخلي الأيمن بالنقاط للشكل. |
 | [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | يحدد الهامش العلوي الداخلي بالنقاط للشكل. |
-| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | تحديد تدفق تخطيط النص في الشكل. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | إرجاع أو تعيين أ`TextBox` الذي يمثل القادم`TextBox` في تسلسل من الأشكال. |
-| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى عدم تدوير نص مربع النص عند تدوير الشكل. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | يحصل على الشكل الأصلي لـ`TextBox` . |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | إرجاع أ`TextBox` الذي يمثل السابق`TextBox` في تسلسل من الأشكال. |
+| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | يحدد تدفق تخطيط النص في الشكل. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | يعيد أو يعين`TextBox` الذي يمثل التالي`TextBox`في تسلسل من الأشكال. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | يحصل على قيمة منطقية أو يعينها تشير إلى أنه لا ينبغي تدوير نص مربع النص عند تدوير الشكل. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | يحصل على شكل رئيسي لـ`TextBox` . |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | يعيد`TextBox` الذي يمثل السابق`TextBox`في تسلسل من الأشكال. |
 | [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | يحدد كيفية التفاف النص داخل الشكل. |
 | [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | يحدد المحاذاة الرأسية للنص داخل الشكل. |
 
@@ -44,7 +44,7 @@ public class TextBox
 
 ## ملاحظات
 
-استخدم ال[`TextBox`](../shape/textbox/) الخاصية للوصول إلى خصائص النص الخاصة بالشكل. لا تقم بإنشاء مثيلات للشكل`TextBox` الصف مباشرة.
+استخدم[`TextBox`](../shape/textbox/) الخاصية للوصول إلى خصائص النص الخاصة بالشكل. لا تقم بإنشاء مثيلات من`TextBox` الصف مباشرة.
 
 ## أمثلة
 
@@ -54,7 +54,7 @@ public class TextBox
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مربع نص آخر بهوامش محددة.
+//إدراج مربع نص آخر بهوامش محددة.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;
@@ -68,7 +68,7 @@ builder.Write("Text placed according to textbox margins.");
 doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ```
 
-يوضح كيفية ضبط اتجاه النص داخل مربع النص.
+يوضح كيفية تعيين اتجاه النص داخل مربع النص.
 
 ```csharp
 Document doc = new Document();
@@ -77,18 +77,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// انقل أداة إنشاء المستندات إلى داخل TextBox وأضف نصًا.
+// انقل منشئ المستندات إلى داخل مربع النص وأضف نصًا.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// قم بتعيين خاصية "LayoutFlow" لتعيين اتجاه لمحتويات النص في مربع النص هذا.
+// قم بتعيين خاصية "LayoutFlow" لتعيين اتجاه محتويات النص في مربع النص هذا.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 ```
 
-يوضح كيفية جعل مربع النص يغير حجمه ليناسب محتوياته بإحكام.
+يوضح كيفية تغيير حجم مربع النص ليتناسب مع محتوياته بشكل محكم.
 
 ```csharp
 Document doc = new Document();
@@ -97,8 +97,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// قم بتطبيق هذه القيم على هذين العضوين للحصول على الشكل الأصلي المناسب
-// يحيط بإحكام بمحتويات النص، متجاهلاً الأبعاد التي وضعناها.
+// قم بتطبيق هذه القيم على كلا هذين العنصرين للحصول على الشكل الرئيسي المناسب
+// بإحكام حول محتويات النص، متجاهلاً الأبعاد التي حددناها.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

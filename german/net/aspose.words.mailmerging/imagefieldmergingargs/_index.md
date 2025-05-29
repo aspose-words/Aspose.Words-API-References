@@ -3,16 +3,16 @@ title: ImageFieldMergingArgs Class
 linktitle: ImageFieldMergingArgs
 articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words für .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs klas. Stellt Daten für die bereitImageFieldMerging event in C#.
+description: Entdecken Sie die Klasse Aspose.Words.MailMerging.ImageFieldMergingArgs, die das Zusammenführen von Bildern in Dokumenten verbessert und nahtlose und effiziente Arbeitsabläufe gewährleistet.
 type: docs
-weight: 3830
+weight: 4520
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Stellt Daten für die bereit[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) event.
+Liefert Daten für die[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) Ereignis.
 
-Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Serienbriefe und Berichte](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -22,31 +22,31 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Gibt die zurück[`Document`](../fieldmergingargsbase/document/) Objekt, für das der Seriendruck durchgeführt wird. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ruft den Namen des Briefvorlagenfelds ab, wie im Dokument angegeben. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ruft das Objekt ab, das das aktuelle Zusammenführungsfeld darstellt. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Gibt die[`Document`](../fieldmergingargsbase/document/)Objekt, für das der Serienbrief ausgeführt wird. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ruft den Namen des Seriendruckfelds ab, wie im Dokument angegeben. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ruft das Objekt ab, das das aktuelle Seriendruckfeld darstellt. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ruft den Namen des Seriendruckfelds in der Datenquelle ab. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ruft den Wert des Felds aus der Datenquelle ab oder legt ihn fest. |
 | [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Gibt das Bild an, das die Serienbrief-Engine in das Dokument einfügen muss. |
 | [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Legt den Dateinamen des Bildes fest, das die Serienbrief-Engine in das Dokument einfügen muss. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Gibt die Bildhöhe für das Bild an, das in das Dokument eingefügt werden soll. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Gibt die Bildhöhe für das in das Dokument einzufügende Bild an. |
 | [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Gibt den Stream an, aus dem die Serienbrief-Engine ein Bild lesen soll. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Gibt die Bildbreite für das Bild an, das in das Dokument eingefügt werden soll. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Gibt die Bildbreite für das in das Dokument einzufügende Bild an. |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ruft den nullbasierten Index des Datensatzes ab, der zusammengeführt wird. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Gibt die Form an, die die Serienbrief-Engine in das Dokument einfügen muss. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Gibt die Form an, die das Seriendruckmodul in das Dokument einfügen muss. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab, wenn der Name nicht verfügbar ist. |
 
 ## Bemerkungen
 
-Dieses Ereignis tritt während des Seriendrucks auf, wenn im Dokument ein Bildfeld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um einen -Dateinamen, einen Stream oder eine zurückzugebenImage Objekt an die Mail merge -Engine senden, damit es in das Dokument eingefügt wird.
+Dieses Ereignis tritt während des Seriendrucks auf, wenn im Dokument ein Bildfeld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um einen „x000d_“-Dateinamen, einen Stream oder eineImage Objekt an die Mail Merge -Engine, damit es in das Dokument eingefügt wird.
 
-Es stehen drei Eigenschaften zur Verfügung[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) Und[`Image`](./image/) um anzugeben, woher das Bild stammen muss. Legen Sie nur eine dieser Eigenschaften fest.
+Es stehen drei Immobilien zur Verfügung[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) Und[`Image`](./image/) um anzugeben, woher das Bild stammen muss. Legen Sie nur eine dieser Eigenschaften fest.
 
-Um ein Bild-Serienbrieffeld in ein Dokument in Word einzufügen, wählen Sie den Befehl „Einfügen/Feld“ , dann „Zusammenführungsfeld“ und geben Sie „Image:MyFieldName“ ein.
+Um ein Serienbrieffeld mit einem Bild in ein Word-Dokument einzufügen, wählen Sie den Befehl „Einfügen/Feld“, , wählen Sie dann „MergeField“ und geben Sie „Image:MyFieldName“ ein.
 
 ## Beispiele
 
-Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
+Zeigt, wie in einem BLOB-Feld einer Datenbank gespeicherte Bilder in einen Bericht eingefügt werden.
 
 ```csharp
 public void ImageFromBlob()
@@ -62,7 +62,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze auf einmal liest.
+        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze gleichzeitig liest.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -80,7 +80,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief auf ein MERGEFIELD im Dokument trifft, dessen Name ein „Image:“-Tag enthält.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -90,14 +90,14 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
+Zeigt, wie die Abmessungen von Bildern festgelegt werden, da MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // Fügen Sie ein MERGEFIELD ein, das während eines Serienbriefs Bilder aus einer Quelle akzeptiert. Verwenden Sie den Feldcode zum Verweisen
     // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -112,7 +112,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Serienbrief aus.
+    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Seriendruck aus.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -121,7 +121,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Setzt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe.
+/// Legt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe fest.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

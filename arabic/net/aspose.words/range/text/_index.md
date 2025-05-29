@@ -3,7 +3,7 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: Range Text ملكية. يحصل على نص النطاق في C#.
+description: اكتشف خاصية نطاق النص لاسترجاع النص ومعالجته بسهولة ضمن نطاق محدد لتحسين إدارة المحتوى.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/range/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## ملاحظات
 
-تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
+تتضمن السلسلة المرتجعة جميع أحرف التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
 ## أمثلة
 

@@ -2,8 +2,8 @@
 title: FieldUnknown
 linktitle: FieldUnknown
 articleTitle: FieldUnknown
-second_title: Aspose.Words for .NET
-description: FieldUnknown inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kodlama projelerinizde kusursuz entegrasyon ve gelişmiş performans için güçlü bir varsayılan oluşturucu olan FieldUnknown oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldunknown/fieldunknown/

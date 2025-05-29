@@ -2,8 +2,8 @@
 title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
 articleTitle: ScanSubfolders
-second_title: 用于 .NET 的 Aspose.Words
-description: FolderFontSource ScanSubfolders 财产. 确定是否扫描子文件夹 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FolderFontSource ScanSubfolders 属性，通过选择扫描子文件夹来轻松管理字体组织，从而提高效率。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -18,7 +18,7 @@ public bool ScanSubfolders { get; }
 
 ## 例子
 
-演示如何使用包含字体的本地系统文件夹作为字体源。
+展示如何使用包含字体的本地系统文件夹作为字体源。
 
 ```csharp
 // 从包含字体文件的文件夹创建字体源。

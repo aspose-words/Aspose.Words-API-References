@@ -3,7 +3,7 @@ title: Field.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: Field Type свойство. Получает тип поля Microsoft Word на С#.
+description: Откройте для себя тип поля Microsoft Word с нашим свойством Field Type. Улучшите свои документы с помощью точного форматирования и динамических возможностей контента.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/field/type/
@@ -18,7 +18,7 @@ public virtual FieldType Type { get; }
 
 ## Примеры
 
-Показывает, как вставить поле в документ с помощью кода поля.
+Показывает, как вставить поле в документ, используя код поля.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Эта перегрузка метода InsertField автоматически обновляет вставленные поля.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Смотрите также

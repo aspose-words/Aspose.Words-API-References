@@ -3,14 +3,14 @@ title: CellFormat.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words para .NET
-description: CellFormat BottomPadding propiedad. Devuelve o establece la cantidad de espacio en puntos para agregar debajo del contenido de la celda en C#.
+description: Descubra la propiedad CellFormat BottomPadding para personalizar el espaciado de sus celdas. Mejore sus diseños con ajustes precisos de puntos para una mejor presentación.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/cellformat/bottompadding/
 ---
 ## CellFormat.BottomPadding property
 
-Devuelve o establece la cantidad de espacio (en puntos) para agregar debajo del contenido de la celda.
+Devuelve o establece la cantidad de espacio (en puntos) que se agregará debajo del contenido de la celda.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## Ejemplos
 
-Muestra cómo dar formato a celdas con un generador de documentos.
+Muestra cómo formatear celdas con un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inserta una segunda celda y luego configura las opciones de relleno del texto de la celda.
-// El constructor aplicará esta configuración en su celda actual y posteriormente se crearán nuevas celdas.
+// Inserte una segunda celda y luego configure las opciones de relleno de texto de la celda.
+// El constructor aplicará estas configuraciones en su celda actual y en cualquier celda nueva que cree posteriormente.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La primera celda no se vio afectada por la reconfiguración del relleno y aún mantiene los valores predeterminados.
+// La primera celda no se vio afectada por la reconfiguración del relleno y aún conserva los valores predeterminados.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);

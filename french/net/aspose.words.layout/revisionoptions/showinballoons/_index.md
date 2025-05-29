@@ -3,14 +3,14 @@ title: RevisionOptions.ShowInBalloons
 linktitle: ShowInBalloons
 articleTitle: ShowInBalloons
 second_title: Aspose.Words pour .NET
-description: RevisionOptions ShowInBalloons propriété. Permet de préciser si les révisions sont rendues dans les bulles. La valeur par défaut estNone  en C#.
+description: Découvrez la propriété RevisionOptions ShowInBalloons ! Contrôlez la visibilité des révisions dans les bulles pour une meilleure clarté du document. La valeur par défaut est « Aucun ».
 type: docs
-weight: 160
+weight: 180
 url: /fr/net/aspose.words.layout/revisionoptions/showinballoons/
 ---
 ## RevisionOptions.ShowInBalloons property
 
-Permet de préciser si les révisions sont rendues dans les bulles. La valeur par défaut estNone .
+Permet de spécifier si les révisions sont rendues dans les bulles. La valeur par défaut estNone .
 
 ```csharp
 public ShowInBalloons ShowInBalloons { get; set; }
@@ -18,7 +18,7 @@ public ShowInBalloons ShowInBalloons { get; set; }
 
 ## Remarques
 
-Notez que les révisions ne sont pas affichées dans les bulles pourShowInAnnotations .
+Notez que les révisions ne sont pas rendues dans les bulles pourShowInAnnotations .
 
 ## Exemples
 
@@ -28,41 +28,41 @@ Montre comment afficher les révisions dans des bulles.
 Document doc = new Document(MyDir + "Revisions.docx");
 
 // Par défaut, le texte qui est une révision a une couleur différente pour le différencier des autres textes non révisés.
-// Définissez une option de révision pour afficher plus de détails sur chaque révision dans une bulle dans la marge droite de la page.
+// Définissez une option de révision pour afficher plus de détails sur chaque révision dans une bulle sur la marge droite de la page.
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
 doc.Save(ArtifactsDir + "Revision.ShowRevisionBalloons.pdf");
 ```
 
-Montre comment modifier l’apparence des révisions.
+Montre comment modifier l'apparence des révisions.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Récupère l'objet RevisionOptions qui contrôle l'apparence des révisions.
+// Obtenez l'objet RevisionOptions qui contrôle l'apparence des révisions.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
 // Rendre les révisions d'insertion en vert et en italique.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Afficher les révisions de suppression en rouge et en gras.
+// Rendre les révisions de suppression en rouge et en gras.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Le même texte apparaîtra deux fois dans une révision de mouvement :
 // une fois au point de départ et une fois à la destination d'arrivée.
-// Rend le texte à la révision déplacée en jaune avec un double barré
-// et bleu doublement souligné à la révision déplacée.
+// Rendre le texte de la révision déplacée en jaune avec un double barré
+// et doublement souligné en bleu à la révision déplacée.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Rendu des révisions de format en rouge foncé et gras.
+// Rendre les révisions de format en rouge foncé et en gras.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Place une barre bleue foncée épaisse sur le côté gauche de la page à côté des lignes affectées par les révisions.
+// Placez une barre bleu foncé épaisse sur le côté gauche de la page à côté des lignes affectées par les révisions.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -70,12 +70,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Obtenez le mouvement, la suppression, les révisions de formatage et les commentaires à afficher dans des bulles vertes
+// Faites en sorte que les mouvements, les suppressions, les révisions de formatage et les commentaires s'affichent dans des bulles vertes
 // sur le côté droit de la page.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Ces fonctionnalités ne sont applicables qu'aux formats tels que .pdf ou .jpg.
+// Ces fonctionnalités ne s'appliquent qu'aux formats tels que .pdf ou .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

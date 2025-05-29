@@ -3,7 +3,7 @@ title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: Bookmark Name propiedad. Obtiene o establece el nombre del marcador en C#.
+description: Gestiona tus marcadores fácilmente con Nombre de Marcador. Configura o actualiza fácilmente los nombres de tus marcadores para una mejor organización y un acceso rápido.
 type: docs
 weight: 60
 url: /es/net/aspose.words/bookmark/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Observaciones
 
-Tenga en cuenta que si cambia el nombre de un marcador a un nombre que ya existe en el documento, no se dará ningún error y solo se almacenará el primer marcador cuando guarde el documento.
+Tenga en cuenta que si cambia el nombre de un marcador a un nombre que ya existe en el documento, no se generará ningún error y solo se almacenará el primer marcador cuando guarde el documento.
 
 ## Ejemplos
 
@@ -26,17 +26,17 @@ Muestra cómo insertar un marcador.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Un marcador válido tiene un nombre, un nodo BookmarkStart y un nodo BookmarkEnd.
-// Cualquier espacio en blanco en los nombres de los marcadores se convertirá en guiones bajos si abrimos el documento guardado con Microsoft Word.
-// Si resaltamos el nombre del marcador en Microsoft Word mediante Insertar -> Enlaces -> Marque como favorito y presione "Ir a",
+//Cualquier espacio en blanco en los nombres de los marcadores se convertirá en guiones bajos si abrimos el documento guardado con Microsoft Word.
+// Si resaltamos el nombre del marcador en Microsoft Word mediante Insertar -> Vínculos -> Marcador y presionamos "Ir a",
 // el cursor saltará al texto encerrado entre los nodos BookmarkStart y BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// Los marcadores se almacenan en esta colección.
+//Los marcadores se almacenan en esta colección.
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
@@ -47,16 +47,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

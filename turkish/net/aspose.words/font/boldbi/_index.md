@@ -2,15 +2,15 @@
 title: Font.BoldBi
 linktitle: BoldBi
 articleTitle: BoldBi
-second_title: Aspose.Words for .NET
-description: Font BoldBi mülk. Sağdan sola metin kalın olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: BoldBi özelliğini keşfedin, sağdan sola yazılan metinlerin kalın olarak görüntülenmesini sağlayarak farklı dillerde okunabilirliği ve kullanıcı deneyimini iyileştirir.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/font/boldbi/
 ---
 ## Font.BoldBi property
 
-Sağdan sola metin kalın olarak biçimlendirilmişse doğrudur.
+Sağdan sola metin kalın olarak biçimlendirilirse doğrudur.
 
 ```csharp
 public bool BoldBi { get; set; }
@@ -18,7 +18,7 @@ public bool BoldBi { get; set; }
 
 ## Örnekler
 
-Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
+Sağdan sola ve sağdan sola metinler için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz.
-// belge oluşturucu ile sağdan soladır. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
-// sağdan sola yazı tipi ayarları kullanılarak biçimlendirilecektir.
+// Eklemek üzere olduğumuz metnin Bidi bayrağını kullanarak gösterilip gösterilmeyeceğini belirtebiliriz.
+// belge oluşturucu sağdan soladır. Bu bayrak true olarak ayarlandığında metin eklediğimizde,
+// sağdan sola doğru olan yazı tipi ayarları kullanılarak biçimlendirilecektir.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Bayrağı false olarak ayarlayın ve ardından soldan sağa metni ekleyin.
-// Belge oluşturucu bunları soldan sağa yazı tipi ayarlarını kullanarak biçimlendirecektir.
+// Bayrağı false olarak ayarlayın ve ardından soldan sağa metin ekleyin.
+// Belge oluşturucu bunları soldan sağa doğru olan yazı tipi ayarlarını kullanarak biçimlendirecektir.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

@@ -3,7 +3,7 @@ title: FontSavingArgs.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words para .NET
-description: FontSavingArgs FontFamilyName propiedad. Indica el nombre de la familia de fuentes actual en C#.
+description: Descubra la propiedad FontFamilyName de FontSavingArgs para administrar y personalizar fácilmente su familia de fuentes para una mayor flexibilidad de diseño.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -18,15 +18,15 @@ public string FontFamilyName { get; }
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

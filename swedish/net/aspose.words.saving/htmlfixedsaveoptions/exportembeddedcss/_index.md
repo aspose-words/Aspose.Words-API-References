@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedCss
 linktitle: ExportEmbeddedCss
 articleTitle: ExportEmbeddedCss
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions ExportEmbeddedCss fast egendom. Anger om CSS Cascading Style Sheet ska bäddas in i HTMLdokument i C#.
+description: Upptäck hur egenskapen ExportEmbeddedCss i HtmlFixedSaveOptions förbättrar dina HTML-dokument genom att bädda in CSS för sömlös stil. Optimera dina webbsidor idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-Anger om CSS (Cascading Style Sheet) ska bäddas in i HTML-dokument.
+Anger om CSS (Cascading Style Sheet) ska bäddas in i HTML-dokumentet.
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -18,16 +18,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ## Exempel
 
-Visar hur man bestämmer var man ska lagra CSS-formatmallar när man exporterar ett dokument till HTML.
+Visar hur man avgör var CSS-stilmallar ska lagras när man exporterar ett dokument till HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// När vi exporterar ett dokument till html kommer Aspose.Words också att skapa en CSS-stilmall att formatera dokumentet med.
-// Att ställa in "ExportEmbeddedCss"-flaggan till "true" spara CSS-formatmallen till en .css-fil,
-// och länka till filen från html-dokumentet med en <länk> element.
-// Att sätta flaggan på "false" kommer att bädda in CSS-formatmallen i HTML-dokumentet,
-// som bara skapar en fil istället för två.
+// När vi exporterar ett dokument till html, kommer Aspose.Words också att skapa ett CSS-stilark att formatera dokumentet med.
+// Genom att sätta flaggan "ExportEmbeddedCss" till "true" sparas CSS-stilarket till en .css-fil,
+// och länka till filen från html-dokumentet med hjälp av ett <link>-element.
+// Om flaggan sätts till "false" bäddas CSS-stilarket in i HTML-dokumentet,
+// vilket skapar bara en fil istället för två.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

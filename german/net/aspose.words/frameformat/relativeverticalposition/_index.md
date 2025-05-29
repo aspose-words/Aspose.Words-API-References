@@ -3,14 +3,14 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words für .NET
-description: FrameFormat RelativeVerticalPosition eigendom. Ermittelt die relative vertikale Position eines Frames in C#.
+description: Entdecken Sie die FrameFormat-Eigenschaft „RelativeVerticalPosition“, um die vertikale Ausrichtung eines Rahmens einfach zu bestimmen und so das Layout und Design Ihres Dokuments zu verbessern.
 type: docs
 weight: 80
 url: /de/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-Ermittelt die relative vertikale Position eines Frames.
+Ruft die relative vertikale Position eines Frames ab.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }

@@ -3,14 +3,14 @@ title: ListLevel.GetEffectiveValue
 linktitle: GetEffectiveValue
 articleTitle: GetEffectiveValue
 second_title: Aspose.Words para .NET
-description: ListLevel GetEffectiveValue método. Informa la representación de cadena delListLevelobjeto para el index especificado del elemento de la lista. Los parámetros especifican elNumberStyle y un formato opcional string usado cuandoCustom está especificado en C#.
+description: Descubra el método GetEffectiveValue de ListLevel para recuperar fácilmente las representaciones de cadena de los elementos de la lista. ¡Personalícelo con opciones de formato y estilo numérico!
 type: docs
 weight: 190
 url: /es/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Informa la representación de cadena del[`ListLevel`](../)objeto para el index especificado del elemento de la lista. Los parámetros especifican el[`NumberStyle`](../../../aspose.words/numberstyle/) y un formato opcional string usado cuandoCustom está especificado.
+Informa la representación de cadena de la[`ListLevel`](../)objeto para el índice especificado del elemento de lista. Los parámetros especifican el[`NumberStyle`](../../../aspose.words/numberstyle/) y una cadena de formato opcional utilizada cuandoCustom se especifica.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -25,7 +25,7 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 
 ### Valor_devuelto
 
-La representación de cadena del[`ListLevel`](../) objeto, descrito por el*numberStyle* parámetro y el*customNumberStyleFormat* parámetro, en el elemento de la lista en la posición determinada por el*index* parámetro.
+La representación de cadena de la[`ListLevel`](../) objeto, descrito por el*numberStyle* parámetro y el*customNumberStyleFormat* parámetro, en el elemento de lista en la posición determinada por el*index* parámetro.
 
 ### Excepciones
 

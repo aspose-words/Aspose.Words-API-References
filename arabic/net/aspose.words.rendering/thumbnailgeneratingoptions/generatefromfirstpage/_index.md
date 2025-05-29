@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 linktitle: GenerateFromFirstPage
 articleTitle: GenerateFromFirstPage
 second_title: Aspose.Words لـ .NET
-description: ThumbnailGeneratingOptions GenerateFromFirstPage ملكية. يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند أو الصورة الأولى في C#.
+description: اكتشف كيف يقوم خيار GenerateFromFirstPage بإنشاء صور مصغرة من الصفحة الأولى أو الصورة الخاصة بالمستند، مما يعزز المحتوى المرئي الخاص بك بسهولة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions.GenerateFromFirstPage property
 
-يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند أو الصورة الأولى.
+يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى من المستند أو الصورة الأولى.
 
 ```csharp
 public bool GenerateFromFirstPage { get; set; }
@@ -18,7 +18,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو`حقيقي` مما يعني أنه سيتم إنشاء الصورة المصغرة من الصفحة الأولى للمستند. إذا كانت القيمة`خطأ شنيع` ولا توجد صورة في المستند، سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند.
+الافتراضي هو`حقيقي` ، مما يعني أنه سيتم إنشاء الصورة المصغرة من الصفحة الأولى من المستند. إذا كانت القيمة`خطأ شنيع` وإذا لم تكن هناك صورة في المستند، فسيتم إنشاء الصورة المصغرة من الصفحة الأولى من المستند.
 
 ## أمثلة
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
-// 1 - استخدم الصفحة الأولى للمستند:
+// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند بتنسيق .epub.
+// 1 - استخدم الصفحة الأولى من المستند:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

@@ -3,7 +3,7 @@ title: FieldAsk.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words für .NET
-description: FieldAsk BookmarkName eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldAsk BookmarkName“, um Ihre Lesezeichen einfach zu verwalten und anzupassen. Verbessern Sie Ihr Benutzererlebnis mit nahtloser Navigation!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldask/bookmarkname/
@@ -33,7 +33,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um über den Lesezeichennamen auf unser REF-Feld zu verweisen.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -55,7 +55,7 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
-    // was während eines Seriendrucks auftreten wird.
+    // was während eines Serienbriefs geschieht.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt während einer Serienbrieffunktion der Standardantwort eines ASK-Felds Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

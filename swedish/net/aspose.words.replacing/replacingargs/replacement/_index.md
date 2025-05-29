@@ -3,7 +3,7 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words för .NET
-description: ReplacingArgs Replacement fast egendom. Hämtar eller ställer in ersättningssträngen i C#.
+description: Upptäck egenskapen ReplaceingArgs Replacement för att enkelt hantera och anpassa dina ersättningssträngar för förbättrad kodningseffektivitet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.replacing/replacingargs/replacement/
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {

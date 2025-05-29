@@ -3,14 +3,14 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words für .NET
-description: Shape Chart eigendom. Bietet Zugriff auf die Diagrammeigenschaften wenn diese Form über eine verfügtChart  in C#.
+description: Schalten Sie Diagrammeigenschaften mit Shape Chart frei. Verbessern Sie mühelos Ihre visuelle Datenpräsentation und maximieren Sie Ihre Erkenntnisse noch heute!
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Bietet Zugriff auf die Diagrammeigenschaften, wenn diese Form über eine verfügt[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Bietet Zugriff auf die Diagrammeigenschaften, wenn diese Form eine[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -18,7 +18,7 @@ public Chart Chart { get; }
 
 ## Bemerkungen
 
-Diese Eigenschaft gibt die zurück[`Chart`](../../../aspose.words.drawing.charts/chart/) Einspruch nur, wenn[`HasChart`](../haschart/) -Eigenschaft ist`WAHR` dafür[`Shape`](../)andernfalls wird eine Ausnahme ausgelöst.
+Diese Eigenschaft gibt die[`Chart`](../../../aspose.words.drawing.charts/chart/) Objekt nur, wenn[`HasChart`](../haschart/) Eigenschaft ist`WAHR` dafür[`Shape`](../), und löst andernfalls eine Ausnahme aus.
 
 ## Beispiele
 
@@ -35,7 +35,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -57,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

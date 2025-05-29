@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: GeneralFormatCollection Remove méthode. Supprime toutes les occurrences du format général spécifié de la collection en C#.
+description: Supprimez facilement toutes les instances d'un format général spécifique de votre collection grâce à la méthode GeneralFormatCollection Remove. Simplifiez la gestion de vos données !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/generalformatcollection/remove/
@@ -28,7 +28,7 @@ Montre comment formater les résultats des champs.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -36,7 +36,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -70,7 +70,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
+// Nous pouvons supprimer nos formats pour ramener le résultat du champ à sa forme d'origine.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -3,7 +3,7 @@ title: BuildingBlock.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: BuildingBlock Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод Accept от BuildingBlock, чтобы беспрепятственно вовлекать посетителей и улучшать пользовательский опыт. Раскройте весь потенциал вашего веб-сайта сегодня!
 type: docs
 weight: 130
 url: /ru/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,31 +22,31 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 Звонки[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , затем вызывает [`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов этого строительного блока, затем вызывает [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
-Примечание. Узел стандартного блока и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../../aspose.words/document/) . Если вы хотите выполнить посетителя поверх строительного блока a , вам необходимо выполнить посетителя поверх[`GlossaryDocument`](../../glossarydocument/) or звонок`Accept` .
+Примечание: узел строительного блока и его дочерние элементы не посещаются при выполнении посетителя a над[`Document`](../../../aspose.words/document/) . Если вы хотите выполнить Посетителя над строительным блоком a , вам нужно выполнить Посетителя над[`GlossaryDocument`](../../glossarydocument/) или вызов`Accept` .
 
 ## Примеры
 
-Показывает, как добавить в документ пользовательский стандартный блок.
+Показывает, как добавить в документ пользовательский строительный блок.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Глоссарий документа. В документе хранятся строительные блоки.
+    // Документ глоссария документа хранит строительные блоки.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Создайте строительный блок, назовите его, а затем добавьте в документ глоссария.
+    // Создайте строительный блок, дайте ему имя, а затем добавьте его в документ глоссария.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -54,24 +54,25 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Все новые GUID строительных блоков по умолчанию имеют одинаковое нулевое значение, и мы можем присвоить им новое уникальное значение.
+    // Все новые GUID-ы строительных блоков по умолчанию имеют одинаковое нулевое значение, и мы можем присвоить им новое уникальное значение.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Следующие свойства классифицируют стандартные блоки
-    // в меню, к которому мы можем получить доступ в Microsoft Word через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
+    // Следующие свойства классифицируют строительные блоки
+    // в меню Microsoft Word мы можем получить доступ через «Вставка» -> «Быстрые элементы» -> «Организатор строительных блоков».
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно будет добавить в него некоторое содержимое,
-    // что мы будем делать с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
+    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно будет придать ему некоторое содержимое,
+    // что мы сделаем с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Перейти к началу/концу BuildingBlock.
     block.Accept(visitor);
 
-    // Мы можем получить доступ к только что созданному блоку из документа глоссария.
+    // Мы можем получить доступ к блоку, который мы только что создали из документа глоссария.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
@@ -86,7 +87,7 @@ public void CreateAndInsert()
 }
 
 /// <summary>
-/// Устанавливает посещенный строительный блок для вставки в документ как быструю часть и добавляет текст к его содержимому.
+/// Настраивает посещенный строительный блок для вставки в документ в качестве быстрой части и добавляет текст к его содержимому.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -105,8 +106,8 @@ public class BuildingBlockVisitor : DocumentVisitor
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Добавляем раздел с текстом.
-        // Вставка блока в документ добавит этот раздел с его дочерними узлами в указанном месте.
+        // Добавить раздел с текстом.
+        // Вставка блока в документ добавит этот раздел с его дочерними узлами в указанное место.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

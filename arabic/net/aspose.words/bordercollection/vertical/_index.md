@@ -3,14 +3,14 @@ title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Vertical ملكية. يحصل على الحد العمودي المستخدم بين الخلايا في C#.
+description: اكتشف خاصية BorderCollection Vertical لحدود خلايا سلسة. حسّن تصميمك بحدود عمودية قابلة للتخصيص لمظهر أنيق!
 type: docs
 weight: 130
 url: /ar/net/aspose.words/bordercollection/vertical/
 ---
 ## BorderCollection.Vertical property
 
-يحصل على الحد العمودي المستخدم بين الخلايا.
+يحصل على الحدود الرأسية المستخدمة بين الخلايا.
 
 ```csharp
 public Border Vertical { get; }
@@ -18,13 +18,13 @@ public Border Vertical { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق الإعدادات على الحدود الرأسية على تنسيق صف الجدول.
+يوضح كيفية تطبيق الإعدادات على الحدود الرأسية لتنسيق صف الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ جدولًا بحدود داخلية حمراء وزرقاء.
+// قم بإنشاء جدول بحدود داخلية باللونين الأحمر والأزرق.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // اضبط مظهر الحدود التي ستظهر بين الصفوف.
+    //ضبط مظهر الحدود التي ستظهر بين الصفوف.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // اضبط مظهر الحدود التي ستظهر بين الخلايا.
+    //ضبط مظهر الحدود التي ستظهر بين الخلايا.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

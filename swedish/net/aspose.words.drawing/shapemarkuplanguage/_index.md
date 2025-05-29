@@ -3,14 +3,14 @@ title: ShapeMarkupLanguage Enum
 linktitle: ShapeMarkupLanguage
 articleTitle: ShapeMarkupLanguage
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.ShapeMarkupLanguage uppräkning. Anger märkningsspråk som används för formen i C#.
+description: Upptäck enumerationen Aspose.Words.Drawing.ShapeMarkupLanguage, som definierar markupspråk för former för förbättrad dokumentformatering och designflexibilitet.
 type: docs
-weight: 1280
+weight: 1670
 url: /sv/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
 
-Anger märkningsspråk som används för formen.
+Anger vilket markupspråk som används för formen.
 
 ```csharp
 public enum ShapeMarkupLanguage : byte
@@ -20,19 +20,19 @@ public enum ShapeMarkupLanguage : byte
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Dml | `0` | Drawing Markup Language används för att definiera formen. |
-| Vml | `1` | Vector Markup Language används för att definiera formen. |
+| Dml | `0` | Ritning Markup Language används för att definiera formen. |
+| Vml | `1` | Vektormarkeringsspråk används för att definiera formen. |
 
 ## Exempel
 
-Visar hur man ställer in en OOXML-efterlevnadsspecifikation för ett sparat dokument att följa.
+Visar hur man ställer in en OOXML-efterlevnadsspecifikation som ett sparat dokument ska följa.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Om vi konfigurerar kompatibilitetsalternativ för att följa Microsoft Word 2003,
-// att infoga en bild kommer att definiera dess form med VML.
+// Om vi konfigurerar kompatibilitetsalternativ så att de följer Microsoft Word 2003,
+// att infoga en bild definierar dess form med hjälp av VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -49,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Vårt sparade dokument definierar formen med DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
+// Vårt sparade dokument definierar formen med hjälp av DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

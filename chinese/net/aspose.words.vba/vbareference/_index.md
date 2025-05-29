@@ -2,10 +2,10 @@
 title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Vba.VbaReference 班级. 实现对自动化类型库或 VBA 项目的引用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Vba.VbaReference 类，实现与自动化类型库和 VBA 项目的无缝集成。立即增强您的文档自动化！
 type: docs
-weight: 6590
+weight: 7440
 url: /zh/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -27,7 +27,7 @@ public abstract class VbaReference
 
 ## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+展示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
 public void RemoveVbaReference()

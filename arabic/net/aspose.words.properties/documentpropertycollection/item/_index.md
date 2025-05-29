@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: DocumentPropertyCollection Item ملكية. إرجاع أDocumentProperty كائن باسم الخاصية في C#.
+description: الوصول إلى كائنات DocumentProperty بسهولة باستخدام عنصر DocumentPropertyCollection. استرجع الخصائص بالاسم لإدارة مستندات سلسة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن باسم الخاصية.
+يعيد[`DocumentProperty`](../../documentproperty/) الكائن حسب اسم الخاصية.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -18,22 +18,22 @@ public virtual DocumentProperty this[string name] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| name | اسم الخاصية غير حساس لحالة الأحرف المراد استرداده. |
+| name | الاسم غير الحساس لحالة الأحرف للخاصية التي سيتم استردادها. |
 
 ## ملاحظات
 
-عائدات`باطل` إذا لم يتم العثور على خاصية بالاسم المحدد.
+الإرجاعات`باطل` إذا لم يتم العثور على خاصية بالاسم المحدد.
 
 ## أمثلة
 
-يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على التاريخ والوقت.
+يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على تاريخ ووقت.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### أنظر أيضا
@@ -47,7 +47,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن حسب الفهرس.
+يعيد[`DocumentProperty`](../../documentproperty/) الكائن حسب index.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -55,7 +55,7 @@ public DocumentProperty this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | المؤشر الصفري[`DocumentProperty`](../../documentproperty/) لأسترجاع. |
+| index | مؤشر قائم على الصفر[`DocumentProperty`](../../documentproperty/) لاسترجاع. |
 
 ## أمثلة
 
@@ -64,8 +64,8 @@ public DocumentProperty this[int index] { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
- // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
+// تحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، عبارة عن أزواج من القيمة الأساسية.
+ // تحتوي الوثيقة على قائمة ثابتة من الخصائص المضمنة. يُنشئ المستخدم جميع الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,7 +3,7 @@ title: FieldIndex.PageRangeSeparator
 linktitle: PageRangeSeparator
 articleTitle: PageRangeSeparator
 second_title: Aspose.Words per .NET
-description: FieldIndex PageRangeSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare linizio e la fine di un intervallo di pagine in C#.
+description: Scopri la proprietà PageRangeSeparator in FieldIndex. Personalizza facilmente la sequenza di caratteri per una formattazione fluida degli intervalli di pagina e migliora la chiarezza del tuo documento.
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -18,20 +18,20 @@ public string PageRangeSeparator { get; set; }
 
 ## Esempi
 
-Mostra come specificare le pagine estese di un segnalibro come intervallo di pagine per una voce del campo INDICE.
+Mostra come specificare le pagine estese di un segnalibro come intervallo di pagine per una voce di campo INDICE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Crea un campo INDICE che visualizzerà una voce per ogni campo XE trovato nel documento.
-// Ogni voce visualizzerà il valore della proprietà Text del campo XE sul lato sinistro,
-// e il numero della pagina che contiene il campo XE a destra.
-// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Text".
-// in una voce invece di creare una voce per ciascun campo XE.
+// Ogni voce visualizzerà il valore della proprietà Testo del campo XE sul lato sinistro,
+// e il numero della pagina che contiene il campo XE sulla destra.
+// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Testo"
+// in una voce anziché creare una voce per ogni campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Per le voci INDEX che visualizzano intervalli di pagine, possiamo specificare una stringa separatore
+// Per le voci INDEX che visualizzano intervalli di pagine, possiamo specificare una stringa di separazione
 // che apparirà tra il numero della prima pagina e il numero dell'ultima.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
@@ -42,17 +42,17 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "My entry";
 
-// Se un campo XE nomina un segnalibro utilizzando la proprietà PageRangeBookmarkName,
-// la sua voce INDEX mostrerà l'intervallo di pagine su cui si estende il segnalibro
-// al posto del numero della pagina che contiene il campo XE.
+// Se un campo XE assegna un nome a un segnalibro utilizzando la proprietà PageRangeBookmarkName,
+// la sua voce INDICE mostrerà l'intervallo di pagine che il segnalibro copre
+// invece del numero della pagina che contiene il campo XE.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
 Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
 Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
 // Inserisci un segnalibro che inizia a pagina 3 e finisce a pagina 5.
-// La voce INDEX per il campo XE che fa riferimento a questo segnalibro visualizzerà questo intervallo di pagine.
-// Nella nostra tabella, la voce INDEX mostrerà "La mia voce, nelle pagine da 3 a 5".
+// La voce INDICE per il campo XE che fa riferimento a questo segnalibro visualizzerà questo intervallo di pagine.
+// Nella nostra tabella, la voce INDICE visualizzerà "La mia voce, nelle pagine da 3 a 5".
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");

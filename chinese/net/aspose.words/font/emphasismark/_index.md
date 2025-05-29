@@ -2,15 +2,15 @@
 title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
-second_title: 用于 .NET 的 Aspose.Words
-description: Font EmphasisMark 财产. 获取或设置应用于此格式的强调标记 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用字体强调符号属性来增强文本格式。学习如何设置和自定义强调符号，以提高可读性。
 type: docs
 weight: 110
 url: /zh/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-获取或设置应用于此格式的强调标记。
+获取或设置应用于此格式的强调符号。
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -18,7 +18,7 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ## 例子
 
-展示如何添加在字形字符上方/下方呈现的附加字符。
+展示如何在字形字符上方/下方添加渲染的附加字符。
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

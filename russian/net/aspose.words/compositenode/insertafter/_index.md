@@ -3,23 +3,24 @@ title: CompositeNode.InsertAfter
 linktitle: InsertAfter
 articleTitle: InsertAfter
 second_title: Aspose.Words для .NET
-description: CompositeNode InsertAfter метод. Вставляет указанный узел сразу после указанного ссылочного узла на С#.
+description: Легко вставляйте узлы с помощью метода CompositeNode InsertAfter, улучшая управление структурой данных и обеспечивая эффективное размещение узлов.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.words/compositenode/insertafter/
 ---
-## CompositeNode.InsertAfter method
+## CompositeNode.InsertAfter&lt;T&gt; method
 
 Вставляет указанный узел сразу после указанного ссылочного узла.
 
 ```csharp
-public Node InsertAfter(Node newChild, Node refChild)
+public T InsertAfter<T>(T newChild, Node refChild)
+    where T : Node
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newChild | Node | [`Node`](../../node/) вставить. |
-| refChild | Node | [`Node`](../../node/) это опорный узел.*newChild* ставится после*refChild*. |
+| newChild | T | The[`Node`](../../node/) вставить. |
+| refChild | Node | The[`Node`](../../node/) это опорный узел.*newChild* ставится после*refChild*. |
 
 ### Возвращаемое значение
 
@@ -29,9 +30,9 @@ public Node InsertAfter(Node newChild, Node refChild)
 
 Если*refChild* является`нулевой` , вставки*newChild* в начале списка дочерних узлов.
 
-Если*newChild* уже есть в дереве, его сначала удаляют.
+Если*newChild* уже есть в дереве, сначала его удаляют.
 
-Если вставляемый узел был создан из другого документа, вам следует использовать [`ImportNode`](../../documentbase/importnode/) для импорта узла в текущий документ. Импортированный узел можно затем вставить в текущий документ.
+Если вставляемый узел был создан из другого документа, следует использовать [`ImportNode`](../../documentbase/importnode/) для импорта узла в текущий документ. Импортированный узел затем можно вставить в текущий документ.
 
 ## Примеры
 
@@ -83,7 +84,7 @@ Document doc = new Document();
 // Пустой документ по умолчанию имеет один абзац.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Составные узлы, такие как наш абзац, могут содержать в качестве дочерних элементов другие составные и строчные узлы.
+// Составные узлы, такие как наш абзац, могут содержать другие составные и встроенные узлы в качестве дочерних.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -94,28 +95,28 @@ Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
 // Тело документа не будет отображать эти прогоны, пока мы не вставим их в составной узел
-// это само по себе является частью дерева узлов документа, как мы делали при первом запуске.
+// который сам по себе является частью дерева узлов документа, как мы это делали при первом запуске.
 // Мы можем определить, где находится текстовое содержимое узлов, которые мы вставляем
-// появляется в документе при указании места вставки относительно другого узла в абзаце.
+// появляется в документе, указывая место вставки относительно другого узла в абзаце.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Вставляем второй проход в абзац перед первым.
+// Вставьте вторую строку в абзац перед первой строкой.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Вставляем третий запуск после первого.
+// Вставьте третий запуск после первого запуска.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Вставляем первый прогон в начало коллекции дочерних узлов абзаца.
+// Вставляем первую строку в начало коллекции дочерних узлов абзаца.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Мы можем изменить содержимое прогона, отредактировав и удалив существующие дочерние узлы.
+// Мы можем изменить содержимое прогона, редактируя и удаляя существующие дочерние узлы.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

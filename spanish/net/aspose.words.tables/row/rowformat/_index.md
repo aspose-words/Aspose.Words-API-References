@@ -3,7 +3,7 @@ title: Row.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words para .NET
-description: Row RowFormat propiedad. Proporciona acceso a las propiedades de formato de la fila en C#.
+description: Descubra la propiedad Row RowFormat para acceder fácilmente a opciones de formato de fila personalizables, mejorando la presentación de sus datos sin esfuerzo.
 type: docs
 weight: 110
 url: /es/net/aspose.words.tables/row/rowformat/
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## Ejemplos
 
-Muestra cómo modificar el formato de una fila de la tabla.
+Muestra cómo modificar el formato de una fila de una tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -51,7 +51,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la propiedad "RowFormat" de la primera fila para modificar el formato
+// Utilice la propiedad "RowFormat" de la primera fila para modificar el formato
 // del contenido de todas las celdas de esta fila.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;

@@ -3,9 +3,9 @@ title: Aspose.Words.Drawing.Charts
 linktitle: Aspose.Words.Drawing.Charts
 articleTitle: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words för .NET
-description: DeAspose.Words.Drawing.Charts namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Worddokument i C#.
+description: Få tillgång till och manipulera Microsoft Word-diagram utan ansträngning med Aspose.Words.Drawing.Charts. Förbättra dina dokument med kraftfulla diagramfunktioner idag!
 type: docs
-weight: 60
+weight: 80
 url: /sv/net/aspose.words.drawing.charts/
 ---
 De**Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Word-dokument.
@@ -14,28 +14,32 @@ De**Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som tillå
 
 | Klass | Beskrivning |
 | --- | --- |
-| [AxisBound](./axisbound/) | Representerar lägsta eller maximala gräns för axelvärden. |
-| [AxisDisplayUnit](./axisdisplayunit/) | Ger tillgång till skalningsalternativen för visningsenheterna för värdeaxeln. |
+| [AxisBound](./axisbound/) | Representerar den minsta eller största gränsen för axelvärden. |
+| [AxisDisplayUnit](./axisdisplayunit/) | Ger åtkomst till skalningsalternativen för visningsenheterna för värdeaxeln. |
 | [AxisScaling](./axisscaling/) | Representerar skalningsalternativen för axeln. |
+| [AxisTickLabels](./axisticklabels/) | Representerar egenskaper för axelmarkeringsetiketter. |
 | [BubbleSizeCollection](./bubblesizecollection/) | Representerar en samling bubbelstorlekar för en diagramserie. |
-| [Chart](./chart/) | Ger tillgång till diagramformens egenskaper. |
-| [ChartAxis](./chartaxis/) | Representerar axelalternativen för diagrammet. |
-| [ChartAxisCollection](./chartaxiscollection/) | Representerar en samling av diagramaxlar. |
-| [ChartAxisTitle](./chartaxistitle/) | Ger tillgång till egenskaperna för axeltiteln. |
-| [ChartDataLabel](./chartdatalabel/) | Representerar dataetikett på en diagrampunkt eller trendlinje. |
+| [Chart](./chart/) | Ger åtkomst till diagrammets formegenskaper. |
+| [ChartAxis](./chartaxis/) | Representerar axelalternativen i diagrammet. |
+| [ChartAxisCollection](./chartaxiscollection/) | Representerar en samling diagramaxlar. |
+| [ChartAxisTitle](./chartaxistitle/) | Ger åtkomst till axeltitelegenskaperna. |
+| [ChartDataLabel](./chartdatalabel/) | Representerar dataetiketten på en diagrampunkt eller trendlinje. |
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | Representerar en samling av[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
-| [ChartDataPoint](./chartdatapoint/) | Tillåter att ange formatering av en enskild datapunkt på diagrammet. |
+| [ChartDataPoint](./chartdatapoint/) | Gör det möjligt att ange formatering för en enskild datapunkt i diagrammet. |
 | [ChartDataPointCollection](./chartdatapointcollection/) | Representerar en samling av en[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
+| [ChartDataTable](./chartdatatable/) | Gör det möjligt att ange egenskaper för en diagramdatatabell. |
 | [ChartFormat](./chartformat/) | Representerar formateringen av ett diagramelement. |
-| [ChartLegend](./chartlegend/) | Representerar diagramförklaringsegenskaper. |
-| [ChartLegendEntry](./chartlegendentry/) | Representerar en diagramförklaringspost. |
-| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Representerar en samling av diagramförklaringsposter. |
-| [ChartMarker](./chartmarker/) | Representerar en diagramdatamarkör. |
-| [ChartMultilevelValue](./chartmultilevelvalue/) | Representerar ett värde för diagram som visar flernivådata. |
-| [ChartNumberFormat](./chartnumberformat/) | Representerar nummerformatering av det överordnade elementet. |
-| [ChartSeries](./chartseries/) | Representerar diagramserieegenskaper. |
+| [ChartLegend](./chartlegend/) | Representerar egenskaper för diagramförklaring. |
+| [ChartLegendEntry](./chartlegendentry/) | Representerar en post i diagramförklaringen. |
+| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Representerar en samling poster i diagramförklaringar. |
+| [ChartMarker](./chartmarker/) | Representerar en datamarkör för diagrammet. |
+| [ChartMultilevelValue](./chartmultilevelvalue/) | Representerar ett värde för diagram som visar data på flera nivåer. |
+| [ChartNumberFormat](./chartnumberformat/) | Representerar numerisk formatering av det överordnade elementet. |
+| [ChartSeries](./chartseries/) | Representerar egenskaper för diagramserien. |
 | [ChartSeriesCollection](./chartseriescollection/) | Representerar en samling av en[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
-| [ChartTitle](./charttitle/) | Ger tillgång till egenskaperna för diagramtiteln. |
+| [ChartSeriesGroup](./chartseriesgroup/) | Representerar egenskaper för en diagramseriegrupp, det vill säga egenskaperna för diagramserier av samma typ associerade med samma axlar. |
+| [ChartSeriesGroupCollection](./chartseriesgroupcollection/) | Representerar en samling av[`ChartSeriesGroup`](../aspose.words.drawing.charts/chartseriesgroup/) objekt. |
+| [ChartTitle](./charttitle/) | Ger åtkomst till egenskaperna för diagramtiteln. |
 | [ChartXValue](./chartxvalue/) | Representerar ett X-värde för en diagramserie. |
 | [ChartXValueCollection](./chartxvaluecollection/) | Representerar en samling av X-värden för en diagramserie. |
 | [ChartYValue](./chartyvalue/) | Representerar ett Y-värde för en diagramserie. |
@@ -52,15 +56,19 @@ De**Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som tillå
 | [AxisBuiltInUnit](./axisbuiltinunit/) | Anger visningsenheterna för en axel. |
 | [AxisCategoryType](./axiscategorytype/) | Anger typen av en kategoriaxel. |
 | [AxisCrosses](./axiscrosses/) | Anger möjliga korsningspunkter för en axel. |
+| [AxisGroup](./axisgroup/) | Representerar en typ av axelgrupp i ett diagram. |
 | [AxisScaleType](./axisscaletype/) | Anger möjliga skaltyper för en axel. |
-| [AxisTickLabelPosition](./axisticklabelposition/) | Anger möjliga positioner för bocketiketter. |
-| [AxisTickMark](./axistickmark/) | Anger möjliga positioner för bockmarkeringar. |
+| [AxisTickLabelPosition](./axisticklabelposition/) | Anger möjliga positioner för skalstämpeletiketter. |
+| [AxisTickMark](./axistickmark/) | Anger möjliga positioner för skalstreck. |
 | [AxisTimeUnit](./axistimeunit/) | Anger tidsenheten för axlar. |
 | [ChartAxisType](./chartaxistype/) | Anger typ av diagramaxel. |
-| [ChartSeriesType](./chartseriestype/) | Anger en typ av en diagramserie. |
+| [ChartDataLabelLocationMode](./chartdatalabellocationmode/) | Anger hur värdena som anger platsen för en dataetikett - den[`Left`](../aspose.words.drawing.charts/chartdatalabel/left/) och [`Top`](../aspose.words.drawing.charts/chartdatalabel/top/) egenskaper - tolkas. |
+| [ChartDataLabelPosition](./chartdatalabelposition/) | Anger positionen för en diagramdataetikett. |
+| [ChartSeriesType](./chartseriestype/) | Anger en typ av diagramserie. |
 | [ChartShapeType](./chartshapetype/) | Anger formtypen för diagramelement. |
-| [ChartType](./charttype/) | Anger typen av ett diagram. |
-| [ChartXValueType](./chartxvaluetype/) | Tillåter att ange typ av ett X-värde i en diagramserie. |
-| [ChartYValueType](./chartyvaluetype/) | Gör det möjligt att ange typ av ett Y-värde i en diagramserie. |
+| [ChartStyle](./chartstyle/) | Anger fördefinierade stilar för ett diagram. |
+| [ChartType](./charttype/) | Anger typen av diagram. |
+| [ChartXValueType](./chartxvaluetype/) | Gör det möjligt att ange typen av ett X-värde i en diagramserie. |
+| [ChartYValueType](./chartyvaluetype/) | Gör det möjligt att ange typen av ett Y-värde i en diagramserie. |
 | [LegendPosition](./legendposition/) | Anger möjliga positioner för en diagramförklaring. |
-| [MarkerSymbol](./markersymbol/) | Anger markörsymbolstil. |
+| [MarkerSymbol](./markersymbol/) | Anger markörsymbolens stil. |

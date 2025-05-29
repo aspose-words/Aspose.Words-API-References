@@ -2,8 +2,8 @@
 title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET
-description: ListLabel Font mülk. Liste etiketi yazı tipini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Liste etiketinizin yazı tipini özelleştirmek ve tasarımınızı profesyonel bir dokunuşla geliştirmek için ListLabel Font özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/listlabel/font/

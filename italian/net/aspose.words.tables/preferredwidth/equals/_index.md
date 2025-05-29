@@ -3,14 +3,14 @@ title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words per .NET
-description: PreferredWidth Equals metodo. Determina se specificatoPreferredWidth ha lo stesso valore della correntePreferredWidth  in C#.
+description: Scopri come il metodo PreferredWidth Equals verifica se la larghezza specificata corrisponde al valore corrente, garantendo precisione nella progettazione del layout.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(*[PreferredWidth](../)*) {#equals}
 
-Determina se specificato[`PreferredWidth`](../) ha lo stesso valore della corrente[`PreferredWidth`](../) .
+Determina se il valore specificato[`PreferredWidth`](../) ha un valore uguale a quello attuale[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -18,7 +18,7 @@ public bool Equals(PreferredWidth other)
 
 ## Esempi
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.
@@ -71,7 +71,7 @@ public override bool Equals(object obj)
 
 ## Esempi
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -93,7 +93,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

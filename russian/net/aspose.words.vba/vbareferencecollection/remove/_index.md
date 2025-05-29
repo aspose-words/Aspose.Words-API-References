@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: VbaReferenceCollection Remove метод. Удаляет первое вхождение указанногоVbaReference предмет из коллекции на С#.
+description: Без усилий удалите первый элемент VbaReference из вашей коллекции с помощью метода Remove. Оптимизируйте свои проекты VBA для оптимальной производительности!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.vba/vbareferencecollection/remove/
@@ -18,7 +18,7 @@ public void Remove(VbaReference item)
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

@@ -2,8 +2,8 @@
 title: SvgSaveOptions
 linktitle: SvgSaveOptions
 articleTitle: SvgSaveOptions
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz SVG dosya yönetimi için SvgSaveOptions oluşturucusunu keşfedin. Verimli grafik dışa aktarımları ve gelişmiş iş akışı için varsayılan ayarların kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/svgsaveoptions/svgsaveoptions/

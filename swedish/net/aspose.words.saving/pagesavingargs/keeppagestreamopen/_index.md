@@ -3,7 +3,7 @@ title: PageSavingArgs.KeepPageStreamOpen
 linktitle: KeepPageStreamOpen
 articleTitle: KeepPageStreamOpen
 second_title: Aspose.Words för .NET
-description: PageSavingArgs KeepPageStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en dokumentsida har sparats i C#.
+description: Upptäck hur egenskapen KeepPageStreamOpen i PageSavingArgs förbättrar dokumenthanteringen med Aspose.Words genom att kontrollera strömbeteendet för optimal prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -18,11 +18,11 @@ public bool KeepPageStreamOpen { get; set; }
 
 ## Anmärkningar
 
-Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`PageStream`](../pagestream/) egenskap efter att ha skrivit en dokumentsida i den. Specificera`Sann` för att hålla strömmen öppen.
+Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`PageStream`](../pagestream/) egenskap efter att en dokumentsida skrivits in i den. Ange`sann` för att hålla strömmen öppen.
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
+Visar hur man använder en återanropsfunktion för att spara ett dokument till HTML sida för sida.
 
 ```csharp
 public void PageFileNames()
@@ -37,12 +37,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Vi kommer att spara varje sida i detta dokument till en separat HTML-fil i det lokala filsystemet.
-    // Ställ in en återuppringning som låter oss namnge varje utdata-HTML-dokument.
+    // Vi sparar varje sida i det här dokumentet till en separat HTML-fil i det lokala filsystemet.
+    // Ställ in en återanropsfunktion som låter oss namnge varje HTML-dokument som utdata.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -62,7 +62,7 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Nedan finns två sätt att ange var Aspose.Words kommer att spara varje sida i dokumentet.
+        // Nedan följer två sätt att ange var Aspose.Words ska spara varje sida i dokumentet.
         // 1 - Ange ett filnamn för utdatafilen:
         args.PageFileName = outFileName;
 

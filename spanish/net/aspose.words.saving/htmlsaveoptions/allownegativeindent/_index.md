@@ -3,7 +3,7 @@ title: HtmlSaveOptions.AllowNegativeIndent
 linktitle: AllowNegativeIndent
 articleTitle: AllowNegativeIndent
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions AllowNegativeIndent propiedad. Especifica si las sangrías negativas izquierda y derecha de los párrafos se normalizan al guardar en HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad HtmlSaveOptions AllowNegativeIndent para controlar la sangría de párrafo al guardar en HTML, MHTML o EPUB. ¡Optimice el formato de sus documentos hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -18,7 +18,7 @@ public bool AllowNegativeIndent { get; set; }
 
 ## Observaciones
 
-Cuando no se permite la sangría negativa, se exporta como margen cero a HTML. Cuando se permite la sangría negativa, un párrafo puede aparecer parcialmente fuera de la ventana del navegador .
+Cuando no se permite la sangría negativa, se exporta como margen cero a HTML. Cuando se permite la sangría negativa, un párrafo puede aparecer parcialmente fuera de la ventana del navegador.
 
 ## Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo conservar sangrías negativas en el archivo .html de salida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una tabla con sangría negativa, lo que la empujará hacia la izquierda más allá del límite izquierdo de la página.
+// Inserta una tabla con una sangría negativa, que la empujará hacia la izquierda más allá del límite izquierdo de la página.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Inserta una tabla con una sangría positiva, lo que empujará la tabla hacia la derecha.
+// Inserta una tabla con una sangría positiva, que empujará la tabla hacia la derecha.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -51,7 +51,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Cuando guardamos un documento en HTML, Aspose.Words solo conservará las sangrías negativas
-// como el que hemos aplicado a la primera tabla si configuramos el indicador "AllowNegativeIndent"
+// como el que hemos aplicado a la primera tabla si activamos el indicador "AllowNegativeIndent"
 // en un objeto SaveOptions que pasaremos a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

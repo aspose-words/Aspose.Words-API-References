@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagEnd
 linktitle: VisitStructuredDocumentTagEnd
 articleTitle: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitStructuredDocumentTagEnd méthode. Appelé lorsque lénumération dune balise de document structuré est terminée en C#.
+description: Découvrez la méthode DocumentVisitor VisitStructuredDocumentTagEnd, essentielle pour gérer efficacement l'énumération des balises de documents structurés. Améliorez vos compétences en codage !
 type: docs
 weight: 440
 url: /fr/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
-Montre comment imprimer la structure de nœuds de chaque balise de document structuré dans un document.
+Montre comment imprimer la structure du nœud de chaque balise de document structuré dans un document.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -34,8 +34,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -43,7 +43,7 @@ public void StructuredDocumentTagToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
 /// Crée une carte sous la forme d'une chaîne de tous les nœuds StructuredDocumentTag rencontrés et de leurs enfants.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
@@ -95,9 +95,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

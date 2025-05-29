@@ -2,8 +2,8 @@
 title: FieldSeq
 linktitle: FieldSeq
 articleTitle: FieldSeq
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSeq 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSeq 构造函数——高效序列管理的首选解决方案。立即解锁无缝集成和增强性能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldseq/fieldseq/

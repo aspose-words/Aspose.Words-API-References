@@ -3,14 +3,14 @@ title: Document.RemoveMacros
 linktitle: RemoveMacros
 articleTitle: RemoveMacros
 second_title: Aspose.Words для .NET
-description: Document RemoveMacros метод. Удаляет из документа все макросы проект VBA а также панели инструментов и настройки команд на С#.
+description: С легкостью удаляйте все макросы, панели инструментов и пользовательские настройки команд из проекта VBA с помощью метода Document RemoveMacros, чтобы сделать документ более чистым.
 type: docs
-weight: 670
+weight: 720
 url: /ru/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
 
-Удаляет из документа все макросы (проект VBA), а также панели инструментов и настройки команд.
+Удаляет все макросы (проект VBA), а также панели инструментов и настройки команд из документа.
 
 ```csharp
 public void RemoveMacros()
@@ -18,7 +18,7 @@ public void RemoveMacros()
 
 ## Примечания
 
-Удалив все макросы из документа, вы можете гарантировать, что документ не содержит макровирусов.
+Удалив все макросы из документа, вы можете быть уверены в том, что документ не содержит макровирусов.
 
 ## Примеры
 
@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Macro.docm");
 Assert.IsTrue(doc.HasMacros);
 Assert.AreEqual("Project", doc.VbaProject.Name);
 
-// Удаляем проект VBA документа вместе со всеми его макросами.
+// Удалить проект VBA документа вместе со всеми его макросами.
 doc.RemoveMacros();
 
 Assert.IsFalse(doc.HasMacros);

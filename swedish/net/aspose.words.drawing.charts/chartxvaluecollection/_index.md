@@ -3,9 +3,9 @@ title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection klass. Representerar en samling av Xvärden för en diagramserie i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Charts.ChartXValueCollection, din lösning för att effektivt hantera X-värdesamlingar i diagramserier.
 type: docs
-weight: 850
+weight: 1170
 url: /sv/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
@@ -20,24 +20,25 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Hämtar antalet föremål i den här samlingen. |
-| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Hämtar eller ställer in X-värdet på det angivna indexet. |
+| [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Hämtar antalet objekt i den här samlingen. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | Hämtar eller ställer in formatkoden som tillämpas på X-värdena. |
+| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Hämtar eller ställer in X-värdet vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 
 ## Anmärkningar
 
 Alla föremål i samlingen förutom**null** måste ha samma[`ValueType`](../chartxvalue/valuetype/).
 
-Samlingen tillåter endast att ändra X-värden. För att lägga till eller infoga nya värden i en diagramserie, eller ta bort värden, lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
+Samlingen tillåter endast ändring av X-värden. För att lägga till eller infoga nya värden i en diagramserie, eller ta bort värden, använd lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
 
 ## Exempel
 
-Visar hur man får diagramseriedata.
+Visar hur man hämtar data från diagramserier.
 
 ```csharp
 Document doc = new Document();
@@ -55,10 +56,10 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Rensa individuellt format för alla datapunkter.
-    // Datapunkter och datavärden är en-till-en i kolumndiagram.
+    // Datapunkter och datavärden är ett-till-ett i kolumndiagram.
     series.DataPoints[i].ClearFormat();
 
-    // Få Y-värde.
+    // Hämta Y-värde.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Ändra färger på max- och minvärden.
+// Ändra färgerna på max- och min-värdena.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

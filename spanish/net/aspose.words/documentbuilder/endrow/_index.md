@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 linktitle: EndRow
 articleTitle: EndRow
 second_title: Aspose.Words para .NET
-description: DocumentBuilder EndRow método. Finaliza una fila de la tabla en el documento en C#.
+description: Finaliza fácilmente las filas de las tablas de tus documentos con el método EndRow de DocumentBuilder. ¡Optimiza el formato y mejora la claridad de tus documentos!
 type: docs
 weight: 240
 url: /es/net/aspose.words/documentbuilder/endrow/
@@ -22,13 +22,13 @@ El nodo de fila que acaba de terminar.
 
 ## Observaciones
 
-Llamar`EndRow` para finalizar una fila de la tabla. si llamas[`InsertCell`](../insertcell/) inmediatamente después de eso, la tabla continúa en una nueva fila.
+Llamar`EndRow` para finalizar una fila de la tabla. Si llamas[`InsertCell`](../insertcell/) inmediatamente después de eso, la tabla continúa en una nueva fila.
 
-Utilizar el[`RowFormat`](../rowformat/) propiedad para especificar el formato de fila.
+Utilice el[`RowFormat`](../rowformat/) propiedad para especificar el formato de fila.
 
 ## Ejemplos
 
-Muestra cómo fusionar celdas de tablas verticalmente.
+Muestra cómo fusionar celdas de una tabla verticalmente.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserta una celda en la segunda columna de la primera fila, luego finaliza la fila.
+// Inserta una celda en la segunda columna de la primera fila y luego finaliza la fila.
 // Además, configure el generador para deshabilitar la combinación vertical en las celdas creadas.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
@@ -62,7 +62,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 ```
 
-Muestra cómo crear una tabla formateada de 2x2.
+Muestra cómo construir una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +76,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
+// Al construir la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -92,7 +92,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas previamente no se ven afectadas retroactivamente por los cambios en el formato del generador.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -111,8 +111,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -135,9 +135,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

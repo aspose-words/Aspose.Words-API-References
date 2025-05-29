@@ -2,15 +2,15 @@
 title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.GeneralFormatCollection 班级. 表示通用格式的类型化集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.GeneralFormatCollection 类 - 一种功能强大、类型化的集合，可轻松管理文档中的通用格式。
 type: docs
-weight: 2650
+weight: 3060
 url: /zh/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
-表示通用格式的类型化集合。
+表示通用格式的类型集合。
 
 要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
@@ -29,14 +29,14 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | 将通用格式添加到集合中。 |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | 向集合添加通用格式。 |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | 从集合中删除所有出现的指定通用格式。 |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | 删除指定索引处出现的通用格式。 |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | 从集合中删除所有指定的通用格式。 |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | 删除指定索引处的通用格式。 |
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

@@ -2,8 +2,8 @@
 title: Glyph
 linktitle: Glyph
 articleTitle: Glyph
-second_title: Aspose.Words for .NET
-description: Glyph inşaatçı. Bu sınıfın yeni örneğini başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Glyph Constructor'ımızla zahmetsizce çarpıcı glifler yaratın. Yeni örnekleri kolayca başlatın ve tasarım projelerinizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/glyph/glyph/
@@ -18,10 +18,10 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| glyphIndex | Int32 | Glif indeksi. |
-| advance | Int16 | Glifin gelişmiş ölçüsü. |
-| advanceOffset | Int16 | Yatay (x) uzaklık. |
-| ascenderOffset | Int16 | Dikey (y) uzaklık. |
+| glyphIndex | Int32 | Glif dizini. |
+| advance | Int16 | Glifin gelişmiş metriği. |
+| advanceOffset | Int16 | Yatay (x) ofset. |
+| ascenderOffset | Int16 | Dikey (y) ofset. |
 
 ### Ayrıca bakınız
 

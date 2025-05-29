@@ -3,14 +3,14 @@ title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
 second_title: Aspose.Words pour .NET
-description: Row PreviousRow propriété. Récupère le précédentRow nœud en C#.
+description: Accédez à la propriété PreviousRow pour récupérer facilement le nœud de ligne précédent, améliorant ainsi votre navigation dans les données et rationalisant votre flux de travail de codage.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.tables/row/previousrow/
 ---
 ## Row.PreviousRow property
 
-Récupère le précédent[`Row`](../) nœud.
+Obtient le précédent[`Row`](../) nœud.
 
 ```csharp
 public Row PreviousRow { get; }
@@ -18,7 +18,7 @@ public Row PreviousRow { get; }
 
 ## Remarques
 
-La méthode peut être utilisée lorsque vous devez avoir un accès typé aux lignes du tableau. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)le nœud se trouve dans une table au lieu d'une ligne, il est automatiquement parcouru pour obtenir une ligne contenue à l'intérieur.
+Cette méthode peut être utilisée lorsque vous avez besoin d'un accès typé aux lignes d'une table. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) le nœud est trouvé dans une table au lieu d'une ligne, il est automatiquement parcouru pour obtenir une ligne contenue à l'intérieur.
 
 ## Exemples
 
@@ -28,7 +28,7 @@ Montre comment énumérer toutes les cellules du tableau.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Énumère toutes les cellules du tableau.
+// Énumérer toutes les cellules du tableau.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

@@ -3,14 +3,14 @@ title: Document.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
 second_title: Aspose.Words für .NET
-description: Document ExtractPages methode. Gibt die zurückDocument Objekt das den angegebenen Seitenbereich darstellt in C#.
+description: Entdecken Sie die Methode „Document ExtractPages“, um mühelos bestimmte Seitenbereiche abzurufen und so Ihre Dokumentenverwaltung und Effizienz zu verbessern.
 type: docs
-weight: 600
+weight: 640
 url: /de/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-Gibt die zurück[`Document`](../) Objekt, das den angegebenen Seitenbereich darstellt.
+Gibt die[`Document`](../) Objekt, das den angegebenen Seitenbereich darstellt.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -23,7 +23,7 @@ public Document ExtractPages(int index, int count)
 
 ## Bemerkungen
 
-Das resultierende Dokument sollte wie das in MS Word aussehen, als ob wir „Bestimmte Seiten drucken“ ausgeführt hätten – die Nummerierung, Kopf-/Fußzeilen und das Layout der Kreuztabellen bleiben erhalten. Aber aufgrund einer großen Anzahl von Nuancen, die angezeigt werden Während die Anzahl der Seiten reduziert wird, ist die vollständige Anpassung des Layouts eine ziemlich komplizierte Aufgabe, die viel Aufwand erfordert. Abhängig von der Komplexität des Dokuments kann es zu geringfügigen Unterschieden im resultierenden Layout des Dokumentinhalts im Vergleich zum Quelldokument kommen. Wir würden uns über Feedback freuen Ich bin sehr dankbar.
+Das resultierende Dokument sollte wie das in MS Word aussehen, als hätten wir „Bestimmte Seiten drucken“ ausgeführt – die Nummerierung, Kopf-/Fußzeilen und das Layout der Kreuztabellen bleiben erhalten. Aufgrund der Vielzahl von Nuancen, die bei der Reduzierung der Seitenzahl auftreten, ist die vollständige Anpassung des Layouts jedoch eine ziemlich komplizierte Aufgabe, die viel Aufwand erfordert. Je nach Komplexität des Dokuments kann es leichte Unterschiede im Layout des resultierenden Dokumentinhalts im Vergleich zum Quelldokument geben. Für jedes Feedback sind wir sehr dankbar.
 
 ## Beispiele
 

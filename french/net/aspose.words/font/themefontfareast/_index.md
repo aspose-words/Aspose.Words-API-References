@@ -3,14 +3,14 @@ title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
 second_title: Aspose.Words pour .NET
-description: Font ThemeFontFarEast propriété. Obtient ou définit la police du thème dAsie de lEst dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
+description: Découvrez comment personnaliser les polices d'Asie de l'Est dans vos créations avec Font ThemeFontFarEast. Sublimez vos projets avec une typographie unique et sur mesure !
 type: docs
-weight: 500
+weight: 510
 url: /fr/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Obtient ou définit la police du thème d'Asie de l'Est dans le jeu de polices appliqué associé à ce thème.[`Font`](../) objet.
+Obtient ou définit la police du thème d'Asie de l'Est dans le schéma de polices appliqué qui est associé à ceci[`Font`](../) objet.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }
@@ -18,7 +18,7 @@ public ThemeFont ThemeFontFarEast { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

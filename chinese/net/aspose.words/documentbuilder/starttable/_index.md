@@ -2,15 +2,15 @@
 title: DocumentBuilder.StartTable
 linktitle: StartTable
 articleTitle: StartTable
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder StartTable 方法. 在文档中启动一个表格 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder 的 StartTable 方法，轻松在文档中创建专业表格。轻松增强您的格式！
 type: docs
-weight: 640
+weight: 680
 url: /zh/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
 
-在文档中启动一个表格。
+在文档中开始一个表格。
 
 ```csharp
 public Table StartTable()
@@ -22,13 +22,13 @@ public Table StartTable()
 
 ## 评论
 
-下一个调用的方法是[`InsertCell`](../insertcell/)。
+下一个要调用的方法是[`InsertCell`](../insertcell/)。
 
-当在单元格内调用时，此方法会启动一个嵌套表。
+当在单元格内部调用此方法时，将启动一个嵌套表。
 
 ## 例子
 
-演示如何使用文档生成器设置单元格格式。
+展示如何使用文档生成器来格式化单元格。
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 第一个单元格不受填充重新配置的影响，并且仍然保留默认值。
+// 第一个单元格不受填充重新配置的影响，仍然保留默认值。
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -66,11 +66,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// 第一个单元格仍将在输出文档中增长，以匹配其相邻单元格的大小。
+// 第一个单元格仍将在输出文档中增长以匹配其相邻单元格的大小。
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-演示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表。
 
 ```csharp
 Document doc = new Document();
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// 构建表时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
-// 到其光标所在的当前行/单元格以及创建它们时的任何新行/单元格。
+// 在构建表格时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
+// 到其光标所在的当前行/单元格以及它创建的任何新行/单元格。
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 先前添加的行和单元格不会受到构建器格式更改的影响。
+// 先前添加的行和单元格不会因构建器格式的更改而受到追溯影响。
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -111,7 +111,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-演示如何构建具有自定义边框的表格。
+展示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();
@@ -120,7 +120,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // 为文档生成器设置表格格式选项
-// 将它们应用到我们添加的每一行和单元格。
+// 将它们应用于我们添加的每一行和单元格。
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -143,7 +143,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// 更改格式会将其应用到当前单元格，
+// 更改格式将应用于当前单元格，
 // 以及我们随后使用构建器创建的任何新单元格。
 // 这不会影响我们之前添加的单元格。
 builder.CellFormat.Shading.ClearFormatting();
@@ -156,7 +156,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// 增加行高以适合垂直文本。
+// 增加行高以适应垂直文本。
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

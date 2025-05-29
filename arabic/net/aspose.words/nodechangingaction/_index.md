@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.NodeChangingAction تعداد. يحدد نوع تغيير العقدة في C#.
+description: اكتشف خاصية Aspose.Words.NodeChangingAction لإدارة تغييرات العقد في مستنداتك بكفاءة. حسّن قدرات معالجة مستنداتك اليوم!
 type: docs
-weight: 4180
+weight: 4870
 url: /ar/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -21,11 +21,11 @@ public enum NodeChangingAction
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Insert | `0` | يتم إدراج عقدة في الشجرة. |
-| Remove | `1` | تتم إزالة العقدة من الشجرة. |
+| Remove | `1` | تتم إزالة عقدة من الشجرة. |
 
 ## أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
+/// يطبع كل عملية إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

@@ -3,7 +3,7 @@ title: FramesetCollection
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
 second_title: Aspose.Words для .NET
-description: FramesetCollection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FramesetCollection, ваше решение для эффективного управления фреймами в веб-разработке. Упростите кодирование сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.framesets/framesetcollection/framesetcollection/

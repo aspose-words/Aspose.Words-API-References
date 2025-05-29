@@ -3,14 +3,14 @@ title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words per .NET
-description: Document MailMerge proprietà. Restituisce aMailMerge oggetto che rappresenta la funzionalità di stampa unione per il documento in C#.
+description: Sblocca l'automazione perfetta dei documenti con l'oggetto MailMerge, migliorando il flusso di lavoro semplificando senza sforzo le attività di unione della posta.
 type: docs
-weight: 260
+weight: 270
 url: /it/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Restituisce a[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) oggetto che rappresenta la funzionalità di stampa unione per il documento.
+Restituisce un[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) oggetto che rappresenta la funzionalità di unione di posta per il documento.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -18,7 +18,7 @@ public MailMerge MailMerge { get; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un DataTable.
+Mostra come eseguire una stampa unione con i dati di una DataTable.
 
 ```csharp
 public void ExecuteDataTable()
@@ -29,15 +29,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Di seguito sono riportati due modi per utilizzare DataTable come origine dati per una stampa unione.
-    // 1 - Utilizza l'intera tabella per la stampa unione per creare un documento di stampa unione di output per ogni riga nella tabella:
+    // Di seguito sono riportati due modi per utilizzare una DataTable come origine dati per una stampa unione.
+    // 1 - Utilizza l'intera tabella per la stampa unione per creare un documento di stampa unione in output per ogni riga della tabella:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Utilizza una riga della tabella per creare un documento di stampa unione di output:
+    // 2 - Utilizzare una riga della tabella per creare un documento di stampa unione in output:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -46,7 +46,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Crea un documento di origine per la stampa unione.
+/// Crea un documento sorgente per la stampa unione.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

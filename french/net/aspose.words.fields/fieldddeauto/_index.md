@@ -3,16 +3,16 @@ title: FieldDdeAuto Class
 linktitle: FieldDdeAuto
 articleTitle: FieldDdeAuto
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldDdeAuto classe. Implémente le champ DDEAUTO en C#.
+description: Découvrez la classe Aspose.Words.Fields.FieldDdeAuto pour une intégration transparente des champs DDEAUTO, améliorant l'automatisation des documents et l'efficacité de vos projets.
 type: docs
-weight: 1790
+weight: 2200
 url: /fr/net/aspose.words.fields/fieldddeauto/
 ---
 ## FieldDdeAuto class
 
 Implémente le champ DDEAUTO.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldDdeAuto : Field
@@ -30,20 +30,20 @@ public class FieldDdeAuto : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
-| [InsertAsBitmap](../../aspose.words.fields/fieldddeauto/insertasbitmap/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié en tant que bitmap. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/)objet qui fournit un accès typé au formatage du champ. |
+| [InsertAsBitmap](../../aspose.words.fields/fieldddeauto/insertasbitmap/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié sous forme de bitmap. |
 | [InsertAsHtml](../../aspose.words.fields/fieldddeauto/insertashtml/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié sous forme de texte au format HTML. |
 | [InsertAsPicture](../../aspose.words.fields/fieldddeauto/insertaspicture/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié en tant qu'image. |
-| [InsertAsRtf](../../aspose.words.fields/fieldddeauto/insertasrtf/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié au format de texte enrichi (RTF). |
+| [InsertAsRtf](../../aspose.words.fields/fieldddeauto/insertasrtf/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié au format texte enrichi (RTF). |
 | [InsertAsText](../../aspose.words.fields/fieldddeauto/insertastext/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié au format texte uniquement. |
 | [InsertAsUnicode](../../aspose.words.fields/fieldddeauto/insertasunicode/) { get; set; } | Obtient ou définit s'il faut insérer l'objet lié sous forme de texte Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
-| [IsLinked](../../aspose.words.fields/fieldddeauto/islinked/) { get; set; } | Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (obsolète) en raison d'autres modifications apportées au document. |
+| [IsLinked](../../aspose.words.fields/fieldddeauto/islinked/) { get; set; } | Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas de données graphiques avec le document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
 | [ProgId](../../aspose.words.fields/fieldddeauto/progid/) { get; set; } | Obtient ou définit le type d'application des informations de lien. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Récupère le nœud représentant le séparateur de champ. Peut être`nul` . |
 | [SourceFullName](../../aspose.words.fields/fieldddeauto/sourcefullname/) { get; set; } | Obtient ou définit le nom et l'emplacement du fichier source. |
 | [SourceItem](../../aspose.words.fields/fieldddeauto/sourceitem/) { get; set; } | Obtient ou définit la partie du fichier source qui est liée. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
@@ -53,20 +53,20 @@ public class FieldDdeAuto : Field
 
 | Nom | La description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code du champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud immédiatement après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
-| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lève une requête si le champ est déjà en cours de mise à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. L'erreur est générée si le champ est déjà en cours de mise à jour. |
 
 ## Remarques
 
-Pour les informations copiées depuis une autre application, ce champ relie ces informations à son fichier source d'origine à l'aide de DDE et est mis à jour automatiquement.
+Pour les informations copiées à partir d'une autre application, ce champ lie ces informations à leur fichier source d'origine à l'aide de DDE et est mis à jour automatiquement.
 
 ## Exemples
 
-Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
+Montre comment utiliser différents types de champs pour créer des liens vers d'autres documents dans le système de fichiers local et afficher leur contenu.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -119,7 +119,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ LINK et définir ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ LINK et définir ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -157,7 +157,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ DDE et définissez ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDE et définissez ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -196,7 +196,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Utilisez un générateur de documents pour insérer un champ DDEAUTO et définir ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDEAUTO et définir ses propriétés en fonction des paramètres.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -233,12 +233,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // ObjetLienCommeTexte
+    // Objet lié en tant que texte
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // Objet lié comme image
     Picture,
     Bitmap
 }

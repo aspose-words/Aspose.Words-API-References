@@ -3,7 +3,7 @@ title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
 second_title: Aspose.Words para .NET
-description: Section HeadersFooters propiedad. Proporciona acceso a los nodos de encabezados y pies de página de la sección en C#.
+description: Acceda y administre fácilmente los encabezados y pies de página de las secciones con nuestra intuitiva función de propiedades. ¡Mejore la organización y la presentación de sus documentos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words/section/headersfooters/
@@ -43,11 +43,11 @@ Muestra cómo eliminar todos los pies de página de un documento.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Recorre cada sección y elimina pies de página de todo tipo.
+// Iterar a través de cada sección y eliminar pies de página de todo tipo.
 foreach (Section section in doc.OfType<Section>())
 {
     // Hay tres tipos de pie de página y encabezado.
-    // 1 - El "primer" encabezado/pie de página, que solo aparece en la primera página de una sección.
+    // 1 - El encabezado/pie de página "Primero", que solo aparece en la primera página de una sección.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
@@ -55,7 +55,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - El encabezado/pie de página "Par", que aparece en páginas pares.
+     // 3 - El encabezado/pie de página "Par", que aparece en las páginas pares.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

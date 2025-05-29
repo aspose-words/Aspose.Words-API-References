@@ -2,15 +2,15 @@
 title: LoadOptions.ResourceLoadingCallback
 linktitle: ResourceLoadingCallback
 articleTitle: ResourceLoadingCallback
-second_title: Aspose.Words for .NET
-description: LoadOptions ResourceLoadingCallback mülk. HTML MHTMLden bir belge içe aktarıldığında harici kaynakların resimler stil sayfaları nasıl yükleneceğini kontrol etmeye olanak tanır C#'da.
+second_title: .NET için Aspose.Words
+description: LoadOptions' ResourceLoadingCallback ile belge içe aktarımlarınızı optimize edin. Görüntüler ve stil sayfaları gibi harici kaynakların yüklenmesini sorunsuz bir şekilde kontrol edin.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-HTML, MHTML'den bir belge içe aktarıldığında harici kaynakların (resimler, stil sayfaları) nasıl yükleneceğini kontrol etmeye olanak tanır.
+Bir belge HTML veya MHTML'den içe aktarıldığında harici kaynakların (resimler, stil sayfaları) nasıl yükleneceğini kontrol etmenizi sağlar.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -26,13 +26,13 @@ public void LoadOptionsCallback()
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // Belgeyi yüklediğimizde geri çağrımız CSS stil sayfaları ve resimler gibi bağlantılı kaynakları yönetecektir.
+    // Belgeyi yüklediğimizde, geri aramamız CSS stil sayfaları ve resimler gibi bağlantılı kaynakları işleyecektir.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }
 
 /// <summary>
-/// Tüm harici stil sayfalarının dosya adlarını yazdırır ve yüklenen bir html belgesinin tüm resimlerini değiştirir.
+/// Tüm harici stil sayfalarının dosya adlarını yazdırır ve yüklenen bir HTML belgesindeki tüm görselleri bunlarla değiştirir.
 /// </summary>
 private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 {

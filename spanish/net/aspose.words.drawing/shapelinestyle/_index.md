@@ -3,14 +3,14 @@ title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.ShapeLineStyle enumeración. Especifica el estilo de línea compuesta de unShape  en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.ShapeLineStyle para mejorar el diseño de su documento con estilos de línea compuestos personalizables para formas.
 type: docs
-weight: 1270
+weight: 1660
 url: /es/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Especifica el estilo de línea compuesta de un[`Shape`](../shape/) .
+Especifica el estilo de línea compuesta de una[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -38,12 +38,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Las formas básicas, como el rectángulo, tienen dos partes visibles.
+//Las formas básicas, como el rectángulo, tienen dos partes visibles.
 // 1 - El relleno, que se aplica al área dentro del contorno de la forma:
 shape.Fill.ForeColor = Color.White;
 
 // 2 - El trazo, que marca el contorno de la forma:
-// Modifica varias propiedades del trazo de esta forma.
+//Modifica varias propiedades del trazo de esta forma.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

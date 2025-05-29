@@ -3,14 +3,14 @@ title: HeaderFooterCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: HeaderFooterCollection Item ملكية. يسترد أHeaderFooter في الفهرس المحدد في C#.
+description: الوصول إلى رؤوس وتذييلات الصفحات بسهولة باستخدام خاصية العنصر. استرجع رؤوسًا وتذييلات محددة باستخدام الفهرس لإدارة مستنداتك بشكل مبسط.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-يسترد أ[`HeaderFooter`](../../headerfooter/) في الفهرس المحدد.
+يسترجع[`HeaderFooter`](../../headerfooter/) عند الفهرس المعطى.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -18,17 +18,17 @@ public HeaderFooter this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس في المجموعة. |
+| index | فهرس للمجموعة. |
 
 ## ملاحظات
 
-المؤشر قائم على الصفر.
+المؤشر يعتمد على الصفر.
 
-الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
+يُسمح بالمؤشرات السلبية وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال، -1 يعني العنصر الأخير، -2 يعني العنصر الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة، فسوف يؤدي هذا إلى إرجاع مرجع فارغ.
 
-إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سلبيًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة، فسيؤدي هذا إلى إرجاع مرجع فارغ.
 
 ## أمثلة
 
@@ -44,8 +44,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// انتقل إلى القسم الأول وقم بإنشاء رأس وتذييل. بشكل افتراضي،
-// لن يظهر الرأس والتذييل إلا على الصفحات الموجودة في القسم الذي يحتوي عليهما.
+// انتقل إلى القسم الأول وأنشئ رأسًا وتذييلًا. افتراضيًا،
+// سوف يظهر الرأس والتذييل فقط في الصفحات الموجودة في القسم الذي يحتوي عليهما.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -58,29 +58,29 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // للسماح لقسم الارتباط بعرض رؤوس/تذييلات القسم المرتبط.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// سيظل لكل قسم كائنات الرأس/التذييل الخاصة به. عندما نربط الأقسام
-// سيعرض قسم الارتباط رأس/تذييلات القسم المرتبط مع الاحتفاظ به.
+// سيظل لكل قسم كائنات رأس/تذييل خاصة به. عند ربط الأقسام،
+// سيعرض القسم المرتبط رأس/تذييل القسم المرتبط مع الاحتفاظ برأس/تذييل القسم الخاص به.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// اربط رؤوس/تذييلات القسم الثالث برؤوس/تذييلات القسم الثاني.
+// ربط رؤوس/تذييلات القسم الثالث برؤوس/تذييلات القسم الثاني.
 // يرتبط القسم الثاني بالفعل برأس/تذييلات القسم الأول،
 // لذا فإن الارتباط بالقسم الثاني سيؤدي إلى إنشاء سلسلة ارتباط.
-// ستعرض الأقسام الأول والثاني والآن الثالث رؤوس القسم الأول.
+// سيتم عرض عناوين القسم الأول، والثاني، والآن القسم الثالث.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// يمكننا إلغاء ربط رأس/تذييلات القسم السابق عن طريق تمرير "خطأ" عند استدعاء الأسلوب LinkToPrevious.
+// يمكننا إلغاء ربط رأس/تذييل القسم السابق عن طريق تمرير "false" عند استدعاء طريقة LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// يمكننا أيضًا تحديد نوع معين فقط من الرأس/التذييل للربط باستخدام هذه الطريقة.
-// سيكون للقسم الثالث الآن نفس التذييل مثل القسمين الثاني والأول، ولكن ليس الرأس.
+//يمكننا أيضًا تحديد نوع معين فقط من الرأس/التذييل للربط باستخدام هذه الطريقة.
+// الآن سيكون للقسم الثالث نفس التذييل مثل القسمين الثاني والأول، ولكن ليس الرأس.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// لا يمكن لرأس/تذييلات القسم الأول ربط نفسها بأي شيء لأنه لا يوجد قسم سابق.
+// لا يمكن لرأس/تذييل القسم الأول ربط نفسه بأي شيء لأنه لا يوجد قسم سابق.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
-// جميع رؤوس/تذييلات القسم الثاني مرتبطة برؤوس/تذييلات القسم الأول.
+// ترتبط جميع رؤوس/تذييلات القسم الثاني برؤوس/تذييلات القسم الأول.
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -103,7 +103,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-يسترد أ[`HeaderFooter`](../../headerfooter/) من النوع المحدد.
+يسترجع[`HeaderFooter`](../../headerfooter/) من النوع المحدد.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -111,11 +111,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| headerFooterType | أ[`HeaderFooterType`](../../headerfootertype/) value الذي يحدد نوع الرأس/التذييل المطلوب استرداده. |
+| headerFooterType | أ[`HeaderFooterType`](../../headerfootertype/) value التي تحدد نوع الرأس/التذييل الذي سيتم استرداده. |
 
 ## ملاحظات
 
-إرجاع`باطل` إذا لم يتم العثور على رأس/تذييل الصفحة من النوع المحدد.
+إرجاع`باطل`إذا لم يتم العثور على رأس/تذييل النوع المحدد.
 
 ## أمثلة
 
@@ -139,24 +139,24 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-يوضح كيفية حذف جميع التذييلات من المستند.
+يوضح كيفية حذف كافة التذييلات من المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// كرر كل قسم وقم بإزالة التذييلات من كل نوع.
+// قم بالتكرار خلال كل قسم وإزالة التذييلات من كل نوع.
 foreach (Section section in doc.OfType<Section>())
 {
     // هناك ثلاثة أنواع من أنواع التذييل والرأس.
-    // 1 - الرأس/التذييل "الأول"، والذي يظهر فقط في الصفحة الأولى من القسم.
+    // 1 - "الرأس/التذييل الأول"، والذي يظهر فقط في الصفحة الأولى من القسم.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - الرأس/التذييل "الأساسي"، الذي يظهر على الصفحات الفردية.
+    // 2 - الرأس/التذييل "الأساسي"، والذي يظهر في الصفحات الفردية.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - الرأس/التذييل "الزوجي"، الذي يظهر في الصفحات الزوجية.
+     // 3 - رأس/تذييل "الزوجي"، والذي يظهر في الصفحات الزوجية.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

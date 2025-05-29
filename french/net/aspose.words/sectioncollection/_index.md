@@ -3,16 +3,16 @@ title: SectionCollection Class
 linktitle: SectionCollection
 articleTitle: SectionCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.SectionCollection classe. Une collection deSection objets dans le document en C#.
+description: Découvrez la classe Aspose.Words.SectionCollection, votre solution de référence pour gérer efficacement les sections de documents avec des fonctionnalités puissantes et une grande flexibilité.
 type: docs
-weight: 5740
+weight: 6570
 url: /fr/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
 Une collection de[`Section`](../section/) objets dans le document.
 
-Pour en savoir plus, visitez le[Travailler avec des sections](https://docs.aspose.com/words/net/working-with-sections/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des sections](https://docs.aspose.com/words/net/working-with-sections/) article de documentation.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -31,19 +31,19 @@ public class SectionCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Détermine si un nœud fait partie de la collection. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Détermine si un nœud est dans la collection. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une itération simple de style « foreach » sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Insère un nœud dans la collection à l'index spécifié. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Supprime le nœud de la collection et du document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Supprime le nœud à l'index spécifié de la collection et du document. |
-| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copie toutes les sections de la collection vers un nouveau tableau de sections. (2 methods) |
+| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copie toutes les sections de la collection dans un nouveau tableau de sections. (2 methods) |
 
 ## Remarques
 
-Un document Microsoft Word peut contenir plusieurs sections. Pour créer une section dans Microsoft Word, sélectionnez la commande Insérer/Sauter et sélectionnez un type de saut. Le saut précise si la section démarre sur une nouvelle page ou sur la même page.
+Un document Microsoft Word peut contenir plusieurs sections. Pour créer une section dans Microsoft Word, sélectionnez la commande Insérer/Saut et sélectionnez un type de saut. Le saut indique si la section commence sur une nouvelle page ou sur la même page.
 
-L'insertion et la suppression de sections par programme peuvent être utilisées pour personnaliser les documents produits lors du publipostage. Si un document doit avoir un contenu différent ou des parties du contenu en fonction de certains critères, vous pouvez alors créer un document « maître » qui contient plusieurs sections et supprimer certaines des sections avant ou après le publipostage.
+L'insertion et la suppression de sections par programmation permettent de personnaliser les documents produits lors du publipostage. Si un document doit avoir un contenu différent, ou des parties de contenu différentes, selon certains critères, vous pouvez créer un document maître contenant plusieurs sections et en supprimer certaines avant ou après le publipostage.
 
 ## Exemples
 
@@ -59,12 +59,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Supprime la première section du document.
+// Supprimez la première section du document.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Ajoute une copie de ce qui est maintenant la première section à la fin du document.
+// Ajoutez une copie de ce qui est maintenant la première section à la fin du document.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

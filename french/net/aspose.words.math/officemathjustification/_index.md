@@ -3,9 +3,9 @@ title: OfficeMathJustification Enum
 linktitle: OfficeMathJustification
 articleTitle: OfficeMathJustification
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Math.OfficeMathJustification énumération. Spécifie la justification de léquation en C#.
+description: Découvrez l'énumération Aspose.Words.Math.OfficeMathJustification pour un alignement précis des équations. Améliorez la clarté de votre document grâce à des options de justification optimales.
 type: docs
-weight: 4140
+weight: 4830
 url: /fr/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -29,15 +29,15 @@ public enum OfficeMathJustification
 
 ## Exemples
 
-Montre comment définir le formatage de l’affichage des mathématiques de bureau.
+Montre comment définir la mise en forme de l'affichage mathématique du bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Les nœuds OfficeMath qui sont des enfants d'autres nœuds OfficeMath sont toujours en ligne.
-// Le nœud avec lequel nous travaillons est le nœud de base pour changer son emplacement et son type d'affichage.
+// Le nœud avec lequel nous travaillons est le nœud de base pour modifier son emplacement et son type d'affichage.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ImageSavingCallback свойство. Позволяет контролировать сохранение изображений при сохранении документа в формате HTML MHTML или EPUB на С#.
+description: Управляйте сохранением изображений с помощью HtmlSaveOptions' ImageSavingCallback. Оптимизируйте экспорт документов в HTML, MHTML или EPUB для бесперебойной работы пользователя.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property
 
-Позволяет контролировать сохранение изображений при сохранении документа в формате HTML, MHTML или EPUB.
+Позволяет контролировать способ сохранения изображений при сохранении документа в формате HTML, MHTML или EPUB.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -26,29 +26,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
+    // Создаем объект "HtmlFixedSaveOptions", который можно передать методу "Save" документа
     // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Если мы сохраним документ как обычно, будет один выходной HTML
+    // Если мы сохраним документ обычным образом, будет один выходной HTML
     // документ со всем содержимым исходного документа.
-    // Установите для свойства DocumentSplitCriteria значение DocumentSplitCriteria.SectionBreak, чтобы
-    // сохраняем наш документ в несколько HTML-файлов: по одному на каждый раздел.
+    // Установите свойство "DocumentSplitCriteria" в "DocumentSplitCriteria.SectionBreak" для
+    // сохраняем наш документ в несколько HTML-файлов: по одному для каждого раздела.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Назначаем пользовательский обратный вызов свойству «DocumentPartSavingCallback», чтобы изменить логику сохранения части документа.
+    // Назначьте пользовательский обратный вызов свойству "DocumentPartSavingCallback", чтобы изменить логику сохранения части документа.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Если мы преобразуем документ, содержащий изображения, в HTML, мы получим один HTML-файл, который ссылается на несколько изображений.
-    // Каждое изображение будет в виде файла в локальной файловой системе.
-    // Существует также обратный вызов, который может настроить имя и расположение файловой системы каждого изображения.
+    // Если мы преобразуем документ, содержащий изображения, в html, мы получим один html-файл, который ссылается на несколько изображений.
+    // Каждое изображение будет иметь форму файла в локальной файловой системе.
+    // Также имеется обратный вызов, который позволяет настраивать имя и местоположение каждого изображения в файловой системе.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Устанавливает собственные имена файлов для выходных документов, на которые операция сохранения разбивает документ.
+/// Задает пользовательские имена файлов для выходных документов, на которые операция сохранения разбивает документ.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -83,11 +83,11 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
-        // 1 - Установить имя файла выходной части:
+        // Ниже приведены два способа указания того, где Aspose.Words будет сохранять каждую часть документа.
+        // 1 - Задайте имя файла для выходного файла детали:
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Создать собственный поток для файла выходной части:
+        // 2 - Создать пользовательский поток для выходного файла детали:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -100,7 +100,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Устанавливает собственные имена файлов изображений, создаваемых преобразованием HTML.
+/// Задает пользовательские имена файлов изображений, создаваемых при преобразовании HTML.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -113,11 +113,11 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
-        // 1 - Установить имя файла выходного изображения:
+        // Ниже приведены два способа указания того, где Aspose.Words будет сохранять каждую часть документа.
+        // 1 — Задайте имя файла для выходного изображения:
         args.ImageFileName = imageFileName;
 
-        // 2 — Создать собственный поток для выходного файла изображения:
+        // 2 — Создать пользовательский поток для выходного файла изображения:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

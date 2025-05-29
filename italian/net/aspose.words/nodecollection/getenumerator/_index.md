@@ -3,14 +3,14 @@ title: NodeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: NodeCollection GetEnumerator metodo. Fornisce una semplice iterazione di stile foreach sulla raccolta di nodi in C#.
+description: Scopri il metodo GetEnumerator di NodeCollection per un'iterazione semplice ed efficiente attraverso le tue raccolte di nodi con un semplice approccio foreach.
 type: docs
 weight: 60
 url: /it/net/aspose.words/nodecollection/getenumerator/
 ---
 ## NodeCollection.GetEnumerator method
 
-Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi.
+Fornisce una semplice iterazione in stile "foreach" sulla raccolta di nodi.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

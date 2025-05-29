@@ -3,14 +3,14 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection сорт. Представляет коллекцию размеров пузырьков для серии диаграмм на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Charts.BubbleSizeCollection — ваше идеальное решение для эффективного управления размерами пузырьков в сериях диаграмм.
 type: docs
-weight: 610
+weight: 870
 url: /ru/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
 
-Представляет коллекцию размеров пузырьков для серии диаграмм.
+Представляет набор размеров пузырьков для серии диаграмм.
 
 ```csharp
 public class BubbleSizeCollection : IEnumerable<double>
@@ -21,7 +21,8 @@ public class BubbleSizeCollection : IEnumerable<double>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Получает количество элементов в этой коллекции. |
-| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Получает или задает значение размера пузырька по указанному индексу. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Возвращает или задает код формата, применяемый к размерам пузырьков. |
+| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Возвращает или задает значение размера пузырька по указанному индексу. |
 
 ## Методы
 
@@ -31,7 +32,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 ## Примечания
 
-Коллекция позволяет изменять только размеры пузырьков. Чтобы добавить или вставить новые значения в серию диаграмм или значения Remove , используйте соответствующие методы класса[`ChartSeries`](../chartseries/) класс можно использовать.
+Коллекция позволяет только изменять размеры пузырьков. Чтобы добавить или вставить новые значения в ряд диаграммы или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс может быть использован.
 
 Значения размера пустого пузырька представлены какNaN.
 

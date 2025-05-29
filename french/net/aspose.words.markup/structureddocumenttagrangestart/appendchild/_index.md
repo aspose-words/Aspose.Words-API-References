@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart AppendChild méthode. Ajoute le nœud spécifié à la fin de la plage stdContent en C#.
+description: Découvrez comment la méthode StructuredDocumentTagRangeStart AppendChild améliore l'édition de votre document en ajoutant de manière transparente des nœuds à votre plage stdContent.
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
 ---
 ## StructuredDocumentTagRangeStart.AppendChild method
@@ -22,7 +22,7 @@ public Node AppendChild(Node newChild)
 
 ### Return_Value
 
-Le nœud ajouté.
+Le nœud a été ajouté.
 
 ### Voir également
 

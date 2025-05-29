@@ -3,14 +3,14 @@ title: Forms2OleControl.ChildNodes
 linktitle: ChildNodes
 articleTitle: ChildNodes
 second_title: Aspose.Words för .NET
-description: Forms2OleControl ChildNodes fast egendom. Får en samling av omedelbara barnkontroller i C#.
+description: Upptäck egenskapen Forms2OleControl ChildNodes för att enkelt komma åt och hantera omedelbara underordnade kontroller för förbättrad funktionalitet.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
 ## Forms2OleControl.ChildNodes property
 
-Får en samling av omedelbara barnkontroller.
+Hämtar en samling omedelbara underkontroller.
 
 ```csharp
 public virtual Forms2OleControlCollection ChildNodes { get; }
@@ -18,31 +18,31 @@ public virtual Forms2OleControlCollection ChildNodes { get; }
 
 ## Anmärkningar
 
-Returnerar`null` om denna kontroll inte kan få barn.
+Returer`null` om den här kontrollen inte kan ha underordnade.
 
 ## Exempel
 
-Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
+Visar hur man verifierar egenskaperna för en ActiveX-kontroll.
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
     Assert.AreEqual(string.Empty, checkBox.GroupName);
 
-    // Observera att du inte kan ställa in GroupName för en ram.
+    // Observera att du inte kan ange gruppnamn för en ram.
     checkBox.GroupName = "Aspose group name";
 }
 ```

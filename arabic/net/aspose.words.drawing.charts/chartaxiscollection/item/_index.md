@@ -3,14 +3,14 @@ title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: ChartAxisCollection Item ملكية. الحصول على المحور عند الفهرس المحدد في C#.
+description: استخدم خاصية ChartAxisCollection Item للوصول إلى المحور المطلوب. سهّل عملية عرض البيانات من خلال استرجاع المحاور بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartaxiscollection/item/
 ---
 ## ChartAxisCollection indexer
 
-الحصول على المحور عند الفهرس المحدد.
+يحصل على المحور عند الفهرس المحدد.
 
 ```csharp
 public ChartAxis this[int index] { get; }

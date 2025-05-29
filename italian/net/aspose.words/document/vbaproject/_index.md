@@ -3,14 +3,14 @@ title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words per .NET
-description: Document VbaProject proprietà. Ottiene o imposta aVbaProject  in C#.
+description: Scopri come gestire efficacemente le proprietà di VbaProject. Impara a ottenere o impostare VbaProject per una maggiore automazione e flussi di lavoro semplificati.
 type: docs
-weight: 450
+weight: 470
 url: /it/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-Ottiene o imposta a`VbaProject` .
+Ottiene o imposta un`VbaProject` .
 
 ```csharp
 public VbaProject VbaProject { get; set; }
@@ -18,7 +18,7 @@ public VbaProject VbaProject { get; set; }
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

@@ -3,7 +3,7 @@ title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
 second_title: Aspose.Words para .NET
-description: ListLevel NumberPosition propiedad. Devuelve o establece la posición en puntos del número o viñeta para el nivel de lista en C#.
+description: Descubra la propiedad NumberPosition de ListLevel para ajustar fácilmente la posición de viñetas o números en puntos para mejorar el formato y la claridad de la lista.
 type: docs
 weight: 80
 url: /es/net/aspose.words.lists/listlevel/numberposition/
@@ -22,16 +22,16 @@ public double NumberPosition { get; set; }
 
 ## Ejemplos
 
-Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
+Muestra cómo aplicar formato de lista personalizado a los párrafos cuando se utiliza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de su lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de lista.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

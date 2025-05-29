@@ -2,10 +2,10 @@
 title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
-second_title: Aspose.Words for .NET
-description: FontInfo Panose mülk. PANOSE yazı tipi sınıflandırma numarasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FontInfo PANOSE özelliğini keşfedin, gelişmiş font yönetimi ve tasarım hassasiyeti için yazı tipi sınıflandırma numarasını kolayca alın veya ayarlayın.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
@@ -18,13 +18,13 @@ public byte[] Panose { get; set; }
 
 ## Notlar
 
-PANOSE, bir yazı tipinin kontrast, ağırlık ve serif stili gibi gibi kritik görsel özelliklerinin 10 baytlık kompakt bir açıklamasıdır. Rakamlar Aile Türü, Serif Stili, Ağırlık, Oran, Kontrast, Kontur Değişikliği, Kol Stili, Harf Biçimi, Orta Çizgi ve X Yüksekliğini temsil eder.
+PANOSE, kontrast, ağırlık ve serif stili gibi bir fontun kritik görsel özelliklerinin, kompakt 10 baytlık açıklamasıdır. Rakamlar Aile Türü, Serif Stili, Ağırlık, Oran, Kontrast, Vuruş Çeşitliliği, Kol Stili, Harf Biçimi, Orta Çizgi ve X Yüksekliğini temsil eder.
 
 Olabilir`hükümsüz`.
 
 ## Örnekler
 
-Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
+Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve bunların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -37,7 +37,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alternatif adlar genellikle boştur.
+        // Alt adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

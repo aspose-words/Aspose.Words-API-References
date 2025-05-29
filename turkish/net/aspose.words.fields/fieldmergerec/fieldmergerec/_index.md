@@ -2,8 +2,8 @@
 title: FieldMergeRec
 linktitle: FieldMergeRec
 articleTitle: FieldMergeRec
-second_title: Aspose.Words for .NET
-description: FieldMergeRec inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldMergeRec oluşturucusunu keşfedin—kusursuz veri birleştirme için olmazsa olmaz aracınız. Varsayılan oluşturucumuzla verimliliği bugün açığa çıkarın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldmergerec/fieldmergerec/

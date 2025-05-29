@@ -3,14 +3,14 @@ title: FileFormatUtil.ContentTypeToSaveFormat
 linktitle: ContentTypeToSaveFormat
 articleTitle: ContentTypeToSaveFormat
 second_title: Aspose.Words für .NET
-description: FileFormatUtil ContentTypeToSaveFormat methode. Konvertiert den IANAInhaltstyp in einen Aufzählungswert im Speicherformat in C#.
+description: Konvertieren Sie IANA-Inhaltstypen mühelos in Speicherformatwerte mit der FileFormatUtil ContentTypeToSaveFormat-Methode. Optimieren Sie noch heute Ihre Dateiverwaltung!
 type: docs
 weight: 20
 url: /de/net/aspose.words/fileformatutil/contenttypetosaveformat/
 ---
 ## FileFormatUtil.ContentTypeToSaveFormat method
 
-Konvertiert den IANA-Inhaltstyp in einen Aufzählungswert im Speicherformat.
+Konvertiert den IANA-Inhaltstyp in einen aufgezählten Wert im sicheren Format.
 
 ```csharp
 public static SaveFormat ContentTypeToSaveFormat(string contentType)
@@ -24,10 +24,10 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 
 ## Beispiele
 
-Zeigt, wie Sie das entsprechende Aspose-Lade-/Speicherformat aus jeder Medientypzeichenfolge finden.
+Zeigt, wie Sie aus jeder Medientypzeichenfolge das entsprechende Aspose-Lade-/Speicherformat finden.
 
 ```csharp
- // Die ContentTypeToSaveFormat/ContentTypeToLoadFormat-Methoden akzeptieren nur offizielle IANA-Medientypnamen, auch MIME-Typen genannt.
+    // Die Methoden ContentTypeToSaveFormat/ContentTypeToLoadFormat akzeptieren nur offizielle IANA-Medientypnamen, auch als MIME-Typen bekannt.
 // Alle gültigen Medientypen sind hier aufgelistet: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Der Versuch, ein SaveFormat mit einer teilweisen Medientypzeichenfolge zu verknüpfen, funktioniert nicht.
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Für Dateitypen, die gespeichert und geladen werden können, können wir einen Medientyp sowohl einem Ladeformat als auch einem Speicherformat zuordnen.
+// Bei Dateitypen, die gespeichert und geladen werden können, können wir einen Medientyp sowohl einem Ladeformat als auch einem Speicherformat zuordnen.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

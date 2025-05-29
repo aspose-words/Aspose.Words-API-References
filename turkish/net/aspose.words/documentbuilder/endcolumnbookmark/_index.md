@@ -2,15 +2,15 @@
 title: DocumentBuilder.EndColumnBookmark
 linktitle: EndColumnBookmark
 articleTitle: EndColumnBookmark
-second_title: Aspose.Words for .NET
-description: DocumentBuilder EndColumnBookmark yöntem. Belgedeki geçerli konumu sütun yer işareti sonu olarak işaretler. Konum bir tablo hücresinde olmalıdır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki bir sütunun sonunu kolayca işaretlemek için DocumentBuilder'ın EndColumnBookmark yöntemini kullanın. Tablo yönetimini hassasiyetle geliştirin!
 type: docs
 weight: 220
 url: /tr/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-Belgedeki geçerli konumu sütun yer işareti sonu olarak işaretler. Konum bir tablo hücresinde olmalıdır.
+Belgedeki geçerli konumu bir sütun yer imi sonu olarak işaretler. Konum bir tablo hücresinde olmalıdır.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -22,19 +22,19 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 ### Geri dönüş değeri
 
-Yeni oluşturulan yer imi bitiş düğümü.
+Az önce oluşturulan yer imi bitiş düğümü.
 
 ## Notlar
 
-Sütun yer işareti, bir satır aralığındaki bir veya daha fazla sütunu kapsar. Geçerli bir yer imi oluşturmak için you her ikisini de aramanız gerekir[`StartColumnBookmark`](../startcolumnbookmark/) Ve`EndColumnBookmark` aynı ile*bookmarkName*parametre.
+Bir sütun yer imi, bir satır aralığındaki bir veya daha fazla sütunu kapsar. Geçerli bir yer imi oluşturmak için you her ikisini de çağırmanız gerekir[`StartColumnBookmark`](../startcolumnbookmark/) Ve`EndColumnBookmark` aynı ile*bookmarkName* parametre.
 
-Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
+Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri belge kaydedilirken yok sayılacaktır.
 
-Takılan öğenin gerçek konumu[`BookmarkEnd`](../../bookmarkend/) düğümü geçerli document oluşturucu konumundan farklı olabilir.
+Eklenenin gerçek konumu[`BookmarkEnd`](../../bookmarkend/) düğüm geçerli document oluşturucu konumundan farklı olabilir.
 
 ## Örnekler
 
-Sütun yer işaretinin nasıl oluşturulacağını gösterir.
+Sütun yer iminin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,9 +43,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// 1,2,4,5 numaralı hücreler işaretlenecektir.
+// 1,2,4,5 numaralı hücreler yer imlerine eklenecek.
 builder.StartColumnBookmark("MyBookmark_1");
-// Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde dikkate alınmayacaktır.
+// Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri belge kaydedilirken göz ardı edilecektir.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

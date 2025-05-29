@@ -3,9 +3,9 @@ title: ImageWatermarkOptions Class
 linktitle: ImageWatermarkOptions
 articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.ImageWatermarkOptions فصل. يحتوي على خيارات يمكن تحديدها عند إضافة علامة مائية مع الصورة في C#.
+description: اكتشف خيارات Aspose.Words.ImageWatermark. خصّص علاماتك المائية على صورك بسهولة مع خيارات متعددة لعرض مستنداتك بشكل محسّن.
 type: docs
-weight: 3220
+weight: 3670
 url: /ar/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
@@ -28,8 +28,38 @@ public class ImageWatermarkOptions
 
 | اسم | وصف |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هي`حقيقي` . |
-| [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | الحصول على أو تعيين عامل القياس المعبر عنه بجزء صغير من الصورة. القيمة الافتراضية هي 0 - auto. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | يحصل على قيمة منطقية أو يعينها وهي المسؤولة عن تأثير غسل العلامة المائية. القيمة الافتراضية هي`حقيقي` . |
+| [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | يحصل على أو يضبط عامل المقياس المعبر عنه كنسبة مئوية من الصورة. القيمة الافتراضية هي 0 - تلقائي. |
+
+## أمثلة
+
+يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
+
+```csharp
+Document doc = new Document();
+
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // لدينا خيارات مختلفة لإدراج الصورة:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
 
 ### أنظر أيضا
 

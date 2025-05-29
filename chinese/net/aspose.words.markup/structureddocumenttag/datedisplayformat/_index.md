@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag DateDisplayFormat 财产. 表示日期显示格式的字符串 不能无效的. 英语美国的日期为mm/dd/yyyy 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTag DateDisplayFormat 属性，轻松自定义日期显示格式。提升文档的清晰度和吸引力！
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-表示日期显示格式的字符串。 不能`无效的`. 英语（美国）的日期为“mm/dd/yyyy”
+表示日期显示格式的字符串。
 
 ```csharp
 public string DateDisplayFormat { get; set; }
@@ -18,13 +18,17 @@ public string DateDisplayFormat { get; set; }
 
 ## 评论
 
-访问该属性仅适用于Date SDT 类型.
+不可能`无效的`。
+
+英语（美国）的日期格式为“mm/dd/yyyy”
+
+访问此属性仅适用于Date SDT 类型。
 
 对于所有其他 SDT 类型，都会发生异常。
 
 ## 例子
 
-演示如何提示用户输入带有结构化文档标记的日期。
+展示如何使用结构化文档标签提示用户输入日期。
 
 ```csharp
 Document doc = new Document();
@@ -36,18 +40,18 @@ Document doc = new Document();
 // 我们可以使用该弹出窗口来选择标签将显示的日期。
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// 根据沙特阿拉伯阿拉伯语语言环境显示日期。
+// 根据沙特阿拉伯阿拉伯语区域设置显示日期。
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
 // 设置显示日期的格式。
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
-// 根据回历显示日期。
+// 根据伊斯兰历显示日期。
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// 用户在 Microsoft Word 中选择日期之前，标记将显示文本“单击此处输入日期。”。
-// 根据标签的日历，设置“FullDate”属性，让标签显示默认日期。
+// 在用户在 Microsoft Word 中选择日期之前，标签将显示文本“单击此处输入日期。”。
+// 根据标签的日历，设置“FullDate”属性，让标签显示一个默认日期。
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

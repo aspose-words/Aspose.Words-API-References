@@ -2,15 +2,15 @@
 title: WebExtensionBindingType Enum
 linktitle: WebExtensionBindingType
 articleTitle: WebExtensionBindingType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionBindingType Sıralama. Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar C#'da.
+second_title: .NET için Aspose.Words
+description: Web uzantılarının belge verilerinizle sorunsuz bir şekilde bütünleştirilmesi için bağlama türlerini tanımlayan Aspose.Words WebExtensionBindingType enum'ını keşfedin.
 type: docs
-weight: 6770
+weight: 7620
 url: /tr/net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration
 
-Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar.
+Bir web uzantısı ile belgedeki veriler arasındaki kullanılabilir bağlama türlerini sıralar.
 
 ```csharp
 public enum WebExtensionBindingType
@@ -21,18 +21,18 @@ public enum WebExtensionBindingType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Matrix | `0` | Başlık satırı olmayan tablo verileri. |
-| Table | `1` | Başlık satırı içeren tablo verileri. |
+| Table | `1` | Başlık satırı olan tablo verileri. |
 | Text | `2` | Düz metin. |
-| Default | `0` |  |
+| Default | `0` | Varsayılan olarak kullanılan matris. |
 
 ## Örnekler
 
-Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
+Bir belgeye web uzantısının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Dokümanın kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturalım,
+// Belge tarafından kullanılacak "MyScript" eklentisi ile görev bölmesini oluşturun,
 // daha sonra varsayılan konumunu ayarlayın.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
@@ -44,10 +44,10 @@ myScriptTaskPane.IsLocked = true;
 // Aynı yerleştirme konumunda birden fazla görev bölmesi varsa, bunları düzenlemek için bu dizini ayarlayabiliriz.
 myScriptTaskPane.Row = 1;
 
-// Görev bölmesinin içinde görüntüleyeceği "MyScript Math Sample" adında bir eklenti oluşturun.
+// Görev bölmesinin içinde görüntülenecek "MyScript Math Sample" adında bir eklenti oluşturun.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Eklentimiz için ID gibi uygulama mağazası referans parametrelerini ayarlayın.
+// Eklentimiz için ID gibi uygulama deposu referans parametrelerini ayarlayın.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -58,13 +58,40 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Kullanıcının eklentiyle etkileşime girmesine izin ver.
 webExtension.IsFrozen = false;
 
-// Microsoft Word'deki web uzantısına Developer --> aracılığıyla erişebiliriz. Eklentiler.
+// Microsoft Word'deki web uzantısına Geliştirici -> Eklentiler yoluyla erişebiliriz.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Tüm web uzantısı görev bölmelerini bu şekilde bir kerede kaldırın.
+// Tüm web uzantısı görev bölmelerini aynı anda bu şekilde kaldırın.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Ayrıca bakınız

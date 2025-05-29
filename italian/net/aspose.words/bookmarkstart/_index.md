@@ -3,9 +3,9 @@ title: BookmarkStart Class
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words per .NET
-description: Aspose.Words.BookmarkStart classe. Rappresenta linizio di un segnalibro in un documento Word in C#.
+description: Scopri la classe Aspose.Words.BookmarkStart, essenziale per la gestione dei segnalibri nei documenti Word. Migliora la tua esperienza di modifica dei documenti oggi stesso!
 type: docs
-weight: 70
+weight: 260
 url: /it/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
@@ -37,7 +37,7 @@ public class BookmarkStart : Node
 | override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | RestituisceBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -48,23 +48,23 @@ public class BookmarkStart : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Restituisce una stringa vuota. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ## Osservazioni
 
-Un segnalibro completo in un documento Word è costituito da a`BookmarkStart` e una corrispondenza[`BookmarkEnd`](../bookmarkend/) con lo stesso nome del segnalibro.
+Un segnalibro completo in un documento Word è costituito da un`BookmarkStart` e un corrispondente[`BookmarkEnd`](../bookmarkend/) con lo stesso nome del segnalibro.
 
-`BookmarkStart` E[`BookmarkEnd`](../bookmarkend/) sono solo dei marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
+`BookmarkStart` E[`BookmarkEnd`](../bookmarkend/) sono semplicemente dei marcatori all'interno di un document che specificano dove inizia e finisce il segnalibro.
 
-Usa il[`Bookmark`](./bookmark/) class come "facciata" per lavorare con un bookmark come un singolo oggetto.
+Utilizzare il[`Bookmark`](./bookmark/) classe come "facciata" per lavorare con un bookmark come un singolo oggetto.
 
 ## Esempi
 
-Mostra come aggiungere segnalibri e aggiornarne i contenuti.
+Mostra come aggiungere segnalibri e aggiornarne il contenuto.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -74,16 +74,16 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // È possibile accedere ai segnalibri nella raccolta di segnalibri tramite indice o nome e i relativi nomi possono essere aggiornati.
+    // È possibile accedere ai segnalibri nella raccolta dei segnalibri tramite indice o nome e i loro nomi possono essere aggiornati.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Stampa di nuovo tutti i segnalibri per vedere i valori aggiornati.
+    // Stampa nuovamente tutti i segnalibri per visualizzare i valori aggiornati.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Crea un documento con un determinato numero di segnalibri.
+/// Crea un documento con un dato numero di segnalibri.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -111,7 +111,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Fa in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
+    // Fai in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

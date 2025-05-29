@@ -3,7 +3,7 @@ title: StyleCollection.AddCopy
 linktitle: AddCopy
 articleTitle: AddCopy
 second_title: Aspose.Words pour .NET
-description: StyleCollection AddCopy méthode. Copie un style dans cette collection en C#.
+description: Copiez facilement des styles avec la méthode StyleCollection AddCopy. Améliorez votre flux de travail de conception et optimisez votre gestion des styles dès aujourd'hui !
 type: docs
 weight: 70
 url: /fr/net/aspose.words/stylecollection/addcopy/
@@ -22,7 +22,7 @@ public Style AddCopy(Style style)
 
 ### Return_Value
 
-Style copié prêt à l’emploi.
+Style copié prêt à l'emploi.
 
 ## Remarques
 
@@ -32,16 +32,16 @@ Le style lié est copié.
 
 Cette méthode ne copie pas les styles de base.
 
-Si la collection contient déjà un style avec le même nom, alors le nouveau nom est automatiquement généré en ajoutant le suffixe "_number" commençant à 0, par exemple "Normal_0", "Titre 1_1", etc. Utilisation[`Name`](../../style/name/) setter pour changer le nom du style importé.
+Si la collection contient déjà un style avec le même nom, alors le nouveau nom est généré automatiquement en ajoutant le suffixe "_number" à partir de 0, par exemple "Normal_0", "Titre 1_1" etc. Utiliser[`Name`](../../style/name/) setter pour changer le nom du style importé.
 
 ## Exemples
 
-Montre comment importer un style d’un document vers un autre document.
+Montre comment importer un style d’un document dans un autre document.
 
 ```csharp
 Document srcDoc = new Document();
 
-// Crée un style personnalisé pour le document source.
+// Créez un style personnalisé pour le document source.
 Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
 srcStyle.Font.Color = Color.Red;
 
@@ -60,10 +60,10 @@ Montre comment cloner le style d'un document.
 Document doc = new Document();
 
 // La méthode AddCopy crée une copie du style spécifié et
-// génère automatiquement un nouveau nom pour le style, tel que "Titre 1_0".
+// génère automatiquement un nouveau nom pour le style, tel que « Titre 1_0 ».
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Utilisez la propriété "Name" du style pour modifier le nom d'identification du style.
+// Utilisez la propriété « Nom » du style pour modifier le nom d'identification du style.
 newStyle.Name = "My Heading 1";
 
 // Notre document a maintenant deux styles identiques avec des noms différents.

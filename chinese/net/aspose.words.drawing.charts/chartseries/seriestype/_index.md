@@ -2,8 +2,8 @@
 title: ChartSeries.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries SeriesType 财产. 获取此图表系列的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartSeries 的 SeriesType 属性，轻松识别图表系列类型，增强数据可视化效果。立即解锁强大的洞察！
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -18,13 +18,13 @@ public ChartSeriesType SeriesType { get; }
 
 ## 例子
 
-展示如何
+显示如何删除特定图表系列。
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
 Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-// 删除Column类型的所有系列。
+// 删除所有列类型的系列。
 for (int i = chart.Series.Count - 1; i >= 0; i--)
 {
     if (chart.Series[i].SeriesType == ChartSeriesType.Column)

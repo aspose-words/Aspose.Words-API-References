@@ -3,14 +3,14 @@ title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
 second_title: Aspose.Words per .NET
-description: MailMergeSettings DataType proprietà. Specifica il tipo di origine dati di stampa unione e il metodo di accesso ai dati. Il valore predefinito èDefault  in C#.
+description: Scopri la proprietà DataType di MailMergeSettings, che definisce il tipo di origine dati e il metodo di accesso per la stampa unione. Ottimizza il tuo flusso di lavoro senza sforzo!
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/mailmergesettings/datatype/
 ---
 ## MailMergeSettings.DataType property
 
-Specifica il tipo di origine dati di stampa unione e il metodo di accesso ai dati. Il valore predefinito èDefault .
+Specifica il tipo di origine dati per la stampa unione e il metodo di accesso ai dati. Il valore predefinito èDefault .
 
 ```csharp
 public MailMergeDataType DataType { get; set; }
@@ -18,7 +18,7 @@ public MailMergeDataType DataType { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

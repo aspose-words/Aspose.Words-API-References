@@ -3,14 +3,14 @@ title: MarkdownLinkExportMode Enum
 linktitle: MarkdownLinkExportMode
 articleTitle: MarkdownLinkExportMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.MarkdownLinkExportMode uppräkning. Läget för att exportera länkar till ett måldokument i C#.
+description: Upptäck hur Aspose.Words MarkdownLinkExportMode-enum förbättrar länkexport i Markdown och optimerar din dokumentkonverteringsprocess utan ansträngning.
 type: docs
-weight: 5260
+weight: 6030
 url: /sv/net/aspose.words.saving/markdownlinkexportmode/
 ---
 ## MarkdownLinkExportMode enumeration
 
-Läget för att exportera länkar till ett måldokument.
+Anger hur länkar exporteras till Markdown.
 
 ```csharp
 public enum MarkdownLinkExportMode
@@ -20,9 +20,32 @@ public enum MarkdownLinkExportMode
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Auto | `0` | En länk exporteras som ett referensblock om den har information om tur och retur eller nämns mer än en gång i ett dokument. I alla andra fall exporteras en länk som ett inlineblock. |
-| Inline | `1` | Länkar exporteras som inline-block. |
-| Reference | `2` | Länkar exporteras som referensblock. |
+| Auto | `0` | Identifierar automatiskt exportläge för varje länk. |
+| Inline | `1` | Exportera alla länkar som inbäddade block. |
+| Reference | `2` | Exportera alla länkar som referensblock. |
+
+## Exempel
+
+Visar hur länkar skrivs till .md-filen.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertShape(ShapeType.Balloon, 100, 100);
+
+// Bilden kommer att skrivas som referens:
+// ![ref1]
+//
+// [ref1]: aw_ref.001.png
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Reference;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+// Bilden kommer att skrivas som inline:
+// ![](aw_inline.001.png)
+saveOptions.LinkExportMode = MarkdownLinkExportMode.Inline;
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+```
 
 ### Se även
 

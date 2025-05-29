@@ -3,9 +3,9 @@ title: MeasurementUnits Enum
 linktitle: MeasurementUnits
 articleTitle: MeasurementUnits
 second_title: Aspose.Words для .NET
-description: Aspose.Words.MeasurementUnits перечисление. Указывает единицу измерения на С#.
+description: Откройте для себя перечисление Aspose.Words.MeasurementUnits для точного выбора единиц измерения при обработке документов. Улучшите свой рабочий процесс с помощью точных параметров измерения!
 type: docs
-weight: 4150
+weight: 4840
 url: /ru/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -24,7 +24,23 @@ public enum MeasurementUnits
 | Centimeters | `1` | Сантиметры. |
 | Millimeters | `2` | Миллиметры. |
 | Points | `3` | Очки. |
-| Picas | `4` | Пикас (обычно используется в традиционном интервале между шрифтами пишущей машинки). |
+| Picas | `4` | Пика (обычно используется в традиционных интервалах шрифтов пишущих машинок). |
+
+## Примеры
+
+Показывает, как привести сохраненный документ в соответствие со старой схемой ODT.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
 
 ### Смотрите также
 

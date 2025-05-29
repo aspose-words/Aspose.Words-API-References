@@ -3,14 +3,14 @@ title: InlineStory.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
 second_title: Aspose.Words för .NET
-description: InlineStory Paragraphs fast egendom. Får en samling stycken som är omedelbara barn till berättelsen i C#.
+description: Upptäck egenskapen InlineStory Paragraphs och få tillgång till en unik samling berättelsestycken för förbättrad innehållsorganisation och läsbarhet.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/inlinestory/paragraphs/
 ---
 ## InlineStory.Paragraphs property
 
-Får en samling stycken som är omedelbara barn till berättelsen.
+Hämtar en samling stycken som är direkta underordnade stycken till berättelsen.
 
 ```csharp
 public ParagraphCollection Paragraphs { get; }
@@ -18,7 +18,7 @@ public ParagraphCollection Paragraphs { get; }
 
 ## Exempel
 
-Visar hur man lägger till en kommentar till ett stycke.
+Visar hur man lägger till en kommentar i ett stycke.
 
 ```csharp
 Document doc = new Document();
@@ -42,16 +42,16 @@ Visar hur man infogar och anpassar fotnoter.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till text och referera till den med en fotnot. Denna fotnot kommer att placera en liten upphöjd referens
+// Lägg till text och referera till den med en fotnot. Denna fotnot placerar en liten upphöjd referens
 // markera efter texten som den refererar till och skapa en post under huvudtexten längst ner på sidan.
 // Denna post kommer att innehålla fotnotens referensmärke och referenstexten,
-// som vi kommer att skicka till dokumentbyggarens "InsertFootnote"-metod.
+// som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Om den här egenskapen är inställd på "true", är vår fotnots referensmärke
+// Om den här egenskapen är satt till "sant", så är vår fotnots referensmarkering
 // kommer att vara dess index bland alla avsnittets fotnoter.
-// Detta är den första fotnoten, så referensmärket blir "1".
+// Detta är den första fotnoten, så referenstecknet blir "1".
 Assert.True(footnote.IsAuto);
 
  // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
@@ -64,13 +64,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Vi kan ställa in ett anpassat referensmärke som fotnoten kommer att använda istället för dess indexnummer.
+// Vi kan ange ett anpassat referensmärke som fotnoten kommer att använda istället för sitt indexnummer.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Ett bokmärke med flaggan "IsAuto" inställd på sant kommer fortfarande att visa sitt verkliga index
-// även om tidigare bokmärken visar anpassade referensmärken, så kommer detta bokmärkes referensmärke att vara en "3".
+// Ett bokmärke med flaggan "IsAuto" satt till sant kommer fortfarande att visa sitt verkliga index
+// även om tidigare bokmärken visar anpassade referensmarkeringar, så kommer detta bokmärkes referensmarkering att vara en "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

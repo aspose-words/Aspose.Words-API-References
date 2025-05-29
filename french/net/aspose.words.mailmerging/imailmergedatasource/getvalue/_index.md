@@ -3,7 +3,7 @@ title: IMailMergeDataSource.GetValue
 linktitle: GetValue
 articleTitle: GetValue
 second_title: Aspose.Words pour .NET
-description: IMailMergeDataSource GetValue méthode. Renvoie une valeur pour le nom de champ spécifié ouFAUX si le champ nest pas trouvé en C#.
+description: Découvrez la méthode GetValue d'IMailMergeDataSource : récupérez facilement les valeurs des champs ou obtenez la valeur « false » si elles sont introuvables. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -53,7 +53,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" dans votre application.
+/// Un exemple de classe « entité de données » dans votre application.
 /// </summary>
 public class Customer
 {
@@ -82,7 +82,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
+    /// Nom de la source de données. Utilisé par Aspose.Words uniquement lors d'un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -103,15 +103,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Renvoie "false" au moteur de publipostage Aspose.Words pour signifier
-                // que nous n'avons pas trouvé de champ portant ce nom.
+                // Renvoyer « false » au moteur de publipostage Aspose.Words pour signifier
+                // que nous n'avons pas pu trouver de champ avec ce nom.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Une implémentation standard pour passer à un enregistrement suivant dans une collection.
+    /// Une implémentation standard pour passer à l'enregistrement suivant dans une collection.
     /// </summary>
     public bool MoveNext()
     {

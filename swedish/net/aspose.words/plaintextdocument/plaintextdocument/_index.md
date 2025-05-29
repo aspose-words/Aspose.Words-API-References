@@ -3,14 +3,14 @@ title: PlainTextDocument
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
 second_title: Aspose.Words för .NET
-description: PlainTextDocument byggare. Skapar ett vanligt textdokument från en fil. Upptäcker automatiskt filformatet i C#.
+description: Skapa enkelt dokument i klartext med vår PlainTextDocument-konstruktor. Njut av automatisk filformatidentifiering för sömlös integration!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
 ## PlainTextDocument(*string*) {#constructor_2}
 
-Skapar ett vanligt textdokument från en fil. Upptäcker automatiskt filformatet.
+Skapar ett vanligt textdokument från en fil. Identifierar automatiskt filformatet.
 
 ```csharp
 public PlainTextDocument(string fileName)
@@ -18,18 +18,18 @@ public PlainTextDocument(string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fileName | String | Namnet på filen att extrahera texten från. |
+| fileName | String | Namn på filen att extrahera texten från. |
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
-| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
-| IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
-| ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte läsas in. |
+| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklarna. |
+| IOException | Det finns ett indata/utdata-undantag. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du angav ett felaktigt lösenord. |
+| ArgumentException | Filnamnet får inte vara null eller en tom sträng. |
 
 ## Exempel
 
@@ -57,7 +57,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
-Skapar ett vanligt textdokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
+Skapar ett vanligt textdokument från en fil. Gör det möjligt att ange ytterligare alternativ, till exempel ett krypteringslösenord.
 
 ```csharp
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
@@ -65,7 +65,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fileName | String | Namnet på filen att extrahera texten från. |
+| fileName | String | Namn på filen att extrahera texten från. |
 | loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara`null`. |
 
 ### Undantag
@@ -73,11 +73,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | undantag | skick |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
-| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
-| IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
-| ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte läsas in. |
+| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklarna. |
+| IOException | Det finns ett indata/utdata-undantag. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du angav ett felaktigt lösenord. |
+| ArgumentException | Filnamnet får inte vara null eller en tom sträng. |
 
 ## Exempel
 
@@ -112,7 +112,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(*Stream*) {#constructor}
 
-Skapar ett vanligt textdokument från en ström. Upptäcker automatiskt filformatet.
+Skapar ett vanligt textdokument från en ström. Identifierar automatiskt filformatet.
 
 ```csharp
 public PlainTextDocument(Stream stream)
@@ -127,21 +127,21 @@ public PlainTextDocument(Stream stream)
 | undantag | skick |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
-| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
-| IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte läsas in. |
+| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklarna. |
+| IOException | Det finns ett indata/utdata-undantag. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du angav ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
-| ObjectDisposedException | Strömmen är ett kasserat föremål. |
+| ObjectDisposedException | Strömmen är ett avfallsobjekt. |
 
 ## Anmärkningar
 
-Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
+Dokumentet måste lagras i början av strömmen. Strömmen måste stödja slumpmässig positionering.
 
 ## Exempel
 
-Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext med stream.
+Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext med hjälp av stream.
 
 ```csharp
 Document doc = new Document();
@@ -168,7 +168,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
-Skapar ett vanligt textdokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
+Skapar ett vanligt textdokument från en ström. Gör det möjligt att ange ytterligare alternativ, till exempel ett krypteringslösenord.
 
 ```csharp
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
@@ -184,21 +184,21 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | undantag | skick |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
-| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
-| IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte läsas in. |
+| Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklarna. |
+| IOException | Det finns ett indata/utdata-undantag. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du angav ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
-| ObjectDisposedException | Strömmen är ett kasserat föremål. |
+| ObjectDisposedException | Strömmen är ett avfallsobjekt. |
 
 ## Anmärkningar
 
-Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
+Dokumentet måste lagras i början av strömmen. Strömmen måste stödja slumpmässig positionering.
 
 ## Exempel
 
-Visar hur man laddar innehållet i ett krypterat Microsoft Word-dokument i klartext med stream.
+Visar hur man laddar innehållet i ett krypterat Microsoft Word-dokument i klartext med hjälp av stream.
 
 ```csharp
 Document doc = new Document();

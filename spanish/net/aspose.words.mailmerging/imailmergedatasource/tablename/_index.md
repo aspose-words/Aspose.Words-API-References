@@ -3,7 +3,7 @@ title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words para .NET
-description: IMailMergeDataSource TableName propiedad. Devuelve el nombre de la fuente de datos en C#.
+description: Descubra la propiedad IMailMergeDataSource TableName para acceder fácilmente al nombre de su fuente de datos y mejorar su proceso de automatización de documentos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,17 +18,17 @@ public string TableName { get; }
 
 ### Valor_devuelto
 
-El nombre de la fuente de datos. Cadena vacía si la fuente de datos no tiene nombre.
+Nombre de la fuente de datos. Cadena vacía si la fuente de datos no tiene nombre.
 
 ## Observaciones
 
-Si estás implementando[`IMailMergeDataSource`](../), devuelve el nombre de la fuente data de esta propiedad.
+Si está implementando[`IMailMergeDataSource`](../), devuelve el nombre de la fuente data de esta propiedad.
 
 Aspose.Words utiliza este nombre para compararlo con el nombre de la región de combinación de correspondencia especificado en el documento de plantilla. La comparación entre el nombre de la fuente de datos y el nombre de la región de combinación de correspondencia no distingue entre mayúsculas y minúsculas.
 
 ## Ejemplos
 
-Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
+Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de un objeto personalizado.
 
 ```csharp
 public void CustomDataSource()
@@ -69,8 +69,8 @@ public class Customer
 }
 
 /// <summary>
- /// Una fuente de datos de combinación de correspondencia personalizada que implementas para permitir Aspose.Words
-/// para combinar datos de correspondencia de sus objetos de Cliente en documentos de Microsoft Word.
+ /// Una fuente de datos de combinación de correspondencia personalizada que se implementa para permitir Aspose.Words
+/// para combinar datos de sus objetos de Cliente en documentos de Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -78,12 +78,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Cuando inicializamos la fuente de datos, su posición debe estar antes del primer registro.
+        // Cuando inicializamos la fuente de datos, su posición debe ser anterior al primer registro.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Aspose.Words lo utiliza solo al ejecutar la combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro de una colección.
+    /// Una implementación estándar para pasar al siguiente registro en una colección.
     /// </summary>
     public bool MoveNext()
     {

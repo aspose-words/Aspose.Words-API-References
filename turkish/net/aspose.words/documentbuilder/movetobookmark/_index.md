@@ -2,10 +2,10 @@
 title: DocumentBuilder.MoveToBookmark
 linktitle: MoveToBookmark
 articleTitle: MoveToBookmark
-second_title: Aspose.Words for .NET
-description: DocumentBuilder MoveToBookmark yöntem. İmleci bir yer imine taşır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder MoveToBookmark yöntemiyle belgelerinizde zahmetsizce gezinin, gelişmiş düzenleme için imleci anında herhangi bir yer işaretine konumlandırın.
 type: docs
-weight: 490
+weight: 530
 url: /tr/net/aspose.words/documentbuilder/movetobookmark/
 ---
 ## MoveToBookmark(*string*) {#movetobookmark}
@@ -22,27 +22,27 @@ public bool MoveToBookmark(string bookmarkName)
 
 ### Geri dönüş değeri
 
-`doğru` yer imi bulunursa;`YANLIŞ` aksi takdirde.
+`doğru` yer imi bulunduysa;`YANLIŞ` aksi takdirde.
 
 ## Notlar
 
-İmleci, belirtilen adındaki yer iminin başlangıcından hemen sonraki bir konuma taşır.
+İmleci, belirtilen ada sahip yer iminin başlangıcından hemen sonraki bir konuma taşır.
 
-Karşılaştırma büyük/küçük harfe duyarlı değildir. Yer imi bulunamazsa,`YANLIŞ` is döndürüldü ve imleç hareket etmiyor.
+Karşılaştırma büyük/küçük harfe duyarlı değildir. Yer imi bulunamadıysa,`YANLIŞ` is döndürüldü ve imleç hareket ettirilmedi.
 
-Yeni metin eklemek, yer imindeki mevcut metnin yerini almaz.
+Yeni metin eklemek, yer iminin mevcut metnini değiştirmez.
 
-Belgedeki bazı yer imlerinin form alanlarına atandığını unutmayın. Böyle bir yer imine gitmek ve oraya metin eklemek, metni form alan koduna ekler. Bu, form alanını geçersiz kılmasa da, insert metni, alan kodunun bir parçası haline geldiğinden görünmeyecektir.
+Belgedeki bazı yer imlerinin form alanlarına atandığını unutmayın. Böyle bir yer imine gidip oraya metin eklemek, metni form alan koduna ekler. Bu, form alanını geçersiz kılmasa da, inserted metni alan kodunun bir parçası haline geldiği için görünmez.
 
 ## Örnekler
 
-Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
+Bir belge oluşturucunun imlecinin bir belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer imi, bir yer imi başlangıç düğümünün çevrelediği düğümlerden oluşan bir varlık oluşturun,
+// Yer imi başlangıç düğümü tarafından çevrelenen düğümlerden oluşan bir varlık olan geçerli bir yer imi oluşturun,
  // ve bir yer imi bitiş düğümü.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -56,26 +56,26 @@ Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
 // Belge oluşturucunun imleci her zaman en son eklediğimiz düğümün önündedir.
-// Oluşturucunun imleci belgenin sonundaysa, geçerli düğümü boş olacaktır.
-// Önceki düğüm, en son eklediğimiz yer işareti bitiş düğümüdür.
-// Oluşturucuyla yeni düğümler eklemek onları son düğüme ekleyecektir.
+// Eğer oluşturucunun imleci belgenin sonunda ise, geçerli düğümü boş olacaktır.
+// Önceki düğüm, en son eklediğimiz yer imi son düğümüdür.
+// Builder ile yeni düğümler eklendiğinde, bunlar son düğüme eklenecektir.
 Assert.Null(builder.CurrentNode);
 
-// Oluşturucu ile belgenin farklı bir bölümünü düzenlemek istiyorsak,
-// imlecini düzenlemek istediğimiz düğüme getirmemiz gerekecek.
+// Belgenin farklı bir bölümünü oluşturucuyla düzenlemek istersek,
+// Düzenlemek istediğimiz düğüme imleci getirmemiz gerekecek.
 builder.MoveToBookmark("MyBookmark");
 
-// Bunu bir yer imine taşımak, onu yer işareti başlangıç ve bitiş düğümleri içindeki ilk düğüme, yani ekteki çalıştırmaya taşıyacaktır.
+// Bunu bir yer imine taşımak, onu yer imi başlangıç ve bitiş düğümleri içindeki ilk düğüme, yani kapalı çalışmaya taşıyacaktır.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
-// İmleci bunun gibi tek bir düğüme de taşıyabiliriz.
+// İmleci bu şekilde tek bir düğüme de taşıyabiliriz.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
 Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Bir belgenin başına/sonuna gitmek için belirli yöntemler kullanabiliriz.
+// Bir belgenin başına/sonuna gitmek için belirli yöntemleri kullanabiliriz.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);
@@ -95,7 +95,7 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 ## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
-İmleci daha büyük bir hassasiyetle yer imine taşır.
+İmleci daha büyük bir hassasiyetle bir yer imine taşır.
 
 ```csharp
 public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
@@ -104,39 +104,39 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | bookmarkName | String | İmlecin taşınacağı yer iminin adı. |
-| isStart | Boolean | Ne zaman`doğru` , imleci yer iminin başına taşır. Ne zaman`YANLIŞ`, imleci yer iminin sonuna taşır. |
-| isAfter | Boolean | Ne zaman`doğru` , imleci Bookmark başlangıç veya bitiş konumundan sonraya taşır. Ne zaman`YANLIŞ`, imleci Bookmark başlangıç veya bitiş konumundan önceye taşır. |
+| isStart | Boolean | Ne zaman`doğru` , imleci yer iminin başına taşır. `YANLIŞ`, imleci yer iminin sonuna taşır. |
+| isAfter | Boolean | Ne zaman`doğru` , imleci bookmark başlangıç veya bitiş konumundan sonraya taşır.`YANLIŞ`imleci bookmark başlangıç veya bitiş konumundan önceye taşır. |
 
 ### Geri dönüş değeri
 
-`doğru` yer imi bulunursa;`YANLIŞ` aksi takdirde.
+`doğru` yer imi bulunduysa;`YANLIŞ` aksi takdirde.
 
 ## Notlar
 
-İmleci yer imi başlangıcından veya bitişinden önce veya sonra bir konuma taşır.
+İmleci yer imi başlangıcından veya bitişinden önceki veya sonraki bir konuma taşır.
 
 İstenilen konum satır içi düzeyde değilse bir sonraki paragrafa geçer.
 
-Karşılaştırma büyük/küçük harfe duyarlı değildir. Yer imi bulunamazsa,`YANLIŞ` is döndürüldü ve imleç hareket etmiyor.
+Karşılaştırma büyük/küçük harfe duyarlı değildir. Yer imi bulunamadıysa,`YANLIŞ` is döndürüldü ve imleç hareket ettirilmedi.
 
 ## Örnekler
 
-Belge oluşturucunun düğüm ekleme noktası imlecinin bir yer imine nasıl taşınacağını gösterir.
+Bir belge oluşturucunun düğüm ekleme noktası imlecinin bir yer imine nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer imi, bir BookmarkStart düğümünden ve bir BookmarkEnd düğümünden oluşur.
-// yer imi adının daha sonra bir yerde eşleştirilmesi ve bu düğümlerin içerdiği içerikler.
+// Geçerli bir yer imi, bir BookmarkStart düğümünden, bir BookmarkEnd düğümünden oluşur.
+// sonrasında bir yerde eşleşen yer imi adı ve bu düğümlerin çevrelediği içerikler.
 builder.StartBookmark("MyBookmark");
 builder.Write("Hello world! ");
 builder.EndBookmark("MyBookmark");
 
-// Belge oluşturucunun imlecini yer imine taşımanın 4 yolu vardır.
-// BookmarkStart ve BookmarkEnd düğümleri arasındaysak imleç yer iminin içinde olacaktır.
+// Bir belge oluşturucunun imlecini bir yer imine taşımanın 4 yolu vardır.
+// Eğer BookmarkStart ve BookmarkEnd düğümleri arasındaysak, imleç yer iminin içerisinde olacaktır.
 // Bu, oluşturucu tarafından eklenen herhangi bir metnin yer iminin bir parçası olacağı anlamına gelir.
-// 1 - Yer iminin dışında, BookmarkStart düğümünün önünde:
+// 1 - Yer işaretinin dışında, BookmarkStart düğümünün önünde:
 Assert.True(builder.MoveToBookmark("MyBookmark", true, false));
 builder.Write("1. ");
 
@@ -157,7 +157,7 @@ builder.Write("3. ");
 Assert.AreEqual("2. Hello world! 3. ", doc.Range.Bookmarks["MyBookmark"].Text);
 Assert.AreEqual("1. 2. Hello world! 3.", doc.GetText().Trim());
 
-// 4 - Yer iminin dışında, BookmarkEnd düğümünden sonra:
+// 4 - Yer işaretinin dışında, BookmarkEnd düğümünden sonra:
 Assert.True(builder.MoveToBookmark("MyBookmark", false, true));
 builder.Write("4.");
 

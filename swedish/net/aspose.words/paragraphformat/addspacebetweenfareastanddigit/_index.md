@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words för .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit fast egendom. Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av siffror och regioner av östasiatisk text i det aktuella stycket i C#.
+description: Optimera dokumentets layout med egenskapen AddSpaceBetweenFarEastAndDigit, vilket förbättrar läsbarheten genom att justera avståndet mellan östasiatisk text och siffror.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av siffror och regioner av östasiatisk text i det aktuella stycket.
+Hämtar eller ställer in en flagga som anger om avståndet mellan tecken justeras automatiskt mellan regioner av siffror och regioner av östasiatisk text i det aktuella stycket.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

@@ -3,14 +3,14 @@ title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
 second_title: Aspose.Words para .NET
-description: Cluster Codepoints propiedad. Obtiene puntos de código del clúster en C#.
+description: Descubra la propiedad Puntos de código de clúster para recuperar de manera eficiente los puntos de código de clúster y mejorar sus capacidades de administración de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.shaping/cluster/codepoints/
 ---
 ## Cluster.Codepoints property
 
-Obtiene puntos de código del clúster.
+Obtiene los puntos de código del clúster.
 
 ```csharp
 public int[] Codepoints { get; }

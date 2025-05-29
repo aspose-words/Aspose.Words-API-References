@@ -3,16 +3,16 @@ title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.NodeCollection فصل. يمثل مجموعة من العقد من نوع معين في C#.
+description: اكتشف فئة Aspose.Words.NodeCollection، الحل الأمثل لإدارة أنواع العقد المتنوعة بكفاءة في معالجة المستندات. حسّن سير عملك اليوم!
 type: docs
-weight: 4200
+weight: 4890
 url: /ar/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 يمثل مجموعة من العقد من نوع معين.
 
-لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[نموذج كائن المستند (DOM) في Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -22,38 +22,38 @@ public class NodeCollection : IEnumerable<Node>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count/) { get; } | الحصول على عدد العقد في المجموعة. |
-| [Item](../../aspose.words/nodecollection/item/) { get; } | يسترد عقدة في الفهرس المحدد. |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | يحصل على عدد العقد في المجموعة. |
+| [Item](../../aspose.words/nodecollection/item/) { get; } | يسترجع عقدة عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | إضافة عقدة إلى نهاية المجموعة. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | إدراج عقدة في المجموعة في الفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | إزالة العقدة من المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | يضيف عقدة إلى نهاية المجموعة. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | يزيل جميع العقد من هذه المجموعة ومن المستند. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | يحدد ما إذا كانت العقدة موجودة في المجموعة. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا بأسلوب "foreach" عبر مجموعة العقد. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | يعيد الفهرس المبني على الصفر للعقدة المحددة. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | يقوم بإدراج عقدة في المجموعة عند الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | يزيل العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | يزيل العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | نسخ جميع العقد من المجموعة إلى مجموعة جديدة من العقد. |
 
 ## ملاحظات
 
-`NodeCollection` لا يمتلك العقد التي يحتوي عليها، بل هو مجرد مجموعة مختارة من العقد من النوع المحدد، ولكن يتم تخزين العقد في الشجرة تحت العقد الأصلية الخاصة بها.
+`NodeCollection` لا يمتلك العقد التي يحتويها، بل هو مجرد مجموعة مختارة من nodes من النوع المحدد، ولكن يتم تخزين العقد في الشجرة أسفل العقد الأصلية الخاصة بها.
 
-`NodeCollection`يدعم الوصول المفهرس والتكرار ويوفر طرق الإضافة والإزالة.
+`NodeCollection` يدعم الوصول المفهرس والتكرار ويوفر طرق الإضافة والإزالة.
 
-ال`NodeCollection` المجموعة "مباشرة"، أي أن التغييرات التي يتم إجراؤها على العناصر الفرعية للعقدة object التي تم إنشاؤها منها تنعكس فورًا في العقد التي يتم إرجاعها بواسطة`NodeCollection` الخصائص والأساليب.
+ال`NodeCollection` المجموعة "حية"، أي أن التغييرات التي تطرأ على أبناء العقدة object التي تم إنشاؤها منها تنعكس على الفور في العقد التي تم إرجاعها بواسطة`NodeCollection` خصائص وطرق .
 
-`NodeCollection` يتم إرجاعها بواسطة[`GetChildNodes`](../compositenode/getchildnodes/) ويعمل أيضًا كفئة أساسية لمجموعات العقدة المكتوبة مثل[`SectionCollection`](../sectioncollection/)[`ParagraphCollection`](../paragraphcollection/) إلخ.
+`NodeCollection` يتم إرجاعه بواسطة[`GetChildNodes`](../compositenode/getchildnodes/) ويعمل أيضًا كفئة أساسية لمجموعات العقد المكتوبة مثل[`SectionCollection`](../sectioncollection/) ، [`ParagraphCollection`](../paragraphcollection/) إلخ.
 
-`NodeCollection` يمكن أن تكون "مسطحة" وتحتوي فقط على العناصر الفرعية المباشرة للعقدة التي تم إنشاؤها منها، أو يمكن أن تكون "عميقة" وتحتوي على جميع العناصر الفرعية.
+`NodeCollection`يمكن أن يكون "مسطحًا" ويحتوي فقط على أبناء مباشرين للعقدة التي تم إنشاؤه منها ، أو يمكن أن يكون "عميقًا" ويحتوي على جميع الأطفال المنحدرين.
 
 ## أمثلة
 
-يوضح كيفية استبدال جميع أشكال مربعات النص بأشكال الصور.
+يوضح كيفية استبدال كافة أشكال مربع النص بأشكال الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

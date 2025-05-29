@@ -3,14 +3,14 @@ title: FieldCreateDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words для .NET
-description: FieldCreateDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
+description: Управляйте форматами дат без усилий с помощью свойства FieldCreateDate UseLunarCalendar. Выбирайте между календарями Хиджры и еврейского лунного для точного планирования.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+Возвращает или задает, использовать ли лунный календарь Хиджры или еврейский лунный календарь.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }

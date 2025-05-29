@@ -2,8 +2,8 @@
 title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionGroup Author 财产. 获取此修订组的作者 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 RevisionGroup Author 属性可以轻松识别每个修订组的作者，从而提高您的文档管理效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revisiongroup/author/
@@ -18,7 +18,7 @@ public string Author { get; }
 
 ## 例子
 
-演示如何打印有关文档中一组修订的信息。
+展示如何打印有关文档中一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

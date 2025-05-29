@@ -3,14 +3,14 @@ title: Document.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words لـ .NET
-description: Document OriginalFileName ملكية. الحصول على اسم الملف الأصلي للمستند في C#.
+description: استرجاع اسم الملف الأصلي لمستندك بسهولة باستخدام خاصية "اسم الملف الأصلي للمستند". حسّن سير عملك وتنظيمك اليوم!
 type: docs
-weight: 290
+weight: 300
 url: /ar/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
 
-الحصول على اسم الملف الأصلي للمستند.
+يحصل على اسم الملف الأصلي للمستند.
 
 ```csharp
 public string OriginalFileName { get; }
@@ -18,7 +18,7 @@ public string OriginalFileName { get; }
 
 ## ملاحظات
 
-عائدات`باطل` إذا تم تحميل المستند من دفق أو تم إنشاؤه فارغًا.
+الإرجاعات`باطل` إذا تم تحميل المستند من مجرى أو تم إنشاؤه فارغًا.
 
 ## أمثلة
 
@@ -31,10 +31,10 @@ Assert.AreEqual(MyDir + "Document.docx", doc.OriginalFileName);
 Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 ```
 
-يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
+يوضح كيفية استخدام طرق FileFormatUtil للكشف عن تنسيق المستند.
 
 ```csharp
-// قم بتحميل مستند من ملف يفتقد امتداد الملف، ثم اكتشف تنسيق الملف الخاص به.
+// قم بتحميل مستند من ملف يفتقد ملحق الملف، ثم اكتشف تنسيق الملف الخاص به.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -42,15 +42,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المطابق له.
+    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المقابل له.
     // 1 - احصل على سلسلة امتداد الملف لـ LoadFormat، ثم احصل على SaveFormat المقابل من تلك السلسلة:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - تحويل LoadFormat مباشرةً إلى SaveFormat الخاص به:
+    // 2 - تحويل LoadFormat مباشرة إلى SaveFormat الخاص به:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // قم بتحميل مستند من الدفق، ثم احفظه في ملحق الملف الذي تم اكتشافه تلقائيًا.
+    // قم بتحميل مستند من الدفق، ثم احفظه في امتداد الملف الذي تم اكتشافه تلقائيًا.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

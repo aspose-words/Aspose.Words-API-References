@@ -3,7 +3,7 @@ title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words per .NET
-description: ChartXValue FromTimeSpan metodo. Crea unChartXValue istanza delTime tipo in C#.
+description: Scopri il metodo ChartXValue FromTimeSpan per creare facilmente istanze di tipo Tempo e migliorare la tua esperienza di visualizzazione dei dati.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/

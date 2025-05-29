@@ -3,14 +3,14 @@ title: FolderFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: FolderFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
+description: اكتشف خاصية نوع مصدر خط المجلد. حدّد أنواع مصادر الخطوط بسهولة لتحسين مشاريع التصميم وتبسيط سير عملك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/folderfontsource/type/
 ---
 ## FolderFontSource.Type property
 
-إرجاع نوع مصدر الخط.
+يعيد نوع مصدر الخط.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,10 +18,10 @@ public override FontSourceType Type { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
+يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخطوط.
 
 ```csharp
-// قم بإنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
+// قم بإنشاء مصدر الخط من مجلد يحتوي على ملفات الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

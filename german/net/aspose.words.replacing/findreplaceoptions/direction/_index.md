@@ -3,14 +3,14 @@ title: FindReplaceOptions.Direction
 linktitle: Direction
 articleTitle: Direction
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions Direction eigendom. Wählt die Richtung zum Ersetzen aus. Der Standardwert istForward  in C#.
+description: Entdecken Sie die Eigenschaft „FindReplaceOptions Direction“, um Ihre Ersetzungsfunktion anzupassen. Wählen Sie zwischen „Vorwärts“ und „Rückwärts“ für optimale Ergebnisse.
 type: docs
 weight: 40
 url: /de/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-Wählt die Richtung zum Ersetzen aus. Der Standardwert istForward .
+Wählt die Richtung für das Ersetzen. Der Standardwert istForward .
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -18,7 +18,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie bestimmen, in welche Richtung ein Suchen-und-Ersetzen-Vorgang das Dokument durchläuft.
+Zeigt, wie ermittelt wird, in welche Richtung ein Suchen-und-Ersetzen-Vorgang das Dokument durchläuft.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -26,23 +26,23 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Drei Läufe einfügen, nach denen wir mithilfe eines Regex-Musters suchen können.
-    // Platziere einen dieser Läufe in einem Textfeld.
+    // Fügen Sie drei Läufe ein, nach denen wir mithilfe eines Regex-Musters suchen können.
+    // Platzieren Sie einen dieser Läufe in einem Textfeld.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
     builder.Writeln("Match 4.");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Weisen Sie der Eigenschaft „ReplacingCallback“ einen benutzerdefinierten Rückruf zu.
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // Setzen Sie die Eigenschaft „Direction“ auf „FindReplaceDirection.Backward“, um das Suchen und Ersetzen zu erhalten
+    // Setzen Sie die Eigenschaft "Direction" auf "FindReplaceDirection.Backward", um die Suchen-und-Ersetzen-Funktion zu erhalten
     // Operation, um am Ende des Bereichs zu beginnen und zum Anfang zurückzukehren.
-    // Setzen Sie die Eigenschaft „Direction“ auf „FindReplaceDirection.Backward“, um das Suchen und Ersetzen zu erhalten
+    // Setzen Sie die Eigenschaft "Direction" auf "FindReplaceDirection.Forward", um die Suchen-und-Ersetzen-Funktion zu erhalten
     // Operation, um am Anfang des Bereichs zu beginnen und bis zum Ende zu durchlaufen.
     options.Direction = findReplaceDirection;
 
@@ -65,7 +65,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// Zeichnet alle Übereinstimmungen auf, die während eines Such- und Ersetzungsvorgangs auftreten, in der Reihenfolge, in der sie stattfinden.
+/// Zeichnet alle Übereinstimmungen auf, die während einer Suchen-und-Ersetzen-Operation auftreten, und zwar in der Reihenfolge, in der sie stattfinden.
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

@@ -3,14 +3,14 @@ title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: CompositeNode GetEnumerator طريقة. يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة في C#.
+description: استكشف طريقة CompositeNode GetEnumerator لتكرار سلس على العقد الفرعية. حسّن كفاءة ترميزك مع هذه الميزة الفعّالة!
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة.
+يوفر الدعم لكل تكرار للأسلوب على العقد الفرعية لهذه العقدة.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -18,44 +18,25 @@ public IEnumerator<Node> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
+يوضح كيفية طباعة كافة تعليقات المستند وردودها.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Comments.docx");
 
-// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
-
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
-
-paragraph.AppendChild(new Run(doc, "Hello again!"));
-
-// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
-// وطباعة أي مسارات أو أشكال نجدها داخلها.
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
-
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
+NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+// إذا لم يكن للتعليق سلف، فهو تعليق "على مستوى أعلى" وليس تعليق من نوع الرد.
+// اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
+{
+    Console.WriteLine("Top-level comment:");
+    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+    Console.WriteLine($"Has {comment.Replies.Count} replies");
+    foreach (Comment commentReply in comment.Replies)
     {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
+        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
     }
+    Console.WriteLine();
+}
 ```
 
 ### أنظر أيضا

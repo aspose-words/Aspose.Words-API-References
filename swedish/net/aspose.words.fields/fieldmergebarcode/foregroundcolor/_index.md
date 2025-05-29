@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words för .NET
-description: FieldMergeBarcode ForegroundColor fast egendom. Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet 0 0xFFFFFF i C#.
+description: Upptäck egenskapen FieldMergeBarcode ForegroundColor för att anpassa din streckkods utseende. Ställ enkelt in färger med värden från 0 till 0xFFFFFF!
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
 ---
 ## FieldMergeBarcode.ForegroundColor property
 
-Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet [0, 0xFFFFFF]
+Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga värden är inom intervallet [0, 0xFFFFFF]
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -18,14 +18,14 @@ public string ForegroundColor { get; set; }
 
 ## Exempel
 
-Visar hur man utför en sammanfogning på QR-streckkoder.
+Visar hur man utför en dokumentkoppling på QR-streckkoder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Detta fält kommer att konvertera alla värden i en sammanslagningsdatakällas "MyQRCode"-kolumn till QR-koder.
+// Infoga ett fält för MERGEBARCODE, som accepterar värden från en datakälla under en dokumentkoppling.
+// Det här fältet konverterar alla värden i kolumnen "MyQRCode" i en sammanfogad datakälla till QR-koder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -43,9 +43,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Skapa en DataTable med en kolumn med samma namn som vårt MERGEBARCODE-fälts BarcodeValue.
-// Brevkopplingen skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
-// som kommer att visa en QR-kod med värdet från den sammanslagna raden.
+// Skapa en datatabell med en kolumn med samma namn som vårt MERGEBARCODE-fälts streckkodsvärde.
+// Kopplad utskrifter skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
+// vilket visar en QR-kod med värdet från den sammanslagna raden.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

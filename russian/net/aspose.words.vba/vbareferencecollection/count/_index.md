@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: VbaReferenceCollection Count свойство. Возвращает количество ссылок VBA в коллекции на С#.
+description: Откройте для себя свойство VBA Reference Collection Count, которое позволяет легко извлекать и управлять общим количеством ссылок VBA для эффективного кодирования.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbareferencecollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

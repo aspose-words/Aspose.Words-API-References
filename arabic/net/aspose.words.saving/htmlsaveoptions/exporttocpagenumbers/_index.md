@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportTocPageNumbers ملكية. يحدد ما إذا كان سيتم كتابة أرقام الصفحات في جدول المحتويات عند حفظ HTML وMHTML وEPUB. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تحكم في أرقام صفحات جدول المحتويات في صيغ HTML وMHTML وEPUB باستخدام خيارات حفظ Html. حسّن تجربة المستخدم وتصفحه بسهولة!
 type: docs
 weight: 270
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -24,9 +24,9 @@ public bool ExportTocPageNumbers { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج جدول محتويات، ثم املأ المستند بالفقرات المنسقة باستخدام "العنوان"
-// النمط الذي سيلتقطه جدول المحتويات كمدخلات. سيعرض كل إدخال فقرة العنوان على اليسار،
-// ورقم الصفحة التي تحتوي على العنوان الموجود على اليمين.
+// إدراج جدول المحتويات، ثم ملء المستند بالفقرات المنسقة باستخدام "العنوان"
+// النمط الذي سيختاره جدول المحتويات كمدخلات. سيعرض كل مدخل فقرة العنوان على اليسار.
+// ورقم الصفحة التي تحتوي على العنوان على اليمين.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 1"];
@@ -40,12 +40,12 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// مستندات HTML لا تحتوي على صفحات. إذا قمنا بحفظ هذا المستند إلى HTML،
-// أرقام الصفحات التي يعرضها جدول المحتويات الخاص بنا لن يكون لها أي معنى.
-// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لحذف أرقام الصفحات هذه من جدول المحتويات.
-// إذا قمنا بتعيين علامة "ExportTocPageNumbers" على "صحيح"،
+// مستندات HTML لا تحتوي على صفحات. إذا حفظنا هذه الوثيقة بتنسيق HTML،
+// لن يكون لأرقام الصفحات التي يعرضها جدول المحتويات لدينا أي معنى.
+// عندما نحفظ المستند بتنسيق HTML، يمكننا تمرير كائن SaveOptions لحذف أرقام الصفحات هذه من جدول المحتويات.
+// إذا قمنا بتعيين علامة "ExportTocPageNumbers" إلى "true"،
 // سيعرض كل إدخال في جدول المحتويات العنوان والفاصل ورقم الصفحة، مع الحفاظ على مظهره في Microsoft Word.
-// إذا قمنا بتعيين علامة "ExportTocPageNumbers" على "خطأ"،
+// إذا قمنا بتعيين علامة "ExportTocPageNumbers" إلى "false"،
 // ستؤدي عملية الحفظ إلى حذف الفاصل ورقم الصفحة وترك عنوان كل إدخال كما هو.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 

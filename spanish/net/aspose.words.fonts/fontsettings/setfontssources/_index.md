@@ -3,7 +3,7 @@ title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
 second_title: Aspose.Words para .NET
-description: FontSettings SetFontsSources método. Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes en C#.
+description: Descubra cómo el método SetFontsSources en Aspose.Words mejora la representación de documentos al especificar fuentes TrueType para obtener resultados óptimos.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fonts/fontsettings/setfontssources/
@@ -18,13 +18,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
+| sources | FontSourceBase[] | Una matriz de fuentes que contienen fuentes TrueType. |
 
 ## Observaciones
 
 De forma predeterminada, Aspose.Words busca fuentes instaladas en el sistema.
 
-Establecer esta propiedad restablece el caché de todas las fuentes cargadas anteriormente.
+Al establecer esta propiedad se restablece el caché de todas las fuentes cargadas previamente.
 
 ## Ejemplos
 
@@ -47,19 +47,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// A la fuente de fuente predeterminada le faltan dos de las fuentes que estamos usando en nuestro documento.
-// Cuando guardemos este documento, Aspose.Words aplicará fuentes alternativas a todo el texto formateado con fuentes inaccesibles.
+//A la fuente de fuente predeterminada le faltan dos de las fuentes que estamos usando en nuestro documento.
+// Cuando guardemos este documento, Aspose.Words aplicará fuentes de respaldo a todo el texto formateado con fuentes inaccesibles.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
 // Crea una fuente de fuente desde una carpeta que contiene fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Aplique una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
+// Aplicar una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de procesar el documento en PDF.
+// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de convertir el documento a PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -68,7 +68,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Restaurar las fuentes de fuentes originales.
+// Restaurar las fuentes originales.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-Establece las fuentes donde Aspose.Words busca fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada .
+Establece las fuentes donde Aspose.Words busca fuentes TrueType y, además, carga el caché de búsqueda de fuentes guardado previamente.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -91,16 +91,16 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
+| sources | FontSourceBase[] | Una matriz de fuentes que contienen fuentes TrueType. |
 | cacheInputStream | Stream | Flujo de entrada con caché de búsqueda de fuentes guardadas. |
 
 ## Observaciones
 
-Cargar la caché de búsqueda de fuentes previamente guardada acelerará el proceso de inicialización de la caché de fuentes. Es especialmente útil cuando el acceso a las fuentes de fuentes es complicado (por ejemplo, cuando las fuentes se cargan a través de la red).
+Cargar la caché de búsqueda de fuentes previamente guardada acelerará el proceso de inicialización de la caché de fuentes. Esto es especialmente útil cuando el acceso a las fuentes es complicado (por ejemplo, al cargar las fuentes a través de la red).
 
-Al guardar y cargar el caché de búsqueda de fuentes, las fuentes en las fuentes proporcionadas se identifican mediante la clave de caché. Para las fuentes en el[`SystemFontSource`](../../systemfontsource/) y[`FolderFontSource`](../../folderfontsource/) La clave de caché es la ruta al archivo de fuente. Para[`MemoryFontSource`](../../memoryfontsource/) y[`StreamFontSource`](../../streamfontsource/) La clave de caché está definida en el[`CacheKey`](../../memoryfontsource/cachekey/) y[`CacheKey`](../../streamfontsource/cachekey/) propiedades respectivamente. Para el[`FileFontSource`](../../filefontsource/) la clave de caché es[`CacheKey`](../../filefontsource/cachekey/) propiedad o una ruta de archivo si el[`CacheKey`](../../filefontsource/cachekey/) es`nulo`.
+Al guardar y cargar la caché de búsqueda de fuentes, las fuentes en las fuentes proporcionadas se identifican a través de la clave de caché. Para las fuentes en la[`SystemFontSource`](../../systemfontsource/) y[`FolderFontSource`](../../folderfontsource/) La clave de caché es la ruta al archivo de fuente. Para[`MemoryFontSource`](../../memoryfontsource/) y[`StreamFontSource`](../../streamfontsource/)La clave de caché está definida en el[`CacheKey`](../../memoryfontsource/cachekey/) y[`CacheKey`](../../streamfontsource/cachekey/) propiedades respectivamente. Para el[`FileFontSource`](../../filefontsource/) La clave de caché es[`CacheKey`](../../filefontsource/cachekey/) propiedad o una ruta de archivo si[`CacheKey`](../../filefontsource/cachekey/) es`nulo`.
 
-Se recomienda encarecidamente proporcionar las mismas fuentes de fuentes al cargar el caché que en el momento en que se guardó. Cualquier cambio en las fuentes de fuentes (por ejemplo, agregar nuevas fuentes, mover archivos de fuentes o cambiar la clave de caché) puede provocar que la fuente sea inexacta. resolviendo por Aspose.Words.
+Se recomienda encarecidamente proporcionar las mismas fuentes de fuentes al cargar el caché que en el momento en que se guardó el caché. Cualquier cambio en las fuentes de fuentes (por ejemplo, agregar nuevas fuentes, mover archivos de fuentes o cambiar la clave de caché) puede provocar una resolución de fuente incorrecta por parte de Aspose.Words.
 
 ## Ejemplos
 
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -134,7 +134,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
